@@ -1,36 +1,25 @@
-# community
+# openEuler Community
 
-#### Description
-openEuler content for getting started the community
+Welcome to openEuler community! this repository will guide you getting started for joinning and contributting to openEuler community. this would be a good startting point for any activity in openEuler community.
 
-#### Software Architecture
-Software architecture description
+### Communicatting 
 
-#### Installation
-
-1. xxxx
-2. xxxx
-3. xxxx
-
-#### Instructions
-
-1. xxxx
-2. xxxx
-3. xxxx
-
-#### Contribution
-
-1. Fork the repository
-2. Create Feat_xxx branch
-3. Commit your code
-4. Create Pull Request
+The [Communicatting](en/communication.md) lists all the communication channels includes chat(IRCs), mail(mail lists), meeting(meeting channels). by which you can join openEuler community with a good start point.
 
 
-#### Gitee Feature
 
-1. You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2. Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3. Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4. The most valuable open source project [GVP](https://gitee.com/gvp)
-5. The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6. The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+### Learn to use
+
+Please refer to [Learning](en/use-guide.md) leading to relavant technical of using guide.
+
+
+### Contributting
+
+Picking the [Sigs](en/Sigs.md) would be a good start for first step of contribution. after that, joinning into the IRC channel, and subscribe the relavant mail list. each Sig has the set of issue with "Help wanted" label that will help new contributor to start his first contribution. other more, fixing the docs issue would be another good start point for who is not fimiliar the coding.
+
+The [CONTRIBUTING.md] in each project provided the detailed instruction on how to do contribution step by step. however, before you submit the PR, please make sure the [CLA](en/CLA.md) signed.
+
+
+### Members
+
+
