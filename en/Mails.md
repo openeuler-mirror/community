@@ -42,10 +42,9 @@ content: NA
 
 ### Sending Email
 
-There is nothing difference between sending email to list and to single address. just do it as normal. 
-Add a prefix with channel name in brackets([dev]) into subject would be a good practise. 
+There are two kinds of list the Announce and Discussion, for Discussion,there is nothing difference between sending email to list and to other private address, just send it as normal,adding a prefix with channel name in brackets([dev]) into subject would be a good practise but not mandate. however, Announce only be used to publish message or notice, it won't accept any mail delivery.  
 
-e.g. [dev] Ask for help
+note: if you cann't recieve any mail in income box, please firstly check your spam box. 
 
 ### Leaving Mail List
 
@@ -55,3 +54,13 @@ If you want to leave a joined mail list, please take the following steps:
 > 2) Reply the confirm email without any modification.
 
 You have been out of the list after recieving the unsubcribe email.
+
+
+### Get Help 
+
+If you meet any problem, please contact the infrastructure team via:
+
+- Email: infra@openeuler.org
+- IRC: #openEuler-infra(TO BE DEFINED)
+
+If you find any issue relevant mail list, please feel free to open an issue in [infrastructure](https://gitee.com/openeuler/infrastructure/issues)
