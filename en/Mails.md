@@ -1,5 +1,7 @@
 # Mail list
 
+### Joining Mail List
+
 Following table shows the mail lists available currently. Please follow the steps to join them according to your interests.
 
 
@@ -37,3 +39,19 @@ recievers: dev-join@openeuler.org
 subject: subscribe
 content: NA
 ```
+
+### Sending Email
+
+There is nothing difference between sending email to list and to single address. just do it as normal. 
+Add a prefix with channel name in brackets([dev]) into subject would be a good practise. 
+
+e.g. [dev] Ask for help
+
+### Leaving Mail List
+
+If you want to leave a joined mail list, please take the following steps:
+
+> 1) Send an email to the ```unsubscribe address``` (list addreess subfix with ```-leave```) with ```unsubscribe``` subject.
+> 2) Reply the confirm email without any modification.
+
+You have been out of the list after recieving the unsubcribe email.
