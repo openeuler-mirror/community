@@ -7,7 +7,7 @@ For every team and sigs, we recommend to use IRC channel as the basic communicat
 
 ### Mail
 
-If you want to start an open topics discussion, sending an email to the relavant mail-list is another good choice. the [Mail lists](Mails.md) lists all the mail list
+If you want to start an open topics discussion, sending an email to the relavant mail-list is another good choice. The [Mail lists](Mails.md) lists all the mail list
 
 
 ### Sig
