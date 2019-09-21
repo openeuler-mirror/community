@@ -17,7 +17,11 @@ Please refer to [Learning](en/use-guide.md) leading to relavant technical of usi
 
 Picking the [Sigs](en/Sigs.md) would be a good start for first step of contribution. after that, joinning into the IRC channel, and subscribe the relavant mail list. each Sig has the set of issue with "Help wanted" label that will help new contributor to start his first contribution. other more, fixing the docs issue would be another good start point for who is not fimiliar the coding.
 
-The [CONTRIBUTING.md] in each project provided the detailed instruction on how to do contribution step by step. however, before you submit the PR, please make sure the [CLA](en/CLA.md) signed.
+The [CONTRIBUTING.md] in each project provided the detailed instruction on how to do contribution step by step. however, before you submit the PR, please make sure the [CLA](en/CLA.md) signed.please follow the steps
+
+> - COPY the CLA(en/CLA.md)
+> - Add your information
+> - Send it to contact@openeuler.org
 
 
 ### Members
