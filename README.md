@@ -19,7 +19,7 @@ Picking the [Sigs](en/Sigs.md) would be a good start for first step of contribut
 
 The [CONTRIBUTING.md] in each project provided the detailed instruction on how to do contribution step by step. however, before you submit the PR, please make sure the [CLA](en/CLA.md) signed.please follow the steps
 
-> - COPY the CLA(en/CLA.md)
+> - COPY the [CLA](en/CLA.md)
 > - Add your information
 > - Send it to contact@openeuler.org
 
