@@ -1,7 +1,7 @@
 ## Sigs
 
 Sigs are groups in community which setting for differecnt domain via interests. 
-each sig will maintain one or more projects.
+Each sig will maintain one or more projects.
 
 ### DOC SIG
 
@@ -13,7 +13,7 @@ Manager:      N/A
 
 ### INFRASTRUCTURE SIG
 
-Infrastructure SIG is responsible for the basic system building. 
+Infrastructure SIG is responsible for the basic system building, 
 e.g. development system, communicating systems.
 
 Project：     https://gitee.com/openeuler/infrastructure
