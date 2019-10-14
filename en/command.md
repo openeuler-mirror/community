@@ -8,7 +8,7 @@ The Commands incluing as follows:
     <thead>
         <tr>
             <th>Command</th>
-            <th>Example</th>
+            <th width="25%">Example</th>
             <th>Description</th>
             <th>Who Can Use</th>
         </tr>
@@ -24,8 +24,8 @@ The Commands incluing as follows:
             <td>
                 Forces rechecking of the CLA status of a Pull Request.
                 If the Pull Request author has already signed CLA,
-                the label `autopeneuler-cla/yes` will be added in the Pull Request,
-                If not, the label `autopeneuler-cla/no` will be added.
+                the label `openeuler-cla/yes` will be added in the Pull Request,
+                If not, the label `openeuler-cla/no` will be added.
             </td>
             <td>
                 Anyone
