@@ -18,7 +18,7 @@ The Commands incluing as follows:
             <td>
                 /check-cla
             </td>
-            <td>
+            <td style="white-space:nowrap;">
                 /check-cla
             </td>
             <td>
@@ -35,7 +35,7 @@ The Commands incluing as follows:
             <td>
                 /lgtm [cancel]
             </td>
-            <td>
+            <td style="white-space:nowrap;">
                 /lgtm
                 <br/>
                 /lgtm cancel
@@ -51,7 +51,7 @@ The Commands incluing as follows:
             <td>
                 /approve [cancel]
             </td>
-            <td>
+            <td style="white-space:nowrap;">
                 /approve
                 <br/>
                 /approve cancel
@@ -67,7 +67,7 @@ The Commands incluing as follows:
             <td>
                 /[remove-]kind
             </td>
-            <td>
+            <td style="white-space:nowrap;">
                 /kind bug
                 <br/>
                 /remove-kind bug
@@ -84,7 +84,7 @@ The Commands incluing as follows:
             <td>
                 /[remove-]priority
             </td>
-            <td>
+            <td style="white-space:nowrap;">
                 /priority high
                 <br/>
                 /remove-priority high
@@ -101,7 +101,7 @@ The Commands incluing as follows:
             <td>
                 /[remove-]sig
             </td>
-            <td>
+            <td style="white-space:nowrap;">
                 /sig kernal
                 <br/>
                 /remove-sig kernal
