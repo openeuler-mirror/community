@@ -104,11 +104,11 @@ The Commands incluing as follows:
             <td style="white-space:nowrap;">
                 /sig kernal
                 <br/>
-                /remove-sig kernal
+                /remove-sig kernel
             </td>
             <td>
                 Applies or removes a sig label from one of the recognized types of labels.
-                For example, the label is more like `sig/kernal`.
+                For example, the label is more like `sig/kernel`.
             </td>
             <td>
                 Anyone can trigger this command on a Pull Request or Issue.
