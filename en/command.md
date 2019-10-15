@@ -102,7 +102,7 @@ The Commands incluing as follows:
                 /[remove-]sig
             </td>
             <td style="white-space:nowrap;">
-                /sig kernal
+                /sig kernel
                 <br/>
                 /remove-sig kernel
             </td>
