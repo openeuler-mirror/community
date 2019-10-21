@@ -114,5 +114,33 @@ The Commands incluing as follows:
                 Anyone can trigger this command on a Pull Request or Issue.
             </td>
         </tr>
+        <tr>
+            <td>
+                /close
+            </td>
+            <td style="white-space:nowrap;">
+                /close
+            </td>
+            <td>
+                Closes an issue.
+            </td>
+            <td>
+                Authors and collaborators on the repository can trigger this command.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                /reopen
+            </td>
+            <td style="white-space:nowrap;">
+                /reopen
+            </td>
+            <td>
+                Reopens an issue.
+            </td>
+            <td>
+                Authors and collaborators on the repository can trigger this command.
+            </td>
+        </tr>
     </tbody>
 </table>
