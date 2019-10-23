@@ -142,5 +142,19 @@ The Commands incluing as follows:
                 Authors and collaborators on the repository can trigger this command.
             </td>
         </tr>
+        <tr>
+            <td>
+                /retest
+            </td>
+            <td style="white-space:nowrap;">
+                /retest
+            </td>
+            <td>
+                Rerun test jobs that have failed.
+            </td>
+            <td>
+                Anyone can trigger this command on a Pull Request.
+            </td>
+        </tr>
     </tbody>
 </table>
