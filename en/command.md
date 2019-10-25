@@ -1,7 +1,7 @@
 ## OpenEuler Community Command Help
 
 All of the projects in OpenEuler Community are maintained by Bot.
-That means the developpers can comment below every pull requst or issue to trigger Bot Commands.
+That means the developpers can comment below every pull request or issue to trigger Bot Commands.
 The Commands incluing as follows:
 
 <table class="command">
