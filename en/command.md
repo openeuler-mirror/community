@@ -156,5 +156,23 @@ The Commands incluing as follows:
                 Anyone can trigger this command on a Pull Request.
             </td>
         </tr>
+        <tr>
+            <td>
+                /assign [[@]...]
+            </td>
+            <td style="white-space:nowrap;">
+                /assign
+                <br/>
+                /assign @openeuler-ci-bot
+            </td>
+            <td>
+                Assigns an assignee to an issue.
+            </td>
+            <td>
+                Anyone can use this command on an issue,
+                but the target user must be a member of the org that owns the repository.
+                If no target user is specified, that means this issue will be assigned to yourself.
+            </td>
+        </tr>
     </tbody>
 </table>
