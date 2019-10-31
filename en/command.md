@@ -174,5 +174,23 @@ The Commands incluing as follows:
                 If no target user is specified, that means this issue will be assigned to yourself.
             </td>
         </tr>
+        <tr>
+            <td>
+                /unassign [[@]...]
+            </td>
+            <td style="white-space:nowrap;">
+                /unassign
+                <br/>
+                /unassign @openeuler-ci-bot
+            </td>
+            <td>
+                UnAssigns an assignee from an issue.
+            </td>
+            <td>
+                Anyone can use this command on an issue,
+                but the target user must be a member of the org that owns the repository.
+                If no target user is specified, that means this issue will be unassigned from yourself.
+            </td>
+        </tr>
     </tbody>
 </table>
