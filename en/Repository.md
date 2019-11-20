@@ -73,11 +73,11 @@ with a pull request with the above example.
 
 * `openeuler`: the name of the openEuler communtiy, actually it is no need to modify.
 * `managers`:  the managers you want to specify under `community` or the `repositories`.
-  The Gitee accounts that you want to add or remove as managers are needed here, like `zhuchunyi`.
+  The Gitee accounts are needed here, like `zhuchunyi`.
 * `developers`:  the developers you want to specify under `community` or the `repositories`.
-  The Gitee accounts that you want to add or remove as developers are needed here, like `igorkorkin`.
+  The Gitee accounts are needed here, like `igorkorkin`.
 * `viewers`:  the viewers you want to specify under `community` or the `repositories`.
-  The Gitee accounts that you want to add or remove as developers are needed here, like `jianminw`.
+  The Gitee accounts are needed here, like `jianminw`.
 
 ***NOTE***: you may find `managers`, `developers` and `viewers` are existing
 under `community` or the `repositories` in the same time. Let's see the difference between them:
@@ -89,9 +89,8 @@ under `community` or the `repositories` in the same time. Let's see the differen
 * If a repository does not specify any member(including `managers`, `developers` and `viewers`) like `abattis-cantarell-fonts`,
   the ```openeuler-ci-bot``` will use `managers`, `developers` and `viewers` under `community`
   to create members for this repository like `abattis-cantarell-fonts`.
-* If a repository does specify some members((including `managers`, `developers` and `viewers`)) like `accountsservice`,
+* If a repository does specify some members(including `managers`, `developers` and `viewers`) like `accountsservice`,
   the ```openeuler-ci-bot``` will use `managers`, `developers` and `viewers` under the repository
   to create members like `accountsservice`.
 * If a Gitee account is exsiting in `managers`, `developers` and `viewers`,
-  this Gitee account will be as a manager under `community` or the `repositories`,
-  because the permisson in Gitee is like `managers` > `developers` > `viewers`.
+  this Gitee account will be as a manager, as the permisson in Gitee is like `managers` > `developers` > `viewers`.
