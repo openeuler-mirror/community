@@ -11,9 +11,11 @@ An automatic tool is wanted to figure out these problems and save the team's wor
 ### Solution
 
 The infrastucture team have built a mechanism to simplify the repository maintenance.
-All of the repositories and repository members are addressed in
-[one yaml file](https://gitee.com/openeuler/infrastructure/blob/master/repository/projects.yaml) of the infrastructure repository.
-If this yaml file is changed by a pull request, the ```openeuler-ci-bot``` will detect these changes
+The repositories and repository members about openEuler are addressed in
+[openeuler.yaml](https://gitee.com/openeuler/infrastructure/blob/master/repository/openeuler.yaml),
+meanwhile the repositories and repository members about src-openEuler are addressed
+in [src-openeuler.yaml](https://gitee.com/openeuler/infrastructure/blob/master/repository/src-openeuler.yaml).
+If the yaml files are changed by a pull request, the ```openeuler-ci-bot``` will detect these changes
 and automatically do some actions like ```create a repository```, ```add members for a repository```
 and ```remove members from a repository``` based on the Gitee API.
 
@@ -27,7 +29,8 @@ repositories:
 ```
 
 If you want to add a new repository into openEuler community,
-you can modify the [yaml file](https://gitee.com/openeuler/infrastructure/blob/master/repository/projects.yaml)
+you can modify the [openeuler.yaml](https://gitee.com/openeuler/infrastructure/blob/master/repository/openeuler.yaml)
+or [src-openeuler.yaml](https://gitee.com/openeuler/infrastructure/blob/master/repository/src-openeuler.yaml)
 with a pull request with the above example.
 
 * `abattis-cantarell-fonts`: the name of the new repository you want to create.
@@ -68,10 +71,11 @@ repositories:
 ```
 
 If you want to add or remove a member in a repository,
-you can also modify the [yaml file](https://gitee.com/openeuler/infrastructure/blob/master/repository/projects.yaml)
+you can modify the [openeuler.yaml](https://gitee.com/openeuler/infrastructure/blob/master/repository/openeuler.yaml)
+or [src-openeuler.yaml](https://gitee.com/openeuler/infrastructure/blob/master/repository/src-openeuler.yaml)
 with a pull request with the above example.
 
-* `openeuler`: the name of the openEuler communtiy, actually it is no need to modify.
+* `openeuler`: the name of the openEuler communtiy which has another name `src-openeuler`, actually it is no need to modify.
 * `managers`:  the managers you want to specify under `community` or the `repositories`.
   The Gitee accounts are needed here, like `zhuchunyi`.
 * `developers`:  the developers you want to specify under `community` or the `repositories`.
