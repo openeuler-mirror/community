@@ -15,9 +15,10 @@ The repositories and repository members about openEuler are addressed in
 [openeuler.yaml](https://gitee.com/openeuler/infrastructure/blob/master/repository/openeuler.yaml),
 meanwhile the repositories and repository members about src-openEuler are addressed
 in [src-openeuler.yaml](https://gitee.com/openeuler/infrastructure/blob/master/repository/src-openeuler.yaml).
-If the yaml files are changed by a pull request, the ```openeuler-ci-bot``` will detect these changes
-and automatically do some actions like ```create a repository```, ```add members for a repository```
-and ```remove members from a repository``` based on the Gitee API.
+If the yaml files are changed by a pull request, the `openeuler-ci-bot` will detect these changes
+and automatically do some actions like `create a repository`, `add members for a repository`,
+`remove members from a repository`, `add protecting a branch`  and `remove protecting a branch`
+based on the Gitee API.
 
 ### How to create a repository
 
@@ -91,10 +92,54 @@ under `community` or the `repositories` in the same time. Let's see the differen
 * Specially if you want to add or remove a manager, developer or viewer of a specified repository,
   you can modify the `managers`, `developers` and `viewers` under the specified repository like `accountsservice`.
 * If a repository does not specify any member(including `managers`, `developers` and `viewers`) like `abattis-cantarell-fonts`,
-  the ```openeuler-ci-bot``` will use `managers`, `developers` and `viewers` under `community`
+  the `openeuler-ci-bot` will use `managers`, `developers` and `viewers` under `community`
   to create members for this repository like `abattis-cantarell-fonts`.
 * If a repository does specify some members(including `managers`, `developers` and `viewers`) like `accountsservice`,
-  the ```openeuler-ci-bot``` will use `managers`, `developers` and `viewers` under the repository
+  the `openeuler-ci-bot` will use `managers`, `developers` and `viewers` under the repository
   to create members like `accountsservice`.
 * If a Gitee account is exsiting in `managers`, `developers` and `viewers`,
   this Gitee account will be as a manager, as the permisson in Gitee is like `managers` > `developers` > `viewers`.
+
+
+### How to add or remove protecting a branch
+
+```yaml
+community:
+  name: openeuler
+  protected_branches:
+  - master
+repositories:
+  - name: abattis-cantarell-fonts
+    description: "fonts repo"
+    type: private
+  - name: accountsservice
+    description: "account repo"
+    protected_branches:
+    - master
+    - dev
+    type: private
+```
+
+If you want to add or remove protecting a branch in a repository,
+you can modify the [openeuler.yaml](https://gitee.com/openeuler/infrastructure/blob/master/repository/openeuler.yaml)
+or [src-openeuler.yaml](https://gitee.com/openeuler/infrastructure/blob/master/repository/src-openeuler.yaml)
+with a pull request with the above example.
+
+* `openeuler`: the name of the openEuler communtiy which has another name `src-openeuler`, actually it is no need to modify.
+* `protected_branches`:  the branches to be protected you want to specify under `community` or the `repositories`.
+
+***NOTE***: you may find `protected_branches` is existing under `community` or the `repositories` in the
+same time. Let's see the difference between them:
+
+* Usually if you want to add or remove protecting a branch of all the repositories,
+  you can modify the `protected_branches` under `community`.
+* Specially if you want to add or remove protecting a branch of a specified repository,
+  you can modify the `protected_branches` under the specified repository like `accountsservice`.
+* If a repository does not specify any protected branches like `abattis-cantarell-fonts`,
+  the `openeuler-ci-bot` will use `protected_branches` under `community`
+  to add protecting branches for this repository like `abattis-cantarell-fonts`.
+* If a repository does specify some protected branches like `accountsservice`,
+  the `openeuler-ci-bot` will use `protected_branches` under the repository
+  to add protecting branches like `accountsservice`.
+* If the branch specified in `protected_branches` dose not exist, `openeuler-ci-bot` will do
+  nothing relevant.
