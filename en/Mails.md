@@ -14,6 +14,7 @@ Following table shows the mail lists available currently. Please follow the step
 |[Marketing](https://mailweb.openeuler.org/postorius/lists/marketing.openeuler.org/)| marketing@openeuler.org | Discussion| Facilitate discussion and best practice sharing among marketers and organizers|
 |[User-committee](https://mailweb.openeuler.org/postorius/lists/user-committee.openeuler.org/)|user-committee@openeuler.org|Discussion|the user committe email contact endpoint|
 |[Infra](https://mailweb.openeuler.org/postorius/lists/infra.openeuler.org/)|infra@openeuler.org|Discussion|the infrastructure supports for this community|
+|[Build](https://mailweb.openeuler.org/postorius/lists/buildteam.openeuler.org/)|buildteam@openeuler.org|Discussion|the team who maintains openEuler OS building for this community|
 
 
 There are two ways to join the list.
