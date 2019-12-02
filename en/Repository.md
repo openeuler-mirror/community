@@ -143,3 +143,29 @@ same time. Let's see the difference between them:
   to add protecting branches like `accountsservice`.
 * If the branch specified in `protected_branches` dose not exist, `openeuler-ci-bot` will do
   nothing relevant.
+
+### How to create or remove a maintainer beyond Gitee
+
+Gitee provides manager, developer and viewer and so forth for the repository permission management.
+`openeuler-ci-bot` supports another way to add maintainers for every repository.
+`openeuler-ci-bot` will scan the `OWNERS` file under every repository to discovery the extra maintainers.
+
+Take <https://gitee.com/openeuler/ci-bot/blob/master/OWNERS> under `ci-bot` as an example.
+The file content is like below:
+
+``` yaml
+maintainers:
+  - edisontest
+  - freesky-edward
+  - TommyLike
+  - xiangxinyong
+  - zerodefect
+```
+
+It means all of these five users have the permission to merge the pull request in the `ci-bot` repository.
+These users can use `/lgtm` and `/approve` commands to trigger `openeuler-ci-bot` to merge the pull request.
+You can find more bot commands from <https://gitee.com/openeuler/community/blob/master/en/command.md>
+By the way, all of the managers and developers in Gitee can also use `/lgtm` and `/approve`.
+
+If you want to keep maintainers beyond Gitee, please add the `OWNERS` file under your repository,
+and add the maintainer into the `OWNERS` file, `openeuler-ci-bot` will grant the `merge` permission to these maintainers.
