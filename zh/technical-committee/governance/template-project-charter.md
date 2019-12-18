@@ -51,7 +51,7 @@
 - 其他选举方式和退出机制
 - 其他职责清单
 
-### Committor的其他职责
+### Committer的其他职责
 
 - 其他选举方式和退出机制
 
@@ -63,7 +63,7 @@
 
 - 本项目的角色和治理方式与定义不同的地方
 
-- 如果项目没有Maintainer或Committor，请在此处指定
+- 如果项目没有Maintainer或Committer，请在此处指定
 
   
 

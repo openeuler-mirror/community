@@ -4,7 +4,7 @@ openEuelr社区遵守开源社区[《贡献者公约》](https://contributor-cov
 
 
 
-如需举报侮辱、骚扰或其他不可接受的行为，您可以发送邮件至tc@openEuler.org，联系openEuler理事会。
+如需举报侮辱、骚扰或其他不可接受的行为，您可以发送邮件至tc@openeuler.org，联系openEuler技术委员会。
 
 
 
@@ -54,7 +54,7 @@ openEuelr社区遵守开源社区[《贡献者公约》](https://contributor-cov
 
 ## 贯彻落实
 
-可以致信[在此输入EMAIL]，向项目团队举报滥用、骚扰及不当行为。
+可以致信tc@openeuler.org，向项目团队举报滥用、骚扰及不当行为。
 
 维护团队将审议并调查全部投诉，妥善地予以必要的回应。项目团队有义务保密举报者信息。具体执行方针或将另行发布。
 
