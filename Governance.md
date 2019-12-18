@@ -5,29 +5,29 @@
 # 原则
 openEuler社区遵循以下原则：
 + 开放：openEuler是开源的
-+ 尊重：社区里的每一个都必须遵守社区的行为准则
-+ 透明：社区内的工作和写作都是以公开的形式进行的
++ 尊重：社区里的每一个人都必须遵守社区的行为准则
++ 透明：社区内的工作和沟通都是以公开的形式进行的
 + 领先：欢迎在社区开展技术孵化创新
 
 
 
 ## 行为守则
 
-openEuler社区遵循[](code-of-conduct.md)
+openEuler社区遵循[社区行为准则](code-of-conduct.md)
 
 
 
 
 ## 社区成员
 
-请查看[社区成员](community-memebership.md)
+请查看[社区成员](community-membership.md)
 
 
 
 
 ##  社区团体
 
-请查看[社区团体](Prj&SIG-list.md)
+请查看[社区团体](proj-list.md)
 (此处最好是附图说明)
 
 
@@ -38,21 +38,21 @@ openEuler社区遵循[](code-of-conduct.md)
 
 openEuler社区主要的组织构成是项目。每个项目的共同目的都是针对特定的主题，推动项目的交付成果输出，并争取成为openEuler社区发行的一部分。项目的每个可识别的部分都属于该项目，包括存储库、目录、API、测试、问题、PR等。
 
-项目在任何给定时间内必须至少有一个，或多个Maintainer。Maintainer是该项目的组织者和协助者。负责项目的运作，以及与其他项目、委员会、理事会和更广泛的社区的沟通和协同。
+项目在任何给定时间内必须至少有一个，或多个Maintainer。Maintainer负责项目的运作，通过项目管理手段实现项目目标，并与项目组成员一起与技术委员会、其他项目组、用户进行交流协同。
 
-每个项目都必须有一个章程，其中规定了项目的范围（主题、代码库、目录等）、职责、权限区域，如何选择/授予权限/领导权的成员和角色，如何制定决策和解决冲突，如何管理章程等信息，请参考[项目章程](/committee-steering/社区项目和SIG/README.md)。在一些跨项目流程（如发布流程）和资产（如存储库）的广泛指导原则约束下，项目应该可以相对自定义的更改其操作方式。
+每个项目都必须有一个章程，其中规定了项目的范围（主题、代码库、目录等）、职责、权限区域，如何选择/授予权限/领导权的成员和角色，如何制定决策和解决冲突，如何管理章程等信息，请参考[项目章程](/technical-committee/governance/project-governance.md)。在一些跨项目流程（如发布流程）和资产（如存储库）的广泛指导原则约束下，项目应该可以相对自定义的更改其操作方式。
 
 项目内的交流必须是公开的，以确保其他项目和社区成员可以找到讨论、会议、涉及和决策的记录，项目也需要定期向社区传递项目的工作概要。
 
-有关项目的治理的更多详细信息，请参考[项目治理](/technical-committee/governance/project-governance.md)、[项目治理要求](/techniacl-committee/governance/project-governance-requirements.md)、[项目生命周期]()。
+有关项目的治理的更多详细信息，请参考[项目治理](/technical-committee/governance/project-governance.md)、[项目治理要求](/techniacl-committee/governance/project-governance-requirements.md)。
 
 
 
 ###  子项目
 
-项目内的具体工作可以由**子项目**支撑。openEuler的代码和文档的每个部分都必须由某个项目或子项目拥有。一些项目可能只有一个子项目，很多项目有多个子项目。这些子项目可以由不同的贡献者（不过有时他们和项目是重叠的）是子项目的的技术负责人：负责项目的愿景方向和总计设计，选择和批准变更提案，决策技术升级等。
+项目内的具体工作可以由**子项目**支撑。openEuler的代码和文档的每个部分都必须由某个项目或子项目拥有。一个项目可以由一个或多个子项目，这些子项目可以有不同的贡献者（不过有时他们和项目是重叠的）作为子项目的技术负责人：负责项目的愿景方向和总体设计，选择和批准变更提案，决策技术升级等。
 
-XXX.yaml中记录了每个项目的子项目
+XXX.yaml中记录了每个项目的子项目——待李中华确认
 
 
 
@@ -74,9 +74,9 @@ XXX.yaml中记录了每个项目的子项目
 
 
 
-## 存储库指南
+## Repository指南
 
-openEuler Gitee下的所有存储库都应该遵循[openEuler存储库指南](Gitee-management/README.md)中描述的过程。
+openEuler Gitee下的所有的Repository都应该遵循[openEule的Repository指南](Gitee-management/README.md)中描述的过程。
 
 
 
