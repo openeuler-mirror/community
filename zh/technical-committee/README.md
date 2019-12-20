@@ -1,5 +1,5 @@
-#  技术指导委员会
-openEuler 技术指导委员会定位的简要描述---------------------------------李永乐提供
+#  技术委员会
+openEuler 技术委员会定位的简要描述----
 
 
 
@@ -19,15 +19,14 @@ openEuler 技术指导委员会定位的简要描述----------------------------
 # 联系方式
 
 
-- [邮件列表]()
+- [邮件列表](tc@openeuler.org)
 
 - Private Mailing List:
 
 - [Open Community Issues/PRs]()
 
-- Gitee Teams??(一般性讨论)
-
   
+
 
 # 子项目
 
