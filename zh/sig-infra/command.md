@@ -1,16 +1,19 @@
-## OpenEuler Community Command Help
+## OpenEuler社区命令参考文档
 
 All of the projects in OpenEuler Community are maintained by Bot.
 That means the developpers can comment below every pull request or issue to trigger Bot Commands.
 The Commands incluing as follows:
+openuler社区的所有项目都由Bot维护。
+这意味着开发人员可以在每个pull request或issue下面进行回复来触发Bot命令。
+这些命令包括：
 
 <table class="command">
     <thead>
         <tr>
-            <th>Command</th>
-            <th width="25%">Example</th>
-            <th>Description</th>
-            <th>Who Can Use</th>
+            <th>命令</th>
+            <th width="25%">示例</th>
+            <th>描述</th>
+            <th>谁能使用</th>
         </tr>
     </thead>
     <tbody>
@@ -22,13 +25,13 @@ The Commands incluing as follows:
                 /check-cla
             </td>
             <td>
-                Forces rechecking of the CLA status of a Pull Request.
-                If the Pull Request author has already signed CLA,
-                the label `openeuler-cla/yes` will be added in the Pull Request,
-                If not, the label `openeuler-cla/no` will be added.
+                强制重新检查一个Pull Request的CLA状态。
+                如果Pull Request的作者已经签署CLA，
+                这个Pull Request将会新增一个名为`openeuler-cla/yes`的标签，
+                反之将会新增一个名为`openeuler-cla/no`的标签。
             </td>
             <td>
-                Anyone
+                任何人
             </td>
         </tr>
         <tr>
@@ -41,10 +44,10 @@ The Commands incluing as follows:
                 /lgtm cancel
             </td>
             <td>
-                Adds or removes the 'lgtm' label which is typically used to gate merging.
+                为一个Pull Request添加或者删除`lgtm`标签，这个标签将用于Pull Request合入判断。
             </td>
             <td>
-                Collaborators on the repository. '/lgtm cancel' can be used additionally by the Pull Request author.
+                这个仓库的协作者。Pull Request能使用`/lgtm cancel`命令，但是不能使用`/lgtm`命令。
             </td>
         </tr>
         <tr>
@@ -57,10 +60,10 @@ The Commands incluing as follows:
                 /approve cancel
             </td>
             <td>
-                Adds or removes the 'approved' label which is typically used to gate merging.
+                为一个Pull Request添加或者删除`approved`标签，这个标签将用于Pull Request合入判断。
             </td>
             <td>
-                Collaborators on the repository.
+                这个仓库的协作者。
             </td>
         </tr>
         <tr>
@@ -73,11 +76,11 @@ The Commands incluing as follows:
                 /remove-kind bug
             </td>
             <td>
-                Applies or removes a kind label from one of the recognized types of labels.
-                For example, the label is more like `kind/bug`.
+                添加或者删除这种kind类型的标签。
+                例如：`kind/bug`标签。
             </td>
             <td>
-                Anyone can trigger this command on a Pull Request or Issue.
+                任何人都能在一个Pull Request或者Issue上触发这种命令。
             </td>
         </tr>
         <tr>
@@ -90,11 +93,11 @@ The Commands incluing as follows:
                 /remove-priority high
             </td>
             <td>
-                Applies or removes a priority label from one of the recognized types of labels.
-                For example, the label is more like `priority/high`.
+                添加或者删除这种priority类型的标签。
+                例如：`priority/high`标签。
             </td>
             <td>
-                Anyone can trigger this command on a Pull Request or Issue.
+                任何人都能在一个Pull Request或者Issue上触发这种命令。
             </td>
         </tr>
         <tr>
@@ -107,11 +110,11 @@ The Commands incluing as follows:
                 /remove-sig kernel
             </td>
             <td>
-                Applies or removes a sig label from one of the recognized types of labels.
-                For example, the label is more like `sig/kernel`.
+                添加或者删除这种sig类型的标签。
+                例如：`sig/kernel`标签。
             </td>
             <td>
-                Anyone can trigger this command on a Pull Request or Issue.
+                任何人都能在一个Pull Request或者Issue上触发这种命令。
             </td>
         </tr>
         <tr>
@@ -122,10 +125,10 @@ The Commands incluing as follows:
                 /close
             </td>
             <td>
-                Closes an issue.
+                关闭一个Pull Request或者Issue。
             </td>
             <td>
-                Authors and collaborators on the repository can trigger this command.
+                作者和仓库的协作者能触发这种命令。
             </td>
         </tr>
         <tr>
@@ -136,10 +139,10 @@ The Commands incluing as follows:
                 /reopen
             </td>
             <td>
-                Reopens an issue.
+                重新打开一个Issue。
             </td>
             <td>
-                Authors and collaborators on the repository can trigger this command.
+                作者和仓库的协作者能触发这种命令。
             </td>
         </tr>
         <tr>
@@ -150,10 +153,10 @@ The Commands incluing as follows:
                 /retest
             </td>
             <td>
-                Rerun test jobs that have failed.
+                重跑测试用例任务。
             </td>
             <td>
-                Anyone can trigger this command on a Pull Request.
+                任何人都能在一个Pull Request上触发这种命令。
             </td>
         </tr>
         <tr>
@@ -166,12 +169,12 @@ The Commands incluing as follows:
                 /assign @openeuler-ci-bot
             </td>
             <td>
-                Assigns an assignee to an issue.
+                分配一个Issue给负责人。
             </td>
             <td>
-                Anyone can use this command on an issue,
-                but the target user must be a member of the org that owns the repository.
-                If no target user is specified, that means this issue will be assigned to yourself.
+                任何人都能在一个Issue上触发这种命令，
+                但是目标负责人必须是这个组织的一个成员。
+                如果没有指定目标负责人，这表明这个Issue会分配给自己。
             </td>
         </tr>
         <tr>
@@ -184,12 +187,12 @@ The Commands incluing as follows:
                 /unassign @openeuler-ci-bot
             </td>
             <td>
-                UnAssigns an assignee from an issue.
+                取消分配一个Issue给负责人。
             </td>
             <td>
-                Anyone can use this command on an issue,
-                but the target user must be a member of the org that owns the repository.
-                If no target user is specified, that means this issue will be unassigned from yourself.
+                任何人都能在一个Issue上触发这种命令，
+                但是目标负责人必须是这个组织的一个成员。
+                如果没有指定目标负责人，这表明这个Issue会取消分配给自己。
             </td>
         </tr>
     </tbody>
