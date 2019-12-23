@@ -1,8 +1,8 @@
-## openEuler Community Label
+## openEuler社区标签
 
-There are lots of labels for all of the projects in openEuler Community.
-These labels represent meaningful description in the Issue or Pull Request.
-The labels incluing as follows:
+openEuler社区所有的项目都有很多标签。
+这些标签给予了Issue和Pull Request某些特定的含义。
+这些标签包括：
 
 ### CLA
 
