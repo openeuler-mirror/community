@@ -1,7 +1,7 @@
 ## OpenEuler Community Command Help
 
 All of the projects in OpenEuler Community are maintained by Bot.
-That means the developpers can comment below every pull request or issue to trigger Bot Commands.
+That means the developpers can comment below every Pull Request or Issue to trigger Bot Commands.
 The Commands incluing as follows:
 
 <table class="command">
@@ -41,10 +41,10 @@ The Commands incluing as follows:
                 /lgtm cancel
             </td>
             <td>
-                Adds or removes the 'lgtm' label which is typically used to gate merging.
+                Adds or removes the `lgtm` label which is typically used to gate merging.
             </td>
             <td>
-                Collaborators on the repository. '/lgtm cancel' can be used additionally by the Pull Request author.
+                Collaborators on the repository. `/lgtm cancel` can be used additionally by the Pull Request author.
             </td>
         </tr>
         <tr>
@@ -57,7 +57,7 @@ The Commands incluing as follows:
                 /approve cancel
             </td>
             <td>
-                Adds or removes the 'approved' label which is typically used to gate merging.
+                Adds or removes the `approved` label which is typically used to gate merging.
             </td>
             <td>
                 Collaborators on the repository.
@@ -122,7 +122,7 @@ The Commands incluing as follows:
                 /close
             </td>
             <td>
-                Closes an issue.
+                Closes a Pull Request or an Issue.
             </td>
             <td>
                 Authors and collaborators on the repository can trigger this command.
@@ -136,7 +136,7 @@ The Commands incluing as follows:
                 /reopen
             </td>
             <td>
-                Reopens an issue.
+                Reopens an Issue.
             </td>
             <td>
                 Authors and collaborators on the repository can trigger this command.
@@ -166,12 +166,12 @@ The Commands incluing as follows:
                 /assign @openeuler-ci-bot
             </td>
             <td>
-                Assigns an assignee to an issue.
+                Assigns an assignee to an Issue.
             </td>
             <td>
-                Anyone can use this command on an issue,
+                Anyone can use this command on an Issue,
                 but the target user must be a member of the org that owns the repository.
-                If no target user is specified, that means this issue will be assigned to yourself.
+                If no target user is specified, that means this Issue will be assigned to yourself.
             </td>
         </tr>
         <tr>
@@ -184,12 +184,12 @@ The Commands incluing as follows:
                 /unassign @openeuler-ci-bot
             </td>
             <td>
-                UnAssigns an assignee from an issue.
+                UnAssigns an assignee from an Issue.
             </td>
             <td>
-                Anyone can use this command on an issue,
+                Anyone can use this command on an Issue,
                 but the target user must be a member of the org that owns the repository.
-                If no target user is specified, that means this issue will be unassigned from yourself.
+                If no target user is specified, that means this Issue will be unassigned from yourself.
             </td>
         </tr>
     </tbody>
