@@ -1,10 +1,7 @@
 ## OpenEuler社区命令参考文档
 
-All of the projects in OpenEuler Community are maintained by Bot.
-That means the developpers can comment below every pull request or issue to trigger Bot Commands.
-The Commands incluing as follows:
-openuler社区的所有项目都由Bot维护。
-这意味着开发人员可以在每个pull request或issue下面进行回复来触发Bot命令。
+openEuler社区的所有项目都由Bot维护。
+这意味着开发人员可以在每个Pull Request或Issue下面进行回复来触发Bot命令。
 这些命令包括：
 
 <table class="command">
