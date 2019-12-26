@@ -1,9 +1,11 @@
-
+# Gitee 工作流说明
 
 ### 1.从云上folk
 
 1. 访问 https://gitee.com/openEuler/openEuler
 2. 点击右上角的 `Fork` 按钮建立一个属于自己的云上folk分支
+
+
 
 ### 2.把folk分支复制到本地
 
@@ -51,6 +53,8 @@ git remote set-url --push upstream no_push
 git remote -v
 ```
 
+
+
 ### 3.拉分支
 
 更新您的本地分支
@@ -85,6 +89,8 @@ git rebase upstream/master
 ```
 
 执行merge的时候，请不要使用 `git pull` 替代上面的 `fetch` / `rebase`. `git pull` 。因为这种方式会使提交历史变得混乱，并使代码更难被理解。您也可以通过更改文件来达到目的， `.git/config` 文件通过 `git config branch.autoSetupRebase always` 去改变 `git pull`的行为。
+
+
 
 ### 5 提交
 

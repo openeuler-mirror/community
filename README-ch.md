@@ -2,16 +2,22 @@
 
 欢迎来到openEuler社区！
 
-这是加入openEuler社区并为之贡献的起点。
 
-如果您需要了解SIG/项目结构和组织的更多信息，请参阅[SIG/项目治理](/technical-committee/governance/SIG&project-goveranace.md)信息。
+
+## 社区愿景
+
+openEuler的愿景是：**通过社区合作，打造创新平台，构建支持多处理器架构、统一和开放的操作系统openEuler，推动软硬件生态繁荣发展**。
+
+
+
+这里加入openEuler社区并为之贡献的起点。
 
 
 
 ## 沟通交流
 
 
-openEuler社区有多种沟通渠道，请参考[社区通信](/communication)。
+openEuler社区有多种沟通渠道，请参考[社区交流](/communication)。
 
 
 
@@ -34,6 +40,8 @@ openEuler有以下受官方支持的组织类型：
 + **工作组**：为了解决跨SIG/项目边界的问题而临时成立的小组。工作组不拥有任何代码或长期交付件。可以通过相关的SIG进行报告。比如社区安全编码工作组等。
 
   有关这些组织的更多详细信息，可以参看[完整的管理文档](/technical-committee/governance.md)。SIG/项目可以由自己的贡献策略（在本SIG/项目组的repo中的”README“或”CONTRIBUTING“文件中描述）（例如sig-qa/CONTRIBUTING.md），以及自己的邮件列表、IRC频道等。
+
+如果您需要了解SIG/项目结构和组织的更多信息，请参阅[SIG/项目治理](/technical-committee/governance/SIG&project-goveranace.md)信息。
 
 
 

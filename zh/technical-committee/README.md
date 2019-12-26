@@ -21,10 +21,12 @@ openEuler技术委员会是openEuler理事会下社区的技术决策机构，�
 # 成员
 
 
-- 熊伟[[@myeuler](https://gitee.com/myeuler)]，华为（*如果代表的是公司，这里可以标注出来公司名称*）
-- 谢红[[@cynthia_xh](https://gitee.com/cynthia_xh)]，
-- 胡欣蔚[[@Shinwell_Hu](https://gitee.com/Shinwell_Hu)]
+- 熊伟[[@myeuler](https://gitee.com/myeuler)]，华为
+- cynthia[[@cynthia_xh](https://gitee.com/cynthia_xh)]
+- Shinwell[[@Shinwell_Hu](https://gitee.com/Shinwell_Hu)]
 - 王勋[[@dream0819](https://gitee.com/dream0819)]
+- 郭寒军[[@hanjun-guo](https://gitee.com/hanjun-guo)]
+- 谢秀奇[[@xiexiuqi](https://gitee.com/xiexiuqi)]
 
 
 
@@ -36,5 +38,4 @@ openEuler技术委员会是openEuler理事会下社区的技术决策机构，�
 - [Open Community Issues/PRs]()
 
   
-
 
