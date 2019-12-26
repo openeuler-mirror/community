@@ -161,7 +161,7 @@ maintainers:
 
 这意味着所有这5个用户具备在`ci-bot`仓库下合入pull request的权限。
 这些用户能使用`/lgtm`和`/approve`命令去触发`openeuler-ci-bot`何如pull request。
-你可以发现更多的命令说明 <https://gitee.com/openeuler/community/blob/master/zh/sig-infra/command.md>。
+你可以发现更多的命令说明 <https://gitee.com/openeuler/community/blob/master/zh/sig-infrastructure/command.md>。
 顺便说下，所有的Gitee管理员和开发者也能使用`/lgtm`和`/approve`命令。
 
 如果你想要维护Gitee之外的仓库维护人员，请在你的仓库下添加`OWNERS`文件，

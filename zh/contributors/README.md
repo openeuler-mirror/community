@@ -129,7 +129,7 @@ openEuler是开源的，我们希望围绕开发建立一些半正式的管理�
 
 openEuler遵循标准的[Gitee PR请求流程](https://gitee.com/help/articles/4122)，但openEuler社区还做了部分的定制，请参考[openEuler社区Gitee工作流程](pull-requests.md)。
 
-这两个流程的主要区别是，openEuler的机器人会将结构化标签运用于PR中。该机器人可以为您的PR过程提供一些有用的建议。为了方便查看，可以在注释中输入XXXXXXX选项，以触发自动标记和通知功能。请参阅[社区命令参考文档](./sig-infra/command.md)。
+这两个流程的主要区别是，openEuler的机器人会将结构化标签运用于PR中。该机器人可以为您的PR过程提供一些有用的建议。为了方便查看，可以在注释中输入XXXXXXX选项，以触发自动标记和通知功能。请参阅[社区命令参考文档](./../sig-infrastructure/command.md)。
 
 对于新贡献者来说，常遇到的问题是：
 

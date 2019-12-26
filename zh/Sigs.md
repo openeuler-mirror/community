@@ -15,7 +15,7 @@ IRC频道：      #openeuler-doc
 
 管理员：       N/A
 
-### sig-infra
+### sig-infrastructure
 
 基础设施建设兴趣组主要负责社区基础设施建设，包括开发系统，沟通系统等
 
