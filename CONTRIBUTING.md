@@ -16,7 +16,7 @@ When reporting issues, refer to this format:
 - Anything else we need to know?
 - Environment
 
-See more about [ISSUE_TEMPLATE](.github/ISSUE_TEMPLATE.md).
+See more about [ISSUE_TEMPLATE](.gitee/ISSUE_TEMPLATE.en.md).
 
 ## Submit pull requests
 
@@ -50,7 +50,7 @@ After updating the code, you should push the update in the formal way:
 ```
 git add .
 git status (Check the update status)
-git commit -m "Your commit title"
+git commit -m "Your commit description"
 git commit --amend (Add the concrete description of your commit)
 git push origin new_branch_name
 ```
