@@ -53,9 +53,29 @@ repository还有license、CLA等要求，请参见[openEuler项目模板]()
 
 
 
-### 创建repository
+### 创建一个Repository
 
+``` yaml
+repositories:
+  - name: abattis-cantarell-fonts
+    description: "fonts repo"
+    type: private
+```
 
+如果你想要在openEuler社区里面新增一个仓库，你可以基于上面的示例提交一个pull request修改
+[openeuler.yaml](https://gitee.com/openeuler/infrastructure/blob/master/repository/openeuler.yaml)或者[src-openeuler.yaml](https://gitee.com/openeuler/infrastructure/blob/master/repository/src-openeuler.yaml)。
+
+* `abattis-cantarell-fonts`: 你想创建的新仓库名字。
+
+* `fonts repo`: 新仓库描述。
+
+* `private`: 表示仓库的类型。
+
+  `private`意味着新仓库只对某些特定的人群可见。
+
+  `public`意味着新仓库对所有人可见。
+
+一旦你的pull request被合入，```openeuler-ci-bot```将会立即创建一个新仓库。
 
 
 
