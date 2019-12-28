@@ -38,7 +38,7 @@ Please read [How to contribute](CONTRIBUTING.md) to get detailed guidance.
 
 ## Maintainers
 
-1. Fred Li, since December 2019
+1. Fred Li @zerodefect, since December 2019
 2. 杨丽, since December 2019
 
 ## Contributors
