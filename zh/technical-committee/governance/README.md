@@ -1,71 +1,91 @@
-# SIG/项目  Charter指南
+# SIG  管理指南
 
- 所有openEuler社区的SIG/项目都必须有一个章程（Charter）来明确SIG/项目的范围和治理规则。
+ 所有openEuler社区的SIG都必须有一个章程（Charter）来明确SIG的范围和治理规则。
 
-+ 范围必须明确定义SIG/项目负责指导和维护的领域
-+ 治理规则必须说明SIG/项目中的职责，以及拥有这些职责的角色和工作开展方式
++ 范围必须明确定义SIG负责指导和维护的领域
++ 治理规则必须说明SIG中的职责，以及拥有这些职责的角色和工作开展方式
 
 
 
-## 申请新SIG/项目章程的步骤 
+## 申请新SIG的流程
 
-1.将[模板](template-SIG&project-governance.md)复制到community/proj*YOURPROJECT*/charter.md下的新文件中（[范例]()）
+**1、在community下创建新SIG的文件夹并拷贝进模板文件**
 
-2.为便于更好的理解模板里的内容，建议先阅读[建议书和要求](SIG&project-governance-requirement.md)
+请将[模板文件夹](template-charter/)中的两个文件（分别是charter.md、OWNERS）复制到community/sig/sig-YOURSIG*/下面。
 
-3.填写您的SIG/项目申请模板
+**2、完成新SIG章程的填写**
 
-4.请根据您申请模板中定义的SIG/项目，SIG/项目中的角色、以及SIG/项目的Repository信息更新[openeuler.yaml](https://gitee.com/openeuler/infrastructure/blob/master/repository/openeuler.yaml)。SIG/项目的Repository请参考[openEuler的Repository说明](/../../Gitee-management/Gitee-management-guide.md)
+为便于更好的理解章程模板里的内容，建议先阅读[建议书和要求](SIG-governance-requirement.md)，完成新项目的charter.md
 
-5.在openeuler.yaml中添加您的SIG/项目，以及这个SIG/项目拥有的子项目
+**3、完成新项目成员的配置**
 
-6.用修改好的charter.md和openeuler.yaml ，创建一个Pull Request，并在您的团队内对申请书内的SIG/项目范围和治理章程达成一致的意见
+请在OWNERS文件中完成对SIG成员的配置
 
-7.请将SIG/项目章程（charter.md）发送给技术委员会审查（网址为tc@openEuler.org），并在正文中包含主题“*新SIG/项目提案*”和PR的链接
+**4、完成新SIG的Repository的配置**
+
+请参考[openEuler的Repository说明](/../../Gitee-management/Gitee-management-guide.md)，完成SIG和项目所拥有的Repository的配置。
+
+- 如果您的项目在openEuler社区只维护软件包，请点击[src-openeuler.yaml](/repository/src-openeuler.yaml)，在其中按照格式把你的项目添加进来。
+- 如果不是以上的情况，请单击[openeuler.yaml](/repository/openeuler.yaml)，并按照内部的格式在文件的最后把您的SIG添加进来
+
+**5、在sig文件夹的sig.yaml内添加新SIG的相关信息**
+
+根据以上的信息，打开sig文件夹下[sig.yaml](sig/sigs.yaml)文件，在末尾添加新sig的相关信息。
+
+**6、提交PR**
+
+将修改好的文件夹内的charter.md，以及openeuler.yaml（或src-openeuler.yaml）和repository.yaml提交 ，创建一个Pull Request，并在您的团队内对申请书内的SIG范围和治理章程等达成一致意见
+
+**7、向TC发送邮件申请**
+
+请将SIG章程（charter.md）通过Issue发送给技术委员会审查（网址为tc@openEuler.org），并在正文中包含主题“【*新SIG提案】*”和PR的链接
+
+**8、TC评审并反馈意见**
 
 8.技术委员会通常会在发送申请后的一周内反馈。如果遇到假期或重要会议等因素，可能会需要更长时间。在此期间，您可以进行任何有需要的更改
 
-9.技术委员会将通过合并Pull Request的方式来批准您的申请
+**9.TC评审通过并合入**
 
-
-
-## 更新现有SIG/项目章程的步骤
-
-+ 对于重大变更或可能影响其他SIG/项目组的任何变更（例如范围变更），请填写PR申请，并将该申请发送给技术委员会，发送主题请标注成“*SIG/项目章程更新：*YOUR SIG/RPROJECT”
-+ 对于影响范围小的变更，比如只影响本SIG/项目范围内的问题或领域，SIG/项目的Mainatiner可以自行协助进行变更
-
-
-
-##  SIG/项目章程批准流程
-
-引入新SIG/项目或对老SIG/项目的章程进行修改时，过程如下：
-
-+ 从SIG/项目组中确定推动变更的负责人，最常见的就是SIG/项目的Mainatiner作为负责人
-+ 变更所有者组织SIG/项目组成员一起制定变更内容，并与技术委员会讨论（为便于信息同步，可以在与指导委员会的沟通中键入SIG/项目组的邮件列表）。
-+ 获取到技术委员会的批准意见后，提交PR并将邮件发送到tc@openeuler.org。对更改细节的讨论交流建议在申请PR之前在社区上进行。
-+ 对于较大的变更，确认变更范围后请通知openEuler社区内受到影响的其他SIG/项目组，并将邮件发送到tc@openeuler.org，或者在社区门户上宣布。
-
-如果这一过程中有任何疑问，请联系技术委员会：tc@openEuler.org
+技术委员会将通过合并Pull Request的方式来批准您的申请
 
 
 
 
 
-## SIG/项目申请社区发行提案步骤
+##  SIG变更批准流程
 
-如果SIG/项目希望自己的交付件可以进入**社区发行范围**，请向技术委员会提出申请
+如果您要修改SIG章程（charter.md）、团队成员(OWNERS)、增删Repository(Repository)。
 
-1.将[模板](template-release.md)复制到community/*YOUR SIG/PROJECT*/release.md
+**1、对于影响范围小的变更**，比如只影响本SIG范围内的问题或领域（比如变更团队成员），PR申请填写完成以后，SIG的Mainatiner可以自行审批协助完成变更
 
-2.按照模板要求填写SIG/项目毕业申请
+**2、对于以上的重大变更或可能影响其他SIG组的任何变更**（例如项目范围变更、增删Repository）
+
++ 从SIG组中确定推动变更的负责人，最常见的就是SIG的Mainatiner作为负责人
++ 变更所有者组织SIG组成员一起制定变更内容，并与技术委员会讨论（为便于信息同步，可以在与指导委员会的沟通中键入SIG组的邮件列表）
++ 获取到技术委员会的批准意见后，提交PR，并将该申请发送给[技术委员会](tc@openeuler.org)，发送主题请标注成“【*SIG章程更新：*YOUR SIG/RPROJECT】”
++ 对于较大的变更，确认变更范围后请通知openEuler社区内受到影响的其他SIG组，并将邮件发送到tc@openeuler.org，或者在社区门户上宣布。
+
+如果这一过程中有任何疑问，请联系技术委员会：tc@openeuler.org
+
+
+
+
+
+## SIG申请社区发行提案步骤
+
+如果SIG希望自己的交付件可以进入**社区发行范围**，请向技术委员会提出申请
+
+1.将[模板](template-release.md)复制到community/*YOURSIG*/release.md
+
+2.按照模板要求填写SIG毕业申请
 
 3.用修改好的release.md和openeuler.yaml ，创建一个Pull Request
 
-4.请将社区发行申请（release.md）发送给技术委员会审查（网址为tc@openeuler.org），并在正文中包含主题“SIG/项目社区发行提案”和PR的链接
+4.请将社区发行申请（release.md）发送给技术委员会审查（网址为tc@openeuler.org），并在正文中包含主题“SIG社区发行提案”和PR的链接
 
 5.技术委员会通常会在发送申请后的一周内反馈。如果遇到假期或重要会议等因素，可能会需要更长时间。在此期间，您可以进行任何有需要的更改
 
-6.技术委员会将通过合并Pull Request的方式来批准您的SIG/项目的社区发行申请
+6.技术委员会将通过合并Pull Request的方式来批准您的SIG的社区发行申请
 
 **请注意，申请社区发行有三种类型**：
 
