@@ -2,7 +2,7 @@
 
 ## Report issues
 
-A great way to contribute to the project is to send a detailed report when you encounter an issue. We always appreciate a well-written, thorough bug report and feature propose, and will thank you for it!
+A great way to contribute to the project is to send a detailed report when you encounter an issue. We always appreciate a well-written, thorough bug report and feature propose, and will appreciate you for it!
 
 ### Issues format
 
@@ -20,8 +20,7 @@ See more about [ISSUE_TEMPLATE](.gitee/ISSUE_TEMPLATE.en.md).
 
 ## Submit pull requests
 
-If you are a beginner and expect this project as the gate to open source world, this tutorial is one of the best
-choices for you. Just follow the guidance and you will find the pleasure to becoming a contributor.
+If you are a beginner and expect this project as the gate to open source world, this tutorial is one of the best choices for you. Just follow the guidance and you will find the pleasure to become a contributor.
 
 ### Step 1: Fork repository
 
@@ -33,7 +32,7 @@ to avoid the inconsistency between these two repos.
 
 If you want to download the code to the local machine, ```git``` is the best way:
 ```
-git clone https://your_repo_url/projectname.git
+git clone https://your_repo_url/community.git
 ```
 
 ### Step 3: Develop code locally
@@ -69,15 +68,9 @@ When submitting pull requests, refer to this format:
 - Special notes for your reviewer
 - Release note
 
-See more about [PULL_REQUEST_TEMPLATE](.github/PULL_REQUEST_TEMPLATE.md).
+See more about [PULL_REQUEST_TEMPLATE](.gitee/PULL_REQUEST_TEMPLATE.md).
 
 ### Code style
 
 ```TO BE DEFINED```
-
-
-
-
-
-
 
