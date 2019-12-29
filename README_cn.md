@@ -1,4 +1,4 @@
-# openEuler Community
+# openEuler社区
 [English](./README.md) | 简体中文
 
 
