@@ -1,22 +1,23 @@
 # openEuler Community
+English | [简体中文](./README_cn.md)
 
 Welcome to openEuler Community.
 
 
 ## Introduction
 
-The Community repo is to store all the information about openEuler Community, inclouding governace, how to contribution, SIGs(project teams), Communications and etc. 
+The Community repo is to store all the information about openEuler Community, inclouding governance, how to contribution, SIGs(project teams), Communications and etc. 
 
 ## What you can find here
 
-- [Introduction to openEuler Community]() /   [openEuler社区介绍]()
-- [Governance]() / [社区治理组织架构]()
-    - [Secretariat]() / [秘书处]()
-    - [Technical Committee]() / [技术委员会]()
-    - [Security Committee]() / [安全委员会]()
-    - [SIGs]() / [项目组]()
-- [Events](https://openeuler.org/en/events.html) / [社区活动](https://openeuler.org/zh/events.html)
-- [Contribute as a developer](https://openeuler.org/en/developer.html) / [开发者贡献指南](https://openeuler.org/zh/developer.html)
+- [Introduction to openEuler Community]()
+- [Governance]()
+    - [Secretariat]()
+    - [Technical Committee]()
+    - [Security Committee]()
+    - [SIGs]()
+- [Events](https://openeuler.org/en/events.html)
+- [Contribute as a developer](https://openeuler.org/en/developer.html)
  
 ## Folder Structures
  
