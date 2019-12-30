@@ -1,7 +1,7 @@
 # openEuler Community
 English | [简体中文](./README_cn.md)
 
-Welcome to openEuler Community.
+Welcome to openEuler Community2.
 
 
 ## Introduction
