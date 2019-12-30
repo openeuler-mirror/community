@@ -10,15 +10,16 @@ The Community repo is to store all the information about openEuler Community, in
 
 ## What you can find here
 
-- [Introduction to openEuler Community]()
-- [Governance]()
-    - [Secretariat]()
-    - [Technical Committee]()
-    - [Security Committee]()
-    - [SIGs](https://openeuler.org/zh/sig.html)
+- Introduction to openEuler Community
+- Governance
+    - Secretariat
+    - Technical Committee
+    - Security Committee
+    - [SIGs](https://openeuler.org/en/sig.html)
 - [Events](https://openeuler.org/en/events.html)
 - [Contribute as a developer](https://openeuler.org/en/developer.html)
- 
+
+
 
 ## How to contribute
 
