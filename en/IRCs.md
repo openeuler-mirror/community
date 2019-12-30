@@ -2,7 +2,7 @@
 
 Internet Relay Chat (IRC) is a form of real-time Internet chat. It is mainly designed for group (many-to-many) communication in discussion forums called channels, but also allows one-to-one communication via private message. On IRC you can talk to many other members.
 
-Though a channel might have many people in it at any one time, they might not always be at their keyboard; so if no-one responds, just wait around and someone will hopefully answer soon enough.
+Though a channel might have many people in it at any time, they might not always be in front of the computer, if no one responds, just wait a little bit and you may get responded.
 
 ### How to use it
 
@@ -17,10 +17,12 @@ The following is just a list of programs that you can use to enter the channels 
  - **[HexChat](http://hexchat.org/)** -  The fully open source successor to XChat. Particularly good in terms of bugfixes, but there are some new features too.
  - **[ChatZilla](https://help.ubuntu.com/community/ChatZilla)** - A Firefox add-on or as a part of SeaMonkey.
  - **[freenode online](https://webchat.freenode.net/)** - A online client.
+ - **[LimeChat](http://limechat.net/mac/)** - An open source IRC client for macOS.
+ - **[Textual](https://www.codeux.com/textual/)** - Popular commercial application for interacting with IRC chatrooms on macOS.
 
 #### Registration(Optional)
 
-Some of the IRC channel allow to use a account without registration. but that wasn't our suggestion.If you intend to use the IRC service on a continued basis, you are advised to register an account. That will give you a unique IRC identity, and will also allow you to access channels where unregistered users have been locked out for technical reasons.
+Some of the IRC channels allow to use an account without registration, but in order to use the IRC service on a continued basis, registering your own account is strongly recommended. That will give you a unique IRC identity, and will also allow you to access channels where unregistered users have been locked out for technical reasons.
 
 Please follow the steps for registration:
 
@@ -50,7 +52,7 @@ If you don't want to have to do this, you can set your password as the server pa
 
 #### Join a channel
 
-Before join a channel, connect to a server is must, the community use [freenode](https://freenode.net/) as the server node. Joining the channel just to run a single command:
+You are able to join a channel after getting connected to a server, the community uses [freenode](https://freenode.net) as the server node. Simply run a single command to join the channel.
 
 ```
 /join #channel_name

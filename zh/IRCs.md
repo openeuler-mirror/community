@@ -17,6 +17,8 @@ Internet Relay Chat (IRC) 是一个网络实时聊天工具，主要用于组织
  - **[HexChat](http://hexchat.org/)** -  一个完全开源的成功的IRC软件，功能丰富，问题修复迅速。
  - **[ChatZilla](https://help.ubuntu.com/community/ChatZilla)** - 一个firefox的插件版本的IRC。
  - **[freenode online](https://webchat.freenode.net/)** - 一个在线的IRC聊天工具。
+ - **[LimeChat](http://limechat.net/mac/)** - 一个开源的macOS平台IRC软件。
+ - **[Textual](https://www.codeux.com/textual/)** - macOS平台上非常流行的商业IRC软件。
 
 #### 注册（可选）
 
