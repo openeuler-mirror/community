@@ -27,7 +27,7 @@ openEuler社区遵循[社区行为准则](code-of-conduct.md)
 
 ##  社区团体
 
-请查看[社区团体](SIG-list.md)
+请查看[社区团体](https://openeuler.org/zh/sig.html)
 
 
 
