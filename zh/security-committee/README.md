@@ -1,6 +1,6 @@
-# 产品安全委员会
+# 安全委员会
 
-openEuler产品安全委员会是负责接收和响应openEuler产品安全问题报告的机构。该机构的使命是通过以下方式为openEuler用户提供最安全的操作环境：
+openEuler安全委员会是负责接收和响应openEuler产品安全问题报告的机构。该机构的使命是通过以下方式为openEuler用户提供最安全的操作环境：
 
 + 通过打包程序修复和更新软件包
 + 确定并帮助改善社区内的安全开发实践
@@ -19,30 +19,22 @@ openEuler产品安全委员会是负责接收和响应openEuler产品安全问�
 
 ## 成员
 
-+ XXXX（@XXX)
-+ XXX
-+ XXXX
-+ XXXX
-+ XXXX
+***待任命***
 
 
 
 ## 联系
 
-+ 私人邮件列表：security@openEuler.org
-+ 开放的社区ISSUE/PR
-+ Gitee团队
++ 邮件列表：security@openEuler.org
++ openEuler社区ISSUE/PR
 
 
+## 安全
 
-## 子项目
+安全委员会的政策和文件
 
-### 安全
-
-产品安全委员会的政策和文件
-
-+ 地址：XXXXXXXXXXXXXXXXXXXXXX
++ 地址：
 
   
 
-*如果要报告安全问题，请通过电子邮件发送到私人邮件列表：security@openEuler.org，其中包含安全问题的详细信息，以及所有openEuler错误报告的预期详细信息。*
+*如果要报告安全问题，请通过电子邮件发送到私人邮件列表：security@openeuler.org，其中包含安全问题的详细信息，以及所有openEuler错误报告的预期详细信息。*

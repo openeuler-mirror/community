@@ -27,25 +27,25 @@ openEuler社区遵循[社区行为准则](code-of-conduct.md)
 
 ##  社区团体
 
-请查看[社区团体](SIG&project-list.md)
+请查看[社区团体](SIG-list.md)
 
 
 
-### SIG
+### SIG (Special Interest Group)
 
 ------
 
 openEuler社区主要的组织构成是**SIG**。
 
-每个SIG的共同目的都是针对特定的一个或多个主题，推动交付成果输出，并争取让交付成果成为openEuler社区发行的一部分。SIG的每个可识别的部分都属于该SIG，包括存储库、目录、API、测试、问题、PR等。
+每个SIG的共同目的都是针对特定的一个或多个主题，推动交付成果输出，并争取让交付成果成为openEuler社区发行的一部分或者openEuler扩展包的一部分。SIG的每个可识别的部分都属于该SIG，包括存储库、目录、API、测试、问题、PR等。
 
-SIG在任何给定时间内必须至少有一个，或多个Maintainer。Maintainer负责SIG的运作，通过SIG的治理实现特定的目标，并与团队成员一起与技术委员会、其他SIG组、用户进行交流协同。
+SIG在任何给定时间内必须至少有一个或多个Maintainer。Maintainer负责SIG的运作，通过SIG的治理实现特定的目标，并与团队成员一起与技术委员会、其他SIG组、用户进行交流协同。
 
-每个SIG都必须有一个章程，其中规定了SIG的范围（主题、代码库、目录等）、职责、权限区域，如何选择/授予权限/领导权的成员和角色，如何制定决策和解决冲突，如何管理章程等信息。在一些跨SIG流程（如发布流程）和资产（如存储库）的广泛指导原则约束下，SIG可以相对自定义的更改其操作方式。
+每个SIG都必须有一个章程，其中规定了SIG的业务范围（主题、代码库、目录等）、职责、权限区域，如何选择/授予权限/领导权的成员和角色，如何制定决策和解决冲突，如何管理章程等信息。在一些跨SIG流程（如发布流程）和资产（如存储库）的广泛指导原则约束下，SIG可以相对自定义的更改其操作方式。
 
 SIG组内的交流必须是公开的，以确保其他SIG组的社区成员可以找到讨论、会议、涉及和决策的记录，SIG也需要定期向社区传递项目的工作概要。
 
-有关SIG的治理的更多详细信息，请参考[SIG治理](technical-committee/governance/SIG-governance.md)、[SIG治理要求](techniacl-committee/governance/SIG-governance-requirements.md)。
+有关SIG的治理的更多详细信息，请参考[SIG治理](/zh/technical-committee/governance/SIG-governance.md)、[SIG治理要求](/zh/techniacl-committee/governance/SIG-governance-requirements.md)。
 
 [SIG文件夹](sig/)内记录了openEuler社区当前的所有SIG。
 
@@ -75,11 +75,11 @@ SIG是在公开场合运作的自愿团体，任何人都可以加入。但因�
 
 ## Repository指南
 
-openEuler Gitee下的所有的Repository都应该遵循[openEule的Repository指南](Gitee-management/README.md)中描述的过程。
+openEuler Gitee下的所有的Repository都应该遵循[openEule的Repository指南](/zh/Gitee-management/README.md)中描述的过程。
 
 
 
 ## CLA
 
-所有贡献者都必须签署openEuler CLA，请具体看[这里](CLA.md)。
+所有贡献者都必须签署openEuler CLA，请具体看[这里](/zh/CLA.md)。
 

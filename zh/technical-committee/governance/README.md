@@ -15,7 +15,7 @@
 
 **2、完成新SIG章程的填写**
 
-为便于更好的理解章程模板里的内容，建议先阅读[建议书和要求](SIG-governance-requirement.md)，完成新项目的charter.md
+为便于更好的理解章程模板里的内容，建议先阅读[建议书和要求](SIG-governance-requirements.md)，完成新项目的charter.md
 
 **3、完成新项目成员的配置**
 
@@ -23,14 +23,14 @@
 
 **4、完成新SIG的Repository的配置**
 
-请参考[openEuler的Repository说明](/../../Gitee-management/Gitee-management-guide.md)，完成SIG和项目所拥有的Repository的配置。
+请参考[openEuler的Repository说明](/zh/Gitee-Management/Gitee-management-guide.md)，完成SIG和项目所拥有的Repository的配置。
 
 - 如果您的项目在openEuler社区只维护软件包，请点击[src-openeuler.yaml](/repository/src-openeuler.yaml)，在其中按照格式把你的项目添加进来。
 - 如果不是以上的情况，请单击[openeuler.yaml](/repository/openeuler.yaml)，并按照内部的格式在文件的最后把您的SIG添加进来
 
 **5、在sig文件夹的sig.yaml内添加新SIG的相关信息**
 
-根据以上的信息，打开sig文件夹下[sig.yaml](sig/sigs.yaml)文件，在末尾添加新sig的相关信息。
+根据以上的信息，打开sig文件夹下[sigs.yaml](/sig/sigs.yaml)文件，在末尾添加新sig的相关信息并提交PR。
 
 **6、提交PR**
 
@@ -38,7 +38,7 @@
 
 **7、向TC发送邮件申请**
 
-请将SIG章程（charter.md）通过Issue发送给技术委员会审查（网址为tc@openEuler.org），并在正文中包含主题“【*新SIG提案】*”和PR的链接
+请将SIG章程（charter.md）通过Issue发送给技术委员会审查（网址为<tc@openeuler.org>），并在正文中包含主题“【*新SIG提案】*”和PR的链接
 
 **8、TC评审并反馈意见**
 
@@ -62,41 +62,8 @@
 
 + 从SIG组中确定推动变更的负责人，最常见的就是SIG的Mainatiner作为负责人
 + 变更所有者组织SIG组成员一起制定变更内容，并与技术委员会讨论（为便于信息同步，可以在与指导委员会的沟通中键入SIG组的邮件列表）
-+ 获取到技术委员会的批准意见后，提交PR，并将该申请发送给[技术委员会](tc@openeuler.org)，发送主题请标注成“【*SIG章程更新：*YOUR SIG/RPROJECT】”
++ 获取到技术委员会的批准意见后，提交PR，并将该申请发送给[技术委员会邮件列表](tc@openeuler.org)，发送主题请标注成“【*SIG章程更新：*YOUR SIG/RPROJECT】”
 + 对于较大的变更，确认变更范围后请通知openEuler社区内受到影响的其他SIG组，并将邮件发送到tc@openeuler.org，或者在社区门户上宣布。
 
-如果这一过程中有任何疑问，请联系技术委员会：tc@openeuler.org
-
-
-
-
-
-## SIG申请社区发行提案步骤
-
-如果SIG希望自己的交付件可以进入**社区发行范围**，请向技术委员会提出申请
-
-1.将[模板](template-release.md)复制到community/*YOURSIG*/release.md
-
-2.按照模板要求填写SIG毕业申请
-
-3.用修改好的release.md和openeuler.yaml ，创建一个Pull Request
-
-4.请将社区发行申请（release.md）发送给技术委员会审查（网址为tc@openeuler.org），并在正文中包含主题“SIG社区发行提案”和PR的链接
-
-5.技术委员会通常会在发送申请后的一周内反馈。如果遇到假期或重要会议等因素，可能会需要更长时间。在此期间，您可以进行任何有需要的更改
-
-6.技术委员会将通过合并Pull Request的方式来批准您的SIG的社区发行申请
-
-**请注意，申请社区发行有三种类型**：
-
-- 第一种：进入发行光盘范围，
-- 第二种：进入`/extra`（不在光盘内的额外的软件包）目录
-- 第三种：进入`/experimental`（探索、实验性质的软件包）目录
-
-
-
-## 常见问题
-
-NULL
-
+如果这一过程中有任何疑问，请联系技术委员会：<tc@openeuler.org>
 
