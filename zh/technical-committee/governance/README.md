@@ -11,34 +11,83 @@
 
 **1、在community下创建新SIG的文件夹并拷贝进模板文件**
 
-请将[模板文件夹](template-charter/)中的两个文件（分别是charter.md、OWNERS）复制到community/sig/sig-YOURSIG*/下面。
+将 gitee.com/openeuler/community Fork到你的Gitee下。
+
+
+```
+git clone https://gitee.com/YOURGITEE/community
+
+cd ./community/sig
+
+cp -r sig-template sig-YOURSIGNAME
+
+cd sig-YOURSIGNAME
+
+```
+
 
 **2、完成新SIG章程的填写**
 
-为便于更好的理解章程模板里的内容，建议先阅读[建议书和要求](SIG-governance-requirements.md)，完成新项目的charter.md
+为便于更好的理解章程模板里的内容，建议先阅读[建议书和要求](./SIG-governance-requirements.md)，完成新SIG的申请填写。
+
+```
+mv sig-template_cn.md sig-YOURSIGNAME_cn.md
+
+mv sig-template.md sig-YOURSIGNAME.md
+
+vi sig-YOURSIGNAME_cn.md
+
+vi sig-YOURSIGNAME.md
+
+```
 
 **3、完成新项目成员的配置**
 
 请在OWNERS文件中完成对SIG成员的配置
+
+```
+vi OWNERS
+
+```
 
 **4、完成新SIG的Repository的配置**
 
 请参考[openEuler的Repository说明](/zh/Gitee-Management/Gitee-management-guide.md)，完成SIG和项目所拥有的Repository的配置。
 
 - 如果您的项目在openEuler社区只维护软件包，请点击[src-openeuler.yaml](/repository/src-openeuler.yaml)，在其中按照格式把你的项目添加进来。
+
+```
+vi ../../repository/src-openeuler.yaml
+
+```
+
 - 如果不是以上的情况，请单击[openeuler.yaml](/repository/openeuler.yaml)，并按照内部的格式在文件的最后把您的SIG添加进来
+
+```
+vi ../../repository/openeuler.yaml
+
+```
 
 **5、在sig文件夹的sig.yaml内添加新SIG的相关信息**
 
 根据以上的信息，打开sig文件夹下[sigs.yaml](/sig/sigs.yaml)文件，在末尾添加新sig的相关信息并提交PR。
 
+```
+vi ../sigs.yaml
+
+- name: sig-YOURSIGNAME
+  repositories:
+  - src-openeuler/aaa
+  - src-openeuler/bbb
+```
+
 **6、提交PR**
 
-将修改好的文件夹内的charter.md，以及openeuler.yaml（或src-openeuler.yaml）和repository.yaml提交 ，创建一个Pull Request，并在您的团队内对申请书内的SIG范围和治理章程等达成一致意见
+将以上修改提交到Gitee上，并在Gitee上创建一个Pull Request。
 
 **7、向TC发送邮件申请**
 
-请将SIG章程（charter.md）通过Issue发送给技术委员会审查（网址为<tc@openeuler.org>），并在正文中包含主题“【*新SIG提案】*”和PR的链接
+给技术委员会发邮件（邮箱<tc@openeuler.org>），并在正文中包含主题“[*新SIG提案]*”和PR的链接
 
 **8、TC评审并反馈意见**
 
@@ -47,8 +96,6 @@
 **9.TC评审通过并合入**
 
 技术委员会将通过合并Pull Request的方式来批准您的申请
-
-
 
 
 
