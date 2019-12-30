@@ -73,7 +73,7 @@ SIG组是开放的，欢迎任何人加入并参与贡献。SIG组内部会定�
 
 <h3 id="id2-1-2">找到您感兴趣的SIG和repository</h3>
 
-找到适合您贡献的SIG组，可以帮助您在正确的地方提出问题，为您的贡献提供更高的知名度和更快的社区响应速度。您可以查看[SIG列表](/../https://openeuler.org/zh/sig.html)，以便您最快速的定位到自己感兴趣的领域。
+找到适合您贡献的SIG组，可以帮助您在正确的地方提出问题，为您的贡献提供更高的知名度和更快的社区响应速度。您可以查看[SIG列表](https://openeuler.org/zh/sig.html)，以便您最快速的定位到自己感兴趣的领域。
 
 在openEuler的Repository列表下搜索SIG名称，也可以找到对应子SIG的repository。如果搜索不到，您可以尝试在dev@openeuler.org中寻求帮助。同样，请在邮件列表内用“【开发过程疑问】”作为标题 写出你寻找的SIG或项目。
 
@@ -127,7 +127,7 @@ openEuler遵循标准的[Gitee PR请求流程](https://gitee.com/help/articles/4
 对于新贡献者来说，常遇到的问题是：
 
 + 在您的第一个PR之前没有正确的签署CLA（请参阅[签署CLA](/../CLA.md)）
-+ 为PR在SIG组内找到合适的检视者，并保证自己的贡献遵循SIG组内特定的贡献准则（请参阅[了解SIG](/../https://openeuler.org/zh/sig.html)，从其中查找感兴趣的SIG提供的贡献者指导）
++ 为PR在SIG组内找到合适的检视者，并保证自己的贡献遵循SIG组内特定的贡献准则（请参阅[了解SIG](https://openeuler.org/zh/sig.html)，从其中查找感兴趣的SIG提供的贡献者指导）
 + 处理在PR上失败的测试用例，这些测试用例可能与您引入的更改无关（请参阅）
 + 不遵守一些[良好的编码实践]()
 + 在提交的信息中包含了可能关闭issue的关键字，比如XXXXXXXX等

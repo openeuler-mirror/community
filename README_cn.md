@@ -16,7 +16,7 @@
     - [秘书处](/zh/secretariat)
     - [安全委员会](/zh/security-committee)
     - [技术委员会](/zh/technical-committee)
-        - [项目组](/https://openeuler.org/zh/sig.html)
+        - [项目组](https://openeuler.org/zh/sig.html)
 - [社区活动](https://openeuler.org/zh/events.html)
 - [开发者贡献指南](https://openeuler.org/zh/developer.html)
 
