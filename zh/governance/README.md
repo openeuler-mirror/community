@@ -37,7 +37,7 @@ openEuler有以下受官方支持的组织类型：
 
   有关这些组织的更多详细信息，可以参看[完整的管理文档](/zh/governance/)。SIG可以由自己的贡献策略（在本SIG/项目组的repo中的”README“或”CONTRIBUTING“文件中描述）（例如sig-qa/CONTRIBUTING.md），以及自己的邮件列表、IRC频道等。
 
-如果您需要了解SIG/项目结构和组织的更多信息，请参阅[SIG治理](/zh/technical-committee/governance/SIG-goveranace.md)信息。
+如果您需要了解SIG/项目结构和组织的更多信息，请参阅[SIG治理](/zh/technical-committee/governance/)信息。
 
 
 

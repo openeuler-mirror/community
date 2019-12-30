@@ -14,9 +14,9 @@
 - [openEuler社区介绍](/zh/governance)
 - 社区治理组织架构
     - [秘书处](/zh/secretariat)
-    - [技术委员会](/zh/technical-committee)
     - [安全委员会](/zh/security-committee)
-    - [项目组]()
+    - [技术委员会](/zh/technical-committee)
+        - [项目组](/SIG-list.md)
 - [社区活动](https://openeuler.org/zh/events.html)
 - [开发者贡献指南](https://openeuler.org/zh/developer.html)
 
@@ -25,7 +25,7 @@
 
 当openEuler社区有信息刷新时，这里的文档也需要同步刷新。很感谢您愿意帮助刷新内容。
 
-请阅读[如何贡献](./CONTRIBUTING.md)获得帮助。
+请阅读[如何贡献](/CONTRIBUTING.md)获得帮助。
 
 ## 本代码仓的Maintainer
 

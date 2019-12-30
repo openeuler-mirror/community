@@ -1,10 +1,14 @@
 # SIG清单
 
-大多数社区活动都组织为SIG。SIG都遵循这些[准则](Governance.md)。每个SIG的资料都在该SIG的目录中。如果需要，可以[申请一个新SIG/项目](technical-committee/governance/README.md)
+## 参加或者和增加SIG的指南
+
+请参阅[SIG治理](/zh/technical-committee/governance/)
+
+大多数社区活动都组织为SIG。SIG都遵循这些[准则](/zh/governance/)。[申请一个新SIG/项目](/zh/technical-committee/governance/)
 
 
 
-### 主要的SIG清单
+### SIG List
 
 - [sig-qa](sig/sig-qa/)
 - [sig-pm](sig/sig-pm/)
