@@ -1,0 +1,118 @@
+community: "openeuler"
+repositories:
+- name: A-Tune
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: ci-bot
+  description: ""
+  protected_branches:
+  - master
+  type: public
+- name: clibcni
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: community
+  description: ""
+  protected_branches:
+  - master
+  type: public
+- name: community-issue
+  description: The public issue repo which only accept issue that doesn't belong to
+    any source repo
+  protected_branches:
+  - master
+  type: public
+- name: discussion
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: docs
+  description: ""
+  protected_branches:
+  - master
+  type: public
+- name: gitbook-theme-hugo
+  description: ""
+  protected_branches:
+  - master
+  type: public
+- name: go-gitee
+  description: ""
+  protected_branches:
+  - master
+  type: public
+- name: infrastructure
+  description: ""
+  protected_branches:
+  - master
+  type: public
+- name: integration-test
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: iSulad
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: iSulad-kit
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: kae_driver
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: kernel
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: lcr
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: libkae
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: libwd
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: openeuler-jenkins
+  description: ""
+  protected_branches:
+  - master
+  type: public
+- name: os-autoinst-distri-openEuler
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: prefetch_tunning
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: security
+  description: ""
+  protected_branches:
+  - master
+  type: public
+- name: website
+  description: ""
+  protected_branches:
+  - master
+  type: public
