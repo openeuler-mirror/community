@@ -19,29 +19,6 @@ The Community repo is to store all the information about openEuler Community, in
 - [Events](https://openeuler.org/en/events.html)
 - [Contribute as a developer](https://openeuler.org/en/developer.html)
  
-## Folder Structures
- 
-
-```
-|-- community
-    |-- code-of-conduct.md
-    |-- CONTRIBUTING.md  How to contribute to repo community
-    |-- community-membership.md
-    |-- governance.md
-    |-- LICENSE
-    |-- README.md
-    |-- SIG-list.md   Here you can find all the SIGs in this community
-    |-- .gitee    Templates for issues and pull-requests
-    |-- zh    in Chinese
-    |   |-- CLA.md   Contributor License Agreement
-    |   |-- Mails.md    Mailing list
-    |   |-- Gitee-Management    Management inside of Gitee.com
-    |
-    |-- en   in English
-        |-- CLA.md   Contributor License Agreement
-        |-- Mails.md    Mailing list
-        |-- Gitee-Management    Management inside of Gitee.com        
-```
 
 ## How to contribute
 

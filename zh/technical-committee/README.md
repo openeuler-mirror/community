@@ -1,6 +1,6 @@
 # 技术委员会
 
-openEuler技术委员会是openEuler理事会下社区的技术决策机构，负责社区技术决策和技术资源的协调。技术委员会的主要职责如下：
+openEuler技术委员会是openEuler社区的技术决策机构，负责社区技术决策和技术资源的协调。技术委员会的主要职责如下：
 
 - 对社区技术路线、接口定义、架构设计、构建发布等进行指导和决策
 - 协调跨项目合作，对社区跨项目技术问题进行决策
@@ -14,14 +14,14 @@ openEuler技术委员会是openEuler理事会下社区的技术决策机构，�
 
 # 组织会议
 
-- 公开的会议时间：每周X 下午，北京时间XX点~XX点
+- 公开的会议时间：北京时间，每周X 下午，XX点~XX点
 
 
 
 # 成员
 
 
-- 熊伟[[@myeuler](https://gitee.com/myeuler)]，华为
+- 熊伟[[@myeuler](https://gitee.com/myeuler)]
 - cynthia[[@cynthia_xh](https://gitee.com/cynthia_xh)]
 - Shinwell[[@Shinwell_Hu](https://gitee.com/Shinwell_Hu)]
 - 王勋[[@dream0819](https://gitee.com/dream0819)]
@@ -32,10 +32,7 @@ openEuler技术委员会是openEuler理事会下社区的技术决策机构，�
 
 # 联系方式
 
-
 - [邮件列表](tc@openeuler.org)
-
-- [Open Community Issues/PRs]()
 
   
 

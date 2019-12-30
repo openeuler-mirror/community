@@ -11,38 +11,15 @@
 
 ## 这里有什么？
 
-- [openEuler社区介绍]()
-- [社区治理组织架构]()
-    - [秘书处]()
-    - [技术委员会]()
-    - [安全委员会]()
+- [openEuler社区介绍](/zh/governance)
+- 社区治理组织架构
+    - [秘书处](/zh/secretariat)
+    - [技术委员会](/zh/technical-committee)
+    - [安全委员会](/zh/security-committee)
     - [项目组]()
 - [社区活动](https://openeuler.org/zh/events.html)
 - [开发者贡献指南](https://openeuler.org/zh/developer.html)
- 
-## 文件夹结构
- 
 
-```
-|-- community
-    |-- code-of-conduct.md
-    |-- CONTRIBUTING.md
-    |-- community-membership.md
-    |-- governance.md
-    |-- LICENSE
-    |-- README.md
-    |-- SIG-list.md
-    |-- .gitee
-    |-- zh
-    |   |-- CLA.md   Contributor License Agreement
-    |   |-- Mails.md    Mailing list
-    |   |-- Gitee-Management    Management inside of Gitee.com
-    |
-    |-- en   in English
-        |-- CLA.md   Contributor License Agreement
-        |-- Mails.md    Mailing list
-        |-- Gitee-Management    Management inside of Gitee.com        
-```
 
 ## 如何在本代码仓贡献
 
