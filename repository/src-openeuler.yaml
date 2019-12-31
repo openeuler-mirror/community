@@ -25,6 +25,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: acpica-tools
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: acpid
   description: ""
   protected_branches:
@@ -245,6 +250,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: arm-trusted-firmware
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: arptables
   description: ""
   protected_branches:
@@ -306,6 +316,11 @@ repositories:
   - master
   type: private
 - name: at-spi2-core
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: atf
   description: ""
   protected_branches:
   - master
@@ -890,6 +905,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: conntrack-tools
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: console-setup
   description: ""
   protected_branches:
@@ -1121,6 +1141,11 @@ repositories:
   - master
   type: private
 - name: dejavu-fonts
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: dejavu-sans-mono-fonts
   description: ""
   protected_branches:
   - master
@@ -1461,6 +1486,11 @@ repositories:
   - master
   type: private
 - name: eog
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: epydoc
   description: ""
   protected_branches:
   - master
@@ -2245,6 +2275,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: gnulib
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: gnupg2
   description: ""
   protected_branches:
@@ -2366,6 +2401,11 @@ repositories:
   - master
   type: private
 - name: gpgme
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: gphoto2
   description: ""
   protected_branches:
   - master
@@ -2700,6 +2740,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: hiredis
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: hivex
   description: ""
   protected_branches:
@@ -2736,6 +2781,11 @@ repositories:
   - master
   type: private
 - name: hunspell
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: hunspell-de
   description: ""
   protected_branches:
   - master
@@ -3325,6 +3375,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: jq
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: jsch
   description: ""
   protected_branches:
@@ -3371,6 +3426,11 @@ repositories:
   - master
   type: private
 - name: jtidy
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: Judy
   description: ""
   protected_branches:
   - master
@@ -3525,6 +3585,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: ksh
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: kurdit-unikurd-web-fonts
   description: ""
   protected_branches:
@@ -3536,6 +3601,11 @@ repositories:
   - master
   type: private
 - name: kyotocabinet
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: kyua
   description: ""
   protected_branches:
   - master
@@ -3765,6 +3835,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: libclc
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: libcomps
   description: ""
   protected_branches:
@@ -3966,6 +4041,16 @@ repositories:
   - master
   type: private
 - name: libgexiv2
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: libgit2
+  description: ""
+  protected_branches:
+  - master
+  type: private
+ - name: libgit2-glib
   description: ""
   protected_branches:
   - master
@@ -4310,6 +4395,16 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: libnetfilter_cthelper
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: libnetfilter_cttimeout
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: libnetfilter_queue
   description: ""
   protected_branches:
@@ -4321,6 +4416,11 @@ repositories:
   - master
   type: private
 - name: libnfnetlink
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: libnfs
   description: ""
   protected_branches:
   - master
@@ -4375,6 +4475,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: libomxil-bellagio
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: libosinfo
   description: ""
   protected_branches:
@@ -4521,6 +4626,11 @@ repositories:
   - master
   type: private
 - name: libsane-hpaio
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: libsass
   description: ""
   protected_branches:
   - master
@@ -5286,6 +5396,11 @@ repositories:
   - master
   type: private
 - name: luksmeta
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: lutok
   description: ""
   protected_branches:
   - master
