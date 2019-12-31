@@ -4,7 +4,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: ci-bot
   description: ""
   protected_branches:
@@ -14,7 +14,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: community
   description: "The Community repo is to store all the information about openEuler Community, inclouding governance, SIGs(project teams), Communications and etc."
   protected_branches:
@@ -60,12 +60,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: iSulad-kit
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: kae_driver
   description: ""
   protected_branches:
@@ -75,12 +75,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: lcr
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libkae
   description: ""
   protected_branches:
@@ -105,12 +105,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: security
   description: ""
   protected_branches:
   - master
-  type: public
+  type: private
 - name: tool-collections
   description: ""
   protected_branches:
