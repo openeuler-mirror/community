@@ -1,4 +1,4 @@
-# SIG  Management Guidance
+# SIG Management Procedure
 
 All SIGs in the openEuler community have a charter that clarifies the scope and governance.
 
