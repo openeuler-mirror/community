@@ -85,7 +85,6 @@ Create a Pull Request on Gitee.
 
 **7. Send an application email to Techincal Committee**
 
-给技术委员会发邮件（邮箱<tc@openeuler.org>），并在正文中包含主题“[*新SIG提案]*”和PR的链接
 
 Send an application email to Technical Committee (<tc@openeuler.org>) with the title starting with [New SIG].
 
