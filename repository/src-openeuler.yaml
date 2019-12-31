@@ -350,11 +350,6 @@ repositories:
   protected_branches:
   - master
   type: private
-- name: authconfig
-  description: ""
-  protected_branches:
-  - master
-  type: private
 - name: authd
   description: ""
   protected_branches:
