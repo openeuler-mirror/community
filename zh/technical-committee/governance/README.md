@@ -9,7 +9,7 @@
 
 ## 申请新SIG的流程
 
-**1、在community下创建新SIG的文件夹并拷贝进模板文件**
+**1、使用SIG模板创建自己的新SIG**
 
 将 gitee.com/openeuler/community Fork到你的Gitee下。
 
@@ -77,7 +77,7 @@ vi ../sigs.yaml
 
 - name: sig-YOURSIGNAME
   repositories:
-  - src-openeuler/aaa
+  - openeuler/aaa
   - src-openeuler/bbb
 ```
 
