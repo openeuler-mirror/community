@@ -2259,3 +2259,22 @@ sigs:
 - name: sig-Community
   repositories:
   - openeuler/community
+- name: A-Tune
+  repositories:
+  - openeuler/A-Tune
+  - openeuler/prefetch_tuning
+- name: sig-Kernel
+  repositories:
+  - openeuler/kernel
+  - openeuler/os-autoinst-distri-openEuler
+- name: kae
+  repositories:
+  - openeuler/kae_driver
+  - openeuler/libkae
+  - openeuler/libwd
+- name: iSulad
+  repositories:
+  - openeuler/iSulad
+  - openeuler/lcr
+  - openeuler/clibcni
+  - openeuler/iSulad-kit
