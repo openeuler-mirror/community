@@ -1,4 +1,4 @@
-community: "src-openeuler"
+community: src-openeuler
 repositories:
 - name: aalto-xml
   description: ""
@@ -9,7 +9,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: abrt
   description: ""
   protected_branches:
@@ -19,8 +19,13 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: acl
+  description: ""
+  protected_branches:
+  - master
+  type: public
+- name: acpica-tools
   description: ""
   protected_branches:
   - master
@@ -29,22 +34,22 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: adcli
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: adobe-mappings-cmap
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: adobe-mappings-pdf
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: adobe-source-code-pro-fonts
   description: ""
   protected_branches:
@@ -54,7 +59,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: aesh
   description: ""
   protected_branches:
@@ -64,17 +69,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: alsa-firmware
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: alsa-lib
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: alsa-plugins
   description: ""
   protected_branches:
@@ -84,7 +89,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: alsa-utils
   description: ""
   protected_branches:
@@ -104,12 +109,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: anaconda-user-help
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: ant
   description: ""
   protected_branches:
@@ -199,7 +204,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: public
+  type: private
 - name: apache-ivy
   description: ""
   protected_branches:
@@ -209,7 +214,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: public
+  type: private
 - name: apache-resource-bundles
   description: ""
   protected_branches:
@@ -224,12 +229,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: apr-util
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: aqute-bnd
   description: ""
   protected_branches:
@@ -239,8 +244,13 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: args4j
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: arm-trusted-firmware
   description: ""
   protected_branches:
   - master
@@ -249,17 +259,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: arpwatch
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: asciidoc
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: aspell
   description: ""
   protected_branches:
@@ -274,7 +284,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: atinject
   description: ""
   protected_branches:
@@ -284,7 +294,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: atkmm
   description: ""
   protected_branches:
@@ -299,13 +309,18 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: at-spi2-atk
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: at-spi2-core
+  description: ""
+  protected_branches:
+  - master
+  type: public
+- name: atf
   description: ""
   protected_branches:
   - master
@@ -314,52 +329,52 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: A-Tune
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: audiofile
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: audit
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: augeas
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: authconfig
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: authd
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: authselect
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: authz
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: autoconf
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: autoconf213
   description: ""
   protected_branches:
@@ -379,12 +394,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: automake
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: autotrace
   description: ""
   protected_branches:
@@ -394,12 +409,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: avahi
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: avalon-framework
   description: ""
   protected_branches:
@@ -419,7 +434,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: b43-tools
   description: ""
   protected_branches:
@@ -429,12 +444,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: babeltrace
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: babl
   description: ""
   protected_branches:
@@ -459,17 +474,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: bash
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: bash-completion
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: batik
   description: ""
   protected_branches:
@@ -479,7 +494,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: bcel
   description: ""
   protected_branches:
@@ -504,37 +519,37 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: bind-dyndb-ldap
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: binutils
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: bison
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: blivet-gui
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: blktrace
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: bluez
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: bolt
   description: ""
   protected_branches:
@@ -544,7 +559,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: bouncycastle
   description: ""
   protected_branches:
@@ -569,17 +584,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: brltty
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: brotli
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: bsf
   description: ""
   protected_branches:
@@ -594,12 +609,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: bubblewrap
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: build
   description: ""
   protected_branches:
@@ -614,7 +629,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: byacc
   description: ""
   protected_branches:
@@ -634,7 +649,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: c3p0
   description: ""
   protected_branches:
@@ -644,22 +659,22 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: cachefilesd
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: cairo
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: cairomm
   description: ""
   protected_branches:
   - master
-  type: public
+  type: private
 - name: capstone
   description: ""
   protected_branches:
@@ -669,7 +684,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: cdi-api
   description: ""
   protected_branches:
@@ -679,7 +694,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: cdrdao
   description: ""
   protected_branches:
@@ -689,7 +704,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: celt051
   description: ""
   protected_branches:
@@ -699,7 +714,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: cgdcbxd
   description: ""
   protected_branches:
@@ -719,17 +734,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: cheese
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: chkconfig
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: chromaprint
   description: ""
   protected_branches:
@@ -739,12 +754,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: chrpath
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: ci_check
   description: ""
   protected_branches:
@@ -754,7 +769,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: cim-schema
   description: ""
   protected_branches:
@@ -769,7 +784,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: clamav
   description: ""
   protected_branches:
@@ -799,17 +814,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: clibcni
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: cloud-init
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: clucene
   description: ""
   protected_branches:
@@ -819,7 +834,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: clutter-gst2
   description: ""
   protected_branches:
@@ -829,12 +844,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: clutter-gtk
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: cmake
   description: ""
   protected_branches:
@@ -849,17 +864,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: cogl
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: colord
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: colord-gtk
   description: ""
   protected_branches:
@@ -869,7 +884,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: compat-libgfortran
   description: ""
   protected_branches:
@@ -884,8 +899,13 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: conmon
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: conntrack-tools
   description: ""
   protected_branches:
   - master
@@ -899,7 +919,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: container-exception-logger
   description: ""
   protected_branches:
@@ -914,7 +934,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: convmv
   description: ""
   protected_branches:
@@ -929,12 +949,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: cpio
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: cppcheck
   description: ""
   protected_branches:
@@ -949,12 +969,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: crash
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: crash-gcore-command
   description: ""
   protected_branches:
@@ -974,27 +994,27 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: cronie
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: crontabs
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: crypto-policies
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: cryptsetup
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: cscope
   description: ""
   protected_branches:
@@ -1004,17 +1024,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: CUnit
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: cups
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: cups-filters
   description: ""
   protected_branches:
@@ -1024,12 +1044,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: curl
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: cvs
   description: ""
   protected_branches:
@@ -1049,7 +1069,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: Cython
   description: ""
   protected_branches:
@@ -1069,7 +1089,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: dbus-cpp
   description: ""
   protected_branches:
@@ -1079,7 +1099,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: dbusmenu-qt
   description: ""
   protected_branches:
@@ -1089,17 +1109,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: dbxtool
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: dconf
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: dconf-editor
   description: ""
   protected_branches:
@@ -1129,37 +1149,37 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: desktop-file-utils
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: devhelp
   description: ""
   protected_branches:
   - master
-  type: public
+  type: private
 - name: device-mapper-multipath
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: device-mapper-persistent-data
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: dhcp
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: dialog
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: dict2xml
   description: ""
   protected_branches:
@@ -1169,17 +1189,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: diffutils
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: ding-libs
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: djvulibre
   description: ""
   protected_branches:
@@ -1194,27 +1214,27 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: dmraid
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: dnf
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: dnf-plugins-core
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: dnsmasq
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: dnssec-trigger
   description: ""
   protected_branches:
@@ -1234,7 +1254,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: docbook-style-dsssl
   description: ""
   protected_branches:
@@ -1244,7 +1264,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: docbook-utils
   description: ""
   protected_branches:
@@ -1254,12 +1274,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: docker-anaconda-addon
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: dom4j
   description: ""
   protected_branches:
@@ -1274,12 +1294,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: dosfstools
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: dotconf
   description: ""
   protected_branches:
@@ -1299,22 +1319,22 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: dropwatch
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: drpm
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: dtc
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: dump
   description: ""
   protected_branches:
@@ -1329,12 +1349,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: e2fsprogs
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: easymock
   description: ""
   protected_branches:
@@ -1344,7 +1364,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: ecj
   description: ""
   protected_branches:
@@ -1364,32 +1384,32 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: edac-utils
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: edk2
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: efibootmgr
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: efi-rpm-macros
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: efivar
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: efl
   description: ""
   protected_branches:
@@ -1424,7 +1444,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: elinks
   description: ""
   protected_branches:
@@ -1434,7 +1454,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: emacs-auctex
   description: ""
   protected_branches:
@@ -1444,7 +1464,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: enchant2
   description: ""
   protected_branches:
@@ -1465,6 +1485,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: epydoc
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: esc
   description: ""
   protected_branches:
@@ -1479,7 +1504,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: evince
   description: ""
   protected_branches:
@@ -1489,27 +1514,27 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: exempi
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: exiv2
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: expat
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: expect
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: extlinux-bootloader
   description: ""
   protected_branches:
@@ -1594,7 +1619,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: file-roller
   description: ""
   protected_branches:
@@ -1604,12 +1629,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: findutils
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: fio
   description: ""
   protected_branches:
@@ -1619,7 +1644,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: firebird
   description: ""
   protected_branches:
@@ -1634,12 +1659,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: flac
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: Flask-RESTful
   description: ""
   protected_branches:
@@ -1654,7 +1679,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: flite
   description: ""
   protected_branches:
@@ -1664,7 +1689,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: fluid-soundfont
   description: ""
   protected_branches:
@@ -1689,7 +1714,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: fontforge
   description: ""
   protected_branches:
@@ -1699,7 +1724,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: fop
   description: ""
   protected_branches:
@@ -1709,7 +1734,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: fprintd
   description: ""
   protected_branches:
@@ -1744,7 +1769,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: frei0r-plugins
   description: ""
   protected_branches:
@@ -1754,22 +1779,22 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: fros
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: ftp
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: fuse
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: fwupd
   description: ""
   protected_branches:
@@ -1784,7 +1809,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: game-music-emu
   description: ""
   protected_branches:
@@ -1794,7 +1819,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: gavl
   description: ""
   protected_branches:
@@ -1804,12 +1829,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: gc
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: gcab
   description: ""
   protected_branches:
@@ -1819,42 +1844,42 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: GConf2
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: gcr
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: gd
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: gdb
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: gdbm
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: gdisk
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: gdk-pixbuf2
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: gdm
   description: ""
   protected_branches:
@@ -1864,7 +1889,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: public
+  type: private
 - name: gegl04
   description: ""
   protected_branches:
@@ -1874,27 +1899,27 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: geocode-glib
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: GeoIP
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: GeoIP-GeoLite-data
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: geolite2
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: geronimo-annotation
   description: ""
   protected_branches:
@@ -1919,7 +1944,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: gflags
   description: ""
   protected_branches:
@@ -1934,12 +1959,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: giflib
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: gimp
   description: ""
   protected_branches:
@@ -1949,17 +1974,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: gjs
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: glade
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: glassfish-el
   description: ""
   protected_branches:
@@ -1989,12 +2014,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: glibc
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: glibmm24
   description: ""
   protected_branches:
@@ -2004,7 +2029,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: gl-manpages
   description: ""
   protected_branches:
@@ -2014,17 +2039,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: gmime30
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: gmp
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: gnome-abrt
   description: ""
   protected_branches:
@@ -2034,7 +2059,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: gnome-backgrounds
   description: ""
   protected_branches:
@@ -2079,12 +2104,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: gnome-desktop3
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: gnome-dictionary
   description: ""
   protected_branches:
@@ -2149,7 +2174,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: gnome-packagekit
   description: ""
   protected_branches:
@@ -2209,7 +2234,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: gnome-tweaks
   description: ""
   protected_branches:
@@ -2224,7 +2249,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: gnome-video-effects
   description: ""
   protected_branches:
@@ -2245,11 +2270,16 @@ repositories:
   protected_branches:
   - master
   type: private
-- name: gnupg2
+- name: gnulib
   description: ""
   protected_branches:
   - master
   type: private
+- name: gnupg2
+  description: ""
+  protected_branches:
+  - master
+  type: public
 - name: gnuplot
   description: ""
   protected_branches:
@@ -2259,12 +2289,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: gobject-introspection
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: go-compilers
   description: ""
   protected_branches:
@@ -2274,7 +2304,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: golang-github-coreos-go-iptables
   description: ""
   protected_branches:
@@ -2324,7 +2354,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: google-gson
   description: ""
   protected_branches:
@@ -2339,12 +2369,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: google-noto-emoji-fonts
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: google-roboto-slab-fonts
   description: ""
   protected_branches:
@@ -2364,8 +2394,13 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: gpgme
+  description: ""
+  protected_branches:
+  - master
+  type: public
+- name: gphoto2
   description: ""
   protected_branches:
   - master
@@ -2374,7 +2409,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: gradle
   description: ""
   protected_branches:
@@ -2389,27 +2424,27 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: graphviz
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: grep
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: grilo
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: groff
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: groovy
   description: ""
   protected_branches:
@@ -2419,22 +2454,22 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: grub2
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: grubby
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: gsettings-desktop-schemas
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: gsl
   description: ""
   protected_branches:
@@ -2444,7 +2479,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: gsound
   description: ""
   protected_branches:
@@ -2464,7 +2499,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: gstreamer
   description: ""
   protected_branches:
@@ -2474,7 +2509,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: gstreamer1-plugins-bad-free
   description: ""
   protected_branches:
@@ -2484,7 +2519,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: gstreamer1-plugins-good
   description: ""
   protected_branches:
@@ -2514,12 +2549,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: gtk3
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: gtk-doc
   description: ""
   protected_branches:
@@ -2574,7 +2609,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: gupnp
   description: ""
   protected_branches:
@@ -2594,17 +2629,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: gvfs
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: gzip
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: hamcrest
   description: ""
   protected_branches:
@@ -2619,17 +2654,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: harfbuzz
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: haveged
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: hawtjni
   description: ""
   protected_branches:
@@ -2649,7 +2684,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: help2man
   description: ""
   protected_branches:
@@ -2659,7 +2694,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: hexedit
   description: ""
   protected_branches:
@@ -2694,8 +2729,13 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: HikariCP
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: hiredis
   description: ""
   protected_branches:
   - master
@@ -2704,12 +2744,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: public
+  type: private
 - name: hostname
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: hplip
   description: ""
   protected_branches:
@@ -2724,12 +2764,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: http-parser
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: httpcomponents-core
   description: ""
   protected_branches:
@@ -2739,22 +2779,27 @@ repositories:
   description: ""
   protected_branches:
   - master
+  type: public
+- name: hunspell-de
+  description: ""
+  protected_branches:
+  - master
   type: private
 - name: hunspell-en
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: hwdata
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: hwinfo
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: hwloc
   description: ""
   protected_branches:
@@ -2764,17 +2809,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: i2c-tools
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: ibus
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: ibus-hangul
   description: ""
   protected_branches:
@@ -2829,12 +2874,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: icu
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: iio-sensor-proxy
   description: ""
   protected_branches:
@@ -2849,7 +2894,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: ImageMagick
   description: ""
   protected_branches:
@@ -2894,7 +2939,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: inkscape
   description: ""
   protected_branches:
@@ -2919,7 +2964,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: iowatcher
   description: ""
   protected_branches:
@@ -2929,7 +2974,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: iperf3
   description: ""
   protected_branches:
@@ -2939,42 +2984,42 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: iproute
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: iprutils
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: ipset
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: iptables
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: iptraf-ng
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: iptstate
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: iputils
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: ipvsadm
   description: ""
   protected_branches:
@@ -2984,12 +3029,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: irqbalance
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: irrlicht
   description: ""
   protected_branches:
@@ -2999,42 +3044,42 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: isns-utils
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: iso-codes
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: isomd5sum
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: iSulad
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: iSulad-kit
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: iSulad-lxcfs-toolkit
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: iSulad-tools
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: itstool
   description: ""
   protected_branches:
@@ -3044,12 +3089,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: iw
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: jack-audio-connection-kit
   description: ""
   protected_branches:
@@ -3124,12 +3169,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: jasper
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: jatl
   description: ""
   protected_branches:
@@ -3160,6 +3205,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: javapackages-tools
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: javassist
   description: ""
   protected_branches:
@@ -3174,12 +3224,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: jbigkit
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: jboss-interceptors-1.2-api
   description: ""
   protected_branches:
@@ -3324,6 +3374,11 @@ repositories:
   description: ""
   protected_branches:
   - master
+  type: public
+- name: jq
+  description: ""
+  protected_branches:
+  - master
   type: private
 - name: jsch
   description: ""
@@ -3344,7 +3399,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: jsoncpp
   description: ""
   protected_branches:
@@ -3354,7 +3409,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: jsoup
   description: ""
   protected_branches:
@@ -3371,6 +3426,11 @@ repositories:
   - master
   type: private
 - name: jtidy
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: Judy
   description: ""
   protected_branches:
   - master
@@ -3409,32 +3469,32 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: kata_integration
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: kata-proxy
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: kata-runtime
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: kata-shim
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: kbd
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: kde-filesystem
   description: ""
   protected_branches:
@@ -3449,7 +3509,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: Keras
   description: ""
   protected_branches:
@@ -3459,17 +3519,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: kexec-tools
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: keybinder3
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: keyrings-filesystem
   description: ""
   protected_branches:
@@ -3479,12 +3539,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: khmeros-fonts
   description: ""
   protected_branches:
   - master
-  type: public
+  type: private
 - name: kiwi
   description: ""
   protected_branches:
@@ -3504,7 +3564,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: kmod-kvdo
   description: ""
   protected_branches:
@@ -3514,13 +3574,18 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: krb5
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: kryo
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: ksh
   description: ""
   protected_branches:
   - master
@@ -3540,6 +3605,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: kyua
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: ladspa
   description: ""
   protected_branches:
@@ -3554,12 +3624,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: langtable
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: lapack
   description: ""
   protected_branches:
@@ -3579,22 +3649,22 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: lcms2
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: lcr
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: ldns
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: ledmon
   description: ""
   protected_branches:
@@ -3604,7 +3674,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: leveldb
   description: ""
   protected_branches:
@@ -3624,7 +3694,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libaec
   description: ""
   protected_branches:
@@ -3639,7 +3709,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libao
   description: ""
   protected_branches:
@@ -3659,12 +3729,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libart_lgpl
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libass
   description: ""
   protected_branches:
@@ -3674,22 +3744,22 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libasyncns
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libatasmart
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libatomic_ops
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libavc1394
   description: ""
   protected_branches:
@@ -3699,22 +3769,22 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libbluray
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libbonobo
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libbonoboui
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libbs2b
   description: ""
   protected_branches:
@@ -3729,38 +3799,43 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libcacard
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libcanberra
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libcap
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libcap-ng
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libcdio
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libcdio-paranoia
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libcgroup
+  description: ""
+  protected_branches:
+  - master
+  type: public
+- name: libclc
   description: ""
   protected_branches:
   - master
@@ -3769,37 +3844,37 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libconfig
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libcroco
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libdaemon
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libdatrie
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libdb
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libdbi
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libdbusmenu
   description: ""
   protected_branches:
@@ -3809,22 +3884,22 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libdnet
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libdnf
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libdrm
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libdv
   description: ""
   protected_branches:
@@ -3849,12 +3924,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libedit
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libell
   description: ""
   protected_branches:
@@ -3869,7 +3944,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: liberation-fonts
   description: ""
   protected_branches:
@@ -3884,37 +3959,37 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libestr
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libev
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libevdev
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libevent
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libevhtp
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libexif
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libfabric
   description: ""
   protected_branches:
@@ -3924,7 +3999,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libffado
   description: ""
   protected_branches:
@@ -3934,12 +4009,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libfontenc
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libfprint
   description: ""
   protected_branches:
@@ -3949,12 +4024,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libgdata
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libgdither
   description: ""
   protected_branches:
@@ -3964,8 +4039,18 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libgexiv2
+  description: ""
+  protected_branches:
+  - master
+  type: public
+- name: libgit2
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: libgit2-glib
   description: ""
   protected_branches:
   - master
@@ -3974,27 +4059,27 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libglvnd
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libgnome
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libgnomecanvas
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libgnomekbd
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libgnomeui
   description: ""
   protected_branches:
@@ -4014,7 +4099,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libgphoto2
   description: ""
   protected_branches:
@@ -4024,17 +4109,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libgtop2
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libgudev
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libguestfs
   description: ""
   protected_branches:
@@ -4044,17 +4129,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libgweather
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libgxps
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libhangul
   description: ""
   protected_branches:
@@ -4064,7 +4149,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libibmad
   description: ""
   protected_branches:
@@ -4074,12 +4159,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libICE
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libid3tag
   description: ""
   protected_branches:
@@ -4089,17 +4174,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libidn
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libidn2
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libiec61883
   description: ""
   protected_branches:
@@ -4114,7 +4199,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libimagequant
   description: ""
   protected_branches:
@@ -4124,7 +4209,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libindicator
   description: ""
   protected_branches:
@@ -4134,17 +4219,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libiptcdata
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libiscsi
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libisofs
   description: ""
   protected_branches:
@@ -4154,7 +4239,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libkae
   description: ""
   protected_branches:
@@ -4169,7 +4254,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libkkc
   description: ""
   protected_branches:
@@ -4184,12 +4269,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libldb
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libldm
   description: ""
   protected_branches:
@@ -4214,7 +4299,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libmypaint
   description: ""
   protected_branches:
@@ -4229,7 +4314,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libmemcached
   description: ""
   protected_branches:
@@ -4239,7 +4324,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libmicrohttpd
   description: ""
   protected_branches:
@@ -4254,17 +4339,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libmnl
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libmodman
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libmodplug
   description: ""
   protected_branches:
@@ -4274,12 +4359,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libmpc
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libmpcdec
   description: ""
   protected_branches:
@@ -4289,7 +4374,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libmtp
   description: ""
   protected_branches:
@@ -4299,13 +4384,23 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libnet
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libnetfilter_conntrack
+  description: ""
+  protected_branches:
+  - master
+  type: public
+- name: libnetfilter_cthelper
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: libnetfilter_cttimeout
   description: ""
   protected_branches:
   - master
@@ -4314,13 +4409,18 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libnetwork
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libnfnetlink
+  description: ""
+  protected_branches:
+  - master
+  type: public
+- name: libnfs
   description: ""
   protected_branches:
   - master
@@ -4329,7 +4429,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libnice
   description: ""
   protected_branches:
@@ -4339,22 +4439,22 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libnotify
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libnsl2
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: liboauth
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libofa
   description: ""
   protected_branches:
@@ -4364,7 +4464,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: liboggz
   description: ""
   protected_branches:
@@ -4374,12 +4474,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: public
-- name: libosinfo
+  type: private
+- name: libomxil-bellagio
   description: ""
   protected_branches:
   - master
   type: private
+- name: libosinfo
+  description: ""
+  protected_branches:
+  - master
+  type: public
 - name: libotf
   description: ""
   protected_branches:
@@ -4389,17 +4494,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libpcap
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libpciaccess
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libpeas
   description: ""
   protected_branches:
@@ -4409,22 +4514,22 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: public
+  type: private
 - name: libpipeline
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libplist
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libpng
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libpng12
   description: ""
   protected_branches:
@@ -4439,17 +4544,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libpsl
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libpwquality
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libqmi
   description: ""
   protected_branches:
@@ -4459,12 +4564,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libquvi-scripts
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: librabbitmq
   description: ""
   protected_branches:
@@ -4494,12 +4599,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libreport
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libreswan
   description: ""
   protected_branches:
@@ -4514,13 +4619,18 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libsamplerate
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libsane-hpaio
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: libsass
   description: ""
   protected_branches:
   - master
@@ -4529,37 +4639,37 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libsecret
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libselinux
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libsemanage
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libsepol
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libserf
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libsexy
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libshout
   description: ""
   protected_branches:
@@ -4574,12 +4684,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libSM
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libsmbios
   description: ""
   protected_branches:
@@ -4594,7 +4704,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libsodium
   description: ""
   protected_branches:
@@ -4604,12 +4714,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libsoup
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libspectre
   description: ""
   protected_branches:
@@ -4629,12 +4739,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libssh2
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libstemmer
   description: ""
   protected_branches:
@@ -4649,72 +4759,72 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libtar
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libtasn1
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libtdb
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libteam
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libtevent
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libthai
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libtheora
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libtiff
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libtimezonemap
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libtirpc
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libtomcrypt
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libtommath
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libtool
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libuninameslist
   description: ""
   protected_branches:
@@ -4724,37 +4834,37 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libunwind
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libusb
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libusbmuxd
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libusbx
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libuser
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libutempter
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libuv
   description: ""
   protected_branches:
@@ -4774,12 +4884,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libvirt
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libvirt-glib
   description: ""
   protected_branches:
@@ -4789,12 +4899,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libvisual
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libvma
   description: ""
   protected_branches:
@@ -4814,7 +4924,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libvpx
   description: ""
   protected_branches:
@@ -4824,7 +4934,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libwd
   description: ""
   protected_branches:
@@ -4834,12 +4944,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libwebsockets
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libwmf
   description: ""
   protected_branches:
@@ -4849,7 +4959,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libwpd
   description: ""
   protected_branches:
@@ -4864,102 +4974,102 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libx86emu
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libXau
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libXaw
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libxcb
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libXcomposite
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libxcrypt
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libXcursor
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libXdamage
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libXdmcp
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libXext
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libXfixes
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libXfont2
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libXft
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libXi
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libXinerama
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libxkbcommon
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libxkbfile
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libxklavier
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libxml2
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libxmlb
   description: ""
   protected_branches:
@@ -4974,7 +5084,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libXp
   description: ""
   protected_branches:
@@ -4984,22 +5094,22 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libXrandr
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libXrender
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libXres
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libXScrnSaver
   description: ""
   protected_branches:
@@ -5009,52 +5119,52 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libxslt
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libXt
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libXtst
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libXv
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libXvMC
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libXxf86dga
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libXxf86misc
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libXxf86vm
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libyaml
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libzip
   description: ""
   protected_branches:
@@ -5074,7 +5184,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: linuxptp
   description: ""
   protected_branches:
@@ -5089,7 +5199,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: public
+  type: private
 - name: lldb
   description: ""
   protected_branches:
@@ -5099,27 +5209,27 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: llvm
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: lmdb
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: lm_sensors
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: lockdev
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: log4j
   description: ""
   protected_branches:
@@ -5134,7 +5244,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: logwatch
   description: ""
   protected_branches:
@@ -5204,7 +5314,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: lrzsz
   description: ""
   protected_branches:
@@ -5214,7 +5324,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: lshw-B.02.18
   description: ""
   protected_branches:
@@ -5224,12 +5334,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: lsscsi
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: ltrace
   description: ""
   protected_branches:
@@ -5239,17 +5349,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: lua
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: lua-expat
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: lua-filesystem
   description: ""
   protected_branches:
@@ -5259,12 +5369,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: lua-lpeg
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: lua-lunit
   description: ""
   protected_branches:
@@ -5279,7 +5389,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: lucene
   description: ""
   protected_branches:
@@ -5289,27 +5399,32 @@ repositories:
   description: ""
   protected_branches:
   - master
+  type: public
+- name: lutok
+  description: ""
+  protected_branches:
+  - master
   type: private
 - name: lvm2
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: lxc
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: lxcfs
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: lxsession
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: lynx
   description: ""
   protected_branches:
@@ -5319,17 +5434,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: lzo
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: lzop
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: m17n-db
   description: ""
   protected_branches:
@@ -5349,7 +5464,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: mac-robber
   description: ""
   protected_branches:
@@ -5364,7 +5479,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: mailman
   description: ""
   protected_branches:
@@ -5374,7 +5489,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: mainline.list
   description: ""
   protected_branches:
@@ -5384,7 +5499,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: malaga-suomi-voikko
   description: ""
   protected_branches:
@@ -5399,7 +5514,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: manifest
   description: ""
   protected_branches:
@@ -5409,17 +5524,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: mariadb
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: mariadb-connector-c
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: marisa
   description: ""
   protected_branches:
@@ -5599,17 +5714,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: mcstrans
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: mdadm
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: meanwhile
   description: ""
   protected_branches:
@@ -5624,12 +5739,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: mesa
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: mesa-demos
   description: ""
   protected_branches:
@@ -5639,7 +5754,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: mesa-libGLw
   description: ""
   protected_branches:
@@ -5654,7 +5769,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: microcode_ctl
   description: ""
   protected_branches:
@@ -5684,7 +5799,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: public
+  type: private
 - name: minlog
   description: ""
   protected_branches:
@@ -5704,12 +5819,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: mobile-broadband-provider-info
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: mod_auth_gssapi
   description: ""
   protected_branches:
@@ -5719,7 +5834,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: mod_fcgid
   description: ""
   protected_branches:
@@ -5729,7 +5844,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: mod_security
   description: ""
   protected_branches:
@@ -5739,7 +5854,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: motif
   description: ""
   protected_branches:
@@ -5754,27 +5869,27 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: mozjs52
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: mozjs60
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: mpfr
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: mpg123
   description: ""
   protected_branches:
   - master
-  type: public
+  type: private
 - name: mpich
   description: ""
   protected_branches:
@@ -5794,17 +5909,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: mtools
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: mtr
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: mt-st
   description: ""
   protected_branches:
@@ -5834,7 +5949,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: mvapich2
   description: ""
   protected_branches:
@@ -5874,7 +5989,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: nautilus-sendto
   description: ""
   protected_branches:
@@ -5894,17 +6009,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: ncurses
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: ndctl
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: nekohtml
   description: ""
   protected_branches:
@@ -5919,7 +6034,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: netlabel_tools
   description: ""
   protected_branches:
@@ -5934,17 +6049,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: nettle
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: net-tools
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: netty
   description: ""
   protected_branches:
@@ -5964,12 +6079,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: network-manager-applet
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: NetworkManager-libreswan
   description: ""
   protected_branches:
@@ -5984,27 +6099,27 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: nfs4-acl-tools
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: nfs-utils
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: nftables
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: nghttp2
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: nginx
   description: ""
   protected_branches:
@@ -6024,12 +6139,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: notification-daemon
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: nototools
   description: ""
   protected_branches:
@@ -6039,17 +6154,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: nspr
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: nss
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: nss-altfiles
   description: ""
   protected_branches:
@@ -6064,17 +6179,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: nss-pam-ldapd
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: nss-pem
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: nss_wrapper
   description: ""
   protected_branches:
@@ -6089,22 +6204,22 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: ntpstat
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: numactl
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: numad
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: numpy
   description: ""
   protected_branches:
@@ -6169,12 +6284,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: oddjob
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: ongres-scram
   description: ""
   protected_branches:
@@ -6209,7 +6324,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: openEuler-latest-release
   description: ""
   protected_branches:
@@ -6219,17 +6334,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: openEuler-release
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: openEuler-repos
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: openEuler-rpm-config
   description: ""
   protected_branches:
@@ -6249,7 +6364,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: open-isns
   description: ""
   protected_branches:
@@ -6264,12 +6379,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: openjpeg2
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: openmpi
   description: ""
   protected_branches:
@@ -6284,12 +6399,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: opensc
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: openscap
   description: ""
   protected_branches:
@@ -6299,7 +6414,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: opensm
   description: ""
   protected_branches:
@@ -6314,17 +6429,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: openssl
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: openssl-pkcs11
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: opentest4j
   description: ""
   protected_branches:
@@ -6339,12 +6454,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: openvswitch-kmod
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: openwsman
   description: ""
   protected_branches:
@@ -6354,7 +6469,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: opusfile
   description: ""
   protected_branches:
@@ -6364,12 +6479,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: orc
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: orca
   description: ""
   protected_branches:
@@ -6399,22 +6514,22 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: osinfo-db-tools
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: os-prober
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: ostree
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: overpass-fonts
   description: ""
   protected_branches:
@@ -6424,12 +6539,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: PackageKit
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: paktype-naqsh-fonts
   description: ""
   protected_branches:
@@ -6449,7 +6564,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: pam_krb5
   description: ""
   protected_branches:
@@ -6459,7 +6574,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: pangomm
   description: ""
   protected_branches:
@@ -6489,17 +6604,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: passwd
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: patch
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: patchutils
   description: ""
   protected_branches:
@@ -6519,7 +6634,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: pcp
   description: ""
   protected_branches:
@@ -6529,22 +6644,22 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: pcre2
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: pcsc-lite
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: pcsc-lite-ccid
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: pdfbox
   description: ""
   protected_branches:
@@ -6569,12 +6684,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Archive-Tar
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Archive-Zip
   description: ""
   protected_branches:
@@ -6589,17 +6704,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-B-Debug
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-bignum
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Bit-Vector
   description: ""
   protected_branches:
@@ -6619,7 +6734,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Carp-Clan
   description: ""
   protected_branches:
@@ -6629,17 +6744,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: public
+  type: private
 - name: perl-Compress-Raw-Bzip2
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Compress-Raw-Zlib
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Config-AutoConf
   description: ""
   protected_branches:
@@ -6649,27 +6764,27 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-constant
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-CPAN-Meta
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-CPAN-Meta-Requirements
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-CPAN-Meta-YAML
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Crypt-OpenSSL-Bignum
   description: ""
   protected_branches:
@@ -6694,7 +6809,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Data-OptList
   description: ""
   protected_branches:
@@ -6724,22 +6839,22 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-DBD-SQLite
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-DB_File
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-DBI
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Devel-CheckLib
   description: ""
   protected_branches:
@@ -6749,7 +6864,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Devel-Symdump
   description: ""
   protected_branches:
@@ -6759,7 +6874,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Digest-HMAC
   description: ""
   protected_branches:
@@ -6769,17 +6884,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Digest-SHA
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Encode
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Encode-Detect
   description: ""
   protected_branches:
@@ -6789,32 +6904,32 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Env
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Error
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-experimental
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Exporter
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Exporter-Tiny
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-ExtUtils-CBuilder
   description: ""
   protected_branches:
@@ -6824,7 +6939,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-ExtUtils-MakeMaker
   description: ""
   protected_branches:
@@ -6834,12 +6949,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-ExtUtils-ParseXS
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Fedora-VSP
   description: ""
   protected_branches:
@@ -6849,12 +6964,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-File-HomeDir
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-File-Listing
   description: ""
   protected_branches:
@@ -6864,12 +6979,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-File-ShareDir
   description: ""
   protected_branches:
   - master
-  type: public
+  type: private
 - name: perl-File-ShareDir-Install
   description: ""
   protected_branches:
@@ -6884,22 +6999,22 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-File-Which
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Filter
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Filter-Simple
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Font-TTF
   description: ""
   protected_branches:
@@ -6914,7 +7029,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-gettext
   description: ""
   protected_branches:
@@ -6959,7 +7074,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-inc-latest
   description: ""
   protected_branches:
@@ -6969,7 +7084,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-IO-HTML
   description: ""
   protected_branches:
@@ -6989,12 +7104,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-IO-Socket-SSL
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-IO-String
   description: ""
   protected_branches:
@@ -7004,17 +7119,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-IPC-System-Simple
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-IPC-SysV
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-JSON
   description: ""
   protected_branches:
@@ -7024,7 +7139,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-libintl-perl
   description: ""
   protected_branches:
@@ -7034,7 +7149,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-libwww-perl
   description: ""
   protected_branches:
@@ -7049,22 +7164,22 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-List-MoreUtils-XS
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Locale-Codes
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Locale-Maketext
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-LWP-MediaTypes
   description: ""
   protected_branches:
@@ -7099,22 +7214,22 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Math-BigInt-FastCalc
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Math-BigRat
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-MIME-Base64
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Module-Build
   description: ""
   protected_branches:
@@ -7124,22 +7239,22 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Module-Load
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Module-Load-Conditional
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Module-Metadata
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Module-Runtime
   description: ""
   protected_branches:
@@ -7149,7 +7264,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-MRO-Compat
   description: ""
   protected_branches:
@@ -7169,7 +7284,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Net-DNS
   description: ""
   protected_branches:
@@ -7194,7 +7309,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-NTLM
   description: ""
   protected_branches:
@@ -7204,12 +7319,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: public
+  type: private
 - name: perl-Params-Check
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Params-Util
   description: ""
   protected_branches:
@@ -7219,7 +7334,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Parse-Yapp
   description: ""
   protected_branches:
@@ -7234,27 +7349,27 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-perlfaq
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-PerlIO-via-QuotedPrint
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Perl-OSType
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Pod-Checker
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Pod-Coverage
   description: ""
   protected_branches:
@@ -7264,12 +7379,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-podlators
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Pod-Markdown
   description: ""
   protected_branches:
@@ -7279,27 +7394,27 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Pod-Perldoc
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Pod-Simple
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Pod-Usage
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Scalar-List-Utils
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-SGMLSpm
   description: ""
   protected_branches:
@@ -7314,7 +7429,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Socket6
   description: ""
   protected_branches:
@@ -7329,7 +7444,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-String-CRC32
   description: ""
   protected_branches:
@@ -7369,7 +7484,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Sys-Virt
   description: ""
   protected_branches:
@@ -7379,17 +7494,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Term-Cap
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-TermReadKey
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Test-CPAN-Meta
   description: ""
   protected_branches:
@@ -7409,7 +7524,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Test-Needs
   description: ""
   protected_branches:
@@ -7429,7 +7544,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Test-Warnings
   description: ""
   protected_branches:
@@ -7439,7 +7554,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Text-CharWidth
   description: ""
   protected_branches:
@@ -7449,17 +7564,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Text-ParseWords
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Text-Tabs-Wrap
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Text-Template
   description: ""
   protected_branches:
@@ -7479,17 +7594,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-threads
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-threads-shared
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-TimeDate
   description: ""
   protected_branches:
@@ -7499,12 +7614,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Time-Local
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Tk
   description: ""
   protected_branches:
@@ -7519,7 +7634,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Unicode-EastAsianWidth
   description: ""
   protected_branches:
@@ -7529,7 +7644,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Unicode-UTF8
   description: ""
   protected_branches:
@@ -7544,12 +7659,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-version
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-WWW-RobotRules
   description: ""
   protected_branches:
@@ -7569,7 +7684,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-XML-SAX
   description: ""
   protected_branches:
@@ -7589,7 +7704,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-XML-XPath
   description: ""
   protected_branches:
@@ -7624,7 +7739,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: public
+  type: private
 - name: physfs
   description: ""
   protected_branches:
@@ -7634,12 +7749,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: pinentry
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: pinfo
   description: ""
   protected_branches:
@@ -7649,12 +7764,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: pixman
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: pkcs11-helper
   description: ""
   protected_branches:
@@ -7664,7 +7779,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: pkgconfig
   description: ""
   protected_branches:
@@ -7774,7 +7889,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: pngquant
   description: ""
   protected_branches:
@@ -7799,17 +7914,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: polkit
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: polkit-pkla-compat
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: poly2tri
   description: ""
   protected_branches:
@@ -7819,17 +7934,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: poppler-data
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: popt
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: portaudio
   description: ""
   protected_branches:
@@ -7844,7 +7959,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: postgresql
   description: ""
   protected_branches:
@@ -7864,12 +7979,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: ppp
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: pps-tools
   description: ""
   protected_branches:
@@ -7880,7 +7995,7 @@ repositories:
   protected_branches:
   - master
   type: private
-- name: prefetch_tunning
+- name: prefetch_tuning
   description: ""
   protected_branches:
   - master
@@ -7889,12 +8004,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: procps-ng
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: proj
   description: ""
   protected_branches:
@@ -7904,7 +8019,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: protobuf-c
   description: ""
   protected_branches:
@@ -7934,7 +8049,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: pstoedit
   description: ""
   protected_branches:
@@ -7949,22 +8064,22 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: pulseaudio
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: pyatspi
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: pycairo
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: pyelftools
   description: ""
   protected_branches:
@@ -7984,7 +8099,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: pygtk2
   description: ""
   protected_branches:
@@ -7994,17 +8109,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: pyliblzma
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: pyOpenSSL
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: pyorbit
   description: ""
   protected_branches:
@@ -8014,12 +8129,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: pyparted
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: PyQt4
   description: ""
   protected_branches:
@@ -8029,7 +8144,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: pytest
   description: ""
   protected_branches:
@@ -8039,7 +8154,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python2-typing
   description: ""
   protected_branches:
@@ -8049,7 +8164,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-aniso8601
   description: ""
   protected_branches:
@@ -8064,7 +8179,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-atomicwrites
   description: ""
   protected_branches:
@@ -8084,7 +8199,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-backports_abc
   description: ""
   protected_branches:
@@ -8094,7 +8209,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-bcrypt
   description: ""
   protected_branches:
@@ -8104,12 +8219,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-beautifulsoup4
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-behave
   description: ""
   protected_branches:
@@ -8124,7 +8239,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-bottle
   description: ""
   protected_branches:
@@ -8134,12 +8249,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-chardet
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-click
   description: ""
   protected_branches:
@@ -8149,7 +8264,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-configparser
   description: ""
   protected_branches:
@@ -8169,17 +8284,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-crypto
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-cryptography
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-cryptography-vectors
   description: ""
   protected_branches:
@@ -8199,12 +8314,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-decorator
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-dict2xml
   description: ""
   protected_branches:
@@ -8219,7 +8334,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-dns
   description: ""
   protected_branches:
@@ -8244,12 +8359,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-ethtool
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-extras
   description: ""
   protected_branches:
@@ -8319,7 +8434,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-httplib2
   description: ""
   protected_branches:
@@ -8349,7 +8464,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-imagesize
   description: ""
   protected_branches:
@@ -8359,22 +8474,22 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-inotify
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-ipaddress
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-IPy
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-iso8601
   description: ""
   protected_branches:
@@ -8389,7 +8504,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-jmespath
   description: ""
   protected_branches:
@@ -8404,22 +8519,22 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-jsonpointer
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-jsonschema
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-jwt
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-Keras
   description: ""
   protected_branches:
@@ -8454,7 +8569,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-linecache2
   description: ""
   protected_branches:
@@ -8464,7 +8579,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-lit
   description: ""
   protected_branches:
@@ -8474,12 +8589,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-mako
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-markdown
   description: ""
   protected_branches:
@@ -8489,12 +8604,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-meh
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-mimeparse
   description: ""
   protected_branches:
@@ -8529,12 +8644,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-oauthlib
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-olefile
   description: ""
   protected_branches:
@@ -8544,7 +8659,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-packaging
   description: ""
   protected_branches:
@@ -8579,7 +8694,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-pbr
   description: ""
   protected_branches:
@@ -8594,7 +8709,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-pillow
   description: ""
   protected_branches:
@@ -8604,7 +8719,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-pkgconfig
   description: ""
   protected_branches:
@@ -8619,7 +8734,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-pretend
   description: ""
   protected_branches:
@@ -8629,12 +8744,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-productmd
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-psutil
   description: ""
   protected_branches:
@@ -8659,17 +8774,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-pycurl
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-pydbus
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-pygments
   description: ""
   protected_branches:
@@ -8689,7 +8804,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-pytoml
   description: ""
   protected_branches:
@@ -8699,7 +8814,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-qt5
   description: ""
   protected_branches:
@@ -8714,32 +8829,32 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-requests-file
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-requests-ftp
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-rpm-generators
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-rtslib
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-schedutils
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-scikit-learn
   description: ""
   protected_branches:
@@ -8769,7 +8884,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-setuptools_scm
   description: ""
   protected_branches:
@@ -8779,7 +8894,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-singledispatch
   description: ""
   protected_branches:
@@ -8789,12 +8904,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-slip
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-snowballstemmer
   description: ""
   protected_branches:
@@ -8834,12 +8949,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-tempita
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-testscenarios
   description: ""
   protected_branches:
@@ -8879,7 +8994,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-urwid
   description: ""
   protected_branches:
@@ -8894,7 +9009,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-werkzeug
   description: ""
   protected_branches:
@@ -8924,7 +9039,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: pywbem
   description: ""
   protected_branches:
@@ -8934,7 +9049,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: pyxdg
   description: ""
   protected_branches:
@@ -8944,7 +9059,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: qdox
   description: ""
   protected_branches:
@@ -8954,7 +9069,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: qpdf
   description: ""
   protected_branches:
@@ -8969,7 +9084,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: qt
   description: ""
   protected_branches:
@@ -8979,7 +9094,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: qt5-doc
   description: ""
   protected_branches:
@@ -9134,12 +9249,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: radvd
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: raptor2
   description: ""
   protected_branches:
@@ -9149,12 +9264,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: rasdaemon
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: rasqal
   description: ""
   protected_branches:
@@ -9169,7 +9284,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: re2
   description: ""
   protected_branches:
@@ -9179,17 +9294,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: realmd
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: recode
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: redhat-menus
   description: ""
   protected_branches:
@@ -9199,7 +9314,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: public
+  type: private
 - name: reflectasm
   description: ""
   protected_branches:
@@ -9219,7 +9334,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: rhash
   description: ""
   protected_branches:
@@ -9244,12 +9359,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: rpcbind
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: rpcsvc-proto
   description: ""
   protected_branches:
@@ -9259,7 +9374,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: rpm-mpi-hooks
   description: ""
   protected_branches:
@@ -9284,27 +9399,27 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: rrdtool
   description: ""
   protected_branches:
   - master
-  type: public
+  type: private
 - name: rsync
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: rsyslog
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: rtkit
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: ruby
   description: ""
   protected_branches:
@@ -9314,7 +9429,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: rust
   description: ""
   protected_branches:
@@ -9329,7 +9444,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: samyak-fonts
   description: ""
   protected_branches:
@@ -9354,12 +9469,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: sbc
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: sblim-cmpi-devel
   description: ""
   protected_branches:
@@ -9409,7 +9524,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: scrub
   description: ""
   protected_branches:
@@ -9434,57 +9549,52 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
-- name: securec
-  description: ""
-  protected_branches:
-  - master
-  type: private
+  type: public
 - name: security-tool
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: sed
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: selinux-policy
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: sendmail
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: setools
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: setroubleshoot
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: setroubleshoot-plugins
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: setserial
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: setup
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: setuptool
   description: ""
   protected_branches:
@@ -9494,17 +9604,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: sgml-common
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: sgpio
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: shadow
   description: ""
   protected_branches:
@@ -9514,7 +9624,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: shapelib
   description: ""
   protected_branches:
@@ -9524,17 +9634,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: sharutils
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: shim
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: shim-unsigned-aarch64
   description: ""
   protected_branches:
@@ -9579,12 +9689,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: slang
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: slf4j
   description: ""
   protected_branches:
@@ -9594,7 +9704,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: smc-fonts
   description: ""
   protected_branches:
@@ -9604,7 +9714,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: snakeyaml
   description: ""
   protected_branches:
@@ -9614,7 +9724,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: sni-qt
   description: ""
   protected_branches:
@@ -9634,7 +9744,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: sos-collector
   description: ""
   protected_branches:
@@ -9644,7 +9754,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: soundtouch
   description: ""
   protected_branches:
@@ -9654,7 +9764,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: sox
   description: ""
   protected_branches:
@@ -9674,17 +9784,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: speexdsp
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: spice
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: spice-gtk
   description: ""
   protected_branches:
@@ -9699,27 +9809,27 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: sqlite
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: squashfs-tools
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: squid
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: sscg
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: sshj
   description: ""
   protected_branches:
@@ -9729,17 +9839,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: star
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: startup-notification
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: stax2-api
   description: ""
   protected_branches:
@@ -9754,7 +9864,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: stream-lib
   description: ""
   protected_branches:
@@ -9774,7 +9884,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: subunit
   description: ""
   protected_branches:
@@ -9784,12 +9894,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: sudo
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: suitesparse
   description: ""
   protected_branches:
@@ -9819,12 +9929,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: sysfsutils
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: syslinux-tftpboot
   description: ""
   protected_branches:
@@ -9834,7 +9944,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: system-config-firewall
   description: ""
   protected_branches:
@@ -9849,17 +9959,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: systemtap
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: taglib
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: taglist-enable
   description: ""
   protected_branches:
@@ -9879,7 +9989,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: targetcli
   description: ""
   protected_branches:
@@ -9899,7 +10009,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: tclx
   description: ""
   protected_branches:
@@ -9909,17 +10019,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: tcp_wrappers
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: tcsh
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: teckit
   description: ""
   protected_branches:
@@ -9929,22 +10039,22 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: telepathy-glib
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: telepathy-logger
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: telnet
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: tesla-polyglot
   description: ""
   protected_branches:
@@ -9964,7 +10074,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: texlive
   description: ""
   protected_branches:
@@ -9979,7 +10089,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: thai-scalable-fonts
   description: ""
   protected_branches:
@@ -9999,17 +10109,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: time
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: timedatex
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: tinycdb
   description: ""
   protected_branches:
@@ -10029,7 +10139,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: tix
   description: ""
   protected_branches:
@@ -10039,12 +10149,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: tmux
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: tog-pegasus
   description: ""
   protected_branches:
@@ -10054,7 +10164,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: tomcat
   description: ""
   protected_branches:
@@ -10079,22 +10189,22 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: tpm2-abrmd
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: tpm2-tools
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: tpm2-tss
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: tpm-quote-tools
   description: ""
   protected_branches:
@@ -10114,17 +10224,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: tracker
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: tracker-miners
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: transfig
   description: ""
   protected_branches:
@@ -10134,7 +10244,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: trilead-ssh2
   description: ""
   protected_branches:
@@ -10144,7 +10254,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: tslib
   description: ""
   protected_branches:
@@ -10164,17 +10274,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: twolame
   description: ""
   protected_branches:
   - master
-  type: public
+  type: private
 - name: tzdata
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: u2f-hidraw-policy
   description: ""
   protected_branches:
@@ -10184,7 +10294,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: ubu-keyring
   description: ""
   protected_branches:
@@ -10199,7 +10309,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: uid_wrapper
   description: ""
   protected_branches:
@@ -10209,7 +10319,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: unicode-ucd
   description: ""
   protected_branches:
@@ -10224,7 +10334,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: units
   description: ""
   protected_branches:
@@ -10244,12 +10354,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: upower
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: urlview
   description: ""
   protected_branches:
@@ -10259,7 +10369,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: usb_modeswitch
   description: ""
   protected_branches:
@@ -10279,37 +10389,37 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: usbutils
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: usermode
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: userspace-rcu
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: ustr
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: utf8proc
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: util-linux
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: uuid
   description: ""
   protected_branches:
@@ -10339,7 +10449,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: vdo
   description: ""
   protected_branches:
@@ -10354,7 +10464,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: vinagre
   description: ""
   protected_branches:
@@ -10364,12 +10474,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: virglrenderer
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: virt-manager
   description: ""
   protected_branches:
@@ -10389,12 +10499,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: volume_key
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: vorbis-tools
   description: ""
   protected_branches:
@@ -10404,7 +10514,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: vte291
   description: ""
   protected_branches:
@@ -10419,7 +10529,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: wayland-protocols
   description: ""
   protected_branches:
@@ -10434,22 +10544,22 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: webrtc-audio-processing
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: wget
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: which
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: wildfly-common
   description: ""
   protected_branches:
@@ -10469,32 +10579,32 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: words
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: wpa_supplicant
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: wqy-microhei-fonts
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: wqy-zenhei-fonts
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: wsmancli
   description: ""
   protected_branches:
   - master
-  type: public
+  type: private
 - name: wxGTK3
   description: ""
   protected_branches:
@@ -10524,7 +10634,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: xbean
   description: ""
   protected_branches:
@@ -10539,7 +10649,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: xcb-util-image
   description: ""
   protected_branches:
@@ -10599,12 +10709,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: xfsprogs
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: xhtml1-dtds
   description: ""
   protected_branches:
@@ -10619,12 +10729,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: xkeyboard-config
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: xml-commons-apis
   description: ""
   protected_branches:
@@ -10644,17 +10754,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: xmlsec1
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: xmlto
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: xmltoman
   description: ""
   protected_branches:
@@ -10694,7 +10804,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: xorg-x11-drv-armsoc
   description: ""
   protected_branches:
@@ -10704,32 +10814,32 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: xorg-x11-drv-dummy
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: xorg-x11-drv-evdev
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: xorg-x11-drv-fbdev
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: xorg-x11-drv-libinput
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: xorg-x11-drv-nouveau
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: xorg-x11-drv-qxl
   description: ""
   protected_branches:
@@ -10739,22 +10849,22 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: xorg-x11-drv-wacom
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: xorg-x11-fonts
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: xorg-x11-font-utils
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: xorg-x11-proto-devel
   description: ""
   protected_branches:
@@ -10764,12 +10874,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: xorg-x11-server-utils
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: xorg-x11-util-macros
   description: ""
   protected_branches:
@@ -10784,7 +10894,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: xorg-x11-xbitmaps
   description: ""
   protected_branches:
@@ -10799,7 +10909,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: xorg-x11-xtrans-devel
   description: ""
   protected_branches:
@@ -10814,7 +10924,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: public
+  type: private
 - name: xsane
   description: ""
   protected_branches:
@@ -10829,17 +10939,17 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: xvattr
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: xz
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: xz-java
   description: ""
   protected_branches:
@@ -10849,12 +10959,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: yelp
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: yelp-tools
   description: ""
   protected_branches:
@@ -10864,22 +10974,22 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: ypbind
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: ypserv
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: yp-tools
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: yum-langpacks
   description: ""
   protected_branches:
@@ -10904,12 +11014,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: zenity
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: zerofree
   description: ""
   protected_branches:
@@ -10919,22 +11029,22 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: zlib
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: zsh
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: zstd
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: zvbi
   description: ""
   protected_branches:
@@ -10944,4 +11054,4 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public

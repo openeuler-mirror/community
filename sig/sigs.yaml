@@ -8,6 +8,9 @@ sigs:
   - openeuler/openeuler-jenkins
   - openeuler/gitbook-theme-hugo
   - openeuler/tool-collections
+- name: TC
+  repositories:
+  - openeuler/community
 - name: Application
   repositories:
   - src-openeuler/esc
@@ -936,6 +939,7 @@ sigs:
   - src-openeuler/perl-Net-SMTP-SSL
   - src-openeuler/gegl04
   - src-openeuler/javaewah
+  - src-openeuler/javapackages-tools
   - src-openeuler/maven-parent
   - src-openeuler/jackson-dataformats-binary
   - src-openeuler/osgi-annotation
@@ -1688,7 +1692,6 @@ sigs:
   - src-openeuler/dbus-python
   - src-openeuler/libnftnl
   - src-openeuler/logrotate
-  - src-openeuler/securec
   - src-openeuler/python-pycparser
   - src-openeuler/perl-constant
   - src-openeuler/libpsl
@@ -1706,7 +1709,6 @@ sigs:
   - src-openeuler/libplist
   - src-openeuler/checkpolicy
   - src-openeuler/xmlto
-  - src-openeuler/authconfig
   - src-openeuler/libevent
   - src-openeuler/docbook-dtds
   - src-openeuler/zsh
@@ -2006,6 +2008,28 @@ sigs:
   - src-openeuler/star
   - src-openeuler/readline
   - src-openeuler/openEuler-logos
+  - src-openeuler/acpica-tools
+  - src-openeuler/arm-trusted-firmware
+  - src-openeuler/atf
+  - src-openeuler/conntrack-tools
+  - src-openeuler/epydoc
+  - src-openeuler/gnulib
+  - src-openeuler/gphoto2
+  - src-openeuler/hiredis
+  - src-openeuler/hunspell-de
+  - src-openeuler/jq
+  - src-openeuler/Judy
+  - src-openeuler/ksh
+  - src-openeuler/kyua
+  - src-openeuler/libclc
+  - src-openeuler/libgit2
+  - src-openeuler/libgit2-glib
+  - src-openeuler/libnetfilter_cthelper
+  - src-openeuler/libnetfilter_cttimeout
+  - src-openeuler/libnfs
+  - src-openeuler/libomxil-bellagio
+  - src-openeuler/libsass
+  - src-openeuler/lutok
 - name: Container
   repositories:
   - src-openeuler/clibcni
@@ -2108,7 +2132,7 @@ sigs:
   - src-openeuler/lsscsi
 - name: atune
   repositories:
-  - src-openeuler/prefetch_tunning
+  - src-openeuler/prefetch_tuning
 - name: Desktop
   repositories:
   - src-openeuler/nafees-web-naskh-fonts
@@ -2234,3 +2258,22 @@ sigs:
 - name: sig-Community
   repositories:
   - openeuler/community
+- name: A-Tune
+  repositories:
+  - openeuler/A-Tune
+  - openeuler/prefetch_tuning
+- name: sig-Kernel
+  repositories:
+  - openeuler/kernel
+  - openeuler/os-autoinst-distri-openEuler
+- name: kae
+  repositories:
+  - openeuler/kae_driver
+  - openeuler/libkae
+  - openeuler/libwd
+- name: iSulad
+  repositories:
+  - openeuler/iSulad
+  - openeuler/lcr
+  - openeuler/clibcni
+  - openeuler/iSulad-kit
