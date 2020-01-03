@@ -27,6 +27,7 @@ openEuler技术委员会是openEuler社区的技术决策机构，负责社区�
 - 王勋[[@dream0819](https://gitee.com/dream0819)]
 - 郭寒军[[@hanjun-guo](https://gitee.com/hanjun-guo)]
 - 谢秀奇[[@xiexiuqi](https://gitee.com/xiexiuqi)]
+- zhanghailiang[[@zhanghai_lucky](https://gitee.com/zhanghailiang_lucky)]
 
 
 
