@@ -13,6 +13,12 @@
 
     IRC will be used to have the weekly meeting. If you consider other meetings like zoom, please propose to [mail list](community@openeuler.org) in advance. 
 
+    The channel https://webchat.freenode.net/#openeuler-meeting is used.
+
+- Document for meetings
+
+    If there are some documents for the meeting, please `copy ./meeting_records/template_meetig ./meeting_records/yyyy-mm-dd-meeting` and put the documents there so that attendees can find them. 
+
 ### 2. Agenda for next meeting
 
 ##### Next meeting schecule
@@ -37,4 +43,6 @@
 THe common used commands are below. To find more, please visit [https://kiwiirc.com/docs/client/commands](https://kiwiirc.com/docs/client/commands) to find more commands. 
 
 ### Meeting Archives
+
+[Meeting minutes on Jan. 5, 2019](http://meetings.openeuler.org/openeuler-meeting/2020/community/2020-01-05-13.13.html)
 
