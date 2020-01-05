@@ -17,7 +17,7 @@
 
 - Document for meetings
 
-    If there are some documents for the meeting, please `copy ./meeting_records/template_meetig ./meeting_records/yyyy-mm-dd-meeting` and put the documents there so that attendees can find them. 
+    If there are some documents for the meeting, please `cp ./meeting_records/template_meetig ./meeting_records/yyyy-mm-dd-meeting` and put the documents there so that attendees can find them. 
 
 ### 2. Agenda for next meeting
 
