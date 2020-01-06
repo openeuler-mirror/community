@@ -5,9 +5,8 @@
 2. Chinese is not supposed to provide for this README, as the contributors are from all of the world speaking many different languages. If you would like to provide a Chinese version, feel free to create a *README_cn.md* here.
 
 ### 1. Weekly meeting
-- Time (one fo the below to be voted)
-    1. 10:00-11:00 am, Tuesday, Beijing Time; 2:00-3:00 am, Tuesday, UTC.
-    2. 17:00-18:00 am, Thursday, Beijing Time; 09:00-10:00 am, Tuesday, UTC.
+- Time
+    10:00-11:00 am, Tuesday, Beijing Time; 2:00-3:00 am, Tuesday, UTC.
 
 - Channels
 
