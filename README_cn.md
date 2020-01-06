@@ -45,4 +45,4 @@ IRC: #openeuler-community
 
 ## 会议
 
-会议时间尚未确定，确定后会更新。
+会议安排[在此](/meeting_records/README.md)。

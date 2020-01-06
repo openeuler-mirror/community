@@ -45,4 +45,4 @@ IRC: #openeuler-community
 
 ## Meeting
 
-To be scheduled. 
+Find [meeting schedule here](/meeting_records/README.md).
