@@ -11055,3 +11055,13 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: keepalived
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: ndisc6
+  description: ""
+  protected_branches:
+  - master
+  type: private
