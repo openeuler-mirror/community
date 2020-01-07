@@ -43,5 +43,7 @@ THe common used commands are below. To find more, please visit [https://kiwiirc.
 
 ### Meeting Archives
 
-[Meeting minutes on Jan. 5, 2019](http://meetings.openeuler.org/openeuler-meeting/2020/community/2020-01-05-13.13.html)
+Meeting minutes on Jan 7, 2019: http://meetings.openeuler.org/openeuler-meeting/2020/community/2020-01-07-01.59.html
+
+Meeting minutes on Jan. 5, 2019: http://meetings.openeuler.org/openeuler-meeting/2020/community/2020-01-05-13.13.html
 
