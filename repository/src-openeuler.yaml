@@ -2955,6 +2955,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: internal-issue
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: intltool
   description: ""
   protected_branches:
