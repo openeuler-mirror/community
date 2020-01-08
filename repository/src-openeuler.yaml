@@ -1795,6 +1795,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: future
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: fwupd
   description: ""
   protected_branches:
@@ -5855,6 +5860,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: mongodb
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: motif
   description: ""
   protected_branches:
@@ -6391,6 +6401,11 @@ repositories:
   - master
   type: private
 - name: open-sans-fonts
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: opencl-filesystem
   description: ""
   protected_branches:
   - master
@@ -7520,6 +7535,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: perl-Test-File
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: perl-Test-Harness
   description: ""
   protected_branches:
@@ -7920,6 +7940,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: polkit-gnome
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: polkit-pkla-compat
   description: ""
   protected_branches:
@@ -8255,6 +8280,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-cheetah
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: python-click
   description: ""
   protected_branches:
@@ -8340,6 +8370,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: python-docopt
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: python-docutils
   description: ""
   protected_branches:
@@ -8420,6 +8455,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: python-google-apputils
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: python-greenlet
   description: ""
   protected_branches:
@@ -8435,6 +8475,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-httpbin
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: python-httplib2
   description: ""
   protected_branches:
@@ -8625,6 +8670,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: python-mox
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: python-netaddr
   description: ""
   protected_branches:
@@ -8735,6 +8785,16 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-pocketlint
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: python-polib
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: python-pretend
   description: ""
   protected_branches:
@@ -8785,6 +8845,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-pyflakes
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: python-pygments
   description: ""
   protected_branches:
@@ -8805,6 +8870,36 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-pytest-cov
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: python-pytest-expect
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: python-pytest-fixture-config
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: python-pytest-httpbin
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: python-pytest-mock
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: python-pytest-virtualenv
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: python-pytoml
   description: ""
   protected_branches:
@@ -8820,7 +8915,17 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: python-redis
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: python-reportlab
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: python-repoze-lru
   description: ""
   protected_branches:
   - master
@@ -8920,6 +9025,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: python-sphinxcontrib-spelling
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: python-sphinxcontrib-websupport
   description: ""
   protected_branches:
@@ -8980,6 +9090,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: python-u-msgpack-python
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: python-unittest2
   description: ""
   protected_branches:
@@ -9035,6 +9150,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: python3-mallard-ducktype
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: pytz
   description: ""
   protected_branches:
@@ -9076,6 +9196,11 @@ repositories:
   - master
   type: private
 - name: qperf
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: qpid-proton
   description: ""
   protected_branches:
   - master
@@ -9425,6 +9550,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: rubygem-asciidoctor
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: runc
   description: ""
   protected_branches:
@@ -9745,6 +9875,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: sombok
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: sos-collector
   description: ""
   protected_branches:
@@ -10010,6 +10145,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: tcllib
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: tclx
   description: ""
   protected_branches:
@@ -10061,6 +10201,11 @@ repositories:
   - master
   type: private
 - name: testng
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: TeXamator
   description: ""
   protected_branches:
   - master
@@ -10315,11 +10460,26 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: umockdev
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: uname-build-checks
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: unbound
   description: ""
   protected_branches:
   - master
   type: public
+- name: unicode-emoji
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: unicode-ucd
   description: ""
   protected_branches:
@@ -10415,6 +10575,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: uthash
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: util-linux
   description: ""
   protected_branches:
@@ -10441,6 +10606,11 @@ repositories:
   - master
   type: private
 - name: varnish
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: vboot-utils
   description: ""
   protected_branches:
   - master
@@ -10516,6 +10686,16 @@ repositories:
   - master
   type: public
 - name: vte291
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: vulkan-headers
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: vulkan-loader
   description: ""
   protected_branches:
   - master
@@ -10760,6 +10940,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: xmlstarlet
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: xmlto
   description: ""
   protected_branches:
@@ -10960,6 +11145,16 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: yaml-cpp
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: yasm
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: yelp
   description: ""
   protected_branches:
@@ -11035,6 +11230,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: zopfli
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: zsh
   description: ""
   protected_branches:
