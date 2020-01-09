@@ -7000,6 +7000,16 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: perl-File-pushd
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: perl-File-Remove
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: perl-File-ShareDir
   description: ""
   protected_branches:
@@ -7071,6 +7081,11 @@ repositories:
   - master
   type: private
 - name: perl-HTTP-Cookies
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: perl-HTTP-Daemon
   description: ""
   protected_branches:
   - master
@@ -7260,6 +7275,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: perl-Module-Install
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: perl-Module-Load
   description: ""
   protected_branches:
@@ -7490,6 +7510,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: perl-Switch
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: perl-Sys-CPU
   description: ""
   protected_branches:
@@ -7630,6 +7655,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: perl-Time-Zone
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: perl-TimeDate
   description: ""
   protected_branches:
@@ -7661,6 +7691,11 @@ repositories:
   - master
   type: public
 - name: perl-Unicode-EastAsianWidth
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: perl-Unicode-LineBreak
   description: ""
   protected_branches:
   - master
@@ -8240,6 +8275,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-backports-unittest_mock
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: python-bcrypt
   description: ""
   protected_branches:
