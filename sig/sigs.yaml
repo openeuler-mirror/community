@@ -2320,6 +2320,14 @@ sigs:
   - openeuler/iSulad-kit
 - name: Private
   repositories:
+  - src-openeuler/perl-File-pushd 
+  - src-openeuler/perl-File-Remove
+  - src-openeuler/perl-HTTP-Daemon
+  - src-openeuler/perl-Module-Install
+  - src-openeuler/perl-Switch
+  - src-openeuler/perl-Time-Zone
+  - src-openeuler/perl-Unicode-LineBreak
+  - src-openeuler/python-backports-unittest_mock
   - src-openeuler/python-cheetah 
   - src-openeuler/sombok
   - src-openeuler/yasm
