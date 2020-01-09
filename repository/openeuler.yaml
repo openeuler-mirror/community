@@ -121,3 +121,9 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: Documentation
+  description: "To build and enrich documentation for users"
+  protected_branches:
+  - master
+  type: public
+
