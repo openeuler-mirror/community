@@ -31,7 +31,7 @@ pipeline {
                              export OPENEULER_IGNORE=$(git diff origin/master... -- repository/openeuler.yaml | grep '^+- name:' | sed 's/+- name://g' | tr -d '[:blank:]' | awk '{printf "openeuler/%s,", $0}')
                              export SRC_OPENEULER_IGNORE=$(git diff origin/master... -- repository/src-openeuler.yaml | grep '^+- name:' | sed 's/+- name://g' | tr -d '[:blank:]' | awk '{printf "src-openeuler/%s,", $0}')
                              echo "${OPENEULER_IGNORE}${SRC_OPENEULER_IGNORE}"
-                             validator sig checkrepo -f ${WORKSPACE}/community/sig/sigs.yaml -g ${GITEE_TOKEN} -i ${OPENEULER_IGNORE}${SRC_OPENEULER_IGNORE}
+                             validator sig checkrepo -f ${WORKSPACE}/community/sig/sigs.yaml -g ${GITEE_TOKEN} -i " ${OPENEULER_IGNORE}${SRC_OPENEULER_IGNORE}"
                            '''
 		            }
 		        }
