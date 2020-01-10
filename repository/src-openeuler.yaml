@@ -6410,6 +6410,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: open-isns
+  description: ""
+  protected_branches:
+  - master
+  type: public
 - name: open-sans-fonts
   description: ""
   protected_branches:
@@ -6686,7 +6691,7 @@ repositories:
   - master
   type: public
 - name: ccid
-  description: ""
+  description: "Provide a generic USB CCID driver and ICCD"
   protected_branches:
   - master
   type: public
