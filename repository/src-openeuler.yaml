@@ -3050,16 +3050,6 @@ repositories:
   protected_branches:
   - master
   type: private
-- name: iscsi-initiator-utils
-  description: ""
-  protected_branches:
-  - master
-  type: public
-- name: isns-utils
-  description: ""
-  protected_branches:
-  - master
-  type: public
 - name: iso-codes
   description: ""
   protected_branches:
@@ -6390,11 +6380,6 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: open-isns
-  description: ""
-  protected_branches:
-  - master
-  type: private
 - name: openjade
   description: ""
   protected_branches:
@@ -7595,6 +7580,16 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: perl-Sub-Name
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: perl-Sub-Quote
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: perl-Switch
   description: ""
   protected_branches:
@@ -7650,6 +7645,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: perl-Test-Fatal
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: perl-Test-File
   description: ""
   protected_branches:
@@ -7660,6 +7660,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: perl-Test-InDistDir
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: perl-Test-Needs
   description: ""
   protected_branches:
@@ -7671,6 +7676,16 @@ repositories:
   - master
   type: private
 - name: perl-Test-Pod
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: perl-Test-Pod-Coverage
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: perl-Test-Requires
   description: ""
   protected_branches:
   - master
@@ -7696,6 +7711,11 @@ repositories:
   - master
   type: private
 - name: perl-Text-Diff
+  description: ""
+  protected_branches:
+  - master
+  type: public
+- name: perl-Text-Glob
   description: ""
   protected_branches:
   - master

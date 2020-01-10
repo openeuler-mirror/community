@@ -468,6 +468,13 @@ sigs:
   - src-openeuler/perl-YAML
   - src-openeuler/sblim-cmpi-devel
   - src-openeuler/gtk-vnc
+  - src-openeuler/perl-Sub-Name
+  - src-openeuler/perl-Sub-Quote
+  - src-openeuler/perl-Test-Fatal
+  - src-openeuler/perl-Test-InDistDir
+  - src-openeuler/perl-Test-Pod-Coverage
+  - src-openeuler/perl-Test-Requires
+  - src-openeuler/perl-Text-Glob
 - name: Runtime
   repositories:
   - src-openeuler/ibus-libpinyin
@@ -2142,7 +2149,6 @@ sigs:
   - src-openeuler/libpciaccess
   - src-openeuler/iotop
   - src-openeuler/xfsdump
-  - src-openeuler/iscsi-initiator-utils
   - src-openeuler/open-iscsi
   - src-openeuler/libaio
   - src-openeuler/libusbmuxd
@@ -2185,7 +2191,6 @@ sigs:
   - src-openeuler/cachefilesd
   - src-openeuler/usbutils
   - src-openeuler/lsscsi
-  - src-openeuler/isns-utils
   - src-openeuler/open-isns
 - name: atune
   repositories:
