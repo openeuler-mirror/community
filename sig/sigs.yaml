@@ -2322,6 +2322,12 @@ sigs:
   - openeuler/iSulad-kit
 - name: Private
   repositories:
+  - src-openeuler/python-rpmfluff
+  - src-openeuler/python-semantic_version
+  - src-openeuler/python-setuptools_git
+  - src-openeuler/mongo-c-driver
+  - src-openeuler/python-gflags
+  - src-openeuler/perl-File-Copy-Recursive
   - src-openeuler/perl-File-pushd 
   - src-openeuler/perl-File-Remove
   - src-openeuler/perl-HTTP-Daemon
