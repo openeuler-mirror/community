@@ -7020,11 +7020,21 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: perl-File-MimeInfo
+  description: "Determine file type and open application"
+  protected_branches:
+  - master
+  type: private
 - name: perl-File-Path
   description: ""
   protected_branches:
   - master
   type: public
+- name: perl-File-ReadBackwards
+  description: "Read a file backwards by lines"
+  protected_branches:
+  - master
+  type: private
 - name: perl-File-pushd
   description: ""
   protected_branches:
@@ -7135,8 +7145,18 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: perl-Import-Into
+  description: "Import packages into other packages"
+  protected_branches:
+  - master
+  type: private
 - name: perl-inc-latest
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: perl-IO-All
+  description: "IO::All Perl module"
   protected_branches:
   - master
   type: private
@@ -7230,6 +7250,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: perl-local-lib
+  description: "Create and use a local lib/ for perl modules"
+  protected_branches:
+  - master
+  type: private
 - name: perl-Locale-Codes
   description: ""
   protected_branches:
@@ -7302,6 +7327,36 @@ repositories:
   type: public
 - name: perl-Module-Install
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: perl-Module-Install
+  description: "Standalone, extensible Perl module installer"
+  protected_branches:
+  - master
+  type: private
+- name: perl-Module-Install-AuthorRequires
+  description: "Declare author-only dependencies"
+  protected_branches:
+  - master
+  type: private
+- name: perl-Module-Install-AuthorTests
+  description: "Designate tests only run by module authors"
+  protected_branches:
+  - master
+  type: private
+- name: perl-Module-Install-AutoLicense
+  description: "Module::Install extension to automatically generate LICENSE files"
+  protected_branches:
+  - master
+  type: private
+- name: perl-Module-Install-GithubMeta
+  description: "A Module::Install extension to include GitHub meta information in META.yml"
+  protected_branches:
+  - master
+  type: private
+- name: perl-Module-Install-ManifestSkip
+  description: "Generate a MANIFEST.SKIP file"
   protected_branches:
   - master
   type: private
