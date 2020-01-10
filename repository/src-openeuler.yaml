@@ -11065,3 +11065,58 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: perl-Module-Install-ReadmeFromPod
+  description: "Module::Install extension to automatically convert POD to a README"
+  protected_branches:
+  - master
+  type: private
+- name: perl-Module-Install-ReadmeMarkdownFromPod
+  description: "Create README.mkdn from POD"
+  protected_branches:
+  - master
+  type: private
+- name: perl-Module-Install-Repository
+  description: "Automatically sets repository URL from Svn/Svk/Git checkout"
+  protected_branches:
+  - master
+  type: private
+- name: perl-Module-Manifest-Skip
+  description: "MANIFEST.SKIP Manangement for Modules"
+  protected_branches:
+  - master
+  type: private
+- name: perl-Module-Package
+  description: "Postmodern Perl Module Packaging"
+  protected_branches:
+  - master
+  type: private
+- name: perl-Module-Package-Au
+  description: "perl-Module-Package-Au"
+  protected_branches:
+  - master
+  type: private
+- name: perl-Module-ScanDeps
+  description: "Recursively scan Perl code for dependencies"
+  protected_branches:
+  - master
+  type: private
+- name: perl-Moo
+  description: "Minimalist Object Orientation"
+  protected_branches:
+  - master
+  type: private
+- name: perl-Path-Class
+  description: "Cross-platform path specification manipulation"
+  protected_branches:
+  - master
+  type: private
+- name: perl-Role-Tiny
+  description: "A nouvelle cuisine portion size slice of Moose"
+  protected_branches:
+  - master
+  type: private
+- name: perl-strictures
+  description: "Turn on strict and make most warnings fatal"
+  protected_branches:
+  - master
+  type: private
