@@ -8,11 +8,13 @@ sigs:
   - openeuler/openeuler-jenkins
   - openeuler/gitbook-theme-hugo
   - openeuler/tool-collections
+  - openeuler/Not-Project
 - name: TC
   repositories:
   - openeuler/community
 - name: Application
   repositories:
+  - src-openeuler/Neither-Project
   - src-openeuler/esc
   - src-openeuler/abrt
   - src-openeuler/mikmod
