@@ -5865,6 +5865,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: mongo-c-driver
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: mongodb
   description: ""
   protected_branches:
@@ -6986,6 +6991,11 @@ repositories:
   - master
   type: public
 - name: perl-Fedora-VSP
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: perl-File-Copy-Recursive
   description: ""
   protected_branches:
   - master
@@ -8510,6 +8520,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: python-gflags
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: python-google-apputils
   description: ""
   protected_branches:
@@ -9005,6 +9020,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-rpmfluff
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: python-rtslib
   description: ""
   protected_branches:
@@ -9040,11 +9060,21 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: python-semantic_version
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: python-setuptools
   description: ""
   protected_branches:
   - master
   type: public
+- name: python-setuptools_git
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: python-setuptools_scm
   description: ""
   protected_branches:
