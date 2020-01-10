@@ -6695,6 +6695,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: ccid
+  description: "Provide a generic USB CCID driver and ICCD"
+  protected_branches:
+  - master
+  type: public
 - name: pdfbox
   description: ""
   protected_branches:
