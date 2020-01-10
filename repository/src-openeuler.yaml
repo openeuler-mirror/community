@@ -5955,6 +5955,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: multipath-tools
+  description: "Provides the tools to drive the Device Mapper multipathing driver."
+  protected_branches:
+  - master
+  type: public
 - name: multiverse
   description: ""
   protected_branches:
@@ -10385,6 +10390,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: thin-provisioning-tools
+  description: "A suite of tools for manipulating the metadata of the dm-thin, dm-cache and dm-era device-mapper targets."
+  protected_branches:
+  - master
+  type: public
 - name: thx
   description: ""
   protected_branches:
