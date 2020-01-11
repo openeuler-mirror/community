@@ -3620,11 +3620,6 @@ repositories:
   protected_branches:
   - master
   type: private
-- name: langpacks
-  description: ""
-  protected_branches:
-  - master
-  type: public
 - name: langtable
   description: ""
   protected_branches:
@@ -6775,6 +6770,21 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: perl-Class-Method-Modifiers
+  description: "Provides Moose-like method modifiers"
+  protected_branches:
+  - master
+  type: private
+- name: perl-Class-XSAccessor
+  description: "Generate fast XS accessors without runtime compilation"
+  protected_branches:
+  - master
+  type: private
+- name: perl-Compress-Bzip2
+  description: "Provides a Compress::Zlib like Perl interface to the bzip2 library"
+  protected_branches:
+  - master
+  type: private
 - name: perl-Compress-Raw-Bzip2
   description: ""
   protected_branches:
@@ -6800,6 +6810,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: perl-CPAN
+  description: "Query, download and build perl modules from CPAN sites"
+  protected_branches:
+  - master
+  type: private
 - name: perl-CPAN-Meta
   description: ""
   protected_branches:
@@ -6890,11 +6905,21 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: perl-Devel-GlobalDestruction
+  description: "Expose PL_dirty, the flag that marks global destruction"
+  protected_branches:
+  - master
+  type: private
 - name: perl-Devel-PPPort
   description: ""
   protected_branches:
   - master
   type: public
+- name: perl-Devel-Size
+  description: "Perl extension for finding the memory usage of Perl variables"
+  protected_branches:
+  - master
+  type: private
 - name: perl-Devel-Symdump
   description: ""
   protected_branches:
@@ -6990,8 +7015,18 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: perl-File-BaseDir
+  description: "Use the Freedesktop.org base directory specification"
+  protected_branches:
+  - master
+  type: private
 - name: perl-File-Copy-Recursive
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: perl-File-DesktopEntry
+  description: "Object to handle .desktop files"
   protected_branches:
   - master
   type: private
