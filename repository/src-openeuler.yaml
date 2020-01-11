@@ -9605,6 +9605,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: redis
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: redland
   description: ""
   protected_branches:
@@ -9762,6 +9767,11 @@ repositories:
   type: private
 - name: sanlock
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: sassc
+  description: private
   protected_branches:
   - master
   type: private
