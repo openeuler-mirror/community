@@ -2352,6 +2352,8 @@ sigs:
   - openeuler/iSulad-kit
 - name: Private
   repositories:
+  - src-openeuler/gcc_secure
+  - src-openeuler/custom_build_tool
   - src-openeuler/python-rpmfluff
   - src-openeuler/python-semantic_version
   - src-openeuler/python-setuptools_git
