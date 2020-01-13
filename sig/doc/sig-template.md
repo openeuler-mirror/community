@@ -39,3 +39,13 @@ The openEuler Docs SIG is used to build and continuously enrich the documentatio
 
 ### Repositories 
 - openeuler/docs/
+
+
+
+-处理openEuler的基础的版本文档的构建和发布
+-参与讨论openEuler文档的规划，制定文档的运营规划，并及时响应用户反馈
+-检查文档，发现文档问题并修改
+-文档的多语言处理，涉及到多语言翻译和校对
+-帮助开发者参与openEuler的文档贡献，提供标准和内容编辑上的支持
+
+[https://gitee.com/openeuler/community/tree/master/zh/technical-committee/governance](https://gitee.com/openeuler/community/tree/master/zh/technical-committee/governance)
