@@ -1,49 +1,24 @@
 
-# Application to create a new SIG
+# openEuler Docs Special Interest Group（SIG）
 English | [简体中文](./sig-template_cn.md)
 
-
-Note: The Charter of this SIG follows the convention described in the openEuler charter [README] (/en/governance/README.md), and follows [SIG-governance] (/en/technical-committee/governance/SIG-governance.md).
-
-## SIG Mission and Scope
-
-Describe the Mission and objectives of the new SIG, including but not limited to:
-
-- Why create a new SIG in openEuler
-  To build the Documentation for openEuler project.
-
-- The scope of the SIG
-  Anything related to documentaion
-
-- Which SIGs in openEuler to coorperate with
-  Every SIG that has requirement of documentation.
-
-### Deliverables
-
-What and in what form the SIG is responsible for delivering
- 
-- Documentation
- 
-
-### Repositories and description managed by this SIG
+The openEuler Docs SIG is used to build and continuously enrich the documentation of the openEuler project. It attracts interested developers to participate in the construction and release of the documents to jointly create a better documentation experience.
 
 
-### Cross-domain and external-oriented processes
+## SIG Goals
 
-Cross-domain and externally-oriented processes and actions defined and implemented by this SIG:
-
-- Non-Internal Process Checklist
-
-- The organization guidance plan for the entire openEulerSIG owned by this SIG, etc.
+- Handle the build and release of openEuler's basic version documentation
+- Participate in the discussion of the planning of the openEuler document, formulate the operation plan of the document, and respond to user feedback in a timely manner
+- Check the document, find document problems and modify
+- Multilingual processing of documents, involving multilingual translation and proofreading
+- Help developers participate in openEuler's documentation contributions, provide standard and content editing support
 
 
 ## Basic Information
 
 ### Project Introduction
-    https: /gitee.com/openeuler/community/sig/Docmentation/
+    https: /gitee.com/openeuler/community/sig/doc/
 
-***Tips***: After the SIG is successfully created, https: /gitee.com/openeuler/community/sig/sig-xxxx/ management will be managed by the Maintainer, and the project team can enrich their project introduction, including but not limited to the following content.
-```
 ### Maintainers
 - Rudy_Tan
 
@@ -52,13 +27,13 @@ Cross-domain and externally-oriented processes and actions defined and implement
 - fhxing
 
 ### Mailing list
+- doc@openeuler.org
 
 ### IRC Channel
-- #openeuler-dev
-
-### Conference Information
+- #openeuler-doc
 
 ### External Contact
--Name (Gitee ID)
-```
+- Rudy_Tan 
 
+### Repositories 
+- openeuler/docs/
