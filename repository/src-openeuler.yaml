@@ -1160,16 +1160,6 @@ repositories:
   protected_branches:
   - master
   type: private
-- name: device-mapper-multipath
-  description: ""
-  protected_branches:
-  - master
-  type: public
-- name: device-mapper-persistent-data
-  description: ""
-  protected_branches:
-  - master
-  type: public
 - name: dhcp
   description: ""
   protected_branches:
