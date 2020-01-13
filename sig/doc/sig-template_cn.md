@@ -1,63 +1,41 @@
-
-# 新建SIG申请
+# openEuler文档兴趣小组（SIG）
 [English](./sig-template.md) | 简体中文
 
-
-说明：本SIG的Charter内容遵循openEuler章程 [README](/zh/governance/README.md)中描述的约定，使用[SIG-governance](/zh/technical-committee/governance/SIG-governance.md)中概述的角色和组织管理。
-
-## SIG组工作目标和范围
-
-用描述新申请SIG计划工作的范围和目标，包括但不限于：
-
- - 为什么需要在openEuler里创建一个这样的新SIG
-
- - 该SIG的业务范围
-
- - 该SIG需要得到openEuler内哪些SIG的支持
+openuler文档兴趣小组用于构建并不断丰富openuler项目的文档。它吸引感兴趣的开发人员参与文档的构建和发布，共同创造更好的文档体验。
 
 
- ### 交付件
+## SIG的目标
 
- 该SIG负责的交付件是哪些以及哪种形式
- 
- -Documentation
+- 处理openEuler的基础的版本文档的构建和发布
+- 参与讨论openEuler文档的规划，制定文档的运营规划，并及时响应用户反馈
+- 检查文档，发现文档问题并修改
+- 文档的多语言处理，涉及到多语言翻译和校对
+- 帮助开发者参与openEuler的文档贡献，提供标准和内容编辑上的支持
 
- - tar包
+## 管理成员
 
- - 源码和tar包
- 
-
- ### 该SIG管理的个repository及描述
-
-
- ### 跨领域和面向外部的流程
-
- 由该SIG定义和执行的，且跨领域和面向外部的流程和行动：
-
- - 非内部流程清单
- - 该SIG拥有的面向整个openEulerSIG的组织指导计划等
-
-
-## 基本信息
-
-### 项目介绍
-    https:/gitee.com/openeuler/community/sig/sig-xxxx/
-
-***提示***：在SIG创建成功后，https:/gitee.com/openeuler/community/sig/sig-xxxx/管理将由Maintainer负责，项目组可以丰富自己的项目介绍，包括但不限于如下内容。
-```
 ### Maintainers
-- 姓名 (Gitee ID)
+- Rudy_Tan
 
 ### Committers
-- 姓名 (Gitee ID)
+- amyMaYun
+- fhxing
 
-### Mailing list
 
-### IRC Channel
+## SIG基本信息
 
-### 会议信息
+### 项目简介
+    https: /gitee.com/openeuler/community/sig/doc/
+
+### 邮件列表
+- doc@openeuler.org
+
+### IRC频道
+- #openeuler-doc
 
 ### 对外联络人
-- 姓名 (Gitee ID)
-```
+- Rudy_Tan 
+
+### 存储库
+- openeuler/docs/
 
