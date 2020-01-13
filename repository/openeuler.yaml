@@ -121,8 +121,8 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: Documentation
-  description: "To build and enrich documentation for users"
+- name: docs
+  description: "To build and enrich documentation for openEuler project."
   protected_branches:
   - master
   type: public
