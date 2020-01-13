@@ -2339,6 +2339,12 @@ sigs:
   - openeuler/iSulad-kit
 - name: Private
   repositories:
+  - src-openeuler/kf5
+  - src-openeuler/libisoburn
+  - src-openeuler/pbzip2  
+  - src-openeuler/pysendfile      
+  - src-openeuler/python-pycdlib  
+  - src-openeuler/python-toml
   - src-openeuler/gcc_secure
   - src-openeuler/custom_build_tool
   - src-openeuler/python-rpmfluff
