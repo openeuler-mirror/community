@@ -1045,6 +1045,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: custom_build_tool
+  description: "provide other method to deal parameter passing for OBS build"
+  protected_branches:
+  - master
+  type: private
 - name: curl
   description: ""
   protected_branches:
@@ -1840,6 +1845,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: gcc_secure
+  description: "Build with gcov"
+  protected_branches:
+  - master
+  type: private
 - name: GConf2
   description: ""
   protected_branches:
