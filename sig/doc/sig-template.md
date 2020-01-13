@@ -13,11 +13,7 @@ The openEuler Docs SIG is used to build and continuously enrich the documentatio
 - Multilingual processing of documents, involving multilingual translation and proofreading
 - Help developers participate in openEuler's documentation contributions, provide standard and content editing support
 
-
-## Basic Information
-
-### Project Introduction
-    https: /gitee.com/openeuler/community/sig/doc/
+## Leadership
 
 ### Maintainers
 - Rudy_Tan
@@ -25,6 +21,12 @@ The openEuler Docs SIG is used to build and continuously enrich the documentatio
 ### Committers
 - amyMaYun
 - fhxing
+
+
+## Basic Information
+
+### Project Introduction
+    https: /gitee.com/openeuler/community/sig/doc/
 
 ### Mailing list
 - doc@openeuler.org
