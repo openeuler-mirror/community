@@ -11535,3 +11535,33 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: kf5
+  description: "Filesystem and RPM macros for KDE Frameworks 5"
+  protected_branches:
+  - master
+  type: private
+- name: libisoburn
+  description: "Library to enable creation and expansion of ISO-9660 filesystems"
+  protected_branches:
+  - master
+  type: private
+- name: pbzip2
+  description: "Parallel implementation of bzip2"
+  protected_branches:
+  - master
+  type: private
+- name: pysendfile
+  description: "Python interface to the sendfile(2) system call"
+  protected_branches:
+  - master
+  type: private
+- name: python-pycdlib  
+  description: "A pure python ISO9660 read and write library"
+  protected_branches:
+  - master
+  type: private
+- name: python-toml
+  description: "Python Library for Tom's Obvious, Minimal Language"
+  protected_branches:
+  - master
+  type: private
