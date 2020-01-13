@@ -6675,11 +6675,6 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: pcsc-lite-ccid
-  description: ""
-  protected_branches:
-  - master
-  type: public
 - name: ccid
   description: "Provide a generic USB CCID driver and ICCD"
   protected_branches:
