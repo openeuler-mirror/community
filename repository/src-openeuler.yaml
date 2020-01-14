@@ -8785,6 +8785,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: python-keyczar
+  description: "Toolkit for safe and simple cryptography"
+  protected_branches:
+  - master
+  type: private
 - name: python-kitchen
   description: ""
   protected_branches:
