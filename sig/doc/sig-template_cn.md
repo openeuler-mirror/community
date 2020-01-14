@@ -18,7 +18,7 @@ openuler文档兴趣小组用于构建并不断丰富openuler项目的文档。�
 - Rudy_Tan
 
 ### Committers
-- amyMaYun
+- amy_Mayun
 - fhxing
 
 
