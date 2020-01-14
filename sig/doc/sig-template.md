@@ -19,7 +19,7 @@ The openEuler Docs SIG is used to build and continuously enrich the documentatio
 - Rudy_Tan
 
 ### Committers
-- amyMaYun
+- amy_Mayun
 - fhxing
 
 
