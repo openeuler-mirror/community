@@ -11570,3 +11570,8 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: openjdk-1.8.0
+  description: "openEuler Community builds of OpenJDK"
+  protected_branches:
+  - master
+  type: private
