@@ -18,22 +18,17 @@
 
     If there are some documents for the meeting, please `cp ./meeting_records/template_meetig ./meeting_records/yyyy-mm-dd-meeting` and put the documents there so that attendees can find them. 
 
-### 2. Agenda for next meeting
+### 2. Agenda for each meeting
 
-##### Next meeting schecule
+* #topic Actions from last meeting
 
-##### Agenda for each meeting
+* #topic Issues reviewing
 
-* #topic Last meeting
+    Review the issues and talk on any issues we would to higlight.
 
-* #topic community governace
+* #topic Pull Request reviewing
 
-    As we are still in preparation phase, the maturity of the phase, the maturity of the governance is far from completion.
-
-* #topic management procedure
-
-* #topic actions summary
-
+    Review the PRs we consider important.
 * #open discussion
 
 
@@ -42,6 +37,8 @@
 THe common used commands are below. To find more, please visit [https://kiwiirc.com/docs/client/commands](https://kiwiirc.com/docs/client/commands) to find more commands. 
 
 ### Meeting Archives
+
+Meeting minutes on Jan 21, 2019: http://meetings.openeuler.org/openeuler-meeting/2020/community/2020-01-21-01.01.html
 
 Meeting minutes on Jan 14, 2019: http://meetings.openeuler.org/openeuler-meeting/2020/community/2020-01-14-02.00.html
 
