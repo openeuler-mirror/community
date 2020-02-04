@@ -29,7 +29,7 @@
 * #topic Pull Request reviewing
 
     Review the PRs we consider important.
-* #open discussion
+* #topic open discussion
 
 
 ### 3. Useful information
@@ -38,10 +38,12 @@ THe common used commands are below. To find more, please visit [https://kiwiirc.
 
 ### Meeting Archives
 
-Meeting minutes on Jan 21, 2019: http://meetings.openeuler.org/openeuler-meeting/2020/community/2020-01-21-01.01.html
+Meeting minutes on Fed 4, 2020: http://meetings.openeuler.org/openeuler-meeting/2020/community/2020-02-04-02.00.html
 
-Meeting minutes on Jan 14, 2019: http://meetings.openeuler.org/openeuler-meeting/2020/community/2020-01-14-02.00.html
+Meeting minutes on Jan 21, 2020: http://meetings.openeuler.org/openeuler-meeting/2020/community/2020-01-21-01.01.html
 
-Meeting minutes on Jan 7, 2019: http://meetings.openeuler.org/openeuler-meeting/2020/community/2020-01-07-01.59.html
+Meeting minutes on Jan 14, 2020: http://meetings.openeuler.org/openeuler-meeting/2020/community/2020-01-14-02.00.html
 
-Meeting minutes on Jan. 5, 2019: http://meetings.openeuler.org/openeuler-meeting/2020/community/2020-01-05-13.13.html
+Meeting minutes on Jan 7, 2020: http://meetings.openeuler.org/openeuler-meeting/2020/community/2020-01-07-01.59.html
+
+Meeting minutes on Jan. 5, 2020: http://meetings.openeuler.org/openeuler-meeting/2020/community/2020-01-05-13.13.html
