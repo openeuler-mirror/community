@@ -2095,11 +2095,11 @@ sigs:
   repositories:
   - src-openeuler/clibcni
   - src-openeuler/oci-systemd-hook
-  - src-openeuler/iSulad-lxcfs-toolkit
+  - src-openeuler/lxcfs-tools
   - src-openeuler/runc
   - src-openeuler/virt-what
   - src-openeuler/containerd
-  - src-openeuler/iSulad-kit
+  - src-openeuler/iSulad-img
   - src-openeuler/lcr
   - src-openeuler/golang
   - src-openeuler/docker-anaconda-addon
@@ -2120,7 +2120,7 @@ sigs:
   - src-openeuler/kata-proxy
   - src-openeuler/lxcfs
   - src-openeuler/containernetworking-plugins
-  - src-openeuler/iSulad-tools
+  - src-openeuler/syscontainer-tools
   - src-openeuler/libcgroup
   - src-openeuler/kata-agent
 - name: Compiler
@@ -2340,7 +2340,7 @@ sigs:
   - openeuler/iSulad
   - openeuler/lcr
   - openeuler/clibcni
-  - openeuler/iSulad-kit
+  - openeuler/iSulad-img
 - name: Private
   repositories:
   - src-openeuler/kf5
