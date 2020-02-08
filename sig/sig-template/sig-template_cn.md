@@ -16,18 +16,17 @@
  - 该SIG需要得到openEuler内哪些SIG的支持
 
 
- ### 交付件
 
- 该SIG负责的交付件是哪些以及哪种形式
- 
- - 源码
+ ### 该SIG管理的repository及描述
 
- - tar包
+- 项目名称：
+  - 交付件形式：源码、tar包或兼而有之
+  - repository1名称：
+  - repository2名称：
 
- - 源码和tar包
- 
 
- ### 该SIG管理的个repository及描述
+
+
 
 
  ### 跨领域和面向外部的流程
@@ -37,27 +36,4 @@
  - 非内部流程清单
  - 该SIG拥有的面向整个openEulerSIG的组织指导计划等
 
-
-## 基本信息
-
-### 项目介绍
-    https:/gitee.com/openeuler/community/sig/sig-xxxx/
-
-***提示***：在SIG创建成功后，https:/gitee.com/openeuler/community/sig/sig-xxxx/管理将由Maintainer负责，项目组可以丰富自己的项目介绍，包括但不限于如下内容。
-```
-### Maintainers
-- 姓名 (Gitee ID)
-
-### Committers
-- 姓名 (Gitee ID)
-
-### Mailing list
-
-### IRC Channel
-
-### 会议信息
-
-### 对外联络人
-- 姓名 (Gitee ID)
-```
 
