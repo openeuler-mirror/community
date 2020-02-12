@@ -5,6 +5,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: blog
+  description: "Blog project is used to house the blogs that related openEuler community."
+  protected_branches:
+  - master
+  type: public
 - name: ci-bot
   description: ""
   protected_branches:
