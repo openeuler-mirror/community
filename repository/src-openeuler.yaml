@@ -4137,6 +4137,16 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: libhbaapi
+  description: "SNIA HBAAPI library"
+  protected_branches:
+  - master
+  type: private
+- name: libhbalinux
+  description: "SNIA HBAAPI library"
+  protected_branches:
+  - master
+  type: private
 - name: libhangul
   description: ""
   protected_branches:
@@ -6307,6 +6317,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: oniguruma
+  description: "Regular expressions library"
+  protected_branches:
+  - master
+  type: private
 - name: openal-soft
   description: ""
   protected_branches:
@@ -6794,6 +6809,11 @@ repositories:
   type: public
 - name: perl-Config-AutoConf
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: perl-Config-General
+  description: "Generic configuration module for Perl"
   protected_branches:
   - master
   type: private
@@ -7457,6 +7477,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: perl-Package-Constants
+  description: "List all constants declared in a package"
+  protected_branches:
+  - master
+  type: private
 - name: perl-Package-Generator
   description: ""
   protected_branches:
@@ -7792,6 +7817,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: perl-Tie-IxHash
+  description: "Ordered associative arrays for Perl"
+  protected_branches:
+  - master
+  type: private
 - name: perl-Time-Zone
   description: ""
   protected_branches:
@@ -7939,6 +7969,16 @@ repositories:
   type: private
 - name: physfs
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: php
+  description: "PHP scripting language for creating dynamic web sites"
+  protected_branches:
+  - master
+  type: private
+- name: PyPAM
+  description: "PAM bindings for Python"
   protected_branches:
   - master
   type: private
@@ -8452,6 +8492,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: python-cached_property
+  description: "A cached-property for decorating methods in Python classes"
+  protected_branches:
+  - master
+  type: private
 - name: python-cffi
   description: ""
   protected_branches:
@@ -8552,6 +8597,21 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: python-docker
+  description: "A Python library for the Docker Engine API"
+  protected_branches:
+  - master
+  type: private
+- name: python-docker-pycreds
+  description: "Python bindings for the docker credentials store API"
+  protected_branches:
+  - master
+  type: private
+- name: python-dockerpty
+  description: "Python library to use the pseudo-tty of a docker container"
+  protected_branches:
+  - master
+  type: private
 - name: python-docopt
   description: ""
   protected_branches:
@@ -8559,6 +8619,11 @@ repositories:
   type: private
 - name: python-docutils
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: python-ecdsa
+  description: "ECDSA cryptographic signature library"
   protected_branches:
   - master
   type: private
@@ -8807,6 +8872,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-ldap
+  description: "An object-oriented API to access LDAP directory servers"
+  protected_branches:
+  - master
+  type: private
 - name: python-linecache2
   description: ""
   protected_branches:
@@ -10469,6 +10539,11 @@ repositories:
   type: private
 - name: tibetan-machine-uni-fonts
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: tidy
+  description: "Utility to clean up and pretty print HTML/XHTML/XML"
   protected_branches:
   - master
   type: private
