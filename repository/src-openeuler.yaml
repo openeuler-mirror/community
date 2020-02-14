@@ -11577,3 +11577,63 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: python-mysqlclient
+  description: "MySQL database connector for Python"
+  protected_branches:
+  - master
+  type: public
+- name: python-PyMySQL
+  description: "Pure Python MySQL Client"
+  protected_branches:
+  - master
+  type: public
+- name: python-rsa
+  description: "Pure-Python RSA implementation"
+  protected_branches:
+  - master
+  type: public
+- name: python-suds
+  description: "A python SOAP client"
+  protected_branches:
+  - master
+  type: public
+- name: python-texttable
+  description: "Python module to generate a formatted text table, using ASCII characters"
+  protected_branches:
+  - master
+  type: public
+- name: python-waitress
+  description: "Waitress WSGI server"
+  protected_branches:
+  - master
+  type: public
+- name: python-websocket-client
+  description: "WebSocket client for python"
+  protected_branches:
+  - master
+  type: public
+- name: python-webtest
+  description: "Helper to test WSGI applications"
+  protected_branches:
+  - master
+  type: public
+- name: python-paste-deploy
+  description: "Load, configure, and compose WSGI applications and servers"
+  protected_branches:
+  - master
+  type: public
+- name: python-pyquery
+  description: "A jQuery-like library for python"
+  protected_branches:
+  - master
+  type: public
+- name: python-WSGIProxy2
+  description: "WSGI Proxy that supports several HTTP backends"
+  protected_branches:
+  - master
+  type: public
+- name: python-webob
+  description: "WSGI request and response object"
+  protected_branches:
+  - master
+  type: public
