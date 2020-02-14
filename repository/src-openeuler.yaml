@@ -827,6 +827,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: cloud-utils
+  description: "Cloud image management utilities"
+  protected_branches:
+  - master
+  type: private
 - name: clucene
   description: ""
   protected_branches:
@@ -6762,6 +6767,16 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: perl-Business-ISBN
+  description: "Work with International Standard Book Numbers"
+  protected_branches:
+  - master
+  type: private
+- name: perl-Business-ISBN-Data
+  description: "Data pack for Business::ISBN"
+  protected_branches:
+  - master
+  type: private
 - name: perl-Capture-Tiny
   description: ""
   protected_branches:
@@ -7137,6 +7152,16 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: perl-GD
+  description: "A perl5 interface to Thomas Boutell's gd library"
+  protected_branches:
+  - master
+  type: private
+- name: perl-GD-Barcode
+  description: "Create barcode image with GD"
+  protected_branches:
+  - master
+  type: private
 - name: perl-gettext
   description: ""
   protected_branches:
@@ -7454,6 +7479,11 @@ repositories:
   type: private
 - name: perl-Net-HTTP
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: perl-Net-LibIDN
+  description: "Perl bindings for GNU Libidn"
   protected_branches:
   - master
   type: private
@@ -10164,6 +10194,11 @@ repositories:
   type: public
 - name: sombok
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: sos
+  description: "A set of tools to gather troubleshooting information from a system"
   protected_branches:
   - master
   type: private
