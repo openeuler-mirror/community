@@ -2093,21 +2093,6 @@ sigs:
   - src-openeuler/libomxil-bellagio
   - src-openeuler/libsass
   - src-openeuler/lutok
-  - src-openeuler/libhbaapi
-  - src-openeuler/libhbalinux
-  - src-openeuler/perl-Config-General
-  - src-openeuler/perl-Package-Constants
-  - src-openeuler/php
-  - src-openeuler/PyPAM
-  - src-openeuler/python-cached_property
-  - src-openeuler/python-docker
-  - src-openeuler/python-docker-pycreds
-  - src-openeuler/python-dockerpty
-  - src-openeuler/python-ecdsa
-  - src-openeuler/python-ldap
-  - src-openeuler/perl-Tie-IxHash
-  - src-openeuler/oniguruma
-  - src-openeuler/tidy
 
 - name: Container
   repositories:
@@ -2362,6 +2347,21 @@ sigs:
   - openeuler/iSulad-img
 - name: Private
   repositories:
+  - src-openeuler/libhbaapi
+  - src-openeuler/libhbalinux
+  - src-openeuler/perl-Config-General
+  - src-openeuler/perl-Package-Constants
+  - src-openeuler/php
+  - src-openeuler/PyPAM
+  - src-openeuler/python-cached_property
+  - src-openeuler/python-docker
+  - src-openeuler/python-docker-pycreds
+  - src-openeuler/python-dockerpty
+  - src-openeuler/python-ecdsa
+  - src-openeuler/python-ldap
+  - src-openeuler/perl-Tie-IxHash
+  - src-openeuler/oniguruma
+  - src-openeuler/tidy
   - src-openeuler/kf5
   - src-openeuler/libisoburn
   - src-openeuler/pbzip2  
