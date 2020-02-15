@@ -29,13 +29,23 @@ Please read [How to contribute](CONTRIBUTING.md) to get detailed guidance.
 
 ## Maintainers
 
+### [TC members](/en/technical-committee) have the rights over the following folders
+    ./repository
+    ./sig
+
+### Blog team have the rights over [openEuler Blog](https://gitee.com/openeuler/blog/)
+1. Xing Zhu (@shredstar), since February 2020
+2. Perl(@pearl405), since February 2020
+3. ZhengyuhangHans(@ZhengyuhangHans), since February 2020
+
+### The rest of folders under this repo
 1. Fred Li(@zerodefect), since December 2019
 2. 杨丽(@yangli69393), since December 2019
 
 ## Contributors
-
 1. freesky-edward(@freesky-edward), since August 2019
 2. xiangxinyong(@xiangxinyong), since August 2019
+3. blueskycs2c(@blueskycs2c), since February 2020
 
 ## Contact
 

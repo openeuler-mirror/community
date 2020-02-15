@@ -29,13 +29,23 @@
 
 ## 本代码仓的Maintainer
 
+### [技术委员会](/zh/technical-committee) 管理如下目录的权限
+    ./repository
+    ./sig
+
+### 博客团队管理[openEuler Blog](https://gitee.com/openeuler/blog/)
+1. Xing Zhu (@shredstar)，从2020年2月份开始
+2. Perl(@pearl405)，从2020年2月份开始
+3. ZhengyuhangHans(@ZhengyuhangHans)，从2020年2月份开始
+
+### 该代码仓的其他目录Maintainers
 1. Fred Li(@zerodefect)，从2019年12月开始
 2. 杨丽(@yangli69393)，从2019年12月开始
 
 ## 本代码仓的Contributors
-
 1. freesky-edward(@freesky-edward)，从2019年8月开始
 2. xiangxinyong(@xiangxinyong)，从2019年8月开始
+3. blueskycs2c(@blueskycs2c)，从2020年2月开始
 
 ## 联系方式
 
