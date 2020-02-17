@@ -2490,6 +2490,7 @@ sigs:
   - src-openeuler/bean-validation-api
   - src-openeuler/beust-jcommander
   - src-openeuler/bolt
+  - src-openeuler/boom-boot
   - src-openeuler/bouncycastle
   - src-openeuler/bpg-fonts
   - src-openeuler/brasero
@@ -2562,11 +2563,13 @@ sigs:
   - src-openeuler/docbook5-style-xsl
   - src-openeuler/docbook-style-dsssl
   - src-openeuler/docbook-utils
+  - src-openeuler/docker-compose
   - src-openeuler/dom4j
   - src-openeuler/Done
   - src-openeuler/dotconf
   - src-openeuler/dovecot
   - src-openeuler/doxygen
+  - src-openeuler/dpkg
   - src-openeuler/dump
   - src-openeuler/dvdplusrw-tools
   - src-openeuler/easymock
@@ -2760,6 +2763,7 @@ sigs:
   - src-openeuler/ibus-table-array30
   - src-openeuler/ibus-typing-booster
   - src-openeuler/icedtea-web
+  - src-openeuler/icoutils
   - src-openeuler/iio-sensor-proxy
   - src-openeuler/ilmbase
   - src-openeuler/ImageMagick
@@ -3184,6 +3188,7 @@ sigs:
   - src-openeuler/perl-Class-Method-Modifiers
   - src-openeuler/perl-Class-XSAccessor
   - src-openeuler/perl-Compress-Bzip2
+  - src-openeuler/perl-Config-IniFiles
   - src-openeuler/perl-CPAN
   - src-openeuler/perl-Devel-GlobalDestruction
   - src-openeuler/perl-Devel-Size
@@ -3217,6 +3222,7 @@ sigs:
   - src-openeuler/perl-IO-Multiplex
   - src-openeuler/perl-IO-Socket-INET6
   - src-openeuler/perl-IO-String
+  - src-openeuler/perl-IO-stringy
   - src-openeuler/perl-JSON
   - src-openeuler/perl-libintl-perl
   - src-openeuler/perl-libwww-perl
@@ -3395,6 +3401,7 @@ sigs:
   - src-openeuler/python-linecache2
   - src-openeuler/python-lit
   - src-openeuler/python-markdown
+  - src-openeuler/python-memcached
   - src-openeuler/python-mimeparse
   - src-openeuler/python-mock
   - src-openeuler/python-more-itertools
@@ -3415,6 +3422,7 @@ sigs:
   - src-openeuler/python-pluggy
   - src-openeuler/python-pretend
   - src-openeuler/python-psutil
+  - src-openeuler/python-psycopg2
   - src-openeuler/python-py
   - src-openeuler/python-pyaml
   - src-openeuler/python-pyasn1
@@ -3447,6 +3455,7 @@ sigs:
   - src-openeuler/python-urlgrabber
   - src-openeuler/python-urwid
   - src-openeuler/python-virtualenv
+  - src-openeuler/python-webob
   - src-openeuler/python-werkzeug
   - src-openeuler/python-wheel
   - src-openeuler/python-which
@@ -3527,6 +3536,7 @@ sigs:
   - src-openeuler/SDL
   - src-openeuler/SDL2
   - src-openeuler/SDL_sound
+  - src-openeuler/seabios
   - src-openeuler/setuptool
   - src-openeuler/shadow
   - src-openeuler/shapelib
@@ -3706,4 +3716,3 @@ sigs:
   - src-openeuler/python-paste-deploy
   - src-openeuler/python-pyquery
   - src-openeuler/python-WSGIProxy2
-  - src-openeuler/python-webob
