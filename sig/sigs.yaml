@@ -133,7 +133,6 @@ sigs:
   - src-openeuler/doxygen
   - src-openeuler/mailman
   - src-openeuler/units
-  - src-openeuler/dcraw
   - src-openeuler/libvpx
   - src-openeuler/icedtea-web
   - src-openeuler/dnssec-trigger
@@ -727,7 +726,6 @@ sigs:
   - src-openeuler/xorg-x11-drv-evdev
   - src-openeuler/libXinerama
   - src-openeuler/libgee
-  - src-openeuler/jasper
   - src-openeuler/libXxf86vm
   - src-openeuler/setools
   - src-openeuler/emacs
@@ -752,7 +750,6 @@ sigs:
   - src-openeuler/atk
   - src-openeuler/gnome-vfs2
   - src-openeuler/libwnck3
-  - src-openeuler/yum-utils
   - src-openeuler/postfix
   - src-openeuler/libgnomekbd
   - src-openeuler/libX11
@@ -955,7 +952,6 @@ sigs:
   - src-openeuler/openEuler_chroot
   - src-openeuler/apache-resource-bundles
   - src-openeuler/maven-remote-resources-plugin
-  - src-openeuler/libsodium
   - src-openeuler/apache-commons-configuration
   - src-openeuler/maven-common-artifact-filters
   - src-openeuler/debian-keyring
@@ -2347,6 +2343,13 @@ sigs:
   - openeuler/iSulad-img
 - name: Private
   repositories:
+  - src-openeuler/python-filelock
+  - src-openeuler/python-importlib-metadata
+  - src-openeuler/python-tox
+  - src-openeuler/python-zipp
+  - src-openeuler/python-hwdata
+  - src-openeuler/python-bcrypt
+  - src-openeuler/libsodium
   - src-openeuler/libhbaapi
   - src-openeuler/libhbalinux
   - src-openeuler/perl-Config-General
@@ -2549,7 +2552,6 @@ sigs:
   - src-openeuler/dbus-cpp
   - src-openeuler/dbusmenu-qt
   - src-openeuler/dconf-editor
-  - src-openeuler/dcraw
   - src-openeuler/debian-keyring
   - src-openeuler/dejagnu
   - src-openeuler/dejavu-fonts
@@ -3345,7 +3347,6 @@ sigs:
   - src-openeuler/python-attrs
   - src-openeuler/python-augeas
   - src-openeuler/python-backports_abc
-  - src-openeuler/python-bcrypt
   - src-openeuler/python-behave
   - src-openeuler/python-blinker
   - src-openeuler/python-bottle
@@ -3378,7 +3379,6 @@ sigs:
   - src-openeuler/python-httplib2
   - src-openeuler/python-httpretty
   - src-openeuler/python-humanize
-  - src-openeuler/python-hwdata
   - src-openeuler/python-hypothesis
   - src-openeuler/python-imagesize
   - src-openeuler/python-iso8601
@@ -3680,7 +3680,6 @@ sigs:
   - src-openeuler/yelp-tools
   - src-openeuler/yum-langpacks
   - src-openeuler/yum-metadata-parser
-  - src-openeuler/yum-utils
   - src-openeuler/zbar
   - src-openeuler/zerofree
   - src-openeuler/zvbi
