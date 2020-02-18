@@ -1137,11 +1137,6 @@ repositories:
   protected_branches:
   - master
   type: private
-- name: dcraw
-  description: ""
-  protected_branches:
-  - master
-  type: private
 - name: debian-keyring
   description: ""
   protected_branches:
@@ -3173,11 +3168,6 @@ repositories:
   - master
   type: private
 - name: jansson
-  description: ""
-  protected_branches:
-  - master
-  type: public
-- name: jasper
   description: ""
   protected_branches:
   - master
@@ -8687,6 +8677,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: python-filelock
+  description: "A platform independent file lock"
+  protected_branches:
+  - master
+  type: private
 - name: python-flask
   description: ""
   protected_branches:
@@ -8794,6 +8789,11 @@ repositories:
   type: public
 - name: python-imagesize
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: python-importlib-metadata
+  description: "Read metadata from Python packages"
   protected_branches:
   - master
   type: private
@@ -9392,6 +9392,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: python-tox
+  description: "Virtualenv-based automation of test activities"
+  protected_branches:
+  - master
+  type: private
 - name: python-traceback2
   description: ""
   protected_branches:
@@ -9454,6 +9459,11 @@ repositories:
   type: private
 - name: python-xgboost
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: python-zipp
+  description: "Backport of pathlib-compatible object wrapper for zip files"
   protected_branches:
   - master
   type: private
@@ -11523,11 +11533,6 @@ repositories:
   - master
   type: private
 - name: yum-metadata-parser
-  description: ""
-  protected_branches:
-  - master
-  type: private
-- name: yum-utils
   description: ""
   protected_branches:
   - master
