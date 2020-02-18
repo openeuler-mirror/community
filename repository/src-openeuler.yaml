@@ -11747,3 +11747,48 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: icoutils
+  description: "A set of command-line programs for extracting and converting images"
+  protected_branches:
+  - master
+  type: public
+- name: perl-Config-IniFiles
+  description: "A module for reading .ini-style configuration files"
+  protected_branches:
+  - master
+  type: public
+- name: perl-IO-stringy
+  description: "I/O on in-core objects for Perl"
+  protected_branches:
+  - master
+  type: public
+- name: boom-boot
+  description: "libraries and files for helping boot loger entries"
+  protected_branches:
+  - master
+  type: public
+- name: python-memcached
+  description: "A Python memcached client library"
+  protected_branches:
+  - master
+  type: public
+- name: python-psycopg2
+  description: "A PostgreSQL database adapter for Python"
+  protected_branches:
+  - master
+  type: public
+- name: seabios
+  description: "Open-source legacy BIOS implementation"
+  protected_branches:
+  - master
+  type: public
+- name: docker-compose
+  description: "Multi-container orchestration for Docker"
+  protected_branches:
+  - master
+  type: public
+- name: dpkg
+  description: "Package maintenance system for Debian Linux"
+  protected_branches:
+  - master
+  type: public
