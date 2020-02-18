@@ -11797,3 +11797,38 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: procinfo
+  description: "A tool for gathering and displaying system information"
+  protected_branches:
+  - master
+  type: private
+- name: annobin
+  description: "Binary annotation plugin for GCC"
+  protected_branches:
+  - master
+  type: private
+- name: python-zope-event
+  description: "Zope Event Publication"
+  protected_branches:
+  - master
+  type: private
+- name: python-zope-interface
+  description: "Zope 3 Interface Infrastructure"
+  protected_branches:
+  - master
+  type: private
+- name: rcs
+  description: "Revision Control System (RCS) file version management tools"
+  protected_branches:
+  - master
+  type: private
+- name: rootsh
+  description: "Shell wrapper for auditing"
+  protected_branches:
+  - master
+  type: private
+- name: scsi-target-utils
+  description: "The SCSI target daemon and utility programs"
+  protected_branches:
+  - master
+  type: private
