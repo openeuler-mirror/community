@@ -65,7 +65,8 @@ XXXXXXXXXXXX（todo：此处需提供在本地完成测试的方法）
 
 ### 注释命令参考
 
-请参考[命令行文档](/.../../sig-frastructure/Comand.md)
+请参考[命令行文档](/en/sig-infrastructure/command.md)
 
 
 
+en/sig-infrastructure/command.md
