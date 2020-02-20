@@ -4617,6 +4617,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: libpinyin
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: libpipeline
   description: ""
   protected_branches:
@@ -5267,11 +5272,6 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: libzhuyin
-  description: ""
-  protected_branches:
-  - master
-  type: private
 - name: libzip
   description: ""
   protected_branches:
@@ -6537,6 +6537,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: opencryptoki
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: openEuler_chroot
   description: ""
   protected_branches:
@@ -6837,6 +6842,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: passivetex
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: passwd
   description: ""
   protected_branches:
@@ -7172,6 +7182,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: perl-Digest-SHA1
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: perl-Encode
   description: ""
   protected_branches:
@@ -9417,6 +9432,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: python-ptyprocess
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: python-py
   description: ""
   protected_branches:
@@ -10103,6 +10123,11 @@ repositories:
   - master
   type: private
 - name: regexp
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: reiserfs-utils
   description: ""
   protected_branches:
   - master

@@ -2342,6 +2342,12 @@ sigs:
   - openeuler/iSulad-img
 - name: Private
   repositories:
+  - src-openeuler/python-ptyprocess
+  - src-openeuler/reiserfs-utils
+  - src-openeuler/perl-Digest-SHA1
+  - src-openeuler/passivetex
+  - src-openeuler/opencryptoki
+  - src-openeuler/libpinyin
   - src-openeuler/maven-dependency-plugin 
   - src-openeuler/ocaml-calendar 
   - src-openeuler/ocaml-csv 
@@ -2405,7 +2411,6 @@ sigs:
   - src-openeuler/jflex
   - src-openeuler/lensfun
   - src-openeuler/libewf
-  - src-openeuler/libzhuyin
   - src-openeuler/mypaint-brushes
   - src-openeuler/ocaml-ounit
   - src-openeuler/perl-Expect
