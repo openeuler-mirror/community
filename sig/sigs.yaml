@@ -1558,7 +1558,6 @@ sigs:
   - src-openeuler/minicom
   - src-openeuler/supermin
   - src-openeuler/scap-security-guide
-  - src-openeuler/shadow-utils
   - src-openeuler/haproxy
 - name: Packaging
   repositories:
@@ -2349,6 +2348,7 @@ sigs:
   - src-openeuler/passivetex
   - src-openeuler/opencryptoki
   - src-openeuler/libpinyin
+  - src-openeuler/libipt
   - src-openeuler/maven-dependency-plugin 
   - src-openeuler/ocaml-calendar 
   - src-openeuler/ocaml-csv 
@@ -2365,6 +2365,7 @@ sigs:
   - src-openeuler/compat-openssl10 
   - src-openeuler/dietlibc 
   - src-openeuler/eclipse 
+  - src-openeuler/perl-CGI
   - src-openeuler/geronimo-jaxrpc 
   - src-openeuler/geronimo-saaj 
   - src-openeuler/hibernate-jpa 

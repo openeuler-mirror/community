@@ -4317,6 +4317,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: libipt
+  description: "Intel(R) Processor Trace Decoder Library"
+  protected_branches:
+  - master
+  type: private
 - name: libiptcdata
   description: ""
   protected_branches:
@@ -10447,11 +10452,6 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: shadow-utils
-  description: ""
-  protected_branches:
-  - master
-  type: public
 - name: shapelib
   description: ""
   protected_branches:
@@ -12162,6 +12162,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: perl-CGI
+  description: "Handle Common Gateway Interface requests and responses"
+  protected_branches:
+  - master
+  type: private
 - name: perl-IO-stringy
   description: "I/O on in-core objects for Perl"
   protected_branches:
