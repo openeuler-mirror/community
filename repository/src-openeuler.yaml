@@ -12246,275 +12246,344 @@ repositories:
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ioprocess
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-ansible-cluster-upgrade
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-ansible-hosted-engine-setup
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-ansible-infra
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-provider-ovn
   description: ""
   protected_branches:
   - master
+  type: public
 - name: cockpit-ovirt
   description: ""
   protected_branches:
   - master
+  type: public
 - name: engine-db-query
   description: ""
   protected_branches:
   - master
+  type: public
 - name: go-ovirt-engine-sdk4
   description: ""
   protected_branches:
   - master
+  type: public
 - name: imgbased
   description: ""
   protected_branches:
   - master
+  type: public
 - name: java-ovirt-engine-sdk4
   description: ""
   protected_branches:
   - master
+  type: public
 - name: mingw-spice-vdagent
   description: ""
   protected_branches:
   - master
+  type: public
 - name: mom
   description: ""
   protected_branches:
   - master
+  type: public
 - name: nsis-simple-service-plugin
   description: ""
   protected_branches:
   - master
+  type: public
 - name: otopi
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-ansible-cluster-upgrade
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-ansible-disaster-recovery
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-ansible-engine-setup
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-ansible-hosted-engine-setup
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-ansible-image-template
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-ansible-infra
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-ansible-manageiq
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-ansible-repositories
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-ansible-roles
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-ansible-shutdown-env
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-ansible-v2v-conversion-host
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-ansible-vm-infra
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-cockpit-sso
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-engine
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-engine-api-explorer
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-engine-appliance
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-engine-cli
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-engine-dwh
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-engine-extension-aaa-ldap
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-engine-extension-aaa-misc
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-engine-metrics
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-engine-nodejs
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-engine-nodejs-modules
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-engine-ui-extensions
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-engine-wildfly
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-engine-wildfly-overlay
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-engine-yarn
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-guest-agent
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-guest-agent-windows
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-guest-tools-iso
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-host
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-host-deploy
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-hosted-engine-ha
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-hosted-engine-setup
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-imageio-common
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-imageio-daemon
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-imageio-proxy
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-iso-uploader
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-lldp-labeler
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-log-collector
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-node-ng
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-node-ng-image-update
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-provider-ovn
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-release43
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-scheduler-proxy
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-setup-lib
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-vmconsole
   description: ""
   protected_branches:
   - master
+  type: public
 - name: ovirt-web-ui
   description: ""
   protected_branches:
   - master
+  type: public
 - name: python-ovirt-engine-sdk4
   description: ""
   protected_branches:
   - master
+  type: public
 - name: rubygem-ovirt-engine-sdk4
   description: ""
   protected_branches:
   - master
+  type: public
 - name: v2v-conversion-host
   description: ""
   protected_branches:
   - master
+  type: public
 - name: vcredist
   description: ""
   protected_branches:
   - master
+  type: public
 - name: vdsm
   description: ""
   protected_branches:
   - master
+  type: public
 - name: vdsm-jsonrpc-java
   description: ""
   protected_branches:
   - master
+  type: public
