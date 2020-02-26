@@ -1392,6 +1392,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: dyninst
+  description: "Tools for binary instrumentation, analysis, and modification"
+  protected_branches:
+  - master
+  type: public
 - name: e2fsprogs
   description: ""
   protected_branches:
