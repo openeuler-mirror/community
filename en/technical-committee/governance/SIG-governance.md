@@ -1,3 +1,5 @@
+**to be translated into English**
+
 # SIG角色和组织治理
 
 ​        该Charter内容遵循openEuler宪章 [README](README.md)中描述的约定，本文会根据需要进行更新，以满足openEuler SIG的需求。

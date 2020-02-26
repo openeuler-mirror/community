@@ -1,24 +1,30 @@
-# 技术委员会
+# Technical Committee
 
-openEuler技术委员会是openEuler社区的技术决策机构，负责社区技术决策和技术资源的协调。技术委员会的主要职责如下：
+The openEuler technical committee is the technical decision-making body of the openEuler community and is responsible for the coordination of technical decisions and technical resources in the community. The main responsibilities of the technical committee are:
 
-- 对社区技术路线、接口定义、架构设计、构建发布等进行指导和决策
-- 协调跨项目合作，对社区跨项目技术问题进行决策
-- 制定项目孵化、开发流程，支撑社区技术生态健康发展
-- 批准新项目加入社区，并帮助社区开发者对新项目进行孵化
-- 根据社区发展蓝图，调整社区现有项目，对不符合社区规划的项目，进行删除或者归档
-- 接受用户委员会的反馈（需求和问题），明确技术实施计划，牵引社区资源将其落地至项目
-- 建立社区认证标准和平台，为社区认证（OS商业发行版认证、硬件兼容性认证等）提供技术支撑
+- Guidance and decision on community technology route, interface definition, architecture design, build release, etc.
+
+- Coordinate cross-projects cooperation and make decisions on cross-project technical issues in the community
+
+- Formulate project incubation and development processes to support the healthy development of community technology ecology
+
+- Approve new projects to join the community and help community developers incubate new projects
+
+- Adjust existing projects in the community according to the community development blueprint, delete or archive projects that do not meet the community plan
+
+- Accept feedback (needs and questions) from user committees, clarify technical implementation plans, and draw community resources to bring them to the project
+
+- Establish community certification standards and platforms to provide technical support for community certification (OS commercial release certification, hardware compatibility certification, etc.)
 
 
 
-# 组织会议
+# Meeting
 
-- 公开的会议时间：北京时间，每周X 下午，XX点~XX点
+- Meeting schedule: to be updated
 
 
 
-# 成员
+# Members
 
 
 - 熊伟[[@myeuler](https://gitee.com/myeuler)]
@@ -27,13 +33,11 @@ openEuler技术委员会是openEuler社区的技术决策机构，负责社区�
 - 王勋[[@dream0819](https://gitee.com/dream0819)]
 - 郭寒军[[@hanjun-guo](https://gitee.com/hanjun-guo)]
 - 谢秀奇[[@xiexiuqi](https://gitee.com/xiexiuqi)]
-- zhanghailiang[[@zhanghailiang_lucky](https://gitee.com/zhanghailiang_lucky)]
+- zhanghailiang[[@zhanghai_lucky](https://gitee.com/zhanghailiang_lucky)]
 
 
 
-# 联系方式
+# Contact
 
-- [邮件列表](tc@openeuler.org)
-
-  
+- [Mail List](tc@openeuler.org)
 

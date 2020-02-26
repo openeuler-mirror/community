@@ -1,6 +1,4 @@
-**贡献指南文件夹下的内容尚不完善，请暂时访问[开发者贡献指南](https://openeuler.org/zh/developer.html)获取帮助。欢迎联系<community@openeuler.org>一起完善该文件夹下的内容**
-
-
+**The contenct in this folder is not finalized yet and please visit [How to contribute](https://openeuler.org/en/developer.html) to get help. And you are more than welcome to work with us together on updating tis folder. If you'd like to please visit <community@openeuler.org>.**
 
 该文档指导大家如何为openEuler社区做出贡献。欢迎阅读[待解决的问题]()并提出新的问题。
 

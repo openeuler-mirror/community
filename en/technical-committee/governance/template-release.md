@@ -1,3 +1,5 @@
+**to be translated into English**
+
 # SIG   交付件进入社区发行申请模板
 
 (还待补充或细化）
