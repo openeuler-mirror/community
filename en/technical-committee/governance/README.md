@@ -27,7 +27,7 @@ cd sig-YOURSIGNAME
 
 **2. Fill the information for the new SIG**
 
-Please refer to [Recommendations and Requirements](./ SIG-governance-requirements.md) to complete the application for the new SIG.
+Please refer to [Recommendations and Requirements](./SIG-governance-requirements.md) to complete the application for the new SIG.
 
 
 ```
