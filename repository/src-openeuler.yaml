@@ -1,5 +1,10 @@
 community: src-openeuler
 repositories:
+- name: aalib
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: aalto-xml
   description: ""
   protected_branches:
@@ -547,6 +552,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: biosdevname
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: bison
   description: ""
   protected_branches:
@@ -1317,6 +1327,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: dogtail
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: dom4j
   description: ""
   protected_branches:
@@ -1378,6 +1393,11 @@ repositories:
   - master
   type: public
 - name: dump
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: dvd+rw-tools
   description: ""
   protected_branches:
   - master
@@ -1748,6 +1768,11 @@ repositories:
   - master
   type: private
 - name: folks
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: folks-telepathy
   description: ""
   protected_branches:
   - master
@@ -3123,6 +3148,11 @@ repositories:
   - master
   type: public
 - name: irrlicht
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: irrXML
   description: ""
   protected_branches:
   - master
@@ -4662,6 +4692,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: libpsm2
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: libpwquality
   description: ""
   protected_branches:
@@ -5848,6 +5883,11 @@ repositories:
   - master
   type: private
 - name: mc
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: mcelog
   description: ""
   protected_branches:
   - master
@@ -8212,6 +8252,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: perl-XML-TokeParser
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: perl-XML-Writer
   description: ""
   protected_branches:
@@ -8862,6 +8907,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: python-contextlib2
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: python-coverage
   description: ""
   protected_branches:
@@ -8972,6 +9022,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-execnet
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: python-extras
   description: ""
   protected_branches:
@@ -9372,6 +9427,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-path
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: python-pbr
   description: ""
   protected_branches:
@@ -9523,6 +9583,11 @@ repositories:
   - master
   type: private
 - name: python-pytest-mock
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: python-pytest-shutil
   description: ""
   protected_branches:
   - master
@@ -10107,6 +10172,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: rear
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: recode
   description: ""
   protected_branches:
@@ -10787,6 +10857,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: syslinux
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: syslinux-tftpboot
   description: ""
   protected_branches:
@@ -11703,6 +11778,16 @@ repositories:
   - master
   type: private
 - name: xmvn
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: xmvn-connector-gradle
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: xmvn-tools
   description: ""
   protected_branches:
   - master
