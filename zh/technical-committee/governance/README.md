@@ -41,7 +41,7 @@ cd sig-YOURSIGNAME
 
 **2、完成新SIG章程的填写**
 
-为便于更好的理解和填写[SIG申请模板](/../../sig/sig-template_cn.md)里的内容，建议先阅读[建议书和要求](./SIG-governance-requirements.md)，完成新SIG的申请填写。
+为便于更好的理解和填写[SIG申请模板](./../../../sig/sig-template/sig-template_cn.md)里的内容，建议先阅读[建议书和要求](./SIG-governance-requirements.md)，完成新SIG的申请填写。
 
 ```
 mv sig-template_cn.md sig-YOURSIGNAME_cn.md
