@@ -38,6 +38,10 @@ THe common used commands are below. To find more, please visit [https://kiwiirc.
 
 ### Meeting Archives
 
+Meeting minutes on Feb 25, 2020: https://mailweb.openeuler.org/hyperkitty/list/community@openeuler.org/thread/4LOWQMRP3CYUFIF2E2PT526S3VLA2XX5/
+
+Meeting minutes on Feb 18, 2020: http://meetings.openeuler.org/openeuler-meeting/2020/community/2020-02-18-02.00.html
+
 Meeting minutes on Feb 11, 2020: http://meetings.openeuler.org/openeuler-meeting/2020/community/2020-02-11-02.00.html
 
 Meeting minutes on Fed 4, 2020: http://meetings.openeuler.org/openeuler-meeting/2020/community/2020-02-04-02.00.html
