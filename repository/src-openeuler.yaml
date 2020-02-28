@@ -1797,6 +1797,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: fonts-rpm-macros
+  description: "help font packages to produce clean,consistent and sane packages"
+  protected_branches:
+  - master
+  type: private
 - name: fop
   description: ""
   protected_branches:
