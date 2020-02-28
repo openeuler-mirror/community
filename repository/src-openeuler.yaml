@@ -6162,6 +6162,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: mysql
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: nafees-web-naskh-fonts
   description: ""
   protected_branches:
