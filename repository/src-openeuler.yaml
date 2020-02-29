@@ -1411,7 +1411,7 @@ repositories:
   description: "Tools for binary instrumentation, analysis, and modification"
   protected_branches:
   - master
-  type: public
+  type: private
 - name: e2fsprogs
   description: ""
   protected_branches:
@@ -7252,6 +7252,16 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: perl-Digest-SHA3
+  description: "A complete implementation of NIST SHA-3 cryptographic hash function"
+  protected_branches:
+  - master
+  type: private
+- name: perl-Email-Date-Format
+  description: "Produce RFC 2822 date strings"
+  protected_branches:
+  - master
+  type: private
 - name: perl-Encode
   description: ""
   protected_branches:
@@ -7702,6 +7712,16 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: perl-MIME-Lite
+  description: "MIME::Lite - low-calorie MIME generator"
+  protected_branches:
+  - master
+  type: private
+- name: perl-MIME-Types
+  description: "MIME::Types - Definition of MIME types"
+  protected_branches:
+  - master
+  type: private
 - name: perl-Module-Build
   description: ""
   protected_branches:
@@ -8812,6 +8832,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-alsa
+  description: "Accessing the ALSA API from Python"
+  protected_branches:
+  - master
+  type: private
 - name: python-aniso8601
   description: ""
   protected_branches:
@@ -9072,6 +9097,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-evdev
+  description: "Provides bindings to the generic input event interface"
+  protected_branches:
+  - master
+  type: private
 - name: python-execnet
   description: ""
   protected_branches:
@@ -11269,6 +11299,11 @@ repositories:
   type: private
 - name: ttmkfdir
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: tuna
+  description: "Application tuning GUI and command line utility"
   protected_branches:
   - master
   type: private
