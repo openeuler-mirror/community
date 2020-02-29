@@ -5987,6 +5987,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: mingw-gcc
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: mingw-srvany
   description: ""
   protected_branches:
