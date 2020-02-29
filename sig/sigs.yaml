@@ -34,12 +34,8 @@ sigs:
   - src-openeuler/nss-altfiles
   - src-openeuler/fontforge
   - src-openeuler/GraphicsMagick
-  - src-openeuler/mingw-gcc
   - src-openeuler/iio-sensor-proxy
   - src-openeuler/pam_krb5
-  - src-openeuler/gssntlmssp
-  - src-openeuler/perl-srpm-macros
-  - src-openeuler/perl-Test-Exception
   - src-openeuler/texlive
   - src-openeuler/wavpack
   - src-openeuler/tpm-tools
@@ -602,7 +598,6 @@ sigs:
   - src-openeuler/libXres
   - src-openeuler/libXtst
   - src-openeuler/python-coverage
-  - src-openeuler/perl-Sub-Uplevel
   - src-openeuler/rpmrebuild
   - src-openeuler/GeoIP
   - src-openeuler/libXrandr
@@ -2354,7 +2349,12 @@ sigs:
   - src-openeuler/perl-Digest-SHA1
   - src-openeuler/passivetex
   - src-openeuler/opencryptoki
+  - src-openeuler/perl-Sub-Uplevel
+  - src-openeuler/mingw-gcc
   - src-openeuler/libpinyin
+  - src-openeuler/perl-srpm-macros
+  - src-openeuler/perl-Test-Exception
+  - src-openeuler/gssntlmssp
   - src-openeuler/libipt
   - src-openeuler/maven-dependency-plugin 
   - src-openeuler/ocaml-calendar
