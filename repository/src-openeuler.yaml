@@ -7322,6 +7322,36 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: perl-ExtUtils-Config
+  description: "A wrapper for perl's configuration"
+  protected_branches:
+  - master
+  type: private
+- name: perl-ExtUtils-Helpers
+  description: "Various portability utilities for module builders"
+  protected_branches:
+  - master
+  type: private
+- name: perl-ExtUtils-InstallPaths
+  description: "Build.PL install path logic made easy"
+  protected_branches:
+  - master
+  type: private
+- name: perl-Module-Build-Tiny
+  description: "perl-Module-Build-Tiny"
+  protected_branches:
+  - master
+  type: private
+- name: perl-Readonly
+  description: "Facility for creating read-only scalars, arrays, hashes"
+  protected_branches:
+  - master
+  type: private
+- name: perl-Test-LeakTrace
+  description: "Trace memory leaks"
+  protected_branches:
+  - master
+  type: private
 - name: perl-Fedora-VSP
   description: ""
   protected_branches:
@@ -12689,6 +12719,11 @@ repositories:
   type: public
 - name: vdsm-jsonrpc-java
   description: ""
+  protected_branches:
+  - master
+  type: public
+- name: tpm2-abrmd-selinux
+  description: "SELinux policies for tpm2-abrmd"
   protected_branches:
   - master
   type: public
