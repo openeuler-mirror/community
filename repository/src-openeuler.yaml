@@ -2592,6 +2592,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: gssntlmssp
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: gssproxy
   description: ""
   protected_branches:
@@ -7992,6 +7997,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: perl-srpm-macros
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: perl-Storable
   description: ""
   protected_branches:
@@ -8083,6 +8093,11 @@ repositories:
   - master
   type: private
 - name: perl-Test-Deep
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: perl-Test-Exception
   description: ""
   protected_branches:
   - master
