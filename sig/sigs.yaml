@@ -2089,6 +2089,7 @@ sigs:
   - src-openeuler/libomxil-bellagio
   - src-openeuler/libsass
   - src-openeuler/lutok
+  - src-openeuler/tpm2-abrmd-selinux
 
 - name: Container
   repositories:
@@ -2408,6 +2409,12 @@ sigs:
   - src-openeuler/perl-YAML-LibYAML 
   - src-openeuler/perl-Test-Inter 
   - src-openeuler/perl-YAML-LibYAML 
+  - src-openeuler/perl-ExtUtils-Config
+  - src-openeuler/perl-ExtUtils-Helpers
+  - src-openeuler/perl-ExtUtils-InstallPaths
+  - src-openeuler/perl-Module-Build-Tiny
+  - src-openeuler/perl-Readonly
+  - src-openeuler/perl-Test-LeakTrace
   - src-openeuler/properties-maven-plugin 
   - src-openeuler/python-Automat
   - src-openeuler/python-breathe
