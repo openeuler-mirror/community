@@ -11342,6 +11342,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: uchardet
+  description: "An encoding detector library ported from Mozilla"
+  protected_branches:
+  - master
+  type: private
 - name: ucs-miscfixed-fonts
   description: ""
   protected_branches:
@@ -12282,6 +12287,16 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-ruamel-yaml
+  description: "YAML 1.2 loader/dumper package for Python"
+  protected_branches:
+  - master
+  type: private
+- name: python-ruamel-yaml-clib
+  description: "C version of reader, parser and emitter for ruamel.yaml derived from libyaml"
+  protected_branches:
+  - master
+  type: private
 - name: python-suds
   description: "A python SOAP client"
   protected_branches:
