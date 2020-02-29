@@ -2593,7 +2593,7 @@ repositories:
   - master
   type: private
 - name: gssntlmssp
-  description: ""
+  description: "A GSSAPI Mechanism that implements NTLMSSP"
   protected_branches:
   - master
   type: private
@@ -7998,7 +7998,7 @@ repositories:
   - master
   type: private
 - name: perl-srpm-macros
-  description: ""
+  description: "These RPM macros are used for building Perl source packages from source repositories."
   protected_branches:
   - master
   type: private
@@ -8098,7 +8098,7 @@ repositories:
   - master
   type: private
 - name: perl-Test-Exception
-  description: ""
+  description: "This module provides a few convenience methods for testing exception based code."
   protected_branches:
   - master
   type: private
