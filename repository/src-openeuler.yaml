@@ -7847,6 +7847,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: perl-Net-LibIDN2
+  description: "Perl bindings for GNU Libidn2"
+  protected_branches:
+  - master
+  type: private
 - name: perl-Net-Server
   description: ""
   protected_branches:
