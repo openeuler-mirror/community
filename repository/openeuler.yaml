@@ -126,5 +126,10 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: security-committee
+  description: "the Repository of Security Committee"
+  protected_branches:
+  - master
+  type: public
 
 
