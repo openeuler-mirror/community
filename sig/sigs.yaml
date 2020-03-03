@@ -2088,6 +2088,7 @@ sigs:
   - src-openeuler/libomxil-bellagio
   - src-openeuler/libsass
   - src-openeuler/lutok
+  - src-openeuler/tpm2-abrmd-selinux
 
 - name: Container
   repositories:
@@ -2342,12 +2343,21 @@ sigs:
   - openeuler/iSulad-img
 - name: Private
   repositories:
+  - src-openeuler/uchardet
+  - src-openeuler/python-ruamel-yaml
+  - src-openeuler/python-ruamel-yaml-clib
+  - src-openeuler/fonts-rpm-macros
   - src-openeuler/python-ptyprocess
   - src-openeuler/reiserfs-utils
   - src-openeuler/perl-Digest-SHA1
   - src-openeuler/passivetex
   - src-openeuler/opencryptoki
+  - src-openeuler/perl-Sub-Uplevel
+  - src-openeuler/mingw-gcc
   - src-openeuler/libpinyin
+  - src-openeuler/perl-srpm-macros
+  - src-openeuler/perl-Test-Exception
+  - src-openeuler/gssntlmssp
   - src-openeuler/libipt
   - src-openeuler/maven-dependency-plugin 
   - src-openeuler/ocaml-calendar
@@ -2365,7 +2375,8 @@ sigs:
   - src-openeuler/mcelog
   - src-openeuler/biosdevname
   - src-openeuler/rear
-  - src-openeuler/dvd+rw-tools
+  - src-openeuler/mysql
+  - src-openeuler/maven-surefire
   - src-openeuler/syslinux
   - src-openeuler/libpsm2
   - src-openeuler/ocaml-csv 
@@ -2405,6 +2416,12 @@ sigs:
   - src-openeuler/perl-YAML-LibYAML 
   - src-openeuler/perl-Test-Inter 
   - src-openeuler/perl-YAML-LibYAML 
+  - src-openeuler/perl-ExtUtils-Config
+  - src-openeuler/perl-ExtUtils-Helpers
+  - src-openeuler/perl-ExtUtils-InstallPaths
+  - src-openeuler/perl-Module-Build-Tiny
+  - src-openeuler/perl-Readonly
+  - src-openeuler/perl-Test-LeakTrace
   - src-openeuler/properties-maven-plugin 
   - src-openeuler/python-Automat
   - src-openeuler/python-breathe
@@ -3298,6 +3315,8 @@ sigs:
   - src-openeuler/perl-Devel-CheckLib
   - src-openeuler/perl-Devel-Symdump
   - src-openeuler/perl-Digest-HMAC
+  - src-openeuler/perl-Digest-SHA3
+  - src-openeuler/perl-Email-Date-Format
   - src-openeuler/perl-Encode-Detect
   - src-openeuler/perl-ExtUtils-CBuilder
   - src-openeuler/perl-ExtUtils-MakeMaker
@@ -3334,6 +3353,8 @@ sigs:
   - src-openeuler/perl-Mail-Sender
   - src-openeuler/perl-Mail-SPF
   - src-openeuler/perl-MailTools
+  - src-openeuler/perl-MIME-Lite
+  - src-openeuler/perl-MIME-Types
   - src-openeuler/perl-Module-Build
   - src-openeuler/perl-Module-Runtime
   - src-openeuler/perl-MRO-Compat
@@ -3342,6 +3363,7 @@ sigs:
   - src-openeuler/perl-Net-DNS
   - src-openeuler/perl-Net-HTTP
   - src-openeuler/perl-Net-LibIDN
+  - src-openeuler/perl-Net-LibIDN2
   - src-openeuler/perl-Net-Server
   - src-openeuler/perl-Net-SMTP-SSL
   - src-openeuler/perl-NTLM
@@ -3446,6 +3468,7 @@ sigs:
   - src-openeuler/PyQt4
   - src-openeuler/pytest
   - src-openeuler/python2-typing
+  - src-openeuler/python-alsa
   - src-openeuler/python-aniso8601
   - src-openeuler/python-argcomplete
   - src-openeuler/python-atomicwrites
@@ -3468,6 +3491,7 @@ sigs:
   - src-openeuler/python-docutils
   - src-openeuler/python-enchant
   - src-openeuler/python-entrypoints
+  - src-openeuler/python-evdev
   - src-openeuler/python-extras
   - src-openeuler/python-fixtures
   - src-openeuler/python-flask
@@ -3709,6 +3733,7 @@ sigs:
   - src-openeuler/tslib
   - src-openeuler/ttembed
   - src-openeuler/ttmkfdir
+  - src-openeuler/tuna
   - src-openeuler/twolame
   - src-openeuler/u2f-hidraw-policy
   - src-openeuler/ubu-keyring

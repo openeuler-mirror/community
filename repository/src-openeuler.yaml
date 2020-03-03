@@ -1397,11 +1397,6 @@ repositories:
   protected_branches:
   - master
   type: private
-- name: dvd+rw-tools
-  description: ""
-  protected_branches:
-  - master
-  type: private
 - name: dvdplusrw-tools
   description: ""
   protected_branches:
@@ -1416,7 +1411,7 @@ repositories:
   description: "Tools for binary instrumentation, analysis, and modification"
   protected_branches:
   - master
-  type: public
+  type: private
 - name: e2fsprogs
   description: ""
   protected_branches:
@@ -1802,6 +1797,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: fonts-rpm-macros
+  description: "help font packages to produce clean,consistent and sane packages"
+  protected_branches:
+  - master
+  type: private
 - name: fop
   description: ""
   protected_branches:
@@ -2589,6 +2589,11 @@ repositories:
   type: private
 - name: gssdp
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: gssntlmssp
+  description: "A GSSAPI Mechanism that implements NTLMSSP"
   protected_branches:
   - master
   type: private
@@ -5877,6 +5882,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: maven-surefire
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: maven-verifier
   description: ""
   protected_branches:
@@ -5978,6 +5988,11 @@ repositories:
   - master
   type: private
 - name: mingw-filesystem
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: mingw-gcc
   description: ""
   protected_branches:
   - master
@@ -6163,6 +6178,11 @@ repositories:
   - master
   type: private
 - name: mypaint-brushes
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: mysql
   description: ""
   protected_branches:
   - master
@@ -7242,6 +7262,16 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: perl-Digest-SHA3
+  description: "A complete implementation of NIST SHA-3 cryptographic hash function"
+  protected_branches:
+  - master
+  type: private
+- name: perl-Email-Date-Format
+  description: "Produce RFC 2822 date strings"
+  protected_branches:
+  - master
+  type: private
 - name: perl-Encode
   description: ""
   protected_branches:
@@ -7312,6 +7342,36 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: perl-ExtUtils-Config
+  description: "A wrapper for perl's configuration"
+  protected_branches:
+  - master
+  type: private
+- name: perl-ExtUtils-Helpers
+  description: "Various portability utilities for module builders"
+  protected_branches:
+  - master
+  type: private
+- name: perl-ExtUtils-InstallPaths
+  description: "Build.PL install path logic made easy"
+  protected_branches:
+  - master
+  type: private
+- name: perl-Module-Build-Tiny
+  description: "perl-Module-Build-Tiny"
+  protected_branches:
+  - master
+  type: private
+- name: perl-Readonly
+  description: "Facility for creating read-only scalars, arrays, hashes"
+  protected_branches:
+  - master
+  type: private
+- name: perl-Test-LeakTrace
+  description: "Trace memory leaks"
+  protected_branches:
+  - master
+  type: private
 - name: perl-Fedora-VSP
   description: ""
   protected_branches:
@@ -7662,6 +7722,16 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: perl-MIME-Lite
+  description: "MIME::Lite - low-calorie MIME generator"
+  protected_branches:
+  - master
+  type: private
+- name: perl-MIME-Types
+  description: "MIME::Types - Definition of MIME types"
+  protected_branches:
+  - master
+  type: private
 - name: perl-Module-Build
   description: ""
   protected_branches:
@@ -7774,6 +7844,11 @@ repositories:
   type: private
 - name: perl-Net-LibIDN
   description: "Perl bindings for GNU Libidn"
+  protected_branches:
+  - master
+  type: private
+- name: perl-Net-LibIDN2
+  description: "Perl bindings for GNU Libidn2"
   protected_branches:
   - master
   type: private
@@ -7927,6 +8002,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: perl-srpm-macros
+  description: "These RPM macros are used for building Perl source packages from source repositories."
+  protected_branches:
+  - master
+  type: private
 - name: perl-Storable
   description: ""
   protected_branches:
@@ -7967,6 +8047,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: perl-Sub-Uplevel
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: perl-Switch
   description: ""
   protected_branches:
@@ -8014,6 +8099,11 @@ repositories:
   type: private
 - name: perl-Test-Deep
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: perl-Test-Exception
+  description: "This module provides a few convenience methods for testing exception based code."
   protected_branches:
   - master
   type: private
@@ -8767,6 +8857,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-alsa
+  description: "Accessing the ALSA API from Python"
+  protected_branches:
+  - master
+  type: private
 - name: python-aniso8601
   description: ""
   protected_branches:
@@ -9027,6 +9122,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-evdev
+  description: "Provides bindings to the generic input event interface"
+  protected_branches:
+  - master
+  type: private
 - name: python-execnet
   description: ""
   protected_branches:
@@ -11227,6 +11327,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: tuna
+  description: "Application tuning GUI and command line utility"
+  protected_branches:
+  - master
+  type: private
 - name: tuned
   description: ""
   protected_branches:
@@ -11254,6 +11359,11 @@ repositories:
   type: public
 - name: ubu-keyring
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: uchardet
+  description: "An encoding detector library ported from Mozilla"
   protected_branches:
   - master
   type: private
@@ -12197,6 +12307,16 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-ruamel-yaml
+  description: "YAML 1.2 loader/dumper package for Python"
+  protected_branches:
+  - master
+  type: private
+- name: python-ruamel-yaml-clib
+  description: "C version of reader, parser and emitter for ruamel.yaml derived from libyaml"
+  protected_branches:
+  - master
+  type: private
 - name: python-suds
   description: "A python SOAP client"
   protected_branches:
@@ -12679,6 +12799,11 @@ repositories:
   type: public
 - name: dpdk
   description: ""
+  protected_branches:
+  - master
+  type: public
+- name: tpm2-abrmd-selinux
+  description: "SELinux policies for tpm2-abrmd"
   protected_branches:
   - master
   type: public
