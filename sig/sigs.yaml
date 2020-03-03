@@ -2343,6 +2343,35 @@ sigs:
   - openeuler/iSulad-img
 - name: Private
   repositories:
+  - src-openeuler/zinc
+  - src-openeuler/python-service-identity
+  - src-openeuler/python-appdirs
+  - src-openeuler/pmix
+  - src-openeuler/modello
+  - src-openeuler/maven-shade-plugin
+  - src-openeuler/maven-plugins-pom
+  - src-openeuler/maven-invoker-plugin
+  - src-openeuler/maven-install-plugin
+  - src-openeuler/logback
+  - src-openeuler/js-jquery
+  - src-openeuler/jhighlight
+  - src-openeuler/javacc-maven-plugin
+  - src-openeuler/jarjar
+  - src-openeuler/jackson-core
+  - src-openeuler/http-builder
+  - src-openeuler/google-oauth-java-client
+  - src-openeuler/google-http-java-client
+  - src-openeuler/golang-gopkg-yaml
+  - src-openeuler/golang-googlecode-net
+  - src-openeuler/golang-github-vishvananda-netns
+  - src-openeuler/gmetrics
+  - src-openeuler/findbugs
+  - src-openeuler/codenarc
+  - src-openeuler/checkstyle
+  - src-openeuler/apache-commons-vfs
+  - src-openeuler/apache-commons-beanutils
+  - src-openeuler/antlr4
+  - src-openeuler/ant-contrib
   - src-openeuler/uchardet
   - src-openeuler/python-ruamel-yaml
   - src-openeuler/python-ruamel-yaml-clib
