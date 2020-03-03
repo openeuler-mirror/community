@@ -137,6 +137,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: ant-contrib
+  description: "Collection of tasks for Ant."
+  protected_branches:
+  - master
+  type: private
 - name: anthy
   description: ""
   protected_branches:
@@ -152,8 +157,18 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: antlr4
+  description: "Parser generator."
+  protected_branches:
+  - master
+  type: private
 - name: aopalliance
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: apache-commons-beanutils
+  description: "Utility methods for accessing and modifying the properties of JavaBeans."
   protected_branches:
   - master
   type: private
@@ -224,6 +239,11 @@ repositories:
   type: private
 - name: apache-commons-pool
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: apache-commons-vfs
+  description: "Commons Virtual file systemCommons Virtual file system.."
   protected_branches:
   - master
   type: private
@@ -762,6 +782,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: checkstyle
+  description: "A tool for checking Java source for adherence to a set of rules."
+  protected_branches:
+  - master
+  type: private
 - name: cheese
   description: ""
   protected_branches:
@@ -902,6 +927,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: codenarc
+  description: "Groovy library that provides static analysis features for Groovy code."
+  protected_branches:
+  - master
+  type: private
 - name: cogl
   description: ""
   protected_branches:
@@ -1697,6 +1727,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: findbugs
+  description: "A program which uses static analysis to look for bugs in java code."
+  protected_branches:
+  - master
+  type: private
 - name: findutils
   description: ""
   protected_branches:
@@ -2137,6 +2172,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: gmetrics
+  description: "Groovy library that provides reports and metrics for Groovy code."
+  protected_branches:
+  - master
+  type: private
 - name: gmime30
   description: ""
   protected_branches:
@@ -2442,8 +2482,23 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: golang-github-vishvananda-netns
+  description: "Simple network namespace handing for go."
+  protected_branches:
+  - master
+  type: private
 - name: golang-googlecode-goprotobuf
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: golang-googlecode-net
+  description: "Unit tests for golang-googlecode-net package."
+  protected_branches:
+  - master
+  type: private
+- name: golang-gopkg-yaml
+  description: "Yaml support for the Go language."
   protected_branches:
   - master
   type: private
@@ -2462,6 +2517,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: google-http-java-client
+  description: "Google HTTP Client Library for Java."
+  protected_branches:
+  - master
+  type: private
 - name: google-noto-cjk-fonts
   description: ""
   protected_branches:
@@ -2472,6 +2532,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: google-oauth-java-client
+  description: "Google OAuth Client Library for Java."
+  protected_branches:
+  - master
+  type: private
 - name: google-roboto-slab-fonts
   description: ""
   protected_branches:
@@ -2862,6 +2927,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: http-builder
+  description: "A builder-style HTTP client API."
+  protected_branches:
+  - master
+  type: private
 - name: httpcomponents-client
   description: ""
   protected_branches:
@@ -3187,6 +3257,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: jackson-core
+  description: "Core part of Jackson that defines Streaming API as well as basic sharded abstractions."
+  protected_branches:
+  - master
+  type: private
 - name: lxcfs-tools
   description: ""
   protected_branches:
@@ -3287,6 +3362,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: jarjar
+  description: "Jar jar links is a utility that makes it easy to repackage java libraries."
+  protected_branches:
+  - master
+  type: private
 - name: jatl
   description: ""
   protected_branches:
@@ -3309,6 +3389,11 @@ repositories:
   type: private
 - name: java-cup
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: javacc-maven-plugin
+  description: "Maven Plugin for processing JavaCC grammar files."
   protected_branches:
   - master
   type: private
@@ -3467,6 +3552,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: jhighlight
+  description: "JHighlight is an embeddable pure Java syntax highlighting library."
+  protected_branches:
+  - master
+  type: private
 - name: jimtcl
   description: ""
   protected_branches:
@@ -3499,6 +3589,11 @@ repositories:
   type: public
 - name: jq
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: js-jquery
+  description: "jQuery is a fast,small,and feature-rich Javascript library."
   protected_branches:
   - master
   type: private
@@ -5397,6 +5492,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: logback
+  description: "Logback is intended as a successor to the popular log4j project."
+  protected_branches:
+  - master
+  type: private
 - name: logrotate
   description: ""
   protected_branches:
@@ -5792,8 +5892,18 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: maven-install-plugin
+  description: "Copies the project artifacts to the user's local repository."
+  protected_branches:
+  - master
+  type: private
 - name: maven-invoker
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: maven-invoker-plugin
+  description: "Used to run a set of Maven projects."
   protected_branches:
   - master
   type: private
@@ -5832,6 +5942,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: maven-plugins-pom
+  description: "This package provides Maven Plugins parent POM used by different Apache Maven plugins."
+  protected_branches:
+  - master
+  type: private
 - name: maven-remote-resources-plugin
   description: ""
   protected_branches:
@@ -5859,6 +5974,11 @@ repositories:
   type: private
 - name: maven-scm
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: maven-shade-plugin
+  description: "This plugin provides the capability to package the artifact in an uber-jar."
   protected_branches:
   - master
   type: private
@@ -6054,6 +6174,11 @@ repositories:
   type: public
 - name: mod_security
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: modello
+  description: "Modello is a Data Model toolkit in use by the Apache Maven Project."
   protected_branches:
   - master
   type: private
@@ -8562,6 +8687,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: pmix
+  description: "Process management for exascale environments."
+  protected_branches:
+  - master
+  type: private
 - name: pngquant
   description: ""
   protected_branches:
@@ -8834,6 +8964,11 @@ repositories:
   type: public
 - name: pytest
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: python-appdirs
+  description: "A small Python module for determining appropriate platform-specific dirs."
   protected_branches:
   - master
   type: private
@@ -9794,6 +9929,11 @@ repositories:
   type: private
 - name: python-semantic_version
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: python-service-identity
+  description: "Service Identity Verification for pyOpenSSL Use this package if you don't want to be MITMed."
   protected_branches:
   - master
   type: private
@@ -12802,3 +12942,8 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: zinc
+  description: "A stand-alone version of sbt's incremental compiler."
+  protected_branches:
+  - master
+  type: private
