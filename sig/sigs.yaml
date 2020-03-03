@@ -545,6 +545,7 @@ sigs:
   - src-openeuler/libieee1284
 - name: Networking
   repositories:
+  - src-openeuler/initscripts
   - src-openeuler/libmediaart
   - src-openeuler/giflib
   - src-openeuler/xorg-x11-font-utils
@@ -2059,7 +2060,6 @@ sigs:
   - src-openeuler/gzip
   - src-openeuler/mcpp
   - src-openeuler/ostree
-  - src-openeuler/initscripts
   - src-openeuler/perl-File-Fetch
   - src-openeuler/python-productmd
   - src-openeuler/bzip2
