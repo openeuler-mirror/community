@@ -10,7 +10,7 @@
 
 ### 该SIG管理的repository及描述
 	- 项目名称：dpdk
-	- 交付件形式：tar包
+	- 交付件形式：rpm包
 	- repository1名称：https://gitee.com/speech_white/plinth_dpdk.git
 
 ### 跨领域和面向外部的流程
