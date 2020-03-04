@@ -2343,6 +2343,15 @@ sigs:
   - openeuler/iSulad-img
 - name: Private
   repositories:
+  - src-openeuler/galera
+  - src-openeuler/libisoburn
+  - src-openeuler/openmotif
+  - src-openeuler/pv
+  - src-openeuler/python-alsa
+  - src-openeuler/python-cherrypy
+  - src-openeuler/python-networkx
+  - src-openeuler/python-pecan
+  - src-openeuler/resource-agents
   - src-openeuler/zinc
   - src-openeuler/python-service-identity
   - src-openeuler/python-appdirs
