@@ -25,63 +25,25 @@ Note: The Charter of this SIG follows the convention described in the openEuler 
   - Integration of big data and artificial intelligence capabilities in open euler, supporting new chips and softwares in open euler
 
 - Which SIGs in openEuler to coorperate with
-  - Some tool may have some dependency packages, and in addition, they may have dependencies on kernel subsystems during new hardware support and performance optimization.
-
-### Deliverables
-- Source and tar
+  - Some tool may have some dependency packages or libs, and in addition, they may have dependencies on kernel subsystems during new hardware support and performance optimization.
  
 ### Repositories and description managed by this SIG
 
-- project name:
+- project name: to be determined
+  - data collection
   - data store, cache, query
-    - hdfs
-    - kafka
-    - hbase
-    - hive
-    - pular
-    - druid
+  - visualization
   - framework and library for data analysis
-    - spark
-    - flink
-    - mapreduce
-    - beam
-    - pandas
-    - numpy
   - model training and predicting
-    - tensorflow
-    - caffe
-    - scikit-learn
-    - pytorch
-    - libsvm
-    - mkl
-    - neon
-    - dlib
-    - daal
   - develop environment
-    - jupyter
-    - zeppelin
   - resource management
-    - kubernetes
-    - mesos
-    - yarn
   - to be continued
-
-### Cross-domain and external-oriented processes
-
-Cross-domain and externally-oriented processes and actions defined and implemented by this SIG:
-
-- Non-Internal Process Checklist
-
-- The organization guidance plan for the entire openEulerSIG owned by this SIG, etc.
-
 
 ## Basic Information
 
 ### Project Introduction
-    https: /gitee.com/openeuler/community/sig/sig-xxxx/
+    https: /gitee.com/openeuler/community/sig/sig-ai-bigdata/
 
-***Tips***: After the SIG is successfully created, https: /gitee.com/openeuler/community/sig/sig-xxxx/ management will be managed by the Maintainer, and the project team can enrich their project introduction, including but not limited to the following content.
-```
 ### Maintainers
   - sinever
   - ZZZHB
