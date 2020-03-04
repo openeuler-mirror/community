@@ -1927,6 +1927,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: galera
+  description: "Synchronous multi-master wsrep provider (replication engine)"
+  protected_branches:
+  - master
+  type: private
 - name: game-music-emu
   description: ""
   protected_branches:
@@ -4467,6 +4472,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: libisoburn
+  description: "Library to enable creation and expansion of ISO-9660 filesystems"
+  protected_branches:
+  - master
+  type: private
 - name: libisofs
   description: ""
   protected_branches:
@@ -6832,6 +6842,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: openmotif
+  description: "Open Motif runtime libraries and executables"
+  protected_branches:
+  - master
+  type: private
 - name: opensc
   description: ""
   protected_branches:
@@ -8882,6 +8897,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: pv
+  description: "A tool for monitoringthe progress of data through a pipeline"
+  protected_branches:
+  - master
+  type: private
 - name: pyatspi
   description: ""
   protected_branches:
@@ -8964,6 +8984,11 @@ repositories:
   type: public
 - name: pytest
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: python-alsa
+  description: "python binding for the ALSA library"
   protected_branches:
   - master
   type: private
@@ -9109,6 +9134,11 @@ repositories:
   type: public
 - name: python-cheetah
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: python-cherrypy
+  description: "A python-based framework for web application development"
   protected_branches:
   - master
   type: private
@@ -9607,6 +9637,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: python-networkx
+  description: "python package for the study of complex network"
+  protected_branches:
+  - master
+  type: private
 - name: python-nose
   description: ""
   protected_branches:
@@ -9674,6 +9709,11 @@ repositories:
   type: private
 - name: python-pbr
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: python-pecan
+  description: "A WSGI object-dispatching web framework"
   protected_branches:
   - master
   type: private
@@ -10464,6 +10504,11 @@ repositories:
   type: private
 - name: repo
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: resource-agents
+  description: "Open Source HA Reusable Cluster Resource Scripts"
   protected_branches:
   - master
   type: private
