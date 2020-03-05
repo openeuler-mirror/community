@@ -297,6 +297,16 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: armadillo
+  description: "Fast C++ matrix library with interfaces to LAPACK and ATLAS."
+  protected_branches:
+  - master
+  type: private
+- name: arpack
+  description: "solve large scale eigenvalue problems."
+  protected_branches:
+  - master
+  type: private
 - name: arptables
   description: ""
   protected_branches:
@@ -312,6 +322,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: asio
+  description: "A cross-platform C++ library for network and low-level I/O programming."
+  protected_branches:
+  - master
+  type: private
 - name: aspell
   description: ""
   protected_branches:
@@ -592,6 +607,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: blosc
+  description: "High performance compressor optimized for binary data."
+  protected_branches:
+  - master
+  type: private
 - name: bluez
   description: ""
   protected_branches:
@@ -762,6 +782,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: cfitsio
+  description: "Library for manipulating FITS data files."
+  protected_branches:
+  - master
+  type: private
 - name: cgdcbxd
   description: ""
   protected_branches:
@@ -1882,6 +1907,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: freexl
+  description: "Library to extract data from within an Excel spreadsheet."
+  protected_branches:
+  - master
+  type: private
 - name: frei0r-plugins
   description: ""
   protected_branches:
@@ -1987,6 +2017,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: gdal
+  description: "GDAL/OGR - a translator library for raster and vector geospatial data formats."
+  protected_branches:
+  - master
+  type: private
 - name: gdb
   description: ""
   protected_branches:
@@ -2047,6 +2082,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: geos
+  description: "GEOS is a C++ port of the Java Topology Suite."
+  protected_branches:
+  - master
+  type: private
 - name: geronimo-annotation
   description: ""
   protected_branches:
@@ -3227,6 +3267,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: ipython
+  description: "An interactive computing environment for Python."
+  protected_branches:
+  - master
+  type: private
 - name: irqbalance
   description: ""
   protected_branches:
@@ -4082,6 +4127,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: libdap
+  description: "The C++ DAP2 library from OPeNDAP."
+  protected_branches:
+  - master
+  type: private
 - name: libdatrie
   description: ""
   protected_branches:
@@ -4267,6 +4317,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: libgeotiff
+  description: "GeoTIFF format library."
+  protected_branches:
+  - master
+  type: private
 - name: libgexiv2
   description: ""
   protected_branches:
@@ -4337,6 +4392,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: libgta
+  description: "Library that implements the Generic Tagged Arrays file format."
+  protected_branches:
+  - master
+  type: private
 - name: libgtop2
   description: ""
   protected_branches:
@@ -4509,6 +4569,11 @@ repositories:
   type: private
 - name: libkkc-data
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: libkml
+  description: "Reference implementation of OGC KML 2.2."
   protected_branches:
   - master
   type: private
@@ -4982,6 +5047,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: libspatialite
+  description: "Enables SQLite to support spatial data."
+  protected_branches:
+  - master
+  type: private
 - name: libspectre
   description: ""
   protected_branches:
@@ -6427,6 +6497,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: netcdf
+  description: "Command-line programs for the NetCDF scientific data format."
+  protected_branches:
+  - master
+  type: private
 - name: netty
   description: ""
   protected_branches:
@@ -6712,6 +6787,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: ogdi
+  description: "Open Geographic Datastore Interface."
+  protected_branches:
+  - master
+  type: private
 - name: ongres-scram
   description: ""
   protected_branches:
@@ -6844,6 +6924,11 @@ repositories:
   type: public
 - name: openmotif
   description: "Open Motif runtime libraries and executables"
+  protected_branches:
+  - master
+  type: private
+- name: openpgm
+  description: "An implementation of the PGM reliable multicast protocol."
   protected_branches:
   - master
   type: private
@@ -9062,6 +9147,16 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-backports-functools_lru_cache
+  description: "A backport of functools.lru_cache from Python 3.3 as published at ActiveState."
+  protected_branches:
+  - master
+  type: private
+- name: python-backports-shutil_get_terminal_size
+  description: "A backport of the get_terminal_size function from Python 3.3's shutil."
+  protected_branches:
+  - master
+  type: private
 - name: python-backports_abc
   description: ""
   protected_branches:
@@ -9109,6 +9204,11 @@ repositories:
   type: public
 - name: python-bottle
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: python-Bottleneck
+  description: "Collection of fast NumPy array functions written in Cython."
   protected_branches:
   - master
   type: private
@@ -9462,6 +9562,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-ipython_genutils
+  description: "IPython vestigial utilities."
+  protected_branches:
+  - master
+  type: private
 - name: python-iso8601
   description: ""
   protected_branches:
@@ -9552,6 +9657,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-latexcodec
+  description: "A lexer and codec to work with LaTeX code in Python."
+  protected_branches:
+  - master
+  type: private
 - name: python-lazy-object-proxy
   description: ""
   protected_branches:
@@ -9597,6 +9707,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-matplotlib
+  description: "Python 2D plotting library."
+  protected_branches:
+  - master
+  type: private
 - name: python-mccabe
   description: ""
   protected_branches:
@@ -9609,6 +9724,11 @@ repositories:
   type: public
 - name: python-mimeparse
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: python-mistune
+  description: "Markdown parser in pure Python with renderer features."
   protected_branches:
   - master
   type: private
@@ -9652,6 +9772,16 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-numexpr
+  description: "Fast numerical array expression evaluator for Python and NumPy."
+  protected_branches:
+  - master
+  type: private
+- name: python-numpydoc
+  description: "Sphinx extension to support docstrings in Numpy format."
+  protected_branches:
+  - master
+  type: private
 - name: python-oauthlib
   description: ""
   protected_branches:
@@ -9667,6 +9797,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-orderedset
+  description: "Ordered set implementation in Cython."
+  protected_branches:
+  - master
+  type: private
 - name: python-packaging
   description: ""
   protected_branches:
@@ -9707,6 +9842,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: python-pathlib
+  description: "Object-oriented filesystem paths."
+  protected_branches:
+  - master
+  type: private
 - name: python-pbr
   description: ""
   protected_branches:
@@ -9719,6 +9859,11 @@ repositories:
   type: private
 - name: python-pexpect
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: python-pickleshare
+  description: "Object-oriented filesystem paths."
   protected_branches:
   - master
   type: private
@@ -9777,6 +9922,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-prompt_toolkit
+  description: "Library for building powerful interactive command lines in Python."
+  protected_branches:
+  - master
+  type: private
 - name: python-psutil
   description: ""
   protected_branches:
@@ -9802,6 +9952,16 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: python-pybtex
+  description: "BibTeX-compatible Bibliography Processor in Python."
+  protected_branches:
+  - master
+  type: private
+- name: python-pybtex-docutils
+  description: "Docutils backend for pybtex."
+  protected_branches:
+  - master
+  type: private
 - name: python-pycparser
   description: ""
   protected_branches:
@@ -9817,8 +9977,18 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-pydotplus
+  description: "Python interface to Graphviz's Dot language."
+  protected_branches:
+  - master
+  type: private
 - name: python-pyflakes
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: python-pyglet
+  description: "A cross-platform windowing and multimedia library for Python."
   protected_branches:
   - master
   type: private
@@ -9992,6 +10162,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: python-simplegeneric
+  description: "Simple generic functions."
+  protected_branches:
+  - master
+  type: private
 - name: python-simpleline
   description: ""
   protected_branches:
@@ -10042,8 +10217,18 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: python-sphinxcontrib-bibtex
+  description: "Sphinx extension for BibTeX style citations."
+  protected_branches:
+  - master
+  type: private
 - name: python-sqlalchemy
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: python-subprocess32
+  description: "A backport of the subprocess module from Python 3.2/3.3 for use on 2.x."
   protected_branches:
   - master
   type: private
@@ -10057,6 +10242,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-tables
+  description: "HDF5 support in Python."
+  protected_branches:
+  - master
+  type: private
 - name: python-tempita
   description: ""
   protected_branches:
@@ -10089,6 +10279,11 @@ repositories:
   type: private
 - name: python-traceback2
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: python-traitlets
+  description: "A lightweight derivative of Enthought Traits for configuring Python objects"
   protected_branches:
   - master
   type: private
@@ -10212,6 +10407,16 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: python-wcwidth
+  description: "Measures number of Terminal column cells of wide-character codes."
+  protected_branches:
+  - master
+  type: private
+- name: python-zmq
+  description: "Python bindings for zeromq."
+  protected_branches:
+  - master
+  type: private
 - name: qdox
   description: ""
   protected_branches:
@@ -10222,6 +10427,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: qhull
+  description: "Computing convex hulls, Delaunay triangulations and Voronoi diagrams."
+  protected_branches:
+  - master
+  type: private
 - name: qpdf
   description: ""
   protected_branches:
@@ -11119,6 +11329,11 @@ repositories:
   type: public
 - name: suitesparse
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: SuperLU
+  description: "Subroutines to solve sparse linear systems."
   protected_branches:
   - master
   type: private
