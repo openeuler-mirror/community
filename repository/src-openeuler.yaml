@@ -1672,6 +1672,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: ezmorph
+  description: "Object transformation library for Java."
+  protected_branches:
+  - master
+  type: private
 - name: f29-backgrounds
   description: ""
   protected_branches:
@@ -1759,6 +1764,11 @@ repositories:
   type: public
 - name: findbugs
   description: "A program which uses static analysis to look for bugs in java code."
+  protected_branches:
+  - master
+  type: private
+- name: findbugs-bcel
+  description: "Byte Code Engineering Library for FindBugs."
   protected_branches:
   - master
   type: private
@@ -1942,6 +1952,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: fuse-python
+  description: "Python bindings for FUSE - filesystem in userspace."
+  protected_branches:
+  - master
+  type: private
 - name: future
   description: ""
   protected_branches:
@@ -2167,6 +2182,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: glassfish-annotation-api
+  description: "Common Annotations API Specification (JSR 250)."
+  protected_branches:
+  - master
+  type: private
 - name: glassfish-el
   description: ""
   protected_branches:
@@ -2537,6 +2557,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: golang-googlecode-go-crypto
+  description: "Supplementary Go cryptography libraries."
+  protected_branches:
+  - master
+  type: private
 - name: golang-googlecode-goprotobuf
   description: ""
   protected_branches:
@@ -2544,6 +2569,16 @@ repositories:
   type: private
 - name: golang-googlecode-net
   description: "Unit tests for golang-googlecode-net package."
+  protected_branches:
+  - master
+  type: private
+- name: golang-googlecode-text
+  description: "Supplementary Go text libraries."
+  protected_branches:
+  - master
+  type: private
+- name: golang-googlecode-tools
+  description: "Displays performance changes between benchmarks for the Go programming language."
   protected_branches:
   - master
   type: private
@@ -2809,6 +2844,11 @@ repositories:
   type: private
 - name: gtk-vnc
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: guava
+  description: "Google Core Libraries for Java."
   protected_branches:
   - master
   type: private
@@ -3447,6 +3487,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: javacc
+  description: "A parser/scanner generator for java."
+  protected_branches:
+  - master
+  type: private
 - name: javacc-maven-plugin
   description: "Maven Plugin for processing JavaCC grammar files."
   protected_branches:
@@ -3572,6 +3617,16 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: jdependency
+  description: "This project provides an API to analyse class dependencies."
+  protected_branches:
+  - master
+  type: private
+- name: jdo2-api
+  description: "Implementation of JSR 243: Java Data Objects 2.0."
+  protected_branches:
+  - master
+  type: private
 - name: jdom2
   description: ""
   protected_branches:
@@ -3592,8 +3647,18 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: jetty-schemas
+  description: "XML Schemas for Jetty."
+  protected_branches:
+  - master
+  type: private
 - name: jflex
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: jFormatString
+  description: "Java format string compile-time checker."
   protected_branches:
   - master
   type: private
@@ -3652,6 +3717,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: js-underscore
+  description: "JavaScript's functional programming helper library."
+  protected_branches:
+  - master
+  type: private
 - name: jsch
   description: ""
   protected_branches:
@@ -3682,6 +3752,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: json-lib
+  description: "JSON library for Java."
+  protected_branches:
+  - master
+  type: private
 - name: jsoup
   description: ""
   protected_branches:
@@ -6062,6 +6137,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: maven-script-interpreter
+  description: "Maven Script Interpreter."
+  protected_branches:
+  - master
+  type: private
 - name: maven-shade-plugin
   description: "This plugin provides the capability to package the artifact in an uber-jar."
   protected_branches:
@@ -7399,6 +7479,11 @@ repositories:
   type: private
 - name: perl-Crypt-OpenSSL-Guess
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: perl-Crypt-PasswdMD5
+  description: "Perl extension for crypt()-compatible interfaces to the MD5-based crypt()."
   protected_branches:
   - master
   type: private
@@ -8957,6 +9042,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: proguard
+  description: "Java class file shrinker, optimizer, obfuscator and preverifier."
+  protected_branches:
+  - master
+  type: private
 - name: proj
   description: ""
   protected_branches:
@@ -9527,6 +9617,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: python-hpack
+  description: "Pure-Python HPACK header compression."
+  protected_branches:
+  - master
+  type: private
 - name: python-html5lib
   description: ""
   protected_branches:
@@ -9554,6 +9649,11 @@ repositories:
   type: private
 - name: python-hwdata
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: python-hyperframe
+  description: "HTTP/2 framing layer for Python."
   protected_branches:
   - master
   type: private
@@ -10952,6 +11052,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: sbinary
+  description: "Library for describing binary formats for Scala types."
+  protected_branches:
+  - master
+  type: private
 - name: sblim-cmpi-devel
   description: ""
   protected_branches:
@@ -10969,6 +11074,11 @@ repositories:
   type: private
 - name: sblim-sfcCommon
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: sbt
+  description: "The simple build tool for Scala and Java projects."
   protected_branches:
   - master
   type: private
@@ -11577,6 +11687,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: test-interface
+  description: "Uniform interface to Scala and Java test frameworks."
+  protected_branches:
+  - master
+  type: private
 - name: testng
   description: ""
   protected_branches:
@@ -11922,6 +12037,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: uriparser
+  description: "URI parsing library - RFC 3986."
+  protected_branches:
+  - master
+  type: private
 - name: urlview
   description: ""
   protected_branches:
@@ -12284,6 +12404,11 @@ repositories:
   type: private
 - name: xdg-utils
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: xerces-c
+  description: "Validating XML Parser."
   protected_branches:
   - master
   type: private
@@ -13282,6 +13407,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: zeromq
+  description: "Software library for fast, message-based applications."
+  protected_branches:
+  - master
+  type: private
 - name: zinc
   description: "A stand-alone version of sbt's incremental compiler."
   protected_branches:
