@@ -2343,6 +2343,10 @@ sigs:
   - openeuler/iSulad-img
 - name: Private
   repositories:
+  - src-openeuler/spice-parent
+  - src-openeuler/python-h2
+  - src-openeuler/python-junitxml
+  - src-openeuler/python-priority
   - src-openeuler/uriparser
   - src-openeuler/xerces-c
   - src-openeuler/zeromq

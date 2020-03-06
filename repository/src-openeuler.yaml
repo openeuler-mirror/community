@@ -9757,6 +9757,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-junitxml
+  description: "A Python unittest TestResult that outputs JUnit compatible XML."
+  protected_branches:
+  - master
+  type: private
 - name: python-jwt
   description: ""
   protected_branches:
@@ -10062,6 +10067,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-priority
+  description: "A pure-Python implementation of the HTTP/2 priority tree."
+  protected_branches:
+  - master
+  type: private
 - name: python-productmd
   description: ""
   protected_branches:
@@ -10559,6 +10569,11 @@ repositories:
   type: private
 - name: python-zmq
   description: "Python bindings for zeromq."
+  protected_branches:
+  - master
+  type: private
+- name: python-h2
+  description: "HTTP/2 State-Machine based protocol implementation."
   protected_branches:
   - master
   type: private
@@ -11399,6 +11414,11 @@ repositories:
   type: public
 - name: spice-gtk
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: spice-parent
+  description: "Sonatype Spice Componment."
   protected_branches:
   - master
   type: private
