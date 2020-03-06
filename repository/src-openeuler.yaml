@@ -262,6 +262,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: apache2-mod_xforward
+  description: "Apache module implementing handling of X-FORWARD headers"
+  protected_branches:
+  - master
+  type: private
 - name: appstream-data
   description: ""
   protected_branches:
@@ -7152,6 +7157,16 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: perl-BSSolv
+  description: "A new approach to package dependency solving"
+  protected_branches:
+  - master
+  type: private
+- name: perl-Canary-Stability
+  description: "Canary to check perl compatibility for Schmorp's modules"
+  protected_branches:
+  - master
+  type: private
 - name: perl-autodie
   description: ""
   protected_branches:
@@ -7252,6 +7267,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: perl-common-sense
+  description: "'Common sense' Perl defaults"
+  protected_branches:
+  - master
+  type: private
 - name: perl-CPAN
   description: "Query, download and build perl modules from CPAN sites"
   protected_branches:
@@ -7517,6 +7537,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: perl-File-Sync
+  description: "Perl access to fsync() and sync() function calls"
+  protected_branches:
+  - master
+  type: private
 - name: perl-File-BaseDir
   description: "Use the Freedesktop.org base directory specification"
   protected_branches:
@@ -7759,6 +7784,11 @@ repositories:
   type: public
 - name: perl-JSON
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: perl-Json-XS
+  description: "JSON serializing/de-serializing, done correctly and fast"
   protected_branches:
   - master
   type: private
@@ -8132,6 +8162,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: perl-Socket-MsgHdr
+  description: "Sendmsg, recvmsg and ancillary data operations"
+  protected_branches:
+  - master
+  type: private
 - name: perl-Socket6
   description: ""
   protected_branches:
@@ -8139,6 +8174,11 @@ repositories:
   type: private
 - name: perl-Software-License
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: perl-Types-Serialiser
+  description: "Simple data types for common serialization formats"
   protected_branches:
   - master
   type: private
@@ -8999,6 +9039,11 @@ repositories:
   type: private
 - name: python-astroid
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: python-tqdm
+  description: "Fast, Extensible Progress Meter"
   protected_branches:
   - master
   type: private
@@ -10612,8 +10657,28 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: ruby-common
+  description: "Collection of scripts and macros for ruby packaging"
+  protected_branches:
+  - master
+  type: private
 - name: rubygem-asciidoctor
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: rubygem-bundler
+  description: "Library and utilities to manage a Ruby application's gem dependencies"
+  protected_branches:
+  - master
+  type: private
+- name: rubygem-gem2rpm
+  description: "Generate rpm specfiles from gems"
+  protected_branches:
+  - master
+  type: private
+- name: rubygem-rack
+  description: "A modular Ruby webserver interface"
   protected_branches:
   - master
   type: private
@@ -10624,6 +10689,11 @@ repositories:
   type: public
 - name: rust
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: rust-packaging
+  description: "RPM macros for building Rust packages on various architectures"
   protected_branches:
   - master
   type: private
@@ -11024,6 +11094,11 @@ repositories:
   type: public
 - name: springframework
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: sphinx
+  description: "Free open-source SQL full-text search engine"
   protected_branches:
   - master
   type: private
@@ -12994,6 +13069,46 @@ repositories:
   type: public
 - name: zinc
   description: "A stand-alone version of sbt's incremental compiler."
+  protected_branches:
+  - master
+  type: private
+- name: nodejs
+  description: "JavaScript runtime"
+  protected_branches:
+  - master
+  type: private
+- name: obs-bundled-gems
+  description: "The Open Build Service -- Bundled Gems"
+  protected_branches:
+  - master
+  type: private
+- name: obs-server
+  description: "The Open Build Service -- Server Component"
+  protected_branches:
+  - master
+  type: private
+- name: obs-service-download_files
+  description: "An OBS source service: download files"
+  protected_branches:
+  - master
+  type: private
+- name: obs-service-extract_file
+  description: "An OBS source service: Extract a file from an archive"
+  protected_branches:
+  - master
+  type: private
+- name: obs-service-rust2rpm
+  description: "OBS source service: Generate rpm packaging for Rust crates"
+  protected_branches:
+  - master
+  type: private
+- name: obs-service-set_version
+  description: "An OBS source service: Update spec file version"
+  protected_branches:
+  - master
+  type: private
+- name: passenger
+  description: "Phusion Passenger application server"
   protected_branches:
   - master
   type: private
