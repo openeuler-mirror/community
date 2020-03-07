@@ -1667,6 +1667,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: extra-cmake-modules
+  description: "KDE Frameworks 5 cmake extra modules."
+  protected_branches:
+  - master
+  type: private
 - name: extra166y
   description: ""
   protected_branches:
@@ -3354,6 +3359,16 @@ repositories:
   type: public
 - name: jackson-core
   description: "Core part of Jackson that defines Streaming API as well as basic sharded abstractions."
+  protected_branches:
+  - master
+  type: private
+- name: libburn1
+  description: "Library for reading, mastering and writing optical discs."
+  protected_branches:
+  - master
+  type: private
+- name: libisofs1
+  description: "Library to create ISO 9660 disk images."
   protected_branches:
   - master
   type: private
