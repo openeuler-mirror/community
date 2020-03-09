@@ -23,6 +23,12 @@
 
     If there are some documents for the meeting, please `cp ./meeting_records/template_meetig ./meeting_records/yyyy-mm-dd-meeting` and put the documents there so that attendees can find them. 
 
+- Minutes of meeting
+
+You can find [actions from the meeting](https://gitee.com/openeuler/community/wikis/Actions%20from%20Community%20governance%20weekly%20meeting?sort_id=1957419) here.
+
+And you can find all the open tasks from [the wiki](https://gitee.com/openeuler/community/wikis/All%20the%20open%20tasks%20about%20openEuler%20community%20governance?sort_id=1929738).
+
 ### 2. Agenda for each meeting
 
 * #topic Actions from last meeting
@@ -35,7 +41,6 @@
 
     Review the PRs we consider important.
 * #topic open discussion
-
 
 ### 3. Useful information
 #### Frequently used meeting commands
