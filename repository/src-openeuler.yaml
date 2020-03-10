@@ -6462,6 +6462,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: munge
+  description: "An authentication service for creating and validating credentials."
+  protected_branches:
+  - master
+  type: private
 - name: mutt
   description: ""
   protected_branches:
