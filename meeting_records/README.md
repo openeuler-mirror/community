@@ -40,6 +40,9 @@ And you can find all the open tasks from [the wiki](https://gitee.com/openeuler/
 * #topic Pull Request reviewing
 
     Review the PRs we consider important.
+
+* #topic Topics raised by attendees
+
 * #topic open discussion
 
 ### 3. Useful information
@@ -47,6 +50,8 @@ And you can find all the open tasks from [the wiki](https://gitee.com/openeuler/
 THe common used commands are below. To find more, please visit [https://kiwiirc.com/docs/client/commands](https://kiwiirc.com/docs/client/commands) to find more commands. 
 
 ### Meeting Archives
+
+Meeting minutes on Mar 10, 2020: https://mailweb.openeuler.org/hyperkitty/list/community@openeuler.org/thread/MI4276YKT5DZ4FJ2W6N4W5RT4VW5GK6X/
 
 Meeting minutes on Mar 3, 2020: https://mailweb.openeuler.org/hyperkitty/list/community@openeuler.org/thread/TUMDUAX5UELXTAET6ZXIYXUYQQCL4B3Q/
 
