@@ -12597,6 +12597,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: xorg-x11-drv-intel
+  description: "X.org X11 Intel video driver"
+  protected_branches:
+  - master
+  type: private
 - name: xorg-x11-drv-libinput
   description: ""
   protected_branches:
@@ -12617,6 +12622,16 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: xorg-x11-drv-vesa
+  description: "Xorg X11 vesa video driver"
+  protected_branches:
+  - master
+  type: private
+- name: xorg-x11-drv-vmware
+  description: "Xorg X11 vmware video driver"
+  protected_branches:
+  - master
+  type: private
 - name: xorg-x11-drv-wacom
   description: ""
   protected_branches:
