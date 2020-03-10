@@ -2342,6 +2342,9 @@ sigs:
   - openeuler/iSulad-img
 - name: Private
   repositories:
+  - src-openeuler/xorg-x11-drv-intel
+  - src-openeuler/xorg-x11-drv-vesa
+  - src-openeuler/xorg-x11-drv-vmware
   - src-openeuler/munge
   - src-openeuler/libburn1
   - src-openeuler/libisofs1
