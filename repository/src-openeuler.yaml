@@ -207,6 +207,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: apache-commons-exec
+  description: "Java library to reliably execute external processes from within the JVM."
+  protected_branches:
+  - master
+  type: private
 - name: apache-commons-io
   description: ""
   protected_branches:
@@ -1657,6 +1662,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: exec-maven-plugin
+  description: "Exec Maven Plugin."
+  protected_branches:
+  - master
+  type: private
 - name: exempi
   description: ""
   protected_branches:
@@ -5902,6 +5912,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: lzma
+  description: "Tools related to LZMA compression."
+  protected_branches:
+  - master
+  type: private
 - name: lzo
   description: ""
   protected_branches:
@@ -7517,6 +7532,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: perl-Crypt-CBC
+  description: "Encrypt Data with Cipher Block Chaining Mode."
+  protected_branches:
+  - master
+  type: private
 - name: perl-Crypt-DES
   description: "Perl DES encryption module."
   protected_branches:
