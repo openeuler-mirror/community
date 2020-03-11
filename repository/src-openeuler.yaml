@@ -267,6 +267,16 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: apiguardian
+  description: "API Guardian Java annotation."
+  protected_branches:
+  - master
+  type: private
+- name: appstream
+  description: "Tools and libraries to work with AppStream metadata."
+  protected_branches:
+  - master
+  type: private
 - name: appstream-data
   description: ""
   protected_branches:
@@ -462,6 +472,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: automoc
+  description: "Automatic moc for Qt 4."
+  protected_branches:
+  - master
+  type: private
 - name: autotrace
   description: ""
   protected_branches:
@@ -2247,6 +2262,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: glyphicons-halflings-fonts
+  description: "Precisely prepared monochromatic icons and symbols."
+  protected_branches:
+  - master
+  type: private
 - name: gmetrics
   description: "Groovy library that provides reports and metrics for Groovy code."
   protected_branches:
@@ -2532,8 +2552,23 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: golang-github-fsnotify-fsnotify
+  description: "Cross-platform file system notifications for Go."
+  protected_branches:
+  - master
+  type: private
+- name: golang-github-go-tomb-tomb
+  description: "Enables Go programs to comfortably encode and decode YAML values."
+  protected_branches:
+  - master
+  type: private
 - name: golang-github-golang-sys
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: golang-github-hpcloud-tail
+  description: "Go package for reading from continously updated files (tail -f)."
   protected_branches:
   - master
   type: private
@@ -3749,6 +3784,11 @@ repositories:
   type: private
 - name: js-jquery
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: js-jquery1
+  description: "JavaScript DOM manipulation, event handling, and AJAX library."
   protected_branches:
   - master
   type: private
@@ -7477,6 +7517,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: perl-Crypt-DES
+  description: "Perl DES encryption module."
+  protected_branches:
+  - master
+  type: private
 - name: perl-Crypt-OpenSSL-Bignum
   description: ""
   protected_branches:
@@ -8217,6 +8262,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: perl-Net-SNMP
+  description: "Object oriented interface to SNMP."
+  protected_branches:
+  - master
+  type: private
 - name: perl-Net-SSLeay
   description: ""
   protected_branches:
@@ -8682,6 +8732,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: perl-XML-Catalog
+  description: "Resolve public identifiers and remap system identifiers."
+  protected_branches:
+  - master
+  type: private
 - name: perl-XML-LibXML
   description: ""
   protected_branches:
@@ -8822,8 +8877,18 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: plexus-ant-factory
+  description: "Plexus Ant component factory."
+  protected_branches:
+  - master
+  type: private
 - name: plexus-archiver
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: plexus-bsh-factory
+  description: "Plexus Bsh component factory."
   protected_branches:
   - master
   type: private
@@ -9617,6 +9682,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: python-graphviz
+  description: "Graphviz bindings for python."
+  protected_branches:
+  - master
+  type: private
 - name: python-greenlet
   description: ""
   protected_branches:
@@ -9852,11 +9922,21 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: python-logutils
+  description: "Logging utilities."
+  protected_branches:
+  - master
+  type: private
 - name: python-lxml
   description: ""
   protected_branches:
   - master
   type: public
+- name: python-m2r
+  description: "Converts markdown files including rst to a valid rst format."
+  protected_branches:
+  - master
+  type: private
 - name: python-mako
   description: ""
   protected_branches:
@@ -10177,6 +10257,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: python-pyside
+  description: "PySide - python bindings for Qt."
+  protected_branches:
+  - master
+  type: private
 - name: python-pysocks
   description: ""
   protected_branches:
@@ -10364,6 +10449,11 @@ repositories:
   type: private
 - name: python-sphinx
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: python-sphinx-bootstrap-theme
+  description: "A sphinx theme that integrates the Bootstrap framework."
   protected_branches:
   - master
   type: private
@@ -11017,8 +11107,18 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: rubygem-kramdown
+  description: "Fast, pure-Ruby Markdown-superset converter."
+  protected_branches:
+  - master
+  type: private
 - name: rubygem-rack
   description: "A modular Ruby webserver interface"
+  protected_branches:
+  - master
+  type: private
+- name: rubygem-ronn
+  description: "Manual authoring tool."
   protected_branches:
   - master
   type: private
@@ -12349,6 +12449,11 @@ repositories:
   type: private
 - name: wxGTK3
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: wxPython
+  description: "Cross platform GUI toolkit for Python using wxGTK."
   protected_branches:
   - master
   type: private
