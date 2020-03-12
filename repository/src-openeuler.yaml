@@ -9637,6 +9637,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: python-eventlet
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: python-execnet
   description: ""
   protected_branches:
