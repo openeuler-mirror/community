@@ -2342,6 +2342,9 @@ sigs:
   - openeuler/iSulad-img
 - name: Private
   repositories:
+  - src-openeuler/python-apipkg
+  - src-openeuler/python-pytest-runner
+  - src-openeuler/jvnet-parent
   - src-openeuler/lzma
   - src-openeuler/perl-Crypt-CBC
   - src-openeuler/exec-maven-plugin

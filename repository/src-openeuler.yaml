@@ -3862,6 +3862,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: jvnet-parent
+  description: ""
+  protected_branches:
+  - master
+  type: private
 - name: jzlib
   description: ""
   protected_branches:
@@ -9307,6 +9312,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: python-apipkg
+  descripyion: ""
+  protected_branches:
+  - master
+  type: private
 - name: python-appdirs
   description: "A small Python module for determining appropriate platform-specific dirs."
   protected_branches:
@@ -10308,6 +10318,11 @@ repositories:
   - master
   type: private
 - name: python-pytest-mock
+  description: ""
+  protected_branches:
+  - master
+  type: private
+- name: python-pytest-runner
   description: ""
   protected_branches:
   - master
