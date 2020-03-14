@@ -2,31 +2,33 @@
 
 目录
 
-- [软件打包基础说明](#id1)
-  - [打包规则](#id1-1)
-  - [打包基础知识](id1-2)
-- [openEuler打包规则](#id2)
-  - [软件包拆分/合并规则](#id2-1)
-- [SPEC编写规范](#id3)
-  - SPEC文件说明
-  - [openEuler custom amcros](#id4)
-  - [软件打包验证](#id5)
+- [软件打包基础说明](#软件打包基础说明)
+  - [打包规则](#打包规则)
+  - [打包基础知识](#打包基础知识)
+- [openEuler打包规则](#openEuler打包规则)
+  - [软件包拆分/合并规则](#软件包拆分/合并规则)
+- [SPEC编写规范](#SPEC编写规范)
+  - [SPEC文件说明](#SPEC文件说明)
+  - [openEuler custom amcros](#openEuler custom amcros)
+  - [软件打包验证](#软件打包验证)
   
-- [范例说明](#id5)
-  - [范例一](#id5-1)
-  - [范例二](#id5-2)
-  - [范例三](#id5-3)
-  - [范例四](#id5-4)
-  - [范例五](#id5-5)
+- [范例说明](#范例说明)
+  - [范例一](#范例一)
+  - [范例二](#范例二)
+  - [范例三](#范例三)
+  - [范例四](#范例四)
+  - [范例五](#范例五)
 
 
 
-<h2 id="id1">软件打包基础</h2>
+## 软件打包基础
+
 **打包**是指编译并捆绑软件与元数据，例如软件全名、描述、正常运行所需要的依赖列表等的动作。这是为了让软件使用者可以使用类似RPM等软件包管理器，方便舒服的对其所使用的软件进行安全、升级或者删除。
 
 
 
-<h3 id="id1-1">打包规则</h3>
+### 打包规则
+
 openEuler社区综合了多个开源项目的软件包，并把他们集成到一个系统中。所以规范化多种多样的开源项目到一个连贯的系统中是非常有必要的。此处简要描述openEuler社区的打包规则：
 
 - 我们遵守一般的[Linux基础标准（LSB）]()。该标准致力于减少各个发现版之间的差异；
@@ -37,14 +39,15 @@ openEuler社区综合了多个开源项目的软件包，并把他们集成到�
 
   
 
-<h3 id="id1-2">打包基础知识</h3>
+### 打包基础知识
+
 一个软件包（假设软件包名为*pgname*）通常会拆分成多个RPM包：
 
 - **与软件包同名的主包**：包括命令、配置、动态库（简单的软件无需对外提供libs时会使用）等
 
 - **libs包**：提供动态库，供二次开发和使用，通常命名为*pgname*-libs
 
-- **开发用devel包**：提供动态库、编译使用的头文件，两者命名方式和拆分原则一致？？？？？，通常命名为*pgname*-devel？？
+- **开发用devel包**：提供动态库、编译使用的头文件，两者命名方式和拆分原则一致，通常命名为*pgname*-devel
 
 - **开发用static包** ：提供.a等静态编译需要的组件，通常命名为devel-static
 
@@ -52,24 +55,26 @@ openEuler社区综合了多个开源项目的软件包，并把他们集成到�
 
 - **本地化支持lang包**：提供语言和时区等本地化支持，通常命名为*pgname*-local；
 
-- **其他包**：如server、utils、tools、plugins等，和包的功能紧密相关的软件包，比如部分网络软件单独提供一个server或clinet包。
+- **其他包**：如server、utils、tools、plugins等，和包的功能紧密相关的软件包，比如部分网络软件单独提供一个server或client包。
 
   大部分软件包遵循以上拆分原则，openEuler在次基础上定义了自己的打包规则，以指导软件包的拆分、依赖关系建立，从而形成自己的软件包体系。
 
 
 
-<h2 id="id2">openEuler打包规则</h2>
-<h3 id="id2-1">软件包拆分/合并规则</h3>
+## openEuler打包规则
+
+### 软件包拆分/合并规则
+
 openEuler将软件包拆分成3个主要的二进制RPM包：主包、devel包和help包，其规则如下：
 
  - **主包**
      - 包名：*pgname*
      - 包含内容：命令、配置、本软件包包含的命令运行所需的so，以及本软件对外提供的动态库、license、copyright、Author、readme（如果包含版权信息）
      - 主要变化：主包中的man、info、readme等功能、版权、license无关的文档信息拆分到help包中
-     - 关键点：通过Provides、Obsoletes声明实现与前项版本的兼容
+     - 关键点：通过Provides、Obsoletes声明实现与前向版本的兼容
         - 动态库.so，RPM构建会到处动态库的内容，无需单独提供Provides声明
         - libs包合并到主包后，Provides的内容RPM无法自动导出，需要在主包对原来libs包中的内容追加Provides声明
-        - 原本libs包提供的功能已经又主包提供，可以添加Obsoletes来指明主包已经替换了libs包（请参见[范例一]()）
+        - 原本libs包提供的功能已经由主包提供，可以添加Obsoletes来指明主包已经替换了libs包（请参见[范例一]()）
  - **devel包**
       -  包名：*pgname*-devel
       - 包含内容：静态库.a、头文件、example范例、test用例、其他开发使用的内容
@@ -77,7 +82,7 @@ openEuler将软件包拆分成3个主要的二进制RPM包：主包、devel包�
          - 合并devel包和static包
          - 所有开发使用的内容都收编到devel包中
       - 关键点：
-         - 所有属于开发范围的内容，统一打包成devel包。如果devel的内容包含了原来static等包提供的功能，需要应用Provieds和Obsoletes来保持和前项版本的兼容
+         - 所有属于开发范围的内容，统一打包成devel包。如果devel的内容包含了原来static等包提供的功能，需要应用Provides和Obsoletes来保持和前向版本的兼容
          - 动态库打包到主包后，devel包一般需要Requires主包，否则部分动态库会找不到
  - **help**包
        - 包名：*pgname*-help
@@ -90,7 +95,7 @@ openEuler将软件包拆分成3个主要的二进制RPM包：主包、devel包�
 如果是复杂软件包，在上面3个分类的基础上，特殊场景还需考虑：
 
 - **for-language包**
-  - 包名：如python2-*pgname*、python3-*pgname*、per-*pgname*
+  - 包名：如python2-*pgname*、python3-*pgname*、perl-*pgname*
   - 包含内容：针对perl、python2、python3等语言的支持的分拆
   - 主要变化：NA
   - 关键点：NA
@@ -108,8 +113,10 @@ openEuler将软件包拆分成3个主要的二进制RPM包：主包、devel包�
 
 
 
-<h2 id="id3">SPEC编写规范</h2>
-<h3 id="id3-1">SPEC文件说明</h3>
+## SPEC编写规范
+
+### SPEC文件说明
+
 **spec中的缩进统一格式，使用空格，保持对齐**
 
 **文件头**
@@ -140,7 +147,7 @@ openEuler将软件包拆分成3个主要的二进制RPM包：主包、devel包�
 
 2.openEuler会自动匹配当前芯片架构，`%{?_isa}`可去除，比如`%{name}%{?_isa}`可以替换成`%{name}`
 
-3.spec中version、release比较复杂的场景，如果灭有特殊要求，尽量简化为单个数字，且保持递增，h和`%{?dist}`的后缀要去除
+3.spec中version、release比较复杂的场景，如果没有特殊要求，尽量简化为单个数字，且保持递增，h和`%{?dist}`的后缀要去除
 
 
 
@@ -194,23 +201,24 @@ find $RPM_BUILD_ROOT -type f -name "*.la" -delete \
 find $RPM_BUILD_ROOT -type f -name "*.a" -delete \
 ```
 
-可以用宏`%delete la and a`调换
+可以用宏`%delete_la_and_a`调换
 
 3.删除*.la文件：
 
 `find $RPM_BUILD_ROOT -type f -name "*.la" -delete `
 
-可以用宏`%delete la`调换
+可以用宏`%delete_la`调换
 
 
 
 **%file阶段%**
 
-%file是对软件打包时，**打包的顺序要和前面定义package的顺序保持一致**
+%file对软件打包时，**打包的顺序要和前面定义package的顺序保持一致**
 
 
 
-<h3 id="id3-2">openEuelr custom amcros</h3>
+### openEuelr custom amcros
+
 ```
 %disable_rpath 
 sed -i 's|^hardcode_libdir_flag_spec=.*|hardcode_libdir_flag_spec=""|g' libtool \
@@ -244,7 +252,8 @@ Man pages and other related documents for %{name}.
 
 
 
-<h3 id="id3-3">软件打包验证</h3>
+### 软件打包验证
+
 建议从下面三个角度验证。
 
 - 不同的软件列表，软件选型
@@ -259,4 +268,4 @@ Man pages and other related documents for %{name}.
 
 
 
-<h2 id="id3">范例</h2>
+## 范例
