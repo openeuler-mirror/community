@@ -727,6 +727,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: byaccj
+  description: "Parser Generator with Java Extension"
+  protected_branches:
+  - master
+  type: private
 - name: bytelist
   description: ""
   protected_branches:
@@ -1752,6 +1757,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: felix-parent
+  description: "Parent POM file for Apache Felix Specs"
+  protected_branches:
+  - master
+  type: private
 - name: felix-utils
   description: ""
   protected_branches:
@@ -2149,6 +2159,11 @@ repositories:
   type: private
 - name: geronimo-jaxrpc
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: geronimo-jms
+  description: "J2EE JMS v1.1 API"
   protected_branches:
   - master
   type: private
@@ -3257,6 +3272,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: infinipath-psm
+  description: "Intel Performance Scaled Messaging (PSM) Libraries"
+  protected_branches:
+  - master
+  type: private
 - name: initial-setup
   description: ""
   protected_branches:
@@ -3404,6 +3424,11 @@ repositories:
   type: public
 - name: jackson-core
   description: "Core part of Jackson that defines Streaming API as well as basic sharded abstractions."
+  protected_branches:
+  - master
+  type: private
+- name: jboss-jsp-2.2-api
+  description: "JavaServer(TM) Pages 2.2 API"
   protected_branches:
   - master
   type: private
@@ -5872,6 +5897,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: luajit
+  description: "Just-In-Time Compiler for Lua"
+  protected_branches:
+  - master
+  type: private
 - name: lucene
   description: ""
   protected_branches:
@@ -6414,6 +6444,11 @@ repositories:
   type: private
 - name: modello
   description: "Modello is a Data Model toolkit in use by the Apache Maven Project."
+  protected_branches:
+  - master
+  type: private
+- name: mojo-parent
+  description: "Codehaus MOJO parent project pom file"
   protected_branches:
   - master
   type: private
@@ -7772,6 +7807,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: perl-Mojolicious
+  description: "A next generation web framework for Perl"
+  protected_branches:
+  - master
+  type: private
 - name: perl-Module-Build-Tiny
   description: "perl-Module-Build-Tiny"
   protected_branches:
@@ -8254,6 +8294,11 @@ repositories:
   type: private
 - name: perl-Net-DNS-Resolver-Mock
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: perl-Net-DNS-Resolver-Programmable
+  description: "Programmable DNS resolver class for offline emulation of DNS"
   protected_branches:
   - master
   type: private
@@ -11147,13 +11192,28 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: rubygem-hpricot
+  description: "A Fast, Enjoyable HTML Parser for Ruby."
+  protected_branches:
+  - master
+  type: private
 - name: rubygem-kramdown
   description: "Fast, pure-Ruby Markdown-superset converter."
   protected_branches:
   - master
   type: private
+- name: rubygem-mustache
+  description: "Mustache is a framework-agnostic way to render logic-free views"
+  protected_branches:
+  - master
+  type: private
 - name: rubygem-rack
   description: "A modular Ruby webserver interface"
+  protected_branches:
+  - master
+  type: private
+- name: rubygem-rdiscount
+  description: "Converts documents in Markdown syntax to HTML."
   protected_branches:
   - master
   type: private
@@ -11994,6 +12054,11 @@ repositories:
   type: private
 - name: tomcat-native
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: tomcat-taglibs-parent
+  description: "Apache Taglibs Parent"
   protected_branches:
   - master
   type: private

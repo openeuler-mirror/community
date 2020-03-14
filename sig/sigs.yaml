@@ -2342,6 +2342,19 @@ sigs:
   - openeuler/iSulad-img
 - name: Private
   repositories:
+  - src-openeuler/infinipath-psm
+  - src-openeuler/rubygem-mustache
+  - src-openeuler/luajit
+  - src-openeuler/byaccj
+  - src-openeuler/geronimo-jms
+  - src-openeuler/felix-parent
+  - src-openeuler/mojo-parent
+  - src-openeuler/perl-Mojolicious
+  - src-openeuler/perl-Net-DNS-Resolver-Programmable
+  - src-openeuler/rubygem-hpricot
+  - src-openeuler/rubygem-rdiscount
+  - src-openeuler/tomcat-taglibs-parent
+  - src-openeuler/jboss-jsp-2.2-api
   - src-openeuler/python-eventlet
   - src-openeuler/python-apipkg
   - src-openeuler/python-pytest-runner
