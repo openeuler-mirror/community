@@ -1307,6 +1307,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: discount
+  description: "A command-line utility for onverting Markdown files into HTML"
+  protected_branches:
+  - master
+  type: private
 - name: dict2xml
   description: ""
   protected_branches:
