@@ -3527,6 +3527,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: janino
+  description: "An embedded Java compiler"
+  protected_branches:
+  - master
+  type: private
 - name: jansi
   description: ""
   protected_branches:
@@ -6884,6 +6889,11 @@ repositories:
   type: private
 - name: objectweb-asm3
   description: ""
+  protected_branches:
+  - master
+  type: private
+- name: objectweb-pom
+  description: "Ojectweb POM"
   protected_branches:
   - master
   type: private
