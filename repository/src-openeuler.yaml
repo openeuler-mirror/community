@@ -12237,6 +12237,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: umoci
+  description: "Open Container Image manipulation tool"
+  protected_branches:
+  - master
+  type: private
 - name: uname-build-checks
   description: ""
   protected_branches:
