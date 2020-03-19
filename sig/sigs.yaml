@@ -1006,7 +1006,6 @@ sigs:
   - src-openeuler/xml-commons-apis
   - src-openeuler/libkate
   - src-openeuler/jzlib
-  - src-openeuler/A-Tune
   - src-openeuler/skkdic
   - src-openeuler/opentest4j
   - src-openeuler/SDL_sound
@@ -2325,6 +2324,7 @@ sigs:
   repositories:
   - openeuler/A-Tune
   - openeuler/prefetch_tuning
+  - src-openeuler/A-Tune
 - name: sig-Kernel
   repositories:
   - openeuler/kernel
