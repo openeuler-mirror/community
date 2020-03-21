@@ -131,5 +131,8 @@ repositories:
   protected_branches:
   - master
   type: public
-
-
+- name: mate-desktop
+  description: "It provides an intuitive and attractive desktop environment using traditional metaphors"
+  protected_branches:
+  - master
+  type: public
