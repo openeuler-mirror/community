@@ -19,7 +19,7 @@ What and in what form the SIG is responsible for delivering
 - tar
 
 ### Repositories and description managed by this SIG
-	https://gitee.com/speech_white/plinth_dpdk.git
+	https://gitee.com/speech_white/dpdk.git
 
 ### Cross-domain and external-oriented processes
 
@@ -33,7 +33,7 @@ Cross-domain and externally-oriented processes and actions defined and implement
 ## Basic Information
 
 ### Project Introduction
-    https://gitee.com/speech_white/plinth_dpdk.git
+    https://gitee.com/speech_white/dpdk.git
 
 ***Tips***: After the SIG is successfully created, https: /gitee.com/openeuler/community/sig/sig-xxxx/ management will be managed by the Maintainer, and the project team can enrich their project introduction, including but not limited to the following content.
 ```
