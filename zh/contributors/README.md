@@ -99,7 +99,7 @@ SIG就是Special Interest Group的缩写，openEuler社区按照不同的SIG来�
 
 ### 给自己分配一个Issue
 
-- **找到Issue列表**：在您感兴趣的项目的首页内（Gitee上的项目的Repository）的工具栏，点击<img src="figure\Issue图标" alt="捕获" style="zoom:50%;" />，您可以找到该SIG的Issue列表（如Community团队的Issue列表地址为https://gitee.com/openeuler/community/issues）
+- **找到Issue列表**：在您感兴趣的项目的首页内（Gitee上的项目的Repository）的工具栏，点击<img src="figure/Issue图标" alt="捕获" style="zoom:50%;" />，您可以找到该SIG的Issue列表（如Community团队的Issue列表地址为https://gitee.com/openeuler/community/issues）
 
 - **找到愿意处理的Issue**：如果您愿意处理其中的一个issue，可以将它分配给自己。只需要在评论框内输入 `/assign`或 `/assign @yourself`，机器人就会将问题分配给您，您的名字将显示在负责人列表里。
 - **参与Issue内的讨论**：每个Issue下面可能已经有参与者们的交流和讨论，如果您感兴趣，也可以在评论框中发表自己的意见。
