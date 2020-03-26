@@ -26,7 +26,7 @@ sig-dpdk
 
 ### Committer列表
 
-- 胡敏[@speech_white ](https://gitee.com/speech_white)
+- 胡敏[@speech_whie](https://gitee.com/speech_white)
 
 
 

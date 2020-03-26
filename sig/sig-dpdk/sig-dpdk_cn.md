@@ -9,9 +9,9 @@
    该SIG业务范围主要是DPDK PMD驱动的开发维护，暂不需要其他SIG支持
 
 ### 该SIG管理的repository及描述
-	- 项目名称：dpdk
-	- 交付件形式：rpm包
-	- repository1名称：https://gitee.com/speech_white/dpdk.git
+- 项目名称：dpdk
+- 交付件形式：rpm包
+- repository1名称：https://gitee.com/speech_white/dpdk.git
 
 ### 跨领域和面向外部的流程
 由该SIG定义和执行的，且跨领域和面向外部的流程和行动：
