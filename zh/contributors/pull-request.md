@@ -36,17 +36,17 @@
 
 - 如果您提交成功以后，看到PR上有`openeuler-cla/no`的标签，说明您还未和社区签署贡献者协议，请您先按照社区机器人的提示，完成贡献者协议的签署。
 
-  ![](figure\pull-request-autotest2.JPG)
+  ![](figure/pull-request-autotest2.JPG)
 
 - 提交成功以后，社区机器人会启动自动化测试，**为了避免浪费评审人时间，通常只有自动化测试通过的PR，评审人才会参与评审**。您可以在PR的下方看到自动化测试的结果。
 
 - 如果自动化测试失败，您可以通过“Build Details”查看失败的原因。
 
-![](figure\pull-request-autotest.JPG)
+![](figure/pull-request-autotest.JPG)
 
 点击“Build Details”，可以看到具体的log信息。然后您可以在里面搜索“Error”，快速的定位到错误的信息。
 
-![](figure\error-report.JPG)
+![](figure/error-report.JPG)
 
 - 修改后，您可以在评论框输入`/retest`命令，让社区机器人重新发起一次自动化测试。
 
@@ -58,13 +58,13 @@
 
 - 如果审核人通过您的审核，会在评论区添加`/lgtm`或者`/approve`，以表示对本次PR提交的认同
 
-- 审核人可以在评论区发表意见，也可以在审核文件的时候，在发现问题处添加审核意见。无论哪种方式，都会在评论区显示出来。区别是，后者的评论会显示出“代码评论”，您可以通过“详情”查看评论具体指向的出处。![](figure\pull-request-review.JPG)
+- 审核人可以在评论区发表意见，也可以在审核文件的时候，在发现问题处添加审核意见。无论哪种方式，都会在评论区显示出来。区别是，后者的评论会显示出“代码评论”，您可以通过“详情”查看评论具体指向的出处。![](figure/pull-request-review.JPG)
 
 - 为了表示对评审人意见的尊重，如果对意见有异议，请您通过回复该意见来说明原因；如果接纳评审人意见，也请您做出简单的回应，便于确认后继的提交是否已按照所有接纳意见完成修改。
 
 - 您也可以点击“文件”，直接在文件区查看具体的代码评审意见和对比结果。在此处，您也可以直接回复评审意见。
 
-  ![](C:\Users\Administrator\community\zh\contributors\figure\pull-request-review2.JPG)
+  ![](figure/pull-request-review2.JPG)
 
 - 如果项目组的核心成员拒接了您的PR，会给出拒接意见。请不要气馁，您可以根据意见调整后继续和项目组成员沟通，相信在持之以恒的沟通调整后，您的能力和意见都会得到大家的认同。
 

@@ -10,7 +10,7 @@
 ### 2、从云上folk代码分支
 
 2. 找到并打开对应的repository的首页
-2. 点击右上角的 `Fork` 按钮，按照指引，建立一个属于**“个人”**的云上folk分支。<img src="figure\Gitee-workflow-fork.JPG" style="zoom:67%;" />
+2. 点击右上角的 `Fork` 按钮，按照指引，建立一个属于**“个人”**的云上folk分支。<img src="figure/Gitee-workflow-fork.JPG" style="zoom:67%;" />
 
 
 
@@ -59,7 +59,7 @@ git config --global user.mail "email@your_Gitee_email"
 
   请在Gitee网页点击右上角的“个人头像”进入个人Gitee账户，并点击个人头像下的“个人设置”，进入个人设置页面。在“个人设置->安全设置”下，点击“SSH公钥”，在“添加公钥”内把cat命令获取到的ssh公钥添加进去。
 
-  <img src="figure\Gitee-workflow-addSSHKey.JPG" style="zoom:67%;" />
+  <img src="figure/Gitee-workflow-addSSHKey.JPG" style="zoom:67%;" />
 
   在个人电脑上完成gitee在SSH上的登记
 
@@ -84,7 +84,7 @@ git config --global user.mail "email@your_Gitee_email"
 
   - 您可以在repository内复制远程仓库的拷贝地址，得到`$remote_link`：
 
-    <img src="figure\Gitee-workflow-CopyLink.JPG" alt="Gitee-workflow-CopyLink" />
+    <img src="figure/Gitee-workflow-CopyLink.JPG" alt="Gitee-workflow-CopyLink" />
 
   - 在本地电脑执行拷贝命令：
 
@@ -169,7 +169,7 @@ git push -f origin myfeature
 
 2. 把您的分支选到您提交使用的 `myfeature` 分支上，点击`+ Pull Request` .具体位置如下图所示：
 
-   <img src="figure\Gitee-workflow-PR1.JPG" style="zoom:80%;" />
+   <img src="figure/Gitee-workflow-PR1.JPG" style="zoom:80%;" />
 
 3. 在创建新PR界面，确认源分支和目标分支，选择创建。
 
@@ -187,7 +187,7 @@ git push -f origin myfeature
 
 您可以在PR列表内找到您提交的PR，并看到对该PR的评论和评审意见。
 
-![](figure\Gitee-workflow-PR2.JPG)
+![](figure/Gitee-workflow-PR2.JPG)
 
 **小的PR很容易检视。量级较大的PR很难被正确的检视。**
 
@@ -240,7 +240,7 @@ git push ${your_remote_name} myrevert
 
 如果您发现提交的PR带有以下的标记，说明您提交的PR和您本地存在冲突，您需要处理冲突。
 
-![](figure\Gitee-workflow-confict.JPG)
+![](figure/Gitee-workflow-confict.JPG)
 
 1、先将分支切换到master上，并完成master的rebase
 
