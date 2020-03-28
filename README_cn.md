@@ -41,11 +41,13 @@
 ### 该代码仓的其他目录Maintainers
 1. Fred Li(@zerodefect)，从2019年12月开始
 2. 杨丽(@yangli69393)，从2019年12月开始
+3. blueskycs2c(@blueskycs2c), 从2020年3月开始
 
 ## 本代码仓的Contributors
 1. freesky-edward(@freesky-edward)，从2019年8月开始
 2. xiangxinyong(@xiangxinyong)，从2019年8月开始
 3. blueskycs2c(@blueskycs2c)，从2020年2月开始
+4. Ivye(@Ivye)，从2020年3月开始
 
 ## 联系方式
 
