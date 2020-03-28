@@ -4105,6 +4105,9 @@ sigs:
   - src-openeuler/vcredist
   - src-openeuler/vdsm
   - src-openeuler/vdsm-jsonrpc-java
+- name: sig-dpdk
+  repositories:
+  - src-openeuler/dpdk
 - name: security-committee
   repositories:
   - openeuler/security-committee

@@ -13682,6 +13682,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: dpdk
+  description: ""
+  protected_branches:
+  - master
+  type: public
 - name: tpm2-abrmd-selinux
   description: "SELinux policies for tpm2-abrmd"
   protected_branches:
