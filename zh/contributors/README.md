@@ -231,7 +231,7 @@ openEuler参加或举办的社区和技术交流会议，关于这些事件和�
 
 ## 社区聚会
 
-社区每年会定期举办开发者大会，您可以通过https://openeuler.org上的信息或通过电子邮件<dev@openeuler.org>与我们联系。来加入我们把~
+社区每年会定期举办开发者大会，您可以通过[https://openeuler.org](https://openeuler.org)上的信息或通过电子邮件<dev@openeuler.org>与我们联系。来加入我们把~
 
 
 
