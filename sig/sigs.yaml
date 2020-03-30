@@ -4120,3 +4120,29 @@ sigs:
 - name: sig-bounds_checking_function
   repositories:
   - openeuler/bounds_checking_function
+- name: sig-UKUI
+  repositories:
+  - src-openeuler/qt5-ukui-platformtheme
+  - src-openeuler/peony
+  - src-openeuler/ukui-control-center
+  - src-openeuler/ukui-sidebar
+  - src-openeuler/ukui-panel
+  - src-openeuler/ukui-window-switch
+  - src-openeuler/ukui-power-manager
+  - src-openeuler/ukui-screensaver
+  - src-openeuler/ukui-media
+  - src-openeuler/ukui-menu
+  - src-openeuler/ukui-session-manager
+  - src-openeuler/ukui-settings-daemon
+  - src-openeuler/kylin-nm
+  - src-openeuler/ukui-themes
+  - src-openeuler/ukui-biometric-manager
+  - src-openeuler/ukui-biometric-auth
+  - src-openeuler/peony-extensions
+  - src-openeuler/ukui-greeter
+  - src-openeuler/ukylin-feedback-client
+  - src-openeuler/ukwm
+  - src-openeuler/ukui-interface
+  - src-openeuler/ukui-screenshot
+  - src-openeuler/ukui-indicators
+  - src-openeuler/biometric-authentication
