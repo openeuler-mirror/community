@@ -1,8 +1,15 @@
 # Technical Committee
 
-The openEuler technical committee is the technical decision-making body of the openEuler community and is responsible for the coordination of technical decisions and technical resources in the community. The main responsibilities of the technical committee are:
+The openEuler Technical Committee (TC for short) is the technical decision-making body of the openEuler community and is responsible for the coordination of technical decisions and technical resources in the community. 
+There'll be no more than 9 members of TC, and responsibilities will be assigned every year.
 
-- Guidance and decision on community technology route, interface definition, architecture design, build release, etc.
+# The main responsibilities of the technical committee are:
+
+- Answer technical questions from the Board, supporting board to make reasonable judgement on strategic directions.
+
+- Collebrate remotely, having a face-to-face every 6 monthes. Have regularly online meeting in between.
+
+- Guidance and decision on community technology route, interface definition, architecture design, build release, etc. Establishing the rule of community gradually.
 
 - Coordinate cross-projects cooperation and make decisions on cross-project technical issues in the community
 
@@ -20,8 +27,16 @@ The openEuler technical committee is the technical decision-making body of the o
 
 # Meeting
 
-- Meeting schedule: to be updated
-
+- Open online meeting: TC will have meeting on Wednesday morning 10:00 every 2 weeks.
+- Access method will be determined on the maillist prior to the meeting. For now, it's welink system from Huawei.
+- Topics for regular meeting includes:
+    +   Review on new SIG applications
+    +   Review on new software componenents applications
+    +   Feedback from users, and discuss how to address/respond.
+    +   Review incubated projects (One project per meeting)
+    +   Other topics raised by TC members.
+    +   Topics will be collected and sorted on https://gitee.com/openeuler/community/tree/master/zh/technical-committee/next-meeting-topics.md publicly. (Note: sorry that it'll be in Chinese mostly).
+- Anyone is welcomed to the meeting.
 
 
 # Members
@@ -40,4 +55,5 @@ The openEuler technical committee is the technical decision-making body of the o
 # Contact
 
 - [Mail List](tc@openeuler.org)
+- [Mail Archive](https://mailweb.openeuler.org/hyperkitty/list/tc@openeuler.org/)
 
