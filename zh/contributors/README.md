@@ -81,7 +81,7 @@ SIG就是Special Interest Group的缩写，openEuler社区按照不同的SIG来�
 
 找到您感兴趣的SIG组，可以帮助您在正确的地方提出问题，并得到更快的社区响应。
 
-- **方式一**：如果您不了解有哪些SIG或项目，您可以查看[SIG列表](https://openeuler.org/zh/sig.html)，它包含当前openEuler社区成立的所有SIG团队的清单。您可以通过该列表快速的定位到您兴趣的领域的对应SIG团队。同时还会您提供该SIG团队的如下信息：
+- **方式一**：如果您不了解有哪些SIG或项目，您可以查看[SIG列表](https://openeuler.org/zh/sig.html)，它包含当前openEuler社区成立的所有SIG团队的清单。您可以通过该列表快速的定位到您感兴趣的领域所对应SIG团队。同时还会您提供该SIG团队的如下信息：
   
   - SIG下的项目，以及项目的Repository地址
   - SIG内的交流方式，包括邮件列表、IRC会议频道等
@@ -117,13 +117,13 @@ SIG就是Special Interest Group的缩写，openEuler社区按照不同的SIG来�
 
 #### 开发环境准备
 
-如果您想参与编码贡献，需要准备openEuler的开发环境，请参考：[《开发环境准备》](prepare-environment.md)
+如果您想参与编码贡献，需要准备openEuler的开发环境，请参考[开发环境准备](prepare-environment.md)
 
 
 
-#### 下载和编译软件包
+#### 下载和构建软件包
 
-如果您想下载、修改、编译及验证openEuler提供提供的软件包，请参考[《源码下载、编译、安装软件包》](package-install.md)
+如果您想下载、修改、构建及验证openEuler提供的软件包，请参考[构建软件包](package-install.md)
 
 
 
@@ -143,9 +143,9 @@ SIG就是Special Interest Group的缩写，openEuler社区按照不同的SIG来�
 
 
 
-#### 修改编译和本地验证
+#### 修改构建和本地验证
 
-在本地分支上完成修改后，进行编译和本地验证，请参考[《源码下载、编译、安装软件包》](package-install.md)中的编译和安装软件包。
+在本地分支上完成修改后，进行构建和本地验证，请参考[构建软件包](package-install.md)。
 
 
 
@@ -195,7 +195,7 @@ openEuler是一个开放的社区，我们希望所有参与社区的人都能�
 
 ## 参与非代码类贡献
 
-如果您的兴趣不在编写代码方面，可以在[《非代码贡献指南》](non-code-contributions.md)中找到感兴趣的工作。
+如果您的兴趣不在编写代码方面，可以在[非代码贡献指南](non-code-contributions.md)中找到感兴趣的工作。
 
 
 
@@ -203,7 +203,7 @@ openEuler是一个开放的社区，我们希望所有参与社区的人都能�
 
 # 安装openEuler
 
-请参考[下载安装openEuler](https://openeuler.org/zh/docs/installation/installation.html)
+请参考[下载安装openEuler](https://openeuler.org/zh/download.html)
 
 
 
