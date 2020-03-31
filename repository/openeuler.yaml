@@ -116,6 +116,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: QA
+  description: "the repository of QA"
+  protected_branches:
+  - master
+  type: public
 - name: tool-collections
   description: ""
   protected_branches:

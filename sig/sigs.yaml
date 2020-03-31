@@ -4165,3 +4165,10 @@ sigs:
   repositories:
   - openeuler/raspberrypi
   - openeuler/raspberrypi-kernel
+- name: sig-QA
+ repositories:
+  - openeuler/QA
+  - openeuler/avocado
+  - openeuler/avocado-vt
+  - openeuler/tp-libvirt
+  - openeuler/tp-qemu
