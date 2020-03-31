@@ -1,6 +1,6 @@
 # Technical Committee
 
-The openEuler Technical Committee (TC for short) is the technical decision-making body of the openEuler community and is responsible for the coordination of technical decisions and technical resources in the community. 
+The openEuler Technical Committee (TC for abbreviation) is the technical decision-making body of the openEuler community and is responsible for the coordination of technical decisions and technical resources in the community. 
 There'll be no more than 9 members of TC, and responsibilities will be assigned every year.
 
 # The main responsibilities of the technical committee are:
@@ -31,7 +31,7 @@ There'll be no more than 9 members of TC, and responsibilities will be assigned 
 - Access method will be determined on the maillist prior to the meeting. For now, it's welink system from Huawei.
 - Topics for regular meeting includes:
     +   Review on new SIG applications
-    +   Review on new software componenents applications
+    +   Review on new software packages applications
     +   Feedback from users, and discuss how to address/respond.
     +   Review incubated projects (One project per meeting)
     +   Other topics raised by TC members.
