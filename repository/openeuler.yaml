@@ -141,3 +141,13 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: raspberrypi
+  description: "It provides scripts for building openEuler image on Raspberry Pi and documents"
+  protected_branches:
+  - master
+  type: public
+- name: raspberrypi-kernel
+  description: "It provides openEuler kernel source for Raspberry Pi"
+  protected_branches:
+  - master
+  type: public
