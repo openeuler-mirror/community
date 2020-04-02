@@ -13862,6 +13862,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: netperf
+  description: "A network performance benchmark testing tool"
+  protected_branches:
+  - master
+  type: public
 - name: cloc
   description: "Program line caculation tools"
   protected_branches:
