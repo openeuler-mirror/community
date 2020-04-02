@@ -4115,6 +4115,13 @@ sigs:
 - name: dev-utils
   repositories:
   - src-openeuler/netperf
+  - src-openeuler/cloc
+  - src-openeuler/perl-Regexp-Common
+  - src-openeuler/perl-Test-Regexp
+  - src-openeuler/perl-Sub-Uplevel
+  - src-openeuler/perl-Test-Warn
+  - src-openeuler/perl-Parallel-ForkManager
+  - src-openeuler/memleax
 - name: sig-mate-desktop
   repositories:
   - openeuler/mate-desktop
