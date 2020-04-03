@@ -13842,3 +13842,38 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: cloc
+  description: "Program line caculation tools"
+  protected_branches:
+  - master
+  type: public
+- name: perl-Regexp-Common
+  description: "Perl Module Regexp::Common"
+  protected_branches:
+  - master
+  type: public
+- name: perl-Test-Regexp
+  description: "Perl Modul, Test::Regexp, a module to test regular"
+  protected_branches:
+  - master
+  type: public
+- name: perl-Sub-Uplevel
+  description: "Perl Module, Sub-Uplevel, apparently run a function in a higher stack frame"
+  protected_branches:
+  - master
+  type: public
+- name: perl-Test-Warn
+  description: "Perl Modul, This module provides a few convenience methods for testing warning based code"
+  protected_branches:
+  - master
+  type: public
+- name: perl-Parallel-ForkManager
+  description: "Perl Module, A simple parallel processing fork manager"
+  protected_branches:
+  - master
+  type: public
+- name: memleax
+  description: "Memory lead detection tool"
+  protected_branches:
+  - master
+  type: public
