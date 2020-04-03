@@ -45,7 +45,7 @@ SIG在任何给定时间内必须至少有一个或多个Maintainer。Maintainer
 
 SIG组内的交流必须是公开的，以确保其他SIG组的社区成员可以找到讨论、会议、涉及和决策的记录，SIG也需要定期向社区传递项目的工作概要。
 
-有关SIG的治理的更多详细信息，请参考[SIG治理](/zh/technical-committee/governance/SIG-governance.md)、[SIG治理要求](/zh/techniacl-committee/governance/SIG-governance-requirements.md)。
+有关SIG的治理的更多详细信息，请参考[SIG治理](/zh/technical-committee/governance/SIG-governance.md)、[SIG治理要求](/zh/technical-committee/governance/SIG-governance-requirements.md)。
 
 [SIG文件夹](sig/)内记录了openEuler社区当前的所有SIG。
 
