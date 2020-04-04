@@ -13877,3 +13877,58 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: nmon
+  description: "performance monitor tool"
+  protected_branches:
+  - master
+  type: public
+- name: colordiff
+  description: "colordiff — a tool to colorize diff output"
+  protected_branches:
+  - master
+  type: public
+- name: ncdu
+  description: "a disk usage analyzer with an ncurses interface"
+  protected_branches:
+  - master
+  type: public
+- name: iozone
+  description: "a filesystem benchmark tool"
+  protected_branches:
+  - master
+  type: public
+- name: multitail
+  description: "monitor logfiles and command output in multiple windows"
+  protected_branches:
+  - master
+  type: public
+- name: perl-Geo-IP
+  description: "Perl Module : Geo::IP"
+  protected_branches:
+  - master
+  type: public
+- name: nethogs
+  description: "NetHogs is a small net top tool"
+  protected_branches:
+  - master
+  type: public
+- name: iftop
+  description: "display bandwidth usage on an interface"
+  protected_branches:
+  - master
+  type: public
+- name: slurm
+  description: "a highly configurable open-source workload manager"
+  protected_branches:
+  - master
+  type: public
+- name: htop
+  description: "an interactive process viewer for Unix systems"
+  protected_branches:
+  - master
+  type: public
+- name: cpuid
+  description: "Get CPU infomation"
+  protected_branches:
+  - master
+  type: public
