@@ -34,6 +34,14 @@ jingxiaolu
 ### Committer列表
 
 - xiongwei[@myeuler]
+- love_hangzhou[@love_hangzhou]
+- forrest_ly[@forrest_ly]
+- licihua[@licihua]
+- ethan848[@ethan848]
+- fcwicky[@fcwicky]
+- overweight[@overweight]
+- yanan-rock[@yanan-rock]
+- jingxiaolu[@jingxiaolu]
 
 
 
@@ -45,17 +53,16 @@ jingxiaolu
 - [IRC](under schedule)
 
 
-
-
-
 # 项目清单
 
-*Project list*
-
-项目名称：
-
-repository地址：
-
-- 
-- 
+*Project list & repository*
+- https://gitee.com/src-openeuler/netperf
+- https://gitee.com/src-openeuler/memleax
+- https://gitee.com/src-openeuler/perl-Sub-Uplevel
+- https://gitee.com/src-openeuler/perl-Test-Warn
+- https://gitee.com/src-openeuler/perl-Parallel-ForkManager
+- https://gitee.com/src-openeuler/perl-Test-Regexp
+- https://gitee.com/src-openeuler/perl-Regexp-Common
+- https://gitee.com/src-openeuler/cloc
+ 
 
