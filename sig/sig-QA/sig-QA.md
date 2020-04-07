@@ -22,6 +22,7 @@ The repositories related to QA are listed below
 https://gitee.com/openeuler/community/sig/sig-QA/
 
 Maintainers
+- wu_fengguang
 - charlie_li(@charlie_li),since October 2019
 - wubodong(@walkingwalk),since November 2019
 - benchroot(@kuhnchen18),since December 2019

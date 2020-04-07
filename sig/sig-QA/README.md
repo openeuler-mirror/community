@@ -17,6 +17,7 @@ openEuler QA(质量保障)项目团队致力于如何更好的提升openEuler社
 *<必选，请在此给出团队成员的列表>*
 
 ### Maintainer列表
+- wu_fengguang
 - charlie_li(@charlie_li),since October 2019
 - wubodong(@walkingwalk),since November 2019
 - benchroot(@kuhnchen18),since December 2019
