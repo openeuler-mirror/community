@@ -5,6 +5,16 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: avocado
+  description: ""
+  protected_branches:
+  - master
+  type: public
+- name: avocado-vt
+  description: ""
+  protected_branches:
+  - master
+  type: public
 - name: blog
   description: "Blog project is used to house the blogs that related openEuler community."
   protected_branches:
@@ -122,6 +132,16 @@ repositories:
   - master
   type: public
 - name: tool-collections
+  description: ""
+  protected_branches:
+  - master
+  type: public
+- name: tp-libvirt
+  description: ""
+  protected_branches:
+  - master
+  type: public
+- name: tp-qemu
   description: ""
   protected_branches:
   - master
