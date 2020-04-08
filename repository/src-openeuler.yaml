@@ -13847,11 +13847,6 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: delve
-  description: "A debugger for the Go programming language"
-  protected_branches:
-  - master
-  type: public
 - name: perl-Regexp-Common
   description: "Perl Module Regexp::Common"
   protected_branches:
@@ -13934,6 +13929,11 @@ repositories:
   type: public
 - name: cpuid
   description: "Get CPU information"
+  protected_branches:
+  - master
+  type: public
+- name: delve
+  description: "A debugger for the Go programming language"
   protected_branches:
   - master
   type: public
