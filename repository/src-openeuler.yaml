@@ -13964,3 +13964,12 @@ repositories:
 - name: sbd
   description: "This package contains the storage-based death functionality."
   type: public
+- name: ha-web
+  description: "Ha web frontend."
+  type: public
+- name: drbd
+  description: "DRBD user-land tools and scripts"
+  type: public
+- name: drbd-utils
+  description: "DRBD common tools"
+  type: public
