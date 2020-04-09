@@ -4166,3 +4166,17 @@ sigs:
   repositories:
   - openeuler/raspberrypi
   - openeuler/raspberrypi-kernel
+- name: sig-Ha
+  repositories:
+  - src-openeuler/pacemaker
+  - src-openeuler/corosync
+  - src-openeuler/pcs
+  - openeuler/pacemaker-mgmt
+  - openeuler/ha-api
+  - openeuler/ha-web
+  - src-openeuler/fence-agents
+  - src-openeuler/fence-virt
+  - src-openeuler/sbd
+  - src-openeuler/corosync-qdevice
+  - src-openeuler/drbd
+  - src-openeuler/drbd-utils
