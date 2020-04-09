@@ -13932,3 +13932,8 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: delve
+  description: "A debugger for the Go programming language"
+  protected_branches:
+  - master
+  type: public
