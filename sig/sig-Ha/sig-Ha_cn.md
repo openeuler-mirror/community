@@ -42,6 +42,9 @@ Ha相关软件包的仓库如下，详见： http://archive.kernel.org/centos-va
 - https://gitee.com/src-openeuler/corosync-qdevice
 - https://gitee.com/src-openeuler/drbd
 - https://gitee.com/src-openeuler/drbd-utils
+- https://gitee.com/src-openeuler/ha-api
+- https://gitee.com/src-openeuler/ha-web
+- https://gitee.com/src-openeuler/pacemaker-mgmt
 - https://gitee.com/openeuler/ha-api
 - https://gitee.com/openeuler/ha-web
 - https://gitee.com/openeuler/pacemaker-mgmt
