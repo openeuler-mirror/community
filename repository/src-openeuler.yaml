@@ -13937,3 +13937,39 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: pacemaker
+  description: "Pacemaker is an advanced, scalable high-availability cluster resource manager."
+  type: public
+- name: corosync
+  description: "The Corosync Cluster Engine and Application Programming Interfaces."
+  type: public
+- name: fence-agents
+  description: "Set of unified programs capable of host isolation ('fencing')."
+  type: public
+- name: corosync-qdevice
+  description: "The Corosync Cluster Engine Qdevice."
+  type: public
+- name: fence-virt
+  description: "Virtual machine fencing agent."
+  type: public
+- name: ha-api
+  description: "This package NeoKylin HA api."
+  type: public
+- name: pacemaker-mgmt
+  description: "A client/server GUI and a SNMP subagent for configuring, managing and monitoring the Pacemaker High-Availability cluster resource manager."
+  type: public
+- name: pcs
+  description: "Pcs is a Corosync and Pacemaker configuration tool. It permits users to easily view, modify and create Pacemaker based clusters. Pcs contains pcsd, a pcs daemon, which operates as a remote server for pcs and provides a web UI."
+  type: public
+- name: sbd
+  description: "This package contains the storage-based death functionality."
+  type: public
+- name: ha-web
+  description: "Ha web frontend."
+  type: public
+- name: drbd
+  description: "DRBD user-land tools and scripts"
+  type: public
+- name: drbd-utils
+  description: "DRBD common tools"
+  type: public
