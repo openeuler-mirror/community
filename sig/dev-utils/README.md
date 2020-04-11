@@ -74,6 +74,6 @@ jingxiaolu
 - https://gitee.com/src-openeuler/perl-Geo-IP
 - https://gitee.com/src-openeuler/ncdu
 - https://gitee.com/src-openeuler/iozone
-- https://gitee.com/src-openeuler/colordiff
-- https://gitee.com/src-openeuler/delve 
+- https://gitee.com/src-openeuler/colordiff 
+- https://gitee.com/src-openeuler/delve
 
