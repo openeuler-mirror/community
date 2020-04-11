@@ -15,6 +15,9 @@ sigs:
 - name: doc
   repositories:
   - openeuler/docs
+- name: sig-CICD
+  repositories:
+  - openeuler/crystal-ci
 - name: Application
   repositories:
   - src-openeuler/esc
