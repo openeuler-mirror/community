@@ -1,4 +1,1 @@
-- Review on ebpf-xdp sig: https://gitee.com/openeuler/community/pulls/292 
-- Review on HA sig: https://gitee.com/openeuler/community/pulls/311 
-- Review on Kubernetes sig: https://gitee.com/openeuler/community/pulls/312
-- Review on existing SIG work
+- TO BE Added
