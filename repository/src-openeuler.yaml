@@ -10827,6 +10827,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: qt-settings
+  description: "Configuration files for qt"
+  protected_branches:
+  - master
+  type: public
 - name: qt5
   description: ""
   protected_branches:
