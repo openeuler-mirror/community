@@ -56,7 +56,8 @@ The repositories related to Ha are listed below, see http://archive.kernel.org/c
     https://gitee.com/openeuler/community/tree/master/sig/sig-Ha/
 
 ### Maintainers
-- houjian@kylinos.cn
+- kylinos-cn
+- hjimmy
 - huihui0311
 
 ### Committers
@@ -69,4 +70,5 @@ The repositories related to Ha are listed below, see http://archive.kernel.org/c
 - #openeuler-dev
 
 ### External Contact
-- houjian@kylinos.cn
+- hjimmy
+- kylinos-cn
