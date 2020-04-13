@@ -13932,6 +13932,147 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: mate-desktop
+  description: "Library with common API for various MATE modules "
+  protected_branches:
+  - master
+  type: public
+- name: mate-common
+  description: "Common scripts and macros to develop with MATE"
+  protected_branches:
+  - master
+  type: public
+- name: mate-control-center
+  description: "Utilities to configure the MATE desktop "
+  protected_branches:
+  - master
+  type: public
+- name: caja
+  description: "Caja, the file manager for the MATE desktop"
+  protected_branches:
+  - master
+  type: public
+- name: caja-extensions
+  description: "Set of extensions for Caja, the MATE file manager"
+  protected_branches:
+  - master
+  type: public
+- name: mate-system-monitor
+  description: "Process viewer and system resource monitor for MATE"
+  protected_branches:
+  - master
+  type: public
+- name: mate-backgrounds
+  description: "This module contains a set of backgrounds packaged with the MATE desktop."
+  protected_branches:
+  - master
+  type: public
+- name: mate-utils
+  description: ""
+  protected_branches:
+  - master
+  type: public
+- name: mate-settings-daemon
+  description: "MATE settings daemon"
+  protected_branches:
+  - master
+  type: public
+- name: mate-screensaver
+  description: "MATE screen saver and locker"
+  protected_branches:
+  - master
+  type: public
+- name: mate-session-manager
+  description: "MATE session manager"
+  protected_branches:
+  - master
+  type: public
+- name: mate-panel
+  description: "MATE panel"
+  protected_branches:
+  - master
+  type: public
+- name: mate-polkit
+  description: "Authentication Agent for PolicyKit and MATE"
+  protected_branches:
+  - master
+  type: public
+- name: mate-power-manager
+  description: "Power management tool for the MATE desktop"
+  protected_branches:
+  - master
+  type: public
+- name: mate-applets
+  description: "Applets for use with the MATE panel"
+  protected_branches:
+  - master
+  type: public
+- name: mate-themes
+  description: "Official themes for the MATE desktop"
+  protected_branches:
+  - master
+  type: public
+- name: mate-icon-theme
+  description: "MATE default icon theme"
+  protected_branches:
+  - master
+  type: public
+- name: mate-calc
+  description: "Calculator for MATE"
+  protected_branches:
+  - master
+  type: public
+- name: mate-media
+  description: "Media tools for MATE"
+  protected_branches:
+  - master
+  type: public
+- name: mate-menus
+  description: "Library for the Desktop Menu freedesktop.org specification"
+  protected_branches:
+  - master
+  type: public
+- name: mate-notification-daemon
+  description: "Daemon to display passive pop-up notifications"
+  protected_branches:
+  - master
+  type: public
+- name: mate-terminal
+  description: "The MATE Terminal Emulator"
+  protected_branches:
+  - master
+  type: public
+- name: mate-user-guide
+  description: "MATE Desktop User Guide"
+  protected_branches:
+  - master
+  type: public
+- name: libmateweather
+  description: "Library to access weather information from online services"
+  protected_branches:
+  - master
+  type: public
+- name: libmatemixer
+  description: "Mixer library for MATE Desktop"
+  protected_branches:
+  - master
+  type: public
+- name: libmatekbd
+  description: "Keyboard management library"
+  protected_branches:
+  - master
+  type: public
+- name: eom
+  description: "An image viewer for MATE"
+  protected_branches:
+  - master
+  type: public
+- name: marco
+  description: "MATE default window manager"
+  protected_branches:
+  - master
+  type: public
+
 - name: delve
   description: "A debugger for the Go programming language"
   protected_branches:
