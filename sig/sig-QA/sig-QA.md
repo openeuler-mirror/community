@@ -4,8 +4,6 @@ The openEuler QA SIG is committed to how to improve quality assurance for openEu
 ###Scope
 The QA team is engaged in the following activities:
 - Open current test capability to developers who can use and contribute
-- Test and verify openEuler release and evaluate its quality
-- Distribute issues to the corresponding teams and track the status continuously
 - Draft, release and maintain release criteria
 - Develop and maintain test tools which promote code development and execution efficiency
 
