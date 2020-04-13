@@ -352,6 +352,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: assertj-core
+  description: ""
+  protected_branches:
+  - master
+  type: public
 - name: assimp
   description: ""
   protected_branches:
@@ -2297,6 +2302,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: gmavenplus-plugin
+  description: ""
+  protected_branches:
+  - master
+  type: public
 - name: gmetrics
   description: "Groovy library that provides reports and metrics for Groovy code."
   protected_branches:
@@ -3623,6 +3633,11 @@ repositories:
   - master
   type: public
 - name: jbigkit
+  description: ""
+  protected_branches:
+  - master
+  type: public
+- name: jboss-el
   description: ""
   protected_branches:
   - master
@@ -6423,6 +6438,11 @@ repositories:
   - master
   type: public
 - name: mobile-broadband-provider-info
+  description: ""
+  protected_branches:
+  - master
+  type: public
+- name: mockito
   description: ""
   protected_branches:
   - master
@@ -11669,6 +11689,11 @@ repositories:
   type: private
 - name: sphinx
   description: "Free open-source SQL full-text search engine"
+  protected_branches:
+  - master
+  type: public
+- name: spock
+  description: ""
   protected_branches:
   - master
   type: public
