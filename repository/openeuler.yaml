@@ -6,12 +6,12 @@ repositories:
   - master
   type: public
 - name: avocado
-  description: ""
+  description: "Avocado is a set of tools and libraries to help with automated testing. One can call it a test framework with benefits"
   protected_branches:
   - master
   type: public
 - name: avocado-vt
-  description: ""
+  description: "Avocado-VT is a compatibility plugin that lets you execute virtualization related tests, with all conveniences provided by Avocado"
   protected_branches:
   - master
   type: public
@@ -51,6 +51,8 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: EulerRobot
+  description: "A virtualized automated test project, integrated compilation test, UT test, smoke test, Avocado-VT test,etc."
 - name: gitbook-theme-hugo
   description: ""
   protected_branches:
@@ -127,7 +129,7 @@ repositories:
   - master
   type: private
 - name: QA
-  description: "the repository of QA"
+  description: "QA repo provides rules about how QA team runs and how contributors to this project, also includes test cases and framework"
   protected_branches:
   - master
   type: public
@@ -137,12 +139,12 @@ repositories:
   - master
   type: public
 - name: tp-libvirt
-  description: ""
+  description: "Libvirt test provider for virtualization test. It contains a lot of test cases related to such as libvirt/libguestfs."
   protected_branches:
   - master
   type: public
 - name: tp-qemu
-  description: ""
+  description: "Qemu test provider for virtualization test. It contains a lot of test cases related to such as qemu/openvswitch/virtualization backed"
   protected_branches:
   - master
   type: public
