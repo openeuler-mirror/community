@@ -4133,6 +4133,34 @@ sigs:
 - name: sig-mate-desktop
   repositories:
   - openeuler/mate-desktop
+  - src-openeuler/mate-desktop
+  - src-openeuler/mate-common
+  - src-openeuler/mate-control-center
+  - src-openeuler/caja
+  - src-openeuler/caja-extensions
+  - src-openeuler/mate-system-monitor
+  - src-openeuler/mate-backgrounds
+  - src-openeuler/mate-utils
+  - src-openeuler/mate-settings-daemon
+  - src-openeuler/mate-screensaver
+  - src-openeuler/mate-session-manager
+  - src-openeuler/mate-panel
+  - src-openeuler/mate-polkit
+  - src-openeuler/mate-power-manager
+  - src-openeuler/mate-applets
+  - src-openeuler/mate-themes
+  - src-openeuler/mate-icon-theme
+  - src-openeuler/mate-calc
+  - src-openeuler/mate-media
+  - src-openeuler/mate-menus
+  - src-openeuler/mate-notification-daemon
+  - src-openeuler/mate-terminal
+  - src-openeuler/mate-user-guide
+  - src-openeuler/libmateweather
+  - src-openeuler/libmatemixer
+  - src-openeuler/libmatekbd
+  - src-openeuler/eom
+  - src-openeuler/marco
 - name: sig-bounds_checking_function
   repositories:
   - openeuler/bounds_checking_function
