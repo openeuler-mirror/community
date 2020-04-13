@@ -151,3 +151,18 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: ha-api
+  description: "API interface for HA management"
+  protected_branches:
+  - master
+  type: public
+- name: pacemaker-mgmt
+  description: "Management Console for Pacemaker"
+  protected_branches:
+  - master
+  type: public
+- name: ha-web
+  description: "Web Interface for HA management"
+  protected_branches:
+  - master
+  type: public
