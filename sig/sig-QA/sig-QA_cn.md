@@ -15,10 +15,17 @@ openEuler QA(质量保障)项目团队致力于如何更好的提升openEuler社
   - https://gitee.com/openeuler/tp-qemu
   - https://gitee.com/openeuler/QA
 
+维护人员：
+  - charlie_li(@charlie_li),since October 2019
+  - wubodong(@walkingwalk),since November 2019
+  - benchroot(@kuhnchen18),since December 2019
 
- ### 跨领域和面向外部的流程
-- 与社区基础设施团队和构建团队配合构建和持续提升社区版本发布的CI/CD自动化和集成度
-- 开放双周测试日，让更多的社区开发者参与并贡献
+邮件列表：
+  - qa@openeuler.org
+
+会议信息：
+  - welink
+  - 开放双周测试日，周三下午4点。
 
 
 
