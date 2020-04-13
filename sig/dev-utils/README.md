@@ -64,5 +64,16 @@ jingxiaolu
 - https://gitee.com/src-openeuler/perl-Test-Regexp
 - https://gitee.com/src-openeuler/perl-Regexp-Common
 - https://gitee.com/src-openeuler/cloc
- 
+- https://gitee.com/src-openeuler/htop
+- https://gitee.com/src-openeuler/nmon
+- https://gitee.com/src-openeuler/multitail
+- https://gitee.com/src-openeuler/cpuid
+- https://gitee.com/src-openeuler/slurm
+- https://gitee.com/src-openeuler/nethogs
+- https://gitee.com/src-openeuler/iftop
+- https://gitee.com/src-openeuler/perl-Geo-IP
+- https://gitee.com/src-openeuler/ncdu
+- https://gitee.com/src-openeuler/iozone
+- https://gitee.com/src-openeuler/colordiff 
+- https://gitee.com/src-openeuler/delve
 
