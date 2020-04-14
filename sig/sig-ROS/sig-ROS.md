@@ -1,20 +1,20 @@
 # openEuler ROS Special Interest Group (SIG)
 English | [简体中文](./sig-ROS_cn.md)
 
-The openEuler ROS SIG aims at migrating ROS to openEuler, in order to reduce the threshold for using openEuler and promote openEuler to new users.
+The openEuler ROS SIG aims at migrating ROS to openEuler, in order to reduce the threshold for using openEuler and promote openEuler to new users from ROS Community.
 
 
 ## SIG Mission and Scope
 
 ### Mission
 - Add ROS support for openEuler community
-- According to the iterative version of openEuler, constantly complete the migration of ROS to openEuler, and provide scripts for building ROS image on openEuler and documents
+- According to the iterative version of openEuler, constantly complete the migration of ROS to openEuler, and provide scripts for building ROS components on openEuler and documents
 - Respond to users' feedback in a timely manner and resolve the problems
 
 ### Scope
 
 - Migrate ROS components to openEuler, with further maintenance and upgrades
-- Create and update ROS binary tarballs for openEuler, provide image's build scripts and documents
+- Create and update ROS binary tarballs for openEuler, provide build scripts and documents
 - Manage the documentations, meetings, mailing list and IRC within ROS SIG
 
 ### Deliverables

@@ -166,3 +166,8 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: ros
+  description: "It provides ROS source for openEuler"
+  protected_branches:
+  - master
+  type: public
