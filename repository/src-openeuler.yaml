@@ -352,6 +352,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: assertj-core
+  description: "A rich and intuitive set of strongly-typed assertions to use for unit testing (either with JUnit or TestNG)."
+  protected_branches:
+  - master
+  type: public
 - name: assimp
   description: ""
   protected_branches:
@@ -2297,6 +2302,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: gmavenplus-plugin
+  description: "GMavenPlus is a rewrite of GMaven, a Maven plugin that allows you to integrate Groovy into your Maven projects."
+  protected_branches:
+  - master
+  type: public
 - name: gmetrics
   description: "Groovy library that provides reports and metrics for Groovy code."
   protected_branches:
@@ -3624,6 +3634,11 @@ repositories:
   type: public
 - name: jbigkit
   description: ""
+  protected_branches:
+  - master
+  type: public
+- name: jboss-el
+  description: "Expression Language 2.2 API classes."
   protected_branches:
   - master
   type: public
@@ -6424,6 +6439,11 @@ repositories:
   type: public
 - name: mobile-broadband-provider-info
   description: ""
+  protected_branches:
+  - master
+  type: public
+- name: mockito
+  description: "Mockito is a mocking framework that tastes really good. It lets you write beautiful tests with clean & simple API. Mockito doesn't give you hangover because the tests are very readable and they produce clean verification errors."
   protected_branches:
   - master
   type: public
@@ -11674,6 +11694,11 @@ repositories:
   type: private
 - name: sphinx
   description: "Free open-source SQL full-text search engine"
+  protected_branches:
+  - master
+  type: public
+- name: spock
+  description: "spock is a testing and specification framework for java and Groovy applications"
   protected_branches:
   - master
   type: public
