@@ -1,32 +1,72 @@
 # openEuler compatible兴趣小组（SIG）
+sig 名字:  sig-compatible
 
-## oVirt SIG组工作目标和范围
+## compatible SIG组工作目标和范围
+
 
 ### 工作目标
 
+    形成社区服务器、主板、app 兼容性清单
+
 ### 工作范围
 
+    1、与硬件服务器、主板兼容性，成立相关兼容性测试项目，进行操作系统与服务器(驱动、bios、bmc等)兼容性的相关方面探索活动
 
+    2、操作系统与应用程序兼容性 清单范围识别及版本配套审查。
 
-### 交付物
+    3、识别POSIX/lsb等组织对于兼容性的定义及规范性满足度审查。
 
-- 源码和tar包
+项目名字
 
+- oecert  
+-待补充
 
-### 该SIG管理的repository
+组织会议
 
+公开的会议时间：北京时间，双周五下午，2点~3点 会议可通过现场或者远程视频进行，会提前提醒通知会议，如遇时间冲突，可根据实际情况调整。
 
+ 
 
-## SIG基本信息
+成员
 
-### 项目简介
+ 
 
-### Maintainers
+Maintainer列表
 
-### Committers
+jimmy_hero
 
-### 邮件列表
+walkingwalk
 
-### IRC频道
+ 
 
-### 对外联络人
+Committer列表
+
+lutianxiong
+
+air9
+
+eric14chan
+
+ 
+
+项目清单:
+
+服务器兼容性检查工具
+
+服务器与操作系统兼容性清单
+
+服务器与应用软件兼容性清单
+
+ 
+
+项目名称：
+
+ 
+
+- oscert  
+
+ 
+
+repository地址：
+
+ 
