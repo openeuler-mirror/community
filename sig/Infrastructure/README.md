@@ -22,8 +22,7 @@
 
 ### Maintainer列表
 
-- name[@giteeID](giteeID链接)
-
+- [@freesky-edward](gitee.com/freesky-edward)
 
 
 ### Committer列表
@@ -37,6 +36,7 @@
   - zerodefect
   - zhuchunyi
   - zhongjun2
+  - zhengyuhanghans
 
 # 联系方式
 
