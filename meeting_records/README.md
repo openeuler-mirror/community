@@ -49,28 +49,8 @@ And you can find all the open and help needed tasks from [the wiki](https://gite
 
 ### 3. Useful information
 #### Frequently used meeting commands
-THe common used commands are below. To find more, please visit [https://kiwiirc.com/docs/client/commands](https://kiwiirc.com/docs/client/commands) to find more commands. 
+The common used commands are below. To find more, please visit [https://kiwiirc.com/docs/client/commands](https://kiwiirc.com/docs/client/commands) to find more commands. 
 
 ### Meeting Archives
 
-From the archive of the mail list <https://mailweb.openeuler.org/hyperkitty/list/community@openeuler.org> you can find the minutes of meeting by searching the key word "minutes".
-
-Meeting minutes on Mar 10, 2020: https://mailweb.openeuler.org/hyperkitty/list/community@openeuler.org/thread/MI4276YKT5DZ4FJ2W6N4W5RT4VW5GK6X/
-
-Meeting minutes on Mar 3, 2020: https://mailweb.openeuler.org/hyperkitty/list/community@openeuler.org/thread/TUMDUAX5UELXTAET6ZXIYXUYQQCL4B3Q/
-
-Meeting minutes on Feb 25, 2020: https://mailweb.openeuler.org/hyperkitty/list/community@openeuler.org/thread/4LOWQMRP3CYUFIF2E2PT526S3VLA2XX5/
-
-Meeting minutes on Feb 18, 2020: http://meetings.openeuler.org/openeuler-meeting/2020/community/2020-02-18-02.00.html
-
-Meeting minutes on Feb 11, 2020: http://meetings.openeuler.org/openeuler-meeting/2020/community/2020-02-11-02.00.html
-
-Meeting minutes on Fed 4, 2020: http://meetings.openeuler.org/openeuler-meeting/2020/community/2020-02-04-02.00.html
-
-Meeting minutes on Jan 21, 2020: http://meetings.openeuler.org/openeuler-meeting/2020/community/2020-01-21-01.01.html
-
-Meeting minutes on Jan 14, 2020: http://meetings.openeuler.org/openeuler-meeting/2020/community/2020-01-14-02.00.html
-
-Meeting minutes on Jan 7, 2020: http://meetings.openeuler.org/openeuler-meeting/2020/community/2020-01-07-01.59.html
-
-Meeting minutes on Jan. 5, 2020: http://meetings.openeuler.org/openeuler-meeting/2020/community/2020-01-05-13.13.html
+All the meeting minutes are archived to wiki <https://gitee.com/openeuler/community/wikis/openEuler%20Community%20Governance%20weekly%20meeting%20minutes?sort_id=2111593>.
