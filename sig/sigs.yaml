@@ -2197,9 +2197,6 @@ sigs:
   - src-openeuler/usbutils
   - src-openeuler/lsscsi
   - src-openeuler/open-isns
-- name: atune
-  repositories:
-  - src-openeuler/prefetch_tuning
 - name: Desktop
   repositories:
   - src-openeuler/qt-settings
@@ -2332,6 +2329,7 @@ sigs:
   - openeuler/A-Tune
   - openeuler/prefetch_tuning
   - src-openeuler/A-Tune
+  - src-openeuler/prefetch_tuning
 - name: sig-Kernel
   repositories:
   - openeuler/kernel
@@ -3645,7 +3643,6 @@ sigs:
   - src-openeuler/potrace
   - src-openeuler/pps-tools
   - src-openeuler/pptp
-  - src-openeuler/prefetch_tuning
   - src-openeuler/proj
   - src-openeuler/protobuf-c
   - src-openeuler/protoparser
