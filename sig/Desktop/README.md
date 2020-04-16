@@ -1,39 +1,37 @@
 # Desktop
 
-*<请在此描述SIG的范围、工作职责和目标，可以直接用sig-template.md内描述的第一个章节>,*
+- 移植桌面和图形相关的公共组件到openEuler社区，支持第三方桌面应用平稳运行。
+- 移植易用的桌面应用，使开发者能更高效的在openEuler上编码
+- 使桌面和图形库能在不同架构上运行
+- 对大家关注的流程开展优化和质量工作
+- 将openEuler社区中的工作成果回馈给上游社区
+- 及时响应用户反馈，解决相关问题
 
 
 
 # 组织会议
 
-- 公开的会议时间：北京时间，每周X 下午，XX点~XX点
+- 目前移植软件为主，邮件讨论为主
 
-*<请在此给出SIG会议的时间>*
 
 
 
 # 成员
 
-*<请在此给出团队成员的列表>*
-
 ### Maintainer列表
 
-- name[@giteeID](giteeID链接)
-
+- 夏森林[@small_leek](https://gitee.com/small_leek)
 
 
 ### Committer列表
 
-- name[@giteeID](giteeID链接)
-
-
+- 汪奕如[@ruebb](https://gitee.com/ruebb)
 
 # 联系方式
 
-*<如果需要单独申请邮件列表，请在此补充邮箱名称：sig-yousigname@openeuler.org>*
-
 - [邮件列表](dev@openeuler.org)
-- [IM]()
+- [IRC频道](#openeuler-dev)
+- [IRC公开会议](#openeuler-meeting)
 
 
 
@@ -41,11 +39,6 @@
 
 # 项目清单
 
-*<项目名称和申请表格一致，具体地址可以在申请下来以后在刷新>*
-
-项目名称：
-
 repository地址：
 
-- 
 - 
