@@ -14087,3 +14087,33 @@ repositories:
 - name: atop
   description: "atop is an interactive monitor to view the load on a Linux system"
   type: public
+- name: jupyter
+  description: "Jupyter is an environment for interactive computing in multiple languages."
+  protected_branches:
+  - master
+  type: public
+- name: caffe
+  description: "A framework for deep learning"
+  protected_branches:
+  - master
+  type: public
+- name: tensorflow
+  description: "A framework for deep learning"
+  protected_branches:
+  - master
+  type: public
+- name: hadoop
+  description: "A software platform for processing vast amounts of data"
+  protected_branches:
+  - master
+  type: public
+- name: libsvm
+  description: "A Library for Support Vector Machines"
+  protected_branches:
+  - master
+  type: public
+- name: libhdfs
+  description: "The Apache Hadoop Filesystem Library"
+  protected_branches:
+  - master
+  type: public
