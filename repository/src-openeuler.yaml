@@ -1462,11 +1462,6 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: dpkg
-  description: ""
-  protected_branches:
-  - master
-  type: public
 - name: dracut
   description: ""
   protected_branches:
@@ -3227,11 +3222,6 @@ repositories:
   protected_branches:
   - master
   type: private
-- name: icoutils
-  description: ""
-  protected_branches:
-  - master
-  type: public
 - name: icu
   description: ""
   protected_branches:
@@ -3498,11 +3488,6 @@ repositories:
   - master
   type: private
 - name: jackson-bom
-  description: ""
-  protected_branches:
-  - master
-  type: private
-- name: jackson-core
   description: ""
   protected_branches:
   - master
@@ -3838,11 +3823,6 @@ repositories:
   - master
   type: private
 - name: jsch-agent-proxy
-  description: ""
-  protected_branches:
-  - master
-  type: private
-- name: js-jquery
   description: ""
   protected_branches:
   - master
@@ -4729,11 +4709,6 @@ repositories:
   type: public
 - name: libiscsi
   description: ""
-  protected_branches:
-  - master
-  type: public
-- name: libisoburn
-  description: "Library to enable creation and expansion of ISO-9660 filesystems"
   protected_branches:
   - master
   type: public
@@ -8087,11 +8062,6 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: perl-IO-stringy
-  description: ""
-  protected_branches:
-  - master
-  type: public
 - name: perl-IO-Tty
   description: ""
   protected_branches:
@@ -8238,11 +8208,6 @@ repositories:
   - master
   type: public
 - name: perl-Module-CoreList
-  description: ""
-  protected_branches:
-  - master
-  type: public
-- name: perl-Module-Install
   description: ""
   protected_branches:
   - master
@@ -8567,11 +8532,6 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: perl-Sub-Uplevel
-  description: ""
-  protected_branches:
-  - master
-  type: private
 - name: perl-Switch
   description: ""
   protected_branches:
@@ -8888,11 +8848,6 @@ repositories:
   - master
   type: public
 - name: perl-YAML
-  description: ""
-  protected_branches:
-  - master
-  type: public
-- name: perl-YAML-LibYAML
   description: ""
   protected_branches:
   - master
@@ -9297,11 +9252,6 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: pv
-  description: "A tool for monitoringthe progress of data through a pipeline"
-  protected_branches:
-  - master
-  type: public
 - name: pyatspi
   description: ""
   protected_branches:
@@ -9424,11 +9374,6 @@ repositories:
   type: public
 - name: python3
   description: ""
-  protected_branches:
-  - master
-  type: public
-- name: python-alsa
-  description: "Accessing the ALSA API from Python"
   protected_branches:
   - master
   type: public
@@ -10744,11 +10689,6 @@ repositories:
   type: public
 - name: python-zipp
   description: "Backport of pathlib-compatible object wrapper for zip files"
-  protected_branches:
-  - master
-  type: public
-- name: python-zope-interface
-  description: ""
   protected_branches:
   - master
   type: public

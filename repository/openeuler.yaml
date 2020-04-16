@@ -75,7 +75,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: kernel
   description: ""
   protected_branches:
@@ -90,12 +90,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libwd
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: openeuler-jenkins
   description: ""
   protected_branches:
