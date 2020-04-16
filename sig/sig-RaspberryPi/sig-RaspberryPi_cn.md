@@ -46,6 +46,13 @@ https://gitee.com/openeuler/community/tree/master/sig/sig-RaspberryPi/
 ### 邮件列表
 - dev@openeuler.org
 
+### Slack 群组
+- https://openeuler-raspberrypi.slack.com
+
+### 每周会议
+- 时间: 每周二，15:00 - 15:30 +0800 北京时间
+- Zoom MeetID: 881 4204 8958
+
 ### IRC频道
 - #openeuler-raspberrypi
 
