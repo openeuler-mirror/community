@@ -31,7 +31,7 @@
 
 # 联系方式
 
-- [邮件列表](a-tune@openeuler.org)
+- 邮件列表: a-tune@openeuler.org
 
 
 
@@ -44,5 +44,5 @@
 
 repository地址：
 
-- https://gitee.com/openeuler/A-tune
+- https://gitee.com/openeuler/A-Tune
 - https://gitee.com/openeuler/prefetch_tuning
