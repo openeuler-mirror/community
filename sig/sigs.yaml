@@ -2927,3 +2927,11 @@ sigs:
 - name: sig-ROS
   repositories:
   - openeuler/ros
+- name: sig-ai-bigdata
+  repositories:
+  - src-openeuler/jupyter
+  - src-openeuler/caffe
+  - src-openeuler/tensorflow
+  - src-openeuler/hadoop
+  - src-openeuler/libsvm
+  - src-openeuler/libhdfs
