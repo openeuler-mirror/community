@@ -1,7 +1,7 @@
 # Kernel
 
 - openEuler 内核的选型，开发和维护
-- 主线高版本的特性的回合
+- 主线高版本的特性回合
 - CVE及BUG的修复
 - 针对应用场景的性能优化
 - 生态的使能和完善
@@ -39,3 +39,7 @@ Everyone could send patches to openeuler by mailing list.
 repository地址：
 - https://gitee.com/openeuler/kernel
 - https://gitee.com/src-openeuler/kernel
+
+# 常见问题
+
+[FAQ](./faq.md)
