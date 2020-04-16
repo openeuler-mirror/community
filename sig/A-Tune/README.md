@@ -45,4 +45,7 @@
 repository地址：
 
 - https://gitee.com/openeuler/A-Tune
+- https://gitee.com/src-openeuler/A-Tune
 - https://gitee.com/openeuler/prefetch_tuning
+- https://gitee.com/src-openeuler/prefetch_tuning
+
