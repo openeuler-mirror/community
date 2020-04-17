@@ -16,13 +16,13 @@
 
 ### Maintainer列表
 
-- name[@giteeID](giteeID链接)
+- wunianqing[@wunianqing](https://gitee.com/wunianqing)
 
 
 
 ### Committer列表
 
-- name[@giteeID](giteeID链接)
+- wunianqing[@wunianqing](https://gitee.com/wunianqing)
 
 
 
@@ -48,3 +48,6 @@ repository地址：
 - https://gitee.com/openeuler/libkae
 - https://gitee.com/openeuler/libwd
 - https://gitee.com/openeuler/kae_driver
+- https://gitee.com/src-openeuler/libkae
+- https://gitee.com/src-openeuler/libwd
+- https://gitee.com/src-openeuler/kae_driver
