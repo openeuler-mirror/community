@@ -44,6 +44,13 @@ Repository of openEuler kernel source for Raspberry Pi：https://gitee.com/peneu
 ### Mailing list
 - dev@openeuler.org
 
+### Slack Workspace
+- https://openeuler-raspberrypi.slack.com
+
+### Weekly Meeting
+- Time: Every week on Tue, 15:00 - 15:30 +0800
+- Zoom MeetID: 881 4204 8958
+
 ### IRC Channel
 - #openeuler-raspberrypi
 
