@@ -1348,6 +1348,7 @@ sigs:
   - src-openeuler/rpmdevtools
   - src-openeuler/nginx
   - src-openeuler/multilib-rpm-config
+  - src-openeuler/obs_meta
 - name: DB
   repositories:
   - src-openeuler/postgresql
@@ -2501,7 +2502,6 @@ sigs:
   - src-openeuler/objectweb-asm3
   - src-openeuler/objectweb-pom
   - src-openeuler/objenesis
-  - src-openeuler/obs_meta
   - src-openeuler/ocaml-calendar
   - src-openeuler/ocaml-camlp4
   - src-openeuler/ocaml-camomile
