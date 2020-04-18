@@ -113,6 +113,6 @@ Technical Committee通过对引入申请(Pull Request)的评审，管理软件�
 1. 软件的License变化导致openEuler不能集成该软件
 2. 重大安全问题，要求软件被立即移除。
 
-除了以上两个场景之外，openEuler对软件包的退出实行过程化管理。当一个软件申请从src-openeuler中删除时，这个软件首先被托管给sig-Legacy，不再由之前的SIG管理。sig-Legacy表示这个软件进入有限维护模式，这个sig不响应issue和安全漏洞警告。但是相应的软件构建还是正常执行，用户在理解风险的前提下，依然可以安装和使用这个软件。
+除了以上两个场景之外，openEuler对软件包的退出实行过程化管理。当一个软件申请从src-openeuler中删除时，这个软件首先被托管给sig-Recycle，不再由之前的SIG管理。sig-Recycle表示这个软件进入有限维护模式，这个sig不响应issue和安全漏洞警告。但是相应的软件构建还是正常执行，用户在理解风险的前提下，依然可以安装和使用这个软件。
 
-Technical Committee例行审视sig-Legacy中的软件，制定每个软件的删除计划，并且在openeuler/community中公示。
+Technical Committee例行审视sig-Recycle中的软件，制定每个软件的删除计划，并且在openeuler/community中公示。
