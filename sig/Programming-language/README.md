@@ -1,6 +1,6 @@
 # Programming-language
 
-- 移植开发环境相关的组件到openEuler社区，提升在openEuler上的开发效率。
+- 引入开发环境相关的组件到openEuler社区，提升在openEuler上的开发效率。
 - 使开发环境相关包在不同架构上运行
 - 对大家关注的流程开展优化和质量工作
 - 将openEuler社区中的工作成果回馈给上游社区
