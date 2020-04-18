@@ -109,7 +109,7 @@ Technical Committee通过对引入申请(Pull Request)的评审，管理软件�
 
 ### openEuler软件包退出原则
 
-当满足以下两个条件是，openEuler软件包的退出申请可以被立即执行
+当满足以下两个条件是，openEuler软件包的退出申请可以被立即执行，对应repo将从项目中直接删除。
 1. 软件的License变化导致openEuler不能集成该软件
 2. 重大安全问题，要求软件被立即移除。
 
