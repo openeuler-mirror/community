@@ -62,7 +62,7 @@
 
     name=srclocal
 
-    baseurl=http://repo.openeuler.org/openEuler-20.03-LTS/source/aarch64/
+    baseurl=http://repo.openeuler.org/openEuler-20.03-LTS/source/
 
     enabled=1
 
