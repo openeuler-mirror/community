@@ -29,7 +29,6 @@
 - 董剑[@dogsheng](https://gitee.com/dogsheng)
 - 赵磊[@AlexZ11](https://gitee.com/AlexZ11)
 - 朱春意[@zhuchunyi](https://gitee.com/zhuchunyi)
-- 张斌[@maygeek](https://gitee.com/maygeek)
 
 # 联系方式
 
