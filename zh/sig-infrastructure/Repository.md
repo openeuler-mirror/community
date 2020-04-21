@@ -25,7 +25,6 @@
 repositories:
   - name: abattis-cantarell-fonts
     description: "fonts repo"
-    upstream: "https://gitlab.gnome.org/GNOME/cantarell-fonts/"
     type: private
 ```
 
@@ -36,7 +35,6 @@ repositories:
 
 * `abattis-cantarell-fonts`: 你想创建的新仓库名字。
 * `fonts repo`: 新仓库描述。
-* `https://gitlab.gnome.org/GNOME/cantarell-fonts/`: 这个仓库对应的上游社区URL
 * `private`: 表示仓库的类型。
 
   `private`意味着新仓库只对某些特定的人群可见。
@@ -60,7 +58,6 @@ community:
 repositories:
   - name: abattis-cantarell-fonts
     description: "fonts repo"
-    upstream: "https://gitlab.gnome.org/GNOME/cantarell-fonts/"
     type: private
   - name: accountsservice
     description: "account repo"
@@ -112,7 +109,6 @@ community:
 repositories:
   - name: abattis-cantarell-fonts
     description: "fonts repo"
-    upstream: "https://gitlab.gnome.org/GNOME/cantarell-fonts/"
     type: private
   - name: accountsservice
     description: "account repo"
