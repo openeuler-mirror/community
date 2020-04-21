@@ -21,4 +21,5 @@ openEuler的版本命名以 年 + 月 的形式进行命名，例如20.03代表2
 
 + **软件包命名规则**：
   软件包命名除去依照[packaging guidelines](https://gitee.com/myeuler/community/tree/master/zh/packaging-guidelines)中原则进行命名之外，软件包在构建过程中需要依照相关release添加release的tag信息。具体规则如下：
-    - **社区创新版本**：
+    - **社区创新版本**：以CUnit-2.1.3-21.oe2009.aarch64.rpm为例，其中oe2009代表openEuler 2020.09版本
+    - **LTS版本**：以CUnit-2.1.3-21.oe2003LTS.aarch64.rpm为例，其中oe2003LTS代表openEuler 2020.03 LTS版本
