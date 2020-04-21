@@ -9,10 +9,6 @@ Note: The Charter of this SIG follows the convention described in the openEuler 
 
 ## SIG Mission and Scope
 
-src-openeuler当前已经有超过2000个软件包，而openeuler中不超过30个开源项目。
-从这个差异中可以看出openEuler作为一个发行版，绝大部分软件来自其他的上游开源软件社区。
-为了openEuler本身的健康发展，我们需要对上游开源软件的发布情况，与openEuler自身的跟进发布情况有完整的洞察。
-
 src-openeuler already has more than 2000 packages, while openeuler hosts less than 30 projects for now.
 It's obvious that openEuler as a distribution, it imports most of the software components from upstream open source communities.
 For healthy growth of openEuler, we need full insight of the release information of upstream open source communities, and the status of openEuler follow up.
