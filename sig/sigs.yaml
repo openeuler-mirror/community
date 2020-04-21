@@ -899,6 +899,10 @@ sigs:
   - src-openeuler/openslp
   - src-openeuler/mobile-broadband-provider-info
   - src-openeuler/yelp
+  - src-openeuler/cilium
+  - src-openeuler/katran
+  - src-openeuler/xdp-tools
+  - src-openeuler/xdp-cpumap-tc
 - name: Virt
   repositories:
   - src-openeuler/virt-viewer
@@ -2843,6 +2847,9 @@ sigs:
   - src-openeuler/cpuid
   - src-openeuler/delve
   - src-openeuler/atop
+  - src-openeuler/bcc
+  - src-openeuler/bpftrace
+  - src-openeuler/libbpf
 - name: sig-mate-desktop
   repositories:
   - openeuler/mate-desktop

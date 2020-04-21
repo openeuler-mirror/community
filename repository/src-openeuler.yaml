@@ -14117,3 +14117,38 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: cilium
+  description: "API-aware Networking and Security"
+  protected_branches:
+  - master
+  type: public
+- name: katran
+  description: "A high performance layer 4 load balancer"
+  protected_branches:
+  - master
+  type: public
+- name: xdp-tools
+  description: "Utilities and example programs for use with XDP"
+  protected_branches:
+  - master
+  type: public
+- name: xdp-cpumap-tc
+  description: "XDP cpumap redirect combined with TC bandwidth shaping"
+  protected_branches:
+  - master
+  type: public
+- name: libbpf
+  description: "Automated upstream mirror for libbpf stand-alone build."
+  protected_branches:
+  - master
+  type: public
+- name: bcc
+  description: "BCC - Tools for BPF-based Linux IO analysis, networking, monitoring, and more"
+  protected_branches:
+  - master
+  type: public
+- name: bpftrace
+  description: "High-level tracing language for Linux eBPF"
+  protected_branches:
+  - master
+  type: public
