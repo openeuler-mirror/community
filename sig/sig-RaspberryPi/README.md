@@ -11,12 +11,12 @@
 
 # 成员
 
-### Maintainer列表
+### Maintainer 列表
 
 - 王建民[@jianminw](https://gitee.com/jianminw)
 - 方亚芬[@woqidaideshi](https://gitee.com/woqidaideshi)
 
-### Committer列表
+### Committer 列表
 
 - 王建民[@jianminw](https://gitee.com/jianminw)
 - 方亚芬[@woqidaideshi](https://gitee.com/woqidaideshi)
@@ -32,7 +32,7 @@
 
 项目名称：RaspberryPi
 
-repository地址：
+repository 地址：
 
 - https://gitee.com/openeuler/raspberrypi
 - https://gitee.com/openeuler/raspberrypi-kernel
