@@ -1,8 +1,8 @@
-# DoraCMS
+# cms
 
 - 遵循 MIT 协议完全开源。
-- 基于doracms项目丰富openEuler生态圈。
-- doracms开源项目版本发布、更新以及维护。
+- 基于cms项目丰富openEuler生态圈。
+- cms开源项目版本发布、更新以及维护。
 
 # 成员
 
@@ -18,13 +18,13 @@
 
 # 联系方式
 
-- [邮件列表](sig-doracms@openeuler.org)
+- [邮件列表](sig-cms@openeuler.org)
 
 
 # 项目清单
 
-项目名称：doracms
+项目名称：cms
 
 repository地址：
 
-- https:/gitee.com/openeuler/doracms/
+- https:/gitee.com/openeuler/cms/
