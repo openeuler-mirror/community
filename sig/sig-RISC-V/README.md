@@ -3,8 +3,10 @@
 # RISC-V
 
 - 编译构建openEuler的RISC-V运行版本
-- 搭建openEuler源码包的RISC-V交叉编译环境，构建封装交叉编译环境QEMU/KVM虚拟机镜像
-- 开发openEuler的RISC-V版本构建脚本
+- 搭建openEuler源码包的RISC-V交叉编译环境，并构建封装交叉编译环境QEMU/KVM虚拟机镜像
+- 开发openEuler的RISC-V版本构建流程脚本
+- SRPM适应RISC-V架构编译的必要补丁
+- 先构建openEuler面向RISC-V的最小可运行版本（约120多个包），然后迭代增加支持大部分包(约2000多个包，按照社区讨论可以调整）
 - 及时响应用户反馈，解决相关问题
 
 # 组织会议
@@ -15,13 +17,15 @@
 
 ### Maintainer列表
 
-- Zhou Peng[@zhoupeng](https://gitee.com/zhoupeng)，zhoupeng@iscas.ac.cn
-
+- Peng Zhou[@zhoupeng01](https://gitee.com/zhoupeng01)，zhoupeng@iscas.ac.cn
+- Xuzhou Zhang[@whoisxxx](https://gitee.com/whoisxxx)，zhangxuzhou4@huawei.com
 
 
 ### Committer列表
 
-- Zhou Peng[@zhoupeng](https://gitee.com/zhoupeng)
+- Peng Zhou[@zhoupeng01](https://gitee.com/zhoupeng01)
+- Xuzhou Zhang[@whoisxxx](https://gitee.com/whoisxxx)
+
 
 
 
@@ -41,5 +45,5 @@
 
 repository地址：
 
-- 
+- 新建(进行中)
 - 
