@@ -50,7 +50,7 @@ The openEuler RaspberryPi SIG aims at migrating openEuler to Raspberry Pi, in or
   - The link to join this workspace will be periodically updated in [raspberrypi repo](https://gitee.com/openeuler/raspberrypi)
 
 ### Weekly Meeting
-- Time: Every week on Tue, 15:00 - 15:30 +0800
+- Time: Every Tuesday, 15:00 - 15:30 +0800
 - Zoom MeetID: 881 4204 8958
 
 ### IRC Channel
