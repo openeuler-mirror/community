@@ -1,5 +1,5 @@
 
-# AUTOMATION SIG
+# EasyLife SIG
 
 ## SIG组工作目标和范围
 
