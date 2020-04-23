@@ -1,7 +1,6 @@
 
-# Application to create AUTOMATION SIG
+# Application to create EasyLife SIG
 
-# Application to create a new SIG
 English | [简体中文](./sig-automation_cn.md)
 
 
