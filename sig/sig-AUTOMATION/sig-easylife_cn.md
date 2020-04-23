@@ -1,5 +1,5 @@
 
-# 新建AUTOMATION SIG
+# 新建EasyLife SIG
 [English](./sig-automation.md) | 简体中文
 
 
