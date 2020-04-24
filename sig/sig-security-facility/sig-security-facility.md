@@ -14,6 +14,28 @@ Sig-security mainly discusses the existing or future planned security technologi
 
 - Discuss openEuler's future security technology planning
 
+### Maintainer
+
+- zhujianwei001
+
+- mailofzxf
+
+- steven
+
+### Committer
+
+- huangzq6
+
+- 吃牛的蛙
+
+- nettingsisyphus
+
+- mkitgrt
+
+- dawny_sun
+
+- guoxiaoqi
+
 
 ### Deliverables
 
