@@ -42,8 +42,36 @@ Sig-security mainly discusses the existing or future planned security technologi
 What and in what form the SIG is responsible for delivering
  
 - Source code and tar
-
-- openeuler/apparmor
+  - src-openeuler/apparmor
+  - src-openeuler/tpm2-tools
+  - src-openeuler/setroubleshoot
+  - src-openeuler/openssl
+  - src-openeuler/tpm2-abrmd
+  - src-openeuler/libselinux
+  - src-openeuler/libsepol
+  - src-openeuler/keyutils
+  - src-openeuler/mcstrans
+  - src-openeuler/selinux-policy
+  - src-openeuler/crypto-policies
+  - src-openeuler/checkpolicy
+  - src-openeuler/libcap
+  - src-openeuler/gnupg2
+  - src-openeuler/cracklib
+  - src-openeuler/policycoreutils
+  - src-openeuler/pyOpenSSL
+  - src-openeuler/libsemanage
+  - src-openeuler/openssl-pkcs11
+  - src-openeuler/gnutls
+  - src-openeuler/mokutil
+  - src-openeuler/pam
+  - src-openeuler/libpwquality
+  - src-openeuler/softhsm
+  - src-openeuler/nss
+  - src-openeuler/security-tool
+  - src-openeuler/tpm2-tss
+  - src-openeuler/audit
+  - src-openeuler/nss-pem
+  - src-openeuler/tpm2-abrmd-selinux
 
 
 ### Repositories and description managed by this SIG
