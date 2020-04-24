@@ -45,11 +45,23 @@ sig-security_facility主要讨论在openEuler社区版本中已有或未来规�
 
 - mailofzxf
 
+- steven
+
 
 
 ### Committer列表
 
-- name[@giteeID](giteeID链接)
+- huangzq6
+
+- 吃牛的蛙
+
+- nettingsisyphus
+
+- mkitgrt
+
+- dawny_sun
+
+- guoxiaoqi
 
 
 # 联系方式
