@@ -1415,7 +1415,6 @@ sigs:
   - src-openeuler/symlinks
   - src-openeuler/perl-libnet
   - src-openeuler/perl-Encode-Locale
-  - src-openeuler/tpm2-tools
   - src-openeuler/deltarpm
   - src-openeuler/CUnit
   - src-openeuler/m4
@@ -1432,7 +1431,6 @@ sigs:
   - src-openeuler/rarian
   - src-openeuler/osinfo-db
   - src-openeuler/edac-utils
-  - src-openeuler/setroubleshoot
   - src-openeuler/aide
   - src-openeuler/perl-IO-Socket-IP
   - src-openeuler/python-webencodings
@@ -1442,11 +1440,9 @@ sigs:
   - src-openeuler/pyparted
   - src-openeuler/libedit
   - src-openeuler/chrpath
-  - src-openeuler/openssl
   - src-openeuler/perl-Net-SSLeay
   - src-openeuler/perl-IPC-SysV
   - src-openeuler/gssproxy
-  - src-openeuler/tpm2-abrmd
   - src-openeuler/libdatrie
   - src-openeuler/libnsl2
   - src-openeuler/authselect
@@ -1462,15 +1458,12 @@ sigs:
   - src-openeuler/patch
   - src-openeuler/perl-URI
   - src-openeuler/zlib
-  - src-openeuler/libselinux
   - src-openeuler/expat
   - src-openeuler/make
   - src-openeuler/python-jsonschema
   - src-openeuler/perl-podlators
   - src-openeuler/perl-Filter
   - src-openeuler/ca-certificates
-  - src-openeuler/libsepol
-  - src-openeuler/keyutils
   - src-openeuler/isomd5sum
   - src-openeuler/jose
   - src-openeuler/shadow
@@ -1484,7 +1477,6 @@ sigs:
   - src-openeuler/perl-Term-ANSIColor
   - src-openeuler/perl-Filter-Simple
   - src-openeuler/libtommath
-  - src-openeuler/mcstrans
   - src-openeuler/perl-autodie
   - src-openeuler/wpa_supplicant
   - src-openeuler/perl-Test-Harness
@@ -1510,7 +1502,6 @@ sigs:
   - src-openeuler/gpgme
   - src-openeuler/perl-CPAN-Meta-Requirements
   - src-openeuler/python-setuptools
-  - src-openeuler/selinux-policy
   - src-openeuler/perl-Text-ParseWords
   - src-openeuler/ghostscript
   - src-openeuler/python-pip
@@ -1535,7 +1526,6 @@ sigs:
   - src-openeuler/kexec-tools
   - src-openeuler/opensc
   - src-openeuler/util-linux
-  - src-openeuler/crypto-policies
   - src-openeuler/ed
   - src-openeuler/bison
   - src-openeuler/orc
@@ -1543,7 +1533,6 @@ sigs:
   - src-openeuler/perl-HTTP-Tiny
   - src-openeuler/xz
   - src-openeuler/libplist
-  - src-openeuler/checkpolicy
   - src-openeuler/xmlto
   - src-openeuler/libevent
   - src-openeuler/docbook-dtds
@@ -1552,7 +1541,6 @@ sigs:
   - src-openeuler/perl-Error
   - src-openeuler/dbus-glib
   - src-openeuler/crontabs
-  - src-openeuler/libcap
   - src-openeuler/python-crypto
   - src-openeuler/adcli
   - src-openeuler/perl-B-Debug
@@ -1567,12 +1555,9 @@ sigs:
   - src-openeuler/yajl
   - src-openeuler/python-pysocks
   - src-openeuler/mtdev
-  - src-openeuler/gnupg2
-  - src-openeuler/cracklib
   - src-openeuler/libdnf
   - src-openeuler/python-inotify
   - src-openeuler/openEuler-indexhtml
-  - src-openeuler/policycoreutils
   - src-openeuler/python-jsonpointer
   - src-openeuler/chkconfig
   - src-openeuler/perl-Thread-Queue
@@ -1588,7 +1573,6 @@ sigs:
   - src-openeuler/lzop
   - src-openeuler/nss_nis
   - src-openeuler/polkit-pkla-compat
-  - src-openeuler/pyOpenSSL
   - src-openeuler/man-pages
   - src-openeuler/python-cryptography
   - src-openeuler/rpm
@@ -1598,7 +1582,6 @@ sigs:
   - src-openeuler/perl-Module-Load
   - src-openeuler/perl-Storable
   - src-openeuler/perl-Digest-MD5
-  - src-openeuler/libsemanage
   - src-openeuler/libcomps
   - src-openeuler/perl-JSON-PP
   - src-openeuler/at
@@ -1612,8 +1595,6 @@ sigs:
   - src-openeuler/dracut
   - src-openeuler/osinfo-db-tools
   - src-openeuler/perl-Config-Perl-V
-  - src-openeuler/openssl-pkcs11
-  - src-openeuler/gnutls
   - src-openeuler/perl-Params-Check
   - src-openeuler/perl-Scalar-List-Utils
   - src-openeuler/perl-Text-Diff
@@ -1624,7 +1605,6 @@ sigs:
   - src-openeuler/perl-XML-Parser
   - src-openeuler/mlocate
   - src-openeuler/vim
-  - src-openeuler/mokutil
   - src-openeuler/libev
   - src-openeuler/libgexiv2
   - src-openeuler/drpm
@@ -1647,7 +1627,6 @@ sigs:
   - src-openeuler/python-prettytable
   - src-openeuler/libdbi
   - src-openeuler/libbytesize
-  - src-openeuler/pam
   - src-openeuler/expect
   - src-openeuler/python-jwt
   - src-openeuler/sharutils
@@ -1671,7 +1650,6 @@ sigs:
   - src-openeuler/passwd
   - src-openeuler/perl-PerlIO-via-QuotedPrint
   - src-openeuler/perl-Math-BigRat
-  - src-openeuler/libpwquality
   - src-openeuler/perl-Text-Balanced
   - src-openeuler/perl-Math-BigInt-FastCalc
   - src-openeuler/bash-completion
@@ -1699,7 +1677,6 @@ sigs:
   - src-openeuler/realmd
   - src-openeuler/perl-List-MoreUtils-XS
   - src-openeuler/perl-version
-  - src-openeuler/softhsm
   - src-openeuler/perl-Locale-Codes
   - src-openeuler/perl-Compress-Raw-Zlib
   - src-openeuler/python-decorator
@@ -1727,11 +1704,9 @@ sigs:
   - src-openeuler/hesiod
   - src-openeuler/libmnl
   - src-openeuler/perl-IPC-System-Simple
-  - src-openeuler/nss
   - src-openeuler/pcre
   - src-openeuler/python-backports
   - src-openeuler/libconfig
-  - src-openeuler/security-tool
   - src-openeuler/llvm
   - src-openeuler/pyxattr
   - src-openeuler/asciidoc
@@ -1740,7 +1715,6 @@ sigs:
   - src-openeuler/ncompress
   - src-openeuler/dos2unix
   - src-openeuler/ustr
-  - src-openeuler/tpm2-tss
   - src-openeuler/gc
   - src-openeuler/python-simpleline
   - src-openeuler/unzip
@@ -1808,11 +1782,9 @@ sigs:
   - src-openeuler/perl-PathTools
   - src-openeuler/libxml2
   - src-openeuler/libsecret
-  - src-openeuler/audit
   - src-openeuler/perl-Pod-Parser
   - src-openeuler/binutils
   - src-openeuler/perl-Math-BigInt
-  - src-openeuler/nss-pem
   - src-openeuler/less
   - src-openeuler/tcl
   - src-openeuler/perl-Test-Simple
@@ -1862,7 +1834,6 @@ sigs:
   - src-openeuler/libnfs
   - src-openeuler/libomxil-bellagio
   - src-openeuler/lutok
-  - src-openeuler/tpm2-abrmd-selinux
 - name: Container
   repositories:
   - src-openeuler/clibcni
@@ -2947,3 +2918,35 @@ sigs:
 - name: sig-EasyLife
   repositories:
   - openeuler/openEuler-Advisor
+- name: sig-security-facility
+  repositories:
+  - src-openeuler/apparmor
+  - src-openeuler/tpm2-tools
+  - src-openeuler/setroubleshoot
+  - src-openeuler/openssl
+  - src-openeuler/tpm2-abrmd
+  - src-openeuler/libselinux
+  - src-openeuler/libsepol
+  - src-openeuler/keyutils
+  - src-openeuler/mcstrans
+  - src-openeuler/selinux-policy
+  - src-openeuler/crypto-policies
+  - src-openeuler/checkpolicy
+  - src-openeuler/libcap
+  - src-openeuler/gnupg2
+  - src-openeuler/cracklib
+  - src-openeuler/policycoreutils
+  - src-openeuler/pyOpenSSL
+  - src-openeuler/libsemanage
+  - src-openeuler/openssl-pkcs11
+  - src-openeuler/gnutls
+  - src-openeuler/mokutil
+  - src-openeuler/pam
+  - src-openeuler/libpwquality
+  - src-openeuler/softhsm
+  - src-openeuler/nss
+  - src-openeuler/security-tool
+  - src-openeuler/tpm2-tss
+  - src-openeuler/audit
+  - src-openeuler/nss-pem
+  - src-openeuler/tpm2-abrmd-selinux
