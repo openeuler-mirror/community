@@ -35,7 +35,7 @@ openEuler试图规范化多种多样的开源项目到一个连贯的系统。�
 
 ### 关联文档
 
-如果你计划将软件引入到openEuler official software repository。请参考 [Join the package collection maintainers]().
+如果你计划将软件引入到openEuler official software repository。请参考 [社区贡献者指南](https://openeuler.org/zh/developer.html).
 
 ### 适用性
 
