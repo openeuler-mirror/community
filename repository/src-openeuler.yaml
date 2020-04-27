@@ -13143,10 +13143,15 @@ repositories:
   - master
   type: public
 - name: openjdk-1.8.0
-  description: "openEuler Community builds of OpenJDK"
+  description: "openEuler Community builds of OpenJDK 8"
   protected_branches:
   - master
   type: public
+- name: openjdk-11
+  description: "openEuler Community builds of OpenJDK 11"
+  protected_branches:
+  - master
+  type: private
 - name: python-mysqlclient
   description: "MySQL database connector for Python"
   protected_branches:
