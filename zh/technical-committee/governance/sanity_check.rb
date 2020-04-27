@@ -36,7 +36,7 @@ repositories.each_key { |repo|
 }
 
 print "\n\nCheck 2: "
-print "Repository in src-openeuler or openeuler should be duplicated.\n"
+print "Repository in src-openeuler or openeuler should never be duplicated.\n"
 repositories = Hash.new
 for s in sigs do
 	s[1].each { |sig| 
@@ -108,6 +108,7 @@ openeuler_repos.each { |openeuler_repo|
 		errors_found = errors_found + 1
 	end
 	if repositories[name] == nil then
+		next if exp_set.include?(name)
 		print "Repository ", name, " in openeuler.yaml cannot be found in sigs.yaml\n"
 		errors_found = errors_found + 1		
 	next

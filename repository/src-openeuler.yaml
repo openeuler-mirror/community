@@ -297,6 +297,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: apparmor
+  description: "AppArmor is a Linux kernel security module that allows the system administrator to restrict programs' capabilities with per-program profiles."
+  protected_branches:
+  - master
+  type: public
 - name: aqute-bnd
   description: ""
   protected_branches:
@@ -1021,7 +1026,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: compiler-rt
   description: ""
   protected_branches:
@@ -2591,12 +2596,12 @@ repositories:
   description: "Cross-platform file system notifications for Go."
   protected_branches:
   - master
-  type: private
+  type: public
 - name: golang-github-go-tomb-tomb
   description: "Enables Go programs to comfortably encode and decode YAML values."
   protected_branches:
   - master
-  type: private
+  type: public
 - name: golang-github-golang-sys
   description: ""
   protected_branches:
@@ -2606,17 +2611,17 @@ repositories:
   description: "Go package for reading from continously updated files (tail -f)."
   protected_branches:
   - master
-  type: private
+  type: public
 - name: golang-github-onsi-ginkgo
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: golang-github-onsi-gomega
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: golang-github-russross-blackfriday
   description: ""
   protected_branches:
@@ -2636,7 +2641,7 @@ repositories:
   description: "Supplementary Go cryptography libraries."
   protected_branches:
   - master
-  type: private
+  type: public
 - name: golang-googlecode-goprotobuf
   description: ""
   protected_branches:
@@ -2646,22 +2651,22 @@ repositories:
   description: "Unit tests for golang-googlecode-net package."
   protected_branches:
   - master
-  type: private
+  type: public
 - name: golang-googlecode-text
   description: "Supplementary Go text libraries."
   protected_branches:
   - master
-  type: private
+  type: public
 - name: golang-googlecode-tools
   description: "Displays performance changes between benchmarks for the Go programming language."
   protected_branches:
   - master
-  type: private
+  type: public
 - name: golang-gopkg-yaml
   description: "Yaml support for the Go language."
   protected_branches:
   - master
-  type: private
+  type: public
 - name: google-droid-fonts
   description: ""
   protected_branches:
@@ -14172,4 +14177,3 @@ repositories:
   protected_branches:
   - master
   type: public
-
