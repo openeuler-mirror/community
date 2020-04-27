@@ -2883,7 +2883,6 @@ sigs:
   - src-openeuler/corosync-qdevice
   - src-openeuler/drbd
   - src-openeuler/drbd-utils
-<<<<<<< HEAD
 - name: sig-QA
   repositories:
   - openeuler/QA
@@ -2891,7 +2890,7 @@ sigs:
   - openeuler/avocado-vt
   - openeuler/tp-libvirt
   - openeuler/tp-qemu
-=======
+  - openeuler/EulerRobot
 - name: sig-ROS
   repositories:
   - openeuler/ros
@@ -2959,4 +2958,3 @@ sigs:
   - src-openeuler/audit
   - src-openeuler/nss-pem
   - src-openeuler/tpm2-abrmd-selinux
->>>>>>> c706679d7bf6e9c6145b73cfb99d184092e7624f
