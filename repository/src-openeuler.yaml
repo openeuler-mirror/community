@@ -352,6 +352,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: assertj-core
+  description: "A rich and intuitive set of strongly-typed assertions to use for unit testing (either with JUnit or TestNG)."
+  protected_branches:
+  - master
+  type: public
 - name: assimp
   description: ""
   protected_branches:
@@ -1457,11 +1462,6 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: dpkg
-  description: ""
-  protected_branches:
-  - master
-  type: public
 - name: dracut
   description: ""
   protected_branches:
@@ -2297,6 +2297,11 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: gmavenplus-plugin
+  description: "GMavenPlus is a rewrite of GMaven, a Maven plugin that allows you to integrate Groovy into your Maven projects."
+  protected_branches:
+  - master
+  type: public
 - name: gmetrics
   description: "Groovy library that provides reports and metrics for Groovy code."
   protected_branches:
@@ -2563,7 +2568,7 @@ repositories:
   - master
   type: public
 - name: golang
-  description: ""
+  description: "golang package"
   protected_branches:
   - master
   type: public
@@ -3217,11 +3222,6 @@ repositories:
   protected_branches:
   - master
   type: private
-- name: icoutils
-  description: ""
-  protected_branches:
-  - master
-  type: public
 - name: icu
   description: ""
   protected_branches:
@@ -3492,11 +3492,6 @@ repositories:
   protected_branches:
   - master
   type: private
-- name: jackson-core
-  description: ""
-  protected_branches:
-  - master
-  type: private
 - name: jackson-databind
   description: ""
   protected_branches:
@@ -3624,6 +3619,11 @@ repositories:
   type: public
 - name: jbigkit
   description: ""
+  protected_branches:
+  - master
+  type: public
+- name: jboss-el
+  description: "Expression Language 2.2 API classes."
   protected_branches:
   - master
   type: public
@@ -3823,11 +3823,6 @@ repositories:
   - master
   type: private
 - name: jsch-agent-proxy
-  description: ""
-  protected_branches:
-  - master
-  type: private
-- name: js-jquery
   description: ""
   protected_branches:
   - master
@@ -4714,11 +4709,6 @@ repositories:
   type: public
 - name: libiscsi
   description: ""
-  protected_branches:
-  - master
-  type: public
-- name: libisoburn
-  description: "Library to enable creation and expansion of ISO-9660 filesystems"
   protected_branches:
   - master
   type: public
@@ -6427,6 +6417,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: mockito
+  description: "Mockito is a mocking framework that tastes really good. It lets you write beautiful tests with clean & simple API. Mockito doesn't give you hangover because the tests are very readable and they produce clean verification errors."
+  protected_branches:
+  - master
+  type: public
 - name: mod_auth_gssapi
   description: ""
   protected_branches:
@@ -6921,7 +6916,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: ocaml
   description: ""
   protected_branches:
@@ -8067,11 +8062,6 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: perl-IO-stringy
-  description: ""
-  protected_branches:
-  - master
-  type: public
 - name: perl-IO-Tty
   description: ""
   protected_branches:
@@ -8218,11 +8208,6 @@ repositories:
   - master
   type: public
 - name: perl-Module-CoreList
-  description: ""
-  protected_branches:
-  - master
-  type: public
-- name: perl-Module-Install
   description: ""
   protected_branches:
   - master
@@ -8547,11 +8532,6 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: perl-Sub-Uplevel
-  description: ""
-  protected_branches:
-  - master
-  type: private
 - name: perl-Switch
   description: ""
   protected_branches:
@@ -8868,11 +8848,6 @@ repositories:
   - master
   type: public
 - name: perl-YAML
-  description: ""
-  protected_branches:
-  - master
-  type: public
-- name: perl-YAML-LibYAML
   description: ""
   protected_branches:
   - master
@@ -9277,11 +9252,6 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: pv
-  description: "A tool for monitoringthe progress of data through a pipeline"
-  protected_branches:
-  - master
-  type: public
 - name: pyatspi
   description: ""
   protected_branches:
@@ -9404,11 +9374,6 @@ repositories:
   type: public
 - name: python3
   description: ""
-  protected_branches:
-  - master
-  type: public
-- name: python-alsa
-  description: "Accessing the ALSA API from Python"
   protected_branches:
   - master
   type: public
@@ -10727,11 +10692,6 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: python-zope-interface
-  description: ""
-  protected_branches:
-  - master
-  type: public
 - name: python3-mallard-ducktype
   description: ""
   protected_branches:
@@ -10824,6 +10784,11 @@ repositories:
   type: public
 - name: qt-assistant-adp
   description: ""
+  protected_branches:
+  - master
+  type: public
+- name: qt-settings
+  description: "Configuration files for qt"
   protected_branches:
   - master
   type: public
@@ -11669,6 +11634,11 @@ repositories:
   type: private
 - name: sphinx
   description: "Free open-source SQL full-text search engine"
+  protected_branches:
+  - master
+  type: public
+- name: spock
+  description: "spock is a testing and specification framework for java and Groovy applications"
   protected_branches:
   - master
   type: public
@@ -13932,6 +13902,147 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: mate-desktop
+  description: "Library with common API for various MATE modules "
+  protected_branches:
+  - master
+  type: public
+- name: mate-common
+  description: "Common scripts and macros to develop with MATE"
+  protected_branches:
+  - master
+  type: public
+- name: mate-control-center
+  description: "Utilities to configure the MATE desktop "
+  protected_branches:
+  - master
+  type: public
+- name: caja
+  description: "Caja, the file manager for the MATE desktop"
+  protected_branches:
+  - master
+  type: public
+- name: caja-extensions
+  description: "Set of extensions for Caja, the MATE file manager"
+  protected_branches:
+  - master
+  type: public
+- name: mate-system-monitor
+  description: "Process viewer and system resource monitor for MATE"
+  protected_branches:
+  - master
+  type: public
+- name: mate-backgrounds
+  description: "This module contains a set of backgrounds packaged with the MATE desktop."
+  protected_branches:
+  - master
+  type: public
+- name: mate-utils
+  description: ""
+  protected_branches:
+  - master
+  type: public
+- name: mate-settings-daemon
+  description: "MATE settings daemon"
+  protected_branches:
+  - master
+  type: public
+- name: mate-screensaver
+  description: "MATE screen saver and locker"
+  protected_branches:
+  - master
+  type: public
+- name: mate-session-manager
+  description: "MATE session manager"
+  protected_branches:
+  - master
+  type: public
+- name: mate-panel
+  description: "MATE panel"
+  protected_branches:
+  - master
+  type: public
+- name: mate-polkit
+  description: "Authentication Agent for PolicyKit and MATE"
+  protected_branches:
+  - master
+  type: public
+- name: mate-power-manager
+  description: "Power management tool for the MATE desktop"
+  protected_branches:
+  - master
+  type: public
+- name: mate-applets
+  description: "Applets for use with the MATE panel"
+  protected_branches:
+  - master
+  type: public
+- name: mate-themes
+  description: "Official themes for the MATE desktop"
+  protected_branches:
+  - master
+  type: public
+- name: mate-icon-theme
+  description: "MATE default icon theme"
+  protected_branches:
+  - master
+  type: public
+- name: mate-calc
+  description: "Calculator for MATE"
+  protected_branches:
+  - master
+  type: public
+- name: mate-media
+  description: "Media tools for MATE"
+  protected_branches:
+  - master
+  type: public
+- name: mate-menus
+  description: "Library for the Desktop Menu freedesktop.org specification"
+  protected_branches:
+  - master
+  type: public
+- name: mate-notification-daemon
+  description: "Daemon to display passive pop-up notifications"
+  protected_branches:
+  - master
+  type: public
+- name: mate-terminal
+  description: "The MATE Terminal Emulator"
+  protected_branches:
+  - master
+  type: public
+- name: mate-user-guide
+  description: "MATE Desktop User Guide"
+  protected_branches:
+  - master
+  type: public
+- name: libmateweather
+  description: "Library to access weather information from online services"
+  protected_branches:
+  - master
+  type: public
+- name: libmatemixer
+  description: "Mixer library for MATE Desktop"
+  protected_branches:
+  - master
+  type: public
+- name: libmatekbd
+  description: "Keyboard management library"
+  protected_branches:
+  - master
+  type: public
+- name: eom
+  description: "An image viewer for MATE"
+  protected_branches:
+  - master
+  type: public
+- name: marco
+  description: "MATE default window manager"
+  protected_branches:
+  - master
+  type: public
+
 - name: delve
   description: "A debugger for the Go programming language"
   protected_branches:
@@ -13972,4 +14083,72 @@ repositories:
   type: public
 - name: drbd-utils
   description: "DRBD common tools"
+  type: public
+- name: atop
+  description: "atop is an interactive monitor to view the load on a Linux system"
+  type: public
+- name: jupyter
+  description: "Jupyter is an environment for interactive computing in multiple languages."
+  protected_branches:
+  - master
+  type: public
+- name: caffe
+  description: "A framework for deep learning"
+  protected_branches:
+  - master
+  type: public
+- name: tensorflow
+  description: "A framework for deep learning"
+  protected_branches:
+  - master
+  type: public
+- name: hadoop
+  description: "A software platform for processing vast amounts of data"
+  protected_branches:
+  - master
+  type: public
+- name: libsvm
+  description: "A Library for Support Vector Machines"
+  protected_branches:
+  - master
+  type: public
+- name: libhdfs
+  description: "The Apache Hadoop Filesystem Library"
+  protected_branches:
+  - master
+  type: public
+- name: cilium
+  description: "API-aware Networking and Security"
+  protected_branches:
+  - master
+  type: public
+- name: katran
+  description: "A high performance layer 4 load balancer"
+  protected_branches:
+  - master
+  type: public
+- name: xdp-tools
+  description: "Utilities and example programs for use with XDP"
+  protected_branches:
+  - master
+  type: public
+- name: xdp-cpumap-tc
+  description: "XDP cpumap redirect combined with TC bandwidth shaping"
+  protected_branches:
+  - master
+  type: public
+- name: libbpf
+  description: "Automated upstream mirror for libbpf stand-alone build."
+  protected_branches:
+  - master
+  type: public
+- name: bcc
+  description: "BCC - Tools for BPF-based Linux IO analysis, networking, monitoring, and more"
+  protected_branches:
+  - master
+  type: public
+- name: bpftrace
+  description: "High-level tracing language for Linux eBPF"
+  protected_branches:
+  - master
   type: public
