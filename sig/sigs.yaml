@@ -1795,7 +1795,6 @@ sigs:
   - src-openeuler/babeltrace
   - src-openeuler/apr-util
   - src-openeuler/python3
-  - src-openeuler/python2
   - src-openeuler/clevis
   - src-openeuler/perl-DB_File
   - src-openeuler/libsigsegv
@@ -2863,6 +2862,9 @@ sigs:
   - src-openeuler/ukui-screenshot
   - src-openeuler/ukui-indicators
   - src-openeuler/biometric-authentication
+- name: sig-recycle
+  repositories:
+  - src-openeuler/python2
 - name: sig-RaspberryPi
   repositories:
   - openeuler/raspberrypi
