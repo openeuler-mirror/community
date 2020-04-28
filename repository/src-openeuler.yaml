@@ -1,4 +1,4 @@
-community: src-openeuler
+﻿community: src-openeuler
 repositories:
 - name: aalib
   description: ""
@@ -14174,6 +14174,11 @@ repositories:
   type: public
 - name: raspberry-build
   description: "Scripts of building images for Raspberry Pi"
+  protected_branches:
+  - master
+  type: public
+- name: bounds_checking_function
+  description: "Enhanced safety functions"
   protected_branches:
   - master
   type: public
