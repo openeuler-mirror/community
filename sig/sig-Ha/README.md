@@ -16,7 +16,7 @@
 # 成员
 
 ### Maintainers列表
-- 侯健[@kylinos-cn](https://gitee.com/kylinos-cn)
+- 侯健[@hjimmy](https://gitee.com/hjimmy)
 - 付惠惠[@huihui0311](https://gitee.com/huihui0311)
 
 ### Committers列表

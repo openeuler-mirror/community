@@ -55,8 +55,8 @@ Ha相关软件包的仓库如下，详见： http://archive.kernel.org/centos-va
     https://gitee.com/openeuler/community/tree/master/sig/sig-Ha/
 
 ### Maintainers
-- kylinos-cn
 - hjimmy
+- hjimmy1
 - huihui0311
 
 ### Committers
@@ -69,5 +69,5 @@ Ha相关软件包的仓库如下，详见： http://archive.kernel.org/centos-va
 - #openeuler-dev
 
 ### 对外联络人
-- kylinos-cn
 - hjimmy
+- hjimmy1
