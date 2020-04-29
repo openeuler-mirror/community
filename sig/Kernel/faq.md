@@ -84,7 +84,8 @@ perf spe-c2c report
 
 ## 如何使能 MPAM?
 
-- 在内核启动参数中增加 mpam, 即在openEuler内核使能了 MPAM 驱动
+- 在内核启动参数中增加 mpam, 即在openEuler内核使能了 [MPAM](./mpam.md) 驱动
+- [鲲鹏 920 服务器上如何使用和测试 mpam](./mpam.md)
 
 注意事项：
 - 确认 BIOS 版本已使能 MPAM：如果 BIOS 没有使能的话，只 kernel 使能，会导致系统 crash
