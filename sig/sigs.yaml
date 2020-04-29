@@ -335,7 +335,6 @@ sigs:
   - src-openeuler/perl-Devel-CheckLib
   - src-openeuler/python-whoosh
   - src-openeuler/qt5-qtwayland
-  - src-openeuler/golang-github-cpuguy83-go-md2man
   - src-openeuler/perl-Module-Runtime
   - src-openeuler/mvapich2
   - src-openeuler/python-more-itertools
@@ -454,7 +453,6 @@ sigs:
   - src-openeuler/openblas
   - src-openeuler/spice-protocol
   - src-openeuler/libgnome-keyring
-  - src-openeuler/golang-github-russross-blackfriday
   - src-openeuler/pyelftools
   - src-openeuler/python-tornado
   - src-openeuler/python-httpretty
@@ -899,6 +897,10 @@ sigs:
   - src-openeuler/openslp
   - src-openeuler/mobile-broadband-provider-info
   - src-openeuler/yelp
+  - src-openeuler/cilium
+  - src-openeuler/katran
+  - src-openeuler/xdp-tools
+  - src-openeuler/xdp-cpumap-tc
 - name: Virt
   repositories:
   - src-openeuler/virt-viewer
@@ -947,7 +949,6 @@ sigs:
   - src-openeuler/python-joblib
   - src-openeuler/python-threadpoolctl
   - src-openeuler/perl-Class-Inspector
-  - src-openeuler/golang-github-coreos-go-iptables
   - src-openeuler/gavl
   - src-openeuler/python-qt5
   - src-openeuler/sox
@@ -958,7 +959,6 @@ sigs:
   - src-openeuler/perl-File-ShareDir-Install
   - src-openeuler/capstone
   - src-openeuler/osc
-  - src-openeuler/golang-github-d2g-dhcp4
   - src-openeuler/python-bcrypt
   - src-openeuler/mpg123
   - src-openeuler/libgovirt
@@ -990,7 +990,6 @@ sigs:
   - src-openeuler/gtksourceview3
   - src-openeuler/clucene
   - src-openeuler/python-flask-restful
-  - src-openeuler/golang-googlecode-goprotobuf
   - src-openeuler/perl-Sys-CPU
   - src-openeuler/marisa
   - src-openeuler/festival-freebsoft-utils
@@ -1035,7 +1034,6 @@ sigs:
   - src-openeuler/gstreamer1-plugins-good
   - src-openeuler/qt5-doc
   - src-openeuler/xapian-core
-  - src-openeuler/golang-github-vishvananda-netlink
   - src-openeuler/babl
   - src-openeuler/sip
   - src-openeuler/lame
@@ -1052,7 +1050,6 @@ sigs:
   - src-openeuler/cldr-emoji-annotation
   - src-openeuler/qtwebkit
   - src-openeuler/festival
-  - src-openeuler/golang-github-golang-sys
   - src-openeuler/gcab
   - src-openeuler/gnome-icon-theme-extras
   - src-openeuler/libmypaint
@@ -1088,7 +1085,6 @@ sigs:
   - src-openeuler/fuse-python
   - src-openeuler/galera
   - src-openeuler/gcc_secure
-  - src-openeuler/golang-github-vishvananda-netns
   - src-openeuler/icoutils
   - src-openeuler/libewf
   - src-openeuler/libhbaapi
@@ -1419,7 +1415,6 @@ sigs:
   - src-openeuler/symlinks
   - src-openeuler/perl-libnet
   - src-openeuler/perl-Encode-Locale
-  - src-openeuler/tpm2-tools
   - src-openeuler/deltarpm
   - src-openeuler/CUnit
   - src-openeuler/m4
@@ -1436,7 +1431,6 @@ sigs:
   - src-openeuler/rarian
   - src-openeuler/osinfo-db
   - src-openeuler/edac-utils
-  - src-openeuler/setroubleshoot
   - src-openeuler/aide
   - src-openeuler/perl-IO-Socket-IP
   - src-openeuler/python-webencodings
@@ -1446,11 +1440,9 @@ sigs:
   - src-openeuler/pyparted
   - src-openeuler/libedit
   - src-openeuler/chrpath
-  - src-openeuler/openssl
   - src-openeuler/perl-Net-SSLeay
   - src-openeuler/perl-IPC-SysV
   - src-openeuler/gssproxy
-  - src-openeuler/tpm2-abrmd
   - src-openeuler/libdatrie
   - src-openeuler/libnsl2
   - src-openeuler/authselect
@@ -1466,15 +1458,12 @@ sigs:
   - src-openeuler/patch
   - src-openeuler/perl-URI
   - src-openeuler/zlib
-  - src-openeuler/libselinux
   - src-openeuler/expat
   - src-openeuler/make
   - src-openeuler/python-jsonschema
   - src-openeuler/perl-podlators
   - src-openeuler/perl-Filter
   - src-openeuler/ca-certificates
-  - src-openeuler/libsepol
-  - src-openeuler/keyutils
   - src-openeuler/isomd5sum
   - src-openeuler/jose
   - src-openeuler/shadow
@@ -1488,7 +1477,6 @@ sigs:
   - src-openeuler/perl-Term-ANSIColor
   - src-openeuler/perl-Filter-Simple
   - src-openeuler/libtommath
-  - src-openeuler/mcstrans
   - src-openeuler/perl-autodie
   - src-openeuler/wpa_supplicant
   - src-openeuler/perl-Test-Harness
@@ -1514,7 +1502,6 @@ sigs:
   - src-openeuler/gpgme
   - src-openeuler/perl-CPAN-Meta-Requirements
   - src-openeuler/python-setuptools
-  - src-openeuler/selinux-policy
   - src-openeuler/perl-Text-ParseWords
   - src-openeuler/ghostscript
   - src-openeuler/python-pip
@@ -1539,7 +1526,6 @@ sigs:
   - src-openeuler/kexec-tools
   - src-openeuler/opensc
   - src-openeuler/util-linux
-  - src-openeuler/crypto-policies
   - src-openeuler/ed
   - src-openeuler/bison
   - src-openeuler/orc
@@ -1547,7 +1533,6 @@ sigs:
   - src-openeuler/perl-HTTP-Tiny
   - src-openeuler/xz
   - src-openeuler/libplist
-  - src-openeuler/checkpolicy
   - src-openeuler/xmlto
   - src-openeuler/libevent
   - src-openeuler/docbook-dtds
@@ -1556,7 +1541,6 @@ sigs:
   - src-openeuler/perl-Error
   - src-openeuler/dbus-glib
   - src-openeuler/crontabs
-  - src-openeuler/libcap
   - src-openeuler/python-crypto
   - src-openeuler/adcli
   - src-openeuler/perl-B-Debug
@@ -1571,12 +1555,9 @@ sigs:
   - src-openeuler/yajl
   - src-openeuler/python-pysocks
   - src-openeuler/mtdev
-  - src-openeuler/gnupg2
-  - src-openeuler/cracklib
   - src-openeuler/libdnf
   - src-openeuler/python-inotify
   - src-openeuler/openEuler-indexhtml
-  - src-openeuler/policycoreutils
   - src-openeuler/python-jsonpointer
   - src-openeuler/chkconfig
   - src-openeuler/perl-Thread-Queue
@@ -1592,7 +1573,6 @@ sigs:
   - src-openeuler/lzop
   - src-openeuler/nss_nis
   - src-openeuler/polkit-pkla-compat
-  - src-openeuler/pyOpenSSL
   - src-openeuler/man-pages
   - src-openeuler/python-cryptography
   - src-openeuler/rpm
@@ -1602,7 +1582,6 @@ sigs:
   - src-openeuler/perl-Module-Load
   - src-openeuler/perl-Storable
   - src-openeuler/perl-Digest-MD5
-  - src-openeuler/libsemanage
   - src-openeuler/libcomps
   - src-openeuler/perl-JSON-PP
   - src-openeuler/at
@@ -1616,8 +1595,6 @@ sigs:
   - src-openeuler/dracut
   - src-openeuler/osinfo-db-tools
   - src-openeuler/perl-Config-Perl-V
-  - src-openeuler/openssl-pkcs11
-  - src-openeuler/gnutls
   - src-openeuler/perl-Params-Check
   - src-openeuler/perl-Scalar-List-Utils
   - src-openeuler/perl-Text-Diff
@@ -1628,7 +1605,6 @@ sigs:
   - src-openeuler/perl-XML-Parser
   - src-openeuler/mlocate
   - src-openeuler/vim
-  - src-openeuler/mokutil
   - src-openeuler/libev
   - src-openeuler/libgexiv2
   - src-openeuler/drpm
@@ -1651,7 +1627,6 @@ sigs:
   - src-openeuler/python-prettytable
   - src-openeuler/libdbi
   - src-openeuler/libbytesize
-  - src-openeuler/pam
   - src-openeuler/expect
   - src-openeuler/python-jwt
   - src-openeuler/sharutils
@@ -1675,7 +1650,6 @@ sigs:
   - src-openeuler/passwd
   - src-openeuler/perl-PerlIO-via-QuotedPrint
   - src-openeuler/perl-Math-BigRat
-  - src-openeuler/libpwquality
   - src-openeuler/perl-Text-Balanced
   - src-openeuler/perl-Math-BigInt-FastCalc
   - src-openeuler/bash-completion
@@ -1703,7 +1677,6 @@ sigs:
   - src-openeuler/realmd
   - src-openeuler/perl-List-MoreUtils-XS
   - src-openeuler/perl-version
-  - src-openeuler/softhsm
   - src-openeuler/perl-Locale-Codes
   - src-openeuler/perl-Compress-Raw-Zlib
   - src-openeuler/python-decorator
@@ -1731,11 +1704,9 @@ sigs:
   - src-openeuler/hesiod
   - src-openeuler/libmnl
   - src-openeuler/perl-IPC-System-Simple
-  - src-openeuler/nss
   - src-openeuler/pcre
   - src-openeuler/python-backports
   - src-openeuler/libconfig
-  - src-openeuler/security-tool
   - src-openeuler/llvm
   - src-openeuler/pyxattr
   - src-openeuler/asciidoc
@@ -1744,7 +1715,6 @@ sigs:
   - src-openeuler/ncompress
   - src-openeuler/dos2unix
   - src-openeuler/ustr
-  - src-openeuler/tpm2-tss
   - src-openeuler/gc
   - src-openeuler/python-simpleline
   - src-openeuler/unzip
@@ -1812,11 +1782,9 @@ sigs:
   - src-openeuler/perl-PathTools
   - src-openeuler/libxml2
   - src-openeuler/libsecret
-  - src-openeuler/audit
   - src-openeuler/perl-Pod-Parser
   - src-openeuler/binutils
   - src-openeuler/perl-Math-BigInt
-  - src-openeuler/nss-pem
   - src-openeuler/less
   - src-openeuler/tcl
   - src-openeuler/perl-Test-Simple
@@ -1866,7 +1834,6 @@ sigs:
   - src-openeuler/libnfs
   - src-openeuler/libomxil-bellagio
   - src-openeuler/lutok
-  - src-openeuler/tpm2-abrmd-selinux
 - name: Container
   repositories:
   - src-openeuler/clibcni
@@ -1877,7 +1844,6 @@ sigs:
   - src-openeuler/containerd
   - src-openeuler/iSulad-img
   - src-openeuler/lcr
-  - src-openeuler/golang
   - src-openeuler/docker-anaconda-addon
   - src-openeuler/protobuf
   - src-openeuler/iSulad
@@ -1903,6 +1869,7 @@ sigs:
   repositories:
   - src-openeuler/gcc
   - src-openeuler/openjdk-1.8.0
+  - src-openeuler/openjdk-11
 - name: Storage
   repositories:
   - src-openeuler/parted
@@ -2252,16 +2219,6 @@ sigs:
   - src-openeuler/gnome-software
   - src-openeuler/gnome-tweaks
   - src-openeuler/gnu-getopt
-  - src-openeuler/golang-github-fsnotify-fsnotify
-  - src-openeuler/golang-github-go-tomb-tomb
-  - src-openeuler/golang-github-hpcloud-tail
-  - src-openeuler/golang-github-onsi-ginkgo
-  - src-openeuler/golang-github-onsi-gomega
-  - src-openeuler/golang-googlecode-go-crypto
-  - src-openeuler/golang-googlecode-net
-  - src-openeuler/golang-googlecode-text
-  - src-openeuler/golang-googlecode-tools
-  - src-openeuler/golang-gopkg-yaml
   - src-openeuler/google-gson
   - src-openeuler/google-guice
   - src-openeuler/google-http-java-client
@@ -2324,7 +2281,7 @@ sigs:
   - src-openeuler/java
   - src-openeuler/java-base64
   - src-openeuler/java-comment-preprocessor
-  - src-openeuler/java-cup
+  - src-openeuler/java_cup
   - src-openeuler/javacc
   - src-openeuler/javacc-maven-plugin
   - src-openeuler/javaewah
@@ -2843,6 +2800,9 @@ sigs:
   - src-openeuler/cpuid
   - src-openeuler/delve
   - src-openeuler/atop
+  - src-openeuler/bcc
+  - src-openeuler/bpftrace
+  - src-openeuler/libbpf
 - name: sig-mate-desktop
   repositories:
   - openeuler/mate-desktop
@@ -2924,6 +2884,14 @@ sigs:
   - src-openeuler/corosync-qdevice
   - src-openeuler/drbd
   - src-openeuler/drbd-utils
+- name: sig-QA
+  repositories:
+  - openeuler/QA
+  - openeuler/avocado
+  - openeuler/avocado-vt
+  - openeuler/tp-libvirt
+  - openeuler/tp-qemu
+  - openeuler/EulerRobot
 - name: sig-ROS
   repositories:
   - openeuler/ros
@@ -2935,6 +2903,62 @@ sigs:
   - src-openeuler/hadoop
   - src-openeuler/libsvm
   - src-openeuler/libhdfs
+- name: sig-golang
+  repositories:
+  - src-openeuler/golang
+  - src-openeuler/golang-github-cpuguy83-go-md2man
+  - src-openeuler/golang-github-fsnotify-fsnotify
+  - src-openeuler/golang-github-go-tomb-tomb
+  - src-openeuler/golang-github-hpcloud-tail
+  - src-openeuler/golang-github-onsi-ginkgo
+  - src-openeuler/golang-github-onsi-gomega
+  - src-openeuler/golang-googlecode-go-crypto
+  - src-openeuler/golang-googlecode-net
+  - src-openeuler/golang-googlecode-text
+  - src-openeuler/golang-googlecode-tools
+  - src-openeuler/golang-gopkg-yaml
+  - src-openeuler/golang-googlecode-goprotobuf
+  - src-openeuler/golang-github-vishvananda-netns
+  - src-openeuler/golang-github-golang-sys
+  - src-openeuler/golang-github-vishvananda-netlink
+  - src-openeuler/golang-github-d2g-dhcp4
+  - src-openeuler/golang-github-coreos-go-iptables
+  - src-openeuler/golang-github-russross-blackfriday
+- name: sig-EasyLife
+  repositories:
+  - openeuler/openEuler-Advisor
+- name: sig-security-facility
+  repositories:
+  - src-openeuler/apparmor
+  - src-openeuler/tpm2-tools
+  - src-openeuler/setroubleshoot
+  - src-openeuler/openssl
+  - src-openeuler/tpm2-abrmd
+  - src-openeuler/libselinux
+  - src-openeuler/libsepol
+  - src-openeuler/keyutils
+  - src-openeuler/mcstrans
+  - src-openeuler/selinux-policy
+  - src-openeuler/crypto-policies
+  - src-openeuler/checkpolicy
+  - src-openeuler/libcap
+  - src-openeuler/gnupg2
+  - src-openeuler/cracklib
+  - src-openeuler/policycoreutils
+  - src-openeuler/pyOpenSSL
+  - src-openeuler/libsemanage
+  - src-openeuler/openssl-pkcs11
+  - src-openeuler/gnutls
+  - src-openeuler/mokutil
+  - src-openeuler/pam
+  - src-openeuler/libpwquality
+  - src-openeuler/softhsm
+  - src-openeuler/nss
+  - src-openeuler/security-tool
+  - src-openeuler/tpm2-tss
+  - src-openeuler/audit
+  - src-openeuler/nss-pem
+  - src-openeuler/tpm2-abrmd-selinux
 - name: sig-cms
   repositories:
-  - openeuler/cms 
+  - openeuler/cms

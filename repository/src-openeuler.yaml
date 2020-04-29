@@ -2568,7 +2568,7 @@ repositories:
   - master
   type: public
 - name: golang
-  description: ""
+  description: "golang package"
   protected_branches:
   - master
   type: public
@@ -3572,7 +3572,7 @@ repositories:
   protected_branches:
   - master
   type: private
-- name: java-cup
+- name: java_cup
   description: ""
   protected_branches:
   - master
@@ -13143,10 +13143,15 @@ repositories:
   - master
   type: public
 - name: openjdk-1.8.0
-  description: "openEuler Community builds of OpenJDK"
+  description: "openEuler Community builds of OpenJDK 8"
   protected_branches:
   - master
   type: public
+- name: openjdk-11
+  description: "openEuler Community builds of OpenJDK 11"
+  protected_branches:
+  - master
+  type: private
 - name: python-mysqlclient
   description: "MySQL database connector for Python"
   protected_branches:
@@ -14116,6 +14121,57 @@ repositories:
   description: "The Apache Hadoop Filesystem Library"
   protected_branches:
   - master
+  type: public
+- name: cilium
+  description: "API-aware Networking and Security"
+  protected_branches:
+  - master
+  type: public
+- name: katran
+  description: "A high performance layer 4 load balancer"
+  protected_branches:
+  - master
+  type: public
+- name: xdp-tools
+  description: "Utilities and example programs for use with XDP"
+  protected_branches:
+  - master
+  type: public
+- name: xdp-cpumap-tc
+  description: "XDP cpumap redirect combined with TC bandwidth shaping"
+  protected_branches:
+  - master
+  type: public
+- name: libbpf
+  description: "Automated upstream mirror for libbpf stand-alone build."
+  protected_branches:
+  - master
+  type: public
+- name: bcc
+  description: "BCC - Tools for BPF-based Linux IO analysis, networking, monitoring, and more"
+  protected_branches:
+  - master
+  type: public
+- name: bpftrace
+  description: "High-level tracing language for Linux eBPF"
+  protected_branches:
+  - master
+  type: public
+- name: raspberry-kernel
+  description: "Kernel of Raspberry Pi"
+  protected_branches:
+  - master
+  type: public
+- name: raspberry-firmware
+  description: "Firmware of Raspberry Pi"
+  protected_branches:
+  - master
+  type: public
+- name: raspberry-build
+  description: "Scripts of building images for Raspberry Pi"
+  protected_branches:
+  - master
+  type: public
 - name: cms
   description: "Open source content management system based on nodejs"
   protected_branches:
