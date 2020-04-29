@@ -14,8 +14,6 @@ make -j64 modules_install
 make install
 ```
 
-issues: #I1F6G1
-
 ## kernel 的分支
 
 - 开发分支：有较多的补丁合入，以及新特性合入，供测试、调试、验证，不作为正式版本发布；
@@ -56,6 +54,10 @@ issues: #I1F6G1
 - fix 社区 issue 以及解答相关疑问和问题
 
 参见 https://gitee.com/openeuler/kernel/issues
+
+- 完善kernel相关的文档，提交 pull request
+
+https://gitee.com/openeuler/community/tree/master/sig/Kernel
 
 ## 在哪里给内核报 bug ?
 
@@ -101,7 +103,3 @@ perf spe-c2c report
 - 根据应用场景的诉求改进 MPAM
 - 探索 MPAM 的新场景
 - 通过更多的应用和测试，推动 MPAM驱动进入上游内核社区
-
-## openEuler kabi 兼容性策略
-
-kabi （kernel abi）
