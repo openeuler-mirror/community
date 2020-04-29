@@ -181,8 +181,8 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: openEuler-Compatibility
-  description: "Use for check compabtibility with openEuler"
+- name: oec-hardware
+  description: "Use for check hardware compabtibility with openEuler"
   protected_branches:
   - master
   type: public
