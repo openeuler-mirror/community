@@ -181,3 +181,9 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: openEuler-Compatibility
+  description: "Use for check compabtibility with openEuler"
+  protected_branches:
+  - master
+  type: public
+
