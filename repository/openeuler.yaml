@@ -53,6 +53,9 @@ repositories:
   type: public
 - name: EulerRobot
   description: "A virtualized automated test project, integrated compilation test, UT test, smoke test, Avocado-VT test,etc."
+  protected_branches:
+  - master
+  type: public
 - name: gitbook-theme-hugo
   description: ""
   protected_branches:
