@@ -14314,3 +14314,14 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: oec-hardware
+  description: "Use for check hardware compatibiltiy with openEuler"
+  protected_branches:
+  - master
+  type: public
+- name: oec-application
+  description: "Use for check application compatibility with openEuler"
+  protected_branches:
+  - master
+  type: public
+
