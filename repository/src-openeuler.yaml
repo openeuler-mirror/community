@@ -14122,6 +14122,132 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: ComputeLibrary
+  description: "ARM Compute Library"
+  protected_branches:
+  - master
+  type: public
+- name: Shark
+  description: "C++ machine learning library"
+  protected_branches:
+  - master
+  type: public
+- name: arm-ml-examples
+  description: "Machine learning examples used in Arm's ML developer space"
+  protected_branches:
+  - master
+  type: public
+- name: armnn
+  description: "Arm NN SDK enables machine learning workloads on power-efficient devices"
+  protected_branches:
+  - master
+  type: public
+- name: bazel0.19
+  description: "Tool for the automation of building and testing of software"
+  protected_branches:
+  - master
+  type: public
+- name: libmetal
+  description: "Bare metal interaction APIs"
+  protected_branches:
+  - master
+  type: public
+- name: mkl-dnn
+  description: "Intel(R) Math Kernel Library for Deep Neural Networks"
+  protected_branches:
+  - master
+  type: public
+- name: pytorch
+  description: "python deep learning framework"
+  protected_branches:
+  - master
+  type: public
+- name: SuperLUMT
+  description: "Single precision real SuperLU routines for shared memory parallel machines"
+  protected_branches:
+  - master
+  type: public
+- name: ehcache-core
+  description: "Easy Hibernate Cache"
+  protected_branches:
+  - master
+  type: public
+- name: epstool
+  description: "A utility to create or extract preview images in EPS files"
+  protected_branches:
+  - master
+  type: public
+- name: ftgl
+  description: "OpenGL frontend to Freetype 2"
+  protected_branches:
+  - master
+  type: public
+- name: gl2ps
+  description: "An OpenGL to PostScript printing library"
+  protected_branches:
+  - master
+  type: public
+- name: glpk
+  description: "GNU Linear Programming Kit"
+  protected_branches:
+  - master
+  type: public
+- name: hibernate3
+  description: "Relational persistence and query service"
+  protected_branches:
+  - master
+  type: public
+- name: infinispan
+  description: "Data grid platform"
+  protected_branches:
+  - master
+  type: public
+- name: libiodbc
+  description: "iODBC Driver Manager"
+  protected_branches:
+  - master
+  type: public
+- name: lzip
+  description: "Lossless file compressor based on the LZMA algorithm"
+  protected_branches:
+  - master
+  type: public
+- name: maven-local
+  description: "Macros and scripts for Maven packaging support"
+  protected_branches:
+  - master
+  type: public
+- name: netty-tcnative
+  description: "Fork of Tomcat Native with improved OpenSSL and mavenized build"
+  protected_branches:
+  - master
+  type: public
+- name: octave
+  description: "A high-level language for numerical computations"
+  protected_branches:
+  - master
+  type: public
+- name: qrupdate
+  description: "A Fortran library for fast updates of QR and Cholesky decompositions"
+  protected_branches:
+  - master
+  type: public
+- name: qscintilla
+  description: "A Scintilla port to Qt"
+  protected_branches:
+  - master
+  type: public
+- name: sundials
+  description: "Suite of nonlinear solvers"
+  protected_branches:
+  - master
+  type: public
+- name: opencl-headers
+  description: "OpenCL (Open Computing Language) header files"
+  protected_branches:
+  - master
+  type: public
+  type: public
 - name: cilium
   description: "API-aware Networking and Security"
   protected_branches:
