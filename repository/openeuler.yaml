@@ -211,3 +211,9 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: oec-hardware
+  description: "Use for check hardware compatibility with openEuler"
+  protected_branches:
+  - master
+  type: public
+
