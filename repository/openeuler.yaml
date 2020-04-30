@@ -216,4 +216,8 @@ repositories:
   protected_branches:
   - master
   type: public
-
+- name: oec-application
+  description: "Use for check application compatibility with openEuler"
+  protected_branches:
+  - master
+  type: public
