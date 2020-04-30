@@ -14094,156 +14094,166 @@ repositories:
   type: public
 - name: jupyter
   description: "Jupyter is an environment for interactive computing in multiple languages."
+  upstream: "https://github.com/jupyter/jupyter"
   protected_branches:
   - master
   type: public
 - name: caffe
   description: "A framework for deep learning"
+  upstream: "https://github.com/BVLC/caffe"
   protected_branches:
   - master
   type: public
 - name: tensorflow
   description: "A framework for deep learning"
+  upstream: "https://github.com/tensorflow/tensorflow"
   protected_branches:
   - master
   type: public
 - name: hadoop
   description: "A software platform for processing vast amounts of data"
+  upstream: "https://hadoop.apache.org"
   protected_branches:
   - master
   type: public
 - name: libsvm
   description: "A Library for Support Vector Machines"
+  upstream: "https://www.csie.ntu.edu.tw/~cjlin/libsvm/"
   protected_branches:
   - master
   type: public
 - name: libhdfs
   description: "The Apache Hadoop Filesystem Library"
+  upstream: "https://hadoop.apache.org"
   protected_branches:
   - master
   type: public
 - name: ComputeLibrary
   description: "ARM Compute Library"
+  upstream: "https://github.com/ARM-software/ComputeLibrary"
   protected_branches:
   - master
   type: public
 - name: Shark
   description: "C++ machine learning library"
+  upstream: "https://github.com/Shark-ML/Shark"
   protected_branches:
   - master
   type: public
 - name: arm-ml-examples
   description: "Machine learning examples used in Arm's ML developer space"
+  upstream: "https://github.com/ARM-software/ML-examples"
   protected_branches:
   - master
   type: public
 - name: armnn
   description: "Arm NN SDK enables machine learning workloads on power-efficient devices"
+  upstream: "https://git.mlplatform.org/ml/armnn"
   protected_branches:
   - master
   type: public
-- name: bazel0.19
+- name: bazel
   description: "Tool for the automation of building and testing of software"
+  upstream: "https://github.com/bazelbuild/bazel"
   protected_branches:
   - master
   type: public
 - name: libmetal
   description: "Bare metal interaction APIs"
+  upstream: "https://github.com/OpenAMP/libmetal"
   protected_branches:
   - master
   type: public
-- name: mkl-dnn
+- name: oneDNN
   description: "Intel(R) Math Kernel Library for Deep Neural Networks"
+  upstream: "https://github.com/oneapi-src/oneDNN"
   protected_branches:
   - master
   type: public
 - name: pytorch
   description: "python deep learning framework"
+  upstream: "https://github.com/pytorch"
   protected_branches:
   - master
   type: public
 - name: SuperLUMT
   description: "Single precision real SuperLU routines for shared memory parallel machines"
-  protected_branches:
-  - master
-  type: public
-- name: ehcache-core
-  description: "Easy Hibernate Cache"
+  upstream: "http://crd-legacy.lbl.gov/~xiaoye/SuperLU/"
   protected_branches:
   - master
   type: public
 - name: epstool
   description: "A utility to create or extract preview images in EPS files"
+  upstream: "http://pages.cs.wisc.edu/~ghost/gsview/epstool.htm"
   protected_branches:
   - master
   type: public
 - name: ftgl
   description: "OpenGL frontend to Freetype 2"
+  upstream: "http://ftgl.wiki.sourceforge.net/"
   protected_branches:
   - master
   type: public
 - name: gl2ps
   description: "An OpenGL to PostScript printing library"
+  upstream: "http://www.geuz.org/gl2ps/"
   protected_branches:
   - master
   type: public
 - name: glpk
   description: "GNU Linear Programming Kit"
-  protected_branches:
-  - master
-  type: public
-- name: hibernate3
-  description: "Relational persistence and query service"
-  protected_branches:
-  - master
-  type: public
-- name: infinispan
-  description: "Data grid platform"
+  upstream: "http://www.gnu.org/software/glpk/glpk.html"
   protected_branches:
   - master
   type: public
 - name: libiodbc
   description: "iODBC Driver Manager"
+  upstream: "http://www.iodbc.org/"
   protected_branches:
   - master
   type: public
 - name: lzip
   description: "Lossless file compressor based on the LZMA algorithm"
+  upstream: "http://www.nongnu.org/lzip/lzip.html"
   protected_branches:
   - master
   type: public
 - name: maven-local
   description: "Macros and scripts for Maven packaging support"
+  upstream: "https://github.com/fedora-java/javapackages"
   protected_branches:
   - master
   type: public
-- name: netty-tcnative
-  description: "Fork of Tomcat Native with improved OpenSSL and mavenized build"
   protected_branches:
   - master
   type: public
 - name: octave
   description: "A high-level language for numerical computations"
+  upstream: "http://www.octave.org"
   protected_branches:
   - master
   type: public
 - name: qrupdate
   description: "A Fortran library for fast updates of QR and Cholesky decompositions"
+  upstream: "http://qrupdate.sourceforge.net/"
   protected_branches:
   - master
   type: public
 - name: qscintilla
   description: "A Scintilla port to Qt"
+  upstream: "http://www.riverbankcomputing.com/software/qscintilla/"
   protected_branches:
   - master
   type: public
 - name: sundials
   description: "Suite of nonlinear solvers"
+  upstream: "https://computation.llnl.gov/projects/sundials"
   protected_branches:
   - master
   type: public
 - name: opencl-headers
   description: "OpenCL (Open Computing Language) header files"
+  upstream: "https://www.khronos.org/registry/OpenCL/"
   protected_branches:
   - master
   type: public
