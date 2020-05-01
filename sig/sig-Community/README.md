@@ -16,8 +16,10 @@ When openEuler community is updated, the information should be updated as well h
 
 ## Maintainers
 1. Fred Li(@zerodefect), since December, 2019
-2. 杨丽(@yangli69393), since December, 2019
-3. blueskycs2c(@blueskycs2c), since March, 2020
+
+## Committer
+1. 杨丽(@yangli69393), since December, 2019
+2. blueskycs2c(@blueskycs2c), since March, 2020
 
 ## Contributors
 1. freesky-edward(@freesky-edward), since August, 2019
