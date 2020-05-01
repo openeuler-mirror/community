@@ -14,10 +14,10 @@ The Community repo is to store all the information about openEuler Community, in
 When openEuler community is updated, the information should be updated as well here. If you would like to help update the information in this repo, you are very appreciated. 
 
 
-## Maintainers
+## Maintainer
 1. Fred Li(@zerodefect), since December, 2019
 
-## Committer
+## Committers
 1. 杨丽(@yangli69393), since December, 2019
 2. blueskycs2c(@blueskycs2c), since March, 2020
 
