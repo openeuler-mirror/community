@@ -3572,7 +3572,7 @@ repositories:
   type: public
 - name: sysget
   description: "One package manager to rule them all"
-  upstream: "http://sysget.emilengler.com"
+  upstream: "https://github.com/emilengler/sysget/"
   protected_branches:
   - master
   type: public
@@ -10235,7 +10235,7 @@ repositories:
   type: public
 - name: python-ntlm-auth
   description: "Calculates NTLM Authentication"
-  upstream: "https://github.com/pexpect/ntlm-auth"
+  upstream: "https://github.com/jborean93/ntlm-auth"
   protected_branches:
   - master
   type: public
@@ -12683,7 +12683,7 @@ repositories:
   type: private
 - name: webbench
   description: "simple tool for benchmarking WWW or proxy servers"
-  upstream: "http://home.tiscali.cz/~cz210552/webbench.html"
+  upstream: "http://freshmeat.sourceforge.net/projects/web-bench/"
   protected_branches:
   - master
   type: public
@@ -13183,7 +13183,7 @@ repositories:
   - master
   type: public
 - name: ykpers
-  description: "The YubiKey Personalization package contains a library and command line tool used to personalize"
+  description: "The package contains a library and command line tool used to personalize yubikey"
   upstream: "https://developers.yubico.com/yubikey-personalization/"
   protected_branches:
   - master
