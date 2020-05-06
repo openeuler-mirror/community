@@ -5874,6 +5874,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: log4cpp
+  description: "Log library for C++"
+  upstream: "https://sourceforge.net/projects/log4cpp/"
+  protected_branches:
+  - master
+  type: public
 - name: log4j
   description: ""
   protected_branches:
