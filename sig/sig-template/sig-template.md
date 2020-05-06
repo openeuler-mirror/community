@@ -38,27 +38,3 @@ Cross-domain and externally-oriented processes and actions defined and implement
 
 - The organization guidance plan for the entire openEulerSIG owned by this SIG, etc.
 
-
-## Basic Information
-
-### Project Introduction
-    https: /gitee.com/openeuler/community/sig/sig-xxxx/
-
-***Tips***: After the SIG is successfully created, https: /gitee.com/openeuler/community/sig/sig-xxxx/ management will be managed by the Maintainer, and the project team can enrich their project introduction, including but not limited to the following content.
-```
-### Maintainers
-- Name (Gitee ID)
-
-### Committers
-- Name (Gitee ID)
-
-### Mailing list
-
-### IRC Channel
-
-### Conference Information
-
-### External Contact
--Name (Gitee ID)
-```
-
