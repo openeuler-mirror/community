@@ -3,7 +3,7 @@
 English | [简体中文](./sig-template_cn.md)
 
 
-Note: The Charter of this SIG follows the convention described in the openEuler charter [README] (/en/governance/README.md), and follows [SIG-governance] (/en/technical-committee/governance/SIG-governance.md).
+Note: The Charter of this SIG follows the convention described in the openEuler charter [README](/en/governance/README.md), and follows [SIG-governance](/en/technical-committee/governance/SIG-governance.md).
 
 ## SIG Mission and Scope
 
