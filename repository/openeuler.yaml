@@ -5,6 +5,16 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: avocado
+  description: "Avocado is a set of tools and libraries to help with automated testing. One can call it a test framework with benefits"
+  protected_branches:
+  - master
+  type: public
+- name: avocado-vt
+  description: "Avocado-VT is a compatibility plugin that lets you execute virtualization related tests, with all conveniences provided by Avocado"
+  protected_branches:
+  - master
+  type: public
 - name: blog
   description: "Blog project is used to house the blogs that related openEuler community."
   protected_branches:
@@ -38,6 +48,11 @@ repositories:
   type: private
 - name: docs
   description: "To build and enrich documentation for openEuler project."
+  protected_branches:
+  - master
+  type: public
+- name: EulerRobot
+  description: "A virtualized automated test project, integrated compilation test, UT test, smoke test, Avocado-VT test,etc."
   protected_branches:
   - master
   type: public
@@ -75,7 +90,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: kernel
   description: ""
   protected_branches:
@@ -90,12 +105,12 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libwd
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: openeuler-jenkins
   description: ""
   protected_branches:
@@ -116,8 +131,23 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: QA
+  description: "QA repo provides rules about how QA team runs and how contributors to this project, also includes test cases and framework"
+  protected_branches:
+  - master
+  type: public
 - name: tool-collections
   description: ""
+  protected_branches:
+  - master
+  type: public
+- name: tp-libvirt
+  description: "Libvirt test provider for virtualization test. It contains a lot of test cases related to such as libvirt/libguestfs."
+  protected_branches:
+  - master
+  type: public
+- name: tp-qemu
+  description: "Qemu test provider for virtualization test. It contains a lot of test cases related to such as qemu/openvswitch/virtualization backed"
   protected_branches:
   - master
   type: public
@@ -163,6 +193,31 @@ repositories:
   type: public
 - name: ha-web
   description: "Web Interface for HA management"
+  protected_branches:
+  - master
+  type: public
+- name: ros
+  description: "It provides ROS source for openEuler"
+  protected_branches:
+  - master
+  type: public
+- name: crystal-ci
+  description: "Crystal CI"
+  protected_branches:
+  - master
+  type: public
+- name: openEuler-Advisor
+  description: "Collection of automation tools for easily maintaining openEuler"
+  protected_branches:
+  - master
+  type: public
+- name: oec-hardware
+  description: "Use for check hardware compatibility with openEuler"
+  protected_branches:
+  - master
+  type: public
+- name: oec-application
+  description: "Use for check application compatibility with openEuler"
   protected_branches:
   - master
   type: public

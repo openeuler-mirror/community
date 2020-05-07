@@ -23,10 +23,11 @@ The openEuler RaspberryPi SIG aims at migrating openEuler to Raspberry Pi, in or
 
 ### Repositories and description managed by this SIG
 
-Repository of scripts for building openEuler image on Raspberry Pi and documents: https://gitee.com/openeuler/raspberrypi
-
-Repository of openEuler kernel source for Raspberry Pi：https://gitee.com/peneuler/raspberrypi-kernel
-
+- Repository of scripts for building openEuler image on Raspberry Pi and documents: https://gitee.com/openeuler/raspberrypi
+- Repository of openEuler kernel source for Raspberry Pi：https://gitee.com/peneuler/raspberrypi-kernel
+- SRPM Repository of openEuler kernel for Raspberry Pi: https://gitee.com/src-openeuler/raspberrypi-kernel
+- SRPM Repository of firmware for Raspberry Pi: https://gitee.com/src-openeuler/raspberrypi-firmware
+- SRPM Repository of scripts of building images for Raspberry Pi: https://gitee.com/src-openeuler/raspberrypi-build
 
 ## Basic Information
 
@@ -43,6 +44,14 @@ Repository of openEuler kernel source for Raspberry Pi：https://gitee.com/peneu
 
 ### Mailing list
 - dev@openeuler.org
+
+### Slack Workspace
+- https://openeuler-raspberrypi.slack.com
+  - The link to join this workspace will be periodically updated in [raspberrypi repo](https://gitee.com/openeuler/raspberrypi)
+
+### Weekly Meeting
+- Time: Every Tuesday, 15:00 - 15:30 +0800
+- Zoom MeetID: 881 4204 8958
 
 ### IRC Channel
 - #openeuler-raspberrypi

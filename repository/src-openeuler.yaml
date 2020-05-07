@@ -1,4 +1,4 @@
-community: src-openeuler
+﻿community: src-openeuler
 repositories:
 - name: aalib
   description: ""
@@ -294,6 +294,11 @@ repositories:
   type: public
 - name: apr-util
   description: ""
+  protected_branches:
+  - master
+  type: public
+- name: apparmor
+  description: "AppArmor is a Linux kernel security module that allows the system administrator to restrict programs' capabilities with per-program profiles."
   protected_branches:
   - master
   type: public
@@ -1021,7 +1026,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: compiler-rt
   description: ""
   protected_branches:
@@ -1458,11 +1463,6 @@ repositories:
   - master
   type: public
 - name: doxygen
-  description: ""
-  protected_branches:
-  - master
-  type: public
-- name: dpkg
   description: ""
   protected_branches:
   - master
@@ -2573,7 +2573,7 @@ repositories:
   - master
   type: public
 - name: golang
-  description: ""
+  description: "golang package"
   protected_branches:
   - master
   type: public
@@ -2596,12 +2596,12 @@ repositories:
   description: "Cross-platform file system notifications for Go."
   protected_branches:
   - master
-  type: private
+  type: public
 - name: golang-github-go-tomb-tomb
   description: "Enables Go programs to comfortably encode and decode YAML values."
   protected_branches:
   - master
-  type: private
+  type: public
 - name: golang-github-golang-sys
   description: ""
   protected_branches:
@@ -2611,17 +2611,17 @@ repositories:
   description: "Go package for reading from continously updated files (tail -f)."
   protected_branches:
   - master
-  type: private
+  type: public
 - name: golang-github-onsi-ginkgo
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: golang-github-onsi-gomega
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: golang-github-russross-blackfriday
   description: ""
   protected_branches:
@@ -2641,7 +2641,7 @@ repositories:
   description: "Supplementary Go cryptography libraries."
   protected_branches:
   - master
-  type: private
+  type: public
 - name: golang-googlecode-goprotobuf
   description: ""
   protected_branches:
@@ -2651,22 +2651,22 @@ repositories:
   description: "Unit tests for golang-googlecode-net package."
   protected_branches:
   - master
-  type: private
+  type: public
 - name: golang-googlecode-text
   description: "Supplementary Go text libraries."
   protected_branches:
   - master
-  type: private
+  type: public
 - name: golang-googlecode-tools
   description: "Displays performance changes between benchmarks for the Go programming language."
   protected_branches:
   - master
-  type: private
+  type: public
 - name: golang-gopkg-yaml
   description: "Yaml support for the Go language."
   protected_branches:
   - master
-  type: private
+  type: public
 - name: google-droid-fonts
   description: ""
   protected_branches:
@@ -3227,11 +3227,6 @@ repositories:
   protected_branches:
   - master
   type: private
-- name: icoutils
-  description: ""
-  protected_branches:
-  - master
-  type: public
 - name: icu
   description: ""
   protected_branches:
@@ -3502,11 +3497,6 @@ repositories:
   protected_branches:
   - master
   type: private
-- name: jackson-core
-  description: ""
-  protected_branches:
-  - master
-  type: private
 - name: jackson-databind
   description: ""
   protected_branches:
@@ -3587,7 +3577,7 @@ repositories:
   protected_branches:
   - master
   type: private
-- name: java-cup
+- name: java_cup
   description: ""
   protected_branches:
   - master
@@ -3838,11 +3828,6 @@ repositories:
   - master
   type: private
 - name: jsch-agent-proxy
-  description: ""
-  protected_branches:
-  - master
-  type: private
-- name: js-jquery
   description: ""
   protected_branches:
   - master
@@ -4729,11 +4714,6 @@ repositories:
   type: public
 - name: libiscsi
   description: ""
-  protected_branches:
-  - master
-  type: public
-- name: libisoburn
-  description: "Library to enable creation and expansion of ISO-9660 filesystems"
   protected_branches:
   - master
   type: public
@@ -6941,7 +6921,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: ocaml
   description: ""
   protected_branches:
@@ -8087,11 +8067,6 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: perl-IO-stringy
-  description: ""
-  protected_branches:
-  - master
-  type: public
 - name: perl-IO-Tty
   description: ""
   protected_branches:
@@ -8238,11 +8213,6 @@ repositories:
   - master
   type: public
 - name: perl-Module-CoreList
-  description: ""
-  protected_branches:
-  - master
-  type: public
-- name: perl-Module-Install
   description: ""
   protected_branches:
   - master
@@ -8567,11 +8537,6 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: perl-Sub-Uplevel
-  description: ""
-  protected_branches:
-  - master
-  type: private
 - name: perl-Switch
   description: ""
   protected_branches:
@@ -8888,11 +8853,6 @@ repositories:
   - master
   type: public
 - name: perl-YAML
-  description: ""
-  protected_branches:
-  - master
-  type: public
-- name: perl-YAML-LibYAML
   description: ""
   protected_branches:
   - master
@@ -9297,11 +9257,6 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: pv
-  description: "A tool for monitoringthe progress of data through a pipeline"
-  protected_branches:
-  - master
-  type: public
 - name: pyatspi
   description: ""
   protected_branches:
@@ -9424,11 +9379,6 @@ repositories:
   type: public
 - name: python3
   description: ""
-  protected_branches:
-  - master
-  type: public
-- name: python-alsa
-  description: "Accessing the ALSA API from Python"
   protected_branches:
   - master
   type: public
@@ -10744,11 +10694,6 @@ repositories:
   type: public
 - name: python-zipp
   description: "Backport of pathlib-compatible object wrapper for zip files"
-  protected_branches:
-  - master
-  type: public
-- name: python-zope-interface
-  description: ""
   protected_branches:
   - master
   type: public
@@ -13203,10 +13148,15 @@ repositories:
   - master
   type: public
 - name: openjdk-1.8.0
-  description: "openEuler Community builds of OpenJDK"
+  description: "openEuler Community builds of OpenJDK 8"
   protected_branches:
   - master
   type: public
+- name: openjdk-11
+  description: "openEuler Community builds of OpenJDK 11"
+  protected_branches:
+  - master
+  type: private
 - name: python-mysqlclient
   description: "MySQL database connector for Python"
   protected_branches:
@@ -14146,4 +14096,221 @@ repositories:
   type: public
 - name: atop
   description: "atop is an interactive monitor to view the load on a Linux system"
+  type: public
+- name: jupyter
+  description: "Jupyter is an environment for interactive computing in multiple languages."
+  upstream: "https://github.com/jupyter/jupyter"
+  protected_branches:
+  - master
+  type: public
+- name: caffe
+  description: "A framework for deep learning"
+  upstream: "https://github.com/BVLC/caffe"
+  protected_branches:
+  - master
+  type: public
+- name: tensorflow
+  description: "A framework for deep learning"
+  upstream: "https://github.com/tensorflow/tensorflow"
+  protected_branches:
+  - master
+  type: public
+- name: hadoop
+  description: "A software platform for processing vast amounts of data"
+  upstream: "https://hadoop.apache.org"
+  protected_branches:
+  - master
+  type: public
+- name: libsvm
+  description: "A Library for Support Vector Machines"
+  upstream: "https://www.csie.ntu.edu.tw/~cjlin/libsvm/"
+  protected_branches:
+  - master
+  type: public
+- name: libhdfs
+  description: "The Apache Hadoop Filesystem Library"
+  upstream: "https://hadoop.apache.org"
+  protected_branches:
+  - master
+  type: public
+- name: ComputeLibrary
+  description: "ARM Compute Library"
+  upstream: "https://github.com/ARM-software/ComputeLibrary"
+  protected_branches:
+  - master
+  type: public
+- name: Shark
+  description: "C++ machine learning library"
+  upstream: "https://github.com/Shark-ML/Shark"
+  protected_branches:
+  - master
+  type: public
+- name: arm-ml-examples
+  description: "Machine learning examples used in Arm's ML developer space"
+  upstream: "https://github.com/ARM-software/ML-examples"
+  protected_branches:
+  - master
+  type: public
+- name: armnn
+  description: "Arm NN SDK enables machine learning workloads on power-efficient devices"
+  upstream: "https://git.mlplatform.org/ml/armnn"
+  protected_branches:
+  - master
+  type: public
+- name: bazel
+  description: "Tool for the automation of building and testing of software"
+  upstream: "https://github.com/bazelbuild/bazel"
+  protected_branches:
+  - master
+  type: public
+- name: libmetal
+  description: "Bare metal interaction APIs"
+  upstream: "https://github.com/OpenAMP/libmetal"
+  protected_branches:
+  - master
+  type: public
+- name: oneDNN
+  description: "Intel(R) Math Kernel Library for Deep Neural Networks"
+  upstream: "https://github.com/oneapi-src/oneDNN"
+  protected_branches:
+  - master
+  type: public
+- name: pytorch
+  description: "python deep learning framework"
+  upstream: "https://github.com/pytorch"
+  protected_branches:
+  - master
+  type: public
+- name: SuperLUMT
+  description: "Single precision real SuperLU routines for shared memory parallel machines"
+  upstream: "http://crd-legacy.lbl.gov/~xiaoye/SuperLU/"
+  protected_branches:
+  - master
+  type: public
+- name: epstool
+  description: "http://www.ghostgum.com.au/software/epstool.htm"
+  upstream: ""
+  protected_branches:
+  - master
+  type: public
+- name: ftgl
+  description: "OpenGL frontend to Freetype 2"
+  upstream: "https://sourceforge.net/projects/ftgl"
+  protected_branches:
+  - master
+  type: public
+- name: gl2ps
+  description: "An OpenGL to PostScript printing library"
+  upstream: "http://www.geuz.org/gl2ps/"
+  protected_branches:
+  - master
+  type: public
+- name: glpk
+  description: "GNU Linear Programming Kit"
+  upstream: "http://www.gnu.org/software/glpk/glpk.html"
+  protected_branches:
+  - master
+  type: public
+- name: libiodbc
+  description: "iODBC Driver Manager"
+  upstream: "http://www.iodbc.org/"
+  protected_branches:
+  - master
+  type: public
+- name: lzip
+  description: "Lossless file compressor based on the LZMA algorithm"
+  upstream: "http://www.nongnu.org/lzip/lzip.html"
+  protected_branches:
+  - master
+  type: public
+- name: maven-local
+  description: "Macros and scripts for Maven packaging support"
+  upstream: "https://github.com/fedora-java/javapackages"
+  protected_branches:
+  - master
+  type: public
+- name: octave
+  description: "A high-level language for numerical computations"
+  upstream: "http://www.octave.org"
+  protected_branches:
+  - master
+  type: public
+- name: qrupdate
+  description: "A Fortran library for fast updates of QR and Cholesky decompositions"
+  upstream: "http://qrupdate.sourceforge.net/"
+  protected_branches:
+  - master
+  type: public
+- name: qscintilla
+  description: "A Scintilla port to Qt"
+  upstream: "http://www.riverbankcomputing.com/software/qscintilla/"
+  protected_branches:
+  - master
+  type: public
+- name: sundials
+  description: "Suite of nonlinear solvers"
+  upstream: "https://computation.llnl.gov/projects/sundials"
+  protected_branches:
+  - master
+  type: public
+- name: opencl-headers
+  description: "OpenCL (Open Computing Language) header files"
+  upstream: "https://www.khronos.org/registry/OpenCL/"
+  protected_branches:
+  - master
+  type: public
+- name: cilium
+  description: "API-aware Networking and Security"
+  protected_branches:
+  - master
+  type: public
+- name: katran
+  description: "A high performance layer 4 load balancer"
+  protected_branches:
+  - master
+  type: public
+- name: xdp-tools
+  description: "Utilities and example programs for use with XDP"
+  protected_branches:
+  - master
+  type: public
+- name: xdp-cpumap-tc
+  description: "XDP cpumap redirect combined with TC bandwidth shaping"
+  protected_branches:
+  - master
+  type: public
+- name: libbpf
+  description: "Automated upstream mirror for libbpf stand-alone build."
+  protected_branches:
+  - master
+  type: public
+- name: bcc
+  description: "BCC - Tools for BPF-based Linux IO analysis, networking, monitoring, and more"
+  protected_branches:
+  - master
+  type: public
+- name: bpftrace
+  description: "High-level tracing language for Linux eBPF"
+  protected_branches:
+  - master
+  type: public
+- name: raspberry-kernel
+  description: "Kernel of Raspberry Pi"
+  protected_branches:
+  - master
+  type: public
+- name: raspberry-firmware
+  description: "Firmware of Raspberry Pi"
+  protected_branches:
+  - master
+  type: public
+- name: raspberry-build
+  description: "Scripts of building images for Raspberry Pi"
+  protected_branches:
+  - master
+  type: public
+- name: bounds_checking_function
+  description: "Enhanced safety functions"
+  protected_branches:
+  - master
   type: public
