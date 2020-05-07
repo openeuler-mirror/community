@@ -6422,6 +6422,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: mock
+  description: "Builds packages inside chroots"
+  upstream: "https://github.com/rpm-software-management/mock"
+  protected_branches:
+  - master
+  type: public
 - name: mockito
   description: "Mockito is a mocking framework that tastes really good. It lets you write beautiful tests with clean & simple API. Mockito doesn't give you hangover because the tests are very readable and they produce clean verification errors."
   protected_branches:
@@ -10319,6 +10325,12 @@ repositories:
   type: public
 - name: python-pynacl
   description: ""
+  protected_branches:
+  - master
+  type: public
+- name: python-pyroute2
+  description: "Pure Python netlink library"
+  upstream: "https://github.com/svinota/pyroute2"
   protected_branches:
   - master
   type: public
