@@ -4691,6 +4691,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: libgssglue
+  description: "A gss api library"
+  upstream: "citi.umich.edu/projects/nfsv4/linux"
+  protected_branches:
+  - master
+  type: public
 - name: libgta
   description: "Library that implements the Generic Tagged Arrays file format."
   protected_branches:
@@ -5236,6 +5242,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: librpcsecgss
+  description: "secure rpc communication by secgss protocol"
+  upstream: "citi.umich.edu/projects/nfsv4/linux"
+  protected_branches:
+  - master
+  type: public
 - name: librsvg2
   description: ""
   protected_branches:
