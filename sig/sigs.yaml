@@ -2802,6 +2802,49 @@ sigs:
   - src-openeuler/bcc
   - src-openeuler/bpftrace
   - src-openeuler/libbpf
+  - src-openeuler/python-pbkdf2
+  - src-openeuler/python-xmltodict
+  - src-openeuler/python-winrm
+  - src-openeuler/python-ntlm-auth
+  - src-openeuler/python-requests-ntlm
+  - src-openeuler/ansible
+  - src-openeuler/log4cplus
+  - src-openeuler/bcrypt
+  - src-openeuler/http_load
+  - src-openeuler/unixbench
+  - src-openeuler/memtester
+  - src-openeuler/lmbench
+  - src-openeuler/webbench
+  - src-openeuler/minimap2
+  - src-openeuler/miniasm
+  - src-openeuler/iniparser
+  - src-openeuler/fping
+  - src-openeuler/hping
+  - src-openeuler/cpp-httplib
+  - src-openeuler/ck
+  - src-openeuler/enca
+  - src-openeuler/sysbench
+  - src-openeuler/figlet
+  - src-openeuler/cmockery
+  - src-openeuler/colm
+  - src-openeuler/ranger
+  - src-openeuler/kelbt
+  - src-openeuler/sysget
+  - src-openeuler/bam
+  - src-openeuler/htslib
+  - src-openeuler/samtools
+  - src-openeuler/bcftools
+  - src-openeuler/brpc
+  - src-openeuler/libyubikey
+  - src-openeuler/ykpers
+  - src-openeuler/git-tools
+  - src-openeuler/python-blessed
+  - src-openeuler/tito
+  - src-openeuler/f2fs-tools
+  - src-openeuler/ipwatchd
+  - src-openeuler/log4cpp
+  - src-openeuler/libgssglue
+  - src-openeuler/librpcsecgss
 - name: sig-mate-desktop
   repositories:
   - openeuler/mate-desktop
@@ -2987,6 +3030,8 @@ sigs:
   repositories:
   - openeuler/oec-hardware
   - openeuler/oec-application
+  - src-openeuler/oec-hardware
+  - src-openeuler/oec-application
 - name: sig-RISC-V
   repositories:
   - openeuler/autobuild-openeuler4riscv
