@@ -1,4 +1,4 @@
-community: src-openeuler
+﻿community: src-openeuler
 repositories:
 - name: aalib
   description: ""
@@ -132,6 +132,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: ansible
+  description: "system management system"
+  upstream: "http://ansible.com"
+  protected_branches:
+  - master
+  type: public 
 - name: ant
   description: ""
   protected_branches:
@@ -294,6 +300,11 @@ repositories:
   type: public
 - name: apr-util
   description: ""
+  protected_branches:
+  - master
+  type: public
+- name: apparmor
+  description: "AppArmor is a Linux kernel security module that allows the system administrator to restrict programs' capabilities with per-program profiles."
   protected_branches:
   - master
   type: public
@@ -592,6 +603,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: bcrypt
+  description: "cross platform file encryption utility"
+  upstream: "http://bcrypt.sourceforge.net/"
+  protected_branches:
+  - master
+  type: public
 - name: bean-validation-api
   description: ""
   protected_branches:
@@ -689,6 +706,12 @@ repositories:
   type: public
 - name: brotli
   description: ""
+  protected_branches:
+  - master
+  type: public
+- name: brpc
+  description: "An industrial-grade RPC framework used throughout Baidu"
+  upstream: "https://github.com/apache/incubator-brpc"
   protected_branches:
   - master
   type: public
@@ -897,6 +920,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: ck
+  description: "Concurrency programming lib"
+  upstream: "http://concurrencykit.org/"
+  protected_branches:
+  - master
+  type: public
 - name: clamav
   description: ""
   protected_branches:
@@ -982,6 +1011,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: cmockery
+  description: "A lightweight library to simplify and generalize the process of writing unit tests for C applications"
+  upstream: "https://github.com/google/cmockery"
+  protected_branches:
+  - master
+  type: public
 - name: cockpit
   description: ""
   protected_branches:
@@ -994,6 +1029,12 @@ repositories:
   type: private
 - name: cogl
   description: ""
+  protected_branches:
+  - master
+  type: public
+- name: colm
+  description: "a programming language designed for the analysis and transformation of computer languages"
+  upstream: "http://www.colm.net/open-source/"
   protected_branches:
   - master
   type: public
@@ -1021,7 +1062,7 @@ repositories:
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: compiler-rt
   description: ""
   protected_branches:
@@ -1089,6 +1130,12 @@ repositories:
   type: public
 - name: cppcheck
   description: ""
+  protected_branches:
+  - master
+  type: public
+- name: cpp-httplib
+  description: "A C++ header-only HTTP/HTTPS server and client library"
+  upstream: "https://github.com/yhirose/cpp-httplib"
   protected_branches:
   - master
   type: public
@@ -1617,6 +1664,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: enca
+  description: "an Extremely Naive Charset Analyser"
+  upstream: "https://cihar.com/software/enca/"
+  protected_branches:
+  - master
+  type: public
 - name: enchant
   description: ""
   protected_branches:
@@ -1722,6 +1775,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: f2fs-tools
+  description: "f2fs-tools are tools for flash fs"
+  upstream: "https://sourceforge.net/projects/f2fs-tools/"
+  protected_branches:
+  - master
+  type: public
 - name: fakechroot
   description: ""
   protected_branches:
@@ -1789,6 +1848,12 @@ repositories:
   type: public
 - name: fftw
   description: ""
+  protected_branches:
+  - master
+  type: public
+- name: figlet
+  description: "FIGlet is a program for making large letters out of ordinary text"
+  upstream: "http://www.figlet.org/"
   protected_branches:
   - master
   type: public
@@ -1929,6 +1994,12 @@ repositories:
   type: private
 - name: fpaste
   description: ""
+  protected_branches:
+  - master
+  type: public
+- name: fping
+  description: "program to send ICMP echo probes to network hosts"
+  upstream: "http://www.fping.org/"
   protected_branches:
   - master
   type: public
@@ -2219,6 +2290,12 @@ repositories:
   type: public
 - name: git
   description: ""
+  protected_branches:
+  - master
+  type: public
+- name: git-tools
+  description: "Assorted git-related scripts"
+  upstream: "https://github.com/MestreLion/git-tools"
   protected_branches:
   - master
   type: public
@@ -2591,12 +2668,12 @@ repositories:
   description: "Cross-platform file system notifications for Go."
   protected_branches:
   - master
-  type: private
+  type: public
 - name: golang-github-go-tomb-tomb
   description: "Enables Go programs to comfortably encode and decode YAML values."
   protected_branches:
   - master
-  type: private
+  type: public
 - name: golang-github-golang-sys
   description: ""
   protected_branches:
@@ -2606,17 +2683,17 @@ repositories:
   description: "Go package for reading from continously updated files (tail -f)."
   protected_branches:
   - master
-  type: private
+  type: public
 - name: golang-github-onsi-ginkgo
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: golang-github-onsi-gomega
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: golang-github-russross-blackfriday
   description: ""
   protected_branches:
@@ -2636,7 +2713,7 @@ repositories:
   description: "Supplementary Go cryptography libraries."
   protected_branches:
   - master
-  type: private
+  type: public
 - name: golang-googlecode-goprotobuf
   description: ""
   protected_branches:
@@ -2646,22 +2723,22 @@ repositories:
   description: "Unit tests for golang-googlecode-net package."
   protected_branches:
   - master
-  type: private
+  type: public
 - name: golang-googlecode-text
   description: "Supplementary Go text libraries."
   protected_branches:
   - master
-  type: private
+  type: public
 - name: golang-googlecode-tools
   description: "Displays performance changes between benchmarks for the Go programming language."
   protected_branches:
   - master
-  type: private
+  type: public
 - name: golang-gopkg-yaml
   description: "Yaml support for the Go language."
   protected_branches:
   - master
-  type: private
+  type: public
 - name: google-droid-fonts
   description: ""
   protected_branches:
@@ -3087,8 +3164,20 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: hping
+  description: "a command-line oriented TCP/IP packet assembler/analyzer"
+  upstream: "http://www.hping.org/"
+  protected_branches:
+  - master
+  type: public
 - name: hplip
   description: ""
+  protected_branches:
+  - master
+  type: public
+- name: htslib
+  description: "C library for high-throughput sequencing data formats"
+  upstream: "http://www.htslib.org"
   protected_branches:
   - master
   type: public
@@ -3104,6 +3193,12 @@ repositories:
   type: private
 - name: httpd
   description: ""
+  protected_branches:
+  - master
+  type: public
+- name: http_load
+  description: "multiprocessing http test client"
+  upstream: "http://www.acme.com/software/http_load"
   protected_branches:
   - master
   type: public
@@ -3282,6 +3377,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: iniparser
+  description: "ini file parser"
+  upstream: "https://github.com/ndevilla/iniparser"
+  protected_branches:
+  - master
+  type: public
 - name: initial-setup
   description: ""
   protected_branches:
@@ -3382,6 +3483,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: ipwatchd
+  description: "IPwatchD is a simple daemon that analyses all incoming ARP packets in order to detect IP conflicts on Linux"
+  upstream: "https://ipwatchd.sourceforge.io/"
+  protected_branches:
+  - master
+  type: public
 - name: ipxe
   description: ""
   protected_branches:
@@ -3452,8 +3559,20 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: sysbench
+  description: "Scriptable database and system performance benchmark"
+  upstream: "https://github.com/akopytov/sysbench"
+  protected_branches:
+  - master
+  type: public
 - name: syscontainer-tools
   description: ""
+  protected_branches:
+  - master
+  type: public
+- name: sysget
+  description: "One package manager to rule them all"
+  upstream: "https://github.com/emilengler/sysget/"
   protected_branches:
   - master
   type: public
@@ -4572,6 +4691,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: libgssglue
+  description: "A gss api library"
+  upstream: "citi.umich.edu/projects/nfsv4/linux"
+  protected_branches:
+  - master
+  type: public
 - name: libgta
   description: "Library that implements the Generic Tagged Arrays file format."
   protected_branches:
@@ -5117,6 +5242,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: librpcsecgss
+  description: "secure rpc communication by secgss protocol"
+  upstream: "citi.umich.edu/projects/nfsv4/linux"
+  protected_branches:
+  - master
+  type: public
 - name: librsvg2
   description: ""
   protected_branches:
@@ -5672,6 +5803,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: libyubikey
+  description: "low-level C software development kit for the Yubico YubiKey authentication device"
+  upstream: "https://developers.yubico.com/yubico-c/"
+  protected_branches:
+  - master
+  type: public
 - name: libzip
   description: ""
   protected_branches:
@@ -5722,6 +5859,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: lmbench
+  description: "Tools for Performance Analysis"
+  upstream: "http://www.bitmover.com/lmbench/"
+  protected_branches:
+  - master
+  type: public
 - name: lmdb
   description: ""
   protected_branches:
@@ -5734,6 +5877,18 @@ repositories:
   type: public
 - name: lockdev
   description: ""
+  protected_branches:
+  - master
+  type: public
+- name: log4cplus
+  description: "simple logging API by using C++"
+  upstream: "http://sourceforge.net/projects/log4cplus"
+  protected_branches:
+  - master
+  type: public
+- name: log4cpp
+  description: "Log library for C++"
+  upstream: "https://sourceforge.net/projects/log4cpp/"
   protected_branches:
   - master
   type: public
@@ -6322,6 +6477,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: memtester
+  description: "userspace utility for testing the memory subsystem for faults"
+  upstream: "http://pyropus.ca/software/memtester/"
+  protected_branches:
+  - master
+  type: public
 - name: mercurial
   description: ""
   protected_branches:
@@ -6387,8 +6548,20 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: miniasm
+  description: "OLC-based de novo assembler for noisy long reads"
+  upstream: "https://github.com/lh3/miniasm"
+  protected_branches:
+  - master
+  type: public
 - name: minicom
   description: ""
+  protected_branches:
+  - master
+  type: public
+- name: minimap2
+  description: "versatile sequence alignment program that aligns DNA or mRNA sequences"
+  upstream: "https://github.com/lh3/minimap2"
   protected_branches:
   - master
   type: public
@@ -9462,6 +9635,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: python-blessed
+  description: "Blessed is an easy, practical library for making python terminal apps"
+  upstream: "http://pypi.python.org/pypi/blessed"
+  protected_branches:
+  - master
+  type: public
 - name: python-blinker
   description: ""
   protected_branches:
@@ -10072,6 +10251,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-ntlm-auth
+  description: "Calculates NTLM Authentication"
+  upstream: "https://github.com/jborean93/ntlm-auth"
+  protected_branches:
+  - master
+  type: public
 - name: python-ntplib
   description: ""
   protected_branches:
@@ -10154,6 +10339,12 @@ repositories:
   type: private
 - name: python-pbr
   description: ""
+  protected_branches:
+  - master
+  type: public
+- name: python-pbkdf2
+  description: "password-based key derivation function"
+  upstream: "https://pypi.org/project/pbkdf2/"
   protected_branches:
   - master
   type: public
@@ -10409,6 +10600,12 @@ repositories:
   type: public
 - name: python-requests-ftp
   description: ""
+  protected_branches:
+  - master
+  type: public
+- name: python-requests-ntlm
+  description: "NTLM authentication support for Requests"
+  upstream: "https://github.com/requests/requests-ntlm"
   protected_branches:
   - master
   type: public
@@ -10687,6 +10884,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-xmltodict
+  description: "XML feel like you are working with JSON"
+  upstream: "https://github.com/martinblech/xmltodict"
+  protected_branches:
+  - master
+  type: public
 - name: python-zipp
   description: "Backport of pathlib-compatible object wrapper for zip files"
   protected_branches:
@@ -10957,6 +11160,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: ranger
+  description: "A VIM-inspired filemanager for the console"
+  upstream: "https://github.com/ranger/ranger"
+  protected_branches:
+  - master
+  type: public
 - name: raptor2
   description: ""
   protected_branches:
@@ -11224,6 +11433,12 @@ repositories:
   type: public
 - name: samba
   description: ""
+  protected_branches:
+  - master
+  type: public
+- name: samtools
+  description: "Tools (written in C using htslib) for manipulating next-generation sequencing data"
+  upstream: "http://www.htslib.org"
   protected_branches:
   - master
   type: public
@@ -12007,6 +12222,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: tito
+  description: "A tool for managing rpm based git projects"
+  upstream: "https://github.com/rpm-software-management/tito"
+  protected_branches:
+  - master
+  type: public
 - name: tix
   description: ""
   protected_branches:
@@ -12252,6 +12473,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: unixbench
+  description: "BYTE UNIX benchmark suite"
+  upstream: "https://github.com/kdlucas/byte-unixbench"
+  protected_branches:
+  - master
+  type: public
 - name: unixODBC
   description: ""
   protected_branches:
@@ -12472,6 +12699,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: webbench
+  description: "simple tool for benchmarking WWW or proxy servers"
+  upstream: "http://freshmeat.sourceforge.net/projects/web-bench/"
+  protected_branches:
+  - master
+  type: public
 - name: webkit2gtk3
   description: ""
   protected_branches:
@@ -12967,6 +13200,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: ykpers
+  description: "The package contains a library and command line tool used to personalize yubikey"
+  upstream: "https://developers.yubico.com/yubikey-personalization/"
+  protected_branches:
+  - master
+  type: public
 - name: ypbind
   description: ""
   protected_branches:
@@ -13049,6 +13288,12 @@ repositories:
   type: public
 - name: keepalived
   description: "High Availability monitor built upon LVS, VRRP and service pollers"
+  protected_branches:
+  - master
+  type: public
+- name: kelbt
+  description: "Kelbt generates backtracking LALR parsers"
+  upstream: "http://freshmeat.sourceforge.net/projects/kelbt"
   protected_branches:
   - master
   type: public
@@ -13199,6 +13444,12 @@ repositories:
   type: public
 - name: python-webtest
   description: "Helper to test WSGI applications"
+  protected_branches:
+  - master
+  type: public
+- name: python-winrm
+  description: "Windows Remote Management"
+  upstream: "https://github.com/diyan/pywinrm"
   protected_branches:
   - master
   type: public
@@ -13359,6 +13610,18 @@ repositories:
   type: public
 - name: otopi
   description: ""
+  protected_branches:
+  - master
+  type: public
+- name: oec-hardware
+  description: "Use for check hardware compatibiltiy with openEuler"
+  upstream: "https://gitee.com/openeuler/oec-hardware"
+  protected_branches:
+  - master
+  type: public
+- name: oec-application
+  description: "Use for check application compatibility with openEuler"
+  upstream: "https://gitee.com/openeuler/oec-application"
   protected_branches:
   - master
   type: public
@@ -14094,31 +14357,169 @@ repositories:
   type: public
 - name: jupyter
   description: "Jupyter is an environment for interactive computing in multiple languages."
+  upstream: "https://github.com/jupyter/jupyter"
   protected_branches:
   - master
   type: public
 - name: caffe
   description: "A framework for deep learning"
+  upstream: "https://github.com/BVLC/caffe"
   protected_branches:
   - master
   type: public
 - name: tensorflow
   description: "A framework for deep learning"
+  upstream: "https://github.com/tensorflow/tensorflow"
   protected_branches:
   - master
   type: public
 - name: hadoop
   description: "A software platform for processing vast amounts of data"
+  upstream: "https://hadoop.apache.org"
   protected_branches:
   - master
   type: public
 - name: libsvm
   description: "A Library for Support Vector Machines"
+  upstream: "https://www.csie.ntu.edu.tw/~cjlin/libsvm/"
   protected_branches:
   - master
   type: public
 - name: libhdfs
   description: "The Apache Hadoop Filesystem Library"
+  upstream: "https://hadoop.apache.org"
+  protected_branches:
+  - master
+  type: public
+- name: ComputeLibrary
+  description: "ARM Compute Library"
+  upstream: "https://github.com/ARM-software/ComputeLibrary"
+  protected_branches:
+  - master
+  type: public
+- name: Shark
+  description: "C++ machine learning library"
+  upstream: "https://github.com/Shark-ML/Shark"
+  protected_branches:
+  - master
+  type: public
+- name: arm-ml-examples
+  description: "Machine learning examples used in Arm's ML developer space"
+  upstream: "https://github.com/ARM-software/ML-examples"
+  protected_branches:
+  - master
+  type: public
+- name: armnn
+  description: "Arm NN SDK enables machine learning workloads on power-efficient devices"
+  upstream: "https://git.mlplatform.org/ml/armnn"
+  protected_branches:
+  - master
+  type: public
+- name: bam
+  description: "Bam is a fast and flexible build system"
+  upstream: "https://github.com/matricks/bam"
+  protected_branches:
+  - master
+  type: public
+- name: bazel
+  description: "Tool for the automation of building and testing of software"
+  upstream: "https://github.com/bazelbuild/bazel"
+  protected_branches:
+  - master
+  type: public
+- name: libmetal
+  description: "Bare metal interaction APIs"
+  upstream: "https://github.com/OpenAMP/libmetal"
+  protected_branches:
+  - master
+  type: public
+- name: oneDNN
+  description: "Intel(R) Math Kernel Library for Deep Neural Networks"
+  upstream: "https://github.com/oneapi-src/oneDNN"
+  protected_branches:
+  - master
+  type: public
+- name: pytorch
+  description: "python deep learning framework"
+  upstream: "https://github.com/pytorch"
+  protected_branches:
+  - master
+  type: public
+- name: SuperLUMT
+  description: "Single precision real SuperLU routines for shared memory parallel machines"
+  upstream: "http://crd-legacy.lbl.gov/~xiaoye/SuperLU/"
+  protected_branches:
+  - master
+  type: public
+- name: epstool
+  description: "http://www.ghostgum.com.au/software/epstool.htm"
+  upstream: ""
+  protected_branches:
+  - master
+  type: public
+- name: ftgl
+  description: "OpenGL frontend to Freetype 2"
+  upstream: "https://sourceforge.net/projects/ftgl"
+  protected_branches:
+  - master
+  type: public
+- name: gl2ps
+  description: "An OpenGL to PostScript printing library"
+  upstream: "http://www.geuz.org/gl2ps/"
+  protected_branches:
+  - master
+  type: public
+- name: glpk
+  description: "GNU Linear Programming Kit"
+  upstream: "http://www.gnu.org/software/glpk/glpk.html"
+  protected_branches:
+  - master
+  type: public
+- name: libiodbc
+  description: "iODBC Driver Manager"
+  upstream: "http://www.iodbc.org/"
+  protected_branches:
+  - master
+  type: public
+- name: lzip
+  description: "Lossless file compressor based on the LZMA algorithm"
+  upstream: "http://www.nongnu.org/lzip/lzip.html"
+  protected_branches:
+  - master
+  type: public
+- name: maven-local
+  description: "Macros and scripts for Maven packaging support"
+  upstream: "https://github.com/fedora-java/javapackages"
+  protected_branches:
+  - master
+  type: public
+- name: octave
+  description: "A high-level language for numerical computations"
+  upstream: "http://www.octave.org"
+  protected_branches:
+  - master
+  type: public
+- name: qrupdate
+  description: "A Fortran library for fast updates of QR and Cholesky decompositions"
+  upstream: "http://qrupdate.sourceforge.net/"
+  protected_branches:
+  - master
+  type: public
+- name: qscintilla
+  description: "A Scintilla port to Qt"
+  upstream: "http://www.riverbankcomputing.com/software/qscintilla/"
+  protected_branches:
+  - master
+  type: public
+- name: sundials
+  description: "Suite of nonlinear solvers"
+  upstream: "https://computation.llnl.gov/projects/sundials"
+  protected_branches:
+  - master
+  type: public
+- name: opencl-headers
+  description: "OpenCL (Open Computing Language) header files"
+  upstream: "https://www.khronos.org/registry/OpenCL/"
   protected_branches:
   - master
   type: public
@@ -14152,6 +14553,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: bcftools
+  description: "Reading/writing BCF2/VCF/gVCF files and calling/filtering/summarising SNP"
+  upstream: "http://www.htslib.org"
+  protected_branches:
+  - master
+  type: public
 - name: bpftrace
   description: "High-level tracing language for Linux eBPF"
   protected_branches:
@@ -14172,7 +14579,13 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: bounds_checking_function
+  description: "Enhanced safety functions"
+  protected_branches:
+  - master
+  type: public
 - name: cms
   description: "Open source content management system based on nodejs"
   protected_branches:
   - master
+  type: public
