@@ -18,7 +18,7 @@
 
 # 联系方式
 
-- [邮件列表](sig-cms@openeuler.org)
+- [邮件列表](xiaoshen@isrc.iscas.ac.cn)
 
 
 # 项目清单
@@ -27,4 +27,4 @@
 
 repository地址：
 
-- https:/gitee.com/openeuler/cms/
+- https://gitee.com/src-openeuler/doracms
