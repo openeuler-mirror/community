@@ -14427,6 +14427,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: doracms
+  description: "Open source content management system based on nodejs"
+  protected_branches:
+  - master
+  type: public  
 - name: libmetal
   description: "Bare metal interaction APIs"
   upstream: "https://github.com/OpenAMP/libmetal"
