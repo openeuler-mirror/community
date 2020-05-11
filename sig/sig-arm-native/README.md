@@ -1,17 +1,11 @@
 
-# SIG名称
+# sig-arm-native
 
-*<必选，请在此描述SIG的范围、工作职责和目标，可以直接用sig-template.md内描述的第一个章节>,*
-
-
+- 编译构建openEuler的ARM Native运行版本
 
 # 组织会议
 
 - 公开的会议时间：北京时间，每周X 下午，XX点~XX点
-
-*<可选，请在此给出SIG会议的时间，如SIG的公开会议时间还未确定，可以放到确定以后刷新>*
-
-
 
 # 成员
 
@@ -19,25 +13,19 @@
 
 ### Maintainer列表
 
-- name[@giteeID](giteeID链接)，*邮箱地址*
-
+- wufangyao01[@wufangyao01](https://gitee.com/wufangyao01)，wufangyao@huawei.com
 
 
 ### Committer列表
 
-- name[@giteeID](giteeID链接)
-
+- wufangyao01[@wufangyao01](https://gitee.com/wufangyao01)，wufangyao@huawei.com
 
 
 # 联系方式
 
-*<如果需要单独申请邮件列表，请在此补充邮箱名称：sig-yousigname@openeuler.org。如果不需要，请写上开发邮箱名称：dev@openeuler.org>*
-
-- [邮件列表](sig-yoursigname@openeuler.org)
+- [邮件列表](sig-arm-native@openeuler.org)
 - [IRC公开会议]()
 - 视频会议
-
-
 
 
 
@@ -49,5 +37,5 @@
 
 repository地址：
 
-- 
+- 新建(进行中)
 - 
