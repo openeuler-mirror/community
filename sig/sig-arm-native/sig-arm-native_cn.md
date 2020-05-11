@@ -9,12 +9,9 @@
 
 用描述新申请SIG计划工作的范围和目标，包括但不限于：
 
- - 为什么需要在openEuler里创建一个这样的新SIG
-
- - 该SIG的业务范围
-
- - 该SIG需要得到openEuler内哪些SIG的支持
-
+- 编译构建openEuler基于开源安卓模拟器(QEMU)和安卓容器(Anbox)的ARM Native运行版本
+- 使能ARM Native场景下相关外设功能（音频、视频、GPU渲染等）
+- 及时响应用户反馈，解决相关问题
 
 
  ### 该SIG管理的repository及描述
