@@ -14589,3 +14589,8 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: pyporter
+  description: "A rpm packager bot for python modules from pypi.org"
+  protected_branches:
+  - master
+  type: public
