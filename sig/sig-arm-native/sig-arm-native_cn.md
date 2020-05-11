@@ -1,5 +1,5 @@
 
-# 新建SIG申请
+# openEuler arm-native 兴趣组
 [English](./sig-arm-native.md) | 简体中文
 
 
