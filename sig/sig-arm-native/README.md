@@ -15,12 +15,12 @@
 
 ### Maintainer列表
 
-- wufangyao01[@wufangyao01](https://gitee.com/wufangyao01)，wufangyao@huawei.com
+- wufangyao01[@wufangyao01](https://gitee.com/wufangyao01)，wufangyao2020@163.com
 
 
 ### Committer列表
 
-- wufangyao01[@wufangyao01](https://gitee.com/wufangyao01)，wufangyao@huawei.com
+- wufangyao01[@wufangyao01](https://gitee.com/wufangyao01)，wufangyao2020@163.com
 
 
 # 联系方式
