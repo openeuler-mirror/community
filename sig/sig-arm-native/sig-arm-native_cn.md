@@ -16,10 +16,10 @@
 
  ### 该SIG管理的repository及描述
 
-- 项目名称：
+- 项目名称：sig-arm-native
   - 交付件形式：源码、tar包或兼而有之
-  - repository1名称：
-  - repository2名称：
+  - repository1名称：https://gitee.com/openeuler/qemu
+  - repository2名称：https://gitee.com/openeuler/anbox
 
 
 
