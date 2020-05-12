@@ -12,21 +12,14 @@
 # 成员
 
 - wufangyao01
-- sunnanyong
-- wangtingwang
-- wangpeiqiang
-- hanyuhang
-- zhanghaidong
 
 ### Maintainer列表
 
 - wufangyao01[@wufangyao01](https://gitee.com/wufangyao01)，wufangyao2020@163.com
-- sunnanyong[@sunnanyong](https://gitee.com/sunnanyong)
 
 ### Committer列表
 
 - wufangyao01[@wufangyao01](https://gitee.com/wufangyao01)，wufangyao2020@163.com
-- sunnanyong[@sunnanyong](https://gitee.com/sunnanyong)
 
 # 联系方式
 
