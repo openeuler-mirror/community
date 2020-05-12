@@ -31,7 +31,7 @@
 
 # 联系方式
 
-- [邮件列表](sig-RISC-V@openeuler.org)
+- [邮件列表](dev@openeuler.org)
 - [IRC公开会议]()
 - 视频会议
 
