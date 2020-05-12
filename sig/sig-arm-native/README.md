@@ -12,6 +12,8 @@
 # 成员
 
 - wufangyao01
+- sunnanyong
+- wangtingwang
 
 ### Maintainer列表
 
