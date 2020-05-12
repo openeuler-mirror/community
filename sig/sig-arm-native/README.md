@@ -27,7 +27,7 @@
 
 - wufangyao01[@wufangyao01](https://gitee.com/wufangyao01)，wufangyao2020@163.com
 - sunnanyong[@sunnanyong](https://gitee.com/sunnanyong)
-- wangtingwang[@sunnanyong](https://gitee.com/wangtingwang)
+- wangtingwang[@wangtingwang](https://gitee.com/wangtingwang)
 
 # 联系方式
 
@@ -41,7 +41,7 @@
 
 *<可选，如果在申请SIG的时候，就有新项目，请完善此处内容。项目名称和申请表格一致，repository地址和repository.yaml内的申请地址一致>*
 
-项目名称：
+项目名称：KPandroid
 
 repository地址：
 
