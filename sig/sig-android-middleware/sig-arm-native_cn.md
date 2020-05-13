@@ -1,9 +1,11 @@
 
-# openEuler arm-native 兴趣组
-[English](./sig-arm-native.md) | 简体中文
+# openEuler android-middleware 兴趣组
+[English](./sig-android-middleware.md) | 简体中文
 
+android-middleware SIG 致力于围绕以android为核心的ARM原生生态，通过android-middleware将海量的ARM原生的android应用无缝接入到 openEuler，降低用户对android-middleware和相关ARM原生android应用的安装与使用门槛，丰富openEuler生态。
 
-说明：本SIG的Charter内容遵循openEuler章程 [README](/zh/governance/README.md)中描述的约定，使用[SIG-governance](/zh/technical-committee/governance/SIG-governance.md)中概述的角色和组织管理。
+android-middleware 是一个基于开源安卓模拟器（android emulator）或开源安卓容器（anbox)构建于android系统与host OS(UOS/openEuler)构建的中间层，能够帮助用户快速搭建与运维ARM原生技术栈，提供可视化的操作界面，使能了相关外设（音频、视频、GPU渲染等),并且通过硬件抽象、指令转换等方法兼容android应用。
+
 
 ## SIG组工作目标和范围
 
@@ -16,9 +18,9 @@
 
  ### 该SIG管理的repository及描述
 
-- 项目名称：sig-arm-native
+- 项目名称：sig-android-middleware
   - 交付件形式：源码、tar包或兼而有之
-  - repository1名称：https://gitee.com/openeuler/qemu
+  - repository1名称：https://gitee.com/openeuler/android_emulator
   - repository2名称：https://gitee.com/openeuler/anbox
 
 
