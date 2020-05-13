@@ -23,7 +23,7 @@
 
 ### Committer列表
 
-- rongwang[@rongwang1123](https://gitee.com/rongwang1123)
+- rongwang[@rongwang1123](https://gitee.com/rongwang1123),w_angrong@163.com
 
 # 联系方式
 
