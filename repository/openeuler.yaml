@@ -1,6 +1,6 @@
 community: "openeuler"
 repositories:
-- name:abichecker 
+- name: abichecker 
   description: "An abi checker tool"
   protected_branches:
   - master
@@ -211,6 +211,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: marketing
+  description: "Collections of marketing events proposals and materials"
+  protected_branches:
+  - master
+  type: public  
 - name: crystal-ci
   description: "Crystal CI"
   protected_branches:
@@ -228,6 +233,11 @@ repositories:
   type: public
 - name: oec-application
   description: "Use for check application compatibility with openEuler"
+  protected_branches:
+  - master
+  type: public
+- name: pyporter
+  description: "A rpm packager bot for python modules from pypi.org"
   protected_branches:
   - master
   type: public
