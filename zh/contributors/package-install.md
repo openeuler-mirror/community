@@ -17,33 +17,33 @@ rpm-build本地构建软件包的具体操作步骤如下：
     1.  查找需要操作的源码。以openssl为例，请根据实际修改。
 
         ```
-        # dnf list | grep openssl
+        $ dnf list | grep openssl
         ```
 
-        查看打印信息中是否有包含zziplib软件名的.src的文件，若有则继续下面的操作，若无则在社区上留言。
+        查看打印信息中是否有包含openssl软件名的.src的文件，若有则继续下面的操作，若无则在社区上留言。
 
     2.  下载源码文件。
 
         ```
-        # yumdownloader --source openssl.src
+        $ yumdownloader --source openssl
         ```
 
-    3.  安装zzliplib软件包。
+    3.  安装openssl软件包。
 
         ```
-        # rpm -ivh openssl-1.1.1d-5.src.rpm 
+        $ rpm -ivh openssl-1.1.1d-5.src.rpm 
         ```
 
-        命令执行完成后，会在/root目录下生成rpmbuild目录。rpmbuild目录下有如下目录：
+        命令执行完成后，会在 $HOME 目录下生成rpmbuild目录。rpmbuild目录下有如下目录：
 
         -   SOURCES：源代码目录，保存源码包（如 .tar 包）和所有 patch 补丁。
         -   SPECS：Spec 文件目录，保存 RPM 包配置（.spec）文件。
 
-    4.  切换目录到/root/rpmbuild/SPECS，然后执行rpmbuild命令构建软件包。
+    4.  切换目录到$HOME/rpmbuild/SPECS，然后执行rpmbuild命令构建软件包。注意rpmbuild并不需要root权限执行。我们强烈建议使用普通用户执行这一命令。
 
         ```
-        # cd ~/rpmbuild/SPECS
-        # rpmbuild -ba openssl.spec
+        $ cd ~/rpmbuild/SPECS
+        $ rpmbuild -ba openssl.spec
         ```
 
         命令执行后，可能会有一些报错信息，且构建不同的软件包报错信息不同。请根据具体的报错信息进行解决。
@@ -57,7 +57,7 @@ rpm-build本地构建软件包的具体操作步骤如下：
             lksctp-tools-devel is needed by openssl-1:1.1.1d-5.aarch64
 
             ```
-            # dnf install lksctp-tools-devel -y
+            $ sudo dnf install lksctp-tools-devel -y
             ```
 
         -   自检失败报错信息。
@@ -73,12 +73,12 @@ rpm-build本地构建软件包的具体操作步骤如下：
     5.  查看构建结果。
 
         ```
-        # tree ~/rpmbuild/*RPMS
+        $ tree ~/rpmbuild/*RPMS
         ```
 
         命令执行后，打印信息如下：
 
-        /root/rpmbuild/RPMS
+        /home/user-A/rpmbuild/RPMS
 
         ├── aarch64
 
@@ -94,7 +94,7 @@ rpm-build本地构建软件包的具体操作步骤如下：
 
         └── openssl-help-1.1.1d-5.noarch.rpm
 
-        /root/rpmbuild/SRPMS
+        /home/user-A/rpmbuild/SRPMS
 
         └── openssl-1.1.1d-5.src.rpm
 
@@ -106,13 +106,13 @@ rpm-build本地构建软件包的具体操作步骤如下：
     1.  切换到已构建的软件包的目录，以openssl-devel-1.1.1d-5.aarch64.rpm软件包的安装为例。
 
         ```
-        # cd ~/rpmbuild/RPMS/aarch64
+        $ cd ~/rpmbuild/RPMS/aarch64
         ```
 
-    2.  执行rpm -ivh命令安装软件包。
+    2.  以 root 身份执行rpm -ivh命令安装软件包。
 
         ```
-        # rpm -ivh openssl-devel-1.1.1d-5.aarch64.rpm
+        $ sudo rpm -ivh openssl-devel-1.1.1d-5.aarch64.rpm
         ```
 
         命令执行后，若有提示缺少依赖的软件包，则根据提示安装依赖软件包。 如下所示：
@@ -122,7 +122,7 @@ rpm-build本地构建软件包的具体操作步骤如下：
         krb5-devel is needed by openssl-devel-1:1.1.1d-5.aarch64
 
         ```
-        # dnf install krb5-devel -y
+        $ sudo dnf install krb5-devel -y
         ```
 
         依赖软件包安装完成后再次执行**rpm -ivh openssl-devel-1.1.1d-5.aarch64.rpm**安装软件包。出现如下提示时表示安装成功。
