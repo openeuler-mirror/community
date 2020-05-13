@@ -14,6 +14,7 @@
 - wufangyao01
 - wigman
 - 韩雨航
+- rongwang
 
 ### Maintainer列表
 
@@ -22,7 +23,7 @@
 
 ### Committer列表
 
-- 韩雨航[@yuhang_gongshu](https://gitee.com/yuhang_gongshu)，18700873675@163.com
+- rongwang[@rongwang1123](https://gitee.com/rongwang1123)
 
 # 联系方式
 
