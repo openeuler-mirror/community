@@ -1,5 +1,5 @@
 
-# sig-arm-native
+# sig-android-middleware
 
 - 编译构建openEuler基于开源安卓模拟器(QEMU)和安卓容器(Anbox)的ARM Native运行版本
 - 使能ARM Native场景下相关外设功能（音频、视频、GPU渲染等）
@@ -26,19 +26,17 @@
 
 # 联系方式
 
-- [邮件列表](sig-arm-native@openeuler.org)
+- [邮件列表](sig-android-middleware@openeuler.org)
 - [IRC公开会议]()
 - 视频会议
-
-
 
 # 项目清单
 
 *<可选，如果在申请SIG的时候，就有新项目，请完善此处内容。项目名称和申请表格一致，repository地址和repository.yaml内的申请地址一致>*
 
-项目名称：sig-arm-native
+项目名称：sig-android-middleware
 
 repository地址：
 
-- https://gitee.com/openeuler/qemu
+- https://gitee.com/openeuler/android_emulator
 - https://gitee.com/openeuler/anbox
