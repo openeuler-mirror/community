@@ -1,4 +1,4 @@
-﻿community: src-openeuler
+community: src-openeuler
 repositories:
 - name: aalib
   description: ""
@@ -4256,6 +4256,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: rocksdb
+  description: "A Persistent Key-Value Store for Flash and RAM Storage"
+  upstream: "https://github.com/facebook/rocksdb"
+  protected_branches:
+  - master
+  type: public
 - name: lftp
   description: ""
   protected_branches:
@@ -6587,6 +6593,12 @@ repositories:
   type: public
 - name: mobile-broadband-provider-info
   description: ""
+  protected_branches:
+  - master
+  type: public
+- name: mock
+  description: "Builds packages inside chroots"
+  upstream: "https://github.com/rpm-software-management/mock"
   protected_branches:
   - master
   type: public
@@ -10505,6 +10517,12 @@ repositories:
   type: public
 - name: python-pynacl
   description: ""
+  protected_branches:
+  - master
+  type: public
+- name: python-pyroute2
+  description: "Pure Python netlink library"
+  upstream: "https://github.com/svinota/pyroute2"
   protected_branches:
   - master
   type: public
@@ -14427,6 +14445,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: doracms
+  description: "Open source content management system based on nodejs"
+  protected_branches:
+  - master
+  type: public  
 - name: libmetal
   description: "Bare metal interaction APIs"
   upstream: "https://github.com/OpenAMP/libmetal"

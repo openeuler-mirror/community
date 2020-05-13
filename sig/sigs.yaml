@@ -63,7 +63,6 @@ sigs:
   - src-openeuler/vorbis-tools
   - src-openeuler/amanda
   - src-openeuler/po4a
-  - src-openeuler/ipvsadm
   - src-openeuler/infiniband-diags
   - src-openeuler/netpbm
   - src-openeuler/texlive-base
@@ -543,6 +542,7 @@ sigs:
   - src-openeuler/openvswitch
   - src-openeuler/mesa
   - src-openeuler/ldns
+  - src-openeuler/ipvsadm
   - src-openeuler/xorg-x11-xkb-utils
   - src-openeuler/libxkbfile
   - src-openeuler/efi-rpm-macros
@@ -1259,6 +1259,7 @@ sigs:
   - src-openeuler/mksh
   - src-openeuler/libgphoto2
   - src-openeuler/leveldb
+  - src-openeuler/rocksdb
   - src-openeuler/fcoe-utils
   - src-openeuler/ibus-hangul
   - src-openeuler/colord-gtk
@@ -2801,6 +2802,8 @@ sigs:
   - src-openeuler/atop
   - src-openeuler/bcc
   - src-openeuler/bpftrace
+  - src-openeuler/mock
+  - src-openeuler/python-pyroute2
   - src-openeuler/libbpf
   - src-openeuler/python-pbkdf2
   - src-openeuler/python-xmltodict
@@ -2845,6 +2848,8 @@ sigs:
   - src-openeuler/log4cpp
   - src-openeuler/libgssglue
   - src-openeuler/librpcsecgss
+  - openeuler/openEuler-bootstrap
+  - openeuler/abichecker
 - name: sig-mate-desktop
   repositories:
   - openeuler/mate-desktop
@@ -3032,6 +3037,9 @@ sigs:
   - openeuler/oec-application
   - src-openeuler/oec-hardware
   - src-openeuler/oec-application
+- name: sig-cms
+  repositories:
+  - src-openeuler/doracms
 - name: sig-RISC-V
   repositories:
   - openeuler/autobuild-openeuler4riscv

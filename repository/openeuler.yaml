@@ -1,5 +1,10 @@
 community: "openeuler"
 repositories:
+- name:abichecker 
+  description: "An abi checker tool"
+  protected_branches:
+  - master
+  type: public
 - name: A-Tune
   description: ""
   protected_branches:
@@ -17,6 +22,11 @@ repositories:
   type: public
 - name: blog
   description: "Blog project is used to house the blogs that related openEuler community."
+  protected_branches:
+  - master
+  type: public
+- name: openEuler-bootstrap
+  description: "Build new openEuler architecture bootstrap rpms from scratch"
   protected_branches:
   - master
   type: public
