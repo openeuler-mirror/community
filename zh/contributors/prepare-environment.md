@@ -34,6 +34,13 @@
 >![](icon/icon-note.gif) **说明：**   
 >openEuler提供了多种repo源文件，本操作以AArch64架构的OS repo源文件、源码repo 源文件和全量repo源文件为例。  
 
+0.  配置yum所需的gpg公钥
+
+    ```
+    # cd /etc/pki/rpm-gpg
+    # wget https://repo.openeuler.org/openEuler-20.03-LTS/OS/aarch64/RPM-GPG-KEY-openEuler
+    ```
+
 1.  进入到yum源目录。
 
     ```
@@ -56,7 +63,9 @@
 
     enabled=1
 
-    gpgcheck=0
+    gpgcheck=1
+
+    gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-openEuler
 
     \[srclocal\]
 
@@ -66,7 +75,9 @@
 
     enabled=1
 
-    gpgcheck=0
+    gpgcheck=1
+
+    gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-openEuler
 
     \[everythinglocal\]
 
@@ -76,7 +87,9 @@
 
     enabled=1
 
-    gpgcheck=0
+    gpgcheck=1
+
+    gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-openEuler
 
 **方式二：通过挂载ISO的方式配置repo源。**
 
