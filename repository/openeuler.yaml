@@ -211,6 +211,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: marketing
+  description: "Collections of marketing events proposals and materials"
+  protected_branches:
+  - master
+  type: public  
 - name: crystal-ci
   description: "Crystal CI"
   protected_branches:
