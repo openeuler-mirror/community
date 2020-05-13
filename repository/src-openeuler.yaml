@@ -9562,6 +9562,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: pyporter
+  description: "A rpm packager bot for python modules from pypi.org"
+  upstream: "https://gitee.com/openeuler/pyporter"
+  protected_branches:
+  - master
+  type: public
 - name: python-aniso8601
   description: ""
   protected_branches:
