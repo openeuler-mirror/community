@@ -4,10 +4,10 @@
 
 android-middleware SIG 组致力于围绕以android为核心的ARM原生生态，并进行相关适配、迁移和优化，帮助用户解决实际问题。通过android-middleware将海量的ARM原生的android应用无缝接入到openEuler，降低用户对android-middleware和相关ARM原生android应用的安装与使用门槛，丰富openEuler生态。
 
-android-middleware 是一个基于开源安卓模拟器(android emulator)或开源安卓容器(anbox)构建于android系统与host OS(openEuler)之间的中间层，能够帮助用户快速搭建与运维arm + openEuler + android原生技术栈，并提供可视化的操作界面。
+android-middleware 是一个基于开源安卓模拟器(android emulator)或开源安卓容器(anbox)构建于android系统与host OS(openEuler)之间的中间层，能够帮助用户快速搭建与运维ARM + openEuler + android原生技术栈，并提供可视化的操作界面。
 
 ## SIG组工作目标和范围
-
+ 
 用描述新申请SIG计划工作的范围和目标，包括但不限于：
 
 - 编译构建openEuler基于开源安卓模拟器(android emulator)和开源安卓容器(Anbox)的ARM Native运行版本
