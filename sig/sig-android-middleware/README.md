@@ -1,7 +1,7 @@
 
 # sig-android-middleware
 
-- 编译构建openEuler基于开源安卓模拟器(QEMU)和安卓容器(Anbox)的ARM Native运行版本
+- 编译构建openEuler基于开源安卓模拟器(android emulator)和开源安卓容器(Anbox)的ARM Native运行版本
 - 使能ARM Native场景下相关外设功能（音频、视频、GPU渲染等）
 - 及时响应用户反馈，解决相关问题
 
