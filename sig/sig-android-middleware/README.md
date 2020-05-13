@@ -38,5 +38,5 @@
 
 repository地址：
 
-- https://gitee.com/openeuler/android_emulator
+- https://gitee.com/openeuler/android-emulator
 - https://gitee.com/openeuler/anbox
