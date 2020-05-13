@@ -14,6 +14,7 @@
 - wufangyao01
 - wigman
 - 韩雨航
+
 ### Maintainer列表
 
 - wufangyao01[@wufangyao01](https://gitee.com/wufangyao01)，wufangyao2020@163.com
@@ -21,8 +22,7 @@
 
 ### Committer列表
 
-- wufangyao01[@wufangyao01](https://gitee.com/wufangyao01)，wufangyao2020@163.com
-- wigman[@sun_nanyong](https://gitee.com/sun_nanyong)，497141801@qq.com
+- 韩雨航[@yuhang_gongshu](https://gitee.com/yuhang_gongshu)，18700873675@163.com
 
 # 联系方式
 
