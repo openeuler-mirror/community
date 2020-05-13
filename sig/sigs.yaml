@@ -2773,6 +2773,9 @@ sigs:
 - name: sig-dpdk
   repositories:
   - src-openeuler/dpdk
+- name: Marketing
+  repositories:
+  - openeuler/marketing  
 - name: security-committee
   repositories:
   - openeuler/security-committee
@@ -3037,6 +3040,3 @@ sigs:
 - name: sig-cms
   repositories:
   - src-openeuler/doracms
-- name: Marketing
-  repositories:
-  - openeuler/marketing
