@@ -1080,7 +1080,6 @@ sigs:
   - src-openeuler/debootstrap
   - src-openeuler/dogtail
   - src-openeuler/dpkg
-  - src-openeuler/dyninst
   - src-openeuler/fonts-rpm-macros
   - src-openeuler/fuse-python
   - src-openeuler/galera
@@ -2001,6 +2000,7 @@ sigs:
   - src-openeuler/saab-fonts
 - name: Computing
   repositories:
+  - src-openeuler/dyninst
   - src-openeuler/libevdev
   - src-openeuler/nspr
   - src-openeuler/libatomic_ops
