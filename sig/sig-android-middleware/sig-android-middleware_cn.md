@@ -19,7 +19,7 @@ android-middleware 是一个基于开源安卓模拟器(android emulator)或开�
 
 - 项目名称：sig-android-middleware
   - 交付件形式：源码、tar包或兼而有之
-  - repository1名称：https://gitee.com/openeuler/android_emulator
+  - repository1名称：https://gitee.com/openeuler/android-emulator
   - repository2名称：https://gitee.com/openeuler/anbox
 
 
