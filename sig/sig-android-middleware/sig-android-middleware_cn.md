@@ -10,7 +10,7 @@ android-middleware 是一个基于开源安卓模拟器(android emulator)或开�
  
 用描述新申请SIG计划工作的范围和目标，包括但不限于：
 
-- 编译构建openEuler基于开源安卓模拟器(android emulator)和开源安卓容器(Anbox)的ARM Native运行版本
+- 编译构建openEuler基于开源安卓模拟器(android emulator)和开源安卓容器(Anbox)的android-middleware运行版本
 - 使能ARM Native场景下相关外设功能(音频、视频、GPU渲染等）
 - 及时响应用户反馈，解决相关问题
 
