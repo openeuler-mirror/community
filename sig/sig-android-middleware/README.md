@@ -17,7 +17,7 @@
 ### Maintainer列表
 
 - wufangyao01[@wufangyao01](https://gitee.com/wufangyao01)，wufangyao2020@163.com
-- wigman[@sun_nanyong](https://gitee.com/sun_nanyong)
+- wigman[@sun_nanyong](https://gitee.com/sun_nanyong)，497141801@qq.com
 
 ### Committer列表
 
