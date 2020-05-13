@@ -11,10 +11,12 @@
 # 成员
 
 *genedna*
+*allesgute*
 
 ### Maintainer列表
 
 - Eli Ma[@genedna](https://gitee.com/genedna)，*eli@patch.sh*
+- Sheng Qu[@allesgute](https://gitee.com/allesgute), *qusheng@iscas.ac.cn*
 
 ### Committer列表
 
