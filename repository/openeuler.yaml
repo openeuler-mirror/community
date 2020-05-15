@@ -111,6 +111,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: iSula-libutils
+  description: "Common c library with json parser and log tools, use by iSula"
+  protected_branches:
+  - master
+  type: public
 - name: libkae
   description: ""
   protected_branches:

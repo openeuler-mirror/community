@@ -4221,6 +4221,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: iSula-libutils
+  description: "Common c library with json parser and log tools, use by iSula"
+  upstream: "openeuler/iSula-libutils"
+  protected_branches:
+  - master
+  type: public
 - name: ldns
   description: ""
   protected_branches:
