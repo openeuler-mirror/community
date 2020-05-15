@@ -1204,6 +1204,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: ct-ng
+  description: "Crosstool-NG is a versatile (cross) toolchain generator. It supports many architectures and components and has a simple yet powerful menuconfig-style interface."
+  upstream: "https://crosstool-ng.github.io/"
+  protected_branches:
+  - master
+  type: public
 - name: CUnit
   description: ""
   protected_branches:
