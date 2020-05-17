@@ -14618,6 +14618,18 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: mlpack
+  description: "a fast, flexible machine learning library, written in C++"
+  upstream: "https://www.mlpack.org/"
+  protected_branches:
+  - master
+  type: public
+- name: ensmallen
+  description: "flexible C++ library for efficient numerical optimization"
+  upstream: "https://www.ensmallen.org/"
+  protected_branches:
+  - master
+  type: public
 - name: cilium
   description: "API-aware Networking and Security"
   protected_branches:
