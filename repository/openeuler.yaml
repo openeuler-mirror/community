@@ -246,3 +246,8 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: autobuild-openeuler4riscv
+  description: "Tools scripts for auto-building openEuler SRPMs for RISC-V"
+  protected_branches:
+  - master
+  type: public
