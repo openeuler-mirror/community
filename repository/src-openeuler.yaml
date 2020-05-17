@@ -14564,6 +14564,60 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: eigen
+  description: "a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms."
+  upstream: "http://eigen.tuxfamily.org/"
+  protected_branches:
+  - master
+  type: public
+- name: armadillo
+  description: "C++ library for linear algebra & scientific computing"
+  upstream: "http://arma.sourceforge.net/"
+  protected_branches:
+  - master
+  type: public
+- name: opencl
+  description: "an open, royalty-free standard for cross-platform, parallel programming of diverse accelerators found in supercomputers, cloud servers, personal computers, mobile devices and embedded platforms."
+  upstream: "https://www.khronos.org/opencl/"
+  protected_branches:
+  - master
+  type: public
+- name: libxsmm
+  description: "Library targeting Intel Architecture for specialized dense and sparse matrix operations, and deep learning primitives."
+  upstream: "https://github.com/hfp/libxsmm"
+  protected_branches:
+  - master
+  type: public
+- name: ideep
+  description: "Intel® Optimization for Chainer*, a Chainer module providing numpy like API and DNN acceleration using MKL-DNN."
+  upstream: "https://github.com/intel/ideep"
+  protected_branches:
+  - master
+  type: public
+- name: gpumlib
+  description: "an open source Graphics Processing Unit Machine Learning Library."
+  upstream: "http://gpumlib.sourceforge.net/"
+  protected_branches:
+  - master
+  type: public
+- name: dlib
+  description: "a modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++ to solve real world problems."
+  upstream: "http://dlib.net/"
+  protected_branches:
+  - master
+  type: public
+- name: opennn
+  description: "an open source neural networks library for machine learning."
+  upstream: "https://www.opennn.net/"
+  protected_branches:
+  - master
+  type: public
+- name: onemkl
+  description: "oneAPI Math Kernel Library (oneMKL) Interfaces"
+  upstream: "https://github.com/oneapi-src/oneMKL"
+  protected_branches:
+  - master
+  type: public
 - name: cilium
   description: "API-aware Networking and Security"
   protected_branches:
