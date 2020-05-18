@@ -3053,3 +3053,7 @@ sigs:
 - name: sig-RISC-V
   repositories:
   - openeuler/autobuild-openeuler4riscv
+- name: sig-android-middleware
+  repositories:
+  - openeuler/android-emulator
+  - openeuler/anbox
