@@ -1,0 +1,49 @@
+
+# sig-ceph
+
+- 基于LGPL version 2.1 or 3.0
+- 基于Ceph项目丰富openeuler生态圈
+- Ceph开源项目版本发布、更新以及维护
+
+
+
+# 组织会议
+
+- 公开的会议时间：北京时间，每周X 下午，XX点~XX点
+
+北京时间，双周一上午，10点~11点
+
+
+# 成员
+
+
+### Maintainer列表
+
+- chixinze[@chixinze](https://gitee.com/chixinze)
+
+
+
+### Committer列表
+
+- chixinze[@chixinze](https://gitee.com/chixinze)
+
+
+
+# 联系方式
+
+
+- [邮件列表](sig-ceph@openeuler.org)
+
+
+
+
+
+# 项目清单
+
+
+项目名称：
+
+repository地址：
+
+- https:/gitee.com/src-openeuler/ceph
+- 

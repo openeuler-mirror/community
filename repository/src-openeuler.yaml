@@ -14615,6 +14615,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: ceph
+  description: "Ceph is a distributed object, block, and file storage platform"
+  upstream: "https://github.com/ceph/ceph"
+  protected_branches:
+  - master
+  type: public
 - name: raspberry-build
   description: "Scripts of building images for Raspberry Pi"
   protected_branches:

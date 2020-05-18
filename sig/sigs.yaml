@@ -1912,7 +1912,6 @@ sigs:
   - src-openeuler/lvm2
   - src-openeuler/dmraid
   - src-openeuler/libtalloc
-  - src-openeuler/ceph
   - src-openeuler/perl-DBD-MySQL
   - src-openeuler/quota
   - src-openeuler/mariadb-connector-c
@@ -3007,6 +3006,9 @@ sigs:
 - name: sig-EasyLife
   repositories:
   - openeuler/openEuler-Advisor
+- name: sig-ceph
+  repositories:
+  - src-openeuler/ceph
 - name: sig-security-facility
   repositories:
   - src-openeuler/apparmor
