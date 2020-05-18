@@ -14263,6 +14263,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: caffe
+  description: "A framework for deep learning"
+  upstream: "https://github.com/BVLC/caffe"
+  protected_branches:
+  - master
+  type: public
 - name: caja
   description: "Caja, the file manager for the MATE desktop"
   protected_branches:
