@@ -251,3 +251,13 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: android-emulator
+  description: "An Android emulator is software which simulates the functionality of an Android device running the Android OS. Emulator allows developers to develop and test applications without the need of various real devices with different configurations"
+  protected_branches:
+  - master
+  type: public
+- name: anbox
+  description: "A free and open-source compatibility layer that aims to allow mobile applications and mobile games developed for Android to run on GNU/Linux distributions"
+  protected_branches:
+  - master
+  type: public
