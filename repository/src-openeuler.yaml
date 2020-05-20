@@ -1405,6 +1405,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: dlib
+  description: "a modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++ to solve real world problems."
+  upstream: "http://dlib.net/"
+  protected_branches:
+  - master
+  type: public
 - name: dmidecode
   description: ""
   protected_branches:
@@ -1650,6 +1656,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: eigen
+  description: "a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms."
+  upstream: "http://eigen.tuxfamily.org/"
+  protected_branches:
+  - master
+  type: public
 - name: elfutils
   description: ""
   protected_branches:
@@ -1688,6 +1700,12 @@ repositories:
   type: public
 - name: enscript
   description: ""
+  protected_branches:
+  - master
+  type: public
+- name: ensmallen
+  description: "flexible C++ library for efficient numerical optimization"
+  upstream: "https://www.ensmallen.org/"
   protected_branches:
   - master
   type: public
@@ -5781,6 +5799,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: libxsmm
+  description: "Library targeting Intel Architecture for specialized dense and sparse matrix operations, and deep learning primitives."
+  upstream: "https://github.com/hfp/libxsmm"
+  protected_branches:
+  - master
+  type: public
 - name: libXt
   description: ""
   protected_branches:
@@ -6603,6 +6627,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: mlpack
+  description: "a fast, flexible machine learning library, written in C++"
+  upstream: "https://www.mlpack.org/"
+  protected_branches:
+  - master
+  type: public
 - name: mobile-broadband-provider-info
   description: ""
   protected_branches:
@@ -7224,6 +7254,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: opencl
+  description: "an open, royalty-free standard for cross-platform, parallel programming of diverse accelerators found in supercomputers, cloud servers, personal computers, mobile devices and embedded platforms."
+  upstream: "https://www.khronos.org/opencl/"
+  protected_branches:
+  - master
+  type: public
 - name: opencryptoki
   description: ""
   protected_branches:
@@ -7299,6 +7335,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: opennn
+  description: "an open source neural networks library for machine learning."
+  upstream: "https://www.opennn.net/"
+  protected_branches:
+  - master
+  type: public
 - name: open-iscsi
   description: ""
   protected_branches:
@@ -14221,6 +14263,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: caffe
+  description: "A framework for deep learning"
+  upstream: "https://github.com/BVLC/caffe"
+  protected_branches:
+  - master
+  type: public
 - name: caja
   description: "Caja, the file manager for the MATE desktop"
   protected_branches:
@@ -14394,12 +14442,6 @@ repositories:
 - name: jupyter
   description: "Jupyter is an environment for interactive computing in multiple languages."
   upstream: "https://github.com/jupyter/jupyter"
-  protected_branches:
-  - master
-  type: public
-- name: caffe
-  description: "A framework for deep learning"
-  upstream: "https://github.com/BVLC/caffe"
   protected_branches:
   - master
   type: public
