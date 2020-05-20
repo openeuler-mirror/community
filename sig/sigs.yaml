@@ -1327,7 +1327,6 @@ sigs:
   - src-openeuler/fprintd
   - src-openeuler/initial-setup
   - src-openeuler/khmeros-fonts
-  - src-openeuler/shim-unsigned-aarch64
   - src-openeuler/julietaula-montserrat-fonts
   - src-openeuler/usb_modeswitch
   - src-openeuler/sanlock
@@ -1561,7 +1560,6 @@ sigs:
   - src-openeuler/python-jsonpointer
   - src-openeuler/chkconfig
   - src-openeuler/perl-Thread-Queue
-  - src-openeuler/subscription-manager
   - src-openeuler/zziplib
   - src-openeuler/gamin
   - src-openeuler/iso-codes
@@ -2922,6 +2920,8 @@ sigs:
   repositories:
   - src-openeuler/python2
   - src-openeuler/caffe
+  - src-openeuler/shim-unsigned-aarch64
+  - src-openeuler/subscription-manager
 - name: sig-RaspberryPi
   repositories:
   - openeuler/raspberrypi
