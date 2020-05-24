@@ -4,8 +4,10 @@ English | [简体中文](./sig-ai-bigdata_cn.md)
 
 
 Note: The Charter of this SIG follows the convention described in the openEuler charter [README] (/en/governance/README.md), and follows [SIG-governance] (/en/technical-committee/governance/SIG-governance.md).
-
-## SIG Mission and Scope
+ 
+ ![logo](./logo.png)
+ 
+# SIG Mission and Scope
 
 - Why we create sig-ai-bigdata in openEuler
   - Big data and artificial intelligence have penetrated into many areas of our society, and used to improve productivity in many industries. 
@@ -27,7 +29,7 @@ Note: The Charter of this SIG follows the convention described in the openEuler 
 - Which SIGs in openEuler to coorperate with
   - Some tool may have some dependency packages or libs, and in addition, they may have dependencies on kernel subsystems during new hardware support and performance optimization.
  
-### Repositories and description managed by this SIG
+# Repositories and description managed by this SIG
 
 - project name: to be determined
   - data collection
@@ -39,28 +41,23 @@ Note: The Charter of this SIG follows the convention described in the openEuler 
   - resource management
   - to be continued
 
-## Basic Information
+# Basic Information
 
-### Project Introduction
+## Project Introduction
     https: /gitee.com/openeuler/community/sig/sig-ai-bigdata/
 
-### Maintainers
+## Maintainers
   - sinever
   - ZZZHB
   - njlzk
   - myeuler
   - chxssg
 
-### Committers
+## Committers
   - sinever
 
-### Mailing list
-
-### IRC Channel
-
-### Conference Information
-
-### External Contact
--Name (Gitee ID)
-```
-
+## Mailing list
+  - sig-ai-bigdata@openeuler.org
+  
+ ## 路线图
+ ![roadmap](./sig-road-map.jpg)

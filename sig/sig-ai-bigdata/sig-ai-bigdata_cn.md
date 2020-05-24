@@ -5,7 +5,9 @@
 
 说明：本SIG的Charter内容遵循openEuler章程 [README](/zh/governance/README.md)中描述的约定，使用[SIG-governance](/zh/technical-committee/governance/SIG-governance.md)中概述的角色和组织管理。
 
-## SIG组工作目标和范围
+ ![logo](./logo.png)
+
+# SIG组工作目标和范围
 
  - sig-ai-bigdata的必要性
    - 大数据和人工智能已经深入到社会的很多领域，各行各业都可以用来提高生产力。工业界、
@@ -25,7 +27,7 @@
  - 该SIG需要得到openEuler内哪些SIG的支持
    - 有些工具安装会有一些依赖，另外在新硬件支持和性能优化过程中对内核各子系统也可能有依赖。
 
- ### 该SIG管理的repository及描述
+# 该SIG管理的repository及描述
 
 - 项目名称：待讨论后确定
   - 数据采集
@@ -37,12 +39,23 @@
   - 资源管理
   - 待补充
 
+# 基本信息
 
- ### 跨领域和面向外部的流程
+## 项目介绍
+    https: /gitee.com/openeuler/community/sig/sig-ai-bigdata/
 
- 由该SIG定义和执行的，且跨领域和面向外部的流程和行动：
+## Maintainers
+  - sinever
+  - ZZZHB
+  - njlzk
+  - myeuler
+  - chxssg
 
- - 非内部流程清单
- - 该SIG拥有的面向整个openEulerSIG的组织指导计划等
+## Committers
+  - sinever
 
-
+## 邮件列表
+  - sig-ai-bigdata@openeuler.org
+  
+## 路线图
+ ![roadmap](./sig-road-map.jpg)
