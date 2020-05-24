@@ -4,7 +4,9 @@ English | [简体中文](./sig-ai-bigdata_cn.md)
 
 
 Note: The Charter of this SIG follows the convention described in the openEuler charter [README] (/en/governance/README.md), and follows [SIG-governance] (/en/technical-committee/governance/SIG-governance.md).
-
+ 
+ ![logo](./logo.png)
+ 
 ## SIG Mission and Scope
 
 - Why we create sig-ai-bigdata in openEuler
@@ -55,12 +57,4 @@ Note: The Charter of this SIG follows the convention described in the openEuler 
   - sinever
 
 ### Mailing list
-
-### IRC Channel
-
-### Conference Information
-
-### External Contact
--Name (Gitee ID)
-```
-
+  - sig-ai-bigdata@openeuler.org

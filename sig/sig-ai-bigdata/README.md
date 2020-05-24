@@ -12,35 +12,30 @@
    - open euler中大数据和人工智能的性能优化，对通用软件在open euler上的性能优化
    - open euler中大数据和人工智能的能力集成，新芯片和软件进入open euler时的支持
 
+ ![logo](./logo.png)
+
 # 会议
 
-- 每周五上午11：00 - 11：30
+- 每周一次，请订阅邮件列表获取具体时间和会议链接
 - 线上
-- ZOOM地址：https://zoom.com.cn/j/558675882
 
 # 成员
 
-### Maintainer列表
+## Maintainer列表
   - sinever
   - ZZZHB
   - njlzk
   - myeuler
   - chxssg
 
-### Committer列表
+## Committer列表
 
 - sinever
 
+# 路线图
+ ![roadmap](./sig-road-map.jpg)
 
 # 联系方式
 - [邮件列表](sig-ai-bigdata@openeuler.org)
 - [IRC公开会议]()
 - [slack](openeuler.slack.com)
-
-
-
-
-
-# 项目清单
-## 项目名称：
-## repository地址：
