@@ -37,5 +37,4 @@
 
 # 联系方式
 - [邮件列表](sig-ai-bigdata@openeuler.org)
-- [IRC公开会议]()
 - [slack](openeuler.slack.com)

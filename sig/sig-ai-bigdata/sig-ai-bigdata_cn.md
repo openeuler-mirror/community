@@ -7,7 +7,7 @@
 
  ![logo](./logo.png)
 
-## SIG组工作目标和范围
+# SIG组工作目标和范围
 
  - sig-ai-bigdata的必要性
    - 大数据和人工智能已经深入到社会的很多领域，各行各业都可以用来提高生产力。工业界、
@@ -27,7 +27,7 @@
  - 该SIG需要得到openEuler内哪些SIG的支持
    - 有些工具安装会有一些依赖，另外在新硬件支持和性能优化过程中对内核各子系统也可能有依赖。
 
- ### 该SIG管理的repository及描述
+# 该SIG管理的repository及描述
 
 - 项目名称：待讨论后确定
   - 数据采集
@@ -39,20 +39,23 @@
   - 资源管理
   - 待补充
 
-## 基本信息
+# 基本信息
 
-### 项目介绍
+## 项目介绍
     https: /gitee.com/openeuler/community/sig/sig-ai-bigdata/
 
-### Maintainers
+## Maintainers
   - sinever
   - ZZZHB
   - njlzk
   - myeuler
   - chxssg
 
-### Committers
+## Committers
   - sinever
 
-### 邮件列表
+## 邮件列表
   - sig-ai-bigdata@openeuler.org
+  
+## 路线图
+ ![roadmap](./sig-road-map.jpg)

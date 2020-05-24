@@ -28,4 +28,4 @@
 | 算法库  | shark          | c/c\+\+       |                     |         |         |         |         |         |         |         |         |         |         |           |         |     |     |
 | 算法库  | deeplearning4j |               |                     |         |         |         |         |         |         |         |         |         |         |           |         |     |     |
 | 数学库  | armadillo      | c/c\+\+       |                     |         |         | √       | √       | √       | √       | √       | √       |         |         |           |         |     |     |
-| 数学库  | ensmallen      | c/c\+\+       | @Peanut\_Huang |         |         |         |         |         |         |         |         |         |         |           |         |     |     |
+| 数学库  | ensmallen      | c/c\+\+       | Peanut\_Huang |         |         |         |         |         |         |         |         |         |         |           |         |     |     |
