@@ -3,8 +3,6 @@
 English | [简体中文](./sig-template_cn.md)
 
 
-Note: The Charter of this SIG follows the convention described in the openEuler charter [README] (/en/governance/README.md), and follows [SIG-governance] (/en/technical-committee/governance/SIG-governance.md).
-
 ## SIG Mission and Scope
 This SIG contains all python modules created by automation tools
 
@@ -31,10 +29,10 @@ Cross-domain and externally-oriented processes and actions defined and implement
 ***Tips***: After the SIG is successfully created, https: /gitee.com/openeuler/community/sig/sig-xxxx/ management will be managed by the Maintainer, and the project team can enrich their project introduction, including but not limited to the following content.
 ```
 ### Maintainers
-- myeuler
+- xiongwei@myeuler
 
 ### Committers
-- myeuler
+- xiongwei@myeuler
 
 ### Mailing list
 
