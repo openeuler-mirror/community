@@ -26,7 +26,6 @@ Cross-domain and externally-oriented processes and actions defined and implement
 ### Project Introduction
     https: /gitee.com/openeuler/community/sig/sig-python-modules/
 
-***Tips***: After the SIG is successfully created, https: /gitee.com/openeuler/community/sig/sig-xxxx/ management will be managed by the Maintainer, and the project team can enrich their project introduction, including but not limited to the following content.
 ```
 ### Maintainers
 - xiongwei@myeuler
