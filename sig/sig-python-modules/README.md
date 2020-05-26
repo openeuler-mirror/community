@@ -16,12 +16,12 @@ This SIG contains all python modules which are created by automation tools
 myeuler
 
 ### Maintainer列表
-- xiongwei[@myeuler]
+- xiongwei@myeuler
 
 
 
 ### Committer列表
-- xiongwei[@myeuler]
+- xiongwei@myeuler
 
 
 
