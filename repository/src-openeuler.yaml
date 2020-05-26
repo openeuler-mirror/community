@@ -10968,6 +10968,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-zarr
+  description: "An implementation of chunked, compressed, N-dimentional arrays for python"
+  upstream: "https://github.com/zarr-developers/zarr-python"
+  protected_branches:
+  - master
+  type: public
 - name: python-zipp
   description: "Backport of pathlib-compatible object wrapper for zip files"
   protected_branches:
