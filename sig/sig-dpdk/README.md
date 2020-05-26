@@ -44,6 +44,6 @@ sig-dpdk
 项目名称：dpdk
 
 repository地址：
-https://gitee.com/speech_white/dpdk.git
+https://gitee.com/src-openeuler/dpdk.git
 - 
 - 
