@@ -835,11 +835,6 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: ceph
-  description: ""
-  protected_branches:
-  - master
-  type: public
 - name: cfitsio
   description: "Library for manipulating FITS data files."
   protected_branches:

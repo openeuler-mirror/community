@@ -2149,7 +2149,6 @@ sigs:
   - src-openeuler/classmate
   - src-openeuler/codenarc
   - src-openeuler/compat-libgfortran
-  - src-openeuler/compat-openssl10
   - src-openeuler/cvsps
   - src-openeuler/cyrus-imapd
   - src-openeuler/dain-snappy
@@ -2926,6 +2925,9 @@ sigs:
   repositories:
   - openeuler/raspberrypi
   - openeuler/raspberrypi-kernel
+  - src-openeuler/raspberry-kernel
+  - src-openeuler/raspberry-firmware
+  - src-openeuler/raspberry-build
 - name: sig-Ha
   repositories:
   - src-openeuler/pacemaker
@@ -2951,6 +2953,7 @@ sigs:
   - openeuler/tp-libvirt
   - openeuler/tp-qemu
   - openeuler/EulerRobot
+  - openeuler/integration-test
 - name: sig-ROS
   repositories:
   - openeuler/ros
@@ -3048,6 +3051,7 @@ sigs:
   - src-openeuler/audit
   - src-openeuler/nss-pem
   - src-openeuler/tpm2-abrmd-selinux
+  - src-openeuler/compat-openssl10
 - name: sig-Compatibility-Infra
   repositories:
   - openeuler/oec-hardware

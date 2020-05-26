@@ -8,10 +8,10 @@ sigs = YAML.load(File.read("sig/sigs.yaml"))
 known_exceptions_load = YAML.load(File.read("zh/technical-committee/governance/exceptions.yaml"))
 exp_set = Array.new known_exceptions_load["exceptions"]
 
-print "Sanity Check among different YAML database inside openEuler community."
+print "Sanity check among YAML databases inside openEuler community."
 
 print "\n\nCheck 1: "
-print "Repository in src-openeuler and openeuler should be managed by the single SIG.\n"
+print "Repository in src-openeuler and openeuler usually be managed by the same SIG.\n"
 repositories = Hash.new
 for s in sigs do
 	s[1].each { |sig| 
@@ -34,9 +34,13 @@ repositories.each_key { |repo|
 		errors_found = errors_found + 1	
 	end
 }
+if errors_found == 0 then
+	print "No issues found. PASS!"
+end
+errors_found = 0
 
 print "\n\nCheck 2: "
-print "Repository in src-openeuler or openeuler should never be duplicated.\n"
+print "Repositories in src-openeuler or openeuler should not be managed by multiple SIGs.\n"
 repositories = Hash.new
 for s in sigs do
 	s[1].each { |sig| 
@@ -61,9 +65,13 @@ repositories.each_key { |repo|
 		errors_found = errors_found + 1	
 	end
 }
+if errors_found == 0 then
+	print "No issues found. PASS!"
+end
+errors_found = 0
 
 print "\n\nCheck 3: "
-print "Repository managed by both SIG and Private.\n"
+print "We are working on reducing Private repos, this checking is purely informative.\n"
 repositories = Hash.new
 for s in sigs do
 	s[1].each { |sig| 
@@ -124,6 +132,11 @@ openeuler_repos.each { |openeuler_repo|
 	cross_checked_repo << name
 }
 
+if errors_found == 0 then
+	print "No issues found. PASS!"
+end
+errors_found = 0
+
 print "\n\nCheck 5: "
 print "repository/src-openeuler.yaml should be consistent with sigs.yaml\n"
 srcopeneuler_repo_load = YAML.load(File.read("repository/src-openeuler.yaml"))
@@ -150,6 +163,11 @@ srcopeneuler_repos.each { |srcopeneuler_repo|
 	cross_checked_repo << name
 }
 
+if errors_found == 0 then
+	print "No issues found. PASS!"
+end
+errors_found = 0
+
 print "\n\nCheck 6: "
 print "All repositories in sigs.yaml must list in either openeuler.yaml or src-openeuler.yaml\n"
 
@@ -161,4 +179,6 @@ if cross_checked_repo.length != repositories.length then
 	}
 end
 
-return errors_found
+if errors_found == 0 then
+	print "No issues found. PASS!\n"
+end
