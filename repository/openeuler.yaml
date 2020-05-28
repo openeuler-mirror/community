@@ -266,3 +266,9 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: release-management
+  description: "release management including key features, release plan, development and branch plan, release scope and notes
+"
+  protected_branches:
+  - master
+  type: public
