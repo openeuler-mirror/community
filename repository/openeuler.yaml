@@ -226,6 +226,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: openEuler-pkginfo
+  description: "Collection of query tools for easily maintaining openEuler"
+  protected_branches:
+  - master
+  type: public
 - name: openEuler-Advisor
   description: "Collection of automation tools for easily maintaining openEuler"
   protected_branches:

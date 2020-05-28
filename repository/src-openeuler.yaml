@@ -7280,6 +7280,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: openEuler-pkginfo
+  description: ""
+  upstream: "gitee.com/openeuler/openEuler-pkginfo"
+  protected_branches:
+  - master
+  type: public
 - name: openEuler-release
   description: ""
   protected_branches:
