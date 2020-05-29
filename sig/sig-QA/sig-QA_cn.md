@@ -18,9 +18,9 @@ openEuler QA(质量保障)项目团队致力于如何更好的提升openEuler社
   - https://gitee.com/openeuler/EulerRobot
   - https://gitee.com/openeuler/compiler-test
   - https://gitee.com/openeuler/package-reinforce-test
-  - https://gitee.com/openeuler/system-integration-test
+  - https://gitee.com/openeuler/integration-test
   - https://gitee.com/openeuler/container-test
-  - https://gitee.com/openeuler/tools
+  - https://gitee.com/openeuler/test-tools
 
 维护人员：
   - wu_fengguang

@@ -91,12 +91,12 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: system-integration-test
+- name: integration-test
   description: "The repo contains test suits for system integration test"
   protected_branches:
   - master
   type: public
-- name: tools
+- name: test-tools
   description: "The repo contains tools for improve test efficiency"
   protected_branches:
   - master
@@ -246,6 +246,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: openEuler-pkginfo
+  description: "Collection of query tools for easily maintaining openEuler"
+  protected_branches:
+  - master
+  type: public
 - name: openEuler-Advisor
   description: "Collection of automation tools for easily maintaining openEuler"
   protected_branches:
@@ -278,6 +283,12 @@ repositories:
   type: public
 - name: anbox
   description: "A free and open-source compatibility layer that aims to allow mobile applications and mobile games developed for Android to run on GNU/Linux distributions"
+  protected_branches:
+  - master
+  type: public
+- name: release-management
+  description: "release management including key features, release plan, development and branch plan, release scope and notes
+"
   protected_branches:
   - master
   type: public

@@ -2149,7 +2149,6 @@ sigs:
   - src-openeuler/classmate
   - src-openeuler/codenarc
   - src-openeuler/compat-libgfortran
-  - src-openeuler/compat-openssl10
   - src-openeuler/cvsps
   - src-openeuler/cyrus-imapd
   - src-openeuler/dain-snappy
@@ -2851,40 +2850,76 @@ sigs:
   - src-openeuler/libgssglue
   - src-openeuler/librpcsecgss
   - src-openeuler/pyporter
+  - src-openeuler/openEuler-pkginfo
+  - openeuler/openEuler-pkginfo
   - openeuler/openEuler-bootstrap
   - openeuler/abichecker
   - openeuler/pyporter
 - name: sig-mate-desktop
   repositories:
   - openeuler/mate-desktop
-  - src-openeuler/mate-desktop
-  - src-openeuler/mate-common
-  - src-openeuler/mate-control-center
   - src-openeuler/caja
   - src-openeuler/caja-extensions
-  - src-openeuler/mate-system-monitor
-  - src-openeuler/mate-backgrounds
-  - src-openeuler/mate-utils
-  - src-openeuler/mate-settings-daemon
-  - src-openeuler/mate-screensaver
-  - src-openeuler/mate-session-manager
-  - src-openeuler/mate-panel
-  - src-openeuler/mate-polkit
-  - src-openeuler/mate-power-manager
+  - src-openeuler/cjkuni-uming-fonts
+  - src-openeuler/eom
+  - src-openeuler/exo
+  - src-openeuler/fcitx-configtool
+  - src-openeuler/gajim
+  - src-openeuler/gcolor2
+  - src-openeuler/glade3
+  - src-openeuler/gparted
+  - src-openeuler/gtk-layer-shell
+  - src-openeuler/gtk-murrine-engine
+  - src-openeuler/gtk2-engines
+  - src-openeuler/gtksourceview4
+  - src-openeuler/gucharmap
+  - src-openeuler/im-chooser
+  - src-openeuler/libXpresent
+  - src-openeuler/libmatekbd
+  - src-openeuler/libmatemixer
+  - src-openeuler/libmateweather
+  - src-openeuler/libwnck
+  - src-openeuler/libxfce4ui
+  - src-openeuler/libxfce4util
+  - src-openeuler/lightdm
+  - src-openeuler/lightdm-gtk
+  - src-openeuler/marco
   - src-openeuler/mate-applets
-  - src-openeuler/mate-themes
-  - src-openeuler/mate-icon-theme
+  - src-openeuler/mate-backgrounds
   - src-openeuler/mate-calc
+  - src-openeuler/mate-common
+  - src-openeuler/mate-control-center
+  - src-openeuler/mate-desktop
+  - src-openeuler/mate-icon-theme
   - src-openeuler/mate-media
   - src-openeuler/mate-menus
   - src-openeuler/mate-notification-daemon
+  - src-openeuler/mate-panel
+  - src-openeuler/mate-polkit
+  - src-openeuler/mate-power-manager
+  - src-openeuler/mate-screensaver
+  - src-openeuler/mate-session-manager
+  - src-openeuler/mate-settings-daemon
+  - src-openeuler/mate-system-monitor
   - src-openeuler/mate-terminal
+  - src-openeuler/mate-themes
   - src-openeuler/mate-user-guide
-  - src-openeuler/libmateweather
-  - src-openeuler/libmatemixer
-  - src-openeuler/libmatekbd
-  - src-openeuler/eom
-  - src-openeuler/marco
+  - src-openeuler/mate-utils
+  - src-openeuler/open-chinese-fonts
+  - src-openeuler/pangox-compat
+  - src-openeuler/perl-ExtUtils-Depends
+  - src-openeuler/perl-ExtUtils-PkgConfig
+  - src-openeuler/perl-Glib
+  - src-openeuler/python-cssutils
+  - src-openeuler/python-nbxmpp
+  - src-openeuler/python-precis_i18n
+  - src-openeuler/re2c
+  - src-openeuler/system-config-users
+  - src-openeuler/system-config-users-docs
+  - src-openeuler/unique3
+  - src-openeuler/wireless-tools
+  - src-openeuler/xfconf
+
 - name: sig-bounds_checking_function
   repositories:
   - openeuler/bounds_checking_function
@@ -2926,6 +2961,9 @@ sigs:
   repositories:
   - openeuler/raspberrypi
   - openeuler/raspberrypi-kernel
+  - src-openeuler/raspberry-kernel
+  - src-openeuler/raspberry-firmware
+  - src-openeuler/raspberry-build
 - name: sig-Ha
   repositories:
   - src-openeuler/pacemaker
@@ -2951,6 +2989,11 @@ sigs:
   - openeuler/tp-libvirt
   - openeuler/tp-qemu
   - openeuler/EulerRobot
+  - openeuler/integration-test
+  - openeuler/container-test
+  - openeuler/compiler-test
+  - openeuler/package-reinforce-test
+  - openeuler/test-tools
 - name: sig-ROS
   repositories:
   - openeuler/ros
@@ -3048,6 +3091,7 @@ sigs:
   - src-openeuler/audit
   - src-openeuler/nss-pem
   - src-openeuler/tpm2-abrmd-selinux
+  - src-openeuler/compat-openssl10
 - name: sig-Compatibility-Infra
   repositories:
   - openeuler/oec-hardware
@@ -3064,3 +3108,9 @@ sigs:
   repositories:
   - openeuler/android-emulator
   - openeuler/anbox
+- name: sig-python-modules
+  repositories:
+  - src-openeuler/python-zarr
+- name: sig-release-management
+  repositories:
+  - openeuler/release-management

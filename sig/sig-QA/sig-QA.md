@@ -21,9 +21,9 @@ The repositories related to QA are listed below
 - https://gitee.com/openeuler/EulerRobot
 - https://gitee.com/openeuler/compiler-test
 - https://gitee.com/openeuler/package-reinforce-test
-- https://gitee.com/openeuler/system-integration-test
+- https://gitee.com/openeuler/integration-test
 - https://gitee.com/openeuler/container-test
-- https://gitee.com/openeuler/tools
+- https://gitee.com/openeuler/test-tools
 
 ### Project Introduction
 https://gitee.com/openeuler/community/sig/sig-QA/

@@ -42,6 +42,6 @@ repository地址：
   - https://gitee.com/openeuler/EulerRobot
   - https://gitee.com/openeuler/compiler-test
   - https://gitee.com/openeuler/package-reinforce-test
-  - https://gitee.com/openeuler/system-integration-test
+  - https://gitee.com/openeuler/integration-test
   - https://gitee.com/openeuler/container-test
-  - https://gitee.com/openeuler/tools
+  - https://gitee.com/openeuler/test-tools
