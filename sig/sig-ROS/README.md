@@ -39,3 +39,4 @@
 repository地址：
 
 - https://gitee.com/openeuler/ros
+- https://gitee.com/src-openeuler/ros
