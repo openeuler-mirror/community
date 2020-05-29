@@ -201,6 +201,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: perlporter
+  description: "perl pacaking automation tool"
+  protected_branches:
+  - master
+  type: public
 - name: pacemaker-mgmt
   description: "Management Console for Pacemaker"
   protected_branches:
