@@ -14906,3 +14906,8 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: ros
+  description: "Migration to the openEular ROS package"
+  protected_branches:
+  - master
+  type: public
