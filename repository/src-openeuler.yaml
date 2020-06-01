@@ -1385,6 +1385,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: digest-list-tools
+  description: "IMA digest list extension userspace tools"
+  upstream: "htpps://github/initlove/digest-list-tools"
+  protected_branches:
+  - master
+  type: public
 - name: ding-libs
   description: ""
   protected_branches:
