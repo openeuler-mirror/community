@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""
+This is a sanity checking tool for openEuler community database
+"""
 import yaml
 import sys
 import argparse
@@ -61,7 +64,7 @@ def check_2(sigs, exps):
         if len(v) != 1:
             if k in exps:
                 continue
-            print(repo + ": " + v + "\n")
+            print(k + ": " + str(v) + "\n")
             errors_found = errors_found + 1
 
     if errors_found == 0:
@@ -100,7 +103,7 @@ def check_3(sigs):
     return supervisors
 
 
-def check_4(sigs, exps, prefix, oe_repos, supervisors, cross_checked_repo):
+def check_4(exps, prefix, oe_repos, supervisors, cross_checked_repo):
     """
     YAML in repository/ should be consisitent with sigs.yaml
     """
@@ -198,11 +201,11 @@ if __name__ == "__main__":
     supervisors =  check_3(sigs)
 
     print("\nCheck 4:")
-    issues, cross_checked_repo = check_4(sigs, exps, "openeuler", openeuler_repos, supervisors, cross_checked_repo)
+    issues, cross_checked_repo = check_4(exps, "openeuler", openeuler_repos, supervisors, cross_checked_repo)
     issues_found = issues_found + issues
 
     print("\nCheck 5:")
-    issues, cross_checked_repo = check_4(sigs, exps, "src-openeuler", srcopeneuler_repos, supervisors, cross_checked_repo)
+    issues, cross_checked_repo = check_4(exps, "src-openeuler", srcopeneuler_repos, supervisors, cross_checked_repo)
     issues_found = issues_found + issues
 
     print("\nCheck 6:")
