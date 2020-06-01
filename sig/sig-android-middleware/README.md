@@ -15,6 +15,9 @@
 - wigman
 - 韩雨航
 - rongwang
+- zhdguy
+- Night
+- twwang
 
 ### Maintainer列表
 
