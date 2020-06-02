@@ -169,9 +169,6 @@ def load_yaml(d, f):
 
 
 if __name__ == "__main__":
-    """
-    Sanity check among different YAML database inside openEuler community
-    """
     par = argparse.ArgumentParser()
 
     par.add_argument("community", type=str, help="Local path of community repository")
