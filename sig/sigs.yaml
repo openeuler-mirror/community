@@ -2960,6 +2960,24 @@ sigs:
   - src-openeuler/shim-unsigned-aarch64
   - src-openeuler/subscription-manager
   - src-openeuler/redhat-menus
+  - src-openeuler/golang-github-cpuguy83-go-md2man
+  - src-openeuler/golang-github-fsnotify-fsnotify
+  - src-openeuler/golang-github-go-tomb-tomb
+  - src-openeuler/golang-github-hpcloud-tail
+  - src-openeuler/golang-github-onsi-ginkgo
+  - src-openeuler/golang-github-onsi-gomega
+  - src-openeuler/golang-googlecode-go-crypto
+  - src-openeuler/golang-googlecode-net
+  - src-openeuler/golang-googlecode-text
+  - src-openeuler/golang-googlecode-tools
+  - src-openeuler/golang-gopkg-yaml
+  - src-openeuler/golang-googlecode-goprotobuf
+  - src-openeuler/golang-github-vishvananda-netns
+  - src-openeuler/golang-github-golang-sys
+  - src-openeuler/golang-github-vishvananda-netlink
+  - src-openeuler/golang-github-d2g-dhcp4
+  - src-openeuler/golang-github-coreos-go-iptables
+  - src-openeuler/golang-github-russross-blackfriday
 - name: sig-RaspberryPi
   repositories:
   - openeuler/raspberrypi
@@ -3034,24 +3052,6 @@ sigs:
 - name: sig-golang
   repositories:
   - src-openeuler/golang
-  - src-openeuler/golang-github-cpuguy83-go-md2man
-  - src-openeuler/golang-github-fsnotify-fsnotify
-  - src-openeuler/golang-github-go-tomb-tomb
-  - src-openeuler/golang-github-hpcloud-tail
-  - src-openeuler/golang-github-onsi-ginkgo
-  - src-openeuler/golang-github-onsi-gomega
-  - src-openeuler/golang-googlecode-go-crypto
-  - src-openeuler/golang-googlecode-net
-  - src-openeuler/golang-googlecode-text
-  - src-openeuler/golang-googlecode-tools
-  - src-openeuler/golang-gopkg-yaml
-  - src-openeuler/golang-googlecode-goprotobuf
-  - src-openeuler/golang-github-vishvananda-netns
-  - src-openeuler/golang-github-golang-sys
-  - src-openeuler/golang-github-vishvananda-netlink
-  - src-openeuler/golang-github-d2g-dhcp4
-  - src-openeuler/golang-github-coreos-go-iptables
-  - src-openeuler/golang-github-russross-blackfriday
 - name: sig-EasyLife
   repositories:
   - openeuler/openEuler-Advisor
