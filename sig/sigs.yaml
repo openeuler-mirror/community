@@ -3060,6 +3060,7 @@ sigs:
   - src-openeuler/ceph
 - name: sig-security-facility
   repositories:
+  - src-openeuler/digest-list-tools
   - src-openeuler/apparmor
   - src-openeuler/tpm2-tools
   - src-openeuler/setroubleshoot
