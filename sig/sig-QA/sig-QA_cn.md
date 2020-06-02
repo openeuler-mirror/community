@@ -16,12 +16,19 @@ openEuler QA(质量保障)项目团队致力于如何更好的提升openEuler社
   - https://gitee.com/openeuler/tp-qemu
   - https://gitee.com/openeuler/QA
   - https://gitee.com/openeuler/EulerRobot
+  - https://gitee.com/openeuler/compiler-test
+  - https://gitee.com/openeuler/package-reinforce-test
+  - https://gitee.com/openeuler/integration-test
+  - https://gitee.com/openeuler/container-test
+  - https://gitee.com/openeuler/test-tools
 
 维护人员：
   - wu_fengguang
   - charlie_li(@charlie_li),since October 2019
   - wubodong(@walkingwalk),since November 2019
   - kuhnchen(@kuhnchen18),since December 2019
+  - speacher
+  - rigorous
 
 邮件列表：
   - qa@openeuler.org

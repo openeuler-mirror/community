@@ -3011,6 +3011,10 @@ sigs:
   - openeuler/tp-qemu
   - openeuler/EulerRobot
   - openeuler/integration-test
+  - openeuler/container-test
+  - openeuler/compiler-test
+  - openeuler/package-reinforce-test
+  - openeuler/test-tools
 - name: sig-ROS
   repositories:
   - openeuler/ros
