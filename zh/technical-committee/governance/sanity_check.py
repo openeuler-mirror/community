@@ -118,14 +118,17 @@ def check_4(exps, prefix, oe_repos, supervisors, cross_checked_repo):
             errors_found = errors_found + 1
         if not supervisors.get(name, False):
             if name not in exps:
-                print("WARNING! Repository {name} in {prefix}.yaml cannot be found in sigs.yaml".format(name=name, prefix=prefix))
+                print("WARNING! Repository {name} in {prefix}.yaml cannot be found in sigs.yaml"
+                        .format(name=name, prefix=prefix))
                 errors_found = errors_found + 1
         if repo["type"] == "public" and "Private" in supervisors.get(name, set()):
-            print("WARNING! Repository {name} marked as public in {prefix}.yaml, but listed in Private SIG.".format(name=name, prefix=prefix))
+            print("WARNING! Repository {name} marked as public in {prefix}.yaml, but listed in Private SIG."
+                    .format(name=name, prefix=prefix))
             errors_found = errors_found + 1
 
         if repo["type"] == "private" and "Private" not in supervisors.get(name, set()):
-            print("WARNING! Repository {name} marked as private in {prefix}.yaml, but not listed in Private SIG.".format(name=name, prefix=prefix))
+            print("WARNING! Repository {name} marked as private in {prefix}.yaml, but not listed in Private SIG."
+                    .format(name=name, prefix=prefix))
             errors_found = errors_found + 1	
 
         cross_checked_repo.add(name)
@@ -145,7 +148,8 @@ def check_6(cross_checked_repo, supervisors):
     if len(cross_checked_repo) != len(supervisors):
         for repo in supervisors:
             if not repo in cross_checked_repo:
-                print("WARNING! {name} listed in sigs.yaml, but neither openeuler.yaml nor src-openeuler.yaml".format(name=repo))
+                print("WARNING! {name} listed in sigs.yaml, but neither openeuler.yaml nor src-openeuler.yaml"
+                        .format(name=repo))
                 errors_found = errors_found + 1
 
     if errors_found == 0:
@@ -198,11 +202,13 @@ if __name__ == "__main__":
     repo_supervisors = check_3(sig_list)
 
     print("\nCheck 4:")
-    issues, repo_cross_checked = check_4(exception_list, "openeuler", openeuler_repos, repo_supervisors, repo_cross_checked)
+    issues, repo_cross_checked = check_4(exception_list, "openeuler", 
+            openeuler_repos, repo_supervisors, repo_cross_checked)
     issues_found = issues_found + issues
 
     print("\nCheck 5:")
-    issues, repo_cross_checked = check_4(exception_list, "src-openeuler", srcopeneuler_repos, repo_supervisors, repo_cross_checked)
+    issues, repo_cross_checked = check_4(exception_list, "src-openeuler", 
+            srcopeneuler_repos, repo_supervisors, repo_cross_checked)
     issues_found = issues_found + issues
 
     print("\nCheck 6:")
