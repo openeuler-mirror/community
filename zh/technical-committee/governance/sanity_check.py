@@ -145,7 +145,7 @@ def check_6(cross_checked_repo, supervisors):
     if len(cross_checked_repo) != len(supervisors):
         for repo in supervisors:
             if not repo in cross_checked_repo:
-                print("WARNING! {name} listed in sigs.yaml, but neither openeuler.yaml nor src-openeuler.yaml".format(name=reop))
+                print("WARNING! {name} listed in sigs.yaml, but neither openeuler.yaml nor src-openeuler.yaml".format(name=repo))
                 errors_found = errors_found + 1
 
     if errors_found == 0:
@@ -170,7 +170,7 @@ def load_yaml(d, f):
 
 if __name__ == "__main__":
     """
-      Sanity check among different YAML database inside openEuler community
+    Sanity check among different YAML database inside openEuler community
     """
     par = argparse.ArgumentParser()
 
@@ -178,37 +178,37 @@ if __name__ == "__main__":
     args = par.parse_args()
 
     sigs_yaml = load_yaml(args.community, "sig/sigs.yaml")
-    sigs = sigs_yaml["sigs"]
+    sig_list = sigs_yaml["sigs"]
     known_exceptions_yaml = load_yaml(args.community, "zh/technical-committee/governance/exceptions.yaml")
-    exps = known_exceptions_yaml["exceptions"]
+    exception_list = known_exceptions_yaml["exceptions"]
     openeuler_repo_yaml = load_yaml(args.community, "repository/openeuler.yaml")
     openeuler_repos = openeuler_repo_yaml["repositories"]
     srcopeneuler_repo_yaml = load_yaml(args.community, "repository/src-openeuler.yaml")
     srcopeneuler_repos = srcopeneuler_repo_yaml["repositories"]
  
-    supervisors = {}
-    cross_checked_repo = set()
+    repo_supervisors = {}
+    repo_cross_checked = set()
 
     print("Sanity Check among different YAML database inside openEuler community.")
     issues_found = 0
     print("\nCheck 1:")
-    issues_found = issues_found + check_1(sigs, exps)
+    issues_found = issues_found + check_1(sig_list, exception_list)
 
     print("\nCheck 2:")
-    issues_found = issues_found + check_2(sigs, exps)
+    issues_found = issues_found + check_2(sig_list, exception_list)
 
     print("\nCheck 3:")
-    supervisors =  check_3(sigs)
+    repo_supervisors = check_3(sig_list)
 
     print("\nCheck 4:")
-    issues, cross_checked_repo = check_4(exps, "openeuler", openeuler_repos, supervisors, cross_checked_repo)
+    issues, repo_cross_checked = check_4(exception_list, "openeuler", openeuler_repos, repo_supervisors, repo_cross_checked)
     issues_found = issues_found + issues
 
     print("\nCheck 5:")
-    issues, cross_checked_repo = check_4(exps, "src-openeuler", srcopeneuler_repos, supervisors, cross_checked_repo)
+    issues, repo_cross_checked = check_4(exception_list, "src-openeuler", srcopeneuler_repos, repo_supervisors, repo_cross_checked)
     issues_found = issues_found + issues
 
     print("\nCheck 6:")
-    issues_found = issues_found + check_6(cross_checked_repo, supervisors)
+    issues_found = issues_found + check_6(repo_cross_checked, repo_supervisors)
 
     sys.exit(issues_found)
