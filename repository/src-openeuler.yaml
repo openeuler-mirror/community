@@ -10978,6 +10978,18 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-commonmark
+  description: "Commonmark is a Markdown parser and renderer for CommonMark specification"
+  upstream: "https://pypi.org/project/commonmark/"
+  protected_branches:
+  - master
+  type: public
+- name: python-recommonmark
+  description: "A docutils-compabitility bridge to CommonMark"
+  upstream: "https://pypi.org/project/recommonmark/"
+  protected_branches:
+  - master
+  type: public
 - name: pytz
   description: ""
   protected_branches:
