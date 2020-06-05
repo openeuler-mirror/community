@@ -277,7 +277,6 @@ sigs:
   - src-openeuler/qt5-qtdoc
   - src-openeuler/perl-MRO-Compat
   - src-openeuler/perl-String-ShellQuote
-  - src-openeuler/clang
   - src-openeuler/python-extras
   - src-openeuler/python-mimeparse
   - src-openeuler/perl-TimeDate
@@ -982,7 +981,6 @@ sigs:
   - src-openeuler/gnome-color-manager
   - src-openeuler/python-xgboost
   - src-openeuler/gnome-video-effects
-  - src-openeuler/compiler-rt
   - src-openeuler/nbdkit
   - src-openeuler/perl-Pod-Coverage
   - src-openeuler/gsound
@@ -1705,7 +1703,6 @@ sigs:
   - src-openeuler/pcre
   - src-openeuler/python-backports
   - src-openeuler/libconfig
-  - src-openeuler/llvm
   - src-openeuler/pyxattr
   - src-openeuler/asciidoc
   - src-openeuler/python-kmod
@@ -1866,6 +1863,9 @@ sigs:
 - name: Compiler
   repositories:
   - src-openeuler/gcc
+  - src-openeuler/llvm
+  - src-openeuler/clang
+  - src-openeuler/compiler-rt
   - src-openeuler/openjdk-1.8.0
   - src-openeuler/openjdk-11
   - src-openeuler/openjfx8
