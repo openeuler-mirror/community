@@ -297,3 +297,8 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: auto_py2to3
+  description: "The ultimate purpose of the library is to enable automated and rapid code migration and provide automated testing."
+  protected_branches:
+  - master
+  type: public
