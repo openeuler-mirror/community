@@ -41,11 +41,13 @@ http://gitee.com/openeuler/openEuler-Advisor
 - 胡欣蔚 (Shinwell_Hu)
 - 梁辰晔 (initlove)
 - 王伶卓 (z0wang)
+- 熊伟 (myeuler)
 
 ### Committers
 - 胡欣蔚 (Shinwell_Hu)
 - 梁辰晔 (initlove)
 - 王伶卓 (z0wang)
+- 熊伟 (myeuler)
 
 ### Mailing list
 
