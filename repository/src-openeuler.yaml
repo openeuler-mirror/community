@@ -835,11 +835,6 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: ceph
-  description: ""
-  protected_branches:
-  - master
-  type: public
 - name: cfitsio
   description: "Library for manipulating FITS data files."
   protected_branches:
@@ -1387,6 +1382,12 @@ repositories:
   type: public
 - name: diffutils
   description: ""
+  protected_branches:
+  - master
+  type: public
+- name: digest-list-tools
+  description: "IMA digest list extension userspace tools"
+  upstream: "htpps://github/initlove/digest-list-tools"
   protected_branches:
   - master
   type: public
@@ -7285,6 +7286,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: openEuler-pkginfo
+  description: ""
+  upstream: "gitee.com/openeuler/openEuler-pkginfo"
+  protected_branches:
+  - master
+  type: public
 - name: openEuler-release
   description: ""
   protected_branches:
@@ -10968,6 +10975,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-zarr
+  description: "An implementation of chunked, compressed, N-dimentional arrays for python"
+  upstream: "https://github.com/zarr-developers/zarr-python"
+  protected_branches:
+  - master
+  type: public
 - name: python-zipp
   description: "Backport of pathlib-compatible object wrapper for zip files"
   protected_branches:
@@ -12875,6 +12888,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: x265
+  description: "A H.265 / HEVC video encoder application library."
+  upstream: "https://bitbucket.org/multicoreware/x265"
+  protected_branches:
+  - master
+  type: public
 - name: x3270
   description: ""
   protected_branches:
@@ -13484,6 +13503,18 @@ repositories:
   type: public
 - name: openjdk-11
   description: "openEuler Community builds of OpenJDK 11"
+  protected_branches:
+  - master
+  type: public
+- name: openjfx8
+  description: "Open source, next generation client application platform for desktop and embedded systems for use with the JDK8"
+  upstream: "http://openjdk.java.net/projects/openjfx"
+  protected_branches:
+  - master
+  type: public
+- name: openjfx11
+  description: "Open source, next generation client application platform for desktop and embedded systems for use with the JDK11"
+  upstream: "http://openjdk.java.net/projects/openjfx"
   protected_branches:
   - master
   type: public
@@ -14260,21 +14291,6 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: mate-desktop
-  description: "Library with common API for various MATE modules "
-  protected_branches:
-  - master
-  type: public
-- name: mate-common
-  description: "Common scripts and macros to develop with MATE"
-  protected_branches:
-  - master
-  type: public
-- name: mate-control-center
-  description: "Utilities to configure the MATE desktop "
-  protected_branches:
-  - master
-  type: public
 - name: caffe
   description: "A framework for deep learning"
   upstream: "https://github.com/BVLC/caffe"
@@ -14283,126 +14299,367 @@ repositories:
   type: public
 - name: caja
   description: "Caja, the file manager for the MATE desktop"
+  upstream: "https://github.com/mate-desktop/caja"
   protected_branches:
   - master
   type: public
 - name: caja-extensions
   description: "Set of extensions for Caja, the MATE file manager"
+  upstream: "https://github.com/mate-desktop/caja-extensions"
   protected_branches:
   - master
   type: public
-- name: mate-system-monitor
-  description: "Process viewer and system resource monitor for MATE"
-  protected_branches:
-  - master
-  type: public
-- name: mate-backgrounds
-  description: "This module contains a set of backgrounds packaged with the MATE desktop."
-  protected_branches:
-  - master
-  type: public
-- name: mate-utils
-  description: ""
-  protected_branches:
-  - master
-  type: public
-- name: mate-settings-daemon
-  description: "MATE settings daemon"
-  protected_branches:
-  - master
-  type: public
-- name: mate-screensaver
-  description: "MATE screen saver and locker"
-  protected_branches:
-  - master
-  type: public
-- name: mate-session-manager
-  description: "MATE session manager"
-  protected_branches:
-  - master
-  type: public
-- name: mate-panel
-  description: "MATE panel"
-  protected_branches:
-  - master
-  type: public
-- name: mate-polkit
-  description: "Authentication Agent for PolicyKit and MATE"
-  protected_branches:
-  - master
-  type: public
-- name: mate-power-manager
-  description: "Power management tool for the MATE desktop"
-  protected_branches:
-  - master
-  type: public
-- name: mate-applets
-  description: "Applets for use with the MATE panel"
-  protected_branches:
-  - master
-  type: public
-- name: mate-themes
-  description: "Official themes for the MATE desktop"
-  protected_branches:
-  - master
-  type: public
-- name: mate-icon-theme
-  description: "MATE default icon theme"
-  protected_branches:
-  - master
-  type: public
-- name: mate-calc
-  description: "Calculator for MATE"
-  protected_branches:
-  - master
-  type: public
-- name: mate-media
-  description: "Media tools for MATE"
-  protected_branches:
-  - master
-  type: public
-- name: mate-menus
-  description: "Library for the Desktop Menu freedesktop.org specification"
-  protected_branches:
-  - master
-  type: public
-- name: mate-notification-daemon
-  description: "Daemon to display passive pop-up notifications"
-  protected_branches:
-  - master
-  type: public
-- name: mate-terminal
-  description: "The MATE Terminal Emulator"
-  protected_branches:
-  - master
-  type: public
-- name: mate-user-guide
-  description: "MATE Desktop User Guide"
-  protected_branches:
-  - master
-  type: public
-- name: libmateweather
-  description: "Library to access weather information from online services"
-  protected_branches:
-  - master
-  type: public
-- name: libmatemixer
-  description: "Mixer library for MATE Desktop"
-  protected_branches:
-  - master
-  type: public
-- name: libmatekbd
-  description: "Keyboard management library"
+- name: cjkuni-uming-fonts
+  description: "Chinese Unicode TrueType font in Ming face"
+  upstream: "https://www.freedesktop.org/wiki/Software/CJKUnifonts/"
   protected_branches:
   - master
   type: public
 - name: eom
   description: "An image viewer for MATE"
+  upsteam: "https://github.com/mate-desktop/eom"
+  protected_branches:
+  - master
+  type: public
+- name: exo
+  description: "Application library for the Xfce desktop environment"
+  upstream: "http://xfce.org/"
+  protected_branches:
+  - master
+  type: public
+- name: fcitx-configtool
+  description: "Gtk+-based configuring tools for Fcitx"
+  upstream: "https://github.com/fcitx/fcitx-configtool"
+  protected_branches:
+  - master
+  type: public
+- name: gajim
+  description: "Jabber client written in PyGTK"
+  upstream: "https://gajim.org/"
+  protected_branches:
+  - master
+  type: public
+- name: gcolor2
+  description: "A simple color selector for GTK+2"
+  upstream: "http://gcolor2.sourceforge.net/"
+  protected_branches:
+  - master
+  type: public
+- name: glade3
+  description: "User Interface Designer for GTK+ 2"
+  upstream: "http://glade.gnome.org/"
+  protected_branches:
+  - master
+  type: public
+- name: gparted
+  description: "Partition Editor"
+  upstream: "http://gparted.org"
+  protected_branches:
+  - master
+  type: public
+- name: gtk-layer-shell
+  description: "Wayland protocol for desktop shell components"
+  upstream: "https://github.com/wmww/gtk-layer-shell"
+  protected_branches:
+  - master
+  type: public
+- name: gtk-murrine-engine
+  description: "Murrine GTK2 engine"
+  upstream: "http://www.cimitan.com/murrine/"
+  protected_branches:
+  - master
+  type: public
+- name: gtk2-engines
+  description: "Theme engines for GTK+ 2.0"
+  upstream: "http://download.gnome.org/sources/gtk-engines"
+  protected_branches:
+  - master
+  type: public
+- name: gtksourceview4
+  description: "Source code editing widget"
+  upstream: "https://wiki.gnome.org/Projects/GtkSourceView"
+  protected_branches:
+  - master
+  type: public
+- name: gucharmap
+  description: "Unicode character picker and font browser"
+  upstream: "https://wiki.gnome.org/Apps/Gucharmap"
+  protected_branches:
+  - master
+  type: public
+- name: im-chooser
+  description: "Desktop Input Method configuration tool"
+  upstream: "http://pagure.io/im-chooser/"
+  protected_branches:
+  - master
+  type: public
+- name: libXpresent
+  description: "A Xlib-compatible API for the Present extension"
+  upstream: "http://www.x.org"
+  protected_branches:
+  - master
+  type: public
+- name: libmatekbd
+  description: "Keyboard management library"
+  upstream: "https://github.com/mate-desktop/libmatekbd"
+  protected_branches:
+  - master
+  type: public
+- name: libmatemixer
+  description: "Mixer library for MATE Desktop"
+  upstream: "https://github.com/mate-desktop/libmatemixer"
+  protected_branches:
+  - master
+  type: public
+- name: libmateweather
+  description: "Library to access weather information from online services"
+  upstream: "https://github.com/mate-desktop/libmateweather"
+  protected_branches:
+  - master
+  type: public
+- name: libwnck
+  description: "Window Navigator Construction Kit"
+  upstream: "http://download.gnome.org/sources/libwnck/"
+  protected_branches:
+  - master
+  type: public
+- name: libxfce4ui
+  description: "Commonly used Xfce widgets"
+  upstream: "http://xfce.org/"
+  protected_branches:
+  - master
+  type: public
+- name: libxfce4util
+  description: "Utility library for the Xfce4 desktop environment"
+  upstream: "http://www.xfce.org/"
+  protected_branches:
+  - master
+  type: public
+- name: lightdm
+  description: "Display Manager"
+  upstream: "https://www.freedesktop.org/wiki/Software/LightDM/"
+  protected_branches:
+  - master
+  type: public
+- name: lightdm-gtk
+  description: "A LightDM greeter that uses the GTK3 toolkit"
+  upstream: "https://launchpad.net/lightdm-gtk-greeter"
   protected_branches:
   - master
   type: public
 - name: marco
   description: "MATE default window manager"
+  upstream: "https://github.com/mate-desktop/marco"
+  protected_branches:
+  - master
+  type: public
+- name: mate-applets
+  description: "Applets for use with the MATE panel"
+  upstream: "https://github.com/mate-desktop/mate-applets"
+  protected_branches:
+  - master
+  type: public
+- name: mate-backgrounds
+  description: "This module contains a set of backgrounds packaged with the MATE desktop."
+  upstream: "https://github.com/mate-desktop/mate-backgrounds"
+  protected_branches:
+  - master
+  type: public
+- name: mate-calc
+  description: "Calculator for MATE"
+  upstream: "https://github.com/mate-desktop/mate-calc"
+  protected_branches:
+  - master
+  type: public
+- name: mate-common
+  description: "Common scripts and macros to develop with MATE"
+  upstream: "https://github.com/mate-desktop/mate-common"
+  protected_branches:
+  - master
+  type: public
+- name: mate-control-center
+  description: "Utilities to configure the MATE desktop "
+  upstream: "https://github.com/mate-desktop/mate-control-center"
+  protected_branches:
+  - master
+  type: public
+- name: mate-desktop
+  description: "Library with common API for various MATE modules"
+  upstream: "https://github.com/mate-desktop/mate-desktop"
+  protected_branches:
+  - master
+  type: public
+- name: mate-icon-theme
+  description: "MATE default icon theme"
+  upstream: "https://github.com/mate-desktop/mate-icon-theme"
+  protected_branches:
+  - master
+  type: public
+- name: mate-media
+  description: "Media tools for MATE"
+  upstream: "https://github.com/mate-desktop/mate-media"
+  protected_branches:
+  - master
+  type: public
+- name: mate-menus
+  description: "Library for the Desktop Menu freedesktop.org specification"
+  upstream: "https://github.com/mate-desktop/mate-menus"
+  protected_branches:
+  - master
+  type: public
+- name: mate-notification-daemon
+  description: "Daemon to display passive pop-up notifications"
+  upstream: "https://github.com/mate-desktop/mate-notification-daemon"
+  protected_branches:
+  - master
+  type: public
+- name: mate-panel
+  description: "MATE panel"
+  upstream: "https://github.com/mate-desktop/mate-panel"
+  protected_branches:
+  - master
+  type: public
+- name: mate-polkit
+  description: "Authentication Agent for PolicyKit and MATE"
+  upstream: "https://github.com/mate-desktop/mate-polkit"
+  protected_branches:
+  - master
+  type: public
+- name: mate-power-manager
+  description: "Power management tool for the MATE desktop"
+  upstream: "https://github.com/mate-desktop/mate-power-manager"
+  protected_branches:
+  - master
+  type: public
+- name: mate-screensaver
+  description: "MATE screen saver and locker"
+  upstream: "https://github.com/mate-desktop/mate-screensaver"
+  protected_branches:
+  - master
+  type: public
+- name: mate-session-manager
+  description: "MATE session manager"
+  upstream: "https://github.com/mate-desktop/mate-session-manager"
+  protected_branches:
+  - master
+  type: public
+- name: mate-settings-daemon
+  description: "MATE settings daemon"
+  upstream: "https://github.com/mate-desktop/mate-settings-daemon"
+  protected_branches:
+  - master
+  type: public
+- name: mate-system-monitor
+  description: "Process viewer and system resource monitor for MATE"
+  upstream: "https://github.com/mate-desktop/mate-system-monitor"
+  protected_branches:
+  - master
+  type: public
+- name: mate-terminal
+  description: "The MATE Terminal Emulator"
+  upstream: "https://github.com/mate-desktop/mate-terminal"
+  protected_branches:
+  - master
+  type: public
+- name: mate-themes
+  description: "Official themes for the MATE desktop"
+  upstream: "https://github.com/mate-desktop/mate-themes"
+  protected_branches:
+  - master
+  type: public
+- name: mate-user-guide
+  description: "MATE Desktop User Guide"
+  upstream: "https://github.com/mate-desktop/mate-user-guide"
+  protected_branches:
+  - master
+  type: public
+- name: mate-utils
+  description: ""
+  upstream: "https://github.com/mate-desktop/mate-utils"
+  protected_branches:
+  - master
+  type: public
+- name: open-chinese-fonts
+  description: "Fonts for displaying for Chinese"
+  upstream: ""
+  protected_branches:
+  - master
+  type: public
+- name: pangox-compat
+  description: "Compatibility library providing the obsolete pangox library"
+  upstream: "http://ftp.gnome.org/pub/GNOME/sources/pangox-compat/0.0/"
+  protected_branches:
+  - master
+  type: public
+- name: perl-ExtUtils-Depends
+  description: "Easily build XS extensions that depend on XS extensions"
+  upstream: "https://metacpan.org/release/ExtUtils-Depends"
+  protected_branches:
+  - master
+  type: public
+- name: perl-ExtUtils-PkgConfig
+  description: "Perl module that implements a simplistic interface to pkg-config"
+  upstream: "https://metacpan.org/release/ExtUtils-PkgConfig"
+  protected_branches:
+  - master
+  type: public
+- name: perl-Glib
+  description: "Perl wrappers for the GLib utility and Object libraries"
+  upstream: "https://metacpan.org/release/Glib"
+  protected_branches:
+  - master
+  type: public
+- name: python-cssutils
+  description: "A CSS Cascading Style Sheets library"
+  upstream: "http://cthedot.de/cssutils/"
+  protected_branches:
+  - master
+  type: public
+- name: python-nbxmpp
+  description: "Non blocking Jabber/XMPP module"
+  upstream: "https://dev.gajim.org/gajim/python-nbxmpp/"
+  protected_branches:
+  - master
+  type: public
+- name: python-precis_i18n
+  description: "Internationalized Usernames and Passwords"
+  upstream: "https://github.com/byllyfish/precis_i18n"
+  protected_branches:
+  - master
+  type: public
+- name: re2c
+  description: "Lexer generator for C/C++"
+  upstream: "http://re2c.org/"
+  protected_branches:
+  - master
+  type: public
+- name: system-config-users
+  description: "A graphical interface for administering users and groups"
+  upstream: "http://fedorahosted.org/system-config-users"
+  protected_branches:
+  - master
+  type: public
+- name: system-config-users-docs
+  description: "Documentation for administering users and groups"
+  upstream: "https://fedorahosted.org/system-config-users-docs"
+  protected_branches:
+  - master
+  type: public
+- name: unique3
+  description: "Library for writing single instance applications"
+  upstream: "http://www.gnome.org/~ebassi/source/"
+  protected_branches:
+  - master
+  type: public
+- name: wireless-tools
+  description: "Tools for manipulating Linux Wireless Extensions"
+  upstream: "http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.html"
+  protected_branches:
+  - master
+  type: public
+- name: xfconf 
+  description: "Hierarchical (tree-like) configuration system"
+  upstream: "http://www.xfce.org/"
   protected_branches:
   - master
   type: public

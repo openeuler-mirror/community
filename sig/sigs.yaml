@@ -277,7 +277,6 @@ sigs:
   - src-openeuler/qt5-qtdoc
   - src-openeuler/perl-MRO-Compat
   - src-openeuler/perl-String-ShellQuote
-  - src-openeuler/clang
   - src-openeuler/python-extras
   - src-openeuler/python-mimeparse
   - src-openeuler/perl-TimeDate
@@ -982,7 +981,6 @@ sigs:
   - src-openeuler/gnome-color-manager
   - src-openeuler/python-xgboost
   - src-openeuler/gnome-video-effects
-  - src-openeuler/compiler-rt
   - src-openeuler/nbdkit
   - src-openeuler/perl-Pod-Coverage
   - src-openeuler/gsound
@@ -1867,8 +1865,13 @@ sigs:
 - name: Compiler
   repositories:
   - src-openeuler/gcc
+  - src-openeuler/llvm
+  - src-openeuler/clang
+  - src-openeuler/compiler-rt
   - src-openeuler/openjdk-1.8.0
   - src-openeuler/openjdk-11
+  - src-openeuler/openjfx8
+  - src-openeuler/openjfx11
 - name: Storage
   repositories:
   - src-openeuler/parted
@@ -1982,6 +1985,7 @@ sigs:
   - src-openeuler/imake
   - src-openeuler/cairomm
   - src-openeuler/gnome-shell
+  - src-openeuler/x265
   - src-openeuler/x3270
   - src-openeuler/xorg-x11-drv-qxl
   - src-openeuler/orca
@@ -2150,7 +2154,6 @@ sigs:
   - src-openeuler/classmate
   - src-openeuler/codenarc
   - src-openeuler/compat-libgfortran
-  - src-openeuler/compat-openssl10
   - src-openeuler/cvsps
   - src-openeuler/cyrus-imapd
   - src-openeuler/dain-snappy
@@ -2852,40 +2855,78 @@ sigs:
   - src-openeuler/libgssglue
   - src-openeuler/librpcsecgss
   - src-openeuler/pyporter
+  - src-openeuler/openEuler-pkginfo
+  - openeuler/openEuler-pkginfo
   - openeuler/openEuler-bootstrap
   - openeuler/abichecker
   - openeuler/pyporter
+  - openeuler/perlporter
+  - openeuler/auto_py2to3
 - name: sig-mate-desktop
   repositories:
   - openeuler/mate-desktop
-  - src-openeuler/mate-desktop
-  - src-openeuler/mate-common
-  - src-openeuler/mate-control-center
   - src-openeuler/caja
   - src-openeuler/caja-extensions
-  - src-openeuler/mate-system-monitor
-  - src-openeuler/mate-backgrounds
-  - src-openeuler/mate-utils
-  - src-openeuler/mate-settings-daemon
-  - src-openeuler/mate-screensaver
-  - src-openeuler/mate-session-manager
-  - src-openeuler/mate-panel
-  - src-openeuler/mate-polkit
-  - src-openeuler/mate-power-manager
+  - src-openeuler/cjkuni-uming-fonts
+  - src-openeuler/eom
+  - src-openeuler/exo
+  - src-openeuler/fcitx-configtool
+  - src-openeuler/gajim
+  - src-openeuler/gcolor2
+  - src-openeuler/glade3
+  - src-openeuler/gparted
+  - src-openeuler/gtk-layer-shell
+  - src-openeuler/gtk-murrine-engine
+  - src-openeuler/gtk2-engines
+  - src-openeuler/gtksourceview4
+  - src-openeuler/gucharmap
+  - src-openeuler/im-chooser
+  - src-openeuler/libXpresent
+  - src-openeuler/libmatekbd
+  - src-openeuler/libmatemixer
+  - src-openeuler/libmateweather
+  - src-openeuler/libwnck
+  - src-openeuler/libxfce4ui
+  - src-openeuler/libxfce4util
+  - src-openeuler/lightdm
+  - src-openeuler/lightdm-gtk
+  - src-openeuler/marco
   - src-openeuler/mate-applets
-  - src-openeuler/mate-themes
-  - src-openeuler/mate-icon-theme
+  - src-openeuler/mate-backgrounds
   - src-openeuler/mate-calc
+  - src-openeuler/mate-common
+  - src-openeuler/mate-control-center
+  - src-openeuler/mate-desktop
+  - src-openeuler/mate-icon-theme
   - src-openeuler/mate-media
   - src-openeuler/mate-menus
   - src-openeuler/mate-notification-daemon
+  - src-openeuler/mate-panel
+  - src-openeuler/mate-polkit
+  - src-openeuler/mate-power-manager
+  - src-openeuler/mate-screensaver
+  - src-openeuler/mate-session-manager
+  - src-openeuler/mate-settings-daemon
+  - src-openeuler/mate-system-monitor
   - src-openeuler/mate-terminal
+  - src-openeuler/mate-themes
   - src-openeuler/mate-user-guide
-  - src-openeuler/libmateweather
-  - src-openeuler/libmatemixer
-  - src-openeuler/libmatekbd
-  - src-openeuler/eom
-  - src-openeuler/marco
+  - src-openeuler/mate-utils
+  - src-openeuler/open-chinese-fonts
+  - src-openeuler/pangox-compat
+  - src-openeuler/perl-ExtUtils-Depends
+  - src-openeuler/perl-ExtUtils-PkgConfig
+  - src-openeuler/perl-Glib
+  - src-openeuler/python-cssutils
+  - src-openeuler/python-nbxmpp
+  - src-openeuler/python-precis_i18n
+  - src-openeuler/re2c
+  - src-openeuler/system-config-users
+  - src-openeuler/system-config-users-docs
+  - src-openeuler/unique3
+  - src-openeuler/wireless-tools
+  - src-openeuler/xfconf
+
 - name: sig-bounds_checking_function
   repositories:
   - openeuler/bounds_checking_function
@@ -2923,10 +2964,31 @@ sigs:
   - src-openeuler/shim-unsigned-aarch64
   - src-openeuler/subscription-manager
   - src-openeuler/redhat-menus
+  - src-openeuler/golang-github-cpuguy83-go-md2man
+  - src-openeuler/golang-github-fsnotify-fsnotify
+  - src-openeuler/golang-github-go-tomb-tomb
+  - src-openeuler/golang-github-hpcloud-tail
+  - src-openeuler/golang-github-onsi-ginkgo
+  - src-openeuler/golang-github-onsi-gomega
+  - src-openeuler/golang-googlecode-go-crypto
+  - src-openeuler/golang-googlecode-net
+  - src-openeuler/golang-googlecode-text
+  - src-openeuler/golang-googlecode-tools
+  - src-openeuler/golang-gopkg-yaml
+  - src-openeuler/golang-googlecode-goprotobuf
+  - src-openeuler/golang-github-vishvananda-netns
+  - src-openeuler/golang-github-golang-sys
+  - src-openeuler/golang-github-vishvananda-netlink
+  - src-openeuler/golang-github-d2g-dhcp4
+  - src-openeuler/golang-github-coreos-go-iptables
+  - src-openeuler/golang-github-russross-blackfriday
 - name: sig-RaspberryPi
   repositories:
   - openeuler/raspberrypi
   - openeuler/raspberrypi-kernel
+  - src-openeuler/raspberry-kernel
+  - src-openeuler/raspberry-firmware
+  - src-openeuler/raspberry-build
 - name: sig-Ha
   repositories:
   - src-openeuler/pacemaker
@@ -2952,6 +3014,11 @@ sigs:
   - openeuler/tp-libvirt
   - openeuler/tp-qemu
   - openeuler/EulerRobot
+  - openeuler/integration-test
+  - openeuler/container-test
+  - openeuler/compiler-test
+  - openeuler/package-reinforce-test
+  - openeuler/test-tools
 - name: sig-ROS
   repositories:
   - openeuler/ros
@@ -2993,24 +3060,6 @@ sigs:
 - name: sig-golang
   repositories:
   - src-openeuler/golang
-  - src-openeuler/golang-github-cpuguy83-go-md2man
-  - src-openeuler/golang-github-fsnotify-fsnotify
-  - src-openeuler/golang-github-go-tomb-tomb
-  - src-openeuler/golang-github-hpcloud-tail
-  - src-openeuler/golang-github-onsi-ginkgo
-  - src-openeuler/golang-github-onsi-gomega
-  - src-openeuler/golang-googlecode-go-crypto
-  - src-openeuler/golang-googlecode-net
-  - src-openeuler/golang-googlecode-text
-  - src-openeuler/golang-googlecode-tools
-  - src-openeuler/golang-gopkg-yaml
-  - src-openeuler/golang-googlecode-goprotobuf
-  - src-openeuler/golang-github-vishvananda-netns
-  - src-openeuler/golang-github-golang-sys
-  - src-openeuler/golang-github-vishvananda-netlink
-  - src-openeuler/golang-github-d2g-dhcp4
-  - src-openeuler/golang-github-coreos-go-iptables
-  - src-openeuler/golang-github-russross-blackfriday
 - name: sig-EasyLife
   repositories:
   - openeuler/openEuler-Advisor
@@ -3019,6 +3068,7 @@ sigs:
   - src-openeuler/ceph
 - name: sig-security-facility
   repositories:
+  - src-openeuler/digest-list-tools
   - src-openeuler/apparmor
   - src-openeuler/tpm2-tools
   - src-openeuler/setroubleshoot
@@ -3049,6 +3099,7 @@ sigs:
   - src-openeuler/audit
   - src-openeuler/nss-pem
   - src-openeuler/tpm2-abrmd-selinux
+  - src-openeuler/compat-openssl10
 - name: sig-Compatibility-Infra
   repositories:
   - openeuler/oec-hardware
@@ -3065,3 +3116,9 @@ sigs:
   repositories:
   - openeuler/android-emulator
   - openeuler/anbox
+- name: sig-python-modules
+  repositories:
+  - src-openeuler/python-zarr
+- name: sig-release-management
+  repositories:
+  - openeuler/release-management
