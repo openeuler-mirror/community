@@ -271,6 +271,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: pkgporter
+  description: "A rpm packager automation bot for perl, python and so on"
+  protected_branches:
+  - master
+  type: public
 - name: pyporter
   description: "A rpm packager bot for python modules from pypi.org"
   protected_branches:
