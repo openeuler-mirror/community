@@ -22,7 +22,8 @@
 
 
 <h2 id="id1">软件打包基础</h2>
-**打包**是指编译并捆绑软件与元数据，例如软件全名、描述、正常运行所需要的依赖列表等的动作。这是为了让软件使用者可以使用类似RPM等软件包管理器，方便舒服的对其所使用的软件进行安全、升级或者删除。
+
+**打包** 是指编译并捆绑软件与元数据，例如软件全名、描述、正常运行所需要的依赖列表等的动作。这是为了让软件使用者可以使用类似RPM等软件包管理器，方便舒服的对其所使用的软件进行安全、升级或者删除。
 
 
 
@@ -211,6 +212,7 @@ find $RPM_BUILD_ROOT -type f -name "*.a" -delete \
 
 
 <h3 id="id3-2">openEuelr custom amcros</h3>
+
 ```
 %disable_rpath 
 sed -i 's|^hardcode_libdir_flag_spec=.*|hardcode_libdir_flag_spec=""|g' libtool \
