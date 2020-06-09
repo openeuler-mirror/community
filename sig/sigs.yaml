@@ -636,7 +636,6 @@ sigs:
   - src-openeuler/wqy-zenhei-fonts
   - src-openeuler/iputils
   - src-openeuler/iproute
-  - src-openeuler/gnome-control-center
   - src-openeuler/xorg-x11-drv-dummy
   - src-openeuler/libgnomecanvas
   - src-openeuler/rdma-core
@@ -2870,7 +2869,6 @@ sigs:
   - src-openeuler/caja-extensions
   - src-openeuler/cjkuni-uming-fonts
   - src-openeuler/eom
-  - src-openeuler/exo
   - src-openeuler/fcitx-configtool
   - src-openeuler/gajim
   - src-openeuler/gcolor2
@@ -2887,8 +2885,6 @@ sigs:
   - src-openeuler/libmatemixer
   - src-openeuler/libmateweather
   - src-openeuler/libwnck
-  - src-openeuler/libxfce4ui
-  - src-openeuler/libxfce4util
   - src-openeuler/lightdm
   - src-openeuler/lightdm-gtk
   - src-openeuler/marco
@@ -2926,7 +2922,6 @@ sigs:
   - src-openeuler/system-config-users-docs
   - src-openeuler/unique3
   - src-openeuler/wireless-tools
-  - src-openeuler/xfconf
 
 - name: sig-bounds_checking_function
   repositories:
@@ -3123,3 +3118,12 @@ sigs:
 - name: sig-release-management
   repositories:
   - openeuler/release-management
+- name: xfce
+  repositories:
+  - src-openeuler/exo
+  - src-openeuler/libxfce4ui
+  - src-openeuler/libxfce4util
+  - src-openeuler/xfconf
+- name: GNOME
+  repositories:
+  - src-openeuler/gnome-control-center
