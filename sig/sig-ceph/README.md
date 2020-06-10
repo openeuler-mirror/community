@@ -9,8 +9,6 @@
 
 # 组织会议
 
-- 公开的会议时间：北京时间，每周X 下午，XX点~XX点
-
 北京时间，双周一上午，10点~11点
 
 
@@ -32,9 +30,7 @@
 # 联系方式
 
 
-- [邮件列表](sig-ceph@openeuler.org)
-
-
+- 邮件列表 <dev@openeuler.org>
 
 
 
@@ -46,4 +42,3 @@
 repository地址：
 
 - https:/gitee.com/src-openeuler/ceph
-- 
