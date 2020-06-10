@@ -277,7 +277,6 @@ sigs:
   - src-openeuler/qt5-qtdoc
   - src-openeuler/perl-MRO-Compat
   - src-openeuler/perl-String-ShellQuote
-  - src-openeuler/clang
   - src-openeuler/python-extras
   - src-openeuler/python-mimeparse
   - src-openeuler/perl-TimeDate
@@ -982,7 +981,6 @@ sigs:
   - src-openeuler/gnome-color-manager
   - src-openeuler/python-xgboost
   - src-openeuler/gnome-video-effects
-  - src-openeuler/compiler-rt
   - src-openeuler/nbdkit
   - src-openeuler/perl-Pod-Coverage
   - src-openeuler/gsound
@@ -1705,7 +1703,8 @@ sigs:
   - src-openeuler/pcre
   - src-openeuler/python-backports
   - src-openeuler/libconfig
-  - src-openeuler/llvm
+  - src-openeuler/python-commonmark
+  - src-openeuler/python-recommonmark
   - src-openeuler/pyxattr
   - src-openeuler/asciidoc
   - src-openeuler/python-kmod
@@ -1866,8 +1865,13 @@ sigs:
 - name: Compiler
   repositories:
   - src-openeuler/gcc
+  - src-openeuler/llvm
+  - src-openeuler/clang
+  - src-openeuler/compiler-rt
   - src-openeuler/openjdk-1.8.0
   - src-openeuler/openjdk-11
+  - src-openeuler/openjfx8
+  - src-openeuler/openjfx11
 - name: Storage
   repositories:
   - src-openeuler/parted
@@ -1981,6 +1985,7 @@ sigs:
   - src-openeuler/imake
   - src-openeuler/cairomm
   - src-openeuler/gnome-shell
+  - src-openeuler/x265
   - src-openeuler/x3270
   - src-openeuler/xorg-x11-drv-qxl
   - src-openeuler/orca
@@ -2855,6 +2860,9 @@ sigs:
   - openeuler/openEuler-bootstrap
   - openeuler/abichecker
   - openeuler/pyporter
+  - openeuler/perlporter
+  - openeuler/pkgporter
+  - openeuler/auto_py2to3
 - name: sig-mate-desktop
   repositories:
   - openeuler/mate-desktop
@@ -2957,6 +2965,24 @@ sigs:
   - src-openeuler/shim-unsigned-aarch64
   - src-openeuler/subscription-manager
   - src-openeuler/redhat-menus
+  - src-openeuler/golang-github-cpuguy83-go-md2man
+  - src-openeuler/golang-github-fsnotify-fsnotify
+  - src-openeuler/golang-github-go-tomb-tomb
+  - src-openeuler/golang-github-hpcloud-tail
+  - src-openeuler/golang-github-onsi-ginkgo
+  - src-openeuler/golang-github-onsi-gomega
+  - src-openeuler/golang-googlecode-go-crypto
+  - src-openeuler/golang-googlecode-net
+  - src-openeuler/golang-googlecode-text
+  - src-openeuler/golang-googlecode-tools
+  - src-openeuler/golang-gopkg-yaml
+  - src-openeuler/golang-googlecode-goprotobuf
+  - src-openeuler/golang-github-vishvananda-netns
+  - src-openeuler/golang-github-golang-sys
+  - src-openeuler/golang-github-vishvananda-netlink
+  - src-openeuler/golang-github-d2g-dhcp4
+  - src-openeuler/golang-github-coreos-go-iptables
+  - src-openeuler/golang-github-russross-blackfriday
 - name: sig-RaspberryPi
   repositories:
   - openeuler/raspberrypi
@@ -2990,6 +3016,10 @@ sigs:
   - openeuler/tp-qemu
   - openeuler/EulerRobot
   - openeuler/integration-test
+  - openeuler/container-test
+  - openeuler/compiler-test
+  - openeuler/package-reinforce-test
+  - openeuler/test-tools
 - name: sig-ROS
   repositories:
   - openeuler/ros
@@ -3032,24 +3062,6 @@ sigs:
 - name: sig-golang
   repositories:
   - src-openeuler/golang
-  - src-openeuler/golang-github-cpuguy83-go-md2man
-  - src-openeuler/golang-github-fsnotify-fsnotify
-  - src-openeuler/golang-github-go-tomb-tomb
-  - src-openeuler/golang-github-hpcloud-tail
-  - src-openeuler/golang-github-onsi-ginkgo
-  - src-openeuler/golang-github-onsi-gomega
-  - src-openeuler/golang-googlecode-go-crypto
-  - src-openeuler/golang-googlecode-net
-  - src-openeuler/golang-googlecode-text
-  - src-openeuler/golang-googlecode-tools
-  - src-openeuler/golang-gopkg-yaml
-  - src-openeuler/golang-googlecode-goprotobuf
-  - src-openeuler/golang-github-vishvananda-netns
-  - src-openeuler/golang-github-golang-sys
-  - src-openeuler/golang-github-vishvananda-netlink
-  - src-openeuler/golang-github-d2g-dhcp4
-  - src-openeuler/golang-github-coreos-go-iptables
-  - src-openeuler/golang-github-russross-blackfriday
 - name: sig-EasyLife
   repositories:
   - openeuler/openEuler-Advisor
@@ -3058,6 +3070,7 @@ sigs:
   - src-openeuler/ceph
 - name: sig-security-facility
   repositories:
+  - src-openeuler/digest-list-tools
   - src-openeuler/apparmor
   - src-openeuler/tpm2-tools
   - src-openeuler/setroubleshoot

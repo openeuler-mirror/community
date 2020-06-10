@@ -18,6 +18,7 @@
 - yumin_jiang[@yumin_jiang](https://gitee.com/yumin_jiang)
 - Ronnie_Jiang[@Ronnie_Jiang](https://gitee.com/Ronnie_Jiang)
 - ChenYaqiang[@yaqiangchen](https://gitee.com/yaqiangchen)
+- solarhu[@solarhu](https://gitee.com/solarhu)
 
 # communication
 - maillist: <dev@openeuler.org>

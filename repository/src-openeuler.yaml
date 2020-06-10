@@ -1385,6 +1385,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: digest-list-tools
+  description: "IMA digest list extension userspace tools"
+  upstream: "htpps://github/initlove/digest-list-tools"
+  protected_branches:
+  - master
+  type: public
 - name: ding-libs
   description: ""
   protected_branches:
@@ -10985,6 +10991,18 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-commonmark
+  description: "Commonmark is a Markdown parser and renderer for CommonMark specification"
+  upstream: "https://pypi.org/project/commonmark/"
+  protected_branches:
+  - master
+  type: public
+- name: python-recommonmark
+  description: "A docutils-compabitility bridge to CommonMark"
+  upstream: "https://pypi.org/project/recommonmark/"
+  protected_branches:
+  - master
+  type: public
 - name: pytz
   description: ""
   protected_branches:
@@ -12870,6 +12888,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: x265
+  description: "A H.265 / HEVC video encoder application library."
+  upstream: "https://bitbucket.org/multicoreware/x265"
+  protected_branches:
+  - master
+  type: public
 - name: x3270
   description: ""
   protected_branches:
@@ -13479,6 +13503,18 @@ repositories:
   type: public
 - name: openjdk-11
   description: "openEuler Community builds of OpenJDK 11"
+  protected_branches:
+  - master
+  type: public
+- name: openjfx8
+  description: "Open source, next generation client application platform for desktop and embedded systems for use with the JDK8"
+  upstream: "http://openjdk.java.net/projects/openjfx"
+  protected_branches:
+  - master
+  type: public
+- name: openjfx11
+  description: "Open source, next generation client application platform for desktop and embedded systems for use with the JDK11"
+  upstream: "http://openjdk.java.net/projects/openjfx"
   protected_branches:
   - master
   type: public

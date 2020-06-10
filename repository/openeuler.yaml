@@ -51,6 +51,16 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: compiler-test
+  description: "Compiler-test repo contains functional test suites for two components: gcc and openjdk, including dejagnu, jtreg, etc"
+  protected_branches:
+  - master
+  type: public
+- name: container-test
+  description: "The pubilc repo stores the source of container test-cases"
+  protected_branches:
+  - master
+  type: public
 - name: discussion
   description: ""
   protected_branches:
@@ -82,7 +92,17 @@ repositories:
   - master
   type: public
 - name: integration-test
-  description: ""
+  description: "The repo contains test suits for system integration test"
+  protected_branches:
+  - master
+  type: public
+- name: test-tools
+  description: "The repo contains tools for improve test efficiency"
+  protected_branches:
+  - master
+  type: public
+- name: package-reinforce-test
+  description: "The repo contains test suites in order to improve test coverage for key packages"
   protected_branches:
   - master
   type: public
@@ -201,6 +221,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: perlporter
+  description: "perl pacaking automation tool"
+  protected_branches:
+  - master
+  type: public
 - name: pacemaker-mgmt
   description: "Management Console for Pacemaker"
   protected_branches:
@@ -246,6 +271,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: pkgporter
+  description: "A rpm packager automation bot for perl, python and so on"
+  protected_branches:
+  - master
+  type: public
 - name: pyporter
   description: "A rpm packager bot for python modules from pypi.org"
   protected_branches:
@@ -269,6 +299,11 @@ repositories:
 - name: release-management
   description: "release management including key features, release plan, development and branch plan, release scope and notes
 "
+  protected_branches:
+  - master
+  type: public
+- name: auto_py2to3
+  description: "The ultimate purpose of the library is to enable automated and rapid code migration and provide automated testing."
   protected_branches:
   - master
   type: public

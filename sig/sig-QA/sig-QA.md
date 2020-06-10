@@ -19,6 +19,11 @@ The repositories related to QA are listed below
 - https://gitee.com/openeuler/tp-qemu
 - https://gitee.com/openeuler/quality-assurance
 - https://gitee.com/openeuler/EulerRobot
+- https://gitee.com/openeuler/compiler-test
+- https://gitee.com/openeuler/package-reinforce-test
+- https://gitee.com/openeuler/integration-test
+- https://gitee.com/openeuler/container-test
+- https://gitee.com/openeuler/test-tools
 
 ### Project Introduction
 https://gitee.com/openeuler/community/sig/sig-QA/
@@ -28,6 +33,9 @@ Maintainers
 - charlie_li(@charlie_li),since October 2019
 - wubodong(@walkingwalk),since November 2019
 - kuhnchen(@kuhnchen18),since December 2019
+- speacher
+- rigorous
+
 Committers
 - ltx(@lutianxiong),since February 2020
 - Air9(@air9),since january 2020
