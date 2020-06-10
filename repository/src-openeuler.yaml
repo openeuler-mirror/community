@@ -3423,8 +3423,9 @@ repositories:
   protected_branches:
   - master
   type: private
-- name: integration-test
+- name: temporary-integration-test
   description: ""
+  rename_from: integration-test 
   protected_branches:
   - master
   type: private
