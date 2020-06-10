@@ -110,8 +110,8 @@ oVirt相关软件包的仓库如下，详见：https://resources.ovirt.org/pub/o
     https://gitee.com/openeuler/community/tree/master/sig/sig-oVirt/
 
 ### Maintainers
-- imjoey
-- huihui0311
+- hjimmy
+- wm-wm-wm
 
 ### Committers
 - crrs666
@@ -123,4 +123,4 @@ oVirt相关软件包的仓库如下，详见：https://resources.ovirt.org/pub/o
 - #openeuler-dev
 
 ### 对外联络人
-- imjoey
+- hjimmy
