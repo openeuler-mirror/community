@@ -3574,6 +3574,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: libisal
+  description: "Library for Intelligent Storage Acceleration Library"
+  upstream: "https://github.com/intel/isa-l"
+  protected_branches:
+  - master
+  type: public
 - name: libisofs1
   description: "Library to create ISO 9660 disk images."
   protected_branches:
