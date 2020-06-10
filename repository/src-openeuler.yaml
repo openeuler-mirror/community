@@ -13505,23 +13505,31 @@ repositories:
   type: public
 - name: openjdk-1.8.0
   description: "openEuler Community builds of OpenJDK 8"
+  upstream: "http://openjdk.java.net/"
   protected_branches:
   - master
   type: public
 - name: openjdk-11
   description: "openEuler Community builds of OpenJDK 11"
+  upstream: "http://openjdk.java.net/"
+  protected_branches:
+  - master
+  type: public
+- name: openjdk-latest
+  description: "openEuler Community builds of OpenJDK latest"
+  upstream: "http://openjdk.java.net/"
   protected_branches:
   - master
   type: public
 - name: openjfx8
   description: "Open source, next generation client application platform for desktop and embedded systems for use with the JDK8"
-  upstream: "http://openjdk.java.net/projects/openjfx"
+  upstream: "http://openjdk.java.net/projects/openjfx/"
   protected_branches:
   - master
   type: public
 - name: openjfx11
   description: "Open source, next generation client application platform for desktop and embedded systems for use with the JDK11"
-  upstream: "http://openjdk.java.net/projects/openjfx"
+  upstream: "http://openjdk.java.net/projects/openjfx/"
   protected_branches:
   - master
   type: public
