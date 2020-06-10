@@ -14948,3 +14948,33 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: catkin
+  description: "catkin package that belongs to THE ROS-COMM"
+  upstream: "https://github.com/ros/catkin"
+  protected_branches:
+  - master
+  type: public
+- name: class_loader
+  description: "class_loader package that belongs to THE ROS-COMM"
+  upstream: "https://github.com/ros/class_loader"
+  protected_branches:
+  - master
+  type: public
+- name: cmake_modules
+  description: "cmake_modules package that belongs to THE ROS-COMM"
+  upstream: "https://github.com/ros/cmake_modules"
+  protected_branches:
+  - master
+  type: public
+- name: cpp_common
+  description: "cpp_common package that belongs to THE ROS-COMM"
+  upstream: "https://github.com/ros/roscpp_core"
+  protected_branches:
+  - master
+  type: public
+- name: gencpp
+  description: "gencpp package that belongs to THE ROS-COMM"
+  upstream: "https://github.com/ros/gencpp"
+  protected_branches:
+  - master
+  type: public

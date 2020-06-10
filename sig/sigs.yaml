@@ -3019,6 +3019,11 @@ sigs:
 - name: sig-ROS
   repositories:
   - openeuler/ros
+  - src-openeuler/catkin
+  - src-openeuler/class_loader
+  - src-openeuler/cmake_modules
+  - src-openeuler/cpp_common
+  - src-openeuler/gencpp
 - name: sig-ai-bigdata
   repositories:
   - src-openeuler/jupyter
