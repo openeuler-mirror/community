@@ -14931,12 +14931,12 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: raspberry-kernel
+- name: raspberrypi-kernel
   description: "Kernel of Raspberry Pi"
   protected_branches:
   - master
   type: public
-- name: raspberry-firmware
+- name: raspberrypi-firmware
   description: "Firmware of Raspberry Pi"
   protected_branches:
   - master
@@ -14947,7 +14947,7 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: raspberry-build
+- name: raspberrypi-build
   description: "Scripts of building images for Raspberry Pi"
   protected_branches:
   - master
