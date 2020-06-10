@@ -16,8 +16,8 @@
 # 成员
 
 ### Maintainers列表
-- 马俊杰[@imjoey](https://gitee.com/imjoey)
-- 付惠惠[@huihui0311](https://gitee.com/huihui0311)
+- 侯健[@hjimmy](https://gitee.com/hjimmy)
+- 王冕[@wm-wm-wm](https://gitee.com/wm-wm-wm)
 
 ### Committers列表
 - 王迪[@crrs666](https://gitee.com/crrs666)
