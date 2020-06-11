@@ -14980,41 +14980,49 @@ repositories:
     type: public
 - name: platform_hardware_libhardware_legacy
   description: "The legacy hardware abstraction layer mainly contains audio, QEMU, WiFi module, etc"
+  upstream: "https://github.com/anbox/platform_hardware_libhardware_legacy"
   protected_branches:
   - master
   type: public
 - name: platform_hardware_ril
   description: "Radio hardware abstraction layer"
+  upsteam: "https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/hardware/ril"
   protected_branches:
   - master
   type: public
 - name: platform_frameworks_base
   description: "the basic content of Android core framework, which provides  interfaces for application program calls. It contains cmds,API,graphics,keystore,services,etc.The main language is Java / C + +"
+  upstream: "https://github.com/anbox/platform_frameworks_base"
   protected_branches:
   - master
   type: public
 - name: platform_frameworks_native
   description: "The android system runtime use the C/C++ program library,which mainly location this repository"
+  upsteam: "https://github.com/anbox/platform_frameworks_native"
   protected_branches:
   - master
   type: public
 - name: platform_frameworks_opt_net_wifi
   description: "WiFi  module related framework layer code;"
+  upstream: "https://github.com/anbox/platform_frameworks_opt_net_wifi"
   protected_branches:
   - master
   type: public
 - name: platform_system_core
   description: "It involves the underlying file system library, application and components. The main coding language is C. The core repository is the core tool interface of the system"
+  upstream : "https://github.com/anbox/platform_system_core"
   protected_branches:
   - master
   type: public
 - name: platform_packages_apps_DeskClock
   description: "DeskClock application source codes"
+  upsteam : "https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/packages/apps/DeskClock"
   protected_branches:
   - master
   type: public
 - name: platform_build
   description: "store system compilation Rules and basic development packages such as generic"
+  upstream: "https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/build"
   protected_branches:
   - master
   type: public
