@@ -14986,7 +14986,7 @@ repositories:
   type: public
 - name: platform_hardware_ril
   description: "Radio hardware abstraction layer"
-  upsteam: "https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/hardware/ril"
+  upstream: "https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/hardware/ril"
   protected_branches:
   - master
   type: public
@@ -14998,7 +14998,7 @@ repositories:
   type: public
 - name: platform_frameworks_native
   description: "The android system runtime use the C/C++ program library,which mainly location this repository"
-  upsteam: "https://github.com/anbox/platform_frameworks_native"
+  upstream: "https://github.com/anbox/platform_frameworks_native"
   protected_branches:
   - master
   type: public
@@ -15010,13 +15010,13 @@ repositories:
   type: public
 - name: platform_system_core
   description: "It involves the underlying file system library, application and components. The main coding language is C. The core repository is the core tool interface of the system"
-  upstream : "https://github.com/anbox/platform_system_core"
+  upstream: "https://github.com/anbox/platform_system_core"
   protected_branches:
   - master
   type: public
 - name: platform_packages_apps_DeskClock
   description: "DeskClock application source codes"
-  upsteam : "https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/packages/apps/DeskClock"
+  upstream: "https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/packages/apps/DeskClock"
   protected_branches:
   - master
   type: public
