@@ -60,11 +60,11 @@ RISC-V 是一个免费开源的指令集（ISA）。RISC-V SIG 组旨在提供 o
 - 当前项目RISC-V 所包含的软件包 总数：896
   
   尽管大部分软件包已经支持RISC-V架构或者与底层架构无关从而能够运行在RISC-V架构上，但是仍有一些软件包的社区主线版本并不明确支持RISC-V，例如 valgrind，docker 等。
-  这里我们的所做的修改是：
+  这里我们的策略是：
 
   - 对于社区版本能够支持RISC-V的软件包，我们会配合openEuler的版本策略，在gitee 的[src-openEuler](https://gitee.com/src-openeuler)仓升级、合入补丁以支持RISC-V；
-  - 对于那些社区主线仍然未支持RISC-V架构的软件包，我们会对在RISC-V的支持上做出尝试，**也欢迎感兴趣的你加入进来，我们一起努力**；
-  - 部分软件包需要对spec文件进行修改以适配RISC-V架构的rpm包构建。
+  - 部分软件包需要对spec文件进行修改以适配RISC-V架构的rpm包构建；
+  - 对于那些社区主线仍然未支持RISC-V架构的软件包，我们会根据需求选择一些软件包，对RISC-V的支持上做出尝试，**也欢迎感兴趣的你加入进来，我们一起努力**；对于未提及的软件包，尚无明确的支持计划。
 
 - 涉及到修改的软件包 总数：19
 
@@ -98,7 +98,7 @@ RISC-V 是一个免费开源的指令集（ISA）。RISC-V SIG 组旨在提供 o
   | pcre2         | PR待合入                   | disable jit                                                                                                                                            | https://gitee.com/src-openeuler/pcre2/pulls/5                                                     |
   | libsecret     | PR待合入                   | valgrind                                                                                                                                               | https://gitee.com/src-openeuler/libsecret/pulls/1                                                 |
   | star          | PR待合入                   | %prep阶段增加riscv配置                                                                                                                                 | https://gitee.com/src-openeuler/star/pulls/3                                                      |
-  |   python2       | PR待合入                   | valgrind                                                                                                                                               | https://gitee.com/src-openeuler/python2/pulls/16                                                  |
+  | python2     | PR待合入                   | valgrind                                                                                                                                               | https://gitee.com/src-openeuler/python2/pulls/16                                                  |
   | diffutils     | PR待合入                   | valgrind                                                                                                                                               | https://gitee.com/src-openeuler/diffutils/pulls/3                                                 |
   | libffi        | PR待合入                   | disable-multi-os-directory                                                                                                                             | https://gitee.com/src-openeuler/libffi/pulls/12                                                   |
   | libtasn1      | 已合入                     | valgrind                                                                                                                                               | https://gitee.com/src-openeuler/libtasn1/pulls/3                                                  |
