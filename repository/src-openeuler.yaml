@@ -3267,6 +3267,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: hyperscan
+  description: "The repo for High-performance regular expression matching library."
+  upstream: "https://github.com/intel/hyperscan"
+  protected_branches:
+  - master
+  type: public
 - name: hyphen
   description: ""
   protected_branches:
