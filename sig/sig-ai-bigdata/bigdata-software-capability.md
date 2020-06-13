@@ -5,7 +5,7 @@
 | 计算 | mapreduce  | java  | Hubble\_Zhu  | 2.10.0  | 2.10.0  |         |         |         |         |         |         |         |         |           |         |     |     |
 | 计算 | flink      | java  | Hubble\_Zhu  | 1.10.0  | 5/29    |         |         |         |         |         |         |         |         |           |         |     |     |
 | 存储 | hive       | java  | Hubble\_Zhu  | 3.1.2   | 5/29    |         |         |         |         |         |         |         |         |           |         |     |     |
-| 存储 | hbase      | java  |              | 2.2.5   | 5/29    |         |         | master  | master       |         |         |         |         |           |         |     |     |
+| 存储 | hbase      | java  |              | 2.2.5   | 5/29    | master  | master  |         |         |         |         |         |         |           |         |     |     |
 |      | clickhouse | c\+\+ |              |         |         |         |         |         |         |         |         |         |         |           |         |     |     |
 | 存储 | hdfs       | java  | Hubble\_Zhu  | 2.10.0  | 2.10.0  |         |         |         |         |         |         |         |         |           |         |     |     |
 |      | yarn       | java  | Hubble\_Zhu  | 2.10.0  | 2.10.0  |         |         |         |         |         |         |         |         |           |         |     |     |
