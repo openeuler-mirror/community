@@ -9,9 +9,7 @@
 
 ### Maintainer列表
 
-- shiguangliang[@shiguangliang01](#https://gitee.com/shiguangliang01)
 - zhaozhijian[@zhaozhijian01](#https://gitee.com/zhaozhijian01)
-
 
 ### Committer列表
 
