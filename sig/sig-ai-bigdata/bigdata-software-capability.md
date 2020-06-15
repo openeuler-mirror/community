@@ -2,13 +2,13 @@
 |------|------------|-------|--------------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|-----------|---------|-----|-----|
 |      |            |       |              | x86\_64 | aarch64 | x86\_64 | aarch64 | x86\_64 | aarch64 | x86\_64 | aarch64 | x86\_64 | aarch64 | x86\_64   | aarch64 |     |     |
 | 计算 | spark      | scala | Hubble\_Zhu  | 2.4.5   | 2.4.5   | 3.0.0rc2 | 3.0.0rc2/master   |        |         |         |         |         |           |         |     |     |    |
-| 计算 | mapreduce  | java  | Hubble\_Zhu  | 2.10.0  | 2.10.0  |         |         |         |         |         |         |         |         |           |         |     |     |
-| 计算 | flink      | java  | Hubble\_Zhu  | 1.10.0  | 5/29    |         |         |         |         |         |         |         |         |           |         |     |     |
-| 存储 | hive       | java  | Hubble\_Zhu  | 3.1.2   | 5/29    |         |         |         |         |         |         |         |         |           |         |     |     |
-| 存储 | hbase      | java  |              | 2.2.5   | 5/29    | master  | master  |         |         |         |         |         |         |           |         |     |     |
+| 计算 | mapreduce  | java  | Hubble\_Zhu  | 2.10.0  | 2.10.0  |         | master  |         |         |         |         |         |         |           |         |     |     |
+| 计算 | flink      | java  | Hubble\_Zhu  | 1.10.0  | 5/29    |         | master  |         |         |         |         |         |         |           |         |     |     |
+| 存储 | hive       | java  | Hubble\_Zhu  | 3.1.2   | 5/29    |         | master  |         |         |         |         |         |         |           |         |     |     |
+| 存储 | hbase      | java  |              | 2.2.5   | 5/29    |         | master  |         |         |         |         |         |         |           |         |     |     |
 |      | clickhouse | c\+\+ |              |         |         |         |         |         |         |         |         |         |         |           |         |     |     |
-| 存储 | hdfs       | java  | Hubble\_Zhu  | 2.10.0  | 2.10.0  |         |         |         |         |         |         |         |         |           |         |     |     |
-|      | yarn       | java  | Hubble\_Zhu  | 2.10.0  | 2.10.0  |         |         |         |         |         |         |         |         |           |         |     |     |
+| 存储 | hdfs       | java  | Hubble\_Zhu  | 2.10.0  | 2.10.0  |         | master  |         |         |         |         |         |         |           |         |     |     |
+|      | yarn       | java  | Hubble\_Zhu  | 2.10.0  | 2.10.0  |         | master  |         |         |         |         |         |         |           |         |     |     |
 |      | mesos      |       |              |         |         |         |         |         |         |         |         |         |         |           |         |     |     |
 |      | zookeeper  | java  |              |         |         |         |         |         |         |         |         |         |         |           |         |     |     |
 | 存储 | kafka      | java  |              |         |         |         |         |         |         |         |         |         |         |           |         |     |     |
