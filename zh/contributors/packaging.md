@@ -415,8 +415,8 @@ install -m 755 helloworld.sh %{buildroot}/usr/bin/helloworld.sh
 
 ```
 $ rpmdev-setuptree
-$ rpmlint bello.spec                //检查spec语法问题
-$ rpmbuild -ba hello-world.spec
+$ rpmlint helloworld.spec                //检查spec语法问题
+$ rpmbuild -ba helloworld.spec
 ```
 
 下面是RPM打包工作区的目录布局:
