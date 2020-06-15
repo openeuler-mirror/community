@@ -44,3 +44,11 @@ repository地址：
 
 - https://gitee.com/openeuler/android-emulator
 - https://gitee.com/openeuler/anbox
+- https://gitee.com/src-openeuler/platform_hardware_libhardware_legacy
+- https://gitee.com/src-openeuler/platform_hardware_ril
+- https://gitee.com/src-openeuler/platform_frameworks_base
+- https://gitee.com/src-openeuler/platform_frameworks_native
+- https://gitee.com/src-openeuler/platform_frameworks_opt_net_wifi
+- https://gitee.com/src-openeuler/platform_system_core
+- https://gitee.com/src-openeuler/platform_packages_apps_DeskClock
+- https://gitee.com/src-openeuler/platform_build

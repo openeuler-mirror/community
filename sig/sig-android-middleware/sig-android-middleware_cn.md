@@ -19,6 +19,14 @@ android-middleware SIG 致力于围绕以android为核心的ARM原生生态，�
   - 交付件形式：源码和tar包
   - repository1名称：https://gitee.com/openeuler/android-emulator
   - repository2名称：https://gitee.com/openeuler/anbox
+  - repository3名称：https://gitee.com/src-openeuler/platform_hardware_libhardware_legacy
+  - repository4名称：https://gitee.com/src-openeuler/platform_hardware_ril
+  - repository5名称：https://gitee.com/src-openeuler/platform_frameworks_base
+  - repository6名称：https://gitee.com/src-openeuler/platform_frameworks_native
+  - repository7名称：https://gitee.com/src-openeuler/platform_frameworks_opt_net_wifi
+  - repository8名称：https://gitee.com/src-openeuler/platform_system_core
+  - repository9名称：https://gitee.com/src-openeuler/platform_packages_apps_DeskClock
+  - repository10名称：https://gitee.com/src-openeuler/platform_build
 
 
 
