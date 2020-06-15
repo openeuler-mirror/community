@@ -1,7 +1,5 @@
 # openEuler 软件包管理策略原则
 
-[TOC]
-
 ## 关于本文档
 
 ### 目标
@@ -12,37 +10,39 @@
 
 - 鼓励所有人使用openEuler，并可以在openEuler上开发软件
 
-- 使能任何人，在不违反license，进出口管制或其他相关法律的前提下，可以容易的制作安装介质
+- 帮助任何人，在不违反license，进出口管制或其他相关法律的前提下，可以容易的制作安装介质
 
 openEuler遵从 [Open Source Definition](https://opensource.org/docs/osd) ，满足这一定义的软件，被openEuler社区认同为开源软件。
 
-提供适度，高质量的开源软件是openEuler主要目标之一。openEuler努力为其所提供的开源软件在生命周期内提供高质量的支持服务。开源软件自由众多，质量不一。本着提供高质量开源软件的宗旨，特别拟定本规则指南。本规则的中**必须**，**必须不能**，**应该**，**应该不能**的含义参考RFC2119。
+提供适度，高质量的开源软件是openEuler主要目标之一。openEuler努力为其所提供的开源软件在生命周期内提供高质量的支持服务。开源软件众多，质量不一。本着提供高质量开源软件的宗旨，特别拟定本规则指南。本规则的中**必须**，**必须不能**，**应该**，**应该不能**的含义参考[RFC2119](https://tools.ietf.org/html/rfc2119)。
 
 ### 范围
 
- 本文档定义了openEuler软件包所需要遵从的策略要求。所以提交到openEuler的软件包需要满足本手册中定义的技术要求。
+ 本文档定义了openEuler软件包所需要遵从的策略要求。所有提交到openEuler的软件包需要满足本手册中定义的技术要求。
 
 ### 本文的改进和修订说明
 
-- 本文档由openEuler技术委员会 （Technical Committee）主导起草和维护。本文档的最新版本总可以在 [这里](https://gitee.com/openeuler/community/tree/master/zh/technical-committee/governance/software-management.md) 找到。
--  任何对于本文中涉及的规则的增加，修改，删除都**必须**被追踪，[请进入该追踪系统](https://gitee.com/openeuler/community/issues) 。**
-- 最终规则的经过充分的讨论后，由技术委员会定稿。
+- 本文档由[openEuler技术委员会](https://gitee.com/openeuler/community/tree/44b249f8e14fafe56420d525b87eaef37f98ca86/zh/technical-committee)（Technical Committee）主导起草和维护。本文档的最新版本总可以在 [这里](https://gitee.com/openeuler/community/tree/master/zh/technical-committee/governance/software-management.md) 找到。
+- 任何对于本文中涉及的规则的增加，修改，删除都**必须**被追踪，[请进入该追踪系统](https://gitee.com/openeuler/community/issues) 。
+- 最终规则经过社区充分的讨论后，由技术委员会定稿。
 
 ## 软件包管理
 
 openEuler的软件包管理分为两个阶段：**进入软件池**、**随版本发布**
+- **进入软件池**: 是指首次通过提交加包PR经TC评审通过后，在src-openeuler group下建仓，并可以基于openEuler主干分支进行每日构建的动作。[参见：申请引入新软件包]()。
+- **随版本发布**：是指openEuler发布版本时，所维护的软件包列表，存在这个列表中的软件会随着版本发布到官方release repo或ISO发布件中。[参见:申请随版本发布指导]()。
 
-软件包首次引入到openEuler，进过一定的测试和评估，最终随openEuler版本发布，遵循的原则大体相同，不同的是随openEuler版本发布的软件是经过充分测试、没有合法合规问题和严重的缺陷。
+软件包引入openEuler，会经过一定的测试和评估，最终随openEuler版本发布。这两个阶段遵循的原则大体相同，不同的是随openEuler版本发布的软件是经过充分测试、没有合法合规问题和严重的缺陷。
 
-|          | 进入软件池           | 随版本发布                           |
-| -------- | -------------------- | ------------------------------------ |
-| 发布方式 | **daily build** repo | **release** repo                     |
-| 对应分支 | master               | release 分支 (如openEuler-20.03-LTS) |
-| 质量标准 | 绝大数功能可用       | 解决CVE、重大bug，经过充分测试       |
+|          | 进入软件池               | 随版本发布                           |
+| -------- | -------------------------| ------------------------------------ |
+| 发布方式 | [**daily build** repo]() | [**release** repo 或 ISO发布件]()    |
+| 对应分支 | master                   | release 分支 (如openEuler-20.03-LTS) |
+| 质量标准 | 绝大多数功能可用         | 解决CVE、重大bug，经过充分测试       |
 
 ### 分支管理
 
-维护一个主干版本进行日常开发，在进入开发冻结期后（或发布版本后），拉出对应版本分支。
+维持一个master主干版本进行日常开发，在进入开发冻结期后（或发布版本后），拉出对应版本分支进行后期的维护。具体请见[release SIG](https://gitee.com/openeuler/community/tree/master/zh/Release-Management)发布的规范。
 
 当前（2020年4月）已经存在**master**和**openEuler-20.03-LTS**两个主要分支，后续软件的维护存在多分支，多版本的情况。
 
@@ -56,9 +56,7 @@ openEuler的软件包管理分为两个阶段：**进入软件池**、**随版�
 
 整个引入的过程都**必须**可被追踪。目前 [https://gitee.com/openeuler/community/issues](https://gitee.com/openeuler/community/issues) 是这个过程的追踪系统。
 
-**注意**：升级一个官方库中已存在的软件包不是软件选型，所以不在本规则的覆盖范围内。 
-
-Technical Committee通过对引入申请(Pull Request)的评审，管理软件引入。
+Technical Committee通过对[引入申请(Pull Request)](https://gitee.com/openeuler/community/blob/44b249f8e14fafe56420d525b87eaef37f98ca86/zh/technical-committee/governance/README.md)的评审，管理软件引入。
 
 ### openEuler软件包引入原则
 
@@ -74,27 +72,25 @@ Technical Committee通过对引入申请(Pull Request)的评审，管理软件�
 
 ### 黑名单机制
 
-Technical Committ讨论后，可以将被拒绝引入的软件被记录到一个软件黑名单，作为证据减少重复劳动。
-
-https://gitee.com/openeuler/community/tree/master/zh/technical-committee/governance/blacklist-software.yaml
+Technical Committ讨论后，可以将被拒绝引入的软件被记录到一个[软件黑名单](https://gitee.com/openeuler/community/tree/master/zh/technical-committee/governance/blacklist-software.yaml)，作为证据减少重复劳动。
 
 ### 必要的软件引入评估
 
 | 维度     | 评估项                                   | 禁止引入/配套标准                                            | 优选引入/配套标准 | 退出配套                                                     |
 | -------- | ---------------------------------------- | :----------------------------------------------------------- | :---------------- | :----------------------------------------------------------- |
-| 合法合规 | 1、获取来源可靠<br />2、许可证、知识产权 | 	无明确来源（软件版本、补丁、漏洞）<br/>	无许可证、许可证要求无法履行、有知识产权问题 |                   | 	官方不再维护、或社区已经撤离的，考虑在openEuler继续维护，不具备自维护能力的逐步退出<br/>	许可证、知识产权发生转移且存在合法合规风险，需逐步退出 |
+| 合法合规 | 1、获取来源可靠<br />2、许可证、知识产权符合社区要求| 	无明确来源（软件版本、补丁、漏洞）<br/>	无许可证、许可证要求无法履行、有知识产权问题 |                   | 	官方不再维护、或社区已经撤离的，考虑在openEuler继续维护，不具备自维护能力的逐步退出<br/>	许可证、知识产权发生转移且存在合法合规风险，需逐步退出 |
 
 ### 软件选型及引入前检查
 
 | 检查点                   | 说明                                                         |
 | ------------------------ | ------------------------------------------------------------ |
-| 归一化                   | 原则上一款软件只在src-openeuler中引入一次。                  |
+| 归一化                   | 1、原则上一款软件只在src-openeuler中引入一次。                  |
 | 来源可靠                 | 1、不能使用来源不明的，不能随意从网上拷贝一份代码使用， <br /> |
 | 规范化软件名称           | 1、 软件名称必须和官网/社区保持一致，不可随意命名，<br />2、 不允许以软件包中的子模块作为软件名，<br />3、 当软件是某个语言的开发库时，我们允许追加python-、perl-等前缀予以规范化管理。 |
 | 版本年龄（官方发布时间） | 1、衰退期、EOS、EOM或者社区停运等不能引入    <br />2、超过5年的大概率会禁选 |
 | 官网必填                 | 1、软件官方网址填写规范，使用软件供应商提供的网址，或者无单独正式官网的情况下，提供主流代码托管商上面对应的项目网址如github<br />2、不能使用maven、mvnrepository、springsource等托管库作为官方网址 |
 | 软件包信息提供           | 1、必须提供官方提供的源代码包的下载地址，以达到可溯源<br />2、如果有需要二进制包，需要提供官方的二进制包下载地址 |
-| license检查              | 1、待引入软件是否有license     对待引入软件的具有不友好的license需要特别关注：LGPL2.0，LGPL3.0，GPL2.0，GPL3.0，AGPL3.0等<br />2、入库时填写的license是否和官网保持一致，是否和软件包中license保持一致     待上载的源码包中是否包含license信息     高风险license的三方件需要提供源码和编译方法 |
+| license检查              | 1、待引入软件是否有license<br />2、入库时填写的license是否和官网保持一致；是否和软件包中license保持一致;高风险license的三方件需要提供源码和编译方法 |
 | copyright检查            | 1、通过官网、社区、代码托管网站、源码包、发布件中等地方获取并提供copyright信息 |
 
 ## 软件退出与退出原则
@@ -103,16 +99,102 @@ https://gitee.com/openeuler/community/tree/master/zh/technical-committee/governa
 
  一个软件的退出指的是一个软件(项目)申请从src-openeuler项目中删除，依照本文件描述的规则讨论，进而满足规则要求，最终在src-openeuler中移除相应repo的过程。
 
-整个引入的过程都**必须**可被追踪。目前 [https://gitee.com/openeuler/community/issues](https://gitee.com/openeuler/community/issues) 是这个过程的追踪系统。
+整个引入的过程都**必须**可被追踪。[https://gitee.com/openeuler/community/issues](https://gitee.com/openeuler/community/issues) 是这个过程的追踪系统。
 
-Technical Committee通过对引入申请(Pull Request)的评审，管理软件退出。
+Technical Committee通过提交PR(Pull Request)来评审，管理软件退出。
 
 ### openEuler软件包退出原则
 
-当满足以下两个条件是，openEuler软件包的退出申请可以被立即执行，对应repo将从项目中直接删除。
+当满足以下两个条件时，openEuler软件包的退出申请可以被立即执行，对应repo将从项目中直接删除。
 1. 软件的License变化导致openEuler不能集成该软件
 2. 重大安全问题，要求软件被立即移除。
 
-除了以上两个场景之外，openEuler对软件包的退出实行过程化管理。当一个软件申请从src-openeuler中删除时，这个软件首先被托管给sig-Recycle，不再由之前的SIG管理。sig-Recycle表示这个软件进入有限维护模式，这个sig不响应issue和安全漏洞警告。但是相应的软件构建还是正常执行，用户在理解风险的前提下，依然可以安装和使用这个软件。
+除了以上两个场景之外，openEuler对软件包的退出实行过程化管理。当一个软件申请从src-openeuler中删除时，这个软件首先被托管给[sig-Recycle](https://gitee.com/openeuler/community/tree/master/sig/sig-recycle)，不再由之前的SIG管理。sig-Recycle表示这个软件进入有限维护模式，这个sig不响应issue和安全漏洞警告。但是相应的软件构建还是正常执行，用户在理解风险的前提下，依然可以安装和使用这个软件。
 
 Technical Committee例行审视sig-Recycle中的软件，制定每个软件的删除计划，并且在openeuler/community中公示。
+
+## 软件选型原则
+
+### 目的
+
+制定本原则的目的是为了提升openEuler社区开源软件选型评估的质量。
+
+### 软件选型的时机
+
+**软件引入选型**
+
+为了确保开源及第三方软件的质量，从社区引入某开源软件/版本，或者从第三方供应商处引入某第三方软件/版本，需要进行选型评估活动。
+
+**软件升级选型**
+
+在版本迭代和问题解决过程中，需要通过升级来引入新特性或解决功能、安全问题。在升级过程中，需要进行选型评估活动。
+
+### 软件选型总体策略
+
+openEuler社区版本分为长期支持版本和创新版本。[详见release SIG](https://gitee.com/openeuler/community/tree/master/zh/Release-Management)。
+
+- 长期支持版本（LTS）：**发布间隔周期定为2年，提供4年社区支持(暂定)**。社区首个LTS版本openEuler 20.03已于20年3月正式发布。
+- 社区创新版本（DEV）：每隔6个月openEuler会发布一个社区创新版本，提供6个月社区支持。
+- 版本重新选型时，需由issue发起，相关软件升级的差异分析以统一的格式发布在issue的comments中。
+
+欢迎社区开发者和用户提出宝贵建议，以上规则将根据反馈意见以及社区实施情况不断完善。
+
+#### openEuler 创新版本选型
+
+软件包的Maintainer在选型时需注意：
+
+1. 尽可能集成多的软件组件，软件包**范围不受限制**，需满足最基本的合规问题，当前软件包2000+，后续不断补充；
+2. 选择开源软件**当前稳定分支/维护分支的最新版本**；
+3. 应**实时跟踪开源软件原生社区的动态**，及时根据版本迭代计划跟进软件版本。
+4. 对社区停止维护的软件，按照openEuler软件退出原则操作。
+5. 如果发生软件升级，需做好两个版本间的差异分析。
+
+#### openEuler 长期支持版本选型
+
+**openEuler LTS 版本基线选取openEuler 创新版本最近release 的稳定版本，维护周期4年**
+
+1. LTS版本的软件版本**要兼顾质量与稳定**，优先选择主流OS发行商广泛应用的版本，或社区成熟期LTS版本和稳定版本。
+2. LTS版本的软件升级后原则上**不得影响兼容性列表**，兼容性列表由openEuler TC 看护。
+3. LTS版本的软件在一个版本生命周期内，**尽量不做大版本的变动**，采取特性、补丁回合的方式解决质量问题。
+4. 如果发生软件升级，**需做好两个版本间的差异分析，并需经过版本发布管理SIG的评审**。
+
+### LTS版本软件选型的兼容性保证
+
+根据开源软件的应用场景和重要程度，可分为三个等级，针对不同级别来确定对应开源软件质量策略（选型、维护、测试和社区参与策略）。
+
+1. **系统核心组件** (kernel， glibc， gcc)原则上一个openEuler LTS主版本内不升级，只做有限特性和全量CVE及关键BUG的backport；
+2. **如果是基础软件**（如在/usr/lib 安装.so文件），原则上只升级维护版本 （比如 x.y.z -> x.y.z+1），例如 libxm2 可以从2.9.8->2.9.10，最后一位变化表示bugfix版本。Lib库仅供软件自身使用的按照工具类处理；
+3. **如果是工具\应用类软件**（仅在 /usr/bin、/usr/sbin 下有安装文件），在兼容情况下允许升级小功能迭代最新稳定版本来满足业务诉求，否则仅做小版本升级，例如kpatch可以从0.6.1->0.9.1，中间位变化表示增加了新特性。如果存在不兼容影响使用的问题，则采用backport 方式修复BUG，不做升级。
+
+### LTS版本兼容性列表
+
+LTS版本的软件升级后**不得影响兼容性列表**，兼容性列表由openEuler TC 看护。此兼容性列表根据实际场景或用户反馈增删或修改。下面是举例，详细的表格参见[openEuler LTS版本兼容性列表]()。
+
+|              |                                                              |
+| ------------ | ------------------------------------------------------------ |
+| 一级列表定义 | API和ABI在主版本的生命周期内保持稳定，并且在接下来的一个主版本中也尽量保持稳定。<br />1、主版本从openEuler LTS 20.3开始。<br />2、如果更改导致与现有二进制文件不兼容，则应考虑补丁或特性回合来保持兼容性，而不是粗暴的升级。<br />3、或提供该库的新旧两个版本等消减措施，以消除对上层软件的影响。 |
+| 一级列表范围 | glibc、gcc（libstdc++, libgcc, libgomp, libatomic）、libxml2、zlib、libvirt、elfutils、pam、krb5 |
+| 二级列表定义 | API和ABI在单个主版本的生存期内保持稳定，依赖的应用程序在单个主版本生命周期内原则上无需做重大修改。 |
+| 二级列表范围 | Kernel KABI、dbus、openssl、bzip2、curl、xz、systemd、libssh、alsa-lib、libmodulemd、motif、libacl、libattr、nss |
+| 三级列表定义 | API和ABI在单个主版本的生存期内不强制保持稳定，存在依赖关系的应用程序保持联动升级。 |
+| 三级列表范围 | 一级列表与二级列表范围外                                     |
+
+### 软件升级差异分析
+
+软件包升级时，需要对升级前后版本按照下面表格模板做全面的差异分析，以此评估影响。保留所有项，按照实际情况填写差异项，并将表格记录在issue的comments中。**此内容需要Maintiner在审核PR时、测试团队在确认issue时，重点关注**。
+
+| 差异分类    | 差异项                                                | 差异说明 | 影响评估 |
+| ----------- | ----------------------------------------------------- | -------- | -------- |
+| 特性变化    | 新增特性/删除特性/变更特性实现                        |          |          |
+|             |                                                       |          |          |
+| 配置文件    | 新增/变更/删除配置项                                  |          |          |
+|             |                                                       |          |          |
+| ABI差异     | 新增/变更/删除API                                     |          |          |
+|             | 新增/变更/删除结构体                                  |          |          |
+|             |                                                       |          |          |
+| 命令行/功能 | 新增/变更/删除命令                                    |          |          |
+|             | 新增/变更/删除命令选项                                |          |          |
+|             | 新增/变更/删除日志输出                                |          |          |
+|             |                                                       |          |          |
+| SPEC文件    | 新增/变更/删除 编译依赖、安装依赖、依赖的软件版本变更 |          |          |
+|             | 拆分软件包方式变更                                    |          |          |
