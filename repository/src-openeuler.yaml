@@ -18506,6 +18506,24 @@ repositories:
   protected_branches:
   - master
   type: public
+- name:  python-anytree
+  description: "Powerful and Lightweight Python Tree Data Structure"
+  upstream: "https://pypi.org/project/anytree"
+  protected_branches:
+  - master
+  type: public
+- name: python-nose2
+  description: "Next generation of nicer testing for Python"
+  upstream: "https://nose2.readthedocs.org"
+  protected_branches:
+  - master
+  type: public
+- name: python-parameterized
+  description: "Parameterized testing with any Python test framework"
+  upstream: "https://pypi.python.org/pypi/parameterized"
+  protected_branches:
+  - master
+  type: public
 - name: python2
   description: ''
   protected_branches:
