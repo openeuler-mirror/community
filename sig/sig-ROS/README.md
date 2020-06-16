@@ -39,3 +39,8 @@
 repository地址：
 
 - https://gitee.com/openeuler/ros
+- https://gitee.com/src-openeuler/catkin
+- https://gitee.com/src-openeuler/class_loader
+- https://gitee.com/src-openeuler/cmake_modules
+- https://gitee.com/src-openeuler/cpp_common
+- https://gitee.com/src-openeuler/gencpp

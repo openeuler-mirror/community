@@ -111,8 +111,8 @@ The repositories related to oVirt are listed below, see https://resources.ovirt.
     https://gitee.com/openeuler/community/tree/master/sig/sig-oVirt/
 
 ### Maintainers
-- imjoey
-- huihui0311
+- hjimmy
+- wm-wm-wm
 
 ### Committers
 - crrs666
@@ -124,4 +124,4 @@ The repositories related to oVirt are listed below, see https://resources.ovirt.
 - #openeuler-dev
 
 ### External Contact
-- imjoey
+- hjimmy
