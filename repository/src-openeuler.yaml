@@ -21154,7 +21154,7 @@ repositories:
   description: ''
   protected_branches:
   - master
-    type: public
+  type: public
 - name: platform_hardware_libhardware_legacy
   description: "The legacy hardware abstraction layer mainly contains audio, QEMU, WiFi module, etc"
   upstream: "https://github.com/anbox/platform_hardware_libhardware_legacy"
