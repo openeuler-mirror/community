@@ -211,6 +211,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: redf
+  description: "Reliable enterprise data fabric for nvme over fabric"
+  protected_branches:
+  - master
+  type: public
 - name: raspberrypi-kernel
   description: "It provides openEuler kernel source for Raspberry Pi"
   protected_branches:

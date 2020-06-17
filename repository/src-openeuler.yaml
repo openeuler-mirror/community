@@ -10666,6 +10666,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: redf
+  description: Reliable enterprise data fabric for nvme over fabric
+  upstream: https://gitee.com/openeuler/redf/
+  protected_branches:
+  - master
+  type: public
 - name: procps-ng
   description: ''
   protected_branches:

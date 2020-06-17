@@ -2777,6 +2777,10 @@ sigs:
 - name: sig-dpdk
   repositories:
   - src-openeuler/dpdk
+- name: sig-REDF
+  repositories:
+  - openeuler/redf
+  - src-openeuler/redf
 - name: Marketing
   repositories:
   - openeuler/marketing
