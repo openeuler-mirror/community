@@ -20,6 +20,34 @@ sigs:
   - openeuler/crystal-ci
 - name: Application
   repositories:
+  - src-openeuler/389-ds-base
+  - src-openeuler/abrt-java-connector
+  - src-openeuler/dcraw
+  - src-openeuler/dleyna-server
+  - src-openeuler/fonts-tweak-tool
+  - src-openeuler/gnome-online-miners
+  - src-openeuler/google-crosextra-carlito-fonts
+  - src-openeuler/grilo-plugins
+  - src-openeuler/hspell
+  - src-openeuler/ibus-table-chinese
+  - src-openeuler/irssi
+  - src-openeuler/java-atk-wrapper
+  - src-openeuler/jss
+  - src-openeuler/libdmapsharing
+  - src-openeuler/libeasyfc
+  - src-openeuler/liblockfile
+  - src-openeuler/libmusicbrainz5
+  - src-openeuler/media-player-info
+  - src-openeuler/mod_intercept_form_submit
+  - src-openeuler/mod_lookup_identity
+  - src-openeuler/openoffice.org-dict-cs_CZ
+  - src-openeuler/openoffice-lv
+  - src-openeuler/perl-B-Lint
+  - src-openeuler/perl-Pod-LaTeX
+  - src-openeuler/pidgin
+  - src-openeuler/rhythmbox
+  - src-openeuler/tex-fonts-hebrew
+  - src-openeuler/usbguard
   - src-openeuler/esc
   - src-openeuler/abrt
   - src-openeuler/mikmod
@@ -1338,6 +1366,7 @@ sigs:
   - src-openeuler/haproxy
 - name: Packaging
   repositories:
+  - src-openeuler/pakchois
   - src-openeuler/copy-jdk-configs
   - src-openeuler/rpmdevtools
   - src-openeuler/nginx
@@ -1350,6 +1379,22 @@ sigs:
   - src-openeuler/firebird
 - name: Base-service
   repositories:
+  - src-openeuler/lasso
+  - src-openeuler/istack-commons
+  - src-openeuler/python-qrcode
+  - src-openeuler/glassfish-fastinfoset
+  - src-openeuler/mod_security_crs
+  - src-openeuler/gupnp-av
+  - src-openeuler/python-cpio
+  - src-openeuler/perl-Pod-Plainer
+  - src-openeuler/perl-Module-Pluggable
+  - src-openeuler/unit-api
+  - src-openeuler/jasper
+  - src-openeuler/python-gssapi
+  - src-openeuler/sgabios
+  - src-openeuler/uom-lib
+  - src-openeuler/uom-systems
+  - src-openeuler/si-units
   - src-openeuler/python-cheetah
   - src-openeuler/sombok
   - src-openeuler/yasm

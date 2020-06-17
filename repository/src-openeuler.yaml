@@ -173,6 +173,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: 389-ds-base
+  description: 'Directory Server (base)'
+  upstream: https://www.port389.org
+  protected_branches:
+  - master
+  type: public
 - name: aalib
   description: ''
   protected_branches:
@@ -192,6 +198,12 @@ repositories:
   type: public
 - name: abrt
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: abrt-java-connector
+  description: 'JNI Agent library reporting a Java exceptions to ABRT'
+  upstream: https://github.com/abrt/abrt-java-connector
   protected_branches:
   - master
   type: public
@@ -1630,6 +1642,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: dcraw
+  description: 'Tool for decoding raw image data from digital cameras'
+  upstream: http://cybercom.net/~dcoffin/dcraw
+  protected_branches:
+  - master
+  type: public
 - name: debian-keyring
   description: ''
   protected_branches:
@@ -1723,6 +1741,12 @@ repositories:
   type: public
 - name: dkms
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: dleyna-server
+  description: 'APIs for discovering Digital Media Servers'
+  upstream: https://01.org/dleyna/
   protected_branches:
   - master
   type: public
@@ -2385,6 +2409,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: fonts-tweak-tool
+  description: "A tool for customizing fonts per language"
+  upstream: https://bitbucket.org/tagoh/fonts-tweak-tool/
+  protected_branches:
+  - master
+  type: public
 - name: fop
   description: ''
   protected_branches:
@@ -2744,6 +2774,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: glassfish-fastinfoset
+  description: A standardized binary encoding for the XML Information Set is specified by Fast Infoset.
+  upstream: https://fi.java.net
+  protected_branches:
+  - master
+  type: public
 - name: glassfish-jsp-api
   description: ''
   protected_branches:
@@ -2943,6 +2979,12 @@ repositories:
   type: public
 - name: gnome-online-accounts
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: gnome-online-miners
+  description: Crawls through your online content
+  upstream: https://wiki.gnome.org/Projects/GnomeOnlineMiners
   protected_branches:
   - master
   type: public
@@ -3172,6 +3214,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: google-crosextra-carlito-fonts
+  description: Sans-serif font with Calibri font from google
+  upstream: https://en.wikipedia.org/wiki/Croscore_fonts
+  protected_branches:
+  - master
+  type: public
 - name: google-droid-fonts
   description: ''
   protected_branches:
@@ -3270,6 +3318,12 @@ repositories:
   type: public
 - name: grilo
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: grilo-plugins
+  description: Plugins for the Grilo framework
+  upstream: https://wiki.gnome.org/Projects/Grilo
   protected_branches:
   - master
   type: public
@@ -3488,6 +3542,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: gupnp-av
+  description: Sans-serif font with Calibri font from google
+  upstream: http://www.gupnp.org/
+  protected_branches:
+  - master
+  type: public
 - name: gupnp-igd
   description: ''
   protected_branches:
@@ -3646,6 +3706,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: hspell
+  description: A checker for Hebrew spell
+  upstream: http://hspell.ivrix.org.il/
+  protected_branches:
+  - master
+  type: public
 - name: htop
   description: an interactive process viewer for Unix systems
   protected_branches:
@@ -3792,6 +3858,12 @@ repositories:
   type: public
 - name: ibus-table-array30
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: ibus-table-chinese
+  description: ibus-table-chinese is provides the infrastructure for Chinese input methods.
+  upstream: https://github.com/definite/ibus-table-chinese
   protected_branches:
   - master
   type: public
@@ -4034,6 +4106,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: irssi
+  description: Irssi is a modular IRC client with Perl scripting
+  upstream: http://irssi.org/
+  protected_branches:
+  - master
+  type: public
 - name: iso-codes
   description: ''
   protected_branches:
@@ -4041,6 +4119,12 @@ repositories:
   type: public
 - name: isomd5sum
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: istack-commons
+  description: Common code can be share between Glassfish projects
+  upstream: http://istack-commons.java.net
   protected_branches:
   - master
   type: public
@@ -4150,6 +4234,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: jasper
+  description: Reference implementation of the codec specified in the JPEG-2000 standard, Part 1
+  upstream: http://www.ece.uvic.ca/~frodo/jasper/
+  protected_branches:
+  - master
+  type: public
 - name: jatl
   description: ''
   protected_branches:
@@ -4160,6 +4250,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: java-atk-wrapper
+  description: Java ATK Wrapper is a implementation of ATK by using JNI technic.
+  upstream: http://git.gnome.org/browse/java-atk-wrapper
+  protected_branches:
+  - master
+  type: public
 - name: java-base64
   description: ''
   protected_branches:
@@ -4470,6 +4566,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: jss
+  description: Java Security Services (JSS)
+  upstream: http://www.dogtagpki.org/wiki/JSS
+  protected_branches:
+  - master
+  type: public
 - name: jtidy
   description: ''
   protected_branches:
@@ -4699,6 +4801,12 @@ repositories:
   type: public
 - name: lapack
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: lasso
+  description: Liberty Alliance Single Sign On
+  upstream: http://lasso.entrouvert.org/
   protected_branches:
   - master
   type: public
@@ -5128,6 +5236,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: libdmapsharing
+  description: Libdmapsharing is a library which allows programs to access, share and control the playback of media content using DMAP.
+  upstream: http://www.flyn.org/projects/libdmapsharing/
+  protected_branches:
+  - master
+  type: public
 - name: libdmx
   description: ''
   protected_branches:
@@ -5165,6 +5279,12 @@ repositories:
   type: public
 - name: libdwarf
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: libeasyfc
+  description: Easy to configure fontconfig generator interface
+  upstream: http://tagoh.bitbucket.org/libeasyfc/
   protected_branches:
   - master
   type: public
@@ -5582,6 +5702,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: liblockfile
+  description: This implements a number of functions found in -lmail on SysV systems
+  upstream: http://packages.qa.debian.org/libl/liblockfile.html
+  protected_branches:
+  - master
+  type: public
 - name: liblognorm
   description: ''
   protected_branches:
@@ -5698,6 +5824,12 @@ repositories:
   type: public
 - name: libmtp
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: libmusicbrainz5
+  description: Library for accessing MusicBrainz servers
+  upstream: http://www.musicbrainz.org/
   protected_branches:
   - master
   type: public
@@ -7235,6 +7367,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: media-player-info
+  description: Media player capabilities are decribed by data files
+  upstream: http://www.freedesktop.org/wiki/Software/media-player-info
+  protected_branches:
+  - master
+  type: public
 - name: memcached
   description: ''
   protected_branches:
@@ -7397,8 +7535,26 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: mod_intercept_form_submit
+  description: Apache module to intercept login form submission and run PAM authentication
+  upstream: http://www.adelton.com/apache/mod_intercept_form_submit/
+  protected_branches:
+  - master
+  type: public
+- name: mod_lookup_identity
+  description: Apache module to retrieve additional information about the authenticated user
+  upstream: http://www.adelton.com/apache/mod_lookup_identity/
+  protected_branches:
+  - master
+  type: public
 - name: mod_security
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: mod_security_crs
+  description: The base rules are provided for mod_security by this package.
+  upstream: https://www.owasp.org/index.php/Category:OWASP_ModSecurity_Core_Rule_Set_Project
   protected_branches:
   - master
   type: public
@@ -8230,6 +8386,18 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: openoffice.org-dict-cs_CZ
+  description: Czech dictionary pack for LibreOffice
+  upstream: http://extensions.services.openoffice.org/en/project/dict-cs
+  protected_branches:
+  - master
+  type: public
+- name: openoffice-lv
+  description: dictionaries for Latvian linguistic
+  upstream: http://dict.dv.lv/
+  protected_branches:
+  - master
+  type: public
 - name: openpgm
   description: An implementation of the PGM reliable multicast protocol.
   protected_branches:
@@ -8623,6 +8791,12 @@ repositories:
   description: A client/server GUI and a SNMP subagent for configuring, managing and
     monitoring the Pacemaker High-Availability cluster resource manager.
   type: public
+- name: pakchois
+  description: The library wraped for PKCS#11
+  upstream: http://www.manyfish.co.uk/pakchois/
+  protected_branches:
+  - master
+  type: public
 - name: paktype-naqsh-fonts
   description: ''
   protected_branches:
@@ -8811,6 +8985,12 @@ repositories:
   type: public
 - name: perl-B-Debug
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: perl-B-Lint
+  description: perl lint
+  upstream: https://metacpan.org/release/B-Lint
   protected_branches:
   - master
   type: public
@@ -9617,6 +9797,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: perl-Module-Pluggable
+  description: Automatically Give your Module the Ability to Have Plugins
+  upstream: https://metacpan.org/release/Module-Pluggable
+  protected_branches:
+  - master
+  type: public
 - name: perl-Module-Runtime
   description: ''
   protected_branches:
@@ -9787,6 +9973,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: perl-Pod-LaTeX
+  description: A module to convert documentation in the POD format into Latex
+  upstream: https://metacpan.org/release/Pod-LaTeX
+  protected_branches:
+  - master
+  type: public
 - name: perl-Pod-Markdown
   description: ''
   protected_branches:
@@ -9799,6 +9991,12 @@ repositories:
   type: public
 - name: perl-Pod-Perldoc
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: perl-Pod-Plainer
+  description: Perl extension for converting modern POD to old-style POD
+  upstream: https://metacpan.org/release/Pod-Plainer
   protected_branches:
   - master
   type: public
@@ -10381,6 +10579,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: pidgin
+  description: A Gtk+ based multiprotocol instant messaging client
+  upstream: http://pidgin.im/
+  protected_branches:
+  - master
+  type: public
 - name: pigz
   description: ''
   protected_branches:
@@ -12567,6 +12771,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-cpio
+  description: This module provides for accessing cpio archives
+  upstream: https://sourceforge.net/projects/python-cpio.berlios/
+  protected_branches:
+  - master
+  type: public
 - name: python-cram
   upstream: https://bitheap.org/cram/
   description: A simple testing framework for command line applications
@@ -13843,6 +14053,12 @@ repositories:
   type: private
 - name: python-greenlet
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: python-gssapi
+  description: Python Bindings for GSSAPI (RFC 2743/2744 and extensions)
+  upstream: https://github.com/pythongssapi/python-gssapi
   protected_branches:
   - master
   type: public
@@ -16693,6 +16909,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-qrcode
+  description: Python QR Code image generator
+  upstream: https://github.com/lincolnloop/python-qrcode
+  protected_branches:
+  - master
+  type: public
 - name: python-qrcodegen
   upstream: https://www.nayuki.io/page/qr-code-generator-library
   description: High quality QR Code generator library for Python 2 and 3
@@ -18937,6 +19159,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: rhythmbox
+  description: Music Management Application
+  upstream: https://wiki.gnome.org/Apps/Rhythmbox
+  protected_branches:
+  - master
+  type: public
 - name: rng-tools
   description: ''
   protected_branches:
@@ -19288,6 +19516,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: sgabios
+  description: Serial Graphics Adapter BIOS
+  upstream: https://github.com/qemu/sgabios
+  protected_branches:
+  - master
+  type: public
 - name: sgml-common
   description: ''
   protected_branches:
@@ -19325,6 +19559,12 @@ repositories:
   type: public
 - name: shim-unsigned-aarch64
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: si-units
+  description: International Standard System of Units (JSR 363)
+  upstream: https://github.com/unitsofmeasurement/si-units
   protected_branches:
   - master
   type: public
@@ -19851,6 +20091,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: tex-fonts-hebrew
+  description: Culmus Hebrew fonts support for LaTeX
+  upstream: http://culmus.sf.net
+  protected_branches:
+  - master
+  type: public
 - name: texi2html
   description: ''
   protected_branches:
@@ -20284,6 +20530,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: unit-api
+  description: JSR 363 - Units of Measurement API
+  upstream: http://unitsofmeasurement.github.io/
+  protected_branches:
+  - master
+  type: public
 - name: units
   description: ''
   protected_branches:
@@ -20307,6 +20559,18 @@ repositories:
   type: public
 - name: unzip
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: uom-lib
+  description: Java Unit of Measurement Libraries (JSR 363)
+  upstream: https://github.com/unitsofmeasurement/uom-lib
+  protected_branches:
+  - master
+  type: public
+- name: uom-systems
+  description: Units of Measurement Systems (JSR 363)
+  upstream: https://github.com/unitsofmeasurement/uom-systems
   protected_branches:
   - master
   type: public
@@ -20337,6 +20601,12 @@ repositories:
   type: public
 - name: usb_modeswitch-data
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: usbguard
+  description: A tool for implementing USB device usage policy
+  upstream: https://usbguard.github.io/
   protected_branches:
   - master
   type: public
