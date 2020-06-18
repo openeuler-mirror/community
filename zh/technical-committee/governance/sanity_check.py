@@ -159,6 +159,7 @@ def check_6(cross_checked_repo, supervisors):
 
     return errors_found
 
+
 def check_7(oe_repos, srcoe_repos):
     """
     All repositories' name must follow the gitee requirements
@@ -191,6 +192,7 @@ It must start with a letter, and its length is 2 to 200 characters"""
         print("PASS WITHOUT ISSUES FOUND.")
 
     return errors_found
+
 
 def load_yaml(d, f):
     """
