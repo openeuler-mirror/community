@@ -11241,12 +11241,6 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: python-Genshi
-  upstream: http://genshi.edgewall.org/
-  description: A toolkit for generation of output for the web
-  protected_branches:
-  - master
-  type: public
 - name: python-GitPython
   upstream: https://github.com/gitpython-developers/GitPython
   description: Python Git Library
@@ -11288,12 +11282,6 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: python-Jinja2
-  upstream: https://palletsprojects.com/p/jinja/
-  description: A very fast and expressive template engine.
-  protected_branches:
-  - master
-  type: public
 - name: python-Kajiki
   upstream: https://github.com/nandoflorestan/kajiki
   description: Fast XML-based template engine with Genshi syntax and Jinja blocks
@@ -11319,12 +11307,6 @@ repositories:
 - name: python-Logbook
   upstream: http://logbook.pocoo.org/
   description: A logging replacement for Python
-  protected_branches:
-  - master
-  type: public
-- name: python-MarkupSafe
-  upstream: https://palletsprojects.com/p/markupsafe/
-  description: Safely add untrusted strings to HTML/XML markup.
   protected_branches:
   - master
   type: public
@@ -11427,12 +11409,6 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: python-Pygments
-  upstream: https://pygments.org/
-  description: Pygments is a syntax highlighting package written in Python.
-  protected_branches:
-  - master
-  type: public
 - name: python-Pympler
   upstream: https://github.com/pympler/pympler
   description: A development tool to measure, monitor and analyze the memory behavior
@@ -11462,12 +11438,6 @@ repositories:
 - name: python-SALib
   upstream: http://salib.github.io/SALib/
   description: Tools for sensitivity analysis. Contains Sobol, Morris, and FAST methods
-  protected_branches:
-  - master
-  type: public
-- name: python-SQLAlchemy
-  upstream: http://www.sqlalchemy.org
-  description: Database Abstraction Library
   protected_branches:
   - master
   type: public
@@ -11522,12 +11492,6 @@ repositories:
 - name: python-Twiggy
   upstream: http://twiggy.wearpants.org
   description: a Pythonic logger
-  protected_branches:
-  - master
-  type: public
-- name: python-Twisted
-  upstream: https://twistedmatrix.com/
-  description: An asynchronous networking framework written in Python
   protected_branches:
   - master
   type: public
