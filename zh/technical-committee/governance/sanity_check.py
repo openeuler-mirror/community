@@ -181,7 +181,7 @@ It must start with a letter, and its length is 2 to 200 characters"""
                 if not new_repo_name.isalnum():
                     print("WARNING! {name} contains invalid character".format(name=repo_name))
                     errors_found += 1
-                elif new_repo_name[0].isdigit():
+                elif repo_name[0].isalpha():
                     print("WARNING! {name} starts with a number".format(name=repo_name))
                     errors_found += 1
 
