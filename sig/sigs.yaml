@@ -3173,6 +3173,9 @@ sigs:
   - src-openeuler/platform_system_core
   - src-openeuler/platform_packages_apps_DeskClock
   - src-openeuler/platform_build
+- name: sig-perl-modules
+  repositories:
+  - src-openeuler/perl-XXX
 - name: sig-python-modules
   repositories:
   - src-openeuler/python-ATpy
