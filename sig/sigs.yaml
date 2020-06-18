@@ -308,7 +308,6 @@ sigs:
   - src-openeuler/python-mimeparse
   - src-openeuler/perl-TimeDate
   - src-openeuler/rhnlib
-  - src-openeuler/gtk-doc
   - src-openeuler/ruby
   - src-openeuler/perl-XML-Simple
   - src-openeuler/perl-XML-LibXML
@@ -2936,8 +2935,6 @@ sigs:
   - src-openeuler/libmatemixer
   - src-openeuler/libmateweather
   - src-openeuler/libwnck
-  - src-openeuler/lightdm
-  - src-openeuler/lightdm-gtk
   - src-openeuler/marco
   - src-openeuler/mate-applets
   - src-openeuler/mate-backgrounds
@@ -4173,6 +4170,9 @@ sigs:
   - src-openeuler/python-zope.i18n
   - src-openeuler/python-zope.i18nmessageid
   - src-openeuler/python-zope.testing
+  - src-openeuler/python-anytree
+  - src-openeuler/python-nose2
+  - src-openeuler/python-parameterized
 - name: sig-release-management
   repositories:
   - openeuler/release-management
@@ -4181,7 +4181,10 @@ sigs:
   - src-openeuler/exo
   - src-openeuler/libxfce4ui
   - src-openeuler/libxfce4util
+  - src-openeuler/lightdm
+  - src-openeuler/lightdm-gtk
   - src-openeuler/xfconf
 - name: GNOME
   repositories:
   - src-openeuler/gnome-control-center
+  - src-openeuler/gtk-doc
