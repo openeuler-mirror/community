@@ -20,7 +20,7 @@ def check_1(sigs, exps):
         if sig["name"] == "Private":
             continue
         for repo in sig["repositories"]:
-            repo_name = repo.replace("src-openeuler/", "").replace("openeuler/", "") 
+            repo_name = repo.replace("src-openeuler/", "").replace("openeuler/", "").lower()
             supervisor = repositories.get(repo_name, set())
             supervisor.add(sig["name"])
             repositories[repo_name] = supervisor
@@ -30,7 +30,7 @@ def check_1(sigs, exps):
         if len(v) != 1:
             if k in exps:
                 continue
-            print("WARNING! " + k + ": Co-managed by these SIGs " + str(v) + "\n")
+            print("WARNING! " + k + ": Co-managed by these SIGs " + str(v))
             errors_found = errors_found + 1
 
     if errors_found == 0:
@@ -51,9 +51,10 @@ def check_2(sigs, exps):
         if sig["name"] == "Private":
             continue
         for repo in sig["repositories"]:
+            repo = repo.lower()
             supervisor = repositories.get(repo, set())
             if sig["name"] in supervisor:
-                print("WARNING! " + repo + " has been managed by " + sig["name"] + " multiple times.\n")
+                print("WARNING! " + repo + " has been managed by " + sig["name"] + " multiple times.")
                 errors_found = errors_found + 1
             else:
                 supervisor.add(sig["name"])
@@ -64,7 +65,7 @@ def check_2(sigs, exps):
         if len(v) != 1:
             if k in exps:
                 continue
-            print(k + ": " + str(v) + "\n")
+            print(k + ": " + str(v) + "")
             errors_found = errors_found + 1
 
     if errors_found == 0:
@@ -82,6 +83,7 @@ def check_3(sigs):
 
     for sig in sigs:
         for repo in sig["repositories"]:
+            repo = repo.lower()
             supervisor = supervisors.get(repo, set())
             supervisor.add(sig["name"])
             supervisors[repo] = supervisor
@@ -112,7 +114,7 @@ def check_4(exps, prefix, oe_repos, supervisors, cross_checked_repo):
     errors_found = 0
 
     for repo in oe_repos:
-        name = prefix + "/" + repo["name"]
+        name = prefix + "/" + repo["name"].lower()
         if name in cross_checked_repo:
             print("WARNING! Repository {name} in {prefix}.yaml has duplication.".format(name=name, prefix=prefix))
             errors_found = errors_found + 1
