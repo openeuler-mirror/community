@@ -66,12 +66,12 @@ https://gitee.com/openeuler/community/tree/master/sig/sig-UKUI/
 ### Maintainers
 - handsome_feng
 - lmq3342xja
-- litianzhi_kylin
+- dou33
 
 ### Committers
 - xianmaxianmai
-- dou33
 - zjay998
+- litianzhi_kylin
   
 ### Committers
 - crrs666

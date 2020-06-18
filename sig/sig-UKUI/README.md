@@ -23,12 +23,12 @@ UKUI 是麒麟软件桌面研发团队开发的基于 Linux 发行版的轻量�
 ### Maintainers列表
 - 李剑峰[@handsome_feng](https://gitee.com/handsome_feng)
 - 吴孝夷[@lmq3342xja](https://gitee.com/lmq3342xia)
-- 李天智[@litianzhi_kylin](https://gitee.com/litianzhi_kylin)
+- 窦龑[@dou33](https://gitee.com/dou33)
 
 
 ### Committers列表
 - 唐广[@xianmaxianmai](https://gitee.com/xianmaxianmai)
-- 窦龑[@dou33](https://gitee.com/dou33)
+- 李天智[@litianzhi_kylin](https://gitee.com/litianzhi_kylin)
 - 张俊[@zjay998](https://gitee.com/zjay998)
 
 
