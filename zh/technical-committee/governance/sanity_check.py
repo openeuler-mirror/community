@@ -159,6 +159,38 @@ def check_6(cross_checked_repo, supervisors):
 
     return errors_found
 
+def check_7(oe_repos, srcoe_repos):
+    """
+    All repositories' name must follow the gitee requirements
+    """
+    print("All repositories' name must follow the gitee requirements")
+
+    errors_found = 0
+    error_msg = """Repo name allos only letters, numbers, or an underscore (_), dash (-), and period (.). 
+It must start with a letter, and its length is 2 to 200 characters"""
+
+    for repos in oe_repos, srcoe_repos:
+        for r in repos:
+            repo_name = r["name"].lower()
+            if len(repo_name) < 2 or len(repo_name) > 200:
+                print("WARNING! {name} too long or too short".format(name=repo_name))
+                errors_found += 1
+            else:
+                new_repo_name = repo_name.replace("_", "").replace("-", "").replace(".", "")
+                if not new_repo_name.isalnum():
+                    print("WARNING! {name} contains invalid character".format(name=repo_name))
+                    errors_found += 1
+                elif new_repo_name[0].isdigit():
+                    print("WARNING! {name} starts with a number".format(name=repo_name))
+                    errors_found += 1
+
+
+    if errors_found != 0:
+        print(error_msg)
+    else:
+        print("PASS WITHOUT ISSUES FOUND.")
+
+    return errors_found
 
 def load_yaml(d, f):
     """
@@ -215,5 +247,8 @@ if __name__ == "__main__":
 
     print("\nCheck 6:")
     issues_found = issues_found + check_6(repo_cross_checked, repo_supervisors)
+
+    print("\nCheck 7:")
+    issues_found = issues_found + check_7(openeuler_repos, srcopeneuler_repos)
 
     sys.exit(issues_found)
