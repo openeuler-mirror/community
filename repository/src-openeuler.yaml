@@ -173,12 +173,6 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: 389-ds-base
-  description: 'Directory Server (base)'
-  upstream: https://www.port389.org
-  protected_branches:
-  - master
-  type: public
 - name: aalib
   description: ''
   protected_branches:
@@ -20094,6 +20088,12 @@ repositories:
 - name: thin-provisioning-tools
   description: A suite of tools for manipulating the metadata of the dm-thin, dm-cache
     and dm-era device-mapper targets.
+  protected_branches:
+  - master
+  type: public
+- name: three-eight-nine-ds-base
+  description: 'Directory Server (base)'
+  upstream: https://www.port389.org
   protected_branches:
   - master
   type: public
