@@ -18988,6 +18988,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: ragel
+  description: Ragel State Machine Compiler
+  upstream: http://www.colm.net/open-source/ragel
+  protected_branches:
+  - master
+  type: public
 - name: ranger
   description: A VIM-inspired filemanager for the console
   upstream: https://github.com/ranger/ranger
