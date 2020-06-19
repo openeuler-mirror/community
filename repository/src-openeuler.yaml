@@ -246,6 +246,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: adwaita-qt
+  description: A native style to bend Qt4 and Qt5 applications
+  upstream: https://github.com/FedoraQt/adwaita-qt
+  protected_branches:
+  - master
+  type: public
 - name: aesh
   description: ''
   protected_branches:
@@ -828,6 +834,12 @@ repositories:
 - name: bcrypt
   description: cross platform file encryption utility
   upstream: http://bcrypt.sourceforge.net/
+  protected_branches:
+  - master
+  type: public
+- name: bea-stax
+  description: Streaming API of XML
+  upstream: https://repo1.maven.org/
   protected_branches:
   - master
   type: public
@@ -1503,6 +1515,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: criu
+  description: A tool of Checkpoint/Restore in User-space
+  upstream: http://criu.org/
+  protected_branches:
+  - master
+  type: public
 - name: cronie
   description: ''
   protected_branches:
@@ -1558,6 +1576,12 @@ repositories:
   type: public
 - name: curl
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: custodia
+  description: A tool for managing secrets other processes
+  upstream: https://github.com/latchset/custodia
   protected_branches:
   - master
   type: public
@@ -1735,6 +1759,18 @@ repositories:
   type: public
 - name: dkms
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: dleyna-core
+  description: A DLNA-certified open source solution for Linux providing APIs
+  upstream: https://01.org/dleyna/
+  protected_branches:
+  - master
+  type: public
+- name: dleyna-connector-dbus
+  description: D-Bus connector for dLeyna services
+  upstream: https://01.org/dleyna/
   protected_branches:
   - master
   type: public
@@ -2190,6 +2226,18 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: fabtests
+  description: libfabric API test suite
+  upstream: https://github.com/ofiwg/fabtests
+  protected_branches:
+  - master
+  type: public
+- name: farstream02
+  description: Audio/Video Communications Framework
+  upstream: http://www.freedesktop.org/wiki/Software/Farstream
+  protected_branches:
+  - master
+  type: public
 - name: fakechroot
   description: ''
   protected_branches:
@@ -2406,6 +2454,18 @@ repositories:
 - name: fonts-tweak-tool
   description: "A tool for customizing fonts per language"
   upstream: https://bitbucket.org/tagoh/fonts-tweak-tool/
+  protected_branches:
+  - master
+  type: public
+- name: foomatic
+  description: A configurable printing filter
+  upstream: http://www.linuxfoundation.org/collaborate/workgroups/openprinting/database/foomatic
+  protected_branches:
+  - master
+  type: public
+- name: foomatic-db
+  description: Database of printers and printer drivers
+  upstream: http://www.openprinting.org
   protected_branches:
   - master
   type: public
@@ -2771,6 +2831,18 @@ repositories:
 - name: glassfish-fastinfoset
   description: A standardized binary encoding for the XML Information Set is specified by Fast Infoset.
   upstream: https://fi.java.net
+  protected_branches:
+  - master
+  type: public
+- name: glassfish-jaxb
+  description: JAXB Reference Implementation
+  upstream:  http://jaxb.java.net/
+  protected_branches:
+  - master
+  type: public
+- name: glassfish-jaxb-api
+  description: Java Architecture of XML Binding
+  upstream: http://jaxb.java.net/
   protected_branches:
   - master
   type: public
@@ -3208,6 +3280,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: gom
+  description: GObject to SQLite object mapper library
+  upstream: https://gitlab.gnome.org/GNOME/gom
+  protected_branches:
+  - master
+  type: public
 - name: google-crosextra-carlito-fonts
   description: Sans-serif font with Calibri font from google
   upstream: https://en.wikipedia.org/wiki/Croscore_fonts
@@ -3538,6 +3616,12 @@ repositories:
   type: public
 - name: gupnp-av
   description: Sans-serif font with Calibri font from google
+  upstream: http://www.gupnp.org/
+  protected_branches:
+  - master
+  type: public
+- name: gupnp-dlna
+  description: A collection of helpers applications for building UPnP AV
   upstream: http://www.gupnp.org/
   protected_branches:
   - master
@@ -4688,6 +4772,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: keycloak-httpd-client-install
+  description: Provides tools to configure Apache HTTPD as Keycloak client
+  upstream: https://github.com/jdennis/keycloak-httpd-client-install
+  protected_branches:
+  - master
+  type: public
 - name: keyrings-filesystem
   description: ''
   protected_branches:
@@ -4826,6 +4916,12 @@ repositories:
   type: public
 - name: lcr
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: ldapjdk
+  description: The package can enable user to manage and update the information stored in an LDAP directory,and to write applications which access.
+  upstream: http://www.dogtagpki.org/
   protected_branches:
   - master
   type: public
@@ -5472,6 +5568,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: libgpod
+  description: Library to access the contents of an iPod
+  upstream: http://www.gtkpod.org/libgpod.html
+  protected_branches:
+  - master
+  type: public
 - name: libgsf
   description: ''
   protected_branches:
@@ -5714,6 +5816,12 @@ repositories:
   type: public
 - name: libmad
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: libmatchbox
+  description: Libraries for the Matchbox Desktop
+  upstream: https://www.yoctoproject.org/software-item/matchbox
   protected_branches:
   - master
   type: public
@@ -6019,6 +6127,12 @@ repositories:
   type: private
 - name: libpwquality
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: libqb
+  description: High performance servers IPC library
+  upstream: https://github.com/ClusterLabs/libqb
   protected_branches:
   - master
   type: public
@@ -7372,6 +7486,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: memkind
+  description: Extensible Heap Manager for User
+  upstream: http://memkind.github.io/memkind
+  protected_branches:
+  - master
+  type: public
 - name: memleax
   description: Memory lead detection tool
   protected_branches:
@@ -7516,6 +7636,18 @@ repositories:
   type: public
 - name: mod_auth_gssapi
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: mod_auth_openidc
+  description: OpenID Connect Relying Party module for Apache 2.x HTTP Server
+  upstream: https://github.com/zmartzone/mod_auth_openidc
+  protected_branches:
+  - master
+  type: public
+- name: mod_authnz_pam
+  description: PAM Basic Authentication provider and check
+  upstream: http://www.adelton.com/apache/mod_authnz_pam/
   protected_branches:
   - master
   type: public
@@ -8852,6 +8984,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: parfait
+  description: A performance monitoring library for java
+  upstream: https://github.com/performancecopilot/parfait
+  protected_branches:
+  - master
+  type: public
 - name: parted
   description: ''
   protected_branches:
@@ -9068,6 +9206,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: perl-Class-ISA
+  description: A class's ISA tree to report the search path
+  upstream: https://metacpan.org/release/Class-ISA
+  protected_branches:
+  - master
+  type: public
 - name: perl-Class-Method-Modifiers
   description: Provides Moose-like method modifiers
   protected_branches:
@@ -9150,6 +9294,12 @@ repositories:
   type: public
 - name: perl-DBD-MySQL
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: perl-DBD-Pg
+  description: DBD::Pg-PostgreSQL database driver for the DBI module
+  upstream: https://metacpan.org/release/DBD-Pg
   protected_branches:
   - master
   type: public
@@ -9355,6 +9505,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: perl-FCGI
+  description: FastCGI Perl bindings
+  upstream:  https://metacpan.org/release/FCGI
+  protected_branches:
+  - master
+  type: public
 - name: perl-Fedora-VSP
   description: ''
   protected_branches:
@@ -9362,6 +9518,12 @@ repositories:
   type: public
 - name: perl-File-BaseDir
   description: Use the Freedesktop.org base directory specification
+  protected_branches:
+  - master
+  type: public
+- name: perl-File-CheckTree
+  description: On a tree to run many file-test checks
+  upstream: https://metacpan.org/release/File-CheckTree
   protected_branches:
   - master
   type: public
@@ -9822,6 +9984,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: perl-Mozilla-LDAP
+  description: Wraps OpenLDAP C SDK as LDAP Perl module
+  upstream: https://www-archive.mozilla.org/directory/faq/perldap-faq
+  protected_branches:
+  - master
+  type: public
 - name: perl-NTLM
   description: ''
   protected_branches:
@@ -10264,6 +10432,12 @@ repositories:
   type: public
 - name: perl-Text-ParseWords
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: perl-Text-Soundex
+  description: Implementation of the soundex algorithm
+  upstream: https://metacpan.org/release/Text-Soundex
   protected_branches:
   - master
   type: public
@@ -10830,6 +11004,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: postgresql-odbc
+  description: Official postgreSQL ODBC driver
+  upstream: https://odbc.postgresql.org/
+  protected_branches:
+  - master
+  type: public
 - name: potrace
   description: ''
   protected_branches:
@@ -14504,6 +14684,12 @@ repositories:
 - name: python-justbytes
   upstream: http://pythonhosted.org/justbytes/
   description: computing with and displaying bytes
+  protected_branches:
+  - master
+  type: public
+- name: python-jwcrypto
+  description: Implements JWK, JWS, JWE specifications with python-cryptography
+  upstream: https://github.com/latchset/jwcrypto
   protected_branches:
   - master
   type: public
@@ -18605,6 +18791,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-yubico
+  description: Python package for talking to YubiKeys
+  upstream: https://github.com/Yubico/python-yubico
+  protected_branches:
+  - master
+  type: public
 - name: python-yubikey-manager
   upstream: https://github.com/Yubico/yubikey-manager
   description: Tool for managing your YubiKey configuration.
@@ -18632,7 +18824,7 @@ repositories:
   type: public
 - name: python-zc.customdoctests
   upstream: http://pypi.python.org/pypi/zc.customdoctests
-  description: zc.customdoctests helps to leverage doctests to support other languages, such as JavaScripts.
+  description: zc.customdoctests helps to leverage doctests to support other languages, such as JavaScripts. 
   protected_branches:
   - master
   type: public
@@ -18731,6 +18923,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python3-docs
+  description: Documentation for the Python3
+  upstream: https://www.python.org/
+  protected_branches:
+  - master
+  type: public
 - name: python3-mallard-ducktype
   description: ''
   protected_branches:
@@ -18744,6 +18942,12 @@ repositories:
   type: public
 - name: pytz
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: pyusb
+  description: Python bindings for libusb
+  upstream:  https://github.com/pyusb/pyusb/
   protected_branches:
   - master
   type: public
@@ -18774,6 +18978,12 @@ repositories:
   type: public
 - name: qhull
   description: Computing convex hulls, Delaunay triangulations and Voronoi diagrams.
+  protected_branches:
+  - master
+  type: public
+- name: qgnomeplatform
+  description: The module provides Qt Theme aimed to accommodate Gnome settings
+  upstream: https://github.com/MartinBriza/QGnomePlatform
   protected_branches:
   - master
   type: public
@@ -19449,6 +19659,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: seahorse
+  description: A GNOME application for managing encryption keys
+  upstream: https://wiki.gnome.org/Apps/Seahorse
+  protected_branches:
+  - master
+  type: public
 - name: security-tool
   description: ''
   protected_branches:
@@ -19799,6 +20015,12 @@ repositories:
   type: public
 - name: startup-notification
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: stax-ex
+  description: This project develops a few extensions to complement JSR-173 StAX API in the following area.
+  upstream: http://stax-ex.java.net/
   protected_branches:
   - master
   type: public
@@ -20228,6 +20450,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: tomcatjss
+  description: Apache Tomcat of JSS Connector
+  upstream: http://www.dogtagpki.org/wiki/TomcatJSS
+  protected_branches:
+  - master
+  type: public
 - name: totem
   description: ''
   protected_branches:
@@ -20562,6 +20790,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: uom-se
+  description: Unit of Measurement implementation for Java SE 8
+  upstream: https://github.com/unitsofmeasurement/uom-se
+  protected_branches:
+  - master
+  type: public
 - name: uom-systems
   description: Units of Measurement Systems (JSR 363)
   upstream: https://github.com/unitsofmeasurement/uom-systems
@@ -20781,6 +21015,12 @@ repositories:
   type: public
 - name: vulkan-loader
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: watchdog
+  description: The kexec/kdump userspace component
+  upstream: http://sourceforge.net/projects/watchdog/
   protected_branches:
   - master
   type: public

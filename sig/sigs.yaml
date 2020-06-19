@@ -549,6 +549,7 @@ sigs:
   - src-openeuler/libieee1284
 - name: Networking
   repositories:
+  - src-openeuler/tomcatjss
   - src-openeuler/initscripts
   - src-openeuler/libmediaart
   - src-openeuler/giflib
@@ -943,6 +944,9 @@ sigs:
   - src-openeuler/kernel
 - name: Others
   repositories:
+  - src-openeuler/glassfish-jaxb-api
+  - src-openeuler/farstream02
+  - src-openeuler/fabtests
   - src-openeuler/perl-Sub-Uplevel
   - src-openeuler/python-pynacl
   - src-openeuler/autotune
@@ -1277,6 +1281,9 @@ sigs:
   - src-openeuler/passenger
 - name: System-tool
   repositories:
+  - src-openeuler/watchdog
+  - src-openeuler/custodia
+  - src-openeuler/criu
   - src-openeuler/liblognorm
   - src-openeuler/mksh
   - src-openeuler/libgphoto2
@@ -1373,6 +1380,10 @@ sigs:
   - src-openeuler/obs_meta
 - name: DB
   repositories:
+  - src-openeuler/gupnp-dlna
+  - src-openeuler/postgresql-odbc
+  - src-openeuler/foomatic
+  - src-openeuler/foomatic-db
   - src-openeuler/postgresql
   - src-openeuler/unixODBC
   - src-openeuler/firebird
@@ -1917,6 +1928,7 @@ sigs:
   - src-openeuler/openjfx11
 - name: Storage
   repositories:
+  - src-openeuler/gom
   - src-openeuler/parted
   - src-openeuler/iprutils
   - src-openeuler/ndctl
@@ -1983,6 +1995,9 @@ sigs:
   - src-openeuler/open-isns
 - name: Desktop
   repositories:
+  - src-openeuler/adwaita-qt
+  - src-openeuler/seahorse
+  - src-openeuler/libmatchbox
   - src-openeuler/qt-settings
   - src-openeuler/nafees-web-naskh-fonts
   - src-openeuler/paratype-pt-sans-fonts
@@ -2047,6 +2062,8 @@ sigs:
   - src-openeuler/libisal
 - name: Computing
   repositories:
+  - src-openeuler/libqb
+  - src-openeuler/memkind
   - src-openeuler/dyninst
   - src-openeuler/libevdev
   - src-openeuler/nspr
@@ -2834,6 +2851,16 @@ sigs:
   - openeuler/security
 - name: dev-utils
   repositories:
+  - src-openeuler/ldapjdk
+  - src-openeuler/uom-se
+  - src-openeuler/parfait
+  - src-openeuler/libgpod
+  - src-openeuler/stax-ex
+  - src-openeuler/pyusb
+  - src-openeuler/dleyna-core
+  - src-openeuler/bea-stax
+  - src-openeuler/dleyna-connector-dbus
+  - src-openeuler/glassfish-jaxb
   - src-openeuler/netperf
   - src-openeuler/cloc
   - src-openeuler/perl-Regexp-Common
@@ -3117,6 +3144,9 @@ sigs:
   - src-openeuler/ceph
 - name: sig-security-facility
   repositories:
+  - src-openeuler/keycloak-httpd-client-install
+  - src-openeuler/mod_auth_openidc
+  - src-openeuler/mod_authnz_pam
   - src-openeuler/digest-list-tools
   - src-openeuler/apparmor
   - src-openeuler/tpm2-tools
@@ -3176,6 +3206,12 @@ sigs:
 - name: sig-perl-modules
   repositories:
   - src-openeuler/perl-XXX
+  - src-openeuler/perl-DBD-Pg
+  - src-openeuler/perl-FCGI
+  - src-openeuler/perl-Class-ISA
+  - src-openeuler/perl-File-CheckTree
+  - src-openeuler/perl-Text-Soundex
+  - src-openeuler/perl-Mozilla-LDAP
 - name: sig-python-modules
   repositories:
   - src-openeuler/python-ATpy
@@ -3262,6 +3298,7 @@ sigs:
   - src-openeuler/python-XlsxWriter
   - src-openeuler/python-Yapsy
   - src-openeuler/python-ZEO
+  - src-openeuler/python3-docs
   - src-openeuler/python-aaargh
   - src-openeuler/python-abclient
   - src-openeuler/python-abimap
@@ -3642,6 +3679,7 @@ sigs:
   - src-openeuler/python-jsonpath-rw
   - src-openeuler/python-jsonpath-rw-ext
   - src-openeuler/python-justbytes
+  - src-openeuler/python-jwcrypto
   - src-openeuler/python-kaitaistruct
   - src-openeuler/python-kaptan
   - src-openeuler/python-kdcproxy
@@ -4162,6 +4200,7 @@ sigs:
   - src-openeuler/python-yaspin
   - src-openeuler/python-yaswfp
   - src-openeuler/python-yattag
+  - src-openeuler/python-yubico
   - src-openeuler/python-yubikey-manager
   - src-openeuler/python-zabbix-api-erigones
   - src-openeuler/python-zanata2fedmsg
@@ -4190,5 +4229,6 @@ sigs:
   - src-openeuler/xfconf
 - name: GNOME
   repositories:
+  - src-openeuler/qgnomeplatform
   - src-openeuler/gnome-control-center
   - src-openeuler/gtk-doc
