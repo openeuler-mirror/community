@@ -10422,6 +10422,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: perl-XXX
+  description: 'See Your Data In Your Nude'
+  upstream: https://metacpan.org/release/XXX 
+  protected_branches:
+  - master
+  type: public
 - name: perl-YAML
   description: ''
   protected_branches:
