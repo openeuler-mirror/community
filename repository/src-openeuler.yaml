@@ -640,11 +640,6 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: authconfig
-  description: ''
-  protected_branches:
-  - master
-  type: public
 - name: authd
   description: ''
   protected_branches:
@@ -1370,11 +1365,6 @@ repositories:
   protected_branches:
   - master
   type: private
-- name: compat-openssl10
-  description: ''
-  protected_branches:
-  - master
-  type: public
 - name: compiler-rt
   description: ''
   protected_branches:
