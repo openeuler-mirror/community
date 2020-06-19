@@ -20,7 +20,7 @@ def check_1(sigs, exps):
         if sig["name"] == "Private":
             continue
         for repo in sig["repositories"]:
-            repo_name = repo.replace("src-openeuler/", "").replace("openeuler/", "") 
+            repo_name = repo.replace("src-openeuler/", "").replace("openeuler/", "").lower()
             supervisor = repositories.get(repo_name, set())
             supervisor.add(sig["name"])
             repositories[repo_name] = supervisor
@@ -30,7 +30,7 @@ def check_1(sigs, exps):
         if len(v) != 1:
             if k in exps:
                 continue
-            print("WARNING! " + k + ": Co-managed by these SIGs " + str(v) + "\n")
+            print("WARNING! " + k + ": Co-managed by these SIGs " + str(v))
             errors_found = errors_found + 1
 
     if errors_found == 0:
@@ -51,9 +51,10 @@ def check_2(sigs, exps):
         if sig["name"] == "Private":
             continue
         for repo in sig["repositories"]:
+            repo = repo.lower()
             supervisor = repositories.get(repo, set())
             if sig["name"] in supervisor:
-                print("WARNING! " + repo + " has been managed by " + sig["name"] + " multiple times.\n")
+                print("WARNING! " + repo + " has been managed by " + sig["name"] + " multiple times.")
                 errors_found = errors_found + 1
             else:
                 supervisor.add(sig["name"])
@@ -64,7 +65,7 @@ def check_2(sigs, exps):
         if len(v) != 1:
             if k in exps:
                 continue
-            print(k + ": " + str(v) + "\n")
+            print(k + ": " + str(v) + "")
             errors_found = errors_found + 1
 
     if errors_found == 0:
@@ -82,6 +83,7 @@ def check_3(sigs):
 
     for sig in sigs:
         for repo in sig["repositories"]:
+            repo = repo.lower()
             supervisor = supervisors.get(repo, set())
             supervisor.add(sig["name"])
             supervisors[repo] = supervisor
@@ -112,7 +114,7 @@ def check_4(exps, prefix, oe_repos, supervisors, cross_checked_repo):
     errors_found = 0
 
     for repo in oe_repos:
-        name = prefix + "/" + repo["name"]
+        name = prefix + "/" + repo["name"].lower()
         if name in cross_checked_repo:
             print("WARNING! Repository {name} in {prefix}.yaml has duplication.".format(name=name, prefix=prefix))
             errors_found = errors_found + 1
@@ -153,6 +155,40 @@ def check_6(cross_checked_repo, supervisors):
                 errors_found = errors_found + 1
 
     if errors_found == 0:
+        print("PASS WITHOUT ISSUES FOUND.")
+
+    return errors_found
+
+
+def check_7(oe_repos, srcoe_repos):
+    """
+    All repositories' name must follow the gitee requirements
+    """
+    print("All repositories' name must follow the gitee requirements")
+
+    errors_found = 0
+    error_msg = """Repo name allos only letters, numbers, or an underscore (_), dash (-), and period (.). 
+It must start with a letter, and its length is 2 to 200 characters"""
+
+    for repos in oe_repos, srcoe_repos:
+        for r in repos:
+            repo_name = r["name"].lower()
+            if len(repo_name) < 2 or len(repo_name) > 200:
+                print("WARNING! {name} too long or too short".format(name=repo_name))
+                errors_found += 1
+            else:
+                new_repo_name = repo_name.replace("_", "").replace("-", "").replace(".", "")
+                if not new_repo_name.isalnum():
+                    print("WARNING! {name} contains invalid character".format(name=repo_name))
+                    errors_found += 1
+                elif not repo_name[0].isalpha():
+                    print("WARNING! {name} must start with a letter".format(name=repo_name))
+                    errors_found += 1
+
+
+    if errors_found != 0:
+        print(error_msg)
+    else:
         print("PASS WITHOUT ISSUES FOUND.")
 
     return errors_found
@@ -213,5 +249,8 @@ if __name__ == "__main__":
 
     print("\nCheck 6:")
     issues_found = issues_found + check_6(repo_cross_checked, repo_supervisors)
+
+    print("\nCheck 7:")
+    issues_found = issues_found + check_7(openeuler_repos, srcopeneuler_repos)
 
     sys.exit(issues_found)
