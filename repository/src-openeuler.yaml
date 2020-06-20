@@ -7835,6 +7835,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: mysql5
+  description: mysql version 5.x
+  upstream: https://www.mysql.com/cn/
+  protected_branches:
+  - master
+  type: public
 - name: nafees-web-naskh-fonts
   description: ''
   protected_branches:
