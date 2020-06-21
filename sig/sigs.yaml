@@ -20,6 +20,9 @@ sigs:
   - openeuler/crystal-ci
 - name: Application
   repositories:
+  - src-openeuler/dlm
+  - src-openeuler/gstreamer1-plugins-ugly-free
+  - src-openeuler/slapi-nis
   - src-openeuler/three-eight-nine-ds-base
   - src-openeuler/abrt-java-connector
   - src-openeuler/dcraw
@@ -1388,6 +1391,8 @@ sigs:
   - src-openeuler/firebird
 - name: Base-service
   repositories:
+  - src-openeuler/tmpwatch
+  - src-openeuler/oscap-anaconda-addon
   - src-openeuler/lasso
   - src-openeuler/istack-commons
   - src-openeuler/python-qrcode
@@ -3143,6 +3148,7 @@ sigs:
   - src-openeuler/ceph
 - name: sig-security-facility
   repositories:
+  - src-openeuler/certmonger
   - src-openeuler/keycloak-httpd-client-install
   - src-openeuler/mod_auth_openidc
   - src-openeuler/mod_authnz_pam
