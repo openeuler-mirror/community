@@ -52,3 +52,4 @@ repository地址：
 - https://gitee.com/src-openeuler/platform_system_core
 - https://gitee.com/src-openeuler/platform_packages_apps_DeskClock
 - https://gitee.com/src-openeuler/platform_build
+- https://gitee.com/src-openeuler/platform_manifests
