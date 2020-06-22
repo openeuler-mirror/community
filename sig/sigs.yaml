@@ -1392,7 +1392,6 @@ sigs:
 - name: Base-service
   repositories:
   - src-openeuler/tmpwatch
-  - src-openeuler/oscap-anaconda-addon
   - src-openeuler/lasso
   - src-openeuler/istack-commons
   - src-openeuler/python-qrcode
@@ -3148,6 +3147,7 @@ sigs:
   - src-openeuler/ceph
 - name: sig-security-facility
   repositories:
+  - src-openeuler/oscap-anaconda-addon
   - src-openeuler/certmonger
   - src-openeuler/keycloak-httpd-client-install
   - src-openeuler/mod_auth_openidc
