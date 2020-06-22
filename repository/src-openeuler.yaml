@@ -7488,6 +7488,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: mecab
+  description: Morphological Analyzer and Yet Another Part-of-Speech
+  URL: https://sourceforge.net/projects/mecab/
+  protected_branches:
+  - master
+  type: public
 - name: media-player-info
   description: Media player capabilities are decribed by data files
   upstream: http://www.freedesktop.org/wiki/Software/media-player-info
@@ -26433,6 +26439,12 @@ repositories:
 - name: ranger
   description: A VIM-inspired filemanager for the console
   upstream: https://github.com/ranger/ranger
+  protected_branches:
+  - master
+  type: public
+- name: rapidjson
+  description: small & selft-contained fast JSON parser and generator for C++
+  URL: http://miloyip.github.io/rapidjson
   protected_branches:
   - master
   type: public

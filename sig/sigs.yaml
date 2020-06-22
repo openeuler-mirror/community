@@ -1391,6 +1391,8 @@ sigs:
   - src-openeuler/firebird
 - name: Base-service
   repositories:
+  - src-openeuler/rapidjson
+  - src-openeuler/mecab
   - src-openeuler/tmpwatch
   - src-openeuler/lasso
   - src-openeuler/istack-commons
