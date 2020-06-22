@@ -23,7 +23,7 @@
       - [下载代码和拉分支](#下载代码和拉分支)
       - [修改、编译和本地验证](#修改编译和本地验证)
       - [提交一个Pull Request（PR）](#提交一个Pull-Request)
-	- [如何通过gitee在obs建仓](#如何通过gitee在obs建仓)
+	- [如何新增软件包](#如何新增软件包)
     - [检视代码](#检视代码)
     - [测试](#测试)
     - [选择社区组件打包](#选择社区组件打包)
@@ -154,8 +154,8 @@ SIG就是Special Interest Group的缩写，openEuler社区按照不同的SIG来�
 
 当你提交一个PR的时候，就意味您已经开始给社区贡献代码了。请参考[openEuler社区PR提交指导](pull-requests.md)。
 
-#### 如何通过gitee在obs建仓
-在成功创建gitee仓库之后，可以创建obs仓库，这样在向gitee仓库提交代码时，会自动对代码编译进行检测。具体流程可参考[如何通过gitee在obs建仓](create-obs-package.md)。
+#### 如何新增软件包
+openEuler支持在gitee新增软件包的同时自动在obs的openEuler:Fctory上创建同名仓库。这样在向已创建的gitee仓库提交代码时，会自动对代码编译进行检测。具体流程可参考[如何新增软件包](create-package.md)。
 
 ### 检视代码
 
