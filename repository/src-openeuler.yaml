@@ -3482,12 +3482,6 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: gstreamer1-plugins-ugly-free
-  description: GStreamer streaming media framework "ugly" plugins
-  upstream: http://gstreamer.freedesktop.org/
-  protected_branches:
-  - master
-  type: public
 - name: gstreamer1
   description: ''
   protected_branches:
