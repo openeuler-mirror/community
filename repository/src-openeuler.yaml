@@ -2485,6 +2485,13 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: freeimage
+  upstream: https://freeimage.sourceforge.io/
+  description: FreeImage is a library project for developers who would like to support
+    popular graphics image formats (PNG, JPEG, TIFF, BMP and others)
+  protected_branches:
+  - master
+  type: public
 - name: freeipmi
   description: ''
   protected_branches:
@@ -9156,6 +9163,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: perl-Any-URI-Escape
+  upstream: http://search.cpan.org/dist/Any-URI-Escape/
+  description: Load URI
+  protected_branches:
+  - master
+  type: public
 - name: perl-Apache-LogFormat-Compiler
   upstream: http://search.cpan.org/dist/Apache-LogFormat-Compiler/
   description: Compile a log format string to perl-code
@@ -10087,6 +10100,12 @@ repositories:
 - name: perl-Config-Std
   upstream: http://search.cpan.org/dist/Config-Std/
   description: Load and save configuration files in a standard format
+  protected_branches:
+  - master
+  type: public
+- name: perl-Config-Tiny
+  upstream: http://search.cpan.org/dist/Config-Tiny/
+  description: Read/Write .ini style files with as little code as possible
   protected_branches:
   - master
   type: public
@@ -11444,6 +11463,12 @@ repositories:
 - name: perl-File-Find-Rule-PPI
   upstream: http://search.cpan.org/dist/File-Find-Rule-PPI/
   description: Add support for PPI queries to File
+  protected_branches:
+  - master
+  type: public
+- name: perl-File-Find-Rule-Perl
+  upstream: http://search.cpan.org/dist/File-Find-Rule-Perl/
+  description: Common rules for searching for Perl things
   protected_branches:
   - master
   type: public
@@ -15873,6 +15898,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: perl-Test-CPAN-Meta-JSON
+  upstream: http://search.cpan.org/dist/Test-CPAN-Meta-JSON/
+  description: Validate a META.json file within a CPAN distribution
+  protected_branches:
+  - master
+  type: public
 - name: perl-Test-CPAN-Meta-YAML
   upstream: http://search.cpan.org/dist/Test-CPAN-Meta-YAML/
   description: Validate a META.yml file within a CPAN distribution
