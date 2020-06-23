@@ -28916,3 +28916,9 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-dasbus
+  description: 'DBus library in Python 3'
+  upstream: https://pypi.python.org/pypi/dasbus
+  protected_branches:
+  - master
+  type: public
