@@ -1119,6 +1119,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: certmonger
+  description: Certificate status monitor and PKI enrollment client
+  URL: http://pagure.io/certmonger/
+  protected_branches:
+  - master
+  type: public
 - name: cfitsio
   description: Library for manipulating FITS data files.
   protected_branches:
@@ -1774,6 +1780,12 @@ repositories:
   description: a modern C++ toolkit containing machine learning algorithms and tools
     for creating complex software in C++ to solve real world problems.
   upstream: http://dlib.net/
+  protected_branches:
+  - master
+  type: public
+- name: dlm
+  description: dlm control daemon and tool
+  upstream: https://pagure.io/dlm
   protected_branches:
   - master
   type: public
@@ -7470,6 +7482,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: mecab
+  description: Morphological Analyzer and Yet Another Part-of-Speech
+  URL: https://sourceforge.net/projects/mecab/
+  protected_branches:
+  - master
+  type: public
 - name: media-player-info
   description: Media player capabilities are decribed by data files
   upstream: http://www.freedesktop.org/wiki/Software/media-player-info
@@ -8623,6 +8641,12 @@ repositories:
   type: public
 - name: osc
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: oscap-anaconda-addon
+  description: OpenSCAP Anaconda addon
+  URL: https://github.com/OpenSCAP/oscap-anaconda-addon
   protected_branches:
   - master
   type: public
@@ -26418,6 +26442,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: rapidjson
+  description: small & selft-contained fast JSON parser and generator for C++
+  URL: http://miloyip.github.io/rapidjson
+  protected_branches:
+  - master
+  type: public
 - name: raptor2
   description: ''
   protected_branches:
@@ -27025,6 +27055,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: slapi-nis
+  description: NIS Server and Schema Compatibility plugins for Directory Server
+  URL: https://github.com/gooselinux/slapi-nis
+  protected_branches:
+  - master
+  type: public
 - name: sleuthkit
   description: ''
   protected_branches:
@@ -27621,6 +27657,12 @@ repositories:
   type: public
 - name: tk
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: tmpwatch
+  description: A utility for removing files based on when they were last accessed
+  URL: https://pagure.io/tmpwatch
   protected_branches:
   - master
   type: public
