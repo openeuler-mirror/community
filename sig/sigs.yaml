@@ -2857,95 +2857,84 @@ sigs:
   - openeuler/security
 - name: dev-utils
   repositories:
-  - src-openeuler/ldapjdk
-  - src-openeuler/uom-se
-  - src-openeuler/parfait
-  - src-openeuler/libgpod
-  - src-openeuler/stax-ex
-  - src-openeuler/pyusb
-  - src-openeuler/dleyna-core
-  - src-openeuler/bea-stax
-  - src-openeuler/dleyna-connector-dbus
-  - src-openeuler/glassfish-jaxb
-  - src-openeuler/netperf
-  - src-openeuler/cloc
-  - src-openeuler/perl-Regexp-Common
-  - src-openeuler/perl-Test-Regexp
-  - src-openeuler/perl-Test-Warn
-  - src-openeuler/perl-Parallel-ForkManager
-  - src-openeuler/memleax
-  - src-openeuler/nmon
-  - src-openeuler/ncdu
-  - src-openeuler/colordiff
-  - src-openeuler/ct-ng
-  - src-openeuler/iozone
-  - src-openeuler/multitail
-  - src-openeuler/perl-Geo-IP
-  - src-openeuler/nethogs
-  - src-openeuler/iftop
-  - src-openeuler/slurm
-  - src-openeuler/htop
-  - src-openeuler/cpuid
-  - src-openeuler/delve
-  - src-openeuler/atop
-  - src-openeuler/bcc
-  - src-openeuler/bpftrace
-  - src-openeuler/mock
-  - src-openeuler/python-pyroute2
-  - src-openeuler/libbpf
-  - src-openeuler/python-pbkdf2
-  - src-openeuler/python-xmltodict
-  - src-openeuler/python-winrm
-  - src-openeuler/python-ntlm-auth
-  - src-openeuler/python-requests-ntlm
-  - src-openeuler/ansible
-  - src-openeuler/log4cplus
-  - src-openeuler/bcrypt
-  - src-openeuler/http_load
-  - src-openeuler/unixbench
-  - src-openeuler/memtester
-  - src-openeuler/lmbench
-  - src-openeuler/webbench
-  - src-openeuler/minimap2
-  - src-openeuler/miniasm
-  - src-openeuler/iniparser
-  - src-openeuler/fping
-  - src-openeuler/hping
-  - src-openeuler/cpp-httplib
-  - src-openeuler/ck
-  - src-openeuler/enca
-  - src-openeuler/sysbench
-  - src-openeuler/figlet
-  - src-openeuler/cmockery
-  - src-openeuler/colm
-  - src-openeuler/ragel
-  - src-openeuler/ranger
-  - src-openeuler/kelbt
-  - src-openeuler/sysget
-  - src-openeuler/bam
-  - src-openeuler/htslib
-  - src-openeuler/samtools
-  - src-openeuler/bcftools
-  - src-openeuler/brpc
-  - src-openeuler/libyubikey
-  - src-openeuler/ykpers
-  - src-openeuler/git-tools
-  - src-openeuler/python-blessed
-  - src-openeuler/tito
-  - src-openeuler/f2fs-tools
-  - src-openeuler/ipwatchd
-  - src-openeuler/log4cpp
-  - src-openeuler/libgssglue
-  - src-openeuler/librpcsecgss
-  - src-openeuler/pyporter
-  - src-openeuler/openEuler-pkginfo
-  - openeuler/openEuler-pkginfo
-  - openeuler/openEuler-bootstrap
   - openeuler/abichecker
-  - openeuler/pyporter
+  - openeuler/auto_py2to3
+  - openeuler/openEuler-bootstrap
+  - openeuler/openEuler-pkginfo
   - openeuler/perlporter
   - openeuler/pkgporter
-  - openeuler/auto_py2to3
+  - openeuler/pyporter
+  - src-openeuler/ansible
+  - src-openeuler/atop
+  - src-openeuler/bam
+  - src-openeuler/bcc
+  - src-openeuler/bcftools
+  - src-openeuler/bcrypt
+  - src-openeuler/bea-stax
+  - src-openeuler/bpftrace
+  - src-openeuler/brpc
+  - src-openeuler/ck
+  - src-openeuler/cloc
+  - src-openeuler/cmockery
+  - src-openeuler/colm
+  - src-openeuler/colordiff
+  - src-openeuler/cpp-httplib
+  - src-openeuler/cpuid
+  - src-openeuler/ct-ng
+  - src-openeuler/delve
+  - src-openeuler/dleyna-connector-dbus
+  - src-openeuler/dleyna-core
+  - src-openeuler/enca
+  - src-openeuler/f2fs-tools
+  - src-openeuler/figlet
+  - src-openeuler/fping
+  - src-openeuler/freeimage
+  - src-openeuler/git-tools
+  - src-openeuler/glassfish-jaxb
+  - src-openeuler/hping
+  - src-openeuler/htop
+  - src-openeuler/htslib
+  - src-openeuler/http_load
+  - src-openeuler/iftop
+  - src-openeuler/iniparser
+  - src-openeuler/iozone
+  - src-openeuler/ipwatchd
+  - src-openeuler/kelbt
+  - src-openeuler/ldapjdk
+  - src-openeuler/libbpf
+  - src-openeuler/libgpod
+  - src-openeuler/libgssglue
+  - src-openeuler/librpcsecgss
+  - src-openeuler/libyubikey
+  - src-openeuler/lmbench
+  - src-openeuler/log4cplus
+  - src-openeuler/log4cpp
+  - src-openeuler/memleax
+  - src-openeuler/memtester
+  - src-openeuler/miniasm
+  - src-openeuler/minimap2
+  - src-openeuler/mock
+  - src-openeuler/multitail
+  - src-openeuler/ncdu
+  - src-openeuler/nethogs
+  - src-openeuler/netperf
+  - src-openeuler/nmon
+  - src-openeuler/openEuler-pkginfo
+  - src-openeuler/parfait
+  - src-openeuler/pyporter
+  - src-openeuler/pyusb
+  - src-openeuler/ragel
+  - src-openeuler/ranger
+  - src-openeuler/samtools
+  - src-openeuler/slurm
+  - src-openeuler/stax-ex
+  - src-openeuler/sysbench
+  - src-openeuler/sysget
+  - src-openeuler/tito
+  - src-openeuler/unixbench
+  - src-openeuler/uom-se
+  - src-openeuler/webbench
+  - src-openeuler/ykpers
 - name: sig-mate-desktop
   repositories:
   - openeuler/mate-desktop
@@ -3221,6 +3210,7 @@ sigs:
   - src-openeuler/perl-Algorithm-NaiveBayes
   - src-openeuler/perl-Alien-Packages
   - src-openeuler/perl-Any-Moose
+  - src-openeuler/perl-Any-URI-Escape
   - src-openeuler/perl-Apache-LogFormat-Compiler
   - src-openeuler/perl-Apache-Session
   - src-openeuler/perl-Apache-Session-Wrapper
@@ -3351,6 +3341,7 @@ sigs:
   - src-openeuler/perl-Config-INI-Reader-Ordered
   - src-openeuler/perl-Config-Properties
   - src-openeuler/perl-Config-Std
+  - src-openeuler/perl-Config-Tiny
   - src-openeuler/perl-Config-ZOMG
   - src-openeuler/perl-Const-Fast
   - src-openeuler/perl-Context-Preserve
@@ -3532,6 +3523,7 @@ sigs:
   - src-openeuler/perl-File-Find-Object-Rule
   - src-openeuler/perl-File-Find-Rule
   - src-openeuler/perl-File-Find-Rule-PPI
+  - src-openeuler/perl-File-Find-Rule-Perl
   - src-openeuler/perl-File-Find-Rule-VCS
   - src-openeuler/perl-File-Find-utf8
   - src-openeuler/perl-File-FindLib
@@ -4140,6 +4132,7 @@ sigs:
   - src-openeuler/perl-Test-Assert
   - src-openeuler/perl-Test-Assertions
   - src-openeuler/perl-Test-Base
+  - src-openeuler/perl-Test-CPAN-Meta-JSON
   - src-openeuler/perl-Test-CPAN-Meta-YAML
   - src-openeuler/perl-Test-CheckChanges
   - src-openeuler/perl-Test-CheckDeps
@@ -4407,6 +4400,11 @@ sigs:
   - src-openeuler/perl-re-engine-PCRE2
   - src-openeuler/perl-syntax
   - src-openeuler/perl-v6
+  - src-openeuler/perl-Geo-IP
+  - src-openeuler/perl-Parallel-ForkManager
+  - src-openeuler/perl-Regexp-Common
+  - src-openeuler/perl-Test-Regexp
+  - src-openeuler/perl-Test-Warn
 - name: sig-python-modules
   repositories:
   - src-openeuler/python-ATpy
@@ -5411,6 +5409,13 @@ sigs:
   - src-openeuler/python-anytree
   - src-openeuler/python-nose2
   - src-openeuler/python-parameterized
+  - src-openeuler/python-blessed
+  - src-openeuler/python-ntlm-auth
+  - src-openeuler/python-pbkdf2
+  - src-openeuler/python-pyroute2
+  - src-openeuler/python-requests-ntlm
+  - src-openeuler/python-winrm
+  - src-openeuler/python-xmltodict
 - name: sig-release-management
   repositories:
   - openeuler/release-management
