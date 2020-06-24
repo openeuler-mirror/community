@@ -657,7 +657,8 @@ repositories:
   - master
   type: public
 - name: authz
-  description: ''
+  description: An authorization plugin for iSulad.
+  upstream: https://gitee.com/openeuler/authz
   protected_branches:
   - master
   type: public
@@ -7731,7 +7732,8 @@ repositories:
   - master
   type: public
 - name: lxcfs-tools
-  description: ''
+  description: A toolkit for lxcfs to remount FUSE filesystem to syscontainer.
+  upstream: https://gitee.com/openeuler/lxcfs-tools
   protected_branches:
   - master
   type: public
@@ -28207,7 +28209,8 @@ repositories:
   - master
   type: public
 - name: syscontainer-tools
-  description: ''
+  description: A syscontainer tool work with isulad with hook support and provides enhanced functions.
+  upstream: https://gitee.com/openeuler/syscontainer-tools
   protected_branches:
   - master
   type: public
