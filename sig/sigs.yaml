@@ -335,7 +335,6 @@ sigs:
   - src-openeuler/python-cups
   - src-openeuler/gupnp-igd
   - src-openeuler/perl-IO-String
-  - src-openeuler/rust
   - src-openeuler/perl-Net-HTTP
   - src-openeuler/python-click
   - src-openeuler/python-sure
@@ -1932,6 +1931,8 @@ sigs:
   - src-openeuler/openjdk-latest
   - src-openeuler/openjfx8
   - src-openeuler/openjfx11
+  - src-openeuler/icedtea-web
+  - src-openeuler/rust
 - name: Storage
   repositories:
   - src-openeuler/gom
@@ -2317,7 +2318,6 @@ sigs:
   - src-openeuler/httpcomponents-client
   - src-openeuler/httpcomponents-core
   - src-openeuler/ibus-kkc
-  - src-openeuler/icedtea-web
   - src-openeuler/icon-naming-utils
   - src-openeuler/imlib2
   - src-openeuler/imsettings

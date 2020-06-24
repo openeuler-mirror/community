@@ -3962,10 +3962,11 @@ repositories:
   - master
   type: public
 - name: icedtea-web
-  description: ''
+  description: 'IcedTea-Web is an open source implementation of JSR-56 that is better known as Java Web Start'
+  upstream: https://github.com/AdoptOpenJDK/IcedTea-Web
   protected_branches:
   - master
-  type: private
+  type: public
 - name: icfg
   description: ''
   protected_branches:
@@ -26784,7 +26785,8 @@ repositories:
   - master
   type: public
 - name: rust
-  description: ''
+  description: 'Rust is a multi-paradigm programming language focused on performance and safety, especially safe concurrenty.'
+  upstream: 'https://rust-lang.org'
   protected_branches:
   - master
   type: public
