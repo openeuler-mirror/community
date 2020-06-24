@@ -20,6 +20,7 @@ sigs:
   - openeuler/crystal-ci
 - name: Application
   repositories:
+  - src-openeuler/uwsgi
   - src-openeuler/dlm
   - src-openeuler/slapi-nis
   - src-openeuler/three-eight-nine-ds-base
@@ -4422,6 +4423,7 @@ sigs:
   - src-openeuler/python-EditorConfig
   - src-openeuler/python-Faker
   - src-openeuler/python-Flask-Admin
+  - src-openeuler/python-Flask-APScheduler
   - src-openeuler/python-Flask-Assets
   - src-openeuler/python-Flask-AutoIndex
   - src-openeuler/python-Flask-Bootstrap
@@ -4436,6 +4438,7 @@ sigs:
   - src-openeuler/python-Flask-RSTPages
   - src-openeuler/python-Flask-Script
   - src-openeuler/python-Flask-Silk
+  - src-openeuler/python-Flask-SQLAlchemy
   - src-openeuler/python-FormEncode
   - src-openeuler/python-GitPython
   - src-openeuler/python-GridDataFormats
@@ -4764,6 +4767,8 @@ sigs:
   - src-openeuler/python-flask-multistatic
   - src-openeuler/python-flask-oidc
   - src-openeuler/python-flask-restplus
+  - src-openeuler/python-flask-restx
+  - src-openeuler/python-flask-session
   - src-openeuler/python-flask-whooshee
   - src-openeuler/python-flatpak-module-tools
   - src-openeuler/python-flexmock
@@ -4923,6 +4928,7 @@ sigs:
   - src-openeuler/python-manuel
   - src-openeuler/python-maps
   - src-openeuler/python-markdown2
+  - src-openeuler/python-marshmallow
   - src-openeuler/python-mdx_gh_links
   - src-openeuler/python-med
   - src-openeuler/python-metaextract
@@ -5091,6 +5097,7 @@ sigs:
   - src-openeuler/python-pygments-style-solarized
   - src-openeuler/python-pyhcl
   - src-openeuler/python-pyi2cflash
+  - src-openeuler/python-pyinstaller
   - src-openeuler/python-pykalman
   - src-openeuler/python-pykeepass
   - src-openeuler/python-pylast

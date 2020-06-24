@@ -18585,6 +18585,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-Flask-APScheduler
+  description: Adds APScheduler support to Flask
+  URL: https://github.com/viniciuschiele/flask-apscheduler
+  protected_branches:
+  - master
+  type: public
 - name: python-Flask-Assets
   upstream: http://github.com/miracle2k/flask-assets
   description: Asset management for Flask, to compress and merge CSS and Javascript
@@ -18668,6 +18674,12 @@ repositories:
 - name: python-Flask-Silk
   upstream: http://github.com/sublee/flask-silk
   description: Adds silk icons to your Flask application or blueprint, or extension.
+  protected_branches:
+  - master
+  type: public
+- name: python-Flask-SQLAlchemy
+  description: Adds SQLAlchemy support to your Flask application
+  URL: https://github.com/pallets/flask-sqlalchemy
   protected_branches:
   - master
   type: public
@@ -21076,6 +21088,18 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-flask-restx
+  description: Fully featured framework for fast, easy and documented API development with Flask
+  URL: https://github.com/python-restx/flask-restx
+  protected_branches:
+  - master
+  type: public
+- name: python-flask-session
+  description: Adds server-side session support to your Flask application
+  URL: https://github.com/fengsp/flask-session
+  protected_branches:
+  - master
+  type: public
 - name: python-flask-whooshee
   upstream: https://github.com/bkabrda/flask-whooshee
   description: Flask-SQLAlchemy - Whoosh Integration
@@ -22353,6 +22377,12 @@ repositories:
   type: public
 - name: python-markupsafe
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: python-marshmallow
+  description: Python library for converting complex datatypes to and from primitive types
+  URL: http://marshmallow.readthedocs.org/
   protected_branches:
   - master
   type: public
@@ -23741,6 +23771,12 @@ repositories:
 - name: python-pyi2cflash
   upstream: http://github.com/eblot/pyi2cflash
   description: I2C eeprom device drivers (pure Python)
+  protected_branches:
+  - master
+  type: public
+- name: python-pyinstaller
+  description: PyInstaller bundles a Python application and all its dependencies into a single package
+  URL: http://www.pyinstaller.org
   protected_branches:
   - master
   type: public
@@ -28950,6 +28986,12 @@ repositories:
 - name: python-dasbus
   description: 'DBus library in Python 3'
   upstream: https://pypi.python.org/pypi/dasbus
+  protected_branches:
+  - master
+  type: public
+- name: uwsgi
+  description: Fast, self-healing, application container server
+  URL: https://github.com/unbit/uwsgi
   protected_branches:
   - master
   type: public
