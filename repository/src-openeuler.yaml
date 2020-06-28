@@ -1121,7 +1121,7 @@ repositories:
   type: public
 - name: certmonger
   description: Certificate status monitor and PKI enrollment client
-  URL: http://pagure.io/certmonger/
+  upstream: http://pagure.io/certmonger/
   protected_branches:
   - master
   type: public
@@ -5171,7 +5171,7 @@ repositories:
   type: public
 - name: libapr1
   description: Apache Portable Runtime (APR) Library
-  URL: http://apr.apache.org/
+  upstream: http://apr.apache.org/
   protected_branches:
   - master
   type: public
@@ -6380,7 +6380,7 @@ repositories:
   type: public
 - name: libtcnative
   description: JNI wrappers for Apache Portable Runtime for Tomcat
-  URL: https://tomcat.apache.org/tomcat-7.0-doc/apr.html
+  upstream: https://tomcat.apache.org/tomcat-7.0-doc/apr.html
   protected_branches:
   - master
   type: public
@@ -7503,7 +7503,7 @@ repositories:
   type: public
 - name: mecab
   description: Morphological Analyzer and Yet Another Part-of-Speech
-  URL: https://sourceforge.net/projects/mecab/
+  upstream: https://sourceforge.net/projects/mecab/
   protected_branches:
   - master
   type: public
@@ -8665,7 +8665,7 @@ repositories:
   type: public
 - name: oscap-anaconda-addon
   description: OpenSCAP Anaconda addon
-  URL: https://github.com/OpenSCAP/oscap-anaconda-addon
+  upstream: https://github.com/OpenSCAP/oscap-anaconda-addon
   protected_branches:
   - master
   type: public
@@ -18599,7 +18599,7 @@ repositories:
   type: public
 - name: python-Flask-APScheduler
   description: Adds APScheduler support to Flask
-  URL: https://github.com/viniciuschiele/flask-apscheduler
+  upstream: https://github.com/viniciuschiele/flask-apscheduler
   protected_branches:
   - master
   type: public
@@ -18691,7 +18691,7 @@ repositories:
   type: public
 - name: python-Flask-SQLAlchemy
   description: Adds SQLAlchemy support to your Flask application
-  URL: https://github.com/pallets/flask-sqlalchemy
+  upstream: https://github.com/pallets/flask-sqlalchemy
   protected_branches:
   - master
   type: public
@@ -21102,13 +21102,13 @@ repositories:
   type: public
 - name: python-flask-restx
   description: Fully featured framework for fast, easy and documented API development with Flask
-  URL: https://github.com/python-restx/flask-restx
+  upstream: https://github.com/python-restx/flask-restx
   protected_branches:
   - master
   type: public
 - name: python-flask-session
   description: Adds server-side session support to your Flask application
-  URL: https://github.com/fengsp/flask-session
+  upstream: https://github.com/fengsp/flask-session
   protected_branches:
   - master
   type: public
@@ -22394,7 +22394,7 @@ repositories:
   type: public
 - name: python-marshmallow
   description: Python library for converting complex datatypes to and from primitive types
-  URL: http://marshmallow.readthedocs.org/
+  upstream: http://marshmallow.readthedocs.org/
   protected_branches:
   - master
   type: public
@@ -23788,7 +23788,7 @@ repositories:
   type: public
 - name: python-pyinstaller
   description: PyInstaller bundles a Python application and all its dependencies into a single package
-  URL: http://www.pyinstaller.org
+  upstream: http://www.pyinstaller.org
   protected_branches:
   - master
   type: public
@@ -26523,7 +26523,7 @@ repositories:
   type: public
 - name: rapidjson
   description: small & selft-contained fast JSON parser and generator for C++
-  URL: http://miloyip.github.io/rapidjson
+  upstream: http://miloyip.github.io/rapidjson
   protected_branches:
   - master
   type: public
@@ -27136,7 +27136,7 @@ repositories:
   type: public
 - name: slapi-nis
   description: NIS Server and Schema Compatibility plugins for Directory Server
-  URL: https://github.com/gooselinux/slapi-nis
+  upstream: https://github.com/gooselinux/slapi-nis
   protected_branches:
   - master
   type: public
@@ -27741,7 +27741,7 @@ repositories:
   type: public
 - name: tmpwatch
   description: A utility for removing files based on when they were last accessed
-  URL: https://pagure.io/tmpwatch
+  upstream: https://pagure.io/tmpwatch
   protected_branches:
   - master
   type: public
@@ -29003,7 +29003,7 @@ repositories:
   type: public
 - name: uwsgi
   description: Fast, self-healing, application container server
-  URL: https://github.com/unbit/uwsgi
+  upstream: https://github.com/unbit/uwsgi
   protected_branches:
   - master
   type: public
