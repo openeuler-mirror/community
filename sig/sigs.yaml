@@ -335,7 +335,6 @@ sigs:
   - src-openeuler/python-cups
   - src-openeuler/gupnp-igd
   - src-openeuler/perl-IO-String
-  - src-openeuler/rust
   - src-openeuler/perl-Net-HTTP
   - src-openeuler/python-click
   - src-openeuler/python-sure
@@ -1932,6 +1931,8 @@ sigs:
   - src-openeuler/openjdk-latest
   - src-openeuler/openjfx8
   - src-openeuler/openjfx11
+  - src-openeuler/icedtea-web
+  - src-openeuler/rust
 - name: Storage
   repositories:
   - src-openeuler/gom
@@ -2317,7 +2318,6 @@ sigs:
   - src-openeuler/httpcomponents-client
   - src-openeuler/httpcomponents-core
   - src-openeuler/ibus-kkc
-  - src-openeuler/icedtea-web
   - src-openeuler/icon-naming-utils
   - src-openeuler/imlib2
   - src-openeuler/imsettings
@@ -5437,3 +5437,49 @@ sigs:
   - openeuler/vnpy
   - openeuler/musescore
   - openeuler/lilypond
+- name: sig-DDE
+  repositories:
+  - src-openeuler/dde-control-center
+  - src-openeuler/blur-effect
+  - src-openeuler/dde-api
+  - src-openeuler/dde-calendar
+  - src-openeuler/dde-clipboard
+  - src-openeuler/dde-daemon
+  - src-openeuler/dde-dock
+  - src-openeuler/dde-file-manager
+  - src-openeuler/dde-introduction
+  - src-openeuler/deepin-kwin
+  - src-openeuler/dde-kwin
+  - src-openeuler/dde-launcher
+  - src-openeuler/dde-network-utils
+  - src-openeuler/dde-polkit-agent
+  - src-openeuler/dde-qt-dbus-factory
+  - src-openeuler/dde-session-shell
+  - src-openeuler/dde-session-ui
+  - src-openeuler/deepin-anything
+  - src-openeuler/deepin-compressor
+  - src-openeuler/deepin-desktop-base
+  - src-openeuler/deepin-desktop-schemas
+  - src-openeuler/deepin-devicemanager
+  - src-openeuler/deepin-editor
+  - src-openeuler/deepin-font-manager
+  - src-openeuler/deepin-graphics-driver-manager
+  - src-openeuler/deepin-image-viewer
+  - src-openeuler/deepin-log-viewer
+  - src-openeuler/deepin-manual
+  - src-openeuler/deepin-menu
+  - src-openeuler/deepin-reader
+  - src-openeuler/deepin-shortcut-viewer
+  - src-openeuler/deepin-system-monitor
+  - src-openeuler/deepin-terminal
+  - src-openeuler/deepin-turbo
+  - src-openeuler/dtkcore
+  - src-openeuler/dtkgui
+  - src-openeuler/dtkwidget
+  - src-openeuler/dtkwm
+  - src-openeuler/deepin-icon-theme
+  - src-openeuler/qt5integration
+  - src-openeuler/udisks2-qt5
+  - src-openeuler/startdde
+  - src-openeuler/deepin-wallpapers
+  - src-openeuler/deepin-gtk-theme
