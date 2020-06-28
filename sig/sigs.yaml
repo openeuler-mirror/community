@@ -20,6 +20,8 @@ sigs:
   - openeuler/crystal-ci
 - name: Application
   repositories:
+  - src-openeuler/libtcnative
+  - src-openeuler/libapr1
   - src-openeuler/uwsgi
   - src-openeuler/dlm
   - src-openeuler/slapi-nis

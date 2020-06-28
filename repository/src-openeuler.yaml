@@ -5169,6 +5169,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: libapr1
+  description: Apache Portable Runtime (APR) Library
+  URL: http://apr.apache.org/
+  protected_branches:
+  - master
+  type: public
 - name: libarchive
   description: ''
   protected_branches:
@@ -6369,6 +6375,12 @@ repositories:
   type: public
 - name: libtasn1
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: libtcnative
+  description: JNI wrappers for Apache Portable Runtime for Tomcat
+  URL: https://tomcat.apache.org/tomcat-7.0-doc/apr.html
   protected_branches:
   - master
   type: public
