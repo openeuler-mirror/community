@@ -1966,6 +1966,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: blur-effect
+  description: "blur-effect"
+  upstream: "https://github.com/linuxdeepin/blur-effect"
+  protected_branches:
+  - master
+  type: public 
 - name: dde-api
   description: "dde api"
   upstream: "https://github.com/linuxdeepin/dde-api"
