@@ -36,9 +36,9 @@ Everyone could send patches to openeuler by mailing list.
 项目名称：
 
 repository地址：
-- https://gitee.com/openeuler/vnpy
-- https://gitee.com/openeuler/lilypond
-- https://gitee.com/openeuler/musescore
+- https://gitee.com/src-openeuler/vnpy
+- https://gitee.com/src-openeuler/lilypond
+- https://gitee.com/src-openeuler/musescore
 
 # 常见问题
 

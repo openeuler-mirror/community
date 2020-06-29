@@ -29273,3 +29273,21 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: vnpy
+  description: 'A quantitative trading for traders'
+  upstream: https://github.com/vnpy/vnpy
+  protected_branches:
+  - master
+  type: public
+- name: musescore 
+  description: 'MuseScore is an open source and free music notation software'
+  upstream: https://github.com/musescore/MuseScore
+  protected_branches:
+  - master
+  type: public
+- name: lilypond
+  description: 'LilyPond is a music engraving program, devoted to producing the highest-quality sheet music possible'
+  upstream: http://git.savannah.gnu.org/gitweb/?p=lilypond.git
+  protected_branches:
+  - master
+  type: public
