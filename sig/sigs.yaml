@@ -5441,6 +5441,11 @@ sigs:
   - src-openeuler/qgnomeplatform
   - src-openeuler/gnome-control-center
   - src-openeuler/gtk-doc
+- name: sig-desktop-apps
+  repositories:
+  - openeuler/vnpy
+  - openeuler/musescore
+  - openeuler/lilypond
 - name: sig-DDE
   repositories:
   - src-openeuler/dde-control-center
