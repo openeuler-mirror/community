@@ -115,6 +115,11 @@ def check_4(exps, prefix, oe_repos, supervisors, cross_checked_repo):
 
     for repo in oe_repos:
         name = prefix + "/" + repo["name"].lower()
+        if "type" not in repo.keys():
+            print("WARNING! Repository {name} has no type tag".format(name=name))
+            errors_found = errors_found + 1
+            continue
+            
         if name in cross_checked_repo:
             print("WARNING! Repository {name} in {prefix}.yaml has duplication.".format(name=name, prefix=prefix))
             errors_found = errors_found + 1
