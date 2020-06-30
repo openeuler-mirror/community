@@ -29260,6 +29260,11 @@ repositories:
   description: ''
   protected_branches:
   - master
+- name: platform_manifests
+  description: "save default.xml for repo android source codes"
+  upstream: "https://github.com/anbox/platform_manifests"
+  protected_branches:
+  - master
   type: public
 - name: python-dasbus
   description: 'DBus library in Python 3'
