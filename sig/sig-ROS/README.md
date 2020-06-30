@@ -44,3 +44,9 @@ repository地址：
 - https://gitee.com/src-openeuler/cmake_modules
 - https://gitee.com/src-openeuler/cpp_common
 - https://gitee.com/src-openeuler/gencpp
+- https://gitee.com/src-openeuler/geneus
+- https://gitee.com/src-openeuler/genlisp
+- https://gitee.com/src-openeuler/genpy
+- https://gitee.com/src-openeuler/gennodejs
+- https://gitee.com/src-openeuler/genmsg
+

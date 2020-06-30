@@ -29291,3 +29291,33 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: geneus
+  description: "gencpp package that belongs to THE ROS-COMM"
+  upstream: "https://github.com/jsk-ros-pkg/geneus"
+  protected_branches:
+  - master
+  type: public
+- name: genlisp
+  description: "gencpp package that belongs to THE ROS-COMM"
+  upstream: "https://github.com/ros/genlisp"
+  protected_branches:
+  - master
+  type: public
+- name: genpy
+  description: "gencpp package that belongs to THE ROS-COMM"
+  upstream: "https://github.com/ros/genpy"
+  protected_branches:
+  - master
+  type: public
+- name: gennodejs
+  description: "gencpp package that belongs to THE ROS-COMM"
+  upstream: "https://github.com/RethinkRobotics-opensource/gennodejs"
+  protected_branches:
+  - master
+  type: public
+- name: genmsg
+  description: "gencpp package that belongs to THE ROS-COMM"
+  upstream: "https://github.com/ros/genmsg"
+  protected_branches:
+  - master
+  type: public
