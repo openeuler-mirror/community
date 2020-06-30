@@ -20,6 +20,93 @@ sigs:
   - openeuler/crystal-ci
 - name: Application
   repositories:
+  - src-openeuler/hunspell
+  - src-openeuler/hunspell-am
+  - src-openeuler/hunspell-be
+  - src-openeuler/hunspell-ber
+  - src-openeuler/hunspell-bg
+  - src-openeuler/hunspell-bn
+  - src-openeuler/hunspell-br
+  - src-openeuler/hunspell-ca
+  - src-openeuler/hunspell-cop
+  - src-openeuler/hunspell-cv
+  - src-openeuler/hunspell-cy
+  - src-openeuler/hunspell-da
+  - src-openeuler/hunspell-de
+  - src-openeuler/hunspell-dsb
+  - src-openeuler/hunspell-el
+  - src-openeuler/hunspell-en
+  - src-openeuler/hunspell-eo
+  - src-openeuler/hunspell-es
+  - src-openeuler/hunspell-et
+  - src-openeuler/hunspell-eu
+  - src-openeuler/hunspell-fa
+  - src-openeuler/hunspell-fj
+  - src-openeuler/hunspell-fo
+  - src-openeuler/hunspell-fr
+  - src-openeuler/hunspell-fy
+  - src-openeuler/hunspell-ga
+  - src-openeuler/hunspell-gd
+  - src-openeuler/hunspell-gl
+  - src-openeuler/hunspell-grc
+  - src-openeuler/hunspell-hil
+  - src-openeuler/hunspell-hr
+  - src-openeuler/hunspell-hsb
+  - src-openeuler/hunspell-ht
+  - src-openeuler/hunspell-hu
+  - src-openeuler/hunspell-ia
+  - src-openeuler/hunspell-id
+  - src-openeuler/hunspell-is
+  - src-openeuler/hunspell-it
+  - src-openeuler/hunspell-kn
+  - src-openeuler/hunspell-la
+  - src-openeuler/hunspell-lb
+  - src-openeuler/hunspell-ln
+  - src-openeuler/hunspell-lt
+  - src-openeuler/hunspell-mai
+  - src-openeuler/hunspell-mg
+  - src-openeuler/hunspell-mi
+  - src-openeuler/hunspell-mk
+  - src-openeuler/hunspell-ml
+  - src-openeuler/hunspell-mn
+  - src-openeuler/hunspell-mr
+  - src-openeuler/hunspell-ms
+  - src-openeuler/hunspell-mt
+  - src-openeuler/hunspell-oc
+  - src-openeuler/hunspell-om
+  - src-openeuler/hunspell-pa
+  - src-openeuler/hunspell-pl
+  - src-openeuler/hunspell-pt
+  - src-openeuler/hunspell-ro
+  - src-openeuler/hunspell-ru
+  - src-openeuler/hunspell-rw
+  - src-openeuler/hunspell-smj
+  - src-openeuler/hunspell-tpi
+  - src-openeuler/hunspell-wa
+  - src-openeuler/hunspell-zu
+  - src-openeuler/hyphen
+  - src-openeuler/hyphen-el
+  - src-openeuler/hyphen-es
+  - src-openeuler/hyphen-eu
+  - src-openeuler/hyphen-fo
+  - src-openeuler/hyphen-fr
+  - src-openeuler/hyphen-hi
+  - src-openeuler/hyphen-hsb
+  - src-openeuler/hyphen-id
+  - src-openeuler/hyphen-is
+  - src-openeuler/hyphen-it
+  - src-openeuler/hyphen-lt
+  - src-openeuler/hyphen-mn
+  - src-openeuler/hyphen-nl
+  - src-openeuler/hyphen-or
+  - src-openeuler/hyphen-ro
+  - src-openeuler/hyphen-ru
+  - src-openeuler/hyphen-sa
+  - src-openeuler/hyphen-sk
+  - src-openeuler/hyphen-ta
+  - src-openeuler/hyphen-te
+  - src-openeuler/hyphen-tk
+  - src-openeuler/hyphen-uk
   - src-openeuler/libtcnative
   - src-openeuler/libapr1
   - src-openeuler/uwsgi
@@ -597,7 +684,6 @@ sigs:
   - src-openeuler/tipcutils
   - src-openeuler/libcacard
   - src-openeuler/colord
-  - src-openeuler/hunspell-en
   - src-openeuler/libnetfilter_queue
   - src-openeuler/iptables
   - src-openeuler/woff2
@@ -920,7 +1006,6 @@ sigs:
   - src-openeuler/taglib
   - src-openeuler/libXext
   - src-openeuler/b43-openfwwf
-  - src-openeuler/hunspell
   - src-openeuler/libndp
   - src-openeuler/openslp
   - src-openeuler/mobile-broadband-provider-info
@@ -1836,7 +1921,6 @@ sigs:
   - src-openeuler/perl-File-Path
   - src-openeuler/perl-ExtUtils-ParseXS
   - src-openeuler/perl-DBI
-  - src-openeuler/hyphen
   - src-openeuler/libxcrypt
   - src-openeuler/perl-PathTools
   - src-openeuler/libxml2
@@ -1879,7 +1963,6 @@ sigs:
   - src-openeuler/gnulib
   - src-openeuler/gphoto2
   - src-openeuler/hiredis
-  - src-openeuler/hunspell-de
   - src-openeuler/jq
   - src-openeuler/Judy
   - src-openeuler/ksh
