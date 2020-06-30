@@ -420,7 +420,6 @@ sigs:
   - src-openeuler/qt5-qt3d
   - src-openeuler/gspell
   - src-openeuler/xcb-util-image
-  - src-openeuler/perl-Sys-Virt
   - src-openeuler/python-SecretStorage
   - src-openeuler/python-bottle
   - src-openeuler/perl-libintl-perl
@@ -934,7 +933,6 @@ sigs:
 - name: Virt
   repositories:
   - src-openeuler/virt-viewer
-  - src-openeuler/libnetwork
   - src-openeuler/virglrenderer
   - src-openeuler/python-beautifulsoup4
   - src-openeuler/libvirt-python
@@ -943,6 +941,7 @@ sigs:
   - src-openeuler/qemu
   - src-openeuler/libvirt
   - src-openeuler/edk2
+  - src-openeuler/perl-Sys-Virt
 - name: Kernel
   repositories:
   - openeuler/kernel
@@ -1923,6 +1922,7 @@ sigs:
   - src-openeuler/syscontainer-tools
   - src-openeuler/libcgroup
   - src-openeuler/kata-agent
+  - src-openeuler/libnetwork
 - name: Compiler
   repositories:
   - src-openeuler/gcc
