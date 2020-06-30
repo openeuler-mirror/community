@@ -307,3 +307,13 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: qemu
+  description: "qemu is a generic and open source machine emulator and virtualizer."
+  protected_branches:
+  - master
+  type: public
+- name: libvirt
+  description: "libvirt is a toolkit to manage virtualization platforms."
+  protected_branches:
+  - master
+  type: public

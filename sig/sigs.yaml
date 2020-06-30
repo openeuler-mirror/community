@@ -942,6 +942,8 @@ sigs:
   - src-openeuler/libvirt
   - src-openeuler/edk2
   - src-openeuler/perl-Sys-Virt
+  - openeuler/qemu
+  - openeuler/libvirt
 - name: Kernel
   repositories:
   - openeuler/kernel
