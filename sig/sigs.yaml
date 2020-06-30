@@ -20,6 +20,7 @@ sigs:
   - openeuler/crystal-ci
 - name: Application
   repositories:
+  - src-openeuler/hunspell
   - src-openeuler/hunspell-am
   - src-openeuler/hunspell-be
   - src-openeuler/hunspell-ber
@@ -31,8 +32,10 @@ sigs:
   - src-openeuler/hunspell-cv
   - src-openeuler/hunspell-cy
   - src-openeuler/hunspell-da
+  - src-openeuler/hunspell-de
   - src-openeuler/hunspell-dsb
   - src-openeuler/hunspell-el
+  - src-openeuler/hunspell-en
   - src-openeuler/hunspell-eo
   - src-openeuler/hunspell-es
   - src-openeuler/hunspell-et
@@ -81,6 +84,7 @@ sigs:
   - src-openeuler/hunspell-tpi
   - src-openeuler/hunspell-wa
   - src-openeuler/hunspell-zu
+  - src-openeuler/hyphen
   - src-openeuler/hyphen-el
   - src-openeuler/hyphen-es
   - src-openeuler/hyphen-eu
@@ -680,7 +684,6 @@ sigs:
   - src-openeuler/tipcutils
   - src-openeuler/libcacard
   - src-openeuler/colord
-  - src-openeuler/hunspell-en
   - src-openeuler/libnetfilter_queue
   - src-openeuler/iptables
   - src-openeuler/woff2
@@ -1003,7 +1006,6 @@ sigs:
   - src-openeuler/taglib
   - src-openeuler/libXext
   - src-openeuler/b43-openfwwf
-  - src-openeuler/hunspell
   - src-openeuler/libndp
   - src-openeuler/openslp
   - src-openeuler/mobile-broadband-provider-info
@@ -1917,7 +1919,6 @@ sigs:
   - src-openeuler/perl-File-Path
   - src-openeuler/perl-ExtUtils-ParseXS
   - src-openeuler/perl-DBI
-  - src-openeuler/hyphen
   - src-openeuler/libxcrypt
   - src-openeuler/perl-PathTools
   - src-openeuler/libxml2
@@ -1960,7 +1961,6 @@ sigs:
   - src-openeuler/gnulib
   - src-openeuler/gphoto2
   - src-openeuler/hiredis
-  - src-openeuler/hunspell-de
   - src-openeuler/jq
   - src-openeuler/Judy
   - src-openeuler/ksh
