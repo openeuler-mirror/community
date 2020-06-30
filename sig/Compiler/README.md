@@ -32,3 +32,5 @@ No mailing list yet.
  - [openjfx11](https://gitee.com/src-openeuler/openjfx11)
  - [icedtea-web](https://gitee.com/src-openeuler/icedtea-web)
  - [rust](https://gitee.com/src-openeuler/rust)
+ - [Boole-JDK-8](https://gitee.com/openeuler/Boole-JDK-8)
+ - [Boole-JDK-11](https://gitee.com/openeuler/Boole-JDK-11)
