@@ -6765,7 +6765,8 @@ repositories:
   - master
   type: public
 - name: libvirt
-  description: ''
+  description: 'libvirt is a toolkit to manage virtualization platforms.'
+  upstream: https://gitee.com/openeuler/libvirt
   protected_branches:
   - master
   type: public
@@ -26542,7 +26543,8 @@ repositories:
   - master
   type: private
 - name: qemu
-  description: ''
+  description: 'qemu is a generic and open source machine emulator and virtualizer.'
+  upstream: https://gitee.com/openeuler/qemu
   protected_branches:
   - master
   type: public
