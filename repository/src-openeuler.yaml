@@ -4487,12 +4487,6 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: hyperv-daemons
-  description: Hyper-V daemons suite
-  upstream: http://www.kernel.org
-  protected_branches:
-  - master
-  type: public
 - name: hwdata
   description: ''
   protected_branches:
