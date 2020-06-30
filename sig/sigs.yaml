@@ -669,7 +669,6 @@ sigs:
   - src-openeuler/iproute
   - src-openeuler/xorg-x11-drv-dummy
   - src-openeuler/libgnomecanvas
-  - src-openeuler/rdma-core
   - src-openeuler/libgweather
   - src-openeuler/nmap
   - src-openeuler/yelp-xsl
@@ -926,9 +925,6 @@ sigs:
   - src-openeuler/openslp
   - src-openeuler/mobile-broadband-provider-info
   - src-openeuler/yelp
-  - src-openeuler/cilium
-  - src-openeuler/katran
-  - src-openeuler/xdp-tools
   - src-openeuler/xdp-cpumap-tc
   - src-openeuler/python-dasbus
 - name: Virt
@@ -2844,9 +2840,6 @@ sigs:
   - src-openeuler/vcredist
   - src-openeuler/vdsm
   - src-openeuler/vdsm-jsonrpc-java
-- name: sig-dpdk
-  repositories:
-  - src-openeuler/dpdk
 - name: sig-REDF
   repositories:
   - openeuler/redf
@@ -2904,7 +2897,6 @@ sigs:
   - src-openeuler/ipwatchd
   - src-openeuler/kelbt
   - src-openeuler/ldapjdk
-  - src-openeuler/libbpf
   - src-openeuler/libgpod
   - src-openeuler/libgssglue
   - src-openeuler/librpcsecgss
@@ -5497,3 +5489,15 @@ sigs:
   - src-openeuler/startdde
   - src-openeuler/deepin-wallpapers
   - src-openeuler/deepin-gtk-theme
+- name: sig-high-performance-network
+  repositories:
+  - src-openeuler/dpdk
+  - src-openeuler/rdma-core
+  - src-openeuler/libbpf
+  - src-openeuler/goebpf
+  - src-openeuler/xdp-tools
+  - src-openeuler/libvma
+  - src-openeuler/polycube
+  - src-openeuler/libkefir
+  - src-openeuler/cilium
+  - src-openeuler/katran

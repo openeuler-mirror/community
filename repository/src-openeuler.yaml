@@ -29273,6 +29273,24 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: goebpf
+  description: Library to work with eBPF programs from Go
+  upstream: https://github.com/dropbox/goebpf
+  protected_branches:
+  - master
+  type: public
+- name: polycube
+  description: eBPF/XDP-based software framework for fast network services running in the Linux kernel.
+  upstream: https://github.com/polycube-network/polycube
+  protected_branches:
+  - master
+  type: public
+- name: libkefir
+  description: Convert network filtering rules from various formats into BPF programs
+  upstream: https://github.com/Netronome/libkefir
+  protected_branches:
+  - master
+  type: public
 - name: vnpy
   description: 'A quantitative trading for traders'
   upstream: https://github.com/vnpy/vnpy
