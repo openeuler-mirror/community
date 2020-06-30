@@ -147,12 +147,13 @@ def check_6(cross_checked_repo, supervisors):
     print("All repositories in sigs.yaml must list in either openeuler.yaml or src-openeuler.yaml")
     errors_found = 0
 
-    if len(cross_checked_repo) != len(supervisors):
-        for repo in supervisors:
-            if not repo in cross_checked_repo:
-                print("WARNING! {name} listed in sigs.yaml, but neither openeuler.yaml nor src-openeuler.yaml"
-                        .format(name=repo))
-                errors_found = errors_found + 1
+    # if len(cross_checked_repo) != len(supervisors):
+
+    for repo in supervisors:
+        if not repo in cross_checked_repo:
+            print("WARNING! {name} listed in sigs.yaml, but neither openeuler.yaml nor src-openeuler.yaml"
+                    .format(name=repo))
+            errors_found = errors_found + 1
 
     if errors_found == 0:
         print("PASS WITHOUT ISSUES FOUND.")
