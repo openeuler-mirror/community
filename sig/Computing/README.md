@@ -1,32 +1,49 @@
 # Computing
 
-*<请在此描述SIG的范围、工作职责和目标，可以直接用sig-template.md内描述的第一个章节>,*
-
-
+- sig范围：操作系统泛计算领域相关的兴趣小组，负责系统中基础功能软件包，C/C++ lib库，设备管理以及其它一些底层lib库，如多媒体相关。
+- 工作职责和目标：
+    - 现有软件包升级维护。
+    - 计算领域中新技术探索的试验田。
+    - 提名优秀contributor为committer。
 
 # 组织会议
 
-- 公开的会议时间：北京时间，每周X 下午，XX点~XX点
-
-*<请在此给出SIG会议的时间>*
-
+- 公开的会议时间：北京时间，按需。
 
 
 # 成员
 
-*<请在此给出团队成员的列表>*
-
 ### Maintainer列表
 
-- name[@giteeID](giteeID链接)
-
+- love_hangzhou 
+- liqingqing_1229
 
 
 ### Committer列表
 
-- name[@giteeID](giteeID链接)
+- love_hangzhou 
+- liqingqing_1229
+- wswsamao
+- wangbin224
+- SuperSix
 
-
+committer | 细分领域
+------ | ------
+SuperSix | OSBase
+love_hangzhou | OSBase
+liqingqing_1229 | OSBase
+SuperSix | dev-utils
+wswsamao | dev-utils
+wswsamao | C-lib
+liqingqing_1229 | C-lib
+wangbin224 | device-manager
+love_hangzhou | device-manager
+liqingqing_1229 | device-manager
+wangbin224 | media
+wswsamao | media
+SuperSix | media
+wangbin224 | Desktop
+wswsamao | Desktop
 
 # 联系方式
 
@@ -35,17 +52,67 @@
 - [邮件列表](dev@openeuler.org)
 - [IM]()
 
-
-
-
-
 # 项目清单
 
-*<项目名称和申请表格一致，具体地址可以在申请下来以后在刷新>*
+## OSBase 操作系统基础功能   (committer: SuperSix、love_hangzhou、liqingqing_1229)
+  - https://gitee.com/src-openeuler/procps-ng
+  - https://gitee.com/src-openeuler/irqbalance
+  - https://gitee.com/src-openeuler/psmisc
+  - https://gitee.com/src-openeuler/numad
+  - https://gitee.com/src-openeuler/kmod
+  - https://gitee.com/src-openeuler/tzdata
+  - https://gitee.com/src-openeuler/numactl
+  - https://gitee.com/src-openeuler/glibc
+  - https://gitee.com/src-openeuler/libthai        
+  - https://gitee.com/src-openeuler/libinput       
+  - https://gitee.com/src-openeuler/tuned
 
-项目名称：
+## C-lib C/C++ lib库   （committer: liqingqing_1229、 wswsamao）
+  - https://gitee.com/src-openeuler/libqb
+  - https://gitee.com/src-openeuler/userspace-rcu
+  - https://gitee.com/src-openeuler/libatomic_ops
+  - https://gitee.com/src-openeuler/boost
+  - https://gitee.com/src-openeuler/gperftools
+  - https://gitee.com/src-openeuler/libhugetlbfs
+  - https://gitee.com/src-openeuler/memkind
+  - https://gitee.com/src-openeuler/libevdev
+  - https://gitee.com/src-openeuler/mpfr
+  - https://gitee.com/src-openeuler/nspr
+  - https://gitee.com/src-openeuler/lockdev
+  - https://gitee.com/src-openeuler/gmp
+  - https://gitee.com/src-openeuler/npth
 
-repository地址：
+## dev-utils 计算领域开发工具  （committer: SuperSix、 wswsamao）
+  - https://gitee.com/src-openeuler/gdb
+  - https://gitee.com/src-openeuler/strace
+  - https://gitee.com/src-openeuler/systemtap
+  - https://gitee.com/src-openeuler/dyninst         
+  - https://gitee.com/src-openeuler/lttng-ust  
+     
+## device-manager 设备管理相关软件   (committer: wangbin224、love_hangzhou、liqingqing_1229)
+  - https://gitee.com/src-openeuler/lm_sensors
+  - https://gitee.com/src-openeuler/hwdata
+  - https://gitee.com/src-openeuler/hwinfo
+  - https://gitee.com/src-openeuler/linux-firmware
+  - https://gitee.com/src-openeuler/alsa-firmware
+  - https://gitee.com/src-openeuler/alsa-lib
+  - https://gitee.com/src-openeuler/alsa-tools
+  - https://gitee.com/src-openeuler/dmidecode
+  - https://gitee.com/src-openeuler/i2c-tools
+  - https://gitee.com/src-openeuler/acpid
+  - https://gitee.com/src-openeuler/upower
 
-- 
-- 
+## media 多媒体相关lib   （committer: SuperSix、 wswsamao、wangbin224）
+  - https://gitee.com/src-openeuler/libsamplerate
+  - https://gitee.com/src-openeuler/libogg
+  - https://gitee.com/src-openeuler/pulseaudio
+  - https://gitee.com/src-openeuler/libsndfile
+  - https://gitee.com/src-openeuler/flac
+  - https://gitee.com/src-openeuler/libijs
+  - https://gitee.com/src-openeuler/libmpc
+  - https://gitee.com/src-openeuler/libvisual
+  - https://gitee.com/src-openeuler/opus
+
+## Desktop 桌面相关lib  （committer: wswsamao、wangbin224）
+  - https://gitee.com/src-openeuler/ORBit2    
+  - https://gitee.com/src-openeuler/libwacom
