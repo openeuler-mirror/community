@@ -327,3 +327,18 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: authz
+  description: "An authorization plugin for iSulad."
+  protected_branches:
+  - master
+  type: public
+- name: syscontainer-tools
+  description: "A syscontainer tool work with isulad with hook support and provides enhanced functions."
+  protected_branches:
+  - master
+  type: public
+- name: lxcfs-tools
+  description: "A toolkit for lxcfs to remount FUSE filesystem to syscontainer."
+  protected_branches:
+  - master
+  type: public

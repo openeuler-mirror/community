@@ -1980,7 +1980,6 @@ sigs:
   - src-openeuler/iSula-libutils
   - src-openeuler/clibcni
   - src-openeuler/oci-systemd-hook
-  - src-openeuler/lxcfs-tools
   - src-openeuler/runc
   - src-openeuler/virt-what
   - src-openeuler/containerd
@@ -1996,7 +1995,6 @@ sigs:
   - src-openeuler/busybox
   - src-openeuler/container-selinux
   - src-openeuler/gobject-introspection
-  - src-openeuler/authz
   - src-openeuler/lxc
   - src-openeuler/docker
   - src-openeuler/kata-runtime
@@ -2004,7 +2002,6 @@ sigs:
   - src-openeuler/kata-proxy
   - src-openeuler/lxcfs
   - src-openeuler/containernetworking-plugins
-  - src-openeuler/syscontainer-tools
   - src-openeuler/libcgroup
   - src-openeuler/kata-agent
   - src-openeuler/libnetwork
@@ -2235,6 +2232,12 @@ sigs:
   - openeuler/clibcni
   - openeuler/iSula-libutils
   - openeuler/iSulad-img
+  - openeuler/authz
+  - openeuler/syscontainer-tools
+  - openeuler/lxcfs-tools
+  - src-openeuler/authz
+  - src-openeuler/syscontainer-tools
+  - src-openeuler/lxcfs-tools
 - name: Private
   repositories:
   - openeuler/os-autoinst-distri-openEuler
