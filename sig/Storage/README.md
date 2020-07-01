@@ -1,51 +1,99 @@
 # Storage
-
-*<请在此描述SIG的范围、工作职责和目标，可以直接用sig-template.md内描述的第一个章节>,*
-
-
+- 维护存储相关组件，处理相关issue
+- 持续探索构建存储领域生态与竞争力
 
 # 组织会议
 
-- 公开的会议时间：北京时间，每周X 下午，XX点~XX点
-
-*<请在此给出SIG会议的时间>*
-
-
+- 以邮件讨论为主
 
 # 成员
 
-*<请在此给出团队成员的列表>*
-
 ### Maintainer列表
 
-- name[@giteeID](giteeID链接)
-
-
+- 刘志强[@liuzhiqiang26](https://gitee.com/liuzhiqiang26)
+- 吴波[@wubo009](https://gitee.com/wubo009)
 
 ### Committer列表
 
-- name[@giteeID](giteeID链接)
-
-
+- 林飞龙[@volcano-dragon](https://gitee.com/volcanodragon)
+- 葛芮君[@geruijun](https://gitee.com/geruijun)
+- 罗士杰[@shijieluo](https://gitee.com/shijieluo)
+- 苏伟锋[@swf504](https://gitee.com/swf504)
+- 娄宏翔[@louhongxiang](https://gitee.com/louhongxiang)
 
 # 联系方式
-
-*<如果需要单独申请邮件列表，请在此补充邮箱名称：sig-yousigname@openeuler.org>*
 
 - [邮件列表](dev@openeuler.org)
 - [IM](#openeuler-dev)
 
-
-
-
-
 # 项目清单
-
-*<项目名称和申请表格一致，具体地址可以在申请下来以后在刷新>*
-
-项目名称：
 
 repository地址：
 
-- 
-- 
+- https://gitee.com/src-openeuler/gom
+- https://gitee.com/src-openeuler/parted
+- https://gitee.com/src-openeuler/iprutils
+- https://gitee.com/src-openeuler/ndctl
+- https://gitee.com/src-openeuler/fuse
+- https://gitee.com/src-openeuler/tree
+- https://gitee.com/src-openeuler/sg3_utils
+- https://gitee.com/src-openeuler/mdadm
+- https://gitee.com/src-openeuler/python-configobj
+- https://gitee.com/src-openeuler/btrfs-progs
+- https://gitee.com/src-openeuler/python-rtslib
+- https://gitee.com/src-openeuler/ccid
+- https://gitee.com/src-openeuler/attr
+- https://gitee.com/src-openeuler/smartmontools
+- https://gitee.com/src-openeuler/luksmeta
+- https://gitee.com/src-openeuler/nfs4-acl-tools
+- https://gitee.com/src-openeuler/cryptsetup
+- https://gitee.com/src-openeuler/udisks2
+- https://gitee.com/src-openeuler/mtools
+- https://gitee.com/src-openeuler/libblockdev
+- https://gitee.com/src-openeuler/sdparm
+- https://gitee.com/src-openeuler/perl-DBD-SQLite
+- https://gitee.com/src-openeuler/libpciaccess
+- https://gitee.com/src-openeuler/iotop
+- https://gitee.com/src-openeuler/xfsdump
+- https://gitee.com/src-openeuler/open-iscsi
+- https://gitee.com/src-openeuler/libaio
+- https://gitee.com/src-openeuler/libusbmuxd
+- https://gitee.com/src-openeuler/file
+- https://gitee.com/src-openeuler/e2fsprogs
+- https://gitee.com/src-openeuler/gdbm
+- https://gitee.com/src-openeuler/thin-provisioning-tools
+- https://gitee.com/src-openeuler/dosfstools
+- https://gitee.com/src-openeuler/libusbx
+- https://gitee.com/src-openeuler/mariadb
+- https://gitee.com/src-openeuler/pciutils
+- https://gitee.com/src-openeuler/blktrace
+- https://gitee.com/src-openeuler/usbredir
+- https://gitee.com/src-openeuler/lvm2
+- https://gitee.com/src-openeuler/dmraid
+- https://gitee.com/src-openeuler/libtalloc
+- https://gitee.com/src-openeuler/perl-DBD-MySQL
+- https://gitee.com/src-openeuler/quota
+- https://gitee.com/src-openeuler/mariadb-connector-c
+- https://gitee.com/src-openeuler/xfsprogs
+- https://gitee.com/src-openeuler/nfs-utils
+- https://gitee.com/src-openeuler/libtevent
+- https://gitee.com/src-openeuler/gdisk
+- https://gitee.com/src-openeuler/glusterfs
+- https://gitee.com/src-openeuler/multipath-tools
+- https://gitee.com/src-openeuler/sysfsutils
+- https://gitee.com/src-openeuler/sqlite
+- https://gitee.com/src-openeuler/smp_utils
+- https://gitee.com/src-openeuler/squashfs-tools
+- https://gitee.com/src-openeuler/libiscsi
+- https://gitee.com/src-openeuler/fxload
+- https://gitee.com/src-openeuler/libusb
+- https://gitee.com/src-openeuler/hdparm
+- https://gitee.com/src-openeuler/pcsc-lite
+- https://gitee.com/src-openeuler/filesystem
+- https://gitee.com/src-openeuler/cifs-utils
+- https://gitee.com/src-openeuler/cachefilesd
+- https://gitee.com/src-openeuler/usbutils
+- https://gitee.com/src-openeuler/lsscsi
+- https://gitee.com/src-openeuler/open-isns
+
+
