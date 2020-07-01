@@ -1,10 +1,10 @@
 # Storage
-- Care of related components in storage
-- Explore and build storage industry ecology and competitiveness
+- 维护存储相关组件，处理相关issue
+- 持续探索构建存储领域生态与竞争力
 
 # 组织会议
 
-- Focus on email discussion
+- 以邮件讨论为主
 
 # 成员
 
@@ -19,6 +19,7 @@
 - 葛芮君[@geruijun](https://gitee.com/geruijun)
 - 罗士杰[@shijieluo](https://gitee.com/shijieluo)
 - 苏伟锋[@swf504](https://gitee.com/swf504)
+- 娄宏翔[@louhongxiang](https://gitee.com/louhongxiang)
 
 # 联系方式
 
