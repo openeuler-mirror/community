@@ -44,7 +44,7 @@
 
 repository地址：
 
-- https://https://gitee.com/src-openeuler/qemu
+- https://gitee.com/src-openeuler/qemu
 
 
 项目名称：
