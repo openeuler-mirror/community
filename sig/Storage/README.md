@@ -4,18 +4,21 @@
 
 # 组织会议
 
-- To be determined
+- Focus on email discussion
 
 # 成员
 
 ### Maintainer列表
 
-- 吴波[@wubo009]
-- 刘志强[@liuzhiqiang26]
+- 刘志强[@liuzhiqiang26]（https://gitee.com/liuzhiqiang26）
+- 吴波[@wubo009]（https://gitee.com/wubo009）
 
 ### Committer列表
 
-- 林飞龙[@volcano-dragon]
+- 林飞龙[@volcano-dragon]（https://gitee.com/volcanodragon）
+- 葛芮君[@geruijun](https://gitee.com/geruijun)
+- 罗士杰[@shijieluo](https://gitee.com/shijieluo)
+- 苏伟锋[@swf504](https://gitee.com/swf504)
 
 # 联系方式
 
