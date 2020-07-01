@@ -3218,6 +3218,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: gnome-boxes
+  description: An application of the GNOME Desktop Environment
+  upstream: https://wiki.gnome.org/Apps/Boxes
+  protected_branches:
+  - master
+  type: public
 - name: gnome-calculator
   description: ''
   protected_branches:
@@ -5280,6 +5286,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: jdom
+  description: Java alternative for DOM and SAX
+  upstream: http://www.jdom.org
+  protected_branches:
+  - master
+  type: public
 - name: jdom2
   description: ''
   protected_branches:
@@ -5900,6 +5912,12 @@ repositories:
   type: public
 - name: libXxf86vm
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: libabigail
+  description: ABI generic analysis and instrumentation library
+  upstream: https://sourceware.org/libabigail
   protected_branches:
   - master
   type: public
@@ -6703,6 +6721,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: libmpeg2
+  description: The decoder libraries for MPEG-2
+  upstream: http://libmpeg2.sourceforge.net
+  protected_branches:
+  - master
+  type: public
 - name: libmspack
   description: ''
   protected_branches:
@@ -6819,6 +6843,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: libopenraw
+  description: Support digital camera RAW files
+  upstream: http://libopenraw.freedesktop.org/libopenraw
+  protected_branches:
+  - master
+  type: public
 - name: libomp
   description: ''
   protected_branches:
@@ -7441,6 +7471,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: libzapojit
+  description: GLib/GObject wrapper for the SkyDrive and Hotmail REST APIs
+  upstream: https://wiki.gnome.org/Projects/Zapojit
+  protected_branches:
+  - master
+  type: public
 - name: libzip
   description: ''
   protected_branches:
@@ -7455,6 +7491,12 @@ repositories:
 - name: lightdm-gtk
   description: A LightDM greeter that uses the GTK3 toolkit
   upstream: https://launchpad.net/lightdm-gtk-greeter
+  protected_branches:
+  - master
+  type: public
+- name: linkchecker
+  description: Check links in web documents or full websites
+  upstream: https://linkcheck.github.io/linkchecker
   protected_branches:
   - master
   type: public
@@ -8192,6 +8234,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: maven-shared
+  description: Shared Components for maven
+  upstream: http://maven.apache.org/shared
+  protected_branches:
+  - master
+  type: public
 - name: maven-shared-incremental
   description: ''
   protected_branches:
@@ -8222,6 +8270,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: maven-verifier-plugin
+  description: Verifier Plugin for maven
+  upstream: http://maven.apache.org/plugins/maven-verifier-plugin
+  protected_branches:
+  - master
+  type: public
 - name: maven-wagon
   description: ''
   protected_branches:
@@ -8510,6 +8564,12 @@ repositories:
   type: public
 - name: mongodb
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: mono
+  description: Cross platform,open source .NET development framework
+  upstream: http://www.mono-project.com
   protected_branches:
   - master
   type: public
@@ -9956,6 +10016,12 @@ repositories:
 - name: perl-Alien-Packages
   upstream: http://search.cpan.org/dist/Alien-Packages/
   description: Alien
+  protected_branches:
+  - master
+  type: public
+- name: perl-AnyEvent
+  description: The DBI of event loog programming
+  upstream: https://metacpan.org/release/AnyEvent
   protected_branches:
   - master
   type: public
@@ -13837,6 +13903,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: perl-Mail-JMAPTalk
+  description: Basic interface to talk to JMAP servers
+  upstream: https://metacpan.org/release/Mail-JMAPTalk
+  protected_branches:
+  - master
+  type: public
 - name: perl-Mail-Message
   upstream: http://search.cpan.org/dist/Mail-Message/
   description: General message object
@@ -14804,6 +14876,12 @@ repositories:
 - name: perl-Mozilla-PublicSuffix
   upstream: http://search.cpan.org/dist/Mozilla-PublicSuffix/
   description: Get a domain name's public suffix via the Mozilla Public Suffix List
+  protected_branches:
+  - master
+  type: public
+- name: perl-NNTPClient
+  description: A Perl 5 module to communicate with NNTP (RFC977) server
+  upstream: https://metacpan.org/release/NNTPClient
   protected_branches:
   - master
   type: public
@@ -18224,6 +18302,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: perl-XML-DOM
+  description: XML::Parser extends DOM
+  upstream: https://metacpan.org/release/XML-DOM
+  protected_branches:
+  - master
+  type: public
 - name: perl-XML-Fast
   upstream: http://search.cpan.org/dist/XML-Fast/
   description: Simple and very fast XML - hash conversion
@@ -19055,6 +19139,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: powermock
+  description: A Java mocking framework
+  upstream: https://github.com/jayway/powermock
+  protected_branches:
+  - master
+  type: public
 - name: powertop
   description: ''
   protected_branches:
@@ -28262,6 +28352,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: system-storage-manager
+  description: A single tool to manage your storage
+  upstream: https://system-storage-manager.github.io
+  protected_branches:
+  - master
+  type: public
 - name: systemd
   description: ''
   protected_branches:
@@ -28889,6 +28985,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: uom-parent
+  description: Measurement Project Parent POM for Units
+  upstream: https://github.com/unitsofmeasurement/uom-parent
+  protected_branches:
+  - master
+  type: public
 - name: uom-se
   description: Unit of Measurement implementation for Java SE 8
   upstream: https://github.com/unitsofmeasurement/uom-se
@@ -29409,6 +29511,12 @@ repositories:
   type: public
 - name: xmlstarlet
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: xmlstreambuffer
+  description: XML Stream Buffer
+  upstream: http://java.net/projects/xmlstreambuffer/
   protected_branches:
   - master
   type: public

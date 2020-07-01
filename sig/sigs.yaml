@@ -20,6 +20,10 @@ sigs:
   - openeuler/crystal-ci
 - name: Application
   repositories:
+  - src-openeuler/libabigail
+  - src-openeuler/libmpeg2
+  - src-openeuler/linkchecker
+  - src-openeuler/xmlstreambuffer
   - src-openeuler/hunspell
   - src-openeuler/hunspell-am
   - src-openeuler/hunspell-be
@@ -1035,6 +1039,8 @@ sigs:
   - src-openeuler/kernel
 - name: Others
   repositories:
+  - src-openeuler/libopenraw
+  - src-openeuler/libzapojit
   - src-openeuler/glassfish-jaxb-api
   - src-openeuler/farstream02
   - src-openeuler/fabtests
@@ -1480,6 +1486,12 @@ sigs:
   - src-openeuler/mysql5
 - name: Base-service
   repositories:
+  - src-openeuler/jdom
+  - src-openeuler/powermock
+  - src-openeuler/uom-parent
+  - src-openeuler/maven-shared
+  - src-openeuler/maven-verifier-plugin
+  - src-openeuler/mono
   - src-openeuler/rapidjson
   - src-openeuler/mecab
   - src-openeuler/tmpwatch
@@ -2022,6 +2034,7 @@ sigs:
   - openeuler/Boole-JDK-11
 - name: Storage
   repositories:
+  - src-openeuler/system-storage-manager
   - src-openeuler/gom
   - src-openeuler/parted
   - src-openeuler/iprutils
@@ -2089,6 +2102,7 @@ sigs:
   - src-openeuler/open-isns
 - name: Desktop
   repositories:
+  - src-openeuler/gnome-boxes
   - src-openeuler/adwaita-qt
   - src-openeuler/seahorse
   - src-openeuler/libmatchbox
@@ -3308,6 +3322,7 @@ sigs:
   - src-openeuler/perl-Algorithm-Loops
   - src-openeuler/perl-Algorithm-NaiveBayes
   - src-openeuler/perl-Alien-Packages
+  - src-openeuler/perl-AnyEvent
   - src-openeuler/perl-Any-Moose
   - src-openeuler/perl-Any-URI-Escape
   - src-openeuler/perl-Apache-LogFormat-Compiler
@@ -3834,6 +3849,7 @@ sigs:
   - src-openeuler/perl-Mail-Box-POP3
   - src-openeuler/perl-Mail-Box-Parser-C
   - src-openeuler/perl-Mail-IMAPTalk
+  - src-openeuler/perl-Mail-JMAPTalk
   - src-openeuler/perl-Mail-Message
   - src-openeuler/perl-Mail-Sendmail
   - src-openeuler/perl-Mail-Transport
@@ -3995,6 +4011,7 @@ sigs:
   - src-openeuler/perl-Net-Telnet-Cisco
   - src-openeuler/perl-Net-UPnP
   - src-openeuler/perl-Nmap-Parser
+  - src-openeuler/perl-NNTPClient
   - src-openeuler/perl-Number-Bytes-Human
   - src-openeuler/perl-Number-Compare
   - src-openeuler/perl-Number-Format
@@ -4446,6 +4463,7 @@ sigs:
   - src-openeuler/perl-XML-Atom-SimpleFeed
   - src-openeuler/perl-XML-Bare
   - src-openeuler/perl-XML-CommonNS
+  - src-openeuler/perl-XML-DOM
   - src-openeuler/perl-XML-Fast
   - src-openeuler/perl-XML-FeedPP
   - src-openeuler/perl-XML-Flow
