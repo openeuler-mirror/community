@@ -1,16 +1,10 @@
 # Storage
-
-*<请在此描述SIG的范围、工作职责和目标，可以直接用sig-template.md内描述的第一个章节>,*
-
-
+- Care of related components in storage
+- Explore and build storage industry ecology and competitiveness
 
 # 组织会议
 
-- 公开的会议时间：北京时间，每周X 下午，XX点~XX点
-
-*<请在此给出SIG会议的时间>*
-
-
+- To be determined
 
 # 成员
 
@@ -19,12 +13,13 @@
 ### Maintainer列表
 
 - name[@giteeID](giteeID链接)
-
-
+@wubo009
+@liuzhiqiang26
 
 ### Committer列表
 
 - name[@giteeID](giteeID链接)
+@lfl 
 
 
 
