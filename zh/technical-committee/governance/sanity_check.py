@@ -136,7 +136,6 @@ def check_4(exps, prefix, oe_repos, supervisors, cross_checked_repo):
         if repo["type"] == "private" and "Private" not in supervisors.get(name, set()):
             print("WARNING! Repository {name} marked as private in {prefix}.yaml, but not listed in Private SIG."
                     .format(name=name, prefix=prefix))
-            errors_found = errors_found + 1	
 
         cross_checked_repo.add(name)
 
