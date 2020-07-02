@@ -8242,6 +8242,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: maven-replacer
+  description: Replacer Maven Mojo
+  upstream: https://github.com/beiliubei/maven-replacer-plugin
+  protected_branches:
+  - master
+  type: public
 - name: maven-remote-resources-plugin
   description: ''
   protected_branches:
@@ -27552,12 +27558,6 @@ repositories:
   type: private
 - name: reiserfs-utils
   description: ''
-  protected_branches:
-  - master
-  type: public
-- name: replacer
-  description: Replacer Maven Mojo
-  upstream: https://github.com/beiliubei/maven-replacer-plugin
   protected_branches:
   - master
   type: public
