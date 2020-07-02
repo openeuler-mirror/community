@@ -20,6 +20,7 @@ sigs:
   - openeuler/crystal-ci
 - name: Application
   repositories:
+  - src-openeuler/geronimo-parent-poms
   - src-openeuler/libabigail
   - src-openeuler/libmpeg2
   - src-openeuler/linkchecker
@@ -1484,6 +1485,7 @@ sigs:
   - src-openeuler/jdom
   - src-openeuler/powermock
   - src-openeuler/uom-parent
+  - src-openeuler/maven-release
   - src-openeuler/maven-shared
   - src-openeuler/maven-verifier-plugin
   - src-openeuler/mono
@@ -1984,6 +1986,7 @@ sigs:
   - src-openeuler/lutok
 - name: Container
   repositories:
+  - src-openeuler/jboss-parent
   - src-openeuler/iSula-libutils
   - src-openeuler/clibcni
   - src-openeuler/oci-systemd-hook
@@ -2964,7 +2967,9 @@ sigs:
   - openeuler/pkgporter
   - openeuler/pyporter
   - src-openeuler/ansible
+  - src-openeuler/apiviz
   - src-openeuler/atop
+  - src-openeuler/auto
   - src-openeuler/bam
   - src-openeuler/bcc
   - src-openeuler/bcftools
@@ -2983,11 +2988,13 @@ sigs:
   - src-openeuler/delve
   - src-openeuler/dleyna-connector-dbus
   - src-openeuler/dleyna-core
+  - src-openeuler/emma
   - src-openeuler/enca
   - src-openeuler/f2fs-tools
   - src-openeuler/figlet
   - src-openeuler/fping
   - src-openeuler/freeimage
+  - src-openeuler/geronimo-osgi-support
   - src-openeuler/git-tools
   - src-openeuler/glassfish-jaxb
   - src-openeuler/hping
@@ -2998,6 +3005,7 @@ sigs:
   - src-openeuler/iniparser
   - src-openeuler/iozone
   - src-openeuler/ipwatchd
+  - src-openeuler/jetbrains-annotations
   - src-openeuler/kelbt
   - src-openeuler/ldapjdk
   - src-openeuler/libgpod
@@ -3023,6 +3031,7 @@ sigs:
   - src-openeuler/pyusb
   - src-openeuler/ragel
   - src-openeuler/ranger
+  - src-openeuler/replacer
   - src-openeuler/samtools
   - src-openeuler/slurm
   - src-openeuler/stax-ex
@@ -4192,6 +4201,7 @@ sigs:
   - src-openeuler/perl-Sub-Attribute
   - src-openeuler/perl-Sub-Exporter-ForMethods
   - src-openeuler/perl-Sub-Exporter-GlobExporter
+  - src-openeuler/perl-Sub-Identify
   - src-openeuler/perl-Sub-Infix
   - src-openeuler/perl-Sub-Override
   - src-openeuler/perl-Sub-Prototype

@@ -474,6 +474,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: apiviz
+  description: APIviz is a JavaDoc doclet to generate class and package diagrams
+  upstream: http://code.google.com/p/apiviz/
+  protected_branches:
+  - master
+  type: public
 - name: apparmor
   description: AppArmor is a Linux kernel security module that allows the system administrator
     to restrict programs' capabilities with per-program profiles.
@@ -659,6 +665,12 @@ repositories:
 - name: authz
   description: An authorization plugin for iSulad.
   upstream: https://gitee.com/openeuler/authz
+  protected_branches:
+  - master
+  type: public
+- name: auto
+  description: Collection of source code generators for Java
+  upstream: https://github.com/google/auto
   protected_branches:
   - master
   type: public
@@ -2347,6 +2359,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: emma
+  description: Code Coverage Tool
+  upstream: http://emma.sourceforge.net/
+  protected_branches:
+  - master
+  type: public
 - name: enca
   description: an Extremely Naive Charset Analyser
   upstream: https://cihar.com/software/enca/
@@ -3014,6 +3032,18 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: geronimo-osgi-support
+  description: OSGI spec bundle support
+  upstream: http://geronimo.apache.org/
+  protected_branches:
+  - master
+  type: public
+- name: geronimo-parent-poms
+  description: Parent POM files for geronimo-specs
+  upstream: http://geronimo.apache.org/
+  protected_branches:
+  - master
+  type: public
 - name: geronimo-saaj
   description: ''
   protected_branches:
@@ -5216,6 +5246,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: jboss-parent
+  description: JBoss Parent POM
+  upstream: http://www.jboss.org/
+  protected_branches:
+  - master
+  type: public
 - name: jboss-remoting
   description: ''
   protected_branches:
@@ -5307,6 +5343,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: jetbrains-annotations
+  description: IntelliJ IDEA Annotations
+  upstream: http://www.jetbrains.org
+  protected_branches:
+  - master
+  type: public
 - name: jetty
   description: ''
   protected_branches:
@@ -8194,6 +8236,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: maven-release
+  description: Release a project updating the POM and tagging in the SCM
+  upstream: http://maven.apache.org/plugins/maven-release-plugin/
+  protected_branches:
+  - master
+  type: public
 - name: maven-remote-resources-plugin
   description: ''
   protected_branches:
@@ -16426,6 +16474,12 @@ repositories:
   type: public
 - name: perl-Sub-Exporter-Progressive
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: perl-Sub-Identify
+  description: Retrieve names of code references
+  upstream: https://metacpan.org/release/Sub-Identify
   protected_branches:
   - master
   type: public
@@ -27498,6 +27552,12 @@ repositories:
   type: private
 - name: reiserfs-utils
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: replacer
+  description: Replacer Maven Mojo
+  upstream: https://github.com/beiliubei/maven-replacer-plugin
   protected_branches:
   - master
   type: public
