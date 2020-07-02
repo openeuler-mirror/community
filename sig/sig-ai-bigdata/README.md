@@ -38,5 +38,5 @@
 # 联系方式
 - [邮件列表](sig-ai-bigdata@openeuler.org)
 - [slack](https://join.slack.com/t/openeulerworkspace/shared_invite/zt-fputhzcx-QR9KAqwNmUTN4U2A35BMGQ)
-- 微信
+- 微信  
  ![wechat_QR](./sig-wechat-qr.jpg)
