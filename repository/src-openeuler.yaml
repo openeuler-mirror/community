@@ -168,6 +168,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: Thunar
+  upstream: http://thunar.xfce.org/
+  description: Thunar File Manager
+  protected_branches:
+  - master
+  type: public
 - name: Xaw3d
   description: ''
   protected_branches:
@@ -911,6 +917,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: blur-effect
+  description: blur-effect
+  upstream: https://github.com/linuxdeepin/blur-effect
+  protected_branches:
+  - master
+  type: public
 - name: bolt
   description: ''
   protected_branches:
@@ -1087,6 +1099,12 @@ repositories:
   type: public
 - name: capstone
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: catfish
+  upstream: https://docs.xfce.org/apps/catfish/start
+  description: A handy file search tool
   protected_branches:
   - master
   type: public
@@ -1675,6 +1693,96 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: dde-api
+  description: dde api
+  upstream: https://github.com/linuxdeepin/dde-api
+  protected_branches:
+  - master
+  type: public
+- name: dde-calendar
+  description: dde calendar
+  upstream: https://github.com/linuxdeepin/dde-calendar
+  protected_branches:
+  - master
+  type: public
+- name: dde-clipboard
+  description: dde clipboard
+  upstream: https://github.com/linuxdeepin/dde-clipboard
+  protected_branches:
+  - master
+  type: public
+- name: dde-control-center
+  description: dde control center
+  upstream: https://github.com/linuxdeepin/dde-control-center
+  protected_branches:
+  - master
+  type: public
+- name: dde-daemon
+  description: dde daemon
+  upstream: https://github.com/linuxdeepin/dde-daemon
+  protected_branches:
+  - master
+  type: public
+- name: dde-dock
+  description: dde dock
+  upstream: https://github.com/linuxdeepin/dde-dock
+  protected_branches:
+  - master
+  type: public
+- name: dde-file-manager
+  description: dde file manager
+  upstream: https://github.com/linuxdeepin/dde-file-manager
+  protected_branches:
+  - master
+  type: public
+- name: dde-introduction
+  description: dde introduction
+  upstream: https://github.com/linuxdeepin/dde-introduction
+  protected_branches:
+  - master
+  type: public
+- name: dde-kwin
+  description: dde kwin
+  upstream: https://github.com/linuxdeepin/dde-kwin
+  protected_branches:
+  - master
+  type: public
+- name: dde-launcher
+  description: dde launcher
+  upstream: https://github.com/linuxdeepin/dde-launcher
+  protected_branches:
+  - master
+  type: public
+- name: dde-network-utils
+  description: dde network utils
+  upstream: https://github.com/linuxdeepin/dde-network-utils
+  protected_branches:
+  - master
+  type: public
+- name: dde-polkit-agent
+  description: dde polkit agent
+  upstream: https://github.com/linuxdeepin/dde-polkit-agent
+  protected_branches:
+  - master
+  type: public
+- name: dde-qt-dbus-factory
+  description: dde qt dbus factory
+  upstream: https://github.com/linuxdeepin/dde-qt-dbus-factory
+  protected_branches:
+  - master
+  type: public
+- name: dde-session-shell
+  description: dde session shell
+  upstream: https://github.com/linuxdeepin/dde-session-shell
+  protected_branches:
+  - master
+  type: public
+- name: dde-session-ui
+  description: dde session ui
+  upstream: https://github.com/linuxdeepin/dde-session-ui
+  protected_branches:
+  - master
+  type: public
 - name: debian-keyring
   description: ''
   protected_branches:
@@ -1682,6 +1790,132 @@ repositories:
   type: private
 - name: debootstrap
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: deepin-anything
+  description: deepin anything
+  upstream: https://github.com/linuxdeepin/deepin-anything
+  protected_branches:
+  - master
+  type: public
+- name: deepin-compressor
+  description: deepin compressor
+  upstream: https://github.com/linuxdeepin/deepin-compressor
+  protected_branches:
+  - master
+  type: public
+- name: deepin-desktop-base
+  description: deepin desktop base
+  upstream: https://github.com/linuxdeepin/deepin-desktop-base
+  protected_branches:
+  - master
+  type: public
+- name: deepin-desktop-schemas
+  description: deepin desktop schemas
+  upstream: https://github.com/linuxdeepin/deepin-desktop-schemas
+  protected_branches:
+  - master
+  type: public
+- name: deepin-devicemanager
+  description: deepin devicemanager
+  upstream: https://github.com/linuxdeepin/deepin-devicemanager
+  protected_branches:
+  - master
+  type: public
+- name: deepin-editor
+  description: deepin editor
+  upstream: https://github.com/linuxdeepin/deepin-editor
+  protected_branches:
+  - master
+  type: public
+- name: deepin-font-manager
+  description: deepin font manager
+  upstream: https://github.com/linuxdeepin/deepin-font-manager
+  protected_branches:
+  - master
+  type: public
+- name: deepin-graphics-driver-manager
+  description: deepin graphics driver manager
+  upstream: https://github.com/linuxdeepin/deepin-graphics-driver-manager
+  protected_branches:
+  - master
+  type: public
+- name: deepin-gtk-theme
+  description: deepin gtk theme
+  upstream: https://github.com/linuxdeepin/deepin-gtk-theme
+  protected_branches:
+  - master
+  type: public
+- name: deepin-icon-theme
+  description: deepin icon theme
+  upstream: https://github.com/linuxdeepin/deepin-icon-theme
+  protected_branches:
+  - master
+  type: public
+- name: deepin-image-viewer
+  description: deepin image viewer
+  upstream: https://github.com/linuxdeepin/deepin-image-viewer
+  protected_branches:
+  - master
+  type: public
+- name: deepin-kwin
+  description: deepin kwin
+  upstream: https://github.com/linuxdeepin/deepin-kwin
+  protected_branches:
+  - master
+  type: public
+- name: deepin-log-viewer
+  description: deepin log viewer
+  upstream: https://github.com/linuxdeepin/deepin-log-viewer
+  protected_branches:
+  - master
+  type: public
+- name: deepin-manual
+  description: deepin manual
+  upstream: https://github.com/linuxdeepin/deepin-manual
+  protected_branches:
+  - master
+  type: public
+- name: deepin-menu
+  description: deepin menu
+  upstream: https://github.com/linuxdeepin/deepin-menu
+  protected_branches:
+  - master
+  type: public
+- name: deepin-reader
+  description: deepin reader
+  upstream: https://github.com/linuxdeepin/deepin-reader
+  protected_branches:
+  - master
+  type: public
+- name: deepin-shortcut-viewer
+  description: deepin shortcut viewer
+  upstream: https://github.com/linuxdeepin/deepin-shortcut-viewer
+  protected_branches:
+  - master
+  type: public
+- name: deepin-system-monitor
+  description: deepin system monitor
+  upstream: https://github.com/linuxdeepin/deepin-system-monitor
+  protected_branches:
+  - master
+  type: public
+- name: deepin-terminal
+  description: deepin terminal
+  upstream: https://github.com/linuxdeepin/deepin-terminal
+  protected_branches:
+  - master
+  type: public
+- name: deepin-turbo
+  description: deepin turbo
+  upstream: https://github.com/linuxdeepin/deepin-turbo
+  protected_branches:
+  - master
+  type: public
+- name: deepin-wallpapers
+  description: deepin wallpapers
+  upstream: https://github.com/linuxdeepin/deepin-wallpapers
   protected_branches:
   - master
   type: public
@@ -1953,6 +2187,30 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: dtkcore
+  description: dtkcore
+  upstream: https://github.com/linuxdeepin/dtkcore
+  protected_branches:
+  - master
+  type: public
+- name: dtkgui
+  description: dtkgui
+  upstream: https://github.com/linuxdeepin/dtkgui
+  protected_branches:
+  - master
+  type: public
+- name: dtkwidget
+  description: dtkwidget
+  upstream: https://github.com/linuxdeepin/dtkwidget
+  protected_branches:
+  - master
+  type: public
+- name: dtkwm
+  description: dtkwm
+  upstream: https://github.com/linuxdeepin/dtkwm
+  protected_branches:
+  - master
+  type: public
 - name: dump
   description: ''
   protected_branches:
@@ -1970,270 +2228,6 @@ repositories:
   type: public
 - name: dyninst
   description: Tools for binary instrumentation, analysis, and modification
-  protected_branches:
-  - master
-  type: public
-- name: dde-control-center 
-  description: "dde control center"
-  upstream: "https://github.com/linuxdeepin/dde-control-center"
-  protected_branches:
-  - master
-  type: public
-- name: blur-effect
-  description: "blur-effect"
-  upstream: "https://github.com/linuxdeepin/blur-effect"
-  protected_branches:
-  - master
-  type: public 
-- name: dde-api
-  description: "dde api"
-  upstream: "https://github.com/linuxdeepin/dde-api"
-  protected_branches:
-  - master
-  type: public
-- name: dde-calendar
-  description: "dde calendar"
-  upstream: "https://github.com/linuxdeepin/dde-calendar"
-  protected_branches:
-  - master
-  type: public
-- name: dde-clipboard
-  description: "dde clipboard"
-  upstream: "https://github.com/linuxdeepin/dde-clipboard"
-  protected_branches:
-  - master
-  type: public
-- name: dde-daemon
-  description: "dde daemon"
-  upstream: "https://github.com/linuxdeepin/dde-daemon"
-  protected_branches:
-  - master
-  type: public
-- name: dde-dock
-  description: "dde dock"
-  upstream: "https://github.com/linuxdeepin/dde-dock"
-  protected_branches:
-  - master
-  type: public
-- name: dde-file-manager
-  description: "dde file manager"
-  upstream: "https://github.com/linuxdeepin/dde-file-manager"
-  protected_branches:
-  - master
-  type: public
-- name: dde-introduction
-  description: "dde introduction"
-  upstream: "https://github.com/linuxdeepin/dde-introduction"
-  protected_branches:
-  - master
-  type: public
-- name: deepin-kwin
-  description: "deepin kwin"
-  upstream: "https://github.com/linuxdeepin/deepin-kwin"
-  protected_branches:
-  - master
-  type: public
-- name: dde-kwin
-  description: "dde kwin"
-  upstream: "https://github.com/linuxdeepin/dde-kwin"
-  protected_branches:
-  - master
-  type: public
-- name: dde-launcher
-  description: "dde launcher"
-  upstream: "https://github.com/linuxdeepin/dde-launcher"
-  protected_branches:
-  - master
-  type: public
-- name: dde-network-utils
-  description: "dde network utils"
-  upstream: "https://github.com/linuxdeepin/dde-network-utils"
-  protected_branches:
-  - master
-  type: public
-- name: dde-polkit-agent 
-  description: "dde polkit agent"
-  upstream: "https://github.com/linuxdeepin/dde-polkit-agent"
-  protected_branches:
-  - master
-  type: public
-- name: dde-qt-dbus-factory
-  description: "dde qt dbus factory"
-  upstream: "https://github.com/linuxdeepin/dde-qt-dbus-factory"
-  protected_branches:
-  - master
-  type: public
-- name: dde-session-shell
-  description: "dde session shell"
-  upstream: "https://github.com/linuxdeepin/dde-session-shell"
-  protected_branches:
-  - master
-  type: public
-- name: dde-session-ui
-  description: "dde session ui"
-  upstream: "https://github.com/linuxdeepin/dde-session-ui"
-  protected_branches:
-  - master
-  type: public
-- name: deepin-anything
-  description: "deepin anything"
-  upstream: "https://github.com/linuxdeepin/deepin-anything"
-  protected_branches:
-  - master
-  type: public
-- name: deepin-compressor
-  description: "deepin compressor"
-  upstream: "https://github.com/linuxdeepin/deepin-compressor"
-  protected_branches:
-  - master
-  type: public
-- name: deepin-desktop-base
-  description: "deepin desktop base"
-  upstream: "https://github.com/linuxdeepin/deepin-desktop-base"
-  protected_branches:
-  - master
-  type: public
-- name: deepin-desktop-schemas
-  description: "deepin desktop schemas"
-  upstream: "https://github.com/linuxdeepin/deepin-desktop-schemas"
-  protected_branches:
-  - master
-  type: public
-- name: deepin-devicemanager
-  description: "deepin devicemanager"
-  upstream: "https://github.com/linuxdeepin/deepin-devicemanager"
-  protected_branches:
-  - master
-  type: public
-- name: deepin-editor
-  description: "deepin editor"
-  upstream: "https://github.com/linuxdeepin/deepin-editor"
-  protected_branches:
-  - master
-  type: public
-- name: deepin-font-manager
-  description: "deepin font manager"
-  upstream: "https://github.com/linuxdeepin/deepin-font-manager"
-  protected_branches:
-  - master
-  type: public
-- name: deepin-graphics-driver-manager
-  description: "deepin graphics driver manager"
-  upstream: "https://github.com/linuxdeepin/deepin-graphics-driver-manager"
-  protected_branches:
-  - master
-  type: public
-- name: deepin-image-viewer
-  description: "deepin image viewer"
-  upstream: "https://github.com/linuxdeepin/deepin-image-viewer"
-  protected_branches:
-  - master
-  type: public
-- name: deepin-log-viewer
-  description: "deepin log viewer"
-  upstream: "https://github.com/linuxdeepin/deepin-log-viewer"
-  protected_branches:
-  - master
-  type: public
-- name: deepin-manual
-  description: "deepin manual"
-  upstream: "https://github.com/linuxdeepin/deepin-manual"
-  protected_branches:
-  - master
-  type: public
-- name: deepin-menu
-  description: "deepin menu"
-  upstream: "https://github.com/linuxdeepin/deepin-menu"
-  protected_branches:
-  - master
-  type: public
-- name: deepin-reader
-  description: "deepin reader"
-  upstream: "https://github.com/linuxdeepin/deepin-reader"
-  protected_branches:
-  - master
-  type: public
-- name: deepin-shortcut-viewer
-  description: "deepin shortcut viewer"
-  upstream: "https://github.com/linuxdeepin/deepin-shortcut-viewer"
-  protected_branches:
-  - master
-  type: public
-- name: deepin-system-monitor
-  description: "deepin system monitor"
-  upstream: "https://github.com/linuxdeepin/deepin-system-monitor"
-  protected_branches:
-  - master
-  type: public
-- name: deepin-terminal
-  description: "deepin terminal"
-  upstream: "https://github.com/linuxdeepin/deepin-terminal"
-  protected_branches:
-  - master
-  type: public
-- name: deepin-turbo
-  description: "deepin turbo"
-  upstream: "https://github.com/linuxdeepin/deepin-turbo"
-  protected_branches:
-  - master
-  type: public
-- name: dtkcore
-  description: "dtkcore"
-  upstream: "https://github.com/linuxdeepin/dtkcore"
-  protected_branches:
-  - master
-  type: public
-- name: dtkgui
-  description: "dtkgui"
-  upstream: "https://github.com/linuxdeepin/dtkgui"
-  protected_branches:
-  - master
-  type: public
-- name: dtkwidget
-  description: "dtkwidget"
-  upstream: "https://github.com/linuxdeepin/dtkwidget"
-  protected_branches:
-  - master
-  type: public
-- name: dtkwm
-  description: "dtkwm"
-  upstream: "https://github.com/linuxdeepin/dtkwm"
-  protected_branches:
-  - master
-  type: public
-- name: deepin-icon-theme
-  description: "deepin icon theme"
-  upstream: "https://github.com/linuxdeepin/deepin-icon-theme"
-  protected_branches:
-  - master
-  type: public
-- name: qt5integration
-  description: "qt5integration"
-  upstream: "https://github.com/linuxdeepin/qt5integration"
-  protected_branches:
-  - master
-  type: public
-- name: udisks2-qt5
-  description: "udisks2-qt5"
-  upstream: "https://github.com/linuxdeepin/udisks2-qt5"
-  protected_branches:
-  - master
-  type: public
-- name: startdde
-  description: "startdde"
-  upstream: "https://github.com/linuxdeepin/startdde"
-  protected_branches:
-  - master
-  type: public
-- name: deepin-wallpapers
-  description: "deepin wallpapers"
-  upstream: "https://github.com/linuxdeepin/deepin-wallpapers"
-  protected_branches:
-  - master
-  type: public
-- name: deepin-gtk-theme
-  description: "deepin gtk theme"
-  upstream: "https://github.com/linuxdeepin/deepin-gtk-theme"
   protected_branches:
   - master
   type: public
@@ -2394,6 +2388,12 @@ repositories:
 - name: ensmallen
   description: flexible C++ library for efficient numerical optimization
   upstream: https://www.ensmallen.org/
+  protected_branches:
+  - master
+  type: public
+- name: entr
+  description: entr is a file watcher runs specified commands when target files change
+  upstream: http://eradman.com/entrproject/
   protected_branches:
   - master
   type: public
@@ -2894,6 +2894,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: garcon
+  upstream: http://xfce.org/
+  description: Implementation of the freedesktop.org menu specification
+  protected_branches:
+  - master
+  type: public
 - name: gavl
   description: ''
   protected_branches:
@@ -2987,6 +2993,36 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: geneus
+  description: gencpp package that belongs to THE ROS-COMM
+  upstream: https://github.com/jsk-ros-pkg/geneus
+  protected_branches:
+  - master
+  type: public
+- name: genlisp
+  description: gencpp package that belongs to THE ROS-COMM
+  upstream: https://github.com/ros/genlisp
+  protected_branches:
+  - master
+  type: public
+- name: genmsg
+  description: gencpp package that belongs to THE ROS-COMM
+  upstream: https://github.com/ros/genmsg
+  protected_branches:
+  - master
+  type: public
+- name: gennodejs
+  description: gencpp package that belongs to THE ROS-COMM
+  upstream: https://github.com/RethinkRobotics-opensource/gennodejs
+  protected_branches:
+  - master
+  type: public
+- name: genpy
+  description: gencpp package that belongs to THE ROS-COMM
+  upstream: https://github.com/ros/genpy
+  protected_branches:
+  - master
+  type: public
 - name: geoclue2
   description: ''
   protected_branches:
@@ -3076,6 +3112,12 @@ repositories:
   type: public
 - name: giflib
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: gigolo
+  upstream: http://goodies.xfce.org/projects/applications/gigolo/
+  description: GIO/GVFS management application
   protected_branches:
   - master
   type: public
@@ -3492,6 +3534,12 @@ repositories:
   type: public
 - name: gobject-introspection
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: goebpf
+  description: Library to work with eBPF programs from Go
+  upstream: https://github.com/dropbox/goebpf
   protected_branches:
   - master
   type: public
@@ -4009,6 +4057,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: hddtemp
+  upstream: http://savannah.nongnu.org/projects/hddtemp/
+  description: Hard disk temperature tool
+  protected_branches:
+  - master
+  type: public
 - name: hdf5
   description: ''
   protected_branches:
@@ -4186,7 +4240,7 @@ repositories:
   type: public
 - name: hunspell-ca
   description: The dictionaries for Catalan hunspell
-  upstream: http://www.softcatala.org/wiki/Projectes/Corrector_ortogràfic
+  upstream: "http://www.softcatala.org/wiki/Projectes/Corrector_ortogr\xE0fic"
   protected_branches:
   - master
   type: public
@@ -4261,7 +4315,7 @@ repositories:
   - master
   type: public
 - name: hunspell-fa
-  description:  Farsi hunspell dictionaries
+  description: Farsi hunspell dictionaries
   upstream: http://aspell.net/
   protected_branches:
   - master
@@ -4279,19 +4333,19 @@ repositories:
   - master
   type: public
 - name: hunspell-fr
-  description:  hunspell dictionaries for French
+  description: hunspell dictionaries for French
   upstream: http://www.dicollecte.org/home.php?prj=fr
   protected_branches:
   - master
   type: public
 - name: hunspell-fy
-  description:  Frisian hunspell dictionaries
+  description: Frisian hunspell dictionaries
   upstream: http://www.mozilla-nl.org/projecten/frysk
   protected_branches:
   - master
   type: public
 - name: hunspell-ga
-  description:  hunspell dictionaries for Irish
+  description: hunspell dictionaries for Irish
   upstream: https://cadhan.com/gaelspell
   protected_branches:
   - master
@@ -4513,13 +4567,13 @@ repositories:
   - master
   type: public
 - name: hunspell-wa
-  description:  The hunspell dictionaries for Walloon
+  description: The hunspell dictionaries for Walloon
   upstream: http://chanae.walon.org/walon/aspell.php
   protected_branches:
   - master
   type: public
 - name: hunspell-zu
-  description:  Zulu hunspell dictionaries
+  description: Zulu hunspell dictionaries
   upstream: https://extensions.openoffice.org/en/project/zulu-spell-checker
   protected_branches:
   - master
@@ -4557,13 +4611,13 @@ repositories:
   - master
   type: public
 - name: hyphen-es
-  description:  Spanish hyphenation rules
+  description: Spanish hyphenation rules
   upstream: https://github.com/sbosio/rla-es/tree/master/separacion
   protected_branches:
   - master
   type: public
 - name: hyphen-eu
-  description:  Basque hyphenation rules
+  description: Basque hyphenation rules
   upstream: http://tp.lc.ehu.es/jma/basque.html
   protected_branches:
   - master
@@ -4623,7 +4677,7 @@ repositories:
   - master
   type: public
 - name: hyphen-nl
-  description:  Dutch hyphenation rules
+  description: Dutch hyphenation rules
   upstream: http://wiki.services.openoffice.org/wiki/Dictionaries
   protected_branches:
   - master
@@ -4761,7 +4815,8 @@ repositories:
   - master
   type: public
 - name: icedtea-web
-  description: 'IcedTea-Web is an open source implementation of JSR-56 that is better known as Java Web Start'
+  description: IcedTea-Web is an open source implementation of JSR-56 that is better
+    known as Java Web Start
   upstream: https://github.com/AdoptOpenJDK/IcedTea-Web
   protected_branches:
   - master
@@ -6367,6 +6422,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: libglademm24
+  upstream: http://www.gtkmm.org/
+  description: C++ wrapper for libglade
+  protected_branches:
+  - master
+  type: public
 - name: libglvnd
   description: ''
   protected_branches:
@@ -6384,6 +6445,12 @@ repositories:
   type: public
 - name: libgnomecanvas
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: libgnomecanvasmm26
+  upstream: http://www.gtkmm.org/
+  description: C++ interface for Gnome libs (a GUI library for X)
   protected_branches:
   - master
   type: public
@@ -6612,6 +6679,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: libkefir
+  description: Convert network filtering rules from various formats into BPF programs
+  upstream: https://github.com/Netronome/libkefir
+  protected_branches:
+  - master
+  type: public
 - name: libkkc
   description: ''
   protected_branches:
@@ -6763,6 +6836,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: libmpd
+  upstream: http://gmpc.wikia.com/wiki/Gnome_Music_Player_Client
+  description: Music Player Daemon Library
+  protected_branches:
+  - master
+  type: public
 - name: libmpeg2
   description: The decoder libraries for MPEG-2
   upstream: http://libmpeg2.sourceforge.net
@@ -6885,12 +6964,6 @@ repositories:
   protected_branches:
   - master
   type: private
-- name: libopenraw
-  description: Support digital camera RAW files
-  upstream: http://libopenraw.freedesktop.org/libopenraw
-  protected_branches:
-  - master
-  type: public
 - name: libomp
   description: ''
   protected_branches:
@@ -6898,6 +6971,12 @@ repositories:
   type: private
 - name: libomxil-bellagio
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: libopenraw
+  description: Support digital camera RAW files
+  upstream: http://libopenraw.freedesktop.org/libopenraw
   protected_branches:
   - master
   type: public
@@ -7336,7 +7415,7 @@ repositories:
   - master
   type: public
 - name: libvirt
-  description: 'libvirt is a toolkit to manage virtualization platforms.'
+  description: libvirt is a toolkit to manage virtualization platforms.
   upstream: https://gitee.com/openeuler/libvirt
   protected_branches:
   - master
@@ -7533,6 +7612,13 @@ repositories:
 - name: lightdm-gtk
   description: A LightDM greeter that uses the GTK3 toolkit
   upstream: https://launchpad.net/lightdm-gtk-greeter
+  protected_branches:
+  - master
+  type: public
+- name: lilypond
+  description: LilyPond is a music engraving program, devoted to producing the highest-quality
+    sheet music possible
+  upstream: http://git.savannah.gnu.org/gitweb/?p=lilypond.git
   protected_branches:
   - master
   type: public
@@ -8242,17 +8328,17 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: maven-remote-resources-plugin
+  description: ''
+  protected_branches:
+  - master
+  type: private
 - name: maven-replacer
   description: Replacer Maven Mojo
   upstream: https://github.com/beiliubei/maven-replacer-plugin
   protected_branches:
   - master
   type: public
-- name: maven-remote-resources-plugin
-  description: ''
-  protected_branches:
-  - master
-  type: private
 - name: maven-reporting-api
   description: ''
   protected_branches:
@@ -8632,6 +8718,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: mousepad
+  upstream: http://xfce.org/
+  description: Simple text editor for Xfce desktop environment
+  protected_branches:
+  - master
+  type: public
 - name: mousetweaks
   description: ''
   protected_branches:
@@ -8727,6 +8819,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: musescore
+  description: MuseScore is an open source and free music notation software
+  upstream: https://github.com/musescore/MuseScore
+  protected_branches:
+  - master
+  type: public
 - name: mutt
   description: ''
   protected_branches:
@@ -9523,6 +9621,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: orage
+  upstream: http://www.xfce.org/
+  description: Time-managing application for Xfce4
+  protected_branches:
+  - master
+  type: public
 - name: orc
   description: ''
   protected_branches:
@@ -9915,6 +10019,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: parole
+  upstream: http://goodies.xfce.org/projects/applications/parole
+  description: Media player for the Xfce desktop
+  protected_branches:
+  - master
+  type: public
 - name: parted
   description: ''
   protected_branches:
@@ -10073,12 +10183,6 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: perl-AnyEvent
-  description: The DBI of event loog programming
-  upstream: https://metacpan.org/release/AnyEvent
-  protected_branches:
-  - master
-  type: public
 - name: perl-Any-Moose
   upstream: http://search.cpan.org/dist/Any-Moose/
   description: Any
@@ -10088,6 +10192,12 @@ repositories:
 - name: perl-Any-URI-Escape
   upstream: http://search.cpan.org/dist/Any-URI-Escape/
   description: Load URI
+  protected_branches:
+  - master
+  type: public
+- name: perl-AnyEvent
+  description: The DBI of event loog programming
+  upstream: https://metacpan.org/release/AnyEvent
   protected_branches:
   - master
   type: public
@@ -18969,6 +19079,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: platform_manifests
+  description: save default.xml for repo android source codes
+  upstream: https://github.com/anbox/platform_manifests
+  protected_branches:
+  - master
+  type: public
 - name: platform_packages_apps_DeskClock
   description: DeskClock application source codes
   upstream: https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/packages/apps/DeskClock
@@ -19145,6 +19261,13 @@ repositories:
   type: public
 - name: poly2tri
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: polycube
+  description: eBPF/XDP-based software framework for fast network services running
+    in the Linux kernel.
+  upstream: https://github.com/polycube-network/polycube
   protected_branches:
   - master
   type: public
@@ -19507,15 +19630,15 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: python-Flask-Admin
-  upstream: https://github.com/flask-admin/flask-admin/
-  description: Simple and extensible admin interface framework for Flask
-  protected_branches:
-  - master
-  type: public
 - name: python-Flask-APScheduler
   description: Adds APScheduler support to Flask
   upstream: https://github.com/viniciuschiele/flask-apscheduler
+  protected_branches:
+  - master
+  type: public
+- name: python-Flask-Admin
+  upstream: https://github.com/flask-admin/flask-admin/
+  description: Simple and extensible admin interface framework for Flask
   protected_branches:
   - master
   type: public
@@ -19593,6 +19716,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-Flask-SQLAlchemy
+  description: Adds SQLAlchemy support to your Flask application
+  upstream: https://github.com/pallets/flask-sqlalchemy
+  protected_branches:
+  - master
+  type: public
 - name: python-Flask-Script
   upstream: http://github.com/smurfix/flask-script
   description: Scripting support for Flask
@@ -19602,12 +19731,6 @@ repositories:
 - name: python-Flask-Silk
   upstream: http://github.com/sublee/flask-silk
   description: Adds silk icons to your Flask application or blueprint, or extension.
-  protected_branches:
-  - master
-  type: public
-- name: python-Flask-SQLAlchemy
-  description: Adds SQLAlchemy support to your Flask application
-  upstream: https://github.com/pallets/flask-sqlalchemy
   protected_branches:
   - master
   type: public
@@ -21285,6 +21408,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-dasbus
+  description: DBus library in Python 3
+  upstream: https://pypi.python.org/pypi/dasbus
+  protected_branches:
+  - master
+  type: public
 - name: python-dataclasses
   upstream: https://github.com/ericvsmith/dataclasses
   description: A backport of the dataclasses module for Python 3.6
@@ -21437,6 +21566,12 @@ repositories:
 - name: python-distro-info
   upstream: UNKNOWN
   description: UNKNOWN
+  protected_branches:
+  - master
+  type: public
+- name: python-distutils-extra
+  upstream: https://launchpad.net/python-distutils-extra
+  description: Integrate more support into Python's distutils
   protected_branches:
   - master
   type: public
@@ -22017,7 +22152,8 @@ repositories:
   - master
   type: public
 - name: python-flask-restx
-  description: Fully featured framework for fast, easy and documented API development with Flask
+  description: Fully featured framework for fast, easy and documented API development
+    with Flask
   upstream: https://github.com/python-restx/flask-restx
   protected_branches:
   - master
@@ -23309,7 +23445,8 @@ repositories:
   - master
   type: public
 - name: python-marshmallow
-  description: Python library for converting complex datatypes to and from primitive types
+  description: Python library for converting complex datatypes to and from primitive
+    types
   upstream: http://marshmallow.readthedocs.org/
   protected_branches:
   - master
@@ -24703,7 +24840,8 @@ repositories:
   - master
   type: public
 - name: python-pyinstaller
-  description: PyInstaller bundles a Python application and all its dependencies into a single package
+  description: PyInstaller bundles a Python application and all its dependencies into
+    a single package
   upstream: http://www.pyinstaller.org
   protected_branches:
   - master
@@ -27193,7 +27331,7 @@ repositories:
   - master
   type: private
 - name: qemu
-  description: 'qemu is a generic and open source machine emulator and virtualizer.'
+  description: qemu is a generic and open source machine emulator and virtualizer.
   upstream: https://gitee.com/openeuler/qemu
   protected_branches:
   - master
@@ -27411,6 +27549,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: qt5integration
+  description: qt5integration
+  upstream: https://github.com/linuxdeepin/qt5integration
+  protected_branches:
+  - master
+  type: public
 - name: qtwebkit
   description: ''
   protected_branches:
@@ -27597,6 +27741,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: ristretto
+  upstream: http://goodies.xfce.org/projects/applications/ristretto/
+  description: Image-viewer for the Xfce desktop environment
+  protected_branches:
+  - master
+  type: public
 - name: rng-tools
   description: ''
   protected_branches:
@@ -27749,8 +27899,9 @@ repositories:
   - master
   type: public
 - name: rust
-  description: 'Rust is a multi-paradigm programming language focused on performance and safety, especially safe concurrenty.'
-  upstream: 'https://rust-lang.org'
+  description: Rust is a multi-paradigm programming language focused on performance
+    and safety, especially safe concurrenty.
+  upstream: https://rust-lang.org
   protected_branches:
   - master
   type: public
@@ -28254,6 +28405,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: startdde
+  description: startdde
+  upstream: https://github.com/linuxdeepin/startdde
+  protected_branches:
+  - master
+  type: public
 - name: startup-notification
   description: ''
   protected_branches:
@@ -28359,7 +28516,8 @@ repositories:
   - master
   type: public
 - name: syscontainer-tools
-  description: A syscontainer tool work with isulad with hook support and provides enhanced functions.
+  description: A syscontainer tool work with isulad with hook support and provides
+    enhanced functions.
   upstream: https://gitee.com/openeuler/syscontainer-tools
   protected_branches:
   - master
@@ -28598,6 +28756,36 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: thunar-archive-plugin
+  upstream: http://goodies.xfce.org/projects/thunar-plugins/thunar-archive-plugin
+  description: Archive plugin for the Thunar file manager
+  protected_branches:
+  - master
+  type: public
+- name: thunar-media-tags-plugin
+  upstream: http://goodies.xfce.org/projects/thunar-plugins/thunar-media-tags-plugin
+  description: Media Tags plugin for the Thunar file manager
+  protected_branches:
+  - master
+  type: public
+- name: thunar-vcs-plugin
+  upstream: http://goodies.xfce.org/projects/thunar-plugins/thunar-vcs-plugin
+  description: Version Contol System plugin for the Thunar filemanager
+  protected_branches:
+  - master
+  type: public
+- name: thunar-volman
+  upstream: http://goodies.xfce.org/projects/thunar-plugins/thunar-volman
+  description: Automatic management of removable drives and media for Thunar
+  protected_branches:
+  - master
+  type: public
+- name: thunarx-python
+  upstream: http://goodies.xfce.org/projects/bindings/thunarx-python
+  description: Python bindings for the Thunar Extension Framework
+  protected_branches:
+  - master
+  type: public
 - name: thx
   description: ''
   protected_branches:
@@ -28811,6 +28999,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: tumbler
+  upstream: http://git.xfce.org/xfce/tumbler/
+  description: D-Bus service for applications to request thumbnails
+  protected_branches:
+  - master
+  type: public
 - name: tuna
   description: Application tuning GUI and command line utility
   protected_branches:
@@ -28858,6 +29052,12 @@ repositories:
   type: public
 - name: udisks2
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: udisks2-qt5
+  description: udisks2-qt5
+  upstream: https://github.com/linuxdeepin/udisks2-qt5
   protected_branches:
   - master
   type: public
@@ -29149,6 +29349,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: uwsgi
+  description: Fast, self-healing, application container server
+  upstream: https://github.com/unbit/uwsgi
+  protected_branches:
+  - master
+  type: public
 - name: v2v-conversion-host
   description: ''
   protected_branches:
@@ -29246,6 +29452,12 @@ repositories:
   type: public
 - name: virt-what
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: vnpy
+  description: A quantitative trading for traders
+  upstream: https://github.com/vnpy/vnpy
   protected_branches:
   - master
   type: public
@@ -29423,6 +29635,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: xarchiver
+  upstream: https://github.com/ib/xarchiver
+  description: Archive manager for Xfce
+  protected_branches:
+  - master
+  type: public
 - name: xbean
   description: ''
   protected_branches:
@@ -29508,9 +29726,309 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: xfburn
+  upstream: http://goodies.xfce.org/projects/applications/xfburn
+  description: Simple CD burning tool for Xfce
+  protected_branches:
+  - master
+  type: public
+- name: xfce-polkit
+  upstream: https://github.com/ncopa/xfce-polkit
+  description: Simple PolicyKit authentication agent for Xfce
+  protected_branches:
+  - master
+  type: public
+- name: xfce-theme-manager
+  upstream: https://github.com/KeithDHedger/Xfce-Theme-Manager
+  description: A theme manager for Xfce
+  protected_branches:
+  - master
+  type: public
+- name: xfce4-appfinder
+  upstream: http://www.xfce.org/
+  description: Appfinder for the Xfce4 Desktop Environment
+  protected_branches:
+  - master
+  type: public
+- name: xfce4-battery-plugin
+  upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-battery-plugin
+  description: Battery monitor for the Xfce panel
+  protected_branches:
+  - master
+  type: public
+- name: xfce4-calculator-plugin
+  upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-calculator-plugin
+  description: A calculator plugin for the Xfce4 panel
+  protected_branches:
+  - master
+  type: public
+- name: xfce4-clipman-plugin
+  upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-clipman-plugin
+  description: Clipboard manager plugin for the Xfce panel
+  protected_branches:
+  - master
+  type: public
+- name: xfce4-cpufreq-plugin
+  upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-cpufreq-plugin
+  description: CPU frequency scaling plugin for the Xfce4 panel
+  protected_branches:
+  - master
+  type: public
+- name: xfce4-cpugraph-plugin
+  upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-cpugraph-plugin
+  description: CPU monitor for the Xfce panel
+  protected_branches:
+  - master
+  type: public
+- name: xfce4-datetime-plugin
+  upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-datetime-plugin
+  description: Date/time plugin for the Xfce panel
+  protected_branches:
+  - master
+  type: public
+- name: xfce4-dev-tools
+  upstream: http://xfce.org/~benny/projects/xfce4-dev-tools/
+  description: Xfce developer tools
+  protected_branches:
+  - master
+  type: public
+- name: xfce4-dict
+  upstream: http://goodies.xfce.org/projects/applications/xfce4-dict
+  description: A Dictionary Client for the Xfce desktop environment
+  protected_branches:
+  - master
+  type: public
+- name: xfce4-diskperf-plugin
+  upstream: http://goodies.xfce.org/panel-plugins/{xfce4-diskperf-plugin}
+  description: Disk performance plugin for the Xfce panel
+  protected_branches:
+  - master
+  type: public
+- name: xfce4-embed-plugin
+  upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-embed-plugin
+  description: Xfce panel plugin to embed various applications
+  protected_branches:
+  - master
+  type: public
+- name: xfce4-eyes-plugin
+  upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-eyes-plugin
+  description: Eyes for the Xfce panel
+  protected_branches:
+  - master
+  type: public
+- name: xfce4-fsguard-plugin
+  upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-fsguard-plugin
+  description: Filesystem-Guard plugin for the Xfce panel
+  protected_branches:
+  - master
+  type: public
+- name: xfce4-genmon-plugin
+  upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-genmon-plugin
+  description: Generic monitor plugin for the Xfce panel
+  protected_branches:
+  - master
+  type: public
+- name: xfce4-hardware-monitor-plugin
+  upstream: https://goodies.xfce.org/projects/panel-plugins/xfce4-hardware-monitor-plugin
+  description: Xfce4 panel plugin to monitor various hardware
+  protected_branches:
+  - master
+  type: public
+- name: xfce4-mailwatch-plugin
+  upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-mailwatch-plugin
+  description: Mail Watcher plugin for the Xfce panel
+  protected_branches:
+  - master
+  type: public
+- name: xfce4-mount-plugin
+  upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-mount-plugin
+  description: Mount/unmount utility for the Xfce panel
+  protected_branches:
+  - master
+  type: public
+- name: xfce4-mpc-plugin
+  upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-mpc-plugin
+  description: MPD client for the Xfce panel
+  protected_branches:
+  - master
+  type: public
+- name: xfce4-netload-plugin
+  upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-netload-plugin
+  description: Network-load monitor for the Xfce panel
+  protected_branches:
+  - master
+  type: public
+- name: xfce4-notes-plugin
+  upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-notes-plugin
+  description: Notes plugin for the Xfce panel
+  protected_branches:
+  - master
+  type: public
+- name: xfce4-notifyd
+  upstream: http://goodies.xfce.org/projects/applications/xfce4-notifyd
+  description: Simple notification daemon for Xfce
+  protected_branches:
+  - master
+  type: public
+- name: xfce4-panel
+  upstream: http://www.xfce.org/
+  description: Next generation panel for Xfce
+  protected_branches:
+  - master
+  type: public
+- name: xfce4-panel-profiles
+  upstream: https://git.xfce.org/apps/xfce4-panel-profiles/about/
+  description: A simple application to manage Xfce panel layouts
+  protected_branches:
+  - master
+  type: public
+- name: xfce4-places-plugin
+  upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-places-plugin
+  description: Places menu for the Xfce panel
+  protected_branches:
+  - master
+  type: public
+- name: xfce4-power-manager
+  upstream: http://goodies.xfce.org/projects/applications/xfce4-power-manager
+  description: Power management for the Xfce desktop environment
+  protected_branches:
+  - master
+  type: public
+- name: xfce4-pulseaudio-plugin
+  upstream: https://github.com/andrzej-r/xfce4-pulseaudio-plugin
+  description: Pulseaudio plugin for Xfce4
+  protected_branches:
+  - master
+  type: public
+- name: xfce4-screensaver
+  upstream: https://git.xfce.org/apps/xfce4-screensaver/
+  description: Screensaver application for Xfce Desktop
+  protected_branches:
+  - master
+  type: public
+- name: xfce4-screenshooter
+  upstream: http://goodies.xfce.org/projects/applications/xfce4-screenshooter
+  description: Screenshot utility for the Xfce desktop
+  protected_branches:
+  - master
+  type: public
+- name: xfce4-sensors-plugin
+  upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-sensors-plugin
+  description: Sensors plugin for the Xfce panel
+  protected_branches:
+  - master
+  type: public
+- name: xfce4-session
+  upstream: http://www.xfce.org/
+  description: Xfce session manager
+  protected_branches:
+  - master
+  type: public
+- name: xfce4-settings
+  upstream: http://www.xfce.org/
+  description: Settings Manager for Xfce
+  protected_branches:
+  - master
+  type: public
+- name: xfce4-smartbookmark-plugin
+  upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-smartbookmark-plugin
+  description: Smart bookmarks for the Xfce panel
+  protected_branches:
+  - master
+  type: public
+- name: xfce4-statusnotifier-plugin
+  upstream: http://www.xfce.org/
+  description: Panel area status notifier plugin for Xfce4
+  protected_branches:
+  - master
+  type: public
+- name: xfce4-systemload-plugin
+  upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-systemload-plugin
+  description: Systemload monitor for the Xfce panel
+  protected_branches:
+  - master
+  type: public
+- name: xfce4-taskmanager
+  upstream: http://goodies.xfce.org/projects/applications/xfce4-taskmanager
+  description: Taskmanager for the Xfce desktop environment
+  protected_branches:
+  - master
+  type: public
+- name: xfce4-terminal
+  upstream: http://docs.xfce.org/apps/terminal/start
+  description: Terminal Emulator for the Xfce Desktop environment
+  protected_branches:
+  - master
+  type: public
+- name: xfce4-time-out-plugin
+  upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-time-out-plugin
+  description: Xfce panel plugin for taking breaks from the computer
+  protected_branches:
+  - master
+  type: public
+- name: xfce4-timer-plugin
+  upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-timer-plugin
+  description: Timer for the Xfce panel
+  protected_branches:
+  - master
+  type: public
+- name: xfce4-vala
+  upstream: http://wiki.xfce.org/vala-bindings
+  description: Vala bindings for the Xfce framework
+  protected_branches:
+  - master
+  type: public
+- name: xfce4-verve-plugin
+  upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-verve-plugin
+  description: Comfortable command line plugin for the Xfce panel
+  protected_branches:
+  - master
+  type: public
+- name: xfce4-volumed
+  upstream: https://git.xfce.org/apps/xfce4-volumed-pulse/
+  description: Daemon to add additional functionality to the volume keys of the keyboard
+  protected_branches:
+  - master
+  type: public
+- name: xfce4-wavelan-plugin
+  upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-wavelan-plugin
+  description: WaveLAN plugin for the Xfce panel
+  protected_branches:
+  - master
+  type: public
+- name: xfce4-weather-plugin
+  upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-weather-plugin
+  description: Weather plugin for the Xfce panel
+  protected_branches:
+  - master
+  type: public
+- name: xfce4-whiskermenu-plugin
+  upstream: http://gottcode.org/xfce4-whiskermenu-plugin/
+  description: An alternate application launcher for Xfce
+  protected_branches:
+  - master
+  type: public
+- name: xfce4-xkb-plugin
+  upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-xkb-plugin
+  description: XKB layout switcher for the Xfce panel
+  protected_branches:
+  - master
+  type: public
 - name: xfconf
   description: Hierarchical (tree-like) configuration system
   upstream: http://www.xfce.org/
+  protected_branches:
+  - master
+  type: public
+- name: xfdashboard
+  upstream: http://goodies.xfce.org/projects/applications/xfdashboard/start
+  description: GNOME shell like dashboard for Xfce
+  protected_branches:
+  - master
+  type: public
+- name: xfdesktop
+  upstream: http://www.xfce.org/
+  description: Desktop manager for the Xfce Desktop Environment
   protected_branches:
   - master
   type: public
@@ -29521,6 +30039,12 @@ repositories:
   type: public
 - name: xfsprogs
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: xfwm4
+  upstream: http://www.xfce.org/
+  description: Next generation window manager for Xfce
   protected_branches:
   - master
   type: public
@@ -29929,96 +30453,6 @@ repositories:
   type: private
 - name: zziplib
   description: ''
-  protected_branches:
-  - master
-  type: public
-- name: platform_manifests
-  description: "save default.xml for repo android source codes"
-  upstream: "https://github.com/anbox/platform_manifests"
-  protected_branches:
-  - master
-  type: public
-- name: python-dasbus
-  description: 'DBus library in Python 3'
-  upstream: https://pypi.python.org/pypi/dasbus
-  protected_branches:
-  - master
-  type: public
-- name: uwsgi
-  description: Fast, self-healing, application container server
-  upstream: https://github.com/unbit/uwsgi
-  protected_branches:
-  - master
-  type: public
-- name: goebpf
-  description: Library to work with eBPF programs from Go
-  upstream: https://github.com/dropbox/goebpf
-  protected_branches:
-  - master
-  type: public
-- name: polycube
-  description: eBPF/XDP-based software framework for fast network services running in the Linux kernel.
-  upstream: https://github.com/polycube-network/polycube
-  protected_branches:
-  - master
-  type: public
-- name: libkefir
-  description: Convert network filtering rules from various formats into BPF programs
-  upstream: https://github.com/Netronome/libkefir
-  protected_branches:
-  - master
-  type: public
-- name: vnpy
-  description: 'A quantitative trading for traders'
-  upstream: https://github.com/vnpy/vnpy
-  protected_branches:
-  - master
-  type: public
-- name: musescore 
-  description: 'MuseScore is an open source and free music notation software'
-  upstream: https://github.com/musescore/MuseScore
-  protected_branches:
-  - master
-  type: public
-- name: lilypond
-  description: 'LilyPond is a music engraving program, devoted to producing the highest-quality sheet music possible'
-  upstream: http://git.savannah.gnu.org/gitweb/?p=lilypond.git
-  protected_branches:
-  - master
-  type: public
-- name: geneus
-  description: "gencpp package that belongs to THE ROS-COMM"
-  upstream: "https://github.com/jsk-ros-pkg/geneus"
-  protected_branches:
-  - master
-  type: public
-- name: genlisp
-  description: "gencpp package that belongs to THE ROS-COMM"
-  upstream: "https://github.com/ros/genlisp"
-  protected_branches:
-  - master
-  type: public
-- name: genpy
-  description: "gencpp package that belongs to THE ROS-COMM"
-  upstream: "https://github.com/ros/genpy"
-  protected_branches:
-  - master
-  type: public
-- name: gennodejs
-  description: "gencpp package that belongs to THE ROS-COMM"
-  upstream: "https://github.com/RethinkRobotics-opensource/gennodejs"
-  protected_branches:
-  - master
-  type: public
-- name: genmsg
-  description: "gencpp package that belongs to THE ROS-COMM"
-  upstream: "https://github.com/ros/genmsg"
-  protected_branches:
-  - master
-  type: public
-- name: entr
-  description: "entr is a file watcher runs specified commands when target files change"
-  upstream: "http://eradman.com/entrproject/"
   protected_branches:
   - master
   type: public

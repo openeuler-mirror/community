@@ -5546,12 +5546,83 @@ sigs:
   - openeuler/release-management
 - name: xfce
   repositories:
+  - src-openeuler/Thunar
+  - src-openeuler/catfish
   - src-openeuler/exo
+  - src-openeuler/garcon
+  - src-openeuler/gigolo
+  - src-openeuler/hddtemp
+  - src-openeuler/libglademm24
+  - src-openeuler/libgnomecanvasmm26
+  - src-openeuler/libmpd
   - src-openeuler/libxfce4ui
   - src-openeuler/libxfce4util
   - src-openeuler/lightdm
   - src-openeuler/lightdm-gtk
+  - src-openeuler/mousepad
+  - src-openeuler/orage
+  - src-openeuler/parole
+  - src-openeuler/python-distutils-extra
+  - src-openeuler/ristretto
+  - src-openeuler/thunar-archive-plugin
+  - src-openeuler/thunar-media-tags-plugin
+  - src-openeuler/thunar-vcs-plugin
+  - src-openeuler/thunar-volman
+  - src-openeuler/thunarx-python
+  - src-openeuler/tumbler
+  - src-openeuler/xarchiver
+  - src-openeuler/xfburn
+  - src-openeuler/xfce-polkit
+  - src-openeuler/xfce-theme-manager
+  - src-openeuler/xfce4-appfinder
+  - src-openeuler/xfce4-battery-plugin
+  - src-openeuler/xfce4-calculator-plugin
+  - src-openeuler/xfce4-clipman-plugin
+  - src-openeuler/xfce4-cpufreq-plugin
+  - src-openeuler/xfce4-cpugraph-plugin
+  - src-openeuler/xfce4-datetime-plugin
+  - src-openeuler/xfce4-dev-tools
+  - src-openeuler/xfce4-dict
+  - src-openeuler/xfce4-diskperf-plugin
+  - src-openeuler/xfce4-embed-plugin
+  - src-openeuler/xfce4-eyes-plugin
+  - src-openeuler/xfce4-fsguard-plugin
+  - src-openeuler/xfce4-genmon-plugin
+  - src-openeuler/xfce4-hardware-monitor-plugin
+  - src-openeuler/xfce4-mailwatch-plugin
+  - src-openeuler/xfce4-mount-plugin
+  - src-openeuler/xfce4-mpc-plugin
+  - src-openeuler/xfce4-netload-plugin
+  - src-openeuler/xfce4-notes-plugin
+  - src-openeuler/xfce4-notifyd
+  - src-openeuler/xfce4-panel
+  - src-openeuler/xfce4-panel-profiles
+  - src-openeuler/xfce4-places-plugin
+  - src-openeuler/xfce4-power-manager
+  - src-openeuler/xfce4-pulseaudio-plugin
+  - src-openeuler/xfce4-screensaver
+  - src-openeuler/xfce4-screenshooter
+  - src-openeuler/xfce4-sensors-plugin
+  - src-openeuler/xfce4-session
+  - src-openeuler/xfce4-settings
+  - src-openeuler/xfce4-smartbookmark-plugin
+  - src-openeuler/xfce4-statusnotifier-plugin
+  - src-openeuler/xfce4-systemload-plugin
+  - src-openeuler/xfce4-taskmanager
+  - src-openeuler/xfce4-terminal
+  - src-openeuler/xfce4-time-out-plugin
+  - src-openeuler/xfce4-timer-plugin
+  - src-openeuler/xfce4-vala
+  - src-openeuler/xfce4-verve-plugin
+  - src-openeuler/xfce4-volumed
+  - src-openeuler/xfce4-wavelan-plugin
+  - src-openeuler/xfce4-weather-plugin
+  - src-openeuler/xfce4-whiskermenu-plugin
+  - src-openeuler/xfce4-xkb-plugin
   - src-openeuler/xfconf
+  - src-openeuler/xfdashboard
+  - src-openeuler/xfdesktop
+  - src-openeuler/xfwm4
 - name: GNOME
   repositories:
   - src-openeuler/qgnomeplatform
