@@ -29956,3 +29956,9 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: entr
+  description: "entr is a file watcher runs specified commands when target files change"
+  upstream: "http://eradman.com/entrproject/"
+  protected_branches:
+  - master
+  type: public
