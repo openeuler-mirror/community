@@ -76,6 +76,8 @@ jingxiaolu
 - https://gitee.com/src-openeuler/iozone
 - https://gitee.com/src-openeuler/colordiff 
 - https://gitee.com/src-openeuler/delve
+- https://gitee.com/src-openeuler/zookeeper
+- https://gitee.com/src-openeuler/kafka
 
 - https://gitee.com/openeuler/pyporter
 - https://gitee.com/openeuler/perlporter

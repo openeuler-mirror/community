@@ -5581,6 +5581,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: kafka
+  description: A Distributed Streaming Platform
+  upstream: https://github.com/apache/kafka
+  protected_branches:
+  - master
+  type: public
 - name: kata-agent
   description: ''
   protected_branches:
@@ -30428,6 +30434,12 @@ repositories:
   type: public
 - name: zlib
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: zookeeper
+  description: a high-performance service for building distributed applications
+  upstream: https://github.com/apache/zookeeper
   protected_branches:
   - master
   type: public
