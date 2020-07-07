@@ -10490,12 +10490,6 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: pcsc-lite-ccid
-  description: A generic USB CCID(Chip/Smart card interface device) drivers
-  upstream: https://ccid.apdu.fr/files
-  protected_branches:
-  - master
-  type: public
 - name: pdfbox
   description: ''
   protected_branches:
@@ -28640,12 +28634,6 @@ repositories:
   protected_branches:
   - master
   type: private
-- name: snapd-glib
-  description: Library providing a GLib interface to snapd
-  upstream: https://github.com/snapcore/snapd-glib
-  protected_branches:
-  - master
-  type: public
 - name: snappy
   description: ''
   protected_branches:

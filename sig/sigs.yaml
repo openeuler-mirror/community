@@ -20,7 +20,6 @@ sigs:
   - openeuler/crystal-ci
 - name: Application
   repositories:
-  - src-openeuler/snapd-glib
   - src-openeuler/geronimo-parent-poms
   - src-openeuler/libabigail
   - src-openeuler/libmpeg2
@@ -1098,7 +1097,6 @@ sigs:
   repositories:
   - openeuler/kernel
   - src-openeuler/kernel
-  - src-openeuler/pcsc-lite-ccid
 - name: Others
   repositories:
   - src-openeuler/libopenraw
