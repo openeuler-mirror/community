@@ -4202,9 +4202,27 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: hunspell-ak
+  description: Hunspell dictionaries for Akan
+  upstream: http://kasahorow.org/content/akan-nsɛmfuaasekyerɛ
+  protected_branches:
+  - master
+  type: public
 - name: hunspell-am
   description: Hunspell dictionaries for Amharic
   upstream: http://www.cs.ru.nl/~biniam/geez/index.php
+  protected_branches:
+  - master
+  type: public
+- name: hunspell-ar
+  description: Hunspell dictionaries for Arabic
+  upstream: http://ayaspell.sourceforge.net/
+  protected_branches:
+  - master
+  type: public
+- name: hunspell-ast
+  description: Asturian hunspell dictionaries used in OpenOffice
+  upstream: http://softastur.org/
   protected_branches:
   - master
   type: public
@@ -4368,6 +4386,18 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: hunspell-gu
+  description: Gujarati hunspell dictionaries used in OpenOffice
+  upstream: https://github.com/eurolinux-enterprise-linux-sources/hunspell-gu.git
+  protected_branches:
+  - master
+  type: public
+- name: hunspell-gv
+  description: Manx hunspell dictionaries used in OpenOffice
+  upstream: https://github.com/eurolinux-enterprise-linux-sources/hunspell-gv.git
+  protected_branches:
+  - master
+  type: public
 - name: hunspell-hil
   description: Hiligaynon hunspell dictionaries
   upstream: http://extensions.services.openoffice.org/project/hunspell-hil
@@ -4398,6 +4428,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: hunspell-hy
+  description: Dictionaries for Armenian hunspell
+  upstream: http://sourceforge.net/projects/armspell
+  protected_branches:
+  - master
+  type: public
 - name: hunspell-ia
   description: Hunspell dictionaries for Interlingua
   upstream: http://wiki.services.openoffice.org/wiki/Dictionaries#Interlingua_.28x-register.29
@@ -4422,9 +4458,33 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: hunspell-kk
+  description: Kazakh hunspell dictionaries for hunspell used in OpenOffice
+  upstream: http://extensions.services.openoffice.org/project/dict-kk
+  protected_branches:
+  - master
+  type: public
+- name: hunspell-km
+  description: Khmer hunspell dictionaries for hunspell used in OpenOffice
+  upstream: http://www.sbbic.org/
+  protected_branches:
+  - master
+  type: public
 - name: hunspell-kn
   description: hunspell dictionaries for Kannada
   upstream: http://extensions.services.openoffice.org/project/kannada
+  protected_branches:
+  - master
+  type: public
+- name: hunspell-ko
+  description: Korean hunspell dictionaries for hunspell used in OpenOffice
+  upstream: https://github.com/spellcheck-ko/hunspell-dict-ko
+  protected_branches:
+  - master
+  type: public
+- name: hunspell-ku
+  description: Kurdish hunspell dictionaries for hunspell used in OpenOffice
+  upstream: https://sourceforge.net/projects/myspellkurdish/
   protected_branches:
   - master
   type: public
@@ -4488,6 +4548,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: hunspell-mos
+  description: Mossi hunspell dictionaries used in OpenOffice
+  upstream: http://www.abcburkina.net/content/view/377/48/lang,fr
+  protected_branches:
+  - master
+  type: public
 - name: hunspell-mr
   description: Hunspell dictionaries for Marathi
   upstream: https://wiki.openoffice.org/wiki/Dictionaries
@@ -4506,6 +4572,48 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: hunspell-nds
+  description: libraries for spell checker
+  upstream: http://aspell-nds.sourceforge.net/
+  protected_branches:
+  - master
+  type: public
+- name: hunspell-ne
+  description: Hunspell dictionaries for Nepali
+  upstream:  http://ltk.org.np/downloads
+  protected_branches:
+  - master
+  type: public
+- name: hunspell-nl
+  description: Hunspell dictionaries for Dutch
+  upstream:  https://www.opentaal.org/index.php
+  protected_branches:
+  - master
+  type: public
+- name: hunspell-no
+  description: Hunspell dictionaries for Norwegian
+  upstream: https://alioth-archive.debian.org/releases/spell-norwegian/spell-norwegian/
+  protected_branches:
+  - master
+  type: public
+- name: hunspell-nr
+  description: Hunspell dictionaries for Southern Ndebele
+  upstream:  https://extensions.openoffice.org/en/project/ndebele-south-spell-checker
+  protected_branches:
+  - master
+  type: public
+- name: hunspell-nso
+  description: Hunspell dictionaries for Northern Sotho
+  upstream:  https://extensions.openoffice.org/en/project/northern-sotho-spell-checker
+  protected_branches:
+  - master
+  type: public
+- name: hunspell-ny
+  description: Hunspell dictionaries for Chichewa
+  upstream:  https://extensions.openoffice.org/en/project/chicspell
+  protected_branches:
+  - master
+  type: public
 - name: hunspell-oc
   description: Occitan hunspell dictionaries for spell check
   upstream: https://addons.mozilla.org/en-US/firefox/addon/8235
@@ -4515,6 +4623,12 @@ repositories:
 - name: hunspell-om
   description: Oromo hunspell dictionaries used in OpenOffice
   upstream: https://github.com/eurolinux-enterprise-linux-sources/hunspell-om
+  protected_branches:
+  - master
+  type: public
+- name: hunspell-or
+  description: Odia hunspell dictionaries used in OpenOffice
+  upstream: https://github.com/eurolinux-enterprise-linux-sources/hunspell-or.git
   protected_branches:
   - master
   type: public
@@ -4554,9 +4668,111 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: hunspell-sc
+  description: Sardinian hunspell dictionaries
+  upstream:  http://extensions.services.openoffice.org/project/Dict_sc
+  protected_branches:
+  - master
+  type: public
+- name: hunspell-se
+  description: Northern Saami hunspell dictionaries
+  upstream:  http://www.divvun.no/index.html
+  protected_branches:
+  - master
+  type: public
+- name: hunspell-si
+  description: Sinhala hunspell dictionaries
+  upstream:  http://www.sandaru1.com
+  protected_branches:
+  - master
+  type: public
+- name: hunspell-sk
+  description: Slovak hunspell dictionaries
+  upstream:  http://www.sk-spell.sk.cx/
+  protected_branches:
+  - master
+  type: public
+- name: hunspell-sl
+  description: Slovenian hunspell dictionaries
+  upstream: http://ftp.services.openoffice.org/pub/OpenOffice.org/contrib/dictionaries/
+  protected_branches:
+  - master
+  type: public
 - name: hunspell-smj
   description: Hunspell dictionaries for Lule Saami
   upstream: http://www.divvun.no/index.html
+  protected_branches:
+  - master
+  type: public
+- name: hunspell-so
+  description: Somali hunspell dictionaries
+  upstream: http://www.opensourcesomalia.org/index.php?page=hingaad-saxe
+  protected_branches:
+  - master
+  type: public
+- name: hunspell-sq
+  description: Albanian hunspell dictionaries
+  upstream: http://www.shkenca.org/k6i/albanian_dictionary_for_myspell_en.html
+  protected_branches:
+  - master
+  type: public
+- name: hunspell-sr
+  description: Serbian hunspell dictionaries
+  upstream: http://extensions.services.openoffice.org/project/dict-sr
+  protected_branches:
+  - master
+  type: public
+- name: hunspell-ss
+  description: Swati hunspell dictionaries
+  upstream: http://www.translate.org.za/
+  protected_branches:
+  - master
+  type: public
+- name: hunspell-st
+  description: Southern Sotho hunspell dictionaries
+  upstream: http://www.translate.org.za/
+  protected_branches:
+  - master
+  type: public
+- name: hunspell-sv
+  description: Swedish hunspell dictionaries
+  upstream: https://aur.archlinux.org/packages/hunspell-sv/
+  protected_branches:
+  - master
+  type: public
+- name: hunspell-sw
+  description: Swahili hunspell dictionaries
+  upstream: https://extensions.libreoffice.org/extensions/swahili-dictionary
+  protected_branches:
+  - master
+  type: public
+- name: hunspell-tet
+  description:  Tetum hunspell dictionaries for hunspell used in OpenOffice
+  upstream: http://www.mirrorservice.org
+  protected_branches:
+  - master
+  type: public
+- name: hunspell-th
+  description:  Hunspell dictionaries for Thai
+  upstream: https://wiki.openoffice.org/wiki/Dictionaries
+  protected_branches:
+  - master
+  type: public
+- name: hunspell-ti
+  description:  Hunspell dictionaries for Tigrigna
+  upstream: http://www.cs.ru.nl/~biniam/geez/index.php
+  protected_branches:
+  - master
+  type: public
+- name: hunspell-tl
+  description:  Hunspell dictionaries for Tagalog
+  upstream: https://ftp.nluug.nl/office/openoffice/contrib/dictionaries/
+  protected_branches:
+  - master
+  type: public
+- name: hunspell-tn
+  description:  Hunspell dictionaries for Tswana
+  upstream: https://addons.mozilla.org/en-US/firefox/addon/tswana-spell-checker/
   protected_branches:
   - master
   type: public
@@ -4566,9 +4782,57 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: hunspell-ts
+  description:  Hunspell dictionaries for Tsonga
+  upstream: https://addons.mozilla.org/en-US/firefox/addon/tsonga-spell-checker/
+  protected_branches:
+  - master
+  type: public
+- name: hunspell-uk
+  description: Ukrainian hunspell dictionaries
+  upstream:  http://sourceforge.net/projects/ispell-uk
+  protected_branches:
+  - master
+  type: public
+- name: hunspell-ur
+  description: Urdu hunspell dictionaries
+  upstream:  http://urdudictionary.codeplex.com
+  protected_branches:
+  - master
+  type: public
+- name: hunspell-uz
+  description: Uzbek hunspell dictionaries
+  upstream:  https://people.freebsd.org/~sunpoet/sunpoet/hunspell
+  protected_branches:
+  - master
+  type: public
+- name: hunspell-ve
+  description:  Dictionaries for Venda hunspell
+  upstream: https://extensions.openoffice.org/en/project/venda-spell-checker
+  protected_branches:
+  - master
+  type: public
+- name: hunspell-vi
+  description:  Vietnamese hunspell dictionaries for hunspell used in OpenOffice
+  upstream: https://extensions.openoffice.org/en/project/vietnamese-spellchecker
+  protected_branches:
+  - master
+  type: public
 - name: hunspell-wa
   description: The hunspell dictionaries for Walloon
   upstream: http://chanae.walon.org/walon/aspell.php
+  protected_branches:
+  - master
+  type: public
+- name: hunspell-xh
+  description:  Dictionaries for Xhosa hunspell
+  upstream: https://extensions.openoffice.org/en/project/xhosa-spell-checker
+  protected_branches:
+  - master
+  type: public
+- name: hunspell-yi
+  description:  Yiddish hunspell dictionaries for hunspell used in OpenOffice
+  upstream: http://extensions.services.openoffice.org/en/project/dict-yi
   protected_branches:
   - master
   type: public
@@ -4604,6 +4868,48 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: hyphen-as
+  description:  Assamese hyphenation rules
+  upstream: http://wiki.smc.org.in
+  protected_branches:
+  - master
+  type: public
+- name: hyphen-bg
+  description:  rules for Bulgarian hyphenation
+  upstream: http://bgoffice.sourceforge.net/
+  protected_branches:
+  - master
+  type: public
+- name: hyphen-bn
+  description: Rules for bengali hyphenation rules
+  upstream: http://wiki.smc.org.in
+  protected_branches:
+  - master
+  type: public
+- name: hyphen-ca
+  description: Rules for Catalan hyphenation
+  upstream: http://extensions.services.openoffice.org/project/ca_hyph
+  protected_branches:
+  - master
+  type: public
+- name: hyphen-cy
+  description: Rules for Welsh hyphenation
+  upstream: http://tug.org/tex-hyphen
+  protected_branches:
+  - master
+  type: public
+- name: hyphen-da
+  description: Danish hyphenation rules
+  upstream: http://wiki.services.openoffice.org/wiki/Dictionaries
+  protected_branches:
+  - master
+  type: public
+- name: hyphen-de
+  description: German hyphenation rules
+  upstream: https://wiki.openoffice.org/wiki/Dictionaries
+  protected_branches:
+  - master
+  type: public
 - name: hyphen-el
   description: Greek hyphenation rules for hunspell used in OpenOffice
   upstream: http://wiki.services.openoffice.org/wiki/Dictionaries
@@ -4622,6 +4928,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: hyphen-fa
+  description: Farsi hyphenation rules
+  upstream:  http://www.ctan.org/tex-archive/language/hyphenation/fahyph
+  protected_branches:
+  - master
+  type: public
 - name: hyphen-fo
   description: Faroese dictionary for spell checking
   upstream: http://fo.speling.org/
@@ -4631,6 +4943,24 @@ repositories:
 - name: hyphen-fr
   description: Hyphenation rules for French
   upstream: http://www.dicollecte.org/download.php?prj=fr
+  protected_branches:
+  - master
+  type: public
+- name: hyphen-ga
+  description: The rules of Irish hyphenation
+  upstream: http://openoffice.cs.utah.edu/contrib/dictionaries/
+  protected_branches:
+  - master
+  type: public
+- name: hyphen-gl
+  description: The rules of Galician hyphenation
+  upstream:  https://forxa.mancomun.org/projects/hyphenation-gl
+  protected_branches:
+  - master
+  type: public
+- name: hyphen-gu
+  description: The rules of Gujarati hyphenation
+  upstream: http://wiki.smc.org.in
   protected_branches:
   - master
   type: public
@@ -4664,15 +4994,39 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: hyphen-kn
+  description: Rules for Kannada hyphenation
+  upstream: http://extensions.services.openoffice.org/project/kitandin
+  protected_branches:
+  - master
+  type: public
+- name: hyphen-ku
+  description: Rules for Kurdish hyphenation
+  upstream: http://extensions.services.openoffice.org/project/kitandin
+  protected_branches:
+  - master
+  type: public
 - name: hyphen-lt
   description: The rules for Lithuanian hyphenation
   upstream: http://tug.org/tex-hyphen
   protected_branches:
   - master
   type: public
+- name: hyphen-ml
+  description: Hyphenation rules for malayalam
+  upstream: http://wiki.smc.org.in
+  protected_branches:
+  - master
+  type: public
 - name: hyphen-mn
   description: Hyphenation patterns for Mongolian
   upstream: http://ctan.org/pkg/mnhyphn
+  protected_branches:
+  - master
+  type: public
+- name: hyphen-mr
+  description: Hyphenation rules for marathi
+  upstream: http://wiki.smc.org.in
   protected_branches:
   - master
   type: public
@@ -4685,6 +5039,24 @@ repositories:
 - name: hyphen-or
   description: Hyphenation rules of Odia
   upstream: http://wiki.smc.org.in
+  protected_branches:
+  - master
+  type: public
+- name: hyphen-pa
+  description: Punjabi hyphenation rules for hunspell used in OpenOffice
+  upstream: http://wiki.smc.org.in
+  protected_branches:
+  - master
+  type: public
+- name: hyphen-pl
+  description: Polish hyphenation rules for hunspell used in OpenOffice
+  upstream: http://wiki.services.openoffice.org/wiki/Dictionaries
+  protected_branches:
+  - master
+  type: public
+- name: hyphen-pt
+  description: Portuguese hyphenation rules for hunspell used in OpenOffice
+  upstream: http://wiki.services.openoffice.org/wiki/Dictionaries
   protected_branches:
   - master
   type: public
@@ -4709,6 +5081,18 @@ repositories:
 - name: hyphen-sk
   description: Slovak hyphenation rules
   upstream: http://wiki.services.openoffice.org/wiki/Dictionaries
+  protected_branches:
+  - master
+  type: public
+- name: hyphen-sl
+  description: Rules for Slovenian hyphenation
+  upstream: http://wiki.services.openoffice.org/wiki/Dictionaries
+  protected_branches:
+  - master
+  type: public
+- name: hyphen-sv
+  description: The hyphenation rules for Swedish
+  upstream: http://extensions.services.openoffice.org/node/1968
   protected_branches:
   - master
   type: public
@@ -10103,6 +10487,12 @@ repositories:
   type: public
 - name: pcsc-lite
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: pcsc-lite-ccid
+  description: A generic USB CCID(Chip/Smart card interface device) drivers
+  upstream: https://ccid.apdu.fr/files
   protected_branches:
   - master
   type: public
@@ -28250,6 +28640,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: snapd-glib
+  description: Library providing a GLib interface to snapd
+  upstream: https://github.com/snapcore/snapd-glib
+  protected_branches:
+  - master
+  type: public
 - name: snappy
   description: ''
   protected_branches:
