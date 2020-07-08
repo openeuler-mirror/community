@@ -20,6 +20,7 @@ sigs:
   - openeuler/crystal-ci
 - name: Application
   repositories:
+  - src-openeuler/custom_build_tool
   - src-openeuler/geronimo-parent-poms
   - src-openeuler/libabigail
   - src-openeuler/libmpeg2
@@ -326,6 +327,7 @@ sigs:
   - src-openeuler/yelp-tools
   - src-openeuler/nss-mdns
   - src-openeuler/eog
+  - openeuler/custom_build_tool
 - name: Programming-language
   repositories:
   - src-openeuler/assertj-core
@@ -1259,7 +1261,6 @@ sigs:
   - src-openeuler/apache2-mod_xforward
   - src-openeuler/biosdevname
   - src-openeuler/cloud-utils
-  - src-openeuler/custom_build_tool
   - src-openeuler/debootstrap
   - src-openeuler/dogtail
   - src-openeuler/dpkg
