@@ -28634,6 +28634,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: snapd-glib
+  description: 'Library providing a Glib interface to snapd'
+  upstream: https://github.com/snapcore/snapd-glib
+  protected_branches:
+  - master
+  type: public
 - name: snappy
   description: ''
   protected_branches:

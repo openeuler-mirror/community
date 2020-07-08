@@ -20,6 +20,7 @@ sigs:
   - openeuler/crystal-ci
 - name: Application
   repositories:
+  - src-openeuler/snapd-glib
   - src-openeuler/custom_build_tool
   - src-openeuler/geronimo-parent-poms
   - src-openeuler/libabigail
