@@ -1567,6 +1567,7 @@ sigs:
   - src-openeuler/haveged
   - src-openeuler/rsync
   - src-openeuler/setup
+  - src-openeuler/perl-Digest
   - src-openeuler/libidn2
   - src-openeuler/volume_key
   - src-openeuler/rarian
@@ -1635,6 +1636,7 @@ sigs:
   - src-openeuler/gawk
   - src-openeuler/openEuler-release
   - src-openeuler/brotli
+  - src-openeuler/perl
   - src-openeuler/libkcapi
   - src-openeuler/dbus-python
   - src-openeuler/libnftnl
@@ -1689,6 +1691,7 @@ sigs:
   - src-openeuler/automake
   - src-openeuler/libteam
   - src-openeuler/acl
+  - src-openeuler/perl-Storable
   - src-openeuler/libcomps
   - src-openeuler/at
   - src-openeuler/python-six
@@ -1712,6 +1715,7 @@ sigs:
   - src-openeuler/diffstat
   - src-openeuler/python-beaker
   - src-openeuler/dbxtool
+  - src-openeuler/perl-ExtUtils-MakeMaker
   - src-openeuler/sgpio
   - src-openeuler/powertop
   - src-openeuler/sssd
@@ -1769,6 +1773,7 @@ sigs:
   - src-openeuler/lmdb
   - src-openeuler/pcre2
   - src-openeuler/python-markupsafe
+  - src-openeuler/perl-Mozilla-CA
   - src-openeuler/libmodulemd
   - src-openeuler/fipscheck
   - src-openeuler/bc
@@ -4432,7 +4437,6 @@ sigs:
   - src-openeuler/perl-Digest-SHA
   - src-openeuler/perl-libnet
   - src-openeuler/perl-Encode-Locale
-  - src-openeuler/perl-Digest
   - src-openeuler/perl-experimental
   - src-openeuler/perl-Time-HiRes
   - src-openeuler/perl-IO-Socket-IP
@@ -4455,7 +4459,6 @@ sigs:
   - src-openeuler/perl-Text-ParseWords
   - src-openeuler/perl-Net-Daemon
   - src-openeuler/perl-Term-Cap
-  - src-openeuler/perl
   - src-openeuler/perl-constant
   - src-openeuler/perl-HTTP-Tiny
   - src-openeuler/perl-Pod-Simple
@@ -4466,7 +4469,6 @@ sigs:
   - src-openeuler/perl-IO-Compress
   - src-openeuler/perl-Unicode-Normalize
   - src-openeuler/perl-Module-Load
-  - src-openeuler/perl-Storable
   - src-openeuler/perl-Digest-MD5
   - src-openeuler/perl-JSON-PP
   - src-openeuler/perl-parent
@@ -4479,7 +4481,6 @@ sigs:
   - src-openeuler/perl-File-HomeDir
   - src-openeuler/perl-XML-Parser
   - src-openeuler/perl-ExtUtils-Install
-  - src-openeuler/perl-ExtUtils-MakeMaker
   - src-openeuler/perl-File-Temp
   - src-openeuler/perl-Time-Local
   - src-openeuler/perl-List-MoreUtils
@@ -4499,7 +4500,6 @@ sigs:
   - src-openeuler/perl-XML-Writer
   - src-openeuler/perl-TermReadKey
   - src-openeuler/perl-MIME-Base64
-  - src-openeuler/perl-Mozilla-CA
   - src-openeuler/perl-Unicode-Collate
   - src-openeuler/perl-Perl-OSType
   - src-openeuler/perl-IPC-System-Simple
