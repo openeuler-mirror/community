@@ -698,7 +698,6 @@ sigs:
   - src-openeuler/kmod-kvdo
   - src-openeuler/libao
   - src-openeuler/glew
-  - src-openeuler/libibmad
   - src-openeuler/libstoragemgmt
   - src-openeuler/qt
   - src-openeuler/OpenEXR
@@ -3199,6 +3198,7 @@ sigs:
   - src-openeuler/biometric-authentication
 - name: sig-recycle
   repositories:
+  - src-openeuler/libibmad
   - src-openeuler/python2
   - src-openeuler/caffe
   - src-openeuler/shim-unsigned-aarch64
