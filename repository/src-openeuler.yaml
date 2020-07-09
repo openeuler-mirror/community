@@ -1614,6 +1614,7 @@ repositories:
   type: public
 - name: custom_build_tool
   description: provide other method to deal parameter passing for OBS build
+  upstream: https://gitee.com/openeuler/custom_build_tool
   protected_branches:
   - master
   type: public
@@ -28640,6 +28641,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: snapd-glib
+  description: 'Library providing a Glib interface to snapd'
+  upstream: https://github.com/snapcore/snapd-glib
+  protected_branches:
+  - master
+  type: public
 - name: snappy
   description: ''
   protected_branches:

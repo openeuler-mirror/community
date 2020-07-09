@@ -20,6 +20,8 @@ sigs:
   - openeuler/crystal-ci
 - name: Application
   repositories:
+  - src-openeuler/snapd-glib
+  - src-openeuler/custom_build_tool
   - src-openeuler/geronimo-parent-poms
   - src-openeuler/libabigail
   - src-openeuler/libmpeg2
@@ -326,6 +328,7 @@ sigs:
   - src-openeuler/yelp-tools
   - src-openeuler/nss-mdns
   - src-openeuler/eog
+  - openeuler/custom_build_tool
 - name: Programming-language
   repositories:
   - src-openeuler/assertj-core
@@ -695,7 +698,6 @@ sigs:
   - src-openeuler/kmod-kvdo
   - src-openeuler/libao
   - src-openeuler/glew
-  - src-openeuler/libibmad
   - src-openeuler/libstoragemgmt
   - src-openeuler/qt
   - src-openeuler/OpenEXR
@@ -1259,7 +1261,6 @@ sigs:
   - src-openeuler/apache2-mod_xforward
   - src-openeuler/biosdevname
   - src-openeuler/cloud-utils
-  - src-openeuler/custom_build_tool
   - src-openeuler/debootstrap
   - src-openeuler/dogtail
   - src-openeuler/dpkg
@@ -3197,6 +3198,7 @@ sigs:
   - src-openeuler/biometric-authentication
 - name: sig-recycle
   repositories:
+  - src-openeuler/libibmad
   - src-openeuler/python2
   - src-openeuler/caffe
   - src-openeuler/shim-unsigned-aarch64

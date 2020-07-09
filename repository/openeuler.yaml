@@ -61,6 +61,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: custom_build_tool
+  description: "provide other method to deal parameter passing for OBS build"
+  protected_branches:
+  - master
+  type: public
 - name: docs
   description: "To build and enrich documentation for openEuler project."
   protected_branches:
