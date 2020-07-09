@@ -1614,6 +1614,7 @@ repositories:
   type: public
 - name: custom_build_tool
   description: provide other method to deal parameter passing for OBS build
+  upstream: https://gitee.com/openeuler/custom_build_tool
   protected_branches:
   - master
   type: public
