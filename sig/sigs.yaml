@@ -597,7 +597,6 @@ sigs:
   - src-openeuler/perl-Parse-Yapp
   - src-openeuler/xcb-proto
   - src-openeuler/flatpak
-  - src-openeuler/yum-metadata-parser
   - src-openeuler/libell
   - src-openeuler/perl-Carp-Clan
   - src-openeuler/python-flit
@@ -2938,7 +2937,6 @@ sigs:
   - src-openeuler/xpp3
   - src-openeuler/xstream
   - src-openeuler/xz-java
-  - src-openeuler/yum-langpacks
   - src-openeuler/zbar
   - src-openeuler/zvbi
   - src-openeuler/kf5
@@ -3222,6 +3220,8 @@ sigs:
   - src-openeuler/golang-github-d2g-dhcp4
   - src-openeuler/golang-github-coreos-go-iptables
   - src-openeuler/golang-github-russross-blackfriday
+  - src-openeuler/yum-metadata-parser
+  - src-openeuler/yum-langpacks
 - name: sig-RaspberryPi
   repositories:
   - openeuler/raspberrypi
