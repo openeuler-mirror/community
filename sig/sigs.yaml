@@ -3318,11 +3318,14 @@ sigs:
   - src-openeuler/ceph
 - name: sig-security-facility
   repositories:
+  - openeuler/attest-tools
+  - openeuler/digest-list-tools
   - src-openeuler/oscap-anaconda-addon
   - src-openeuler/certmonger
   - src-openeuler/keycloak-httpd-client-install
   - src-openeuler/mod_auth_openidc
   - src-openeuler/mod_authnz_pam
+  - src-openeuler/attest-tools
   - src-openeuler/digest-list-tools
   - src-openeuler/apparmor
   - src-openeuler/tpm2-tools

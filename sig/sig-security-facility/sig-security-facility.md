@@ -42,6 +42,10 @@ Sig-security mainly discusses the existing or future planned security technologi
 What and in what form the SIG is responsible for delivering
  
 - Source code and tar
+  - openeuler/attest-tools
+  - openeuler/digest-list-tools
+  - src-openeuler/attest-tools
+  - src-openeuler/digest-list-tools
   - src-openeuler/apparmor
   - src-openeuler/tpm2-tools
   - src-openeuler/setroubleshoot

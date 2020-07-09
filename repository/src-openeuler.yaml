@@ -1979,9 +1979,15 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: attest-tools
+  description: A library that makes implementation of remote attestation easier
+  upstream: https://gitee.com/openeuler/attest-tools
+  protected_branches:
+  - master
+  type: public
 - name: digest-list-tools
   description: IMA digest list extension userspace tools
-  upstream: htpps://github/initlove/digest-list-tools
+  upstream: htpps://gitee.com/openeuler/digest-list-tools
   protected_branches:
   - master
   type: public
