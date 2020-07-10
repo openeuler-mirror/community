@@ -1566,8 +1566,6 @@ sigs:
   - src-openeuler/mod_security_crs
   - src-openeuler/gupnp-av
   - src-openeuler/python-cpio
-  - src-openeuler/perl-Pod-Plainer
-  - src-openeuler/perl-Module-Pluggable
   - src-openeuler/unit-api
   - src-openeuler/jasper
   - src-openeuler/python-gssapi
@@ -1598,7 +1596,6 @@ sigs:
   - src-openeuler/vulkan-loader
   - src-openeuler/xmlstarlet
   - src-openeuler/mongodb
-  - src-openeuler/perl-Test-File
   - src-openeuler/python-pocketlint
   - src-openeuler/python-polib
   - src-openeuler/python-pytest-cov
@@ -1613,28 +1610,20 @@ sigs:
   - src-openeuler/tcllib
   - src-openeuler/yaml-cpp
   - src-openeuler/rsyslog
-  - src-openeuler/perl-CPAN-Meta
   - src-openeuler/kdump-anaconda-addon
   - src-openeuler/trousers
   - src-openeuler/openEuler-repos
   - src-openeuler/tracker-miners
-  - src-openeuler/perl-Sys-Syslog
   - src-openeuler/libseccomp
   - src-openeuler/basesystem
   - src-openeuler/p11-kit
   - src-openeuler/libmodman
-  - src-openeuler/perl-Pod-Checker
   - src-openeuler/zstd
-  - src-openeuler/perl-IPC-Cmd
   - src-openeuler/libxslt
-  - src-openeuler/perl-Encode
   - src-openeuler/elfutils
   - src-openeuler/libmaxminddb
-  - src-openeuler/perl-Digest-SHA
   - src-openeuler/lua-lpeg
   - src-openeuler/symlinks
-  - src-openeuler/perl-libnet
-  - src-openeuler/perl-Encode-Locale
   - src-openeuler/deltarpm
   - src-openeuler/CUnit
   - src-openeuler/m4
@@ -1644,15 +1633,12 @@ sigs:
   - src-openeuler/rsync
   - src-openeuler/setup
   - src-openeuler/perl-Digest
-  - src-openeuler/perl-experimental
   - src-openeuler/libidn2
-  - src-openeuler/perl-Time-HiRes
   - src-openeuler/volume_key
   - src-openeuler/rarian
   - src-openeuler/osinfo-db
   - src-openeuler/edac-utils
   - src-openeuler/aide
-  - src-openeuler/perl-IO-Socket-IP
   - src-openeuler/python-webencodings
   - src-openeuler/gmime30
   - src-openeuler/libtomcrypt
@@ -1660,14 +1646,11 @@ sigs:
   - src-openeuler/pyparted
   - src-openeuler/libedit
   - src-openeuler/chrpath
-  - src-openeuler/perl-Net-SSLeay
-  - src-openeuler/perl-IPC-SysV
   - src-openeuler/gssproxy
   - src-openeuler/libdatrie
   - src-openeuler/libnsl2
   - src-openeuler/authselect
   - src-openeuler/libcroco
-  - src-openeuler/perl-Exporter-Tiny
   - src-openeuler/totem-pl-parser
   - src-openeuler/cronie
   - src-openeuler/libreport
@@ -1676,36 +1659,24 @@ sigs:
   - src-openeuler/popt
   - src-openeuler/python-schedutils
   - src-openeuler/patch
-  - src-openeuler/perl-URI
   - src-openeuler/zlib
   - src-openeuler/expat
   - src-openeuler/make
   - src-openeuler/python-jsonschema
-  - src-openeuler/perl-podlators
-  - src-openeuler/perl-Filter
   - src-openeuler/ca-certificates
   - src-openeuler/isomd5sum
   - src-openeuler/jose
   - src-openeuler/shadow
   - src-openeuler/unique
   - src-openeuler/lua-expat
-  - src-openeuler/perl-Module-Load-Conditional
   - src-openeuler/libgsf
   - src-openeuler/tracker
-  - src-openeuler/perl-Algorithm-Diff
-  - src-openeuler/perl-Devel-PPPort
-  - src-openeuler/perl-Term-ANSIColor
-  - src-openeuler/perl-Filter-Simple
   - src-openeuler/libtommath
-  - src-openeuler/perl-autodie
   - src-openeuler/wpa_supplicant
-  - src-openeuler/perl-Test-Harness
   - src-openeuler/git
-  - src-openeuler/perl-Compress-Raw-Bzip2
   - src-openeuler/python-pycurl
   - src-openeuler/libecap
   - src-openeuler/ctags
-  - src-openeuler/perl-CPAN-Meta-YAML
   - src-openeuler/libtheora
   - src-openeuler/autoconf
   - src-openeuler/shim
@@ -1720,18 +1691,14 @@ sigs:
   - src-openeuler/fpaste
   - src-openeuler/recode
   - src-openeuler/gpgme
-  - src-openeuler/perl-CPAN-Meta-Requirements
   - src-openeuler/python-setuptools
-  - src-openeuler/perl-Text-ParseWords
   - src-openeuler/ghostscript
   - src-openeuler/python-pip
-  - src-openeuler/perl-Net-Daemon
   - src-openeuler/python-pid
   - src-openeuler/pygobject3
   - src-openeuler/python-rpm-generators
   - src-openeuler/libosinfo
   - src-openeuler/gawk
-  - src-openeuler/perl-Term-Cap
   - src-openeuler/openEuler-release
   - src-openeuler/brotli
   - src-openeuler/perl
@@ -1740,7 +1707,6 @@ sigs:
   - src-openeuler/libnftnl
   - src-openeuler/logrotate
   - src-openeuler/python-pycparser
-  - src-openeuler/perl-constant
   - src-openeuler/libpsl
   - src-openeuler/libuser
   - src-openeuler/kexec-tools
@@ -1750,21 +1716,16 @@ sigs:
   - src-openeuler/bison
   - src-openeuler/orc
   - src-openeuler/polkit
-  - src-openeuler/perl-HTTP-Tiny
   - src-openeuler/xz
   - src-openeuler/libplist
   - src-openeuler/xmlto
   - src-openeuler/libevent
   - src-openeuler/docbook-dtds
   - src-openeuler/zsh
-  - src-openeuler/perl-Pod-Simple
-  - src-openeuler/perl-Error
   - src-openeuler/dbus-glib
   - src-openeuler/crontabs
   - src-openeuler/python-crypto
   - src-openeuler/adcli
-  - src-openeuler/perl-B-Debug
-  - src-openeuler/perl-Pod-Perldoc
   - src-openeuler/python-asn1crypto
   - src-openeuler/os-prober
   - src-openeuler/cpio
@@ -1780,15 +1741,12 @@ sigs:
   - src-openeuler/openEuler-indexhtml
   - src-openeuler/python-jsonpointer
   - src-openeuler/chkconfig
-  - src-openeuler/perl-Thread-Queue
   - src-openeuler/zziplib
   - src-openeuler/gamin
   - src-openeuler/iso-codes
   - src-openeuler/python-pydbus
   - src-openeuler/speex
-  - src-openeuler/perl-IO-Compress
   - src-openeuler/subversion
-  - src-openeuler/perl-Unicode-Normalize
   - src-openeuler/lzop
   - src-openeuler/nss_nis
   - src-openeuler/polkit-pkla-compat
@@ -1798,11 +1756,8 @@ sigs:
   - src-openeuler/automake
   - src-openeuler/libteam
   - src-openeuler/acl
-  - src-openeuler/perl-Module-Load
   - src-openeuler/perl-Storable
-  - src-openeuler/perl-Digest-MD5
   - src-openeuler/libcomps
-  - src-openeuler/perl-JSON-PP
   - src-openeuler/at
   - src-openeuler/python-six
   - src-openeuler/gettext
@@ -1810,25 +1765,15 @@ sigs:
   - src-openeuler/libmetalink
   - src-openeuler/libksba
   - src-openeuler/libquvi-scripts
-  - src-openeuler/perl-parent
   - src-openeuler/dracut
   - src-openeuler/osinfo-db-tools
-  - src-openeuler/perl-Config-Perl-V
-  - src-openeuler/perl-Params-Check
-  - src-openeuler/perl-Scalar-List-Utils
-  - src-openeuler/perl-Text-Diff
   - src-openeuler/python-jinja2
-  - src-openeuler/perl-Data-Dumper
-  - src-openeuler/perl-Module-CoreList
-  - src-openeuler/perl-File-HomeDir
-  - src-openeuler/perl-XML-Parser
   - src-openeuler/mlocate
   - src-openeuler/vim
   - src-openeuler/libev
   - src-openeuler/libgexiv2
   - src-openeuler/drpm
   - src-openeuler/python-meh
-  - src-openeuler/perl-ExtUtils-Install
   - src-openeuler/openEuler-rpm-config
   - src-openeuler/speexdsp
   - src-openeuler/krb5
@@ -1838,11 +1783,9 @@ sigs:
   - src-openeuler/perl-ExtUtils-MakeMaker
   - src-openeuler/sgpio
   - src-openeuler/powertop
-  - src-openeuler/perl-File-Temp
   - src-openeuler/sssd
   - src-openeuler/libidn
   - src-openeuler/grubby
-  - src-openeuler/perl-Time-Local
   - src-openeuler/python-prettytable
   - src-openeuler/libdbi
   - src-openeuler/libbytesize
@@ -1858,29 +1801,20 @@ sigs:
   - src-openeuler/grep
   - src-openeuler/dtc
   - src-openeuler/ivtv-firmware
-  - src-openeuler/perl-List-MoreUtils
   - src-openeuler/man-db
   - src-openeuler/pyserial
   - src-openeuler/timedatex
-  - src-openeuler/perl-Locale-Maketext
   - src-openeuler/python-tempita
-  - src-openeuler/perl-Env
   - src-openeuler/libdb
   - src-openeuler/passwd
-  - src-openeuler/perl-PerlIO-via-QuotedPrint
-  - src-openeuler/perl-Math-BigRat
-  - src-openeuler/perl-Text-Balanced
-  - src-openeuler/perl-Math-BigInt-FastCalc
   - src-openeuler/bash-completion
   - src-openeuler/libtar
   - src-openeuler/libdaemon
   - src-openeuler/pkgconf
   - src-openeuler/sed
   - src-openeuler/langtable
-  - src-openeuler/perl-threads-shared
   - src-openeuler/python-enum34
   - src-openeuler/python-iniparse
-  - src-openeuler/perl-Exporter
   - src-openeuler/cyrus-sasl
   - src-openeuler/hardlink
   - src-openeuler/python-cffi
@@ -1888,16 +1822,11 @@ sigs:
   - src-openeuler/lsof
   - src-openeuler/python-jsonpatch
   - src-openeuler/python-chardet
-  - src-openeuler/perl-Module-Metadata
   - src-openeuler/python-oauthlib
   - src-openeuler/flex
   - src-openeuler/libverto
   - src-openeuler/authd
   - src-openeuler/realmd
-  - src-openeuler/perl-List-MoreUtils-XS
-  - src-openeuler/perl-version
-  - src-openeuler/perl-Locale-Codes
-  - src-openeuler/perl-Compress-Raw-Zlib
   - src-openeuler/python-decorator
   - src-openeuler/coreutils
   - src-openeuler/libcap-ng
@@ -1907,22 +1836,16 @@ sigs:
   - src-openeuler/snappy
   - src-openeuler/sscg
   - src-openeuler/lmdb
-  - src-openeuler/perl-XML-Writer
   - src-openeuler/pcre2
   - src-openeuler/python-markupsafe
-  - src-openeuler/perl-TermReadKey
-  - src-openeuler/perl-MIME-Base64
   - src-openeuler/perl-Mozilla-CA
-  - src-openeuler/perl-Unicode-Collate
   - src-openeuler/libmodulemd
-  - src-openeuler/perl-Perl-OSType
   - src-openeuler/fipscheck
   - src-openeuler/bc
   - src-openeuler/python-systemd
   - src-openeuler/dialog
   - src-openeuler/hesiod
   - src-openeuler/libmnl
-  - src-openeuler/perl-IPC-System-Simple
   - src-openeuler/pcre
   - src-openeuler/python-backports
   - src-openeuler/libconfig
@@ -1957,29 +1880,20 @@ sigs:
   - src-openeuler/oddjob
   - src-openeuler/tcsh
   - src-openeuler/pigz
-  - src-openeuler/perl-Pod-Usage
   - src-openeuler/libquvi
   - src-openeuler/lz4
-  - src-openeuler/perl-Archive-Tar
   - src-openeuler/libpaper
   - src-openeuler/crash
   - src-openeuler/lzo
   - src-openeuler/dbus
-  - src-openeuler/perl-threads
-  - src-openeuler/perl-ExtUtils-Manifest
   - src-openeuler/rootfiles
   - src-openeuler/cloud-init
   - src-openeuler/lshw
-  - src-openeuler/perl-Getopt-Long
-  - src-openeuler/perl-bignum
   - src-openeuler/python-mako
-  - src-openeuler/perl-File-Which
   - src-openeuler/python-pyudev
   - src-openeuler/babel
   - src-openeuler/which
-  - src-openeuler/perl-IO-Socket-SSL
   - src-openeuler/nss-pam-ldapd
-  - src-openeuler/perl-Pod-Escapes
   - src-openeuler/createrepo_c
   - src-openeuler/liboauth
   - src-openeuler/xmlsec1
@@ -1993,39 +1907,27 @@ sigs:
   - src-openeuler/mailcap
   - src-openeuler/libestr
   - src-openeuler/lua
-  - src-openeuler/perl-Carp
-  - src-openeuler/perl-File-Path
-  - src-openeuler/perl-ExtUtils-ParseXS
-  - src-openeuler/perl-DBI
   - src-openeuler/libxcrypt
-  - src-openeuler/perl-PathTools
   - src-openeuler/libxml2
   - src-openeuler/libsecret
-  - src-openeuler/perl-Pod-Parser
   - src-openeuler/binutils
-  - src-openeuler/perl-Math-BigInt
   - src-openeuler/less
   - src-openeuler/tcl
-  - src-openeuler/perl-Test-Simple
   - src-openeuler/libsolv
   - src-openeuler/exempi
   - src-openeuler/libtdb
-  - src-openeuler/perl-Socket
   - src-openeuler/babeltrace
   - src-openeuler/apr-util
   - src-openeuler/python3
   - src-openeuler/clevis
-  - src-openeuler/perl-DB_File
   - src-openeuler/libsigsegv
   - src-openeuler/rasdaemon
-  - src-openeuler/perl-perlfaq
   - src-openeuler/ima-evm-utils
   - src-openeuler/slang
   - src-openeuler/groff
   - src-openeuler/gzip
   - src-openeuler/mcpp
   - src-openeuler/ostree
-  - src-openeuler/perl-File-Fetch
   - src-openeuler/python-productmd
   - src-openeuler/bzip2
   - src-openeuler/star
@@ -4595,6 +4497,104 @@ sigs:
   - src-openeuler/perl-Regexp-Common
   - src-openeuler/perl-Test-Regexp
   - src-openeuler/perl-Test-Warn
+  - src-openeuler/perl-Pod-Plainer
+  - src-openeuler/perl-Module-Pluggable
+  - src-openeuler/perl-Test-File
+  - src-openeuler/perl-CPAN-Meta
+  - src-openeuler/perl-Sys-Syslog
+  - src-openeuler/perl-Pod-Checker
+  - src-openeuler/perl-IPC-Cmd
+  - src-openeuler/perl-Encode
+  - src-openeuler/perl-Digest-SHA
+  - src-openeuler/perl-libnet
+  - src-openeuler/perl-Encode-Locale
+  - src-openeuler/perl-experimental
+  - src-openeuler/perl-Time-HiRes
+  - src-openeuler/perl-IO-Socket-IP
+  - src-openeuler/perl-Net-SSLeay
+  - src-openeuler/perl-IPC-SysV
+  - src-openeuler/perl-Exporter-Tiny
+  - src-openeuler/perl-URI
+  - src-openeuler/perl-podlators
+  - src-openeuler/perl-Filter
+  - src-openeuler/perl-Module-Load-Conditional
+  - src-openeuler/perl-Algorithm-Diff
+  - src-openeuler/perl-Devel-PPPort
+  - src-openeuler/perl-Term-ANSIColor
+  - src-openeuler/perl-Filter-Simple
+  - src-openeuler/perl-autodie
+  - src-openeuler/perl-Test-Harness
+  - src-openeuler/perl-Compress-Raw-Bzip2
+  - src-openeuler/perl-CPAN-Meta-YAML
+  - src-openeuler/perl-CPAN-Meta-Requirements
+  - src-openeuler/perl-Text-ParseWords
+  - src-openeuler/perl-Net-Daemon
+  - src-openeuler/perl-Term-Cap
+  - src-openeuler/perl-constant
+  - src-openeuler/perl-HTTP-Tiny
+  - src-openeuler/perl-Pod-Simple
+  - src-openeuler/perl-Error
+  - src-openeuler/perl-B-Debug
+  - src-openeuler/perl-Pod-Perldoc
+  - src-openeuler/perl-Thread-Queue
+  - src-openeuler/perl-IO-Compress
+  - src-openeuler/perl-Unicode-Normalize
+  - src-openeuler/perl-Module-Load
+  - src-openeuler/perl-Digest-MD5
+  - src-openeuler/perl-JSON-PP
+  - src-openeuler/perl-parent
+  - src-openeuler/perl-Config-Perl-V
+  - src-openeuler/perl-Params-Check
+  - src-openeuler/perl-Scalar-List-Utils
+  - src-openeuler/perl-Text-Diff
+  - src-openeuler/perl-Data-Dumper
+  - src-openeuler/perl-Module-CoreList
+  - src-openeuler/perl-File-HomeDir
+  - src-openeuler/perl-XML-Parser
+  - src-openeuler/perl-ExtUtils-Install
+  - src-openeuler/perl-File-Temp
+  - src-openeuler/perl-Time-Local
+  - src-openeuler/perl-List-MoreUtils
+  - src-openeuler/perl-Locale-Maketext
+  - src-openeuler/perl-Env
+  - src-openeuler/perl-PerlIO-via-QuotedPrint
+  - src-openeuler/perl-Math-BigRat
+  - src-openeuler/perl-Text-Balanced
+  - src-openeuler/perl-Math-BigInt-FastCalc
+  - src-openeuler/perl-threads-shared
+  - src-openeuler/perl-Exporter
+  - src-openeuler/perl-Module-Metadata
+  - src-openeuler/perl-List-MoreUtils-XS
+  - src-openeuler/perl-version
+  - src-openeuler/perl-Locale-Codes
+  - src-openeuler/perl-Compress-Raw-Zlib
+  - src-openeuler/perl-XML-Writer
+  - src-openeuler/perl-TermReadKey
+  - src-openeuler/perl-MIME-Base64
+  - src-openeuler/perl-Unicode-Collate
+  - src-openeuler/perl-Perl-OSType
+  - src-openeuler/perl-IPC-System-Simple
+  - src-openeuler/perl-Pod-Usage
+  - src-openeuler/perl-Archive-Tar
+  - src-openeuler/perl-threads
+  - src-openeuler/perl-ExtUtils-Manifest
+  - src-openeuler/perl-Getopt-Long
+  - src-openeuler/perl-bignum
+  - src-openeuler/perl-File-Which
+  - src-openeuler/perl-IO-Socket-SSL
+  - src-openeuler/perl-Pod-Escapes
+  - src-openeuler/perl-Carp
+  - src-openeuler/perl-File-Path
+  - src-openeuler/perl-ExtUtils-ParseXS
+  - src-openeuler/perl-DBI
+  - src-openeuler/perl-PathTools
+  - src-openeuler/perl-Pod-Parser
+  - src-openeuler/perl-Math-BigInt
+  - src-openeuler/perl-Test-Simple
+  - src-openeuler/perl-Socket
+  - src-openeuler/perl-DB_File
+  - src-openeuler/perl-perlfaq
+  - src-openeuler/perl-File-Fetch
 - name: sig-python-modules
   repositories:
   - src-openeuler/python-ATpy
