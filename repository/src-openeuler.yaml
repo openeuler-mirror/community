@@ -1992,6 +1992,18 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: pesign-obs-integration
+  description: Macros and scripts to sign the kernel and bootloader
+  upstream: https://github.com/openSUSE/pesign-obs-integration
+  protected_branches:
+  - master
+  type: public
+- name: tss2
+  description: IBM's TCG Software Stack (TSS) for TPM 2.0 and related utilities
+  upstream: https://sourceforge.net/p/ibmtpm20tss/tss/ci/master/tree/
+  protected_branches:
+  - master
+  type: public
 - name: ding-libs
   description: ''
   protected_branches:
