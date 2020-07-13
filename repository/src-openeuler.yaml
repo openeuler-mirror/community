@@ -15002,3 +15002,75 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: std_msgs
+  description: "std_msgs package that belongs to THE ROS-COMM"
+  upstream: "https://github.com/ros/std_msgs"
+  protected_branches:
+  - master
+  type: public
+- name: message_generation
+  description: "message_generation package that belongs to THE ROS-COMM"
+  upstream: "https://github.com/ros/message_generation"
+  protected_branches:
+  - master
+  type: public
+- name: ros_environment
+  description: "ros_environment package that belongs to THE ROS-COMM"
+  upstream: "https://github.com/ros/ros_environment"
+  protected_branches:
+  - master
+  type: public
+- name: message_runtime
+  description: "message_runtime package that belongs to THE ROS-COMM"
+  upstream: "https://github.com/ros/message_runtime"
+  protected_branches:
+  - master
+  type: public
+- name: roscpp_serialization
+  description: "roscpp_serialization package that belongs to THE ROS-COMM"
+  upstream: "https://github.com/ros/roscpp_core"
+  protected_branches:
+  - master
+  type: public
+- name: roscpp_traits
+  description: "roscpp_traits package that belongs to THE ROS-COMM"
+  upstream: "https://github.com/ros/roscpp_core"
+  protected_branches:
+  - master
+  type: public
+- name: rostime
+  description: "rostime package that belongs to THE ROS-COMM"
+  upstream: "https://github.com/ros/roscpp_core"
+  protected_branches:
+  - master
+  type: public
+- name: rosbash
+  description: "rosbash package that belongs to THE ROS-COMM"
+  upstream: "https://github.com/ros/ros"
+  protected_branches:
+  - master
+  type: public
+- name: rosbuild
+  description: "rosbuild package that belongs to THE ROS-COMM"
+  upstream: "https://github.com/ros/ros"
+  protected_branches:
+  - master
+  type: public
+- name: roscreate
+  description: "roscreate package that belongs to THE ROS-COMM"
+  upstream: "https://github.com/ros/ros"
+  protected_branches:
+  - master
+  type: public
+- name: rosclean
+  description: "rosclean package that belongs to THE ROS-COMM"
+  upstream: "https://github.com/ros/ros"
+  protected_branches:
+  - master
+  type: public
+- name: rosconsole
+  description: "rosconsole package that belongs to THE ROS-COMM"
+  upstream: "https://github.com/ros/rosconsole"
+  protected_branches:
+  - master
+  type: public
