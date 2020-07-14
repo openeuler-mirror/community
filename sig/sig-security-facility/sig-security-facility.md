@@ -46,6 +46,8 @@ What and in what form the SIG is responsible for delivering
   - openeuler/digest-list-tools
   - src-openeuler/attest-tools
   - src-openeuler/digest-list-tools
+  - src-openeuler/pesign-obs-integration
+  - src-openeuler/tss2
   - src-openeuler/apparmor
   - src-openeuler/tpm2-tools
   - src-openeuler/setroubleshoot
