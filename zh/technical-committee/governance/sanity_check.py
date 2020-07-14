@@ -136,6 +136,7 @@ def check_4(exps, prefix, oe_repos, supervisors, cross_checked_repo):
         if repo["type"] == "private" and "Private" not in supervisors.get(name, set()):
             print("WARNING! Repository {name} marked as private in {prefix}.yaml, but not listed in Private SIG."
                     .format(name=name, prefix=prefix))
+            errors_found = errors_found + 1
 
         cross_checked_repo.add(name)
 
@@ -205,7 +206,7 @@ def load_yaml(d, f):
     """
     p = os.path.expanduser(os.path.join(d, f))
     try:
-        y = yaml.load(open(p), Loader=yaml.Loader)
+        y = yaml.load(open(p, encoding="utf-8"), Loader=yaml.Loader)
     except FileNotFoundError:
         print("Cannot Load {path}".format(path=p))
         print("Could be wrong path")
