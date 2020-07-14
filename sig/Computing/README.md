@@ -25,14 +25,14 @@
 - liqingqing_1229
 - wswsamao
 - wangbin224
-- SuperSix
+- SuperSix173
 
 committer | 细分领域
 ------ | ------
-SuperSix | OSBase
+SuperSix173 | OSBase
 love_hangzhou | OSBase
 liqingqing_1229 | OSBase
-SuperSix | dev-utils
+SuperSix173 | dev-utils
 wswsamao | dev-utils
 wswsamao | C-lib
 liqingqing_1229 | C-lib
@@ -41,7 +41,7 @@ love_hangzhou | device-manager
 liqingqing_1229 | device-manager
 wangbin224 | media
 wswsamao | media
-SuperSix | media
+SuperSix173 | media
 wangbin224 | Desktop
 wswsamao | Desktop
 
@@ -54,7 +54,7 @@ wswsamao | Desktop
 
 # 项目清单
 
-## OSBase 操作系统基础功能   (committer: SuperSix、love_hangzhou、liqingqing_1229)
+## OSBase 操作系统基础功能   (committer: SuperSix173、love_hangzhou、liqingqing_1229)
   - https://gitee.com/src-openeuler/procps-ng
   - https://gitee.com/src-openeuler/irqbalance
   - https://gitee.com/src-openeuler/psmisc
@@ -82,7 +82,7 @@ wswsamao | Desktop
   - https://gitee.com/src-openeuler/gmp
   - https://gitee.com/src-openeuler/npth
 
-## dev-utils 计算领域开发工具  （committer: SuperSix、 wswsamao）
+## dev-utils 计算领域开发工具  （committer: SuperSix173、 wswsamao）
   - https://gitee.com/src-openeuler/gdb
   - https://gitee.com/src-openeuler/strace
   - https://gitee.com/src-openeuler/systemtap
@@ -102,7 +102,7 @@ wswsamao | Desktop
   - https://gitee.com/src-openeuler/acpid
   - https://gitee.com/src-openeuler/upower
 
-## media 多媒体相关lib   （committer: SuperSix、 wswsamao、wangbin224）
+## media 多媒体相关lib   （committer: SuperSix173、 wswsamao、wangbin224）
   - https://gitee.com/src-openeuler/libsamplerate
   - https://gitee.com/src-openeuler/libogg
   - https://gitee.com/src-openeuler/pulseaudio
