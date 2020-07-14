@@ -17,14 +17,15 @@
 
 ### Maintainer列表
 
-- name[@yeqinglong01](https://gitee.com/yeqinglong01)，*yeqinlgong@uniontech.com*
-
+- yeqinglong[@yeqinglong01](https://gitee.com/yeqinglong01)
+- panchenbo[@panchenbo](https://gitee.com/panchenbo)
+- gaochong[@pocarl](https://gitee.com/pocarl)
 
 
 ### Committer列表
 
-- name[@panchenbo](https://gitee.com/panchenbo)
-- name[@pocarl](https://gitee.com/pocarl)
+- panchenbo[@panchenbo](https://gitee.com/panchenbo)
+- gaochong[@pocarl](https://gitee.com/pocarl)
 
 
 
