@@ -15026,44 +15026,14 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: roscpp_serialization
-  description: "roscpp_serialization package that belongs to THE ROS-COMM"
+- name: roscpp_core
+  description: "roscore package contains rostime、roscpp_traits、roscpp_serialization  that belongs to THE ROS-COMM"
   upstream: "https://github.com/ros/roscpp_core"
   protected_branches:
   - master
   type: public
-- name: roscpp_traits
-  description: "roscpp_traits package that belongs to THE ROS-COMM"
-  upstream: "https://github.com/ros/roscpp_core"
-  protected_branches:
-  - master
-  type: public
-- name: rostime
-  description: "rostime package that belongs to THE ROS-COMM"
-  upstream: "https://github.com/ros/roscpp_core"
-  protected_branches:
-  - master
-  type: public
-- name: rosbash
-  description: "rosbash package that belongs to THE ROS-COMM"
-  upstream: "https://github.com/ros/ros"
-  protected_branches:
-  - master
-  type: public
-- name: rosbuild
-  description: "rosbuild package that belongs to THE ROS-COMM"
-  upstream: "https://github.com/ros/ros"
-  protected_branches:
-  - master
-  type: public
-- name: roscreate
-  description: "roscreate package that belongs to THE ROS-COMM"
-  upstream: "https://github.com/ros/ros"
-  protected_branches:
-  - master
-  type: public
-- name: rosclean
-  description: "rosclean package that belongs to THE ROS-COMM"
+- name: ros
+  description: "ros package contains rosclean、roscreate、rosbuild、rosbash that belongs to THE ROS-COMM"
   upstream: "https://github.com/ros/ros"
   protected_branches:
   - master

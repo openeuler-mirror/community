@@ -53,12 +53,7 @@ repository地址：
 - https://gitee.com/src-openeuler/message_generation
 - https://gitee.com/src-openeuler/ros_environment
 - https://gitee.com/src-openeuler/message_runtime
-- https://gitee.com/src-openeuler/roscpp_serialization
-- https://gitee.com/src-openeuler/roscpp_traits
-- https://gitee.com/src-openeuler/rostime
-- https://gitee.com/src-openeuler/rosbash
-- https://gitee.com/src-openeuler/rosbuild
-- https://gitee.com/src-openeuler/rosclean
-- https://gitee.com/src-openeuler/roscreate
+- https://gitee.com/src-openeuler/roscpp_core
+- https://gitee.com/src-openeuler/ros
 - https://gitee.com/src-openeuler/rosconsole
 
