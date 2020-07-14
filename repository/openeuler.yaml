@@ -61,6 +61,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: custom_build_tool
+  description: "provide other method to deal parameter passing for OBS build"
+  protected_branches:
+  - master
+  type: public
 - name: docs
   description: "To build and enrich documentation for openEuler project."
   protected_branches:
@@ -188,6 +193,16 @@ repositories:
   type: public
 - name: security-committee
   description: "the Repository of Security Committee"
+  protected_branches:
+  - master
+  type: public
+- name: attest-tools
+  description: "A library that makes implementation of remote attestation easier"
+  protected_branches:
+  - master
+  type: public
+- name: digest-list-tools
+  description: "IMA digest list extension userspace tools"
   protected_branches:
   - master
   type: public
@@ -344,6 +359,11 @@ repositories:
   type: public
 - name: async-libfuse
   description: "asyncchronized libfuse in Rust"
+  protected_branches:
+  - master
+  type: public
+- name: trucker
+  description: "Tools for create iso livecd and cloud image"
   protected_branches:
   - master
   type: public

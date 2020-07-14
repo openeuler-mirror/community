@@ -1014,6 +1014,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: buildroot
+  description: 'Buildroot is a simple, efficient and easy-to-use tool to generate embedded Linux systems through cross-compilation.'
+  upstream: 'https://buildroot.org'
+  protected_branches:
+  - master
+  type: public
 - name: bullet
   description: ''
   protected_branches:
@@ -1614,6 +1620,7 @@ repositories:
   type: public
 - name: custom_build_tool
   description: provide other method to deal parameter passing for OBS build
+  upstream: https://gitee.com/openeuler/custom_build_tool
   protected_branches:
   - master
   type: public
@@ -1979,9 +1986,27 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: attest-tools
+  description: A library that makes implementation of remote attestation easier
+  upstream: https://gitee.com/openeuler/attest-tools
+  protected_branches:
+  - master
+  type: public
 - name: digest-list-tools
   description: IMA digest list extension userspace tools
-  upstream: htpps://github/initlove/digest-list-tools
+  upstream: htpps://gitee.com/openeuler/digest-list-tools
+  protected_branches:
+  - master
+  type: public
+- name: pesign-obs-integration
+  description: Macros and scripts to sign the kernel and bootloader
+  upstream: https://github.com/openSUSE/pesign-obs-integration
+  protected_branches:
+  - master
+  type: public
+- name: tss2
+  description: IBM's TCG Software Stack (TSS) for TPM 2.0 and related utilities
+  upstream: https://sourceforge.net/p/ibmtpm20tss/tss/ci/master/tree/
   protected_branches:
   - master
   type: public
@@ -28634,6 +28659,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: snapd-glib
+  description: 'Library providing a Glib interface to snapd'
+  upstream: https://github.com/snapcore/snapd-glib
+  protected_branches:
+  - master
+  type: public
 - name: snappy
   description: ''
   protected_branches:
