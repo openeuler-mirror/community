@@ -30883,3 +30883,45 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: std_msgs
+  description: "std_msgs package that belongs to THE ROS-COMM"
+  upstream: "https://github.com/ros/std_msgs"
+  protected_branches:
+  - master
+  type: public
+- name: message_generation
+  description: "message_generation package that belongs to THE ROS-COMM"
+  upstream: "https://github.com/ros/message_generation"
+  protected_branches:
+  - master
+  type: public
+- name: ros_environment
+  description: "ros_environment package that belongs to THE ROS-COMM"
+  upstream: "https://github.com/ros/ros_environment"
+  protected_branches:
+  - master
+  type: public
+- name: message_runtime
+  description: "message_runtime package that belongs to THE ROS-COMM"
+  upstream: "https://github.com/ros/message_runtime"
+  protected_branches:
+  - master
+  type: public
+- name: roscpp_core
+  description: "roscore package contains rostime、roscpp_traits、roscpp_serialization  that belongs to THE ROS-COMM"
+  upstream: "https://github.com/ros/roscpp_core"
+  protected_branches:
+  - master
+  type: public
+- name: ros
+  description: "ros package contains rosclean、roscreate、rosbuild、rosbash that belongs to THE ROS-COMM"
+  upstream: "https://github.com/ros/ros"
+  protected_branches:
+  - master
+  type: public
+- name: rosconsole
+  description: "rosconsole package that belongs to THE ROS-COMM"
+  upstream: "https://github.com/ros/rosconsole"
+  protected_branches:
+  - master
+  type: public
