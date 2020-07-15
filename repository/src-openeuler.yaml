@@ -26719,8 +26719,10 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: python-suds
+- name: python-suds2
   description: A python SOAP client
+  rename_from: python-suds
+  upstream: https://github.com/ovnicraft/suds2
   protected_branches:
   - master
   type: public
