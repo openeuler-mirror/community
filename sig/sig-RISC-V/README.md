@@ -1,4 +1,4 @@
-﻿***注意：本文档所有的斜体内容，请在完成时删除***
+***注意：本文档所有的斜体内容，请在完成时删除***
 
 # RISC-V
 
@@ -10,9 +10,8 @@
 - 及时响应用户反馈，解决相关问题
 
 # 组织会议
-
-- 公开的会议时间：北京时间，每周X 下午，XX点~XX点
-
+- 公开的会议时间：每周二 上午10:00 - 10:30
+- 加入方式请联系Maintainer 
 # 成员
 
 ### Maintainer列表
@@ -45,5 +44,6 @@
 
 repository地址：
 
-- 新建(进行中)
-- 
+- https://gitee.com/openeuler/autobuild-openeuler4riscv
+- https://gitee.com/src-openeuler/opensbi
+- https://gitee.com/src-openeuler/risc-v-kernel
