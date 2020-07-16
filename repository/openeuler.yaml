@@ -332,12 +332,14 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: Boole-JDK-8
+- name: boolejdk-8
+  rename-from: Boole-JDK-8
   description: "Boole JDK 8 is a high-performance, production-ready distribution of OpenJDK 8."
   protected_branches:
   - master
   type: private
-- name: Boole-JDK-11
+- name: boolejdk-11
+  rename-from: Boole-JDK-11
   description: "Boole JDK 11 is a high-performance, production-ready distribution of OpenJDK 11."
   protected_branches:
   - master
