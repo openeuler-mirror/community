@@ -18,6 +18,7 @@
 - zhdguy
 - Night
 - twwang
+- 赵鹏元
 
 ### Maintainer列表
 

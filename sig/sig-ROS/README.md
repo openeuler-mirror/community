@@ -7,7 +7,7 @@
 
 # 组织会议
 
-- 公开的会议时间：北京时间，每周二 下午，4点~5点
+- 公开的会议时间：北京时间，周四 上午，10点-11点
 
 
 # 成员
@@ -49,4 +49,11 @@ repository地址：
 - https://gitee.com/src-openeuler/genpy
 - https://gitee.com/src-openeuler/gennodejs
 - https://gitee.com/src-openeuler/genmsg
+- https://gitee.com/src-openeuler/std_msgs
+- https://gitee.com/src-openeuler/message_generation
+- https://gitee.com/src-openeuler/ros_environment
+- https://gitee.com/src-openeuler/message_runtime
+- https://gitee.com/src-openeuler/roscpp_core
+- https://gitee.com/src-openeuler/ros
+- https://gitee.com/src-openeuler/rosconsole
 
