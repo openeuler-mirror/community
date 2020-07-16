@@ -4098,6 +4098,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: hello
+  description: 'The GNU Hello program produces a familiar, friendly greeting. Yes, this is another implementation of the classic program that prints “Hello, world!” when you run it.'
+  upstream: http://www.gnu.org/software/hello/
+  protected_branches:
+  - master
+  type: public
 - name: help2man
   description: ''
   protected_branches:
