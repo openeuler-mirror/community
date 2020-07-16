@@ -205,7 +205,7 @@ def load_yaml(d, f):
     """
     p = os.path.expanduser(os.path.join(d, f))
     try:
-        y = yaml.load(open(p), Loader=yaml.Loader)
+        y = yaml.load(open(p, encoding="utf-8"), Loader=yaml.Loader)
     except FileNotFoundError:
         print("Cannot Load {path}".format(path=p))
         print("Could be wrong path")
