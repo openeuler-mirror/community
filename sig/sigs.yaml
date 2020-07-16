@@ -3285,6 +3285,8 @@ sigs:
 - name: sig-RISC-V
   repositories:
   - openeuler/autobuild-openeuler4riscv
+  - src-openeuler/risc-v-kernel
+  - src-openeuler/opensbi
 - name: sig-android-middleware
   repositories:
   - openeuler/android-emulator
