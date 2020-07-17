@@ -470,8 +470,20 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: apache-mod_jk
+  description: Connectors between Apache and Tomcat Servlet Container
+  upstream: https://tomcat.apache.org/connectors-doc/
+  protected_branches:
+  - master
+  type: public
 - name: apache2-mod_xforward
   description: Apache module implementing handling of X-FORWARD headers
+  protected_branches:
+  - master
+  type: public
+- name: apache-rpm-macros
+  description: Apache RPM Macros
+  upstream: http://httpd.apache.org/
   protected_branches:
   - master
   type: public
@@ -4251,9 +4263,21 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: hunspell-as
+  description: Hunspell dictionaries for Assamese
+  upstream: https://extensions.openoffice.org/en/project/assamese-dictionaryspell-checker
+  protected_branches:
+  - master
+  type: public
 - name: hunspell-ast
   description: Asturian hunspell dictionaries used in OpenOffice
   upstream: http://softastur.org/
+  protected_branches:
+  - master
+  type: public
+- name: hunspell-az
+  description: Hunspell dictionaries for Azerbaijani
+  upstream: http://crubadan.org/applications
   protected_branches:
   - master
   type: public
@@ -4296,6 +4320,12 @@ repositories:
 - name: hunspell-cop
   description: Hunspell dictionaries for Coptic
   upstream: http://www.moheb.de/coptic_oo.html
+  protected_branches:
+  - master
+  type: public
+- name: hunspell-csb
+  description: Kashubian hunspell dictionaries for hunspell used in OpenOffice
+  upstream: http://ftp.gnu.org/gnu/aspell/dict/csb
   protected_branches:
   - master
   type: public
@@ -4387,6 +4417,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: hunspell-fur
+  description: Libraries for friulian hunspell dictionaries
+  upstream: http://digilander.libero.it/paganf/coretors/dizionaris.html
+  protected_branches:
+  - master
+  type: public
 - name: hunspell-fy
   description: Frisian hunspell dictionaries
   upstream: http://www.mozilla-nl.org/projecten/frysk
@@ -4426,6 +4462,12 @@ repositories:
 - name: hunspell-gv
   description: Manx hunspell dictionaries used in OpenOffice
   upstream: https://github.com/eurolinux-enterprise-linux-sources/hunspell-gv.git
+  protected_branches:
+  - master
+  type: public
+- name: hunspell-haw
+  description: Hawaiian hunspell dictionaries for hunspell used in OpenOffice
+  upstream: https://www.spellcheck.net/hawaiian
   protected_branches:
   - master
   type: public
@@ -4516,6 +4558,12 @@ repositories:
 - name: hunspell-ku
   description: Kurdish hunspell dictionaries for hunspell used in OpenOffice
   upstream: https://sourceforge.net/projects/myspellkurdish/
+  protected_branches:
+  - master
+  type: public
+- name: hunspell-ky
+  description: Kirghiz hunspell dictionaries for hunspell used of OpenOffice
+  upstream: https://aur.archlinux.org/packages/aspell6-ky/
   protected_branches:
   - master
   type: public
@@ -4777,6 +4825,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: hunspell-ta
+  description: Hunspell dictionaries for Tamil
+  upstream: https://git.centos.org/rpms/hunspell-ta/tree/c8
+  protected_branches:
+  - master
+  type: public
 - name: hunspell-tet
   description:  Tetum hunspell dictionaries for hunspell used in OpenOffice
   upstream: http://www.mirrorservice.org
@@ -5004,6 +5058,12 @@ repositories:
 - name: hyphen-hsb
   description: Uppersorbian for hyphenation patterns
   upstream: http://tug.org/tex-hyphen
+  protected_branches:
+  - master
+  type: public
+- name: hyphen-ia
+  description: Interlingua hyphenation rules
+  upstream: http://ftp.int.ru/pub/CTAN/obsolete/help/Catalogue/entries/iahyphen.html
   protected_branches:
   - master
   type: public
@@ -10473,6 +10533,12 @@ repositories:
   type: public
 - name: patchutils
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: pavucontrol
+  description: The volume control of PulseAudio
+  upstream: http://freedesktop.org/software/pulseaudio/pavucontrol
   protected_branches:
   - master
   type: public

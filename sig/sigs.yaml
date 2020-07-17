@@ -20,6 +20,9 @@ sigs:
   - openeuler/crystal-ci
 - name: Application
   repositories:
+  - src-openeuler/pavucontrol
+  - src-openeuler/apache-mod_jk
+  - src-openeuler/apache-rpm-macros
   - src-openeuler/snapd-glib
   - src-openeuler/custom_build_tool
   - src-openeuler/geronimo-parent-poms
@@ -31,7 +34,9 @@ sigs:
   - src-openeuler/hunspell-ak
   - src-openeuler/hunspell-am
   - src-openeuler/hunspell-ar
+  - src-openeuler/hunspell-as
   - src-openeuler/hunspell-ast
+  - src-openeuler/hunspell-az
   - src-openeuler/hunspell-be
   - src-openeuler/hunspell-ber
   - src-openeuler/hunspell-bg
@@ -39,6 +44,7 @@ sigs:
   - src-openeuler/hunspell-br
   - src-openeuler/hunspell-ca
   - src-openeuler/hunspell-cop
+  - src-openeuler/hunspell-csb
   - src-openeuler/hunspell-cv
   - src-openeuler/hunspell-cy
   - src-openeuler/hunspell-da
@@ -54,6 +60,7 @@ sigs:
   - src-openeuler/hunspell-fj
   - src-openeuler/hunspell-fo
   - src-openeuler/hunspell-fr
+  - src-openeuler/hunspell-fur
   - src-openeuler/hunspell-fy
   - src-openeuler/hunspell-ga
   - src-openeuler/hunspell-gd
@@ -61,6 +68,7 @@ sigs:
   - src-openeuler/hunspell-grc
   - src-openeuler/hunspell-gu
   - src-openeuler/hunspell-gv
+  - src-openeuler/hunspell-haw
   - src-openeuler/hunspell-hil
   - src-openeuler/hunspell-hr
   - src-openeuler/hunspell-hsb
@@ -76,6 +84,7 @@ sigs:
   - src-openeuler/hunspell-kn
   - src-openeuler/hunspell-ko
   - src-openeuler/hunspell-ku
+  - src-openeuler/hunspell-ky
   - src-openeuler/hunspell-la
   - src-openeuler/hunspell-lb
   - src-openeuler/hunspell-ln
@@ -119,6 +128,7 @@ sigs:
   - src-openeuler/hunspell-st
   - src-openeuler/hunspell-sv
   - src-openeuler/hunspell-sw
+  - src-openeuler/hunspell-ta
   - src-openeuler/hunspell-tet
   - src-openeuler/hunspell-th
   - src-openeuler/hunspell-ti
@@ -154,6 +164,7 @@ sigs:
   - src-openeuler/hyphen-gu
   - src-openeuler/hyphen-hi
   - src-openeuler/hyphen-hsb
+  - src-openeuler/hyphen-ia
   - src-openeuler/hyphen-id
   - src-openeuler/hyphen-is
   - src-openeuler/hyphen-it
