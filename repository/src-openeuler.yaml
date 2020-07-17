@@ -30891,6 +30891,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: pkgship
+  description: a package depend query tool
+  upstream: https://gitee.com/openeuler/openEuler-Advisor
+  protected_branches:
+  - master
+  type: public
 - name: std_msgs
   description: "std_msgs package that belongs to THE ROS-COMM"
   upstream: "https://github.com/ros/std_msgs"
