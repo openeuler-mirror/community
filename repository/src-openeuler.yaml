@@ -11051,6 +11051,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: opensbi
+  description: RISC-V Open Source Supervisor Binary Interface for Booting an OS on QEMU virt
+  upstream: https://github.com/riscv/opensbi 
+  protected_branches:
+  - master
+  type: public
 - name: opensc
   description: ''
   protected_branches:
@@ -29932,6 +29938,12 @@ repositories:
 - name: rhythmbox
   description: Music Management Application
   upstream: https://wiki.gnome.org/Apps/Rhythmbox
+  protected_branches:
+  - master
+  type: public
+- name: risc-v-kernel
+  description: Linux Kernel for openEuler RISC-V
+  upstream: https://gitee.com/openeuler/kernel/tree/kernel-5.5/
   protected_branches:
   - master
   type: public
