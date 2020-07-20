@@ -20,6 +20,12 @@ sigs:
   - openeuler/crystal-ci
 - name: Application
   repositories:
+  - src-openeuler/pki-core
+  - src-openeuler/cjose
+  - src-openeuler/mythes
+  - src-openeuler/aspell-en
+  - src-openeuler/culmus-fonts
+  - src-openeuler/libyami
   - src-openeuler/pavucontrol
   - src-openeuler/apache-mod_jk
   - src-openeuler/apache-rpm-macros
@@ -112,6 +118,7 @@ sigs:
   - src-openeuler/hunspell-pa
   - src-openeuler/hunspell-pl
   - src-openeuler/hunspell-pt
+  - src-openeuler/hunspell-qu
   - src-openeuler/hunspell-ro
   - src-openeuler/hunspell-ru
   - src-openeuler/hunspell-rw
@@ -129,6 +136,7 @@ sigs:
   - src-openeuler/hunspell-sv
   - src-openeuler/hunspell-sw
   - src-openeuler/hunspell-ta
+  - src-openeuler/hunspell-te
   - src-openeuler/hunspell-tet
   - src-openeuler/hunspell-th
   - src-openeuler/hunspell-ti
@@ -719,6 +727,7 @@ sigs:
   - src-openeuler/libieee1284
 - name: Networking
   repositories:
+  - src-openeuler/kronosnet
   - src-openeuler/tomcatjss
   - src-openeuler/initscripts
   - src-openeuler/libmediaart
@@ -1448,6 +1457,7 @@ sigs:
   - src-openeuler/passenger
 - name: System-tool
   repositories:
+  - src-openeuler/argyllcms
   - src-openeuler/watchdog
   - src-openeuler/custodia
   - src-openeuler/criu
@@ -1558,6 +1568,7 @@ sigs:
   - src-openeuler/mysql5
 - name: Base-service
   repositories:
+  - src-openeuler/plexus-component-factories-pom
   - src-openeuler/jdom
   - src-openeuler/powermock
   - src-openeuler/uom-parent
@@ -2147,6 +2158,7 @@ sigs:
   - src-openeuler/libisal
 - name: Computing
   repositories:
+  - src-openeuler/ps_mem
   - src-openeuler/libqb
   - src-openeuler/memkind
   - src-openeuler/dyninst
@@ -2958,6 +2970,7 @@ sigs:
   - src-openeuler/bpftrace
   - src-openeuler/brpc
   - src-openeuler/buildroot
+  - src-openeuler/catch1
   - src-openeuler/ck
   - src-openeuler/cloc
   - src-openeuler/cmockery
@@ -3009,10 +3022,12 @@ sigs:
   - src-openeuler/nmon
   - src-openeuler/openEuler-pkginfo
   - src-openeuler/parfait
+  - src-openeuler/PEGTL
   - src-openeuler/pyporter
   - src-openeuler/pyusb
   - src-openeuler/ragel
   - src-openeuler/ranger
+  - src-openeuler/relaxngDatatype
   - src-openeuler/samtools
   - src-openeuler/slurm
   - src-openeuler/stax-ex

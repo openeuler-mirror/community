@@ -6,6 +6,12 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
+- name: culmus-fonts
+  description: Fonts for Hebrew from Culmus project
+  upstream: http://culmus.sourceforge.net
+  protected_branches:
+  - master
+  type: public
 - name: CUnit
   description: ''
   protected_branches:
@@ -602,6 +608,12 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
+- name: argyllcms
+  description: ICC compatible color management system
+  upstream: http://gitorious.org/hargyllcms
+  protected_branches:
+  - master
+  type: public
 - name: armadillo
   description: Fast C++ matrix library with interfaces to LAPACK and ATLAS.
   protected_branches:
@@ -646,6 +658,12 @@ repositories:
   protected_branches:
   - master
   - openEuler-20.03-LTS
+  type: public
+- name: aspell-en
+  description: The Aspell of English dictionaries
+  upstream: http://aspell.net/
+  protected_branches:
+  - master
   type: public
 - name: assertj-core
   description: A rich and intuitive set of strongly-typed assertions to use for unit
@@ -1237,6 +1255,12 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
+- name: catch1
+  description: A modern, C++-native, header-only, framework for unit-tests, TDD and BDD
+  upstream: https://github.com/philsquared/Catch
+  protected_branches:
+  - master
+  type: public
 - name: catfish
   upstream: https://docs.xfce.org/apps/catfish/start
   description: A handy file search tool
@@ -1395,6 +1419,12 @@ repositories:
 - name: cjkuni-uming-fonts
   description: Chinese Unicode TrueType font in Ming face
   upstream: https://www.freedesktop.org/wiki/Software/CJKUnifonts/
+  protected_branches:
+  - master
+  type: public
+- name: cjose
+  description: C library implementing the Javascript Object Signing and Encryption (JOSE)
+  upstream: https://github.com/cisco/cjose
   protected_branches:
   - master
   type: public
@@ -5193,6 +5223,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: hunspell-qu
+  description: Quechua Ecuador hunspell dictionaries for hunspell used in OpenOffice
+  upstream: http://extensions.services.openoffice.org/project/KichwaSpellchecker
+  protected_branches:
+  - master
+  type: public
 - name: hunspell-ro
   description: A UTF-8 coding dictionaries supporting Romainian
   upstream: http://rospell.sourceforge.net/
@@ -5292,6 +5328,12 @@ repositories:
 - name: hunspell-ta
   description: Hunspell dictionaries for Tamil
   upstream: https://git.centos.org/rpms/hunspell-ta/tree/c8
+  protected_branches:
+  - master
+  type: public
+- name: hunspell-te
+  description: Telugu hunspell dictionaries
+  upstream: https://gitorious.org/hunspell_dictionaries/hunspell_dictionaries.git
   protected_branches:
   - master
   type: public
@@ -6744,6 +6786,12 @@ repositories:
   protected_branches:
   - master
   - openEuler-20.03-LTS
+  type: public
+- name: kronosnet
+  description: Multipoint-to-Multipoint VPN daemon
+  upstream: https://kronosnet.org
+  protected_branches:
+  - master
   type: public
 - name: kryo
   description: ''
@@ -8901,6 +8949,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: libyami
+  description: Another Media Infrastructure
+  upstream: https://github.com/intel/libyami
+  protected_branches:
+  - master
+  type: public
 - name: libyaml
   description: ''
   protected_branches:
@@ -10279,6 +10333,12 @@ repositories:
 - name: mysql5
   description: mysql version 5.x
   upstream: https://www.mysql.com/cn/
+  protected_branches:
+  - master
+  type: public
+- name: mythes
+  description: A thesaurus library
+  upstream: http://hunspell.sourceforge.net/
   protected_branches:
   - master
   type: public
@@ -11672,6 +11732,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: PEGTL
+  description: Parsing Expression Grammar Template Library
+  upstream: https://github.com/taocpp/PEGTL/
+  protected_branches:
+  - master
+  type: public
 - name: peony
   description: ''
   protected_branches:
@@ -20897,6 +20963,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: pki-core
+  description: The PKI Core Package
+  upstream: http://www.dogtagpki.org/
+  protected_branches:
+  - master
+  type: public
 - name: platform_build
   description: store system compilation Rules and basic development packages such
     as generic
@@ -21003,6 +21075,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: plexus-component-factories-pom
+  description: Plexus Component Factories POM
+  upstream: https://github.com/codehaus-plexus/plexus-component-factories
+  protected_branches:
+  - master
+  type: public
 - name: plexus-components-pom
   description: ''
   protected_branches:
@@ -21299,6 +21377,12 @@ repositories:
   protected_branches:
   - master
   - openEuler-20.03-LTS
+  type: public
+- name: ps_mem
+  description: profiling tool for memory
+  upstream: https://github.com/pixelb/ps_mem
+  protected_branches:
+  - master
   type: public
 - name: psmisc
   description: ''
@@ -29900,6 +29984,12 @@ repositories:
   protected_branches:
   - master
   - openEuler-20.03-LTS
+  type: public
+- name: relaxngDatatype
+  description: Relaxng Datatype library for Java
+  upstream: https://github.com/java-schema-utilities/relaxng-datatype-java
+  protected_branches:
+  - master
   type: public
 - name: repo
   description: ''
