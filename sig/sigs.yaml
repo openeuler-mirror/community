@@ -20,6 +20,9 @@ sigs:
   - openeuler/crystal-ci
 - name: Application
   repositories:
+  - src-openeuler/pavucontrol
+  - src-openeuler/apache-mod_jk
+  - src-openeuler/apache-rpm-macros
   - src-openeuler/snapd-glib
   - src-openeuler/custom_build_tool
   - src-openeuler/geronimo-parent-poms
@@ -31,7 +34,9 @@ sigs:
   - src-openeuler/hunspell-ak
   - src-openeuler/hunspell-am
   - src-openeuler/hunspell-ar
+  - src-openeuler/hunspell-as
   - src-openeuler/hunspell-ast
+  - src-openeuler/hunspell-az
   - src-openeuler/hunspell-be
   - src-openeuler/hunspell-ber
   - src-openeuler/hunspell-bg
@@ -39,6 +44,7 @@ sigs:
   - src-openeuler/hunspell-br
   - src-openeuler/hunspell-ca
   - src-openeuler/hunspell-cop
+  - src-openeuler/hunspell-csb
   - src-openeuler/hunspell-cv
   - src-openeuler/hunspell-cy
   - src-openeuler/hunspell-da
@@ -54,6 +60,7 @@ sigs:
   - src-openeuler/hunspell-fj
   - src-openeuler/hunspell-fo
   - src-openeuler/hunspell-fr
+  - src-openeuler/hunspell-fur
   - src-openeuler/hunspell-fy
   - src-openeuler/hunspell-ga
   - src-openeuler/hunspell-gd
@@ -61,6 +68,7 @@ sigs:
   - src-openeuler/hunspell-grc
   - src-openeuler/hunspell-gu
   - src-openeuler/hunspell-gv
+  - src-openeuler/hunspell-haw
   - src-openeuler/hunspell-hil
   - src-openeuler/hunspell-hr
   - src-openeuler/hunspell-hsb
@@ -76,6 +84,7 @@ sigs:
   - src-openeuler/hunspell-kn
   - src-openeuler/hunspell-ko
   - src-openeuler/hunspell-ku
+  - src-openeuler/hunspell-ky
   - src-openeuler/hunspell-la
   - src-openeuler/hunspell-lb
   - src-openeuler/hunspell-ln
@@ -119,6 +128,7 @@ sigs:
   - src-openeuler/hunspell-st
   - src-openeuler/hunspell-sv
   - src-openeuler/hunspell-sw
+  - src-openeuler/hunspell-ta
   - src-openeuler/hunspell-tet
   - src-openeuler/hunspell-th
   - src-openeuler/hunspell-ti
@@ -154,6 +164,7 @@ sigs:
   - src-openeuler/hyphen-gu
   - src-openeuler/hyphen-hi
   - src-openeuler/hyphen-hsb
+  - src-openeuler/hyphen-ia
   - src-openeuler/hyphen-id
   - src-openeuler/hyphen-is
   - src-openeuler/hyphen-it
@@ -597,7 +608,6 @@ sigs:
   - src-openeuler/perl-Parse-Yapp
   - src-openeuler/xcb-proto
   - src-openeuler/flatpak
-  - src-openeuler/yum-metadata-parser
   - src-openeuler/libell
   - src-openeuler/perl-Carp-Clan
   - src-openeuler/python-flit
@@ -1405,7 +1415,7 @@ sigs:
   - src-openeuler/python-rsa
   - src-openeuler/python-ruamel-yaml
   - src-openeuler/python-ruamel-yaml-clib
-  - src-openeuler/python-suds
+  - src-openeuler/python-suds2
   - src-openeuler/python-texttable
   - src-openeuler/python-waitress
   - src-openeuler/python-websocket-client
@@ -2841,7 +2851,6 @@ sigs:
   - src-openeuler/xpp3
   - src-openeuler/xstream
   - src-openeuler/xz-java
-  - src-openeuler/yum-langpacks
   - src-openeuler/zbar
   - src-openeuler/zvbi
   - src-openeuler/kf5
@@ -3128,6 +3137,8 @@ sigs:
   - src-openeuler/golang-github-d2g-dhcp4
   - src-openeuler/golang-github-coreos-go-iptables
   - src-openeuler/golang-github-russross-blackfriday
+  - src-openeuler/yum-metadata-parser
+  - src-openeuler/yum-langpacks
 - name: sig-RaspberryPi
   repositories:
   - openeuler/raspberrypi
@@ -3228,6 +3239,7 @@ sigs:
 - name: sig-EasyLife
   repositories:
   - openeuler/openEuler-Advisor
+  - src-openeuler/pkgship
 - name: sig-ceph
   repositories:
   - src-openeuler/ceph
@@ -3286,6 +3298,8 @@ sigs:
 - name: sig-RISC-V
   repositories:
   - openeuler/autobuild-openeuler4riscv
+  - src-openeuler/risc-v-kernel
+  - src-openeuler/opensbi
 - name: sig-android-middleware
   repositories:
   - openeuler/android-emulator
