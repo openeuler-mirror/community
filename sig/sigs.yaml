@@ -2079,6 +2079,7 @@ sigs:
   - src-openeuler/open-isns
 - name: Desktop
   repositories:
+  - src-openeuler/openbox
   - src-openeuler/gnome-boxes
   - src-openeuler/adwaita-qt
   - src-openeuler/seahorse
@@ -2274,7 +2275,6 @@ sigs:
   - src-openeuler/arpack
   - src-openeuler/asio
   - src-openeuler/atinject
-  - src-openeuler/automoc
   - src-openeuler/autotrace
   - src-openeuler/avalon-framework
   - src-openeuler/avalon-logkit
@@ -2938,6 +2938,10 @@ sigs:
   - openeuler/security
 - name: dev-utils
   repositories:
+  - src-openeuler/kf5
+  - src-openeuler/extra-cmake-modules
+  - src-openeuler/dbusmenu-qt
+  - src-openeuler/automoc
   - openeuler/abichecker
   - openeuler/auto_py2to3
   - openeuler/openEuler-bootstrap

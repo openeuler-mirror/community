@@ -804,7 +804,7 @@ repositories:
   description: Automatic moc for Qt 4.
   protected_branches:
   - master
-  type: private
+  type: public
 - name: autotrace
   description: ''
   protected_branches:
@@ -1880,7 +1880,7 @@ repositories:
   description: ''
   protected_branches:
   - master
-  type: private
+  type: public
 - name: dbxtool
   description: ''
   protected_branches:
@@ -2790,7 +2790,7 @@ repositories:
   description: KDE Frameworks 5 cmake extra modules.
   protected_branches:
   - master
-  type: private
+  type: public
 - name: extra166y
   description: ''
   protected_branches:
@@ -6698,7 +6698,7 @@ repositories:
   description: Filesystem and RPM macros for KDE Frameworks 5
   protected_branches:
   - master
-  type: private
+  type: public
 - name: khmeros-fonts
   description: ''
   protected_branches:
@@ -10924,7 +10924,7 @@ repositories:
   description: ''
   protected_branches:
   - master
-  type: private
+  type: public
 - name: opencc
   description: ''
   protected_branches:
