@@ -1769,6 +1769,13 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
+- name: csmith
+  description: 'Csmith is a tool that can generate random C programs that statically and dynamically conform to the C99 standard. '
+  upstream: 'http://embed.cs.utah.edu/csmith/'
+  protected_branches:
+  - master
+  - openEuler-20.03-LTS
+  type: public
 - name: ct-ng
   description: Crosstool-NG is a versatile (cross) toolchain generator. It supports
     many architectures and components and has a simple yet powerful menuconfig-style
@@ -4510,6 +4517,13 @@ repositories:
   type: private
 - name: haproxy
   description: ''
+  protected_branches:
+  - master
+  - openEuler-20.03-LTS
+  type: public
+- name: hardinfo
+  description: 'HardInfo is a graphical utility for Linux that displays information about various hardware components in your PC like processor, RAM modules, sensors, hard drives and so on.'
+  upstream: 'https://github.com/lpereira/hardinfo'
   protected_branches:
   - master
   - openEuler-20.03-LTS
@@ -11468,6 +11482,13 @@ repositories:
   type: public
 - name: p11-kit
   description: ''
+  protected_branches:
+  - master
+  - openEuler-20.03-LTS
+  type: public
+- name: p7zip
+  description: '7-Zip is a file archiver with a high compression ratio.'
+  upstream: 'https://www.7-zip.org/'
   protected_branches:
   - master
   - openEuler-20.03-LTS
@@ -30747,6 +30768,13 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
+- name: stress-ng
+  description: 'the next stress'
+  upstream: 'https://kernel.ubuntu.com/~cking/stress-ng'
+  protected_branches:
+  - master
+  - openEuler-20.03-LTS
+  type: public
 - name: stream-lib
   description: ''
   protected_branches:
@@ -30754,6 +30782,13 @@ repositories:
   type: private
 - name: strongswan
   description: ''
+  protected_branches:
+  - master
+  - openEuler-20.03-LTS
+  type: public
+- name: s-tui
+  description: 'S-tui is a CPU resource monitor that uses a terminal based graphical interface to display data and graphs.'
+  upstream: 'https://amanusk.github.io/s-tui'
   protected_branches:
   - master
   - openEuler-20.03-LTS
