@@ -31690,6 +31690,204 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: attica
+  description: Attica is a Qt library that implements the Open Collaboration Services API version 1.4.
+  upstream: http://www.kde.org
+  protected_branches:
+  - master
+  type: public
+- name: bamf
+  description: Application matching framework
+  upstream: https://github.com/malwaredllc/bamf
+  protected_branches:
+  - master
+  type: public
+- name: grantlee
+  description: Qt string template engine based on the Django template system
+  upstream: http://www.gitorious.org/grantlee/pages/Home
+  protected_branches:
+  - master
+  type: public
+- name: gsettings-qt
+  description: Qt/QML bindings for GSettings
+  upstream: https://launchpad.net/gsettings-qt
+  protected_branches:
+  - master
+  type: public
+- name: kf5-karchive
+  description: KDE Frameworks 5 Tier 1 addon with archive functions
+  upstream: http://www.kde.org
+  protected_branches:
+  - master
+  type: public
+- name: kf5-kauth
+  description: KDE Frameworks 5 Tier 2 integration module to perform actions as privileged user
+  upstream: http://www.kde.org
+  protected_branches:
+  - master
+  type: public
+- name: kf5-kcodecs
+  description: KDE Frameworks 5 Tier 1 addon with string manipulation methods
+  upstream: http://www.kde.org
+  protected_branches:
+  - master
+  type: public
+- name: kf5-kconfig
+  description: KDE Frameworks 5 Tier 1 addon with advanced configuration system
+  upstream: http://www.kde.org
+  protected_branches:
+  - master
+  type: public
+- name: kf5-kconfigwidgets
+  description: KDE Frameworks 5 Tier 3 addon for creating configuration dialogs
+  upstream: http://www.kde.org
+  protected_branches:
+  - master
+  type: public
+- name: kf5-kcoreaddons
+  description: KDE Frameworks 5 Tier 1 addon with various classes on top of QtCore
+  upstream: http://www.kde.org
+  protected_branches:
+  - master
+  type: public
+- name: kf5-kdoctools
+  description: KDE Frameworks 5 Tier 2 addon for generating documentation
+  upstream: http://www.kde.org
+  protected_branches:
+  - master
+  type: public
+- name: kf5-kguiaddons
+  description: KDE Frameworks 5 Tier 1 addon with various classes on top of QtGui
+  upstream: http://www.kde.org
+  protected_branches:
+  - master
+  type: public
+- name: kf5-ki18n
+  description: KDE Frameworks 5 Tier 1 addon for localization
+  upstream: http://www.kde.org
+  protected_branches:
+  - master
+  type: public
+- name: kf5-kidletime
+  description: KDE Frameworks 5 Tier 1 integration module for idle time detection
+  upstream: http://www.kde.org
+  protected_branches:
+  - master
+  type: public
+- name: kf5-kwayland
+  description: KDE Frameworks 5 library that wraps Client and Server Wayland libraries
+  upstream: http://www.kde.org
+  protected_branches:
+  - master
+  type: public
+- name: kf5-kwidgetsaddons
+  description: KDE Frameworks 5 Tier 1 addon with various classes on top of QtWidgets
+  upstream: http://www.kde.org
+  protected_branches:
+  - master
+  type: public
+- name: kf5-kwindowsystem
+  description: KDE Frameworks 5 Tier 1 integration module with classes for windows management
+  upstream: http://www.kde.org
+  protected_branches:
+  - master
+  type: public
+- name: kf5-solid
+  description: KDE Frameworks 5 Tier 1 integration module that provides hardware information
+  upstream: http://www.kde.org
+  protected_branches:
+  - master
+  type: public
+- name: libkscreen-qt5
+  description: KDE display configuration library
+  upstream: http://www.kde.org
+  protected_branches:
+  - master
+  type: public
+- name: libqtxdg
+  description: QtXdg, a Qt5 implementation of XDG standards
+  upstream: https://github.com/lxqt/libqtxdg
+  protected_branches:
+  - master
+  type: public
+- name: libstatgrab
+  description: A library that provides cross platform access to statistics of the system
+  upstream: http://www.i-scream.org/libstatgrab
+  protected_branches:
+  - master
+  type: public
+- name: libsysstat
+  description: Library used to query system info and statistics
+  upstream: https://github.com/lxqt/libsysstat
+  protected_branches:
+  - master
+  type: public
+- name: libupnp
+  description: Universal Plug and Play (UPnP) SDK
+  upstream: https://sourceforge.net/projects/pupnp
+  protected_branches:
+  - master
+  type: public
+- name: lxqt-build-tools
+  description: Packaging tools for LXQt
+  upstream: https://github.com/lxqt/lxqt-build-tools
+  protected_branches:
+  - master
+  type: public
+- name: polkit-qt-1
+  description: Qt bindings for PolicyKit
+  upstream: https://api.kde.org/kdesupport-api/polkit-qt-1-apidocs/
+  protected_branches:
+  - master
+  type: public
+- name: qjson
+  description: A qt-based library that maps JSON data to QVariant objects
+  upstream: https://github.com/flavio/qjson
+  protected_branches:
+  - master
+  type: public
+- name: qt5-qtcharts
+  description: Qt5 - Charts component
+  upstream: http://www.qt.io
+  protected_branches:
+  - master
+  type: public
+- name: qtchooser
+  description: Wrapper to select between Qt development binary versions
+  upstream: http://macieira.org/qtchooser
+  protected_branches:
+  - master
+  type: public
+- name: redshift
+  description: Adjusts the color temperature of your screen according to time of day
+  upstream: http://jonls.dk/redshift/
+  protected_branches:
+  - master
+  type: public
+- name: shared-desktop-ontologies
+  description: Shared ontologies needed for semantic environments
+  upstream: http://oscaf.sourceforge.net/
+  protected_branches:
+  - master
+  type: public
+- name: ubuntukylin-default-settings
+  description: Default settings for the Ubuntu Kylin desktop
+  upstream: https://github.com/ukui
+  protected_branches:
+  - master
+  type: public
+- name: ukui-system-monitor
+  description: A simple system monitor written in QT
+  upstream: https://github.com/ukui/ukui-system-monitor
+  protected_branches:
+  - master
+  type: public
+- name: ukui-wallpapers
+  description: Wallpapers for UKUI desktop environment
+  upstream: https://github.com/ukui/ukui-wallpapers
+  protected_branches:
+  - master
+  type: public
 - name: umoci
   description: Open Container Image manipulation tool
   protected_branches:
