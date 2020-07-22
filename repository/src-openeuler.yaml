@@ -33364,6 +33364,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: kubernetes
+  description: production-grade container scheduling and management
+  upstream: https://github.com/kubernetes/kubernetes
+  protected_branches:
+  - master
+  type: public
 - name: rosconsole
   description: rosconsole package that belongs to THE ROS-COMM
   upstream: https://github.com/ros/rosconsole
