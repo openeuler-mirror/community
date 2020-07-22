@@ -802,6 +802,7 @@ repositories:
   type: public
 - name: automoc
   description: Automatic moc for Qt 4.
+  upstream: https://kde.org
   protected_branches:
   - master
   type: public
@@ -1878,6 +1879,7 @@ repositories:
   type: public
 - name: dbusmenu-qt
   description: 'Dbusmenu library for QT'
+  upstream: https://github.com/unity8-team/libdbusmenu-qt
   protected_branches:
   - master
   type: public
@@ -2788,6 +2790,7 @@ repositories:
   type: private
 - name: extra-cmake-modules
   description: KDE Frameworks 5 cmake extra modules.
+  upstream: https://api.kde.org/ecm
   protected_branches:
   - master
   type: public
@@ -6696,6 +6699,7 @@ repositories:
   type: public
 - name: kf5
   description: Filesystem and RPM macros for KDE Frameworks 5
+  upstream: http://www.kde.org
   protected_branches:
   - master
   type: public
@@ -10922,6 +10926,7 @@ repositories:
   type: public
 - name: openbox
   description: 'Windowmanager based on the original blackbox-code'
+  upstream: http://openbox.org
   protected_branches:
   - master
   type: public
