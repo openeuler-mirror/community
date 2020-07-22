@@ -20,8 +20,6 @@ sigs:
   - openeuler/crystal-ci
 - name: Application
   repositories:
-  - src-openeuler/abi-compliance-checker
-  - src-openeuler/abi-dumper
   - src-openeuler/pki-core
   - src-openeuler/cjose
   - src-openeuler/mythes
@@ -3262,6 +3260,8 @@ sigs:
   repositories:
   - openeuler/openEuler-Advisor
   - src-openeuler/pkgship
+  - src-openeuler/abi-compliance-checker
+  - src-openeuler/abi-dumper
 - name: sig-ceph
   repositories:
   - src-openeuler/ceph
