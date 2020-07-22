@@ -33155,3 +33155,9 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: nim
+  description: "Nim is a statically typed compiled systems programming language,which combines concepts from Python, Ada and Modula."
+  upstream: "https://nim-lang.org/"
+  protected_branches:
+  - master
+  type: public
