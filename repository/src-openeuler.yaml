@@ -228,6 +228,18 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
+- name: abi-compliance-checker
+  description: 'a tool for checking compatibility of C/C++ software library'
+  upstream: 'https://github.com/lvc/abi-compliance-checker'
+  protected_branches:
+  - master
+  type: public
+- name: abi-dumper
+  description: 'a tool to dump ABI of an ELF object containing DWARF debug info'
+  upstream: 'https://github.com/lvc/abi-dumper'
+  protected_branches:
+  - master
+  type: public
 - name: abrt
   description: ''
   protected_branches:

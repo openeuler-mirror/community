@@ -3261,6 +3261,8 @@ sigs:
   repositories:
   - openeuler/openEuler-Advisor
   - src-openeuler/pkgship
+  - src-openeuler/abi-compliance-checker
+  - src-openeuler/abi-dumper
 - name: sig-ceph
   repositories:
   - src-openeuler/ceph
