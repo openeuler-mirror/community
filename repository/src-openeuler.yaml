@@ -10378,6 +10378,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: mysql-selinux
+  description: "SELinux policies for product"
+  upstream: https://github.com/kubco2/mysql-selinux
+  protected_branches:
+  - master
+  type: public
 - name: mythes
   description: A thesaurus library
   upstream: http://hunspell.sourceforge.net/
