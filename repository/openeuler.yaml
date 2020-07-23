@@ -364,6 +364,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: isula-build
+  description: "isula build kit for building container images"
+  protected_branches:
+  - master
+  type: public
 - name: trucker
   description: "Tools for create iso livecd and cloud image"
   protected_branches:
