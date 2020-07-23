@@ -36,7 +36,6 @@ sigs:
   - src-openeuler/libmpeg2
   - src-openeuler/linkchecker
   - src-openeuler/xmlstreambuffer
-  - src-openeuler/hunspell
   - src-openeuler/hunspell-ak
   - src-openeuler/hunspell-am
   - src-openeuler/hunspell-ar
@@ -57,7 +56,6 @@ sigs:
   - src-openeuler/hunspell-de
   - src-openeuler/hunspell-dsb
   - src-openeuler/hunspell-el
-  - src-openeuler/hunspell-en
   - src-openeuler/hunspell-eo
   - src-openeuler/hunspell-es
   - src-openeuler/hunspell-et
@@ -729,376 +727,130 @@ sigs:
 - name: Networking
   repositories:
   - src-openeuler/kronosnet
-  - src-openeuler/tomcatjss
   - src-openeuler/initscripts
-  - src-openeuler/libmediaart
-  - src-openeuler/giflib
-  - src-openeuler/xorg-x11-font-utils
-  - src-openeuler/libwebp
-  - src-openeuler/sendmail
-  - src-openeuler/libgpg-error
-  - src-openeuler/gnome-themes-standard
-  - src-openeuler/libxcb
   - src-openeuler/dnf
-  - src-openeuler/cdparanoia
-  - src-openeuler/xcb-util
   - src-openeuler/dnf-plugins-core
   - src-openeuler/http-parser
-  - src-openeuler/urw-base35-fonts
   - src-openeuler/openvswitch
-  - src-openeuler/mesa
   - src-openeuler/ldns
   - src-openeuler/ipvsadm
-  - src-openeuler/xorg-x11-xkb-utils
-  - src-openeuler/libxkbfile
   - src-openeuler/efi-rpm-macros
-  - src-openeuler/xorg-x11-drv-ati
-  - src-openeuler/libSM
-  - src-openeuler/libXxf86misc
-  - src-openeuler/gstreamer1
   - src-openeuler/unbound
-  - src-openeuler/pinentry
   - src-openeuler/ntp
   - src-openeuler/openssh
-  - src-openeuler/accountsservice
-  - src-openeuler/mesa-libGLU
   - src-openeuler/NetworkManager
-  - src-openeuler/abattis-cantarell-fonts
-  - src-openeuler/guile
-  - src-openeuler/pipewire
-  - src-openeuler/cjkuni-ukai-fonts
   - src-openeuler/libserf
-  - src-openeuler/xorg-x11-drv-v4l
-  - src-openeuler/telepathy-glib
-  - src-openeuler/nettle
   - src-openeuler/tipcutils
-  - src-openeuler/libcacard
-  - src-openeuler/colord
   - src-openeuler/libnetfilter_queue
   - src-openeuler/iptables
-  - src-openeuler/woff2
-  - src-openeuler/libtimezonemap
   - src-openeuler/python-idna
-  - src-openeuler/enchant
-  - src-openeuler/libXxf86dga
-  - src-openeuler/libXres
-  - src-openeuler/libXtst
-  - src-openeuler/python-coverage
-  - src-openeuler/rpmrebuild
   - src-openeuler/GeoIP
-  - src-openeuler/libXrandr
-  - src-openeuler/newt
   - src-openeuler/xinetd
-  - src-openeuler/libical
-  - src-openeuler/xkeyboard-config
-  - src-openeuler/libXfont2
   - src-openeuler/libssh2
-  - src-openeuler/libXcursor
   - src-openeuler/nftables
   - src-openeuler/bridge-utils
   - src-openeuler/telnet
-  - src-openeuler/pytz
-  - src-openeuler/libXpm
-  - src-openeuler/xorg-x11-drv-nouveau
-  - src-openeuler/avahi
   - src-openeuler/libassuan
   - src-openeuler/iw
-  - src-openeuler/clutter-gtk
   - src-openeuler/GeoIP-GeoLite-data
-  - src-openeuler/libsoup
-  - src-openeuler/google-noto-emoji-fonts
   - src-openeuler/zd1211-firmware
   - src-openeuler/ipmitool
   - src-openeuler/efivar
-  - src-openeuler/libdmx
-  - src-openeuler/lcms2
-  - src-openeuler/python-dmidecode
   - src-openeuler/ipset
-  - src-openeuler/keybinder3
-  - src-openeuler/xorg-x11-xauth
-  - src-openeuler/libXrender
-  - src-openeuler/json-glib
-  - src-openeuler/pyatspi
-  - src-openeuler/libgtop2
-  - src-openeuler/icu
   - src-openeuler/libwebsockets
   - src-openeuler/iptraf-ng
-  - src-openeuler/evolution-data-server
-  - src-openeuler/PackageKit
-  - src-openeuler/sgml-common
   - src-openeuler/ppp
   - src-openeuler/tcpdump
-  - src-openeuler/libxklavier
   - src-openeuler/traceroute
   - src-openeuler/mtr
   - src-openeuler/firewalld
-  - src-openeuler/plymouth
-  - src-openeuler/ypserv
   - src-openeuler/arpwatch
-  - src-openeuler/mailx
-  - src-openeuler/libXvMC
-  - src-openeuler/libfontenc
-  - src-openeuler/libXmu
-  - src-openeuler/wqy-zenhei-fonts
   - src-openeuler/iputils
   - src-openeuler/iproute
-  - src-openeuler/xorg-x11-drv-dummy
-  - src-openeuler/libgnomecanvas
-  - src-openeuler/libgweather
   - src-openeuler/nmap
-  - src-openeuler/yelp-xsl
   - src-openeuler/httpd
-  - src-openeuler/xorg-x11-fonts
   - src-openeuler/network-manager-applet
   - src-openeuler/libdnet
   - src-openeuler/efibootmgr
-  - src-openeuler/graphviz
-  - src-openeuler/libglade2
-  - src-openeuler/satyr
-  - src-openeuler/pixman
-  - src-openeuler/xorg-x11-server
-  - src-openeuler/python-ethtool
   - src-openeuler/cdrkit
-  - src-openeuler/libbluray
-  - src-openeuler/brltty
-  - src-openeuler/openjpeg
-  - src-openeuler/xorg-x11-drv-libinput
   - src-openeuler/python-requests-ftp
-  - src-openeuler/libmng
-  - src-openeuler/poppler
   - src-openeuler/ModemManager
   - src-openeuler/procmail
-  - src-openeuler/rtkit
-  - src-openeuler/libarchive
   - src-openeuler/tcp_wrappers
-  - src-openeuler/libXcomposite
   - src-openeuler/vconfig
-  - src-openeuler/comps-extras
-  - src-openeuler/gdk-pixbuf2
-  - src-openeuler/fribidi
-  - src-openeuler/hicolor-icon-theme
-  - src-openeuler/ypbind
   - src-openeuler/lua-socket
-  - src-openeuler/dconf
-  - src-openeuler/libbonobo
   - src-openeuler/mod_http2
   - src-openeuler/libtirpc
   - src-openeuler/ethtool
-  - src-openeuler/gnome-online-accounts
   - src-openeuler/net-tools
-  - src-openeuler/xvattr
-  - src-openeuler/libgnome
-  - src-openeuler/libgxps
-  - src-openeuler/libxkbcommon
   - src-openeuler/anaconda-user-help
-  - src-openeuler/geocode-glib
-  - src-openeuler/telepathy-filesystem
-  - src-openeuler/xorg-x11-server-utils
-  - src-openeuler/clutter
-  - src-openeuler/texinfo
   - src-openeuler/hostname
-  - src-openeuler/source-highlight
   - src-openeuler/openldap
   - src-openeuler/ipcalc
-  - src-openeuler/rest
   - src-openeuler/vsftpd
   - src-openeuler/samba
-  - src-openeuler/libimobiledevice
-  - src-openeuler/gjs
   - src-openeuler/dnsmasq
-  - src-openeuler/libXfixes
-  - src-openeuler/libcdio
-  - src-openeuler/xorg-x11-drv-evdev
-  - src-openeuler/libXinerama
-  - src-openeuler/libgee
-  - src-openeuler/libXxf86vm
   - src-openeuler/setools
-  - src-openeuler/emacs
   - src-openeuler/notification-daemon
-  - src-openeuler/spice
-  - src-openeuler/mozjs52
   - src-openeuler/chrony
-  - src-openeuler/libcdio-paranoia
   - src-openeuler/grub2
-  - src-openeuler/tk
-  - src-openeuler/lxsession
   - src-openeuler/libproxy
-  - src-openeuler/google-noto-cjk-fonts
   - src-openeuler/ntpstat
-  - src-openeuler/libatasmart
-  - src-openeuler/tmux
   - src-openeuler/libnetfilter_conntrack
-  - src-openeuler/libICE
-  - src-openeuler/grilo
-  - src-openeuler/nautilus
-  - src-openeuler/zenity
-  - src-openeuler/atk
-  - src-openeuler/gnome-vfs2
-  - src-openeuler/libwnck3
   - src-openeuler/postfix
-  - src-openeuler/libgnomekbd
-  - src-openeuler/libX11
   - src-openeuler/libnl3
   - src-openeuler/arptables
-  - src-openeuler/augeas
-  - src-openeuler/bluez
   - src-openeuler/ftp
-  - src-openeuler/poppler-data
-  - src-openeuler/cockpit
-  - src-openeuler/sbc
-  - src-openeuler/libbonoboui
-  - src-openeuler/harfbuzz
   - src-openeuler/python-paste
-  - src-openeuler/cups
-  - src-openeuler/gpm
-  - src-openeuler/libepoxy
   - src-openeuler/anaconda
-  - src-openeuler/fltk
-  - src-openeuler/cups-pk-helper
-  - src-openeuler/desktop-file-utils
-  - src-openeuler/libXdamage
   - src-openeuler/ipxe
-  - src-openeuler/fontconfig
-  - src-openeuler/cheese
-  - src-openeuler/vino
-  - src-openeuler/json-c
-  - src-openeuler/libpng
-  - src-openeuler/color-filesystem
   - src-openeuler/openvswitch-kmod
   - src-openeuler/libgcrypt
-  - src-openeuler/geoclue2
-  - src-openeuler/at-spi2-atk
   - src-openeuler/blivet-gui
-  - src-openeuler/ncurses
-  - src-openeuler/graphite2
-  - src-openeuler/metacity
   - src-openeuler/python-ipaddress
-  - src-openeuler/gvfs
-  - src-openeuler/google-droid-fonts
-  - src-openeuler/gsm
-  - src-openeuler/libglvnd
   - src-openeuler/libpcap
-  - src-openeuler/wayland
-  - src-openeuler/clutter-gst3
-  - src-openeuler/xterm
-  - src-openeuler/mozjs60
   - src-openeuler/xmlrpc-c
-  - src-openeuler/cogl
-  - src-openeuler/telepathy-logger
   - src-openeuler/libssh
-  - src-openeuler/GConf2
   - src-openeuler/wget
-  - src-openeuler/libexif
-  - src-openeuler/tigervnc
-  - src-openeuler/libgusb
-  - src-openeuler/glib2
-  - src-openeuler/gstreamer1-plugins-base
   - src-openeuler/nghttp2
-  - src-openeuler/libiptcdata
-  - src-openeuler/libXi
-  - src-openeuler/openjpeg2
-  - src-openeuler/libXt
-  - src-openeuler/libXv
   - src-openeuler/libnfnetlink
-  - src-openeuler/ibus
   - src-openeuler/curl
-  - src-openeuler/jbigkit
-  - src-openeuler/gv
-  - src-openeuler/gd
-  - src-openeuler/libxshmfence
   - src-openeuler/uboot-tools
   - src-openeuler/python-IPy
   - src-openeuler/lftp
-  - src-openeuler/gtk2
-  - src-openeuler/gtk3
   - src-openeuler/atmel-firmware
-  - src-openeuler/mozilla-filesystem
   - src-openeuler/netcf
-  - src-openeuler/pycairo
-  - src-openeuler/fontpackages
-  - src-openeuler/libasyncns
   - src-openeuler/c-ares
-  - src-openeuler/qrencode
   - src-openeuler/python-backports-ssl_match_hostname
-  - src-openeuler/librsvg2
-  - src-openeuler/webrtc-audio-processing
-  - src-openeuler/fros
   - src-openeuler/python-ntplib
-  - src-openeuler/bubblewrap
   - src-openeuler/libesmtp
-  - src-openeuler/gsettings-desktop-schemas
-  - src-openeuler/gcr
   - src-openeuler/geolite2
-  - src-openeuler/spice-vdagent
   - src-openeuler/ebtables
-  - src-openeuler/adwaita-icon-theme
   - src-openeuler/dropwatch
   - src-openeuler/bind
-  - src-openeuler/kbd
   - src-openeuler/OpenIPMI
   - src-openeuler/grpc
-  - src-openeuler/pango
   - src-openeuler/bind-dyndb-ldap
   - src-openeuler/dhcp
-  - src-openeuler/at-spi2-core
-  - src-openeuler/libx86emu
-  - src-openeuler/libsexy
-  - src-openeuler/gnome-autoar
-  - src-openeuler/libldb
-  - src-openeuler/Xaw3d
   - src-openeuler/glib-networking
-  - src-openeuler/libcanberra
-  - src-openeuler/libart_lgpl
-  - src-openeuler/libgudev
-  - src-openeuler/xorg-x11-drv-wacom
   - src-openeuler/net-snmp
   - src-openeuler/icfg
   - src-openeuler/python-blivet
-  - src-openeuler/freetype
-  - src-openeuler/libnotify
   - src-openeuler/python-requests
   - src-openeuler/rpcbind
-  - src-openeuler/setserial
-  - src-openeuler/xorg-x11-drivers
-  - src-openeuler/exiv2
-  - src-openeuler/qt5
   - src-openeuler/python-urllib3
-  - src-openeuler/libXft
-  - src-openeuler/yp-tools
-  - src-openeuler/wqy-microhei-fonts
   - src-openeuler/iptstate
   - src-openeuler/radvd
-  - src-openeuler/adobe-mappings-pdf
   - src-openeuler/squid
-  - src-openeuler/jbig2dec
   - src-openeuler/python-html5lib
   - src-openeuler/libnet
   - src-openeuler/tftp
-  - src-openeuler/gnome-desktop3
-  - src-openeuler/libXdmcp
-  - src-openeuler/libdrm
-  - src-openeuler/shared-mime-info
-  - src-openeuler/webkit2gtk3
-  - src-openeuler/sound-theme-freedesktop
-  - src-openeuler/libXaw
-  - src-openeuler/libXau
-  - src-openeuler/libgdata
   - src-openeuler/lorax
-  - src-openeuler/adobe-mappings-cmap
-  - src-openeuler/libjpeg-turbo
-  - src-openeuler/glade
-  - src-openeuler/xorg-x11-drv-fbdev
   - src-openeuler/lldpad
-  - src-openeuler/libtiff
-  - src-openeuler/cairo
-  - src-openeuler/mutter
-  - src-openeuler/taglib
-  - src-openeuler/libXext
   - src-openeuler/b43-openfwwf
   - src-openeuler/libndp
   - src-openeuler/openslp
   - src-openeuler/mobile-broadband-provider-info
-  - src-openeuler/yelp
   - src-openeuler/xdp-cpumap-tc
   - src-openeuler/python-dasbus
 - name: Virt
@@ -1569,6 +1321,11 @@ sigs:
   - src-openeuler/mysql5
 - name: Base-service
   repositories:
+  - src-openeuler/tomcatjss
+  - src-openeuler/json-c
+  - src-openeuler/rpmrebuild
+  - src-openeuler/nettle
+  - src-openeuler/setools
   - src-openeuler/plexus-component-factories-pom
   - src-openeuler/jdom
   - src-openeuler/powermock
@@ -2091,6 +1848,239 @@ sigs:
   - src-openeuler/open-isns
 - name: Desktop
   repositories:
+  - src-openeuler/libmediaart
+  - src-openeuler/libgusb
+  - src-openeuler/gstreamer1-plugins-base
+  - src-openeuler/gstreamer1
+  - src-openeuler/geoclue2
+  - src-openeuler/evolution-data-server
+  - src-openeuler/colord
+  - src-openeuler/accountsservice
+  - src-openeuler/giflib
+  - src-openeuler/zenity
+  - src-openeuler/ypserv
+  - src-openeuler/ypbind
+  - src-openeuler/yp-tools
+  - src-openeuler/yelp-xsl
+  - src-openeuler/yelp
+  - src-openeuler/xvattr
+  - src-openeuler/xterm
+  - src-openeuler/xorg-x11-xkb-utils
+  - src-openeuler/xorg-x11-xauth
+  - src-openeuler/xorg-x11-server-utils
+  - src-openeuler/xorg-x11-server
+  - src-openeuler/xorg-x11-fonts
+  - src-openeuler/xorg-x11-font-utils
+  - src-openeuler/xorg-x11-drv-wacom
+  - src-openeuler/xorg-x11-drv-v4l
+  - src-openeuler/xorg-x11-drv-nouveau
+  - src-openeuler/xorg-x11-drv-libinput
+  - src-openeuler/xorg-x11-drv-fbdev
+  - src-openeuler/xorg-x11-drv-evdev
+  - src-openeuler/xorg-x11-drv-dummy
+  - src-openeuler/xorg-x11-drv-ati
+  - src-openeuler/xorg-x11-drivers
+  - src-openeuler/xkeyboard-config
+  - src-openeuler/xcb-util
+  - src-openeuler/Xaw3d
+  - src-openeuler/wqy-zenhei-fonts
+  - src-openeuler/wqy-microhei-fonts
+  - src-openeuler/woff2
+  - src-openeuler/webrtc-audio-processing
+  - src-openeuler/webkit2gtk3
+  - src-openeuler/wayland
+  - src-openeuler/vino
+  - src-openeuler/urw-base35-fonts
+  - src-openeuler/tmux
+  - src-openeuler/tk
+  - src-openeuler/tigervnc
+  - src-openeuler/texinfo
+  - src-openeuler/telepathy-logger
+  - src-openeuler/telepathy-glib
+  - src-openeuler/telepathy-filesystem
+  - src-openeuler/taglib
+  - src-openeuler/spice-vdagent
+  - src-openeuler/spice
+  - src-openeuler/source-highlight
+  - src-openeuler/sound-theme-freedesktop
+  - src-openeuler/shared-mime-info
+  - src-openeuler/sgml-common
+  - src-openeuler/setserial
+  - src-openeuler/sendmail
+  - src-openeuler/sbc
+  - src-openeuler/satyr
+  - src-openeuler/rtkit
+  - src-openeuler/rest
+  - src-openeuler/qt5
+  - src-openeuler/qrencode
+  - src-openeuler/pytz
+  - src-openeuler/python-ethtool
+  - src-openeuler/python-dmidecode
+  - src-openeuler/python-coverage
+  - src-openeuler/pycairo
+  - src-openeuler/pyatspi
+  - src-openeuler/poppler-data
+  - src-openeuler/poppler
+  - src-openeuler/plymouth
+  - src-openeuler/pixman
+  - src-openeuler/pipewire
+  - src-openeuler/pinentry
+  - src-openeuler/pango
+  - src-openeuler/PackageKit
+  - src-openeuler/openjpeg2
+  - src-openeuler/openjpeg
+  - src-openeuler/newt
+  - src-openeuler/ncurses
+  - src-openeuler/mozjs60
+  - src-openeuler/mozjs52
+  - src-openeuler/mozilla-filesystem
+  - src-openeuler/metacity
+  - src-openeuler/mesa-libGLU
+  - src-openeuler/mesa
+  - src-openeuler/mailx
+  - src-openeuler/lxsession
+  - src-openeuler/libXxf86vm
+  - src-openeuler/libXxf86misc
+  - src-openeuler/libXxf86dga
+  - src-openeuler/libXvMC
+  - src-openeuler/libXv
+  - src-openeuler/libXtst
+  - src-openeuler/libXt
+  - src-openeuler/libxshmfence
+  - src-openeuler/libXres
+  - src-openeuler/libXrender
+  - src-openeuler/libXrandr
+  - src-openeuler/libXpm
+  - src-openeuler/libXmu
+  - src-openeuler/libxklavier
+  - src-openeuler/libxkbfile
+  - src-openeuler/libxkbcommon
+  - src-openeuler/libXinerama
+  - src-openeuler/libXi
+  - src-openeuler/libXft
+  - src-openeuler/libXfont2
+  - src-openeuler/libXfixes
+  - src-openeuler/libXext
+  - src-openeuler/libXdmcp
+  - src-openeuler/libXdamage
+  - src-openeuler/libXcursor
+  - src-openeuler/libXcomposite
+  - src-openeuler/libxcb
+  - src-openeuler/libXaw
+  - src-openeuler/libXau
+  - src-openeuler/libx86emu
+  - src-openeuler/libX11
+  - src-openeuler/libwnck3
+  - src-openeuler/libwebp
+  - src-openeuler/libtimezonemap
+  - src-openeuler/libtiff
+  - src-openeuler/libsoup
+  - src-openeuler/libSM
+  - src-openeuler/libsexy
+  - src-openeuler/librsvg2
+  - src-openeuler/libpng
+  - src-openeuler/libnotify
+  - src-openeuler/libmng
+  - src-openeuler/libldb
+  - src-openeuler/libjpeg-turbo
+  - src-openeuler/libiptcdata
+  - src-openeuler/libimobiledevice
+  - src-openeuler/libICE
+  - src-openeuler/libical
+  - src-openeuler/libgxps
+  - src-openeuler/libgweather
+  - src-openeuler/libgudev
+  - src-openeuler/libgtop2
+  - src-openeuler/libgpg-error
+  - src-openeuler/libglvnd
+  - src-openeuler/libglade2
+  - src-openeuler/libgee
+  - src-openeuler/libgdata
+  - src-openeuler/libfontenc
+  - src-openeuler/libexif
+  - src-openeuler/libepoxy
+  - src-openeuler/libdmx
+  - src-openeuler/libdrm
+  - src-openeuler/libcdio-paranoia
+  - src-openeuler/libcdio
+  - src-openeuler/libcanberra
+  - src-openeuler/libcacard
+  - src-openeuler/libbonoboui
+  - src-openeuler/libbonobo
+  - src-openeuler/libbluray
+  - src-openeuler/libatasmart
+  - src-openeuler/libasyncns
+  - src-openeuler/libart_lgpl
+  - src-openeuler/libarchive
+  - src-openeuler/lcms2
+  - src-openeuler/keybinder3
+  - src-openeuler/kbd
+  - src-openeuler/json-glib
+  - src-openeuler/jbigkit
+  - src-openeuler/jbig2dec
+  - src-openeuler/icu
+  - src-openeuler/ibus
+  - src-openeuler/hunspell-en
+  - src-openeuler/hunspell
+  - src-openeuler/hicolor-icon-theme
+  - src-openeuler/harfbuzz
+  - src-openeuler/gvfs
+  - src-openeuler/gv
+  - src-openeuler/guile
+  - src-openeuler/gtk3
+  - src-openeuler/gtk2
+  - src-openeuler/graphite2
+  - src-openeuler/gsm
+  - src-openeuler/gsettings-desktop-schemas
+  - src-openeuler/grilo
+  - src-openeuler/graphviz
+  - src-openeuler/gpm
+  - src-openeuler/google-noto-cjk-fonts
+  - src-openeuler/google-noto-emoji-fonts
+  - src-openeuler/google-droid-fonts
+  - src-openeuler/glib2
+  - src-openeuler/glade
+  - src-openeuler/gjs
+  - src-openeuler/geocode-glib
+  - src-openeuler/gdk-pixbuf2
+  - src-openeuler/gd
+  - src-openeuler/gcr
+  - src-openeuler/GConf2
+  - src-openeuler/fros
+  - src-openeuler/fribidi
+  - src-openeuler/freetype
+  - src-openeuler/fontpackages
+  - src-openeuler/fontconfig
+  - src-openeuler/fltk
+  - src-openeuler/exiv2
+  - src-openeuler/enchant
+  - src-openeuler/emacs
+  - src-openeuler/desktop-file-utils
+  - src-openeuler/dconf
+  - src-openeuler/cups-pk-helper
+  - src-openeuler/cups
+  - src-openeuler/comps-extras
+  - src-openeuler/color-filesystem
+  - src-openeuler/cogl
+  - src-openeuler/cockpit
+  - src-openeuler/clutter-gtk
+  - src-openeuler/clutter-gst3
+  - src-openeuler/clutter
+  - src-openeuler/cjkuni-ukai-fonts
+  - src-openeuler/cheese
+  - src-openeuler/cdparanoia
+  - src-openeuler/cairo
+  - src-openeuler/brltty
+  - src-openeuler/bluez
+  - src-openeuler/avahi
+  - src-openeuler/augeas
+  - src-openeuler/atk
+  - src-openeuler/at-spi2-core
+  - src-openeuler/at-spi2-atk
+  - src-openeuler/adwaita-icon-theme
+  - src-openeuler/adobe-mappings-pdf
+  - src-openeuler/adobe-mappings-cmap
+  - src-openeuler/abattis-cantarell-fonts
   - src-openeuler/openbox
   - src-openeuler/gnome-boxes
   - src-openeuler/adwaita-qt
@@ -5782,6 +5772,16 @@ sigs:
   - src-openeuler/qgnomeplatform
   - src-openeuler/gnome-control-center
   - src-openeuler/gtk-doc
+  - src-openeuler/nautilus
+  - src-openeuler/mutter
+  - src-openeuler/libgnomekbd
+  - src-openeuler/libgnomecanvas
+  - src-openeuler/gnome-themes-standard
+  - src-openeuler/gnome-online-accounts
+  - src-openeuler/gnome-autoar
+  - src-openeuler/gnome-desktop3
+  - src-openeuler/gnome-vfs2
+  - src-openeuler/libgnome
 - name: sig-desktop-apps
   repositories:
   - src-openeuler/vnpy

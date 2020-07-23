@@ -1,51 +1,158 @@
-# Networking
+﻿# Networking  SIG
 
-*<请在此描述SIG的范围、工作职责和目标，可以直接用sig-template.md内描述的第一个章节>,*
-
-
+- 在openEuler社区中添加对Networking的支持
+- 负责Networking相关软件包的规划、选型和维护
+- 负责将openEuler社区中的Networking的工作成果回馈给上游社区
+- 及时响应用户反馈，解决相关问题
 
 # 组织会议
 
-- 公开的会议时间：北京时间，每周X 下午，XX点~XX点
-
-*<请在此给出SIG会议的时间>*
-
-
+- 公开的会议时间：北京时间，每周四 下午， 3点30分 ~ 4点30分
 
 # 成员
 
-*<请在此给出团队成员的列表>*
+### Maintainers列表
 
-### Maintainer列表
+-   严安[@yanan-rock](https://gitee.com/yanan-rock)
+- 王晓鹏[@wangxp006](<https://gitee.com/wangxp006>)
 
-- name[@giteeID](giteeID链接)
+###  Committers列表
 
+- 赵伟[@seuzw](<https://gitee.com/seuzw>)
+- 郭德庆[@guodeqing](<https://gitee.com/guodeqing>)
 
-
-### Committer列表
-
-- name[@giteeID](giteeID链接)
-
-
-
-# 联系方式
-
-*<如果需要单独申请邮件列表，请在此补充邮箱名称：sig-yousigname@openeuler.org>*
+#  联系方式
 
 - [邮件列表](dev@openeuler.org)
-- [IM](#openeuler-dev)
 
-
-
-
+- [IRC频道](#openeuler-dev)
+- [IRC公开会议](#openeuler-meeting)
 
 # 项目清单
-
-*<项目名称和申请表格一致，具体地址可以在申请下来以后在刷新>*
-
-项目名称：
-
-repository地址：
-
-- 
-- 
+- https://gitee.com/src-openeuler/kronosnet
+- https://gitee.com/src-openeuler/initscripts
+- https://gitee.com/src-openeuler/dnf
+- https://gitee.com/src-openeuler/dnf-plugins-core
+- https://gitee.com/src-openeuler/http-parser
+- https://gitee.com/src-openeuler/openvswitch
+- https://gitee.com/src-openeuler/ldns
+- https://gitee.com/src-openeuler/ipvsadm
+- https://gitee.com/src-openeuler/efi-rpm-macros
+- https://gitee.com/src-openeuler/unbound
+- https://gitee.com/src-openeuler/ntp
+- https://gitee.com/src-openeuler/openssh
+- https://gitee.com/src-openeuler/NetworkManager
+- https://gitee.com/src-openeuler/libserf
+- https://gitee.com/src-openeuler/tipcutils
+- https://gitee.com/src-openeuler/libnetfilter_queue
+- https://gitee.com/src-openeuler/iptables
+- https://gitee.com/src-openeuler/python-idna
+- https://gitee.com/src-openeuler/GeoIP
+- https://gitee.com/src-openeuler/xinetd
+- https://gitee.com/src-openeuler/libssh2
+- https://gitee.com/src-openeuler/nftables
+- https://gitee.com/src-openeuler/bridge-utils
+- https://gitee.com/src-openeuler/telnet
+- https://gitee.com/src-openeuler/libassuan
+- https://gitee.com/src-openeuler/iw
+- https://gitee.com/src-openeuler/GeoIP-GeoLite-data
+- https://gitee.com/src-openeuler/zd1211-firmware
+- https://gitee.com/src-openeuler/ipmitool
+- https://gitee.com/src-openeuler/efivar
+- https://gitee.com/src-openeuler/ipset
+- https://gitee.com/src-openeuler/libwebsockets
+- https://gitee.com/src-openeuler/iptraf-ng
+- https://gitee.com/src-openeuler/ppp
+- https://gitee.com/src-openeuler/tcpdump
+- https://gitee.com/src-openeuler/traceroute
+- https://gitee.com/src-openeuler/mtr
+- https://gitee.com/src-openeuler/firewalld
+- https://gitee.com/src-openeuler/arpwatch
+- https://gitee.com/src-openeuler/iputils
+- https://gitee.com/src-openeuler/iproute
+- https://gitee.com/src-openeuler/nmap
+- https://gitee.com/src-openeuler/httpd
+- https://gitee.com/src-openeuler/network-manager-applet
+- https://gitee.com/src-openeuler/libdnet
+- https://gitee.com/src-openeuler/efibootmgr
+- https://gitee.com/src-openeuler/cdrkit
+- https://gitee.com/src-openeuler/python-requests-ftp
+- https://gitee.com/src-openeuler/ModemManager
+- https://gitee.com/src-openeuler/procmail
+- https://gitee.com/src-openeuler/tcp_wrappers
+- https://gitee.com/src-openeuler/vconfig
+- https://gitee.com/src-openeuler/lua-socket
+- https://gitee.com/src-openeuler/mod_http2
+- https://gitee.com/src-openeuler/libtirpc
+- https://gitee.com/src-openeuler/ethtool
+- https://gitee.com/src-openeuler/net-tools
+- https://gitee.com/src-openeuler/anaconda-user-help
+- https://gitee.com/src-openeuler/hostname
+- https://gitee.com/src-openeuler/openldap
+- https://gitee.com/src-openeuler/ipcalc
+- https://gitee.com/src-openeuler/vsftpd
+- https://gitee.com/src-openeuler/samba
+- https://gitee.com/src-openeuler/dnsmasq
+- https://gitee.com/src-openeuler/setools
+- https://gitee.com/src-openeuler/notification-daemon
+- https://gitee.com/src-openeuler/chrony
+- https://gitee.com/src-openeuler/grub2
+- https://gitee.com/src-openeuler/libproxy
+- https://gitee.com/src-openeuler/ntpstat
+- https://gitee.com/src-openeuler/libnetfilter_conntrack
+- https://gitee.com/src-openeuler/postfix
+- https://gitee.com/src-openeuler/libnl3
+- https://gitee.com/src-openeuler/arptables
+- https://gitee.com/src-openeuler/ftp
+- https://gitee.com/src-openeuler/python-paste
+- https://gitee.com/src-openeuler/anaconda
+- https://gitee.com/src-openeuler/ipxe
+- https://gitee.com/src-openeuler/openvswitch-kmod
+- https://gitee.com/src-openeuler/libgcrypt
+- https://gitee.com/src-openeuler/blivet-gui
+- https://gitee.com/src-openeuler/python-ipaddress
+- https://gitee.com/src-openeuler/libpcap
+- https://gitee.com/src-openeuler/xmlrpc-c
+- https://gitee.com/src-openeuler/libssh
+- https://gitee.com/src-openeuler/wget
+- https://gitee.com/src-openeuler/nghttp2
+- https://gitee.com/src-openeuler/libnfnetlink
+- https://gitee.com/src-openeuler/curl
+- https://gitee.com/src-openeuler/uboot-tools
+- https://gitee.com/src-openeuler/python-IPy
+- https://gitee.com/src-openeuler/lftp
+- https://gitee.com/src-openeuler/atmel-firmware
+- https://gitee.com/src-openeuler/netcf
+- https://gitee.com/src-openeuler/c-ares
+- https://gitee.com/src-openeuler/python-backports-ssl_match_hostname
+- https://gitee.com/src-openeuler/python-ntplib
+- https://gitee.com/src-openeuler/libesmtp
+- https://gitee.com/src-openeuler/geolite2
+- https://gitee.com/src-openeuler/ebtables
+- https://gitee.com/src-openeuler/dropwatch
+- https://gitee.com/src-openeuler/bind
+- https://gitee.com/src-openeuler/OpenIPMI
+- https://gitee.com/src-openeuler/grpc
+- https://gitee.com/src-openeuler/bind-dyndb-ldap
+- https://gitee.com/src-openeuler/dhcp
+- https://gitee.com/src-openeuler/glib-networking
+- https://gitee.com/src-openeuler/net-snmp
+- https://gitee.com/src-openeuler/icfg
+- https://gitee.com/src-openeuler/python-blivet
+- https://gitee.com/src-openeuler/python-requests
+- https://gitee.com/src-openeuler/rpcbind
+- https://gitee.com/src-openeuler/python-urllib3
+- https://gitee.com/src-openeuler/iptstate
+- https://gitee.com/src-openeuler/radvd
+- https://gitee.com/src-openeuler/squid
+- https://gitee.com/src-openeuler/python-html5lib
+- https://gitee.com/src-openeuler/libnet
+- https://gitee.com/src-openeuler/tftp
+- https://gitee.com/src-openeuler/lorax
+- https://gitee.com/src-openeuler/lldpad
+- https://gitee.com/src-openeuler/b43-openfwwf
+- https://gitee.com/src-openeuler/libndp
+- https://gitee.com/src-openeuler/openslp
+- https://gitee.com/src-openeuler/mobile-broadband-provider-info
+- https://gitee.com/src-openeuler/xdp-cpumap-tc
+- https://gitee.com/src-openeuler/python-dasbus
