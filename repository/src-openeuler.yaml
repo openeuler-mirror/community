@@ -32332,6 +32332,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: wine
+  description: 'allow Apps developed for Microsoft Windows to run on Unix-like operating systems'
+  upstream: https://github.com/wine-mirror/wine
+  protected_branches:
+  - master
+  type: public
 - name: wireless-tools
   description: Tools for manipulating Linux Wireless Extensions
   upstream: http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.html
