@@ -8890,6 +8890,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: libwpe
+  description: 'General-purpose library for the WPE-flavored port of WebKit'
+  upstream: https://github.com/WebPlatformForEmbedded/libwpe
+  protected_branches:
+  - master
+  type: private
 - name: libwpg
   description: ''
   protected_branches:
@@ -32368,6 +32374,12 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
+- name: wpebackend-fdo
+  description: 'A WPE backend designed for Linux desktop systems'
+  upstream: https://github.com/Igalia/WPEBackend-fdo
+  protected_branches:
+  - master
+  type: private
 - name: wqy-microhei-fonts
   description: ''
   protected_branches:
@@ -32482,6 +32494,12 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
+- name: xdg-dbus-proxy
+  description: 'Filtering proxy for D-Bus connections'
+  upstream: https://github.com/flatpak/xdg-dbus-proxy
+  protected_branches:
+  - master
+  type: private
 - name: xdg-desktop-portal
   description: ''
   protected_branches:
