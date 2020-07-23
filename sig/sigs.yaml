@@ -20,22 +20,59 @@ sigs:
   - openeuler/crystal-ci
 - name: Application
   repositories:
-  - src-openeuler/pki-core
-  - src-openeuler/cjose
-  - src-openeuler/mythes
-  - src-openeuler/aspell-en
-  - src-openeuler/culmus-fonts
-  - src-openeuler/libyami
-  - src-openeuler/pavucontrol
+  - openeuler/custom_build_tool
+  - src-openeuler/abrt
+  - src-openeuler/abrt-java-connector
+  - src-openeuler/alsa-utils
+  - src-openeuler/amanda
   - src-openeuler/apache-mod_jk
   - src-openeuler/apache-rpm-macros
-  - src-openeuler/snapd-glib
+  - src-openeuler/aspell
+  - src-openeuler/aspell-en
+  - src-openeuler/brasero
+  - src-openeuler/cdrdao
+  - src-openeuler/cjose
+  - src-openeuler/console-setup
+  - src-openeuler/convmv
+  - src-openeuler/culmus-fonts
   - src-openeuler/custom_build_tool
+  - src-openeuler/dblatex
+  - src-openeuler/dcraw
+  - src-openeuler/dleyna-server
+  - src-openeuler/dlm
+  - src-openeuler/dnssec-trigger
+  - src-openeuler/docbook2X
+  - src-openeuler/docbook5-style-xsl
+  - src-openeuler/docbook-style-dsssl
+  - src-openeuler/docbook-utils
+  - src-openeuler/dovecot
+  - src-openeuler/doxygen
+  - src-openeuler/dump
+  - src-openeuler/elinks
+  - src-openeuler/enscript
+  - src-openeuler/eog
+  - src-openeuler/esc
+  - src-openeuler/evince
+  - src-openeuler/fdupes
+  - src-openeuler/fetchmail
+  - src-openeuler/file-roller
+  - src-openeuler/fio
+  - src-openeuler/firefox
+  - src-openeuler/fontforge
+  - src-openeuler/fonts-tweak-tool
+  - src-openeuler/freerdp
   - src-openeuler/geronimo-parent-poms
-  - src-openeuler/libabigail
-  - src-openeuler/libmpeg2
-  - src-openeuler/linkchecker
-  - src-openeuler/xmlstreambuffer
+  - src-openeuler/gl-manpages
+  - src-openeuler/gnome-calculator
+  - src-openeuler/gnome-online-miners
+  - src-openeuler/gnuplot
+  - src-openeuler/google-crosextra-carlito-fonts
+  - src-openeuler/GraphicsMagick
+  - src-openeuler/grilo-plugins
+  - src-openeuler/gstreamer
+  - src-openeuler/gstreamer-plugins-base
+  - src-openeuler/gstreamer-plugins-good
+  - src-openeuler/hspell
   - src-openeuler/hunspell-ak
   - src-openeuler/hunspell-am
   - src-openeuler/hunspell-ar
@@ -111,8 +148,8 @@ sigs:
   - src-openeuler/hunspell-nso
   - src-openeuler/hunspell-ny
   - src-openeuler/hunspell-oc
-  - src-openeuler/hunspell-or
   - src-openeuler/hunspell-om
+  - src-openeuler/hunspell-or
   - src-openeuler/hunspell-pa
   - src-openeuler/hunspell-pl
   - src-openeuler/hunspell-pt
@@ -151,6 +188,7 @@ sigs:
   - src-openeuler/hunspell-xh
   - src-openeuler/hunspell-yi
   - src-openeuler/hunspell-zu
+  - src-openeuler/hwloc
   - src-openeuler/hyphen
   - src-openeuler/hyphen-as
   - src-openeuler/hyphen-bg
@@ -195,157 +233,120 @@ sigs:
   - src-openeuler/hyphen-te
   - src-openeuler/hyphen-tk
   - src-openeuler/hyphen-uk
-  - src-openeuler/libtcnative
-  - src-openeuler/libapr1
-  - src-openeuler/uwsgi
-  - src-openeuler/dlm
-  - src-openeuler/slapi-nis
-  - src-openeuler/three-eight-nine-ds-base
-  - src-openeuler/abrt-java-connector
-  - src-openeuler/dcraw
-  - src-openeuler/dleyna-server
-  - src-openeuler/fonts-tweak-tool
-  - src-openeuler/gnome-online-miners
-  - src-openeuler/google-crosextra-carlito-fonts
-  - src-openeuler/grilo-plugins
-  - src-openeuler/hspell
   - src-openeuler/ibus-table-chinese
+  - src-openeuler/iio-sensor-proxy
+  - src-openeuler/indent
+  - src-openeuler/infiniband-diags
+  - src-openeuler/iperf3
   - src-openeuler/irssi
   - src-openeuler/java-atk-wrapper
   - src-openeuler/jss
+  - src-openeuler/libabigail
+  - src-openeuler/libaec
+  - src-openeuler/libapr1
   - src-openeuler/libdmapsharing
+  - src-openeuler/libdvdnav
+  - src-openeuler/libdvdread
   - src-openeuler/libeasyfc
   - src-openeuler/liblockfile
+  - src-openeuler/liblouis
+  - src-openeuler/libmbim
+  - src-openeuler/libmicrohttpd
+  - src-openeuler/libmikmod
+  - src-openeuler/libmpeg2
+  - src-openeuler/libmtp
   - src-openeuler/libmusicbrainz5
+  - src-openeuler/libtcnative
+  - src-openeuler/libvpx
+  - src-openeuler/libwbxml
+  - src-openeuler/libyami
+  - src-openeuler/linkchecker
+  - src-openeuler/linuxconsoletools
+  - src-openeuler/linuxdoc-tools
+  - src-openeuler/linuxptp
+  - src-openeuler/lksctp-tools
+  - src-openeuler/lrzsz
+  - src-openeuler/lynx
+  - src-openeuler/mailman
+  - src-openeuler/mc
   - src-openeuler/media-player-info
+  - src-openeuler/memcached
+  - src-openeuler/mikmod
   - src-openeuler/mod_intercept_form_submit
   - src-openeuler/mod_lookup_identity
+  - src-openeuler/mrtg
+  - src-openeuler/mutt
+  - src-openeuler/mythes
+  - src-openeuler/nano
+  - src-openeuler/netpbm
+  - src-openeuler/nss_wrapper
+  - src-openeuler/nss-altfiles
+  - src-openeuler/nss-mdns
+  - src-openeuler/openal-soft
+  - src-openeuler/openjade
   - src-openeuler/openoffice.org-dict-cs_CZ
   - src-openeuler/openoffice-lv
+  - src-openeuler/opensm
+  - src-openeuler/opensp
+  - src-openeuler/openvpn
+  - src-openeuler/pam_krb5
+  - src-openeuler/paps
+  - src-openeuler/patchutils
+  - src-openeuler/pavucontrol
+  - src-openeuler/pax
+  - src-openeuler/pcp
+  - src-openeuler/perftest
   - src-openeuler/perl-B-Lint
   - src-openeuler/perl-Pod-LaTeX
-  - src-openeuler/pidgin
-  - src-openeuler/rhythmbox
-  - src-openeuler/tex-fonts-hebrew
-  - src-openeuler/usbguard
-  - src-openeuler/esc
-  - src-openeuler/abrt
-  - src-openeuler/mikmod
-  - src-openeuler/libdvdread
-  - src-openeuler/libmicrohttpd
-  - src-openeuler/mc
-  - src-openeuler/fio
-  - src-openeuler/pptp
-  - src-openeuler/openal-soft
-  - src-openeuler/gstreamer-plugins-good
-  - src-openeuler/qperf
-  - src-openeuler/linuxdoc-tools
-  - src-openeuler/docbook-utils
-  - src-openeuler/nss-altfiles
-  - src-openeuler/fontforge
-  - src-openeuler/GraphicsMagick
-  - src-openeuler/iio-sensor-proxy
-  - src-openeuler/pam_krb5
-  - src-openeuler/texlive
-  - src-openeuler/wavpack
-  - src-openeuler/tpm-tools
-  - src-openeuler/rrdtool
-  - src-openeuler/freerdp
-  - src-openeuler/brasero
-  - src-openeuler/xmltoman
-  - src-openeuler/usb_modeswitch-data
-  - src-openeuler/psacct
-  - src-openeuler/sane-frontends
-  - src-openeuler/rpcsvc-proto
-  - src-openeuler/socat
-  - src-openeuler/gl-manpages
-  - src-openeuler/opensp
-  - src-openeuler/lksctp-tools
-  - src-openeuler/opensm
-  - src-openeuler/evince
-  - src-openeuler/libdvdnav
-  - src-openeuler/strongswan
-  - src-openeuler/file-roller
-  - src-openeuler/uid_wrapper
-  - src-openeuler/vorbis-tools
-  - src-openeuler/amanda
-  - src-openeuler/po4a
-  - src-openeuler/infiniband-diags
-  - src-openeuler/netpbm
-  - src-openeuler/texlive-base
-  - src-openeuler/pax
-  - src-openeuler/dblatex
-  - src-openeuler/fdupes
-  - src-openeuler/dovecot
-  - src-openeuler/libmtp
-  - src-openeuler/soundtouch
-  - src-openeuler/gstreamer-plugins-base
-  - src-openeuler/libaec
-  - src-openeuler/wayland-protocols
-  - src-openeuler/tboot
-  - src-openeuler/xmms
-  - src-openeuler/nano
-  - src-openeuler/memcached
-  - src-openeuler/xsane
-  - src-openeuler/convmv
-  - src-openeuler/targetcli
-  - src-openeuler/docbook2X
-  - src-openeuler/pcp
-  - src-openeuler/libmikmod
-  - src-openeuler/console-setup
-  - src-openeuler/docbook-style-dsssl
-  - src-openeuler/enscript
-  - src-openeuler/linuxptp
-  - src-openeuler/fetchmail
-  - src-openeuler/lrzsz
-  - src-openeuler/rasqal
-  - src-openeuler/linuxconsoletools
-  - src-openeuler/stunnel
-  - src-openeuler/patchutils
-  - src-openeuler/mrtg
-  - src-openeuler/libmbim
-  - src-openeuler/pngquant
-  - src-openeuler/scrub
-  - src-openeuler/texi2html
-  - src-openeuler/tpm-quote-tools
-  - src-openeuler/ttmkfdir
-  - src-openeuler/gnome-calculator
-  - src-openeuler/cdrdao
-  - src-openeuler/gstreamer
-  - src-openeuler/gnuplot
-  - src-openeuler/paps
-  - src-openeuler/hwloc
-  - src-openeuler/wireshark
-  - src-openeuler/iperf3
-  - src-openeuler/firefox
-  - src-openeuler/vinagre
-  - src-openeuler/alsa-utils
-  - src-openeuler/docbook5-style-xsl
-  - src-openeuler/mutt
-  - src-openeuler/transfig
-  - src-openeuler/openvpn
-  - src-openeuler/aspell
-  - src-openeuler/nss_wrapper
-  - src-openeuler/openjade
-  - src-openeuler/rdate
-  - src-openeuler/dump
-  - src-openeuler/psutils
-  - src-openeuler/indent
   - src-openeuler/pesign
-  - src-openeuler/elinks
+  - src-openeuler/pidgin
+  - src-openeuler/pki-core
+  - src-openeuler/pngquant
   - src-openeuler/pnm2ppa
-  - src-openeuler/liblouis
-  - src-openeuler/doxygen
-  - src-openeuler/mailman
+  - src-openeuler/po4a
+  - src-openeuler/pptp
+  - src-openeuler/psacct
+  - src-openeuler/psutils
+  - src-openeuler/qperf
+  - src-openeuler/rasqal
+  - src-openeuler/rdate
+  - src-openeuler/rhythmbox
+  - src-openeuler/rpcsvc-proto
+  - src-openeuler/rrdtool
+  - src-openeuler/sane-frontends
+  - src-openeuler/scrub
+  - src-openeuler/slapi-nis
+  - src-openeuler/snapd-glib
+  - src-openeuler/socat
+  - src-openeuler/soundtouch
+  - src-openeuler/strongswan
+  - src-openeuler/stunnel
+  - src-openeuler/targetcli
+  - src-openeuler/tboot
+  - src-openeuler/tex-fonts-hebrew
+  - src-openeuler/texi2html
+  - src-openeuler/texlive
+  - src-openeuler/texlive-base
+  - src-openeuler/three-eight-nine-ds-base
+  - src-openeuler/tpm-quote-tools
+  - src-openeuler/tpm-tools
+  - src-openeuler/transfig
+  - src-openeuler/ttmkfdir
+  - src-openeuler/uid_wrapper
   - src-openeuler/units
-  - src-openeuler/libvpx
-  - src-openeuler/dnssec-trigger
-  - src-openeuler/lynx
-  - src-openeuler/perftest
+  - src-openeuler/usb_modeswitch-data
+  - src-openeuler/usbguard
+  - src-openeuler/uwsgi
+  - src-openeuler/vinagre
+  - src-openeuler/vorbis-tools
+  - src-openeuler/wavpack
+  - src-openeuler/wayland-protocols
+  - src-openeuler/wireshark
+  - src-openeuler/xmlstreambuffer
+  - src-openeuler/xmltoman
+  - src-openeuler/xmms
+  - src-openeuler/xsane
   - src-openeuler/yelp-tools
-  - src-openeuler/nss-mdns
-  - src-openeuler/eog
-  - openeuler/custom_build_tool
 - name: Programming-language
   repositories:
   - src-openeuler/assertj-core
@@ -5687,6 +5688,8 @@ sigs:
   - src-openeuler/python-xmltodict
 - name: sig-release-management
   repositories:
+  - src-openeuler/openEuler-lsb
+  - openeuler/openEuler-lsb
   - openeuler/release-management
 - name: xfce
   repositories:

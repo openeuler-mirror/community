@@ -271,6 +271,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: openEuler-lsb
+  description: "LSB support for linux Standard Base specification"
+  protected_branches:
+  - master
+  type: public
 - name: openEuler-Advisor
   description: "Collection of automation tools for easily maintaining openEuler"
   protected_branches:
