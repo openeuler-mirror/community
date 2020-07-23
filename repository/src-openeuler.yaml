@@ -10372,6 +10372,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: mysql-connector-java
+  description: "Official JDBC driver for MySQL"
+  upstream: http://dev.mysql.com/downloads/connector/j/
+  protected_branches:
+  - master
+  type: public
 - name: mythes
   description: A thesaurus library
   upstream: http://hunspell.sourceforge.net/
@@ -25207,6 +25213,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: python-kerberos
+  description: "A high-level wrapper for Kerberos (GSSAPI) operations"
+  upstream: https://pypi.python.org/pypi/kerberos
+  protected_branches:
+  - master
+  type: public
 - name: python-keyczar
   description: Toolkit for safe and simple cryptography
   protected_branches:
