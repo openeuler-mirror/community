@@ -8849,6 +8849,12 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
+- name: libwbxml
+  description: Library and tools to parse, encode and handle WBXML documents
+  upstream: https://github.com/libwbxml/libwbxml
+  protected_branches:
+  - master
+  type: public
 - name: libwd
   description: ''
   protected_branches:
@@ -10372,6 +10378,18 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: mysql-connector-java
+  description: "Official JDBC driver for MySQL"
+  upstream: http://dev.mysql.com/downloads/connector/j/
+  protected_branches:
+  - master
+  type: public
+- name: mysql-selinux
+  description: "SELinux policies for product"
+  upstream: https://github.com/kubco2/mysql-selinux
+  protected_branches:
+  - master
+  type: public
 - name: mythes
   description: A thesaurus library
   upstream: http://hunspell.sourceforge.net/
@@ -10974,6 +10992,12 @@ repositories:
   protected_branches:
   - master
   - openEuler-20.03-LTS
+  type: public
+- name: openEuler-lsb
+  description: "LSB support for linux Standard Base specification"
+  upstream: https://gitee.com/openeuler/openEuler-lsb
+  protected_branches:
+  - master
   type: public
 - name: openEuler-pkginfo
   description: ''
@@ -25201,6 +25225,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: python-kerberos
+  description: "A high-level wrapper for Kerberos (GSSAPI) operations"
+  upstream: https://pypi.python.org/pypi/kerberos
+  protected_branches:
+  - master
+  type: public
 - name: python-keyczar
   description: Toolkit for safe and simple cryptography
   protected_branches:
