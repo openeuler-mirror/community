@@ -1849,6 +1849,9 @@ sigs:
   - src-openeuler/open-isns
 - name: Desktop
   repositories:
+  - src-openeuler/wpebackend-fdo
+  - src-openeuler/xdg-dbus-proxy
+  - src-openeuler/libwpe
   - src-openeuler/libmediaart
   - src-openeuler/libgusb
   - src-openeuler/gstreamer1-plugins-base
