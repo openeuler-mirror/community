@@ -19,7 +19,8 @@
 - Night
 - twwang
 - 赵鹏元
-
+- yu_qinfei
+- zhaodongsheng
 ### Maintainer列表
 
 - wufangyao01[@wufangyao01](https://gitee.com/wufangyao01)，wufangyao2020@163.com
