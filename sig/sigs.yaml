@@ -729,13 +729,10 @@ sigs:
   repositories:
   - src-openeuler/kronosnet
   - src-openeuler/initscripts
-  - src-openeuler/dnf
-  - src-openeuler/dnf-plugins-core
   - src-openeuler/http-parser
   - src-openeuler/openvswitch
   - src-openeuler/ldns
   - src-openeuler/ipvsadm
-  - src-openeuler/efi-rpm-macros
   - src-openeuler/unbound
   - src-openeuler/ntp
   - src-openeuler/openssh
@@ -756,7 +753,6 @@ sigs:
   - src-openeuler/GeoIP-GeoLite-data
   - src-openeuler/zd1211-firmware
   - src-openeuler/ipmitool
-  - src-openeuler/efivar
   - src-openeuler/ipset
   - src-openeuler/libwebsockets
   - src-openeuler/iptraf-ng
@@ -772,8 +768,6 @@ sigs:
   - src-openeuler/httpd
   - src-openeuler/network-manager-applet
   - src-openeuler/libdnet
-  - src-openeuler/efibootmgr
-  - src-openeuler/cdrkit
   - src-openeuler/python-requests-ftp
   - src-openeuler/ModemManager
   - src-openeuler/procmail
@@ -784,7 +778,6 @@ sigs:
   - src-openeuler/libtirpc
   - src-openeuler/ethtool
   - src-openeuler/net-tools
-  - src-openeuler/anaconda-user-help
   - src-openeuler/hostname
   - src-openeuler/openldap
   - src-openeuler/ipcalc
@@ -793,7 +786,6 @@ sigs:
   - src-openeuler/dnsmasq
   - src-openeuler/notification-daemon
   - src-openeuler/chrony
-  - src-openeuler/grub2
   - src-openeuler/libproxy
   - src-openeuler/ntpstat
   - src-openeuler/libnetfilter_conntrack
@@ -802,11 +794,8 @@ sigs:
   - src-openeuler/arptables
   - src-openeuler/ftp
   - src-openeuler/python-paste
-  - src-openeuler/anaconda
-  - src-openeuler/ipxe
   - src-openeuler/openvswitch-kmod
   - src-openeuler/libgcrypt
-  - src-openeuler/blivet-gui
   - src-openeuler/python-ipaddress
   - src-openeuler/libpcap
   - src-openeuler/xmlrpc-c
@@ -815,7 +804,6 @@ sigs:
   - src-openeuler/nghttp2
   - src-openeuler/libnfnetlink
   - src-openeuler/curl
-  - src-openeuler/uboot-tools
   - src-openeuler/python-IPy
   - src-openeuler/lftp
   - src-openeuler/atmel-firmware
@@ -835,7 +823,6 @@ sigs:
   - src-openeuler/glib-networking
   - src-openeuler/net-snmp
   - src-openeuler/icfg
-  - src-openeuler/python-blivet
   - src-openeuler/python-requests
   - src-openeuler/rpcbind
   - src-openeuler/python-urllib3
@@ -845,14 +832,12 @@ sigs:
   - src-openeuler/python-html5lib
   - src-openeuler/libnet
   - src-openeuler/tftp
-  - src-openeuler/lorax
   - src-openeuler/lldpad
   - src-openeuler/b43-openfwwf
   - src-openeuler/libndp
   - src-openeuler/openslp
   - src-openeuler/mobile-broadband-provider-info
   - src-openeuler/xdp-cpumap-tc
-  - src-openeuler/python-dasbus
 - name: Virt
   repositories:
   - src-openeuler/virt-viewer
@@ -1163,7 +1148,6 @@ sigs:
   - src-openeuler/sleuthkit
   - src-openeuler/sos
   - src-openeuler/sphinx
-  - src-openeuler/syslinux
   - src-openeuler/tidy
   - src-openeuler/tuna
   - src-openeuler/uchardet
@@ -1516,7 +1500,6 @@ sigs:
   - src-openeuler/yajl
   - src-openeuler/python-pysocks
   - src-openeuler/mtdev
-  - src-openeuler/libdnf
   - src-openeuler/python-inotify
   - src-openeuler/openEuler-indexhtml
   - src-openeuler/python-jsonpointer
@@ -1693,7 +1676,6 @@ sigs:
   - src-openeuler/binutils
   - src-openeuler/less
   - src-openeuler/tcl
-  - src-openeuler/libsolv
   - src-openeuler/exempi
   - src-openeuler/libtdb
   - src-openeuler/babeltrace
@@ -5860,3 +5842,23 @@ sigs:
 - name: sig-wine
   repositories:
   - src-openeuler/wine
+- name: sig-OS-Builder
+  repositories:
+  - src-openeuler/anaconda
+  - src-openeuler/anaconda-user-help
+  - src-openeuler/blivet-gui
+  - src-openeuler/cdrkit
+  - src-openeuler/dnf
+  - src-openeuler/dnf-plugins-core
+  - src-openeuler/libdnf
+  - src-openeuler/libsolv
+  - src-openeuler/efi-rpm-macros
+  - src-openeuler/efibootmgr
+  - src-openeuler/efivar
+  - src-openeuler/grub2
+  - src-openeuler/ipxe
+  - src-openeuler/syslinux
+  - src-openeuler/lorax
+  - src-openeuler/python-blivet
+  - src-openeuler/uboot-tools
+  - src-openeuler/python-dasbus
