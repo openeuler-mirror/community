@@ -77,8 +77,10 @@ repository地址：
   - https://gitee.com/src-openeuler/deepin-terminal
   - https://gitee.com/src-openeuler/deepin-turbo
   - https://gitee.com/src-openeuler/dtkcore
+  - https://gitee.com/src-openeuler/dtkcore2
   - https://gitee.com/src-openeuler/dtkgui
   - https://gitee.com/src-openeuler/dtkwidget
+  - https://gitee.com/src-openeuler/dtkwidget2
   - https://gitee.com/src-openeuler/dtkwm
   - https://gitee.com/src-openeuler/deepin-icon-theme
   - https://gitee.com/src-openeuler/qt5integration
