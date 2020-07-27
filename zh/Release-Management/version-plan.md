@@ -28,13 +28,11 @@
 
 oopenEuler的版本命名采用点分制——Major.Minor.Release。Major代表该版本的发布年份，Minor代表该版本的发布月份，Release代表具体的发布版本号，比如：
 
-- openEuler 20.3版本的含义是：openEuler社区2020年3月发布的第一个版本
-- openEuler 20.3.3版本的含义是：2020年3月发布的版本，在这个版本基础上更新的第3个版本
-
-
+- openEuler 20.03版本的含义是：openEuler社区2020年3月发布的第一个版本
+- openEuler 20.03.3版本的含义是：2020年3月发布的版本，在这个版本基础上更新的第3个版本
 
 在点分的数字版本号后面，还可能加入**LTS**字样，例如
 
-- openEuler 22.3 LTS的含义是：openEuler社区2022年3月发布的LTS版本
+- openEuler 22.03.3 LTS的含义是：openEuler社区2022年3月发布的LTS版本更新的第三个版本
 
 
