@@ -23819,6 +23819,114 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-django
+  upstream: https://github.com/django/django 
+  description: A high-level Python Web framework that encourages rapid development and clean, pragmatic design.
+  protected_branches:
+  - master
+  type: public
+- name: python-django-annoying
+  upstream: https://github.com/skorokithakis/django-annoying
+  description: A django application that tries to eliminate annoying things in the Django framework.
+  protected_branches:
+  - master
+  type: public
+- name: python-django-appconf
+  upstream: https://github.com/django-compressor/django-appconf
+  description: A helper class for handling configuration defaults of packaged apps gracefully.
+  protected_branches:
+  - master
+  type: public
+- name: python-django-authority
+  upstream: https://github.com/jazzband/django-authority
+  description: A Django app that provides generic per-object-permissions for Django's auth app.
+  protected_branches:
+  - master
+  type: public
+- name: python-django-compressor
+  upstream: https://github.com/django-compressor/django-compressor
+  description: Compresses linked and inline JavaScript or CSS into single cached files.
+  protected_branches:
+  - master
+  type: public
+- name: python-django-cors-headers
+  upstream: https://github.com/adamchainz/django-cors-headers
+  description: A Django App that adds Cross-Origin Resource Sharing (CORS) headers to responses. 
+  protected_branches:
+  - master
+  type: public
+- name: python-django-debug-toolbar
+  upstream: https://github.com/jazzband/django-debug-toolbar
+  description: A configurable set of panels that display various debug information about the current request/response.
+  protected_branches:
+  - master
+  type: public
+- name: python-django-filter
+  upstream: https://github.com/carltongibson/django-filter/
+  description: A reusable Django application allowing users to declaratively add dynamic QuerySet filtering from URL parameters.
+  protected_branches:
+  - master
+  type: public
+- name: python-django-health-check
+  upstream: https://github.com/KristianOellegaard/django-health-check
+  description: Run checks on services like databases, queue servers, celery processes, etc.
+  protected_branches:
+  - master
+  type: public
+- name: python-django-helpdesk
+  upstream: https://github.com/django-helpdesk/django-helpdesk
+  description: Django-powered ticket tracker for your helpdesk
+  protected_branches:
+  - master
+  type: public
+- name: python-django-mptt
+  upstream: https://github.com/django-mptt/django-mptt
+  description: Utilities for implementing Modified Preorder Tree Traversal with your Django Models and working with trees of Model instances.
+  protected_branches:
+  - master
+  type: public
+- name: python-django-pipeline
+  upstream: https://github.com/jazzband/django-pipeline
+  description: Pipeline is an asset packaging library for Django.
+  protected_branches:
+  - master
+  type: public
+- name: python-django-redis
+  upstream: https://github.com/jazzband/django-redis
+  description: Full featured redis cache backend for Django.
+  protected_branches:
+  - master
+  type: public
+- name: python-django-registration
+  upstream: https://github.com/ubernostrum/django-registration/
+  description: An extensible user-registration application for Django
+  protected_branches:
+  - master
+  type: public
+- name: python-django-reversion
+  upstream: https://github.com/etianen/django-reversion
+  description: An extension to the Django web framework that provides version control for model instances.
+  protected_branches:
+  - master
+  type: public
+- name: python-djangoql
+  upstream: https://github.com/ivelum/djangoql/
+  description: Advanced search language for Django, with auto-completion.
+  protected_branches:
+  - master
+  type: public
+- name: python-rcssmin
+  upstream: http://opensource.perlig.de/rcssmin
+  description: CSS minifier
+  protected_branches:
+  - master
+  type: public
+- name: python-rjsmin
+  upstream: http://opensource.perlig.de/rjsmin/
+  description: Javascript Minifier
+  protected_branches:
+  - master
+  type: public
 - name: python-dmidecode
   description: ''
   protected_branches:
