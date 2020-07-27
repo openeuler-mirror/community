@@ -21,6 +21,7 @@ PS: Container SIG例会与iSulad例会合并
 - caihaomin[@caihaomin](https://gitee.com/caihaomin)
 - duguhaotian[@duguhaotian](https://gitee.com/duguhaotian)
 - jing-rui[@jing-rui](https://gitee.com/jing-rui)
+- flyflyflypeng[@flyflyflypeng](https://gitee.com/flyflyflypeng)
 
 ### Maintainer列表
 
@@ -28,6 +29,7 @@ PS: Container SIG例会与iSulad例会合并
 - caihaomin[@caihaomin](https://gitee.com/caihaomin)
 - duguhaotian[@duguhaotian](https://gitee.com/duguhaotian)
 - jing-rui[@jing-rui](https://gitee.com/jing-rui)
+- flyflyflypeng[@flyflyflypeng](https://gitee.com/flyflyflypeng)
 
 
 
@@ -37,6 +39,7 @@ PS: Container SIG例会与iSulad例会合并
 - caihaomin[@caihaomin](https://gitee.com/caihaomin)
 - duguhaotian[@duguhaotian](https://gitee.com/duguhaotian)
 - jing-rui[@jing-rui](https://gitee.com/jing-rui)
+- flyflyflypeng[@flyflyflypeng](https://gitee.com/flyflyflypeng)
 
 
 # 联系方式
