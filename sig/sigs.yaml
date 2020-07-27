@@ -791,7 +791,6 @@ sigs:
   - src-openeuler/vsftpd
   - src-openeuler/samba
   - src-openeuler/dnsmasq
-  - src-openeuler/setools
   - src-openeuler/notification-daemon
   - src-openeuler/chrony
   - src-openeuler/grub2
@@ -1322,6 +1321,7 @@ sigs:
   - src-openeuler/mysql5
 - name: Base-service
   repositories:
+  - src-openeuler/bubblewrap
   - src-openeuler/tomcatjss
   - src-openeuler/json-c
   - src-openeuler/rpmrebuild
@@ -1850,9 +1850,7 @@ sigs:
   - src-openeuler/open-isns
 - name: Desktop
   repositories:
-  - src-openeuler/wpebackend-fdo
-  - src-openeuler/xdg-dbus-proxy
-  - src-openeuler/libwpe
+  - src-openeuler/mozjs78
   - src-openeuler/libmediaart
   - src-openeuler/libgusb
   - src-openeuler/gstreamer1-plugins-base
@@ -2242,6 +2240,9 @@ sigs:
   - src-openeuler/lxcfs-tools
 - name: Private
   repositories:
+  - src-openeuler/wpebackend-fdo
+  - src-openeuler/xdg-dbus-proxy
+  - src-openeuler/libwpe
   - openeuler/os-autoinst-distri-openEuler
   - openeuler/security
   - src-openeuler/aalto-xml
