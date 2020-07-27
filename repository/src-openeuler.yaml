@@ -2512,6 +2512,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: dtkcore2
+  description: dtkcore
+  upstream: https://github.com/linuxdeepin/dtkcore
+  protected_branches:
+  - master
+  type: public
 - name: dtkgui
   description: dtkgui
   upstream: https://github.com/linuxdeepin/dtkgui
@@ -2519,6 +2525,12 @@ repositories:
   - master
   type: public
 - name: dtkwidget
+  description: dtkwidget
+  upstream: https://github.com/linuxdeepin/dtkwidget
+  protected_branches:
+  - master
+  type: public
+- name: dtkwidget2
   description: dtkwidget
   upstream: https://github.com/linuxdeepin/dtkwidget
   protected_branches:
