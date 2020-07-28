@@ -1957,91 +1957,91 @@ repositories:
   - master
   type: public
 - name: dde-api
-  description: dde api
+  description: Go-lang bingding for dde-daemon
   upstream: https://github.com/linuxdeepin/dde-api
   protected_branches:
   - master
   type: public
 - name: dde-calendar
-  description: dde calendar
+  description: Calendar for Deepin Desktop Environment
   upstream: https://github.com/linuxdeepin/dde-calendar
   protected_branches:
   - master
   type: public
 - name: dde-clipboard
-  description: dde clipboard
+  description: Qt platform theme integration plugins for DDE
   upstream: https://github.com/linuxdeepin/dde-clipboard
   protected_branches:
   - master
   type: public
 - name: dde-control-center
-  description: dde control center
+  description: New control center for Linux Deepin
   upstream: https://github.com/linuxdeepin/dde-control-center
   protected_branches:
   - master
   type: public
 - name: dde-daemon
-  description: dde daemon
+  description: Daemon handling the DDE session settings
   upstream: https://github.com/linuxdeepin/dde-daemon
   protected_branches:
   - master
   type: public
 - name: dde-dock
-  description: dde dock
+  description: Deepin desktop-environment - Dock module
   upstream: https://github.com/linuxdeepin/dde-dock
   protected_branches:
   - master
   type: public
 - name: dde-file-manager
-  description: dde file manager
+  description: Deepin File Manager
   upstream: https://github.com/linuxdeepin/dde-file-manager
   protected_branches:
   - master
   type: public
 - name: dde-introduction
-  description: dde introduction
+  description: Qt platform theme integration plugins
   upstream: https://github.com/linuxdeepin/dde-introduction
   protected_branches:
   - master
   type: public
 - name: dde-kwin
-  description: dde kwin
+  description: KWin configuration for Deepin Desktop Environment
   upstream: https://github.com/linuxdeepin/dde-kwin
   protected_branches:
   - master
   type: public
 - name: dde-launcher
-  description: dde launcher
+  description: Deepin desktop-environment - Launcher module
   upstream: https://github.com/linuxdeepin/dde-launcher
   protected_branches:
   - master
   type: public
 - name: dde-network-utils
-  description: dde network utils
+  description: Deepin desktop-environment - network utils
   upstream: https://github.com/linuxdeepin/dde-network-utils
   protected_branches:
   - master
   type: public
 - name: dde-polkit-agent
-  description: dde polkit agent
+  description: Deepin Polkit Agent
   upstream: https://github.com/linuxdeepin/dde-polkit-agent
   protected_branches:
   - master
   type: public
 - name: dde-qt-dbus-factory
-  description: dde qt dbus factory
+  description: A repository stores auto-generated Qt5 dbus code
   upstream: https://github.com/linuxdeepin/dde-qt-dbus-factory
   protected_branches:
   - master
   type: public
 - name: dde-session-shell
-  description: dde session shell
+  description: Deepin desktop-environment - session-shell module
   upstream: https://github.com/linuxdeepin/dde-session-shell
   protected_branches:
   - master
   type: public
 - name: dde-session-ui
-  description: dde session ui
+  description: Deepin desktop-environment - Session UI module
   upstream: https://github.com/linuxdeepin/dde-session-ui
   protected_branches:
   - master
@@ -2058,13 +2058,13 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: deepin-anything
-  description: deepin anything
+  description: Something like everything, but nothing is really like anything
   upstream: https://github.com/linuxdeepin/deepin-anything
   protected_branches:
   - master
   type: public
 - name: deepin-compressor
-  description: deepin compressor
+  description: Archive Manager is a fast and lightweight application for creating and extracting archives
   upstream: https://github.com/linuxdeepin/deepin-compressor
   protected_branches:
   - master
@@ -2076,49 +2076,49 @@ repositories:
   - master
   type: public
 - name: deepin-desktop-schemas
-  description: deepin desktop schemas
+  description: Base files for Deepin Desktop
   upstream: https://github.com/linuxdeepin/deepin-desktop-schemas
   protected_branches:
   - master
   type: public
 - name: deepin-devicemanager
-  description: deepin devicemanager
+  description: Device Manager is a handy tool for viewing hardware information and managing the devices
   upstream: https://github.com/linuxdeepin/deepin-devicemanager
   protected_branches:
   - master
   type: public
 - name: deepin-editor
-  description: deepin editor
+  description: Simple editor for Linux Deepin
   upstream: https://github.com/linuxdeepin/deepin-editor
   protected_branches:
   - master
   type: public
 - name: deepin-font-manager
-  description: deepin font manager
+  description: Deepin Font Manager is used to install and uninstall font file for users with bulk install function
   upstream: https://github.com/linuxdeepin/deepin-font-manager
   protected_branches:
   - master
   type: public
 - name: deepin-graphics-driver-manager
-  description: deepin graphics driver manager
+  description: deepin driver manager
   upstream: https://github.com/linuxdeepin/deepin-graphics-driver-manager
   protected_branches:
   - master
   type: public
 - name: deepin-gtk-theme
-  description: deepin gtk theme
+  description: Deepin GTK Theme
   upstream: https://github.com/linuxdeepin/deepin-gtk-theme
   protected_branches:
   - master
   type: public
 - name: deepin-icon-theme
-  description: deepin icon theme
+  description: Icons for the Deepin Desktop Environment
   upstream: https://github.com/linuxdeepin/deepin-icon-theme
   protected_branches:
   - master
   type: public
 - name: deepin-image-viewer
-  description: deepin image viewer
+  description: Deepin Image Viewer
   upstream: https://github.com/linuxdeepin/deepin-image-viewer
   protected_branches:
   - master
@@ -2130,31 +2130,31 @@ repositories:
   - master
   type: public
 - name: deepin-log-viewer
-  description: deepin log viewer
+  description: Log Viewer is a useful tool for viewing system logs
   upstream: https://github.com/linuxdeepin/deepin-log-viewer
   protected_branches:
   - master
   type: public
 - name: deepin-manual
-  description: deepin manual
+  description: Manual is designed to help users learn the operating system and its applications, providing specific instructions and function descriptions
   upstream: https://github.com/linuxdeepin/deepin-manual
   protected_branches:
   - master
   type: public
 - name: deepin-menu
-  description: deepin menu
+  description: Deepin menu service
   upstream: https://github.com/linuxdeepin/deepin-menu
   protected_branches:
   - master
   type: public
 - name: deepin-reader
-  description: deepin reader
+  description: Document Viewer is a simple PDF reader, supporting bookmarks, highlights and annotations
   upstream: https://github.com/linuxdeepin/deepin-reader
   protected_branches:
   - master
   type: public
 - name: deepin-shortcut-viewer
-  description: deepin shortcut viewer
+  description: Deepin Shortcut Viewer
   upstream: https://github.com/linuxdeepin/deepin-shortcut-viewer
   protected_branches:
   - master
@@ -2166,19 +2166,19 @@ repositories:
   - master
   type: public
 - name: deepin-terminal
-  description: deepin terminal
+  description: A more user-friendly system monitor
   upstream: https://github.com/linuxdeepin/deepin-terminal
   protected_branches:
   - master
   type: public
 - name: deepin-turbo
-  description: deepin turbo
+  description: deepin-trubo is a deepin project that derives from Applauncherd
   upstream: https://github.com/linuxdeepin/deepin-turbo
   protected_branches:
   - master
   type: public
 - name: deepin-wallpapers
-  description: deepin wallpapers
+  description: Deepin Wallpapers provides wallpapers of dde
   upstream: https://github.com/linuxdeepin/deepin-wallpapers
   protected_branches:
   - master
@@ -2507,37 +2507,37 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: dtkcore
-  description: dtkcore
+  description: Deepin tool kit core modules 5
   upstream: https://github.com/linuxdeepin/dtkcore
   protected_branches:
   - master
   type: public
 - name: dtkcore2
-  description: dtkcore
+  description: Deepin tool kit core modules 2
   upstream: https://github.com/linuxdeepin/dtkcore
   protected_branches:
   - master
   type: public
 - name: dtkgui
-  description: dtkgui
+  description: Deepin tool kit gui modules
   upstream: https://github.com/linuxdeepin/dtkgui
   protected_branches:
   - master
   type: public
 - name: dtkwidget
-  description: dtkwidget
+  description: Deepin tool kit widget modules 5
   upstream: https://github.com/linuxdeepin/dtkwidget
   protected_branches:
   - master
   type: public
 - name: dtkwidget2
-  description: dtkwidget
+  description: Deepin tool kit widget modules 2
   upstream: https://github.com/linuxdeepin/dtkwidget
   protected_branches:
   - master
   type: public
 - name: dtkwm
-  description: dtkwm
+  description: Deepin graphical user interface library
   upstream: https://github.com/linuxdeepin/dtkwm
   protected_branches:
   - master
