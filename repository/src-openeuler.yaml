@@ -32263,6 +32263,24 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
+- name: meld
+  description: Meld is a visual diff and merge tool targeted at developers.
+  upstream: https://gitlab.gnome.org/GNOME/meld
+  protected_branches:
+  - master
+  type: public
+- name: uget
+  description: uGet is an open-source software program intended to streamline the process of downloading files onto a personal computer or mobile phone.
+  upstream: https://github.com/uget/uget
+  protected_branches:
+  - master
+  type: public
+- name: thunderbird
+  description: Thunderbird is a free email application that’s easy to set up and customize 
+  upstream: https://hg.mozilla.org/comm-central/
+  protected_branches:
+  - master
+  type: public
 - name: vnpy
   description: A quantitative trading for traders
   upstream: https://github.com/vnpy/vnpy
