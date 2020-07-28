@@ -7,7 +7,8 @@
 
 # 组织会议
 
-- 待定
+- 每双周周五下午2:30-4:30
+- 通过邮件申报议题
 
 
 
@@ -29,7 +30,7 @@
 
 # 联系方式
 
-- [邮件列表](dev@openeuler.org)
+- [邮件列表](https://mailweb.openeuler.org/postorius/lists/virt.openeuler.org/)
 - [IM](#openeuler-dev)
 
 
