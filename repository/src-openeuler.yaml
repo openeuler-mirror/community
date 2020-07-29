@@ -32849,7 +32849,8 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: xfce4-volumed
+- name: xfce4-volumed-pulse
+  rename_from: xfce4-volumed
   upstream: https://git.xfce.org/apps/xfce4-volumed-pulse/
   description: Daemon to add additional functionality to the volume keys of the keyboard
   protected_branches:
