@@ -6886,6 +6886,12 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
+- name: langpacks
+  description: 'meta-pacakges of Language packs'
+  protected_branches:
+  - master
+  - openEuler-20.03-LTS
+  type: public
 - name: lapack
   description: ''
   protected_branches:

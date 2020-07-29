@@ -1579,7 +1579,6 @@ sigs:
   - src-openeuler/python-enum34
   - src-openeuler/python-iniparse
   - src-openeuler/cyrus-sasl
-  - src-openeuler/hardlink
   - src-openeuler/python-cffi
   - src-openeuler/sysstat
   - src-openeuler/lsof
@@ -3174,6 +3173,8 @@ sigs:
   - src-openeuler/golang-github-russross-blackfriday
   - src-openeuler/yum-metadata-parser
   - src-openeuler/yum-langpacks
+  - src-openeuler/hardlink
+  - src-openeuler/langpacks
 - name: sig-RaspberryPi
   repositories:
   - openeuler/raspberrypi
