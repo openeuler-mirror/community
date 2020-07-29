@@ -45,4 +45,5 @@ repository地址：
 - https://gitee.com/openeuler/iSulad-img
 - https://gitee.com/openeuler/lcr
 - https://gitee.com/openeuler/clibcni
+- https://gitee.com/openeuler/isula-build
 
