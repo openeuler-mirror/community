@@ -33456,3 +33456,10 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: libnma
+  description: "This package contains private libraries to be used only by nm-applet,
+nm-connection editor, and the GNOME Control Center."
+  upstream: https://github.com/GNOME/libnma
+  protected_branches:
+  - master
+  type: public
