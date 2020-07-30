@@ -136,6 +136,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: oemaker
+  description: "a building tool for making DVD ISO"
+  protected_branches:
+  - master
+  type: public
 - name: libkae
   description: ""
   protected_branches:
