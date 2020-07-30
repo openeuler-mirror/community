@@ -39,3 +39,4 @@ repository 地址：
 - https://gitee.com/src-openeuler/raspberrypi-kernel
 - https://gitee.com/src-openeuler/raspberrypi-firmware
 - https://gitee.com/src-openeuler/raspberrypi-build
+- https://gitee.com/src-openeuler/raspberrypi-bluetooth

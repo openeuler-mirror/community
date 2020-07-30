@@ -30087,6 +30087,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: raspberrypi-bluetooth
+  description: Load firmware of bluetooth on boot for Raspberry Pi
+  upstream: https://github.com/RPi-Distro/pi-bluetooth
+  protected_branches:
+  - master
+  type: public
 - name: rasqal
   description: ''
   protected_branches:

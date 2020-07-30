@@ -29,6 +29,7 @@ RaspberryPi SIG 小组致力于将 openEuler 移植到树莓派，以降低 open
 - Raspberry Pi 内核的 SRPM 仓库: https://gitee.com/src-openeuler/raspberrypi-kernel
 - Raspberry Pi 固件的 SRPM 仓库: https://gitee.com/src-openeuler/raspberrypi-firmware
 - Raspberry Pi 构建脚本的 SRPM 仓库: https://gitee.com/src-openeuler/raspberrypi-build
+- Raspberry Pi 蓝牙相关服务的 SRPM 仓库: https://gitee.com/src-openeuler/raspberrypi-bluetooth
 
 ## SIG 基本信息
 
