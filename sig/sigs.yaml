@@ -1305,6 +1305,7 @@ sigs:
   - src-openeuler/mysql5
 - name: Base-service
   repositories:
+  - src-openeuler/gobject-introspection
   - src-openeuler/bubblewrap
   - src-openeuler/tomcatjss
   - src-openeuler/json-c
@@ -1734,7 +1735,6 @@ sigs:
   - src-openeuler/kata_integration
   - src-openeuler/busybox
   - src-openeuler/container-selinux
-  - src-openeuler/gobject-introspection
   - src-openeuler/lxc
   - src-openeuler/docker
   - src-openeuler/kata-runtime
