@@ -33558,6 +33558,60 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: perl-Alien-Build
+  upstream: https://metacpan.org/pod/Alien::Build
+  description: Build external dependencies for use in CPAN
+  protected_branches:
+  - master
+  type: public
+- name: python-sphinxcontrib-applehelp
+  upstream: https://github.com/sphinx-doc/sphinxcontrib-applehelp
+  description: sphinxcontrib-applehelp is a sphinx extension which outputs Apple help books.
+  protected_branches:
+  - master
+  type: public
+- name: python-sphinxcontrib-devhelp
+  upstream: https://github.com/sphinx-doc/sphinxcontrib-devhelp
+  description: sphinxcontrib-devhelp is a sphinx extension which outputs Devhelp document.
+  protected_branches:
+  - master
+  type: public
+- name: python-sphinxcontrib-htmlhelp
+  upstream: https://github.com/sphinx-doc/sphinxcontrib-htmlhelp
+  description: sphinxcontrib-htmlhelp is a sphinx extension which renders HTML help files.
+  protected_branches:
+  - master
+  type: public
+- name: python-sphinxcontrib-jsmath
+  upstream: https://github.com/sphinx-doc/sphinxcontrib-jsmath
+  description: sphinxcontrib-jsmath is a sphinx extension which renders display math in HTML via JavaScript.
+  protected_branches:
+  - master
+  type: public
+- name: python-sphinxcontrib-qthelp
+  upstream: https://github.com/sphinx-doc/sphinxcontrib-qthelp
+  description: sphinxcontrib-qthelp is a sphinx extension which outputs QtHelp document.
+  protected_branches:
+  - master
+  type: public
+- name: python-sphinxcontrib-serializinghtml
+  upstream: https://github.com/sphinx-doc/sphinxcontrib-serializinghtml
+  description: sphinxcontrib-serializinghtml is a sphinx extension which outputs "serialized" HTML files (json and pickle).
+  protected_branches:
+  - master
+  type: public
+- name: py3c
+  upstream: https://github.com/encukou/py3c
+  description: py3c helps you port C extensions to Python 3.
+  protected_branches:
+  - master
+  type: public
+- name: beakerlib
+  upstream: https://github.com/beakerlib/beakerlib
+  description: BeakerLib is a shell-level integration testing library.
+  protected_branches:
+  - master
+  type: public
 - name: nim
   description: "Nim is a statically typed compiled systems programming language,which combines concepts from Python, Ada and Modula."
   upstream: "https://nim-lang.org/"
