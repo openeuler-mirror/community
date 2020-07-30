@@ -754,7 +754,6 @@ sigs:
   - src-openeuler/zd1211-firmware
   - src-openeuler/ipmitool
   - src-openeuler/ipset
-  - src-openeuler/libwebsockets
   - src-openeuler/iptraf-ng
   - src-openeuler/ppp
   - src-openeuler/tcpdump
@@ -2220,6 +2219,7 @@ sigs:
   - src-openeuler/syscontainer-tools
   - src-openeuler/lxcfs-tools
   - src-openeuler/isula-build
+  - src-openeuler/libwebsockets
 - name: Private
   repositories:
   - src-openeuler/wpebackend-fdo
