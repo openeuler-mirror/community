@@ -334,6 +334,12 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
+- name: airline
+  description: Java annotation-based framework for parsing Git like command line structures.
+  upstream: https://github.com/airlift/airline
+  protected_branches:
+  - master
+  type: public
 - name: allegro
   description: ''
   protected_branches:
@@ -409,6 +415,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: ant-antunit
+  description: Provide antunit ant task
+  upstream: http://ant.apache.org/antlibs/antunit/
+  protected_branches:
+  - master
+  type: public
 - name: ant-contrib
   description: Collection of tasks for Ant.
   protected_branches:
@@ -430,6 +442,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: antlr32
+  description: ANother Tool for Language Recognition
+  upstream: http://www.antlr3.org/
+  protected_branches:
+  - master
+  type: public
 - name: antlr4
   description: Parser generator.
   protected_branches:
@@ -470,6 +488,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: apache-commons-csv
+  description: Utilities to assist with handling of CSV files
+  upstream: https://commons.apache.org/proper/commons-csv/
+  protected_branches:
+  - master
+  type: public
 - name: apache-commons-daemon
   description: ''
   protected_branches:
@@ -480,6 +504,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: apache-commons-el
+  description: The Apache Commons Extension Language
+  upstream: http://commons.apache.org/el
+  protected_branches:
+  - master
+  type: public
 - name: apache-commons-exec
   description: Java library to reliably execute external processes from within the
     JVM.
@@ -491,6 +521,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: apache-commons-jci
+  description: Commons Java Compiler Interface
+  upstream: http://commons.apache.org/jci/
+  protected_branches:
+  - master
+  type: public
 - name: apache-commons-lang
   description: ''
   protected_branches:
@@ -541,6 +577,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: apache-mina
+  description: Apache MINA
+  upstream: http://mina.apache.org
+  protected_branches:
+  - master
+  type: public
 - name: apache-mod_jk
   description: Connectors between Apache and Tomcat Servlet Container
   upstream: https://tomcat.apache.org/connectors-doc/
@@ -629,6 +671,12 @@ repositories:
 - name: argyllcms
   description: ICC compatible color management system
   upstream: http://gitorious.org/hargyllcms
+  protected_branches:
+  - master
+  type: public
+- name: aries-blueprint-annotation-api
+  description: Apache Aries Blueprint Annotation API
+  upstream: http://aries.apache.org/
   protected_branches:
   - master
   type: public
@@ -1076,6 +1124,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: boilerpipe
+  description: Boilerplate Removal and Fulltext Extraction from HTML pages
+  upstream: Url:https://github.com/kohlschutter/boilerpipe
+  protected_branches:
+  - master
+  type: public
 - name: bolt
   description: ''
   protected_branches:
@@ -1195,6 +1249,12 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
+- name: bwa
+  description: Burrows-Wheeler Alignment tool
+  upstream: http://bio-bwa.sourceforge.net/
+  protected_branches:
+  - master
+  type: public
 - name: byacc
   description: ''
   protected_branches:
@@ -1272,6 +1332,12 @@ repositories:
 - name: caja-extensions
   description: Set of extensions for Caja, the MATE file manager
   upstream: https://github.com/mate-desktop/caja-extensions
+  protected_branches:
+  - master
+  type: public
+- name: cal10n
+  description: Compiler assisted localization library (CAL10N)
+  upstream: http://cal10n.qos.ch
   protected_branches:
   - master
   type: public
@@ -1699,6 +1765,12 @@ repositories:
   protected_branches:
   - master
   - openEuler-20.03-LTS
+  type: public
+- name: cookxml
+  description: Dynamic XML data binding tool
+  upstream: http://cookxml.yuanheng.org/
+  protected_branches:
+  - master
   type: public
 - name: copy-jdk-configs
   description: ''
@@ -2465,6 +2537,12 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
+- name: double-conversion
+  description: Library providing binary-decimal and decimal-binary routines for IEEE doubles
+  upstream: https://github.com/google/double-conversion
+  protected_branches:
+  - master
+  type: public
 - name: dovecot
   description: ''
   protected_branches:
@@ -2911,6 +2989,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: faust
+  description: Compiled language for real-time audio signal processing
+  upstream: http://faust.grame.fr/
+  protected_branches:
+  - master
+  type: public
 - name: fcitx
   description: ''
   protected_branches:
@@ -2939,11 +3023,53 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: felix-gogo-runtime
+  description: Apache Felix Gogo command line shell for OSGi
+  upstream: http://felix.apache.org/documentation/subprojects/apache-felix-gogo.html
+  protected_branches:
+  - master
+  type: public
+- name: felix-gogo-shell
+  description: Apache Felix Gogo command line shell for OSGi
+  upstream: http://felix.apache.org/documentation/subprojects/apache-felix-gogo.html
+  protected_branches:
+  - master
+  type: public
+- name: felix-osgi-compendium
+  description: Felix OSGi R4 Compendium Bundle
+  upstream: http://felix.apache.org
+  protected_branches:
+  - master
+  type: public
+- name: felix-osgi-core
+  description: Felix OSGi R4 Core Bundle
+  upstream: http://felix.apache.org/documentation/subprojects/apache-felix-osgi-core.html
+  protected_branches:
+  - master
+  type: public
+- name: felix-osgi-foundation
+  description: Felix OSGi Foundation EE Bundle
+  upstream: http://felix.apache.org
+  protected_branches:
+  - master
+  type: public
+- name: felix-osgi-obr
+  description: Felix OSGi OBR Service API
+  upstream: http://felix.apache.org/documentation/subprojects/apache-felix-osgi-bundle-repository.html
+  protected_branches:
+  - master
+  type: public
 - name: felix-parent
   description: Parent POM file for Apache Felix Specs
   protected_branches:
   - master
   type: private
+- name: felix-shell
+  description: Apache Felix Shell Service
+  upstream: http://felix.apache.org
+  protected_branches:
+  - master
+  type: public
 - name: felix-utils
   description: ''
   protected_branches:
@@ -3152,6 +3278,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: forge-parent
+  description: Sonatype Forge Parent Pom
+  upstream: https://mvnrepository.com/artifact/org.sonatype.forge/forge-parent
+  protected_branches:
+  - master
+  type: public
 - name: fpaste
   description: ''
   protected_branches:
@@ -3259,6 +3391,12 @@ repositories:
   protected_branches:
   - master
   - openEuler-20.03-LTS
+  type: public
+- name: fusesource-pom
+  description: Parent POM for FuseSource Maven projects
+  upstream: http://fusesource.com/
+  protected_branches:
+  - master
   type: public
 - name: future
   description: ''
@@ -3396,6 +3534,12 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
+- name: gdlmm
+  description: C++ bindings for the gdl library
+  upstream: http://www.gtkmm.org/
+  protected_branches:
+  - master
+  type: public
 - name: gdm
   description: ''
   protected_branches:
@@ -3412,6 +3556,12 @@ repositories:
   protected_branches:
   - master
   - openEuler-20.03-LTS
+  type: public
+- name: gemini-blueprint
+  description: Reference Implementation of the OSGi Blueprint Service
+  upstream: http://www.eclipse.org/gemini/
+  protected_branches:
+  - master
   type: public
 - name: gencpp
   description: gencpp package that belongs to THE ROS-COMM
@@ -3477,11 +3627,23 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: geronimo-ejb
+  description: Java EE, EJB API v3.1
+  upstream: http://geronimo.apache.org
+  protected_branches:
+  - master
+  type: public
 - name: geronimo-interceptor
   description: ''
   protected_branches:
   - master
   type: private
+- name: geronimo-jaspic-spec
+  description: Java Authentication SPI for Containers
+  upstream: http://geronimo.apache.org/
+  protected_branches:
+  - master
+  type: public
 - name: geronimo-jaxrpc
   description: ''
   protected_branches:
@@ -3524,6 +3686,12 @@ repositories:
   protected_branches:
   - master
   - openEuler-20.03-LTS
+  type: public
+- name: gfbgraph
+  description: GLib/GObject wrapper for the Facebook Graph API
+  upstream: https://wiki.gnome.org/Projects/GFBGraph
+  protected_branches:
+  - master
   type: public
 - name: gflags
   description: ''
@@ -3629,6 +3797,12 @@ repositories:
 - name: glassfish-jaxb-api
   description: Java Architecture of XML Binding
   upstream: http://jaxb.java.net/
+  protected_branches:
+  - master
+  type: public
+- name: glassfish-jax-rs-api
+  description: JAX-RS API Specification (JSR 339)
+  upstream: https://github.com/eclipse-ee4j/jaxrs-api
   protected_branches:
   - master
   type: public
@@ -4729,6 +4903,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: hsqldb1
+  description: HyperSQL Database Engine
+  upstream: http://hsqldb.sourceforge.net/
+  protected_branches:
+  - master
+  type: public
 - name: htop
   description: an interactive process viewer for Unix systems
   protected_branches:
@@ -4767,6 +4947,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: httpcomponents-project
+  description: Apache components to build HTTP enabled services
+  upstream: http://hc.apache.org/
+  protected_branches:
+  - master
+  type: public
 - name: httpd
   description: ''
   protected_branches:
@@ -5883,6 +6069,12 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
+- name: idm-console-framework
+  description: Identity Management Console Framework
+  upstream: http://www.dogtagpki.org/
+  protected_branches:
+  - master
+  type: public
 - name: iftop
   description: display bandwidth usage on an interface
   protected_branches:
@@ -6136,6 +6328,12 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
+- name: isorelax
+  description: Public interfaces for RELAX Core
+  upstream: http://iso-relax.sourceforge.net/
+  protected_branches:
+  - master
+  type: public
 - name: istack-commons
   description: Common code can be share between Glassfish projects
   upstream: http://istack-commons.java.net
@@ -6343,6 +6541,18 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
+- name: jboss-annotations-1.2-api
+  description: Common Annotations 1.2 API
+  upstream: https://github.com/jboss/jboss-annotations-api_spec
+  protected_branches:
+  - master
+  type: public
+- name: jboss-connector-1.6-api
+  description: Connector Architecture 1.6 API
+  upstream: http://www.jboss.org
+  protected_branches:
+  - master
+  type: public
 - name: jboss-el
   description: Expression Language 2.2 API classes.
   protected_branches:
@@ -6358,6 +6568,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: jboss-jaxrs-2.0-api
+  description: JAX-RS 2.0, The Java API for RESTful Web Services
+  upstream: https://github.com/jboss/jboss-jaxrs-api_spec
+  protected_branches:
+  - master
+  type: public
 - name: jboss-jsp-2.2-api
   description: JavaServer(TM) Pages 2.2 API
   protected_branches:
@@ -6404,11 +6620,23 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: jboss-stdio
+  description: JBoss STDIO
+  upstream: https://github.com/jboss-logging/jboss-stdio/
+  protected_branches:
+  - master
+  type: public
 - name: jboss-transaction
   description: ''
   protected_branches:
   - master
   type: private
+- name: jboss-websocket-1.0-api
+  description: JSR-356, Java WebSocket 1.0 API
+  upstream: Url:https://github.com/jboss/jboss-websocket-api_spec
+  protected_branches:
+  - master
+  type: public
 - name: jcifs
   description: ''
   protected_branches:
@@ -6439,6 +6667,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: jdeparser1
+  description: Source generator library for Java
+  upstream: https://github.com/jdeparser/jdeparser
+  protected_branches:
+  - master
+  type: public
 - name: jdepend
   description: ''
   protected_branches:
@@ -6476,6 +6710,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: jeromq
+  description: Pure Java implementation of libzmq
+  upstream: https://github.com/zeromq/jeromq
+  protected_branches:
+  - master
+  type: public
 - name: jetbrains-annotations
   description: IntelliJ IDEA Annotations
   upstream: http://www.jetbrains.org
@@ -6546,6 +6786,12 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
+- name: jpegoptim
+  description: Utility to optimize JPEG files
+  upstream: http://www.kokkonen.net/tjko/projects.html
+  protected_branches:
+  - master
+  type: public
 - name: jq
   description: ''
   protected_branches:
@@ -6599,6 +6845,12 @@ repositories:
   protected_branches:
   - master
   - openEuler-20.03-LTS
+  type: public
+- name: jsonp
+  description: JSR 353 (JSON Processing) RI
+  upstream: http://java.net/projects/jsonp/
+  protected_branches:
+  - master
   type: public
 - name: jsoup
   description: ''
@@ -6818,6 +7070,12 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
+- name: kohsuke-pom
+  description: Kohsuke parent POM
+  upstream: https://github.com/kohsuke/pom
+  protected_branches:
+  - master
+  type: public
 - name: kpatch
   description: ''
   protected_branches:
@@ -6963,6 +7221,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: leptonica
+  description: C library for efficient image processing and image analysis operations
+  upstream: https://github.com/danbloomberg/leptonica
+  protected_branches:
+  - master
+  type: public
 - name: less
   description: ''
   protected_branches:
@@ -7608,6 +7872,12 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
+- name: libgadu
+  description: A Gadu-gadu protocol compatible communications library
+  upstream: http://libgadu.net/
+  protected_branches:
+  - master
+  type: public
 - name: libgcrypt
   description: ''
   protected_branches:
@@ -7620,11 +7890,23 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
+- name: libgdiplus
+  description: An Open Source implementation of the GDI+ API
+  upstream: http://www.mono-project.com/Main_Page
+  protected_branches:
+  - master
+  type: public
 - name: libgdither
   description: ''
   protected_branches:
   - master
   - openEuler-20.03-LTS
+  type: public
+- name: libgdl
+  description: GNOME docking library
+  upstream: http://www.gnome.org/
+  protected_branches:
+  - master
   type: public
 - name: libgee
   description: ''
@@ -10227,6 +10509,12 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
+- name: mongo-java-driver2
+  description: MongoDB Java Driver
+  upstream: http://docs.mongodb.org/ecosystem/drivers/java/
+  protected_branches:
+  - master
+  type: public
 - name: mono
   description: Cross platform,open source .NET development framework
   upstream: http://www.mono-project.com
@@ -10351,6 +10639,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: multithreadedtc
+  description: A framework for testing concurrent Java application
+  upstream: http://www.cs.umd.edu/projects/PL/multithreadedtc
+  protected_branches:
+  - master
+  type: public
 - name: multiverse
   description: ''
   protected_branches:
@@ -10385,11 +10679,23 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
+- name: mvel
+  description: MVFLEX Expression Language
+  upstream: Url:https://github.com/mvel/mvel
+  protected_branches:
+  - master
+  type: public
 - name: mypaint-brushes
   description: ''
   protected_branches:
   - master
   - openEuler-20.03-LTS
+  type: public
+- name: mysema-commons-lang
+  description: Mysema Commons Lang
+  upstream: http://www.mysema.com/
+  protected_branches:
+  - master
   type: public
 - name: mysql
   description: ''
@@ -10432,6 +10738,12 @@ repositories:
   protected_branches:
   - master
   - openEuler-20.03-LTS
+  type: public
+- name: nailgun
+  description: Framework for running Java from the cli without the JVM startup overhead
+  upstream: http://martiansoftware.com/nailgun/
+  protected_branches:
+  - master
   type: public
 - name: nano
   description: ''
@@ -10929,6 +11241,12 @@ repositories:
   protected_branches:
   - master
   - openEuler-20.03-LTS
+  type: public
+- name: ocl-icd
+  description: OpenCL ICD Bindings
+  upstream: https://github.com/OCL-dev/ocl-icd
+  protected_branches:
+  - master
   type: public
 - name: octave
   description: A high-level language for numerical computations
@@ -27949,6 +28267,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-requests-kerberos
+  description: A Kerberos authentication handler for python-requests
+  upstream: https://github.com/requests/requests-kerberos
+  protected_branches:
+  - master
+  type: public
 - name: python-requests-ntlm
   description: NTLM authentication support for Requests
   upstream: https://github.com/requests/requests-ntlm
@@ -30373,17 +30697,83 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
+- name: rubygem-builder
+  description: Builders for MarkUp
+  upstream: http://onestepback.org
+  protected_branches:
+  - master
+  type: public
 - name: rubygem-bundler
   description: Library and utilities to manage a Ruby application's gem dependencies
   protected_branches:
   - master
   - openEuler-20.03-LTS
   type: public
+- name: rubygem-chronic
+  description: A natural language date parser
+  upstream: http://github.com/mojombo/chronic
+  protected_branches:
+  - master
+  type: public
+- name: rubygem-coderay
+  description: Fast syntax highlighting for selected languages
+  upstream: http://coderay.rubychan.de
+  protected_branches:
+  - master
+  type: public
+- name: rubygem-crack
+  description: Really simple JSON and XML parsing, ripped from Merb and Rails
+  upstream: http://github.com/jnunemaker/crack
+  protected_branches:
+  - master
+  type: public
+- name: rubygem-creole
+  description: Lightweight markup language
+  upstream: https://github.com/minad/creole
+  protected_branches:
+  - master
+  type: public
+- name: rubygem-curb
+  description: Ruby libcurl bindings
+  upstream: https://github.com/taf2/curb
+  protected_branches:
+  - master
+  type: public
+- name: rubygem-dalli
+  description: High performance memcached client for Ruby
+  upstream: https://github.com/petergoldstein/dalli
+  protected_branches:
+  - master
+  type: public
+- name: rubygem-erubis
+  description: A fast and extensible eRuby implementation
+  upstream: http://www.kuwata-lab.com/erubis/
+  protected_branches:
+  - master
+  type: public
+- name: rubygem-eventmachine
+  description: Ruby/EventMachine library
+  upstream: http://rubyeventmachine.com
+  protected_branches:
+  - master
+  type: public
+- name: rubygem-faraday
+  description: HTTP/REST API client library
+  upstream: https://github.com/lostisland/faraday
+  protected_branches:
+  - master
+  type: public
 - name: rubygem-gem2rpm
   description: Generate rpm specfiles from gems
   protected_branches:
   - master
   - openEuler-20.03-LTS
+  type: public
+- name: rubygem-hashery
+  description: Facets-bread collection of Hash-like classes
+  upstream: http://rubyworks.github.com/hashery
+  protected_branches:
+  - master
   type: public
 - name: rubygem-hpricot
   description: A Fast, Enjoyable HTML Parser for Ruby.
@@ -30395,13 +30785,49 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: rubygem-metaclass
+  description: Adds a metaclass method to all Ruby objects
+  upstream: http://github.com/floehopper/metaclass
+  protected_branches:
+  - master
+  type: public
+- name: rubygem-minitest4
+  description: Small and fast replacement for ruby's huge and slow test/unit
+  upstream: https://github.com/seattlerb/minitest
+  protected_branches:
+  - master
+  type: public
+- name: rubygem-multipart-post
+  description: Creates a multipart form post accessory for Net,,HTTP
+  upstream: http://github.com/nicksieger/multipart-post
+  protected_branches:
+  - master
+  type: public
+- name: rubygem-multi_test
+  description: Wafter-thin gem to disable autorun of various testing libraries
+  upstream: http://cukes.info
+  protected_branches:
+  - master
+  type: public
 - name: rubygem-mustache
   description: Mustache is a framework-agnostic way to render logic-free views
   protected_branches:
   - master
   type: private
+- name: rubygem-open4
+  description: Manage child processes and their IO handles easily
+  upstream: http://github.com/ahoward/open4/
+  protected_branches:
+  - master
+  type: public
 - name: rubygem-ovirt-engine-sdk4
   description: ''
+  protected_branches:
+  - master
+  type: public
+- name: rubygem-pkg-config
+  description: A pkg-config implementation by Ruby
+  upstream: http://github.com/rcairo/pkg-config
   protected_branches:
   - master
   type: public
@@ -30495,6 +30921,12 @@ repositories:
   protected_branches:
   - master
   - openEuler-20.03-LTS
+  type: public
+- name: saxon
+  description: Java XPath, XSLT 2.0 and XQuery implementation
+  upstream: http://saxon.sourceforge.net/
+  protected_branches:
+  - master
   type: public
 - name: sbc
   description: ''
@@ -30909,6 +31341,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: spec-version-maven-plugin
+  description: Spec Version Maven Plugin
+  upstream: http://glassfish.java.net/
+  protected_branches:
+  - master
+  type: public
 - name: speech-dispatcher
   description: ''
   protected_branches:
@@ -31062,6 +31500,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: stringtemplate
+  description: A Java template engine
+  upstream: http://www.stringtemplate.org/
+  protected_branches:
+  - master
+  type: public
 - name: strongswan
   description: ''
   protected_branches:
@@ -31311,6 +31755,12 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
+- name: t-digest
+  description: A new data structure for on-line accumulation of statistics
+  upstream: https://github.com/tdunning/t-digest
+  protected_branches:
+  - master
+  type: public
 - name: teckit
   description: ''
   protected_branches:
@@ -31539,6 +31989,12 @@ repositories:
   protected_branches:
   - master
   - openEuler-20.03-LTS
+  type: public
+- name: tng
+  description: Trajectory Next Generation binary format manipulation library
+  upstream: https://github.com/gromacs/tng
+  protected_branches:
+  - master
   type: public
 - name: tog-pegasus
   description: ''
@@ -31874,6 +32330,12 @@ repositories:
 - name: bamf
   description: Application matching framework
   upstream: https://github.com/malwaredllc/bamf
+  protected_branches:
+  - master
+  type: public
+- name: grafana
+  description: Metrics dashboard and graph editor
+  upstream: https://grafana.org
   protected_branches:
   - master
   type: public
@@ -32628,6 +33090,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: xapps
+  description: Common files for XApp desktop apps
+  upstream: https://github.com/linuxmint/xapps
+  protected_branches:
+  - master
+  type: public
 - name: xarchiver
   upstream: https://github.com/ib/xarchiver
   description: Archive manager for Xfce
@@ -33165,6 +33633,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: xom
+  description: XML Object Model
+  upstream: http://www.xom.nu
+  protected_branches:
+  - master
+  type: public
 - name: xorg-sgml-doctools
   description: ''
   protected_branches:
@@ -33392,6 +33866,12 @@ repositories:
   protected_branches:
   - master
   - openEuler-20.03-LTS
+  type: public
+- name: yaml-cpp03
+  description: A YAML parser and emitter for C++
+  upstream: https://github.com/jbeder/yaml-cpp
+  protected_branches:
+  - master
   type: public
 - name: yasm
   description: ''
