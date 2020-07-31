@@ -45,6 +45,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: GAPP
+  description: "A Fast Profiler for Detecing Serialization Bottlenecks in Parallel Linux Application"
+  upstream: "https://github.com/RN-dev-repo/GAPP"
+  protected_branches:
+  - master
+  type: public
 - name: GConf2
   description: ''
   protected_branches:
