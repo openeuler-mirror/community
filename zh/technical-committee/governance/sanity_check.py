@@ -210,6 +210,11 @@ def load_yaml(d, f):
         print("Cannot Load {path}".format(path=p))
         print("Could be wrong path")
         sys.exit(1)
+    except yaml.scanner.ScannerError as e:
+        print("%s: Invalid YAML file"%(p))
+        print("Detailed Error Information:")
+        print(e)
+        sys.exit(1)
     return y
 
 
