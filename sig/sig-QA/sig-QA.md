@@ -35,11 +35,11 @@ Maintainers
 - kuhnchen(@kuhnchen18),since December 2019
 - speacher
 - rigorous
+- lemon-higgins
+- lutianxiong
 
 Committers
-- ltx(@lutianxiong),since February 2020
 - Air9(@air9),since january 2020
-- lemon.higgins(@lemon-higgins),since November 2019
 - wsf0824(@wsf0824),since December 2019
 - panny060(@panny060),since December 2019
 - jiuhanjiu(@jiuhanjiu),since December 2019

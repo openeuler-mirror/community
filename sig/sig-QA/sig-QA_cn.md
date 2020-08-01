@@ -29,6 +29,9 @@ openEuler QA(质量保障)项目团队致力于如何更好的提升openEuler社
   - kuhnchen(@kuhnchen18),since December 2019
   - speacher
   - rigorous
+  - lemon-higgins
+  - lutianxiong
+
 
 邮件列表：
   - qa@openeuler.org
