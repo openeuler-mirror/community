@@ -9,7 +9,10 @@ For dev-utils SIG, it will focus on those tools, SDK and libraries which help de
 
 # 组织会议
 
-- Meeting time: under schedule
+- Meeting time: biweekly Monday 11:00-12:00
+- Meeting topic: Submit by email
+- Please subscribe dev@openeuler.org to obtain the conference link
+
 
 
 
