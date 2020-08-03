@@ -12,9 +12,9 @@
 
 基础设施团队构建了一种机制去简化仓库的维护工作。
 所有openEuler的仓库和仓库成员都放在
-[openeuler.yaml](https://gitee.com/openeuler/infrastructure/blob/master/repository/openeuler.yaml)文件中,
+[openeuler.yaml](https://gitee.com/openeuler/community/blob/master/repository/openeuler.yaml)文件中,
 而所有src-openEuler的仓库和仓库成员都放在
-[src-openeuler.yaml](https://gitee.com/openeuler/infrastructure/blob/master/repository/src-openeuler.yaml)文件中。
+[src-openeuler.yaml](https://gitee.com/openeuler/community/blob/master/repository/src-openeuler.yaml)文件中。
 如果这些yaml文件被一个pull request所修改，`openeuler-ci-bot`将会检测到这些改变
 然后自动化地完成一些操作，例如`创建一个仓库`，`为一个仓库添加成员`，
 `从一个仓库移除成员`，`保护一个分支`，`移除一个保护分支`等基于Gitee API的操作。
@@ -30,8 +30,8 @@ repositories:
 
 如果你想要在openEuler社区里面新增一个仓库，
 你可以基于上面的示例提交一个pull request修改
-[openeuler.yaml](https://gitee.com/openeuler/infrastructure/blob/master/repository/openeuler.yaml)
-或者[src-openeuler.yaml](https://gitee.com/openeuler/infrastructure/blob/master/repository/src-openeuler.yaml)。
+[openeuler.yaml](https://gitee.com/openeuler/community/blob/master/repository/openeuler.yaml)
+或者[src-openeuler.yaml](https://gitee.com/openeuler/community/blob/master/repository/src-openeuler.yaml)。
 
 * `abattis-cantarell-fonts`: 你想创建的新仓库名字。
 * `fonts repo`: 新仓库描述。
@@ -72,8 +72,8 @@ repositories:
 
 如果你想要添加或者删除一个仓库的成员，
 你可以基于上面的示例提交一个pull request
-修改[openeuler.yaml](https://gitee.com/openeuler/infrastructure/blob/master/repository/openeuler.yaml)
-或者[src-openeuler.yaml](https://gitee.com/openeuler/infrastructure/blob/master/repository/src-openeuler.yaml)。
+修改[openeuler.yaml](https://gitee.com/openeuler/community/blob/master/repository/openeuler.yaml)
+或者[src-openeuler.yaml](https://gitee.com/openeuler/community/blob/master/repository/src-openeuler.yaml)。
 
 * `openeuler`： openEuler组织名称， 另外还有一个组织`src-openeuler`，实际上不需要做修改。
 * `managers`：  你想在`community`或者`repositories`下指定的管理员。
@@ -120,8 +120,8 @@ repositories:
 
 如果你想要在一个仓库上创建或者删除一个保护分支，
 你可以基于上面的示例提交一个pull request
-修改[openeuler.yaml](https://gitee.com/openeuler/infrastructure/blob/master/repository/openeuler.yaml)
-或者[src-openeuler.yaml](https://gitee.com/openeuler/infrastructure/blob/master/repository/src-openeuler.yaml)。
+修改[openeuler.yaml](https://gitee.com/openeuler/community/blob/master/repository/openeuler.yaml)
+或者[src-openeuler.yaml](https://gitee.com/openeuler/community/blob/master/repository/src-openeuler.yaml)。
 
 * `openeuler`：openEuler组织名称， 另外还有一个组织`src-openeuler`，实际上不需要做修改。
 * `protected_branches`：你想要在`community`或`repositories`创建的保护分支。
