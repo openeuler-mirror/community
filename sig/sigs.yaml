@@ -26,6 +26,8 @@ sigs:
   - src-openeuler/alsa-utils
   - src-openeuler/amanda
   - src-openeuler/antlr32
+  - src-openeuler/antlr-maven-plugin
+  - src-openeuler/apache-logging-parent
   - src-openeuler/apache-commons-csv
   - src-openeuler/apache-mod_jk
   - src-openeuler/apache-rpm-macros
@@ -68,6 +70,7 @@ sigs:
   - src-openeuler/firefox
   - src-openeuler/fontforge
   - src-openeuler/fonts-tweak-tool
+  - src-openeuler/forbidden-apis
   - src-openeuler/forge-parent
   - src-openeuler/freerdp
   - src-openeuler/geronimo-parent-poms
@@ -253,6 +256,8 @@ sigs:
   - src-openeuler/iperf3
   - src-openeuler/irssi
   - src-openeuler/java-atk-wrapper
+  - src-openeuler/jboss-jms-2.0-api
+  - src-openeuler/jedis
   - src-openeuler/jpegoptim
   - src-openeuler/jsonp
   - src-openeuler/jss
@@ -289,6 +294,7 @@ sigs:
   - src-openeuler/media-player-info
   - src-openeuler/memcached
   - src-openeuler/mikmod
+  - src-openeuler/mina-ftpserver
   - src-openeuler/mod_intercept_form_submit
   - src-openeuler/mod_lookup_identity
   - src-openeuler/mrtg
@@ -301,6 +307,7 @@ sigs:
   - src-openeuler/nss-mdns
   - src-openeuler/openal-soft
   - src-openeuler/openjade
+  - src-openeuler/opennlp
   - src-openeuler/openoffice.org-dict-cs_CZ
   - src-openeuler/openoffice-lv
   - src-openeuler/opensm
@@ -328,6 +335,7 @@ sigs:
   - src-openeuler/rasqal
   - src-openeuler/rdate
   - src-openeuler/rhythmbox
+  - src-openeuler/rngom
   - src-openeuler/rpcsvc-proto
   - src-openeuler/rrdtool
   - src-openeuler/rubygem-pkg-config
@@ -1320,6 +1328,7 @@ sigs:
   - src-openeuler/obs_meta
 - name: DB
   repositories:
+  - src-openeuler/derby
   - src-openeuler/gupnp-dlna
   - src-openeuler/postgresql-odbc
   - src-openeuler/foomatic
@@ -1372,6 +1381,7 @@ sigs:
   - src-openeuler/conntrack-tools
   - src-openeuler/coreutils
   - src-openeuler/cpio
+  - src-openeuler/cpp-hocon
   - src-openeuler/crash
   - src-openeuler/createrepo_c
   - src-openeuler/cronie
@@ -1402,6 +1412,7 @@ sigs:
   - src-openeuler/exempi
   - src-openeuler/expat
   - src-openeuler/expect
+  - src-openeuler/facter
   - src-openeuler/felix-osgi-compendium
   - src-openeuler/felix-osgi-core
   - src-openeuler/felix-osgi-foundation
@@ -1435,6 +1446,8 @@ sigs:
   - src-openeuler/haveged
   - src-openeuler/hesiod
   - src-openeuler/hiredis
+  - src-openeuler/hppc
+  - src-openeuler/htrace
   - src-openeuler/ima-evm-utils
   - src-openeuler/iso-codes
   - src-openeuler/isomd5sum
@@ -1459,6 +1472,7 @@ sigs:
   - src-openeuler/langtable
   - src-openeuler/lasso
   - src-openeuler/latrace
+  - src-openeuler/leatherman
   - src-openeuler/leptonica
   - src-openeuler/less
   - src-openeuler/libbytesize
@@ -1541,6 +1555,7 @@ sigs:
   - src-openeuler/lua-expat
   - src-openeuler/lua-json
   - src-openeuler/lua-lpeg
+  - src-openeuler/lucene4
   - src-openeuler/lutok
   - src-openeuler/lz4
   - src-openeuler/lzo
@@ -1562,8 +1577,10 @@ sigs:
   - src-openeuler/mongodb
   - src-openeuler/mongo-java-driver2
   - src-openeuler/mono
+  - src-openeuler/morfologik-stemming
   - src-openeuler/mtdev
   - src-openeuler/multithreadedtc
+  - src-openeuler/munge-maven-plugin
   - src-openeuler/mvel
   - src-openeuler/mysema-commons-lang
   - src-openeuler/nailgun
@@ -1680,6 +1697,7 @@ sigs:
   - src-openeuler/pyxattr
   - src-openeuler/qpid-proton
   - src-openeuler/rapidjson
+  - src-openeuler/randomizedtesting
   - src-openeuler/rarian
   - src-openeuler/rasdaemon
   - src-openeuler/readline
@@ -1719,6 +1737,7 @@ sigs:
   - src-openeuler/si-units
   - src-openeuler/slang
   - src-openeuler/snappy
+  - src-openeuler/snappy-java
   - src-openeuler/sombok
   - src-openeuler/speex
   - src-openeuler/speexdsp
@@ -1726,6 +1745,7 @@ sigs:
   - src-openeuler/sssd
   - src-openeuler/star
   - src-openeuler/startup-notification
+  - src-openeuler/stringtemplate4
   - src-openeuler/subversion
   - src-openeuler/sudo
   - src-openeuler/symlinks
@@ -1736,6 +1756,7 @@ sigs:
   - src-openeuler/tcllib
   - src-openeuler/tcsh
   - src-openeuler/TeXamator
+  - src-openeuler/thrift
   - src-openeuler/time
   - src-openeuler/timedatex
   - src-openeuler/tmpwatch
@@ -1746,6 +1767,7 @@ sigs:
   - src-openeuler/tracker
   - src-openeuler/tracker-miners
   - src-openeuler/trousers
+  - src-openeuler/tuscany-sdo-java
   - src-openeuler/umockdev
   - src-openeuler/uname-build-checks
   - src-openeuler/unicode-emoji
@@ -2994,23 +3016,6 @@ sigs:
   - openeuler/security
 - name: dev-utils
   repositories:
-  - src-openeuler/cal10n
-  - src-openeuler/geronimo-ejb
-  - src-openeuler/geronimo-jaspic-spec
-  - src-openeuler/httpcomponents-project
-  - src-openeuler/jboss-annotations-1.2-api
-  - src-openeuler/jboss-connector-1.6-api
-  - src-openeuler/jboss-jaxrs-2.0-api
-  - src-openeuler/jboss-stdio
-  - src-openeuler/jboss-websocket-1.0-api
-  - src-openeuler/saxon
-  - src-openeuler/stringtemplate
-  - src-openeuler/xom
-  - src-openeuler/kf5
-  - src-openeuler/extra-cmake-modules
-  - src-openeuler/dbusmenu-qt
-  - src-openeuler/automoc
-  - src-openeuler/GAPP
   - openeuler/abichecker
   - openeuler/auto_py2to3
   - openeuler/openEuler-bootstrap
@@ -3020,9 +3025,13 @@ sigs:
   - openeuler/pyporter
   - openeuler/trucker
   - src-openeuler/ansible
+  - src-openeuler/apache-commons-collections4
+  - src-openeuler/apache-commons-jexl
+  - src-openeuler/apache-commons-pool2
   - src-openeuler/apiviz
   - src-openeuler/atop
   - src-openeuler/auto
+  - src-openeuler/automoc
   - src-openeuler/bam
   - src-openeuler/bcc
   - src-openeuler/bcftools
@@ -3031,6 +3040,7 @@ sigs:
   - src-openeuler/bpftrace
   - src-openeuler/brpc
   - src-openeuler/buildroot
+  - src-openeuler/cal10n
   - src-openeuler/catch1
   - src-openeuler/ck
   - src-openeuler/cloc
@@ -3039,17 +3049,22 @@ sigs:
   - src-openeuler/colordiff
   - src-openeuler/cpp-httplib
   - src-openeuler/cpuid
-  - src-openeuler/ct-ng
   - src-openeuler/csmith
+  - src-openeuler/ct-ng
+  - src-openeuler/dbusmenu-qt
   - src-openeuler/delve
   - src-openeuler/dleyna-connector-dbus
   - src-openeuler/dleyna-core
   - src-openeuler/emma
   - src-openeuler/enca
+  - src-openeuler/extra-cmake-modules
   - src-openeuler/f2fs-tools
   - src-openeuler/figlet
   - src-openeuler/fping
   - src-openeuler/freeimage
+  - src-openeuler/GAPP
+  - src-openeuler/geronimo-ejb
+  - src-openeuler/geronimo-jaspic-spec
   - src-openeuler/geronimo-osgi-support
   - src-openeuler/git-tools
   - src-openeuler/glassfish-jaxb
@@ -3059,12 +3074,26 @@ sigs:
   - src-openeuler/htop
   - src-openeuler/htslib
   - src-openeuler/http_load
+  - src-openeuler/httpcomponents-project
   - src-openeuler/iftop
   - src-openeuler/iniparser
   - src-openeuler/iozone
   - src-openeuler/ipwatchd
+  - src-openeuler/jboss-annotations-1.2-api
+  - src-openeuler/jboss-connector-1.6-api
+  - src-openeuler/jboss-jaxrs-2.0-api
+  - src-openeuler/jboss-stdio
+  - src-openeuler/jboss-websocket-1.0-api
   - src-openeuler/jetbrains-annotations
+  - src-openeuler/jffi
+  - src-openeuler/jnr-constants
+  - src-openeuler/jnr-enxio
+  - src-openeuler/jnr-ffi
+  - src-openeuler/jnr-netdb
+  - src-openeuler/jnr-posix
+  - src-openeuler/jnr-unixsocket
   - src-openeuler/kelbt
+  - src-openeuler/kf5
   - src-openeuler/ldapjdk
   - src-openeuler/libgpod
   - src-openeuler/libgssglue
@@ -3085,6 +3114,7 @@ sigs:
   - src-openeuler/netperf
   - src-openeuler/nmon
   - src-openeuler/openEuler-pkginfo
+  - src-openeuler/options
   - src-openeuler/p7zip
   - src-openeuler/parfait
   - src-openeuler/PEGTL
@@ -3092,18 +3122,22 @@ sigs:
   - src-openeuler/pyusb
   - src-openeuler/ragel
   - src-openeuler/ranger
+  - src-openeuler/relaxngcc
   - src-openeuler/relaxngDatatype
   - src-openeuler/samtools
-  - src-openeuler/s-tui
+  - src-openeuler/saxon
   - src-openeuler/slurm
   - src-openeuler/stax-ex
   - src-openeuler/stress-ng
+  - src-openeuler/stringtemplate
+  - src-openeuler/s-tui
   - src-openeuler/sysbench
   - src-openeuler/sysget
   - src-openeuler/tito
   - src-openeuler/unixbench
   - src-openeuler/uom-se
   - src-openeuler/webbench
+  - src-openeuler/xom
   - src-openeuler/ykpers
 - name: sig-mate-desktop
   repositories:
