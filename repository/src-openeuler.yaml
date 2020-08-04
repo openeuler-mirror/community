@@ -203,6 +203,12 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
+- name: thrift
+  description: Software framework for cross-language services development
+  upstream: https://thrift.apache.org/
+  protected_branches:
+  - master
+  type: public
 - name: Thunar
   upstream: http://thunar.xfce.org/
   description: Thunar File Manager
@@ -453,6 +459,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: antlr-maven-plugin
+  description: Maven plugin that generates files based on grammar file(s)
+  upstream: http://mojo.codehaus.org/antlr-maven-plugin/
+  protected_branches:
+  - master
+  type: public
 - name: aopalliance
   description: ''
   protected_branches:
@@ -478,6 +490,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: apache-commons-collections4
+  description: Extension of the Java Collections Framework
+  upstream: http://commons.apache.org/proper/commons-collections/
+  protected_branches:
+  - master
+  type: public
 - name: apache-commons-compress
   description: ''
   protected_branches:
@@ -527,6 +545,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: apache-commons-jexl
+  description: Java Expression Language (JEXL)
+  upstream: http://commons.apache.org/jexl
+  protected_branches:
+  - master
+  type: public
 - name: apache-commons-lang
   description: ''
   protected_branches:
@@ -557,6 +581,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: apache-commons-pool2
+  description: Apache Commons Object Pooling Library 2.x series
+  upstream: http://commons.apache.org/proper/commons-pool/
+  protected_branches:
+  - master
+  type: public
 - name: apache-commons-vfs
   description: Commons Virtual file systemCommons Virtual file system..
   protected_branches:
@@ -577,6 +607,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: apache-logging-parent
+  description: Parent pom for Apache Logging Services projects
+  upstream: https://logging.apache.org/
+  protected_branches:
+  - master
+  type: public
 - name: apache-mina
   description: Apache MINA
   upstream: http://mina.apache.org
@@ -1796,6 +1832,12 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
+- name: cpp-hocon
+  description: The library provides C++ support for the HOCON configuration file format
+  upstream: https://github.com/puppetlabs/cpp-hocon
+  protected_branches:
+  - master
+  type: public
 - name: cpp-httplib
   description: A C++ header-only HTTP/HTTPS server and client library
   upstream: https://github.com/yhirose/cpp-httplib
@@ -2288,6 +2330,12 @@ repositories:
   type: public
 - name: delve
   description: A debugger for the Go programming language
+  protected_branches:
+  - master
+  type: public
+- name: derby
+  description: Relational database implemented entirely in Java
+  upstream: http://db.apache.org/derby/
   protected_branches:
   - master
   type: public
@@ -2961,6 +3009,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: facter
+  description: Command and ruby library for gathering system information
+  upstream: https://puppet.com/docs/puppet/6.17/facter.html
+  protected_branches:
+  - master
+  type: public
 - name: fakechroot
   description: ''
   protected_branches:
@@ -3278,6 +3332,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: forbidden-apis
+  description: Policeman's Forbidden API Checker
+  upstream: https://github.com/policeman-tools/forbidden-apis
+  protected_branches:
+  - master
+  type: public
 - name: forge-parent
   description: Sonatype Forge Parent Pom
   upstream: https://mvnrepository.com/artifact/org.sonatype.forge/forge-parent
@@ -4897,6 +4957,12 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
+- name: hppc
+  description: High Performance Primitive Collections for Java
+  upstream: http://labs.carrotsearch.com/hppc.html
+  protected_branches:
+  - master
+  type: public
 - name: hspell
   description: A checker for Hebrew spell
   upstream: http://hspell.ivrix.org.il/
@@ -4911,6 +4977,12 @@ repositories:
   type: public
 - name: htop
   description: an interactive process viewer for Unix systems
+  protected_branches:
+  - master
+  type: public
+- name: htrace
+  description: Tracing framework for java based distributed systems
+  upstream: https://htrace.incubator.apache.org
   protected_branches:
   - master
   type: public
@@ -6574,6 +6646,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: jboss-jms-2.0-api
+  description: JBoss JMS API 2.0 Spec
+  upstream: Url:http://www.jboss.org
+  protected_branches:
+  - master
+  type: public
 - name: jboss-jsp-2.2-api
   description: JavaServer(TM) Pages 2.2 API
   protected_branches:
@@ -6699,6 +6777,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: jedis
+  description: A redis Java client
+  upstream: https://github.com/xetorthio/jedis
+  protected_branches:
+  - master
+  type: public
 - name: jemalloc
   description: ''
   protected_branches:
@@ -6732,6 +6816,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: jffi
+  description: Java Foreign Function Interface
+  upstream: http://github.com/jnr/jffi
+  protected_branches:
+  - master
+  type: public
 - name: jflex
   description: ''
   protected_branches:
@@ -6769,6 +6859,42 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: jnr-constants
+  description: Java Native Runtime constants
+  upstream: https://github.com/jnr/jnr-constants
+  protected_branches:
+  - master
+  type: public
+- name: jnr-enxio
+  description: Unix sockets for Java
+  upstream: https://github.com/jnr/jnr-enxio/
+  protected_branches:
+  - master
+  type: public
+- name: jnr-ffi
+  description: Java Abstracted Foreign Function Layer
+  upstream: http://github.com/jnr/jnr-ffi/
+  protected_branches:
+  - master
+  type: public
+- name: jnr-netdb
+  description: Network services database access for java
+  upstream: https://github.com/jnr/jnr-netdb/
+  protected_branches:
+  - master
+  type: public
+- name: jnr-posix
+  description: Java Posix layer
+  upstream: http://github.com/jnr/jnr-posix
+  protected_branches:
+  - master
+  type: public
+- name: jnr-unixsocket
+  description: Unix sockets for Java
+  upstream: https://github.com/jnr/jnr-unixsocket
+  protected_branches:
+  - master
+  type: public
 - name: joda-time
   description: ''
   protected_branches:
@@ -7210,6 +7336,12 @@ repositories:
   protected_branches:
   - master
   - openEuler-20.03-LTS
+  type: public
+- name: leatherman
+  description: Collection of C++ and CMake utility libraries
+  upstream: https://github.com/puppetlabs/leatherman
+  protected_branches:
+  - master
   type: public
 - name: ledmon
   description: ''
@@ -9624,6 +9756,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: lucene4
+  description: High-performance, full-featured text search engine
+  upstream: http://lucene.apache.org/
+  protected_branches:
+  - master
+  type: public
 - name: luksmeta
   description: ''
   protected_branches:
@@ -10331,6 +10469,12 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
+- name: mina-ftpserver
+  description: A 100% pure Java FTP server
+  upstream: http://mina.apache.org/ftpserver-project/
+  protected_branches:
+  - master
+  type: public
 - name: mingw-crt
   description: ''
   protected_branches:
@@ -10521,6 +10665,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: morfologik-stemming
+  description: Morfologik stemming library
+  upstream: https://github.com/morfologik/morfologik-stemming
+  protected_branches:
+  - master
+  type: public
 - name: motif
   description: ''
   protected_branches:
@@ -10655,6 +10805,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: munge-maven-plugin
+  description: Munge Maven Plugin
+  upstream: http://github.com/sonatype/munge-maven-plugin
+  protected_branches:
+  - master
+  type: public
 - name: musescore
   description: MuseScore is an open source and free music notation software
   upstream: https://github.com/musescore/MuseScore
@@ -11492,6 +11648,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: opennlp
+  description: A machine learning based toolkit for the processing of natural language text
+  upstream: https://opennlp.apache.org/
+  protected_branches:
+  - master
+  type: public
 - name: opennn
   description: an open source neural networks library for machine learning.
   upstream: https://www.opennn.net/
@@ -11597,6 +11759,12 @@ repositories:
   protected_branches:
   - master
   - openEuler-20.03-LTS
+  type: public
+- name: options
+  description: Library for managing sets of JVM properties to configure an app or library
+  upstream: https://github.com/headius/options
+  protected_branches:
+  - master
   type: public
 - name: opus
   description: ''
@@ -30372,6 +30540,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: randomizedtesting
+  description: Java Testing Framework
+  upstream: http://labs.carrotsearch.com/randomizedtesting.html
+  protected_branches:
+  - master
+  type: public
 - name: ranger
   description: A VIM-inspired filemanager for the console
   upstream: https://github.com/ranger/ranger
@@ -30522,6 +30696,12 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
+- name: relaxngcc
+  description: RELAX NG Compiler Compiler
+  upstream: Url:http://relaxngcc.sourceforge.net/en/index.htm
+  protected_branches:
+  - master
+  type: public
 - name: relaxngDatatype
   description: Relaxng Datatype library for Java
   upstream: https://github.com/java-schema-utilities/relaxng-datatype-java
@@ -30577,6 +30757,12 @@ repositories:
 - name: ristretto
   upstream: http://goodies.xfce.org/projects/applications/ristretto/
   description: Image-viewer for the Xfce desktop environment
+  protected_branches:
+  - master
+  type: public
+- name: rngom
+  description: Java library for parsing RELAX NG grammars
+  upstream: https://java.net/projects/rngom
   protected_branches:
   - master
   type: public
@@ -31267,6 +31453,12 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
+- name: snappy-java
+  description: Fast compressor/decompresser
+  upstream: http://xerial.org/snappy-java/
+  protected_branches:
+  - master
+  type: public
 - name: sni-qt
   description: ''
   protected_branches:
@@ -31501,6 +31693,12 @@ repositories:
   - master
   type: private
 - name: stringtemplate
+  description: A Java template engine
+  upstream: http://www.stringtemplate.org/
+  protected_branches:
+  - master
+  type: public
+- name: stringtemplate4
   description: A Java template engine
   upstream: http://www.stringtemplate.org/
   protected_branches:
@@ -32166,6 +32364,12 @@ repositories:
   protected_branches:
   - master
   - openEuler-20.03-LTS
+  type: public
+- name: tuscany-sdo-java
+  description: Service Data Objects 2.1 Java API spec
+  upstream: Url:http://tuscany.apache.org/sdo-java.html
+  protected_branches:
+  - master
   type: public
 - name: twolame
   description: ''
