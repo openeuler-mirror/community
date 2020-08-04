@@ -3,10 +3,8 @@ sigs:
   repositories:
   - openeuler/infrastructure
   - openeuler/blog
-  - openeuler/ci-bot
   - openeuler/website
   - openeuler/go-gitee
-  - openeuler/openeuler-jenkins
   - openeuler/gitbook-theme-hugo
   - openeuler/tool-collections
 - name: TC
@@ -5979,3 +5977,8 @@ sigs:
   - src-openeuler/uboot-tools
   - src-openeuler/python-dasbus
   - openeuler/oemaker
+- name: sig-Gatekeeper
+  repositories:
+  - openeuler/ci-bot
+  - openeuler/openeuler-jenkins
+  - openeuler/openeuler-obs
