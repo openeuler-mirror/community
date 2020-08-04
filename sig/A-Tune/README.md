@@ -27,6 +27,9 @@
 - licihua[@licihua](https://gitee.com/licihua)
 - shanshishi[@shanshishi](https://gitee.com/shanshishi)
 - hanxinke[@hanxinke](https://gitee.com/hanxinke)
+- songmingcong[@smcopen](https://gitee.com/smcopen)
+- jixiaotong[@xtongji](https://gitee.com/xtongji)
+- liqiang[@liqiang2020](https://gitee.com/liqiang2020)
 
 
 # 联系方式
