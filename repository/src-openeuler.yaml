@@ -34314,6 +34314,60 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: perl-Alien-Libxml2
+  upstream: https://metacpan.org/release/Alien-Libxml2
+  description: This module provides libxml2 for other modules to use.
+  protected_branches:
+  - master
+  type: public
+- name: perl-FFI-CheckLib
+  upstream: https://metacpan.org/release/FFI-CheckLib
+  description: This Perl module checks whether a particular dynamic library is available for Foreign Function Interface to use.
+  protected_branches:
+  - master
+  type: public
+- name: perl-Importer
+  upstream: https://metacpan.org/release/Impoter
+  description: This perl module act as a layer between Exporter and modules which consume exports.
+  protected_branches:
+  - master
+  type: public
+- name: perl-Object-HashBase
+  upstream: https://metacpan.org/release/Object-HashBase
+  description: This package is used to generate classes based on hash references.
+  protected_branches:
+  - master
+  type: public
+- name: perl-PkgConfig-LibPkgConf
+  upstream: https://metacpan.org/release/PkgCongig-LibPkgConf
+  description: This package provides a Perl-level API using libpkgconf to other files. 
+  protected_branches:
+  - master
+  type: public
+- name: perl-Scope-Guard
+  upstream: https://metacpan.org/release/Scope-Guard
+  description: This module provides a convenient way to perform cleanup or other forms of resource management at the end of a scope.
+  protected_branches:
+  - master
+  type: public
+- name: perl-Sub-Info
+  upstream: https://metacpan.org/release/Sub-Info
+  description: This allows to inspect Perl subroutines.
+  protected_branches:
+  - master
+  type: public
+- name: perl-Term-Table
+  upstream: https://metacpan.org/release/Term-Table
+  description: This Perl module is able to format rows of data into tables.
+  protected_branches:
+  - master
+  type: public
+- name: perl-Test2-Suite
+  upstream: https://metacpan.org/release/Test2-Suite
+  description: Rich set of tools,plugins,bundles,etc,built upon the Test2 testing library.
+  protected_branches:
+  - master
+  type: public
 - name: py3c
   upstream: https://github.com/encukou/py3c
   description: py3c helps you port C extensions to Python 3.
