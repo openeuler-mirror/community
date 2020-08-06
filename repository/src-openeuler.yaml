@@ -34440,3 +34440,51 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: java-client-kubevirt
+  description: java client kubevirt
+  upstream: https://gerrit.ovirt.org/#/admin/projects/java-client-kubevirt
+  protected_branches:
+  - master
+  type: public
+- name: ovirt-engine-extension-aaa-jdbc
+  description: This package contains the oVirt Engine Local Users Management Extension to manage users stored in PostgreSQL database.
+  upstream: https://gerrit.ovirt.org/#/admin/projects/ovirt-engine-extension-aaa-jdbc
+  protected_branches:
+  - master
+  type: public
+- name: ovirt-engine-extension-logger-log4j
+  description: This package contains the oVirt Engine Logger Log4j extensions to forward oVirt engine logs to remote syslog service.
+  upstream: https://gerrit.ovirt.org/#/admin/projects/ovirt-engine-extension-logger-log4j
+  protected_branches:
+  - master
+  type: public
+- name: ovirt-engine-extensions-api
+  description: ovirt-engine-extensions-api provides classes that define API for oVirt engine extensions
+  upstream: https://gerrit.ovirt.org/#/admin/projects/ovirt-engine-extensions-api
+  protected_branches:
+  - master
+  type: public
+- name: ovirt-imageio
+  description: Common resources used by oVirt imageio server and client
+  upstream: https://gerrit.ovirt.org/#/admin/projects/ovirt-imageio
+  protected_branches:
+  - master
+  type: public
+- name: ovirt-jboss-modules-maven-plugin
+  description: Maven Plugin used to generate and attach an artifact containing JBoss modules.
+  upstream: https://gerrit.ovirt.org/#/admin/projects/ovirt-jboss-modules-maven-plugin
+  protected_branches:
+  - master
+  type: public
+- name: safelease
+  description: Safelease is a legacy cluster lock utility used by VDSM. It is based on the algorithm presented in the article "Light-Weight Leases for Storage-Centric Coordination" by G Chockler and D Malkhi.
+  upstream: https://gerrit.ovirt.org/#/admin/projects/safelease
+  protected_branches:
+  - master
+  type: public
+- name: ovirt-engine-api-model
+  description: This is the specification of the API
+  upstream: https://gerrit.ovirt.org/#/admin/projects/ovirt-engine-api-model
+  protected_branches:
+  - master
+  type: public
