@@ -1779,6 +1779,7 @@ repositories:
   upstream: http://www.colm.net/open-source/
   protected_branches:
   - master
+  - openEuler-20.03-LTS
   type: public
 - name: color-filesystem
   description: ''
@@ -5894,6 +5895,7 @@ repositories:
   upstream: https://github.com/intel/hyperscan
   protected_branches:
   - master
+  - openEuler-20.03-LTS
   type: public
 - name: hyphen
   description: ''
@@ -9527,6 +9529,7 @@ repositories:
   upstream: https://github.com/libwbxml/libwbxml
   protected_branches:
   - master
+  - openEuler-20.03-LTS
   type: public
 - name: libwd
   description: ''
@@ -30810,6 +30813,7 @@ repositories:
   protected_branches:
   - master
   type: public
+  - openEuler-20.03-LTS
 - name: randomizedtesting
   description: Java Testing Framework
   upstream: http://labs.carrotsearch.com/randomizedtesting.html
