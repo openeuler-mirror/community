@@ -34488,3 +34488,15 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: roslisp
+  description: "roslisp package that belongs to THE ROS-COMM"
+  upstream: "https://github.com/ros/roslisp"
+  protected_branches:
+  - master
+  type: public
+- name: rospack
+  description: "rospack package that belongs to THE ROS-COMM"
+  upstream: "https://github.com/ros/rospack"
+  protected_branches:
+  - master
+  type: public

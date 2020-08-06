@@ -56,4 +56,7 @@ repository地址：
 - https://gitee.com/src-openeuler/roscpp_core
 - https://gitee.com/src-openeuler/ros
 - https://gitee.com/src-openeuler/rosconsole
+- https://gitee.com/src-openeuler/roslisp
+- https://gitee.com/src-openeuler/rospack
+
 
