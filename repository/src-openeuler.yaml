@@ -34885,6 +34885,45 @@ repositories:
 - name: rospack
   description: "rospack package that belongs to THE ROS-COMM"
   upstream: "https://github.com/ros/rospack"
+- name: origin
+  description: 'OpenShift Origin'
+  upstream: https://www.okd.io/
+  protected_branches:
+  - master
+  type: public
+- name: cri-o
+  description: 'Open Container Initiative-based implementation of Kubernetes Container Runtime Interface'
+  upstream: https://cri-o.io/
+  protected_branches:
+  - master
+  type: public
+- name: cri-tools
+  description: 'tools for cri-o'
+  upstream: https://cri-o.io/
+  protected_branches:
+  - master
+  type: public
+- name: go-rpm-macros
+  description: 'rpm automation to simplify the creation of Go language (Golang) packages'
+  upstream: https://pagure.io/go-rpm-macros/
+  protected_branches:
+  - master
+  type: public
+- name: go-srpm-macros
+  description: 'SRPM-stage rpm automation to simplify the creation of Go language (golang) packages'
+  upstream: https://pagure.io/go-rpm-macros/
+  protected_branches:
+  - master
+  type: public
+- name: goversioninfo
+  description: 'Golang Microsoft Windows File Properties/Version Info and Icon Resource Generator'
+  upstream: https://github.com/josephspurrier/goversioninfo
+  protected_branches:
+  - master
+  type: public
+- name: openshift-ansible
+  description: 'Install and config an OpenShift 3.x cluster'
+  upstream: https://github.com/openshift/openshift-ansible
   protected_branches:
   - master
   type: public
