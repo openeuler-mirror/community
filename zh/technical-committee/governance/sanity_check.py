@@ -217,12 +217,18 @@ def check_8(oe_repos, srcoe_repos, p_oe_repos, p_srcoe_repos):
                 continue
             else:
                 oe_dict.pop(f["name"])
+        else:
+            print("WARNING! deleteing openeuler/" + f["name"])
+
     for f in p_srcoe_repos:
         if f["name"] in srcoe_dict:
             if f["type"] == "private" and srcoe_dict[f["name"]]["type"] == "public":
                 continue
             else:
                 srcoe_dict.pop(f["name"])
+        else:
+            print("WARNING! deleteing src-openeuler/" + f["name"])
+
             
     for oe in oe_dict:
         o = oe_dict[oe]
