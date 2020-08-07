@@ -211,6 +211,9 @@ def check_8(oe_repos, srcoe_repos, p_oe_repos, p_srcoe_repos):
     oe_dict = {f["name"]: f for f in oe_repos}
     srcoe_dict = {f["name"]: f for f in srcoe_repos}
 
+    remove_oe = set()
+    remove_srcoe = set()
+
     for f in p_oe_repos:
         if f["name"] in oe_dict:
             if f["type"] == "private" and oe_dict[f["name"]]["type"] == "public":
@@ -218,7 +221,7 @@ def check_8(oe_repos, srcoe_repos, p_oe_repos, p_srcoe_repos):
             else:
                 oe_dict.pop(f["name"])
         else:
-            print("WARNING! deleteing openeuler/" + f["name"])
+            remove_oe.add(f["name"])
 
     for f in p_srcoe_repos:
         if f["name"] in srcoe_dict:
@@ -227,23 +230,32 @@ def check_8(oe_repos, srcoe_repos, p_oe_repos, p_srcoe_repos):
             else:
                 srcoe_dict.pop(f["name"])
         else:
-            print("WARNING! deleteing src-openeuler/" + f["name"])
+            remove_srcoe.add(f["name"])
 
             
     for oe in oe_dict:
         o = oe_dict[oe]
-        if len(o.get("description")) < 10:
-            print("WARNING! openeuler/" + o["name"] + "\'s description is too short\n")
+        if len(o.get("description", "")) < 10:
+            print("WARNING! openeuler/" + o["name"] + "\'s description is too short.")
             errors_found += 1
+        if o.get("rename_from", "") in remove_oe:
+            remove_oe.remove(o.get("rename_from"))
 
     for src in srcoe_dict:
         s = srcoe_dict[src]
         if s.get("upstream", "") == "":
-            print("WARNING! src-openeuler/" + s["name"] + " missing upstream information\n")
+            print("WARNING! src-openeuler/" + s["name"] + " missed upstream information.")
             errors_found += 1
         if len(s.get("description", "")) < 10:
-            print("WARNING! src-openeuler/" + s["name"] + "\'s description is too short\n")
+            print("WARNING! src-openeuler/" + s["name"] + "\'s description is too short.")
             errors_found += 1
+        if s.get("rename_from", "") in remove_srcoe:
+            remove_srcoe.remove(s.get("rename_from"))
+
+    for r in remove_oe:
+        print("WARNING! deleting openeuler/%s."%r)
+    for r in remove_srcoe:
+        print("WARNING! deleting src-openeuler/%s."%r)
 
     if errors_found != 0:
         print(error_msg)
@@ -263,6 +275,17 @@ def prepare_master_branch_yaml(d):
             shell=True)
     subprocess.check_output("git show master^:repository/openeuler.yaml > repository/openeuler.master.yaml",
             shell=True)
+    os.chdir(o)
+
+
+def cleanup_master_branch_yaml(d):
+    """
+    Helper for cleaning up previous openeuler.yaml and src-openeuler.yaml
+    """
+    o = os.getcwd()
+    os.chdir(d)
+    os.remove("repository/src-openeuler.master.yaml")
+    os.remove("repository/openeuler.master.yaml")
     os.chdir(o)
 
 
@@ -337,5 +360,7 @@ if __name__ == "__main__":
     print("\nCheck 8:")
     issues_found = issues_found + check_8(openeuler_repos, srcopeneuler_repos, 
             prev_openeuler_repos, prev_srcopeneuler_repos)
+
+    cleanup_master_branch_yaml(args.community)
 
     sys.exit(issues_found)
