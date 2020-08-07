@@ -34500,3 +34500,9 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-pyrsistent
+  description: Pyrsistent is a number of persistent collections(by some referred to as functional data structures).
+  upstream: https://github.com/tobgu/pyrsistent/
+  protected_branches:
+  - master
+  type: public
