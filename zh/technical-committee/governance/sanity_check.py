@@ -6,6 +6,7 @@ import yaml
 import sys
 import argparse
 import os.path
+import subprocess
 
 def check_1(sigs, exps):
     """
@@ -198,6 +199,63 @@ It must start with a letter, and its length is 2 to 200 characters"""
 
     return errors_found
 
+def check_8(oe_repos, srcoe_repos, p_oe_repos, p_srcoe_repos):
+    """
+    Newly added/exposed repositories must follow the OE requirements
+    """
+    print("Newly added/exposed repositories must follow the OE requirements")
+    errors_found = 0
+    error_msg = """Some newly added/exposed repositories doesn't follow the OE requirments"""
+
+    oe_dict = { f["name"] : f for f in oe_repos }
+    srcoe_dict = { f["name"] : f for f in srcoe_repos }
+
+    for f in p_oe_repos:
+        if f["name"] in oe_dict:
+            if f["type"] == "private" and oe_dict[f["name"]]["type"] == "public":
+                continue
+            else:
+                oe_dict.pop(f["name"])
+    for f in p_srcoe_repos:
+        if f["name"] in srcoe_dict:
+            if f["type"] == "private" and srcoe_dict[f["name"]]["type"] == "public":
+                continue
+            else:
+                srcoe_dict.pop(f["name"])
+            
+    for oe in oe_dict:
+        o = oe_dict[oe]
+        if len(o.get("description")) < 10:
+            print(o["name"] + "\'s description is too short\n")
+            errors_found += 1
+
+    for src in srcoe_dict:
+        s = srcoe_dict[src]
+        if s.get("upstream", "") == "":
+            print(s["name"] + " missing upstream information\n")
+            errors_found += 1
+        if len(s.get("description", "")) < 10:
+            print(s["name"] + "\'s description is too short\n")
+            errors_found += 1
+
+    if errors_found != 0:
+        print(error_msg)
+    else:
+        print("PASS WITHOUT ISSUES FOUND.")
+
+    return errors_found
+
+
+def prepare_master_branch_yaml(d):
+    """
+    Helper for preparing previous openeuler.yaml and src-openeuler.yaml
+    """
+    o = os.getcwd()
+    os.chdir(d)
+    subprocess.check_output("git show master^:repository/src-openeuler.yaml > repository/src-openeuler.master.yaml", shell=True)
+    subprocess.check_output("git show master^:repository/openeuler.yaml > repository/openeuler.master.yaml", shell=True)
+    os.chdir(o)
+
 
 def load_yaml(d, f):
     """
@@ -262,5 +320,13 @@ if __name__ == "__main__":
 
     print("\nCheck 7:")
     issues_found = issues_found + check_7(openeuler_repos, srcopeneuler_repos)
+
+    prepare_master_branch_yaml(args.community)
+    prev_openeuler_repos = load_yaml(args.community, "repository/openeuler.master.yaml")["repositories"]
+    prev_srcopeneuler_repos = load_yaml(args.community, "repository/src-openeuler.master.yaml")["repositories"]
+
+    print("\nCheck 8:")
+    issues_found = issues_found + check_8(openeuler_repos, srcopeneuler_repos, 
+            prev_openeuler_repos, prev_srcopeneuler_repos)
 
     sys.exit(issues_found)
