@@ -6106,3 +6106,12 @@ sigs:
   - openeuler/ci-bot
   - openeuler/openeuler-jenkins
   - openeuler/openeuler-obs
+- name: sig-OKD
+  repositories:
+  - src-openeuler/cri-o
+  - src-openeuler/cri-tools
+  - src-openeuler/go-rpm-macros
+  - src-openeuler/go-srpm-macros
+  - src-openeuler/goversioninfo
+  - src-openeuler/openshift-ansible
+  - src-openeuler/origin
