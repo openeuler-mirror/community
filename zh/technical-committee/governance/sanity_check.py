@@ -253,9 +253,9 @@ def check_8(oe_repos, srcoe_repos, p_oe_repos, p_srcoe_repos):
             remove_srcoe.remove(s.get("rename_from"))
 
     for r in remove_oe:
-        print("WARNING! deleting openeuler/%s."%r)
+        print("WARNING! deleting openeuler/%s." % r)
     for r in remove_srcoe:
-        print("WARNING! deleting src-openeuler/%s."%r)
+        print("WARNING! deleting src-openeuler/%s." % r)
 
     if errors_found != 0:
         print(error_msg)
