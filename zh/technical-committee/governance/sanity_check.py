@@ -226,16 +226,16 @@ def check_8(oe_repos, srcoe_repos, p_oe_repos, p_srcoe_repos):
     for oe in oe_dict:
         o = oe_dict[oe]
         if len(o.get("description")) < 10:
-            print(o["name"] + "\'s description is too short\n")
+            print("WARNING! openeuler/" + o["name"] + "\'s description is too short\n")
             errors_found += 1
 
     for src in srcoe_dict:
         s = srcoe_dict[src]
         if s.get("upstream", "") == "":
-            print(s["name"] + " missing upstream information\n")
+            print("WARNING! src-openeuler/" + s["name"] + " missing upstream information\n")
             errors_found += 1
         if len(s.get("description", "")) < 10:
-            print(s["name"] + "\'s description is too short\n")
+            print("WARNING! src-openeuler/" + s["name"] + "\'s description is too short\n")
             errors_found += 1
 
     if errors_found != 0:
