@@ -34885,6 +34885,9 @@ repositories:
 - name: rospack
   description: "rospack package that belongs to THE ROS-COMM"
   upstream: "https://github.com/ros/rospack"
+  protected_branches:
+  - master
+  type: public
 - name: origin
   description: 'OpenShift Origin'
   upstream: https://www.okd.io/
