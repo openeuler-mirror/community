@@ -1456,7 +1456,6 @@ sigs:
   - src-openeuler/gupnp-av
   - src-openeuler/gzip
   - src-openeuler/haveged
-  - src-openeuler/hesiod
   - src-openeuler/hiredis
   - src-openeuler/hppc
   - src-openeuler/htrace
@@ -1517,7 +1516,6 @@ sigs:
   - src-openeuler/libmaxminddb
   - src-openeuler/libmetalink
   - src-openeuler/libmnl
-  - src-openeuler/libmodman
   - src-openeuler/libmodulemd
   - src-openeuler/libmspack
   - src-openeuler/libnetfilter_cthelper
@@ -3360,6 +3358,8 @@ sigs:
   - src-openeuler/yum-langpacks
   - src-openeuler/hardlink
   - src-openeuler/langpacks
+  - src-openeuler/hesiod
+  - src-openeuler/libmodman
 - name: sig-RaspberryPi
   repositories:
   - openeuler/raspberrypi
