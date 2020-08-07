@@ -3031,6 +3031,14 @@ sigs:
   - src-openeuler/vcredist
   - src-openeuler/vdsm
   - src-openeuler/vdsm-jsonrpc-java
+  - src-openeuler/java-client-kubevirt
+  - src-openeuler/ovirt-engine-extension-aaa-jdbc
+  - src-openeuler/ovirt-engine-extension-logger-log4j
+  - src-openeuler/ovirt-engine-extensions-api
+  - src-openeuler/ovirt-imageio
+  - src-openeuler/ovirt-jboss-modules-maven-plugin
+  - src-openeuler/safelease
+  - src-openeuler/ovirt-engine-api-model
 - name: sig-REDF
   repositories:
   - openeuler/redf
@@ -3412,6 +3420,8 @@ sigs:
   - src-openeuler/roscpp_core
   - src-openeuler/ros
   - src-openeuler/rosconsole
+  - src-openeuler/roslisp
+  - src-openeuler/rospack
 - name: sig-ai-bigdata
   repositories:
   - src-openeuler/jupyter
@@ -6041,8 +6051,10 @@ sigs:
   - src-openeuler/deepin-terminal
   - src-openeuler/deepin-turbo
   - src-openeuler/dtkcore
+  - src-openeuler/dtkcore2
   - src-openeuler/dtkgui
   - src-openeuler/dtkwidget
+  - src-openeuler/dtkwidget2
   - src-openeuler/dtkwm
   - src-openeuler/deepin-icon-theme
   - src-openeuler/qt5integration
