@@ -199,6 +199,7 @@ It must start with a letter, and its length is 2 to 200 characters"""
 
     return errors_found
 
+
 def check_8(oe_repos, srcoe_repos, p_oe_repos, p_srcoe_repos):
     """
     Newly added/exposed repositories must follow the OE requirements
@@ -207,8 +208,8 @@ def check_8(oe_repos, srcoe_repos, p_oe_repos, p_srcoe_repos):
     errors_found = 0
     error_msg = """Some newly added/exposed repositories doesn't follow the OE requirments"""
 
-    oe_dict = { f["name"] : f for f in oe_repos }
-    srcoe_dict = { f["name"] : f for f in srcoe_repos }
+    oe_dict = {f["name"]: f for f in oe_repos}
+    srcoe_dict = {f["name"]: f for f in srcoe_repos}
 
     for f in p_oe_repos:
         if f["name"] in oe_dict:
@@ -252,8 +253,10 @@ def prepare_master_branch_yaml(d):
     """
     o = os.getcwd()
     os.chdir(d)
-    subprocess.check_output("git show master^:repository/src-openeuler.yaml > repository/src-openeuler.master.yaml", shell=True)
-    subprocess.check_output("git show master^:repository/openeuler.yaml > repository/openeuler.master.yaml", shell=True)
+    subprocess.check_output("git show master^:repository/src-openeuler.yaml > repository/src-openeuler.master.yaml",
+            shell=True)
+    subprocess.check_output("git show master^:repository/openeuler.yaml > repository/openeuler.master.yaml",
+            shell=True)
     os.chdir(o)
 
 
