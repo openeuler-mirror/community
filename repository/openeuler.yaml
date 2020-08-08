@@ -389,3 +389,8 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: java-packages
+  description: "Java package relevant docs, source code and isse management."
+  protected_branches:
+  - master
+  type: public

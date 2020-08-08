@@ -3442,7 +3442,6 @@ sigs:
   - src-openeuler/glpk
   - src-openeuler/libiodbc
   - src-openeuler/lzip
-  - src-openeuler/maven-local
   - src-openeuler/octave
   - src-openeuler/qrupdate
   - src-openeuler/qscintilla
@@ -6115,3 +6114,7 @@ sigs:
   - src-openeuler/goversioninfo
   - src-openeuler/openshift-ansible
   - src-openeuler/origin
+- name: sig-Java
+  repositories:
+    - openeuler/java-packages
+    - src-openeuler/maven-local

@@ -11,10 +11,12 @@ The openEuler Java SIG aims at providing Java package solution and guideline to 
 ### Scope
 - 
 
+![missions](missions.png)
+
 
 ### Repositories and description managed by this SIG
 
-- Repository of scripts and docs for Java package: https://gitee.com/openeuler/java-package
+- Repository of scripts and docs for Java package: https://gitee.com/openeuler/java-packages
 
 ## Basic Information
 
@@ -23,20 +25,22 @@ The openEuler Java SIG aims at providing Java package solution and guideline to 
 
 ### Maintainers
 - luo-haibo
+- sinever
+- it_bricklayer
+- rita_dong
 
 ### Committers
 - 
-- 
 
 ### Mailing list
-- dev@openeuler.org
+- java-sig@openeuler.org
 
 ### Slack Workspace
-- 
+- openeulerworkspace.slack.com
 
 ### Meeting
-- Time: 
-- Zoom MeetID: 
+- Time: Every Friday, 6:00 - 6:30 pm
+- Zoom MeetID: 754 813 6418
 
 ### IRC Channel
 - 
