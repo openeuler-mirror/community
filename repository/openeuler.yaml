@@ -116,6 +116,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: Java-Packages
+  description: "Java package relevant docs, source code and issue management."
+  protected_branches:
+  - master
+  type: public
 - name: kae_driver
   description: ""
   protected_branches:
@@ -386,11 +391,6 @@ repositories:
   type: public
 - name: openeuler-obs 
   description: "Open build service system for openEuler community."
-  protected_branches:
-  - master
-  type: public
-- name: java-packages
-  description: "Java package relevant docs, source code and isse management."
   protected_branches:
   - master
   type: public
