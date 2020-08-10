@@ -95,5 +95,6 @@ repository地址：
 - https://gitee.com/src-openeuler/usbutils
 - https://gitee.com/src-openeuler/lsscsi
 - https://gitee.com/src-openeuler/open-isns
+- https://gitee.com/openeuler/memory-scan
 
 
