@@ -23,8 +23,7 @@
 
 # 联系方式
 
-- [邮件列表](dev@openeuler.org)
-- [IM](#openeuler-dev)
+- 邮件列表: dev@openeuler.org
 
 # 项目清单
 
