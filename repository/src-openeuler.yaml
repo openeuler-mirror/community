@@ -34966,3 +34966,9 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-lhsmdu
+  description: 'A python package for generating latin hypercube samples with multi-dimensional uniformity'
+  protected_branches:
+  - master
+  - openEuler-20.03-LTS
+  type: public
