@@ -116,6 +116,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: Java-Packages
+  description: "Java package relevant docs, source code and issue management."
+  protected_branches:
+  - master
+  type: public
 - name: kae_driver
   description: ""
   protected_branches:

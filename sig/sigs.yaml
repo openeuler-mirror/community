@@ -2335,6 +2335,10 @@ sigs:
   - src-openeuler/lxcfs-tools
   - src-openeuler/isula-build
   - src-openeuler/libwebsockets
+- name: sig-Java
+  repositories:
+  - openeuler/Java-Packages
+  - src-openeuler/maven-local
 - name: Private
   repositories:
   - src-openeuler/wpebackend-fdo
@@ -3442,7 +3446,6 @@ sigs:
   - src-openeuler/glpk
   - src-openeuler/libiodbc
   - src-openeuler/lzip
-  - src-openeuler/maven-local
   - src-openeuler/octave
   - src-openeuler/qrupdate
   - src-openeuler/qscintilla
