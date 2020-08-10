@@ -6118,6 +6118,14 @@ sigs:
   - openeuler/openeuler-obs
 - name: sig-OKD
   repositories:
+  - src-openeuler/moosefs
+  - src-openeuler/kubevirt
+  - src-openeuler/prometheus
+  - src-openeuler/etcd
+  - src-openeuler/alertmanager
+  - src-openeuler/quay
+  - src-openeuler/pulp
+  - src-openeuler/gvisor
   - src-openeuler/cri-o
   - src-openeuler/cri-tools
   - src-openeuler/go-rpm-macros
