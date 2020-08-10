@@ -23,8 +23,7 @@
 
 # 联系方式
 
-- [邮件列表](dev@openeuler.org)
-- [IM](#openeuler-dev)
+- 邮件列表: dev@openeuler.org
 
 # 项目清单
 
@@ -95,5 +94,6 @@ repository地址：
 - https://gitee.com/src-openeuler/usbutils
 - https://gitee.com/src-openeuler/lsscsi
 - https://gitee.com/src-openeuler/open-isns
+- https://gitee.com/openeuler/memory-scan
 
 
