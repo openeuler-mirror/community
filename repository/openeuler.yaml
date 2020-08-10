@@ -394,3 +394,8 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: memory-scan
+  description: "A kernel module for scaning page table of process/VMs"
+  protected_branches:
+  - master
+  type: public
