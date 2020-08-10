@@ -34894,6 +34894,36 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: incubator-mxnet
+  description: "Apache MXNet (incubating) is a deep learning framework designed for both efficiency and flexibility."
+  upstream: https://github.com/apache/incubator-mxnet
+  protected_branches:
+  - master
+  type: public
+- name: opencv
+  description: "OpenCV means Intel® Open Source Computer Vision Library."
+  upstream: https://github.com/opencv/opencv
+  protected_branches:
+  - master
+  type: public
+- name: ibis
+  description: "Ibis is a toolbox to bridge the gap between local Python environments, remote storage, execution systems like Hadoop components (HDFS, Impala, Hive, Spark) and SQL databases. Its goal is to simplify analytical workflows and make you more productive."
+  upstream: https://github.com/ibis-project/ibis
+  protected_branches:
+  - master
+  type: public
+- name: presto
+  description: "Presto is a distributed SQL query engine for big data."
+  upstream: https://github.com/prestodb/presto
+  protected_branches:
+  - master
+  type: public
+- name: rain
+  description: "Rain is an open-source distributed computational framework for processing of large-scale task-based pipelines."
+  upstream: https://github.com/substantic/rain
+  protected_branches:
+  - master
+  type: public
 - name: origin
   description: 'OpenShift Origin'
   upstream: https://www.okd.io/
