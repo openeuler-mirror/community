@@ -38,6 +38,14 @@ OKD SIG小组致力于将 OKD 这一流行的开源云原生应用管理平台�
 - https://gitee.com/src-openeuler/goversioninfo
 - https://gitee.com/src-openeuler/openshift-ansible
 - https://gitee.com/src-openeuler/origin
+- https://gitee.com/src-openeuler/moosefs
+- https://gitee.com/src-openeuler/kubevirt
+- https://gitee.com/src-openeuler/prometheus
+- https://gitee.com/src-openeuler/etcd
+- https://gitee.com/src-openeuler/alertmanager
+- https://gitee.com/src-openeuler/quay
+- https://gitee.com/src-openeuler/pulp
+- https://gitee.com/src-openeuler/gvisor
 
 
 

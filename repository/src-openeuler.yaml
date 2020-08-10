@@ -34924,6 +34924,54 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: prometheus
+  description: 'an open-source systems monitoring and alerting toolkit'
+  upstream: https://prometheus.io/
+  protected_branches:
+  - master
+  type: public
+- name: kubevirt
+  description: 'an open source project that makes it possible to run virtual machines in a Kubernetes managed container platform'
+  upstream: https://kubevirt.io/
+  protected_branches:
+  - master
+  type: public
+- name: quay
+  description: 'A distributed and highly available container image registry'
+  upstream: https://quay.io/
+  protected_branches:
+  - master
+  type: public
+- name: pulp
+  description: 'a platform for managing repositories of software packages'
+  upstream: https://pulpproject.org/
+  protected_branches:
+  - master
+  type: public
+- name: gvisor
+  description: 'an application kernel for containers'
+  upstream: https://gvisor.dev/
+  protected_branches:
+  - master
+  type: public
+- name: moosefs
+  description: 'a Fault-tolerant, Highly available, Highly performing, Scaling-out, Network distributed file system'
+  upstream: https://moosefs.com/
+  protected_branches:
+  - master
+  type: public
+- name: etcd
+  description: 'a strongly consistent, distributed key-value store'
+  upstream: https://etcd.io/
+  protected_branches:
+  - master
+  type: public
+- name: alertmanager
+  description: 'a plugin for prometheus to handles alerts sent by client applications'
+  upstream: https://github.com/prometheus/alertmanager
+  protected_branches:
+  - master
+  type: public
 - name: origin
   description: 'OpenShift Origin'
   upstream: https://www.okd.io/
