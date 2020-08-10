@@ -16,7 +16,7 @@ The openEuler Java SIG aims at providing Java package solution and guideline to 
 
 ### Repositories and description managed by this SIG
 
-- Repository of scripts and docs for Java package: https://gitee.com/openeuler/java-packages
+- Repository of scripts and docs for Java package: https://gitee.com/openeuler/Java-Packages
 
 ## Basic Information
 
