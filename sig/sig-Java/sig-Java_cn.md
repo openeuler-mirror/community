@@ -24,7 +24,7 @@ openEuler Java SIG 致力于将 Java 生态中大量高质量开源应用、组�
 
 ### 该 SIG 管理的 repository 及描述
 
-- Java 应用打包相关脚本和文档仓库：https://gitee.com/openeuler/java-packages
+- Java 应用打包相关脚本和文档仓库：https://gitee.com/openeuler/Java-Packages
 
 ## SIG 基本信息
 

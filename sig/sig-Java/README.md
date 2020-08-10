@@ -54,7 +54,7 @@ openEuler Java SIG 致力于将 Java 生态中大量高质量开源应用、组�
 用于存放 Java SIG 打包相关文档、代码和开发过程中产生的各类 issue。
 
 repository 地址：  
-- https://gitee.com/openeuler/java-packages
+- https://gitee.com/openeuler/Java-Packages
 
 ## 软件包清单
 - https://gitee.com/src-openeuler/maven-local
