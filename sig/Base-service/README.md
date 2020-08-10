@@ -21,7 +21,7 @@
 Everyone could send patches to openEuler.
 
 # 联系方式
-- [邮件列表](dev@openeuler.org)
+- 邮件列表: <dev@openeuler.org>
 
 # 项目清单
 项目名称：
