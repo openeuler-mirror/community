@@ -145,6 +145,12 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
+- name: PackageKit-Qt
+  description: Qt support library for PackageKit
+  upstream: http://www.packagekit.org
+  protected_branches:
+    - master
+  type: public
 - name: PyPAM
   description: PAM bindings for Python
   protected_branches:
@@ -2498,6 +2504,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: disomaster
+  description: Library to manipulate DISC burning
+  upstream: https://github.com/linuxdeepin/disomaster
+  protected_branches:
+    - master
+  type: public
 - name: djvulibre
   description: ''
   protected_branches:
@@ -2966,6 +2978,18 @@ repositories:
   upstream: http://eradman.com/entrproject/
   protected_branches:
   - master
+  type: public
+- name: rfkill
+  description: A tool for enabling and disabling wireless devices
+  upstream: http://wireless.kernel.org/en/users/Documentation/rfkill
+  protected_branches:
+    - master
+  type: public
+- name: partclone
+  description: Utility to clone and restore a partition
+  upstream: http://partclone.org
+  protected_branches:
+    - master
   type: public
 - name: environment-modules
   description: ''
@@ -3922,6 +3946,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: gio-qt
+  description: This library is designed to be exception-free and avoid Qt application developer do direct access to glib/glibmm
+  upstream: https://uos-packages.deepin.com/uos/pool/main/g/gio-qt/
+  protected_branches:
+    - master
+  type: public
 - name: gjs
   description: ''
   protected_branches:
@@ -4479,6 +4509,186 @@ repositories:
   protected_branches:
   - master
   - openEuler-20.03-LTS
+  type: public
+- name: golang-github-BurntSushi-toml
+  description: TOML parser and encoder for Go with reflection
+  upstream: https://github.com/BurntSushi/toml
+  protected_branches:
+    - master
+  type: public
+- name: golang-github-alecthomas-template
+  description: Fork of go's text/template adding newline elision
+  upstream: https://github.com/alecthomas/template
+  protected_branches:
+    - master
+  type: public
+- name: golang-github-alecthomas-units
+  description: Helpful unit multipliers and functions for Go
+  upstream: https://github.com/alecthomas/units
+  protected_branches:
+    - master
+  type: public
+- name: golang-github-axgle-mahonia
+  description: This repository holds supplementary Go image libraries
+  upstream: https://uos-packages.deepin.com/uos/pool/main/g/golang-github-axgle-mahonia/
+  protected_branches:
+    - master
+  type: public
+- name: golang-github-cryptix-wav
+  description: golang wav reader and writer
+  upstream: https://github.com/cryptix/wav
+  protected_branches:
+    - master
+  type: public
+- name: golang-github-davecgh-go-spew
+  description: Deep pretty printer for Go data structures to aid in debug
+  upstream: https://github.com/stretchr/objx
+  protected_branches:
+    - master
+  type: public
+- name: golang-github-disintegration-imaging
+  description: Simple Go image processing package
+  upstream: https://github.com/disintegration/imaging
+  protected_branches:
+    - master
+  type: public
+- name: golang-github-fogleman-gg
+  description: Go Graphics - 2D rendering in Go with a simple API
+  upstream: https://github.com/fogleman/gg
+  protected_branches:
+    - master
+  type: public
+- name: golang-github-golang-freetype
+  description: The Freetype font rasterizer in the Go programming language
+  upstream: https://github.com/golang/freetype
+  protected_branches:
+    - master
+  type: public
+- name: golang-github-gosexy-gettext
+  description: This repository holds supplementary Go go-pinyin libraries
+  upstream: https://uos-packages.deepin.com/uos/pool/main/g/golang-github-gosexy-gettext/
+  protected_branches:
+    - master
+  type: public
+- name: golang-github-jessevdk-flags
+  description: Go command line option parser
+  upstream: https://github.com/jessevdk/go-flags
+  protected_branches:
+    - master
+  type: public
+- name: golang-github-kelvins-sunrisesunset
+  description: This repository holds supplementary Go go-pinyin libraries
+  upstream: https://uos-packages.deepin.com/uos/pool/main/g/golang-github-kelvins-sunrisesunset/
+  protected_branches:
+    - master
+  type: public
+- name: golang-github-linuxdeepin-go-x11-client
+  description: A X11 client Go bindings for Deepin Desktop Environment
+  upstream: https://github.com/linuxdeepin/go-x11-client
+  protected_branches:
+    - master
+  type: public
+- name: golang-github-mattn-go-sqlite3
+  description: Sqlite3 driver for go that using database/sql
+  upstream: https://github.com/mattn/go-sqlite3
+  protected_branches:
+    - master
+  type: public
+- name: golang-github-mozillazg-go-pinyin
+  description: This repository holds supplementary Go go-pinyin libraries
+  upstream: https://uos-packages.deepin.com/uos/pool/main/g/golang-github-mozillazg-go-pinyin/
+  protected_branches:
+    - master
+  type: public
+- name: golang-github-msteinert-pam
+  description: This repository holds supplementary Go go-pinyin libraries
+  upstream: https://uos-packages.deepin.com/uos/pool/main/g/golang-github-msteinert-pam/
+  protected_branches:
+    - master
+  type: public
+- name: golang-github-pmezard-go-difflib
+  description: Partial port of Python difflib package to Go
+  upstream: https://github.com/pmezard/go-difflib
+  protected_branches:
+    - master
+  type: public
+- name: golang-github-rickb777-date
+  description: This repository holds supplementary Go rickb777 libraries
+  upstream: https://uos-packages.deepin.com/uos/pool/main/g/golang-github-rickb777-date/
+  protected_branches:
+    - master
+  type: public
+- name: golang-github-rickb777-plural
+  description: This repository holds supplementary Go go-pinyin libraries
+  upstream: https://uos-packages.deepin.com/uos/pool/main/g/golang-github-rickb777-plural/
+  protected_branches:
+    - master
+  type: public
+- name: golang-github-stretchr-objx
+  description: Go package for dealing with maps, slices, JSON and other data
+  upstream: https://github.com/stretchr/objx
+  protected_branches:
+    - master
+  type: public
+- name: golang-github-teambition-rrule-go
+  description: This repository holds supplementary Go image libraries
+  upstream: https://uos-packages.deepin.com/uos/pool/main/g/golang-github-teambition-rrule-go/
+  protected_branches:
+    - master
+  type: public
+- name: golang-github-jinzhu-gorm
+  description: This repository holds supplementary Go go-pinyin libraries
+  upstream: https://uos-packages.deepin.com/uos/pool/main/g/golang-github-jinzhu-gorm/
+  protected_branches:
+    - master
+  type: public
+- name: golang-github-jinzhu-inflection
+  description: This repository holds supplementary Go inflection libraries
+  upstream: https://uos-packages.deepin.com/uos/pool/main/g/golang-github-jinzhu-inflection/
+  protected_branches:
+    - master
+  type: public
+- name: golang-golang-x-xerrors
+  description: This repository holds supplementary Go xerrors libraries
+  upstream: https://uos-packages.deepin.com/uos/pool/main/g/golang-golang-x-xerrors/
+  protected_branches:
+    - master
+  type: public
+- name: golang.org-x-image
+  description: This repository holds supplementary Go image libraries
+  upstream: https://github.com/cbrake/golang.org-x-image
+  protected_branches:
+    - master
+  type: public
+- name: golang-github-nfnt-resize
+  description: This repository holds supplementary Go rickb777 libraries
+  upstream: https://uos-packages.deepin.com/uos/pool/main/g/golang-github-nfnt-resize/
+  protected_branches:
+    - master
+  type: public
+- name: golang-github-stretchr-testify
+  description:
+  upstream:
+  protected_branches:
+    - master
+  type: public
+- name: golang-x-text
+  description: This repository holds supplementary Go text libraries
+  upstream: https://uos-packages.deepin.com/uos/pool/main/g/golang-x-text/
+  protected_branches:
+    - master
+  type: public
+- name: golang-github-alecthomas-kingpin
+  description: A Go command line and flag parser
+  upstream: https://github.com/alecthomas/kingpin
+  protected_branches:
+    - master
+  type: public
+- name: golang-github-stretchr-testify
+  description: This repository holds supplementary Go testify libraries
+  upstream: https://uos-packages.deepin.com/uos/pool/main/g/golang-testify/
+  protected_branches:
+    - master
   type: public
 - name: golang-googlecode-go-crypto
   description: Supplementary Go cryptography libraries.
@@ -7410,6 +7620,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: kscreenlocker
+  description: Library and components for secure lock screen architecture
+  upstream: https://cgit.kde.org
+  protected_branches:
+    - master
+  type: public
 - name: khmeros-fonts
   description: ''
   protected_branches:
@@ -8731,6 +8947,18 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
+- name: libmediainfo
+  description: Library for supplies technical and tag information about a video or audio file
+  upstream: http://mediaarea.net/MediaInfo
+  protected_branches:
+    - master
+  type: public
+- name: libzen
+  description: Shared library for libmediainfo and medianfo*
+  upstream: https://github.com/MediaArea/ZenLib
+  protected_branches:
+    - master
+  type: public
 - name: libmemcached
   description: ''
   protected_branches:
@@ -9721,6 +9949,12 @@ repositories:
   upstream: https://launchpad.net/lightdm-gtk-greeter
   protected_branches:
   - master
+  type: public
+- name: lightdm-gtk-greeter
+  description: LightDM GTK+ Greeter
+  upstream: https://launchpad.net/lightdm-gtk-greeter
+  protected_branches:
+    - master
   type: public
 - name: lilypond
   description: LilyPond is a music engraving program, devoted to producing the highest-quality
@@ -11899,6 +12133,12 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
+- name: jxrlib
+  description: Open source implementation of jpegxr
+  upstream: https://jxrlib.codeplex.com
+  protected_branches:
+    - master
+  type: public
 - name: openldap
   description: ''
   protected_branches:
@@ -12492,6 +12732,18 @@ repositories:
   protected_branches:
   - master
   - openEuler-20.03-LTS
+  type: public
+- name: papirus-icon-theme
+  description: Free and open source SVG icon theme based on Paper Icon Set
+  upstream: https://github.com/PapirusDevelopmentTeam/papirus-icon-theme
+  protected_branches:
+    - master
+  type: public
+- name: onboard
+  description: On-screen keyboard for TabletPC and mobility impaired users (Xorg only)
+  upstream: https://launchpad.net/onboard
+  protected_branches:
+    - master
   type: public
 - name: passivetex
   description: ''
@@ -30676,6 +30928,23 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
+- name: qt5-qtvirtualkeyboard
+  description: Qt5 - VirtualKeyboard component
+  upstream: http://www.qt.io
+  protected_branches:
+    - master
+  type: public
+- name: qt5-qtspeech
+  description: Qt5 - Speech component
+  upstream: http://www.qt.io
+  protected_branches:
+    - master
+  type: public
+- name: qt5dxcb-plugin
+  description: qt5dxcb-plugin is the Qt platform integration plugin for Deepin Desktop Environment
+  protected_branches:
+    - master
+  type: public
 - name: qt5-qtimageformats
   description: ''
   protected_branches:
@@ -32818,6 +33087,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: udisks2-qt
+  description: Qt platform theme integration plugins for DDE
+  protected_branches:
+    - master
+  type: public
 - name: uid_wrapper
   description: ''
   protected_branches:
@@ -33033,6 +33307,246 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: kf5-attica
+  description: KDE Frameworks Tier 1 Addon with Open Collaboration Services API
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-frameworkintegration
+  description: KDE Frameworks 5 Tier 4 workspace and cross-framework integration plugins
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kactivities
+  description: A KDE Frameworks 5 Tier 3 to organize user work into separate activities
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kbookmarks
+  description: KDE Frameworks 5 Tier 3 addon for bookmarks manipulation
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kcmutils
+  description: KDE Frameworks 5 Tier 3 addon with extra API to write KConfigModules
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kcompletion
+  description: KKDE Frameworks 5 Tier 2 addon with auto completion widgets and classes
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kcrash
+  description: KDE Frameworks 5 Tier 2 addon for handling application crashes
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kdbusaddons
+  description: KDE Frameworks 5 Tier 1 addon with various classes on top of QtDBus
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kdeclarative
+  description: KDE Frameworks 5 Tier 3 addon for Qt declarative
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kded
+  description: KDE Frameworks 5 Tier 3 addon with extensible daemon for system-level services
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kdelibs4support
+  description: KDE Frameworks 5 Tier 4 module with porting aid from KDELibs 4
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kdesignerplugin
+  description: KDE Frameworks 5 Tier 3 integration module for Qt Designer
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kdesu
+  description: KDE Frameworks 5 Tier 3 integration with su
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kemoticons
+  description: KDE Frameworks 5 Tier 3 module with support for emoticons and emoticons themes
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kglobalaccel
+  description: KDE Frameworks 5 Tier 3 integration module for global shortcuts
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kiconthemes
+  description: KDE Frameworks 5 Tier 3 integration module with icon themes
+  upstream: https://api.kde.org/frameworks/kiconthemes/
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kinit
+  description: KDE Frameworks 5 tier 3 solution for process launching
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kio
+  description: KDE Frameworks 5 Tier 3 solution for filesystem abstraction
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kirigami2
+  description: QtQuick plugins to build user interfaces based on the KDE UX guidelines
+  upstream: https://techbase.kde.org/Kirigami
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kitemmodels
+  description: KDE Frameworks 5 Tier 1 addon with item models
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kitemviews
+  description: KDE Frameworks 5 Tier 1 addon with item views
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kjobwidgets
+  description: KDE Frameworks 5 Tier 2 addon for KJobs
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-knewstuff
+  description: KDE Frameworks 5 Tier 3 module for downloading application assets
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-knotifications
+  description: KDE Frameworks 5 Tier 2 solution with abstraction for system notifications
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kpackage
+  description: KDE Frameworks 5 Tier 2 library to load and install packages as plugins
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kparts
+  description: KDE Frameworks 5 Tier 3 solution for KParts
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kplotting
+  description: KDE Frameworks 5 Tier 1 addon for plotting
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kpty
+  description: KDE Frameworks 5 Tier 2 module providing Pty abstraction
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kservice
+  description: KDE Frameworks 5 Tier 3 solution for advanced plugin and service introspection
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-ktextwidgets
+  description: KDE Frameworks 5 Tier 3 addon with advanced text editing widgets
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kunitconversion
+  description: KDE Frameworks 5 Tier 2 addon for unit conversions
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kwallet
+  description: KDE Frameworks 5 Tier 3 solution for password management
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kxmlgui
+  description: KDE Frameworks 5 Tier 3 solution for user-configurable main windows
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-networkmanager-qt
+  description: A Tier 1 KDE Frameworks 5 module that wraps NetworkManager DBus API
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-plasma
+  description: KDE Frameworks 5 Tier 3 framework is foundation to build a primary user interface
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-sonnet
+  description: KDE Frameworks 5 Tier 1 solution for spell checkinginterface
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-syntax-highlighting
+  description: KDE Frameworks 5 Syntax highlighting engine for Kate syntax definitions
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kdecoration
+  description: A plugin-based library to create window decorations
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kwin
+  description: KDE Window manager
+  upstream: https://userbase.kde.org/KWin
+  protected_branches:
+    - master
+  type: public
+- name: plasma-breeze
+  description: Artwork, styles and assets for the Breeze visual style for the Plasma Desktop
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
 - name: libkscreen-qt5
   description: KDE display configuration library
   upstream: http://www.kde.org
@@ -33074,6 +33588,12 @@ repositories:
   upstream: https://api.kde.org/kdesupport-api/polkit-qt-1-apidocs/
   protected_branches:
   - master
+  type: public
+- name: polkit-qt5-1
+  description: Qt bindings for PolicyKit
+  upstream: https://projects.kde.org/projects/kdesupport/polkit-qt-1
+  protected_branches:
+    - master
   type: public
 - name: qjson
   description: A qt-based library that maps JSON data to QVariant objects
@@ -33746,6 +34266,12 @@ repositories:
   protected_branches:
   - master
   - openEuler-20.03-LTS
+  type: public
+- name: xcb-util-cursor
+  description: Cursor library on top of libxcb
+  upstream: http://xcb.freedesktop.org
+  protected_branches:
+    - master
   type: public
 - name: xdelta
   description: ''
@@ -34494,6 +35020,12 @@ repositories:
   protected_branches:
   - master
   - openEuler-20.03-LTS
+  type: public
+- name: weston
+  description: 'Reference compositor for Wayland'
+  upstream: http://wayland.freedesktop.org
+  protected_branches:
+    - master
   type: public
 - name: yelp-xsl
   description: ''
