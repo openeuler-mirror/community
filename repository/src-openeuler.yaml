@@ -4666,12 +4666,6 @@ repositories:
   protected_branches:
     - master
   type: public
-- name: golang-github-stretchr-testify
-  description:
-  upstream:
-  protected_branches:
-    - master
-  type: public
 - name: golang-x-text
   description: This repository holds supplementary Go text libraries
   upstream: https://uos-packages.deepin.com/uos/pool/main/g/golang-x-text/
@@ -30942,6 +30936,7 @@ repositories:
   type: public
 - name: qt5dxcb-plugin
   description: qt5dxcb-plugin is the Qt platform integration plugin for Deepin Desktop Environment
+  upstream: https://github.com/linuxdeepin/qt5platform-plugins
   protected_branches:
     - master
   type: public
@@ -33087,11 +33082,6 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: udisks2-qt
-  description: Qt platform theme integration plugins for DDE
-  protected_branches:
-    - master
-  type: public
 - name: uid_wrapper
   description: ''
   protected_branches:
@@ -33588,12 +33578,6 @@ repositories:
   upstream: https://api.kde.org/kdesupport-api/polkit-qt-1-apidocs/
   protected_branches:
   - master
-  type: public
-- name: polkit-qt5-1
-  description: Qt bindings for PolicyKit
-  upstream: https://projects.kde.org/projects/kdesupport/polkit-qt-1
-  protected_branches:
-    - master
   type: public
 - name: qjson
   description: A qt-based library that maps JSON data to QVariant objects
