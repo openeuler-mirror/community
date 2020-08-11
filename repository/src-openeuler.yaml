@@ -33033,6 +33033,18 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: openstack-nova
+  description: OpenStack Compute (Nova)
+  upstream: https://github.com/openstack/nova
+  protected_branches: 
+  - master
+  type: public
+- name: openstack-novaclient
+  description: OpenStack Compute (Nova) Client.
+  upstream: https://github.com/openstack/python-novaclient
+  protected_branches:
+  - master
+  type: public
 - name: libkscreen-qt5
   description: KDE display configuration library
   upstream: http://www.kde.org
