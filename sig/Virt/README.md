@@ -39,28 +39,13 @@
 
 # 项目清单
 
-项目名称：
-
-- qemu
-
-repository地址：
-
-- https://gitee.com/src-openeuler/qemu
-
-
-项目名称：
-
-- libvirt
-
-repository地址：
-
-- https://gitee.com/src-openeuler/libvirt
-
-项目名称：
-
-- edk2
-
-repository地址：
-
-- https://gitee.com/src-openeuler/edk2
+- KVM + QEMU
+    - kvm
+        - repository地址：https://gitee.com/openeuler/kernel
+    - qemu
+        - repository地址：https://gitee.com/openeuler/qemu
+    - libvirt
+        - repository地址：https://gitee.com/openeuler/libvirt
+    - edk2
+        - repository地址：https://gitee.com/src-openeuler/edk2
 
