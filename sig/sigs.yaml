@@ -385,6 +385,7 @@ sigs:
   - src-openeuler/xmms
   - src-openeuler/xsane
   - src-openeuler/yelp-tools
+  - src-openeuler/weston
 - name: Programming-language
   repositories:
   - src-openeuler/assertj-core
@@ -418,6 +419,7 @@ sigs:
   - src-openeuler/python-which
   - src-openeuler/perl-Software-License
   - src-openeuler/xcb-util-keysyms
+  - src-openeuler/xcb-util-cursor
   - src-openeuler/autoconf213
   - src-openeuler/perl-Pod-Markdown
   - src-openeuler/gperf
@@ -686,6 +688,9 @@ sigs:
   - src-openeuler/qt5-qtserialbus
   - src-openeuler/valgrind
   - src-openeuler/qt5-qtgraphicaleffects
+  - src-openeuler/qt5-qtspeech
+  - src-openeuler/qt5-qtvirtualkeyboard
+  - src-openeuler/qt5dxcb-plugin
   - src-openeuler/perl-Text-Template
   - src-openeuler/perl-Mail-DKIM
   - src-openeuler/cvs
@@ -1235,6 +1240,8 @@ sigs:
   - src-openeuler/obs-service-rust2rpm
   - src-openeuler/obs-service-set_version
   - src-openeuler/passenger
+  - src-openeuler/papirus-icon-theme
+  - src-openeuler/onboard
 - name: System-tool
   repositories:
   - src-openeuler/argyllcms
@@ -1328,6 +1335,8 @@ sigs:
   - src-openeuler/scap-security-guide
   - src-openeuler/haproxy
   - src-openeuler/entr
+  - src-openeuler/rfkill
+  - src-openeuler/partclone
 - name: Packaging
   repositories:
   - src-openeuler/pakchois
@@ -1946,6 +1955,8 @@ sigs:
   repositories:
   - src-openeuler/mozjs78
   - src-openeuler/libmediaart
+  - src-openeuler/libmediainfo
+  - src-openeuler/libzen
   - src-openeuler/libgusb
   - src-openeuler/gstreamer1-plugins-base
   - src-openeuler/gstreamer1
@@ -2024,8 +2035,10 @@ sigs:
   - src-openeuler/pinentry
   - src-openeuler/pango
   - src-openeuler/PackageKit
+  - src-openeuler/PackageKit-Qt
   - src-openeuler/openjpeg2
   - src-openeuler/openjpeg
+  - src-openeuler/jxrlib
   - src-openeuler/newt
   - src-openeuler/ncurses
   - src-openeuler/mozjs60
@@ -2245,6 +2258,8 @@ sigs:
   - src-openeuler/thai-scalable-fonts
   - src-openeuler/saab-fonts
   - src-openeuler/libisal
+  - src-openeuler/disomaster
+  - src-openeuler/gio-qt
 - name: Computing
   repositories:
   - src-openeuler/jamm
@@ -3159,6 +3174,7 @@ sigs:
   - src-openeuler/jredis
   - src-openeuler/kelbt
   - src-openeuler/kf5
+  - src-openeuler/kscreenlocker
   - src-openeuler/ldapjdk
   - src-openeuler/libgpod
   - src-openeuler/libgssglue
@@ -3318,6 +3334,46 @@ sigs:
   - src-openeuler/kf5-kwidgetsaddons
   - src-openeuler/kf5-kwindowsystem
   - src-openeuler/kf5-solid
+  - src-openeuler/kf5-attica
+  - src-openeuler/kf5-frameworkintegration
+  - src-openeuler/kf5-kactivities
+  - src-openeuler/kf5-kbookmarks
+  - src-openeuler/kf5-kcmutils
+  - src-openeuler/kf5-kcompletion
+  - src-openeuler/kf5-kcrash
+  - src-openeuler/kf5-kdbusaddons
+  - src-openeuler/kf5-kdeclarative
+  - src-openeuler/kf5-kded
+  - src-openeuler/kf5-kdelibs4support
+  - src-openeuler/kf5-kdesignerplugin
+  - src-openeuler/kf5-kdesu
+  - src-openeuler/kf5-kemoticons
+  - src-openeuler/kf5-kglobalaccel
+  - src-openeuler/kf5-kiconthemes
+  - src-openeuler/kf5-kinit
+  - src-openeuler/kf5-kio
+  - src-openeuler/kf5-kirigami2
+  - src-openeuler/kf5-kitemmodels
+  - src-openeuler/kf5-kitemviews
+  - src-openeuler/kf5-kjobwidgets
+  - src-openeuler/kf5-knewstuff
+  - src-openeuler/kf5-knotifications
+  - src-openeuler/kf5-kpackage
+  - src-openeuler/kf5-kparts
+  - src-openeuler/kf5-kplotting
+  - src-openeuler/kf5-kpty
+  - src-openeuler/kf5-kservice
+  - src-openeuler/kf5-ktextwidgets
+  - src-openeuler/kf5-kunitconversion
+  - src-openeuler/kf5-kwallet
+  - src-openeuler/kf5-kxmlgui
+  - src-openeuler/kf5-networkmanager-qt
+  - src-openeuler/kf5-plasma
+  - src-openeuler/kf5-sonnet
+  - src-openeuler/kf5-syntax-highlighting
+  - src-openeuler/kdecoration
+  - src-openeuler/kwin
+  - src-openeuler/plasma-breeze
   - src-openeuler/libkscreen-qt5
   - src-openeuler/libqtxdg
   - src-openeuler/libstatgrab
@@ -5933,6 +5989,7 @@ sigs:
   - src-openeuler/libxfce4util
   - src-openeuler/lightdm
   - src-openeuler/lightdm-gtk
+  - src-openeuler/lightdm-gtk-greeter
   - src-openeuler/mousepad
   - src-openeuler/orage
   - src-openeuler/parole
@@ -6133,3 +6190,4 @@ sigs:
   - src-openeuler/goversioninfo
   - src-openeuler/openshift-ansible
   - src-openeuler/origin
+
