@@ -34629,6 +34629,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: patch-tracking
+  description: a tool for automatically tracking upstream repository code patches
+  upstream: https://gitee.com/openeuler/openEuler-Advisor
+  protected_branches:
+  - master
+  type: public
 - name: std_msgs
   description: std_msgs package that belongs to THE ROS-COMM
   upstream: https://github.com/ros/std_msgs
