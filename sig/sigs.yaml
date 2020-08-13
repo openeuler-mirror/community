@@ -895,8 +895,10 @@ sigs:
   - src-openeuler/libvirt
   - src-openeuler/edk2
   - src-openeuler/perl-Sys-Virt
+  - src-openeuler/vmtop
   - openeuler/qemu
   - openeuler/libvirt
+  - openeuler/vmtop
 - name: Kernel
   repositories:
   - openeuler/kernel

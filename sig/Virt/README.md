@@ -45,4 +45,6 @@
         - repository地址：https://gitee.com/openeuler/libvirt
     - edk2
         - repository地址：https://gitee.com/src-openeuler/edk2
+    - vmtop
+        - repository地址: https://gitee.com/src-openeuler/vmtop
 
