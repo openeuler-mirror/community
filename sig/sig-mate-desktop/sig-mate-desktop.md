@@ -44,10 +44,11 @@ Cross-domain and externally-oriented processes and actions defined and implement
 
 
 ### Maintainers
-- wuxiaotian (@isoft-linux)
-- zhangzhigao (@zhigaozhang) 
+- fengjian (@hostfj)
+- wangjing (@wangjing95) 
 
 ### Committers
+- fengjian (@hostfj)
 - wuxiaotian (@isoft-linux)
 - zhangzhigao (@zhigaozhang)
 - doucaixia (@ja_angie_dou)
