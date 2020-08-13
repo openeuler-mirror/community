@@ -34971,6 +34971,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: patch-tracking
+  description: a tool for automatically tracking upstream repository code patches
+  upstream: https://gitee.com/openeuler/openEuler-Advisor
+  protected_branches:
+  - master
+  type: public
 - name: std_msgs
   description: std_msgs package that belongs to THE ROS-COMM
   upstream: https://github.com/ros/std_msgs
@@ -35353,6 +35359,12 @@ repositories:
 - name: openshift-ansible
   description: 'Install and config an OpenShift 3.x cluster'
   upstream: https://github.com/openshift/openshift-ansible
+  protected_branches:
+  - master
+  type: public
+- name: python-lhsmdu
+  description: 'A python package for generating latin hypercube samples with multi-dimensional uniformity'
+  upstream: https://github.com/sahilm89/lhsmdu
   protected_branches:
   - master
   type: public

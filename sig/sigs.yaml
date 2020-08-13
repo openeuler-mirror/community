@@ -1675,6 +1675,7 @@ sigs:
   - src-openeuler/python-jsonschema
   - src-openeuler/python-jwt
   - src-openeuler/python-kmod
+  - src-openeuler/python-lhsmdu
   - src-openeuler/python-linux-procfs
   - src-openeuler/python-lxml
   - src-openeuler/python-mako
@@ -3533,6 +3534,7 @@ sigs:
   - src-openeuler/pkgship
   - src-openeuler/abi-compliance-checker
   - src-openeuler/abi-dumper
+  - src-openeuler/patch-tracking
 - name: sig-ceph
   repositories:
   - src-openeuler/ceph
