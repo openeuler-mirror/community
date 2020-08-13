@@ -30,11 +30,8 @@
 
 # 联系方式
 
-- [邮件列表](https://mailweb.openeuler.org/postorius/lists/virt.openeuler.org/)
+- [邮件列表](https://mailweb.openeuler.org/postorius/lists/virt.openeuler.org/): virt@openeuler.org
 - [IM](#openeuler-dev)
-
-
-
 
 
 # 项目清单
