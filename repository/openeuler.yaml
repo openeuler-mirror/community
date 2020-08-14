@@ -10,6 +10,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: wisdom-advisor
+  description: 'Wisdom-advisor is a tunning framework aimming at improving the performance of applications.'
+  protected_branches:
+  - master
+  type: public
 - name: avocado
   description: "Avocado is a set of tools and libraries to help with automated testing. One can call it a test framework with benefits"
   protected_branches:

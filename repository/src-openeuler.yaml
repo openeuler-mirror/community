@@ -6,6 +6,11 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
+- name: wisdom-advisor
+  description: 'Wisdom-advisor is a tunning framework aimming at improving the performance of applications.'
+  protected_branches:
+  - master
+  type: public
 - name: culmus-fonts
   description: Fonts for Hebrew from Culmus project
   upstream: http://culmus.sourceforge.net
