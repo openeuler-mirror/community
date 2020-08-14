@@ -47,6 +47,7 @@ https://gitee.com/openeuler/community/tree/master/sig/sig-Java/
 ### Slack 群组
 - openeulerworkspace.slack.com
 - #sig-java
+- Slack 邀请链接：https://join.slack.com/t/openeulerworkspace/shared_invite/zt-gwgkej74-O6O743~3LRM6LqPbnOPeww
 
 ### 会议
 - 时间: 每周五 下午 6:00 - 6:30

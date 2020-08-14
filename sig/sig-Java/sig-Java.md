@@ -16,7 +16,7 @@ The openEuler Java SIG aims at providing Java package solution and guideline to 
 
 ### Repositories and description managed by this SIG
 
-- Repository of scripts and docs for Java package: https://gitee.com/openeuler/Java-Packages
+- Repository of scripts, macros and docs for Java package: https://gitee.com/openeuler/Java-Packages
 
 ## Basic Information
 
@@ -37,6 +37,7 @@ The openEuler Java SIG aims at providing Java package solution and guideline to 
 
 ### Slack Workspace
 - openeulerworkspace.slack.com
+- Slack invitation link: https://join.slack.com/t/openeulerworkspace/shared_invite/zt-gwgkej74-O6O743~3LRM6LqPbnOPeww
 
 ### Meeting
 - Time: Every Friday, 6:00 - 6:30 pm
