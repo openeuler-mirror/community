@@ -35272,6 +35272,18 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: lightgbm
+  description: "A fast, distributed, high performance gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework based on decision tree algorithms."
+  upstream: https://github.com/microsoft/LightGBM
+  protected_branches:
+  - master
+  type: public
+- name: blaze
+  description: "NumPy and Pandas interface to Big Data"
+  upstream: https://github.com/blaze/blaze
+  protected_branches:
+  - master
+  type: public
 - name: prometheus
   description: 'an open-source systems monitoring and alerting toolkit'
   upstream: https://prometheus.io/
