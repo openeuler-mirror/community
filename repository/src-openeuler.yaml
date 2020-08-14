@@ -145,6 +145,12 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
+- name: PackageKit-Qt
+  description: Qt support library for PackageKit
+  upstream: http://www.packagekit.org
+  protected_branches:
+    - master
+  type: public
 - name: PyPAM
   description: PAM bindings for Python
   protected_branches:
@@ -2498,6 +2504,12 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: disomaster
+  description: Library to manipulate DISC burning
+  upstream: https://github.com/linuxdeepin/disomaster
+  protected_branches:
+    - master
+  type: public
 - name: djvulibre
   description: ''
   protected_branches:
@@ -2966,6 +2978,18 @@ repositories:
   upstream: http://eradman.com/entrproject/
   protected_branches:
   - master
+  type: public
+- name: rfkill
+  description: A tool for enabling and disabling wireless devices
+  upstream: http://wireless.kernel.org/en/users/Documentation/rfkill
+  protected_branches:
+    - master
+  type: public
+- name: partclone
+  description: Utility to clone and restore a partition
+  upstream: http://partclone.org
+  protected_branches:
+    - master
   type: public
 - name: environment-modules
   description: ''
@@ -3921,6 +3945,12 @@ repositories:
   upstream: https://github.com/MestreLion/git-tools
   protected_branches:
   - master
+  type: public
+- name: gio-qt
+  description: This library is designed to be exception-free and avoid Qt application developer do direct access to glib/glibmm
+  upstream: https://uos-packages.deepin.com/uos/pool/main/g/gio-qt/
+  protected_branches:
+    - master
   type: public
 - name: gjs
   description: ''
@@ -7410,6 +7440,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: kscreenlocker
+  description: Library and components for secure lock screen architecture
+  upstream: https://cgit.kde.org
+  protected_branches:
+    - master
+  type: public
 - name: khmeros-fonts
   description: ''
   protected_branches:
@@ -8731,6 +8767,18 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
+- name: libmediainfo
+  description: Library for supplies technical and tag information about a video or audio file
+  upstream: http://mediaarea.net/MediaInfo
+  protected_branches:
+    - master
+  type: public
+- name: libzen
+  description: Shared library for libmediainfo and medianfo*
+  upstream: https://github.com/MediaArea/ZenLib
+  protected_branches:
+    - master
+  type: public
 - name: libmemcached
   description: ''
   protected_branches:
@@ -9721,6 +9769,12 @@ repositories:
   upstream: https://launchpad.net/lightdm-gtk-greeter
   protected_branches:
   - master
+  type: public
+- name: lightdm-gtk-greeter
+  description: LightDM GTK+ Greeter
+  upstream: https://launchpad.net/lightdm-gtk-greeter
+  protected_branches:
+    - master
   type: public
 - name: lilypond
   description: LilyPond is a music engraving program, devoted to producing the highest-quality
@@ -11899,6 +11953,12 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
+- name: jxrlib
+  description: Open source implementation of jpegxr
+  upstream: https://jxrlib.codeplex.com
+  protected_branches:
+    - master
+  type: public
 - name: openldap
   description: ''
   protected_branches:
@@ -12492,6 +12552,18 @@ repositories:
   protected_branches:
   - master
   - openEuler-20.03-LTS
+  type: public
+- name: papirus-icon-theme
+  description: Free and open source SVG icon theme based on Paper Icon Set
+  upstream: https://github.com/PapirusDevelopmentTeam/papirus-icon-theme
+  protected_branches:
+    - master
+  type: public
+- name: onboard
+  description: On-screen keyboard for TabletPC and mobility impaired users (Xorg only)
+  upstream: https://launchpad.net/onboard
+  protected_branches:
+    - master
   type: public
 - name: passivetex
   description: ''
@@ -30676,6 +30748,24 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
+- name: qt5-qtvirtualkeyboard
+  description: Qt5 - VirtualKeyboard component
+  upstream: http://www.qt.io
+  protected_branches:
+    - master
+  type: public
+- name: qt5-qtspeech
+  description: Qt5 - Speech component
+  upstream: http://www.qt.io
+  protected_branches:
+    - master
+  type: public
+- name: qt5dxcb-plugin
+  description: qt5dxcb-plugin is the Qt platform integration plugin for Deepin Desktop Environment
+  upstream: https://github.com/linuxdeepin/qt5platform-plugins
+  protected_branches:
+    - master
+  type: public
 - name: qt5-qtimageformats
   description: ''
   protected_branches:
@@ -33045,6 +33135,246 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: kf5-attica
+  description: KDE Frameworks Tier 1 Addon with Open Collaboration Services API
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-frameworkintegration
+  description: KDE Frameworks 5 Tier 4 workspace and cross-framework integration plugins
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kactivities
+  description: A KDE Frameworks 5 Tier 3 to organize user work into separate activities
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kbookmarks
+  description: KDE Frameworks 5 Tier 3 addon for bookmarks manipulation
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kcmutils
+  description: KDE Frameworks 5 Tier 3 addon with extra API to write KConfigModules
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kcompletion
+  description: KKDE Frameworks 5 Tier 2 addon with auto completion widgets and classes
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kcrash
+  description: KDE Frameworks 5 Tier 2 addon for handling application crashes
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kdbusaddons
+  description: KDE Frameworks 5 Tier 1 addon with various classes on top of QtDBus
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kdeclarative
+  description: KDE Frameworks 5 Tier 3 addon for Qt declarative
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kded
+  description: KDE Frameworks 5 Tier 3 addon with extensible daemon for system-level services
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kdelibs4support
+  description: KDE Frameworks 5 Tier 4 module with porting aid from KDELibs 4
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kdesignerplugin
+  description: KDE Frameworks 5 Tier 3 integration module for Qt Designer
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kdesu
+  description: KDE Frameworks 5 Tier 3 integration with su
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kemoticons
+  description: KDE Frameworks 5 Tier 3 module with support for emoticons and emoticons themes
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kglobalaccel
+  description: KDE Frameworks 5 Tier 3 integration module for global shortcuts
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kiconthemes
+  description: KDE Frameworks 5 Tier 3 integration module with icon themes
+  upstream: https://api.kde.org/frameworks/kiconthemes/
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kinit
+  description: KDE Frameworks 5 tier 3 solution for process launching
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kio
+  description: KDE Frameworks 5 Tier 3 solution for filesystem abstraction
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kirigami2
+  description: QtQuick plugins to build user interfaces based on the KDE UX guidelines
+  upstream: https://techbase.kde.org/Kirigami
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kitemmodels
+  description: KDE Frameworks 5 Tier 1 addon with item models
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kitemviews
+  description: KDE Frameworks 5 Tier 1 addon with item views
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kjobwidgets
+  description: KDE Frameworks 5 Tier 2 addon for KJobs
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-knewstuff
+  description: KDE Frameworks 5 Tier 3 module for downloading application assets
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-knotifications
+  description: KDE Frameworks 5 Tier 2 solution with abstraction for system notifications
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kpackage
+  description: KDE Frameworks 5 Tier 2 library to load and install packages as plugins
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kparts
+  description: KDE Frameworks 5 Tier 3 solution for KParts
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kplotting
+  description: KDE Frameworks 5 Tier 1 addon for plotting
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kpty
+  description: KDE Frameworks 5 Tier 2 module providing Pty abstraction
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kservice
+  description: KDE Frameworks 5 Tier 3 solution for advanced plugin and service introspection
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-ktextwidgets
+  description: KDE Frameworks 5 Tier 3 addon with advanced text editing widgets
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kunitconversion
+  description: KDE Frameworks 5 Tier 2 addon for unit conversions
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kwallet
+  description: KDE Frameworks 5 Tier 3 solution for password management
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-kxmlgui
+  description: KDE Frameworks 5 Tier 3 solution for user-configurable main windows
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-networkmanager-qt
+  description: A Tier 1 KDE Frameworks 5 module that wraps NetworkManager DBus API
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-plasma
+  description: KDE Frameworks 5 Tier 3 framework is foundation to build a primary user interface
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-sonnet
+  description: KDE Frameworks 5 Tier 1 solution for spell checkinginterface
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kf5-syntax-highlighting
+  description: KDE Frameworks 5 Syntax highlighting engine for Kate syntax definitions
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kdecoration
+  description: A plugin-based library to create window decorations
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
+- name: kwin
+  description: KDE Window manager
+  upstream: https://userbase.kde.org/KWin
+  protected_branches:
+    - master
+  type: public
+- name: plasma-breeze
+  description: Artwork, styles and assets for the Breeze visual style for the Plasma Desktop
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
 - name: libkscreen-qt5
   description: KDE display configuration library
   upstream: http://www.kde.org
@@ -33758,6 +34088,12 @@ repositories:
   protected_branches:
   - master
   - openEuler-20.03-LTS
+  type: public
+- name: xcb-util-cursor
+  description: Cursor library on top of libxcb
+  upstream: http://xcb.freedesktop.org
+  protected_branches:
+    - master
   type: public
 - name: xdelta
   description: ''
@@ -34507,6 +34843,12 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
+- name: weston
+  description: 'Reference compositor for Wayland'
+  upstream: http://wayland.freedesktop.org
+  protected_branches:
+    - master
+  type: public
 - name: yelp-xsl
   description: ''
   protected_branches:
@@ -34637,6 +34979,12 @@ repositories:
   type: public
 - name: pkgship
   description: a package depend query tool
+  upstream: https://gitee.com/openeuler/openEuler-Advisor
+  protected_branches:
+  - master
+  type: public
+- name: patch-tracking
+  description: a tool for automatically tracking upstream repository code patches
   upstream: https://gitee.com/openeuler/openEuler-Advisor
   protected_branches:
   - master
@@ -35026,3 +35374,15 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-lhsmdu
+  description: 'A python package for generating latin hypercube samples with multi-dimensional uniformity'
+  upstream: https://github.com/sahilm89/lhsmdu
+  protected_branches:
+  - master
+  type: public
+- name: vmtop
+  description: 'A tool for collecting and analyzing data of virtual machine'
+  protected_branches:
+  upstream: https://gitee.com/openeuler/vmtop
+  - master
+  type: public 
