@@ -6146,7 +6146,11 @@ sigs:
   - src-openeuler/pistache
   - src-openeuler/libyang
   - src-openeuler/libtins
-  - src-openeuler/go-bindata  
+  - src-openeuler/go-bindata
+- name: sig-openstack
+  repositories:
+  - src-openeuler/openstack-nova
+  - src-openeuler/openstack-python-novaclient
 - name: sig-wine
   repositories:
   - src-openeuler/wine
