@@ -23,21 +23,30 @@ sigs:
   - src-openeuler/abrt-java-connector
   - src-openeuler/alsa-utils
   - src-openeuler/amanda
+  - src-openeuler/android-json-org-java
   - src-openeuler/antlr32
   - src-openeuler/antlr-maven-plugin
   - src-openeuler/apache-commons-csv
   - src-openeuler/apache-commons-validator
   - src-openeuler/apache-logging-parent
+  - src-openeuler/apache-mime4j
   - src-openeuler/apache-mod_jk
+  - src-openeuler/apache-rat
   - src-openeuler/apache-rpm-macros
+  - src-openeuler/aries-blueprint-core
+  - src-openeuler/aries-blueprint-parser
+  - src-openeuler/aries-proxy-api
   - src-openeuler/aspell
   - src-openeuler/aspell-en
+  - src-openeuler/avro
   - src-openeuler/boilerpipe
   - src-openeuler/brasero
   - src-openeuler/bwa
   - src-openeuler/cdrdao
   - src-openeuler/cjose
   - src-openeuler/cli-parser
+  - src-openeuler/codegen
+  - src-openeuler/coffee-script
   - src-openeuler/compress-lzf
   - src-openeuler/console-setup
   - src-openeuler/convmv
@@ -48,6 +57,7 @@ sigs:
   - src-openeuler/dcraw
   - src-openeuler/dleyna-server
   - src-openeuler/dlm
+  - src-openeuler/dnsjava
   - src-openeuler/dnssec-trigger
   - src-openeuler/docbook2X
   - src-openeuler/docbook5-style-xsl
@@ -65,10 +75,13 @@ sigs:
   - src-openeuler/fdupes
   - src-openeuler/felix-gogo-runtime
   - src-openeuler/felix-gogo-shell
+  - src-openeuler/felix-scr-annotations
+  - src-openeuler/felix-scr-generator
   - src-openeuler/fetchmail
   - src-openeuler/file-roller
   - src-openeuler/fio
   - src-openeuler/firefox
+  - src-openeuler/fmpp
   - src-openeuler/fontforge
   - src-openeuler/fonts-tweak-tool
   - src-openeuler/forbidden-apis
@@ -77,6 +90,7 @@ sigs:
   - src-openeuler/geronimo-parent-poms
   - src-openeuler/gfbgraph
   - src-openeuler/gl-manpages
+  - src-openeuler/gmetric4j
   - src-openeuler/gnome-calculator
   - src-openeuler/gnome-online-miners
   - src-openeuler/gnupg
@@ -263,8 +277,8 @@ sigs:
   - src-openeuler/jboss-jms-2.0-api
   - src-openeuler/jedis
   - src-openeuler/jpegoptim
-  - src-openeuler/json_simple
   - src-openeuler/jsonp
+  - src-openeuler/json_simple
   - src-openeuler/jss
   - src-openeuler/kim-api
   - src-openeuler/kohsuke-pom
@@ -300,6 +314,7 @@ sigs:
   - src-openeuler/mc
   - src-openeuler/media-player-info
   - src-openeuler/memcached
+  - src-openeuler/metadata-extractor2
   - src-openeuler/mikmod
   - src-openeuler/mina-ftpserver
   - src-openeuler/mod_intercept_form_submit
@@ -309,14 +324,14 @@ sigs:
   - src-openeuler/mythes
   - src-openeuler/nano
   - src-openeuler/netpbm
-  - src-openeuler/nss_wrapper
   - src-openeuler/nss-altfiles
   - src-openeuler/nss-mdns
+  - src-openeuler/nss_wrapper
   - src-openeuler/openal-soft
   - src-openeuler/openjade
   - src-openeuler/opennlp
-  - src-openeuler/openoffice.org-dict-cs_CZ
   - src-openeuler/openoffice-lv
+  - src-openeuler/openoffice.org-dict-cs_CZ
   - src-openeuler/opensm
   - src-openeuler/opensp
   - src-openeuler/openvpn
@@ -371,13 +386,14 @@ sigs:
   - src-openeuler/ttmkfdir
   - src-openeuler/uid_wrapper
   - src-openeuler/units
-  - src-openeuler/usb_modeswitch-data
   - src-openeuler/usbguard
+  - src-openeuler/usb_modeswitch-data
   - src-openeuler/uwsgi
   - src-openeuler/vinagre
   - src-openeuler/vorbis-tools
   - src-openeuler/wavpack
   - src-openeuler/wayland-protocols
+  - src-openeuler/weston
   - src-openeuler/wireshark
   - src-openeuler/xapps
   - src-openeuler/xmlstreambuffer
@@ -781,6 +797,7 @@ sigs:
   - src-openeuler/ipvsadm
   - src-openeuler/unbound
   - src-openeuler/ntp
+  - src-openeuler/neethi
   - src-openeuler/openssh
   - src-openeuler/NetworkManager
   - src-openeuler/libserf
@@ -1359,6 +1376,8 @@ sigs:
   - src-openeuler/unixODBC
   - src-openeuler/firebird
   - src-openeuler/mysql5
+  - src-openeuler/glassfish-legal
+  - src-openeuler/geolatte-geom
 - name: Base-service
   repositories:
   - src-openeuler/acl
@@ -1369,12 +1388,14 @@ sigs:
   - src-openeuler/ant-antunit
   - src-openeuler/apache-commons-chain
   - src-openeuler/apache-commons-el
+  - src-openeuler/apache-commons-javaflow
   - src-openeuler/apache-commons-jci
   - src-openeuler/apache-mina
   - src-openeuler/apr
   - src-openeuler/apr-util
   - src-openeuler/argon2
   - src-openeuler/aries-blueprint-annotation-api
+  - src-openeuler/aries-proxy-impl
   - src-openeuler/arm-trusted-firmware
   - src-openeuler/asciidoc
   - src-openeuler/at
@@ -1385,6 +1406,7 @@ sigs:
   - src-openeuler/autoconf
   - src-openeuler/autogen
   - src-openeuler/automake
+  - src-openeuler/axiom
   - src-openeuler/babel
   - src-openeuler/babeltrace
   - src-openeuler/basesystem
@@ -1395,13 +1417,19 @@ sigs:
   - src-openeuler/bison
   - src-openeuler/brotli
   - src-openeuler/bubblewrap
+  - src-openeuler/bval
+  - src-openeuler/byte-buddy
   - src-openeuler/bzip2
   - src-openeuler/ca-certificates
+  - src-openeuler/castor
+  - src-openeuler/cbi-plugins
   - src-openeuler/chkconfig
   - src-openeuler/chrpath
   - src-openeuler/clevis
+  - src-openeuler/closure-compiler
   - src-openeuler/cloud-init
   - src-openeuler/conntrack-tools
+  - src-openeuler/cookcc
   - src-openeuler/coreutils
   - src-openeuler/cpio
   - src-openeuler/cpp-hocon
@@ -1410,17 +1438,21 @@ sigs:
   - src-openeuler/cronie
   - src-openeuler/crontabs
   - src-openeuler/ctags
+  - src-openeuler/cxf
   - src-openeuler/CUnit
   - src-openeuler/cyrus-sasl
+  - src-openeuler/datanucleus-core
   - src-openeuler/dbus
   - src-openeuler/dbus-glib
   - src-openeuler/dbus-python
   - src-openeuler/dbxtool
   - src-openeuler/deltarpm
+  - src-openeuler/decentxml
   - src-openeuler/dialog
   - src-openeuler/diffstat
   - src-openeuler/diffutils
   - src-openeuler/ding-libs
+  - src-openeuler/disruptor
   - src-openeuler/docbook-dtds
   - src-openeuler/docbook-style-xsl
   - src-openeuler/dos2unix
@@ -1455,6 +1487,9 @@ sigs:
   - src-openeuler/ghostscript
   - src-openeuler/git
   - src-openeuler/glassfish-fastinfoset
+  - src-openeuler/glassfish-master-pom
+  - src-openeuler/glassfish-websocket-api
+  - src-openeuler/glassfish-ejb-api
   - src-openeuler/gmime30
   - src-openeuler/gnulib
   - src-openeuler/gobject-introspection
@@ -1844,6 +1879,7 @@ sigs:
   - src-openeuler/jboss-parent
   - src-openeuler/iSula-libutils
   - src-openeuler/clibcni
+  - src-openeuler/docker-client-java
   - src-openeuler/oci-systemd-hook
   - src-openeuler/runc
   - src-openeuler/virt-what
@@ -3086,10 +3122,14 @@ sigs:
   - src-openeuler/apache-commons-jexl
   - src-openeuler/apache-commons-math
   - src-openeuler/apache-commons-pool2
+  - src-openeuler/apache-poi
   - src-openeuler/apacheds-ldap-api
   - src-openeuler/apache-log4j-extras
   - src-openeuler/apache-sshd
   - src-openeuler/apiviz
+  - src-openeuler/aries-blueprint-api
+  - src-openeuler/aries-quiesce-api
+  - src-openeuler/aries-util
   - src-openeuler/atop
   - src-openeuler/auto
   - src-openeuler/automoc
@@ -3100,9 +3140,12 @@ sigs:
   - src-openeuler/bea-stax
   - src-openeuler/bpftrace
   - src-openeuler/brpc
+  - src-openeuler/bridge-method-injector
   - src-openeuler/buildroot
   - src-openeuler/caffeine
   - src-openeuler/cal10n
+  - src-openeuler/castor-maven-plugin
+  - src-openeuler/castor-maven-plugin
   - src-openeuler/catch1
   - src-openeuler/ck
   - src-openeuler/cloc
@@ -3110,10 +3153,14 @@ sigs:
   - src-openeuler/colm
   - src-openeuler/colordiff
   - src-openeuler/concurrent-trees
+  - src-openeuler/coro-mock
   - src-openeuler/cpp-httplib
   - src-openeuler/cpuid
+  - src-openeuler/cryptacular
   - src-openeuler/csmith
   - src-openeuler/ct-ng
+  - src-openeuler/curator
+  - src-openeuler/curvesapi
   - src-openeuler/dbusmenu-qt
   - src-openeuler/delve
   - src-openeuler/dleyna-connector-dbus
@@ -3138,6 +3185,7 @@ sigs:
   - src-openeuler/glassfish-dtd-parser
   - src-openeuler/glassfish-jaxb
   - src-openeuler/glassfish-jsp
+  - src-openeuler/grizzly
   - src-openeuler/hardinfo
   - src-openeuler/hello
   - src-openeuler/hping
@@ -3191,7 +3239,9 @@ sigs:
   - src-openeuler/memtester
   - src-openeuler/miniasm
   - src-openeuler/minimap2
+  - src-openeuler/mocha
   - src-openeuler/mock
+  - src-openeuler/morphia
   - src-openeuler/multitail
   - src-openeuler/mysql-connector-java
   - src-openeuler/ncdu
@@ -5130,6 +5180,7 @@ sigs:
   - src-openeuler/python-bz2file
   - src-openeuler/python-cachetools
   - src-openeuler/python-cachez
+  - src-openeuler/python-cachelib
   - src-openeuler/python-cairocffi
   - src-openeuler/python-canonicaljson
   - src-openeuler/python-capturer
