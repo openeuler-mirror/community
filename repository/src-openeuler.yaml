@@ -35674,9 +35674,9 @@ repositories:
   protected_branches:
   - master
   type: public
- - name: python-cachelib
- description: 'A collection of cache libraries in the same API interface'
- upstream: https://pypi.org/project/cachelib
- protected_branches:
- - master
- type: public
+- name: python-cachelib
+  description: 'A collection of cache libraries in the same API interface'
+  upstream: https://pypi.org/project/cachelib
+  protected_branches:
+  - master
+  type: public
