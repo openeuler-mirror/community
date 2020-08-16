@@ -35392,12 +35392,6 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: android-json-org-java
-  description: 'Androids rewrite of the evil licensed Json.org'
-  upstream: https://android.googlesource.com/platform/libcore/+/master/json
-  protected_branches:
-  - master
-  type: public
 - name: apache-commons-javaflow
   description: 'Commons Javaflow'
   upstream: http://commons.apache.org/sandbox/javaflow/
@@ -35482,12 +35476,6 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: dnsjava
-  description: 'Java DNS implementation'
-  upstream: http://www.dnsjava.org/
-  protected_branches:
-  - master
-  type: public
 - name: docker-client-java
   description: 'Docker Client'
   upstream: https://github.com/spotify/docker-client
@@ -35563,12 +35551,6 @@ repositories:
 - name: cbi-plugins
   description: 'A set of helpers for Eclipse CBI'
   upstream: https://git.eclipse.org/c/cbi/org.eclipse.cbi.git/tree/maven-plugins/README.md
-  protected_branches:
-  - master
-  type: public
-- name: closure-compiler
-  description: 'JavaScript minifier and checker'
-  upstream: https://developers.google.com/closure/compiler/
   protected_branches:
   - master
   type: public
@@ -35653,18 +35635,6 @@ repositories:
 - name: cxf
   description: 'Apache CXF'
   upstream: http://cxf.apache.org/
-  protected_branches:
-  - master
-  type: public
-- name: datanucleus-core
-  description: 'DataNucleus Core'
-  upstream: http://www.datanucleus.org/datanucleus-core
-  protected_branches:
-  - master
-  type: public
-- name: decentxml
-  description: 'XML parser optimized for round-tripping and code reuse'
-  upstream: http://code.google.com/p/decentxml
   protected_branches:
   - master
   type: public
