@@ -35368,6 +35368,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: openshift-ansible
+  description: 'Install and config an OpenShift 3.x cluster'
+  upstream: https://github.com/openshift/openshift-ansible
+  protected_branches:
+  - master
+  type: public
 - name: python-lhsmdu
   description: 'A python package for generating latin hypercube samples with multi-dimensional uniformity'
   upstream: https://github.com/sahilm89/lhsmdu
