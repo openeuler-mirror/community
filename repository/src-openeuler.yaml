@@ -1503,6 +1503,18 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
+- name: ceph-ansible
+  description: Ansible playbooks to deploy Ceph, the distributed filesystem.
+  upstream: https://github.com/ceph/ceph-ansible
+  protected_branches:
+  - master
+  type: public
+- name: ceph-deploy
+  description: Deploy Ceph with minimal infrastructure, using just SSH access
+  upstream: https://github.com/ceph/ceph-deploy
+  protected_branches:
+  - master
+  type: public
 - name: certmonger
   description: Certificate status monitor and PKI enrollment client
   upstream: http://pagure.io/certmonger/
