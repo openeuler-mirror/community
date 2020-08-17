@@ -3496,7 +3496,6 @@ sigs:
   - src-openeuler/arm-ml-examples
   - src-openeuler/armnn
   - src-openeuler/bazel
-  - src-openeuler/bazel-bin
   - src-openeuler/libmetal
   - src-openeuler/oneDNN
   - src-openeuler/pytorch
@@ -6199,4 +6198,6 @@ sigs:
   - src-openeuler/goversioninfo
   - src-openeuler/openshift-ansible
   - src-openeuler/origin
-
+- name: sig-bootstrap
+  repositories:
+  - src-openeuler/bazel-bin
