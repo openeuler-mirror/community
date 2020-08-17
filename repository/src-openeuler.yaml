@@ -35404,3 +35404,267 @@ repositories:
   protected_branches:
   - master
   type: public 
+- name: avro
+  description: 'Data serialization system'
+  upstream: http://avro.apache.org
+  protected_branches:
+  - master
+  type: public
+- name: apache-commons-javaflow
+  description: 'Commons Javaflow'
+  upstream: http://commons.apache.org/sandbox/javaflow/
+  protected_branches:
+  - master
+  type: public
+- name: apache-mime4j
+  description: 'Apache JAMES Mime4j'
+  upstream: http://james.apache.org/mime4j
+  protected_branches:
+  - master
+  type: public
+- name: apache-poi
+  description: 'The Java API for Microsoft Documents'
+  upstream: http://poi.apache.org/
+  protected_branches:
+  - master
+  type: public
+- name: apache-rat
+  description: 'Apache Release Audit Tool (RAT)'
+  upstream: http://creadur.apache.org/rat/
+  protected_branches:
+  - master
+  type: public
+- name: aries-blueprint-api
+  description: 'Apache Aries Blueprint API'
+  upstream: http://aries.apache.org/
+  protected_branches:
+  - master
+  type: public
+- name: aries-blueprint-core
+  description: 'Apache Aries Blueprint Core'
+  upstream: http://aries.apache.org/
+  protected_branches:
+  - master
+  type: public
+- name: aries-blueprint-parser
+  description: 'Apache Aries Blueprint Parser'
+  upstream: http://aries.apache.org/
+  protected_branches:
+  - master
+  type: public
+- name: aries-proxy-api
+  description: 'Apache Aries Proxy API'
+  upstream: http://aries.apache.org/
+  protected_branches:
+  - master
+  type: public
+- name: glassfish-legal
+  description: 'Legal License for glassfish code'
+  upstream: http://glassfish.java.net/
+  protected_branches:
+  - master
+  type: public
+- name: glassfish-master-pom
+  description: 'Master POM for Glassfish Maven projects'
+  upstream: http://glassfish.java.net/
+  protected_branches:
+  - master
+  type: public
+- name: glassfish-websocket-api
+  description: 'JSR 356: Java API for WebSocket'
+  upstream: https://java.net/projects/websocket-spec/
+  protected_branches:
+  - master
+  type: public
+- name: gmetric4j
+  description: 'JVM instrumentation to Ganglia'
+  upstream: https://github.com/ganglia/gmetric4j
+  protected_branches:
+  - master
+  type: public
+- name: geolatte-geom
+  description: 'A geometry model for Java that conforms to the Simple Features For SQL'
+  upstream: http://www.geolatte.org/
+  protected_branches:
+  - master
+  type: public
+- name: glassfish-ejb-api
+  description: 'Java EJB 3.2 API Design Specification'
+  upstream: https://java.net/projects/ejb-spec/
+  protected_branches:
+  - master
+  type: public
+- name: docker-client-java
+  description: 'Docker Client'
+  upstream: https://github.com/spotify/docker-client
+  protected_branches:
+  - master
+  type: public
+- name: felix-scr-annotations
+  description: 'Annotations for SCR'
+  upstream: http://felix.apache.org/
+  protected_branches:
+  - master
+  type: public
+- name: felix-scr-generator
+  description: 'Descriptor Generator Implementation'
+  upstream: http://felix.apache.org/documentation/subprojects/apache-felix-service-component-runtime.html
+  protected_branches:
+  - master
+  type: public
+- name: fmpp
+  description: 'FreeMarker-based text file PreProcessor '
+  upstream: http://fmpp.sourceforge.net
+  protected_branches:
+  - master
+  type: public
+- name: metadata-extractor2
+  description: 'Extracts EXIF, IPTC, XMP, ICC and other metadata from image files'
+  upstream: http://drewnoakes.com/code/exif/
+  protected_branches:
+  - master
+  type: public
+- name: mocha
+  description: 'A simple, flexible, fun test framework for Node.js'
+  upstream: https://github.com/mochajs/mocha
+  protected_branches:
+  - master
+  type: public
+- name: morphia
+  description: 'A type-safe Java library for MongoDB'
+  upstream: https://github.com/mongodb/morphia
+  protected_branches:
+  - master
+  type: public
+- name: neethi
+  description: 'Web Services Policy framework'
+  upstream: http://ws.apache.org/neethi/
+  protected_branches:
+  - master
+  type: public
+- name: bridge-method-injector
+  description: 'Evolve Java classes without breaking compatibility'
+  upstream: https://github.com/infradna/bridge-method-injector
+  protected_branches:
+  - master
+  type: public
+- name: grizzly
+  description: 'Java NIO Server Framework'
+  upstream: http://grizzly.java.net/
+  protected_branches:
+  - master
+  type: public
+- name: aries-proxy-impl
+  description: 'Apache Aries Proxy Service'
+  upstream: http://aries.apache.org/
+  protected_branches:
+  - master
+  type: public
+- name: aries-quiesce-api
+  description: 'Apache Aries Quiesce API'
+  upstream: http://aries.apache.org/
+  protected_branches:
+  - master
+  type: public
+- name: cbi-plugins
+  description: 'A set of helpers for Eclipse CBI'
+  upstream: https://git.eclipse.org/c/cbi/org.eclipse.cbi.git/tree/maven-plugins/README.md
+  protected_branches:
+  - master
+  type: public
+- name: aries-util
+  description: 'Apache Aries Util'
+  upstream: http://aries.apache.org/
+  protected_branches:
+  - master
+  type: public
+- name: axiom
+  description: 'Axis Object Model'
+  upstream: http://ws.apache.org/commons/axiom/
+  protected_branches:
+  - master
+  type: public
+- name: bval
+  description: 'Apache Bean Validation'
+  upstream: http://bval.apache.org/
+  protected_branches:
+  - master
+  type: public
+- name: byte-buddy
+  description: 'Runtime code generation for the Java virtual machine'
+  upstream: http://bytebuddy.net/
+  protected_branches:
+  - master
+  type: public
+- name: castor
+  description: 'An open source data binding framework for Java'
+  upstream: http://castor-data-binding.github.io/castor/
+  protected_branches:
+  - master
+  type: public
+- name: castor-maven-plugin
+  description: 'Maven plugin for Castor XMLs code generator'
+  upstream: http://www.mojohaus.org/castor-maven-plugin/
+  protected_branches:
+  - master
+  type: public
+- name: codegen
+  description: 'Java/Scala Code generation tool'
+  upstream: http://www.querydsl.com
+  protected_branches:
+  - master
+  type: public
+- name: coffee-script
+  description: 'A programming language that transcompiles to JavaScript'
+  upstream: http://coffeescript.org/
+  protected_branches:
+  - master
+  type: public
+- name: cookcc
+  description: 'Lexer and Parser Generator'
+  upstream: https://github.com/coconut2015/cookcc
+  protected_branches:
+  - master
+  type: public
+- name: coro-mock
+  description: 'A mock library for compiling JVM coroutine-using code on JVMs without coroutines'
+  upstream: https://github.com/headius/coro-mock
+  protected_branches:
+  - master
+  type: public
+- name: cryptacular
+  description: 'Java Library that complement to the Bouncy Castle crypto API'
+  upstream: http://www.cryptacular.org/
+  protected_branches:
+  - master
+  type: public
+- name: curator
+  description: 'A set of Java libraries that make using Apache ZooKeeper much easier'
+  upstream: http://curator.apache.org/
+  protected_branches:
+  - master
+  type: public
+- name: curvesapi
+  description: 'Java implementation of various mathematical curves'
+  upstream: https://github.com/virtuald/curvesapi
+  protected_branches:
+  - master
+  type: public
+- name: cxf
+  description: 'Apache CXF'
+  upstream: http://cxf.apache.org/
+  protected_branches:
+  - master
+  type: public
+- name: disruptor
+  description: 'Concurrent Programming Framework'
+  upstream: http://lmax-exchange.github.io/disruptor/
+  protected_branches:
+  - master
+  type: public
+- name: python-cachelib
+  description: 'A collection of cache libraries in the same API interface'
+  upstream: https://pypi.org/project/cachelib
+  protected_branches:
+  - master
+  type: public
