@@ -23,8 +23,7 @@
 
 #  联系方式
 
-- [邮件列表](dev@openeuler.org)
-
+- 邮件列表 <dev@openeuler.org>
 - [IRC频道](#openeuler-dev)
 - [IRC公开会议](#openeuler-meeting)
 
