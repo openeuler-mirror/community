@@ -43,18 +43,26 @@ openEuler Java SIG 致力于将 Java 生态中大量高质量开源应用、组�
 ## 联系方式
 
 - 邮件列表: java-sig@openeuler.org
-- Slack: openeulerworkspace.slack.com channel -> #sig-java
+- Slack: openeulerworkspace.slack.com
+- Slack channel: #sig-java
 - Zoom 公开会议 MeetID: 754 813 6418
+- Slack 邀请链接：https://join.slack.com/t/openeulerworkspace/shared_invite/zt-gwgkej74-O6O743~3LRM6LqPbnOPeww
 
 ## 项目清单
 
 ### JavaPackages
 
-项目描述：  
-用于存放 Java SIG 打包相关文档、代码和开发过程中产生的各类 issue。
+**项目描述：**
 
-repository 地址：  
+该仓库用于存放 openEuler 社区 Java 打包相关代码、宏、工具，以及指引文档。此外，该仓库也是目前 Java SIG 开展工作的地方。欢迎感兴趣的来这里参与 [issue][jp_issues] 讨论和提交 [PR][jp_prs]。
+
+**repository 地址：**
+
 - https://gitee.com/openeuler/Java-Packages
 
 ## 软件包清单
+
 - https://gitee.com/src-openeuler/maven-local
+
+[jp_issues]: https://gitee.com/openeuler/Java-Packages/issues
+[jp_prs]: https://gitee.com/openeuler/Java-Packages/pulls
