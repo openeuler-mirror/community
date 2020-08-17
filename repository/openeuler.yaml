@@ -352,13 +352,13 @@ repositories:
   description: "Boole JDK 8 is a high-performance, production-ready distribution of OpenJDK 8."
   protected_branches:
   - master
-  type: public
+  type: private
 - name: boolejdk-11
   rename-from: Boole-JDK-11
   description: "Boole JDK 11 is a high-performance, production-ready distribution of OpenJDK 11."
   protected_branches:
   - master
-  type: public
+  type: private
 - name: authz
   description: "An authorization plugin for iSulad."
   protected_branches:
