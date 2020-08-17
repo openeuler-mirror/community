@@ -3538,6 +3538,8 @@ sigs:
 - name: sig-ceph
   repositories:
   - src-openeuler/ceph
+  - src-openeuler/ceph-deploy
+  - src-openeuler/ceph-ansible
 - name: sig-security-facility
   repositories:
   - openeuler/attest-tools
