@@ -51,7 +51,7 @@
 
 *<如果需要单独申请邮件列表，请在此补充邮箱名称：sig-yousigname@openeuler.org。如果不需要，请写上开发邮箱名称：dev@openeuler.org>*
 
-- [邮件列表](sig-yoursigname@openeuler.org)
+- [邮件列表](dev@openeuler.org)
 - [IRC公开会议]()
 - 视频会议
 
