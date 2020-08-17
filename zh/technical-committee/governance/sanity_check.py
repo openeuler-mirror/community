@@ -271,9 +271,9 @@ def prepare_master_branch_yaml(d):
     """
     o = os.getcwd()
     os.chdir(d)
-    subprocess.check_output("git show master^:repository/src-openeuler.yaml > repository/src-openeuler.master.yaml",
+    subprocess.check_output("git show remotes/origin/master^:repository/src-openeuler.yaml > repository/src-openeuler.master.yaml",
             shell=True)
-    subprocess.check_output("git show master^:repository/openeuler.yaml > repository/openeuler.master.yaml",
+    subprocess.check_output("git show remotes/origin/master^:repository/openeuler.yaml > repository/openeuler.master.yaml",
             shell=True)
     os.chdir(o)
 
