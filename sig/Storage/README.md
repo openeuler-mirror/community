@@ -29,6 +29,7 @@
 
 repository地址：
 
+- https://gitee.com/src-openeuler/system-storage-manager
 - https://gitee.com/src-openeuler/gom
 - https://gitee.com/src-openeuler/parted
 - https://gitee.com/src-openeuler/iprutils
