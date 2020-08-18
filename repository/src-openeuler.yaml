@@ -11045,9 +11045,10 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
-- name: mozjs78
+- name: mozjs68
   description: 'SpiderMonkey JavaScript library'
-  upstream: https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpriderMonkey
+  rename_from: mozjs78
+  upstream: https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
   protected_branches:
   - master
   type: public
