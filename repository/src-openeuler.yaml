@@ -32278,6 +32278,12 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
+- name: swtpm
+  description: The SWTPM package provides TPM emulators with different front-end interfaces to libtpms
+  upstream: https://github.com/stefanberger/swtpm
+  protected_branches:
+  -master
+  type: public
 - name: symlinks
   description: ''
   protected_branches:
