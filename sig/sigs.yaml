@@ -6246,4 +6246,6 @@ sigs:
   - src-openeuler/goversioninfo
   - src-openeuler/openshift-ansible
   - src-openeuler/origin
-
+- name: sig-bootstrap
+  repositories:
+  - src-openeuler/bazel-bin
