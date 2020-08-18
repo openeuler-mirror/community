@@ -35201,6 +35201,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: libtpms
+  description: "Libtpms is a library that targets the integration of TPM functionality into hypervisors, primarily into Qemu."
+  upstream: https://github.com/stefanberger/libtpms
+  protected_branches:
+  - master
+  type: public
 - name: go-bindata
   description: "A small utility which generates Go code from any file"
   upstream: https://github.com/jteeuwen/go-bindata
