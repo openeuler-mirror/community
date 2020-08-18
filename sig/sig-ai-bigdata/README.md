@@ -23,14 +23,49 @@
 
 ### Maintainer列表
   - sinever
-  - ZZZHB
-  - njlzk
+  - hubble_zhu
   - myeuler
-  - chxssg
 
 ### Committer列表
 
 - sinever
+
+## repository地址：
+
+- https://gitee.com/src-openeuler/jupyter
+- https://gitee.com/src-openeuler/tensorflow
+- https://gitee.com/src-openeuler/hadoop
+- https://gitee.com/src-openeuler/libsvm
+- https://gitee.com/src-openeuler/libhdfs
+- https://gitee.com/src-openeuler/ComputeLibrary
+- https://gitee.com/src-openeuler/Shark
+- https://gitee.com/src-openeuler/arm-ml-examples
+- https://gitee.com/src-openeuler/armnn
+- https://gitee.com/src-openeuler/libmetal
+- https://gitee.com/src-openeuler/oneDNN
+- https://gitee.com/src-openeuler/pytorch
+- https://gitee.com/src-openeuler/SuperLUMT
+- https://gitee.com/src-openeuler/gl2ps
+- https://gitee.com/src-openeuler/glpk
+- https://gitee.com/src-openeuler/lzip
+- https://gitee.com/src-openeuler/octave
+- https://gitee.com/src-openeuler/qrupdate
+- https://gitee.com/src-openeuler/sundials
+- https://gitee.com/src-openeuler/opencl-headers
+- https://gitee.com/src-openeuler/eigen
+- https://gitee.com/src-openeuler/opencl
+- https://gitee.com/src-openeuler/libxsmm
+- https://gitee.com/src-openeuler/dlib
+- https://gitee.com/src-openeuler/opennn
+- https://gitee.com/src-openeuler/mlpack
+- https://gitee.com/src-openeuler/ensmallen
+- https://gitee.com/src-openeuler/zookeeper
+- https://gitee.com/src-openeuler/kafka
+- https://gitee.com/src-openeuler/incubator-mxnet
+- https://gitee.com/src-openeuler/opencv
+- https://gitee.com/src-openeuler/ibis
+- https://gitee.com/src-openeuler/presto
+- https://gitee.com/src-openeuler/rain
 
 ## 路线图
  ![roadmap](./sig-road-map.jpg)

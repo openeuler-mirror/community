@@ -48,10 +48,8 @@ Note: The Charter of this SIG follows the convention described in the openEuler 
 
 ## Maintainers
   - sinever
-  - ZZZHB
-  - njlzk
+  - hubble_zhu
   - myeuler
-  - chxssg
 
 ## Committers
   - sinever
