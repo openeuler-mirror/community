@@ -35687,3 +35687,1539 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: nodejs-oauth-sign
+  description: OAuth1 signing for Node.js
+  upstream: https://github.com/mikeal/oauth-sign
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-minimatch
+  description: JavaScript glob matcher
+  upstream: https://github.com/isaacs/minimatch
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-p-locate
+  description: Get the first fulfilled promise that satisfies the provided testing function
+  upstream: https://github.com/sindresorhus/p-locate
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-readable-stream
+  description: Streams3, a user-land copy of the stream library from Node.js
+  upstream: https://www.npmjs.org/package/readable-stream
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-duplexer
+  description: Creates a duplex stream
+  upstream: https://github.com/Raynos/duplexer
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-array-differ
+  description: Find values that are only present in the first input array
+  upstream: https://www.npmjs.com/package/array-differ
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-strip-json-comments
+  description: Strip comments from JSON
+  upstream: https://github.com/sindresorhus/strip-json-comments
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-samsam
+  description: Value identification and comparison functions
+  upstream: https://github.com/busterjs/samsam
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-end-of-stream
+  description: Call a callback when a readable/writable/duplex stream has completed or failed
+  upstream: https://github.com/mafintosh/end-of-stream
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-type-detect
+  description: Improved typeof detection for Node.js and the browser
+  upstream: https://github.com/chaijs/type-detect
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-es5-ext
+  description: ECMAScript 5 extensions and ES6 shims
+  upstream: https://github.com/medikoo/es5-ext.git
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-jsonpointer
+  description: Simple JSON Addressing
+  upstream: https://github.com/janl/node-jsonpointer
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-hoek
+  description: General purpose Node.js utilities
+  upstream: https://github.com/spumko/hoek
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-memoizee
+  description: Memoize/cache function results
+  upstream: https://github.com/medikoo/memoize.git
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-prelude-ls
+  description: The prelude.ls library is a functionally oriented utility
+  upstream: https://github.com/gkz/prelude-ls.git
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-object-dot-assign
+  description: An Object.assign shim
+  upstream: https://www.npmjs.com/package/object.assign
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-is-function
+  description: Is that thing a function? Use this module to find out
+  upstream: https://github.com/grncdr/js-is-function.git
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-sprintf-js
+  description: JavaScript sprintf implementation
+  upstream: https://github.com/alexei/sprintf.js.git
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-combined-stream
+  description: A stream that emits multiple other streams one after another
+  upstream: https://github.com/felixge/node-combined-stream
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-validate-npm-package-license
+  description: Validates an npm package license string
+  upstream: https://github.com/kemitchell/validate-npm-package-license.js.git
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-mime-db
+  description: This is a database of all mime types
+  upstream: https://github.com/jshttp/mime-db
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-figures
+  description: Unicode symbols with Windows CMD fallbacks
+  upstream: https://github.com/sindresorhus/figures.git
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-nomnom
+  description: Nodejs option parser with generated usage and commands
+  upstream: https://github.com/harthur/nomnom
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-core-util-is
+  description: The util.is functions introduced in Node v0.12
+  upstream: https://www.npmjs.org/package/core-util-is
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-github-url-from-git
+  description: Parse a GitHub git URL and return the GitHub repository URL
+  upstream: https://github.com/visionmedia/node-github-url-from-git
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-grunt-legacy-util
+  description: Deprecated Grunt utils provided for backwards compatibility
+  upstream: https://github.com/gruntjs/grunt-legacy-util
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-hash_file
+  description: A simple utility for getting a hash of a file
+  upstream: https://github.com/timoxley/hash_file
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-inherits1
+  description: A tiny simple way to do classic inheritance in JS - legacy version
+  upstream: https://github.com/isaacs/inherits
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-multimatch
+  description: Adds multiple patterns support to minimatch.match()
+  upstream: https://github.com/sindresorhus/multimatch
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-hawk
+  description: HTTP Hawk authentication scheme
+  upstream: https://github.com/hueniverse/hawk
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-inflight
+  description: Node.js inflight
+  upstream: https://github.com/isaacs/inflight
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-function-bind
+  description: Implementation of Function.prototype.bind
+  upstream: https://github.com/Raynos/function-bind
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-caseless
+  description: Encode and decode streams into string streams
+  upstream: https://github.com/mikeal/caseless
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-wordwrap
+  description: Word wrapping library for node
+  upstream: https://github.com/substack/node-wordwrap
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-bl
+  description: A Node.js Buffer list collector, reader and streamer
+  upstream: https://github.com/rvagg/bl
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-grunt-contrib-clean
+  description: A Grunt plugin to clean files and folders
+  upstream: https://github.com/gruntjs/grunt-contrib-clean
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-gauge
+  description: A terminal based horizontal gauge
+  upstream: https://github.com/iarna/gauge.git
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-npmlog
+  description: Logger for npm
+  upstream: https://github.com/isaacs/npmlog
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-osenv
+  description: Look up environment settings specific to different operating systems
+  upstream: https://github.com/isaacs/osenv
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-grunt-legacy-log-utils
+  description: Static methods for the Grunt 0.4.x logger
+  upstream: https://github.com/gruntjs/grunt-legacy-log-utils
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-process-nextick-args
+  description: The process.nextTick() but always with args
+  upstream: https://github.com/calvinmetcalf/process-nextick-args
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-yamlish
+  description: Parser/encoder for the yamlish format
+  upstream: https://github.com/isaacs/yamlish
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-util-deprecate
+  description: The Node.js `util.deprecate()` function with browser support
+  upstream: https://github.com/TooTallNate/util-deprecate
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-difflib
+  description: Text diff library ported from Python's difflib module
+  upstream: https://github.com/qiao/difflib.js.git
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-is-symbol
+  description: Determine if a value is an ES6 Symbol or not
+  upstream: https://github.com/ljharb/is-symbol
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-mock-fs
+  description: A configurable mock file system
+  upstream: https://www.npmjs.com/package/mock-fs
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-read-package-json
+  description: npm's package.json parser
+  upstream: https://github.com/isaacs/read-package-json
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-source-map-support
+  description: Fixes stack traces for files with source maps
+  upstream: https://github.com/evanw/node-source-map-support
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-optionator
+  description: Option parsing and help generation
+  upstream: https://github.com/gkz/optionator.git
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-isarray
+  description: Array#isArray for older browsers
+  upstream: https://github.com/juliangruber/isarray
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-deep-eql
+  description: Improved deep equality testing for Node.js and the browser
+  upstream: https://github.com/chaijs/deep-eql
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-grunt
+  description: Grunt is a JavaScript library used for automation and running tasks
+  upstream: https://github.com/gruntjs/grunt
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-request
+  description: Simplified HTTP request client
+  upstream: https://github.com/request/request
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-spdx-exceptions
+  description: A list of SPDX standard license exceptions
+  upstream: https://github.com/kemitchell/spdx-exceptions.json.git
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-asap
+  description: High-priority task queue for Node.js and browser
+  upstream: https://github.com/kriskowal/asap
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-deep-is
+  description: Node's assert.deepEqual algorithm except for NaN being equal to NaN
+  upstream: http://github.com/thlorenz/deep-is.git
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-packaging
+  description: RPM Macros and Utilities for Node.js Packaging
+  upstream: https://fedoraproject.org/wiki/Node.js/Packagers
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-grunt-contrib-nodeunit
+  description: Run Nodeunit unit tests with grunt
+  upstream: https://github.com/gruntjs/grunt-contrib-nodeunit
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-bindings
+  description: Helper module for loading your native module's .node file
+  upstream: https://github.com/TooTallNate/node-bindings
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-levn
+  description: Light ECMAScript Value Notation - human written, concise, typed
+  upstream: https://github.com/gkz/levn
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-json-parse-helpfulerror
+  description: A drop-in replacement for JSON.parse that uses `jju` to give helpful errors
+  upstream: https://github.com/smikes/json-parse-helpfulerror
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-mime-types
+  description: The ultimate javascript content-type utility
+  upstream: https://github.com/jshttp/mime-types
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-yargs
+  description: Light-weight option parsing with an argv hash
+  upstream: https://www.npmjs.org/package/yargs
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-debug
+  description: A small debugging utility for Node.js
+  upstream: https://github.com/visionmedia/debug
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-mkdirp
+  description: Recursive directory creation module for Node.js
+  upstream: https://github.com/substack/node-mkdirp
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-resumer
+  description: A stream that starts paused and resumes on the next tick
+  upstream: https://github.com/substack/resumer
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-image-size
+  description: A Node module to get dimensions of any image file
+  upstream: https://www.npmjs.com/package/image-size
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-graceful-readlink
+  description: The graceful fs.readlink functionality
+  upstream: https://github.com/zhiyelee/graceful-readlink.git
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-has
+  description: Object.prototype.hasOwnProperty.call shortcut
+  upstream: https://github.com/tarruda/has
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-es-abstract
+  description: ECMAScript spec abstract operations
+  upstream: https://github.com/ljharb/es-abstract
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-is-typedarray
+  description: Detect whether or not an object is a Typed Array
+  upstream: https://github.com/hughsk/is-typedarray
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-vows
+  description: Asynchronous behavior-driven development (BDD) and continuous integration
+  upstream: https://github.com/cloudhead/vows
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-colors
+  description: Get colors in your Node.js console
+  upstream: https://github.com/Marak/colors.js
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-d
+  description: Property descriptor factory
+  upstream: https://github.com/medikoo/d.git
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-is-regex
+  description: Is this value a JS regex?
+  upstream: https://github.com/ljharb/is-regex
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-simple-assert
+  description: Vanilla assertions for Node.js
+  upstream: https://github.com/chaijs/simple-assert
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-less-plugin-clean-css
+  description: Compresses the css output from less using clean-css
+  upstream: https://www.npmjs.com/package/less-plugin-clean-css
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-fill-keys
+  description: Fill keys in a destination that are defined on the source
+  upstream: https://github.com/bendrucker/fill-keys
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-isexe
+  description: Minimal module to check if a file is executable
+  upstream: https://github.com/isaacs/isexe
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-block-stream
+  description: A stream of blocks
+  upstream: https://github.com/isaacs/block-stream
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-nan1
+  description: Native Abstractions for Node.js
+  upstream: https://github.com/nodejs/nan
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-p-limit
+  description: Run multiple promise-returning & async functions with limited concurrency
+  upstream: https://github.com/sindresorhus/p-limit
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-has-flag
+  description: Check if argv has a specific flag
+  upstream: https://github.com/sindresorhus/has-flag.git
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-safe-buffer
+  description: Node.js module for a safer buffer API
+  upstream: https://github.com/feross/safe-buffer
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-test
+  description: (Un)CommonJS test runner
+  upstream: https://github.com/Gozala/test-commonjs
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-cli-color
+  description: Colors, formatting and other tools for the console
+  upstream: https://github.com/medikoo/cli-color.git
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-runforcover
+  description: Require plugin for JS code coverage
+  upstream: https://github.com/chrisdickinson/node-runforcover
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-css-stringify
+  description: A CSS compiler for Node.js
+  upstream: https://github.com/visionmedia/css-stringify
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-once
+  description: Run a function exactly one time
+  upstream: https://github.com/isaacs/once
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-difflet
+  description: Colorful diffs for JavaScript objects
+  upstream: https://github.com/substack/difflet
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-css-parse
+  description: A JavaScript CSS parser for Node.js and the browser
+  upstream: https://github.com/reworkcss/css-parse
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-wrappy
+  description: Callback wrapping utility
+  upstream: https://github.com/npm/wrappy
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-events-to-array
+  description: Put a bunch of emitted events in an array, for testing
+  upstream: https://github.com/isaacs/events-to-array
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-heap
+  description: Binary heap (priority queue) algorithms
+  upstream: https://github.com/qiao/heap.js.git
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-is-date-object
+  description: Is this value a JS Date object?
+  upstream: https://github.com/ljharb/is-date-object
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-eyes
+  description: A customizable value inspector for Node.js
+  upstream: https://github.com/cloudhead/eyes.js
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-spdx-license-ids
+  description: A list of SPDX license identifiers
+  upstream: https://github.com/shinnn/spdx-license-ids
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-array-index
+  description: Invoke getter/setter functions on array-like objects
+  upstream: https://github.com/TooTallNate/array-index.git
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-strip-ansi
+  description: Strip ANSI escape codes (used for colorizing strings in the terminal)
+  upstream: https://github.com/chalk/strip-ansi
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-through2
+  description: Node streams2 Transform wrapper to avoid explicit subclassing noise
+  upstream: https://github.com/rvagg/through2
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-window-size
+  description: Get the height and width of the terminal in a node.js environment
+  upstream: https://www.npmjs.org/package/window-size
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-jsonify
+  description: JSON without touching any globals
+  upstream: https://github.com/substack/jsonify
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-ejs
+  description: Embedded JavaScript templates for Node.js
+  upstream: https://github.com/visionmedia/ejs
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-pkg-up
+  description: Find the closest package.json file
+  upstream: https://github.com/sindresorhus/pkg-up.git
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-es6-weak-map
+  description: ECMAScript6 WeakMap polyfill
+  upstream: https://github.com/medikoo/es6-weak-map.git
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-should-format
+  description: Formatting of objects for should.js
+  upstream: https://github.com/shouldjs/format
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-json-stringify-safe
+  description: JSON.stringify that handles circular references
+  upstream: https://github.com/isaacs/json-stringify-safe
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-growl
+  description: Growl unobtrusive notifications for Node.js
+  upstream: https://github.com/visionmedia/node-growl
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-is-object
+  description: Checks whether a value is an object
+  upstream: https://github.com/ljharb/is-object
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-cryptiles
+  description: General purpose cryptography utilities for Node.js
+  upstream: https://github.com/hueniverse/cryptiles
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-delayed-stream
+  description: Buffers events from a stream until you are ready to handle them
+  upstream: https://github.com/felixge/node-delayed-stream
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-caller-callsite
+  description: Get the callsite of the caller function
+  upstream: https://github.com/sindresorhus/caller-callsite
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-stringstream
+  description: Encode and decode streams into string streams
+  upstream: https://github.com/mhart/StringStream
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-async
+  description: Higher-order functions and common patterns for asynchronous code
+  upstream: https://github.com/caolan/async/
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-resolve-from
+  description: Resolve the path of a module like require.resolve() but from a given path
+  upstream: https://github.com/sindresorhus/resolve-from
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-buffer-equal
+  description: Returns whether two buffers are equal
+  upstream: https://github.com/substack/node-buffer-equal
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-find-up
+  description: Find a file by walking up parent directories
+  upstream: https://github.com/sindresorhus/find-up
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-less
+  description: Less.js The dynamic stylesheet language
+  upstream: http://lesscss.org
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-is-builtin-module
+  description: Check if a string matches the name of a Node.js builtin module
+  upstream: https://github.com/sindresorhus/is-builtin-module
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-proxyquire
+  description: Proxies Node.js require to allow overriding dependencies
+  upstream: https://github.com/thlorenz/proxyquire
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-optimist
+  description: Light-weight option parsing for Node.js
+  upstream: https://github.com/substack/node-optimist
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-chai
+  description: BDD/TDD assertion library for Node.js and the browser
+  upstream: http://chaijs.com
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-defence
+  description: Extract fenced code from CommonMark documents
+  upstream: https://github.com/kemitchell/defence.js.git
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-fileset
+  description: A wrapper around glob and minimatch for Node.js
+  upstream: https://github.com/mklabs/node-fileset
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-ms
+  description: Tiny milliseconds conversion utility for Node.js
+  upstream: https://www.npmjs.com/package/ms
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-string
+  description: Enhancements to the vanilla JavasScript string
+  upstream: https://www.npmjs.org/package/string
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-clone
+  description: Deep cloning of objects and arrays
+  upstream: https://github.com/pvorb/node-clone
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-arrify
+  description: Convert a value to an array
+  upstream: https://www.npmjs.com/package/arrify
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-builtin-modules
+  description: List of the Node.js builtin modules
+  upstream: https://github.com/sindresorhus/builtin-modules.git
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-handlebars
+  description: Mustache extension for Node.js
+  upstream: http://handlebarsjs.com/
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-abbrev
+  description: Abbreviation calculator for Node.js
+  upstream: https://github.com/isaacs/abbrev-js
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-boom
+  description: HTTP friendly error objects
+  upstream: https://github.com/spumko/boom
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-promises-aplus-tests
+  description: Compliance test suite for Promises/A+
+  upstream: https://github.com/promises-aplus/promises-tests.git
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-is
+  description: The definitive JavaScript type testing library
+  upstream: https://github.com/enricomarino/is
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-resolve
+  description: Resolve like require.resolve() on behalf of files asynchronously/synchronously
+  upstream: https://github.com/substack/node-resolve
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-ansi-styles
+  description: ANSI escape codes for colorizing strings in the terminal
+  upstream: https://github.com/sindresorhus/ansi-styles
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-nopt
+  description: Node.js option parsing
+  upstream: https://github.com/isaacs/nopt
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-hosted-git-info
+  description: Provides metadata and conversions from repository urls for Github, Bitbucket and Gitlab
+  upstream: https://github.com/npm/hosted-git-info
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-escape-string-regexp
+  description: Escape RegExp special characters
+  upstream: https://github.com/sindresorhus/escape-string-regexp
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-interpret
+  description: A dictionary of file extensions and associated module loaders
+  upstream: https://github.com/tkellen/node-interpret.git
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-should-type
+  description: Simple module to get instance type
+  upstream: https://github.com/shouldjs/type
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-from
+  description: Easy way to make a Readable Stream
+  upstream: http://github.com/dominictarr/from
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-esprima
+  description: ECMAScript parsing infrastructure for multipurpose analysis
+  upstream: https://github.com/jquery/esprima
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-util
+  description: Node.JS util module
+  upstream: https://github.com/defunctzombie/node-util
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-semver
+  description: Semantic versioner for npm
+  upstream: https://www.npmjs.com/package/semver
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-are-we-there-yet
+  description: Keep track of the overall completion of many disparate processes
+  upstream: https://github.com/iarna/are-we-there-yet.git
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-has-unicode
+  description: Try to guess if your terminal supports unicode 
+  upstream: https://github.com/iarna/has-unicode
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-asn1
+  description: Contains parsers and serializers for ASN.1 (currently BER only)
+  upstream: https://github.com/mcavage/node-asn1
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-os-tmpdir
+  description: Node.js os.tmpdir() ponyfill
+  upstream: https://github.com/sindresorhus/os-tmpdir
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-pretty-bytes
+  description: Convert bytes to a human readable string
+  upstream: https://github.com/sindresorhus/pretty-bytes
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-grunt-legacy-log
+  description: The Grunt 0.4.x logger
+  upstream: https://github.com/gruntjs/grunt-legacy-log
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-callsite
+  description: Provides access to V8's "raw" CallSites from Node.js
+  upstream: https://github.com/visionmedia/callsite
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-concat-map
+  description: Concatenative mapdashery
+  upstream: https://github.com/substack/node-concat-map.git
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-normalize-package-data
+  description: Normalizes npm/package.json metadata
+  upstream: https://github.com/meryn/normalize-package-data
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-grunt-cli
+  description: Command-line interface for Grunt, the JavaScript testing framework
+  upstream: https://github.com/gruntjs/grunt-cli
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-ansi
+  description: ANSI escape codes for Node.js
+  upstream: https://github.com/TooTallNate/ansi.js
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-module-not-found-error
+  description: Create a module not found error
+  upstream: https://github.com/bendrucker/module-not-found-error
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-charm
+  description: ANSI control sequences for terminal cursor hopping and colors
+  upstream: https://github.com/substack/node-charm
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-object-inspect
+  description: String representations of objects in node and the browser
+  upstream: https://github.com/substack/object-inspect
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-xtend
+  description: Extend like a boss
+  upstream: https://github.com/Raynos/xtend
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-defined
+  description: Return the first argument that is '!== undefined'
+  upstream: https://github.com/substack/defined
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-bluebird
+  description: Full featured Promises/A+ implementation
+  upstream: https://www.npmjs.org/package/bluebird
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-better-assert
+  description: C-style assert() for Node.js
+  upstream: https://github.com/visionmedia/better-assert
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-grunt-contrib-internal
+  description: Internal tasks for managing the grunt-contrib project
+  upstream: https://github.com/gruntjs/grunt-contrib-internal
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-slide
+  description: A flow control library that fits in a slideshow
+  upstream: https://github.com/isaacs/slide-flow-control
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-flot
+  description: Javascript plotting library for jQuery
+  upstream: http://www.flotcharts.org/
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-getobject
+  description: Get and set deep objects easily
+  upstream: https://github.com/cowboy/node-getobject
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-through
+  description: Simplified stream construction for Node.js
+  upstream: https://github.com/dominictarr/through
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-form-data
+  description: A module to create readable "multipart/form-data" streams
+  upstream: https://github.com/form-data/form-data
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-noptify
+  description: A wrapper for the nopt module with a commander-like API
+  upstream: https://github.com/mklabs/noptify
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-package
+  description: Provides an easy way to export package.json data
+  upstream: https://github.com/vesln/package
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-graceful-fs
+  description: A drop-in replacement for fs, making various improvements
+  upstream: https://github.com/isaacs/node-graceful-fs
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-es6-symbol
+  description: ECMAScript 6 Symbol polyfill
+  upstream: https://github.com/medikoo/es6-symbol.git
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-nan0
+  description: Native Abstractions for Node.js
+  upstream: http://github.com/rvagg/nan
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-path-exists
+  description: Promisify a callback-style function
+  upstream: https://github.com/sindresorhus/path-exists
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-has-symbols
+  description: Determine if the JS environment has Symbol support
+  upstream: https://www.npmjs.com/package/has-symbols
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-inherits
+  description: A tiny simple way to do classic inheritance in js
+  upstream: https://github.com/isaacs/inherits
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-nan
+  description: Native Abstractions for Node.js 
+  upstream: https://github.com/nodejs/nan
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-pinkie
+  description: Itty bitty little widdle twinkie pinkie ES6 Promise implementation
+  upstream: https://github.com/floatdrop/pinkie
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-css
+  description: A CSS parser/stringifier for Node.js using css-parse and css-stringify
+  upstream: https://github.com/visionmedia/css
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-faye-websocket
+  description: A standards-compliant WebSocket server and client for Node.js
+  upstream: http://github.com/faye/faye-websocket-node
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-delegates
+  description: Delegate methods and accessors to another property
+  upstream: https://github.com/visionmedia/node-delegates.git
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-formatio
+  description: Human-readable object formatting
+  upstream: https://github.com/busterjs/formatio
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-path-is-absolute
+  description: Node.js 0.12 path.isAbsolute() ponyfill
+  upstream: https://github.com/sindresorhus/path-is-absolute
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-deep-equal
+  description: Node's assert.deepEqual algorithm
+  upstream: https://github.com/substack/node-deep-equal
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-es-to-primitive
+  description: ECMAScript “ToPrimitive” algorithm
+  upstream: https://github.com/ljharb/es-to-primitive
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-temporary
+  description: An easy way to create temporary files and directories
+  upstream: https://github.com/vesln/temporary
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-merge-descriptors
+  description: A Node.js module to merge objects using descriptors
+  upstream: https://github.com/component/merge-descriptors
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-should-equal
+  description: Deep comparison of two instances for should.js
+  upstream: https://github.com/shouldjs/equal
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-lru-queue
+  description: LRU Queue for nodejs
+  upstream: https://github.com/medikoo/lru-queue.git
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-constantinople
+  description: Determine whether a JavaScript expression evaluates to a constant
+  upstream: https://github.com/ForbesLindesay/constantinople
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-timers-ext
+  description: Timers extensions
+  upstream: https://github.com/medikoo/timers-ext.git
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-es6-iterator
+  description: Iterator abstraction based on ES6 specification
+  upstream: https://github.com/medikoo/es6-iterator.git
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-set-immediate-shim
+  description: Simple setImmediate shim
+  upstream: https://github.com/sindresorhus/set-immediate-shim
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-tough-cookie
+  description: RFC6265 Cookies and Cookie Jar for Node.js
+  upstream: https://www.npmjs.com/package/tough-cookie
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-path-array
+  description: Treat your $PATH like a JavaScript Array
+  upstream: https://github.com/TooTallNate/node-path-array.git
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-event-emitter
+  description: Environment agnostic event emitter
+  upstream: https://github.com/medikoo/event-emitter.git
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-cjson
+  description: Commented JavaScript Object Notation
+  upstream: https://github.com/kof/node-cjson.git
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-tape
+  description: Tap-producing test harness for Node.js and browsers
+  upstream: https://github.com/substack/tape
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-object-is
+  description: ES6-compliant shim for Object.is
+  upstream: https://github.com/ljharb/object-is
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-isstream
+  description: Determine if an object is a Stream
+  upstream: https://github.com/rvagg/isstream
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-concat-stream
+  description: Writable stream that concatenates data and calls a callback with the result
+  upstream: https://github.com/maxogden/concat-stream
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-forever-agent
+  description: HTTP Agent that keeps socket connections alive between keep-alive requests
+  upstream: https://github.com/mikeal/forever-agent
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-string_decoder
+  description: The string_decoder module from Node core
+  upstream: https://www.npmjs.org/package/string_decoder
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-define-properties
+  description: Define multiple non-enumerable properties at once
+  upstream: https://github.com/ljharb/define-properties
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-chalk
+  description: Terminal string styling done right
+  upstream: https://github.com/chalk/chalk
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-closure-compiler
+  description: Bindings to Google's Closure Compiler for Node.js
+  upstream: https://github.com/tim-smart/node-closure
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-is-my-json-valid
+  description: A JSONSchema validator that uses code generation to be extremely fast
+  upstream: https://github.com/mafintosh/is-my-json-valid
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-assertion-error
+  description: Error constructor for test and validation frameworks
+  upstream: https://github.com/chaijs/assertion-error
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-generate-object-property
+  description: Generate safe JS code that can used to reference a object property
+  upstream: https://github.com/mafintosh/generate-object-property
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-object-assign
+  description: ES6 Object.assign() ponyfill
+  upstream: https://github.com/sindresorhus/object-assign
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-os-homedir
+  description: An io.js 2.3.0 os.homedir() ponyfill
+  upstream: https://github.com/sindresorhus/os-homedir
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-bunker
+  description: Code coverage in native JavaScript
+  upstream: https://github.com/substack/node-bunker
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-burrito
+  description: Wrap up expressions with a trace function while walking the AST
+  upstream: https://github.com/substack/node-burrito
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-minimist
+  description: Parse argument options in Node.js
+  upstream: https://github.com/substack/minimist
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-rimraf
+  description: A deep deletion module for node.js
+  upstream: https://github.com/isaacs/rimraf
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-tar
+  description: Tar for Node.js
+  upstream: https://github.com/isaacs/node-tar
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-traverse
+  description: Traverse and transform objects
+  upstream: https://github.com/substack/js-traverse
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-lolex
+  description: Fake JavaScript timers
+  upstream: https://github.com/sinonjs/lolex
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-node-uuid
+  description: Simple and fast generation of RFC4122 (v1 and v4) UUIDs for Node.js
+  upstream: https://github.com/broofa/node-uuid
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-locate-path
+  description: Get the first path that exists on disk of multiple paths
+  upstream: https://github.com/sindresorhus/locate-path
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-grunt-known-options
+  description: The known options used in Grunt
+  upstream: https://www.npmjs.com/package/grunt-known-options
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-tiny-lr-fork
+  description: A tiny LiveReload server implementation you can spawn in the background
+  upstream: https://github.com/shama/tiny-lr
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-next-tick
+  description: Environment agnostic nextTick polyfill
+  upstream: https://github.com/medikoo/next-tick.git
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-hashish
+  description: Hash data structure manipulation functions
+  upstream: http://github.com/substack/node-hashish
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-sntp
+  description: SNTP v4 client (RFC4330) for Node.js
+  upstream: https://github.com/hueniverse/sntp
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-hooker
+  description: Monkey-patch (hook) functions for debugging
+  upstream: https://github.com/cowboy/javascript-hooker
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-assert-plus
+  description: Extra assertions on top of node's assert module
+  upstream: https://github.com/mcavage/node-assert-plus
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-mime
+  description: A comprehensive library for mime-type mapping
+  upstream: https://github.com/broofa/node-mime
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-iconv
+  description: Text recoding in JavaScript for fun and profit
+  upstream: https://github.com/bnoordhuis/node-iconv
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-replace-require-self
+  description: Require($THIS_PACKAGE) -> require('./')
+  upstream: https://github.com/kemitchell/replace-require-self.js.git
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-pinkie-promise
+  description: Promise ponyfill with pinkie
+  upstream: https://github.com/floatdrop/pinkie-promise
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-is-callable
+  description: Is this JS value callable?
+  upstream: https://github.com/ljharb/is-callable
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-foreach
+  description: Iterate over the key value pairs of an object
+  upstream: https://github.com/manuelstofer/foreach
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-maxmin
+  description: Get pretty output of the original, minified gzipped size of a string/buffer
+  upstream: https://github.com/sindresorhus/maxmin
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-object-keys
+  description: An Object.keys replacement, in case Object.keys is not available
+  upstream: https://github.com/ljharb/object-keys
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-paperboy
+  description: A node.js module for delivering static files
+  upstream: https://github.com/felixge/node-paperboy
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-source-map
+  description: Node.js library that generates and consumes source maps
+  upstream: https://github.com/mozilla/source-map
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-for-each
+  description: A better forEach
+  upstream: https://github.com/Raynos/for-each
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-underscore-dot-string
+  description: String manipulation extensions for the Underscore.js JavaScript library
+  upstream: https://github.com/esamattis/underscore.string
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-globule
+  description: An easy-to-use wildcard globbing library for Node.js
+  upstream: https://github.com/cowboy/node-globule
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-spdx-expression-parse
+  description: Parse SPDX license expressions
+  upstream: https://github.com/kemitchell/spdx-expression-parse.js.git
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-qs
+  description: Query string parser for Node.js
+  upstream: https://github.com/ljharb/qs
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-sinon
+  description: Test spies, stubs and mocks for JavaScript
+  upstream: https://github.com/cjohansen/Sinon.JS
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-aws-sign2
+  description: Node.js module for AWS signing
+  upstream: https://github.com/request/aws-sign
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-grunt-contrib-uglify
+  description: Minify files with UglifyJS
+  upstream: https://github.com/gruntjs/grunt-contrib-uglify
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-clean-css
+  description: A well-tested CSS minifier
+  upstream: https://www.npmjs.org/package/clean-css
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-require-inject
+  description: A simple mock injector needing no instrumentation in the libraries being tested
+  upstream: https://github.com/iarna/require-inject
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-load-grunt-tasks
+  description: Load multiple grunt tasks using globbing patterns
+  upstream: https://github.com/sindresorhus/load-grunt-tasks
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-exit
+  description: A process.exit alternative that ensures STDIO are fully drained before exiting
+  upstream: https://github.com/cowboy/node-exit
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-string-dot-prototype-dot-trim
+  description: ES5 spec-compliant shim for String.prototype.trim
+  upstream: https://github.com/es-shims/String.prototype.trim
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-gzip-size
+  description: Get the gzipped size of a string or buffer
+  upstream: https://github.com/sindresorhus/gzip-size
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-uri-path
+  description: Convert relative file system paths into safe URI paths
+  upstream: https://www.npmjs.com/package/uri-path
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-entities
+  description: Encode & decode XML/HTML entities with ease
+  upstream: https://github.com/fb55/node-entities
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-glob
+  description: A little globber for Node.js
+  upstream: https://github.com/isaacs/node-glob
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-stream-replace
+  description: Replace text in a stream
+  upstream: https://github.com/lxe/stream-replace.git
+  protected_branches: 
+  - master
+  type: public
