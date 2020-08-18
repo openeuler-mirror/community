@@ -35681,3 +35681,9 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: linux-sgx
+  description: 'Intel Software Guard Extentions for Linux OS'
+  upstream: https://github.com/intel/linux-sgx
+  protected_branches:
+  - master
+  type: public

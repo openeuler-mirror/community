@@ -6249,3 +6249,7 @@ sigs:
 - name: sig-bootstrap
   repositories:
   - src-openeuler/bazel-bin
+- name: sig-confidential-computing
+  repositories:
+  - src-openeuler/linux-sgx
+  - openeuler/secenclave

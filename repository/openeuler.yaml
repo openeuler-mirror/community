@@ -404,3 +404,8 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: secenclave
+  description: "Confidential computing framework for developing enclave apps on top of hardware TEE"
+  protected_branches:
+  - master
+  type: public
