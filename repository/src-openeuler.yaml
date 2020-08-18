@@ -22581,6 +22581,18 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-tzlocal
+  description: tzinfo object for the local timezone
+  upstream: https://github.com/regebro/tzlocal
+  protected_branches:
+  - master
+  type: public
+- name: python-APScheduler
+  description: In-process task scheduler with Cron-like capabilities
+  upstream: https://github.com/agronholm/apscheduler
+  protected_branches:
+  - master
+  type: public
 - name: python-Flask-Admin
   upstream: https://github.com/flask-admin/flask-admin/
   description: Simple and extensible admin interface framework for Flask
