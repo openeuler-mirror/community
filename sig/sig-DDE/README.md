@@ -88,3 +88,4 @@ repository地址：
   - https://gitee.com/src-openeuler/startdde
   - https://gitee.com/src-openeuler/deepin-wallpapers
   - https://gitee.com/src-openeuler/deepin-gtk-theme
+  - https://gitee.com/src-openeuler/deepin-gettext-tools

@@ -2341,6 +2341,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: deepin-gettext-tools
+  description: Deepin Gettext Tools
+  upstream: https://github.com/linuxdeepin/deepin-gettext-tools
+  protected_branches:
+  - master
+  type: public
 - name: deepin-icon-theme
   description: Icons for the Deepin Desktop Environment
   upstream: https://github.com/linuxdeepin/deepin-icon-theme
