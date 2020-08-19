@@ -92,6 +92,7 @@ sigs:
   - src-openeuler/fdupes
   - src-openeuler/felix-gogo-runtime
   - src-openeuler/felix-gogo-shell
+  - src-openeuler/felix-scr
   - src-openeuler/felix-scr-annotations
   - src-openeuler/felix-scr-generator
   - src-openeuler/fetchmail
@@ -321,6 +322,8 @@ sigs:
   - src-openeuler/json_simple
   - src-openeuler/jss
   - src-openeuler/js-sizzle
+  - src-openeuler/js-jquery2
+  - src-openeuler/jts
   - src-openeuler/jul-to-slf4j-stub
   - src-openeuler/kim-api
   - src-openeuler/kohsuke-pom
@@ -355,6 +358,7 @@ sigs:
   - src-openeuler/lrzsz
   - src-openeuler/lynx
   - src-openeuler/mailman
+  - src-openeuler/maven-injection-plugin
   - src-openeuler/maven-jarsigner-plugin
   - src-openeuler/maven-mapping
   - src-openeuler/maven-processor-plugin
@@ -363,7 +367,6 @@ sigs:
   - src-openeuler/mc
   - src-openeuler/media-player-info
   - src-openeuler/memcached
-  - src-openeuler/metadata-extractor2
   - src-openeuler/mikmod
   - src-openeuler/mina-ftpserver
   - src-openeuler/mod_intercept_form_submit
@@ -413,6 +416,7 @@ sigs:
   - src-openeuler/rpcsvc-proto
   - src-openeuler/rrdtool
   - src-openeuler/maven-war-plugin
+  - src-openeuler/reflections
   - src-openeuler/rubygem-addressable
   - src-openeuler/rubygem-aruba
   - src-openeuler/rubygem-mocha
@@ -431,6 +435,7 @@ sigs:
   - src-openeuler/spec-version-maven-plugin
   - src-openeuler/springframework-batch
   - src-openeuler/springframework-retry
+  - src-openeuler/spymemcached
   - src-openeuler/strongswan
   - src-openeuler/stunnel
   - src-openeuler/targetcli
@@ -454,6 +459,7 @@ sigs:
   - src-openeuler/vorbis-tools
   - src-openeuler/wavpack
   - src-openeuler/wayland-protocols
+  - src-openeuler/weld-api
   - src-openeuler/weston
   - src-openeuler/wireshark
   - src-openeuler/xapps
@@ -963,6 +969,7 @@ sigs:
   - src-openeuler/xdp-cpumap-tc
   - src-openeuler/httpunit
   - src-openeuler/jetty-alpn
+  - src-openeuler/jetty-alpn-api
   - src-openeuler/undertow
   - src-openeuler/wildfly-build-tools
   - src-openeuler/wildfly-elytron
@@ -1589,7 +1596,6 @@ sigs:
   - src-openeuler/istack-commons
   - src-openeuler/ivtv-firmware
   - src-openeuler/jackson-jaxrs-providers
-  - src-openeuler/jackson-modules-base
   - src-openeuler/jansson
   - src-openeuler/jasper
   - src-openeuler/jboss-vfs
@@ -3219,7 +3225,6 @@ sigs:
   - src-openeuler/apache-commons-fileupload
   - src-openeuler/apache-commons-jexl
   - src-openeuler/apache-commons-math
-  - src-openeuler/apache-commons-ognl
   - src-openeuler/apache-commons-pool2
   - src-openeuler/apacheds-ldap-api
   - src-openeuler/apache-log4j-extras
@@ -3399,7 +3404,6 @@ sigs:
   - src-openeuler/multitail
   - src-openeuler/mysql-connector-java
   - src-openeuler/ncdu
-  - src-openeuler/neethi
   - src-openeuler/nethogs
   - src-openeuler/netperf
   - src-openeuler/nmon
@@ -3708,6 +3712,8 @@ sigs:
   - src-openeuler/rubygem-mime-types-data
   - src-openeuler/rubygem-mini_mime
   - src-openeuler/rubygem-minitest-reporters
+  - src-openeuler/rubygem-minitest
+  - src-openeuler/rubygem-msgpack
   - src-openeuler/rubygem-nio4r
   - src-openeuler/rubygem-public_suffix
   - src-openeuler/rubygem-rails
@@ -3717,11 +3723,11 @@ sigs:
   - src-openeuler/rubygem-rb-inotify
   - src-openeuler/rubygem-redcarpet
   - src-openeuler/rubygem-RedCloth
+  - src-openeuler/rubygem-rspec
   - src-openeuler/rubygem-rspec2
   - src-openeuler/rubygem-rspec2-expectations
   - src-openeuler/rubygem-rspec2-mocks
   - src-openeuler/rubygem-rspec-its
-  - src-openeuler/rubygem-rspect
   - src-openeuler/rubygem-ruby-progressbar
   - src-openeuler/rubygem-rubyzip
   - src-openeuler/rubygem-safe_yaml
@@ -3737,7 +3743,6 @@ sigs:
   - src-openeuler/rubygem-sprockets
   - src-openeuler/rubygem-sprockets-rails
   - src-openeuler/rubygem-sqlite3
-  - src-openeuler/rubygem-ronn
   - src-openeuler/rubygem-temple
   - src-openeuler/rubygem-test_declarative
   - src-openeuler/rubygem-thor
@@ -3792,14 +3797,13 @@ sigs:
   - src-openeuler/weld-core
   - src-openeuler/weld-parent
   - src-openeuler/woodstox-core
-  - src-openeuler/ws-commons-util
   - src-openeuler/xmlenc
   - src-openeuler/xom
   - src-openeuler/xsom
   - src-openeuler/yecht
   - src-openeuler/ykpers
   - src-openeuler/znerd-oss-parent
-  name: sig-mate-desktop
+- name: sig-mate-desktop
   repositories:
   - openeuler/mate-desktop
   - src-openeuler/caja
@@ -4252,6 +4256,7 @@ sigs:
   - src-openeuler/perl-CGI-Simple
   - src-openeuler/perl-CGI-Struct
   - src-openeuler/perl-CLASS
+  - src-openeuler/perl-class-accessor
   - src-openeuler/perl-CPAN-Common-Index
   - src-openeuler/perl-CPAN-DistnameInfo
   - src-openeuler/perl-CPAN-Meta-Check
