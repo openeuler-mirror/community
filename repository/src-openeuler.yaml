@@ -22580,13 +22580,6 @@ repositories:
   upstream: https://github.com/viniciuschiele/flask-apscheduler
   protected_branches:
   - master
-  type: public
-- name: python-tzlocal
-  description: tzinfo object for the local timezone
-  upstream: https://github.com/regebro/tzlocal
-  protected_branches:
-  - master
-  type: public
 - name: python-APScheduler
   description: In-process task scheduler with Cron-like capabilities
   upstream: https://github.com/agronholm/apscheduler
