@@ -46,16 +46,14 @@
 
 ## Maintainers
   - sinever
-  - ZZZHB
-  - njlzk
+  - hubble_zhu
   - myeuler
-  - chxssg
 
 ## Committers
   - sinever
 
 ## 邮件列表
   - sig-ai-bigdata@openeuler.org
-  
+
 ## 路线图
  ![roadmap](./sig-road-map.jpg)
