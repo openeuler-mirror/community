@@ -37223,3 +37223,87 @@ repositories:
   protected_branches: 
   - master
   type: public
+- name: erlang
+  description: A general-purpose programming language and runtime environment
+  upstream: https://www.erlang.org
+  protected_branches: 
+  - master
+  type: public
+- name: erlang-getopt
+  description: Erlang module to parse command line arguments using the GNU getopt syntax
+  upstream: https://github.com/jcomellas/getopt
+  protected_branches: 
+  - master
+  type: public
+- name: erlang-neotoma
+  description: Erlang library and packrat parser-generator for parsing expression grammars
+  upstream: http://github.com/seancribbs/neotoma
+  protected_branches: 
+  - master
+  type: public
+- name: erlang-eflame
+  description: Flame Graph profiler for Erlang
+  upstream: https://github.com/slfritchie/eflame
+  protected_branches: 
+  - master
+  type: public
+- name: erlang-erlsyslog
+  description: Syslog facility for Erlang
+  upstream: https://github.com/lemenkov/erlsyslog
+  protected_branches: 
+  - master
+  type: public
+- name: erlang-mustache
+  description: Mustache template engine for Erlang
+  upstream: https://github.com/mojombo/mustache.erl
+  protected_branches: 
+  - master
+  type: public
+- name: erlang-lfe
+  description: Lisp Flavoured Erlang
+  upstream: https://github.com/rvirding/lfe
+  protected_branches: 
+  - master
+  type: public
+- name: erlang-rpm-macros
+  description: Macros for simplifying building of Erlang packages
+  upstream: https://github.com/fedora-erlang/erlang-rpm-macros
+  protected_branches: 
+  - master
+  type: public
+- name: erlang-proper
+  description: A QuickCheck-inspired property-based testing tool for Erlang
+  upstream: https://github.com/manopapad/proper
+  protected_branches: 
+  - master
+  type: public
+- name: erlang-hamcrest
+  description: A framework for writing matcher objects using declarative rules
+  upstream: https://github.com/hyperthunk/hamcrest-erlang
+  protected_branches: 
+  - master
+  type: public
+- name: erlang-gettext
+  description: Erlang internationalization library
+  upstream: https://github.com/etnt/gettext
+  protected_branches: 
+  - master
+  type: public
+- name: erlang-erlydtl
+  description: Erlang implementation of the Django Template Language
+  upstream: https://github.com/erlydtl/erlydtl
+  protected_branches: 
+  - master
+  type: public
+- name: erlang-sd_notify
+  description: Erlang interface to systemd notify subsystem
+  upstream: https://github.com/systemd/erlang-sd_notify
+  protected_branches: 
+  - master
+  type: public
+- name: erlang-meck
+  description: A mocking library for Erlang
+  upstream: https://github.com/eproxus/meck
+  protected_branches: 
+  - master
+  type: public

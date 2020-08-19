@@ -733,6 +733,20 @@ sigs:
   - src-openeuler/perl-Test-Requires
   - src-openeuler/perl-Text-Glob
   - src-openeuler/nim
+  - src-openeuler/erlang
+  - src-openeuler/erlang-getopt
+  - src-openeuler/erlang-neotoma
+  - src-openeuler/erlang-eflame
+  - src-openeuler/erlang-erlsyslog
+  - src-openeuler/erlang-mustache
+  - src-openeuler/erlang-lfe
+  - src-openeuler/erlang-rpm-macros
+  - src-openeuler/erlang-proper
+  - src-openeuler/erlang-hamcrest
+  - src-openeuler/erlang-gettext
+  - src-openeuler/erlang-erlydtl
+  - src-openeuler/erlang-sd_notify
+  - src-openeuler/erlang-meck
 - name: Runtime
   repositories:
   - src-openeuler/ibus-libpinyin
