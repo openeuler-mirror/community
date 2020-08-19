@@ -30,6 +30,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: openEuler-rpm-config
+  description: "Specific rpm configuration for openEuler"
+  protected_branches:
+  - master
+  type: public
 - name: ci-bot
   description: ""
   protected_branches:
