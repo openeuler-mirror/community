@@ -33357,6 +33357,12 @@ repositories:
   protected_branches:
     - master
   type: public
+- name: kf5-kdewebkit
+  description: KDE Frameworks 5 Tier 3 integration module for QtWebKit
+  upstream: http://www.kde.org
+  protected_branches:
+    - master
+  type: public
 - name: kdecoration
   description: A plugin-based library to create window decorations
   upstream: http://www.kde.org
