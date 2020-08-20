@@ -53,5 +53,6 @@ repository地址：
 - https://gitee.com/src-openeuler/platform_frameworks_opt_net_wifi
 - https://gitee.com/src-openeuler/platform_system_core
 - https://gitee.com/src-openeuler/platform_packages_apps_DeskClock
+- https://gitee.com/src-openeuler/platform_packages_apps_PackageInstaller
 - https://gitee.com/src-openeuler/platform_build
 - https://gitee.com/src-openeuler/platform_manifests
