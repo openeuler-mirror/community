@@ -34038,6 +34038,51 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: kiran-avatar-editor
+  description: User account image editing tool
+  protected_branches:
+  - master
+  type: public
+- name: kiran-gtk-theme
+  description: The kiran-gtk-theme package contains the standard theme for the Kiran desktop, which provides default appearance for window borders and GTK+ applications.
+  protected_branches:
+  - master
+  type: public
+- name: kiran-icon-theme
+  description: The kiran-icon-theme package contains the standard icon theme for the Kiran desktop, which provides default appearance for icons.
+  protected_branches:
+  - master
+  type: public
+- name: kiran-menu
+  description: Redesigned start menu for Mate Desktop
+  protected_branches:
+  - master
+  type: public
+- name: kiran-screensaver-dialog
+  description: lock dialog
+  protected_branches:
+  - master
+  type: public
+- name: kiran-themes
+  description: The kiran-themes package contains the standard theme for the Kiran desktop, which provides default appearance for cursors, desktop background, window borders and GTK+ applications.
+  protected_branches:
+  - master
+  type: public
+- name: kiran-wallpapers
+  description: This package provides desktop wallpapers for kiran desktop
+  protected_branches:
+  - master
+  type: public
+- name: lightdm-kiran-greeter
+  description: User login interface
+  protected_branches:
+  - master
+  type: public
+- name: plymouth-theme-kiran
+  description: Plymouth theme for KylinSec OS
+  protected_branches:
+  - master
+  type: public
 - name: x265
   description: A H.265 / HEVC video encoder application library.
   upstream: https://bitbucket.org/multicoreware/x265

@@ -3763,6 +3763,17 @@ sigs:
   - openeuler/compiler-test
   - openeuler/package-reinforce-test
   - openeuler/test-tools
+- name: sig-KIRAN-DESKTOP
+  repositories:
+  - src-openeuler/kiran-avatar-editor
+  - src-openeuler/kiran-gtk-theme
+  - src-openeuler/kiran-icon-theme
+  - src-openeuler/kiran-menu
+  - src-openeuler/kiran-screensaver-dialog
+  - src-openeuler/kiran-themes
+  - src-openeuler/kiran-wallpapers
+  - src-openeuler/lightdm-kiran-greeter
+  - src-openeuler/plymouth-theme-kiran
 - name: sig-ROS
   repositories:
   - openeuler/ros
