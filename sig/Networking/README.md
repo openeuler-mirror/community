@@ -28,17 +28,17 @@
 - [IRC公开会议](#openeuler-meeting)
 
 # 项目清单
+- https://gitee.com/src-openeuler/glassfish-jax-rs-api
+- https://gitee.com/src-openeuler/rubygem-multipart-post
 - https://gitee.com/src-openeuler/kronosnet
 - https://gitee.com/src-openeuler/initscripts
-- https://gitee.com/src-openeuler/dnf
-- https://gitee.com/src-openeuler/dnf-plugins-core
 - https://gitee.com/src-openeuler/http-parser
 - https://gitee.com/src-openeuler/openvswitch
 - https://gitee.com/src-openeuler/ldns
 - https://gitee.com/src-openeuler/ipvsadm
-- https://gitee.com/src-openeuler/efi-rpm-macros
 - https://gitee.com/src-openeuler/unbound
 - https://gitee.com/src-openeuler/ntp
+- https://gitee.com/src-openeuler/neethi
 - https://gitee.com/src-openeuler/openssh
 - https://gitee.com/src-openeuler/NetworkManager
 - https://gitee.com/src-openeuler/libserf
@@ -57,9 +57,7 @@
 - https://gitee.com/src-openeuler/GeoIP-GeoLite-data
 - https://gitee.com/src-openeuler/zd1211-firmware
 - https://gitee.com/src-openeuler/ipmitool
-- https://gitee.com/src-openeuler/efivar
 - https://gitee.com/src-openeuler/ipset
-- https://gitee.com/src-openeuler/libwebsockets
 - https://gitee.com/src-openeuler/iptraf-ng
 - https://gitee.com/src-openeuler/ppp
 - https://gitee.com/src-openeuler/tcpdump
@@ -73,8 +71,6 @@
 - https://gitee.com/src-openeuler/httpd
 - https://gitee.com/src-openeuler/network-manager-applet
 - https://gitee.com/src-openeuler/libdnet
-- https://gitee.com/src-openeuler/efibootmgr
-- https://gitee.com/src-openeuler/cdrkit
 - https://gitee.com/src-openeuler/python-requests-ftp
 - https://gitee.com/src-openeuler/ModemManager
 - https://gitee.com/src-openeuler/procmail
@@ -85,17 +81,14 @@
 - https://gitee.com/src-openeuler/libtirpc
 - https://gitee.com/src-openeuler/ethtool
 - https://gitee.com/src-openeuler/net-tools
-- https://gitee.com/src-openeuler/anaconda-user-help
 - https://gitee.com/src-openeuler/hostname
 - https://gitee.com/src-openeuler/openldap
 - https://gitee.com/src-openeuler/ipcalc
 - https://gitee.com/src-openeuler/vsftpd
 - https://gitee.com/src-openeuler/samba
 - https://gitee.com/src-openeuler/dnsmasq
-- https://gitee.com/src-openeuler/setools
 - https://gitee.com/src-openeuler/notification-daemon
 - https://gitee.com/src-openeuler/chrony
-- https://gitee.com/src-openeuler/grub2
 - https://gitee.com/src-openeuler/libproxy
 - https://gitee.com/src-openeuler/ntpstat
 - https://gitee.com/src-openeuler/libnetfilter_conntrack
@@ -104,11 +97,8 @@
 - https://gitee.com/src-openeuler/arptables
 - https://gitee.com/src-openeuler/ftp
 - https://gitee.com/src-openeuler/python-paste
-- https://gitee.com/src-openeuler/anaconda
-- https://gitee.com/src-openeuler/ipxe
 - https://gitee.com/src-openeuler/openvswitch-kmod
 - https://gitee.com/src-openeuler/libgcrypt
-- https://gitee.com/src-openeuler/blivet-gui
 - https://gitee.com/src-openeuler/python-ipaddress
 - https://gitee.com/src-openeuler/libpcap
 - https://gitee.com/src-openeuler/xmlrpc-c
@@ -117,7 +107,6 @@
 - https://gitee.com/src-openeuler/nghttp2
 - https://gitee.com/src-openeuler/libnfnetlink
 - https://gitee.com/src-openeuler/curl
-- https://gitee.com/src-openeuler/uboot-tools
 - https://gitee.com/src-openeuler/python-IPy
 - https://gitee.com/src-openeuler/lftp
 - https://gitee.com/src-openeuler/atmel-firmware
@@ -137,7 +126,6 @@
 - https://gitee.com/src-openeuler/glib-networking
 - https://gitee.com/src-openeuler/net-snmp
 - https://gitee.com/src-openeuler/icfg
-- https://gitee.com/src-openeuler/python-blivet
 - https://gitee.com/src-openeuler/python-requests
 - https://gitee.com/src-openeuler/rpcbind
 - https://gitee.com/src-openeuler/python-urllib3
@@ -147,11 +135,9 @@
 - https://gitee.com/src-openeuler/python-html5lib
 - https://gitee.com/src-openeuler/libnet
 - https://gitee.com/src-openeuler/tftp
-- https://gitee.com/src-openeuler/lorax
 - https://gitee.com/src-openeuler/lldpad
 - https://gitee.com/src-openeuler/b43-openfwwf
 - https://gitee.com/src-openeuler/libndp
 - https://gitee.com/src-openeuler/openslp
 - https://gitee.com/src-openeuler/mobile-broadband-provider-info
 - https://gitee.com/src-openeuler/xdp-cpumap-tc
-- https://gitee.com/src-openeuler/python-dasbus
