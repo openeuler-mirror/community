@@ -26,8 +26,9 @@ android-middleware SIG 致力于围绕以android为核心的ARM原生生态，�
   - repository7名称：https://gitee.com/src-openeuler/platform_frameworks_opt_net_wifi
   - repository8名称：https://gitee.com/src-openeuler/platform_system_core
   - repository9名称：https://gitee.com/src-openeuler/platform_packages_apps_DeskClock
-  - repository10名称：https://gitee.com/src-openeuler/platform_build
-  - repository11名称：https://gitee.com/src-openeuler/platform_manifests
+  - repository10名称：https://gitee.com/src-openeuler/platform_packages_apps_PackageInstaller
+  - repository11名称：https://gitee.com/src-openeuler/platform_build
+  - repository12名称：https://gitee.com/src-openeuler/platform_manifests
 
 
 
