@@ -361,6 +361,95 @@ sigs:
   - src-openeuler/rrdtool
   - src-openeuler/rubygem-pkg-config
   - src-openeuler/rubygem-pry-nav
+  - src-openeuler/rubygem-prawn
+  - src-openeuler/rubygems-ronn
+  - src-openeuler/rubygem-loofah
+  - src-openeuler/rubygem-redcarpet
+  - src-openeuler/rubygem-erubi
+  - src-openeuler/rubygem-i18n
+  - src-openeuler/rubygem-activesupport
+  - src-openeuler/rubygem-ethon
+  - src-openeuler/rubygem-sprockets
+  - src-openeuler/rubygem-jbuilder
+  - src-openeuler/rubygem-thread_order
+  - src-openeuler/rubygem-addressable
+  - src-openeuler/rubygem-fattr
+  - src-openeuler/rubygem-rails
+  - src-openeuler/rubygem-shoulda
+  - src-openeuler/rubygem-typhoeus
+  - src-openeuler/rubygem-ruby-rc4
+  - src-openeuler/rubygem-public_suffix
+  - src-openeuler/rubygem-http-cookie
+  - src-openeuler/rubygem-websocket-driver
+  - src-openeuler/rubygem-nio4r
+  - src-openeuler/rubygem-yard
+  - src-openeuler/rubygem-shoulda-context
+  - src-openeuler/rubygem-httpclient
+  - src-openeuler/rubygem-websocket-extensions
+  - src-openeuler/rubygem-uglifier
+  - src-openeuler/rubygem-contracts
+  - src-openeuler/rubygem-temple
+  - src-openeuler/rubygem-docile
+  - src-openeuler/rubygem-thor
+  - src-openeuler/rubygem-unf_ext
+  - src-openeuler/rubygem-thread_safe
+  - src-openeuler/rubygem-msgpack
+  - src-openeuler/rubygem-crass
+  - src-openeuler/rubygem-aruba
+  - src-openeuler/rubygem-rspec2
+  - src-openeuler/rubygem-rubyzip
+  - src-openeuler/rubygem-slop
+  - src-openeuler/rubygem-ttfunk
+  - src-openeuler/rubygem-timecop
+  - src-openeuler/rubygem-minitest-reporters
+  - src-openeuler/rubygem-turbolinks-source
+  - src-openeuler/rubygem-childprocess
+  - src-openeuler/rubygem-maruku
+  - src-openeuler/rubygem-bcrypt
+  - src-openeuler/rubygem-rails-controller-testing
+  - src-openeuler/rubygem-mime-types-data
+  - src-openeuler/rubygem-sinatra
+  - src-openeuler/rubygem-sqlite3
+  - src-openeuler/rubygem-cucumber-wire
+  - src-openeuler/rubygem-xpath
+  - src-openeuler/rubygem-rspec-its
+  - src-openeuler/rubygem-turbolinks
+  - src-openeuler/rubygem-rb-inotify
+  - src-openeuler/rubygem-ZenTest
+  - src-openeuler/rubygem-minitest
+  - src-openeuler/rubygem-tilt
+  - src-openeuler/rubygem-spring
+  - src-openeuler/rubygem-diff-lcs
+  - src-openeuler/rubygem-jquery-rails
+  - src-openeuler/rubygem-mimemagic
+  - src-openeuler/rubygem-cucumber-expressions
+  - src-openeuler/rubygem-backports
+  - src-openeuler/rubygem-marcel
+  - src-openeuler/rubygem-webmock
+  - src-openeuler/rubygem-test_declarative
+  - src-openeuler/rubygem-rspec2-mocks
+  - src-openeuler/rubygem-mini_mime
+  - src-openeuler/rubygem-rails-dom-testing
+  - src-openeuler/rubygem-rspec2-expectations
+  - src-openeuler/rubygem-mocha
+  - src-openeuler/rubygem-memcache-client
+  - src-openeuler/rubygem-rspec
+  - src-openeuler/rubygem-RedCloth
+  - src-openeuler/rubygem-shindo
+  - src-openeuler/rubygem-wikicloth
+  - src-openeuler/rubygem-session
+  - src-openeuler/rubygem-safe_yaml
+  - src-openeuler/rubygem-websocket
+  - src-openeuler/rubygem-ruby-progressbar
+  - src-openeuler/rubygem-sprockets-rails
+  - src-openeuler/rubygem-launchy
+  - src-openeuler/rubygem-rails-html-sanitizer
+  - src-openeuler/rubygem-unf
+  - src-openeuler/rubygem-excon
+  - src-openeuler/rubygem-domain_name
+  - src-openeuler/rubygem-hashdiff
+  - src-openeuler/rubygem-bacon
+  - src-openeuler/rubygem-mime-types
   - src-openeuler/sane-frontends
   - src-openeuler/scrub
   - src-openeuler/slapi-nis
@@ -733,6 +822,20 @@ sigs:
   - src-openeuler/perl-Test-Requires
   - src-openeuler/perl-Text-Glob
   - src-openeuler/nim
+  - src-openeuler/erlang
+  - src-openeuler/erlang-getopt
+  - src-openeuler/erlang-neotoma
+  - src-openeuler/erlang-eflame
+  - src-openeuler/erlang-erlsyslog
+  - src-openeuler/erlang-mustache
+  - src-openeuler/erlang-lfe
+  - src-openeuler/erlang-rpm-macros
+  - src-openeuler/erlang-proper
+  - src-openeuler/erlang-hamcrest
+  - src-openeuler/erlang-gettext
+  - src-openeuler/erlang-erlydtl
+  - src-openeuler/erlang-sd_notify
+  - src-openeuler/erlang-meck
 - name: Runtime
   repositories:
   - src-openeuler/ibus-libpinyin
