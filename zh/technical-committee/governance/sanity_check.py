@@ -156,8 +156,8 @@ def check_6(cross_checked_repo, supervisors):
 
     for repo in supervisors:
         if not repo in cross_checked_repo:
-            print("WARNING! {name} listed in sigs.yaml, but neither openeuler.yaml nor src-openeuler.yaml"
-                    .format(name=repo))
+            print("WARNING! {name} listed in sigs.yaml, but not in {oe}.yaml"
+                    .format(name=repo, oe=repo.split("/")[0]))
             errors_found = errors_found + 1
 
     if errors_found == 0:
@@ -200,7 +200,7 @@ It must start with a letter, and its length is 2 to 200 characters"""
     return errors_found
 
 
-def check_8(oe_repos, srcoe_repos, p_oe_repos, p_srcoe_repos):
+def check_8(oe_repos, srcoe_repos, p_oe_repos, p_srcoe_repos, super_visor):
     """
     Newly added/exposed repositories must follow the OE requirements
     """
@@ -213,6 +213,8 @@ def check_8(oe_repos, srcoe_repos, p_oe_repos, p_srcoe_repos):
 
     remove_oe = set()
     remove_srcoe = set()
+
+    sigs_attention = set()
 
     for f in p_oe_repos:
         if f["name"] in oe_dict:
@@ -235,6 +237,10 @@ def check_8(oe_repos, srcoe_repos, p_oe_repos, p_srcoe_repos):
             
     for oe in oe_dict:
         o = oe_dict[oe]
+        sigs = super_visor.get("openeuler/" + o["name"].lower(), set())
+        if len(sigs) == 0:
+            print("Failed to get SIG manages " + o["name"])
+        sigs_attention = sigs_attention | sigs
         if len(o.get("description", "")) < 10:
             print("WARNING! openeuler/" + o["name"] + "\'s description is too short.")
             errors_found += 1
@@ -243,6 +249,11 @@ def check_8(oe_repos, srcoe_repos, p_oe_repos, p_srcoe_repos):
 
     for src in srcoe_dict:
         s = srcoe_dict[src]
+        sigs = super_visor.get("src-openeuler/" + s["name"].lower(), set())
+        if len(sigs) == 0:
+            print("Failed to get SIG manages " + s["name"])
+        sigs_attention = sigs_attention | sigs
+
         if s.get("upstream", "") == "":
             print("WARNING! src-openeuler/" + s["name"] + " missed upstream information.")
             errors_found += 1
@@ -253,8 +264,16 @@ def check_8(oe_repos, srcoe_repos, p_oe_repos, p_srcoe_repos):
             remove_srcoe.remove(s.get("rename_from"))
 
     for r in remove_oe:
+        sigs = super_visor.get("openeuler/" + r.lower(), set())
+        if len(sigs) == 0:
+            print("Failed to get SIG manages " + r)
+        sigs_attention = sigs_attention | sigs
         print("WARNING! deleting openeuler/%s." % r)
     for r in remove_srcoe:
+        sigs = super_visor.get("src-openeuler/" + r.lower(), set())
+        if len(sigs) == 0:
+            print("Failed to get SIG manages " + r)
+        sigs_attention = sigs_attention | sigs
         print("WARNING! deleting src-openeuler/%s." % r)
 
     if errors_found != 0:
@@ -262,6 +281,10 @@ def check_8(oe_repos, srcoe_repos, p_oe_repos, p_srcoe_repos):
     else:
         print("PASS WITHOUT ISSUES FOUND.")
 
+    print("\nSUGGESTION: This PR needs to involve maintainers from following SIG(s).")
+    for s in sigs_attention:
+        print(s)
+ 
     return errors_found
 
 
@@ -359,7 +382,7 @@ if __name__ == "__main__":
 
     print("\nCheck 8:")
     issues_found = issues_found + check_8(openeuler_repos, srcopeneuler_repos, 
-            prev_openeuler_repos, prev_srcopeneuler_repos)
+            prev_openeuler_repos, prev_srcopeneuler_repos, repo_supervisors)
 
     cleanup_master_branch_yaml(args.community)
 
