@@ -21976,6 +21976,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: platform_packages_apps_PackageInstaller 
+  description: PackageInstaller application source codes
+  upstream: https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/packages/apps/PackageInstaller
+  protected_branches:
+  - master
+  type: public
 - name: platform_system_core
   description: It involves the underlying file system library, application and components.
     The main coding language is C. The core repository is the core tool interface
