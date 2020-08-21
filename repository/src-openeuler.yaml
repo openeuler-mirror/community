@@ -33519,12 +33519,6 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: web-assets
-  description: A simple framework for bits pushed to browsers
-  upstream: https://fedoraproject.org/wiki/User:Patches/PackagingDrafts/Web_Assets
-  protected_branches:
-  - master
-  type: public
 - name: mathjax
   description: JavaScript library to render math in the browser
   upstream: http://mathjax.org
