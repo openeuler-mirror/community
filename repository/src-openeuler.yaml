@@ -37871,3 +37871,9 @@ repositories:
   protected_branches: 
   - master
   type: public
+- name: appweb
+  description: Appweb is a fast embedded web server for securely hosting embedded web management applications
+  upstream: https://github.com/ni-webtech/appweb-4
+  protected_branches:
+  - master
+  type: public

@@ -141,3 +141,4 @@
 - https://gitee.com/src-openeuler/openslp
 - https://gitee.com/src-openeuler/mobile-broadband-provider-info
 - https://gitee.com/src-openeuler/xdp-cpumap-tc
+- https://gitee.com/src-openeuler/appweb
