@@ -34040,46 +34040,55 @@ repositories:
   type: private
 - name: kiran-avatar-editor
   description: User account image editing tool
+  upstream: https://gitee.com/kylinsecos/kiran-avatar-editor
   protected_branches:
   - master
   type: public
 - name: kiran-gtk-theme
   description: The kiran-gtk-theme package contains the standard theme for the Kiran desktop, which provides default appearance for window borders and GTK+ applications.
+  upstream: https://gitee.com/kylinsecos/kiran-gtk-theme
   protected_branches:
   - master
   type: public
 - name: kiran-icon-theme
   description: The kiran-icon-theme package contains the standard icon theme for the Kiran desktop, which provides default appearance for icons.
+  upstream: https://gitee.com/kylinsecos/kiran-icon-theme
   protected_branches:
   - master
   type: public
 - name: kiran-menu
   description: Redesigned start menu for Mate Desktop
+  upstream: https://gitee.com/kylinsecos/kiran-menu
   protected_branches:
   - master
   type: public
 - name: kiran-screensaver-dialog
   description: lock dialog
+  upstream: https://gitee.com/kylinsecos/kiran-screensaver-dialog
   protected_branches:
   - master
   type: public
 - name: kiran-themes
   description: The kiran-themes package contains the standard theme for the Kiran desktop, which provides default appearance for cursors, desktop background, window borders and GTK+ applications.
+  upstream: https://gitee.com/kylinsecos/kiran-themes
   protected_branches:
   - master
   type: public
 - name: kiran-wallpapers
   description: This package provides desktop wallpapers for kiran desktop
+  upstream: https://gitee.com/kylinsecos/kiran-wallpapers
   protected_branches:
   - master
   type: public
 - name: lightdm-kiran-greeter
   description: User login interface
+  upstream: https://gitee.com/kylinsecos/lightdm-kiran-greeter
   protected_branches:
   - master
   type: public
 - name: plymouth-theme-kiran
   description: Plymouth theme for KylinSec OS
+  upstream: https://gitee.com/kylinsecos/plymouth-theme-kiran
   protected_branches:
   - master
   type: public
