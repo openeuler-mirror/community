@@ -32290,6 +32290,12 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
+- name: swtpm
+  description: The SWTPM package provides TPM emulators with different front-end interfaces to libtpms
+  upstream: https://github.com/stefanberger/swtpm
+  protected_branches:
+  - master
+  type: public
 - name: symlinks
   description: ''
   protected_branches:
@@ -35210,6 +35216,12 @@ repositories:
 - name: libtins
   description: "High-level, multiplatform C++ network packet sniffing and crafting library."
   upstream: https://github.com/mfontanini/libtins.git
+  protected_branches:
+  - master
+  type: public
+- name: libtpms
+  description: "Libtpms is a library that targets the integration of TPM functionality into hypervisors, primarily into Qemu."
+  upstream: https://github.com/stefanberger/libtpms
   protected_branches:
   - master
   type: public

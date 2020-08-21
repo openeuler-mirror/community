@@ -57,6 +57,8 @@ sig-security_facility主要讨论在openEuler社区版本中已有或未来规�
    - src-openeuler/audit
    - src-openeuler/nss-pem
    - src-openeuler/tpm2-abrmd-selinux
+   - src-openeuler/swtpm
+   - src-openeuler/libtpms
 
 
  ### 跨领域和面向外部的流程
