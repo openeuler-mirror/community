@@ -30589,6 +30589,48 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-lightgbm
+  description: A fast, distributed, high performance gradient boosting framework based on decision tree algorithms
+  upstream: https://github.com/Microsoft/LightGBM
+  protected_branches:
+  - master
+  type: public
+- name: python-eli5
+  description: A library for debugging/inspecting machine learning classifiers and explaining their predictions
+  upstream: https://github.com/TeamHG-Memex/eli5
+  protected_branches:
+  - master
+  type: public
+- name: python-blaze
+  description: NumPy and Pandas interface to Big Data
+  upstream: https://github.com/blaze/blaze
+  protected_branches:
+  - master
+  type: public
+- name: python-Flask-Cors
+  description: Cross Origin Resource Sharing ( CORS ) support for Flask
+  upstream: https://github.com/CoryDolphin/flask-cors
+  protected_branches:
+  - master
+  type: public
+- name: python-odo
+  description: Data Migration for the Blaze Project
+  upstream: https://github.com/blaze/odo
+  protected_branches:
+  - master
+  type: public
+- name: python-datashape
+  description: Language defining a data description protocol
+  upstream: https://github.com/blaze/datashape
+  protected_branches:
+  - master
+  type: public
+- name: python-multipledispatch
+  description: A relatively sane approach to multiple dispatch in Python
+  upstream: https://github.com/mrocklin/multipledispatch/
+  protected_branches:
+  - master
+  type: public
 - name: pytz
   description: ''
   protected_branches:
@@ -35405,6 +35447,12 @@ repositories:
 - name: prometheus
   description: 'an open-source systems monitoring and alerting toolkit'
   upstream: https://prometheus.io/
+  protected_branches:
+  - master
+  type: public
+- name: node_exporter
+  description: Exporter for machine metrics
+  upstream: https://github.com/prometheus/node_exporter
   protected_branches:
   - master
   type: public
