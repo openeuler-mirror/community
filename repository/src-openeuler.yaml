@@ -33507,6 +33507,36 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: libchamplain
+  description: Map view for Clutter
+  upstream: https://wiki.gnome.org/Projects/libchamplain
+  protected_branches:
+  - master
+  type: public
+- name: atril
+  description: Document viewer
+  upstream: http://mate-desktop.org
+  protected_branches:
+  - master
+  type: public
+- name: web-assets
+  description: A simple framework for bits pushed to browsers
+  upstream: https://fedoraproject.org/wiki/User:Patches/PackagingDrafts/Web_Assets
+  protected_branches:
+  - master
+  type: public
+- name: mathjax
+  description: JavaScript library to render math in the browser
+  upstream: http://mathjax.org
+  protected_branches:
+  - master
+  type: public
+- name: shotwell
+  description: A photo organizer
+  upstream: https://wiki.gnome.org/Apps/Shotwell
+  protected_branches:
+  - master
+  type: public
 - name: umoci
   description: Open Container Image manipulation tool
   protected_branches:
