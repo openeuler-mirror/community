@@ -38743,12 +38743,6 @@ repositories:
   protected_branches: 
   - master
   type: public
-- name: libftdi
-  description: Library to program and control the FTDI USB controller
-  upstream: http://www.intra2net.com/de/produkte/opensource/ftdi/
-  protected_branches: 
-  - master
-  type: public
 - name: lzma-java
   description: LZMA library for Java
   upstream: http://jponge.github.io/lzma-java/
@@ -38761,45 +38755,9 @@ repositories:
   protected_branches: 
   - master
   type: public
-- name: coin-or-Osi
-  description: COIN-OR Open Solver Interface Library
-  upstream: https://projects.coin-or.org/Osi
-  protected_branches: 
-  - master
-  type: public
 - name: mustache-java
   description: Implementation of mustache.js for Java
   upstream: https://github.com/spullara/mustache.java/
-  protected_branches: 
-  - master
-  type: public
-- name: tesseract
-  description: Raw OCR Engine
-  upstream: https://github.com/tesseract-ocr/tesseract
-  protected_branches: 
-  - master
-  type: public
-- name: sparsehash
-  description: Extremely memory-efficient C++ hash_map implementation
-  upstream: https://github.com/sparsehash/sparsehash
-  protected_branches: 
-  - master
-  type: public
-- name: perl-CBOR-XS
-  description: Concise Binary Object Representation (CBOR)
-  upstream: https://metacpan.org/release/CBOR-XS
-  protected_branches: 
-  - master
-  type: public
-- name: libdc1394
-  description: 1394-based digital camera control library
-  upstream: https://sourceforge.net/projects/libdc1394/
-  protected_branches: 
-  - master
-  type: public
-- name: gtksourceview2
-  description: A library for viewing source files
-  upstream: http://gtksourceview.sourceforge.net/
   protected_branches: 
   - master
   type: public
@@ -38821,39 +38779,9 @@ repositories:
   protected_branches: 
   - master
   type: public
-- name: optipng
-  description: PNG optimizer and converter
-  upstream: http://optipng.sourceforge.net/
-  protected_branches: 
-  - master
-  type: public
-- name: tesseract-tessdata
-  description: Trained models for the Tesseract Open Source OCR Engine
-  upstream: https://github.com/tesseract-ocr/tessdata_fast
-  protected_branches: 
-  - master
-  type: public
-- name: maven-shared-jar
-  description: Maven JAR Utilities
-  upstream: http://maven.apache.org/shared/maven-shared-jar
-  protected_branches: 
-  - master
-  type: public
 - name: nodejs-ctype
   description: Read and write binary structures and data types with Node.js
   upstream: https://github.com/rmustacc/node-ctype
-  protected_branches: 
-  - master
-  type: public
-- name: metis
-  description: Serial Graph Partitioning and Fill-reducing Matrix Ordering
-  upstream: http://glaros.dtc.umn.edu/gkhome/views/metis
-  protected_branches: 
-  - master
-  type: public
-- name: rubygem-simplecov-html
-  description: Default HTML formatter for SimpleCov
-  upstream: https://github.com/colszowka/simplecov-html
   protected_branches: 
   - master
   type: public
@@ -38887,21 +38815,9 @@ repositories:
   protected_branches: 
   - master
   type: public
-- name: gnome-desktop
-  description: Shared code among gnome-panel, gnome-session, nautilus, etc
-  upstream: http://www.gnome.org
-  protected_branches: 
-  - master
-  type: public
 - name: jetty-assembly-descriptors
   description: Jetty assembly descriptors used for building
   upstream: http://www.eclipse.org/jetty/
-  protected_branches: 
-  - master
-  type: public
-- name: wmctrl
-  description: Command line tool to interact with an X Window Manager
-  upstream: http://sweb.cz/tripie/utils/wmctrl
   protected_branches: 
   - master
   type: public
@@ -38923,12 +38839,6 @@ repositories:
   protected_branches: 
   - master
   type: public
-- name: sezpoz
-  description: Lightweight Java library that lets you perform modular service lookups
-  upstream: https://github.com/jglick/sezpoz
-  protected_branches: 
-  - master
-  type: public
 - name: rubygem-pdf-reader
   description: A library for accessing the content of PDF files
   upstream: https://github.com/yob/pdf-reader
@@ -38944,12 +38854,6 @@ repositories:
 - name: nodejs-dateformat
   description: Steven Levithan's excellent dateFormat() function for Node.js
   upstream: https://github.com/felixge/node-dateformat
-  protected_branches: 
-  - master
-  type: public
-- name: eigen3
-  description: A lightweight C++ template library for vector and matrix math
-  upstream: http://eigen.tuxfamily.org/index.php?title=Main_Page
   protected_branches: 
   - master
   type: public
@@ -38995,36 +38899,6 @@ repositories:
   protected_branches: 
   - master
   type: public
-- name: rubygem-rouge
-  description: Pure-ruby colorizer based on pygments
-  upstream: https://github.com/rouge-ruby/rouge
-  protected_branches: 
-  - master
-  type: public
-- name: hdf
-  description: A general purpose library and file format for storing scientific data
-  upstream: https://portal.hdfgroup.org/display/support
-  protected_branches: 
-  - master
-  type: public
-- name: hiera
-  description: A simple hierarchical database supporting plugin data sources
-  upstream: https://github.com/puppetlabs/hiera/
-  protected_branches: 
-  - master
-  type: public
-- name: rubygem-prawn-table
-  description: Provides tables for PrawnPDF
-  upstream: https://github.com/prawnpdf/prawn-table
-  protected_branches: 
-  - master
-  type: public
-- name: libconfuse
-  description: A configuration file parser library
-  upstream: https://github.com/martinh/libconfuse
-  protected_branches: 
-  - master
-  type: public
 - name: rubygem-cucumber-tag_expressions
   description: Cucumber tag expressions for ruby
   upstream: https://cucumber.io/docs/cucumber/api/#tag-expressions
@@ -39046,18 +38920,6 @@ repositories:
 - name: rubygem-concurrent-ruby
   description: Modern concurrency tools for Ruby
   upstream: http://www.concurrent-ruby.com
-  protected_branches: 
-  - master
-  type: public
-- name: genwqe-tools
-  description: GenWQE userspace tools
-  upstream: https://github.com/ibm-genwqe/genwqe-user/
-  protected_branches: 
-  - master
-  type: public
-- name: kabi-dw
-  description: Detect changes in the ABI between kernel builds
-  upstream: https://github.com/skozina/kabi-dw
   protected_branches: 
   - master
   type: public
@@ -39178,12 +39040,6 @@ repositories:
 - name: rubygem-selenium-webdriver
   description: The next generation developer focused tool for automated testing of webapps
   upstream: https://www.selenium.dev
-  protected_branches: 
-  - master
-  type: public
-- name: libkeepalive
-  description: Enable TCP keepalive in dynamic binaries
-  upstream: http://libkeepalive.sourceforge.net/
   protected_branches: 
   - master
   type: public
