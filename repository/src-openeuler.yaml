@@ -38065,12 +38065,6 @@ repositories:
   protected_branches: 
   - master
   type: public
-- name: elixir
-  description: A modern approach to programming for the Erlang VM
-  upstream: http://elixir-lang.org/
-  protected_branches: 
-  - master
-  type: public
 - name: evo-inflector
   description: Implements English pluralization algorithm
   upstream: https://github.com/atteo/evo-inflector
@@ -38152,12 +38146,6 @@ repositories:
 - name: httpunit
   description: Automated web site testing toolkit
   upstream: http://httpunit.sourceforge.net/
-  protected_branches: 
-  - master
-  type: public
-- name: icc-profiles-openicc
-  description: The OpenICC profiles
-  upstream: http://www.freedesktop.org/wiki/OpenIcc
   protected_branches: 
   - master
   type: public
@@ -38563,21 +38551,9 @@ repositories:
   protected_branches: 
   - master
   type: public
-- name: js-jquery2
-  description: JavaScript DOM manipulation, event handling, and AJAX library
-  upstream: https://jquery.com/
-  protected_branches: 
-  - master
-  type: public
 - name: json-smart
   description: A small and very fast json parser/generator for java
   upstream: https://github.com/netplex/json-smart-v2
-  protected_branches: 
-  - master
-  type: public
-- name: js-sizzle
-  description: A pure-JavaScript CSS selector engine
-  upstream: http://sizzlejs.com/
   protected_branches: 
   - master
   type: public
@@ -38626,12 +38602,6 @@ repositories:
 - name: lightcouch
   description: CouchDB Java API
   upstream: http://www.lightcouch.org/
-  protected_branches: 
-  - master
-  type: public
-- name: lodash
-  description: A JavaScript utility library
-  upstream: https://lodash.com/
   protected_branches: 
   - master
   type: public
@@ -38815,12 +38785,6 @@ repositories:
   protected_branches: 
   - master
   type: public
-- name: perl-Class-Accessor
-  description: Automated accessor generation
-  upstream: https://metacpan.org/release/Class-Accessor
-  protected_branches: 
-  - master
-  type: public
 - name: picketbox
   description: Security framework for Java Applications
   upstream: https://picketbox.jboss.org
@@ -38842,12 +38806,6 @@ repositories:
 - name: proxytoys
   description: An implementation neutral API for creation of dynamic proxies
   upstream: http://proxytoys.github.io/
-  protected_branches: 
-  - master
-  type: public
-- name: python-pybeam
-  description: Python module to parse Erlang BEAM files
-  upstream: https://github.com/matwey/pybeam
   protected_branches: 
   - master
   type: public
@@ -39094,18 +39052,6 @@ repositories:
 - name: tycho-extras
   description: Additional plugins for Tycho
   upstream: http://eclipse.org/tycho/
-  protected_branches: 
-  - master
-  type: public
-- name: uglify-js
-  description: JavaScript parser, mangler/compressor and beautifier toolkit
-  upstream: https://github.com/mishoo/UglifyJS2
-  protected_branches: 
-  - master
-  type: public
-- name: uglify-js1
-  description: JavaScript parser, mangler/compressor and beautifier toolkit
-  upstream: https://github.com/mishoo/UglifyJS
   protected_branches: 
   - master
   type: public
