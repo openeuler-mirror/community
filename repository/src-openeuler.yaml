@@ -10538,12 +10538,6 @@ repositories:
   protected_branches:
   - master
   type: private
-- name: maven-local
-  description: Macros and scripts for Maven packaging support
-  upstream: https://github.com/fedora-java/javapackages
-  protected_branches:
-  - master
-  type: public
 - name: maven-osgi
   description: Library for Maven-OSGi integration
   upstream: http://maven.apache.org/shared/maven-osgi
@@ -37927,39 +37921,21 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: eclipse-launchbar
-  description: Eclipse Launchbar plug-in
-  upstream: https://wiki.eclipse.org/CDT/LaunchBar
+- name: annotation-indexer
+  description: Jenkins annotation-indexer library
+  upstream: https://github.com/jenkinsci/lib-annotation-indexer
   protected_branches: 
   - master
   type: public
-- name: wildfly-build-tools
-  description: Wildfly build and provisioning tools
-  upstream: https://github.com/wildfly/wildfly-build-tools
+- name: apache-commons-cli
+  description: Command Line Interface Library for Java
+  upstream: http://commons.apache.org/cli/
   protected_branches: 
   - master
   type: public
-- name: mx4j
-  description: Open source implementation of JMX Java API
-  upstream: http://mx4j.sourceforge.net/
-  protected_branches: 
-  - master
-  type: public
-- name: jython
-  description: A Java implementation of the Python language
-  upstream: http://www.jython.org/
-  protected_branches: 
-  - master
-  type: public
-- name: jts
-  description: Java Topology Suite
-  upstream: https://projects.eclipse.org/projects/locationtech.jts
-  protected_branches: 
-  - master
-  type: public
-- name: maven-shared-jarsigner
-  description: Component to assist in signing Java archives
-  upstream: http://maven.apache.org/shared/maven-jarsigner/
+- name: apache-commons-discovery
+  description: Apache Commons Discovery
+  upstream: http://commons.apache.org/discovery
   protected_branches: 
   - master
   type: public
@@ -37969,9 +37945,45 @@ repositories:
   protected_branches: 
   - master
   type: public
-- name: tycho-extras
-  description: Additional plugins for Tycho
-  upstream: http://eclipse.org/tycho/
+- name: apache-commons-ognl
+  description: Object Graph Navigation Library
+  upstream: http://commons.apache.org/ognl/
+  protected_branches: 
+  - master
+  type: public
+- name: apacheds
+  description: Apache Directory Server
+  upstream: http://directory.apache.org/
+  protected_branches: 
+  - master
+  type: public
+- name: aspectjweaver
+  description: Java byte-code weaving library
+  upstream: http://eclipse.org/aspectj/
+  protected_branches: 
+  - master
+  type: public
+- name: BareBonesBrowserLaunch
+  description: Simple library to launch a browser window from Java
+  upstream: http://www.centerkey.com/java/browser/
+  protected_branches: 
+  - master
+  type: public
+- name: buildnumber-maven-plugin
+  description: Build Number Maven Plugin
+  upstream: https://www.mojohaus.org/buildnumber-maven-plugin
+  protected_branches: 
+  - master
+  type: public
+- name: cassandra-java-driver
+  description: DataStax Java Driver for Apache Cassandra
+  upstream: https://github.com/datastax/java-driver
+  protected_branches: 
+  - master
+  type: public
+- name: cpptasks
+  description: Compile and link task for ant
+  upstream: http://ant-contrib.sourceforge.net/
   protected_branches: 
   - master
   type: public
@@ -37981,21 +37993,69 @@ repositories:
   protected_branches: 
   - master
   type: public
-- name: maven-jaxb2-plugin
-  description: Provides the capability to generate java sources from schemas
-  upstream: http://java.net/projects/maven-jaxb2-plugin/pages/Home
+- name: cxf-xjc-utils
+  description: Apache CXF XJC-Utils
+  upstream: http://cxf.apache.org/xjc-utils.html
   protected_branches: 
   - master
   type: public
-- name: lz4-java
-  description: LZ4 compression for Java
-  upstream: https://github.com/jpountz/lz4-java
+- name: datanucleus-api-jdo
+  description: DataNucleus JDO API plugin
+  upstream: https://github.com/datanucleus/datanucleus-api-jdo
   protected_branches: 
   - master
   type: public
-- name: httpunit
-  description: Automated web site testing toolkit
-  upstream: http://httpunit.sourceforge.net/
+- name: datanucleus-maven-parent
+  description: DataNucleus Maven parent project
+  upstream: https://github.com/datanucleus/datanucleus-maven-parent
+  protected_branches: 
+  - master
+  type: public
+- name: datanucleus-rdbms
+  description: DataNucleus RDBMS
+  upstream: http://www.datanucleus.org/datanucleus-rdbms
+  protected_branches: 
+  - master
+  type: public
+- name: eclipse-egit
+  description: Eclipse Git Integration
+  upstream: http://www.eclipse.org/egit
+  protected_branches: 
+  - master
+  type: public
+- name: eclipse-launchbar
+  description: Eclipse Launchbar plug-in
+  upstream: https://wiki.eclipse.org/CDT/LaunchBar
+  protected_branches: 
+  - master
+  type: public
+- name: eclipselink
+  description: Eclipse Persistence Services Project
+  upstream: http://www.eclipse.org/eclipselink/
+  protected_branches: 
+  - master
+  type: public
+- name: eclipse-m2e-workspace
+  description: M2E CLI workspace resolver
+  upstream: https://www.eclipse.org/m2e/
+  protected_branches: 
+  - master
+  type: public
+- name: eclipse-photran
+  description: Fortran Development Tools (Photran) for Eclipse
+  upstream: http://www.eclipse.org/photran
+  protected_branches: 
+  - master
+  type: public
+- name: eclipse-remote
+  description: Eclipse Remote Services plug-in
+  upstream: https://www.eclipse.org/ptp/
+  protected_branches: 
+  - master
+  type: public
+- name: eclipse-swtbot
+  description: UI and functional testing tool for SWT and Eclipse based applications
+  upstream: http://www.eclipse.org/swtbot/
   protected_branches: 
   - master
   type: public
@@ -38011,195 +38071,9 @@ repositories:
   protected_branches: 
   - master
   type: public
-- name: springframework-hateoas
-  description: Representations for hyper-text driven REST web services
-  upstream: http://github.com/SpringSource/spring-hateoas
-  protected_branches: 
-  - master
-  type: public
-- name: hibernate-search
-  description: Hibernate Search
-  upstream: http://hibernate.org/search/
-  protected_branches: 
-  - master
-  type: public
-- name: ldaptive
-  description: LDAP library for Java
-  upstream: http://www.ldaptive.org/
-  protected_branches: 
-  - master
-  type: public
-- name: json-smart
-  description: A small and very fast json parser/generator for java
-  upstream: https://github.com/netplex/json-smart-v2
-  protected_branches: 
-  - master
-  type: public
-- name: jackson-dataformat-xml
-  description: Jackson extension component for reading and writing XML encoded data
-  upstream: https://github.com/FasterXML/jackson-dataformat-xml
-  protected_branches: 
-  - master
-  type: public
-- name: felix-osgi-obr-resolver
-  description: Apache Felix Resolver
-  upstream: http://felix.apache.org/documentation/subprojects/apache-felix-osgi-bundle-repository.html
-  protected_branches: 
-  - master
-  type: public
-- name: uglify-js
-  description: JavaScript parser, mangler/compressor and beautifier toolkit
-  upstream: https://github.com/mishoo/UglifyJS2
-  protected_branches: 
-  - master
-  type: public
-- name: groovy18
-  description: Dynamic language for the Java Platform
-  upstream: http://groovy-lang.org
-  protected_branches: 
-  - master
-  type: public
-- name: eclipse-photran
-  description: Fortran Development Tools (Photran) for Eclipse
-  upstream: http://www.eclipse.org/photran
-  protected_branches: 
-  - master
-  type: public
-- name: wss4j
-  description: Apache WS-Security implementation
-  upstream: http://ws.apache.org/wss4j/
-  protected_branches: 
-  - master
-  type: public
-- name: python-pybeam
-  description: Python module to parse Erlang BEAM files
-  upstream: https://github.com/matwey/pybeam
-  protected_branches: 
-  - master
-  type: public
-- name: weld-core
-  description: Reference Implementation for JSR-299 Contexts and Dependency Injection (CDI)
-  upstream: http://weld.cdi-spec.org/
-  protected_branches: 
-  - master
-  type: public
-- name: jetty-alpn-api
-  description: Jetty ALPN API
-  upstream: http://www.eclipse.org/jetty
-  protected_branches: 
-  - master
-  type: public
-- name: uglify-js1
-  description: JavaScript parser, mangler/compressor and beautifier toolkit
-  upstream: https://github.com/mishoo/UglifyJS
-  protected_branches: 
-  - master
-  type: public
-- name: rome
-  description: RSS and Atom Utilities
-  upstream: http://rometools.github.io/rome/
-  protected_branches: 
-  - master
-  type: public
-- name: datanucleus-api-jdo
-  description: DataNucleus JDO API plugin
-  upstream: https://github.com/datanucleus/datanucleus-api-jdo
-  protected_branches: 
-  - master
-  type: public
-- name: undertow
-  description: Java web server using non-blocking IO
-  upstream: http://undertow.io/
-  protected_branches: 
-  - master
-  type: public
-- name: maven-native
-  description: Compile c and c++ source under Maven
-  upstream: http://www.mojohaus.org/plugins.html
-  protected_branches: 
-  - master
-  type: public
-- name: simple
-  description: Asynchronous HTTP server for Java
-  upstream: http://www.simpleframework.org/
-  protected_branches: 
-  - master
-  type: public
-- name: spymemcached
-  description: Java client for memcached
-  upstream: https://github.com/dustin/java-memcached-client
-  protected_branches: 
-  - master
-  type: public
-- name: eclipse-egit
-  description: Eclipse Git Integration
-  upstream: http://www.eclipse.org/egit
-  protected_branches: 
-  - master
-  type: public
-- name: xsom
-  description: XML Schema Object Model
-  upstream: https://javaee.github.io
-  protected_branches: 
-  - master
-  type: public
-- name: jetty-alpn
-  description: Jetty implementation of ALPN API
-  upstream: https://github.com/jetty-project/jetty-alpn
-  protected_branches: 
-  - master
-  type: public
-- name: lettuce
-  description: Scalable Java Redis client
-  upstream: http://redis.paluch.biz/
-  protected_branches: 
-  - master
-  type: public
-- name: wildfly-elytron
-  description: Security, Authentication, and Authorization SPIs for the WildFly project
-  upstream: http://wildfly.org/
-  protected_branches: 
-  - master
-  type: public
-- name: proxytoys
-  description: An implementation neutral API for creation of dynamic proxies
-  upstream: http://proxytoys.github.io/
-  protected_branches: 
-  - master
-  type: public
-- name: invokebinder
-  description: A Java DSL for binding method handles forward, rather than backward
-  upstream: http://github.com/headius/invokebinder/
-  protected_branches: 
-  - master
-  type: public
-- name: velocity-tools
-  description: Collection of useful tools for Velocity template engine
-  upstream: http://velocity.apache.org/tools/releases/2.0/
-  protected_branches: 
-  - master
-  type: public
-- name: resteasy
-  description: Framework for RESTful Web services and Java applications
-  upstream: https://resteasy.github.io
-  protected_branches: 
-  - master
-  type: public
-- name: maven-site-plugin
-  description: Maven Site Plugin
-  upstream: http://maven.apache.org/plugins/maven-site-plugin/
-  protected_branches: 
-  - master
-  type: public
-- name: jaxb2-maven-plugin
-  description: JAXB-2 Maven Plugin
-  upstream: http://www.mojohaus.org/jaxb2-maven-plugin/
-  protected_branches: 
-  - master
-  type: public
-- name: icu4j
-  description: International Components for Unicode for Java
-  upstream: https://github.com/unicode-org/icu/
+- name: evo-inflector
+  description: Implements English pluralization algorithm
+  upstream: https://github.com/atteo/evo-inflector
   protected_branches: 
   - master
   type: public
@@ -38209,33 +38083,9 @@ repositories:
   protected_branches: 
   - master
   type: public
-- name: maven-injection-plugin
-  description: Bytecode injection at Maven build time
-  upstream: http://www.jboss.org
-  protected_branches: 
-  - master
-  type: public
-- name: uima-parent-pom
-  description: Apache UIMA Parent POM
-  upstream: http://uima.apache.org/
-  protected_branches: 
-  - master
-  type: public
-- name: metrics
-  description: Java library which gives you what your code does in production
-  upstream: http://metrics.dropwizard.io
-  protected_branches: 
-  - master
-  type: public
-- name: jul-to-slf4j-stub
-  description: JUL log records SLF4J bridge
-  upstream: http://www.jboss.org/
-  protected_branches: 
-  - master
-  type: public
-- name: slf4j-jboss-logmanager
-  description: SLF4J backend for JBoss LogManager
-  upstream: https://github.com/jboss-logging/slf4j-jboss-logmanager
+- name: felix-gogo-command
+  description: Apache Felix Gogo command line shell for OSGi
+  upstream: http://felix.apache.org/documentation/subprojects/apache-felix-gogo.html
   protected_branches: 
   - master
   type: public
@@ -38245,32 +38095,392 @@ repositories:
   protected_branches: 
   - master
   type: public
+- name: felix-main
+  description: Apache Felix Main
+  upstream: http://felix.apache.org
+  protected_branches: 
+  - master
+  type: public
+- name: felix-osgi-obr-resolver
+  description: Apache Felix Resolver
+  upstream: http://felix.apache.org/documentation/subprojects/apache-felix-osgi-bundle-repository.html
+  protected_branches: 
+  - master
+  type: public
+- name: felix-scr
+  description: Apache Felix Service Component Runtime (SCR)
+  upstream: https://github.com/apache/felix-dev/tree/master/scr
+  protected_branches: 
+  - master
+  type: public
+- name: glassfish-pfl
+  description: GlassFish Primitive Function Library
+  upstream: http://java.net/projects/gmbal/pages/Home
+  protected_branches: 
+  - master
+  type: public
+- name: groovy18
+  description: Dynamic language for the Java Platform
+  upstream: http://groovy-lang.org
+  protected_branches: 
+  - master
+  type: public
+- name: hawtbuf
+  description: A rich byte buffer library
+  upstream: https://github.com/fusesource/hawtbuf/
+  protected_branches: 
+  - master
+  type: public
+- name: hibernate-jpa-2.0-api
+  description: Java Persistence 2.0 (JSR 317) API
+  upstream: http://www.hibernate.org/
+  protected_branches: 
+  - master
+  type: public
+- name: hibernate-search
+  description: Hibernate Search
+  upstream: http://hibernate.org/search/
+  protected_branches: 
+  - master
+  type: public
+- name: hibernate-validator
+  description: Bean Validation 1.1 (JSR 349) Reference Implementation
+  upstream: http://www.hibernate.org/subprojects/validator.html
+  protected_branches: 
+  - master
+  type: public
+- name: httpunit
+  description: Automated web site testing toolkit
+  upstream: http://httpunit.sourceforge.net/
+  protected_branches: 
+  - master
+  type: public
+- name: icc-profiles-openicc
+  description: The OpenICC profiles
+  upstream: http://www.freedesktop.org/wiki/OpenIcc
+  protected_branches: 
+  - master
+  type: public
+- name: icu4j
+  description: International Components for Unicode for Java
+  upstream: https://github.com/unicode-org/icu/
+  protected_branches: 
+  - master
+  type: public
+- name: invokebinder
+  description: A Java DSL for binding method handles forward, rather than backward
+  upstream: http://github.com/headius/invokebinder/
+  protected_branches: 
+  - master
+  type: public
+- name: ironjacamar
+  description: Java Connector Architecture 1.7 implementation
+  upstream: http://www.ironjacamar.org/
+  protected_branches: 
+  - master
+  type: public
+- name: jackson-dataformats-text
+  description: Jackson standard text-format data format backends
+  upstream: https://github.com/FasterXML/jackson-dataformats-text
+  protected_branches: 
+  - master
+  type: public
+- name: jackson-dataformat-xml
+  description: Jackson extension component for reading and writing XML encoded data
+  upstream: https://github.com/FasterXML/jackson-dataformat-xml
+  protected_branches: 
+  - master
+  type: public
+- name: jackson-datatypes-collections
+  description: Jackson datatypes collections
+  upstream: https://github.com/FasterXML/jackson-datatypes-collections
+  protected_branches: 
+  - master
+  type: public
+- name: jackson-jaxrs-providers
+  description: Jackson JAX-RS providers
+  upstream: https://github.com/FasterXML/jackson-jaxrs-providers
+  protected_branches: 
+  - master
+  type: public
+- name: jackson-modules-base
+  description: Jackson modules Base
+  upstream: https://github.com/FasterXML/jackson-modules-base
+  protected_branches: 
+  - master
+  type: public
+- name: jandex-maven-plugin
+  description: Jandex wrapper for Maven
+  upstream: https://github.com/wildfly/jandex-maven-plugin
+  protected_branches: 
+  - master
+  type: public
+- name: jasypt
+  description: Java Simplified Encryption
+  upstream: http://www.jasypt.org/
+  protected_branches: 
+  - master
+  type: public
+- name: java-libpst
+  description: A pure Java library for the reading of Outlook PST and OST files
+  upstream: https://github.com/rjohnsondev/java-libpst/
+  protected_branches: 
+  - master
+  type: public
+- name: javapoet
+  description: A Java API for generating .java source files
+  upstream: https://github.com/square/javapoet
+  protected_branches: 
+  - master
+  type: public
+- name: java-xmlbuilder
+  description: XML Builder Java library for creating XML documents
+  upstream: https://github.com/jmurty/java-xmlbuilder
+  protected_branches: 
+  - master
+  type: public
+- name: jaxb2-common-basics
+  description: JAXB2 Basics
+  upstream: https://github.com/highsource/jaxb2-basics
+  protected_branches: 
+  - master
+  type: public
+- name: jaxb2-maven-plugin
+  description: JAXB-2 Maven Plugin
+  upstream: http://www.mojohaus.org/jaxb2-maven-plugin/
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-classfilewriter
+  description: JBoss Class File Writer
+  upstream: https://github.com/jbossas/jboss-classfilewriter
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-connector-1.7-api
+  description: Connector Architecture 1.7 API
+  upstream: http://www.jboss.org
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-dmr
+  description: The JBoss logging Framework
+  upstream: https://github.com/jbossas/jboss-dmr
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-ejb-3.1-api
+  description: EJB 3.1 API
+  upstream: http://www.jboss.org
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-ejb-3.2-api
+  description: Enterprise JavaBeans 3.2 API
+  upstream: https://github.com/jboss/jboss-ejb-api_spec
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-integration
+  description: JBoss Integration
+  upstream: http://www.jboss.org
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-invocation
+  description: JBoss Invocation API
+  upstream: https://github.com/jbossas/jboss-invocation
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-jacc-1.5-api
+  description: JACC 1.5 API (JSR-115)
+  upstream: https://github.com/jboss/jboss-jacc-api_spec
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-jaspi-1.0-api
+  description: JBoss Java Authentication SPI for Containers 1.0 API
+  upstream: http://www.jboss.org
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-jaspi-1.1-api
+  description: JBoss Java Authentication SPI for Containers 1.1 API
+  upstream: https://github.com/jboss/jboss-jaspi-api_spec
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-jaxrpc-1.1-api
+  description: Java API for XML-Based RPC (JAX-RPC) 1.1
+  upstream: http://www.jboss.org
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-jms-1.1-api
+  description: JBoss JMS API 1.1 Spec
+  upstream: http://www.jboss.org
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-jsf-2.2-api
+  description: JavaServer Faces 2.2 API
+  upstream: http://www.jboss.org
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-logging-tools1
+  description: JBoss Logging I18n Annotation Processor
+  upstream: https://github.com/jboss-logging/jboss-logging-tools
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-logmanager
+  description: JBoss Log Manager
+  upstream: https://github.com/jboss-logging/jboss-logmanager
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-modules
+  description: A Modular Classloading System
+  upstream: https://github.com/jbossas/jboss-modules
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-msc
+  description: JBoss Modular Service Container
+  upstream: https://github.com/jbossas/jboss-msc
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-servlet-2.5-api
+  description: Java Servlet 2.5 API
+  upstream: http://www.jboss.org
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-specs-parent
+  description: JBoss Specification API Parent POM
+  upstream: http://www.jboss.org/
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-threads
+  description: JBoss Threads
+  upstream: https://github.com/jbossas/jboss-threads
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-transaction-1.2-api
+  description: Transaction 1.2 API
+  upstream: https://github.com/jboss/jboss-transaction-api_spec
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-transaction-spi
+  description: JBoss Transaction SPI
+  upstream: https://github.com/jbosstm/jboss-transaction-spi
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-vfs
+  description: JBoss Virtual File System
+  upstream: https://github.com/jbossas/jboss-vfs/
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-websocket-1.1-api
+  description: JSR-356 Java WebSocket 1.1 API
+  upstream: https://github.com/jboss/jboss-websocket-api_spec
+  protected_branches: 
+  - master
+  type: public
+- name: jbossws-api
+  description: JBossWS API
+  upstream: http://www.jboss.org/jbossws
+  protected_branches: 
+  - master
+  type: public
+- name: jbossws-parent
+  description: JBossWS Parent
+  upstream: http://www.jboss.org/jbossws
+  protected_branches: 
+  - master
+  type: public
+- name: jcommon
+  description: JFree Java utility classes
+  upstream: http://www.jfree.org/jcommon
+  protected_branches: 
+  - master
+  type: public
+- name: jdbi
+  description: A SQL convenience library for Java
+  upstream: http://jdbi.org/
+  protected_branches: 
+  - master
+  type: public
+- name: jdo-api
+  description: JDO 3.1 API
+  upstream: http://db.apache.org/jdo/
+  protected_branches: 
+  - master
+  type: public
+- name: je
+  description: Berkeley DB Java Edition
+  upstream: http://www.oracle.com/us/products/database/berkeley-db/je/overview/index.html
+  protected_branches: 
+  - master
+  type: public
 - name: jenkins-xstream
   description: Jenkins XStream library
   upstream: https://github.com/jenkinsci/xstream
   protected_branches: 
   - master
   type: public
-- name: yecht
-  description: A YAML processor based on Syck
-  upstream: http://github.com/jruby/yecht
+- name: jersey
+  description: JAX-RS (JSR 311) production quality Reference Implementation
+  upstream: https://github.com/eclipse-ee4j/jersey
   protected_branches: 
   - master
   type: public
-- name: openwebbeans
-  description: Implementation of the JSR-299 WebBeans
-  upstream: http://openwebbeans.apache.org/
+- name: jersey1
+  description: JAX-RS (JSR 311) production quality Reference Implementation
+  upstream: http://jersey.java.net/
   protected_branches: 
   - master
   type: public
-- name: sslext
-  description: Struts SSL Switching Extension
-  upstream: http://sslext.sourceforge.net/
+- name: jets3t
+  description: Java interface to Amazon S3 and CloudFront services
+  upstream: http://jets3t.s3.amazonaws.com/index.html
   protected_branches: 
   - master
   type: public
-- name: jetty-distribution-remote-resources
-  description: Jetty toolchain artifact for distribution remote resources
+- name: jetty8
+  description: Java Webserver and Servlet Container
+  upstream: http://www.eclipse.org/jetty
+  protected_branches: 
+  - master
+  type: public
+- name: jetty-alpn
+  description: Jetty implementation of ALPN API
+  upstream: https://github.com/jetty-project/jetty-alpn
+  protected_branches: 
+  - master
+  type: public
+- name: jetty-alpn-api
+  description: Jetty ALPN API
+  upstream: http://www.eclipse.org/jetty
+  protected_branches: 
+  - master
+  type: public
+- name: jetty-artifact-remote-resources
+  description: Jetty toolchain artifact remote resources
+  upstream: http://www.eclipse.org/jetty/
+  protected_branches: 
+  - master
+  type: public
+- name: jetty-assembly-descriptors
+  description: Jetty assembly descriptors used for building
   upstream: http://www.eclipse.org/jetty/
   protected_branches: 
   - master
@@ -38281,9 +38491,9 @@ repositories:
   protected_branches: 
   - master
   type: public
-- name: log4j-jboss-logmanager
-  description: JBoss Log4j Emulation
-  upstream: https://github.com/jboss-logging/log4j-jboss-logmanager
+- name: jetty-distribution-remote-resources
+  description: Jetty toolchain artifact for distribution remote resources
+  upstream: http://www.eclipse.org/jetty/
   protected_branches: 
   - master
   type: public
@@ -38293,141 +38503,15 @@ repositories:
   protected_branches: 
   - master
   type: public
-- name: mavibot
-  description: ApacheDS MVCC BTree implementation
-  upstream: http://directory.apache.org/mavibot/
+- name: jetty-test-policy
+  description: Jetty test policy files
+  upstream: http://www.eclipse.org/jetty/
   protected_branches: 
   - master
   type: public
-- name: springframework-data-commons
-  description: Interfaces between relational and non-relational data stores
-  upstream: http://projects.spring.io/spring-data/
-  protected_branches: 
-  - master
-  type: public
-- name: cassandra-java-driver
-  description: DataStax Java Driver for Apache Cassandra
-  upstream: https://github.com/datastax/java-driver
-  protected_branches: 
-  - master
-  type: public
-- name: evo-inflector
-  description: Implements English pluralization algorithm
-  upstream: https://github.com/atteo/evo-inflector
-  protected_branches: 
-  - master
-  type: public
-- name: eclipse-m2e-workspace
-  description: M2E CLI workspace resolver
-  upstream: https://www.eclipse.org/m2e/
-  protected_branches: 
-  - master
-  type: public
-- name: java-libpst
-  description: A pure Java library for the reading of Outlook PST and OST files
-  upstream: https://github.com/rjohnsondev/java-libpst/
-  protected_branches: 
-  - master
-  type: public
-- name: jaxb2-common-basics
-  description: JAXB2 Basics
-  upstream: https://github.com/highsource/jaxb2-basics
-  protected_branches: 
-  - master
-  type: public
-- name: rabbitmq-java-client
-  description: Java Advanced Message Queue Protocol client library
-  upstream: http://www.rabbitmq.com/java-client.html
-  protected_branches: 
-  - master
-  type: public
-- name: treelayout
-  description: Efficient and customizable Tree Layout Algorithm in Java
-  upstream: http://treelayout.sourceforge.net/
-  protected_branches: 
-  - master
-  type: public
-- name: takari-pom
-  description: Takari parent POM
-  upstream: https://github.com/takari/takari-pom/
-  protected_branches: 
-  - master
-  type: public
-- name: datanucleus-maven-parent
-  description: DataNucleus Maven parent project
-  upstream: https://github.com/datanucleus/datanucleus-maven-parent
-  protected_branches: 
-  - master
-  type: public
-- name: springframework-plugin
-  description: Simple plugin infrastructure
-  upstream: https://github.com/SpringSource/spring-plugin
-  protected_branches: 
-  - master
-  type: public
-- name: jackson-dataformats-text
-  description: Jackson standard text-format data format backends
-  upstream: https://github.com/FasterXML/jackson-dataformats-text
-  protected_branches: 
-  - master
-  type: public
-- name: language-detector
-  description: Language Detection Library for Java
-  upstream: https://github.com/optimaize/language-detector
-  protected_branches: 
-  - master
-  type: public
-- name: weld-api
-  description: Weld specific extesions to CDI API
-  upstream: http://weld.cdi-spec.org
-  protected_branches: 
-  - master
-  type: public
-- name: jmh
-  description: Java Microbenchmark Harness
-  upstream: http://openjdk.java.net/projects/code-tools/jmh/
-  protected_branches: 
-  - master
-  type: public
-- name: xmlenc
-  description: Light-weight XML output library for Java
-  upstream: https://github.com/znerd/xmlenc/
-  protected_branches: 
-  - master
-  type: public
-- name: apache-commons-discovery
-  description: Apache Commons Discovery
-  upstream: http://commons.apache.org/discovery
-  protected_branches: 
-  - master
-  type: public
-- name: signpost-core
-  description: A simple, light-weight, and modular OAuth client library for the Java platform
-  upstream: https://github.com/mttkay/signpost
-  protected_branches: 
-  - master
-  type: public
-- name: js-jquery2
-  description: JavaScript DOM manipulation, event handling, and AJAX library
-  upstream: https://jquery.com/
-  protected_branches: 
-  - master
-  type: public
-- name: maven-reporting-exec
-  description: Classes to manage report plugin executions with Maven 3
-  upstream: http://maven.apache.org/shared/maven-reporting-exec/
-  protected_branches: 
-  - master
-  type: public
-- name: ironjacamar
-  description: Java Connector Architecture 1.7 implementation
-  upstream: http://www.ironjacamar.org/
-  protected_branches: 
-  - master
-  type: public
-- name: glassfish-pfl
-  description: GlassFish Primitive Function Library
-  upstream: http://java.net/projects/gmbal/pages/Home
+- name: jetty-toolchain
+  description: Jetty Toolchain main POM file
+  upstream: http://www.eclipse.org/jetty/
   protected_branches: 
   - master
   type: public
@@ -38437,21 +38521,9 @@ repositories:
   protected_branches: 
   - master
   type: public
-- name: cxf-xjc-utils
-  description: Apache CXF XJC-Utils
-  upstream: http://cxf.apache.org/xjc-utils.html
-  protected_branches: 
-  - master
-  type: public
-- name: springframework-data-mongodb
-  description: MongoDB support for Spring Data
-  upstream: http://projects.spring.io/spring-data-mongodb/
-  protected_branches: 
-  - master
-  type: public
-- name: takari-incrementalbuild
-  description: Takari Incremental Build
-  upstream: http://takari.io
+- name: jfreechart
+  description: Java chart library
+  upstream: http://www.jfree.org/jfreechart/
   protected_branches: 
   - master
   type: public
@@ -38461,21 +38533,45 @@ repositories:
   protected_branches: 
   - master
   type: public
-- name: jersey
-  description: JAX-RS (JSR 311) production quality Reference Implementation
-  upstream: https://github.com/eclipse-ee4j/jersey
+- name: jline1
+  description: Java library for reading and editing user input in console applications
+  upstream: http://jline.sourceforge.net/
   protected_branches: 
   - master
   type: public
-- name: memoryfilesystem
-  description: An in memory implementation of a JSR-203 file system
-  upstream: https://github.com/marschall/memoryfilesystem
+- name: jmatio
+  description: Java Matlab IO library
+  upstream: https://github.com/gradusnikov/jmatio
   protected_branches: 
   - master
   type: public
-- name: cpptasks
-  description: Compile and link task for ant
-  upstream: http://ant-contrib.sourceforge.net/
+- name: jmh
+  description: Java Microbenchmark Harness
+  upstream: http://openjdk.java.net/projects/code-tools/jmh/
+  protected_branches: 
+  - master
+  type: public
+- name: jmock
+  description: Java library for testing code with mock objects
+  upstream: http://www.jmock.org/
+  protected_branches: 
+  - master
+  type: public
+- name: jnr-x86asm
+  description: Pure-java port of asmjit
+  upstream: https://github.com/jnr/jnr-x86asm/
+  protected_branches: 
+  - master
+  type: public
+- name: js-jquery2
+  description: JavaScript DOM manipulation, event handling, and AJAX library
+  upstream: https://jquery.com/
+  protected_branches: 
+  - master
+  type: public
+- name: json-smart
+  description: A small and very fast json parser/generator for java
+  upstream: https://github.com/netplex/json-smart-v2
   protected_branches: 
   - master
   type: public
@@ -38485,135 +38581,45 @@ repositories:
   protected_branches: 
   - master
   type: public
-- name: spatial4j
-  description: A Geospatial Library for Java
-  upstream: https://projects.eclipse.org/projects/locationtech.spatial4j
+- name: jtoaster
+  description: Java utility class for swing applications
+  upstream: http://jtoaster.sourceforge.net/
   protected_branches: 
   - master
   type: public
-- name: maven-processor-plugin
-  description: Maven Processor Plugin
-  upstream: https://github.com/bsorrentino/maven-annotation-plugin
+- name: jts
+  description: Java Topology Suite
+  upstream: https://projects.eclipse.org/projects/locationtech.jts
   protected_branches: 
   - master
   type: public
-- name: eclipse-remote
-  description: Eclipse Remote Services plug-in
-  upstream: https://www.eclipse.org/ptp/
+- name: jul-to-slf4j-stub
+  description: JUL log records SLF4J bridge
+  upstream: http://www.jboss.org/
   protected_branches: 
   - master
   type: public
-- name: shrinkwrap-descriptors
-  description: ShrinkWrap sub-project for creating Archive Descriptors
-  upstream: http://arquillian.org/modules/descriptors-shrinkwrap/
+- name: jython
+  description: A Java implementation of the Python language
+  upstream: http://www.jython.org/
   protected_branches: 
   - master
   type: public
-- name: jackson-modules-base
-  description: Jackson modules Base
-  upstream: https://github.com/FasterXML/jackson-modules-base
+- name: language-detector
+  description: Language Detection Library for Java
+  upstream: https://github.com/optimaize/language-detector
   protected_branches: 
   - master
   type: public
-- name: buildnumber-maven-plugin
-  description: Build Number Maven Plugin
-  upstream: https://www.mojohaus.org/buildnumber-maven-plugin
+- name: ldaptive
+  description: LDAP library for Java
+  upstream: http://www.ldaptive.org/
   protected_branches: 
   - master
   type: public
-- name: javapoet
-  description: A Java API for generating .java source files
-  upstream: https://github.com/square/javapoet
-  protected_branches: 
-  - master
-  type: public
-- name: takari-lifecycle
-  description: Optimized replacement for the Maven default lifecycle
-  upstream: http://takari.io
-  protected_branches: 
-  - master
-  type: public
-- name: staxmapper
-  description: StAX Mapper
-  upstream: https://github.com/jbossas/staxmapper
-  protected_branches: 
-  - master
-  type: public
-- name: maven-idea-plugin
-  description: Maven IDEA Plugin
-  upstream: http://maven.apache.org/plugins/maven-idea-plugin
-  protected_branches: 
-  - master
-  type: public
-- name: perl-Class-Accessor
-  description: Automated accessor generation
-  upstream: https://metacpan.org/release/Class-Accessor
-  protected_branches: 
-  - master
-  type: public
-- name: sac
-  description: Java standard interface for CSS parser
-  upstream: http://www.w3.org/Style/CSS/SAC/
-  protected_branches: 
-  - master
-  type: public
-- name: felix-gogo-command
-  description: Apache Felix Gogo command line shell for OSGi
-  upstream: http://felix.apache.org/documentation/subprojects/apache-felix-gogo.html
-  protected_branches: 
-  - master
-  type: public
-- name: wildfly-security-manager
-  description: WildFly Security Manager
-  upstream: https://github.com/wildfly-security/security-manager/
-  protected_branches: 
-  - master
-  type: public
-- name: nodeunit
-  description: Easy asynchronous unit testing framework for Node.js
-  upstream: https://github.com/caolan/nodeunit
-  protected_branches: 
-  - master
-  type: public
-- name: springframework-retry
-  description: Abstraction around retrying failed operations
-  upstream: https://github.com/spring-projects/spring-retry
-  protected_branches: 
-  - master
-  type: public
-- name: jasypt
-  description: Java Simplified Encryption
-  upstream: http://www.jasypt.org/
-  protected_branches: 
-  - master
-  type: public
-- name: eclipse-swtbot
-  description: UI and functional testing tool for SWT and Eclipse based applications
-  upstream: http://www.eclipse.org/swtbot/
-  protected_branches: 
-  - master
-  type: public
-- name: felix-scr
-  description: Apache Felix Service Component Runtime (SCR)
-  upstream: https://github.com/apache/felix-dev/tree/master/scr
-  protected_branches: 
-  - master
-  type: public
-- name: os-maven-plugin
-  description: Maven plugin for generating platform-dependent properties
-  upstream: https://github.com/trustin/os-maven-plugin/
-  protected_branches: 
-  - master
-  type: public
-- name: takari-plugin-testing
-  description: Maven plugin testing library
-  upstream: http://takari.io/
-  protected_branches: 
-  - master
-  type: public
-- name: jackson-datatypes-collections
-  description: Jackson datatypes collections
-  upstream: https://github.com/FasterXML/jackson-datatypes-collections
+- name: lettuce
+  description: Scalable Java Redis client
+  upstream: http://redis.paluch.biz/
   protected_branches: 
   - master
   type: public
@@ -38623,123 +38629,27 @@ repositories:
   protected_branches: 
   - master
   type: public
-- name: jandex-maven-plugin
-  description: Jandex wrapper for Maven
-  upstream: https://github.com/wildfly/jandex-maven-plugin
+- name: lodash
+  description: A JavaScript utility library
+  upstream: https://lodash.com/
   protected_branches: 
   - master
   type: public
-- name: reflections
-  description: Java run-time meta-data analysis
-  upstream: https://github.com/ronmamo/reflections
+- name: log4j-jboss-logmanager
+  description: JBoss Log4j Emulation
+  upstream: https://github.com/jboss-logging/log4j-jboss-logmanager
   protected_branches: 
   - master
   type: public
-- name: jackson-jaxrs-providers
-  description: Jackson JAX-RS providers
-  upstream: https://github.com/FasterXML/jackson-jaxrs-providers
+- name: lucene3
+  description: High-performance, full-featured text search engine
+  upstream: http://lucene.apache.org/
   protected_branches: 
   - master
   type: public
-- name: uima-addons
-  description: Apache UIMA Addons components
-  upstream: http://uima.apache.org/sandbox.html
-  protected_branches: 
-  - master
-  type: public
-- name: java-xmlbuilder
-  description: XML Builder Java library for creating XML documents
-  upstream: https://github.com/jmurty/java-xmlbuilder
-  protected_branches: 
-  - master
-  type: public
-- name: hawtbuf
-  description: A rich byte buffer library
-  upstream: https://github.com/fusesource/hawtbuf/
-  protected_branches: 
-  - master
-  type: public
-- name: BareBonesBrowserLaunch
-  description: Simple library to launch a browser window from Java
-  upstream: http://www.centerkey.com/java/browser/
-  protected_branches: 
-  - master
-  type: public
-- name: metainf-services
-  description: Small java library for generating META-INF/services files
-  upstream: https://github.com/kohsuke/metainf-services
-  protected_branches: 
-  - master
-  type: public
-- name: weld-parent
-  description: Parent POM for Weld
-  upstream: http://weld.cdi-spec.org
-  protected_branches: 
-  - master
-  type: public
-- name: jfreechart
-  description: Java chart library
-  upstream: http://www.jfree.org/jfreechart/
-  protected_branches: 
-  - master
-  type: public
-- name: icc-profiles-openicc
-  description: The OpenICC profiles
-  upstream: http://www.freedesktop.org/wiki/OpenIcc
-  protected_branches: 
-  - master
-  type: public
-- name: springframework-batch
-  description: Tools for enterprise batch or bulk processing
-  upstream: http://www.springsource.org/spring-batch
-  protected_branches: 
-  - master
-  type: public
-- name: jetty-test-policy
-  description: Jetty test policy files
-  upstream: http://www.eclipse.org/jetty/
-  protected_branches: 
-  - master
-  type: public
-- name: jdbi
-  description: A SQL convenience library for Java
-  upstream: http://jdbi.org/
-  protected_branches: 
-  - master
-  type: public
-- name: svnkit
-  description: Pure Java library to manage Subversion working copies and repositories
-  upstream: https://www.svnkit.com/
-  protected_branches: 
-  - master
-  type: public
-- name: hibernate-validator
-  description: Bean Validation 1.1 (JSR 349) Reference Implementation
-  upstream: http://www.hibernate.org/subprojects/validator.html
-  protected_branches: 
-  - master
-  type: public
-- name: znerd-oss-parent
-  description: Znerd.org OSS Parent
-  upstream: https://github.com/znerd/znerd-oss-parent
-  protected_branches: 
-  - master
-  type: public
-- name: jersey1
-  description: JAX-RS (JSR 311) production quality Reference Implementation
-  upstream: http://jersey.java.net/
-  protected_branches: 
-  - master
-  type: public
-- name: vorbis-java
-  description: Ogg and Vorbis toolkit for Java
-  upstream: https://github.com/Gagravarr/VorbisJava
-  protected_branches: 
-  - master
-  type: public
-- name: jboss-ejb-3.1-api
-  description: EJB 3.1 API
-  upstream: http://www.jboss.org
+- name: lz4-java
+  description: LZ4 compression for Java
+  upstream: https://github.com/jpountz/lz4-java
   protected_branches: 
   - master
   type: public
@@ -38755,981 +38665,9 @@ repositories:
   protected_branches: 
   - master
   type: public
-- name: mustache-java
-  description: Implementation of mustache.js for Java
-  upstream: https://github.com/spullara/mustache.java/
-  protected_branches: 
-  - master
-  type: public
-- name: sonatype-plugins-parent
-  description: Sonatype Plugins Parent POM
-  upstream: https://github.com/sonatype/oss-parents
-  protected_branches: 
-  - master
-  type: public
-- name: jetty8
-  description: Java Webserver and Servlet Container
-  upstream: http://www.eclipse.org/jetty
-  protected_branches: 
-  - master
-  type: public
-- name: maven-jarsigner-plugin
-  description: Signs or verifies a project artifact and attachments using jarsigner
-  upstream: http://maven.apache.org/plugins/maven-jarsigner-plugin/
-  protected_branches: 
-  - master
-  type: public
-- name: nodejs-ctype
-  description: Read and write binary structures and data types with Node.js
-  upstream: https://github.com/rmustacc/node-ctype
-  protected_branches: 
-  - master
-  type: public
-- name: felix-main
-  description: Apache Felix Main
-  upstream: http://felix.apache.org
-  protected_branches: 
-  - master
-  type: public
-- name: rxjava
-  description: Reactive Extensions for the JVM
-  upstream: https://github.com/ReactiveX/RxJava
-  protected_branches: 
-  - master
-  type: public
-- name: jetty-artifact-remote-resources
-  description: Jetty toolchain artifact remote resources
-  upstream: http://www.eclipse.org/jetty/
-  protected_branches: 
-  - master
-  type: public
-- name: maven-mapping
-  description: Apache Maven Mapping
-  upstream: http://maven.apache.org/shared/maven-mapping/
-  protected_branches: 
-  - master
-  type: public
-- name: apache-commons-cli
-  description: Command Line Interface Library for Java
-  upstream: http://commons.apache.org/cli/
-  protected_branches: 
-  - master
-  type: public
-- name: jetty-assembly-descriptors
-  description: Jetty assembly descriptors used for building
-  upstream: http://www.eclipse.org/jetty/
-  protected_branches: 
-  - master
-  type: public
-- name: maven-war-plugin
-  description: Maven WAR Plugin
-  upstream: http://maven.apache.org/plugins/maven-war-plugin/
-  protected_branches: 
-  - master
-  type: public
-- name: jmatio
-  description: Java Matlab IO library
-  upstream: https://github.com/gradusnikov/jmatio
-  protected_branches: 
-  - master
-  type: public
-- name: jetty-toolchain
-  description: Jetty Toolchain main POM file
-  upstream: http://www.eclipse.org/jetty/
-  protected_branches: 
-  - master
-  type: public
-- name: rubygem-pdf-reader
-  description: A library for accessing the content of PDF files
-  upstream: https://github.com/yob/pdf-reader
-  protected_branches: 
-  - master
-  type: public
-- name: rubygem-pdf-core
-  description: PDF::Core is used by Prawn to render PDF documents
-  upstream: https://github.com/prawnpdf/pdf-core
-  protected_branches: 
-  - master
-  type: public
-- name: nodejs-dateformat
-  description: Steven Levithan's excellent dateFormat() function for Node.js
-  upstream: https://github.com/felixge/node-dateformat
-  protected_branches: 
-  - master
-  type: public
-- name: rubygem-pdf-inspector
-  description: A tool for analyzing PDF output
-  upstream: https://github.com/prawnpdf/pdf-inspector
-  protected_branches: 
-  - master
-  type: public
-- name: sisu-mojos
-  description: Sisu plugin for Apache Maven
-  upstream: http://www.eclipse.org/sisu
-  protected_branches: 
-  - master
-  type: public
-- name: simple-xml
-  description: An XML serialization framework for Java
-  upstream: http://simple.sourceforge.net/
-  protected_branches: 
-  - master
-  type: public
-- name: snowball-java
-  description: Java stemming algorithm library
-  upstream: http://snowball.tartarus.org
-  protected_branches: 
-  - master
-  type: public
-- name: jnr-x86asm
-  description: Pure-java port of asmjit
-  upstream: https://github.com/jnr/jnr-x86asm/
-  protected_branches: 
-  - master
-  type: public
-- name: annotation-indexer
-  description: Jenkins annotation-indexer library
-  upstream: https://github.com/jenkinsci/lib-annotation-indexer
-  protected_branches: 
-  - master
-  type: public
-- name: rubygem-Ascii85
-  description: Ascii85 encoder/decoder
-  upstream: https://github.com/DataWraith/ascii85gem
-  protected_branches: 
-  - master
-  type: public
-- name: rubygem-cucumber-tag_expressions
-  description: Cucumber tag expressions for ruby
-  upstream: https://cucumber.io/docs/cucumber/api/#tag-expressions
-  protected_branches: 
-  - master
-  type: public
-- name: rubygem-cucumber
-  description: Tool to execute plain-text documents as functional tests
-  upstream: https://cucumber.io/
-  protected_branches: 
-  - master
-  type: public
-- name: rubygem-formatador
-  description: Ruby STDOUT text formatting
-  upstream: http://github.com/geemus/formatador
-  protected_branches: 
-  - master
-  type: public
-- name: rubygem-concurrent-ruby
-  description: Modern concurrency tools for Ruby
-  upstream: http://www.concurrent-ruby.com
-  protected_branches: 
-  - master
-  type: public
-- name: rubygem-mustermann
-  description: Your personal string matching expert
-  upstream: https://github.com/sinatra/mustermann
-  protected_branches: 
-  - master
-  type: public
-- name: rubygem-bootsnap
-  description: Boot large ruby/rails apps faster
-  upstream: https://github.com/Shopify/bootsnap
-  protected_branches: 
-  - master
-  type: public
-- name: rubygem-method_source
-  description: Retrieve the source code for a method
-  upstream: https://banisterfiend.wordpress.com
-  protected_branches: 
-  - master
-  type: public
-- name: rubygem-puma
-  description: A simple, fast, threaded, and highly concurrent HTTP 1.1 server
-  upstream: http://puma.io
-  protected_branches: 
-  - master
-  type: public
-- name: rubygem-redis
-  description: A Ruby client library for Redis
-  upstream: https://github.com/redis/redis-rb
-  protected_branches: 
-  - master
-  type: public
-- name: rubygem-coffee-script
-  description: Ruby CoffeeScript Compiler
-  upstream: https://github.com/rails/ruby-coffee-script.git
-  protected_branches: 
-  - master
-  type: public
-- name: rubygem-rack-protection
-  description: Ruby gem that protects against typical web attacks
-  upstream: http://github.com/sinatra/sinatra/tree/master/rack-protection
-  protected_branches: 
-  - master
-  type: public
-- name: rubygem-globalid
-  description: Refer to any model
-  upstream: https://github.com/rails/globalid
-  protected_branches: 
-  - master
-  type: public
-- name: rubygem-ejs
-  description: EJS (Embedded JavaScript) template compiler
-  upstream: https://github.com/sstephenson/ruby-ejs/
-  protected_branches: 
-  - master
-  type: public
-- name: rubygem-multi_json
-  description: A common interface to multiple JSON libraries
-  upstream: http://github.com/intridea/multi_json
-  protected_branches: 
-  - master
-  type: public
-- name: rubygem-delorean
-  description: Delorean lets you travel in time with Ruby by mocking Time.now
-  upstream: https://github.com/bebanjo/delorean
-  protected_branches: 
-  - master
-  type: public
-- name: rubygem-cucumber-core
-  description: Core library for the Cucumber BDD app
-  upstream: https://cucumber.io
-  protected_branches: 
-  - master
-  type: public
-- name: rubygem-capybara
-  description: Capybara aims to simplify the process of integration testing Rack applications
-  upstream: https://github.com/teamcapybara/capybara
-  protected_branches: 
-  - master
-  type: public
-- name: rubygem-nokogiri
-  description: An HTML, XML, SAX, and Reader parser
-  upstream: https://nokogiri.org
-  protected_branches: 
-  - master
-  type: public
-- name: rubygem-haml
-  description: An elegant, structured (X)HTML/XML templating engine
-  upstream: http://haml.info/
-  protected_branches: 
-  - master
-  type: public
-- name: rubygem-rack-cache
-  description: HTTP Caching for Rack
-  upstream: https://github.com/rtomayko/rack-cache
-  protected_branches: 
-  - master
-  type: public
-- name: rubygem-mini_magick
-  description: Manipulate images with minimal use of memory via ImageMagick
-  upstream: https://github.com/minimagick/minimagick
-  protected_branches: 
-  - master
-  type: public
-- name: rubygem-listen
-  description: Listen to file modifications
-  upstream: https://github.com/guard/listen
-  protected_branches: 
-  - master
-  type: public
-- name: rubygem-mail
-  description: Mail provides a nice Ruby DSL for making, sending and reading emails
-  upstream: https://github.com/mikel/mail
-  protected_branches: 
-  - master
-  type: public
-- name: rubygem-selenium-webdriver
-  description: The next generation developer focused tool for automated testing of webapps
-  upstream: https://www.selenium.dev
-  protected_branches: 
-  - master
-  type: public
-- name: rubygem-gherkin
-  description: Fast Gherkin lexer/parser
-  upstream: https://github.com/cucumber/gherkin-ruby
-  protected_branches: 
-  - master
-  type: public
-- name: rubygem-execjs
-  description: Run JavaScript code from Ruby
-  upstream: https://github.com/rails/execjs
-  protected_branches: 
-  - master
-  type: public
-- name: rubygem-arel
-  description: Arel is a SQL AST manager for Ruby
-  upstream: https://github.com/rails/arel
-  protected_branches: 
-  - master
-  type: public
-- name: rubygem-coffee-script-source
-  description: The CoffeeScript Compiler
-  upstream: http://github.com/jashkenas/coffeescript/
-  protected_branches: 
-  - master
-  type: public
-- name: rubygem-daemons
-  description: A toolkit to create and control daemons in different ways
-  upstream: https://rubygems.org/gems/daemons
-  protected_branches: 
-  - master
-  type: public
-- name: rubygem-rack-test
-  description: Simple testing API built on Rack
-  upstream: http://github.com/rack-test/rack-test
-  protected_branches: 
-  - master
-  type: public
-- name: rubygem-expression_parser
-  description: A math parser
-  upstream: http://lukaszwrobel.pl/blog/math-parser-part-3-implementation
-  protected_branches: 
-  - master
-  type: public
-- name: rubygem-pry
-  description: An IRB alternative and runtime developer console
-  upstream: https://rubygems.org/gems/pry
-  protected_branches: 
-  - master
-  type: public
-- name: trilead-ssh2
-  description: SSH-2 protocol implementation in pure Java
-  upstream: https://github.com/jenkinsci/trilead-ssh2
-  protected_branches: 
-  - master
-  type: public
-- name: nodejs-with
-  description: Compile time `with` for strict mode JavaScript
-  upstream: https://github.com/ForbesLindesay/with
-  protected_branches: 
-  - master
-  type: public
-- name: nodejs-iconv-lite
-  description: Convert character encodings in pure JavaScript
-  upstream: https://github.com/ashtuchkin/iconv-lite
-  protected_branches: 
-  - master
-  type: public
-- name: swt-chart
-  description: SWTChart Feature
-  upstream: http://www.swtchart.org/
-  protected_branches: 
-  - master
-  type: public
-- name: rubygem-actionview
-  description: Rendering framework putting the V in MVC (part of Rails)
-  upstream: http://rubyonrails.org
-  protected_branches: 
-  - master
-  type: public
-- name: jboss-specs-parent
-  description: JBoss Specification API Parent POM
-  upstream: http://www.jboss.org/
-  protected_branches: 
-  - master
-  type: public
-- name: jmock
-  description: Java library for testing code with mock objects
-  upstream: http://www.jmock.org/
-  protected_branches: 
-  - master
-  type: public
-- name: nodejs-underscore
-  description: JavaScript's functional programming helper library
-  upstream: http://underscorejs.org/
-  protected_branches: 
-  - master
-  type: public
-- name: node-gyp
-  description: Node.js native addon build tool
-  upstream: https://github.com/nodejs/node-gyp
-  protected_branches: 
-  - master
-  type: public
-- name: nodejs-mdurl
-  description: URL utilities for markdown-it
-  upstream: https://github.com/markdown-it/mdurl.git
-  protected_branches: 
-  - master
-  type: public
-- name: jboss-vfs
-  description: JBoss Virtual File System
-  upstream: https://github.com/jbossas/jboss-vfs/
-  protected_branches: 
-  - master
-  type: public
-- name: takari-archiver
-  description: Takari Archiver
-  upstream: http://takari.io
-  protected_branches: 
-  - master
-  type: public
-- name: nodejs-eventemitter2
-  description: A Node.js event emitter implementation with namespaces, wildcards and TTL
-  upstream: https://github.com/hij1nx/EventEmitter2
-  protected_branches: 
-  - master
-  type: public
-- name: nodejs-unpipe
-  description: Unpipe a stream from all destinations
-  upstream: https://github.com/stream-utils/unpipe
-  protected_branches: 
-  - master
-  type: public
-- name: nodejs-bytes
-  description: Utility to parse a string bytes to bytes and vice-versa
-  upstream: https://github.com/visionmedia/bytes.js
-  protected_branches: 
-  - master
-  type: public
-- name: jcommon
-  description: JFree Java utility classes
-  upstream: http://www.jfree.org/jcommon
-  protected_branches: 
-  - master
-  type: public
-- name: rubygem-actionpack
-  description: Web-flow and rendering framework putting the VC in MVC (part of Rails)
-  upstream: http://rubyonrails.org
-  protected_branches: 
-  - master
-  type: public
-- name: eclipselink
-  description: Eclipse Persistence Services Project
-  upstream: http://www.eclipse.org/eclipselink/
-  protected_branches: 
-  - master
-  type: public
-- name: nodejs-jison-lex
-  description: Lexical analyzer generator used by jison
-  upstream: https://github.com/zaach/jison-lex.git
-  protected_branches: 
-  - master
-  type: public
-- name: jboss-threads
-  description: JBoss Threads
-  upstream: https://github.com/jbossas/jboss-threads
-  protected_branches: 
-  - master
-  type: public
-- name: ws-xmlschema
-  description: Apache XMLSchema
-  upstream: http://ws.apache.org/xmlschema/
-  protected_branches: 
-  - master
-  type: public
-- name: jboss-dmr
-  description: The JBoss logging Framework
-  upstream: https://github.com/jbossas/jboss-dmr
-  protected_branches: 
-  - master
-  type: public
-- name: jtoaster
-  description: Java utility class for swing applications
-  upstream: http://jtoaster.sourceforge.net/
-  protected_branches: 
-  - master
-  type: public
-- name: thredds
-  description: Thematic Realtime Environmental Distributed Data Services (TDS)
-  upstream: http://www.unidata.ucar.edu/software/tds/
-  protected_branches: 
-  - master
-  type: public
-- name: xmpcore
-  description: Java XMP Library
-  upstream: http://www.adobe.com/devnet/xmp.html
-  protected_branches: 
-  - master
-  type: public
-- name: jboss-jacc-1.5-api
-  description: JACC 1.5 API (JSR-115)
-  upstream: https://github.com/jboss/jboss-jacc-api_spec
-  protected_branches: 
-  - master
-  type: public
-- name: nodejs-monocle
-  description: A tool for watching directories for file changes
-  upstream: https://github.com/samccone/monocle
-  protected_branches: 
-  - master
-  type: public
-- name: jboss-msc
-  description: JBoss Modular Service Container
-  upstream: https://github.com/jbossas/jboss-msc
-  protected_branches: 
-  - master
-  type: public
-- name: nodejs-caller-path
-  description: Get the path of the caller module
-  upstream: https://github.com/sindresorhus/caller-path
-  protected_branches: 
-  - master
-  type: public
-- name: jboss-jms-1.1-api
-  description: JBoss JMS API 1.1 Spec
-  upstream: http://www.jboss.org
-  protected_branches: 
-  - master
-  type: public
-- name: nodejs-fstream
-  description: Advanced file system stream objects for Node.js
-  upstream: https://github.com/isaacs/fstream
-  protected_branches: 
-  - master
-  type: public
-- name: jline1
-  description: Java library for reading and editing user input in console applications
-  upstream: http://jline.sourceforge.net/
-  protected_branches: 
-  - master
-  type: public
-- name: nodejs-promise
-  description: Bare bones Promises/A+ implementation for Node.js
-  upstream: https://github.com/then/promise
-  protected_branches: 
-  - master
-  type: public
-- name: jboss-invocation
-  description: JBoss Invocation API
-  upstream: https://github.com/jbossas/jboss-invocation
-  protected_branches: 
-  - master
-  type: public
-- name: rubygem-actionmailer
-  description: Email composition, delivery, and receiving framework (part of Rails)
-  upstream: http://rubyonrails.org
-  protected_branches: 
-  - master
-  type: public
-- name: jboss-websocket-1.1-api
-  description: JSR-356 Java WebSocket 1.1 API
-  upstream: https://github.com/jboss/jboss-websocket-api_spec
-  protected_branches: 
-  - master
-  type: public
-- name: nodejs-jsonselect
-  description: CSS-like selectors for JSON
-  upstream: https://github.com/lloyd/JSONSelect.git
-  protected_branches: 
-  - master
-  type: public
-- name: picketbox
-  description: Security framework for Java Applications
-  upstream: https://picketbox.jboss.org
-  protected_branches: 
-  - master
-  type: public
-- name: noggit
-  description: JSON streaming parser
-  upstream: https://github.com/yonik/noggit
-  protected_branches: 
-  - master
-  type: public
-- name: tiles
-  description: Java templating framework for web application user interfaces
-  upstream: http://tiles.apache.org/
-  protected_branches: 
-  - master
-  type: public
-- name: rubygem-activerecord
-  description: Object-relational mapper framework (part of Rails)
-  upstream: http://rubyonrails.org
-  protected_branches: 
-  - master
-  type: public
-- name: zxing
-  description: Java multi-format 1D/2D bar-code image processing library
-  upstream: https://github.com/zxing/zxing/
-  protected_branches: 
-  - master
-  type: public
-- name: rubygem-activejob
-  description: Job framework with pluggable queues
-  upstream: http://rubyonrails.org
-  protected_branches: 
-  - master
-  type: public
-- name: jets3t
-  description: Java interface to Amazon S3 and CloudFront services
-  upstream: http://jets3t.s3.amazonaws.com/index.html
-  protected_branches: 
-  - master
-  type: public
-- name: ws-jaxme
-  description: Open source implementation of JAXB
-  upstream: http://ws.apache.org/
-  protected_branches: 
-  - master
-  type: public
-- name: nodejs-findup-sync
-  description: Find the first file matching a given pattern
-  upstream: https://github.com/js-cli/node-findup-sync
-  protected_branches: 
-  - master
-  type: public
-- name: nodejs-tunnel-agent
-  description: HTTP proxy tunneling agent
-  upstream: https://github.com/request/tunnel-agent
-  protected_branches: 
-  - master
-  type: public
-- name: jboss-integration
-  description: JBoss Integration
-  upstream: http://www.jboss.org
-  protected_branches: 
-  - master
-  type: public
-- name: jboss-transaction-spi
-  description: JBoss Transaction SPI
-  upstream: https://github.com/jbosstm/jboss-transaction-spi
-  protected_branches: 
-  - master
-  type: public
-- name: nodejs-diff
-  description: A JavaScript text diff implementation for Node.js
-  upstream: https://github.com/kpdecker/jsdiff
-  protected_branches: 
-  - master
-  type: public
-- name: quartz
-  description: Enterprise Job Scheduler for Java
-  upstream: http://www.quartz-scheduler.org/
-  protected_branches: 
-  - master
-  type: public
-- name: picketbox-commons
-  description: Common classes for security projects
-  upstream: http://www.jboss.org/picketbox
-  protected_branches: 
-  - master
-  type: public
-- name: jboss-jaspi-1.0-api
-  description: JBoss Java Authentication SPI for Containers 1.0 API
-  upstream: http://www.jboss.org
-  protected_branches: 
-  - master
-  type: public
-- name: nodejs-commander
-  description: Node.js command-line interfaces made easy
-  upstream: https://github.com/tj/commander
-  protected_branches: 
-  - master
-  type: public
-- name: nodejs-lex-parser
-  description: A parser for lexical grammars used by jison
-  upstream: https://github.com/zaach/lex-parser.git
-  protected_branches: 
-  - master
-  type: public
-- name: xml-maven-plugin
-  description: Maven XML Plugin
-  upstream: http://www.mojohaus.org/xml-maven-plugin/
-  protected_branches: 
-  - master
-  type: public
-- name: nodejs-array-uniq
-  description: Create an array without duplicates
-  upstream: https://www.npmjs.com/package/array-uniq
-  protected_branches: 
-  - master
-  type: public
-- name: apache-commons-ognl
-  description: Object Graph Navigation Library
-  upstream: http://commons.apache.org/ognl/
-  protected_branches: 
-  - master
-  type: public
-- name: rubygem-activeresource
-  description: REST modeling framework (part of Rails)
-  upstream: http://www.rubyonrails.org
-  protected_branches: 
-  - master
-  type: public
-- name: time-api
-  description: JSR-310 - Date and Time API
-  upstream: http://threeten.github.com/
-  protected_branches: 
-  - master
-  type: public
-- name: jboss-servlet-2.5-api
-  description: Java Servlet 2.5 API
-  upstream: http://www.jboss.org
-  protected_branches: 
-  - master
-  type: public
-- name: je
-  description: Berkeley DB Java Edition
-  upstream: http://www.oracle.com/us/products/database/berkeley-db/je/overview/index.html
-  protected_branches: 
-  - master
-  type: public
-- name: jboss-ejb-3.2-api
-  description: Enterprise JavaBeans 3.2 API
-  upstream: https://github.com/jboss/jboss-ejb-api_spec
-  protected_branches: 
-  - master
-  type: public
-- name: nodejs-acorn
-  description: ECMAScript parser
-  upstream: https://github.com/ternjs/acorn
-  protected_branches: 
-  - master
-  type: public
-- name: nodejs-supports-color
-  description: Detect whether a terminal supports color
-  upstream: https://github.com/chalk/supports-color
-  protected_branches: 
-  - master
-  type: public
-- name: jboss-jsf-2.2-api
-  description: JavaServer Faces 2.2 API
-  upstream: http://www.jboss.org
-  protected_branches: 
-  - master
-  type: public
-- name: jbossws-parent
-  description: JBossWS Parent
-  upstream: http://www.jboss.org/jbossws
-  protected_branches: 
-  - master
-  type: public
-- name: nodejs-rollup
-  description: Next-generation ES6 module bundler
-  upstream: https://github.com/rollup/rollup
-  protected_branches: 
-  - master
-  type: public
-- name: nodejs-string-dot-prototype-dot-repeat
-  description: A robust & optimized `String.prototype.repeat` polyfill
-  upstream: https://github.com/mathiasbynens/String.prototype.repeat.git
-  protected_branches: 
-  - master
-  type: public
-- name: rubygem-activestorage
-  description: Local and cloud file storage framework
-  upstream: http://rubyonrails.org
-  protected_branches: 
-  - master
-  type: public
-- name: nodejs-gaze
-  description: A globbing fs.watch wrapper built from parts of other watch libraries
-  upstream: https://github.com/shama/gaze
-  protected_branches: 
-  - master
-  type: public
-- name: nodejs-jison
-  description: A parser generator with Bison's API
-  upstream: https://github.com/zaach/jison
-  protected_branches: 
-  - master
-  type: public
-- name: nodejs-raw-body
-  description: Get and validate the raw body of a readable stream
-  upstream: https://github.com/stream-utils/raw-body
-  protected_branches: 
-  - master
-  type: public
-- name: nodejs-which
-  description: A JavaScript implementation of the 'which' command
-  upstream: https://github.com/isaacs/node-which
-  protected_branches: 
-  - master
-  type: public
-- name: nodejs-require-uncached
-  description: Require a module bypassing the cache
-  upstream: https://github.com/sindresorhus/require-uncached
-  protected_branches: 
-  - master
-  type: public
-- name: saxpath
-  description: Simple API for XPath
-  upstream: http://sourceforge.net/projects/saxpath/
-  protected_branches: 
-  - master
-  type: public
-- name: nodejs-console-dot-log
-  description: A console.log implementation that plays nice with large amounts of data
-  upstream: https://developer.mozilla.org/en-US/docs/Web/API/Console/log
-  protected_branches: 
-  - master
-  type: public
-- name: xmlbeans-maven-plugin
-  description: Maven XML Beans Plugin
-  upstream: https://github.com/take5pl/xmlbeans-maven-plugin
-  protected_branches: 
-  - master
-  type: public
-- name: rubygem-activemodel
-  description: A toolkit for building modeling frameworks (part of Rails)
-  upstream: http://rubyonrails.org
-  protected_branches: 
-  - master
-  type: public
-- name: jdo-api
-  description: JDO 3.1 API
-  upstream: http://db.apache.org/jdo/
-  protected_branches: 
-  - master
-  type: public
-- name: uimaj
-  description: Apache UIMA is an implementation of the OASIS-UIMA specifications
-  upstream: http://uima.apache.org/
-  protected_branches: 
-  - master
-  type: public
-- name: apacheds
-  description: Apache Directory Server
-  upstream: http://directory.apache.org/
-  protected_branches: 
-  - master
-  type: public
-- name: nodejs-websocket-driver
-  description: WebSocket protocol handler with pluggable I/O for Node.js
-  upstream: http://github.com/faye/websocket-driver-node
-  protected_branches: 
-  - master
-  type: public
-- name: jbossws-api
-  description: JBossWS API
-  upstream: http://www.jboss.org/jbossws
-  protected_branches: 
-  - master
-  type: public
-- name: jboss-jaspi-1.1-api
-  description: JBoss Java Authentication SPI for Containers 1.1 API
-  upstream: https://github.com/jboss/jboss-jaspi-api_spec
-  protected_branches: 
-  - master
-  type: public
-- name: xmlbeans
-  description: XML-Java binding tool
-  upstream: http://xmlbeans.apache.org/
-  protected_branches: 
-  - master
-  type: public
-- name: picketbox-xacml
-  description: JBoss XACML
-  upstream: http://picketbox.jboss.org/
-  protected_branches: 
-  - master
-  type: public
-- name: rubygem-activemodel-serializers-xml
-  description: XML serialization for Active Model objects and Active Record models
-  upstream: http://github.com/rails/activemodel-serializers-xml
-  protected_branches: 
-  - master
-  type: public
-- name: nodejs-spdx-correct
-  description: Correct invalid SPDX identifiers
-  upstream: https://github.com/jslicense/spdx-correct.js
-  protected_branches: 
-  - master
-  type: public
-- name: xml-security
-  description: Implementation of W3C security standards for XML
-  upstream: http://santuario.apache.org/
-  protected_branches: 
-  - master
-  type: public
-- name: datanucleus-rdbms
-  description: DataNucleus RDBMS
-  upstream: http://www.datanucleus.org/datanucleus-rdbms
-  protected_branches: 
-  - master
-  type: public
-- name: nodejs-requirejs
-  description: Node.js adapter for RequireJS, for loading AMD modules
-  upstream: https://github.com/jrburke/r.js
-  protected_branches: 
-  - master
-  type: public
-- name: mongo-java-driver
-  description: A Java driver for MongoDB
-  upstream: http://www.mongodb.org/display/DOCS/Java+Language+Center
-  protected_branches: 
-  - master
-  type: public
-- name: nodejs-jju
-  description: A set of utilities to work with JSON / JSON5 documents
-  upstream: http://rlidwka.github.io/jju/
-  protected_branches: 
-  - master
-  type: public
-- name: swagger-core
-  description: Java implementation of Swagger
-  upstream: http://swagger.io/
-  protected_branches: 
-  - master
-  type: public
-- name: struts
-  description: Web application framework
-  upstream: http://struts.apache.org/
-  protected_branches: 
-  - master
-  type: public
-- name: nodejs-extend
-  description: Port of jQuery.extend for node.js and the browser
-  upstream: https://www.npmjs.org/package/extend
-  protected_branches: 
-  - master
-  type: public
-- name: jboss-transaction-1.2-api
-  description: Transaction 1.2 API
-  upstream: https://github.com/jboss/jboss-transaction-api_spec
-  protected_branches: 
-  - master
-  type: public
-- name: nodejs-require-directory
-  description: Recursively iterates over specified directory, require()'ing each file
-  upstream: https://github.com/troygoode/node-require-directory
-  protected_branches: 
-  - master
-  type: public
-- name: jboss-logging-tools1
-  description: JBoss Logging I18n Annotation Processor
-  upstream: https://github.com/jboss-logging/jboss-logging-tools
-  protected_branches: 
-  - master
-  type: public
-- name: aspectjweaver
-  description: Java byte-code weaving library
-  upstream: http://eclipse.org/aspectj/
-  protected_branches: 
-  - master
-  type: public
 - name: maven-eclipse-plugin
   description: Maven Eclipse Plugin
   upstream: http://maven.apache.org/plugins/maven-eclipse-plugin/
-  protected_branches: 
-  - master
-  type: public
-- name: mimepull
-  description: Streaming API to access attachments from a MIME message
-  upstream: http://mimepull.java.net
-  protected_branches: 
-  - master
-  type: public
-- name: lodash
-  description: A JavaScript utility library
-  upstream: https://lodash.com/
-  protected_branches: 
-  - master
-  type: public
-- name: jboss-connector-1.7-api
-  description: Connector Architecture 1.7 API
-  upstream: http://www.jboss.org
-  protected_branches: 
-  - master
-  type: public
-- name: lucene3
-  description: High-performance, full-featured text search engine
-  upstream: http://lucene.apache.org/
-  protected_branches: 
-  - master
-  type: public
-- name: hibernate-jpa-2.0-api
-  description: Java Persistence 2.0 (JSR 317) API
-  upstream: http://www.hibernate.org/
   protected_branches: 
   - master
   type: public
@@ -39739,27 +38677,585 @@ repositories:
   protected_branches: 
   - master
   type: public
-- name: jboss-classfilewriter
-  description: JBoss Class File Writer
-  upstream: https://github.com/jbossas/jboss-classfilewriter
+- name: maven-idea-plugin
+  description: Maven IDEA Plugin
+  upstream: http://maven.apache.org/plugins/maven-idea-plugin
   protected_branches: 
   - master
   type: public
-- name: jboss-jaxrpc-1.1-api
-  description: Java API for XML-Based RPC (JAX-RPC) 1.1
+- name: maven-injection-plugin
+  description: Bytecode injection at Maven build time
   upstream: http://www.jboss.org
   protected_branches: 
   - master
   type: public
-- name: jboss-logmanager
-  description: JBoss Log Manager
-  upstream: https://github.com/jboss-logging/jboss-logmanager
+- name: maven-jarsigner-plugin
+  description: Signs or verifies a project artifact and attachments using jarsigner
+  upstream: http://maven.apache.org/plugins/maven-jarsigner-plugin/
   protected_branches: 
   - master
   type: public
-- name: jboss-modules
-  description: A Modular Classloading System
-  upstream: https://github.com/jbossas/jboss-modules
+- name: maven-jaxb2-plugin
+  description: Provides the capability to generate java sources from schemas
+  upstream: http://java.net/projects/maven-jaxb2-plugin/pages/Home
+  protected_branches: 
+  - master
+  type: public
+- name: maven-local
+  description: Macros and scripts for Maven packaging support
+  upstream: https://github.com/fedora-java/javapackages
+  protected_branches:
+  - master
+  type: public
+- name: maven-mapping
+  description: Apache Maven Mapping
+  upstream: http://maven.apache.org/shared/maven-mapping/
+  protected_branches: 
+  - master
+  type: public
+- name: maven-native
+  description: Compile c and c++ source under Maven
+  upstream: http://www.mojohaus.org/plugins.html
+  protected_branches: 
+  - master
+  type: public
+- name: maven-processor-plugin
+  description: Maven Processor Plugin
+  upstream: https://github.com/bsorrentino/maven-annotation-plugin
+  protected_branches: 
+  - master
+  type: public
+- name: maven-reporting-exec
+  description: Classes to manage report plugin executions with Maven 3
+  upstream: http://maven.apache.org/shared/maven-reporting-exec/
+  protected_branches: 
+  - master
+  type: public
+- name: maven-shared-jarsigner
+  description: Component to assist in signing Java archives
+  upstream: http://maven.apache.org/shared/maven-jarsigner/
+  protected_branches: 
+  - master
+  type: public
+- name: maven-site-plugin
+  description: Maven Site Plugin
+  upstream: http://maven.apache.org/plugins/maven-site-plugin/
+  protected_branches: 
+  - master
+  type: public
+- name: maven-war-plugin
+  description: Maven WAR Plugin
+  upstream: http://maven.apache.org/plugins/maven-war-plugin/
+  protected_branches: 
+  - master
+  type: public
+- name: mavibot
+  description: ApacheDS MVCC BTree implementation
+  upstream: http://directory.apache.org/mavibot/
+  protected_branches: 
+  - master
+  type: public
+- name: memoryfilesystem
+  description: An in memory implementation of a JSR-203 file system
+  upstream: https://github.com/marschall/memoryfilesystem
+  protected_branches: 
+  - master
+  type: public
+- name: metainf-services
+  description: Small java library for generating META-INF/services files
+  upstream: https://github.com/kohsuke/metainf-services
+  protected_branches: 
+  - master
+  type: public
+- name: metrics
+  description: Java library which gives you what your code does in production
+  upstream: http://metrics.dropwizard.io
+  protected_branches: 
+  - master
+  type: public
+- name: mimepull
+  description: Streaming API to access attachments from a MIME message
+  upstream: http://mimepull.java.net
+  protected_branches: 
+  - master
+  type: public
+- name: mongo-java-driver
+  description: A Java driver for MongoDB
+  upstream: http://www.mongodb.org/display/DOCS/Java+Language+Center
+  protected_branches: 
+  - master
+  type: public
+- name: mustache-java
+  description: Implementation of mustache.js for Java
+  upstream: https://github.com/spullara/mustache.java/
+  protected_branches: 
+  - master
+  type: public
+- name: mx4j
+  description: Open source implementation of JMX Java API
+  upstream: http://mx4j.sourceforge.net/
+  protected_branches: 
+  - master
+  type: public
+- name: noggit
+  description: JSON streaming parser
+  upstream: https://github.com/yonik/noggit
+  protected_branches: 
+  - master
+  type: public
+- name: openwebbeans
+  description: Implementation of the JSR-299 WebBeans
+  upstream: http://openwebbeans.apache.org/
+  protected_branches: 
+  - master
+  type: public
+- name: os-maven-plugin
+  description: Maven plugin for generating platform-dependent properties
+  upstream: https://github.com/trustin/os-maven-plugin/
+  protected_branches: 
+  - master
+  type: public
+- name: perl-Class-Accessor
+  description: Automated accessor generation
+  upstream: https://metacpan.org/release/Class-Accessor
+  protected_branches: 
+  - master
+  type: public
+- name: picketbox
+  description: Security framework for Java Applications
+  upstream: https://picketbox.jboss.org
+  protected_branches: 
+  - master
+  type: public
+- name: picketbox-commons
+  description: Common classes for security projects
+  upstream: http://www.jboss.org/picketbox
+  protected_branches: 
+  - master
+  type: public
+- name: picketbox-xacml
+  description: JBoss XACML
+  upstream: http://picketbox.jboss.org/
+  protected_branches: 
+  - master
+  type: public
+- name: proxytoys
+  description: An implementation neutral API for creation of dynamic proxies
+  upstream: http://proxytoys.github.io/
+  protected_branches: 
+  - master
+  type: public
+- name: python-pybeam
+  description: Python module to parse Erlang BEAM files
+  upstream: https://github.com/matwey/pybeam
+  protected_branches: 
+  - master
+  type: public
+- name: quartz
+  description: Enterprise Job Scheduler for Java
+  upstream: http://www.quartz-scheduler.org/
+  protected_branches: 
+  - master
+  type: public
+- name: rabbitmq-java-client
+  description: Java Advanced Message Queue Protocol client library
+  upstream: http://www.rabbitmq.com/java-client.html
+  protected_branches: 
+  - master
+  type: public
+- name: reflections
+  description: Java run-time meta-data analysis
+  upstream: https://github.com/ronmamo/reflections
+  protected_branches: 
+  - master
+  type: public
+- name: resteasy
+  description: Framework for RESTful Web services and Java applications
+  upstream: https://resteasy.github.io
+  protected_branches: 
+  - master
+  type: public
+- name: rome
+  description: RSS and Atom Utilities
+  upstream: http://rometools.github.io/rome/
+  protected_branches: 
+  - master
+  type: public
+- name: rxjava
+  description: Reactive Extensions for the JVM
+  upstream: https://github.com/ReactiveX/RxJava
+  protected_branches: 
+  - master
+  type: public
+- name: sac
+  description: Java standard interface for CSS parser
+  upstream: http://www.w3.org/Style/CSS/SAC/
+  protected_branches: 
+  - master
+  type: public
+- name: saxpath
+  description: Simple API for XPath
+  upstream: http://sourceforge.net/projects/saxpath/
+  protected_branches: 
+  - master
+  type: public
+- name: shrinkwrap-descriptors
+  description: ShrinkWrap sub-project for creating Archive Descriptors
+  upstream: http://arquillian.org/modules/descriptors-shrinkwrap/
+  protected_branches: 
+  - master
+  type: public
+- name: signpost-core
+  description: A simple, light-weight, and modular OAuth client library for the Java platform
+  upstream: https://github.com/mttkay/signpost
+  protected_branches: 
+  - master
+  type: public
+- name: simple
+  description: Asynchronous HTTP server for Java
+  upstream: http://www.simpleframework.org/
+  protected_branches: 
+  - master
+  type: public
+- name: simple-xml
+  description: An XML serialization framework for Java
+  upstream: http://simple.sourceforge.net/
+  protected_branches: 
+  - master
+  type: public
+- name: sisu-mojos
+  description: Sisu plugin for Apache Maven
+  upstream: http://www.eclipse.org/sisu
+  protected_branches: 
+  - master
+  type: public
+- name: slf4j-jboss-logmanager
+  description: SLF4J backend for JBoss LogManager
+  upstream: https://github.com/jboss-logging/slf4j-jboss-logmanager
+  protected_branches: 
+  - master
+  type: public
+- name: snowball-java
+  description: Java stemming algorithm library
+  upstream: http://snowball.tartarus.org
+  protected_branches: 
+  - master
+  type: public
+- name: sonatype-plugins-parent
+  description: Sonatype Plugins Parent POM
+  upstream: https://github.com/sonatype/oss-parents
+  protected_branches: 
+  - master
+  type: public
+- name: spatial4j
+  description: A Geospatial Library for Java
+  upstream: https://projects.eclipse.org/projects/locationtech.spatial4j
+  protected_branches: 
+  - master
+  type: public
+- name: springframework-batch
+  description: Tools for enterprise batch or bulk processing
+  upstream: http://www.springsource.org/spring-batch
+  protected_branches: 
+  - master
+  type: public
+- name: springframework-data-commons
+  description: Interfaces between relational and non-relational data stores
+  upstream: http://projects.spring.io/spring-data/
+  protected_branches: 
+  - master
+  type: public
+- name: springframework-data-mongodb
+  description: MongoDB support for Spring Data
+  upstream: http://projects.spring.io/spring-data-mongodb/
+  protected_branches: 
+  - master
+  type: public
+- name: springframework-hateoas
+  description: Representations for hyper-text driven REST web services
+  upstream: http://github.com/SpringSource/spring-hateoas
+  protected_branches: 
+  - master
+  type: public
+- name: springframework-plugin
+  description: Simple plugin infrastructure
+  upstream: https://github.com/SpringSource/spring-plugin
+  protected_branches: 
+  - master
+  type: public
+- name: springframework-retry
+  description: Abstraction around retrying failed operations
+  upstream: https://github.com/spring-projects/spring-retry
+  protected_branches: 
+  - master
+  type: public
+- name: spymemcached
+  description: Java client for memcached
+  upstream: https://github.com/dustin/java-memcached-client
+  protected_branches: 
+  - master
+  type: public
+- name: sslext
+  description: Struts SSL Switching Extension
+  upstream: http://sslext.sourceforge.net/
+  protected_branches: 
+  - master
+  type: public
+- name: staxmapper
+  description: StAX Mapper
+  upstream: https://github.com/jbossas/staxmapper
+  protected_branches: 
+  - master
+  type: public
+- name: struts
+  description: Web application framework
+  upstream: http://struts.apache.org/
+  protected_branches: 
+  - master
+  type: public
+- name: svnkit
+  description: Pure Java library to manage Subversion working copies and repositories
+  upstream: https://www.svnkit.com/
+  protected_branches: 
+  - master
+  type: public
+- name: swagger-core
+  description: Java implementation of Swagger
+  upstream: http://swagger.io/
+  protected_branches: 
+  - master
+  type: public
+- name: swt-chart
+  description: SWTChart Feature
+  upstream: http://www.swtchart.org/
+  protected_branches: 
+  - master
+  type: public
+- name: takari-archiver
+  description: Takari Archiver
+  upstream: http://takari.io
+  protected_branches: 
+  - master
+  type: public
+- name: takari-incrementalbuild
+  description: Takari Incremental Build
+  upstream: http://takari.io
+  protected_branches: 
+  - master
+  type: public
+- name: takari-lifecycle
+  description: Optimized replacement for the Maven default lifecycle
+  upstream: http://takari.io
+  protected_branches: 
+  - master
+  type: public
+- name: takari-plugin-testing
+  description: Maven plugin testing library
+  upstream: http://takari.io/
+  protected_branches: 
+  - master
+  type: public
+- name: takari-pom
+  description: Takari parent POM
+  upstream: https://github.com/takari/takari-pom/
+  protected_branches: 
+  - master
+  type: public
+- name: thredds
+  description: Thematic Realtime Environmental Distributed Data Services (TDS)
+  upstream: http://www.unidata.ucar.edu/software/tds/
+  protected_branches: 
+  - master
+  type: public
+- name: tiles
+  description: Java templating framework for web application user interfaces
+  upstream: http://tiles.apache.org/
+  protected_branches: 
+  - master
+  type: public
+- name: time-api
+  description: JSR-310 - Date and Time API
+  upstream: http://threeten.github.com/
+  protected_branches: 
+  - master
+  type: public
+- name: treelayout
+  description: Efficient and customizable Tree Layout Algorithm in Java
+  upstream: http://treelayout.sourceforge.net/
+  protected_branches: 
+  - master
+  type: public
+- name: trilead-ssh2
+  description: SSH-2 protocol implementation in pure Java
+  upstream: https://github.com/jenkinsci/trilead-ssh2
+  protected_branches: 
+  - master
+  type: public
+- name: tycho-extras
+  description: Additional plugins for Tycho
+  upstream: http://eclipse.org/tycho/
+  protected_branches: 
+  - master
+  type: public
+- name: uglify-js
+  description: JavaScript parser, mangler/compressor and beautifier toolkit
+  upstream: https://github.com/mishoo/UglifyJS2
+  protected_branches: 
+  - master
+  type: public
+- name: uglify-js1
+  description: JavaScript parser, mangler/compressor and beautifier toolkit
+  upstream: https://github.com/mishoo/UglifyJS
+  protected_branches: 
+  - master
+  type: public
+- name: uima-addons
+  description: Apache UIMA Addons components
+  upstream: http://uima.apache.org/sandbox.html
+  protected_branches: 
+  - master
+  type: public
+- name: uimaj
+  description: Apache UIMA is an implementation of the OASIS-UIMA specifications
+  upstream: http://uima.apache.org/
+  protected_branches: 
+  - master
+  type: public
+- name: uima-parent-pom
+  description: Apache UIMA Parent POM
+  upstream: http://uima.apache.org/
+  protected_branches: 
+  - master
+  type: public
+- name: undertow
+  description: Java web server using non-blocking IO
+  upstream: http://undertow.io/
+  protected_branches: 
+  - master
+  type: public
+- name: velocity-tools
+  description: Collection of useful tools for Velocity template engine
+  upstream: http://velocity.apache.org/tools/releases/2.0/
+  protected_branches: 
+  - master
+  type: public
+- name: vorbis-java
+  description: Ogg and Vorbis toolkit for Java
+  upstream: https://github.com/Gagravarr/VorbisJava
+  protected_branches: 
+  - master
+  type: public
+- name: weld-api
+  description: Weld specific extesions to CDI API
+  upstream: http://weld.cdi-spec.org
+  protected_branches: 
+  - master
+  type: public
+- name: weld-core
+  description: Reference Implementation for JSR-299 Contexts and Dependency Injection (CDI)
+  upstream: http://weld.cdi-spec.org/
+  protected_branches: 
+  - master
+  type: public
+- name: weld-parent
+  description: Parent POM for Weld
+  upstream: http://weld.cdi-spec.org
+  protected_branches: 
+  - master
+  type: public
+- name: wildfly-build-tools
+  description: Wildfly build and provisioning tools
+  upstream: https://github.com/wildfly/wildfly-build-tools
+  protected_branches: 
+  - master
+  type: public
+- name: wildfly-elytron
+  description: Security, Authentication, and Authorization SPIs for the WildFly project
+  upstream: http://wildfly.org/
+  protected_branches: 
+  - master
+  type: public
+- name: wildfly-security-manager
+  description: WildFly Security Manager
+  upstream: https://github.com/wildfly-security/security-manager/
+  protected_branches: 
+  - master
+  type: public
+- name: ws-jaxme
+  description: Open source implementation of JAXB
+  upstream: http://ws.apache.org/
+  protected_branches: 
+  - master
+  type: public
+- name: wss4j
+  description: Apache WS-Security implementation
+  upstream: http://ws.apache.org/wss4j/
+  protected_branches: 
+  - master
+  type: public
+- name: ws-xmlschema
+  description: Apache XMLSchema
+  upstream: http://ws.apache.org/xmlschema/
+  protected_branches: 
+  - master
+  type: public
+- name: xmlbeans
+  description: XML-Java binding tool
+  upstream: http://xmlbeans.apache.org/
+  protected_branches: 
+  - master
+  type: public
+- name: xmlbeans-maven-plugin
+  description: Maven XML Beans Plugin
+  upstream: https://github.com/take5pl/xmlbeans-maven-plugin
+  protected_branches: 
+  - master
+  type: public
+- name: xmlenc
+  description: Light-weight XML output library for Java
+  upstream: https://github.com/znerd/xmlenc/
+  protected_branches: 
+  - master
+  type: public
+- name: xml-maven-plugin
+  description: Maven XML Plugin
+  upstream: http://www.mojohaus.org/xml-maven-plugin/
+  protected_branches: 
+  - master
+  type: public
+- name: xml-security
+  description: Implementation of W3C security standards for XML
+  upstream: http://santuario.apache.org/
+  protected_branches: 
+  - master
+  type: public
+- name: xmpcore
+  description: Java XMP Library
+  upstream: http://www.adobe.com/devnet/xmp.html
+  protected_branches: 
+  - master
+  type: public
+- name: xsom
+  description: XML Schema Object Model
+  upstream: https://javaee.github.io
+  protected_branches: 
+  - master
+  type: public
+- name: yecht
+  description: A YAML processor based on Syck
+  upstream: http://github.com/jruby/yecht
+  protected_branches: 
+  - master
+  type: public
+- name: znerd-oss-parent
+  description: Znerd.org OSS Parent
+  upstream: https://github.com/znerd/znerd-oss-parent
+  protected_branches: 
+  - master
+  type: public
+- name: zxing
+  description: Java multi-format 1D/2D bar-code image processing library
+  upstream: https://github.com/zxing/zxing/
   protected_branches: 
   - master
   type: public
