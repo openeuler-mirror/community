@@ -940,6 +940,13 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
+- name: isula-transform
+  description: isula transform kit transform specify docker container to iSulad container
+  upstream: https://gitee.com/openeuler/isula-transform
+  protected_branches:
+  - master
+  - openEuler-20.03-LTS
+  type: public
 - name: auto
   description: Collection of source code generators for Java
   upstream: https://github.com/google/auto

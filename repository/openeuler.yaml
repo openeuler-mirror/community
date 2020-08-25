@@ -395,6 +395,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: isula-transform
+  description: "isula transform kit transform specify docker container to iSulad container"
+  protected_branches:
+  - master
+  type: public
 - name: trucker
   description: "Tools for create iso livecd and cloud image"
   protected_branches:
