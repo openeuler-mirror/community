@@ -7,14 +7,14 @@
 
 
 
-### 2、从云上folk代码分支
+### 2、从云上fork代码分支
 
 2. 找到并打开对应的repository的首页
-2. 点击右上角的 `Fork` 按钮，按照指引，建立一个属于**“个人”**的云上folk分支。<img src="figure/Gitee-workflow-fork.JPG" style="zoom:67%;" />
+2. 点击右上角的 `Fork` 按钮，按照指引，建立一个属于**“个人”**的云上fork分支。<img src="figure/Gitee-workflow-fork.JPG" style="zoom:67%;" />
 
 
 
-### 2.把folk分支复制到本地
+### 2.把fork分支复制到本地
 
 请按照以下的复制过程将repository内的代码下载到您的在计算机上。
 
@@ -155,7 +155,7 @@ git commit -m "提交原因"
 
 ### 7、 将变更推送到你的远端目录
 
-准备进行审查（或只是建立工作的异地备份）时，将分支推到你在`gitee.com`的folk:
+准备进行审查（或只是建立工作的异地备份）时，将分支推到你在`gitee.com`的fork分支:
 
 ```
 git push -f origin myfeature
