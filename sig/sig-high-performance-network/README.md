@@ -61,17 +61,17 @@
 
 repository地址：
 
-  - src-openeuler/dpdk
-  - src-openeuler/rdma-core
-  - src-openeuler/libbpf
-  - src-openeuler/goebpf
-  - src-openeuler/xdp-tools
-  - src-openeuler/libvma
-  - src-openeuler/polycube
-  - src-openeuler/libkefir
-  - src-openeuler/cilium
-  - src-openeuler/katran
-  - src-openeuler/pistache
-  - src-openeuler/libyang
-  - src-openeuler/libtins
-  - src-openeuler/go-bindata
+- https://gitee.com/src-openeuler/dpdk
+- https://gitee.com/src-openeuler/rdma-core
+- https://gitee.com/src-openeuler/libbpf
+- https://gitee.com/src-openeuler/goebpf
+- https://gitee.com/src-openeuler/xdp-tools
+- https://gitee.com/src-openeuler/libvma
+- https://gitee.com/src-openeuler/polycube
+- https://gitee.com/src-openeuler/libkefir
+- https://gitee.com/src-openeuler/cilium
+- https://gitee.com/src-openeuler/katran
+- https://gitee.com/src-openeuler/pistache
+- https://gitee.com/src-openeuler/libyang
+- https://gitee.com/src-openeuler/libtins
+- https://gitee.com/src-openeuler/go-bindata
