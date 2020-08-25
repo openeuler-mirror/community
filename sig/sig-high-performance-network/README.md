@@ -59,8 +59,6 @@
 
 # 项目清单
 
-项目名称：
-
 repository地址：
 
   - src-openeuler/dpdk
