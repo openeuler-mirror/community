@@ -420,3 +420,8 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: kata_integration
+  description: "A tool with useful scripts for building kata-containers related components and initrd image"
+  protected_branches:
+  - master
+  type: public
