@@ -171,7 +171,7 @@ Provides、Conflict、Obsoletes等RPM关键字提供的功能可以解决兼容�
 ### 基本信息
 
 - SPEC中的基本信息，如name、group、summary、description等信息，根据官网查询填写，请使用规范的书面语言描述或书写，避免`like`、`good/best`等字眼。
-- spec中version、release比较复杂的场景，如果没有特殊要求，尽量简化为单个数字，且保持递增。
+- spec中version需要和上游社区的版本号保持一致，聚合性软件包（一个repo中有多个上游社区的源码：[xorg-x11-font-utils](https://gitee.com/src-openeuler/xorg-x11-font-utils)）spec 中version信息由maintainer 按照社区惯例确定。release号用于标识openEuler基于上游社区的发布次数，软件包version升级后首次发布时release 从1 开始，后续保持递增。
 
 ### 格式规范
 
