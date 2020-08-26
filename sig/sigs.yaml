@@ -4103,7 +4103,6 @@ sigs:
   - src-openeuler/catkin
   - src-openeuler/class_loader
   - src-openeuler/cmake_modules
-  - src-openeuler/cpp_common
   - src-openeuler/gencpp
   - src-openeuler/geneus
   - src-openeuler/genlisp
@@ -4119,6 +4118,8 @@ sigs:
   - src-openeuler/rosconsole
   - src-openeuler/roslisp
   - src-openeuler/rospack
+  - src-openeuler/ros_comm_msgs
+  - src-openeuler/pluginlib
 - name: sig-ai-bigdata
   repositories:
   - src-openeuler/jupyter
