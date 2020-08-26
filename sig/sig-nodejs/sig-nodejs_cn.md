@@ -42,6 +42,4 @@ Node.js 是一个开源与跨平台的 JavaScript 运行时环境。 它是一�
 
 # 联系方式
 
-- [邮件列表](dev@openeuler.org)
-- [IRC频道](#openeuler-dev)
-- [IRC公开会议](#openeuler-meeting)
+- 邮件列表：dev@openeuler.org
