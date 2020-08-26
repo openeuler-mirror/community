@@ -20,7 +20,7 @@ Node.js Is an open source and cross platform JavaScript runtime environment. It'
 - Maintain and upgrade the Node.js packages
 - Introduce, maintain and upgrade the dependency packages of Node.js that not included in openEuler community
 - Cooperate and maintain the dependency packages of Node.js that already included in openEuler community
-- Manage the documentations, meetings, mailist and IRC within UKUI SIG
+- Manage the documentations, meetings, mailist within Nodejs SIG
 
 
 ### Deliverables
