@@ -212,6 +212,33 @@ def check_7(oe_repos, srcoe_repos):
     return errors_found
 
 
+# This check is inspired by PR !934
+def check_8(oe_repos, srcoe_repos):
+    """
+    All repositories' must have protected_branches
+    """
+    print("All repositories' must have protected_branches")
+
+    errors_found = 0
+
+    for repos, prefix in [(oe_repos, "openeuler/"), (srcoe_repos, "src-openeuler/")]:
+        for repo in repos:
+            branches = repo.get("protected_branches", [])
+            if not branches:
+                print("WARNING! {pre}{name} doesn\'t have protected_branches"
+                      .format(pre=prefix, name=repo["name"]))
+                errors_found += 1
+            elif "master" not in branches:
+                print("WARNING! master branch in {pre}{name} is not protected"
+                      .format(pre=prefix, name=repo["name"]))
+                errors_found += 1
+
+    if errors_found == 0:
+        print("PASS WITHOUT ISSUES FOUND.")
+
+    return errors_found
+
+
 def oe_requirements(repo):
     """
     Helper to check if entry in openeuler follow openEuler requirements
@@ -273,7 +300,7 @@ def check_changed_repo(curr_repos, prev_repos, prefix, super_visor, requires):
     return errors_found, sigs_attention
 
 
-def check_8(oe_repos, srcoe_repos, super_visor, community_dir):
+def check_100(oe_repos, srcoe_repos, super_visor, community_dir):
     """
     Newly changed repositories must follow the OE requirements
     """
@@ -403,12 +430,15 @@ def main():
     issues_found += check_7(oe_repos, src_oe_repos)
 
     print("\nCheck 8:")
+    issues_found += check_8(oe_repos, src_oe_repos)
+
+    print("\nCheck Last:")
     prepare_master_branch_yaml(args.community)
     prev_oe_repos = load_yaml(args.community, M_OE_YAML)["repositories"]
     prev_src_oe_repos = load_yaml(args.community, M_SRC_OE_YAML)["repositories"]
-    issues_found += check_8([oe_repos, prev_oe_repos],
-                            [src_oe_repos, prev_src_oe_repos],
-                            repo_supervisors, args.community)
+    issues_found += check_100([oe_repos, prev_oe_repos],
+                              [src_oe_repos, prev_src_oe_repos],
+                              repo_supervisors, args.community)
     cleanup_master_branch_yaml(args.community)
 
     sys.exit(issues_found)

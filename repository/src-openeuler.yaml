@@ -889,6 +889,8 @@ repositories:
   type: public
 - name: atop
   description: atop is an interactive monitor to view the load on a Linux system
+  protected_branches:
+  - master
   type: public
 - name: attr
   description: ''
@@ -1933,9 +1935,13 @@ repositories:
   type: public
 - name: corosync
   description: The Corosync Cluster Engine and Application Programming Interfaces.
+  protected_branches:
+  - master
   type: public
 - name: corosync-qdevice
   description: The Corosync Cluster Engine Qdevice.
+  protected_branches:
+  - master
   type: public
 - name: cpio
   description: ''
@@ -2752,9 +2758,13 @@ repositories:
   type: public
 - name: drbd
   description: DRBD user-land tools and scripts
+  protected_branches:
+  - master
   type: public
 - name: drbd-utils
   description: DRBD common tools
+  protected_branches:
+  - master
   type: public
 - name: dropwatch
   description: ''
@@ -3290,9 +3300,13 @@ repositories:
   type: private
 - name: fence-agents
   description: Set of unified programs capable of host isolation ('fencing').
+  protected_branches:
+  - master
   type: public
 - name: fence-virt
   description: Virtual machine fencing agent.
+  protected_branches:
+  - master
   type: public
 - name: festival
   description: ''
@@ -5005,9 +5019,13 @@ repositories:
   type: public
 - name: ha-api
   description: This package NeoKylin HA api.
+  protected_branches:
+  - master
   type: public
 - name: ha-web
   description: Ha web frontend.
+  protected_branches:
+  - master
   type: public
 - name: hadoop
   description: A software platform for processing vast amounts of data
@@ -12474,10 +12492,14 @@ repositories:
 - name: pacemaker
   description: Pacemaker is an advanced, scalable high-availability cluster resource
     manager.
+  protected_branches:
+  - master
   type: public
 - name: pacemaker-mgmt
   description: A client/server GUI and a SNMP subagent for configuring, managing and
     monitoring the Pacemaker High-Availability cluster resource manager.
+  protected_branches:
+  - master
   type: public
 - name: pakchois
   description: The library wraped for PKCS#11
@@ -12672,6 +12694,8 @@ repositories:
   description: Pcs is a Corosync and Pacemaker configuration tool. It permits users
     to easily view, modify and create Pacemaker based clusters. Pcs contains pcsd,
     a pcs daemon, which operates as a remote server for pcs and provides a web UI.
+  protected_branches:
+  - master
   type: public
 - name: pcsc-lite
   description: ''
@@ -31633,6 +31657,8 @@ repositories:
   type: public
 - name: sbd
   description: This package contains the storage-based death functionality.
+  protected_branches:
+  - master
   type: public
 - name: sbinary
   description: Library for describing binary formats for Scala types.
