@@ -1,24 +1,25 @@
 
-# openEuler UKUI Special Interest Group (SIG)
-English | [简体中文](./sig-UKUI_cn.md)
+# openEuler Node.js Special Interest Group (SIG)
+English | [简体中文](./sig-nodejs_cn.md)
 
-The openEuler UKUI SIG aims at introducing UKUI 3.0, a well-known and easy to use Linux desktop environmennt, to the openEuler community. We also dedicate to its relevant work on migration, adaptation and optimization to make it as a Linux desktop environment officially supported by openEuler.
+Node.js Is an open source and cross platform JavaScript runtime environment. It's a popular tool for almost any project! You can visit nodejs's website for more information about nodejs.
 
 
 ## SIG Mission and Scope
 
 ### Mission
 
-- Add UKUI 3.0 support for openEuler community
-- Migrate, adapte and optimize UKUI 3.0 within openEuler
-- Respond to user feedback in a timely manner and resolove the problems
-
+- Enrich the ecology of nodejs related software in openeuler.
+- Develop conversion tools: convert from NPM to RPM format.
+- Responsible for the planning, maintenance and upgrade of nodejs sig software package.
+- Feed back the work results of nodejs related software in the openeuler community to the upstream community.
+- Timely respond to user feedback and solve related problems.
 
 ### Scope
 
-- Maintain and upgrade the UKUI 3.0 packages
-- Introduce, maintain and upgrade the dependency packages of UKUI 3.0 that not included in openEuler community
-- Cooperate and maintain the dependency packages of UKUI 3.0 that already included in openEuler community
+- Maintain and upgrade the Node.js packages
+- Introduce, maintain and upgrade the dependency packages of Node.js that not included in openEuler community
+- Cooperate and maintain the dependency packages of Node.js that already included in openEuler community
 - Manage the documentations, meetings, mailist and IRC within UKUI SIG
 
 
@@ -26,61 +27,16 @@ The openEuler UKUI SIG aims at introducing UKUI 3.0, a well-known and easy to us
 
 - Source and tar
 
-
-### Repositories managed by this SIG
-
-The repositories related to oVirt are listed below, see https://github.com/ukui/ for details.
-
-- https://gitee.com/src-openeuler/qt5-ukui-platformtheme
-- https://gitee.com/src-openeuler/peony
-- https://gitee.com/src-openeuler/ukui-control-center
-- https://gitee.com/src-openeuler/ukui-sidebar
-- https://gitee.com/src-openeuler/ukui-panel
-- https://gitee.com/src-openeuler/ukui-window-switch
-- https://gitee.com/src-openeuler/ukui-power-manager
-- https://gitee.com/src-openeuler/ukui-screensaver
-- https://gitee.com/src-openeuler/ukui-media
-- https://gitee.com/src-openeuler/ukui-menu
-- https://gitee.com/src-openeuler/ukui-session-manager
-- https://gitee.com/src-openeuler/ukui-settings-daemon
-- https://gitee.com/src-openeuler/kylin-nm
-- https://gitee.com/src-openeuler/ukui-themes
-- https://gitee.com/src-openeuler/ukui-biometric-manager
-- https://gitee.com/src-openeuler/ukui-biometric-auth
-- https://gitee.com/src-openeuler/peony-extensions
-- https://gitee.com/src-openeuler/ukui-greeter
-- https://gitee.com/src-openeuler/ukylin-feedback-client
-- https://gitee.com/src-openeuler/ukwm
-- https://gitee.com/src-openeuler/ukui-interface
-- https://gitee.com/src-openeuler/ukui-screenshot
-- https://gitee.com/src-openeuler/ukui-indicators
-- https://gitee.com/src-openeuler/biometric-authentication
-
-
-## Basic Information
-
-### Project Introduction
-
-https://gitee.com/openeuler/community/tree/master/sig/sig-UKUI/
-
 ### Maintainers
-- handsome_feng
-- lmq3342xja
-- dou33
+- 胡峰[@solarhu](https://gitee.com/solarhu)
+- 郑宇航[@zhengyuhanghans](https://gitee.com/zhengyuhanghans)
 
 ### Committers
-- xianmaxianmai
-- zjay998
-- litianzhi_kylin
-  
-### Committers
-- crrs666
+- 胡峰[@solarhu](https://gitee.com/solarhu)
+- 郑宇航[@zhengyuhanghans](https://gitee.com/zhengyuhanghans)
 
 ### Mailing list
 - dev@openeuler.org
 
 ### IRC Channel
 - #openeuler-dev
-
-### External Contact
-- handsome_feng
