@@ -37,6 +37,3 @@ Node.js Is an open source and cross platform JavaScript runtime environment. It'
 
 ### Mailing list
 - dev@openeuler.org
-
-### IRC Channel
-- #openeuler-dev
