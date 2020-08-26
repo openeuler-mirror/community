@@ -17,11 +17,6 @@
 - Ruby SIG组所有相关的文档、会议、邮件列表、IRC的管理
 
 
-# 组织会议
-
-- 公开的会议时间：北京时间，每周三 下午，4点~5点
-
-
 # 成员
 
 ### Maintainers列表
@@ -39,5 +34,3 @@
 # 联系方式
 
 - [邮件列表](dev@openeuler.org)
-- [IRC频道](#openeuler-dev)
-- [IRC公开会议](#openeuler-meeting)
