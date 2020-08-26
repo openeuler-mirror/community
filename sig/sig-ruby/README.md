@@ -1,3 +1,17 @@
+# Ruby SIG
+
+## 使命和愿景
+
+Ruby 由松本行弘（Yukihiro “Matz” Matsumoto）开发，混合了他喜欢的多门语言（Perl、Smalltalk、Eiffel、Ada 和 Lisp），创造出了一种兼具函数式编程和命令式编程特色的新语言。
+
+您可以访问 ruby的[官网](http://www.ruby-lang.org) 获得关于 ruby的更多信息。
+
+## SIG组职责
+
+- 在openEuler社区中添加对 ruby 的支持
+- 负责 ruby 相关软件包的规划、维护和升级
+- 及时响应用户反馈，解决相关问题
+
 ## Ruby SIG组工作目标和范围
 
 ### 工作目标
@@ -39,5 +53,3 @@
 # 联系方式
 
 - [邮件列表](dev@openeuler.org)
-- [IRC频道](#openeuler-dev)
-- [IRC公开会议](#openeuler-meeting)
