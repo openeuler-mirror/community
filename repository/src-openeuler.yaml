@@ -4417,11 +4417,6 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
-- name: gnu-getopt
-  description: ''
-  protected_branches:
-  - master
-  type: private
 - name: gnulib
   description: ''
   protected_branches:
@@ -6687,11 +6682,6 @@ repositories:
   protected_branches:
   - master
   type: private
-- name: jackson-databind
-  description: ''
-  protected_branches:
-  - master
-  type: private
 - name: jackson-dataformats-binary
   description: ''
   protected_branches:
@@ -7135,11 +7125,6 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
-- name: jline
-  description: ''
-  protected_branches:
-  - master
-  type: private
 - name: jna
   description: ''
   protected_branches:
@@ -11272,11 +11257,6 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
-- name: native-platform
-  description: ''
-  protected_branches:
-  - master
-  type: private
 - name: nautilus
   description: ''
   protected_branches:
@@ -22228,11 +22208,6 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
-- name: postgresql-jdbc
-  description: ''
-  protected_branches:
-  - master
-  type: private
 - name: postgresql-odbc
   description: Official postgreSQL ODBC driver
   upstream: https://odbc.postgresql.org/
@@ -39240,6 +39215,1126 @@ repositories:
 - name: zxing
   description: Java multi-format 1D/2D bar-code image processing library
   upstream: https://github.com/zxing/zxing/
+  protected_branches: 
+  - master
+  type: public
+- name: native-platform
+  description: Java bindings for various native APIs
+  upstream: https://github.com/gradle/native-platform
+  protected_branches: 
+  - master
+  type: public
+- name: glassfish-transaction-api
+  description: Java JTA 1.2 API Design Specification
+  upstream: https://java.net/projects/jta-spec/
+  protected_branches: 
+  - master
+  type: public
+- name: eclipse-tm-terminal
+  description: Terminal plug-in for Eclipse
+  upstream: https://www.eclipse.org/tm/
+  protected_branches: 
+  - master
+  type: public
+- name: jdiff
+  description: An HTML Report of API Differences
+  upstream: http://javadiff.sourceforge.net/
+  protected_branches: 
+  - master
+  type: public
+- name: glassfish-gmbal
+  description: GlassFish MBean Annotation Library
+  upstream: http://java.net/projects/gmbal/pages/Home
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-el-3.0-api
+  description: JSR-341 Expression Language 3.0 API
+  upstream: https://github.com/jboss/jboss-el-api_spec
+  protected_branches: 
+  - master
+  type: public
+- name: postgresql-jdbc
+  description: JDBC driver for PostgreSQL
+  upstream: http://jdbc.postgresql.org/
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-sass
+  description: A powerful but elegant CSS compiler that makes CSS fun again
+  upstream: http://sass-lang.com/
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-shoulda-matchers
+  description: Making tests easy on the fingers and eyes
+  upstream: https://github.com/thoughtbot/shoulda-matchers
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-pdf-reader
+  description: A library for accessing the content of PDF files
+  upstream: https://github.com/yob/pdf-reader
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-make-generator-function
+  description: Returns an arbitrary generator function
+  upstream: https://github.com/ljharb/make-generator-function
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-expect-dot-js
+  description: Behavior-driven development (BDD) style assertions for Node.js and the browser
+  upstream: https://npmjs.org/package/expect.js
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-pdf-core
+  description: PDF::Core is used by Prawn to render PDF documents
+  upstream: https://github.com/prawnpdf/pdf-core
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-rspec-mocks
+  description: RSpec's 'test double' framework (mocks and stubs)
+  upstream: http://github.com/rspec/rspec-mocks
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-eventemitter2
+  description: A Node.js event emitter implementation with namespaces, wildcards and TTL
+  upstream: https://github.com/hij1nx/EventEmitter2
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-bytes
+  description: Utility to parse a string bytes to bytes and vice-versa
+  upstream: https://github.com/visionmedia/bytes.js
+  protected_branches: 
+  - master
+  type: public
+- name: python-pybeam
+  description: Python module to parse Erlang BEAM files
+  upstream: http://github.com/matwey/pybeam
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-rspec-rails
+  description: RSpec for Rails
+  upstream: https://github.com/rspec/rspec-rails
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-fast-levenshtein
+  description: Efficient implementation of Levenshtein algorithm
+  upstream: https://github.com/hiddentao/fast-levenshtein.git
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-rspec-core
+  description: Rspec-2 runner and formatters
+  upstream: http://github.com/rspec/rspec-mocks
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-commonmark
+  description: A strongly specified, highly compatible variant of Markdown
+  upstream: https://github.com/jgm/commonmark.js.git
+  protected_branches: 
+  - master
+  type: public
+- name: eclipse-mylyn
+  description: Eclipse Mylyn main feature.
+  upstream: http://www.eclipse.org/mylyn
+  protected_branches: 
+  - master
+  type: public
+- name: johnzon
+  description: Implementation of JSR-353
+  upstream: http://johnzon.apache.org/
+  protected_branches: 
+  - master
+  type: public
+- name: shrinkwrap
+  description: A simple mechanism to assemble Java archives
+  upstream: http://arquillian.org/modules/shrinkwrap-shrinkwrap/
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-flexmock
+  description: Mock object library for ruby
+  upstream: https://github.com/doudou/flexmock
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-array-union
+  description: Create an array of unique values, in order, from the input arrays
+  upstream: https://www.npmjs.com/package/array-union
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-actioncable
+  description: WebSocket framework for Rails
+  upstream: http://rubyonrails.org
+  protected_branches: 
+  - master
+  type: public
+- name: openjpa
+  description: Java Persistence 2.0 API
+  upstream: http://openjpa.apache.org/
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-caller-path
+  description: Get the path of the caller module
+  upstream: https://github.com/sindresorhus/caller-path
+  protected_branches: 
+  - master
+  type: public
+- name: json-path
+  description: Java JsonPath implementation
+  upstream: https://github.com/jayway/JsonPath
+  protected_branches: 
+  - master
+  type: public
+- name: eclipse-ptp
+  description: Eclipse Parallel Tools Platform
+  upstream: http://www.eclipse.org/ptp
+  protected_branches: 
+  - master
+  type: public
+- name: jacoco
+  description: Java Code Coverage for Eclipse
+  upstream: http://www.eclemma.org/jacoco/
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-har-validator
+  description: Extremely fast HTTP Archive (HAR) validator using JSON Schema
+  upstream: https://github.com/ahmadnassri/har-validator
+  protected_branches: 
+  - master
+  type: public
+- name: grizzly-npn
+  description: Grizzly Next Protocol Negotiation API
+  upstream: https://grizzly.java.net/spdy.html
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-callsites
+  description: Get callsites from the V8 stack trace API
+  upstream: https://github.com/sindresorhus/callsites
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-pdf-inspector
+  description: A tool for analyzing PDF output
+  upstream: https://github.com/prawnpdf/pdf-inspector
+  protected_branches: 
+  - master
+  type: public
+- name: hessian
+  description: Java implementation of a binary protocol for web services
+  upstream: http://hessian.caucho.com/
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-brace-expansion
+  description: Brace expansion as known from sh/bash
+  upstream: https://github.com/juliangruber/brace-expansion.git
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-rspec-expectations
+  description: RSpec expectations (should and matchers)
+  upstream: http://github.com/rspec/rspec-expectations
+  protected_branches: 
+  - master
+  type: public
+- name: gsbase
+  description: A collection of java utility classes
+  upstream: http://sourceforge.net/projects/gsbase/
+  protected_branches: 
+  - master
+  type: public
+- name: txw2
+  description: Typed XML writer for Java
+  upstream: https://repo.maven.apache.org/maven2/com/sun/xml/txw2
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-sass-rails
+  description: Sass adapter for the Rails asset pipeline
+  upstream: https://github.com/rails/sass-rails
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-multi_json
+  description: A common interface to multiple JSON libraries
+  upstream: http://github.com/intridea/multi_json
+  protected_branches: 
+  - master
+  type: public
+- name: vte
+  description: A terminal emulator
+  upstream: http://developer.gnome.org/vte/
+  protected_branches: 
+  - master
+  type: public
+- name: eclipse-gef
+  description: Graphical Editing Framework (GEF) Eclipse plug-in
+  upstream: http://www.eclipse.org/gef/
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-docopt
+  description: A command line option parser that will make you smile
+  upstream: https://github.com/scarnie/docopt.coffee.git
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-type-check
+  description: Allows you to check the types of JavaScript values at runtime
+  upstream: https://github.com/gkz/type-check
+  protected_branches: 
+  - master
+  type: public
+- name: unrtf
+  description: RTF (Rich Text Format) to other formats converter
+  upstream: https://www.gnu.org/software/unrtf/unrtf.html
+  protected_branches: 
+  - master
+  type: public
+- name: codemodel
+  description: Java library for code generators
+  upstream: http://codemodel.java.net
+  protected_branches: 
+  - master
+  type: public
+- name: sat4j
+  description: A library of SAT solvers written in Java
+  upstream: http://www.sat4j.org/
+  protected_branches: 
+  - master
+  type: public
+- name: gyp
+  description: Generate Your Projects
+  upstream: http://code.google.com/p/gyp
+  protected_branches: 
+  - master
+  type: public
+- name: jline
+  description: JLine is a Java library for handling console input
+  upstream: https://github.com/jline/jline2
+  protected_branches: 
+  - master
+  type: public
+- name: jgit
+  description: A pure java implementation of git
+  upstream: https://www.eclipse.org/jgit/
+  protected_branches: 
+  - master
+  type: public
+- name: eclipse-license
+  description: Shared license features for Eclipse
+  upstream: http://wiki.eclipse.org/CBI
+  protected_branches: 
+  - master
+  type: public
+- name: jackson-datatype-joda
+  description: Add-on module for Jackson to support Joda data-types
+  upstream: http://wiki.fasterxml.com/JacksonModuleJoda
+  protected_branches: 
+  - master
+  type: public
+- name: codehaus-parent
+  description: Parent pom file for codehaus projects
+  upstream: http://repo1.maven.org/maven2/org/codehaus/codehaus-parent
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-array-uniq
+  description: Create an array without duplicates
+  upstream: https://www.npmjs.com/package/array-uniq
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-esutils
+  description: Utility box for ECMAScript language tools
+  upstream: https://github.com/Constellation/esutils
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-acorn
+  description: ECMAScript parser
+  upstream: https://github.com/ternjs/acorn
+  protected_branches: 
+  - master
+  type: public
+- name: dnsjava
+  description: Java DNS implementation
+  upstream: http://www.dnsjava.org/
+  protected_branches: 
+  - master
+  type: public
+- name: rabbitmq-server
+  description: The RabbitMQ server
+  upstream: https://www.rabbitmq.com/
+  protected_branches: 
+  - master
+  type: public
+- name: expresso
+  description: A lightweight, fast, test-driven development (TDD) framework for Node.js
+  upstream: https://github.com/visionmedia/expresso
+  protected_branches: 
+  - master
+  type: public
+- name: jackson-databind
+  description: General data-binding package for Jackson (2.x)
+  upstream: https://github.com/FasterXML/jackson-databind/
+  protected_branches: 
+  - master
+  type: public
+- name: hawtdispatch
+  description: The libdispatch style API for Java
+  upstream: https://github.com/fusesource/hawtdispatch/
+  protected_branches: 
+  - master
+  type: public
+- name: wildfly-core
+  description: The core run-time of WildFly
+  upstream: http://wildfly.org/
+  protected_branches: 
+  - master
+  type: public
+- name: jruby
+  description: Pure Java implementation of the Ruby interpreter
+  upstream: http://jruby.org
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-ffi
+  description: FFI Extensions for Ruby
+  upstream: https://www.github.com/ffi/ffi
+  protected_branches: 
+  - master
+  type: public
+- name: datanucleus-core
+  description: DataNucleus Core
+  upstream: http://www.datanucleus.org/
+  protected_branches: 
+  - master
+  type: public
+- name: eclipse-linuxtools
+  description: Linux specific Eclipse plugins
+  upstream: http://eclipse.org/linuxtools/
+  protected_branches: 
+  - master
+  type: public
+- name: ws-commons-util
+  description: Common utilities from the Apache Web Services Project
+  upstream: http://ws.apache.org/commons/util
+  protected_branches: 
+  - master
+  type: public
+- name: eclipse-subclipse
+  description: Subversion Eclipse plugin
+  upstream: http://subclipse.tigris.org/
+  protected_branches: 
+  - master
+  type: public
+- name: eclipse-cdt
+  description: Eclipse C/C++ Development Tools (CDT) plugin
+  upstream: http://www.eclipse.org/cdt
+  protected_branches: 
+  - master
+  type: public
+- name: decentxml
+  description: XML parser optimized for round-tripping and code reuse
+  upstream: https://bitbucket.org/digulla/decentxml/src/default/
+  protected_branches: 
+  - master
+  type: public
+- name: glassfish-toplink-essentials
+  description: Glassfish JPA Toplink Essentials
+  upstream: http://glassfish.java.net/javaee5/persistence/
+  protected_branches: 
+  - master
+  type: public
+- name: typesafe-config
+  description: Configuration library for JVM languages
+  upstream: https://github.com/typesafehub/config/
+  protected_branches: 
+  - master
+  type: public
+- name: gnu-getopt
+  description: Java port of GNU getopt
+  upstream: http://www.urbanophile.com/arenn/hacking/download.html
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-arel
+  description: Arel is a SQL AST manager for Ruby
+  upstream: https://github.com/rails/arel
+  protected_branches: 
+  - master
+  type: public
+- name: closure-compiler
+  description: JavaScript minifier and checker
+  upstream: https://developers.google.com/closure/compiler/
+  protected_branches: 
+  - master
+  type: public
+- name: glassfish-jaxrpc-api
+  description: The Java API for XML-Based RPC (JAX-RPC)
+  upstream: https://metro.java.net/
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-tzinfo
+  description: Daylight savings aware timezone library
+  upstream: http://tzinfo.github.io
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-defence-cli
+  description: Command-line tool for extracting fenced code from documents
+  upstream: https://github.com/kemitchell/defence-cli.js.git
+  protected_branches: 
+  - master
+  type: public
+- name: glassfish-hk2
+  description: Glassfish Hundred Kilobytes Kernel
+  upstream: https://github.com/eclipse-ee4j/glassfish-hk2/
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-character-parser
+  description: Parse JavaScript one character at a time to look for snippets in templates
+  upstream: https://github.com/ForbesLindesay/character-parser
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-balanced-match
+  description: Match balanced character pairs, like "{" and "}"
+  upstream: https://github.com/juliangruber/balanced-match.git
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-rspec-support
+  description: Common functionality to Rspec series
+  upstream: https://github.com/rspec/rspec-support
+  protected_branches: 
+  - master
+  type: public
+- name: geronimo-commonj
+  description: CommonJ Specification
+  upstream: http://geronimo.apache.org/
+  protected_branches: 
+  - master
+  type: public
+- name: hsqldb
+  description: HyperSQL Database Engine
+  upstream: http://hsqldb.sourceforge.net/
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-ebnf-parser
+  description: A parser for BNF and EBNF grammars used by jison
+  upstream: https://github.com/zaach/ebnf-parser.git
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-dreamopt
+  description: Command-line parser with readable syntax from your sweetest dreams
+  upstream: https://github.com/andreyvit/dreamopt.js
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-make-arrow-function
+  description: Function that returns an arbitrary arrow function
+  upstream: https://github.com/ljharb/make-arrow-function
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-railties
+  description: Tools for creating, working with, and running Rails applications
+  upstream: http://rubyonrails.org
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-rspec2-core
+  description: Rspec 2 runner and formatters
+  upstream: http://github.com/rspec/rspec-core
+  protected_branches: 
+  - master
+  type: public
+- name: eclipse-ecf
+  upstream: http://www.eclipse.org/ecf
+  description: Eclipse Communication Framework (ECF) Eclipse plug-in
+  protected_branches:
+  - master
+  type: public
+- name: eclipse-emf
+  upstream: http://www.eclipse.org/modeling/emf
+  description: EMF and XSD Eclipse plug-ins
+  protected_branches:
+  - master
+  type: public
+  upstream: http://elixir-lang.org/
+  protected_branches: 
+  - master
+  type: public
+- name: icc-profiles-openicc
+  description: The OpenICC profiles
+  upstream: http://www.freedesktop.org/wiki/OpenIcc
+  protected_branches: 
+  - master
+  type: public
+- name: js-jquery2
+  description: JavaScript DOM manipulation, event handling, and AJAX library
+  upstream: https://jquery.com/
+  protected_branches: 
+  - master
+  type: public
+- name: js-sizzle
+  description: A pure-JavaScript CSS selector engine
+  upstream: http://sizzlejs.com/
+  protected_branches: 
+  - master
+  type: public
+- name: lodash
+  description: A JavaScript utility library
+  upstream: https://lodash.com/
+  protected_branches: 
+  - master
+  type: public
+- name: uglify-js
+  description: JavaScript parser, mangler/compressor and beautifier toolkit
+  upstream: https://github.com/mishoo/UglifyJS2
+  protected_branches: 
+  - master
+  type: public
+- name: uglify-js1
+  description: JavaScript parser, mangler/compressor and beautifier toolkit
+  upstream: https://github.com/mishoo/UglifyJS
+  protected_branches: 
+  - master
+  type: public
+- name: perl-Class-Accessor
+  description: Automated accessor generation
+  upstream: https://metacpan.org/release/Class-Accessor
+  protected_branches: 
+  - master
+  type: public
+- name: node-gyp
+  description: Node.js native addon build tool
+  upstream: https://github.com/nodejs/node-gyp
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-commander
+  description: Node.js command-line interfaces made easy
+  upstream: https://github.com/tj/commander
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-console-dot-log
+  description: A console.log implementation that plays nice with large amounts of data
+  upstream: https://developer.mozilla.org/en-US/docs/Web/API/Console/log
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-ctype
+  description: Read and write binary structures and data types with Node.js
+  upstream: https://github.com/rmustacc/node-ctype
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-dateformat
+  description: Steven Levithan's excellent dateFormat() function for Node.js
+  upstream: https://github.com/felixge/node-dateformat
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-diff
+  description: A JavaScript text diff implementation for Node.js
+  upstream: https://github.com/kpdecker/jsdiff
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-extend
+  description: Port of jQuery.extend for node.js and the browser
+  upstream: https://www.npmjs.org/package/extend
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-findup-sync
+  description: Find the first file matching a given pattern
+  upstream: https://github.com/js-cli/node-findup-sync
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-fstream
+  description: Advanced file system stream objects for Node.js
+  upstream: https://github.com/isaacs/fstream
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-gaze
+  description: A globbing fs.watch wrapper built from parts of other watch libraries
+  upstream: https://github.com/shama/gaze
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-iconv-lite
+  description: Convert character encodings in pure JavaScript
+  upstream: https://github.com/ashtuchkin/iconv-lite
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-jison
+  description: A parser generator with Bison's API
+  upstream: https://github.com/zaach/jison
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-jison-lex
+  description: Lexical analyzer generator used by jison
+  upstream: https://github.com/zaach/jison-lex.git
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-jju
+  description: A set of utilities to work with JSON / JSON5 documents
+  upstream: http://rlidwka.github.io/jju/
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-jsonselect
+  description: CSS-like selectors for JSON
+  upstream: https://github.com/lloyd/JSONSelect.git
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-lex-parser
+  description: A parser for lexical grammars used by jison
+  upstream: https://github.com/zaach/lex-parser.git
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-mdurl
+  description: URL utilities for markdown-it
+  upstream: https://github.com/markdown-it/mdurl.git
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-monocle
+  description: A tool for watching directories for file changes
+  upstream: https://github.com/samccone/monocle
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-promise
+  description: Bare bones Promises/A+ implementation for Node.js
+  upstream: https://github.com/then/promise
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-raw-body
+  description: Get and validate the raw body of a readable stream
+  upstream: https://github.com/stream-utils/raw-body
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-require-directory
+  description: Recursively iterates over specified directory, require()'ing each file
+  upstream: https://github.com/troygoode/node-require-directory
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-requirejs
+  description: Node.js adapter for RequireJS, for loading AMD modules
+  upstream: https://github.com/jrburke/r.js
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-require-uncached
+  description: Require a module bypassing the cache
+  upstream: https://github.com/sindresorhus/require-uncached
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-rollup
+  description: Next-generation ES6 module bundler
+  upstream: https://github.com/rollup/rollup
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-spdx-correct
+  description: Correct invalid SPDX identifiers
+  upstream: https://github.com/jslicense/spdx-correct.js
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-string-dot-prototype-dot-repeat
+  description: A robust & optimized `String.prototype.repeat` polyfill
+  upstream: https://github.com/mathiasbynens/String.prototype.repeat.git
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-supports-color
+  description: Detect whether a terminal supports color
+  upstream: https://github.com/chalk/supports-color
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-tunnel-agent
+  description: HTTP proxy tunneling agent
+  upstream: https://github.com/request/tunnel-agent
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-underscore
+  description: JavaScript's functional programming helper library
+  upstream: http://underscorejs.org/
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-unpipe
+  description: Unpipe a stream from all destinations
+  upstream: https://github.com/stream-utils/unpipe
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-websocket-driver
+  description: WebSocket protocol handler with pluggable I/O for Node.js
+  upstream: http://github.com/faye/websocket-driver-node
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-which
+  description: A JavaScript implementation of the 'which' command
+  upstream: https://github.com/isaacs/node-which
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-with
+  description: Compile time `with` for strict mode JavaScript
+  upstream: https://github.com/ForbesLindesay/with
+  protected_branches: 
+  - master
+  type: public
+- name: nodeunit
+  description: Easy asynchronous unit testing framework for Node.js
+  upstream: https://github.com/caolan/nodeunit
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-actionmailer
+  description: Email composition, delivery, and receiving framework (part of Rails)
+  upstream: http://rubyonrails.org
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-actionpack
+  description: Web-flow and rendering framework putting the VC in MVC (part of Rails)
+  upstream: http://rubyonrails.org
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-actionview
+  description: Rendering framework putting the V in MVC (part of Rails)
+  upstream: http://rubyonrails.org
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-activejob
+  description: Job framework with pluggable queues
+  upstream: http://rubyonrails.org
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-activemodel
+  description: A toolkit for building modeling frameworks (part of Rails)
+  upstream: http://rubyonrails.org
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-activemodel-serializers-xml
+  description: XML serialization for Active Model objects and Active Record models
+  upstream: http://github.com/rails/activemodel-serializers-xml
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-activerecord
+  description: Object-relational mapper framework (part of Rails)
+  upstream: http://rubyonrails.org
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-activeresource
+  description: REST modeling framework (part of Rails)
+  upstream: http://www.rubyonrails.org
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-activestorage
+  description: Local and cloud file storage framework
+  upstream: http://rubyonrails.org
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-Ascii85
+  description: Ascii85 encoder/decoder
+  upstream: https://github.com/DataWraith/ascii85gem
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-bootsnap
+  description: Boot large ruby/rails apps faster
+  upstream: https://github.com/Shopify/bootsnap
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-capybara
+  description: Capybara aims to simplify the process of integration testing Rack applications
+  upstream: https://github.com/teamcapybara/capybara
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-coffee-script
+  description: Ruby CoffeeScript Compiler
+  upstream: https://github.com/rails/ruby-coffee-script.git
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-coffee-script-source
+  description: The CoffeeScript Compiler
+  upstream: http://github.com/jashkenas/coffeescript/
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-concurrent-ruby
+  description: Modern concurrency tools for Ruby
+  upstream: http://www.concurrent-ruby.com
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-cucumber-tag_expressions
+  description: Cucumber tag expressions for ruby
+  upstream: https://cucumber.io/docs/cucumber/api/#tag-expressions
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-cucumber
+  description: Tool to execute plain-text documents as functional tests
+  upstream: https://cucumber.io/
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-cucumber-core
+  description: Core library for the Cucumber BDD app
+  upstream: https://cucumber.io
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-daemons
+  description: A toolkit to create and control daemons in different ways
+  upstream: https://rubygems.org/gems/daemons
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-delorean
+  description: Delorean lets you travel in time with Ruby by mocking Time.now
+  upstream: https://github.com/bebanjo/delorean
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-globalid
+  description: Refer to any model
+  upstream: https://github.com/rails/globalid
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-gherkin
+  description: Fast Gherkin lexer/parser
+  upstream: https://github.com/cucumber/gherkin-ruby
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-haml
+  description: An elegant, structured (X)HTML/XML templating engine
+  upstream: http://haml.info/
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-ejs
+  description: EJS (Embedded JavaScript) template compiler
+  upstream: https://github.com/sstephenson/ruby-ejs/
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-execjs
+  description: Run JavaScript code from Ruby
+  upstream: https://github.com/rails/execjs
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-expression_parser
+  description: A math parser
+  upstream: http://lukaszwrobel.pl/blog/math-parser-part-3-implementation
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-formatador
+  description: Ruby STDOUT text formatting
+  upstream: http://github.com/geemus/formatador
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-listen
+  description: Listen to file modifications
+  upstream: https://github.com/guard/listen
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-mail
+  description: Mail provides a nice Ruby DSL for making, sending and reading emails
+  upstream: https://github.com/mikel/mail
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-method_source
+  description: Retrieve the source code for a method
+  upstream: https://banisterfiend.wordpress.com
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-mini_magick
+  description: Manipulate images with minimal use of memory via ImageMagick
+  upstream: https://github.com/minimagick/minimagick
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-mustermann
+  description: Your personal string matching expert
+  upstream: https://github.com/sinatra/mustermann
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-nokogiri
+  description: An HTML, XML, SAX, and Reader parser
+  upstream: https://nokogiri.org
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-prawn-table
+  description: Provides tables for PrawnPDF
+  upstream: https://github.com/prawnpdf/prawn-table
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-pry
+  description: An IRB alternative and runtime developer console
+  upstream: https://rubygems.org/gems/pry
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-puma
+  description: A simple, fast, threaded, and highly concurrent HTTP 1.1 server
+  upstream: http://puma.io
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-rack-cache
+  description: HTTP Caching for Rack
+  upstream: https://github.com/rtomayko/rack-cache
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-rack-protection
+  description: Ruby gem that protects against typical web attacks
+  upstream: http://github.com/sinatra/sinatra/tree/master/rack-protection
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-rack-test
+  description: Simple testing API built on Rack
+  upstream: http://github.com/rack-test/rack-test
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-redis
+  description: A Ruby client library for Redis
+  upstream: https://github.com/redis/redis-rb
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-rouge
+  description: Pure-ruby colorizer based on pygments
+  upstream: https://github.com/rouge-ruby/rouge
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-selenium-webdriver
+  description: The next generation developer focused tool for automated testing of webapps
+  upstream: https://www.selenium.dev
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-simplecov-html
+  description: Default HTML formatter for SimpleCov
+  upstream: https://github.com/colszowka/simplecov-html
+  protected_branches: 
+  - master
+  type: public
+- name: arquillian-core
+  description: Java Testing Platform for the JVM Member
+  upstream: http://arquillian.org
+  protected_branches: 
+  - master
+  type: public
+- name: msv
+  description: Multi-Schema Validator
+  upstream: http://msv.java.net
+  protected_branches: 
+  - master
+  type: public
+- name: xmlrpc
+  description: Java XML-RPC implementation
+  upstream: http://ws.apache.org/xmlrpc
+  protected_branches: 
+  - master
+  type: public
+- name: elixir
+  description: A modern approach to programming for the Erlang VM
+  upstream: http://elixir-lang.org/
+  protected_branches: 
+  - master
+  type: public
+- name: genwqe-tools
+  description: GenWQE userspace tools
+  upstream: https://github.com/ibm-genwqe/genwqe-user/
+  protected_branches: 
+  - master
+  type: public
+- name: kabi-dw
+  description: Detect changes in the ABI between kernel builds
+  upstream: https://github.com/skozina/kabi-dw
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-thin
+  description: A thin and fast web server
+  upstream: http://code.macournoyer.com/thin/
+  protected_branches: 
+  - master
+  type: public
+- name: libkeepalive
+  description: Enable TCP keepalive in dynamic binaries
+  upstream: http://libkeepalive.sourceforge.net/
   protected_branches: 
   - master
   type: public
