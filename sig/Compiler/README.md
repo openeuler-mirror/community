@@ -1,24 +1,24 @@
-## Compiler
+## Compiler SIG
  - devoted to traditional compilers like gcc/llvm/OpenJDK/...
  - motivated to program optimization
 
-## Meeting
+## Weekly Meeting
 
-Not scheduled.
+Tuesday 10 am every week.
 
 ## Members
 
 ### Maintainers
- - Guo Ge[@jdkboy](https://gitee.com/jdkboy)
- - Zhang Haijian[@Haijian.Zhang](https://gitee.com/haijianzhang)
+ - 郭 歌[@jdkboy](https://gitee.com/jdkboy)
+ - 张 海剑[@Haijian.Zhang](https://gitee.com/haijianzhang)
 
 ### Committers
- - He Dongbo[@Noah](https://gitee.com/jvmboy)
- - Xie Zhiheng[@eastb233](https://gitee.com/eastb233)
+ - 贺 东博[@Noah](https://gitee.com/jvmboy)
+ - 谢 志恒[@eastb233](https://gitee.com/eastb233)
 
 ## Contact
 
-No mailing list yet.
+ - maillist: dev@openeuler.org
 
 ## Repositories
  - [gcc](https://gitee.com/src-openeuler/gcc)
