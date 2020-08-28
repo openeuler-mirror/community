@@ -1130,7 +1130,6 @@ sigs:
   - src-openeuler/qt5-qtwebkit
   - src-openeuler/espeak-ng
   - src-openeuler/irrlicht
-  - src-openeuler/liberation-sans-fonts
   - src-openeuler/proj
   - src-openeuler/ucs-miscfixed-fonts
   - src-openeuler/libwmf
@@ -4019,6 +4018,7 @@ sigs:
   - src-openeuler/shotwell
 - name: sig-recycle
   repositories:
+  - src-openeuler/liberation-sans-fonts
   - src-openeuler/libibmad
   - src-openeuler/python2
   - src-openeuler/caffe
