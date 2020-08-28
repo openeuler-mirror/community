@@ -10,6 +10,7 @@ import yaml
 
 SIGS_YAML = "sig/sigs.yaml"
 EXP_YAML = "zh/technical-committee/governance/exceptions.yaml"
+BLC_YAML = "zh/technical-committee/governance/blacklist-software.yaml"
 OE_YAML = "repository/openeuler.yaml"
 M_OE_YAML = "repository/openeuler.master.yaml"
 SRC_OE_YAML = "repository/src-openeuler.yaml"
@@ -239,7 +240,7 @@ def check_8(oe_repos, srcoe_repos):
     return errors_found
 
 
-def oe_requirements(repo):
+def oe_requirements(repo, blacklist):
     """
     Helper to check if entry in openeuler follow openEuler requirements
     """
@@ -247,10 +248,14 @@ def oe_requirements(repo):
     if len(repo.get("description", "")) < 10:
         print("WARNING! openeuler/" + repo["name"] + "\'s description is too short.")
         errors += 1
+    if repo["name"] in blacklist:
+        print("WARNING! openeuler/" + repo["name"] + " was black-listed.")
+        print("         Because: " + blacklist[repo["name"]])
+        errors += 1
     return errors
 
 
-def srcoe_requirements(repo):
+def srcoe_requirements(repo, blacklist):
     """
     Helper to check if entry in src-openeuler follow openEuler requirements
     """
@@ -261,20 +266,24 @@ def srcoe_requirements(repo):
     if len(repo.get("description", "")) < 10:
         print("WARNING! src-openeuler/" + repo["name"] + "\'s description is too short.")
         errors += 1
+    if repo["name"] in blacklist:
+        print("WARNING! src-openeuler/" + repo["name"] + " was black-listed.")
+        print("         Because: " + blacklist[repo["name"]])
+        errors += 1
     return errors
 
 
-def check_changed_repo(curr_repos, prev_repos, prefix, super_visor, requires):
+def check_changed_repo(repos, prefix, super_visor, requires, blacklist):
     """
     Helper to compare current yaml and previous yaml
     """
     errors_found = 0
 
-    curr_dict = {f["name"]: f for f in curr_repos}
+    curr_dict = {f["name"]: f for f in repos[0]}
     remove_repos = set()
     sigs_attention = set()
 
-    for repo in prev_repos:
+    for repo in repos[1]:
         if repo["name"] in curr_dict:
             if repo["type"] == "private" and curr_dict[repo["name"]]["type"] == "public":
                 continue
@@ -288,7 +297,7 @@ def check_changed_repo(curr_repos, prev_repos, prefix, super_visor, requires):
         sigs = super_visor.get(prefix + curr_repo["name"].lower(), set())
         sigs_attention = sigs_attention | sigs
 
-        errors_found += requires(curr_repo)
+        errors_found += requires(curr_repo, blacklist)
         if curr_repo.get("rename_from", "") in remove_repos:
             remove_repos.remove(curr_repo.get("rename_from"))
 
@@ -308,15 +317,17 @@ def check_100(oe_repos, srcoe_repos, super_visor, community_dir):
     errors_found = 0
     error_msg = """Some newly changed repositories doesn't follow the OE requirments"""
 
+    black_list = load_yaml(community_dir, BLC_YAML)["blacklist-software"]
+    black_dict = {i["name"]: i["reason"] for i in black_list}
     sigs_attention = set()
 
-    err, sigs = check_changed_repo(oe_repos[0], oe_repos[1],
-                                   "openeuler/", super_visor, oe_requirements)
+    err, sigs = check_changed_repo(oe_repos, "openeuler/",
+                                   super_visor, oe_requirements, black_dict)
     errors_found += err
     sigs_attention |= sigs
 
-    err, sigs = check_changed_repo(srcoe_repos[0], srcoe_repos[1],
-                                   "src-openeuler/", super_visor, srcoe_requirements)
+    err, sigs = check_changed_repo(srcoe_repos, "src-openeuler/",
+                                   super_visor, srcoe_requirements, black_dict)
     errors_found += err
     sigs_attention |= sigs
 

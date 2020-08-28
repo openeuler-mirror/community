@@ -29169,12 +29169,6 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: python-shadowsocks
-  upstream: https://github.com/shadowsocks/shadowsocks
-  description: A fast tunnel proxy that help you get through firewalls
-  protected_branches:
-  - master
-  type: public
 - name: python-shamir-mnemonic
   upstream: https://github.com/trezor/python-shamir-mnemonic
   description: SLIP-39 Shamir Mnemonics
@@ -39269,3 +39263,9 @@ repositories:
   protected_branches: 
   - master
   type: public
+- name: testabc
+  description: Java multi-format 1D/2D bar-code image processing library
+  upstream: https://github.com/zxing/zxing/
+  protected_branches: 
+  - master
+  type: public 
