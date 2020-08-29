@@ -28,7 +28,6 @@
 - 汪奕如[@ruebb](https://gitee.com/ruebb)
 - 赵磊[@AlexZ11](https://gitee.com/AlexZ11)
 - 夏森林[@small_leek](https://gitee.com/small_leek)
-- 严安[@yanan-rock](https://gitee.com/yanan-rock)
 
 # 联系方式
 
