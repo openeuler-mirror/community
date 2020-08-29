@@ -451,10 +451,11 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: antlr
-  description: ''
+  description: A parser generator that uses LL(*) for parsing
+  upstream: http://www.antlr2.org/
   protected_branches:
   - master
-  type: private
+  type: public
 - name: antlr3
   description: ''
   protected_branches:
@@ -499,10 +500,11 @@ repositories:
   - master
   type: private
 - name: apache-commons-collections
-  description: ''
+  description: A series of new interfaces,implementations and utilities provided for Java Collections
+  upstream: http://commons.apache.org/collections/
   protected_branches:
   - master
-  type: private
+  type: public
 - name: apache-commons-collections4
   description: Extension of the Java Collections Framework
   upstream: http://commons.apache.org/proper/commons-collections/
@@ -526,15 +528,17 @@ repositories:
   - master
   type: public
 - name: apache-commons-daemon
-  description: ''
+  description: Defines API to support an alternative invocation mechanism
+  upstream: http://commons.apache.org/daemon
   protected_branches:
   - master
-  type: private
+  type: pubilc
 - name: apache-commons-dbcp
-  description: ''
+  description: Apache Commons DataBase Pooling Package
+  upstream: http://commons.apache.org/dbcp/
   protected_branches:
   - master
-  type: private
+  type: public
 - name: apache-commons-digester
   description: XML to Java object mapping module
   upstream: http://commons.apache.org/digester/
@@ -587,10 +591,11 @@ repositories:
   - master
   type: private
 - name: apache-commons-logging
-  description: ''
+  description: Apache Commons Logging
+  upstream: http://commons.apache.org/logging
   protected_branches:
   - master
-  type: private
+  type: public
 - name: apache-commons-math
   description: Java library of lightweight mathematics and statistics components
   upstream: http://commons.apache.org/math/
@@ -598,20 +603,22 @@ repositories:
   - master
   type: public
 - name: apache-commons-net
-  description: ''
+  description: Java library for Internet protocol
+  upstream: http://commons.apache.org/net/
   protected_branches:
   - master
-  type: private
+  type: public
 - name: apache-commons-parent
   description: ''
   protected_branches:
   - master
   type: private
 - name: apache-commons-pool
-  description: ''
+  description: Apache Commons Pool
+  upstream: http://commons.apache.org/pool/
   protected_branches:
   - master
-  type: private
+  type: public
 - name: apache-commons-pool2
   description: Apache Commons Object Pooling Library 2.x series
   upstream: http://commons.apache.org/proper/commons-pool/
@@ -1074,10 +1081,11 @@ repositories:
   - master
   type: private
 - name: base64coder
-  description: ''
+  description: A fast and compact Base64 encoder/decoder class
+  upstream: http://www.source-code.biz/base64coder/java/
   protected_branches:
   - master
-  type: private
+  type: public
 - name: basesystem
   description: ''
   protected_branches:
@@ -1126,10 +1134,11 @@ repositories:
   - master
   type: public
 - name: bcel
-  description: ''
+  description: Byte Code Engineering Library
+  upstream: http://commons.apache.org/proper/commons-bcel/
   protected_branches:
   - master
-  type: private
+  type: public
 - name: bcftools
   description: Reading/writing BCF2/VCF/gVCF files and calling/filtering/summarising
     SNP
@@ -1160,10 +1169,11 @@ repositories:
   - master
   type: private
 - name: beust-jcommander
-  description: ''
+  description: Java framework for parsing command line parameters
+  upstream: http://jcommander.org/
   protected_branches:
   - master
-  type: private
+  type: public
 - name: bind
   description: ''
   protected_branches:
@@ -1253,10 +1263,11 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: bouncycastle
-  description: ''
+  description: A Java implementation of cryptographic algorithms
+  upstream: http://www.bouncycastle.org
   protected_branches:
   - master
-  type: private
+  type: public
 - name: bounds_checking_function
   description: Enhanced safety functions
   protected_branches:
@@ -1310,10 +1321,11 @@ repositories:
   - master
   type: public
 - name: bsf
-  description: ''
+  description: Bean Scripting Framework
+  upstream: http://commons.apache.org/bsf/
   protected_branches:
   - master
-  type: private
+  type: public
 - name: bsh
   description: ''
   protected_branches:
@@ -1547,10 +1559,11 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: cglib
-  description: ''
+  description: Code Generation Library for Java
+  upstream: https://github.com/cglib/cglib
   protected_branches:
   - master
-  type: private
+  type: public
 - name: check
   description: ''
   protected_branches:
@@ -2154,10 +2167,11 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: dbus-cpp
-  description: ''
+  description: Native C++ bindings for D-Bus
+  upstream: http://sourceforge.net/projects/dbus-cplusplus/
   protected_branches:
   - master
-  type: private
+  type: public
 - name: dbus-glib
   description: ''
   protected_branches:
@@ -2841,10 +2855,11 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: easymock
-  description: ''
+  description: Easy mock objects
+  upstream: http://www.easymock.org
   protected_branches:
   - master
-  type: private
+  type: public
 - name: ebtables
   description: ''
   protected_branches:
@@ -2852,10 +2867,11 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: ecj
-  description: ''
+  description: the Eclipse Compiler for Java
+  upstream: http://www.eclipse.org
   protected_branches:
   - master
-  type: private
+  type: public
 - name: eclipse
   description: ''
   protected_branches:
@@ -4360,10 +4376,11 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: gnome-software
-  description: ''
+  description: GNOME software Store
+  upstream: https://wiki.gnome.org/Apps/Software
   protected_branches:
   - master
-  type: private
+  type: public
 - name: gnome-system-monitor
   description: ''
   protected_branches:
@@ -5011,10 +5028,11 @@ repositories:
   - master
   type: public
 - name: hamcrest
-  description: ''
+  description: Library of matcher objects for building test expressions
+  upstream: https://github.com/hamcrest/JavaHamcrest
   protected_branches:
   - master
-  type: private
+  type: public
 - name: haproxy
   description: ''
   protected_branches:
@@ -6703,10 +6721,11 @@ repositories:
   - master
   type: private
 - name: jakarta-oro
-  description: ''
+  description: Provide compatible regular expressions
+  upstream: http://jakarta.apache.org/oro
   protected_branches:
   - master
-  type: private
+  type: public
 - name: jamm
   description: Java Agent for Memory Measurements
   upstream: Url:https://github.com/jbellis/jamm/
@@ -6783,10 +6802,11 @@ repositories:
   - master
   type: public
 - name: java_cup
-  description: ''
+  description: LALR parser generator for Java
+  upstream: http://www2.cs.tum.edu/projects/cup/
   protected_branches:
   - master
-  type: private
+  type: public
 - name: javacc
   description: A parser/scanner generator for java.
   protected_branches:
@@ -6803,10 +6823,11 @@ repositories:
   - master
   type: private
 - name: javamail
-  description: ''
+  description: JavaMail API
+  upstream: http://www.oracle.com/technetwork/java/javamail
   protected_branches:
   - master
-  type: private
+  type: public
 - name: javapackages-tools
   description: ''
   protected_branches:
@@ -7010,10 +7031,11 @@ repositories:
   - master
   type: public
 - name: jdepend
-  description: ''
+  description: Java Design Quality Metrics
+  upstream: http://www.clarkware.com/
   protected_branches:
   - master
-  type: private
+  type: public
 - name: jdependency
   description: This project provides an API to analyse class dependencies.
   protected_branches:
@@ -7235,10 +7257,11 @@ repositories:
   - master
   type: public
 - name: jsch
-  description: ''
+  description: A Pure Java implementation of SSH2
+  upstream: http://www.jcraft.com/jsch/
   protected_branches:
   - master
-  type: private
+  type: public
 - name: jsch-agent-proxy
   description: ''
   protected_branches:
@@ -7312,15 +7335,17 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: junit
-  description: ''
+  description: A Java package for unit testing frameworks
+  upstream: http://www.junit.org/
   protected_branches:
   - master
-  type: private
+  type: public
 - name: junit5
-  description: ''
+  description: Java regression testing framework
+  upstream: http://junit.org/junit5/
   protected_branches:
   - master
-  type: private
+  type: public
 - name: jupyter
   description: Jupyter is an environment for interactive computing in multiple languages.
   upstream: https://github.com/jupyter/jupyter
@@ -7333,10 +7358,11 @@ repositories:
   - master
   type: private
 - name: jzlib
-  description: ''
+  description: A re-implementation of zlib in pure Java
+  upstream: http://www.jcraft.com/jzlib/
   protected_branches:
   - master
-  type: private
+  type: public
 - name: kacst-fonts
   description: ''
   protected_branches:
@@ -8719,11 +8745,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: libldm
-  description: ''
+  description: A tool and library for managing Microsoft Windows Dynamic Disks
+  upstream: https://github.com/mdbooth/libldm
   protected_branches:
   - master
   - openEuler-20.03-LTS
-  type: private
+  type: public
 - name: liblockfile
   description: This implements a number of functions found in -lmail on SysV systems
   upstream: http://packages.qa.debian.org/libl/liblockfile.html
@@ -9661,7 +9688,7 @@ repositories:
   upstream: https://github.com/WebPlatformForEmbedded/libwpe
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libwpg
   description: ''
   protected_branches:
@@ -9914,10 +9941,11 @@ repositories:
   - master
   type: private
 - name: log4j12
-  description: ''
+  description: A logging library for Java
+  upstream: http://logging.apache.org/log4j/1.2/
   protected_branches:
   - master
-  type: private
+  type: public
 - name: logback
   description: Logback is intended as a successor to the popular log4j project.
   protected_branches:
@@ -9936,65 +9964,75 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: lohit-assamese-fonts
-  description: ''
+  description: Free and open Assamese font
+  upstream: https://pagure.io/lohit
   protected_branches:
   - master
-  type: private
+  type: public
 - name: lohit-bengali-fonts
-  description: ''
+  description: The OpenType font for Bengali language from Lohit project
+  upstream: https://pagure.io/lohit
   protected_branches:
   - master
-  type: private
+  type: public
 - name: lohit-devanagari-fonts
-  description: ''
+  description: Free Devanagari Script Font
+  upstream: https://pagure.io/lohit
   protected_branches:
   - master
-  type: private
+  type: public
 - name: lohit-gujarati-fonts
-  description: ''
+  description: OpenType/Truetype Font for Gujarati
+  upstream: https://pagure.io/lohit
   protected_branches:
   - master
-  type: private
+  type: public
 - name: lohit-gurmukhi-fonts
   description: ''
   protected_branches:
   - master
   type: private
 - name: lohit-kannada-fonts
-  description: ''
+  description: Free font for Kannada languages
+  upstream: https://pagure.io/lohit
   protected_branches:
   - master
-  type: private
+  type: public
 - name: lohit-malayalam-fonts
-  description: ''
+  description: Free Malayalam font
+  upstream: https://pagure.io/lohit
   protected_branches:
   - master
-  type: private
+  type: public
 - name: lohit-marathi-fonts
-  description: ''
+  description: Free truetype font for Marathi language
+  upstream: https://pagure.io/lohit
   protected_branches:
   - master
-  type: private
+  type: public
 - name: lohit-nepali-fonts
-  description: ''
+  description: This package provides a free Nepali truetype/opentype font
+  upstream: https://pagure.io/lohit
   protected_branches:
   - master
-  type: private
+  type: public
 - name: lohit-odia-fonts
   description: ''
   protected_branches:
   - master
   type: private
 - name: lohit-tamil-fonts
-  description: ''
+  description: Truetype/Opentype font for Tamil
+  upstream: https://pagure.io/lohit/
   protected_branches:
   - master
-  type: private
+  type: public
 - name: lohit-telugu-fonts
-  description: ''
+  description: Free and Open Telugu font
+  upstream: https://pagure.io/lohit
   protected_branches:
   - master
-  type: private
+  type: public
 - name: lorax
   description: ''
   protected_branches:
@@ -10087,9 +10125,10 @@ repositories:
   type: public
 - name: luajit
   description: Just-In-Time Compiler for Lua
+  upstream: http://luajit.org/
   protected_branches:
   - master
-  type: private
+  type: public
 - name: lucene
   description: ''
   protected_branches:
@@ -11023,10 +11062,11 @@ repositories:
   - master
   type: public
 - name: mousetweaks
-  description: ''
+  description: Accessibility enhancements for the mouse
+  upstream: http://live.gnome.org/Mousetweaks/Home
   protected_branches:
   - master
-  type: private
+  type: public
 - name: mozilla-filesystem
   description: ''
   protected_branches:
@@ -11536,11 +11576,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: ntfs-3g
-  description: ''
+  description: Linux NTFS userspace driver
+  upstream: http://www.ntfs-3g.org/
   protected_branches:
   - master
   - openEuler-20.03-LTS
-  type: private
+  type: public
 - name: ntp
   description: ''
   protected_branches:
@@ -11590,10 +11631,11 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: objectweb-asm
-  description: ''
+  description: Java bytecode manipulation and analysis framework
+  upstream: http://asm.ow2.org/
   protected_branches:
   - master
-  type: private
+  type: public
 - name: objectweb-asm3
   description: ''
   protected_branches:
@@ -11605,10 +11647,11 @@ repositories:
   - master
   type: private
 - name: objenesis
-  description: ''
+  description: A Java library to instantiate a new object
+  upstream: http://objenesis.org/
   protected_branches:
   - master
-  type: private
+  type: public
 - name: obs-build
   description: ''
   protected_branches:
@@ -11986,10 +12029,11 @@ repositories:
   - master
   type: private
 - name: openmpi
-  description: ''
+  description: Open Source High Performance Computing
+  upstream: http://www.open-mpi.org/
   protected_branches:
   - master
-  type: private
+  type: public
 - name: opennlp
   description: A machine learning based toolkit for the processing of natural language text
   upstream: https://opennlp.apache.org/
@@ -12074,10 +12118,11 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: opentest4j
-  description: ''
+  description: JVM  Open Test Alliance
+  upstream: https://github.com/ota4j-team/opentest4j
   protected_branches:
   - master
-  type: private
+  type: public
 - name: openvpn
   description: ''
   protected_branches:
@@ -12617,9 +12662,10 @@ repositories:
   type: public
 - name: pbzip2
   description: Parallel implementation of bzip2
+  upstream: http://www.compression.ca/pbzip2/
   protected_branches:
   - master
-  type: private
+  type: public
 - name: pcaudiolib
   description: ''
   protected_branches:
@@ -16781,10 +16827,11 @@ repositories:
   - master
   type: public
 - name: perl-Mail-SPF
-  description: ''
+  description: Sender Policy Framework's object-oriented implementation
+  upstream: https://metacpan.org/release/Mail-SPF
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Mail-Sender
   description: ''
   protected_branches:
@@ -17814,20 +17861,22 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: perl-Net-DNS-Resolver-Mock
-  description: ''
+  description: 
   protected_branches:
   - master
   type: private
 - name: perl-Net-DNS-Resolver-Programmable
   description: Programmable DNS resolver class for offline emulation of DNS
+  upstream: https://metacpan.org/release/Net-DNS-Resolver-Programmable
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Net-DNS-SEC
-  description: ''
+  description: An extension module of Perl(Net::DNS) package
+  upstream: https://metacpan.org/release/Net-DNS-SEC
   protected_branches:
   - master
-  type: private
+  type: public
 - name: perl-Net-Daemon
   description: ''
   protected_branches:
@@ -22432,10 +22481,11 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: pylint
-  description: ''
+  description: Analyzes Python code looking for bugs and signs of poor quality
+  upstream: http://www.pylint.org/
   protected_branches:
   - master
-  type: private
+  type: public
 - name: pyorbit
   description: ''
   protected_branches:
@@ -23403,10 +23453,11 @@ repositories:
   - master
   type: public
 - name: python-astroid
-  description: ''
+  description: Common base representation of python source code for pylint and other projects
+  upstream: https://github.com/PyCQA/astroid
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-astroplan
   upstream: https://github.com/astropy/astroplan
   description: Observation planning package for astronomers
@@ -26035,9 +26086,10 @@ repositories:
   type: public
 - name: python-ipython_genutils
   description: IPython vestigial utilities.
+  upstream: https://github.com/ipython/ipython_genutils
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-iso8601
   description: ''
   protected_branches:
@@ -26051,10 +26103,11 @@ repositories:
   - master
   type: public
 - name: python-isort
-  description: ''
+  description: A Python utility / library to sort imports
+  upstream: https://github.com/timothycrosley/isort
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-itsdangerous
   description: ''
   protected_branches:
@@ -26351,10 +26404,11 @@ repositories:
   - master
   type: public
 - name: python-lazy-object-proxy
-  description: ''
+  description: A fast and thorough lazy object proxy
+  upstream: https://github.com/ionelmc/python-lazy-object-proxy
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-lazyarray
   upstream: http://github.com/NeuralEnsemble/lazyarray/
   description: a Python package that provides a lazily-evaluated numerical array class,
@@ -26629,10 +26683,11 @@ repositories:
   - master
   type: private
 - name: python-mccabe
-  description: ''
+  description: McCabe complexity checker for Python
+  upstream: http://pypi.python.org/pypi/mccabe
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-mdx_gh_links
   upstream: https://github.com/Python-Markdown/github-links/
   description: An extension to Python-Markdown which adds support for shorthand links
@@ -28482,10 +28537,11 @@ repositories:
   - master
   type: public
 - name: python-pytest-runner
-  description: ''
+  description: Provide setup.py test support for pytest runner
+  upstream: https://pypi.python.org/pypi/pytest-runner
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-pytest-shutil
   description: ''
   protected_branches:
@@ -29802,9 +29858,10 @@ repositories:
   type: public
 - name: python-tox
   description: Virtualenv-based automation of test activities
+  upstream: https://tox.readthedocs.io/
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-tqdm
   description: Fast, Extensible Progress Meter
   protected_branches:
@@ -29818,11 +29875,11 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: python-traitlets
-  description: A lightweight derivative of Enthought Traits for configuring Python
-    objects
+  description: A lightweight derivative of Enthought Traits for configuring Python  objects
+  upstream: https://github.com/ipython/traitlets
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-traitsui
   upstream: http://docs.enthought.com/traitsui
   description: traitsui
@@ -30288,10 +30345,11 @@ repositories:
   - master
   type: public
 - name: python-wrapt
-  description: ''
+  description: A Python module for decorators, wrappers and monkey patching
+  upstream: https://github.com/GrahamDumpleton/wrapt
   protected_branches:
   - master
-  type: private
+  type: public
 - name: python-wsproto
   upstream: https://github.com/python-hyper/wsproto/
   description: WebSockets state-machine based protocol implementation
@@ -30628,10 +30686,11 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: qdox
-  description: ''
+  description: High speed and small footprint parser
+  upstream: https://github.com/paul-hammant/qdox
   protected_branches:
   - master
-  type: private
+  type: public
 - name: qemu
   description: qemu is a generic and open source machine emulator and virtualizer.
   upstream: https://gitee.com/openeuler/qemu
@@ -31090,10 +31149,11 @@ repositories:
   - master
   type: private
 - name: regexp
-  description: ''
+  description: Simple regular expressions API
+  upstream: http://jakarta.apache.org/regexp/
   protected_branches:
   - master
-  type: private
+  type: public
 - name: reiserfs-utils
   description: ''
   protected_branches:
@@ -31230,10 +31290,11 @@ repositories:
   - master
   type: private
 - name: rpm-ostree
-  description: ''
+  description: Hybrid image/package system
+  upstream: https://github.com/projectatomic/rpm-ostree
   protected_branches:
   - master
-  type: private
+  type: public
 - name: rpmdevtools
   description: ''
   protected_branches:
@@ -31804,10 +31865,11 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: shapelib
-  description: ''
+  description: A Shapefile C Library
+  upstream: http://shapelib.maptools.org/
   protected_branches:
   - master
-  type: private
+  type: public
 - name: shared-mime-info
   description: ''
   protected_branches:
@@ -31874,10 +31936,11 @@ repositories:
   - master
   type: private
 - name: skkdic
-  description: ''
+  description: Standard dictionary file for SKK
+  upstream: http://openlab.ring.gr.jp/skk/skk/dic/
   protected_branches:
   - master
-  type: private
+  type: public
 - name: skopeo
   description: ''
   protected_branches:
@@ -31931,10 +31994,11 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: snakeyaml
-  description: ''
+  description: YAML parser and emitter for the Java programming language
+  upstream: https://bitbucket.org/asomov/snakeyaml/
   protected_branches:
   - master
-  type: private
+  type: public
 - name: snapd-glib
   description: Library providing a Glib interface to snapd
   upstream: https://github.com/snapcore/snapd-glib
@@ -32023,10 +32087,11 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: spamassassin
-  description: ''
+  description: A program used for e-mail spam filtering
+  upstream: https://spamassassin.apache.org/
   protected_branches:
   - master
-  type: private
+  type: public
 - name: spec-version-maven-plugin
   description: Spec Version Maven Plugin
   upstream: http://glassfish.java.net/
@@ -32266,10 +32331,11 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: sushi
-  description: ''
+  description: Quick Previewer for Nautilus
+  upstream: https://wiki.gnome.org/ThreePointOne/Features/FilePreviewing
   protected_branches:
   - master
-  type: private
+  type: public
 - name: swig
   description: ''
   protected_branches:
@@ -32523,10 +32589,11 @@ repositories:
   - master
   type: private
 - name: testng
-  description: ''
+  description: Java-based testing framework
+  upstream: http://testng.org/
   protected_branches:
   - master
-  type: private
+  type: public
 - name: tex-fonts-hebrew
   description: Culmus Hebrew fonts support for LaTeX
   upstream: http://culmus.sf.net
@@ -32719,10 +32786,11 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: tomcat
-  description: ''
+  description: Implementation of the Java Servlet, JavaServerPages, Java Expression Language and Java WebSocket technologies
+  upstream: http://tomcat.apache.org/
   protected_branches:
   - master
-  type: private
+  type: public
 - name: tomcat-native
   description: ''
   protected_branches:
@@ -32734,10 +32802,11 @@ repositories:
   - master
   type: private
 - name: tomcat-taglibs-standard
-  description: ''
+  description: Apache Standard Taglib,Javadoc for tomcat-taglibs-standard
+  upstream: http://tomcat.apache.org/taglibs/
   protected_branches:
   - master
-  type: private
+  type: public
 - name: tomcatjss
   description: Apache Tomcat of JSS Connector
   upstream: http://www.dogtagpki.org/wiki/TomcatJSS
@@ -32745,10 +32814,11 @@ repositories:
   - master
   type: public
 - name: totem
-  description: ''
+  description: GNOME Movie Player
+  upstream: https://wiki.gnome.org/Apps/Videos
   protected_branches:
   - master
-  type: private
+  type: public
 - name: totem-pl-parser
   description: ''
   protected_branches:
@@ -33584,10 +33654,11 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: univocity-parsers
-  description: ''
+  description: Java Collection of parsers
+  upstream: https://github.com/uniVocity/univocity-parsers
   protected_branches:
   - master
-  type: private
+  type: public
 - name: unixODBC
   description: ''
   protected_branches:
@@ -34027,7 +34098,7 @@ repositories:
   upstream: https://github.com/Igalia/WPEBackend-fdo
   protected_branches:
   - master
-  type: private
+  type: public
 - name: wqy-microhei-fonts
   description: ''
   protected_branches:
@@ -34128,10 +34199,11 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: xalan-j2
-  description: ''
+  description: Java XSLT processor
+  upstream: http://xalan.apache.org/
   protected_branches:
   - master
-  type: private
+  type: public
 - name: xapian-core
   description: ''
   protected_branches:
@@ -34213,17 +34285,19 @@ repositories:
   upstream: https://github.com/flatpak/xdg-dbus-proxy
   protected_branches:
   - master
-  type: private
+  type: public
 - name: xdg-desktop-portal
-  description: ''
+  description: A portal frontend service for Flatpak and possibly other desktop containment frameworks
+  upstream: https://github.com/flatpak/xdg-desktop-portal/
   protected_branches:
   - master
-  type: private
+  type: public
 - name: xdg-desktop-portal-gtk
-  description: ''
+  description: A backend implementation for xdg-desktop-portal
+  upstream: https://github.com/flatpak/xdg-desktop-portal-gtk
   protected_branches:
   - master
-  type: private
+  type: public
 - name: xdg-user-dirs
   description: ''
   protected_branches:
@@ -34258,10 +34332,11 @@ repositories:
   - master
   type: private
 - name: xerces-j2
-  description: ''
+  description: Java XML parser
+  upstream: http://xerces.apache.org/xerces2-j/
   protected_branches:
   - master
-  type: private
+  type: public
 - name: xfburn
   upstream: http://goodies.xfce.org/projects/applications/xfburn
   description: Simple CD burning tool for Xfce
@@ -34611,15 +34686,17 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: xml-commons-apis
-  description: ''
+  description: APIs for XML related code
+  upstream: http://xml.apache.org/commons/
   protected_branches:
   - master
-  type: private
+  type: public
 - name: xml-commons-resolver
-  description: ''
+  description: XML-commons resolver subprojects
+  upstream: http://xerces.apache.org/xml-commons/components/resolver/
   protected_branches:
   - master
-  type: private
+  type: public
 - name: xmlgraphics-commons
   description: ''
   protected_branches:
@@ -34910,10 +34987,11 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: xz-java
-  description: ''
+  description: A complete implementation of XZ data compression in pure Java
+  upstream: http://tukaani.org/xz/java.html
   protected_branches:
   - master
-  type: private
+  type: public
 - name: yajl
   description: ''
   protected_branches:
