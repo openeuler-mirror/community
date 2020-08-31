@@ -22635,7 +22635,7 @@ repositories:
   protected_branches:
   - master
   type: public
-  - name: python-concurrent-log-handler
+- name: python-concurrent-log-handler
   description: RotatingFileHandler replacement with concurrency, gzip and Windows support
   upstream: https://github.com/Preston-Landers/concurrent-log-handler
   protected_branches:
