@@ -358,9 +358,9 @@ def prepare_master_branch_yaml(community_dir):
     """
     old_dir = os.getcwd()
     os.chdir(community_dir)
-    git_srcoe_cmd = "git show remotes/origin/master^:" + SRC_OE_YAML + " > " + M_SRC_OE_YAML
+    git_srcoe_cmd = "git show remotes/origin/master:" + SRC_OE_YAML + " > " + M_SRC_OE_YAML
     subprocess.check_output(git_srcoe_cmd, shell=True)
-    git_oe_cmd = "git show remotes/origin/master^:" + OE_YAML + " > " + M_OE_YAML
+    git_oe_cmd = "git show remotes/origin/master:" + OE_YAML + " > " + M_OE_YAML
     subprocess.check_output(git_oe_cmd, shell=True)
     os.chdir(old_dir)
 
