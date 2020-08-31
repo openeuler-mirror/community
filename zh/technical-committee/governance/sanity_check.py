@@ -343,10 +343,10 @@ def check_100(oe_repos, srcoe_repos, super_visor, community_dir):
             if sig == "Private":
                 continue
             else:
-                print(sig + ": ", end='')
+                print(sig, end=': ')
                 owners = load_yaml(community_dir, "sig/" + sig + "/OWNERS")["maintainers"]
                 for owner in owners:
-                    print("@" + owner + " ", end='')
+                    print("@" + owner, end=' ')
                 print("")
 
     return errors_found
