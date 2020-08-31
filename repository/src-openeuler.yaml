@@ -27900,11 +27900,6 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: python-pyaml
-  description: ''
-  protected_branches:
-  - master
-  type: private
 - name: python-pyasn1
   description: ''
   protected_branches:
@@ -40428,5 +40423,11 @@ repositories:
   description: Enable TCP keepalive in dynamic binaries
   upstream: http://libkeepalive.sourceforge.net/
   protected_branches: 
+  - master
+  type: public
+- name: python-pyaml
+  description: PyYAML-based module to produce pretty and readable YAML-serialized data
+  upstream: https://github.com/mk-fg/pretty-yaml
+  protected_branches:
   - master
   type: public
