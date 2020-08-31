@@ -22635,6 +22635,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-concurrent-log-handler
+  description: RotatingFileHandler replacement with concurrency, gzip and Windows support
+  upstream: https://github.com/Preston-Landers/concurrent-log-handler
+  protected_branches:
+  - master
+  type: public
 - name: python-Flask-Admin
   upstream: https://github.com/flask-admin/flask-admin/
   description: Simple and extensible admin interface framework for Flask
