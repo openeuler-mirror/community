@@ -1912,7 +1912,6 @@ sigs:
   - src-openeuler/iSula-libutils
   - src-openeuler/clibcni
   - src-openeuler/docker-client-java
-  - src-openeuler/oci-systemd-hook
   - src-openeuler/runc
   - src-openeuler/virt-what
   - src-openeuler/containerd
@@ -4269,6 +4268,7 @@ sigs:
   - src-openeuler/hesiod
   - src-openeuler/libmodman
   - src-openeuler/tpm2-abrmd-selinux
+  - src-openeuler/oci-systemd-hook
 - name: sig-RaspberryPi
   repositories:
   - openeuler/raspberrypi
