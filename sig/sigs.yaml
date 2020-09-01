@@ -4268,6 +4268,7 @@ sigs:
   - src-openeuler/langpacks
   - src-openeuler/hesiod
   - src-openeuler/libmodman
+  - src-openeuler/tpm2-abrmd-selinux
 - name: sig-RaspberryPi
   repositories:
   - openeuler/raspberrypi
@@ -4442,7 +4443,6 @@ sigs:
   - src-openeuler/tpm2-tss
   - src-openeuler/audit
   - src-openeuler/nss-pem
-  - src-openeuler/tpm2-abrmd-selinux
   - src-openeuler/swtpm
   - src-openeuler/libtpms
 - name: sig-Compatibility-Infra
