@@ -37,13 +37,30 @@
 
 # 联系方式
 
-- 邮件列表 <dev@openeuler.org>
-- [IRC公开会议]()
-- 视频会议
+- [邮件列表](https://mailweb.openeuler.org/postorius/lists/os-builder@openeuler.org/)
 
 # 项目清单
 
 项目名称：
 
 repository地址：
-
+ 
+ - [anaconda](https://gitee.com/src-openeuler/anaconda)
+ - [anaconda-user-help](https://gitee.com/src-openeuler/anaconda-user-help)
+ - [blivet-gui](https://gitee.com/src-openeuler/blivet-gui)
+ - [cdrkit](https://gitee.com/src-openeuler/cdrkit)
+ - [dnf](https://gitee.com/src-openeuler/dnf)
+ - [dnf-plugins-core](https:/gitee.com/src-openeuler/dnf-plugins-core)
+ - [libdnf](https:/gitee.com/src-openeuler/libdnf)
+ - [libsolv](https://gitee.com/src-openeuler/libsolv)
+ - [efi-rpm-macros](https://gitee.com/src-openeuler/efi-rpm-macros)
+ - [efibootmgr](https://gitee.com/src-openeuler/efibootmgr)
+ - [efivar](https://gitee.com/src-openeuler/efivar)
+ - [grub2](https://gitee.com/openeuler/grub2)
+ - [ipxe](https://gitee.com/openeuler/ipxe)
+ - [syslinux](https://gitee.com/src-openeuler/syslinux)
+ - [lorax](https://gitee.com/src-openeuler/lorax)
+ - [python-blivet](https://gitee.com/src-openeuler/python-blivet)
+ - [uboot-tools](https://gitee.com/src-openeuler/uboot-tools)
+ - [python-dasbus](https://gitee.com/src-openeuler/python-dasbus)
+ - [oemaker](https://gitee.com/openeuler/oemaker)
