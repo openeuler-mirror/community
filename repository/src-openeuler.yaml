@@ -40451,3 +40451,297 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: jacorb
+  description: The Java implementation of the OMG's CORBA standard
+  upstream: http://www.jacorb.org/index.html
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-interceptors-1.1-api
+  description: Interceptors 1.1 API
+  upstream: http://www.jboss.org
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-argparse
+  description: A native port of Python's argparse, an options parsing library
+  upstream: https://github.com/nodeca/argparse
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-ansi-font
+  description: ANSI font styling utils
+  upstream: https://github.com/gozala/ansi-font
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-http-signature
+  description: Reference implementation of Joyent's HTTP Signature Scheme
+  upstream: https://github.com/joyent/node-http-signature
+  protected_branches: 
+  - master
+  type: public
+- name: jwnl
+  description: Java API for accessing the WordNet relational dictionary
+  upstream: https://sourceforge.net/projects/jwordnet/
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-istanbul
+  description: A JS code coverage tool written in JS
+  upstream: https://github.com/gotwarlost/istanbul
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-path-parse
+  description: Node.js path.parse() ponyfill
+  upstream: https://github.com/jbgutierrez/path-parse.git
+  protected_branches: 
+  - master
+  type: public
+- name: junitperf
+  description: JUnit extension for performance and scalability testing
+  upstream: http://github.com/clarkware/junitperf
+  protected_branches: 
+  - master
+  type: public
+- name: serp
+  description: Byte-code manipulation framework
+  upstream: http://serp.sourceforge.net/
+  protected_branches: 
+  - master
+  type: public
+- name: erlang-rebar
+  description: Erlang Build Tools
+  upstream: https://github.com/rebar/rebar
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-has-color
+  description: Detects whether a terminal supports color
+  upstream: https://github.com/sindresorhus/has-color
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-jade
+  description: Jade template engine for Node.js
+  upstream: https://github.com/visionmedia/jade
+  protected_branches: 
+  - master
+  type: public
+- name: idlj-maven-plugin
+  description: The CORBA IDL Compiler Maven Plugin 
+  upstream: https://libraries.io/maven/org.codehaus.mojo:idlj-maven-plugin
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-tap
+  description: A Test Anything Protocol library
+  upstream: https://github.com/isaacs/node-tap
+  protected_branches: 
+  - master
+  type: public
+- name: qpid-proton-java
+  description: Java libraries for Qpid Proton
+  upstream: http://qpid.apache.org/proton/
+  protected_branches: 
+  - master
+  type: public
+- name: jamonapi
+  description: A Java monitoring API
+  upstream: http://jamonapi.sourceforge.net/
+  protected_branches: 
+  - master
+  type: public
+- name: android-json-org-java
+  description: Androids rewrite of the evil licensed Json.org
+  upstream: https://androidpedia.net/en/tutorial/106/json-in-android-with-org-json
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-should
+  description: A test framework agnostic BDD-style assertions for Node.js
+  upstream: https://github.com/shouldjs/should.js
+  protected_branches: 
+  - master
+  type: public
+- name: jasperreports
+  description: Report-generating tool
+  upstream: http://jasperforge.org/projects/jasperreports/
+  protected_branches: 
+  - master
+  type: public
+- name: erlang-protobuffs
+  description: A set of Protocol Buffers tools and modules for Erlang applications
+  upstream: https://github.com/basho/erlang_protobuffs
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-js-yaml
+  description: YAML 1.2 parser and serializer
+  upstream: https://github.com/nodeca/js-yaml
+  protected_branches: 
+  - master
+  type: public
+- name: glassfish-management-api
+  description: GlassFish Common APIs
+  upstream: http://java.net/projects/gmbal/pages/Home
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-resolve-pkg
+  description: Resolve the path of a package regardless of it having an entry
+  upstream: https://github.com/sindresorhus/resolve-pkg
+  protected_branches: 
+  - master
+  type: public
+- name: sqljet
+  description: Pure Java SQLite
+  upstream: http://sqljet.com/
+  protected_branches: 
+  - master
+  type: public
+- name: remotetea
+  description: Java implementation of Sun's ONC/RPC Remote Procedure Protocol
+  upstream: http://remotetea.sourceforge.net/
+  protected_branches: 
+  - master
+  type: public
+- name: scannotation
+  description: A Java annotation scanner
+  upstream: http://scannotation.sourceforge.net
+  protected_branches: 
+  - master
+  type: public
+- name: sequence-library
+  description: Textual diff and merge library
+  upstream: http://svn.svnkit.com/repos/3rdparty/de.regnis.q.sequence/
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-estraverse
+  description: ECMAScript JS AST traversal functions
+  upstream: https://github.com/Constellation/estraverse
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-generate-function
+  description: Module that helps you write generated functions in Node
+  upstream: https://github.com/mafintosh/generate-function
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-grunt-contrib-watch
+  description: Run predefined tasks whenever watched file patterns are added/changed/deleted
+  upstream: https://github.com/gruntjs/grunt-contrib-watch
+  protected_branches: 
+  - master
+  type: public
+- name: java-oauth
+  description: An open protocol to allow API authentication
+  upstream: https://oauth.net/code/java/
+  protected_branches: 
+  - master
+  type: public
+- name: junit-addons
+  description: JUnitX helper classes for JUnit
+  upstream: http://sourceforge.net/projects/junit-addons/
+  protected_branches: 
+  - master
+  type: public
+- name: java-service-wrapper
+  description: Java service wrapper
+  upstream: https://wrapper.tanukisoftware.com/doc/english/download.jsp
+  protected_branches: 
+  - master
+  type: public
+- name: mojarra
+  description: JSF Reference Implementation
+  upstream: http://javaserverfaces.java.net
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-ansi-regex
+  description: Regular expression for matching ANSI escape codes
+  upstream: https://github.com/sindresorhus/ansi-regex
+  protected_branches: 
+  - master
+  type: public
+- name: tycho
+  description: Plugins and extensions for building Eclipse plugins and OSGI bundles with Maven
+  upstream: http://eclipse.org/tycho
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-escodegen
+  description: ECMAScript code generator
+  upstream: https://github.com/Constellation/escodegen
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-rechoir
+  description: Require any supported file as a node module
+  upstream: https://github.com/tkellen/node-rechoir
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-transformers
+  description: String/Data transformations for Node.js
+  upstream: https://github.com/ForbesLindesay/transformers
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-tap-parser
+  description: Parse the test anything protocol
+  upstream: https://github.com/substack/tap-parser.git
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-json-diff
+  description: nodejs JSON structural diff
+  upstream: https://github.com/andreyvit/json-diff
+  protected_branches: 
+  - master
+  type: public
+- name: juniversalchardet
+  description: A Java port of Mozilla's universalchardet
+  upstream: https://github.com/thkoch2001/juniversalchardet
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-has-ansi
+  description: Check if a string has ANSI escape codes
+  upstream: https://github.com/sindresorhus/has-ansi
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-readdirp
+  description: Recursive version of Node's fs.readdir with a streaming API
+  upstream: https://github.com/thlorenz/readdirp
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-is-property
+  description: Tests if a json property can be safely accessed using the .syntax
+  upstream: https://github.com/mikolalysenko/is-property
+  protected_branches: 
+  - master
+  type: public
+- name: itext
+  description: A Free Java-PDF library
+  upstream: http://www.lowagie.com/iText/
+  protected_branches: 
+  - master
+  type: public
+- name: shibboleth-java-support
+  description: Java Support for Shibboleth projects
+  upstream: http://shibboleth.net/
+  protected_branches: 
+  - master
+  type: public
+- name: nodejs-shelljs
+  description: Portable Unix shell commands for Node.js
+  upstream: http://github.com/arturadib/shelljs
+  protected_branches: 
+  - master
+  type: public

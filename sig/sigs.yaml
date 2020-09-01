@@ -27,8 +27,8 @@ sigs:
   - src-openeuler/amanda
   - src-openeuler/antlr-maven-plugin
   - src-openeuler/antlr32
-  - src-openeuler/apache-commons-csv
   - src-openeuler/apache-commons-collections
+  - src-openeuler/apache-commons-csv
   - src-openeuler/apache-commons-daemon
   - src-openeuler/apache-commons-dbcp
   - src-openeuler/apache-commons-logging
@@ -76,6 +76,8 @@ sigs:
   - src-openeuler/elixir
   - src-openeuler/enscript
   - src-openeuler/eog
+  - src-openeuler/erlang-protobuffs
+  - src-openeuler/erlang-rebar
   - src-openeuler/esc
   - src-openeuler/evince
   - src-openeuler/faust
@@ -281,8 +283,8 @@ sigs:
   - src-openeuler/iperf2
   - src-openeuler/iperf3
   - src-openeuler/irssi
-  - src-openeuler/javamail
   - src-openeuler/java-atk-wrapper
+  - src-openeuler/javamail
   - src-openeuler/jboss-jms-2.0-api
   - src-openeuler/jdepend
   - src-openeuler/jedis
@@ -349,10 +351,10 @@ sigs:
   - src-openeuler/mythes
   - src-openeuler/nano
   - src-openeuler/netpbm
-  - src-openeuler/ntfs-3g
   - src-openeuler/nss-altfiles
   - src-openeuler/nss-mdns
   - src-openeuler/nss_wrapper
+  - src-openeuler/ntfs-3g
   - src-openeuler/objectweb-asm
   - src-openeuler/openal-soft
   - src-openeuler/openjade
@@ -369,8 +371,8 @@ sigs:
   - src-openeuler/patchutils
   - src-openeuler/pavucontrol
   - src-openeuler/pax
-  - src-openeuler/pcp
   - src-openeuler/pbzip2
+  - src-openeuler/pcp
   - src-openeuler/perftest
   - src-openeuler/perl-B-Lint
   - src-openeuler/perl-Pod-LaTeX
@@ -436,10 +438,10 @@ sigs:
   - src-openeuler/xapps
   - src-openeuler/xdg-dbus-proxy
   - src-openeuler/xdg-desktop-portal-gtk
+  - src-openeuler/xml-commons-apis
   - src-openeuler/xmlstreambuffer
   - src-openeuler/xmltoman
   - src-openeuler/xmms
-  - src-openeuler/xml-commons-apis
   - src-openeuler/xsane
   - src-openeuler/xz-java
   - src-openeuler/yelp-tools
@@ -2435,6 +2437,7 @@ sigs:
   repositories:
   - openeuler/Java-Packages
   - src-openeuler/BareBonesBrowserLaunch
+  - src-openeuler/android-json-org-java
   - src-openeuler/annotation-indexer
   - src-openeuler/apache-commons-cli
   - src-openeuler/apache-commons-discovery
@@ -2485,6 +2488,7 @@ sigs:
   - src-openeuler/glassfish-gmbal
   - src-openeuler/glassfish-hk2
   - src-openeuler/glassfish-jaxrpc-api
+  - src-openeuler/glassfish-management-api
   - src-openeuler/glassfish-pfl
   - src-openeuler/glassfish-toplink-essentials
   - src-openeuler/glassfish-transaction-api
@@ -2500,8 +2504,10 @@ sigs:
   - src-openeuler/hsqldb
   - src-openeuler/httpunit
   - src-openeuler/icu4j
+  - src-openeuler/idlj-maven-plugin
   - src-openeuler/invokebinder
   - src-openeuler/ironjacamar
+  - src-openeuler/itext
   - src-openeuler/jackson-databind
   - src-openeuler/jackson-dataformat-xml
   - src-openeuler/jackson-dataformats-text
@@ -2510,9 +2516,14 @@ sigs:
   - src-openeuler/jackson-jaxrs-providers
   - src-openeuler/jackson-modules-base
   - src-openeuler/jacoco
+  - src-openeuler/jacorb
+  - src-openeuler/jamonapi
   - src-openeuler/jandex-maven-plugin
+  - src-openeuler/jasperreports
   - src-openeuler/jasypt
   - src-openeuler/java-libpst
+  - src-openeuler/java-oauth
+  - src-openeuler/java-service-wrapper
   - src-openeuler/java-xmlbuilder
   - src-openeuler/javapoet
   - src-openeuler/jaxb2-common-basics
@@ -2524,6 +2535,7 @@ sigs:
   - src-openeuler/jboss-ejb-3.2-api
   - src-openeuler/jboss-el-3.0-api
   - src-openeuler/jboss-integration
+  - src-openeuler/jboss-interceptors-1.1-api
   - src-openeuler/jboss-invocation
   - src-openeuler/jboss-jacc-1.5-api
   - src-openeuler/jboss-jaspi-1.0-api
@@ -2579,6 +2591,10 @@ sigs:
   - src-openeuler/jtoaster
   - src-openeuler/jts
   - src-openeuler/jul-to-slf4j-stub
+  - src-openeuler/junit-addons
+  - src-openeuler/junitperf
+  - src-openeuler/juniversalchardet
+  - src-openeuler/jwnl
   - src-openeuler/jython
   - src-openeuler/language-detector
   - src-openeuler/ldaptive
@@ -2608,29 +2624,36 @@ sigs:
   - src-openeuler/metainf-services
   - src-openeuler/metrics
   - src-openeuler/mimepull
+  - src-openeuler/mojarra
   - src-openeuler/mongo-java-driver
   - src-openeuler/mustache-java
   - src-openeuler/mx4j
   - src-openeuler/native-platform
   - src-openeuler/noggit
+  - src-openeuler/objenesis
   - src-openeuler/openjpa
   - src-openeuler/openwebbeans
-  - src-openeuler/objenesis
   - src-openeuler/os-maven-plugin
   - src-openeuler/picketbox
   - src-openeuler/picketbox-commons
   - src-openeuler/picketbox-xacml
   - src-openeuler/postgresql-jdbc
   - src-openeuler/proxytoys
+  - src-openeuler/qpid-proton-java
   - src-openeuler/quartz
   - src-openeuler/rabbitmq-java-client
   - src-openeuler/reflections
+  - src-openeuler/remotetea
   - src-openeuler/resteasy
   - src-openeuler/rome
   - src-openeuler/rxjava
   - src-openeuler/sac
   - src-openeuler/sat4j
   - src-openeuler/saxpath
+  - src-openeuler/scannotation
+  - src-openeuler/sequence-library
+  - src-openeuler/serp
+  - src-openeuler/shibboleth-java-support
   - src-openeuler/shrinkwrap
   - src-openeuler/shrinkwrap-descriptors
   - src-openeuler/signpost-core
@@ -2648,6 +2671,7 @@ sigs:
   - src-openeuler/springframework-plugin
   - src-openeuler/springframework-retry
   - src-openeuler/spymemcached
+  - src-openeuler/sqljet
   - src-openeuler/sslext
   - src-openeuler/staxmapper
   - src-openeuler/struts
@@ -2665,6 +2689,7 @@ sigs:
   - src-openeuler/treelayout
   - src-openeuler/trilead-ssh2
   - src-openeuler/txw2
+  - src-openeuler/tycho
   - src-openeuler/tycho-extras
   - src-openeuler/typesafe-config
   - src-openeuler/uima-addons
@@ -2897,8 +2922,11 @@ sigs:
   - src-openeuler/nodejs-abbrev
   - src-openeuler/nodejs-acorn
   - src-openeuler/nodejs-ansi
+  - src-openeuler/nodejs-ansi-font
+  - src-openeuler/nodejs-ansi-regex
   - src-openeuler/nodejs-ansi-styles
   - src-openeuler/nodejs-are-we-there-yet
+  - src-openeuler/nodejs-argparse
   - src-openeuler/nodejs-array-differ
   - src-openeuler/nodejs-array-index
   - src-openeuler/nodejs-array-union
@@ -2980,7 +3008,9 @@ sigs:
   - src-openeuler/nodejs-es6-symbol
   - src-openeuler/nodejs-es6-weak-map
   - src-openeuler/nodejs-escape-string-regexp
+  - src-openeuler/nodejs-escodegen
   - src-openeuler/nodejs-esprima
+  - src-openeuler/nodejs-estraverse
   - src-openeuler/nodejs-esutils
   - src-openeuler/nodejs-event-emitter
   - src-openeuler/nodejs-eventemitter2
@@ -3007,6 +3037,7 @@ sigs:
   - src-openeuler/nodejs-function-bind
   - src-openeuler/nodejs-gauge
   - src-openeuler/nodejs-gaze
+  - src-openeuler/nodejs-generate-function
   - src-openeuler/nodejs-generate-object-property
   - src-openeuler/nodejs-getobject
   - src-openeuler/nodejs-github-url-from-git
@@ -3021,6 +3052,7 @@ sigs:
   - src-openeuler/nodejs-grunt-contrib-internal
   - src-openeuler/nodejs-grunt-contrib-nodeunit
   - src-openeuler/nodejs-grunt-contrib-uglify
+  - src-openeuler/nodejs-grunt-contrib-watch
   - src-openeuler/nodejs-grunt-known-options
   - src-openeuler/nodejs-grunt-legacy-log
   - src-openeuler/nodejs-grunt-legacy-log-utils
@@ -3029,6 +3061,8 @@ sigs:
   - src-openeuler/nodejs-handlebars
   - src-openeuler/nodejs-har-validator
   - src-openeuler/nodejs-has
+  - src-openeuler/nodejs-has-ansi
+  - src-openeuler/nodejs-has-color
   - src-openeuler/nodejs-has-flag
   - src-openeuler/nodejs-has-symbols
   - src-openeuler/nodejs-has-unicode
@@ -3039,6 +3073,7 @@ sigs:
   - src-openeuler/nodejs-hoek
   - src-openeuler/nodejs-hooker
   - src-openeuler/nodejs-hosted-git-info
+  - src-openeuler/nodejs-http-signature
   - src-openeuler/nodejs-iconv
   - src-openeuler/nodejs-iconv-lite
   - src-openeuler/nodejs-image-size
@@ -3053,15 +3088,20 @@ sigs:
   - src-openeuler/nodejs-is-function
   - src-openeuler/nodejs-is-my-json-valid
   - src-openeuler/nodejs-is-object
+  - src-openeuler/nodejs-is-property
   - src-openeuler/nodejs-is-regex
   - src-openeuler/nodejs-is-symbol
   - src-openeuler/nodejs-is-typedarray
   - src-openeuler/nodejs-isarray
   - src-openeuler/nodejs-isexe
   - src-openeuler/nodejs-isstream
+  - src-openeuler/nodejs-istanbul
+  - src-openeuler/nodejs-jade
   - src-openeuler/nodejs-jison
   - src-openeuler/nodejs-jison-lex
   - src-openeuler/nodejs-jju
+  - src-openeuler/nodejs-js-yaml
+  - src-openeuler/nodejs-json-diff
   - src-openeuler/nodejs-json-parse-helpfulerror
   - src-openeuler/nodejs-json-stringify-safe
   - src-openeuler/nodejs-jsonify
@@ -3122,6 +3162,7 @@ sigs:
   - src-openeuler/nodejs-path-array
   - src-openeuler/nodejs-path-exists
   - src-openeuler/nodejs-path-is-absolute
+  - src-openeuler/nodejs-path-parse
   - src-openeuler/nodejs-pinkie
   - src-openeuler/nodejs-pinkie-promise
   - src-openeuler/nodejs-pkg-up
@@ -3135,6 +3176,8 @@ sigs:
   - src-openeuler/nodejs-raw-body
   - src-openeuler/nodejs-read-package-json
   - src-openeuler/nodejs-readable-stream
+  - src-openeuler/nodejs-readdirp
+  - src-openeuler/nodejs-rechoir
   - src-openeuler/nodejs-replace-require-self
   - src-openeuler/nodejs-request
   - src-openeuler/nodejs-require-directory
@@ -3143,6 +3186,7 @@ sigs:
   - src-openeuler/nodejs-requirejs
   - src-openeuler/nodejs-resolve
   - src-openeuler/nodejs-resolve-from
+  - src-openeuler/nodejs-resolve-pkg
   - src-openeuler/nodejs-resumer
   - src-openeuler/nodejs-rimraf
   - src-openeuler/nodejs-rollup
@@ -3151,6 +3195,8 @@ sigs:
   - src-openeuler/nodejs-samsam
   - src-openeuler/nodejs-semver
   - src-openeuler/nodejs-set-immediate-shim
+  - src-openeuler/nodejs-shelljs
+  - src-openeuler/nodejs-should
   - src-openeuler/nodejs-should-equal
   - src-openeuler/nodejs-should-format
   - src-openeuler/nodejs-should-type
@@ -3174,6 +3220,8 @@ sigs:
   - src-openeuler/nodejs-strip-ansi
   - src-openeuler/nodejs-strip-json-comments
   - src-openeuler/nodejs-supports-color
+  - src-openeuler/nodejs-tap
+  - src-openeuler/nodejs-tap-parser
   - src-openeuler/nodejs-tape
   - src-openeuler/nodejs-tar
   - src-openeuler/nodejs-temporary
@@ -3183,6 +3231,7 @@ sigs:
   - src-openeuler/nodejs-timers-ext
   - src-openeuler/nodejs-tiny-lr-fork
   - src-openeuler/nodejs-tough-cookie
+  - src-openeuler/nodejs-transformers
   - src-openeuler/nodejs-traverse
   - src-openeuler/nodejs-tunnel-agent
   - src-openeuler/nodejs-type-check
