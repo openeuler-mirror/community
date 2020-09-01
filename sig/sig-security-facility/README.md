@@ -109,4 +109,4 @@ sig-security_facility主要讨论在openEuler社区版本中已有或未来规�
 
 *<如果需要单独申请邮件列表，请在此补充邮箱名称：dev@openeuler.org>*
 
-- [邮件列表]<dev@openeuler.org>
+- [邮件列表](mailto:dev@openeuler.org)
