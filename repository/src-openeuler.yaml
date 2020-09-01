@@ -33611,6 +33611,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: engrampa
+  description: file archiver
+  upstream: http://git.mate-desktop.org/engrampa
+  protected_branches: 
+  - master
+  type: public
 - name: umoci
   description: Open Container Image manipulation tool
   protected_branches:
