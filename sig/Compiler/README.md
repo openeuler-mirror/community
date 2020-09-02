@@ -10,7 +10,7 @@ Tuesday 10 am every week.
 
 ### Maintainers
  - 郭 歌[@jdkboy](https://gitee.com/jdkboy)
- - 张 海剑[@Haijian.Zhang](https://gitee.com/haijianzhang)
+ - 章 海剑[@Haijian.Zhang](https://gitee.com/haijianzhang)
 
 ### Committers
  - 贺 东博[@Noah](https://gitee.com/jvmboy)
