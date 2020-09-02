@@ -430,3 +430,8 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: CVE-automated-tool
+  description: "A tool for automatically submitting issues on the code cloud warehouse for cve vulnerabilities implemented with go"
+  protected_branches:
+    - master
+  type: public
