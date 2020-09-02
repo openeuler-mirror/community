@@ -7399,6 +7399,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: zeppelin
+  description: Web-based notebook
+  upstream: https://github.com/apache/zeppelin
+  protected_branches:
+  - master
+  type: public
 - name: kata-agent
   description: ''
   protected_branches:
