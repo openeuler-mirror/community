@@ -321,6 +321,16 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: rubyporter
+  description: "A rpm packager bot for ruby modules from rubygems.org"
+  protected_branches:
+  - master
+  type: public
+- name: nodejsporter
+  description: "A rpm packager bot for nodejs modules from npmjs.com"
+  protected_branches:
+  - master
+  type: public
 - name: RISC-V
   rename_from: autobuild-openeuler4riscv
   description: "Tools scripts for auto-building openEuler SRPMs for RISC-V"
