@@ -80,6 +80,7 @@ sigs:
   - src-openeuler/erlang-rebar
   - src-openeuler/esc
   - src-openeuler/evince
+  - src-openeuler/execstack
   - src-openeuler/faust
   - src-openeuler/fdupes
   - src-openeuler/felix-gogo-runtime
@@ -102,6 +103,7 @@ sigs:
   - src-openeuler/gl-manpages
   - src-openeuler/gmetric4j
   - src-openeuler/gnome-calculator
+  - src-openeuler/gnome-desktop
   - src-openeuler/gnome-online-miners
   - src-openeuler/gnupg
   - src-openeuler/gnuplot
@@ -114,6 +116,7 @@ sigs:
   - src-openeuler/gyp
   - src-openeuler/hspell
   - src-openeuler/hsqldb1
+  - src-openeuler/httpcomponents-asyncclient
   - src-openeuler/hunspell-ak
   - src-openeuler/hunspell-am
   - src-openeuler/hunspell-ar
@@ -357,6 +360,7 @@ sigs:
   - src-openeuler/ntfs-3g
   - src-openeuler/objectweb-asm
   - src-openeuler/openal-soft
+  - src-openeuler/openblas
   - src-openeuler/openjade
   - src-openeuler/openmpi
   - src-openeuler/opennlp
@@ -421,6 +425,7 @@ sigs:
   - src-openeuler/tpm-quote-tools
   - src-openeuler/tpm-tools
   - src-openeuler/transfig
+  - src-openeuler/tre
   - src-openeuler/ttmkfdir
   - src-openeuler/uid_wrapper
   - src-openeuler/units
@@ -430,11 +435,13 @@ sigs:
   - src-openeuler/uwsgi
   - src-openeuler/vinagre
   - src-openeuler/vorbis-tools
+  - src-openeuler/voro++
   - src-openeuler/vte
   - src-openeuler/wavpack
   - src-openeuler/wayland-protocols
   - src-openeuler/weston
   - src-openeuler/wireshark
+  - src-openeuler/wmctrl
   - src-openeuler/xapps
   - src-openeuler/xdg-dbus-proxy
   - src-openeuler/xdg-desktop-portal-gtk
@@ -2550,6 +2557,7 @@ sigs:
   - src-openeuler/jboss-servlet-2.5-api
   - src-openeuler/jboss-specs-parent
   - src-openeuler/jboss-threads
+  - src-openeuler/jboss-transaction-1.1-api
   - src-openeuler/jboss-transaction-1.2-api
   - src-openeuler/jboss-transaction-spi
   - src-openeuler/jboss-vfs
@@ -2561,6 +2569,7 @@ sigs:
   - src-openeuler/jdiff
   - src-openeuler/jdo-api
   - src-openeuler/je
+  - src-openeuler/jenkins-executable-war
   - src-openeuler/jenkins-xstream
   - src-openeuler/jersey
   - src-openeuler/jersey1
@@ -2616,6 +2625,7 @@ sigs:
   - src-openeuler/maven-native
   - src-openeuler/maven-processor-plugin
   - src-openeuler/maven-reporting-exec
+  - src-openeuler/maven-shared-jar
   - src-openeuler/maven-shared-jarsigner
   - src-openeuler/maven-site-plugin
   - src-openeuler/maven-war-plugin
@@ -2631,6 +2641,7 @@ sigs:
   - src-openeuler/native-platform
   - src-openeuler/noggit
   - src-openeuler/objenesis
+  - src-openeuler/ohc
   - src-openeuler/openjpa
   - src-openeuler/openwebbeans
   - src-openeuler/os-maven-plugin
@@ -2645,6 +2656,7 @@ sigs:
   - src-openeuler/reflections
   - src-openeuler/remotetea
   - src-openeuler/resteasy
+  - src-openeuler/robust-http-client
   - src-openeuler/rome
   - src-openeuler/rxjava
   - src-openeuler/sac
@@ -2653,11 +2665,16 @@ sigs:
   - src-openeuler/scannotation
   - src-openeuler/sequence-library
   - src-openeuler/serp
+  - src-openeuler/sezpoz
+  - src-openeuler/shibboleth-java-parent-v3
   - src-openeuler/shibboleth-java-support
   - src-openeuler/shrinkwrap
   - src-openeuler/shrinkwrap-descriptors
+  - src-openeuler/shrinkwrap-resolver
+  - src-openeuler/sigar
   - src-openeuler/signpost-core
   - src-openeuler/simple
+  - src-openeuler/simple-jndi
   - src-openeuler/simple-xml
   - src-openeuler/sisu-mojos
   - src-openeuler/slf4j-jboss-logmanager
@@ -2673,6 +2690,7 @@ sigs:
   - src-openeuler/spymemcached
   - src-openeuler/sqljet
   - src-openeuler/sslext
+  - src-openeuler/stapler
   - src-openeuler/staxmapper
   - src-openeuler/struts
   - src-openeuler/svnkit
@@ -2687,6 +2705,7 @@ sigs:
   - src-openeuler/tiles
   - src-openeuler/time-api
   - src-openeuler/treelayout
+  - src-openeuler/trilead-putty-extension
   - src-openeuler/trilead-ssh2
   - src-openeuler/txw2
   - src-openeuler/tycho
@@ -2753,6 +2772,7 @@ sigs:
   - src-openeuler/rubygem-bootsnap
   - src-openeuler/rubygem-builder
   - src-openeuler/rubygem-bundler
+  - src-openeuler/rubygem-byebug
   - src-openeuler/rubygem-capybara
   - src-openeuler/rubygem-childprocess
   - src-openeuler/rubygem-chronic
@@ -2785,6 +2805,7 @@ sigs:
   - src-openeuler/rubygem-excon
   - src-openeuler/rubygem-execjs
   - src-openeuler/rubygem-expression_parser
+  - src-openeuler/rubygem-fakefs
   - src-openeuler/rubygem-faraday
   - src-openeuler/rubygem-fattr
   - src-openeuler/rubygem-ffi
@@ -4517,6 +4538,7 @@ sigs:
   - src-openeuler/perl-Business-ISSN
   - src-openeuler/perl-Business-Stripe
   - src-openeuler/perl-CAD-Format-STL
+  - src-openeuler/perl-CBOR-XS
   - src-openeuler/perl-CDDB
   - src-openeuler/perl-CGI-Ajax
   - src-openeuler/perl-CGI-Application
@@ -5065,10 +5087,10 @@ sigs:
   - src-openeuler/perl-Mail-IMAPTalk
   - src-openeuler/perl-Mail-JMAPTalk
   - src-openeuler/perl-Mail-Message
+  - src-openeuler/perl-Mail-SPF
   - src-openeuler/perl-Mail-Sendmail
   - src-openeuler/perl-Mail-Transport
   - src-openeuler/perl-Makefile-DOM
-  - src-openeuler/perl-Mail-SPF
   - src-openeuler/perl-MasonX-Request-WithApacheSession
   - src-openeuler/perl-Math-Base36
   - src-openeuler/perl-Math-Base85
@@ -5213,10 +5235,10 @@ sigs:
   - src-openeuler/perl-Net-AMQP
   - src-openeuler/perl-Net-BGP
   - src-openeuler/perl-Net-CIDR
-  - src-openeuler/perl-Net-Daemon
-  - src-openeuler/perl-Net-Domain-TLD
   - src-openeuler/perl-Net-DNS-Resolver-Programmable
   - src-openeuler/perl-Net-DNS-SEC
+  - src-openeuler/perl-Net-Daemon
+  - src-openeuler/perl-Net-Domain-TLD
   - src-openeuler/perl-Net-Google-AuthSub
   - src-openeuler/perl-Net-HL7
   - src-openeuler/perl-Net-INET6Glue

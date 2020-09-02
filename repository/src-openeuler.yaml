@@ -40753,3 +40753,141 @@ repositories:
   protected_branches: 
   - master
   type: public
+- name: jenkins-executable-war
+  description: Jenkins Executable War
+  upstream: https://github.com/jenkinsci/extras-executable-war
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-byebug
+  description: Ruby 2.0 fast debugger - base + CLI
+  upstream: http://github.com/deivid-rodriguez/byebug
+  protected_branches: 
+  - master
+  type: public
+- name: robust-http-client
+  description: Small Java library that performs HTTP download with automatic retry
+  upstream: https://github.com/kohsuke/robust-http-client
+  protected_branches: 
+  - master
+  type: public
+- name: sigar
+  description: System Information Gatherer And Reporter
+  upstream: https://github.com/hyperic/sigar
+  protected_branches: 
+  - master
+  type: public
+- name: simple-jndi
+  description: A JNDI implementation
+  upstream: https://github.com/hen/osjava
+  protected_branches: 
+  - master
+  type: public
+- name: trilead-putty-extension
+  description: Extension to trilead-ssh2 for handling PuTTY keys
+  upstream: https://github.com/kohsuke/trilead-putty-extension
+  protected_branches: 
+  - master
+  type: public
+- name: perl-CBOR-XS
+  description: Concise Binary Object Representation (CBOR)
+  upstream: https://metacpan.org/release/CBOR-XS
+  protected_branches: 
+  - master
+  type: public
+- name: shibboleth-java-parent-v3
+  description: Shibboleth Project V3 Super POM
+  upstream: http://shibboleth.net/
+  protected_branches: 
+  - master
+  type: public
+- name: httpcomponents-asyncclient
+  description: Apache components to build asynchronous client side HTTP services
+  upstream: http://hc.apache.org/
+  protected_branches: 
+  - master
+  type: public
+- name: shrinkwrap-resolver
+  description: Java API to obtain Maven artifacts
+  upstream: http://arquillian.org/modules/resolver-shrinkwrap/
+  protected_branches: 
+  - master
+  type: public
+- name: maven-shared-jar
+  description: Maven JAR Utilities
+  upstream: http://maven.apache.org/shared/maven-shared-jar
+  protected_branches: 
+  - master
+  type: public
+- name: tre
+  description: POSIX compatible regexp library with approximate matching
+  upstream: http://laurikari.net/tre/
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-transaction-1.1-api
+  description: JBoss Transaction API
+  upstream: https://github.com/jboss/jboss-transaction-api_spec
+  protected_branches: 
+  - master
+  type: public
+- name: execstack
+  description: Utility to set/clear/query executable stack bit
+  upstream: https://github.com/keszybz/prelink/
+  protected_branches: 
+  - master
+  type: public
+- name: R
+  description: A language for data analysis and graphics
+  upstream: http://www.r-project.org
+  protected_branches: 
+  - master
+  type: public
+- name: gnome-desktop
+  description: Shared code among gnome-panel, gnome-session, nautilus, etc
+  upstream: http://www.gnome.org
+  protected_branches: 
+  - master
+  type: public
+- name: wmctrl
+  description: Command line tool to interact with an X Window Manager
+  upstream: http://sweb.cz/tripie/utils/wmctrl
+  protected_branches: 
+  - master
+  type: public
+- name: ohc
+  description: Java large off heap cache
+  upstream: http://caffinitas.org/
+  protected_branches: 
+  - master
+  type: public
+- name: sezpoz
+  description: Lightweight Java library that lets you perform modular service lookups
+  upstream: https://github.com/jglick/sezpoz
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-fakefs
+  description: A fake filesystem. Use it in your tests
+  upstream: https://github.com/fakefs/fakefs
+  protected_branches: 
+  - master
+  type: public
+- name: stapler
+  description: Stapler Java web framework
+  upstream: http://stapler.kohsuke.org
+  protected_branches: 
+  - master
+  type: public
+- name: voro++
+  description: Library for 3D computations of the Voronoi tessellation
+  upstream: http://math.lbl.gov/voro++/
+  protected_branches: 
+  - master
+  type: public
+- name: openblas
+  description: An optimized BLAS library based on GotoBLAS2
+  upstream: https://github.com/xianyi/OpenBLAS/
+  protected_branches: 
+  - master
+  type: public
