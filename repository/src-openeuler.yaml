@@ -4026,6 +4026,18 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
+- name: libdazzle
+  description: libdazzle is a collection of fancy features for GLib and Gtk+
+  upstream: https://git.gnome.org/browse/libdazzle/
+  protected_branches:
+  - master
+  type: public
+- name: sysprof
+  description: Sysprof is a sampling CPU profiler for Linux that collects accurate
+  upstream: https://www.sysprof.com
+  protected_branches:
+  - master
+  type: public
 - name: gl-manpages
   description: ''
   protected_branches:
