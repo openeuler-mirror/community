@@ -25,7 +25,7 @@ git clone https://gitee.com/"$username"/community.git
    
    * 修改sig/sigs.yaml，将要新增的软件包以"- src-openeuler/zip"的形式添加到对应的sig组列表下；以zip为例：
    
-   ```c
+   ```yaml
    - name: Base-service
      repositories:
      - src-openeuler/python-cheetah
@@ -42,6 +42,17 @@ git clone https://gitee.com/"$username"/community.git
      - src-openeuler/python-lxml
      - src-openeuler/zip
  
+   ```
+
+   * 建仓：修改reposity目录下对应的yaml文件(openeuler社区维护项目: openeuler.yaml；其他社区引入包: src-openeuler.yaml)
+
+   ```yaml
+   - name: pkgname
+     description: about pkgname
+     upstream: https://somepkg.org/
+     protected_branches:
+       - master
+     type: public
    ```
 
    * 提交PR（请参考[PR提交指南](https://gitee.com/openeuler/community/blob/master/zh/contributors/pull-request.md)，PR合入后将会在gitee建立同名仓库。查看地址：[src-openeuler](https://gitee.com/src-openeuler)。同时在obs上建立同名仓库，可在obs网站查看：https://build.openeuler.org/project/show/openEuler:Factory

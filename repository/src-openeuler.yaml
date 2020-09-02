@@ -35057,6 +35057,12 @@ repositories:
   - master
   - openEuler-20.03-LTS
   type: public
+- name: weechat
+  description: WeeChat, the extensible chat client.
+  upstream: https://weechat.org/
+  protected_branches:
+    - master
+  type: public
 - name: weston
   description: 'Reference compositor for Wayland'
   upstream: http://wayland.freedesktop.org
