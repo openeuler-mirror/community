@@ -35541,6 +35541,30 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: flink
+  description: "Stateful Computations over Data Streams"
+  upstream: https://github.com/apache/flink
+  protected_branches:
+  - master
+  type: public
+- name: hive
+  description: "The Apache Hive (TM) data warehouse software facilitates reading, writing, and managing large datasets residing in distributed storage using SQL."
+  upstream: https://github.com/apache/hive
+  protected_branches:
+  - master
+  type: public
+- name: hbase
+  description: "A Distributed Storage System for Structured Data"
+  upstream: https://github.com/apache/hbase
+  protected_branches:
+  - master
+  type: public
+- name: spark
+  description: "A unified analytics engine for large-scale data processing"
+  upstream: https://github.com/apache/spark
+  protected_branches:
+  - master
+  type: public
 - name: prometheus
   description: 'an open-source systems monitoring and alerting toolkit'
   upstream: https://prometheus.io/
