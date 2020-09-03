@@ -33,4 +33,5 @@
 
 项目名称：KubeSphere
 
-Repository 地址：目前还未在 openEuler org
+Repository 地址：
+  - https://gitee.com/openeuler/kubekey
