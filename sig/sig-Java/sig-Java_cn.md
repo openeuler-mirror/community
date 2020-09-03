@@ -39,10 +39,11 @@ https://gitee.com/openeuler/community/tree/master/sig/sig-Java/
 - rita_dong
 
 ### Committers
-- 
+- hht8 
+- wangchong1995924 
 
 ### 邮件列表
-- java-sig@openeuler.org
+- dev@openeuler.org
 
 ### Slack 群组
 - openeulerworkspace.slack.com
@@ -50,11 +51,12 @@ https://gitee.com/openeuler/community/tree/master/sig/sig-Java/
 - Slack 邀请链接：https://join.slack.com/t/openeulerworkspace/shared_invite/zt-gwgkej74-O6O743~3LRM6LqPbnOPeww
 
 ### 会议
-- 时间: 每周五 下午 6:00 - 6:30
-- Zoom MeetID: 754 813 6418
+- 你可以在[这里][jp_issues]找到最新的例会信息。
 
 ### IRC 频道
 - 
 
 ### 对外联络人
 - 
+
+[jp_issues]: https://gitee.com/openeuler/Java-Packages/issues
