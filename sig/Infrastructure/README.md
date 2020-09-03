@@ -62,4 +62,4 @@ repository地址：
 - [jenkins](https://gitee.com/openeuler/openeuler-jenkins)
 - [gitbook-theme-hugo](https://gitee.com/openeuler/gitbook-theme-hugo)
 - [tool-collections](https://gitee.com/openeuler/tool-collections)
-- [CVE-automated-tool]()
+- [cve-vulnerability-management](https://gitee.com/openeuler/cve-vulnerability-management)

@@ -430,8 +430,8 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: CVE-automated-tool
-  description: "A tool for automatically submitting issues on the code cloud warehouse for cve vulnerabilities implemented with go"
+- name: cve-vulnerability-management
+  description: "Collect cve security vulnerabilities, submit the vulnerabilities to the corresponding version on gitee, notify the warehouse manager to repair, and finally publish the repaired information to an automated tool on the openEuler website."
   protected_branches:
     - master
   type: public
