@@ -2447,6 +2447,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: deepin-sound-theme
+  description: Sound files for the Deeping Desktop Environment
+  upstream: https://github.com/linuxdeepin/deepin-sound-theme
+  protected_branches:
+  - master
+  type: public
 - name: deepin-wallpapers
   description: Deepin Wallpapers provides wallpapers of dde
   upstream: https://github.com/linuxdeepin/deepin-wallpapers
