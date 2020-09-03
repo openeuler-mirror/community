@@ -22677,6 +22677,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-ez_setup
+  description: ez_setup.py and distribute_setup.py
+  upstream: http://github.com/ActiveState/ez_setup
+  protected_branches:
+  - master
+  type: public
 - name: python-concurrent-log-handler
   description: RotatingFileHandler replacement with concurrency, gzip and Windows support
   upstream: https://github.com/Preston-Landers/concurrent-log-handler
