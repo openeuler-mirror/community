@@ -37,7 +37,7 @@
 
 # 联系方式
 
-- [邮件列表](https://mailweb.openeuler.org/postorius/lists/dev.openeuler.org/)
+- mailto: dev@openeuler.org
 
 # 项目清单
 
