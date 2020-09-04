@@ -47907,3 +47907,27 @@ repositories:
   protected_branches: 
   - master
   type: public
+- name: stapler-adjunct-timeline
+  description: Timeline widget support for Stapler web framework
+  upstream: https://github.com/stapler/stapler-adjunct-timeline
+  protected_branches: 
+  - master
+  type: public
+- name: hibernate4
+  description: Relational persistence and query service
+  upstream: http://www.hibernate.org/
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-power_assert
+  description: Power Assert for Ruby
+  upstream: https://github.com/k-tsj/power_assert
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-simplecov
+  description: Code coverage analysis tool for Ruby 1.9
+  upstream: http://github.com/colszowka/simplecov
+  protected_branches: 
+  - master
+  type: public

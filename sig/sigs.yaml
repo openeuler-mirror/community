@@ -2755,6 +2755,8 @@ sigs:
   - src-openeuler/tascalate-asmx
   - src-openeuler/jspc
   - src-openeuler/artemis
+  - src-openeuler/stapler-adjunct-timeline
+  - src-openeuler/hibernate4
 - name: sig-ruby
   repositories:
   - src-openeuler/jruby
@@ -2948,6 +2950,8 @@ sigs:
   - src-openeuler/rubygem-xpath
   - src-openeuler/rubygem-yard
   - src-openeuler/rubygems-ronn
+  - src-openeuler/rubygem-power_assert
+  - src-openeuler/rubygem-simplecov
 - name: sig-nodejs
   repositories:
   - src-openeuler/closure-compiler
