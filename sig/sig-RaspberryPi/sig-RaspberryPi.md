@@ -29,7 +29,6 @@ The openEuler RaspberryPi SIG aims at migrating openEuler to Raspberry Pi, in or
 - SRPM repository of firmware for Raspberry Pi: https://gitee.com/src-openeuler/raspberrypi-firmware
 - SRPM repository of scripts of building images for Raspberry Pi: https://gitee.com/src-openeuler/raspberrypi-build
 - SRPM repository of bluetooth service for Raspberry Pi: https://gitee.com/src-openeuler/raspberrypi-bluetooth
-- Repository of firmware for Raspberry Pi: https://gitee.com/openeuler/raspberrypi-firmware
 - Repository of scripts of building images for Raspberry Pi: https://gitee.com/openeuler/raspberrypi-build
 
 ## Basic Information
