@@ -36322,18 +36322,21 @@ repositories:
   type: public
 - name: raspberrypi-build
   description: Scripts of building images for Raspberry Pi
+  upstream: https://gitee.com/openeuler/raspberrypi-build
   protected_branches:
   - master
   - openEuler-20.09
   type: public
 - name: raspberrypi-firmware
   description: Firmware of Raspberry Pi
+  upstream: https://github.com/raspberrypi/firmware
   protected_branches:
   - master
   - openEuler-20.09
   type: public
 - name: raspberrypi-kernel
   description: Kernel of Raspberry Pi
+  upstream: https://gitee.com/openeuler/raspberrypi-kernel
   protected_branches:
   - master
   - openEuler-20.09

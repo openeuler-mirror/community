@@ -445,4 +445,8 @@ repositories:
   protected_branches:
   - master
   type: public
-
+- name: raspberrypi-build
+  description: "Scripts of building images for Raspberry Pi"
+  protected_branches:
+  - master
+  type: public
