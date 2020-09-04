@@ -30,21 +30,24 @@ The openEuler Java SIG aims at providing Java package solution and guideline to 
 - rita_dong
 
 ### Committers
-- 
+- hht8 
+- wangchong1995924 
 
 ### Mailing list
-- java-sig@openeuler.org
+- dev@openeuler.org
 
 ### Slack Workspace
 - openeulerworkspace.slack.com
 - Slack invitation link: https://join.slack.com/t/openeulerworkspace/shared_invite/zt-gwgkej74-O6O743~3LRM6LqPbnOPeww
 
 ### Meeting
-- Time: Every Friday, 6:00 - 6:30 pm
-- Zoom MeetID: 754 813 6418
+- You can find the latest information on the regular meetings at [here][jp_issues].
 
 ### IRC Channel
 - 
 
 ### External Contact
 - 
+
+
+[jp_issues]: https://gitee.com/openeuler/Java-Packages/issues
