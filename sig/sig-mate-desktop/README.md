@@ -29,12 +29,12 @@ mate-desktop
 - 张志高 zhigaozhang 
 - 豆彩霞 ja_angie_dou
 - 王婧 wangjing95
-
+- 杨显钊 xzyangha
 ### Maintainer列表
 
 - 冯建[@hostfj](giteeID链接)
 - 王婧[@wangjing95](giteeID链接)
-
+- 杨显钊[@xzyangha](giteeID链接)
 
 ### Committer列表
 
@@ -43,7 +43,7 @@ mate-desktop
 - 张志高[@zhigaozhang](giteeID链接)
 - 豆彩霞[@ja_angie_dou](giteeID链接)
 - 王婧[@wangjing95](giteeID链接)
-
+- 杨显钊 [@xzyangha](giteeID链接)
 
 
 # 联系方式
