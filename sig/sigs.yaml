@@ -80,7 +80,6 @@ sigs:
   - src-openeuler/erlang-rebar
   - src-openeuler/esc
   - src-openeuler/evince
-  - src-openeuler/execstack
   - src-openeuler/faust
   - src-openeuler/fdupes
   - src-openeuler/felix-gogo-runtime
@@ -336,6 +335,7 @@ sigs:
   - src-openeuler/lohit-nepali-fonts
   - src-openeuler/lohit-tamil-fonts
   - src-openeuler/lohit-telugu-fonts
+  - src-openeuler/lpg
   - src-openeuler/lrzsz
   - src-openeuler/lynx
   - src-openeuler/mailman
@@ -2675,7 +2675,6 @@ sigs:
   - src-openeuler/sigar
   - src-openeuler/signpost-core
   - src-openeuler/simple
-  - src-openeuler/simple-jndi
   - src-openeuler/simple-xml
   - src-openeuler/sisu-mojos
   - src-openeuler/slf4j-jboss-logmanager
@@ -2739,6 +2738,24 @@ sigs:
   - src-openeuler/yecht
   - src-openeuler/znerd-oss-parent
   - src-openeuler/zxing
+  - src-openeuler/springframework-amqp
+  - src-openeuler/jackcess
+  - src-openeuler/jackcess-encrypt
+  - src-openeuler/irclib
+  - src-openeuler/tascalate-javaflow
+  - src-openeuler/hibernate4
+  - src-openeuler/jsonic
+  - src-openeuler/springframework-data-redis
+  - src-openeuler/querydsl3
+  - src-openeuler/pdf-renderer
+  - src-openeuler/tika
+  - src-openeuler/rhq-plugin-annotations
+  - src-openeuler/rxtx
+  - src-openeuler/spring-ldap
+  - src-openeuler/tascalate-asmx
+  - src-openeuler/jspc
+  - src-openeuler/artemis
+  - src-openeuler/stapler-adjunct-timeline
 - name: sig-ruby
   repositories:
   - src-openeuler/jruby
@@ -2932,6 +2949,8 @@ sigs:
   - src-openeuler/rubygem-xpath
   - src-openeuler/rubygem-yard
   - src-openeuler/rubygems-ronn
+  - src-openeuler/rubygem-power_assert
+  - src-openeuler/rubygem-simplecov
 - name: sig-nodejs
   repositories:
   - src-openeuler/closure-compiler
