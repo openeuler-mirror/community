@@ -321,6 +321,16 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: rubyporter
+  description: "A rpm packager bot for ruby modules from rubygems.org"
+  protected_branches:
+  - master
+  type: public
+- name: nodejsporter
+  description: "A rpm packager bot for nodejs modules from npmjs.com"
+  protected_branches:
+  - master
+  type: public
 - name: RISC-V
   rename_from: autobuild-openeuler4riscv
   description: "Tools scripts for auto-building openEuler SRPMs for RISC-V"
@@ -338,8 +348,7 @@ repositories:
   - master
   type: public
 - name: release-management
-  description: "release management including key features, release plan, development and branch plan, release scope and notes
-"
+  description: "release management including key features, release plan, development and branch plan, release scope and notes"
   protected_branches:
   - master
   type: public
@@ -435,3 +444,9 @@ repositories:
   protected_branches:
     - master
   type: public
+- name: kubekey
+  description: "The Next-gen Installer: Installing Kubernetes and KubeSphere v3.0.0 fastly, flexibly and easily"
+  protected_branches:
+  - master
+  type: public
+

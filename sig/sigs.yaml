@@ -1913,7 +1913,6 @@ sigs:
   - src-openeuler/iSula-libutils
   - src-openeuler/clibcni
   - src-openeuler/docker-client-java
-  - src-openeuler/oci-systemd-hook
   - src-openeuler/runc
   - src-openeuler/virt-what
   - src-openeuler/containerd
@@ -2228,6 +2227,8 @@ sigs:
   - src-openeuler/glib2
   - src-openeuler/glade
   - src-openeuler/gjs
+  - src-openeuler/libdazzle
+  - src-openeuler/sysprof
   - src-openeuler/geocode-glib
   - src-openeuler/gdk-pixbuf2
   - src-openeuler/gd
@@ -3887,6 +3888,8 @@ sigs:
   - openeuler/perlporter
   - openeuler/pkgporter
   - openeuler/pyporter
+  - openeuler/rubyporter
+  - openeuler/nodejsporter
   - openeuler/trucker
   - src-openeuler/GAPP
   - src-openeuler/PEGTL
@@ -4271,6 +4274,7 @@ sigs:
   - src-openeuler/hesiod
   - src-openeuler/libmodman
   - src-openeuler/tpm2-abrmd-selinux
+  - src-openeuler/oci-systemd-hook
 - name: sig-RaspberryPi
   repositories:
   - openeuler/raspberrypi
@@ -4387,6 +4391,10 @@ sigs:
   - src-openeuler/lightgbm
   - src-openeuler/blaze
   - src-openeuler/eli5
+  - src-openeuler/flink
+  - src-openeuler/hive
+  - src-openeuler/hbase
+  - src-openeuler/spark
 - name: sig-golang
   repositories:
   - src-openeuler/golang
@@ -5801,6 +5809,7 @@ sigs:
   - src-openeuler/perl-version
 - name: sig-python-modules
   repositories:
+  - src-openeuler/python-ez_setup
   - src-openeuler/python-APScheduler
   - src-openeuler/python-ATpy
   - src-openeuler/python-AWSIoTPythonSDK
@@ -7002,6 +7011,7 @@ sigs:
   - src-openeuler/deepin-system-monitor
   - src-openeuler/deepin-terminal
   - src-openeuler/deepin-turbo
+  - src-openeuler/deepin-sound-theme
   - src-openeuler/dtkcore
   - src-openeuler/dtkcore2
   - src-openeuler/dtkgui
@@ -7088,3 +7098,6 @@ sigs:
   repositories:
   - src-openeuler/linux-sgx
   - openeuler/secenclave
+- name: sig-Kubernetes
+  repositories:
+  - openeuler/kubekey
