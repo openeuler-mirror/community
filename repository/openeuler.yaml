@@ -430,7 +430,7 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: cve-vulnerability-management
+- name: cve-manager
   description: "Collect cve security vulnerabilities, submit the vulnerabilities to the corresponding version on gitee, notify the warehouse manager to repair, and finally publish the repaired information to an automated tool on the openEuler website."
   protected_branches:
     - master
