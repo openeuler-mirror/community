@@ -47799,3 +47799,117 @@ repositories:
   protected_branches: 
   - master
   type: public
+- name: springframework-amqp
+  description: Support for Spring programming model with AMQP
+  upstream: http://projects.spring.io/spring-amqp/
+  protected_branches: 
+  - master
+  type: public
+- name: jackcess
+  description: Java library for reading from and writing to MS Access databases
+  upstream: http://jackcess.sourceforge.net/
+  protected_branches: 
+  - master
+  type: public
+- name: jackcess-encrypt
+  description: Java implementation of the encryption service for MS Access
+  upstream: http://jackcessencrypt.sourceforge.net/
+  protected_branches: 
+  - master
+  type: public
+- name: lpg
+  description: LALR Parser Generator
+  upstream: http://lpg.sourceforge.net/
+  protected_branches: 
+  - master
+  type: public
+- name: irclib
+  description: Java implementation of the IRC protocol
+  upstream: http://moepii.sourceforge.net/
+  protected_branches: 
+  - master
+  type: public
+- name: tascalate-javaflow
+  description: Commons Javaflow
+  upstream: https://github.com/vsilaev/tascalate-javaflow
+  protected_branches: 
+  - master
+  type: public
+- name: hibernate4
+  description: Relational persistence and query service
+  upstream: http://www.hibernate.org/
+  protected_branches: 
+  - master
+  type: public
+- name: jsonic
+  description: Simple JSON encoder/decoder for Java
+  upstream: https://mvnrepository.com/artifact/net.arnx.jsonic/jsonic
+  protected_branches: 
+  - master
+  type: public
+- name: springframework-data-redis
+  description: Provides support to increase developer productivity in Java when using Redis
+  upstream: http://projects.spring.io/spring-data-redis/
+  protected_branches: 
+  - master
+  type: public
+- name: querydsl3
+  description: Type safe queries for Java
+  upstream: http://www.querydsl.com
+  protected_branches: 
+  - master
+  type: public
+- name: jasperreports
+  description: Report-generating tool
+  upstream: https://github.com/TIBCOSoftware/jasperreports
+  protected_branches: 
+  - master
+  type: public
+- name: pdf-renderer
+  description: A 100% Java PDF renderer and viewer
+  upstream: https://mvnrepository.com/artifact/org.swinglabs/pdf-renderer
+  protected_branches: 
+  - master
+  type: public
+- name: tika
+  description: A content analysis toolkit
+  upstream: http://tika.apache.org/
+  protected_branches: 
+  - master
+  type: public
+- name: rhq-plugin-annotations
+  description: RHQ plugin annotations
+  upstream: http://rhq-project.org
+  protected_branches: 
+  - master
+  type: public
+- name: rxtx
+  description: Parallel communication for the Java Development Toolkit
+  upstream: http://rxtx.qbang.org/
+  protected_branches: 
+  - master
+  type: public
+- name: spring-ldap
+  description: Java library for simplifying LDAP operations
+  upstream: http://www.springframework.org/ldap
+  protected_branches: 
+  - master
+  type: public
+- name: tascalate-asmx
+  description: Shaded version of ObjectWeb ASM library to use in Tascalate projects
+  upstream: https://github.com/vsilaev/tascalate-asmx
+  protected_branches: 
+  - master
+  type: public
+- name: jspc
+  description: Compile JSPs under Maven
+  upstream: https://mvnrepository.com/artifact/org.jasig.mojo.jspc
+  protected_branches: 
+  - master
+  type: public
+- name: artemis
+  description: Java high performance, clustered, asynchronous messaging system
+  upstream: https://activemq.apache.org/artemis/
+  protected_branches: 
+  - master
+  type: public
