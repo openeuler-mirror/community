@@ -40777,12 +40777,6 @@ repositories:
   protected_branches: 
   - master
   type: public
-- name: simple-jndi
-  description: A JNDI implementation
-  upstream: https://github.com/hen/osjava
-  protected_branches: 
-  - master
-  type: public
 - name: trilead-putty-extension
   description: Extension to trilead-ssh2 for handling PuTTY keys
   upstream: https://github.com/kohsuke/trilead-putty-extension
@@ -40828,12 +40822,6 @@ repositories:
 - name: jboss-transaction-1.1-api
   description: JBoss Transaction API
   upstream: https://github.com/jboss/jboss-transaction-api_spec
-  protected_branches: 
-  - master
-  type: public
-- name: execstack
-  description: Utility to set/clear/query executable stack bit
-  upstream: https://github.com/keszybz/prelink/
   protected_branches: 
   - master
   type: public
