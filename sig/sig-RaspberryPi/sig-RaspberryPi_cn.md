@@ -26,11 +26,13 @@ RaspberryPi SIG 小组致力于将 openEuler 移植到树莓派，以降低 open
 
 - Raspberry Pi 镜像的构建脚本和使用文档仓库：https://gitee.com/openeuler/raspberrypi
 - Raspberry Pi 内核源码仓库：https://gitee.com/openeuler/raspberrypi-kernel
-- Raspberry Pi 内核的 SRPM 仓库: https://gitee.com/src-openeuler/raspberrypi-kernel
-- Raspberry Pi 固件的 SRPM 仓库: https://gitee.com/src-openeuler/raspberrypi-firmware
-- Raspberry Pi 构建脚本的 SRPM 仓库: https://gitee.com/src-openeuler/raspberrypi-build
-- Raspberry Pi 蓝牙相关服务的 SRPM 仓库: https://gitee.com/src-openeuler/raspberrypi-bluetooth
-
+- Raspberry Pi 内核的 SRPM 仓库：https://gitee.com/src-openeuler/raspberrypi-kernel
+- Raspberry Pi 固件的 SRPM 仓库：https://gitee.com/src-openeuler/raspberrypi-firmware
+- Raspberry Pi 镜像构建脚本的 SRPM 仓库：https://gitee.com/src-openeuler/raspberrypi-build
+- Raspberry Pi 蓝牙相关服务的 SRPM 仓库：https://gitee.com/src-openeuler/raspberrypi-bluetooth
+- Raspberry Pi 固件的仓库：https://gitee.com/openeuler/raspberrypi-firmware
+- Raspberry Pi 镜像构建脚本的仓库：https://gitee.com/openeuler/raspberrypi-build
+- 
 ## SIG 基本信息
 
 ### 项目简介
@@ -53,8 +55,8 @@ https://gitee.com/openeuler/community/tree/master/sig/sig-RaspberryPi/
   - 加入 Slack 群组的链接将定期更新在 [树莓派 SIG 主仓库](https://gitee.com/openeuler/raspberrypi)
 
 ### 会议
-- 时间: 每个月的第一个和第三个周二，15:00 - 15:30 +0800 北京时间
-- Zoom MeetID: 881 4204 8958
+- 时间：每个月的第一个和第三个周二，15:00 - 15:30 +0800 北京时间
+- Zoom MeetID：881 4204 8958
 
 ### IRC 频道
 - #openeuler-raspberrypi
