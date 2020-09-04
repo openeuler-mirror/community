@@ -61,6 +61,7 @@
 - https://gitee.com/src-openeuler/ensmallen
 - https://gitee.com/src-openeuler/zookeeper
 - https://gitee.com/src-openeuler/kafka
+- https://gitee.com/src-openeuler/zeppelin
 - https://gitee.com/src-openeuler/incubator-mxnet
 - https://gitee.com/src-openeuler/opencv
 - https://gitee.com/src-openeuler/ibis
