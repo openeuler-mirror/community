@@ -36,4 +36,4 @@ sig-confidential_computing主要讨论在openEuler社区版本中已有或未来
 
 
 # 联系方式
-- [邮件列表](dev@openeuler.org)
+- 邮件列表: dev@openeuler.org
