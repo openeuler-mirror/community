@@ -39,7 +39,7 @@ def check_1(sigs, exps):
         if len(sigs) != 1:
             if repo in exps:
                 continue
-            print("WARNING! " + repo + ": Co-managed by these SIGs " + str(sigs))
+            print("ERROR! " + repo + ": Co-managed by these SIGs " + str(sigs))
             errors_found += 1
 
     if errors_found == 0:
@@ -63,7 +63,7 @@ def check_2(sigs, exps):
             repo = repo.lower()
             supervisor = repositories.get(repo, set())
             if sig["name"] in supervisor:
-                print("WARNING! {repo} has been managed by {sig} multiple times"
+                print("ERROR! {repo} has been managed by {sig} multiple times"
                       .format(repo=repo, sig=sig["name"]))
                 errors_found += 1
             else:
@@ -123,7 +123,7 @@ def check_4(exps, prefix, oe_repos, supervisors, cross_checked_repo):
 
     errors_found = 0
 
-    err_msg1 = "WARNING! Repository {name} marked as public in {prefix}.yaml, "\
+    err_msg1 = "ERROR! Repository {name} marked as public in {prefix}.yaml, "\
                "but listed in Private SIG."
     err_msg2 = "WARNING! Repository {name} marked as private in {prefix}.yaml, "\
                "but not listed in Private SIG."
@@ -131,17 +131,17 @@ def check_4(exps, prefix, oe_repos, supervisors, cross_checked_repo):
     for repo in oe_repos:
         name = prefix + "/" + repo["name"].lower()
         if "type" not in repo.keys():
-            print("WARNING! Repository {name} has no type tag".format(name=name))
+            print("ERROR! Repository {name} has no type tag".format(name=name))
             errors_found += 1
             continue
 
         if name in cross_checked_repo:
-            print("WARNING! Repository {name} in {prefix}.yaml has duplication."
+            print("ERROR! Repository {name} in {prefix}.yaml has duplication."
                   .format(name=name, prefix=prefix))
             errors_found += 1
         if not supervisors.get(name, False):
             if name not in exps:
-                print("WARNING! Repository {name} in {prefix}.yaml cannot be found in sigs.yaml."
+                print("ERROR! Repository {name} in {prefix}.yaml cannot be found in sigs.yaml."
                       .format(name=name, prefix=prefix))
                 errors_found += 1
         if repo["type"] == "public" and "Private" in supervisors.get(name, set()):
@@ -169,7 +169,7 @@ def check_6(cross_checked_repo, supervisors):
 
     for repo in supervisors:
         if not repo in cross_checked_repo:
-            print("WARNING! {name} listed in sigs.yaml, but not in {oe}.yaml"
+            print("ERROR! {name} listed in sigs.yaml, but not in {oe}.yaml"
                   .format(name=repo, oe=repo.split("/")[0]))
             errors_found = errors_found + 1
 
@@ -194,15 +194,15 @@ def check_7(oe_repos, srcoe_repos):
         for repo in repos:
             repo_name = repo["name"].lower()
             if len(repo_name) < 2 or len(repo_name) > 200:
-                print("WARNING! {name} too long or too short".format(name=repo_name))
+                print("ERROR! {name} too long or too short".format(name=repo_name))
                 errors_found += 1
             else:
                 new_repo_name = repo_name.replace("_", "").replace("-", "").replace(".", "")
                 if not new_repo_name.isalnum():
-                    print("WARNING! {name} contains invalid character".format(name=repo_name))
+                    print("ERROR! {name} contains invalid character".format(name=repo_name))
                     errors_found += 1
                 elif not repo_name[0].isalpha():
-                    print("WARNING! {name} must start with a letter".format(name=repo_name))
+                    print("ERROR! {name} must start with a letter".format(name=repo_name))
                     errors_found += 1
 
     if errors_found != 0:
@@ -226,11 +226,11 @@ def check_8(oe_repos, srcoe_repos):
         for repo in repos:
             branches = repo.get("protected_branches", [])
             if not branches:
-                print("WARNING! {pre}{name} doesn\'t have protected_branches"
+                print("ERROR! {pre}{name} doesn\'t have protected_branches"
                       .format(pre=prefix, name=repo["name"]))
                 errors_found += 1
             elif "master" not in branches:
-                print("WARNING! master branch in {pre}{name} is not protected"
+                print("ERROR! master branch in {pre}{name} is not protected"
                       .format(pre=prefix, name=repo["name"]))
                 errors_found += 1
 
@@ -246,10 +246,10 @@ def oe_requirements(repo, blacklist):
     """
     errors = 0
     if len(repo.get("description", "")) < 10:
-        print("WARNING! openeuler/" + repo["name"] + "\'s description is too short.")
+        print("ERROR! openeuler/" + repo["name"] + "\'s description is too short.")
         errors += 1
     if repo["name"] in blacklist:
-        print("WARNING! openeuler/" + repo["name"] + " was black-listed.")
+        print("ERROR! openeuler/" + repo["name"] + " was black-listed.")
         print("         Because: " + blacklist[repo["name"]])
         errors += 1
     return errors
@@ -261,13 +261,13 @@ def srcoe_requirements(repo, blacklist):
     """
     errors = 0
     if repo.get("upstream", "") == "":
-        print("WARNING! src-openeuler/" + repo["name"] + " missed upstream information.")
+        print("ERROR! src-openeuler/" + repo["name"] + " missed upstream information.")
         errors += 1
     if len(repo.get("description", "")) < 10:
-        print("WARNING! src-openeuler/" + repo["name"] + "\'s description is too short.")
+        print("ERROR! src-openeuler/" + repo["name"] + "\'s description is too short.")
         errors += 1
     if repo["name"] in blacklist:
-        print("WARNING! src-openeuler/" + repo["name"] + " was black-listed.")
+        print("ERROR! src-openeuler/" + repo["name"] + " was black-listed.")
         print("         Because: " + blacklist[repo["name"]])
         errors += 1
     return errors
