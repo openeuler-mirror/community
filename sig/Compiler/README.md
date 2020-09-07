@@ -25,6 +25,7 @@ Tuesday 10 am every week.
  - [llvm](https://gitee.com/src-openeuler/llvm)
  - [clang](https://gitee.com/src-openeuler/clang)
  - [compiler-rt](https://gitee.com/src-openeuler/compiler-rt)
+ - [jtreg](https://gitee.com/src-openeuler/jtreg)
  - [openjdk-1.8.0](https://gitee.com/src-openeuler/openjdk-1.8.0)
  - [openjdk-11](https:/gitee.com/src-openeuler/openjdk-11)
  - [openjdk-latest](https:/gitee.com/src-openeuler/openjdk-latest)

@@ -14069,6 +14069,14 @@ repositories:
   - openEuler-20.09
   - openEuler-20.03-LTS
   type: public
+- name: jtreg
+  description: jtreg is the test harness used by the JDK test framework.
+  upstream: https://openjdk.java.net/jtreg
+  protected_branches:
+  - master
+  - openEuler-20.09
+  - openEuler-20.03-LTS
+  type: public
 - name: openjdk-1.8.0
   description: openEuler Community builds of OpenJDK 8
   upstream: http://openjdk.java.net/
