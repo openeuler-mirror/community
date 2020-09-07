@@ -1746,6 +1746,13 @@ repositories:
   - master
   - openEuler-20.09
   type: public
+- name: ros_comm
+  description: ros_comm package that belongs to THE ROS-COMM
+  upstream: https://github.com/ros/ros_comm
+  protected_branches:
+  - master
+  - openEuler-20.09
+  type: public
 - name: ccid
   description: Provide a generic USB CCID driver and ICCD
   protected_branches:

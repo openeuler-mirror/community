@@ -59,5 +59,6 @@ repository地址：
 - https://gitee.com/src-openeuler/rospack
 - https://gitee.com/src-openeuler/ros_comm_msgs
 - https://gitee.com/src-openeuler/pluginlib
+- https://gitee.com/src-openeuler/ros_comm
 
 
