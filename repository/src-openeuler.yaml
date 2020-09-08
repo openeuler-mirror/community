@@ -39826,11 +39826,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: web-assets
-  description: ''
+  description: 'A simple framework for bits pushed to browsers'
+  upstream: https://fedoraproject.org/wiki/User:Patches/PackagingDrafts/Web_Assets
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: webbench
   description: simple tool for benchmarking WWW or proxy servers
   upstream: http://freshmeat.sourceforge.net/projects/web-bench/
