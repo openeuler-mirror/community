@@ -84,6 +84,7 @@ wswsamao | Desktop
 
 ## dev-utils 计算领域开发工具  （committer: SuperSix173、 wswsamao）
   - https://gitee.com/src-openeuler/gdb
+  - https://gitee.com/src-openeuler/libipt
   - https://gitee.com/src-openeuler/strace
   - https://gitee.com/src-openeuler/systemtap
   - https://gitee.com/src-openeuler/dyninst         
