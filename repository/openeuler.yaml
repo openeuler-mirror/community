@@ -348,8 +348,7 @@ repositories:
   - master
   type: public
 - name: release-management
-  description: "release management including key features, release plan, development and branch plan, release scope and notes
-"
+  description: "release management including key features, release plan, development and branch plan, release scope and notes"
   protected_branches:
   - master
   type: public
@@ -439,6 +438,11 @@ repositories:
   description: "A tool with useful scripts for building kata-containers related components and initrd image"
   protected_branches:
   - master
+  type: public
+- name: cve-manager
+  description: "Collect cve security vulnerabilities, submit the vulnerabilities to the corresponding version on gitee, notify the warehouse manager to repair, and finally publish the repaired information to an automated tool on the openEuler website."
+  protected_branches:
+    - master
   type: public
 - name: kubekey
   description: "The Next-gen Installer: Installing Kubernetes and KubeSphere v3.0.0 fastly, flexibly and easily"
