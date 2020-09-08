@@ -50,6 +50,7 @@ repository地址：
 - https://gitee.com/src-openeuler/udisks2
 - https://gitee.com/src-openeuler/mtools
 - https://gitee.com/src-openeuler/libblockdev
+- https://gitee.com/src-openeuler/libldm
 - https://gitee.com/src-openeuler/sdparm
 - https://gitee.com/src-openeuler/perl-DBD-SQLite
 - https://gitee.com/src-openeuler/libpciaccess
