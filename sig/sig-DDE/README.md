@@ -90,3 +90,12 @@ repository地址：
   - https://gitee.com/src-openeuler/deepin-gtk-theme
   - https://gitee.com/src-openeuler/deepin-gettext-tools
   - https://gitee.com/src-openeuler/deepin-sound-theme
+  - https://gitee.com/src-openeuler/dde-account-faces
+  - https://gitee.com/src-openeuler/dde-server-industry-config
+  - https://gitee.com/src-openeuler/dde-device-formatter
+  - https://gitee.com/src-openeuler/deepin-clone
+  - https://gitee.com/src-openeuler/deepin-dbus-generator
+  - https://gitee.com/src-openeuler/deepin-default-settings
+  - https://gitee.com/src-openeuler/deepin-gir-generator
+  - https://gitee.com/src-openeuler/deepin-qml-widgets
+  - https://gitee.com/src-openeuler/dde
