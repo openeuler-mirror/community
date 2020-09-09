@@ -75,3 +75,4 @@ repository地址：
 - https://gitee.com/src-openeuler/libyang
 - https://gitee.com/src-openeuler/libtins
 - https://gitee.com/src-openeuler/go-bindata
+- https://gitee.com/src-openeuler/seastar
