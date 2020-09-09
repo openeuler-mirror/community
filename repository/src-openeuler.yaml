@@ -110,11 +110,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: HikariCP
-  description: ''
+  description: JDBC Connection Pool
+  upstream: https://github.com/brettwooldridge/HikariCP
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: ImageMagick
   description: ''
   protected_branches:
@@ -463,11 +464,12 @@ repositories:
   - openEuler-20.09
   type: public
 - name: aesh
-  description: ''
+  description: Extendable shell
+  upstream: http://aeshell.github.io/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: afflib
   description: ''
   protected_branches:
@@ -594,11 +596,12 @@ repositories:
   - openEuler-20.09
   type: public
 - name: ant
-  description: ''
+  description: A Java-based build tool
+  upstream: https://ant.apache.org/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: ant-antunit
   description: Provide antunit ant task
   upstream: http://ant.apache.org/antlibs/antunit/
@@ -607,11 +610,12 @@ repositories:
   - openEuler-20.09
   type: public
 - name: ant-contrib
-  description: Collection of tasks for Ant.
+  description: Collection of tasks for Ant
+  upstream: http://ant-contrib.sourceforge.net/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: anthy
   description: ''
   protected_branches:
@@ -629,11 +633,12 @@ repositories:
   - openEuler-20.09
   type: public
 - name: antlr3
-  description: ''
+  description: ANother Tool for Language Recognition
+  upstream: http://www.antlr3.org/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: antlr32
   description: ANother Tool for Language Recognition
   upstream: http://www.antlr3.org/
@@ -655,11 +660,12 @@ repositories:
   - openEuler-20.09
   type: public
 - name: aopalliance
-  description: ''
+  description: A standards for Java/J2EE AOP
+  upstream: http://aopalliance.sourceforge.net/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: apache-commons-beanutils
   description: Utility methods for accessing and modifying the properties of JavaBeans.
   protected_branches:
@@ -694,17 +700,19 @@ repositories:
   - openEuler-20.09
   type: public
 - name: apache-commons-compress
-  description: ''
+  description: Java API for working with archivers and compressed files
+  upstream: http://commons.apache.org/proper/commons-compress/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: apache-commons-configuration
-  description: ''
+  description: Commons Configuration Package
+  upstream: https://commons.apache.org/configuration
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: apache-commons-csv
   description: Utilities to assist with handling of CSV files
   upstream: https://commons.apache.org/proper/commons-csv/
@@ -741,12 +749,13 @@ repositories:
   - openEuler-20.09
   type: public
 - name: apache-commons-exec
-  description: Java library to reliably execute external processes from within the
+  description: A library to reliably execute external processes from within the JVM
+  upstream: http://commons.apache.org/exec/
     JVM.
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: apache-commons-fileupload
   description: API to work with HTML file upload
   upstream: http://commons.apache.org/fileupload/
@@ -755,11 +764,12 @@ repositories:
   - openEuler-20.09
   type: public
 - name: apache-commons-io
-  description: ''
+  description: A library of utilities for developing IO functionality.
+  upstream: http://commons.apache.org/proper/commons-io
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: apache-commons-jci
   description: Commons Java Compiler Interface
   upstream: http://commons.apache.org/jci/
@@ -781,11 +791,12 @@ repositories:
   - openEuler-20.09
   type: private
 - name: apache-commons-lang3
-  description: ''
+  description: Apache Commons Lang version 3.0
+  upstream: http://commons.apache.org/lang
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: apache-commons-logging
   description: Apache Commons Logging
   upstream: http://commons.apache.org/logging
@@ -808,11 +819,12 @@ repositories:
   - openEuler-20.09
   type: public
 - name: apache-commons-parent
-  description: ''
+  description: Apache Commons Parent Pom
+  upstream: https://commons.apache.org/commons-parent-pom.html
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: apache-commons-pool
   description: Apache Commons Pool
   upstream: http://commons.apache.org/pool/
@@ -848,23 +860,26 @@ repositories:
   - openEuler-20.09
   type: public
 - name: apache-ivy
-  description: ''
+  description: Java-based dependency manager
+  upstream: https://ant.apache.org/ivy/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: apache-parent
-  description: ''
+  description: Maven Parent POM file for Apache projects
+  upstream: https://maven.apache.org/pom/index.html
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: apache-resource-bundles
-  description: ''
+  description: Apache Resource Bundles
+  upstream: http://repo1.maven.org/maven2/org/apache/apache-resource-bundles/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: apache-log4j-extras
   description: Apache Extras Companion for Apache log4j
   upstream: http://logging.apache.org/log4j/extras
@@ -917,11 +932,12 @@ repositories:
   - openEuler-20.09
   type: public
 - name: apiguardian
-  description: API Guardian Java annotation.
+  description: API Guardian Java annotation
+  upstream: https://github.com/apiguardian-team/apiguardian
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: apiviz
   description: APIviz is a JavaDoc doclet to generate class and package diagrams
   upstream: http://code.google.com/p/apiviz/
@@ -967,11 +983,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: aqute-bnd
-  description: ''
+  description: Bnd is the engine behind a number of popular software development tools that support OSGi.
+  upstream: http://bnd.bndtools.org/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: argon2
   description: ''
   protected_branches:
@@ -1138,11 +1155,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: atinject
-  description: ''
+  description: Java API for JSR-330 Dependency Injection
+  upstream: https://directory.fsf.org/wiki/Atinject
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: atk
   description: ''
   protected_branches:
@@ -1357,17 +1375,19 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: avalon-framework
-  description: ''
+  description: Java components interfaces
+  upstream: http://avalon.apache.org/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: avalon-logkit
-  description: ''
+  description: Java logging toolkit
+  upstream: http://avalon.apache.org/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: aws-sdk-java
   description: ''
   protected_branches:
@@ -1547,11 +1567,12 @@ repositories:
   - openEuler-20.09
   type: public
 - name: bean-validation-api
-  description: ''
+  description: Bean Validation API (JSR 349)
+  upstream: http://beanvalidation.org/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: beust-jcommander
   description: Java framework for parsing command line parameters
   upstream: http://jcommander.org/
@@ -1772,11 +1793,12 @@ repositories:
   - openEuler-20.09
   type: public
 - name: bsh
-  description: ''
+  description: A Java scripting environment (command-line version)
+  upstream: http://www.beanshell.org/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: btrfs-progs
   description: ''
   protected_branches:
@@ -1840,11 +1862,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: byaccj
-  description: Parser Generator with Java Extension
+  description: BYACC/J Java extension
+  upstream: http://byaccj.sourceforge.net/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: bytelist
   description: ''
   protected_branches:
@@ -1852,11 +1875,12 @@ repositories:
   - openEuler-20.09
   type: private
 - name: byteman
-  description: ''
+  description: Injection of track and test into Java programs
+  upstream: https://byteman.jboss.org/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: bzip2
   description: ''
   protected_branches:
@@ -1876,11 +1900,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: c3p0
-  description: ''
+  description: This is the JDBC DataSources/Resource Pools
+  upstream: https://github.com/swaldman/c3p0
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: ca-certificates
   description: ''
   protected_branches:
@@ -1999,11 +2024,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: cdi-api
-  description: ''
+  description: API for CDI
+  upstream: http://seamframework.org/Weld
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: cdparanoia
   description: ''
   protected_branches:
@@ -2270,11 +2296,12 @@ repositories:
   - openEuler-20.09
   type: private
 - name: classmate
-  description: ''
+  description: Zero-dependency Java library
+  upstream: http://github.com/cowtowncoder/java-classmate/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: cldr-emoji-annotation
   description: ''
   protected_branches:
@@ -2909,11 +2936,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: dain-snappy
-  description: ''
+  description: Port of Snappy to Java
+  upstream: https://github.com/dain/snappy
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: dblatex
   description: ''
   protected_branches:
@@ -3420,11 +3448,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: discount
-  description: A command-line utility for onverting Markdown files into HTML
+  description: Tools for converting Markdown files into HTML
+  upstream: http://www.pell.portland.or.us/~orc/Code/discount
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: disomaster
   description: Library to manipulate DISC burning
   upstream: https://github.com/linuxdeepin/disomaster
@@ -3628,11 +3657,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: dom4j
-  description: ''
+  description: Flexible XML framework for Java
+  upstream: https://dom4j.github.io/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: doracms
   description: Open source content management system based on nodejs
   protected_branches:
@@ -3964,11 +3994,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: ehcache-core
-  description: ''
+  description: Easy Hibernate Cache
+  upstream: http://ehcache.org/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: ehcache-parent
   description: ''
   protected_branches:
@@ -3976,11 +4007,12 @@ repositories:
   - openEuler-20.09
   type: private
 - name: ehcache-sizeof-agent
-  description: ''
+  description: Module of Ehcache
+  upstream: https://mvnrepository.com/artifact/net.sf.ehcache/sizeof-agent
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: eigen
   description: 'a C++ template library for linear algebra: matrices, vectors, numerical
     solvers, and related algorithms.'
@@ -4187,11 +4219,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: exec-maven-plugin
-  description: Exec Maven Plugin.
+  description: Exec Maven Plugin
+  upstream: https://www.mojohaus.org/exec-maven-plugin
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: exempi
   description: ''
   protected_branches:
@@ -4249,11 +4282,12 @@ repositories:
   - openEuler-20.09
   type: public
 - name: extra166y
-  description: ''
+  description: A collection that supports parallel operations
+  upstream: http://gee.cs.oswego.edu/dl/concurrency-interest
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: ezmorph
   description: Object transformation library for Java.
   protected_branches:
@@ -4370,11 +4404,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: felix-bundlerepository
-  description: ''
+  description: Apache Felix OSGi Bundle Repository service
+  upstream: http://felix.apache.org/documentation/subprojects/apache-felix-osgi-bundle-repository.html
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: felix-gogo-runtime
   description: Apache Felix Gogo command line shell for OSGi
   upstream: http://felix.apache.org/documentation/subprojects/apache-felix-gogo.html
@@ -4431,11 +4466,12 @@ repositories:
   - openEuler-20.09
   type: public
 - name: felix-utils
-  description: ''
+  description: Utility library for OSGi
+  upstream: http://felix.apache.org
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: fence-agents
   description: Set of unified programs capable of host isolation ('fencing').
   protected_branches:
@@ -4519,17 +4555,19 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: findbugs
-  description: A program which uses static analysis to look for bugs in java code.
+  description: Find Bugs in Java Programs
+  upstream: http://findbugs.sourceforge.net/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: findbugs-bcel
-  description: Byte Code Engineering Library for FindBugs.
+  description: A Library for FindBugs provides Byte Code
+  upstream: http://commons.apache.org/proper/commons-bcel/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: findutils
   description: ''
   protected_branches:
@@ -4720,11 +4758,12 @@ repositories:
   - openEuler-20.09
   type: public
 - name: fop
-  description: ''
+  description: Formatter for printing XSL-driven XML Files
+  upstream: https://xmlgraphics.apache.org/fop
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: forbidden-apis
   description: Policeman's Forbidden API Checker
   upstream: https://github.com/policeman-tools/forbidden-apis
@@ -5214,11 +5253,12 @@ repositories:
   - openEuler-20.09
   type: private
 - name: geronimo-annotation
-  description: ''
+  description: Annoctation API v1.3
+  upstream: http://geronimo.apache.org/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: geronimo-ejb
   description: Java EE, EJB API v3.1
   upstream: http://geronimo.apache.org
@@ -5240,11 +5280,12 @@ repositories:
   - openEuler-20.09
   type: public
 - name: geronimo-jaxrpc
-  description: ''
+  description: Java XML RPC API
+  upstream: http://geronimo.apache.org/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: geronimo-jcache
   description: Apache Geronimo JCache Spec 1.0
   upstream: http://geronimo.apache.org/
@@ -5260,11 +5301,12 @@ repositories:
   - openEuler-20.09
   type: public
 - name: geronimo-jms
-  description: J2EE JMS v1.1 API
+  description: Geronimo Jms
+  upstream: http://geronimo.apache.org/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: geronimo-jpa
   description: Java persistence API implementation
   upstream: http://geronimo.apache.org/
@@ -5273,11 +5315,12 @@ repositories:
   - openEuler-20.09
   type: public
 - name: geronimo-jta
-  description: ''
+  description: J2EE JTA v1.1 API
+  upstream: http://geronimo.apache.org/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: geronimo-osgi-support
   description: OSGI spec bundle support
   upstream: http://geronimo.apache.org/
@@ -5293,11 +5336,12 @@ repositories:
   - openEuler-20.09
   type: public
 - name: geronimo-saaj
-  description: ''
+  description: SOAP with Attachments API for Java
+  upstream: http://geronimo.apache.org/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: geronimo-validation
   description: ''
   protected_branches:
@@ -5464,11 +5508,12 @@ repositories:
   - openEuler-20.09
   type: public
 - name: glassfish-el
-  description: ''
+  description: Implementation of the Expression Language (EL)
+  upstream: http://uel.java.net
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: glassfish-fastinfoset
   description: A standardized binary encoding for the XML Information Set is specified
     by Fast Infoset.
@@ -5506,17 +5551,19 @@ repositories:
   - openEuler-20.09
   type: public
 - name: glassfish-jsp-api
-  description: ''
+  description: Glassfish J2EE JSP API specification
+  upstream: https://github.com/javaee/javaee-jsp-api
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: glassfish-servlet-api
-  description: ''
+  description: API of Java Servlet
+  upstream: http://servlet-spec.java.net
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: glew
   description: ''
   protected_branches:
@@ -6252,11 +6299,12 @@ repositories:
   - openEuler-20.09
   type: private
 - name: google-guice
-  description: ''
+  description: An open source, Java-based dependency injection framework
+  upstream: https://github.com/google/guice
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: google-http-java-client
   description: Google HTTP Client Library for Java.
   protected_branches:
@@ -6294,11 +6342,12 @@ repositories:
   - openEuler-20.09
   type: private
 - name: gpars
-  description: ''
+  description: Groovy Parallel Systems
+  upstream: https://github.com/GPars/GPars
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: gparted
   description: Partition Editor
   upstream: http://gparted.org
@@ -6410,11 +6459,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: groovy
-  description: ''
+  description: Dynamic language for the Java Platform
+  upstream: http://groovy-lang.org
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: grpc
   description: ''
   protected_branches:
@@ -6705,11 +6755,12 @@ repositories:
   - openEuler-20.09
   type: private
 - name: guava20
-  description: ''
+  description: Google Libraries for Java
+  upstream: https://github.com/google/guava
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: gubbi-fonts
   description: ''
   protected_branches:
@@ -6881,11 +6932,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: hawtjni
-  description: ''
+  description: Produces the JNI code,known as a code generator
+  upstream: http://hawtjni.fusesource.org/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: hawtjni-runtime
   description: ''
   protected_branches:
@@ -6968,17 +7020,19 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: hibernate
-  description: ''
+  description: an easy-to-use and powerful object relational persistence framework for Java applications
+  upstream: http://www.hibernate.org/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: hibernate-commons-annotations
-  description: ''
+  description: Hibernate Commons Annotations
+  upstream: http://www.hibernate.org/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: hibernate-jpa
   description: ''
   protected_branches:
@@ -6986,17 +7040,19 @@ repositories:
   - openEuler-20.09
   type: private
 - name: hibernate-jpa-2.1-api
-  description: ''
+  description: Java Persistence 2.1 API
+  upstream: http://www.hibernate.org/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: hibernate3
-  description: ''
+  description: Inquiry service and persistence of releationship
+  upstream: http://www.hibernate.org/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: hicolor-icon-theme
   description: ''
   protected_branches:
@@ -7113,17 +7169,19 @@ repositories:
   - openEuler-20.09
   type: public
 - name: httpcomponents-client
-  description: ''
+  description: A library of components for building client side HTTP services
+  upstream: http://hc.apache.org/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: httpcomponents-core
-  description: ''
+  description: Set of low level Java HTTP transport components for HTTP services
+  upstream: http://hc.apache.org/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: httpcomponents-project
   description: Apache components to build HTTP enabled services
   upstream: http://hc.apache.org/
@@ -8581,11 +8639,12 @@ repositories:
   - openEuler-20.09
   type: private
 - name: infinispan
-  description: ''
+  description: Data grid platform
+  upstream: http://infinispan.org/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: iniparser
   description: ini file parser
   upstream: https://github.com/ndevilla/iniparser
@@ -8891,11 +8950,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: jFormatString
-  description: Java format string compile-time checker.
+  description: A checker for Java format string when compile-time
+  upstream: http://code.google.com/p/j-format-string/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: jack-audio-connection-kit
   description: ''
   protected_branches:
@@ -8903,11 +8963,12 @@ repositories:
   - openEuler-20.09
   type: private
 - name: jackson
-  description: ''
+  description: Jackson Java JSON-processor
+  upstream: https://github.com/codehaus/jackson
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: jackson-annotations
   description: ''
   protected_branches:
@@ -8946,11 +9007,12 @@ repositories:
   - openEuler-20.09
   type: private
 - name: jakarta-commons-httpclient
-  description: ''
+  description: Implement the client side of HTTP standards
+  upstream: http://jakarta.apache.org/commons/httpclient/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: jakarta-oro
   description: Provide compatible regular expressions
   upstream: http://jakarta.apache.org/oro
@@ -8966,29 +9028,33 @@ repositories:
   - openEuler-20.09
   type: public
 - name: jandex
-  description: ''
+  description: A space efficient Java annotation indexer and offline reflection library
+  upstream: https://github.com/wildfly/jandex
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: janino
-  description: An embedded Java compiler
+  description: A super-small, super-fast Java compiler.
+  upstream: http://janino-compiler.github.io/janino
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: jansi
-  description: ''
+  description: Jansi is a java library for generating and interpreting ANSI escape sequences
+  upstream: http://fusesource.github.io/jansi/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: jansi-native
-  description: ''
+  description: Jansi Native implements the JNI Libraries used by the Jansi project
+  upstream: http://jansi.fusesource.org/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: jansson
   description: ''
   protected_branches:
@@ -9057,11 +9123,12 @@ repositories:
   - openEuler-20.09
   type: public
 - name: javacc
-  description: A parser/scanner generator for java.
+  description: A parser/scanner generator for java
+  upstream: http://javacc.org
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: javacc-maven-plugin
   description: Maven Plugin for processing JavaCC grammar files.
   protected_branches:
@@ -9098,17 +9165,19 @@ repositories:
   - openEuler-20.09
   type: public
 - name: javassist
-  description: ''
+  description: Java bytecode engineering toolkit
+  upstream: http://www.csg.is.titech.ac.jp/~chiba/javassist/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: jaxen
-  description: ''
+  description: An XPath engine written in Java
+  upstream: https://github.com/jaxen-xpath/jaxen
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: jBCrypt
   description: Strong password hashing for Java
   upstream: http://www.mindrot.org/projects/jBCrypt
@@ -9155,17 +9224,19 @@ repositories:
   - openEuler-20.09
   type: public
 - name: jboss-interceptors-1.2-api
-  description: ''
+  description: Java EE Interceptors 1.2 API
+  upstream: https://github.com/jboss/jboss-interceptors-api_spec
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: jboss-jacc-1.4-api
-  description: ''
+  description: JBoss JACC 1.4 API
+  upstream: http://www.jboss.org
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: jboss-jaxrs-2.0-api
   description: JAX-RS 2.0, The Java API for RESTful Web Services
   upstream: https://github.com/jboss/jboss-jaxrs-api_spec
@@ -9189,10 +9260,11 @@ repositories:
   type: public
 - name: jboss-jsp-2.2-api
   description: JavaServer(TM) Pages 2.2 API
+  upstream: http://www.jboss.org/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: jboss-jsp-2.3-api
   description: JavaServer Pages 2.3 API (JSP)
   upstream: https://github.com/jboss/jboss-jsp-api_spec
@@ -9208,23 +9280,26 @@ repositories:
   - openEuler-20.09
   type: public
 - name: jboss-logging
-  description: ''
+  description: The JBoss Logging Framework
+  upstream: https://github.com/jboss-logging/jboss-logging
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: jboss-logging-tools
-  description: ''
+  description: Tool for create internationalized log statements and exceptions
+  upstream: https://github.com/jboss-logging/jboss-logging-tools
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: jboss-marshalling
-  description: ''
+  description: A serialization API that fixes many of the problems found in the JDK serialization API
+  upstream: http://jbossmarshalling.jboss.org/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: jboss-parent
   description: JBoss Parent POM
   upstream: http://www.jboss.org/
@@ -9239,23 +9314,26 @@ repositories:
   - openEuler-20.09
   type: private
 - name: jboss-remoting-jmx
-  description: ''
+  description: JMX via JBoss Remoting
+  upstream: http://www.jboss.org/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: jboss-sasl
-  description: ''
+  description: SASL Provider for J2SE
+  upstream: https://github.com/wildfly-security/jboss-sasl
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: jboss-servlet-3.0-api
-  description: ''
+  description: Java Servlet 3.0 API
+  upstream: http://www.jboss.org
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: jboss-servlet-3.1-api
   description: Java Servlet 3.1 API
   upstream: Url:http://www.jboss.org
@@ -9284,17 +9362,19 @@ repositories:
   - openEuler-20.09
   type: public
 - name: jcifs
-  description: ''
+  description: The Java CIFS Client Library
+  upstream: http://jcifs.samba.org/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: jcip-annotations
-  description: ''
+  description: Java Concurrency in Practice
+  upstream: http://www.jcip.net/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: jcodings
   description: ''
   protected_branches:
@@ -9302,11 +9382,12 @@ repositories:
   - openEuler-20.09
   type: private
 - name: jcsp
-  description: ''
+  description: Communicating Sequential Processes for Java (JCSP)
+  upstream: https://github.com/codehaus/jcsp
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: jctools
   description: ''
   protected_branches:
@@ -9334,17 +9415,19 @@ repositories:
   - openEuler-20.09
   type: public
 - name: jdependency
-  description: This project provides an API to analyse class dependencies.
+  description: API to analyse class dependencies
+  upstream: http://github.com/tcurdt/jdependency
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: jdo2-api
-  description: 'Implementation of JSR 243: Java Data Objects 2.0.'
+  description: Java Data Objects 2 (JDO) API, implementation of JSR 243
+  upstream: http://db.apache.org/jdo/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: jdom
   description: Java alternative for DOM and SAX
   upstream: http://www.jdom.org
@@ -9353,11 +9436,12 @@ repositories:
   - openEuler-20.09
   type: public
 - name: jdom2
-  description: ''
+  description: Classes representing the components of an XML document
+  upstream: http://www.jdom.org/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: jedis
   description: A redis Java client
   upstream: https://github.com/xetorthio/jedis
@@ -9435,11 +9519,12 @@ repositories:
   - openEuler-20.09
   type: public
 - name: jflex
-  description: ''
+  description: Scanner Generator for Java
+  upstream: http://jflex.de/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: jfsutils
   description: ''
   protected_branches:
@@ -9450,11 +9535,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: jgroups
-  description: ''
+  description: Toolkit for reliable messaging
+  upstream: http://www.jgroups.org
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: jhighlight
   description: JHighlight is an embeddable pure Java syntax highlighting library.
   protected_branches:
@@ -9471,11 +9557,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: jna
-  description: ''
+  description: Pure Java access to native libraries
+  upstream: https://github.com/java-native-access/jna/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: jnr-constants
   description: Java Native Runtime constants
   upstream: https://github.com/jnr/jnr-constants
@@ -9526,11 +9613,12 @@ repositories:
   - openEuler-20.09
   type: public
 - name: joda-time
-  description: ''
+  description: Provides a quality replacement for the Java date and time classes
+  upstream: http://www.joda.org/joda-time/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: jomolhari-fonts
   description: ''
   protected_branches:
@@ -9665,23 +9753,26 @@ repositories:
   - openEuler-20.09
   type: public
 - name: jsoup
-  description: ''
+  description: Java HTML Parser
+  upstream: http://jsoup.org/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: jsr-305
-  description: ''
+  description: Correctness annotations for Java code
+  upstream: https://github.com/amaembo/jsr-305
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: jsr-311
-  description: ''
+  description: JAX-RS:Java API for RESTful Web Services
+  upstream: http://jsr311.java.net
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: jss
   description: Java Security Services (JSS)
   upstream: http://www.dogtagpki.org/wiki/JSS
@@ -9690,11 +9781,12 @@ repositories:
   - openEuler-20.09
   type: public
 - name: jtidy
-  description: ''
+  description: HTML syntax checker and pretty printer
+  upstream: http://jtidy.sourceforge.net/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: julietaula-montserrat-fonts
   description: ''
   protected_branches:
@@ -9726,11 +9818,12 @@ repositories:
   - openEuler-20.09
   type: public
 - name: jvnet-parent
-  description: ''
+  description: Java.net parent POM file
+  upstream: http://www.java.net
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: jzlib
   description: A re-implementation of zlib in pure Java
   upstream: http://www.jcraft.com/jzlib/
@@ -10035,11 +10128,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: kxml
-  description: ''
+  description: Small XmlPull compatible parser
+  upstream: http://kxml.sourceforge.net/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: kylin-nm
   description: ''
   protected_branches:
@@ -10220,17 +10314,19 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: leveldb-java
-  description: ''
+  description: LevelDB Java Port
+  upstream: https://github.com/dain/leveldb
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: leveldbjni
-  description: ''
+  description: A Java Native Interface to LevelDB
+  upstream: https://github.com/fusesource/leveldbjni/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: lftp
   description: ''
   protected_branches:
@@ -13406,11 +13502,12 @@ repositories:
   - openEuler-20.09
   type: public
 - name: log4j
-  description: ''
+  description: Java logging package
+  upstream: http://logging.apache.org/log4j
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: log4j12
   description: A logging library for Java
   upstream: http://logging.apache.org/log4j/1.2/
@@ -14115,41 +14212,47 @@ repositories:
   - openEuler-20.09
   type: public
 - name: maven
-  description: ''
+  description: Java project management and project comprehension tool
+  upstream: http://maven.apache.org/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: maven-antrun-plugin
-  description: ''
+  description: Maven AntRun Plugin
+  upstream: http://maven.apache.org/plugins/maven-antrun-plugin/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: maven-archiver
-  description: ''
+  description: Maven Archiver
+  upstream: https://maven.apache.org/shared/maven-archiver/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: maven-artifact-resolver
-  description: ''
+  description: A component for plugins to easily resolve project dependencies
+  upstream: http://maven.apache.org/shared/maven-artifact-resolver
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: maven-artifact-transfer
-  description: ''
+  description: Apache Maven Artifact Transfer
+  upstream: http://maven.apache.org/shared/maven-artifact-transfer
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: maven-assembly-plugin
-  description: ''
+  description: Maven Assembly Plugin
+  upstream: http://maven.apache.org/plugins/maven-assembly-plugin/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: maven-clean-plugin
   description: ''
   protected_branches:
@@ -14157,65 +14260,75 @@ repositories:
   - openEuler-20.09
   type: private
 - name: maven-common-artifact-filters
-  description: ''
+  description: Maven Common Artifact Filters
+  upstream: https://maven.apache.org/shared/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: maven-compiler-plugin
-  description: ''
+  description: Apache Maven Compiler Plugin
+  upstream: http://maven.apache.org/plugins/maven-compiler-plugin
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: maven-dependency-analyzer
-  description: ''
+  description: Maven dependency analyzer
+  upstream: http://maven.apache.org/shared/maven-dependency-analyzer/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: maven-dependency-plugin
-  description: ''
+  description: Provides functionalities to work with dependencies like copying, unpacking, resolving, etc.
+  upstream: http://maven.apache.org/plugins/maven-dependency-plugin
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: maven-dependency-tree
-  description: ''
+  description: Maven dependency tree artifact
+  upstream: http://maven.apache.org/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: maven-doxia
-  description: ''
+  description: Content generation framework
+  upstream: http://maven.apache.org/doxia/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: maven-doxia-sitetools
-  description: ''
+  description: Doxia content generation framework
+  upstream: https://maven.apache.org/doxia/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: maven-enforcer
-  description: ''
+  description: A build rule execution framework
+  upstream: http://maven.apache.org/enforcer
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: maven-file-management
-  description: ''
+  description: Maven File Management API
+  upstream: http://maven.apache.org/shared/file-management
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: maven-filtering
-  description: ''
+  description: A shared component for all plugins that needs to filter resources
+  upstream: http://maven.apache.org/shared/maven-filtering/index.html
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: maven-install-plugin
   description: Copies the project artifacts to the user's local repository.
   protected_branches:
@@ -14223,29 +14336,33 @@ repositories:
   - openEuler-20.09
   type: private
 - name: maven-invoker
-  description: ''
+  description: Fires a Maven build in a new JVM
+  upstream: http://maven.apache.org/shared/maven-invoker/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: maven-invoker-plugin
-  description: Used to run a set of Maven projects.
+  description: Maven Invoker Plugin
+  upstream: http://maven.apache.org/plugins/maven-invoker-plugin/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: maven-jar-plugin
-  description: ''
+  description: Apache Maven JAR Plugin
+  upstream: http://maven.apache.org/plugins/maven-jar-plugin/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: maven-javadoc-plugin
-  description: ''
+  description: Maven Javadoc Plugin
+  upstream: http://maven.apache.org/plugins/maven-javadoc-plugin
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: maven-osgi
   description: Library for Maven-OSGi integration
   upstream: http://maven.apache.org/shared/maven-osgi
@@ -14254,35 +14371,40 @@ repositories:
   - openEuler-20.09
   type: public
 - name: maven-parent
-  description: ''
+  description: Maven project parent POM
+  upstream: http://maven.apache.org
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: maven-plugin-build-helper
-  description: ''
+  description: Build Helper Maven Plugin
+  upstream: https://www.mojohaus.org/build-helper-maven-plugin/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: maven-plugin-bundle
-  description: ''
+  description: Maven Bundle Plugin
+  upstream: http://felix.apache.org
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: maven-plugin-testing
-  description: ''
+  description: Maven Plugin Testing
+  upstream: http://maven.apache.org/plugin-testing/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: maven-plugin-tools
-  description: ''
+  description: Maven Plugin Tools
+  upstream: https://maven.apache.org/plugin-tools
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: maven-plugins-pom
   description: This package provides Maven Plugins parent POM used by different Apache
     Maven plugins.
@@ -14298,11 +14420,12 @@ repositories:
   - openEuler-20.09
   type: public
 - name: maven-remote-resources-plugin
-  description: ''
+  description: Maven Remote Resources Plugin
+  upstream: http://maven.apache.org/plugins/maven-remote-resources-plugin/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: maven-replacer
   description: Replacer Maven Mojo
   upstream: https://github.com/beiliubei/maven-replacer-plugin
@@ -14311,29 +14434,33 @@ repositories:
   - openEuler-20.09
   type: public
 - name: maven-reporting-api
-  description: ''
+  description: API to manage report generation
+  upstream: http://maven.apache.org/shared/maven-reporting-api
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: maven-reporting-impl
-  description: ''
+  description: Abstract classes to manage report generation
+  upstream: http://maven.apache.org/shared/maven-reporting-impl/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: maven-resolver
-  description: ''
+  description: Apache Maven Artifact Resolver library
+  upstream: http://maven.apache.org/resolver/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: maven-resources-plugin
-  description: ''
+  description: Apache Maven Resources Plugin
+  upstream: http://maven.apache.org/plugins/maven-resources-plugin
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: maven-scm
   description: ''
   protected_branches:
@@ -14341,17 +14468,19 @@ repositories:
   - openEuler-20.09
   type: private
 - name: maven-script-interpreter
-  description: Maven Script Interpreter.
+  description: Script Interpreter for Maven
+  upstream: http://maven.apache.org/shared/maven-script-interpreter/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: maven-shade-plugin
-  description: This plugin provides the capability to package the artifact in an uber-jar.
+  description: This plugin make package access to artifact in an uber-jar
+  upstream: http://maven.apache.org/plugins/maven-shade-plugin
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: maven-shared
   description: Shared Components for maven
   upstream: http://maven.apache.org/shared
@@ -14360,41 +14489,47 @@ repositories:
   - openEuler-20.09
   type: public
 - name: maven-shared-incremental
-  description: ''
+  description: Maven Incremental Build support utilities
+  upstream: http://maven.apache.org/shared/maven-shared-incremental/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: maven-shared-io
-  description: ''
+  description: API Library for I/O
+  upstream: http://maven.apache.org/shared/maven-shared-io
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: maven-shared-utils
-  description: ''
+  description: The functional replacement of plexus-utils in maven
+  upstream: https://maven.apache.org/shared/maven-shared-utils
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: maven-source-plugin
-  description: ''
+  description: Source Plugin creating a jar archive of source
+  upstream: http://maven.apache.org/plugins/maven-source-plugin/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: maven-surefire
-  description: ''
+  description: The test framework project of surefire
+  upstream: http://maven.apache.org/surefire/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: maven-verifier
-  description: ''
+  description: Maven verifier
+  upstream: http://maven.apache.org/shared/maven-verifier
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: maven-verifier-plugin
   description: Verifier Plugin for maven
   upstream: http://maven.apache.org/plugins/maven-verifier-plugin
@@ -14403,17 +14538,19 @@ repositories:
   - openEuler-20.09
   type: public
 - name: maven-wagon
-  description: ''
+  description: Tools to manage artifacts and deployment
+  upstream: http://maven.apache.org/wagon
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: maven2
-  description: ''
+  description: Software project management and comprehension tool
+  upstream: http://maven.apache.org
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: mc
   description: ''
   protected_branches:
@@ -14433,11 +14570,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: mchange-commons
-  description: ''
+  description: A collection of general purpose utilities for c3p0
+  upstream: https://github.com/swaldman/mchange-commons-java
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: mcpp
   description: ''
   protected_branches:
@@ -15038,11 +15176,12 @@ repositories:
   - openEuler-20.09
   type: public
 - name: multiverse
-  description: ''
+  description: A software transactional memory implementation for the JVM
+  upstream: http://multiverse.codehaus.org
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: munge
   description: An authentication service for creating and validating credentials.
   protected_branches:
@@ -15185,11 +15324,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: narayana
-  description: ''
+  description: Distributed Transaction Manager
+  upstream: http://narayana.io/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: nasm
   description: ''
   protected_branches:
@@ -15368,17 +15508,19 @@ repositories:
   - openEuler-20.09
   type: private
 - name: netty-tcnative
-  description: ''
+  description: Fork of Tomcat Native with improved OpenSSL and mavenized build
+  upstream: https://github.com/netty/netty/wiki/Forked-Tomcat-Native
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: netty3
-  description: ''
+  description: An asynchronous event-driven network application framework and tools for Java
+  upstream: http://netty.io/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: network-manager-applet
   description: ''
   protected_branches:
@@ -15691,11 +15833,12 @@ repositories:
   - openEuler-20.09
   type: private
 - name: objectweb-pom
-  description: Ojectweb POM
+  description: Objectweb POM
+  upstream: https://github.com/OpenMandrivaAssociation/objectweb-pom
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: objenesis
   description: A Java library to instantiate a new object
   upstream: http://objenesis.org/
@@ -16933,11 +17076,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: parboiled
-  description: ''
+  description: A mixed Java/Scala library
+  upstream: http://parboiled.org/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: parfait
   description: A performance monitoring library for java
   upstream: https://github.com/performancecopilot/parfait
@@ -17103,17 +17247,19 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: pdfbox
-  description: ''
+  description: A Java PDF Library
+  upstream: http://pdfbox.apache.org/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: pegdown
-  description: ''
+  description: A pure Java library for clean and lightweight Markdown processing
+  upstream: http://pegdown.org
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: PEGTL
   description: Parsing Expression Grammar Template Library
   upstream: https://github.com/taocpp/PEGTL/
@@ -25932,12 +26078,13 @@ repositories:
   - openEuler-20.09
   type: public
 - name: perl-Test-Exception
-  description: This module provides a few convenience methods for testing exception
+  description: Library of test functions for exception based Perl code
+  upstream: https://metacpan.org/release/Test-Exception
     based code.
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: perl-Test-Exception-LessClever
   upstream: http://search.cpan.org/dist/Test-Exception-LessClever/
   description: Test
@@ -28572,11 +28719,12 @@ repositories:
   - openEuler-20.09
   type: private
 - name: plexus-archiver
-  description: ''
+  description: Plexus Archiver Components
+  upstream: http://codehaus-plexus.github.io/plexus-archiver
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: plexus-bsh-factory
   description: Plexus Bsh component factory.
   protected_branches:
@@ -28584,41 +28732,47 @@ repositories:
   - openEuler-20.09
   type: private
 - name: plexus-build-api
-  description: ''
+  description: Plexus Build API
+  upstream: https://github.com/sonatype/sisu-build-api
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: plexus-cipher
-  description: ''
+  description: Plexus Cipher encryption/decryption Component
+  upstream: https://github.com/codehaus-plexus/plexus-cipher
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: plexus-classworlds
-  description: ''
+  description: A framework require complex manipulation of Java's ClassLoaders
+  upstream: https://github.com/codehaus-plexus/plexus-classworlds
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: plexus-cli
-  description: ''
+  description: Easily create CLIs with Plexus components
+  upstream: https://github.com/codehaus-plexus/plexus-cli
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: plexus-compiler
-  description: ''
+  description: Components to manipulate compilers for Plexus
+  upstream: https://github.com/codehaus-plexus/plexus-compiler
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: plexus-component-api
-  description: ''
+  description: Plexus Component API
+  upstream: https://mvnrepository.com/artifact/org.codehaus.plexus/plexus-component-api
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: plexus-component-factories-pom
   description: Plexus Component Factories POM
   upstream: https://github.com/codehaus-plexus/plexus-component-factories
@@ -28627,77 +28781,89 @@ repositories:
   - openEuler-20.09
   type: public
 - name: plexus-components-pom
-  description: ''
+  description: Plexus Components parent POM
+  upstream: https://github.com/codehaus-plexus/plexus-components
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: plexus-containers
-  description: ''
+  description: Plexus' inversion-of-control (IoC) container
+  upstream: https://github.com/codehaus-plexus/plexus-containers
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: plexus-i18n
-  description: ''
+  description: Plexus I18N Component
+  upstream: https://github.com/codehaus-plexus/plexus-i18n
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: plexus-interactivity
-  description: ''
+  description: Plexus Interactivity Handler Component
+  upstream: https://github.com/codehaus-plexus/plexus-interactivity
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: plexus-interpolation
-  description: ''
+  description: Plexus Interpolation API
+  upstream: https://github.com/codehaus-plexus/plexus-interpolation
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: plexus-io
-  description: ''
+  description: Use in I/O operations
+  upstream: https://codehaus-plexus.github.io/plexus-io/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: plexus-languages
-  description: ''
+  description: Plexus Languages
+  upstream: https://github.com/codehaus-plexus/plexus-languages
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: plexus-pom
-  description: ''
+  description: Plexus Projects POM
+  upstream: https://github.com/codehaus-plexus/plexus-pom
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: plexus-resources
-  description: ''
+  description: Plexus Resource Manager
+  upstream: https://github.com/codehaus-plexus/plexus-resources
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: plexus-sec-dispatcher
-  description: ''
+  description: Plexus Security Dispatcher Component
+  upstream: https://github.com/EuroLinux/els-tests-plexus-sec-dispatcher
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: plexus-utils
-  description: ''
+  description: Plexus Common Utilities
+  upstream: https://codehaus-plexus.github.io/plexus-utils/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: plexus-velocity
-  description: ''
+  description: Plexus Velocity Component
+  upstream: https://codehaus-plexus.github.io/plexus-velocity/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: plotutils
   description: ''
   protected_branches:
@@ -28975,11 +29141,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: proguard
-  description: Java class file shrinker, optimizer, obfuscator and preverifier.
+  description: Java class file shrinker, optimizer, obfuscator and preverifier
+  upstream: https://www.guardsquare.com/en/proguard
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: proj
   description: ''
   protected_branches:
@@ -29020,17 +29187,19 @@ repositories:
   - openEuler-20.09
   type: private
 - name: protostream
-  description: ''
+  description: The Infinispan ProtoStream project
+  upstream: http://infinispan.org/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: proxool
-  description: ''
+  description: Connection pool library for Java
+  upstream: http://proxool.sourceforge.net/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: psacct
   description: ''
   protected_branches:
@@ -39958,11 +40127,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: rhino
-  description: ''
+  description: Open-source implementation of JavaScript written entirely in Java
+  upstream: http://www.mozilla.org/rhino/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: rhnlib
   description: ''
   protected_branches:
@@ -40342,11 +40512,12 @@ repositories:
   - openEuler-20.09
   type: public
 - name: rubygem-kramdown
-  description: Fast, pure-Ruby Markdown-superset converter.
+  description: A fast pure Ruby yet-another-markdown-parser
+  upstream: http://kramdown.rubyforge.org
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: rubygem-liquid
   description: Secure, non-evaling end user template engine
   upstream: http://www.liquidmarkup.org
@@ -40425,11 +40596,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: rubygem-rdiscount
-  description: Converts documents in Markdown syntax to HTML.
+  description: Converts documents in Markdown syntax to HTML
+  upstream: http://github.com/rtomayko/rdiscount
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: rubygem-ronn
   description: Manual authoring tool.
   protected_branches:
@@ -40630,11 +40802,12 @@ repositories:
   - openEuler-20.09
   type: private
 - name: scala
-  description: ''
+  description: Combination of object-oriented and functional programming
+  upstream: http://www.scala-lang.org/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: scap-security-guide
   description: ''
   protected_branches:
@@ -40943,11 +41116,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: sisu
-  description: ''
+  description: Eclipse dependency injection framework
+  upstream: https://eclipse.org/sisu
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: skkdic
   description: Standard dictionary file for SKK
   upstream: http://openlab.ring.gr.jp/skk/skk/dic/
@@ -41101,11 +41275,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: sonatype-oss-parent
-  description: ''
+  description: Sonatype OSS Parent
+  upstream: https://github.com/sonatype/oss-parents
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: sos
   description: A set of tools to gather troubleshooting information from a system
   protected_branches:
@@ -41257,11 +41432,12 @@ repositories:
   - openEuler-20.09
   type: public
 - name: springframework
-  description: ''
+  description: The Spring Java Application Framework
+  upstream: http://projects.spring.io/spring-framework/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: sqlite
   description: ''
   protected_branches:
@@ -41386,11 +41562,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: stream-lib
-  description: ''
+  description: Library for summarizing data in streams
+  upstream: https://github.com/addthis/stream-lib/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: stringtemplate
   description: A Java template engine
   upstream: http://www.stringtemplate.org/
@@ -41668,11 +41845,12 @@ repositories:
   - openEuler-20.09
   type: private
 - name: tagsoup
-  description: ''
+  description: A SAX-compliant HTML parser written in Java
+  upstream: https://vrici.lojban.org/~cowan/XML/tagsoup
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: tang
   description: ''
   protected_branches:
@@ -41839,11 +42017,12 @@ repositories:
   - openEuler-20.09
   type: private
 - name: test-interface
-  description: Uniform interface to Scala and Java test frameworks.
+  description: Uniform interface to Scala and Java test frameworks
+  upstream: https://github.com/sbt/test-interface
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: testng
   description: Java-based testing framework
   upstream: http://testng.org/
@@ -42129,10 +42308,11 @@ repositories:
   type: private
 - name: tomcat-taglibs-parent
   description: Apache Taglibs Parent
+  upstream: http://tomcat.apache.org/taglibs/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: tomcat-taglibs-standard
   description: Apache Standard Taglib,Javadoc for tomcat-taglibs-standard
   upstream: http://tomcat.apache.org/taglibs/
@@ -43507,11 +43687,12 @@ repositories:
   - openEuler-20.09
   type: public
 - name: velocity
-  description: ''
+  description: Java-based template engine
+  upstream: http://velocity.apache.org/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: vim
   description: ''
   protected_branches:
@@ -43698,7 +43879,7 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: web-assets
-  description: 'A simple framework for bits pushed to browsers'
+  description: The package is a simple framework that pushes bits to the browser
   upstream: https://fedoraproject.org/wiki/User:Patches/PackagingDrafts/Web_Assets
   protected_branches:
   - master
@@ -43842,11 +44023,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: wsdl4j
-  description: ''
+  description: The Web Services Description Language for Java Toolkit
+  upstream: http://sourceforge.net/projects/wsdl4j
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: wsmancli
   description: ''
   protected_branches:
@@ -43857,11 +44039,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: wxGTK3
-  description: ''
+  description: C++ Library for Cross-Platform Development
+  upstream: https://www.wxwidgets.org/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: wxPython
   description: Cross platform GUI toolkit for Python using wxGTK.
   protected_branches:
@@ -43964,11 +44147,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: xapool
-  description: ''
+  description: A series of open source code about XA JDBC Pool
+  upstream: http://xapool.ow2.org/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: xapps
   description: Common files for XApp desktop apps
   upstream: https://github.com/linuxmint/xapps
@@ -43984,11 +44168,12 @@ repositories:
   - openEuler-20.09
   type: public
 - name: xbean
-  description: ''
+  description: A plugin based server
+  upstream: http://geronimo.apache.org/xbean/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: xcb-proto
   description: ''
   protected_branches:
@@ -44621,11 +44806,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: xmlunit
-  description: ''
+  description: Unit Testing XML for Java and .NET
+  upstream: http://xmlunit.sourceforge.net/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: xmms
   description: ''
   protected_branches:
@@ -44636,11 +44822,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: xmvn
-  description: ''
+  description: Local Extensions for Apache Maven
+  upstream: https://fedora-java.github.io/xmvn/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: xmvn-connector-gradle
   description: ''
   protected_branches:
@@ -44654,11 +44841,12 @@ repositories:
   - openEuler-20.09
   type: private
 - name: xnio
-  description: ''
+  description: A simplified low-level I/O layer
+  upstream: http://www.jboss.org/xnio
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: xom
   description: XML Object Model
   upstream: http://www.xom.nu
@@ -44919,11 +45107,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: xpp3
-  description: ''
+  description: Xml Pull Parser 3rd Edition
+  upstream: http://www.extreme.indiana.edu/xgws/xsoap/xpp/mxp1/index.html
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: xrestop
   description: ''
   protected_branches:
@@ -44943,11 +45132,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: xstream
-  description: ''
+  description: Java XML serialization library
+  upstream: http://x-stream.github.io/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: xterm
   description: ''
   protected_branches:
@@ -48595,7 +48785,7 @@ repositories:
   - openEuler-20.09
   type: public
 - name: apache-commons-cli
-  description: Command Line Interface Library for Java
+  description: CLI Library provides an API for Java
   upstream: http://commons.apache.org/cli/
   protected_branches: 
   - master
@@ -50087,7 +50277,7 @@ repositories:
   type: public
 - name: native-platform
   description: Java bindings for various native APIs
-  upstream: https://github.com/gradle/native-platform
+  upstream: https://github.com/adammurdoch/native-platform
   protected_branches: 
   - master
   - openEuler-20.09
@@ -50443,7 +50633,7 @@ repositories:
   - openEuler-20.09
   type: public
 - name: jline
-  description: JLine is a Java library for handling console input
+  description: Java library for handling console input
   upstream: https://github.com/jline/jline2
   protected_branches: 
   - master

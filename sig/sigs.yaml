@@ -63,6 +63,7 @@ sigs:
   - src-openeuler/dblatex
   - src-openeuler/dcraw
   - src-openeuler/decentxml
+  - src-openeuler/discount
   - src-openeuler/dleyna-server
   - src-openeuler/dlm
   - src-openeuler/dnssec-trigger
@@ -401,6 +402,7 @@ sigs:
   - src-openeuler/rngom
   - src-openeuler/rpcsvc-proto
   - src-openeuler/rrdtool
+  - src-openeuler/rubygem-kramdown
   - src-openeuler/sane-frontends
   - src-openeuler/scrub
   - src-openeuler/skkdic
@@ -440,6 +442,7 @@ sigs:
   - src-openeuler/vte
   - src-openeuler/wavpack
   - src-openeuler/wayland-protocols
+  - src-openeuler/web-assets
   - src-openeuler/weechat
   - src-openeuler/weston
   - src-openeuler/wireshark
@@ -2044,6 +2047,7 @@ sigs:
   - src-openeuler/colord
   - src-openeuler/accountsservice
   - src-openeuler/giflib
+  - src-openeuler/wxGTK3
   - src-openeuler/zenity
   - src-openeuler/ypserv
   - src-openeuler/ypbind
@@ -2445,28 +2449,57 @@ sigs:
 - name: sig-Java
   repositories:
   - openeuler/Java-Packages
-  - src-openeuler/BareBonesBrowserLaunch
+  - src-openeuler/aesh
   - src-openeuler/android-json-org-java
   - src-openeuler/annotation-indexer
+  - src-openeuler/ant
+  - src-openeuler/ant-contrib
+  - src-openeuler/antlr3
+  - src-openeuler/aopalliance
   - src-openeuler/apache-commons-cli
+  - src-openeuler/apache-commons-compress
+  - src-openeuler/apache-commons-configuration
   - src-openeuler/apache-commons-discovery
+  - src-openeuler/apache-commons-exec
+  - src-openeuler/apache-commons-io
   - src-openeuler/apache-commons-jxpath
+  - src-openeuler/apache-commons-lang3
   - src-openeuler/apache-commons-ognl
+  - src-openeuler/apache-commons-parent
   - src-openeuler/apacheds
+  - src-openeuler/apache-ivy
+  - src-openeuler/apache-parent
+  - src-openeuler/apache-resource-bundles
+  - src-openeuler/apiguardian
+  - src-openeuler/aqute-bnd
   - src-openeuler/arquillian-core
+  - src-openeuler/artemis
   - src-openeuler/aspectjweaver
+  - src-openeuler/atinject
+  - src-openeuler/avalon-framework
+  - src-openeuler/avalon-logkit
+  - src-openeuler/BareBonesBrowserLaunch
+  - src-openeuler/bean-validation-api
+  - src-openeuler/bsh
   - src-openeuler/buildnumber-maven-plugin
+  - src-openeuler/byaccj
+  - src-openeuler/byteman
+  - src-openeuler/c3p0
   - src-openeuler/cassandra-java-driver
+  - src-openeuler/cdi-api
+  - src-openeuler/classmate
   - src-openeuler/codehaus-parent
   - src-openeuler/codemodel
   - src-openeuler/cpptasks
   - src-openeuler/cxf-build-utils
   - src-openeuler/cxf-xjc-utils
+  - src-openeuler/dain-snappy
   - src-openeuler/datanucleus-api-jdo
   - src-openeuler/datanucleus-core
   - src-openeuler/datanucleus-maven-parent
   - src-openeuler/datanucleus-rdbms
   - src-openeuler/dnsjava
+  - src-openeuler/dom4j
   - src-openeuler/easymock
   - src-openeuler/eclipse-cdt
   - src-openeuler/eclipse-ecf
@@ -2475,6 +2508,7 @@ sigs:
   - src-openeuler/eclipse-gef
   - src-openeuler/eclipse-launchbar
   - src-openeuler/eclipse-license
+  - src-openeuler/eclipselink
   - src-openeuler/eclipse-linuxtools
   - src-openeuler/eclipse-m2e-workspace
   - src-openeuler/eclipse-mylyn
@@ -2484,60 +2518,102 @@ sigs:
   - src-openeuler/eclipse-subclipse
   - src-openeuler/eclipse-swtbot
   - src-openeuler/eclipse-tm-terminal
-  - src-openeuler/eclipselink
   - src-openeuler/ed25519-java
+  - src-openeuler/ehcache-core
+  - src-openeuler/ehcache-sizeof-agent
   - src-openeuler/evo-inflector
+  - src-openeuler/exec-maven-plugin
+  - src-openeuler/extra166y
+  - src-openeuler/felix-bundlerepository
   - src-openeuler/felix-framework
   - src-openeuler/felix-gogo-command
   - src-openeuler/felix-gogo-parent
   - src-openeuler/felix-main
   - src-openeuler/felix-osgi-obr-resolver
   - src-openeuler/felix-scr
+  - src-openeuler/felix-utils
+  - src-openeuler/findbugs
+  - src-openeuler/findbugs-bcel
+  - src-openeuler/fop
+  - src-openeuler/geronimo-annotation
   - src-openeuler/geronimo-commonj
+  - src-openeuler/geronimo-jaxrpc
+  - src-openeuler/geronimo-jms
+  - src-openeuler/geronimo-jta
+  - src-openeuler/geronimo-saaj
+  - src-openeuler/glassfish-el
   - src-openeuler/glassfish-gmbal
   - src-openeuler/glassfish-hk2
   - src-openeuler/glassfish-jaxrpc-api
+  - src-openeuler/glassfish-jsp-api
   - src-openeuler/glassfish-management-api
   - src-openeuler/glassfish-pfl
+  - src-openeuler/glassfish-servlet-api
   - src-openeuler/glassfish-toplink-essentials
   - src-openeuler/glassfish-transaction-api
   - src-openeuler/gnu-getopt
+  - src-openeuler/google-guice
+  - src-openeuler/gpars
   - src-openeuler/grizzly-npn
+  - src-openeuler/groovy
   - src-openeuler/groovy18
   - src-openeuler/gsbase
+  - src-openeuler/guava20
   - src-openeuler/hawtbuf
+  - src-openeuler/hawtjni
   - src-openeuler/hessian
+  - src-openeuler/hibernate
+  - src-openeuler/hibernate3
+  - src-openeuler/hibernate4
+  - src-openeuler/hibernate-commons-annotations
   - src-openeuler/hibernate-jpa-2.0-api
+  - src-openeuler/hibernate-jpa-2.1-api
   - src-openeuler/hibernate-search
   - src-openeuler/hibernate-validator
+  - src-openeuler/HikariCP
   - src-openeuler/hsqldb
+  - src-openeuler/httpcomponents-client
+  - src-openeuler/httpcomponents-core
   - src-openeuler/httpunit
   - src-openeuler/icu4j
   - src-openeuler/idlj-maven-plugin
+  - src-openeuler/infinispan
   - src-openeuler/invokebinder
+  - src-openeuler/irclib
   - src-openeuler/ironjacamar
   - src-openeuler/itext
+  - src-openeuler/jackcess
+  - src-openeuler/jackcess-encrypt
+  - src-openeuler/jackson
   - src-openeuler/jackson-databind
-  - src-openeuler/jackson-dataformat-xml
   - src-openeuler/jackson-dataformats-text
+  - src-openeuler/jackson-dataformat-xml
   - src-openeuler/jackson-datatype-joda
   - src-openeuler/jackson-datatypes-collections
   - src-openeuler/jackson-jaxrs-providers
   - src-openeuler/jackson-modules-base
   - src-openeuler/jacoco
   - src-openeuler/jacorb
+  - src-openeuler/jakarta-commons-httpclient
   - src-openeuler/jamonapi
+  - src-openeuler/jandex
   - src-openeuler/jandex-maven-plugin
+  - src-openeuler/janino
+  - src-openeuler/jansi
+  - src-openeuler/jansi-native
   - src-openeuler/jasperreports
   - src-openeuler/jasypt
+  - src-openeuler/javacc
   - src-openeuler/java-libpst
   - src-openeuler/java-oauth
-  - src-openeuler/java-service-wrapper
-  - src-openeuler/java-xmlbuilder
-  - src-openeuler/javapoet
   - src-openeuler/javapackages-tools
+  - src-openeuler/javapoet
+  - src-openeuler/java-service-wrapper
+  - src-openeuler/javassist
+  - src-openeuler/java-xmlbuilder
   - src-openeuler/jaxb2-common-basics
   - src-openeuler/jaxb2-maven-plugin
+  - src-openeuler/jaxen
   - src-openeuler/jboss-classfilewriter
   - src-openeuler/jboss-connector-1.7-api
   - src-openeuler/jboss-dmr
@@ -2546,18 +2622,27 @@ sigs:
   - src-openeuler/jboss-el-3.0-api
   - src-openeuler/jboss-integration
   - src-openeuler/jboss-interceptors-1.1-api
+  - src-openeuler/jboss-interceptors-1.2-api
   - src-openeuler/jboss-invocation
+  - src-openeuler/jboss-jacc-1.4-api
   - src-openeuler/jboss-jacc-1.5-api
   - src-openeuler/jboss-jaspi-1.0-api
   - src-openeuler/jboss-jaspi-1.1-api
   - src-openeuler/jboss-jaxrpc-1.1-api
   - src-openeuler/jboss-jms-1.1-api
   - src-openeuler/jboss-jsf-2.2-api
+  - src-openeuler/jboss-jsp-2.2-api
+  - src-openeuler/jboss-logging
+  - src-openeuler/jboss-logging-tools
   - src-openeuler/jboss-logging-tools1
   - src-openeuler/jboss-logmanager
+  - src-openeuler/jboss-marshalling
   - src-openeuler/jboss-modules
   - src-openeuler/jboss-msc
+  - src-openeuler/jboss-remoting-jmx
+  - src-openeuler/jboss-sasl
   - src-openeuler/jboss-servlet-2.5-api
+  - src-openeuler/jboss-servlet-3.0-api
   - src-openeuler/jboss-specs-parent
   - src-openeuler/jboss-threads
   - src-openeuler/jboss-transaction-1.1-api
@@ -2567,16 +2652,23 @@ sigs:
   - src-openeuler/jboss-websocket-1.1-api
   - src-openeuler/jbossws-api
   - src-openeuler/jbossws-parent
+  - src-openeuler/jcifs
+  - src-openeuler/jcip-annotations
   - src-openeuler/jcommon
+  - src-openeuler/jcsp
   - src-openeuler/jdbi
+  - src-openeuler/jdependency
   - src-openeuler/jdiff
+  - src-openeuler/jdo2-api
   - src-openeuler/jdo-api
+  - src-openeuler/jdom2
   - src-openeuler/je
   - src-openeuler/jenkins-executable-war
   - src-openeuler/jenkins-xstream
   - src-openeuler/jersey
   - src-openeuler/jersey1
   - src-openeuler/jets3t
+  - src-openeuler/jetty8
   - src-openeuler/jetty-alpn
   - src-openeuler/jetty-alpn-api
   - src-openeuler/jetty-artifact-remote-resources
@@ -2587,84 +2679,176 @@ sigs:
   - src-openeuler/jetty-test-policy
   - src-openeuler/jetty-toolchain
   - src-openeuler/jetty-version-maven-plugin
-  - src-openeuler/jetty8
+  - src-openeuler/jflex
+  - src-openeuler/jFormatString
   - src-openeuler/jfreechart
   - src-openeuler/jgit
+  - src-openeuler/jgroups
   - src-openeuler/jibx
   - src-openeuler/jline
   - src-openeuler/jline1
   - src-openeuler/jmatio
   - src-openeuler/jmh
   - src-openeuler/jmock
+  - src-openeuler/jna
   - src-openeuler/jnr-x86asm
+  - src-openeuler/joda-time
   - src-openeuler/johnzon
+  - src-openeuler/jsonic
   - src-openeuler/json-path
   - src-openeuler/json-smart
+  - src-openeuler/jsoup
+  - src-openeuler/jspc
+  - src-openeuler/jsr-305
+  - src-openeuler/jsr-311
+  - src-openeuler/jtidy
   - src-openeuler/jtoaster
   - src-openeuler/jts
   - src-openeuler/jul-to-slf4j-stub
   - src-openeuler/junit-addons
   - src-openeuler/junitperf
   - src-openeuler/juniversalchardet
+  - src-openeuler/jvnet-parent
   - src-openeuler/jwnl
   - src-openeuler/jython
+  - src-openeuler/kxml
   - src-openeuler/language-detector
   - src-openeuler/ldaptive
   - src-openeuler/lettuce
+  - src-openeuler/leveldb-java
+  - src-openeuler/leveldbjni
   - src-openeuler/lightcouch
+  - src-openeuler/log4j
   - src-openeuler/log4j-jboss-logmanager
   - src-openeuler/lucene3
   - src-openeuler/lz4-java
   - src-openeuler/lzma-java
+  - src-openeuler/maven
+  - src-openeuler/maven2
+  - src-openeuler/maven-antrun-plugin
+  - src-openeuler/maven-archiver
+  - src-openeuler/maven-artifact-resolver
+  - src-openeuler/maven-artifact-transfer
+  - src-openeuler/maven-assembly-plugin
   - src-openeuler/maven-checkstyle-plugin
+  - src-openeuler/maven-common-artifact-filters
+  - src-openeuler/maven-compiler-plugin
+  - src-openeuler/maven-dependency-analyzer
+  - src-openeuler/maven-dependency-plugin
+  - src-openeuler/maven-dependency-tree
+  - src-openeuler/maven-doxia
+  - src-openeuler/maven-doxia-sitetools
   - src-openeuler/maven-eclipse-plugin
+  - src-openeuler/maven-enforcer
+  - src-openeuler/maven-file-management
+  - src-openeuler/maven-filtering
   - src-openeuler/maven-gpg-plugin
   - src-openeuler/maven-idea-plugin
   - src-openeuler/maven-injection-plugin
+  - src-openeuler/maven-invoker
+  - src-openeuler/maven-invoker-plugin
+  - src-openeuler/maven-jar-plugin
   - src-openeuler/maven-jarsigner-plugin
+  - src-openeuler/maven-javadoc-plugin
   - src-openeuler/maven-jaxb2-plugin
   - src-openeuler/maven-local
   - src-openeuler/maven-mapping
   - src-openeuler/maven-native
+  - src-openeuler/maven-parent
+  - src-openeuler/maven-plugin-build-helper
+  - src-openeuler/maven-plugin-bundle
+  - src-openeuler/maven-plugin-testing
+  - src-openeuler/maven-plugin-tools
   - src-openeuler/maven-processor-plugin
+  - src-openeuler/maven-remote-resources-plugin
+  - src-openeuler/maven-reporting-api
   - src-openeuler/maven-reporting-exec
+  - src-openeuler/maven-reporting-impl
+  - src-openeuler/maven-resolver
+  - src-openeuler/maven-resources-plugin
+  - src-openeuler/maven-script-interpreter
+  - src-openeuler/maven-shade-plugin
+  - src-openeuler/maven-shared-incremental
+  - src-openeuler/maven-shared-io
   - src-openeuler/maven-shared-jar
   - src-openeuler/maven-shared-jarsigner
+  - src-openeuler/maven-shared-utils
   - src-openeuler/maven-site-plugin
+  - src-openeuler/maven-source-plugin
+  - src-openeuler/maven-surefire
+  - src-openeuler/maven-verifier
+  - src-openeuler/maven-wagon
   - src-openeuler/maven-war-plugin
   - src-openeuler/mavibot
+  - src-openeuler/mchange-commons
   - src-openeuler/memoryfilesystem
   - src-openeuler/metainf-services
   - src-openeuler/metrics
   - src-openeuler/mimepull
   - src-openeuler/mojarra
   - src-openeuler/mongo-java-driver
+  - src-openeuler/multiverse
   - src-openeuler/mustache-java
   - src-openeuler/mx4j
+  - src-openeuler/narayana
   - src-openeuler/native-platform
+  - src-openeuler/netty3
+  - src-openeuler/netty-tcnative
   - src-openeuler/noggit
+  - src-openeuler/objectweb-pom
   - src-openeuler/objenesis
   - src-openeuler/ohc
   - src-openeuler/openjpa
   - src-openeuler/openwebbeans
   - src-openeuler/os-maven-plugin
+  - src-openeuler/parboiled
+  - src-openeuler/pdfbox
+  - src-openeuler/pdf-renderer
+  - src-openeuler/pegdown
   - src-openeuler/picketbox
   - src-openeuler/picketbox-commons
   - src-openeuler/picketbox-xacml
+  - src-openeuler/plexus-archiver
+  - src-openeuler/plexus-build-api
+  - src-openeuler/plexus-cipher
+  - src-openeuler/plexus-classworlds
+  - src-openeuler/plexus-cli
+  - src-openeuler/plexus-compiler
+  - src-openeuler/plexus-component-api
+  - src-openeuler/plexus-components-pom
+  - src-openeuler/plexus-containers
+  - src-openeuler/plexus-i18n
+  - src-openeuler/plexus-interactivity
+  - src-openeuler/plexus-interpolation
+  - src-openeuler/plexus-io
+  - src-openeuler/plexus-languages
+  - src-openeuler/plexus-pom
+  - src-openeuler/plexus-resources
+  - src-openeuler/plexus-sec-dispatcher
+  - src-openeuler/plexus-utils
+  - src-openeuler/plexus-velocity
   - src-openeuler/postgresql-jdbc
+  - src-openeuler/proguard
+  - src-openeuler/protostream
+  - src-openeuler/proxool
   - src-openeuler/proxytoys
   - src-openeuler/qpid-proton-java
   - src-openeuler/quartz
+  - src-openeuler/querydsl3
   - src-openeuler/rabbitmq-java-client
   - src-openeuler/reflections
   - src-openeuler/remotetea
   - src-openeuler/resteasy
+  - src-openeuler/rhino
+  - src-openeuler/rhq-plugin-annotations
   - src-openeuler/robust-http-client
   - src-openeuler/rome
   - src-openeuler/rxjava
+  - src-openeuler/rxtx
   - src-openeuler/sac
   - src-openeuler/sat4j
   - src-openeuler/saxpath
+  - src-openeuler/scala
   - src-openeuler/scannotation
   - src-openeuler/sequence-library
   - src-openeuler/serp
@@ -2678,34 +2862,48 @@ sigs:
   - src-openeuler/signpost-core
   - src-openeuler/simple
   - src-openeuler/simple-xml
+  - src-openeuler/sisu
   - src-openeuler/sisu-mojos
   - src-openeuler/slf4j-jboss-logmanager
   - src-openeuler/snowball-java
+  - src-openeuler/sonatype-oss-parent
   - src-openeuler/sonatype-plugins-parent
   - src-openeuler/spatial4j
+  - src-openeuler/springframework
+  - src-openeuler/springframework-amqp
   - src-openeuler/springframework-batch
   - src-openeuler/springframework-data-commons
   - src-openeuler/springframework-data-mongodb
+  - src-openeuler/springframework-data-redis
   - src-openeuler/springframework-hateoas
   - src-openeuler/springframework-plugin
   - src-openeuler/springframework-retry
+  - src-openeuler/spring-ldap
   - src-openeuler/spymemcached
   - src-openeuler/sqljet
   - src-openeuler/sslext
   - src-openeuler/stapler
+  - src-openeuler/stapler-adjunct-timeline
   - src-openeuler/staxmapper
+  - src-openeuler/stream-lib
   - src-openeuler/struts
   - src-openeuler/svnkit
   - src-openeuler/swagger-core
   - src-openeuler/swt-chart
+  - src-openeuler/tagsoup
   - src-openeuler/takari-archiver
   - src-openeuler/takari-incrementalbuild
   - src-openeuler/takari-lifecycle
   - src-openeuler/takari-plugin-testing
   - src-openeuler/takari-pom
+  - src-openeuler/tascalate-asmx
+  - src-openeuler/tascalate-javaflow
+  - src-openeuler/test-interface
   - src-openeuler/thredds
+  - src-openeuler/tika
   - src-openeuler/tiles
   - src-openeuler/time-api
+  - src-openeuler/tomcat-taglibs-parent
   - src-openeuler/treelayout
   - src-openeuler/trilead-putty-extension
   - src-openeuler/trilead-ssh2
@@ -2714,9 +2912,10 @@ sigs:
   - src-openeuler/tycho-extras
   - src-openeuler/typesafe-config
   - src-openeuler/uima-addons
-  - src-openeuler/uima-parent-pom
   - src-openeuler/uimaj
+  - src-openeuler/uima-parent-pom
   - src-openeuler/undertow
+  - src-openeuler/velocity
   - src-openeuler/velocity-tools
   - src-openeuler/vorbis-java
   - src-openeuler/weld-api
@@ -2726,38 +2925,28 @@ sigs:
   - src-openeuler/wildfly-core
   - src-openeuler/wildfly-elytron
   - src-openeuler/wildfly-security-manager
+  - src-openeuler/wsdl4j
   - src-openeuler/ws-jaxme
-  - src-openeuler/ws-xmlschema
   - src-openeuler/wss4j
-  - src-openeuler/xml-maven-plugin
-  - src-openeuler/xml-security
+  - src-openeuler/ws-xmlschema
+  - src-openeuler/xapool
+  - src-openeuler/xbean
   - src-openeuler/xmlbeans
   - src-openeuler/xmlbeans-maven-plugin
   - src-openeuler/xmlenc
+  - src-openeuler/xml-maven-plugin
   - src-openeuler/xmlrpc
+  - src-openeuler/xml-security
+  - src-openeuler/xmlunit
   - src-openeuler/xmpcore
+  - src-openeuler/xmvn
+  - src-openeuler/xnio
+  - src-openeuler/xpp3
   - src-openeuler/xsom
+  - src-openeuler/xstream
   - src-openeuler/yecht
   - src-openeuler/znerd-oss-parent
   - src-openeuler/zxing
-  - src-openeuler/springframework-amqp
-  - src-openeuler/jackcess
-  - src-openeuler/jackcess-encrypt
-  - src-openeuler/irclib
-  - src-openeuler/tascalate-javaflow
-  - src-openeuler/hibernate4
-  - src-openeuler/jsonic
-  - src-openeuler/springframework-data-redis
-  - src-openeuler/querydsl3
-  - src-openeuler/pdf-renderer
-  - src-openeuler/tika
-  - src-openeuler/rhq-plugin-annotations
-  - src-openeuler/rxtx
-  - src-openeuler/spring-ldap
-  - src-openeuler/tascalate-asmx
-  - src-openeuler/jspc
-  - src-openeuler/artemis
-  - src-openeuler/stapler-adjunct-timeline
 - name: sig-ruby
   repositories:
   - src-openeuler/jruby
@@ -2953,6 +3142,7 @@ sigs:
   - src-openeuler/rubygems-ronn
   - src-openeuler/rubygem-power_assert
   - src-openeuler/rubygem-simplecov
+  - src-openeuler/rubygem-rdiscount
 - name: sig-nodejs
   repositories:
   - src-openeuler/closure-compiler
@@ -3305,53 +3495,28 @@ sigs:
   - openeuler/security
   - src-openeuler/aalto-xml
   - src-openeuler/adobe-source-code-pro-fonts
-  - src-openeuler/aesh
   - src-openeuler/allegro
   - src-openeuler/amtk
-  - src-openeuler/ant
-  - src-openeuler/ant-contrib
-  - src-openeuler/antlr3
   - src-openeuler/antlr4
-  - src-openeuler/aopalliance
   - src-openeuler/apache-commons-beanutils
   - src-openeuler/apache-commons-codec
-  - src-openeuler/apache-commons-compress
-  - src-openeuler/apache-commons-configuration
-  - src-openeuler/apache-commons-exec
-  - src-openeuler/apache-commons-io
   - src-openeuler/apache-commons-lang
-  - src-openeuler/apache-commons-lang3
-  - src-openeuler/apache-commons-parent
   - src-openeuler/apache-commons-vfs
-  - src-openeuler/apache-ivy
-  - src-openeuler/apache-parent
-  - src-openeuler/apache-resource-bundles
-  - src-openeuler/apiguardian
   - src-openeuler/appstream
   - src-openeuler/appstream-data
-  - src-openeuler/aqute-bnd
   - src-openeuler/args4j
   - src-openeuler/armadillo
   - src-openeuler/arpack
   - src-openeuler/asio
-  - src-openeuler/atinject
   - src-openeuler/autotrace
-  - src-openeuler/avalon-framework
-  - src-openeuler/avalon-logkit
   - src-openeuler/aws-sdk-java
   - src-openeuler/baobab
   - src-openeuler/batik
   - src-openeuler/bcm283x-firmware
-  - src-openeuler/bean-validation-api
   - src-openeuler/blosc
-  - src-openeuler/bsh
   - src-openeuler/build
   - src-openeuler/bullet
-  - src-openeuler/byaccj
   - src-openeuler/bytelist
-  - src-openeuler/byteman
-  - src-openeuler/c3p0
-  - src-openeuler/cdi-api
   - src-openeuler/cfitsio
   - src-openeuler/checkstyle
   - src-openeuler/chromaprint
@@ -3359,62 +3524,41 @@ sigs:
   - src-openeuler/ci_project
   - src-openeuler/clamav-unofficial-sigs
   - src-openeuler/classloader-leak-test-framework
-  - src-openeuler/classmate
   - src-openeuler/codenarc
   - src-openeuler/compat-libgfortran
   - src-openeuler/cvsps
   - src-openeuler/cyrus-imapd
-  - src-openeuler/dain-snappy
   - src-openeuler/debian-keyring
   - src-openeuler/devhelp
   - src-openeuler/DevIL
-  - src-openeuler/discount
   - src-openeuler/dict2xml
   - src-openeuler/dietlibc
-  - src-openeuler/dom4j
   - src-openeuler/Done
   - src-openeuler/eclipse
   - src-openeuler/eclipse-jgit
   - src-openeuler/eclipselink-persistence-api
   - src-openeuler/efl
-  - src-openeuler/ehcache-core
   - src-openeuler/ehcache-parent
-  - src-openeuler/ehcache-sizeof-agent
-  - src-openeuler/exec-maven-plugin
   - src-openeuler/extlinux-bootloader
-  - src-openeuler/extra166y
   - src-openeuler/ezmorph
   - src-openeuler/f29-backgrounds
   - src-openeuler/fasterxml-oss-parent
   - src-openeuler/fastutil
   - src-openeuler/fcitx
-  - src-openeuler/felix-bundlerepository
   - src-openeuler/felix-parent
-  - src-openeuler/felix-utils
-  - src-openeuler/findbugs
-  - src-openeuler/findbugs-bcel
   - src-openeuler/Flask-RESTful
   - src-openeuler/fluid-soundfont
   - src-openeuler/fluidsynth
   - src-openeuler/folks-telepathy
-  - src-openeuler/fop
   - src-openeuler/freexl
   - src-openeuler/fwupdate
   - src-openeuler/game-music-emu
   - src-openeuler/gdal
   - src-openeuler/gedit
   - src-openeuler/geos
-  - src-openeuler/geronimo-annotation
   - src-openeuler/geronimo-interceptor
-  - src-openeuler/geronimo-jaxrpc
-  - src-openeuler/geronimo-jms
-  - src-openeuler/geronimo-jta
-  - src-openeuler/geronimo-saaj
   - src-openeuler/geronimo-validation
   - src-openeuler/glassfish-annotation-api
-  - src-openeuler/glassfish-el
-  - src-openeuler/glassfish-jsp-api
-  - src-openeuler/glassfish-servlet-api
   - src-openeuler/glyphicons-halflings-fonts
   - src-openeuler/gmetrics
   - src-openeuler/gnome-backgrounds
@@ -3423,36 +3567,23 @@ sigs:
   - src-openeuler/gnome-remote-desktop
   - src-openeuler/gnome-tweaks
   - src-openeuler/google-gson
-  - src-openeuler/google-guice
   - src-openeuler/google-http-java-client
   - src-openeuler/google-oauth-java-client
   - src-openeuler/google-roboto-slab-fonts
-  - src-openeuler/gpars
   - src-openeuler/gradle
-  - src-openeuler/groovy
   - src-openeuler/gssntlmssp
   - src-openeuler/gtkmm24
   - src-openeuler/gtkspell
   - src-openeuler/gtkspell3
   - src-openeuler/gtkspellmm30
   - src-openeuler/guava
-  - src-openeuler/guava20
-  - src-openeuler/hawtjni
   - src-openeuler/hawtjni-runtime
-  - src-openeuler/hibernate
-  - src-openeuler/hibernate-commons-annotations
   - src-openeuler/hibernate-jpa
-  - src-openeuler/hibernate-jpa-2.1-api
-  - src-openeuler/hibernate3
-  - src-openeuler/HikariCP
   - src-openeuler/http-builder
-  - src-openeuler/httpcomponents-client
-  - src-openeuler/httpcomponents-core
   - src-openeuler/ibus-kkc
   - src-openeuler/icon-naming-utils
   - src-openeuler/imlib2
   - src-openeuler/imsettings
-  - src-openeuler/infinispan
   - src-openeuler/infinipath-psm
   - src-openeuler/inkscape
   - src-openeuler/temporary-integration-test
@@ -3460,79 +3591,42 @@ sigs:
   - src-openeuler/ipython
   - src-openeuler/irrXML
   - src-openeuler/jackson-core
-  - src-openeuler/jboss-jsp-2.2-api
   - src-openeuler/libburn1
   - src-openeuler/libisofs1
   - src-openeuler/jack-audio-connection-kit
-  - src-openeuler/jackson
   - src-openeuler/jackson-annotations
   - src-openeuler/jackson-bom
   - src-openeuler/jackson-dataformats-binary
   - src-openeuler/jackson-parent
   - src-openeuler/jai-imageio-core
-  - src-openeuler/jakarta-commons-httpclient
-  - src-openeuler/jandex
-  - src-openeuler/janino
-  - src-openeuler/jansi
-  - src-openeuler/jansi-native
   - src-openeuler/jarjar
   - src-openeuler/jatl
   - src-openeuler/java
   - src-openeuler/java-base64
   - src-openeuler/java-comment-preprocessor
-  - src-openeuler/javacc
   - src-openeuler/javacc-maven-plugin
   - src-openeuler/javaewah
-  - src-openeuler/javassist
-  - src-openeuler/jaxen
-  - src-openeuler/jboss-interceptors-1.2-api
-  - src-openeuler/jboss-jacc-1.4-api
-  - src-openeuler/jboss-logging
-  - src-openeuler/jboss-logging-tools
-  - src-openeuler/jboss-marshalling
   - src-openeuler/jboss-remoting
-  - src-openeuler/jboss-remoting-jmx
-  - src-openeuler/jboss-sasl
-  - src-openeuler/jboss-servlet-3.0-api
   - src-openeuler/jboss-transaction
-  - src-openeuler/jcifs
-  - src-openeuler/jcip-annotations
   - src-openeuler/jcodings
-  - src-openeuler/jcsp
   - src-openeuler/jctools
   - src-openeuler/jdeparser
-  - src-openeuler/jdependency
-  - src-openeuler/jdo2-api
-  - src-openeuler/jdom2
   - src-openeuler/jenkins_project
   - src-openeuler/jetty
   - src-openeuler/jetty-schemas
-  - src-openeuler/jflex
-  - src-openeuler/jFormatString
-  - src-openeuler/jgroups
   - src-openeuler/jhighlight
-  - src-openeuler/jna
-  - src-openeuler/joda-time
   - src-openeuler/js-jquery
   - src-openeuler/js-underscore
   - src-openeuler/jsch-agent-proxy
   - src-openeuler/js-jquery1
   - src-openeuler/json-lib
-  - src-openeuler/jsoup
-  - src-openeuler/jsr-305
-  - src-openeuler/jsr-311
-  - src-openeuler/jtidy
-  - src-openeuler/jvnet-parent
   - src-openeuler/Keras
   - src-openeuler/kiwi-dlimage
   - src-openeuler/kiwi-template-openEuler
   - src-openeuler/kryo
-  - src-openeuler/kxml
   - src-openeuler/ladspa
   - src-openeuler/ledmon
   - src-openeuler/lensfun
-  - src-openeuler/leveldb-java
-  - src-openeuler/leveldbjni
   - src-openeuler/libass
   - src-openeuler/libbs2b
   - src-openeuler/libdap
@@ -3560,7 +3654,6 @@ sigs:
   - src-openeuler/libwpg
   - src-openeuler/libxmlpp
   - src-openeuler/lldb
-  - src-openeuler/log4j
   - src-openeuler/logback
   - src-openeuler/lohit-gurmukhi-fonts
   - src-openeuler/lohit-odia-fonts
@@ -3570,51 +3663,10 @@ sigs:
   - src-openeuler/malaga
   - src-openeuler/malaga-suomi-voikko
   - src-openeuler/manifest
-  - src-openeuler/maven
-  - src-openeuler/maven-antrun-plugin
-  - src-openeuler/maven2
-  - src-openeuler/maven-archiver
-  - src-openeuler/maven-artifact-resolver
-  - src-openeuler/maven-artifact-transfer
-  - src-openeuler/maven-assembly-plugin
   - src-openeuler/maven-clean-plugin
-  - src-openeuler/maven-common-artifact-filters
-  - src-openeuler/maven-compiler-plugin
-  - src-openeuler/maven-dependency-analyzer
-  - src-openeuler/maven-dependency-plugin
-  - src-openeuler/maven-dependency-tree
-  - src-openeuler/maven-doxia
-  - src-openeuler/maven-doxia-sitetools
-  - src-openeuler/maven-enforcer
-  - src-openeuler/maven-file-management
-  - src-openeuler/maven-filtering
   - src-openeuler/maven-install-plugin
-  - src-openeuler/maven-invoker
-  - src-openeuler/maven-invoker-plugin
-  - src-openeuler/maven-jar-plugin
-  - src-openeuler/maven-javadoc-plugin
-  - src-openeuler/maven-parent
-  - src-openeuler/maven-plugin-build-helper
-  - src-openeuler/maven-plugin-bundle
-  - src-openeuler/maven-plugin-testing
-  - src-openeuler/maven-plugin-tools
   - src-openeuler/maven-plugins-pom
-  - src-openeuler/maven-remote-resources-plugin
-  - src-openeuler/maven-reporting-api
-  - src-openeuler/maven-reporting-impl
-  - src-openeuler/maven-resolver
-  - src-openeuler/maven-resources-plugin
   - src-openeuler/maven-scm
-  - src-openeuler/maven-script-interpreter
-  - src-openeuler/maven-shade-plugin
-  - src-openeuler/maven-shared-incremental
-  - src-openeuler/maven-shared-io
-  - src-openeuler/maven-shared-utils
-  - src-openeuler/maven-source-plugin
-  - src-openeuler/maven-surefire
-  - src-openeuler/maven-verifier
-  - src-openeuler/maven-wagon
-  - src-openeuler/mchange-commons
   - src-openeuler/mingw-crt
   - src-openeuler/mingw-filesystem
   - src-openeuler/mingw-gcc
@@ -3623,18 +3675,13 @@ sigs:
   - src-openeuler/mkeuleros
   - src-openeuler/modello
   - src-openeuler/mojo-parent
-  - src-openeuler/multiverse
   - src-openeuler/munge
-  - src-openeuler/narayana
   - src-openeuler/nautilus-sendto
   - src-openeuler/nekohtml
   - src-openeuler/netcdf
   - src-openeuler/netty
-  - src-openeuler/netty3
-  - src-openeuler/netty-tcnative
   - src-openeuler/new.list
   - src-openeuler/objectweb-asm3
-  - src-openeuler/objectweb-pom
   - src-openeuler/ocaml-calendar
   - src-openeuler/ocaml-camlp4
   - src-openeuler/ocaml-camomile
@@ -3657,10 +3704,7 @@ sigs:
   - src-openeuler/osgi-annotation
   - src-openeuler/osgi-compendium
   - src-openeuler/osgi-core
-  - src-openeuler/parboiled
   - src-openeuler/passivetex
-  - src-openeuler/pdfbox
-  - src-openeuler/pegdown
   - src-openeuler/perl-CPAN-Changes
   - src-openeuler/perl-Crypt-CBC
   - src-openeuler/perl-Crypt-OpenSSL-Guess
@@ -3671,7 +3715,6 @@ sigs:
   - src-openeuler/perl-Net-LibIDN2
   - src-openeuler/perl-srpm-macros
   - src-openeuler/perl-Test-CPAN-Meta
-  - src-openeuler/perl-Test-Exception
   - src-openeuler/perl-Tie-IxHash
   - src-openeuler/perl-Time-Zone
   - src-openeuler/perl-Unix-Syslog
@@ -3679,35 +3722,13 @@ sigs:
   - src-openeuler/physfs
   - src-openeuler/pkgconfig
   - src-openeuler/plexus-ant-factory
-  - src-openeuler/plexus-archiver
   - src-openeuler/plexus-bsh-factory
-  - src-openeuler/plexus-build-api
-  - src-openeuler/plexus-cipher
-  - src-openeuler/plexus-classworlds
-  - src-openeuler/plexus-cli
-  - src-openeuler/plexus-compiler
-  - src-openeuler/plexus-component-api
-  - src-openeuler/plexus-components-pom
-  - src-openeuler/plexus-containers
-  - src-openeuler/plexus-i18n
-  - src-openeuler/plexus-interactivity
-  - src-openeuler/plexus-interpolation
-  - src-openeuler/plexus-io
-  - src-openeuler/plexus-languages
-  - src-openeuler/plexus-pom
-  - src-openeuler/plexus-resources
-  - src-openeuler/plexus-sec-dispatcher
-  - src-openeuler/plexus-utils
-  - src-openeuler/plexus-velocity
   - src-openeuler/plotutils
   - src-openeuler/pmix
   - src-openeuler/portaudio
   - src-openeuler/potrace
-  - src-openeuler/proguard
   - src-openeuler/properties-maven-plugin
   - src-openeuler/protoparser
-  - src-openeuler/protostream
-  - src-openeuler/proxool
   - src-openeuler/pstoedit
   - src-openeuler/python-appdirs
   - src-openeuler/python-Automat
@@ -3763,71 +3784,50 @@ sigs:
   - src-openeuler/python-h2
   - src-openeuler/reflectasm
   - src-openeuler/repo
-  - src-openeuler/rhino
   - src-openeuler/rpm-mpi-hooks
   - src-openeuler/rsh
   - src-openeuler/rubygem-hpricot
-  - src-openeuler/rubygem-kramdown
   - src-openeuler/rubygem-mustache
-  - src-openeuler/rubygem-rdiscount
   - src-openeuler/rubygem-ronn
   - src-openeuler/sbinary
   - src-openeuler/sbt
-  - src-openeuler/scala
   - src-openeuler/scl-utils
   - src-openeuler/SDL_sound
   - src-openeuler/setuptool
-  - src-openeuler/sisu
   - src-openeuler/slf4j
   - src-openeuler/sni-qt
-  - src-openeuler/sonatype-oss-parent
   - src-openeuler/sos-collector
   - src-openeuler/spice-parent
-  - src-openeuler/springframework
   - src-openeuler/sshj
   - src-openeuler/stax2-api
-  - src-openeuler/stream-lib
   - src-openeuler/SuperLU
   - src-openeuler/syslinux-tftpboot
   - src-openeuler/system-config-firewall
   - src-openeuler/taglist-enable
-  - src-openeuler/tagsoup
   - src-openeuler/tclx
   - src-openeuler/teckit
   - src-openeuler/tesla-polyglot
-  - src-openeuler/test-interface
   - src-openeuler/thx
   - src-openeuler/tinyxml
   - src-openeuler/tomcat-native
-  - src-openeuler/tomcat-taglibs-parent
   - src-openeuler/tslib
   - src-openeuler/ttembed
   - src-openeuler/ttfautohint
   - src-openeuler/ubu-keyring
   - src-openeuler/uniconvertor
   - src-openeuler/uriparser
-  - src-openeuler/velocity
   - src-openeuler/virt-top
   - src-openeuler/wildfly-common
   - src-openeuler/wildmidi
-  - src-openeuler/wsdl4j
-  - src-openeuler/wxGTK3
   - src-openeuler/wxPython
-  - src-openeuler/xapool
-  - src-openeuler/xbean
   - src-openeuler/xerces-c
   - src-openeuler/xhtml2fo-style-xsl
   - src-openeuler/xmlgraphics-commons
-  - src-openeuler/xmlunit
-  - src-openeuler/xmvn
   - src-openeuler/xmvn-connector-gradle
   - src-openeuler/xmvn-tools
-  - src-openeuler/xnio
   - src-openeuler/xorg-sgml-doctools
   - src-openeuler/xorg-x11-docs
   - src-openeuler/xorg-x11-drv-armsoc
-  - src-openeuler/xpp3
-  - src-openeuler/xstream
   - src-openeuler/zbar
   - src-openeuler/zvbi
   - src-openeuler/pysendfile
@@ -4281,7 +4281,6 @@ sigs:
   - src-openeuler/mathjax
   - src-openeuler/shotwell
   - src-openeuler/engrampa
-  - src-openeuler/web-assets
 - name: sig-recycle
   repositories:
   - src-openeuler/liberation-sans-fonts
@@ -5848,6 +5847,7 @@ sigs:
   - src-openeuler/perl-prefork
   - src-openeuler/perl-re-engine-PCRE2
   - src-openeuler/perl-syntax
+  - src-openeuler/perl-Test-Exception
   - src-openeuler/perl-threads
   - src-openeuler/perl-threads-shared
   - src-openeuler/perl-v6
