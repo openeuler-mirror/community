@@ -3307,6 +3307,69 @@ repositories:
   - master
   - openEuler-20.09
   type: public
+- name: dde-account-faces
+  description: Account faces for Linux Deepin
+  upstream: https://github.com/linuxdeepin/dde-account-faces
+  protected_branches:
+  - master
+  - openEuler-20.09
+  type: public
+- name: dde-server-industry-config
+  description: DDE desktop-server industry version special configuration file
+  upstream: http://shuttle.corp.deepin.com/cache/tasks/19366/unstable-amd64
+  protected_branches:
+  - master
+  - openEuler-20.09
+  type: public
+- name: dde-device-formatter
+  description: A simple graphical interface for creating file system in a block device
+  upstream: https://github.com/linuxdeepin/dde-device-formatter
+  protected_branches:
+  - master
+  - openEuler-20.09
+  type: public
+- name: deepin-clone
+  description: Disk and partition backup/restore tool
+  upstream: https://github.com/linuxdeepin/deepin-clone
+  protected_branches:
+  - master
+  - openEuler-20.09
+  type: public
+- name: deepin-dbus-generator
+  description: Convert dbus interfaces to go-lang or qml wrapper code
+  upstream: https://github.com/linuxdeepin/go-dbus-generator
+  protected_branches:
+  - master
+  - openEuler-20.09
+  type: public
+- name: deepin-default-settings
+  description: This library is designed to be exception-free and avoid Qt application developer do direct access to glib/glibmm
+  upstream: https://uos-packages.deepin.com/uos/pool/main/d/deepin-default-settings/
+  protected_branches:
+  - master
+  - openEuler-20.09
+  type: public
+- name: deepin-gir-generator
+  description: Generate static golang bindings for GObject
+  upstream: https://github.com/linuxdeepin/go-gir-generator
+  protected_branches:
+  - master
+  - openEuler-20.09
+  type: public
+- name: deepin-qml-widgets
+  description: Deepin QML widgets
+  upstream: https://github.com/linuxdeepin/deepin-qml-widgets
+  protected_branches:
+  - master
+  - openEuler-20.09
+  type: public
+- name: dde
+  description: Deepin New Desktop Environment - Next
+  upstream: https://github.com/linuxdeepin/dde
+  protected_branches:
+  - master
+  - openEuler-20.09
+  type: public
 - name: dejagnu
   description: ''
   protected_branches:
