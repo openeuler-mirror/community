@@ -310,7 +310,6 @@ sigs:
   - src-openeuler/libgadu
   - src-openeuler/liblockfile
   - src-openeuler/liblouis
-  - src-openeuler/libmbim
   - src-openeuler/libmicrohttpd
   - src-openeuler/libmikmod
   - src-openeuler/libmpeg2
@@ -870,6 +869,8 @@ sigs:
   - src-openeuler/NetworkManager
   - src-openeuler/libserf
   - src-openeuler/tipcutils
+  - src-openeuler/libmbim
+  - src-openeuler/libqmi
   - src-openeuler/libnetfilter_queue
   - src-openeuler/iptables
   - src-openeuler/python-idna
@@ -1353,7 +1354,6 @@ sigs:
   - src-openeuler/varnish
   - src-openeuler/sil-abyssinica-fonts
   - src-openeuler/b43-tools
-  - src-openeuler/libqmi
   - src-openeuler/ibus-table-array30
   - src-openeuler/libreswan
   - src-openeuler/logwatch
