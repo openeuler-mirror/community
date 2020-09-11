@@ -1569,7 +1569,6 @@ sigs:
   - src-openeuler/istack-commons
   - src-openeuler/ivtv-firmware
   - src-openeuler/jansson
-  - src-openeuler/jasper
   - src-openeuler/jdeparser1
   - src-openeuler/jdom
   - src-openeuler/jeromq
@@ -4287,6 +4286,7 @@ sigs:
   - src-openeuler/engrampa
 - name: sig-recycle
   repositories:
+  - src-openeuler/jasper
   - src-openeuler/liberation-sans-fonts
   - src-openeuler/libibmad
   - src-openeuler/python2
