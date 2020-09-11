@@ -51,7 +51,6 @@ repository地址：
   - https://gitee.com/src-openeuler/dde-dock
   - https://gitee.com/src-openeuler/dde-file-manager
   - https://gitee.com/src-openeuler/dde-introduction
-  - https://gitee.com/src-openeuler/deepin-kwin
   - https://gitee.com/src-openeuler/dde-kwin
   - https://gitee.com/src-openeuler/dde-launcher
   - https://gitee.com/src-openeuler/dde-network-utils
