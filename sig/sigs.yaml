@@ -6912,6 +6912,13 @@ sigs:
   - src-openeuler/python-zope.i18n
   - src-openeuler/python-zope.i18nmessageid
   - src-openeuler/python-zope.testing
+  - src-openeuler/python-lightgbm
+  - src-openeuler/python-eli5
+  - src-openeuler/python-blaze
+  - src-openeuler/python-Flask-Cors
+  - src-openeuler/python-odo
+  - src-openeuler/python-datashape
+  - src-openeuler/python-multipledispatch
   - src-openeuler/python3-docs
   - src-openeuler/python-concurrent-log-handler
 - name: sig-release-management
@@ -7138,6 +7145,7 @@ sigs:
   - src-openeuler/moosefs
   - src-openeuler/kubevirt
   - src-openeuler/prometheus
+  - src-openeuler/node_exporter
   - src-openeuler/etcd
   - src-openeuler/alertmanager
   - src-openeuler/quay
