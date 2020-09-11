@@ -29621,6 +29621,13 @@ repositories:
   - master
   - openEuler-20.09
   type: public
+- name: python-Flask-HTTPAuth
+  description: a Flask extension that simplifies the use of HTTP authentication with Flask routes.
+  upstream: https://github.com/miguelgrinberg/Flask-HTTPAuth
+  protected_branches:
+  - master
+  - openEuler-20.09
+  type: public
 - name: python-ez_setup
   description: ez_setup.py and distribute_setup.py
   upstream: http://github.com/ActiveState/ez_setup
