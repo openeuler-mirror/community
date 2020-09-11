@@ -40807,3 +40807,9 @@ repositories:
   protected_branches: 
   - master
   type: public
+- name: libfastcommon
+  description: c common functions library extracted from my open source projects FastDFS
+  upstream: https://gitee.com/fastdfs100/libfastcommon
+  protected_branches: 
+  - master
+  type: public
