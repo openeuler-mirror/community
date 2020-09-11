@@ -10,6 +10,9 @@ Wine （“Wine Is Not an Emulator” 的首字母缩写）是一个能够在多
 
  - 在 openEuler 社区中添加对 Wine 的支持
  - 及时响应用户反馈，解决相关问题
+ - 保持与官方同步，进行维护更新
+ - 兼容更多 Windows 应用
+ - 向 Wine 社区提交贡献
 
 ### 交付物
 
@@ -22,13 +25,16 @@ Wine （“Wine Is Not an Emulator” 的首字母缩写）是一个能够在多
 ## SIG 基本信息
 
 ### Maintainers
-- vyloy
+- 王建民[@jianminw](https://gitee.com/jianminw)
+- 翁志艺[@vyloy](https://gitee.com/vyloy)
 
 ### Committers
-- vyloy
+- 王建民[@jianminw](https://gitee.com/jianminw)
+- 翁志艺[@vyloy](https://gitee.com/vyloy)
 
 ### 邮件列表
-- wine@openeuler.org
+- dev@openeuler.org   #请在邮件标题前带上标签：[Wine]
 
 ### 会议
 - 时间: 每个月的第一个周五下午，16:00 - 16:30 +0800 北京时间
+- Zoom MeetID: 770 811 8219

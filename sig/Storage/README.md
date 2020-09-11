@@ -23,13 +23,13 @@
 
 # 联系方式
 
-- [邮件列表](dev@openeuler.org)
-- [IM](#openeuler-dev)
+- 邮件列表: dev@openeuler.org
 
 # 项目清单
 
 repository地址：
 
+- https://gitee.com/src-openeuler/system-storage-manager
 - https://gitee.com/src-openeuler/gom
 - https://gitee.com/src-openeuler/parted
 - https://gitee.com/src-openeuler/iprutils
@@ -50,6 +50,7 @@ repository地址：
 - https://gitee.com/src-openeuler/udisks2
 - https://gitee.com/src-openeuler/mtools
 - https://gitee.com/src-openeuler/libblockdev
+- https://gitee.com/src-openeuler/libldm
 - https://gitee.com/src-openeuler/sdparm
 - https://gitee.com/src-openeuler/perl-DBD-SQLite
 - https://gitee.com/src-openeuler/libpciaccess
@@ -95,5 +96,6 @@ repository地址：
 - https://gitee.com/src-openeuler/usbutils
 - https://gitee.com/src-openeuler/lsscsi
 - https://gitee.com/src-openeuler/open-isns
-
-
+- https://gitee.com/openeuler/memory-scan
+- https://gitee.com/src-openeuler/fastdfs
+- https://gitee.com/src-openeuler/libfastcommon

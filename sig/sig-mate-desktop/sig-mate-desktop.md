@@ -44,15 +44,16 @@ Cross-domain and externally-oriented processes and actions defined and implement
 
 
 ### Maintainers
-- wuxiaotian (@isoft-linux)
-- zhangzhigao (@zhigaozhang) 
-
+- fengjian (@hostfj)
+- wangjing (@wangjing95) 
+- xzyangha (@xzyangha)
 ### Committers
+- fengjian (@hostfj)
 - wuxiaotian (@isoft-linux)
 - zhangzhigao (@zhigaozhang)
 - doucaixia (@ja_angie_dou)
 - wangjing (@wangjing95)
-
+- xzyangha (@xzyangha)
 ### Mailing list
   mate_desktop@groups.163.com
   Note: Please click on http://163.fm/INHbd8AV to join the mailing list

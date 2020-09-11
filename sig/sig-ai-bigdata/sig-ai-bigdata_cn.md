@@ -29,15 +29,74 @@
 
 # 该SIG管理的repository及描述
 
-- 项目名称：待讨论后确定
-  - 数据采集
-  - 数据存储、缓存、查询
-  - 可视化
-  - 数据分析框架与库
-  - 模型训练与推理
-  - 开发环境
-  - 资源管理
-  - 待补充
+- https://gitee.com/src-openeuler/jupyter:  
+  Jupyter is an environment for interactive computing in multiple languages.
+- https://gitee.com/src-openeuler/tensorflow:     
+  A framework for deep learning
+- https://gitee.com/src-openeuler/hadoop:  
+  A software platform for processing vast amounts of data
+- https://gitee.com/src-openeuler/libsvm:  
+  A Library for Support Vector Machines
+- https://gitee.com/src-openeuler/libhdfs:  
+  The Apache Hadoop Filesystem Library
+- https://gitee.com/src-openeuler/ComputeLibrary:  
+  ARM Compute Library
+- https://gitee.com/src-openeuler/Shark:  
+  C++ machine learning library
+- https://gitee.com/src-openeuler/arm-ml-examples:  
+  Machine learning examples used in Arm's ML developer space
+- https://gitee.com/src-openeuler/armnn:  
+  Arm NN SDK enables machine learning workloads on power-efficient devices
+- https://gitee.com/src-openeuler/libmetal:  
+  Bare metal interaction APIs
+- https://gitee.com/src-openeuler/oneDNN:  
+  Intel(R) Math Kernel Library for Deep Neural Networks
+- https://gitee.com/src-openeuler/pytorch:  
+  python deep learning framework
+- https://gitee.com/src-openeuler/SuperLUMT:  
+  Single precision real SuperLU routines for shared memory parallel machines
+- https://gitee.com/src-openeuler/gl2ps:  
+  An OpenGL to PostScript printing library
+- https://gitee.com/src-openeuler/glpk:  
+  GNU Linear Programming Kit
+- https://gitee.com/src-openeuler/lzip:  
+  Lossless file compressor based on the LZMA algorithm
+- https://gitee.com/src-openeuler/octave:  
+  A high-level language for numerical computations
+- https://gitee.com/src-openeuler/qrupdate:  
+  A Fortran library for fast updates of QR and Cholesky decompositions
+- https://gitee.com/src-openeuler/sundials:  
+  Suite of nonlinear solvers
+- https://gitee.com/src-openeuler/opencl-headers:  
+  OpenCL (Open Computing Language) header files
+- https://gitee.com/src-openeuler/eigen:  
+  a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.
+- https://gitee.com/src-openeuler/opencl:  
+  OpenCL ICD Bindings
+- https://gitee.com/src-openeuler/libxsmm:  
+  Library targeting Intel Architecture for specialized dense and sparse matrix operations, and deep learning primitives.
+- https://gitee.com/src-openeuler/dlib:  
+  a modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++ to solve real world problems.
+- https://gitee.com/src-openeuler/opennn:  
+  an open source neural networks library for machine learning.
+- https://gitee.com/src-openeuler/mlpack:  
+  a fast, flexible machine learning library, written in C++
+- https://gitee.com/src-openeuler/ensmallen:  
+  flexible C++ library for efficient numerical optimization
+- https://gitee.com/src-openeuler/zookeeper:  
+  a high-performance service for building distributed applications
+- https://gitee.com/src-openeuler/kafka:  
+  A Distributed Streaming Platform
+- https://gitee.com/src-openeuler/incubator-mxnet:  
+  Apache MXNet (incubating) is a deep learning framework designed for both efficiency and flexibility.
+- https://gitee.com/src-openeuler/opencv:  
+  OpenCV means Intel® Open Source Computer Vision Library.
+- https://gitee.com/src-openeuler/ibis:  
+  Ibis is a toolbox to bridge the gap between local Python environments, remote storage, execution systems like Hadoop components (HDFS, Impala, Hive, Spark) and SQL databases. Its goal is to simplify analytical workflows and make you more productive.
+- https://gitee.com/src-openeuler/presto:  
+  Presto is a distributed SQL query engine for big data.
+- https://gitee.com/src-openeuler/rain:  
+  Rain is an open-source distributed computational framework for processing of large-scale task-based pipelines.
 
 # 基本信息
 
@@ -46,16 +105,14 @@
 
 ## Maintainers
   - sinever
-  - ZZZHB
-  - njlzk
+  - hubble_zhu
   - myeuler
-  - chxssg
 
 ## Committers
   - sinever
 
 ## 邮件列表
   - sig-ai-bigdata@openeuler.org
-  
+
 ## 路线图
  ![roadmap](./sig-road-map.jpg)

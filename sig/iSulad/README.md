@@ -20,7 +20,7 @@
 - lifeng2221dd1[@lifeng2221dd1](https://gitee.com/lifeng2221dd1)
 - caihaomin[@caihaomin](https://gitee.com/caihaomin)
 - duguhaotian[@duguhaotian](https://gitee.com/duguhaotian)
-
+- jingxiaolu[@jingxiaolu](https://gitee.com/jingxiaolu)
 
 ### Committer列表
 - lifeng2221dd1[@lifeng2221dd1](https://gitee.com/lifeng2221dd1)
@@ -45,3 +45,5 @@ repository地址：
 - https://gitee.com/openeuler/iSulad-img
 - https://gitee.com/openeuler/lcr
 - https://gitee.com/openeuler/clibcni
+- https://gitee.com/openeuler/isula-build
+- https://gitee.com/openeuler/isula-transform

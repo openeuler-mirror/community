@@ -1,2 +1,55 @@
 blacklist-software:
-- python2
+- name: python2
+  reason: upstream stops maintaining this software
+- name: cdrkit
+  reason: upstream stops maintaining this software
+- name: python-shadowsocks
+  reason: openEuler cannot ship this software by default under applicable local laws
+- name: chrpath
+  reason: upstream stops maintaining this software
+- name: dmraid
+  reason: upstream stops maintaining this software
+- name: ftp
+  reason: upstream stops maintaining this software
+- name: gamin
+  reason: upstream stops maintaining this software
+- name: GConf2
+  reason: upstream stops maintaining this software
+- name: GeoIP
+  reason: The latest version of this software is commercial only
+- name: GeoIP-GeoLite-data
+  reason: The latest version of this software is commercial only
+- name: geolite2
+  reason: The latest version of this software is commercial only
+- name: gtk2
+  reason: upstream stops maintaining this software
+- name: icfg
+  reason: upstream stops maintaining this software
+- name: libdb
+  reason: The latest version of this software is commercial only
+- name: libIDL
+  reason: upstream stops maintaining this software
+- name: libxklavier
+  reason: upstream stops maintaining this software
+- name: libXxf86misc
+  reason: upstream stops maintaining this software
+- name: ORBit2
+  reason: upstream stops maintaining this software
+- name: pam_krb5
+  reason: upstream stops maintaining this software
+- name: python-kmod
+  reason: upstream stops maintaining this software
+- name: sgpio
+  reason: upstream stops maintaining this software
+- name: speex
+  reason: upstream stops maintaining this software
+- name: telnet
+  reason: upstream stops maintaining this software
+- name: unique
+  reason: upstream stops maintaining this software
+- name: vconfig
+  reason: upstream stops maintaining this software
+- name: procmail
+  reason: upstream stops maintaining this software
+- name: oci-systemd-hook
+  reason: upstream stops maintaining this software

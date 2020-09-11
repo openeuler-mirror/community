@@ -8,7 +8,7 @@
 
 # 组织会议
 
-- 公开的会议时间：北京时间，按需。
+- 邮件讨论。
 
 
 # 成员
@@ -47,10 +47,7 @@ wswsamao | Desktop
 
 # 联系方式
 
-*<如果需要单独申请邮件列表，请在此补充邮箱名称：sig-yousigname@openeuler.org>*
-
-- [邮件列表](dev@openeuler.org)
-- [IM]()
+- 邮件列表：dev@openeuler.org
 
 # 项目清单
 
@@ -63,11 +60,11 @@ wswsamao | Desktop
   - https://gitee.com/src-openeuler/tzdata
   - https://gitee.com/src-openeuler/numactl
   - https://gitee.com/src-openeuler/glibc
-  - https://gitee.com/src-openeuler/libthai        
-  - https://gitee.com/src-openeuler/libinput       
+  - https://gitee.com/src-openeuler/libthai 
+  - https://gitee.com/src-openeuler/libinput
   - https://gitee.com/src-openeuler/tuned
 
-## C-lib C/C++ lib库   （committer: liqingqing_1229、 wswsamao）
+## C-lib C/C++ lib库   （committer: liqingqing_1229、wswsamao、SuperSix173、wangbin224）
   - https://gitee.com/src-openeuler/libqb
   - https://gitee.com/src-openeuler/userspace-rcu
   - https://gitee.com/src-openeuler/libatomic_ops
@@ -81,9 +78,13 @@ wswsamao | Desktop
   - https://gitee.com/src-openeuler/lockdev
   - https://gitee.com/src-openeuler/gmp
   - https://gitee.com/src-openeuler/npth
+  - https://gitee.com/src-openeuler/jamm
+  - https://gitee.com/src-openeuler/double-conversion
+  - https://gitee.com/src-openeuler/ps_mem
 
 ## dev-utils 计算领域开发工具  （committer: SuperSix173、 wswsamao）
   - https://gitee.com/src-openeuler/gdb
+  - https://gitee.com/src-openeuler/libipt
   - https://gitee.com/src-openeuler/strace
   - https://gitee.com/src-openeuler/systemtap
   - https://gitee.com/src-openeuler/dyninst         

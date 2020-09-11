@@ -77,8 +77,10 @@ repository地址：
   - https://gitee.com/src-openeuler/deepin-terminal
   - https://gitee.com/src-openeuler/deepin-turbo
   - https://gitee.com/src-openeuler/dtkcore
+  - https://gitee.com/src-openeuler/dtkcore2
   - https://gitee.com/src-openeuler/dtkgui
   - https://gitee.com/src-openeuler/dtkwidget
+  - https://gitee.com/src-openeuler/dtkwidget2
   - https://gitee.com/src-openeuler/dtkwm
   - https://gitee.com/src-openeuler/deepin-icon-theme
   - https://gitee.com/src-openeuler/qt5integration
@@ -86,3 +88,14 @@ repository地址：
   - https://gitee.com/src-openeuler/startdde
   - https://gitee.com/src-openeuler/deepin-wallpapers
   - https://gitee.com/src-openeuler/deepin-gtk-theme
+  - https://gitee.com/src-openeuler/deepin-gettext-tools
+  - https://gitee.com/src-openeuler/deepin-sound-theme
+  - https://gitee.com/src-openeuler/dde-account-faces
+  - https://gitee.com/src-openeuler/dde-server-industry-config
+  - https://gitee.com/src-openeuler/dde-device-formatter
+  - https://gitee.com/src-openeuler/deepin-clone
+  - https://gitee.com/src-openeuler/deepin-dbus-generator
+  - https://gitee.com/src-openeuler/deepin-default-settings
+  - https://gitee.com/src-openeuler/deepin-gir-generator
+  - https://gitee.com/src-openeuler/deepin-qml-widgets
+  - https://gitee.com/src-openeuler/dde

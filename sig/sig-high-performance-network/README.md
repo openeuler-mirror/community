@@ -49,9 +49,7 @@
 
 # 联系方式
 
-*<如果需要单独申请邮件列表，请在此补充邮箱名称：sig-yousigname@openeuler.org。如果不需要，请写上开发邮箱名称：dev@openeuler.org>*
-
-- [邮件列表](sig-yoursigname@openeuler.org)
+- 邮件列表 <dev@openeuler.org>
 - [IRC公开会议]()
 - 视频会议
 
@@ -61,11 +59,19 @@
 
 # 项目清单
 
-*<可选，如果在申请SIG的时候，就有新项目，请完善此处内容。项目名称和申请表格一致，repository地址和repository.yaml内的申请地址一致>*
-
-项目名称：
-
 repository地址：
 
-- 
-- 
+- https://gitee.com/src-openeuler/dpdk
+- https://gitee.com/src-openeuler/rdma-core
+- https://gitee.com/src-openeuler/libbpf
+- https://gitee.com/src-openeuler/goebpf
+- https://gitee.com/src-openeuler/xdp-tools
+- https://gitee.com/src-openeuler/libvma
+- https://gitee.com/src-openeuler/polycube
+- https://gitee.com/src-openeuler/libkefir
+- https://gitee.com/src-openeuler/cilium
+- https://gitee.com/src-openeuler/katran
+- https://gitee.com/src-openeuler/pistache
+- https://gitee.com/src-openeuler/libyang
+- https://gitee.com/src-openeuler/libtins
+- https://gitee.com/src-openeuler/go-bindata

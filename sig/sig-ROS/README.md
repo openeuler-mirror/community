@@ -42,7 +42,6 @@ repository地址：
 - https://gitee.com/src-openeuler/catkin
 - https://gitee.com/src-openeuler/class_loader
 - https://gitee.com/src-openeuler/cmake_modules
-- https://gitee.com/src-openeuler/cpp_common
 - https://gitee.com/src-openeuler/gencpp
 - https://gitee.com/src-openeuler/geneus
 - https://gitee.com/src-openeuler/genlisp
@@ -56,4 +55,10 @@ repository地址：
 - https://gitee.com/src-openeuler/roscpp_core
 - https://gitee.com/src-openeuler/ros
 - https://gitee.com/src-openeuler/rosconsole
+- https://gitee.com/src-openeuler/roslisp
+- https://gitee.com/src-openeuler/rospack
+- https://gitee.com/src-openeuler/ros_comm_msgs
+- https://gitee.com/src-openeuler/pluginlib
+- https://gitee.com/src-openeuler/ros_comm
+
 

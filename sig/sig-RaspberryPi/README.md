@@ -6,7 +6,7 @@
 
 # 组织会议
 
-- 公开的会议时间：北京时间，每周二 下午，15:00 - 15:30
+- 公开的会议时间：北京时间，每个月的第一个和第三个周二，15:00 - 15:30
 - Zoom MeetID: 881 4204 8958
 
 # 成员
@@ -39,3 +39,5 @@ repository 地址：
 - https://gitee.com/src-openeuler/raspberrypi-kernel
 - https://gitee.com/src-openeuler/raspberrypi-firmware
 - https://gitee.com/src-openeuler/raspberrypi-build
+- https://gitee.com/src-openeuler/raspberrypi-bluetooth
+- https://gitee.com/openeuler/raspberrypi-build

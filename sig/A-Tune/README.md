@@ -20,6 +20,7 @@
 ### Maintainer列表
 
 - xiezhipeng1[@xiezhipeng1](https://gitee.com/xiezhipeng1)
+- chenmingmin[@chenmingmin](https://gitee.com/chenmingmin)
 
 
 ### Committer列表
@@ -27,6 +28,10 @@
 - licihua[@licihua](https://gitee.com/licihua)
 - shanshishi[@shanshishi](https://gitee.com/shanshishi)
 - hanxinke[@hanxinke](https://gitee.com/hanxinke)
+- songmingcong[@smcopen](https://gitee.com/smcopen)
+- jixiaotong[@xtongji](https://gitee.com/xtongji)
+- liqiang[@liqiang2020](https://gitee.com/liqiang2020)
+- chenmingmin[@chenmingmin](https://gitee.com/chenmingmin)
 
 
 # 联系方式
@@ -48,4 +53,5 @@ repository地址：
 - https://gitee.com/src-openeuler/A-Tune
 - https://gitee.com/openeuler/prefetch_tuning
 - https://gitee.com/src-openeuler/prefetch_tuning
-
+- https://gitee.com/openeuler/wisdom-advisor
+- https://gitee.com/src-openeuler/wisdom-advisor

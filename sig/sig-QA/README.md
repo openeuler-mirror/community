@@ -18,11 +18,11 @@ openEuler QA(质量保障)项目团队致力于如何更好的提升openEuler社
 - kuhnchen(@kuhnchen18),since December 2019
 - speacher
 - rigorous
+- lemon-higgins
+- lutianxiong
 
 ### Committer列表
-- ltx(@lutianxiong),since February 2020
 - Air9(@air9),since january 2020
-- lemon.higgins(@lemon-higgins),since November 2019
 - wsf0824(@wsf0824),since December 2019
 - panny060(@panny060),since December 2019
 - jiuhanjiu(@jiuhanjiu),since December 2019

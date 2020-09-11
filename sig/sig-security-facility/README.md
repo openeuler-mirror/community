@@ -15,7 +15,50 @@ sig-security_facility主要讨论在openEuler社区版本中已有或未来规�
 
 - 项目名称：
   - 交付件形式：源码、tar包或兼而有之
-  - openeuler/apparmor
+   - openeuler/attest-tools
+   - openeuler/digest-list-tools
+   - src-openeuler/mysql-selinux
+   - src-openeuler/pesign-obs-integration
+   - src-openeuler/tss2
+   - src-openeuler/oscap-anaconda-addon
+   - src-openeuler/certmonger
+   - src-openeuler/keycloak-httpd-client-install
+   - src-openeuler/mod_auth_openidc
+   - src-openeuler/mod_authnz_pam
+   - src-openeuler/attest-tools
+   - src-openeuler/digest-list-tools
+   - src-openeuler/apparmor
+   - src-openeuler/tpm2-tools
+   - src-openeuler/setroubleshoot
+   - src-openeuler/openssl
+   - src-openeuler/tpm2-abrmd
+   - src-openeuler/libselinux
+   - src-openeuler/libsepol
+   - src-openeuler/keyutils
+   - src-openeuler/mcstrans
+   - src-openeuler/selinux-policy
+   - src-openeuler/crypto-policies
+   - src-openeuler/checkpolicy
+   - src-openeuler/libcap
+   - src-openeuler/gnupg2
+   - src-openeuler/cracklib
+   - src-openeuler/policycoreutils
+   - src-openeuler/pyOpenSSL
+   - src-openeuler/libsemanage
+   - src-openeuler/openssl-pkcs11
+   - src-openeuler/gnutls
+   - src-openeuler/mokutil
+   - src-openeuler/pam
+   - src-openeuler/libpwquality
+   - src-openeuler/softhsm
+   - src-openeuler/nss
+   - src-openeuler/security-tool
+   - src-openeuler/tpm2-tss
+   - src-openeuler/audit
+   - src-openeuler/nss-pem
+   - src-openeuler/tpm2-abrmd-selinux
+   - src-openeuler/swtpm
+   - src-openeuler/libtpms
 
 
  ### 跨领域和面向外部的流程
@@ -27,17 +70,13 @@ sig-security_facility主要讨论在openEuler社区版本中已有或未来规�
 
 
 
-# 组织会议
+## 组织会议
 
-- 公开的会议时间：北京时间，每周X 下午，XX点~XX点
-
-*<请在此给出SIG会议的时间>*
+- 请通过邮件获取具体时间和会议链接
 
 
 
 # 成员
-
-*<请在此给出团队成员的列表>*
 
 ### Maintainer列表
 
@@ -46,6 +85,8 @@ sig-security_facility主要讨论在openEuler社区版本中已有或未来规�
 - mailofzxf
 
 - steven
+
+- robertosassu
 
 
 
@@ -63,10 +104,11 @@ sig-security_facility主要讨论在openEuler社区版本中已有或未来规�
 
 - guoxiaoqi
 
+- yang
+
 
 # 联系方式
 
-*<如果需要单独申请邮件列表，请在此补充邮箱名称：sig-security_facility@openeuler.org>*
+*<如果需要单独申请邮件列表，请在此补充邮箱名称：dev@openeuler.org>*
 
-- [邮件列表](sig-security_facility@openeuler.org)
-- [IRC公开会议]()
+- [邮件列表](mailto:dev@openeuler.org)

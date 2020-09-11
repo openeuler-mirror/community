@@ -172,8 +172,8 @@ Provides、Conflict、Obsoletes等RPM关键字提供的功能可以解决兼容�
 ### 基本信息
 
 - spec中的基本信息，如name、group、summary、description等信息，根据官网查询填写，请使用规范的书面语言描述或书写，避免`like`、`good/best`等字眼。
-- spec中version、release比较复杂的场景，如果没有特殊要求，尽量简化为单个数字，且保持递增。
 - 在rpm升级的场景中，比较软件版本高低的规则是epoch:version-release，epoch优先级比version、release高。spec中epoch的正常情况下默认由版本统一指定，不需要特别指定。以下两种情况需要使用epoch能保证该软件可yum升级: a. 某软件因特殊原因，version与release产生了降级、回退，epoch需要在原来的基础上递增；b. 不同分支因开发进度不一致，比如维护分支的version和release比开发分支高，为了保证维护分支可以向开发分支升级，需保证开发版本的epoch比维护版本的epoch高。
+- spec中version需要和上游社区的版本号保持一致，聚合性软件包（一个repo中有多个上游社区的源码：[xorg-x11-font-utils](https://gitee.com/src-openeuler/xorg-x11-font-utils)）spec 中version信息由maintainer 按照社区惯例确定。release号用于标识openEuler基于上游社区的发布次数，软件包version升级后首次发布时release 从1 开始，后续保持递增。
 
 ### 格式规范
 

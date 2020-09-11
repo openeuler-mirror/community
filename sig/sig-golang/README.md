@@ -2,7 +2,11 @@
 
 # 组织会议
 
-- 公开的会议时间：TBD
+- 每双周周二下午4:30-6:00
+- 通过邮件申报议题
+
+PS: golang SIG例会与container例会合并
+
 
 # 成员
 
@@ -25,7 +29,9 @@
 
 # 联系方式
 
-- [邮件列表](sig-golang@openeuler.org)
+*邮件列表与container sig合并*
+
+- [邮件列表](isulad@openeuler.org)
 
 # 项目清单
 
