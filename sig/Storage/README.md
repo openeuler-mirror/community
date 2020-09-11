@@ -97,5 +97,5 @@ repository地址：
 - https://gitee.com/src-openeuler/lsscsi
 - https://gitee.com/src-openeuler/open-isns
 - https://gitee.com/openeuler/memory-scan
-
+- https://gitee.com/src-openeuler/fastdfs
 
