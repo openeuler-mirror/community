@@ -1304,7 +1304,6 @@ sigs:
   - src-openeuler/python-memcached
   - src-openeuler/python-psycopg2
   - src-openeuler/seabios
-  - src-openeuler/docker-compose
   - src-openeuler/procinfo
   - src-openeuler/annobin
   - src-openeuler/python-zope-event
@@ -1946,6 +1945,7 @@ sigs:
   - src-openeuler/kata-agent
   - src-openeuler/libnetwork
   - src-openeuler/kubernetes
+  - src-openeuler/docker-compose
 - name: Compiler
   repositories:
   - src-openeuler/gcc
