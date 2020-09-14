@@ -9955,6 +9955,13 @@ repositories:
   - master
   - openEuler-20.09
   type: public
+- name: kata-micro-kernel
+  description: "A micro kernel for kata-containers"
+  upstream: https://gitee.com/openeuler/kernel
+  protected_branches:
+  - master
+  - openEuler-20.09
+  type: public
 - name: katran
   description: A high performance layer 4 load balancer
   protected_branches:
