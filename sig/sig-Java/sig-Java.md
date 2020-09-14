@@ -41,7 +41,8 @@ The openEuler Java SIG aims at providing Java package solution and guideline to 
 - Slack invitation link: https://join.slack.com/t/openeulerworkspace/shared_invite/zt-gwgkej74-O6O743~3LRM6LqPbnOPeww
 
 ### Meeting
-- You can find the latest information on the regular meetings at [here][jp_issues].
+- Open meeting time: 6:00-6:30 p.m. every Friday.
+- Regular meetings: You can find the latest information on the regular meetings at [here][jp_issues].
 
 ### IRC Channel
 - 
@@ -50,4 +51,4 @@ The openEuler Java SIG aims at providing Java package solution and guideline to 
 - 
 
 
-[jp_issues]: https://gitee.com/openeuler/Java-Packages/issues
+[jp_issues]: https://gitee.com/openeuler/Java-Packages/issues?utf8=%E2%9C%93&state=all&issue_search=java-sig+%E5%B7%A5%E4%BD%9C%E4%BE%8B%E4%BC%9A
