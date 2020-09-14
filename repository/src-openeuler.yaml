@@ -42733,6 +42733,12 @@ repositories:
   - master
   - openEuler-20.09
   type: public
+- name: ukui-desktop-environment
+  description: 'ukui desktop environment'
+  upstream: https://github.com/ukui/ukui-desktop-environment
+  protected_branches:
+  - master
+  type: public
 - name: ukui-biometric-manager
   description: ''
   protected_branches:
