@@ -367,15 +367,15 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: boolejdk-8
-  rename-from: Boole-JDK-8
-  description: "Boole JDK 8 is a high-performance, production-ready distribution of OpenJDK 8."
+- name: virtaus-8
+  rename-from: boolejdk-8
+  description: "Virtaus 8 is a high-performance, production-ready distribution of OpenJDK 8."
   protected_branches:
   - master
   type: private
-- name: boolejdk-11
-  rename-from: Boole-JDK-11
-  description: "Boole JDK 11 is a high-performance, production-ready distribution of OpenJDK 11."
+- name: virtaus-11
+  rename-from: boolejdk-11
+  description: "Virtaus 11 is a high-performance, production-ready distribution of OpenJDK 11."
   protected_branches:
   - master
   type: private
