@@ -51,7 +51,9 @@ https://gitee.com/openeuler/community/tree/master/sig/sig-Java/
 - Slack 邀请链接：https://join.slack.com/t/openeulerworkspace/shared_invite/zt-gwgkej74-O6O743~3LRM6LqPbnOPeww
 
 ### 会议
-- 你可以在[这里][jp_issues]找到最新的例会信息。
+
+- 公开的会议时间：每周五 下午 6:00 - 6:30。
+- 例会信息: 你可以在[这里][jp_issues]找到最新的例会信息。
 
 ### IRC 频道
 - 
@@ -59,4 +61,4 @@ https://gitee.com/openeuler/community/tree/master/sig/sig-Java/
 ### 对外联络人
 - 
 
-[jp_issues]: https://gitee.com/openeuler/Java-Packages/issues
+[jp_issues]: https://gitee.com/openeuler/Java-Packages/issues?utf8=%E2%9C%93&state=all&issue_search=java-sig+%E5%B7%A5%E4%BD%9C%E4%BE%8B%E4%BC%9A

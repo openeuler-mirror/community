@@ -24,8 +24,8 @@ openEuler Java SIG 致力于将 Java 生态中大量高质量开源应用、组�
 
 ## 组织会议
 
-- 公开的会议时间：每周五 下午 6:00 - 6:30
-- Zoom MeetID: 754 813 6418
+- 公开的会议时间：每周五 下午 6:00 - 6:30。
+- 例会信息: 你可以在[这里][jp_issues]找到最新的例会信息。
 
 ## 成员
 
@@ -45,12 +45,11 @@ openEuler Java SIG 致力于将 Java 生态中大量高质量开源应用、组�
 
 ## 联系方式
 
-- 例会: 你可以在[这里][jp_issues]找到最新的例会信息。
 - 微信群：你可以在[这里][wechat_barcode]找到最新的二维码。
-- 邮件列表: dev@openeuler.org
-- Slack workspace: openeulerworkspace.slack.com
-- Slack channel: #sig-java
-- Slack 邀请链接：https://join.slack.com/t/openeulerworkspace/shared_invite/zt-gwgkej74-O6O743~3LRM6LqPbnOPeww
+- 邮件列表: dev@openeuler.org。
+- Slack workspace: openeulerworkspace.slack.com。
+- Slack channel: #sig-java。
+- Slack 邀请链接：https://join.slack.com/t/openeulerworkspace/shared_invite/zt-gwgkej74-O6O743~3LRM6LqPbnOPeww。
 
 ## 项目清单
 
@@ -64,7 +63,8 @@ openEuler Java SIG 致力于将 Java 生态中大量高质量开源应用、组�
 
 - https://gitee.com/openeuler/Java-Packages
 
-
-[jp_issues]: https://gitee.com/openeuler/Java-Packages/issues
+[jp_issues]: https://gitee.com/openeuler/Java-Packages/issues?utf8=%E2%9C%93&state=all&issue_search=java-sig+%E5%B7%A5%E4%BD%9C%E4%BE%8B%E4%BC%9A
 [jp_prs]: https://gitee.com/openeuler/Java-Packages/pulls
 [wechat_barcode]: https://gitee.com/openeuler/Java-Packages/issues/I1SBKG
+
+
