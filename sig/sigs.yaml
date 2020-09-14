@@ -1926,7 +1926,6 @@ sigs:
   - src-openeuler/containerd
   - src-openeuler/iSulad-img
   - src-openeuler/lcr
-  - src-openeuler/docker-anaconda-addon
   - src-openeuler/protobuf
   - src-openeuler/iSulad
   - src-openeuler/podman
@@ -4319,6 +4318,7 @@ sigs:
   - src-openeuler/libmodman
   - src-openeuler/tpm2-abrmd-selinux
   - src-openeuler/oci-systemd-hook
+  - src-openeuler/docker-anaconda-addon
 - name: sig-RaspberryPi
   repositories:
   - openeuler/raspberrypi
