@@ -45785,6 +45785,12 @@ repositories:
   - master
   - openEuler-20.09
   type: public
+- name: seastar
+  description: "High performance server-side application framework"
+  upstream: https://github.com/scylladb/seastar
+  protected_branches:
+  - master
+  type: public
 - name: java-client-kubevirt
   description: java client kubevirt
   upstream: https://gerrit.ovirt.org/#/admin/projects/java-client-kubevirt
