@@ -454,3 +454,8 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: security-tool
+  description: "A tool with scripts for reinforcing operating system security"
+  protected_branches:
+  - master
+  type: public

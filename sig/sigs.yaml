@@ -4460,6 +4460,7 @@ sigs:
   - src-openeuler/ceph-ansible
 - name: sig-security-facility
   repositories:
+  - openeuler/security-tool
   - openeuler/attest-tools
   - openeuler/digest-list-tools
   - src-openeuler/mysql-selinux
