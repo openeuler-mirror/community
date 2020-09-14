@@ -8442,13 +8442,6 @@ repositories:
   - openEuler-20.09
   - openEuler-20.03-LTS
   type: public
-- name: iSula-libutils
-  description: Common c library with json parser and log tools, use by iSula
-  upstream: openeuler/iSula-libutils
-  protected_branches:
-  - master
-  - openEuler-20.09
-  type: public
 - name: iSulad
   description: ''
   protected_branches:

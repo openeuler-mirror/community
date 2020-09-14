@@ -146,11 +146,6 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: iSula-libutils
-  description: "Common c library with json parser and log tools, use by iSula"
-  protected_branches:
-  - master
-  type: public
 - name: oemaker
   description: "a building tool for making DVD ISO"
   protected_branches:

@@ -53,7 +53,6 @@ PS: Container SIG例会与iSulad例会合并
 repository地址：
 
 - src-openeuler/jboss-parent
-- src-openeuler/iSula-libutils
 - src-openeuler/clibcni
 - src-openeuler/oci-systemd-hook
 - src-openeuler/runc
