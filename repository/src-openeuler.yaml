@@ -6763,11 +6763,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: gtkmm24
-  description: ''
+  description: C++ interface for GTK2 (a GUI library for X)
+  upstream: http://www.gtkmm.org/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: gtkmm30
   description: ''
   protected_branches:
@@ -15247,10 +15248,11 @@ repositories:
   type: public
 - name: munge
   description: An authentication service for creating and validating credentials.
+  upstream: https://dun.github.io/munge/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: munge-maven-plugin
   description: Munge Maven Plugin
   upstream: http://github.com/sonatype/munge-maven-plugin
@@ -16296,11 +16298,12 @@ repositories:
   - openEuler-20.09
   type: public
 - name: opencl-filesystem
-  description: ''
+  description: OpenCL filesystem layout
+  upstream: http://www.khronos.org/registry/cl/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: opencl-headers
   description: OpenCL (Open Computing Language) header files
   upstream: https://www.khronos.org/registry/OpenCL/
@@ -52334,6 +52337,186 @@ repositories:
 - name: libfastcommon
   description: c common functions library extracted from my open source projects FastDFS
   upstream: https://gitee.com/fastdfs100/libfastcommon
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-batch-1.0-api
+  description: Batch Applications 1.0 API
+  upstream: https://www.jboss.org
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-concurrency-1.0-api
+  description: Concurrency Utilities for JavaEE
+  upstream: http://www.jboss.org
+  protected_branches: 
+  - master
+  type: public
+- name: libecb
+  description: The compiler built-ins contains files are delivered by libecb-devel both header and library.
+  upstream: http://software.schmorp.de/pkg/libecb.html
+  protected_branches: 
+  - master
+  type: public
+- name: prelink
+  description: Utility to set/clear/query executable stack bit
+  upstream: https://github.com/keszybz/prelink/
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-pathspec
+  description: Use to match path patterns such as gitignore
+  upstream: https://github.com/highb/pathspec-ruby
+  protected_branches: 
+  - master
+  type: public
+- name: lsyncd
+  description: File change monitoring and synchronization daemon
+  upstream: https://github.com/axkibe/lsyncd
+  protected_branches: 
+  - master
+  type: public
+- name: maven-license-plugin
+  description: Maven plugin to update header licenses of source files
+  upstream: http://github.com/mycila/license-maven-plugin
+  protected_branches: 
+  - master
+  type: public
+- name: xmltool
+  description: Tool to manage XML documents through a Fluent Interface
+  upstream: http://mycila.github.io/xmltool
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-ejb3-ext-api
+  description: JBoss EJB 3 Extension API
+  upstream: http://www.jboss.org/ejb3
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-negotiation
+  description: JBoss Negotiation
+  upstream: http://www.jboss.org/picketlink/Negotiation
+  protected_branches: 
+  - master
+  type: public
+- name: torque
+  description: Tera-scale Open-source Resource and QUEue manager
+  upstream: https://adaptivecomputing.com/cherry-services/torque-resource-manager/
+  protected_branches: 
+  - master
+  type: public
+- name: CharLS
+  description: An optimized implementation of the JPEG-LS standard
+  upstream: https://github.com/team-charls/charls
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-rgen
+  description: Ruby Modelling and Generator Framework
+  upstream: https://github.com/mthiede/rgen
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-ejb-client
+  description: JBoss EJB client
+  upstream: http://www.jboss.org/
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-iiop-client
+  description: JBoss IIOP Client
+  upstream: http://www.jboss.org/jbossiiop
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-common-beans
+  description: JBoss Common Beans
+  upstream: http://www.jboss.org
+  protected_branches: 
+  - master
+  type: public
+- name: glog
+  description: A C++ application logging library
+  upstream: https://github.com/google/glog
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-rmi-1.0-api
+  description: Java Remote Method Invocation 1.0 API
+  upstream: http://www.jboss.org
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-abrt
+  description: ABRT support for Ruby
+  upstream: http://github.com/voxik/abrt-ruby
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-remote-naming
+  description: JBoss Remote Naming
+  upstream: http://www.jboss.org/
+  protected_branches: 
+  - master
+  type: public
+- name: google-croscore-fonts
+  description: The width-compatible fonts for improved on-screen readability
+  upstream: https://chocolatey.org/packages/croscorefonts-font
+  protected_branches: 
+  - master
+  type: public
+- name: jastow
+  description: Jasper fork
+  upstream: https://github.com/undertow-io/jastow
+  protected_branches: 
+  - master
+  type: public
+- name: jberet
+  description: Batch Applications Implementation
+  upstream: https://github.com/jberet/jsr352
+  protected_branches: 
+  - master
+  type: public
+- name: jaf
+  description: JavaBeans Activation Framework
+  upstream: https://github.com/eclipse-ee4j/jaf
+  protected_branches: 
+  - master
+  type: public
+- name: XmlSchema
+  description: Lightweight schema object model
+  upstream: http://ws.apache.org/xmlschema/
+  protected_branches: 
+  - master
+  type: public
+- name: hazelcast
+  description: Hazelcast CE In-Memory DataGrid
+  upstream: https://github.com/hazelcast/hazelcast
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-metadata
+  description: JBoss Metadata
+  upstream: https://github.com/jboss/metadata
+  protected_branches: 
+  - master
+  type: public
+- name: gshhg-gmt-nc4
+  description: Global Self-consistent Hierarchical High-resolution Geography (GSHHG)
+  upstream: http://www.soest.hawaii.edu/pwessel/gshhg/
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-jaxws-2.2-api
+  description: Java API for XML-Based Web Services 2.2
+  upstream: http://www.jboss.org/
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-jaxb-2.2-api
+  description: Java Architecture for XML Binding 2.2
+  upstream: http://www.jboss.org
   protected_branches: 
   - master
   type: public
