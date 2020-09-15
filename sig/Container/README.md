@@ -68,6 +68,7 @@ repository地址：
 - src-openeuler/skopeo
 - src-openeuler/kata-shim
 - src-openeuler/kata_integration
+- src-openeuler/kata-micro-kernel
 - src-openeuler/busybox
 - src-openeuler/container-selinux
 - src-openeuler/gobject-introspection
