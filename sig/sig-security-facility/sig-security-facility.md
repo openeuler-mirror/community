@@ -52,6 +52,7 @@ What and in what form the SIG is responsible for delivering
   - src-openeuler/tpm2-tools
   - src-openeuler/setroubleshoot
   - src-openeuler/openssl
+  - src-openeuler/cryptopp
   - src-openeuler/tpm2-abrmd
   - src-openeuler/libselinux
   - src-openeuler/libsepol
