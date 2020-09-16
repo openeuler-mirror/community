@@ -22,6 +22,9 @@
 - yu_qinfei
 - zhaodongsheng
 - ly_s
+- kuno_0
+- zhou_run_yuan
+
 ### Maintainer列表
 
 - wufangyao01[@wufangyao01](https://gitee.com/wufangyao01)，wufangyao2020@163.com
