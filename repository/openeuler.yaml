@@ -367,15 +367,15 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: virtaus-8
-  rename-from: boolejdk-8
-  description: "Virtaus 8 is a high-performance, production-ready distribution of OpenJDK 8."
+- name: bishengjdk-8
+  rename-from: virtaus-8
+  description: "Bisheng JDK 8 is a high-performance, production-ready distribution of OpenJDK 8."
   protected_branches:
   - master
   type: private
-- name: virtaus-11
-  rename-from: boolejdk-11
-  description: "Virtaus 11 is a high-performance, production-ready distribution of OpenJDK 11."
+- name: bishengjdk-11
+  rename-from: virtaus-11
+  description: "Bisheng JDK 11 is a high-performance, production-ready distribution of OpenJDK 11."
   protected_branches:
   - master
   type: private

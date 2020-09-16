@@ -33,5 +33,5 @@ Tuesday 10 am every week.
  - [openjfx11](https://gitee.com/src-openeuler/openjfx11)
  - [icedtea-web](https://gitee.com/src-openeuler/icedtea-web)
  - [rust](https://gitee.com/src-openeuler/rust)
- - [virtaus-8](https://gitee.com/openeuler/virtaus-8)
- - [virtaus-11](https://gitee.com/openeuler/virtaus-11)
+ - [bishengjdk-8](https://gitee.com/openeuler/bishengjdk-8)
+ - [bishengjdk-11](https://gitee.com/openeuler/bishengjdk-11)
