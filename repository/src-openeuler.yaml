@@ -3910,6 +3910,12 @@ repositories:
   - openEuler-20.09
   - openEuler-20.03-LTS
   type: public
+- name: dwarves
+  description: Debugging information manipulation tools 
+  upstream: https://github.com/acmel/dwarves
+  protected_branches:
+  - master
+  type: public
 - name: dwz
   description: ''
   protected_branches:
