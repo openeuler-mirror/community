@@ -99,3 +99,4 @@ repository地址：
 - https://gitee.com/openeuler/memory-scan
 - https://gitee.com/src-openeuler/fastdfs
 - https://gitee.com/src-openeuler/libfastcommon
+- https://gitee.com/src-openeuler/DCache
