@@ -80,6 +80,7 @@ jingxiaolu
 - https://gitee.com/src-openeuler/colordiff 
 - https://gitee.com/src-openeuler/delve
 - https://gitee.com/src-openeuler/atop
+- https://gitee.com/src-openeuler/git-lfs
 
 - https://gitee.com/openeuler/pyporter
 - https://gitee.com/openeuler/perlporter
