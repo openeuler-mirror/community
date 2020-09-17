@@ -5494,6 +5494,12 @@ repositories:
   - openEuler-20.09
   - openEuler-20.03-LTS
   type: public
+- name: git-lfs
+  description: Git extension for versioning large files
+  upstream: https://github.com/git-lfs/git-lfs
+  protected_branches:
+  - master
+  type: public
 - name: git-tools
   description: Assorted git-related scripts
   upstream: https://github.com/MestreLion/git-tools
