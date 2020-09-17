@@ -31,6 +31,7 @@ sig-security_facility主要讨论在openEuler社区版本中已有或未来规�
    - src-openeuler/tpm2-tools
    - src-openeuler/setroubleshoot
    - src-openeuler/openssl
+   - src-openeuler/cryptopp
    - src-openeuler/tpm2-abrmd
    - src-openeuler/libselinux
    - src-openeuler/libsepol
