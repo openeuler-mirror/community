@@ -4000,7 +4000,6 @@ sigs:
   - src-openeuler/cglib
   - src-openeuler/ck
   - src-openeuler/cloc
-  - src-openeuler/cmockery
   - src-openeuler/colm
   - src-openeuler/colordiff
   - src-openeuler/concurrent-trees
@@ -4317,6 +4316,7 @@ sigs:
   - src-openeuler/engrampa
 - name: sig-recycle
   repositories:
+  - src-openeuler/cmockery
   - src-openeuler/jasper
   - src-openeuler/liberation-sans-fonts
   - src-openeuler/libibmad
