@@ -52539,7 +52539,8 @@ repositories:
   protected_branches: 
   - master
   type: public
-- name: dcache
+- name: DCache
+  rename_from: dcache
   description: DCache is a distributed NoSQL system based on Tars framework, which supports LRU algorithm and data persistence.
   upstream: https://github.com/Tencent/DCache
   protected_branches:
