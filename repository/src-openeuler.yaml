@@ -52534,6 +52534,12 @@ repositories:
   protected_branches: 
   - master
   type: public
+- name: tig
+  description: Tig is an ncurses-based text-mode interface for git and it functions mainly as a Git repository browser.
+  upstream: https://github.com/jonas/tig
+  protected_branches:
+  - master
+  type: public
 - name: jboss-jaxws-2.2-api
   description: Java API for XML-Based Web Services 2.2
   upstream: http://www.jboss.org/
