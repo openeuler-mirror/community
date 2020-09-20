@@ -52552,3 +52552,117 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: R-knitr
+  description: A General-Purpose Package for Dynamic Report Generation in R
+  upstream: https://github.com/yihui/knitr
+  protected_branches: 
+  - master
+  type: public
+- name: perl-Spreadsheet-ParseExcel
+  description: Extract information from an Excel file
+  upstream: https://github.com/runrig/spreadsheet-parseexcel/
+  protected_branches: 
+  - master
+  type: public
+- name: perl-Log-Dispatch
+  description: Dispatches messages to one or more outputs
+  upstream: https://github.com/houseabsolute/Log-Dispatch
+  protected_branches: 
+  - master
+  type: public
+- name: perl-Log-Log4perl
+  description: Log4j implementation for Perl
+  upstream: https://github.com/mschilli/log4perl
+  protected_branches: 
+  - master
+  type: public
+- name: biber
+  description: Command-line bibliographic manager, BibTeX replacement
+  upstream: https://github.com/plk/biber
+  protected_branches: 
+  - master
+  type: public
+- name: perl-HTML-Format
+  description: HTML formatter modules
+  upstream: https://github.com/nigelm/html-formatter
+  protected_branches: 
+  - master
+  type: public
+- name: latexmk
+  description: A make-like utility for LaTeX files
+  upstream: https://ctan.org/pkg/latexmk/
+  protected_branches: 
+  - master
+  type: public
+- name: libhandy
+  description: Library with GTK+ widgets for mobile phones
+  upstream: https://source.puri.sm/Librem5/libhandy/
+  protected_branches: 
+  - master
+  type: public
+- name: asymptote
+  description: Descriptive vector graphics language
+  upstream: https://github.com/vectorgraphics/asymptote
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-rake-compiler
+  description: Rake-based Ruby C Extension task generator
+  upstream: https://github.com/rake-compiler/rake-compiler
+  protected_branches: 
+  - master
+  type: public
+- name: neXtaw
+  description: Modified version of the Athena Widgets with N*XTSTEP appearance
+  upstream: http://siag.nu/neXtaw/
+  protected_branches: 
+  - master
+  type: public
+- name: compface
+  description: Library and tools for handling X-Face data
+  upstream: http://ftp.xemacs.org/pub/xemacs/aux/
+  protected_branches: 
+  - master
+  type: public
+- name: oldstandard-sfd-fonts
+  description: Old Standard True-Type Fonts
+  upstream: https://github.com/akryukov/oldstand
+  protected_branches: 
+  - master
+  type: public
+- name: epiphany
+  description: Web browser for GNOME
+  upstream: https://gitlab.gnome.org/GNOME/epiphany/
+  protected_branches: 
+  - master
+  type: public
+- name: js-excanvas
+  description: Canvas for IE8 and older
+  upstream: https://github.com/arv/ExplorerCanvas
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-el-2.2-api
+  description: Expression Language 2.2 API
+  upstream: https://github.com/jboss/jboss-el-api_spec
+  protected_branches: 
+  - master
+  type: public
+- name: inst-source-utils
+  description: Utilities for creating customized installation sources
+  upstream: https://github.com/openSUSE/inst-source-utils
+  protected_branches: 
+  - master
+  type: public
+- name: perl-WWW-Mechanize
+  description: Automates web page form & link interaction
+  upstream: https://github.com/libwww-perl/WWW-Mechanize
+  protected_branches: 
+  - master
+  type: public
+- name: gromacs
+  description: Fast, Free and Flexible Molecular Dynamics
+  upstream: http://www.gromacs.org
+  protected_branches: 
+  - master
+  type: public
