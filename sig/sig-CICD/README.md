@@ -1,6 +1,6 @@
 # openEuler CICD SIG
 
-- 开发和维护 crystal-ci
+- 开发和维护 compass-ci
 - 支持在openEuler各项目应用
 
 # 组织会议
@@ -27,14 +27,14 @@
 
 # 联系方式
 
-- [邮件列表](crystal-ci@openeuler.org)
+- [邮件列表](compass-ci@openeuler.org)
 
 
 # 项目清单
 
-项目名称：crystal-ci
+项目名称：compass-ci
 
 repository地址：
 
-- https://gitee.com/openeuler/crystal-ci
+- https://gitee.com/openeuler/compass-ci
 
