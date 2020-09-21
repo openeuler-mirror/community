@@ -226,8 +226,9 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: bounds_checking_function
-  description: ""
+- name: libboundscheck
+  rename_from: bounds_checking_function
+  description: "Enhanced safety functions"
   protected_branches:
   - master
   type: public

@@ -1,4 +1,4 @@
-﻿# bounds_checking_function
+﻿# libboundscheck
 
 - 遵循C11 Annex K (Bounds-checking interfaces)的标准，选取并实现了常见的内存/字符串操作类的函数，如memcpy_s、strcpy_s等函数。
 - 未来将分析C11 Annex K中的其他标准函数，如果有必要，将在该组织中实现。
@@ -13,17 +13,17 @@
 
 ### Committer列表
 
-- liujiajian[@jia_jian_liu](#https://gitee.com/jia_jian_liu)
+- liujiajian[@Plus_Liu](#https://gitee.com/Plus_Liu)
 
 # 联系方式
 
-- [邮件列表](sig-bounds_checking_function@openeuler.org)
+- [邮件列表](sig-libboundscheck@openeuler.org)
 
 
 # 项目清单
 
-项目名称：bounds_checking_function
+项目名称：libboundscheck
 
 repository地址：
 
-- https:/gitee.com/openeuler/bounds_checking_function/
+- https:/gitee.com/openeuler/libboundscheck/
