@@ -52672,3 +52672,9 @@ repositories:
   protected_branches: 
   - master
   type: public
+- name: openstack-neutron
+  description: Neutron is an OpenStack project to provide "network connectivity as a service" between interface devices (e.g., vNICs) managed by other OpenStack services
+  upstream: https://github.com/openstack/neutron
+  protected_branches:
+  - master
+  type: public
