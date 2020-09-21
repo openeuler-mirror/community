@@ -424,6 +424,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: stratovirt
+  description: "StratoVirt is an opensource VMM(Virtual Machine Manager) which aims to perform next generation virtualization.StratoVirt is based on Rust programming language.StratoVirt is lightweight, efficient and safe.It also has features like Full Sence Support and Modules Flexible Splitting."
+  protected_branches:
+  - master
+  type: public
 - name: secenclave
   description: "Confidential computing framework for developing enclave apps on top of hardware TEE"
   protected_branches:

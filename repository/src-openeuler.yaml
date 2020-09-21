@@ -46098,7 +46098,13 @@ repositories:
   protected_branches:
   - master
   - openEuler-20.09
-  type: public 
+  type: public
+- name: stratovirt
+  description: 'StratoVirt is an opensource VMM(Virtual Machine Manager) which aims to perform next generation virtualization.StratoVirt is based on Rust programming language.StratoVirt is lightweight, efficient and safe.It also has features like Full Secen Support and Modules Flexible Splitting.'
+  upstream: https://gitee.com/openeuler/stratovirt
+  protected_branches:
+  - master
+  type: public
 - name: avro
   description: 'Data serialization system'
   upstream: http://avro.apache.org
