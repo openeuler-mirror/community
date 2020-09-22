@@ -33,5 +33,5 @@ The sig-confidential_computing mainly discusses the existing or future confident
 ### Deliverables
 
 - Source code and tar
-  - openeuler/secenclave
+  - openeuler/secGear
   - src-openeuler/linux-sgx
