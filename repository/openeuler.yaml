@@ -276,8 +276,9 @@ repositories:
   protected_branches:
   - master
   type: public  
-- name: crystal-ci
-  description: "Crystal CI"
+- name: compass-ci
+  rename_from: crystal-ci
+  description: "Compass CI"
   protected_branches:
   - master
   type: public

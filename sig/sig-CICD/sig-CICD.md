@@ -13,7 +13,7 @@ by other openEuler projects.
 
 ### Scope
 
-- develop crystal-ci upstream project
+- develop compass-ci upstream project
 - create and update RPM packages
 - manage the documents, meetings and mailing lists
 
@@ -23,7 +23,7 @@ by other openEuler projects.
 
 ### Repositories and description managed by this SIG
 
-Repository for crystal-ci: https://gitee.com/openeuler/crystal-ci
+Repository for compass-ci: https://gitee.com/openeuler/compass-ci
 
 ## Basic Information
 
@@ -41,7 +41,7 @@ Repository for crystal-ci: https://gitee.com/openeuler/crystal-ci
 - walkingwalk
 
 ### Mailing list
-- crystal-ci@openeuler.org
+- compass-ci@openeuler.org
 
 ### External Contact
 - wu_fengguang
