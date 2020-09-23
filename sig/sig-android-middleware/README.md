@@ -24,6 +24,7 @@
 - ly_s
 - kuno_0
 - zhou_run_yuan
+- liangjc7
 
 ### Maintainer列表
 
