@@ -4266,47 +4266,6 @@ sigs:
   - src-openeuler/kf5-kwidgetsaddons
   - src-openeuler/kf5-kwindowsystem
   - src-openeuler/kf5-solid
-  - src-openeuler/kf5-attica
-  - src-openeuler/kf5-frameworkintegration
-  - src-openeuler/kf5-kactivities
-  - src-openeuler/kf5-kbookmarks
-  - src-openeuler/kf5-kcmutils
-  - src-openeuler/kf5-kcompletion
-  - src-openeuler/kf5-kcrash
-  - src-openeuler/kf5-kdbusaddons
-  - src-openeuler/kf5-kdeclarative
-  - src-openeuler/kf5-kded
-  - src-openeuler/kf5-kdelibs4support
-  - src-openeuler/kf5-kdesignerplugin
-  - src-openeuler/kf5-kdesu
-  - src-openeuler/kf5-kemoticons
-  - src-openeuler/kf5-kglobalaccel
-  - src-openeuler/kf5-kiconthemes
-  - src-openeuler/kf5-kinit
-  - src-openeuler/kf5-kio
-  - src-openeuler/kf5-kirigami2
-  - src-openeuler/kf5-kitemmodels
-  - src-openeuler/kf5-kitemviews
-  - src-openeuler/kf5-kjobwidgets
-  - src-openeuler/kf5-knewstuff
-  - src-openeuler/kf5-knotifications
-  - src-openeuler/kf5-kpackage
-  - src-openeuler/kf5-kparts
-  - src-openeuler/kf5-kplotting
-  - src-openeuler/kf5-kpty
-  - src-openeuler/kf5-kservice
-  - src-openeuler/kf5-ktextwidgets
-  - src-openeuler/kf5-kunitconversion
-  - src-openeuler/kf5-kwallet
-  - src-openeuler/kf5-kxmlgui
-  - src-openeuler/kf5-networkmanager-qt
-  - src-openeuler/kf5-plasma
-  - src-openeuler/kf5-sonnet
-  - src-openeuler/kf5-syntax-highlighting
-  - src-openeuler/kf5-kdewebkit
-  - src-openeuler/kdecoration
-  - src-openeuler/kwin
-  - src-openeuler/plasma-breeze
   - src-openeuler/libkscreen-qt5
   - src-openeuler/libqtxdg
   - src-openeuler/libstatgrab
@@ -7227,3 +7186,46 @@ sigs:
 - name: sig-Kubernetes
   repositories:
   - openeuler/kubekey
+- name: sig-KDE
+  repositories:
+  - src-openeuler/kf5-attica
+  - src-openeuler/kf5-frameworkintegration
+  - src-openeuler/kf5-kactivities
+  - src-openeuler/kf5-kbookmarks
+  - src-openeuler/kf5-kcmutils
+  - src-openeuler/kf5-kcompletion
+  - src-openeuler/kf5-kcrash
+  - src-openeuler/kf5-kdbusaddons
+  - src-openeuler/kf5-kdeclarative
+  - src-openeuler/kf5-kded
+  - src-openeuler/kf5-kdelibs4support
+  - src-openeuler/kf5-kdesignerplugin
+  - src-openeuler/kf5-kdesu
+  - src-openeuler/kf5-kemoticons
+  - src-openeuler/kf5-kglobalaccel
+  - src-openeuler/kf5-kiconthemes
+  - src-openeuler/kf5-kinit
+  - src-openeuler/kf5-kio
+  - src-openeuler/kf5-kirigami2
+  - src-openeuler/kf5-kitemmodels
+  - src-openeuler/kf5-kitemviews
+  - src-openeuler/kf5-kjobwidgets
+  - src-openeuler/kf5-knewstuff
+  - src-openeuler/kf5-knotifications
+  - src-openeuler/kf5-kpackage
+  - src-openeuler/kf5-kparts
+  - src-openeuler/kf5-kplotting
+  - src-openeuler/kf5-kpty
+  - src-openeuler/kf5-kservice
+  - src-openeuler/kf5-ktextwidgets
+  - src-openeuler/kf5-kunitconversion
+  - src-openeuler/kf5-kwallet
+  - src-openeuler/kf5-kxmlgui
+  - src-openeuler/kf5-networkmanager-qt
+  - src-openeuler/kf5-plasma
+  - src-openeuler/kf5-sonnet
+  - src-openeuler/kf5-syntax-highlighting
+  - src-openeuler/kf5-kdewebkit
+  - src-openeuler/kdecoration
+  - src-openeuler/kwin
+  - src-openeuler/plasma-breeze
