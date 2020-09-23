@@ -20,11 +20,15 @@
 - zhanghailiang[@zhanghailiang](https://gitee.com/zhanghailiang_lucky)
 - fangying[@fangying](https://gitee.com/yorifang)
 - xuyandong[@xuyandong](https://gitee.com/xydong)
+- wubin[@wubin](https://gitee.com/RootWB)
+- wangzhigang[@wangzhigang](https://gitee.com/cellfaint)
 
 ### Committer列表
 
 - pannengyuan[@pannengyuan](https://gitee.com/panny060)
 - chenqun[@chenqun](https://gitee.com/kuhnchen18)
+- xufei[@xufei](https://gitee.com/flyking001)
+- zhangliang[@zhangliang](https://gitee.com/zhangliang5)
 
 
 
