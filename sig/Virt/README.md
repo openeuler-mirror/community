@@ -51,5 +51,6 @@
         - repository地址：https://gitee.com/src-openeuler/edk2
     - vmtop
         - repository地址：https://gitee.com/openeuler/vmtop
+- StratoVirt
     - stratovirt
         - repository地址：https://gitee.com/openeuler/stratovirt
