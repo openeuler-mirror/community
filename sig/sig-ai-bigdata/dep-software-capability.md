@@ -14,7 +14,6 @@
 |   | infinispan      |    |         |         |         |         |       |
 |   | libiodbc        |    |         |         |         |         |       |
 |   | lzip            |    |         |         |         |         |       |
-|   | maven\-local    |    |         |         |         |         |       |
 |   | netty\-tcnative |    |         |         |         |         |       |
 |   | octave          |    |         |         |         |         |       |
 |   | qrupdate        |    |         |         |         |         |       |
