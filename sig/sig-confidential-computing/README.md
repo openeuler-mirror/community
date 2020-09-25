@@ -16,7 +16,7 @@ sig-confidential_computing主要讨论在openEuler社区版本中已有或未来
 
 ### 该 SIG 管理的 repository 及描述
 - sig-confidential-computing：
-  - openeuler/secenclave
+  - openeuler/secGear
   - src-openeuler/linux-sgx
 
 # 组织会议

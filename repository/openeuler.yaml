@@ -430,7 +430,8 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: secenclave
+- name: secGear
+  rename_from: secenclave
   description: "Confidential computing framework for developing enclave apps on top of hardware TEE"
   protected_branches:
   - master
