@@ -937,7 +937,6 @@ sigs:
   - src-openeuler/arptables
   - src-openeuler/ftp
   - src-openeuler/python-paste
-  - src-openeuler/openvswitch-kmod
   - src-openeuler/libgcrypt
   - src-openeuler/python-ipaddress
   - src-openeuler/libpcap
@@ -4323,6 +4322,7 @@ sigs:
   - src-openeuler/libmodman
   - src-openeuler/tpm2-abrmd-selinux
   - src-openeuler/oci-systemd-hook
+  - src-openeuler/openvswitch-kmod
   - src-openeuler/docker-anaconda-addon
 - name: sig-RaspberryPi
   repositories:
