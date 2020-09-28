@@ -52691,3 +52691,9 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: openstack-keystone
+  description: OpenStack Keystone provides authentication, authorization and service discovery mechanisms via HTTP primarily for use by projects in the OpenStack family
+  upstream: https://github.com/openstack/keystone
+  protected_branches:
+  - master
+  type: public
