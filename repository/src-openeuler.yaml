@@ -10413,11 +10413,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: libEMF
-  description: ''
+  description: A library for generating Enhanced Metafiles
+  upstream: http://libemf.sourceforge.net/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: libICE
   description: ''
   protected_branches:
