@@ -1712,8 +1712,10 @@ repositories:
   - master
   - openEuler-20.09
   type: public
-- name: bounds_checking_function
+- name: libboundscheck
+  rename_from: bounds_checking_function
   description: Enhanced safety functions
+  upstream: https://gitee.com/openeuler/libboundscheck
   protected_branches:
   - master
   - openEuler-20.09

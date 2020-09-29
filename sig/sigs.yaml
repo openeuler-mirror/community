@@ -4216,10 +4216,10 @@ sigs:
   - src-openeuler/system-config-users-docs
   - src-openeuler/unique3
   - src-openeuler/wireless-tools
-- name: sig-bounds_checking_function
+- name: sig-libboundscheck
   repositories:
-  - openeuler/bounds_checking_function
-  - src-openeuler/bounds_checking_function
+  - openeuler/libboundscheck
+  - src-openeuler/libboundscheck
 - name: sig-UKUI
   repositories:
   - src-openeuler/qt5-ukui-platformtheme
