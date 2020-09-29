@@ -15,9 +15,14 @@ sig-confidential_computing主要讨论在openEuler社区版本中已有或未来
    - 交付件形式：源码、tar包或兼而有之
 
 ### 该 SIG 管理的 repository 及描述
-- sig-confidential-computing：
-  - openeuler/secGear
-  - src-openeuler/linux-sgx
+- sig-confidential-computing repository地址：
+  - https://gitee.com/openeuler/secGear
+  - https://gitee.com/src-openeuler/linux-sgx
+
+### repository路标
+
+- secGear
+<img src="secGear_milestone.png" alt="secGear" style="zoom:80%;" />
 
 # 组织会议
 
