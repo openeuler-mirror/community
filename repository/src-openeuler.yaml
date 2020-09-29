@@ -4444,17 +4444,30 @@ repositories:
   - openEuler-20.09
   type: public
 - name: fcitx
-  description: ''
+  description: A Flexible Input Method Framework
+  upstream: https://github.com/fcitx/fcitx
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: fcitx-configtool
   description: Gtk+-based configuring tools for Fcitx
   upstream: https://github.com/fcitx/fcitx-configtool
   protected_branches:
   - master
   - openEuler-20.09
+  type: public
+- name: fcitx-libpinyin
+  description: libpinyin wrapper for fcitx
+  upstream: https://github.com/fcitx/fcitx-libpinyin
+  protected_branches:
+  - master
+  type: public
+- name: fcitx-qt5
+  upstream: https://github.com/fcitx/fcitx-qt5
+  description: Fcitx support for Qt5
+  protected_branches:
+  - master
   type: public
 - name: fcoe-utils
   description: ''
@@ -8680,11 +8693,12 @@ repositories:
   - openEuler-20.09
   type: private
 - name: imsettings
-  description: ''
+  description: Delivery framework for general Input Method configuration
+  upstream: https://bitbucket.org/tagoh/imsettings
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: indent
   description: ''
   protected_branches:
@@ -11585,6 +11599,12 @@ repositories:
   - openEuler-20.03-LTS-Next
   - openEuler-20.09
   - openEuler-20.03-LTS
+  type: public
+- name: libgxim
+  description: GObject-based XIM protocol library
+  upstream: https://bitbucket.org/tagoh/libgxim
+  protected_branches:
+  - master
   type: public
 - name: libgxps
   description: ''

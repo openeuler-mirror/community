@@ -3583,7 +3583,6 @@ sigs:
   - src-openeuler/f29-backgrounds
   - src-openeuler/fasterxml-oss-parent
   - src-openeuler/fastutil
-  - src-openeuler/fcitx
   - src-openeuler/felix-parent
   - src-openeuler/Flask-RESTful
   - src-openeuler/fluid-soundfont
@@ -3621,7 +3620,6 @@ sigs:
   - src-openeuler/ibus-kkc
   - src-openeuler/icon-naming-utils
   - src-openeuler/imlib2
-  - src-openeuler/imsettings
   - src-openeuler/infinipath-psm
   - src-openeuler/inkscape
   - src-openeuler/temporary-integration-test
@@ -7043,6 +7041,11 @@ sigs:
   - src-openeuler/libgnome
 - name: sig-desktop-apps
   repositories:
+  - src-openeuler/libgxim
+  - src-openeuler/imsettings
+  - src-openeuler/fcitx
+  - src-openeuler/fcitx-qt5
+  - src-openeuler/fcitx-libpinyin
   - src-openeuler/vnpy
   - src-openeuler/musescore
   - src-openeuler/lilypond
