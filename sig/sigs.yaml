@@ -2091,7 +2091,6 @@ sigs:
   - src-openeuler/exiv2
   - src-openeuler/fltk
   - src-openeuler/fontconfig
-  - src-openeuler/fontpackages
   - src-openeuler/freetype
   - src-openeuler/fribidi
   - src-openeuler/fros
@@ -4324,6 +4323,7 @@ sigs:
   - src-openeuler/oci-systemd-hook
   - src-openeuler/openvswitch-kmod
   - src-openeuler/docker-anaconda-addon
+  - src-openeuler/fontpackages
 - name: sig-RaspberryPi
   repositories:
   - openeuler/raspberrypi
