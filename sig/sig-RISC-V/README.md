@@ -31,7 +31,8 @@ RISC-V 是一个免费开源的指令集（ISA）。RISC-V SIG 组旨在提供 o
 
 - [邮件列表，目前共用openEuler dev列表](dev@openeuler.org)
 - 视频会议
-
+- 微信：加入RISC -V sig的微信群，一起进行讨论，欢迎分享你的想法         
+    <img src="./sig-RISC-V-WeChatGroup.jpg" width="30%" height="30%">
 
 
 # 项目清单
