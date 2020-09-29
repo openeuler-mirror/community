@@ -1833,11 +1833,12 @@ repositories:
   - openEuler-20.09
   type: public
 - name: bullet
-  description: ''
+  description: 'Bullet is a 3D Collision Detection and Rigid Body Dynamics Library for games and animation.'
+  upstream: http://www.bulletphysics.com
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: busybox
   description: ''
   protected_branches:
@@ -4041,11 +4042,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: efl
-  description: ''
+  description: 'Collection of Enlightenment libraries.'
+  upstream: http://enlightenment.org/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: egl-wayland
   description: ''
   protected_branches:
@@ -9028,11 +9030,12 @@ repositories:
   - openEuler-20.09
   type: public
 - name: jack-audio-connection-kit
-  description: ''
+  description: 'The Jack Audio Connection Kit.'
+  upstream: https://github.com/jackaudio/jack2
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: jackson
   description: Jackson Java JSON-processor
   upstream: https://github.com/codehaus/jackson
@@ -11286,11 +11289,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: libffado
-  description: ''
+  description: 'Free firewire audio driver library.'
+  upstream: http://www.ffado.org/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: libffi
   description: ''
   protected_branches:
@@ -13341,11 +13345,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: libxmlpp
-  description: ''
+  description: 'C++ wrapper for the libxml2 XML parser library.'
+  upstream: http://libxmlplusplus.sourceforge.net/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: libxshmfence
   description: ''
   protected_branches:
@@ -14824,23 +14829,26 @@ repositories:
   - openEuler-20.09
   type: public
 - name: mingw-crt
-  description: ''
+  description: 'MinGW Windows cross-compiler runtime, base libraries for the win32 target.'
+  upstream: http://mingw-w64.sourceforge.net/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: mingw-filesystem
-  description: ''
+  description: 'MinGW cross compiler base filesystem and environment.'
+  upstream: http://fedoraproject.org/wiki/MinGW
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: mingw-gcc
-  description: ''
+  description: 'MinGW Windows cross-compiler (GCC) for C.'
+  upstream: http://gcc.gnu.org
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: mingw-spice-vdagent
   description: ''
   protected_branches:
@@ -42356,11 +42364,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: tinyxml
-  description: ''
+  description: 'A simple, small, C++ XML parser.'
+  upstream: https://sourceforge.net/projects/tinyxml/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: tinyxml2
   description: ''
   protected_branches:
@@ -42613,11 +42622,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: tslib
-  description: ''
+  description: 'Touchscreen Access Library.'
+  upstream: https://github.com/kergoth/tslib
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: ttembed
   description: ''
   protected_branches:
@@ -44098,6 +44108,72 @@ repositories:
   - master
   - openEuler-20.09
   type: private
+- name: cloog
+  description: 'CLooG is a software which generates loops for scanning Z-polyhedra.'
+  upstream: http://repo.or.cz/w/cloog.git
+  protected_branches:
+  - master
+  type: public
+- name: FAudio
+  description: 'FNA is a reimplementation of the Microsoft XNA Game Studio 4.0 Refresh libraries.'
+  upstream: https://fna-xna.github.io/
+  protected_branches:
+  - master
+  type: public
+- name: isl
+  description: 'isl is a library for manipulating sets and relations of integer points bounded by linear constraints.'
+  upstream: http://isl.gforge.inria.fr/
+  protected_branches:
+  - master
+  type: public
+- name: mingw-binutils
+  description: 'Cross-compiled version of binutils for Win32 and Win64 environments.'
+  upstream: http://www.gnu.org/software/binutils/
+  protected_branches:
+  - master
+  type: public
+- name: mingw-headers
+  description: 'MinGW Windows cross-compiler Win64 header files.'
+  upstream: http://mingw-w64.sourceforge.net/
+  protected_branches:
+  - master
+  type: public
+- name: mingw-wine-gecko
+  description: 'Windows Gecko library required for Wine.'
+  upstream: http://wiki.winehq.org/Gecko
+  protected_branches:
+  - master
+  type: public
+- name: mingw-winpthreads
+  description: 'MinGW pthread library.'
+  upstream: http://mingw-w64.sourceforge.net/
+  protected_branches:
+  - master
+  type: public
+- name: spirv-headers
+  description: 'Header files from the SPIR-V registry.'
+  upstream: https://github.com/KhronosGroup
+  protected_branches:
+  - master
+  type: public
+- name: spirv-tools
+  description: 'API and commands for processing SPIR-V modules.'
+  upstream: https://github.com/KhronosGroup/SPIRV-Tools
+  protected_branches:
+  - master
+  type: public
+- name: vkd3d
+  description: 'D3D12 to Vulkan translation library.'
+  upstream: https://source.winehq.org/git/vkd3d.git
+  protected_branches:
+  - master
+  type: public
+- name: wine-mono
+  description: 'Windows Mono library required for Wine.'
+  upstream: https://github.com/madewokherd/wine-mono
+  protected_branches:
+  - master
+  type: public
 - name: wine
   description: 'allow Apps developed for Microsoft Windows to run on Unix-like operating systems'
   upstream: https://github.com/wine-mirror/wine
