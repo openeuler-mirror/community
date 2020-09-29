@@ -368,13 +368,13 @@ repositories:
   description: "Bisheng JDK 8 is a high-performance, production-ready distribution of OpenJDK 8."
   protected_branches:
   - master
-  type: private
+  type: public
 - name: bishengjdk-11
   rename-from: virtaus-11
   description: "Bisheng JDK 11 is a high-performance, production-ready distribution of OpenJDK 11."
   protected_branches:
   - master
-  type: private
+  type: public
 - name: authz
   description: "An authorization plugin for iSulad."
   protected_branches:
