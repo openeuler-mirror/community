@@ -36521,6 +36521,13 @@ repositories:
   - master
   - openEuler-20.09
   type: public
+- name: python-pyrpm
+  description: Python library for parsing RPM spec files.
+  upstream: https://github.com/bkircher/python-rpm-spec
+  protected_branches:
+  - master
+  - openEuler-20.09
+  type: public
 - name: python-pyrtlsdr
   upstream: https://github.com/roger-/pyrtlsdr
   description: A Python wrapper for librtlsdr (a driver for Realtek RTL2832U based
