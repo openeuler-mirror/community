@@ -3910,6 +3910,12 @@ repositories:
   - openEuler-20.09
   - openEuler-20.03-LTS
   type: public
+- name: dwarves
+  description: Debugging information manipulation tools 
+  upstream: https://github.com/acmel/dwarves
+  protected_branches:
+  - master
+  type: public
 - name: dwz
   description: ''
   protected_branches:
@@ -5488,6 +5494,12 @@ repositories:
   - openEuler-20.09
   - openEuler-20.03-LTS
   type: public
+- name: git-lfs
+  description: Git extension for versioning large files
+  upstream: https://github.com/git-lfs/git-lfs
+  protected_branches:
+  - master
+  type: public
 - name: git-tools
   description: Assorted git-related scripts
   upstream: https://github.com/MestreLion/git-tools
@@ -6763,11 +6775,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: gtkmm24
-  description: ''
+  description: C++ interface for GTK2 (a GUI library for X)
+  upstream: http://www.gtkmm.org/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: gtkmm30
   description: ''
   protected_branches:
@@ -8442,13 +8455,6 @@ repositories:
   - openEuler-20.09
   - openEuler-20.03-LTS
   type: public
-- name: iSula-libutils
-  description: Common c library with json parser and log tools, use by iSula
-  upstream: openeuler/iSula-libutils
-  protected_branches:
-  - master
-  - openEuler-20.09
-  type: public
 - name: iSulad
   description: ''
   protected_branches:
@@ -9955,6 +9961,13 @@ repositories:
   - master
   - openEuler-20.09
   type: public
+- name: kata-micro-kernel
+  description: "A micro kernel for kata-containers"
+  upstream: https://gitee.com/openeuler/kernel
+  protected_branches:
+  - master
+  - openEuler-20.09
+  type: public
 - name: katran
   description: A high performance layer 4 load balancer
   protected_branches:
@@ -10400,11 +10413,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: libEMF
-  description: ''
+  description: A library for generating Enhanced Metafiles
+  upstream: http://libemf.sourceforge.net/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: libICE
   description: ''
   protected_branches:
@@ -11888,6 +11902,7 @@ repositories:
   - master
   - openEuler-20.09
   - openEuler-20.03-LTS
+  - openEuler-20.03-LTS-Next
   type: public
 - name: liblognorm
   description: ''
@@ -15247,10 +15262,11 @@ repositories:
   type: public
 - name: munge
   description: An authentication service for creating and validating credentials.
+  upstream: https://dun.github.io/munge/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: munge-maven-plugin
   description: Munge Maven Plugin
   upstream: http://github.com/sonatype/munge-maven-plugin
@@ -16296,11 +16312,12 @@ repositories:
   - openEuler-20.09
   type: public
 - name: opencl-filesystem
-  description: ''
+  description: OpenCL filesystem layout
+  upstream: http://www.khronos.org/registry/cl/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: opencl-headers
   description: OpenCL (Open Computing Language) header files
   upstream: https://www.khronos.org/registry/OpenCL/
@@ -20225,6 +20242,8 @@ repositories:
   protected_branches:
   - master
   - openEuler-20.09
+  - openEuler-20.03-LTS
+  - openEuler-20.03-LTS-Next
   type: public
 - name: perl-ExtUtils-TBone
   upstream: http://search.cpan.org/dist/ExtUtils-TBone/
@@ -39539,6 +39558,7 @@ repositories:
   - openEuler-20.03-LTS-Next
   - openEuler-20.09
   - openEuler-20.03-LTS
+  - riscv
   type: public
 - name: qgnomeplatform
   description: The module provides Qt Theme aimed to accommodate Gnome settings
@@ -42733,6 +42753,12 @@ repositories:
   - master
   - openEuler-20.09
   type: public
+- name: ukui-desktop-environment
+  description: 'ukui desktop environment'
+  upstream: https://github.com/ukui/ukui-desktop-environment
+  protected_branches:
+  - master
+  type: public
 - name: ukui-biometric-manager
   description: ''
   protected_branches:
@@ -45785,6 +45811,12 @@ repositories:
   - master
   - openEuler-20.09
   type: public
+- name: seastar
+  description: "High performance server-side application framework"
+  upstream: https://github.com/scylladb/seastar
+  protected_branches:
+  - master
+  type: public
 - name: java-client-kubevirt
   description: java client kubevirt
   upstream: https://gerrit.ovirt.org/#/admin/projects/java-client-kubevirt
@@ -46070,7 +46102,14 @@ repositories:
   protected_branches:
   - master
   - openEuler-20.09
-  type: public 
+  type: public
+- name: stratovirt
+  description: 'StratoVirt is an opensource VMM(Virtual Machine Manager) which aims to perform next generation virtualization.StratoVirt is based on Rust programming language.StratoVirt is lightweight, efficient and safe.It also has features like Full Secen Support and Modules Flexible Splitting.'
+  upstream: https://gitee.com/openeuler/stratovirt
+  protected_branches:
+  - master
+  - openEuler-20.09
+  type: public
 - name: avro
   description: 'Data serialization system'
   upstream: http://avro.apache.org
@@ -46784,6 +46823,8 @@ repositories:
   protected_branches: 
   - master
   - openEuler-20.09
+  - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS
   type: public
 - name: nodejs-grunt-contrib-nodeunit
   description: Run Nodeunit unit tests with grunt
@@ -52323,5 +52364,336 @@ repositories:
   description: c common functions library extracted from my open source projects FastDFS
   upstream: https://gitee.com/fastdfs100/libfastcommon
   protected_branches: 
+  - master
+  type: public
+- name: cryptopp
+  description: free C++ Class Library of Cryptographic Schemes
+  upstream: https://github.com/weidai11/cryptopp.git
+  protected_branches:
+  - master
+  type: public
+- name: jboss-batch-1.0-api
+  description: Batch Applications 1.0 API
+  upstream: https://www.jboss.org
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-concurrency-1.0-api
+  description: Concurrency Utilities for JavaEE
+  upstream: http://www.jboss.org
+  protected_branches: 
+  - master
+  type: public
+- name: libecb
+  description: The compiler built-ins contains files are delivered by libecb-devel both header and library.
+  upstream: http://software.schmorp.de/pkg/libecb.html
+  protected_branches: 
+  - master
+  type: public
+- name: prelink
+  description: Utility to set/clear/query executable stack bit
+  upstream: https://github.com/keszybz/prelink/
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-pathspec
+  description: Use to match path patterns such as gitignore
+  upstream: https://github.com/highb/pathspec-ruby
+  protected_branches: 
+  - master
+  type: public
+- name: lsyncd
+  description: File change monitoring and synchronization daemon
+  upstream: https://github.com/axkibe/lsyncd
+  protected_branches: 
+  - master
+  type: public
+- name: maven-license-plugin
+  description: Maven plugin to update header licenses of source files
+  upstream: http://github.com/mycila/license-maven-plugin
+  protected_branches: 
+  - master
+  type: public
+- name: xmltool
+  description: Tool to manage XML documents through a Fluent Interface
+  upstream: http://mycila.github.io/xmltool
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-ejb3-ext-api
+  description: JBoss EJB 3 Extension API
+  upstream: http://www.jboss.org/ejb3
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-negotiation
+  description: JBoss Negotiation
+  upstream: http://www.jboss.org/picketlink/Negotiation
+  protected_branches: 
+  - master
+  type: public
+- name: torque
+  description: Tera-scale Open-source Resource and QUEue manager
+  upstream: https://adaptivecomputing.com/cherry-services/torque-resource-manager/
+  protected_branches: 
+  - master
+  type: public
+- name: CharLS
+  description: An optimized implementation of the JPEG-LS standard
+  upstream: https://github.com/team-charls/charls
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-rgen
+  description: Ruby Modelling and Generator Framework
+  upstream: https://github.com/mthiede/rgen
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-ejb-client
+  description: JBoss EJB client
+  upstream: http://www.jboss.org/
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-iiop-client
+  description: JBoss IIOP Client
+  upstream: http://www.jboss.org/jbossiiop
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-common-beans
+  description: JBoss Common Beans
+  upstream: http://www.jboss.org
+  protected_branches: 
+  - master
+  type: public
+- name: glog
+  description: A C++ application logging library
+  upstream: https://github.com/google/glog
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-rmi-1.0-api
+  description: Java Remote Method Invocation 1.0 API
+  upstream: http://www.jboss.org
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-abrt
+  description: ABRT support for Ruby
+  upstream: http://github.com/voxik/abrt-ruby
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-remote-naming
+  description: JBoss Remote Naming
+  upstream: http://www.jboss.org/
+  protected_branches: 
+  - master
+  type: public
+- name: google-croscore-fonts
+  description: The width-compatible fonts for improved on-screen readability
+  upstream: https://chocolatey.org/packages/croscorefonts-font
+  protected_branches: 
+  - master
+  type: public
+- name: jastow
+  description: Jasper fork
+  upstream: https://github.com/undertow-io/jastow
+  protected_branches: 
+  - master
+  type: public
+- name: jberet
+  description: Batch Applications Implementation
+  upstream: https://github.com/jberet/jsr352
+  protected_branches: 
+  - master
+  type: public
+- name: jaf
+  description: JavaBeans Activation Framework
+  upstream: https://github.com/eclipse-ee4j/jaf
+  protected_branches: 
+  - master
+  type: public
+- name: XmlSchema
+  description: Lightweight schema object model
+  upstream: http://ws.apache.org/xmlschema/
+  protected_branches: 
+  - master
+  type: public
+- name: hazelcast
+  description: Hazelcast CE In-Memory DataGrid
+  upstream: https://github.com/hazelcast/hazelcast
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-metadata
+  description: JBoss Metadata
+  upstream: https://github.com/jboss/metadata
+  protected_branches: 
+  - master
+  type: public
+- name: gshhg-gmt-nc4
+  description: Global Self-consistent Hierarchical High-resolution Geography (GSHHG)
+  upstream: http://www.soest.hawaii.edu/pwessel/gshhg/
+  protected_branches: 
+  - master
+  type: public
+- name: tig
+  description: Tig is an ncurses-based text-mode interface for git and it functions mainly as a Git repository browser.
+  upstream: https://github.com/jonas/tig
+  protected_branches:
+  - master
+  type: public
+- name: jboss-jaxws-2.2-api
+  description: Java API for XML-Based Web Services 2.2
+  upstream: http://www.jboss.org/
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-jaxb-2.2-api
+  description: Java Architecture for XML Binding 2.2
+  upstream: http://www.jboss.org
+  protected_branches: 
+  - master
+  type: public
+- name: DCache
+  rename_from: dcache
+  description: DCache is a distributed NoSQL system based on Tars framework, which supports LRU algorithm and data persistence.
+  upstream: https://github.com/Tencent/DCache
+  protected_branches:
+  - master
+  type: public
+- name: s3fs-fuse
+  description: s3fs allows Linux and macOS to mount an S3 bucket via FUSE. s3fs preserves the native object format for files, allowing use of other tools like AWS CLI
+  upstream: https://github.com/s3fs-fuse/s3fs-fuse
+  protected_branches:
+  - master
+  type: public
+- name: R-knitr
+  description: A General-Purpose Package for Dynamic Report Generation in R
+  upstream: https://github.com/yihui/knitr
+  protected_branches: 
+  - master
+  type: public
+- name: perl-Spreadsheet-ParseExcel
+  description: Extract information from an Excel file
+  upstream: https://github.com/runrig/spreadsheet-parseexcel/
+  protected_branches: 
+  - master
+  type: public
+- name: perl-Log-Dispatch
+  description: Dispatches messages to one or more outputs
+  upstream: https://github.com/houseabsolute/Log-Dispatch
+  protected_branches: 
+  - master
+  type: public
+- name: perl-Log-Log4perl
+  description: Log4j implementation for Perl
+  upstream: https://github.com/mschilli/log4perl
+  protected_branches: 
+  - master
+  type: public
+- name: biber
+  description: Command-line bibliographic manager, BibTeX replacement
+  upstream: https://github.com/plk/biber
+  protected_branches: 
+  - master
+  type: public
+- name: perl-HTML-Format
+  description: HTML formatter modules
+  upstream: https://github.com/nigelm/html-formatter
+  protected_branches: 
+  - master
+  type: public
+- name: latexmk
+  description: A make-like utility for LaTeX files
+  upstream: https://ctan.org/pkg/latexmk/
+  protected_branches: 
+  - master
+  type: public
+- name: libhandy
+  description: Library with GTK+ widgets for mobile phones
+  upstream: https://source.puri.sm/Librem5/libhandy/
+  protected_branches: 
+  - master
+  type: public
+- name: asymptote
+  description: Descriptive vector graphics language
+  upstream: https://github.com/vectorgraphics/asymptote
+  protected_branches: 
+  - master
+  type: public
+- name: rubygem-rake-compiler
+  description: Rake-based Ruby C Extension task generator
+  upstream: https://github.com/rake-compiler/rake-compiler
+  protected_branches: 
+  - master
+  type: public
+- name: neXtaw
+  description: Modified version of the Athena Widgets with N*XTSTEP appearance
+  upstream: http://siag.nu/neXtaw/
+  protected_branches: 
+  - master
+  type: public
+- name: compface
+  description: Library and tools for handling X-Face data
+  upstream: http://ftp.xemacs.org/pub/xemacs/aux/
+  protected_branches: 
+  - master
+  type: public
+- name: oldstandard-sfd-fonts
+  description: Old Standard True-Type Fonts
+  upstream: https://github.com/akryukov/oldstand
+  protected_branches: 
+  - master
+  type: public
+- name: epiphany
+  description: Web browser for GNOME
+  upstream: https://gitlab.gnome.org/GNOME/epiphany/
+  protected_branches: 
+  - master
+  type: public
+- name: js-excanvas
+  description: Canvas for IE8 and older
+  upstream: https://github.com/arv/ExplorerCanvas
+  protected_branches: 
+  - master
+  type: public
+- name: jboss-el-2.2-api
+  description: Expression Language 2.2 API
+  upstream: https://github.com/jboss/jboss-el-api_spec
+  protected_branches: 
+  - master
+  type: public
+- name: inst-source-utils
+  description: Utilities for creating customized installation sources
+  upstream: https://github.com/openSUSE/inst-source-utils
+  protected_branches: 
+  - master
+  type: public
+- name: perl-WWW-Mechanize
+  description: Automates web page form & link interaction
+  upstream: https://github.com/libwww-perl/WWW-Mechanize
+  protected_branches: 
+  - master
+  type: public
+- name: gromacs
+  description: Fast, Free and Flexible Molecular Dynamics
+  upstream: http://www.gromacs.org
+  protected_branches: 
+  - master
+  type: public
+- name: openstack-neutron
+  description: Neutron is an OpenStack project to provide "network connectivity as a service" between interface devices (e.g., vNICs) managed by other OpenStack services
+  upstream: https://github.com/openstack/neutron
+  protected_branches:
+  - master
+  type: public
+- name: openstack-keystone
+  description: OpenStack Keystone provides authentication, authorization and service discovery mechanisms via HTTP primarily for use by projects in the OpenStack family
+  upstream: https://github.com/openstack/keystone
+  protected_branches:
   - master
   type: public

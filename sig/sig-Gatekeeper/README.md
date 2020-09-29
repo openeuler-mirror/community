@@ -31,10 +31,14 @@
 - name[@giteeID](giteeID链接)
 
 # 联系方式
-- [邮件列表](sig-Gatekeeper@openeuler.org)
+- [邮件列表](gatekeeper@openeuler.org)
 - [IRC公开会议]()
-- 视频会议
+- [etherpad](https://etherpad.openeuler.org/p/sig-gatekeeper)
 
 # 项目清单
-- 项目名称：
-- repository地址：
+- 项目名称：CI-Bot
+  repository地址：[ci-bot](https://gitee.com/openeuler/ci-bot)
+- 项目名称：openEuler-OBS
+  repository地址：[openeuler-obs](https://gitee.com/openeuler/openeuler-obs)
+- 项目名称：openEuler-Jenkins
+  repository地址：[openeuler-jenkins](https://gitee.com/openeuler/openeuler-jenkins)

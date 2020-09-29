@@ -146,11 +146,6 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: iSula-libutils
-  description: "Common c library with json parser and log tools, use by iSula"
-  protected_branches:
-  - master
-  type: public
 - name: oemaker
   description: "a building tool for making DVD ISO"
   protected_branches:
@@ -281,8 +276,9 @@ repositories:
   protected_branches:
   - master
   type: public  
-- name: crystal-ci
-  description: "Crystal CI"
+- name: compass-ci
+  rename_from: crystal-ci
+  description: "Compass CI"
   protected_branches:
   - master
   type: public
@@ -367,15 +363,15 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: boolejdk-8
-  rename-from: Boole-JDK-8
-  description: "Boole JDK 8 is a high-performance, production-ready distribution of OpenJDK 8."
+- name: bishengjdk-8
+  rename-from: virtaus-8
+  description: "Bisheng JDK 8 is a high-performance, production-ready distribution of OpenJDK 8."
   protected_branches:
   - master
   type: private
-- name: boolejdk-11
-  rename-from: Boole-JDK-11
-  description: "Boole JDK 11 is a high-performance, production-ready distribution of OpenJDK 11."
+- name: bishengjdk-11
+  rename-from: virtaus-11
+  description: "Bisheng JDK 11 is a high-performance, production-ready distribution of OpenJDK 11."
   protected_branches:
   - master
   type: private
@@ -429,7 +425,13 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: secenclave
+- name: stratovirt
+  description: "StratoVirt is an opensource VMM(Virtual Machine Manager) which aims to perform next generation virtualization.StratoVirt is based on Rust programming language.StratoVirt is lightweight, efficient and safe.It also has features like Full Sence Support and Modules Flexible Splitting."
+  protected_branches:
+  - master
+  type: public
+- name: secGear
+  rename_from: secenclave
   description: "Confidential computing framework for developing enclave apps on top of hardware TEE"
   protected_branches:
   - master
@@ -451,6 +453,11 @@ repositories:
   type: public
 - name: raspberrypi-build
   description: "Scripts of building images for Raspberry Pi"
+  protected_branches:
+  - master
+  type: public
+- name: security-tool
+  description: "A tool with scripts for reinforcing operating system security"
   protected_branches:
   - master
   type: public
