@@ -3554,7 +3554,6 @@ sigs:
   - src-openeuler/bcm283x-firmware
   - src-openeuler/blosc
   - src-openeuler/build
-  - src-openeuler/bullet
   - src-openeuler/bytelist
   - src-openeuler/cfitsio
   - src-openeuler/checkstyle
@@ -3576,7 +3575,6 @@ sigs:
   - src-openeuler/eclipse
   - src-openeuler/eclipse-jgit
   - src-openeuler/eclipselink-persistence-api
-  - src-openeuler/efl
   - src-openeuler/ehcache-parent
   - src-openeuler/extlinux-bootloader
   - src-openeuler/ezmorph
@@ -3631,7 +3629,6 @@ sigs:
   - src-openeuler/jackson-core
   - src-openeuler/libburn1
   - src-openeuler/libisofs1
-  - src-openeuler/jack-audio-connection-kit
   - src-openeuler/jackson-annotations
   - src-openeuler/jackson-bom
   - src-openeuler/jackson-dataformats-binary
@@ -3668,7 +3665,6 @@ sigs:
   - src-openeuler/libass
   - src-openeuler/libbs2b
   - src-openeuler/libdap
-  - src-openeuler/libffado
   - src-openeuler/libgeotiff
   - src-openeuler/libgta
   - src-openeuler/libkate
@@ -3689,7 +3685,6 @@ sigs:
   - src-openeuler/libvncserver
   - src-openeuler/libwpd
   - src-openeuler/libwpg
-  - src-openeuler/libxmlpp
   - src-openeuler/lldb
   - src-openeuler/logback
   - src-openeuler/lohit-gurmukhi-fonts
@@ -3704,9 +3699,6 @@ sigs:
   - src-openeuler/maven-install-plugin
   - src-openeuler/maven-plugins-pom
   - src-openeuler/maven-scm
-  - src-openeuler/mingw-crt
-  - src-openeuler/mingw-filesystem
-  - src-openeuler/mingw-gcc
   - src-openeuler/mingw-srvany
   - src-openeuler/minlog
   - src-openeuler/mkeuleros
@@ -3843,9 +3835,7 @@ sigs:
   - src-openeuler/teckit
   - src-openeuler/tesla-polyglot
   - src-openeuler/thx
-  - src-openeuler/tinyxml
   - src-openeuler/tomcat-native
-  - src-openeuler/tslib
   - src-openeuler/ttembed
   - src-openeuler/ttfautohint
   - src-openeuler/ubu-keyring
@@ -7136,6 +7126,27 @@ sigs:
 - name: sig-wine
   repositories:
   - src-openeuler/wine
+  - src-openeuler/bullet
+  - src-openeuler/cloog
+  - src-openeuler/efl
+  - src-openeuler/FAudio
+  - src-openeuler/isl
+  - src-openeuler/jack-audio-connection-kit
+  - src-openeuler/libffado
+  - src-openeuler/libxmlpp
+  - src-openeuler/mingw-binutils
+  - src-openeuler/mingw-crt
+  - src-openeuler/mingw-filesystem
+  - src-openeuler/mingw-gcc
+  - src-openeuler/mingw-headers
+  - src-openeuler/mingw-wine-gecko
+  - src-openeuler/mingw-winpthreads
+  - src-openeuler/spirv-headers
+  - src-openeuler/spirv-tools
+  - src-openeuler/tinyxml
+  - src-openeuler/tslib
+  - src-openeuler/vkd3d
+  - src-openeuler/wine-mono
 - name: sig-OS-Builder
   repositories:
   - src-openeuler/anaconda
