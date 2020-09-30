@@ -41,4 +41,5 @@ OpenStack作为第二大开源社区，在全球范围拥有众多个人及企�
 repository地址：
 
 - https://gitee.com/src-openeuler/openstack-nova
+- https://gitee.com/src-openeuler/openstack-swift
 - https://gitee.com/src-openeuler/openstack-keystone
