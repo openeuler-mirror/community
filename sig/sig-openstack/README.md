@@ -42,3 +42,4 @@ repository地址：
 
 - https://gitee.com/src-openeuler/openstack-nova
 - https://gitee.com/src-openeuler/openstack-keystone
+- https://gitee.com/src-openeuler/openstack-glance
