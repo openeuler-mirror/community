@@ -2438,6 +2438,22 @@ sigs:
   - src-openeuler/prefetch_tuning
   - openeuler/wisdom-advisor
   - src-openeuler/wisdom-advisor
+  - src-openeuler/python-networkx
+  - src-openeuler/python-netifaces
+  - src-openeuler/python-Keras_Preprocessing
+  - src-openeuler/python-hyperopt
+  - src-openeuler/python-nni
+  - src-openeuler/python-astor
+  - src-openeuler/python-json-tricks
+  - src-openeuler/python-pythonwebhdfs
+  - src-openeuler/python-absl-py
+  - src-openeuler/python-google-pasta
+  - src-openeuler/python-h5py
+  - src-openeuler/python-opt-einsum
+  - src-openeuler/python-pkgconfig
+  - src-openeuler/python-tensorboard
+  - src-openeuler/python-tensorboard-plugin-wit
+  - src-openeuler/python-estimator
 - name: kae
   repositories:
   - openeuler/kae_driver
@@ -3766,20 +3782,16 @@ sigs:
   - src-openeuler/python-breathe
   - src-openeuler/python-eventlet
   - src-openeuler/python-graphviz
-  - src-openeuler/python-h5py
   - src-openeuler/python-hpack
   - src-openeuler/python-httpbin
   - src-openeuler/python-hyperframe
   - src-openeuler/python-jmespath
   - src-openeuler/python-Keras
   - src-openeuler/python-keras-applications
-  - src-openeuler/python-Keras_Preprocessing
   - src-openeuler/python-latexcodec
   - src-openeuler/python-m2r
   - src-openeuler/python-matplotlib
   - src-openeuler/python-mistune
-  - src-openeuler/python-netifaces
-  - src-openeuler/python-networkx
   - src-openeuler/python-numexpr
   - src-openeuler/python-numpydoc
   - src-openeuler/python-orderedset
@@ -3788,7 +3800,6 @@ sigs:
   - src-openeuler/python-pathlib
   - src-openeuler/python-pexpect
   - src-openeuler/python-pickleshare
-  - src-openeuler/python-pkgconfig
   - src-openeuler/python-priority
   - src-openeuler/python-prompt_toolkit
   - src-openeuler/python-ptyprocess
@@ -6299,6 +6310,7 @@ sigs:
   - src-openeuler/python-gntp
   - src-openeuler/python-gnupg
   - src-openeuler/python-google-auth
+  - src-openeuler/python-google-auth-oauthlib
   - src-openeuler/python-google-compute-engine
   - src-openeuler/python-gpxpy
   - src-openeuler/python-grabbit
