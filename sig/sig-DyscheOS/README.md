@@ -42,3 +42,11 @@ DyscheOS兴趣小组希望能够在openEuler系统上，实现一些技术方案
 - [邮件列表](dev@openeuler.org)
 - [IRC频道](#openeuler-dev)
 - [IRC公开会议](#openeuler-meeting)
+
+# 项目清单
+
+项目名称：DyscheOS
+
+Repository 地址：
+  - https://gitee.com/openeuler/DyscheOS-kernel
+  - https://gitee.com/openeuler/DyscheOS-utils
