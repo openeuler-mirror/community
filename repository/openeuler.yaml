@@ -211,6 +211,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: security-facility
+  description: "The repository for security facility SIG"
+  protected_branches:
+  - master
+  type: public
 - name: attest-tools
   description: "A library that makes implementation of remote attestation easier"
   protected_branches:
