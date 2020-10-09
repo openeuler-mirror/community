@@ -49,30 +49,33 @@ openEuler以及sig的规范即可，当然也欢迎大家参与到现有的项�
 ai/bigdata领域有很多各种各样的软件包，目前在sig各位爱好者的努力下已经支持了一部分，在这些已经支持的软件包里肯定还存在很多问题，
 欢迎大家多安装、使用和测试，在过程中发现问题，提交问题，如果能够解决问题更好了。
 目前以rpm形式支持的相关软件包为：
-- https://gitee.com/src-openeuler/libsvm:  
-  A Library for Support Vector Machines
-- https://gitee.com/src-openeuler/ComputeLibrary:  
-  ARM Compute Library
-- https://gitee.com/src-openeuler/opencl-headers:  
-  OpenCL (Open Computing Language) header files
-- https://gitee.com/src-openeuler/libxsmm:  
+- [libsvm](https://gitee.com/src-openeuler/libsvm):
+  A Library for Support Vector Machines.
+- [ComputeLibrary](https://gitee.com/src-openeuler/ComputeLibrary):
+  ARM Compute Library.
+- [opencl-headers](https://gitee.com/src-openeuler/opencl-headers):
+  OpenCL (Open Computing Language) header files.
+- [libxsmm](https://gitee.com/src-openeuler/libxsmm):
   Library targeting Intel Architecture for specialized dense and sparse matrix operations, and deep learning primitives.
-- https://gitee.com/src-openeuler/dlib:  
+- [dlib](https://gitee.com/src-openeuler/dlib):
   a modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++ to solve real world problems.
-- https://gitee.com/src-openeuler/zookeeper:  
-  a high-performance service for building distributed applications
-- https://gitee.com/src-openeuler/ibis:  
+- [zookeeper](https://gitee.com/src-openeuler/zookeeper):
+  a high-performance service for building distributed applications.
+- [ibis](https://gitee.com/src-openeuler/ibis):
   Ibis is a toolbox to bridge the gap between local Python environments, remote storage, execution systems like Hadoop components (HDFS, Impala, Hive, Spark) and SQL databases. Its goal is to simplify analytical workflows and make you more productive.
-- https://gitee.com/src-openeuler/presto:  
+- [presto](https://gitee.com/src-openeuler/presto):
   Presto is a distributed SQL query engine for big data.
-- https://gitee.com/src-openeuler/rain:  
+- [rain](https://gitee.com/src-openeuler/rain):
   Rain is an open-source distributed computational framework for processing of large-scale task-based pipelines.
 
 
 ### 在openEuler上安装、使用、测试尚未支持的相关软件包
-
+AI/BigData软件栈众多，现在还有很多相关领域的安装包没有在openEuler上支持运行、编译和打包，欢迎有兴趣的同学们一起参与。
 
 ### 提供sig尚未支持的相关软件包支持
-
+将没有支持的软件包按照openEuler及本sig的要求在openEuler上支持起来。
 
 ### 帮助社区中的解决sig相关疑问
+社区是一个互相帮助、共同进步的地方，当看到社区有自己能回答的问题时欢迎伸出援助之手。
+
+最后，万丈高楼平地起，千里之行始于足下，任何社区都是靠一砖一瓦，一个issue，一个pr，一次次求助于互助繁荣起来的。
