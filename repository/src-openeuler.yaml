@@ -29857,11 +29857,12 @@ repositories:
   - openEuler-20.09
   type: private
 - name: python-Keras_Preprocessing
-  description: ''
+  upstream: https://github.com/keras-team/keras-preprocessing
+  description: Utilities for working with image data, text data, and sequence data
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: python-Lasagne
   upstream: https://github.com/Lasagne/Lasagne
   description: A lightweight library to build and train neural networks in Theano
@@ -33460,11 +33461,12 @@ repositories:
   - openEuler-20.09
   type: public
 - name: python-h5py
-  description: ''
+  upstream: https://pypi.org/project/h5py
+  description: 'a Pythonic interface to the HDF5 binary data format'
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: python-hamcrest
   description: ''
   protected_branches:
@@ -34963,17 +34965,19 @@ repositories:
   - openEuler-20.09
   type: public
 - name: python-netifaces
-  description: ''
+  upstream: https://github.com/al45tair/netifaces
+  description: 'Portable network interface information'
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: python-networkx
+  upstream: https://github.com/networkx/networkx
   description: python package for the study of complex network
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: python-ngram
   upstream: http://github.com/gpoulter/python-ngram
   description: A `set` subclass providing fuzzy search based on N-grams.
@@ -35718,11 +35722,12 @@ repositories:
   - openEuler-20.09
   type: public
 - name: python-pkgconfig
-  description: ''
+  upstream: https://pypi.org/project/pkgconfig
+  description: 'pkgconfig is a Python module to interface with the pkg-config command line tool and supports Python 2.6+ and 3.3+'
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: python-pkginfo
   upstream: https://code.launchpad.net/~tseaver/pkginfo/trunk
   description: Query metadatdata from sdists / bdists / installed packages.
@@ -46173,6 +46178,78 @@ repositories:
   protected_branches:
   - master
   - openEuler-20.09
+  type: public
+- name: python-hyperopt
+  description: 'Distributed Asynchronous Hyperparameter Optimization in Python'
+  upstream: https://github.com/hyperopt/hyperopt
+  protected_branches:
+  - master
+  type: public
+- name: python-nni
+  description: 'An open source AutoML toolkit for automate machine learning lifecycle'
+  upstream: https://github.com/microsoft/nni
+  protected_branches:
+  - master
+  type: public
+- name: python-astor
+  description: 'astor is designed to allow easy manipulation of Python source via the AST'
+  upstream: https://github.com/berkerpeksag/astor
+  protected_branches:
+  - master
+  type: public
+- name: python-json-tricks
+  description: 'The pyjson-tricks package brings several pieces of functionality to python handling of json files'
+  upstream: https://github.com/mverleg/pyjson_tricks
+  protected_branches:
+  - master
+  type: public
+- name: python-pythonwebhdfs
+  description: 'Customized Python WebHDFS client'
+  upstream: https://pypi.org/project/PythonWebHDFS
+  protected_branches:
+  - master
+  type: public
+- name: python-absl-py
+  description: 'Abseil Python Common Libraries'
+  upstream: https://pypi.org/project/absl-py
+  protected_branches:
+  - master
+  type: public
+- name: python-google-pasta
+  description: 'Library to refactor python code through AST manipulation'
+  upstream: https://pypi.org/project/google-pasta
+  protected_branches:
+  - master
+  type: public
+- name: python-opt-einsum
+  description: 'A tensor contraction order optimizer'
+  upstream: https://pypi.org/project/opt-einsum
+  protected_branches:
+  - master
+  type: public
+- name: python-tensorboard
+  description: TensorFlow's Visualization Toolkit
+  upstream: https://github.com/tensorflow/tensorboard
+  protected_branches:
+  - master
+  type: public
+- name: python-estimator
+  description: TensorFlow Estimator
+  upstream: https://github.com/tensorflow/estimator
+  protected_branches:
+  - master
+  type: public
+- name: python-google-auth-oauthlib
+  description: Google Authentication Library
+  upstream: https://github.com/googleapis/google-auth-library-python-oauthlib
+  protected_branches:
+  - master
+  type: public
+- name: python-tensorboard-plugin-wit
+  description: What-If Tool TensorBoard plugin.
+  upstream: https://pypi.org/project/tensorboard-plugin-wit
+  protected_branches:
+  - master
   type: public
 - name: python-lhsmdu
   description: 'A python package for generating latin hypercube samples with multi-dimensional uniformity'
