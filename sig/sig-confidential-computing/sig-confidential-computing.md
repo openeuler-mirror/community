@@ -21,14 +21,14 @@ The sig-confidential_computing mainly discusses the existing or future confident
 ### Maintainer
 
 - blue0613
+- chenmaodong
 
 ### Committer
 
-- chenmaodong
-
 - whzhe
-
-
+- liwei3013
+- yanlu
+- wolfkernel
 
 ### Deliverables
 
