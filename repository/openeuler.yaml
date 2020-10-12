@@ -462,3 +462,13 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: DyscheOS-kernel
+  description: "It provides kernel source code of DyscheOS"
+  protected_branches:
+  - master
+  type: public
+- name: DyscheOS-utils
+  description: "It provides utility tools for DyscheOS, including management tools, scripts, user-guide and kernel modules."
+  protected_branches:
+  - master
+  type: public

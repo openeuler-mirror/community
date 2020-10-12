@@ -2438,6 +2438,22 @@ sigs:
   - src-openeuler/prefetch_tuning
   - openeuler/wisdom-advisor
   - src-openeuler/wisdom-advisor
+  - src-openeuler/python-networkx
+  - src-openeuler/python-netifaces
+  - src-openeuler/python-Keras_Preprocessing
+  - src-openeuler/python-hyperopt
+  - src-openeuler/python-nni
+  - src-openeuler/python-astor
+  - src-openeuler/python-json-tricks
+  - src-openeuler/python-pythonwebhdfs
+  - src-openeuler/python-absl-py
+  - src-openeuler/python-google-pasta
+  - src-openeuler/python-h5py
+  - src-openeuler/python-opt-einsum
+  - src-openeuler/python-pkgconfig
+  - src-openeuler/python-tensorboard
+  - src-openeuler/python-tensorboard-plugin-wit
+  - src-openeuler/python-estimator
 - name: kae
   repositories:
   - openeuler/kae_driver
@@ -3554,7 +3570,6 @@ sigs:
   - src-openeuler/bcm283x-firmware
   - src-openeuler/blosc
   - src-openeuler/build
-  - src-openeuler/bullet
   - src-openeuler/bytelist
   - src-openeuler/cfitsio
   - src-openeuler/checkstyle
@@ -3576,7 +3591,6 @@ sigs:
   - src-openeuler/eclipse
   - src-openeuler/eclipse-jgit
   - src-openeuler/eclipselink-persistence-api
-  - src-openeuler/efl
   - src-openeuler/ehcache-parent
   - src-openeuler/extlinux-bootloader
   - src-openeuler/ezmorph
@@ -3631,7 +3645,6 @@ sigs:
   - src-openeuler/jackson-core
   - src-openeuler/libburn1
   - src-openeuler/libisofs1
-  - src-openeuler/jack-audio-connection-kit
   - src-openeuler/jackson-annotations
   - src-openeuler/jackson-bom
   - src-openeuler/jackson-dataformats-binary
@@ -3668,7 +3681,6 @@ sigs:
   - src-openeuler/libass
   - src-openeuler/libbs2b
   - src-openeuler/libdap
-  - src-openeuler/libffado
   - src-openeuler/libgeotiff
   - src-openeuler/libgta
   - src-openeuler/libkate
@@ -3689,7 +3701,6 @@ sigs:
   - src-openeuler/libvncserver
   - src-openeuler/libwpd
   - src-openeuler/libwpg
-  - src-openeuler/libxmlpp
   - src-openeuler/lldb
   - src-openeuler/logback
   - src-openeuler/lohit-gurmukhi-fonts
@@ -3704,9 +3715,6 @@ sigs:
   - src-openeuler/maven-install-plugin
   - src-openeuler/maven-plugins-pom
   - src-openeuler/maven-scm
-  - src-openeuler/mingw-crt
-  - src-openeuler/mingw-filesystem
-  - src-openeuler/mingw-gcc
   - src-openeuler/mingw-srvany
   - src-openeuler/minlog
   - src-openeuler/mkeuleros
@@ -3774,20 +3782,16 @@ sigs:
   - src-openeuler/python-breathe
   - src-openeuler/python-eventlet
   - src-openeuler/python-graphviz
-  - src-openeuler/python-h5py
   - src-openeuler/python-hpack
   - src-openeuler/python-httpbin
   - src-openeuler/python-hyperframe
   - src-openeuler/python-jmespath
   - src-openeuler/python-Keras
   - src-openeuler/python-keras-applications
-  - src-openeuler/python-Keras_Preprocessing
   - src-openeuler/python-latexcodec
   - src-openeuler/python-m2r
   - src-openeuler/python-matplotlib
   - src-openeuler/python-mistune
-  - src-openeuler/python-netifaces
-  - src-openeuler/python-networkx
   - src-openeuler/python-numexpr
   - src-openeuler/python-numpydoc
   - src-openeuler/python-orderedset
@@ -3796,7 +3800,6 @@ sigs:
   - src-openeuler/python-pathlib
   - src-openeuler/python-pexpect
   - src-openeuler/python-pickleshare
-  - src-openeuler/python-pkgconfig
   - src-openeuler/python-priority
   - src-openeuler/python-prompt_toolkit
   - src-openeuler/python-ptyprocess
@@ -3843,9 +3846,7 @@ sigs:
   - src-openeuler/teckit
   - src-openeuler/tesla-polyglot
   - src-openeuler/thx
-  - src-openeuler/tinyxml
   - src-openeuler/tomcat-native
-  - src-openeuler/tslib
   - src-openeuler/ttembed
   - src-openeuler/ttfautohint
   - src-openeuler/ubu-keyring
@@ -6309,6 +6310,7 @@ sigs:
   - src-openeuler/python-gntp
   - src-openeuler/python-gnupg
   - src-openeuler/python-google-auth
+  - src-openeuler/python-google-auth-oauthlib
   - src-openeuler/python-google-compute-engine
   - src-openeuler/python-gpxpy
   - src-openeuler/python-grabbit
@@ -6939,6 +6941,8 @@ sigs:
   - src-openeuler/python-multipledispatch
   - src-openeuler/python3-docs
   - src-openeuler/python-concurrent-log-handler
+  - src-openeuler/python-glanceclient
+  - src-openeuler/python-openstackclient   
 - name: sig-release-management
   repositories:
   - src-openeuler/openEuler-lsb
@@ -7132,9 +7136,31 @@ sigs:
   - src-openeuler/openstack-swift
   - src-openeuler/openstack-neutron
   - src-openeuler/openstack-keystone
+  - src-openeuler/openstack-glance
 - name: sig-wine
   repositories:
   - src-openeuler/wine
+  - src-openeuler/bullet
+  - src-openeuler/cloog
+  - src-openeuler/efl
+  - src-openeuler/FAudio
+  - src-openeuler/isl
+  - src-openeuler/jack-audio-connection-kit
+  - src-openeuler/libffado
+  - src-openeuler/libxmlpp
+  - src-openeuler/mingw-binutils
+  - src-openeuler/mingw-crt
+  - src-openeuler/mingw-filesystem
+  - src-openeuler/mingw-gcc
+  - src-openeuler/mingw-headers
+  - src-openeuler/mingw-wine-gecko
+  - src-openeuler/mingw-winpthreads
+  - src-openeuler/spirv-headers
+  - src-openeuler/spirv-tools
+  - src-openeuler/tinyxml
+  - src-openeuler/tslib
+  - src-openeuler/vkd3d
+  - src-openeuler/wine-mono
 - name: sig-OS-Builder
   repositories:
   - src-openeuler/anaconda
@@ -7233,3 +7259,7 @@ sigs:
   - src-openeuler/kdecoration
   - src-openeuler/kwin
   - src-openeuler/plasma-breeze
+- name: sig-DyscheOS
+  repositories:
+  - openeuler/DyscheOS-kernel
+  - openeuler/DyscheOS-utils

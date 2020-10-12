@@ -1833,11 +1833,12 @@ repositories:
   - openEuler-20.09
   type: public
 - name: bullet
-  description: ''
+  description: 'Bullet is a 3D Collision Detection and Rigid Body Dynamics Library for games and animation.'
+  upstream: http://www.bulletphysics.com
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: busybox
   description: ''
   protected_branches:
@@ -4041,11 +4042,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: efl
-  description: ''
+  description: 'Collection of Enlightenment libraries.'
+  upstream: http://enlightenment.org/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: egl-wayland
   description: ''
   protected_branches:
@@ -9028,11 +9030,12 @@ repositories:
   - openEuler-20.09
   type: public
 - name: jack-audio-connection-kit
-  description: ''
+  description: 'The Jack Audio Connection Kit.'
+  upstream: https://github.com/jackaudio/jack2
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: jackson
   description: Jackson Java JSON-processor
   upstream: https://github.com/codehaus/jackson
@@ -11286,11 +11289,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: libffado
-  description: ''
+  description: 'Free firewire audio driver library.'
+  upstream: http://www.ffado.org/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: libffi
   description: ''
   protected_branches:
@@ -13341,11 +13345,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: libxmlpp
-  description: ''
+  description: 'C++ wrapper for the libxml2 XML parser library.'
+  upstream: http://libxmlplusplus.sourceforge.net/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: libxshmfence
   description: ''
   protected_branches:
@@ -14824,23 +14829,26 @@ repositories:
   - openEuler-20.09
   type: public
 - name: mingw-crt
-  description: ''
+  description: 'MinGW Windows cross-compiler runtime, base libraries for the win32 target.'
+  upstream: http://mingw-w64.sourceforge.net/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: mingw-filesystem
-  description: ''
+  description: 'MinGW cross compiler base filesystem and environment.'
+  upstream: http://fedoraproject.org/wiki/MinGW
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: mingw-gcc
-  description: ''
+  description: 'MinGW Windows cross-compiler (GCC) for C.'
+  upstream: http://gcc.gnu.org
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: mingw-spice-vdagent
   description: ''
   protected_branches:
@@ -29849,11 +29857,12 @@ repositories:
   - openEuler-20.09
   type: private
 - name: python-Keras_Preprocessing
-  description: ''
+  upstream: https://github.com/keras-team/keras-preprocessing
+  description: Utilities for working with image data, text data, and sequence data
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: python-Lasagne
   upstream: https://github.com/Lasagne/Lasagne
   description: A lightweight library to build and train neural networks in Theano
@@ -33452,11 +33461,12 @@ repositories:
   - openEuler-20.09
   type: public
 - name: python-h5py
-  description: ''
+  upstream: https://pypi.org/project/h5py
+  description: 'a Pythonic interface to the HDF5 binary data format'
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: python-hamcrest
   description: ''
   protected_branches:
@@ -34955,17 +34965,19 @@ repositories:
   - openEuler-20.09
   type: public
 - name: python-netifaces
-  description: ''
+  upstream: https://github.com/al45tair/netifaces
+  description: 'Portable network interface information'
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: python-networkx
+  upstream: https://github.com/networkx/networkx
   description: python package for the study of complex network
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: python-ngram
   upstream: http://github.com/gpoulter/python-ngram
   description: A `set` subclass providing fuzzy search based on N-grams.
@@ -35710,11 +35722,12 @@ repositories:
   - openEuler-20.09
   type: public
 - name: python-pkgconfig
-  description: ''
+  upstream: https://pypi.org/project/pkgconfig
+  description: 'pkgconfig is a Python module to interface with the pkg-config command line tool and supports Python 2.6+ and 3.3+'
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: python-pkginfo
   upstream: https://code.launchpad.net/~tseaver/pkginfo/trunk
   description: Query metadatdata from sdists / bdists / installed packages.
@@ -42356,11 +42369,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: tinyxml
-  description: ''
+  description: 'A simple, small, C++ XML parser.'
+  upstream: https://sourceforge.net/projects/tinyxml/
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: tinyxml2
   description: ''
   protected_branches:
@@ -42613,11 +42627,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: tslib
-  description: ''
+  description: 'Touchscreen Access Library.'
+  upstream: https://github.com/kergoth/tslib
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: ttembed
   description: ''
   protected_branches:
@@ -44098,6 +44113,72 @@ repositories:
   - master
   - openEuler-20.09
   type: private
+- name: cloog
+  description: 'CLooG is a software which generates loops for scanning Z-polyhedra.'
+  upstream: http://repo.or.cz/w/cloog.git
+  protected_branches:
+  - master
+  type: public
+- name: FAudio
+  description: 'FNA is a reimplementation of the Microsoft XNA Game Studio 4.0 Refresh libraries.'
+  upstream: https://fna-xna.github.io/
+  protected_branches:
+  - master
+  type: public
+- name: isl
+  description: 'isl is a library for manipulating sets and relations of integer points bounded by linear constraints.'
+  upstream: http://isl.gforge.inria.fr/
+  protected_branches:
+  - master
+  type: public
+- name: mingw-binutils
+  description: 'Cross-compiled version of binutils for Win32 and Win64 environments.'
+  upstream: http://www.gnu.org/software/binutils/
+  protected_branches:
+  - master
+  type: public
+- name: mingw-headers
+  description: 'MinGW Windows cross-compiler Win64 header files.'
+  upstream: http://mingw-w64.sourceforge.net/
+  protected_branches:
+  - master
+  type: public
+- name: mingw-wine-gecko
+  description: 'Windows Gecko library required for Wine.'
+  upstream: http://wiki.winehq.org/Gecko
+  protected_branches:
+  - master
+  type: public
+- name: mingw-winpthreads
+  description: 'MinGW pthread library.'
+  upstream: http://mingw-w64.sourceforge.net/
+  protected_branches:
+  - master
+  type: public
+- name: spirv-headers
+  description: 'Header files from the SPIR-V registry.'
+  upstream: https://github.com/KhronosGroup
+  protected_branches:
+  - master
+  type: public
+- name: spirv-tools
+  description: 'API and commands for processing SPIR-V modules.'
+  upstream: https://github.com/KhronosGroup/SPIRV-Tools
+  protected_branches:
+  - master
+  type: public
+- name: vkd3d
+  description: 'D3D12 to Vulkan translation library.'
+  upstream: https://source.winehq.org/git/vkd3d.git
+  protected_branches:
+  - master
+  type: public
+- name: wine-mono
+  description: 'Windows Mono library required for Wine.'
+  upstream: https://github.com/madewokherd/wine-mono
+  protected_branches:
+  - master
+  type: public
 - name: wine
   description: 'allow Apps developed for Microsoft Windows to run on Unix-like operating systems'
   upstream: https://github.com/wine-mirror/wine
@@ -46097,6 +46178,78 @@ repositories:
   protected_branches:
   - master
   - openEuler-20.09
+  type: public
+- name: python-hyperopt
+  description: 'Distributed Asynchronous Hyperparameter Optimization in Python'
+  upstream: https://github.com/hyperopt/hyperopt
+  protected_branches:
+  - master
+  type: public
+- name: python-nni
+  description: 'An open source AutoML toolkit for automate machine learning lifecycle'
+  upstream: https://github.com/microsoft/nni
+  protected_branches:
+  - master
+  type: public
+- name: python-astor
+  description: 'astor is designed to allow easy manipulation of Python source via the AST'
+  upstream: https://github.com/berkerpeksag/astor
+  protected_branches:
+  - master
+  type: public
+- name: python-json-tricks
+  description: 'The pyjson-tricks package brings several pieces of functionality to python handling of json files'
+  upstream: https://github.com/mverleg/pyjson_tricks
+  protected_branches:
+  - master
+  type: public
+- name: python-pythonwebhdfs
+  description: 'Customized Python WebHDFS client'
+  upstream: https://pypi.org/project/PythonWebHDFS
+  protected_branches:
+  - master
+  type: public
+- name: python-absl-py
+  description: 'Abseil Python Common Libraries'
+  upstream: https://pypi.org/project/absl-py
+  protected_branches:
+  - master
+  type: public
+- name: python-google-pasta
+  description: 'Library to refactor python code through AST manipulation'
+  upstream: https://pypi.org/project/google-pasta
+  protected_branches:
+  - master
+  type: public
+- name: python-opt-einsum
+  description: 'A tensor contraction order optimizer'
+  upstream: https://pypi.org/project/opt-einsum
+  protected_branches:
+  - master
+  type: public
+- name: python-tensorboard
+  description: TensorFlow's Visualization Toolkit
+  upstream: https://github.com/tensorflow/tensorboard
+  protected_branches:
+  - master
+  type: public
+- name: python-estimator
+  description: TensorFlow Estimator
+  upstream: https://github.com/tensorflow/estimator
+  protected_branches:
+  - master
+  type: public
+- name: python-google-auth-oauthlib
+  description: Google Authentication Library
+  upstream: https://github.com/googleapis/google-auth-library-python-oauthlib
+  protected_branches:
+  - master
+  type: public
+- name: python-tensorboard-plugin-wit
+  description: What-If Tool TensorBoard plugin.
+  upstream: https://pypi.org/project/tensorboard-plugin-wit
+  protected_branches:
+  - master
   type: public
 - name: python-lhsmdu
   description: 'A python package for generating latin hypercube samples with multi-dimensional uniformity'
@@ -52712,3 +52865,21 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: openstack-glance
+  description: Glance is an OpenStack project that provides services and associated libraries to store, browse, share, distribute and manage bootable disk images, other data closely associated with initializing compute resources, and metadata definitions.
+  upstream: https://github.com/openstack/glance
+  protected_branches:
+  - master
+  type: public
+- name: python-glanceclient
+  description: This is a client library for Glance built on the OpenStack Images API. It provides a Python API (the glanceclient module) and a command-line tool (glance). This library fully supports the v1 Images API, while support for the v2 API is in progress.
+  upstream: https://github.com/openstack/python-glanceclient
+  protected_branches:
+  - master
+  type: public
+- name: python-openstackclient
+  description: OpenStackClient (aka OSC) is a command-line client for OpenStack that brings the command set for Compute, Identity, Image, Network, Object Store and Block Storage APIs together in a single shell with a uniform command structure.
+  upstream: https://github.com/openstack/python-openstackclient
+  protected_branches:
+  - master
+  type: public  

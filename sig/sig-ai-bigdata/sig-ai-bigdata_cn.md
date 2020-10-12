@@ -29,90 +29,92 @@
 
 # 该SIG管理的repository及描述
 
-- https://gitee.com/src-openeuler/jupyter:  
-  Jupyter is an environment for interactive computing in multiple languages.
-- https://gitee.com/src-openeuler/tensorflow:     
+- [jupyter](https://gitee.com/src-openeuler/jupyter): 
+  An environment for interactive computing in multiple languages
+- [tensorflow](https://gitee.com/src-openeuler/tensorflow): 
   A framework for deep learning
-- https://gitee.com/src-openeuler/hadoop:  
+- [hadoop](https://gitee.com/src-openeuler/hadoop): 
   A software platform for processing vast amounts of data
-- https://gitee.com/src-openeuler/libsvm:  
+- [libsvm](https://gitee.com/src-openeuler/libsvm): 
   A Library for Support Vector Machines
-- https://gitee.com/src-openeuler/libhdfs:  
+- [libhdfs](https://gitee.com/src-openeuler/libhdfs): 
   The Apache Hadoop Filesystem Library
-- https://gitee.com/src-openeuler/ComputeLibrary:  
+- [ComputeLibrary](https://gitee.com/src-openeuler/ComputeLibrary): 
   ARM Compute Library
-- https://gitee.com/src-openeuler/Shark:  
+- [Shark](https://gitee.com/src-openeuler/Shark): 
   C++ machine learning library
-- https://gitee.com/src-openeuler/arm-ml-examples:  
+- [arm-ml-examples](https://gitee.com/src-openeuler/arm-ml-examples): 
   Machine learning examples used in Arm's ML developer space
-- https://gitee.com/src-openeuler/armnn:  
+- [armnn](https://gitee.com/src-openeuler/armnn): 
   Arm NN SDK enables machine learning workloads on power-efficient devices
-- https://gitee.com/src-openeuler/libmetal:  
+- [libmetal](https://gitee.com/src-openeuler/libmetal): 
   Bare metal interaction APIs
-- https://gitee.com/src-openeuler/oneDNN:  
+- [oneDNN](https://gitee.com/src-openeuler/oneDNN): 
   Intel(R) Math Kernel Library for Deep Neural Networks
-- https://gitee.com/src-openeuler/pytorch:  
+- [pytorch](https://gitee.com/src-openeuler/pytorch): 
   python deep learning framework
-- https://gitee.com/src-openeuler/SuperLUMT:  
+- [SuperLUMT](https://gitee.com/src-openeuler/SuperLUMT): 
   Single precision real SuperLU routines for shared memory parallel machines
-- https://gitee.com/src-openeuler/gl2ps:  
+- [gl2ps](https://gitee.com/src-openeuler/gl2ps): 
   An OpenGL to PostScript printing library
-- https://gitee.com/src-openeuler/glpk:  
+- [glpk](https://gitee.com/src-openeuler/glpk): 
   GNU Linear Programming Kit
-- https://gitee.com/src-openeuler/lzip:  
+- [lzip](https://gitee.com/src-openeuler/lzip): 
   Lossless file compressor based on the LZMA algorithm
-- https://gitee.com/src-openeuler/octave:  
+- [octave](https://gitee.com/src-openeuler/octave): 
   A high-level language for numerical computations
-- https://gitee.com/src-openeuler/qrupdate:  
+- [qrupdate](https://gitee.com/src-openeuler/qrupdate): 
   A Fortran library for fast updates of QR and Cholesky decompositions
-- https://gitee.com/src-openeuler/sundials:  
+- [sundials](https://gitee.com/src-openeuler/sundials): 
   Suite of nonlinear solvers
-- https://gitee.com/src-openeuler/opencl-headers:  
+- [opencl-headers](https://gitee.com/src-openeuler/opencl-headers):  
   OpenCL (Open Computing Language) header files
-- https://gitee.com/src-openeuler/eigen:  
+- [eigen](https://gitee.com/src-openeuler/eigen): 
   a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.
-- https://gitee.com/src-openeuler/opencl:  
+- [opencl](https://gitee.com/src-openeuler/opencl): 
   OpenCL ICD Bindings
-- https://gitee.com/src-openeuler/libxsmm:  
+- [libxsmm](https://gitee.com/src-openeuler/libxsmm): 
   Library targeting Intel Architecture for specialized dense and sparse matrix operations, and deep learning primitives.
-- https://gitee.com/src-openeuler/dlib:  
-  a modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++ to solve real world problems.
-- https://gitee.com/src-openeuler/opennn:  
-  an open source neural networks library for machine learning.
-- https://gitee.com/src-openeuler/mlpack:  
-  a fast, flexible machine learning library, written in C++
-- https://gitee.com/src-openeuler/ensmallen:  
-  flexible C++ library for efficient numerical optimization
-- https://gitee.com/src-openeuler/zookeeper:  
-  a high-performance service for building distributed applications
-- https://gitee.com/src-openeuler/kafka:  
+- [dlib](https://gitee.com/src-openeuler/dlib): 
+  A modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++ to solve real world problems.
+- [opennn](https://gitee.com/src-openeuler/opennn): 
+  An open source neural networks library for machine learning.
+- [mlpack](https://gitee.com/src-openeuler/mlpack): 
+  A fast, flexible machine learning library, written in C++
+- [ensmallen](https://gitee.com/src-openeuler/ensmallen): 
+  A flexible C++ library for efficient numerical optimization
+- [zookeeper](https://gitee.com/src-openeuler/zookeeper): 
+  A high-performance service for building distributed applications
+- [kafka](https://gitee.com/src-openeuler/kafka): 
   A Distributed Streaming Platform
-- https://gitee.com/src-openeuler/incubator-mxnet:  
+- [incubator-mxnet](https://gitee.com/src-openeuler/incubator-mxnet): 
   Apache MXNet (incubating) is a deep learning framework designed for both efficiency and flexibility.
-- https://gitee.com/src-openeuler/opencv:  
+- [opencv](https://gitee.com/src-openeuler/opencv): 
   OpenCV means Intel® Open Source Computer Vision Library.
-- https://gitee.com/src-openeuler/ibis:  
-  Ibis is a toolbox to bridge the gap between local Python environments, remote storage, execution systems like Hadoop components (HDFS, Impala, Hive, Spark) and SQL databases. Its goal is to simplify analytical workflows and make you more productive.
-- https://gitee.com/src-openeuler/presto:  
-  Presto is a distributed SQL query engine for big data.
-- https://gitee.com/src-openeuler/rain:  
-  Rain is an open-source distributed computational framework for processing of large-scale task-based pipelines.
+- [ibis](https://gitee.com/src-openeuler/ibis): 
+  A toolbox to bridge the gap between local Python environments, remote storage, execution systems like Hadoop components (HDFS, Impala, Hive, Spark) and SQL databases. Its goal is to simplify analytical workflows and make you more productive.
+- [presto](https://gitee.com/src-openeuler/presto): 
+  A distributed SQL query engine for big data.
+- [rain](https://gitee.com/src-openeuler/rain): 
+  An open-source distributed computational framework for processing of large-scale task-based pipelines.
 
 # 基本信息
 
 ## 项目介绍
-    https: /gitee.com/openeuler/community/sig/sig-ai-bigdata/
+    [详情](https://gitee.com/openeuler/community/sig/sig-ai-bigdata/)
 
 ## Maintainers
-  - sinever
-  - hubble_zhu
-  - myeuler
+  - [sinever](https://gitee.com/sinever)
+  - [hubble_zhu](https://gitee.com/hubble_zhu)
+  - [myeuler](https://gitee.com/myeuler)
 
 ## Committers
-  - sinever
+  - [sinever](https://gitee.com/sinever)
 
 ## 邮件列表
-  - sig-ai-bigdata@openeuler.org
+  - sig-ai-bigdata@openeuler.org  
+  [点击订阅](https://openeuler.org/zh/community/mailing-list/)  
+  [历史信息](https://mailweb.openeuler.org/hyperkitty/list/sig-ai-bigdata@openeuler.org/)  
 
 ## 路线图
  ![roadmap](./sig-road-map.jpg)
