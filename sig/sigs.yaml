@@ -1065,7 +1065,6 @@ sigs:
   - src-openeuler/gnome-font-viewer
   - src-openeuler/perl-Net-CIDR-Lite
   - src-openeuler/python-pandas
-  - src-openeuler/gnome-icon-theme-symbolic
   - src-openeuler/sblim-sfcCommon
   - src-openeuler/perl-Net-Server
   - src-openeuler/jfsutils
@@ -1135,13 +1134,11 @@ sigs:
   - src-openeuler/phodav
   - src-openeuler/perl-Package-Generator
   - src-openeuler/re2
-  - src-openeuler/gnome-python2
   - src-openeuler/mt-st
   - src-openeuler/cldr-emoji-annotation
   - src-openeuler/qtwebkit
   - src-openeuler/festival
   - src-openeuler/gcab
-  - src-openeuler/gnome-icon-theme-extras
   - src-openeuler/libmypaint
   - src-openeuler/perl-Unicode-EastAsianWidth
   - src-openeuler/perl-Tk
@@ -4289,6 +4286,9 @@ sigs:
 - name: sig-recycle
   repositories:
   - src-openeuler/cmockery
+  - src-openeuler/gnome-icon-theme-extras
+  - src-openeuler/gnome-icon-theme-symbolic
+  - src-openeuler/gnome-python2
   - src-openeuler/jasper
   - src-openeuler/liberation-sans-fonts
   - src-openeuler/libibmad
