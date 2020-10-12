@@ -7,19 +7,21 @@
 
 # 组织会议
 
-- 公开的会议时间：北京时间，每周四 下午， 3点30分 ~ 4点30分
+- 公开的会议时间：NA
+- 邮件讨论为主，涉及决策的内容，TC会议申报议题
 
 # 成员
 
 ### Maintainers列表
 
--   严安[@yanan-rock](https://gitee.com/yanan-rock)
+- 赵伟[@seuzw](<https://gitee.com/seuzw>)
+- 曾卫峰[@zengweifeng](<https://gitee.com/zengweifeng>)
 - 王晓鹏[@wangxp006](<https://gitee.com/wangxp006>)
 
 ###  Committers列表
 
-- 赵伟[@seuzw](<https://gitee.com/seuzw>)
-- 郭德庆[@guodeqing](<https://gitee.com/guodeqing>)
+Everyone could send patches to openEuler.
+
 
 #  联系方式
 
