@@ -27,14 +27,10 @@
 - [邮件列表](dev@openeuler.org)
 
 
-## 项目清单
+## 仓库内容
+
+- 源代码文件
+- 源代码tar包
+- spec文件
 
 
-###项目名称：
-
-repository地址：
-
-- https://gitee.com/src-openeuler/openstack-nova
-- https://gitee.com/src-openeuler/openstack-python-novaclient
-- https://gitee.com/src-openeuler/openstack-swift
-- https://gitee.com/src-openeuler/openstack-neutron
