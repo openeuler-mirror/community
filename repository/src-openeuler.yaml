@@ -45682,6 +45682,18 @@ repositories:
   - master
   - openEuler-20.09
   type: public
+- name: test-tools
+  description: tools for improve test efficiency
+  upstream: https://gitee.com/openeuler/test-tools
+  protected_branches:
+  - master
+  type: public
+- name: integration-test
+  description: openEuler integration testcases
+  upstream: https://gitee.com/openeuler/integration-test
+  protected_branches:
+  - master
+  type: public
 - name: std_msgs
   description: std_msgs package that belongs to THE ROS-COMM
   upstream: https://github.com/ros/std_msgs
