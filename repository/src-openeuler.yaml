@@ -29871,11 +29871,18 @@ repositories:
   - openEuler-20.09
   type: public
 - name: python-Keras
-  description: ''
+  upstream: https://github.com/keras-team/keras
+  description: Keras is a high-level neural networks API for Python
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
+- name: python-keras-rl2
+  upstream: https://github.com/wau/keras-rl2
+  description: Deep Reinforcement Learning for Tensorflow 2 Keras
+  protected_branches:
+  - master
+  type: public
 - name: python-Keras_Preprocessing
   upstream: https://github.com/keras-team/keras-preprocessing
   description: Utilities for working with image data, text data, and sequence data
