@@ -45668,6 +45668,12 @@ repositories:
   - openEuler-20.09
   - openEuler-20.03-LTS
   type: public
+- name: openEuler-Advisor
+  description: collection of automation tools for easily maintaining openEuler
+  upstream: https://gitee.com/openeuler/openEuler-Advisor
+  protected_branches:
+  - master
+  type: public
 - name: pkgship
   description: a package depend query tool
   upstream: https://gitee.com/openeuler/openEuler-Advisor
