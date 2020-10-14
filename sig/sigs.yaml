@@ -7235,6 +7235,8 @@ sigs:
 - name: sig-confidential-computing
   repositories:
   - src-openeuler/linux-sgx
+  - src-openeuler/linux-sgx-driver
+  - src-openeuler/intel-sgx-ssl
   - openeuler/secGear
 - name: sig-Kubernetes
   repositories:
