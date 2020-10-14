@@ -52915,3 +52915,27 @@ repositories:
   protected_branches:
   - master
   type: public  
+- name: NutShell-Kernel
+  description: Porting openEuler kernel to support NutShell UCAS COOSCA CPU.
+  upstream: https://gitee.com/openeuler/kernel/tree/kernel-4.19
+  protected_branches:
+  - master
+  type: public
+- name: NutShell-riscv-pk
+  description: bbl, dts, build system ant etc. to build kernel and bootloader to support openEuler OS running on NutShell UCAS COOSCA CPU.
+  upstream: https://github.com/OSCPU/riscv-pk
+  protected_branches:
+  - master
+  type: public
+- name: NutShell-systemd
+  description: Support openEuler OS run on NutShell UCAS COOSCA CPU in Xilinx FPGA PYNQ-Z2 emulation environment.
+  upstream: https://github.com/systemd/systemd
+  protected_branches:
+  - master
+  type: public
+- name: NutShell-riscv-glibc
+  description: riscv-glibc, for building openEuler OS running on NutShell UCAS COOSCA CPU.
+  upstream: https://github.com/riscv/riscv-glibc
+  protected_branches:
+  - master
+  type: public

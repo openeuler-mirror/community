@@ -4527,6 +4527,10 @@ sigs:
   - openeuler/RISC-V
   - src-openeuler/risc-v-kernel
   - src-openeuler/opensbi
+  - src-openeuler/NutShell-riscv-pk
+  - src-openeuler/NutShell-systemd
+  - src-openeuler/NutShell-Kernel
+  - src-openeuler/NutShell-riscv-glibc
 - name: sig-android-middleware
   repositories:
   - openeuler/android-emulator

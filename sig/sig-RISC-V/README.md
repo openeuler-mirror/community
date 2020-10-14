@@ -39,8 +39,21 @@ RISC-V 是一个免费开源的指令集（ISA）。RISC-V SIG 组旨在提供 o
 
 项目名称：
 
-repository地址：
+源码repository地址：
 
 - https://gitee.com/openeuler/RISC-V   RISC-V主仓，包含文档、工具和RISC-V工程配置
 - https://gitee.com/src-openeuler/opensbi  openSBI是“Open Source Supervisor Binary Interface”用于引导RISC-V系统的启动
 - https://gitee.com/src-openeuler/risc-v-kernel 用于openEuler RISC-V的kernel-5.5 Image 
+- https://gitee.com/src-openeuler/NutShell-riscv-pk 支持openEuler面向NutShell(果壳, UCAS)处理器bootloader,内核镜像,DST构建.
+- https://gitee.com/src-openeuler/NutShell-Kernel 支持openEuler面向NutShell(果壳, UCAS)处理器的内核源码、驱动、.config内核配置项等.
+- https://gitee.com/src-openeuler/NutShell-systemd 支持openEuler OS在NutShell UCAS COOSCA CPU运行，ttyPS0，udev等，处理器仿真环境为Xilinx FPGA PYNQ-Z2.
+- https://gitee.com/src-openeuler/NutShell-riscv-glibc 工具链的riscv glibc库，用于编译构建面向NutShell UCAS COOSCA处理器openEuler OS组件.
+
+RPM Repo和Image地址：
+
+- https://isrc.iscas.ac.cn/mirror/openeuler-sig-riscv/oe-RISCV-repo 面向RISC-V的RPM二进制包、SRPM源码包, 并提供软件包安装更新的repo服务.
+- https://isrc.iscas.ac.cn/mirror/openeuler-sig-riscv/images/ 根文件系统rootfs、虚拟磁盘镜像、内核、openSBI、BBL等二进制镜像材料.
+
+硬件平台支持:
+
+- https://isrc.iscas.ac.cn/mirror/openeuler-sig-riscv/images/NutShellUCAS/ 移植支持NutShell(果壳, UCAS) RISC-V处理器支持的镜像资源.
