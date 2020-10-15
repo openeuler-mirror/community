@@ -477,3 +477,8 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: patch-tracking
+  description: "A tool for automatically tracking upstream repository code patches"
+  protected_branches:
+  - master
+  type: public
