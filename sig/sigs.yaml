@@ -1579,7 +1579,6 @@ sigs:
   - src-openeuler/ivtv-firmware
   - src-openeuler/jansson
   - src-openeuler/jdeparser1
-  - src-openeuler/jdom
   - src-openeuler/jeromq
   - src-openeuler/jose
   - src-openeuler/jq
@@ -1687,9 +1686,6 @@ sigs:
   - src-openeuler/make
   - src-openeuler/man-db
   - src-openeuler/man-pages
-  - src-openeuler/maven-release
-  - src-openeuler/maven-replacer
-  - src-openeuler/maven-shared
   - src-openeuler/maven-verifier-plugin
   - src-openeuler/mcpp
   - src-openeuler/mecab
@@ -2493,6 +2489,7 @@ sigs:
   - src-openeuler/apache-commons-cli
   - src-openeuler/apache-commons-compress
   - src-openeuler/apache-commons-configuration
+  - src-openeuler/apache-commons-digester
   - src-openeuler/apache-commons-discovery
   - src-openeuler/apache-commons-exec
   - src-openeuler/apache-commons-io
@@ -2504,6 +2501,7 @@ sigs:
   - src-openeuler/apache-parent
   - src-openeuler/apache-resource-bundles
   - src-openeuler/apacheds
+  - src-openeuler/apacheds-ldap-api
   - src-openeuler/apiguardian
   - src-openeuler/aqute-bnd
   - src-openeuler/arquillian-core
@@ -2520,6 +2518,7 @@ sigs:
   - src-openeuler/byteman
   - src-openeuler/c3p0
   - src-openeuler/cassandra-java-driver
+  - src-openeuler/castor-maven-plugin
   - src-openeuler/cdi-api
   - src-openeuler/classmate
   - src-openeuler/codehaus-parent
@@ -2711,6 +2710,7 @@ sigs:
   - src-openeuler/jdiff
   - src-openeuler/jdo-api
   - src-openeuler/jdo2-api
+  - src-openeuler/jdom
   - src-openeuler/jdom2
   - src-openeuler/je
   - src-openeuler/jenkins-executable-war
@@ -2810,7 +2810,9 @@ sigs:
   - src-openeuler/maven-plugin-testing
   - src-openeuler/maven-plugin-tools
   - src-openeuler/maven-processor-plugin
+  - src-openeuler/maven-release
   - src-openeuler/maven-remote-resources-plugin
+  - src-openeuler/maven-replacer
   - src-openeuler/maven-reporting-api
   - src-openeuler/maven-reporting-exec
   - src-openeuler/maven-reporting-impl
@@ -2818,6 +2820,7 @@ sigs:
   - src-openeuler/maven-resources-plugin
   - src-openeuler/maven-script-interpreter
   - src-openeuler/maven-shade-plugin
+  - src-openeuler/maven-shared
   - src-openeuler/maven-shared-incremental
   - src-openeuler/maven-shared-io
   - src-openeuler/maven-shared-jar
@@ -3967,7 +3970,6 @@ sigs:
   - src-openeuler/ansible
   - src-openeuler/antlr
   - src-openeuler/apache-commons-collections4
-  - src-openeuler/apache-commons-digester
   - src-openeuler/apache-commons-fileupload
   - src-openeuler/apache-commons-jexl
   - src-openeuler/apache-commons-math
@@ -3975,7 +3977,6 @@ sigs:
   - src-openeuler/apache-log4j-extras
   - src-openeuler/apache-poi
   - src-openeuler/apache-sshd
-  - src-openeuler/apacheds-ldap-api
   - src-openeuler/apiviz
   - src-openeuler/aries-blueprint-api
   - src-openeuler/aries-quiesce-api
@@ -4000,7 +4001,6 @@ sigs:
   - src-openeuler/buildroot
   - src-openeuler/caffeine
   - src-openeuler/cal10n
-  - src-openeuler/castor-maven-plugin
   - src-openeuler/catch1
   - src-openeuler/cglib
   - src-openeuler/ck
