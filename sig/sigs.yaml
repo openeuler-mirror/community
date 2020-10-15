@@ -291,7 +291,6 @@ sigs:
   - src-openeuler/infiniband-diags
   - src-openeuler/iperf2
   - src-openeuler/iperf3
-  - src-openeuler/uperf
   - src-openeuler/irssi
   - src-openeuler/java-atk-wrapper
   - src-openeuler/javamail
@@ -346,6 +345,7 @@ sigs:
   - src-openeuler/lrzsz
   - src-openeuler/lsyncd
   - src-openeuler/lynx
+  - src-openeuler/maildrop
   - src-openeuler/mailman
   - src-openeuler/mc
   - src-openeuler/media-player-info
@@ -397,6 +397,7 @@ sigs:
   - src-openeuler/po4a
   - src-openeuler/pptp
   - src-openeuler/prelink
+  - src-openeuler/proftpd
   - src-openeuler/psacct
   - src-openeuler/psutils
   - src-openeuler/pylint
@@ -443,6 +444,7 @@ sigs:
   - src-openeuler/uid_wrapper
   - src-openeuler/units
   - src-openeuler/unrtf
+  - src-openeuler/uperf
   - src-openeuler/usb_modeswitch-data
   - src-openeuler/usbguard
   - src-openeuler/uwsgi
@@ -472,350 +474,353 @@ sigs:
 - name: Programming-language
   repositories:
   - src-openeuler/assertj-core
+  - src-openeuler/autoconf-archive
+  - src-openeuler/autoconf213
+  - src-openeuler/byacc
+  - src-openeuler/check
   - src-openeuler/cinnamon-translations
+  - src-openeuler/cmake
+  - src-openeuler/cmocka
+  - src-openeuler/cppcheck
+  - src-openeuler/cppunit
+  - src-openeuler/crash-gcore-command
+  - src-openeuler/crash-trace-command
+  - src-openeuler/cscope
+  - src-openeuler/cvs
+  - src-openeuler/Cython
+  - src-openeuler/dejagnu
+  - src-openeuler/dotconf
+  - src-openeuler/egl-wayland
+  - src-openeuler/eglexternalplatform
+  - src-openeuler/enchant2
+  - src-openeuler/erlang
+  - src-openeuler/erlang-eflame
+  - src-openeuler/erlang-erlsyslog
+  - src-openeuler/erlang-erlydtl
+  - src-openeuler/erlang-getopt
+  - src-openeuler/erlang-gettext
+  - src-openeuler/erlang-hamcrest
+  - src-openeuler/erlang-lfe
+  - src-openeuler/erlang-meck
+  - src-openeuler/erlang-mustache
+  - src-openeuler/erlang-neotoma
+  - src-openeuler/erlang-proper
+  - src-openeuler/erlang-rpm-macros
+  - src-openeuler/erlang-sd_notify
+  - src-openeuler/fakeroot
+  - src-openeuler/flatpak
+  - src-openeuler/gflags
+  - src-openeuler/glib
   - src-openeuler/gmavenplus-plugin
+  - src-openeuler/gnome-common
+  - src-openeuler/gnome-user-docs
+  - src-openeuler/gnu-efi
+  - src-openeuler/go-compilers
+  - src-openeuler/gperf
+  - src-openeuler/gspell
+  - src-openeuler/gssdp
+  - src-openeuler/gstreamer1-plugins-bad-free
+  - src-openeuler/gtest
+  - src-openeuler/gtk-vnc
+  - src-openeuler/gupnp
+  - src-openeuler/gupnp-igd
+  - src-openeuler/help2man
+  - src-openeuler/ilmbase
+  - src-openeuler/intel-cmt-cat
+  - src-openeuler/intltool
+  - src-openeuler/iowatcher
+  - src-openeuler/itstool
   - src-openeuler/jboss-el
-  - src-openeuler/spock
-  - src-openeuler/mockito
+  - src-openeuler/jimtcl
+  - src-openeuler/jsoncpp
   - src-openeuler/keepalived
+  - src-openeuler/lapack
+  - src-openeuler/libappstream-glib
+  - src-openeuler/libdbusmenu
+  - src-openeuler/libdv
+  - src-openeuler/libdwarf
+  - src-openeuler/libell
+  - src-openeuler/libfabric
+  - src-openeuler/libgnome-keyring
+  - src-openeuler/libimagequant
+  - src-openeuler/libindicator
+  - src-openeuler/libmemcached
+  - src-openeuler/libpfm
+  - src-openeuler/LibRaw
+  - src-openeuler/librdkafka
+  - src-openeuler/librelp
+  - src-openeuler/libspectre
+  - src-openeuler/libsrtp
+  - src-openeuler/libstemmer
+  - src-openeuler/libuv
+  - src-openeuler/libXp
+  - src-openeuler/libXScrnSaver
+  - src-openeuler/libzip
+  - src-openeuler/ltrace
+  - src-openeuler/lua-filesystem
+  - src-openeuler/lua-lunit
+  - src-openeuler/lua-posix
+  - src-openeuler/mallard-rng
+  - src-openeuler/meanwhile
+  - src-openeuler/meson
+  - src-openeuler/mockito
+  - src-openeuler/mpich
+  - src-openeuler/mvapich2
+  - src-openeuler/nasm
   - src-openeuler/ndisc6
+  - src-openeuler/neon
+  - src-openeuler/nim
+  - src-openeuler/ninja-build
+  - src-openeuler/nototools
+  - src-openeuler/numpy
+  - src-openeuler/nvml
+  - src-openeuler/obs-env
+  - src-openeuler/ocaml
+  - src-openeuler/labltk
+  - src-openeuler/ocaml-ocamlbuild
+  - src-openeuler/openblas
+  - src-openeuler/openscap
+  - src-openeuler/pangomm
+  - src-openeuler/papi
+  - src-openeuler/perl-Archive-Zip
+  - src-openeuler/perl-Authen-SASL
+  - src-openeuler/perl-Bit-Vector
+  - src-openeuler/perl-Capture-Tiny
+  - src-openeuler/perl-Carp-Clan
+  - src-openeuler/perl-Config-AutoConf
+  - src-openeuler/perl-Crypt-OpenSSL-Random
+  - src-openeuler/perl-Crypt-OpenSSL-RSA
+  - src-openeuler/perl-Data-Dump
+  - src-openeuler/perl-Data-OptList
+  - src-openeuler/perl-Data-Section
+  - src-openeuler/perl-Data-UUID
+  - src-openeuler/perl-Date-Calc
+  - src-openeuler/perl-Date-Manip
+  - src-openeuler/perl-Devel-CheckLib
+  - src-openeuler/perl-Digest-HMAC
+  - src-openeuler/perl-ExtUtils-CBuilder
+  - src-openeuler/perl-Fedora-VSP
+  - src-openeuler/perl-File-Listing
+  - src-openeuler/perl-File-Slurp
+  - src-openeuler/perl-Font-TTF
+  - src-openeuler/perl-generators
+  - src-openeuler/perl-gettext
+  - src-openeuler/perl-HTML-Parser
+  - src-openeuler/perl-HTML-Tagset
+  - src-openeuler/perl-HTTP-Cookies
+  - src-openeuler/perl-HTTP-Date
+  - src-openeuler/perl-HTTP-Message
+  - src-openeuler/perl-HTTP-Negotiate
+  - src-openeuler/perl-inc-latest
+  - src-openeuler/perl-IO-HTML
+  - src-openeuler/perl-IO-Socket-INET6
+  - src-openeuler/perl-IO-String
+  - src-openeuler/perl-JSON
+  - src-openeuler/perl-libintl-perl
+  - src-openeuler/perl-libwww-perl
+  - src-openeuler/perl-libxml-perl
+  - src-openeuler/perl-LWP-MediaTypes
+  - src-openeuler/perl-LWP-Protocol-https
+  - src-openeuler/perl-Mail-DKIM
+  - src-openeuler/perl-MailTools
+  - src-openeuler/perl-Module-Build
   - src-openeuler/perl-Module-Install-ReadmeFromPod
   - src-openeuler/perl-Module-Install-ReadmeMarkdownFromPod
   - src-openeuler/perl-Module-Install-Repository
   - src-openeuler/perl-Module-Manifest-Skip
   - src-openeuler/perl-Module-Package
   - src-openeuler/perl-Module-Package-Au
+  - src-openeuler/perl-Module-Runtime
   - src-openeuler/perl-Module-ScanDeps
   - src-openeuler/perl-Moo
-  - src-openeuler/perl-Path-Class
-  - src-openeuler/perl-Role-Tiny
-  - src-openeuler/perl-strictures
-  - src-openeuler/libimagequant
-  - src-openeuler/perl-Crypt-OpenSSL-Random
-  - src-openeuler/python-psutil
-  - src-openeuler/perl-NTLM
-  - src-openeuler/python-entrypoints
-  - src-openeuler/gnu-efi
-  - src-openeuler/libzip
-  - src-openeuler/libdwarf
-  - src-openeuler/ltrace
-  - src-openeuler/python-which
-  - src-openeuler/perl-Software-License
-  - src-openeuler/xcb-util-keysyms
-  - src-openeuler/xcb-util-cursor
-  - src-openeuler/autoconf213
-  - src-openeuler/perl-Pod-Markdown
-  - src-openeuler/gperf
-  - src-openeuler/xdelta
-  - src-openeuler/python-iso8601
-  - src-openeuler/python-sphinx-theme-alabaster
-  - src-openeuler/perl-Sub-Install
-  - src-openeuler/enchant2
-  - src-openeuler/perl-Capture-Tiny
-  - src-openeuler/gssdp
-  - src-openeuler/uuid
-  - src-openeuler/mpich
-  - src-openeuler/python-attrs
-  - src-openeuler/perl-SGMLSpm
-  - src-openeuler/librelp
-  - src-openeuler/python-imagesize
-  - src-openeuler/perl-Path-Tiny
-  - src-openeuler/python-paramiko
-  - src-openeuler/python-sphinx
-  - src-openeuler/nvml
-  - src-openeuler/python-virtualenv
-  - src-openeuler/python-configparser
-  - src-openeuler/perl-Config-AutoConf
-  - src-openeuler/xorg-x11-proto-devel
-  - src-openeuler/qt5-qtwebsockets
-  - src-openeuler/perl-WWW-RobotRules
-  - src-openeuler/python-pluggy
-  - src-openeuler/qt5-qtsensors
-  - src-openeuler/python-funcsigs
-  - src-openeuler/pywbem
-  - src-openeuler/qt5-qtquickcontrols
-  - src-openeuler/libuv
-  - src-openeuler/qt5-qtx11extras
-  - src-openeuler/perl-Data-UUID
-  - src-openeuler/python-traceback2
-  - src-openeuler/perl-Text-Unidecode
-  - src-openeuler/dotconf
-  - src-openeuler/python-scons
-  - src-openeuler/perl-YAML-Tiny
-  - src-openeuler/mallard-rng
-  - src-openeuler/itstool
-  - src-openeuler/crash-gcore-command
-  - src-openeuler/intel-cmt-cat
-  - src-openeuler/qt5-qtdeclarative
-  - src-openeuler/qt5-qtquickcontrols2
-  - src-openeuler/byacc
-  - src-openeuler/numpy
-  - src-openeuler/python-enchant
-  - src-openeuler/rpmlint
-  - src-openeuler/perl-HTTP-Message
-  - src-openeuler/libindicator
-  - src-openeuler/libappstream-glib
-  - src-openeuler/iowatcher
-  - src-openeuler/python-wheel
-  - src-openeuler/perl-NetAddr-IP
-  - src-openeuler/cppunit
-  - src-openeuler/perl-Authen-SASL
-  - src-openeuler/libpfm
-  - src-openeuler/python-pyasn1
-  - src-openeuler/perl-LWP-MediaTypes
-  - src-openeuler/perl-Try-Tiny
-  - src-openeuler/perl-gettext
-  - src-openeuler/perl-Date-Calc
-  - src-openeuler/python-unittest2
-  - src-openeuler/check
-  - src-openeuler/tix
-  - src-openeuler/python-dns
-  - src-openeuler/python-atomicwrites
-  - src-openeuler/perl-IO-Socket-INET6
-  - src-openeuler/cmocka
-  - src-openeuler/qt5-qtxmlpatterns
-  - src-openeuler/perl-IO-HTML
-  - src-openeuler/ninja-build
-  - src-openeuler/socket_wrapper
-  - src-openeuler/perl-Module-Build
-  - src-openeuler/pygobject2
-  - src-openeuler/lua-posix
-  - src-openeuler/python-snowballstemmer
-  - src-openeuler/lua-lunit
-  - src-openeuler/qt5-qtconnectivity
-  - src-openeuler/qt5-qtsvg
-  - src-openeuler/vte291
-  - src-openeuler/python-cryptography-vectors
-  - src-openeuler/python-lit
-  - src-openeuler/xcb-util-renderutil
-  - src-openeuler/jimtcl
-  - src-openeuler/perl-MailTools
-  - src-openeuler/python-pygments
-  - src-openeuler/perl-JSON
-  - src-openeuler/python-itsdangerous
-  - src-openeuler/cscope
-  - src-openeuler/perl-LWP-Protocol-https
-  - src-openeuler/ilmbase
-  - src-openeuler/perl-Crypt-OpenSSL-RSA
-  - src-openeuler/libstemmer
-  - src-openeuler/perl-File-Listing
-  - src-openeuler/ocaml
-  - src-openeuler/pygtk2
-  - src-openeuler/python-urwid
-  - src-openeuler/python-linecache2
-  - src-openeuler/gupnp
-  - src-openeuler/python-docutils
-  - src-openeuler/perl-inc-latest
-  - src-openeuler/fakeroot
-  - src-openeuler/qt5-qtdoc
   - src-openeuler/perl-MRO-Compat
-  - src-openeuler/perl-String-ShellQuote
-  - src-openeuler/python-extras
-  - src-openeuler/python-mimeparse
-  - src-openeuler/perl-TimeDate
-  - src-openeuler/rhnlib
-  - src-openeuler/perl-XML-Simple
-  - src-openeuler/perl-XML-LibXML
-  - src-openeuler/subunit
-  - src-openeuler/scipy
-  - src-openeuler/SDL
-  - src-openeuler/perl-generators
-  - src-openeuler/perl-Test-Pod
-  - src-openeuler/neon
-  - src-openeuler/python-fonttools
-  - src-openeuler/lapack
-  - src-openeuler/libdbusmenu
-  - src-openeuler/python-netaddr
-  - src-openeuler/perl-Bit-Vector
-  - src-openeuler/gflags
-  - src-openeuler/perl-libxml-perl
-  - src-openeuler/intltool
-  - src-openeuler/python-sphinxcontrib-websupport
-  - src-openeuler/perl-Params-Util
-  - src-openeuler/qt5-qttools
-  - src-openeuler/autoconf-archive
-  - src-openeuler/python-cups
-  - src-openeuler/gupnp-igd
-  - src-openeuler/perl-IO-String
-  - src-openeuler/perl-Net-HTTP
-  - src-openeuler/python-click
-  - src-openeuler/python-sure
-  - src-openeuler/python-backports_abc
-  - src-openeuler/perl-HTTP-Date
-  - src-openeuler/python-fixtures
-  - src-openeuler/obs-env
-  - src-openeuler/libspectre
-  - src-openeuler/perl-HTTP-Negotiate
-  - src-openeuler/vala
-  - src-openeuler/eglexternalplatform
-  - src-openeuler/python-genshi
-  - src-openeuler/gstreamer1-plugins-bad-free
-  - src-openeuler/python-blinker
-  - src-openeuler/xcb-util-wm
-  - src-openeuler/qt5-qttranslations
-  - src-openeuler/PyYAML
-  - src-openeuler/python-keyring
-  - src-openeuler/go-compilers
-  - src-openeuler/python-futures
-  - src-openeuler/perl-Test-Deep
-  - src-openeuler/perl-Text-CharWidth
-  - src-openeuler/perl-Devel-CheckLib
-  - src-openeuler/python-whoosh
-  - src-openeuler/qt5-qtwayland
-  - src-openeuler/perl-Module-Runtime
-  - src-openeuler/mvapich2
-  - src-openeuler/python-more-itertools
-  - src-openeuler/perl-Data-OptList
-  - src-openeuler/crash-trace-command
-  - src-openeuler/perl-File-Slurp
-  - src-openeuler/python-py
-  - src-openeuler/perl-Test-Warnings
-  - src-openeuler/perl-Date-Manip
-  - src-openeuler/libdv
-  - src-openeuler/python-sqlalchemy
-  - src-openeuler/qt5-qtmultimedia
-  - src-openeuler/gnome-user-docs
-  - src-openeuler/meanwhile
-  - src-openeuler/qt5-qtcanvas3d
-  - src-openeuler/perl-XML-SAX
-  - src-openeuler/python-singledispatch
-  - src-openeuler/pyxdg
-  - src-openeuler/perl-Unicode-UTF8
-  - src-openeuler/perl-XML-SAX-Base
-  - src-openeuler/python-pretend
-  - src-openeuler/libXScrnSaver
-  - src-openeuler/perl-Archive-Zip
-  - src-openeuler/perl-Text-WrapI18N
-  - src-openeuler/pytest
-  - src-openeuler/swig
-  - src-openeuler/lua-filesystem
-  - src-openeuler/perl-XML-XPath
-  - src-openeuler/pyflakes
-  - src-openeuler/dejagnu
-  - src-openeuler/python-testtools
-  - src-openeuler/jsoncpp
-  - src-openeuler/qt5-qtimageformats
-  - src-openeuler/perl-libwww-perl
-  - src-openeuler/qt5-qtserialport
-  - src-openeuler/python-distro
-  - src-openeuler/meson
-  - src-openeuler/perl-Data-Section
-  - src-openeuler/perl-ExtUtils-CBuilder
-  - src-openeuler/perl-Test-FailWarnings
-  - src-openeuler/qt5-qtbase
-  - src-openeuler/Cython
-  - src-openeuler/qpdf
-  - src-openeuler/python-pbr
-  - src-openeuler/cmake
-  - src-openeuler/papi
-  - src-openeuler/perl-Digest-HMAC
-  - src-openeuler/python-freezegun
-  - src-openeuler/nasm
-  - src-openeuler/perl-HTML-Tagset
-  - src-openeuler/python-hypothesis
-  - src-openeuler/openscap
-  - src-openeuler/gnome-common
-  - src-openeuler/python-packaging
-  - src-openeuler/qt5-qt3d
-  - src-openeuler/gspell
-  - src-openeuler/xcb-util-image
-  - src-openeuler/python-SecretStorage
-  - src-openeuler/python-bottle
-  - src-openeuler/perl-libintl-perl
-  - src-openeuler/python-greenlet
-  - src-openeuler/perl-Fedora-VSP
-  - src-openeuler/perl-Test-Needs
-  - src-openeuler/tinyxml2
-  - src-openeuler/python2-typing
-  - src-openeuler/libfabric
-  - src-openeuler/xorg-x11-util-macros
-  - src-openeuler/perl-Text-Tabs-Wrap
-  - src-openeuler/pangomm
-  - src-openeuler/perl-Font-TTF
-  - src-openeuler/LibRaw
-  - src-openeuler/perl-Socket6
-  - src-openeuler/perl-Test-NoWarnings
-  - src-openeuler/perl-Parse-Yapp
-  - src-openeuler/xcb-proto
-  - src-openeuler/flatpak
-  - src-openeuler/libell
-  - src-openeuler/perl-Carp-Clan
-  - src-openeuler/python-flit
-  - src-openeuler/qt5-qtlocation
-  - src-openeuler/libXp
-  - src-openeuler/python-configshell
-  - src-openeuler/python-werkzeug
-  - src-openeuler/python-mock
-  - src-openeuler/librdkafka
-  - src-openeuler/python-setuptools_scm
-  - src-openeuler/perl-HTML-Parser
-  - src-openeuler/python-pytoml
-  - src-openeuler/libsrtp
-  - src-openeuler/qt5-qtscript
-  - src-openeuler/python-gevent
-  - src-openeuler/libmemcached
-  - src-openeuler/trace-cmd
-  - src-openeuler/python-urlgrabber
-  - src-openeuler/python-markdown
-  - src-openeuler/python-nose
-  - src-openeuler/perl-HTTP-Cookies
-  - src-openeuler/perl-XML-NamespaceSupport
-  - src-openeuler/python-sphinx_rtd_theme
-  - src-openeuler/tbb
-  - src-openeuler/python-flask
-  - src-openeuler/qt5-qtwebchannel
-  - src-openeuler/gtest
-  - src-openeuler/cppcheck
-  - src-openeuler/nototools
-  - src-openeuler/qt5-qtserialbus
-  - src-openeuler/valgrind
-  - src-openeuler/qt5-qtgraphicaleffects
-  - src-openeuler/qt5-qtspeech
-  - src-openeuler/qt5-qtvirtualkeyboard
-  - src-openeuler/qt5dxcb-plugin
-  - src-openeuler/perl-Text-Template
-  - src-openeuler/perl-Mail-DKIM
-  - src-openeuler/cvs
   - src-openeuler/perl-Net-DNS
-  - src-openeuler/python-construct
-  - src-openeuler/openblas
-  - src-openeuler/spice-protocol
-  - src-openeuler/libgnome-keyring
-  - src-openeuler/pyelftools
-  - src-openeuler/python-tornado
-  - src-openeuler/python-httpretty
-  - src-openeuler/egl-wayland
-  - src-openeuler/python-testscenarios
-  - src-openeuler/python-augeas
-  - src-openeuler/glib
-  - src-openeuler/perl-Data-Dump
-  - src-openeuler/help2man
-  - src-openeuler/python-pymongo
-  - src-openeuler/perl-YAML
-  - src-openeuler/sblim-cmpi-devel
-  - src-openeuler/gtk-vnc
+  - src-openeuler/perl-Net-HTTP
+  - src-openeuler/perl-NetAddr-IP
+  - src-openeuler/perl-NTLM
+  - src-openeuler/perl-Params-Util
+  - src-openeuler/perl-Parse-Yapp
+  - src-openeuler/perl-Path-Class
+  - src-openeuler/perl-Path-Tiny
+  - src-openeuler/perl-Pod-Markdown
+  - src-openeuler/perl-Role-Tiny
+  - src-openeuler/perl-SGMLSpm
+  - src-openeuler/perl-Socket6
+  - src-openeuler/perl-Software-License
+  - src-openeuler/perl-strictures
+  - src-openeuler/perl-String-ShellQuote
+  - src-openeuler/perl-Sub-Install
   - src-openeuler/perl-Sub-Name
   - src-openeuler/perl-Sub-Quote
+  - src-openeuler/perl-Test-Deep
+  - src-openeuler/perl-Test-FailWarnings
   - src-openeuler/perl-Test-Fatal
   - src-openeuler/perl-Test-InDistDir
+  - src-openeuler/perl-Test-Needs
+  - src-openeuler/perl-Test-NoWarnings
+  - src-openeuler/perl-Test-Pod
   - src-openeuler/perl-Test-Pod-Coverage
   - src-openeuler/perl-Test-Requires
+  - src-openeuler/perl-Test-Warnings
+  - src-openeuler/perl-Text-CharWidth
   - src-openeuler/perl-Text-Glob
-  - src-openeuler/nim
-  - src-openeuler/erlang
-  - src-openeuler/erlang-getopt
-  - src-openeuler/erlang-neotoma
-  - src-openeuler/erlang-eflame
-  - src-openeuler/erlang-erlsyslog
-  - src-openeuler/erlang-mustache
-  - src-openeuler/erlang-lfe
-  - src-openeuler/erlang-rpm-macros
-  - src-openeuler/erlang-proper
-  - src-openeuler/erlang-hamcrest
-  - src-openeuler/erlang-gettext
-  - src-openeuler/erlang-erlydtl
-  - src-openeuler/erlang-sd_notify
-  - src-openeuler/erlang-meck
+  - src-openeuler/perl-Text-Tabs-Wrap
+  - src-openeuler/perl-Text-Template
+  - src-openeuler/perl-Text-Unidecode
+  - src-openeuler/perl-Text-WrapI18N
+  - src-openeuler/perl-TimeDate
+  - src-openeuler/perl-Try-Tiny
+  - src-openeuler/perl-Unicode-UTF8
+  - src-openeuler/perl-WWW-RobotRules
+  - src-openeuler/perl-XML-LibXML
+  - src-openeuler/perl-XML-NamespaceSupport
+  - src-openeuler/perl-XML-SAX
+  - src-openeuler/perl-XML-SAX-Base
+  - src-openeuler/perl-XML-Simple
+  - src-openeuler/perl-XML-XPath
+  - src-openeuler/perl-YAML
+  - src-openeuler/perl-YAML-Tiny
+  - src-openeuler/pyelftools
+  - src-openeuler/pyflakes
+  - src-openeuler/pygobject2
+  - src-openeuler/pygtk2
+  - src-openeuler/pytest
+  - src-openeuler/python-atomicwrites
+  - src-openeuler/python-attrs
+  - src-openeuler/python-augeas
+  - src-openeuler/python-backports_abc
+  - src-openeuler/python-blinker
+  - src-openeuler/python-bottle
+  - src-openeuler/python-click
+  - src-openeuler/python-configparser
+  - src-openeuler/python-configshell
+  - src-openeuler/python-construct
+  - src-openeuler/python-cryptography-vectors
+  - src-openeuler/python-cups
+  - src-openeuler/python-distro
+  - src-openeuler/python-dns
+  - src-openeuler/python-docutils
+  - src-openeuler/python-enchant
+  - src-openeuler/python-entrypoints
+  - src-openeuler/python-extras
+  - src-openeuler/python-fixtures
+  - src-openeuler/python-flask
+  - src-openeuler/python-flit
+  - src-openeuler/python-fonttools
+  - src-openeuler/python-freezegun
+  - src-openeuler/python-funcsigs
+  - src-openeuler/python-futures
+  - src-openeuler/python-genshi
+  - src-openeuler/python-gevent
+  - src-openeuler/python-greenlet
+  - src-openeuler/python-httpretty
+  - src-openeuler/python-hypothesis
+  - src-openeuler/python-imagesize
+  - src-openeuler/python-iso8601
+  - src-openeuler/python-itsdangerous
+  - src-openeuler/python-keyring
+  - src-openeuler/python-linecache2
+  - src-openeuler/python-lit
+  - src-openeuler/python-markdown
+  - src-openeuler/python-mimeparse
+  - src-openeuler/python-mock
+  - src-openeuler/python-more-itertools
+  - src-openeuler/python-netaddr
+  - src-openeuler/python-nose
+  - src-openeuler/python-packaging
+  - src-openeuler/python-paramiko
+  - src-openeuler/python-pbr
+  - src-openeuler/python-pluggy
+  - src-openeuler/python-pretend
+  - src-openeuler/python-psutil
+  - src-openeuler/python-py
+  - src-openeuler/python-pyasn1
+  - src-openeuler/python-pygments
+  - src-openeuler/python-pymongo
+  - src-openeuler/python-pytoml
+  - src-openeuler/python-scons
+  - src-openeuler/python-SecretStorage
+  - src-openeuler/python-setuptools_scm
+  - src-openeuler/python-singledispatch
+  - src-openeuler/python-snowballstemmer
+  - src-openeuler/python-sphinx
+  - src-openeuler/python-sphinx-theme-alabaster
+  - src-openeuler/python-sphinx_rtd_theme
+  - src-openeuler/python-sphinxcontrib-websupport
+  - src-openeuler/python-sqlalchemy
+  - src-openeuler/python-sure
+  - src-openeuler/python-testscenarios
+  - src-openeuler/python-testtools
+  - src-openeuler/python-tornado
+  - src-openeuler/python-traceback2
+  - src-openeuler/python-unittest2
+  - src-openeuler/python-urlgrabber
+  - src-openeuler/python-urwid
+  - src-openeuler/python-virtualenv
+  - src-openeuler/python-werkzeug
+  - src-openeuler/python-wheel
+  - src-openeuler/python-which
+  - src-openeuler/python-whoosh
+  - src-openeuler/python2-typing
+  - src-openeuler/pywbem
+  - src-openeuler/pyxdg
+  - src-openeuler/PyYAML
+  - src-openeuler/qpdf
+  - src-openeuler/qt5-qt3d
+  - src-openeuler/qt5-qtbase
+  - src-openeuler/qt5-qtcanvas3d
+  - src-openeuler/qt5-qtconnectivity
+  - src-openeuler/qt5-qtdeclarative
+  - src-openeuler/qt5-qtdoc
+  - src-openeuler/qt5-qtgraphicaleffects
+  - src-openeuler/qt5-qtimageformats
+  - src-openeuler/qt5-qtlocation
+  - src-openeuler/qt5-qtmultimedia
+  - src-openeuler/qt5-qtquickcontrols
+  - src-openeuler/qt5-qtquickcontrols2
+  - src-openeuler/qt5-qtscript
+  - src-openeuler/qt5-qtsensors
+  - src-openeuler/qt5-qtserialbus
+  - src-openeuler/qt5-qtserialport
+  - src-openeuler/qt5-qtspeech
+  - src-openeuler/qt5-qtsvg
+  - src-openeuler/qt5-qttools
+  - src-openeuler/qt5-qttranslations
+  - src-openeuler/qt5-qtvirtualkeyboard
+  - src-openeuler/qt5-qtwayland
+  - src-openeuler/qt5-qtwebchannel
+  - src-openeuler/qt5-qtwebsockets
+  - src-openeuler/qt5-qtx11extras
+  - src-openeuler/qt5-qtxmlpatterns
+  - src-openeuler/qt5dxcb-plugin
+  - src-openeuler/R-rpm-macros
+  - src-openeuler/rhnlib
+  - src-openeuler/rpmlint
+  - src-openeuler/sblim-cmpi-devel
+  - src-openeuler/scipy
+  - src-openeuler/SDL
+  - src-openeuler/socket_wrapper
+  - src-openeuler/spice-protocol
+  - src-openeuler/spock
+  - src-openeuler/subunit
+  - src-openeuler/swig
+  - src-openeuler/tbb
+  - src-openeuler/tinyxml2
+  - src-openeuler/tix
+  - src-openeuler/trace-cmd
+  - src-openeuler/uuid
+  - src-openeuler/vala
+  - src-openeuler/valgrind
+  - src-openeuler/vte291
+  - src-openeuler/xcb-proto
+  - src-openeuler/xcb-util-cursor
+  - src-openeuler/xcb-util-image
+  - src-openeuler/xcb-util-keysyms
+  - src-openeuler/xcb-util-renderutil
+  - src-openeuler/xcb-util-wm
+  - src-openeuler/xdelta
+  - src-openeuler/xorg-x11-proto-devel
+  - src-openeuler/xorg-x11-util-macros
 - name: Runtime
   repositories:
   - src-openeuler/ibus-libpinyin
@@ -1435,17 +1440,17 @@ sigs:
 - name: DB
   repositories:
   - src-openeuler/derby
-  - src-openeuler/gupnp-dlna
-  - src-openeuler/h2
-  - src-openeuler/postgresql-odbc
+  - src-openeuler/firebird
   - src-openeuler/foomatic
   - src-openeuler/foomatic-db
-  - src-openeuler/postgresql
-  - src-openeuler/unixODBC
-  - src-openeuler/firebird
-  - src-openeuler/mysql5
-  - src-openeuler/glassfish-legal
   - src-openeuler/geolatte-geom
+  - src-openeuler/glassfish-legal
+  - src-openeuler/gupnp-dlna
+  - src-openeuler/h2
+  - src-openeuler/mysql5
+  - src-openeuler/postgresql
+  - src-openeuler/postgresql-odbc
+  - src-openeuler/unixODBC
 - name: Base-service
   repositories:
   - openeuler/openEuler-rpm-config
@@ -1506,8 +1511,8 @@ sigs:
   - src-openeuler/cronie
   - src-openeuler/crontabs
   - src-openeuler/ctags
-  - src-openeuler/cxf
   - src-openeuler/CUnit
+  - src-openeuler/cxf
   - src-openeuler/cyrus-sasl
   - src-openeuler/dbus
   - src-openeuler/dbus-glib
@@ -1552,10 +1557,10 @@ sigs:
   - src-openeuler/gettext
   - src-openeuler/ghostscript
   - src-openeuler/git
+  - src-openeuler/glassfish-ejb-api
   - src-openeuler/glassfish-fastinfoset
   - src-openeuler/glassfish-master-pom
   - src-openeuler/glassfish-websocket-api
-  - src-openeuler/glassfish-ejb-api
   - src-openeuler/gmime30
   - src-openeuler/gnulib
   - src-openeuler/gobject-introspection
@@ -1672,10 +1677,10 @@ sigs:
   - src-openeuler/lshw
   - src-openeuler/lsof
   - src-openeuler/lua
-  - src-openeuler/luajit
   - src-openeuler/lua-expat
   - src-openeuler/lua-json
   - src-openeuler/lua-lpeg
+  - src-openeuler/luajit
   - src-openeuler/lucene4
   - src-openeuler/lutok
   - src-openeuler/lz4
@@ -1692,8 +1697,8 @@ sigs:
   - src-openeuler/mercurial
   - src-openeuler/mlocate
   - src-openeuler/mod_security_crs
-  - src-openeuler/mongodb
   - src-openeuler/mongo-java-driver2
+  - src-openeuler/mongodb
   - src-openeuler/mono
   - src-openeuler/morfologik-stemming
   - src-openeuler/mtdev
@@ -1704,8 +1709,8 @@ sigs:
   - src-openeuler/nailgun
   - src-openeuler/ncompress
   - src-openeuler/nettle
-  - src-openeuler/nss_nis
   - src-openeuler/nss-pam-ldapd
+  - src-openeuler/nss_nis
   - src-openeuler/ocl-icd
   - src-openeuler/oddjob
   - src-openeuler/openEuler-indexhtml
@@ -1715,9 +1720,9 @@ sigs:
   - src-openeuler/openEuler-rpm-config
   - src-openeuler/opensc
   - src-openeuler/orc
+  - src-openeuler/os-prober
   - src-openeuler/osinfo-db
   - src-openeuler/osinfo-db-tools
-  - src-openeuler/os-prober
   - src-openeuler/ostree
   - src-openeuler/p11-kit
   - src-openeuler/paranamer
@@ -1746,8 +1751,6 @@ sigs:
   - src-openeuler/pyparsing
   - src-openeuler/pyparted
   - src-openeuler/pyserial
-  - src-openeuler/python3
-  - src-openeuler/python3-mallard-ducktype
   - src-openeuler/python-asn1crypto
   - src-openeuler/python-backports
   - src-openeuler/python-beaker
@@ -1815,6 +1818,8 @@ sigs:
   - src-openeuler/python-tempita
   - src-openeuler/python-u-msgpack-python
   - src-openeuler/python-webencodings
+  - src-openeuler/python3
+  - src-openeuler/python3-mallard-ducktype
   - src-openeuler/pyxattr
   - src-openeuler/qdox
   - src-openeuler/qpid-proton
@@ -1903,11 +1908,11 @@ sigs:
   - src-openeuler/words
   - src-openeuler/wpa_supplicant
   - src-openeuler/xalan-j2
-  - src-openeuler/xmlsec1
   - src-openeuler/xerces-j2
+  - src-openeuler/xml-commons-resolver
+  - src-openeuler/xmlsec1
   - src-openeuler/xmlstarlet
   - src-openeuler/xmlto
-  - src-openeuler/xml-commons-resolver
   - src-openeuler/xz
   - src-openeuler/yajl
   - src-openeuler/yaml-cpp
@@ -4009,6 +4014,7 @@ sigs:
   - src-openeuler/colordiff
   - src-openeuler/concurrent-trees
   - src-openeuler/coro-mock
+  - src-openeuler/courier-unicode
   - src-openeuler/cpp-httplib
   - src-openeuler/cpuid
   - src-openeuler/cryptacular
@@ -4404,7 +4410,7 @@ sigs:
   - src-openeuler/ros_comm
   - src-openeuler/actionlib
   - src-openeuler/angles
-  - src-openeuler/bond_core 
+  - src-openeuler/bond_core
   - src-openeuler/dynamic_reconfigure
   - src-openeuler/geometry
   - src-openeuler/geometry2
@@ -4746,6 +4752,7 @@ sigs:
   - src-openeuler/perl-CPAN-Meta-YAML
   - src-openeuler/perl-Cpanel-JSON-XS
   - src-openeuler/perl-Crypt-Blowfish
+  - src-openeuler/perl-Crypt-Cracklib
   - src-openeuler/perl-Crypt-ECB
   - src-openeuler/perl-Crypt-GeneratePassword
   - src-openeuler/perl-Crypt-GPG
@@ -5895,96 +5902,6 @@ sigs:
   - src-openeuler/perl-ZMQ-Constants
 - name: sig-python-modules
   repositories:
-  - src-openeuler/python-ez_setup
-  - src-openeuler/python-APScheduler
-  - src-openeuler/python-ATpy
-  - src-openeuler/python-AWSIoTPythonSDK
-  - src-openeuler/python-Arpeggio
-  - src-openeuler/python-Babel
-  - src-openeuler/python-Brotli
-  - src-openeuler/python-Cerberus
-  - src-openeuler/python-Cerealizer
-  - src-openeuler/python-Chameleon
-  - src-openeuler/python-ConfigArgParse
-  - src-openeuler/python-CouchDB
-  - src-openeuler/python-Cython
-  - src-openeuler/python-ECPy
-  - src-openeuler/python-EditorConfig
-  - src-openeuler/python-Faker
-  - src-openeuler/python-Flask-APScheduler
-  - src-openeuler/python-Flask-Admin
-  - src-openeuler/python-Flask-Assets
-  - src-openeuler/python-Flask-AutoIndex
-  - src-openeuler/python-Flask-Bootstrap
-  - src-openeuler/python-Flask-Cache
-  - src-openeuler/python-Flask-Classy
-  - src-openeuler/python-Flask-Mail
-  - src-openeuler/python-Flask-Mako
-  - src-openeuler/python-Flask-OAuth
-  - src-openeuler/python-Flask-OpenID
-  - src-openeuler/python-Flask-Paranoid
-  - src-openeuler/python-Flask-Principal
-  - src-openeuler/python-Flask-RSTPages
-  - src-openeuler/python-Flask-SQLAlchemy
-  - src-openeuler/python-Flask-Script
-  - src-openeuler/python-Flask-Silk
-  - src-openeuler/python-Flask-HTTPAuth
-  - src-openeuler/python-FormEncode
-  - src-openeuler/python-GitPython
-  - src-openeuler/python-GridDataFormats
-  - src-openeuler/python-HeapDict
-  - src-openeuler/python-ipython_genutils
-  - src-openeuler/python-JPype1
-  - src-openeuler/python-JSON_minify
-  - src-openeuler/python-JayDeBeApi
-  - src-openeuler/python-Kajiki
-  - src-openeuler/python-Lasagne
-  - src-openeuler/python-Logbook
-  - src-openeuler/python-ModestMaps
-  - src-openeuler/python-Naked
-  - src-openeuler/python-Parsley
-  - src-openeuler/python-PyDispatcher
-  - src-openeuler/python-PyDrive
-  - src-openeuler/python-PyLaTeX
-  - src-openeuler/python-PyLink
-  - src-openeuler/python-PyMeeus
-  - src-openeuler/python-PyNLPl
-  - src-openeuler/python-PyOpenGL
-  - src-openeuler/python-PyPDF2
-  - src-openeuler/python-PyRSS2Gen
-  - src-openeuler/python-PySimpleSOAP
-  - src-openeuler/python-PySnooper
-  - src-openeuler/python-PyYAML
-  - src-openeuler/python-Pympler
-  - src-openeuler/python-Pyphen
-  - src-openeuler/python-QtAwesome
-  - src-openeuler/python-QtPy
-  - src-openeuler/python-SALib
-  - src-openeuler/python-SQLAlchemy-Utils
-  - src-openeuler/python-Send2Trash
-  - src-openeuler/python-Slowloris
-  - src-openeuler/python-TGScheduler
-  - src-openeuler/python-Theano
-  - src-openeuler/python-Trololio
-  - src-openeuler/python-TurboGears2
-  - src-openeuler/python-Twiggy
-  - src-openeuler/python-Unipath
-  - src-openeuler/python-XStatic
-  - src-openeuler/python-XStatic-Angular
-  - src-openeuler/python-XStatic-Angular-Bootstrap
-  - src-openeuler/python-XStatic-Angular-Gettext
-  - src-openeuler/python-XStatic-Bootstrap-SCSS
-  - src-openeuler/python-XStatic-Font-Awesome
-  - src-openeuler/python-XStatic-JSEncrypt
-  - src-openeuler/python-XStatic-Jasmine
-  - src-openeuler/python-XStatic-Patternfly-Bootstrap-Treeview
-  - src-openeuler/python-XStatic-bootswatch
-  - src-openeuler/python-XStatic-mdi
-  - src-openeuler/python-XStatic-roboto-fontface
-  - src-openeuler/python-XStatic-smart-table
-  - src-openeuler/python-XlsxWriter
-  - src-openeuler/python-Yapsy
-  - src-openeuler/python-ZEO
   - src-openeuler/python-aaargh
   - src-openeuler/python-abclient
   - src-openeuler/python-abimap
@@ -6023,11 +5940,13 @@ sigs:
   - src-openeuler/python-anymarkup-core
   - src-openeuler/python-anytree
   - src-openeuler/python-apptools
+  - src-openeuler/python-APScheduler
   - src-openeuler/python-apypie
   - src-openeuler/python-argh
   - src-openeuler/python-argon2-cffi
   - src-openeuler/python-argparse-manpage
   - src-openeuler/python-args
+  - src-openeuler/python-Arpeggio
   - src-openeuler/python-arpy
   - src-openeuler/python-asciitree
   - src-openeuler/python-asgiref
@@ -6048,9 +5967,12 @@ sigs:
   - src-openeuler/python-asyncssh
   - src-openeuler/python-asynctest
   - src-openeuler/python-atpublic
+  - src-openeuler/python-ATpy
   - src-openeuler/python-audioread
   - src-openeuler/python-auth.credential
   - src-openeuler/python-autopep8
+  - src-openeuler/python-AWSIoTPythonSDK
+  - src-openeuler/python-Babel
   - src-openeuler/python-babelfish
   - src-openeuler/python-backcall
   - src-openeuler/python-backlash
@@ -6070,6 +5992,7 @@ sigs:
   - src-openeuler/python-bitlyapi
   - src-openeuler/python-bitmath
   - src-openeuler/python-bitstring
+  - src-openeuler/python-blaze
   - src-openeuler/python-bleach
   - src-openeuler/python-blessed
   - src-openeuler/python-blessings
@@ -6085,6 +6008,7 @@ sigs:
   - src-openeuler/python-botocore
   - src-openeuler/python-bottle-sqlite
   - src-openeuler/python-branca
+  - src-openeuler/python-Brotli
   - src-openeuler/python-bson
   - src-openeuler/python-btrfs
   - src-openeuler/python-bucky
@@ -6102,8 +6026,11 @@ sigs:
   - src-openeuler/python-catkin-sphinx
   - src-openeuler/python-ccdproc
   - src-openeuler/python-cchardet
+  - src-openeuler/python-Cerberus
+  - src-openeuler/python-Cerealizer
   - src-openeuler/python-certifi
   - src-openeuler/python-cfgv
+  - src-openeuler/python-Chameleon
   - src-openeuler/python-check-manifest
   - src-openeuler/python-citeproc-py
   - src-openeuler/python-cjdns
@@ -6133,14 +6060,17 @@ sigs:
   - src-openeuler/python-colorspacious
   - src-openeuler/python-colour
   - src-openeuler/python-colour-runner
+  - src-openeuler/python-concurrent-log-handler
   - src-openeuler/python-conditional
   - src-openeuler/python-condor
+  - src-openeuler/python-ConfigArgParse
   - src-openeuler/python-confuse
   - src-openeuler/python-contextvars
   - src-openeuler/python-convertdate
   - src-openeuler/python-copr
   - src-openeuler/python-copr-common
   - src-openeuler/python-copr-messaging
+  - src-openeuler/python-CouchDB
   - src-openeuler/python-cov-core
   - src-openeuler/python-cram
   - src-openeuler/python-crank
@@ -6159,12 +6089,14 @@ sigs:
   - src-openeuler/python-cvss
   - src-openeuler/python-cxxfilt
   - src-openeuler/python-cypy
+  - src-openeuler/python-Cython
   - src-openeuler/python-d2to1
   - src-openeuler/python-daemonize
   - src-openeuler/python-daiquiri
   - src-openeuler/python-dataclasses
   - src-openeuler/python-datanommer.consumer
   - src-openeuler/python-datanommer.models
+  - src-openeuler/python-datashape
   - src-openeuler/python-dateparser
   - src-openeuler/python-dbfread
   - src-openeuler/python-dbus-client-gen
@@ -6240,7 +6172,10 @@ sigs:
   - src-openeuler/python-dulwich
   - src-openeuler/python-easyargs
   - src-openeuler/python-easygui
+  - src-openeuler/python-ECPy
   - src-openeuler/python-editdistance
+  - src-openeuler/python-EditorConfig
+  - src-openeuler/python-eli5
   - src-openeuler/python-email_reply_parser
   - src-openeuler/python-emcee
   - src-openeuler/python-emoji
@@ -6250,8 +6185,10 @@ sigs:
   - src-openeuler/python-epub
   - src-openeuler/python-et_xmlfile
   - src-openeuler/python-exif
+  - src-openeuler/python-ez_setup
   - src-openeuler/python-f5-icontrol-rest
   - src-openeuler/python-fabulous
+  - src-openeuler/python-Faker
   - src-openeuler/python-fastavro
   - src-openeuler/python-fasteners
   - src-openeuler/python-fastimport
@@ -6274,11 +6211,30 @@ sigs:
   - src-openeuler/python-flake8-import-order
   - src-openeuler/python-flaky
   - src-openeuler/python-flann
+  - src-openeuler/python-Flask-Admin
+  - src-openeuler/python-Flask-APScheduler
+  - src-openeuler/python-Flask-Assets
+  - src-openeuler/python-Flask-AutoIndex
+  - src-openeuler/python-Flask-Bootstrap
+  - src-openeuler/python-Flask-Cache
+  - src-openeuler/python-Flask-Classy
+  - src-openeuler/python-Flask-Cors
+  - src-openeuler/python-Flask-HTTPAuth
+  - src-openeuler/python-Flask-Mail
+  - src-openeuler/python-Flask-Mako
   - src-openeuler/python-flask-multistatic
+  - src-openeuler/python-Flask-OAuth
   - src-openeuler/python-flask-oidc
+  - src-openeuler/python-Flask-OpenID
+  - src-openeuler/python-Flask-Paranoid
+  - src-openeuler/python-Flask-Principal
   - src-openeuler/python-flask-restplus
   - src-openeuler/python-flask-restx
+  - src-openeuler/python-Flask-RSTPages
+  - src-openeuler/python-Flask-Script
   - src-openeuler/python-flask-session
+  - src-openeuler/python-Flask-Silk
+  - src-openeuler/python-Flask-SQLAlchemy
   - src-openeuler/python-flask-whooshee
   - src-openeuler/python-flatpak-module-tools
   - src-openeuler/python-flexmock
@@ -6289,10 +6245,11 @@ sigs:
   - src-openeuler/python-flufl.lock
   - src-openeuler/python-flufl.testing
   - src-openeuler/python-flup
-  - src-openeuler/python-fontMath
   - src-openeuler/python-fontdump
+  - src-openeuler/python-fontMath
   - src-openeuler/python-fontname
   - src-openeuler/python-formats
+  - src-openeuler/python-FormEncode
   - src-openeuler/python-friendlyloris
   - src-openeuler/python-frozendict
   - src-openeuler/python-fsmonitor
@@ -6304,7 +6261,6 @@ sigs:
   - src-openeuler/python-futurist
   - src-openeuler/python-fuzzyfinder
   - src-openeuler/python-fypp
-  - src-openeuler/python-gTTS-token
   - src-openeuler/python-gast
   - src-openeuler/python-gatspy
   - src-openeuler/python-gccinvocation
@@ -6323,7 +6279,9 @@ sigs:
   - src-openeuler/python-gitdb
   - src-openeuler/python-githubpy
   - src-openeuler/python-gitlab
+  - src-openeuler/python-GitPython
   - src-openeuler/python-glad
+  - src-openeuler/python-glanceclient
   - src-openeuler/python-glances_api
   - src-openeuler/python-glob2
   - src-openeuler/python-gntp
@@ -6334,11 +6292,14 @@ sigs:
   - src-openeuler/python-gpxpy
   - src-openeuler/python-grabbit
   - src-openeuler/python-grabserial
+  - src-openeuler/python-GridDataFormats
+  - src-openeuler/python-gTTS-token
   - src-openeuler/python-guizero
   - src-openeuler/python-gwebsockets
   - src-openeuler/python-h11
   - src-openeuler/python-h5io
   - src-openeuler/python-hdfs
+  - src-openeuler/python-HeapDict
   - src-openeuler/python-heketi
   - src-openeuler/python-hgapi
   - src-openeuler/python-hgdistver
@@ -6373,24 +6334,29 @@ sigs:
   - src-openeuler/python-iowait
   - src-openeuler/python-ipdb
   - src-openeuler/python-ipgetter2
+  - src-openeuler/python-ipython_genutils
   - src-openeuler/python-isodate
   - src-openeuler/python-isort
   - src-openeuler/python-javalang
+  - src-openeuler/python-JayDeBeApi
   - src-openeuler/python-jdcal
   - src-openeuler/python-jeepney
   - src-openeuler/python-jinja2-time
   - src-openeuler/python-jinja2_pluralize
   - src-openeuler/python-journal-brief
+  - src-openeuler/python-JPype1
   - src-openeuler/python-jsmin
   - src-openeuler/python-json2table
   - src-openeuler/python-json5
   - src-openeuler/python-json_logger
+  - src-openeuler/python-JSON_minify
   - src-openeuler/python-jsonmodels
   - src-openeuler/python-jsonpath-rw
   - src-openeuler/python-jsonpath-rw-ext
   - src-openeuler/python-justbytes
   - src-openeuler/python-jwcrypto
   - src-openeuler/python-kaitaistruct
+  - src-openeuler/python-Kajiki
   - src-openeuler/python-kaptan
   - src-openeuler/python-kdcproxy
   - src-openeuler/python-kerberos
@@ -6401,6 +6367,7 @@ sigs:
   - src-openeuler/python-landslide
   - src-openeuler/python-langtable
   - src-openeuler/python-lark-parser
+  - src-openeuler/python-Lasagne
   - src-openeuler/python-lasso
   - src-openeuler/python-launchpadlib
   - src-openeuler/python-lazr.config
@@ -6408,22 +6375,23 @@ sigs:
   - src-openeuler/python-lazr.restfulclient
   - src-openeuler/python-lazr.smtptest
   - src-openeuler/python-lazr.uri
-  - src-openeuler/python-lazyarray
   - src-openeuler/python-lazy-object-proxy
+  - src-openeuler/python-lazyarray
   - src-openeuler/python-leather
   - src-openeuler/python-lesscpy
-  - src-openeuler/python-libNeuroML
   - src-openeuler/python-libarchive-c
   - src-openeuler/python-libevdev
   - src-openeuler/python-liblinear
   - src-openeuler/python-libmount
   - src-openeuler/python-libnacl
+  - src-openeuler/python-libNeuroML
   - src-openeuler/python-libnl
   - src-openeuler/python-librosa
   - src-openeuler/python-libsass
   - src-openeuler/python-libtmux
   - src-openeuler/python-libusb1
   - src-openeuler/python-libvoikko
+  - src-openeuler/python-lightgbm
   - src-openeuler/python-liquidctl
   - src-openeuler/python-listparser
   - src-openeuler/python-littleutils
@@ -6431,6 +6399,7 @@ sigs:
   - src-openeuler/python-lmdb
   - src-openeuler/python-locket
   - src-openeuler/python-lockfile
+  - src-openeuler/python-Logbook
   - src-openeuler/python-logging_tree
   - src-openeuler/python-logzero
   - src-openeuler/python-lrparsing
@@ -6460,6 +6429,7 @@ sigs:
   - src-openeuler/python-mne-bids
   - src-openeuler/python-mnemonic
   - src-openeuler/python-modernize
+  - src-openeuler/python-ModestMaps
   - src-openeuler/python-moksha.common
   - src-openeuler/python-mongoengine
   - src-openeuler/python-monotonic
@@ -6470,11 +6440,13 @@ sigs:
   - src-openeuler/python-multidict
   - src-openeuler/python-multio
   - src-openeuler/python-multipart
+  - src-openeuler/python-multipledispatch
   - src-openeuler/python-munkres
   - src-openeuler/python-musicbrainzngs
   - src-openeuler/python-mutagen
   - src-openeuler/python-mwclient
   - src-openeuler/python-mygpoclient
+  - src-openeuler/python-Naked
   - src-openeuler/python-nb2plots
   - src-openeuler/python-ndjson-testrunner
   - src-openeuler/python-neomodel
@@ -6504,8 +6476,9 @@ sigs:
   - src-openeuler/python-num2words
   - src-openeuler/python-numpoly
   - src-openeuler/python-oauth2client
-  - src-openeuler/python-odML
   - src-openeuler/python-odfpy
+  - src-openeuler/python-odML
+  - src-openeuler/python-odo
   - src-openeuler/python-offtrac
   - src-openeuler/python-ofxparse
   - src-openeuler/python-okaara
@@ -6513,6 +6486,7 @@ sigs:
   - src-openeuler/python-openidc-client
   - src-openeuler/python-openpyxl
   - src-openeuler/python-opensensemap-api
+  - src-openeuler/python-openstackclient
   - src-openeuler/python-openstackdocstheme
   - src-openeuler/python-orderedmultidict
   - src-openeuler/python-os-service-types
@@ -6529,6 +6503,7 @@ sigs:
   - src-openeuler/python-paperwork-backend
   - src-openeuler/python-parameterized
   - src-openeuler/python-parsedatetime
+  - src-openeuler/python-Parsley
   - src-openeuler/python-parso
   - src-openeuler/python-passlib
   - src-openeuler/python-pastel
@@ -6586,10 +6561,6 @@ sigs:
   - src-openeuler/python-py-cpuinfo
   - src-openeuler/python-py-make
   - src-openeuler/python-py2pack
-  - src-openeuler/python-pyLibravatar
-  - src-openeuler/python-pyModbusTCP
-  - src-openeuler/python-pyPEG2
-  - src-openeuler/python-pyTelegramBotAPI
   - src-openeuler/python-pyactivetwo
   - src-openeuler/python-pyaes
   - src-openeuler/python-pyasn1-modules
@@ -6603,7 +6574,9 @@ sigs:
   - src-openeuler/python-pycscope
   - src-openeuler/python-pydenticon
   - src-openeuler/python-pydicom
+  - src-openeuler/python-PyDispatcher
   - src-openeuler/python-pydocstyle
+  - src-openeuler/python-PyDrive
   - src-openeuler/python-pyelectro
   - src-openeuler/python-pyephem
   - src-openeuler/python-pyface
@@ -6621,19 +6594,30 @@ sigs:
   - src-openeuler/python-pykalman
   - src-openeuler/python-pykeepass
   - src-openeuler/python-pylast
+  - src-openeuler/python-PyLaTeX
   - src-openeuler/python-pylev
+  - src-openeuler/python-pyLibravatar
+  - src-openeuler/python-PyLink
   - src-openeuler/python-pylons-sphinx-themes
   - src-openeuler/python-pymatreader
+  - src-openeuler/python-PyMeeus
   - src-openeuler/python-pymemcache
   - src-openeuler/python-pymoc
   - src-openeuler/python-pymod2pkg
+  - src-openeuler/python-pyModbusTCP
+  - src-openeuler/python-Pympler
   - src-openeuler/python-pynetdicom
   - src-openeuler/python-pyngus
+  - src-openeuler/python-PyNLPl
   - src-openeuler/python-pynvml
   - src-openeuler/python-pyocr
+  - src-openeuler/python-PyOpenGL
   - src-openeuler/python-pyotp
   - src-openeuler/python-pypandoc
+  - src-openeuler/python-PyPDF2
+  - src-openeuler/python-pyPEG2
   - src-openeuler/python-pyperclip
+  - src-openeuler/python-Pyphen
   - src-openeuler/python-pypng
   - src-openeuler/python-pyprocdev
   - src-openeuler/python-pyrad
@@ -6642,13 +6626,16 @@ sigs:
   - src-openeuler/python-pyroute2
   - src-openeuler/python-pyrpm
   - src-openeuler/python-pyrsistent
+  - src-openeuler/python-PyRSS2Gen
   - src-openeuler/python-pyrtlsdr
   - src-openeuler/python-pysb
   - src-openeuler/python-pyserial
   - src-openeuler/python-pyshark
   - src-openeuler/python-pyshp
+  - src-openeuler/python-PySimpleSOAP
   - src-openeuler/python-pysmi
   - src-openeuler/python-pysnmp
+  - src-openeuler/python-PySnooper
   - src-openeuler/python-pyspf
   - src-openeuler/python-pyspiflash
   - src-openeuler/python-pysrt
@@ -6656,6 +6643,7 @@ sigs:
   - src-openeuler/python-pystalk
   - src-openeuler/python-pystoi
   - src-openeuler/python-pystray
+  - src-openeuler/python-pyTelegramBotAPI
   - src-openeuler/python-pytest-arraydiff
   - src-openeuler/python-pytest-asyncio
   - src-openeuler/python-pytest-beakerlib
@@ -6701,11 +6689,14 @@ sigs:
   - src-openeuler/python-pyvo
   - src-openeuler/python-pyxdg
   - src-openeuler/python-pyxs
+  - src-openeuler/python-PyYAML
   - src-openeuler/python-pyzabbix
   - src-openeuler/python-pyzmq
   - src-openeuler/python-pyzolib
   - src-openeuler/python-qcelemental
   - src-openeuler/python-qrcodegen
+  - src-openeuler/python-QtAwesome
+  - src-openeuler/python-QtPy
   - src-openeuler/python-quantities
   - src-openeuler/python-queuelib
   - src-openeuler/python-random2
@@ -6745,6 +6736,7 @@ sigs:
   - src-openeuler/python-ruffus
   - src-openeuler/python-rustcfg
   - src-openeuler/python-rxjson
+  - src-openeuler/python-SALib
   - src-openeuler/python-saml
   - src-openeuler/python-sanction
   - src-openeuler/python-scales
@@ -6757,6 +6749,7 @@ sigs:
   - src-openeuler/python-scrypt
   - src-openeuler/python-selectors2
   - src-openeuler/python-semver
+  - src-openeuler/python-Send2Trash
   - src-openeuler/python-serpy
   - src-openeuler/python-setuptools_hg
   - src-openeuler/python-sh
@@ -6775,6 +6768,7 @@ sigs:
   - src-openeuler/python-slack-cleaner
   - src-openeuler/python-slacker
   - src-openeuler/python-slixmpp
+  - src-openeuler/python-Slowloris
   - src-openeuler/python-slugify
   - src-openeuler/python-smmap
   - src-openeuler/python-sniffio
@@ -6809,6 +6803,7 @@ sigs:
   - src-openeuler/python-sphobjinv
   - src-openeuler/python-spur
   - src-openeuler/python-sqlalchemy-collectd
+  - src-openeuler/python-SQLAlchemy-Utils
   - src-openeuler/python-sqlalchemy_schemadisplay
   - src-openeuler/python-sqlparse
   - src-openeuler/python-sseclient
@@ -6845,21 +6840,26 @@ sigs:
   - src-openeuler/python-textparser
   - src-openeuler/python-tftpy
   - src-openeuler/python-tgext.crud
+  - src-openeuler/python-TGScheduler
+  - src-openeuler/python-Theano
   - src-openeuler/python-timeout-decorator
   - src-openeuler/python-timeunit
   - src-openeuler/python-tinydb
   - src-openeuler/python-tinyrpc
   - src-openeuler/python-toolz
   - src-openeuler/python-tox
-  - src-openeuler/python-traitsui
   - src-openeuler/python-traitlets
+  - src-openeuler/python-traitsui
   - src-openeuler/python-translationstring
+  - src-openeuler/python-Trololio
   - src-openeuler/python-trustme
+  - src-openeuler/python-TurboGears2
   - src-openeuler/python-tvb-data
   - src-openeuler/python-tw2.core
   - src-openeuler/python-tw2.forms
   - src-openeuler/python-tw2.jqplugins.ui
   - src-openeuler/python-tw2.jquery
+  - src-openeuler/python-Twiggy
   - src-openeuler/python-twilio
   - src-openeuler/python-txWS
   - src-openeuler/python-txZMQ
@@ -6868,6 +6868,7 @@ sigs:
   - src-openeuler/python-tzlocal
   - src-openeuler/python-unicodecsv
   - src-openeuler/python-unidiff
+  - src-openeuler/python-Unipath
   - src-openeuler/python-upoints
   - src-openeuler/python-uritemplate
   - src-openeuler/python-urllib_gssapi
@@ -6911,8 +6912,8 @@ sigs:
   - src-openeuler/python-wikitcms
   - src-openeuler/python-winacl
   - src-openeuler/python-winrm
-  - src-openeuler/python-wsproto
   - src-openeuler/python-wrapt
+  - src-openeuler/python-wsproto
   - src-openeuler/python-wtf-peewee
   - src-openeuler/python-wurlitzer
   - src-openeuler/python-www-authenticate
@@ -6921,16 +6922,31 @@ sigs:
   - src-openeuler/python-xcffib
   - src-openeuler/python-xlib
   - src-openeuler/python-xlrd
+  - src-openeuler/python-XlsxWriter
   - src-openeuler/python-xlwt
   - src-openeuler/python-xml2rfc
   - src-openeuler/python-xmlrunner
   - src-openeuler/python-xmltodict
   - src-openeuler/python-xpath-expressions
+  - src-openeuler/python-XStatic
+  - src-openeuler/python-XStatic-Angular
+  - src-openeuler/python-XStatic-Angular-Bootstrap
+  - src-openeuler/python-XStatic-Angular-Gettext
+  - src-openeuler/python-XStatic-Bootstrap-SCSS
+  - src-openeuler/python-XStatic-bootswatch
+  - src-openeuler/python-XStatic-Font-Awesome
+  - src-openeuler/python-XStatic-Jasmine
+  - src-openeuler/python-XStatic-JSEncrypt
+  - src-openeuler/python-XStatic-mdi
+  - src-openeuler/python-XStatic-Patternfly-Bootstrap-Treeview
+  - src-openeuler/python-XStatic-roboto-fontface
+  - src-openeuler/python-XStatic-smart-table
   - src-openeuler/python-xtermcolor
   - src-openeuler/python-xunitparser
   - src-openeuler/python-xvfbwrapper
   - src-openeuler/python-xxhash
   - src-openeuler/python-yamlordereddictloader
+  - src-openeuler/python-Yapsy
   - src-openeuler/python-yaql
   - src-openeuler/python-yara
   - src-openeuler/python-yarg
@@ -6945,23 +6961,17 @@ sigs:
   - src-openeuler/python-zarr
   - src-openeuler/python-zc.customdoctests
   - src-openeuler/python-zdaemon
+  - src-openeuler/python-ZEO
   - src-openeuler/python-zipstream
   - src-openeuler/python-zope.dottedname
   - src-openeuler/python-zope.fixers
   - src-openeuler/python-zope.i18n
   - src-openeuler/python-zope.i18nmessageid
   - src-openeuler/python-zope.testing
-  - src-openeuler/python-lightgbm
-  - src-openeuler/python-eli5
-  - src-openeuler/python-blaze
-  - src-openeuler/python-Flask-Cors
-  - src-openeuler/python-odo
-  - src-openeuler/python-datashape
-  - src-openeuler/python-multipledispatch
   - src-openeuler/python3-docs
-  - src-openeuler/python-concurrent-log-handler
-  - src-openeuler/python-glanceclient
-  - src-openeuler/python-openstackclient   
+  - src-openeuler/python-munch
+  - src-openeuler/python-requests-toolbelt
+  - src-openeuler/python-scss
 - name: sig-release-management
   repositories:
   - src-openeuler/openEuler-lsb
