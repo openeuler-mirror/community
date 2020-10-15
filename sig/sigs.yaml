@@ -2451,6 +2451,8 @@ sigs:
   - src-openeuler/python-tensorboard
   - src-openeuler/python-tensorboard-plugin-wit
   - src-openeuler/python-estimator
+  - src-openeuler/python-Keras
+  - src-openeuler/python-keras-rl2
 - name: kae
   repositories:
   - openeuler/kae_driver
@@ -3781,7 +3783,6 @@ sigs:
   - src-openeuler/python-httpbin
   - src-openeuler/python-hyperframe
   - src-openeuler/python-jmespath
-  - src-openeuler/python-Keras
   - src-openeuler/python-keras-applications
   - src-openeuler/python-latexcodec
   - src-openeuler/python-m2r
