@@ -2050,6 +2050,66 @@ repositories:
   - master
   - openEuler-20.09
   type: public
+- name: actionlib
+  description: The actionlib stack provides a standardized interface for interfacing with preemptable tasks.  
+  upstream: https://github.com/ros/actionlib
+  protected_branches:
+  - master
+  type: public
+- name: angles
+  description: This package provides a set of simple math utilities to work with angles. 
+  upstream:  https://github.com/ros/angles
+  protected_branches:
+  - master
+  type: public
+- name: bond_core
+  description: The bond remains connected until it is either broken explicitly or until a heartbeat times out.
+  upstream:  https://github.com/ros/bond_core
+  protected_branches:
+  - master
+  type: public
+- name: dynamic_reconfigure
+  description: The dynamic_reconfigure package provides a means to update parameters at runtime without having to restart the node.
+  upstream:  https://github.com/ros/dynamic_reconfigure
+  protected_branches:
+  - master
+  type: public
+- name: geometry
+  description: A metapackage for geometry library suite.
+  upstream:  https://github.com/ros/geometry
+  protected_branches:
+  - master
+  type: public
+- name: geometry2
+  description: A metapackage to bring in the default packages second generation Transform Library in ros, tf2
+  upstream:  https://github.com/ros/geometry2
+  protected_branches:
+  - master
+  type: public
+- name: nodelet_core
+  description: Nodelet Core Metapackage 
+  upstream:  https://github.com/ros/nodelet_core
+  protected_branches:
+  - master
+  type: public
+- name: common_msgs
+  description: common_msgs contains messages that are widely used by other ROS packages.
+  upstream:  https://github.com/ros/common_msgs
+  protected_branches:
+  - master
+  type: public
+- name: openslam_gmapping
+  description: The catkinized verseion of openslam_gmapping package
+  upstream:  https://github.com/ros-perception/openslam_gmapping
+  protected_branches:
+  - master
+  type: public
+- name: slam_gmapping
+  description: slam_gmapping contains a wrapper around gmapping which provides SLAM capabilities.
+  upstream:  https://github.com/ros-perception/slam_gmapping 
+  protected_branches:
+  - master
+  type: public
 - name: ros_comm
   description: ros_comm package that belongs to THE ROS-COMM
   upstream: https://github.com/ros/ros_comm

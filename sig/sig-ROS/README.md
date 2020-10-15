@@ -60,5 +60,15 @@ repository地址：
 - https://gitee.com/src-openeuler/ros_comm_msgs
 - https://gitee.com/src-openeuler/pluginlib
 - https://gitee.com/src-openeuler/ros_comm
+- https://gitee.com/src-openeuler/actionlib 
+- https://gitee.com/src-openeuler/angles
+- https://gitee.com/src-openeuler/bond_core
+- https://gitee.com/src-openeuler/dynamic_reconfigure
+- https://gitee.com/src-openeuler/geometry
+- https://gitee.com/src-openeuler/geometry2
+- https://gitee.com/src-openeuler/nodelet_core
+- https://gitee.com/src-openeuler/common_msgs
+- https://gitee.com/src-openeuler/openslam_gmapping
+- https://gitee.com/src-openeuler/slam_gmapping 
 
 
