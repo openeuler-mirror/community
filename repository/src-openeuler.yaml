@@ -8979,6 +8979,12 @@ repositories:
   - openEuler-20.09
   - openEuler-20.03-LTS
   type: public
+- name: uperf
+  description: uperf is a network performance tool that supports modelling and replay of various networking patterns.
+  upstream: https://github.com/uperf/uperf
+  protected_branches:
+  - master
+  type: public
 - name: iperf2
   description: Measurement tool for TCP/UDP bandwidth performance
   upstream: http://sourceforge.net/projects/iperf2
