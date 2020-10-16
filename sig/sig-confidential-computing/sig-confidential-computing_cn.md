@@ -26,3 +26,5 @@ sig-confidential_computing主要讨论在openEuler社区版本中已有或未来
   - 交付件形式：源码、tar包或兼而有之
   - openeuler/secGear
   - src-openeuler/linux-sgx
+  - src-openeuler/linux-sgx-driver
+  - src-openeuler/intel-sgx-ssl

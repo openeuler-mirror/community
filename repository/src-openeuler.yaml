@@ -53628,3 +53628,15 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: linux-sgx-driver
+  description: The linux-sgx-driver project hosts the out-of-tree driver for the Linux Intel(R) SGX software stack, which will be used until the driver upstreaming process is complete.
+  upstream: https://github.com/intel/linux-sgx-driver
+  protected_branches:
+  - master
+  type: public
+- name: intel-sgx-ssl
+  description: The Intel® Software Guard Extensions SSL (Intel® SGX SSL) cryptographic library is intended to provide cryptographic services for Intel® Software Guard Extensions (SGX) enclave applications.The Intel® SGX SSL cryptographic library is based on the underlying OpenSSL* Open Source project, providing a full-strength general purpose cryptography library.
+  upstream: https://github.com/intel/intel-sgx-ssl
+  protected_branches:
+  - master
+  type: public
