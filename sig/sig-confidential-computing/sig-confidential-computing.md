@@ -37,3 +37,4 @@ The sig-confidential_computing mainly discusses the existing or future confident
   - src-openeuler/linux-sgx
   - src-openeuler/linux-sgx-driver
   - src-openeuler/intel-sgx-ssl
+  - src-openeuler/ocaml-dune
