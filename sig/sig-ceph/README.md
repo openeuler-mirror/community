@@ -18,6 +18,7 @@
 ### Maintainer列表
 
 - chixinze[@chixinze](https://gitee.com/chixinze)
+- liuzhiqiang[@liuzhiqiang26](https://gitee.com/liuzhiqiang26)
 
 
 
