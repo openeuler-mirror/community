@@ -638,6 +638,7 @@ repositories:
   upstream: http://www.antlr2.org/
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: antlr3
@@ -706,6 +707,7 @@ repositories:
   upstream: http://commons.apache.org/collections/
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: apache-commons-collections4
@@ -865,6 +867,7 @@ repositories:
   upstream: http://commons.apache.org/pool/
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: apache-commons-pool2
@@ -1588,6 +1591,7 @@ repositories:
     and more
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: bcel
@@ -2431,6 +2435,7 @@ repositories:
   description: ''
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: private
 - name: classmate
@@ -4112,12 +4117,14 @@ repositories:
   upstream: http://www.eclipse.org
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: eclipse
   description: ''
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: private
 - name: eclipse-jgit
@@ -7051,6 +7058,7 @@ repositories:
   description: Google Core Libraries for Java.
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: private
 - name: guava20
@@ -7159,6 +7167,7 @@ repositories:
   upstream: http://www.h2database.com
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: ha-api
@@ -7327,6 +7336,7 @@ repositories:
   upstream: http://www.hibernate.org/
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: hibernate-commons-annotations
@@ -9284,6 +9294,7 @@ repositories:
   upstream: https://github.com/codehaus/jackson
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: jackson-annotations
@@ -9461,6 +9472,7 @@ repositories:
   upstream: http://javacc.org
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: javacc-maven-plugin
@@ -10183,6 +10195,7 @@ repositories:
   upstream: http://www.dogtagpki.org/wiki/JSS
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: jtidy
@@ -10190,6 +10203,7 @@ repositories:
   upstream: http://jtidy.sourceforge.net/
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: julietaula-montserrat-fonts
@@ -10206,6 +10220,7 @@ repositories:
   upstream: http://www.junit.org/
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: junit5
@@ -10567,6 +10582,7 @@ repositories:
   upstream: http://kxml.sourceforge.net/
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: kylin-nm
@@ -10693,6 +10709,7 @@ repositories:
   upstream: http://www.dogtagpki.org/
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: ldns
@@ -10753,6 +10770,7 @@ repositories:
   upstream: https://github.com/dain/leveldb
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: leveldbjni
@@ -11231,6 +11249,7 @@ repositories:
   description: Automated upstream mirror for libbpf stand-alone build.
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: libbs2b
@@ -13956,6 +13975,7 @@ repositories:
   upstream: http://logging.apache.org/log4j
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: log4j12
@@ -14670,6 +14690,7 @@ repositories:
   upstream: http://maven.apache.org/
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: maven-antrun-plugin
@@ -14851,6 +14872,7 @@ repositories:
   upstream: http://maven.apache.org
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: maven-plugin-build-helper
@@ -15024,6 +15046,7 @@ repositories:
   upstream: http://maven.apache.org/shared/maven-verifier
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: maven-verifier-plugin
@@ -16348,6 +16371,7 @@ repositories:
   upstream: http://asm.ow2.org/
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: objectweb-asm3
@@ -40737,6 +40761,7 @@ repositories:
   upstream: http://jakarta.apache.org/regexp/
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: reiserfs-utils
@@ -41829,6 +41854,7 @@ repositories:
   upstream: https://eclipse.org/sisu
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: skkdic
@@ -41876,6 +41902,7 @@ repositories:
   description: ''
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: private
 - name: slurm
@@ -42150,6 +42177,7 @@ repositories:
   upstream: http://projects.spring.io/spring-framework/
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: sqlite
@@ -44624,6 +44652,7 @@ repositories:
   upstream: https://fedoraproject.org/wiki/User:Patches/PackagingDrafts/Web_Assets
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: webbench
@@ -46919,6 +46948,7 @@ repositories:
   upstream: http://poi.apache.org/
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: apache-rat
@@ -47080,6 +47110,7 @@ repositories:
   upstream: http://grizzly.java.net/
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: aries-proxy-impl
@@ -47141,6 +47172,7 @@ repositories:
   upstream: http://castor-data-binding.github.io/castor/
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: castor-maven-plugin
@@ -47148,6 +47180,7 @@ repositories:
   upstream: http://www.mojohaus.org/castor-maven-plugin/
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: codegen
@@ -50337,6 +50370,7 @@ repositories:
   upstream: http://www.jboss.org
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: jboss-invocation
@@ -50662,6 +50696,7 @@ repositories:
   upstream: http://sourceforge.net/projects/jibx/
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: jline1
@@ -50968,6 +51003,7 @@ repositories:
   upstream: http://www.mongodb.org/display/DOCS/Java+Language+Center
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: mustache-java
@@ -50999,6 +51035,7 @@ repositories:
   upstream: http://openwebbeans.apache.org/
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: os-maven-plugin
@@ -51070,6 +51107,7 @@ repositories:
   upstream: https://resteasy.github.io
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: rome
@@ -51077,6 +51115,7 @@ repositories:
   upstream: http://rometools.github.io/rome/
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: rxjava
@@ -51230,6 +51269,7 @@ repositories:
   upstream: http://sslext.sourceforge.net/
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: staxmapper
@@ -51245,6 +51285,7 @@ repositories:
   upstream: http://struts.apache.org/
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: svnkit
@@ -51320,6 +51361,7 @@ repositories:
   upstream: http://tiles.apache.org/
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: time-api
@@ -51391,6 +51433,7 @@ repositories:
   upstream: http://velocity.apache.org/tools/releases/2.0/
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: vorbis-java
@@ -51508,6 +51551,7 @@ repositories:
   upstream: http://santuario.apache.org/
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: xmpcore
@@ -51602,6 +51646,7 @@ repositories:
   upstream: http://jdbc.postgresql.org/
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: rubygem-sass
@@ -51716,6 +51761,7 @@ repositories:
   upstream: http://johnzon.apache.org/
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: shrinkwrap
@@ -51752,6 +51798,7 @@ repositories:
   upstream: http://openjpa.apache.org/
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: nodejs-caller-path
@@ -51766,6 +51813,7 @@ repositories:
   upstream: https://github.com/jayway/JsonPath
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: eclipse-ptp
@@ -51780,6 +51828,7 @@ repositories:
   upstream: http://www.eclemma.org/jacoco/
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: nodejs-har-validator
@@ -52992,6 +53041,7 @@ repositories:
   upstream: http://serp.sourceforge.net/
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: erlang-rebar
@@ -53021,6 +53071,7 @@ repositories:
   upstream: https://libraries.io/maven/org.codehaus.mojo:idlj-maven-plugin
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: nodejs-tap
@@ -53035,6 +53086,7 @@ repositories:
   upstream: http://qpid.apache.org/proton/
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: jamonapi
@@ -53042,6 +53094,7 @@ repositories:
   upstream: http://jamonapi.sourceforge.net/
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: android-json-org-java
@@ -53151,6 +53204,7 @@ repositories:
   upstream: https://oauth.net/code/java/
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: junit-addons
@@ -53165,6 +53219,7 @@ repositories:
   upstream: https://wrapper.tanukisoftware.com/doc/english/download.jsp
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: mojarra
@@ -53442,6 +53497,7 @@ repositories:
   upstream: http://www.hibernate.org/
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   type: public
 - name: jsonic
   description: Simple JSON encoder/decoder for Java
@@ -53509,6 +53565,7 @@ repositories:
   upstream: https://activemq.apache.org/artemis/
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   type: public
 - name: stapler-adjunct-timeline
   description: Timeline widget support for Stapler web framework
