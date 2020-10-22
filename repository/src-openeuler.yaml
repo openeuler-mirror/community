@@ -1,5 +1,11 @@
 community: src-openeuler
 repositories:
+- name: bootstrap
+  description: 'bootstrap is the most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.'
+  upstream: https://github.com/twbs/bootstrap
+  protected_branches:
+  - master
+  type: public
 - name: A-Tune
   description: ''
   protected_branches:
@@ -10077,11 +10083,12 @@ repositories:
   type: public
 - name: js-jquery
   description: jQuery is a fast,small,and feature-rich Javascript library.
+  upstream: https://github.com/jquery/jquery
   protected_branches:
   - master
   - openEuler-20.03-LTS-Next
   - openEuler-20.09
-  type: private
+  type: public
 - name: js-jquery1
   description: JavaScript DOM manipulation, event handling, and AJAX library.
   protected_branches:

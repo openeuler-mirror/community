@@ -45,7 +45,7 @@ Node.js 是一个开源与跨平台的 JavaScript 运行时环境。 它是一�
 ### Committers列表
 - 胡峰[@solarhu](https://gitee.com/solarhu)
 - 郑宇航[@zhengyuhanghans](https://gitee.com/zhengyuhanghans)
-
+- luhuaxin[@HuaxinLuGitee](https://gitee.com/HuaxinLuGitee) 1539327763@qq.com (js-jquery bootstrap)
 
 # 联系方式
 
