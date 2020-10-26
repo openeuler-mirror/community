@@ -3005,6 +3005,11 @@ sigs:
   - src-openeuler/yecht
   - src-openeuler/znerd-oss-parent
   - src-openeuler/zxing
+- name: sig-Ostree-Assembly
+  repositories:
+  - src-openeuler/ostree_assembly
+  - src-openeuler/rpm-ostree-toolbox
+  - src-openeuler/atomic
 - name: sig-ruby
   repositories:
   - src-openeuler/jruby
@@ -4385,6 +4390,7 @@ sigs:
   - src-openeuler/kiran-wallpapers
   - src-openeuler/lightdm-kiran-greeter
   - src-openeuler/plymouth-theme-kiran
+  - src-openeuler/kiran-flameshot 
 - name: sig-ROS
   repositories:
   - openeuler/ros

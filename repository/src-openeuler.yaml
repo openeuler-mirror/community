@@ -44957,6 +44957,30 @@ repositories:
   - master
   - openEuler-20.09
   type: public
+- name: kiran-flameshot
+  description: Powerful and simple to use screenshot software with built-in editor with advanced features.
+  upstream: https://gitee.com/kylinsecos/kiran-flameshot
+  protected_branches:
+  - master
+  type: public
+- name: ostree_assembly
+  description: Ostree generation platform, based on the Python Django, provides a complete set of web-based ostree mirror building process.
+  upstream: https://gitee.com/kylinsecos_admin/ostree_assembly
+  protected_branches:
+  - master
+  type: public
+- name: atomic
+  description: The goal of Atomic is to provide a high level, coherent entrypoint to the system, and fill in gaps. atomic can make it easier to interact with container runtimes for different kinds of containers, such as super-privileged and system containers. The atomic host subcommand wraps rpm-ostree providing unified management.
+  upstream: https://gitee.com/kylinsecos_admin/atomic
+  protected_branches:
+  - master
+  type: public
+- name: rpm-ostree-toolbox
+  description: Various utilities and scripts for working with rpm-ostree based operating systems, particularly as virtual machines.
+  upstream: https://gitee.com/kylinsecos_admin/rpm-ostree-toolbox
+  protected_branches:
+  - master
+  type: public
 - name: x265
   description: A H.265 / HEVC video encoder application library.
   upstream: https://bitbucket.org/multicoreware/x265

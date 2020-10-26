@@ -39,7 +39,7 @@ KIRAN-DESKTOP SIG小组致力于将KIRAN-DESKTOP 引入至 openEuler 社区中�
 - https://gitee.com/src-openeuler/kiran-wallpapers
 - https://gitee.com/src-openeuler/lightdm-kiran-greeter
 - https://gitee.com/src-openeuler/plymouth-theme-kiran
-
+- https://gitee.com/src-openeuler/kiran-flameshot
 
 ## SIG基本信息
 
