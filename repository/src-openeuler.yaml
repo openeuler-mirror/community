@@ -15806,6 +15806,7 @@ repositories:
   protected_branches:
   - master
   - openEuler-20.09
+  - openEuler-20.03-LTS-Next
   type: public
 - name: mysql-connector-java
   description: "Official JDBC driver for MySQL"
@@ -35128,6 +35129,7 @@ repositories:
   protected_branches:
   - master
   - openEuler-20.09
+  - openEuler-20.03-LTS-Next
   type: public
 - name: python-matplotlib
   description: Python 2D plotting library.
@@ -54079,22 +54081,39 @@ repositories:
   upstream: https://github.com/Infinidat/munch
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   type: public
 - name: python-requests-toolbelt
   description: A utility belt for advanced users of python-requests
   upstream: https://toolbelt.readthedocs.org
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   type: public
 - name: python-scss
   description: Python-scss is SCSS compiler for Python. See http://sass-lang.com for more information about scss syntax.
   upstream: http://github.com/klen/python-scss
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   type: public
 - name: kmodtool
   description: Tool for building kmod packages
   upstream: https://github.com/openEuler-DevUtils/kmodtool
+  protected_branches: 
+  - master
+  - openEuler-20.03-LTS-Next
+  type: public
+- name: Lmod
+  description: Environmental Modules System in Lua
+  upstream: https://github.com/TACC/Lmod
+  protected_branches: 
+  - master
+  - openEuler-20.03-LTS-Next
+  type: public
+- name: lua-term
+  description: Terminal functions for Lua
+  upstream: https://github.com/hoelzro/lua-term
   protected_branches: 
   - master
   - openEuler-20.03-LTS-Next
