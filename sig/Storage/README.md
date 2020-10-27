@@ -101,3 +101,5 @@ repository地址：
 - https://gitee.com/src-openeuler/libfastcommon
 - https://gitee.com/src-openeuler/DCache
 - https://gitee.com/src-openeuler/s3fs-fuse
+- https://gitee.com/src-openeuler/spdk
+- https://gitee.com/src-openeuler/pmdk

@@ -54118,3 +54118,15 @@ repositories:
   - master
   - openEuler-20.03-LTS-Next
   type: public
+- name: spdk
+  description: The Storage Performance Development Kit (SPDK) provides a set of tools and libraries for writing high performance, scalable, user-mode storage applications. It achieves high performance by moving all of the necessary drivers into userspace and operating in a polled mode instead of relying on interrupts, which avoids kernel context switches and eliminates interrupt handling overhead.
+  upstream: https://github.com/spdk/spdk
+  protected_branches: 
+  - master
+  type: public
+- name: pmdk
+  description: The Persistent Memory Development Kit (PMDK) is a collection of libraries and tools for System Administrators and Application Developers to simplify managing and accessing persistent memory devices. For more information, see https://pmem.io
+  upstream: https://github.com/pmem/pmdk
+  protected_branches: 
+  - master
+  type: public
