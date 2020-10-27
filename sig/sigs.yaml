@@ -530,7 +530,6 @@ sigs:
   - src-openeuler/ilmbase
   - src-openeuler/intel-cmt-cat
   - src-openeuler/intltool
-  - src-openeuler/iowatcher
   - src-openeuler/itstool
   - src-openeuler/jboss-el
   - src-openeuler/jimtcl
@@ -4299,6 +4298,7 @@ sigs:
 - name: sig-recycle
   repositories:
   - src-openeuler/cmockery
+  - src-openeuler/iowatcher
   - src-openeuler/gnome-icon-theme-extras
   - src-openeuler/gnome-icon-theme-symbolic
   - src-openeuler/gnome-python2
