@@ -70,5 +70,20 @@ repository地址：
 - https://gitee.com/src-openeuler/common_msgs
 - https://gitee.com/src-openeuler/openslam_gmapping
 - https://gitee.com/src-openeuler/slam_gmapping 
+- https://gitee.com/src-openeuler/urdf
+- https://gitee.com/src-openeuler/rosconsole_bridge
+- https://gitee.com/src-openeuler/rviz
+- https://gitee.com/src-openeuler/pcl_conversion
+- https://gitee.com/src-openeuler/orocos_kdl
+- https://gitee.com/src-openeuler/resource_retriever 
+- https://gitee.com/src-openeuler/cartographer
+- https://gitee.com/src-openeuler/cartographer_ros
+- https://gitee.com/src-openeuler/image_transport
+- https://gitee.com/src-openeuler/interactive_markers
+- https://gitee.com/src-openeuler/laser_geometry
+- https://gitee.com/src-openeuler/navigation_msgs
+- https://gitee.com/src-openeuler/pcl_msgs
+- https://gitee.com/src-openeuler/python_qt_binding
+- https://gitee.com/src-openeuler/robot_state_publisher 
 
 

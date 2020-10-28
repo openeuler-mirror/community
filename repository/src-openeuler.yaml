@@ -2146,6 +2146,96 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: urdf
+  description: This package contains a C++ parser for the Unified Robot Description Format (URDF), which is an XML format for representing a robot model.
+  upstream: https://github.com/ros/urdf 
+  protected_branches:
+  - master
+  type: public
+- name: rosconsole_bridge
+  description: rosconsole_bridge is a package used in conjunction with console_bridge and rosconsole for connecting console_bridge-based logging to rosconsole-based logging.
+  upstream: https://github.com/ros/rosconsole_bridge
+  protected_branches:
+  - master
+  type: public
+- name: rviz
+  description: 3D visualization tool for ROS.
+  upstream: https://github.com/ros-visualization/rviz
+  protected_branches:
+  - master
+  type: public
+- name: pcl_conversion
+  description: Provides conversions from PCL data types and ROS message types.
+  upstream: https://github.com/ros-perception/perception_pcl
+  protected_branches:
+  - master
+  type: public
+- name: orocos_kdl
+  description: This package contains a recent version of the Kinematics and Dynamics Library (KDL), distributed by the Orocos Project.
+  upstream: https://github.com/orocos/orocos_kinematics_dynamics
+  protected_branches:
+  - master
+  type: public
+- name: resource_retriever
+  description: This package retrieves data from url-format files.
+  upstream: https://github.com/ros/resource_retriever
+  protected_branches:
+  - master
+  type: public
+- name: cartographer
+  description: Cartographer is a system that provides real-time simultaneous localization and mapping (SLAM) in 2D and 3D across multiple platforms and sensor configurations.
+  upstream: https://github.com/cartographer-project/cartographer
+  protected_branches:
+  - master
+  type: public
+- name: cartographer_ros
+  description: This project provides Cartographer's ROS integration.
+  upstream: https://github.com/cartographer-project/cartographer_ros
+  protected_branches:
+  - master
+  type: public
+- name: image_transport
+  description: image_transport should always be used to subscribe to and publish images. It provides transparent support for transporting images in low-bandwidth compressed formats.
+  upstream: https://github.com/ros-perception/image_common
+  protected_branches:
+  - master
+  type: public
+- name: interactive_markers
+  description: 3D interactive marker communication library for RViz and similar tools.
+  upstream: https://github.com/ros-visualization/interactive_markers
+  protected_branches:
+  - master
+  type: public
+- name: laser_geometry
+  description: This package contains a class for converting from a 2D laser scan as defined by sensor_msgs/LaserScan into a point cloud as defined by sensor_msgs/PointCloud or sensor_msgs/PointCloud2..
+  upstream: https://github.com/ros-perception/laser_geometry
+  protected_branches:
+  - master
+  type: public
+- name: navigation_msgs
+  description: This package defines messages commonly used in mapping packages.
+  upstream: https://github.com/ros-planning/navigation_msgs
+  protected_branches:
+  - master
+  type: public
+- name: pcl_msgs
+  description: Package containing PCL (Point Cloud Library)-related ROS messages.
+  upstream: https://github.com/ros-perception/pcl_msgs
+  protected_branches:
+  - master
+  type: public
+- name: python_qt_binding 
+  description: This stack provides Python bindings for Qt.
+  upstream: https://github.com/ros-visualization/python_qt_binding
+  protected_branches:
+  - master
+  type: public
+- name: robot_state_publisher
+  description: This package allows you to publish the state of a robot to tf2.
+  upstream: https://github.com/ros/robot_state_publisher
+  protected_branches:
+  - master
+  type: public
 - name: ros_comm
   description: ros_comm package that belongs to THE ROS-COMM
   upstream: https://github.com/ros/ros_comm
