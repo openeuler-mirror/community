@@ -9,6 +9,11 @@ repositories:
   - openEuler-20.09
   - openEuler-20.03-LTS
   type: public
+- name: A-Tune-UI
+  description: 'Web server for A-Tune'
+  protected_branches:
+  - master
+  type: public
 - name: wisdom-advisor
   description: 'Wisdom-advisor is a tunning framework aimming at improving the performance of applications.'
   upstream: https://gitee.com/openeuler/wisdom-advisor
