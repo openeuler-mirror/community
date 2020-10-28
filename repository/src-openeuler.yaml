@@ -54096,9 +54096,10 @@ repositories:
   - master
   - openEuler-20.03-LTS-Next
   type: public
-- name: python-scss
-  description: Python-scss is SCSS compiler for Python. See http://sass-lang.com for more information about scss syntax.
-  upstream: http://github.com/klen/python-scss
+- name: pyScss
+  rename_from: python-scss
+  description: pyScss is a compiler for the Sass language. a superset of CSS3 that adds programming capabilities and some other syntactic sugar.
+  upstream: https://github.com/Kronuz/pyScss
   protected_branches: 
   - master
   - openEuler-20.03-LTS-Next
