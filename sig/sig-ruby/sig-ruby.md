@@ -32,13 +32,13 @@ You can visit Ruby's website for more information about ruby.
 ### Maintainers
 - 胡欣蔚[@shinwell_hu](https://gitee.com/shinwell_hu)
 - 夏森林[@small_leek](https://gitee.com/small_leek)
-- 黄海涛[@huanghaitao](https://gitee.com/huanghaitao)
+- 黄海涛[@hht8](https://gitee.com/hht8)
 
 
 ### Committers
 - 胡欣蔚[@shinwell_hu](https://gitee.com/shinwell_hu)
 - 夏森林[@small_leek](https://gitee.com/small_leek)
-- 黄海涛[@huanghaitao](https://gitee.com/huanghaitao)
+- 黄海涛[@hht8](https://gitee.com/hht8)
 
 ### Mailing list
 - dev@openeuler.org
