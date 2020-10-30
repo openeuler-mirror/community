@@ -54215,6 +54215,18 @@ repositories:
   - master
   - openEuler-20.03-LTS-Next
   type: public
+- name: pyang-swagger
+  description: A pyang plugin to obtain the RESTCONF API from a yang model
+  upstream: https://github.com/polycube-network/pyang-swagger
+  protected_branches:
+  - master
+  type: public
+- name: pyang
+  description: pyang is a YANG validator, transformator and code generator, written in python. It can be used to validate YANG modules for correctness, to transform YANG modules into other formats, and to generate code from the modules.
+  upstream: https://github.com/mbj4668/pyang
+  protected_branches:
+  - master
+  type: public
 - name: spdk
   description: The Storage Performance Development Kit (SPDK) provides a set of tools and libraries for writing high performance, scalable, user-mode storage applications. It achieves high performance by moving all of the necessary drivers into userspace and operating in a polled mode instead of relying on interrupts, which avoids kernel context switches and eliminates interrupt handling overhead.
   upstream: https://github.com/spdk/spdk
