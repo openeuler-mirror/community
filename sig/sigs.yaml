@@ -394,6 +394,7 @@ sigs:
   - src-openeuler/pesign
   - src-openeuler/pidgin
   - src-openeuler/pki-core
+  - src-openeuler/pngcrush
   - src-openeuler/pngquant
   - src-openeuler/pnm2ppa
   - src-openeuler/po4a
@@ -404,6 +405,7 @@ sigs:
   - src-openeuler/psutils
   - src-openeuler/pylint
   - src-openeuler/qperf
+  - src-openeuler/quilt
   - src-openeuler/R-language
   - src-openeuler/rabbitmq-server
   - src-openeuler/rasqal
@@ -3040,7 +3042,6 @@ sigs:
   - src-openeuler/rubygem-aruba
   - src-openeuler/rubygem-Ascii85
   - src-openeuler/rubygem-asciidoctor
-  - src-openeuler/rubygem-atomic
   - src-openeuler/rubygem-backports
   - src-openeuler/rubygem-bacon
   - src-openeuler/rubygem-bcrypt
@@ -4346,6 +4347,7 @@ sigs:
   - src-openeuler/openvswitch-kmod
   - src-openeuler/docker-anaconda-addon
   - src-openeuler/fontpackages
+  - src-openeuler/rubygem-atomic
 - name: sig-RaspberryPi
   repositories:
   - openeuler/raspberrypi
@@ -4398,7 +4400,7 @@ sigs:
   - src-openeuler/kiran-wallpapers
   - src-openeuler/lightdm-kiran-greeter
   - src-openeuler/plymouth-theme-kiran
-  - src-openeuler/kiran-flameshot 
+  - src-openeuler/kiran-flameshot
 - name: sig-ROS
   repositories:
   - openeuler/ros
@@ -4438,7 +4440,7 @@ sigs:
   - src-openeuler/rviz
   - src-openeuler/pcl_conversion
   - src-openeuler/orocos_kdl
-  - src-openeuler/resource_retriever 
+  - src-openeuler/resource_retriever
   - src-openeuler/cartographer
   - src-openeuler/cartographer_ros
   - src-openeuler/image_transport
@@ -4447,7 +4449,7 @@ sigs:
   - src-openeuler/navigation_msgs
   - src-openeuler/pcl_msgs
   - src-openeuler/python_qt_binding
-  - src-openeuler/robot_state_publisher 
+  - src-openeuler/robot_state_publisher
 - name: sig-ai-bigdata
   repositories:
   - src-openeuler/arm-ml-examples
