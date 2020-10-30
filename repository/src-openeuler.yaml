@@ -44158,6 +44158,18 @@ repositories:
   - master
   - openEuler-20.09
   type: public
+- name: imwheel
+  description: Mouse Event to Key Event Mapper Daemon
+  upstream: http://imwheel.sourceforge.net
+  protected_branches: 
+  - master
+  type: public
+- name: xorg-x11-drv-synaptics
+  description: Xorg X11 Synaptics touchpad input driver
+  upstream: http://www.x.org
+  protected_branches: 
+  - master
+  type: public
 - name: umoci
   description: Open Container Image manipulation tool
   protected_branches:
