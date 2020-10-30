@@ -17,7 +17,6 @@
 
 ### Maintainers列表
 - 侯健[@hjimmy](https://gitee.com/hjimmy)
-- 付惠惠[@huihui0311](https://gitee.com/huihui0311)
 
 ### Committers列表
 - 王迪[@crrs666](https://gitee.com/crrs666)
