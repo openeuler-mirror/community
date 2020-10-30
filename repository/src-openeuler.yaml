@@ -54240,3 +54240,9 @@ repositories:
   protected_branches: 
   - master
   type: public
+- name: ocaml-dune
+  description: A composable build system for OCaml
+  upstream: https://github.com/ocaml/dune
+  protected_branches:
+  - master
+  type: public
