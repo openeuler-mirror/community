@@ -41,13 +41,13 @@ Ruby 由松本行弘（Yukihiro “Matz” Matsumoto）开发，混合了他喜�
 ### Maintainers列表
 - 胡欣蔚[@shinwell_hu](https://gitee.com/shinwell_hu)
 - 夏森林[@small_leek](https://gitee.com/small_leek)
-- 黄海涛[@huanghaitao](https://gitee.com/huanghaitao)
+- 黄海涛[@hht8](https://gitee.com/hht8)
 
 
 ### Committers列表
 - 胡欣蔚[@shinwell_hu](https://gitee.com/shinwell_hu)
 - 夏森林[@small_leek](https://gitee.com/small_leek)
-- 黄海涛[@huanghaitao](https://gitee.com/huanghaitao)
+- 黄海涛[@hht8](https://gitee.com/hht8)
 
 
 # 联系方式
