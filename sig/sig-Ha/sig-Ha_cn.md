@@ -57,7 +57,6 @@ Ha相关软件包的仓库如下，详见： http://archive.kernel.org/centos-va
 ### Maintainers
 - hjimmy
 - hjimmy1
-- huihui0311
 
 ### Committers
 - crrs666
