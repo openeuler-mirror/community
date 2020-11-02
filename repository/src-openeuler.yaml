@@ -30113,6 +30113,30 @@ repositories:
   - master
   - openEuler-20.09
   type: public
+- name: perlporter
+  description: A rpm packager bot for perl modules from cpan.org
+  upstream: https://gitee.com/openeuler/perlporter
+  protected_branches:
+  - master
+  type: public
+- name: pkgporter
+  description: A rpm packager automation bot for perl, python and so on
+  upstream: https://gitee.com/openeuler/pkgporter
+  protected_branches:
+  - master
+  type: public
+- name: nodejsporter
+  description: A rpm packager bot for nodejs modules from npmjs.org
+  upstream: https://gitee.com/openeuler/nodejsporter
+  protected_branches:
+  - master
+  type: public
+- name: rubyporter
+  description: A rpm packager bot for python modules from rubygems.org
+  upstream: https://gitee.com/openeuler/rubyporter
+  protected_branches:
+  - master
+  type: public
 - name: pysendfile
   description: Python interface to the sendfile(2) system call
   protected_branches:
