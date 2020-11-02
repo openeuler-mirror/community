@@ -18,14 +18,14 @@
 
 # 组织会议
 
-- 公开的会议时间：北京时间，每周六下午，14点~15点
+- 公开的会议时间：北京时间，每双周六下午，14:30~15:00
 
 # 成员
 
 ### Maintainer列表
 
-- yanan@huawei.com
 - fengtao40@huawei.com
+- yanan@huawei.com
 - songnannan2@huawei.com
 - zhangrui182@huawei.com
 - shenyangyang4@huawei.com
