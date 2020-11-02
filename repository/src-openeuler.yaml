@@ -1413,6 +1413,7 @@ repositories:
   upstream: https://kde.org
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: autotrace
@@ -3235,6 +3236,7 @@ repositories:
   upstream: https://github.com/unity8-team/libdbusmenu-qt
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: dbxtool
@@ -4606,6 +4608,7 @@ repositories:
   upstream: https://api.kde.org/ecm
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: extra166y
@@ -9014,11 +9017,13 @@ repositories:
   - openEuler-20.09
   type: public
 - name: imlib2
-  description: ''
+  description: 'Image loading, saving, rendering, and manipulation library'
+  upstream: http://docs.enlightenment.org/api/imlib2/html/
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
-  type: private
+  type: public
 - name: imsettings
   description: Delivery framework for general Input Method configuration
   upstream: https://bitbucket.org/tagoh/imsettings
@@ -10551,6 +10556,7 @@ repositories:
   upstream: http://www.kde.org
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: kscreenlocker
@@ -10685,6 +10691,7 @@ repositories:
   description: ''
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: kyotocabinet
@@ -12426,6 +12433,7 @@ repositories:
   upstream: https://github.com/mate-desktop/libmatekbd
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: libmatemixer
@@ -12433,6 +12441,7 @@ repositories:
   upstream: https://github.com/mate-desktop/libmatemixer
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: libmateweather
@@ -13902,6 +13911,7 @@ repositories:
   upstream: https://www.freedesktop.org/wiki/Software/LightDM/
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: lightdm-gtk
@@ -14057,6 +14067,7 @@ repositories:
   upstream: http://sourceforge.net/projects/log4cplus
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: log4cpp
@@ -14660,6 +14671,7 @@ repositories:
   upstream: https://github.com/mate-desktop/mate-common
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: mate-control-center
@@ -14674,6 +14686,7 @@ repositories:
   upstream: https://github.com/mate-desktop/mate-desktop
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: mate-icon-theme
@@ -14758,6 +14771,7 @@ repositories:
   upstream: https://github.com/mate-desktop/mate-terminal
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: mate-themes
@@ -15243,6 +15257,7 @@ repositories:
   upstream: http://www.freedesktop.org/wiki/Software/media-player-info
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: memcached
@@ -16861,6 +16876,7 @@ repositories:
   upstream: http://openbox.org
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: opencc
@@ -17942,12 +17958,14 @@ repositories:
   description: ''
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: peony-extensions
   description: ''
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: perftest
@@ -40601,6 +40619,7 @@ repositories:
   description: ''
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: qt5integration
@@ -43469,6 +43488,7 @@ repositories:
   description: ''
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: ukui-desktop-environment
@@ -43476,6 +43496,7 @@ repositories:
   upstream: https://github.com/ukui/ukui-desktop-environment
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   type: public
 - name: ukui-biometric-manager
   description: ''
@@ -43487,12 +43508,14 @@ repositories:
   description: ''
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: ukui-greeter
   description: ''
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: ukui-indicators
@@ -43511,30 +43534,35 @@ repositories:
   description: ''
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: ukui-menu
   description: ''
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: ukui-panel
   description: ''
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: ukui-power-manager
   description: ''
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: ukui-screensaver
   description: ''
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: ukui-screenshot
@@ -43547,36 +43575,42 @@ repositories:
   description: ''
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: ukui-settings-daemon
   description: ''
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: ukui-sidebar
   description: ''
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: ukui-themes
   description: ''
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: ukui-window-switch
   description: ''
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: ukwm
   description: ''
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: ukylin-feedback-client
@@ -43590,6 +43624,7 @@ repositories:
   upstream: http://www.kde.org
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: bamf
@@ -43597,6 +43632,7 @@ repositories:
   upstream: https://github.com/malwaredllc/bamf
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: grafana
@@ -43611,6 +43647,7 @@ repositories:
   upstream: http://www.gitorious.org/grantlee/pages/Home
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: gsettings-qt
@@ -43618,6 +43655,7 @@ repositories:
   upstream: https://launchpad.net/gsettings-qt
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: kf5-karchive
@@ -43625,6 +43663,7 @@ repositories:
   upstream: http://www.kde.org
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: kf5-kauth
@@ -43632,6 +43671,7 @@ repositories:
   upstream: http://www.kde.org
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: kf5-kcodecs
@@ -43639,6 +43679,7 @@ repositories:
   upstream: http://www.kde.org
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: kf5-kconfig
@@ -43646,6 +43687,7 @@ repositories:
   upstream: http://www.kde.org
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: kf5-kconfigwidgets
@@ -43653,6 +43695,7 @@ repositories:
   upstream: http://www.kde.org
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: kf5-kcoreaddons
@@ -43660,6 +43703,7 @@ repositories:
   upstream: http://www.kde.org
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: kf5-kdoctools
@@ -43667,6 +43711,7 @@ repositories:
   upstream: http://www.kde.org
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: kf5-kguiaddons
@@ -43674,6 +43719,7 @@ repositories:
   upstream: http://www.kde.org
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: kf5-ki18n
@@ -43681,6 +43727,7 @@ repositories:
   upstream: http://www.kde.org
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: kf5-kidletime
@@ -43688,6 +43735,7 @@ repositories:
   upstream: http://www.kde.org
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: kf5-kwayland
@@ -43695,6 +43743,7 @@ repositories:
   upstream: http://www.kde.org
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: kf5-kwidgetsaddons
@@ -43702,6 +43751,7 @@ repositories:
   upstream: http://www.kde.org
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: kf5-kwindowsystem
@@ -43709,6 +43759,7 @@ repositories:
   upstream: http://www.kde.org
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: kf5-solid
@@ -43716,6 +43767,7 @@ repositories:
   upstream: http://www.kde.org
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: openstack-nova
@@ -44024,6 +44076,7 @@ repositories:
   upstream: http://www.kde.org
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: libqtxdg
@@ -44031,6 +44084,7 @@ repositories:
   upstream: https://github.com/lxqt/libqtxdg
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: libstatgrab
@@ -44038,6 +44092,7 @@ repositories:
   upstream: http://www.i-scream.org/libstatgrab
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: libsysstat
@@ -44045,6 +44100,7 @@ repositories:
   upstream: https://github.com/lxqt/libsysstat
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: libupnp
@@ -44052,6 +44108,7 @@ repositories:
   upstream: https://sourceforge.net/projects/pupnp
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: lxqt-build-tools
@@ -44059,6 +44116,7 @@ repositories:
   upstream: https://github.com/lxqt/lxqt-build-tools
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: polkit-qt-1
@@ -44066,6 +44124,7 @@ repositories:
   upstream: https://api.kde.org/kdesupport-api/polkit-qt-1-apidocs/
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: qjson
@@ -44073,6 +44132,7 @@ repositories:
   upstream: https://github.com/flavio/qjson
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: qt5-qtcharts
@@ -44080,6 +44140,7 @@ repositories:
   upstream: http://www.qt.io
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: qtchooser
@@ -44087,6 +44148,7 @@ repositories:
   upstream: http://macieira.org/qtchooser
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: redshift
@@ -44094,6 +44156,7 @@ repositories:
   upstream: http://jonls.dk/redshift/
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: shared-desktop-ontologies
@@ -44101,6 +44164,7 @@ repositories:
   upstream: http://oscaf.sourceforge.net/
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: ubuntukylin-default-settings
@@ -44108,6 +44172,7 @@ repositories:
   upstream: https://github.com/ukui
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: ukui-system-monitor
@@ -44115,6 +44180,7 @@ repositories:
   upstream: https://github.com/ukui/ukui-system-monitor
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: ukui-wallpapers
@@ -44122,6 +44188,7 @@ repositories:
   upstream: https://github.com/ukui/ukui-wallpapers
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: libchamplain
@@ -44129,6 +44196,7 @@ repositories:
   upstream: https://wiki.gnome.org/Projects/libchamplain
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: atril
@@ -44136,6 +44204,7 @@ repositories:
   upstream: http://mate-desktop.org
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: mathjax
@@ -44143,6 +44212,7 @@ repositories:
   upstream: http://mathjax.org
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: shotwell
@@ -44150,6 +44220,7 @@ repositories:
   upstream: https://wiki.gnome.org/Apps/Shotwell
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: engrampa
@@ -44157,6 +44228,7 @@ repositories:
   upstream: http://git.mate-desktop.org/engrampa
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: imwheel
@@ -44164,12 +44236,14 @@ repositories:
   upstream: http://imwheel.sourceforge.net
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   type: public
 - name: xorg-x11-drv-synaptics
   description: Xorg X11 Synaptics touchpad input driver
   upstream: http://www.x.org
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   type: public
 - name: umoci
   description: Open Container Image manipulation tool
