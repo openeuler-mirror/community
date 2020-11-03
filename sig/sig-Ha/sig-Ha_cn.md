@@ -48,6 +48,8 @@ Ha相关软件包的仓库如下，详见： http://archive.kernel.org/centos-va
 - https://gitee.com/openeuler/ha-api
 - https://gitee.com/openeuler/ha-web
 - https://gitee.com/openeuler/pacemaker-mgmt
+- https://gitee.com/src-openeuler/booth
+- https://gitee.com/src-openeuler/execstack
 
 ## SIG基本信息
 

@@ -4378,6 +4378,8 @@ sigs:
   - src-openeuler/corosync-qdevice
   - src-openeuler/drbd
   - src-openeuler/drbd-utils
+  - src-openeuler/booth
+  - src-openeuler/execstack
 - name: sig-QA
   repositories:
   - openeuler/QA
@@ -7009,6 +7011,8 @@ sigs:
   - src-openeuler/python-munch
   - src-openeuler/python-requests-toolbelt
   - src-openeuler/pyScss
+  - src-openeuler/google-api-python-client
+  - src-openeuler/python-s3transfer
 - name: sig-release-management
   repositories:
   - src-openeuler/openEuler-lsb
