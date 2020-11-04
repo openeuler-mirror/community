@@ -6,8 +6,11 @@
 
 # 组织会议
 
-- 公开的会议时间：北京时间，每个月的第一个和第三个周二，15:00 - 15:30
-- Zoom MeetID: 881 4204 8958
+公开的会议时间：北京时间，每个月的第一个和第三个周二，15:00 - 15:30。
+
+会议链接有以下两种获取方式：
+- [openEuler 社区网站](https://openeuler.org/)下的会议日历中查看 `sig-RaspberryPi例会` 预定信息。
+- 微信小程序搜索 `openEuler`，添加 `openEuler` 小程序，可在其`会议`栏目查看 `sig-RaspberryPi例会` 预定信息。
 
 # 成员
 
@@ -26,7 +29,6 @@
 - 邮件列表: dev@openeuler.org
 - Slack 群组: https://openeuler-raspberrypi.slack.com ，加入 Slack 群组的链接将定期更新在 [树莓派 SIG 主仓库](https://gitee.com/openeuler/raspberrypi)
 - IRC 频道: #openeuler-raspberrypi
-- Zoom 公开会议 MeetID: 881 4204 8958
 
 # 项目清单
 
