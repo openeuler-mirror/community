@@ -15699,6 +15699,13 @@ repositories:
   - openEuler-20.09
   - openEuler-20.03-LTS
   type: public
+- name: mozjs78
+  description: 'SpiderMonkey JavaScript library'
+  upstream: https://hg.mozilla.org/releases/mozilla-esr78
+  protected_branches:
+  - master
+  - openEuler-20.03-LTS-Next
+  type: public
 - name: mpfr
   description: ''
   protected_branches:
