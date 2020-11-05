@@ -49,6 +49,8 @@ The repositories related to Ha are listed below, see http://archive.kernel.org/c
 - https://gitee.com/openeuler/ha-api
 - https://gitee.com/openeuler/ha-web
 - https://gitee.com/openeuler/pacemaker-mgmt
+- https://gitee.com/src-openeuler/booth
+- https://gitee.com/src-openeuler/execstack
 
 ## Basic Information
 
