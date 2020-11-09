@@ -15,6 +15,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: A-Tune-Collector
+  description: 'Collector for A-Tune'
+  upstream: https://gitee.com/openeuler/A-Tune-Collector
+  protected_branches:
+  - master
+  type: public
 - name: wisdom-advisor
   description: 'Wisdom-advisor is a tunning framework aimming at improving the performance of applications.'
   upstream: https://gitee.com/openeuler/wisdom-advisor
