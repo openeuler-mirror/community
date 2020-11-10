@@ -2729,7 +2729,6 @@ sigs:
   - src-openeuler/jersey
   - src-openeuler/jersey1
   - src-openeuler/jets3t
-  - src-openeuler/jetty-alpn
   - src-openeuler/jetty-alpn-api
   - src-openeuler/jetty-artifact-remote-resources
   - src-openeuler/jetty-assembly-descriptors
@@ -4308,6 +4307,7 @@ sigs:
   - src-openeuler/imlib2
 - name: sig-recycle
   repositories:
+  - src-openeuler/jetty-alpn
   - src-openeuler/cmockery
   - src-openeuler/iowatcher
   - src-openeuler/gnome-icon-theme-extras
