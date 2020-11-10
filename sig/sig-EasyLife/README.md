@@ -41,3 +41,7 @@ SIG当前计划分3个阶段：
 
 - pkgship:
   http://gitee.com/openeuler/pkgship
+
+- sync-bot:
+  http://gitee.com/openeuler/sync-bot
+
