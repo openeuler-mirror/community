@@ -39865,6 +39865,7 @@ repositories:
   description: Python X Library
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
 - name: python-xlrd
@@ -43529,6 +43530,13 @@ repositories:
   - openEuler-20.03-LTS-Next
   - openEuler-20.09
   - openEuler-20.03-LTS
+  type: public
+- name: kylin-display-switch
+  description: 'Gui tool for display switching'
+  upstream: https://github.com/ukui/kylin-display-switch
+  protected_branches:
+  - master
+  - openEuler-20.03-LTS-Next
   type: public
 - name: ukui-notification-daemon
   description: 'daemon to display passive popup notifications'
