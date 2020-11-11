@@ -502,3 +502,9 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: sync-bot
+  description: "A tool for handling synchronization between branches"
+  protected_branches:
+  - master
+  type: public
+
