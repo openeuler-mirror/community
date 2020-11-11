@@ -15,6 +15,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: A-Tune-Collector
+  description: "Collector for A-Tune"
+  protected_branches:
+  - master
+  type: public
 - name: wisdom-advisor
   description: 'Wisdom-advisor is a tunning framework aimming at improving the performance of applications.'
   protected_branches:
