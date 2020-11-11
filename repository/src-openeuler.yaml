@@ -43527,6 +43527,27 @@ repositories:
   - openEuler-20.09
   - openEuler-20.03-LTS
   type: public
+- name: ukui-notification-daemon
+  description: 'daemon to display passive popup notifications'
+  upstream: https://github.com/ukui/ukui-notification-daemon
+  protected_branches:
+  - master
+  - openEuler-20.03-LTS-Next
+  type: public
+- name: ukui-user-guide
+  description: 'Manual for UKUI desktop environment'
+  upstream: https://github.com/UbuntuKylin/kylin-user-guide
+  protected_branches:
+  - master
+  - openEuler-20.03-LTS-Next
+  type: public
+- name: time-shutdown
+  description: 'The time-shutdown is mainly used in the desktop operating system'
+  upstream: https://github.com/ukui/time-shutdown
+  protected_branches:
+  - master
+  - openEuler-20.03-LTS-Next
+  type: public
 - name: ukui-biometric-auth
   description: ''
   protected_branches:
