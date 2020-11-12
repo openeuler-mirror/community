@@ -3220,9 +3220,11 @@ sigs:
   - src-openeuler/rubygems-ronn
 - name: sig-nodejs
   repositories:
+  - src-openeuler/bootstrap
   - src-openeuler/closure-compiler
   - src-openeuler/expresso
   - src-openeuler/js-jquery2
+  - src-openeuler/js-jquery
   - src-openeuler/js-sizzle
   - src-openeuler/lodash
   - src-openeuler/node-gyp
@@ -3683,7 +3685,6 @@ sigs:
   - src-openeuler/jetty
   - src-openeuler/jetty-schemas
   - src-openeuler/jhighlight
-  - src-openeuler/js-jquery
   - src-openeuler/js-underscore
   - src-openeuler/jsch-agent-proxy
   - src-openeuler/js-jquery1
