@@ -16,18 +16,21 @@
 
 ### Maintainer列表
 
-- wunianqing[@wunianqing](https://gitee.com/wunianqing)
+- wuliaokanke[@y00438221](yuhongxiao@huawei.com)
+- ivymq[@wangminqian](wangminqian@huawei.com)
 
 
 
 ### Committer列表
 
-- wunianqing[@wunianqing](https://gitee.com/wunianqing)
+- wuliaokanke[@y00438221](yuhongxiao@huawei.com)
+- ivymq[@wangminqian](wangminqian@huawei.com)
 
 
 
 # 联系方式
-
+- yuhongxiao@huawei.com
+- wangminqian@huawei.com
 
 - [邮件列表](dev@openeuler.org)
 - [IRC频道](#openeuler-dev)
