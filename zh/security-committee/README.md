@@ -27,6 +27,7 @@ openEuler安全委员会（SC）是负责接收和响应openEuler产品安全问
 + 杨丽[[@yangli69393](https://gitee.com/yangli69393)]，`<y69393@huawei.com> `   
 + 颜小兵[[@yanxiaobing2020](https://gitee.com/yanxiaobin2020)]，`yanxiaobing@huawei.com`
 + 朱健伟[@zhujianwei001](https://gitee.com/zhujianwei001)，`zhujianwei7@huawei.com`，[GPG秘钥]
++ 魏刚[@gwei3](https://gitee.com/gwei3)，`11015100@qq.com`
 
 准成员：
 
@@ -46,9 +47,9 @@ SC和产品发布相关，所以和发布经理有很多工作关联，SC会负�
 
 | 清单或群组                             | 类型    | 用途                                                         |
 | -------------------------------------- | ------- | ------------------------------------------------------------ |
-| security@openeuler.org                 | Private | openEuler安全披露邮箱。此列表由PSC密切监控和分类。详细信息请参考[安全披露指南](security-disclosure.md) |
-| release-managers-private@openeuler.org | Private | 发布经理的私人交流邮件，所有成员都应订阅security@openeuler.org。发布经理在发布过程中讨论安全问题的处理应使用该邮箱 |
-| security-discuss-private@openeuler.org | Private | SC的私有内部讨论邮件，所有成员都需订阅security@openeuler.org |
+| securities@openeuler.org               | Private | openEuler安全披露邮箱。此列表由PSC密切监控和分类。详细信息请参考[安全披露指南](security-disclosure.md) |
+| release-managers-private@openeuler.org | Private | 发布经理的私人交流邮件，所有成员都应订阅securities@openeuler.org。发布经理在发布过程中讨论安全问题的处理应使用该邮箱 |
+| security-discuss-private@openeuler.org | Private | SC的私有内部讨论邮件，所有成员都需订阅securities@openeuler.org |
 
 
 
