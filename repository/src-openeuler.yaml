@@ -34639,11 +34639,12 @@ repositories:
   - openEuler-20.09
   type: public
 - name: python-jmespath
-  description: ''
+  upstream: http://jmespath.org
+  description: JMESPath allows you to declaratively specify how to extract elements from a JSON document.
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: python-joblib
   description: ''
   protected_branches:
