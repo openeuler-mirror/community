@@ -527,3 +527,8 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: sonic-linux-kernel
+  description: "The OpenEuler kernel patches used with SONIC"
+  protected_branches:
+  - master
+  type: public
