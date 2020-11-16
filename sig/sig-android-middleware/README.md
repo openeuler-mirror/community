@@ -25,6 +25,9 @@
 - kuno_0
 - zhou_run_yuan
 - liangjc7
+- 王磊
+- Besse1
+- 吴文良
 
 ### Maintainer列表
 
