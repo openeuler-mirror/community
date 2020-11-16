@@ -9,12 +9,14 @@ Tuesday 10 am every week.
 ## Members
 
 ### Maintainers
- - 郭 歌[@jdkboy](https://gitee.com/jdkboy)
- - 章 海剑[@Haijian.Zhang](https://gitee.com/haijianzhang)
+ - 郭 歌[@jdkboy](https://gitee.com/jdkboy) email: guoge1@huawei.com
+ - 章 海剑[@Haijian.Zhang](https://gitee.com/haijianzhang) email: z.zhanghaijian@huawei.com
 
 ### Committers
- - 贺 东博[@Noah](https://gitee.com/jvmboy)
- - 谢 志恒[@eastb233](https://gitee.com/eastb233)
+ - 贺 东博[@Noah](https://gitee.com/jvmboy) email: hedongbo@huawei.com
+ - 谢 志恒[@eastb233](https://gitee.com/eastb233) email: xiezhiheng@huawei.com
+ - 王 亚东[@wangyadong](https://gitee.com/yd_wang) email: yadonn.wang@huawei.com
+ - 姜 飞龙[@jiangfeilong](https://gitee.com/jiangfeilong1003) email: jiangfeilong@huawei.com
 
 ## Contact
 
