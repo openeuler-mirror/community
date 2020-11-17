@@ -120,6 +120,7 @@ oVirt相关软件包的仓库如下，详见：https://resources.ovirt.org/pub/o
 ### Maintainers
 - hjimmy
 - wm-wm-wm
+- jxy_git
 
 ### Committers
 - crrs666

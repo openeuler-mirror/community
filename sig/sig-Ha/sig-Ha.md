@@ -60,6 +60,8 @@ The repositories related to Ha are listed below, see http://archive.kernel.org/c
 ### Maintainers
 - hjimmy
 - hjimmy1
+- yangzhao_kl
+- jxy_git
 
 ### Committers
 - crrs666

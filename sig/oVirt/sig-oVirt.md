@@ -121,6 +121,7 @@ The repositories related to oVirt are listed below, see https://resources.ovirt.
 ### Maintainers
 - hjimmy
 - wm-wm-wm
+- jxy_git
 
 ### Committers
 - crrs666
