@@ -17661,11 +17661,12 @@ repositories:
   - openEuler-20.03-LTS-Next
   type: public
 - name: pacemaker
-  description: Pacemaker is an advanced, scalable high-availability cluster resource
-    manager.
+  description: Pacemaker is an advanced, scalable high-availability cluster resource manager.
+  upstream: https://clusterlabs.org/pacemaker/
   protected_branches:
   - master
   - openEuler-20.09
+  - openEuler-20.03-LTS-SP1
   type: public
 - name: pacemaker-mgmt
   description: A client/server GUI and a SNMP subagent for configuring, managing and
@@ -54182,6 +54183,7 @@ repositories:
   upstream: https://github.com/akryukov/oldstand
   protected_branches: 
   - master
+  - openEuler-20.09
   type: public
 - name: epiphany
   description: Web browser for GNOME
@@ -54323,6 +54325,7 @@ repositories:
   upstream: https://github.com/ocaml/ocamlbuild
   protected_branches: 
   - master
+  - openEuler-20.09
   type: public
 - name: proftpd
   description: Flexible, stable and highly-configurable FTP server
@@ -54460,4 +54463,35 @@ repositories:
   protected_branches:
   - master
   - openEuler-20.03-LTS-Next
+  type: public
+- name: python-readme-renderer
+  description: readme_renderer is a library for rendering "readme" descriptions for Warehouse
+  upstream: https://github.com/pypa/readme_renderer
+  protected_branches: 
+  - master
+  type: public
+- name: python-flake8-polyfill
+  description: Polyfill package for Flake8 plugins
+  upstream: https://gitlab.com/pycqa/flake8-polyfill
+  protected_branches: 
+  - master
+  type: public
+- name: pdfpc
+  description: A GTK based presentation viewer application for GNU/Linux
+  upstream: https://github.com/pdfpc/pdfpc
+  protected_branches: 
+  - master
+  - openEuler-20.09
+  type: public
+- name: python-pep8-naming
+  description: Check PEP-8 naming conventions, plugin for flake8
+  upstream: https://github.com/PyCQA/pep8-naming
+  protected_branches: 
+  - master
+  type: public
+- name: python-twine
+  description: Collection of utilities for interacting with PyPI
+  upstream: https://github.com/pypa/twine
+  protected_branches: 
+  - master
   type: public
