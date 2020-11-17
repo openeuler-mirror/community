@@ -17659,11 +17659,12 @@ repositories:
   - openEuler-20.03-LTS-Next
   type: public
 - name: pacemaker
-  description: Pacemaker is an advanced, scalable high-availability cluster resource
-    manager.
+  description: Pacemaker is an advanced, scalable high-availability cluster resource manager.
+  upstream: https://clusterlabs.org/pacemaker/
   protected_branches:
   - master
   - openEuler-20.09
+  - openEuler-20.03-LTS-SP1
   type: public
 - name: pacemaker-mgmt
   description: A client/server GUI and a SNMP subagent for configuring, managing and
