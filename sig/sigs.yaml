@@ -475,6 +475,7 @@ sigs:
   - src-openeuler/xsane
   - src-openeuler/xz-java
   - src-openeuler/yelp-tools
+  - src-openeuler/pdfpc
 - name: Programming-language
   repositories:
   - src-openeuler/assertj-core
@@ -7022,6 +7023,10 @@ sigs:
   - src-openeuler/google-api-python-client
   - src-openeuler/python-s3transfer
   - src-openeuler/python-jmespath
+  - src-openeuler/python-flake8-polyfill
+  - src-openeuler/python-pep8-naming
+  - src-openeuler/python-readme-renderer
+  - src-openeuler/python-twine
 - name: sig-release-management
   repositories:
   - src-openeuler/openEuler-lsb
