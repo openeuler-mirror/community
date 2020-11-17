@@ -31203,12 +31203,16 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: python-appdirs
+  upstream: https://github.com/ActiveState/appdirs
   description: A small Python module for determining appropriate platform-specific
     dirs.
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  - openEuler-20.03-LTS
+  - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
+  type: public
 - name: python-apptools
   upstream: https://docs.enthought.com/apptools
   description: application tools
@@ -32736,6 +32740,9 @@ repositories:
   protected_branches:
   - master
   - openEuler-20.09
+  - openEuler-20.03-LTS
+  - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   type: public
 - name: python-distro
   description: ''
