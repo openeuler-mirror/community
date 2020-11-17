@@ -17,6 +17,8 @@
 
 ### Maintainers列表
 - 侯健[@hjimmy](https://gitee.com/hjimmy)
+- 杨昭[@yangzhao_kl](https://gitee.com/yangzhao_kl), yangzhao1@kylinos.cn
+- 江新宇[@jxy_git](https://gitee.com/jxy_git), jiangxinyu@kylinos.cn
 
 ### Committers列表
 - 王迪[@crrs666](https://gitee.com/crrs666)
