@@ -9067,6 +9067,8 @@ repositories:
   protected_branches:
   - master
   - openEuler-20.09
+  - openEuler-20.03-LTS-SP1
+  - openEuler-20.03-LTS-Next
   type: private
 - name: infinispan
   description: Data grid platform
@@ -12979,6 +12981,8 @@ repositories:
   protected_branches:
   - master
   - openEuler-20.09
+  - openEuler-20.03-LTS-SP1
+  - openEuler-20.03-LTS-Next
   type: private
 - name: libpwquality
   description: ''
@@ -18280,6 +18284,8 @@ repositories:
   protected_branches:
   - master
   - openEuler-20.09
+  - openEuler-20.03-LTS-SP1
+  - openEuler-20.03-LTS-Next
   type: public
 - name: perl-Biblio-EndnoteStyle
   upstream: http://search.cpan.org/dist/Biblio-EndnoteStyle/
@@ -22509,6 +22515,8 @@ repositories:
   protected_branches:
   - master
   - openEuler-20.09
+  - openEuler-20.03-LTS-SP1
+  - openEuler-20.03-LTS-Next
   type: public
 - name: perl-Language-Functional
   upstream: http://search.cpan.org/dist/Language-Functional/
@@ -23743,6 +23751,8 @@ repositories:
   protected_branches:
   - master
   - openEuler-20.09
+  - openEuler-20.03-LTS-SP1
+  - openEuler-20.03-LTS-Next
   type: private
 - name: perl-Monitoring-Plugin
   upstream: http://search.cpan.org/dist/Monitoring-Plugin/
@@ -31601,6 +31611,8 @@ repositories:
   protected_branches:
   - master
   - openEuler-20.09
+  - openEuler-20.03-LTS-SP1
+  - openEuler-20.03-LTS-Next
   type: private
 - name: python-beniget
   upstream: https://github.com/serge-sans-paille/beniget/
@@ -36119,6 +36131,8 @@ repositories:
   protected_branches:
   - master
   - openEuler-20.09
+  - openEuler-20.03-LTS-SP1
+  - openEuler-20.03-LTS-Next
   type: private
 - name: python-parsedatetime
   upstream: https://github.com/bear/parsedatetime
@@ -38671,6 +38685,8 @@ repositories:
   protected_branches:
   - master
   - openEuler-20.09
+  - openEuler-20.03-LTS-SP1
+  - openEuler-20.03-LTS-Next
   type: private
 - name: python-sphinx-epytext
   upstream: https://github.com/jayvdb/sphinx-epytext
@@ -54209,6 +54225,8 @@ repositories:
   upstream: https://github.com/openSUSE/inst-source-utils
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-SP1
+  - openEuler-20.03-LTS-Next
   type: public
 - name: perl-WWW-Mechanize
   description: Automates web page form & link interaction
@@ -54482,6 +54500,8 @@ repositories:
   protected_branches: 
   - master
   - openEuler-20.09
+  - openEuler-20.03-LTS-SP1
+  - openEuler-20.03-LTS-Next
   type: public
 - name: python-pep8-naming
   description: Check PEP-8 naming conventions, plugin for flake8
@@ -54494,4 +54514,22 @@ repositories:
   upstream: https://github.com/pypa/twine
   protected_branches: 
   - master
+  type: public
+- name: lcdf-typetools
+  description: Collection of Type 1 and 2 font manipulation utilities
+  upstream: https://www.github.com/kohler/lcdf-typetools
+  protected_branches: 
+  - master
+  - openEuler-20.03-LTS-SP1
+  - openEuler-20.03-LTS-Next
+  - openEuler-20.09
+  type: public
+- name: pdoc
+  description: A simple program and library to auto generate API doc's for Python modules
+  upstream: https://github.com/mitmproxy/pdoc
+  protected_branches: 
+  - master
+  - openEuler-20.03-LTS-SP1
+  - openEuler-20.03-LTS-Next
+  - openEuler-20.09
   type: public
