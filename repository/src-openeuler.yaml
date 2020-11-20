@@ -54540,3 +54540,15 @@ repositories:
   - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
+- name: python-jaraco-collections
+  description: Collection objects similar to those in stdlib by jaraco
+  upstream: https://github.com/jaraco/jaraco.collections
+  protected_branches: 
+  - master
+  type: public
+- name: python-jaraco-text
+  description: Module for text manipulation
+  upstream: https://github.com/jaraco/jaraco.text
+  protected_branches: 
+  - master
+  type: public
