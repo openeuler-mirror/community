@@ -3822,7 +3822,6 @@ sigs:
   - src-openeuler/python-pybtex
   - src-openeuler/python-pybtex-docutils
   - src-openeuler/python-pydotplus
-  - src-openeuler/python-pyflakes
   - src-openeuler/python-pyglet
   - src-openeuler/python-pyside
   - src-openeuler/python-pytest-httpbin
@@ -7031,6 +7030,7 @@ sigs:
   - src-openeuler/pdoc
   - src-openeuler/python-jaraco-collections
   - src-openeuler/python-jaraco-text
+  - src-openeuler/python-flake8
 - name: sig-release-management
   repositories:
   - src-openeuler/openEuler-lsb
