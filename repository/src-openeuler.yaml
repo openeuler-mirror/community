@@ -30077,7 +30077,8 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: pyflakes
-  description: ''
+  description: 'A simple program which checks Python source files for errors'
+  upstream: https://github.com/PyCQA/pyflakes
   protected_branches:
   - master
   - openEuler-20.03-LTS-SP1
@@ -36985,12 +36986,6 @@ repositories:
   - master
   - openEuler-20.09
   type: public
-- name: python-pyflakes
-  description: ''
-  protected_branches:
-  - master
-  - openEuler-20.09
-  type: private
 - name: python-pyftdi
   upstream: http://github.com/eblot/pyftdi
   description: FTDI device driver (pure Python)
@@ -54553,6 +54548,12 @@ repositories:
 - name: python-jaraco-text
   description: Module for text manipulation
   upstream: https://github.com/jaraco/jaraco.text
+  protected_branches: 
+  - master
+  type: public
+- name: python-flake8
+  description: flake8 is a python tool that glues together pep8, pyflakes, mccabe, and third-party plugins to check the style and quality of some python code.
+  upstream: https://gitlab.com/pycqa/flake8
   protected_branches: 
   - master
   type: public
