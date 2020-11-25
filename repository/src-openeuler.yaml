@@ -54579,3 +54579,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: t1utils
+  description: Collection of Type 1 and 2 font manipulation utilities
+  upstream: https://github.com/kohler/t1utils
+  protected_branches: 
+  - master
+  - openEuler-20.03-LTS-SP1
+  - openEuler-20.03-LTS-Next
+  - openEuler-20.09
+  type: public
