@@ -54573,3 +54573,9 @@ repositories:
   - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
   type: public
+- name: easy-checker
+  description: A series of checking tools used in openEuler community
+  upstream: http://gitee.com/openeuler/easy-checker
+  protected_branches:
+  - master
+  type: public
