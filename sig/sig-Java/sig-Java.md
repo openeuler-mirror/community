@@ -26,12 +26,13 @@ The openEuler Java SIG aims at providing Java package solution and guideline to 
 ### Maintainers
 - luo-haibo
 - sinever
-- it_bricklayer
+- wangchong1995924
 - rita_dong
 
 ### Committers
 - hht8 
-- wangchong1995924 
+- zhan-siyuan
+- luozhao 
 
 ### Mailing list
 - dev@openeuler.org
