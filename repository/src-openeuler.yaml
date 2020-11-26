@@ -54271,6 +54271,36 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: openstack-ironic
+  description: Ironic consists of an API and plug-ins for managing and provisioning physical machines in a security-aware and fault-tolerant manner. It can be used with nova as a hypervisor driver, or standalone service using bifrost. By default, it will use PXE and IPMI to interact with bare metal machines. Ironic also supports vendor-specific plug-ins which may implement additional functionality.
+  upstream: https://github.com/openstack/ironic
+  protected_branches:
+  - master
+  type: public
+- name: openstack-ironic-python-agent
+  description: An agent for controlling and deploying Ironic controlled baremetal nodes.
+  upstream: https://github.com/openstack/ironic-python-agent
+  protected_branches:
+  - master
+  type: public
+- name: openstack-ironic-python-agent-builder
+  description: Tools and scripts to build a deployment, cleaning or inspection ramdisk based on Ironic Python Agent.
+  upstream: https://github.com/openstack/ironic-python-agent-builder
+  protected_branches:
+  - master
+  type: public
+- name: openstack-ironic-inspector
+  description: Hardware introspection for OpenStack Bare Metal
+  upstream: https://github.com/openstack/ironic-inspector
+  protected_branches:
+  - master
+  type: public
+- name: openstack-ironic-staging-drivers
+  description: A project used to hold out-of-tree ironic drivers
+  upstream: https://opendev.org/x/ironic-staging-drivers
+  protected_branches:
+  - master
+  type: public
 - name: python-glanceclient
   description: This is a client library for Glance built on the OpenStack Images API. It provides a Python API (the glanceclient module) and a command-line tool (glance). This library fully supports the v1 Images API, while support for the v2 API is in progress.
   upstream: https://github.com/openstack/python-glanceclient

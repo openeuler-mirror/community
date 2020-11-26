@@ -7235,6 +7235,11 @@ sigs:
   - src-openeuler/openstack-neutron
   - src-openeuler/openstack-keystone
   - src-openeuler/openstack-glance
+  - src-openeuler/openstack-ironic
+  - src-openeuler/openstack-ironic-python-agent
+  - src-openeuler/openstack-ironic-python-agent-builder
+  - src-openeuler/openstack-ironic-inspector
+  - src-openeuler/openstack-ironic-staging-drivers
 - name: sig-wine
   repositories:
   - src-openeuler/wine
