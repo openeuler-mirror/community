@@ -4525,9 +4525,11 @@ sigs:
   - src-openeuler/abi-compliance-checker
   - src-openeuler/abi-dumper
   - src-openeuler/patch-tracking
+  - src-openeuler/easy-checker
   - openeuler/patch-tracking
   - openeuler/pkgship
   - openeuler/sync-bot
+  - openeuler/easy-checker
 - name: sig-ceph
   repositories:
   - src-openeuler/ceph
