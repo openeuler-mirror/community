@@ -507,4 +507,8 @@ repositories:
   protected_branches:
   - master
   type: public
-
+- name: easy-checker
+  description: "A series of checking tools used in openEuler community"
+  protected_branches:
+  - master
+  type: public

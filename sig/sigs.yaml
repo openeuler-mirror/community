@@ -288,7 +288,6 @@ sigs:
   - src-openeuler/idm-console-framework
   - src-openeuler/iio-sensor-proxy
   - src-openeuler/indent
-  - src-openeuler/infiniband-diags
   - src-openeuler/iperf2
   - src-openeuler/iperf3
   - src-openeuler/irssi
@@ -4316,6 +4315,7 @@ sigs:
   - src-openeuler/kylin-display-switch
 - name: sig-recycle
   repositories:
+  - src-openeuler/infiniband-diags
   - src-openeuler/jetty-alpn
   - src-openeuler/cmockery
   - src-openeuler/iowatcher
@@ -4527,9 +4527,11 @@ sigs:
   - src-openeuler/abi-compliance-checker
   - src-openeuler/abi-dumper
   - src-openeuler/patch-tracking
+  - src-openeuler/easy-checker
   - openeuler/patch-tracking
   - openeuler/pkgship
   - openeuler/sync-bot
+  - openeuler/easy-checker
 - name: sig-ceph
   repositories:
   - src-openeuler/ceph
