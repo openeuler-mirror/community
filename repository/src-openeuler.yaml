@@ -54618,3 +54618,10 @@ repositories:
   - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
+- name: lwip
+  description: lwip is a small independent implementation of the TCP/IP protocol suite
+  upstream: http://savannah.nongnu.org/projects/lwip/
+  protected_branches: 
+  - master
+  - openEuler-20.03-LTS-Next
+  type: public
