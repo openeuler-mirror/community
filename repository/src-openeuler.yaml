@@ -38881,6 +38881,12 @@ repositories:
   - master
   - openEuler-20.09
   type: public
+- name: python-stestr
+  upstream: https://github.com/mtreinish/stestr
+  description: A parallel Python test runner built around subunit
+  protected_branches:
+  - master
+  type: public
 - name: python-stevedore
   upstream: https://docs.openstack.org/stevedore/latest/
   description: Manage dynamic plugins for Python applications
