@@ -20,6 +20,7 @@
 - 罗士杰[@shijieluo](https://gitee.com/shijieluo)
 - 苏伟锋[@swf504](https://gitee.com/swf504)
 - 娄宏翔[@louhongxiang](https://gitee.com/louhongxiang)
+- 李霄铿[@lixiaokeng](https://gitee.com/lixiaokeng)
 
 # 联系方式
 
