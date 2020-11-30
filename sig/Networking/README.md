@@ -144,3 +144,5 @@ Everyone could send patches to openEuler.
 - https://gitee.com/src-openeuler/mobile-broadband-provider-info
 - https://gitee.com/src-openeuler/xdp-cpumap-tc
 - https://gitee.com/src-openeuler/appweb
+- https://gitee.com/src-openeuler/nagios-plugins
+- https://gitee.com/src-openeuler/freeradius-client
