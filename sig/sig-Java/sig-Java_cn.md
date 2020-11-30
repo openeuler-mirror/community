@@ -35,12 +35,13 @@ https://gitee.com/openeuler/community/tree/master/sig/sig-Java/
 ### Maintainers
 - luo-haibo
 - sinever
-- it_bricklayer
+- wangchong1995924
 - rita_dong
 
 ### Committers
 - hht8 
-- wangchong1995924 
+- zhan-siyuan
+- luozhao 
 
 ### 邮件列表
 - dev@openeuler.org
