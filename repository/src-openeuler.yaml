@@ -54640,3 +54640,39 @@ repositories:
   - master
   - openEuler-20.03-LTS-Next
   type: public
+- name: python-jaraco-classes
+  description: Utility functions for Python class constructs
+  upstream: https://pypi.org/project/jaraco.classes
+  protected_branches: 
+  - master
+  type: public
+- name: python-cheroot
+  description: Highly-optimized, pure-python HTTP server
+  upstream: https://cheroot.cherrypy.org
+  protected_branches: 
+  - master
+  type: public
+- name: python-portend
+  description: TCP port monitoring and discovery
+  upstream: https://pypi.org/project/portend
+  protected_branches: 
+  - master
+  type: public
+- name: python-jaraco-functools
+  description: Functools like those found in stdlib
+  upstream: https://pypi.org/project/jaraco.functools/
+  protected_branches: 
+  - master
+  type: public
+- name: python-zc-lockfile
+  description: Basic inter-process locks
+  upstream: https://pypi.org/project/zc.lockfile
+  protected_branches: 
+  - master
+  type: public
+- name: python-tempora
+  description: Objects and routines pertaining to date and time (tempora)
+  upstream: https://pypi.org/project/tempora
+  protected_branches: 
+  - master
+  type: public
