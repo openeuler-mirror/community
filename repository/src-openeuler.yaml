@@ -289,13 +289,6 @@ repositories:
   - master
   - openEuler-20.09
   type: private
-- name: Shark
-  description: C++ machine learning library
-  upstream: https://github.com/Shark-ML/Shark
-  protected_branches:
-  - master
-  - openEuler-20.09
-  type: public
 - name: SuperLU
   description: Subroutines to solve sparse linear systems.
   protected_branches:

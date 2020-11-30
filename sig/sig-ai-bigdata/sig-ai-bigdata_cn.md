@@ -41,8 +41,6 @@
   The Apache Hadoop Filesystem Library
 - [ComputeLibrary](https://gitee.com/src-openeuler/ComputeLibrary): 
   ARM Compute Library
-- [Shark](https://gitee.com/src-openeuler/Shark): 
-  C++ machine learning library
 - [arm-ml-examples](https://gitee.com/src-openeuler/arm-ml-examples): 
   Machine learning examples used in Arm's ML developer space
 - [armnn](https://gitee.com/src-openeuler/armnn): 
