@@ -54314,6 +54314,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: novnc
+  description: VNC client web application
+  upstream: https://github.com/novnc/noVNC
+  protected_branches:
+  - master
+  type: public
 - name: python-glanceclient
   description: This is a client library for Glance built on the OpenStack Images API. It provides a Python API (the glanceclient module) and a command-line tool (glance). This library fully supports the v1 Images API, while support for the v2 API is in progress.
   upstream: https://github.com/openstack/python-glanceclient

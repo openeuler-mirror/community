@@ -52,3 +52,4 @@ repository地址：
 - https://gitee.com/src-openeuler/openstack-ironic-python-agent-builder
 - https://gitee.com/src-openeuler/openstack-ironic-inspector
 - https://gitee.com/src-openeuler/openstack-ironic-staging-drivers
+- https://gitee.com/src-openeuler/novnc
