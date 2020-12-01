@@ -25,11 +25,6 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: avocado
-  description: "Avocado is a set of tools and libraries to help with automated testing. One can call it a test framework with benefits"
-  protected_branches:
-  - master
-  type: public
 - name: avocado-vt
   description: "Avocado-VT is a compatibility plugin that lets you execute virtualization related tests, with all conveniences provided by Avocado"
   protected_branches:
