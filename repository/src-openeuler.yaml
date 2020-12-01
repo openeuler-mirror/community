@@ -13491,6 +13491,12 @@ repositories:
   - openEuler-20.09
   - openEuler-20.03-LTS
   type: public
+- name: libumem
+  description: Port of Solaris's slab allocator
+  upstream: https://github.com/gburd/libumem
+  protected_branches:
+  - master
+  type: public
 - name: libuninameslist
   description: ''
   protected_branches:
