@@ -55,9 +55,9 @@
 repository地址：
 
 - [infrastructure](https://gitee.com/openeuler/infrastructure)
-- [blog](https://gitee.com/openeuler/blog)
+- [blog](https://gitee.com/openeuler/website-v2/tree/master/web-ui/docs/zh/blog)
 - [ci-bot](https://gitee.com/openeuler/ci-bot)
-- [website](https://gitee.com/openeuler/website)
+- [website](https://gitee.com/openeuler/website-v2)
 - [go-gitee](https://gitee.com/openeuler/go-gitee)
 - [jenkins](https://gitee.com/openeuler/openeuler-jenkins)
 - [gitbook-theme-hugo](https://gitee.com/openeuler/gitbook-theme-hugo)
