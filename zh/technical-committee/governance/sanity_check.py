@@ -8,6 +8,9 @@ import argparse
 import subprocess
 import yaml
 
+SUPPORTED_VER_MIN = 1.0
+SUPPORTED_VER_MAX = 2.0
+
 SIGS_YAML = "sig/sigs.yaml"
 EXP_YAML = "zh/technical-committee/governance/exceptions.yaml"
 BLC_YAML = "zh/technical-committee/governance/blacklist-software.yaml"
@@ -15,6 +18,39 @@ OE_YAML = "repository/openeuler.yaml"
 M_OE_YAML = "repository/openeuler.master.yaml"
 SRC_OE_YAML = "repository/src-openeuler.yaml"
 M_SRC_OE_YAML = "repository/src-openeuler.master.yaml"
+
+def check_0(community):
+    """
+    Validate basic versioning and setting
+    """
+    print("Validate basic versioning and setting of openeuler and src-openeuler")
+
+    oe_yaml = load_yaml(community, OE_YAML)
+    oe_repos = oe_yaml["repositories"]
+
+    src_oe_yaml = load_yaml(community, SRC_OE_YAML)
+    src_oe_repos = src_oe_yaml["repositories"]
+
+    oe_version = float(oe_yaml.get("format_version", "1.0"))
+    if oe_yaml["community"] != "openeuler":
+        print("openeuler.yaml has wrong community setting")
+        sys.exit(1)
+
+    src_oe_version = float(src_oe_yaml.get("format_version", "1.0"))
+
+    if src_oe_yaml["community"] != "src-openeuler":
+        print("src-openeuler.yaml has wrong community setting")
+        sys.exit(1)
+
+    if oe_version != src_oe_version:
+        print("Openeuler and src-openeuler have different format_version")
+        sys.exit(1)
+
+    if oe_version > SUPPORTED_VER_MAX or oe_version < SUPPORTED_VER_MIN:
+        print("Current format version is out of support")
+        sys.exit(1)
+
+    return oe_repos, src_oe_repos, oe_version
 
 def check_1(sigs, exps):
     """
@@ -214,7 +250,7 @@ def check_7(oe_repos, srcoe_repos):
 
 
 # This check is inspired by PR !934
-def check_8(oe_repos, srcoe_repos):
+def check_8_v1(oe_repos, srcoe_repos):
     """
     All repositories' must have protected_branches
     """
@@ -233,6 +269,41 @@ def check_8(oe_repos, srcoe_repos):
                 print("ERROR! master branch in {pre}{name} is not protected"
                       .format(pre=prefix, name=repo["name"]))
                 errors_found += 1
+
+    if errors_found == 0:
+        print("PASS WITHOUT ISSUES FOUND.")
+
+    return errors_found
+
+def check_8_v2(oe_repos, srcoe_repos):
+    """
+    All repositories' must have proper branches setting
+    """
+    print("All repositories' must have proper branches setting")
+
+    errors_found = 0
+
+    for repos, prefix in [(oe_repos, "openeuler/"), (srcoe_repos, "src-openeuler/")]:
+        for repo in repos:
+            branches = repo.get("branches", [])
+            if not branches:
+                print("ERROR! {pre}{name} doesn\'t have branches"
+                      .format(pre=prefix, name=repo["name"]))
+                errors_found += 1
+            else:
+                for branch in branches:
+                    if branch["type"] != "protected" and branch["type"] != "readonly":
+                        print("ERROR! {pre}{name} branch {br} is not valid"
+                              .format(pre=prefix, name=repo["name"], br=branch["name"]))
+                        errors_found += 1
+                    if branch["name"] == "master" and branch["type"] != "protected":
+                        print("ERROR! master branch in {pre}{name} is not protected"
+                              .format(pre=prefix, name=repo["name"]))
+                        errors_found += 1
+                    if branch["name"] != "master" and branch.get("create_from", "") == "":
+                        print("ERROR! {pre}{name} branch {br} has not valid parent branch"
+                              .format(pre=prefix, name=repo["name"], br=branch["name"]))
+                        errors_found += 1
 
     if errors_found == 0:
         print("PASS WITHOUT ISSUES FOUND.")
@@ -406,15 +477,19 @@ def main():
     args = par.parse_args()
 
     sig_list = load_yaml(args.community, SIGS_YAML)["sigs"]
+    #sig_yaml = load_yaml(args.community, SIGS_YAML)["sigs"]
+    #sig_list = sig_yaml["sigs"]
+
     exception_list = load_yaml(args.community, EXP_YAML)["exceptions"]
-    oe_repos = load_yaml(args.community, OE_YAML)["repositories"]
-    src_oe_repos = load_yaml(args.community, SRC_OE_YAML)["repositories"]
 
     repo_supervisors = {}
     repo_cross_checked = set()
 
     print("Sanity Check among different YAML database inside openEuler community.")
     issues_found = 0
+
+    print("\nCheck 0:")
+    oe_repos, src_oe_repos, oe_ver = check_0(args.community)
 
     print("\nCheck 1:")
     issues_found += check_1(sig_list, exception_list)
@@ -442,12 +517,20 @@ def main():
     issues_found += check_7(oe_repos, src_oe_repos)
 
     print("\nCheck 8:")
-    issues_found += check_8(oe_repos, src_oe_repos)
+    if oe_ver < 2.0:
+        issues_found += check_8_v1(oe_repos, src_oe_repos)
+    else:
+        issues_found += check_8_v2(oe_repos, src_oe_repos)
 
     print("\nCheck Last:")
     prepare_master_branch_yaml(args.community)
-    prev_oe_repos = load_yaml(args.community, M_OE_YAML)["repositories"]
-    prev_src_oe_repos = load_yaml(args.community, M_SRC_OE_YAML)["repositories"]
+
+    prev_oe_yaml = load_yaml(args.community, M_OE_YAML)
+    prev_oe_repos = prev_oe_yaml["repositories"]
+
+    prev_src_oe_yaml = load_yaml(args.community, M_SRC_OE_YAML)
+    prev_src_oe_repos = prev_src_oe_yaml["repositories"]
+
     issues_found += check_100([oe_repos, prev_oe_repos],
                               [src_oe_repos, prev_src_oe_repos],
                               repo_supervisors, args.community)
