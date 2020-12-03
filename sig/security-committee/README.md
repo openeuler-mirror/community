@@ -32,7 +32,7 @@
 
 *<如果需要单独申请邮件列表，请在此补充邮箱名称：sig-yousigname@openeuler.org>*
 
-- [邮件列表](security@openeuler.org)
+- [邮件列表](openeuler-security@openeuler.org)
 - [IM](#openuler-dev)
 
 

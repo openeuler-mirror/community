@@ -12,9 +12,9 @@
 
 我们感谢所有向openEuler开源社区上报安全漏洞的安全研究人员和用户。安全委员会内会有社区志愿者对您上报的安全漏洞进行全面彻底的调查。
 
-您可以通过电子邮件将您发现的安全问题的详细信息以及错误报告发送到私有的securities@openeuler.org邮箱列表。请你采用[安全问题模板](template-security-bug.md)。
+您可以通过电子邮件将您发现的安全问题的详细信息以及错误报告发送到私有的openeuler-security@openeuler.org邮箱列表。请你采用[安全问题模板](template-security-bug.md)。
 
-您可以使用[openEuler安全委员会](README.md)成员的GPG秘钥将电子邮件加密到此列表。
+您可以使用[openEuler安全委员会](README.md)成员的PGP公钥将电子邮件加密到此列表。
 
 
 

@@ -27,7 +27,7 @@ openEuler已经采用本文中描述的安全披露和响应策略，以确保�
 
 ## 安全委员会（SC）
 
-安全委员会（SC）负责整个社区对安全问题的响应，包括内部沟通和外部披露，但整个过程需要在相关开发人员和发布经理的协助下完成。SC将由订阅了[openEuler安全邮件列表（私有）](securities@openeuler.org)的志愿者组成。
+安全委员会（SC）负责整个社区对安全问题的响应，包括内部沟通和外部披露，但整个过程需要在相关开发人员和发布经理的协助下完成。SC将由订阅了[openEuler安全邮件列表（私有）](openeuler-security@openeuler.org)的志愿者组成。
 
 
 
@@ -154,9 +154,9 @@ SIG内的bug被团队成员确认为安全漏洞，团队成员将对应的Issue
 
 ####  外部上报
 
-如果您知道一个安全漏洞，不在openEuler安全团队已经处理的公开安全漏洞的列表之内，烦请立即发送电子邮件至securities@openeuler.org通知SC，以便于他们可以启动补丁、发布和公告过程。
+如果您知道一个安全漏洞，不在openEuler安全团队已经处理的公开安全漏洞的列表之内，烦请立即发送电子邮件至openeuler-security@openeuler.org通知SC，以便于他们可以启动补丁、发布和公告过程。
 
-请采用[安全流程电子邮件模板](email-templates.md)，同时您可以使用[openEuler安全委员会](README.md)成员的GPG秘钥将电子邮件加密到此邮件。收到上报邮件后，安全问题分发员会在其repository内新建一个安全Issue。
+请采用[安全流程电子邮件模板](email-templates.md)，同时您可以使用[openEuler安全委员会](README.md)成员的PGP公钥将电子邮件加密到此邮件。收到上报邮件后，安全问题分发员会在其repository内新建一个安全Issue。
 
 如果有需要，SC将询问您是否可以通过负责人的方式秘密披露此问题。如果您反对，我们将采用公开披露的方式。
 
@@ -240,9 +240,9 @@ SIG内的bug被团队成员确认为安全漏洞，团队成员将对应的Issue
 + 版本的发行经理会尽快merge这些PR。此时不应更改提交内容，以防止与发送给发行商的补丁程序产生不应有的冲突，以及在分支选择patch时发生冲突。
 + 发行经理应确保所有的二进制文件通过build，可公开使用且正常运行。
 + 修复负责人将提供新版本号、CVE编号（如有需要）、严重性和影响以及二进制文件的位置的信息给披露负责人，以支撑更广泛的分发和用户操作。此披露负责人将尽早将公告更新到社区页面，并应包括用户在升级到固定版本之前可以采用的任何缓解措施。公告将通过以下渠道发送
-  + securities@openeuler.org
+  + openeuler-security@openeuler.org
   + distributors-announce@openeuler.org
-  + [社区安全页面](https://openeuler.org/zh/security.html)
+  + [社区安全页面](https://openeuler.org/zh/security/vulnerability-reporting/)
   +  在https://gitee.com/openeuler/issues 中打开问题，并标记成`area/security`，并以相关CVE ID为前缀
   
 + 如涉及，修复负责人将从私人安全存储库中删除修复团队
