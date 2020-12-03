@@ -54700,3 +54700,9 @@ repositories:
   protected_branches: 
   - master
   type: public
+- name: python-cursive
+  description: Cursive implements OpenStack-specific validation of digital signatures
+  upstream: http://git.openstack.org/cgit/openstack/cursive
+  protected_branches:
+    - master
+  type: public
