@@ -40313,6 +40313,12 @@ repositories:
   - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
+- name: avocado
+  description: "Avocado is a set of tools and libraries to help with automated testing."
+  upstream: https://github.com/avocado-framework/avocado
+  protected_branches:
+  - master
+  type: public
 - name: qemu
   description: qemu is a generic and open source machine emulator and virtualizer.
   upstream: https://gitee.com/openeuler/qemu
