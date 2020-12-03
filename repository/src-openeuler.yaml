@@ -47261,6 +47261,18 @@ repositories:
   - master
   - openEuler-20.09
   type: public
+- name: kvm-ioctls
+  description: 'The kvm-ioctls crate provides safe wrappers over the KVM API, a set of ioctls used for creating and configuring Virtual Machines (VMs) on Linux.'
+  upstream: https://github.com/rust-vmm/kvm-ioctls
+  protected_branches:
+  - master
+  type: public
+- name: kvm-bindings
+  description: 'Rust FFI bindings to KVM generated using bindgen.'
+  upstream: https://github.com/rust-vmm/kvm-bindings
+  protected_branches:
+  - master
+  type: public
 - name: avro
   description: 'Data serialization system'
   upstream: http://avro.apache.org
