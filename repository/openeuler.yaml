@@ -441,6 +441,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: libcareplus
+  description: "LibcarePlus delivers live patches to any of your Linux executables or libraries at the runtime, without the need for restart of your applications."
+  protected_branches:
+  - master
+  type: public
 - name: secGear
   rename_from: secenclave
   description: "Confidential computing framework for developing enclave apps on top of hardware TEE"

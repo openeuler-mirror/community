@@ -47261,6 +47261,14 @@ repositories:
   - master
   - openEuler-20.09
   type: public
+- name: libcareplus
+  description: "LibcarePlus delivers live patches to any of your Linux executables or libraries at the runtime, without the need for restart of your applications."
+  upstream: https://gitee.com/openeuler/libcareplus
+  protected_branches:
+  - master
+  - openEuler-20.03-LTS-SP1
+  - openEuler-20.03-LTS-Next
+  type: public
 - name: kvm-ioctls
   description: 'The kvm-ioctls crate provides safe wrappers over the KVM API, a set of ioctls used for creating and configuring Virtual Machines (VMs) on Linux.'
   upstream: https://github.com/rust-vmm/kvm-ioctls
