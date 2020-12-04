@@ -54837,3 +54837,9 @@ repositories:
   protected_branches: 
   - master
   type: public
+- name: python-sushy
+  description: Sushy is a Python library to communicate with Redfish based systems
+  upstream: https://opendev.org/openstack/sushy
+  protected_branches:
+    - master
+  type: public
