@@ -2263,9 +2263,9 @@ repositories:
   - master
   - openEuler-20.09
   type: public
-- name: python-cursive
-  description: Cursive implements OpenStack-specific validation of digital signatures
-  upstream: http://git.openstack.org/cgit/openstack/cursive
+- name: ccache
+  description: ccache is a c/c++ compiler ccache
+  upstream: https://ccache.dev
   protected_branches:
   - master
   type: public
