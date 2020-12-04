@@ -386,6 +386,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: wayca-deployer
+  description: "wayca-deployer is an userspace deployment tool for tasks and interrupts to achieve better performance"
+  protected_branches:
+  - master
+  type: public
 - name: authz
   description: "An authorization plugin for iSulad."
   protected_branches:
