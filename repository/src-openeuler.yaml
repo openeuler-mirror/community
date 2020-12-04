@@ -2142,6 +2142,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: gazelle-cni
+  description: A high-performance cni provides tcp/udp stack, which powered by xdp and dpdk
+  upstream: https://gitee.com/openeuler/gazelle-cni
+  protected_branches:
+  - master
+  type: public
 - name: nodelet_core
   description: Nodelet Core Metapackage 
   upstream:  https://github.com/ros/nodelet_core

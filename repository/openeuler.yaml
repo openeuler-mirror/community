@@ -106,6 +106,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: gazelle-cni
+  description: "A high-performance cni provides tcp/udp stack, which powered by xdp and dpdk"
+  protected_branches:
+  - master
+  type: public
 - name: integration-test
   description: "The repo contains test suits for system integration test"
   protected_branches:
