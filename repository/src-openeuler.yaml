@@ -54724,3 +54724,9 @@ repositories:
   protected_branches:
     - master
   type: public
+- name: python-cliff
+  description: A framework for building command line programs
+  upstream: https://github.com/openstack/cliff
+  protected_branches:
+  - master
+  type: public
