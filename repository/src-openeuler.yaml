@@ -54660,6 +54660,13 @@ repositories:
   - master
   - openEuler-20.03-LTS-Next
   type: public
+- name: jing-trang
+  description: Jing is a RELAX NG validator written in Java.It implements the RELAX NG 1.0 Specification,RELAX NG Compact Syntax,and parts of RELAX NG DTD Compatibility,specifically checking of ID/IDREF/IDREFS.
+  upstream: https://github.com/relaxng/jing-trang
+  protected_branches:
+  - master
+  - openEuler-20.03-LTS-Next
+  type: public
 - name: easy-checker
   description: A series of checking tools used in openEuler community
   upstream: http://gitee.com/openeuler/easy-checker
