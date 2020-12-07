@@ -54737,3 +54737,69 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: mod_perl
+  description:  An embedded Perl interpreter for the Apache HTTP Server
+  upstream: https://github.com/apache/mod_perl
+  protected_branches:
+  - master
+  type: public
+- name: perl-Image-Info
+  description:  Image meta information extraction module for Perl
+  upstream: https://metacpan.org/release/Image-Info
+  protected_branches:
+  - master
+  type: public
+- name: perl-Lemplate
+  description:  Lemplate Perl module
+  upstream: https://metacpan.org/release/Lemplate
+  protected_branches:
+  - master
+  type: public
+- name: perl-Linux-Pid
+  description:  Get the native PID and the PPID on Linux 
+  upstream: https://metacpan.org/release/Linux-Pid
+  protected_branches:
+  - master
+  type: public
+- name: perl-Test-Nginx
+  description:  Data-driven test scaffold for Nginx C module and Nginx/OpenResty-based libraries and applications
+  upstream: https://metacpan.org/release/Test-Nginx
+  protected_branches:
+  - master
+  type: public
+- name: openresty
+  description:  OpenResty, scalable web platform by extending NGINX with Lua
+  upstream: https://github.com/openresty/openresty
+  protected_branches:
+  - master
+  type: public
+- name: openresty-openssl111
+  description:      OpenSSL library for OpenResty
+  upstream: https://www.openssl.org/
+  protected_branches:
+  - master
+  type: public
+- name: openresty-openssl
+  description:      OpenSSL library for OpenResty
+  upstream: https://www.openssl.org/
+  protected_branches:
+  - master
+  type: public
+- name: openresty-pcre
+  description:      Perl-compatible regular expression library for OpenResty
+  upstream: http://www.pcre.org/
+  protected_branches:
+  - master
+  type: public
+- name: openresty-valgrind
+  description:  The Valgrind debug version of OpenResty
+  upstream: https://openresty.org/
+  protected_branches:
+  - master
+  type: public
+- name: openresty-zlib
+  description:      The zlib compression library for OpenResty
+  upstream: http://www.zlib.net/
+  protected_branches:
+  - master
+  type: public
