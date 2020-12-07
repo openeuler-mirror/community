@@ -30961,6 +30961,12 @@ repositories:
   - master
   - openEuler-20.09
   type: public
+- name: python-actdiag
+  upstream: https://github.com/blockdiag/actdiag
+  description: actdiag generate activity-diagram image file from spec-text file
+  protected_branches:
+  - master
+  type: public
 - name: python-adodbapi
   upstream: http://sourceforge.net/projects/adodbapi
   description: A pure Python package implementing PEP 249 DB-API using Microsoft ADO.
