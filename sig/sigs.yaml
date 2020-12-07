@@ -7332,6 +7332,8 @@ sigs:
   - src-openeuler/goversioninfo
   - src-openeuler/openshift-ansible
   - src-openeuler/origin
+  - src-openeuler/gluster_exporter
+  - src-openeuler/promu
 - name: sig-bootstrap
   repositories:
   - src-openeuler/bazel-bin

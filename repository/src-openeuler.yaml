@@ -47074,6 +47074,18 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: gluster_exporter
+  description: Gluster Exporter for Prometheus
+  upstream: https://github.com/ofesseler/gluster_exporter
+  protected_branches:
+  - master
+  type: public
+- name: promu
+  description: Prometheus Utility Tool
+  upstream: https://github.com/prometheus/promu
+  protected_branches:
+  - master
+  type: public
 - name: kubevirt
   description: 'an open source project that makes it possible to run virtual machines in a Kubernetes managed container platform'
   upstream: https://kubevirt.io/
