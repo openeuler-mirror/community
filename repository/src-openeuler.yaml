@@ -1576,12 +1576,13 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: batik
-  description: ''
+  description: Batik is an inline templating engine for CoffeeScript
+  upstream: https://xmlgraphics.apache.org/batik/
   protected_branches:
   - master
   - openEuler-20.03-LTS-Next
   - openEuler-20.09
-  type: private
+  type: public
 - name: bazel
   description: Tool for the automation of building and testing of software
   upstream: https://github.com/bazelbuild/bazel
@@ -9437,11 +9438,12 @@ repositories:
 - name: jackson-core
   description: Core part of Jackson that defines Streaming API as well as basic sharded
     abstractions.
+  upstream: https://github.com/FasterXML/jackson-core/
   protected_branches:
   - master
   - openEuler-20.03-LTS-Next
   - openEuler-20.09
-  type: private
+  type: public
 - name: jackson-dataformats-binary
   description: ''
   protected_branches:
