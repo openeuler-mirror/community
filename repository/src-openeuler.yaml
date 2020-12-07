@@ -54803,3 +54803,9 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-cmd2
+  description: A tool for building interactive command line apps
+  upstream: https://github.com/python-cmd2/cmd2
+  protected_branches: 
+  - master
+  type: public
