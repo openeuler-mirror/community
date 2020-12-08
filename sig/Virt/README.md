@@ -54,3 +54,6 @@
 - StratoVirt
     - stratovirt
         - repository地址：https://gitee.com/openeuler/stratovirt
+- LibcarePlus
+    - libcareplus
+        - repository地址：https://gitee.com/openeuler/libcareplus
