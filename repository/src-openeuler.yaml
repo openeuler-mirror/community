@@ -30260,6 +30260,12 @@ repositories:
   - master
   - openEuler-20.09
   type: private
+- name: python-automaton
+  upstream: https://opendev.org/openstack/automaton
+  description: Friendly state machines for python
+  protected_branches:
+  - master
+  type: public
 - name: python-Babel
   upstream: http://babel.pocoo.org/
   description: Internationalization utilities
