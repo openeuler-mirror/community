@@ -111,6 +111,11 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: tarsier
+  description: "A visualization platform that provides API level observation capabilities for cloud-native scenarios, which powered by eBPF."
+  protected_branches:
+  - master
+  type: public
 - name: integration-test
   description: "The repo contains test suits for system integration test"
   protected_branches:
