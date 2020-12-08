@@ -54926,3 +54926,9 @@ repositories:
   protected_branches:
     - master
   type: public
+- name: python-barbicanclient
+  description: A client for the Barbican Key Management API
+  upstream: https://github.com/openstack/python-barbicanclient
+  protected_branches:
+  - master
+  type: public
