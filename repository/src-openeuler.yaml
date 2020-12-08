@@ -29203,13 +29203,6 @@ repositories:
   - master
   - openEuler-20.09
   type: public
-- name: perl-srpm-macros
-  description: These RPM macros are used for building Perl source packages from source
-    repositories.
-  protected_branches:
-  - master
-  - openEuler-20.09
-  type: private
 - name: perl-strictures
   description: Turn on strict and make most warnings fatal
   protected_branches:
