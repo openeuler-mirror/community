@@ -43624,6 +43624,90 @@ repositories:
   - master
   - openEuler-20.03-LTS-Next
   type: public
+- name: ukui-kwin
+  description: 'The window manager for UKUI desktop environment.'
+  upstream: https://github.com/ukui/ukui-kwin
+  protected_branches:
+  - master
+  type: public
+- name: kylin-screenshot
+  description: 'a powerful screenshot and screen recording tool.'
+  upstream: https://github.com/UbuntuKylin/kylin-screenshot
+  protected_branches:
+  - master
+  type: public  
+- name: kylin-scanner
+  description: 'Kylin Scanner is an interface-friendly scanning software developed with Qt5.'
+  upstream: https://github.com/UbuntuKylin/kylin-scanner
+  protected_branches:
+  - master
+  type: public  
+- name: indicator-china-weather
+  description: 'The weather data are from the heweather API s6 version.'
+  upstream: https://github.com/UbuntuKylin/indicator-china-weather
+  protected_branches:
+  - master
+  type: public
+- name: youker-assistant
+  description: 'Integrated tool to aid in routine system maintenance tasks.'
+  upstream: https://github.com/UbuntuKylin/youker-assistant
+  protected_branches:
+  - master
+  type: public
+- name: kylin-burner
+  description: 'CD/DVD burning application for UKUI.'
+  upstream: https://github.com/UbuntuKylin/kylin-burner
+  protected_branches:
+  - master
+  type: public
+- name: kylin-calculator
+  description: 'A calculator for UKUI'
+  upstream: https://github.com/UbuntuKylin/kylin-calculator
+  protected_branches:
+  - master
+  type: public
+- name: kylin-recorder
+  description: 'A recorder for UKUI'
+  upstream: https://github.com/UbuntuKylin/kylin-recorder
+  protected_branches:
+  - master
+  type: public
+- name: kylin-usb-creator
+  description: 'kylin-usb-creator.'
+  upstream: https://github.com/UbuntuKylin/kylin-usb-creator
+  protected_branches:
+  - master
+  type: public
+- name: kylin-music
+  description: 'A simple music player.'
+  upstream: https://github.com/UbuntuKylin/kylin-music
+  protected_branches:
+  - master
+  type: public
+- name: kylin-video
+  description: 'Front-end for MPlayer and MPV.'
+  upstream: https://github.com/UbuntuKylin/kylin-video
+  protected_branches:
+  - master
+  type: public
+- name: kylin-software-center
+  description: 'A graphical tool to manage installed packages.'
+  upstream: https://github.com/UbuntuKylin/kylin-software-center
+  protected_branches:
+  - master
+  type: public
+- name: blueman
+  description: 'GTK+ Bluetooth Manager.'
+  upstream: https://github.com/blueman-project/blueman
+  protected_branches:
+  - master
+  type: public
+- name: pluma
+  description: 'Text editor for the MATE desktop.'
+  upstream: https://github.com/mate-desktop/pluma
+  protected_branches:
+  - master
+  type: public
 - name: ukui-biometric-auth
   description: ''
   protected_branches:
