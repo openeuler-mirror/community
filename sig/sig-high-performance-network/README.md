@@ -32,14 +32,11 @@
 
 ### Maintainer列表
 
-- 419673572@qq.com
-- zwfeng@huawei.com
-- wangxp006@163.com
-- zhuhengbo1@huawei.com
-- zhouxudong8@huawei.com
-- geffrey.guo@huawei.com
 - luzhihao@huawei.com
-
+- huangliming5@huawei.com
+- zhuhengbo1@huawei.com
+- wuchangye@huawei.com
+- liuxin264@huawei.com
 
 ### Committer列表
 
@@ -49,12 +46,12 @@
 
 # 联系方式
 
-- 邮件列表 <dev@openeuler.org>
+- 邮件列表 <high-performance-network@openeuler.org> <dev@openeuler.org>
 - [IRC公开会议]()
 - 视频会议
-
-
-
+- 微信  
+ ![wechat_QR](./sig-wechat-qr.jpg)
+  
 
 
 # 项目清单
@@ -76,3 +73,5 @@ repository地址：
 - https://gitee.com/src-openeuler/libtins
 - https://gitee.com/src-openeuler/go-bindata
 - https://gitee.com/src-openeuler/seastar
+- https://gitee.com/src-openeuler/gazelle-cni
+- https://gitee.com/openeuler/gazelle-cni
