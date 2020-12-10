@@ -532,3 +532,8 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: rockchip-kernel
+  description: "It provides openEuler kernel source for Rockchip SoCs"
+  protected_branches:
+  - master
+  type: public
