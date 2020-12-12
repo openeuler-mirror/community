@@ -55438,6 +55438,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-zeroconf
+  description: Pure Python Multicast DNS Service Discovery Library (Bonjour/Avahi compatible)
+  upstream: https://github.com/jstasiak/python-zeroconf
+  protected_branches:
+    - master
+  type: public
 - name: perl-Test-Nginx
   description:  Data-driven test scaffold for Nginx C module and Nginx/OpenResty-based libraries and applications
   upstream: https://metacpan.org/release/Test-Nginx
