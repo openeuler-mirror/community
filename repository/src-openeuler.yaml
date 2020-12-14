@@ -47242,6 +47242,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: cadvisor
+  description: Analyzes resource usage and performance characteristics of running containers.
+  upstream: https://github.com/google/cadvisor
+  protected_branches:
+  - master
+  type: public
 - name: kubevirt
   description: 'an open source project that makes it possible to run virtual machines in a Kubernetes managed container platform'
   upstream: https://kubevirt.io/
