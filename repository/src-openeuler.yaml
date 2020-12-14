@@ -55920,3 +55920,9 @@ repositories:
   - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: public
+- name: openstack-macros
+  description: It provides OpenStack RPM macros
+  upstream: https://github.com/openstack/rpm-packaging/tree/master/openstack/openstack-macros
+  protected_branches:
+  - master
+  type: public
