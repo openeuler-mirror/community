@@ -3231,6 +3231,7 @@ sigs:
   - src-openeuler/rubygem-yard
   - src-openeuler/rubygem-ZenTest
   - src-openeuler/rubygems-ronn
+  - src-openeuler/rubygem-mustache
 - name: sig-nodejs
   repositories:
   - src-openeuler/bootstrap
@@ -3579,6 +3580,7 @@ sigs:
   - src-openeuler/nodeunit
   - src-openeuler/uglify-js
   - src-openeuler/uglify-js1
+  - src-openeuler/js-jquery1
 - name: Private
   repositories:
   - openeuler/os-autoinst-distri-openEuler
@@ -3698,7 +3700,6 @@ sigs:
   - src-openeuler/jhighlight
   - src-openeuler/js-underscore
   - src-openeuler/jsch-agent-proxy
-  - src-openeuler/js-jquery1
   - src-openeuler/json-lib
   - src-openeuler/Keras
   - src-openeuler/kiwi-dlimage
@@ -3823,11 +3824,9 @@ sigs:
   - src-openeuler/python-parse_type
   - src-openeuler/python-pasta
   - src-openeuler/python-pathlib
-  - src-openeuler/python-pexpect
   - src-openeuler/python-pickleshare
   - src-openeuler/python-priority
   - src-openeuler/python-prompt_toolkit
-  - src-openeuler/python-ptyprocess
   - src-openeuler/python-pybtex
   - src-openeuler/python-pybtex-docutils
   - src-openeuler/python-pydotplus
@@ -3849,7 +3848,6 @@ sigs:
   - src-openeuler/rpm-mpi-hooks
   - src-openeuler/rsh
   - src-openeuler/rubygem-hpricot
-  - src-openeuler/rubygem-mustache
   - src-openeuler/rubygem-ronn
   - src-openeuler/sbinary
   - src-openeuler/sbt
@@ -7073,6 +7071,8 @@ sigs:
   - src-openeuler/python-jaraco-functools
   - src-openeuler/python-zc-lockfile
   - src-openeuler/python-tempora
+  - src-openeuler/python-ptyprocess
+  - src-openeuler/python-pexpect
 - name: sig-release-management
   repositories:
   - src-openeuler/openEuler-lsb

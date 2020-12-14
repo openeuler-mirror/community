@@ -2922,6 +2922,7 @@ repositories:
   description: The Corosync Cluster Engine and Application Programming Interfaces.
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -2929,6 +2930,7 @@ repositories:
   description: The Corosync Cluster Engine Qdevice.
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -4093,6 +4095,7 @@ repositories:
   description: DRBD user-land tools and scripts
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -4856,6 +4859,7 @@ repositories:
   description: Set of unified programs capable of host isolation ('fencing').
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -4863,6 +4867,7 @@ repositories:
   description: Virtual machine fencing agent.
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -5179,9 +5184,9 @@ repositories:
   upstream: http://www.fping.org/
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
-  - openEuler-20.03-LTS-Next
   type: public
 - name: fprintd
   description: ''
@@ -10216,11 +10221,13 @@ repositories:
   type: public
 - name: js-jquery1
   description: JavaScript DOM manipulation, event handling, and AJAX library.
+  upstream: https://jquery.com/
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
-  type: private
+  type: public
 - name: js-underscore
   description: JavaScript's functional programming helper library.
   protected_branches:
@@ -10684,6 +10691,7 @@ repositories:
   upstream: https://kronosnet.org
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -13015,6 +13023,7 @@ repositories:
   upstream: https://github.com/ClusterLabs/libqb
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -17697,6 +17706,7 @@ repositories:
   upstream: https://clusterlabs.org/pacemaker/
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -17980,6 +17990,7 @@ repositories:
     a pcs daemon, which operates as a remote server for pcs and provides a web UI.
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -31832,6 +31843,7 @@ repositories:
   description: The AWS SDK for Python
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -31840,6 +31852,7 @@ repositories:
   description: Low-level, data-driven core of boto 3.
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -33478,6 +33491,7 @@ repositories:
   description: A python package that provides useful locks.
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -34709,6 +34723,7 @@ repositories:
   description: JMESPath allows you to declaratively specify how to extract elements from a JSON document.
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -35930,6 +35945,7 @@ repositories:
   description: OAuth 2.0 client library
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -36391,12 +36407,14 @@ repositories:
   - openEuler-20.09
   type: public
 - name: python-pexpect
-  description: ''
+  description: Pexpect allows easy control of interactive console applications.
+  upstream: https://pexpect.readthedocs.io/
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
-  type: private
+  type: public
 - name: python-pg8000
   upstream: https://github.com/tlocke/pg8000
   description: PostgreSQL interface library
@@ -36746,12 +36764,14 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: python-ptyprocess
-  description: ''
+  description: Run a subprocess in a pseudo terminal
+  upstream: https://github.com/pexpect/ptyprocess
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
-  type: private
+  type: public
 - name: python-pudb
   upstream: https://github.com/inducer/pudb
   description: A full-screen, console-based Python debugger
@@ -39453,6 +39473,7 @@ repositories:
   description: URI templates
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -41313,6 +41334,7 @@ repositories:
   upstream: http://github.com/halfbyte/afm
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -41321,8 +41343,8 @@ repositories:
   upstream: http://rubyworks.github.com/ansi
   protected_branches:
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-asciidoctor
@@ -41339,8 +41361,8 @@ repositories:
   upstream: http://github.com/ruby-concurrency/atomic
   protected_branches:
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-bindex
@@ -41348,8 +41370,8 @@ repositories:
   upstream: https://github.com/gsamokovarov/bindex
   protected_branches:
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-builder
@@ -41357,6 +41379,7 @@ repositories:
   upstream: http://onestepback.org
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -41374,8 +41397,8 @@ repositories:
   upstream: http://github.com/mojombo/chronic
   protected_branches:
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-coderay
@@ -41383,8 +41406,8 @@ repositories:
   upstream: http://coderay.rubychan.de
   protected_branches:
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-connection_pool
@@ -41392,8 +41415,8 @@ repositories:
   upstream: https://github.com/mperham/connection_pool
   protected_branches:
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-crack
@@ -41401,8 +41424,8 @@ repositories:
   upstream: http://github.com/jnunemaker/crack
   protected_branches:
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-creole
@@ -41410,8 +41433,8 @@ repositories:
   upstream: https://github.com/minad/creole
   protected_branches:
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-curb
@@ -41419,6 +41442,7 @@ repositories:
   upstream: https://github.com/taf2/curb
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -41427,8 +41451,8 @@ repositories:
   upstream: https://github.com/petergoldstein/dalli
   protected_branches:
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-erubis
@@ -41436,8 +41460,8 @@ repositories:
   upstream: http://www.kuwata-lab.com/erubis/
   protected_branches:
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-eventmachine
@@ -41445,6 +41469,7 @@ repositories:
   upstream: http://rubyeventmachine.com
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -41453,8 +41478,8 @@ repositories:
   upstream: https://github.com/lostisland/faraday
   protected_branches:
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-gem2rpm
@@ -41471,8 +41496,8 @@ repositories:
   upstream: http://rubyworks.github.com/hashery
   protected_branches:
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-hpricot
@@ -41487,8 +41512,8 @@ repositories:
   upstream: https://rubygems.org/gems/idn
   protected_branches:
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-introspection
@@ -41496,6 +41521,7 @@ repositories:
   upstream: http://jamesmead.org
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -41504,8 +41530,8 @@ repositories:
   upstream: http://flori.github.com/json
   protected_branches:
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-kramdown
@@ -41513,6 +41539,7 @@ repositories:
   upstream: http://kramdown.rubyforge.org
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -41521,8 +41548,8 @@ repositories:
   upstream: http://www.liquidmarkup.org
   protected_branches:
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-metaclass
@@ -41530,8 +41557,8 @@ repositories:
   upstream: http://github.com/floehopper/metaclass
   protected_branches:
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-minitest4
@@ -41539,8 +41566,8 @@ repositories:
   upstream: https://github.com/seattlerb/minitest
   protected_branches:
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-multipart-post
@@ -41548,8 +41575,8 @@ repositories:
   upstream: http://github.com/nicksieger/multipart-post
   protected_branches:
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-multi_test
@@ -41557,24 +41584,26 @@ repositories:
   upstream: http://cukes.info
   protected_branches:
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-mustache
   description: Mustache is a framework-agnostic way to render logic-free views
+  upstream: https://github.com/mustache/mustache
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
-  type: private
+  type: public
 - name: rubygem-open4
   description: Manage child processes and their IO handles easily
   upstream: http://github.com/ahoward/open4/
   protected_branches:
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-ovirt-engine-sdk4
@@ -41588,8 +41617,8 @@ repositories:
   upstream: http://github.com/rcairo/pkg-config
   protected_branches:
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-pry-nav
@@ -41597,8 +41626,8 @@ repositories:
   upstream: https://github.com/nixme/pry-nav
   protected_branches:
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-rack
@@ -41615,6 +41644,7 @@ repositories:
   upstream: http://github.com/rtomayko/rdiscount
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -41630,6 +41660,7 @@ repositories:
   upstream: https://github.com/apalmblad/ruby-shadow
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -41638,8 +41669,8 @@ repositories:
   upstream: https://github.com/zzak/sdoc
   protected_branches:
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: runc
@@ -41772,6 +41803,7 @@ repositories:
   description: This package contains the storage-based death functionality.
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -47609,6 +47641,7 @@ repositories:
   upstream: https://github.com/mochajs/mocha
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -47725,6 +47758,7 @@ repositories:
   upstream: http://coffeescript.org/
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -47801,8 +47835,8 @@ repositories:
   upstream: https://github.com/mikeal/oauth-sign
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-minimatch
@@ -47810,6 +47844,7 @@ repositories:
   upstream: https://github.com/isaacs/minimatch
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -47818,6 +47853,7 @@ repositories:
   upstream: https://github.com/sindresorhus/p-locate
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -47826,6 +47862,7 @@ repositories:
   upstream: https://www.npmjs.org/package/readable-stream
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -47834,6 +47871,7 @@ repositories:
   upstream: https://github.com/Raynos/duplexer
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -47842,6 +47880,7 @@ repositories:
   upstream: https://www.npmjs.com/package/array-differ
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -47850,8 +47889,8 @@ repositories:
   upstream: https://github.com/sindresorhus/strip-json-comments
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-samsam
@@ -47859,8 +47898,8 @@ repositories:
   upstream: https://github.com/busterjs/samsam
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-end-of-stream
@@ -47868,6 +47907,7 @@ repositories:
   upstream: https://github.com/mafintosh/end-of-stream
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -47876,6 +47916,7 @@ repositories:
   upstream: https://github.com/chaijs/type-detect
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -47884,8 +47925,8 @@ repositories:
   upstream: https://github.com/medikoo/es5-ext.git
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-jsonpointer
@@ -47893,8 +47934,8 @@ repositories:
   upstream: https://github.com/janl/node-jsonpointer
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-hoek
@@ -47902,8 +47943,8 @@ repositories:
   upstream: https://github.com/spumko/hoek
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-memoizee
@@ -47911,8 +47952,8 @@ repositories:
   upstream: https://github.com/medikoo/memoize.git
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-prelude-ls
@@ -47920,8 +47961,8 @@ repositories:
   upstream: https://github.com/gkz/prelude-ls.git
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-object-dot-assign
@@ -47929,6 +47970,7 @@ repositories:
   upstream: https://www.npmjs.com/package/object.assign
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -47937,6 +47979,7 @@ repositories:
   upstream: https://github.com/grncdr/js-is-function.git
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -47945,6 +47988,7 @@ repositories:
   upstream: https://github.com/alexei/sprintf.js.git
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -47953,8 +47997,8 @@ repositories:
   upstream: https://github.com/felixge/node-combined-stream
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-validate-npm-package-license
@@ -47962,6 +48006,7 @@ repositories:
   upstream: https://github.com/kemitchell/validate-npm-package-license.js.git
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -47970,6 +48015,7 @@ repositories:
   upstream: https://github.com/jshttp/mime-db
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -47978,8 +48024,8 @@ repositories:
   upstream: https://github.com/sindresorhus/figures.git
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-nomnom
@@ -47987,6 +48033,7 @@ repositories:
   upstream: https://github.com/harthur/nomnom
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -47995,6 +48042,7 @@ repositories:
   upstream: https://www.npmjs.org/package/core-util-is
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48003,6 +48051,7 @@ repositories:
   upstream: https://github.com/visionmedia/node-github-url-from-git
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48011,6 +48060,7 @@ repositories:
   upstream: https://github.com/gruntjs/grunt-legacy-util
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48019,6 +48069,7 @@ repositories:
   upstream: https://github.com/timoxley/hash_file
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48027,6 +48078,7 @@ repositories:
   upstream: https://github.com/isaacs/inherits
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48035,6 +48087,7 @@ repositories:
   upstream: https://github.com/sindresorhus/multimatch
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48043,6 +48096,7 @@ repositories:
   upstream: https://github.com/hueniverse/hawk
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48051,6 +48105,7 @@ repositories:
   upstream: https://github.com/isaacs/inflight
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48059,6 +48114,7 @@ repositories:
   upstream: https://github.com/Raynos/function-bind
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48067,6 +48123,7 @@ repositories:
   upstream: https://github.com/mikeal/caseless
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48075,6 +48132,7 @@ repositories:
   upstream: https://github.com/substack/node-wordwrap
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48083,6 +48141,7 @@ repositories:
   upstream: https://github.com/rvagg/bl
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48091,6 +48150,7 @@ repositories:
   upstream: https://github.com/gruntjs/grunt-contrib-clean
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48099,6 +48159,7 @@ repositories:
   upstream: https://github.com/iarna/gauge.git
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48107,8 +48168,8 @@ repositories:
   upstream: https://github.com/isaacs/npmlog
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-osenv
@@ -48116,6 +48177,7 @@ repositories:
   upstream: https://github.com/isaacs/osenv
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48124,6 +48186,7 @@ repositories:
   upstream: https://github.com/gruntjs/grunt-legacy-log-utils
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48132,6 +48195,7 @@ repositories:
   upstream: https://github.com/calvinmetcalf/process-nextick-args
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48140,8 +48204,8 @@ repositories:
   upstream: https://github.com/isaacs/yamlish
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-util-deprecate
@@ -48149,8 +48213,8 @@ repositories:
   upstream: https://github.com/TooTallNate/util-deprecate
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-difflib
@@ -48158,6 +48222,7 @@ repositories:
   upstream: https://github.com/qiao/difflib.js.git
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48166,6 +48231,7 @@ repositories:
   upstream: https://github.com/ljharb/is-symbol
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48174,6 +48240,7 @@ repositories:
   upstream: https://www.npmjs.com/package/mock-fs
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48182,8 +48249,8 @@ repositories:
   upstream: https://github.com/isaacs/read-package-json
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-source-map-support
@@ -48191,6 +48258,7 @@ repositories:
   upstream: https://github.com/evanw/node-source-map-support
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48199,6 +48267,7 @@ repositories:
   upstream: https://github.com/gkz/optionator.git
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48207,8 +48276,8 @@ repositories:
   upstream: https://github.com/juliangruber/isarray
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-deep-eql
@@ -48216,6 +48285,7 @@ repositories:
   upstream: https://github.com/chaijs/deep-eql
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48224,6 +48294,7 @@ repositories:
   upstream: https://github.com/gruntjs/grunt
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48232,6 +48303,7 @@ repositories:
   upstream: https://github.com/request/request
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48240,6 +48312,7 @@ repositories:
   upstream: https://github.com/kemitchell/spdx-exceptions.json.git
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48248,8 +48321,8 @@ repositories:
   upstream: https://github.com/kriskowal/asap
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-deep-is
@@ -48257,6 +48330,7 @@ repositories:
   upstream: http://github.com/thlorenz/deep-is.git
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48274,6 +48348,7 @@ repositories:
   upstream: https://github.com/gruntjs/grunt-contrib-nodeunit
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48282,8 +48357,8 @@ repositories:
   upstream: https://github.com/TooTallNate/node-bindings
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-levn
@@ -48291,6 +48366,7 @@ repositories:
   upstream: https://github.com/gkz/levn
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48299,6 +48375,7 @@ repositories:
   upstream: https://github.com/smikes/json-parse-helpfulerror
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48307,6 +48384,7 @@ repositories:
   upstream: https://github.com/jshttp/mime-types
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48315,8 +48393,8 @@ repositories:
   upstream: https://www.npmjs.org/package/yargs
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-debug
@@ -48324,8 +48402,8 @@ repositories:
   upstream: https://github.com/visionmedia/debug
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-mkdirp
@@ -48333,8 +48411,8 @@ repositories:
   upstream: https://github.com/substack/node-mkdirp
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-resumer
@@ -48342,6 +48420,7 @@ repositories:
   upstream: https://github.com/substack/resumer
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48350,6 +48429,7 @@ repositories:
   upstream: https://www.npmjs.com/package/image-size
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48358,8 +48438,8 @@ repositories:
   upstream: https://github.com/zhiyelee/graceful-readlink.git
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-has
@@ -48367,6 +48447,7 @@ repositories:
   upstream: https://github.com/tarruda/has
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48375,6 +48456,7 @@ repositories:
   upstream: https://github.com/ljharb/es-abstract
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48383,6 +48465,7 @@ repositories:
   upstream: https://github.com/hughsk/is-typedarray
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48391,6 +48474,7 @@ repositories:
   upstream: https://github.com/cloudhead/vows
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48399,8 +48483,8 @@ repositories:
   upstream: https://github.com/Marak/colors.js
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-d
@@ -48408,6 +48492,7 @@ repositories:
   upstream: https://github.com/medikoo/d.git
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48416,6 +48501,7 @@ repositories:
   upstream: https://github.com/ljharb/is-regex
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48424,6 +48510,7 @@ repositories:
   upstream: https://github.com/chaijs/simple-assert
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48432,6 +48519,7 @@ repositories:
   upstream: https://www.npmjs.com/package/less-plugin-clean-css
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48440,6 +48528,7 @@ repositories:
   upstream: https://github.com/bendrucker/fill-keys
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48448,6 +48537,7 @@ repositories:
   upstream: https://github.com/isaacs/isexe
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48456,6 +48546,7 @@ repositories:
   upstream: https://github.com/isaacs/block-stream
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48464,8 +48555,8 @@ repositories:
   upstream: https://github.com/nodejs/nan
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-p-limit
@@ -48473,6 +48564,7 @@ repositories:
   upstream: https://github.com/sindresorhus/p-limit
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48481,8 +48573,8 @@ repositories:
   upstream: https://github.com/sindresorhus/has-flag.git
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-safe-buffer
@@ -48490,6 +48582,7 @@ repositories:
   upstream: https://github.com/feross/safe-buffer
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48498,6 +48591,7 @@ repositories:
   upstream: https://github.com/Gozala/test-commonjs
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48506,6 +48600,7 @@ repositories:
   upstream: https://github.com/medikoo/cli-color.git
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48514,6 +48609,7 @@ repositories:
   upstream: https://github.com/chrisdickinson/node-runforcover
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48522,6 +48618,7 @@ repositories:
   upstream: https://github.com/visionmedia/css-stringify
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48530,8 +48627,8 @@ repositories:
   upstream: https://github.com/isaacs/once
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-difflet
@@ -48539,6 +48636,7 @@ repositories:
   upstream: https://github.com/substack/difflet
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48547,6 +48645,7 @@ repositories:
   upstream: https://github.com/reworkcss/css-parse
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48555,6 +48654,7 @@ repositories:
   upstream: https://github.com/npm/wrappy
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48563,6 +48663,7 @@ repositories:
   upstream: https://github.com/isaacs/events-to-array
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48571,6 +48672,7 @@ repositories:
   upstream: https://github.com/qiao/heap.js.git
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48579,6 +48681,7 @@ repositories:
   upstream: https://github.com/ljharb/is-date-object
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48587,6 +48690,7 @@ repositories:
   upstream: https://github.com/cloudhead/eyes.js
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48595,8 +48699,8 @@ repositories:
   upstream: https://github.com/shinnn/spdx-license-ids
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-array-index
@@ -48604,6 +48708,7 @@ repositories:
   upstream: https://github.com/TooTallNate/array-index.git
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48612,6 +48717,7 @@ repositories:
   upstream: https://github.com/chalk/strip-ansi
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48620,8 +48726,8 @@ repositories:
   upstream: https://github.com/rvagg/through2
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-window-size
@@ -48629,8 +48735,8 @@ repositories:
   upstream: https://www.npmjs.org/package/window-size
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-jsonify
@@ -48638,8 +48744,8 @@ repositories:
   upstream: https://github.com/substack/jsonify
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-ejs
@@ -48647,6 +48753,7 @@ repositories:
   upstream: https://github.com/visionmedia/ejs
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48655,6 +48762,7 @@ repositories:
   upstream: https://github.com/sindresorhus/pkg-up.git
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48663,8 +48771,8 @@ repositories:
   upstream: https://github.com/medikoo/es6-weak-map.git
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-should-format
@@ -48672,6 +48780,7 @@ repositories:
   upstream: https://github.com/shouldjs/format
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48680,8 +48789,8 @@ repositories:
   upstream: https://github.com/isaacs/json-stringify-safe
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-growl
@@ -48689,6 +48798,7 @@ repositories:
   upstream: https://github.com/visionmedia/node-growl
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48697,6 +48807,7 @@ repositories:
   upstream: https://github.com/ljharb/is-object
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48705,6 +48816,7 @@ repositories:
   upstream: https://github.com/hueniverse/cryptiles
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48713,8 +48825,8 @@ repositories:
   upstream: https://github.com/felixge/node-delayed-stream
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-caller-callsite
@@ -48722,8 +48834,8 @@ repositories:
   upstream: https://github.com/sindresorhus/caller-callsite
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-stringstream
@@ -48731,8 +48843,8 @@ repositories:
   upstream: https://github.com/mhart/StringStream
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-async
@@ -48740,6 +48852,7 @@ repositories:
   upstream: https://github.com/caolan/async/
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48748,8 +48861,8 @@ repositories:
   upstream: https://github.com/sindresorhus/resolve-from
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-buffer-equal
@@ -48757,8 +48870,8 @@ repositories:
   upstream: https://github.com/substack/node-buffer-equal
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-find-up
@@ -48766,6 +48879,7 @@ repositories:
   upstream: https://github.com/sindresorhus/find-up
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48774,6 +48888,7 @@ repositories:
   upstream: http://lesscss.org
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48789,6 +48904,7 @@ repositories:
   upstream: https://github.com/thlorenz/proxyquire
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48797,6 +48913,7 @@ repositories:
   upstream: https://github.com/substack/node-optimist
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48805,6 +48922,7 @@ repositories:
   upstream: http://chaijs.com
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48813,6 +48931,7 @@ repositories:
   upstream: https://github.com/kemitchell/defence.js.git
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48821,6 +48940,7 @@ repositories:
   upstream: https://github.com/mklabs/node-fileset
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48829,6 +48949,7 @@ repositories:
   upstream: https://www.npmjs.com/package/ms
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48837,8 +48958,8 @@ repositories:
   upstream: https://www.npmjs.org/package/string
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-clone
@@ -48846,6 +48967,7 @@ repositories:
   upstream: https://github.com/pvorb/node-clone
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48854,8 +48976,8 @@ repositories:
   upstream: https://www.npmjs.com/package/arrify
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-builtin-modules
@@ -48863,8 +48985,8 @@ repositories:
   upstream: https://github.com/sindresorhus/builtin-modules.git
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-handlebars
@@ -48872,6 +48994,7 @@ repositories:
   upstream: http://handlebarsjs.com/
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48880,8 +49003,8 @@ repositories:
   upstream: https://github.com/isaacs/abbrev-js
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-boom
@@ -48889,8 +49012,8 @@ repositories:
   upstream: https://github.com/spumko/boom
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-promises-aplus-tests
@@ -48898,6 +49021,7 @@ repositories:
   upstream: https://github.com/promises-aplus/promises-tests.git
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48906,6 +49030,7 @@ repositories:
   upstream: https://github.com/enricomarino/is
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48914,8 +49039,8 @@ repositories:
   upstream: https://github.com/substack/node-resolve
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-ansi-styles
@@ -48923,6 +49048,7 @@ repositories:
   upstream: https://github.com/sindresorhus/ansi-styles
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48931,6 +49057,7 @@ repositories:
   upstream: https://github.com/isaacs/nopt
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48939,6 +49066,7 @@ repositories:
   upstream: https://github.com/npm/hosted-git-info
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48947,8 +49075,8 @@ repositories:
   upstream: https://github.com/sindresorhus/escape-string-regexp
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-interpret
@@ -48956,6 +49084,7 @@ repositories:
   upstream: https://github.com/tkellen/node-interpret.git
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48964,8 +49093,8 @@ repositories:
   upstream: https://github.com/shouldjs/type
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-from
@@ -48973,8 +49102,8 @@ repositories:
   upstream: http://github.com/dominictarr/from
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-esprima
@@ -48982,6 +49111,7 @@ repositories:
   upstream: https://github.com/jquery/esprima
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48990,6 +49120,7 @@ repositories:
   upstream: https://github.com/defunctzombie/node-util
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -48998,6 +49129,7 @@ repositories:
   upstream: https://www.npmjs.com/package/semver
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49006,6 +49138,7 @@ repositories:
   upstream: https://github.com/iarna/are-we-there-yet.git
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49014,6 +49147,7 @@ repositories:
   upstream: https://github.com/iarna/has-unicode
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49022,6 +49156,7 @@ repositories:
   upstream: https://github.com/mcavage/node-asn1
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49030,8 +49165,8 @@ repositories:
   upstream: https://github.com/sindresorhus/os-tmpdir
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-pretty-bytes
@@ -49039,8 +49174,8 @@ repositories:
   upstream: https://github.com/sindresorhus/pretty-bytes
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-grunt-legacy-log
@@ -49048,6 +49183,7 @@ repositories:
   upstream: https://github.com/gruntjs/grunt-legacy-log
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49056,6 +49192,7 @@ repositories:
   upstream: https://github.com/visionmedia/callsite
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49064,6 +49201,7 @@ repositories:
   upstream: https://github.com/substack/node-concat-map.git
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49072,6 +49210,7 @@ repositories:
   upstream: https://github.com/meryn/normalize-package-data
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49080,6 +49219,7 @@ repositories:
   upstream: https://github.com/gruntjs/grunt-cli
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49088,8 +49228,8 @@ repositories:
   upstream: https://github.com/TooTallNate/ansi.js
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-module-not-found-error
@@ -49097,6 +49237,7 @@ repositories:
   upstream: https://github.com/bendrucker/module-not-found-error
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49105,8 +49246,8 @@ repositories:
   upstream: https://github.com/substack/node-charm
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-object-inspect
@@ -49114,6 +49255,7 @@ repositories:
   upstream: https://github.com/substack/object-inspect
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49122,6 +49264,7 @@ repositories:
   upstream: https://github.com/Raynos/xtend
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49130,6 +49273,7 @@ repositories:
   upstream: https://github.com/substack/defined
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49138,8 +49282,8 @@ repositories:
   upstream: https://www.npmjs.org/package/bluebird
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-better-assert
@@ -49147,6 +49291,7 @@ repositories:
   upstream: https://github.com/visionmedia/better-assert
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49155,6 +49300,7 @@ repositories:
   upstream: https://github.com/gruntjs/grunt-contrib-internal
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49163,8 +49309,8 @@ repositories:
   upstream: https://github.com/isaacs/slide-flow-control
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-flot
@@ -49179,8 +49325,8 @@ repositories:
   upstream: https://github.com/cowboy/node-getobject
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-through
@@ -49188,6 +49334,7 @@ repositories:
   upstream: https://github.com/dominictarr/through
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49196,6 +49343,7 @@ repositories:
   upstream: https://github.com/form-data/form-data
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49204,6 +49352,7 @@ repositories:
   upstream: https://github.com/mklabs/noptify
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49212,6 +49361,7 @@ repositories:
   upstream: https://github.com/vesln/package
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49220,6 +49370,7 @@ repositories:
   upstream: https://github.com/isaacs/node-graceful-fs
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49228,6 +49379,7 @@ repositories:
   upstream: https://github.com/medikoo/es6-symbol.git
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49236,8 +49388,8 @@ repositories:
   upstream: http://github.com/rvagg/nan
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-path-exists
@@ -49245,6 +49397,7 @@ repositories:
   upstream: https://github.com/sindresorhus/path-exists
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49253,6 +49406,7 @@ repositories:
   upstream: https://www.npmjs.com/package/has-symbols
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49261,6 +49415,7 @@ repositories:
   upstream: https://github.com/isaacs/inherits
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49269,8 +49424,8 @@ repositories:
   upstream: https://github.com/nodejs/nan
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-pinkie
@@ -49278,8 +49433,8 @@ repositories:
   upstream: https://github.com/floatdrop/pinkie
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-css
@@ -49287,6 +49442,7 @@ repositories:
   upstream: https://github.com/visionmedia/css
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49295,8 +49451,8 @@ repositories:
   upstream: http://github.com/faye/faye-websocket-node
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-delegates
@@ -49304,6 +49460,7 @@ repositories:
   upstream: https://github.com/visionmedia/node-delegates.git
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49312,8 +49469,8 @@ repositories:
   upstream: https://github.com/busterjs/formatio
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-path-is-absolute
@@ -49321,8 +49478,8 @@ repositories:
   upstream: https://github.com/sindresorhus/path-is-absolute
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-deep-equal
@@ -49330,6 +49487,7 @@ repositories:
   upstream: https://github.com/substack/node-deep-equal
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49338,6 +49496,7 @@ repositories:
   upstream: https://github.com/ljharb/es-to-primitive
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49346,8 +49505,8 @@ repositories:
   upstream: https://github.com/vesln/temporary
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-merge-descriptors
@@ -49355,6 +49514,7 @@ repositories:
   upstream: https://github.com/component/merge-descriptors
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49363,6 +49523,7 @@ repositories:
   upstream: https://github.com/shouldjs/equal
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49371,8 +49532,8 @@ repositories:
   upstream: https://github.com/medikoo/lru-queue.git
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-constantinople
@@ -49380,6 +49541,7 @@ repositories:
   upstream: https://github.com/ForbesLindesay/constantinople
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49388,8 +49550,8 @@ repositories:
   upstream: https://github.com/medikoo/timers-ext.git
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-es6-iterator
@@ -49397,6 +49559,7 @@ repositories:
   upstream: https://github.com/medikoo/es6-iterator.git
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49405,8 +49568,8 @@ repositories:
   upstream: https://github.com/sindresorhus/set-immediate-shim
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-tough-cookie
@@ -49414,6 +49577,7 @@ repositories:
   upstream: https://www.npmjs.com/package/tough-cookie
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49422,6 +49586,7 @@ repositories:
   upstream: https://github.com/TooTallNate/node-path-array.git
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49430,6 +49595,7 @@ repositories:
   upstream: https://github.com/medikoo/event-emitter.git
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49438,6 +49604,7 @@ repositories:
   upstream: https://github.com/kof/node-cjson.git
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49446,6 +49613,7 @@ repositories:
   upstream: https://github.com/substack/tape
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49454,6 +49622,7 @@ repositories:
   upstream: https://github.com/ljharb/object-is
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49462,6 +49631,7 @@ repositories:
   upstream: https://github.com/rvagg/isstream
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49470,6 +49640,7 @@ repositories:
   upstream: https://github.com/maxogden/concat-stream
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49478,8 +49649,8 @@ repositories:
   upstream: https://github.com/mikeal/forever-agent
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-string_decoder
@@ -49487,8 +49658,8 @@ repositories:
   upstream: https://www.npmjs.org/package/string_decoder
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-define-properties
@@ -49496,6 +49667,7 @@ repositories:
   upstream: https://github.com/ljharb/define-properties
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49504,6 +49676,7 @@ repositories:
   upstream: https://github.com/chalk/chalk
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49512,6 +49685,7 @@ repositories:
   upstream: https://github.com/tim-smart/node-closure
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49520,6 +49694,7 @@ repositories:
   upstream: https://github.com/mafintosh/is-my-json-valid
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49528,8 +49703,8 @@ repositories:
   upstream: https://github.com/chaijs/assertion-error
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-generate-object-property
@@ -49537,6 +49712,7 @@ repositories:
   upstream: https://github.com/mafintosh/generate-object-property
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49545,8 +49721,8 @@ repositories:
   upstream: https://github.com/sindresorhus/object-assign
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-os-homedir
@@ -49554,8 +49730,8 @@ repositories:
   upstream: https://github.com/sindresorhus/os-homedir
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-bunker
@@ -49563,8 +49739,8 @@ repositories:
   upstream: https://github.com/substack/node-bunker
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-burrito
@@ -49572,8 +49748,8 @@ repositories:
   upstream: https://github.com/substack/node-burrito
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-minimist
@@ -49581,6 +49757,7 @@ repositories:
   upstream: https://github.com/substack/minimist
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49589,6 +49766,7 @@ repositories:
   upstream: https://github.com/isaacs/rimraf
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49597,6 +49775,7 @@ repositories:
   upstream: https://github.com/isaacs/node-tar
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49605,6 +49784,7 @@ repositories:
   upstream: https://github.com/substack/js-traverse
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49613,8 +49793,8 @@ repositories:
   upstream: https://github.com/sinonjs/lolex
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-node-uuid
@@ -49622,8 +49802,8 @@ repositories:
   upstream: https://github.com/broofa/node-uuid
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-locate-path
@@ -49631,6 +49811,7 @@ repositories:
   upstream: https://github.com/sindresorhus/locate-path
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49639,6 +49820,7 @@ repositories:
   upstream: https://www.npmjs.com/package/grunt-known-options
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49647,8 +49829,8 @@ repositories:
   upstream: https://github.com/shama/tiny-lr
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-next-tick
@@ -49656,8 +49838,8 @@ repositories:
   upstream: https://github.com/medikoo/next-tick.git
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-hashish
@@ -49665,8 +49847,8 @@ repositories:
   upstream: http://github.com/substack/node-hashish
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-sntp
@@ -49674,8 +49856,8 @@ repositories:
   upstream: https://github.com/hueniverse/sntp
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-hooker
@@ -49683,6 +49865,7 @@ repositories:
   upstream: https://github.com/cowboy/javascript-hooker
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49691,6 +49874,7 @@ repositories:
   upstream: https://github.com/mcavage/node-assert-plus
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49699,6 +49883,7 @@ repositories:
   upstream: https://github.com/broofa/node-mime
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49707,6 +49892,7 @@ repositories:
   upstream: https://github.com/bnoordhuis/node-iconv
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49715,6 +49901,7 @@ repositories:
   upstream: https://github.com/kemitchell/replace-require-self.js.git
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49723,6 +49910,7 @@ repositories:
   upstream: https://github.com/floatdrop/pinkie-promise
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49731,6 +49919,7 @@ repositories:
   upstream: https://github.com/ljharb/is-callable
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49739,6 +49928,7 @@ repositories:
   upstream: https://github.com/manuelstofer/foreach
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49747,6 +49937,7 @@ repositories:
   upstream: https://github.com/sindresorhus/maxmin
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49755,6 +49946,7 @@ repositories:
   upstream: https://github.com/ljharb/object-keys
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49763,6 +49955,7 @@ repositories:
   upstream: https://github.com/felixge/node-paperboy
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49771,8 +49964,8 @@ repositories:
   upstream: https://github.com/mozilla/source-map
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-for-each
@@ -49780,6 +49973,7 @@ repositories:
   upstream: https://github.com/Raynos/for-each
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49788,6 +49982,7 @@ repositories:
   upstream: https://github.com/esamattis/underscore.string
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49796,6 +49991,7 @@ repositories:
   upstream: https://github.com/cowboy/node-globule
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49804,6 +50000,7 @@ repositories:
   upstream: https://github.com/kemitchell/spdx-expression-parse.js.git
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49812,6 +50009,7 @@ repositories:
   upstream: https://github.com/ljharb/qs
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49820,8 +50018,8 @@ repositories:
   upstream: https://github.com/cjohansen/Sinon.JS
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-aws-sign2
@@ -49829,8 +50027,8 @@ repositories:
   upstream: https://github.com/request/aws-sign
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-grunt-contrib-uglify
@@ -49838,6 +50036,7 @@ repositories:
   upstream: https://github.com/gruntjs/grunt-contrib-uglify
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49846,8 +50045,8 @@ repositories:
   upstream: https://www.npmjs.org/package/clean-css
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-require-inject
@@ -49855,6 +50054,7 @@ repositories:
   upstream: https://github.com/iarna/require-inject
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49863,6 +50063,7 @@ repositories:
   upstream: https://github.com/sindresorhus/load-grunt-tasks
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49871,8 +50072,8 @@ repositories:
   upstream: https://github.com/cowboy/node-exit
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-string-dot-prototype-dot-trim
@@ -49880,6 +50081,7 @@ repositories:
   upstream: https://github.com/es-shims/String.prototype.trim
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49888,8 +50090,8 @@ repositories:
   upstream: https://github.com/sindresorhus/gzip-size
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-uri-path
@@ -49897,6 +50099,7 @@ repositories:
   upstream: https://www.npmjs.com/package/uri-path
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49905,6 +50108,7 @@ repositories:
   upstream: https://github.com/fb55/node-entities
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49913,6 +50117,7 @@ repositories:
   upstream: https://github.com/isaacs/node-glob
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -49921,6 +50126,7 @@ repositories:
   upstream: https://github.com/lxe/stream-replace.git
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50041,6 +50247,7 @@ repositories:
   upstream: http://prawnpdf.org
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50057,6 +50264,7 @@ repositories:
   upstream: https://github.com/flavorjones/loofah
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50065,8 +50273,8 @@ repositories:
   upstream: http://github.com/vmg/redcarpet
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-erubi
@@ -50074,8 +50282,8 @@ repositories:
   upstream: https://github.com/jeremyevans/erubi
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-i18n
@@ -50083,6 +50291,7 @@ repositories:
   upstream: http://github.com/svenfuchs/i18n
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50091,6 +50300,7 @@ repositories:
   upstream: http://rubyonrails.org
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50099,6 +50309,7 @@ repositories:
   upstream: https://github.com/typhoeus/ethon
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50107,6 +50318,7 @@ repositories:
   upstream: https://github.com/rails/sprockets
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50115,6 +50327,7 @@ repositories:
   upstream: https://github.com/rails/jbuilder
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50123,6 +50336,7 @@ repositories:
   upstream: https://github.com/JoshCheek/thread_order
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50131,6 +50345,7 @@ repositories:
   upstream: https://github.com/sporkmonger/addressable
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50139,8 +50354,8 @@ repositories:
   upstream: https://github.com/ahoward/fattr
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-rails
@@ -50148,8 +50363,8 @@ repositories:
   upstream: http://rubyonrails.org
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-shoulda
@@ -50157,6 +50372,7 @@ repositories:
   upstream: https://github.com/thoughtbot/shoulda
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50165,6 +50381,7 @@ repositories:
   upstream: https://github.com/typhoeus/typhoeus
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50173,6 +50390,7 @@ repositories:
   upstream: https://github.com/caiges/Ruby-RC4
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50188,6 +50406,7 @@ repositories:
   upstream: https://github.com/sparklemotion/http-cookie
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50196,6 +50415,7 @@ repositories:
   upstream: http://github.com/faye/websocket-driver-ruby
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50204,6 +50424,7 @@ repositories:
   upstream: https://github.com/socketry/nio4r
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50212,6 +50433,7 @@ repositories:
   upstream: http://yardoc.org
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50220,6 +50442,7 @@ repositories:
   upstream: https://github.com/thoughtbot/shoulda-context
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50228,6 +50451,7 @@ repositories:
   upstream: https://github.com/nahi/httpclient
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50236,6 +50460,7 @@ repositories:
   upstream: http://github.com/faye/websocket-extensions-ruby
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50244,6 +50469,7 @@ repositories:
   upstream: http://github.com/lautis/uglifier
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50252,6 +50478,7 @@ repositories:
   upstream: http://egonschiele.github.io/contracts.ruby/
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50260,6 +50487,7 @@ repositories:
   upstream: https://github.com/judofyr/temple
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50268,6 +50496,7 @@ repositories:
   upstream: https://ms-ati.github.com/docile/
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50276,6 +50505,7 @@ repositories:
   upstream: http://whatisthor.com/
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50284,8 +50514,8 @@ repositories:
   upstream: http://github.com/knu/ruby-unf_ext
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-thread_safe
@@ -50293,6 +50523,7 @@ repositories:
   upstream: https://github.com/ruby-concurrency/thread_safe
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50301,6 +50532,7 @@ repositories:
   upstream: http://msgpack.org/
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50309,8 +50541,8 @@ repositories:
   upstream: https://github.com/rgrove/crass/
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-aruba
@@ -50318,6 +50550,7 @@ repositories:
   upstream: http://github.com/cucumber/aruba
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50326,8 +50559,8 @@ repositories:
   upstream: http://rspec.info
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-rubyzip
@@ -50335,6 +50568,7 @@ repositories:
   upstream: http://github.com/rubyzip/rubyzip
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50343,8 +50577,8 @@ repositories:
   upstream: http://github.com/injekt/slop
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-ttfunk
@@ -50352,8 +50586,8 @@ repositories:
   upstream: https://github.com/prawnpdf/ttfunk
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-timecop
@@ -50361,6 +50595,7 @@ repositories:
   upstream: https://github.com/travisjeffery/timecop
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50369,6 +50604,7 @@ repositories:
   upstream: https://github.com/CapnKernul/minitest-reporters
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50377,8 +50613,8 @@ repositories:
   upstream: https://github.com/turbolinks/turbolinks-source-gem
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-childprocess
@@ -50386,6 +50622,7 @@ repositories:
   upstream: http://github.com/jarib/childprocess
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50394,6 +50631,7 @@ repositories:
   upstream: http://github.com/bhollis/maruku
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50402,6 +50640,7 @@ repositories:
   upstream: https://github.com/codahale/bcrypt-ruby
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50410,6 +50649,7 @@ repositories:
   upstream: https://github.com/rails/rails-controller-testing
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50418,8 +50658,8 @@ repositories:
   upstream: https://github.com/mime-types/mime-types-data/
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-sinatra
@@ -50427,6 +50667,7 @@ repositories:
   upstream: http://www.sinatrarb.com/
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50435,8 +50676,8 @@ repositories:
   upstream: https://github.com/sparklemotion/sqlite3-ruby
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-cucumber-wire
@@ -50444,6 +50685,7 @@ repositories:
   upstream: http://cucumber.io
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50452,6 +50694,7 @@ repositories:
   upstream: https://github.com/teamcapybara/xpath
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50460,6 +50703,7 @@ repositories:
   upstream: https://github.com/rspec/rspec-its
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50468,8 +50712,8 @@ repositories:
   upstream: https://github.com/turbolinks/turbolinks
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-rb-inotify
@@ -50477,6 +50721,7 @@ repositories:
   upstream: https://github.com/guard/rb-inotify
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50485,8 +50730,8 @@ repositories:
   upstream: https://github.com/seattlerb/zentest
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-minitest
@@ -50501,6 +50746,7 @@ repositories:
   upstream: http://github.com/rtomayko/tilt
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50509,6 +50755,7 @@ repositories:
   upstream: https://github.com/rails/spring
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50517,6 +50764,7 @@ repositories:
   upstream: https://github.com/halostatue/diff-lcs
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50525,6 +50773,7 @@ repositories:
   upstream: https://github.com/rails/jquery-rails
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50533,8 +50782,8 @@ repositories:
   upstream: https://github.com/minad/mimemagic
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-cucumber-expressions
@@ -50542,6 +50791,7 @@ repositories:
   upstream: https://github.com/cucumber/cucumber-expressions-ruby#readme
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50550,6 +50800,7 @@ repositories:
   upstream: http://github.com/marcandre/backports
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50565,6 +50816,7 @@ repositories:
   upstream: http://github.com/bblimke/webmock
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50573,8 +50825,8 @@ repositories:
   upstream: http://github.com/svenfuchs/test_declarative
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-rspec2-mocks
@@ -50582,6 +50834,7 @@ repositories:
   upstream: http://github.com/rspec/rspec-mocks
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50590,8 +50843,8 @@ repositories:
   upstream: https://github.com/discourse/mini_mime
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-rails-dom-testing
@@ -50599,6 +50852,7 @@ repositories:
   upstream: https://github.com/rails/rails-dom-testing
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50607,6 +50861,7 @@ repositories:
   upstream: http://github.com/rspec/rspec-expectations
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50615,6 +50870,7 @@ repositories:
   upstream: http://gofreerange.com/mocha/docs
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50623,6 +50879,7 @@ repositories:
   upstream: http://github.com/mperham/memcache-client
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50631,8 +50888,8 @@ repositories:
   upstream: http://rspec.info
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-RedCloth
@@ -50640,6 +50897,7 @@ repositories:
   upstream: http://redcloth.org
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50648,8 +50906,8 @@ repositories:
   upstream: http://github.com/geemus/shindo
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-wikicloth
@@ -50657,6 +50915,7 @@ repositories:
   upstream: https://github.com/nricciar/wikicloth
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50665,8 +50924,8 @@ repositories:
   upstream: http://github.com/ahoward/session/tree/master
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-safe_yaml
@@ -50674,8 +50933,8 @@ repositories:
   upstream: http://dtao.github.com/safe_yaml/
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-websocket
@@ -50683,6 +50942,7 @@ repositories:
   upstream: http://github.com/imanel/websocket-ruby
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50691,8 +50951,8 @@ repositories:
   upstream: https://github.com/jfelchner/ruby-progressbar
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-sprockets-rails
@@ -50700,6 +50960,7 @@ repositories:
   upstream: https://github.com/rails/sprockets-rails
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50708,6 +50969,7 @@ repositories:
   upstream: http://github.com/copiousfreetime/launchy
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50716,6 +50978,7 @@ repositories:
   upstream: https://github.com/rails/rails-html-sanitizer
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50724,6 +50987,7 @@ repositories:
   upstream: https://github.com/knu/ruby-unf
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50732,6 +50996,7 @@ repositories:
   upstream: https://github.com/excon/excon
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50747,6 +51012,7 @@ repositories:
   upstream: https://github.com/liufengyun/hashdiff
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -50755,8 +51021,8 @@ repositories:
   upstream: http://github.com/chneukirchen/bacon
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-mime-types
@@ -50764,8 +51030,8 @@ repositories:
   upstream: https://github.com/mime-types/ruby-mime-types/
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: appweb
@@ -52521,6 +52787,7 @@ repositories:
   upstream: http://sass-lang.com/
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -52529,6 +52796,7 @@ repositories:
   upstream: https://github.com/thoughtbot/shoulda-matchers
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -52537,6 +52805,7 @@ repositories:
   upstream: https://github.com/yob/pdf-reader
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -52545,6 +52814,7 @@ repositories:
   upstream: https://github.com/ljharb/make-generator-function
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -52553,6 +52823,7 @@ repositories:
   upstream: https://npmjs.org/package/expect.js
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -52561,6 +52832,7 @@ repositories:
   upstream: https://github.com/prawnpdf/pdf-core
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -52569,6 +52841,7 @@ repositories:
   upstream: http://github.com/rspec/rspec-mocks
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -52584,6 +52857,7 @@ repositories:
   upstream: https://github.com/visionmedia/bytes.js
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -52600,8 +52874,8 @@ repositories:
   upstream: https://github.com/rspec/rspec-rails
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-fast-levenshtein
@@ -52609,6 +52883,7 @@ repositories:
   upstream: https://github.com/hiddentao/fast-levenshtein.git
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -52617,6 +52892,7 @@ repositories:
   upstream: http://github.com/rspec/rspec-mocks
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -52625,6 +52901,7 @@ repositories:
   upstream: https://github.com/jgm/commonmark.js.git
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -52656,6 +52933,7 @@ repositories:
   upstream: https://github.com/doudou/flexmock
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -52664,6 +52942,7 @@ repositories:
   upstream: https://www.npmjs.com/package/array-union
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -52672,6 +52951,7 @@ repositories:
   upstream: http://rubyonrails.org
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -52688,6 +52968,7 @@ repositories:
   upstream: https://github.com/sindresorhus/caller-path
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -52719,6 +53000,7 @@ repositories:
   upstream: https://github.com/ahmadnassri/har-validator
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -52735,6 +53017,7 @@ repositories:
   upstream: https://github.com/sindresorhus/callsites
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -52743,6 +53026,7 @@ repositories:
   upstream: https://github.com/prawnpdf/pdf-inspector
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -52759,6 +53043,7 @@ repositories:
   upstream: https://github.com/juliangruber/brace-expansion.git
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -52767,6 +53052,7 @@ repositories:
   upstream: http://github.com/rspec/rspec-expectations
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -52791,6 +53077,7 @@ repositories:
   upstream: https://github.com/rails/sass-rails
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -52799,6 +53086,7 @@ repositories:
   upstream: http://github.com/intridea/multi_json
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -52821,6 +53109,7 @@ repositories:
   upstream: https://github.com/scarnie/docopt.coffee.git
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -52829,6 +53118,7 @@ repositories:
   upstream: https://github.com/gkz/type-check
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -52860,8 +53150,8 @@ repositories:
   upstream: http://code.google.com/p/gyp
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: jline
@@ -52909,6 +53199,7 @@ repositories:
   upstream: https://www.npmjs.com/package/array-uniq
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -52917,6 +53208,7 @@ repositories:
   upstream: https://github.com/Constellation/esutils
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -52925,6 +53217,7 @@ repositories:
   upstream: https://github.com/ternjs/acorn
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -52988,6 +53281,7 @@ repositories:
   upstream: https://www.github.com/ffi/ffi
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53065,6 +53359,7 @@ repositories:
   upstream: https://github.com/rails/arel
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53073,6 +53368,7 @@ repositories:
   upstream: https://developers.google.com/closure/compiler/
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53089,6 +53385,7 @@ repositories:
   upstream: http://tzinfo.github.io
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53097,6 +53394,7 @@ repositories:
   upstream: https://github.com/kemitchell/defence-cli.js.git
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53113,6 +53411,7 @@ repositories:
   upstream: https://github.com/ForbesLindesay/character-parser
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53121,6 +53420,7 @@ repositories:
   upstream: https://github.com/juliangruber/balanced-match.git
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53129,6 +53429,7 @@ repositories:
   upstream: https://github.com/rspec/rspec-support
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53153,6 +53454,7 @@ repositories:
   upstream: https://github.com/zaach/ebnf-parser.git
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53161,6 +53463,7 @@ repositories:
   upstream: https://github.com/andreyvit/dreamopt.js
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53169,6 +53472,7 @@ repositories:
   upstream: https://github.com/ljharb/make-arrow-function
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53177,6 +53481,7 @@ repositories:
   upstream: http://rubyonrails.org
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53185,6 +53490,7 @@ repositories:
   upstream: http://github.com/rspec/rspec-core
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53223,6 +53529,7 @@ repositories:
   upstream: https://jquery.com/
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53231,6 +53538,7 @@ repositories:
   upstream: http://sizzlejs.com/
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53239,6 +53547,7 @@ repositories:
   upstream: https://lodash.com/
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53247,6 +53556,7 @@ repositories:
   upstream: https://github.com/mishoo/UglifyJS2
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53255,6 +53565,7 @@ repositories:
   upstream: https://github.com/mishoo/UglifyJS
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53271,6 +53582,7 @@ repositories:
   upstream: https://github.com/nodejs/node-gyp
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53279,6 +53591,7 @@ repositories:
   upstream: https://github.com/tj/commander
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53287,6 +53600,7 @@ repositories:
   upstream: https://developer.mozilla.org/en-US/docs/Web/API/Console/log
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53295,6 +53609,7 @@ repositories:
   upstream: https://github.com/rmustacc/node-ctype
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53303,6 +53618,7 @@ repositories:
   upstream: https://github.com/felixge/node-dateformat
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53311,6 +53627,7 @@ repositories:
   upstream: https://github.com/kpdecker/jsdiff
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53319,6 +53636,7 @@ repositories:
   upstream: https://www.npmjs.org/package/extend
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53327,6 +53645,7 @@ repositories:
   upstream: https://github.com/js-cli/node-findup-sync
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53335,6 +53654,7 @@ repositories:
   upstream: https://github.com/isaacs/fstream
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53343,6 +53663,7 @@ repositories:
   upstream: https://github.com/shama/gaze
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53351,6 +53672,7 @@ repositories:
   upstream: https://github.com/ashtuchkin/iconv-lite
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53359,6 +53681,7 @@ repositories:
   upstream: https://github.com/zaach/jison
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53367,6 +53690,7 @@ repositories:
   upstream: https://github.com/zaach/jison-lex.git
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53375,6 +53699,7 @@ repositories:
   upstream: http://rlidwka.github.io/jju/
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53383,6 +53708,7 @@ repositories:
   upstream: https://github.com/lloyd/JSONSelect.git
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53391,6 +53717,7 @@ repositories:
   upstream: https://github.com/zaach/lex-parser.git
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53399,6 +53726,7 @@ repositories:
   upstream: https://github.com/markdown-it/mdurl.git
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53407,6 +53735,7 @@ repositories:
   upstream: https://github.com/samccone/monocle
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53415,6 +53744,7 @@ repositories:
   upstream: https://github.com/then/promise
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53423,6 +53753,7 @@ repositories:
   upstream: https://github.com/stream-utils/raw-body
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53431,6 +53762,7 @@ repositories:
   upstream: https://github.com/troygoode/node-require-directory
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53439,6 +53771,7 @@ repositories:
   upstream: https://github.com/jrburke/r.js
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53447,6 +53780,7 @@ repositories:
   upstream: https://github.com/sindresorhus/require-uncached
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53455,6 +53789,7 @@ repositories:
   upstream: https://github.com/rollup/rollup
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53463,6 +53798,7 @@ repositories:
   upstream: https://github.com/jslicense/spdx-correct.js
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53471,6 +53807,7 @@ repositories:
   upstream: https://github.com/mathiasbynens/String.prototype.repeat.git
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53479,6 +53816,7 @@ repositories:
   upstream: https://github.com/chalk/supports-color
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53487,8 +53825,8 @@ repositories:
   upstream: https://github.com/request/tunnel-agent
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: nodejs-underscore
@@ -53496,6 +53834,7 @@ repositories:
   upstream: http://underscorejs.org/
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53504,6 +53843,7 @@ repositories:
   upstream: https://github.com/stream-utils/unpipe
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53512,6 +53852,7 @@ repositories:
   upstream: http://github.com/faye/websocket-driver-node
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53520,6 +53861,7 @@ repositories:
   upstream: https://github.com/isaacs/node-which
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53528,6 +53870,7 @@ repositories:
   upstream: https://github.com/ForbesLindesay/with
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53536,6 +53879,7 @@ repositories:
   upstream: https://github.com/caolan/nodeunit
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53544,6 +53888,7 @@ repositories:
   upstream: http://rubyonrails.org
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53552,6 +53897,7 @@ repositories:
   upstream: http://rubyonrails.org
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53560,6 +53906,7 @@ repositories:
   upstream: http://rubyonrails.org
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53568,6 +53915,7 @@ repositories:
   upstream: http://rubyonrails.org
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53576,6 +53924,7 @@ repositories:
   upstream: http://rubyonrails.org
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53584,6 +53933,7 @@ repositories:
   upstream: http://github.com/rails/activemodel-serializers-xml
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53592,6 +53942,7 @@ repositories:
   upstream: http://rubyonrails.org
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53600,6 +53951,7 @@ repositories:
   upstream: http://www.rubyonrails.org
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53608,8 +53960,8 @@ repositories:
   upstream: http://rubyonrails.org
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-Ascii85
@@ -53617,8 +53969,8 @@ repositories:
   upstream: https://github.com/DataWraith/ascii85gem
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-bootsnap
@@ -53626,6 +53978,7 @@ repositories:
   upstream: https://github.com/Shopify/bootsnap
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53634,6 +53987,7 @@ repositories:
   upstream: https://github.com/teamcapybara/capybara
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53642,6 +53996,7 @@ repositories:
   upstream: https://github.com/rails/ruby-coffee-script.git
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53650,6 +54005,7 @@ repositories:
   upstream: http://github.com/jashkenas/coffeescript/
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53658,6 +54014,7 @@ repositories:
   upstream: http://www.concurrent-ruby.com
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53666,6 +54023,7 @@ repositories:
   upstream: https://cucumber.io/docs/cucumber/api/#tag-expressions
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53674,6 +54032,7 @@ repositories:
   upstream: https://cucumber.io/
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53682,6 +54041,7 @@ repositories:
   upstream: https://cucumber.io
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53690,8 +54050,8 @@ repositories:
   upstream: https://rubygems.org/gems/daemons
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-delorean
@@ -53699,6 +54059,7 @@ repositories:
   upstream: https://github.com/bebanjo/delorean
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53707,6 +54068,7 @@ repositories:
   upstream: https://github.com/rails/globalid
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53715,6 +54077,7 @@ repositories:
   upstream: https://github.com/cucumber/gherkin-ruby
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53723,6 +54086,7 @@ repositories:
   upstream: http://haml.info/
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53731,8 +54095,8 @@ repositories:
   upstream: https://github.com/sstephenson/ruby-ejs/
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-execjs
@@ -53740,8 +54104,8 @@ repositories:
   upstream: https://github.com/rails/execjs
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-expression_parser
@@ -53749,6 +54113,7 @@ repositories:
   upstream: http://lukaszwrobel.pl/blog/math-parser-part-3-implementation
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53757,8 +54122,8 @@ repositories:
   upstream: http://github.com/geemus/formatador
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-listen
@@ -53766,6 +54131,7 @@ repositories:
   upstream: https://github.com/guard/listen
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53774,6 +54140,7 @@ repositories:
   upstream: https://github.com/mikel/mail
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53782,8 +54149,8 @@ repositories:
   upstream: https://banisterfiend.wordpress.com
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-mini_magick
@@ -53791,6 +54158,7 @@ repositories:
   upstream: https://github.com/minimagick/minimagick
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53799,6 +54167,7 @@ repositories:
   upstream: https://github.com/sinatra/mustermann
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53807,8 +54176,8 @@ repositories:
   upstream: https://nokogiri.org
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-prawn-table
@@ -53816,6 +54185,7 @@ repositories:
   upstream: https://github.com/prawnpdf/prawn-table
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53824,6 +54194,7 @@ repositories:
   upstream: https://rubygems.org/gems/pry
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53832,8 +54203,8 @@ repositories:
   upstream: http://puma.io
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-rack-cache
@@ -53841,6 +54212,7 @@ repositories:
   upstream: https://github.com/rtomayko/rack-cache
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53849,6 +54221,7 @@ repositories:
   upstream: http://github.com/sinatra/sinatra/tree/master/rack-protection
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53857,6 +54230,7 @@ repositories:
   upstream: http://github.com/rack-test/rack-test
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53865,8 +54239,8 @@ repositories:
   upstream: https://github.com/redis/redis-rb
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-rouge
@@ -53874,6 +54248,7 @@ repositories:
   upstream: https://github.com/rouge-ruby/rouge
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53882,8 +54257,8 @@ repositories:
   upstream: https://www.selenium.dev
   protected_branches: 
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
 - name: rubygem-simplecov-html
@@ -53891,6 +54266,7 @@ repositories:
   upstream: https://github.com/colszowka/simplecov-html
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53945,6 +54321,7 @@ repositories:
   upstream: http://code.macournoyer.com/thin/
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53983,6 +54360,7 @@ repositories:
   upstream: https://github.com/nodeca/argparse
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53991,6 +54369,7 @@ repositories:
   upstream: https://github.com/gozala/ansi-font
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -53999,6 +54378,7 @@ repositories:
   upstream: https://github.com/joyent/node-http-signature
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -54014,6 +54394,7 @@ repositories:
   upstream: https://github.com/gotwarlost/istanbul
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -54022,6 +54403,7 @@ repositories:
   upstream: https://github.com/jbgutierrez/path-parse.git
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -54054,6 +54436,7 @@ repositories:
   upstream: https://github.com/sindresorhus/has-color
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -54062,6 +54445,7 @@ repositories:
   upstream: https://github.com/visionmedia/jade
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -54078,6 +54462,7 @@ repositories:
   upstream: https://github.com/isaacs/node-tap
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -54110,6 +54495,7 @@ repositories:
   upstream: https://github.com/shouldjs/should.js
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -54133,6 +54519,7 @@ repositories:
   upstream: https://github.com/nodeca/js-yaml
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -54149,6 +54536,7 @@ repositories:
   upstream: https://github.com/sindresorhus/resolve-pkg
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -54186,6 +54574,7 @@ repositories:
   upstream: https://github.com/Constellation/estraverse
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -54194,6 +54583,7 @@ repositories:
   upstream: https://github.com/mafintosh/generate-function
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -54202,6 +54592,7 @@ repositories:
   upstream: https://github.com/gruntjs/grunt-contrib-watch
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -54241,6 +54632,7 @@ repositories:
   upstream: https://github.com/sindresorhus/ansi-regex
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -54257,6 +54649,7 @@ repositories:
   upstream: https://github.com/Constellation/escodegen
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -54265,6 +54658,7 @@ repositories:
   upstream: https://github.com/tkellen/node-rechoir
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -54273,6 +54667,7 @@ repositories:
   upstream: https://github.com/ForbesLindesay/transformers
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -54281,6 +54676,7 @@ repositories:
   upstream: https://github.com/substack/tap-parser.git
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -54289,6 +54685,7 @@ repositories:
   upstream: https://github.com/andreyvit/json-diff
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -54305,6 +54702,7 @@ repositories:
   upstream: https://github.com/sindresorhus/has-ansi
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -54313,6 +54711,7 @@ repositories:
   upstream: https://github.com/thlorenz/readdirp
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -54321,6 +54720,7 @@ repositories:
   upstream: https://github.com/mikolalysenko/is-property
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -54343,6 +54743,7 @@ repositories:
   upstream: http://github.com/arturadib/shelljs
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   - openEuler-20.09
   type: public
@@ -54357,6 +54758,7 @@ repositories:
   upstream: http://github.com/deivid-rodriguez/byebug
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   type: public
 - name: robust-http-client
@@ -54459,6 +54861,7 @@ repositories:
   upstream: https://github.com/fakefs/fakefs
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   type: public
 - name: stapler
@@ -54596,6 +54999,7 @@ repositories:
   upstream: https://github.com/k-tsj/power_assert
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   type: public
 - name: rubygem-simplecov
@@ -54603,6 +55007,7 @@ repositories:
   upstream: http://github.com/colszowka/simplecov
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   type: public
 - name: the_silver_searcher
@@ -54887,6 +55292,7 @@ repositories:
   upstream: https://github.com/rake-compiler/rake-compiler
   protected_branches: 
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.03-LTS-SP1
   type: public
 - name: neXtaw
@@ -55202,32 +55608,32 @@ repositories:
   upstream: https://github.com/ClusterLabs/booth
   protected_branches:
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   type: public
 - name: execstack
   description: This package is built from prelink sources but contains just the execstack binary. It can be used manipulate ELF binaries to run with or without executable stack.
   upstream: https://gitee.com/openkylin/execstack-src
   protected_branches:
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   type: public
 - name: google-api-python-client
   description: Written by Google, this library provides a small, flexible, and powerful Python client library for accessing Google APIs.
   upstream: https://github.com/googleapis/google-api-python-client
   protected_branches:
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   type: public
 - name: python-s3transfer
   description: python3-s3transfer - Amazon S3 Transfer Manager
   upstream: https://github.com/boto/s3transfer
   protected_branches:
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   type: public
 - name: python-readme-renderer
   description: readme_renderer is a library for rendering "readme" descriptions for Warehouse
@@ -55267,8 +55673,8 @@ repositories:
   upstream: https://pagure.io/clufter
   protected_branches:
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   type: public
 - name: lcdf-typetools
   description: Collection of Type 1 and 2 font manipulation utilities
@@ -55319,24 +55725,24 @@ repositories:
   upstream: https://www.nagios-plugins.org/
   protected_branches:
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   type: public
 - name: freeradius-client
   description: FreeRADIUS Client is a library for writing RADIUS Clients.The library lets you develop a RADIUS-aware application in less than 50 lines of C code.
   upstream: http://freeradius.org/freeradius-client/
   protected_branches:
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   type: public
 - name: jing-trang
   description: Jing is a RELAX NG validator written in Java.It implements the RELAX NG 1.0 Specification,RELAX NG Compact Syntax,and parts of RELAX NG DTD Compatibility,specifically checking of ID/IDREF/IDREFS.
   upstream: https://github.com/relaxng/jing-trang
   protected_branches:
   - master
-  - openEuler-20.03-LTS-SP1
   - openEuler-20.03-LTS-Next
+  - openEuler-20.03-LTS-SP1
   type: public
 - name: easy-checker
   description: A series of checking tools used in openEuler community
