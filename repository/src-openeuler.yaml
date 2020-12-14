@@ -33428,11 +33428,12 @@ repositories:
   - openEuler-20.03-LTS
   type: public
 - name: python-eventlet
-  description: ''
+  upstream: https://github.com/eventlet/eventlet
+  description: A concurrent networking library for Python that allows you to change how you run your code, not how you write it
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: python-execnet
   description: ''
   protected_branches:
@@ -39715,11 +39716,12 @@ repositories:
   - openEuler-20.09
   type: public
 - name: python-wcwidth
+  upstream: https://github.com/jquast/wcwidth
   description: Measures number of Terminal column cells of wide-character codes.
   protected_branches:
   - master
   - openEuler-20.09
-  type: private
+  type: public
 - name: python-webassets
   upstream: http://github.com/miracle2k/webassets/
   description: Media asset management for Python, with glue code for various web frameworks
