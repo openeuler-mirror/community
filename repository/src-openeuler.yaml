@@ -55504,3 +55504,10 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-ldappool
+  description: A simple connector pool for python-ldap it can drastically reducing the time spent to initiate a ldap connection.
+  upstream: https://opendev.org/openstack/ldappool/
+  protected_branches:
+  - master
+  - openEuler-20.03-LTS-Next
+  type: public
