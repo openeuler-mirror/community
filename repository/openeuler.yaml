@@ -542,3 +542,9 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: openeuler-wiki-bot
+  description: "A wiki-generate tool for openEuler sigs"
+  protected_branches:
+  - master
+  type: public
+
