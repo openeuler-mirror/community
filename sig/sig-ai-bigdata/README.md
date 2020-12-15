@@ -38,7 +38,6 @@
 - https://gitee.com/src-openeuler/libsvm
 - https://gitee.com/src-openeuler/libhdfs
 - https://gitee.com/src-openeuler/ComputeLibrary
-- https://gitee.com/src-openeuler/Shark
 - https://gitee.com/src-openeuler/arm-ml-examples
 - https://gitee.com/src-openeuler/armnn
 - https://gitee.com/src-openeuler/libmetal
