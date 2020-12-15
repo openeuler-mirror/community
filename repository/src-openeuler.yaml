@@ -55870,6 +55870,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-editor
+  description: Opens a text editor for an existing file, a new file, or a tempfile
+  upstream: https://github.com/rec/editor
+  protected_branches:
+  - master
+  type: public
 - name: openresty-openssl111
   description:      OpenSSL library for OpenResty
   upstream: https://www.openssl.org/
