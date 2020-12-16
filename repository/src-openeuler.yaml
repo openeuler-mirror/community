@@ -10424,35 +10424,9 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: kata-agent
-  description: ''
-  protected_branches:
-  - master
-  - openEuler-20.03-LTS
-  - openEuler-20.03-LTS-Next
-  - openEuler-20.03-LTS-SP1
-  - openEuler-20.09
-  type: public
-- name: kata-proxy
-  description: ''
-  protected_branches:
-  - master
-  - openEuler-20.03-LTS
-  - openEuler-20.03-LTS-Next
-  - openEuler-20.03-LTS-SP1
-  - openEuler-20.09
-  type: public
-- name: kata-runtime
-  description: ''
-  protected_branches:
-  - master
-  - openEuler-20.03-LTS
-  - openEuler-20.03-LTS-Next
-  - openEuler-20.03-LTS-SP1
-  - openEuler-20.09
-  type: public
-- name: kata-shim
-  description: ''
+- name: kata-containers
+  description: 'The speed of containers, the security of VMs'
+  upstream: https://github.com/kata-containers
   protected_branches:
   - master
   - openEuler-20.03-LTS
@@ -10462,16 +10436,6 @@ repositories:
   type: public
 - name: kata_integration
   description: ''
-  protected_branches:
-  - master
-  - openEuler-20.03-LTS
-  - openEuler-20.03-LTS-Next
-  - openEuler-20.03-LTS-SP1
-  - openEuler-20.09
-  type: public
-- name: kata-micro-kernel
-  description: "A micro kernel for kata-containers"
-  upstream: https://gitee.com/openeuler/kernel
   protected_branches:
   - master
   - openEuler-20.03-LTS

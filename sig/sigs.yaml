@@ -1939,7 +1939,6 @@ sigs:
 - name: Container
   repositories:
   - openeuler/kata_integration
-  - src-openeuler/kata-micro-kernel
   - src-openeuler/jboss-parent
   - src-openeuler/clibcni
   - src-openeuler/docker-client-java
@@ -1952,19 +1951,16 @@ sigs:
   - src-openeuler/iSulad
   - src-openeuler/podman
   - src-openeuler/skopeo
-  - src-openeuler/kata-shim
+  - src-openeuler/kata-containers
   - src-openeuler/kata_integration
   - src-openeuler/busybox
   - src-openeuler/container-selinux
   - src-openeuler/lxc
   - src-openeuler/docker
-  - src-openeuler/kata-runtime
   - src-openeuler/libevhtp
-  - src-openeuler/kata-proxy
   - src-openeuler/lxcfs
   - src-openeuler/containernetworking-plugins
   - src-openeuler/libcgroup
-  - src-openeuler/kata-agent
   - src-openeuler/libnetwork
   - src-openeuler/kubernetes
   - src-openeuler/docker-compose
