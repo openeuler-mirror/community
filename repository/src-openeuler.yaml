@@ -55924,3 +55924,21 @@ repositories:
   - master
   - openEuler-20.03-LTS-Next
   type: public
+- name: rubygem-kramdown-parser-gfm
+  description: Kramdown parser for GitHub-flavored markdown
+  upstream: https://github.com/kramdown/parser-gfm
+  protected_branches: 
+  - master
+  - openEuler-20.03-LTS-SP1
+  - openEuler-20.03-LTS-Next
+  - openEuler-20.09
+  type: public
+- name: rubygem-ronn-ng
+  description: Builds man pages from Markdown
+  upstream: https://github.com/apjanke/ronn-ng
+  protected_branches: 
+  - master
+  - openEuler-20.03-LTS-SP1
+  - openEuler-20.03-LTS-Next
+  - openEuler-20.09
+  type: public
