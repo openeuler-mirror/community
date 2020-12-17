@@ -29850,11 +29850,13 @@ repositories:
   - openEuler-20.09
   type: public
 - name: potrace
-  description: ''
+  description: A tool for tracing a bitmap
+  upstream: http://potrace.sourceforge.net
   protected_branches:
   - master
+  - openEuler-20.03-LTS-Next
   - openEuler-20.09
-  type: private
+  type: public
 - name: powermock
   description: A Java mocking framework
   upstream: https://github.com/jayway/powermock
