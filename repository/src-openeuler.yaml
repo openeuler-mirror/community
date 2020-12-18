@@ -47281,6 +47281,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: influxdb_exporter
+  description: A server that accepts InfluxDB metrics via the HTTP API and exports them via HTTP for Prometheus consumption
+  upstream: https://github.com/prometheus/influxdb_exporter
+  protected_branches:
+  - master
+  type: public
 - name: kubevirt
   description: 'an open source project that makes it possible to run virtual machines in a Kubernetes managed container platform'
   upstream: https://kubevirt.io/
