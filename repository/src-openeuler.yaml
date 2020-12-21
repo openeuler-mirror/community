@@ -1599,6 +1599,12 @@ repositories:
   - openEuler-20.09
   - openEuler-20.03-LTS
   type: public
+- name: bcache-tools
+  description: Bcache is a Linux kernel block layer cache. It allows one or more fast disk drives such as flash-based solid state drives (SSDs) to act as a cache for one or more slower hard disk drives. bcache-tools contains the userspace tools required for bcache.
+  upstream: https://git.kernel.org/pub/scm/linux/kernel/git/colyli/bcache-tools.git
+  protected_branches: 
+  - master
+  type: public
 - name: bcc
   description: BCC - Tools for BPF-based Linux IO analysis, networking, monitoring,
     and more
