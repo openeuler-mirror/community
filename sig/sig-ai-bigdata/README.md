@@ -66,6 +66,7 @@
 - https://gitee.com/src-openeuler/ibis
 - https://gitee.com/src-openeuler/presto
 - https://gitee.com/src-openeuler/rain
+- https://gitee.com/src-openeuler/ignite
 
 ## 路线图
  ![roadmap](./sig-road-map.jpg)

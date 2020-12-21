@@ -7319,6 +7319,12 @@ repositories:
   - master
   - openEuler-20.09
   type: public
+- name: ignite  
+  description: Apache Ignite In-Memory Computing, Database and Caching Platform
+  upstream: https://ignite.apache.org/
+  protected_branches:
+  - master
+  type: public
 - name: hamcrest
   description: Library of matcher objects for building test expressions
   upstream: https://github.com/hamcrest/JavaHamcrest
