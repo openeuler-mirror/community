@@ -31973,6 +31973,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-pycadf
+  upstream: https://github.com/openstack/pycadf
+  description: CADF Python module
+  protected_branches:
+  - master
+  type: public
 - name: python-catkin-sphinx
   upstream: http://www.ros.org/
   description: Sphinx extension for Catkin projects

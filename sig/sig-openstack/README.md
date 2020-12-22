@@ -53,3 +53,11 @@ repository地址：
 - https://gitee.com/src-openeuler/openstack-ironic-inspector
 - https://gitee.com/src-openeuler/openstack-ironic-staging-drivers
 - https://gitee.com/src-openeuler/novnc
+- https://gitee.com/src-openeuler/python-automaton
+- https://gitee.com/src-openeuler/python-cursive
+- https://gitee.com/src-openeuler/python-cliff
+- https://gitee.com/src-openeuler/python-sushy
+- https://gitee.com/src-openeuler/python-barbicanclient
+- https://gitee.com/src-openeuler/python-castellan
+- https://gitee.com/src-openeuler/python-pycadf
+
