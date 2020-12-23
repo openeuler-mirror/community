@@ -55955,3 +55955,21 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-kombu
+  description: Kombu is a messaging library for Python.
+  upstream: https://github.com/celery/kombu
+  protected_branches:
+  - master
+  type: public
+- name: python-yappi
+  description: A Python Profiler
+  upstream: https://github.com/sumerc/yappi
+  protected_branches:
+  - master
+  type: public
+- name: python-gabbi
+  description: A tool for running HTTP tests where requests and responses are represented in a declarative YAML-based form
+  upstream: https://github.com/cdent/gabbi
+  protected_branches:
+  - master
+  type: public
