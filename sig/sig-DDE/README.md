@@ -105,3 +105,11 @@ repository地址：
   - https://gitee.com/src-openeuler/deepin-gir-generator
   - https://gitee.com/src-openeuler/deepin-qml-widgets
   - https://gitee.com/src-openeuler/dde
+  - https://gitee.com/src-openeuler/libgxim
+  - https://gitee.com/src-openeuler/fcitx
+  - https://gitee.com/src-openeuler/fcitx-configtool
+  - https://gitee.com/src-openeuler/fcitx-qt5
+  - https://gitee.com/src-openeuler/fcitx-libpinyin
+  - https://gitee.com/src-openeuler/fcitx-cloudpinyin
+  - https://gitee.com/src-openeuler/fcitx-sunpinyin
+  - https://gitee.com/src-openeuler/sunpinyin

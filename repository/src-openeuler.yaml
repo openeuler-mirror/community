@@ -55943,3 +55943,21 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: fcitx-cloudpinyin
+  description: Cloudpinyin module for fcitx
+  upstream: https://github.com/fcitx/fcitx-cloudpinyin
+  protected_branches:
+  - master
+  type: public
+- name: fcitx-sunpinyin
+  description: Sunpinyin Wrapper for Fcitx
+  upstream: https://github.com/fcitx/fcitx-sunpinyin
+  protected_branches:
+  - master
+  type: public
+- name: sunpinyin
+  description: A statistical language model based Chinese input method engine
+  upstream: https://github.com/sunpinyin/sunpinyin
+  protected_branches:
+  - master
+  type: public
