@@ -3756,6 +3756,7 @@ repositories:
   protected_branches:
   - master
   - openEuler-20.09
+  - openEuler-20.03-LTS-Next
   type: public
 - name: digest-list-tools
   description: IMA digest list extension userspace tools
@@ -3763,6 +3764,7 @@ repositories:
   protected_branches:
   - master
   - openEuler-20.09
+  - openEuler-20.03-LTS-Next
   type: public
 - name: pesign-obs-integration
   description: Macros and scripts to sign the kernel and bootloader
@@ -3770,6 +3772,7 @@ repositories:
   protected_branches:
   - master
   - openEuler-20.09
+  - openEuler-20.03-LTS-Next
   type: public
 - name: tss2
   description: IBM's TCG Software Stack (TSS) for TPM 2.0 and related utilities
@@ -3777,6 +3780,7 @@ repositories:
   protected_branches:
   - master
   - openEuler-20.09
+  - openEuler-20.03-LTS-Next
   type: public
 - name: ding-libs
   description: ''
