@@ -55973,3 +55973,99 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-importlib-resources
+  description: Read resources from Python packages
+  upstream: https://pypi.org/project/importlib-resources
+  protected_branches: 
+  - master
+  type: public
+- name: python-flufl.bounce
+  description: Email bounce detectors.
+  upstream: https://pypi.org/project/flufl.bounce
+  protected_branches: 
+  - master
+  type: public
+- name: python-falcon
+  description: An unladen web framework for building APIs and app backends.
+  upstream: https://github.com/falconry/falcon
+  protected_branches: 
+  - master
+  type: public
+- name: python-python-editor
+  description: Programmatically open an editor, capture the result.
+  upstream: https://github.com/fmoo/python-editor
+  protected_branches: 
+  - master
+  type: public
+- name: python-zope-deferredimport
+  description: zope.deferredimport allows you to perform imports names that will only be resolved when used in the code.
+  upstream: https://github.com/zopefoundation/zope.deferredimport
+  protected_branches: 
+  - master
+  type: public
+- name: python-authres
+  description: authres - Authentication Results Header Module
+  upstream: https://pypi.org/project/authres
+  protected_branches: 
+  - master
+  type: public
+- name: python-dkimpy
+  description: DKIM (DomainKeys Identified Mail), ARC (Authenticated Receive Chain), and TLSRPT (TLS Report) email signing and verification
+  upstream: https://pypi.org/project/dkimpy
+  protected_branches: 
+  - master
+  type: public
+- name: python-authheaders
+  description: A library wrapping email authentication header verification and generation.
+  upstream: https://github.com/ValiMail/authentication-headers
+  protected_branches: 
+  - master
+  type: public
+- name: python-zope-proxy
+  description: Generic Transparent Proxies
+  upstream: https://github.com/zopefoundation/zope.proxy
+  protected_branches: 
+  - master
+  type: public
+- name: python-zope-hookable
+  description: Zope hookable
+  upstream: https://github.com/zopefoundation/zope.hookable
+  protected_branches: 
+  - master
+  type: public
+- name: python-zope-configuration
+  description: Zope Configuration Markup Language (ZCML)
+  upstream: https://github.com/zopefoundation/zope.configuration
+  protected_branches: 
+  - master
+  type: public
+- name: python-zope-schema
+  description: zope.interface extension for defining data schemas
+  upstream: https://github.com/zopefoundation/zope.schema
+  protected_branches: 
+  - master
+  type: public
+- name: python-zope-component
+  description: Zope Component Architecture
+  upstream: https://github.com/zopefoundation/zope.component
+  protected_branches: 
+  - master
+  type: public
+- name: python-gunicorn
+  description: WSGI HTTP Server for UNIX
+  upstream: https://pypi.org/project/gunicorn
+  protected_branches: 
+  - master
+  type: public
+- name: python-publicsuffix2
+  description: Get a public suffix for a domain name using the Public Suffix List. Forked from and using the same API as the publicsuffix package.
+  upstream: https://github.com/nexb/python-publicsuffix2
+  protected_branches: 
+  - master
+  type: public
+- name: python-zope-deprecation
+  description: Zope Deprecation Infrastructure
+  upstream: https://github.com/zopefoundation/zope.deprecation
+  protected_branches: 
+  - master
+  type: public
