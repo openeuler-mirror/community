@@ -55912,6 +55912,24 @@ repositories:
   protected_branches:
     - master
   type: public
+- name: python-debtcollector
+  description: A collection of Python deprecation patterns and strategies that help you collect your technical debt in a non-destructive manner
+  upstream: https://opendev.org/openstack/debtcollector
+  protected_branches:
+    - master
+  type: public
+- name: python-hacking
+  description: hacking is a set of flake8 plugins that test and enforce the OpenStack StyleGuide
+  upstream: https://github.com/openstack/hacking
+  protected_branches:
+    - master
+  type: public
+- name: python-iniconfig
+  description: brain-dead simple parsing of ini files
+  upstream:  https://github.com/RonnyPfannschmidt/iniconfig
+  protected_branches:
+    - master
+  type: public
 - name: python-barbicanclient
   description: A client for the Barbican Key Management API
   upstream: https://github.com/openstack/python-barbicanclient
