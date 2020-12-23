@@ -43,8 +43,7 @@ https://gitee.com/openeuler/community/tree/master/sig/sig-RaspberryPi/
 - woqidaideshi
 
 ### Committers
-- jianminw
-- woqidaideshi
+- zhouwjfi
 
 ### 邮件列表
 - dev@openeuler.org

@@ -41,8 +41,7 @@ The openEuler RaspberryPi SIG aims at migrating openEuler to Raspberry Pi, in or
 - woqidaideshi
 
 ### Committers
-- jianminw
-- woqidaideshi
+- zhouwjfi
 
 ### Mailing list
 - dev@openeuler.org
