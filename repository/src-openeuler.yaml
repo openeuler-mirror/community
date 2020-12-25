@@ -1910,12 +1910,6 @@ repositories:
   - openEuler-20.09
   - openEuler-20.03-LTS
   type: public
-- name: build
-  description: ''
-  protected_branches:
-  - master
-  - openEuler-20.09
-  type: private
 - name: buildroot
   description: Buildroot is a simple, efficient and easy-to-use tool to generate embedded Linux systems through cross-compilation.
   upstream: https://buildroot.org

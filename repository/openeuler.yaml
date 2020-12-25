@@ -547,4 +547,8 @@ repositories:
   protected_branches:
   - master
   type: public
-
+- name: openeuler-os-build
+  description: "A tool for build openeuler os"
+  protected_branches:
+  - master
+  type: public

@@ -3606,7 +3606,6 @@ sigs:
   - src-openeuler/baobab
   - src-openeuler/bcm283x-firmware
   - src-openeuler/blosc
-  - src-openeuler/build
   - src-openeuler/bytelist
   - src-openeuler/cfitsio
   - src-openeuler/checkstyle
@@ -7352,6 +7351,7 @@ sigs:
   - openeuler/ci-bot
   - openeuler/openeuler-jenkins
   - openeuler/openeuler-obs
+  - openeuler/openeuler-os-build
 - name: sig-OKD
   repositories:
   - src-openeuler/moosefs
