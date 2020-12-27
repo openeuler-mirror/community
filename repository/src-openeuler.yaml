@@ -10690,6 +10690,12 @@ repositories:
   - openEuler-20.09
   - openEuler-20.03-LTS
   type: public
+- name: kubekey
+  description: "The Next-gen Installer: Installing Kubernetes and KubeSphere v3.0.0 fastly, flexibly and easily"
+  upstream: https://github.com/kubesphere/kubekey
+  protected_branches:
+  - master
+  type: public
 - name: kurdit-unikurd-web-fonts
   description: ''
   protected_branches:
