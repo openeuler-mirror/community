@@ -18,11 +18,13 @@
 
 - 王建民[@jianminw](https://gitee.com/jianminw)
 - 方亚芬[@woqidaideshi](https://gitee.com/woqidaideshi)
+- 周文剑[@zhouwjfi](https://gitee.com/zhouwjfi)
 
 ### Committer 列表
 
 - 王建民[@jianminw](https://gitee.com/jianminw)
 - 方亚芬[@woqidaideshi](https://gitee.com/woqidaideshi)
+- 周文剑[@zhouwjfi](https://gitee.com/zhouwjfi)
 
 # 联系方式
 
@@ -38,8 +40,9 @@ repository 地址：
 
 - https://gitee.com/openeuler/raspberrypi
 - https://gitee.com/openeuler/raspberrypi-kernel
+- https://gitee.com/openeuler/raspberrypi-build
+- https://gitee.com/openeuler/rockchip-kernel
 - https://gitee.com/src-openeuler/raspberrypi-kernel
 - https://gitee.com/src-openeuler/raspberrypi-firmware
 - https://gitee.com/src-openeuler/raspberrypi-build
 - https://gitee.com/src-openeuler/raspberrypi-bluetooth
-- https://gitee.com/openeuler/raspberrypi-build
