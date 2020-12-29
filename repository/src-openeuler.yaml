@@ -55872,6 +55872,24 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-pydot
+  description: pydot is an interface to Graphviz,can parse and dump into the DOT language used by GraphViz
+  upstream: https://github.com/pydot/pydot
+  protected_branches:
+    - master
+  type: public
+- name: python-ifaddr
+  description: ifaddr is a small Python library that allows you to find all the Ethernet and IP addresses of the computer
+  upstream: https://github.com/pydron/ifaddr
+  protected_branches:
+    - master
+  type: public
+- name: python-setproctitle
+  description: setproctitle allows a process to change its title (as displayed by system tools such as ps and top)
+  upstream: https://github.com/dvarrazzo/py-setproctitle
+  protected_branches:
+    - master
+  type: public
 - name: openresty-openssl111
   description:      OpenSSL library for OpenResty
   upstream: https://www.openssl.org/
