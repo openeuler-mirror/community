@@ -34896,6 +34896,12 @@ repositories:
   - openEuler-20.09
   - openEuler-20.03-LTS
   type: public
+- name: python-keystonemiddleware
+  description: OpenStack Identity (Keystone) Middleware
+  upstream: https://github.com/openstack/keystonemiddleware
+  protected_branches:
+  - master
+  type: public
 - name: python-kickstart
   upstream: https://github.com/rlayte/kickstart
   description: Framework agnostic setup script
