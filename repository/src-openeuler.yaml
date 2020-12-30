@@ -56114,3 +56114,15 @@ repositories:
   - master
   - openEuler-20.09
   type: public
+- name: google-noto-fonts
+  description: Hinted and Non Hinted OpenType fonts for Unicode scripts
+  upstream: https://github.com/googlei18n/noto-fonts/
+  protected_branches: 
+  - master
+  type: public
+- name: chromium
+  description: A WebKit (Blink) powered web browser
+  upstream: https://github.com/chromium/chromium
+  protected_branches: 
+  - master
+  type: public
