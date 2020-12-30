@@ -47276,6 +47276,12 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: memcached_exporter
+  description: Exports metrics from memcached servers for consumption by Prometheus.
+  upstream: https://github.com/prometheus/memcached_exporter
+  protected_branches:
+  - master
+  type: public
 - name: kubevirt
   description: 'an open source project that makes it possible to run virtual machines in a Kubernetes managed container platform'
   upstream: https://kubevirt.io/
