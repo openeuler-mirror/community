@@ -6771,12 +6771,6 @@ repositories:
   - openEuler-20.03-LTS-Next
   - openEuler-20.09
   type: private
-- name: google-roboto-slab-fonts
-  description: ''
-  protected_branches:
-  - master
-  - openEuler-20.09
-  type: private
 - name: gpars
   description: Groovy Parallel Systems
   upstream: https://github.com/GPars/GPars
@@ -56112,4 +56106,11 @@ repositories:
   upstream: https://github.com/zopefoundation/zope.deprecation
   protected_branches: 
   - master
+  type: public
+- name: google-roboto-slab-fonts
+  description: Roboto Slab Font Project by Google
+  upstream: https://github.com/googlefonts/robotoslab
+  protected_branches: 
+  - master
+  - openEuler-20.09
   type: public
