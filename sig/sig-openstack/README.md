@@ -57,6 +57,10 @@ repository地址：
 - https://gitee.com/src-openeuler/python-cursive
 - https://gitee.com/src-openeuler/python-cliff
 - https://gitee.com/src-openeuler/python-debtcollector
+- https://gitee.com/src-openeuler/python-osprofiler
+- https://gitee.com/src-openeuler/python-os-testr
+- https://gitee.com/src-openeuler/python-reno
+- https://gitee.com/src-openeuler/python-sqlalchemy-migrate
 - https://gitee.com/src-openeuler/python-hacking
 - https://gitee.com/src-openeuler/python-sushy
 - https://gitee.com/src-openeuler/python-barbicanclient

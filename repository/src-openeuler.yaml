@@ -56034,6 +56034,30 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-osprofiler
+  description: OSProfiler provides a tiny but powerful library that is used by most (soon to be all) OpenStack projects and their python clients
+  upstream: https://opendev.org/openstack/osprofiler
+  protected_branches:
+  - master
+  type: public
+- name: python-sqlalchemy-migrate
+  description: Migrate provides a way to deal with database schema changes in SQLAlchemy projects.
+  upstream: https://opendev.org/x/sqlalchemy-migrate
+  protected_branches:
+  - master
+  type: public
+- name: python-os-testr
+  description:  A testr wrapper to provide functionality for OpenStack projects.
+  upstream: https://opendev.org/openstack/os-testr
+  protected_branches:
+  - master
+  type: public
+- name: python-reno
+  description: Reno is a release notes manager designed with high throughput in mind, supporting fast distributed development teams without introducing additional development processes
+  upstream:  https://opendev.org/openstack/reno/
+  protected_branches:
+  - master
+  type: public
 - name: python-cmd2
   description: A tool for building interactive command line apps
   upstream: https://github.com/python-cmd2/cmd2
