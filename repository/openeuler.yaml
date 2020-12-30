@@ -547,3 +547,8 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: itrustee_sdk
+  description: "Confidential computing framework for developing TA on itrustee OS"
+  protected_branches:
+  - master
+  type: public
