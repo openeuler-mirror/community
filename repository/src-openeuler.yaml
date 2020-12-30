@@ -56123,6 +56123,24 @@ repositories:
 - name: chromium
   description: A WebKit (Blink) powered web browser
   upstream: https://github.com/chromium/chromium
-  protected_branches: 
+  protected_branches:
+  - master
+  type: public 
+- name: python-routes
+  description: Routes is a Python re-implementation of the Rails routes system for mapping URL's to Controllers/Actions and generating URL's.
+  upstream: https://github.com/bbangert/routes
+  protected_branches:
+  - master
+  type: public
+- name: python-wsme
+  description: Web Service Made Easy
+  upstream: https://opendev.org/x/wsme
+  protected_branches:
+  - master
+  type: public
+- name: python-pysendfile
+  description: A system call which provides a "zero-copy" way of copying data from one file descriptor to another (a socket).
+  upstream: https://github.com/giampaolo/pysendfile
+  protected_branches:
   - master
   type: public
