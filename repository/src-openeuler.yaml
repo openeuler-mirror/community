@@ -36057,6 +36057,36 @@ repositories:
   - master
   - openEuler-20.09
   type: public
+- name: python-oslo.cache
+  upstream: https://github.com/openstack/oslo.cache
+  description: An oslo.config enabled dogpile.cache
+  protected_branches:
+  - master
+  type: public
+- name: python-oslo.concurrency
+  upstream: https://github.com/openstack/oslo.concurrency
+  description: OpenStack library for all concurrency-related code
+  protected_branches:
+  - master
+  type: public
+- name: python-oslo.config
+  upstream: https://github.com/openstack/oslo.config
+  description: OpenStack library for config
+  protected_branches:
+  - master
+  type: public
+- name: python-oslo.context
+  upstream: https://github.com/openstack/oslo.config
+  description: OpenStack Context library
+  protected_branches:
+  - master
+  type: public
+- name: python-oslo.db
+  upstream: https://github.com/openstack/oslo.db
+  description: OpenStack Common DB Code
+  protected_branches:
+  - master
+  type: public
 - name: python-oslo.i18n
   upstream: https://docs.openstack.org/oslo.i18n/latest
   description: Oslo i18n library
@@ -36064,12 +36094,90 @@ repositories:
   - master
   - openEuler-20.09
   type: public
+- name: python-oslo.log
+  upstream: https://github.com/openstack/oslo.log
+  description: OpenStack Logging library
+  protected_branches:
+  - master
+  type: public
+- name: python-oslo.messaging
+  upstream: https://github.com/openstack/oslo.messaging
+  description: OpenStack library for messaging
+  protected_branches:
+  - master
+  type: public
+- name: python-oslo.middleware
+  upstream: https://github.com/openstack/oslo.middleware
+  description: OpenStack library for middleware
+  protected_branches:
+  - master
+  type: public
+- name: python-oslo.policy
+  upstream: https://github.com/openstack/oslo.policy
+  description: Rules engine to enforce access control policy
+  protected_branches:
+  - master
+  type: public
+- name: python-oslo.privsep
+  upstream: https://github.com/openstack/oslo.privsep
+  description: OpenStack library for privilege separation
+  protected_branches:
+  - master
+  type: public
+- name: python-oslo.reports
+  upstream: https://github.com/openstack/oslo.reports
+  description: OpenStack library for creating Guru Meditation Reports and other
+    reports.
+  protected_branches:
+  - master
+  type: public
+- name: python-oslo.rootwrap
+  upstream: https://github.com/openstack/oslo.rootwrap
+  description: OpenStack library for rootwrap
+  protected_branches:
+  - master
+  type: public
+- name: python-oslo.serialization
+  upstream: https://github.com/openstack/oslo.serialization
+  description: OpenStack library for serialization
+  protected_branches:
+  - master
+  type: public
+- name: python-oslo.service
+  upstream: https://github.com/openstack/oslo.service
+  description: Library for running OpenStack services
+  protected_branches:
+  - master
+  type: public
+- name: python-oslo.upgradecheck
+  upstream: https://github.com/openstack/oslo.upgradecheck
+  description: Common code for writing OpenStack upgrade checks
+  protected_branches:
+  - master
+  type: public
+- name: python-oslo.utils
+  upstream: https://github.com/openstack/oslo.utils
+  description: OpenStack library utils
+  protected_branches:
+  - master
+  type: public
+- name: python-oslo.versionedobjects
+  upstream: https://github.com/openstack/oslo.versionedobjects
+  description: OpenStack versioned objects library
+  protected_branches:
+  - master
+  type: public
+- name: python-oslo.vmware
+  upstream: https://github.com/openstack/oslo.vmware
+  description: Oslo VMware library for OpenStack projects
+  protected_branches:
+  - master
+  type: public
 - name: python-oslo.sphinx
   upstream: http://www.openstack.org/
   description: OpenStack Sphinx Extensions
   protected_branches:
   - master
-  - openEuler-20.09
   type: public
 - name: python-oslotest
   upstream: https://docs.openstack.org/oslotest/latest/

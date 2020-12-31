@@ -7332,6 +7332,24 @@ sigs:
   - src-openeuler/python-wsme
   - src-openeuler/python-taskflow
   - src-openeuler/python-tooz
+  - src-openeuler/python-oslo.cache
+  - src-openeuler/python-oslo.concurrency
+  - src-openeuler/python-oslo.config
+  - src-openeuler/python-oslo.context
+  - src-openeuler/python-oslo.db
+  - src-openeuler/python-oslo.log
+  - src-openeuler/python-oslo.messaging
+  - src-openeuler/python-oslo.middleware
+  - src-openeuler/python-oslo.policy
+  - src-openeuler/python-oslo.privsep
+  - src-openeuler/python-oslo.reports
+  - src-openeuler/python-oslo.rootwrap
+  - src-openeuler/python-oslo.serialization
+  - src-openeuler/python-oslo.service
+  - src-openeuler/python-oslo.upgradecheck
+  - src-openeuler/python-oslo.utils
+  - src-openeuler/python-oslo.versionedobjects
+  - src-openeuler/python-oslo.vmware
 - name: sig-wine
   repositories:
   - src-openeuler/wine
