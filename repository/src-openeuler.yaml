@@ -56282,3 +56282,33 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-ovsdbapp
+  description: A library for creating OVSDB application.
+  upstream: https://github.com/openstack/ovsdbapp
+  protected_branches:
+  - master
+  type: public
+- name: python-requests-mock
+  description: Mocked responses for the requests library.
+  upstream: https://github.com/jamielennox/requests-mock
+  protected_branches:
+  - master
+  type: public
+- name: python-seqdiag
+  description: seqdiag generate sequence-diagram image file from spec-text file.
+  upstream: https://github.com/blockdiag/seqdiag
+  protected_branches:
+  - master
+  type: public
+- name: python-sphinxcontrib-actdiag
+  description: A sphinx extension for embedding activity diagram using actdiag.
+  upstream: https://github.com/blockdiag/sphinxcontrib-actdiag
+  protected_branches:
+  - master
+  type: public
+- name: python-sphinxcontrib-seqdiag
+  description: A sphinx extension for embedding sequence diagram using seqdiag.
+  upstream: https://github.com/blockdiag/sphinxcontrib-seqdiag
+  protected_branches:
+  - master
+  type: public
