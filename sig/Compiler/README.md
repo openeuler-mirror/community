@@ -1,18 +1,14 @@
 ## Compiler SIG
- - devoted to traditional compilers like gcc/llvm/OpenJDK/...
- - motivated to program optimization
+ - Devoted to traditional compilers like gcc/llvm/OpenJDK/...
+ - Motivated to program optimization
 
 ## Weekly Meeting
 
-Tuesday 10 am every week.
-
-## Members
+Tuesday 10 am bi-weekly.
 
 ### Maintainers
  - 郭 歌[@jdkboy](https://gitee.com/jdkboy) email: guoge1@huawei.com
  - 章 海剑[@Haijian.Zhang](https://gitee.com/haijianzhang) email: z.zhanghaijian@huawei.com
-
-### Committers
  - 贺 东博[@Noah](https://gitee.com/jvmboy) email: hedongbo@huawei.com
  - 谢 志恒[@eastb233](https://gitee.com/eastb233) email: xiezhiheng@huawei.com
  - 王 亚东[@wangyadong](https://gitee.com/yd_wang) email: yadonn.wang@huawei.com
