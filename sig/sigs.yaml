@@ -6842,6 +6842,7 @@ sigs:
   - src-openeuler/python-selectors2
   - src-openeuler/python-semver
   - src-openeuler/python-Send2Trash
+  - src-openeuler/python-seqdiag
   - src-openeuler/python-serpy
   - src-openeuler/python-setuptools_hg
   - src-openeuler/python-setproctitle
@@ -6883,6 +6884,7 @@ sigs:
   - src-openeuler/python-sphinx-gallery
   - src-openeuler/python-sphinx-intl
   - src-openeuler/python-sphinx-notfound-page
+  - src-openeuler/python-sphinxcontrib-actdiag
   - src-openeuler/python-sphinxcontrib-applehelp
   - src-openeuler/python-sphinxcontrib-blockdiag
   - src-openeuler/python-sphinxcontrib-devhelp
@@ -6891,6 +6893,7 @@ sigs:
   - src-openeuler/python-sphinxcontrib-issuetracker
   - src-openeuler/python-sphinxcontrib-jsmath
   - src-openeuler/python-sphinxcontrib-qthelp
+  - src-openeuler/python-sphinxcontrib-seqdiag
   - src-openeuler/python-sphinxcontrib-serializinghtml
   - src-openeuler/python-sphinxtesters
   - src-openeuler/python-sphobjinv
@@ -7350,6 +7353,8 @@ sigs:
   - src-openeuler/python-oslo.utils
   - src-openeuler/python-oslo.versionedobjects
   - src-openeuler/python-oslo.vmware
+  - src-openeuler/python-ovsdbapp
+  - src-openeuler/python-requests-mock
 - name: sig-wine
   repositories:
   - src-openeuler/wine
