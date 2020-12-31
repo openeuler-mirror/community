@@ -56150,3 +56150,27 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-taskflow
+  description: A library to complete workflows/tasks in HA manner.
+  upstream: https://github.com/openstack/taskflow
+  protected_branches:
+  - master
+  type: public
+- name: python-tooz
+  description: Coordination library for distributed systems.
+  upstream: https://github.com/openstack/tooz
+  protected_branches:
+  - master
+  type: public
+- name: python-wsgi-intercept
+  description: wsgi_intercept installs a WSGI application in place of a real URI for testing.
+  upstream: https://github.com/cdent/wsgi-intercept
+  protected_branches:
+  - master
+  type: public
+- name: python-xmod
+  description: Extend a module with any Python object.
+  upstream: https://github.com/rec/xmod
+  protected_branches:
+  - master
+  type: public
