@@ -56004,6 +56004,18 @@ repositories:
   protected_branches:
     - master
   type: public
+- name: python-pallets-sphinx-themes
+  description: Sphinx themes for Pallets and related projects
+  upstream: https://github.com/pallets/pallets-sphinx-themes
+  protected_branches:
+    - master
+  type: public
+- name: python-pint
+  description: Pint is a Python package to define, operate and manipulate physical quantities
+  upstream: https://github.com/hgrecco/pint
+  protected_branches:
+    - master
+  type: public
 - name: openresty-openssl111
   description:      OpenSSL library for OpenResty
   upstream: https://www.openssl.org/
