@@ -56354,3 +56354,21 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-os-traits
+  description: os-traits is an OpenStack library containing standardized trait strings.
+  upstream: https://opendev.org/openstack/os-traits
+  protected_branches:
+  - master
+  type: public
+- name: python-os-vif
+  description: A library for plugging and unplugging virtual interfaces in OpenStack.
+  upstream: https://opendev.org/openstack/os-vif
+  protected_branches:
+  - master
+  type: public
+- name: python-os-win
+  description: This library contains Windows / Hyper-V specific code commonly used in OpenStack projects.
+  upstream: https://opendev.org/openstack/os-win
+  protected_branches:
+  - master
+  type: public
