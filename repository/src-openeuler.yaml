@@ -38876,6 +38876,12 @@ repositories:
   - master
   - openEuler-20.09
   type: public
+- name: python-sphinx-issues
+  upstream: https://github.com/sloria/sphinx-issues
+  description: A Sphinx extension for linking to your project's issue tracker
+  protected_branches:
+  - master
+  type: public
 - name: python-sphinx-notfound-page
   upstream: https://github.com/rtfd/sphinx-notfound-page
   description: Sphinx extension to build a 404 page with absolute URLs
@@ -38901,6 +38907,12 @@ repositories:
   - openEuler-20.09
   - openEuler-20.03-LTS
   type: public
+- name: python-sphinxcontrib-apidoc
+  upstream: https://github.com/sphinx-contrib/apidoc
+  description: A Sphinx extension for running sphinx-apidoc on each build
+  protected_branches:
+  - master
+  type: public
 - name: python-sphinxcontrib-bibtex
   description: Sphinx extension for BibTeX style citations.
   protected_branches:
@@ -38921,12 +38933,24 @@ repositories:
   - master
   - openEuler-20.09
   type: public
+- name: python-sphinxcontrib-httpdomain
+  upstream: https://github.com/sphinx-contrib/httpdomain
+  description: Documenting RESTful HTTP APIs
+  protected_branches:
+  - master
+  type: public
 - name: python-sphinxcontrib-issuetracker
   upstream: http://sphinxcontrib-issuetracker.readthedocs.org/
   description: Sphinx integration with different issuetrackers
   protected_branches:
   - master
   - openEuler-20.09
+  type: public
+- name: python-sphinxcontrib-pecanwsme
+  upstream: https://github.com/sphinx-contrib/pecanwsme
+  description: Extension to Sphinx for documenting APIs built with Pecan and WSME
+  protected_branches:
+  - master
   type: public
 - name: python-sphinxcontrib-spelling
   description: ''
@@ -38936,6 +38960,12 @@ repositories:
   - openEuler-20.03-LTS-Next
   - openEuler-20.09
   - openEuler-20.03-LTS
+  type: public
+- name: python-sphinxcontrib-svg2pdfconverter
+  upstream: https://github.com/missinglinkelectronics/sphinxcontrib-svg2pdfconverter
+  description: Sphinx SVG to PDF converter extension
+  protected_branches:
+  - master
   type: public
 - name: python-sphinxcontrib-websupport
   description: ''
