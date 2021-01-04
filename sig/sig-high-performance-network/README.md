@@ -18,7 +18,11 @@
   3. 开发openEuler高性能网络服务，包括通用用户态协议栈、高性能LVS等。
   4. 跟踪热点技术相关的应用发展，包括的方向有：XDP改造内核网络基础设施、XDP改造容器/虚拟化网络、DPDK性能优化等几个方向。
 
+# 愿景
 
+请[查看](./Vision.md)
+
+Please [readme](./Vision-en.md)
 
 # 组织会议
 
@@ -51,7 +55,7 @@
 - 视频会议
 - 微信  
  ![wechat_QR](./sig-wechat-qr.jpg)
-  
+
 
 
 # 项目清单
