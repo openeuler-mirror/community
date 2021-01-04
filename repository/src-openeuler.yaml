@@ -2262,6 +2262,60 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: perception_pcl
+  description: PCL (Point Cloud Library) ROS interface stack. PCL-ROS is the preferred bridge for 3D applications involving n-D Point Clouds and 3D geometry processing in ROS.
+  upstream: https://github.com/ros-perception/perception_pcl
+  protected_branches:
+  - master
+  type: public
+- name: image_common
+  description: Common code for working with images in ROS.
+  upstream: https://github.com/ros-perception/image_common
+  protected_branches:
+  - master
+  type: public
+- name: kdl_parser
+  description: This contains packages for converting from URDF to a representation in KDL.
+  upstream: https://github.com/ros/kdl_parser
+  protected_branches:
+  - master
+  type: public
+- name: diagnostics
+  description: The diagnostics system is designed to collect information from hardware drivers and robot hardware to users and operators for analysis.
+  upstream: https://github.com/ros/diagnostics
+  protected_branches:
+  - master
+  type: public
+- name: navigation
+  description: A 2D navigation stack that takes in information from odometry, sensor streams, and a goal pose and outputs safe velocity commands that are sent to a mobile base.
+  upstream: https://github.com/ros-planning/navigation
+  protected_branches:
+  - master
+  type: public
+- name: console_bridge
+  description: console_bridge is a ROS-independent.
+  upstream: https://github.com/ros/console_bridge
+  protected_branches:
+  - master
+  type: public
+- name: poco
+  description: poco is a ROS-independent, C++ Libraries.
+  upstream: https://github.com/pocoproject/poco
+  protected_branches:
+  - master
+  type: public
+- name: stage
+  description: Mobile robot simulator.
+  upstream: https://github.com/rtv/Stage
+  protected_branches:
+  - master
+  type: public
+- name: stage_ros
+  description: This package provides ROS specific hooks for stage.
+  upstream: https://github.com/ros-simulation/stage_ros
+  protected_branches:
+  - master
+  type: public
 - name: ros_comm
   description: ros_comm package that belongs to THE ROS-COMM
   upstream: https://github.com/ros/ros_comm

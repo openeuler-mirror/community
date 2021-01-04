@@ -85,5 +85,14 @@ repository地址：
 - https://gitee.com/src-openeuler/pcl_msgs
 - https://gitee.com/src-openeuler/python_qt_binding
 - https://gitee.com/src-openeuler/robot_state_publisher 
+- https://gitee.com/src-openeuler/perception_pcl
+- https://gitee.com/src-openeuler/image_common
+- https://gitee.com/src-openeuler/kdl_parser
+- https://gitee.com/src-openeuler/diagnostics
+- https://gitee.com/src-openeuler/navigation
+- https://gitee.com/src-openeuler/console_bridge
+- https://gitee.com/src-openeuler/poco
+- https://gitee.com/src-openeuler/stage
+- https://gitee.com/src-openeuler/stage_ros
 
 
