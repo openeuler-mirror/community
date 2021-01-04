@@ -56336,3 +56336,21 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-dracclient
+  description: Library for managing machines with Dell iDRAC cards.
+  upstream: https://github.com/openstack/python-dracclient
+  protected_branches:
+  - master
+  type: public
+- name: python-proliantutils
+  description: Utility library for managing HP Proliant servers.
+  upstream: https://opendev.org/x/proliantutils
+  protected_branches:
+  - master
+  type: public
+- name: python-scciclient
+  description: Python ServerView Common Command Interface (SCCI) Client Library
+  upstream: https://opendev.org/x/python-scciclient
+  protected_branches:
+  - master
+  type: public
