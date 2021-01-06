@@ -56372,3 +56372,21 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-os-brick
+  description: OpenStack Cinder brick library for managing local volume attaches.
+  upstream: https://opendev.org/openstack/os-brick
+  protected_branches:
+  - master
+  type: public
+- name: python-os-resource-classes
+  description: A library containing standardized resource class names in the Placement service.
+  upstream: https://opendev.org/openstack/os-resource-classes
+  protected_branches:
+  - master
+  type: public
+- name: python-tempest
+  description: OpenStack Testing (Tempest) of an existing cloud.
+  upstream: https://opendev.org/openstack/tempest
+  protected_branches:
+  - master
+  type: public
