@@ -81,6 +81,16 @@ repository地址：
 - https://gitee.com/src-openeuler/python-oslo.rootwrap
 - https://gitee.com/src-openeuler/python-oslo.serialization
 - https://gitee.com/src-openeuler/python-oslo.service
+- https://gitee.com/src-openeuler/python-keystoneauth1
+- https://gitee.com/src-openeuler/python-keystoneclient
+- https://gitee.com/src-openeuler/python-cinderclient
+- https://gitee.com/src-openeuler/python-designateclient
+- https://gitee.com/src-openeuler/python-glanceclient
+- https://gitee.com/src-openeuler/python-ironicclient
+- https://gitee.com/src-openeuler/python-novaclient
+- https://gitee.com/src-openeuler/python-neutronclient
+- https://gitee.com/src-openeuler/python-openstacksdk
+- https://gitee.com/src-openeuler/python-osc-lib
 - https://gitee.com/src-openeuler/python-oslo.upgradecheck
 - https://gitee.com/src-openeuler/python-oslo.utils
 - https://gitee.com/src-openeuler/python-oslo.versionedobjects

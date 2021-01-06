@@ -6376,7 +6376,6 @@ sigs:
   - src-openeuler/python-gitlab
   - src-openeuler/python-GitPython
   - src-openeuler/python-glad
-  - src-openeuler/python-glanceclient
   - src-openeuler/python-glances_api
   - src-openeuler/python-glob2
   - src-openeuler/python-gntp
@@ -7351,7 +7350,17 @@ sigs:
   - src-openeuler/python-castellan
   - src-openeuler/openstack-macros
   - src-openeuler/python-pycadf
+  - src-openeuler/python-cinderclient
+  - src-openeuler/python-designateclient
+  - src-openeuler/python-glanceclient
+  - src-openeuler/python-ironicclient
+  - src-openeuler/python-neutronclient
+  - src-openeuler/python-novaclient
   - src-openeuler/python-keystonemiddleware
+  - src-openeuler/python-keystoneauth1
+  - src-openeuler/python-keystoneclient
+  - src-openeuler/python-osc-lib
+  - src-openeuler/python-openstacksdk
   - src-openeuler/python-wsme
   - src-openeuler/python-taskflow
   - src-openeuler/python-tooz
