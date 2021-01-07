@@ -36129,6 +36129,60 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-keystoneauth1
+  upstream: https://opendev.org/openstack/keystoneauth
+  description: Authentication library for openstack identity
+  protected_branches:
+  - master
+  type: public
+- name: python-keystoneclient
+  upstream: https://opendev.org/openstack/python-keystoneclient
+  description: Python bindings to the OpenStack Identity API (Keystone)
+  protected_branches:
+  - master
+  type: public
+- name: python-cinderclient
+  upstream: https://opendev.org/openstack/python-cinderclient
+  description: Openstack block storage api client library
+  protected_branches:
+  - master
+  type: public
+- name: python-designateclient
+  upstream: https://opendev.org/openstack/python-designateclient
+  description: OpenStack DNS-as-a-Service Client
+  protected_branches:
+  - master
+  type: public
+- name: python-ironicclient
+  upstream: https://opendev.org/openstack/python-ironicclient
+  description: Openstack baremetal provisioning api client library
+  protected_branches:
+  - master
+  type: public
+- name: python-neutronclient
+  upstream: https://opendev.org/openstack/python-neutronclient
+  description: Cli and client library for openstack networking
+  protected_branches:
+  - master
+  type: public
+- name: python-novaclient
+  upstream: https://opendev.org/openstack/python-novaclient
+  description: Client library for openstack compute api
+  protected_branches:
+  - master
+  type: public
+- name: python-openstacksdk
+  upstream:  https://opendev.org/openstack/openstacksdk
+  description: An SDK for building applications to work with OpenStack
+  protected_branches:
+  - master
+  type: public
+- name: python-osc-lib
+  upstream: https://opendev.org/openstack/osc-lib
+  description: OpenStackClient Library
+  protected_branches:
+  - master
+  type: public
 - name: python-oslo.context
   upstream: https://github.com/openstack/oslo.config
   description: OpenStack Context library
