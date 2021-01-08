@@ -17,6 +17,7 @@ sig-confidential_computing主要讨论在openEuler社区版本中已有或未来
 ### 该 SIG 管理的 repository 及描述
 - sig-confidential-computing repository地址：
   - https://gitee.com/openeuler/secGear
+  - https://gitee.com/openeuler/itrustee_sdk
   - https://gitee.com/src-openeuler/linux-sgx
   - https://gitee.com/src-openeuler/linux-sgx-driver
   - https://gitee.com/src-openeuler/intel-sgx-ssl
@@ -29,7 +30,7 @@ sig-confidential_computing主要讨论在openEuler社区版本中已有或未来
 
 # 组织会议
 
-- 公开的会议时间：北京时间，每个月第一个周五 上午，10点~11点
+- 公开的会议时间：北京时间，每个月第一、第三周的周二下午，16点~17点
 
 # 成员
 
