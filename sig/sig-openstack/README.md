@@ -87,6 +87,11 @@ repository地址：
 - https://gitee.com/src-openeuler/python-designateclient
 - https://gitee.com/src-openeuler/python-glanceclient
 - https://gitee.com/src-openeuler/python-ironicclient
+- https://gitee.com/src-openeuler/python-microversion-parse
+- https://gitee.com/src-openeuler/python-neutron-lib
+- https://gitee.com/src-openeuler/python-os-client-config
+- https://gitee.com/src-openeuler/python-os-ken
+- https://gitee.com/src-openeuler/python-os-xenapi
 - https://gitee.com/src-openeuler/python-novaclient
 - https://gitee.com/src-openeuler/python-neutronclient
 - https://gitee.com/src-openeuler/python-openstacksdk

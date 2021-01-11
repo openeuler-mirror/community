@@ -55729,6 +55729,36 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: python-microversion-parse
+  description: OpenStack microversion header parser
+  upstream: https://opendev.org/openstack/microversion-parse
+  protected_branches:
+  - master
+  type: public
+- name: python-neutron-lib
+  description: Neutron shared routines and utilities
+  upstream: https://opendev.org/openstack/neutron-lib
+  protected_branches:
+  - master
+  type: public
+- name: python-os-client-config
+  description: OpenStack Client Configuation Library
+  upstream: https://opendev.org/openstack/os-client-config
+  protected_branches:
+  - master
+  type: public
+- name: python-os-ken
+  description: A component-based software defined networking framework for OpenStack.
+  upstream: https://opendev.org/openstack/os-ken
+  protected_branches:
+  - master
+  type: public
+- name: python-os-xenapi
+  description: XenAPI library for OpenStack projects
+  upstream: https://opendev.org/x/os-xenapi
+  protected_branches:
+  - master
+  type: public
 - name: R-rpm-macros
   description: Macros to help produce R packages
   upstream: https://github.com/rpm-software-management/R-rpm-macros
