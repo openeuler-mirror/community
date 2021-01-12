@@ -4188,7 +4188,6 @@ sigs:
   - src-openeuler/caja-extensions
   - src-openeuler/cjkuni-uming-fonts
   - src-openeuler/eom
-  - src-openeuler/fcitx-configtool
   - src-openeuler/gajim
   - src-openeuler/gcolor2
   - src-openeuler/glade3
@@ -7227,11 +7226,7 @@ sigs:
   - src-openeuler/libgnome
 - name: sig-desktop-apps
   repositories:
-  - src-openeuler/libgxim
   - src-openeuler/imsettings
-  - src-openeuler/fcitx
-  - src-openeuler/fcitx-qt5
-  - src-openeuler/fcitx-libpinyin
   - src-openeuler/vnpy
   - src-openeuler/musescore
   - src-openeuler/lilypond
@@ -7296,6 +7291,14 @@ sigs:
   - src-openeuler/deepin-gir-generator
   - src-openeuler/deepin-qml-widgets
   - src-openeuler/dde
+  - src-openeuler/libgxim
+  - src-openeuler/fcitx
+  - src-openeuler/fcitx-configtool
+  - src-openeuler/fcitx-qt5
+  - src-openeuler/fcitx-libpinyin
+  - src-openeuler/fcitx-cloudpinyin
+  - src-openeuler/fcitx-sunpinyin
+  - src-openeuler/sunpinyin
 - name: sig-high-performance-network
   repositories:
   - src-openeuler/dwarves
