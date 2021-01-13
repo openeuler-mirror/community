@@ -16,9 +16,9 @@
     - [秘书处](/zh/secretariat)
     - [安全委员会](/zh/security-committee)
     - [技术委员会](/zh/technical-committee)
-    - [SIG](https://openeuler.org/zh/sig.html)
-- [社区活动](https://openeuler.org/zh/events.html)
-- [开发者贡献指南](https://openeuler.org/zh/developer.html)
+    - [SIG](https://openeuler.org/zh/sig/sig-list/)
+- 社区活动: [直播](https://openeuler.org/zh/interaction/live-list/)&[沙龙](https://openeuler.org/zh/interaction/salon-list/)&[峰会](https://openeuler.org/zh/interaction/summit-list/)
+- [开发者贡献指南](https://openeuler.org/zh/community/contribution/)
 
 
 ## 如何在本代码仓贡献
@@ -33,7 +33,7 @@
     ./repository
     ./sig
 
-### 博客团队管理[openEuler Blog](https://gitee.com/openeuler/blog/)
+### 博客团队管理[openEuler Blog](https://gitee.com/openeuler/website-v2/tree/master/web-ui/docs/zh/blog)
 1. Xing Zhu (@shredstar)，从2020年2月份开始
 2. Perl(@pearl405)，从2020年2月份开始
 3. ZhengyuhangHans(@ZhengyuhangHans)，从2020年2月份开始

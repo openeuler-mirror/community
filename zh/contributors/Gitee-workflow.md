@@ -7,14 +7,14 @@
 
 
 
-### 2、从云上folk代码分支
+### 2、从云上fork代码分支
 
 2. 找到并打开对应的repository的首页
-2. 点击右上角的 `Fork` 按钮，按照指引，建立一个属于**“个人”**的云上folk分支。<img src="figure/Gitee-workflow-fork.JPG" style="zoom:67%;" />
+2. 点击右上角的 `Fork` 按钮，按照指引，建立一个属于**“个人”**的云上fork分支。<img src="figure/Gitee-workflow-fork.JPG" style="zoom:67%;" />
 
 
 
-### 2.把folk分支复制到本地
+### 2.把fork分支复制到本地
 
 请按照以下的复制过程将repository内的代码下载到您的在计算机上。
 
@@ -67,6 +67,8 @@ git config --global user.mail "email@your_Gitee_email"
   ssh -T git@gitee.com
   ```
 
+  如果获得如下“成功”提示，则表示 ssh 公钥已经生效：  
+  `Hi $user_name! You've successfully authenticated, but GITEE.COM does not provide shell access.`
   
 
 4、**复制远程仓库到本地**
@@ -88,18 +90,16 @@ git config --global user.mail "email@your_Gitee_email"
 
   - 在本地电脑执行拷贝命令：
 
-```
-# 把远程仓库复制到本地
-git clone https://gitee.com/openeuler/repository_name
-# or : git clone https://gitee.com/src-openeuler/repository-name
+    ```
+    # 把远程 fork 仓库复制到本地
+    git clone https://gitee.com/$user_name/$repository_name
 
-# 设置本地工作目录的upstream源
-git remote add upsteam https://gitee.com/openeuler/repository-name
+    # 设置本地工作目录的 upstream 源（被 fork 的上游仓库）
+    git remote add upstream https://gitee.com/openeuler/$repository_name
 
-# 设置同步方式，此处
-git remote set-url --push upstream no_push
-```
-
+    # 设置同步方式，此处
+    git remote set-url --push upstream no_push
+    ```
 
 
 ### 3.拉分支
@@ -155,7 +155,7 @@ git commit -m "提交原因"
 
 ### 7、 将变更推送到你的远端目录
 
-准备进行审查（或只是建立工作的异地备份）时，将分支推到你在`gitee.com`的folk:
+准备进行审查（或只是建立工作的异地备份）时，将分支推到你在`gitee.com`的fork分支:
 
 ```
 git push -f origin myfeature

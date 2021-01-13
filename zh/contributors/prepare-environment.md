@@ -34,13 +34,20 @@
 >![](icon/icon-note.gif) **说明：**   
 >openEuler提供了多种repo源文件，本操作以AArch64架构的OS repo源文件、源码repo 源文件和全量repo源文件为例。  
 
-1.  进入到yum源目录。
+1.  配置yum所需的gpg公钥
+
+    ```
+    # cd /etc/pki/rpm-gpg
+    # wget https://repo.openeuler.org/openEuler-20.03-LTS/OS/aarch64/RPM-GPG-KEY-openEuler
+    ```
+
+2.  进入到yum源目录。
 
     ```
     # cd /etc/yum.repos.d
     ```
 
-2.  新建local.repo文件并编辑local.repo，将repo源文件配置为yum源。
+3.  新建local.repo文件并编辑local.repo，将repo源文件配置为yum源。
 
     ```
     # vi local.repo
@@ -56,17 +63,21 @@
 
     enabled=1
 
-    gpgcheck=0
+    gpgcheck=1
+
+    gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-openEuler
 
     \[srclocal\]
 
     name=srclocal
 
-    baseurl=http://repo.openeuler.org/openEuler-20.03-LTS/source/aarch64/
+    baseurl=http://repo.openeuler.org/openEuler-20.03-LTS/source/
 
     enabled=1
 
-    gpgcheck=0
+    gpgcheck=1
+
+    gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-openEuler
 
     \[everythinglocal\]
 
@@ -76,7 +87,9 @@
 
     enabled=1
 
-    gpgcheck=0
+    gpgcheck=1
+
+    gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-openEuler
 
 **方式二：通过挂载ISO的方式配置repo源。**
 
@@ -106,7 +119,7 @@
     9.  <a name="li98171862002"></a>右键单击“openEuler-20.03-LTS-everything-aarch64-dvd.iso”，单击“复制链接地址”，将openEuler全量ISO地址记录好。
     10. 返回到“ISO”，单击“source”。
     11. <a name="li121355504292"></a>右键单击“openEuler-20.03-LTS-source-dvd.iso”，单击“复制链接地址”，将openEuler源码ISO地址记录好。
-    12. 使用**wget**命令远程下载ISO文件到开发环境，命令中的  _ipaddriso\_ basiceverything_  、  _ipaddriso\_everything_  和  _ipaddriso\_source_  分别为[1.h](#li45321952115717)、[1.i](#li98171862002)和[1.k](#li121355504292)中记录的地址。
+    12. 使用**wget**命令远程下载ISO文件到开发环境，命令中的  _ipaddriso\_ basiceverything_  、  _ipaddriso\_everything_  和  _ipaddriso\_source_  分别为[1.8](#li45321952115717)、[1.9](#li98171862002)和[1.11](#li121355504292)中记录的地址。
 
         ```
         # cd /home/basiciso

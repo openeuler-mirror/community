@@ -1,51 +1,49 @@
-# Isulad
 
-*<请在此描述SIG的范围、工作职责和目标，可以直接用sig-template.md内描述的第一个章节>,*
+# iSulad
 
+### 工作目标和范围
 
+- 负责iSulad 轻量级容器引擎社区相关技术决策
+- 负责 iSulad 相关软件包的规划、维护和升级
+- 及时响应iSulad用户反馈，解决相关问题
 
 # 组织会议
 
-- 公开的会议时间：北京时间，每周X 下午，XX点~XX点
-
-*<请在此给出SIG会议的时间>*
-
+- 每双周周二下午4:30-6:00
+- 通过邮件申报议题
 
 
 # 成员
 
-*<请在此给出团队成员的列表>*
 
 ### Maintainer列表
-
-- name[@giteeID](giteeID链接)
-
-
+- lifeng2221dd1[@lifeng2221dd1](https://gitee.com/lifeng2221dd1)
+- caihaomin[@caihaomin](https://gitee.com/caihaomin)
+- duguhaotian[@duguhaotian](https://gitee.com/duguhaotian)
+- jingxiaolu[@jingxiaolu](https://gitee.com/jingxiaolu)
 
 ### Committer列表
-
-- name[@giteeID](giteeID链接)
-
+- lifeng2221dd1[@lifeng2221dd1](https://gitee.com/lifeng2221dd1)
+- caihaomin[@caihaomin](https://gitee.com/caihaomin)
+- duguhaotian[@duguhaotian](https://gitee.com/duguhaotian)
 
 
 # 联系方式
 
-*<如果需要单独申请邮件列表，请在此补充邮箱名称：sig-yousigname@openeuler.org>*
-
-- [邮件列表](Isulad@openeuler.org)
-- [IM](#openuler-dev)
-
-
-
+- 邮件列表: isulad@openeuler.org
 
 
 # 项目清单
 
-*<项目名称和申请表格一致，具体地址可以在申请下来以后在刷新>*
-
 项目名称：
+
+- iSulad
 
 repository地址：
 
-- 
-- 
+- https://gitee.com/openeuler/iSulad
+- https://gitee.com/openeuler/iSulad-img
+- https://gitee.com/openeuler/lcr
+- https://gitee.com/openeuler/clibcni
+- https://gitee.com/openeuler/isula-build
+- https://gitee.com/openeuler/isula-transform

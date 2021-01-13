@@ -23,12 +23,12 @@ UKUI 是麒麟软件桌面研发团队开发的基于 Linux 发行版的轻量�
 ### Maintainers列表
 - 李剑峰[@handsome_feng](https://gitee.com/handsome_feng)
 - 吴孝夷[@lmq3342xja](https://gitee.com/lmq3342xia)
-- 李天智[@litianzhi_kylin](https://gitee.com/litianzhi_kylin)
+- 窦龑[@dou33](https://gitee.com/dou33)
 
 
 ### Committers列表
 - 唐广[@xianmaxianmai](https://gitee.com/xianmaxianmai)
-- 窦龑[@dou33](https://gitee.com/dou33)
+- 李天智[@litianzhi_kylin](https://gitee.com/litianzhi_kylin)
 - 张俊[@zjay998](https://gitee.com/zjay998)
 
 
@@ -37,3 +37,9 @@ UKUI 是麒麟软件桌面研发团队开发的基于 Linux 发行版的轻量�
 - [邮件列表](dev@openeuler.org)
 - [IRC频道](#openeuler-dev)
 - [IRC公开会议](#openeuler-meeting)
+
+
+
+# 问题反馈
+如果您在使用中遇到了问题，或者有好的建议，均可以到相应的模块去提issue。
+如果不确定问题或者建议应该归属于哪个模块，也可统一到[ukui-desktop-environment](https://gitee.com/src-openeuler/ukui-desktop-environment)提issue。

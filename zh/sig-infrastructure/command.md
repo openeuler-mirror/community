@@ -156,6 +156,20 @@ openEuler社区的所有项目都由Bot维护。
                 任何人都能在一个Pull Request上触发这种命令。
             </td>
         </tr>
+		 <tr>
+            <td>
+                /check-pr
+            </td>
+            <td style="white-space:nowrap;">
+                /check-pr
+            </td>
+            <td>
+                检测当前PR的标签是否满足条件，如果满足即合入PR。
+            </td>
+            <td>
+                任何人都能在一个Pull Request上触发这种命令。
+            </td>
+        </tr>
         <tr>
             <td>
                 /assign [[@]...]

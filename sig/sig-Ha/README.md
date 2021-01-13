@@ -16,8 +16,9 @@
 # 成员
 
 ### Maintainers列表
-- 侯健[@kylinos-cn](https://gitee.com/kylinos-cn)
-- 付惠惠[@huihui0311](https://gitee.com/huihui0311)
+- 侯健[@hjimmy](https://gitee.com/hjimmy)
+- 杨昭[@yangzhao_kl](https://gitee.com/yangzhao_kl), yangzhao1@kylinos.cn
+- 江新宇[@jxy_git](https://gitee.com/jxy_git), jiangxinyu@kylinos.cn
 
 ### Committers列表
 - 王迪[@crrs666](https://gitee.com/crrs666)
@@ -46,4 +47,6 @@ repository地址：
 - https://gitee.com/openeuler/ha-api
 - https://gitee.com/openeuler/ha-web
 - https://gitee.com/openeuler/pacemaker-mgmt
+- https://gitee.com/src-openeuler/booth
+- https://gitee.com/src-openeuler/execstack
 

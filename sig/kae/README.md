@@ -1,39 +1,40 @@
 # kae
 
-*<请在此描述SIG的范围、工作职责和目标，可以直接用sig-template.md内描述的第一个章节>,*
+- 开发Kunpeng加速器插件，使openEuler能方便的使用Kunpeng服务器提供的加速器技术
+- 响应社区提出的kae相关的问题
 
 
 
 # 组织会议
 
-- 公开的会议时间：北京时间，每周X 下午，XX点~XX点
+- 暂时邮件讨论
 
-*<请在此给出SIG会议的时间>*
 
 
 
 # 成员
 
-*<请在此给出团队成员的列表>*
-
 ### Maintainer列表
 
-- name[@giteeID](giteeID链接)
+- wuliaokanke[@y00438221](yuhongxiao@huawei.com)
+- ivymq[@wangminqian](wangminqian@huawei.com)
 
 
 
 ### Committer列表
 
-- name[@giteeID](giteeID链接)
+- wuliaokanke[@y00438221](yuhongxiao@huawei.com)
+- ivymq[@wangminqian](wangminqian@huawei.com)
 
 
 
 # 联系方式
-
-*<如果需要单独申请邮件列表，请在此补充邮箱名称：sig-yousigname@openeuler.org>*
+- yuhongxiao@huawei.com
+- wangminqian@huawei.com
 
 - [邮件列表](dev@openeuler.org)
-- [IM](#openeuler-dev)
+- [IRC频道](#openeuler-dev)
+- [IRC公开会议](#openeuler-meeting)
 
 
 
@@ -47,5 +48,9 @@
 
 repository地址：
 
-- 
-- 
+- https://gitee.com/openeuler/libkae
+- https://gitee.com/openeuler/libwd
+- https://gitee.com/openeuler/kae_driver
+- https://gitee.com/src-openeuler/libkae
+- https://gitee.com/src-openeuler/libwd
+- https://gitee.com/src-openeuler/kae_driver

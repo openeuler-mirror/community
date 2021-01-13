@@ -7,7 +7,7 @@
 
 # 组织会议
 
-- 公开的会议时间：北京时间，每周二 下午，4点~5点
+- 公开的会议时间：北京时间，周四 上午，10点-11点
 
 
 # 成员
@@ -39,3 +39,51 @@
 repository地址：
 
 - https://gitee.com/openeuler/ros
+- https://gitee.com/src-openeuler/catkin
+- https://gitee.com/src-openeuler/class_loader
+- https://gitee.com/src-openeuler/cmake_modules
+- https://gitee.com/src-openeuler/gencpp
+- https://gitee.com/src-openeuler/geneus
+- https://gitee.com/src-openeuler/genlisp
+- https://gitee.com/src-openeuler/genpy
+- https://gitee.com/src-openeuler/gennodejs
+- https://gitee.com/src-openeuler/genmsg
+- https://gitee.com/src-openeuler/std_msgs
+- https://gitee.com/src-openeuler/message_generation
+- https://gitee.com/src-openeuler/ros_environment
+- https://gitee.com/src-openeuler/message_runtime
+- https://gitee.com/src-openeuler/roscpp_core
+- https://gitee.com/src-openeuler/ros
+- https://gitee.com/src-openeuler/rosconsole
+- https://gitee.com/src-openeuler/roslisp
+- https://gitee.com/src-openeuler/rospack
+- https://gitee.com/src-openeuler/ros_comm_msgs
+- https://gitee.com/src-openeuler/pluginlib
+- https://gitee.com/src-openeuler/ros_comm
+- https://gitee.com/src-openeuler/actionlib 
+- https://gitee.com/src-openeuler/angles
+- https://gitee.com/src-openeuler/bond_core
+- https://gitee.com/src-openeuler/dynamic_reconfigure
+- https://gitee.com/src-openeuler/geometry
+- https://gitee.com/src-openeuler/geometry2
+- https://gitee.com/src-openeuler/nodelet_core
+- https://gitee.com/src-openeuler/common_msgs
+- https://gitee.com/src-openeuler/openslam_gmapping
+- https://gitee.com/src-openeuler/slam_gmapping 
+- https://gitee.com/src-openeuler/urdf
+- https://gitee.com/src-openeuler/rosconsole_bridge
+- https://gitee.com/src-openeuler/rviz
+- https://gitee.com/src-openeuler/pcl_conversion
+- https://gitee.com/src-openeuler/orocos_kdl
+- https://gitee.com/src-openeuler/resource_retriever 
+- https://gitee.com/src-openeuler/cartographer
+- https://gitee.com/src-openeuler/cartographer_ros
+- https://gitee.com/src-openeuler/image_transport
+- https://gitee.com/src-openeuler/interactive_markers
+- https://gitee.com/src-openeuler/laser_geometry
+- https://gitee.com/src-openeuler/navigation_msgs
+- https://gitee.com/src-openeuler/pcl_msgs
+- https://gitee.com/src-openeuler/python_qt_binding
+- https://gitee.com/src-openeuler/robot_state_publisher 
+
+

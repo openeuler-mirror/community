@@ -103,6 +103,14 @@ The repositories related to oVirt are listed below, see https://resources.ovirt.
 - https://gitee.com/src-openeuler/vcredist
 - https://gitee.com/src-openeuler/vdsm
 - https://gitee.com/src-openeuler/vdsm-jsonrpc-java
+- https://gitee.com/src-openeuler/java-client-kubevirt
+- https://gitee.com/src-openeuler/ovirt-engine-extension-aaa-jdbc
+- https://gitee.com/src-openeuler/ovirt-engine-extension-logger-log4j
+- https://gitee.com/src-openeuler/ovirt-engine-extensions-api
+- https://gitee.com/src-openeuler/ovirt-imageio
+- https://gitee.com/src-openeuler/ovirt-jboss-modules-maven-plugin
+- https://gitee.com/src-openeuler/safelease
+- https://gitee.com/src-openeuler/ovirt-engine-api-model
 
 
 ## Basic Information
@@ -111,8 +119,9 @@ The repositories related to oVirt are listed below, see https://resources.ovirt.
     https://gitee.com/openeuler/community/tree/master/sig/sig-oVirt/
 
 ### Maintainers
-- imjoey
-- huihui0311
+- hjimmy
+- wm-wm-wm
+- jxy_git
 
 ### Committers
 - crrs666
@@ -124,4 +133,4 @@ The repositories related to oVirt are listed below, see https://resources.ovirt.
 - #openeuler-dev
 
 ### External Contact
-- imjoey
+- hjimmy

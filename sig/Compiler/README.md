@@ -1,51 +1,40 @@
-# Compiler
+## Compiler SIG
+ - devoted to traditional compilers like gcc/llvm/OpenJDK/...
+ - motivated to program optimization
 
-*<请在此描述SIG的范围、工作职责和目标，可以直接用sig-template.md内描述的第一个章节>,*
+## Weekly Meeting
 
+Tuesday 10 am every week.
 
+## Members
 
-# 组织会议
+### Maintainers
+ - 郭 歌[@jdkboy](https://gitee.com/jdkboy) email: guoge1@huawei.com
+ - 章 海剑[@Haijian.Zhang](https://gitee.com/haijianzhang) email: z.zhanghaijian@huawei.com
 
-- 公开的会议时间：北京时间，每周X 下午，XX点~XX点
+### Committers
+ - 贺 东博[@Noah](https://gitee.com/jvmboy) email: hedongbo@huawei.com
+ - 谢 志恒[@eastb233](https://gitee.com/eastb233) email: xiezhiheng@huawei.com
+ - 王 亚东[@wangyadong](https://gitee.com/yd_wang) email: yadonn.wang@huawei.com
+ - 姜 飞龙[@jiangfeilong](https://gitee.com/jiangfeilong1003) email: jiangfeilong@huawei.com
 
-*<请在此给出SIG会议的时间>*
+## Contact
 
+ - maillist: dev@openeuler.org
 
-
-# 成员
-
-*<请在此给出团队成员的列表>*
-
-### Maintainer列表
-
-- name[@giteeID](giteeID链接)
-
-
-
-### Committer列表
-
-- name[@giteeID](giteeID链接)
-
-
-
-# 联系方式
-
-*<如果需要单独申请邮件列表，请在此补充邮箱名称：sig-yousigname@openeuler.org>*
-
-- [邮件列表](dev@openeuler.org)
-- [IM]()
-
-
-
-
-
-# 项目清单
-
-*<项目名称和申请表格一致，具体地址可以在申请下来以后在刷新>*
-
-项目名称：
-
-repository地址：
-
-- 
-- 
+## Repositories
+ - [gcc](https://gitee.com/src-openeuler/gcc)
+ - [llvm](https://gitee.com/src-openeuler/llvm)
+ - [clang](https://gitee.com/src-openeuler/clang)
+ - [compiler-rt](https://gitee.com/src-openeuler/compiler-rt)
+ - [jtreg](https://gitee.com/src-openeuler/jtreg)
+ - [openjdk-1.8.0](https://gitee.com/src-openeuler/openjdk-1.8.0)
+ - [openjdk-11](https:/gitee.com/src-openeuler/openjdk-11)
+ - [openjdk-latest](https:/gitee.com/src-openeuler/openjdk-latest)
+ - [openjfx8](https://gitee.com/src-openeuler/openjfx8)
+ - [openjfx11](https://gitee.com/src-openeuler/openjfx11)
+ - [icedtea-web](https://gitee.com/src-openeuler/icedtea-web)
+ - [rust](https://gitee.com/src-openeuler/rust)
+ - [ccache](https://gitee.com/src-openeuler/ccache)
+ - [bishengjdk-8](https://gitee.com/openeuler/bishengjdk-8)
+ - [bishengjdk-11](https://gitee.com/openeuler/bishengjdk-11)

@@ -1,40 +1,45 @@
 # openEuler RaspberryPi SIG
 
-- 在openEuler社区中添加对Raspberry Pi的支持
-- 根据openEuler迭代版本，持续完成openEuler向树莓派的移植，并提供openEuler的Raspberry Pi版本镜像的构建脚本和使用文档
+- 在 openEuler 社区中添加对 Raspberry Pi 的支持
+- 根据 openEuler 迭代版本，持续完成 openEuler 向树莓派的移植，并提供 openEuler 的 Raspberry Pi 版本镜像的构建脚本和使用文档
 - 及时响应用户反馈，解决相关问题
-
 
 # 组织会议
 
-- 公开的会议时间：北京时间，每周二 下午，3点~4点
+公开的会议时间：北京时间，每个月的第一个和第三个周二，15:00 - 15:30。
 
+会议链接有以下两种获取方式：
+- [openEuler 社区网站](https://openeuler.org/)下的会议日历中查看 `sig-RaspberryPi例会` 预定信息。
+- 微信小程序搜索 `openEuler`，添加 `openEuler` 小程序，可在其`会议`栏目查看 `sig-RaspberryPi例会` 预定信息。
 
 # 成员
 
-### Maintainer列表
+### Maintainer 列表
 
 - 王建民[@jianminw](https://gitee.com/jianminw)
 - 方亚芬[@woqidaideshi](https://gitee.com/woqidaideshi)
 
-### Committer列表
+### Committer 列表
 
 - 王建民[@jianminw](https://gitee.com/jianminw)
 - 方亚芬[@woqidaideshi](https://gitee.com/woqidaideshi)
-
 
 # 联系方式
 
-- [邮件列表](dev@openeuler.org)
-- [IRC频道](#openeuler-raspberrypi)
-- [IRC公开会议](#openeuler-meeting)
-
+- 邮件列表: dev@openeuler.org
+- Slack 群组: https://openeuler-raspberrypi.slack.com ，加入 Slack 群组的链接将定期更新在 [树莓派 SIG 主仓库](https://gitee.com/openeuler/raspberrypi)
+- IRC 频道: #openeuler-raspberrypi
 
 # 项目清单
 
 项目名称：RaspberryPi
 
-repository地址：
+repository 地址：
 
 - https://gitee.com/openeuler/raspberrypi
 - https://gitee.com/openeuler/raspberrypi-kernel
+- https://gitee.com/src-openeuler/raspberrypi-kernel
+- https://gitee.com/src-openeuler/raspberrypi-firmware
+- https://gitee.com/src-openeuler/raspberrypi-build
+- https://gitee.com/src-openeuler/raspberrypi-bluetooth
+- https://gitee.com/openeuler/raspberrypi-build

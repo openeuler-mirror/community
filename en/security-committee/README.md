@@ -27,7 +27,7 @@ openEuler安全委员会是负责接收和响应openEuler产品安全问题报�
 
 ## 联系
 
-+ 邮件列表：security@openEuler.org
++ 邮件列表：openeuler-security@openEuler.org
 + openEuler社区ISSUE/PR
 
 
@@ -39,4 +39,4 @@ openEuler安全委员会是负责接收和响应openEuler产品安全问题报�
 
   
 
-*如果要报告安全问题，请通过电子邮件发送到私人邮件列表：security@openeuler.org，其中包含安全问题的详细信息，以及所有openEuler错误报告的预期详细信息。*
+*如果要报告安全问题，请通过电子邮件发送到私人邮件列表：openeuler-security@openeuler.org，其中包含安全问题的详细信息，以及所有openEuler错误报告的预期详细信息。*

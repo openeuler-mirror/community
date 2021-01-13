@@ -1,12 +1,47 @@
 community: "openeuler"
 repositories:
+- name: abichecker 
+  description: "An abi checker tool"
+  protected_branches:
+  - master
+  type: public
 - name: A-Tune
   description: ""
   protected_branches:
   - master
   type: public
+- name: A-Tune-UI
+  description: "Web server for A-Tune"
+  protected_branches:
+  - master
+  type: public
+- name: A-Tune-Collector
+  description: "Collector for A-Tune"
+  protected_branches:
+  - master
+  type: public
+- name: wisdom-advisor
+  description: 'Wisdom-advisor is a tunning framework aimming at improving the performance of applications.'
+  protected_branches:
+  - master
+  type: public
+- name: avocado-vt
+  description: "Avocado-VT is a compatibility plugin that lets you execute virtualization related tests, with all conveniences provided by Avocado"
+  protected_branches:
+  - master
+  type: public
 - name: blog
   description: "Blog project is used to house the blogs that related openEuler community."
+  protected_branches:
+  - master
+  type: public
+- name: openEuler-bootstrap
+  description: "Build new openEuler architecture bootstrap rpms from scratch"
+  protected_branches:
+  - master
+  type: public
+- name: openEuler-rpm-config
+  description: "Specific rpm configuration for openEuler"
   protected_branches:
   - master
   type: public
@@ -31,13 +66,28 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: discussion
-  description: ""
+- name: compiler-test
+  description: "Compiler-test repo contains functional test suites for two components: gcc and openjdk, including dejagnu, jtreg, etc"
   protected_branches:
   - master
-  type: private
+  type: public
+- name: container-test
+  description: "The pubilc repo stores the source of container test-cases"
+  protected_branches:
+  - master
+  type: public
+- name: custom_build_tool
+  description: "provide other method to deal parameter passing for OBS build"
+  protected_branches:
+  - master
+  type: public
 - name: docs
   description: "To build and enrich documentation for openEuler project."
+  protected_branches:
+  - master
+  type: public
+- name: EulerRobot
+  description: "A virtualized automated test project, integrated compilation test, UT test, smoke test, Avocado-VT test,etc."
   protected_branches:
   - master
   type: public
@@ -56,11 +106,31 @@ repositories:
   protected_branches:
   - master
   type: public
-- name: integration-test
-  description: ""
+- name: gazelle-cni
+  description: "A high-performance cni provides tcp/udp stack, which powered by xdp and dpdk"
   protected_branches:
   - master
-  type: private
+  type: public
+- name: tarsier
+  description: "A visualization platform that provides API level observation capabilities for cloud-native scenarios, which powered by eBPF."
+  protected_branches:
+  - master
+  type: public
+- name: integration-test
+  description: "The repo contains test suits for system integration test"
+  protected_branches:
+  - master
+  type: public
+- name: test-tools
+  description: "The repo contains tools for improve test efficiency"
+  protected_branches:
+  - master
+  type: public
+- name: package-reinforce-test
+  description: "The repo contains test suites in order to improve test coverage for key packages"
+  protected_branches:
+  - master
+  type: public
 - name: iSulad
   description: ""
   protected_branches:
@@ -71,11 +141,16 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: Java-Packages
+  description: "Java package relevant docs, source code and issue management."
+  protected_branches:
+  - master
+  type: public
 - name: kae_driver
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: kernel
   description: ""
   protected_branches:
@@ -86,16 +161,21 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: oemaker
+  description: "a building tool for making DVD ISO"
+  protected_branches:
+  - master
+  type: public
 - name: libkae
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: libwd
   description: ""
   protected_branches:
   - master
-  type: private
+  type: public
 - name: openeuler-jenkins
   description: ""
   protected_branches:
@@ -116,8 +196,23 @@ repositories:
   protected_branches:
   - master
   type: private
+- name: QA
+  description: "QA repo provides rules about how QA team runs and how contributors to this project, also includes test cases and framework"
+  protected_branches:
+  - master
+  type: public
 - name: tool-collections
   description: ""
+  protected_branches:
+  - master
+  type: public
+- name: tp-libvirt
+  description: "Libvirt test provider for virtualization test. It contains a lot of test cases related to such as libvirt/libguestfs."
+  protected_branches:
+  - master
+  type: public
+- name: tp-qemu
+  description: "Qemu test provider for virtualization test. It contains a lot of test cases related to such as qemu/openvswitch/virtualization backed"
   protected_branches:
   - master
   type: public
@@ -131,18 +226,39 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: security-facility
+  description: "The repository for security facility SIG"
+  protected_branches:
+  - master
+  type: public
+- name: attest-tools
+  description: "A library that makes implementation of remote attestation easier"
+  protected_branches:
+  - master
+  type: public
+- name: digest-list-tools
+  description: "IMA digest list extension userspace tools"
+  protected_branches:
+  - master
+  type: public
 - name: mate-desktop
   description: "It provides an intuitive and attractive desktop environment using traditional metaphors"
   protected_branches:
   - master
   type: public
-- name: bounds_checking_function
-  description: ""
+- name: libboundscheck
+  rename_from: bounds_checking_function
+  description: "Enhanced safety functions"
   protected_branches:
   - master
   type: public
 - name: raspberrypi
   description: "It provides scripts for building openEuler image on Raspberry Pi and documents"
+  protected_branches:
+  - master
+  type: public
+- name: redf
+  description: "Reliable enterprise data fabric for nvme over fabric"
   protected_branches:
   - master
   type: public
@@ -153,6 +269,11 @@ repositories:
   type: public
 - name: ha-api
   description: "API interface for HA management"
+  protected_branches:
+  - master
+  type: public
+- name: perlporter
+  description: "perl pacaking automation tool"
   protected_branches:
   - master
   type: public
@@ -168,6 +289,256 @@ repositories:
   type: public
 - name: ros
   description: "It provides ROS source for openEuler"
+  protected_branches:
+  - master
+  type: public
+- name: marketing
+  description: "Collections of marketing events proposals and materials"
+  protected_branches:
+  - master
+  type: public  
+- name: compass-ci
+  rename_from: crystal-ci
+  description: "Compass CI"
+  protected_branches:
+  - master
+  type: public
+- name: openEuler-pkginfo
+  description: "Collection of query tools for easily maintaining openEuler"
+  protected_branches:
+  - master
+  type: public
+- name: openEuler-lsb
+  description: "LSB support for linux Standard Base specification"
+  protected_branches:
+  - master
+  type: public
+- name: openEuler-Advisor
+  description: "Collection of automation tools for easily maintaining openEuler"
+  protected_branches:
+  - master
+  type: public
+- name: oec-hardware
+  description: "Use for check hardware compatibility with openEuler"
+  protected_branches:
+  - master
+  type: public
+- name: oec-application
+  description: "Use for check application compatibility with openEuler"
+  protected_branches:
+  - master
+  type: public
+- name: pkgporter
+  description: "A rpm packager automation bot for perl, python and so on"
+  protected_branches:
+  - master
+  type: public
+- name: pyporter
+  description: "A rpm packager bot for python modules from pypi.org"
+  protected_branches:
+  - master
+  type: public
+- name: rubyporter
+  description: "A rpm packager bot for ruby modules from rubygems.org"
+  protected_branches:
+  - master
+  type: public
+- name: nodejsporter
+  description: "A rpm packager bot for nodejs modules from npmjs.com"
+  protected_branches:
+  - master
+  type: public
+- name: RISC-V
+  rename_from: autobuild-openeuler4riscv
+  description: "Tools scripts for auto-building openEuler SRPMs for RISC-V"
+  protected_branches:
+  - master
+  type: public
+- name: android-emulator
+  description: "An Android emulator is software which simulates the functionality of an Android device running the Android OS. Emulator allows developers to develop and test applications without the need of various real devices with different configurations"
+  protected_branches:
+  - master
+  type: public
+- name: anbox
+  description: "A free and open-source compatibility layer that aims to allow mobile applications and mobile games developed for Android to run on GNU/Linux distributions"
+  protected_branches:
+  - master
+  type: public
+- name: release-management
+  description: "release management including key features, release plan, development and branch plan, release scope and notes"
+  protected_branches:
+  - master
+  type: public
+- name: auto_py2to3
+  description: "The ultimate purpose of the library is to enable automated and rapid code migration and provide automated testing."
+  protected_branches:
+  - master
+  type: public
+- name: qemu
+  description: "qemu is a generic and open source machine emulator and virtualizer."
+  protected_branches:
+  - master
+  type: public
+- name: libvirt
+  description: "libvirt is a toolkit to manage virtualization platforms."
+  protected_branches:
+  - master
+  type: public
+- name: bishengjdk-8
+  rename-from: virtaus-8
+  description: "Bisheng JDK 8 is a high-performance, production-ready distribution of OpenJDK 8."
+  protected_branches:
+  - master
+  type: public
+- name: bishengjdk-11
+  rename-from: virtaus-11
+  description: "Bisheng JDK 11 is a high-performance, production-ready distribution of OpenJDK 11."
+  protected_branches:
+  - master
+  type: public
+- name: wayca-deployer
+  description: "wayca-deployer is an userspace deployment tool for tasks and interrupts to achieve better performance"
+  protected_branches:
+  - master
+  type: public
+- name: authz
+  description: "An authorization plugin for iSulad."
+  protected_branches:
+  - master
+  type: public
+- name: syscontainer-tools
+  description: "A syscontainer tool work with isulad with hook support and provides enhanced functions."
+  protected_branches:
+  - master
+  type: public
+- name: lxcfs-tools
+  description: "A toolkit for lxcfs to remount FUSE filesystem to syscontainer."
+  protected_branches:
+  - master
+  type: public
+- name: async-libfuse
+  description: "asyncchronized libfuse in Rust"
+  protected_branches:
+  - master
+  type: public
+- name: isula-build
+  description: "isula build kit for building container images"
+  protected_branches:
+  - master
+  type: public
+- name: isula-transform
+  description: "isula transform kit transform specify docker container to iSulad container"
+  protected_branches:
+  - master
+  type: public
+- name: trucker
+  description: "Tools for create iso livecd and cloud image"
+  protected_branches:
+  - master
+  type: public
+- name: openeuler-obs 
+  description: "Open build service system for openEuler community."
+  protected_branches:
+  - master
+  type: public
+- name: memory-scan
+  description: "A kernel module for scaning page table of process/VMs"
+  protected_branches:
+  - master
+  type: public
+- name: vmtop
+  description: "A tool for collecting and analyzing data of virtual machine"
+  protected_branches:
+  - master
+  type: public
+- name: stratovirt
+  description: "StratoVirt is an opensource VMM(Virtual Machine Manager) which aims to perform next generation virtualization.StratoVirt is based on Rust programming language.StratoVirt is lightweight, efficient and safe.It also has features like Full Sence Support and Modules Flexible Splitting."
+  protected_branches:
+  - master
+  type: public
+- name: libcareplus
+  description: "LibcarePlus delivers live patches to any of your Linux executables or libraries at the runtime, without the need for restart of your applications."
+  protected_branches:
+  - master
+  type: public
+- name: secGear
+  rename_from: secenclave
+  description: "Confidential computing framework for developing enclave apps on top of hardware TEE"
+  protected_branches:
+  - master
+  type: public
+- name: kata_integration
+  description: "A tool with useful scripts for building kata-containers related components and initrd image"
+  protected_branches:
+  - master
+  type: public
+- name: cve-manager
+  description: "Collect cve security vulnerabilities, submit the vulnerabilities to the corresponding version on gitee, notify the warehouse manager to repair, and finally publish the repaired information to an automated tool on the openEuler website."
+  protected_branches:
+    - master
+  type: public
+- name: kubekey
+  description: "The Next-gen Installer: Installing Kubernetes and KubeSphere v3.0.0 fastly, flexibly and easily"
+  protected_branches:
+  - master
+  type: public
+- name: raspberrypi-build
+  description: "Scripts of building images for Raspberry Pi"
+  protected_branches:
+  - master
+  type: public
+- name: security-tool
+  description: "A tool with scripts for reinforcing operating system security"
+  protected_branches:
+  - master
+  type: public
+- name: DyscheOS-kernel
+  description: "It provides kernel source code of DyscheOS"
+  protected_branches:
+  - master
+  type: public
+- name: DyscheOS-utils
+  description: "It provides utility tools for DyscheOS, including management tools, scripts, user-guide and kernel modules."
+  protected_branches:
+  - master
+  type: public
+- name: patch-tracking
+  description: "A tool for automatically tracking upstream repository code patches"
+  protected_branches:
+  - master
+  type: public
+- name: pkgship
+  description: "A package dependency query tool"
+  protected_branches:
+  - master
+  type: public
+- name: aarch32-rootfs-builder
+  description: "Tool scripts and patches for building armv7hf rootfs based on openEuler"
+  protected_branches:
+  - master
+  type: public
+- name: sync-bot
+  description: "A tool for handling synchronization between branches"
+  protected_branches:
+  - master
+  type: public
+- name: easy-checker
+  description: "A series of checking tools used in openEuler community"
+  protected_branches:
+  - master
+  type: public
+- name: website-v2
+  description: "The repository of the lastest version of openEuler website"
+  protected_branches:
+  - master
+  type: public
+- name: sonic-linux-kernel
+  description: "The OpenEuler kernel patches used with SONIC"
+  protected_branches:
+  - master
+  type: public
+- name: rockchip-kernel
+  description: "It provides openEuler kernel source for Rockchip SoCs"
   protected_branches:
   - master
   type: public

@@ -1,51 +1,38 @@
-# Community
+# openEuler Community
+English | [简体中文](./README_cn.md)
 
-*<请在此描述SIG的范围、工作职责和目标，可以直接用sig-template.md内描述的第一个章节>,*
-
-
-
-# 组织会议
-
-- 公开的会议时间：北京时间，每周X 下午，XX点~XX点
-
-*<请在此给出SIG会议的时间>*
+Welcome to openEuler Community.
 
 
+## Introduction
 
-# 成员
-
-*<请在此给出团队成员的列表>*
-
-### Maintainer列表
-
-- name[@giteeID](giteeID链接)
+The Community repo is to store all the information about openEuler Community, inclouding governance, how to contribution, SIGs(project teams), Communications and etc. 
 
 
+## How to contribute
 
-### Committer列表
-
-- name[@giteeID](giteeID链接)
-
+When openEuler community is updated, the information should be updated as well here. If you would like to help update the information in this repo, you are very appreciated. 
 
 
-# 联系方式
+## Maintainer
+1. Fred Li(@zerodefect), since December, 2019
 
-*<如果需要单独申请邮件列表，请在此补充邮箱名称：sig-yousigname@openeuler.org>*
+## Committers
+1. 杨丽(@yangli69393), since December, 2019
+2. blueskycs2c(@blueskycs2c), since March, 2020
 
-- [邮件列表](community@openeuler.org)
-- [IM](#openeuler-dev)
+## Contributors
+1. freesky-edward(@freesky-edward), since August, 2019
+2. xiangxinyong(@xiangxinyong), since August, 2019
+3. blueskycs2c(@blueskycs2c), since February, 2020
+4. Ivye(@Ivye), since March, 2020
 
+## Contact
 
+Mail: community@openeuler.org
 
+IRC: #openeuler-community
 
+## Meeting
 
-# 项目清单
-
-*<项目名称和申请表格一致，具体地址可以在申请下来以后在刷新>*
-
-项目名称：
-
-repository地址：
-
-- 
-- 
+Find [meeting schedule here](../../meeting_records/README.md).

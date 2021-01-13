@@ -49,6 +49,8 @@ The repositories related to Ha are listed below, see http://archive.kernel.org/c
 - https://gitee.com/openeuler/ha-api
 - https://gitee.com/openeuler/ha-web
 - https://gitee.com/openeuler/pacemaker-mgmt
+- https://gitee.com/src-openeuler/booth
+- https://gitee.com/src-openeuler/execstack
 
 ## Basic Information
 
@@ -56,9 +58,10 @@ The repositories related to Ha are listed below, see http://archive.kernel.org/c
     https://gitee.com/openeuler/community/tree/master/sig/sig-Ha/
 
 ### Maintainers
-- kylinos-cn
 - hjimmy
-- huihui0311
+- hjimmy1
+- yangzhao_kl
+- jxy_git
 
 ### Committers
 - crrs666
@@ -71,4 +74,4 @@ The repositories related to Ha are listed below, see http://archive.kernel.org/c
 
 ### External Contact
 - hjimmy
-- kylinos-cn
+- hjimmy1

@@ -15,9 +15,9 @@ The Community repo is to store all the information about openEuler Community, in
     - [Secretariat](/en/secretariat)
     - [Security Committee](/zh/security-committee)
     - [Technical Committee](/en/security-committee)
-        - [SIGs](https://openeuler.org/en/sig.html)
-- [Events](https://openeuler.org/en/events.html)
-- [Contribution Guideline](https://openeuler.org/en/developer.html)
+        - [SIGs](https://openeuler.org/en/sig/sig-list/)
+- [Live](https://openeuler.org/en/interaction/live-list/)&[Meetups](https://openeuler.org/en/interaction/salon-list/)&[Summit](https://openeuler.org/en/interaction/summit-list/)
+- [Contribution Guideline](https://openeuler.org/en/community/contribution/)
 
 
 
@@ -33,7 +33,7 @@ Please read [How to contribute](CONTRIBUTING.md) to get detailed guidance.
     ./repository
     ./sig
 
-### Blog team have the rights over [openEuler Blog](https://gitee.com/openeuler/blog/)
+### Blog team have the rights over [openEuler Blog](https://gitee.com/openeuler/website-v2/tree/master/web-ui/docs/en/blog)
 1. Xing Zhu (@shredstar), since February, 2020
 2. Perl(@pearl405), since February, 2020
 3. ZhengyuhangHans(@ZhengyuhangHans), since February, 2020

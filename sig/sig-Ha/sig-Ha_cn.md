@@ -48,6 +48,8 @@ Ha相关软件包的仓库如下，详见： http://archive.kernel.org/centos-va
 - https://gitee.com/openeuler/ha-api
 - https://gitee.com/openeuler/ha-web
 - https://gitee.com/openeuler/pacemaker-mgmt
+- https://gitee.com/src-openeuler/booth
+- https://gitee.com/src-openeuler/execstack
 
 ## SIG基本信息
 
@@ -55,9 +57,10 @@ Ha相关软件包的仓库如下，详见： http://archive.kernel.org/centos-va
     https://gitee.com/openeuler/community/tree/master/sig/sig-Ha/
 
 ### Maintainers
-- kylinos-cn
 - hjimmy
-- huihui0311
+- hjimmy1
+- yangzhao_kl
+- jxy_git
 
 ### Committers
 - crrs666
@@ -69,5 +72,5 @@ Ha相关软件包的仓库如下，详见： http://archive.kernel.org/centos-va
 - #openeuler-dev
 
 ### 对外联络人
-- kylinos-cn
 - hjimmy
+- hjimmy1
