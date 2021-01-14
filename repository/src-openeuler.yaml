@@ -34,6 +34,31 @@ repositories:
   - master
   - openEuler-20.09
   type: public
+- name: nvwa
+  description: "A daemon process for kernel online update"
+  upstream: https://gitee.com/openeuler/nvwa
+  protected_branches:
+  - master
+  - openEuler-20.03-LTS-Next
+  type: public
+- name: sysmonitor
+  description: "System Monitor Daemon"
+  upstream: https://gitee.com/openeuler/sysmonitor
+  protected_branches:
+  - master
+  type: public
+- name: kbox
+  description: "the crash message collector for openEuler"
+  upstream: https://gitee.com/openeuler/kbox
+  protected_branches:
+  - master
+  type: public
+- name: A-Ops
+  description: "the intelligent  ops toolkit for openEuler"
+  upstream: https://gitee.com/openeuler/A-Ops
+  protected_branches:
+  - master
+  type: public
 - name: culmus-fonts
   description: Fonts for Hebrew from Culmus project
   upstream: http://culmus.sourceforge.net

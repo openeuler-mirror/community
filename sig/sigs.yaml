@@ -482,6 +482,16 @@ sigs:
   - src-openeuler/t1utils
   - src-openeuler/google-roboto-slab-fonts
   - src-openeuler/chromium
+- name: sig-ops
+  repositories:
+  - openeuler/nvwa
+  - src-openeuler/nvwa
+  - openeuler/sysmonitor
+  - src-openeuler/sysmonitor
+  - openeuler/kbox
+  - src-openeuler/kbox
+  - openeuler/A-Ops
+  - src-openeuler/A-Ops
 - name: Programming-language
   repositories:
   - src-openeuler/assertj-core
