@@ -50,6 +50,26 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: nvwa
+  description: "A daemon process for kernel online update"
+  protected_branches:
+  - master
+  type: public
+- name: sysmonitor
+  description: "System Monitor Daemon"
+  protected_branches:
+  - master
+  type: public
+- name: kbox
+  description: "the crash message collector for openEuler"
+  protected_branches:
+  - master
+  type: public
+- name: A-Ops
+  description: "the intelligent  ops toolkit for openEuler"
+  protected_branches:
+  - master
+  type: public
 - name: clibcni
   description: ""
   protected_branches:
