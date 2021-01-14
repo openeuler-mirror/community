@@ -69,6 +69,8 @@ repository地址：
 - https://gitee.com/src-openeuler/python-keystonemiddleware
 - https://gitee.com/src-openeuler/python-oslo.cache
 - https://gitee.com/src-openeuler/python-oslo.concurrency
+- https://gitee.com/src-openeuler/python-oslo.i18n
+- https://gitee.com/src-openeuler/python-oslo.sphinx
 - https://gitee.com/src-openeuler/python-oslo.config
 - https://gitee.com/src-openeuler/python-oslo.context
 - https://gitee.com/src-openeuler/python-oslo.db
