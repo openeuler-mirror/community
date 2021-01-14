@@ -572,3 +572,8 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: embedded
+  description: "The openEuler support for embedded device"
+  protected_branches:
+  - master
+  type: public

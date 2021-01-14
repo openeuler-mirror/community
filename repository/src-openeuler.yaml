@@ -56589,3 +56589,9 @@ repositories:
   protected_branches:
   - master
   type: public
+- name: embedded-kernel
+  description: Kernel of embedded
+  upstream: https://gitee.com/openeuler/kernel
+  protected_branches:
+  - master
+  type: public
