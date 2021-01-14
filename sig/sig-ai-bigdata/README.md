@@ -74,5 +74,5 @@
 ## 联系方式
 - [邮件列表](https://mailweb.openeuler.org/hyperkitty/list/sig-ai-bigdata@openeuler.org/)
 - [slack](https://join.slack.com/t/openeulerworkspace/shared_invite/zt-fputhzcx-QR9KAqwNmUTN4U2A35BMGQ)
-- 微信  
- ![wechat_QR](./sig-wechat-qr.jpg)
+- 微信（欢迎大家添加小助手，小助手会帮忙拉进群交流）  
+  <img src="./sig-wechat-qr.jpg" width = "60"/>
