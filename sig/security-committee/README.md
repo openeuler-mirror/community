@@ -45,7 +45,7 @@ SC的使命：为openEuler用户提供最安全的产品和开发环境。
 | distirbutors-announce@openeuler.org | Private | 私有披露邮件列表，当openEuler修复一个0day漏洞后，为了保证下游用户的利益，在公开发布SA之前会向下游用户披露漏洞信息和修复方案，该邮箱列表为私有邮箱列表，可以向openeuler-security@openeuler.org发送加入该邮件列表的申请。 |
 | sa-announce@openeuler.org | Public | 安全公告邮件列表，openEuler社区提供了SA邮件订阅的功能，订阅该邮件列表的用户可以收到openEuler社区SA发布和更新的通知。 |
 
-# 漏洞管理策略
+# 漏洞管理
 
 SC在openEuler社区官网发布了漏洞管理策略，包括如何上报安全问题、获取SA和安全补丁等信息，详见[[漏洞管理](https://openeuler.org/zh/security/vulnerability-reporting/)]。
 
