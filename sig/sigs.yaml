@@ -507,6 +507,9 @@ sigs:
   - src-openeuler/objectweb-asm3
   - src-openeuler/gedit
   - src-openeuler/plotutils
+  - src-openeuler/tesseract-tessdata
+  - src-openeuler/tesseract
+  - src-openeuler/sshpass
 - name: sig-ops
   repositories:
   - openeuler/nvwa
@@ -1032,6 +1035,8 @@ sigs:
   - src-openeuler/appweb
   - src-openeuler/nagios-plugins
   - src-openeuler/freeradius-client
+  - src-openeuler/spawn-fcgi
+  - src-openeuler/lighttpd
 - name: Virt
   repositories:
   - src-openeuler/virt-viewer
@@ -1973,6 +1978,7 @@ sigs:
   - src-openeuler/LZMA-SDK
   - src-openeuler/modello
   - src-openeuler/dietlibc
+  - src-openeuler/ganglia
 - name: sig-CloudNative
   repositories:
   - src-openeuler/kubernetes
@@ -2104,6 +2110,7 @@ sigs:
   - src-openeuler/spdk
   - src-openeuler/pmdk
   - src-openeuler/bcache-tools
+  - src-openeuler/heketi
 - name: Desktop
   repositories:
   - src-openeuler/abattis-cantarell-fonts
@@ -3126,6 +3133,8 @@ sigs:
   - src-openeuler/javaewah
   - src-openeuler/maven-scm
   - src-openeuler/javacc-maven-plugin
+  - src-openeuler/mybatis-parent
+  - src-openeuler/mybatis
 - name: sig-Ostree-Assembly
   repositories:
   - src-openeuler/ostree_assembly
@@ -4179,6 +4188,8 @@ sigs:
   - src-openeuler/opencryptoki
   - src-openeuler/teckit
   - src-openeuler/gtkspellmm30
+  - src-openeuler/flatbuffers
+  - src-openeuler/simde
 - name: sig-mate-desktop
   repositories:
   - openeuler/mate-desktop

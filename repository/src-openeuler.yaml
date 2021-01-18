@@ -94508,3 +94508,80 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: tesseract-tessdata
+  upstream: https://github.com/tesseract-ocr/tessdata_fast
+  description: Trained models for the Tesseract Open Source OCR Engine
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: mybatis-parent
+  upstream: https://blog.mybatis.org/
+  description: The MyBatis parent POM
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: ganglia
+  upstream: http://ganglia.sourceforge.net/
+  description: Distributed Monitoring System
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: heketi
+  upstream: https://github.com/heketi/heketi
+  description: RESTful based volume management framework for GlusterFS
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: mybatis
+  upstream: https://blog.mybatis.org/
+  description: SQL Mapping Framework for Java
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: flatbuffers
+  upstream: http://google.github.io/flatbuffers
+  description: Memory efficient serialization library
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: spawn-fcgi
+  upstream: http://redmine.lighttpd.net/projects/spawn-fcgi/
+  description: Simple program for spawning FastCGI processes
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: tesseract
+  upstream: https://github.com/tesseract-ocr/tesseract
+  description: Raw OCR Engine
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: simde
+  upstream: https://github.com/nemequ/simde
+  description: Implementations of SIMD instruction sets for systems which don't natively support them
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: sshpass
+  upstream: https://sourceforge.net/projects/sshpass
+  description: Non-interactive SSH authentication utility
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: lighttpd
+  upstream: http://www.lighttpd.net/
+  description: Lightning fast webserver with light system requirements
+  branches:
+  - name: master
+    type: protected
+  type: public
