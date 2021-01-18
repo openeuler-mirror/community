@@ -80361,6 +80361,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: nodejs-oauth-sign
   description: OAuth1 signing for Node.js
@@ -93113,6 +93116,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: intel-sgx-ssl
   description: "The Intel\xAE Software Guard Extensions SSL (Intel\xAE SGX SSL) cryptographic\
@@ -93124,6 +93130,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: swagger-codegen
   description: This is the swagger codegen project, which allows generation of API
@@ -93340,6 +93349,19 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  type: public
+- name: secGear
+  description: 'secGaer is an SDK to develop confidential computing apps based on hardware enclave features. The target is to use single source code for developers to develop apps running on different hardware.Currently secGear support Intel SGX and iTrustee running in ARM Trustzone.' 
+  upstream: https://gitee.com/openeuler/secGear.git
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: quilt
   description: Scripts for working with series of patches
