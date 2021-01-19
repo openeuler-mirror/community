@@ -94297,3 +94297,10 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: python-tenacity
+  description: Retrying library for Python
+  upstream: https://github.com/jd/tenacity
+  branches:
+  - name: master
+    type: protected
+  type: public
