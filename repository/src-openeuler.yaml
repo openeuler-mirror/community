@@ -29542,6 +29542,16 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: oath-toolkit
+  description: The OATH Toolkit provide components for building one-time password authentication systems.It contains shared libraries,command line tools and a PAM module.
+  upstream: https://www.nongnu.org/oath-toolkit/
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  type: public
 - name: objectweb-asm
   description: Java bytecode manipulation and analysis framework
   upstream: http://asm.ow2.org/
