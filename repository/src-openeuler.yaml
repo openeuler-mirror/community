@@ -94318,3 +94318,10 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: python-betamax
+  description: A VCR imitation designed only for python-requests.
+  upstream: https://github.com/betamaxpy/betamax
+  branches:
+  - name: master
+    type: protected
+  type: public
