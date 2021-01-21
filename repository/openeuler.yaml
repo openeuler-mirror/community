@@ -739,6 +739,7 @@ repositories:
   type: public
 - name: compliance
   description: "Improve community members compliance capability,define the rules, develop the tools and suuply services."
-  protected_branches:
-  - master
-  type: public
+  branches:
+    - name: master
+      type: protected
+  tyoe: public
