@@ -725,3 +725,15 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: duoyibu-ai
+  description: "a framework of digitalism and AI technology for national traditional culture minzuchess(boardgames) protection."
+  branches:
+    - name: master
+      type: protected
+  type: public
+- name: blesschess
+  description: "a web application that provide one of national traditional culture minzuchess(boardgames) with digitalism and AI technology."
+  branches:
+    - name: master
+      type: protected
+  type: public
