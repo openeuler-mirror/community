@@ -9863,13 +9863,21 @@ repositories:
 - name: gdal
   description: GDAL/OGR - a translator library for raster and vector geospatial data
     formats.
+  upstream: http://www.gdal.org
   branches:
   - name: master
     type: protected
   - name: openEuler-20.09
     type: protected
     create_from: master
-  type: private
+  type: public
+- name: g2clib
+  description: GRIB2 encoder/decoder and search/indexing routines in C
+  upstream: http://www.nco.ncep.noaa.gov/pmb/codes/GRIB2/
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: gdb
   description: ''
   branches:
@@ -13638,6 +13646,13 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  type: public
+- name: hdf
+  description: HDF is a general purpose library and file format for storing scientific data.
+  upstream: https://portal.hdfgroup.org/ 
+  branches:
+  - name: master
+    type: protected
   type: public
 - name: hspell
   description: A checker for Hebrew spell
@@ -22010,13 +22025,14 @@ repositories:
   type: private
 - name: libkml
   description: Reference implementation of OGC KML 2.2.
+  upstream: https://github.com/libkml/libkml
   branches:
   - name: master
     type: protected
   - name: openEuler-20.09
     type: protected
     create_from: master
-  type: private
+  type: public
 - name: libksba
   description: ''
   branches:
@@ -26179,6 +26195,13 @@ repositories:
   - name: openEuler-20.03-LTS
     type: protected
     create_from: master
+  type: public
+- name: mapserver
+  description: Mapserver is an internet mapping program that converts GIS data to map images in real time.
+  upstream: http://www.mapserver.org
+  branches:
+  - name: master
+    type: protected
   type: public
 - name: mailx
   description: ''
