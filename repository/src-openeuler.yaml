@@ -94585,3 +94585,10 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: harbor
+  description: An open source trusted cloud native registry project that stores, signs, and scans content.
+  upstream: https://github.com/goharbor/harbor
+  branches:
+  - name: master
+    type: protected
+  type: public
