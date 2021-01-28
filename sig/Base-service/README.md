@@ -52,6 +52,7 @@ repository地址：
   - src-openeuler/automake
   - src-openeuler/babel
   - src-openeuler/babeltrace
+  - src-openeuler/babeltrace2
   - src-openeuler/basesystem
   - src-openeuler/bash
   - src-openeuler/bash-completion
