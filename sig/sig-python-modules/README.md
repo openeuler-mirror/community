@@ -37,3 +37,4 @@ myeuler
 
 *Project list & repository*
 
+- https://gitee.com/src-openeuler/python-invoke

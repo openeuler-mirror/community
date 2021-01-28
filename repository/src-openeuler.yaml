@@ -58297,6 +58297,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: python-invoke
+  description: Pythonic task management & command execution.
+  upstream: https://github.com/pyinvoke/invoke
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-iowait
   upstream: https://launchpad.net/python-iowait
   description: Platform-independent module for I/O completion events
