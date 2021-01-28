@@ -62754,6 +62754,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: python-pysaml2
+  upstream: https://github.com/IdentityPython/pysaml2
+  description: PySAML2 is a pure python implementation of SAML Version 2 Standard.
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-pysb
   upstream: http://pysb.org/
   description: Python Systems Biology modeling framework
