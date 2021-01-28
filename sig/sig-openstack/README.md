@@ -67,6 +67,7 @@ repository地址：
 - https://gitee.com/src-openeuler/python-barbicanclient
 - https://gitee.com/src-openeuler/python-castellan
 - https://gitee.com/src-openeuler/python-pycadf
+- https://gitee.com/src-openeuler/python-glance-store
 - https://gitee.com/src-openeuler/python-keystonemiddleware
 - https://gitee.com/src-openeuler/python-oslo.cache
 - https://gitee.com/src-openeuler/python-oslo.concurrency
