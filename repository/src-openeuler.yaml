@@ -94649,4 +94649,17 @@ repositories:
   - name: master
     type: protected
   type: public
-
+- name: gmt
+  description: Generic Mapping Tools
+  upstream: http://gmt.soest.hawaii.edu/projects/gmt
+  branches: 
+  - name: master
+    type: protected
+  type: public
+- name: optipng
+  description: PNG optimizer and converter
+  upstream: http://optipng.sourceforge.net/
+  branches: 
+  - name: master
+    type: protected
+  type: public
