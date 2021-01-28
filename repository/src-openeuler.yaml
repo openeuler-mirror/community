@@ -52502,6 +52502,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: python-XStatic-Angular-FileUpload
+  upstream: https://github.com/danialfarid/ng-file-upload
+  description: Lightweight Angular directive to upload files
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-XStatic-Angular-Gettext
   upstream: https://angular-gettext.rocketeer.be/
   description: Angular-Gettext 2.4.1 (XStatic packaging standard)
@@ -52511,6 +52518,27 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  type: public
+- name: python-XStatic-Angular-lrdragndrop
+  upstream: https://github.com/lorenzofox3/lrDragNDrop
+  description: A drag and drop module for AngularJS
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-XStatic-Angular-Schema-Form
+  upstream: https://github.com/json-schema-form/angular-schema-form
+  description: Generate forms from JSON schemas using AngularJS
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-XStatic-Bootstrap-Datepicker
+  upstream: https://github.com/uxsolutions/bootstrap-datepicker
+  description: Date tools for AngularJS
+  branches:
+  - name: master
+    type: protected
   type: public
 - name: python-XStatic-Bootstrap-SCSS
   upstream: https://github.com/twbs/bootstrap-sass
@@ -52522,6 +52550,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: python-XStatic-D3
+  upstream: https://github.com/d3/d3
+  description: a JavaScript library for visualizing data using web standards
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-XStatic-Font-Awesome
   upstream: https://fortawesome.github.io/Font-Awesome/
   description: Font-Awesome 4.7.0 (XStatic packaging standard)
@@ -52531,6 +52566,13 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  type: public
+- name: python-XStatic-Hogan
+  upstream: https://github.com/twitter/hogan.js
+  description: A compiler for the Mustache templating language
+  branches:
+  - name: master
+    type: protected
   type: public
 - name: python-XStatic-JSEncrypt
   upstream: http://travistidwell.com/jsencrypt/
@@ -52551,6 +52593,41 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  type: public
+- name: python-XStatic-jQuery
+  upstream: http://jquery.com/
+  description: jQuery javascript library packaged for setuptools (easy_install) / pip
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-XStatic-JQuery-Migrate
+  upstream: https://opendev.org/openstack/xstatic-jquery-migrate
+  description: Migrate jQuery plugin packaged as XStatic
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-XStatic-JQuery.quicksearch
+  upstream: https://opendev.org/openstack/xstatic-jquery.quicksearch
+  description: A jQuery based plug-in for filtering large data sets with user input
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-XStatic-JQuery.TableSorter
+  upstream: https://opendev.org/openstack/xstatic-jquery.tablesorter
+  description: Tablesorter jQuery plugin packaged as XStatic
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-XStatic-jquery-ui
+  upstream: https://github.com/jquery/jquery-ui
+  description: A curated set of user interface interactions, effects, widgets, and themes built on top of jQuery
+  branches:
+  - name: master
+    type: protected
   type: public
 - name: python-XStatic-Patternfly-Bootstrap-Treeview
   upstream: https://www.patternfly.org/
@@ -52582,6 +52659,20 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: python-XStatic-objectpath
+  upstream: https://github.com/mike-marcacci/objectpath
+  description: Parse js object paths using both dot and bracket notation
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-XStatic-Rickshaw
+  upstream: https://opendev.org/openstack/xstatic-rickshaw
+  description: Rickshaw JavaScript library packaged as XStatic
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-XStatic-roboto-fontface
   upstream: https://github.com/choffmeister/roboto-fontface-bower
   description: roboto-fontface 0.5.0 (XStatic packaging standard)
@@ -52601,6 +52692,27 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  type: public
+- name: python-XStatic-Spin
+  upstream: https://opendev.org/openstack/xstatic-spin
+  description: Spin JavaScript library packaged as XStatic
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-XStatic-term.js
+  upstream: https://github.com/chjj/term.js
+  description: A full xterm clone written in javascript. Used by tty.js
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-XStatic-tv4
+  upstream: https://github.com/geraintluff/tv4
+  description: Validate simple values and complex objects using a rich validation vocabulary
+  branches:
+  - name: master
+    type: protected
   type: public
 - name: python-XlsxWriter
   upstream: https://github.com/jmcnamara/XlsxWriter
@@ -56345,6 +56457,13 @@ repositories:
   - name: openEuler-20.03-LTS
     type: protected
     create_from: master
+  type: public
+- name: python-enmerkar
+  upstream: https://github.com/Zegocover/enmerkar
+  description: Various utilities for integration of Babel into the Django web framework
+  branches:
+  - name: master
+    type: protected
   type: public
 - name: python-entrypoints
   description: ''
