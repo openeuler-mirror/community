@@ -38,3 +38,4 @@ myeuler
 *Project list & repository*
 - https://github.com/IdentityPython/pysaml2
 
+- https://gitee.com/src-openeuler/python-invoke
