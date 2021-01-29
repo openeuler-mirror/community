@@ -60681,6 +60681,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: python-glance-store
+  upstream: https://opendev.org/openstack/glance_store
+  description: OpenStack glance's stores library
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-osc-lib
   upstream: https://opendev.org/openstack/osc-lib
   description: OpenStackClient Library
