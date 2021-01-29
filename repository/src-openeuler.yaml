@@ -79193,6 +79193,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: python-swiftclient
+  description: OpenStack Storage (Swift) Client
+  upstream: https://github.com/openstack/python-swiftclient
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: perl-Alien-Libxml2
   upstream: https://metacpan.org/release/Alien-Libxml2
   description: This module provides libxml2 for other modules to use.

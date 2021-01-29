@@ -120,3 +120,4 @@ repository地址：
 - https://gitee.com/src-openeuler/python-tooz
 - https://gitee.com/src-openeuler/openstack-macros
 - https://gitee.com/src-openeuler/openstack-cinder
+- https://gitee.com/src-openeuler/python-swiftclient
