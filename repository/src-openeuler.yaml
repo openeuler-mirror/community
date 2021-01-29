@@ -94614,6 +94614,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: openstack-cinder
+  upstream: https://opendev.org/openstack/cinder
+  description: OpenStack Block Storage(Cinder)
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: harbor
   description: An open source trusted cloud native registry project that stores, signs, and scans content.
   upstream: https://github.com/goharbor/harbor
