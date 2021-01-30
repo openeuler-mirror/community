@@ -49,9 +49,9 @@ repository地址：
 - https://gitee.com/src-openeuler/openstack-neutron
 - https://gitee.com/src-openeuler/openstack-glance
 - https://gitee.com/src-openeuler/openstack-ironic
+- https://gitee.com/src-openeuler/openstack-ironic-inspector
 - https://gitee.com/src-openeuler/openstack-ironic-python-agent
 - https://gitee.com/src-openeuler/openstack-ironic-python-agent-builder
-- https://gitee.com/src-openeuler/openstack-ironic-inspector
 - https://gitee.com/src-openeuler/openstack-ironic-staging-drivers
 - https://gitee.com/src-openeuler/novnc
 - https://gitee.com/src-openeuler/python-automaton
@@ -91,6 +91,7 @@ repository地址：
 - https://gitee.com/src-openeuler/python-designateclient
 - https://gitee.com/src-openeuler/python-glanceclient
 - https://gitee.com/src-openeuler/python-ironicclient
+- https://gitee.com/src-openeuler/python-ironic-lib
 - https://gitee.com/src-openeuler/python-microversion-parse
 - https://gitee.com/src-openeuler/python-neutron-lib
 - https://gitee.com/src-openeuler/python-os-client-config

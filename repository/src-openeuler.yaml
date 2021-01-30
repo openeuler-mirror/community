@@ -93417,6 +93417,14 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: python-ironic-lib
+  description: A common library to be used exclusively by projects under the Ironic
+    governance.
+  upstream: https://github.com/openstack/ironic-lib
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-openstackclient
   description: OpenStackClient (aka OSC) is a command-line client for OpenStack that
     brings the command set for Compute, Identity, Image, Network, Object Store and
