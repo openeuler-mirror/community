@@ -61447,6 +61447,14 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: python-aexpect
+  description: The module provides services similar to the pexpect python library,
+    so to speek,spawn and control interactive applications,such as ssh,stfp and others.
+  upstream: https://package.wiki/aexpect
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-pexpect
   description: Pexpect allows easy control of interactive console applications.
   upstream: https://pexpect.readthedocs.io/
