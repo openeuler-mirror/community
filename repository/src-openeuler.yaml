@@ -60117,6 +60117,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: python-mypy
+  upstream: https://github.com/python/mypy
+  description: Optional static typing for Python
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-mysqlclient
   description: MySQL database connector for Python
   branches:
