@@ -53730,6 +53730,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: python-bandit
+  upstream: https://github.com/PyCQA/bandit
+  description: A security linter from PyCQA
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-bashate
   upstream: http://docs.openstack.org/developer/bashate/
   description: A pep8 equivalent for bash scripts
@@ -65140,6 +65147,13 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  type: public
+- name: python-sphinx-feature-classification
+  upstream: https://opendev.org/openstack/sphinx-feature-classification
+  description: Common feature classification documentation frameworks
+  branches:
+  - name: master
+    type: protected
   type: public
 - name: python-sphinx-gallery
   upstream: https://sphinx-gallery.github.io
