@@ -30959,6 +30959,14 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: openstack-osc-placement
+  description: OpenStackClient plugin for Placement
+    service.
+  upstream: https://opendev.org/openstack/osc-placement
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: options
   description: Library for managing sets of JVM properties to configure an app or
     library
@@ -93396,6 +93404,15 @@ repositories:
 - name: openstack-ironic-staging-drivers
   description: A project used to hold out-of-tree ironic drivers
   upstream: https://opendev.org/x/ironic-staging-drivers
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: openstack-placement
+  description: OpenStack Placement provides an HTTP service for
+    managing, selecting, and claiming providers of classes of
+    inventory representing available resources in a cloud.
+  upstream: https://opendev.org/openstack/placement
   branches:
   - name: master
     type: protected
