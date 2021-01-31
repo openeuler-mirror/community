@@ -1,8 +1,8 @@
 
-# openEuler Kubernetes SIG
+# openEuler KubeSphere SIG
 English | [简体中文](./sig-template_cn.md)
 
-Kubernetes SIG is committed to focusing on the cloud native ecosystem around Kubernetes. Through [KubeSphere](https://github.com/kubesphere/kubesphere), it can seamlessly bridge the cloud native ecosystem tools with openEuler, and reduces the installation and learning curve of Kubernetes, in order to enable openEuler users to quickly set up a container platform.
+sig-kubesphere is committed to focusing on the cloud native ecosystem around Kubernetes. Through [KubeSphere](https://github.com/kubesphere/kubesphere), it can seamlessly bridge the cloud native ecosystem tools with openEuler, and reduces the installation and learning curve of Kubernetes, in order to enable openEuler users to quickly set up a container platform.
 
 KubeSphere is an open source container platform built on Kubernetes, helps users to set up a cloud native stack, and provides the wizard web console. It has passed CNCF Kubernetes conformance test and Taishan 200 compatibility test.
 
@@ -16,7 +16,7 @@ KubeSphere is an open source container platform built on Kubernetes, helps users
 
 - Making Kubernetes and KubeSphere are adapted to openEuler for quick installation,
 - Working for the iteration and continuous maintenance, response to users feedback, solve related questions
-- Kubernetes SIG group related documents, members, meetings, mailing lists, IRC management
+- sig-kubesphere group related documents, members, meetings, mailing lists, IRC management
 
 ### Deliverables
 
@@ -35,7 +35,7 @@ TBD
 
 ### Project Introduction
    
-https://gitee.com/openeuler/community/tree/master/sig/sig-Kubernetes/
+https://gitee.com/openeuler/community/tree/master/sig/sig-kubesphere/
 
 
 ### Maintainers

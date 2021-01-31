@@ -1,8 +1,8 @@
-# SIG-Kubernetes Roadmap
+# sig-kubesphere Roadmap
 
-SIG-Kubernetes is going to provide the native Kubernetes installer for the openEuler community, tailored to openEuler OS. Then we are going to provide an open source container platform KubeSphere built on Kubernetes, which has been widely adopted in thousands of enterprises all over the world.
+sig-kubesphere is going to provide the native Kubernetes installer for the openEuler community, tailored to openEuler OS. Then we are going to provide an open source container platform KubeSphere built on Kubernetes, which has been widely adopted in thousands of enterprises all over the world.
 
-To better fit into openEuler's ecosystem, SIG-Kubernetes plans to support [iSulad](https://gitee.com/openeuler/iSulad) and Kata container distribution with Kubernetes and KubeSphere.
+To better fit into openEuler's ecosystem, sig-kubesphere plans to support [iSulad](https://gitee.com/openeuler/iSulad) and Kata container distribution with Kubernetes and KubeSphere.
 
 We briefly list the roadmap and milestone for the next few months, this is the first phase in our plan:
 
