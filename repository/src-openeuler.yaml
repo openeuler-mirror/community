@@ -23324,6 +23324,16 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: libraqm
+  upstream: https://github.com/HOST-Oman/libraqm
+  description: 'Library that encapsulates the logic for complex text layout and provides a convenient API'
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  type: public
 - name: librdkafka
   description: ''
   branches:
