@@ -50203,16 +50203,14 @@ repositories:
   type: public
 - name: plexus-ant-factory
   description: Plexus Ant component factory.
+  upstream: https://github.com/codehaus/plexus
   branches:
   - name: master
     type: protected
-  - name: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
     type: protected
     create_from: master
-  - name: openEuler-20.09
-    type: protected
-    create_from: master
-  type: private
+  type: public
 - name: plexus-archiver
   description: Plexus Archiver Components
   upstream: http://codehaus-plexus.github.io/plexus-archiver
@@ -50228,16 +50226,14 @@ repositories:
   type: public
 - name: plexus-bsh-factory
   description: Plexus Bsh component factory.
+  upstream: https://github.com/codehaus/plexus
   branches:
   - name: master
     type: protected
-  - name: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
     type: protected
     create_from: master
-  - name: openEuler-20.09
-    type: protected
-    create_from: master
-  type: private
+  type: public
 - name: plexus-build-api
   description: Plexus Build API
   upstream: https://github.com/sonatype/sisu-build-api

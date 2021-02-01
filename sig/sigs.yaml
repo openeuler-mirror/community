@@ -3103,6 +3103,8 @@ sigs:
   - src-openeuler/javacc-maven-plugin
   - src-openeuler/mybatis-parent
   - src-openeuler/mybatis
+  - src-openeuler/plexus-bsh-factory
+  - src-openeuler/plexus-ant-factory
 - name: sig-Ostree-Assembly
   repositories:
   - src-openeuler/ostree_assembly
@@ -3751,8 +3753,6 @@ sigs:
   - src-openeuler/perl-Unix-Syslog
   - src-openeuler/phonon-backend-gstreamer
   - src-openeuler/pkgconfig
-  - src-openeuler/plexus-ant-factory
-  - src-openeuler/plexus-bsh-factory
   - src-openeuler/pmix
   - src-openeuler/properties-maven-plugin
   - src-openeuler/protoparser
