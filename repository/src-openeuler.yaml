@@ -553,14 +553,15 @@ repositories:
     create_from: master
   type: public
 - name: SDL_sound
-  description: ''
+  description: Library handling decoding of several popular sound file formats
+  upstream: https://github.com/sezero/SDL_sound
   branches:
   - name: master
     type: protected
   - name: openEuler-20.09
     type: protected
     create_from: master
-  type: private
+  type: public
 - name: SuperLU
   description: Subroutines to solve sparse linear systems.
   upstream: http://crd-legacy.lbl.gov/~xiaoye/SuperLU/
@@ -4591,7 +4592,8 @@ repositories:
     create_from: master
   type: public
 - name: classloader-leak-test-framework
-  description: ''
+  description: Detection and verification of Java ClassLoader leaks
+  upstream: https://github.com/mjiderhamn/classloader-leak-prevention
   branches:
   - name: master
     type: protected
@@ -4601,7 +4603,7 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
-  type: private
+  type: public
 - name: classmate
   description: Zero-dependency Java library
   upstream: http://github.com/cowtowncoder/java-classmate/
@@ -8630,6 +8632,7 @@ repositories:
   type: public
 - name: felix-parent
   description: Parent POM file for Apache Felix Specs
+  upstream: http://felix.apache.org/
   branches:
   - name: master
     type: protected
@@ -8639,7 +8642,7 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
-  type: private
+  type: public
 - name: felix-shell
   description: Apache Felix Shell Service
   upstream: http://felix.apache.org
@@ -10594,6 +10597,7 @@ repositories:
   type: public
 - name: glassfish-annotation-api
   description: Common Annotations API Specification (JSR 250).
+  upstream: https://github.com/javaee/javax.annotation
   branches:
   - name: master
     type: protected
@@ -10603,7 +10607,7 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
-  type: private
+  type: public
 - name: glassfish-dtd-parser
   description: Library for parsing XML DTDs
   upstream: Url:https://github.com/javaee/jaxb-dtd-parser
@@ -12930,14 +12934,15 @@ repositories:
     create_from: master
   type: public
 - name: gtkspell
-  description: ''
+  description: A library for GtkTextView widget's instant spell check
+  upstream: http://gtkspell.sourceforge.net/
   branches:
   - name: master
     type: protected
   - name: openEuler-20.09
     type: protected
     create_from: master
-  type: private
+  type: public
 - name: gtkspell3
   description: Word-processor-style highlighting and replacement of misspelled words in a GtkTextView widget
   upstream: http://gtkspell.sourceforge.net/
@@ -15785,14 +15790,15 @@ repositories:
     create_from: master
   type: public
 - name: icon-naming-utils
-  description: ''
+  description: A Perl script used for maintaining backwards compatibility with current desktop icon themes.
+  upstream: http://tango.freedesktop.org/Standard_Icon_Naming_Specification
   branches:
   - name: master
     type: protected
   - name: openEuler-20.09
     type: protected
     create_from: master
-  type: private
+  type: public
 - name: icoutils
   description: A set of command-line programs for extracting and converting images
   branches:
@@ -25353,6 +25359,7 @@ repositories:
   type: public
 - name: logback
   description: Logback is intended as a successor to the popular log4j project.
+  upstream: https://github.com/qos-ch/logback
   branches:
   - name: master
     type: protected
@@ -25362,7 +25369,7 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
-  type: private
+  type: public
 - name: logrotate
   description: ''
   branches:
@@ -26009,13 +26016,14 @@ repositories:
   type: public
 - name: lzma
   description: Tools related to LZMA compression.
+  upstream: http://tukaani.org/lzma/
   branches:
   - name: master
     type: protected
   - name: openEuler-20.09
     type: protected
     create_from: master
-  type: private
+  type: public
 - name: lzo
   description: ''
   branches:
@@ -28870,7 +28878,8 @@ repositories:
     create_from: master
   type: public
 - name: nekohtml
-  description: ''
+  description: HTML scanner and tag balancer
+  upstream: https://github.com/codelibs/nekohtml
   branches:
   - name: master
     type: protected
@@ -28880,7 +28889,7 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
-  type: private
+  type: public
 - name: neon
   description: ''
   branches:
@@ -31115,7 +31124,8 @@ repositories:
     create_from: master
   type: public
 - name: osgi-compendium
-  description: ''
+  description: Interfaces and Classes for use in compiling OSGi bundles
+  upstream: http://www.osgi.org
   branches:
   - name: master
     type: protected
@@ -31125,9 +31135,10 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
-  type: private
+  type: public
 - name: osgi-core
-  description: ''
+  description: OSGi Core API
+  upstream: https://www.osgi.org
   branches:
   - name: master
     type: protected
@@ -31137,7 +31148,7 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
-  type: private
+  type: public
 - name: osinfo-db
   description: ''
   branches:
@@ -50514,13 +50525,14 @@ repositories:
   type: public
 - name: pmix
   description: Process management for exascale environments.
+  upstream: https://github.com/openpmix/openpmix
   branches:
   - name: master
     type: protected
   - name: openEuler-20.09
     type: protected
     create_from: master
-  type: private
+  type: public
 - name: pngquant
   description: ''
   branches:
@@ -51053,7 +51065,8 @@ repositories:
     create_from: master
   type: public
 - name: properties-maven-plugin
-  description: ''
+  description: Properties Maven Plugin
+  upstream: http://www.mojohaus.org/properties-maven-plugin/
   branches:
   - name: master
     type: protected
@@ -51063,7 +51076,7 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
-  type: private
+  type: public
 - name: protobuf
   description: ''
   branches:
@@ -51185,7 +51198,8 @@ repositories:
     create_from: master
   type: public
 - name: pstoedit
-  description: ''
+  description: Translates PostScript and PDF graphics into other vector formats
+  upstream: http://www.pstoedit.net/
   branches:
   - name: master
     type: protected
@@ -51195,7 +51209,7 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
-  type: private
+  type: public
 - name: psutils
   description: ''
   branches:
@@ -53811,7 +53825,8 @@ repositories:
     create_from: master
   type: public
 - name: python-behave
-  description: ''
+  description: A tool for behavior-driven development, Python style
+  upstream: http://pypi.python.org/pypi/behave
   branches:
   - name: master
     type: protected
@@ -53824,7 +53839,7 @@ repositories:
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
-  type: private
+  type: public
 - name: python-beniget
   upstream: https://github.com/serge-sans-paille/beniget/
   description: Extract semantic information about static Python code
@@ -70082,6 +70097,7 @@ repositories:
   type: public
 - name: rubygem-ronn
   description: Manual authoring tool.
+  upstream: https://github.com/rtomayko/ronn
   branches:
   - name: master
     type: protected
@@ -70091,7 +70107,7 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
-  type: private
+  type: public
 - name: rubygem-ruby-shadow
   description: Ruby shadow password module
   upstream: https://github.com/apalmblad/ruby-shadow
@@ -70467,6 +70483,7 @@ repositories:
   type: public
 - name: sbt
   description: The simple build tool for Scala and Java projects.
+  upstream: http://www.scala-sbt.org
   branches:
   - name: master
     type: protected
@@ -70476,7 +70493,7 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
-  type: private
+  type: public
 - name: scala
   description: Combination of object-oriented and functional programming
   upstream: http://www.scala-lang.org/
@@ -72584,14 +72601,15 @@ repositories:
     create_from: master
   type: public
 - name: tclx
-  description: ''
+  description: Extensions for Tcl and Tk
+  upstream: https://github.com/flightware/tclx
   branches:
   - name: master
     type: protected
   - name: openEuler-20.09
     type: protected
     create_from: master
-  type: private
+  type: public
 - name: tcp_wrappers
   description: ''
   branches:
@@ -78975,6 +78993,7 @@ repositories:
   type: public
 - name: zinc
   description: A stand-alone version of sbt's incremental compiler.
+  upstream: https://github.com/typesafehub/zinc
   branches:
   - name: master
     type: protected
@@ -78984,7 +79003,7 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
-  type: private
+  type: public
 - name: zip
   description: ''
   branches:

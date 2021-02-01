@@ -517,6 +517,8 @@ sigs:
   - src-openeuler/sshpass
   - src-openeuler/gmt
   - src-openeuler/optipng
+  - src-openeuler/nekohtml
+  - src-openeuler/pstoedit
 - name: sig-ops
   repositories:
   - openeuler/nvwa
@@ -1946,6 +1948,8 @@ sigs:
   - src-openeuler/modello
   - src-openeuler/dietlibc
   - src-openeuler/ganglia
+  - src-openeuler/pmix
+  - src-openeuler/tclx
 - name: sig-CloudNative
   repositories:
   - src-openeuler/kubernetes
@@ -2403,6 +2407,7 @@ sigs:
   - src-openeuler/google-noto-fonts
   - src-openeuler/xorg-x11-drv-armsoc
   - src-openeuler/xorg-x11-docs
+  - src-openeuler/icon-naming-utils
 - name: Computing
   repositories:
   - src-openeuler/jamm
@@ -3105,6 +3110,15 @@ sigs:
   - src-openeuler/mybatis
   - src-openeuler/plexus-bsh-factory
   - src-openeuler/plexus-ant-factory
+  - src-openeuler/sbt
+  - src-openeuler/properties-maven-plugin
+  - src-openeuler/felix-parent
+  - src-openeuler/osgi-compendium
+  - src-openeuler/classloader-leak-test-framework
+  - src-openeuler/glassfish-annotation-api
+  - src-openeuler/logback
+  - src-openeuler/zinc
+  - src-openeuler/osgi-core
 - name: sig-Ostree-Assembly
   repositories:
   - src-openeuler/ostree_assembly
@@ -3676,7 +3690,6 @@ sigs:
   - src-openeuler/ci_check
   - src-openeuler/ci_project
   - src-openeuler/clamav-unofficial-sigs
-  - src-openeuler/classloader-leak-test-framework
   - src-openeuler/compat-libgfortran
   - src-openeuler/cvsps
   - src-openeuler/debian-keyring
@@ -3686,24 +3699,20 @@ sigs:
   - src-openeuler/extlinux-bootloader
   - src-openeuler/ezmorph
   - src-openeuler/f29-backgrounds
-  - src-openeuler/felix-parent
   - src-openeuler/Flask-RESTful
   - src-openeuler/fluid-soundfont
   - src-openeuler/folks-telepathy
   - src-openeuler/fwupdate
   - src-openeuler/geronimo-interceptor
   - src-openeuler/geronimo-validation
-  - src-openeuler/glassfish-annotation-api
   - src-openeuler/glyphicons-halflings-fonts
   - src-openeuler/gnome-backgrounds
   - src-openeuler/gnome-characters
   - src-openeuler/gnome-logs
   - src-openeuler/gnome-remote-desktop
   - src-openeuler/gnome-tweaks
-  - src-openeuler/gtkspell
   - src-openeuler/hawtjni-runtime
   - src-openeuler/http-builder
-  - src-openeuler/icon-naming-utils
   - src-openeuler/inkscape
   - src-openeuler/temporary-integration-test
   - src-openeuler/internal-issue
@@ -3730,8 +3739,6 @@ sigs:
   - src-openeuler/libomp
   - src-openeuler/libsane-hpaio
   - src-openeuler/libvncserver
-  - src-openeuler/logback
-  - src-openeuler/lzma
   - src-openeuler/mainline.list
   - src-openeuler/malaga
   - src-openeuler/malaga-suomi-voikko
@@ -3739,12 +3746,9 @@ sigs:
   - src-openeuler/mingw-srvany
   - src-openeuler/mkeuleros
   - src-openeuler/nautilus-sendto
-  - src-openeuler/nekohtml
   - src-openeuler/new.list
   - src-openeuler/openEuler_chroot
   - src-openeuler/openmotif
-  - src-openeuler/osgi-compendium
-  - src-openeuler/osgi-core
   - src-openeuler/passivetex
   - src-openeuler/perl-Crypt-CBC
   - src-openeuler/perl-Test-CPAN-Meta
@@ -3753,13 +3757,9 @@ sigs:
   - src-openeuler/perl-Unix-Syslog
   - src-openeuler/phonon-backend-gstreamer
   - src-openeuler/pkgconfig
-  - src-openeuler/pmix
-  - src-openeuler/properties-maven-plugin
   - src-openeuler/protoparser
-  - src-openeuler/pstoedit
   - src-openeuler/python-backports-functools_lru_cache
   - src-openeuler/python-backports-shutil_get_terminal_size
-  - src-openeuler/python-behave
   - src-openeuler/python-Bottleneck
   - src-openeuler/python-httpbin
   - src-openeuler/python-keras-applications
@@ -3782,11 +3782,8 @@ sigs:
   - src-openeuler/rpm-mpi-hooks
   - src-openeuler/rsh
   - src-openeuler/rubygem-hpricot
-  - src-openeuler/rubygem-ronn
   - src-openeuler/sbinary
-  - src-openeuler/sbt
   - src-openeuler/scl-utils
-  - src-openeuler/SDL_sound
   - src-openeuler/setuptool
   - src-openeuler/sni-qt
   - src-openeuler/sos-collector
@@ -3794,7 +3791,6 @@ sigs:
   - src-openeuler/syslinux-tftpboot
   - src-openeuler/system-config-firewall
   - src-openeuler/taglist-enable
-  - src-openeuler/tclx
   - src-openeuler/thx
   - src-openeuler/tomcat-native
   - src-openeuler/ttembed
@@ -3807,7 +3803,6 @@ sigs:
   - src-openeuler/zvbi
   - src-openeuler/pysendfile
   - src-openeuler/python-pycdlib
-  - src-openeuler/zinc
 - name: oVirt
   repositories:
   - src-openeuler/ioprocess
@@ -4156,6 +4151,7 @@ sigs:
   - src-openeuler/gtkspellmm30
   - src-openeuler/flatbuffers
   - src-openeuler/simde
+  - src-openeuler/SDL_sound
 - name: sig-mate-desktop
   repositories:
   - openeuler/mate-desktop
@@ -4357,6 +4353,9 @@ sigs:
   - src-openeuler/edac-utils
   - src-openeuler/mongodb
   - src-openeuler/libdap
+  - src-openeuler/rubygem-ronn
+  - src-openeuler/gtkspell
+  - src-openeuler/lzma
 - name: sig-RaspberryPi
   repositories:
   - openeuler/raspberrypi
@@ -7173,6 +7172,7 @@ sigs:
   - src-openeuler/wxPython
   - src-openeuler/python-parse_type
   - src-openeuler/python-m2r
+  - src-openeuler/python-behave
 - name: sig-release-management
   repositories:
   - src-openeuler/openEuler-lsb
