@@ -74477,6 +74477,16 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: kf5-bluez-qt
+  description: A Qt wrapper for Bluez
+  upstream: http://www.kde.org
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  type: public
 - name: openstack-nova
   description: OpenStack Compute (Nova)
   upstream: https://github.com/openstack/nova
