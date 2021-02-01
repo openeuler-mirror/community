@@ -93338,6 +93338,15 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: openstack-horizon
+  description: Horizon is a Django-based project aimed at providing a complete
+    OpenStack Dashboard along with an extensible framework for building new
+    dashboards from reusable components.
+  upstream: https://github.com/openstack/horizon
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: openstack-swift
   description: OpenStack Swift is a distributed object storage system designed to
     scale from a single machine to thousands of servers.

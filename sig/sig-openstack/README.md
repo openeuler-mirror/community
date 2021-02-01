@@ -47,6 +47,7 @@ repository地址：
 - https://gitee.com/src-openeuler/openstack-swift
 - https://gitee.com/src-openeuler/openstack-keystone
 - https://gitee.com/src-openeuler/openstack-neutron
+- https://gitee.com/src-openeuler/openstack-horizon
 - https://gitee.com/src-openeuler/openstack-glance
 - https://gitee.com/src-openeuler/openstack-ironic
 - https://gitee.com/src-openeuler/openstack-ironic-inspector
