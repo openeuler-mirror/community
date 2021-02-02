@@ -12,7 +12,7 @@
 
 - 帮助任何人，在不违反license，进出口管制或其他相关法律的前提下，可以容易的制作安装介质
 
-openEuler遵从 [Open Source Definition](https://opensource.org/docs/osd) ，满足这一定义的软件，被openEuler社区认同为开源软件。
+openEuler遵从 [Open Source Definition](https://opensource.org/docs/osd) （[中文译文](./the_open_source_definition_zh.md)），满足这一定义的软件，被openEuler社区认同为开源软件。
 
 提供适度，高质量的开源软件是openEuler主要目标之一。openEuler努力为其所提供的开源软件在生命周期内提供高质量的支持服务。开源软件众多，质量不一。本着提供高质量开源软件的宗旨，特别拟定本规则指南。本规则的中**必须**，**必须不能**，**应该**，**应该不能**的含义参考[RFC2119](https://tools.ietf.org/html/rfc2119)。
 
