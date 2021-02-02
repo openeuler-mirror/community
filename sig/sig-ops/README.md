@@ -1,29 +1,33 @@
-### sig主要目标：
-- 推动系统运维的可视化、自动化、智能化，打造高可靠性、高性能、永不中断的基础设施；
-- 构建系统数据信息体系，使数据能跨组件，跨平台共享，使上层业务更易于创新开发，保证全栈操作系统运维成为可能，打造开源/开放的操作系统；
-- 提供基础设施热补丁、热替换软件技术，保证基础设施不中断在线服务； 提供问题诊断、性能分析、系统调测等技术，提供系统运维过程中必须的可视化、自动化、智能化调试必须工具；
+# sig-Ops
+English | [简体中文](./README_cn.md)
 
-### 组织会议
-- 公开会议时间：基于北京时间，每双周一下午16:00 以公开线上会议形式讨论sig组议题。
-- 具体参会方式：提前至少一天时间，以邮件列表形式发起sig组相关议题收集，并发出会议时间和会议链接。
-- sig例行议题包括但不限于：
-        - sig新引入开源组件讨论
-        - sig内当前各个组件技术开发进展同步
-        - sig内已交付组件issue/CVE漏洞解决进展同步
-        - sig内新增需求技术点讨论
-        - sig内邮件列表收集到的其他议题讨论
+## Goal：
+- Provide the visualization, automation and intelligence of system operations to create a high-reliability, high-performance, uninterrupted infrastructure;
+- Build the data information system, so that data can be cross-component, cross-platform sharing, and the upper-level business is easier to innovate and develop, to ensure that the full stack operating system operation and operation is possible, to create an open source operating system;
+- Provide hot patch, hot replacement software technology, to ensure that the whole infrastructure does not interrupt online services, provide problem diagnosis, performance analysis, system monitoring and other technologies, provide the system operation and operation process must be visualization, automation, intelligent debugging tools;
 
-#### Note：sig例会以zoom在线会议方式公开讨论，任何感兴趣相关议题的参与者均可以旁听，我们每次的例会议题重点还是聚焦在sig内已申报的话题，以此给大家提供一个更加高效有意义的例会；
+## Meeting:
+- Public meeting time: Based on Beijing time, the sig group topics are discussed in the form of an open online meeting at 16:00 p.m. every Tuesday.
+- Specific ways to attend: at least one day in advance, launch a collection of sig group-related topics in the form of a mailing list, and send out meeting times and meeting chains
+Pick up.
+- Sig routine topics include, but are not limited to:
+        - Sig's new introduction of open source components is discussed
+        - Current progress in the development of various component technologies within sig is synchronized
+        - The delivered component issue/CVE vulnerability resolution within sig progresses simultaneously
+        - Technical discussion of new requirements within sig
+        - Other topics collected from the mailing list within sig
 
-### 当前sig maintainer成员：
-栾建海     [@luanjianhai](https://gitee.com/luanjianhai)  Email:luanjianhai@huawei.com
-胡    峰     [@solarhu](https://gitee.com/solarhu)   Email:solar.hu@huawei.com
-陈    功     [@Gongchen](https://gitee.com/Gongchen)   Email:chengong15@huawei.com
-陈亚强     [@yaqiangchen](https://gitee.com/yaqiangchen)  Email:chenyaqiang@huawei.com
-丁    翔     [@cmss_dx](https://gitee.com/cmss_dx)   Email:dingxiang@cmss.Chinamobile.com
+### Note: The sig regular meeting is openly discussed in the form of an online meeting with zoom, and any participants interested in related topics can attend, and each of our > regular meetings will focus on the declared topics within the sig, so as to provide a more efficient and meaningful regular meeting;
 
-### 联系方式
-- sig-ops使用邮件列表形式作为日常社区讨论方式，邮件列表地址如下：
+## Maintainer:
+- Luan Jianhai (@luanjianhai) (https://gite.com/luanjianhai) Email:luanjianhai@huawei.com
+- Hu Feng (@solarhu) (https://gite.com/solarhu) Email:solar.hu@huawei.com
+- Chen Gong (@Gongchen) (https://gite.com/Gongchen) Email:chengong15@huawei.com
+- Chen Yaqiang (@yaqiangchen) (https://gite.com/yaqiangchen) Email:chenyaqiang@huawei.com
+- Ding Xiang (@cmss_dx) (https://gite.com/cmss_dx) Email: dingxiang@cmss. Chinamobile.com
+
+## Contact:
+- sig-ops use mailing lists as a daily form of community discussion, with mailing list addresses as follows:
 ops@openeuler.org
-- 历史讨论记录级历次sig会议纪要归档地址如下：
+- Historical discussion record-level sig meeting minutes archive address as follows
 https://mailweb.openeuler.org/hyperkitty/list/ops@openeuler.org/
