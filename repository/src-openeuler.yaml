@@ -94891,3 +94891,24 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: nodejs-typescript
+  description: A language for application scale JavaScript development
+  upstream: https://github.com/microsoft/TypeScript
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: netdata
+  description: Real-time performance monitoring
+  upstream: https://github.com/netdata/netdata/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: zabbix
+  description: Open-source monitoring solution for your IT infrastructure
+  upstream: http://www.zabbix.com
+  branches:
+  - name: master
+    type: protected
+  type: public

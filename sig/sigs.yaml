@@ -1952,6 +1952,8 @@ sigs:
   - src-openeuler/ganglia
   - src-openeuler/pmix
   - src-openeuler/tclx
+  - src-openeuler/netdata
+  - src-openeuler/zabbix
 - name: sig-CloudNative
   repositories:
   - src-openeuler/kubernetes
@@ -3677,6 +3679,7 @@ sigs:
   - src-openeuler/uglify-js
   - src-openeuler/uglify-js1
   - src-openeuler/js-jquery1
+  - src-openeuler/nodejs-typescript
 - name: Private
   repositories:
   - openeuler/os-autoinst-distri-openEuler
