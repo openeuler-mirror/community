@@ -94855,3 +94855,29 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: i40e
+  description: Intel® Network Adapter Driver for PCIe* 40 Gigabit Ethernet Network Connections under Linux*
+  upstream: https://downloadcenter.intel.com/download/24411/Intel-Network-Adapter-Driver-for-PCIe-40-Gigabit-Ethernet-Network-Connections-Under-Linux-
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: master
+  type: public
+- name: iavf
+  description: Intel® Network Adapter Linux* Virtual Function Driver for Intel® Ethernet Controller 700 and E810 Series
+  upstream: https://downloadcenter.intel.com/download/24693/Intel-Network-Adapter-Virtual-Function-Driver-for-Intel-40-Gigabit-Ethernet-Network-Connections
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: master
+  type: public
