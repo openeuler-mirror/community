@@ -57130,13 +57130,6 @@ repositories:
     type: protected
     create_from: master
   type: public
-- name: python-fluidity-sm
-  upstream: https://github.com/nsi-iff/fluidity
-  description: State machine implementation for Python objects.
-  branches:
-  - name: master
-    type: protected
-  type: public
 - name: python-flup
   upstream: http://www.saddi.com/software/flup/
   description: Random assortment of WSGI servers (py3)

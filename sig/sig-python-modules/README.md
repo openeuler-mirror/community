@@ -37,6 +37,5 @@ myeuler
 
 *Project list & repository*
 - https://github.com/IdentityPython/pysaml2
-- https://gitee.com/src-openeuler/python-fluidity-sm
 - https://gitee.com/src-openeuler/python-invoke
 - https://gitee.com/src-openeuler/python-lexicon
