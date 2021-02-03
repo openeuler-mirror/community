@@ -23,6 +23,8 @@ OpenStack作为第二大开源社区，在全球范围拥有众多个人及企�
 
 - 陈硕[@joec88](https://gitee.com/joec88)
 - 李昆山[@liksh](https://gitee.com/liksh)
+- 黄填华[@huangtianhua](https://gitee.com/huangtianhua) huangtianhua223@gmail.com
+- 王玺源[@xiyuanwang](https://gitee.com/xiyuanwang) wangxiyuan1007@gmail.com
 
 ### Committer列表
 
