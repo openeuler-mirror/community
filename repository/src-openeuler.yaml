@@ -36416,7 +36416,8 @@ repositories:
     type: protected
     create_from: master
   type: public
-- name: openstack-osc-placement
+- name: python-osc-placement
+  rename_from: openstack-osc-placement
   description: OpenStackClient plugin for Placement service.
   upstream: https://opendev.org/openstack/osc-placement
   branches:
@@ -83593,16 +83594,6 @@ repositories:
     type: protected
     create_from: master
   type: public
-- name: openstack-python-novaclient
-  description: OpenStack Compute (Nova) Client.
-  upstream: https://github.com/openstack/python-novaclient
-  branches:
-  - name: master
-    type: protected
-  - name: openEuler-20.09
-    type: protected
-    create_from: master
-  type: public
 - name: kf5-attica
   description: KDE Frameworks Tier 1 Addon with Open Collaboration Services API
   upstream: http://www.kde.org
@@ -105776,6 +105767,14 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: openstack-tempest
+  rename_from: python-tempest
+  description: OpenStack Testing (Tempest) of an existing cloud.
+  upstream: https://opendev.org/openstack/tempest
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: openstack-ironic
   description: Ironic consists of an API and plug-ins for managing and provisioning
     physical machines in a security-aware and fault-tolerant manner. It can be used
@@ -107238,13 +107237,6 @@ repositories:
   description: A library containing standardized resource class names in the Placement
     service.
   upstream: https://opendev.org/openstack/os-resource-classes
-  branches:
-  - name: master
-    type: protected
-  type: public
-- name: python-tempest
-  description: OpenStack Testing (Tempest) of an existing cloud.
-  upstream: https://opendev.org/openstack/tempest
   branches:
   - name: master
     type: protected
