@@ -158,6 +158,13 @@ repositories:
     type: protected
     create_from: master
   type: private
+- name: filebench
+  description: Filebench is a file system and storage benchmark that can generate a large variety of workloads.
+  upstream: https://github.com/filebench/filebench
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: Flask-RESTful
   description: ''
   branches:
@@ -325,6 +332,13 @@ repositories:
   - name: openEuler-20.03-LTS
     type: protected
     create_from: master
+  type: public
+- name: liburing
+  description: liburing is the io_uring library, which provides helpers to setup and teardown io_uring instances, and also a simplified interface for applications that donnot need to deal with the full kernel side implementation.
+  upstream: https://git.kernel.dk/cgit/liburing
+  branches:
+  - name: master
+    type: protected
   type: public
 - name: ModemManager
   description: ''
