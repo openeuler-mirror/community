@@ -65316,6 +65316,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: python-sphinxcontrib-log-cabinet
+  upstream: https://github.com/davidism/sphinxcontrib-log-cabinet
+  description: Organize changelog directives in Sphinx docs
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-sphinxcontrib-pecanwsme
   upstream: https://github.com/sphinx-contrib/pecanwsme
   description: Extension to Sphinx for documenting APIs built with Pecan and WSME
