@@ -43,6 +43,6 @@
 # 项目清单
 
 repository地址：
-
+- https://gitee.com/src-openeuler/nfs-fontmanager
 - 
 - 
