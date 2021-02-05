@@ -94756,6 +94756,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: api-guarder
+  description: a tool to generate interface changes. 
+  upstream: https://gitee.com/openeuler/api-guarder
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-betamax
   description: A VCR imitation designed only for python-requests.
   upstream: https://github.com/betamaxpy/betamax

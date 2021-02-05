@@ -7,6 +7,12 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: api-guarder
+  description: A tool to generate interface changes
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: A-Tune
   description: ''
   branches:
