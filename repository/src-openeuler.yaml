@@ -105821,6 +105821,16 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: python-ironic-inspector-client
+  description: This is a client library and tool for Ironic Inspector.
+  upstream: https://github.com/openstack/python-ironic-inspector-client
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
+  type: public
 - name: python-ironic-lib
   description: A common library to be used exclusively by projects under the Ironic
     governance.
