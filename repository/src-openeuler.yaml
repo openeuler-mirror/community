@@ -105754,6 +105754,14 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: diskimage-builder
+  description: diskimage-builder is a flexible suite of components for building a 
+    wide-range of disk images, filesystem images and ramdisk images for use with OpenStack.
+  upstream: https://github.com/openstack/diskimage-builder
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: openstack-ironic
   description: Ironic consists of an API and plug-ins for managing and provisioning
     physical machines in a security-aware and fault-tolerant manner. It can be used
