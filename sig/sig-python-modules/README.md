@@ -39,3 +39,4 @@ myeuler
 - https://github.com/IdentityPython/pysaml2
 - https://gitee.com/src-openeuler/python-invoke
 - https://gitee.com/src-openeuler/python-lexicon
+- https://gitee.com/src-openeuler/python-sphinxcontrib-log-cabinet
