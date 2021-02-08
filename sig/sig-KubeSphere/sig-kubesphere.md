@@ -1,6 +1,6 @@
 
 # openEuler KubeSphere SIG
-English | [简体中文](./sig-template_cn.md)
+English | [简体中文](./sig-kubesphere_cn.md)
 
 sig-kubesphere is committed to focusing on the cloud native ecosystem around Kubernetes. Through [KubeSphere](https://github.com/kubesphere/kubesphere), it can seamlessly bridge the cloud native ecosystem tools with openEuler, and reduces the installation and learning curve of Kubernetes, in order to enable openEuler users to quickly set up a container platform.
 

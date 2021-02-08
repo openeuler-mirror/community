@@ -1,6 +1,5 @@
-# openEuler Kubernetes SIG
+# openEuler KuberSphere SIG
 
-- 在 openEuler 之上提供原生的 Kubernetes 和相关云原生工具一键安装支持
 - 提供标准的 Kubernetes 发行版 [KubeSphere](https://github.com/kubesphere/kubesphere)，适配 openEuler
 - 及时响应用户反馈，解决相关问题
 

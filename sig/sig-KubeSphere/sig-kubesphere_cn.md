@@ -1,6 +1,6 @@
 
 # openEuler KubeSphere 兴趣小组（SIG）
-[English](./sig-template.md) | 简体中文
+[English](./sig-kubesphere.md) | 简体中文
 
 sig-kubesphere 致力于围绕以 Kubernetes 为核心的云原生生态，通过 [KubeSphere](https://github.com/kubesphere/kubesphere) 将云原生的生态工具无缝接入到 openEuler，降低用户对 Kubernetes 和相关云原生工具的安装与使用门槛，让云原生赋能 openEuler 用户。
 
