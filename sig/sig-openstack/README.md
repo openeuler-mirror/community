@@ -94,6 +94,7 @@ repository地址：
 - https://gitee.com/src-openeuler/python-designateclient
 - https://gitee.com/src-openeuler/python-glanceclient
 - https://gitee.com/src-openeuler/python-ironicclient
+- https://gitee.com/src-openeuler/python-ironic-inspector-client
 - https://gitee.com/src-openeuler/python-ironic-lib
 - https://gitee.com/src-openeuler/python-microversion-parse
 - https://gitee.com/src-openeuler/python-neutron-lib
