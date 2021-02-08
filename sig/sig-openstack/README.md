@@ -54,8 +54,9 @@ repository地址：
 - https://gitee.com/src-openeuler/openstack-ironic-python-agent
 - https://gitee.com/src-openeuler/openstack-ironic-python-agent-builder
 - https://gitee.com/src-openeuler/openstack-ironic-staging-drivers
-- https://gitee.com/src-openeuler/openstack-osc-placement
+- https://gitee.com/src-openeuler/python-osc-placement
 - https://gitee.com/src-openeuler/openstack-placement
+- https://gitee.com/src-openeuler/openstack-tempest
 - https://gitee.com/src-openeuler/diskimage-builder
 - https://gitee.com/src-openeuler/novnc
 - https://gitee.com/src-openeuler/python-automaton
@@ -120,7 +121,6 @@ repository地址：
 - https://gitee.com/src-openeuler/python-os-win
 - https://gitee.com/src-openeuler/python-os-brick
 - https://gitee.com/src-openeuler/python-os-resource-classes
-- https://gitee.com/src-openeuler/python-tempest
 - https://gitee.com/src-openeuler/python-wsme
 - https://gitee.com/src-openeuler/python-taskflow
 - https://gitee.com/src-openeuler/python-tooz

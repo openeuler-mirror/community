@@ -7392,7 +7392,6 @@ sigs:
 - name: sig-openstack
   repositories:
   - src-openeuler/openstack-nova
-  - src-openeuler/openstack-python-novaclient
   - src-openeuler/openstack-swift
   - src-openeuler/openstack-neutron
   - src-openeuler/openstack-keystone
@@ -7403,9 +7402,10 @@ sigs:
   - src-openeuler/openstack-ironic-python-agent-builder
   - src-openeuler/openstack-ironic-inspector
   - src-openeuler/openstack-ironic-staging-drivers
-  - src-openeuler/openstack-osc-placement
+  - src-openeuler/python-osc-placement
   - src-openeuler/openstack-placement
   - src-openeuler/openstack-cinder
+  - src-openeuler/openstack-tempest
   - src-openeuler/diskimage-builder
   - src-openeuler/novnc
   - src-openeuler/python-debtcollector
@@ -7475,7 +7475,6 @@ sigs:
   - src-openeuler/python-os-win
   - src-openeuler/python-os-brick
   - src-openeuler/python-os-resource-classes
-  - src-openeuler/python-tempest
   - src-openeuler/python-XStatic-Angular-FileUpload
   - src-openeuler/python-XStatic-Angular-lrdragndrop
   - src-openeuler/python-XStatic-Angular-Schema-Form
