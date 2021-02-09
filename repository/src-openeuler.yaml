@@ -3724,6 +3724,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: bluez
   description: ''
@@ -18884,6 +18887,9 @@ repositories:
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: infinispan
   description: Data grid platform
@@ -20588,6 +20594,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -27302,6 +27311,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -81681,6 +81693,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
