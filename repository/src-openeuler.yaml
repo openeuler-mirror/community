@@ -82997,6 +82997,9 @@ repositories:
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: ukui-user-guide
   description: Manual for UKUI desktop environment
@@ -83017,6 +83020,9 @@ repositories:
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: ukui-kwin
   description: The window manager for UKUI desktop environment.
@@ -83031,6 +83037,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: kylin-scanner
   description: Kylin Scanner is an interface-friendly scanning software developed
@@ -83046,6 +83055,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: youker-assistant
   description: Integrated tool to aid in routine system maintenance tasks.
@@ -83067,6 +83079,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: kylin-recorder
   description: A recorder for UKUI
@@ -83081,6 +83096,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: kylin-music
   description: A simple music player.
@@ -83109,6 +83127,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: pluma
   description: Text editor for the MATE desktop.
@@ -83116,6 +83137,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: ukui-biometric-auth
   description: ''
@@ -83693,6 +83717,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
