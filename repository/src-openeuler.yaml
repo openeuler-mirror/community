@@ -58722,6 +58722,36 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: python-limits
+  description: Rate limiting utilities
+  upstream: https://github.com/alisaifee/limits
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
+  type: public
+- name: python-elasticsearch7
+  description: Python client for Elasticsearch
+  upstream: https://github.com/elastic/elasticsearch-py
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
+  type: public
+- name: python-Flask-Limiter
+  description: Rate limiting for flask applications
+  upstream: https://github.com/alisaifee/flask-limiter
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
+  type: public
 - name: python-Flask-HTTPAuth
   description: a Flask extension that simplifies the use of HTTP authentication with
     Flask routes.
@@ -61470,12 +61500,15 @@ repositories:
     create_from: master
   type: public
 - name: python-certifi
-  upstream: https://certifiio.readthedocs.io/en/latest/
+  upstream: https://github.com/certifi/python-certifi
   description: Python package for providing Mozilla's CA Bundle.
   branches:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
