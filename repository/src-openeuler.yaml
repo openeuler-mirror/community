@@ -6176,6 +6176,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: cpio
   description: ''
@@ -8601,6 +8604,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: dropwatch
   description: ''
@@ -10179,6 +10185,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: fence-virt
   description: Virtual machine fencing agent.
@@ -10192,6 +10201,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -37836,6 +37848,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -78903,6 +78918,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: sbinary
   description: Library for describing binary formats for Scala types.
@@ -106421,6 +106439,9 @@ repositories:
   - name: openEuler-20.03-LTS-SP1
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: execstack
   description: This package is built from prelink sources but contains just the execstack
@@ -106434,6 +106455,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
