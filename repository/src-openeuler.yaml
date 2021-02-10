@@ -69085,6 +69085,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-pexpect
   description: Pexpect allows easy control of interactive console applications.
