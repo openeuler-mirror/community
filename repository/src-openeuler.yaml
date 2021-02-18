@@ -59286,6 +59286,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-Pympler
   upstream: https://github.com/pympler/pympler
@@ -60048,6 +60051,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -63522,6 +63528,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-doit
   upstream: http://pydoit.org
@@ -63602,6 +63611,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -63860,6 +63872,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-execnet
   description: ''
@@ -63966,6 +63981,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -66148,6 +66166,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-jsonpath-rw-ext
   upstream: https://github.com/sileht/python-jsonpath-rw-ext
@@ -66156,6 +66177,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -67315,6 +67339,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-mimeparse
   description: ''
@@ -67479,6 +67506,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-more-itertools
   description: ''
@@ -67536,6 +67566,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -68240,6 +68273,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-ordered-set
   description: ''
@@ -68288,6 +68324,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -68427,6 +68466,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-oslo.db
   upstream: https://github.com/openstack/oslo.db
@@ -68434,6 +68476,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-oslo.i18n
   upstream: https://docs.openstack.org/oslo.i18n/latest
@@ -68454,6 +68499,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-oslo.messaging
   upstream: https://github.com/openstack/oslo.messaging
@@ -68461,6 +68509,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-oslo.middleware
   upstream: https://github.com/openstack/oslo.middleware
@@ -68468,6 +68519,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-oslo.policy
   upstream: https://github.com/openstack/oslo.policy
@@ -68475,6 +68529,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-oslo.privsep
   upstream: https://github.com/openstack/oslo.privsep
@@ -68482,6 +68539,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-oslo.reports
   upstream: https://github.com/openstack/oslo.reports
@@ -68489,6 +68549,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-oslo.rootwrap
   upstream: https://github.com/openstack/oslo.rootwrap
@@ -68496,6 +68559,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-oslo.serialization
   upstream: https://github.com/openstack/oslo.serialization
@@ -68503,6 +68569,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-oslo.service
   upstream: https://github.com/openstack/oslo.service
@@ -68510,6 +68579,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-oslo.upgradecheck
   upstream: https://github.com/openstack/oslo.upgradecheck
@@ -68517,6 +68589,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-oslo.utils
   upstream: https://github.com/openstack/oslo.utils
@@ -68524,6 +68599,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-oslo.versionedobjects
   upstream: https://github.com/openstack/oslo.versionedobjects
@@ -68531,6 +68609,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-oslo.vmware
   upstream: https://github.com/openstack/oslo.vmware
@@ -68538,6 +68619,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-oslo.sphinx
   upstream: http://www.openstack.org/
@@ -68553,6 +68637,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -70258,6 +70345,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-pyglet
   description: A cross-platform windowing and multimedia library for Python.
@@ -70540,6 +70630,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-pypng
   upstream: https://github.com/drj11/pypng
@@ -70715,6 +70808,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-pysnmp
   upstream: https://github.com/etingof/pysnmp
@@ -70723,6 +70819,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -71234,6 +71333,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -71891,6 +71993,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -73371,6 +73476,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-statsmodels
   upstream: https://www.statsmodels.org/
@@ -73420,6 +73528,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -73613,6 +73724,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-tambo
   upstream: UNKNOWN
@@ -73747,6 +73861,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-testresources
   upstream: https://launchpad.net/testresources
@@ -73755,6 +73872,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -74511,6 +74631,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-virtualenv
   description: ''
@@ -74623,6 +74746,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-vpoller
   upstream: https://github.com/dnaeon/py-vpoller
@@ -74704,6 +74830,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-watchdog
   upstream: http://github.com/gorakhargosh/watchdog
@@ -74746,6 +74875,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -74829,6 +74961,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -83757,6 +83892,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -105915,6 +106053,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: openstack-keystone
   description: OpenStack Keystone provides authentication, authorization and service
@@ -106049,6 +106190,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: NutShell-Kernel
   description: Porting openEuler kernel to support NutShell UCAS COOSCA CPU.
@@ -106997,6 +107141,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-sushy
   description: Sushy is a Python library to communicate with Redfish based systems
@@ -107046,6 +107193,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: musl
   description: musl is an implementation of the C standard library built on top of
@@ -107118,6 +107268,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: fcitx-cloudpinyin
   description: Cloudpinyin module for fcitx
@@ -107146,6 +107299,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-yappi
   description: A Python Profiler
@@ -107153,6 +107309,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-gabbi
   description: A tool for running HTTP tests where requests and responses are represented
@@ -107161,6 +107320,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-importlib-resources
   description: Read resources from Python packages
@@ -107356,6 +107518,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-wsme
   description: Web Service Made Easy
@@ -107363,6 +107528,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-pysendfile
   description: A system call which provides a "zero-copy" way of copying data from
@@ -107371,6 +107539,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-taskflow
   description: A library to complete workflows/tasks in HA manner.
@@ -107378,6 +107549,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-tooz
   description: Coordination library for distributed systems.
@@ -107385,6 +107559,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-wsgi-intercept
   description: wsgi_intercept installs a WSGI application in place of a real URI for
@@ -107393,6 +107570,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-xmod
   description: Extend a module with any Python object.
@@ -107400,6 +107580,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-ovsdbapp
   description: A library for creating OVSDB application.
@@ -107407,6 +107590,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-requests-mock
   description: Mocked responses for the requests library.
@@ -107414,6 +107600,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-seqdiag
   description: seqdiag generate sequence-diagram image file from spec-text file.
@@ -107421,6 +107610,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-sphinxcontrib-actdiag
   description: A sphinx extension for embedding activity diagram using actdiag.
@@ -107428,6 +107620,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-sphinxcontrib-seqdiag
   description: A sphinx extension for embedding sequence diagram using seqdiag.
@@ -107435,6 +107630,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-dracclient
   description: Library for managing machines with Dell iDRAC cards.
@@ -107442,6 +107640,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-proliantutils
   description: Utility library for managing HP Proliant servers.
@@ -107449,6 +107650,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-scciclient
   description: Python ServerView Common Command Interface (SCCI) Client Library
@@ -107456,6 +107660,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-os-traits
   description: os-traits is an OpenStack library containing standardized trait strings.
@@ -107463,6 +107670,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-os-vif
   description: A library for plugging and unplugging virtual interfaces in OpenStack.
@@ -107470,6 +107680,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-os-win
   description: This library contains Windows / Hyper-V specific code commonly used
@@ -107478,6 +107691,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-os-brick
   description: OpenStack Cinder brick library for managing local volume attaches.
@@ -107485,6 +107701,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-os-resource-classes
   description: A library containing standardized resource class names in the Placement
@@ -107493,6 +107712,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: embedded-kernel
   description: Kernel of embedded
@@ -107507,6 +107729,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: LZMA-SDK
   description: The LZMA SDK provides the documentation, samples, header files, libraries,
@@ -107529,6 +107754,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: tesseract-tessdata
   upstream: https://github.com/tesseract-ocr/tessdata_fast
