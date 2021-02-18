@@ -7612,6 +7612,26 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: zssh
+  description: SSH and Telnet client with ZMODEM file transfer capability
+  upstream: http://zssh.sourceforge.net
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
+  type: public
+- name: qt-at-spi
+  description: Qt plugin that bridges Qt's accessibility API to AT-SPI2
+  upstream: https://gitorious.org/qt-at-spi
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
+  type: public
 - name: dejagnu
   description: ''
   branches:
