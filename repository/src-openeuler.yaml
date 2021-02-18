@@ -68407,6 +68407,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-osc-lib
   upstream: https://opendev.org/openstack/osc-lib
@@ -105930,6 +105933,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: diskimage-builder
   description: diskimage-builder is a flexible suite of components for building a 
@@ -106132,6 +106138,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-os-client-config
   description: OpenStack Client Configuation Library
