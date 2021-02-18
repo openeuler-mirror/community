@@ -113,3 +113,5 @@ repository地址：
   - https://gitee.com/src-openeuler/fcitx-cloudpinyin
   - https://gitee.com/src-openeuler/fcitx-sunpinyin
   - https://gitee.com/src-openeuler/sunpinyin
+  - https://gitee.com/src-openeuler/qt-at-spi
+  - https://gitee.com/src-openeuler/zssh
