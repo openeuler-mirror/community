@@ -36467,6 +36467,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: options
   description: Library for managing sets of JVM properties to configure an app or
@@ -58520,6 +58523,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: private
 - name: pyserial
   description: ''
@@ -58620,6 +58626,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -59501,6 +59510,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-Angular
   upstream: http://angularjs.org
@@ -59509,6 +59521,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -59521,6 +59536,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-Angular-FileUpload
   upstream: https://github.com/danialfarid/ng-file-upload
@@ -59528,6 +59546,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-Angular-Gettext
   upstream: https://angular-gettext.rocketeer.be/
@@ -59538,6 +59559,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-Angular-lrdragndrop
   upstream: https://github.com/lorenzofox3/lrDragNDrop
@@ -59545,6 +59569,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-Angular-Schema-Form
   upstream: https://github.com/json-schema-form/angular-schema-form
@@ -59552,6 +59579,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-Bootstrap-Datepicker
   upstream: https://github.com/uxsolutions/bootstrap-datepicker
@@ -59559,6 +59589,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-Bootstrap-SCSS
   upstream: https://github.com/twbs/bootstrap-sass
@@ -59569,6 +59602,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-D3
   upstream: https://github.com/d3/d3
@@ -59576,6 +59612,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-Font-Awesome
   upstream: https://fortawesome.github.io/Font-Awesome/
@@ -59586,6 +59625,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-Hogan
   upstream: https://github.com/twitter/hogan.js
@@ -59593,6 +59635,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-JSEncrypt
   upstream: http://travistidwell.com/jsencrypt/
@@ -59601,6 +59646,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -59613,6 +59661,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-jQuery
   upstream: http://jquery.com/
@@ -59621,6 +59672,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-JQuery-Migrate
   upstream: https://opendev.org/openstack/xstatic-jquery-migrate
@@ -59628,6 +59682,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-JQuery.quicksearch
   upstream: https://opendev.org/openstack/xstatic-jquery.quicksearch
@@ -59635,6 +59692,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-JQuery.TableSorter
   upstream: https://opendev.org/openstack/xstatic-jquery.tablesorter
@@ -59642,6 +59702,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-jquery-ui
   upstream: https://github.com/jquery/jquery-ui
@@ -59650,6 +59713,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-Patternfly-Bootstrap-Treeview
   upstream: https://www.patternfly.org/
@@ -59670,6 +59736,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-mdi
   upstream: http://materialdesignicons.com
@@ -59680,6 +59749,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-objectpath
   upstream: https://github.com/mike-marcacci/objectpath
@@ -59687,6 +59759,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-Rickshaw
   upstream: https://opendev.org/openstack/xstatic-rickshaw
@@ -59694,6 +59769,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-roboto-fontface
   upstream: https://github.com/choffmeister/roboto-fontface-bower
@@ -59702,6 +59780,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -59714,6 +59795,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-Spin
   upstream: https://opendev.org/openstack/xstatic-spin
@@ -59721,6 +59805,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-term.js
   upstream: https://github.com/chjj/term.js
@@ -59728,6 +59815,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-tv4
   upstream: https://github.com/geraintluff/tv4
@@ -59736,6 +59826,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-XlsxWriter
   upstream: https://github.com/jmcnamara/XlsxWriter
@@ -60831,6 +60924,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-bashate
   upstream: http://docs.openstack.org/developer/bashate/
@@ -60839,6 +60935,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -62577,6 +62676,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-datanommer.consumer
   upstream: http://github.com/fedora-infra/datanommer
@@ -62997,6 +63099,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-django-discover-runner
   upstream: http://github.com/jezdez/django-discover-runner
@@ -63066,6 +63171,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -63150,6 +63258,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-django-annoying
   upstream: https://github.com/skorokithakis/django-annoying
@@ -63191,6 +63302,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -63319,6 +63433,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-rjsmin
   upstream: http://opensource.perlig.de/rjsmin/
@@ -63327,6 +63444,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -63747,6 +63867,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-entrypoints
   description: ''
@@ -64838,6 +64961,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-gerrymander
   upstream: https://github.com/berrange/gerrymander
@@ -65849,6 +65975,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-iowait
   upstream: https://launchpad.net/python-iowait
@@ -66715,6 +66844,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-libNeuroML
   upstream: http://libneuroml.readthedocs.org/en/latest/
@@ -68149,6 +68281,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-oauthlib
   description: ''
@@ -68649,6 +68784,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-oslotest
   upstream: https://docs.openstack.org/oslotest/latest/
@@ -70537,6 +70675,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-pymongo
   description: ''
@@ -71240,6 +71381,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-pytest-remotedata
   upstream: https://astropy.org
@@ -71811,6 +71955,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-reportlab
   description: ''
@@ -72079,6 +72226,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -72692,6 +72842,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-sieve
   upstream: http://github.com/ralphbean/sieve
@@ -73172,6 +73325,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-sphinx-gallery
   upstream: https://sphinx-gallery.github.io
@@ -73283,6 +73439,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -73464,6 +73623,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -89500,6 +89662,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: perl-Alien-Libxml2
   upstream: https://metacpan.org/release/Alien-Libxml2
@@ -106056,6 +106221,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: openstack-swift
   description: OpenStack Swift is a distributed object storage system designed to
@@ -106064,6 +106232,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: openstack-neutron
   description: Neutron is an OpenStack project to provide "network connectivity as
@@ -106084,6 +106255,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: openstack-glance
   description: Glance is an OpenStack project that provides services and associated
@@ -106105,6 +106279,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: openstack-tempest
   rename_from: python-tempest
@@ -106113,6 +106290,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: openstack-ironic
   description: Ironic consists of an API and plug-ins for managing and provisioning
@@ -106124,6 +106304,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: openstack-ironic-python-agent
   description: An agent for controlling and deploying Ironic controlled baremetal
@@ -106132,6 +106315,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: openstack-ironic-python-agent-builder
   description: Tools and scripts to build a deployment, cleaning or inspection ramdisk
@@ -106140,6 +106326,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: openstack-ironic-inspector
   description: Hardware introspection for OpenStack Bare Metal
@@ -106147,6 +106336,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: openstack-ironic-staging-drivers
   description: A project used to hold out-of-tree ironic drivers
@@ -106154,6 +106346,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: openstack-placement
   description: OpenStack Placement provides an HTTP service for managing, selecting,
@@ -106163,6 +106358,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: novnc
   description: VNC client web application
@@ -106201,6 +106399,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-openstackclient
   description: OpenStackClient (aka OSC) is a command-line client for OpenStack that
@@ -106645,6 +106846,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -107241,6 +107445,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -107865,6 +108072,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: nfs-fontmanager
   description: Font management tool
