@@ -106169,6 +106169,12 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: jboss-el-2.2-api
   description: Expression Language 2.2 API
