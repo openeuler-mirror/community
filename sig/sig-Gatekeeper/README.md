@@ -26,6 +26,7 @@
 - zha_hw
 - liuqi469227928
 - tracedeng
+- 范佳臣 <fanjiachen3@huawei.com> [disnight](https://gitee.com/disnight)
 
 ### Committer列表
 - name[@giteeID](giteeID链接)
