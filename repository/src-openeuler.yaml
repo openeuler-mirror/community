@@ -106897,6 +106897,9 @@ repositories:
   - name: openEuler-20.03-LTS-SP1
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-readme-renderer
   description: readme_renderer is a library for rendering "readme" descriptions for
