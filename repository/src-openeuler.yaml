@@ -4728,6 +4728,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: poco
   description: poco is a ROS-independent, C++ Libraries.
@@ -4735,6 +4738,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: stage
   description: Mobile robot simulator.
