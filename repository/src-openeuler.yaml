@@ -62018,6 +62018,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-colorclass
   upstream: https://github.com/Robpol86/colorclass
@@ -64172,6 +64175,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -74669,6 +74675,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -107063,6 +107072,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: mod_wsgi
   description: A WSGI interface for Python web applications in Apache
@@ -107074,6 +107086,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
