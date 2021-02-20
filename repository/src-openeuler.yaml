@@ -67381,13 +67381,17 @@ repositories:
   type: public
 - name: python-matplotlib
   description: Python 2D plotting library.
+  upstream: https://github.com/matplotlib/matplotlib
   branches:
   - name: master
     type: protected
   - name: openEuler-20.09
     type: protected
     create_from: master
-  type: private
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
+  type: public
 - name: python-mccabe
   description: McCabe complexity checker for Python
   upstream: http://pypi.python.org/pypi/mccabe
