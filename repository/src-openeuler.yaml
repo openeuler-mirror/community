@@ -28526,6 +28526,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: mdb
+  description: modular debugger
+  upstream: https://github.com/openEuler-Computing/mdb
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: libuninameslist
   description: Unicode character names and annotations library
   upstream: https://github.com/fontforge/libuninameslist
