@@ -35643,6 +35643,16 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: openEuler-menus
+  description: Configuration and data files for the desktop menus
+  upstream: https://gitee.com/openeuler/openEuler-menus
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
+  type: public
 - name: openEuler-lsb
   description: LSB support for linux Standard Base specification
   upstream: https://gitee.com/openeuler/openEuler-lsb
