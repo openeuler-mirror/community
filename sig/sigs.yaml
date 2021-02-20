@@ -6024,7 +6024,6 @@ sigs:
   - src-openeuler/python-docker-pycreds
   - src-openeuler/python-dict2xml
   - src-openeuler/python-aniso8601
-  - src-openeuler/python-ldappool
   - src-openeuler/python-aaargh
   - src-openeuler/python-abclient
   - src-openeuler/python-abimap
@@ -6390,7 +6389,6 @@ sigs:
   - src-openeuler/python-funcparserlib
   - src-openeuler/python-furl
   - src-openeuler/python-fusepy
-  - src-openeuler/python-futurist
   - src-openeuler/python-fuzzyfinder
   - src-openeuler/python-fypp
   - src-openeuler/python-gabbi
@@ -6624,11 +6622,7 @@ sigs:
   - src-openeuler/python-openidc-client
   - src-openeuler/python-openpyxl
   - src-openeuler/python-opensensemap-api
-  - src-openeuler/python-openstackclient
-  - src-openeuler/python-openstackdocstheme
   - src-openeuler/python-orderedmultidict
-  - src-openeuler/python-os-service-types
-  - src-openeuler/python-oslotest
   - src-openeuler/python-outcome
   - src-openeuler/python-outdated
   - src-openeuler/python-packit
@@ -6725,7 +6719,6 @@ sigs:
   - src-openeuler/python-pygal
   - src-openeuler/python-pygatt
   - src-openeuler/python-pygeoip
-  - src-openeuler/python-pyghmi
   - src-openeuler/python-pygments-style-solarized
   - src-openeuler/python-pyhcl
   - src-openeuler/python-pyi2cflash
@@ -6857,7 +6850,6 @@ sigs:
   - src-openeuler/python-requests-kerberos
   - src-openeuler/python-requests-ntlm
   - src-openeuler/python-requests-oauthlib
-  - src-openeuler/python-requestsexceptions
   - src-openeuler/python-restfly
   - src-openeuler/python-restsh
   - src-openeuler/python-retask
@@ -6964,8 +6956,6 @@ sigs:
   - src-openeuler/python-statsmodels
   - src-openeuler/python-stdlib-list
   - src-openeuler/python-stem
-  - src-openeuler/python-stestr
-  - src-openeuler/python-stevedore
   - src-openeuler/python-stomper
   - src-openeuler/python-stompest
   - src-openeuler/python-stuf
@@ -7056,7 +7046,6 @@ sigs:
   - src-openeuler/python-webassets
   - src-openeuler/python-webcolors
   - src-openeuler/python-websockets
-  - src-openeuler/python-websockify
   - src-openeuler/python-webthing-ws
   - src-openeuler/python-whichcraft
   - src-openeuler/python-whisper
@@ -7085,18 +7074,7 @@ sigs:
   - src-openeuler/python-xmod
   - src-openeuler/python-xpath-expressions
   - src-openeuler/python-XStatic
-  - src-openeuler/python-XStatic-Angular
-  - src-openeuler/python-XStatic-Angular-Bootstrap
-  - src-openeuler/python-XStatic-Angular-Gettext
-  - src-openeuler/python-XStatic-Bootstrap-SCSS
-  - src-openeuler/python-XStatic-bootswatch
-  - src-openeuler/python-XStatic-Font-Awesome
-  - src-openeuler/python-XStatic-Jasmine
-  - src-openeuler/python-XStatic-JSEncrypt
-  - src-openeuler/python-XStatic-mdi
   - src-openeuler/python-XStatic-Patternfly-Bootstrap-Treeview
-  - src-openeuler/python-XStatic-roboto-fontface
-  - src-openeuler/python-XStatic-smart-table
   - src-openeuler/python-xtermcolor
   - src-openeuler/python-xunitparser
   - src-openeuler/python-xvfbwrapper
@@ -7475,21 +7453,43 @@ sigs:
   - src-openeuler/python-os-win
   - src-openeuler/python-os-brick
   - src-openeuler/python-os-resource-classes
+  - src-openeuler/python-XStatic-jquery-ui
+  - src-openeuler/python-XStatic-term.js
+  - src-openeuler/python-futurist
+  - src-openeuler/python-ldappool
+  - src-openeuler/python-openstackclient
+  - src-openeuler/python-openstackdocstheme
+  - src-openeuler/python-oslotest
+  - src-openeuler/python-os-service-types
+  - src-openeuler/python-pyghmi
+  - src-openeuler/python-requestsexceptions
+  - src-openeuler/python-stestr
+  - src-openeuler/python-stevedore
+  - src-openeuler/python-websockify
+  - src-openeuler/python-XStatic-Angular
+  - src-openeuler/python-XStatic-Angular-Bootstrap
   - src-openeuler/python-XStatic-Angular-FileUpload
+  - src-openeuler/python-XStatic-Angular-Gettext
   - src-openeuler/python-XStatic-Angular-lrdragndrop
   - src-openeuler/python-XStatic-Angular-Schema-Form
   - src-openeuler/python-XStatic-Bootstrap-Datepicker
+  - src-openeuler/python-XStatic-Bootstrap-SCSS
+  - src-openeuler/python-XStatic-bootswatch
   - src-openeuler/python-XStatic-D3
+  - src-openeuler/python-XStatic-Font-Awesome
   - src-openeuler/python-XStatic-Hogan
+  - src-openeuler/python-XStatic-Jasmine
   - src-openeuler/python-XStatic-jQuery
-  - src-openeuler/python-XStatic-JQuery-Migrate
   - src-openeuler/python-XStatic-JQuery.quicksearch
   - src-openeuler/python-XStatic-JQuery.TableSorter
-  - src-openeuler/python-XStatic-jquery-ui
+  - src-openeuler/python-XStatic-JQuery-Migrate
+  - src-openeuler/python-XStatic-JSEncrypt
+  - src-openeuler/python-XStatic-mdi
   - src-openeuler/python-XStatic-objectpath
   - src-openeuler/python-XStatic-Rickshaw
+  - src-openeuler/python-XStatic-roboto-fontface
+  - src-openeuler/python-XStatic-smart-table
   - src-openeuler/python-XStatic-Spin
-  - src-openeuler/python-XStatic-term.js
   - src-openeuler/python-XStatic-tv4
 - name: sig-wine
   repositories:
