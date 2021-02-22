@@ -32360,6 +32360,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: memwatch
+  description: memwatch is an ANSI C fault tolerant memory leak and corruption detection tool.
+  upstream: https://gitee.com/src-openeuler/memwatch
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: mercurial
   description: ''
   branches:
