@@ -109,7 +109,14 @@ Technical Committ讨论后，可以将被拒绝引入的软件被记录到一个
 
 整个引入的过程都**必须**可被追踪。[https://gitee.com/openeuler/community/issues](https://gitee.com/openeuler/community/issues) 是这个过程的追踪系统。
 
-Technical Committee通过提交PR(Pull Request)来评审，管理软件退出。
+### 执行团队
+1. Packaging：团队负责软件包生命周期监控，并通知sig组，按月在TC例会汇报总体情况。
+2. 对应sig：负责对Packaging给出的退出软件，完成替代分析，并提交PR给TC审核
+2. Technical Committee：负责审批软件退出申请，并放入sig-recycle，当所有版本不再使用时删除对应仓库
+3. sig-release-management： 根据TC的审核意见，推动客户完成替代，新发布版本不再集成sig-recycle内的软件（非SP版本）
+
+### 例外软件管理
+工具，字体类工具，如果被社区广泛使用，在最后一个版本发布后，一直无CVE问题，或者少量CVE并且社区会主动修复(未发布版本)，可以纳入[例外软件清单](https://gitee.com/openeuler/community/blob/master/zh/technical-committee/governance/exceptional-software-list.yaml)，本清单例行在TC审核。
 
 ### openEuler软件包退出原则
 
@@ -117,7 +124,7 @@ Technical Committee通过提交PR(Pull Request)来评审，管理软件退出。
 1. 软件的License变化，或者其他法律法规影响了目前正在使用的版本，导致openEuler因为法务风险，不能继续集成该软件
 2. 存在恶意代码或严重安全隐患且openEuler 社区无能力修复的，要求软件被立即移除。
 
-除以上描述两种场景外，剩下的场景openEuler对软件包的退出实行过程化管理：
+除以上描述两种场景外，且不在例外软件清单内，剩下的场景openEuler对软件包的退出实行过程化管理：
 
 1. 随着技术演进与发展，软件因技术陈旧或架构落后，不能满足现有的应用场景被其他更优秀的软件所取代。
 2. openEuler 已经集成的版本过于老旧，且软件新版本License 或其他法律法规限制导致openEuler 不能升级新版本。
@@ -128,10 +135,8 @@ Technical Committee通过提交PR(Pull Request)来评审，管理软件退出。
 如果软件符合以上任何一条退出条件，技术委员会与相应SIG的maintainer将首先分析该软件在当前 openEuler 社区中被依赖、被使用的情况。
 
 1. 如果 openEuler 中存在依赖关系，且短时间内不能解除，我们建议 SIG 在 github(或其他主流代码托管平台，例如gitee，gitlab等) 上新建分支代码仓，并主动进行社区维护动作。
-2. 如果 openEuler 中不存在依赖关系，或者短时间内可以解除：
-   1. 技术委员会将通知 release management 团队，将这个软件包从 openEuler 正式发行中移出，并在相应的release notes，以及spec文件中标识；软件包将移动到扩展软件包池中；
-   2. 如果原 SIG 愿意继续管理这款软件，则需要承担修复 openEuler 社区例行巡检所发现问题的责任；
-   3. 如果原 SIG 认为没有意愿继续管理这款软件，则相关软件包将从原 SIG 移交 sig-recycle
+2. 如果开源软件因为License或其他法律限制导致不能升级新版本，并且该软件被大规模使用，对应SIG组愿意继续维护老版本，参考自行维护策略。
+
 
 ### 开源软件自维护策略
 
@@ -139,6 +144,7 @@ Technical Committee通过提交PR(Pull Request)来评审，管理软件退出。
 
 1. 知名社区或组织宣布停止维护、License 变化或出口管制原因导致不能集成新版本的，短期内由软件所在 SIG 建立的github(或其他主流代码托管平台，例如gitee，gitlab等)  项目维护，并且寻找替代软件，推动上下游尽快切换。
 2. 个人、小型社区或组织投入不足的，优先联系社区maintainer，传递openEuler 参与贡献的意愿，重新激活上游社区。maintainer 不响应的，需要将软件迁移到openEuler SIG 在github(或其他主流代码托管平台，例如gitee，gitlab等)  建立的项目下，由openEuler SIG维护。迁移后需要在原始上游社区发布openEuler SIG继续维护软件的通知，吸引社区其他参与者成为贡献者。
+3. [自行维护软件清单](https://gitee.com/openeuler/community/blob/master/zh/technical-committee/governance/self-maintenance-software-list.yaml)，季度在TC审核。
 
 ### 开源软件自维护质量要求
 
@@ -154,7 +160,7 @@ Technical Committee通过提交PR(Pull Request)来评审，管理软件退出。
 
 如果到达了维护截止时间，满足退出条件，需要从原SIG 迁移到 [sig-Recycle](https://gitee.com/openeuler/community/tree/master/sig/sig-recycle) 下，由 sig-Recycle SIG管理，进入sig-Recycle表示这个软件进入有限维护模式，不响应issue和安全漏洞警告，但是相应的软件构建还是正常执行，通过EPEL 仓库对外发布，用户在理解风险的前提下，依然可以安装和使用这个软件。
 
-Technical Committee例行审视sig-Recycle中的软件，制定每个软件的删除计划，并且在openeuler/community中公示。
+Release management例行审视sig-Recycle中的软件，制定每个软件的删除计划，并且在openeuler/community中公示。
 
 ## 软件选型原则
 
