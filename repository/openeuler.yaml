@@ -413,6 +413,12 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: openEuler-menus
+  description: Configuration and data files for the desktop menus
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: openEuler-lsb
   description: LSB support for linux Standard Base specification
   branches:
