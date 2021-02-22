@@ -106475,6 +106475,18 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: python-heatclient
+  description: This is a client for the OpenStack Heat API. There's a Python API (the
+    heatclient module), and a command-line script (heat). Each implements 100% of
+    the OpenStack Heat API.
+  upstream: https://github.com/openstack/python-heatclient
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
+  type: public
 - name: python-ironic-inspector-client
   description: This is a client library and tool for Ironic Inspector.
   upstream: https://github.com/openstack/python-ironic-inspector-client
