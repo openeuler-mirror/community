@@ -60,6 +60,7 @@ repository地址：
 - https://gitee.com/src-openeuler/openstack-placement
 - https://gitee.com/src-openeuler/openstack-tempest
 - https://gitee.com/src-openeuler/diskimage-builder
+- https://gitee.com/src-openeuler/python-etcd3gw
 - https://gitee.com/src-openeuler/novnc
 - https://gitee.com/src-openeuler/python-automaton
 - https://gitee.com/src-openeuler/python-cursive
