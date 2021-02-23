@@ -107275,6 +107275,9 @@ repositories:
   - name: openEuler-20.03-LTS-SP1
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: lcdf-typetools
   description: Collection of Type 1 and 2 font manipulation utilities
@@ -107402,6 +107405,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
