@@ -726,6 +726,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: Xaw3d
   description: ''
@@ -4460,6 +4463,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -11420,6 +11426,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: gavl
   description: ''
@@ -12263,6 +12272,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -15610,6 +15622,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -25003,6 +25018,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: libglvnd
   description: ''
@@ -25095,6 +25113,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -26524,6 +26545,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -29526,6 +29550,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -33115,6 +33142,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: mousetweaks
   description: Accessibility enhancements for the mouse
@@ -36565,6 +36595,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: orc
   description: ''
@@ -37585,6 +37618,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -77917,6 +77953,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: rmic-maven-plugin
   description: Uses the java rmic compiler to generate classes used in remote method
@@ -82365,6 +82404,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: thunar-media-tags-plugin
   upstream: http://goodies.xfce.org/projects/thunar-plugins/thunar-media-tags-plugin
@@ -82373,6 +82415,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -82385,6 +82430,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: thunar-volman
   upstream: http://goodies.xfce.org/projects/thunar-plugins/thunar-volman
@@ -82395,6 +82443,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: thunarx-python
   upstream: http://goodies.xfce.org/projects/bindings/thunarx-python
@@ -82403,6 +82454,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -83181,6 +83235,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -87033,6 +87090,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: xbean
   description: A plugin based server
@@ -87378,6 +87438,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: xfce-polkit
   upstream: https://github.com/ncopa/xfce-polkit
@@ -87386,6 +87449,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -87398,6 +87464,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: xfce4-appfinder
   upstream: http://www.xfce.org/
@@ -87406,6 +87475,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -87418,6 +87490,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: xfce4-calculator-plugin
   upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-calculator-plugin
@@ -87426,6 +87501,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -87438,6 +87516,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: xfce4-cpufreq-plugin
   upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-cpufreq-plugin
@@ -87446,6 +87527,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -87458,6 +87542,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: xfce4-datetime-plugin
   upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-datetime-plugin
@@ -87466,6 +87553,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -87478,6 +87568,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: xfce4-dict
   upstream: http://goodies.xfce.org/projects/applications/xfce4-dict
@@ -87486,6 +87579,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -87498,6 +87594,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: xfce4-embed-plugin
   upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-embed-plugin
@@ -87506,6 +87605,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -87518,6 +87620,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: xfce4-fsguard-plugin
   upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-fsguard-plugin
@@ -87526,6 +87631,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -87538,6 +87646,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: xfce4-hardware-monitor-plugin
   upstream: https://goodies.xfce.org/projects/panel-plugins/xfce4-hardware-monitor-plugin
@@ -87546,6 +87657,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -87558,6 +87672,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: xfce4-mount-plugin
   upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-mount-plugin
@@ -87566,6 +87683,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -87578,6 +87698,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: xfce4-netload-plugin
   upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-netload-plugin
@@ -87586,6 +87709,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -87598,6 +87724,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: xfce4-notifyd
   upstream: http://goodies.xfce.org/projects/applications/xfce4-notifyd
@@ -87606,6 +87735,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -87618,6 +87750,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: xfce4-panel-profiles
   upstream: https://git.xfce.org/apps/xfce4-panel-profiles/about/
@@ -87626,6 +87761,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -87638,6 +87776,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: xfce4-power-manager
   upstream: http://goodies.xfce.org/projects/applications/xfce4-power-manager
@@ -87646,6 +87787,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -87658,6 +87802,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: xfce4-screensaver
   upstream: https://git.xfce.org/apps/xfce4-screensaver/
@@ -87666,6 +87813,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -87678,6 +87828,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: xfce4-sensors-plugin
   upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-sensors-plugin
@@ -87686,6 +87839,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -87698,6 +87854,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: xfce4-settings
   upstream: http://www.xfce.org/
@@ -87706,6 +87865,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -87718,6 +87880,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: xfce4-statusnotifier-plugin
   upstream: http://www.xfce.org/
@@ -87726,6 +87891,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -87738,6 +87906,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: xfce4-taskmanager
   upstream: http://goodies.xfce.org/projects/applications/xfce4-taskmanager
@@ -87746,6 +87917,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -87758,6 +87932,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: xfce4-time-out-plugin
   upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-time-out-plugin
@@ -87766,6 +87943,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -87778,6 +87958,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: xfce4-vala
   upstream: http://wiki.xfce.org/vala-bindings
@@ -87788,6 +87971,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: xfce4-verve-plugin
   upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-verve-plugin
@@ -87796,6 +87982,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -87809,6 +87998,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: xfce4-wavelan-plugin
   upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-wavelan-plugin
@@ -87817,6 +88009,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -87829,6 +88024,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: xfce4-whiskermenu-plugin
   upstream: http://gottcode.org/xfce4-whiskermenu-plugin/
@@ -87839,6 +88037,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: xfce4-xkb-plugin
   upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-xkb-plugin
@@ -87847,6 +88048,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -87872,6 +88076,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: xfdesktop
   upstream: http://www.xfce.org/
@@ -87880,6 +88087,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
@@ -87932,6 +88142,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
