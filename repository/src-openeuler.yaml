@@ -108336,3 +108336,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: dibbler
+  description: Portable DHCPv6 implementation
+  upstream: https://github.com/tomaszmrugalski/dibbler
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
+  type: public
