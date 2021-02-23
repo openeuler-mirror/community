@@ -85047,6 +85047,9 @@ repositories:
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: xorg-x11-drv-synaptics
   description: Xorg X11 Synaptics touchpad input driver
@@ -85055,6 +85058,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
