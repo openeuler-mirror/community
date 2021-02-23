@@ -75955,6 +75955,16 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: python-zstd
+  upstream: https://github.com/sergey-dryabzhinsky/python-zstd
+  description: Simple python bindings to Yann Collet ZSTD compression library
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
+  type: public
 - name: python2
   description: ''
   branches:
