@@ -117,6 +117,7 @@ Technical Committ讨论后，可以将被拒绝引入的软件被记录到一个
 
 ### 例外软件管理
 工具，字体类工具，如果被社区广泛使用，在最后一个版本发布后，一直无CVE问题，或者少量CVE并且社区会主动修复(未发布版本)，可以纳入[例外软件清单](https://gitee.com/openeuler/community/blob/master/zh/technical-committee/governance/exceptional-software-list.yaml)，本清单例行在TC审核。
+例如：zlib（被大量依赖），lzma-java（被netty依赖）
 
 ### openEuler软件包退出原则
 
