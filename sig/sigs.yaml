@@ -1446,7 +1446,6 @@ sigs:
   - src-openeuler/rpmdevtools
   - src-openeuler/nginx
   - src-openeuler/multilib-rpm-config
-  - src-openeuler/obs_meta
 - name: DB
   repositories:
   - src-openeuler/derby
@@ -7176,6 +7175,7 @@ sigs:
   - src-openeuler/openEuler-lsb
   - openeuler/openEuler-lsb
   - openeuler/release-management
+  - src-openeuler/obs_meta
 - name: xfce
   repositories:
   - src-openeuler/Thunar
