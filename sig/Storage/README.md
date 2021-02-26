@@ -103,7 +103,6 @@ repository地址：
 - https://gitee.com/src-openeuler/DCache
 - https://gitee.com/src-openeuler/s3fs-fuse
 - https://gitee.com/src-openeuler/spdk
-- https://gitee.com/src-openeuler/pmdk
 - https://gitee.com/src-openeuler/bcache-tools
 - https://gitee.com/src-openeuler/filebench
 - https://gitee.com/src-openeuler/liburing
