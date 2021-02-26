@@ -107076,21 +107076,6 @@ repositories:
     type: protected
     create_from: master
   type: public
-- name: pmdk
-  description: The Persistent Memory Development Kit (PMDK) is a collection of libraries
-    and tools for System Administrators and Application Developers to simplify managing
-    and accessing persistent memory devices. For more information, see https://pmem.io
-  upstream: https://github.com/pmem/pmdk
-  branches:
-  - name: master
-    type: protected
-  - name: openEuler-20.03-LTS-Next
-    type: protected
-    create_from: master
-  - name: openEuler-21.03
-    type: protected
-    create_from: master
-  type: public
 - name: ocaml-dune
   description: A composable build system for OCaml
   upstream: https://github.com/ocaml/dune
