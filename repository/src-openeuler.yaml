@@ -7585,19 +7585,6 @@ repositories:
     type: protected
     create_from: master
   type: public
-- name: deepin-gir-generator
-  description: Generate static golang bindings for GObject
-  upstream: https://github.com/linuxdeepin/go-gir-generator
-  branches:
-  - name: master
-    type: protected
-  - name: openEuler-20.09
-    type: protected
-    create_from: master
-  - name: openEuler-21.03
-    type: protected
-    create_from: master
-  type: public
 - name: deepin-qml-widgets
   description: Deepin QML widgets
   upstream: https://github.com/linuxdeepin/deepin-qml-widgets
