@@ -107569,16 +107569,6 @@ repositories:
   - name: master
     type: protected
   type: public
-- name: python-editor
-  description: Opens a text editor for an existing file, a new file, or a tempfile
-  upstream: https://github.com/rec/editor
-  branches:
-  - name: master
-    type: protected
-  - name: openEuler-21.03
-    type: protected
-    create_from: master
-  type: public
 - name: python-pydot
   description: pydot is an interface to Graphviz,can parse and dump into the DOT language
     used by GraphViz
