@@ -536,6 +536,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: pgadmin4-server
+  description: pgAdmin 4 a management tool for the PostgreSQL
+  upstream: https://www.pgadmin.org
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: PyPAM
   description: PAM bindings for Python
   branches:
