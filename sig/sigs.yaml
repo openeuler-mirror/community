@@ -4538,6 +4538,7 @@ sigs:
   - openeuler/openEuler-Advisor
   - src-openeuler/openEuler-Advisor
   - src-openeuler/pkgship
+  - src-openeuler/python-elasticsearch7
   - src-openeuler/abi-compliance-checker
   - src-openeuler/abi-dumper
   - src-openeuler/api-guarder
@@ -6014,7 +6015,6 @@ sigs:
 - name: sig-python-modules
   repositories:
   - src-openeuler/python-limits
-  - src-openeuler/python-elasticsearch7
   - src-openeuler/python-Flask-Limiter
   - src-openeuler/python-kitchen
   - src-openeuler/python-xgboost
