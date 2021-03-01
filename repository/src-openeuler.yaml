@@ -108560,3 +108560,10 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: coredns
+  description: CoreDNS is a fast and flexible DNS server
+  upstream: https://github.com/coredns/coredns
+  branches:
+  - name: master
+    type: protected
+  type: public
