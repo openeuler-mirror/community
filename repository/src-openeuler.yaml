@@ -31113,6 +31113,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: mariadb-odbc
+  description: The odbc connector for MariaDB.
+  upstream: https://downloads.mariadb.org/connector-odbc/
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: marisa
   description: ''
   branches:
