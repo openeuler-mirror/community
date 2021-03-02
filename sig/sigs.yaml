@@ -1956,6 +1956,8 @@ sigs:
   - src-openeuler/zabbix
 - name: sig-CloudNative
   repositories:
+  - openeuler/CloudNative
+  - src-openeuler/coredns
   - src-openeuler/kubernetes
   - src-openeuler/kata-containers
   - src-openeuler/docker
