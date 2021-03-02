@@ -47,5 +47,5 @@
 
 repository地址：
 
-- 
+- https://gitee.com/src-openeuler/mariadb-odbc
 - 
