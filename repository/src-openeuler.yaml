@@ -108546,6 +108546,9 @@ repositories:
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-rdflib 
   description: RDFlib is a Python library for working with RDF, a simple yet powerful language for representing information
