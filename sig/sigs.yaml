@@ -1074,8 +1074,10 @@ sigs:
 - name: Kernel
   repositories:
   - openeuler/kernel
+  - openeuler/openRSO
   - src-openeuler/kabi-dw
   - src-openeuler/kernel
+  - src-openeuler/openRSO
 - name: Others
   repositories:
   - src-openeuler/libopenraw

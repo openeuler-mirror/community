@@ -21873,6 +21873,14 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: openRSO
+  description: Resource Schedule and Orchestration framework for managing
+    Cache and Memory Bandwidth
+  upstream: https://gitee.com/openeuler/openRSO
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: kexec-tools
   description: ''
   branches:
