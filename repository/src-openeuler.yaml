@@ -58578,6 +58578,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: pgpool2
+  description: Pgpool-II is a middleware that works between PostgreSQL servers and a PostgreSQL database client.
+  upstream: https://pgpool.net/mediawiki/index.php/Main_Page
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: pkgporter
   description: A rpm packager automation bot for perl, python and so on
   upstream: https://gitee.com/openeuler/pkgporter
