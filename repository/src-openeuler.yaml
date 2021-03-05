@@ -31145,7 +31145,8 @@ repositories:
     type: protected
     create_from: master
   type: public
-- name: mariadb-odbc
+- name: mariadb-connector-odbc
+  rename_from: mariadb-odbc
   description: The odbc connector for MariaDB.
   upstream: https://downloads.mariadb.org/connector-odbc/
   branches:
