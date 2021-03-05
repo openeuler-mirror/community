@@ -29484,6 +29484,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: libcyaml
+  description: C library for reading and writing YAML.
+  upstream: https://github.com/tlsa/libcyaml
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: libyubikey
   description: low-level C software development kit for the Yubico YubiKey authentication
     device
