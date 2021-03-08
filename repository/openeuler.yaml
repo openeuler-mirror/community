@@ -233,6 +233,12 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: kernel-portal
+  description: Kernel SIG Gitee Pages
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: lcr
   description: ''
   branches:
