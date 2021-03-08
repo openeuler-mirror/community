@@ -68,6 +68,7 @@
 - https://gitee.com/src-openeuler/rain
 - https://gitee.com/src-openeuler/ignite
 - https://gitee.com/src-openeuler/bigtop
+- https://gitee.com/src-openeuler/phantomjs
 
 ## 路线图
  ![roadmap](./sig-road-map.jpg)

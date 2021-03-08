@@ -21689,6 +21689,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: phantomjs
+  description: Scriptable Headless Browser
+  upstream: https://github.com/ariya/phantomjs
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: kata-containers
   description: The speed of containers, the security of VMs
   upstream: https://github.com/kata-containers
