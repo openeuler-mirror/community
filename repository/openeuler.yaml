@@ -75,6 +75,12 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: X-diagnosis
+  description: OS debug toolkit
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: sysmonitor
   description: System Monitor Daemon
   branches:
