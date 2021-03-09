@@ -41,6 +41,8 @@ https://gitee.com/openeuler/community/tree/master/sig/sig-ROS/
 - wuwei_plct
 - anchuanxu
 - xiao_yun_wang
+- davidhan008
+- simonaxi
 
 ### 邮件列表
 - dev@openeuler.org
