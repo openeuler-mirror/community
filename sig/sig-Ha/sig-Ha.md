@@ -60,11 +60,16 @@ The repositories related to Ha are listed below, see http://archive.kernel.org/c
 ### Maintainers
 - hjimmy
 - hjimmy1
+- imjoey
+- taojiang666
 - yangzhao_kl
 - jxy_git
 
 ### Committers
 - crrs666
+- sin_dwell_er
+- zhao_zhong_zhang
+- liqiuyu123
 
 ### Mailing list
 - dev@openeuler.org
