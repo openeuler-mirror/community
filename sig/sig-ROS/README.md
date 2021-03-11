@@ -23,7 +23,8 @@
 - 吴伟[@wuwei_plct](https://gitee.com/wuwei_plct)
 - 安传旭[@anchuanxu](https://gitee.com/anchuanxu)
 - 王晓云[@xiao_yun_wang](https://gitee.com/xiao_yun_wang)
-
+- 韩昊旻[@davidhan008](https://gitee.com/davidhan008)
+- 席江玲[@simonaxi](https://gitee.com/simonaxi)
 
 # 联系方式
 
@@ -94,5 +95,17 @@ repository地址：
 - https://gitee.com/src-openeuler/poco
 - https://gitee.com/src-openeuler/stage
 - https://gitee.com/src-openeuler/stage_ros
-
-
+- https://gitee.com/src-openeuler/urdf_sim_tutorial
+- https://gitee.com/src-openeuler/urdf_tutorial
+- https://gitee.com/src-openeuler/urdfdom_py
+- https://gitee.com/src-openeuler/xacro
+- https://gitee.com/src-openeuler/webkit_dependency
+- https://gitee.com/src-openeuler/rqt_action
+- https://gitee.com/src-openeuler/gl_dependency
+- https://gitee.com/src-openeuler/laser_assembler
+- https://gitee.com/src-openeuler/laser_filters
+- https://gitee.com/src-openeuler/laser_pipeline
+- https://gitee.com/src-openeuler/media_export
+- https://gitee.com/src-openeuler/qwt_dependency
+- https://gitee.com/src-openeuler/realtime_tools
+- https://gitee.com/src-openeuler/roslint

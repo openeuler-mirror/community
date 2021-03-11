@@ -4778,6 +4778,104 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: urdf_sim_tutorial
+  description: The urdf_sim_tutorial package.
+  upstream: https://github.com/ros/urdf_sim_tutorial
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: urdf_tutorial
+  description: This package contains a number of URDF tutorials.
+  upstream: https://github.com/ros/urdf_tutorial
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: urdfdom_py
+  description: Python implementation of the URDF parser.
+  upstream: https://github.com/ros/urdf_parser_py
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: xacro
+  description: Xacro (XML Macros) Xacro is an XML macro language.
+  upstream: https://github.com/ros/xacro
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: webkit_dependency
+  description: This encapsulates the WebKit dependency for a specific ROS distribution and its Qt version.
+  upstream: https://github.com/ros-visualization/webkit_dependency
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rqt_action
+  description: rqt_action provides a feature to introspect all available ROS action (from actionlib) types.
+  upstream: https://github.com/ros-visualization/rqt_action
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: gl_dependency
+  description: ros-visualization Depends on the package.
+  upstream: https://github.com/ros-visualization/gl_dependency
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: laser_assembler
+  description: Provides nodes to assemble point clouds from either LaserScan or PointCloud messages.
+  upstream: https://github.com/ros-perception/laser_assembler
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: laser_filters
+  description: Assorted filters designed to operate on 2D planar laser scanners, which use the sensor_msgs/LaserScan type.
+  upstream: https://github.com/ros-perception/laser_filters
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: laser_pipeline
+  description: Meta-package of libraries for processing laser data, including converting laser data into 3D representations.
+  upstream: https://github.com/ros-perception/laser_pipeline
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: media_export
+  description: Placeholder package enabling generic export of media paths.
+  upstream: https://github.com/ros/media_export
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: qwt_dependency
+  description: This encapsulates the Qwt dependency for a specific ROS distribution and its Qt version.
+  upstream: https://github.com/ros-visualization/qwt_dependency
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: realtime_tools
+  description: Contains a set of tools that can be used from a hard realtime thread, without breaking the realtime behavior.
+  upstream: https://github.com/ros-controls/realtime_tools
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: roslint
+  description: Catkin macros which provide standard linter configurations for C++ and Python.
+  upstream: https://github.com/ros/roslint
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: ros_comm
   description: ros_comm package that belongs to THE ROS-COMM
   upstream: https://github.com/ros/ros_comm
