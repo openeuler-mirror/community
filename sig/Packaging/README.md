@@ -26,14 +26,17 @@ openEuler包管理工作组是openEuler技术委员会下的软件包管理机�
 - 何晓文[@overweight](https://gitee.com/overweight)
 - 李次华[@licihua](https://gitee.com/licihua)
 - 胡峰[@solarhu](https://gitee.com/solarhu)
-- 杨丽[@yangli69393](https://gitee.com/yangli69393)
-- 董剑[@dogsheng](https://gitee.com/dogsheng)
 - 缪开波[@dogsheng](https://gitee.com/dogsheng)
 - 朱春意[@zhuchunyi](https://gitee.com/zhuchunyi)
 - jimmy_hero[@jimmy_hero](https://gitee.com/jimmy_hero)
+- 陈亚强 [@yaqiangchen](https://gitee.com/yaqiangchen)
 
 ### Committer列表
 - NA
+
+### Hall of Fame
+- 杨丽[@yangli69393](https://gitee.com/yangli69393)
+- 董剑[@dogsheng](https://gitee.com/dogsheng)
 
 # 联系方式
 
