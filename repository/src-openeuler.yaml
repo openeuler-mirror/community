@@ -72808,6 +72808,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
   type: public
 - name: python-scramp
   upstream: https://github.com/tlocke/scramp
@@ -106754,6 +106757,28 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: networking-baremetal
+  description: This project's goal is to provide deep integration between the Networking service and the Bare 
+    Metal service and advanced networking features.
+  upstream: https://github.com/openstack/networking-baremetal
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
+  type: public
+- name: networking-generic-switch
+  description: This is a Modular Layer 2 Neutron Mechanism driver. The mechanism driver is responsible for 
+    applying configuration information to hardware equipment.
+  upstream: https://github.com/openstack/networking-generic-switch
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
+  type: public
 - name: openstack-placement
   description: OpenStack Placement provides an HTTP service for managing, selecting,
     and claiming providers of classes of inventory representing available resources
@@ -106815,6 +106840,26 @@ repositories:
   description: A common library to be used exclusively by projects under the Ironic
     governance.
   upstream: https://github.com/openstack/ironic-lib
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
+  type: public
+- name: python-netmiko
+  description: Multi-vendor library to simplify Paramiko SSH connections to network devices.
+  upstream: https://github.com/ktbyers/netmiko
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-21.03
+    type: protected
+    create_from: master
+  type: public
+- name: python-textfsm
+  description: Python module for parsing semi-structured text into python tables.
+  upstream: https://github.com/google/textfsm
   branches:
   - name: master
     type: protected
