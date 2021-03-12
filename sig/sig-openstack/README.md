@@ -62,6 +62,8 @@ repository地址：
 - https://gitee.com/src-openeuler/diskimage-builder
 - https://gitee.com/src-openeuler/python-etcd3gw
 - https://gitee.com/src-openeuler/novnc
+- https://gitee.com/src-openeuler/networking-baremetal
+- https://gitee.com/src-openeuler/networking-generic-switch
 - https://gitee.com/src-openeuler/python-automaton
 - https://gitee.com/src-openeuler/python-cursive
 - https://gitee.com/src-openeuler/python-cliff
@@ -128,6 +130,8 @@ repository地址：
 - https://gitee.com/src-openeuler/python-wsme
 - https://gitee.com/src-openeuler/python-taskflow
 - https://gitee.com/src-openeuler/python-tooz
+- https://gitee.com/src-openeuler/python-netmiko
+- https://gitee.com/src-openeuler/python-textfsm
 - https://gitee.com/src-openeuler/openstack-macros
 - https://gitee.com/src-openeuler/openstack-cinder
 - https://gitee.com/src-openeuler/python-swiftclient
