@@ -41044,6 +41044,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: perl-DBIx-Safe
+  upstream: https://github.com/bucardo/dbixsafe
+  description: Perl DBIx::Safe module for restricting SQL to a database handle
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: perl-DBIx-Simple
   upstream: http://search.cpan.org/dist/DBIx-Simple/
   description: Very complete easy-to-use OO interface to DBI
@@ -108683,6 +108690,13 @@ repositories:
   description: Babeltrace2 is a completely new implementation of the Common Trace
     Format (CTF).
   upstream: https://babeltrace.org/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: bucardo
+  description: PostgreSQL tools for Replication, Monitoring, and Productivity
+  upstream: https://bucardo.org/
   branches:
   - name: master
     type: protected
