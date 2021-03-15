@@ -1437,10 +1437,8 @@ sigs:
   - src-openeuler/lklug-fonts
   - src-openeuler/nvmetcli
   - src-openeuler/hivex
-  - src-openeuler/scap-workbench
   - src-openeuler/minicom
   - src-openeuler/supermin
-  - src-openeuler/scap-security-guide
   - src-openeuler/haproxy
   - src-openeuler/entr
   - src-openeuler/rfkill
@@ -4638,6 +4636,8 @@ sigs:
   - src-openeuler/swtpm
   - src-openeuler/libtpms
   - src-openeuler/oath-toolkit
+  - src-openeuler/scap-workbench
+  - src-openeuler/scap-security-guide
 - name: sig-Compatibility-Infra
   repositories:
   - openeuler/oec-hardware
