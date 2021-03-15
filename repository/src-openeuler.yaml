@@ -68,6 +68,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: X-diagnosis
+  description: OS debug toolkit
+  upstream: https://gitee.com/openeuler/X-diagnosis
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: sysmonitor
   description: System Monitor Daemon
   upstream: https://gitee.com/openeuler/sysmonitor
