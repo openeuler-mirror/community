@@ -31,7 +31,7 @@ sigs.yaml 文件为yaml格式承载，包含如下基本元素：
 | mentors | 列表 | SIG 组当前导师名单 |
 | repositories | 列表 | SIGS 组当前负责管理维护的所有代码仓清单 |
 
-其中 mentors 列表中每一条记录代表一位 mentors 的个人信息。每一条个人信息记录包含如下元素：
+其中 mentors 列表中每一条记录代表一位 mentor 的个人信息。每一条个人信息记录包含如下元素：
 
 | 字段 | 类型 | 说明 |
 |--|--|--|
@@ -49,12 +49,13 @@ sig-info.yaml 文件为yaml格式承载，包含如下基本元素：
 | description | 字符串 | SIG组描述信息 |
 | mailing_list | 字符串 | SIG组讨论邮件列表地址 |
 | meeting_url | 字符串 | SIG例会纪要URL |
+| mentors | 列表 | SIG 组当前导师名单 |
 | maintainers | 列表 | SIG组所有maintainer名单 |
 | security_contacts | 列表 | SIG组安全接口人名单 |
 | committers | 列表 | SIG组所有committer名单 |
 | repositories| 列表 | SIG组所管辖的码云仓库信息 |
 
-其中 mentors 列表中每一条记录代表一位 mentors 的个人信息，maintainers 列表中每一条记录代表一位 maintainer 的个人信息， security_contacts 列表中每一条记录代表一位 security_contacts 的个人信息， committer 列表中每一条记录代表一位 committer 的个人信息。每一条个人信息记录包含如下元素：
+其中 mentors 列表中每一条记录代表一位 mentor 的个人信息，maintainers 列表中每一条记录代表一位 maintainer 的个人信息， security_contacts 列表中每一条记录代表一位 security_contact 的个人信息， committers 列表中每一条记录代表一位 committer 的个人信息。每一条个人信息记录包含如下元素：
 
 | 字段 | 类型 | 说明 |
 |--|--|--|
@@ -91,6 +92,10 @@ maintainers:
 - gitee_id: Jane
   name: JaneDou
   email: xxxxxxx@gmail.com
+committers:
+- gitee_id: Bob
+  name: BobMa
+  email: zzzzzzz@yahoo.com
 repositories:
 - repo: openeuler/infrastructure
   additional_contributors:
