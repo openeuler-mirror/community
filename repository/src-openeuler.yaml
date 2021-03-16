@@ -109147,6 +109147,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: rustup
+  description: The Rust toolchain installer
+  upstream: https://github.com/rust-lang/rustup
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: perl-Sys-Info
   upstream: https://github.com/burak/CPAN-Sys-Info
   description: Extracts and collects information from the host system.
