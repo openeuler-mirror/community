@@ -43,6 +43,8 @@ English | [简体中文](./sig-KIRAN-DESKTOP_cn.md)
 - https://gitee.com/src-openeuler/lightdm-kiran-greeter
 - https://gitee.com/src-openeuler/plymouth-theme-kiran
 - https://gitee.com/src-openeuler/kiran-flameshot
+- https://gitee.com/src-openeuler/kiran-cc-daemon
+- https://gitee.com/src-openeuler/kiran-calendar
 
 ## Basic Information
 
