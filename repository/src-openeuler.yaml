@@ -108878,3 +108878,81 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: redis5
+  description: 'Redis is an open source, in-memory data structure store, used as a database, cache, and message broker'
+  upstream: https://github.com/redis/redis
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  type: public
+- name: redis6
+  description: 'Redis is an open source, in-memory data structure store, used as a database, cache, and message broker'
+  upstream: https://github.com/redis/redis
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  type: public
+- name: protobuf2
+  description: 'Protobuf are Google language-neutral,platform-neutral,extensible mechanism for serializing structured data'
+  upstream: https://github.com/protocolbuffers/protobuf
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  type: public
+- name: storm
+  description: 'A free and open source distributed realtime computation system'
+  upstream: https://github.com/apache/storm
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  type: public
+- name: elasticsearch
+  description: 'Elasticsearch is a distributed RESTful search engine built for the cloud'
+  upstream: https://github.com/elastic/elasticsearch
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  type: public
+- name: hadoop-3.1
+  description: 'A software platform for processing vast amounts of data'
+  upstream: https://github.com/apache/hadoop
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  type: public
