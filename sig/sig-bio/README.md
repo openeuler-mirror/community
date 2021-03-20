@@ -38,3 +38,10 @@
 - [邮件列表](dev@openeuler.org)
 - [IRC公开会议]()
 - 视频会议
+
+# 项目地址
+repository地址：
+
+- https://gitee.com/openeuler/bioinformatics
+- https://gitee.com/src-openeuler/c-STAR
+- https://gitee.com/src-openeuler/vcftools
