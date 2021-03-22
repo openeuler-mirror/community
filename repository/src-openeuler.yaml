@@ -108988,3 +108988,10 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: racon
+  description: Ultrafast consensus module for raw de novo genome assembly of long uncorrected reads
+  upstream: https://github.com/lbcb-sci/racon
+  branches:
+  - name: master
+    type: protected
+  type: public
