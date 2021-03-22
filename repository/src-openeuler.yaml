@@ -108974,3 +108974,17 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: c-STAR
+  description: Spliced Transcripts Alignment to a Reference
+  upstream: https://github.com/alexdobin/STAR
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: vcftools
+  description: A set of tools written in Perl and C++ for working with VCF files
+  upstream: https://github.com/vcftools/vcftools
+  branches:
+  - name: master
+    type: protected
+  type: public
