@@ -45,3 +45,4 @@ repository地址：
 - https://gitee.com/openeuler/bioinformatics
 - https://gitee.com/src-openeuler/c-STAR
 - https://gitee.com/src-openeuler/vcftools
+- https://gitee.com/src-openeuler/racon
