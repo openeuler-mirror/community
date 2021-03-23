@@ -44,5 +44,7 @@ repository地址：
 
 - https://gitee.com/openeuler/bioinformatics
 - https://gitee.com/src-openeuler/c-STAR
+- https://gitee.com/src-openeuler/biobambam2
+- https://gitee.com/src-openeuler/libmaus2
 - https://gitee.com/src-openeuler/vcftools
 - https://gitee.com/src-openeuler/racon
