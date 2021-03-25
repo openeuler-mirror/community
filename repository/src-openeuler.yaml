@@ -109004,6 +109004,20 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: biobambam2
+  description: Tools for early stage alignment file processing
+  upstream: https://github.com/gt1/biobambam2
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: libmaus2
+  description: libmaus2 is a collection of data structures and algorithms
+  upstream: https://gitlab.com/german.tischler/libmaus2
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: vcftools
   description: A set of tools written in Perl and C++ for working with VCF files
   upstream: https://github.com/vcftools/vcftools
