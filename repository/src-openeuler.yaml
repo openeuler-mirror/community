@@ -96,6 +96,41 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: foreman
+  description: Systems Management web application
+  upstream: https://theforeman.org
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: foreman-installer
+  description: Puppet-based installer for The Foreman
+  upstream: https://theforeman.org
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: foreman-proxy
+  description: Restful Proxy for DNS, DHCP, TFTP, PuppetCA and Puppet
+  upstream: https://theforeman.org/projects/smart-proxy
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: foreman-selinux
+  description: SELinux policy module for Foreman
+  upstream: https://theforeman.org
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: katello
+  description: A package for managing application life-cycle for Linux systems
+  upstream: https://theforeman.org/plugins/katello
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: culmus-fonts
   description: Fonts for Hebrew from Culmus project
   upstream: http://culmus.sourceforge.net
