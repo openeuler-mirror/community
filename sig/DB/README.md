@@ -1,56 +1,61 @@
-# DB
+# DB SIG
+English | [简体中文](./README.CN.md)
 
-*<请在此描述SIG的范围、工作职责和目标，可以直接用sig-template.md内描述的第一个章节>,*
+*DB SIG as a working group to introduce the whole database ecosystem into openEuler community.*<br>
+*\*Notes\*: As DB SIG will work with the global contributors, so we suggest all development progress or issue description
+should be in english version.*
 
-
-
-# 组织会议
-
-- 公开的会议时间：北京时间，每周X 下午，XX点~XX点
-
-*<请在此给出SIG会议的时间>*
-
-
-
-# 成员
-
-*<请在此给出团队成员的列表>*
-
-### Maintainer列表
-
-- name[@giteeID](giteeID链接)
+## The major goal and working scope of DB SIG
+- Be responsibility for maintaining the database open-source software packages in openEuler, including Mysql, MariaDB,
+PostgreSQL and openGauss.
+- Introducing more OLTP database into openEuler, such as openGauss or any other popular open-source databases into
+openEuler community.
+- Introducing the ecosystem tools around databases to enrich and complete the entire DB product software ecosystem.
 
 
+## Members
 
-### Committer列表
+### Maintainers
+- Zhenyu Zheng[@ZhengZhenyu](https://gitee.com/ZhengZhenyu), *zheng.zhenyu@outlook.com*
+- Bo Zhao[@bzhaoop](https://gitee.com/bzhaoop), *bzhaojyathousandy@gmail.com*
 
-- name[@giteeID](giteeID链接)
-
-
-
-# 联系方式
-
-*<如果需要单独申请邮件列表，请在此补充邮箱名称：sig-yousigname@openeuler.org>*
-
-- [邮件列表](dev@openeuler.org)
-- [IM](#openeuler-dev)
+### Committers
+- Qide Chen[@dillon_chen](https://gitee.com/dillon_chen), *dillon.chen@turbolinux.com.cn*
+- Zhenyu Zheng[@ZhengZhenyu](https://gitee.com/ZhengZhenyu), *zheng.zhenyu@outlook.com*
+- Bo Zhao[@bzhaoop](https://gitee.com/bzhaoop), *bzhaojyathousandy@gmail.com*
 
 
+## Meeting schdule
+- TBD
+
+### Contacts
+- [MailList](dev@openeuler.org) *dev@openeuler.org*
+- [slack](https://join.slack.com/t/slack-jma9373/shared_invite/zt-o66x6a3a-HY4Cwjc49XPxc9aN_FHOdg)
+- **wechat** *If you are interested in this SIG group, please send your personal wechat_id to Bo Zhao. He will invite you 
+to DB SIG wechat group.*
 
 
+# Projects
 
-# 项目清单
+*<The project name should be the same as the application form mentioned, and the specific repository location can be
+refreshed after the application is submitted.>*
 
-*<项目名称和申请表格一致，具体地址可以在申请下来以后在刷新>*
-
-项目名称：
-
-repository地址：
-
-
+Project names && repository location：
 - https://gitee.com/src-openeuler/bucardo
+- https://gitee.com/src-openeuler/derby
+- https://gitee.com/src-openeuler/firebird
+- https://gitee.com/src-openeuler/foomatic
+- https://gitee.com/src-openeuler/foomatic-db
+- https://gitee.com/src-openeuler/geolatte-geom
+- https://gitee.com/src-openeuler/glassfish-legal
+- https://gitee.com/src-openeuler/gupnp-dlna
+- https://gitee.com/src-openeuler/h2
 - https://gitee.com/src-openeuler/mariadb-connector-odbc
+- https://gitee.com/src-openeuler/mysql5
 - https://gitee.com/src-openeuler/perl-DBIx-Safe
-- https://gitee.com/src-openeuler/pgadmin4
+- https://gitee.com/src-openeuler/pgadmin4-server
 - https://gitee.com/src-openeuler/pgpool2
+- https://gitee.com/src-openeuler/postgresql
+- https://gitee.com/src-openeuler/postgresql-odbc
+- https://gitee.com/src-openeuler/unixODBC
 - 
