@@ -291,18 +291,22 @@ def check_8_v2(oe_repos, srcoe_repos):
                       .format(pre=prefix, name=repo["name"]))
                 errors_found += 1
             else:
+                master_found = 0
                 for branch in branches:
                     if branch["type"] != "protected" and branch["type"] != "readonly":
                         print("ERROR! {pre}{name} branch {br} is not valid"
                               .format(pre=prefix, name=repo["name"], br=branch["name"]))
                         errors_found += 1
-                    if branch["name"] == "master" and branch["type"] != "protected":
-                        print("ERROR! master branch in {pre}{name} is not protected"
-                              .format(pre=prefix, name=repo["name"]))
-                        errors_found += 1
-                    if branch["name"] != "master" and branch.get("create_from", "") == "":
+                    if branch["name"] == "master":
+                        master_found  += 1
+                    elif branch.get("create_from", "") == "":
                         print("ERROR! {pre}{name} branch {br} has not valid parent branch"
                               .format(pre=prefix, name=repo["name"], br=branch["name"]))
+                        errors_found += 1
+                else:
+                    if master_found != 1:
+                        print("ERROR! {pre}{name}'s master branch is not properly set"
+                              .format(pre=prefix, name=repo["name"]))
                         errors_found += 1
 
     if errors_found == 0:
