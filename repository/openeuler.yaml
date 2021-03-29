@@ -551,6 +551,12 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: bishengjdk-riscv
+  description: Bisheng JDK riscv is RISC-V port of OpenJDK jdk upstream
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: wayca-deployer
   description: wayca-deployer is an userspace deployment tool for tasks and interrupts
     to achieve better performance
