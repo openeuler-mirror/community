@@ -109161,3 +109161,24 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: cufflinks
+  upstream: https://github.com/cole-trapnell-lab/cufflinks
+  description: Transcriptome assembly and differential expression analysis for RNA-Seq.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: gffread
+  upstream: https://github.com/gpertea/gffread
+  description: GFF/GTF utility providing format conversions, region filtering, FASTA sequence extraction and more.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: gffcompare
+  upstream: https://github.com/gpertea/gffread
+  description: classify, merge, tracking and annotation of GFF files by comparing to a reference annotation GFF.
+  branches:
+  - name: master
+    type: protected
+  type: public

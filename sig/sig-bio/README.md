@@ -48,3 +48,6 @@ repository地址：
 - https://gitee.com/src-openeuler/libmaus2
 - https://gitee.com/src-openeuler/vcftools
 - https://gitee.com/src-openeuler/racon
+- https://gitee.com/src-openeuler/cufflinks
+- https://gitee.com/src-openeuler/gffread
+- https://gitee.com/src-openeuler/gffcompare
