@@ -51,7 +51,7 @@ The openEuler RaspberryPi SIG aims at migrating openEuler to Raspberry Pi, in or
   - The link to join this workspace will be periodically updated in [raspberrypi repo](https://gitee.com/openeuler/raspberrypi)
 
 ### Meeting
-- Meeting Time: The 1st and 3rd Tuesday of each month, 15:00 - 15:30 UTC+8.
+- Meeting Time: The 1st and 3rd Wednesday of each month, 20:00 - 20:30 UTC+8.
 - Meeting Link: There are two methods to get the meeting link which will be updated before each meeting.
   - Log in to the [openEuler Community](https://openeuler.org/) website, then view the booking information of `sig-RaspberryPi例会` in the meeting calendar.
   - Search `openEuler` in mini programs of Wechat, add `openEuler mini program`. Then click `会议` and view the booking information of `sig-RaspberryPi例会`.
