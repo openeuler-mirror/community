@@ -1473,6 +1473,11 @@ sigs:
   - src-openeuler/postgresql
   - src-openeuler/postgresql-odbc
   - src-openeuler/unixODBC
+  - src-openeuler/mariadb
+  - src-openeuler/mariadb-connector-c
+  - src-openeuler/sqlite
+  - src-openeuler/perl-DBD-SQLite
+  - src-openeuler/perl-DBD-MySQL
 - name: Base-service
   repositories:
   - openeuler/process1
@@ -2051,7 +2056,6 @@ sigs:
   - src-openeuler/libblockdev
   - src-openeuler/libldm
   - src-openeuler/sdparm
-  - src-openeuler/perl-DBD-SQLite
   - src-openeuler/libpciaccess
   - src-openeuler/iotop
   - src-openeuler/xfsdump
@@ -2064,16 +2068,13 @@ sigs:
   - src-openeuler/thin-provisioning-tools
   - src-openeuler/dosfstools
   - src-openeuler/libusbx
-  - src-openeuler/mariadb
   - src-openeuler/pciutils
   - src-openeuler/blktrace
   - src-openeuler/usbredir
   - src-openeuler/lvm2
   - src-openeuler/dmraid
   - src-openeuler/libtalloc
-  - src-openeuler/perl-DBD-MySQL
   - src-openeuler/quota
-  - src-openeuler/mariadb-connector-c
   - src-openeuler/xfsprogs
   - src-openeuler/nfs-utils
   - src-openeuler/libtevent
@@ -2081,7 +2082,6 @@ sigs:
   - src-openeuler/glusterfs
   - src-openeuler/multipath-tools
   - src-openeuler/sysfsutils
-  - src-openeuler/sqlite
   - src-openeuler/smp_utils
   - src-openeuler/squashfs-tools
   - src-openeuler/libiscsi
