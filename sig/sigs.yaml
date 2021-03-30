@@ -7738,3 +7738,15 @@ sigs:
   - src-openeuler/rust
   - src-openeuler/rustup 
   - src-openeuler/rust-packaging
+- name: sig-industrial-control
+  repositories:
+  - openeuler/xenomai
+  - src-openeuler/xenomai
+  - src-openeuler/ipipe
+  - src-openeuler/libmodbus
+  - src-openeuler/soem
+  - src-openeuler/soes
+  - src-openeuler/canopennode
+  - src-openeuler/igh-ethercat-xenomai
+  - src-openeuler/libmodbus-xenomai
+  - src-openeuler/canfestival-xenomai
