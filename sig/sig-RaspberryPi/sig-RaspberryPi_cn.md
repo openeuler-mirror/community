@@ -31,7 +31,9 @@ RaspberryPi SIG 小组致力于将 openEuler 移植到树莓派，以降低 open
 - Raspberry Pi 镜像构建脚本的 SRPM 仓库：https://gitee.com/src-openeuler/raspberrypi-build
 - Raspberry Pi 蓝牙相关服务的 SRPM 仓库：https://gitee.com/src-openeuler/raspberrypi-bluetooth
 - Raspberry Pi 镜像构建脚本的仓库：https://gitee.com/openeuler/raspberrypi-build
-- 
+- Rockchip 开发板镜像的构建脚本和使用文档仓库：https://gitee.com/openeuler/rockchip
+- Rockchip 内核源码仓库：https://gitee.com/openeuler/rockchip-kernel
+
 ## SIG 基本信息
 
 ### 项目简介
