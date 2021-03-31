@@ -45,6 +45,8 @@ English | [简体中文](./sig-KIRAN-DESKTOP_cn.md)
 - https://gitee.com/src-openeuler/kiran-flameshot
 - https://gitee.com/src-openeuler/kiran-cc-daemon
 - https://gitee.com/src-openeuler/kiran-calendar
+- https://gitee.com/src-openeuler/lunar-date
+- https://gitee.com/src-openeuler/gdbus-codegen-glibmm
 
 ## Basic Information
 

@@ -87337,6 +87337,20 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: lunar-date
+  description: Library to support date conversion from/to chinese lunar calendar
+  upstream: https://github.com/yetist/lunar-date
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: gdbus-codegen-glibmm
+  description: This is a cpp code generator for generating D-Bus stubs and proxies from XML introspection files.
+  upstream: https://github.com/Pelagicore/gdbus-codegen-glibmm
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: ostree_assembly
   description: Ostree generation platform, based on the Python Django, provides a
     complete set of web-based ostree mirror building process.

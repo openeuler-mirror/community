@@ -50,4 +50,5 @@ repository地址：
 - https://gitee.com/src-openeuler/kiran-flameshot
 - https://gitee.com/src-openeuler/kiran-cc-daemon
 - https://gitee.com/src-openeuler/kiran-calendar
-
+- https://gitee.com/src-openeuler/lunar-date
+- https://gitee.com/src-openeuler/gdbus-codegen-glibmm
