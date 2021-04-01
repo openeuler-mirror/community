@@ -18592,6 +18592,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: lib-shim-v2
+  description: As a shim V2 ttrpc client, it is called by iSulad and written in rust
+  upstream: https://gitee.com/openeuler/lib-shim-v2
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: ibus
   description: ''
   branches:
