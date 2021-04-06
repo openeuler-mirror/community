@@ -42,6 +42,8 @@ KIRAN-DESKTOP SIG小组致力于将KIRAN-DESKTOP 引入至 openEuler 社区中�
 - https://gitee.com/src-openeuler/kiran-flameshot
 - https://gitee.com/src-openeuler/kiran-cc-daemon
 - https://gitee.com/src-openeuler/kiran-calendar
+- https://gitee.com/src-openeuler/lunar-date
+- https://gitee.com/src-openeuler/gdbus-codegen-glibmm
 
 ## SIG基本信息
 
