@@ -7705,6 +7705,8 @@ sigs:
 - name: sig-ONL
   repositories:
   - openeuler/sonic-linux-kernel
+  - src-openeuler/sonic-linux-kernel
+  - src-openeuler/sonic-buildimage
 - name: sig-embedded
   repositories:
   - openeuler/embedded

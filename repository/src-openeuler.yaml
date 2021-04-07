@@ -80938,6 +80938,20 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: sonic-buildimage
+  description: Scripts which perform an installable binary image build for SONiC
+  upstream: https://github.com/Azure/sonic-buildimage
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: sonic-linux-kernel
+  description: Linux kernel drivers for SONiC project
+  upstream: https://github.com/Azure/sonic-linux-kernel
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: sos
   description: A set of tools to gather troubleshooting information from a system
   branches:
