@@ -4539,6 +4539,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: actionlib
   description: The actionlib stack provides a standardized interface for interfacing
@@ -4547,6 +4550,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: angles
   description: This package provides a set of simple math utilities to work with angles.
@@ -4554,6 +4560,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: bond_core
   description: The bond remains connected until it is either broken explicitly or
@@ -4562,6 +4571,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: dynamic_reconfigure
   description: The dynamic_reconfigure package provides a means to update parameters
@@ -4570,6 +4582,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: geometry
   description: A metapackage for geometry library suite.
@@ -4577,6 +4592,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: geometry2
   description: A metapackage to bring in the default packages second generation Transform
@@ -4585,6 +4603,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: gazelle-cni
   description: A high-performance cni provides tcp/udp stack, which powered by xdp
@@ -4611,6 +4632,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: common_msgs
   description: common_msgs contains messages that are widely used by other ROS packages.
@@ -4618,6 +4642,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: openslam_gmapping
   description: The catkinized verseion of openslam_gmapping package
@@ -4625,6 +4652,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: slam_gmapping
   description: slam_gmapping contains a wrapper around gmapping which provides SLAM
@@ -4633,6 +4663,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: urdf
   description: This package contains a C++ parser for the Unified Robot Description
@@ -4641,6 +4674,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: rosconsole_bridge
   description: rosconsole_bridge is a package used in conjunction with console_bridge
@@ -4650,6 +4686,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: rviz
   description: 3D visualization tool for ROS.
@@ -4657,6 +4696,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: pcl_conversion
   description: Provides conversions from PCL data types and ROS message types.
@@ -4664,6 +4706,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: orocos_kdl
   description: This package contains a recent version of the Kinematics and Dynamics
@@ -4672,6 +4717,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: resource_retriever
   description: This package retrieves data from url-format files.
@@ -4679,6 +4727,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: cartographer
   description: Cartographer is a system that provides real-time simultaneous localization
@@ -4687,6 +4738,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: cartographer_ros
   description: This project provides Cartographer's ROS integration.
@@ -4694,6 +4748,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: image_transport
   description: image_transport should always be used to subscribe to and publish images.
@@ -4703,6 +4760,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: interactive_markers
   description: 3D interactive marker communication library for RViz and similar tools.
@@ -4710,6 +4770,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: laser_geometry
   description: This package contains a class for converting from a 2D laser scan as
@@ -4719,6 +4782,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: navigation_msgs
   description: This package defines messages commonly used in mapping packages.
@@ -4726,6 +4792,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: pcl_msgs
   description: Package containing PCL (Point Cloud Library)-related ROS messages.
@@ -4733,6 +4802,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python_qt_binding
   description: This stack provides Python bindings for Qt.
@@ -4740,6 +4812,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: robot_state_publisher
   description: This package allows you to publish the state of a robot to tf2.
@@ -4747,6 +4822,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: perception_pcl
   description: PCL (Point Cloud Library) ROS interface stack. PCL-ROS is the preferred
@@ -4756,6 +4834,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: image_common
   description: Common code for working with images in ROS.
@@ -4763,6 +4844,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: kdl_parser
   description: This contains packages for converting from URDF to a representation
@@ -4771,6 +4855,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: diagnostics
   description: The diagnostics system is designed to collect information from hardware
@@ -4779,6 +4866,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: navigation
   description: A 2D navigation stack that takes in information from odometry, sensor
@@ -4788,6 +4878,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: console_bridge
   description: console_bridge is a ROS-independent.
@@ -4796,6 +4889,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -4808,6 +4904,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: stage
   description: Mobile robot simulator.
@@ -4815,6 +4914,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: stage_ros
   description: This package provides ROS specific hooks for stage.
@@ -4822,6 +4924,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: urdf_sim_tutorial
   description: The urdf_sim_tutorial package.
@@ -4829,6 +4934,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: urdf_tutorial
   description: This package contains a number of URDF tutorials.
@@ -4836,6 +4944,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: urdfdom_py
   description: Python implementation of the URDF parser.
@@ -4843,6 +4954,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: xacro
   description: Xacro (XML Macros) Xacro is an XML macro language.
@@ -4850,6 +4964,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: webkit_dependency
   description: This encapsulates the WebKit dependency for a specific ROS distribution and its Qt version.
@@ -4857,6 +4974,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: rqt_action
   description: rqt_action provides a feature to introspect all available ROS action (from actionlib) types.
@@ -4864,6 +4984,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: gl_dependency
   description: ros-visualization Depends on the package.
@@ -4871,6 +4994,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: laser_assembler
   description: Provides nodes to assemble point clouds from either LaserScan or PointCloud messages.
@@ -4878,6 +5004,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: laser_filters
   description: Assorted filters designed to operate on 2D planar laser scanners, which use the sensor_msgs/LaserScan type.
@@ -4885,6 +5014,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: laser_pipeline
   description: Meta-package of libraries for processing laser data, including converting laser data into 3D representations.
@@ -4892,6 +5024,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: media_export
   description: Placeholder package enabling generic export of media paths.
@@ -4899,6 +5034,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: qwt_dependency
   description: This encapsulates the Qwt dependency for a specific ROS distribution and its Qt version.
@@ -4906,6 +5044,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: realtime_tools
   description: Contains a set of tools that can be used from a hard realtime thread, without breaking the realtime behavior.
@@ -4913,6 +5054,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: roslint
   description: Catkin macros which provide standard linter configurations for C++ and Python.
@@ -4920,6 +5064,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: ros_comm
   description: ros_comm package that belongs to THE ROS-COMM
@@ -4928,6 +5075,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -5526,6 +5676,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: classloader-leak-test-framework
   description: Detection and verification of Java ClassLoader leaks
@@ -5825,6 +5978,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -6411,6 +6567,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: pluginlib
   description: pluginlib package that belongs to THE ROS-COMM
@@ -6419,6 +6578,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -11953,6 +12115,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: geneus
   description: gencpp package that belongs to THE ROS-COMM
@@ -11961,6 +12126,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -11973,6 +12141,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: genmsg
   description: gencpp package that belongs to THE ROS-COMM
@@ -11981,6 +12152,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -11993,6 +12167,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: genpy
   description: gencpp package that belongs to THE ROS-COMM
@@ -12001,6 +12178,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -90222,6 +90402,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: message_generation
   description: message_generation package that belongs to THE ROS-COMM
@@ -90230,6 +90413,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -90242,6 +90428,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: message_runtime
   description: message_runtime package that belongs to THE ROS-COMM
@@ -90250,6 +90439,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -90263,6 +90455,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: ros
   description: "ros package contains rosclean\u3001roscreate\u3001rosbuild\u3001rosbash\
@@ -90272,6 +90467,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -90295,6 +90493,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -90778,6 +90979,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: rospack
   description: rospack package that belongs to THE ROS-COMM
@@ -90786,6 +90990,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
