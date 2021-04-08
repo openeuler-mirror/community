@@ -109271,3 +109271,66 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: xenomai
+  upstream:  https://source.denx.de/Xenomai/xenomai/
+  description: Xenomai is a Free Software project in which engineers from a wide background collaborate to build a robust and resource-efficient real-time core for Linux following the dual kernel approach, for applications with stringent latency requirements.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: ipipe 
+  upstream: https://xenomai.org/downloads/ipipe/
+  description: The Xenomai Cobalt real-time core depends on a patch to the mainline Linux kernel, which introduces a separate, high-priority execution stage for running out-of-band interrupt handlers immediately upon IRQ receipt, which cannot be delayed by the regular kernel work. 
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: libmodbus
+  upstream: https://github.com/stephane/libmodbus
+  description: libmodbus is a free software library to send receive data with a device which respects the Modbus protocol
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: soem
+  upstream: https://github.com/OpenEtherCATsociety/SOEM
+  description: SOEM is an EtherCAT master library written in c. Its purpose is to learn  and to use. All users are invited to study the source to get an  understanding how an EtherCAT master functions and how it interacts with  EtherCAT slaves.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: soes
+  upstream: https://github.com/OpenEtherCATsociety/SOES
+  description: SOES is an EtherCAT slave stack written in c. Its purpose is to learn and to use. 
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: canopennode
+  upstream: https://github.com/CANopenNode/CANopenNode
+  description: CANopenNode is free and open source CANopen protocol stack.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: igh-ethercat-xenomai
+  upstream: https://gitlab.com/etherlab.org/ethercat
+  description: This is an open-source EtherCAT master
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: libmodbus-xenomai
+  upstream: https://github.com/stephane/libmodbus
+  description: libmodbus is a free software library to send receive data with a device which respects the Modbus protocol
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: canfestival-xenomai
+  upstream: https://github.com/stephane/libmodbus
+  description: CanFestival focuses on providing an ANSI-C platform independent CANOpen stack that can be built as master or slave nodes on PCs, Real-time IPCs, and Microcontrollers. Runtime code is licensed LGPLv2, whereas accompanying developer tools are licensed GPLv2.
+  branches:
+  - name: master
+    type: protected
+  type: public
