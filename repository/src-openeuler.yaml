@@ -109837,4 +109837,11 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: linux-test-project
+  description: The LTP testsuite contains a collection of tools for testing the Linux kernel and related features.
+  upstream: https://github.com/linux-test-project/ltp
+  branches:
+  - name: master
+    type: protected
+  type: public
 
