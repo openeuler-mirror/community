@@ -70875,6 +70875,7 @@ repositories:
     create_from: master
   type: public
 - name: python-pycdlib
+  upstream: https://github.com/clalancette/pycdlib
   description: A pure python ISO9660 read and write library
   branches:
   - name: master
@@ -70882,7 +70883,13 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
-  type: private
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-NEXT
+    type: protected
+    create_from: master
+  type: public
 - name: python-pyclipper
   upstream: https://github.com/greginvm/pyclipper
   description: Cython wrapper for the C++ translation of the Angus Johnson's Clipper
