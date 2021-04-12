@@ -829,3 +829,9 @@ repositories:
     - name: master
       type: protected
   type: public
+- name: openstack
+  description: "Issue report and discussion entry repo for OpenStack SIG"
+  branches:
+    - name: master
+      type: protected
+  type: public
