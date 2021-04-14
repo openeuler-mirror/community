@@ -12,6 +12,44 @@ PostgreSQL and openGauss.
 openEuler community.
 - Introducing the ecosystem tools around databases to enrich and complete the entire DB product software ecosystem.
 
+## Etherpad of DB SIG
+- DB SIG introduction, future plans and all link maps
+
+  https://etherpad.openeuler.org/p/DB-SIG
+- DB SIG internal affairs management, voting and members information
+
+  https://etherpad.openeuler.org/p/DB-SIG-inside
+- DB SIG related Working List, open to public. Anyone can claim and ask for DB related work.
+
+  https://etherpad.openeuler.org/p/DB-SIG-worklist
+- Offline events/activities hosted or involved by OpenEuler DB SIG
+
+  https://etherpad.openeuler.org/p/DB-SIG-events
+- DB SIG meeting Archive
+
+  https://etherpad.openeuler.org/p/DB-meetings-archive
+
+## Scopes and Rules of DB SIG packages
+
+### Scopes of DB SIG packages
+Currently, DB SIG is in the initial stage, and the maintenance ability of team members is limited. At present, in order
+to meet the main goals of DB SIG, we keep a higher priority to support the mainstream open-source databases, including
+complementing the mainstream versions of the related open-source database software in the industry.
+**In the early of DB SIG, we keep a higher priority to  accept new packages or existing packages which are match
+our current goal into DB SIG for maintaining.**
+
+For the new packages contribution process steps should be as showed below:
+
+1. Contributors need to post a PR for your new package proposal in [openEuler/community](https://gitee.com/openeuler/community).
+2. And @at the [Maintainers](https://gitee.com/openeuler/community/tree/master/sig/DB#maintainers) of DB SIG to review the new proposal, then decide whether accept the new ones. Also
+   contributors can contact with DB SIG maintainers in any other ways, such as wechat, slack or email.
+3. Once the said PR gets a `/lgtm` from any Maintainer of DB SIG, the openEuler TC members just need to merge the PR
+   directly. 
+
+### Rules and Permission clarification
+ - Only Maintainers of DB SIG can decide whether accept new packages or existing packages in openEuler which might be
+   related with DB locate into DB SIG.
+ - The Committers are the responsibility of the normal maintaining of the projects covered by DB SIG.
 
 ## Members
 
@@ -26,7 +64,7 @@ openEuler community.
 
 
 ## Meeting schdule
-- TBD
+- Bi-Weekly meeting scheduled at 5:00pm to 6:00pm on Tuesday afternoon
 
 ### Contacts
 - [MailList](dev@openeuler.org) *dev@openeuler.org*
