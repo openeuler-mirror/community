@@ -220,6 +220,12 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: eggo
+  description: Eggo is a tool built to provide standard multi-ways for creating Kubernetes clusters.
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: Java-Packages
   description: Java package relevant docs, source code and issue management.
   branches:

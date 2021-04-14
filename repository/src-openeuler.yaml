@@ -18788,6 +18788,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: eggo
+  description: Eggo is a tool built to provide standard multi-ways for creating Kubernetes clusters.
+  upstream: https://gitee.com/openeuler/eggo
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: ibus
   description: ''
   branches:
