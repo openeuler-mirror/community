@@ -109421,6 +109421,20 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: R-core
+  description: A freely available language and environment for statistical computing and graphics
+  upstream: https://cloud.r-project.org/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rstudio
+  description: RStudio is an integrated development environment (IDE) for R
+  upstream: https://github.com/rstudio/rstudio
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: bowtie2
   description: A fast and sensitive gapped read aligner
   upstream: https://github.com/BenLangmead/bowtie2
