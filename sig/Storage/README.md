@@ -41,7 +41,6 @@ repository地址：
 - https://gitee.com/src-openeuler/mdadm
 - https://gitee.com/src-openeuler/python-configobj
 - https://gitee.com/src-openeuler/btrfs-progs
-- https://gitee.com/src-openeuler/python-rtslib
 - https://gitee.com/src-openeuler/ccid
 - https://gitee.com/src-openeuler/attr
 - https://gitee.com/src-openeuler/smartmontools
