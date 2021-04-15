@@ -10,6 +10,39 @@
 - 引入更多的OLTP数据库到openEuler，如openGauss或任何其他流行的开源数据库到openEuler社区。
 - 围绕数据库引入生态系统工具，构建完整、丰富的数据库生产线软件生态系统。
 
+## Etherpad of DB SIG
+- DB SIG介绍及愿景，以及所有链接MAP
+
+  https://etherpad.openeuler.org/p/DB-SIG
+- DB SIG内部事务管理，投票及人员信息
+
+  https://etherpad.openeuler.org/p/DB-SIG-inside
+- DB SIG相关Working List,不限于SIG内部，对外公开。任何人都可以认领以及求助DB相关的工作。
+
+  https://etherpad.openeuler.org/p/DB-SIG-worklist
+- openEuler DB SIG主办或者涉及的线下events活动
+
+  https://etherpad.openeuler.org/p/DB-SIG-events
+- DB SIG meeting存档
+
+  https://etherpad.openeuler.org/p/DB-meetings-archive
+
+## DB SIG中软件包的引入范围和引入规则
+
+### DB SIG包引入范围
+DB SIG当前处于发展的初始阶段，团队维护能力有限，目前为了切合DB SIG主要目标，优先考虑支持主流开源数据库，包括优先补齐业界主流开源
+数据库软件的主流版本。
+**在DB SIG成立初期，我们优先接受匹配当前目标的新包或现有包的来进入DB SIG维护**
+
+对于新包的贡献过程应如下所示:
+1. 贡献者需要在[openEuler/community](https://gitee.com/openeuler/community)中发布新包提案的PR。
+2. 并且@at DB SIG的[Maintainers](https://gitee.com/openeuler/community/tree/master/sig/DB#maintainers)来审查新包提案PR，
+然后决定是否接受。也贡献者可以以任何其他方式联系DB SIG维护者，如微信，slack或电子邮件。
+3.一旦上述PR从DB SIG的任何[Maintainers](https://gitee.com/openeuler/community/tree/master/sig/DB#maintainers)那里得到一个`/lgtm`，openEuler TC成员只需要合并该PR即可。
+
+### 规则和权限澄清
+- 只有DB SIG的[Maintainers](https://gitee.com/openeuler/community/tree/master/sig/DB#maintainers)可以决定是否接受新的包或openEuler中已经存在的DB相关包引入SIG。
+- Committers 承担对DB SIG覆盖的项目的正常维护责任。
 
 ## 成员
 
@@ -24,7 +57,7 @@
 
 
 ## 组织会议
-- TBD
+- 每双周二下午 5:00pm -- 6:00pm
 
 ### 联系方式
 - [MailList](dev@openeuler.org) *dev@openeuler.org*
