@@ -54,4 +54,4 @@ repository地址：
 - https://gitee.com/src-openeuler/cufflinks
 - https://gitee.com/src-openeuler/gffread
 - https://gitee.com/src-openeuler/gffcompare
-- https://gitee.com/src-openeuler/gatk
+- https://gitee.com/src-openeuler/GATK
