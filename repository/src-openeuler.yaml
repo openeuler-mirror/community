@@ -650,6 +650,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: SDL
   description: ''
@@ -60092,6 +60095,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-Angular
   upstream: http://angularjs.org
@@ -60105,7 +60111,7 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
-  - name: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -60121,6 +60127,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-Angular-FileUpload
   upstream: https://github.com/danialfarid/ng-file-upload
@@ -60131,7 +60140,7 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
-  - name: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -60147,6 +60156,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-Angular-lrdragndrop
   upstream: https://github.com/lorenzofox3/lrDragNDrop
@@ -60155,6 +60167,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -60167,7 +60182,7 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
-  - name: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -60178,6 +60193,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -60193,6 +60211,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-D3
   upstream: https://github.com/d3/d3
@@ -60203,7 +60224,7 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
-  - name: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -60219,7 +60240,7 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
-  - name: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -60230,6 +60251,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -60245,7 +60269,7 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
-  - name: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -60261,6 +60285,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-jQuery
   upstream: http://jquery.com/
@@ -60270,6 +60297,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -60282,6 +60312,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-JQuery.quicksearch
   upstream: https://opendev.org/openstack/xstatic-jquery.quicksearch
@@ -60290,6 +60323,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -60302,6 +60338,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-jquery-ui
   upstream: https://github.com/jquery/jquery-ui
@@ -60311,6 +60350,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -60336,7 +60378,7 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
-  - name: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -60352,6 +60394,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-objectpath
   upstream: https://github.com/mike-marcacci/objectpath
@@ -60362,7 +60407,7 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
-  - name: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -60373,6 +60418,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -60388,7 +60436,7 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
-  - name: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -60404,7 +60452,7 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
-  - name: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -60417,6 +60465,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-term.js
   upstream: https://github.com/chjj/term.js
@@ -60427,7 +60478,7 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
-  - name: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -60441,7 +60492,7 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
-  - name: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -60515,6 +60566,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -61542,7 +61596,7 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
-  - name: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -61587,6 +61641,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -61868,6 +61925,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -62246,6 +62306,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -63309,6 +63372,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-datanommer.consumer
   upstream: http://github.com/fedora-infra/datanommer
@@ -63403,6 +63469,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-deap
   upstream: https://www.github.com/deap
@@ -63465,6 +63534,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -63732,6 +63804,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-django-discover-runner
   upstream: http://github.com/jezdez/django-discover-runner
@@ -63806,7 +63881,7 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
-  - name: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -63894,6 +63969,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-django-annoying
   upstream: https://github.com/skorokithakis/django-annoying
@@ -63941,6 +64019,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -64072,7 +64153,7 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
-  - name: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -64086,6 +64167,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -64509,6 +64593,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-entrypoints
   description: ''
@@ -64657,6 +64744,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-execnet
   description: ''
@@ -64769,6 +64859,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -65057,6 +65150,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -65376,7 +65472,7 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
-  - name: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -66490,6 +66586,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-importmagic
   upstream: http://github.com/alecthomas/importmagic
@@ -66627,6 +66726,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -66972,7 +67074,7 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
-  - name: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -66986,6 +67088,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -67504,7 +67609,7 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
-  - name: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -68954,6 +69059,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-oauthlib
   description: ''
@@ -69457,6 +69565,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-oslotest
   upstream: https://docs.openstack.org/oslotest/latest/
@@ -69761,6 +69872,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -71481,6 +71595,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-pypng
   upstream: https://github.com/drj11/pypng
@@ -71556,6 +71673,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-pyrpm
   description: Python library for parsing RPM spec files.
@@ -71594,6 +71714,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -71659,6 +71782,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-pysnmp
   upstream: https://github.com/etingof/pysnmp
@@ -71670,6 +71796,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -72071,7 +72200,7 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
-  - name: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -72858,7 +72987,7 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
-  - name: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -72904,7 +73033,7 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
-  - name: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -72928,6 +73057,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -73357,6 +73489,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -74030,6 +74165,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-sphinx-gallery
   upstream: https://sphinx-gallery.github.io
@@ -74123,6 +74261,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-sphinxcontrib-bibtex
   description: Sphinx extension for BibTeX style citations.
@@ -74146,6 +74287,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-sphinxcontrib-fulltoc
   upstream: http://sphinxcontrib-fulltoc.readthedocs.org
@@ -74166,7 +74310,7 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
-  - name: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -74194,6 +74338,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -74364,6 +74511,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -74614,6 +74764,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-tambo
   upstream: UNKNOWN
@@ -74767,7 +74920,7 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
-  - name: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -74946,6 +75099,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -75320,6 +75476,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-urlgrabber
   description: ''
@@ -75530,6 +75689,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-virtualenv
   description: ''
@@ -75645,6 +75807,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-vpoller
   upstream: https://github.com/dnaeon/py-vpoller
@@ -75752,6 +75917,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-webassets
   upstream: http://github.com/miracle2k/webassets/
@@ -75774,6 +75942,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -76589,6 +76760,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -107353,6 +107527,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: openstack-ironic-inspector
   description: Hardware introspection for OpenStack Bare Metal
@@ -107371,6 +107548,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -107415,6 +107595,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -107481,6 +107664,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -107749,6 +107935,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: kmodtool
   description: Tool for building kmod packages
@@ -107924,6 +108113,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -108247,7 +108439,7 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
-  - name: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -108299,6 +108491,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: perl-Test-Nginx
   description: Data-driven test scaffold for Nginx C module and Nginx/OpenResty-based
@@ -108325,6 +108520,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-ifaddr
   description: ifaddr is a small Python library that allows you to find all the Ethernet
@@ -108336,6 +108534,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-setproctitle
   description: setproctitle allows a process to change its title (as displayed by
@@ -108345,6 +108546,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -108368,7 +108572,7 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
-  - name: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -108490,6 +108694,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -108634,6 +108841,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-gabbi
   description: A tool for running HTTP tests where requests and responses are represented
@@ -108643,6 +108853,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -108844,6 +109057,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-wsme
   description: Web Service Made Easy
@@ -108865,7 +109081,7 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
-  - name: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -108899,6 +109115,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-xmod
   description: Extend a module with any Python object.
@@ -108907,6 +109126,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -108939,6 +109161,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-sphinxcontrib-actdiag
   description: A sphinx extension for embedding activity diagram using actdiag.
@@ -108949,6 +109174,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-sphinxcontrib-seqdiag
   description: A sphinx extension for embedding sequence diagram using seqdiag.
@@ -108957,6 +109185,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -108993,6 +109224,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -109062,6 +109296,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -109324,7 +109561,7 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
-  - name: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -109600,3 +109837,4 @@ repositories:
   - name: master
     type: protected
   type: public
+
