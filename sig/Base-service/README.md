@@ -13,9 +13,10 @@
 朱健伟[@zhujianwei001](https://gitee.com/zhujianwei001)
 谢志鹏[@xiezhipeng1](https://gitee.com/xiezhipeng1)
 韩欣科[@hanxinke](https://gitee.com/hanxinke)
-单世史[@shanshishi](https://gitee.com/shanshishi)
 李次华[@licihua](https://gitee.com/licihua)
 朱春意[@zhuchunyi](https://gitee.com/zhuchunyi)
+沈洋洋[@openeuler-basic](https://gitee.com/openeuler-basic)
+陈家龙[@pecs](https://gitee.com/pecs)
 
 ### Committer列表
 Everyone could send patches to openEuler.
