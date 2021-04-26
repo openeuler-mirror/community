@@ -101,8 +101,8 @@ repositories:
   additional_contributors:
   - gitee_id: infra_superman
     name: Clark_Ken
-  	orgnization: Justice_L
-  	email: zzzzzzz@openeuler.org
+    orgnization: Justice_L
+    email: zzzzzzz@openeuler.org
 - repo: openeuler/blog
 - repo: openeuler/go-gitee
 ```
