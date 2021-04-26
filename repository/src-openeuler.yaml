@@ -78017,15 +78017,6 @@ repositories:
     type: protected
     create_from: master
   type: public
-- name: python-pydotplus
-  description: Python interface to Graphviz's Dot language.
-  branches:
-  - name: master
-    type: protected
-  - name: openEuler-20.09
-    type: protected
-    create_from: master
-  type: private
 - name: python-pyelectro
   upstream: https://github.com/NeuralEnsemble/pyelectro
   description: A Python library for analysis of electrophysiological data
@@ -122058,4 +122049,229 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  type: public
+- name: python-kafka
+  description: Python client for Apache Kafka
+  upstream: https://github.com/dpkp/kafka-python
+  branches:
+  - name: master
+    type: protected
+  - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  type: public
+- name: python-kazoo
+  description: A higher level API to Apache Zookeeper for Python clients
+  upstream: https://github.com/python-zk/kazoo
+  branches:
+  - name: master
+    type: protected
+  - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  type: public
+- name: python-mox3
+  description: Port of mox library to python 3
+  upstream: https://opendev.org/openstack/mox3
+  branches:
+  - name: master
+    type: readonly
+  - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  type: public
+- name: python-pika
+  description: Pika is a RabbitMQ (AMQP 0-9-1) client library for Python.
+  upstream: https://github.com/pika/pika
+  branches:
+  - name: master
+    type: protected
+  - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  type: public
+- name: python-ryu
+  description: Ryu component-based software defined networking framework
+  upstream: https://github.com/faucetsdn/ryu
+  branches:
+  - name: master
+    type: protected
+  - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  type: public
+- name: python-consul
+  description: Python client for Consul.io
+  upstream: https://pypi.org/project/python-consul/
+  branches:
+  - name: master
+    type: protected
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  type: public
+- name: python-doc8
+  description: Style checker for Sphinx (or other) RST documentation
+  upstream: https://pypi.org/project/doc8/
+  branches:
+  - name: master
+    type: protected
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  type: public
+- name: python-etcd3
+  description: Python client for the etcd API v3
+  upstream: https://pypi.org/project/etcd3/
+  branches:
+  - name: master
+    type: protected
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  type: public
+- name: python-flake8-docstrings
+  description: Extension for flake8 which uses pydocstyle to check docstrings
+  upstream: https://pypi.org/project/flake8-docstrings/
+  branches:
+  - name: master
+    type: protected
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  type: public
+- name: python-pep257
+  description: pep257 is a static analysis tool for checking compliance with Python PEP 257
+  upstream: https://pypi.org/project/pep257/
+  branches:
+  - name: master
+    type: protected
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  type: public
+- name: python-pep8
+  description: pep8 is a tool to check your Python code against some of the style conventions in PEP 8
+  upstream: https://pypi.org/project/pep8/
+  branches:
+  - name: master
+    type: protected
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  type: public
+- name: python-pifpaf
+  description: Suite of tools and fixtures to manage daemons for testing
+  upstream: https://pypi.org/project/pifpaf/
+  branches:
+  - name: master
+    type: protected
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  type: public
+- name: python-pydotplus
+  description: Python interface to Graphviz's Dot language
+  upstream: https://pypi.org/project/pydotplus/
+  branches:
+  - name: master
+    type: readonly
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  type: public
+- name: python-PyMI
+  description: Windows Management Infrastructure API for Python
+  upstream: https://pypi.org/project/PyMI/
+  branches:
+  - name: master
+    type: protected
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  type: public
+- name: python-restructuredtext-lint
+  description: reStructuredText linter
+  upstream: https://pypi.org/project/restructuredtext-lint/
+  branches:
+  - name: master
+    type: protected
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  type: public
+- name: python-rtslib-fb
+  description: API for Linux kernel SCSI target (aka LIO)
+  upstream: https://pypi.org/project/rtslib-fb/
+  branches:
+  - name: master
+    type: protected
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  type: public
+- name: python-suds-jurko
+  description: Lightweight SOAP client (Jurko's fork)
+  upstream: https://pypi.org/project/suds-jurko/
+  branches:
+  - name: master
+    type: protected
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  type: public
+- name: python-sysv-ipc
+  description: System V IPC primitives (semaphores, shared memory and message queues) for Python
+  upstream: https://pypi.org/project/sysv-ipc/
+  branches:
+  - name: master
+    type: protected
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  type: public
+- name: python-weakrefmethod
+  description: A WeakMethod class for storing bound methods using weak references.
+  upstream: https://pypi.org/project/weakrefmethod/
+  branches:
+  - name: master
+    type: protected
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  type: public
+- name: python-wmi
+  description: Windows Management Instrumentation
+  upstream: https://pypi.org/project/WMI/
+  branches:
+  - name: master
+    type: protected
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  type: public
+- name: python-zake
+  description: A python package that works to provide a nice set of testing utilities for the kazoo library.
+  upstream: https://pypi.org/project/zake/
+  branches:
+  - name: master
+    type: protected
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
