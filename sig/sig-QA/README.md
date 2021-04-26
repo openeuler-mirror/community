@@ -45,3 +45,4 @@ repository地址：
   - https://gitee.com/openeuler/integration-test
   - https://gitee.com/openeuler/container-test
   - https://gitee.com/openeuler/test-tools
+  - https://gitee.com/src-openeuler/linux-test-project
