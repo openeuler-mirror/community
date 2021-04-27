@@ -96,6 +96,7 @@ def check_2(sigs, exps):
         if sig["name"] == "Private":
             continue
         for repo in sig["repositories"]:
+            # Gitee requires case-insenstive for repo creation
             repo = repo.lower()
             supervisor = repositories.get(repo, set())
             if sig["name"] in supervisor:
@@ -129,7 +130,8 @@ def check_3(sigs):
 
     for sig in sigs:
         for repo in sig["repositories"]:
-            repo = repo.lower()
+            # Gitee requries strict case senstive naming for direct access
+            # repo = repo.lower()
             supervisor = supervisors.get(repo, set())
             supervisor.add(sig["name"])
             supervisors[repo] = supervisor
@@ -165,7 +167,8 @@ def check_4(exps, prefix, oe_repos, supervisors, cross_checked_repo):
                "but not listed in Private SIG."
 
     for repo in oe_repos:
-        name = prefix + "/" + repo["name"].lower()
+        # Gitee requires strict case sensitive for direct accessing
+        name = prefix + "/" + repo["name"]
         if "type" not in repo.keys():
             print("ERROR! Repository {name} has no type tag".format(name=name))
             errors_found += 1
