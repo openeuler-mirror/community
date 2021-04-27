@@ -1,9 +1,9 @@
 name: sig-high-performance-network
 description: The high-performance-network team is responsible for the development and maintenance of network acceleration technology in openeuler community
 mailing_list: high-performance-network@openeuler.org dev@openeuler.org
-meeting_url: NA
+meeting_url: https://mailweb.openeuler.org/hyperkitty/list/high-performance-network@openeuler.org/
 mature_level: startup
-memtors:
+mentors:
 - gitee_id: MrRlu
   name: luzhihao
   email: luzhihao@huawei.com
@@ -20,6 +20,7 @@ maintainers:
 - gitee_id: bitcoffee
   name: liuxin
   email: liuxin264@huawei.com
+committers:
 repositories:
 - repo: src-openeuler/dpdk
   additional_contributors:
