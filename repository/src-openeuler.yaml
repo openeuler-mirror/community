@@ -120821,6 +120821,12 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: heketi
   upstream: https://github.com/heketi/heketi
@@ -121421,4 +121427,43 @@ repositories:
   branches:
   - name: master
     type: protected
+  type: public
+- name: java-uuid-generator
+  description: 'A pure Java UUID Generator'
+  upstream: https://github.com/cowtowncoder/java-uuid-generator
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  type: public
+- name: python-wrapt-1.10
+  description: 'A Python module for decorators, wrappers and monkey patching'
+  upstream: https://github.com/GrahamDumpleton/wrapt
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  type: public
+- name: libconfuse
+  description: 'A configuration file parser library'
+  upstream: https://github.com/martinh/libconfuse
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
