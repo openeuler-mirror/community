@@ -114,3 +114,18 @@ repository地址：
   - https://gitee.com/src-openeuler/sunpinyin
   - https://gitee.com/src-openeuler/qt-at-spi
   - https://gitee.com/src-openeuler/zssh
+  - https://gitee.com/src-openeuler/aom
+  - https://gitee.com/src-openeuler/byzanz
+  - https://gitee.com/src-openeuler/dav1d
+  - https://gitee.com/src-openeuler/deepin-draw
+  - https://gitee.com/src-openeuler/deepin-screen-recorder
+  - https://gitee.com/src-openeuler/ffmpeg
+  - https://gitee.com/src-openeuler/nv-codec-headers
+  - https://gitee.com/src-openeuler/opencore-amr
+  - https://gitee.com/src-openeuler/soxr
+  - https://gitee.com/src-openeuler/srt
+  - https://gitee.com/src-openeuler/vid.stab
+  - https://gitee.com/src-openeuler/vo-amrwbenc
+  - https://gitee.com/src-openeuler/x264
+  - https://gitee.com/src-openeuler/xvidcore
+  - https://gitee.com/src-openeuler/zimg
