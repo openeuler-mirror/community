@@ -65393,6 +65393,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-GridDataFormats
   upstream: https://github.com/MDAnalysis/GridDataFormats
@@ -65791,6 +65794,9 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-SecretStorage
   description: ''
@@ -66944,6 +66950,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-argparse-manpage
   upstream: https://github.com/praiskup/argparse-manpage
@@ -67498,6 +67507,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-bcc
   upstream: https://github.com/willsheffler/bcc
@@ -67898,6 +67910,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -69584,6 +69599,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-dict.sorted
   upstream: https://github.com/lukesneeringer/dict-sorted
@@ -69804,6 +69822,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -70956,6 +70977,9 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-fastimport
   upstream: https://github.com/jelmer/python-fastimport
@@ -73179,6 +73203,9 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-joblib
   description: ''
@@ -76161,6 +76188,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-outcome
   upstream: https://github.com/python-trio/outcome
@@ -77982,6 +78012,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-pyglet
   description: A cross-platform windowing and multimedia library for Python.
@@ -78132,6 +78165,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -81437,6 +81473,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-stomper
   upstream: https://github.com/oisinmulvihill/stomper
@@ -81787,6 +81826,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -82332,6 +82374,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -82994,6 +83039,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -119965,6 +120013,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-os-testr
   description: A testr wrapper to provide functionality for OpenStack projects.
@@ -120023,6 +120074,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
