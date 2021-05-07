@@ -121303,6 +121303,12 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: ganglia
   upstream: http://ganglia.sourceforge.net/
@@ -121330,6 +121336,12 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: flatbuffers
   upstream: http://google.github.io/flatbuffers
@@ -121972,6 +121984,58 @@ repositories:
 - name: itrustee_sdk
   description: Confidential computing framework for developing TA on itrustee OS
   upstream: https://gitee.com/openeuler/itrustee_sdk.git
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  type: public
+- name: python-posix_ipc
+  description: 'POSIX IPC primitives (semaphores and shared memory)'
+  upstream: https://pypi.org/project/posix-ipc
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  type: public
+- name: mybatis-generator
+  description: 'A code generator for MyBatis and iBATIS'
+  upstream: http://www.mybatis.org
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  type: public
+- name: python-openvswitch
+  description: 'Python bindings for Open vSwitch library'
+  upstream: https://pypi.org/project/ovs/
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  type: public
+- name: rinetd
+  description: 'rinetd redirects TCP connections from one IP address and port to another address and port'
+  upstream: https://github.com/samhocevar/rinetd
   branches:
   - name: master
     type: protected
