@@ -121851,3 +121851,10 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: smartdenovo
+  description: Ultra-fast de novo assembler using long noisy reads
+  upstream: https://github.com/ruanjue/smartdenovo
+  branches:
+  - name: master
+    type: protected
+  type: public
