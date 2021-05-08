@@ -121569,6 +121569,9 @@ repositories:
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: etmem
   description: etmem, the memory vertical expansion technology, uses DRAM and high-performance
