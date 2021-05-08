@@ -92379,6 +92379,111 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: aom
+  description: Royalty-free next-generation video format
+  upstream: http://aomedia.org/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: byzanz
+  description: A desktop recorder format
+  upstream: http://git.gnome.org/browse/byzanz/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: dav1d
+  description: AV1 cross-platform Decoder
+  upstream: https://code.videolan.org/videolan/dav1d
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: deepin-draw
+  description: A lightweight drawing tool for Linux Deepin
+  upstream: https://github.com/linuxdeepin/deepin-draw
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: deepin-screen-recorder
+  description: Deepin Screen Recorder
+  upstream: https://github.com/linuxdeepin/deepin-screen-recorder
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: ffmpeg
+  description: Digital VCR and streaming server
+  upstream: http://ffmpeg.org
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: nv-codec-headers
+  description: FFmpeg version of Nvidia Codec SDK headers
+  upstream: https://github.com/FFmpeg/nv-codec-headers
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: opencore-amr
+  description: OpenCORE Adaptive Multi Rate Narrowband and Wideband speech lib
+  upstream: http://sourceforge.net/projects/opencore-amr/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: soxr
+  description: The SoX Resampler library
+  upstream: https://sourceforge.net/p/soxr/wiki/Home/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: srt
+  description: Secure Reliable Transport protocol tools
+  upstream: https://www.srtalliance.org
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: vid.stab
+  description: Video stabilize library for fmpeg, mlt or transcode
+  upstream: http://public.hronopik.de/vid.stab
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: vo-amrwbenc
+  description: VisualOn AMR-WB encoder library
+  upstream: http://opencore-amr.sourceforge.net/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: x264
+  description: H264/AVC video streams encoder
+  upstream: https://www.videolan.org/developers/x264.html
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: xvidcore
+  description: MPEG-4 Simple and Advanced Simple Profile codec
+  upstream: https://www.xvid.com/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: zimg
+  description: Scaling, color space conversion, and dithering library
+  upstream: https://github.com/sekrit-twc/zimg
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: uid_wrapper
   description: ''
   branches:
@@ -99623,7 +99728,7 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: zvbi
-  description: ''
+  description: 'Raw VBI, Teletext and Closed Caption decoding library'
   branches:
   - name: master
     type: protected

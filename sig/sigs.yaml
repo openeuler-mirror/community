@@ -3713,7 +3713,6 @@ sigs:
   - src-openeuler/xmvn-connector-gradle
   - src-openeuler/xmvn-tools
   - src-openeuler/xorg-sgml-doctools
-  - src-openeuler/zvbi
   - src-openeuler/pysendfile
 - name: oVirt
   repositories:
@@ -7402,6 +7401,8 @@ sigs:
   - src-openeuler/deepin-default-settings
   - src-openeuler/deepin-qml-widgets
   - src-openeuler/dde
+  - src-openeuler/deepin-draw
+  - src-openeuler/deepin-screen-recorder
   - src-openeuler/libgxim
   - src-openeuler/fcitx
   - src-openeuler/fcitx-configtool
@@ -7412,6 +7413,20 @@ sigs:
   - src-openeuler/sunpinyin
   - src-openeuler/qt-at-spi
   - src-openeuler/zssh
+  - src-openeuler/aom
+  - src-openeuler/byzanz
+  - src-openeuler/dav1d
+  - src-openeuler/ffmpeg
+  - src-openeuler/nv-codec-headers
+  - src-openeuler/opencore-amr
+  - src-openeuler/soxr
+  - src-openeuler/srt
+  - src-openeuler/vid.stab
+  - src-openeuler/vo-amrwbenc
+  - src-openeuler/x264
+  - src-openeuler/xvidcore
+  - src-openeuler/zimg
+  - src-openeuler/zvbi
 - name: sig-high-performance-network
   repositories:
   - src-openeuler/dwarves
