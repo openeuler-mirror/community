@@ -1,0 +1,22 @@
+name: sig-Ostree-Assembly
+description: Ostree generation platform, based on the Python Django, provides a complete set of web-based ostree mirror building process. Simplify the ostree version generation operation, and provide users with a simple and efficient ostree version customization method.
+mailing_list: sig-Ostree-Assembly@openeuler.org
+meeting_url: NA
+mature_level: gratuated
+mentors:
+maintainers:
+- gitee_id: stonefly128
+  name: ShiYong
+  organization: KylinSec OS
+  email: shiyong@kylinos.com.cn
+committers:
+- gitee_id: yuan__xing
+  name: YuanXing
+  email: yuanxing@kylinos.com.cn
+- gitee_id: JockerMa
+  name: MaZhiGuo
+  email: mazhiguo@kylinos.com.cn
+repositories:
+- repo: src-openeuler/ostree_assembly
+- repo: src-openeuler/rpm-ostree-toolbox
+- repo: src-openeuler/atomic
