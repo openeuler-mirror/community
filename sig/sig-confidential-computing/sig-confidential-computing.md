@@ -40,3 +40,4 @@ The sig-confidential_computing mainly discusses the existing or future confident
   - src-openeuler/intel-sgx-ssl
   - src-openeuler/ocaml-dune
   - src-openeuler/secGear
+  - src-openeuler/itrustee_sdk
