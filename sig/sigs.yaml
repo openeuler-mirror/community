@@ -7589,30 +7589,6 @@ sigs:
   - src-openeuler/python-XStatic-Spin
   - src-openeuler/python-XStatic-tv4
   - src-openeuler/dibbler
-- name: sig-wine
-  repositories:
-  - src-openeuler/wine
-  - src-openeuler/bullet
-  - src-openeuler/cloog
-  - src-openeuler/efl
-  - src-openeuler/FAudio
-  - src-openeuler/isl
-  - src-openeuler/jack-audio-connection-kit
-  - src-openeuler/libffado
-  - src-openeuler/libxmlpp
-  - src-openeuler/mingw-binutils
-  - src-openeuler/mingw-crt
-  - src-openeuler/mingw-filesystem
-  - src-openeuler/mingw-gcc
-  - src-openeuler/mingw-headers
-  - src-openeuler/mingw-wine-gecko
-  - src-openeuler/mingw-winpthreads
-  - src-openeuler/spirv-headers
-  - src-openeuler/spirv-tools
-  - src-openeuler/tinyxml
-  - src-openeuler/tslib
-  - src-openeuler/vkd3d
-  - src-openeuler/wine-mono
 - name: sig-OS-Builder
   repositories:
   - src-openeuler/anaconda
@@ -7786,3 +7762,29 @@ sigs:
   - src-openeuler/igh-ethercat-xenomai
   - src-openeuler/libmodbus-xenomai
   - src-openeuler/canfestival-xenomai
+- name: sig-compat-winapp
+  repositories:
+  - openeuler/compat-winapp
+  - openeuler/wine-app
+  - src-openeuler/wine
+  - src-openeuler/bullet
+  - src-openeuler/cloog
+  - src-openeuler/efl
+  - src-openeuler/FAudio
+  - src-openeuler/isl
+  - src-openeuler/jack-audio-connection-kit
+  - src-openeuler/libffado
+  - src-openeuler/libxmlpp
+  - src-openeuler/mingw-binutils
+  - src-openeuler/mingw-crt
+  - src-openeuler/mingw-filesystem
+  - src-openeuler/mingw-gcc
+  - src-openeuler/mingw-headers
+  - src-openeuler/mingw-wine-gecko
+  - src-openeuler/mingw-winpthreads
+  - src-openeuler/spirv-headers
+  - src-openeuler/spirv-tools
+  - src-openeuler/tinyxml
+  - src-openeuler/tslib
+  - src-openeuler/vkd3d
+  - src-openeuler/wine-mono
