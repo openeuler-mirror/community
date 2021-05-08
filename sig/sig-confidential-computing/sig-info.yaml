@@ -1,0 +1,36 @@
+name: sig-confidential-computing
+description: The sig for confidential computing technologies.
+mailing_list: dev@openeuler.org
+meeting_url: NA
+mature_level: startup
+maintainers:
+- gitee_id: blue0613
+  name: Guijin Gao
+  organization: Huawei
+  email: gaoguijin@huawei.com
+- gitee_id: chenmaodong
+  name: Maodong Chen
+  organization: Huawei
+  email: chenmaodong@huawei.com
+committers:
+- gitee_id: whzhe
+  name: Hongzhe Wang
+  email: wanghongzhe@huawei.com
+- gitee_id: yanlu
+  name: Lu Yan
+  email: yanlu14@huawei.com
+- gitee_id: wolfkernel
+  name: Linhao Zhang
+  email: zhanglinhao@huawei.com
+- gitee_id: liwei3013
+  name: Wei Li
+  email: liwei455@huawei.com
+repositories:
+- repo: openeuler/secGear
+- repo: openeuler/itrustee_sdk
+- repo: src-openeuler/linux-sgx
+- repo: src-openeuler/linux-sgx-driver
+- repo: src-openeuler/intel-sgx-ssl
+- repo: src-openeuler/ocaml-dune
+- repo: src-openeuler/secGear
+- repo: src-openeuler/itrustee_sdk
