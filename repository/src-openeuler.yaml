@@ -99444,13 +99444,14 @@ repositories:
   type: public
 - name: zvbi
   description: 'Raw VBI, Teletext and Closed Caption decoding library'
+  upstream: http://zapping.sourceforge.net/ZVBI/index.html
   branches:
   - name: master
     type: protected
   - name: openEuler-20.09
     type: protected
     create_from: master
-  type: private
+  type: public
 - name: zziplib
   description: ''
   branches:
