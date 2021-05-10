@@ -853,6 +853,12 @@ repositories:
     - name: master
       type: protected
   type: public
+- name: user-committee
+  description: It's git repository for User Committee
+  branches:
+    - name: master
+      type: protected
+  type: public
 - name: compat-winapp
   description: "Issue report and discussion entry repo for compat-winapp SIG"
   branches:
