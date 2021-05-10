@@ -14,22 +14,24 @@
 
 # 成员
 
-
-### Maintainer列表
+### OutStanding contributor List
 
 - zhanghailiang[@zhanghailiang](https://gitee.com/zhanghailiang_lucky)
-- fangying[@fangying](https://gitee.com/yorifang)
-- xuyandong[@xuyandong](https://gitee.com/xydong)
-- wubin[@wubin](https://gitee.com/RootWB)
-- wangzhigang[@wangzhigang](https://gitee.com/cellfaint)
-- zhendongchen[@zhendongchen](https://gitee.com/zhendongchen)
+- RootWB[@RootWB](https://gitee.com/RootWB)
+- ZhiGang[@ZhiGang](https://gitee.com/cellfaint)
 
-### Committer列表
+### Maintainer List
 
-- chenqun[@chenqun](https://gitee.com/kuhnchen18)
+- alexchen[@alexchen](https://gitee.com/zhendongchen)
+- imxcc[@imxcc](https://gitee.com/imxcc)
+- Chuan[@Chuan](https://gitee.com/Chuan-Zheng)
+- KevinZhu[@KevinZhu](https://gitee.com/kevinzhu1)
+
+### Committer List
+
+- KuhnChen[@KuhnChen](https://gitee.com/kuhnchen18)
 - xufei[@xufei](https://gitee.com/flyking001)
 - zhangliang[@zhangliang](https://gitee.com/zhangliang5)
-
 
 
 # 联系方式
@@ -59,8 +61,7 @@
         - ms级设备扩缩能力，为轻量化负载提供灵活的资源伸缩能力
         - 设备模型可扩展，支持PCI等复杂设备规范，兼容Qemu软件生态
         - 多种计算、网络，存储加速方案支持，异构算力灵活协同
-- 21.03 (we are here)
-    -
+- 21.03
     - QEMU+KVM
         - 热迁移PRO
             - 热迁移脏页频率统计
