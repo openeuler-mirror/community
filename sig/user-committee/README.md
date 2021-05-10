@@ -11,7 +11,6 @@
 - 每双周周四下午4:00-5:30
 - 通过邮件申报议题
 
-
 # 成员
 - 马全一[@genedna](https://gitee.com/genedna)
 
@@ -23,4 +22,4 @@
 
 ## 项目清单
 repository 地址：
-- https://gitee.com/openeuler/enduser
+- https://gitee.com/openeuler/user-committee

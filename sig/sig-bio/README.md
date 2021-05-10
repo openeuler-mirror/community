@@ -55,3 +55,5 @@ repository地址：
 - https://gitee.com/src-openeuler/gffread
 - https://gitee.com/src-openeuler/gffcompare
 - https://gitee.com/src-openeuler/GATK
+- https://gitee.com/src-openeuler/bedtools
+- https://gitee.com/src-openeuler/smartdenovo

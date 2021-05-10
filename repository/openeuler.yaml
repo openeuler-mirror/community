@@ -853,9 +853,21 @@ repositories:
     - name: master
       type: protected
   type: public
-- name: enduser
-  description: It's git repository for End User Committee
+- name: user-committee
+  description: It's git repository for User Committee
   branches:
     - name: master
       type: protected
+  type: public
+- name: compat-winapp
+  description: "Issue report and discussion entry repo for compat-winapp SIG"
+  branches:
+    - name: master
+      type: protected
+  type: public
+- name: wine-app
+  description: This repository will provide the process document and configure script to make windows apps based on wine.
+  branches:
+  - name: master
+    type: protected
   type: public
