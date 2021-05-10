@@ -41487,6 +41487,12 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: openvswitch-kmod
   description: ''
@@ -41544,6 +41550,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -65086,6 +65098,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-Babel
   upstream: http://babel.pocoo.org/
@@ -65103,6 +65121,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -66827,6 +66851,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-alsa
   description: python binding for the ALSA library
@@ -66881,6 +66911,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -67084,6 +67120,12 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-apptools
   upstream: https://docs.enthought.com/apptools
@@ -68332,6 +68374,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-cachez
   upstream: http://github.com/jealous/cachez
@@ -68417,6 +68465,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-pycadf
   upstream: https://github.com/openstack/pycadf
@@ -68431,6 +68485,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -68849,6 +68909,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -69730,6 +69796,12 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-deap
   upstream: https://www.github.com/deap
@@ -70269,6 +70341,12 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-django-annoying
   upstream: https://github.com/skorokithakis/django-annoying
@@ -70721,6 +70799,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-doit
   upstream: http://pydoit.org
@@ -70810,6 +70894,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -71102,6 +71192,12 @@ repositories:
     type: protected
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -71959,6 +72055,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -73847,6 +73949,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-kickstart
   upstream: https://github.com/rlayte/kickstart
@@ -74131,6 +74239,12 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-leather
   upstream: http://leather.readthedocs.io/
@@ -74669,6 +74783,12 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-marshmallow
   description: Python library for converting complex datatypes to and from primitive
@@ -74725,6 +74845,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -75042,6 +75168,12 @@ repositories:
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-more-itertools
   description: ''
@@ -75114,6 +75246,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -75369,6 +75507,12 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-networkx
   upstream: https://github.com/networkx/networkx
@@ -75386,6 +75530,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -75722,6 +75872,12 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-oauthlib
   description: ''
@@ -75881,6 +76037,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-ordered-set
   description: ''
@@ -75943,6 +76105,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-oslo.cache
   upstream: https://github.com/openstack/oslo.cache
@@ -75957,6 +76125,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -75975,6 +76149,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-oslo.config
   upstream: https://github.com/openstack/oslo.config
@@ -75989,6 +76169,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -76007,6 +76193,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-keystoneclient
   upstream: https://opendev.org/openstack/python-keystoneclient
@@ -76021,6 +76213,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -76039,6 +76237,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-designateclient
   upstream: https://opendev.org/openstack/python-designateclient
@@ -76053,6 +76257,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -76071,6 +76281,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-neutronclient
   upstream: https://opendev.org/openstack/python-neutronclient
@@ -76085,6 +76301,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -76103,6 +76325,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-openstacksdk
   upstream: https://opendev.org/openstack/openstacksdk
@@ -76117,6 +76345,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -76135,6 +76369,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-osc-lib
   upstream: https://opendev.org/openstack/osc-lib
@@ -76149,6 +76389,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -76167,6 +76413,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-oslo.db
   upstream: https://github.com/openstack/oslo.db
@@ -76181,6 +76433,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -76202,6 +76460,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-oslo.log
   upstream: https://github.com/openstack/oslo.log
@@ -76216,6 +76480,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -76234,6 +76504,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-oslo.middleware
   upstream: https://github.com/openstack/oslo.middleware
@@ -76248,6 +76524,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -76266,6 +76548,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-oslo.privsep
   upstream: https://github.com/openstack/oslo.privsep
@@ -76280,6 +76568,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -76298,6 +76592,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-oslo.rootwrap
   upstream: https://github.com/openstack/oslo.rootwrap
@@ -76312,6 +76612,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -76330,6 +76636,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-oslo.service
   upstream: https://github.com/openstack/oslo.service
@@ -76344,6 +76656,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -76372,6 +76690,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-oslo.versionedobjects
   upstream: https://github.com/openstack/oslo.versionedobjects
@@ -76388,6 +76712,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-oslo.vmware
   upstream: https://github.com/openstack/oslo.vmware
@@ -76402,6 +76732,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -76437,6 +76773,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -76641,6 +76983,12 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-parse
   description: ''
@@ -76724,6 +77072,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -78546,6 +78900,12 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-pynvml
   upstream: http://www.nvidia.com/
@@ -78687,6 +79047,12 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-pyrpm
   description: Python library for parsing RPM spec files.
@@ -78734,6 +79100,12 @@ repositories:
     type: protected
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -78845,6 +79217,12 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-pyspf
   upstream: https://github.com/sdgathman/pyspf/
@@ -80025,6 +80403,12 @@ repositories:
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-requests-ntlm
   description: NTLM authentication support for Requests
@@ -80577,6 +80961,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-scramp
   upstream: https://github.com/tlocke/scramp
@@ -80895,6 +81285,12 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-simpleline
   description: ''
@@ -81677,6 +82073,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-sseclient
   upstream: https://github.com/btubbs/sseclient
@@ -81761,6 +82163,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -82359,6 +82767,12 @@ repositories:
     type: protected
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -83000,6 +83414,12 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-virtualenv
   description: ''
@@ -83215,6 +83635,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -83592,6 +84018,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -93598,6 +94030,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: kf5-attica
   description: KDE Frameworks Tier 1 Addon with Open Collaboration Services API
@@ -100277,6 +100715,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -119199,6 +119643,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: openstack-swift
   description: OpenStack Swift is a distributed object storage system designed to
@@ -119228,6 +119678,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: openstack-keystone
   description: OpenStack Keystone provides authentication, authorization and service
@@ -119243,6 +119699,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -119264,6 +119726,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: diskimage-builder
   description: diskimage-builder is a flexible suite of components for building a
@@ -119281,6 +119749,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: openstack-tempest
   rename_from: python-tempest
@@ -119296,6 +119770,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -119318,6 +119798,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: openstack-ironic-python-agent
   description: An agent for controlling and deploying Ironic controlled baremetal
@@ -119333,6 +119819,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -119365,6 +119857,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: openstack-ironic-staging-drivers
   description: A project used to hold out-of-tree ironic drivers
@@ -119384,6 +119882,12 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: networking-baremetal
   description: This project's goal is to provide deep integration between the Networking
@@ -119401,6 +119905,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: networking-generic-switch
   description: This is a Modular Layer 2 Neutron Mechanism driver. The mechanism driver
@@ -119416,6 +119926,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -119449,6 +119965,12 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-glanceclient
   description: This is a client library for Glance built on the OpenStack Images API.
@@ -119466,6 +119988,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -119486,6 +120014,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-ironic-inspector-client
   description: This is a client library and tool for Ironic Inspector.
@@ -119500,6 +120034,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -119519,6 +120059,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-netmiko
   description: Multi-vendor library to simplify Paramiko SSH connections to network
@@ -119534,6 +120080,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -119555,6 +120107,12 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-openstackclient
   description: OpenStackClient (aka OSC) is a command-line client for OpenStack that
@@ -119571,6 +120129,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -119667,6 +120231,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-neutron-lib
   description: Neutron shared routines and utilities
@@ -119683,6 +120253,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-os-client-config
   description: OpenStack Client Configuation Library
@@ -119697,6 +120273,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -119726,6 +120308,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -119853,6 +120441,12 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-requests-toolbelt
   description: A utility belt for advanced users of python-requests
@@ -120256,6 +120850,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: mod_wsgi
   description: A WSGI interface for Python web applications in Apache
@@ -120281,6 +120881,12 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: nagios-plugins
   description: Host/service/network monitoring program plugins for Nagios contains
@@ -120463,6 +121069,12 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-cliff
   description: A framework for building command line programs
@@ -120477,6 +121089,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -120660,6 +121278,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-sqlalchemy-migrate
   description: Migrate provides a way to deal with database schema changes in SQLAlchemy
@@ -120693,6 +121317,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-reno
   description: Reno is a release notes manager designed with high throughput in mind,
@@ -120711,6 +121341,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-cmd2
   description: A tool for building interactive command line apps
@@ -120725,6 +121361,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -120758,6 +121400,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -120803,6 +121451,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: musl
   description: musl is an implementation of the C standard library built on top of
@@ -120837,6 +121491,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -120902,6 +121562,12 @@ repositories:
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: fcitx-cloudpinyin
   description: Cloudpinyin module for fcitx
@@ -120937,6 +121603,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -121014,6 +121686,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -121196,6 +121874,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-pysendfile
   description: A system call which provides a "zero-copy" way of copying data from
@@ -121216,6 +121900,12 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-taskflow
   description: A library to complete workflows/tasks in HA manner.
@@ -121232,6 +121922,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-tooz
   description: Coordination library for distributed systems.
@@ -121246,6 +121942,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -121294,6 +121996,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-requests-mock
   description: Mocked responses for the requests library.
@@ -121308,6 +122016,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -121368,6 +122082,12 @@ repositories:
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-proliantutils
   description: Utility library for managing HP Proliant servers.
@@ -121385,6 +122105,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -121419,6 +122145,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-os-vif
   description: A library for plugging and unplugging virtual interfaces in OpenStack.
@@ -121433,6 +122165,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -121452,6 +122190,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-os-brick
   description: OpenStack Cinder brick library for managing local volume attaches.
@@ -121466,6 +122210,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -121505,6 +122255,12 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: LZMA-SDK
   description: The LZMA SDK provides the documentation, samples, header files, libraries,
@@ -121537,6 +122293,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -121670,6 +122432,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
