@@ -719,6 +719,9 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: SDL
   description: ''
@@ -870,7 +873,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: Xaw3d
   description: ''
@@ -5131,7 +5134,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: catkin
   description: catkin package that belongs to THE ROS-COMM
@@ -13296,7 +13299,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: gavl
   description: ''
@@ -14273,7 +14276,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: gimp
   description: ''
@@ -18019,7 +18022,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: hdf5
   description: ''
@@ -28485,7 +28488,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: libglvnd
   description: ''
@@ -28597,7 +28600,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: libgnomekbd
   description: ''
@@ -33649,7 +33652,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: lightdm-gtk-greeter
   description: LightDM GTK+ Greeter
@@ -37720,7 +37723,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: mousetweaks
   description: Accessibility enhancements for the mouse
@@ -41626,7 +41629,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: orc
   description: ''
@@ -42729,7 +42732,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: parted
   description: ''
@@ -65501,6 +65504,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-GridDataFormats
   upstream: https://github.com/MDAnalysis/GridDataFormats
@@ -65902,6 +65908,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-SecretStorage
   description: ''
@@ -66035,6 +66044,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-Angular
   upstream: http://angularjs.org
@@ -66049,6 +66061,9 @@ repositories:
     type: protected
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -66067,6 +66082,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-Angular-FileUpload
   upstream: https://github.com/danialfarid/ng-file-upload
@@ -66078,6 +66096,9 @@ repositories:
     type: protected
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -66096,6 +66117,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-Angular-lrdragndrop
   upstream: https://github.com/lorenzofox3/lrDragNDrop
@@ -66107,6 +66131,9 @@ repositories:
     type: protected
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -66122,6 +66149,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-Bootstrap-Datepicker
   upstream: https://github.com/uxsolutions/bootstrap-datepicker
@@ -66133,6 +66163,9 @@ repositories:
     type: protected
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -66151,6 +66184,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-D3
   upstream: https://github.com/d3/d3
@@ -66162,6 +66198,9 @@ repositories:
     type: protected
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -66180,6 +66219,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-Hogan
   upstream: https://github.com/twitter/hogan.js
@@ -66191,6 +66233,9 @@ repositories:
     type: protected
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -66209,6 +66254,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-Jasmine
   upstream: http://jasmine.github.io/
@@ -66225,6 +66273,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-jQuery
   upstream: http://jquery.com/
@@ -66237,6 +66288,9 @@ repositories:
     type: protected
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -66252,6 +66306,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-JQuery.quicksearch
   upstream: https://opendev.org/openstack/xstatic-jquery.quicksearch
@@ -66263,6 +66320,9 @@ repositories:
     type: protected
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -66278,6 +66338,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-jquery-ui
   upstream: https://github.com/jquery/jquery-ui
@@ -66290,6 +66353,9 @@ repositories:
     type: protected
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -66318,6 +66384,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-mdi
   upstream: http://materialdesignicons.com
@@ -66334,6 +66403,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-objectpath
   upstream: https://github.com/mike-marcacci/objectpath
@@ -66347,6 +66419,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-Rickshaw
   upstream: https://opendev.org/openstack/xstatic-rickshaw
@@ -66358,6 +66433,9 @@ repositories:
     type: protected
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -66376,6 +66454,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-smart-table
   upstream: https://github.com/lorenzofox3/Smart-Table
@@ -66392,6 +66473,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-Spin
   upstream: https://opendev.org/openstack/xstatic-spin
@@ -66403,6 +66487,9 @@ repositories:
     type: protected
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -66418,6 +66505,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-tv4
   upstream: https://github.com/geraintluff/tv4
@@ -66430,6 +66520,9 @@ repositories:
     type: protected
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -67058,6 +67151,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-argparse-manpage
   upstream: https://github.com/praiskup/argparse-manpage
@@ -67599,6 +67695,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-bashate
   upstream: http://docs.openstack.org/developer/bashate/
@@ -67613,6 +67712,9 @@ repositories:
     type: protected
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -67652,6 +67754,9 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-beaker
   description: ''
@@ -68020,6 +68125,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-boto3
   upstream: https://github.com/boto/boto3
@@ -68375,6 +68483,9 @@ repositories:
     type: protected
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -69689,6 +69800,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-demjson
   upstream: http://deron.meranda.us/python/demjson/
@@ -69711,6 +69825,9 @@ repositories:
     type: protected
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -69938,6 +70055,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-django-cache-url
   upstream: https://github.com/epicserve/django-cache-url
@@ -70050,6 +70170,9 @@ repositories:
     type: protected
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -70196,6 +70319,9 @@ repositories:
     type: protected
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -71091,6 +71217,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-fastimport
   upstream: https://github.com/jelmer/python-fastimport
@@ -71416,6 +71545,9 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-flask-restplus
   upstream: https://github.com/noirbizarre/flask-restplus
@@ -73317,6 +73449,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-joblib
   description: ''
@@ -73443,6 +73578,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-jsonpath-rw-ext
   upstream: https://github.com/sileht/python-jsonpath-rw-ext
@@ -73457,6 +73595,9 @@ repositories:
     type: protected
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -76276,6 +76417,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-oslotest
   upstream: https://docs.openstack.org/oslotest/latest/
@@ -76306,6 +76450,9 @@ repositories:
     type: protected
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -76627,6 +76774,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-pastel
   upstream: https://github.com/sdispater/pastel
@@ -76926,6 +77076,9 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-pg8000
   upstream: https://github.com/tlocke/pg8000
@@ -77028,6 +77181,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -78132,6 +78288,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-pyglet
   description: A cross-platform windowing and multimedia library for Python.
@@ -78285,6 +78444,9 @@ repositories:
     type: protected
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -78654,6 +78816,9 @@ repositories:
     type: protected
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -79902,6 +80067,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-restfly
   upstream: https://github.com/stevemcgrath/restfly
@@ -79948,6 +80116,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-retryz
   upstream: http://github.com/jealous/retryz
@@ -79972,6 +80143,9 @@ repositories:
     type: protected
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -80437,6 +80611,9 @@ repositories:
     type: protected
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -81161,6 +81338,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-sphinx-gallery
   upstream: https://sphinx-gallery.github.io
@@ -81261,6 +81441,9 @@ repositories:
     type: protected
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -81530,6 +81713,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-statsmodels
   upstream: https://www.statsmodels.org/
@@ -81591,6 +81777,9 @@ repositories:
     type: protected
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -81802,6 +81991,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-tambo
   upstream: UNKNOWN
@@ -81948,6 +82140,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-testresources
   upstream: https://launchpad.net/testresources
@@ -81962,6 +82157,9 @@ repositories:
     type: protected
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -82496,6 +82694,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-unidiff
   upstream: http://github.com/matiasb/python-unidiff
@@ -82565,6 +82766,9 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-urlgrabber
   description: ''
@@ -82917,6 +83121,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-vpoller
   upstream: https://github.com/dnaeon/py-vpoller
@@ -83159,6 +83366,9 @@ repositories:
     type: protected
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -83560,6 +83770,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -86129,7 +86342,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: rmic-maven-plugin
   description: Uses the java rmic compiler to generate classes used in remote method
@@ -91173,7 +91386,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: thunar-media-tags-plugin
   upstream: http://goodies.xfce.org/projects/thunar-plugins/thunar-media-tags-plugin
@@ -91189,7 +91402,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: thunar-vcs-plugin
   upstream: http://goodies.xfce.org/projects/thunar-plugins/thunar-vcs-plugin
@@ -91205,7 +91418,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: thunar-volman
   upstream: http://goodies.xfce.org/projects/thunar-plugins/thunar-volman
@@ -91221,7 +91434,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: thunarx-python
   upstream: http://goodies.xfce.org/projects/bindings/thunarx-python
@@ -91237,7 +91450,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: thx
   description: ''
@@ -92120,7 +92333,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: tuna
   description: Application tuning GUI and command line utility
@@ -96680,7 +96893,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xbean
   description: A plugin based server
@@ -97079,7 +97292,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfce-polkit
   upstream: https://github.com/ncopa/xfce-polkit
@@ -97095,7 +97308,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfce-theme-manager
   upstream: https://github.com/KeithDHedger/Xfce-Theme-Manager
@@ -97111,7 +97324,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfce4-appfinder
   upstream: http://www.xfce.org/
@@ -97127,7 +97340,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfce4-battery-plugin
   upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-battery-plugin
@@ -97143,7 +97356,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfce4-calculator-plugin
   upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-calculator-plugin
@@ -97159,7 +97372,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfce4-clipman-plugin
   upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-clipman-plugin
@@ -97175,7 +97388,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfce4-cpufreq-plugin
   upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-cpufreq-plugin
@@ -97191,7 +97404,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfce4-cpugraph-plugin
   upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-cpugraph-plugin
@@ -97207,7 +97420,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfce4-datetime-plugin
   upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-datetime-plugin
@@ -97223,7 +97436,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfce4-dev-tools
   upstream: http://xfce.org/~benny/projects/xfce4-dev-tools/
@@ -97239,7 +97452,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfce4-dict
   upstream: http://goodies.xfce.org/projects/applications/xfce4-dict
@@ -97255,7 +97468,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfce4-diskperf-plugin
   upstream: http://goodies.xfce.org/panel-plugins/{xfce4-diskperf-plugin}
@@ -97271,7 +97484,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfce4-embed-plugin
   upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-embed-plugin
@@ -97287,7 +97500,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfce4-eyes-plugin
   upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-eyes-plugin
@@ -97303,7 +97516,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfce4-fsguard-plugin
   upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-fsguard-plugin
@@ -97319,7 +97532,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfce4-genmon-plugin
   upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-genmon-plugin
@@ -97335,7 +97548,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfce4-hardware-monitor-plugin
   upstream: https://goodies.xfce.org/projects/panel-plugins/xfce4-hardware-monitor-plugin
@@ -97351,7 +97564,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfce4-mailwatch-plugin
   upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-mailwatch-plugin
@@ -97367,7 +97580,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfce4-mount-plugin
   upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-mount-plugin
@@ -97383,7 +97596,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfce4-mpc-plugin
   upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-mpc-plugin
@@ -97399,7 +97612,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfce4-netload-plugin
   upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-netload-plugin
@@ -97415,7 +97628,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfce4-notes-plugin
   upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-notes-plugin
@@ -97431,7 +97644,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfce4-notifyd
   upstream: http://goodies.xfce.org/projects/applications/xfce4-notifyd
@@ -97447,7 +97660,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfce4-panel
   upstream: http://www.xfce.org/
@@ -97463,7 +97676,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfce4-panel-profiles
   upstream: https://git.xfce.org/apps/xfce4-panel-profiles/about/
@@ -97479,7 +97692,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfce4-places-plugin
   upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-places-plugin
@@ -97495,7 +97708,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfce4-power-manager
   upstream: http://goodies.xfce.org/projects/applications/xfce4-power-manager
@@ -97511,7 +97724,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfce4-pulseaudio-plugin
   upstream: https://github.com/andrzej-r/xfce4-pulseaudio-plugin
@@ -97527,7 +97740,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfce4-screensaver
   upstream: https://git.xfce.org/apps/xfce4-screensaver/
@@ -97543,7 +97756,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfce4-screenshooter
   upstream: http://goodies.xfce.org/projects/applications/xfce4-screenshooter
@@ -97559,7 +97772,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfce4-sensors-plugin
   upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-sensors-plugin
@@ -97575,7 +97788,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfce4-session
   upstream: http://www.xfce.org/
@@ -97591,7 +97804,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfce4-settings
   upstream: http://www.xfce.org/
@@ -97607,7 +97820,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfce4-smartbookmark-plugin
   upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-smartbookmark-plugin
@@ -97623,7 +97836,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfce4-statusnotifier-plugin
   upstream: http://www.xfce.org/
@@ -97639,7 +97852,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfce4-systemload-plugin
   upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-systemload-plugin
@@ -97655,7 +97868,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfce4-taskmanager
   upstream: http://goodies.xfce.org/projects/applications/xfce4-taskmanager
@@ -97671,7 +97884,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfce4-terminal
   upstream: http://docs.xfce.org/apps/terminal/start
@@ -97687,7 +97900,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfce4-time-out-plugin
   upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-time-out-plugin
@@ -97703,7 +97916,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfce4-timer-plugin
   upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-timer-plugin
@@ -97719,7 +97932,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfce4-vala
   upstream: http://wiki.xfce.org/vala-bindings
@@ -97735,7 +97948,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfce4-verve-plugin
   upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-verve-plugin
@@ -97751,7 +97964,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfce4-volumed-pulse
   rename_from: xfce4-volumed
@@ -97768,7 +97981,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfce4-wavelan-plugin
   upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-wavelan-plugin
@@ -97784,7 +97997,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfce4-weather-plugin
   upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-weather-plugin
@@ -97800,7 +98013,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfce4-whiskermenu-plugin
   upstream: http://gottcode.org/xfce4-whiskermenu-plugin/
@@ -97816,7 +98029,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfce4-xkb-plugin
   upstream: http://goodies.xfce.org/projects/panel-plugins/xfce4-xkb-plugin
@@ -97832,7 +98045,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfconf
   description: Hierarchical (tree-like) configuration system
@@ -97864,7 +98077,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfdesktop
   upstream: http://www.xfce.org/
@@ -97880,7 +98093,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xfsdump
   description: ''
@@ -97944,7 +98157,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: master    
+    create_from: master
   type: public
 - name: xhtml1-dtds
   description: ''
@@ -99731,7 +99944,7 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: zvbi
-  description: 'Raw VBI, Teletext and Closed Caption decoding library'
+  description: Raw VBI, Teletext and Closed Caption decoding library
   upstream: http://zapping.sourceforge.net/ZVBI/index.html
   branches:
   - name: master
@@ -119677,6 +119890,9 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: kmodtool
   description: Tool for building kmod packages
@@ -119878,6 +120094,9 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-s3transfer
   description: python3-s3transfer - Amazon S3 Transfer Manager
@@ -120359,6 +120578,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-pallets-sphinx-themes
   description: Sphinx themes for Pallets and related projects
@@ -120381,6 +120603,9 @@ repositories:
     type: protected
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -120449,6 +120674,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-os-testr
   description: A testr wrapper to provide functionality for OpenStack projects.
@@ -120512,6 +120740,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-debtcollector
   description: A collection of Python deprecation patterns and strategies that help
@@ -120541,6 +120772,9 @@ repositories:
     type: protected
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -120730,6 +120964,9 @@ repositories:
     type: protected
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -120940,6 +121177,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-wsme
   description: Web Service Made Easy
@@ -121020,6 +121260,9 @@ repositories:
     type: protected
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -121155,6 +121398,9 @@ repositories:
     type: protected
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -121942,14 +122188,15 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: bedtools
-  description: the bedtools utilities are a swiss-army knife of tools for a wide-range of genomics analysis tasks
+  description: the bedtools utilities are a swiss-army knife of tools for a wide-range
+    of genomics analysis tasks
   upstream: https://github.com/arq5x/bedtools2
   branches:
   - name: master
     type: protected
   type: public
 - name: java-uuid-generator
-  description: 'A pure Java UUID Generator'
+  description: A pure Java UUID Generator
   upstream: https://github.com/cowtowncoder/java-uuid-generator
   branches:
   - name: master
@@ -121962,7 +122209,7 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: python-wrapt-1.10
-  description: 'A Python module for decorators, wrappers and monkey patching'
+  description: A Python module for decorators, wrappers and monkey patching
   upstream: https://github.com/GrahamDumpleton/wrapt
   branches:
   - name: master
@@ -121975,7 +122222,7 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: libconfuse
-  description: 'A configuration file parser library'
+  description: A configuration file parser library
   upstream: https://github.com/martinh/libconfuse
   branches:
   - name: master
@@ -122008,7 +122255,7 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: python-posix_ipc
-  description: 'POSIX IPC primitives (semaphores and shared memory)'
+  description: POSIX IPC primitives (semaphores and shared memory)
   upstream: https://pypi.org/project/posix-ipc
   branches:
   - name: master
@@ -122021,7 +122268,7 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: mybatis-generator
-  description: 'A code generator for MyBatis and iBATIS'
+  description: A code generator for MyBatis and iBATIS
   upstream: http://www.mybatis.org
   branches:
   - name: master
@@ -122034,7 +122281,7 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: python-openvswitch
-  description: 'Python bindings for Open vSwitch library'
+  description: Python bindings for Open vSwitch library
   upstream: https://pypi.org/project/ovs/
   branches:
   - name: master
@@ -122047,7 +122294,8 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: rinetd
-  description: 'rinetd redirects TCP connections from one IP address and port to another address and port'
+  description: rinetd redirects TCP connections from one IP address and port to another
+    address and port
   upstream: https://github.com/samhocevar/rinetd
   branches:
   - name: master
