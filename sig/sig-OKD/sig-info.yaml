@@ -1,0 +1,29 @@
+name: sig-OKD
+description: The OKD team is responsible for OKD development and maintenance of the openEuler community.
+mailing_list: dev@openeuler.org
+meeting_url: https://etherpad.openeuler.org/p/sig-OKD
+mature_level: startup
+mentors:
+- gitee_id: hjimmy
+  name: hjimmy
+  email: houjian@kylinos.cn
+maintainers:
+- gitee_id: dou33
+  name: dou33
+  email: douyan@kylinos.cn
+- gitee_id: yangzhao_kl
+  name: yangzhao_kl
+  email: yangzhao1@kylinos.cn
+committers:
+- gitee_id: jxy_git
+  name: jxy_git
+  email: jiangxinyu@kylinos.cn
+repositories:
+- repo: src-openeuler/moosefs
+- repo: src-openeuler/quay
+- repo: src-openeuler/pulp
+- repo: src-openeuler/go-rpm-macros
+- repo: src-openeuler/go-srpm-macros
+- repo: src-openeuler/goversioninfo
+- repo: src-openeuler/openshift-ansible
+- repo: src-openeuler/origin
