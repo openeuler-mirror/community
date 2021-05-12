@@ -57,3 +57,4 @@ repository地址：
 - https://gitee.com/src-openeuler/GATK
 - https://gitee.com/src-openeuler/bedtools
 - https://gitee.com/src-openeuler/smartdenovo
+- https://gitee.com/src-openeuler/wtdbg2

@@ -123291,3 +123291,10 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: wtdbg2
+  description: Wtdbg2 is a de novo sequence assembler for long noisy reads produced by PacBio or Oxford Nanpopore Technologies(ONT).
+  upstream: https://github.com/ruanjue/wtdbg2
+  branches:
+  - name: master
+    type: protected
+  type: public
