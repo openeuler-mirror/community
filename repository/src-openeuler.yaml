@@ -77433,6 +77433,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: python-pg8000
   upstream: https://github.com/tlocke/pg8000
@@ -77538,6 +77541,9 @@ repositories:
     type: protected
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -84196,6 +84202,9 @@ repositories:
     type: protected
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -121055,9 +121064,6 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
-    type: protected
-    create_from: master
-  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
