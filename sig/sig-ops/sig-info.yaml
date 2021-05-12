@@ -1,0 +1,57 @@
+name: sig-ops
+description: The ops team is responsible for the development and maintenance of OS system ops in openeuler community.
+mailing_list: ops@openeuler.org
+meeting_url: https://mailweb.openeuler.org/hyperkitty/list/ops@openeuler.org/
+mature_level: startup
+
+maintainers:
+- gitee_id: luanjianhai
+  name: Luan Jianhai
+  organization: Huawei
+  email: luanjianhai@huawei.com
+- gitee_id: solarhu
+  name: Hu Feng
+  organization: Huawei
+  email: solar.hu@huawei.com
+- gitee_id: Gongchen
+  name: Chen Gong
+  organization: Huawei
+  email: chengong15@huawei.com
+- gitee_id: yaqiangchen
+  name: Chen Yaqiang
+  organization: Huawei
+  email: chenyaqiang@huawei.com
+- gitee_id: cmss_dx
+  name: Ding Xiang
+  organization: China Mobile
+  email: dingxiang@cmss.Chinamobile.com
+- gitee_id: gameoverboss
+  name: Zhou Kang
+  organization: Huawei
+  email: zhoukang7@huawei.com
+- gitee_id: MrRlu
+  name: Lu Zhihao
+  organization: Huawei
+  email: luzhihao@huawei.com
+
+repositories:
+- repo: openeuler/nvwa
+- repo: src-openeuler/nvwa
+- repo: openeuler/X-diagnosis
+- repo: src-openeuler/X-diagnosis
+- repo: openeuler/sysmonitor
+- repo: src-openeuler/sysmonitor
+- repo: openeuler/kbox
+- repo: src-openeuler/kbox
+- repo: openeuler/A-Ops
+  additional_contributors:
+  - gitee_id: hubble_zhu
+    name: Zhu Hengbo
+    orgnization: Huawei
+    email: zhuhengbo1@huawei.com
+- repo: src-openeuler/A-Ops
+- repo: src-openeuler/foreman
+- repo: src-openeuler/foreman-installer
+- repo: src-openeuler/foreman-proxy
+- repo: src-openeuler/foreman-selinux
+- repo: src-openeuler/katello
