@@ -14,7 +14,7 @@
 
 # 成员
 
-### OutStanding contributor List
+### OutStanding Contributor List
 
 - zhanghailiang[@zhanghailiang](https://gitee.com/zhanghailiang_lucky)
 - RootWB[@RootWB](https://gitee.com/RootWB)
@@ -32,7 +32,18 @@
 - KuhnChen[@KuhnChen](https://gitee.com/kuhnchen18)
 - xufei[@xufei](https://gitee.com/flyking001)
 - zhangliang[@zhangliang](https://gitee.com/zhangliang5)
+- lijiajie[@lijiajie](https://gitee.com/lijiajie128)
 
+###Additional Contributors List
+
+- ranygu[@ranygu](https://gitee.com/ranygu)
+- sebastian[@sebastian2020](https://gitee.com/sebastian2020)
+- lisiheng[@lisiheng](https://gitee.com/lisiheng)
+- LeoHou[@leohou1400](https://gitee.com/leohou1400)
+- likunshan[@likunshan](https://gitee.com/liksh)
+- friendpalm[@friendpalm](https://gitee.com/friendpalm)
+- Michael_Qiu[@Michael_Qiu](https://gitee.com/Michael_Qiu)
+- quweijie[@quweijie](https://gitee.com/huayun-quweijie)
 
 # 联系方式
 
