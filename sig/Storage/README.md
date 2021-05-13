@@ -13,13 +13,13 @@
 - 刘志强[@liuzhiqiang26](https://gitee.com/liuzhiqiang26)
 - 吴波[@wubo009](https://gitee.com/wubo009)
 - 林飞龙[@volcano-dragon](https://gitee.com/volcanodragon)
+- 娄宏翔[@louhongxiang](https://gitee.com/louhongxiang)
 
 ### Committer列表
 
 - 葛芮君[@geruijun](https://gitee.com/geruijun)
 - 罗士杰[@shijieluo](https://gitee.com/shijieluo)
 - 苏伟锋[@swf504](https://gitee.com/swf504)
-- 娄宏翔[@louhongxiang](https://gitee.com/louhongxiang)
 - 李霄铿[@lixiaokeng](https://gitee.com/lixiaokeng)
 
 # 联系方式
