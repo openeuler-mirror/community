@@ -20,8 +20,10 @@ sig-security主要讨论在openEuler社区版本中已有或未来规划的安�
 
 - sig-security：
   - 交付件形式：源码、tar包或兼而有之
+  - openeuler/ksc-defender
   - openeuler/attest-tools
   - openeuler/digest-list-tools
+  - src-openeuler/ksc-defender
   - src-openeuler/attest-tools
   - src-openeuler/digest-list-tools
   - src-openeuler/pesign-obs-integration

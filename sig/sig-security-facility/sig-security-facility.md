@@ -42,8 +42,10 @@ Sig-security mainly discusses the existing or future planned security technologi
 What and in what form the SIG is responsible for delivering
  
 - Source code and tar
+  - openeuler/ksc-defender
   - openeuler/attest-tools
   - openeuler/digest-list-tools
+  - src-openeuler/ksc-defender
   - src-openeuler/attest-tools
   - src-openeuler/digest-list-tools
   - src-openeuler/pesign-obs-integration

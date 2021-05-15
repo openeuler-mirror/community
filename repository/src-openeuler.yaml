@@ -9260,6 +9260,13 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: ksc-defender
+  description: ksc-defender is a terminal tool application for OS security hardening
+  upstream: https://gitee.com/openeuler/ksc-defender
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: attest-tools
   description: A library that makes implementation of remote attestation easier
   upstream: https://gitee.com/openeuler/attest-tools
