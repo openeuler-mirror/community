@@ -27,8 +27,30 @@ maintainers:
   email: shanshishi@huawei.com
 repositories:
 - repo: openeuler/A-Tune
-- repo: src-openeuler/A-Tune
+- repo: openeuler/A-Tune-UI
+- repo: openeuler/A-Tune-Collector
 - repo: openeuler/prefetch_tuning
-- repo: src-openeuler/prefetch_tuning
 - repo: openeuler/wisdom-advisor
+- repo: src-openeuler/A-Tune
+- repo: src-openeuler/A-Tune-UI
+- repo: src-openeuler/A-Tune-Collector
+- repo: src-openeuler/prefetch_tuning
 - repo: src-openeuler/wisdom-advisor
+- repo: src-openeuler/python-networkx
+- repo: src-openeuler/python-netifaces
+- repo: src-openeuler/python-Keras_Preprocessing
+- repo: src-openeuler/python-hyperopt
+- repo: src-openeuler/python-nni
+- repo: src-openeuler/python-astor
+- repo: src-openeuler/python-json-tricks
+- repo: src-openeuler/python-pythonwebhdfs
+- repo: src-openeuler/python-absl-py
+- repo: src-openeuler/python-google-pasta
+- repo: src-openeuler/python-h5py
+- repo: src-openeuler/python-opt-einsum
+- repo: src-openeuler/python-pkgconfig
+- repo: src-openeuler/python-tensorboard
+- repo: src-openeuler/python-tensorboard-plugin-wit
+- repo: src-openeuler/python-estimator
+- repo: src-openeuler/python-Keras
+- repo: src-openeuler/python-keras-rl2
