@@ -1104,24 +1104,16 @@ sigs:
   - src-openeuler/festival
   - src-openeuler/festival-freebsoft-utils
   - src-openeuler/flite
-  - src-openeuler/folks
   - src-openeuler/fonts-rpm-macros
   - src-openeuler/fuse-python
   - src-openeuler/galera
   - src-openeuler/gavl
-  - src-openeuler/gcab
   - src-openeuler/gcc_secure
   - src-openeuler/gegl04
   - src-openeuler/gimp
   - src-openeuler/glassfish-jaxb-api
   - src-openeuler/glibmm24
-  - src-openeuler/gnome-color-manager
-  - src-openeuler/gnome-disk-utility
-  - src-openeuler/gnome-font-viewer
-  - src-openeuler/gnome-getting-started-docs
   - src-openeuler/gnome-packagekit
-  - src-openeuler/gnome-video-effects
-  - src-openeuler/gsound
   - src-openeuler/gstreamer1-plugins-good
   - src-openeuler/gtk
   - src-openeuler/gtk4
@@ -1179,7 +1171,6 @@ sigs:
   - src-openeuler/osc
   - src-openeuler/papirus-icon-theme
   - src-openeuler/pcaudiolib
-  - src-openeuler/phodav
   - src-openeuler/phonon
   - src-openeuler/poly2tri
   - src-openeuler/procinfo
@@ -7339,6 +7330,15 @@ sigs:
   - src-openeuler/grilo-plugins
   - src-openeuler/gnome-calculator
   - src-openeuler/gnome-online-miners
+  - src-openeuler/phodav
+  - src-openeuler/gcab
+  - src-openeuler/folks
+  - src-openeuler/gsound
+  - src-openeuler/gnome-font-viewer
+  - src-openeuler/gnome-disk-utility
+  - src-openeuler/gnome-color-manager
+  - src-openeuler/gnome-video-effects
+  - src-openeuler/gnome-getting-started-docs
 - name: sig-desktop-apps
   repositories:
   - src-openeuler/imsettings
