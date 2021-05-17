@@ -1991,7 +1991,6 @@ sigs:
   - src-openeuler/etmem
 - name: Desktop
   repositories:
-  - src-openeuler/abattis-cantarell-fonts
   - src-openeuler/accountsservice
   - src-openeuler/adobe-mappings-cmap
   - src-openeuler/adobe-mappings-pdf
@@ -1999,7 +1998,6 @@ sigs:
   - src-openeuler/adwaita-qt
   - src-openeuler/at-spi2-atk
   - src-openeuler/at-spi2-core
-  - src-openeuler/atk
   - src-openeuler/augeas
   - src-openeuler/avahi
   - src-openeuler/bluez
@@ -2009,26 +2007,18 @@ sigs:
   - src-openeuler/cairomm
   - src-openeuler/cdparanoia
   - src-openeuler/CharLS
-  - src-openeuler/cheese
   - src-openeuler/cjkuni-ukai-fonts
-  - src-openeuler/clutter
-  - src-openeuler/clutter-gst3
   - src-openeuler/clutter-gtk
   - src-openeuler/cockpit
-  - src-openeuler/cogl
   - src-openeuler/color-filesystem
   - src-openeuler/colord
   - src-openeuler/comps-extras
   - src-openeuler/cups
   - src-openeuler/cups-pk-helper
-  - src-openeuler/dconf
-  - src-openeuler/dconf-editor
   - src-openeuler/desktop-file-utils
   - src-openeuler/disomaster
   - src-openeuler/emacs
   - src-openeuler/enchant
-  - src-openeuler/epiphany
-  - src-openeuler/evolution-data-server
   - src-openeuler/exiv2
   - src-openeuler/fltk
   - src-openeuler/fontconfig
@@ -2036,36 +2026,17 @@ sigs:
   - src-openeuler/fribidi
   - src-openeuler/fros
   - src-openeuler/GConf2
-  - src-openeuler/gcr
   - src-openeuler/gd
   - src-openeuler/gdk-pixbuf2
-  - src-openeuler/gdm
   - src-openeuler/geoclue2
-  - src-openeuler/geocode-glib
   - src-openeuler/giflib
   - src-openeuler/gio-qt
-  - src-openeuler/gjs
   - src-openeuler/glade
   - src-openeuler/glib2
   - src-openeuler/gnome-abrt
-  - src-openeuler/gnome-bluetooth
-  - src-openeuler/gnome-boxes
-  - src-openeuler/gnome-clocks
-  - src-openeuler/gnome-contacts
   - src-openeuler/gnome-dictionary
   - src-openeuler/gnome-doc-utils
   - src-openeuler/gnome-icon-theme
-  - src-openeuler/gnome-initial-setup
-  - src-openeuler/gnome-keyring
-  - src-openeuler/gnome-menus
-  - src-openeuler/gnome-screenshot
-  - src-openeuler/gnome-session
-  - src-openeuler/gnome-settings-daemon
-  - src-openeuler/gnome-shell
-  - src-openeuler/gnome-shell-extensions
-  - src-openeuler/gnome-software
-  - src-openeuler/gnome-system-monitor
-  - src-openeuler/gnome-terminal
   - src-openeuler/gnu-free-fonts
   - src-openeuler/google-croscore-fonts
   - src-openeuler/google-droid-fonts
@@ -2074,7 +2045,6 @@ sigs:
   - src-openeuler/gpm
   - src-openeuler/graphite2
   - src-openeuler/graphviz
-  - src-openeuler/grilo
   - src-openeuler/gsettings-desktop-schemas
   - src-openeuler/gsm
   - src-openeuler/gstreamer1
@@ -2084,7 +2054,6 @@ sigs:
   - src-openeuler/gubbi-fonts
   - src-openeuler/guile
   - src-openeuler/gv
-  - src-openeuler/gvfs
   - src-openeuler/harfbuzz
   - src-openeuler/hicolor-icon-theme
   - src-openeuler/hunspell
@@ -2097,7 +2066,6 @@ sigs:
   - src-openeuler/jbig2dec
   - src-openeuler/jbigkit
   - src-openeuler/jomolhari-fonts
-  - src-openeuler/json-glib
   - src-openeuler/jxrlib
   - src-openeuler/kacst-fonts
   - src-openeuler/kbd
@@ -2118,23 +2086,17 @@ sigs:
   - src-openeuler/libcanberra
   - src-openeuler/libcdio
   - src-openeuler/libcdio-paranoia
-  - src-openeuler/libdazzle
   - src-openeuler/libdmx
   - src-openeuler/libdrm
   - src-openeuler/libEMF
   - src-openeuler/libepoxy
   - src-openeuler/libexif
   - src-openeuler/libfontenc
-  - src-openeuler/libgdata
-  - src-openeuler/libgee
   - src-openeuler/libglade2
   - src-openeuler/libglvnd
   - src-openeuler/libgpg-error
-  - src-openeuler/libgtop2
   - src-openeuler/libgudev
   - src-openeuler/libgusb
-  - src-openeuler/libgweather
-  - src-openeuler/libgxps
   - src-openeuler/libical
   - src-openeuler/libICE
   - src-openeuler/libimobiledevice
@@ -2143,16 +2105,12 @@ sigs:
   - src-openeuler/libjpeg-turbo
   - src-openeuler/libldb
   - src-openeuler/libmatchbox
-  - src-openeuler/libmediaart
   - src-openeuler/libmediainfo
   - src-openeuler/libmng
-  - src-openeuler/libnotify
   - src-openeuler/libpng
   - src-openeuler/libraqm
-  - src-openeuler/librsvg2
   - src-openeuler/libsexy
   - src-openeuler/libSM
-  - src-openeuler/libsoup
   - src-openeuler/libtiff
   - src-openeuler/libtimezonemap
   - src-openeuler/libwebp
@@ -2206,13 +2164,11 @@ sigs:
   - src-openeuler/openbox
   - src-openeuler/openjpeg
   - src-openeuler/openjpeg2
-  - src-openeuler/orca
   - src-openeuler/PackageKit
   - src-openeuler/PackageKit-Qt
   - src-openeuler/paktype-naqsh-fonts
   - src-openeuler/paktype-naskh-basic-fonts
   - src-openeuler/paktype-tehreer-fonts
-  - src-openeuler/pango
   - src-openeuler/paratype-pt-sans-fonts
   - src-openeuler/pinentry
   - src-openeuler/pipewire
@@ -2230,7 +2186,6 @@ sigs:
   - src-openeuler/qrencode
   - src-openeuler/qt-settings
   - src-openeuler/qt5
-  - src-openeuler/rest
   - src-openeuler/rtkit
   - src-openeuler/saab-fonts
   - src-openeuler/samyak-fonts
@@ -2305,12 +2260,9 @@ sigs:
   - src-openeuler/xrestop
   - src-openeuler/xterm
   - src-openeuler/xvattr
-  - src-openeuler/yelp
-  - src-openeuler/yelp-xsl
   - src-openeuler/yp-tools
   - src-openeuler/ypbind
   - src-openeuler/ypserv
-  - src-openeuler/zenity
   - src-openeuler/google-noto-fonts
   - src-openeuler/xorg-x11-drv-armsoc
   - src-openeuler/xorg-x11-docs
@@ -7338,6 +7290,54 @@ sigs:
   - src-openeuler/gnome-vfs2
   - src-openeuler/libgnome
   - src-openeuler/glib-networking
+  - src-openeuler/libgtop2
+  - src-openeuler/librsvg2
+  - src-openeuler/clutter-gst3
+  - src-openeuler/abattis-cantarell-fonts
+  - src-openeuler/atk
+  - src-openeuler/gcr
+  - src-openeuler/gdm
+  - src-openeuler/gjs
+  - src-openeuler/cogl
+  - src-openeuler/gvfs
+  - src-openeuler/orca
+  - src-openeuler/rest
+  - src-openeuler/yelp
+  - src-openeuler/dconf
+  - src-openeuler/grilo
+  - src-openeuler/pango
+  - src-openeuler/cheese
+  - src-openeuler/libgee
+  - src-openeuler/zenity
+  - src-openeuler/clutter
+  - src-openeuler/libgxps
+  - src-openeuler/libsoup
+  - src-openeuler/epiphany
+  - src-openeuler/libgdata
+  - src-openeuler/yelp-xsl
+  - src-openeuler/json-glib
+  - src-openeuler/libdazzle
+  - src-openeuler/libnotify
+  - src-openeuler/gnome-boxes
+  - src-openeuler/gnome-menus
+  - src-openeuler/gnome-shell
+  - src-openeuler/libgweather
+  - src-openeuler/libmediaart
+  - src-openeuler/dconf-editor
+  - src-openeuler/geocode-glib
+  - src-openeuler/gnome-clocks
+  - src-openeuler/gnome-keyring
+  - src-openeuler/gnome-session
+  - src-openeuler/gnome-contacts
+  - src-openeuler/gnome-software
+  - src-openeuler/gnome-terminal
+  - src-openeuler/gnome-bluetooth
+  - src-openeuler/gnome-screenshot
+  - src-openeuler/gnome-initial-setup
+  - src-openeuler/gnome-system-monitor
+  - src-openeuler/evolution-data-server
+  - src-openeuler/gnome-settings-daemon
+  - src-openeuler/gnome-shell-extensions
 - name: sig-desktop-apps
   repositories:
   - src-openeuler/imsettings
