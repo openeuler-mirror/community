@@ -1891,7 +1891,6 @@ sigs:
 - name: Storage
   repositories:
   - src-openeuler/system-storage-manager
-  - src-openeuler/gom
   - src-openeuler/parted
   - src-openeuler/iprutils
   - src-openeuler/ndctl
@@ -7339,6 +7338,7 @@ sigs:
   - src-openeuler/libpeas
   - src-openeuler/libchamplain
   - src-openeuler/gupnp-dlna
+  - src-openeuler/gom
 - name: sig-desktop-apps
   repositories:
   - src-openeuler/imsettings
