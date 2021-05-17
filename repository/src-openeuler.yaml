@@ -2718,6 +2718,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: armadillo
   description: Fast C++ matrix library with interfaces to LAPACK and ATLAS.
@@ -4760,6 +4763,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: busybox
   description: ''
@@ -8078,6 +8087,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: dbus-glib
   description: ''
@@ -10709,6 +10724,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: egl-wayland
   description: ''
@@ -17500,6 +17521,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: gtkmm30
   description: ''
@@ -22395,6 +22422,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: jackson
   description: Jackson Java JSON-processor
@@ -28268,6 +28301,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: libffi
   description: ''
@@ -33602,6 +33641,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: libxshmfence
   description: ''
@@ -64105,6 +64150,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: portlet-2.0-api
   description: Java Portlet Specification V2.0
@@ -75345,6 +75396,9 @@ repositories:
   - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: python-more-itertools
   description: ''
@@ -92250,6 +92304,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: tinyxml2
   description: ''
@@ -92896,6 +92956,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: ttembed
   description: ''
@@ -102036,6 +102102,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: aries-blueprint-core
   description: Apache Aries Blueprint Core
@@ -102364,6 +102433,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: cbi-plugins
   description: A set of helpers for Eclipse CBI
@@ -102409,6 +102481,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: bval
   description: Apache Bean Validation
@@ -112389,6 +112464,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: jts
   description: Java Topology Suite
@@ -118394,6 +118472,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: nodejs-should
   description: A test framework agnostic BDD-style assertions for Node.js
@@ -119458,6 +119539,12 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: maven-license-plugin
   description: Maven plugin to update header licenses of source files
