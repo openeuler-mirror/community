@@ -3811,14 +3811,18 @@ repositories:
     create_from: master
   type: public
 - name: baobab
-  description: ''
+  description: Baobab is a simple application which can scan either specific folders
+        (local or remote) or volumes and give a graphical representation including
+        each directory size or percentage in the branch. It also auto-detects any
+        mounted/unmounted device.
+  upstream: https://wiki.gnome.org/Apps/DiskUsageAnalyzer
   branches:
   - name: master
     type: protected
   - name: openEuler-20.09
     type: protected
     create_from: master
-  type: private
+  type: public
 - name: base64coder
   description: A fast and compact Base64 encoder/decoder class
   upstream: http://www.source-code.biz/base64coder/java/
@@ -15073,14 +15077,15 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: gnome-backgrounds
-  description: ''
+  description: This module contains a set of backgrounds packaged with the GNOME desktop.
+  upstream: https://gitlab.gnome.org/GNOME/gnome-backgrounds
   branches:
   - name: master
     type: protected
   - name: openEuler-20.09
     type: protected
     create_from: master
-  type: private
+  type: public
 - name: gnome-bluetooth
   description: ''
   branches:
@@ -15143,14 +15148,17 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: gnome-characters
-  description: ''
+  description: Characters is a simple utility application to find and insert unusual
+        characters.  It allows you to quickly find the character you are looking for
+        by searching for keywords.
+  upstream: https://wiki.gnome.org/Apps/Character
   branches:
   - name: master
     type: protected
   - name: openEuler-20.09
     type: protected
     create_from: master
-  type: private
+  type: public
 - name: gnome-clocks
   description: ''
   branches:
@@ -15524,14 +15532,16 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: gnome-logs
-  description: ''
+  description: It depends on GTK+ 3.22.0 or above, itstool and libsystemd-journal at build time,
+        and gsettings-desktop-schemas at runtime.
+  upstream: https://wiki.gnome.org/Apps/Logs
   branches:
   - name: master
     type: protected
   - name: openEuler-20.09
     type: protected
     create_from: master
-  type: private
+  type: public
 - name: gnome-menus
   description: ''
   branches:
@@ -15636,14 +15646,15 @@ repositories:
     create_from: master
   type: public
 - name: gnome-remote-desktop
-  description: ''
+  description: Remote desktop daemon for GNOME using pipewire.
+  upstream: https://wiki.gnome.org/Projects/Mutter/RemoteDesktop
   branches:
   - name: master
     type: protected
   - name: openEuler-20.09
     type: protected
     create_from: master
-  type: private
+  type: public
 - name: gnome-screenshot
   description: ''
   branches:
