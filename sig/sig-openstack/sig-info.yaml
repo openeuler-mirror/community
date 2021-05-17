@@ -1,4 +1,4 @@
-name: OpenStack
+name: sig-openstack
 description: The OpenStack sig provide native OpenStack on top of openEuler to build an open and reliable cloud computing technology stack.
 mailing_list: openstack@openeuler.org
 meeting_url: https://etherpad.openeuler.org/p/sig-openstack-meetings
@@ -46,6 +46,7 @@ repositories:
 - repo: src-openeuler/openstack-ironic-python-agent-builder
 - repo: src-openeuler/openstack-ironic-inspector
 - repo: src-openeuler/openstack-ironic-staging-drivers
+- repo: src-openeuler/openstack-trove
 - repo: src-openeuler/python-osc-placement
 - repo: src-openeuler/openstack-placement
 - repo: src-openeuler/openstack-cinder

@@ -119844,6 +119844,29 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: openstack-trove
+  description: Trove is Database as a Service for OpenStack. It is designed to run
+    entirely on OpenStack, with the goal of allowing users to quickly and easily
+    utilize the features of a relational database without the burden of handling
+    complex administrative tasks. Cloud users and database administrators can
+    provision and manage multiple database instances as needed.
+  upstream: https://opendev.org/openstack/trove
+  branches:
+  - name: master
+    type: protected
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  type: public
 - name: diskimage-builder
   description: diskimage-builder is a flexible suite of components for building a
     wide-range of disk images, filesystem images and ramdisk images for use with OpenStack.
