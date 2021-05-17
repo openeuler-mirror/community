@@ -1033,7 +1033,6 @@ sigs:
   - src-openeuler/grpc
   - src-openeuler/bind-dyndb-ldap
   - src-openeuler/dhcp
-  - src-openeuler/glib-networking
   - src-openeuler/net-snmp
   - src-openeuler/icfg
   - src-openeuler/python-requests
@@ -7338,6 +7337,7 @@ sigs:
   - src-openeuler/gnome-desktop3
   - src-openeuler/gnome-vfs2
   - src-openeuler/libgnome
+  - src-openeuler/glib-networking
 - name: sig-desktop-apps
   repositories:
   - src-openeuler/imsettings
