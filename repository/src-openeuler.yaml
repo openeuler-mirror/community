@@ -123571,3 +123571,121 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: gnome-builder
+  description: Builder aims to be an IDE for writing GNOME-based software.
+  upstream: https://wiki.gnome.org/Apps/Builder
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: gnome-calendar
+  description: GNOME Calendar is a simple and beautiful calendar application for GNOME. 
+  upstream: https://wiki.gnome.org/Apps/Calendar
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: gnome-maps
+  description: maps is a map application for GNOME.
+  upstream: https://wiki.gnome.org/Apps/Maps
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: gnome-music
+  description: Music is the new GNOME music playing application.
+  upstream: https://wiki.gnome.org/Apps/Music
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: gnome-photos
+  description: hotos - access, organize and share your photos on GNOME.
+  upstream: https://wiki.gnome.org/Apps/Photos
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: gnome-tour
+  description: Tour uses by default the logo of the distribution based on the info 
+        from `/etc/os-release`. The application comes with a feature to replace 
+        the logo with a welcome video shipped by the distribution.
+  upstream: https://gitlab.gnome.org/GNOME/gnome-tour
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: gnome-user-share
+  description: gnome-user-share is a small package that binds together various free
+        software projects to bring easy to use user-level file sharing to the masses.
+  upstream: https://gitlab.gnome.org/GNOME/gnome-user-share
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: gnome-weather
+  description: Monitor the current weather conditions for your city, or anywhere in the world.
+  upstream: https://wiki.gnome.org/Apps/Weather
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: mm-common
+  description: The mm-common module provides the build infrastructure and utilities shared among
+         the GNOME C++ binding libraries.
+  upstream: https://gitlab.gnome.org/GNOME/mm-common
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rygel
+  description: Rygel is a home media solution that allows you to easily share audio, video and
+        pictures, and control of media player on your home network.
+  upstream: https://wiki.gnome.org/Projects/Rygel
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: simple-scan
+  description: Document Scanner is a document scanning application for [GNOME](https://www.gnome.org/)
+        It allows you to capture images using [image scanners](https://en.wikipedia.org/wiki/Image_scanner)
+  upstream: https://www.gnome.org/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: tepl
+  description: Tepl is a library that eases the development of GtkSourceView-based text editors and IDEs.
+  upstream: https://wiki.gnome.org/Projects/Tepl
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: tracker3
+  description: Tracker is an efficient search engine and [triplestore](https://en.wikipedia.org/wiki/Triplestore)
+        for desktop, embedded and mobile.The Tracker project is divided into two main repositories
+
+        [Tracker core](https://gitlab.gnome.org/GNOME/tracker) contains the database
+        (*tracker-store*), the database ontologies, the commandline user interface (`tracker`), and several support libraries.
+
+        [Tracker Miners](https://gitlab.gnome.org/GNOME/tracker-miners) contains the indexer daemon 
+        (*tracker-miner-fs*) and tools to extract metadata from many different filetypes.
+  upstream: https://gitlab.gnome.org/GNOME/tracker
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: tracker3-miners
+  description: Tracker is an efficient search engine and [triplestore](https://en.wikipedia.org/wiki/Triplestore)
+        for desktop, embedded and mobile.The Tracker project is divided into two main repositories
+
+        [Tracker core](https://gitlab.gnome.org/GNOME/tracker) contains the database
+        (*tracker-store*), the database ontologies, the commandline user interface (`tracker`), and several support libraries.
+
+        [Tracker Miners](https://gitlab.gnome.org/GNOME/tracker-miners) contains the indexer daemon
+        (*tracker-miner-fs*) and tools to extract metadata from many different filetypes.
+  upstream: https://gitlab.gnome.org/GNOME/tracker-miners
+  branches:
+  - name: master
+    type: protected
+  type: public
