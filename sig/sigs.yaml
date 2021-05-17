@@ -77,11 +77,9 @@ sigs:
   - src-openeuler/elinks
   - src-openeuler/elixir
   - src-openeuler/enscript
-  - src-openeuler/eog
   - src-openeuler/erlang-protobuffs
   - src-openeuler/erlang-rebar
   - src-openeuler/esc
-  - src-openeuler/evince
   - src-openeuler/faust
   - src-openeuler/fdupes
   - src-openeuler/felix-gogo-runtime
@@ -89,7 +87,6 @@ sigs:
   - src-openeuler/felix-scr-annotations
   - src-openeuler/felix-scr-generator
   - src-openeuler/fetchmail
-  - src-openeuler/file-roller
   - src-openeuler/fio
   - src-openeuler/firefox
   - src-openeuler/fmpp
@@ -102,19 +99,15 @@ sigs:
   - src-openeuler/g2clib
   - src-openeuler/genwqe-tools
   - src-openeuler/geronimo-parent-poms
-  - src-openeuler/gfbgraph
   - src-openeuler/gl-manpages
   - src-openeuler/glog
   - src-openeuler/gmetric4j
-  - src-openeuler/gnome-calculator
   - src-openeuler/gnome-desktop
-  - src-openeuler/gnome-online-miners
   - src-openeuler/gnupg
   - src-openeuler/gnuplot
   - src-openeuler/google-crosextra-carlito-fonts
   - src-openeuler/grafana
   - src-openeuler/GraphicsMagick
-  - src-openeuler/grilo-plugins
   - src-openeuler/gromacs
   - src-openeuler/gshhg-gmt-nc4
   - src-openeuler/gstreamer
@@ -481,7 +474,6 @@ sigs:
   - src-openeuler/xmms
   - src-openeuler/xsane
   - src-openeuler/xz-java
-  - src-openeuler/yelp-tools
   - src-openeuler/pdfpc
   - src-openeuler/lcdf-typetools
   - src-openeuler/mod_wsgi
@@ -504,14 +496,12 @@ sigs:
   - src-openeuler/amtk
   - src-openeuler/codenarc
   - src-openeuler/ledmon
-  - src-openeuler/devhelp
   - src-openeuler/ttfautohint
   - src-openeuler/aalto-xml
   - src-openeuler/xerces-c
   - src-openeuler/zbar
   - src-openeuler/libbs2b
   - src-openeuler/objectweb-asm3
-  - src-openeuler/gedit
   - src-openeuler/plotutils
   - src-openeuler/tesseract-tessdata
   - src-openeuler/tesseract
@@ -7339,6 +7329,16 @@ sigs:
   - src-openeuler/gspell
   - src-openeuler/gtk-vnc
   - src-openeuler/gnome-user-docs
+  - src-openeuler/eog
+  - src-openeuler/gedit
+  - src-openeuler/evince
+  - src-openeuler/devhelp
+  - src-openeuler/gfbgraph
+  - src-openeuler/yelp-tools
+  - src-openeuler/file-roller
+  - src-openeuler/grilo-plugins
+  - src-openeuler/gnome-calculator
+  - src-openeuler/gnome-online-miners
 - name: sig-desktop-apps
   repositories:
   - src-openeuler/imsettings
