@@ -3524,7 +3524,6 @@ sigs:
   - src-openeuler/appstream-data
   - src-openeuler/args4j
   - src-openeuler/autotrace
-  - src-openeuler/baobab
   - src-openeuler/bcm283x-firmware
   - src-openeuler/bytelist
   - src-openeuler/ci_check
@@ -3546,10 +3545,6 @@ sigs:
   - src-openeuler/geronimo-interceptor
   - src-openeuler/geronimo-validation
   - src-openeuler/glyphicons-halflings-fonts
-  - src-openeuler/gnome-backgrounds
-  - src-openeuler/gnome-characters
-  - src-openeuler/gnome-logs
-  - src-openeuler/gnome-remote-desktop
   - src-openeuler/gnome-tweaks
   - src-openeuler/hawtjni-runtime
   - src-openeuler/http-builder
@@ -7339,6 +7334,11 @@ sigs:
   - src-openeuler/libchamplain
   - src-openeuler/gupnp-dlna
   - src-openeuler/gom
+  - src-openeuler/baobab
+  - src-openeuler/gnome-backgrounds
+  - src-openeuler/gnome-logs
+  - src-openeuler/gnome-characters
+  - src-openeuler/gnome-remote-desktop
 - name: sig-desktop-apps
   repositories:
   - src-openeuler/imsettings
