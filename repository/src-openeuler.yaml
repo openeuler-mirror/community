@@ -1579,6 +1579,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: ant
   description: A Java-based build tool
@@ -4050,6 +4056,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: bea-stax
   description: Streaming API of XML
@@ -4348,6 +4360,9 @@ repositories:
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-20.09
     type: protected
     create_from: master
@@ -9211,6 +9226,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: diffstat
   description: ''
@@ -37715,6 +37736,9 @@ repositories:
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-20.09
     type: protected
     create_from: master
@@ -38247,6 +38271,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: munge-maven-plugin
   description: Munge Maven Plugin
@@ -44352,6 +44382,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: perl-CPAN-Common-Index
   upstream: http://search.cpan.org/dist/CPAN-Common-Index/
@@ -45721,6 +45757,7 @@ repositories:
   type: public
 - name: perl-Crypt-CBC
   description: Encrypt Data with Cipher Block Chaining Mode.
+  upstream: http://metacpan.org/pod/Crypt::CBC
   branches:
   - name: master
     type: protected
@@ -45730,7 +45767,13 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
-  type: private
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  type: public
 - name: perl-Crypt-DES
   description: Perl DES encryption module.
   branches:
@@ -46093,6 +46136,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: perl-DBD-SQLite
   description: ''
@@ -50768,6 +50817,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: perl-IO-stringy
   description: I/O on in-core objects for Perl
@@ -53273,6 +53328,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: perl-Module-Reader
   upstream: http://search.cpan.org/dist/Module-Reader/
@@ -100933,6 +100994,12 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: perl-Sub-Info
   upstream: https://metacpan.org/release/Sub-Info
@@ -102393,6 +102460,9 @@ repositories:
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-20.09
     type: protected
     create_from: master
@@ -102467,6 +102537,9 @@ repositories:
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-20.09
     type: protected
     create_from: master
@@ -112756,6 +112829,9 @@ repositories:
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-20.09
     type: protected
     create_from: master
@@ -122475,6 +122551,12 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: spawn-fcgi
   upstream: http://redmine.lighttpd.net/projects/spawn-fcgi/
