@@ -581,14 +581,11 @@ sigs:
   - src-openeuler/glib
   - src-openeuler/gmavenplus-plugin
   - src-openeuler/gnome-common
-  - src-openeuler/gnome-user-docs
   - src-openeuler/gnu-efi
   - src-openeuler/gperf
-  - src-openeuler/gspell
   - src-openeuler/gssdp
   - src-openeuler/gstreamer1-plugins-bad-free
   - src-openeuler/gtest
-  - src-openeuler/gtk-vnc
   - src-openeuler/gupnp
   - src-openeuler/gupnp-igd
   - src-openeuler/help2man
@@ -876,9 +873,7 @@ sigs:
   - src-openeuler/tix
   - src-openeuler/trace-cmd
   - src-openeuler/uuid
-  - src-openeuler/vala
   - src-openeuler/valgrind
-  - src-openeuler/vte291
   - src-openeuler/xcb-proto
   - src-openeuler/xcb-util-cursor
   - src-openeuler/xcb-util-image
@@ -7338,6 +7333,11 @@ sigs:
   - src-openeuler/evolution-data-server
   - src-openeuler/gnome-settings-daemon
   - src-openeuler/gnome-shell-extensions
+  - src-openeuler/vte291
+  - src-openeuler/vala
+  - src-openeuler/gspell
+  - src-openeuler/gtk-vnc
+  - src-openeuler/gnome-user-docs
 - name: sig-desktop-apps
   repositories:
   - src-openeuler/imsettings
