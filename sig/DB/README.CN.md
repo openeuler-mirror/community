@@ -76,7 +76,6 @@ DB SIG当前处于发展的初始阶段，团队维护能力有限，目前为�
 - https://gitee.com/src-openeuler/foomatic-db
 - https://gitee.com/src-openeuler/geolatte-geom
 - https://gitee.com/src-openeuler/glassfish-legal
-- https://gitee.com/src-openeuler/gupnp-dlna
 - https://gitee.com/src-openeuler/h2
 - https://gitee.com/src-openeuler/mariadb-connector-odbc
 - https://gitee.com/src-openeuler/mysql5
