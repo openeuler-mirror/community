@@ -7801,6 +7801,10 @@ sigs:
 - name: user-committee
   repositories:
   - openeuler/user-committee
+- name: sig-Migration
+  repositories:
+  - openeuler/migration-assistant
+  - src-openeuler/migration-assistant
 - name: sig-compat-winapp
   repositories:
   - openeuler/compat-winapp
