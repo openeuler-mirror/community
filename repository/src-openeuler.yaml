@@ -123854,17 +123854,15 @@ repositories:
     type: protected
   type: public
 - name: gnome-tour
-  description: Tour uses by default the logo of the distribution based on the info 
-        from `/etc/os-release`. The application comes with a feature to replace 
-        the logo with a welcome video shipped by the distribution.
+  description: Tour uses by default the logo of the distribution based on the info from `/etc/os-release`.
   upstream: https://gitlab.gnome.org/GNOME/gnome-tour
   branches:
   - name: master
     type: protected
   type: public
 - name: gnome-user-share
-  description: gnome-user-share is a small package that binds together various free
-        software projects to bring easy to use user-level file sharing to the masses.
+  description: gnome-user-share is a small package that binds together various free software projects to
+        bring easy to use user-level file sharing to the masses.
   upstream: https://gitlab.gnome.org/GNOME/gnome-user-share
   branches:
   - name: master
@@ -123878,25 +123876,24 @@ repositories:
     type: protected
   type: public
 - name: mm-common
-  description: The mm-common module provides the build infrastructure and utilities shared among
-         the GNOME C++ binding libraries.
+  description: The mm-common module provides the build infrastructure and utilities shared among the GNOME
+        C++ binding libraries.
   upstream: https://gitlab.gnome.org/GNOME/mm-common
   branches:
   - name: master
     type: protected
   type: public
 - name: rygel
-  description: Rygel is a home media solution that allows you to easily share audio, video and
-        pictures, and control of media player on your home network.
+  description: Rygel is a home media solution that allows you to easily share audio, video and pictures, and
+        control of media player on your home network.
   upstream: https://wiki.gnome.org/Projects/Rygel
   branches:
   - name: master
     type: protected
   type: public
 - name: simple-scan
-  description: Document Scanner is a document scanning application for [GNOME](https://www.gnome.org/)
-        It allows you to capture images using [image scanners](https://en.wikipedia.org/wiki/Image_scanner)
-  upstream: https://www.gnome.org/
+  description: Document Scanner is a document scanning application for GNOME.
+  upstream: https://gitlab.gnome.org/GNOME/simple-scan
   branches:
   - name: master
     type: protected
@@ -123909,14 +123906,8 @@ repositories:
     type: protected
   type: public
 - name: tracker3
-  description: Tracker is an efficient search engine and [triplestore](https://en.wikipedia.org/wiki/Triplestore)
-        for desktop, embedded and mobile.The Tracker project is divided into two main repositories
-
-        [Tracker core](https://gitlab.gnome.org/GNOME/tracker) contains the database
-        (*tracker-store*), the database ontologies, the commandline user interface (`tracker`), and several support libraries.
-
-        [Tracker Miners](https://gitlab.gnome.org/GNOME/tracker-miners) contains the indexer daemon 
-        (*tracker-miner-fs*) and tools to extract metadata from many different filetypes.
+  description: Tracker is an efficient search engine for desktop,embedded and mobile and divided into two
+        main repositories. this is Tracker core, mainly contains the triplestore database.
   upstream: https://gitlab.gnome.org/GNOME/tracker
   branches:
   - name: master
@@ -123930,14 +123921,8 @@ repositories:
     type: protected
   type: public
 - name: tracker3-miners
-  description: Tracker is an efficient search engine and [triplestore](https://en.wikipedia.org/wiki/Triplestore)
-        for desktop, embedded and mobile.The Tracker project is divided into two main repositories
-
-        [Tracker core](https://gitlab.gnome.org/GNOME/tracker) contains the database
-        (*tracker-store*), the database ontologies, the commandline user interface (`tracker`), and several support libraries.
-
-        [Tracker Miners](https://gitlab.gnome.org/GNOME/tracker-miners) contains the indexer daemon
-        (*tracker-miner-fs*) and tools to extract metadata from many different filetypes.
+  description: Tracker is an efficient search engine for desktop,embedded and mobile and divided into two
+        main repositories. this is Tracker Miners, mainly contains the indexer daemon and tools.
   upstream: https://gitlab.gnome.org/GNOME/tracker-miners
   branches:
   - name: master
