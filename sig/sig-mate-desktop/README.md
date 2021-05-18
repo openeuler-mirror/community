@@ -24,26 +24,22 @@ mate-desktop
 
 
 # 成员
-- 冯建	hostfj
-- 武校田 isoft-linux
-- 张志高 zhigaozhang 
-- 豆彩霞 ja_angie_dou
-- 王婧 wangjing95
-- 杨显钊 xzyangha
+- 杨显钊 <xianzhao.yang@i-soft.com.cn> [[@xzyangha](https://gitee.com/xzyangha)]
+- 李国强<guoqiang.li@i-soft.com.cn>[[@li_guoqiang9](https://gitee.com/li_guoqiang9)]
+- 刘家杰<jiajie.liu@i-soft.com.cn> [[@isoftljj](https://gitee.com/isoftljj)] 
+
 ### Maintainer列表
 
-- 冯建[@hostfj](giteeID链接)
-- 王婧[@wangjing95](giteeID链接)
-- 杨显钊[@xzyangha](giteeID链接)
+- 杨显钊<xianzhao.yang@i-soft.com.cn> [[@xzyangha](https://gitee.com/xzyangha)]
+- 李国强<guoqiang.li@i-soft.com.cn>[[@li_guoqiang9](https://gitee.com/li_guoqiang9)]
+- 刘家杰<jiajie.liu@i-soft.com.cn> [[@isoftljj](https://gitee.com/isoftljj)]
+
+
 
 ### Committer列表
-
-- 冯建[@hostfj](giteeID链接)
-- 武校田[@isoft-linux](giteeID链接)
-- 张志高[@zhigaozhang](giteeID链接)
-- 豆彩霞[@ja_angie_dou](giteeID链接)
-- 王婧[@wangjing95](giteeID链接)
-- 杨显钊 [@xzyangha](giteeID链接)
+- 杨显钊<xianzhao.yang@i-soft.com.cn> [[@xzyangha](https://gitee.com/xzyangha)]
+- 李国强<guoqiang.li@i-soft.com.cn>[[@li_guoqiang9](https://gitee.com/li_guoqiang9)]
+- 刘家杰<jiajie.liu@i-soft.com.cn> [[@isoftljj](https://gitee.com/isoftljj)]
 
 
 # 联系方式
