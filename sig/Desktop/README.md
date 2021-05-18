@@ -21,12 +21,13 @@
 ### Maintainer列表
 
 - 夏森林[@small_leek](https://gitee.com/small_leek)
+- 丁文龙[@dwl301](https://gitee.com/dwl301)
+- 魏东 [@weidongkl](https://gitee.com/weidongkl)
 
 
 ### Committer列表
 
 - 汪奕如[@ruebb](https://gitee.com/ruebb)
-- 丁文龙[@dwl301](https://gitee.com/dwl301)
 - 邓伟进[@weijin-deng](https://gitee.com/weijin-deng)
 - 张琳[@zhang__3125](https://gitee.com/zhang__3125)
 
