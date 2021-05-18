@@ -865,6 +865,12 @@ repositories:
     - name: master
       type: protected
   type: public
+- name: migration-assistant
+  description: Migration assistant helps users migrate business applications from other Linux hairstyles to openEuler OS.
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: wine-app
   description: This repository will provide the process document and configure script to make windows apps based on wine.
   branches:

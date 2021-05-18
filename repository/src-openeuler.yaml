@@ -123922,6 +123922,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: migration-assistant
+  description: Migration assistant helps users migrate business applications from other Linux hairstyles to openEuler OS.
+  upstream: https://gitee.com/openeuler/migration-assistant
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: tracker3-miners
   description: Tracker is an efficient search engine and [triplestore](https://en.wikipedia.org/wiki/Triplestore)
         for desktop, embedded and mobile.The Tracker project is divided into two main repositories
