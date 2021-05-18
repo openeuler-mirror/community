@@ -79,6 +79,8 @@ sig-security_facility主要讨论在openEuler社区版本中已有或未来规�
 
 - robertosassu
 
+- gwei3
+
 
 ### Committer列表
 
@@ -97,8 +99,6 @@ sig-security_facility主要讨论在openEuler社区版本中已有或未来规�
 - yang
 
 - flysubmarine
-
-- gwei3
 
 - wucaijun2001
 
