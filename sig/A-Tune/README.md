@@ -42,8 +42,30 @@
 repository地址：
 
 - https://gitee.com/openeuler/A-Tune
-- https://gitee.com/src-openeuler/A-Tune
+- https://gitee.com/openeuler/A-Tune-UI
+- https://gitee.com/openeuler/A-Tune-Collector
 - https://gitee.com/openeuler/prefetch_tuning
-- https://gitee.com/src-openeuler/prefetch_tuning
 - https://gitee.com/openeuler/wisdom-advisor
+- https://gitee.com/src-openeuler/A-Tune
+- https://gitee.com/src-openeuler/A-Tune-UI
+- https://gitee.com/src-openeuler/A-Tune-Collector
+- https://gitee.com/src-openeuler/prefetch_tuning
 - https://gitee.com/src-openeuler/wisdom-advisor
+- https://gitee.com/src-openeuler/python-networkx
+- https://gitee.com/src-openeuler/python-netifaces
+- https://gitee.com/src-openeuler/python-Keras_Preprocessing
+- https://gitee.com/src-openeuler/python-hyperopt
+- https://gitee.com/src-openeuler/python-nni
+- https://gitee.com/src-openeuler/python-astor
+- https://gitee.com/src-openeuler/python-json-tricks
+- https://gitee.com/src-openeuler/python-pythonwebhdfs
+- https://gitee.com/src-openeuler/python-absl-py
+- https://gitee.com/src-openeuler/python-google-pasta
+- https://gitee.com/src-openeuler/python-h5py
+- https://gitee.com/src-openeuler/python-opt-einsum
+- https://gitee.com/src-openeuler/python-pkgconfig
+- https://gitee.com/src-openeuler/python-tensorboard
+- https://gitee.com/src-openeuler/python-tensorboard-plugin-wit
+- https://gitee.com/src-openeuler/python-estimator
+- https://gitee.com/src-openeuler/python-Keras
+- https://gitee.com/src-openeuler/python-keras-rl2
