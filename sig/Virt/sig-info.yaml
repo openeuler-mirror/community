@@ -42,6 +42,10 @@ committers:
 - gitee_id: zhangliang5
   name: zhangliang5
   email: 356166378@qq.com
+- gitee_id: lijiajie128
+  name: LiJiajie
+  organization: Huawei
+  email: lijiajie11@huawei.com
 repositories:
 - repo: src-openeuler/virt-viewer
 - repo: src-openeuler/virglrenderer
@@ -50,6 +54,15 @@ repositories:
 - repo: src-openeuler/libvirt-glib
 - repo: src-openeuler/virt-manager
 - repo: src-openeuler/qemu
+- repo: src-openeuler/libvirt
+- repo: src-openeuler/edk2
+- repo: src-openeuler/perl-Sys-Virt
+- repo: src-openeuler/vmtop
+- repo: src-openeuler/stratovirt
+- repo: src-openeuler/kvm-ioctls
+- repo: src-openeuler/kvm-bindings
+- repo: src-openeuler/libcareplus
+- repo: openeuler/qemu
   additional_contributors:
   - gitee_id: ranygu
     name: ranygu
@@ -67,16 +80,25 @@ repositories:
     name: LeoHou
     orgnization: kylinos
     email: houyingle@kylinos.cn
-- repo: src-openeuler/libvirt
-- repo: src-openeuler/edk2
-- repo: src-openeuler/perl-Sys-Virt
-- repo: src-openeuler/vmtop
-- repo: src-openeuler/stratovirt
-- repo: src-openeuler/kvm-ioctls
-- repo: src-openeuler/kvm-bindings
-- repo: src-openeuler/libcareplus
-- repo: openeuler/qemu
+  - gitee_id: Michael_Qiu
+    name: Michael_Qiu
+    orgnization: HuaYun
+    email: qiudayu@huayun.com
+  - gitee_id: huayun-quweijie
+    name: QuWeijie
+    orgnization: HuaYun
+    email: quweijie@huayun.com
 - repo: openeuler/libvirt
+  additional_contributors:
+  - gitee_id: liksh
+    name: LiKunshan
+    orgnization: ChinaUicom
+    email: li_kunshan@163.com
 - repo: openeuler/vmtop
 - repo: openeuler/stratovirt
+  additional_contributors:
+  - gitee_id: friendpalm
+    name: friendpalm
+    orgnization: Uniontech
+    email: heyitao@uniontech.com
 - repo: openeuler/libcareplus
