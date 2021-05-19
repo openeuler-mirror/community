@@ -372,7 +372,7 @@ def check_changed_repo(repos, prefix, super_visor, requires, blacklist):
 
     for name in curr_dict:
         curr_repo = curr_dict[name]
-        sigs = super_visor.get(prefix + curr_repo["name"].lower(), set())
+        sigs = super_visor.get(prefix + curr_repo["name"], set())
         print("INFO: adding " + curr_repo["name"] + " to SIG " + str(sigs))
         sigs_attention = sigs_attention | sigs
 
