@@ -15,8 +15,10 @@ sig-security_facility主要讨论在openEuler社区版本中已有或未来规�
 
 - 项目名称：
   - 交付件形式：源码、tar包或兼而有之
+   - openeuler/ksc-defender
    - openeuler/attest-tools
    - openeuler/digest-list-tools
+   - src-openeuler/ksc-defender
    - src-openeuler/mysql-selinux
    - src-openeuler/pesign-obs-integration
    - src-openeuler/tss2
@@ -101,6 +103,10 @@ sig-security_facility主要讨论在openEuler社区版本中已有或未来规�
 - flysubmarine
 
 - wucaijun2001
+
+- zhang-zixue
+
+- liu-yi-cs
 
 
 # 联系方式

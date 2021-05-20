@@ -4457,10 +4457,12 @@ sigs:
   - src-openeuler/ceph-csi
 - name: sig-security-facility
   repositories:
+  - openeuler/ksc-defender
   - openeuler/security-tool
   - openeuler/attest-tools
   - openeuler/digest-list-tools
   - openeuler/security-facility
+  - src-openeuler/ksc-defender
   - src-openeuler/mysql-selinux
   - src-openeuler/pesign-obs-integration
   - src-openeuler/tss2
