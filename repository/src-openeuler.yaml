@@ -3733,6 +3733,18 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: babeltrace
   description: ''
@@ -66140,19 +66152,6 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
-    type: protected
-    create_from: master
-  type: public
-- name: python-PyYAML
-  upstream: https://github.com/yaml/pyyaml
-  description: YAML parser and emitter for Python
-  branches:
-  - name: master
-    type: protected
-  - name: openEuler-20.09
-    type: protected
-    create_from: master
-  - name: openEuler-21.03
     type: protected
     create_from: master
   type: public
