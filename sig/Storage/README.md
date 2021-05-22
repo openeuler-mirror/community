@@ -35,6 +35,7 @@ repository地址：
 - https://gitee.com/src-openeuler/iprutils
 - https://gitee.com/src-openeuler/ndctl
 - https://gitee.com/src-openeuler/fuse
+- https://gitee.com/src-openeuler/fuse3
 - https://gitee.com/src-openeuler/tree
 - https://gitee.com/src-openeuler/sg3_utils
 - https://gitee.com/src-openeuler/mdadm
