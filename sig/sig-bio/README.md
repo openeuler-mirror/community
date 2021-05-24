@@ -60,3 +60,4 @@ repository地址：
 - https://gitee.com/src-openeuler/wtdbg2
 - https://gitee.com/src-openeuler/Picard
 - https://gitee.com/src-openeuler/GATK3
+- https://gitee.com/src-openeuler/stringtie
