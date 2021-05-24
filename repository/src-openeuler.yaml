@@ -79358,6 +79358,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-pypng
   upstream: https://github.com/drj11/pypng
@@ -84068,6 +84071,9 @@ repositories:
     type: protected
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
