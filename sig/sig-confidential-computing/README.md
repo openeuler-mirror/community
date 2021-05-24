@@ -24,6 +24,7 @@ sig-confidential_computing主要讨论在openEuler社区版本中已有或未来
   - https://gitee.com/src-openeuler/ocaml-dune
   - https://gitee.com/src-openeuler/secGear
   - https://gitee.com/src-openeuler/itrustee_sdk
+  - https://gitee.com/src-openeuler/intel-device-plugins-for-kubernetes
 
 ### repository路标
 
