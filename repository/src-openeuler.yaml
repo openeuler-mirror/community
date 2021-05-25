@@ -121035,6 +121035,15 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: intel-device-plugins-for-kubernetes
+  description: This repository contains a framework for developing plugins for the
+    Kubernetes device plugins framework, along with a number of device plugin implementations
+    utilising that framework.
+  upstream: https://github.com/intel/intel-device-plugins-for-kubernetes.git
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: swagger-codegen
   description: This is the swagger codegen project, which allows generation of API
     client libraries (SDK generation), server stubs and documentation automatically
