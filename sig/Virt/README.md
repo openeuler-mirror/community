@@ -9,7 +9,7 @@
 
 - 每双周周五下午2:30-4:30
 - 通过邮件申报议题
-- [会议纪要归档](https://etherpad.openeuler.org/p/virt-meetings)
+- [会议纪要归档](https://etherpad.openeuler.org/p/Virt-meetings)
 
 
 # 成员
