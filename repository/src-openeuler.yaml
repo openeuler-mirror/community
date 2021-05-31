@@ -12608,6 +12608,16 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: flume
+  description: A distributed, reliable, and availble service for efficiently collecting, aggregating, and moving large amounts of log data.
+  upstream: https://github.com/apache/flume
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  type: public
 - name: folks
   description: ''
   branches:
