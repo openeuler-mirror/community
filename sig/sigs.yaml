@@ -3247,7 +3247,6 @@ sigs:
   - src-openeuler/bootstrap
   - src-openeuler/closure-compiler
   - src-openeuler/expresso
-  - src-openeuler/js-jquery2
   - src-openeuler/js-jquery
   - src-openeuler/js-sizzle
   - src-openeuler/lodash
@@ -3590,7 +3589,6 @@ sigs:
   - src-openeuler/nodeunit
   - src-openeuler/uglify-js
   - src-openeuler/uglify-js1
-  - src-openeuler/js-jquery1
   - src-openeuler/nodejs-typescript
 - name: Private
   repositories:
@@ -4210,6 +4208,8 @@ sigs:
   - src-openeuler/pluma
 - name: sig-recycle
   repositories:
+  - src-openeuler/js-jquery1
+  - src-openeuler/js-jquery2
   - src-openeuler/infiniband-diags
   - src-openeuler/jetty-alpn
   - src-openeuler/cmockery

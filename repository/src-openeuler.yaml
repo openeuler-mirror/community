@@ -25356,21 +25356,21 @@ repositories:
   upstream: https://jquery.com/
   branches:
   - name: master
-    type: protected
+    type: readonly
   - name: openEuler-20.03-LTS-Next
-    type: protected
+    type: readonly
     create_from: master
   - name: openEuler-20.03-LTS-SP1
-    type: protected
+    type: readonly
     create_from: master
   - name: openEuler-20.09
-    type: protected
+    type: readonly
     create_from: master
   - name: openEuler-21.03
-    type: protected
+    type: readonly
     create_from: master
   - name: openEuler-20.03-LTS-SP2
-    type: protected
+    type: readonly
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: js-underscore
@@ -117860,21 +117860,21 @@ repositories:
   upstream: https://jquery.com/
   branches:
   - name: master
-    type: protected
+    type: readonly
   - name: openEuler-20.03-LTS-Next
-    type: protected
+    type: readonly
     create_from: master
   - name: openEuler-20.03-LTS-SP1
-    type: protected
+    type: readonly
     create_from: master
   - name: openEuler-20.09
-    type: protected
+    type: readonly
     create_from: master
   - name: openEuler-21.03
-    type: protected
+    type: readonly
     create_from: master
   - name: openEuler-20.03-LTS-SP2
-    type: protected
+    type: readonly
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: js-sizzle
