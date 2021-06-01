@@ -125616,3 +125616,17 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: raspi-config
+  description: Configuration tool for Raspberry Pi
+  upstream: https://github.com/RPi-Distro/raspi-config
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: pigpio
+  description: Library for the Raspberry which allows control of GPIO
+  upstream: https://github.com/joan2937/pigpio
+  branches:
+  - name: master
+    type: protected
+  type: public

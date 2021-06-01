@@ -47,3 +47,5 @@ repository 地址：
 - https://gitee.com/src-openeuler/raspberrypi-bluetooth
 - https://gitee.com/openeuler/rockchip
 - https://gitee.com/openeuler/rockchip-kernel
+- https://gitee.com/src-openeuler/raspi-config
+- https://gitee.com/src-openeuler/pigpio
