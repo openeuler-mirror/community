@@ -73,6 +73,7 @@ repositories:
 - repo: src-openeuler/bash
 - repo: src-openeuler/bash-completion
 - repo: src-openeuler/bc
+- repo: src-openeuler/bluez
 - repo: src-openeuler/binutils
 - repo: src-openeuler/bison
 - repo: src-openeuler/brotli
@@ -152,6 +153,7 @@ repositories:
 - repo: src-openeuler/glassfish-fastinfoset
 - repo: src-openeuler/glassfish-master-pom
 - repo: src-openeuler/glassfish-websocket-api
+- repo: src-openeuler/glib2
 - repo: src-openeuler/gmime30
 - repo: src-openeuler/gnulib
 - repo: src-openeuler/gobject-introspection
@@ -169,6 +171,7 @@ repositories:
 - repo: src-openeuler/hppc
 - repo: src-openeuler/htrace
 - repo: src-openeuler/ima-evm-utils
+- repo: src-openeuler/icu
 - repo: src-openeuler/iso-codes
 - repo: src-openeuler/isomd5sum
 - repo: src-openeuler/isorelax
@@ -197,6 +200,7 @@ repositories:
 - repo: src-openeuler/less
 - repo: src-openeuler/libbytesize
 - repo: src-openeuler/libcap-ng
+- repo: src-openeuler/libarchive
 - repo: src-openeuler/libclc
 - repo: src-openeuler/libcomps
 - repo: src-openeuler/libconfig
@@ -216,11 +220,13 @@ repositories:
 - repo: src-openeuler/libffi
 - repo: src-openeuler/libgdiplus
 - repo: src-openeuler/libgexiv2
+- repo: src-openeuler/libgpg-error
 - repo: src-openeuler/libgit2
 - repo: src-openeuler/libgit2-glib
 - repo: src-openeuler/libgsf
 - repo: src-openeuler/libhbaapi
 - repo: src-openeuler/libIDL
+- repo: src-openeuler/libical
 - repo: src-openeuler/libidn
 - repo: src-openeuler/libidn2
 - repo: src-openeuler/libisoburn
@@ -241,6 +247,7 @@ repositories:
 - repo: src-openeuler/libomxil-bellagio
 - repo: src-openeuler/libosinfo
 - repo: src-openeuler/libpaper
+- repo: src-openeuler/libpng
 - repo: src-openeuler/libpipeline
 - repo: src-openeuler/libplist
 - repo: src-openeuler/libpsl
@@ -308,8 +315,10 @@ repositories:
 - repo: src-openeuler/nailgun
 - repo: src-openeuler/ncompress
 - repo: src-openeuler/netdata
+- repo: src-openeuler/ncurses
 - repo: src-openeuler/nettle
 - repo: src-openeuler/nss_nis
+- repo: src-openeuler/newt
 - repo: src-openeuler/nss-pam-ldapd
 - repo: src-openeuler/ocl-icd
 - repo: src-openeuler/oddjob
@@ -478,6 +487,7 @@ repositories:
 - repo: src-openeuler/tclx
 - repo: src-openeuler/tcsh
 - repo: src-openeuler/TeXamator
+- repo: src-openeuler/texinfo
 - repo: src-openeuler/thrift
 - repo: src-openeuler/time
 - repo: src-openeuler/timedatex
