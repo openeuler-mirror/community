@@ -574,6 +574,16 @@ sigs:
   - src-openeuler/nodejs-node-sass
   - src-openeuler/nodejs-jed
   - src-openeuler/nodejs-intl
+  - src-openeuler/rubygem-powerbar
+  - src-openeuler/rubygem-actionmailbox
+  - src-openeuler/rubygem-actiontext
+  - src-openeuler/rubygem-ruby2ruby
+  - src-openeuler/rubygem-algebrick
+  - src-openeuler/rubygem-bootstrap-sass
+  - src-openeuler/rubygem-sassc-rails
+  - src-openeuler/rubygem-gettext
+  - src-openeuler/rubygem-locale
+  - src-openeuler/rubygem-text
 - name: Programming-language
   repositories:
   - src-openeuler/assertj-core
@@ -3297,6 +3307,23 @@ sigs:
   - src-openeuler/rubygem-sshkey
   - src-openeuler/rubygem-validates_lengths_from_database
   - src-openeuler/rubygem-will_paginate
+  - src-openeuler/rubygem-kafo_wizards
+  - src-openeuler/rubygem-clamp
+  - src-openeuler/rubygem-highline
+  - src-openeuler/rubygem-kafo_parsers
+  - src-openeuler/rubygem-hashie
+  - src-openeuler/rubygem-little-plugger
+  - src-openeuler/rubygem-netrc
+  - src-openeuler/rubygem-sexp_processor
+  - src-openeuler/rubygem-roadie
+  - src-openeuler/rubygem-apipie-params
+  - src-openeuler/rubygem-statsd-instrument
+  - src-openeuler/rubygem-sequel
+  - src-openeuler/rubygem-font-awesome-sass
+  - src-openeuler/rubygem-zeitwerk
+  - src-openeuler/rubygem-rails-css_parser
+  - src-openeuler/rubygem-autoprefixer-rails
+  - src-openeuler/rubygem-sassc
 - name: sig-nodejs
   repositories:
   - src-openeuler/bootstrap
