@@ -66265,6 +66265,12 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: pygobject2
   description: ''
@@ -68455,6 +68461,12 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-ansi2html
   upstream: http://github.com/ralphbean/ansi2html/
@@ -71779,6 +71791,18 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+  - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
+    type: protected
+    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
+    type: protected
+    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
   type: public
 - name: python-django-pytest
   upstream: http://github.com/buchuki/django-pytest
@@ -71899,6 +71923,12 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -72833,6 +72863,18 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+  - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
+    type: protected
+    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
+    type: protected
+    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
   type: public
 - name: python-fastimport
   upstream: https://github.com/jelmer/python-fastimport
@@ -75462,6 +75504,18 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-keyczar
   description: Toolkit for safe and simple cryptography
@@ -78401,6 +78455,18 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+  - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
+    type: protected
+    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
+    type: protected
+    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
   type: public
 - name: python-outcome
   upstream: https://github.com/python-trio/outcome
@@ -78787,6 +78853,7 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: python-pathlib
+  upstream: https://pypi.org/project/pathlib/
   description: Object-oriented filesystem paths.
   branches:
   - name: master
@@ -78794,7 +78861,13 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
-  type: private
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  type: public
 - name: python-pathlib2
   upstream: https://github.com/mcmtroffaes/pathlib2
   description: Object-oriented filesystem paths
@@ -80000,6 +80073,12 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-pycollada
   upstream: http://pycollada.readthedocs.org/
@@ -83100,6 +83179,12 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
   type: public
 - name: python-sniffio
   upstream: https://github.com/python-trio/sniffio
@@ -84633,6 +84718,18 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   type: public
@@ -123414,6 +123511,18 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+  - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
+    type: protected
+    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
+    type: protected
+    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
   type: public
 - name: python-os-testr
   description: A testr wrapper to provide functionality for OpenStack projects.
@@ -123754,6 +123863,18 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+  - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
+    type: protected
+    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
+    type: protected
+    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
   type: public
 - name: python-importlib-resources
   description: Read resources from Python packages
@@ -124263,6 +124384,18 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+  - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
+    type: protected
+    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
+    type: protected
+    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
   type: public
 - name: python-os-traits
   description: os-traits is an OpenStack library containing standardized trait strings.
@@ -125316,6 +125449,18 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+  - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
+    type: protected
+    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
+    type: protected
+    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
   type: public
 - name: python-doc8
   description: Style checker for Sphinx (or other) RST documentation
@@ -125466,6 +125611,18 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+  - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
+    type: protected
+    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
+    type: protected
+    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
   type: public
 - name: wtdbg2
   description: Wtdbg2 is a de novo sequence assembler for long noisy reads produced by PacBio or Oxford Nanpopore Technologies(ONT).
