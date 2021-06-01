@@ -1036,7 +1036,6 @@ sigs:
   - src-openeuler/c-ares
   - src-openeuler/python-backports-ssl_match_hostname
   - src-openeuler/libesmtp
-  - src-openeuler/geolite2
   - src-openeuler/ebtables
   - src-openeuler/dropwatch
   - src-openeuler/bind
@@ -4266,6 +4265,7 @@ sigs:
   - src-openeuler/rubygem-ronn
   - src-openeuler/gtkspell
   - src-openeuler/lzma
+  - src-openeuler/geolite2
 - name: sig-RaspberryPi
   repositories:
   - openeuler/raspberrypi
