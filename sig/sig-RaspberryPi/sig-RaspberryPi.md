@@ -32,6 +32,8 @@ The openEuler RaspberryPi SIG aims at migrating openEuler to Raspberry Pi, in or
 - Repository of scripts of building images for Raspberry Pi: https://gitee.com/openeuler/raspberrypi-build
 - Repository of scripts for building openEuler image on Rockchip Socs and documents: https://gitee.com/openeuler/rockchip
 - Repository of openEuler kernel source for Rockchip Socs: https://gitee.com/openeuler/rockchip-kernel
+- SRPM repository of configuration tool for Raspberry Pi: https://gitee.com/src-openeuler/raspi-config
+- SRPM repository of library for the Raspberry which allows control of the General Purpose Input Outputs (GPIO): https://gitee.com/src-openeuler/pigpio
 
 ## Basic Information
 
