@@ -71674,6 +71674,18 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
+    type: protected
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
+    type: protected
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-django-cache-url
   upstream: https://github.com/epicserve/django-cache-url
@@ -79227,6 +79239,18 @@ repositories:
     type: protected
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
+    type: protected
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
+    type: protected
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -122931,6 +122955,18 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
+    type: protected
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
+    type: protected
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-s3transfer
   description: python3-s3transfer - Amazon S3 Transfer Manager
@@ -123678,6 +123714,18 @@ repositories:
     type: protected
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
+    type: protected
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
+    type: protected
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -125514,6 +125562,18 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
+    type: protected
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
+    type: protected
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-flake8-docstrings
   description: Extension for flake8 which uses pydocstyle to check docstrings
@@ -125522,6 +125582,18 @@ repositories:
   - name: master
     type: protected
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
+    type: protected
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
+    type: protected
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -125552,6 +125624,18 @@ repositories:
   - name: master
     type: protected
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
+    type: protected
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
+    type: protected
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
