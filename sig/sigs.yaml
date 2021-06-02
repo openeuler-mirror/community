@@ -1362,6 +1362,16 @@ sigs:
 - name: Base-service
   repositories:
   - openeuler/process1
+  - src-openeuler/bluez
+  - src-openeuler/glib2
+  - src-openeuler/icu
+  - src-openeuler/libarchive
+  - src-openeuler/libgpg-error
+  - src-openeuler/libpng
+  - src-openeuler/ncurses
+  - src-openeuler/newt
+  - src-openeuler/texinfo
+  - src-openeuler/libical
   - src-openeuler/sos
   - src-openeuler/rng-tools
   - src-openeuler/pv
@@ -2002,7 +2012,6 @@ sigs:
   - src-openeuler/at-spi2-core
   - src-openeuler/augeas
   - src-openeuler/avahi
-  - src-openeuler/bluez
   - src-openeuler/bpg-fonts
   - src-openeuler/brltty
   - src-openeuler/cairo
@@ -2034,7 +2043,6 @@ sigs:
   - src-openeuler/giflib
   - src-openeuler/gio-qt
   - src-openeuler/glade
-  - src-openeuler/glib2
   - src-openeuler/gnome-abrt
   - src-openeuler/gnome-dictionary
   - src-openeuler/gnome-doc-utils
@@ -2063,7 +2071,6 @@ sigs:
   - src-openeuler/hyperscan
   - src-openeuler/ibus
   - src-openeuler/ibus-libzhuyin
-  - src-openeuler/icu
   - src-openeuler/imake
   - src-openeuler/jbig2dec
   - src-openeuler/jbigkit
@@ -2077,7 +2084,6 @@ sigs:
   - src-openeuler/lato-fonts
   - src-openeuler/lcms2
   - src-openeuler/libappindicator
-  - src-openeuler/libarchive
   - src-openeuler/libart_lgpl
   - src-openeuler/libasyncns
   - src-openeuler/libatasmart
@@ -2096,10 +2102,8 @@ sigs:
   - src-openeuler/libfontenc
   - src-openeuler/libglade2
   - src-openeuler/libglvnd
-  - src-openeuler/libgpg-error
   - src-openeuler/libgudev
   - src-openeuler/libgusb
-  - src-openeuler/libical
   - src-openeuler/libICE
   - src-openeuler/libimobiledevice
   - src-openeuler/libiptcdata
@@ -2109,7 +2113,6 @@ sigs:
   - src-openeuler/libmatchbox
   - src-openeuler/libmediainfo
   - src-openeuler/libmng
-  - src-openeuler/libpng
   - src-openeuler/libraqm
   - src-openeuler/libsexy
   - src-openeuler/libSM
@@ -2161,8 +2164,6 @@ sigs:
   - src-openeuler/mozjs78
   - src-openeuler/nafees-web-naskh-fonts
   - src-openeuler/navilu-fonts
-  - src-openeuler/ncurses
-  - src-openeuler/newt
   - src-openeuler/openbox
   - src-openeuler/openjpeg
   - src-openeuler/openjpeg2
@@ -2212,7 +2213,6 @@ sigs:
   - src-openeuler/telepathy-filesystem
   - src-openeuler/telepathy-glib
   - src-openeuler/telepathy-logger
-  - src-openeuler/texinfo
   - src-openeuler/thai-scalable-fonts
   - src-openeuler/tibetan-machine-uni-fonts
   - src-openeuler/tigervnc
