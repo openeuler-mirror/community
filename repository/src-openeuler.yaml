@@ -125907,3 +125907,458 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: nodejs-file-loader
+  upstream: https://github.com/webpack-contrib/file-loader
+  description: The file-loader resolves import/require() on a file into a url and emits the file into the output directory.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: nodejs-intl
+  upstream: https://github.com/andyearnshaw/Intl.js
+  description: All modern browsers, except safari, have implemented this API. Intl.js fills the void of availability for this API. It will provide the framework as described by the specification, so that developers can take advantage of the native API in environments that support it, or Intl.js for legacy or unsupported environments.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: nodejs-jed
+  upstream: https://github.com/SlexAxton/Jed
+  description: Gettext Style i18n for Modern JavaScript Apps
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: nodejs-react-intl
+  upstream: https://github.com/formatjs/formatjs
+  description: The monorepo home to all of the FormatJS related libraries, most notably react-intl.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: nodejs-sass-loader
+  upstream: https://github.com/webpack-contrib/sass-loader
+  description: Loads a Sass/SCSS file and compiles it to CSS.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: nodejs-style-loader
+  upstream: https://github.com/webpack-contrib/style-loader
+  description: Inject CSS into the DOM.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: nodejs-uglifyjs-webpack-plugin
+  upstream: https://github.com/webpack-contrib/uglifyjs-webpack-plugin
+  description: This plugin uses uglify-js to minify your JavaScript.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: nodejs-url-loader
+  upstream: https://github.com/webpack-contrib/url-loader
+  description: A loader for webpack which transforms files into base64 URIs.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: nodejs-webpack-stats-plugin
+  upstream: https://github.com/FormidableLabs/webpack-stats-plugin
+  description: This plugin will ingest the webpack stats object, process / transform the object and write out to a file for further consumption.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: nodejs-webpack
+  upstream: https://github.com/webpack/webpack
+  description: webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-activerecord-nulldb-adapter
+  upstream: https://github.com/nulldb/nulldb
+  description: NullDB is the Null Object pattern as applied to ActiveRecord database adapters. It is a database backend that translates database interactions into no-ops. Using NullDB enables you to test your model business logic - including after_save hooks - without ever touching a real database.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-activerecord-session_store
+  upstream: https://github.com/rails/activerecord-session_store
+  description: A session store backed by an Active Record class. A default class is provided, but any object duck-typing to an Active Record Session class with text session_id and data attributes is sufficient.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-apipie-dsl
+  upstream: https://github.com/ofedoren/apipie-dsl
+  description: Apipie-dsl is a DSL for documenting DSLs written in Ruby. Instead of traditional use of comments, ApipieDSL lets you describe the code, through the code.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-ancestry
+  upstream: https://github.com/stefankroes/ancestry
+  description: Ancestry is a gem that allows the records of a Ruby on Rails ActiveRecord model to be organised as a tree structure (or hierarchy). It employs the materialised path pattern and exposes all the standard tree structure relations (ancestors, parent, root, children, siblings, descendants), allowing all of them to be fetched in a single SQL query. Additional features include STI support, scopes, depth caching, depth constraints, easy migration from older gems, integrity checking, integrity restoration, arrangement of (sub)trees into hashes, and various strategies for dealing with orphaned records.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-apipie-rails
+  upstream: https://github.com/Apipie/apipie-rails
+  description: Apipie-rails is a DSL and Rails engine for documenting your RESTful API.  Apipie lets you describe the code, through the code. This brings advantages like
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-audited
+  upstream: https://github.com/collectiveidea/audited
+  description: Audited (previously acts_as_audited) is an ORM extension that logs all changes to your models. Audited can also record who made those changes, save comments and associate models related to the changes.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-coffee-rails
+  upstream: https://github.com/rails/coffee-rails
+  description: CoffeeScript adapter for the Rails asset pipeline. Also adds support to use CoffeeScript to respond to JavaScript requests (use .coffee views).
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-deacon
+  upstream: https://github.com/lzap/deacon
+  description: Deacon - human readable random name generator
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-deep_cloneable
+  upstream: https://github.com/moiristo/deep_cloneable
+  description: Extends the functionality of ActiveRecord::Base#dup to perform a deep clone that includes user specified associations.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-dynflow
+  upstream: https://github.com/Dynflow/dynflow
+  description: Ruby workflow/orchestration engine
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-facter
+  upstream: https://github.com/puppetlabs/facter
+  description: New version of Facter
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-fast_gettext
+  upstream: https://github.com/grosser/fast_gettext
+  description: A simple, fast, memory-efficient and threadsafe implementation of GetText
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-fog-core
+  upstream: https://github.com/fog/fog-core
+  description: Shared classes and tests for fog providers and services.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-friendly_id
+  upstream: https://github.com/norman/friendly_id
+  description: FriendlyId is the "Swiss Army bulldozer" of slugging and permalink plugins for Active Record. It lets you create pretty URLs and work with human-friendly strings as if they were numeric ids.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-get_process_mem
+  upstream: https://github.com/schneems/get_process_mem
+  description: Get memory usage of a process in Rub
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-gettext_i18n_rails_js
+  upstream: https://github.com/webhippie/gettext_i18n_rails_js
+  description: It will find translations inside your .js and .coffee files, then it will create JSON versions of your .PO files and will let you serve them with the rest of your assets, thus letting you access all your translations offline from client side javascript.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-graphql-batch
+  upstream: https://github.com/Shopify/graphql-batch/
+  description: A query batching executor for the graphql gem.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-graphql
+  upstream: https://github.com/rmosolgo/graphql-ruby/
+  description: A plain-Ruby implementation of GraphQL.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-jquery-ui-rails
+  upstream: https://github.com/jquery-ui-rails/jquery-ui-rails
+  description: jQuery UI's JavaScript, CSS, and image files packaged for the Rails 3.1+ asset pipeline
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-jwt
+  upstream: https://github.com/jwt/ruby-jwt
+  description: A pure ruby implementation of the RFC 7519 OAuth JSON Web Token (JWT) standard.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-kafo
+  upstream: https://github.com/theforeman/kafo
+  description: If you write puppet modules for installing your software, you can use kafo to create powerful installer
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-ldap_fluff
+  upstream: https://github.com/theforeman/ldap_fluff
+  description: Simple library for binding & group querying on top of various LDAP implementations
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-logging
+  upstream: https://github.com/TwP/logging
+  description: Logging is a flexible logging library for use in Ruby programs based on the design of Java's log4j library. It features a hierarchical logging system, custom level names, multiple output destinations per log event, custom formatting, and more.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-net-ldap
+  upstream: https://github.com/ruby-ldap/ruby-net-ldap
+  description: Net::LDAP for Ruby (also called net-ldap) implements client access for the Lightweight Directory Access Protocol (LDAP), an IETF standard protocol for accessing distributed directory services. Net::LDAP is written completely in Ruby with no external dependencies. It supports most LDAP client features and a subset of server features as well.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-net-ping
+  upstream: https://github.com/eitoball/net-ping
+  description: The net-ping library provides a ping interface for Ruby. It includes separate TCP, HTTP, LDAP, ICMP, UDP, WMI (for Windows) and external ping classes.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-net-scp
+  upstream: https://github.com/net-ssh/net-scp
+  description: A pure Ruby implementation of the SCP client protocol.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-net-ssh
+  upstream: https://github.com/net-ssh/net-ssh
+  description: Net-SSH a pure-Ruby implementation of the SSH2 client protocol. It allows you to write programs that invoke and interact with processes on remote servers, via SSH2.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-oauth
+  upstream: https://github.com/oauth-xx/oauth-ruby/
+  description: OAuth Core Ruby implementation
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-patternfly-sass
+  upstream: https://github.com/Patternfly/patternfly/
+  description: Red Hat's Patternfly, converted to Sass and ready to drop into Rails
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-rack-cors
+  upstream: https://github.com/cyu/rack-cors/
+  description: Middleware that will make Rack-based apps CORS compatible.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-rabl
+  upstream: https://github.com/nesquena/rabl
+  description: General ruby templating with json, bson, xml and msgpack support.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-rails-i18n
+  upstream: https://github.com/svenfuchs/rails-i18n
+  description: A set of common locale data and translations to internationalize and/or localize your Rails applications.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-record_tag_helper
+  upstream: https://github.com/rails/record_tag_helper
+  description: ActionView Record Tag Helpers
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-responders
+  upstream: https://github.com/heartcombo/responders
+  description: A set of Rails responders to dry up your application.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-rest-client
+  upstream: https://github.com/rest-client/rest-client/
+  description: A simple HTTP and REST client for Ruby, inspired by the Sinatra microframework style of specifying actions, get, put, post, delete.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-roadie-rails
+  upstream: https://github.com/Mange/roadie-rails
+  description: Hooks Roadie into your Rails application to help with email generation.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-safemode
+  upstream: https://github.com/svenfuchs/safemode
+  description: A library for safe evaluation of Ruby code based on RubyParser and Ruby2Ruby. Provides Rails ActionView template handlers for ERB and Haml.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-scoped_search
+  upstream: https://github.com/wvanbergen/scoped_search
+  description: Scoped search makes it easy to search your ActiveRecord-based models. It will create a named scope :search_for that can be called with a query string...
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-secure_headers
+  upstream: https://github.com/github/secure_headers
+  description: Manages application of security headers with many safe defaults.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-sshkey
+  upstream: https://github.com/bensie/sshkey
+  description: Generate private/public SSH keypairs using pure Ruby
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-validates_lengths_from_database
+  upstream: https://github.com/rubiety/validates_lengths_from_database
+  description: Introspects your database string field maximum lengths and automatically defines length validations.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-will_paginate
+  upstream: https://github.com/mislav/will_paginate
+  description: will_paginate is a pagination library that integrates with Ruby on Rails, Sinatra, Hanami::View, Merb, DataMapper and Sequel.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: nodejs-foreman-js
+  upstream: https://github.com/theforeman/foreman-js
+  description: This project is a monorepo using lerna to host more than one package.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: nodejs-babel-core
+  upstream: https://github.com/babel/babel
+  description: Babel compiler core.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: nodejs-argv-parse
+  upstream: https://github.com/paulcpederson/argv-parse
+  description: Parse command line arguments. This is a lot like yargs or optimist but not as feature rich. You can specify flags, aliases, or not. Can pass arrays, strings, and booleans. No dependencies. If you don't need array arguments, I'd recommend using minimist which is very good.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: nodejs-babel-loader
+  upstream: https://github.com/babel/babel-loader
+  description: This package allows transpiling JavaScript files using Babel and webpack.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: nodejs-compression-webpack-plugin
+  upstream: https://github.com/webpack-contrib/compression-webpack-plugin
+  description: Prepare compressed versions of assets to serve them with Content-Encoding.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: nodejs-css-loader
+  upstream: https://github.com/webpack-contrib/css-loader
+  description: The css-loader interprets @import and url() like import/require() and will resolve them.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: nodejs-dotenv
+  upstream: https://github.com/motdotla/dotenv
+  description: Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env. Storing configuration in the environment separate from code is based on The Twelve-Factor App methodology.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: nodejs-expose-loader
+  upstream: https://github.com/webpack-contrib/expose-loader
+  description: The expose-loader loader allows to expose a module (in whole or in part) to global object (self, window and global).
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: nodejs-extract-text-webpack-plugin
+  upstream: https://github.com/webpack-contrib/extract-text-webpack-plugin
+  description: Extract text from a bundle, or bundles, into a separate file.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: nodejs-node-sass
+  upstream: https://github.com/sass/node-sass
+  description: "Warning: LibSass and Node Sass are deprecated. While they will continue to receive maintenance releases indefinitely, there are no plans to add additional features or compatibility with any new CSS or Sass features. Projects that still use it should move onto Dart Sass."
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-bundler_ext
+  upstream: https://github.com/bundlerext/bundler_ext
+  description: Simple library leveraging the Bundler Gemfile DSL to load gems already on the system and managed by the systems package manager (like yum/apt)
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-webpack-rails
+  upstream: https://github.com/fnando/webpack-rails
+  description: Use webpack with Ruby on Rails without having to configure it.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: puppet-agent-puppet-strings
+  upstream: https://github.com/puppetlabs/puppet-strings
+  description: Puppet Strings generates documentation for Puppet code and extensions written in Puppet and Ruby. Strings processes code and YARD-style code comments to create documentation in HTML, Markdown, or JSON formats.
+  branches:
+  - name: master
+    type: protected
+  type: public

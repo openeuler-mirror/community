@@ -556,6 +556,24 @@ sigs:
   - src-openeuler/foreman-proxy
   - src-openeuler/foreman-selinux
   - src-openeuler/katello
+  - src-openeuler/nodejs-babel-core
+  - src-openeuler/nodejs-argv-parse
+  - src-openeuler/nodejs-dotenv
+  - src-openeuler/nodejs-extract-text-webpack-plugin
+  - src-openeuler/nodejs-file-loader
+  - src-openeuler/rubygem-bundler_ext
+  - src-openeuler/rubygem-webpack-rails
+  - src-openeuler/rubygem-roadie-rails
+  - src-openeuler/rubygem-net-ping
+  - src-openeuler/rubygem-jquery-ui-rails
+  - src-openeuler/rubygem-deacon
+  - src-openeuler/rubygem-coffee-rails
+  - src-openeuler/puppet-agent-puppet-strings
+  - src-openeuler/nodejs-url-loader
+  - src-openeuler/nodejs-uglifyjs-webpack-plugin
+  - src-openeuler/nodejs-node-sass
+  - src-openeuler/nodejs-jed
+  - src-openeuler/nodejs-intl
 - name: Programming-language
   repositories:
   - src-openeuler/assertj-core
@@ -3242,6 +3260,43 @@ sigs:
   - src-openeuler/rubygem-mustache
   - src-openeuler/rubygem-ronn-ng
   - src-openeuler/rubygem-kramdown-parser-gfm
+  - src-openeuler/rubygem-activerecord-nulldb-adapter
+  - src-openeuler/rubygem-activerecord-session_store
+  - src-openeuler/rubygem-apipie-dsl
+  - src-openeuler/rubygem-ancestry
+  - src-openeuler/rubygem-apipie-rails
+  - src-openeuler/rubygem-audited
+  - src-openeuler/rubygem-deep_cloneable
+  - src-openeuler/rubygem-dynflow
+  - src-openeuler/rubygem-facter
+  - src-openeuler/rubygem-fast_gettext
+  - src-openeuler/rubygem-fog-core
+  - src-openeuler/rubygem-friendly_id
+  - src-openeuler/rubygem-get_process_mem
+  - src-openeuler/rubygem-gettext_i18n_rails_js
+  - src-openeuler/rubygem-graphql-batch
+  - src-openeuler/rubygem-graphql
+  - src-openeuler/rubygem-jwt
+  - src-openeuler/rubygem-kafo
+  - src-openeuler/rubygem-ldap_fluff
+  - src-openeuler/rubygem-logging
+  - src-openeuler/rubygem-net-ldap
+  - src-openeuler/rubygem-net-scp
+  - src-openeuler/rubygem-net-ssh
+  - src-openeuler/rubygem-oauth
+  - src-openeuler/rubygem-patternfly-sass
+  - src-openeuler/rubygem-rack-cors
+  - src-openeuler/rubygem-rabl
+  - src-openeuler/rubygem-rails-i18n
+  - src-openeuler/rubygem-record_tag_helper
+  - src-openeuler/rubygem-responders
+  - src-openeuler/rubygem-rest-client
+  - src-openeuler/rubygem-safemode
+  - src-openeuler/rubygem-scoped_search
+  - src-openeuler/rubygem-secure_headers
+  - src-openeuler/rubygem-sshkey
+  - src-openeuler/rubygem-validates_lengths_from_database
+  - src-openeuler/rubygem-will_paginate
 - name: sig-nodejs
   repositories:
   - src-openeuler/bootstrap
@@ -3590,6 +3645,16 @@ sigs:
   - src-openeuler/uglify-js
   - src-openeuler/uglify-js1
   - src-openeuler/nodejs-typescript
+  - src-openeuler/nodejs-react-intl
+  - src-openeuler/nodejs-sass-loader
+  - src-openeuler/nodejs-style-loader
+  - src-openeuler/nodejs-webpack-stats-plugin
+  - src-openeuler/nodejs-webpack
+  - src-openeuler/nodejs-foreman-js
+  - src-openeuler/nodejs-babel-loader
+  - src-openeuler/nodejs-compression-webpack-plugin
+  - src-openeuler/nodejs-css-loader
+  - src-openeuler/nodejs-expose-loader
 - name: Private
   repositories:
   - openeuler/os-autoinst-distri-openEuler
