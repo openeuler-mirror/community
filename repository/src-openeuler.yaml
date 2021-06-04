@@ -6832,6 +6832,14 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: cobbler
+  description: Cobbler is a Linux installation server that allow for rapid
+    setup of network installation environments.
+  upstream: https://cobbler.github.io
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: cockpit
   description: ''
   branches:
@@ -75894,6 +75902,14 @@ repositories:
   - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
+  type: public
+- name: python-ldap3
+  upstream: http://github.com/cannatag/ldap3
+  description: ldap3 is a strictly RFC 4510 conforming LDAP V3 pure Python
+    client library. The same codebase runs in Python 2, Python 3, PyPy and PyPy3.
+  branches:
+  - name: master
+    type: protected
   type: public
 - name: python-leather
   upstream: http://leather.readthedocs.io/
