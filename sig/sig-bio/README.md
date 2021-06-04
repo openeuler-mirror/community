@@ -61,3 +61,6 @@ repository地址：
 - https://gitee.com/src-openeuler/Picard
 - https://gitee.com/src-openeuler/GATK3
 - https://gitee.com/src-openeuler/stringtie
+- https://gitee.com/src-openeuler/bamtools
+- https://gitee.com/src-openeuler/samtools
+- https://gitee.com/src-openeuler/htslib

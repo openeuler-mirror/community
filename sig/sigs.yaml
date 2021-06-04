@@ -3954,7 +3954,6 @@ sigs:
   - src-openeuler/hello
   - src-openeuler/hping
   - src-openeuler/htop
-  - src-openeuler/htslib
   - src-openeuler/http_load
   - src-openeuler/httpcomponents-project
   - src-openeuler/iftop
@@ -4045,7 +4044,6 @@ sigs:
   - src-openeuler/relaxngDatatype
   - src-openeuler/rpm-ostree
   - src-openeuler/s-tui
-  - src-openeuler/samtools
   - src-openeuler/saxon
   - src-openeuler/slurm
   - src-openeuler/sqlite-jdbc
@@ -7887,6 +7885,8 @@ sigs:
   - src-openeuler/Picard
   - src-openeuler/GATK3
   - src-openeuler/stringtie
+  - src-openeuler/samtools
+  - src-openeuler/htslib
 - name: sig-Rust
   repositories:
   - src-openeuler/rust
