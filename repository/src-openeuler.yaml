@@ -126402,3 +126402,10 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: kwayland-integration
+  upstream: https://invent.kde.org/plasma/kwayland-integration
+  description: Provides integration plugins for various KDE Frameworks for Wayland.
+  branches:
+  - name: master
+    type: protected
+  type: public
