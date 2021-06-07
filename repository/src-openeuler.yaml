@@ -16982,6 +16982,14 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+  type: public
+- name: graphene
+  description: A thin layer of types for graphic libraries
+  upstream: https://github.com/ebassi/graphene
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: grep
   description: ''
   branches:
@@ -30836,6 +30844,13 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  type: public
+- name: libldac
+  description: A lossy audio codec for Bluetooth connections
+  upstream: https://github.com/EHfive/ldacBT
+  branches:
+  - name: master
+    type: protected
   type: public
 - name: libldb
   description: ''
