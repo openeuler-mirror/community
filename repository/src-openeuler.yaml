@@ -99644,6 +99644,13 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: low-memory-monitor
+  description: An early boot daemon that will monitor memory pressure information coming from the kernel.
+  upstream: https://gitlab.freedesktop.org/hadess/low-memory-monitor/
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: xdg-desktop-portal
   description: A portal frontend service for Flatpak and possibly other desktop containment
     frameworks
