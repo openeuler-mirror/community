@@ -1372,8 +1372,6 @@ sigs:
   - src-openeuler/postgresql-odbc
   - src-openeuler/unixODBC
   - src-openeuler/mariadb
-  - src-openeuler/mariadb-connector-c
-  - src-openeuler/sqlite
   - src-openeuler/perl-DBD-SQLite
   - src-openeuler/perl-DBD-MySQL
 - name: Base-service
@@ -1643,6 +1641,7 @@ sigs:
   - src-openeuler/make
   - src-openeuler/man-db
   - src-openeuler/man-pages
+  - src-openeuler/mariadb-connector-c
   - src-openeuler/maven-verifier-plugin
   - src-openeuler/mcpp
   - src-openeuler/mecab
@@ -1805,6 +1804,7 @@ sigs:
   - src-openeuler/sombok
   - src-openeuler/speex
   - src-openeuler/speexdsp
+  - src-openeuler/sqlite
   - src-openeuler/sscg
   - src-openeuler/sssd
   - src-openeuler/star
