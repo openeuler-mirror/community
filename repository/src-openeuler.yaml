@@ -17521,6 +17521,13 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: gst-editing-services
+  description: a high-level library for facilitating the creation of audio/video non-linear editors.
+  upstream: https://gitlab.freedesktop.org/gstreamer/gst-editing-services
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: gtest
   description: ''
   branches:
