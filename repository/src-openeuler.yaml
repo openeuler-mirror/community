@@ -78005,6 +78005,45 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: python-troveclient
+  upstream: https://opendev.org/openstack/python-troveclient
+  description: This is a client for the OpenStack Trove API.
+  branches:
+  - name: master
+    type: protected
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
+    type: protected
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
+    type: protected
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
+  type: public
+- name: python-mistralclient
+  upstream: https://opendev.org/openstack/python-mistralclient
+  description: Python client for Mistral REST API. Includes python library 
+    for Mistral API and Command Line Interface (CLI) library.
+  branches:
+  - name: master
+    type: protected
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
+    type: protected
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
+    type: protected
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
+  type: public
 - name: python-designateclient
   upstream: https://opendev.org/openstack/python-designateclient
   description: OpenStack DNS-as-a-Service Client
