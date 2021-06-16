@@ -126519,3 +126519,17 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: fastp
+  upstream: https://github.com/OpenGene/fastp
+  description: A tool designed to provide fast all-in-one preprocessing for FastQ files. This tool is developed in C++ with multithreading supported to afford high performance.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: fastqc
+  upstream: https://www.bioinformatics.babraham.ac.uk/projects/fastqc
+  description: A quality control analysis tool for high throughput sequencing data
+  branches:
+  - name: master
+    type: protected
+  type: public
