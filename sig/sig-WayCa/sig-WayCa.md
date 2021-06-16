@@ -22,6 +22,7 @@ hardware layer of Kunpeng.
 ### Repositories and description managed by this SIG
 
 Repository for wayca-deployer: https://gitee.com/openeuler/wayca-deployer
+Repository for wayca-scheduler-bench: https://gitee.com/openeuler/wayca-scheduler-bench
 
 ## Basic Information
 

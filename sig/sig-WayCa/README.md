@@ -30,8 +30,19 @@
 
 # 项目清单
 
-项目名称：wayca-deployer
+## 项目名称：wayca-deployer
 
 repository地址：
 
 - https://gitee.com/openeuler/wayca-deployer
+
+## 项目名称：wayca-scheduler-bench
+
+repository地址：
+
+- https://gitee.com/openeuler/wayca-scheduler-bench
+
+| 分支名                 | 类型         | 说明                                             |
+| ---------------------- | ------------ | ------------------------------------------------ |
+| master                 | 上游分支同步 | https://github.com/gormanm/mmtests master同步    |
+| kp-dev                 | 鲲鹏开发分支 | 增加鲲鹏特定的benchmark配置文件、case            |
