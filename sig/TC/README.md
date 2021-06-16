@@ -32,7 +32,7 @@ openEuler技术委员会（Technical Committee，以下和TC互换使用）是op
 - 石  勇<shiyong@kylinos.com.cn> [[@stonefly](https://gitee.com/stonefly)]
 - 王建民<jianmin@iscas.ac.cn> [[@jianminw](https://gitee.com/jianminw)]
 - 王志钢<wangzhigang17@huawei.com>  [[@cellfaint](https://gitee.com/cellfaint)]
-- 魏  伟<weiwei64@huawei.com> [[@wweiandrew](https://gitee.com/wweiandrew)]
+- 彭成寒<pengch81@hotmail.com> [[@pengryan](https://gitee.com/pengryan)]
 - 吴峰光<wufengguang@huawei.com> [[@wu_fengguang](https://gitee.com/wu_fengguang)]
 - 熊  伟<xiongwei888@huawei.com> [[@myeuler](https://gitee.com/myeuler)]
 - 叶青龙<yeqinglong@uniontech.com> [[@yeqinglong01](https://gitee.com/yeqinglong01)]
@@ -40,7 +40,7 @@ openEuler技术委员会（Technical Committee，以下和TC互换使用）是op
 
 ## 2021 年 TC 成员变更历史
 - 冯健于2021年4月卸任，王伶卓接替TC委员工作。
-
+- 魏伟于2021年6月卸任，彭成寒接替TC委员工作。
 
 # 2020 年 TC成员
 
