@@ -64,3 +64,5 @@ repository地址：
 - https://gitee.com/src-openeuler/bamtools
 - https://gitee.com/src-openeuler/samtools
 - https://gitee.com/src-openeuler/htslib
+- https://gitee.com/src-openeuler/fastp
+- https://gitee.com/src-openeuler/fastqc
