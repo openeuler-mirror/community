@@ -32,14 +32,14 @@ OpenEuler AccLib(加速库)项目团队致力于提供硬件加速引擎和软�
 
 - xuqimeng[@xqm227]， xuqimeng1@huawei.com
 - yuhongxiao[@wuliaokanke]，yuhongxiao@huawei.com
-- zhangxuelei[@derek Zhang]，zhangxuelei4@huawei.com
+- zhangxuelei[@derekpush]，zhangxuelei4@huawei.com
 
 
 ### Committer列表
 
 - xuqimeng[@xqm227]， xuqimeng1@huawei.com
 - yuhongxiao[@wuliaokanke]，yuhongxiao@huawei.com
-- zhangxuelei[@derek Zhang]，zhangxuelei4@huawei.com
+- zhangxuelei[@derekpush]，zhangxuelei4@huawei.com
 
 
 # 联系方式
