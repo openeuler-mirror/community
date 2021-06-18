@@ -66874,6 +66874,19 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: python-elasticsearch2
+  description: Python client for Elasticsearch
+  upstream: https://github.com/elastic/elasticsearch-py
+  branches:
+  - name: master
+    type: protected
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
+    type: protected
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
+  type: public
 - name: python-Flask-Limiter
   description: Rate limiting for flask applications
   upstream: https://github.com/alisaifee/flask-limiter
@@ -126538,4 +126551,17 @@ repositories:
   branches:
   - name: master
     type: protected
+  type: public
+- name: python-jaeger-client
+  description: Jaeger Python OpenTracing Tracer implementation
+  upstream: https://github.com/jaegertracing/jaeger-client-python
+  branches:
+  - name: master
+    type: protected
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
+    type: protected
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   type: public
