@@ -47539,6 +47539,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: perl-DBD-MariaDB
+  upstream: https://github.com/gooddata/DBD-MariaDB/
+  description: MariaDB and MySQL driver for the Perl5 Database Interface (DBI)
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: perl-DBD-Mock
   upstream: http://search.cpan.org/dist/DBD-Mock/
   description: Mock database driver for testing
