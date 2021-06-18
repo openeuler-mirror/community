@@ -26,20 +26,19 @@ OpenEuler AccLib(加速库)项目团队致力于提供硬件加速引擎和软�
 
 # 成员
 
-*<必选，请在此给出团队成员的列表>*
 
 ### Maintainer列表
 
-- xuqimeng[@xqm227]， xuqimeng1@huawei.com
-- yuhongxiao[@wuliaokanke]，yuhongxiao@huawei.com
-- zhangxuelei[@derekpush]，zhangxuelei4@huawei.com
+- xuqimeng[@xqm227](http://gitee.com/xqm227)
+- yuhongxiao[@wuliaokanke](https://gitee.com/wuliaokanke)
+- zhangxuelei[@derekpush](https://gitee.com/derekpush)
 
 
 ### Committer列表
 
-- xuqimeng[@xqm227]， xuqimeng1@huawei.com
-- yuhongxiao[@wuliaokanke]，yuhongxiao@huawei.com
-- zhangxuelei[@derekpush]，zhangxuelei4@huawei.com
+- xuqimeng[@xqm227](https://gitee.com/xqm227)
+- yuhongxiao[@wuliaokanke](https://gitee.com/wuliaokanke)
+- zhangxuelei[@derekpush](https://gitee.com/derekpush)
 
 
 # 联系方式
@@ -55,4 +54,9 @@ AvxToNeon
 repository地址：
 
 - https://gitee.com/openeuler/AvxToNeon
-- 
+- https://gitee.com/openeuler/libkae
+- https://gitee.com/openeuler/libwd
+- https://gitee.com/openeuler/kae_driver
+- https://gitee.com/src-openeuler/libkae
+- https://gitee.com/src-openeuler/libwd
+- https://gitee.com/src-openeuler/kae_driver

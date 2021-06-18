@@ -2430,14 +2430,6 @@ sigs:
   - src-openeuler/python-estimator
   - src-openeuler/python-Keras
   - src-openeuler/python-keras-rl2
-- name: kae
-  repositories:
-  - openeuler/kae_driver
-  - openeuler/libkae
-  - openeuler/libwd
-  - src-openeuler/kae_driver
-  - src-openeuler/libkae
-  - src-openeuler/libwd
 - name: iSulad
   repositories:
   - openeuler/iSulad
@@ -7951,3 +7943,9 @@ sigs:
 - name: sig-AccLib
   repositories:
   - openeuler/AvxToNeon
+  - openeuler/kae_driver
+  - openeuler/libkae
+  - openeuler/libwd
+  - src-openeuler/kae_driver
+  - src-openeuler/libkae
+  - src-openeuler/libwd
