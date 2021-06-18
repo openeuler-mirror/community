@@ -3884,7 +3884,6 @@ sigs:
   - src-openeuler/base64coder
   - src-openeuler/bcc
   - src-openeuler/bcel
-  - src-openeuler/bcftools
   - src-openeuler/bcrypt
   - src-openeuler/bea-stax
   - src-openeuler/beust-jcommander
@@ -7892,6 +7891,7 @@ sigs:
   - src-openeuler/htslib
   - src-openeuler/fastp
   - src-openeuler/fastqc
+  - src-openeuler/bcftools
 - name: sig-Rust
   repositories:
   - src-openeuler/rust
