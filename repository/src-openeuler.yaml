@@ -126628,3 +126628,10 @@ repositories:
     type: protected
     create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   type: public
+- name: bgenix
+  upstream: https://enkre.net/cgi-bin/code/bgen/wiki/bgenix
+  description: a tool to create an index of variants in a bgen file and to use that index for efficient retrieval of data for specific variants or regions.
+  branches:
+  - name: master
+    type: protected
+  type: public
