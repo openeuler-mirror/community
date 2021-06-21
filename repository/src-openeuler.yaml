@@ -1035,6 +1035,19 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: abseil-cpp
+  description: Abseil is an open-source collection of C++ library code designed to augment the C++ standard library
+  upstream: https://github.com/abseil/abseil-cpp
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  type: public
 - name: accountsservice
   description: ''
   branches:
