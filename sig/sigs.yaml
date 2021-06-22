@@ -1383,6 +1383,7 @@ sigs:
   - src-openeuler/unixODBC
   - src-openeuler/mariadb
   - src-openeuler/perl-DBD-SQLite
+  - src-openeuler/perl-DBD-MariaDB
   - src-openeuler/perl-DBD-MySQL
 - name: Base-service
   repositories:
@@ -7982,3 +7983,4 @@ sigs:
   - src-openeuler/kae_driver
   - src-openeuler/libkae
   - src-openeuler/libwd
+
