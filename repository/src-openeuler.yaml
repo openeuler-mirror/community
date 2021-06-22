@@ -126153,9 +126153,23 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: rubygem-powerbar
+  description: The last progressbar-library you'll ever need.
+  upstream: https://github.com/busyloop/powerbar
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: nodejs-intl
   upstream: https://github.com/andyearnshaw/Intl.js
   description: All modern browsers, except safari, have implemented this API. Intl.js fills the void of availability for this API. It will provide the framework as described by the specification, so that developers can take advantage of the native API in environments that support it, or Intl.js for legacy or unsupported environments.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-actionmailbox
+  description: Receive and process incoming emails in Rails.
+  upstream: https://github.com/rails/rails
   branches:
   - name: master
     type: protected
@@ -126167,9 +126181,23 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: rubygem-actiontext
+  description: Edit and display rich text in Rails applications.
+  upstream: https://github.com/rails/rails
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: nodejs-react-intl
   upstream: https://github.com/formatjs/formatjs
   description: The monorepo home to all of the FormatJS related libraries, most notably react-intl.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-ruby2ruby
+  description: ruby2ruby provides a means of generating pure ruby code easily from RubyParser compatible Sexps. 
+  upstream: https://github.com/seattlerb/ruby2ruby
   branches:
   - name: master
     type: protected
@@ -126181,9 +126209,23 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: rubygem-kafo_wizards
+  description: With this gem it is possible to define form or wizard and display it to the user using one of the defined backends.
+  upstream: https://github.com/theforeman/kafo_wizards
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: nodejs-style-loader
   upstream: https://github.com/webpack-contrib/style-loader
   description: Inject CSS into the DOM.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-clamp
+  description: a Ruby command-line application framework.
+  upstream: https://github.com/mdub/clamp
   branches:
   - name: master
     type: protected
@@ -126195,9 +126237,23 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: rubygem-highline
+  description: A higher level command-line oriented interface.
+  upstream: https://github.com/JEG2/highline
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: nodejs-url-loader
   upstream: https://github.com/webpack-contrib/url-loader
   description: A loader for webpack which transforms files into base64 URIs.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-kafo_parsers
+  description: This gem can parse values, validations, documentation, types, groups and conditions of parameters from your puppet modules
+  upstream: https://github.com/theforeman/kafo_parsers
   branches:
   - name: master
     type: protected
@@ -126209,9 +126265,23 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: rubygem-hashie
+  description: Hashie is a collection of classes and mixins that make Ruby hashes more powerful.
+  upstream: https://github.com/hashie/hashie
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: nodejs-webpack
   upstream: https://github.com/webpack/webpack
   description: webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-little-plugger
+  description: A gems based plugin framework for Ruby.
+  upstream: https://github.com/TwP/little-plugger
   branches:
   - name: master
     type: protected
@@ -126223,9 +126293,23 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: rubygem-netrc
+  description: Reads and writes netrc files.
+  upstream: https://github.com/heroku/netrc
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: rubygem-activerecord-session_store
   upstream: https://github.com/rails/activerecord-session_store
   description: A session store backed by an Active Record class. A default class is provided, but any object duck-typing to an Active Record Session class with text session_id and data attributes is sufficient.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-sexp_processor
+  description: sexp_processor branches from ParseTree bringing all the generic sexp processing tools with it. 
+  upstream: https://github.com/seattlerb/sexp_processor
   branches:
   - name: master
     type: protected
@@ -126237,9 +126321,23 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: rubygem-roadie
+  description: Making HTML emails comfortable for the Ruby rockstars.
+  upstream: https://github.com/Mange/roadie
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: rubygem-ancestry
   upstream: https://github.com/stefankroes/ancestry
   description: Ancestry is a gem that allows the records of a Ruby on Rails ActiveRecord model to be organised as a tree structure (or hierarchy). It employs the materialised path pattern and exposes all the standard tree structure relations (ancestors, parent, root, children, siblings, descendants), allowing all of them to be fetched in a single SQL query. Additional features include STI support, scopes, depth caching, depth constraints, easy migration from older gems, integrity checking, integrity restoration, arrangement of (sub)trees into hashes, and various strategies for dealing with orphaned records.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-apipie-params
+  description: DSL for describing data structures with json-schema bindings.
+  upstream: https://github.com/iNecas/apipie-params
   branches:
   - name: master
     type: protected
@@ -126251,9 +126349,23 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: rubygem-statsd-instrument
+  description: A StatsD client for Ruby apps. Provides metaprogramming methods to inject StatsD instrumentation into your code.
+  upstream: https://github.com/Shopify/statsd-instrument
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: rubygem-audited
   upstream: https://github.com/collectiveidea/audited
   description: Audited (previously acts_as_audited) is an ORM extension that logs all changes to your models. Audited can also record who made those changes, save comments and associate models related to the changes.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-algebrick
+  description: Typed structs on steroids based on algebraic types and pattern matching.
+  upstream: https://github.com/pitr-ch/algebrick
   branches:
   - name: master
     type: protected
@@ -126265,9 +126377,23 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: rubygem-sequel
+  description:  The Database Toolkit for Ruby.
+  upstream: https://github.com/jeremyevans/sequel
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: rubygem-deacon
   upstream: https://github.com/lzap/deacon
   description: Deacon - human readable random name generator
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-bootstrap-sass
+  description:  Official Sass port of Bootstrap 2 and 3.
+  upstream: https://github.com/twbs/bootstrap-sass
   branches:
   - name: master
     type: protected
@@ -126475,6 +126601,20 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: rubygem-font-awesome-sass
+  description:  Font-Awesome Sass gem for use in Ruby/Rails projects.
+  upstream: https://github.com/FortAwesome/font-awesome-sass
+  branches:
+  - name: master
+    type: protected
+  type: public 
+- name: rubygem-gettext
+  description:  Ruby-GetText-Package is a Localization(L10n) library and tools which modeled after GNU gettext package.
+  upstream: https://github.com/mutoh/gettext
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: rubygem-scoped_search
   upstream: https://github.com/wvanbergen/scoped_search
   description: Scoped search makes it easy to search your ActiveRecord-based models. It will create a named scope :search_for that can be called with a query string...
@@ -126527,6 +126667,55 @@ repositories:
 - name: nodejs-argv-parse
   upstream: https://github.com/paulcpederson/argv-parse
   description: Parse command line arguments. This is a lot like yargs or optimist but not as feature rich. You can specify flags, aliases, or not. Can pass arrays, strings, and booleans. No dependencies. If you don't need array arguments, I'd recommend using minimist which is very good.
+  branches:
+  - name: master
+    type: protected
+  type: public 
+- name: rubygem-sassc-rails
+  description:  Integrate SassC-Ruby with Rails!
+  upstream: https://github.com/sass/sassc-rails
+  branches:
+  - name: master
+    type: protected
+  type: public 
+- name: rubygem-zeitwerk
+  description:  Efficient and thread-safe code loader for Ruby.
+  upstream: https://github.com/fxn/zeitwerk
+  branches:
+  - name: master
+    type: protected
+  type: public 
+- name: rubygem-rails-css_parser
+  description:  Ruby CSS Parser
+  upstream: https://github.com/premailer/css_parser
+  branches:
+  - name: master
+    type: protected
+  type: public 
+- name: rubygem-autoprefixer-rails
+  description:  Autoprefixer for Ruby and Ruby on Rails
+  upstream: https://github.com/ai/autoprefixer-rails
+  branches:
+  - name: master
+    type: protected
+  type: public 
+- name: rubygem-sassc
+  description:  libsass command line driver.
+  upstream: https://github.com/sass/sassc
+  branches:
+  - name: master
+    type: protected
+  type: public 
+- name: rubygem-locale
+  description:  Chef cookbook to configure the system locale on Linux systems.
+  upstream: https://github.com/chef-boneyard/locale
+  branches:
+  - name: master
+    type: protected
+  type: public 
+- name: rubygem-text
+  description:  Collection of text algorithms. gem install text.
+  upstream: https://github.com/threedaymonk/text
   branches:
   - name: master
     type: protected
