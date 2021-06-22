@@ -66,4 +66,5 @@ repository地址：
 - https://gitee.com/src-openeuler/htslib
 - https://gitee.com/src-openeuler/fastp
 - https://gitee.com/src-openeuler/fastqc
+- https://gitee.com/src-openeuler/bgenix
 - https://gitee.com/src-openeuler/bcftools
