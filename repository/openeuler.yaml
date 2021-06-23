@@ -583,8 +583,9 @@ repositories:
   - name: master
     type: protected
   type: public
-- name: wayca-deployer
-  description: wayca-deployer is an userspace deployment tool for tasks and interrupts
+- name: wayca-scheduler
+  rename-from: wayca-deployer
+  description: wayca-scheduler is an userspace deployment tool for tasks and interrupts
     to achieve better performance
   branches:
   - name: master
