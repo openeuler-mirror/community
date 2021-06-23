@@ -126844,3 +126844,10 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: firesim
+  upstream: https://github.com/firesim/firesim 
+  description: FireSim is an open-source cycle-accurate FPGA-accelerated full-system hardware simulation platform that runs on cloud FPGAs. 
+  branches:
+  - name: master
+    type: protected
+  type: public
