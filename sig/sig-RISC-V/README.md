@@ -56,6 +56,7 @@ RISC-V 是一个免费开源的指令集（ISA）。RISC-V SIG 组旨在提供 o
 - https://gitee.com/src-openeuler/NutShell-Kernel 支持openEuler面向NutShell(果壳, UCAS)处理器的内核源码、驱动、.config内核配置项等.
 - https://gitee.com/src-openeuler/NutShell-systemd 支持openEuler OS在NutShell UCAS COOSCA CPU运行，ttyPS0，udev等，处理器仿真环境为Xilinx FPGA PYNQ-Z2.
 - https://gitee.com/src-openeuler/NutShell-riscv-glibc 工具链的riscv glibc库，用于编译构建面向NutShell UCAS COOSCA处理器openEuler OS组件.
+- https://gitee.com/src-openeuler/firesim    FireSim is an open-source cycle-accurate FPGA-accelerated full-system hardware simulation platform that runs on cloud FPGAs.
 
 RPM Repo和Image地址：
 
