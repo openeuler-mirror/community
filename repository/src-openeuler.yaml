@@ -126824,6 +126824,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: trimmomatic
+  upstream: https://github.com/usadellab/Trimmomatic
+  description: Trimmomatic performs a variety of useful trimming tasks for illumina paired-end and single ended data
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-jaeger-client
   description: Jaeger Python OpenTracing Tracer implementation
   upstream: https://github.com/jaegertracing/jaeger-client-python
