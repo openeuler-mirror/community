@@ -34,7 +34,7 @@ openEuler QA(质量保障)项目团队致力于如何更好的提升openEuler社
 
 项目名称：QA
 repository地址：
-  - https://gitee.com/openeuler/avocado
+  - https://gitee.com/src-openeuler/avocado
   - https://gitee.com/openeuler/avocado-vt
   - https://gitee.com/openeuler/tp-libvirt
   - https://gitee.com/openeuler/tp-qemu
@@ -45,4 +45,7 @@ repository地址：
   - https://gitee.com/openeuler/integration-test
   - https://gitee.com/openeuler/container-test
   - https://gitee.com/openeuler/test-tools
+  - https://gitee.com/openeuler/mugen
+  - https://gitee.com/src-openeuler/test-tools
   - https://gitee.com/src-openeuler/linux-test-project
+  - https://gitee.com/src-openeuler/mugen

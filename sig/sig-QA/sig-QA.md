@@ -13,17 +13,21 @@ The QA team is engaged in the following activities:
 - 
 ### Repositories and description managed by this SIG
 The repositories related to QA are listed below
-- https://gitee.com/openeuler/avocado
-- https://gitee.com/openeuler/avocado-vt
-- https://gitee.com/openeuler/tp-libvirt
-- https://gitee.com/openeuler/tp-qemu
-- https://gitee.com/openeuler/quality-assurance
-- https://gitee.com/openeuler/EulerRobot
-- https://gitee.com/openeuler/compiler-test
-- https://gitee.com/openeuler/package-reinforce-test
-- https://gitee.com/openeuler/integration-test
-- https://gitee.com/openeuler/container-test
-- https://gitee.com/openeuler/test-tools
+  - https://gitee.com/src-openeuler/avocado
+  - https://gitee.com/openeuler/avocado-vt
+  - https://gitee.com/openeuler/tp-libvirt
+  - https://gitee.com/openeuler/tp-qemu
+  - https://gitee.com/openeuler/QA
+  - https://gitee.com/openeuler/EulerRobot
+  - https://gitee.com/openeuler/compiler-test
+  - https://gitee.com/openeuler/package-reinforce-test
+  - https://gitee.com/openeuler/integration-test
+  - https://gitee.com/openeuler/container-test
+  - https://gitee.com/openeuler/test-tools
+  - https://gitee.com/openeuler/mugen
+  - https://gitee.com/src-openeuler/test-tools
+  - https://gitee.com/src-openeuler/linux-test-project
+  - https://gitee.com/src-openeuler/mugen
 
 ### Project Introduction
 https://gitee.com/openeuler/community/sig/sig-QA/

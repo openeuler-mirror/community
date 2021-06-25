@@ -203,6 +203,12 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: mugen
+  description: Test framework and test suites 
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: package-reinforce-test
   description: The repo contains test suites in order to improve test coverage for
     key packages
