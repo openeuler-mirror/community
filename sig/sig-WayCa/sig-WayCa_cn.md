@@ -7,11 +7,11 @@ openEuler WayCa SIG主要维护一些鲲鹏硬件使能层工具
 
 ### 工作目标
 
-- 维护WayCa工具，比如wayca-deployer
+- 维护WayCa工具，比如wayca-scheduler
 
 ### 工作范围
 
-- 开发wayca-deployer和其他的硬件使能层工程
+- 开发wayca-scheduler和其他的硬件使能层工程
 
 ### 交付件
 
@@ -19,7 +19,7 @@ openEuler WayCa SIG主要维护一些鲲鹏硬件使能层工具
 
 ### 该 SIG 管理的 repository 及描述
 
-wayca-deployer: https://gitee.com/openeuler/wayca-deployer
+wayca-scheduler: https://gitee.com/openeuler/wayca-scheduler
 
 ## SIG 基本信息
 

@@ -30,11 +30,11 @@
 
 # 项目清单
 
-## 项目名称：wayca-deployer
+## 项目名称：wayca-scheduler
 
 repository地址：
 
-- https://gitee.com/openeuler/wayca-deployer
+- https://gitee.com/openeuler/wayca-scheduler
 
 ## 项目名称：wayca-scheduler-bench
 
