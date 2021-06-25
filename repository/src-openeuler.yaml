@@ -126865,3 +126865,10 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: tldr
+  upstream: https://github.com/tldr-pages/tldr-python-client
+  description: A Python command line client for tldr - Simplified and community-driven
+  branches:
+  - name: master
+    type: protected
+  type: public
