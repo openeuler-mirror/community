@@ -72952,6 +72952,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-execnet
   description: ''
@@ -81139,6 +81142,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-pysnmp
   upstream: https://github.com/etingof/pysnmp
@@ -85680,6 +85686,9 @@ repositories:
     type: protected
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -125219,6 +125228,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: coredns
   description: CoreDNS is a fast and flexible DNS server
@@ -125721,6 +125733,12 @@ repositories:
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-kazoo
   description: A higher level API to Apache Zookeeper for Python clients
@@ -125732,6 +125750,12 @@ repositories:
     type: protected
     create_from: master
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -125747,6 +125771,12 @@ repositories:
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-pika
   description: Pika is a RabbitMQ (AMQP 0-9-1) client library for Python.
@@ -125758,6 +125788,12 @@ repositories:
     type: protected
     create_from: master
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -125773,6 +125809,12 @@ repositories:
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-consul
   description: Python client for Consul.io
@@ -125780,9 +125822,6 @@ repositories:
   branches:
   - name: master
     type: protected
-  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
-    type: protected
-    create_from: master
   - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
@@ -125805,6 +125844,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-etcd3
   description: Python client for the etcd API v3
@@ -125812,9 +125854,6 @@ repositories:
   branches:
   - name: master
     type: protected
-  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
-    type: protected
-    create_from: master
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
     create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
@@ -125834,9 +125873,6 @@ repositories:
   branches:
   - name: master
     type: protected
-  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
-    type: protected
-    create_from: master
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
     create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
@@ -125859,6 +125895,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-pep8
   description: pep8 is a tool to check your Python code against some of the style conventions in PEP 8
@@ -125869,6 +125908,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-pifpaf
   description: Suite of tools and fixtures to manage daemons for testing
@@ -125876,9 +125918,6 @@ repositories:
   branches:
   - name: master
     type: protected
-  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
-    type: protected
-    create_from: master
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
     create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
@@ -125901,6 +125940,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-PyMI
   description: Windows Management Infrastructure API for Python
@@ -125909,6 +125951,9 @@ repositories:
   - name: master
     type: protected
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -125921,6 +125966,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-rtslib-fb
   description: API for Linux kernel SCSI target (aka LIO)
@@ -125929,6 +125977,9 @@ repositories:
   - name: master
     type: protected
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -125941,6 +125992,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-sysv-ipc
   description: System V IPC primitives (semaphores, shared memory and message queues) for Python
@@ -125949,6 +126003,9 @@ repositories:
   - name: master
     type: protected
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -125961,6 +126018,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-wmi
   description: Windows Management Instrumentation
@@ -125971,6 +126031,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-zake
   description: A python package that works to provide a nice set of testing utilities for the kazoo library.
@@ -125978,9 +126041,6 @@ repositories:
   branches:
   - name: master
     type: protected
-  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
-    type: protected
-    create_from: master
   - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
