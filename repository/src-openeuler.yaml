@@ -71483,6 +71483,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: python-dbusmock
+  upstream: https://pypi.python.org/pypi/python-dbusmock
+  description: With this program/Python library you can easily create mock objects on D-Bus.
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-dbus-client-gen
   upstream: https://github.com/mulkieran/dbus-client-gen
   description: generates classes and methods useful to a D-Bus client
