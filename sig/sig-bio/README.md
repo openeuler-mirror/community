@@ -68,4 +68,5 @@ repository地址：
 - https://gitee.com/src-openeuler/fastqc
 - https://gitee.com/src-openeuler/trimmomatic
 - https://gitee.com/src-openeuler/bgenix
+- https://gitee.com/src-openeuler/Control-FREEC
 - https://gitee.com/src-openeuler/bcftools
