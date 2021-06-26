@@ -126897,6 +126897,20 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: seqtk
+  upstream: https://github.com/lh3/seqtk
+  description: Toolkit for processing sequences in FASTA/Q formats.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: bedops
+  upstream: https://github.com/bedops/bedops
+  description: a suite of tools to address common questions raised in genomic studies.
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: fastp
   upstream: https://github.com/OpenGene/fastp
   description: A tool designed to provide fast all-in-one preprocessing for FastQ files. This tool is developed in C++ with multithreading supported to afford high performance.
