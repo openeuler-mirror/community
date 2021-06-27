@@ -51,6 +51,7 @@ CloudNative SIG致力于为广大用户、开发者、爱好者提供便捷、�
 repository地址：
 
 - https://gitee.com/openeuler/cloudnative
+- https://gitee.com/openeuler/operator-manager
 - https://gitee.com/src-openeuler/coredns
 - https://gitee.com/src-openeuler/kubernetes
 - https://gitee.com/src-openeuler/iSulad

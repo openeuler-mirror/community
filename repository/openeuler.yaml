@@ -240,6 +240,12 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: operator-manager
+  description: operator-manager is a lightweight framework for managing the lifecycle of operators 
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: Java-Packages
   description: Java package relevant docs, source code and issue management.
   branches:
