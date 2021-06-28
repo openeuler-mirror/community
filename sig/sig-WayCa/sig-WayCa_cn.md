@@ -30,11 +30,13 @@ wayca-scheduler: https://gitee.com/openeuler/wayca-scheduler
 - Kenneth-Lee-2012
 - joyxu515_admin
 - barrysong
+- young1c
 
 ### Committers
 - Kenneth-Lee-2012
 - joyxu515_admin
 - barrysong
+- young1c
 
 ### 邮件列表
 - dev@openeuler.org

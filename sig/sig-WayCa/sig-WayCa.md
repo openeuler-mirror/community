@@ -33,11 +33,13 @@ Repository for wayca-scheduler-bench: https://gitee.com/openeuler/wayca-schedule
 - Kenneth-Lee-2012
 - joyxu515_admin
 - barrysong
+- young1c
 
 ### Committers
 - Kenneth-Lee-2012
 - joyxu515_admin
 - barrysong
+- young1c
 
 ### Mailing list
 - dev@openeuler.org
