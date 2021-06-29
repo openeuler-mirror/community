@@ -127127,6 +127127,27 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: python-certbot
+  upstream: https://github.com/certbot/certbot
+  description: ACME client
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-josepy
+  upstream: https://github.com/certbot/josepy
+  description: JOSE protocol implementation in Python
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-pyRFC3339
+  upstream: https://github.com/kurtraschke/pyRFC3339
+  description: Generate and parse RFC 3339 timestamps
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: adb-enhanced
   description: ADB-Enhanced is a Swiss-army knife for Android testing and development.
   upstream: https://github.com/ashishb/adb-enhanced
