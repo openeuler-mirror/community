@@ -11,18 +11,21 @@
 - Kenneth-Lee-2012
 - joyxu515_admin
 - barrysong
+- young1c
 
 ### Maintainer列表
 
 - Kenneth Lee[@Kenneth-Lee-2012](https://gitee.com/Kenneth-Lee-2012), liguozhu@hisilicon.com
 - Wei Xu[@joyxu515_admin](https://gitee.com/joyxu515), xuwei5@huawei.com
 - Barry Song[@barrysong](https://gitee.com/barrysong), 21cnbao@gmail.com
+- Yicong Yang[@young1c](https://gitee.com/young1c), young.yicong@outlook.com
 
 ### Committer列表
 
 - Kenneth Lee[@Kenneth-Lee-2012](https://gitee.com/Kenneth-Lee-2012)
 - Wei Xu[@joyxu515_admin](https://gitee.com/joyxu515)
 - Barry Song[@barrysong](https://gitee.com/barrysong)
+- Yicong Yang[@young1c](https://gitee.com/young1c)
 
 # 联系方式
 
