@@ -574,7 +574,7 @@ repositories:
     type: protected
   type: public
 - name: bishengjdk-8
-  rename-from: virtaus-8
+  rename_from: virtaus-8
   description: Bisheng JDK 8 is a high-performance, production-ready distribution
     of OpenJDK 8.
   branches:
@@ -582,7 +582,7 @@ repositories:
     type: protected
   type: public
 - name: bishengjdk-11
-  rename-from: virtaus-11
+  rename_from: virtaus-11
   description: Bisheng JDK 11 is a high-performance, production-ready distribution
     of OpenJDK 11.
   branches:
@@ -595,10 +595,8 @@ repositories:
   - name: master
     type: protected
   type: public
-- name: wayca-scheduler
-  rename-from: wayca-deployer
-  description: wayca-scheduler is an userspace deployment tool for tasks and interrupts
-    to achieve better performance
+- name: wayca-deployer
+  description: wayca-deployer is an userspace deployment tool for tasks and interrupts
   branches:
   - name: master
     type: protected
