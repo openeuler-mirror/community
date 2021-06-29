@@ -84,6 +84,7 @@ DB SIG当前处于发展的初始阶段，团队维护能力有限，目前为�
 - https://gitee.com/src-openeuler/pgpool2
 - https://gitee.com/src-openeuler/postgresql
 - https://gitee.com/src-openeuler/postgresql-odbc
+- https://gitee.com/src-openeuler/gpdb
 - https://gitee.com/src-openeuler/unixODBC
 - https://gitee.com/src-openeuler/mariadb
 - https://gitee.com/src-openeuler/perl-DBD-SQLite
