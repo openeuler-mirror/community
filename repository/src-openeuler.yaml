@@ -65747,6 +65747,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: gpdb
+  description: Greenplum Database - Massively Parallel PostgreSQL for Analytics. An open-source massively parallel data platform for analytics, machine learning and AI.
+  upstream: https://github.com/greenplum-db/gpdb
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: potrace
   description: A tool for tracing a bitmap
   upstream: http://potrace.sourceforge.net
