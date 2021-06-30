@@ -82598,6 +82598,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: python-cccolutils
+  description: This module provides Kerberos 5 credential cache collection utilities for Python. When a user authenticates to a Kerberos realm, the user has a short-lived credential in a cache. You can use this cccolutils module to easily determine if the user has any valid Kerberos credentials, or what the username is for a particular Kerberos realm.
+  upstream: https://pagure.io/cccolutils
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-rpkg
   description: This is the rpkg project, which mostly is a python library for dealing with rpm packaging in a git source control. pyrpkg is the base library that sites can subclass to create useful tools.
   upstream: https://pagure.io/rpkg
