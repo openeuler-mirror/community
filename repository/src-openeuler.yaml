@@ -109699,6 +109699,13 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: nodejs-nodemon
+  description: Simple monitor script for use during development of a node.js app
+  upstream: https://github.com/remy/nodemon
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: nodejs-locate-path
   description: Get the first path that exists on disk of multiple paths
   upstream: https://github.com/sindresorhus/locate-path
