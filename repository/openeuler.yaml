@@ -922,3 +922,9 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: geo-coding
+  description: geo-coding is a Python client for geocoding related services, including common and popular encoding and conversion methods.
+  branches:
+  - name: master
+    type: protected
+  type: public
