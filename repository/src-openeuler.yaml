@@ -9609,6 +9609,13 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: dleyna-renderer
+  description: Service for interacting with Digital Media Renderers
+  upstream: https://01.org/dleyna/
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: dleyna-server
   description: APIs for discovering Digital Media Servers
   upstream: https://01.org/dleyna/
