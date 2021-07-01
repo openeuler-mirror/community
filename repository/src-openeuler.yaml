@@ -50350,6 +50350,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: perl-File-Next
+  upstream: https://metacpan.org/release/File-Next
+  description: An iterator-based module for finding files
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: perl-File-NFSLock
   upstream: http://search.cpan.org/dist/File-NFSLock/
   description: Perl module to do NFS (or not) locking
