@@ -127092,3 +127092,10 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: xbanish
+  upstream: https://github.com/jcs/xbanish
+  description: xbanish hides the mouse cursor when you start typing, and shows it again when the mouse cursor moves or a mouse button is pressed
+  branches:
+  - name: master
+    type: protected
+  type: public
