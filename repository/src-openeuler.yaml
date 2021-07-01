@@ -43085,6 +43085,13 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: python-ucam-webauth
+  description: python-ucam-webauth - Ucam-webauth and Raven application agent in Python
+  upstream: https://github.com/danielrichman/python-ucam-webauth.git
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-osc-placement
   rename_from: openstack-osc-placement
   description: OpenStackClient plugin for Placement service.
