@@ -76523,6 +76523,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: python-losant-rest
+  upstream: https://github.com/Losant/losant-rest-python
+  description: A REST client for the Losant API
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-lrparsing
   upstream: http://lrparsing.sourceforge.net/
   description: An LR(1) parser hiding behind a pythonic interface
