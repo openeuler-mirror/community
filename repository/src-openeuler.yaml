@@ -75260,6 +75260,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: python-iptools
+  upstream: https://github.com/bd808/python-iptools
+  description: Python utilites for manipulating IPv4 and IPv6 addresses
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-ipython_genutils
   description: IPython vestigial utilities.
   upstream: https://github.com/ipython/ipython_genutils
