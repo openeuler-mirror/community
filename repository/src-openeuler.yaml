@@ -94467,6 +94467,13 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: tofrodos
+  description: Converts text files between MSDOS and Unix file formats
+  upstream: http://www.thefreecountry.com/tofrodos/
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: tokyocabinet
   description: ''
   branches:
