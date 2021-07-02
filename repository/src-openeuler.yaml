@@ -118522,6 +118522,13 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: aha
+  description: Convert terminal output to HTML.
+  upstream: https://github.com/theZiz/aha
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: lodash
   description: A JavaScript utility library
   upstream: https://lodash.com/
@@ -127245,7 +127252,3 @@ repositories:
 - name: update-desktop-files
   description: This package provides further translations and a shell script to update desktop files. It is used by the %%suse_update_desktop_file rpm macro.
   upstream:
-  branches:
-  - name: master
-    type: protected
-  type: public
