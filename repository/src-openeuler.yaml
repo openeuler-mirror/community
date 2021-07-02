@@ -43902,6 +43902,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: nmstate
+  description: 'Nmstate is a library with an accompanying command line tool that manages host networking settings in a declarative manner'
+  upstream: https://github.com/nmstate/nmstate
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: p11-kit
   description: ''
   branches:
