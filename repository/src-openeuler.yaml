@@ -74778,6 +74778,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: python-hvac
+  upstream: https://github.com/hvac/hvac
+  description: HashiCorp Vault API client
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-hwdata
   description: ''
   branches:
