@@ -32,6 +32,7 @@ OpenEuler AccLib(加速库)项目团队致力于提供硬件加速引擎和软�
 - xuqimeng[@xqm227](http://gitee.com/xqm227)
 - yuhongxiao[@wuliaokanke](https://gitee.com/wuliaokanke)
 - zhangxuelei[@derekpush](https://gitee.com/derekpush)
+- zhongkeyi[@realzhongkeyi](https://gitee.com/realzhongkeyi)
 - fanghao[@hao-fang](https://gitee.com/hao-fang)
 
 
@@ -40,6 +41,7 @@ OpenEuler AccLib(加速库)项目团队致力于提供硬件加速引擎和软�
 - xuqimeng[@xqm227](https://gitee.com/xqm227)
 - yuhongxiao[@wuliaokanke](https://gitee.com/wuliaokanke)
 - zhangxuelei[@derekpush](https://gitee.com/derekpush)
+- zhongkeyi[@realzhongkeyi](https://gitee.com/realzhongkeyi)
 - fanghao[@hao-fang](https://gitee.com/hao-fang)
 
 
