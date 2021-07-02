@@ -1,7 +1,7 @@
 name: sig-KIRAN-DESKTOP
 description: The KIRAN-DESKTOP SIG is committed to introducing KIRAN-DESKTOP into the openEuler community, and performing related adaptation, migration and optimization, making it one of the server desktop environments officially supported by the openEuler community.
 mailing_list: sig-KIRAN-DESKTOP@openeuler.org
-meeting_url: 
+meeting_url: NA
 mature_level: gratuated
 mentors:
 maintainers:
@@ -50,4 +50,5 @@ repositories:
 - repo: src-openeuler/kiran-cc-daemon
 - repo: src-openeuler/lunar-date
 - repo: src-openeuler/gdbus-codegen-glibmm
-
+- repo: src-openeuler/kiran-log
+- repo: src-openeuler/zlog

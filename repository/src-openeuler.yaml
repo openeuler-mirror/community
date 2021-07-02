@@ -99591,6 +99591,20 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: kiran-log
+  description: This is a kiran log library.
+  upstream: https://gitee.com/kylinsecos/kiran-log
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: zlog
+  description: This is a zlog library.
+  upstream: https://github.com/HardySimpson/zlog/releases
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: ostree_assembly
   description: Ostree generation platform, based on the Python Django, provides a
     complete set of web-based ostree mirror building process.

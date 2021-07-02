@@ -47,7 +47,8 @@ English | [简体中文](./sig-KIRAN-DESKTOP_cn.md)
 - https://gitee.com/src-openeuler/kiran-calendar
 - https://gitee.com/src-openeuler/lunar-date
 - https://gitee.com/src-openeuler/gdbus-codegen-glibmm
-
+- https://gitee.com/src-openeuler/kiran-log
+- https://gitee.com/src-openeuler/zlog
 ## Basic Information
 
 ###  Project Introduction
