@@ -74768,6 +74768,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: python-hupper
+  upstream: https://github.com/Pylons/hupper
+  description: Integrated process monitor for developing and reloading daemons.
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-husl
   upstream: http://www.husl-colors.org
   description: Human-friendly HSL
