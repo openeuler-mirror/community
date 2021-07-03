@@ -75421,6 +75421,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: python-jira
+  upstream: https://github.com/pycontribs/jira
+  description: Python library for interacting with JIRA via REST APIs.
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-jmespath
   upstream: http://jmespath.org
   description: JMESPath allows you to declaratively specify how to extract elements
