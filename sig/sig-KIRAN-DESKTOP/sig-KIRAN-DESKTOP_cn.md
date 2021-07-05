@@ -44,6 +44,8 @@ KIRAN-DESKTOP SIG小组致力于将KIRAN-DESKTOP 引入至 openEuler 社区中�
 - https://gitee.com/src-openeuler/kiran-calendar
 - https://gitee.com/src-openeuler/lunar-date
 - https://gitee.com/src-openeuler/gdbus-codegen-glibmm
+- https://gitee.com/src-openeuler/kiran-log
+- https://gitee.com/src-openeuler/zlog
 
 ## SIG基本信息
 
