@@ -127488,6 +127488,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: parquet-format
+  description: Parquet is a columnar storage format that supports nested data. This provides all generated meta-data code.
+  upstream: https://github.com/apache/parquet-format/
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-storpool
   description: Bindings for the StorPool distributed storage API
   upstream: https://github.com/storpool/python-storpool
