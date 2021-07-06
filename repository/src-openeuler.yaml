@@ -6599,6 +6599,13 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: clitest
+  description: Command Line Tester
+  upstream: https://github.com/aureliojargas/clitest
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: cloc
   description: Program line caculation tools
   branches:
