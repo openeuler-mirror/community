@@ -69019,6 +69019,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: python-django-cacheops
+  description: A slick ORM cache with automatic granular event-driven invalidation for Django.
+  upstream: https://github.com/Suor/django-cacheops.git
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-asn1crypto
   description: ''
   branches:
