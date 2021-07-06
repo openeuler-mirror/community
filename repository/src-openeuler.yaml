@@ -126985,6 +126985,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: vim-ansible
+  description:  Vim plugin for syntax highlighting ansible's common filetypes
+  upstream: https://github.com/pearofducks/ansible-vim
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: nodejs-babel-loader
   upstream: https://github.com/babel/babel-loader
   description: This package allows transpiling JavaScript files using Babel and webpack.
