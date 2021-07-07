@@ -126960,6 +126960,13 @@ repositories:
   branches:
   - name: master
     type: protected
+  type: public
+- name: rubygem-oj
+  description:  A fast JSON parser and serializer.
+  upstream: https://github.com/ohler55/oj
+  branches:
+  - name: master
+    type: protected
   type: public 
 - name: rubygem-locale
   description:  Chef cookbook to configure the system locale on Linux systems.
