@@ -16432,6 +16432,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: abduco
+  description: abduco provides session management i.e. it allows programs to be run independently from its controlling terminal. That is programs can be detached - run in the background - and then later reattached.
+  upstream: https://github.com/martanne/abduco
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: golang-github-d2g-dhcp4
   description: ''
   branches:
