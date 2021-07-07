@@ -127041,6 +127041,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: gnome-shell-extension-windowoverlay-icons
+  upstream: https://github.com/sustmi/gnome-shell-extension-windowoverlay-icons 
+  description: Show app icons on top of the windows thumbnails in Activities Overview
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: nodejs-compression-webpack-plugin
   upstream: https://github.com/webpack-contrib/compression-webpack-plugin
   description: Prepare compressed versions of assets to serve them with Content-Encoding.
