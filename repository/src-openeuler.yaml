@@ -3479,6 +3479,13 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: amavis
+  description: Email filter with virus scanner and spamassassin support.
+  upstream: https://gitlab.com/amavis/amavis
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: autofs
   description: ''
   branches:
