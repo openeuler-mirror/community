@@ -27,13 +27,17 @@ DyscheOS兴趣小组希望能够在openEuler系统上，实现一些技术方案
 
 ## Maintainer列表
 
-- liliang
+- liliang_euler
 - minknov
+- TrueAI
+- hw-chuang
 
 ## Committer列表
 
-- liliang
+- liliang_euler
 - minknov
+- TrueAI
+- hw-chuang
 
 # 联系方式
 
