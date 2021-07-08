@@ -78378,6 +78378,84 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: python-threadloop
+  upstream: https://github.com/GoodPete/threadloop
+  description: Tornado IOLoop Backed Concurrent Futures
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-watcherclient
+  upstream: https://opendev.org/openstack/python-watcherclient
+  description: Client for resource optimization service for OpenStack.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-nodeenv
+  upstream: https://github.com/ekalinin/nodeenv
+  description: It is a tool to create isolated node.js environments.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-binary-memcached
+  upstream: https://github.com/jaysonsantos/python-binary-memcached
+  description: A pure python module (thread safe) to access memcached
+    via it's binary with SASL auth support.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-uhashring
+  upstream: https://github.com/ultrabug/uhashring
+  description: uhashring implements consistent hashing in pure Python.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-trove-tempest-plugin
+  upstream: https://git.openstack.org/cgit/openstack/trove-tempest-plugin
+  description: Tempest plugin for Trove project
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-infi.dtypes.iqn
+  upstream: https://github.com/infinidat/infi.dtypes.iqn
+  description: IQN datatype in Python Datatype for iSCSI IQN in Python.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-pre-commit
+  upstream: https://github.com/pre-commit/pre-commit
+  description: A framework for managing and maintaining multi-language pre-commit hooks.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-tempest-lib
+  upstream: http://git.openstack.org/cgit/openstack/tempest-lib
+  description: OpenStack Functional Testing Library.
+  branches:
+  - name: master
+    type: protected
+  type: publib
+- name: python-infinisdk
+  upstream: https://github.com/Infinidat/infinisdk
+  description: Infinidat API SDK.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-URLObject
+  upstream: https://github.com/zacharyvoase/urlobject
+  description: It is a utility class for manipulating URLs.
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-novaclient
   upstream: https://opendev.org/openstack/python-novaclient
   description: Client library for openstack compute api
