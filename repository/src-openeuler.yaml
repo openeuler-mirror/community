@@ -120,6 +120,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: mysqltuner
+  description: MySQLTuner is a script written in Perl that will assist you with your MySQL configuration and make recommendations for increased performance and stability. Within seconds, it will display statistics about your MySQL installation and the areas where it can be improved
+  upstream: https://github.com/major/MySQLTuner-perl
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: foreman-selinux
   description: SELinux policy module for Foreman
   upstream: https://theforeman.org
