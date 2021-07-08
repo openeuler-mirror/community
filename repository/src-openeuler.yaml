@@ -69033,6 +69033,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: python-django-contrib-comments
+  description: Django's comment framework
+  upstream: https://github.com/django/django-contrib-comments
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-asn1crypto
   description: ''
   branches:
