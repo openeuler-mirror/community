@@ -25602,6 +25602,13 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: jsonrpc-glib
+  description: a library to communicate with JSON-RPC based peers in either a synchronous or asynchronous fashion.
+  upstream: https://git.gnome.org/browse/jsonrpc-glib/
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: json_simple
   description: Simple Java toolkit for JSON
   upstream: http://code.google.com/p/json-simple/
@@ -34270,14 +34277,15 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: libvncserver
-  description: ''
+  description: A library for easy implementation of a VNC server.
+  upstream: https://libvnc.github.io/
   branches:
   - name: master
     type: protected
   - name: openEuler-20.09
     type: protected
     create_from: master
-  type: private
+  type: public
 - name: libvoikko
   description: ''
   branches:
@@ -93768,6 +93776,13 @@ repositories:
     type: protected
     create_from: master
   type: private
+- name: template-glib
+  description: a library to help you generate text based on a template and user defined state.
+  upstream: https://git.gnome.org/browse/template-glib/
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: tensorflow
   description: A framework for deep learning
   upstream: https://github.com/tensorflow/tensorflow

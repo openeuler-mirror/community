@@ -3752,7 +3752,6 @@ sigs:
   - src-openeuler/liboil
   - src-openeuler/libomp
   - src-openeuler/libsane-hpaio
-  - src-openeuler/libvncserver
   - src-openeuler/mainline.list
   - src-openeuler/malaga
   - src-openeuler/malaga-suomi-voikko
@@ -7513,6 +7512,9 @@ sigs:
   - src-openeuler/gst-editing-services
   - src-openeuler/python-dbusmock
   - src-openeuler/dleyna-renderer
+  - src-openeuler/libvncserver
+  - src-openeuler/jsonrpc-glib
+  - src-openeuler/template-glib
 - name: sig-desktop-apps
   repositories:
   - src-openeuler/imsettings
