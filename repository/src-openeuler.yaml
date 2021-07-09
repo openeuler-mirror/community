@@ -9400,6 +9400,13 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: aespipe
+  description: AES-based encryption tool for tar/cpio and loop-aes imagemore
+  upstream: http://loop-aes.sourceforge.net/aespipe/
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: ksc-defender
   description: ksc-defender is a terminal tool application for OS security hardening
   upstream: https://gitee.com/openeuler/ksc-defender
