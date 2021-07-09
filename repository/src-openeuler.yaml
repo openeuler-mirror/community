@@ -127391,3 +127391,10 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: oozie
+  description: A work-flow scheduling system for Apache Hadoop.
+  upstream: https://github.com/apache/oozie
+  branches:
+  - name: master
+    type: protected
+  type: public
