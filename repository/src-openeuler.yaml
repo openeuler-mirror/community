@@ -127340,6 +127340,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: gnome-shell-extension-appindicator
+  upstream: https://github.com/ubuntu/gnome-shell-extension-appindicator
+  description: AppIndicator/KStatusNotifierItem support for GNOME Shell
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-jaeger-client
   description: Jaeger Python OpenTracing Tracer implementation
   upstream: https://github.com/jaegertracing/jaeger-client-python
