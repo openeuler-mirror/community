@@ -127021,7 +127021,7 @@ repositories:
   branches:
   - name: master
     type: protected
-  type: public 
+  type: public
 - name: rubygem-gettext
   description:  Ruby-GetText-Package is a Localization(L10n) library and tools which modeled after GNU gettext package.
   upstream: https://github.com/mutoh/gettext
@@ -127116,6 +127116,13 @@ repositories:
 - name: perl-pmtools
   description: This is pmtools -- a suite of small programs to help manage modules.The names are totally preliminary, and in fact, so is the code.  We followthe "keep it small" notion of many tiny tools each doing one thing well,eschewing giant megatools with millions of options.
   upstream: https://metacpan.org/release/pmtools
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: gnome-shell-extension-topicons-plus
+  description: Move all legacy tray icons to the top panel
+  upstream: https://extensions.gnome.org/extension/1031/topicons/
   branches:
   - name: master
     type: protected
