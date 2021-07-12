@@ -84474,6 +84474,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: python-straight-plugin
+  upstream: https://github.com/ironfroggy/straight.plugin
+  description: Python plugin loader inspired by twisted.plugin
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-stuf
   upstream: https://bitbucket.org/lcrees/stuf
   description: Normal, default, ordered, chained, restricted, counter, and frozen
