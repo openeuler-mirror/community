@@ -127572,3 +127572,10 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: nodejs-appium
+  description: An open-source,cross-platfrom test automation tool for native
+  upstream: https://github.com/appium/appium
+  branches:
+  - name: master
+    type: protected
+  type: public
