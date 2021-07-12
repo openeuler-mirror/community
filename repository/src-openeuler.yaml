@@ -127412,3 +127412,10 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: wrk
+  description: A modern HTTP benchmarking tool capable of generating significant load when run on a single multi-core CPU
+  upstream: https://github.com/wg/wrk
+  branches:
+  - name: master
+    type: protected
+  type: public
