@@ -31464,6 +31464,13 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: acme-tiny
+  description: This is a tiny, auditable script that you can throw on your server to issue and renew Let's Encrypt certificates.
+  upstream: https://github.com/diafygi/acme-tiny
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: libmpc
   description: ''
   branches:
