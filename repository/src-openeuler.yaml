@@ -127357,6 +127357,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: ioping
+  upstream:  https://github.com/koct9i/ioping
+  description: Simple disk I/O latency monitoring tool
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: dnf-plugin-ovl
   upstream: https://github.com/FlorianLudwig/dnf-plugin-ovl
   description: Workaround to run dnf on overlayfs. A port of yum-plugin-ovl to dnf.
