@@ -24,7 +24,10 @@
 ### Maintainer列表
   - sinever
   - hubble_zhu
+  - njlzk
   - myeuler
+  - ZhengZhenyu
+  - yangzhao_kl
 
 ### Committer列表
 
