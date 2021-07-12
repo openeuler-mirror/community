@@ -127384,6 +127384,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: gnome-shell-extension-bubblemail
+  upstream: https://framagit.org/razer/bubblemail
+  description: GNOME Shell indicator for new and unread mail using Bubblemail
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: fish
   description: fish is a command line shell.
   upstream: https://github.com/fish-shell/fish-shell/
