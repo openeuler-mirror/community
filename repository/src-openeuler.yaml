@@ -13784,6 +13784,13 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: argbash
+  description: Bash argument parsing code generator.
+  upstream: https://github.com/matejak/argbash
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: gdb
   description: ''
   branches:
