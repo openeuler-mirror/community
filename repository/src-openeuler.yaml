@@ -106,6 +106,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: gedit-control-your-tabs
+  description: A gedit plugin to switch between document tabs using Ctrl+Tab / Ctrl+Shift+Tab (most recently used order or tab row order) and Ctrl+PageUp / Ctrl+PageDown (tab row order)
+  upstream: https://github.com/jefferyto/gedit-control-your-tabs
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: foreman
   description: Systems Management web application
   upstream: https://theforeman.org
