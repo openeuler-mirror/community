@@ -127488,3 +127488,87 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: python-storpool
+  description: Bindings for the StorPool distributed storage API
+  upstream: https://github.com/storpool/python-storpool
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-confget
+  description: Parse configuration files and extract values from them
+  upstream: https://devel.ringlet.net/textproc/confget/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-cinder-tempest-plugin
+  description: Tempest plugin tests for Cinder.
+  upstream: https://opendev.org/openstack/cinder-tempest-plugin
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-ironic-tempest-plugin
+  description: Tempest plugin for ironic and ironic-inspector
+  upstream: https://opendev.org/openstack/ironic-tempest-plugin
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-scripttest
+  description: Helper to test command-line scripts
+  upstream: https://github.com/pypa/scripttest
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-octaviaclient
+  description: Octavia client for OpenStack Load Balancing
+  upstream: https://opendev.org/openstack/python-octaviaclient
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-rbd-iscsi-client
+  description: REST client to talk to rbd-target-api
+  upstream: https://github.com/hemna/rbd-iscsi-client
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-soupsieve
+  description: A modern CSS selector implementation for Beautiful Soup
+  upstream: https://github.com/facelessuser/soupsieve
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-pyxcli
+  description: IBM Python XCLI Client
+  upstream: https://github.com/IBM/pyxcli
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-bunch
+  description: A dot-accessible dictionary (a la JavaScript objects)
+  upstream: https://github.com/dsc/bunch
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-ntc-templates
+  description: TextFSM Templates for Network Devices, and Python wrapper for TextFSM's CliTable.
+  upstream: https://github.com/networktocode/ntc-templates
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-mypy-extensions
+  description: Experimental type system extensions for programs checked with the mypy typechecker
+  upstream: https://github.com/python/mypy_extensions
+  branches:
+  - name: master
+    type: protected
+  type: public
