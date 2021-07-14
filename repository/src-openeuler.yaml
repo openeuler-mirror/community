@@ -72547,6 +72547,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: python-dingz
+  description: Asynchronous Python API client for interacting with dingz devices.
+  upstream: https://github.com/home-assistant-ecosystem/python-dingz
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-docker
   description: A Python library for the Docker Engine API
   branches:
