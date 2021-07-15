@@ -69278,6 +69278,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: python-asysocks
+  description: A Python Socks5/Socks4 client and server library.
+  upstream: https://github.com/skelsec/asysocks
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-atomicwrites
   description: ''
   branches:
