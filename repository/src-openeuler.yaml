@@ -113638,6 +113638,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: dash
+  upstream: http://gondor.apana.org.au/~herbert/dash/
+  description: DASH is a POSIX-compliant implementation of /bin/sh that aims to be as small aspossible. It doeain SHell) for most tasks.
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: hibernate-validator
   description: Bean Validation 1.1 (JSR 349) Reference Implementation
   upstream: http://www.hibernate.org/subprojects/validator.html
