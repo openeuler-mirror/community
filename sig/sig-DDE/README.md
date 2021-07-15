@@ -119,6 +119,8 @@ repository地址：
   - https://gitee.com/src-openeuler/dav1d
   - https://gitee.com/src-openeuler/deepin-draw
   - https://gitee.com/src-openeuler/deepin-screen-recorder
+  - https://gitee.com/src-openeuler/deepin-movie
+  - https://gitee.com/src-openeuler/deepin-music
   - https://gitee.com/src-openeuler/ffmpeg
   - https://gitee.com/src-openeuler/nv-codec-headers
   - https://gitee.com/src-openeuler/opencore-amr

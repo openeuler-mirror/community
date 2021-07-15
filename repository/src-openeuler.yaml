@@ -95652,6 +95652,20 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: deepin-movie
+  description: Deepin movie
+  upstream: https://github.com/linuxdeepin/deepin-movie
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: deepin-music
+  description: Deepin music is a local music player with beautiful design and simple functions developed by Deepin Technology.
+  upstream: https://github.com/linuxdeepin/deepin-music
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: ffmpeg
   description: Digital VCR and streaming server
   upstream: http://ffmpeg.org
