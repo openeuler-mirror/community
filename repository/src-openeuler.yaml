@@ -185,6 +185,13 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: calc
+  description: Calc is an arbitrary precision C-like arithmetic system that is a calculator, an algorithm-prototyper, and a mathematical research tool. Calc comes with a rich set of built-in mathematical and programmatic functions.
+  upstream: https://github.com/lcn2/calc
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: ComputeLibrary
   description: ARM Compute Library
   upstream: https://github.com/ARM-software/ComputeLibrary
