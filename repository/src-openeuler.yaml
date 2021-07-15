@@ -65852,6 +65852,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: potrace
   description: A tool for tracing a bitmap
