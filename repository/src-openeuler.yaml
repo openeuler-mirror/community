@@ -162,7 +162,8 @@ repositories:
     create_from: master
   type: public
 - name: CUnit
-  description: ''
+  description: CUnit is a lightweight system for writing, administering, and running unit tests in C.  It provides C programmers a basic testing functionality with a flexible variety of user interfaces.
+  upstream: http://cunit.sourceforge.net/
   branches:
   - name: master
     type: protected
