@@ -928,3 +928,21 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: PilotGo
+  description: PilotGo is a plugable operation platform written in go.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: PilotGo-plugins
+  description: PilotGo-plugins contains plugins for PilotGo.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: PilotGo-web
+  description: PilotGo-web contains web frontend for PilotGo.
+  branches:
+  - name: master
+    type: protected
+  type: public
