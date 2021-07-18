@@ -66858,6 +66858,13 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: python-httpx
+  description: HTTPX is a fully featured HTTP client for Python 3, which provides sync and async APIs, and support for both HTTP/1.1 and HTTP/2.
+  upstream: https://github.com/encode/httpx
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-ATpy
   upstream: http://atpy.readthedocs.org/
   description: Astronomical Tables in Python
