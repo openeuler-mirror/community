@@ -127375,6 +127375,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: gnome-shell-extension-desktop-icons
+  upstream: https://gitlab.gnome.org/World/ShellExtensions/desktop-icons
+  description: GNOME Shell extension for providing desktop icons
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: seqtk
   upstream: https://github.com/lh3/seqtk
   description: Toolkit for processing sequences in FASTA/Q formats.
