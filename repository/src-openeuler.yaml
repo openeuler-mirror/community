@@ -127763,3 +127763,10 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: canal
+  description: MySQL Binlog Incremental Subscription & Consuming Components 
+  upstream: https://github.com/alibaba/canal
+  branches:
+  - name: master
+    type: protected
+  type: public
