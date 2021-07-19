@@ -127770,3 +127770,10 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: predixy
+  description: Predixy is a high performance and fully featured proxy for redis sentinel and redis cluster.
+  upstream: https://github.com/joyieldInc/predixy
+  branches:
+  - name: master
+    type: protected
+  type: public
