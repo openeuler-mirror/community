@@ -68228,6 +68228,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: autossh
+  description: Utility to autorestart SSH tunnels.
+  upstream: https://www.harding.motd.ca/autossh
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-XStatic-roboto-fontface
   upstream: https://github.com/choffmeister/roboto-fontface-bower
   description: roboto-fontface 0.5.0 (XStatic packaging standard)
