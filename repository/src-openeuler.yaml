@@ -127661,3 +127661,10 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: neo4j
+  description: Neo4j is a database that stores data as graphs rather that tables.
+  upstream: https://github.com/neo4j/neo4j
+  branches:
+  - name: master
+    type: protected
+  type: public
