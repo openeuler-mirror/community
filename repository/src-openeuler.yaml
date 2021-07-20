@@ -127424,6 +127424,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: gnome-shell-theme-flat-remix
+  upstream: https://github.com/daniruiz/flat-remix-gnome
+  description: Flat Remix GNOME theme is a pretty simple shell theme inspired on material design following a modern design using "flat" colors with high contrasts and sharp borders.
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-jaeger-client
   description: Jaeger Python OpenTracing Tracer implementation
   upstream: https://github.com/jaegertracing/jaeger-client-python
