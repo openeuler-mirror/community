@@ -58,6 +58,20 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: nexus
+  description: Libraries and tools for the Nexus scientific data file format
+  upstream: http://www.nexusformat.org/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: mxml
+  description: Mini-XML Tiny XML Library
+  upstream: http://www.msweet.org/mxml
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: nvwa
   description: A daemon process for kernel online update
   upstream: https://gitee.com/openeuler/nvwa
