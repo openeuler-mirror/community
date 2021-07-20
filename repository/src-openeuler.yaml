@@ -127462,6 +127462,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: gnome-shell-extension-dash-to-dock
+  upstream: https://github.com/micheleg/dash-to-dock
+  description: A dock for the GNOME Shell
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: firesim
   upstream: https://github.com/firesim/firesim 
   description: FireSim is an open-source cycle-accurate FPGA-accelerated full-system hardware simulation platform that runs on cloud FPGAs. 
