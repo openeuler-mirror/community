@@ -44860,6 +44860,14 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: percona-xtrabackup
+  upstream: https://github.com/percona/percona-xtrabackup/
+  description: Percona XtraBackup is an open-source hot backup utility
+    for MySQL-based servers that doesn't lock the database during the backup.
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: perftest
   description: ''
   branches:
