@@ -127142,6 +127142,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: gnome-shell-extension-caffeine
+  upstream: https://github.com/eonpatapon/gnome-shell-extension-caffeine
+  description: Disable the screen saver and auto suspend in gnome shell
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: rubygem-safemode
   upstream: https://github.com/svenfuchs/safemode
   description: A library for safe evaluation of Ruby code based on RubyParser and Ruby2Ruby. Provides Rails ActionView template handlers for ERB and Haml.
