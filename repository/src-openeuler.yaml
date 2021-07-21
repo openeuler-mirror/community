@@ -98958,6 +98958,48 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: libcue
+  description: Cue sheet parser library
+  upstream: https://github.com/lipnitsk/libcue
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: ffmpegthumbnailer
+  description: Lightweight video thumbnailer that can be used by file managers
+  upstream: Lightweight video thumbnailer that can be used by file managers
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: mpv
+  description: mpv is a free (as in freedom) media player for the command line
+  upstream: https://github.com/mpv-player/mpv
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubberband
+  description: Audio time-stretching and pitch-shifting library
+  upstream: http://www.breakfastquay.com/rubberband/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: libguess
+  description: High-speed character set detection library
+  upstream: http://rabbit.dereferenced.org/~nenolod/distfiles/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: vamp-plugin-sdk
+  description: An API for audio analysis and feature extraction plugins
+  upstream: http://www.vamp-plugins.org/
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: meld
   description: Meld is a visual diff and merge tool targeted at developers.
   upstream: https://gitlab.gnome.org/GNOME/meld
