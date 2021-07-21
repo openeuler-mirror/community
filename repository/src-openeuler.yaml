@@ -127693,3 +127693,10 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: activemq
+  description: The most popular and powerful open source messaging and Integration Patterns server.
+  upstream: http://activemq.apache.org
+  branches:
+  - name: master
+    type: protected
+  type: public
