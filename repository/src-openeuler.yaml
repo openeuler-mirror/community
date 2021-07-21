@@ -127462,6 +127462,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: gnome-shell-extension-pop-shell
+  upstream: https://github.com/pop-os/shell.git
+  description: GNOME Shell extension for advanced tiling window management
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: bgenix
   upstream: https://enkre.net/cgi-bin/code/bgen/wiki/bgenix
   description: a tool to create an index of variants in a bgen file and to use that index for efficient retrieval of data for specific variants or regions.
