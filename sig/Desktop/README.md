@@ -1,4 +1,4 @@
-# Desktop
+﻿# Desktop
 
 - 引入桌面和图形相关的公共组件到openEuler社区，支持第三方桌面应用平稳运行。
 - 引入易用的桌面应用，使开发者能更高效的在openEuler上编码
@@ -23,6 +23,7 @@
 - 夏森林[@small_leek](https://gitee.com/small_leek)
 - 丁文龙[@dwl301](https://gitee.com/dwl301)
 - 魏东 [@weidongkl](https://gitee.com/weidongkl)
+- 窦龑 [@dou33](https://gitee.com/dou33)
 
 
 ### Committer列表
