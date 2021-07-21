@@ -87603,6 +87603,20 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: libdbusextended-qt5
+  description: 'Extended DBus for Qt'
+  upstream: https://github.com/nemomobile/qtdbusextended
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: libmpris-qt5
+  description: 'Qt and QML MPRIS interface and adaptor'
+  upstream: https://git.merproject.org/mer-core/qtmpris
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: qt5-qtbase
   description: ''
   branches:
