@@ -6825,6 +6825,13 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: waf
+  description: 'A Python-based build system'
+  upstream: https://gitlab.com/ita1024/waf
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: cmake_modules
   description: cmake_modules package that belongs to THE ROS-COMM
   upstream: https://github.com/ros/cmake_modules
