@@ -92501,6 +92501,7 @@ repositories:
   type: public
 - name: spice-parent
   description: Sonatype Spice Componment.
+  upstream: http://github.com/sonatype/oss-parents
   branches:
   - name: master
     type: protected
@@ -92516,7 +92517,7 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
-  type: private
+  type: public
 - name: spice-protocol
   description: ''
   branches:
