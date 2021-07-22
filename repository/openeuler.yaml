@@ -595,6 +595,12 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: gcc
+  description: gcc is a generic and open source compiler
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: wayca-scheduler
   rename_from: wayca-deployer
   description: wayca-scheduler is an userspace deployment tool for tasks and interrupts to achieve better performance
