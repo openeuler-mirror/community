@@ -72,3 +72,4 @@ repository地址：
 - https://gitee.com/src-openeuler/bgenix
 - https://gitee.com/src-openeuler/Control-FREEC
 - https://gitee.com/src-openeuler/bcftools
+- https://gitee.com/src-openeuler/ncbi-blast

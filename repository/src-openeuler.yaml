@@ -127588,6 +127588,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: ncbi-blast
+  description: NCBI BLAST finds regions of similarity between biological sequences.
+  upstream: https://blast.ncbi.nlm.nih.gov/Blast.cgi
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: xbanish
   upstream: https://github.com/jcs/xbanish
   description: xbanish hides the mouse cursor when you start typing, and shows it again when the mouse cursor moves or a mouse button is pressed
