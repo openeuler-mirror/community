@@ -199,6 +199,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: azote
+  description: Azote is a GTK+3 - based picture browser and background setter
+  upstream: https://github.com/nwg-piotr/azote
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: Cython
   description: ''
   branches:
