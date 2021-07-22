@@ -1020,6 +1020,13 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: pkgdiff
+  description: A tool for visualizing changes in Linux software packages 
+  upstream: https://github.com/lvc/pkgdiff
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: abrt
   description: ''
   branches:
