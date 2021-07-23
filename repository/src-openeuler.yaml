@@ -127477,6 +127477,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: gnome-shell-extension-system-monitor-applet
+  description: Display system informations in gnome shell status bar, such as memory usage, cpu usage, network rates…
+  upstream: https://extensions.gnome.org/extension/120/system-monitor/
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: gnome-shell-extension-appindicator
   upstream: https://github.com/ubuntu/gnome-shell-extension-appindicator
   description: AppIndicator/KStatusNotifierItem support for GNOME Shell
