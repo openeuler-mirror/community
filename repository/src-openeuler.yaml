@@ -41755,6 +41755,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: ocaml-cppo
+  description: Equivalent of the C preprocessor for OCaml programs
+  upstream: https://github.com/ocaml-community/cppo/
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: ocaml-csv
   description: A pure OCaml library to read and write CSV files
   upstream: https://github.com/Chris00/ocaml-csv/
