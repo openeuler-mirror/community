@@ -127770,9 +127770,100 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: python-saharaclient
+  description: Python bindings and CLI for Sahara.
+  upstream: https://opendev.org/openstack/python-saharaclient
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: predixy
   description: Predixy is a high performance and fully featured proxy for redis sentinel and redis cluster.
   upstream: https://github.com/joyieldInc/predixy
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-zunclient
+  description: Containers Service (Zun) Client.
+  upstream: https://opendev.org/openstack/python-zunclient
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-manilaclient
+  description: Python bindings to the OpenStack Manila API.
+  upstream: https://opendev.org/openstack/python-manilaclient
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-aodhclient
+  description: Python bindings to the OpenStack Aodh API.
+  upstream: https://opendev.org/openstack/python-aodhclient
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-nocasedict
+  description: A case-insensitive ordered dictionary for Python.
+  upstream: https://github.com/pywbem/nocasedict
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-nocaselist
+  description: A case-insensitive list for Python.
+  upstream: https://github.com/pywbem/nocaselist
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-yamlloader
+  description: Ordered YAML loader and dumper for PyYAML.
+  upstream: https://github.com/Phynix/yamlloader
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-infi.dtypes.wwn
+  description: Datatype for FiberChannel World Wide Name.
+  upstream: https://github.com/Infinidat/infi.dtypes.wwn
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-confluent-kafka
+  description: Confluent's Python client for Apache Kafka.
+  upstream: https://github.com/confluentinc/confluent-kafka-python
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-xmlschema
+  description: XML Schema validator and data conversion library for Python.
+  upstream: https://github.com/sissaschool/xmlschema
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-elementpath
+  description: XPath 1.0/2.0 parsers and selectors for ElementTree and lxml
+  upstream: https://github.com/sissaschool/elementpath
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-storops
+  description: Python storage management library for VNX and Unity.
+  upstream: https://github.com/emc-openstack/storops
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-hidapi
+  description: A Cython interface to the hidapi.
+  upstream: https://github.com/libusb/hidapi
   branches:
   - name: master
     type: protected
