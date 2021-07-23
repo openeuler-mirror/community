@@ -127303,6 +127303,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: gnome-shell-extension-gsconnect
+  upstream: https://github.com/andyholmes/gnome-shell-extension-gsconnect
+  description: KDE Connect implementation for GNOME Shell
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: gnome-shell-extension-topicons-plus
   description: Move all legacy tray icons to the top panel
   upstream: https://extensions.gnome.org/extension/1031/topicons/
