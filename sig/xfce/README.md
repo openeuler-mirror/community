@@ -22,7 +22,7 @@ Xfce是一个轻量级的类Unix的桌面系统。Xfce的设计目的如其创�
 - 陈棋德[@dillon_chen](https://gitee.com/dillon_chen)
 
 ### Committers列表
-
+- 赖勋[@chainsx](https://gitee.com/chainsx)
 
 # 联系方式
 
