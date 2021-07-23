@@ -127882,3 +127882,115 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: lxde-common
+  description: Default configuration files for LXDE.
+  upstream: https://github.com/lxde/lxde-common
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: lxde-icon-theme
+  description: Default icon theme for LXDE.
+  upstream: https://github.com/lxde/lxde-icon-theme
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: lxdm
+  description: Lightweight X11 Display Manager
+  upstream: https://sourceforge.net/projects/lxde/files/lxdm
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: lxinput
+  description: Keyboard and mouse settings dialog for LXDE.
+  upstream: https://github.com/lxde/lxinput
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: lxmenu-data
+  description: Data files for the LXDE menu.
+  upstream: https://github.com/lxde/lxmenu-data
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: lxtask
+  description: Lightweight and desktop independent task manager.
+  upstream: https://github.com/lxde/lxtask
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: lxappearance
+  description: Feature-rich GTK+ theme switcher for LXDE.
+  upstream: https://github.com/lxde/lxappearance
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: lxhotkey
+  description: Hotkeys management utility.
+  upstream: https://github.com/lxde/lxhotkey
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: lxlauncher
+  description: Open source replacement for Launcher on the EeePC.
+  upstream: https://github.com/lxde/lxlauncher
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: lxpanel
+  description: A lightweight X11 desktop panel.
+  upstream: https://github.com/lxde/lxpanel
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: lxshortcut
+  description: Small utility to edit application shortcuts.
+  upstream: https://sourceforge.net/projects/lxde/files/LXShortcut (edit app shortcut)
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: lxterminal
+  description: Desktop-independent VTE-based terminal emulator.
+  upstream: https://github.com/lxde/lxterminal
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: pcmanfm
+  description: Extremly fast and lightweight file manager.
+  upstream: https://github.com/lxde/pcmanfm
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: libfm
+  description: GIO-based library for file manager-like programs.
+  upstream: https://github.com/lxde/libfm
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: menu-cache
+  description: Caching mechanism for freedesktop.org compliant menus.
+  upstream: https://github.com/lxde/menu-cache
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: libudfread
+  description: UDF reader library.
+  upstream: https://code.videolan.org/videolan/libudfread
+  branches:
+  - name: master
+    type: protected
+  type: public
