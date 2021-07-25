@@ -58468,6 +58468,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: perl-RPM2
+  description: The RPM2 module provides an object-oriented interface to querying both the installed RPM database as well as files on the filesystem, providing Perl bindings for the RPM Package Manager API.
+  upstream: https://metacpan.org/pod/RPM2
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: perl-Scalar-Construct
   upstream: http://search.cpan.org/dist/Scalar-Construct/
   description: Build custom kinds of scalar
