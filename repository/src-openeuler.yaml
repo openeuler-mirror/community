@@ -427,6 +427,13 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: cli11
+  description: CLI11 is a command line parser for C++11 and beyond that provides a rich feature set with a simple and intuitive interface
+  upstream: https://github.com/CLIUtils/CLI11
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: ImageMagick
   description: ''
   branches:
