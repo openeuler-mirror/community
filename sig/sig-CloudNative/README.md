@@ -94,6 +94,7 @@ repository地址：
 - https://gitee.com/src-openeuler/libcgroup
 - https://gitee.com/src-openeuler/libnetwork
 - https://gitee.com/src-openeuler/harbor
+- https://gitee.com/src-openeuler/catatonit
 
 roadmap:
 ```
