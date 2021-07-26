@@ -22754,6 +22754,13 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: inih
+  upstream: https://github.com/benhoyt/inih
+  description: Simple INI file parser library
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: iniparser
   description: ini file parser
   upstream: https://github.com/ndevilla/iniparser
