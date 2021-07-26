@@ -127690,6 +127690,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: gnome-shell-extension-disconnect-wifi
+  upstream: https://github.com/kgshank/gse-disconnect-wifi
+  description: Adds a Disconnect option for Wifi in status menu, when a network is connected.  Shows a Reconnect option, after network is disconnected.
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: bgenix
   upstream: https://enkre.net/cgi-bin/code/bgen/wiki/bgenix
   description: a tool to create an index of variants in a bgen file and to use that index for efficient retrieval of data for specific variants or regions.
