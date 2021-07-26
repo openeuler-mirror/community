@@ -763,6 +763,13 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: czmq
+  description: To wrap the ZeroMQ core API in semantics that are natural and lead to shorter, more readable applications
+  upstream: http://czmq.zeromq.org
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: SDL2
   description: ''
   branches:
