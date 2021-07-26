@@ -127509,6 +127509,13 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: qstardict
+  upstream: http://qstardict.ylsoftware.com/
+  description: StarDict clone written using Qt
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: cjson 
   upstream: https://github.com/DaveGamble/cJSON
   description: cJSON aims to be the dumbest possible parser that you can get your job done with. It's a single file of C, and a single header file.
