@@ -127523,6 +127523,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: stardict
+  upstream: http://stardict-4.sourceforge.net/
+  description: A powerful dictionary platform written in GTK+2
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: bedops
   upstream: https://github.com/bedops/bedops
   description: a suite of tools to address common questions raised in genomic studies.
