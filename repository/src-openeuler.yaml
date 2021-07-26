@@ -13537,6 +13537,13 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: gamemode
+  upstream: https://github.com/FeralInteractive/gamemode
+  description: Optimize system performance for games on demand
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: game-music-emu
   description: Video game music file emulation/playback library,Demo player utilizing
     Game_Music_Emu
