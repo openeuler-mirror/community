@@ -113,6 +113,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: fswatch
+  description: fswatch is a cross-platform file change monitor
+  upstream: https://github.com/emcrisostomo/fswatch
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: foreman
   description: Systems Management web application
   upstream: https://theforeman.org
