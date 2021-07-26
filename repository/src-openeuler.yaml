@@ -128382,6 +128382,27 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: python-faust
+  description: Python Stream Processing.
+  upstream: https://github.com/robinhood/faust
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-aiohttp
+  description: Asynchronous HTTP client/server framework for asyncio and Python.
+  upstream: https://github.com/aio-libs/aiohttp
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-mode
+  description: Python AsyncIO Services
+  upstream: https://github.com/ask/mode
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-xmlschema
   description: XML Schema validator and data conversion library for Python.
   upstream: https://github.com/sissaschool/xmlschema
