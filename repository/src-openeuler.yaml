@@ -90049,6 +90049,20 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: crun
+  description: CRUN is a runtime for running OCI containers.
+  upstream: https://github.com/containers/crun
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: containers-common
+  description: This package contains common configuration files and documentation for container tools ecosystem.
+  upstream: https://github.com/containers/common
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: rubygem-erubis
   description: A fast and extensible eRuby implementation
   upstream: http://www.kuwata-lab.com/erubis/
