@@ -127634,6 +127634,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: arp-scan
+  upstream: http://www.nta-monitor.com/tools/arp-scan/
+  description: arp-scan is a command-line tool that uses the ARP protocol to discover and fingerprint IP hosts on the local network.
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: tldr
   upstream: https://github.com/tldr-pages/tldr-python-client
   description: A Python command line client for tldr - Simplified and community-driven
