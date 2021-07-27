@@ -13,7 +13,7 @@ SC的使命：为openEuler用户提供最安全的产品和开发环境。
 
 # 组织会议
 
-- 公开的会议时间：北京时间，每周三 下午，16:00点~18:00点
+- 公开的会议时间：北京时间，双周三 下午，16:00点~18:00点
 - 会议参与方式：提前一天在openEuler社区会议系统发布会议通知
 - SC会议的例行议题包括：
     + 社区漏洞处理进展跟踪
@@ -28,13 +28,15 @@ SC的使命：为openEuler用户提供最安全的产品和开发环境。
 ### SC成员列表
 
 - <liujingang09@huawei.com> [[@liujingang09](https://gitee.com/liujingang09)]
-- <runningforever@gmail.com> [[@yangli69393](https://gitee.com/yangli69393)]
 - <yanxiaobing@huawei.com> [[@yanxiaobing2020](https://gitee.com/yanxiaobing2020)]
 - <zhujianwei7@huawei.com> [[@zhujianwei001](https://gitee.com/zhujianwei001)]
 - <11015100@qq.com> [[@gwei3](https://gitee.com/gwei3)]
 - <guoxiaoqi2@huawei.com> [[@guoxiaoqi](https://gitee.com/guoxiaoqi)]
 - <yanglijin@huawei.com> [[@jinjin](https://gitee.com/jinjin)]
+- <cuilei@kylinos.cn> [[@kylincuilei](https://gitee.com/kylincuilei)]
 
+### 2021年 SC成员变更历史
+- 杨丽 [[@yangli69393](https://gitee.com/yangli69393)]于2021年7月卸任，崔雷接替SC委员工作。
 
 # 联系方式
 

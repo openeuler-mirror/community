@@ -58,6 +58,20 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: nexus
+  description: Libraries and tools for the Nexus scientific data file format
+  upstream: http://www.nexusformat.org/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: mxml
+  description: Mini-XML Tiny XML Library
+  upstream: http://www.msweet.org/mxml
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: nvwa
   description: A daemon process for kernel online update
   upstream: https://gitee.com/openeuler/nvwa
@@ -113,6 +127,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: fswatch
+  description: fswatch is a cross-platform file change monitor
+  upstream: https://github.com/emcrisostomo/fswatch
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: foreman
   description: Systems Management web application
   upstream: https://theforeman.org
@@ -127,9 +148,23 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: git-cola
+  description: git-cola is a powerful git GUI with a slick and intuitive user interface
+  upstream: https://git-cola.github.io
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: foreman-proxy
   description: Restful Proxy for DNS, DHCP, TFTP, PuppetCA and Puppet
   upstream: https://theforeman.org/projects/smart-proxy
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: mysqltuner
+  description: MySQLTuner is a script written in Perl that will assist you with your MySQL configuration and make recommendations for increased performance and stability. Within seconds, it will display statistics about your MySQL installation and the areas where it can be improved
+  upstream: https://github.com/major/MySQLTuner-perl
   branches:
   - name: master
     type: protected
@@ -186,6 +221,13 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: calc
+  description: Calc is an arbitrary precision C-like arithmetic system that is a calculator, an algorithm-prototyper, and a mathematical research tool. Calc comes with a rich set of built-in mathematical and programmatic functions.
+  upstream: https://github.com/lcn2/calc
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: ComputeLibrary
   description: ARM Compute Library
   upstream: https://github.com/ARM-software/ComputeLibrary
@@ -198,6 +240,13 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  type: public
+- name: azote
+  description: Azote is a GTK+3 - based picture browser and background setter
+  upstream: https://github.com/nwg-piotr/azote
+  branches:
+  - name: master
+    type: protected
   type: public
 - name: Cython
   description: ''
@@ -242,6 +291,13 @@ repositories:
     type: protected
     create_from: master
   type: private
+- name: git-review
+  description: An extension for source control system Git that creates and manages review requests in the patch management system Gerrit
+  upstream: https://opendev.org/opendev/git-review 
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: filebench
   description: Filebench is a file system and storage benchmark that can generate
     a large variety of workloads.
@@ -384,6 +440,13 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  type: public
+- name: cli11
+  description: CLI11 is a command line parser for C++11 and beyond that provides a rich feature set with a simple and intuitive interface
+  upstream: https://github.com/CLIUtils/CLI11
+  branches:
+  - name: master
+    type: protected
   type: public
 - name: ImageMagick
   description: ''
@@ -756,6 +819,13 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: czmq
+  description: To wrap the ZeroMQ core API in semantics that are natural and lead to shorter, more readable applications
+  upstream: http://czmq.zeromq.org
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: SDL2
   description: ''
   branches:
@@ -1012,6 +1082,13 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  type: public
+- name: pkgdiff
+  description: A tool for visualizing changes in Linux software packages 
+  upstream: https://github.com/lvc/pkgdiff
+  branches:
+  - name: master
+    type: protected
   type: public
 - name: abrt
   description: ''
@@ -3137,11 +3214,8 @@ repositories:
   description: ''
   branches:
   - name: master
-    type: protected
+    type: readonly
   - name: openEuler-20.03-LTS-SP1
-    type: protected
-    create_from: master
-  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   - name: openEuler-20.09
@@ -3491,6 +3565,13 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: amavis
+  description: Email filter with virus scanner and spamassassin support.
+  upstream: https://gitlab.com/amavis/amavis
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: autofs
   description: ''
   branches:
@@ -3758,6 +3839,13 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  type: public
+- name: alpine
+  description: powerful, easy to use console email client.
+  upstream: http://alpine.x10host.com/
+  branches:
+  - name: master
+    type: protected
   type: public
 - name: babeltrace
   description: ''
@@ -6824,6 +6912,13 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  type: public
+- name: waf
+  description: 'A Python-based build system'
+  upstream: https://gitlab.com/ita1024/waf
+  branches:
+  - name: master
+    type: protected
   type: public
 - name: cmake_modules
   description: cmake_modules package that belongs to THE ROS-COMM
@@ -16461,6 +16556,13 @@ repositories:
   - name: openEuler-20.03-LTS
     type: protected
     create_from: master
+  type: public
+- name: abduco
+  description: abduco provides session management i.e. it allows programs to be run independently from its controlling terminal. That is programs can be detached - run in the background - and then later reattached.
+  upstream: https://github.com/martanne/abduco
+  branches:
+  - name: master
+    type: protected
   type: public
 - name: golang-github-d2g-dhcp4
   description: ''
@@ -41664,9 +41766,6 @@ repositories:
   branches:
   - name: master
     type: protected
-  - name: openEuler-20.09
-    type: protected
-    create_from: master
   type: public
 - name: ocaml
   description: ''
@@ -41733,6 +41832,13 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  type: public
+- name: ocaml-cppo
+  description: Equivalent of the C preprocessor for OCaml programs
+  upstream: https://github.com/ocaml-community/cppo/
+  branches:
+  - name: master
+    type: protected
   type: public
 - name: ocaml-csv
   description: A pure OCaml library to read and write CSV files
@@ -43971,6 +44077,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: unboundid-ldapsdk
+  description: 'The UnboundID LDAP SDK for Java is a fast, powerful, user-friendly, and completely free Java library for communicating with LDAP directory servers'
+  upstream: https://ldap.com/unboundid-ldap-sdk-for-java/
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: p11-kit
   description: ''
   branches:
@@ -44859,6 +44972,14 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  type: public
+- name: percona-xtrabackup
+  upstream: https://github.com/percona/percona-xtrabackup/
+  description: Percona XtraBackup is an open-source hot backup utility
+    for MySQL-based servers that doesn't lock the database during the backup.
+  branches:
+  - name: master
+    type: protected
   type: public
 - name: perftest
   description: ''
@@ -58428,6 +58549,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: perl-RPM2
+  description: The RPM2 module provides an object-oriented interface to querying both the installed RPM database as well as files on the filesystem, providing Perl bindings for the RPM Package Manager API.
+  upstream: https://metacpan.org/pod/RPM2
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: perl-Scalar-Construct
   upstream: http://search.cpan.org/dist/Scalar-Construct/
   description: Build custom kinds of scalar
@@ -65853,6 +65981,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: potrace
   description: A tool for tracing a bitmap
@@ -66680,6 +66811,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: python-adb-shell
+  description: Python package implements ADB shell and FileSync functionality.
+  upstream: https://github.com/JeffLIrion/adb_shell
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: pyorbit
   description: ''
   branches:
@@ -66857,6 +66995,13 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  type: public
+- name: python-httpx
+  description: HTTPX is a fully featured HTTP client for Python 3, which provides sync and async APIs, and support for both HTTP/1.1 and HTTP/2.
+  upstream: https://github.com/encode/httpx
+  branches:
+  - name: master
+    type: protected
   type: public
 - name: python-ATpy
   upstream: http://atpy.readthedocs.org/
@@ -68265,6 +68410,13 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
+  type: public
+- name: autossh
+  description: Utility to autorestart SSH tunnels.
+  upstream: https://www.harding.motd.ca/autossh
+  branches:
+  - name: master
+    type: protected
   type: public
 - name: python-XStatic-roboto-fontface
   upstream: https://github.com/choffmeister/roboto-fontface-bower
@@ -72551,6 +72703,13 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  type: public
+- name: python-dingz
+  description: Asynchronous Python API client for interacting with dingz devices.
+  upstream: https://github.com/home-assistant-ecosystem/python-dingz
+  branches:
+  - name: master
+    type: protected
   type: public
 - name: python-docker
   description: A Python library for the Docker Engine API
@@ -87564,6 +87723,20 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: libdbusextended-qt5
+  description: 'Extended DBus for Qt'
+  upstream: https://github.com/nemomobile/qtdbusextended
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: libmpris-qt5
+  description: 'Qt and QML MPRIS interface and adaptor'
+  upstream: https://git.merproject.org/mer-core/qtmpris
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: qt5-qtbase
   description: ''
   branches:
@@ -89893,6 +90066,20 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  type: public
+- name: crun
+  description: CRUN is a runtime for running OCI containers.
+  upstream: https://github.com/containers/crun
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: containers-common
+  description: This package contains common configuration files and documentation for container tools ecosystem.
+  upstream: https://github.com/containers/common
+  branches:
+  - name: master
+    type: protected
   type: public
 - name: rubygem-erubis
   description: A fast and extensible eRuby implementation
@@ -98925,6 +99112,48 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  type: public
+- name: libcue
+  description: Cue sheet parser library
+  upstream: https://github.com/lipnitsk/libcue
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: ffmpegthumbnailer
+  description: Lightweight video thumbnailer that can be used by file managers
+  upstream: Lightweight video thumbnailer that can be used by file managers
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: mpv
+  description: mpv is a free (as in freedom) media player for the command line
+  upstream: https://github.com/mpv-player/mpv
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubberband
+  description: Audio time-stretching and pitch-shifting library
+  upstream: http://www.breakfastquay.com/rubberband/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: libguess
+  description: High-speed character set detection library
+  upstream: http://rabbit.dereferenced.org/~nenolod/distfiles/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: vamp-plugin-sdk
+  description: An API for audio analysis and feature extraction plugins
+  upstream: http://www.vamp-plugins.org/
+  branches:
+  - name: master
+    type: protected
   type: public
 - name: meld
   description: Meld is a visual diff and merge tool targeted at developers.
@@ -126984,6 +127213,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: utf8cpp
+  description: Header files for utf8cpp
+  upstream: https://github.com/nemtrif/utfcpp
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: rubygem-jwt
   upstream: https://github.com/jwt/ruby-jwt
   description: A pure ruby implementation of the RFC 7519 OAuth JSON Web Token (JWT) standard.
@@ -127099,6 +127335,13 @@ repositories:
 - name: rubygem-roadie-rails
   upstream: https://github.com/Mange/roadie-rails
   description: Hooks Roadie into your Rails application to help with email generation.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: gnome-shell-extension-caffeine
+  upstream: https://github.com/eonpatapon/gnome-shell-extension-caffeine
+  description: Disable the screen saver and auto suspend in gnome shell
   branches:
   - name: master
     type: protected
@@ -127225,6 +127468,13 @@ repositories:
 - name: rubygem-sassc
   description:  libsass command line driver.
   upstream: https://github.com/sass/sassc
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-oj
+  description:  A fast JSON parser and serializer.
+  upstream: https://github.com/ohler55/oj
   branches:
   - name: master
     type: protected
@@ -127396,9 +127646,23 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: gnome-shell-extension-system-monitor-applet
+  description: Display system informations in gnome shell status bar, such as memory usage, cpu usage, network rates…
+  upstream: https://extensions.gnome.org/extension/120/system-monitor/
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: gnome-shell-extension-appindicator
   upstream: https://github.com/ubuntu/gnome-shell-extension-appindicator
   description: AppIndicator/KStatusNotifierItem support for GNOME Shell
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: gnome-shell-theme-flat-remix
+  upstream: https://github.com/daniruiz/flat-remix-gnome
+  description: Flat Remix GNOME theme is a pretty simple shell theme inspired on material design following a modern design using "flat" colors with high contrasts and sharp borders.
   branches:
   - name: master
     type: protected
@@ -127423,6 +127687,20 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: gnome-shell-extension-pop-shell
+  upstream: https://github.com/pop-os/shell.git
+  description: GNOME Shell extension for advanced tiling window management
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: gnome-shell-extension-disconnect-wifi
+  upstream: https://github.com/kgshank/gse-disconnect-wifi
+  description: Adds a Disconnect option for Wifi in status menu, when a network is connected.  Shows a Reconnect option, after network is disconnected.
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: bgenix
   upstream: https://enkre.net/cgi-bin/code/bgen/wiki/bgenix
   description: a tool to create an index of variants in a bgen file and to use that index for efficient retrieval of data for specific variants or regions.
@@ -127430,9 +127708,23 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: gnome-shell-extension-dash-to-dock
+  upstream: https://github.com/micheleg/dash-to-dock
+  description: A dock for the GNOME Shell
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: firesim
   upstream: https://github.com/firesim/firesim 
   description: FireSim is an open-source cycle-accurate FPGA-accelerated full-system hardware simulation platform that runs on cloud FPGAs. 
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: arp-scan
+  upstream: http://www.nta-monitor.com/tools/arp-scan/
+  description: arp-scan is a command-line tool that uses the ARP protocol to discover and fingerprint IP hosts on the local network.
   branches:
   - name: master
     type: protected
@@ -127486,6 +127778,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: ncbi-blast
+  description: NCBI BLAST finds regions of similarity between biological sequences.
+  upstream: https://blast.ncbi.nlm.nih.gov/Blast.cgi
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: xbanish
   upstream: https://github.com/jcs/xbanish
   description: xbanish hides the mouse cursor when you start typing, and shows it again when the mouse cursor moves or a mouse button is pressed
@@ -127508,8 +127807,15 @@ repositories:
     type: protected
   type: public
 - name: gnome-shell-extension-bubblemail
-  upstream: https://framagit.org/razer/bubblemail
+  upstream: https://framagit.org/razer/bubblemail-gnome-shell
   description: GNOME Shell indicator for new and unread mail using Bubblemail
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: bubblemail
+  upstream: https://framagit.org/razer/bubblemail
+  description: Extensible mail notification service
   branches:
   - name: master
     type: protected
@@ -127636,6 +127942,251 @@ repositories:
 - name: nodejs-appium
   description: An open-source,cross-platfrom test automation tool for native
   upstream: https://github.com/appium/appium
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: neo4j
+  description: Neo4j is a database that stores data as graphs rather that tables.
+  upstream: https://github.com/neo4j/neo4j
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: activemq
+  description: The most popular and powerful open source messaging and Integration Patterns server.
+  upstream: http://activemq.apache.org
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: canal
+  description: MySQL Binlog Incremental Subscription & Consuming Components 
+  upstream: https://github.com/alibaba/canal
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-saharaclient
+  description: Python bindings and CLI for Sahara.
+  upstream: https://opendev.org/openstack/python-saharaclient
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: predixy
+  description: Predixy is a high performance and fully featured proxy for redis sentinel and redis cluster.
+  upstream: https://github.com/joyieldInc/predixy
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-zunclient
+  description: Containers Service (Zun) Client.
+  upstream: https://opendev.org/openstack/python-zunclient
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-manilaclient
+  description: Python bindings to the OpenStack Manila API.
+  upstream: https://opendev.org/openstack/python-manilaclient
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-aodhclient
+  description: Python bindings to the OpenStack Aodh API.
+  upstream: https://opendev.org/openstack/python-aodhclient
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-nocasedict
+  description: A case-insensitive ordered dictionary for Python.
+  upstream: https://github.com/pywbem/nocasedict
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-nocaselist
+  description: A case-insensitive list for Python.
+  upstream: https://github.com/pywbem/nocaselist
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-yamlloader
+  description: Ordered YAML loader and dumper for PyYAML.
+  upstream: https://github.com/Phynix/yamlloader
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-infi.dtypes.wwn
+  description: Datatype for FiberChannel World Wide Name.
+  upstream: https://github.com/Infinidat/infi.dtypes.wwn
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-confluent-kafka
+  description: Confluent's Python client for Apache Kafka.
+  upstream: https://github.com/confluentinc/confluent-kafka-python
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-xmlschema
+  description: XML Schema validator and data conversion library for Python.
+  upstream: https://github.com/sissaschool/xmlschema
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-elementpath
+  description: XPath 1.0/2.0 parsers and selectors for ElementTree and lxml
+  upstream: https://github.com/sissaschool/elementpath
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-storops
+  description: Python storage management library for VNX and Unity.
+  upstream: https://github.com/emc-openstack/storops
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-hidapi
+  description: A Cython interface to the hidapi.
+  upstream: https://github.com/libusb/hidapi
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: ptpython
+  description: an advanced Python REPL built on top of the prompt_toolkit library
+  upstream: https://github.com/prompt-toolkit/ptpython
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: lxde-common
+  description: Default configuration files for LXDE.
+  upstream: https://github.com/lxde/lxde-common
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: lxde-icon-theme
+  description: Default icon theme for LXDE.
+  upstream: https://github.com/lxde/lxde-icon-theme
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: lxdm
+  description: Lightweight X11 Display Manager
+  upstream: https://sourceforge.net/projects/lxde/files/lxdm
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: lxinput
+  description: Keyboard and mouse settings dialog for LXDE.
+  upstream: https://github.com/lxde/lxinput
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: lxmenu-data
+  description: Data files for the LXDE menu.
+  upstream: https://github.com/lxde/lxmenu-data
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: lxtask
+  description: Lightweight and desktop independent task manager.
+  upstream: https://github.com/lxde/lxtask
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: lxappearance
+  description: Feature-rich GTK+ theme switcher for LXDE.
+  upstream: https://github.com/lxde/lxappearance
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: lxhotkey
+  description: Hotkeys management utility.
+  upstream: https://github.com/lxde/lxhotkey
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: lxlauncher
+  description: Open source replacement for Launcher on the EeePC.
+  upstream: https://github.com/lxde/lxlauncher
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: lxpanel
+  description: A lightweight X11 desktop panel.
+  upstream: https://github.com/lxde/lxpanel
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: lxshortcut
+  description: Small utility to edit application shortcuts.
+  upstream: https://sourceforge.net/projects/lxde/files/LXShortcut (edit app shortcut)
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: lxterminal
+  description: Desktop-independent VTE-based terminal emulator.
+  upstream: https://github.com/lxde/lxterminal
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: pcmanfm
+  description: Extremly fast and lightweight file manager.
+  upstream: https://github.com/lxde/pcmanfm
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: libfm
+  description: GIO-based library for file manager-like programs.
+  upstream: https://github.com/lxde/libfm
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: menu-cache
+  description: Caching mechanism for freedesktop.org compliant menus.
+  upstream: https://github.com/lxde/menu-cache
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: libudfread
+  description: UDF reader library.
+  upstream: https://code.videolan.org/videolan/libudfread
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: catatonit
+  description: Catatonit is a /sbin/init program for use within containers.
+  upstream: https://github.com/openSUSE/catatonit
   branches:
   - name: master
     type: protected

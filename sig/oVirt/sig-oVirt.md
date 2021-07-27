@@ -98,6 +98,7 @@ The repositories related to oVirt are listed below, see https://resources.ovirt.
 - https://gitee.com/src-openeuler/ovirt-vmconsole
 - https://gitee.com/src-openeuler/ovirt-web-ui
 - https://gitee.com/src-openeuler/nmstate
+- https://gitee.com/src-openeuler/unboundid-ldapsdk
 - https://gitee.com/src-openeuler/python-ovirt-engine-sdk4
 - https://gitee.com/src-openeuler/rubygem-ovirt-engine-sdk4
 - https://gitee.com/src-openeuler/v2v-conversion-host

@@ -21,12 +21,14 @@ sigs:
 - name: Application
   repositories:
   - openeuler/custom_build_tool
+  - src-openeuler/abduco
   - src-openeuler/abrt
   - src-openeuler/abrt-java-connector
   - src-openeuler/abrt-server-info-page
   - src-openeuler/aha
   - src-openeuler/alsa-utils
   - src-openeuler/amanda
+  - src-openeuler/amavis
   - src-openeuler/antlr-maven-plugin
   - src-openeuler/antlr32
   - src-openeuler/apache-commons-collections
@@ -50,6 +52,7 @@ sigs:
   - src-openeuler/boilerpipe
   - src-openeuler/brasero
   - src-openeuler/bwa
+  - src-openeuler/calc
   - src-openeuler/cdrdao
   - src-openeuler/cjose
   - src-openeuler/dash
@@ -170,6 +173,7 @@ sigs:
   - src-openeuler/hunspell-ia
   - src-openeuler/hunspell-id
   - src-openeuler/hunspell-is
+  - src-openeuler/alpine
   - src-openeuler/hunspell-it
   - src-openeuler/hunspell-kk
   - src-openeuler/hunspell-km
@@ -373,6 +377,8 @@ sigs:
   - src-openeuler/nss-mdns
   - src-openeuler/nss_wrapper
   - src-openeuler/ntfs-3g
+  - src-openeuler/nexus
+  - src-openeuler/mxml
   - src-openeuler/objectweb-asm
   - src-openeuler/oldstandard-sfd-fonts
   - src-openeuler/openal-soft
@@ -380,6 +386,7 @@ sigs:
   - src-openeuler/openmpi
   - src-openeuler/opennlp
   - src-openeuler/openoffice-lv
+  - src-openeuler/autossh
   - src-openeuler/openoffice.org-dict-cs_CZ
   - src-openeuler/opensm
   - src-openeuler/opensp
@@ -552,6 +559,8 @@ sigs:
   - src-openeuler/tldr
   - src-openeuler/glyphicons-halflings-fonts  
   - src-openeuler/aria2
+  - src-openeuler/activemq
+  - src-openeuler/predixy
 - name: sig-ops
   repositories:
   - openeuler/nvwa
@@ -609,6 +618,7 @@ sigs:
   - src-openeuler/check
   - src-openeuler/cinnamon-translations
   - src-openeuler/cmake
+  - src-openeuler/waf
   - src-openeuler/cmocka
   - src-openeuler/cppcheck
   - src-openeuler/cppunit
@@ -1113,6 +1123,7 @@ sigs:
   - src-openeuler/iavf
   - src-openeuler/guacamole
   - src-openeuler/wrk
+  - src-openeuler/arp-scan
 - name: Virt
   repositories:
   - src-openeuler/virt-viewer
@@ -1312,6 +1323,7 @@ sigs:
   - src-openeuler/bolt
   - src-openeuler/kde-filesystem
   - src-openeuler/mtx
+  - src-openeuler/fswatch
   - src-openeuler/autofs
   - src-openeuler/yapet
   - src-openeuler/varnish
@@ -1393,6 +1405,7 @@ sigs:
   - src-openeuler/h2
   - src-openeuler/mariadb-connector-odbc
   - src-openeuler/mysql5
+  - src-openeuler/percona-xtrabackup
   - src-openeuler/perl-DBIx-Safe
   - src-openeuler/pgadmin4-server
   - src-openeuler/pgpool2
@@ -1402,9 +1415,12 @@ sigs:
   - src-openeuler/unixODBC
   - src-openeuler/mariadb
   - src-openeuler/mongo-tools
+  - src-openeuler/mysqltuner
   - src-openeuler/perl-DBD-SQLite
   - src-openeuler/perl-DBD-MariaDB
   - src-openeuler/perl-DBD-MySQL
+  - src-openeuler/neo4j
+  - src-openeuler/canal
 - name: Base-service
   repositories:
   - openeuler/process1
@@ -1937,6 +1953,8 @@ sigs:
   - src-openeuler/promu
   - src-openeuler/etcd
   - src-openeuler/cadvisor
+  - src-openeuler/crun
+  - src-openeuler/containers-common
   - src-openeuler/gvisor
   - src-openeuler/cri-o
   - src-openeuler/cri-tools
@@ -1958,6 +1976,7 @@ sigs:
   - src-openeuler/libcgroup
   - src-openeuler/libnetwork
   - src-openeuler/harbor
+  - src-openeuler/catatonit
 - name: Compiler
   repositories:
   - src-openeuler/gcc
@@ -1976,6 +1995,7 @@ sigs:
   - openeuler/bishengjdk-8
   - openeuler/bishengjdk-11
   - openeuler/bishengjdk-riscv
+  - openeuler/gcc
 - name: Storage
   repositories:
   - src-openeuler/system-storage-manager
@@ -2079,10 +2099,13 @@ sigs:
   - src-openeuler/desktop-file-utils
   - src-openeuler/disomaster
   - src-openeuler/emacs
+  - src-openeuler/azote
   - src-openeuler/enchant
   - src-openeuler/exiv2
   - src-openeuler/fltk
   - src-openeuler/fontconfig
+  - src-openeuler/libdbusextended-qt5
+  - src-openeuler/libmpris-qt5
   - src-openeuler/freetype
   - src-openeuler/fribidi
   - src-openeuler/fros
@@ -2358,6 +2381,12 @@ sigs:
   - src-openeuler/libmediaart
   - src-openeuler/dconf-editor
   - src-openeuler/geocode-glib
+  - src-openeuler/libcue
+  - src-openeuler/ffmpegthumbnailer
+  - src-openeuler/mpv
+  - src-openeuler/rubberband
+  - src-openeuler/libguess
+  - src-openeuler/vamp-plugin-sdk
   - src-openeuler/gnome-clocks
   - src-openeuler/gnome-keyring
   - src-openeuler/gnome-session
@@ -3287,6 +3316,7 @@ sigs:
   - src-openeuler/rubygem-wikicloth
   - src-openeuler/rubygem-xpath
   - src-openeuler/rubygem-yard
+  - src-openeuler/rubygem-oj
   - src-openeuler/rubygem-ZenTest
   - src-openeuler/rubygems-ronn
   - src-openeuler/rubygem-mustache
@@ -3882,6 +3912,7 @@ sigs:
   - src-openeuler/ovirt-vmconsole
   - src-openeuler/ovirt-web-ui
   - src-openeuler/nmstate
+  - src-openeuler/unboundid-ldapsdk
   - src-openeuler/python-ovirt-engine-sdk4
   - src-openeuler/rubygem-ovirt-engine-sdk4
   - src-openeuler/v2v-conversion-host
@@ -3924,6 +3955,7 @@ sigs:
   - src-openeuler/adb-enhanced
   - src-openeuler/ansible
   - src-openeuler/antlr
+  - src-openeuler/cli11
   - src-openeuler/apache-commons-collections4
   - src-openeuler/apache-commons-fileupload
   - src-openeuler/apache-commons-jexl
@@ -3962,6 +3994,7 @@ sigs:
   - src-openeuler/colm
   - src-openeuler/colordiff
   - src-openeuler/concurrent-trees
+  - src-openeuler/czmq
   - src-openeuler/coro-mock
   - src-openeuler/courier-unicode
   - src-openeuler/cpp-httplib
@@ -3972,6 +4005,7 @@ sigs:
   - src-openeuler/curator
   - src-openeuler/curvesapi
   - src-openeuler/dbus-cpp
+  - src-openeuler/utf8cpp
   - src-openeuler/dbusmenu-qt
   - src-openeuler/delve
   - src-openeuler/dleyna-connector-dbus
@@ -3992,6 +4026,7 @@ sigs:
   - src-openeuler/geronimo-jcdi-1.0-api
   - src-openeuler/geronimo-jpa
   - src-openeuler/geronimo-osgi-support
+  - src-openeuler/git-review
   - src-openeuler/git-lfs
   - src-openeuler/git-tools
   - src-openeuler/glassfish-dtd-parser
@@ -3999,6 +4034,7 @@ sigs:
   - src-openeuler/glassfish-jsp
   - src-openeuler/grizzly
   - src-openeuler/gtkmm24
+  - src-openeuler/git-cola
   - src-openeuler/hamcrest
   - src-openeuler/hardinfo
   - src-openeuler/hawtdispatch
@@ -4166,6 +4202,7 @@ sigs:
   - src-openeuler/lensfun
   - src-openeuler/gtkspell3
   - src-openeuler/ocaml-extlib
+  - src-openeuler/ocaml-cppo
   - src-openeuler/portaudio
   - src-openeuler/gssntlmssp
   - src-openeuler/opencryptoki
@@ -4593,6 +4630,7 @@ sigs:
   - src-openeuler/python-elasticsearch7
   - src-openeuler/abi-compliance-checker
   - src-openeuler/abi-dumper
+  - src-openeuler/pkgdiff
   - src-openeuler/api-guarder
   - src-openeuler/patch-tracking
   - src-openeuler/easy-checker
@@ -5736,6 +5774,7 @@ sigs:
   - src-openeuler/perl-Roman
   - src-openeuler/perl-Router-Simple
   - src-openeuler/perl-Safe-Isa
+  - src-openeuler/perl-RPM2
   - src-openeuler/perl-Scalar-Construct
   - src-openeuler/perl-Scalar-List-Utils
   - src-openeuler/perl-Scalar-String
@@ -6137,9 +6176,11 @@ sigs:
   - src-openeuler/perl-pmtools
 - name: sig-python-modules
   repositories:
+  - src-openeuler/ptpython
   - src-openeuler/py3c
   - src-openeuler/pyorbit
   - src-openeuler/PyQt4
+  - src-openeuler/python-adb-shell
   - src-openeuler/python-alsa
   - src-openeuler/python-apipkg
   - src-openeuler/python-argcomplete
@@ -6152,6 +6193,7 @@ sigs:
   - src-openeuler/python-cssselect
   - src-openeuler/python-cycler
   - src-openeuler/python-docker
+  - src-openeuler/python-dingz
   - src-openeuler/python-dockerpty
   - src-openeuler/python-ecdsa
   - src-openeuler/python-evdev
@@ -6187,6 +6229,7 @@ sigs:
   - src-openeuler/python-PyMySQL
   - src-openeuler/python-pynacl
   - src-openeuler/python-pyquery
+  - src-openeuler/python-httpx
   - src-openeuler/python-pytest-shutil
   - src-openeuler/python-qt5
   - src-openeuler/python-reportlab
@@ -7462,6 +7505,22 @@ sigs:
   - src-openeuler/xfdashboard
   - src-openeuler/xfdesktop
   - src-openeuler/xfwm4
+  - src-openeuler/lxde-common
+  - src-openeuler/lxde-icon-theme
+  - src-openeuler/lxdm
+  - src-openeuler/lxinput
+  - src-openeuler/lxmenu-data
+  - src-openeuler/lxtask
+  - src-openeuler/lxappearance
+  - src-openeuler/lxhotkey
+  - src-openeuler/lxlauncher
+  - src-openeuler/lxpanel
+  - src-openeuler/lxshortcut
+  - src-openeuler/lxterminal
+  - src-openeuler/pcmanfm
+  - src-openeuler/libfm
+  - src-openeuler/menu-cache
+  - src-openeuler/libudfread
 - name: GNOME
   repositories:
   - src-openeuler/gdlmm
@@ -7478,6 +7537,7 @@ sigs:
   - src-openeuler/gnome-autoar
   - src-openeuler/gnome-desktop3
   - src-openeuler/gnome-vfs2
+  - src-openeuler/gnome-shell-extension-dash-to-dock
   - src-openeuler/libgnome
   - src-openeuler/glib-networking
   - src-openeuler/vte291
@@ -7501,13 +7561,18 @@ sigs:
   - src-openeuler/gcab
   - src-openeuler/folks
   - src-openeuler/gsound
+  - src-openeuler/bubblemail
+  - src-openeuler/gnome-shell-theme-flat-remix
   - src-openeuler/gnome-font-viewer
   - src-openeuler/gnome-disk-utility
   - src-openeuler/gnome-color-manager
   - src-openeuler/gnome-video-effects
   - src-openeuler/gnome-getting-started-docs
+  - src-openeuler/gnome-shell-extension-pop-shell
   - src-openeuler/gnome-shell-extension-bubblemail
   - src-openeuler/gnome-shell-extension-appindicator
+  - src-openeuler/gnome-shell-extension-system-monitor-applet
+  - src-openeuler/gnome-shell-extension-disconnect-wifi
   - src-openeuler/libpeas
   - src-openeuler/libchamplain
   - src-openeuler/libportal
@@ -7516,6 +7581,7 @@ sigs:
   - src-openeuler/baobab
   - src-openeuler/gnome-backgrounds
   - src-openeuler/gnome-logs
+  - src-openeuler/gnome-shell-extension-caffeine
   - src-openeuler/gnome-characters
   - src-openeuler/gnome-remote-desktop
   - src-openeuler/gnome-builder
@@ -7847,6 +7913,19 @@ sigs:
   - src-openeuler/python-bunch
   - src-openeuler/python-ntc-templates
   - src-openeuler/python-mypy-extensions
+  - src-openeuler/python-saharaclient
+  - src-openeuler/python-zunclient
+  - src-openeuler/python-manilaclient
+  - src-openeuler/python-aodhclient
+  - src-openeuler/python-confluent-kafka
+  - src-openeuler/python-elementpath
+  - src-openeuler/python-infi.dtypes.wwn
+  - src-openeuler/python-nocasedict
+  - src-openeuler/python-nocaselist
+  - src-openeuler/python-storops
+  - src-openeuler/python-xmlschema
+  - src-openeuler/python-yamlloader
+  - src-openeuler/python-hidapi
 - name: sig-OS-Builder
   repositories:
   - src-openeuler/anaconda
@@ -7994,6 +8073,7 @@ sigs:
   repositories:
   - openeuler/bioinformatics
   - src-openeuler/biobambam2
+  - src-openeuler/ncbi-blast
   - src-openeuler/seqtk
   - src-openeuler/bedops
   - src-openeuler/libmaus2
@@ -8081,4 +8161,6 @@ sigs:
   - src-openeuler/kae_driver
   - src-openeuler/libkae
   - src-openeuler/libwd
-
+- name: sig-OSCourse
+  repositories:
+  - openeuler/sig-OSCourse

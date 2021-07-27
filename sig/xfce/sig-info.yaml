@@ -1,5 +1,5 @@
 name: xfce
-description: The xfce team is responsible for Xfce Desktop
+description: The xfce team is responsible for Xfce and LXDE Desktop
 mailing_list: dev@openeuler.org
 meeting_url: NA
 mature_level: startup
@@ -16,6 +16,10 @@ maintainers:
   name: zhanglin
   orgnization: turbolinux
   email: lin.zhang@turbolinux.com.cn
+- gitee_id: woqidaideshi
+  name: fangyafen
+  orgnization: iscas
+  email: yafen@iscas.ac.cn
 repositories:
 - repo: src-openeuler/hddtemp
 - repo: src-openeuler/xfdashboard
@@ -92,3 +96,19 @@ repositories:
 - repo: src-openeuler/xfce4-weather-plugin 
 - repo: src-openeuler/xfce4-whiskermenu-plugin 
 - repo: src-openeuler/xfce4-xkb-plugin
+- repo: src-openeuler/lxde-common
+- repo: src-openeuler/lxde-icon-theme
+- repo: src-openeuler/lxdm
+- repo: src-openeuler/lxinput
+- repo: src-openeuler/lxmenu-data
+- repo: src-openeuler/lxtask
+- repo: src-openeuler/lxappearance
+- repo: src-openeuler/lxhotkey
+- repo: src-openeuler/lxlauncher
+- repo: src-openeuler/lxpanel
+- repo: src-openeuler/lxshortcut
+- repo: src-openeuler/lxterminal
+- repo: src-openeuler/pcmanfm
+- repo: src-openeuler/libfm
+- repo: src-openeuler/menu-cache
+- repo: src-openeuler/libudfread
