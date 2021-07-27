@@ -127771,6 +127771,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: python-jenkins
+  upstream: http://git.openstack.org/cgit/openstack/python-jenkins
+  description: REST API which aims to provide a more conventionally pythonic way of controlling a Jenkins server
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: adb-enhanced
   description: ADB-Enhanced is a Swiss-army knife for Android testing and development.
   upstream: https://github.com/ashishb/adb-enhanced
