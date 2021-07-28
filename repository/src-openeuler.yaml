@@ -850,6 +850,13 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: bpytop
+  description: Resource monitor that shows usage and stats for processor, memory, disks, network and processes
+  upstream: https://github.com/aristocratos/bpytop
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: SDL_sound
   description: Library handling decoding of several popular sound file formats
   upstream: https://github.com/sezero/SDL_sound
