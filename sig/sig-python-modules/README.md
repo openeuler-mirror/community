@@ -36,4 +36,11 @@ myeuler
 # 项目清单
 
 *Project list & repository*
-
+- https://github.com/IdentityPython/pysaml2
+- https://gitee.com/src-openeuler/python-invoke
+- https://gitee.com/src-openeuler/python-lexicon
+- https://gitee.com/src-openeuler/python-sphinxcontrib-log-cabinet
+- https://gitee.com/src-openeuler/python-rtslib
+- https://gitee.com/src-openeuler/python-limits
+- https://gitee.com/src-openeuler/python-elasticsearch7
+- https://gitee.com/src-openeuler/python-Flask-Limiter

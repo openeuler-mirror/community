@@ -43,7 +43,12 @@ English | [简体中文](./sig-KIRAN-DESKTOP_cn.md)
 - https://gitee.com/src-openeuler/lightdm-kiran-greeter
 - https://gitee.com/src-openeuler/plymouth-theme-kiran
 - https://gitee.com/src-openeuler/kiran-flameshot
-
+- https://gitee.com/src-openeuler/kiran-cc-daemon
+- https://gitee.com/src-openeuler/kiran-calendar
+- https://gitee.com/src-openeuler/lunar-date
+- https://gitee.com/src-openeuler/gdbus-codegen-glibmm
+- https://gitee.com/src-openeuler/kiran-log
+- https://gitee.com/src-openeuler/zlog
 ## Basic Information
 
 ###  Project Introduction
@@ -58,7 +63,7 @@ English | [简体中文](./sig-KIRAN-DESKTOP_cn.md)
 - liuxingxiang
 - yuan__xing
 - Bmen
-- simplejhx
+- tangjie02
 
 ### External Contact
 - Dave110

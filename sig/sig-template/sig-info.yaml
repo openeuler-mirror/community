@@ -1,0 +1,30 @@
+name: Template
+description: This is a sample sig. Please copy it over and modify it accordingly.
+mailing_list: template@openeuler.org
+meeting_url: NA
+mature_level: startup
+mentors:
+- gitee_id: batMan
+  name: Wayne
+  email: aaaaaaa@openeuler.org
+maintainers:
+- gitee_id: Joe
+  name: JoeDou
+  organization: RealT
+  email: yyyyyyy@qq.com
+- gitee_id: Jane
+  name: JaneDou
+  email: xxxxxxx@gmail.com
+committers:
+- gitee_id: Bob
+  name: BobMa
+  email: zzzzzzz@yahoo.com
+repositories:
+- repo: openeuler/infrastructure
+  additional_contributors:
+  - gitee_id: infra_superman
+    name: Clark_Ken
+    ornization: Justice_L
+    email: zzzzzzz@openeuler.org
+- repo: openeuler/blog
+- repo: openeuler/go-gitee

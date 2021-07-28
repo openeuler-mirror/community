@@ -20,18 +20,10 @@
 ### Maintainer列表
 
 - xiezhipeng1[@xiezhipeng1](https://gitee.com/xiezhipeng1)
+- hanxinke[@hanxinke](https://gitee.com/hanxinke)
 - chenmingmin[@chenmingmin](https://gitee.com/chenmingmin)
-
-
-### Committer列表
-
 - licihua[@licihua](https://gitee.com/licihua)
 - shanshishi[@shanshishi](https://gitee.com/shanshishi)
-- hanxinke[@hanxinke](https://gitee.com/hanxinke)
-- songmingcong[@smcopen](https://gitee.com/smcopen)
-- jixiaotong[@xtongji](https://gitee.com/xtongji)
-- liqiang[@liqiang2020](https://gitee.com/liqiang2020)
-- chenmingmin[@chenmingmin](https://gitee.com/chenmingmin)
 
 
 # 联系方式
@@ -50,8 +42,30 @@
 repository地址：
 
 - https://gitee.com/openeuler/A-Tune
-- https://gitee.com/src-openeuler/A-Tune
+- https://gitee.com/openeuler/A-Tune-UI
+- https://gitee.com/openeuler/A-Tune-Collector
 - https://gitee.com/openeuler/prefetch_tuning
-- https://gitee.com/src-openeuler/prefetch_tuning
 - https://gitee.com/openeuler/wisdom-advisor
+- https://gitee.com/src-openeuler/A-Tune
+- https://gitee.com/src-openeuler/A-Tune-UI
+- https://gitee.com/src-openeuler/A-Tune-Collector
+- https://gitee.com/src-openeuler/prefetch_tuning
 - https://gitee.com/src-openeuler/wisdom-advisor
+- https://gitee.com/src-openeuler/python-networkx
+- https://gitee.com/src-openeuler/python-netifaces
+- https://gitee.com/src-openeuler/python-Keras_Preprocessing
+- https://gitee.com/src-openeuler/python-hyperopt
+- https://gitee.com/src-openeuler/python-nni
+- https://gitee.com/src-openeuler/python-astor
+- https://gitee.com/src-openeuler/python-json-tricks
+- https://gitee.com/src-openeuler/python-pythonwebhdfs
+- https://gitee.com/src-openeuler/python-absl-py
+- https://gitee.com/src-openeuler/python-google-pasta
+- https://gitee.com/src-openeuler/python-h5py
+- https://gitee.com/src-openeuler/python-opt-einsum
+- https://gitee.com/src-openeuler/python-pkgconfig
+- https://gitee.com/src-openeuler/python-tensorboard
+- https://gitee.com/src-openeuler/python-tensorboard-plugin-wit
+- https://gitee.com/src-openeuler/python-estimator
+- https://gitee.com/src-openeuler/python-Keras
+- https://gitee.com/src-openeuler/python-keras-rl2

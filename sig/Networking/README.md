@@ -125,7 +125,6 @@ Everyone could send patches to openEuler.
 - https://gitee.com/src-openeuler/grpc
 - https://gitee.com/src-openeuler/bind-dyndb-ldap
 - https://gitee.com/src-openeuler/dhcp
-- https://gitee.com/src-openeuler/glib-networking
 - https://gitee.com/src-openeuler/net-snmp
 - https://gitee.com/src-openeuler/icfg
 - https://gitee.com/src-openeuler/python-requests

@@ -1,0 +1,51 @@
+name: sig-QA
+description: QA team aims to test softwares make up openEuler release, our goal is to improve openEuler community quality and testing capability.
+
+mailing_list: qa@openeuler.org
+meeting_url: https://etherpad.openeuler.org/p/sig-QA-meetings
+mature_level: startup
+maintainers:
+- gitee_id: wu_fengguang
+  name: wufengguang
+  orgnization: Huawei
+  email: wufengguang@huawei.com
+- gitee_id: walkingwalk
+  name: wubodong
+  orgnization: Huawei
+  email: wubodong@huawei.com
+- gitee_id: lemon-higgins
+  name: lemon.higgins
+  orgnization: Huawei
+  email: lemon.higgins@aliyun.com
+- gitee_id: lutianxiong 
+  name: lutianxiong
+  orgnization: Huawei
+  email: lutianxiong@huawei.com
+- gitee_id: rigorous
+  name: yanjin
+  orgnization: Huawei
+  email: yanjin.yan@huawei.com
+- gitee_id: SupMario
+  name: tangjie
+  orgnization: Huawei
+  email: tangjie18@huawei.com
+- gitee_id: charlie_li
+  name: liyongqiang
+  orgnization: Huawei
+  email: liyongqiang10@huawei.com
+repositories:
+- repo: openeuler/QA
+- repo: src-openeuler/avocado
+- repo: openeuler/avocado-vt
+- repo: openeuler/tp-libvirt
+- repo: openeuler/tp-qemu
+- repo: openeuler/EulerRobot
+- repo: openeuler/integration-test
+- repo: openeuler/mugen
+- repo: openeuler/container-test
+- repo: openeuler/compiler-test
+- repo: openeuler/package-reinforce-test
+- repo: openeuler/test-tools
+- repo: src-openeuler/test-tools
+- repo: src-openeuler/linux-test-project
+- repo: src-openeuler/mugen

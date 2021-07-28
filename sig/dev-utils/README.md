@@ -61,6 +61,7 @@ jingxiaolu
 *Project list & repository*
 - https://gitee.com/src-openeuler/netperf
 - https://gitee.com/src-openeuler/memleax
+- https://gitee.com/src-openeuler/memwatch
 - https://gitee.com/src-openeuler/perl-Sub-Uplevel
 - https://gitee.com/src-openeuler/perl-Test-Warn
 - https://gitee.com/src-openeuler/perl-Parallel-ForkManager

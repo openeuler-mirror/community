@@ -1,0 +1,104 @@
+name: Virt
+description: The virt team is responsible for exploration of the virtualization and cloud native runtime technology.
+mailing_list: virt@openeuler.org
+meeting_url: https://etherpad.openeuler.org/p/Virt-meetings
+mature_level: standalone
+maintainers:
+- gitee_id: zhanghailiang_lucky
+  name: zhanghailiang
+  organization: Huawei
+  email: zhang.zhanghailiang@huawei.com
+- gitee_id: RootWB
+  name: WuBin
+  organization: Huawei
+  email: wu.wubin@huawei.com
+- gitee_id: cellfaint
+  name: ZhiGang
+  organization: Huawei
+  email: wangzhigang@huawei.com
+- gitee_id: zhendongchen
+  name: alexchen
+  organization: Huawei
+  email: alex.chen@huawei.com
+- gitee_id: Chuan-Zheng
+  name: Chuan
+  organization: Huawei
+  email: zhengchuan@huawei.com
+- gitee_id: imxcc
+  name: imxcc
+  organization: Huawei
+  email: xingchaochao@huawei.com
+- gitee_id: kevinzhu1
+  name: KevinZhu
+  email: zhukeqian94@163.com
+committers:
+- gitee_id: kuhnchen18
+  name: KuhnChen
+  organization: Huawei
+  email: kuhn.chenqun@huawei.com
+- gitee_id: flyking001
+  name: XuFei
+  email: xufei7511@126.com
+- gitee_id: zhangliang5
+  name: zhangliang5
+  email: 356166378@qq.com
+- gitee_id: lijiajie128
+  name: LiJiajie
+  organization: Huawei
+  email: lijiajie11@huawei.com
+repositories:
+- repo: src-openeuler/virt-viewer
+- repo: src-openeuler/virglrenderer
+- repo: src-openeuler/python-beautifulsoup4
+- repo: src-openeuler/libvirt-python
+- repo: src-openeuler/libvirt-glib
+- repo: src-openeuler/virt-manager
+- repo: src-openeuler/qemu
+- repo: src-openeuler/libvirt
+- repo: src-openeuler/edk2
+- repo: src-openeuler/perl-Sys-Virt
+- repo: src-openeuler/vmtop
+- repo: src-openeuler/stratovirt
+- repo: src-openeuler/kvm-ioctls
+- repo: src-openeuler/kvm-bindings
+- repo: src-openeuler/libcareplus
+- repo: openeuler/qemu
+  additional_contributors:
+  - gitee_id: ranygu
+    name: ranygu
+    orgnization: ChinaMobile
+    email: guzhifeng@cmss.chinamobile.com
+  - gitee_id: sebastian2020
+    name: Sebastian2020
+    orgnization: kylinos
+    email: zhanghao1@kylinos.cn
+  - gitee_id: lisiheng
+    name: lisiheng
+    orgnization: Bingosoft
+    email: lisiheng@bingosoft.net
+  - gitee_id: leohou1400
+    name: LeoHou
+    orgnization: kylinos
+    email: houyingle@kylinos.cn
+  - gitee_id: Michael_Qiu
+    name: Michael_Qiu
+    orgnization: HuaYun
+    email: qiudayu@huayun.com
+  - gitee_id: huayun-quweijie
+    name: QuWeijie
+    orgnization: HuaYun
+    email: quweijie@huayun.com
+- repo: openeuler/libvirt
+  additional_contributors:
+  - gitee_id: liksh
+    name: LiKunshan
+    orgnization: ChinaUicom
+    email: li_kunshan@163.com
+- repo: openeuler/vmtop
+- repo: openeuler/stratovirt
+  additional_contributors:
+  - gitee_id: friendpalm
+    name: friendpalm
+    orgnization: Uniontech
+    email: heyitao@uniontech.com
+- repo: openeuler/libcareplus

@@ -9,13 +9,14 @@
 
 # 成员
 ### Maintainer列表
-何晓文[@overweight](https://gitee.com/overweight)
-朱健伟[@zhujianwei001](https://gitee.com/zhujianwei001)
-谢志鹏[@xiezhipeng1](https://gitee.com/xiezhipeng1)
-韩欣科[@hanxinke](https://gitee.com/hanxinke)
-单世史[@shanshishi](https://gitee.com/shanshishi)
-李次华[@licihua](https://gitee.com/licihua)
-朱春意[@zhuchunyi](https://gitee.com/zhuchunyi)
+- 何晓文[@overweight](https://gitee.com/overweight)
+- 朱健伟[@zhujianwei001](https://gitee.com/zhujianwei001)
+- 谢志鹏[@xiezhipeng1](https://gitee.com/xiezhipeng1)
+- 韩欣科[@hanxinke](https://gitee.com/hanxinke)
+- 李次华[@licihua](https://gitee.com/licihua)
+- 朱春意[@zhuchunyi](https://gitee.com/zhuchunyi)
+- 沈洋洋[@openeuler-basic](https://gitee.com/openeuler-basic)
+- 陈家龙[@pecs](https://gitee.com/pecs)
 
 ### Committer列表
 Everyone could send patches to openEuler.
@@ -52,6 +53,7 @@ repository地址：
   - src-openeuler/automake
   - src-openeuler/babel
   - src-openeuler/babeltrace
+  - src-openeuler/babeltrace2
   - src-openeuler/basesystem
   - src-openeuler/bash
   - src-openeuler/bash-completion
@@ -247,6 +249,7 @@ repository地址：
   - src-openeuler/make
   - src-openeuler/man-db
   - src-openeuler/man-pages
+  - src-openeuler/mariadb-connector-c
   - src-openeuler/maven-release
   - src-openeuler/maven-replacer
   - src-openeuler/maven-shared
@@ -419,6 +422,7 @@ repository地址：
   - src-openeuler/sombok
   - src-openeuler/speex
   - src-openeuler/speexdsp
+  - src-openeuler/sqlite
   - src-openeuler/sscg
   - src-openeuler/sssd
   - src-openeuler/star

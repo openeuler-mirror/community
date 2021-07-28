@@ -16,14 +16,14 @@
 
 ### Maintainer列表
 
-- wuliaokanke[@y00438221](yuhongxiao@huawei.com)
+- wuliaokanke[@wuliaokanke](yuhongxiao@huawei.com)
 - ivymq[@wangminqian](wangminqian@huawei.com)
 
 
 
 ### Committer列表
 
-- wuliaokanke[@y00438221](yuhongxiao@huawei.com)
+- wuliaokanke[@wuliaokanke](yuhongxiao@huawei.com)
 - ivymq[@wangminqian](wangminqian@huawei.com)
 
 

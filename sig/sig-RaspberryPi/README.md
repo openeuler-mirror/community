@@ -6,7 +6,7 @@
 
 # 组织会议
 
-公开的会议时间：北京时间，每个月的第一个和第三个周二，15:00 - 15:30。
+公开的会议时间：北京时间，每个月的第一个和第三个周三，20:00 - 20:30。
 
 会议链接有以下两种获取方式：
 - [openEuler 社区网站](https://openeuler.org/)下的会议日历中查看 `sig-RaspberryPi例会` 预定信息。
@@ -18,11 +18,13 @@
 
 - 王建民[@jianminw](https://gitee.com/jianminw)
 - 方亚芬[@woqidaideshi](https://gitee.com/woqidaideshi)
+- 周文剑[@zhouwjfi](https://gitee.com/zhouwjfi)
 
 ### Committer 列表
 
 - 王建民[@jianminw](https://gitee.com/jianminw)
 - 方亚芬[@woqidaideshi](https://gitee.com/woqidaideshi)
+- 周文剑[@zhouwjfi](https://gitee.com/zhouwjfi)
 
 # 联系方式
 
@@ -38,8 +40,12 @@ repository 地址：
 
 - https://gitee.com/openeuler/raspberrypi
 - https://gitee.com/openeuler/raspberrypi-kernel
+- https://gitee.com/openeuler/raspberrypi-build
 - https://gitee.com/src-openeuler/raspberrypi-kernel
 - https://gitee.com/src-openeuler/raspberrypi-firmware
 - https://gitee.com/src-openeuler/raspberrypi-build
 - https://gitee.com/src-openeuler/raspberrypi-bluetooth
-- https://gitee.com/openeuler/raspberrypi-build
+- https://gitee.com/openeuler/rockchip
+- https://gitee.com/openeuler/rockchip-kernel
+- https://gitee.com/src-openeuler/raspi-config
+- https://gitee.com/src-openeuler/pigpio

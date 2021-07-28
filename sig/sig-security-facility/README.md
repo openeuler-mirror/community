@@ -15,8 +15,11 @@ sig-security_facility主要讨论在openEuler社区版本中已有或未来规�
 
 - 项目名称：
   - 交付件形式：源码、tar包或兼而有之
+   - openeuler/ksc-defender
    - openeuler/attest-tools
    - openeuler/digest-list-tools
+   - openeuler/kunpengsecl
+   - src-openeuler/ksc-defender
    - src-openeuler/mysql-selinux
    - src-openeuler/pesign-obs-integration
    - src-openeuler/tss2
@@ -60,21 +63,13 @@ sig-security_facility主要讨论在openEuler社区版本中已有或未来规�
    - src-openeuler/tpm2-abrmd-selinux
    - src-openeuler/swtpm
    - src-openeuler/libtpms
-
-
- ### 跨领域和面向外部的流程
-
- 由该SIG定义和执行的，且跨领域和面向外部的流程和行动：
-
- - 非内部流程清单
- - 该SIG拥有的面向整个openEulerSIG的组织指导计划等
-
+   - src-openeuler/oath-toolkit
 
 
 ## 组织会议
 
 - 请通过邮件获取具体时间和会议链接
-
+- 双周五上午 10:00-11:00 例会
 
 
 # 成员
@@ -85,10 +80,9 @@ sig-security_facility主要讨论在openEuler社区版本中已有或未来规�
 
 - mailofzxf
 
-- steven
-
 - robertosassu
 
+- gwei3
 
 
 ### Committer列表
@@ -107,9 +101,17 @@ sig-security_facility主要讨论在openEuler社区版本中已有或未来规�
 
 - yang
 
+- flysubmarine
+
+- wucaijun2001
+
+- zhang-zixue
+
+- liu-yi-cs
+
 
 # 联系方式
 
-*<如果需要单独申请邮件列表，请在此补充邮箱名称：dev@openeuler.org>*
+*<dev@openeuler.org>*
 
 - [邮件列表](mailto:dev@openeuler.org)

@@ -45,3 +45,4 @@ repository地址：
 - https:/gitee.com/src-openeuler/ceph
 - https:/gitee.com/src-openeuler/ceph-deploy
 - https:/gitee.com/src-openeuler/ceph-ansible
+- https:/gitee.com/src-openeuler/ceph-csi

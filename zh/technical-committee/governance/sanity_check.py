@@ -96,6 +96,7 @@ def check_2(sigs, exps):
         if sig["name"] == "Private":
             continue
         for repo in sig["repositories"]:
+            # Gitee requires case-insenstive for repo creation
             repo = repo.lower()
             supervisor = repositories.get(repo, set())
             if sig["name"] in supervisor:
@@ -129,7 +130,8 @@ def check_3(sigs):
 
     for sig in sigs:
         for repo in sig["repositories"]:
-            repo = repo.lower()
+            # Gitee requries strict case senstive naming for direct access
+            # repo = repo.lower()
             supervisor = supervisors.get(repo, set())
             supervisor.add(sig["name"])
             supervisors[repo] = supervisor
@@ -165,7 +167,8 @@ def check_4(exps, prefix, oe_repos, supervisors, cross_checked_repo):
                "but not listed in Private SIG."
 
     for repo in oe_repos:
-        name = prefix + "/" + repo["name"].lower()
+        # Gitee requires strict case sensitive for direct accessing
+        name = prefix + "/" + repo["name"]
         if "type" not in repo.keys():
             print("ERROR! Repository {name} has no type tag".format(name=name))
             errors_found += 1
@@ -291,18 +294,22 @@ def check_8_v2(oe_repos, srcoe_repos):
                       .format(pre=prefix, name=repo["name"]))
                 errors_found += 1
             else:
+                master_found = 0
                 for branch in branches:
                     if branch["type"] != "protected" and branch["type"] != "readonly":
                         print("ERROR! {pre}{name} branch {br} is not valid"
                               .format(pre=prefix, name=repo["name"], br=branch["name"]))
                         errors_found += 1
-                    if branch["name"] == "master" and branch["type"] != "protected":
-                        print("ERROR! master branch in {pre}{name} is not protected"
-                              .format(pre=prefix, name=repo["name"]))
-                        errors_found += 1
-                    if branch["name"] != "master" and branch.get("create_from", "") == "":
+                    if branch["name"] == "master":
+                        master_found  += 1
+                    elif branch.get("create_from", "") == "":
                         print("ERROR! {pre}{name} branch {br} has not valid parent branch"
                               .format(pre=prefix, name=repo["name"], br=branch["name"]))
+                        errors_found += 1
+                else:
+                    if master_found != 1:
+                        print("ERROR! {pre}{name}'s master branch is not properly set"
+                              .format(pre=prefix, name=repo["name"]))
                         errors_found += 1
 
     if errors_found == 0:
@@ -365,7 +372,7 @@ def check_changed_repo(repos, prefix, super_visor, requires, blacklist):
 
     for name in curr_dict:
         curr_repo = curr_dict[name]
-        sigs = super_visor.get(prefix + curr_repo["name"].lower(), set())
+        sigs = super_visor.get(prefix + curr_repo["name"], set())
         print("INFO: adding " + curr_repo["name"] + " to SIG " + str(sigs))
         sigs_attention = sigs_attention | sigs
 

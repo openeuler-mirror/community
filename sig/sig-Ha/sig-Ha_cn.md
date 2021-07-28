@@ -59,11 +59,16 @@ Ha相关软件包的仓库如下，详见： http://archive.kernel.org/centos-va
 ### Maintainers
 - hjimmy
 - hjimmy1
+- imjoey
+- taojiang666
 - yangzhao_kl
 - jxy_git
 
 ### Committers
 - crrs666
+- sin_dwell_er
+- zhao_zhong_zhang
+- liqiuyu123
 
 ### 邮件列表
 - dev@openeuler.org

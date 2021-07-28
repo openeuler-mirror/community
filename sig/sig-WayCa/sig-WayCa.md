@@ -8,11 +8,11 @@ hardware layer of Kunpeng.
 
 ### Mission
 
-- maintain WayCa tools such as wayca-deployer
+- maintain WayCa tools such as wayca-scheduler
 
 ### Scope
 
-- develop wayca-deployer and other upstream projects
+- develop wayca-scheduler and other upstream projects
 - manage the documents, meetings and mailing lists
 
 ### Deliverables
@@ -21,7 +21,8 @@ hardware layer of Kunpeng.
 
 ### Repositories and description managed by this SIG
 
-Repository for wayca-deployer: https://gitee.com/openeuler/wayca-deployer
+Repository for wayca-scheduler: https://gitee.com/openeuler/wayca-scheduler
+Repository for wayca-scheduler-bench: https://gitee.com/openeuler/wayca-scheduler-bench
 
 ## Basic Information
 
@@ -32,11 +33,13 @@ Repository for wayca-deployer: https://gitee.com/openeuler/wayca-deployer
 - Kenneth-Lee-2012
 - joyxu515_admin
 - barrysong
+- young1c
 
 ### Committers
 - Kenneth-Lee-2012
 - joyxu515_admin
 - barrysong
+- young1c
 
 ### Mailing list
 - dev@openeuler.org

@@ -40,6 +40,12 @@ KIRAN-DESKTOP SIG小组致力于将KIRAN-DESKTOP 引入至 openEuler 社区中�
 - https://gitee.com/src-openeuler/lightdm-kiran-greeter
 - https://gitee.com/src-openeuler/plymouth-theme-kiran
 - https://gitee.com/src-openeuler/kiran-flameshot
+- https://gitee.com/src-openeuler/kiran-cc-daemon
+- https://gitee.com/src-openeuler/kiran-calendar
+- https://gitee.com/src-openeuler/lunar-date
+- https://gitee.com/src-openeuler/gdbus-codegen-glibmm
+- https://gitee.com/src-openeuler/kiran-log
+- https://gitee.com/src-openeuler/zlog
 
 ## SIG基本信息
 
@@ -55,7 +61,7 @@ KIRAN-DESKTOP SIG小组致力于将KIRAN-DESKTOP 引入至 openEuler 社区中�
 - liuxingxiang
 - yuan__xing 
 - Bmen
-- simplejhx
+- tangjie02
 
 ### 对外联系人
 - Dave110

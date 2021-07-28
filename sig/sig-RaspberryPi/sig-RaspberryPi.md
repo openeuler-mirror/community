@@ -24,12 +24,16 @@ The openEuler RaspberryPi SIG aims at migrating openEuler to Raspberry Pi, in or
 ### Repositories and description managed by this SIG
 
 - Repository of scripts for building openEuler image on Raspberry Pi and documents: https://gitee.com/openeuler/raspberrypi
-- Repository of openEuler kernel source for Raspberry Pi: https://gitee.com/peneuler/raspberrypi-kernel
+- Repository of openEuler kernel source for Raspberry Pi: https://gitee.com/openeuler/raspberrypi-kernel
 - SRPM repository of openEuler kernel for Raspberry Pi: https://gitee.com/src-openeuler/raspberrypi-kernel
 - SRPM repository of firmware for Raspberry Pi: https://gitee.com/src-openeuler/raspberrypi-firmware
 - SRPM repository of scripts of building images for Raspberry Pi: https://gitee.com/src-openeuler/raspberrypi-build
 - SRPM repository of bluetooth service for Raspberry Pi: https://gitee.com/src-openeuler/raspberrypi-bluetooth
 - Repository of scripts of building images for Raspberry Pi: https://gitee.com/openeuler/raspberrypi-build
+- Repository of scripts for building openEuler image on Rockchip Socs and documents: https://gitee.com/openeuler/rockchip
+- Repository of openEuler kernel source for Rockchip Socs: https://gitee.com/openeuler/rockchip-kernel
+- SRPM repository of configuration tool for Raspberry Pi: https://gitee.com/src-openeuler/raspi-config
+- SRPM repository of library for the Raspberry which allows control of the General Purpose Input Outputs (GPIO): https://gitee.com/src-openeuler/pigpio
 
 ## Basic Information
 
@@ -41,8 +45,7 @@ The openEuler RaspberryPi SIG aims at migrating openEuler to Raspberry Pi, in or
 - woqidaideshi
 
 ### Committers
-- jianminw
-- woqidaideshi
+- zhouwjfi
 
 ### Mailing list
 - dev@openeuler.org
@@ -52,7 +55,7 @@ The openEuler RaspberryPi SIG aims at migrating openEuler to Raspberry Pi, in or
   - The link to join this workspace will be periodically updated in [raspberrypi repo](https://gitee.com/openeuler/raspberrypi)
 
 ### Meeting
-- Meeting Time: The 1st and 3rd Tuesday of each month, 15:00 - 15:30 UTC+8.
+- Meeting Time: The 1st and 3rd Wednesday of each month, 20:00 - 20:30 UTC+8.
 - Meeting Link: There are two methods to get the meeting link which will be updated before each meeting.
   - Log in to the [openEuler Community](https://openeuler.org/) website, then view the booking information of `sig-RaspberryPi例会` in the meeting calendar.
   - Search `openEuler` in mini programs of Wechat, add `openEuler mini program`. Then click `会议` and view the booking information of `sig-RaspberryPi例会`.

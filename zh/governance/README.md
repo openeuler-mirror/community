@@ -59,7 +59,7 @@ openEuler有以下受官方支持的组织类型：
 ## 贡献
 
 
-做出贡献的第一步是从[openEuler的SIG/项目列表中选择](https://openeuler.org/zh/sig.html)。开始参加SIG/项目会议，加入IRC频道并订阅邮件列表。SIG/项目通常会由一系列`help-wanted`的ISSUE，这些ISSUE可以帮助新的贡献者参与进来。
+做出贡献的第一步是从[openEuler的SIG/项目列表中选择](https://openeuler.org/zh/sig/sig-list/)。开始参加SIG/项目会议，加入IRC频道并订阅邮件列表。SIG/项目通常会由一系列`help-wanted`的ISSUE，这些ISSUE可以帮助新的贡献者参与进来。
 
 贡献指南提供了如何让你的想法和bug修复被看到和接受的方法，其中包括详细的说明：
 

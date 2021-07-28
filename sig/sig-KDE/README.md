@@ -83,4 +83,5 @@ repository地址：
   - https://gitee.com/src-openeuler/kdecoration
   - https://gitee.com/src-openeuler/kwin
   - https://gitee.com/src-openeuler/plasma-breeze
-
+  - https://gitee.com/src-openeuler/openEuler-menus
+  - https://gitee.com/openeuler/openEuler-menus

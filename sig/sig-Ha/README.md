@@ -10,18 +10,23 @@
 
 # 组织会议
 
-- 公开的会议时间：北京时间，每周二 下午，3点~4点
+- 公开的会议时间：北京时间，每双周周五上午10点~11点
 
 
 # 成员
 
 ### Maintainers列表
 - 侯健[@hjimmy](https://gitee.com/hjimmy)
+- 马俊杰[@imjoey](https://gitee.com/imjoey), majunjie@apache.org
+- 蒋涛[@taojiang666](https://gitee.com/taojiang666), jiangtao@skysolidiss.com.cn
 - 杨昭[@yangzhao_kl](https://gitee.com/yangzhao_kl), yangzhao1@kylinos.cn
 - 江新宇[@jxy_git](https://gitee.com/jxy_git), jiangxinyu@kylinos.cn
 
 ### Committers列表
 - 王迪[@crrs666](https://gitee.com/crrs666)
+- 陈婧晗[@sin_dwell_er](https://gitee.com/sin_dwell_er)
+- 沈子俊[@zhao_zhong_zhang](https://gitee.com/zhao_zhong_zhang)
+- 李秋雨[@liqiuyu123](https://gitee.com/liqiuyu123)
 
 
 # 联系方式

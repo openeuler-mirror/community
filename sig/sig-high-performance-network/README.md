@@ -18,7 +18,11 @@
   3. 开发openEuler高性能网络服务，包括通用用户态协议栈、高性能LVS等。
   4. 跟踪热点技术相关的应用发展，包括的方向有：XDP改造内核网络基础设施、XDP改造容器/虚拟化网络、DPDK性能优化等几个方向。
 
+# 愿景
 
+请[查看](./Vision.md)
+
+Please [readme](./Vision-en.md)
 
 # 组织会议
 
@@ -32,14 +36,13 @@
 
 ### Maintainer列表
 
-- 419673572@qq.com
-- zwfeng@huawei.com
-- wangxp006@163.com
-- zhuhengbo1@huawei.com
-- zhouxudong8@huawei.com
-- geffrey.guo@huawei.com
 - luzhihao@huawei.com
-
+- huangliming5@huawei.com
+- zhuhengbo1@huawei.com
+- wuchangye@huawei.com
+- liuxin264@huawei.com
+- humin29@huawei.com
+- liweihang@huawei.com
 
 ### Committer列表
 
@@ -49,11 +52,11 @@
 
 # 联系方式
 
-- 邮件列表 <dev@openeuler.org>
+- 邮件列表 <high-performance-network@openeuler.org> <dev@openeuler.org>
 - [IRC公开会议]()
 - 视频会议
-
-
+- 微信  
+ ![wechat_QR](./sig-wechat-qr.jpg)
 
 
 
@@ -76,3 +79,5 @@ repository地址：
 - https://gitee.com/src-openeuler/libtins
 - https://gitee.com/src-openeuler/go-bindata
 - https://gitee.com/src-openeuler/seastar
+- https://gitee.com/src-openeuler/gazelle-cni
+- https://gitee.com/openeuler/gazelle-cni
