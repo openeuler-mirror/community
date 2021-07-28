@@ -73649,6 +73649,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: python-pylama
+  upstream: https://github.com/klen/pylama
+  description: Code audit tool for Python and JavaScript.
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-flaky
   upstream: https://github.com/box/flaky
   description: Plugin for nose or pytest that automatically reruns flaky tests.
