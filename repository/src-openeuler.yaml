@@ -12676,6 +12676,13 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: flatpak-builder
+  description: a tool for building flatpaks from sources
+  upstream: http://flatpak.org/
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: flex
   description: ''
   branches:
