@@ -128225,3 +128225,24 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: python-lefthandclient
+  description: This is a Client library that can talk to the HPE LeftHand/StoreVirtual Storage array.
+  upstream: https://github.com/hpe-storage/python-lefthandclient
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-sphinx-testing
+  description: testing utility classes and functions for Sphinx extensions.
+  upstream: https://github.com/sphinx-doc/sphinx-testing
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-opentracing
+  description: OpenTracing API for Python.
+  upstream: https://github.com/opentracing/opentracing-python
+  branches:
+  - name: master
+    type: protected
+  type: public
