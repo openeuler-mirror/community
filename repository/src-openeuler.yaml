@@ -127548,6 +127548,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: gnome-shell-extension-historymanager-prefix-search
+  upstream: https://github.com/sustmi/gnome-shell-extension-historymanager-prefix-search
+  description: Use PageUp and PageDown to search for previous GNOME Shell commands
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: nodejs-compression-webpack-plugin
   upstream: https://github.com/webpack-contrib/compression-webpack-plugin
   description: Prepare compressed versions of assets to serve them with Content-Encoding.
