@@ -128346,6 +128346,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: gnocchi
+  description: Gnocchi is an open-source time series database.
+  upstream: https://github.com/gnocchixyz/gnocchi
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-typing-extensions
   description: Backported and Experimental Type Hints for Python.
   upstream: https://github.com/python/typing
@@ -128353,9 +128360,23 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: python-memory-profiler
+  description: A module for monitoring memory usage of a python program.
+  upstream: https://github.com/pythonprofilers/memory_profiler
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-pytest-html
   description: pytest-html is a plugin for pytest that generates a HTML report for test results.
   upstream: https://github.com/pytest-dev/pytest-html
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-cotyledon
+  description: Cotyledon provides a framework for defining long-running services.
+  upstream: https://github.com/sileht/cotyledon
   branches:
   - name: master
     type: protected
@@ -128368,9 +128389,23 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: python-api-object-schema
+  description: Utilities for defining schemas of Pythonic objects interacting with external APIs.
+  upstream: https://github.com/Infinidat/api_object_schema
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-rsdclient
   description: OpenStack client plugin for Rack Scale Design.
   upstream: http://git.openstack.org/cgit/openstack/python-rsdclient
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-sentinels
+  description: The sentinels module is a small utility providing the Sentinel class, along with useful instances.
+  upstream: https://pypi.org/project/sentinels/
   branches:
   - name: master
     type: protected
@@ -128406,6 +128441,13 @@ repositories:
 - name: python-nosehtmloutput
   description: Nose plugin to produce test results in html.
   upstream: https://git.openstack.org/cgit/openstack-infra/nose-html-output
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-arrow
+  description: Better dates & times for Python.
+  upstream: https://github.com/arrow-py/arrow
   branches:
   - name: master
     type: protected
