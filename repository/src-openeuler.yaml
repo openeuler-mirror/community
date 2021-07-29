@@ -151,6 +151,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: libcbor
+  description: libcbor is a C library for parsing and generating CBOR.
+  upstream: https://github.com/PJK/libcbor
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: git-cola
   description: git-cola is a powerful git GUI with a slick and intuitive user interface
   upstream: https://git-cola.github.io
