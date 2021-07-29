@@ -2616,6 +2616,20 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: apisix
+  description: Apache APISIX is a dynamic, real-time, high-performance API gateway
+  upstream: https://github.com/apache/apisix
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: apisix-dashboard
+  description: Apache APISIX Dashboard is designed to make it as easy as possible for users to operate Apache APISIX through a frontend interface
+  upstream: https://github.com/apache/apisix-dashboard
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: apiviz
   description: APIviz is a JavaDoc doclet to generate class and package diagrams
   upstream: http://code.google.com/p/apiviz/
@@ -36228,6 +36242,13 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  type: public
+- name: luarocks
+  description: LuaRocks is the package manager for Lua modules
+  upstream: https://github.com/luarocks/luarocks
+  branches:
+  - name: master
+    type: protected
   type: public
 - name: lua-socket
   description: ''
