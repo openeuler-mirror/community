@@ -72289,6 +72289,14 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: python-django-rules
+  upstream: http://github.com/dfunckt/django-rules
+  description: rules is a tiny but powerful app providing object-level permissions to Django, without requiring a database.
+  branches:
+  - name: master
+    type: protected
+    create_from: master
+  type: public
 - name: python-django-rest-framework
   upstream: http://www.django-rest-framework.org
   description: alias.
