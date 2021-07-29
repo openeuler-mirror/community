@@ -127478,7 +127478,14 @@ repositories:
   branches:
   - name: master
     type: protected
-  type: public 
+  type: public
+- name: yakuake
+  description: Yakuake is a drop-down terminal emulator.
+  upstream: https://kde.org/applications/system/org.kde.yakuake
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: rubygem-autoprefixer-rails
   description:  Autoprefixer for Ruby and Ruby on Rails
   upstream: https://github.com/ai/autoprefixer-rails
