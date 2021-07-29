@@ -69989,16 +69989,6 @@ repositories:
     type: protected
     create_from: master
   type: public
-- name: python-bitlyapi
-  upstream: http://github.com/hellp/bitlyapi
-  description: A thin wrapper for the bit.ly REST API
-  branches:
-  - name: master
-    type: protected
-  - name: openEuler-20.09
-    type: protected
-    create_from: master
-  type: public
 - name: python-bitmath
   upstream: https://github.com/tbielawa/bitmath
   description: Pythonic module for representing and manipulating file sizes with different
@@ -70852,16 +70842,6 @@ repositories:
 - name: python-cltk
   upstream: https://github.com/cltk/cltk
   description: NLP for the ancient world
-  branches:
-  - name: master
-    type: protected
-  - name: openEuler-20.09
-    type: protected
-    create_from: master
-  type: public
-- name: python-clyent
-  upstream: http://github.com/binstar/clyent
-  description: Command line client Library for windwos and posix
   branches:
   - name: master
     type: protected
@@ -81793,16 +81773,6 @@ repositories:
 - name: python-pytest-cache
   upstream: http://bitbucket.org/hpk42/pytest-cache/
   description: pytest plugin with mechanisms for caching across test runs
-  branches:
-  - name: master
-    type: protected
-  - name: openEuler-20.09
-    type: protected
-    create_from: master
-  type: public
-- name: python-pytest-capturelog
-  upstream: http://bitbucket.org/memedough/pytest-capturelog/overview
-  description: py.test plugin to capture log messages
   branches:
   - name: master
     type: protected
