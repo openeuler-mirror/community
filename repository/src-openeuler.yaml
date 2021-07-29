@@ -72329,6 +72329,14 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: python-django-timezone-field
+  upstream: http://github.com/mfogel/django-timezone-field/
+  description: A Django app providing database, form and serializer fields for pytz timezone objects.
+  branches:
+  - name: master
+    type: protected
+    create_from: master
+  type: public
 - name: python-django-tastypie
   upstream: https://github.com/django-tastypie/django-tastypie
   description: A flexible & capable API layer for Django.
