@@ -595,6 +595,12 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: gcc
+  description: gcc is a generic and open source compiler
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: wayca-scheduler
   rename_from: wayca-deployer
   description: wayca-scheduler is an userspace deployment tool for tasks and interrupts to achieve better performance
@@ -924,6 +930,30 @@ repositories:
   type: public
 - name: geo-coding
   description: geo-coding is a Python client for geocoding related services, including common and popular encoding and conversion methods.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: PilotGo
+  description: PilotGo is a plugable operation platform written in go.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: PilotGo-plugins
+  description: PilotGo-plugins contains plugins for PilotGo.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: PilotGo-web
+  description: PilotGo-web contains web frontend for PilotGo.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: sig-OSCourse
+  description: This reposiroty will provide the content of openEuler OS Course.
   branches:
   - name: master
     type: protected

@@ -10,6 +10,7 @@
 ### Maintainer列表
 
 - xiaoshen[@doramart](#https://gitee.com/doramart)
+- Shinwell_Hu[@Shinwell_Hu](#https://gitee.com/shinwell_hu)
 
 
 ### Committer列表

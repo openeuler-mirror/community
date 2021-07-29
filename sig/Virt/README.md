@@ -1,5 +1,6 @@
 # Virt
 
+* 愿景：打造面向全场景、支撑多样性算力的虚拟化解决方案
 * 负责openEuler虚拟化相关组件社区技术发展和决策
 * 负责openEuler虚拟化相关软件包的规划、升级和维护
 * 及时响应openEuler虚拟化产品用户反馈和解决虚拟化相关问题
@@ -7,7 +8,7 @@
 
 # 组织会议
 
-- 每双周周五下午2:30-4:30
+- 每双周周五下午14:30-16:00
 - 通过邮件申报议题
 - [会议纪要归档](https://etherpad.openeuler.org/p/Virt-meetings)
 
@@ -34,7 +35,7 @@
 - zhangliang[@zhangliang](https://gitee.com/zhangliang5)
 - lijiajie[@lijiajie](https://gitee.com/lijiajie128)
 
-###Additional Contributors List
+### Additional Contributors List
 
 - ranygu[@ranygu](https://gitee.com/ranygu)
 - sebastian[@sebastian2020](https://gitee.com/sebastian2020)
@@ -83,26 +84,21 @@
             - QEMU支持IO悬挂
         - QEMU适配内核5.10
     - StratoVirt：增强轻量虚拟化
-        - 轻量级虚拟化：
+        - 轻量级虚拟化
             - 支持内存弹性
-            - 支持arm和X86
-            - filebackend的支持
-        - 性能优化：
-            - 支持iothread
-            - IO-QOS增强
-            - IO性能优化
+            - 支持ARM和X86
+        - 性能优化
+            - 支持iothread，增强IO性能
+            - 支持磁盘QoS
         - 标准虚拟化预埋
-            - 支持virtio-fs
             - 支持大页
 - 21.09
-    - StratoVirt：支持标准虚拟化
-        - 支持热迁移
-        - 支持PCI、ACPI
-        - 支持备份与快照
-        - 支持极速热启动
-- 22.03
-    - 虚拟化软硬结合，大幅提升虚拟化性能
-    - 支持QEMU用户态热补丁，用户无感知，ms级修复CVE和重大问题
+    - StratoVirt：支持标准虚拟化最小集
+        - 支持edk2的UEFI启动（ACPI/PCI/PCIe/virtio-pci）
+        - 北向兼容libvirt
+        - 支持VFIO直通
+        - 极速热启动
+        - 轻量级虚拟化支持安全管理框架
 
 
 # 项目清单

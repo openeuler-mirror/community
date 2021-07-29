@@ -13,7 +13,12 @@
 
 
 # 成员
-
+MON:     mayilin,chenjian
+OSD:     luorixin
+RGW:     daizhiwei
+MDS:     sunligang,wangxiaomeng
+RADOS:   chixinze
+RBD:     daizhiwei
 
 ### Maintainer列表
 
@@ -25,7 +30,13 @@
 ### Committer列表
 
 - chixinze[@chixinze](https://gitee.com/chixinze)
-
+- liuzhiqiang[@liuzhiqiang](https://gitee.com/liuzhiqiang)
+- sunligang[@nick-slg-kylin](https://gitee.com/nick-slg-kylin)
+- luorixin[@rosinL](https://gitee.com/rosinL)
+- Zhiwei-Dai[@Zhiwei-Dai](https://gitee.com/Zhiwei-Dai)
+- wangxiaomeng[@tjwangxm](https://gitee.com/tjwangxm)
+- mayilin[@kymayl](https://gitee.com/kymayl)
+- chenjian[@yahoohey](https://gitee.com/yahoohey)
 
 
 # 联系方式

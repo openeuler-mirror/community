@@ -36,8 +36,10 @@
 https://gitee.com/openeuler/community/tree/master/sig/sig-DyscheOS/
 
 ### Maintainers
-- liliang
+- liliang_euler
 - minknov
+- TrueAI
+- hw-chuang
 
 ### Committers
 

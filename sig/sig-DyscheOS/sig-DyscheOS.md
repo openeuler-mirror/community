@@ -41,12 +41,16 @@ What and in what form the SIG is responsible for delivering
 ## Basic Information
 
 ### Maintainers
-- 黎亮 (liliang)
+- 黎亮 (liliang_euler)
 - 邓广兴 (minknov)
+- 高超 (TrueAI)
+- 王创 (hw-chuang)
 
 ### Committers
-- 黎亮 (liliang)
+- 黎亮 (liliang_euler)
 - 邓广兴 (minknov)
+- 高超 (TrueAI)
+- 王创 (hw-chuang)
 
 ### Mailing list
 - dev@openeuler.org
