@@ -127710,6 +127710,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: python-rst2txt
+  description:  Convert reStructuredText to plain text.
+  upstream: https://github.com/stephenfin/rst2txt
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: trimmomatic
   upstream: https://github.com/usadellab/Trimmomatic
   description: Trimmomatic performs a variety of useful trimming tasks for illumina paired-end and single ended data
