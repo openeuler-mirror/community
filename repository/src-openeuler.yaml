@@ -16012,6 +16012,13 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: gnome-power-manager
+  upstream: https://github.com/GNOME/gnome-power-manager
+  description: GNOME Power Manager uses the information and facilities provided by UPower displaying icons and handling user callbacks in an interactive GNOME session.
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: gnome-python2
   description: ''
   branches:
