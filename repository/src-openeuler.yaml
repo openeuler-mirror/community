@@ -102,6 +102,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: libbsd
+  description: BSD system function library
+  upstream: http://libbsd.freedesktop.org/
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: kbox
   description: the crash message collector for openEuler
   upstream: https://gitee.com/openeuler/kbox
