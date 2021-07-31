@@ -288,7 +288,6 @@ sigs:
   - src-openeuler/hyphen-te
   - src-openeuler/hyphen-tk
   - src-openeuler/hyphen-uk
-  - src-openeuler/ibus-table-chinese
   - src-openeuler/icc-profiles-openicc
   - src-openeuler/idm-console-framework
   - src-openeuler/iio-sensor-proxy
@@ -533,7 +532,6 @@ sigs:
   - src-openeuler/cyrus-imapd
   - src-openeuler/libkkc
   - src-openeuler/wildmidi
-  - src-openeuler/ibus-kkc
   - src-openeuler/lohit-odia-fonts
   - src-openeuler/fluidsynth
   - src-openeuler/ocaml-ounit
@@ -957,7 +955,6 @@ sigs:
   - src-openeuler/xorg-x11-util-macros
 - name: Runtime
   repositories:
-  - src-openeuler/ibus-libpinyin
   - src-openeuler/mesa-demos
   - src-openeuler/tinycdb
   - src-openeuler/freeglut
@@ -970,14 +967,11 @@ sigs:
   - src-openeuler/vdo
   - src-openeuler/protobuf-c
   - src-openeuler/fftw
-  - src-openeuler/ibus-sayura
   - src-openeuler/hdf5
   - src-openeuler/libvdpau
-  - src-openeuler/ibus-m17n
   - src-openeuler/xorg-x11-xtrans-devel
   - src-openeuler/redland
   - src-openeuler/libshout
-  - src-openeuler/ibus-typing-booster
   - src-openeuler/librabbitmq
   - src-openeuler/celt051
   - src-openeuler/libva
@@ -1309,12 +1303,10 @@ sigs:
   - src-openeuler/rocksdb
   - src-openeuler/fcoe-utils
   - src-openeuler/bpytop
-  - src-openeuler/ibus-hangul
   - src-openeuler/colord-gtk
   - src-openeuler/gutenprint
   - src-openeuler/overpass-fonts
   - src-openeuler/libraw1394
-  - src-openeuler/ibus-table
   - src-openeuler/wsmancli
   - src-openeuler/v4l-utils
   - src-openeuler/hplip
@@ -1331,7 +1323,6 @@ sigs:
   - src-openeuler/varnish
   - src-openeuler/sil-abyssinica-fonts
   - src-openeuler/b43-tools
-  - src-openeuler/ibus-table-array30
   - src-openeuler/libreswan
   - src-openeuler/logwatch
   - src-openeuler/NetworkManager-libreswan
@@ -2407,6 +2398,23 @@ sigs:
   - src-openeuler/you-get
   - src-openeuler/fish
   - src-openeuler/update-desktop-files
+  - src-openeuler/fcitx
+  - src-openeuler/fcitx-configtool
+  - src-openeuler/fcitx-qt5
+  - src-openeuler/fcitx-libpinyin
+  - src-openeuler/fcitx-cloudpinyin
+  - src-openeuler/fcitx-sunpinyin
+  - src-openeuler/sunpinyin
+  - src-openeuler/ibus-hangul
+  - src-openeuler/ibus-table-array30
+  - src-openeuler/ibus-table
+  - src-openeuler/ibus-table-chinese
+  - src-openeuler/ibus-kkc
+  - src-openeuler/imsettings
+  - src-openeuler/ibus-libpinyin
+  - src-openeuler/ibus-typing-booster
+  - src-openeuler/ibus-sayura
+  - src-openeuler/ibus-m17n
 - name: Computing
   repositories:
   - src-openeuler/jamm
@@ -7617,7 +7625,6 @@ sigs:
   - src-openeuler/flatpak-builder
 - name: sig-desktop-apps
   repositories:
-  - src-openeuler/imsettings
   - src-openeuler/vnpy
   - src-openeuler/musescore
   - src-openeuler/qstardict
@@ -7688,13 +7695,6 @@ sigs:
   - src-openeuler/deepin-movie
   - src-openeuler/deepin-music
   - src-openeuler/libgxim
-  - src-openeuler/fcitx
-  - src-openeuler/fcitx-configtool
-  - src-openeuler/fcitx-qt5
-  - src-openeuler/fcitx-libpinyin
-  - src-openeuler/fcitx-cloudpinyin
-  - src-openeuler/fcitx-sunpinyin
-  - src-openeuler/sunpinyin
   - src-openeuler/qt-at-spi
   - src-openeuler/zssh
   - src-openeuler/aom
