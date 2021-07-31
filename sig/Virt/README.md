@@ -31,7 +31,6 @@
 
 ### Committer List
 
-- KuhnChen[@KuhnChen](https://gitee.com/kuhnchen18)
 - xufei[@xufei](https://gitee.com/flyking001)
 - zhangliang[@zhangliang](https://gitee.com/zhangliang5)
 - lijiajie[@lijiajie](https://gitee.com/lijiajie128)
