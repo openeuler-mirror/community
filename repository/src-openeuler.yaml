@@ -613,6 +613,13 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: pushgateway
+  description: Prometheus pushgateway.
+  upstream: http://github.com/prometheus/pushgateway
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: ORBit2
   description: ''
   branches:
