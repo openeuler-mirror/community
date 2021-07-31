@@ -27,6 +27,7 @@
 - imxcc[@imxcc](https://gitee.com/imxcc)
 - Chuan[@Chuan](https://gitee.com/Chuan-Zheng)
 - KevinZhu[@KevinZhu](https://gitee.com/kevinzhu1)
+- frankyj915[@frankyj915](https://gitee.com/frankyj915)
 
 ### Committer List
 
@@ -45,6 +46,7 @@
 - friendpalm[@friendpalm](https://gitee.com/friendpalm)
 - Michael_Qiu[@Michael_Qiu](https://gitee.com/Michael_Qiu)
 - quweijie[@quweijie](https://gitee.com/huayun-quweijie)
+- bobychen[@bobychen](https://gitee.com/bobychen)
 
 # 联系方式
 
