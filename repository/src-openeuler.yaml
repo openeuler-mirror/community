@@ -128460,3 +128460,73 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: python-typed-ast
+  description: typed_ast is a Python 3 package that provides a Python 2.7 and Python 3 parser similar to the standard ast library.
+  upstream: https://github.com/python/typed_ast
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-moto
+  description: A library that allows your python tests to easily mock out the boto library
+  upstream: https://github.com/spulec/moto
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-responses
+  description: A utility library for mocking out the requests Python library.
+  upstream: https://github.com/getsentry/responses
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-flake8-logging-format
+  description: Flake8 extension to validate (lack of) logging format strings
+  upstream: https://github.com/globality-corp/flake8-logging-format
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-openstack.nose_plugin
+  description: openstack.nose_plugin provides a nose plugin that allow’s nosetests output to mimic the output of openstack’s run_tests.py.
+  upstream: https://github.com/openstack/openstack-nose
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-ibmcclient
+  description: python-ibmcclient is a Python library to communicate with HUAWEI iBMC based systems.
+  upstream: https://github.com/IamFive/python-ibmcclient
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-whereto
+  description: Test Apache redirect rules.
+  upstream: https://opendev.org/openstack/whereto
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-muranoclient
+  description: python-muranoclient is a client library for Murano built on the Murano API.
+  upstream: https://opendev.org/openstack/python-muranoclient
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-yamllint
+  description: A linter for YAML files.
+  upstream: https://github.com/adrienverge/yamllint
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-pypowervm
+  description: pypowervm provides a Python-based API wrapper for interaction with IBM PowerVM-based systems.
+  upstream: https://github.com/powervm/pypowervm
+  branches:
+  - name: master
+    type: protected
+  type: public
