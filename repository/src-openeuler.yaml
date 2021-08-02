@@ -127664,6 +127664,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: wdiff
+  upstream: https://www.gnu.org/software/wdiff
+  description: Compare files on a word per word basis
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: rubygem-webpack-rails
   upstream: https://github.com/fnando/webpack-rails
   description: Use webpack with Ruby on Rails without having to configure it.
