@@ -127858,6 +127858,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: urjtag
+  upstream: http://urjtag.org 
+  description: A tool for communicating over JTAG with flash chips and CPUs
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: dnf-plugin-ovl
   upstream: https://github.com/FlorianLudwig/dnf-plugin-ovl
   description: Workaround to run dnf on overlayfs. A port of yum-plugin-ovl to dnf.
