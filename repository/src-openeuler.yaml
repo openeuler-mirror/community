@@ -127643,6 +127643,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: libftdi
+  upstream:  https://www.intra2net.com/en/developer/libftdi/index.php
+  description: Library to program and control the FTDI USB controller
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: nodejs-extract-text-webpack-plugin
   upstream: https://github.com/webpack-contrib/extract-text-webpack-plugin
   description: Extract text from a bundle, or bundles, into a separate file.
