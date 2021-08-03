@@ -8332,6 +8332,13 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: dbus-broker
+  description: Linux D-Bus Message Broker
+  upstream: https://github.com/bus1/dbus-broker
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: dbus-cpp
   description: Native C++ bindings for D-Bus
   upstream: http://sourceforge.net/projects/dbus-cplusplus/
