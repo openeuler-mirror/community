@@ -126424,6 +126424,13 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: solr
+  description: Solr is an enterprise search platform
+  upstream: https://solr.apache.org/
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-openvswitch
   description: Python bindings for Open vSwitch library
   upstream: https://pypi.org/project/ovs/
