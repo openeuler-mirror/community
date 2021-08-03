@@ -128017,9 +128017,23 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: python-capacity
+  description: Data types to describe capacity.
+  upstream: https://github.com/vmalloc/capacity
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: parquet-format
   description: Parquet is a columnar storage format that supports nested data. This provides all generated meta-data code.
   upstream: https://github.com/apache/parquet-format/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-confetti
+  description: Generic configuration mechanism.
+  upstream: https://pypi.org/project/confetti
   branches:
   - name: master
     type: protected
@@ -128031,9 +128045,23 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: python-flux
+  description: Artificial time library.
+  upstream: https://github.com/getslash/flux
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-confget
   description: Parse configuration files and extract values from them
   upstream: https://devel.ringlet.net/textproc/confget/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-gossip
+  description: Signaling and hooking library.
+  upstream: https://github.com/getslash/gossip
   branches:
   - name: master
     type: protected
@@ -128045,9 +128073,23 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: python-vintage
+  description: Python library for deprecating code.
+  upstream: https://github.com/getslash/vintage
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-ironic-tempest-plugin
   description: Tempest plugin for ironic and ironic-inspector
   upstream: https://opendev.org/openstack/ironic-tempest-plugin
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-mitba
+  description: Python library for caching results from functions and methods.
+  upstream: https://github.com/Infinidat/mitba
   branches:
   - name: master
     type: protected
@@ -128059,6 +128101,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: python-pact
+  description: Promises library in Python.
+  upstream: https://github.com/getslash/pact
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-octaviaclient
   description: Octavia client for OpenStack Load Balancing
   upstream: https://opendev.org/openstack/python-octaviaclient
@@ -128066,9 +128115,23 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: python-waiting
+  description: Utility for waiting for stuff to happen.
+  upstream: https://github.com/vmalloc/waiting
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-rbd-iscsi-client
   description: REST client to talk to rbd-target-api
   upstream: https://github.com/hemna/rbd-iscsi-client
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-storage-interfaces
+  description: Abstract classes for representing storage-related objects.
+  upstream: https://github.com/Infinidat/storage_interfaces
   branches:
   - name: master
     type: protected
@@ -128094,9 +128157,23 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: python-transaction
+  description: Transaction management for Python.
+  upstream: https://github.com/zopefoundation/transaction
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-ntc-templates
   description: TextFSM Templates for Network Devices, and Python wrapper for TextFSM's CliTable.
   upstream: https://github.com/networktocode/ntc-templates
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-glance-tempest-plugin
+  description: Tempest plugin tests for Glance.
+  upstream: https://opendev.org/openstack/glance-tempest-plugin
   branches:
   - name: master
     type: protected
@@ -128108,9 +128185,23 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: python-cassandra-driver
+  description: DataStax Driver for Apache Cassandra.
+  upstream: http://github.com/datastax/python-driver
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: nodejs-appium
   description: An open-source,cross-platfrom test automation tool for native
   upstream: https://github.com/appium/appium
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-sphinxcontrib-autoprogram
+  description: Documenting CLI programs.
+  upstream: https://github.com/sphinx-contrib/autoprogram
   branches:
   - name: master
     type: protected
@@ -128487,6 +128578,104 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: python-pytest-django
+  description: test Django project/app with the pytest testing tool.
+  upstream: https://pytest-django.readthedocs.io/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-selenium
+  description: Selenium is used to automate web browser interaction from Python.
+  upstream: https://github.com/SeleniumHQ/selenium/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-rsd-lib
+  description: Libs for Intel RackScale Design enabled hardware.
+  upstream: https://opendev.org/x/rsd-lib
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-sushy-oem-idrac
+  description: Sushy extension for adding high-level hardware management abstractions.
+  upstream: https://opendev.org/x/sushy-oem-idrac
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-keystone-tempest-plugin
+  description: for keystone tempest.
+  upstream: https://github.com/openstack/keystone-tempest-plugin
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-dfs-sdk
+  description:  Datera Fabric Python SDK.
+  upstream: https://github.com/Datera/python-sdk/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-3parclient
+  description: HPE 3PAR HTTP REST Client.
+  upstream: http://packages.python.org/python-3parclient
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-proboscis
+  description: Extends Nose with certain TestNG like features.
+  upstream: https://github.com/rackerlabs/python-proboscis
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-murano-pkg-check
+  description: Murano package validator tool.
+  upstream: https://opendev.org/openstack/murano-pkg-check/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-senlinclient
+  description: OpenStack Clustering API Client Library.
+  upstream: https://docs.openstack.org/python-senlinclient/latest
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-purestorage
+  description: Pure Storage FlashArray REST Client.
+  upstream: https://pure-storage-python-rest-client.readthedocs.io/en/stable/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-gnocchiclient
+  description: Python client library for Gnocchi.
+  upstream:  http://gnocchi.xyz/gnocchiclient
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-ujson
+  description: Ultra fast JSON encoder and decoder for Python.
+  upstream: https://github.com/ultrajson/ultrajson
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: ansible-lint
+  description: Checks playbooks for practices and behaviour that could potentially be improved
+  upstream: https://github.com/ansible/ansible-lint
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-arrow
   description: Better dates & times for Python.
   upstream: https://github.com/arrow-py/arrow
@@ -128560,6 +128749,13 @@ repositories:
 - name: python-pypowervm
   description: pypowervm provides a Python-based API wrapper for interaction with IBM PowerVM-based systems.
   upstream: https://github.com/powervm/pypowervm
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-zaqarclient
+  description: Client Library for OpenStack Zaqar Messaging API.
+  upstream: https://docs.openstack.org/python-zaqarclient/latest/
   branches:
   - name: master
     type: protected
