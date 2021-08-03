@@ -128381,6 +128381,20 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: python-zstandard
+  description: Zstandard bindings for Python.
+  upstream: https://github.com/indygreg/python-zstandard
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-mitmproxy 
+  description: An interactive, SSL/TLS-capable intercepting proxy for HTTP/1, HTTP/2, and WebSockets.
+  upstream: https://github.com/mitmproxy/mitmproxy
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: lxhotkey
   description: Hotkeys management utility.
   upstream: https://github.com/lxde/lxhotkey
