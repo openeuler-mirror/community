@@ -25,6 +25,6 @@ compat-winapp SIG组致力于将X86平台下海量的 Windows 应用引入X86/AR
 
 # 联系方式
 
-- [邮件列表](dev@openeuler.org)
+- [微信群](https://gitee.com/openeuler/compat-winapp/issues/I43OIL?from=project-issue)
 - [IRC公开会议](#openeuler-dev)
 - 视频会议
