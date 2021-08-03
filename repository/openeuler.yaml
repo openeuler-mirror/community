@@ -958,3 +958,9 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: sig-OpenBoard
+  description: Define open board development standards
+  branches:
+  - name: master
+    type: protected
+  type: public
