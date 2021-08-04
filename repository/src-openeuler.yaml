@@ -25581,6 +25581,9 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: jq
   description: ''
@@ -35632,6 +35635,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
@@ -76104,6 +76110,15 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: python-kaptan
   upstream: https://github.com/emre/kaptan
@@ -88645,6 +88660,15 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: rapidjson
   description: small & selft-contained fast JSON parser and generator for C++
@@ -93373,6 +93397,9 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: supermin
   description: ''
@@ -95904,6 +95931,15 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: byzanz
   description: A desktop recorder format
@@ -95973,6 +96009,15 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: soxr
   description: The SoX Resampler library
@@ -96001,6 +96046,15 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: x264
   description: H264/AVC video streams encoder
@@ -96008,6 +96062,15 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: xvidcore
   description: MPEG-4 Simple and Advanced Simple Profile codec
@@ -96015,6 +96078,15 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: zimg
   description: Scaling, color space conversion, and dithering library
@@ -126417,6 +126489,9 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: mybatis-generator
   description: A code generator for MyBatis and iBATIS
@@ -127912,6 +127987,15 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: python-pyRFC3339
   upstream: https://github.com/kurtraschke/pyRFC3339
@@ -127919,6 +128003,15 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: python-jenkins
   upstream: http://git.openstack.org/cgit/openstack/python-jenkins
@@ -127988,6 +128081,15 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: gnome-shell-extension-pomodoro
   upstream: http://gnomepomodoro.org/
@@ -128219,6 +128321,15 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: canal
   description: MySQL Binlog Incremental Subscription & Consuming Components 
@@ -128226,6 +128337,15 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: python-saharaclient
   description: Python bindings and CLI for Sahara.
