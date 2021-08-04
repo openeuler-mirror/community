@@ -41054,6 +41054,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: mujs
+  description: MuJS is a lightweight Javascript interpreter
+  upstream: https://mujs.com/
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: nodejs
   description: JavaScript runtime
   branches:
