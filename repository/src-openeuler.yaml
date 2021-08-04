@@ -95568,7 +95568,8 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: ttembed
-  description: ''
+  description: Remove embedding limitations from TrueType fonts
+  upstream: https://github.com/hisdeedsaredust/ttembed
   branches:
   - name: master
     type: protected
@@ -95584,7 +95585,7 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
-  type: private
+  type: public
 - name: ttfautohint
   description: A platform for finely hand-hinting
   upstream: http://www.freetype.org/ttfautohint
