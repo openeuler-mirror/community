@@ -23,7 +23,6 @@
 
 ### Maintainer列表
   - sinever
-  - hubble_zhu
   - njlzk
   - myeuler
   - ZhengZhenyu
