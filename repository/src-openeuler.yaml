@@ -634,6 +634,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: blackbox_exporter
+  description: The blackbox exporter allows blackbox probing of endpoints over HTTP, HTTPS, DNS, TCP and ICMP.  
+  upstream: http://github.com/prometheus/blackbox_exporter
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: ORBit2
   description: ''
   branches:
