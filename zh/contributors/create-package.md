@@ -1,4 +1,4 @@
-﻿# 新增软件包
+# 新增软件包
 
 执行以下步骤，可以在gitee新增软件包的同时在obs建立同名仓库！
 
@@ -50,8 +50,9 @@ git clone https://gitee.com/"$username"/community.git
    - name: pkgname
      description: about pkgname
      upstream: https://somepkg.org/
-     protected_branches:
-       - master
+     branches:
+     - name: master
+       type: protected
      type: public
    ```
 
