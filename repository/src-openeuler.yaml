@@ -144699,3 +144699,10 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: okhttp
+  description: An HTTP & HTTP/2 client for Android and Java applications.
+  upstream: https://github.com/square/okhttp/
+  branches:
+  - name: master
+    type: protected
+  type: public
