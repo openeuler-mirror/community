@@ -59,4 +59,5 @@ https://meeting.tencent.com/s/iwZmnhcOSs3x
 
 # 项目地址
 
-repository地址：https://gitee.com/openeuler/Edge
+repository地址：http://gitee.com/openeuler/sig-Edge
+
