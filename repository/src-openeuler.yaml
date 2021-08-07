@@ -74241,6 +74241,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: python-robotframework
+  upstream: http://robotframework.org
+  description: Generic automation framework for acceptance testing and robotic process automation (RPA).
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-fusepy
   upstream: http://github.com/fusepy/fusepy
   description: Simple ctypes bindings for FUSE
