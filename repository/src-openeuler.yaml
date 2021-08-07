@@ -127937,6 +127937,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: tidb
+  upstream: https://github.com/pingcap/tidb
+  description: TiDB is a distributed NewSQL database compatible with MySQL protocol
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: ioping
   upstream:  https://github.com/koct9i/ioping
   description: Simple disk I/O latency monitoring tool
