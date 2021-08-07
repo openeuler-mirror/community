@@ -122254,6 +122254,76 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: rubygem-fluentd
+  description: Fluentd event collect.
+  upstream: https://github.com/fluent/fluentd
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-cool.io
+  description: A cool framework for doing high performace I/O in Ruby.
+  upstream: https://github.com/tarcieri/cool.io
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-dig_rb
+  description: Array/Hash/Struct#dig backfill for ruby.
+  upstream: https://github.com/jrochkind/dig_rb
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-http_parser
+  description: Simple callback-based HTTP request/response parser.
+  upstream: https://github.com/tmm1/http_parser.rb
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-serverengine
+  description: ServerEngine - multiprocess server framework.
+  upstream: https://github.com/fluent/serverengine
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-sigdump
+  description: Setup signal handler which dumps backtrace of running threads and number of allocated objects per class.
+  upstream: https://github.com/frsyuki/sigdump
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-strptime
+  description: A fast strptime/strftime engine.
+  upstream: https://github.com/nurse/strptime
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-tzinfo-data
+  description: Timezone Data for TZInfo.
+  upstream: https://github.com/tzinfo/tzinfo-data
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-webrick
+  description: HTTP server toolkit.
+  upstream: https://github.com/ruby/webrick
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-yajl-ruby
+  description: Ruby C bindings to the excellent Yajl JSON stream-based parser library.
+  upstream: https://github.com/brianmario/yajl-ruby
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: jboss-negotiation
   description: JBoss Negotiation
   upstream: http://www.jboss.org/picketlink/Negotiation
