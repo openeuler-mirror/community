@@ -58,4 +58,5 @@ https://meeting.tencent.com/s/W3eknAqxSz4g
 
 # 项目地址
 
-repository地址：https://gitee.com/openeuler/OpenBoard
+repository地址：https://gitee.com/openeuler/sig-OpenBoard
+
