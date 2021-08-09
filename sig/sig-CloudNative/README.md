@@ -52,6 +52,7 @@ repository地址：
 
 - https://gitee.com/openeuler/cloudnative
 - https://gitee.com/openeuler/operator-manager
+- https://gitee.com/openeuler/rubik
 - https://gitee.com/src-openeuler/coredns
 - https://gitee.com/src-openeuler/kubernetes
 - https://gitee.com/src-openeuler/iSulad
