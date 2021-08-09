@@ -246,6 +246,12 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: rubik 
+  description: rubik is a QoS manager agent for online/offline workload colocation 
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: Java-Packages
   description: Java package relevant docs, source code and issue management.
   branches:
