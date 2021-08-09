@@ -128789,6 +128789,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: tilda 
+  upstream: http://github.com/lanoxx/tilda
+  description: A Gtk based drop down terminal for Linux and Unix
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-flake8-logging-format
   description: Flake8 extension to validate (lack of) logging format strings
   upstream: https://github.com/globality-corp/flake8-logging-format
