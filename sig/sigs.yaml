@@ -8128,15 +8128,16 @@ sigs:
   - openeuler/wayca-scheduler-bench
 - name: sig-OpenResty
   repositories:
+  - src-openeuler/apisix
+  - src-openeuler/apisix-dashboard
+  - src-openeuler/apisix-deps
+  - src-openeuler/luarocks
   - src-openeuler/openresty
   - src-openeuler/openresty-openssl111
   - src-openeuler/openresty-openssl
   - src-openeuler/openresty-pcre
   - src-openeuler/openresty-valgrind
   - src-openeuler/openresty-zlib
-  - src-openeuler/luarocks
-  - src-openeuler/apisix
-  - src-openeuler/apisix-dashboard
 - name: sig-ONL
   repositories:
   - openeuler/sonic-linux-kernel

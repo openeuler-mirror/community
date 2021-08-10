@@ -2686,6 +2686,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: apisix-deps
+  description: APISIX Deps packs the lua modules dependencies of APISIX
+  upstream: https://github.com/apache/apisix
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: apiviz
   description: APIviz is a JavaDoc doclet to generate class and package diagrams
   upstream: http://code.google.com/p/apiviz/
