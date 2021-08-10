@@ -4377,6 +4377,9 @@ sigs:
   - src-openeuler/pluma
 - name: sig-recycle
   repositories:
+  - src-openeuler/orage
+  - src-openeuler/xfce4-embed-plugin
+  - src-openeuler/xfce4-hardware-monitor-plugin
   - src-openeuler/js-jquery1
   - src-openeuler/js-jquery2
   - src-openeuler/infiniband-diags
@@ -7464,7 +7467,6 @@ sigs:
   - src-openeuler/libxfce4ui
   - src-openeuler/libxfce4util
   - src-openeuler/mousepad
-  - src-openeuler/orage
   - src-openeuler/parole
   - src-openeuler/python-distutils-extra
   - src-openeuler/ristretto
@@ -7488,11 +7490,9 @@ sigs:
   - src-openeuler/xfce4-dev-tools
   - src-openeuler/xfce4-dict
   - src-openeuler/xfce4-diskperf-plugin
-  - src-openeuler/xfce4-embed-plugin
   - src-openeuler/xfce4-eyes-plugin
   - src-openeuler/xfce4-fsguard-plugin
   - src-openeuler/xfce4-genmon-plugin
-  - src-openeuler/xfce4-hardware-monitor-plugin
   - src-openeuler/xfce4-mailwatch-plugin
   - src-openeuler/xfce4-mount-plugin
   - src-openeuler/xfce4-mpc-plugin
