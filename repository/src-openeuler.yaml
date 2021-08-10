@@ -128866,3 +128866,17 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: python-xattr
+  description: Python wrapper for extended filesystem attributes
+  upstream: https://github.com/xattr/xattr
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-subunit2sql
+  description: Tooling for converting subunit streams into a SQL DB
+  upstream: https://opendev.org/opendev/subunit2sql
+  branches:
+  - name: master
+    type: protected
+  type: public
