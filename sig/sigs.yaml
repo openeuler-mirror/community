@@ -8007,6 +8007,8 @@ sigs:
   - src-openeuler/python-gnocchiclient
   - src-openeuler/python-ujson
   - src-openeuler/ansible-lint
+  - src-openeuler/python-xattr
+  - src-openeuler/python-subunit2sql
 - name: sig-OS-Builder
   repositories:
   - src-openeuler/anaconda
