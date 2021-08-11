@@ -128922,6 +128922,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: fmt
+  description: Small, safe and fast formatting library for C++.
+  upstream: https://github.com/fmtlib/fmt
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-moto
   description: A library that allows your python tests to easily mock out the boto library
   upstream: https://github.com/spulec/moto
