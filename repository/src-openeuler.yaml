@@ -58720,6 +58720,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: barman
+  description: Backup and Recovery Manager for PostgreSQL
+  upstream: http://www.pgbarman.org/
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: perl-Sort-Versions
   upstream: http://search.cpan.org/dist/Sort-Versions/
   description: Perl 5 module for sorting of revision-like numbers
