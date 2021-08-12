@@ -88896,6 +88896,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: python-prometheus-api-client
+  upstream: https://github.com/AICoE/prometheus-api-client-python
+  description: A Python wrapper for the Prometheus http api and some tools for metrics processing.
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-prompt_toolkit
   description: Library for building powerful interactive command lines in Python.
   branches:
@@ -94249,6 +94256,13 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  type: public
+- name: python-treelib
+  upstream: https://github.com/caesar0301/treelib
+  description: This is a simple tree data structure implementation in p
+  branches:
+  - name: master
+    type: protected
   type: public
 - name: python-trustme
   upstream: https://github.com/python-trio/trustme
