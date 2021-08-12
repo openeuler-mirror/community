@@ -3675,6 +3675,13 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: bash-argsparse
+  description: An high level argument parsing library for bash.
+  upstream: https://github.com/Anvil/bash-argsparse
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: b43-openfwwf
   description: ''
   branches:
