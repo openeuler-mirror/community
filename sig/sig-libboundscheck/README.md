@@ -10,10 +10,12 @@
 ### Maintainer列表
 
 - zhaozhijian[@zhaozhijian01](#https://gitee.com/zhaozhijian01)
+- xuhuiyue[@xuhuiyue](#https://gitee.com/xuhuiyue)
 
 ### Committer列表
 
 - liujiajian[@Plus_Liu](#https://gitee.com/Plus_Liu)
+- liwei[@liwei6255](#https://gitee.com/liwei6255)
 
 # 联系方式
 
