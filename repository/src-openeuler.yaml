@@ -77361,6 +77361,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-bcc
   upstream: https://github.com/willsheffler/bcc
@@ -81527,6 +81530,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.09
     type: protected
     create_from: master
   type: public
@@ -86091,6 +86097,9 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-nose-cov
   upstream: http://bitbucket.org/memedough/nose-cov/overview
@@ -86789,6 +86798,9 @@ repositories:
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
     create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-mistralclient
   upstream: https://opendev.org/openstack/python-mistralclient
@@ -89049,6 +89061,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.09
     type: protected
     create_from: master
   type: public
@@ -95667,6 +95682,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-xpath-expressions
   upstream: https://github.com/orf/xpath-expressions
@@ -95707,6 +95725,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-xxhash
   upstream: https://github.com/ifduyue/python-xxhash
@@ -95735,6 +95756,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.09
     type: protected
     create_from: master
   type: public
@@ -141035,6 +141059,9 @@ repositories:
   - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-flake8-docstrings
   description: Extension for flake8 which uses pydocstyle to check docstrings
@@ -141184,6 +141211,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-sysv-ipc
   description: System V IPC primitives (semaphores, shared memory and message queues)
@@ -141196,6 +141226,9 @@ repositories:
     type: protected
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-21.09
     type: protected
     create_from: master
   type: public
@@ -142430,6 +142463,9 @@ repositories:
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
     create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: Control-FREEC
   upstream: https://github.com/BoevaLab/FREEC
@@ -142747,6 +142783,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-confget
   description: Parse configuration files and extract values from them
@@ -142829,6 +142868,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-rbd-iscsi-client
   description: REST client to talk to rbd-target-api
@@ -142913,6 +142955,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: nodejs-appium
   description: An open-source,cross-platfrom test automation tool for native
@@ -143069,6 +143114,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-elementpath
   description: XPath 1.0/2.0 parsers and selectors for ElementTree and lxml
@@ -143278,6 +143326,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: gnocchi
   description: Gnocchi is an open-source time series database.
@@ -143421,6 +143472,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-selenium
   description: Selenium is used to automate web browser interaction from Python.
@@ -143435,6 +143489,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-sushy-oem-idrac
   description: Sushy extension for adding high-level hardware management abstractions.
@@ -143599,6 +143656,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-muranoclient
   description: python-muranoclient is a client library for Murano built on the Murano
@@ -143614,6 +143674,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-pypowervm
   description: pypowervm provides a Python-based API wrapper for interaction with
@@ -143629,6 +143692,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-xattr
   description: Python wrapper for extended filesystem attributes
@@ -143636,6 +143702,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-subunit2sql
   description: Tooling for converting subunit streams into a SQL DB
