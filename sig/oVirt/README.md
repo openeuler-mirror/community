@@ -114,3 +114,9 @@ repository地址：
 - https://gitee.com/src-openeuler/ovirt-jboss-modules-maven-plugin
 - https://gitee.com/src-openeuler/safelease
 - https://gitee.com/src-openeuler/ovirt-engine-api-model
+- https://gitee.com/src-openeuler/collectd
+- https://gitee.com/src-openeuler/highlight
+- https://gitee.com/src-openeuler/openstack-java-sdk
+- https://gitee.com/src-openeuler/python-daemon
+- https://gitee.com/src-openeuler/riemann-c-client
+- https://gitee.com/src-openeuler/snmp4j
