@@ -47409,6 +47409,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: python-esdk-obs-python
+  description: OBS Python SDK.
+  upstream: http://obs-browser.obs.myhuaweicloud.com
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: ocaml-camlp4
   description: Pre-Processor for OCaml
   upstream: https://github.com/ocaml/camlp4
