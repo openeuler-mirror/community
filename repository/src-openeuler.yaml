@@ -7856,6 +7856,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: cmake_modules
   description: cmake_modules package that belongs to THE ROS-COMM
@@ -46508,6 +46511,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: nodejs
   description: JavaScript runtime
@@ -96900,6 +96906,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: libmpris-qt5
   description: Qt and QML MPRIS interface and adaptor
@@ -96907,6 +96916,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: qt5-qtbase
   description: ''
@@ -106133,6 +106145,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: deepin-screen-recorder
   description: Deepin Screen Recorder
@@ -106140,6 +106155,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: deepin-movie
   description: Deepin movie
@@ -106147,6 +106165,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: deepin-music
   description: Deepin music is a local music player with beautiful design and simple
@@ -106155,6 +106176,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: ffmpeg
   description: Digital VCR and streaming server
@@ -109984,6 +110008,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: ffmpegthumbnailer
   description: Lightweight video thumbnailer that can be used by file managers
@@ -109991,6 +110018,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: mpv
   description: mpv is a free (as in freedom) media player for the command line
@@ -109998,6 +110028,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: rubberband
   description: Audio time-stretching and pitch-shifting library
@@ -110005,6 +110038,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: libguess
   description: High-speed character set detection library
@@ -110012,6 +110048,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: vamp-plugin-sdk
   description: An API for audio analysis and feature extraction plugins
@@ -110019,6 +110058,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: meld
   description: Meld is a visual diff and merge tool targeted at developers.
