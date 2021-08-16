@@ -106954,6 +106954,19 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: system-config-language
+  description: A graphical interface for modifying the system language
+  upstream: https://pagure.io/system-config-language
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
+  type: public
 - name: attica
   description: Attica is a Qt library that implements the Open Collaboration Services
     API version 1.4.
