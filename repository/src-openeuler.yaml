@@ -100121,19 +100121,6 @@ repositories:
     type: protected
     create_from: master
   type: public
-- name: rubygem-ronn
-  description: Manual authoring tool.
-  upstream: https://github.com/rtomayko/ronn
-  branches:
-  - name: master
-    type: protected
-  - name: openEuler-20.03-LTS-SP1
-    type: protected
-    create_from: master
-  - name: openEuler-20.09
-    type: protected
-    create_from: master
-  type: public
 - name: rubygem-ruby-shadow
   description: Ruby shadow password module
   upstream: https://github.com/apalmblad/ruby-shadow
