@@ -75093,6 +75093,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-ModestMaps
   upstream: http://modestmaps.com
@@ -141192,6 +141195,9 @@ repositories:
   - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-mox3
   description: Port of mox library to python 3
@@ -143025,6 +143031,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: parquet-format
   description: Parquet is a columnar storage format that supports nested data. This
@@ -143043,6 +143052,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-storpool
   description: Bindings for the StorPool distributed storage API
@@ -143080,6 +143092,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-cinder-tempest-plugin
   description: Tempest plugin tests for Cinder.
@@ -143097,6 +143112,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-ironic-tempest-plugin
   description: Tempest plugin for ironic and ironic-inspector
@@ -143162,6 +143180,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-soupsieve
   description: A modern CSS selector implementation for Beautiful Soup
@@ -143314,6 +143335,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: predixy
   description: Predixy is a high performance and fully featured proxy for redis sentinel
@@ -143348,6 +143372,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-aodhclient
   description: Python bindings to the OpenStack Aodh API.
@@ -143824,6 +143851,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-proboscis
   description: Extends Nose with certain TestNG like features.
@@ -143923,6 +143953,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: tilda
   upstream: http://github.com/lanoxx/tilda
@@ -143937,6 +143970,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-openstack.nose_plugin
   description: "openstack.nose_plugin provides a nose plugin that allow\u2019s nosetests\
@@ -143945,6 +143981,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-ibmcclient
   description: python-ibmcclient is a Python library to communicate with HUAWEI iBMC
@@ -143953,6 +143992,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-whereto
   description: Test Apache redirect rules.
@@ -143989,6 +144031,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-zaqarclient
   description: Client Library for OpenStack Zaqar Messaging API.
