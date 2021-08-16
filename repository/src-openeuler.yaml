@@ -16681,7 +16681,7 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   - name: openEuler-21.09
-    type: protected
+    type: readonly
     create_from: master
   type: public
 - name: git
