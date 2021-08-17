@@ -123941,7 +123941,8 @@ repositories:
     type: protected
     create_from: master
   type: public
-- name: rubygems-ronn
+- name: rubygem-ronn
+  rename_from: rubygems-ronn
   description: Manual authoring tool
   upstream: https://github.com/rtomayko/ronn
   branches:
