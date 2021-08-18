@@ -15,7 +15,7 @@
 - 马全一   <eli@patch.sh> [[@genedna](https://gitee.com/genedna)]
 - 郭青岚   <guoqinglan@uniontech.com> [[@blublue](https://gitee.com/blublue)]
 - weidongkl   <weidongkl@uniontech.com> [[@weidongkl](https://gitee.com/weidongkl)]
-- 石  勇 <shiyong@kylinos.com.cn> [[@stonefly](https://gitee.com/stonefly)]
+- 石  勇 <shiyong@kylinos.com.cn> [[@stonefly128](https://gitee.com/stonefly128)]
 
 ###  Committers列表
 

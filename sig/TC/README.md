@@ -29,7 +29,7 @@ openEuler技术委员会（Technical Committee，以下和TC互换使用）是op
 - 刘金刚<liujingang09@huawei.com> [[@liujingang09](https://gitee.com/liujingang09)]
 - 李永强<liyongqiang10@huawei.com> [[@charlie_li](https://gitee.com/charlie_li)]
 - 马全一<eli@patch.sh> [[@genedna](https://gitee.com/genedna)]
-- 石  勇<shiyong@kylinos.com.cn> [[@stonefly](https://gitee.com/stonefly)]
+- 石  勇<shiyong@kylinos.com.cn> [[@stonefly128](https://gitee.com/stonefly128)]
 - 王建民<jianmin@iscas.ac.cn> [[@jianminw](https://gitee.com/jianminw)]
 - 王志钢<wangzhigang17@huawei.com>  [[@cellfaint](https://gitee.com/cellfaint)]
 - 彭成寒<pengch81@hotmail.com> [[@pengryan](https://gitee.com/pengryan)]
