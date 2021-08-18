@@ -71,6 +71,7 @@ jingxiaolu
 - https://gitee.com/src-openeuler/htop
 - https://gitee.com/src-openeuler/nmon
 - https://gitee.com/src-openeuler/multitail
+- https://gitee.com/src-openeuler/nng
 - https://gitee.com/src-openeuler/cpuid
 - https://gitee.com/src-openeuler/slurm
 - https://gitee.com/src-openeuler/nethogs

@@ -46107,6 +46107,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: nng
+  description: a lightweight, broker-less library, offering a simple API to solve common recurring messaging problems.
+  upstream: https://github.com/nanomsg/nng
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: netpbm
   description: ''
   branches:
