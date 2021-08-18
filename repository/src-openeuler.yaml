@@ -81537,6 +81537,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-fido2
   upstream: https://github.com/Yubico/python-fido2
@@ -82234,6 +82237,9 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-futurist
   upstream: https://docs.openstack.org/futurist/latest/
@@ -87169,6 +87175,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-URLObject
   upstream: https://github.com/zacharyvoase/urlobject
@@ -88410,6 +88419,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.09
     type: protected
     create_from: master
   type: public
@@ -137127,6 +137139,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: openstack-neutron
   description: Neutron is an OpenStack project to provide "network connectivity as
@@ -137229,6 +137244,9 @@ repositories:
     type: protected
     create_from: master
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
+    type: protected
+    create_from: master
+  - name: openEuler-21.09
     type: protected
     create_from: master
   type: public
@@ -141536,6 +141554,9 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-PyMI
   description: Windows Management Infrastructure API for Python
@@ -141663,6 +141684,9 @@ repositories:
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
     create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: wtdbg2
   description: Wtdbg2 is a de novo sequence assembler for long noisy reads produced
@@ -143249,6 +143273,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-mitba
   description: Python library for caching results from functions and methods.
@@ -143256,6 +143283,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-scripttest
   description: Helper to test command-line scripts
@@ -143273,6 +143303,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-octaviaclient
   description: Octavia client for OpenStack Load Balancing
@@ -143300,6 +143333,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-storage-interfaces
   description: Abstract classes for representing storage-related objects.
@@ -143355,6 +143391,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-glance-tempest-plugin
   description: Tempest plugin tests for Glance.
@@ -143362,6 +143401,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-mypy-extensions
   description: Experimental type system extensions for programs checked with the mypy
@@ -143397,6 +143439,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: neo4j
   description: Neo4j is a database that stores data as graphs rather that tables.
@@ -143492,6 +143537,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-manilaclient
   description: Python bindings to the OpenStack Manila API.
@@ -143927,6 +143975,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-os-api-ref
   description: Sphinx Extensions to support API reference sites in OpenStack.
@@ -143934,6 +143985,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-nosehtmloutput
   description: Nose plugin to produce test results in html.
@@ -143961,6 +144015,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-rsd-lib
   description: Libs for Intel RackScale Design enabled hardware.
@@ -143978,6 +144035,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-keystone-tempest-plugin
   description: for keystone tempest.
@@ -143985,6 +144045,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-dfs-sdk
   description: Datera Fabric Python SDK.
@@ -143992,6 +144055,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-3parclient
   description: HPE 3PAR HTTP REST Client.
@@ -144009,6 +144075,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-murano-pkg-check
   description: Murano package validator tool.
@@ -144016,6 +144085,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-senlinclient
   description: OpenStack Clustering API Client Library.
@@ -144023,6 +144095,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-purestorage
   description: Pure Storage FlashArray REST Client.
@@ -144040,6 +144115,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-ujson
   description: Ultra fast JSON encoder and decoder for Python.
@@ -144094,6 +144172,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-responses
   description: A utility library for mocking out the requests Python library.
@@ -144161,6 +144242,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-yamllint
   description: A linter for YAML files.
