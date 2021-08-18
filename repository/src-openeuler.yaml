@@ -8013,6 +8013,22 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: collectd
+  description: 'system information collection daemon'
+  upstream: https://github.com/collectd/collectd
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  type: public 
 - name: colm
   description: a programming language designed for the analysis and transformation
     of computer languages
@@ -21315,6 +21331,22 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: highlight
+  description: 'Universal source code to formatted text converter'
+  upstream: http://www.andre-simon.de
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  type: public  
 - name: hiredis
   description: ''
   branches:
@@ -48992,6 +49024,22 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  type: public
+- name: openstack-java-sdk
+  description: 'OpenStack Java SDK'
+  upstream: https://github.com/woorea/openstack-java-sdk
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: opentest4j
   description: JVM  Open Test Alliance
@@ -79477,6 +79525,22 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: python-daemon
+  description: 'Library to implement a well-behaved Unix daemon process'
+  upstream: https://pagure.io/python-daemon
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  type: public
 - name: python-daemonize
   upstream: https://github.com/thesharp/daemonize
   description: Library to enable your code run as a daemon process on Unix-like systems.
@@ -98690,6 +98754,22 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: riemann-c-client
+  description: 'The riemann C client'
+  upstream: https://github.com/algernon/riemann-c-client
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  type: public
 - name: risc-v-kernel
   description: Linux Kernel for openEuler RISC-V
   upstream: https://gitee.com/openeuler/kernel/tree/kernel-5.5/
@@ -101956,6 +102036,22 @@ repositories:
     type: protected
     create_from: master
   type: private
+- name: snmp4j
+  description: 'The Object Oriented SNMP API for Java Managers and Agents'
+  upstream: http://www.snmp4j.org/
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  type: public
 - name: socat
   description: ''
   branches:
