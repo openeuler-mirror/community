@@ -128,6 +128,9 @@ The repositories related to oVirt are listed below, see https://resources.ovirt.
 ### Committers
 - crrs666
 
+### Contributors
+- beijing-yitong
+
 ### Mailing list
 - dev@openeuler.org
 

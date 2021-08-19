@@ -71,6 +71,9 @@ The repositories related to Ha are listed below, see http://archive.kernel.org/c
 - zhao_zhong_zhang
 - liqiuyu123
 
+### Contributors
+- beijing-yitong
+
 ### Mailing list
 - dev@openeuler.org
 
