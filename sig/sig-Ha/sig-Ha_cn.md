@@ -70,6 +70,9 @@ Ha相关软件包的仓库如下，详见： http://archive.kernel.org/centos-va
 - zhao_zhong_zhang
 - liqiuyu123
 
+### Contributors
+- beijing-yitong
+
 ### 邮件列表
 - dev@openeuler.org
 

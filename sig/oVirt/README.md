@@ -23,6 +23,9 @@
 ### Committers列表
 - 王迪[@crrs666](https://gitee.com/crrs666)
 
+### Contributors列表
+- 刘昶[@beijing-yitong](https://gitee.com/beijing-yitong)
+
 
 # 联系方式
 

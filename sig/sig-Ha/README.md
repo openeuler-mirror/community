@@ -28,6 +28,9 @@
 - 沈子俊[@zhao_zhong_zhang](https://gitee.com/zhao_zhong_zhang)
 - 李秋雨[@liqiuyu123](https://gitee.com/liqiuyu123)
 
+### Contributors列表
+- 刘昶[@beijing-yitong](https://gitee.com/beijing-yitong)
+
 
 # 联系方式
 
