@@ -25,6 +25,8 @@ Industrial-Control SIG组主要致力于将openEuler打造成适用于工业控�
 # 成员
 
 ### Maintainer列表
+- 黎亮[@liliang_euler](https://gitee.com/liliang_euler), liliang889@huawei.com
+- 张攀[@SuperHugePan](https://gitee.com/SuperHugePan), zhangpan26@huawei.com
 - 郭皓[@guohaoc2c2](https://gitee.com/guohaocs2c) , guohao@kylinos.cn
 - 吴春光[@wuchunguang](https://gitee.com/wuchunguang) , wuchunguang@kylinos.cn
 - 马玉昆[@kylin-mayukun](https://gitee.com/kylin-mayukun) , mayukun@kylinos.cn

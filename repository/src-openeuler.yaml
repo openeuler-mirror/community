@@ -142442,15 +142442,14 @@ repositories:
     type: protected
   type: public
 - name: libmodbus-xenomai
-  upstream: https://github.com/stephane/libmodbus
-  description: libmodbus is a free software library to send receive data with a device
-    which respects the Modbus protocol
+  upstream: https://code.launchpad.net/~alexandre-coffignal/libmodbus/xenomai
+  description: modified libmodbus for xenomai.
   branches:
   - name: master
     type: protected
   type: public
 - name: canfestival-xenomai
-  upstream: https://github.com/stephane/libmodbus
+  upstream: https://hg.beremiz.org/CanFestival-3
   description: CanFestival focuses on providing an ANSI-C platform independent CANOpen
     stack that can be built as master or slave nodes on PCs, Real-time IPCs, and Microcontrollers.
     Runtime code is licensed LGPLv2, whereas accompanying developer tools are licensed
