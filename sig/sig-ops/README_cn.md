@@ -25,6 +25,9 @@
 - 陈亚强     [@yaqiangchen](https://gitee.com/yaqiangchen)  Email:chenyaqiang@huawei.com
 - 丁  翔     [@cmss_dx](https://gitee.com/cmss_dx)   Email:dingxiang@cmss.Chinamobile.com
 
+## Contributors成员：
+- 方亮亮     [@fang-liangliang](https://gitee.com/fang-liangliang)   Email:fangliangliang@deepinsight.cn
+
 ## 联系方式
 - sig-ops使用邮件列表形式作为日常社区讨论方式，邮件列表地址如下：
 ops@openeuler.org
