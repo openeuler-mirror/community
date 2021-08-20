@@ -976,3 +976,15 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: G11N
+  description: openEuler globalization (G11N) SIG.
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: globalization
+  description: openEuler globalization repository.
+  branches:
+  - name: master
+    type: protected
+  type: public
