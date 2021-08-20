@@ -601,6 +601,12 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: bgmprovider
+  description: Add a provider to JDK to support GMSSL
+  branches:
+    - name: master
+      type: protected
+  type: public
 - name: gcc
   description: gcc is a generic and open source compiler
   branches:
