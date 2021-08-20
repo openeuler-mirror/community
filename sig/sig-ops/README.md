@@ -26,6 +26,9 @@ Pick up.
 - Chen Yaqiang (@yaqiangchen) (https://gite.com/yaqiangchen) Email:chenyaqiang@huawei.com
 - Ding Xiang (@cmss_dx) (https://gite.com/cmss_dx) Email: dingxiang@cmss. Chinamobile.com
 
+## Contributor：
+- Fang liangliang (@fang-liangliang) (https://gitee.com/fang-liangliang) Email: fangliangliang@deepinsight.cn
+
 ## Contact:
 - sig-ops use mailing lists as a daily form of community discussion, with mailing list addresses as follows:
 ops@openeuler.org
