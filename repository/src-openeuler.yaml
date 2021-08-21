@@ -100426,7 +100426,8 @@ repositories:
   - name: master
     type: protected
   type: public  
-- name: rubygem-faraday-net_http_persisten
+- name: rubygem-faraday-net_http_persistent
+  rename_from: rubygem-faraday-net_http_persisten
   description: Faraday adapter for NetHttpPersistent
   upstream: https://github.com/lostisland/faraday-net_http_persistent
   branches:
@@ -100447,7 +100448,8 @@ repositories:
   - name: master
     type: protected
   type: public
-- name: rubygem-ruby2_keyword
+- name: rubygem-ruby2_keywords
+  rename_from: rubygem-ruby2_keyword
   description: Shim library for Module#ruby2_keywords
   upstream: https://github.com/ruby/ruby2_keywords
   branches:
