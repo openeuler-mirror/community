@@ -108747,6 +108747,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: libcrystalhd
+  description: Broadcom Crystal HD device interface library
+  upstream: http://www.broadcom.com/support/crystal-hd/
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: lxqt-build-tools
   description: Packaging tools for LXQt
   upstream: https://github.com/lxqt/lxqt-build-tools
