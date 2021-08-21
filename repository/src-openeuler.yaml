@@ -107010,6 +107010,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: pycharm-community
+  description: pycharm-community is Powerful python IDE Community Edition
+  upstream: https://www.jetbrains.com/pycharm
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: pluma
   description: Text editor for the MATE desktop.
   upstream: https://github.com/mate-desktop/pluma
