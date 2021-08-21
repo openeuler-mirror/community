@@ -100043,6 +100043,69 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: rubygem-faraday-em_http
+  description: Faraday adapter for Em::Http
+  upstream: https://github.com/lostisland/faraday-em_http
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-faraday-em_synchrony
+  description: Faraday adapter for EM::Synchrony
+  upstream: https://github.com/lostisland/faraday-em_synchrony
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-faraday-excon
+  description: Faraday adapter for Excon
+  upstream: https://github.com/lostisland/faraday-excon
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-faraday-httpclient
+  description: Faraday adapter for HTTPClient
+  upstream: https://github.com/lostisland/faraday-httpclient
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-faraday-net_http
+  description: Faraday adapter for Net::HTTP
+  upstream: https://github.com/lostisland/faraday-net_http
+  branches:
+  - name: master
+    type: protected
+  type: public  
+- name: rubygem-faraday-net_http_persisten
+  description: Faraday adapter for NetHttpPersistent
+  upstream: https://github.com/lostisland/faraday-net_http_persistent
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-faraday-patron
+  description: Faraday adapter for Patron
+  upstream: https://github.com/lostisland/faraday-patron
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-faraday-rack
+  description: Faraday adapter for Rack
+  upstream: https://github.com/lostisland/faraday-rack
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-ruby2_keyword
+  description: Shim library for Module#ruby2_keywords
+  upstream: https://github.com/ruby/ruby2_keywords
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: rubygem-gem2rpm
   description: Generate rpm specfiles from gems
   branches:
