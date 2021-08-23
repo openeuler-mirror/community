@@ -144809,3 +144809,10 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: raspberrypi-userland
+  description: Libraries for interfacing to Raspberry Pi GPU.
+  upstream: https://github.com/raspberrypi/userland
+  branches:
+  - name: master
+    type: protected
+  type: public

@@ -35,6 +35,7 @@ RaspberryPi SIG 小组致力于将 openEuler 移植到树莓派，以降低 open
 - Rockchip 内核源码仓库：https://gitee.com/openeuler/rockchip-kernel
 - Raspberry Pi 配置工具的 SRPM 仓库：https://gitee.com/src-openeuler/raspi-config
 - Raspberry Pi GPIO 控制库的 SRPM 仓库：https://gitee.com/src-openeuler/pigpio
+- Raspberry Pi GPU 接口库的 SRPM 仓库：https://gitee.com/src-openeuler/raspberrypi-userland
 
 ## SIG 基本信息
 
