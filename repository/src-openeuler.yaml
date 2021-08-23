@@ -1066,6 +1066,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: barrier
+  description: Use a single keyboard and mouse to control multiple computers
+  upstream: https://github.com/debauchee/barrier
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: SuperLUMT
   description: Single precision real SuperLU routines for shared memory parallel machines
   upstream: http://crd-legacy.lbl.gov/~xiaoye/SuperLU/
