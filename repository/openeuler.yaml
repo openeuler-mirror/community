@@ -994,3 +994,9 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: hpc
+  description: openEuler High Performance Computing(HPC) SIG
+  branches:
+  - name: master
+    type: protected
+  type: public
