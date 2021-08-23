@@ -8573,6 +8573,9 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: cpio
   description: ''
@@ -13918,6 +13921,9 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: fence-virt
   description: Virtual machine fencing agent.
@@ -13939,6 +13945,9 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: festival
   description: ''
@@ -50998,6 +51007,9 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: pcsc-lite
   description: ''
@@ -101004,6 +101016,9 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: sbinary
   description: Library for describing binary formats for Scala types.
