@@ -1,0 +1,33 @@
+name: sig-Gatekeeper
+description: Support routine CI tasks in the community, monitor community access control and build OBS packages.
+mailing_list: gatekeeper@openeuler.org
+meeting_url: https://etherpad.openeuler.org/p/sig-gatekeeper
+mature_level: startup
+maintainers:
+- gitee_id: georgecao
+  name: George.Cao
+  email: caozhi1214@qq.com
+- gitee_id: solarhu
+  name: solarhu
+  email: solar.hu@huawei.com
+- gitee_id: wangchong1995924
+  name: chong_W
+  email: wangchong56@huawei.com
+- gitee_id: TommyLike
+  name: TommyLike
+  email: tommylikehu@gmail.com
+- gitee_id: liuqi469227928
+  name: Se7en
+  email: 469227928@qq.com
+- gitee_id: tracedeng
+  name: tracedeng.com
+  email: dengpeng15@huawei.com
+- gitee_id: disnight
+  name: disnight
+  email: fanjiachen3@huawei.com
+repositories:
+- repo: openeuler/ci-bot
+- repo: openeuler/openeuler-jenkins
+- repo: openeuler/openeuler-obs
+- repo: openeuler/openeuler-os-build
+- repo: src-openeuler/python-jenkins
