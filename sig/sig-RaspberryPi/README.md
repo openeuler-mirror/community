@@ -49,3 +49,4 @@ repository 地址：
 - https://gitee.com/openeuler/rockchip-kernel
 - https://gitee.com/src-openeuler/raspi-config
 - https://gitee.com/src-openeuler/pigpio
+- https://gitee.com/src-openeuler/raspberrypi-userland
