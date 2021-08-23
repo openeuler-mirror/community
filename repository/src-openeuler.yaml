@@ -165,6 +165,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: gedit-control-your-tabs
   description: A gedit plugin to switch between document tabs using Ctrl+Tab / Ctrl+Shift+Tab
