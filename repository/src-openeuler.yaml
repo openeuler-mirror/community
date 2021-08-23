@@ -143837,6 +143837,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-ntc-templates
   description: TextFSM Templates for Network Devices, and Python wrapper for TextFSM's
@@ -144109,6 +144112,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-hidapi
   description: A Cython interface to the hidapi.
