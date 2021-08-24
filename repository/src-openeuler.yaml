@@ -48282,6 +48282,26 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: openapi-schema-validator
+  description: OpenAPI schema validator for Python
+  upstream: https://github.com/p1c2u/openapi-schema-validator
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
+  type: public
+- name: openapi-spec-validator
+  description: OpenAPI Spec validator
+  upstream: https://github.com/p1c2u/openapi-spec-validator
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
+  type: public
 - name: openblas
   description: ''
   branches:
@@ -74891,6 +74911,16 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: python-connexion
+  upstream: https://github.com/zalando/connexion
+  description: Swagger/OpenAPI First framework for python on top of Flask
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
+  type: public
 - name: python-Flask-Admin
   upstream: https://github.com/flask-admin/flask-admin/
   description: Simple and extensible admin interface framework for Flask
@@ -78640,6 +78670,16 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: python-clickclick
+  upstream: https://codeberg.org/hjacobs/python-clickclick
+  description: Utility functions for the wonderful Click library
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
+  type: public
 - name: python-click-completion
   upstream: https://github.com/click-contrib/click-completion
   description: Fish, Bash, Zsh and PowerShell completion for Click
@@ -81952,6 +81992,16 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: python-flask-testing
+  upstream: https://github.com/jarus/flask-testing
+  description: Unit testing support for Flask
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
+  type: public
 - name: python-flask-session
   description: Adds server-side session support to your Flask application
   upstream: https://github.com/fengsp/flask-session
@@ -83482,6 +83532,16 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  type: public
+- name: python-icdiff
+  upstream: https://github.com/jeffkaufman/icdiff
+  description: Improved colored diff
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-21.09
     type: protected
     create_from: master
   type: public
@@ -85071,6 +85131,16 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  type: public
+- name: python-libyang
+  description: Python CFFI bindings to libyang
+  upstream: https://github.com/CESNET/libyang-python
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-21.09
     type: protected
     create_from: master
   type: public
@@ -87307,6 +87377,16 @@ repositories:
 - name: python-infi.dtypes.iqn
   upstream: https://github.com/infinidat/infi.dtypes.iqn
   description: IQN datatype in Python Datatype for iSCSI IQN in Python.
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
+  type: public
+- name: python-inflection
+  upstream: https://github.com/jpvanhal/inflection
+  description: A port of Ruby on Rails' inflector to python
   branches:
   - name: master
     type: protected
@@ -91564,6 +91644,16 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: python-randomize
+  upstream: http://github.com/nloadholtes/nose-randomize
+  description: A plugin to allow nose to run tests in a random order
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
+  type: public
 - name: python-rangehttpserver
   upstream: https://github.com/danvk/RangeHTTPServer/
   description: SimpleHTTPServer with support for Range requests
@@ -92074,6 +92164,16 @@ repositories:
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
+  type: public
+- name: python-rfc3339-validator
+  upstream: https://github.com/naimetti/rfc3339-validator
+  description: A pure python RFC3339 validator
+  branches:
+  - name: master
+    type: protected
   - name: openEuler-21.09
     type: protected
     create_from: master
@@ -93971,6 +94071,16 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  type: public
+- name: python-strict-rfc3339
+  upstream: https://pypi.org/project/strict-rfc3339
+  description: Date and Time on the Internet - Timestamps base on rfc3339
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-stuf
   upstream: https://bitbucket.org/lcrees/stuf
@@ -116006,6 +116116,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: libtins
   description: High-level, multiplatform C++ network packet sniffing and crafting
@@ -130326,6 +130439,26 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: swagger-spec-validator
+  description: A python library that validates Swagger Specs.
+  upstream: https://github.com/Yelp/swagger_spec_validator
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
+  type: public
+- name: swagger-ui-bundle
+  description: bundled swagger-ui pip package
+  upstream: https://github.com/dtkav/swagger-ui-bundle
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
+  type: public
 - name: swt-chart
   description: SWTChart Feature
   upstream: http://www.swtchart.org/
@@ -138687,6 +138820,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: spdk
   description: The Storage Performance Development Kit (SPDK) provides a set of tools
