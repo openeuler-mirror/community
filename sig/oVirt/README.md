@@ -123,3 +123,7 @@ repository地址：
 - https://gitee.com/src-openeuler/python-daemon
 - https://gitee.com/src-openeuler/riemann-c-client
 - https://gitee.com/src-openeuler/snmp4j
+- https://gitee.com/src-openeuler/makeself
+- https://gitee.com/src-openeuler/ovirt-ansible-collection
+- https://gitee.com/src-openeuler/ovirt-dependencies
+- https://gitee.com/src-openeuler/linux-system-roles

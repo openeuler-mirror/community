@@ -40136,6 +40136,22 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: linux-system-roles
+  description: 'Set of interfaces for unified system management'
+  upstream: https://github.com/linux-system-roles
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  type: public
 - name: lklug-fonts
   description: ''
   branches:
@@ -41890,6 +41906,22 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  type: public
+- name: makeself
+  description: 'A shell script that generates a self-extractable tar.gz archive from a directory'
+  upstream: http://makeself.io/
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: malaga
   description: ''
@@ -49652,6 +49684,22 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: ovirt-ansible-collection
+  description: 'Ansible collection to manage all ovirt modules and inventory'
+  upstream: http://www.ovirt.org
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  type: public
 - name: ovirt-ansible-disaster-recovery
   description: ''
   branches:
@@ -49770,6 +49818,22 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: ovirt-dependencies
+  description: 'oVirt 3rd party dependencies'
+  upstream: http://www.ovirt.org
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  type: public 
 - name: ovirt-engine
   description: ''
   branches:
