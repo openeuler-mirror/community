@@ -734,6 +734,15 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: blackbox_exporter
   description: The blackbox exporter allows blackbox probing of endpoints over HTTP,
@@ -74691,6 +74700,15 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: python-CouchDB
   upstream: https://github.com/djc/couchdb-python/
@@ -82315,6 +82333,15 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: python-fusepy
   upstream: http://github.com/fusepy/fusepy
@@ -88199,6 +88226,15 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: python-parso
   upstream: https://github.com/davidhalter/parso
@@ -94279,6 +94315,15 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: python-test-server
   upstream: https://github.com/lorien/test_server
@@ -136972,6 +137017,15 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: libfastcommon
   description: c common functions library extracted from my open source projects FastDFS
@@ -136979,6 +137033,15 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: cryptopp
   description: free C++ Class Library of Cryptographic Schemes
@@ -137069,6 +137132,15 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: rubygem-cool.io
   description: A cool framework for doing high performace I/O in Ruby.
@@ -137076,6 +137148,15 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: rubygem-dig_rb
   description: Array/Hash/Struct#dig backfill for ruby.
@@ -137083,6 +137164,15 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: rubygem-http_parser
   description: Simple callback-based HTTP request/response parser.
@@ -137090,6 +137180,15 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: rubygem-serverengine
   description: ServerEngine - multiprocess server framework.
@@ -137097,6 +137196,15 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: rubygem-sigdump
   description: Setup signal handler which dumps backtrace of running threads and number of allocated objects per class.
@@ -137104,6 +137212,15 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: rubygem-strptime
   description: A fast strptime/strftime engine.
@@ -137111,6 +137228,15 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: rubygem-tzinfo-data
   description: Timezone Data for TZInfo.
@@ -137118,6 +137244,15 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: rubygem-webrick
   description: HTTP server toolkit.
@@ -137125,6 +137260,15 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: rubygem-yajl-ruby
   description: Ruby C bindings to the excellent Yajl JSON stream-based parser library.
@@ -137132,6 +137276,15 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: jboss-negotiation
   description: JBoss Negotiation
@@ -140087,6 +140240,15 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: python-authres
   description: authres - Authentication Results Header Module
@@ -140140,6 +140302,15 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: python-zope-hookable
   description: Zope hookable
@@ -140153,6 +140324,15 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: python-zope-configuration
   description: Zope Configuration Markup Language (ZCML)
@@ -140192,6 +140372,15 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: python-gunicorn
   description: WSGI HTTP Server for UNIX
@@ -140247,6 +140436,15 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: google-roboto-slab-fonts
   description: Roboto Slab Font Project by Google
@@ -143418,6 +143616,15 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: ioping
   upstream: https://github.com/koct9i/ioping
@@ -144666,6 +144873,15 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: python-moto
   description: A library that allows your python tests to easily mock out the boto
