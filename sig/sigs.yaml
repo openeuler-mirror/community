@@ -6240,6 +6240,10 @@ sigs:
   - src-openeuler/perl-pmtools
 - name: sig-python-modules
   repositories:
+  - src-openeuler/openapi-schema-validator
+  - src-openeuler/openapi-spec-validator
+  - src-openeuler/swagger-spec-validator
+  - src-openeuler/swagger-ui-bundle
   - src-openeuler/ptpython
   - src-openeuler/py3c
   - src-openeuler/pyorbit
@@ -6253,6 +6257,8 @@ sigs:
   - src-openeuler/python-cached_property
   - src-openeuler/python-cherrypy
   - src-openeuler/python-constantly
+  - src-openeuler/python-clickclick
+  - src-openeuler/python-connexion
   - src-openeuler/python-contextlib2
   - src-openeuler/python-cssselect
   - src-openeuler/python-cycler
@@ -6269,6 +6275,8 @@ sigs:
   - src-openeuler/python-hupper
   - src-openeuler/python-hyperlink
   - src-openeuler/python-importlib-metadata
+  - src-openeuler/python-icdiff
+  - src-openeuler/python-inflection
   - src-openeuler/python-incremental
   - src-openeuler/python-iptools
   - src-openeuler/python-jira
@@ -6330,6 +6338,7 @@ sigs:
   - src-openeuler/python-joblib
   - src-openeuler/python-hwdata
   - src-openeuler/python-flask-restful
+  - src-openeuler/python-flask-testing
   - src-openeuler/python-docker-pycreds
   - src-openeuler/python-dict2xml
   - src-openeuler/python-aniso8601
@@ -6842,6 +6851,7 @@ sigs:
   - src-openeuler/python-libusb1
   - src-openeuler/python-libvoikko
   - src-openeuler/python-lightgbm
+  - src-openeuler/python-libyang
   - src-openeuler/python-liquidctl
   - src-openeuler/python-listparser
   - src-openeuler/python-littleutils
@@ -7147,6 +7157,7 @@ sigs:
   - src-openeuler/python-quantities
   - src-openeuler/python-queuelib
   - src-openeuler/python-random2
+  - src-openeuler/python-randomize
   - src-openeuler/python-rangehttpserver
   - src-openeuler/python-rarfile
   - src-openeuler/python-ratelimitingfilter
@@ -7169,6 +7180,7 @@ sigs:
   - src-openeuler/python-retask
   - src-openeuler/python-retrying
   - src-openeuler/python-retryz
+  - src-openeuler/python-rfc3339-validator
   - src-openeuler/python-rfc3986
   - src-openeuler/python-ripozo
   - src-openeuler/python-rjsmin
@@ -7286,6 +7298,7 @@ sigs:
   - src-openeuler/python-tabulate
   - src-openeuler/python-tambo
   - src-openeuler/python-tasklib
+  - src-openeuler/python-strict-rfc3339
   - src-openeuler/python-tbgrep
   - src-openeuler/python-tblib
   - src-openeuler/python-tbtrim
