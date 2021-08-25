@@ -3899,12 +3899,15 @@ sigs:
   repositories:
   - src-openeuler/ioprocess
   - src-openeuler/cockpit-ovirt
+  - src-openeuler/ansible-runner-service
   - src-openeuler/collectd
   - src-openeuler/engine-db-query
   - src-openeuler/go-ovirt-engine-sdk4
   - src-openeuler/highlight
   - src-openeuler/imgbased
   - src-openeuler/java-ovirt-engine-sdk4
+  - src-openeuler/linux-system-roles
+  - src-openeuler/makeself
   - src-openeuler/mingw-spice-vdagent
   - src-openeuler/mom
   - src-openeuler/nsis-simple-service-plugin
@@ -3912,6 +3915,7 @@ sigs:
   - src-openeuler/otopi
   - src-openeuler/ovirt-ansible-cluster-upgrade
   - src-openeuler/ovirt-ansible-disaster-recovery
+  - src-openeuler/ovirt-ansible-collection
   - src-openeuler/ovirt-ansible-engine-setup
   - src-openeuler/ovirt-ansible-hosted-engine-setup
   - src-openeuler/ovirt-ansible-image-template
@@ -3923,6 +3927,7 @@ sigs:
   - src-openeuler/ovirt-ansible-v2v-conversion-host
   - src-openeuler/ovirt-ansible-vm-infra
   - src-openeuler/ovirt-cockpit-sso
+  - src-openeuler/ovirt-dependencies
   - src-openeuler/ovirt-engine
   - src-openeuler/ovirt-engine-api-explorer
   - src-openeuler/ovirt-engine-appliance
@@ -3960,6 +3965,7 @@ sigs:
   - src-openeuler/ovirt-web-ui
   - src-openeuler/nmstate
   - src-openeuler/unboundid-ldapsdk
+  - src-openeuler/python-ansible-runner
   - src-openeuler/python-daemon
   - src-openeuler/python-ovirt-engine-sdk4
   - src-openeuler/riemann-c-client
