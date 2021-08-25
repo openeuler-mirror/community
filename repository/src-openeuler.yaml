@@ -13640,6 +13640,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: fcitx-configtool
   description: Gtk+-based configuring tools for Fcitx
@@ -13650,6 +13653,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: fcitx-libpinyin
   description: libpinyin wrapper for fcitx
@@ -13657,6 +13663,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: fcitx-qt5
   upstream: https://github.com/fcitx/fcitx-qt5
@@ -13664,6 +13673,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: fcoe-utils
   description: ''
@@ -25868,6 +25880,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: ima-evm-utils
   description: ''
@@ -25961,6 +25976,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.09
     type: protected
     create_from: master
   type: public
@@ -107346,6 +107364,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: kylin-usb-creator
   description: kylin-usb-creator.
@@ -107372,6 +107393,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: kylin-video
   description: Front-end for MPlayer and MPV.
@@ -107379,6 +107403,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: kylin-software-center
   description: A graphical tool to manage installed packages.
@@ -107412,6 +107439,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: pluma
   description: Text editor for the MATE desktop.
@@ -109156,6 +109186,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: lxqt-build-tools
   description: Packaging tools for LXQt
@@ -109731,6 +109764,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.09
     type: protected
     create_from: master
   type: public
@@ -140342,6 +140378,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: fcitx-sunpinyin
   description: Sunpinyin Wrapper for Fcitx
@@ -140349,6 +140388,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: sunpinyin
   description: A statistical language model based Chinese input method engine
@@ -140356,6 +140398,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-kombu
   description: Kombu is a messaging library for Python.
