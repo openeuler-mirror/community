@@ -127,3 +127,5 @@ repository地址：
 - https://gitee.com/src-openeuler/ovirt-ansible-collection
 - https://gitee.com/src-openeuler/ovirt-dependencies
 - https://gitee.com/src-openeuler/linux-system-roles
+- https://gitee.com/src-openeuler/ansible-runner-service
+- https://gitee.com/src-openeuler/python-ansible-runner
