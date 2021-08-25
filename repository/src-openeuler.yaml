@@ -142849,6 +142849,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: pigpio
   description: Library for the Raspberry which allows control of GPIO
@@ -142856,6 +142859,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: nodejs-file-loader
   upstream: https://github.com/webpack-contrib/file-loader
