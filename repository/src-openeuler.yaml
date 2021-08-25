@@ -79913,6 +79913,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-dateutil
   description: ''
@@ -82879,6 +82882,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.09
     type: protected
     create_from: master
   type: public
@@ -86813,6 +86819,9 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-ntplib
   description: ''
@@ -89525,6 +89534,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-prompt_toolkit
   description: Library for building powerful interactive command lines in Python.
@@ -91122,6 +91134,9 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-pytest-helpers-namespace
   upstream: https://github.com/saltstack/pytest-helpers-namespace
@@ -91493,6 +91508,9 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-pytest-xprocess
   upstream: https://github.com/pytest-dev/pytest-xprocess/
@@ -91628,6 +91646,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-21.09
     type: protected
     create_from: master
   type: public
@@ -92175,6 +92196,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: openEuler-21.09
     type: protected
     create_from: master
   type: public
@@ -93704,6 +93728,9 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-sphinx-theme-alabaster
   description: ''
@@ -94212,6 +94239,9 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-strict-rfc3339
   upstream: https://pypi.org/project/strict-rfc3339
@@ -95021,6 +95051,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-trustme
   upstream: https://github.com/python-trio/trustme
@@ -96207,6 +96240,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
+    type: protected
+    create_from: master
+  - name: openEuler-21.09
     type: protected
     create_from: master
   type: public
