@@ -139864,6 +139864,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-pydot
   description: pydot is an interface to Graphviz,can parse and dump into the DOT language
@@ -139967,6 +139970,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: openresty-openssl
   description: OpenSSL library for OpenResty
@@ -139974,6 +139980,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: openresty-pcre
   description: Perl-compatible regular expression library for OpenResty
@@ -139981,6 +139990,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: openresty-valgrind
   description: The Valgrind debug version of OpenResty
@@ -139988,6 +140000,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: openresty-zlib
   description: The zlib compression library for OpenResty
@@ -139995,6 +140010,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: python-osprofiler
   description: OSProfiler provides a tiny but powerful library that is used by most
