@@ -2006,6 +2006,9 @@ repositories:
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
@@ -49913,13 +49916,23 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   type: public 
 - name: ovirt-engine
-  description: ''
+  description: 'Managment server for open virtualization'
+  upstream: http://www.ovirt.org
   branches:
   - name: master
     type: protected
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: ovirt-engine-api-explorer
   description: ''
@@ -49949,13 +49962,23 @@ repositories:
     create_from: master
   type: public
 - name: ovirt-engine-dwh
-  description: ''
+  description: 'Data warehouse package for oVirt Virtualization Suite'
+  upstream: http://www.ovirt.org
   branches:
   - name: master
     type: protected
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: ovirt-engine-extension-aaa-ldap
   description: ''
@@ -49976,13 +49999,23 @@ repositories:
     create_from: master
   type: public
 - name: ovirt-engine-metrics
-  description: ''
+  description: 'allows configuring an ovirt installation to send metrics'
+  upstream: http://www.ovirt.org
   branches:
   - name: master
     type: protected
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: ovirt-engine-nodejs
   description: ''
@@ -49994,22 +50027,42 @@ repositories:
     create_from: master
   type: public
 - name: ovirt-engine-nodejs-modules
-  description: ''
+  description: 'Node.js modules required to build oVirt JavaScript applications'
+  upstream: http://www.ovirt.org
   branches:
   - name: master
     type: protected
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: ovirt-engine-ui-extensions
-  description: ''
+  description: 'UI plugin that provides various extensions to ovirt administration UI'
+  upstream: http://www.ovirt.org
   branches:
   - name: master
     type: protected
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: ovirt-engine-wildfly
   description: 'contains scripts to create wildfly RPM package from officially released ZIP file, which required to run ovirt engine'
@@ -50194,13 +50247,23 @@ repositories:
     create_from: master
   type: public
 - name: ovirt-provider-ovn
-  description: ''
+  description: 'The oVirt external network provider for OVN'
+  upstream: http://www.ovirt.org
   branches:
   - name: master
     type: protected
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: ovirt-release43
   description: ''
@@ -50240,13 +50303,23 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: ovirt-vmconsole
-  description: ''
+  description: 'oVirt VM console'
+  upstream: http://www.ovirt.org
   branches:
   - name: master
     type: protected
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: ovirt-web-ui
   description: 'modern lightweight UI for standard ovirt users'
@@ -94202,6 +94275,15 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: python-stevedore
   upstream: https://docs.openstack.org/stevedore/latest/
@@ -94224,6 +94306,15 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: python-stomper
   upstream: https://github.com/oisinmulvihill/stomper
@@ -95886,6 +95977,15 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: python-webassets
   upstream: http://github.com/miracle2k/webassets/
@@ -107889,6 +107989,15 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: grantlee
   description: Qt string template engine based on the Django template system
@@ -110635,13 +110744,23 @@ repositories:
     create_from: master
   type: public
 - name: vdsm
-  description: ''
+  description: 'Virtual desktop server manager'
+  upstream: http://www.ovirt.org/develop/developer-guide/vdsm/vdsm
   branches:
   - name: master
     type: protected
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: vdsm-jsonrpc-java
   description: 'JsonRpc java client for oVirt'
@@ -139809,6 +139928,15 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: mod_perl
   description: An embedded Perl interpreter for the Apache HTTP Server
@@ -140153,6 +140281,15 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: python-sushy
   description: Sushy is a Python library to communicate with Redfish based systems
@@ -140385,6 +140522,12 @@ repositories:
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -141011,6 +141154,15 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: python-requests-mock
   description: Mocked responses for the requests library.
