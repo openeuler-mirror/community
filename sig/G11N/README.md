@@ -1,84 +1,86 @@
-- # README
-## What is G11N SIG
+## G11N
 
-This is the repository for the openEuler globalization (G11N) SIG.
+G11N为全球化（Globalization）缩写。
 
-The SIG aims to accelerate the globalization of openEuler and make openEuler ubiquitously accessible to people of all language backgrounds. It provides a platform for people who are devoted to the globalization of openEuler community and those who need professional language assistance.
+本软件仓专用于openEuler G11N特别兴趣小组相关资源。
 
-The SIG will take responsibilities for the Internationalization (I18N) and Localization (L10N) of openEuler, which includes:  
+G11N特别兴趣小组旨在向全球不同语言背景的openEuler开发者提供专业语言服务平台，向国内开发者普及全球化能力，跨越语言和文化障碍，壮大openEuler社区，使openEuler惠及更多开发者。 
 
-- Community globalization  
+本SIG将负责openEuler的国际化（I18N）和本地化（L10N），包括：
 
-  The SIG welcomes contributors from all over the world to help translate openEuler to multiple languages. It offers multilingual support, globalization and cultural communication skills, and serves as a localization platform for openEuler.
+- 社区全球化  
 
-  1. Multilingual support
+  本SIG欢迎来自世界各地的contributor将openEuler翻译成多种语言。我们将为翻译人员提供多语言专业支持、全球化和文化传播技能讲解，并作为openEuler的本地化平台。
 
-     If you are interested in openEuler and want to translate openEuler to your own language, you can join our existing translation teams or start a new team if there is none appointed for your language.
+  1. 多语种支持
 
-     This SIG will provide the following documents to assist your translation effort:
+     如果您对openEuler感兴趣，并希望将openEuler翻译为您自己的语言，欢迎加入我们现有的翻译团队，如果现有团队中没有您的语言，可您可以申请成立一个新团队。
 
-     - *Translation Team Creation Guide*
-     - *Translation Team Creation Checklist*
-     - *Translation Team Mailing List*
-     - *Upstream Team Cooperation Guide*
-     - *Team Communication Strategies*
-     - *FAQs*
+     本SIG将提供以下文档以帮助您的翻译工作：
 
-  2. Globalization and localization support
+     - *翻译团队创建指南*
+     - *翻译团队创建检查表*
+     - *翻译团队邮件列表*
+     - *上游团队协作指南*
+     - *团队沟通策略*
+     - *常见问题解答*
 
-     To further support translation teams and help openEuler developers lower the barrier for contributions, the SIG will also open several columns regarding:
+  2. 全球化和本地化支持
 
-     - Translation best practices
-     - Globalization principles 
-     - Cultural taboos 
-     - Standard localization processes
-     - Tips for website globalization test 
-     - Translation and localization skills
+     为进一步支持翻译团队运作，并帮助openEuler开发人员降低贡献的门槛，本SIG还将提供以下几方面的内容：
 
-- Industry insights 
+     - 翻译最佳实践
+     - 全球化原则 
+     - 文化禁忌
+     - 标准本地化流程
+     - 网站全球化测试指导 
+     - 翻译与本地化技巧
 
-  The SIG will translate and share open source industry insights, including analyst reports, industry news, and more relevant contents for developers to better construct the community. Members will also write blogs regularly for further discussions about the trending topics of open source communities and OS development.
+- 行业洞察
 
-## How to use
+  本SIG将翻译和分享开源行业见解，包括分析师报告、行业新闻和更多相关内容，供开发人员更好地构建社区。SIG组成员还将定期撰写博客，进一步讨论开源社区和操作系统开发的热门话题。
 
-If you are interested in providing your native language support in expanding openEuler global influence, please check for and join an existing translation team or create a new one. Please follow the *Translation Team Creation Guide* to file an application. New applications will be thoroughly considered before acceptance. 
+## 组织会议
 
-In addition, feel free to join the SIG meeting and discuss the globalization insights with us. You can find the meeting minutes and all related materials in the *Documentation* folder.
+如果您有兴趣为openEuler提供母语支持，扩大openEuler全球影响力，可以检索并加入现有的翻译团队，或创建一个新的翻译团队。请按照翻译团队创建指南提交申请，我们在评审之后会通过您的申请。
 
-SIG meetings will be held regularly for knowledge sharing and Q&A. For the meeting schedule, see xxx (待补充网址).
+此外，您还可以随时参加SIG会议，与我们讨论全球化的相关话题。您可以在*文档*文件夹中找到会议纪要和所有相关材料。
 
-Stay tuned for more events!
+我们的SIG会议将定期召开，进行知识分享和相关议题讨论，会议时间安排请参见（待补充网址）。
 
-## Contributing
+更多活动，敬请期待！
 
-### How to contribute
+## 参与贡献
 
-Contributions are welcomed, please [send an email to us](https://openeuler.org/en/community/mailing-list) or create a new issue (待补充网址) if you have new ideas on globalization. 
+### 如何参与
 
-For details, see the [community contribution guidelines](https://github.com/freeCodeCamp/how-to-contribute-to-open-source).
+欢迎大家参与openEuler的全球化项目，如有对项目的建议和意见，请 [发邮件到邮件列表](https://openeuler.org/community/mailing-list)或提交一个新的issue单 （待补充网址）。
 
-### Contributors
+具体内容请参见 [社区贡献指南](https://github.com/freeCodeCamp/how-to-contribute-to-open-source).
 
-judithsq
+### 成员
 
-liupengroc
+Maintainer列表：
 
-hcy1012
+- @judithsq
+- @liupengroc
+- @hcy1012
+- @lshelen
+- @zwyopen2021
+- @yanhuiling
 
-lshelen
+## 联系方式
 
-zwyopen2021
+- 邮件列表：[g11n@openeuler.org](mailto:g11n@openeuler.org)
 
-yanhuiling
+##  项目清单
 
-## Documents
+项目名称：
 
-To be supplemented
+repository地址：
 
-## Disclaimer
+- https://gitee.com/openeuler/G11N
+- https://gitee.com/openeuler/globalization
 
-To be supplemented
 
-## Links
 
-To be supplemented
