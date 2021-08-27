@@ -105,7 +105,6 @@ Note: The Charter of this SIG follows the convention described in the openEuler 
 
 ## Maintainers
   - [sinever](https://gitee.com/sinever)
-  - [hubble_zhu](https://gitee.com/hubble_zhu)
   - [myeuler](https://gitee.com/myeuler)
 
 ## Committers
