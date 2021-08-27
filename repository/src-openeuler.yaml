@@ -139436,6 +139436,9 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: execstack
   description: This package is built from prelink sources but contains just the execstack
@@ -139457,6 +139460,9 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: google-api-python-client
   description: Written by Google, this library provides a small, flexible, and powerful
@@ -139596,6 +139602,9 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: lcdf-typetools
   description: Collection of Type 1 and 2 font manipulation utilities
@@ -139758,6 +139767,9 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: jing-trang
   description: Jing is a RELAX NG validator written in Java.It implements the RELAX
@@ -139779,6 +139791,9 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-21.09
+    type: protected
+    create_from: master
   type: public
 - name: easy-checker
   description: A series of checking tools used in openEuler community
