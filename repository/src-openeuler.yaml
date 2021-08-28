@@ -144533,6 +144533,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: isa-l
+  description: Intelligent Storage Acceleration Library.
+  upstream: https://github.com/intel/isa-l
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: oozie
   description: A work-flow scheduling system for Apache Hadoop.
   upstream: https://github.com/apache/oozie
