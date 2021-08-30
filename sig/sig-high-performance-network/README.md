@@ -42,7 +42,7 @@ Please [readme](./Vision-en.md)
 - wuchangye@huawei.com
 - liuxin264@huawei.com
 - humin29@huawei.com
-- liweihang@huawei.com
+- liyangyang20@huawei.com
 
 ### Committer列表
 
