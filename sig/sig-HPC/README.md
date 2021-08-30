@@ -46,3 +46,7 @@ Through the establishment of the openEuler HPC SIG, HPC developers and users are
 ## 联系方式
 
 - [邮件列表](dev@openeuler.org)
+
+## HPC Software List
+
+- Lammps - [https://gitee.com/src-openeuler/lammps](https://gitee.com/src-openeuler/lammps)

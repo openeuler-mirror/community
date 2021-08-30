@@ -46,3 +46,7 @@ openEuler HPC SIG的成员已在HPC气象、制造、分子动力学等领域Top
 ## 联系方式
 
 - [邮件列表](dev@openeuler.org)
+
+## HPC软件列表
+
+- Lammps - [https://gitee.com/src-openeuler/lammps](https://gitee.com/src-openeuler/lammps)
