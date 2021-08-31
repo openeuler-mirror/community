@@ -24,6 +24,7 @@
 - chenmingmin[@chenmingmin](https://gitee.com/chenmingmin)
 - licihua[@licihua](https://gitee.com/licihua)
 - shanshishi[@shanshishi](https://gitee.com/shanshishi)
+- gaoruoshu[@gaoruoshu](https://gitee.com/gaoruoshu)
 
 
 # 联系方式
