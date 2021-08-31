@@ -359,9 +359,9 @@ openEuler 发行版分为创新版本和稳定版本（也说长期维护版本�
 
 ###  Maintainer列表
 
-- 郭寒军[@guohanjun]
-- 谢秀奇[@xiexiuqi]
-- 杨颖梁[@yangyingliang]
+- 成坚 @gatieme
+- 谢秀奇 @xiexiuqi
+- 杨颖梁 @yangyingliang
 
 ### Committer列表
 
