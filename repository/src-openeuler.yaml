@@ -137933,6 +137933,20 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: rubygem-fluent-plugin-elasticsearch
+  description: Elasticsearch output plugin for Fluent event collector
+  upstream: https://github.com/uken/fluent-plugin-elasticsearch
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rubygem-elasticsearch-ruby
+  description: Ruby integrations for Elasticsearch
+  upstream: https://github.com/elastic/elasticsearch-ruby
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: rubygem-cool.io
   description: A cool framework for doing high performace I/O in Ruby.
   upstream: https://github.com/tarcieri/cool.io
