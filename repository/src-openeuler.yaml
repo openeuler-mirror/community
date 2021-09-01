@@ -42515,6 +42515,16 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: wireless-regdb
+  description: Wireless regulatory database for CRDA
+  upstream: https://git.kernel.org/pub/scm/linux/kernel/git/sforshee/wireless-regdb.git/
+  branches:
+  - name: master 
+    type: protected
+  - name: openEuler-21.09
+    type: protected                                                                                                        
+    create_from: master 
+  type: public 
 - name: mate-polkit
   description: Authentication Agent for PolicyKit and MATE
   upstream: https://github.com/mate-desktop/mate-polkit
