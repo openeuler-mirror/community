@@ -43,6 +43,7 @@ https://gitee.com/openeuler/community/tree/master/sig/sig-ROS/
 - xiao_yun_wang
 - davidhan008
 - simonaxi
+- chen_jiayou
 
 ### 邮件列表
 - dev@openeuler.org
