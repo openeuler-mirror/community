@@ -21,7 +21,7 @@
 ## 当前sig maintainer成员：
 - 栾建海     [@luanjianhai](https://gitee.com/luanjianhai)  Email:luanjianhai@huawei.com
 - 胡  峰     [@solarhu](https://gitee.com/solarhu)   Email:solar.hu@huawei.com
-- 陈  功     [@Gongchen](https://gitee.com/Gongchen)   Email:chengong15@huawei.com
+- 陈  功     [@clumsycg](https://gitee.com/clumsycg)   Email:chengong15@huawei.com
 - 陈亚强     [@yaqiangchen](https://gitee.com/yaqiangchen)  Email:chenyaqiang@huawei.com
 - 丁  翔     [@cmss_dx](https://gitee.com/cmss_dx)   Email:dingxiang@cmss.Chinamobile.com
 
