@@ -30,7 +30,7 @@
 - 项目名称：
   - 交付件形式：源码、tar包或兼而有之
   - repository1名称：[okhttp](https://gitee.com/src-openeuler/okhttp)
-
+  - repository2名称：[sentencepiece](https://gitee.com/src-openeuler/sentencepiece)
 
 
 
