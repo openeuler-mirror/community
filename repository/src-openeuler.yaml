@@ -144998,6 +144998,13 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: trafficserver
+  description: Apache Traffic Server, a reverse, forward and transparent HTTP proxy cache
+  upstream: https://trafficserver.apache.org
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: oozie
   description: A work-flow scheduling system for Apache Hadoop.
   upstream: https://github.com/apache/oozie
