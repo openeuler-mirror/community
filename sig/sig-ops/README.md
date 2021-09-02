@@ -20,11 +20,11 @@ Pick up.
 ### Note: The sig regular meeting is openly discussed in the form of an online meeting with zoom, and any participants interested in related topics can attend, and each of our > regular meetings will focus on the declared topics within the sig, so as to provide a more efficient and meaningful regular meeting;
 
 ## Maintainer:
-- Luan Jianhai (@luanjianhai) (https://gite.com/luanjianhai) Email:luanjianhai@huawei.com
-- Hu Feng (@solarhu) (https://gite.com/solarhu) Email:solar.hu@huawei.com
-- Chen Gong (@Gongchen) (https://gite.com/Gongchen) Email:chengong15@huawei.com
-- Chen Yaqiang (@yaqiangchen) (https://gite.com/yaqiangchen) Email:chenyaqiang@huawei.com
-- Ding Xiang (@cmss_dx) (https://gite.com/cmss_dx) Email: dingxiang@cmss. Chinamobile.com
+- Luan Jianhai (@luanjianhai) (https://gitee.com/luanjianhai) Email:luanjianhai@huawei.com
+- Hu Feng (@solarhu) (https://gitee.com/solarhu) Email:solar.hu@huawei.com
+- Chen Gong (@clumsycg) (https://gitee.com/clumsycg) Email:chengong15@huawei.com
+- Chen Yaqiang (@yaqiangchen) (https://gitee.com/yaqiangchen) Email:chenyaqiang@huawei.com
+- Ding Xiang (@cmss_dx) (https://gitee.com/cmss_dx) Email: dingxiang@cmss. Chinamobile.com
 
 ## Contributor：
 - Fang liangliang (@fang-liangliang) (https://gitee.com/fang-liangliang) Email: fangliangliang@deepinsight.cn
