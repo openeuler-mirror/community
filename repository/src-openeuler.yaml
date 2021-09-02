@@ -146311,3 +146311,10 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: sentencepiece
+  description: An unsupervised text tokenizer and detokenizer.
+  upstream: https://github.com/google/sentencepiece
+  branches:
+  - name: master
+    type: protected
+  type: public

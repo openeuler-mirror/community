@@ -29,6 +29,8 @@ What and in what form the SIG is responsible for delivering
 
 - [okhttp](https://gitee.com/src-openeuler/okhttp)
 
+- [sentencepiece](https://gitee.com/src-openeuler/sentencepiece)
+
 
 ### Cross-domain and external-oriented processes
 
