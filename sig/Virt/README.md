@@ -17,35 +17,37 @@
 
 ### OutStanding Contributor List
 
-- zhanghailiang[@zhanghailiang](https://gitee.com/zhanghailiang_lucky)
-- RootWB[@RootWB](https://gitee.com/RootWB)
-- ZhiGang[@ZhiGang](https://gitee.com/cellfaint)
+- 张海亮[@zhanghailiang_lucky](https://gitee.com/zhanghailiang_lucky)
+- 吴斌[@RootWB](https://gitee.com/RootWB)
+- 王志钢[@cellfaint](https://gitee.com/cellfaint)
 
 ### Maintainer List
 
-- alexchen[@alexchen](https://gitee.com/zhendongchen)
-- imxcc[@imxcc](https://gitee.com/imxcc)
-- Chuan[@Chuan](https://gitee.com/Chuan-Zheng)
-- KevinZhu[@KevinZhu](https://gitee.com/kevinzhu1)
-- frankyj915[@frankyj915](https://gitee.com/frankyj915)
+- 陈振东[@zhendongchen](https://gitee.com/zhendongchen)
+- 邢超超[@imxcc](https://gitee.com/imxcc)
+- 郑川[@Chuan-Zheng](https://gitee.com/Chuan-Zheng)
+- 朱科潜[@kevinzhu1](https://gitee.com/kevinzhu1)
+- 杨杰[@frankyj915](https://gitee.com/frankyj915)
 
 ### Committer List
 
-- xufei[@xufei](https://gitee.com/flyking001)
-- zhangliang[@zhangliang](https://gitee.com/zhangliang5)
-- lijiajie[@lijiajie](https://gitee.com/lijiajie128)
+- 徐飞[@flyking001](https://gitee.com/flyking001)
+- 张亮[@zhangliang5](https://gitee.com/zhangliang5)
+- 李佳杰[@lijiajie128](https://gitee.com/lijiajie128)
 
 ### Additional Contributors List
 
-- ranygu[@ranygu](https://gitee.com/ranygu)
-- sebastian[@sebastian2020](https://gitee.com/sebastian2020)
-- lisiheng[@lisiheng](https://gitee.com/lisiheng)
-- LeoHou[@leohou1400](https://gitee.com/leohou1400)
-- likunshan[@likunshan](https://gitee.com/liksh)
-- friendpalm[@friendpalm](https://gitee.com/friendpalm)
-- Michael_Qiu[@Michael_Qiu](https://gitee.com/Michael_Qiu)
-- quweijie[@quweijie](https://gitee.com/huayun-quweijie)
-- bobychen[@bobychen](https://gitee.com/bobychen)
+- 顾志峰[@ranygu](https://gitee.com/ranygu)
+- 张浩[@sebastian2020](https://gitee.com/sebastian2020)
+- 黎思恒[@lisiheng](https://gitee.com/lisiheng)
+- 侯英乐[@leohou1400](https://gitee.com/leohou1400)
+- 李昆山[@liksh](https://gitee.com/liksh)
+- 贺毅涛[@friendpalm](https://gitee.com/friendpalm)
+- 仇大玉[@michael_qiu](https://gitee.com/Michael_Qiu)
+- 曲维杰[@huayun-quweijie](https://gitee.com/huayun-quweijie)
+- 陈涛[@bobychen](https://gitee.com/bobychen)
+- 汤中睿[@tom0392](https://gitee.com/tom0392)
+
 
 # 联系方式
 
