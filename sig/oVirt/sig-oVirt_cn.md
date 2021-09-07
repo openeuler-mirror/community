@@ -74,7 +74,7 @@ oVirt相关软件包的仓库如下，详见：https://resources.ovirt.org/pub/o
 - https://gitee.com/src-openeuler/ovirt-engine-ui-extensions
 - https://gitee.com/src-openeuler/ovirt-engine-wildfly
 - https://gitee.com/src-openeuler/ovirt-engine-wildfly-overlay
-- https://gitee.com/src-openeuler/ovirt-engine-yarn
+- https://gitee.com/src-openeuler/nodejs-yarn
 - https://gitee.com/src-openeuler/ovirt-guest-agent
 - https://gitee.com/src-openeuler/ovirt-guest-agent-windows
 - https://gitee.com/src-openeuler/ovirt-guest-tools-iso
