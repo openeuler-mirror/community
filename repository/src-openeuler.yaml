@@ -146626,6 +146626,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: freeipa
+  description: An integrated security infomation management solution.
+  upstream: https://www.freeipa.org
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-storpool.spopenstack
   description: OpenStack helpers for the StorPool API.
   upstream: https://github.com/storpool/python-storpool-spopenstack
