@@ -422,7 +422,6 @@ repository地址：
   - src-openeuler/sombok
   - src-openeuler/speex
   - src-openeuler/speexdsp
-  - src-openeuler/sqlite
   - src-openeuler/sscg
   - src-openeuler/sssd
   - src-openeuler/star
