@@ -75,7 +75,7 @@ The repositories related to oVirt are listed below, see https://resources.ovirt.
 - https://gitee.com/src-openeuler/ovirt-engine-ui-extensions
 - https://gitee.com/src-openeuler/ovirt-engine-wildfly
 - https://gitee.com/src-openeuler/ovirt-engine-wildfly-overlay
-- https://gitee.com/src-openeuler/ovirt-engine-yarn
+- https://gitee.com/src-openeuler/nodejs-yarn
 - https://gitee.com/src-openeuler/ovirt-guest-agent
 - https://gitee.com/src-openeuler/ovirt-guest-agent-windows
 - https://gitee.com/src-openeuler/ovirt-guest-tools-iso

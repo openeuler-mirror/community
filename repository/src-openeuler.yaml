@@ -50544,8 +50544,10 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
-- name: ovirt-engine-yarn
-  description: ''
+- name: nodejs-yarn
+  rename_from: ovirt-engine-yarn
+  description: 'A fast, reliable and secure dependency management tool.'
+  upstream: https://github.com/yarnpkg/yarn
   branches:
   - name: master
     type: protected
