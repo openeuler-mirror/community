@@ -12,3 +12,7 @@ Thanks to the following people for their contribution.
   name: KuhnChen
   organization: Huawei
   email: kuhn.chenqun@huawei.com
+- gitee_id: zhanghailiang_lucky
+  name: zhanghailiang
+  organization: Huawei
+  email: zhang.zhanghailiang@huawei.com
