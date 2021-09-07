@@ -6801,6 +6801,9 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-21.09
     type: protected
     create_from: master
@@ -7489,6 +7492,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
     type: protected
     create_from: openEuler-20.03-LTS-Next
   - name: openEuler-21.09
@@ -13746,6 +13752,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
     type: protected
     create_from: openEuler-20.03-LTS-Next
   - name: openEuler-21.09
@@ -21817,6 +21826,9 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-21.09
     type: protected
     create_from: master
@@ -26003,6 +26015,9 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-21.09
     type: protected
     create_from: master
@@ -27541,6 +27556,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
@@ -37382,6 +37400,9 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-21.09
     type: protected
     create_from: master
@@ -47053,6 +47074,15 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: mujs
   description: MuJS is a lightweight Javascript interpreter
@@ -48937,6 +48967,15 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: openhpi
   description: ''
@@ -51831,6 +51870,15 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: perftest
   description: ''
@@ -52209,6 +52257,15 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: perl-B-Compiling
   upstream: http://search.cpan.org/dist/B-Compiling/
@@ -63658,6 +63715,15 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: perl-Net-DNS-SEC
   description: An extension module of Perl(Net::DNS) package
@@ -64622,6 +64688,15 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: perl-Parallel-Iterator
   upstream: http://search.cpan.org/dist/Parallel-Iterator/
@@ -77744,6 +77819,15 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: python-argparse-manpage
   upstream: https://github.com/praiskup/argparse-manpage
@@ -78835,6 +78919,12 @@ repositories:
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
@@ -84855,6 +84945,9 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-21.09
     type: protected
     create_from: master
@@ -90810,6 +90903,15 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: python-pycscope
   upstream: http://github.com/portante/pycscope
@@ -91467,6 +91569,15 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: python-pyrpm
   description: Python library for parsing RPM spec files.
@@ -100535,6 +100646,15 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: rpmdevtools
   description: ''
@@ -103317,6 +103437,15 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: skopeo
   description: ''
@@ -139631,6 +139760,15 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: diskimage-builder
   description: diskimage-builder is a flexible suite of components for building a
@@ -140542,6 +140680,12 @@ repositories:
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-21.09
     type: protected
     create_from: master
@@ -141115,6 +141259,9 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-21.09
     type: protected
     create_from: master
@@ -141170,6 +141317,15 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: python-tempora
   description: Objects and routines pertaining to date and time (tempora)
@@ -142205,6 +142361,9 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-21.09
     type: protected
     create_from: master
@@ -142948,6 +143107,9 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-21.09
     type: protected
     create_from: master
@@ -143020,6 +143182,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
     type: protected
     create_from: openEuler-20.03-LTS-Next
   - name: openEuler-21.09
@@ -143107,6 +143272,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
     type: protected
     create_from: openEuler-20.03-LTS-Next
   - name: openEuler-21.09
@@ -144046,6 +144214,15 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: python-pifpaf
   description: Suite of tools and fixtures to manage daemons for testing
