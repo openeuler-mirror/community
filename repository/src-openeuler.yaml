@@ -147255,3 +147255,17 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: yocto-pseudo
+  description: The pseudo tool of Yocto project
+  upstream: https://git.yoctoproject.org/git/pseudo
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: yocto-opkg-utils
+  description: Helper scripts for use with the opkg package manager
+  upstream: https://git.yoctoproject.org/git/opkg-utils
+  branches:
+  - name: master
+    type: protected
+  type: public
