@@ -19,14 +19,12 @@
 
 ### Maintainer列表
 - georgecao
-- dogsheng
 - solarhu
-- miao_kaibo
+- wangchong1995924
 - TommyLike
-- zha_hw
 - liuqi469227928
 - tracedeng
-- 范佳臣 <fanjiachen3@huawei.com> [disnight](https://gitee.com/disnight)
+- disnight
 
 ### Committer列表
 - name[@giteeID](giteeID链接)
@@ -43,3 +41,7 @@
   repository地址：[openeuler-obs](https://gitee.com/openeuler/openeuler-obs)
 - 项目名称：openEuler-Jenkins
   repository地址：[openeuler-jenkins](https://gitee.com/openeuler/openeuler-jenkins)
+- 项目名称：openEuler-os-build
+  repository地址：[openeuler-os-build](https://gitee.com/openeuler/openeuler-os-build)
+- 项目名称：openEuler-Jenkins
+  repository地址：[python-jenkins](https://gitee.com/src-openeuler/python-jenkins)
