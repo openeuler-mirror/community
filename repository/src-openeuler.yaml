@@ -74174,7 +74174,8 @@ repositories:
     create_from: master
   type: public
 - name: postgresql
-  description: ''
+  description: 'PostgreSQL client programs'
+  upstream: http://www.postgresql.org
   branches:
   - name: master
     type: protected
@@ -74199,6 +74200,15 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: Multi-Version_postgresql-13.3_openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: Multi-Version_postgresql-13.3_openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: Multi-Version_postgresql-13.3_openEuler-20.03-LTS-Next
+  - name: Multi-Version_postgresql-13.3_openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: Multi-Version_postgresql-13.3_openEuler-20.03-LTS-Next
   type: public
 - name: postgresql-odbc
   description: Official postgreSQL ODBC driver
