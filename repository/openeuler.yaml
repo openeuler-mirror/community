@@ -867,6 +867,12 @@ repositories:
     - name: master
       type: protected
   type: public
+- name: openeuler-docker-images
+  description: "Dockerfiles for openEuler official basic and application images."
+  branches:
+    - name: master
+      type: protected
+  type: public
 - name: bioinformatics
   description: "Bioinformatics Research and Achievement Display Platform for BIO SIG"
   branches:
