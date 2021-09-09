@@ -58,7 +58,8 @@ https://gitee.com/openeuler/community/tree/master/sig/sig-OKD/
 ### Maintainers
 - hjimmy
 - yangzhao_kl
-- dou33
+- wangyueliang
+- duyiwei7w
 
 ### Committers
 
