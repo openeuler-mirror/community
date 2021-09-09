@@ -147341,9 +147341,93 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: docbook5-schemas
+  description: Norman Walsh's schemas (DTD, Relax NG, W3C schema) for Docbook 5.X
+  upstream: http://www.oasis-open.org/docbook/
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: yocto-opkg-utils
   description: Helper scripts for use with the opkg package manager
   upstream: https://git.yoctoproject.org/git/opkg-utils
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: argus
+  description: Client tools for argus network audit
+  upstream: http://qosient.com/argus
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: genders
+  description: Static cluster configuration database
+  upstream: https://github.com/chaos/genders
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: vpnc-script
+  description: Routing setup script for vpnc and openconnect
+  upstream: https://gitlab.com/openconnect/vpnc-scripts/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: httpry
+  description: A specialized packet sniffer designed for displaying and logging HTTP traffic
+  upstream: http://dumpsterventures.com/jason/httpry/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: openconnect
+  description: Open client for Cisco AnyConnect VPN, Juniper Network Connect/Pulse,PAN GlobalProtect
+  upstream: http://www.infradead.org/openconnect.html
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: fetch-crl
+  description: Downloads Certificate Revocation Lists
+  upstream: https://wiki.nikhef.nl/grid/FetchCRL3
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: pwgen
+  description: Automatic password generation
+  upstream: http://sf.net/projects/pwgen
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: gsoap
+  description: Generator Tools for Coding SOAP/XML Web Services in C and C++
+  upstream: http://gsoap2.sourceforge.net/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: fftw2
+  description: Fast Fourier Transform library (version 2)
+  upstream: http://www.fftw.org/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: proselint
+  description: A linter for English prose
+  upstream: http://proselint.com/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: cowsay
+  description: Configurable speaking/thinking cow
+  upstream: https://github.com/tnalpgge/rank-amateur-cowsay
   branches:
   - name: master
     type: protected
