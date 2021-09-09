@@ -8363,3 +8363,10 @@ sigs:
   repositories:
   - openeuler/hpc
   - src-openeuler/lammps
+- name: sig-Yocto
+  repositories:
+  - openeuler/yocto-poky
+  - openeuler/yocto-embedded-tools
+  - openeuler/yocto-meta-embedded
+  - src-openeuler/yocto-pseudo
+  - src-openeuler/yocto-opkg-utils
