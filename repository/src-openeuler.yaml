@@ -6231,6 +6231,76 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: control_toolbox
+  description: The control toolbox contains modules that are useful across all controllers.
+  upstream: https://github.com/ros-controls/control_toolbox
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: filter
+  description: This library provides a standardized interface for processing data as a sequence of filters.
+  upstream: https://github.com/ros/filters
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: ros_tutorials
+  description: ros_tutorials contains packages that demonstrate various features of ROS, as well as support packages which help demonstrate those features.
+  upstream: https://github.com/ros/ros_tutorials
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: ros_control
+  description: A set of packages that include controller interfaces, controller managers, transmissions and hardware_interfaces.
+  upstream: https://github.com/ros-controls/ros_control
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rqt_bag
+  description: rqt_bag provides a GUI plugin for displaying and replaying ROS bag files.
+  upstream: https://github.com/ros-visualization/rqt_bag
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rqt_pose_view
+  description: rqt_pose_view provides a GUI plugin for visualizing 3D poses.
+  upstream: https://github.com/ros-visualization/rqt_pose_view
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: executive_smach
+  description: SMACH is a task-level architecture for rapidly creating complex robot behavior
+  upstream: https://github.com/ros/executive_smach
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: image_pipeline
+  description: image_pipeline fills the gap between getting raw images from a camera driver and higher-level vision processing.
+  upstream: https://github.com/ros-perception/image_pipeline
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: common_tutorials
+  description: Metapackage that contains common tutorials
+  upstream: https://github.com/ros/common_tutorials
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: geometry_tutorials
+  description: Metapackage of geometry tutorials ROS.
+  upstream: https://github.com/ros/geometry_tutorials
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: actionlib
   description: The actionlib stack provides a standardized interface for interfacing
     with preemptable tasks.

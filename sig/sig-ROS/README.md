@@ -7,7 +7,7 @@
 
 # 组织会议
 
-- 公开的会议时间：北京时间，周四 上午，10点-11点
+- 公开的会议时间：北京时间，双周周四 晚上，7点-8点
 
 
 # 成员
@@ -25,6 +25,7 @@
 - 王晓云[@xiao_yun_wang](https://gitee.com/xiao_yun_wang)
 - 韩昊旻[@davidhan008](https://gitee.com/davidhan008)
 - 席江玲[@simonaxi](https://gitee.com/simonaxi)
+- 陈家友[@chen_jiayou](https://gitee.com/chen_jiayou)
 
 # 联系方式
 
@@ -109,3 +110,13 @@ repository地址：
 - https://gitee.com/src-openeuler/qwt_dependency
 - https://gitee.com/src-openeuler/realtime_tools
 - https://gitee.com/src-openeuler/roslint
+- https://gitee.com/src-openeuler/control_toolbox
+- https://gitee.com/src-openeuler/filter
+- https://gitee.com/src-openeuler/ros_tutorials
+- https://gitee.com/src-openeuler/ros_control
+- https://gitee.com/src-openeuler/rqt_bag
+- https://gitee.com/src-openeuler/rqt_pose_view
+- https://gitee.com/src-openeuler/executive_smach
+- https://gitee.com/src-openeuler/image_pipeline
+- https://gitee.com/src-openeuler/common_tutorials
+- https://gitee.com/src-openeuler/geometry_tutorials

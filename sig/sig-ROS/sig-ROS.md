@@ -43,6 +43,7 @@ Repository of scripts for building ROS for openEuler and documents: https://gite
 - xiao_yun_wang
 - davidhan008
 - simonaxi
+- chen_jiayou
 
 ### Mailing list
 - dev@openeuler.org
