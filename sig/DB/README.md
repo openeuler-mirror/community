@@ -98,6 +98,7 @@ Project names && repository location：
 - https://gitee.com/src-openeuler/gpdb
 - https://gitee.com/src-openeuler/unixODBC
 - https://gitee.com/src-openeuler/mariadb
+- https://gitee.com/src-openeuler/sqlite
 - https://gitee.com/src-openeuler/perl-DBD-SQLite
 - https://gitee.com/src-openeuler/perl-DBD-MariaD
 - https://gitee.com/src-openeuler/perl-DBD-MySQL
