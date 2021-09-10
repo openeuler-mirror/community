@@ -147407,6 +147407,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: kubeedge
+  description: Kubernetes Native Edge Computing Framework (project under CNCF)
+  upstream: https://github.com/kubeedge/kubeedge
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: yocto-pseudo
   description: The pseudo tool of Yocto project
   upstream: https://git.yoctoproject.org/git/pseudo
