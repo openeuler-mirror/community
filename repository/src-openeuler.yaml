@@ -13996,6 +13996,104 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: robodoc
+  description: Extract documentation from source code
+  upstream: http://rfsber.home.xs4all.nl/Robo/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: libgsasl
+  description: GNU SASL library
+  upstream: https://www.gnu.org/software/gsasl/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: libntlm
+  description: NTLMv1 authentication library
+  upstream: http://nongnu.org/libntlm
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: mosquitto
+  description: Open Source MQTT v3.1/v3.1.1 Broker
+  upstream: http://mosquitto.org/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: auter
+  description: Automatic Update Transaction Execution by Rackspace
+  upstream: https://github.com/rackerlabs/auter
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: inotify-tools
+  description: Command line utilities for inotify
+  upstream: https://github.com/inotify-tools/inotify-tools
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: lastpass-cli
+  description: Command line interface to LastPass.com
+  upstream: https://github.com/LastPass/lastpass-cli
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: pdsh
+  description: Parallel remote shell program
+  upstream: https://github.com/chaos/pdsh/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rtorrent
+  description: BitTorrent client based on libtorrent
+  upstream: https://github.com/rakshasa/rtorrent
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: goaccess
+  description: Real-time web log analyzer and interactive viewer
+  upstream: https://goaccess.io/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: etckeeper
+  description: Store /etc in a SCM system (git, mercurial, bzr or darcs)
+  upstream: https://etckeeper.branchable.com/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rdiff-backup
+  description: Convenient and transparent local/remote incremental mirror/backup
+  upstream: https://rdiff-backup.net/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: gearmand
+  description: A distributed job system
+  upstream: http://www.gearman.org
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: backupninja
+  description: Lightweight, extensible backup system
+  upstream: https://0xacab.org/liberate/backupninja
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: felix-gogo-shell
   description: Apache Felix Gogo command line shell for OSGi
   upstream: http://felix.apache.org/documentation/subprojects/apache-felix-gogo.html
