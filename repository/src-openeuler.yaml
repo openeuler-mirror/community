@@ -147524,3 +147524,10 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: python-supervisor
+  description: A system for controlling process state under UNIX
+  upstream: http://supervisord.org/
+  branches:
+  - name: master
+    type: protected
+  type: public
