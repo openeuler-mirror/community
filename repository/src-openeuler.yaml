@@ -144726,7 +144726,7 @@ repositories:
   type: public
 - name: igh-ethercat-xenomai
   upstream: https://gitlab.com/etherlab.org/ethercat
-  description: This is an open-source EtherCAT master
+  description: This is an open-source EtherCAT master. modifed it for xenomai.
   branches:
   - name: master
     type: protected
@@ -144743,14 +144743,55 @@ repositories:
   description: CanFestival focuses on providing an ANSI-C platform independent CANOpen
     stack that can be built as master or slave nodes on PCs, Real-time IPCs, and Microcontrollers.
     Runtime code is licensed LGPLv2, whereas accompanying developer tools are licensed
-    GPLv2.
+    GPLv2. modified canfestival for xenomai
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: sysrepo
+  description: YANG-based system repository for all-around configuration management
+  upstream: https://github.com/sysrepo/sysrepo
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: netopeer2
+  description: NETCONF tools suite including a server and command-line client
+  upstream: https://github.com/cesnet/netopeer2
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: libyang1
+  description: libyang is YANG data modelling language parser and toolkit written (and providing API) in C
+  upstream: https://github.com/CESNET/libyang
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: libnetconf2
+  description: NETCONF library in C providing API for both clients and servers
+  upstream: https://github.com/cesnet/libnetconf2
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: canfestival
+  description: CanFestival focuses on providing an ANSI-C platform independent CANOpen stack that can be built as master or slave nodes on PCs, Real-time IPCs, and Microcontrollers.
+  upstream: https://hg.beremiz.org/CanFestival-3
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: ethercat-igh
+  description: This is an open-source EtherCAT master.
+  upstream: https://gitlab.com/etherlab.org/ethercat
   branches:
   - name: master
     type: protected
   type: public
 - name: GATK
-  description: GATK is a software that analyzes mutation information from high-throughput
-    sequencing data.
+  description: GATK is a software that analyzes mutation information from high-throughput sequencing data.
   upstream: https://github.com/broadinstitute/gatk
   branches:
   - name: master
