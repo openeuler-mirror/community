@@ -120,6 +120,9 @@
 - StratoVirt
     - stratovirt
         - repository地址：https://gitee.com/openeuler/stratovirt
+- Capsule
+    - capsule
+        - repository地址：https://gitee.com/openeuler/capsule
 - LibcarePlus
     - libcareplus
         - repository地址：https://gitee.com/openeuler/libcareplus
