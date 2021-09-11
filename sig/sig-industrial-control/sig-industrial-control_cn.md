@@ -29,17 +29,10 @@ Industrial Control SIG组主要致力于将openEuler打造成适用于工业控�
  - 源码和tar包
 
 ### 该SIG管理的repository及描述
+
   - https://gitee.com/openeuler/xenomai
   - https://gitee.com/src-openeuler/xenomai
   - https://gitee.com/src-openeuler/ipipe
-  - https://gitee.com/src-openeuler/linux-stable-rt
-  - https://gitee.com/src-openeuler/rt-setup
-  - https://gitee.com/src-openeuler/rt-tests
-  - https://gitee.com/src-openeuler/rt-check
-  - https://gitee.com/src-openeuler/rt-ctl
-  - https://gitee.com/src-openeuler/rteval
-  - https://gitee.com/src-openeuler/rteval-loads
-  - https://gitee.com/src-openeuler/tuned
   - https://gitee.com/src-openeuler/libmodbus
   - https://gitee.com/src-openeuler/soem
   - https://gitee.com/src-openeuler/soes
@@ -47,7 +40,6 @@ Industrial Control SIG组主要致力于将openEuler打造成适用于工业控�
   - https://gitee.com/src-openeuler/igh-ethercat-xenomai
   - https://gitee.com/src-openeuler/libmodbus-xenomai
   - https://gitee.com/src-openeuler/canfestival-xenomai
-
  
 ### 跨领域和面向外部的流程
  暂无
