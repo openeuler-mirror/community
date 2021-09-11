@@ -67567,6 +67567,48 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: masscan
+  description: This is an Internet-scale port scanner
+  upstream: https://github.com/robertdavidgraham/masscan
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: whois
+  description: Improved WHOIS client
+  upstream: https://github.com/rfc1036/whois
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: netsniff-ng
+  description: High performance Linux network sniffer for packet inspection
+  upstream: http://netsniff-ng.org/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: bird
+  description: BIRD Internet Routing Daemon
+  upstream: https://bird.network.cz/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: fstrm
+  description: Frame Streams implementation in C
+  upstream: https://github.com/farsightsec/fstrm
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: nfdump
+  description: NetFlow collecting and processing tools
+  upstream: https://github.com/phaag/nfdump
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: perl-Sys-Mmap
   upstream: http://search.cpan.org/dist/Sys-Mmap/
   description: Uses mmap to map in a file as a Perl variable
