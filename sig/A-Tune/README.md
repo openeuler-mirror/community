@@ -46,11 +46,13 @@ repository地址：
 - https://gitee.com/openeuler/A-Tune-UI
 - https://gitee.com/openeuler/A-Tune-Collector
 - https://gitee.com/openeuler/prefetch_tuning
+- https://gitee.com/openeuler/native-turbo
 - https://gitee.com/openeuler/wisdom-advisor
 - https://gitee.com/src-openeuler/A-Tune
 - https://gitee.com/src-openeuler/A-Tune-UI
 - https://gitee.com/src-openeuler/A-Tune-Collector
 - https://gitee.com/src-openeuler/prefetch_tuning
+- https://gitee.com/src-openeuler/native-turbo
 - https://gitee.com/src-openeuler/wisdom-advisor
 - https://gitee.com/src-openeuler/python-networkx
 - https://gitee.com/src-openeuler/python-netifaces
