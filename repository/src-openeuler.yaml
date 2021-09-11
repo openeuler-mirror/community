@@ -147531,3 +147531,10 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: transmission
+  description: A lightweight GTK+ BitTorrent client
+  upstream: https://github.com/transmission/transmission
+  branches:
+  - name: master
+    type: protected
+  type: public
