@@ -144690,7 +144690,7 @@ repositories:
   upstream: https://pypi.org/project/pydotplus/
   branches:
   - name: master
-    type: readonly
+    type: protected
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
