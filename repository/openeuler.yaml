@@ -1036,3 +1036,9 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: allwinner-kernel
+  description: It provides openEuler kernel source for Allwinner SoCs
+  branches:
+  - name: master
+    type: protected
+  type: public

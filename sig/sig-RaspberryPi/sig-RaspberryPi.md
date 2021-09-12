@@ -35,6 +35,7 @@ The openEuler RaspberryPi SIG aims at migrating openEuler to Raspberry Pi, in or
 - SRPM repository of configuration tool for Raspberry Pi: https://gitee.com/src-openeuler/raspi-config
 - SRPM repository of library for the Raspberry which allows control of the General Purpose Input Outputs (GPIO): https://gitee.com/src-openeuler/pigpio
 - SRPM repository of libraries for interfacing to Raspberry Pi GPU: https://gitee.com/src-openeuler/raspberrypi-userland
+- Repository of openEuler kernel source for Allwinner Socs: https://gitee.com/openeuler/allwinner-kernel
 
 ## Basic Information
 
