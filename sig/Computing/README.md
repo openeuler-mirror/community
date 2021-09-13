@@ -26,6 +26,7 @@
 - wswsamao
 - wangbin224
 - SuperSix173
+- juyin
 
 committer | 细分领域
 ------ | ------
@@ -36,6 +37,7 @@ SuperSix173 | dev-utils
 wswsamao | dev-utils
 wswsamao | C-lib
 liqingqing_1229 | C-lib
+juyin | C-lib
 wangbin224 | device-manager
 love_hangzhou | device-manager
 liqingqing_1229 | device-manager
