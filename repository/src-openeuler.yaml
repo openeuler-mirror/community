@@ -77088,6 +77088,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: perl-File-Pid
+  description: Pid File Manipulation
+  upstream: https://metacpan.org/release/File-Pid
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-PyPDF2
   upstream: http://mstamy2.github.com/PyPDF2
   description: PDF toolkit
