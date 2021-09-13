@@ -80589,6 +80589,20 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: python-magic
+  description: File type identification using libmagic
+  upstream: http://github.com/ahupp/python-magic
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-httpie
+  description: A Curl-like tool for humans
+  upstream: https://httpie.org/
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: python-codecov
   upstream: https://github.com/codecov/codecov-python
   description: Hosted coverage reports for GitHub, Bitbucket and Gitlab
