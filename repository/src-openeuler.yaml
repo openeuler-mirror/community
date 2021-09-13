@@ -119613,6 +119613,16 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: capsule
+  description: Capsule is a next generation Hypervisor which is compatible
+    with VM/container/partition ecosystem and naturally supports hot upgrade
+    capabilities. Based on Rust programming language of memory security, Capsule
+    supports both Type-1 and Type-2 types across various IT/OT/CT scenarios.
+  upstream: https://gitee.com/openeuler/capsule
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: libcareplus
   description: LibcarePlus delivers live patches to any of your Linux executables
     or libraries at the runtime, without the need for restart of your applications.
