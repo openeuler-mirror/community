@@ -28625,6 +28625,14 @@ repositories:
     type: protected
     create_from: master
   type: private
+- name: nispor
+  description: 'Unified interface for Linux network state querying'
+  upstream: https://github.com/nispor/nispor
+  branches:
+  - name: master
+    type: protected
+    create_from: master
+  type: public
 - name: jboss-websocket-1.0-api
   description: JSR-356, Java WebSocket 1.0 API
   upstream: Url:https://github.com/jboss/jboss-websocket-api_spec
