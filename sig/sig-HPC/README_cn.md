@@ -43,6 +43,8 @@ openEuler HPC SIG的成员已在HPC气象、制造、分子动力学等领域Top
 
 - 方春林[@iotwins](https://gitee.com/iotwins), [fangchunlin@huawei.com](mailto:fangchunlin@huawei.com)
 
+- 杨玉林[@yulin68](https://gitee.com/yulin68), [yulin68@qq.com](mailto:yulin68@qq.com)
+
 ## 联系方式
 
 - [邮件列表](dev@openeuler.org)
