@@ -2075,6 +2075,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: ansible-2.9
+  description: system management system
+  upstream: http://ansible.com
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: ansible-runner-service
   description: 'Restful API for ansible/ansible_runner execution'
   upstream: https://github.com/ansible/ansible-runner-service
@@ -74521,6 +74528,13 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  type: public
+- name: postgresql-13
+  description: 'PostgreSQL client programs'
+  upstream: http://www.postgresql.org
+  branches:
+  - name: master
+    type: protected
   type: public
 - name: postgresql-odbc
   description: Official postgreSQL ODBC driver
