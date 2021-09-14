@@ -147967,3 +147967,10 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: python-libcloud
+  description: A standard Python library that abstracts away differences among multiple cloud provider APIs.
+  upstream: https://libcloud.apache.org/
+  branches:
+  - name: master
+    type: protected
+  type: public
