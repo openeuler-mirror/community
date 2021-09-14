@@ -4,28 +4,28 @@
 
 The members of openEuler HPC SIG has been deeply optimized for top applications in HPC meteorology, manufacturing, molecular dynamics and other fields, and has achieved good optimization results in terms of performance and accuracy. At the same time, HPC Smart Intelligence activities were carried out, and many college teachers and students participated in the migration of HPC applications to openEuler.
 
-## Goals
+## Mission
 
 Through the establishment of the openEuler HPC SIG, HPC developers and users are brought together. Let optimization of Top application  be quickly applied to the scientific research field, attract universities, government and enterprises to participate in the construction of HPC software ecology, absorb the ideas and ideas of scholars in different fields, build HPC SIG into a base in the HPC field, and jointly prosper the HPC+openEuler ecology.
 
-## SIG 组职责
+## SIG Scope
 
 - Add HPC open-source software support for openEuler community
 - Migrate, adapte and optimize HPC open-source software within openEuler,and output the corresponding migration and tuning documents
 - Respond to user feedback in a timely manner and resolove the problems
 - Manage the documentations, meetings, mailist and IRC within HPC SIG
 
-### 交付物
+### Deliverables
 
 - Source,patch and document
 
-## 成员
+## Members
 
-### Maintainers 列表
+### Maintainer list
 
 - 王哲[@jerrywang125](https://gitee.com/jerrywang125), [32422240@qq.com](mailto:32422240@qq.com)
 
-### committers 列表
+### committer list
 
 - 何健聪[@hejiancong557](https://gitee.com/hejiancong557), [hejiancong1@huawei.com](mailto:hejiancong1@huawei.com)
 
@@ -43,9 +43,11 @@ Through the establishment of the openEuler HPC SIG, HPC developers and users are
 
 - 方春林[@iotwins](https://gitee.com/iotwins), [fangchunlin@huawei.com](mailto:fangchunlin@huawei.com)
 
-## 联系方式
+- 杨玉林[@yulin68](https://gitee.com/yulin68), [yulin68@qq.com](mailto:yulin68@qq.com)
 
-- [邮件列表](dev@openeuler.org)
+## Contact details
+
+- [Mailing list](dev@openeuler.org)
 
 ## HPC Software List
 
