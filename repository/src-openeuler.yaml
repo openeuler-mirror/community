@@ -76731,6 +76731,15 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: python-PyPDF2
   upstream: http://mstamy2.github.com/PyPDF2
@@ -80232,6 +80241,15 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: python-httpie
   description: A Curl-like tool for humans
@@ -80239,6 +80257,15 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP2
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: python-codecov
   upstream: https://github.com/codecov/codecov-python
