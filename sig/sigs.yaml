@@ -4780,6 +4780,8 @@ sigs:
   - src-openeuler/ceph-deploy
   - src-openeuler/ceph-ansible
   - src-openeuler/ceph-csi
+  - src-openeuler/teuthology
+  - src-openeuler/beanstalkd
 - name: sig-security-facility
   repositories:
   - openeuler/ksc-defender
