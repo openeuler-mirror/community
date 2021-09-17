@@ -1085,12 +1085,6 @@ sigs:
   - src-openeuler/traceroute
   - src-openeuler/mtr
   - src-openeuler/firewalld
-  - src-openeuler/whois
-  - src-openeuler/masscan
-  - src-openeuler/netsniff-ng
-  - src-openeuler/bird
-  - src-openeuler/fstrm
-  - src-openeuler/nfdump
   - src-openeuler/arpwatch
   - src-openeuler/iputils
   - src-openeuler/iproute
@@ -1346,6 +1340,14 @@ sigs:
   - src-openeuler/xapian-core
   - src-openeuler/xhtml1-dtds
   - src-openeuler/zerofree
+- name: sig-epol
+  repositories:
+  - src-openeuler/whois
+  - src-openeuler/masscan
+  - src-openeuler/netsniff-ng
+  - src-openeuler/bird
+  - src-openeuler/fstrm
+  - src-openeuler/nfdump
 - name: System-tool
   repositories:
   - src-openeuler/argyllcms
