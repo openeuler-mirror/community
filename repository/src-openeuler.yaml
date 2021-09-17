@@ -148276,3 +148276,18 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: beanstalkd
+  description: Simple and fast general purpose work queue.
+  upstream: https://github.com/beanstalkd/beanstalkd
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: teuthology
+  description: The Ceph integration test framework
+  upstream: https://github.com/ceph/teuthology
+  branches:
+  - name: master
+    type: protected
+  type: public
+

@@ -57,3 +57,5 @@ repository地址：
 - https:/gitee.com/src-openeuler/ceph-deploy
 - https:/gitee.com/src-openeuler/ceph-ansible
 - https:/gitee.com/src-openeuler/ceph-csi
+- https:/gitee.com/src-openeuler/teuthology
+- https:/gitee.com/src-openeuler/beanstalkd
