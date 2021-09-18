@@ -29,6 +29,7 @@ SIG当前计划分3个阶段：
   - 胡峰 [@solarhu](https://gitee.com/solarhu)
   - 李次华 [@licihua](https://gitee.com/licihua)
   - 陈燕潘 [@chenyanpanHW](https://gitee.com/chenyanpanHW) chenyanpan@huawei.com
+  - 李海炜 [@liheavy](https://gitee.com/liheavy)
 
 
 # 项目清单
