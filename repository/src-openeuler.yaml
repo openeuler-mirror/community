@@ -109609,6 +109609,34 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: claws-mail
+  description: 'Email client and news reader based on GTK+'
+  upstream: https://claws-mail.org
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: gumbo-parser
+  description: 'An HTML5 parsing library in pure C99'
+  upstream: https://github.com/google/gumbo-parser
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: libytnef
+  description: 'TNEF Stream Parser Library'
+  upstream: https://github.com/Yeraze/ytnef
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: libetpan
+  description: 'Portable, efficient middle-ware for different kinds of mail access'
+  upstream: https://github.com/dinhvh/libetpan
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: system-config-language
   description: A graphical interface for modifying the system language
   upstream: https://pagure.io/system-config-language
