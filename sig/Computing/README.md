@@ -65,6 +65,7 @@ wswsamao | Desktop
   - https://gitee.com/src-openeuler/libthai 
   - https://gitee.com/src-openeuler/libinput
   - https://gitee.com/src-openeuler/tuned
+  - https://gitee.com/src-openeuler/newlib
 
 ## C-lib C/C++ lib库   （committer: liqingqing_1229、wswsamao、SuperSix173、wangbin224）
   - https://gitee.com/src-openeuler/libqb
