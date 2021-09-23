@@ -148308,6 +148308,55 @@ repositories:
     type: protected
     create_from: openEuler-20.03-LTS-Next
   type: public
+- name: libnatpmp
+  description: Library of The NAT Port Mapping Protocol (NAT-PMP) 
+  upstream: http://miniupnp.free.fr/libnatpmp.html
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: siege
+  description: HTTP regression testing and benchmarking utility 
+  upstream: http://www.joedog.org/JoeDog/Siege
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: patchelf
+  description: A utility for patching ELF binaries 
+  upstream: http://nixos.org/patchelf.html
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: msgpack-c
+  description: Binary-based efficient object serialization library for C/C++ 
+  upstream: http://msgpack.org
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: pugixml
+  description: A light-weight C++ XML processing library
+  upstream: http://pugixml.org
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: libtorrent
+  description: BitTorrent library with a focus on high performance & good code
+  upstream: https://github.com/rakshasa/libtorrent/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: librsync
+  description: Rsync remote-delta algorithm library
+  upstream: https://librsync.github.io
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: cowsay
   description: Configurable speaking/thinking cow
   upstream: https://github.com/tnalpgge/rank-amateur-cowsay
