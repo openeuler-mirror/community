@@ -51,3 +51,4 @@ repository 地址：
 - https://gitee.com/src-openeuler/pigpio
 - https://gitee.com/src-openeuler/raspberrypi-userland
 - https://gitee.com/openeuler/allwinner-kernel
+- https://gitee.com/src-openeuler/raspberrypi-eeprom
