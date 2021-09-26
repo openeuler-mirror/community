@@ -512,6 +512,12 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: oecp
+  description: One for OSV as an certification tool
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: pkgporter
   description: A rpm packager automation bot for perl, python and so on
   branches:
