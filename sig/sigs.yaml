@@ -3849,7 +3849,6 @@ sigs:
   - src-openeuler/nodejs-expose-loader
 - name: Private
   repositories:
-  - openeuler/os-autoinst-distri-openEuler
   - src-openeuler/adobe-source-code-pro-fonts
   - src-openeuler/allegro
   - src-openeuler/appstream-data
@@ -3879,7 +3878,6 @@ sigs:
   - src-openeuler/hawtjni-runtime
   - src-openeuler/http-builder
   - src-openeuler/inkscape
-  - src-openeuler/temporary-integration-test
   - src-openeuler/internal-issue
   - src-openeuler/ipython
   - src-openeuler/irrXML
@@ -3890,7 +3888,6 @@ sigs:
   - src-openeuler/java
   - src-openeuler/java-base64
   - src-openeuler/jboss-transaction
-  - src-openeuler/jenkins_project
   - src-openeuler/js-underscore
   - src-openeuler/jsch-agent-proxy
   - src-openeuler/Keras
@@ -4059,7 +4056,6 @@ sigs:
 - name: security-committee
   repositories:
   - openeuler/security-committee
-  - openeuler/security
 - name: dev-utils
   repositories:
   - openeuler/abichecker
@@ -4606,7 +4602,6 @@ sigs:
   - openeuler/package-reinforce-test
   - openeuler/test-tools
   - openeuler/mugen
-  - src-openeuler/test-tools
   - src-openeuler/mugen
   - src-openeuler/linux-test-project
 - name: sig-KIRAN-DESKTOP

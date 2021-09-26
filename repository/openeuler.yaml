@@ -319,24 +319,12 @@ repositories:
   - name: master
     type: protected
   type: public
-- name: os-autoinst-distri-openEuler
-  description: ''
-  branches:
-  - name: master
-    type: protected
-  type: private
 - name: prefetch_tuning
   description: ''
   branches:
   - name: master
     type: protected
   type: public
-- name: security
-  description: ''
-  branches:
-  - name: master
-    type: protected
-  type: private
 - name: QA
   description: QA repo provides rules about how QA team runs and how contributors
     to this project, also includes test cases and framework
