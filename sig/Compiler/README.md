@@ -23,6 +23,7 @@ Tuesday 10 am bi-weekly.
 ## Repositories
  - [gcc](https://gitee.com/src-openeuler/gcc)
  - [llvm](https://gitee.com/src-openeuler/llvm)
+ - [flang](https://gitee.com/src-openeuler/flang)
  - [clang](https://gitee.com/src-openeuler/clang)
  - [compiler-rt](https://gitee.com/src-openeuler/compiler-rt)
  - [jtreg](https://gitee.com/src-openeuler/jtreg)
