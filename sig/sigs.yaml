@@ -1492,7 +1492,6 @@ sigs:
   - src-openeuler/tidb
 - name: Base-service
   repositories:
-  - openeuler/process1
   - src-openeuler/abseil-cpp
   - src-openeuler/bluez
   - src-openeuler/glib2
@@ -4075,6 +4074,7 @@ sigs:
   - openeuler/trucker
   - openeuler/memwatch
   - openeuler/geo-coding
+  - openeuler/process1
   - src-openeuler/adb-enhanced
   - src-openeuler/ansible
   - src-openeuler/ansible-2.9
