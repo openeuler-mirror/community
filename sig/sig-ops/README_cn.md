@@ -24,6 +24,7 @@
 - 陈  功     [@clumsycg](https://gitee.com/clumsycg)   Email:chengong15@huawei.com
 - 陈亚强     [@yaqiangchen](https://gitee.com/yaqiangchen)  Email:chenyaqiang@huawei.com
 - 丁  翔     [@cmss_dx](https://gitee.com/cmss_dx)   Email:dingxiang@cmss.Chinamobile.com
+- 罗盛炜     [@Lostwayzxc](https://gitee.com/Lostwayzxc)   Email:luoshengwei@huawei.com
 
 ## Contributors成员：
 - 方亮亮     [@fang-liangliang](https://gitee.com/fang-liangliang)   Email:fangliangliang@deepinsight.cn
