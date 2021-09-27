@@ -29111,15 +29111,6 @@ repositories:
     type: protected
     create_from: master
   type: public
-- name: jenkins_project
-  description: ''
-  branches:
-  - name: master
-    type: protected
-  - name: openEuler-20.09
-    type: protected
-    create_from: master
-  type: private
 - name: jeromq
   description: Pure Java implementation of libzmq
   upstream: https://github.com/zeromq/jeromq
@@ -106667,16 +106658,6 @@ repositories:
     type: protected
     create_from: master
   type: public
-- name: temporary-integration-test
-  description: ''
-  rename_from: integration-test
-  branches:
-  - name: master
-    type: protected
-  - name: openEuler-20.09
-    type: protected
-    create_from: master
-  type: private
 - name: template-glib
   description: a library to help you generate text based on a template and user defined
     state.
@@ -117895,13 +117876,6 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
-  type: public
-- name: test-tools
-  description: tools for improve test efficiency
-  upstream: https://gitee.com/openeuler/test-tools
-  branches:
-  - name: master
-    type: protected
   type: public
 - name: mugen
   description: openEuler integration test framework and testcases
