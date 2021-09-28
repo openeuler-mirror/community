@@ -595,6 +595,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: bishengjdk-17
+  description: Bisheng JDK 17 is a high-performance, production-ready distribution
+    of OpenJDK 17.
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: bishengjdk-riscv
   description: Bisheng JDK riscv is RISC-V port of OpenJDK jdk upstream
   branches:

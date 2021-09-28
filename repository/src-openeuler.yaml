@@ -49477,6 +49477,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: openjdk-17
+  description: openEuler Community builds of OpenJDK 17
+  upstream: http://openjdk.java.net/
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: openjdk-latest
   description: openEuler Community builds of OpenJDK latest
   upstream: http://openjdk.java.net/
