@@ -148531,4 +148531,10 @@ repositories:
   - name: master
     type: protected
   type: public
-
+- name: raspberrypi-eeprom
+  description: Installation scripts and binaries for the closed sourced Raspberry Pi 4 EEPROMs.
+  upstream: https://github.com/raspberrypi/rpi-eeprom
+  branches:
+  - name: master
+    type: protected
+  type: public
