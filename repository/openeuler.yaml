@@ -1064,3 +1064,9 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: KubeOS
+  description: Kubernetes Operating System simplifies OS updating
+  branches:
+  - name: master
+    type: protected
+  type: public
