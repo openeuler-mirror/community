@@ -228,6 +228,12 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: pyisula
+  description: python sdk library for iSulad and isula-build
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: iSulad-img
   description: ''
   branches:
