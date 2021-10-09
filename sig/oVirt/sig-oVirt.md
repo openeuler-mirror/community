@@ -113,6 +113,8 @@ The repositories related to oVirt are listed below, see https://resources.ovirt.
 - https://gitee.com/src-openeuler/ovirt-jboss-modules-maven-plugin
 - https://gitee.com/src-openeuler/safelease
 - https://gitee.com/src-openeuler/ovirt-engine-api-model
+- https://gitee.com/src-openeuler/virt-viewer
+- https://gitee.com/src-openeuler/virt-manager
 
 
 ## Basic Information
