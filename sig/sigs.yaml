@@ -1170,11 +1170,9 @@ sigs:
   - src-openeuler/arp-scan
 - name: Virt
   repositories:
-  - src-openeuler/virt-viewer
   - src-openeuler/virglrenderer
   - src-openeuler/libvirt-python
   - src-openeuler/libvirt-glib
-  - src-openeuler/virt-manager
   - src-openeuler/qemu
   - src-openeuler/libvirt
   - src-openeuler/edk2
@@ -4051,6 +4049,8 @@ sigs:
   - src-openeuler/vhostmd
   - src-openeuler/freeipa
   - src-openeuler/nispor
+  - src-openeuler/virt-viewer
+  - src-openeuler/virt-manager
 - name: sig-REDF
   repositories:
   - openeuler/redf
