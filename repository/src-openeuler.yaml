@@ -51,7 +51,8 @@ repositories:
     type: protected
   type: public
 - name: native-turbo
-  description: Native-Turbo is the performance optimization framework of native microarchitecture of operating system.
+  description: Native-Turbo is the performance optimization framework of native microarchitecture
+    of operating system.
   upstream: https://gitee.com/openeuler/native-turbo
   branches:
   - name: master
@@ -1211,7 +1212,7 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   - name: openEuler-20.03-LTS-SP1
     type: protected
-    create_from: openEuler-20.03-LTS-Next 
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-21.09
     type: protected
     create_from: master
@@ -2092,7 +2093,7 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: ansible-runner-service
-  description: 'Restful API for ansible/ansible_runner execution'
+  description: Restful API for ansible/ansible_runner execution
   upstream: https://github.com/ansible/ansible-runner-service
   branches:
   - name: master
@@ -6283,28 +6284,32 @@ repositories:
     type: protected
   type: public
 - name: filter
-  description: This library provides a standardized interface for processing data as a sequence of filters.
+  description: This library provides a standardized interface for processing data
+    as a sequence of filters.
   upstream: https://github.com/ros/filters
   branches:
   - name: master
     type: protected
   type: public
 - name: ros_tutorials
-  description: ros_tutorials contains packages that demonstrate various features of ROS, as well as support packages which help demonstrate those features.
+  description: ros_tutorials contains packages that demonstrate various features of
+    ROS, as well as support packages which help demonstrate those features.
   upstream: https://github.com/ros/ros_tutorials
   branches:
   - name: master
     type: protected
   type: public
 - name: ros_control
-  description: A set of packages that include controller interfaces, controller managers, transmissions and hardware_interfaces.
+  description: A set of packages that include controller interfaces, controller managers,
+    transmissions and hardware_interfaces.
   upstream: https://github.com/ros-controls/ros_control
   branches:
   - name: master
     type: protected
   type: public
 - name: rqt_bag
-  description: rqt_bag provides a GUI plugin for displaying and replaying ROS bag files.
+  description: rqt_bag provides a GUI plugin for displaying and replaying ROS bag
+    files.
   upstream: https://github.com/ros-visualization/rqt_bag
   branches:
   - name: master
@@ -6318,14 +6323,16 @@ repositories:
     type: protected
   type: public
 - name: executive_smach
-  description: SMACH is a task-level architecture for rapidly creating complex robot behavior
+  description: SMACH is a task-level architecture for rapidly creating complex robot
+    behavior
   upstream: https://github.com/ros/executive_smach
   branches:
   - name: master
     type: protected
   type: public
 - name: image_pipeline
-  description: image_pipeline fills the gap between getting raw images from a camera driver and higher-level vision processing.
+  description: image_pipeline fills the gap between getting raw images from a camera
+    driver and higher-level vision processing.
   upstream: https://github.com/ros-perception/image_pipeline
   branches:
   - name: master
@@ -8271,7 +8278,7 @@ repositories:
     create_from: master
   type: public
 - name: collectd
-  description: 'system information collection daemon'
+  description: system information collection daemon
   upstream: https://github.com/collectd/collectd
   branches:
   - name: master
@@ -8285,7 +8292,7 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
-  type: public 
+  type: public
 - name: colm
   description: a programming language designed for the analysis and transformation
     of computer languages
@@ -20596,8 +20603,8 @@ repositories:
     create_from: master
   type: public
 - name: gstreamer1-libav
-  description: GStreamer Libav plug-in contains one plugin with a set of elements using the Libav library code,
-        it contains many popular decoders and encoders.
+  description: GStreamer Libav plug-in contains one plugin with a set of elements
+    using the Libav library code, it contains many popular decoders and encoders.
   upstream: https://gitlab.freedesktop.org/gstreamer/gst-libav
   branches:
   - name: master
@@ -21942,7 +21949,7 @@ repositories:
     create_from: master
   type: public
 - name: highlight
-  description: 'Universal source code to formatted text converter'
+  description: Universal source code to formatted text converter
   upstream: http://www.andre-simon.de
   branches:
   - name: master
@@ -21956,7 +21963,7 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
-  type: public  
+  type: public
 - name: hiredis
   description: ''
   branches:
@@ -26812,7 +26819,7 @@ repositories:
     create_from: master
   type: public
 - name: ioprocess
-  description: 'Process to perform risky IO'
+  description: Process to perform risky IO
   upstream: https://github.com/oVirt/ioprocess
   branches:
   - name: master
@@ -28764,7 +28771,7 @@ repositories:
     create_from: master
   type: private
 - name: nispor
-  description: 'Unified interface for Linux network state querying'
+  description: Unified interface for Linux network state querying
   upstream: https://github.com/nispor/nispor
   branches:
   - name: master
@@ -40900,7 +40907,7 @@ repositories:
     create_from: master
   type: public
 - name: linux-system-roles
-  description: 'Set of interfaces for unified system management'
+  description: Set of interfaces for unified system management
   upstream: https://github.com/linux-system-roles
   branches:
   - name: master
@@ -41685,7 +41692,7 @@ repositories:
     create_from: master
   type: public
 - name: lshw-B.02.18
-  description: 'Hardware LiSter for Linux'
+  description: Hardware LiSter for Linux
   upstream: https://github.com/lyonel/lshw
   branches:
   - name: master
@@ -42715,7 +42722,8 @@ repositories:
     create_from: master
   type: public
 - name: makeself
-  description: 'A shell script that generates a self-extractable tar.gz archive from a directory'
+  description: A shell script that generates a self-extractable tar.gz archive from
+    a directory
   upstream: http://makeself.io/
   branches:
   - name: master
@@ -43130,12 +43138,12 @@ repositories:
   description: Wireless regulatory database for CRDA
   upstream: https://git.kernel.org/pub/scm/linux/kernel/git/sforshee/wireless-regdb.git/
   branches:
-  - name: master 
+  - name: master
     type: protected
   - name: openEuler-21.09
-    type: protected                                                                                                        
-    create_from: master 
-  type: public 
+    type: protected
+    create_from: master
+  type: public
 - name: mate-polkit
   description: Authentication Agent for PolicyKit and MATE
   upstream: https://github.com/mate-desktop/mate-polkit
@@ -45483,7 +45491,7 @@ repositories:
     create_from: master
   type: public
 - name: mom
-  description: 'Dynamically manage system resources on virtualization hosts'
+  description: Dynamically manage system resources on virtualization hosts
   upstream: http://www.ovirt.org
   branches:
   - name: master
@@ -47028,7 +47036,8 @@ repositories:
     create_from: master
   type: public
 - name: nng
-  description: a lightweight, broker-less library, offering a simple API to solve common recurring messaging problems.
+  description: a lightweight, broker-less library, offering a simple API to solve
+    common recurring messaging problems.
   upstream: https://github.com/nanomsg/nng
   branches:
   - name: master
@@ -50022,7 +50031,7 @@ repositories:
     create_from: master
   type: public
 - name: openstack-java-sdk
-  description: 'OpenStack Java SDK'
+  description: OpenStack Java SDK
   upstream: https://github.com/woorea/openstack-java-sdk
   branches:
   - name: master
@@ -50093,13 +50102,13 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-20.03-LTS-SP1
     type: protected
-    create_from: master
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
@@ -50108,7 +50117,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS
     type: protected
-    create_from: master
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -50186,10 +50195,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -50297,10 +50306,10 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: openEuler-20.03-LTS-Next 
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-20.03-LTS-SP1
     type: protected
-    create_from: openEuler-20.03-LTS-Next 
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: orc
   description: ''
@@ -50574,7 +50583,7 @@ repositories:
     create_from: master
   type: public
 - name: otopi
-  description: 'oVirt Task Oriented Pluggable Installer/Implementation'
+  description: oVirt Task Oriented Pluggable Installer/Implementation
   upstream: http://www.ovirt.org
   branches:
   - name: master
@@ -50629,7 +50638,7 @@ repositories:
     create_from: master
   type: public
 - name: ovirt-ansible-collection
-  description: 'Ansible collection to manage all ovirt modules and inventory'
+  description: Ansible collection to manage all ovirt modules and inventory
   upstream: http://www.ovirt.org
   branches:
   - name: master
@@ -50681,7 +50690,7 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: ovirt-ansible-image-template
-  description: 'Ansible role to create virtual machine template from disk image'
+  description: Ansible role to create virtual machine template from disk image
   upstream: http://www.ovirt.org
   branches:
   - name: master
@@ -50754,7 +50763,7 @@ repositories:
     create_from: master
   type: public
 - name: ovirt-ansible-vm-infra
-  description: 'Ansible role to create virtual machine infrastructure'
+  description: Ansible role to create virtual machine infrastructure
   upstream: http://www.ovirt.org
   branches:
   - name: master
@@ -50773,7 +50782,8 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: ovirt-cockpit-sso
-  description: 'provides SSO from oVirt Administration portal to Cockpit running on a ovirt host'
+  description: provides SSO from oVirt Administration portal to Cockpit running on
+    a ovirt host
   upstream: http://www.ovirt.org
   branches:
   - name: master
@@ -50792,7 +50802,7 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: ovirt-dependencies
-  description: 'oVirt 3rd party dependencies'
+  description: oVirt 3rd party dependencies
   upstream: http://www.ovirt.org
   branches:
   - name: master
@@ -50806,9 +50816,9 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
-  type: public 
+  type: public
 - name: ovirt-engine
-  description: 'Managment server for open virtualization'
+  description: Managment server for open virtualization
   upstream: http://www.ovirt.org
   branches:
   - name: master
@@ -50854,7 +50864,7 @@ repositories:
     create_from: master
   type: public
 - name: ovirt-engine-dwh
-  description: 'Data warehouse package for oVirt Virtualization Suite'
+  description: Data warehouse package for oVirt Virtualization Suite
   upstream: http://www.ovirt.org
   branches:
   - name: master
@@ -50891,7 +50901,7 @@ repositories:
     create_from: master
   type: public
 - name: ovirt-engine-metrics
-  description: 'allows configuring an ovirt installation to send metrics'
+  description: allows configuring an ovirt installation to send metrics
   upstream: http://www.ovirt.org
   branches:
   - name: master
@@ -50919,7 +50929,7 @@ repositories:
     create_from: master
   type: public
 - name: ovirt-engine-nodejs-modules
-  description: 'Node.js modules required to build oVirt JavaScript applications'
+  description: Node.js modules required to build oVirt JavaScript applications
   upstream: http://www.ovirt.org
   branches:
   - name: master
@@ -50938,7 +50948,8 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: ovirt-engine-ui-extensions
-  description: 'UI plugin that provides various extensions to ovirt administration UI'
+  description: UI plugin that provides various extensions to ovirt administration
+    UI
   upstream: http://www.ovirt.org
   branches:
   - name: master
@@ -50957,7 +50968,8 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: ovirt-engine-wildfly
-  description: 'contains scripts to create wildfly RPM package from officially released ZIP file, which required to run ovirt engine'
+  description: contains scripts to create wildfly RPM package from officially released
+    ZIP file, which required to run ovirt engine
   upstream: http://www.ovirt.org
   branches:
   - name: master
@@ -50976,7 +50988,7 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: ovirt-engine-wildfly-overlay
-  description: 'this package contains upgraded parts of wildfly 8.2.1'
+  description: this package contains upgraded parts of wildfly 8.2.1
   upstream: http://www.ovirt.org
   branches:
   - name: master
@@ -50996,7 +51008,7 @@ repositories:
   type: public
 - name: nodejs-yarn
   rename_from: ovirt-engine-yarn
-  description: 'A fast, reliable and secure dependency management tool.'
+  description: A fast, reliable and secure dependency management tool.
   upstream: https://github.com/yarnpkg/yarn
   branches:
   - name: master
@@ -51180,7 +51192,7 @@ repositories:
     create_from: master
   type: public
 - name: ovirt-provider-ovn
-  description: 'The oVirt external network provider for OVN'
+  description: The oVirt external network provider for OVN
   upstream: http://www.ovirt.org
   branches:
   - name: master
@@ -51217,7 +51229,7 @@ repositories:
     create_from: master
   type: public
 - name: ovirt-setup-lib
-  description: 'oVirt setup common library'
+  description: oVirt setup common library
   upstream: http://www.ovirt.org
   branches:
   - name: master
@@ -51236,7 +51248,7 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: ovirt-vmconsole
-  description: 'oVirt VM console'
+  description: oVirt VM console
   upstream: http://www.ovirt.org
   branches:
   - name: master
@@ -51255,7 +51267,7 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: ovirt-web-ui
-  description: 'modern lightweight UI for standard ovirt users'
+  description: modern lightweight UI for standard ovirt users
   upstream: http://www.ovirt.org
   branches:
   - name: master
@@ -51765,10 +51777,10 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: openEuler-20.03-LTS-Next 
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-20.03-LTS-SP1
     type: protected
-    create_from: openEuler-20.03-LTS-Next 
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-21.09
     type: protected
     create_from: master
@@ -74747,7 +74759,7 @@ repositories:
     create_from: master
   type: public
 - name: postgresql
-  description: 'PostgreSQL client programs'
+  description: PostgreSQL client programs
   upstream: http://www.postgresql.org
   branches:
   - name: master
@@ -74775,7 +74787,7 @@ repositories:
     create_from: master
   type: public
 - name: postgresql-13
-  description: 'PostgreSQL client programs'
+  description: PostgreSQL client programs
   upstream: http://www.postgresql.org
   branches:
   - name: master
@@ -75588,18 +75600,18 @@ repositories:
   branches:
   - name: master
     type: protected
-  - name: openEuler-20.03-LTS-SP1
-    type: protected
-    create_from: master
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-20.09
     type: protected
     create_from: master
   - name: openEuler-20.03-LTS
     type: protected
-    create_from: master
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -75611,7 +75623,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: openEuler-21.09
     type: protected
     create_from: master
@@ -76014,10 +76026,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -76511,7 +76523,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -76957,7 +76969,7 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -77111,7 +77123,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -77133,7 +77145,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -77155,7 +77167,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -77174,7 +77186,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -77196,7 +77208,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -77215,7 +77227,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -77234,7 +77246,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -77253,7 +77265,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -77275,7 +77287,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -77294,7 +77306,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -77316,7 +77328,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -77335,7 +77347,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -77357,7 +77369,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -77379,7 +77391,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -77399,7 +77411,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -77418,7 +77430,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -77437,7 +77449,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -77456,7 +77468,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -77476,7 +77488,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -77508,7 +77520,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -77530,7 +77542,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -77549,7 +77561,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -77568,7 +77580,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -77597,7 +77609,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -77619,7 +77631,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -77638,7 +77650,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -77657,7 +77669,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -77677,7 +77689,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -77761,9 +77773,6 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.03
-    type: protected
-    create_from: master
-  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   - name: openEuler-21.09
@@ -77994,10 +78003,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-20.09
     type: protected
     create_from: master
@@ -78074,10 +78083,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-20.09
     type: protected
     create_from: master
@@ -78111,7 +78120,7 @@ repositories:
     type: protected
   - name: openEuler-20.03-LTS-SP1
     type: protected
-    create_from: master
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
@@ -78120,7 +78129,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS
     type: protected
-    create_from: master
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -78132,7 +78141,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: openEuler-21.09
     type: protected
     create_from: master
@@ -78168,7 +78177,7 @@ repositories:
     create_from: master
   type: public
 - name: python-ansible-runner
-  description: 'A tool and python library to interface with Ansible'
+  description: A tool and python library to interface with Ansible
   upstream: https://github.com/ansible/ansible-runner
   branches:
   - name: master
@@ -78219,7 +78228,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -78315,22 +78324,22 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-20.09
     type: protected
     create_from: master
   - name: openEuler-20.03-LTS
     type: protected
-    create_from: master
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   - name: openEuler-20.03-LTS-SP1
     type: protected
-    create_from: master
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -78418,7 +78427,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -79077,7 +79086,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -79108,7 +79117,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -79133,7 +79142,7 @@ repositories:
     type: protected
   - name: openEuler-20.03-LTS-SP1
     type: protected
-    create_from: master
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
@@ -79142,13 +79151,13 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS
     type: protected
-    create_from: master
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
@@ -79462,9 +79471,6 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
-  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
-    type: protected
-    create_from: master
   - name: openEuler-21.09
     type: protected
     create_from: master
@@ -79542,7 +79548,7 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -79758,10 +79764,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-20.09
     type: protected
     create_from: master
@@ -79873,10 +79879,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -79898,10 +79904,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -79971,7 +79977,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -80417,10 +80423,10 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-20.09
     type: protected
     create_from: master
@@ -80700,7 +80706,7 @@ repositories:
     type: protected
   - name: openEuler-20.03-LTS-SP1
     type: protected
-    create_from: master
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
@@ -80709,7 +80715,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS
     type: protected
-    create_from: master
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -80718,7 +80724,7 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -81243,7 +81249,7 @@ repositories:
     create_from: master
   type: public
 - name: python-daemon
-  description: 'Library to implement a well-behaved Unix daemon process'
+  description: Library to implement a well-behaved Unix daemon process
   upstream: https://pagure.io/python-daemon
   branches:
   - name: master
@@ -81310,9 +81316,6 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
-    type: protected
-    create_from: master
-  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   - name: openEuler-21.09
@@ -81428,10 +81431,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-20.09
     type: protected
     create_from: master
@@ -81528,7 +81531,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -81558,7 +81561,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -81806,7 +81809,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -81857,9 +81860,6 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
-    type: protected
-    create_from: master
-  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   - name: openEuler-21.09
@@ -81939,24 +81939,18 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
-  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
-    type: protected
-    create_from: master
-  - name: oepkg_openstack-common_oe-20.03-LTS-Next
-    type: protected
-    create_from: master
   - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
-    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+    create_from: master
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
     type: protected
-    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+    create_from: master
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.09
     type: protected
     create_from: master
@@ -82059,10 +82053,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-20.09
     type: protected
     create_from: master
@@ -82117,7 +82111,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: openEuler-21.09
     type: protected
     create_from: master
@@ -82147,7 +82141,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -82605,10 +82599,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-20.09
     type: protected
     create_from: master
@@ -82708,10 +82702,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-20.09
     type: protected
     create_from: master
@@ -82851,9 +82845,6 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.03
-    type: protected
-    create_from: master
-  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   - name: openEuler-21.09
@@ -83030,7 +83021,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -83143,7 +83134,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP1
     type: protected
-    create_from: master
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-20.09
     type: protected
     create_from: master
@@ -83153,24 +83144,18 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
-  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
-    type: protected
-    create_from: master
-  - name: oepkg_openstack-common_oe-20.03-LTS-Next
-    type: protected
-    create_from: master
   - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
-    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+    create_from: master
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
     type: protected
-    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+    create_from: master
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.09
     type: protected
     create_from: master
@@ -83185,9 +83170,6 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
-    type: protected
-    create_from: master
-  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   - name: openEuler-21.09
@@ -83511,10 +83493,10 @@ repositories:
     type: protected
   - name: openEuler-20.03-LTS
     type: protected
-    create_from: master
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-20.03-LTS-Next
     type: protected
-    create_from: openEuler-20.03-LTS
+    create_from: master
   - name: openEuler-20.09
     type: protected
     create_from: master
@@ -83523,7 +83505,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
@@ -83893,9 +83875,6 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
-  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
-    type: protected
-    create_from: master
   - name: openEuler-21.09
     type: protected
     create_from: master
@@ -83996,10 +83975,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-20.09
     type: protected
     create_from: master
@@ -84304,7 +84283,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: openEuler-21.09
     type: protected
     create_from: master
@@ -85268,7 +85247,7 @@ repositories:
     type: protected
   - name: openEuler-20.03-LTS-SP1
     type: protected
-    create_from: master
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
@@ -85277,11 +85256,8 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS
     type: protected
-    create_from: master
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-21.03
-    type: protected
-    create_from: master
-  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   - name: openEuler-20.03-LTS-SP2
@@ -85443,11 +85419,8 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP1
     type: protected
-    create_from: master
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-20.03-LTS-Next
-    type: protected
-    create_from: master
-  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   - name: openEuler-20.03-LTS-SP2
@@ -85752,7 +85725,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP1
     type: protected
-    create_from: master
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-20.09
     type: protected
     create_from: master
@@ -85764,7 +85737,7 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -85905,7 +85878,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -85927,7 +85900,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -86158,7 +86131,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS
     type: protected
-    create_from: master
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -86170,13 +86143,13 @@ repositories:
     create_from: master
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
     type: protected
     create_from: master
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.09
     type: protected
     create_from: master
@@ -86243,10 +86216,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -86548,13 +86521,13 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-20.03-LTS-SP1
     type: protected
-    create_from: master
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
@@ -86563,7 +86536,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS
     type: protected
-    create_from: master
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -86636,9 +86609,6 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.03
-    type: protected
-    create_from: master
-  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   - name: openEuler-21.09
@@ -87183,7 +87153,7 @@ repositories:
     type: protected
   - name: openEuler-20.03-LTS-SP1
     type: protected
-    create_from: master
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
@@ -87192,7 +87162,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS
     type: protected
-    create_from: master
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -87201,10 +87171,10 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -87271,10 +87241,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-20.09
     type: protected
     create_from: master
@@ -87613,10 +87583,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-20.09
     type: protected
     create_from: master
@@ -87708,10 +87678,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-20.09
     type: protected
     create_from: master
@@ -88006,10 +87976,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-20.09
     type: protected
     create_from: master
@@ -88043,10 +88013,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-20.09
     type: protected
     create_from: master
@@ -88413,16 +88383,16 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   - name: openEuler-20.03-LTS-SP1
     type: protected
-    create_from: master
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-20.09
     type: protected
     create_from: master
@@ -88596,10 +88566,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-20.09
     type: protected
     create_from: master
@@ -88670,10 +88640,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-20.09
     type: protected
     create_from: master
@@ -88698,10 +88668,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -88723,10 +88693,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -88748,10 +88718,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -88773,10 +88743,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -88798,10 +88768,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -88823,10 +88793,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -88893,10 +88863,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -88918,10 +88888,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -88943,10 +88913,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -89087,10 +89057,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -89112,10 +89082,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -89137,10 +89107,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -89162,10 +89132,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -89187,10 +89157,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -89212,10 +89182,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -89237,10 +89207,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-20.09
     type: protected
     create_from: master
@@ -89265,10 +89235,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -89290,10 +89260,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -89315,10 +89285,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -89340,10 +89310,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -89365,10 +89335,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -89390,10 +89360,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -89415,10 +89385,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -89440,10 +89410,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -89465,10 +89435,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -89503,10 +89473,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -89528,10 +89498,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -89553,10 +89523,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -89581,7 +89551,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -89597,10 +89567,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-20.09
     type: protected
     create_from: master
@@ -89635,24 +89605,18 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
-  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
-    type: protected
-    create_from: master
-  - name: oepkg_openstack-common_oe-20.03-LTS-Next
-    type: protected
-    create_from: master
   - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
-    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+    create_from: master
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
     type: protected
-    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+    create_from: master
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.09
     type: protected
     create_from: master
@@ -89678,7 +89642,7 @@ repositories:
     create_from: master
   type: public
 - name: python-ovirt-engine-sdk4
-  description: 'Python SDK for version 4 of the oVirt Engine API'
+  description: Python SDK for version 4 of the oVirt Engine API
   upstream: http://ovirt.org
   branches:
   - name: master
@@ -89839,13 +89803,13 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-20.03-LTS-SP1
     type: protected
-    create_from: master
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
@@ -89854,7 +89818,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS
     type: protected
-    create_from: master
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -89963,10 +89927,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-20.09
     type: protected
     create_from: master
@@ -90041,7 +90005,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -90110,7 +90074,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   type: public
 - name: python-pathlib2
   upstream: https://github.com/mcmtroffaes/pathlib2
@@ -90380,7 +90344,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP1
     type: protected
-    create_from: master
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-20.09
     type: protected
     create_from: master
@@ -90395,7 +90359,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: openEuler-20.03-LTS-Next
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: openEuler-21.09
     type: protected
     create_from: master
@@ -90511,7 +90475,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
     create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
@@ -91051,7 +91015,8 @@ repositories:
   type: public
 - name: python-prometheus-api-client
   upstream: https://github.com/AICoE/prometheus-api-client-python
-  description: A Python wrapper for the Prometheus http api and some tools for metrics processing.
+  description: A Python wrapper for the Prometheus http api and some tools for metrics
+    processing.
   branches:
   - name: master
     type: protected
@@ -91473,7 +91438,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: openEuler-21.09
     type: protected
     create_from: master
@@ -91551,7 +91516,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -91770,7 +91735,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -91940,7 +91905,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -92043,10 +92008,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-20.09
     type: protected
     create_from: master
@@ -92115,7 +92080,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -92205,10 +92170,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-20.09
     type: protected
     create_from: master
@@ -92275,10 +92240,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -92359,7 +92324,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -92381,7 +92346,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -92820,9 +92785,6 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.03
-    type: protected
-    create_from: master
-  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   - name: openEuler-21.09
@@ -93738,10 +93700,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-20.09
     type: protected
     create_from: master
@@ -93816,7 +93778,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -93871,7 +93833,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -93912,7 +93874,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -94398,10 +94360,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-20.09
     type: protected
     create_from: master
@@ -94452,7 +94414,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -94743,10 +94705,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
@@ -94972,7 +94934,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: openEuler-21.09
     type: protected
     create_from: master
@@ -95255,7 +95217,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -95393,7 +95355,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -95423,9 +95385,6 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
-  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
-    type: protected
-    create_from: master
   - name: openEuler-21.09
     type: protected
     create_from: master
@@ -95447,9 +95406,6 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.03
-    type: protected
-    create_from: master
-  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   - name: openEuler-21.09
@@ -95489,9 +95445,6 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.03
-    type: protected
-    create_from: master
-  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   - name: openEuler-21.09
@@ -95651,10 +95604,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-20.09
     type: protected
     create_from: master
@@ -95714,7 +95667,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -95761,10 +95714,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -95801,7 +95754,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -96063,7 +96016,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -96245,7 +96198,7 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -96276,7 +96229,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -96481,10 +96434,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-20.09
     type: protected
     create_from: master
@@ -96777,13 +96730,13 @@ repositories:
     create_from: master
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
     type: protected
     create_from: master
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.09
     type: protected
     create_from: master
@@ -96884,7 +96837,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -96947,7 +96900,7 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP1
     type: protected
-    create_from: master
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-20.09
     type: protected
     create_from: master
@@ -96956,7 +96909,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
@@ -97196,10 +97149,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-20.09
     type: protected
     create_from: master
@@ -97338,7 +97291,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -97440,10 +97393,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-20.09
     type: protected
     create_from: master
@@ -97484,7 +97437,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -97526,7 +97479,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -97639,7 +97592,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -97904,10 +97857,10 @@ repositories:
     create_from: master
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -98133,7 +98086,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: openEuler-21.09
     type: protected
     create_from: master
@@ -98553,9 +98506,6 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.03
-    type: protected
-    create_from: master
-  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   - name: openEuler-21.09
@@ -101058,7 +101008,7 @@ repositories:
     create_from: master
   type: public
 - name: riemann-c-client
-  description: 'The riemann C client'
+  description: The riemann C client
   upstream: https://github.com/algernon/riemann-c-client
   branches:
   - name: master
@@ -102123,7 +102073,7 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
-  type: public  
+  type: public
 - name: rubygem-faraday-net_http_persistent
   rename_from: rubygem-faraday-net_http_persisten
   description: Faraday adapter for NetHttpPersistent
@@ -104493,7 +104443,7 @@ repositories:
     create_from: master
   type: private
 - name: snmp4j
-  description: 'The Object Oriented SNMP API for Java Managers and Agents'
+  description: The Object Oriented SNMP API for Java Managers and Agents
   upstream: http://www.snmp4j.org/
   branches:
   - name: master
@@ -109647,28 +109597,28 @@ repositories:
     create_from: master
   type: public
 - name: claws-mail
-  description: 'Email client and news reader based on GTK+'
+  description: Email client and news reader based on GTK+
   upstream: https://claws-mail.org
   branches:
   - name: master
     type: protected
   type: public
 - name: gumbo-parser
-  description: 'An HTML5 parsing library in pure C99'
+  description: An HTML5 parsing library in pure C99
   upstream: https://github.com/google/gumbo-parser
   branches:
   - name: master
     type: protected
   type: public
 - name: libytnef
-  description: 'TNEF Stream Parser Library'
+  description: TNEF Stream Parser Library
   upstream: https://github.com/Yeraze/ytnef
   branches:
   - name: master
     type: protected
   type: public
 - name: libetpan
-  description: 'Portable, efficient middle-ware for different kinds of mail access'
+  description: Portable, efficient middle-ware for different kinds of mail access
   upstream: https://github.com/dinhvh/libetpan
   branches:
   - name: master
@@ -110132,10 +110082,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-20.09
     type: protected
     create_from: master
@@ -112502,7 +112452,7 @@ repositories:
     create_from: master
   type: public
 - name: vdsm
-  description: 'Virtual desktop server manager'
+  description: Virtual desktop server manager
   upstream: http://www.ovirt.org/develop/developer-guide/vdsm/vdsm
   branches:
   - name: master
@@ -112521,7 +112471,7 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: vdsm-jsonrpc-java
-  description: 'JsonRpc java client for oVirt'
+  description: JsonRpc java client for oVirt
   upstream: http://www.ovirt.org
   branches:
   - name: master
@@ -118184,10 +118134,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -119405,10 +119355,10 @@ repositories:
     create_from: master
   type: public
 - name: capsule
-  description: Capsule is a next generation Hypervisor which is compatible
-    with VM/container/partition ecosystem and naturally supports hot upgrade
-    capabilities. Based on Rust programming language of memory security, Capsule
-    supports both Type-1 and Type-2 types across various IT/OT/CT scenarios.
+  description: Capsule is a next generation Hypervisor which is compatible with VM/container/partition
+    ecosystem and naturally supports hot upgrade capabilities. Based on Rust programming
+    language of memory security, Capsule supports both Type-1 and Type-2 types across
+    various IT/OT/CT scenarios.
   upstream: https://gitee.com/openeuler/capsule
   branches:
   - name: master
@@ -139818,7 +139768,8 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: rubygem-sigdump
-  description: Setup signal handler which dumps backtrace of running threads and number of allocated objects per class.
+  description: Setup signal handler which dumps backtrace of running threads and number
+    of allocated objects per class.
   upstream: https://github.com/frsyuki/sigdump
   branches:
   - name: master
@@ -140350,10 +140301,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -140391,10 +140342,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -140417,10 +140368,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -140445,10 +140396,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -140480,10 +140431,10 @@ repositories:
     create_from: master
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.09
     type: protected
     create_from: master
@@ -140503,10 +140454,10 @@ repositories:
     create_from: master
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.09
     type: protected
     create_from: master
@@ -140527,10 +140478,10 @@ repositories:
     create_from: master
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.09
     type: protected
     create_from: master
@@ -140544,7 +140495,7 @@ repositories:
     type: protected
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -140570,10 +140521,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -140596,10 +140547,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -140625,10 +140576,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -140651,10 +140602,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -140690,10 +140641,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -140715,10 +140666,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -140741,10 +140692,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -140767,10 +140718,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -140807,10 +140758,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -140844,10 +140795,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -140871,10 +140822,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -140896,10 +140847,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -140922,10 +140873,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -140948,10 +140899,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -140973,10 +140924,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -141000,10 +140951,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -141124,10 +141075,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -141149,10 +141100,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -141174,10 +141125,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -141212,10 +141163,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -141364,10 +141315,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
@@ -141422,7 +141373,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
@@ -141677,19 +141628,13 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP1
     type: protected
-    create_from: master
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-21.03
-    type: protected
-    create_from: master
-  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
-  - name: oepkg_openstack-common_oe-20.03-LTS-Next
-    type: protected
-    create_from: master
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
     create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
@@ -141875,10 +141820,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -141900,13 +141845,13 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-20.03-LTS-SP1
     type: protected
-    create_from: master
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
@@ -142145,10 +142090,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -142170,10 +142115,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -142234,9 +142179,6 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
-  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
-    type: protected
-    create_from: master
   - name: openEuler-21.09
     type: protected
     create_from: master
@@ -142269,9 +142211,6 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
-  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
-    type: protected
-    create_from: master
   - name: openEuler-21.09
     type: protected
     create_from: master
@@ -142284,9 +142223,6 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.03
-    type: protected
-    create_from: master
-  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   - name: openEuler-21.09
@@ -142305,7 +142241,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -142347,7 +142283,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -142414,10 +142350,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -142441,24 +142377,18 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
-  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
-    type: protected
-    create_from: master
-  - name: oepkg_openstack-common_oe-20.03-LTS-Next
-    type: protected
-    create_from: master
   - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
-    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+    create_from: master
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
     type: protected
-    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+    create_from: master
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.09
     type: protected
     create_from: master
@@ -142471,10 +142401,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -142498,10 +142428,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -142523,10 +142453,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -142560,7 +142490,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -142577,10 +142507,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -142606,7 +142536,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -142647,10 +142577,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -142692,10 +142622,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
@@ -142770,10 +142700,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -142834,10 +142764,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -142860,9 +142790,6 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
-  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
-    type: protected
-    create_from: master
   - name: openEuler-21.09
     type: protected
     create_from: master
@@ -142877,24 +142804,18 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
-  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
-    type: protected
-    create_from: master
-  - name: oepkg_openstack-common_oe-20.03-LTS-Next
-    type: protected
-    create_from: master
   - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
-    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+    create_from: master
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
     type: protected
-    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+    create_from: master
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.09
     type: protected
     create_from: master
@@ -142962,10 +142883,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -143252,7 +143173,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -143268,10 +143189,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -143294,10 +143215,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -143319,10 +143240,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -143344,10 +143265,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -143373,7 +143294,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -143390,9 +143311,6 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
-  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
-    type: protected
-    create_from: master
   - name: openEuler-21.09
     type: protected
     create_from: master
@@ -143405,10 +143323,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -143439,10 +143357,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -143474,9 +143392,6 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
-  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
-    type: protected
-    create_from: master
   - name: openEuler-21.09
     type: protected
     create_from: master
@@ -143488,9 +143403,6 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.03
-    type: protected
-    create_from: master
-  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
     create_from: master
   - name: openEuler-21.09
@@ -143506,9 +143418,6 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
-  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
-    type: protected
-    create_from: master
   - name: openEuler-21.09
     type: protected
     create_from: master
@@ -143521,10 +143430,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -143549,10 +143458,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -143578,24 +143487,18 @@ repositories:
   - name: openEuler-21.03
     type: protected
     create_from: master
-  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
-    type: protected
-    create_from: master
-  - name: oepkg_openstack-common_oe-20.03-LTS-Next
-    type: protected
-    create_from: master
   - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
-    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+    create_from: master
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
     type: protected
-    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+    create_from: master
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.09
     type: protected
     create_from: master
@@ -143608,10 +143511,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -143633,10 +143536,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -143659,10 +143562,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -143684,10 +143587,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -143730,10 +143633,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -143770,10 +143673,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -143996,10 +143899,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.03
     type: protected
     create_from: master
@@ -144198,7 +144101,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -144570,7 +144473,8 @@ repositories:
     type: protected
   type: public
 - name: libyang1
-  description: libyang is YANG data modelling language parser and toolkit written (and providing API) in C
+  description: libyang is YANG data modelling language parser and toolkit written
+    (and providing API) in C
   upstream: https://github.com/CESNET/libyang
   branches:
   - name: master
@@ -144584,7 +144488,8 @@ repositories:
     type: protected
   type: public
 - name: canfestival
-  description: CanFestival focuses on providing an ANSI-C platform independent CANOpen stack that can be built as master or slave nodes on PCs, Real-time IPCs, and Microcontrollers.
+  description: CanFestival focuses on providing an ANSI-C platform independent CANOpen
+    stack that can be built as master or slave nodes on PCs, Real-time IPCs, and Microcontrollers.
   upstream: https://hg.beremiz.org/CanFestival-3
   branches:
   - name: master
@@ -144598,7 +144503,8 @@ repositories:
     type: protected
   type: public
 - name: GATK
-  description: GATK is a software that analyzes mutation information from high-throughput sequencing data.
+  description: GATK is a software that analyzes mutation information from high-throughput
+    sequencing data.
   upstream: https://github.com/broadinstitute/gatk
   branches:
   - name: master
@@ -144803,14 +144709,15 @@ repositories:
 - name: telegraf
   description: The plugin-driven server agent for collecting and reporting metrics
   upstream: https://github.com/influxdata/telegraf
-  branches: 
+  branches:
   - name: master
     type: protected
   type: public
 - name: vhostmd
-  description: Vhostmd provides a metrics communication channel between a host and its hostvirtual machines
+  description: Vhostmd provides a metrics communication channel between a host and
+    its hostvirtual machines
   upstream: https://github.com/vhostmd/vhostmd
-  branches: 
+  branches:
   - name: master
     type: protected
   - name: openEuler-20.03-LTS-Next
@@ -144822,7 +144729,7 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
-  type: public 
+  type: public
 - name: rinetd
   description: rinetd redirects TCP connections from one IP address and port to another
     address and port
@@ -144849,10 +144756,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -144871,10 +144778,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -144893,10 +144800,10 @@ repositories:
     type: readonly
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -144912,10 +144819,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -144931,10 +144838,10 @@ repositories:
     type: protected
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -144948,21 +144855,18 @@ repositories:
   branches:
   - name: master
     type: protected
-  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
-    type: protected
-    create_from: master
   - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
-    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+    create_from: master
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
     type: protected
-    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+    create_from: master
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.09
     type: protected
     create_from: master
@@ -144975,7 +144879,7 @@ repositories:
     type: protected
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -145036,7 +144940,7 @@ repositories:
     type: protected
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -145053,7 +144957,7 @@ repositories:
     type: protected
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -145100,7 +145004,7 @@ repositories:
     type: protected
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -145116,7 +145020,7 @@ repositories:
     type: protected
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -145129,7 +145033,7 @@ repositories:
     type: protected
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -145145,7 +145049,7 @@ repositories:
     type: protected
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -145161,7 +145065,7 @@ repositories:
     type: protected
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -145178,7 +145082,7 @@ repositories:
     type: protected
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -145194,7 +145098,7 @@ repositories:
     type: protected
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -145207,7 +145111,7 @@ repositories:
     type: protected
   - name: oepkg_openstack-common_oe-20.03-LTS-SP2
     type: protected
-    create_from: master
+    create_from: oepkg_openstack-common_oe-20.03-LTS-Next
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
     type: protected
     create_from: master
@@ -145230,7 +145134,7 @@ repositories:
     create_from: master
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
+    create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
   - name: openEuler-21.09
     type: protected
     create_from: master
@@ -146750,7 +146654,8 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: trafficserver
-  description: Apache Traffic Server, a reverse, forward and transparent HTTP proxy cache
+  description: Apache Traffic Server, a reverse, forward and transparent HTTP proxy
+    cache
   upstream: https://trafficserver.apache.org
   branches:
   - name: master
@@ -147350,7 +147255,8 @@ repositories:
     type: protected
   type: public
 - name: python-jedi
-  description: A static analysis tool for Python that is typically used in IDEs/editors plugins
+  description: A static analysis tool for Python that is typically used in IDEs/editors
+    plugins
   upstream: https://github.com/davidhalter/jedi
   branches:
   - name: master
@@ -148049,7 +147955,8 @@ repositories:
     create_from: master
   type: public
 - name: liberasurecode
-  description: liberasurecode is an Erasure Code API library written in C with pluggable Erasure Code backends.
+  description: liberasurecode is an Erasure Code API library written in C with pluggable
+    Erasure Code backends.
   upstream: https://github.com/openstack/liberasurecode
   branches:
   - name: master
@@ -148111,12 +148018,13 @@ repositories:
     type: protected
   type: public
 - name: openpmix
-  description: The Process Management Interface (PMI) has been used as a means of exchanging wireup information needed for interprocess communication.
+  description: The Process Management Interface (PMI) has been used as a means of
+    exchanging wireup information needed for interprocess communication.
   upstream: https://github.com/openpmix/openpmix
   branches:
   - name: master
     type: protected
-  type: public 
+  type: public
 - name: prrte
   description: PRRTE is the PMIx Reference Run Time Environment.
   upstream: https://github.com/openpmix/prrte
@@ -148213,7 +148121,8 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: httpry
-  description: A specialized packet sniffer designed for displaying and logging HTTP traffic
+  description: A specialized packet sniffer designed for displaying and logging HTTP
+    traffic
   upstream: http://dumpsterventures.com/jason/httpry/
   branches:
   - name: master
@@ -148229,7 +148138,8 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: openconnect
-  description: Open client for Cisco AnyConnect VPN, Juniper Network Connect/Pulse,PAN GlobalProtect
+  description: Open client for Cisco AnyConnect VPN, Juniper Network Connect/Pulse,PAN
+    GlobalProtect
   upstream: http://www.infradead.org/openconnect.html
   branches:
   - name: master
@@ -148325,28 +148235,28 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: libnatpmp
-  description: Library of The NAT Port Mapping Protocol (NAT-PMP) 
+  description: Library of The NAT Port Mapping Protocol (NAT-PMP)
   upstream: http://miniupnp.free.fr/libnatpmp.html
   branches:
   - name: master
     type: protected
   type: public
 - name: siege
-  description: HTTP regression testing and benchmarking utility 
+  description: HTTP regression testing and benchmarking utility
   upstream: http://www.joedog.org/JoeDog/Siege
   branches:
   - name: master
     type: protected
   type: public
 - name: patchelf
-  description: A utility for patching ELF binaries 
+  description: A utility for patching ELF binaries
   upstream: http://nixos.org/patchelf.html
   branches:
   - name: master
     type: protected
   type: public
 - name: msgpack-c
-  description: Binary-based efficient object serialization library for C/C++ 
+  description: Binary-based efficient object serialization library for C/C++
   upstream: http://msgpack.org
   branches:
   - name: master
@@ -148422,7 +148332,8 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: gnustep-make
-  description: The makefile package is a simple, powerful and extensible way to write makefiles for a GNUstep-based project.
+  description: The makefile package is a simple, powerful and extensible way to write
+    makefiles for a GNUstep-based project.
   upstream: http://www.gnustep.org/
   branches:
   - name: master
@@ -148461,7 +148372,8 @@ repositories:
     type: protected
   type: public
 - name: gnustep-base
-  description: The GNUstep Base Library is a library of general-purpose, non-graphical Objective C object.
+  description: The GNUstep Base Library is a library of general-purpose, non-graphical
+    Objective C object.
   upstream: http://www.gnustep.org/
   branches:
   - name: master
@@ -148500,7 +148412,8 @@ repositories:
     type: protected
   type: public
 - name: python-libcloud
-  description: A standard Python library that abstracts away differences among multiple cloud provider APIs.
+  description: A standard Python library that abstracts away differences among multiple
+    cloud provider APIs.
   upstream: https://libcloud.apache.org/
   branches:
   - name: master
@@ -148537,7 +148450,8 @@ repositories:
     type: protected
   type: public
 - name: raspberrypi-eeprom
-  description: Installation scripts and binaries for the closed sourced Raspberry Pi 4 EEPROMs.
+  description: Installation scripts and binaries for the closed sourced Raspberry
+    Pi 4 EEPROMs.
   upstream: https://github.com/raspberrypi/rpi-eeprom
   branches:
   - name: master
@@ -148564,7 +148478,8 @@ repositories:
     create_from: master
   type: public
 - name: box86
-  description: Box86 lets you run x86 Linux programs (such as games) on non-x86 Linux systems, like ARM (host system needs to be 32bit little-endian).
+  description: Box86 lets you run x86 Linux programs (such as games) on non-x86 Linux
+    systems, like ARM (host system needs to be 32bit little-endian).
   upstream: https://github.com/ptitSeb/box86
   branches:
   - name: master
