@@ -148616,6 +148616,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: dust
+  description: du + rust = dust. Like du but more intuitive.
+  upstream: https://github.com/bootandy/dust
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: KubeOS
   description: Kubernetes Operating System simplifies OS updating
   upstream: https://gitee.com/openeuler/KubeOS
