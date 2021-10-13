@@ -113851,6 +113851,69 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: kiran-control-panel
+  description: Kiran control center for configuring system settings such as accounts, timedate and keyboard, etc.
+  upstream: https://gitee.com/kylinsecos/kiran-control-panel
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: kiran-cpanel-account
+  description: Accounts management tool.
+  upstream: https://gitee.com/kylinsecos/kiran-cpanel-account
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: kiran-cpanel-display
+  description: Configures display properties such as screen resolution, refresh rate, etc.
+  upstream: https://gitee.com/kylinsecos/kiran-cpanel-display
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: kiran-cpanel-menu
+  description: Kiran start menu settings tool.
+  upstream: https://gitee.com/kylinsecos/kiran-cpanel-menu
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: kiran-cpanel-mouse
+  description: Mouse and touchpad settings tool.
+  upstream: https://gitee.com/kylinsecos/kiran-cpanel-mouse
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: kiran-cpanel-timedate
+  description: Timedate settings tool.
+  upstream: https://gitee.com/kylinsecos/kiran-cpanel-timedate
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: kiran-panel
+  description: Kiran side main panel which include start menu, taskbar, system tray and calendar plugins.
+  upstream: https://gitee.com/kylinsecos/kiran-panel
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: kiran-session-manager
+  description: The session manager will load all necessary applications for a full-featured user session.
+  upstream: https://gitee.com/kylinsecos/kiran-session-manager
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: kiran-widgets-qt5
+  description: Qt5 custom widgets for kiran desktop environment.
+  upstream: https://gitee.com/kylinsecos/kiran-widgets-qt5
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: ostree_assembly
   description: Ostree generation platform, based on the Python Django, provides a
     complete set of web-based ostree mirror building process.
