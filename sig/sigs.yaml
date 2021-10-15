@@ -84,6 +84,7 @@ sigs:
   - src-openeuler/dovecot
   - src-openeuler/doxygen
   - src-openeuler/dump
+  - src-openeuler/dust
   - src-openeuler/elinks
   - src-openeuler/elixir
   - src-openeuler/enscript
@@ -1170,11 +1171,9 @@ sigs:
   - src-openeuler/arp-scan
 - name: Virt
   repositories:
-  - src-openeuler/virt-viewer
   - src-openeuler/virglrenderer
   - src-openeuler/libvirt-python
   - src-openeuler/libvirt-glib
-  - src-openeuler/virt-manager
   - src-openeuler/qemu
   - src-openeuler/libvirt
   - src-openeuler/edk2
@@ -2086,6 +2085,7 @@ sigs:
   - openeuler/rubik
   - openeuler/openeuler-docker-images
   - openeuler/KubeOS
+  - openeuler/NestOS
   - src-openeuler/KubeOS
   - src-openeuler/eggo
   - src-openeuler/coredns
@@ -2693,6 +2693,7 @@ sigs:
   - openeuler/async-libfuse
   - openeuler/isula-build
   - openeuler/isula-transform
+  - openeuler/pyisula
   - src-openeuler/iSulad
   - src-openeuler/isula-build
   - src-openeuler/clibcni
@@ -4127,6 +4128,8 @@ sigs:
   - src-openeuler/vhostmd
   - src-openeuler/freeipa
   - src-openeuler/nispor
+  - src-openeuler/virt-viewer
+  - src-openeuler/virt-manager
 - name: sig-REDF
   repositories:
   - openeuler/redf
@@ -4706,6 +4709,15 @@ sigs:
   - src-openeuler/gdbus-codegen-glibmm
   - src-openeuler/kiran-log
   - src-openeuler/zlog
+  - src-openeuler/kiran-control-panel
+  - src-openeuler/kiran-cpanel-account
+  - src-openeuler/kiran-cpanel-display
+  - src-openeuler/kiran-cpanel-menu
+  - src-openeuler/kiran-cpanel-mouse
+  - src-openeuler/kiran-cpanel-timedate
+  - src-openeuler/kiran-panel
+  - src-openeuler/kiran-session-manager
+  - src-openeuler/kiran-widgets-qt5
 - name: sig-ROS
   repositories:
   - openeuler/ros
@@ -8489,6 +8501,7 @@ sigs:
   - src-openeuler/tslib
   - src-openeuler/vkd3d
   - src-openeuler/wine-mono
+  - src-openeuler/box86
 - name: sig-AccLib
   repositories:
   - openeuler/AvxToNeon

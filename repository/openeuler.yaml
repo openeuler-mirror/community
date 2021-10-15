@@ -228,6 +228,12 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: pyisula
+  description: python sdk library for iSulad and isula-build
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: iSulad-img
   description: ''
   branches:
@@ -1066,6 +1072,12 @@ repositories:
   type: public
 - name: KubeOS
   description: Kubernetes Operating System simplifies OS updating
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: NestOS
+  description: NestOS is an automatically updated minimal operating system developed based on openEuler
   branches:
   - name: master
     type: protected

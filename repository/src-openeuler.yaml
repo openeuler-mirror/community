@@ -113851,6 +113851,69 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: kiran-control-panel
+  description: Kiran control center for configuring system settings such as accounts, timedate and keyboard, etc.
+  upstream: https://gitee.com/kylinsecos/kiran-control-panel
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: kiran-cpanel-account
+  description: Accounts management tool.
+  upstream: https://gitee.com/kylinsecos/kiran-cpanel-account
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: kiran-cpanel-display
+  description: Configures display properties such as screen resolution, refresh rate, etc.
+  upstream: https://gitee.com/kylinsecos/kiran-cpanel-display
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: kiran-cpanel-menu
+  description: Kiran start menu settings tool.
+  upstream: https://gitee.com/kylinsecos/kiran-cpanel-menu
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: kiran-cpanel-mouse
+  description: Mouse and touchpad settings tool.
+  upstream: https://gitee.com/kylinsecos/kiran-cpanel-mouse
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: kiran-cpanel-timedate
+  description: Timedate settings tool.
+  upstream: https://gitee.com/kylinsecos/kiran-cpanel-timedate
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: kiran-panel
+  description: Kiran side main panel which include start menu, taskbar, system tray and calendar plugins.
+  upstream: https://gitee.com/kylinsecos/kiran-panel
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: kiran-session-manager
+  description: The session manager will load all necessary applications for a full-featured user session.
+  upstream: https://gitee.com/kylinsecos/kiran-session-manager
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: kiran-widgets-qt5
+  description: Qt5 custom widgets for kiran desktop environment.
+  upstream: https://gitee.com/kylinsecos/kiran-widgets-qt5
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: ostree_assembly
   description: Ostree generation platform, based on the Python Django, provides a
     complete set of web-based ostree mirror building process.
@@ -145219,21 +145282,18 @@ repositories:
   branches:
   - name: master
     type: protected
-  - name: oepkg_openstack-common_oe-20.03-LTS-SP2
-    type: protected
-    create_from: master
   - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
-    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+    create_from: master
   - name: oepkg_openstack-queens_oe-20.03-LTS-SP2
     type: protected
-    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
     type: protected
-    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+    create_from: master
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
-    create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
+    create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: openEuler-21.09
     type: protected
     create_from: master
@@ -148556,6 +148616,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: dust
+  description: du + rust = dust. Like du but more intuitive.
+  upstream: https://github.com/bootandy/dust
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: KubeOS
   description: Kubernetes Operating System simplifies OS updating
   upstream: https://gitee.com/openeuler/KubeOS
@@ -148565,6 +148632,13 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  type: public
+- name: box86
+  description: Box86 lets you run x86 Linux programs (such as games) on non-x86 Linux systems, like ARM (host system needs to be 32bit little-endian).
+  upstream: https://github.com/ptitSeb/box86
+  branches:
+  - name: master
+    type: protected
   type: public
 - name: a52dec
   description: Small test program for liba52
