@@ -148640,3 +148640,542 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: a52dec
+  description: Small test program for liba52
+  upstream: http://liba52.sourceforge.net
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: arpack
+  description: Fortran 77 subroutines for solving large scale eigenvalue problems
+  upstream: https://github.com/opencollab/arpack-ng
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: asdcplib
+  description: AS-DCP file access libraries
+  upstream: http://www.cinecert.com/asdcplib/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: blis
+  description: BLAS-like Library Instantiation Software Framework
+  upstream: https://github.com/flame/blis
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: ceres-solver
+  description: A non-linear least squares minimizer
+  upstream: http://ceres-solver.org/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: cliquer
+  description: Find cliques in arbitrary weighted graphs
+  upstream: https://users.aalto.fi/~pat/cliquer.html
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: coin-or-cbc
+  description: Coin-or branch and cut
+  upstream: https://github.com/coin-or/Cbc
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: coin-or-cgl
+  description: Cut Generation Library
+  upstream: https://github.com/coin-or/Cgl
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: coin-or-clp
+  description: Coin-or linear programming
+  upstream: https://github.com/coin-or/Clp
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: coin-or-coinutils
+  description: Coin-or Utilities
+  upstream: https://github.com/coin-or/CoinUtils
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: coin-or-data-miplib3
+  description: COIN-OR mixed integer library
+  upstream: https://projects.coin-or.org/svn/Data/miplib3
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: coin-or-data-netlib
+  description: COIN-OR Netlib models
+  upstream: https://projects.coin-or.org/svn/Data/Netlib
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: coin-or-dylp
+  description: Implementation of the dynamic simplex algorithm
+  upstream: http://projects.coin-or.org/DyLP
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: coin-or-osi
+  description: COIN-OR Open Solver Interface Library
+  upstream: https://github.com/coin-or/Osi
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: coin-or-sample
+  description: Coin-or Sample data files
+  upstream: https://projects.coin-or.org/svn/Data/Sample
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: coin-or-vol
+  description: Vol (Volume Algorithm)
+  upstream: http://projects.coin-or.org/Vol
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: compat-lua
+  description: Powerful light-weight programming language (compat version)
+  upstream: http://www.lua.org/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: daala
+  description: Daala video compression
+  upstream: http://xiph.org/daala/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: dcmtk
+  description: Offis DICOM Toolkit (DCMTK)
+  upstream: http://dicom.offis.de/dcmtk.php.en
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: eigen3
+  description: A lightweight C++ template library for vector and matrix math
+  upstream: http://eigen.tuxfamily.org/index.php?title=Main_Page
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: faad2
+  description: Library and frontend for decoding MPEG2/4 AAC
+  upstream: http://www.audiocoding.com/faad2.html
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: fbida
+  description: FrameBuffer Imageviewer
+  upstream: https://www.kraxel.org/blog/linux/fbida/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: fbset
+  description: Tools for managing a frame buffer's video mode properties
+  upstream: http://users.telenet.be/geertu/Linux/fbdev/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: flexiblas
+  description: A BLAS/LAPACK wrapper library with runtime exchangeable backends
+  upstream: https://www.mpi-magdeburg.mpg.de/projects/flexiblas
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: gdcm
+  description: Grassroots DiCoM is a C++ library to parse DICOM medical files
+  upstream: http://gdcm.sourceforge.net/wiki/index.php/Main_Page
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: gecode
+  description: Generic constraint development environment
+  upstream: http://www.gecode.org/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: glslang
+  description: OpenGL and OpenGL ES shader front end and validator
+  upstream: https://github.com/KhronosGroup
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: gpac
+  description: MPEG-4 multimedia framework
+  upstream: http://gpac.sourceforge.net/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: id3lib
+  description: Library for manipulating ID3v1 and ID3v2 tags
+  upstream: http://id3lib.sourceforge.net/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: libcaca
+  description: Library for Colour AsCii Art, text mode graphics
+  upstream: http://caca.zoy.org/wiki/libcaca
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: libcddb
+  description: Library (C API) for accessing CDDB servers
+  upstream: http://libcddb.sourceforge.net/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: libcec
+  description: Library and utilities for HDMI-CEC device control
+  upstream: http://libcec.pulse-eight.com/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: libdc1394
+  description: 1394-based digital camera control library
+  upstream: http://sourceforge.net/projects/libdc1394/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: libdca
+  description: DTS Coherent Acoustics decoder library
+  upstream: https://code.videolan.org/videolan/libdca
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: libdvbpsi
+  description: Library for MPEG TS and DVB PSI tables decoding and generation
+  upstream: http://www.videolan.org/developers/libdvbpsi.html
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: libebml
+  description: Extensible Binary Meta Language library
+  upstream: https://www.matroska.org/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: libfreenect
+  description: Device driver for the Kinect
+  upstream: http://www.openkinect.org/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: libharu
+  description: C library for generating PDF files
+  upstream: http://libharu.org
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: libmatroska
+  description: Open audio/video container format library
+  upstream: https://www.matroska.org/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: libmicrodns
+  description: Minimal mDNS resolver library
+  upstream: https://github.com/videolabs/libmicrodns
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: libmp4v2
+  description: Library for working with files using the mp4 container format
+  upstream: http://code.google.com/p/mp4v2
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: libmysofa
+  description: C functions for reading HRTFs
+  upstream: https://github.com/hoene/libmysofa
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: libopenmpt
+  description: C/C++ library to decode tracker music module (MOD) files
+  upstream: https://lib.openmpt.org/libopenmpt/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: librttopo
+  description: Create and manage SQL/MM topologies
+  upstream: https://git.osgeo.org/gitea/rttopo/librttopo
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: librx
+  description: POSIX regexp functions
+  upstream: http://www.gnu.org/software/rx/rx.html
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: libspatialaudio
+  description: Ambisonic encoding / decoding and binauralization library
+  upstream: https://github.com/videolabs/libspatialaudio
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: libtiger
+  description: Rendering library for Kate streams using Pango and Cairo
+  upstream: http://libtiger.googlecode.com
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: libucil
+  description: Library to render text and graphic overlays onto video images
+  upstream: https://www.unicap-imaging.org/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: libunicap
+  description: Library to access different kinds of (video) capture devices
+  upstream: https://www.unicap-imaging.org/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: lilv
+  description: An LV2 Resource Description Framework Library
+  upstream: http://drobilla.net/software/lilv/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: lirc
+  description: The Linux Infrared Remote Control package
+  upstream: http://www.lirc.org/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: live555
+  description: Live555.com streaming libraries
+  upstream: http://live555.com/liveMedia/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: lv2
+  description: Audio Plugin Standard
+  upstream: http://lv2plug.in
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: man2html
+  description: Convert man pages to HTML - CGI scripts
+  upstream: http://www.kapiti.co.nz/michael/vhman2html.html
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: metis
+  description: Serial Graph Partitioning and Fill-reducing Matrix Ordering
+  upstream: http://glaros.dtc.umn.edu/gkhome/views/metis
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: mp
+  description: An open-source library for mathematical programming
+  upstream: https://github.com/ampl/mp
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: mpi4py
+  description: Python bindings of the Message Passing Interface (MPI)
+  upstream: https://mpi4py.readthedocs.io/en/stable/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: mumps
+  description: A MUltifrontal Massively Parallel sparse direct Solver
+  upstream: http://mumps.enseeiht.fr/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: nauty
+  description: Graph canonical labeling and automorphism group computation
+  upstream: http://pallini.di.uniroma1.it/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: netcdf-cxx
+  description: Legacy netCDF C++ library
+  upstream: http://www.unidata.ucar.edu/software/netcdf/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: openslide
+  description: C library for reading virtual slides
+  upstream: http://openslide.org/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: platform
+  description: Platform support library used by libCEC and binary add-ons for Kodi
+  upstream: https://github.com/Pulse-Eight/platform/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: python-sphinx_lv2_theme
+  description: A minimal pure-CSS theme for Sphinx
+  upstream: https://gitlab.com/lv2/sphinx_lv2_theme
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rust-srpm-macros
+  description: RPM macros for building Rust source packages
+  upstream: https://pagure.io/fedora-rust/rust2rpm
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: scalapack
+  description: A subset of LAPACK routines redesigned for heterogeneous computing
+  upstream: http://www.netlib.org/scalapack/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: schroedinger
+  description: Portable libraries for the high quality Dirac video codec
+  upstream: http://schrodinger.sourceforge.net/schrodinger_faq.php
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: scotch
+  description: Graph, mesh and hypergraph partitioning library
+  upstream: https://gforge.inria.fr/projects/scotch/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: serd
+  description: A lightweight C library for RDF syntax
+  upstream: http://drobilla.net/software/serd/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: sord
+  description: A lightweight Resource Description Framework (RDF) C library
+  upstream: http://drobilla.net/software/sord/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: sparsehash
+  description: Extremely memory-efficient C++ hash_map implementation
+  upstream: http://code.google.com/p/sparsehash
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: sratom
+  description: A C library for serializing LV2 plugins
+  upstream: http://drobilla.net/software/sratom/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: sysconftool
+  description: Macros for aclocal to install configuration files
+  upstream: http://www.courier-mta.org/sysconftool/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: vapoursynth
+  description: Video processing framework with simplicity in mind
+  upstream: http://www.vapoursynth.com
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: vlc
+  description: The cross-platform open-source multimedia framework, player and server
+  upstream: https://www.videolan.org
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: vmaf
+  description: Video Multi-Method Assessment Fusion
+  upstream: https://github.com/netflix/vmaf
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: vtk
+  description: The Visualization Toolkit - A high level 3D visualization library
+  upstream: https://vtk.org/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: xxhash
+  description: Extremely fast hash algorithm
+  upstream: http://www.xxhash.com/
+  branches:
+  - name: master
+    type: protected
+  type: public
