@@ -6345,6 +6345,216 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: qt-gui
+  description: qt_gui provides the infrastructure for an integrated graphical user interface based on Qt.
+  upstream: https://github.com/ros-visualization/qt_gui_core
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rqt
+  description: rqt is a Qt-based framework for GUI development for ROS. It consists of three parts/metapackages.
+  upstream: https://github.com/ros-visualization/rqt
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: image_transport_plugins
+  description: A set of plugins for publishing and subscribing to sensor_msgs/Image topics in representations other than raw pixel data.
+  upstream: https://github.com/ros-perception/image_transport_plugins
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: control_msgs
+  description: control_msgs contains base messages and actions useful for controlling robots.
+  upstream: https://github.com/ros-controls/control_msgs
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: joint_state_publisher
+  description: This package contains a tool for setting and publishing joint state values for a given URDF.
+  upstream: https://github.com/ros/joint_state_publisher
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: orocos_kinematics_dynamics
+  description: This package contains a recent version of the Kinematics and Dynamics Library (KDL), distributed by the Orocos Project.
+  upstream: https://github.com/orocos/orocos_kinematics_dynamics
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: ros_controllers
+  description: MLibrary of ros controllers.
+  upstream: https://github.com/ros-controls/ros_controllers
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rqt_rviz
+  description: Mrqt_rviz provides a GUI plugin embedding RViz. 
+  upstream: https://github.com/ros-visualization/rqt_rviz
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rqt_runtime_monitor
+  description: rqt_runtime_monitor provides a GUI plugin viewing DiagnosticsArray messages.
+  upstream: https://github.com/ros-visualization/rqt_runtime_monitor
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rqt_service_caller
+  description: rqt_service_caller provides a GUI plugin for calling arbitrary services.
+  upstream: https://github.com/ros-visualization/rqt_service_caller
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rqt_shell
+  description: rqt_shell is a Python GUI plugin providing an interactive shell.
+  upstream: https://github.com/ros-visualization/rqt_shell
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rqt_srv
+  description: A Python GUI plugin for introspecting available ROS message types.
+  upstream: https://github.com/ros-visualization/rqt_srv
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rqt_tf_tree
+  description: rqt_tf_tree provides a GUI plugin for visualizing the ROS TF frame tree.
+  upstream: https://github.com/ros-visualization/rqt_tf_tree
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rqt_top
+  description: RQT plugin for monitoring ROS processes.
+  upstream: https://github.com/ros-visualization/rqt_top
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rqt_topic
+  description: rqt_topic provides a GUI plugin for displaying debug information about ROS topics including publishers, subscribers, publishing rate, and ROS Messages.
+  upstream: https://github.com/ros-visualization/rqt_topic
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rqt_web
+  description: rqt_web is a simple web content viewer for rqt. Users can show web content in Qt-based window by specifying its URL.
+  upstream: https://github.com/ros-visualization/rqt_web
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rosbag_migration_rule
+  description: This empty package allows to export rosbag migration rule files without depending on rosbag.
+  upstream: https://github.com/ros-gbp/rosbag_migration_rule-release/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rqt_robot_plugins
+  description: Metapackage of rqt plugins that are particularly used with robots during its operation.
+  upstream: https://github.com/ros-visualization/rqt_robot_plugins
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rqt_robot_dashboard
+  description: rqt_robot_dashboard provides an infrastructure for building robot dashboard plugins in rqt.
+  upstream: https://github.com/ros-visualization/rqt_robot_dashboard
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rqt_reconfigure
+  description: This rqt plugin succeeds former dynamic_reconfigure's GUI (reconfigure_gui), and provides the way to view and edit the parameters that are accessible via dynamic_reconfigure.
+  upstream: https://github.com/ros-visualization/rqt_reconfigure
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rqt_py_console
+  description: rqt_py_console is a Python GUI plugin providing an interactive Python console.
+  upstream: https://github.com/ros-visualization/rqt_py_console
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rqt_plot
+  description: rqt_plot provides a GUI plugin visualizing numeric values in a 2D plot using different plotting backends.
+  upstream: https://github.com/ros-visualization/rqt_plot
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rqt_graph
+  description: rqt_graph provides a GUI plugin for visualizing the ROS computation graph.
+  upstream: https://github.com/ros-visualization/rqt_graph
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rqt_dep
+  description: rqt_dep provides a GUI plugin for visualizing the ROS dependency graph.
+  upstream: https://github.com/ros-visualization/rqt_dep
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rqt_image_view
+  description: rqt_image_view provides a GUI plugin for displaying images using image_transport.
+  upstream: https://github.com/ros-visualization/rqt_image_view
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rqt_common_plugins
+  description: rqt_common_plugins metapackage provides ROS backend graphical tools suite that can be used on/off of robot runtime.
+  upstream: https://github.com/ros-visualization/rqt_common_plugins
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rqt_console
+  description: rqt_console provides a GUI plugin for displaying and filtering ROS messages.
+  upstream: https://github.com/ros-visualization/rqt_console
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rqt_launch
+  description: This rqt plugin ROS package provides easy view of .launch files. 
+  upstream: https://github.com/ros-visualization/rqt_launch
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rqt_logger_level
+  description: rqt_logger_level provides a GUI plugin for configuring the logger level of ROS nodes.
+  upstream: https://github.com/ros-visualization/rqt_logger_level
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rqt_moveit
+  description: An rqt-based tool that assists monitoring tasks for MoveIt! motion planner developers and users. 
+  upstream: https://github.com/ros-visualization/rqt_moveit
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: actionlib
   description: The actionlib stack provides a standardized interface for interfacing
     with preemptable tasks.
