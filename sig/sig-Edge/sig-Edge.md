@@ -27,3 +27,7 @@ Note: The Charter of this SIG follows the convention described in the openEuler 
 [Xiaojing Xu@xuxj1973](2285728351@qq.com)
 
 [Hairui Wang@harry-mrwang](wanghr0630@thundersoft.com)
+
+[Shouyong Liu@pangbanme](https://gitee.com/pangbanme)
+
+[Yuxi Wang@wangyx0704](https://gitee.com/wangyx0704)
