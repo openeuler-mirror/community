@@ -28,4 +28,6 @@
 
 王海瑞[@harry-mrwang](wanghr0630@thundersoft.com)
 
+刘寿永[@pangbanme](https://gitee.com/pangbanme)
 
+王玉熙[@wangyx0704](https://gitee.com/wangyx0704)
