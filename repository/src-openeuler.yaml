@@ -149400,3 +149400,16 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: spice-html5
+  description: a html5 client for the spice protocol
+  upstream: https://github.com/freedesktop/spice-html5
+  branches:
+  - name: master
+    type: protected
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  type: public
