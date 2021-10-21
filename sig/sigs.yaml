@@ -1280,7 +1280,6 @@ sigs:
   - src-openeuler/mt-st
   - src-openeuler/mypaint-brushes
   - src-openeuler/mysql
-  - src-openeuler/nagios
   - src-openeuler/nbdkit
   - src-openeuler/nilfs-utils
   - src-openeuler/obs-build
@@ -1526,6 +1525,8 @@ sigs:
   - src-openeuler/entr
   - src-openeuler/rfkill
   - src-openeuler/partclone
+  - src-openeuler/nrpe
+  - src-openeuler/nagios
 - name: Packaging
   repositories:
   - src-openeuler/pakchois
