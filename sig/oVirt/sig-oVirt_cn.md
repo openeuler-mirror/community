@@ -101,7 +101,6 @@ oVirt相关软件包的仓库如下，详见：https://resources.ovirt.org/pub/o
 - https://gitee.com/src-openeuler/python-ovirt-engine-sdk4
 - https://gitee.com/src-openeuler/rubygem-ovirt-engine-sdk4
 - https://gitee.com/src-openeuler/v2v-conversion-host
-- https://gitee.com/src-openeuler/vcredist
 - https://gitee.com/src-openeuler/vdsm
 - https://gitee.com/src-openeuler/vdsm-jsonrpc-java
 - https://gitee.com/src-openeuler/java-client-kubevirt
