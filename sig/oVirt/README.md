@@ -106,7 +106,6 @@ repository地址：
 - https://gitee.com/src-openeuler/python-ovirt-engine-sdk4
 - https://gitee.com/src-openeuler/rubygem-ovirt-engine-sdk4
 - https://gitee.com/src-openeuler/v2v-conversion-host
-- https://gitee.com/src-openeuler/vcredist
 - https://gitee.com/src-openeuler/vdsm
 - https://gitee.com/src-openeuler/vdsm-jsonrpc-java
 - https://gitee.com/src-openeuler/java-client-kubevirt
