@@ -149424,3 +149424,284 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: python-rst.linker
+  description: Tools for adding metadata and hyperlinks to reStructuredText
+  upstream: https://github.com/jaraco/rst.linker
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  type: public
+- name: python-xclarityclient
+  description: This is a Python library for controlling XClarity by REST API
+  upstream: https://pypi.org/project/python-xclarityclient/
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  type: public
+- name: python-searchlightclient
+  description: OpenStack Indexing and Search API Client Library
+  upstream: https://opendev.org/openstack/python-searchlightclient
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  type: public
+- name: openstack-cyborg
+  description: OpenStack Acceleration as a Service
+  upstream: https://opendev.org/openstack/cyborg
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  type: public
+- name: openstack-panko
+  description: Event storage publisher and API for Ceilometer
+  upstream: https://opendev.org/openstack/panko
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  type: public
+- name: python-congressclient
+  description: Client for Congress
+  upstream: https://opendev.org/openstack/python-congressclient
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  type: public
+- name: python-pip-api
+  description: An unofficial, importable pip API
+  upstream: http://github.com/di/pip-api
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  type: public
+- name: python-zVMCloudConnector
+  description: z/VM cloud management library in Python
+  upstream: https://github.com/mfcloud/python-zvm-sdk
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  type: public
+- name: python-discover
+  description: Test discovery for unittest
+  upstream: http://pypi.python.org/pypi/discover/
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  type: public
+- name: python-openstack-doc-tools
+  description: Tools for OpenStack Documentation
+  upstream: https://opendev.org/openstack/openstack-doc-tools
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  type: public
+- name: python-magnumclient
+  description: Client library for Magnum API
+  upstream: https://opendev.org/openstack/python-magnumclient
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  type: public
+- name: python-ironic-ui
+  description: Ironic plugin UI for Horizon to allow users to view and manage bare
+    metal nodes, ports and drivers.
+  upstream: https://opendev.org/openstack/ironic-ui
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  type: public
+- name: python-multiprocessing
+  description: Backport of the multiprocessing package to Python 2.4 and 2.5
+  upstream: http://code.google.com/p/python-multiprocessing
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  type: public
+- name: python-requirementslib
+  description: A tool for converting between pip-style and pipfile requirements.
+  upstream: https://github.com/sarugaku/requirementslib
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  type: public
+- name: python-blazarclient
+  description: Client for OpenStack Reservation Service
+  upstream: https://opendev.org/openstack/python-blazarclient
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  type: public
+- name: python-requests-aws
+  description: AWS authentication for Amazon S3 for the python requests module
+  upstream: https://github.com/tax/python-requests-aws
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  type: public
+- name: openstack-ceilometer
+  description: OpenStack Telemetry
+  upstream: https://opendev.org/openstack/ceilometer
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  type: public
+- name: python-dib-utils
+  description: Pieces of diskimage-builder that are useful without the full project
+  upstream: https://opendev.org/openstack/dib-utils
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  type: public
+- name: python-monascaclient
+  description: Monasca API Client Library
+  upstream: https://opendev.org/openstack/python-monascaclient
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  type: public
+- name: python-jaraco.packaging
+  description: tools to supplement packaging Python releases
+  upstream: https://github.com/jaraco/jaraco.packaging
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  type: public
+- name: python-ironic-prometheus-exporter
+  description: Prometheus Exporter for Ironic Hardware Sensor data
+  upstream: https://opendev.org/openstack/ironic-prometheus-exporter
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  type: public
+- name: python-trove-dashboard
+  description: OpenStack Dashboard plugin for Trove project
+  upstream: https://opendev.org/openstack/trove-dashboard
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  type: public
+- name: openstack-heat
+  description: OpenStack Orchestration
+  upstream: https://opendev.org/openstack/heat
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  type: public
+- name: python-karborclient
+  description: Python client library for Karbor API
+  upstream: https://opendev.org/openstack/python-karborclient
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  type: public
+- name: openstack-aodh
+  description: OpenStack Telemetry Alarming
+  upstream: https://opendev.org/openstack/aodh/
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  type: public
+- name: python-pipreqs
+  description: Pip requirements.txt generator based on imports in project
+  upstream: https://github.com/bndr/pipreqs
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  type: public
+- name: python-neutron-tempest-plugin
+  description: Tempest plugin for Neutron Project
+  upstream: https://opendev.org/openstack/neutron-tempest-plugin
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  type: public
+- name: python-argparse
+  description: Python command-line parsing library
+  upstream: https://github.com/ThomasWaldmann/argparse/
+  branches:
+  - name: master
+    type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
+  type: public
