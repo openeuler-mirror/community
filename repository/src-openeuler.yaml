@@ -149417,3 +149417,10 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: nrpe
+  description: Nagios Remote Plugin Executor
+  upstream: https://github.com/NagiosEnterprises/nrpe
+  branches:
+  - name: master
+    type: protected
+  type: public
