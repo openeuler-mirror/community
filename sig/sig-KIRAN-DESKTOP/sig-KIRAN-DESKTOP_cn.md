@@ -55,6 +55,7 @@ KIRAN-DESKTOP SIG小组致力于将KIRAN-DESKTOP 引入至 openEuler 社区中�
 - https://gitee.com/src-openeuler/kiran-panel
 - https://gitee.com/src-openeuler/kiran-session-manager
 - https://gitee.com/src-openeuler/kiran-widgets-qt5
+- https://gitee.com/src-openeuler/kiran-qdbusxml2cpp
 
 ## SIG基本信息
 

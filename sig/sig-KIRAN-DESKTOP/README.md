@@ -61,3 +61,4 @@ repository地址：
 - https://gitee.com/src-openeuler/kiran-panel
 - https://gitee.com/src-openeuler/kiran-session-manager
 - https://gitee.com/src-openeuler/kiran-widgets-qt5
+- https://gitee.com/src-openeuler/kiran-qdbusxml2cpp
