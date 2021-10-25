@@ -58,6 +58,7 @@ English | [简体中文](./sig-KIRAN-DESKTOP_cn.md)
 - https://gitee.com/src-openeuler/kiran-panel
 - https://gitee.com/src-openeuler/kiran-session-manager
 - https://gitee.com/src-openeuler/kiran-widgets-qt5
+- https://gitee.com/src-openeuler/kiran-qdbusxml2cpp
 
 ## Basic Information
 
