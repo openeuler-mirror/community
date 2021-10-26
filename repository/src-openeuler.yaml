@@ -51,7 +51,8 @@ repositories:
     type: protected
   type: public
 - name: native-turbo
-  description: Native-Turbo is the performance optimization framework of native microarchitecture of operating system.
+  description: Native-Turbo is the performance optimization framework of native microarchitecture
+    of operating system.
   upstream: https://gitee.com/openeuler/native-turbo
   branches:
   - name: master
@@ -1211,7 +1212,7 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   - name: openEuler-20.03-LTS-SP1
     type: protected
-    create_from: openEuler-20.03-LTS-Next 
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-21.09
     type: protected
     create_from: master
@@ -2092,7 +2093,7 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: ansible-runner-service
-  description: 'Restful API for ansible/ansible_runner execution'
+  description: Restful API for ansible/ansible_runner execution
   upstream: https://github.com/ansible/ansible-runner-service
   branches:
   - name: master
@@ -6283,28 +6284,32 @@ repositories:
     type: protected
   type: public
 - name: filter
-  description: This library provides a standardized interface for processing data as a sequence of filters.
+  description: This library provides a standardized interface for processing data
+    as a sequence of filters.
   upstream: https://github.com/ros/filters
   branches:
   - name: master
     type: protected
   type: public
 - name: ros_tutorials
-  description: ros_tutorials contains packages that demonstrate various features of ROS, as well as support packages which help demonstrate those features.
+  description: ros_tutorials contains packages that demonstrate various features of
+    ROS, as well as support packages which help demonstrate those features.
   upstream: https://github.com/ros/ros_tutorials
   branches:
   - name: master
     type: protected
   type: public
 - name: ros_control
-  description: A set of packages that include controller interfaces, controller managers, transmissions and hardware_interfaces.
+  description: A set of packages that include controller interfaces, controller managers,
+    transmissions and hardware_interfaces.
   upstream: https://github.com/ros-controls/ros_control
   branches:
   - name: master
     type: protected
   type: public
 - name: rqt_bag
-  description: rqt_bag provides a GUI plugin for displaying and replaying ROS bag files.
+  description: rqt_bag provides a GUI plugin for displaying and replaying ROS bag
+    files.
   upstream: https://github.com/ros-visualization/rqt_bag
   branches:
   - name: master
@@ -6318,14 +6323,16 @@ repositories:
     type: protected
   type: public
 - name: executive_smach
-  description: SMACH is a task-level architecture for rapidly creating complex robot behavior
+  description: SMACH is a task-level architecture for rapidly creating complex robot
+    behavior
   upstream: https://github.com/ros/executive_smach
   branches:
   - name: master
     type: protected
   type: public
 - name: image_pipeline
-  description: image_pipeline fills the gap between getting raw images from a camera driver and higher-level vision processing.
+  description: image_pipeline fills the gap between getting raw images from a camera
+    driver and higher-level vision processing.
   upstream: https://github.com/ros-perception/image_pipeline
   branches:
   - name: master
@@ -6346,42 +6353,48 @@ repositories:
     type: protected
   type: public
 - name: qt-gui
-  description: qt_gui provides the infrastructure for an integrated graphical user interface based on Qt.
+  description: qt_gui provides the infrastructure for an integrated graphical user
+    interface based on Qt.
   upstream: https://github.com/ros-visualization/qt_gui_core
   branches:
   - name: master
     type: protected
   type: public
 - name: rqt
-  description: rqt is a Qt-based framework for GUI development for ROS. It consists of three parts/metapackages.
+  description: rqt is a Qt-based framework for GUI development for ROS. It consists
+    of three parts/metapackages.
   upstream: https://github.com/ros-visualization/rqt
   branches:
   - name: master
     type: protected
   type: public
 - name: image_transport_plugins
-  description: A set of plugins for publishing and subscribing to sensor_msgs/Image topics in representations other than raw pixel data.
+  description: A set of plugins for publishing and subscribing to sensor_msgs/Image
+    topics in representations other than raw pixel data.
   upstream: https://github.com/ros-perception/image_transport_plugins
   branches:
   - name: master
     type: protected
   type: public
 - name: control_msgs
-  description: control_msgs contains base messages and actions useful for controlling robots.
+  description: control_msgs contains base messages and actions useful for controlling
+    robots.
   upstream: https://github.com/ros-controls/control_msgs
   branches:
   - name: master
     type: protected
   type: public
 - name: joint_state_publisher
-  description: This package contains a tool for setting and publishing joint state values for a given URDF.
+  description: This package contains a tool for setting and publishing joint state
+    values for a given URDF.
   upstream: https://github.com/ros/joint_state_publisher
   branches:
   - name: master
     type: protected
   type: public
 - name: orocos_kinematics_dynamics
-  description: This package contains a recent version of the Kinematics and Dynamics Library (KDL), distributed by the Orocos Project.
+  description: This package contains a recent version of the Kinematics and Dynamics
+    Library (KDL), distributed by the Orocos Project.
   upstream: https://github.com/orocos/orocos_kinematics_dynamics
   branches:
   - name: master
@@ -6395,14 +6408,15 @@ repositories:
     type: protected
   type: public
 - name: rqt_rviz
-  description: Mrqt_rviz provides a GUI plugin embedding RViz. 
+  description: Mrqt_rviz provides a GUI plugin embedding RViz.
   upstream: https://github.com/ros-visualization/rqt_rviz
   branches:
   - name: master
     type: protected
   type: public
 - name: rqt_runtime_monitor
-  description: rqt_runtime_monitor provides a GUI plugin viewing DiagnosticsArray messages.
+  description: rqt_runtime_monitor provides a GUI plugin viewing DiagnosticsArray
+    messages.
   upstream: https://github.com/ros-visualization/rqt_runtime_monitor
   branches:
   - name: master
@@ -6430,7 +6444,8 @@ repositories:
     type: protected
   type: public
 - name: rqt_tf_tree
-  description: rqt_tf_tree provides a GUI plugin for visualizing the ROS TF frame tree.
+  description: rqt_tf_tree provides a GUI plugin for visualizing the ROS TF frame
+    tree.
   upstream: https://github.com/ros-visualization/rqt_tf_tree
   branches:
   - name: master
@@ -6444,63 +6459,72 @@ repositories:
     type: protected
   type: public
 - name: rqt_topic
-  description: rqt_topic provides a GUI plugin for displaying debug information about ROS topics including publishers, subscribers, publishing rate, and ROS Messages.
+  description: rqt_topic provides a GUI plugin for displaying debug information about
+    ROS topics including publishers, subscribers, publishing rate, and ROS Messages.
   upstream: https://github.com/ros-visualization/rqt_topic
   branches:
   - name: master
     type: protected
   type: public
 - name: rqt_web
-  description: rqt_web is a simple web content viewer for rqt. Users can show web content in Qt-based window by specifying its URL.
+  description: rqt_web is a simple web content viewer for rqt. Users can show web
+    content in Qt-based window by specifying its URL.
   upstream: https://github.com/ros-visualization/rqt_web
   branches:
   - name: master
     type: protected
   type: public
 - name: rosbag_migration_rule
-  description: This empty package allows to export rosbag migration rule files without depending on rosbag.
+  description: This empty package allows to export rosbag migration rule files without
+    depending on rosbag.
   upstream: https://github.com/ros-gbp/rosbag_migration_rule-release/
   branches:
   - name: master
     type: protected
   type: public
 - name: rqt_robot_plugins
-  description: Metapackage of rqt plugins that are particularly used with robots during its operation.
+  description: Metapackage of rqt plugins that are particularly used with robots during
+    its operation.
   upstream: https://github.com/ros-visualization/rqt_robot_plugins
   branches:
   - name: master
     type: protected
   type: public
 - name: rqt_robot_dashboard
-  description: rqt_robot_dashboard provides an infrastructure for building robot dashboard plugins in rqt.
+  description: rqt_robot_dashboard provides an infrastructure for building robot dashboard
+    plugins in rqt.
   upstream: https://github.com/ros-visualization/rqt_robot_dashboard
   branches:
   - name: master
     type: protected
   type: public
 - name: rqt_reconfigure
-  description: This rqt plugin succeeds former dynamic_reconfigure's GUI (reconfigure_gui), and provides the way to view and edit the parameters that are accessible via dynamic_reconfigure.
+  description: This rqt plugin succeeds former dynamic_reconfigure's GUI (reconfigure_gui),
+    and provides the way to view and edit the parameters that are accessible via dynamic_reconfigure.
   upstream: https://github.com/ros-visualization/rqt_reconfigure
   branches:
   - name: master
     type: protected
   type: public
 - name: rqt_py_console
-  description: rqt_py_console is a Python GUI plugin providing an interactive Python console.
+  description: rqt_py_console is a Python GUI plugin providing an interactive Python
+    console.
   upstream: https://github.com/ros-visualization/rqt_py_console
   branches:
   - name: master
     type: protected
   type: public
 - name: rqt_plot
-  description: rqt_plot provides a GUI plugin visualizing numeric values in a 2D plot using different plotting backends.
+  description: rqt_plot provides a GUI plugin visualizing numeric values in a 2D plot
+    using different plotting backends.
   upstream: https://github.com/ros-visualization/rqt_plot
   branches:
   - name: master
     type: protected
   type: public
 - name: rqt_graph
-  description: rqt_graph provides a GUI plugin for visualizing the ROS computation graph.
+  description: rqt_graph provides a GUI plugin for visualizing the ROS computation
+    graph.
   upstream: https://github.com/ros-visualization/rqt_graph
   branches:
   - name: master
@@ -6521,35 +6545,39 @@ repositories:
     type: protected
   type: public
 - name: rqt_common_plugins
-  description: rqt_common_plugins metapackage provides ROS backend graphical tools suite that can be used on/off of robot runtime.
+  description: rqt_common_plugins metapackage provides ROS backend graphical tools
+    suite that can be used on/off of robot runtime.
   upstream: https://github.com/ros-visualization/rqt_common_plugins
   branches:
   - name: master
     type: protected
   type: public
 - name: rqt_console
-  description: rqt_console provides a GUI plugin for displaying and filtering ROS messages.
+  description: rqt_console provides a GUI plugin for displaying and filtering ROS
+    messages.
   upstream: https://github.com/ros-visualization/rqt_console
   branches:
   - name: master
     type: protected
   type: public
 - name: rqt_launch
-  description: This rqt plugin ROS package provides easy view of .launch files. 
+  description: This rqt plugin ROS package provides easy view of .launch files.
   upstream: https://github.com/ros-visualization/rqt_launch
   branches:
   - name: master
     type: protected
   type: public
 - name: rqt_logger_level
-  description: rqt_logger_level provides a GUI plugin for configuring the logger level of ROS nodes.
+  description: rqt_logger_level provides a GUI plugin for configuring the logger level
+    of ROS nodes.
   upstream: https://github.com/ros-visualization/rqt_logger_level
   branches:
   - name: master
     type: protected
   type: public
 - name: rqt_moveit
-  description: An rqt-based tool that assists monitoring tasks for MoveIt! motion planner developers and users. 
+  description: An rqt-based tool that assists monitoring tasks for MoveIt! motion
+    planner developers and users.
   upstream: https://github.com/ros-visualization/rqt_moveit
   branches:
   - name: master
@@ -8481,7 +8509,7 @@ repositories:
     create_from: master
   type: public
 - name: collectd
-  description: 'system information collection daemon'
+  description: system information collection daemon
   upstream: https://github.com/collectd/collectd
   branches:
   - name: master
@@ -8495,7 +8523,7 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
-  type: public 
+  type: public
 - name: colm
   description: a programming language designed for the analysis and transformation
     of computer languages
@@ -19220,7 +19248,8 @@ repositories:
     create_from: master
   type: public
 - name: gnome-tweaks
-  description: Previously known as Tweak Tool. Graphical interface for advanced GNOME 3 settings.
+  description: Previously known as Tweak Tool. Graphical interface for advanced GNOME
+    3 settings.
   upstream: https://gitlab.gnome.org/GNOME/gnome-tweaks
   branches:
   - name: master
@@ -20807,8 +20836,8 @@ repositories:
     create_from: master
   type: public
 - name: gstreamer1-libav
-  description: GStreamer Libav plug-in contains one plugin with a set of elements using the Libav library code,
-        it contains many popular decoders and encoders.
+  description: GStreamer Libav plug-in contains one plugin with a set of elements
+    using the Libav library code, it contains many popular decoders and encoders.
   upstream: https://gitlab.freedesktop.org/gstreamer/gst-libav
   branches:
   - name: master
@@ -22153,7 +22182,7 @@ repositories:
     create_from: master
   type: public
 - name: highlight
-  description: 'Universal source code to formatted text converter'
+  description: Universal source code to formatted text converter
   upstream: http://www.andre-simon.de
   branches:
   - name: master
@@ -22167,7 +22196,7 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
-  type: public  
+  type: public
 - name: hiredis
   description: ''
   branches:
@@ -27029,7 +27058,7 @@ repositories:
     create_from: master
   type: public
 - name: ioprocess
-  description: 'Process to perform risky IO'
+  description: Process to perform risky IO
   upstream: https://github.com/oVirt/ioprocess
   branches:
   - name: master
@@ -28981,7 +29010,7 @@ repositories:
     create_from: master
   type: private
 - name: nispor
-  description: 'Unified interface for Linux network state querying'
+  description: Unified interface for Linux network state querying
   upstream: https://github.com/nispor/nispor
   branches:
   - name: master
@@ -41117,7 +41146,7 @@ repositories:
     create_from: master
   type: public
 - name: linux-system-roles
-  description: 'Set of interfaces for unified system management'
+  description: Set of interfaces for unified system management
   upstream: https://github.com/linux-system-roles
   branches:
   - name: master
@@ -41902,7 +41931,7 @@ repositories:
     create_from: master
   type: public
 - name: lshw-B.02.18
-  description: 'Hardware LiSter for Linux'
+  description: Hardware LiSter for Linux
   upstream: https://github.com/lyonel/lshw
   branches:
   - name: master
@@ -42932,7 +42961,8 @@ repositories:
     create_from: master
   type: public
 - name: makeself
-  description: 'A shell script that generates a self-extractable tar.gz archive from a directory'
+  description: A shell script that generates a self-extractable tar.gz archive from
+    a directory
   upstream: http://makeself.io/
   branches:
   - name: master
@@ -43347,12 +43377,12 @@ repositories:
   description: Wireless regulatory database for CRDA
   upstream: https://git.kernel.org/pub/scm/linux/kernel/git/sforshee/wireless-regdb.git/
   branches:
-  - name: master 
+  - name: master
     type: protected
   - name: openEuler-21.09
-    type: protected                                                                                                        
-    create_from: master 
-  type: public 
+    type: protected
+    create_from: master
+  type: public
 - name: mate-polkit
   description: Authentication Agent for PolicyKit and MATE
   upstream: https://github.com/mate-desktop/mate-polkit
@@ -45700,7 +45730,7 @@ repositories:
     create_from: master
   type: public
 - name: mom
-  description: 'Dynamically manage system resources on virtualization hosts'
+  description: Dynamically manage system resources on virtualization hosts
   upstream: http://www.ovirt.org
   branches:
   - name: master
@@ -47245,7 +47275,8 @@ repositories:
     create_from: master
   type: public
 - name: nng
-  description: a lightweight, broker-less library, offering a simple API to solve common recurring messaging problems.
+  description: a lightweight, broker-less library, offering a simple API to solve
+    common recurring messaging problems.
   upstream: https://github.com/nanomsg/nng
   branches:
   - name: master
@@ -50239,7 +50270,7 @@ repositories:
     create_from: master
   type: public
 - name: openstack-java-sdk
-  description: 'OpenStack Java SDK'
+  description: OpenStack Java SDK
   upstream: https://github.com/woorea/openstack-java-sdk
   branches:
   - name: master
@@ -50514,10 +50545,10 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: openEuler-20.03-LTS-Next 
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-20.03-LTS-SP1
     type: protected
-    create_from: openEuler-20.03-LTS-Next 
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: orc
   description: ''
@@ -50791,7 +50822,7 @@ repositories:
     create_from: master
   type: public
 - name: otopi
-  description: 'oVirt Task Oriented Pluggable Installer/Implementation'
+  description: oVirt Task Oriented Pluggable Installer/Implementation
   upstream: http://www.ovirt.org
   branches:
   - name: master
@@ -50846,7 +50877,7 @@ repositories:
     create_from: master
   type: public
 - name: ovirt-ansible-collection
-  description: 'Ansible collection to manage all ovirt modules and inventory'
+  description: Ansible collection to manage all ovirt modules and inventory
   upstream: http://www.ovirt.org
   branches:
   - name: master
@@ -50898,7 +50929,7 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: ovirt-ansible-image-template
-  description: 'Ansible role to create virtual machine template from disk image'
+  description: Ansible role to create virtual machine template from disk image
   upstream: http://www.ovirt.org
   branches:
   - name: master
@@ -50971,7 +51002,7 @@ repositories:
     create_from: master
   type: public
 - name: ovirt-ansible-vm-infra
-  description: 'Ansible role to create virtual machine infrastructure'
+  description: Ansible role to create virtual machine infrastructure
   upstream: http://www.ovirt.org
   branches:
   - name: master
@@ -50990,7 +51021,8 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: ovirt-cockpit-sso
-  description: 'provides SSO from oVirt Administration portal to Cockpit running on a ovirt host'
+  description: provides SSO from oVirt Administration portal to Cockpit running on
+    a ovirt host
   upstream: http://www.ovirt.org
   branches:
   - name: master
@@ -51009,7 +51041,7 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: ovirt-dependencies
-  description: 'oVirt 3rd party dependencies'
+  description: oVirt 3rd party dependencies
   upstream: http://www.ovirt.org
   branches:
   - name: master
@@ -51023,9 +51055,9 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
-  type: public 
+  type: public
 - name: ovirt-engine
-  description: 'Managment server for open virtualization'
+  description: Managment server for open virtualization
   upstream: http://www.ovirt.org
   branches:
   - name: master
@@ -51071,7 +51103,7 @@ repositories:
     create_from: master
   type: public
 - name: ovirt-engine-dwh
-  description: 'Data warehouse package for oVirt Virtualization Suite'
+  description: Data warehouse package for oVirt Virtualization Suite
   upstream: http://www.ovirt.org
   branches:
   - name: master
@@ -51108,7 +51140,7 @@ repositories:
     create_from: master
   type: public
 - name: ovirt-engine-metrics
-  description: 'allows configuring an ovirt installation to send metrics'
+  description: allows configuring an ovirt installation to send metrics
   upstream: http://www.ovirt.org
   branches:
   - name: master
@@ -51136,7 +51168,7 @@ repositories:
     create_from: master
   type: public
 - name: ovirt-engine-nodejs-modules
-  description: 'Node.js modules required to build oVirt JavaScript applications'
+  description: Node.js modules required to build oVirt JavaScript applications
   upstream: http://www.ovirt.org
   branches:
   - name: master
@@ -51155,7 +51187,8 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: ovirt-engine-ui-extensions
-  description: 'UI plugin that provides various extensions to ovirt administration UI'
+  description: UI plugin that provides various extensions to ovirt administration
+    UI
   upstream: http://www.ovirt.org
   branches:
   - name: master
@@ -51174,7 +51207,8 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: ovirt-engine-wildfly
-  description: 'contains scripts to create wildfly RPM package from officially released ZIP file, which required to run ovirt engine'
+  description: contains scripts to create wildfly RPM package from officially released
+    ZIP file, which required to run ovirt engine
   upstream: http://www.ovirt.org
   branches:
   - name: master
@@ -51193,7 +51227,7 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: ovirt-engine-wildfly-overlay
-  description: 'this package contains upgraded parts of wildfly 8.2.1'
+  description: this package contains upgraded parts of wildfly 8.2.1
   upstream: http://www.ovirt.org
   branches:
   - name: master
@@ -51213,7 +51247,7 @@ repositories:
   type: public
 - name: nodejs-yarn
   rename_from: ovirt-engine-yarn
-  description: 'A fast, reliable and secure dependency management tool.'
+  description: A fast, reliable and secure dependency management tool.
   upstream: https://github.com/yarnpkg/yarn
   branches:
   - name: master
@@ -51397,7 +51431,7 @@ repositories:
     create_from: master
   type: public
 - name: ovirt-provider-ovn
-  description: 'The oVirt external network provider for OVN'
+  description: The oVirt external network provider for OVN
   upstream: http://www.ovirt.org
   branches:
   - name: master
@@ -51434,7 +51468,7 @@ repositories:
     create_from: master
   type: public
 - name: ovirt-setup-lib
-  description: 'oVirt setup common library'
+  description: oVirt setup common library
   upstream: http://www.ovirt.org
   branches:
   - name: master
@@ -51453,7 +51487,7 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: ovirt-vmconsole
-  description: 'oVirt VM console'
+  description: oVirt VM console
   upstream: http://www.ovirt.org
   branches:
   - name: master
@@ -51472,7 +51506,7 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: ovirt-web-ui
-  description: 'modern lightweight UI for standard ovirt users'
+  description: modern lightweight UI for standard ovirt users
   upstream: http://www.ovirt.org
   branches:
   - name: master
@@ -51982,10 +52016,10 @@ repositories:
     create_from: master
   - name: openEuler-20.03-LTS-SP2
     type: protected
-    create_from: openEuler-20.03-LTS-Next 
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-20.03-LTS-SP1
     type: protected
-    create_from: openEuler-20.03-LTS-Next 
+    create_from: openEuler-20.03-LTS-Next
   - name: openEuler-21.09
     type: protected
     create_from: master
@@ -74964,7 +74998,7 @@ repositories:
     create_from: master
   type: public
 - name: postgresql
-  description: 'PostgreSQL client programs'
+  description: PostgreSQL client programs
   upstream: http://www.postgresql.org
   branches:
   - name: master
@@ -74992,7 +75026,7 @@ repositories:
     create_from: master
   type: public
 - name: postgresql-13
-  description: 'PostgreSQL client programs'
+  description: PostgreSQL client programs
   upstream: http://www.postgresql.org
   branches:
   - name: master
@@ -75968,6 +76002,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-adb-shell
   description: Python package implements ADB shell and FileSync functionality.
@@ -76247,6 +76284,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-Bottleneck
   description: Collection of fast NumPy array functions written in Cython.
@@ -76337,6 +76377,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -77112,6 +77155,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-Pyphen
   upstream: https://github.com/Kozea/Pyphen
@@ -77335,6 +77381,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-Angular
   upstream: http://angularjs.org
@@ -77379,6 +77428,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-Angular-FileUpload
   upstream: https://github.com/danialfarid/ng-file-upload
@@ -77420,6 +77472,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-Angular-lrdragndrop
   upstream: https://github.com/lorenzofox3/lrDragNDrop
@@ -77437,6 +77492,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -77477,6 +77535,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-Bootstrap-SCSS
   upstream: https://github.com/twbs/bootstrap-sass
@@ -77497,6 +77558,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -77559,6 +77623,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-JSEncrypt
   upstream: http://travistidwell.com/jsencrypt/
@@ -77603,6 +77670,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-jQuery
   upstream: http://jquery.com/
@@ -77621,6 +77691,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -77642,6 +77715,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-JQuery.quicksearch
   upstream: https://opendev.org/openstack/xstatic-jquery.quicksearch
@@ -77659,6 +77735,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -77680,6 +77759,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-jquery-ui
   upstream: https://github.com/jquery/jquery-ui
@@ -77698,6 +77780,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -77754,6 +77839,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-XStatic-objectpath
   upstream: https://github.com/mike-marcacci/objectpath
@@ -77790,6 +77878,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -77860,6 +77951,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -78230,6 +78324,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-alsa
   description: python binding for the ALSA library
@@ -78310,6 +78407,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-animatplot
   upstream: https://github.com/t-makaro/animatplot/
@@ -78385,7 +78485,7 @@ repositories:
     create_from: master
   type: public
 - name: python-ansible-runner
-  description: 'A tool and python library to interface with Ansible'
+  description: A tool and python library to interface with Ansible
   upstream: https://github.com/ansible/ansible-runner
   branches:
   - name: master
@@ -78848,6 +78948,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -79332,6 +79435,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-bcc
   upstream: https://github.com/willsheffler/bcc
@@ -79559,6 +79665,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-bitstring
   upstream: https://github.com/scott-griffiths/bitstring
@@ -79703,6 +79812,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -80016,6 +80128,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-cairocffi
   upstream: https://github.com/Kozea/cairocffi
@@ -80106,6 +80221,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-pycadf
   upstream: https://github.com/openstack/pycadf
@@ -80129,6 +80247,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -80452,6 +80573,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-cligj
   upstream: https://github.com/mapbox/cligj
@@ -80480,6 +80604,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -81169,6 +81296,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-crypto
   description: ''
@@ -81460,7 +81590,7 @@ repositories:
     create_from: master
   type: public
 - name: python-daemon
-  description: 'Library to implement a well-behaved Unix daemon process'
+  description: Library to implement a well-behaved Unix daemon process
   upstream: https://pagure.io/python-daemon
   branches:
   - name: master
@@ -81752,6 +81882,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-demjson
   upstream: http://deron.meranda.us/python/demjson/
@@ -81761,6 +81894,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -82039,6 +82175,9 @@ repositories:
   - name: oepkg_openstack-queens_oe-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-django-cache-url
   upstream: https://github.com/epicserve/django-cache-url
@@ -82080,6 +82219,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -82369,6 +82511,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -82841,6 +82986,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-doit
   upstream: http://pydoit.org
@@ -82873,6 +83021,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -82942,6 +83093,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -83254,6 +83408,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-execnet
   description: ''
@@ -83346,6 +83503,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -83483,6 +83643,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -83640,6 +83803,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -84232,6 +84398,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-fuzzyfinder
   upstream: https://github.com/amjith/fuzzyfinder
@@ -84712,6 +84881,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -86151,6 +86323,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-jsonpointer
   description: ''
@@ -86474,6 +86649,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -87507,6 +87685,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-mdx_gh_links
   upstream: https://github.com/Python-Markdown/github-links/
@@ -88087,6 +88268,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-mysqlclient
   description: MySQL database connector for Python
@@ -88279,6 +88463,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-ngram
   upstream: http://github.com/gpoulter/python-ngram
@@ -88371,6 +88558,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -88832,6 +89022,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-ordered-set
   description: ''
@@ -88906,6 +89099,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-oslo.cache
   upstream: https://github.com/openstack/oslo.cache
@@ -88929,6 +89125,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -88956,6 +89155,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-oslo.config
   upstream: https://github.com/openstack/oslo.config
@@ -88979,6 +89181,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -89006,6 +89211,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-keystoneclient
   upstream: https://opendev.org/openstack/python-keystoneclient
@@ -89029,6 +89237,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -89056,6 +89267,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-troveclient
   upstream: https://opendev.org/openstack/python-troveclient
@@ -89076,6 +89290,9 @@ repositories:
     type: protected
     create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -89099,6 +89316,9 @@ repositories:
     type: protected
     create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -89126,6 +89346,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-ironicclient
   upstream: https://opendev.org/openstack/python-ironicclient
@@ -89151,6 +89374,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-neutronclient
   upstream: https://opendev.org/openstack/python-neutronclient
@@ -89174,6 +89400,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -89204,6 +89433,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -89237,6 +89469,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-infi.dtypes.iqn
   upstream: https://github.com/infinidat/infi.dtypes.iqn
@@ -89245,6 +89480,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -89275,6 +89513,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: publib
 - name: python-infinisdk
   upstream: https://github.com/Infinidat/infinisdk
@@ -89283,6 +89524,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -89320,6 +89564,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-openstacksdk
   upstream: https://opendev.org/openstack/openstacksdk
@@ -89343,6 +89590,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -89370,6 +89620,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-osc-lib
   upstream: https://opendev.org/openstack/osc-lib
@@ -89393,6 +89646,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -89420,6 +89676,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-oslo.db
   upstream: https://github.com/openstack/oslo.db
@@ -89443,6 +89702,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -89473,6 +89735,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-oslo.log
   upstream: https://github.com/openstack/oslo.log
@@ -89496,6 +89761,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -89523,6 +89791,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-oslo.middleware
   upstream: https://github.com/openstack/oslo.middleware
@@ -89546,6 +89817,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -89573,6 +89847,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-oslo.privsep
   upstream: https://github.com/openstack/oslo.privsep
@@ -89596,6 +89873,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -89623,6 +89903,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-oslo.rootwrap
   upstream: https://github.com/openstack/oslo.rootwrap
@@ -89646,6 +89929,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -89673,6 +89959,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-oslo.service
   upstream: https://github.com/openstack/oslo.service
@@ -89698,6 +89987,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-oslo.upgradecheck
   upstream: https://github.com/openstack/oslo.upgradecheck
@@ -89709,6 +90001,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -89736,6 +90031,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-oslo.versionedobjects
   upstream: https://github.com/openstack/oslo.versionedobjects
@@ -89759,6 +90057,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -89786,6 +90087,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-oslo.sphinx
   upstream: http://www.openstack.org/
@@ -89803,6 +90107,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -89895,7 +90202,7 @@ repositories:
     create_from: master
   type: public
 - name: python-ovirt-engine-sdk4
-  description: 'Python SDK for version 4 of the oVirt Engine API'
+  description: Python SDK for version 4 of the oVirt Engine API
   upstream: http://ovirt.org
   branches:
   - name: master
@@ -90265,6 +90572,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-pastel
   upstream: https://github.com/sdispater/pastel
@@ -90339,6 +90649,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -90569,6 +90882,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -91265,10 +91581,14 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-prometheus-api-client
   upstream: https://github.com/AICoE/prometheus-api-client-python
-  description: A Python wrapper for the Prometheus http api and some tools for metrics processing.
+  description: A Python wrapper for the Prometheus http api and some tools for metrics
+    processing.
   branches:
   - name: master
     type: protected
@@ -91994,6 +92314,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-pyglet
   description: A cross-platform windowing and multimedia library for Python.
@@ -92135,6 +92458,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-pymatreader
   upstream: https://gitlab.com/obob/pymatreader
@@ -92162,6 +92488,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -92276,6 +92605,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-pynvml
   upstream: http://www.nvidia.com/
@@ -92370,6 +92702,7 @@ repositories:
     create_from: master
   type: public
 - name: python-pyquery
+  upstream: https://github.com/gawel/pyquery/
   description: A jQuery-like library for python
   branches:
   - name: master
@@ -92381,6 +92714,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -92508,6 +92844,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-pysb
   upstream: http://pysb.org/
@@ -92529,6 +92868,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -92603,6 +92945,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -94114,6 +94459,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-rfc3986
   upstream: http://rfc3986.readthedocs.io
@@ -94134,6 +94482,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -94634,6 +94985,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-scramp
   upstream: https://github.com/tlocke/scramp
@@ -94674,6 +95028,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -95479,6 +95836,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-sphinx-gallery
   upstream: https://sphinx-gallery.github.io
@@ -95617,6 +95977,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-sphinxcontrib-bibtex
   description: Sphinx extension for BibTeX style citations.
@@ -95644,6 +96007,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -95682,6 +96048,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-sphinxcontrib-log-cabinet
   upstream: https://github.com/davidism/sphinxcontrib-log-cabinet
@@ -95712,6 +96081,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -95752,6 +96124,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -95936,6 +96311,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -97004,6 +97382,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-txWS
   upstream: http://github.com/MostAwesomeDude/txWS
@@ -97032,6 +97413,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -97103,6 +97487,9 @@ repositories:
     type: protected
     create_from: master
   - name: oepkg_openstack-common_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -97432,6 +97819,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-virtualenv
   description: ''
@@ -97676,6 +98066,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-watchdog
   upstream: http://github.com/gorakhargosh/watchdog
@@ -97684,6 +98077,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -98134,6 +98530,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-wsproto
   upstream: https://github.com/python-hyper/wsproto/
@@ -98406,6 +98805,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-xxhash
   upstream: https://github.com/ifduyue/python-xxhash
@@ -98437,6 +98839,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -101275,7 +101680,7 @@ repositories:
     create_from: master
   type: public
 - name: riemann-c-client
-  description: 'The riemann C client'
+  description: The riemann C client
   upstream: https://github.com/algernon/riemann-c-client
   branches:
   - name: master
@@ -102340,7 +102745,7 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
-  type: public  
+  type: public
 - name: rubygem-faraday-net_http_persistent
   rename_from: rubygem-faraday-net_http_persisten
   description: Faraday adapter for NetHttpPersistent
@@ -104710,7 +105115,7 @@ repositories:
     create_from: master
   type: private
 - name: snmp4j
-  description: 'The Object Oriented SNMP API for Java Managers and Agents'
+  description: The Object Oriented SNMP API for Java Managers and Agents
   upstream: http://www.snmp4j.org/
   branches:
   - name: master
@@ -109864,28 +110269,28 @@ repositories:
     create_from: master
   type: public
 - name: claws-mail
-  description: 'Email client and news reader based on GTK+'
+  description: Email client and news reader based on GTK+
   upstream: https://claws-mail.org
   branches:
   - name: master
     type: protected
   type: public
 - name: gumbo-parser
-  description: 'An HTML5 parsing library in pure C99'
+  description: An HTML5 parsing library in pure C99
   upstream: https://github.com/google/gumbo-parser
   branches:
   - name: master
     type: protected
   type: public
 - name: libytnef
-  description: 'TNEF Stream Parser Library'
+  description: TNEF Stream Parser Library
   upstream: https://github.com/Yeraze/ytnef
   branches:
   - name: master
     type: protected
   type: public
 - name: libetpan
-  description: 'Portable, efficient middle-ware for different kinds of mail access'
+  description: Portable, efficient middle-ware for different kinds of mail access
   upstream: https://github.com/dinhvh/libetpan
   branches:
   - name: master
@@ -110366,6 +110771,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -112710,7 +113118,7 @@ repositories:
     create_from: master
   type: public
 - name: vdsm
-  description: 'Virtual desktop server manager'
+  description: Virtual desktop server manager
   upstream: http://www.ovirt.org/develop/developer-guide/vdsm/vdsm
   branches:
   - name: master
@@ -112729,7 +113137,7 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: vdsm-jsonrpc-java
-  description: 'JsonRpc java client for oVirt'
+  description: JsonRpc java client for oVirt
   upstream: http://www.ovirt.org
   branches:
   - name: master
@@ -114060,7 +114468,8 @@ repositories:
     type: protected
   type: public
 - name: kiran-control-panel
-  description: Kiran control center for configuring system settings such as accounts, timedate and keyboard, etc.
+  description: Kiran control center for configuring system settings such as accounts,
+    timedate and keyboard, etc.
   upstream: https://gitee.com/kylinsecos/kiran-control-panel
   branches:
   - name: master
@@ -114074,7 +114483,8 @@ repositories:
     type: protected
   type: public
 - name: kiran-cpanel-display
-  description: Configures display properties such as screen resolution, refresh rate, etc.
+  description: Configures display properties such as screen resolution, refresh rate,
+    etc.
   upstream: https://gitee.com/kylinsecos/kiran-cpanel-display
   branches:
   - name: master
@@ -114102,14 +114512,16 @@ repositories:
     type: protected
   type: public
 - name: kiran-panel
-  description: Kiran side main panel which include start menu, taskbar, system tray and calendar plugins.
+  description: Kiran side main panel which include start menu, taskbar, system tray
+    and calendar plugins.
   upstream: https://gitee.com/kylinsecos/kiran-panel
   branches:
   - name: master
     type: protected
   type: public
 - name: kiran-session-manager
-  description: The session manager will load all necessary applications for a full-featured user session.
+  description: The session manager will load all necessary applications for a full-featured
+    user session.
   upstream: https://gitee.com/kylinsecos/kiran-session-manager
   branches:
   - name: master
@@ -114123,7 +114535,8 @@ repositories:
     type: protected
   type: public
 - name: kiran-qdbusxml2cpp
-  description: Produces the C++ code to implement the dbus interfaces defined in the input file.
+  description: Produces the C++ code to implement the dbus interfaces defined in the
+    input file.
   upstream: https://gitee.com/kylinsecos/kiran-qdbusxml2cpp
   branches:
   - name: master
@@ -118478,6 +118891,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: perl-Alien-Libxml2
   upstream: https://metacpan.org/release/Alien-Libxml2
@@ -119683,10 +120099,10 @@ repositories:
     create_from: master
   type: public
 - name: capsule
-  description: Capsule is a next generation Hypervisor which is compatible
-    with VM/container/partition ecosystem and naturally supports hot upgrade
-    capabilities. Based on Rust programming language of memory security, Capsule
-    supports both Type-1 and Type-2 types across various IT/OT/CT scenarios.
+  description: Capsule is a next generation Hypervisor which is compatible with VM/container/partition
+    ecosystem and naturally supports hot upgrade capabilities. Based on Rust programming
+    language of memory security, Capsule supports both Type-1 and Type-2 types across
+    various IT/OT/CT scenarios.
   upstream: https://gitee.com/openeuler/capsule
   branches:
   - name: master
@@ -140096,7 +140512,8 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: rubygem-sigdump
-  description: Setup signal handler which dumps backtrace of running threads and number of allocated objects per class.
+  description: Setup signal handler which dumps backtrace of running threads and number
+    of allocated objects per class.
   upstream: https://github.com/frsyuki/sigdump
   branches:
   - name: master
@@ -140644,6 +141061,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: openstack-swift
   description: OpenStack Swift is a distributed object storage system designed to
@@ -140656,6 +141076,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -140685,6 +141108,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: openstack-keystone
   description: OpenStack Keystone provides authentication, authorization and service
@@ -140709,6 +141135,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -140739,6 +141168,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: openstack-trove
   description: Trove is Database as a Service for OpenStack. It is designed to run
@@ -140765,6 +141197,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: openstack-kolla
   description: "Kolla provides Docker containers, Ansible playbooks to deploy OpenStack\
@@ -140786,6 +141221,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -140810,6 +141248,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -140864,6 +141305,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: openstack-tempest
   rename_from: python-tempest
@@ -140888,6 +141332,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -140919,6 +141366,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: openstack-ironic-python-agent
   description: An agent for controlling and deploying Ironic controlled baremetal
@@ -140943,6 +141393,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -140982,6 +141435,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -141035,6 +141491,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: networking-generic-switch
   description: This is a Modular Layer 2 Neutron Mechanism driver. The mechanism driver
@@ -141061,6 +141520,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: openstack-placement
   description: OpenStack Placement provides an HTTP service for managing, selecting,
@@ -141074,6 +141536,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -141138,6 +141603,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-heatclient
   description: This is a client for the OpenStack Heat API. There's a Python API (the
@@ -141165,6 +141633,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-ironic-inspector-client
   description: This is a client library and tool for Ironic Inspector.
@@ -141188,6 +141659,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -141216,6 +141690,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-netmiko
   description: Multi-vendor library to simplify Paramiko SSH connections to network
@@ -141240,6 +141717,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -141267,6 +141747,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-openstackclient
   description: OpenStackClient (aka OSC) is a command-line client for OpenStack that
@@ -141292,6 +141775,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -141418,6 +141904,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-neutron-lib
   description: Neutron shared routines and utilities
@@ -141441,6 +141930,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -141468,6 +141960,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-os-ken
   description: A component-based software defined networking framework for OpenStack.
@@ -141479,6 +141974,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -142052,6 +142550,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-twine
   description: Collection of utilities for interacting with PyPI
@@ -142060,6 +142561,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -142167,6 +142671,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -142518,6 +143025,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: perl-Test-Nginx
   description: Data-driven test scaffold for Nginx C module and Nginx/OpenResty-based
@@ -142588,6 +143098,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -142708,6 +143221,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-sqlalchemy-migrate
   description: Migrate provides a way to deal with database schema changes in SQLAlchemy
@@ -142740,6 +143256,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-os-testr
   description: A testr wrapper to provide functionality for OpenStack projects.
@@ -142763,6 +143282,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -142790,6 +143312,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -142845,6 +143370,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-debtcollector
   description: A collection of Python deprecation patterns and strategies that help
@@ -142869,6 +143397,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -142901,6 +143432,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -142939,6 +143473,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -143128,6 +143665,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-yappi
   description: A Python Profiler
@@ -143142,6 +143682,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -143174,6 +143717,9 @@ repositories:
     type: protected
     create_from: oepkg_openstack-common_oe-20.03-LTS-SP2
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -143537,6 +144083,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-wsme
   description: Web Service Made Easy
@@ -143560,6 +144109,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -143613,6 +144165,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-tooz
   description: Coordination library for distributed systems.
@@ -143638,6 +144193,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-wsgi-intercept
   description: wsgi_intercept installs a WSGI application in place of a real URI for
@@ -143656,6 +144214,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -143774,6 +144335,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-sphinxcontrib-seqdiag
   description: A sphinx extension for embedding sequence diagram using seqdiag.
@@ -143788,6 +144352,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -143877,6 +144444,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-os-traits
   description: os-traits is an OpenStack library containing standardized trait strings.
@@ -143902,6 +144472,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-os-vif
   description: A library for plugging and unplugging virtual interfaces in OpenStack.
@@ -143925,6 +144498,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -143953,6 +144529,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-os-brick
   description: OpenStack Cinder brick library for managing local volume attaches.
@@ -143978,6 +144557,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-os-resource-classes
   description: A library containing standardized resource class names in the Placement
@@ -143990,6 +144572,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -144022,6 +144607,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -144288,6 +144876,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -144848,7 +145439,8 @@ repositories:
     type: protected
   type: public
 - name: libyang1
-  description: libyang is YANG data modelling language parser and toolkit written (and providing API) in C
+  description: libyang is YANG data modelling language parser and toolkit written
+    (and providing API) in C
   upstream: https://github.com/CESNET/libyang
   branches:
   - name: master
@@ -144862,7 +145454,8 @@ repositories:
     type: protected
   type: public
 - name: canfestival
-  description: CanFestival focuses on providing an ANSI-C platform independent CANOpen stack that can be built as master or slave nodes on PCs, Real-time IPCs, and Microcontrollers.
+  description: CanFestival focuses on providing an ANSI-C platform independent CANOpen
+    stack that can be built as master or slave nodes on PCs, Real-time IPCs, and Microcontrollers.
   upstream: https://hg.beremiz.org/CanFestival-3
   branches:
   - name: master
@@ -144876,7 +145469,8 @@ repositories:
     type: protected
   type: public
 - name: GATK
-  description: GATK is a software that analyzes mutation information from high-throughput sequencing data.
+  description: GATK is a software that analyzes mutation information from high-throughput
+    sequencing data.
   upstream: https://github.com/broadinstitute/gatk
   branches:
   - name: master
@@ -145081,14 +145675,15 @@ repositories:
 - name: telegraf
   description: The plugin-driven server agent for collecting and reporting metrics
   upstream: https://github.com/influxdata/telegraf
-  branches: 
+  branches:
   - name: master
     type: protected
   type: public
 - name: vhostmd
-  description: Vhostmd provides a metrics communication channel between a host and its hostvirtual machines
+  description: Vhostmd provides a metrics communication channel between a host and
+    its hostvirtual machines
   upstream: https://github.com/vhostmd/vhostmd
-  branches: 
+  branches:
   - name: master
     type: protected
   - name: openEuler-20.03-LTS-Next
@@ -145100,7 +145695,7 @@ repositories:
   - name: openEuler-20.03-LTS-SP2
     type: protected
     create_from: openEuler-20.03-LTS-Next
-  type: public 
+  type: public
 - name: rinetd
   description: rinetd redirects TCP connections from one IP address and port to another
     address and port
@@ -145162,6 +145757,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-mox3
   description: Port of mox library to python 3
@@ -145179,6 +145777,9 @@ repositories:
     type: protected
     create_from: master
   - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -145244,6 +145845,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-doc8
   description: Style checker for Sphinx (or other) RST documentation
@@ -145258,6 +145862,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -145304,6 +145911,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-pep257
   description: pep257 is a static analysis tool for checking compliance with Python
@@ -145319,6 +145929,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -145369,6 +145982,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-pydotplus
   description: Python interface to Graphviz's Dot language
@@ -145383,6 +145999,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -145414,6 +146033,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-rtslib-fb
   description: API for Linux kernel SCSI target (aka LIO)
@@ -145428,6 +146050,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -145446,6 +146071,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-sysv-ipc
   description: System V IPC primitives (semaphores, shared memory and message queues)
@@ -145461,6 +146089,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -145510,6 +146141,9 @@ repositories:
     type: protected
     create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -146713,6 +147347,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: Control-FREEC
   upstream: https://github.com/BoevaLab/FREEC
@@ -147028,7 +147665,8 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: trafficserver
-  description: Apache Traffic Server, a reverse, forward and transparent HTTP proxy cache
+  description: Apache Traffic Server, a reverse, forward and transparent HTTP proxy
+    cache
   upstream: https://trafficserver.apache.org
   branches:
   - name: master
@@ -147091,6 +147729,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: parquet-format
   description: Parquet is a columnar storage format that supports nested data. This
@@ -147129,6 +147770,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -147171,6 +147815,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-vintage
   description: Python library for deprecating code.
@@ -147189,6 +147836,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -147211,6 +147861,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-pact
   description: Promises library in Python.
@@ -147229,6 +147882,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -147279,6 +147935,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -147352,6 +148011,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: nodejs-appium
   description: An open-source,cross-platfrom test automation tool for native
@@ -147367,6 +148029,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -147437,6 +148102,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: predixy
   description: Predixy is a high performance and fully featured proxy for redis sentinel
@@ -147467,6 +148135,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-manilaclient
   description: Python bindings to the OpenStack Manila API.
@@ -147477,6 +148148,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-aodhclient
   description: Python bindings to the OpenStack Aodh API.
@@ -147485,6 +148159,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -147527,6 +148204,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-confluent-kafka
   description: Confluent's Python client for Apache Kafka.
@@ -147534,6 +148214,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-faust
   description: Python Stream Processing.
@@ -147612,6 +148295,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-hidapi
   description: A Cython interface to the hidapi.
@@ -147628,14 +148314,16 @@ repositories:
     type: protected
   type: public
 - name: python-jedi
-  description: A static analysis tool for Python that is typically used in IDEs/editors plugins
+  description: A static analysis tool for Python that is typically used in IDEs/editors
+    plugins
   upstream: https://github.com/davidhalter/jedi
   branches:
   - name: master
     type: protected
   type: public
 - name: python-prompt-toolkit
-  description: A static analysis tool for Python that is typically used in IDEs/editors plugins
+  description: A static analysis tool for Python that is typically used in IDEs/editors
+    plugins
   upstream: https://github.com/prompt-toolkit/python-prompt-toolkit
   branches:
   - name: master
@@ -147809,6 +148497,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-sphinx-testing
   description: testing utility classes and functions for Sphinx extensions.
@@ -147817,6 +148508,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -147899,6 +148593,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-krest
   description: The Kaminario REST (krest) is a client library that provides ORM like
@@ -147908,6 +148605,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -147929,6 +148629,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -147968,6 +148671,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-nosexcover
   description: Extends nose.plugins.cover to add Cobertura-style XML reports.
@@ -147998,6 +148704,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-os-api-ref
   description: Sphinx Extensions to support API reference sites in OpenStack.
@@ -148008,6 +148717,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-nosehtmloutput
   description: Nose plugin to produce test results in html.
@@ -148016,6 +148728,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -148038,6 +148753,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-rsd-lib
   description: Libs for Intel RackScale Design enabled hardware.
@@ -148046,6 +148764,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -148068,6 +148789,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-dfs-sdk
   description: Datera Fabric Python SDK.
@@ -148088,6 +148812,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-proboscis
   description: Extends Nose with certain TestNG like features.
@@ -148096,6 +148823,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -148118,6 +148848,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-purestorage
   description: Pure Storage FlashArray REST Client.
@@ -148126,6 +148859,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -148138,6 +148874,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-ujson
   description: Ultra fast JSON encoder and decoder for Python.
@@ -148146,6 +148885,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -148175,6 +148917,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -148242,6 +148987,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-ibmcclient
   description: python-ibmcclient is a Python library to communicate with HUAWEI iBMC
@@ -148251,6 +148999,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -148263,6 +149014,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-muranoclient
   description: python-muranoclient is a client library for Murano built on the Murano
@@ -148272,6 +149026,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -148295,6 +149052,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-zaqarclient
   description: Client Library for OpenStack Zaqar Messaging API.
@@ -148303,6 +149063,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -148315,6 +149078,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-subunit2sql
   description: Tooling for converting subunit streams into a SQL DB
@@ -148322,6 +149088,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-setuptools-rust
   description: Setuptools helpers for rust Python extensions.
@@ -148334,7 +149103,8 @@ repositories:
     create_from: master
   type: public
 - name: liberasurecode
-  description: liberasurecode is an Erasure Code API library written in C with pluggable Erasure Code backends.
+  description: liberasurecode is an Erasure Code API library written in C with pluggable
+    Erasure Code backends.
   upstream: https://github.com/openstack/liberasurecode
   branches:
   - name: master
@@ -148396,12 +149166,13 @@ repositories:
     type: protected
   type: public
 - name: openpmix
-  description: The Process Management Interface (PMI) has been used as a means of exchanging wireup information needed for interprocess communication.
+  description: The Process Management Interface (PMI) has been used as a means of
+    exchanging wireup information needed for interprocess communication.
   upstream: https://github.com/openpmix/openpmix
   branches:
   - name: master
     type: protected
-  type: public 
+  type: public
 - name: prrte
   description: PRRTE is the PMIx Reference Run Time Environment.
   upstream: https://github.com/openpmix/prrte
@@ -148498,7 +149269,8 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: httpry
-  description: A specialized packet sniffer designed for displaying and logging HTTP traffic
+  description: A specialized packet sniffer designed for displaying and logging HTTP
+    traffic
   upstream: http://dumpsterventures.com/jason/httpry/
   branches:
   - name: master
@@ -148514,7 +149286,8 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: openconnect
-  description: Open client for Cisco AnyConnect VPN, Juniper Network Connect/Pulse,PAN GlobalProtect
+  description: Open client for Cisco AnyConnect VPN, Juniper Network Connect/Pulse,PAN
+    GlobalProtect
   upstream: http://www.infradead.org/openconnect.html
   branches:
   - name: master
@@ -148610,28 +149383,28 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: libnatpmp
-  description: Library of The NAT Port Mapping Protocol (NAT-PMP) 
+  description: Library of The NAT Port Mapping Protocol (NAT-PMP)
   upstream: http://miniupnp.free.fr/libnatpmp.html
   branches:
   - name: master
     type: protected
   type: public
 - name: siege
-  description: HTTP regression testing and benchmarking utility 
+  description: HTTP regression testing and benchmarking utility
   upstream: http://www.joedog.org/JoeDog/Siege
   branches:
   - name: master
     type: protected
   type: public
 - name: patchelf
-  description: A utility for patching ELF binaries 
+  description: A utility for patching ELF binaries
   upstream: http://nixos.org/patchelf.html
   branches:
   - name: master
     type: protected
   type: public
 - name: msgpack-c
-  description: Binary-based efficient object serialization library for C/C++ 
+  description: Binary-based efficient object serialization library for C/C++
   upstream: http://msgpack.org
   branches:
   - name: master
@@ -148707,7 +149480,8 @@ repositories:
     create_from: openEuler-20.03-LTS-Next
   type: public
 - name: gnustep-make
-  description: The makefile package is a simple, powerful and extensible way to write makefiles for a GNUstep-based project.
+  description: The makefile package is a simple, powerful and extensible way to write
+    makefiles for a GNUstep-based project.
   upstream: http://www.gnustep.org/
   branches:
   - name: master
@@ -148746,7 +149520,8 @@ repositories:
     type: protected
   type: public
 - name: gnustep-base
-  description: The GNUstep Base Library is a library of general-purpose, non-graphical Objective C object.
+  description: The GNUstep Base Library is a library of general-purpose, non-graphical
+    Objective C object.
   upstream: http://www.gnustep.org/
   branches:
   - name: master
@@ -148785,7 +149560,8 @@ repositories:
     type: protected
   type: public
 - name: python-libcloud
-  description: A standard Python library that abstracts away differences among multiple cloud provider APIs.
+  description: A standard Python library that abstracts away differences among multiple
+    cloud provider APIs.
   upstream: https://libcloud.apache.org/
   branches:
   - name: master
@@ -148822,7 +149598,8 @@ repositories:
     type: protected
   type: public
 - name: raspberrypi-eeprom
-  description: Installation scripts and binaries for the closed sourced Raspberry Pi 4 EEPROMs.
+  description: Installation scripts and binaries for the closed sourced Raspberry
+    Pi 4 EEPROMs.
   upstream: https://github.com/raspberrypi/rpi-eeprom
   branches:
   - name: master
@@ -148859,7 +149636,8 @@ repositories:
     create_from: master
   type: public
 - name: box86
-  description: Box86 lets you run x86 Linux programs (such as games) on non-x86 Linux systems, like ARM (host system needs to be 32bit little-endian).
+  description: Box86 lets you run x86 Linux programs (such as games) on non-x86 Linux
+    systems, like ARM (host system needs to be 32bit little-endian).
   upstream: https://github.com/ptitSeb/box86
   branches:
   - name: master
