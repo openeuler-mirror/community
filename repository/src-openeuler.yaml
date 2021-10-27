@@ -109669,6 +109669,41 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: ukui-search
+  description: Portable, efficient middle-ware for different kinds of mail access
+  upstream: https://github.com/ukui/ukui-search
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: ukui-paste
+  description: Paste tool for UKUI
+  upstream: https://github.com/ukui/ukui-paste
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: ukui-search-extensions
+  description: ukui-search extensions
+  upstream: https://github.com/ukui/ukui-search-extensions
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: ukui-bluetooth
+  description: A lightweight Bluetooth tool for UKUI
+  upstream: https://github.com/ukui/ukui-bluetooth
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: quazip-qt5
+  description: a simple C++ wrapper over Gilles Vollant's ZIP/UNZIP package that can be used to access ZIP archives
+  upstream: https://github.com/stachenov/quazip
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: ukui-screenshot
   description: ''
   branches:
