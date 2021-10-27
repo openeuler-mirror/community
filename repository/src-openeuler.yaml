@@ -150404,3 +150404,31 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: geany
+  description: A fast and lightweight IDE
+  upstream: http://www.geany.org/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: viewnior
+  description: Fast and elegant image viewer
+  upstream: http://siyanpanayotov.com/project/viewnior/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: notepadqq
+  description: A simple text editor
+  upstream: https://notepadqq.com/
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: thonny
+  description: A python IDE
+  upstream: https://thonny.org
+  branches:
+  - name: master
+    type: protected
+  type: public
