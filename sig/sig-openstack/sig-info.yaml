@@ -55,10 +55,13 @@ repositories:
 - repo: src-openeuler/openstack-placement
 - repo: src-openeuler/openstack-cinder
 - repo: src-openeuler/openstack-tempest
+- repo: src-openeuler/openstack-rally
+- repo: src-openeuler/openstack-rally-plugins
 - repo: src-openeuler/diskimage-builder
 - repo: src-openeuler/novnc
 - repo: src-openeuler/networking-baremetal
 - repo: src-openeuler/networking-generic-switch
+- repo: src-openeuler/python-os-faults
 - repo: src-openeuler/python-debtcollector
 - repo: src-openeuler/python-etcd3gw
 - repo: src-openeuler/python-hacking
