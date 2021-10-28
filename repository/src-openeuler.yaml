@@ -114514,6 +114514,20 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: libcutl
+  description: C++ utility library from Code Synthesis.
+  upstream: http://www.codesynthesis.com/projects/libcutl
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: xsd
+  description: W3C XML schema to C++ data binding compiler
+  upstream: https://www.codesynthesis.com/products/xsd
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: ostree_assembly
   description: Ostree generation platform, based on the Python Django, provides a
     complete set of web-based ostree mirror building process.
