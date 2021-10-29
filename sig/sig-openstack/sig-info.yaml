@@ -35,6 +35,8 @@ committers:
   email: liusheng2048@gmail.com
 repositories:
 - repo: openeuler/openstack
+- repo: openeuler/openstack-kolla-plugin
+- repo: openeuler/openstack-kolla-ansible-plugin
 - repo: src-openeuler/openstack-nova
 - repo: src-openeuler/openstack-swift
 - repo: src-openeuler/openstack-neutron
@@ -323,3 +325,5 @@ repositories:
 - repo: src-openeuler/python-ironic-prometheus-exporter
 - repo: src-openeuler/python-rst.linker
 - repo: src-openeuler/openstack-panko
+- repo: src-openeuler/openstack-kolla-plugin
+- repo: src-openeuler/openstack-kolla-ansible-plugin

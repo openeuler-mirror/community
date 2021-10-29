@@ -1082,3 +1082,15 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: openstack-kolla-plugin
+  description: Adaptable coding made by openstack-kolla for openEuler
+  branches:
+    - name: master
+      type: protected
+  type: public
+- name: openstack-kolla-ansible-plugin
+  description: Adaptable coding made by openstack-kolla-ansible for openEuler
+  branches:
+    - name: master
+      type: protected
+  type: public

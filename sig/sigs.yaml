@@ -8045,6 +8045,8 @@ sigs:
 - name: sig-openstack
   repositories:
   - openeuler/openstack
+  - openeuler/openstack-kolla-plugin
+  - openeuler/openstack-kolla-ansible-plugin
   - src-openeuler/openstack-nova
   - src-openeuler/openstack-swift
   - src-openeuler/openstack-neutron
@@ -8333,6 +8335,8 @@ sigs:
   - src-openeuler/python-ironic-prometheus-exporter
   - src-openeuler/python-rst.linker
   - src-openeuler/openstack-panko
+  - src-openeuler/openstack-kolla-plugin
+  - src-openeuler/openstack-kolla-ansible-plugin
 - name: sig-OS-Builder
   repositories:
   - src-openeuler/anaconda

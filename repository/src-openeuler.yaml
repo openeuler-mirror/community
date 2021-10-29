@@ -150446,3 +150446,29 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: openstack-kolla-plugin
+  description: Adaptable coding made by openstack-kolla for openEuler
+  upstream: https://gitee.com/openeuler/openstack-kolla-plugin
+  branches:
+  - name: master
+    type: protected
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  type: public
+- name: openstack-kolla-ansible-plugin
+  description: Adaptable coding made by openstack-kolla-ansible for openEuler
+  upstream: https://gitee.com/openeuler/openstack-kolla-ansible-plugin
+  branches:
+  - name: master
+    type: protected
+  - name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  - name: oepkg_openstack-queens_oe-20.03-LTS-Next
+    type: protected
+    create_from: master
+  type: public
