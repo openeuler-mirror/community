@@ -22,13 +22,14 @@ The sig-confidential_computing mainly discusses the existing or future confident
 
 - blue0613
 - chenmaodong
+- wolfkernel
+- dongdo-yao
 
 ### Committer
 
 - whzhe
 - liwei3013
 - yanlu
-- wolfkernel
 
 ### Deliverables
 
