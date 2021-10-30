@@ -98811,6 +98811,9 @@ repositories:
   - name: openEuler-20.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-yarl
   upstream: https://github.com/aio-libs/yarl/
@@ -148475,6 +148478,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: gnocchi
   description: Gnocchi is an open-source time series database.
@@ -148778,6 +148784,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
