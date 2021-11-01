@@ -41,13 +41,14 @@ sig-confidential_computing主要讨论在openEuler社区版本中已有或未来
 
 - blue0613
 - chenmaodong
+- wolfkernel
+- dongdo-yao
 
 ### Committer列表
 
 - whzhe
 - liwei3013
 - yanlu
-- wolfkernel
 
 # 联系方式
 - 邮件列表: dev@openeuler.org
