@@ -1100,3 +1100,9 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: itrustee_client
+  description: Confidential computing framework for iTrustee OS normal world client
+  branches:
+  - name: master
+    type: protected
+  type: public
