@@ -36,6 +36,8 @@ The sig-confidential_computing mainly discusses the existing or future confident
 - Source code and tar
   - openeuler/secGear
   - openeuler/itrustee_sdk
+  - openeuler/itrustee_tzdriver
+  - openeuler/itrustee_client
   - src-openeuler/linux-sgx
   - src-openeuler/linux-sgx-driver
   - src-openeuler/intel-sgx-ssl
