@@ -114521,6 +114521,13 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: kiran-desktop
+  description: Kiran desktop 
+  upstream: https://gitee.com/kylinsecos/kiran-desktop
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: libcutl
   description: C++ utility library from Code Synthesis.
   upstream: http://www.codesynthesis.com/projects/libcutl
