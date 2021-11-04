@@ -76524,6 +76524,9 @@ repositories:
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
     type: protected
     create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-Flask-Limiter
   description: Rate limiting for flask applications
