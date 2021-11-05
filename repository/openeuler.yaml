@@ -31,6 +31,12 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: A-Tune-BPF-Collection
+  description: "A-Tune-BPF-Collection is BPF based tunning tools collection"
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: native-turbo
   description: Native-Turbo is the performance optimization framework of native microarchitecture of operating system.
   branches:
