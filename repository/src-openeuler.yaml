@@ -79945,6 +79945,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-blowfish
   upstream: https://github.com/jashandeep-sohi/python-blowfish
@@ -84047,6 +84050,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-flaky
   upstream: https://github.com/box/flaky
@@ -84509,6 +84515,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -90679,6 +90688,9 @@ repositories:
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP1
     type: protected
     create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-outcome
   upstream: https://github.com/python-trio/outcome
@@ -97720,6 +97732,9 @@ repositories:
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP1
     type: protected
     create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-toml
   description: Python Library for Tom's Obvious, Minimal Language
@@ -98793,6 +98808,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -147002,6 +147020,9 @@ repositories:
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP1
     type: protected
     create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-flake8-docstrings
   description: Extension for flake8 which uses pydocstyle to check docstrings
