@@ -1,7 +1,7 @@
 # openEuler ROS SIG
 
-- 在openEuler社区中添加对ROS的支持
-- 根据openEuler迭代版本，持续完成ROS中各个组件向openEuler的移植，并提供ROS在openEuler上的使用文档
+- 在openEuler社区中添加对ROS和ROS2的支持
+- 根据openEuler迭代版本，持续完成ROS和ROS2中各个组件向openEuler的移植，并提供ROS和ROS2在openEuler上的使用文档
 - 及时响应用户反馈，解决相关问题
 
 
@@ -150,3 +150,10 @@ repository地址：
 - https://gitee.com/src-openeuler/rqt_launch
 - https://gitee.com/src-openeuler/rqt_logger_level
 - https://gitee.com/src-openeuler/rqt_moveit
+- https://gitee.com/src-openeuler/gazebo_ros_pkgs
+- https://gitee.com/src-openeuler/rqt_msg
+- https://gitee.com/src-openeuler/rqt_nav_view
+- https://gitee.com/src-openeuler/rqt_publisher
+- https://gitee.com/src-openeuler/rqt_robot_monitor
+- https://gitee.com/src-openeuler/rqt_robot_steering
+- https://gitee.com/src-openeuler/vision_opencv

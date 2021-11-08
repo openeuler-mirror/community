@@ -6329,6 +6329,55 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: gazebo_ros_pkgs
+  description: Interface for using ROS with the Gazebo simulator.
+  upstream: https://github.com/ros-simulation/gazebo_ros_pkgs
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rqt_msg
+  description: A Python GUI plugin for introspecting available ROS message types. 
+  upstream: https://github.com/ros-visualization/rqt_msg
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rqt_nav_view
+  description: rqt_nav_view provides a gui for viewing navigation maps and paths.
+  upstream: https://github.com/ros-visualization/rqt_nav_view
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rqt_publisher
+  description: rqt_publisher provides a GUI plugin for publishing arbitrary messages with fixed or computed field values.
+  upstream: https://github.com/ros-visualization/rqt_publisher
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rqt_robot_monitor
+  description: rqt_robot_monitor displays diagnostics_agg topics messages that are published by diagnostic_aggregator.
+  upstream: https://github.com/ros-visualization/rqt_robot_monitor
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: rqt_robot_steering
+  description: rqt_robot_steering provides a GUI plugin for steering a robot using Twist messages.
+  upstream: https://github.com/ros-visualization/rqt_robot_steering
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: vision_opencv
+  description: Packages for interfacing ROS with OpenCV, a library of programming functions for real time computer vision.
+  upstream: https://github.com/ros-perception/vision_opencv
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: executive_smach
   description: SMACH is a task-level architecture for rapidly creating complex robot
     behavior
