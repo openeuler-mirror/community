@@ -31,8 +31,7 @@
   - 交付件形式：源码、tar包或兼而有之
   - repository1名称：[okhttp](https://gitee.com/src-openeuler/okhttp)
   - repository2名称：[sentencepiece](https://gitee.com/src-openeuler/sentencepiece)
-
-
+  - repository3名称：[opencl-clhpp](https://gitee.com/src-openeuler/opencl-clhpp)
 
  ### 跨领域和面向外部的流程
 
