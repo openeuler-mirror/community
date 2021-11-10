@@ -115073,6 +115073,9 @@ repositories:
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-SP3
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: kiran-icon-theme
   description: The kiran-icon-theme package contains the standard icon theme for the
@@ -115087,6 +115090,9 @@ repositories:
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-SP3
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: kiran-menu
   description: Redesigned start menu for Mate Desktop
@@ -115100,6 +115106,9 @@ repositories:
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-SP3
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: kiran-screensaver-dialog
   description: lock dialog
@@ -115113,6 +115122,9 @@ repositories:
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-SP3
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: kiran-themes
   description: The kiran-themes package contains the standard theme for the Kiran
@@ -115128,6 +115140,9 @@ repositories:
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-SP3
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: kiran-wallpapers
   description: This package provides desktop wallpapers for kiran desktop
@@ -115141,6 +115156,9 @@ repositories:
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-SP3
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: lightdm-kiran-greeter
   description: User login interface
@@ -115154,6 +115172,9 @@ repositories:
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-SP3
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: plymouth-theme-kiran
   description: Plymouth theme for KylinSec OS
@@ -115175,6 +115196,9 @@ repositories:
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-SP3
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: kiran-calendar
   description: Kiran Desktop Calendar Which Provides Chinese Lunar calendar
@@ -115185,6 +115209,9 @@ repositories:
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-SP3
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: kiran-cc-daemon
   description: DBus daemon for Kiran Desktop
@@ -115195,6 +115222,9 @@ repositories:
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-SP3
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: lunar-date
   description: Library to support date conversion from/to chinese lunar calendar
@@ -115208,6 +115238,9 @@ repositories:
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-SP3
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: gdbus-codegen-glibmm
   description: This is a cpp code generator for generating D-Bus stubs and proxies
@@ -115222,6 +115255,9 @@ repositories:
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-SP3
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: kiran-log
   description: This is a kiran log library.
@@ -115232,6 +115268,9 @@ repositories:
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-SP3
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: zlog
   description: This is a zlog library.
@@ -115242,6 +115281,9 @@ repositories:
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-SP3
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: kiran-control-panel
   description: Kiran control center for configuring system settings such as accounts,
@@ -115253,6 +115295,9 @@ repositories:
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-SP3
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: kiran-cpanel-account
   description: Accounts management tool.
@@ -115263,6 +115308,9 @@ repositories:
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-SP3
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: kiran-cpanel-display
   description: Configures display properties such as screen resolution, refresh rate,
@@ -115274,6 +115322,9 @@ repositories:
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-SP3
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: kiran-cpanel-menu
   description: Kiran start menu settings tool.
@@ -115284,6 +115335,9 @@ repositories:
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-SP3
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: kiran-cpanel-mouse
   description: Mouse and touchpad settings tool.
@@ -115294,6 +115348,9 @@ repositories:
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-SP3
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: kiran-cpanel-timedate
   description: Timedate settings tool.
@@ -115304,6 +115361,9 @@ repositories:
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-SP3
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: kiran-panel
   description: Kiran side main panel which include start menu, taskbar, system tray
@@ -115315,6 +115375,9 @@ repositories:
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-SP3
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: kiran-session-manager
   description: The session manager will load all necessary applications for a full-featured
@@ -115326,6 +115389,9 @@ repositories:
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-SP3
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: kiran-widgets-qt5
   description: Qt5 custom widgets for kiran desktop environment.
@@ -115336,6 +115402,9 @@ repositories:
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-SP3
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: kiran-qdbusxml2cpp
   description: Produces the C++ code to implement the dbus interfaces defined in the
@@ -115347,6 +115416,9 @@ repositories:
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-SP3
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: kiran-desktop
   description: Kiran desktop 
@@ -115357,6 +115429,9 @@ repositories:
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-SP3
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: libcutl
   description: C++ utility library from Code Synthesis.
@@ -115367,6 +115442,9 @@ repositories:
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-SP3
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: xsd
   description: W3C XML schema to C++ data binding compiler
@@ -115377,6 +115455,9 @@ repositories:
   - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-SP3
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
   type: public
 - name: ostree_assembly
   description: Ostree generation platform, based on the Python Django, provides a
