@@ -76298,6 +76298,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-automaton
   upstream: https://opendev.org/openstack/automaton
@@ -76991,6 +76994,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -80592,6 +80598,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-20.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -89814,6 +89823,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-watcherclient
   upstream: https://opendev.org/openstack/python-watcherclient
@@ -89936,6 +89948,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -92052,6 +92067,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-process-tests
   upstream: https://github.com/ionelmc/python-process-tests
@@ -92757,6 +92775,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -95713,6 +95734,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -143980,6 +144004,9 @@ repositories:
   - name: oepkg_openstack-rocky_oe-20.03-LTS-SP1
     type: protected
     create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-cliff
   description: A framework for building command line programs
@@ -144109,6 +144136,9 @@ repositories:
     type: protected
     create_from: master
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -149039,6 +149069,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-storpool
   description: Bindings for the StorPool distributed storage API
@@ -149062,6 +149095,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-confget
   description: Parse configuration files and extract values from them
@@ -149072,6 +149108,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-gossip
   description: Signaling and hooking library.
@@ -149080,6 +149119,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -149105,6 +149147,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-ironic-tempest-plugin
   description: Tempest plugin for ironic and ironic-inspector
@@ -149126,6 +149171,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -149151,6 +149199,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-octaviaclient
   description: Octavia client for OpenStack Load Balancing
@@ -149174,6 +149225,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-rbd-iscsi-client
   description: REST client to talk to rbd-target-api
@@ -149192,6 +149246,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -149800,6 +149857,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-sphinxcontrib-programoutput
   description: Sphinx extension to include program output.
@@ -149901,6 +149961,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-rsdclient
   description: OpenStack client plugin for Rack Scale Design.
@@ -149923,6 +149986,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
@@ -150191,6 +150257,9 @@ repositories:
   - name: openEuler-21.09
     type: protected
     create_from: master
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: python-typed-ast
   description: typed_ast is a Python 3 package that provides a Python 2.7 and Python
@@ -150393,6 +150462,9 @@ repositories:
   - name: master
     type: protected
   - name: openEuler-21.09
+    type: protected
+    create_from: master
+  - name: openEuler-20.03-LTS-Next
     type: protected
     create_from: master
   type: public
