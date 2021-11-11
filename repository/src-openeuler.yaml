@@ -49,6 +49,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: master
   type: public
 - name: A-Tune-BPF-Collection
   description: "A-Tune-BPF-Collection is BPF based tunning tools collection"
