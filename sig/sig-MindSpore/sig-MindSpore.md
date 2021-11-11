@@ -31,6 +31,7 @@ What and in what form the SIG is responsible for delivering
 
 - [sentencepiece](https://gitee.com/src-openeuler/sentencepiece)
 
+- [opencl-clhpp](https://gitee.com/src-openeuler/opencl-clhpp)
 
 ### Cross-domain and external-oriented processes
 

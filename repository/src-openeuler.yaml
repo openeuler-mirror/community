@@ -49619,6 +49619,13 @@ repositories:
     type: protected
     create_from: master
   type: public
+- name: opencl-clhpp
+  description: OpenCL (Open Computing Language) bind cpp header files
+  upstream: https://github.com/KhronosGroup/OpenCL-CLHPP
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: opencryptoki
   description: PKCS#11 library and tools for Linux
   upstream: http://sourceforge.net/projects/opencryptoki

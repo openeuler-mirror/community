@@ -59,3 +59,4 @@
 repository地址：
 
 - https://gitee.com/src-openeuler/okhttp
+- https://gitee.com/src-openeuler/opencl-clhpp
