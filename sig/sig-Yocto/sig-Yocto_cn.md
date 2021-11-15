@@ -29,4 +29,4 @@
   - 核心开发工具：
     - yocto-embedded-tools: https://gitee.com/openeuler/yocto-embedded-tools
   - 构建模板和方法:
-    - yocto-meta-embedded: https://gitee.com/openeuler/yocto-meta-embedded
+    - yocto-meta-openeuler: https://gitee.com/openeuler/yocto-meta-openeuler
