@@ -1341,6 +1341,7 @@ sigs:
 - name: sig-epol
   repositories:
   - src-openeuler/whois
+  - src-openeuler/python-jedi
   - src-openeuler/masscan
   - src-openeuler/netsniff-ng
   - src-openeuler/bird
@@ -6488,7 +6489,6 @@ sigs:
   - src-openeuler/swagger-spec-validator
   - src-openeuler/swagger-ui-bundle
   - src-openeuler/ptpython
-  - src-openeuler/python-jedi
   - src-openeuler/python-prompt-toolkit
   - src-openeuler/py3c
   - src-openeuler/pyorbit
