@@ -1,5 +1,12 @@
 # Secretariat
 
+Deprecated：
+
+Date: Nov. 18th, 2021
+
+Reason: openEuler was donated to OpenAtom Foundation on NOv. 9th, 2021. The organization is being updated and thus this file is deprecated.
+
+---
 The openEuler community is still in the preparation phase. During the preparation phase, the secretariat is responsible for the operation of the openEuler community. At this stage, the main responsibilities of the openEuler community secretariat are as follows:
 
 - Develop community operation plan
