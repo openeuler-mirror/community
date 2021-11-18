@@ -406,6 +406,12 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: passwd_group_generator
+  description: Generator of /etc/passwd and /etc/group
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: mate-desktop
   description: It provides an intuitive and attractive desktop environment using traditional
     metaphors
