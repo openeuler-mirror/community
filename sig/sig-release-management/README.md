@@ -31,6 +31,7 @@ You can find [Release management SIG meeting minutes](https://gitee.com/openeule
 **Honor Maintainer：**
 - Jiang Zhenhua [@Ronnie_Jiang](https://gitee.com/Ronnie_Jiang)
 - Jiang Yuming  [@yuming_jiang](https://gitee.com/yuming_jiang)  
+
 Thank you very much for your dedication to the openEuler community.
 
 ## Contact information
