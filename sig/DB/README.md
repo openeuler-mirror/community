@@ -103,3 +103,7 @@ Project names && repository location：
 - https://gitee.com/src-openeuler/perl-DBD-MariaD
 - https://gitee.com/src-openeuler/perl-DBD-MySQL
 - https://gitee.com/src-openeuler/mongo-tools
+- https://gitee.com/src-openeuler/opengauss-server
+- https://gitee.com/src-openeuler/opengauss-dcf
+- https://gitee.com/src-openeuler/nanomsg
+- https://gitee.com/src-openeuler/apache-orc
