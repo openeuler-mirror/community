@@ -35,7 +35,7 @@ openEuler试图规范化多种多样的开源项目到一个连贯的系统。�
 
 ### 关联文档
 
-如果你计划将软件引入到openEuler official software repository。请参考 [社区贡献者指南](https://openeuler.org/zh/community/contribution/detail.html).
+如果你计划将软件引入到openEuler official software repository，请参考 [社区贡献者指南](https://openeuler.org/zh/community/contribution/detail.html)。
 
 ### 适用性
 
@@ -81,7 +81,7 @@ openEuler软件包拆分的原则是不做复杂的拆分，将软件拆分为�
 
 | 分类     | 包名             | 包含内容                                                     | 关键点                                                       |
 | -------- | ---------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 主包     | 与软件源码包同名 | 1、命令、配置、本软件包含的命令运行所需的so；<br />2、  license、copyright、Author、readme（如果包含版权信息）；  <br />3、版权 许可 权利人等法务相关的文件都放licenses目录下<br />4、man、info手册 | 可以通过Provides、Obsoletes声明实现与其他OS的兼容。<br />（Provides、Conflicts、Obsoletes等功能介绍参考附件中的rpm官方手册。） |
+| 主包     | 与软件源码包同名 | 1、命令、配置、本软件包含的命令运行所需的so<br />2、license、copyright、Author、readme（如果包含版权信息）  <br />3、版权、许可、权利人等法务相关的文件都放licenses目录下<br />4、man、info手册 | 可以通过Provides、Obsoletes声明实现与其他OS的兼容。<br />（Provides、Conflicts、Obsoletes等功能介绍参考附件中的rpm官方手册。） |
 | libs包   | 软件包名-libs    | 1、只包含对外提供的动态库、命令                              | 将自身的功能与对外提供的能力分离，确保上层应用只依赖于libs本身，减少软件包之间的复杂性，避免循环依赖。 |
 | devel包  | 软件包名-devel   | 1、头文件<br />2、Example<br />3、tests用例<br />4、其他开发使用的内容 | 1、所有属于开发范围的内容，统一打包成devel包。<br />2、动态库打包到主包中后，devel包一般要Requires主包，否则部分动态库找不到 |
 | static包 | 软件包名-static  | 1、静态库.a<br />2、提供的命令的静态版本                     | 如果提供static版本，有必要使用宏来控制static是否编译和打包。 |
@@ -99,7 +99,7 @@ openEuler软件包拆分的原则是不做复杂的拆分，将软件拆分为�
 
 通常基于新的软件拆分规则，OS依赖体系自然形成，其软件间的依赖关系随之变化。
 
-Provides、Conflict、Obsoletes等RPM关键字提供的功能可以解决兼容的问题。openEuler导出软件提供的功能（Symbols），再利用Provides、Obsoletes等手段可以确保与其他OS的部分兼容。
+Provides、Conflicts、Obsoletes等RPM关键字提供的功能可以解决兼容的问题。openEuler导出软件提供的功能（Symbols），再利用Provides、Obsoletes等手段可以确保与其他OS的部分兼容。
 
 ## 2 软件打包验证
 
@@ -113,13 +113,13 @@ Provides、Conflict、Obsoletes等RPM关键字提供的功能可以解决兼容�
 
 1、 使用rpmlint测试spec是否有问题，确认是否能正常地构建出对应的rpm。
 
-2、确认软件包拆分是否合理，是否满足openEuler软件包拆分规则。
+2、 确认软件包拆分是否合理，是否满足openEuler软件包拆分规则。
 
 3、 查看生成二进制RPM的Provides、Requires是否正常，可以通过命令rpm --provides 或rpm --requires查看，确保软件包具备的能力被正确的提供出来。
 
 4、 查看软件选型打包后的二进制包是否可以正常使用rpm命令进行正确安装、卸载、升级和回滚。
 
-5、 安装升级后，验证：1)服务类的，验证start/stop/restart/reload；2）命令类的，至少要验证基本功能可用。
+5、 安装升级后，验证：1）服务类的，验证start/stop/restart/reload；2）命令类的，至少要验证基本功能可用。
 
 6、 软件包源码中自带tests，不能随意注释、删除、禁用，需要确保代码提交时，门禁中make check自测用例通过。
 
@@ -141,7 +141,7 @@ Provides、Conflict、Obsoletes等RPM关键字提供的功能可以解决兼容�
 
 ### 架构支持
 
-- 打包者应尽量提供支持在aarch64和x86_64等几种架构上编译成功，后续随openEuler对其它体系架构的支持，可能会增加构建的要求。。
+- 打包者应尽量提供支持在aarch64和x86_64等几种架构上编译成功，后续随openEuler对其它体系架构的支持，可能会增加构建的要求。
 - 对于架构强相关的内容，通过`%ifarch`宏来控制。
 - 独立于架构的内容，如文档手册，perl、python等解释性语言程序，构建成一个noarch包。
 - 如果软件当前支持的架构尚不全面，可以使用`ExcludeArch:` or `ExclusiveArch:` 来控制。
@@ -162,12 +162,16 @@ Provides、Conflict、Obsoletes等RPM关键字提供的功能可以解决兼容�
 
 - 软件包名一般情况，来自原生社区，英文，有意义词组，大小写敏感。如果有多个词，我们建议直接用`-`分割，而不是`_`、`.`和`+`下划线，例外情况包括nss_db、sg3_utils等软件包重名或原生社区本身就自带特殊符号。
 
-- 补丁命名内容清晰完整即可，通常我们建议你参考下面的要求来做，确保统一可追溯。
-  
-  a、所有新补丁以.patch结尾。并通过注释方式标注其来源及其作用，注释的格式“PATCH-(BUGFIX|CVE|FEATURE)-内容”
-  b、允许引用其他bugzilla，可用缩写代替，如CVE-2009-0067、GCC#123456、kde#123456、rh#123456等。
-  c、不要求补丁文件名称添加特定前缀，如backport-、upstream-等。
-  d、要求spec补丁序号从0开始，且保持连续。
+- 补丁命名内容清晰完整即可，通常我们建议你参考下面的要求来做，确保统一可追溯：
+
+    a、所有新补丁以.patch结尾，并通过注释方式标注其来源及其作用，注释的格式“PATCH-(BUGFIX|CVE|FEATURE)-内容”。
+
+    b、允许引用其他bugzilla，可用缩写代替，如CVE-2009-0067、GCC#123456、kde#123456、rh#123456等。
+
+    c、不要求补丁文件名称添加特定前缀，如backport-、upstream-等。
+
+    d、要求spec补丁序号从0开始，且保持连续。
+
 
 ### 基本信息
 
@@ -260,14 +264,14 @@ Provides、Conflict、Obsoletes等RPM关键字提供的功能可以解决兼容�
 - **必须**：包的spec文件必须用英语撰写且清晰可读。
 - **必须**：用于构建包的源代码必须与spec中URL中提供的上游源代码匹配。检视人员应该使用命令校验源码包的正确性。
 - **必须**：如果包没有成功地在某个架构上编译、构建或工作，那么这些架构应该在ExcludeArch的规范中列出。
-- **必须**：所有的构建依赖项必须在buildrequire中列出。
+- **必须**：所有的构建依赖项必须在BuildRequires中列出。
 - **必须**：规范文件必须正确处理区域设置。这是通过使用%find_lang宏来完成的。严格禁止使用%{datadir}/locale/* 。
 - **必须**：软件包原则上不能将生成的单一文件%files打包到多个rpm包中，(显著的例外: License、许可文件可以打包到多个二进制RPM中)。
 - **必须**：在install时，要安装到prefix(/usr)相对路径下，而不是默认的/下。
 - **必须**：必须正确设置文件的权限。
 - **必须**：大型文档文件必须放在-help子包中。 (大的定义取决于打包者的最佳判断，但不限于大小。 大可以指大小或数量)。单独的-help不安装的话，不能影响软件本身的功能。
 - **必须**：开发文件、static文件必须在-devel包中。
-- **必须**：在绝大多数情况下，devel包必须使用完整的依赖，包版本号: require: %{name}-%{version}-%{release}。
+- **必须**：在绝大多数情况下，devel包必须使用完整的依赖，包版本号: Requires: %{name}-%{version}-%{release}。
 - **必须**：软件构建过程中的临时文件、中间文件，不能打包到最终的rpm中。
 - **必须**：软件包不能拥有其他软件包已经拥有的文件或目录。
 - **必须**：rpm包中的所有文件名都必须是有效的UTF-8。
@@ -478,9 +482,7 @@ Executing(%clean): /bin/sh -e /var/tmp/rpm-tmp.UnMR3x
 4. `%test`	      make test 社区源码的自带测试用例。
 5. `%clean`        清理rpmbuild构建生成的临时目录和文件，非必须。
 
-当你从软件包的原生社区拿到一份源码。
-
-手动地在本地完成上面各个section的动作。将上面的动作补充到一个spec标准模板中，同时填写基本的软件包信息，便很快的完成一个软件的打包。
+当你从软件包的原生社区拿到一份源码，手动地在本地完成上面各个section的动作，再将上面的动作补充到一个spec标准模板中，同时填写基本的软件包信息，便很快的完成一个软件的打包。
 
 
 ### openEuelr custom amcros
