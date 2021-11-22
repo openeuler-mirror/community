@@ -1568,6 +1568,10 @@ sigs:
   - src-openeuler/neo4j
   - src-openeuler/canal
   - src-openeuler/tidb
+  - src-openeuler/opengauss-server
+  - src-openeuler/opengauss-dcf
+  - src-openeuler/nanomsg
+  - src-openeuler/apache-orc
 - name: Base-service
   repositories:
   - src-openeuler/abseil-cpp
