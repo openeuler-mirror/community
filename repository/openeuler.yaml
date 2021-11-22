@@ -1149,3 +1149,9 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: CPython
+  description: CPython is a free and open-source Python interpreter implemented by C.
+  branches:
+    - name: master
+      type: protected
+  type: pubilc
