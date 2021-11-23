@@ -8658,3 +8658,6 @@ sigs:
   - src-openeuler/yocto-pseudo
   - src-openeuler/yocto-opkg-utils
   - openeuler/aarch32-rootfs-builder
+- name: sig-DPU
+  repositories:
+  - openeuler/dpu-core

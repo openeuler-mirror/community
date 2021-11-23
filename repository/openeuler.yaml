@@ -1131,3 +1131,9 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: dpu-core
+  description: dpu-core is DPU customized software utility based on openEuler
+  branches:
+  - name: master
+    type: protected
+  type: public
