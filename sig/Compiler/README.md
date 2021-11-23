@@ -13,6 +13,8 @@ Tuesday 10 am bi-weekly.
  - 谢 志恒[@eastb233](https://gitee.com/eastb233) email: xiezhiheng@huawei.com
  - 王 亚东[@wangyadong](https://gitee.com/yd_wang) email: yadonn.wang@huawei.com
  - 姜 飞龙[@jiangfeilong](https://gitee.com/jiangfeilong1003) email: jiangfeilong@huawei.com
+ - 张 高峰[@hserror](https://gitee.com/hserror) email: zhanggaofeng9@huawei.com
+ - 王 坤[@kuenking111](https://gitee.com/kuenking111) email: wangkun49@huawei.com
  - 郭 培林[@peilin-guo](https://gitee.com/peilin-guo) email: guopeilin1@huawei.com
  - 乔 沛鑫[@peixin-qiao](https://gitee.com/peixin-qiao) email: qiaopeixin@huawei.com
 
