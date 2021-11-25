@@ -2255,11 +2255,30 @@ sigs:
   - src-openeuler/avahi
   - src-openeuler/bpg-fonts
   - src-openeuler/brltty
+  - src-openeuler/blur-effect
   - src-openeuler/cairo
   - src-openeuler/cairomm
   - src-openeuler/cdparanoia
   - src-openeuler/CharLS
   - src-openeuler/cjkuni-ukai-fonts
+  - src-openeuler/udisks2-qt5
+  - src-openeuler/libgxim
+  - src-openeuler/qt-at-spi
+  - src-openeuler/zssh
+  - src-openeuler/aom
+  - src-openeuler/byzanz
+  - src-openeuler/dav1d
+  - src-openeuler/ffmpeg
+  - src-openeuler/nv-codec-headers
+  - src-openeuler/opencore-amr
+  - src-openeuler/soxr
+  - src-openeuler/srt
+  - src-openeuler/vid.stab
+  - src-openeuler/vo-amrwbenc
+  - src-openeuler/x264
+  - src-openeuler/xvidcore
+  - src-openeuler/zimg
+  - src-openeuler/zvbi
   - src-openeuler/clutter-gtk
   - src-openeuler/cockpit
   - src-openeuler/color-filesystem
@@ -7966,7 +7985,6 @@ sigs:
 - name: sig-DDE
   repositories:
   - src-openeuler/dde-control-center
-  - src-openeuler/blur-effect
   - src-openeuler/dde-api
   - src-openeuler/dde-calendar
   - src-openeuler/dde-clipboard
@@ -8008,7 +8026,6 @@ sigs:
   - src-openeuler/dtkwm
   - src-openeuler/deepin-icon-theme
   - src-openeuler/qt5integration
-  - src-openeuler/udisks2-qt5
   - src-openeuler/startdde
   - src-openeuler/deepin-wallpapers
   - src-openeuler/deepin-gtk-theme
@@ -8024,23 +8041,6 @@ sigs:
   - src-openeuler/deepin-screen-recorder
   - src-openeuler/deepin-movie
   - src-openeuler/deepin-music
-  - src-openeuler/libgxim
-  - src-openeuler/qt-at-spi
-  - src-openeuler/zssh
-  - src-openeuler/aom
-  - src-openeuler/byzanz
-  - src-openeuler/dav1d
-  - src-openeuler/ffmpeg
-  - src-openeuler/nv-codec-headers
-  - src-openeuler/opencore-amr
-  - src-openeuler/soxr
-  - src-openeuler/srt
-  - src-openeuler/vid.stab
-  - src-openeuler/vo-amrwbenc
-  - src-openeuler/x264
-  - src-openeuler/xvidcore
-  - src-openeuler/zimg
-  - src-openeuler/zvbi
 - name: sig-high-performance-network
   repositories:
   - src-openeuler/dwarves

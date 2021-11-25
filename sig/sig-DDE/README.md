@@ -50,7 +50,6 @@ DDE
 repository地址：
 
   - https://gitee.com/src-openeuler/dde-control-center
-  - https://gitee.com/src-openeuler/blur-effect
   - https://gitee.com/src-openeuler/dde-api
   - https://gitee.com/src-openeuler/dde-calendar
   - https://gitee.com/src-openeuler/dde-clipboard
@@ -90,7 +89,6 @@ repository地址：
   - https://gitee.com/src-openeuler/dtkwm
   - https://gitee.com/src-openeuler/deepin-icon-theme
   - https://gitee.com/src-openeuler/qt5integration
-  - https://gitee.com/src-openeuler/udisks2-qt5
   - https://gitee.com/src-openeuler/startdde
   - https://gitee.com/src-openeuler/deepin-wallpapers
   - https://gitee.com/src-openeuler/deepin-gtk-theme
@@ -104,30 +102,7 @@ repository地址：
   - https://gitee.com/src-openeuler/deepin-default-settings
   - https://gitee.com/src-openeuler/deepin-qml-widgets
   - https://gitee.com/src-openeuler/dde
-  - https://gitee.com/src-openeuler/libgxim
-  - https://gitee.com/src-openeuler/fcitx
-  - https://gitee.com/src-openeuler/fcitx-configtool
-  - https://gitee.com/src-openeuler/fcitx-qt5
-  - https://gitee.com/src-openeuler/fcitx-libpinyin
-  - https://gitee.com/src-openeuler/fcitx-cloudpinyin
-  - https://gitee.com/src-openeuler/fcitx-sunpinyin
-  - https://gitee.com/src-openeuler/sunpinyin
-  - https://gitee.com/src-openeuler/qt-at-spi
-  - https://gitee.com/src-openeuler/zssh
-  - https://gitee.com/src-openeuler/aom
-  - https://gitee.com/src-openeuler/byzanz
-  - https://gitee.com/src-openeuler/dav1d
   - https://gitee.com/src-openeuler/deepin-draw
   - https://gitee.com/src-openeuler/deepin-screen-recorder
   - https://gitee.com/src-openeuler/deepin-movie
   - https://gitee.com/src-openeuler/deepin-music
-  - https://gitee.com/src-openeuler/ffmpeg
-  - https://gitee.com/src-openeuler/nv-codec-headers
-  - https://gitee.com/src-openeuler/opencore-amr
-  - https://gitee.com/src-openeuler/soxr
-  - https://gitee.com/src-openeuler/srt
-  - https://gitee.com/src-openeuler/vid.stab
-  - https://gitee.com/src-openeuler/vo-amrwbenc
-  - https://gitee.com/src-openeuler/x264
-  - https://gitee.com/src-openeuler/xvidcore
-  - https://gitee.com/src-openeuler/zimg
