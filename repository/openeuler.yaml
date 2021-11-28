@@ -307,6 +307,12 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: eulerfs
+  description: a new NVDIMM filesystem
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: lcr
   description: ''
   branches:
