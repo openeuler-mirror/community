@@ -42,3 +42,5 @@ Tuesday 10 am bi-weekly.
  - [bishengjdk-11](https://gitee.com/openeuler/bishengjdk-11)
  - [gcc](https://gitee.com/openeuler/gcc)
  - [autofdo](https://gitee.com/src-openeuler/autofdo)
+ - [libcxx](https://gitee.com/src-openeuler/libcxx)
+ - [libcxxabi](https://gitee.com/src-openeuler/libcxxabi)
