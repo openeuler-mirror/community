@@ -707,6 +707,12 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: ptcr
+  description: A tool for container runtime performance measure.
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: trucker
   description: Tools for create iso livecd and cloud image
   branches:
