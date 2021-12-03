@@ -2098,6 +2098,7 @@ sigs:
   - openeuler/openeuler-docker-images
   - openeuler/KubeOS
   - openeuler/NestOS
+  - openeuler/ptcr
   - src-openeuler/KubeOS
   - src-openeuler/eggo
   - src-openeuler/coredns
@@ -2143,6 +2144,7 @@ sigs:
   - src-openeuler/libnetwork
   - src-openeuler/harbor
   - src-openeuler/catatonit
+  - src-openeuler/ptcr
 - name: Compiler
   repositories:
   - src-openeuler/gcc
