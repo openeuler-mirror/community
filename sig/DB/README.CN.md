@@ -98,4 +98,5 @@ DB SIG当前处于发展的初始阶段，团队维护能力有限，目前为�
 - https://gitee.com/src-openeuler/opengauss-server
 - https://gitee.com/src-openeuler/opengauss-dcf
 - https://gitee.com/src-openeuler/nanomsg
+- https://gitee.com/src-openeuler/tez
 - https://gitee.com/src-openeuler/apache-orc
