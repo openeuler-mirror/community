@@ -45,3 +45,4 @@ Tuesday 10 am bi-weekly.
  - [libcxx](https://gitee.com/src-openeuler/libcxx)
  - [libcxxabi](https://gitee.com/src-openeuler/libcxxabi)
  - [llvm-libunwind](https://gitee.com/src-openeuler/llvm-libunwind)
+ - [cpython](https://gitee.com/openeuler/CPython)
