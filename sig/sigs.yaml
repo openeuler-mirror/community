@@ -1571,6 +1571,7 @@ sigs:
   - src-openeuler/opengauss-dcf
   - src-openeuler/nanomsg
   - src-openeuler/apache-orc
+  - src-openeuler/cjson
 - name: Base-service
   repositories:
   - src-openeuler/abseil-cpp
@@ -1646,7 +1647,6 @@ sigs:
   - src-openeuler/bzip2
   - src-openeuler/ca-certificates
   - src-openeuler/castor
-  - src-openeuler/cjson
   - src-openeuler/cbi-plugins
   - src-openeuler/chkconfig
   - src-openeuler/chrpath
