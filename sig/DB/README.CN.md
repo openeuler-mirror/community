@@ -83,6 +83,7 @@ DB SIG当前处于发展的初始阶段，团队维护能力有限，目前为�
 - https://gitee.com/src-openeuler/percona-toolkit
 - https://gitee.com/src-openeuler/percona-xtrabackup
 - https://gitee.com/src-openeuler/perl-DBIx-Safe
+- https://gitee.com/src-openeuler/pig
 - https://gitee.com/src-openeuler/pgadmin4-server
 - https://gitee.com/src-openeuler/pgpool2
 - https://gitee.com/src-openeuler/postgresql
