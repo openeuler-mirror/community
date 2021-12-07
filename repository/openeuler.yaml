@@ -307,6 +307,12 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: eulerfs
+  description: a new NVDIMM filesystem
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: lcr
   description: ''
   branches:
@@ -697,6 +703,12 @@ repositories:
   type: public
 - name: isula-transform
   description: isula transform kit transform specify docker container to iSulad container
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: ptcr
+  description: A tool for container runtime performance measure.
   branches:
   - name: master
     type: protected
@@ -1131,3 +1143,21 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: dde
+  description: Deepin Desktop Environment on openEuler
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: dpu-core
+  description: dpu-core is DPU customized software utility based on openEuler
+  branches:
+  - name: master
+    type: protected
+  type: public
+- name: CPython
+  description: CPython is a free and open-source Python interpreter implemented by C.
+  branches:
+    - name: master
+      type: protected
+  type: pubilc

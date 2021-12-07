@@ -19,17 +19,20 @@ You can find [Release management SIG meeting minutes](https://gitee.com/openeule
 
 ## Release managerment SIG member
 **Maintainer: **
-- Jiang Zhenhua [@Ronnie_Jiang](https://gitee.com/Ronnie_Jiang)
-- Jiang Yuming  [@yuming_jiang](https://gitee.com/yuming_jiang)
 - Hu Feng [@solarhu](https://gitee.com/solarhu)
 - Zhu Yanpeng [@zyp-rock](https://gitee.com/zyp-rock)
 - Chen Yaqiang [@chenyaqiang](https://gitee.com/chenyaqiang)
 
 **Extended member: **
-- Liu Bo [@boliurise](https://gitee.com/boliurise)
 - Ming Pei [@dolphin-m](https://gitee.com/dolphin-m)
 - Zhang Wei [@hwzw](https://gitee.com/hwzw)
 - Li Yongqiang [@Charlie_li](https://gitee.com/Charlie_li)
+
+**Honor Maintainer：**
+- Jiang Zhenhua [@Ronnie_Jiang](https://gitee.com/Ronnie_Jiang)
+- Jiang Yuming  [@yuming_jiang](https://gitee.com/yuming_jiang)  
+
+Thank you very much for your dedication to the openEuler community.
 
 ## Contact information
 

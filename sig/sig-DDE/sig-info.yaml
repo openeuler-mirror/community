@@ -33,7 +33,6 @@ committers:
 
 repositories:
 - repo: src-openeuler/dde-control-center
-- repo: src-openeuler/blur-effect
 - repo: src-openeuler/dde-api
 - repo: src-openeuler/dde-calendar
 - repo: src-openeuler/dde-clipboard
@@ -73,7 +72,6 @@ repositories:
 - repo: src-openeuler/dtkwm
 - repo: src-openeuler/deepin-icon-theme
 - repo: src-openeuler/qt5integration
-- repo: src-openeuler/udisks2-qt5
 - repo: src-openeuler/startdde
 - repo: src-openeuler/deepin-wallpapers
 - repo: src-openeuler/deepin-gtk-theme
@@ -87,24 +85,8 @@ repositories:
 - repo: src-openeuler/deepin-default-settings
 - repo: src-openeuler/deepin-qml-widgets
 - repo: src-openeuler/dde
-- repo: src-openeuler/libgxim
-- repo: src-openeuler/qt-at-spi
-- repo: src-openeuler/zssh
-- repo: src-openeuler/aom
-- repo: src-openeuler/byzanz
-- repo: src-openeuler/dav1d
 - repo: src-openeuler/deepin-draw
 - repo: src-openeuler/deepin-screen-recorder
 - repo: src-openeuler/deepin-movie
 - repo: src-openeuler/deepin-music
-- repo: src-openeuler/ffmpeg
-- repo: src-openeuler/nv-codec-headers
-- repo: src-openeuler/opencore-amr
-- repo: src-openeuler/soxr
-- repo: src-openeuler/srt
-- repo: src-openeuler/vid.stab
-- repo: src-openeuler/vo-amrwbenc
-- repo: src-openeuler/x264
-- repo: src-openeuler/xvidcore
-- repo: src-openeuler/zimg
-- repo: src-openeuler/zvbi
+- repo: openeuler/dde

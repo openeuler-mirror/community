@@ -320,6 +320,11 @@ repositories:
 - repo: src-openeuler/python-karborclient
 - repo: src-openeuler/python-magnumclient
 - repo: src-openeuler/openstack-heat
+- repo: src-openeuler/openstack-heat-agents
+- repo: src-openeuler/python-os-apply-config
+- repo: src-openeuler/python-os-collect-config
+- repo: src-openeuler/python-os-refresh-config
+- repo: src-openeuler/python-heat-cfntools
 - repo: src-openeuler/python-neutron-tempest-plugin
 - repo: src-openeuler/python-pipreqs
 - repo: src-openeuler/python-dib-utils
@@ -331,3 +336,5 @@ repositories:
 - repo: src-openeuler/openstack-kolla-plugin
 - repo: src-openeuler/openstack-kolla-ansible-plugin
 - repo: src-openeuler/python-tablib
+- repo: src-openeuler/python-ceilometermiddleware
+- repo: src-openeuler/python-cyborgclient

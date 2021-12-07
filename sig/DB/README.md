@@ -89,6 +89,9 @@ Project names && repository location：
 - https://gitee.com/src-openeuler/h2
 - https://gitee.com/src-openeuler/mariadb-connector-odbc
 - https://gitee.com/src-openeuler/mysql5
+- https://gitee.com/src-openeuler/pig
+- https://gitee.com/src-openeuler/percona-server
+- https://gitee.com/src-openeuler/percona-toolkit
 - https://gitee.com/src-openeuler/percona-xtrabackup
 - https://gitee.com/src-openeuler/perl-DBIx-Safe
 - https://gitee.com/src-openeuler/pgadmin4-server
@@ -105,6 +108,7 @@ Project names && repository location：
 - https://gitee.com/src-openeuler/mongo-tools
 - https://gitee.com/src-openeuler/opengauss-server
 - https://gitee.com/src-openeuler/opengauss-dcf
+- https://gitee.com/src-openeuler/tez
 - https://gitee.com/src-openeuler/nanomsg
 - https://gitee.com/src-openeuler/apache-orc
 - https://gitee.com/src-openeuler/cjson
