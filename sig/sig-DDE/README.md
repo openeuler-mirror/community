@@ -107,3 +107,5 @@ repository地址：
   - https://gitee.com/src-openeuler/deepin-movie
   - https://gitee.com/src-openeuler/deepin-music
   - https://gitee.com/openeuler/dde
+  - https://gitee.com/openeuler/deepin-rpm-installer
+  - https://gitee.com/src-openeuler/deepin-rpm-installer
