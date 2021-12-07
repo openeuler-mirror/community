@@ -111,3 +111,4 @@ Project names && repository location：
 - https://gitee.com/src-openeuler/tez
 - https://gitee.com/src-openeuler/nanomsg
 - https://gitee.com/src-openeuler/apache-orc
+- https://gitee.com/src-openeuler/cjson
