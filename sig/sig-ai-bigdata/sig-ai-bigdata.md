@@ -97,6 +97,8 @@ Note: The Charter of this SIG follows the convention described in the openEuler 
   A distributed SQL query engine for big data.
 - [rain](https://gitee.com/src-openeuler/rain): 
   An open-source distributed computational framework for processing of large-scale task-based pipelines.
+- [alluxio](https://gitee.com/src-openeuler/alluxio):
+  Alluxio (formerly known as Tachyon) is a virtual distributed storage system.
 
 # Basic Information
 
