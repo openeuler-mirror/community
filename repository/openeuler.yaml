@@ -62,6 +62,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03
+    type: protected
+    create_from: master
   type: public
 - name: blog
   description: Blog project is used to house the blogs that related openEuler community.
@@ -376,6 +379,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03
+    type: protected
+    create_from: master
   type: public
 - name: tp-qemu
   description: Qemu test provider for virtualization test. It contains a lot of test
@@ -383,6 +389,9 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: openEuler-20.03
+    type: protected
+    create_from: master
   type: public
 - name: website
   description: ''
@@ -610,12 +619,48 @@ repositories:
   branches:
   - name: master
     type: protected
+  - name: qemu-4.1.0
+    type: protected
+    create_from: qemu-4.1.0
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: qemu-4.1.0
+  - name: openEuler-20.03-LTS
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.09
+    type: protected
+    create_from: qemu-4.1.0
+  - name: openEuler-21.03
+    type: protected
+    create_from: qemu-4.1.0
   type: public
 - name: libvirt
   description: libvirt is a toolkit to manage virtualization platforms.
   branches:
   - name: master
     type: protected
+  - name: libvirt-6.2.0
+    type: protected
+    create_from: libvirt-6.2.0
+  - name: openEuler-20.03-LTS-Next
+    type: protected
+    create_from: libvirt-6.2.0
+  - name: openEuler-20.03-LTS
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.03-LTS-SP1
+    type: protected
+    create_from: openEuler-20.03-LTS-Next
+  - name: openEuler-20.09
+    type: protected
+    create_from: libvirt-6.2.0
+  - name: openEuler-21.03
+    type: protected
+    create_from: libvirt-6.2.0
   type: public
 - name: bishengjdk-8
   rename_from: virtaus-8
