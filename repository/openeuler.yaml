@@ -1226,3 +1226,10 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: dpdk
+  description: DPDK is the Data Plane Development Kit that consists of libraries to
+        accelerate packet processing workloads.
+  branches:
+  - name: master
+    type: protected
+  type: public
