@@ -99,6 +99,7 @@ Project names && repository location：
 - https://gitee.com/src-openeuler/pgpool2
 - https://gitee.com/src-openeuler/postgresql
 - https://gitee.com/src-openeuler/postgresql-odbc
+- https://gitee.com/src-openeuler/fastdb
 - https://gitee.com/src-openeuler/gpdb
 - https://gitee.com/src-openeuler/unixODBC
 - https://gitee.com/src-openeuler/mariadb
