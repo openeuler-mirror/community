@@ -97,6 +97,8 @@
   An open-source distributed computational framework for processing of large-scale task-based pipelines.
 - [alluxio](https://gitee.com/src-openeuler/alluxio):
   Alluxio (formerly known as Tachyon) is a virtual distributed storage system.
+- [ambari](https://gitee.com/src-openeuler/ambari):
+  Apache Ambari is a tool for provisioning, managing, and monitoring Apache Hadoop clusters.
 
 # 基本信息
 
