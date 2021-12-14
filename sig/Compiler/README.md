@@ -1,6 +1,7 @@
 ## Compiler SIG
- - Devoted to traditional compilers like gcc/llvm/OpenJDK/...
- - Motivated to program optimization
+The Compiler SIG provides a place for technical discussions and sharing about compilers, covering GCC, LLVM, OpenJDK, and other program optimization technologies. We are eager to work with academics and industry experts to promote the development of compilation technologies.
+
+The Compiler SIG holds online meetings at 10:00 a.m. on Tuesdays every two weeks, as well as regular offline salons, for up-to-date topics in the compiler field. We hope to grow together with everyone who joins the Compiler SIG.
 
 ## Weekly Meeting
 
@@ -21,6 +22,8 @@ Tuesday 10 am bi-weekly.
 ## Contact
 
  - maillist: dev@openeuler.org
+ - wechat: Compiler_Assistant
+ ![wechat](compiler_wechat.jpeg)
 
 ## Repositories
  - [gcc](https://gitee.com/src-openeuler/gcc)
