@@ -359,9 +359,13 @@ openEuler 发行版分为创新版本和稳定版本（也说长期维护版本�
 
 ###  Maintainer列表
 
+openeuler/kernel
 - 成坚 @gatieme
 - 谢秀奇 @xiexiuqi
 - 杨颖梁 @yangyingliang
+
+openeuler/kbuild-standalone
+- WangNan @pi3orama
 
 ### Committer列表
 
