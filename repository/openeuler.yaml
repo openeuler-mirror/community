@@ -230,6 +230,12 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: radiaTest
+  description: Test Management Platform
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: package-reinforce-test
   description: The repo contains test suites in order to improve test coverage for
     key packages
