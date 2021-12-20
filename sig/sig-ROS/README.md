@@ -157,3 +157,32 @@ repository地址：
 - https://gitee.com/src-openeuler/rqt_robot_monitor
 - https://gitee.com/src-openeuler/rqt_robot_steering
 - https://gitee.com/src-openeuler/vision_opencv
+- https://gitee.com/src-openeuler/visualization_tutorials
+
+项目名称：ROS2
+
+repository地址：
+
+- https://gitee.com/src-openeuler/ament_cmake
+- https://gitee.com/src-openeuler/ament_index
+- https://gitee.com/src-openeuler/ament_lint
+- https://gitee.com/src-openeuler/ament_package
+- https://gitee.com/src-openeuler/googletest
+- https://gitee.com/src-openeuler/Fast-CDR
+- https://gitee.com/src-openeuler/python_cmake_module
+- https://gitee.com/src-openeuler/console_bridge_vendor
+- https://gitee.com/src-openeuler/ament_cmake_ros
+- https://gitee.com/src-openeuler/tinyxml_vendor
+- https://gitee.com/src-openeuler/mimick_vendor
+- https://gitee.com/src-openeuler/uncrustify_vendor
+- https://gitee.com/src-openeuler/cyclonedds
+- https://gitee.com/src-openeuler/osrf_pycommon
+- https://gitee.com/src-openeuler/osrf_testing_tools_cpp
+- https://gitee.com/src-openeuler/libyaml_vendor
+- https://gitee.com/src-openeuler/test_interface_files
+- https://gitee.com/src-openeuler/google_benchmark_vendor
+- https://gitee.com/src-openeuler/Fast-DDS
+- https://gitee.com/src-openeuler/performance_test_fixture
+- https://gitee.com/src-openeuler/foonathan_memory_vendor
+- https://gitee.com/src-openeuler/tinyxml2_vendor
+- https://gitee.com/src-openeuler/rosidl
