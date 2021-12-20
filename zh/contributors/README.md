@@ -11,7 +11,7 @@
 - [开始您的贡献](#开始您的贡献)
   - [找到您感兴趣的工作](#找到您感兴趣的工作)
     - [了解SIG](#了解SIG)
-    - [找到您感兴趣的SIG、项目和Respository](#找到您感兴趣的SIG或项目)
+    - [找到您感兴趣的SIG、项目和Repository](#找到您感兴趣的SIG或项目)
   - [开始您的贡献](#开始您的贡献)
     - [给自己分配一个Issue](#给自己分配一个Issue)
     - [提出问题或建议](#提出问题或建议)
@@ -82,7 +82,7 @@ SIG就是Special Interest Group的缩写，openEuler社区按照不同的SIG来�
 
 找到您感兴趣的SIG组，可以帮助您在正确的地方提出问题，并得到更快的社区响应。
 
-- **方式一**：如果您不了解有哪些SIG或项目，您可以查看[SIG列表](https://openeuler.org/zh/sig.html)，它包含当前openEuler社区成立的所有SIG团队的清单。您可以通过该列表快速的定位到您感兴趣的领域所对应SIG团队。同时还会您提供该SIG团队的如下信息：
+- **方式一**：如果您不了解有哪些SIG或项目，您可以查看[SIG列表](https://openeuler.org/zh/sig.html)，它包含当前openEuler社区成立的所有SIG团队的清单。您可以通过该列表快速的定位到您感兴趣的领域所对应SIG团队。同时还为您提供该SIG团队的如下信息：
   
   - SIG下的项目，以及项目的Repository地址
   - SIG内的交流方式，包括邮件列表、IRC会议频道等
@@ -132,7 +132,7 @@ SIG就是Special Interest Group的缩写，openEuler社区按照不同的SIG来�
 
 #### 了解SIG和项目内的开发注意事项
 
-每个SIG内的项目使用的编码语言、开发环境、编码约定等都可能存在差异的。如果您想了解并参与到编码类贡献，可以先找到该项目给开发者提供的贡献者指南——这个指南一般是在该SIG的首页地址内，以`CONTRIBUTING.md`文件的形式提供，或者就直接在该项目的`README.md`内（如何找到项目的Repository，请参考[上一节](#找到您感兴趣的工作)的内容）。
+每个SIG内的项目使用的编码语言、开发环境、编码约定等都可能存在差异。如果您想了解并参与到编码类贡献，可以先找到该项目给开发者提供的贡献者指南——这个指南一般是在该SIG的首页地址内，以`CONTRIBUTING.md`文件的形式提供，或者就直接在该项目的`README.md`内（如何找到项目的Repository，请参考[上一节](#找到您感兴趣的工作)的内容）。
 
 除了这些文件外，SIG可能还会提供其他指南信息。这些信息位于SIG或其项目的特定社区目录中。如果您未找到相关信息，或者对相关信息有疑问，可以在该SIG内提交Issue，或者把问题或疑问发送到该项目所属SIG的邮件列表。如果您认为长时间没有得到回应，可以向community@openeuler.org求助。
 
@@ -140,7 +140,7 @@ SIG就是Special Interest Group的缩写，openEuler社区按照不同的SIG来�
 
 #### 下载代码和拉分支
 
-如果要参与代码贡献，您还需要了解如何在Gitee下载代码，通过PR合入代码等。openEuler使用过的是Gitee代码托管平台，向了解具体的指导，请参考[Gitee Workflow Guide](Gitee-workflow.md)。该托管平台的使用方法类似GitHub，如果您以前使用GitHub，本章的内容您可以大致了解甚至跳过。
+如果要参与代码贡献，您还需要了解如何在Gitee下载代码，通过PR合入代码等。openEuler使用的是Gitee代码托管平台，向了解具体的指导，请参考[Gitee Workflow Guide](Gitee-workflow.md)。该托管平台的使用方法类似GitHub，如果您以前使用GitHub，本章的内容您可以大致了解甚至跳过。
 
 
 
@@ -231,7 +231,7 @@ openEuler参加或举办的社区和技术交流会议，关于这些事件和�
 
 ## 社区聚会
 
-社区每年会定期举办开发者大会，您可以通过[https://openeuler.org](https://openeuler.org)上的信息或通过电子邮件<dev@openeuler.org>与我们联系。来加入我们把~
+社区每年会定期举办开发者大会，您可以通过[https://openeuler.org](https://openeuler.org)上的信息或通过电子邮件<dev@openeuler.org>与我们联系。来加入我们吧~
 
 
 
