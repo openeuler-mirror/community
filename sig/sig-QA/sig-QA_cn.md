@@ -35,6 +35,7 @@ openEuler QA(质量保障)项目团队致力于如何更好的提升openEuler社
   - rigorous
   - lemon-higgins
   - lutianxiong
+  - disnight,since December 2021
 
 
 邮件列表：
