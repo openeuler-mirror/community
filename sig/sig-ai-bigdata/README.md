@@ -24,9 +24,8 @@
 ### Maintainer列表
   - sinever
   - njlzk
-  - myeuler
-  - ZhengZhenyu
   - yangzhao_kl
+  - unioah
 
 ### Committer列表
 

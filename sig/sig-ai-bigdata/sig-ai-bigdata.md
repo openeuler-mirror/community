@@ -109,10 +109,11 @@ Note: The Charter of this SIG follows the convention described in the openEuler 
 
 ## Maintainers
   - [sinever](https://gitee.com/sinever)
-  - [myeuler](https://gitee.com/myeuler)
+  - [njlzk](https://gitee.com/njlzk)
+  - [yangzhao_kl](https://gitee.com/yangzhao_kl)
+  - [unioah](https://gitee.com/unioah)
 
 ## Committers
-  - [sinever](https://gitee.com/sinever)
 
 ## Mailing list
   - sig-ai-bigdata@openeuler.org  

@@ -107,10 +107,11 @@
 
 ## Maintainers
   - [sinever](https://gitee.com/sinever)
-  - [myeuler](https://gitee.com/myeuler)
+  - [njlzk](https://gitee.com/njlzk)
+  - [yangzhao_kl](https://gitee.com/yangzhao_kl)
+  - [unioah](https://gitee.com/unioah)
 
 ## Committers
-  - [sinever](https://gitee.com/sinever)
 
 ## 邮件列表
   - sig-ai-bigdata@openeuler.org  

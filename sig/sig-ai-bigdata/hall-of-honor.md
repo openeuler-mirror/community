@@ -32,4 +32,5 @@
 |----------------|-----------------|----------------------------------------------------|
 |     chxssg     |  2020-07-27     |sig-ai-bigdata联合创建人，在创建时给与大量有用的建议、资源支持。|
 |     myeuler    |  2021-07-23     |sig-ai-bigdata联合创建人，在创建时给与大量定位、运作方面的意见。|
-|   hubble_zhu   |  2028-08-05     |sig-ai-bigdata联合创建人，活跃者，在openEuler引入多个相关软件，有效丰富了openEuler相关软件栈。|
+|   hubble_zhu   |  2021-08-05     |sig-ai-bigdata联合创建人，活跃者，在openEuler引入多个相关软件，有效丰富了openEuler相关软件栈。|
+|   ZhengZhenyu  |  2021-11-15     |sig-ai-bigdata活跃者，在openEuler引入多个相关软件，有效丰富了openEuler相关软件栈。|
