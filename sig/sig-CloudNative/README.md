@@ -94,6 +94,7 @@ repository地址：
 - https://gitee.com/openeuler/kata_integration
 - https://gitee.com/src-openeuler/jboss-parent
 - https://gitee.com/src-openeuler/virt-what
+- https://gitee.com/src-openeuler/zram-generator
 - https://gitee.com/src-openeuler/iSulad-img
 - https://gitee.com/src-openeuler/protobuf
 - https://gitee.com/src-openeuler/busybox
