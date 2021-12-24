@@ -81,6 +81,7 @@ repository地址：
 - https://gitee.com/src-openeuler/crun
 - https://gitee.com/src-openeuler/containers-common
 - https://gitee.com/src-openeuler/gvisor
+- https://gitee.com/src-openeuler/afterburn
 - https://gitee.com/src-openeuler/cri-o
 - https://gitee.com/src-openeuler/cri-tools
 - https://gitee.com/src-openeuler/alertmanager
