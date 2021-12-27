@@ -4,10 +4,10 @@ The Compiler SIG provides a place for technical discussions and sharing about co
 The Compiler SIG holds online meetings at 10:00 a.m. on Tuesdays every two weeks, as well as regular offline salons, for up-to-date topics in the compiler field. We hope to grow together with everyone who joins the Compiler SIG.
 
 ## Weekly Meeting
-
-Tuesday 10 am bi-weekly.
+Tuesday 10 am bi-weekly, UTC+8.
 
 ### Maintainers
+ - 彭 成寒[@Ryan Peng](https://gitee.com/pengryan) email: pengchenghan@huawei.com
  - 郭 歌[@jdkboy](https://gitee.com/jdkboy) email: guoge1@huawei.com
  - 章 海剑[@Haijian.Zhang](https://gitee.com/haijianzhang) email: z.zhanghaijian@huawei.com
  - 贺 东博[@Noah](https://gitee.com/jvmboy) email: hedongbo@huawei.com
@@ -19,33 +19,138 @@ Tuesday 10 am bi-weekly.
  - 郭 培林[@peilin-guo](https://gitee.com/peilin-guo) email: guopeilin1@huawei.com
  - 乔 沛鑫[@peixin-qiao](https://gitee.com/peixin-qiao) email: qiaopeixin@huawei.com
 
-## Contact
+## Repositories
+ - [bishengjdk-8](https://gitee.com/openeuler/bishengjdk-8)
+   - Maintainers
+     - 彭 成寒[@Ryan Peng](https://gitee.com/pengryan) email: pengchenghan@huawei.com
+     - 张 高峰[@hserror](https://gitee.com/hserror) email: zhanggaofeng9@huawei.com
+     - 王 坤[@kuenking111](https://gitee.com/kuenking111) email: wangkun49@huawei.com
+     - 郭 歌[@jdkboy](https://gitee.com/jdkboy) email: guoge1@huawei.com
+     - 贺 东博[@Noah](https://gitee.com/jvmboy) email: hedongbo@huawei.com
+ - [bishengjdk-11](https://gitee.com/openeuler/bishengjdk-11)
+   - Maintainers
+     - 彭 成寒[@Ryan Peng](https://gitee.com/pengryan) email: pengchenghan@huawei.com
+     - 张 高峰[@hserror](https://gitee.com/hserror) email: zhanggaofeng9@huawei.com
+     - 王 坤[@kuenking111](https://gitee.com/kuenking111) email: wangkun49@huawei.com
+     - 郭 歌[@jdkboy](https://gitee.com/jdkboy) email: guoge1@huawei.com
+     - 贺 东博[@Noah](https://gitee.com/jvmboy) email: hedongbo@huawei.com
+ - [bishengjdk-17](https://gitee.com/openeuler/bishengjdk-17)
+   - Maintainers
+     - 彭 成寒[@Ryan Peng](https://gitee.com/pengryan) email: pengchenghan@huawei.com
+     - 张 高峰[@hserror](https://gitee.com/hserror) email: zhanggaofeng9@huawei.com
+     - 王 坤[@kuenking111](https://gitee.com/kuenking111) email: wangkun49@huawei.com
+     - 郭 歌[@jdkboy](https://gitee.com/jdkboy) email: guoge1@huawei.com
+     - 贺 东博[@Noah](https://gitee.com/jvmboy) email: hedongbo@huawei.com
+ - [bishengjdk-riscv](https://gitee.com/openeuler/bishengjdk-riscv)
+   - Maintainers
+     - 彭 成寒[@Ryan Peng](https://gitee.com/pengryan) email: pengchenghan@huawei.com
+     - 王 亚东[@wangyadong](https://gitee.com/yd_wang) email: yadonn.wang@huawei.com
+     - 姜 飞龙[@jiangfeilong](https://gitee.com/jiangfeilong1003) email: jiangfeilong@huawei.com
+ - [openjdk-1.8.0](https://gitee.com/src-openeuler/openjdk-1.8.0)
+   - Maintainers
+     - 彭 成寒[@Ryan Peng](https://gitee.com/pengryan) email: pengchenghan@huawei.com
+     - 张 高峰[@hserror](https://gitee.com/hserror) email: zhanggaofeng9@huawei.com
+     - 王 坤[@kuenking111](https://gitee.com/kuenking111) email: wangkun49@huawei.com
+     - 郭 歌[@jdkboy](https://gitee.com/jdkboy) email: guoge1@huawei.com
+     - 贺 东博[@Noah](https://gitee.com/jvmboy) email: hedongbo@huawei.com
+ - [openjdk-11](https:/gitee.com/src-openeuler/openjdk-11)
+   - Maintainers
+     - 彭 成寒[@Ryan Peng](https://gitee.com/pengryan) email: pengchenghan@huawei.com
+     - 张 高峰[@hserror](https://gitee.com/hserror) email: zhanggaofeng9@huawei.com
+     - 王 坤[@kuenking111](https://gitee.com/kuenking111) email: wangkun49@huawei.com
+     - 郭 歌[@jdkboy](https://gitee.com/jdkboy) email: guoge1@huawei.com
+     - 贺 东博[@Noah](https://gitee.com/jvmboy) email: hedongbo@huawei.com
+ - [openjdk-11/riscv64](https://gitee.com/src-openeuler/openjdk-11/tree/riscv64/)
+   - Maintainers
+     - 彭 成寒[@Ryan Peng](https://gitee.com/pengryan) email: pengchenghan@huawei.com
+     - 王 亚东[@wangyadong](https://gitee.com/yd_wang) email: yadonn.wang@huawei.com
+     - 姜 飞龙[@jiangfeilong](https://gitee.com/jiangfeilong1003) email: jiangfeilong@huawei.com
+ - [openjdk-17](https://gitee.com/src-openeuler/openjdk-17)
+   - Maintainers
+     - 彭 成寒[@Ryan Peng](https://gitee.com/pengryan) email: pengchenghan@huawei.com
+     - 张 高峰[@hserror](https://gitee.com/hserror) email: zhanggaofeng9@huawei.com
+     - 王 坤[@kuenking111](https://gitee.com/kuenking111) email: wangkun49@huawei.com
+     - 郭 歌[@jdkboy](https://gitee.com/jdkboy) email: guoge1@huawei.com
+     - 贺 东博[@Noah](https://gitee.com/jvmboy) email: hedongbo@huawei.com
+ - [openjdk-latest](https:/gitee.com/src-openeuler/openjdk-latest)
+   - Maintainers
+     - 彭 成寒[@Ryan Peng](https://gitee.com/pengryan) email: pengchenghan@huawei.com
+     - 张 高峰[@hserror](https://gitee.com/hserror) email: zhanggaofeng9@huawei.com
+     - 王 坤[@kuenking111](https://gitee.com/kuenking111) email: wangkun49@huawei.com
+     - 郭 歌[@jdkboy](https://gitee.com/jdkboy) email: guoge1@huawei.com
+     - 贺 东博[@Noah](https://gitee.com/jvmboy) email: hedongbo@huawei.com
+ - [bgmprovider](https://gitee.com/openeuler/bgmprovider)
+   - Maintainers
+     - 张 高峰[@hserror](https://gitee.com/hserror) email: zhanggaofeng9@huawei.com
+     - 贺 东博[@Noah](https://gitee.com/jvmboy) email: hedongbo@huawei.com
+ - [openeuler/openjfx8](https://gitee.com/openeuler/bgmprovider)
+   - Maintainers
+     - 张 高峰[@hserror](https://gitee.com/hserror) email: zhanggaofeng9@huawei.com
+     - 贺 东博[@Noah](https://gitee.com/jvmboy) email: hedongbo@huawei.com
+ - [openjfx8](https://gitee.com/src-openeuler/openjfx8)
+   - Maintainers
+     - 张 高峰[@hserror](https://gitee.com/hserror) email: zhanggaofeng9@huawei.com
+     - 贺 东博[@Noah](https://gitee.com/jvmboy) email: hedongbo@huawei.com
+ - [openjfx11](https://gitee.com/src-openeuler/openjfx11)
+   - Maintainers
+     - 张 高峰[@hserror](https://gitee.com/hserror) email: zhanggaofeng9@huawei.com
+     - 贺 东博[@Noah](https://gitee.com/jvmboy) email: hedongbo@huawei.com
+ - [icedtea-web](https://gitee.com/src-openeuler/icedtea-web)
+   - Maintainers
+     - 张 高峰[@hserror](https://gitee.com/hserror) email: zhanggaofeng9@huawei.com
+     - 贺 东博[@Noah](https://gitee.com/jvmboy) email: hedongbo@huawei.com
+ - [jtreg](https://gitee.com/src-openeuler/jtreg)
+   - Maintainers
+     - 张 高峰[@hserror](https://gitee.com/hserror) email: zhanggaofeng9@huawei.com
+     - 贺 东博[@Noah](https://gitee.com/jvmboy) email: hedongbo@huawei.com
+ - [gcc](https://gitee.com/src-openeuler/gcc)
+   - Maintainers
+     - 章 海剑[@Haijian.Zhang](https://gitee.com/haijianzhang) email: z.zhanghaijian@huawei.com
+     - 谢 志恒[@eastb233](https://gitee.com/eastb233) email: xiezhiheng@huawei.com
+ - [gcc-anti-sca](https://gitee.com/openeuler/gcc-anti-sca)
+   - Maintainers
+     - 章 海剑[@Haijian.Zhang](https://gitee.com/haijianzhang) email: z.zhanghaijian@huawei.com
+     - 谢 志恒[@eastb233](https://gitee.com/eastb233) email: xiezhiheng@huawei.com
+ - [ccache](https://gitee.com/src-openeuler/ccache)
+   - Maintainers
+     - 章 海剑[@Haijian.Zhang](https://gitee.com/haijianzhang) email: z.zhanghaijian@huawei.com
+     - 谢 志恒[@eastb233](https://gitee.com/eastb233) email: xiezhiheng@huawei.com
+ - [llvm](https://gitee.com/src-openeuler/llvm)
+   - Maintainers
+     - 郭 培林[@peilin-guo](https://gitee.com/peilin-guo) email: guopeilin1@huawei.com
+ - [llvm-bolt](https://gitee.com/src-openeuler/llvm-bolt)
+   - Maintainers
+     - 郭 培林[@peilin-guo](https://gitee.com/peilin-guo) email: guopeilin1@huawei.com
+ - [WLLVM](https://gitee.com/src-openeuler/WLLVM)
+   - Maintainers
+     - 郭 培林[@peilin-guo](https://gitee.com/peilin-guo) email: guopeilin1@huawei.com
+ - [clang](https://gitee.com/src-openeuler/clang)
+   - Maintainers
+     - 郭 培林[@peilin-guo](https://gitee.com/peilin-guo) email: guopeilin1@huawei.com
+ - [compiler-rt](https://gitee.com/src-openeuler/compiler-rt)
+   - Maintainers
+     - 郭 培林[@peilin-guo](https://gitee.com/peilin-guo) email: guopeilin1@huawei.com
+ - [libcxx](https://gitee.com/src-openeuler/libcxx)
+   - Maintainers
+     - 郭 培林[@peilin-guo](https://gitee.com/peilin-guo) email: guopeilin1@huawei.com
+ - [libcxxabi](https://gitee.com/src-openeuler/libcxxabi)
+   - Maintainers
+     - 郭 培林[@peilin-guo](https://gitee.com/peilin-guo) email: guopeilin1@huawei.com
+ - [llvm-libunwind](https://gitee.com/src-openeuler/llvm-libunwind)
+   - Maintainers
+     - 郭 培林[@peilin-guo](https://gitee.com/peilin-guo) email: guopeilin1@huawei.com
+ - [cpython](https://gitee.com/openeuler/CPython)
+   - Maintainers
+     - 彭 成寒[@Ryan Peng](https://gitee.com/pengryan) email: pengchenghan@huawei.com
+ - [autofdo](https://gitee.com/src-openeuler/autofdo)
+   - Maintainers
+     - 彭 成寒[@Ryan Peng](https://gitee.com/pengryan) email: pengchenghan@huawei.com
+ - [flang](https://gitee.com/src-openeuler/flang)
+   - Maintainers
+     - 乔 沛鑫[@peixin-qiao](https://gitee.com/peixin-qiao) email: qiaopeixin@huawei.com
 
+## Contact
  - maillist: dev@openeuler.org
  - wechat: Compiler_Assistant
  ![wechat](compiler_wechat.jpeg)
 
-## Repositories
- - [gcc](https://gitee.com/src-openeuler/gcc)
- - [llvm](https://gitee.com/src-openeuler/llvm)
- - [llvm-bolt](https://gitee.com/src-openeuler/llvm-bolt)
- - [flang](https://gitee.com/src-openeuler/flang)
- - [clang](https://gitee.com/src-openeuler/clang)
- - [compiler-rt](https://gitee.com/src-openeuler/compiler-rt)
- - [jtreg](https://gitee.com/src-openeuler/jtreg)
- - [openjdk-1.8.0](https://gitee.com/src-openeuler/openjdk-1.8.0)
- - [openjdk-11](https:/gitee.com/src-openeuler/openjdk-11)
- - [openjdk-latest](https:/gitee.com/src-openeuler/openjdk-latest)
- - [openjfx8](https://gitee.com/src-openeuler/openjfx8)
- - [openjfx11](https://gitee.com/src-openeuler/openjfx11)
- - [icedtea-web](https://gitee.com/src-openeuler/icedtea-web)
- - [rust](https://gitee.com/src-openeuler/rust)
- - [ccache](https://gitee.com/src-openeuler/ccache)
- - [bishengjdk-8](https://gitee.com/openeuler/bishengjdk-8)
- - [bishengjdk-11](https://gitee.com/openeuler/bishengjdk-11)
- - [gcc](https://gitee.com/openeuler/gcc)
- - [autofdo](https://gitee.com/src-openeuler/autofdo)
- - [libcxx](https://gitee.com/src-openeuler/libcxx)
- - [libcxxabi](https://gitee.com/src-openeuler/libcxxabi)
- - [llvm-libunwind](https://gitee.com/src-openeuler/llvm-libunwind)
- - [cpython](https://gitee.com/openeuler/CPython)
