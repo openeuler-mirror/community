@@ -63,6 +63,7 @@ repository地址：
 - https://gitee.com/src-openeuler/isula-build
 - https://gitee.com/src-openeuler/kata-containers
 - https://gitee.com/src-openeuler/docker
+- https://gitee.com/src-openeuler/rubik
 - https://gitee.com/src-openeuler/runc
 - https://gitee.com/src-openeuler/containerd
 - https://gitee.com/src-openeuler/clibcni
