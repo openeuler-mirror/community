@@ -358,6 +358,12 @@ repositories:
   - name: master
     type: protected
   type: public
+- name: eulerfs-test
+  description: test scripts for eulerfs
+  branches:
+  - name: master
+    type: protected
+  type: public
 - name: kbuild-standalone
   description: Standalone kconfig and kbuild. Other projects can depend
                on this project as basic tools for building like gcc and
