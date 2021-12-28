@@ -72,6 +72,7 @@
 - https://gitee.com/src-openeuler/phantomjs
 - https://gitee.com/src-openeuler/flume
 - https://gitee.com/src-openeuler/accumulo
+- https://gitee.com/src-openeuler/notebook
 
 ## 路线图
  ![roadmap](./sig-road-map.jpg)
