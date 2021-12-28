@@ -1032,6 +1032,12 @@ repositories:
     - name: master
       type: protected
   type: public 
+- name: extfuse
+  description: Extension Framework for FUSE
+  branches:
+    - name: master
+      type: protected
+  type: public
 - name: process1
   description: "redesign and reimplement process1"
   branches:
