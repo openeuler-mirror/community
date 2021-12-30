@@ -1232,6 +1232,12 @@ repositories:
     - name: master
       type: protected
   type: public
+- name: hostha
+  description: Compute High Availability for OpenStack
+  branches:
+    - name: master
+      type: protected
+  type: public
 - name: itrustee_tzdriver
   description: Confidential computing framework for iTrustee OS driver
   branches:
