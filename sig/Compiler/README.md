@@ -18,6 +18,8 @@ Tuesday 10 am bi-weekly, UTC+8.
  - 王 坤[@kuenking111](https://gitee.com/kuenking111) email: wangkun49@huawei.com
  - 郭 培林[@peilin-guo](https://gitee.com/peilin-guo) email: guopeilin1@huawei.com
  - 乔 沛鑫[@peixin-qiao](https://gitee.com/peixin-qiao) email: qiaopeixin@huawei.com
+ - 赵 羽[@zhaoyu_hit](https://gitee.com/zhaoyu_hit) email: zhaoyu64@huawei.com
+ - 史 海[@shihai1991](https://gitee.com/shihai1991) email: shihai3@huawei.com
 
 ## Repositories
  - [bishengjdk-8](https://gitee.com/openeuler/bishengjdk-8)
@@ -142,6 +144,8 @@ Tuesday 10 am bi-weekly, UTC+8.
  - [cpython](https://gitee.com/openeuler/CPython)
    - Maintainers
      - 彭 成寒[@Ryan Peng](https://gitee.com/pengryan) email: pengchenghan@huawei.com
+     - 赵 羽[@zhaoyu_hit](https://gitee.com/zhaoyu_hit) email: zhaoyu64@huawei.com
+     - 史 海[@shihai1991](https://gitee.com/shihai1991) email: shihai3@huawei.com
  - [autofdo](https://gitee.com/src-openeuler/autofdo)
    - Maintainers
      - 彭 成寒[@Ryan Peng](https://gitee.com/pengryan) email: pengchenghan@huawei.com

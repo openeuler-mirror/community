@@ -18,6 +18,8 @@ Compiler SIG 每双周周二上午10:00进行线上例会，也会定期举办�
  - 王 坤[@kuenking111](https://gitee.com/kuenking111) 邮箱: wangkun49@huawei.com
  - 郭 培林[@peilin-guo](https://gitee.com/peilin-guo) 邮箱: guopeilin1@huawei.com
  - 乔 沛鑫[@peixin-qiao](https://gitee.com/peixin-qiao) 邮箱: qiaopeixin@huawei.com
+ - 赵 羽[@zhaoyu_hit](https://gitee.com/zhaoyu_hit) email: zhaoyu64@huawei.com
+ - 史 海[@shihai1991](https://gitee.com/shihai1991) email: shihai3@huawei.com
 
 ## 代码仓
  - [bishengjdk-8](https://gitee.com/openeuler/bishengjdk-8)
@@ -142,6 +144,8 @@ Compiler SIG 每双周周二上午10:00进行线上例会，也会定期举办�
  - [cpython](https://gitee.com/openeuler/CPython)
    - 维护者
      - 彭 成寒[@Ryan Peng](https://gitee.com/pengryan) 邮箱: pengchenghan@huawei.com
+     - 赵 羽[@zhaoyu_hit](https://gitee.com/zhaoyu_hit) email: zhaoyu64@huawei.com
+     - 史 海[@shihai1991](https://gitee.com/shihai1991) email: shihai3@huawei.com
  - [autofdo](https://gitee.com/src-openeuler/autofdo)
    - 维护者
      - 彭 成寒[@Ryan Peng](https://gitee.com/pengryan) 邮箱: pengchenghan@huawei.com
