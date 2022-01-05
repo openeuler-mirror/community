@@ -68,13 +68,13 @@ def check_0_v3(community):
         for f in files:
             fn = os.path.join(root, f)
             if "/openeuler/" in fn:
-                oe_repo = load_yaml(community, fn)
+                oe_repo = load_yaml(root, f)
                 if oe_repo['name']+".yaml" != f:
                     print("%s is not consistent with name %s in yaml"%(fn, oe_repo['name']))
                     sys.exit(1)
                 oe_repos.append(oe_repo)
             elif "/src-openeuler/" in fn:
-                src_repo = load_yaml(community, fn)
+                src_repo = load_yaml(root, f)
                 if src_repo['name']+".yaml" != f:
                     print("%s is not consistent with name %s in yaml"%(fn, src_repo['name']))
                     sys.exit(1)
