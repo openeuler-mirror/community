@@ -69,13 +69,13 @@ def check_0_v3(community):
             fn = os.path.join(root, f)
             if "/openeuler/" in fn:
                 oe_repo = load_yaml(community, fn)
-                if oe_repo['name'] != f:
+                if oe_repo['name']+".yaml" != f:
                     print("%s is not consistent with name %s in yaml"%(fn, oe_repo['name']))
                     sys.exit(1)
                 oe_repos.append(oe_repo)
             elif "/src-openeuler/" in fn:
                 src_repo = load_yaml(community, fn)
-                if src_repo['name'] != f:
+                if src_repo['name']+".yaml" != f:
                     print("%s is not consistent with name %s in yaml"%(fn, src_repo['name']))
                     sys.exit(1)
                 src_oe_repos.append(src_repo)
@@ -520,7 +520,7 @@ def get_changed_repo_v3(community_dir):
     git_diff_cmd = "git diff --no-commit-id --name-status remotes/origin/master.."
     child_stdout = subprocess.check_output(git_diff_cmd, shell=True).decode('utf-8')
 
-    pattern = re.compile("([ADM])\tsig/(.*)/((src-)?openeuler)/[a-z]/(.*)")
+    pattern = re.compile("([ADM])\tsig/(.*)/((src-)?openeuler)/[a-z]/(.*).yaml")
 
     res_list = []
     for line in child_stdout.split("\n"):
@@ -655,13 +655,14 @@ def generate_sig_list(community):
 
     for root, dirs, files in os.walk(sig_path):
         for f in files:
+            fn, fext = os.path.splitext(f)
             hd, tl = os.path.split(root)
             hd1, oe = os.path.split(hd)
             hd0, sig_name = os.path.split(hd1)
             if oe == 'openeuler' or oe == 'src-openeuler':
                 if sig_name != "":
                     sig = sig_dict.get(sig_name, list())
-                    sig.append("/".join([oe, f]))
+                    sig.append("/".join([oe, fn]))
                     sig_dict[sig_name] = sig
             
     for k in sig_dict:
@@ -722,12 +723,12 @@ def v3_main(args):
     else:
         issues_found += check_8_v2(oe_repos, src_oe_repos)
 
-    print("\nCheck Last:")
+    # following check is disabled temp.
+    #print("\nCheck Last:")
 
-    changed_list = get_changed_repo_v3(args.community)
+    #changed_list = get_changed_repo_v3(args.community)
 
-    issues_found += check_100_v3(changed_list, oe_repos, src_oe_repos,
-                                 repo_supervisors, args.community)
+    #issues_found += check_100_v3(changed_list, oe_repos, src_oe_repos, repo_supervisors, args.community)
 
     sys.exit(issues_found)
 
