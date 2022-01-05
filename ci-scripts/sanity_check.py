@@ -73,7 +73,7 @@ def check_0_v3(community):
             match_obj = pattern.match(fn)
             if match_obj:
                 if match_obj[6][0].lower() != match_obj[5]:
-                    print("%s is not consistent with directory %s"%(f, case_dir))
+                    print("%s is not consistent with directory %s"%(f, root))
                     sys.exit(1)
                 elif match_obj[3] == "openeuler": 
                     oe_repo = load_yaml(root, f)
@@ -478,6 +478,8 @@ def check_100_v3(changed_repos, oe_repos, src_oe_repos, super_visor, community_d
     errors_found = 0
     error_msg = """Some newly changed repositories doesn't follow the OE requirments"""
 
+    _ = super_visor
+
     black_list = load_yaml(community_dir, BLC_YAML)["blacklist-software"]
     black_dict = {i["name"]: i["reason"] for i in black_list}
     sigs_attention = set()
@@ -586,16 +588,16 @@ def load_yaml(directory, yaml_file):
     return result
 
 
-def v12_main(args):
+def v12_main(community):
     """
     Main entrance of functionality
     """
 
-    sig_list = load_yaml(args.community, SIGS_YAML)["sigs"]
+    sig_list = load_yaml(community, SIGS_YAML)["sigs"]
     #sig_yaml = load_yaml(args.community, SIGS_YAML)["sigs"]
     #sig_list = sig_yaml["sigs"]
 
-    exception_list = load_yaml(args.community, EXP_YAML)["exceptions"]
+    exception_list = load_yaml(community, EXP_YAML)["exceptions"]
 
     repo_supervisors = {}
     repo_cross_checked = set()
@@ -604,7 +606,7 @@ def v12_main(args):
     issues_found = 0
 
     print("\nCheck 0:")
-    oe_repos, src_oe_repos, oe_ver = check_0(args.community)
+    oe_repos, src_oe_repos, oe_ver = check_0(community)
 
     print("\nCheck 1:")
     issues_found += check_1(sig_list, exception_list)
@@ -638,18 +640,18 @@ def v12_main(args):
         issues_found += check_8_v2(oe_repos, src_oe_repos)
 
     print("\nCheck Last:")
-    prepare_master_branch_yaml(args.community)
+    prepare_master_branch_yaml(community)
 
-    prev_oe_yaml = load_yaml(args.community, M_OE_YAML)
+    prev_oe_yaml = load_yaml(community, M_OE_YAML)
     prev_oe_repos = prev_oe_yaml["repositories"]
 
-    prev_src_oe_yaml = load_yaml(args.community, M_SRC_OE_YAML)
+    prev_src_oe_yaml = load_yaml(community, M_SRC_OE_YAML)
     prev_src_oe_repos = prev_src_oe_yaml["repositories"]
 
     issues_found += check_100([oe_repos, prev_oe_repos],
                               [src_oe_repos, prev_src_oe_repos],
-                              repo_supervisors, args.community)
-    cleanup_master_branch_yaml(args.community)
+                              repo_supervisors, community)
+    cleanup_master_branch_yaml(community)
 
     sys.exit(issues_found)
 
@@ -660,7 +662,7 @@ def generate_sig_list(community):
     """
     sig_list = []
     sig_dict = {}
-    sig_path = os.path.expanduser(os.path.join(args.community, "sig"))
+    sig_path = os.path.expanduser(os.path.join(community, "sig"))
     sig_file_list = []
 
     for root, dirs, files in os.walk(sig_path):
@@ -684,13 +686,13 @@ def generate_sig_list(community):
     return sig_list
 
 
-def v3_main(args):
+def v3_main(community):
     """
     Main entrance of functionality for v3
     """
 
-    sig_list = generate_sig_list(args.community)
-    exception_list = load_yaml(args.community, EXP_YAML)["exceptions"]
+    sig_list = generate_sig_list(community)
+    exception_list = load_yaml(community, EXP_YAML)["exceptions"]
 
     repo_supervisors = {}
     repo_cross_checked = set()
@@ -699,7 +701,7 @@ def v3_main(args):
     issues_found = 0
 
     print("\nCheck 0:")
-    oe_repos, src_oe_repos, oe_ver = check_0_v3(args.community)
+    oe_repos, src_oe_repos, oe_ver = check_0_v3(community)
 
     print("\nCheck 1:")
     issues_found += check_1(sig_list, exception_list)
@@ -736,9 +738,9 @@ def v3_main(args):
     # following check is disabled temp.
     #print("\nCheck Last:")
 
-    #changed_list = get_changed_repo_v3(args.community)
+    #changed_list = get_changed_repo_v3(community)
 
-    #issues_found += check_100_v3(changed_list, oe_repos, src_oe_repos, repo_supervisors, args.community)
+    #issues_found += check_100_v3(changed_list, oe_repos, src_oe_repos, repo_supervisors, community)
 
     sys.exit(issues_found)
 
@@ -750,6 +752,6 @@ if __name__ == "__main__":
     args = par.parse_args()
 
     if os.path.exists(os.path.expanduser(os.path.join(args.community, SIGS_YAML))):
-        v12_main(args)
+        v12_main(args.community)
     else:
-        v3_main(args)
+        v3_main(args.community)
