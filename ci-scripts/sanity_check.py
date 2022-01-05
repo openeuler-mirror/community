@@ -64,29 +64,32 @@ def check_0_v3(community):
     src_oe_repos = []
 
     sig_path = os.path.expanduser(os.path.join(community, "sig"))
+
+    pattern = re.compile("(.*)/sig/(.*)/((src-)?openeuler)/([a-z])/(.*).yaml")
+
     for root, dirs, files in os.walk(sig_path):
         for f in files:
             fn = os.path.join(root, f)
-            if "/openeuler/" in fn:
-                path1, case_dir = os.path.split(root)
-                if f[0].lower() != case_dir:
+            match_obj = pattern.match(fn)
+            if match_obj:
+                if match_obj[6][0].lower() != match_obj[5]:
                     print("%s is not consistent with directory %s"%(f, case_dir))
                     sys.exit(1)
-                oe_repo = load_yaml(root, f)
-                if oe_repo['name']+".yaml" != f:
-                    print("%s is not consistent with name %s in yaml"%(fn, oe_repo['name']))
-                    sys.exit(1)
-                oe_repos.append(oe_repo)
-            elif "/src-openeuler/" in fn:
-                path1, case_dir = os.path.split(root)
-                if f[0].lower() != case_dir:
-                    print("%s is not consistent with directory %s"%(f, case_dir))
-                    sys.exit(1)
-                src_repo = load_yaml(root, f)
-                if src_repo['name']+".yaml" != f:
-                    print("%s is not consistent with name %s in yaml"%(fn, src_repo['name']))
-                    sys.exit(1)
-                src_oe_repos.append(src_repo)
+                elif match_obj[3] == "openeuler": 
+                    oe_repo = load_yaml(root, f)
+                    if oe_repo['name']+".yaml" != f:
+                        print("%s is not consistent with name %s in yaml"%(fn, oe_repo['name']))
+                        sys.exit(1)
+                    oe_repos.append(oe_repo)
+                elif match_obj[3] == "src-openeuler":
+                    src_repo = load_yaml(root, f)
+                    if src_repo['name']+".yaml" != f:
+                        print("%s is not consistent with name %s in yaml"%(fn, src_repo['name']))
+                        sys.exit(1)
+                    src_oe_repos.append(src_repo)
+            elif f.endswith(".yaml") and "openeuler" in fn:
+                print("It seems %s is putting a wrong place"%(fn))
+            
     return oe_repos, src_oe_repos, 3.0
 
 def check_1(sigs, exps):
