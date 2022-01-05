@@ -1,0 +1,10 @@
+name: python-sqlalchemy_schemadisplay
+upstream: https://github.com/fschulze/sqlalchemy_schemadisplay
+description: Turn SQLAlchemy DB Model into a graph
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

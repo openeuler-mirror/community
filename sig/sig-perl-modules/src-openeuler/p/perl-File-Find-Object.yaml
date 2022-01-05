@@ -1,0 +1,10 @@
+name: perl-File-Find-Object
+upstream: http://search.cpan.org/dist/File-Find-Object/
+description: Object oriented File
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

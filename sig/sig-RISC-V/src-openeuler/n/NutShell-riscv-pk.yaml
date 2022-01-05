@@ -1,0 +1,8 @@
+name: NutShell-riscv-pk
+description: bbl, dts, build system ant etc. to build kernel and bootloader to support
+  openEuler OS running on NutShell UCAS COOSCA CPU.
+upstream: https://github.com/OSCPU/riscv-pk
+branches:
+- name: master
+  type: protected
+type: public

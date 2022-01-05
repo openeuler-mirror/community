@@ -1,0 +1,10 @@
+name: perl-Mail-Box-POP3
+upstream: http://search.cpan.org/dist/Mail-Box-POP3/
+description: Handle POP3 folders as client
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

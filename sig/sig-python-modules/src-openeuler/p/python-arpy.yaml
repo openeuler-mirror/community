@@ -1,0 +1,10 @@
+name: python-arpy
+upstream: https://github.com/viraptor/arpy
+description: Library for accessing "ar" files
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

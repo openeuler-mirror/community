@@ -1,0 +1,11 @@
+name: nim
+description: Nim is a statically typed compiled systems programming language,which
+  combines concepts from Python, Ada and Modula.
+upstream: https://nim-lang.org/
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

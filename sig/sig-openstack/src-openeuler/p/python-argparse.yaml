@@ -1,0 +1,10 @@
+name: python-argparse
+description: Python command-line parsing library
+upstream: https://github.com/ThomasWaldmann/argparse/
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

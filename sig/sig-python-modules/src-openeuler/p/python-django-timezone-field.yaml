@@ -1,0 +1,9 @@
+name: python-django-timezone-field
+upstream: http://github.com/mfogel/django-timezone-field/
+description: A Django app providing database, form and serializer fields for pytz
+  timezone objects.
+branches:
+- name: master
+  type: protected
+  create_from: master
+type: public

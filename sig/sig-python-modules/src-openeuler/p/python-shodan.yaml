@@ -1,0 +1,10 @@
+name: python-shodan
+upstream: http://github.com/achillean/shodan-python/tree/master
+description: Python library and command-line utility for Shodan (https
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

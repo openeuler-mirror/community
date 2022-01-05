@@ -1,0 +1,10 @@
+name: perl-Lchown
+upstream: http://search.cpan.org/dist/Lchown/
+description: Use the lchown(2) system call from Perl
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: python-sphinxcontrib-fulltoc
+upstream: http://sphinxcontrib-fulltoc.readthedocs.org
+description: Include a full table of contents in your Sphinx HTML sidebar
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

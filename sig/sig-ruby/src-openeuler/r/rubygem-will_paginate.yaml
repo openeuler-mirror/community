@@ -1,0 +1,8 @@
+name: rubygem-will_paginate
+upstream: https://github.com/mislav/will_paginate
+description: will_paginate is a pagination library that integrates with Ruby on Rails,
+  Sinatra, Hanami::View, Merb, DataMapper and Sequel.
+branches:
+- name: master
+  type: protected
+type: public

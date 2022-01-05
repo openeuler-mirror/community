@@ -1,0 +1,11 @@
+name: python-cocotb
+upstream: https://github.com/cocotb/cocotb
+description: cocotb is a coroutine based cosimulation library for writing VHDL and
+  Verilog testbenches in Python.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

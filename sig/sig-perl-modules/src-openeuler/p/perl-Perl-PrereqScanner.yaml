@@ -1,0 +1,10 @@
+name: perl-Perl-PrereqScanner
+upstream: http://search.cpan.org/dist/Perl-PrereqScanner/
+description: Tool to scan your Perl code for its prerequisites
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

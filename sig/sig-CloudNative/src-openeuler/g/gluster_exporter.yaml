@@ -1,0 +1,7 @@
+name: gluster_exporter
+description: Gluster Exporter for Prometheus
+upstream: https://github.com/ofesseler/gluster_exporter
+branches:
+- name: master
+  type: protected
+type: public

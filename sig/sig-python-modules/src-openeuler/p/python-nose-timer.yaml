@@ -1,0 +1,10 @@
+name: python-nose-timer
+upstream: https://github.com/mahmoudimus/nose-timer
+description: A timer plugin for nosetests
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

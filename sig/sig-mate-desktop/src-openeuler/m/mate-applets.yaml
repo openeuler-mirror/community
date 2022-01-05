@@ -1,0 +1,10 @@
+name: mate-applets
+description: Applets for use with the MATE panel
+upstream: https://github.com/mate-desktop/mate-applets
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

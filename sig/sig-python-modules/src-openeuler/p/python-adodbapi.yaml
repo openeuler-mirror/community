@@ -1,0 +1,10 @@
+name: python-adodbapi
+upstream: http://sourceforge.net/projects/adodbapi
+description: A pure Python package implementing PEP 249 DB-API using Microsoft ADO.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: perl-MooseX-SemiAffordanceAccessor
+upstream: http://search.cpan.org/dist/MooseX-SemiAffordanceAccessor/
+description: Name your accessors foo() and set_foo()
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: perl-Ham-Reference-QRZ
+upstream: http://search.cpan.org/dist/Ham-Reference-QRZ/
+description: Object oriented front end for the QRZ.COM Amateur Radio callsign database
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

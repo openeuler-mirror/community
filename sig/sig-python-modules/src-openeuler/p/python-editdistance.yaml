@@ -1,0 +1,10 @@
+name: python-editdistance
+upstream: https://www.github.com/aflc/editdistance
+description: Fast implementation of the edit distance(Levenshtein distance)
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

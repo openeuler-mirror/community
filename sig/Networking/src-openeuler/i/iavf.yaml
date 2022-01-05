@@ -1,0 +1,29 @@
+name: iavf
+description: "Intel\xAE Network Adapter Linux* Virtual Function Driver for Intel\xAE\
+  \ Ethernet Controller 700 and E810 Series"
+upstream: https://downloadcenter.intel.com/download/24693/Intel-Network-Adapter-Virtual-Function-Driver-for-Intel-40-Gigabit-Ethernet-Network-Connections
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-20.03-LTS-SP1
+  type: protected
+  create_from: master
+- name: openEuler-21.03
+  type: protected
+  create_from: master
+- name: openEuler-20.03-LTS-SP2
+  type: protected
+  create_from: openEuler-20.03-LTS-Next
+- name: openEuler-21.09
+  type: protected
+  create_from: master
+- name: openEuler-20.03-LTS-SP3
+  type: protected
+  create_from: openEuler-20.03-LTS-Next
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: openEuler-21.09
+type: public

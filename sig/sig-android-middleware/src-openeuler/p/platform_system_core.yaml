@@ -1,0 +1,12 @@
+name: platform_system_core
+description: It involves the underlying file system library, application and components.
+  The main coding language is C. The core repository is the core tool interface of
+  the system
+upstream: https://github.com/anbox/platform_system_core
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

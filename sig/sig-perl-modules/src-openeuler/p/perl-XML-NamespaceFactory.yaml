@@ -1,0 +1,10 @@
+name: perl-XML-NamespaceFactory
+upstream: http://search.cpan.org/dist/XML-NamespaceFactory/
+description: Simple factory objects for SAX namespaced names
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

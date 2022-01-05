@@ -1,0 +1,10 @@
+name: perl-Devel-Pragma
+upstream: http://search.cpan.org/dist/Devel-Pragma/
+description: Helper functions for developers of lexical pragmas
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

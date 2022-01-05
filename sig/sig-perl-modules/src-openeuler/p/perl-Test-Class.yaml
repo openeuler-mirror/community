@@ -1,0 +1,10 @@
+name: perl-Test-Class
+upstream: http://search.cpan.org/dist/Test-Class/
+description: Easily create test classes in an xUnit/JUnit style
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

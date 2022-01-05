@@ -1,0 +1,10 @@
+name: python-javalang
+upstream: http://github.com/c2nes/javalang
+description: Pure Python Java parser and tools
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

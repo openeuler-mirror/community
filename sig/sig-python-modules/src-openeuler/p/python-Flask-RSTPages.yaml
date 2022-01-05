@@ -1,0 +1,10 @@
+name: python-Flask-RSTPages
+upstream: http://flask-rstpages.readthedocs.org/
+description: Adds support for reStructuredText to a Flask application
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,8 @@
+name: bootupd
+description: Bootupd is a cross-distribution,OS update system agnostic tool to manage
+  updates for /boot/efi,x86 BIOS MBR and other architecture bootloaders.
+upstream: https://github.com/coreos/bootupd
+branches:
+- name: master
+  type: protected
+type: public

@@ -1,0 +1,10 @@
+name: python-speedtest-cli
+upstream: https://github.com/sivel/speedtest-cli
+description: Command line interface for testing internet bandwidth using speedtest.net
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

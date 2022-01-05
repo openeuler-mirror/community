@@ -1,0 +1,11 @@
+name: python-pytest-faulthandler
+upstream: https://github.com/pytest-dev/pytest-faulthandler
+description: py.test plugin that activates the fault handler module for tests (dummy
+  package)
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: perl-HTML-SimpleParse
+upstream: http://search.cpan.org/dist/HTML-SimpleParse/
+description: Bare-bones HTML parser
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

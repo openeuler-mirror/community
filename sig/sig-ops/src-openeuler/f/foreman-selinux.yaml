@@ -1,0 +1,7 @@
+name: foreman-selinux
+description: SELinux policy module for Foreman
+upstream: https://theforeman.org
+branches:
+- name: master
+  type: protected
+type: public

@@ -1,0 +1,10 @@
+name: python-Flask-AutoIndex
+upstream: https://flask-autoindex.readthedocs.io
+description: The mod_autoindex for Flask
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

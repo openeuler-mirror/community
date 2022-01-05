@@ -1,0 +1,7 @@
+name: igh-ethercat-xenomai
+upstream: https://gitlab.com/etherlab.org/ethercat
+description: This is an open-source EtherCAT master. modifed it for xenomai.
+branches:
+- name: master
+  type: protected
+type: public

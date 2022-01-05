@@ -1,0 +1,10 @@
+name: perl-Test-SharedFork
+upstream: http://search.cpan.org/dist/Test-SharedFork/
+description: Fork test
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

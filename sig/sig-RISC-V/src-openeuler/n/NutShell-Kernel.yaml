@@ -1,0 +1,7 @@
+name: NutShell-Kernel
+description: Porting openEuler kernel to support NutShell UCAS COOSCA CPU.
+upstream: https://gitee.com/openeuler/kernel/tree/kernel-4.19
+branches:
+- name: master
+  type: protected
+type: public

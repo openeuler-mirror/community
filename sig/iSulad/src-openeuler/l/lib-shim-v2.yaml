@@ -1,0 +1,19 @@
+name: lib-shim-v2
+description: As a shim V2 ttrpc client, it is called by iSulad and written in rust
+upstream: https://gitee.com/openeuler/lib-shim-v2
+branches:
+- name: master
+  type: protected
+- name: openEuler-21.09
+  type: protected
+  create_from: master
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-20.03-LTS-SP3
+  type: protected
+  create_from: openEuler-20.03-LTS-Next
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: openEuler-21.09
+type: public

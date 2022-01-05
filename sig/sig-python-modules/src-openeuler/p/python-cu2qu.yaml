@@ -1,0 +1,10 @@
+name: python-cu2qu
+upstream: https://github.com/googlefonts
+description: Cubic-to-quadratic bezier curve conversion
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: perl-Sys-Statistics-Linux
+upstream: http://search.cpan.org/dist/Sys-Statistics-Linux/
+description: Front-end module to collect system statistics
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: python-astroML
+upstream: http://astroML.github.com
+description: tools for machine learning and data mining in Astronomy
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

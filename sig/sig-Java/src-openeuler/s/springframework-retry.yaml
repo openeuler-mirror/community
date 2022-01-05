@@ -1,0 +1,10 @@
+name: springframework-retry
+description: Abstraction around retrying failed operations
+upstream: https://github.com/spring-projects/spring-retry
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

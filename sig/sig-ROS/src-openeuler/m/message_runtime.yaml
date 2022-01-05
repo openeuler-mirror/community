@@ -1,0 +1,13 @@
+name: message_runtime
+description: message_runtime package that belongs to THE ROS-COMM
+upstream: https://github.com/ros/message_runtime
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

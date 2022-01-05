@@ -1,0 +1,7 @@
+name: jenkins-executable-war
+description: Jenkins Executable War
+upstream: https://github.com/jenkinsci/extras-executable-war
+branches:
+- name: master
+  type: protected
+type: public

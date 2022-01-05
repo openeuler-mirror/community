@@ -1,0 +1,10 @@
+name: perl-Term-ProgressBar
+upstream: http://search.cpan.org/dist/Term-ProgressBar/
+description: Provide a progress meter on a standard terminal
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

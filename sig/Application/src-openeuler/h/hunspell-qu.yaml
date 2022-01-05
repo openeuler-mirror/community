@@ -1,0 +1,16 @@
+name: hunspell-qu
+description: Quechua Ecuador hunspell dictionaries for hunspell used in OpenOffice
+upstream: http://extensions.services.openoffice.org/project/KichwaSpellchecker
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+- name: openEuler-21.09
+  type: protected
+  create_from: master
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: openEuler-21.09
+type: public

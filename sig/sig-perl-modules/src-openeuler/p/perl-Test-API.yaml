@@ -1,0 +1,10 @@
+name: perl-Test-API
+upstream: http://search.cpan.org/dist/Test-API/
+description: Test a list of subroutines provided by a module
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

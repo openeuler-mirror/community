@@ -1,0 +1,7 @@
+name: passwd_group_generator
+description: Generator of a custom passwd and group
+upstream: https://gitee.com/openEuler/passwd_group_generator
+branches:
+- name: master
+  type: protected
+type: public

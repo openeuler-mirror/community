@@ -1,0 +1,9 @@
+name: intel-device-plugins-for-kubernetes
+description: This repository contains a framework for developing plugins for the Kubernetes
+  device plugins framework, along with a number of device plugin implementations utilising
+  that framework.
+upstream: https://github.com/intel/intel-device-plugins-for-kubernetes.git
+branches:
+- name: master
+  type: protected
+type: public

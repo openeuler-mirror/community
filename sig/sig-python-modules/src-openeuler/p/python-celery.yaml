@@ -1,0 +1,9 @@
+name: python-celery
+upstream: https://github.com/celery/celery
+description: An open source asynchronous task queue/job queue based on distributed
+  message passing. It is focused on real-time operation, but supports scheduling as
+  well.
+branches:
+- name: master
+  type: protected
+type: public

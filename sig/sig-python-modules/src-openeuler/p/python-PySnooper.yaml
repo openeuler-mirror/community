@@ -1,0 +1,10 @@
+name: python-PySnooper
+upstream: https://github.com/cool-RR/PySnooper
+description: A poor man's debugger for Python.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

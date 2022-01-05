@@ -1,0 +1,10 @@
+name: libfm
+description: GIO-based library for file manager-like programs.
+upstream: https://github.com/lxde/libfm
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

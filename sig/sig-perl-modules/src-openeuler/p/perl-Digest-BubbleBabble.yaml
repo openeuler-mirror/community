@@ -1,0 +1,10 @@
+name: perl-Digest-BubbleBabble
+upstream: http://search.cpan.org/dist/Digest-BubbleBabble/
+description: Create bubble-babble fingerprints
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

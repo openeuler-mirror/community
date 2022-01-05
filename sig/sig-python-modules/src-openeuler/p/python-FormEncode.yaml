@@ -1,0 +1,10 @@
+name: python-FormEncode
+upstream: http://formencode.org
+description: HTML form validation, generation, and conversion package
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

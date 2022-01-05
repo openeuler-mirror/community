@@ -1,0 +1,10 @@
+name: perl-PBKDF2-Tiny
+upstream: http://search.cpan.org/dist/PBKDF2-Tiny/
+description: Minimalist PBKDF2 (RFC 2898) with HMAC-SHA1 or HMAC-SHA2
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,7 @@
+name: amavis
+description: Email filter with virus scanner and spamassassin support.
+upstream: https://gitlab.com/amavis/amavis
+branches:
+- name: master
+  type: protected
+type: public

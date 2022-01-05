@@ -1,0 +1,10 @@
+name: python-ZEO
+upstream: https://github.com/zopefoundation/ZEO
+description: ZEO - Single-server client-server database server for ZODB
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

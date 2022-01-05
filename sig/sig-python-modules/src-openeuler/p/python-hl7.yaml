@@ -1,0 +1,10 @@
+name: python-hl7
+upstream: http://python-hl7.readthedocs.org
+description: Python library parsing HL7 v2.x messages
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

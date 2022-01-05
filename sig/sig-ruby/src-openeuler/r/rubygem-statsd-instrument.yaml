@@ -1,0 +1,8 @@
+name: rubygem-statsd-instrument
+description: A StatsD client for Ruby apps. Provides metaprogramming methods to inject
+  StatsD instrumentation into your code.
+upstream: https://github.com/Shopify/statsd-instrument
+branches:
+- name: master
+  type: protected
+type: public

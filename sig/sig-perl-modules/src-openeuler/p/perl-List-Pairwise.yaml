@@ -1,0 +1,10 @@
+name: perl-List-Pairwise
+upstream: http://search.cpan.org/dist/List-Pairwise/
+description: Map/grep arrays and hashes pairwise
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

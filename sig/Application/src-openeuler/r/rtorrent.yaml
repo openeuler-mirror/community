@@ -1,0 +1,7 @@
+name: rtorrent
+description: BitTorrent client based on libtorrent
+upstream: https://github.com/rakshasa/rtorrent
+branches:
+- name: master
+  type: protected
+type: public

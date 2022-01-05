@@ -1,0 +1,11 @@
+name: python-django-macros
+upstream: https://github.com/nalourie/django-macros
+description: A Django template tag library for repeating blocks tags and creating
+  in template macros.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

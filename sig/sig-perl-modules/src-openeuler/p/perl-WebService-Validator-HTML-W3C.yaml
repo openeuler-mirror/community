@@ -1,0 +1,10 @@
+name: perl-WebService-Validator-HTML-W3C
+upstream: http://search.cpan.org/dist/WebService-Validator-HTML-W3C/
+description: Access the W3Cs online HTML validator
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

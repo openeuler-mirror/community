@@ -1,0 +1,10 @@
+name: perl-Pod-Simple-Wiki
+upstream: http://search.cpan.org/dist/Pod-Simple-Wiki/
+description: Class for creating Pod to Wiki filters
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

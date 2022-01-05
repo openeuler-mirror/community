@@ -1,0 +1,7 @@
+name: sysrepo
+description: YANG-based system repository for all-around configuration management
+upstream: https://github.com/sysrepo/sysrepo
+branches:
+- name: master
+  type: protected
+type: public

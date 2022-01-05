@@ -1,0 +1,8 @@
+name: control_msgs
+description: control_msgs contains base messages and actions useful for controlling
+  robots.
+upstream: https://github.com/ros-controls/control_msgs
+branches:
+- name: master
+  type: protected
+type: public

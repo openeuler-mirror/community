@@ -1,0 +1,13 @@
+name: elasticsearch
+description: Elasticsearch is a distributed RESTful search engine built for the cloud
+upstream: https://github.com/elastic/elasticsearch
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-SP1
+  type: protected
+  create_from: master
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

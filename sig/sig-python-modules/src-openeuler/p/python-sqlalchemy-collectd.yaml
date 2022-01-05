@@ -1,0 +1,10 @@
+name: python-sqlalchemy-collectd
+upstream: https://github.com/sqlalchemy/sqlalchemy-collectd
+description: Send database connection pool stats to collectd
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

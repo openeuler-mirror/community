@@ -1,0 +1,10 @@
+name: perl-HTML-LinkList
+upstream: http://search.cpan.org/dist/HTML-LinkList/
+description: Create a 'smart' list of HTML links
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

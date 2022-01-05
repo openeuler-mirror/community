@@ -1,0 +1,10 @@
+name: python-datanommer.consumer
+upstream: http://github.com/fedora-infra/datanommer
+description: Hub consumer plugin for datanommer
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

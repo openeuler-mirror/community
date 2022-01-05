@@ -1,0 +1,10 @@
+name: python-pygments-style-solarized
+upstream: https://github.com/shkumagai/pygments-style-solarized
+description: Pygments version of the Solarized theme.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

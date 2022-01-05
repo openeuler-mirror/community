@@ -1,0 +1,10 @@
+name: perl-Crypt-ScryptKDF
+upstream: http://search.cpan.org/dist/Crypt-ScryptKDF/
+description: Scrypt password based key derivation function
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

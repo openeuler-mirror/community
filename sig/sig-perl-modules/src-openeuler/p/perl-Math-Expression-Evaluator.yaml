@@ -1,0 +1,10 @@
+name: perl-Math-Expression-Evaluator
+upstream: http://search.cpan.org/dist/Math-Expression-Evaluator/
+description: Parses, compiles and evaluates mathematic expressions
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

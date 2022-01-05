@@ -1,0 +1,10 @@
+name: python-logging_tree
+upstream: https://github.com/brandon-rhodes/logging_tree
+description: Introspect and display the logger tree inside "logging"
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

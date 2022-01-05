@@ -1,0 +1,10 @@
+name: eclipse-swtbot
+description: UI and functional testing tool for SWT and Eclipse based applications
+upstream: http://www.eclipse.org/swtbot/
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

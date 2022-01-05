@@ -1,0 +1,10 @@
+name: python-metar
+upstream: https://github.com/python-metar/python-metar
+description: Metar - a package to parse METAR-coded weather reports
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

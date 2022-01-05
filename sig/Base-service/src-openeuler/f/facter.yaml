@@ -1,0 +1,10 @@
+name: facter
+description: Command and ruby library for gathering system information
+upstream: https://puppet.com/docs/puppet/6.17/facter.html
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

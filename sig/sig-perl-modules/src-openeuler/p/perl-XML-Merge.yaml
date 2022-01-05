@@ -1,0 +1,10 @@
+name: perl-XML-Merge
+upstream: http://search.cpan.org/dist/XML-Merge/
+description: Flexibly merge XML documents
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

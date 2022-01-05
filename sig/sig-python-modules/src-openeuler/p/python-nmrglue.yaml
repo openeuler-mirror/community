@@ -1,0 +1,10 @@
+name: python-nmrglue
+upstream: http://www.nmrglue.com
+description: A module for working with NMR data in Python
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

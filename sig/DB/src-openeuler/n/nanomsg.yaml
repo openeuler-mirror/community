@@ -1,0 +1,7 @@
+name: nanomsg
+description: a socket library that provides several common communication patterns
+upstream: https://github.com/nanomsg/nanomsg/
+branches:
+- name: master
+  type: protected
+type: public

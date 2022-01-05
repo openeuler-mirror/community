@@ -1,0 +1,7 @@
+name: pdsh
+description: Parallel remote shell program
+upstream: https://github.com/chaos/pdsh/
+branches:
+- name: master
+  type: protected
+type: public

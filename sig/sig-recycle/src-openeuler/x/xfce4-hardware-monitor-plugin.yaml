@@ -1,0 +1,22 @@
+name: xfce4-hardware-monitor-plugin
+upstream: https://goodies.xfce.org/projects/panel-plugins/xfce4-hardware-monitor-plugin
+description: Xfce4 panel plugin to monitor various hardware
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+- name: openEuler-21.03
+  type: protected
+  create_from: master
+- name: openEuler-20.03-LTS-SP2
+  type: protected
+  create_from: master
+- name: openEuler-20.03-LTS-SP3
+  type: protected
+  create_from: openEuler-20.03-LTS-Next
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

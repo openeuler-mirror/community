@@ -1,0 +1,10 @@
+name: python-fypp
+upstream: https://github.com/aradi/fypp
+description: Python powered Fortran preprocessor
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

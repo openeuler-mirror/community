@@ -1,0 +1,10 @@
+name: perl-Digest-MD5-File
+upstream: http://search.cpan.org/dist/Digest-MD5-File/
+description: Perl extension for getting MD5 sums for files and urls
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

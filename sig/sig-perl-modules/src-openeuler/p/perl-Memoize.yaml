@@ -1,0 +1,10 @@
+name: perl-Memoize
+upstream: http://search.cpan.org/dist/Memoize/
+description: Make functions faster by trading space for time
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

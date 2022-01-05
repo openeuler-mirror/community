@@ -1,0 +1,10 @@
+name: perl-XML-Generator-PerlData
+upstream: http://search.cpan.org/dist/XML-Generator-PerlData/
+description: Perl extension for generating SAX2 events from nested Perl data structures
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

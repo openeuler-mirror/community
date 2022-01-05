@@ -1,0 +1,10 @@
+name: perl-XML-Parser-Lite-Tree-XPath
+upstream: http://search.cpan.org/dist/XML-Parser-Lite-Tree-XPath/
+description: XPath access to XML
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

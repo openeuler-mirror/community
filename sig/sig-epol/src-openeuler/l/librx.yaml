@@ -1,0 +1,7 @@
+name: librx
+description: POSIX regexp functions
+upstream: http://www.gnu.org/software/rx/rx.html
+branches:
+- name: master
+  type: protected
+type: public

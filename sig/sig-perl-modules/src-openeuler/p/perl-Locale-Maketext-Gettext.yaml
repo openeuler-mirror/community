@@ -1,0 +1,10 @@
+name: perl-Locale-Maketext-Gettext
+upstream: http://search.cpan.org/dist/Locale-Maketext-Gettext/
+description: Joins the gettext and Maketext frameworks
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

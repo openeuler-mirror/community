@@ -1,0 +1,11 @@
+name: perl-Locale-US
+upstream: http://search.cpan.org/dist/Locale-US/
+description: Two letter codes for state identification in the United States and vice
+  versa
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

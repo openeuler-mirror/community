@@ -1,0 +1,11 @@
+name: slam_gmapping
+description: slam_gmapping contains a wrapper around gmapping which provides SLAM
+  capabilities.
+upstream: https://github.com/ros-perception/slam_gmapping
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

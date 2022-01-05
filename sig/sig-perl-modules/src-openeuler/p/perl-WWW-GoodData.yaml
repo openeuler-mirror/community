@@ -1,0 +1,10 @@
+name: perl-WWW-GoodData
+upstream: http://search.cpan.org/dist/WWW-GoodData/
+description: Client library for GoodData REST-ful API
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,8 @@
+name: quazip-qt5
+description: a simple C++ wrapper over Gilles Vollant's ZIP/UNZIP package that can
+  be used to access ZIP archives
+upstream: https://github.com/stachenov/quazip
+branches:
+- name: master
+  type: protected
+type: public

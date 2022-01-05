@@ -1,0 +1,10 @@
+name: perl-Test-NoBreakpoints
+upstream: http://search.cpan.org/dist/Test-NoBreakpoints/
+description: Test that files do not contain soft breakpoints
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

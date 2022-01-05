@@ -1,0 +1,12 @@
+name: navigation
+description: A 2D navigation stack that takes in information from odometry, sensor
+  streams, and a goal pose and outputs safe velocity commands that are sent to a mobile
+  base.
+upstream: https://github.com/ros-planning/navigation
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

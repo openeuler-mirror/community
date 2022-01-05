@@ -1,0 +1,10 @@
+name: python-django-haystack
+upstream: http://haystacksearch.org/
+description: Pluggable search for Django.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

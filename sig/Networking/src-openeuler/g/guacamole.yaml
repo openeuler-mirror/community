@@ -1,0 +1,13 @@
+name: guacamole
+description: The main Guacamole web application
+upstream: http://guacamole.apache.org/releases
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-20.03-LTS-SP2
+  type: protected
+  create_from: openEuler-20.03-LTS-Next
+type: public

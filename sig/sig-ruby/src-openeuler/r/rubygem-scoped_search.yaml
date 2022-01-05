@@ -1,0 +1,8 @@
+name: rubygem-scoped_search
+upstream: https://github.com/wvanbergen/scoped_search
+description: Scoped search makes it easy to search your ActiveRecord-based models.
+  It will create a named scope :search_for that can be called with a query string...
+branches:
+- name: master
+  type: protected
+type: public

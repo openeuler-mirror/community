@@ -1,0 +1,7 @@
+name: barman
+description: Backup and Recovery Manager for PostgreSQL
+upstream: http://www.pgbarman.org/
+branches:
+- name: master
+  type: protected
+type: public

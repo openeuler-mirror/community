@@ -1,0 +1,10 @@
+name: perl-NNTPClient
+description: A Perl 5 module to communicate with NNTP (RFC977) server
+upstream: https://metacpan.org/release/NNTPClient
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

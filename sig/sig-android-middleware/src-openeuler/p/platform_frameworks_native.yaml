@@ -1,0 +1,11 @@
+name: platform_frameworks_native
+description: The android system runtime use the C/C++ program library,which mainly
+  location this repository
+upstream: https://github.com/anbox/platform_frameworks_native
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

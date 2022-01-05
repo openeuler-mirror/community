@@ -1,0 +1,11 @@
+name: thunderbird
+description: "Thunderbird is a free email application that\u2019s easy to set up and\
+  \ customize"
+upstream: https://hg.mozilla.org/comm-central/
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

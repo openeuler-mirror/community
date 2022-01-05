@@ -1,0 +1,20 @@
+name: python-pytest-html
+description: pytest-html is a plugin for pytest that generates a HTML report for test
+  results.
+upstream: https://github.com/pytest-dev/pytest-html
+branches:
+- name: master
+  type: protected
+- name: openEuler-21.09
+  type: protected
+  create_from: master
+- name: oepkg_openstack-queens_oe-20.03-LTS-Next
+  type: protected
+  create_from: master
+- name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: openEuler-21.09
+type: public

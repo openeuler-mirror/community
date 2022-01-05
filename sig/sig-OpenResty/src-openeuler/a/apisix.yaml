@@ -1,0 +1,7 @@
+name: apisix
+description: Apache APISIX is a dynamic, real-time, high-performance API gateway
+upstream: https://github.com/apache/apisix
+branches:
+- name: master
+  type: protected
+type: public

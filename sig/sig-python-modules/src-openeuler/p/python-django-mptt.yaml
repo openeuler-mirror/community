@@ -1,0 +1,11 @@
+name: python-django-mptt
+upstream: https://github.com/django-mptt/django-mptt
+description: Utilities for implementing Modified Preorder Tree Traversal with your
+  Django Models and working with trees of Model instances.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

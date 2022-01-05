@@ -1,0 +1,10 @@
+name: python-humblewx
+upstream: https://github.com/thetimelineproj/humblewx
+description: Library that simplifies creating user interfaces with wxPython.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

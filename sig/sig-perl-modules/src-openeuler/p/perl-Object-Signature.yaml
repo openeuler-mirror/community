@@ -1,0 +1,10 @@
+name: perl-Object-Signature
+upstream: http://search.cpan.org/dist/Object-Signature/
+description: Generate cryptographic signatures for objects
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

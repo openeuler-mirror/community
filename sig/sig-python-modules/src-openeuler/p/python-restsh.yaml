@@ -1,0 +1,10 @@
+name: python-restsh
+upstream: https://github.com/jespino/restsh
+description: A simple rest shell client
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

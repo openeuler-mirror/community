@@ -1,0 +1,10 @@
+name: python-spake2
+upstream: https://github.com/warner/python-spake2
+description: SPAKE2 password-authenticated key exchange (pure python)
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

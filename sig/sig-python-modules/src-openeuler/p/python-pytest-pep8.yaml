@@ -1,0 +1,10 @@
+name: python-pytest-pep8
+upstream: https://bitbucket.org/pytest-dev/pytest-pep8
+description: pytest plugin to check PEP8 requirements
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: python-pyvit
+upstream: http://github.com/linklayer/pyvit
+description: Python Vehicle Inteface Toolkit
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

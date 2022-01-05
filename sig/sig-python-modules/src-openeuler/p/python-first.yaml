@@ -1,0 +1,10 @@
+name: python-first
+upstream: http://github.com/hynek/first/
+description: Return the first true value of an iterable.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

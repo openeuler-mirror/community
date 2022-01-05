@@ -1,0 +1,10 @@
+name: python-multio
+upstream: https://github.com/theelous3/multio
+description: multio - an unified async library for curio and trio
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

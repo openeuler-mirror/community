@@ -1,0 +1,10 @@
+name: python-progress
+upstream: http://github.com/verigak/progress/
+description: Easy to use progress bars
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

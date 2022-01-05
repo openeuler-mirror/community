@@ -1,0 +1,10 @@
+name: perl-HTML-Template-Pro
+upstream: http://search.cpan.org/dist/HTML-Template-Pro/
+description: Perl/XS module to use HTML Templates from CGI scripts
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

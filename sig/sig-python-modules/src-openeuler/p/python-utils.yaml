@@ -1,0 +1,10 @@
+name: python-utils
+description: Python Utils is a module with some convenient utilities
+upstream: https://github.com/WoLpH/python-utils
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

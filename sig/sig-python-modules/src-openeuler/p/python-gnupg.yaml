@@ -1,0 +1,10 @@
+name: python-gnupg
+upstream: https://github.com/isislovecruft/python-gnupg
+description: A Python wrapper for GnuPG
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

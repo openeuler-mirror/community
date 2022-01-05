@@ -1,0 +1,11 @@
+name: perl-File-Touch
+upstream: http://search.cpan.org/dist/File-Touch/
+description: Update file access and modification times, optionally creating files
+  if needed
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

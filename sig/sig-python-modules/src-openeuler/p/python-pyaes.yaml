@@ -1,0 +1,11 @@
+name: python-pyaes
+upstream: https://github.com/ricmoo/pyaes
+description: Pure-Python Implementation of the AES block-cipher and common modes of
+  operation
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

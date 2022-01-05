@@ -1,0 +1,10 @@
+name: perl-Palm
+upstream: http://search.cpan.org/dist/Palm/
+description: Palm OS utility functions
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: python-jinja2-time
+upstream: https://github.com/hackebrot/jinja2-time
+description: Jinja2 Extension for Dates and Times
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

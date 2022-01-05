@@ -1,0 +1,14 @@
+name: s-tui
+description: S-tui is a CPU resource monitor that uses a terminal based graphical
+  interface to display data and graphs.
+upstream: https://amanusk.github.io/s-tui
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+- name: openEuler-20.03-LTS
+  type: protected
+  create_from: master
+type: public

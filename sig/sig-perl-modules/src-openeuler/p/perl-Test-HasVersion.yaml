@@ -1,0 +1,10 @@
+name: perl-Test-HasVersion
+upstream: http://search.cpan.org/dist/Test-HasVersion/
+description: Check Perl modules have version numbers
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

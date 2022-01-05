@@ -1,0 +1,7 @@
+name: crun
+description: CRUN is a runtime for running OCI containers.
+upstream: https://github.com/containers/crun
+branches:
+- name: master
+  type: protected
+type: public

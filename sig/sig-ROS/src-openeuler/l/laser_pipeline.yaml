@@ -1,0 +1,11 @@
+name: laser_pipeline
+description: Meta-package of libraries for processing laser data, including converting
+  laser data into 3D representations.
+upstream: https://github.com/ros-perception/laser_pipeline
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

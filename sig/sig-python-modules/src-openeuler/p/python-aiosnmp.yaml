@@ -1,0 +1,10 @@
+name: python-aiosnmp
+upstream: https://github.com/hh-h/aiosnmp
+description: asyncio SNMP client
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

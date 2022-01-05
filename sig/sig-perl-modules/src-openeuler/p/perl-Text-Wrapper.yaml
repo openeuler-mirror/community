@@ -1,0 +1,10 @@
+name: perl-Text-Wrapper
+upstream: http://search.cpan.org/dist/Text-Wrapper/
+description: Word wrap text by breaking long lines
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

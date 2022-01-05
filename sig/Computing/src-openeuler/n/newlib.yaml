@@ -1,0 +1,7 @@
+name: newlib
+description: c library for embedded system
+upstream: https://github.com/bminor/newlib
+branches:
+- name: master
+  type: protected
+type: public

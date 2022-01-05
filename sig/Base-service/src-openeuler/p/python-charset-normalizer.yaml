@@ -1,0 +1,10 @@
+name: python-charset-normalizer
+description: A library that helps you read text from an unknown charset encoding.
+upstream: https://github.com/ousret/charset_normalizer
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

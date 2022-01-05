@@ -1,0 +1,10 @@
+name: python-stompest
+upstream: https://github.com/nikipore/stompest
+description: STOMP library for Python including a synchronous client.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

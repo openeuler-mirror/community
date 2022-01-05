@@ -1,0 +1,10 @@
+name: python-pytest-subtests
+upstream: https://github.com/pytest-dev/pytest-subtests
+description: unittest subTest() support and subtests fixture
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: perl-Term-Chrome
+upstream: http://search.cpan.org/dist/Term-Chrome/
+description: DSL for colors and other terminal chrome
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

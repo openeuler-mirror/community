@@ -1,0 +1,10 @@
+name: pcl_conversion
+description: Provides conversions from PCL data types and ROS message types.
+upstream: https://github.com/ros-perception/perception_pcl
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

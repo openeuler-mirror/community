@@ -1,0 +1,10 @@
+name: apparmor
+description: AppArmor is a Linux kernel security module that allows the system administrator
+  to restrict programs' capabilities with per-program profiles.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

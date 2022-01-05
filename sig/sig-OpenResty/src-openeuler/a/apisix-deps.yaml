@@ -1,0 +1,7 @@
+name: apisix-deps
+description: APISIX Deps packs the lua modules dependencies of APISIX
+upstream: https://github.com/apache/apisix
+branches:
+- name: master
+  type: protected
+type: public

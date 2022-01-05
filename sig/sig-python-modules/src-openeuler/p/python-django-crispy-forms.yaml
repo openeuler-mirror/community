@@ -1,0 +1,10 @@
+name: python-django-crispy-forms
+upstream: https://github.com/django-crispy-forms/django-crispy-forms
+description: Best way to have Django DRY forms
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

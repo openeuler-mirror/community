@@ -1,0 +1,9 @@
+name: rubygem-activerecord-session_store
+upstream: https://github.com/rails/activerecord-session_store
+description: A session store backed by an Active Record class. A default class is
+  provided, but any object duck-typing to an Active Record Session class with text
+  session_id and data attributes is sufficient.
+branches:
+- name: master
+  type: protected
+type: public

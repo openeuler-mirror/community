@@ -1,0 +1,8 @@
+name: qt-gui
+description: qt_gui provides the infrastructure for an integrated graphical user interface
+  based on Qt.
+upstream: https://github.com/ros-visualization/qt_gui_core
+branches:
+- name: master
+  type: protected
+type: public

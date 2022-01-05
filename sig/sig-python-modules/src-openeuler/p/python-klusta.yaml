@@ -1,0 +1,10 @@
+name: python-klusta
+upstream: https://klusta.cortexlab.net
+description: Spike detection and automatic clustering for spike sorting
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

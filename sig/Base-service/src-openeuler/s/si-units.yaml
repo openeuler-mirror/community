@@ -1,0 +1,13 @@
+name: si-units
+description: International Standard System of Units (JSR 363)
+upstream: https://github.com/unitsofmeasurement/si-units
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+- name: openEuler-21.03
+  type: protected
+  create_from: master
+type: public

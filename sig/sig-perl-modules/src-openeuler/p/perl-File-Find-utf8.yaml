@@ -1,0 +1,10 @@
+name: perl-File-Find-utf8
+upstream: http://search.cpan.org/dist/File-Find-utf8/
+description: Fully UTF-8 aware File
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

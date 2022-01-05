@@ -1,0 +1,10 @@
+name: python-django-redis
+upstream: https://github.com/jazzband/django-redis
+description: Full featured redis cache backend for Django.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

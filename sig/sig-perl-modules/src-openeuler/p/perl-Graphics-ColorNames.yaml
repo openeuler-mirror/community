@@ -1,0 +1,10 @@
+name: perl-Graphics-ColorNames
+upstream: http://search.cpan.org/dist/Graphics-ColorNames/
+description: Defines RGB values for common color names
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

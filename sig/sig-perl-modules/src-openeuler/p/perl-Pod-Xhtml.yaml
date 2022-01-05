@@ -1,0 +1,10 @@
+name: perl-Pod-Xhtml
+upstream: http://search.cpan.org/dist/Pod-Xhtml/
+description: Generate well-formed XHTML documents from POD format documentation
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

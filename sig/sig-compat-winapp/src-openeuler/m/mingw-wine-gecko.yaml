@@ -1,0 +1,7 @@
+name: mingw-wine-gecko
+description: Windows Gecko library required for Wine.
+upstream: http://wiki.winehq.org/Gecko
+branches:
+- name: master
+  type: protected
+type: public

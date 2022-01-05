@@ -1,0 +1,10 @@
+name: python-pyotp
+upstream: https://github.com/pyotp/pyotp
+description: Python One Time Password Library
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

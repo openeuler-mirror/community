@@ -1,0 +1,9 @@
+name: python-rpkg
+description: This is the rpkg project, which mostly is a python library for dealing
+  with rpm packaging in a git source control. pyrpkg is the base library that sites
+  can subclass to create useful tools.
+upstream: https://pagure.io/rpkg
+branches:
+- name: master
+  type: protected
+type: public

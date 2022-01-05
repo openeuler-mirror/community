@@ -1,0 +1,7 @@
+name: libyaml_vendor
+description: Vendored version of libyaml.
+upstream: https://github.com/ros2/libyaml_vendor.git
+branches:
+- name: master
+  type: protected
+type: public

@@ -1,0 +1,10 @@
+name: python-html2text
+upstream: https://github.com/Alir3z4/html2text/
+description: Turn HTML into equivalent Markdown-structured text.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

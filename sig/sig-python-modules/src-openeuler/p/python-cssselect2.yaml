@@ -1,0 +1,10 @@
+name: python-cssselect2
+upstream: https://cssselect2.readthedocs.io/
+description: CSS selectors for Python ElementTree
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

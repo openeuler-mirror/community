@@ -1,0 +1,10 @@
+name: perl-Hash-MoreUtils
+upstream: http://search.cpan.org/dist/Hash-MoreUtils/
+description: Provide the stuff missing in Hash
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

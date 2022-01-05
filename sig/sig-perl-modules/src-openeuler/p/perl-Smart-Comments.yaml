@@ -1,0 +1,10 @@
+name: perl-Smart-Comments
+upstream: http://search.cpan.org/dist/Smart-Comments/
+description: Comments that do more than just sit there
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

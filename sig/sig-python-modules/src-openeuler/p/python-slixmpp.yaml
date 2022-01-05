@@ -1,0 +1,10 @@
+name: python-slixmpp
+upstream: https://lab.louiz.org/poezio/slixmpp
+description: Slixmpp is an elegant Python library for XMPP (aka Jabber).
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

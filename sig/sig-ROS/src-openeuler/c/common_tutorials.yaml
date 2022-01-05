@@ -1,0 +1,7 @@
+name: common_tutorials
+description: Metapackage that contains common tutorials
+upstream: https://github.com/ros/common_tutorials
+branches:
+- name: master
+  type: protected
+type: public

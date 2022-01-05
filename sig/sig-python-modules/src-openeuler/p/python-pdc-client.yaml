@@ -1,0 +1,10 @@
+name: python-pdc-client
+upstream: https://github.com/product-definition-center/pdc-client
+description: Client library and console client for Product Definition Center
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

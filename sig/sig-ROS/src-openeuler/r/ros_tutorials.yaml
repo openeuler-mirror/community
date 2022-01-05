@@ -1,0 +1,8 @@
+name: ros_tutorials
+description: ros_tutorials contains packages that demonstrate various features of
+  ROS, as well as support packages which help demonstrate those features.
+upstream: https://github.com/ros/ros_tutorials
+branches:
+- name: master
+  type: protected
+type: public

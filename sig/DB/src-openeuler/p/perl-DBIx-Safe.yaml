@@ -1,0 +1,7 @@
+name: perl-DBIx-Safe
+upstream: https://github.com/bucardo/dbixsafe
+description: Perl DBIx::Safe module for restricting SQL to a database handle
+branches:
+- name: master
+  type: protected
+type: public

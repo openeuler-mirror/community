@@ -1,0 +1,7 @@
+name: alpine
+description: powerful, easy to use console email client.
+upstream: http://alpine.x10host.com/
+branches:
+- name: master
+  type: protected
+type: public

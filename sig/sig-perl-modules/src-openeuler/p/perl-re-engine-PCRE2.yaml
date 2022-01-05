@@ -1,0 +1,10 @@
+name: perl-re-engine-PCRE2
+upstream: http://search.cpan.org/dist/re-engine-PCRE2/
+description: PCRE2 regular expression engine with jit
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

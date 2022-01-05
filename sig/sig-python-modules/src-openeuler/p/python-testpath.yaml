@@ -1,0 +1,10 @@
+name: python-testpath
+upstream: https://github.com/jupyter/testpath
+description: Test utilities for code working with files and commands
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

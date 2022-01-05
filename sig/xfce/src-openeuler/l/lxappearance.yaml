@@ -1,0 +1,10 @@
+name: lxappearance
+description: Feature-rich GTK+ theme switcher for LXDE.
+upstream: https://github.com/lxde/lxappearance
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: perl-Locale-Utils-PlaceholderBabelFish
+upstream: http://search.cpan.org/dist/Locale-Utils-PlaceholderBabelFish/
+description: Utils to expand BabelFish palaceholders
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

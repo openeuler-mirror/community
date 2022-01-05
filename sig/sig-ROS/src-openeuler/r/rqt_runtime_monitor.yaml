@@ -1,0 +1,7 @@
+name: rqt_runtime_monitor
+description: rqt_runtime_monitor provides a GUI plugin viewing DiagnosticsArray messages.
+upstream: https://github.com/ros-visualization/rqt_runtime_monitor
+branches:
+- name: master
+  type: protected
+type: public

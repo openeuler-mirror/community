@@ -1,0 +1,10 @@
+name: perl-Unicode-Casing
+upstream: http://search.cpan.org/dist/Unicode-Casing/
+description: Perl extension to override system case changing functions
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

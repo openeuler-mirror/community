@@ -1,0 +1,10 @@
+name: python-visvis
+upstream: https://github.com/almarklein/visvis
+description: An object oriented approach to visualization of 1D to 4D data.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: perl-Hash-Merge-Simple
+upstream: http://search.cpan.org/dist/Hash-Merge-Simple/
+description: Recursively merge two or more hashes, simply
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

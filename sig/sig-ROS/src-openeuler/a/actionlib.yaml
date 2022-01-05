@@ -1,0 +1,11 @@
+name: actionlib
+description: The actionlib stack provides a standardized interface for interfacing
+  with preemptable tasks.
+upstream: https://github.com/ros/actionlib
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

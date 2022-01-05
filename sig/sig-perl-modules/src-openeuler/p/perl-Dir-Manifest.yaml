@@ -1,0 +1,11 @@
+name: perl-Dir-Manifest
+upstream: http://search.cpan.org/dist/Dir-Manifest/
+description: Treat a directory and a manifest file as a hash/dictionary of keys to
+  texts or blobs
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

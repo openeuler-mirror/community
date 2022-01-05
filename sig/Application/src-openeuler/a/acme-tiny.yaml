@@ -1,0 +1,8 @@
+name: acme-tiny
+description: This is a tiny, auditable script that you can throw on your server to
+  issue and renew Let's Encrypt certificates.
+upstream: https://github.com/diafygi/acme-tiny
+branches:
+- name: master
+  type: protected
+type: public

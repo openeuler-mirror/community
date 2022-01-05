@@ -1,0 +1,10 @@
+name: python-glances_api
+upstream: https://github.com/fabaff/python-glances-api
+description: Python API for interacting with Glances.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

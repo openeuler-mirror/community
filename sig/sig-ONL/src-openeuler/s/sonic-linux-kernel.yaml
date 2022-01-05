@@ -1,0 +1,7 @@
+name: sonic-linux-kernel
+description: Linux kernel drivers for SONiC project
+upstream: https://github.com/Azure/sonic-linux-kernel
+branches:
+- name: master
+  type: protected
+type: public

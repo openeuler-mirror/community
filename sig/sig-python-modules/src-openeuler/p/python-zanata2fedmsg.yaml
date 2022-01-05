@@ -1,0 +1,10 @@
+name: python-zanata2fedmsg
+upstream: https://github.com/fedora-infra/zanata2fedmsg
+description: zanata2fedmsg bridges zanata to fedmsg
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

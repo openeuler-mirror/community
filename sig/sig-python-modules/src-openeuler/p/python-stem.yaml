@@ -1,0 +1,11 @@
+name: python-stem
+upstream: https://stem.torproject.org/
+description: Stem is a Python controller library that allows applications to interact
+  with Tor (https
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: perl-Business-ISMN
+upstream: http://search.cpan.org/dist/Business-ISMN/
+description: Work with International Standard Music Numbers
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

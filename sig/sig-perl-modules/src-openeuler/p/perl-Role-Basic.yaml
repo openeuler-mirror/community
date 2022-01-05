@@ -1,0 +1,10 @@
+name: perl-Role-Basic
+upstream: http://search.cpan.org/dist/Role-Basic/
+description: Just roles. Nothing else
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

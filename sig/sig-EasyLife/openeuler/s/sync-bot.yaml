@@ -1,0 +1,6 @@
+name: sync-bot
+description: A tool for handling synchronization between branches
+branches:
+- name: master
+  type: protected
+type: public

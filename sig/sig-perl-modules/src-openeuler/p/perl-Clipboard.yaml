@@ -1,0 +1,10 @@
+name: perl-Clipboard
+upstream: http://search.cpan.org/dist/Clipboard/
+description: Copy and paste with any OS
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

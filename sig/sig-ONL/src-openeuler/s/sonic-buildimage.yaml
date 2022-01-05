@@ -1,0 +1,7 @@
+name: sonic-buildimage
+description: Scripts which perform an installable binary image build for SONiC
+upstream: https://github.com/Azure/sonic-buildimage
+branches:
+- name: master
+  type: protected
+type: public

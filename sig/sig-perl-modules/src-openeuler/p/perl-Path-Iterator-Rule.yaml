@@ -1,0 +1,10 @@
+name: perl-Path-Iterator-Rule
+upstream: http://search.cpan.org/dist/Path-Iterator-Rule/
+description: Iterative, recursive file finder
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: perl-Scalar-Construct
+upstream: http://search.cpan.org/dist/Scalar-Construct/
+description: Build custom kinds of scalar
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

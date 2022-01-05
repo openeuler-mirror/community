@@ -1,0 +1,10 @@
+name: python-aspy
+upstream: https://gitlab.com/alantrick/aspy
+description: An activity streams 2 library
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

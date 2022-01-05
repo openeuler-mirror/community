@@ -1,0 +1,10 @@
+name: perl-Net-INET6Glue
+upstream: http://search.cpan.org/dist/Net-INET6Glue/
+description: Make common modules IPv6 ready by hotpatching
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

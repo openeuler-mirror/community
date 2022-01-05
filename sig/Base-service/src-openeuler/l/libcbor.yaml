@@ -1,0 +1,7 @@
+name: libcbor
+description: libcbor is a C library for parsing and generating CBOR.
+upstream: https://github.com/PJK/libcbor
+branches:
+- name: master
+  type: protected
+type: public

@@ -1,0 +1,10 @@
+name: python-wtf-peewee
+upstream: https://github.com/coleifer/wtf-peewee/
+description: WTForms integration for peewee models
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

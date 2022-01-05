@@ -1,0 +1,10 @@
+name: python-firehose
+upstream: https://github.com/fedora-static-analysis/firehose
+description: Library for working with output from static code analyzers
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

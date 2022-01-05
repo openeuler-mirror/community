@@ -1,0 +1,10 @@
+name: perl-DBD-SQLite2
+upstream: http://search.cpan.org/dist/DBD-SQLite2/
+description: Self Contained RDBMS in a DBI Driver (sqlite 2.x)
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

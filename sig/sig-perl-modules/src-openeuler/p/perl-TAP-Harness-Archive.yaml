@@ -1,0 +1,10 @@
+name: perl-TAP-Harness-Archive
+upstream: http://search.cpan.org/dist/TAP-Harness-Archive/
+description: Create an archive of TAP test results
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

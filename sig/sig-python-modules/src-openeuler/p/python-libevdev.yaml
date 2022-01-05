@@ -1,0 +1,10 @@
+name: python-libevdev
+upstream: https://gitlab.freedesktop.org/libevdev/python-libevdev
+description: Python wrapper for libevdev
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

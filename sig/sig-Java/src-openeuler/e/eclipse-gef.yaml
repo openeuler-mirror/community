@@ -1,0 +1,10 @@
+name: eclipse-gef
+description: Graphical Editing Framework (GEF) Eclipse plug-in
+upstream: http://www.eclipse.org/gef/
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

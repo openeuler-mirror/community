@@ -1,0 +1,7 @@
+name: libumem
+description: Port of Solaris's slab allocator
+upstream: https://github.com/gburd/libumem
+branches:
+- name: master
+  type: protected
+type: public

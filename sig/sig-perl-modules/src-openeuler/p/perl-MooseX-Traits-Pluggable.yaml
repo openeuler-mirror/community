@@ -1,0 +1,10 @@
+name: perl-MooseX-Traits-Pluggable
+upstream: http://search.cpan.org/dist/MooseX-Traits-Pluggable/
+description: Trait loading and resolution for Moose
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

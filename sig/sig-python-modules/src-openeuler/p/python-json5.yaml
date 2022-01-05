@@ -1,0 +1,10 @@
+name: python-json5
+upstream: https://github.com/dpranke/pyjson5
+description: A Python implementation of the JSON5 data format.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

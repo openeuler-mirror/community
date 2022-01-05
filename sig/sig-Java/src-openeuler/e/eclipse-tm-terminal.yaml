@@ -1,0 +1,10 @@
+name: eclipse-tm-terminal
+description: Terminal plug-in for Eclipse
+upstream: https://www.eclipse.org/tm/
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

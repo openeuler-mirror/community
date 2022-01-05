@@ -1,0 +1,11 @@
+name: perl-HTTP-BrowserDetect
+upstream: http://search.cpan.org/dist/HTTP-BrowserDetect/
+description: Determine Web browser, version, and platform from an HTTP user agent
+  string
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

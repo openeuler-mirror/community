@@ -1,0 +1,10 @@
+name: perl-HTTP-Headers-Fast
+upstream: http://search.cpan.org/dist/HTTP-Headers-Fast/
+description: Faster implementation of HTTP
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

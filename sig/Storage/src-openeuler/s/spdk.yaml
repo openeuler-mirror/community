@@ -1,0 +1,32 @@
+name: spdk
+description: The Storage Performance Development Kit (SPDK) provides a set of tools
+  and libraries for writing high performance, scalable, user-mode storage applications.
+  It achieves high performance by moving all of the necessary drivers into userspace
+  and operating in a polled mode instead of relying on interrupts, which avoids kernel
+  context switches and eliminates interrupt handling overhead.
+upstream: https://github.com/spdk/spdk
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-SP1
+  type: protected
+  create_from: master
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-21.03
+  type: protected
+  create_from: master
+- name: openEuler-20.03-LTS-SP2
+  type: protected
+  create_from: openEuler-20.03-LTS-Next
+- name: openEuler-21.09
+  type: protected
+  create_from: master
+- name: openEuler-20.03-LTS-SP3
+  type: protected
+  create_from: openEuler-20.03-LTS-Next
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: openEuler-21.09
+type: public

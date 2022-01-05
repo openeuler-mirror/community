@@ -1,0 +1,10 @@
+name: python-mongoengine
+upstream: http://mongoengine.org/
+description: MongoEngine is a Python Object-Document Mapper for working with MongoDB.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

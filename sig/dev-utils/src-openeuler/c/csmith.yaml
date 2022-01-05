@@ -1,0 +1,14 @@
+name: csmith
+description: 'Csmith is a tool that can generate random C programs that statically
+  and dynamically conform to the C99 standard. '
+upstream: http://embed.cs.utah.edu/csmith/
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+- name: openEuler-20.03-LTS
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,7 @@
+name: RISC-V
+rename_from: autobuild-openeuler4riscv
+description: Tools scripts for auto-building openEuler SRPMs for RISC-V
+branches:
+- name: master
+  type: protected
+type: public

@@ -1,0 +1,10 @@
+name: python-littleutils
+upstream: https://github.com/alexmojaki/littleutils
+description: Small personal collection of python utility functions
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

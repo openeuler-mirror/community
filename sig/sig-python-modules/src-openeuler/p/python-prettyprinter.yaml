@@ -1,0 +1,11 @@
+name: python-prettyprinter
+upstream: https://github.com/tommikaikkonen/prettyprinter
+description: Syntax-highlighting, declarative and composable pretty printer for Python
+  3.5+
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

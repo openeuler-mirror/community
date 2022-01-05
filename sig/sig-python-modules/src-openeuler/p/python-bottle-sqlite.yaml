@@ -1,0 +1,10 @@
+name: python-bottle-sqlite
+upstream: http://bottlepy.org/docs/dev/plugins/sqlite.html
+description: SQLite3 integration for Bottle.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

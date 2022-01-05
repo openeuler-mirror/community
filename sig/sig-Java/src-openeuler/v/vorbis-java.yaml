@@ -1,0 +1,10 @@
+name: vorbis-java
+description: Ogg and Vorbis toolkit for Java
+upstream: https://github.com/Gagravarr/VorbisJava
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

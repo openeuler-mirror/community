@@ -1,0 +1,15 @@
+name: hardinfo
+description: HardInfo is a graphical utility for Linux that displays information about
+  various hardware components in your PC like processor, RAM modules, sensors, hard
+  drives and so on.
+upstream: https://github.com/lpereira/hardinfo
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+- name: openEuler-20.03-LTS
+  type: protected
+  create_from: master
+type: public

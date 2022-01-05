@@ -1,0 +1,10 @@
+name: perl-Devel-Confess
+upstream: http://search.cpan.org/dist/Devel-Confess/
+description: Include stack traces on all warnings and errors
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

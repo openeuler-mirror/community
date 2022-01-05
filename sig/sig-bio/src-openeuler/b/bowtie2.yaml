@@ -1,0 +1,7 @@
+name: bowtie2
+description: A fast and sensitive gapped read aligner
+upstream: https://github.com/BenLangmead/bowtie2
+branches:
+- name: master
+  type: protected
+type: public

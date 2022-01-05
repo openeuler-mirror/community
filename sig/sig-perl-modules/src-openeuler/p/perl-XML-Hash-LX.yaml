@@ -1,0 +1,10 @@
+name: perl-XML-Hash-LX
+upstream: http://search.cpan.org/dist/XML-Hash-LX/
+description: Convert hash to xml and xml to hash using LibXML
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

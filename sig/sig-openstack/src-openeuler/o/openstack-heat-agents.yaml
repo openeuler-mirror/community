@@ -1,0 +1,11 @@
+name: openstack-heat-agents
+description: Heat Agents are python hooks for deploying software configurations using
+  heat.
+upstream: https://opendev.org/openstack/heat-agents
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

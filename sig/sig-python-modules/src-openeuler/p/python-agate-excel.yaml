@@ -1,0 +1,10 @@
+name: python-agate-excel
+upstream: http://agate-excel.readthedocs.org/
+description: agate-excel adds read support for Excel files (xls and xlsx) to agate.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

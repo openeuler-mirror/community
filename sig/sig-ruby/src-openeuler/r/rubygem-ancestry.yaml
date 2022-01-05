@@ -1,0 +1,14 @@
+name: rubygem-ancestry
+upstream: https://github.com/stefankroes/ancestry
+description: Ancestry is a gem that allows the records of a Ruby on Rails ActiveRecord
+  model to be organised as a tree structure (or hierarchy). It employs the materialised
+  path pattern and exposes all the standard tree structure relations (ancestors, parent,
+  root, children, siblings, descendants), allowing all of them to be fetched in a
+  single SQL query. Additional features include STI support, scopes, depth caching,
+  depth constraints, easy migration from older gems, integrity checking, integrity
+  restoration, arrangement of (sub)trees into hashes, and various strategies for dealing
+  with orphaned records.
+branches:
+- name: master
+  type: protected
+type: public

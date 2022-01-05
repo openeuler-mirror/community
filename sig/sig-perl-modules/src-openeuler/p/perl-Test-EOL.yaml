@@ -1,0 +1,10 @@
+name: perl-Test-EOL
+upstream: http://search.cpan.org/dist/Test-EOL/
+description: Check the correct line endings in your project
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

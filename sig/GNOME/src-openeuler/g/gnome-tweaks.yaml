@@ -1,0 +1,11 @@
+name: gnome-tweaks
+description: Previously known as Tweak Tool. Graphical interface for advanced GNOME
+  3 settings.
+upstream: https://gitlab.gnome.org/GNOME/gnome-tweaks
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: python-ansible-inventory-grapher
+upstream: http://github.com/willthames/ansible-inventory-grapher
+description: Creates graphs representing ansible inventory
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

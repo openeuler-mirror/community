@@ -1,0 +1,10 @@
+name: perl-MooseX-Getopt
+upstream: http://search.cpan.org/dist/MooseX-Getopt/
+description: Moose role for processing command line options
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

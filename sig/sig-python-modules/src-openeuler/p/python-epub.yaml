@@ -1,0 +1,10 @@
+name: python-epub
+upstream: http://epub.exirel.me
+description: Library to open and read files in the epub version 2.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,11 @@
+name: python-fauxquests
+upstream: https://github.com/lukesneeringer/fauxquests
+description: Mock HTTP requests sent with the requests package. For Python 2 or Python
+  3.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

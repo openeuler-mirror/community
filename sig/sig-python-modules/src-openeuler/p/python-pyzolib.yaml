@@ -1,0 +1,10 @@
+name: python-pyzolib
+upstream: http://bitbucket.org/pyzo/pyzolib
+description: Utilities for the Pyzo environment.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

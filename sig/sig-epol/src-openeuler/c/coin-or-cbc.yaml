@@ -1,0 +1,7 @@
+name: coin-or-cbc
+description: Coin-or branch and cut
+upstream: https://github.com/coin-or/Cbc
+branches:
+- name: master
+  type: protected
+type: public

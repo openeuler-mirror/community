@@ -1,0 +1,10 @@
+name: perl-WWW-Twilio-API
+upstream: http://search.cpan.org/dist/WWW-Twilio-API/
+description: Accessing Twilio's REST API with Perl
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

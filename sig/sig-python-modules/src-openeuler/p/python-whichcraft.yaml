@@ -1,0 +1,10 @@
+name: python-whichcraft
+upstream: https://github.com/pydanny/whichcraft
+description: This package provides cross-platform cross-python shutil.which functionality.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

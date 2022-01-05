@@ -1,0 +1,10 @@
+name: perl-Class-Data-Accessor
+upstream: http://search.cpan.org/dist/Class-Data-Accessor/
+description: Inheritable, overridable class and instance data accessor creation
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

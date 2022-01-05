@@ -1,0 +1,11 @@
+name: perl-Locale-SubCountry
+upstream: http://search.cpan.org/dist/Locale-SubCountry/
+description: Convert state, province, county etc. names to/from ISO 3166-2 codes,
+  get all states in a country
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

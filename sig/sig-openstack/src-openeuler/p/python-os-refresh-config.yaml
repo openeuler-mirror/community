@@ -1,0 +1,10 @@
+name: python-os-refresh-config
+description: Restart services and coordinate data migration on Heat config changes.
+upstream: https://opendev.org/openstack/os-refresh-config
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

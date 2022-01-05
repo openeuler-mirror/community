@@ -1,0 +1,10 @@
+name: lxde-common
+description: Default configuration files for LXDE.
+upstream: https://github.com/lxde/lxde-common
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

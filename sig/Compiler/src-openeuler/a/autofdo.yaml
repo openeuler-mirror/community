@@ -1,0 +1,7 @@
+name: autofdo
+description: AutoFDO uses sampling based profile to drive feedback directed optimizations.
+upstream: https://github.com/google/autofdo
+branches:
+- name: master
+  type: protected
+type: public

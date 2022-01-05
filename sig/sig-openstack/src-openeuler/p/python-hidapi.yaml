@@ -1,0 +1,7 @@
+name: python-hidapi
+description: A Cython interface to the hidapi.
+upstream: https://github.com/libusb/hidapi
+branches:
+- name: master
+  type: protected
+type: public

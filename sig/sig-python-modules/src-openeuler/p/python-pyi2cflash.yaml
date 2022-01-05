@@ -1,0 +1,10 @@
+name: python-pyi2cflash
+upstream: http://github.com/eblot/pyi2cflash
+description: I2C eeprom device drivers (pure Python)
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

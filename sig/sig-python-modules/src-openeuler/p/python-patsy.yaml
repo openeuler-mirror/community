@@ -1,0 +1,11 @@
+name: python-patsy
+upstream: https://github.com/pydata/patsy
+description: A Python package for describing statistical models and for building design
+  matrices.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

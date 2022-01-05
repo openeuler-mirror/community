@@ -1,0 +1,10 @@
+name: perl-PadWalker
+upstream: http://search.cpan.org/dist/PadWalker/
+description: Play with other peoples' lexical variables
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

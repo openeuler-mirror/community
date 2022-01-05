@@ -1,0 +1,8 @@
+name: python-jedi
+description: A static analysis tool for Python that is typically used in IDEs/editors
+  plugins
+upstream: https://github.com/davidhalter/jedi
+branches:
+- name: master
+  type: protected
+type: public

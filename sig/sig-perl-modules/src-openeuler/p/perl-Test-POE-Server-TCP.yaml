@@ -1,0 +1,10 @@
+name: perl-Test-POE-Server-TCP
+upstream: http://search.cpan.org/dist/Test-POE-Server-TCP/
+description: POE Component providing TCP server services for test cases
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

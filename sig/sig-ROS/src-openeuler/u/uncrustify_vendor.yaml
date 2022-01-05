@@ -1,0 +1,8 @@
+name: uncrustify_vendor
+description: Wrapper around uncrustify, providing nothing but a dependency on uncrustify,
+  on some systems.On others, it provides an ExternalProject build of uncrustify.
+upstream: https://github.com/ament/uncrustify_vendor.git
+branches:
+- name: master
+  type: protected
+type: public

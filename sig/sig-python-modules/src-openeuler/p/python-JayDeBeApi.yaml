@@ -1,0 +1,10 @@
+name: python-JayDeBeApi
+upstream: https://github.com/baztian/jaydebeapi
+description: Use JDBC database drivers from Python 2/3 or Jython with a DB-API.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

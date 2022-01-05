@@ -1,0 +1,10 @@
+name: python-pytest-catchlog
+upstream: https://github.com/eisensheng/pytest-catchlog
+description: py.test plugin to catch log messages. This is a fork of pytest-capturelog.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

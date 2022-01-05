@@ -1,0 +1,10 @@
+name: python-rstcheck
+upstream: https://github.com/myint/rstcheck
+description: Checks syntax of reStructuredText and code blocks nested within it
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

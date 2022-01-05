@@ -1,0 +1,10 @@
+name: python-pluginlib
+upstream: https://github.com/Rockhopper-Technologies/pluginlib
+description: A framework for creating and importing plugins
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

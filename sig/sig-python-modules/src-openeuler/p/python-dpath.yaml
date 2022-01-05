@@ -1,0 +1,10 @@
+name: python-dpath
+upstream: https://www.github.com/akesterson/dpath-python
+description: Filesystem-like pathing and searching for dictionaries
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

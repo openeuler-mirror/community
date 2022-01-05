@@ -1,0 +1,10 @@
+name: perl-XML-SAX-ExpatXS
+upstream: http://search.cpan.org/dist/XML-SAX-ExpatXS/
+description: Perl SAX 2 XS extension to Expat parser
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: oldstandard-sfd-fonts
+description: Old Standard True-Type Fonts
+upstream: https://github.com/akryukov/oldstand
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

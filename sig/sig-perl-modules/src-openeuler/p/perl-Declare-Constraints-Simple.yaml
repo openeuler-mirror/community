@@ -1,0 +1,10 @@
+name: perl-Declare-Constraints-Simple
+upstream: http://search.cpan.org/dist/Declare-Constraints-Simple/
+description: Declarative Validation of Data Structures
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,7 @@
+name: rdiff-backup
+description: Convenient and transparent local/remote incremental mirror/backup
+upstream: https://rdiff-backup.net/
+branches:
+- name: master
+  type: protected
+type: public

@@ -1,0 +1,10 @@
+name: perl-XML-Stream
+upstream: http://search.cpan.org/dist/XML-Stream/
+description: Creates an XML Stream connection and parses return data
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

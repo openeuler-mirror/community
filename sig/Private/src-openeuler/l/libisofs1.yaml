@@ -1,0 +1,9 @@
+name: libisofs1
+description: Library to create ISO 9660 disk images.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: private

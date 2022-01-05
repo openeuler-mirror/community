@@ -1,0 +1,14 @@
+name: roscpp_core
+description: "roscore package contains rostime\u3001roscpp_traits\u3001roscpp_serialization\
+  \ that belongs to THE ROS-COMM"
+upstream: https://github.com/ros/roscpp_core
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

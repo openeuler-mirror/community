@@ -1,0 +1,8 @@
+name: rqt_robot_plugins
+description: Metapackage of rqt plugins that are particularly used with robots during
+  its operation.
+upstream: https://github.com/ros-visualization/rqt_robot_plugins
+branches:
+- name: master
+  type: protected
+type: public

@@ -1,0 +1,10 @@
+name: perl-PerlIO-Layers
+upstream: http://search.cpan.org/dist/PerlIO-Layers/
+description: Querying your filehandle's capabilities
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

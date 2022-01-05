@@ -1,0 +1,10 @@
+name: perl-CSS-DOM
+upstream: http://search.cpan.org/dist/CSS-DOM/
+description: Document Object Model for Cascading Style Sheets
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

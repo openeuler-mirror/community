@@ -1,0 +1,11 @@
+name: python-rebulk
+upstream: https://github.com/Toilal/rebulk/
+description: Rebulk - Define simple search patterns in bulk to perform advanced matching
+  on any string.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

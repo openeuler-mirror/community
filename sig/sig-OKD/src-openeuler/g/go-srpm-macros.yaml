@@ -1,0 +1,14 @@
+name: go-srpm-macros
+description: SRPM-stage rpm automation to simplify the creation of Go language (golang)
+  packages
+upstream: https://pagure.io/go-rpm-macros/
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+- name: openEuler-21.03
+  type: protected
+  create_from: master
+type: public

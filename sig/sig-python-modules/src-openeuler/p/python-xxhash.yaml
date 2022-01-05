@@ -1,0 +1,10 @@
+name: python-xxhash
+upstream: https://github.com/ifduyue/python-xxhash
+description: Python binding for xxHash
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

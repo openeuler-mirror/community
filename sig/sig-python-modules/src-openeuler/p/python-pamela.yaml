@@ -1,0 +1,10 @@
+name: python-pamela
+upstream: https://github.com/minrk/pamela
+description: PAM interface using ctypes
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

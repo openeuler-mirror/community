@@ -1,0 +1,10 @@
+name: perl-Crypt-RandPasswd
+upstream: http://search.cpan.org/dist/Crypt-RandPasswd/
+description: Random password generator based on FIPS-181
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

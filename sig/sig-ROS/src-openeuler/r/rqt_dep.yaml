@@ -1,0 +1,7 @@
+name: rqt_dep
+description: rqt_dep provides a GUI plugin for visualizing the ROS dependency graph.
+upstream: https://github.com/ros-visualization/rqt_dep
+branches:
+- name: master
+  type: protected
+type: public

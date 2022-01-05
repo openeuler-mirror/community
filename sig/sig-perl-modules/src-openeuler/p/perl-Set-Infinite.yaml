@@ -1,0 +1,10 @@
+name: perl-Set-Infinite
+upstream: http://search.cpan.org/dist/Set-Infinite/
+description: Sets of intervals
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

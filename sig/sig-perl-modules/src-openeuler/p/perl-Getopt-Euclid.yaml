@@ -1,0 +1,10 @@
+name: perl-Getopt-Euclid
+upstream: http://search.cpan.org/dist/Getopt-Euclid/
+description: Executable Uniform Command-Line Interface Descriptions
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,11 @@
+name: cmockery
+description: A lightweight library to simplify and generalize the process of writing
+  unit tests for C applications
+upstream: https://github.com/google/cmockery
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

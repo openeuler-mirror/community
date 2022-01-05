@@ -1,0 +1,10 @@
+name: perl-Regexp-IPv6
+upstream: http://search.cpan.org/dist/Regexp-IPv6/
+description: Regular expression for IPv6 addresses
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

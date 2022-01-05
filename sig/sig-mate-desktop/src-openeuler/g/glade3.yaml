@@ -1,0 +1,10 @@
+name: glade3
+description: User Interface Designer for GTK+ 2
+upstream: http://glade.gnome.org/
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

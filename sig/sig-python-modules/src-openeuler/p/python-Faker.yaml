@@ -1,0 +1,10 @@
+name: python-Faker
+upstream: https://github.com/joke2k/faker
+description: Faker is a Python package that generates fake data for you.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

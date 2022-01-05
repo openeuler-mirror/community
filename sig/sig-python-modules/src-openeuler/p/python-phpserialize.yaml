@@ -1,0 +1,10 @@
+name: python-phpserialize
+upstream: http://github.com/mitsuhiko/phpserialize
+description: a port of the serialize and unserialize functions of php to python.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

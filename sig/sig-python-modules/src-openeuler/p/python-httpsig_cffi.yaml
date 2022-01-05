@@ -1,0 +1,10 @@
+name: python-httpsig_cffi
+upstream: https://github.com/hawkowl/httpsig_cffi
+description: Secure HTTP request signing using the HTTP Signature draft specification
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

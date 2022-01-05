@@ -1,0 +1,8 @@
+name: python-horovod
+description: Distributed training framework for TensorFlow, Keras, PyTorch, and Apache
+  MXNet.
+upstream: https://github.com/horovod/horovod
+branches:
+- name: master
+  type: protected
+type: public

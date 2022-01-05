@@ -1,0 +1,10 @@
+name: python-email_reply_parser
+upstream: https://github.com/zapier/email-reply-parser
+description: Email reply parser
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

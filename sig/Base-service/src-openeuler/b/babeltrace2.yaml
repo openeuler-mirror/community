@@ -1,0 +1,8 @@
+name: babeltrace2
+description: Babeltrace2 is a completely new implementation of the Common Trace Format
+  (CTF).
+upstream: https://babeltrace.org/
+branches:
+- name: master
+  type: protected
+type: public

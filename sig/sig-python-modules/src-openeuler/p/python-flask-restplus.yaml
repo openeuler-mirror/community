@@ -1,0 +1,11 @@
+name: python-flask-restplus
+upstream: https://github.com/noirbizarre/flask-restplus
+description: Fully featured framework for fast, easy and documented API development
+  with Flask
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

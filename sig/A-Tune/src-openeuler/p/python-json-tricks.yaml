@@ -1,0 +1,17 @@
+name: python-json-tricks
+description: The pyjson-tricks package brings several pieces of functionality to python
+  handling of json files
+upstream: https://github.com/mverleg/pyjson_tricks
+branches:
+- name: master
+  type: protected
+- name: openEuler-21.03
+  type: protected
+  create_from: master
+- name: openEuler-21.09
+  type: protected
+  create_from: master
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: openEuler-21.09
+type: public

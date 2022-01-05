@@ -1,0 +1,11 @@
+name: python-csvkit
+upstream: https://github.com/wireservice/csvkit
+description: A suite of command-line tools for working with CSV, the king of tabular
+  file formats.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,7 @@
+name: catatonit
+description: Catatonit is a /sbin/init program for use within containers.
+upstream: https://github.com/openSUSE/catatonit
+branches:
+- name: master
+  type: protected
+type: public

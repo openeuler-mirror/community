@@ -1,0 +1,8 @@
+name: kbuild-standalone
+description: Standalone kconfig and kbuild. Other projects can depend on this project
+  as basic tools for building like gcc and make, instead of merging them into their
+  own source code.
+branches:
+- name: master
+  type: protected
+type: public

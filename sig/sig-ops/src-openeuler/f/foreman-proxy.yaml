@@ -1,0 +1,7 @@
+name: foreman-proxy
+description: Restful Proxy for DNS, DHCP, TFTP, PuppetCA and Puppet
+upstream: https://theforeman.org/projects/smart-proxy
+branches:
+- name: master
+  type: protected
+type: public

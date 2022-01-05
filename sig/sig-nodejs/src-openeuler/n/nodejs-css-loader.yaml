@@ -1,0 +1,8 @@
+name: nodejs-css-loader
+upstream: https://github.com/webpack-contrib/css-loader
+description: The css-loader interprets @import and url() like import/require() and
+  will resolve them.
+branches:
+- name: master
+  type: protected
+type: public

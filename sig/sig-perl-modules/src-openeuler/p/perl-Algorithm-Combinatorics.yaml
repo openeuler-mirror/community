@@ -1,0 +1,10 @@
+name: perl-Algorithm-Combinatorics
+upstream: http://search.cpan.org/dist/Algorithm-Combinatorics/
+description: Efficient generation of combinatorial sequences
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

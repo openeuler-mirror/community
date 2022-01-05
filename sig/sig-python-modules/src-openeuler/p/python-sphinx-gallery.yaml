@@ -1,0 +1,11 @@
+name: python-sphinx-gallery
+upstream: https://sphinx-gallery.github.io
+description: A Sphinx extension that builds an HTML version of any Python script and
+  puts it into an examples gallery.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

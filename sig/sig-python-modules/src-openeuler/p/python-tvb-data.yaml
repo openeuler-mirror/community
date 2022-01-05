@@ -1,0 +1,10 @@
+name: python-tvb-data
+upstream: http://www.thevirtualbrain.org
+description: A package with data for TVB
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: perl-Alien-Packages
+upstream: http://search.cpan.org/dist/Alien-Packages/
+description: Alien
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

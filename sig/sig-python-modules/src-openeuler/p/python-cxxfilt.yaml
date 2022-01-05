@@ -1,0 +1,10 @@
+name: python-cxxfilt
+upstream: https://github.com/afg984/python-cxxfilt
+description: Python interface to c++filt / abi
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: perl-Data-Perl
+upstream: http://search.cpan.org/dist/Data-Perl/
+description: Base classes wrapping fundamental Perl data types
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

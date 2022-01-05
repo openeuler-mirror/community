@@ -1,0 +1,10 @@
+name: python-modernize
+upstream: https://github.com/python-modernize/python-modernize
+description: A hack on top of 2to3 for modernizing code for hybrid codebases.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

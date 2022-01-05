@@ -1,0 +1,11 @@
+name: python-airspeed
+upstream: https://github.com/purcell/airspeed/
+description: Airspeed is a powerful and easy-to-use templating engine for Python that
+  aims for a high level of compatibility with the popular Velocity library for Java.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

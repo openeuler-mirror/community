@@ -1,0 +1,7 @@
+name: rubyporter
+description: A rpm packager bot for python modules from rubygems.org
+upstream: https://gitee.com/openeuler/rubyporter
+branches:
+- name: master
+  type: protected
+type: public

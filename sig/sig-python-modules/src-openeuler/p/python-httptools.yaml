@@ -1,0 +1,10 @@
+name: python-httptools
+upstream: https://github.com/MagicStack/httptools
+description: A collection of framework independent HTTP protocol utils.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: python-bitcoinlib
+upstream: http://github.com/1200wd/bitcoinlib
+description: Bitcoin and Other cryptocurrency Library
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

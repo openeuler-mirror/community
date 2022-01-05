@@ -1,0 +1,10 @@
+name: perl-Geo-Forward
+upstream: http://search.cpan.org/dist/Geo-Forward/
+description: Calculate geographic location from lat, lon, distance, and heading
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

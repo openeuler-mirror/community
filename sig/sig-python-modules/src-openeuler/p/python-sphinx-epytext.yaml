@@ -1,0 +1,10 @@
+name: python-sphinx-epytext
+upstream: https://github.com/jayvdb/sphinx-epytext
+description: Sphinx "epytext" extension.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

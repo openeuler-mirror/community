@@ -1,0 +1,8 @@
+name: rubygem-apipie-dsl
+upstream: https://github.com/ofedoren/apipie-dsl
+description: Apipie-dsl is a DSL for documenting DSLs written in Ruby. Instead of
+  traditional use of comments, ApipieDSL lets you describe the code, through the code.
+branches:
+- name: master
+  type: protected
+type: public

@@ -1,0 +1,11 @@
+name: perl-Devel-Caller-IgnoreNamespaces
+upstream: http://search.cpan.org/dist/Devel-Caller-IgnoreNamespaces/
+description: Make available a magic caller() which can ignore namespaces that you
+  tell it about
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

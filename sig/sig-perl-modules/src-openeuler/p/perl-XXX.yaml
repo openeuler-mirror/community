@@ -1,0 +1,10 @@
+name: perl-XXX
+description: See Your Data In Your Nude
+upstream: https://metacpan.org/release/XXX
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

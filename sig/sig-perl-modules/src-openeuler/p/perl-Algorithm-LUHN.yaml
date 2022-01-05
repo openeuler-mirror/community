@@ -1,0 +1,10 @@
+name: perl-Algorithm-LUHN
+upstream: http://search.cpan.org/dist/Algorithm-LUHN/
+description: Calculate the Modulus 10 Double Add Double checksum
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

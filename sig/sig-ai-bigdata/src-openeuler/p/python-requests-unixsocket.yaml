@@ -1,0 +1,7 @@
+name: python-requests-unixsocket
+upstream: https://github.com/msabramo/requests-unixsocket
+description: Use requests to talk HTTP via a UNIX domain socket.
+branches:
+- name: master
+  type: protected
+type: public

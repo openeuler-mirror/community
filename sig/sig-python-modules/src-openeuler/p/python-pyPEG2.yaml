@@ -1,0 +1,10 @@
+name: python-pyPEG2
+upstream: http://fdik.org/pyPEG2
+description: An intrinsic PEG Parser-Interpreter for Python
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

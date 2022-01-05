@@ -1,0 +1,10 @@
+name: perl-MooseX-MethodAttributes
+upstream: http://search.cpan.org/dist/MooseX-MethodAttributes/
+description: Code attribute introspection
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: python-dill
+upstream: https://pypi.org/project/dill
+description: serialize all of python
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

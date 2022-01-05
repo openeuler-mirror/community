@@ -1,0 +1,10 @@
+name: perl-Mock-Sub
+upstream: http://search.cpan.org/dist/Mock-Sub/
+description: Mock package, object and standard subroutines, with unit testing in mind
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

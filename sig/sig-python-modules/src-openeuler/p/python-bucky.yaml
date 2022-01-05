@@ -1,0 +1,10 @@
+name: python-bucky
+upstream: http://github.com/trbs/bucky.git
+description: StatsD and CollectD adapter for Graphite
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

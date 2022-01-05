@@ -1,0 +1,10 @@
+name: perl-Net-MQTT-Simple
+upstream: http://search.cpan.org/dist/Net-MQTT-Simple/
+description: Minimal MQTT version 3 interface
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

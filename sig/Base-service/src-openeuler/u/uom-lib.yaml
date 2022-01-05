@@ -1,0 +1,10 @@
+name: uom-lib
+description: Java Unit of Measurement Libraries (JSR 363)
+upstream: https://github.com/unitsofmeasurement/uom-lib
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: python-odfpy
+upstream: https://github.com/eea/odfpy
+description: Python API and tools to manipulate OpenDocument files
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

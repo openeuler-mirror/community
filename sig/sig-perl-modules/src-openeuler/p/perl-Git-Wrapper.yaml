@@ -1,0 +1,10 @@
+name: perl-Git-Wrapper
+upstream: http://search.cpan.org/dist/Git-Wrapper/
+description: Wrap git(7) command-line interface
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

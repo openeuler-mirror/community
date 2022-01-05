@@ -1,0 +1,11 @@
+name: python-django-cors-headers
+upstream: https://github.com/adamchainz/django-cors-headers
+description: A Django App that adds Cross-Origin Resource Sharing (CORS) headers to
+  responses.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

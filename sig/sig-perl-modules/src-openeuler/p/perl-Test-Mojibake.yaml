@@ -1,0 +1,10 @@
+name: perl-Test-Mojibake
+upstream: http://search.cpan.org/dist/Test-Mojibake/
+description: Check your source for encoding misbehavior
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

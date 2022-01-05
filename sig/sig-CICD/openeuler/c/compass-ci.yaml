@@ -1,0 +1,7 @@
+name: compass-ci
+rename_from: crystal-ci
+description: Compass CI
+branches:
+- name: master
+  type: protected
+type: public

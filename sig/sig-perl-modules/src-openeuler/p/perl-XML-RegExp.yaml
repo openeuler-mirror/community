@@ -1,0 +1,10 @@
+name: perl-XML-RegExp
+upstream: http://search.cpan.org/dist/XML-RegExp/
+description: Regular expressions for XML tokens
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

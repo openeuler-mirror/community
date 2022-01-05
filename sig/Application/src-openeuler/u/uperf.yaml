@@ -1,0 +1,14 @@
+name: uperf
+description: uperf is a network performance tool that supports modelling and replay
+  of various networking patterns.
+upstream: https://github.com/uperf/uperf
+branches:
+- name: master
+  type: protected
+- name: openEuler-21.09
+  type: protected
+  create_from: master
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: openEuler-21.09
+type: public

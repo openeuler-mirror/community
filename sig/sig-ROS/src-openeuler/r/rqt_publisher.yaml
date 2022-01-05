@@ -1,0 +1,8 @@
+name: rqt_publisher
+description: rqt_publisher provides a GUI plugin for publishing arbitrary messages
+  with fixed or computed field values.
+upstream: https://github.com/ros-visualization/rqt_publisher
+branches:
+- name: master
+  type: protected
+type: public

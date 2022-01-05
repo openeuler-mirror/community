@@ -1,0 +1,10 @@
+name: perl-Geo-IPfree
+upstream: http://search.cpan.org/dist/Geo-IPfree/
+description: Look up the country of an IPv4 address
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

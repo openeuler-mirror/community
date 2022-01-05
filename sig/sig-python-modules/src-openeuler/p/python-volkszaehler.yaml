@@ -1,0 +1,10 @@
+name: python-volkszaehler
+upstream: https://github.com/fabaff/python-volkszaehler
+description: Python Wrapper for interacting with the Volkszahler API.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

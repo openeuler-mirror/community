@@ -1,0 +1,13 @@
+name: tito
+description: A tool for managing rpm based git projects
+upstream: https://github.com/rpm-software-management/tito
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+- name: openEuler-21.03
+  type: protected
+  create_from: master
+type: public

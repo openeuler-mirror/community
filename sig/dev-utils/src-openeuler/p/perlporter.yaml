@@ -1,0 +1,7 @@
+name: perlporter
+description: A rpm packager bot for perl modules from cpan.org
+upstream: https://gitee.com/openeuler/perlporter
+branches:
+- name: master
+  type: protected
+type: public

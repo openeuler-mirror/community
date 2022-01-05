@@ -1,0 +1,10 @@
+name: python-pysb
+upstream: http://pysb.org/
+description: Python Systems Biology modeling framework
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

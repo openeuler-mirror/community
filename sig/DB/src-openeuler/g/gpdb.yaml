@@ -1,0 +1,21 @@
+name: gpdb
+description: Greenplum Database - Massively Parallel PostgreSQL for Analytics. An
+  open-source massively parallel data platform for analytics, machine learning and
+  AI.
+upstream: https://github.com/greenplum-db/gpdb
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-20.03-LTS-SP1
+  type: protected
+  create_from: openEuler-20.03-LTS-Next
+- name: openEuler-20.03-LTS-SP2
+  type: protected
+  create_from: openEuler-20.03-LTS-Next
+- name: openEuler-20.03-LTS-SP3
+  type: protected
+  create_from: openEuler-20.03-LTS-Next
+type: public

@@ -1,0 +1,10 @@
+name: python-vagrantpy
+upstream: https://github.com/vagrantpy/vagrantpy
+description: Python bindings for interacting with Vagrant virtual machines.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

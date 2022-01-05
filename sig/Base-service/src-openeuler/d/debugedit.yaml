@@ -1,0 +1,12 @@
+name: debugedit
+description: Provides programs and scripts for creating debuginfo and source file
+  distributions, collect build-ids and rewrite source paths in DWARF data for debugging,
+  tracing and profiling.
+upstream: https://sourceware.org/git/debugedit.git
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

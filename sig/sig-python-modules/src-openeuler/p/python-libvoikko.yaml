@@ -1,0 +1,11 @@
+name: python-libvoikko
+upstream: https://voikko.puimula.org/python.html
+description: Python API for libvoikko, library of free natural language processing
+  tools
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: rviz
+description: 3D visualization tool for ROS.
+upstream: https://github.com/ros-visualization/rviz
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

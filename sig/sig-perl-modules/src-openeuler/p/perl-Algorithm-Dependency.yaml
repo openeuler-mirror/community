@@ -1,0 +1,10 @@
+name: perl-Algorithm-Dependency
+upstream: http://search.cpan.org/dist/Algorithm-Dependency/
+description: Base class for implementing various dependency trees
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

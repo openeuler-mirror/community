@@ -1,0 +1,10 @@
+name: perl-POSIX-strftime-Compiler
+upstream: http://search.cpan.org/dist/POSIX-strftime-Compiler/
+description: GNU C library compatible strftime for loggers and servers
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

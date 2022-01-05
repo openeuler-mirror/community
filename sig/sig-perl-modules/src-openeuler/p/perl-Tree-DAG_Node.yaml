@@ -1,0 +1,10 @@
+name: perl-Tree-DAG_Node
+upstream: http://search.cpan.org/dist/Tree-DAG_Node/
+description: N-ary tree
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,7 @@
+name: mingw-headers
+description: MinGW Windows cross-compiler Win64 header files.
+upstream: http://mingw-w64.sourceforge.net/
+branches:
+- name: master
+  type: protected
+type: public

@@ -1,0 +1,10 @@
+name: perl-File-Type-WebImages
+upstream: http://search.cpan.org/dist/File-Type-WebImages/
+description: Determine web image file types using magic
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

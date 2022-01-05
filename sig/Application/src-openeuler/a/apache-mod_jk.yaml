@@ -1,0 +1,10 @@
+name: apache-mod_jk
+description: Connectors between Apache and Tomcat Servlet Container
+upstream: https://tomcat.apache.org/connectors-doc/
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

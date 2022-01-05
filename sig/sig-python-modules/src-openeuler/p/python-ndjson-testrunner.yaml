@@ -1,0 +1,10 @@
+name: python-ndjson-testrunner
+upstream: https://github.com/flying-sheep/ndjson-testrunner
+description: A test runner that outputs newline delimited JSON results
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

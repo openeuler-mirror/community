@@ -1,0 +1,10 @@
+name: perl-Parallel-Scoreboard
+upstream: http://search.cpan.org/dist/Parallel-Scoreboard/
+description: Scoreboard for monitoring status of many workers
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

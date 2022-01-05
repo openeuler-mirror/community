@@ -1,0 +1,11 @@
+name: platform_build
+description: store system compilation Rules and basic development packages such as
+  generic
+upstream: https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/build
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

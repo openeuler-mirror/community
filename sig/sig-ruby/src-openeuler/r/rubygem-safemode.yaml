@@ -1,0 +1,8 @@
+name: rubygem-safemode
+upstream: https://github.com/svenfuchs/safemode
+description: A library for safe evaluation of Ruby code based on RubyParser and Ruby2Ruby.
+  Provides Rails ActionView template handlers for ERB and Haml.
+branches:
+- name: master
+  type: protected
+type: public

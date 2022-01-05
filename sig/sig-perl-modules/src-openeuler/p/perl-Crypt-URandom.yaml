@@ -1,0 +1,10 @@
+name: perl-Crypt-URandom
+upstream: http://search.cpan.org/dist/Crypt-URandom/
+description: Provide non blocking randomness
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

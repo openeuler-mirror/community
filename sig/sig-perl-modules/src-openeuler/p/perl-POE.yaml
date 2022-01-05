@@ -1,0 +1,10 @@
+name: perl-POE
+upstream: http://search.cpan.org/dist/POE/
+description: Portable multitasking and networking framework for any event loop
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

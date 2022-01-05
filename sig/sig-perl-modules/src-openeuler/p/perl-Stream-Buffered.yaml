@@ -1,0 +1,10 @@
+name: perl-Stream-Buffered
+upstream: http://search.cpan.org/dist/Stream-Buffered/
+description: Temporary buffer to save bytes
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

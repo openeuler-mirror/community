@@ -1,0 +1,10 @@
+name: perl-Image-Size
+upstream: http://search.cpan.org/dist/Image-Size/
+description: Read the dimensions of an image in several popular formats
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

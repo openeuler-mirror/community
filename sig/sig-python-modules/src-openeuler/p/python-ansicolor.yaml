@@ -1,0 +1,10 @@
+name: python-ansicolor
+upstream: https://github.com/numerodix/ansicolor
+description: A library to produce ansi color output and colored highlighting and diffing
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

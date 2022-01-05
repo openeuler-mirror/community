@@ -1,0 +1,11 @@
+name: cri-o
+description: Open Container Initiative-based implementation of Kubernetes Container
+  Runtime Interface
+upstream: https://cri-o.io/
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

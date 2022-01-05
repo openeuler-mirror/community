@@ -1,0 +1,10 @@
+name: perl-Config-INI-Reader-Ordered
+upstream: http://search.cpan.org/dist/Config-INI-Reader-Ordered/
+description: .ini-file parser that returns sections in order
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

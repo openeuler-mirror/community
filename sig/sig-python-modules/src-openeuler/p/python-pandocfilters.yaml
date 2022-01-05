@@ -1,0 +1,10 @@
+name: python-pandocfilters
+upstream: http://github.com/jgm/pandocfilters
+description: Utilities for writing pandoc filters in python
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

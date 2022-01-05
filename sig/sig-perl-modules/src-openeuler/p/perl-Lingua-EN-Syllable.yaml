@@ -1,0 +1,10 @@
+name: perl-Lingua-EN-Syllable
+upstream: http://search.cpan.org/dist/Lingua-EN-Syllable/
+description: Count the number of syllables in English words
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: python-jinja2_pluralize
+upstream: https://github.com/audreyr/jinja2_pluralize
+description: Jinja2 pluralize filters.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

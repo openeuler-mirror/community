@@ -1,0 +1,10 @@
+name: perl-Carp-Fix-1_25
+upstream: http://search.cpan.org/dist/Carp-Fix-1_25/
+description: Smooth over incompatible changes in Carp 1.25
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

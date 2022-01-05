@@ -1,0 +1,10 @@
+name: perl-Lingua-Stem-Ru
+upstream: http://search.cpan.org/dist/Lingua-Stem-Ru/
+description: Porter's stemming algorithm for Russian (KOI8-R only)
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

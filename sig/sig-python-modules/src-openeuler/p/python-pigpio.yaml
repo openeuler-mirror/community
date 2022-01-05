@@ -1,0 +1,10 @@
+name: python-pigpio
+upstream: http://abyz.me.uk/rpi/pigpio/python.html
+description: Raspberry Pi GPIO module
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

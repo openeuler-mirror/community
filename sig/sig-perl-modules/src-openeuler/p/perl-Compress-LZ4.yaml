@@ -1,0 +1,10 @@
+name: perl-Compress-LZ4
+upstream: http://search.cpan.org/dist/Compress-LZ4/
+description: Perl interface to the LZ4 (de)compressor
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,7 @@
+name: perl-JSON-MaybeXS
+upstream: https://metacpan.org/release/JSON-MaybeXS/
+description: Use Cpanel::JSON::XS with a fallback to JSON::XS and JSON::PP
+branches:
+- name: master
+  type: protected
+type: public

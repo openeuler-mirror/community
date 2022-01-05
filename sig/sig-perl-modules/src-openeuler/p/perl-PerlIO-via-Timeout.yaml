@@ -1,0 +1,10 @@
+name: perl-PerlIO-via-Timeout
+upstream: http://search.cpan.org/dist/PerlIO-via-Timeout/
+description: PerlIO layer that adds read & write timeout to a handle
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

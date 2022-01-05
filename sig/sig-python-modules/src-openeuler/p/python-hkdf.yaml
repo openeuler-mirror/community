@@ -1,0 +1,10 @@
+name: python-hkdf
+upstream: https://github.com/casebeer/python-hkdf
+description: HMAC-based Extract-and-Expand Key Derivation Function (HKDF)
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

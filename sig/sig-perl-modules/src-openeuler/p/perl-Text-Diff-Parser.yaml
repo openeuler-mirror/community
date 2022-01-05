@@ -1,0 +1,10 @@
+name: perl-Text-Diff-Parser
+upstream: http://search.cpan.org/dist/Text-Diff-Parser/
+description: Parse patch files containing unified and standard diffs
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

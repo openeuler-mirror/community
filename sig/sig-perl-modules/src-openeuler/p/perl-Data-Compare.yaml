@@ -1,0 +1,10 @@
+name: perl-Data-Compare
+upstream: http://search.cpan.org/dist/Data-Compare/
+description: Compare perl data structures
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

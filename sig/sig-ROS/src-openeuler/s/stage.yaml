@@ -1,0 +1,10 @@
+name: stage
+description: Mobile robot simulator.
+upstream: https://github.com/rtv/Stage
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

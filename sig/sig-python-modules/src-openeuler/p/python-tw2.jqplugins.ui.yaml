@@ -1,0 +1,10 @@
+name: python-tw2.jqplugins.ui
+upstream: http://github.com/toscawidgets/tw2.jqplugins.ui
+description: toscawidgets2 wrapper for jquery-ui
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: python-astroquery
+upstream: http://astropy.org/astroquery
+description: Functions and classes to access online astronomical data resources
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

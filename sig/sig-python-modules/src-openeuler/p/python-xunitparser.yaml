@@ -1,0 +1,10 @@
+name: python-xunitparser
+upstream: http://git.p.engu.in/laurentb/xunitparser/
+description: Read JUnit/XUnit XML files and map them to Python objects
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public
