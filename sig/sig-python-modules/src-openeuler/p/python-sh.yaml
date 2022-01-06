@@ -1,0 +1,10 @@
+name: python-sh
+upstream: https://github.com/amoffat/sh
+description: Python subprocess replacement
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

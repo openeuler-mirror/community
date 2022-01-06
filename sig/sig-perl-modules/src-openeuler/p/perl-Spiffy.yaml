@@ -1,0 +1,10 @@
+name: perl-Spiffy
+upstream: http://search.cpan.org/dist/Spiffy/
+description: Spiffy Perl Interface Framework For You
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

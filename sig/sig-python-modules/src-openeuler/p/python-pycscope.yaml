@@ -1,0 +1,10 @@
+name: python-pycscope
+upstream: http://github.com/portante/pycscope
+description: Generates a cscope index of Python source trees
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

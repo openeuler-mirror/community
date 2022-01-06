@@ -1,0 +1,10 @@
+name: perl-MooseX-LazyRequire
+upstream: http://search.cpan.org/dist/MooseX-LazyRequire/
+description: Required attributes which fail only when trying to use them
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,8 @@
+name: ambari
+description: Apache Ambari is a tool for provisioning, managing, and monitoring Apache
+  Hadoop clusters.
+upstream: https://github.com/apache/ambari
+branches:
+- name: master
+  type: protected
+type: public

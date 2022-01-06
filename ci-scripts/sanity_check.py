@@ -4,12 +4,14 @@ This is a sanity checking tool for openEuler community database
 """
 import os.path
 import sys
+import re
+
 import argparse
 import subprocess
 import yaml
 
 SUPPORTED_VER_MIN = 1.0
-SUPPORTED_VER_MAX = 2.0
+SUPPORTED_VER_MAX = 3.0
 
 SIGS_YAML = "sig/sigs.yaml"
 EXP_YAML = "zh/technical-committee/governance/exceptions.yaml"
@@ -51,6 +53,44 @@ def check_0(community):
         sys.exit(1)
 
     return oe_repos, src_oe_repos, oe_version
+
+def check_0_v3(community):
+    """
+    Load everything
+    """
+    print("Load everything and check consistent of name")
+
+    oe_repos = [] 
+    src_oe_repos = []
+
+    sig_path = os.path.expanduser(os.path.join(community, "sig"))
+
+    pattern = re.compile("(.*)/sig/(.*)/((src-)?openeuler)/([a-z])/(.*).yaml")
+
+    for root, dirs, files in os.walk(sig_path):
+        for f in files:
+            fn = os.path.join(root, f)
+            match_obj = pattern.match(fn)
+            if match_obj:
+                if match_obj[6][0].lower() != match_obj[5]:
+                    print("%s is not consistent with directory %s"%(f, root))
+                    sys.exit(1)
+                elif match_obj[3] == "openeuler": 
+                    oe_repo = load_yaml(root, f)
+                    if oe_repo['name']+".yaml" != f:
+                        print("%s is not consistent with name %s in yaml"%(fn, oe_repo['name']))
+                        sys.exit(1)
+                    oe_repos.append(oe_repo)
+                elif match_obj[3] == "src-openeuler":
+                    src_repo = load_yaml(root, f)
+                    if src_repo['name']+".yaml" != f:
+                        print("%s is not consistent with name %s in yaml"%(fn, src_repo['name']))
+                        sys.exit(1)
+                    src_oe_repos.append(src_repo)
+            elif f.endswith(".yaml") and "openeuler" in fn:
+                print("It seems %s is putting a wrong place"%(fn))
+            
+    return oe_repos, src_oe_repos, 3.0
 
 def check_1(sigs, exps):
     """
@@ -155,15 +195,15 @@ def check_3(sigs):
 
 def check_4(exps, prefix, oe_repos, supervisors, cross_checked_repo):
     """
-    YAML in repository/ should be consisitent with sigs.yaml
+    Repository type should be consisitent with sigs
     """
-    print("repository/{prefix}.yaml should be consisitent with sigs.yaml".format(prefix=prefix))
+    print("Repository should be consisitent with sigs".format(prefix=prefix))
 
     errors_found = 0
 
-    err_msg1 = "ERROR! Repository {name} marked as public in {prefix}.yaml, "\
+    err_msg1 = "ERROR! Repository {name} marked as public, "\
                "but listed in Private SIG."
-    err_msg2 = "WARNING! Repository {name} marked as private in {prefix}.yaml, "\
+    err_msg2 = "WARNING! Repository {name} marked as private, "\
                "but not listed in Private SIG."
 
     for repo in oe_repos:
@@ -175,12 +215,12 @@ def check_4(exps, prefix, oe_repos, supervisors, cross_checked_repo):
             continue
 
         if name in cross_checked_repo:
-            print("ERROR! Repository {name} in {prefix}.yaml has duplication."
+            print("ERROR! Repository {name} in {prefix} has duplication."
                   .format(name=name, prefix=prefix))
             errors_found += 1
         if not supervisors.get(name, False):
             if name not in exps:
-                print("ERROR! Repository {name} in {prefix}.yaml cannot be found in sigs.yaml."
+                print("ERROR! Repository {name} in {prefix} cannot be found in sigs."
                       .format(name=name, prefix=prefix))
                 errors_found += 1
         if repo["type"] == "public" and "Private" in supervisors.get(name, set()):
@@ -199,16 +239,16 @@ def check_4(exps, prefix, oe_repos, supervisors, cross_checked_repo):
 
 def check_6(cross_checked_repo, supervisors):
     """
-    All repositories in sigs.yaml must list in either openeuler.yaml or src-openeuler.yaml
+    All repositories in sigs must list in either openeuler or src-openeuler
     """
-    print("All repositories in sigs.yaml must list in either openeuler.yaml or src-openeuler.yaml")
+    print("All repositories in sigs must list in either openeuler or src-openeuler")
     errors_found = 0
 
     # if len(cross_checked_repo) != len(supervisors):
 
     for repo in supervisors:
         if not repo in cross_checked_repo:
-            print("ERROR! {name} listed in sigs.yaml, but not in {oe}.yaml"
+            print("ERROR! {name} listed in sigs, but not in {oe}"
                   .format(name=repo, oe=repo.split("/")[0]))
             errors_found = errors_found + 1
 
@@ -430,6 +470,80 @@ def check_100(oe_repos, srcoe_repos, super_visor, community_dir):
 
     return errors_found
 
+def check_100_v3(changed_repos, oe_repos, src_oe_repos, super_visor, community_dir):
+    """
+    Newly changed repositories must follow the OE requirements
+    """
+    print("Newly changed repositories must follow the OE requirements")
+    errors_found = 0
+    error_msg = """Some newly changed repositories doesn't follow the OE requirments"""
+
+    _ = super_visor
+
+    black_list = load_yaml(community_dir, BLC_YAML)["blacklist-software"]
+    black_dict = {i["name"]: i["reason"] for i in black_list}
+    sigs_attention = set()
+
+    oe_dict = {f["name"]: f for f in oe_repos}
+    src_oe_dict = {f["name"]: f for f in src_oe_repos}
+
+    for repo in changed_repos:
+        status, sig_name, prefix, repo_name = repo
+        if status == 'A' or status == 'R' or status == 'M':
+            print("INFO: adding " + repo_name + " to SIG " + sig_name)
+            if prefix == "openeuler":
+                r = oe_dict.get(repo_name)
+                errors_found += oe_requirements(r, black_dict)
+            elif prefix == "src-openeuler":
+                r = src_oe_dict.get(repo_name)
+                errors_found += srcoe_requirements(r, black_dict)
+            else:
+                pass
+            sigs_attention.add(sig_name)
+        elif status == 'D':
+            print("WARNING: deleteing " + prefix + "%s." % repo_name)
+
+    if errors_found != 0:
+        print(error_msg)
+    else:
+        print("PASS WITHOUT ISSUES FOUND.")
+
+    # We are not forcing this rule yet
+    if sigs_attention:
+        print("\nSUGGESTION: This PR needs to be reviewed by maintainers from following SIG(s).")
+        for sig in sigs_attention:
+            if sig == "Private":
+                continue
+            else:
+                print(sig, end=': ')
+                owners = load_yaml(community_dir, "sig/" + sig + "/OWNERS")["maintainers"]
+                for owner in owners:
+                    print("@" + owner, end=' ')
+                print("")
+
+    return errors_found
+
+def get_changed_repo_v3(community_dir):
+    """
+    Helper to get changed repo file
+    """
+    old_dir = os.getcwd()
+    os.chdir(community_dir)
+    git_diff_cmd = "git diff --no-commit-id --name-status remotes/origin/master.."
+    child_stdout = subprocess.check_output(git_diff_cmd, shell=True).decode('utf-8')
+
+    pattern = re.compile("([ADM])\tsig/(.*)/((src-)?openeuler)/[a-z]/(.*).yaml")
+
+    res_list = []
+    for line in child_stdout.split("\n"):
+        res = pattern.match(line) 
+        if not res:
+            continue
+        else:
+            item = (res.group(1), res.group(2), res.group(3), res.group(5))
+            res_list.append(item)
+    os.chdir(old_dir)
+    return res_list
 
 def prepare_master_branch_yaml(community_dir):
     """
@@ -474,20 +588,16 @@ def load_yaml(directory, yaml_file):
     return result
 
 
-def main():
+def v12_main(community):
     """
     Main entrance of functionality
     """
-    par = argparse.ArgumentParser()
 
-    par.add_argument("community", type=str, help="Local path of community repository")
-    args = par.parse_args()
-
-    sig_list = load_yaml(args.community, SIGS_YAML)["sigs"]
+    sig_list = load_yaml(community, SIGS_YAML)["sigs"]
     #sig_yaml = load_yaml(args.community, SIGS_YAML)["sigs"]
     #sig_list = sig_yaml["sigs"]
 
-    exception_list = load_yaml(args.community, EXP_YAML)["exceptions"]
+    exception_list = load_yaml(community, EXP_YAML)["exceptions"]
 
     repo_supervisors = {}
     repo_cross_checked = set()
@@ -496,7 +606,7 @@ def main():
     issues_found = 0
 
     print("\nCheck 0:")
-    oe_repos, src_oe_repos, oe_ver = check_0(args.community)
+    oe_repos, src_oe_repos, oe_ver = check_0(community)
 
     print("\nCheck 1:")
     issues_found += check_1(sig_list, exception_list)
@@ -530,20 +640,118 @@ def main():
         issues_found += check_8_v2(oe_repos, src_oe_repos)
 
     print("\nCheck Last:")
-    prepare_master_branch_yaml(args.community)
+    prepare_master_branch_yaml(community)
 
-    prev_oe_yaml = load_yaml(args.community, M_OE_YAML)
+    prev_oe_yaml = load_yaml(community, M_OE_YAML)
     prev_oe_repos = prev_oe_yaml["repositories"]
 
-    prev_src_oe_yaml = load_yaml(args.community, M_SRC_OE_YAML)
+    prev_src_oe_yaml = load_yaml(community, M_SRC_OE_YAML)
     prev_src_oe_repos = prev_src_oe_yaml["repositories"]
 
     issues_found += check_100([oe_repos, prev_oe_repos],
                               [src_oe_repos, prev_src_oe_repos],
-                              repo_supervisors, args.community)
-    cleanup_master_branch_yaml(args.community)
+                              repo_supervisors, community)
+    cleanup_master_branch_yaml(community)
 
     sys.exit(issues_found)
 
+
+def generate_sig_list(community):
+    """
+    Generate sig_list from list of yaml files
+    """
+    sig_list = []
+    sig_dict = {}
+    sig_path = os.path.expanduser(os.path.join(community, "sig"))
+    sig_file_list = []
+
+    for root, dirs, files in os.walk(sig_path):
+        for f in files:
+            fn, fext = os.path.splitext(f)
+            hd, tl = os.path.split(root)
+            hd1, oe = os.path.split(hd)
+            hd0, sig_name = os.path.split(hd1)
+            if oe == 'openeuler' or oe == 'src-openeuler':
+                if sig_name != "":
+                    sig = sig_dict.get(sig_name, list())
+                    sig.append("/".join([oe, fn]))
+                    sig_dict[sig_name] = sig
+            
+    for k in sig_dict:
+        sig = {}
+        sig['name'] = k
+        sig['repositories'] = sig_dict[k]
+        sig_list.append(sig)
+
+    return sig_list
+
+
+def v3_main(community):
+    """
+    Main entrance of functionality for v3
+    """
+
+    sig_list = generate_sig_list(community)
+    exception_list = load_yaml(community, EXP_YAML)["exceptions"]
+
+    repo_supervisors = {}
+    repo_cross_checked = set()
+
+    print("Sanity Check among different YAML database inside openEuler community.")
+    issues_found = 0
+
+    print("\nCheck 0:")
+    oe_repos, src_oe_repos, oe_ver = check_0_v3(community)
+
+    print("\nCheck 1:")
+    issues_found += check_1(sig_list, exception_list)
+
+    print("\nCheck 2:")
+    issues_found += check_2(sig_list, exception_list)
+
+    print("\nCheck 3:")
+    repo_supervisors = check_3(sig_list)
+
+    print("\nCheck 4:")
+    issues, repo_cross_checked = check_4(exception_list, "openeuler",
+                                         oe_repos, repo_supervisors, repo_cross_checked)
+    issues_found += issues
+
+    print("\nCheck 5:")
+    issues, repo_cross_checked = check_4(exception_list, "src-openeuler",
+                                         src_oe_repos, repo_supervisors, repo_cross_checked)
+    issues_found += issues
+
+    print("\nCheck 6:")
+    issues_found += check_6(repo_cross_checked, repo_supervisors)
+
+    print("\nCheck 7:")
+    issues_found += check_7(oe_repos, src_oe_repos)
+
+ 
+    print("\nCheck 8:")
+    if oe_ver < 2.0:
+        issues_found += check_8_v1(oe_repos, src_oe_repos)
+    else:
+        issues_found += check_8_v2(oe_repos, src_oe_repos)
+
+    # following check is disabled temp.
+    #print("\nCheck Last:")
+
+    #changed_list = get_changed_repo_v3(community)
+
+    #issues_found += check_100_v3(changed_list, oe_repos, src_oe_repos, repo_supervisors, community)
+
+    sys.exit(issues_found)
+
+
 if __name__ == "__main__":
-    main()
+    par = argparse.ArgumentParser()
+
+    par.add_argument("community", type=str, help="Local path of community repository")
+    args = par.parse_args()
+
+    if os.path.exists(os.path.expanduser(os.path.join(args.community, SIGS_YAML))):
+        v12_main(args.community)
+    else:
+        v3_main(args.community)

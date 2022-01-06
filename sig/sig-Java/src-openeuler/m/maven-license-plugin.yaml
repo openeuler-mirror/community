@@ -1,0 +1,7 @@
+name: maven-license-plugin
+description: Maven plugin to update header licenses of source files
+upstream: http://github.com/mycila/license-maven-plugin
+branches:
+- name: master
+  type: protected
+type: public

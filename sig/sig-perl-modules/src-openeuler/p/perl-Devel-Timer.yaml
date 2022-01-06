@@ -1,0 +1,10 @@
+name: perl-Devel-Timer
+upstream: http://search.cpan.org/dist/Devel-Timer/
+description: Track and report execution time for parts of code
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

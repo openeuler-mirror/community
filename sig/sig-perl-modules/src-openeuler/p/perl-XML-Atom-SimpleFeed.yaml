@@ -1,0 +1,10 @@
+name: perl-XML-Atom-SimpleFeed
+upstream: http://search.cpan.org/dist/XML-Atom-SimpleFeed/
+description: No-fuss generation of Atom syndication feeds
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

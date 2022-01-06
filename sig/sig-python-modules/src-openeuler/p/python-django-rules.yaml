@@ -1,0 +1,9 @@
+name: python-django-rules
+upstream: http://github.com/dfunckt/django-rules
+description: rules is a tiny but powerful app providing object-level permissions to
+  Django, without requiring a database.
+branches:
+- name: master
+  type: protected
+  create_from: master
+type: public

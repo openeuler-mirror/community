@@ -1,0 +1,10 @@
+name: perl-Test-Time
+upstream: http://search.cpan.org/dist/Test-Time/
+description: Overrides the time() and sleep() core functions for testing
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

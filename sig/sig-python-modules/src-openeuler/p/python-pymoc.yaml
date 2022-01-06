@@ -1,0 +1,10 @@
+name: python-pymoc
+upstream: http://github.com/grahambell/pymoc
+description: Multi-Order Coverage map module for Python
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

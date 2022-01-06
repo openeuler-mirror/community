@@ -1,0 +1,10 @@
+name: python-pytest-cache
+upstream: http://bitbucket.org/hpk42/pytest-cache/
+description: pytest plugin with mechanisms for caching across test runs
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

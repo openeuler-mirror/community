@@ -1,0 +1,14 @@
+name: deepin-music
+description: Deepin music is a local music player with beautiful design and simple
+  functions developed by Deepin Technology.
+upstream: https://github.com/linuxdeepin/deepin-music
+branches:
+- name: master
+  type: protected
+- name: openEuler-21.09
+  type: protected
+  create_from: master
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: openEuler-21.09
+type: public

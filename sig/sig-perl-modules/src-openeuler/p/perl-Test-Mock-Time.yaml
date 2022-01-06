@@ -1,0 +1,10 @@
+name: perl-Test-Mock-Time
+upstream: http://search.cpan.org/dist/Test-Mock-Time/
+description: Deterministic time & timers for event loop tests
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

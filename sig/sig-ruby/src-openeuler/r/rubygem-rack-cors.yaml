@@ -1,0 +1,7 @@
+name: rubygem-rack-cors
+upstream: https://github.com/cyu/rack-cors/
+description: Middleware that will make Rack-based apps CORS compatible.
+branches:
+- name: master
+  type: protected
+type: public

@@ -1,0 +1,7 @@
+name: flexiblas
+description: A BLAS/LAPACK wrapper library with runtime exchangeable backends
+upstream: https://www.mpi-magdeburg.mpg.de/projects/flexiblas
+branches:
+- name: master
+  type: protected
+type: public

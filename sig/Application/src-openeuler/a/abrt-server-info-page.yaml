@@ -1,0 +1,8 @@
+name: abrt-server-info-page
+upstream: https://github.com/abrt/abrt-server-info-page
+description: Web page for use as front page of ABRT servers. Contains information
+  about ABRT's products.
+branches:
+- name: master
+  type: protected
+type: public

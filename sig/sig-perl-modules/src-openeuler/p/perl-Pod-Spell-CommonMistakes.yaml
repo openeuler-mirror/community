@@ -1,0 +1,10 @@
+name: perl-Pod-Spell-CommonMistakes
+upstream: http://search.cpan.org/dist/Pod-Spell-CommonMistakes/
+description: Catches common typos in POD
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

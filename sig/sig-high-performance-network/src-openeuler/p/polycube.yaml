@@ -1,0 +1,11 @@
+name: polycube
+description: eBPF/XDP-based software framework for fast network services running in
+  the Linux kernel.
+upstream: https://github.com/polycube-network/polycube
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

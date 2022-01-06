@@ -1,0 +1,10 @@
+name: perl-Log-ger
+upstream: http://search.cpan.org/dist/Log-ger/
+description: Lightweight, flexible logging framework
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

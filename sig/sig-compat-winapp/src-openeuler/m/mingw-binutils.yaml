@@ -1,0 +1,7 @@
+name: mingw-binutils
+description: Cross-compiled version of binutils for Win32 and Win64 environments.
+upstream: http://www.gnu.org/software/binutils/
+branches:
+- name: master
+  type: protected
+type: public

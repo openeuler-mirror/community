@@ -1,0 +1,10 @@
+name: python-speaklater
+upstream: http://github.com/mitsuhiko/speaklater
+description: implements a lazy string for python useful for use with gettext
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

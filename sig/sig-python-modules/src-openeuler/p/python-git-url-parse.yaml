@@ -1,0 +1,10 @@
+name: python-git-url-parse
+upstream: https://github.com/retr0h/git-url-parse
+description: git-url-parse - A simple GIT URL parser.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

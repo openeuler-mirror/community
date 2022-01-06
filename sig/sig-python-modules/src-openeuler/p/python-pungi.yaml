@@ -1,0 +1,10 @@
+name: python-pungi
+upstream: https://github.com/endeepak/pungi
+description: Simple and powerful mocking framework with extensible assertion matchers
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

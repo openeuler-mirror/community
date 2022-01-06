@@ -1,0 +1,12 @@
+name: image_transport
+description: image_transport should always be used to subscribe to and publish images.
+  It provides transparent support for transporting images in low-bandwidth compressed
+  formats.
+upstream: https://github.com/ros-perception/image_common
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: python-multiprocessing
+description: Backport of the multiprocessing package to Python 2.4 and 2.5
+upstream: http://code.google.com/p/python-multiprocessing
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

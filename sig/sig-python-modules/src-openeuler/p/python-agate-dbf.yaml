@@ -1,0 +1,10 @@
+name: python-agate-dbf
+upstream: http://agate-dbf.readthedocs.org/
+description: agate-dbf adds read support for dbf files to agate.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

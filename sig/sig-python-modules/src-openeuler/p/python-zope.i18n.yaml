@@ -1,0 +1,10 @@
+name: python-zope.i18n
+upstream: https://github.com/zopefoundation/zope.i18n
+description: Zope Internationalization Support
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

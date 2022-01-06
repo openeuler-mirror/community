@@ -1,0 +1,10 @@
+name: plymouth-theme-kiran
+description: Plymouth theme for KylinSec OS
+upstream: https://gitee.com/kylinsecos/plymouth-theme-kiran
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

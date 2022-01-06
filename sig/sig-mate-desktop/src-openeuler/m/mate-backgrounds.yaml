@@ -1,0 +1,10 @@
+name: mate-backgrounds
+description: This module contains a set of backgrounds packaged with the MATE desktop.
+upstream: https://github.com/mate-desktop/mate-backgrounds
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

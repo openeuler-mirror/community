@@ -1,0 +1,8 @@
+name: rqt_web
+description: rqt_web is a simple web content viewer for rqt. Users can show web content
+  in Qt-based window by specifying its URL.
+upstream: https://github.com/ros-visualization/rqt_web
+branches:
+- name: master
+  type: protected
+type: public

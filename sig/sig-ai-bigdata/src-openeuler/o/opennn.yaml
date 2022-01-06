@@ -1,0 +1,10 @@
+name: opennn
+description: an open source neural networks library for machine learning.
+upstream: https://www.opennn.net/
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

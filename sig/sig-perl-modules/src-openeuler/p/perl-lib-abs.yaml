@@ -1,0 +1,10 @@
+name: perl-lib-abs
+upstream: http://search.cpan.org/dist/lib-abs/
+description: Lib that makes relative path absolute to caller
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

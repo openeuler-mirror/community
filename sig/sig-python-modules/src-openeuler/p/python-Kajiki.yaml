@@ -1,0 +1,10 @@
+name: python-Kajiki
+upstream: https://github.com/nandoflorestan/kajiki
+description: Fast XML-based template engine with Genshi syntax and Jinja blocks
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

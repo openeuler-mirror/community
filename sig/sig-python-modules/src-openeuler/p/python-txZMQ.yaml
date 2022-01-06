@@ -1,0 +1,10 @@
+name: python-txZMQ
+upstream: https://github.com/smira/txZMQ
+description: Twisted bindings for ZeroMQ
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

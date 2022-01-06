@@ -1,0 +1,10 @@
+name: python-firewall
+upstream: https://github.com/mattrobenolt/firewall
+description: Punch a hole into an AWS EC2 security group temporarily
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

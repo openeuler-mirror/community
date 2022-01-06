@@ -1,0 +1,8 @@
+name: rubygem-kafo
+upstream: https://github.com/theforeman/kafo
+description: If you write puppet modules for installing your software, you can use
+  kafo to create powerful installer
+branches:
+- name: master
+  type: protected
+type: public

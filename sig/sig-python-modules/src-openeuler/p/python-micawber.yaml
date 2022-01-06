@@ -1,0 +1,10 @@
+name: python-micawber
+upstream: http://github.com/coleifer/micawber/
+description: a small library for extracting rich content from urls
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: perl-Iterator-Simple-Lookahead
+upstream: http://search.cpan.org/dist/Iterator-Simple-Lookahead/
+description: Simple iterator with lookahead and unget
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

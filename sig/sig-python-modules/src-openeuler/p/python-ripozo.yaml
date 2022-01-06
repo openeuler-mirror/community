@@ -1,0 +1,11 @@
+name: python-ripozo
+upstream: http://ripozo.readthedocs.org/
+description: ReSTful API framework with HATEOAS support and compatibility with Flask,
+  Django, SQLAlchemy and more.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

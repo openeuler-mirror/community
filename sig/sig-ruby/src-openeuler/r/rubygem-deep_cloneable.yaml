@@ -1,0 +1,8 @@
+name: rubygem-deep_cloneable
+upstream: https://github.com/moiristo/deep_cloneable
+description: Extends the functionality of ActiveRecord::Base#dup to perform a deep
+  clone that includes user specified associations.
+branches:
+- name: master
+  type: protected
+type: public

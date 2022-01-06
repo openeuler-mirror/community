@@ -1,0 +1,10 @@
+name: perl-Mail-Message
+upstream: http://search.cpan.org/dist/Mail-Message/
+description: General message object
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

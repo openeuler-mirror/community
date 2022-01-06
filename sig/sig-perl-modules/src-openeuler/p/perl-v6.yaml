@@ -1,0 +1,10 @@
+name: perl-v6
+upstream: http://search.cpan.org/dist/v6/
+description: Perl 6 implementation
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

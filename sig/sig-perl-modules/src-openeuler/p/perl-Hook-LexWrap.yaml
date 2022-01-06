@@ -1,0 +1,10 @@
+name: perl-Hook-LexWrap
+upstream: http://search.cpan.org/dist/Hook-LexWrap/
+description: Lexically scoped subroutine wrappers
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: python-liquidctl
+upstream: https://github.com/jonasmalacofilho/liquidctl
+description: Cross-platform tool and drivers for liquid coolers and other devices
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

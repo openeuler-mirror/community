@@ -1,0 +1,10 @@
+name: python-whois
+upstream: https://github.com/DannyCork/python-whois/
+description: Python package for retrieving WHOIS information of domains.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

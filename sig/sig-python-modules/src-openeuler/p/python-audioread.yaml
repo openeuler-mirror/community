@@ -1,0 +1,10 @@
+name: python-audioread
+upstream: https://github.com/sampsyo/audioread
+description: multi-library, cross-platform audio decoding
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

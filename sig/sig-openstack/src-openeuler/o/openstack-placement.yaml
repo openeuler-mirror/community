@@ -1,0 +1,24 @@
+name: openstack-placement
+description: OpenStack Placement provides an HTTP service for managing, selecting,
+  and claiming providers of classes of inventory representing available resources
+  in a cloud.
+upstream: https://opendev.org/openstack/placement
+branches:
+- name: master
+  type: protected
+- name: openEuler-21.03
+  type: protected
+  create_from: master
+- name: openEuler-21.09
+  type: protected
+  create_from: master
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-20.03-LTS-SP3
+  type: protected
+  create_from: openEuler-20.03-LTS-Next
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: openEuler-21.09
+type: public

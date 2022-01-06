@@ -1,0 +1,10 @@
+name: perl-RDF-Prefixes
+upstream: http://search.cpan.org/dist/RDF-Prefixes/
+description: Simple way to turn URIs into QNames
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

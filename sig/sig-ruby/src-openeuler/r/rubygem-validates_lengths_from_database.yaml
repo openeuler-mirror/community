@@ -1,0 +1,8 @@
+name: rubygem-validates_lengths_from_database
+upstream: https://github.com/rubiety/validates_lengths_from_database
+description: Introspects your database string field maximum lengths and automatically
+  defines length validations.
+branches:
+- name: master
+  type: protected
+type: public

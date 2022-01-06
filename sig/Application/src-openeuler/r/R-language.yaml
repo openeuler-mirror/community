@@ -1,0 +1,10 @@
+name: R-language
+description: A language for data analysis and graphics
+upstream: http://www.r-project.org
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

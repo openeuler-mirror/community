@@ -1,0 +1,11 @@
+name: python-django-annoying
+upstream: https://github.com/skorokithakis/django-annoying
+description: A django application that tries to eliminate annoying things in the Django
+  framework.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

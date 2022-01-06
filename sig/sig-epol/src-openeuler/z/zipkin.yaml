@@ -1,0 +1,7 @@
+name: zipkin
+description: Opensource Distributed Tracing System
+upstream: https://zipkin.io
+branches:
+- name: master
+  type: protected
+type: public

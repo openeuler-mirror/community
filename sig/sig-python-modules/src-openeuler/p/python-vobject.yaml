@@ -1,0 +1,11 @@
+name: python-vobject
+upstream: http://eventable.github.io/vobject/
+description: A full-featured Python package for parsing and creating iCalendar and
+  vCard files
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

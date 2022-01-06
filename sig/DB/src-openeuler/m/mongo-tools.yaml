@@ -1,0 +1,7 @@
+name: mongo-tools
+description: The MongoDB tools provides import, export, and diagnostic capabilities.
+upstream: https://github.com/mongodb/mongo-tools
+branches:
+- name: master
+  type: protected
+type: public

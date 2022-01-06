@@ -1,0 +1,10 @@
+name: nodejs-argv-parse
+upstream: https://github.com/paulcpederson/argv-parse
+description: Parse command line arguments. This is a lot like yargs or optimist but
+  not as feature rich. You can specify flags, aliases, or not. Can pass arrays, strings,
+  and booleans. No dependencies. If you don't need array arguments, I'd recommend
+  using minimist which is very good.
+branches:
+- name: master
+  type: protected
+type: public

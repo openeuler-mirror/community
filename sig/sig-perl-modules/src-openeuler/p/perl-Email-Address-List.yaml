@@ -1,0 +1,10 @@
+name: perl-Email-Address-List
+upstream: http://search.cpan.org/dist/Email-Address-List/
+description: RFC close address list parsing
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

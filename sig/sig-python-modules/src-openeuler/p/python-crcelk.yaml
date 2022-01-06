@@ -1,0 +1,13 @@
+name: python-crcelk
+upstream: https://github.com/zeroSteiner/crcelk
+description: CrcElk is an updated fork of the CrcMoose module for recent versions
+  of Python. It provides a pure Python implementation of the CRC algorithm and allows
+  for variants to easily be defined by providing their parameters such as width, starting
+  polynomial, etc. Python versions 2.6+ and 3.1+ are supported.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

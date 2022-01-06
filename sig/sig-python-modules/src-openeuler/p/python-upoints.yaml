@@ -1,0 +1,10 @@
+name: python-upoints
+upstream: https://github.com/JNRowe/upoints/
+description: Modules for working with points on Earth
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

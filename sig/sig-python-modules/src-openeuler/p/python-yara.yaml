@@ -1,0 +1,10 @@
+name: python-yara
+upstream: http://code.google.com/p/yara-project/
+description: Compile YARA rules to test against files or strings
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

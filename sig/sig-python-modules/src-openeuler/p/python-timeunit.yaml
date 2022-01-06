@@ -1,0 +1,10 @@
+name: python-timeunit
+upstream: https://github.com/Ralph-Wang/timeunit-python
+description: timeunit
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

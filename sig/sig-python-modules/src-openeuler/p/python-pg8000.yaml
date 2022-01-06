@@ -1,0 +1,10 @@
+name: python-pg8000
+upstream: https://github.com/tlocke/pg8000
+description: PostgreSQL interface library
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

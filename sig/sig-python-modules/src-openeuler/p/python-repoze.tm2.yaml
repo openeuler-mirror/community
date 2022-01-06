@@ -1,0 +1,10 @@
+name: python-repoze.tm2
+upstream: http://www.repoze.org
+description: Per-request transactions via WSGI middleware
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

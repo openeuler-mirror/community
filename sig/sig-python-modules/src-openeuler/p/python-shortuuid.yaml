@@ -1,0 +1,10 @@
+name: python-shortuuid
+upstream: https://github.com/stochastic-technologies/shortuuid/
+description: A generator library for concise, unambiguous and URL-safe UUIDs.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

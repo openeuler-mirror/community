@@ -1,0 +1,8 @@
+name: rqt_logger_level
+description: rqt_logger_level provides a GUI plugin for configuring the logger level
+  of ROS nodes.
+upstream: https://github.com/ros-visualization/rqt_logger_level
+branches:
+- name: master
+  type: protected
+type: public

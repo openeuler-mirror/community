@@ -1,0 +1,10 @@
+name: perl-Data-Dmp
+upstream: http://search.cpan.org/dist/Data-Dmp/
+description: Dump Perl data structures as Perl code
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

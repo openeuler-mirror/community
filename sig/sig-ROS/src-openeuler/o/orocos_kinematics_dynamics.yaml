@@ -1,0 +1,8 @@
+name: orocos_kinematics_dynamics
+description: This package contains a recent version of the Kinematics and Dynamics
+  Library (KDL), distributed by the Orocos Project.
+upstream: https://github.com/orocos/orocos_kinematics_dynamics
+branches:
+- name: master
+  type: protected
+type: public

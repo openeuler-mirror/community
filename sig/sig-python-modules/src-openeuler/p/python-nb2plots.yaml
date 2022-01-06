@@ -1,0 +1,10 @@
+name: python-nb2plots
+upstream: http://github.com/matthew-brett/nb2plots
+description: Converting between ipython notebooks and sphinx docs
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

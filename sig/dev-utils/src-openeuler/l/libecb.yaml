@@ -1,0 +1,8 @@
+name: libecb
+description: The compiler built-ins contains files are delivered by libecb-devel both
+  header and library.
+upstream: http://software.schmorp.de/pkg/libecb.html
+branches:
+- name: master
+  type: protected
+type: public

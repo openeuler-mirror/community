@@ -1,0 +1,11 @@
+name: ovirt-engine-extension-logger-log4j
+description: This package contains the oVirt Engine Logger Log4j extensions to forward
+  oVirt engine logs to remote syslog service.
+upstream: https://gerrit.ovirt.org/#/admin/projects/ovirt-engine-extension-logger-log4j
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

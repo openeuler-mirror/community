@@ -1,0 +1,10 @@
+name: python-fido2
+upstream: https://github.com/Yubico/python-fido2
+description: Python based FIDO 2.0 library
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

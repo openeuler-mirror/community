@@ -1,0 +1,11 @@
+name: python-dns-lexicon
+upstream: https://github.com/AnalogJ/lexicon
+description: Manipulate DNS records on various DNS providers in a standardized/agnostic
+  way
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

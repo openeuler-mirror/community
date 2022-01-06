@@ -1,0 +1,10 @@
+name: python-libnl
+upstream: https://github.com/Robpol86/libnl
+description: Pure Python port of the Netlink protocol library suite.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

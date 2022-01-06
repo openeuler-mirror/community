@@ -1,0 +1,10 @@
+name: python-yaspin
+upstream: https://github.com/pavdmyt/yaspin
+description: Yet Another Terminal Spinner
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

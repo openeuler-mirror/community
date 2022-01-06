@@ -1,0 +1,10 @@
+name: python-pkgwat.api
+upstream: http://github.com/fedora-infra/pkgwat.api
+description: Python API for querying the fedora packages webapp
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: python-openidc-client
+upstream: https://github.com/puiterwijk/python-openidc-client
+description: OpenID Connect Client with caching and token management
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

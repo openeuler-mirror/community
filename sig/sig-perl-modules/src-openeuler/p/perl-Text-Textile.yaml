@@ -1,0 +1,10 @@
+name: perl-Text-Textile
+upstream: http://search.cpan.org/dist/Text-Textile/
+description: Text
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

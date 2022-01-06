@@ -1,0 +1,10 @@
+name: perl-Sys-Info-Base
+upstream: http://search.cpan.org/dist/Sys-Info-Base/
+description: VERSION
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,7 @@
+name: beanstalkd
+description: Simple and fast general purpose work queue.
+upstream: https://github.com/beanstalkd/beanstalkd
+branches:
+- name: master
+  type: protected
+type: public

@@ -1,0 +1,8 @@
+name: joint_state_publisher
+description: This package contains a tool for setting and publishing joint state values
+  for a given URDF.
+upstream: https://github.com/ros/joint_state_publisher
+branches:
+- name: master
+  type: protected
+type: public

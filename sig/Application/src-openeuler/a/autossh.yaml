@@ -1,0 +1,7 @@
+name: autossh
+description: Utility to autorestart SSH tunnels.
+upstream: https://www.harding.motd.ca/autossh
+branches:
+- name: master
+  type: protected
+type: public

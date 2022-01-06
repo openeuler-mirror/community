@@ -1,0 +1,10 @@
+name: perl-Text-CSV-Separator
+upstream: http://search.cpan.org/dist/Text-CSV-Separator/
+description: Determine the field separator of a CSV file
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

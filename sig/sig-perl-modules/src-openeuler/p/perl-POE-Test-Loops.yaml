@@ -1,0 +1,10 @@
+name: perl-POE-Test-Loops
+upstream: http://search.cpan.org/dist/POE-Test-Loops/
+description: Reusable tests for POE
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

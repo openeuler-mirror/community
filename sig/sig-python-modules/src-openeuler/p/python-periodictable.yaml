@@ -1,0 +1,10 @@
+name: python-periodictable
+upstream: http://www.reflectometry.org/danse/elements.html
+description: Extensible periodic table of the elements
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

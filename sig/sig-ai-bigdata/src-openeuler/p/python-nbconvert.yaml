@@ -1,0 +1,7 @@
+name: python-nbconvert
+upstream: https://github.com/jupyter/nbconvert
+description: Converts notebooks to various other formats via Jinja templates.
+branches:
+- name: master
+  type: protected
+type: public

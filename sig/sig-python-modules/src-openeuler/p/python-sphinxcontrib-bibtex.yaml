@@ -1,0 +1,10 @@
+name: python-sphinxcontrib-bibtex
+description: Sphinx extension for BibTeX style citations.
+upstream: https://github.com/mcmtroffaes/sphinxcontrib-bibtex
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

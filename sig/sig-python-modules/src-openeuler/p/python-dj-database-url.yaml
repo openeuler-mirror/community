@@ -1,0 +1,10 @@
+name: python-dj-database-url
+upstream: https://github.com/kennethreitz/dj-database-url
+description: Use Database URLs in your Django Application.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

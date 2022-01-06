@@ -1,0 +1,25 @@
+name: jakarta-servlet
+description: Server-side API for handling HTTP requests and responses
+upstream: https://github.com/eclipse-ee4j/servlet-api
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-20.03-LTS-SP1
+  type: protected
+  create_from: openEuler-20.03-LTS-Next
+- name: openEuler-20.03-LTS-SP2
+  type: protected
+  create_from: openEuler-20.03-LTS-Next
+- name: openEuler-20.03-LTS-SP3
+  type: protected
+  create_from: openEuler-20.03-LTS-Next
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: openEuler-21.09
+- name: openEuler-21.09
+  type: protected
+  create_from: master
+type: public

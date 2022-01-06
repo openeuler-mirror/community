@@ -1,0 +1,10 @@
+name: python-xpath-expressions
+upstream: https://github.com/orf/xpath-expressions
+description: Treat XPath expressions as Python objects
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

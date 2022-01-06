@@ -1,0 +1,10 @@
+name: hunspell-ta
+description: Hunspell dictionaries for Tamil
+upstream: https://git.centos.org/rpms/hunspell-ta/tree/c8
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,7 @@
+name: foreman-installer
+description: Puppet-based installer for The Foreman
+upstream: https://theforeman.org
+branches:
+- name: master
+  type: protected
+type: public

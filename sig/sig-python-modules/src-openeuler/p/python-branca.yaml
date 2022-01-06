@@ -1,0 +1,10 @@
+name: python-branca
+upstream: https://github.com/python-visualization/branca
+description: Generate complex HTML+JS pages with Python
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

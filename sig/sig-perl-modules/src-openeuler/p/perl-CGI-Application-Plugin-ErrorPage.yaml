@@ -1,0 +1,10 @@
+name: perl-CGI-Application-Plugin-ErrorPage
+upstream: http://search.cpan.org/dist/CGI-Application-Plugin-ErrorPage/
+description: Simple error page plugin for CGI
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

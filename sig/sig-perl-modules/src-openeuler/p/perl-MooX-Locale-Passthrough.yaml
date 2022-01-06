@@ -1,0 +1,10 @@
+name: perl-MooX-Locale-Passthrough
+upstream: http://search.cpan.org/dist/MooX-Locale-Passthrough/
+description: Provide API used in translator modules without translating
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

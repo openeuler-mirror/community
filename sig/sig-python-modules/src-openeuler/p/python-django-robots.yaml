@@ -1,0 +1,10 @@
+name: python-django-robots
+upstream: https://github.com/jazzband/django-robots/
+description: Robots exclusion application for Django, complementing Sitemaps.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

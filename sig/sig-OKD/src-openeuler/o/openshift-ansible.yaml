@@ -1,0 +1,10 @@
+name: openshift-ansible
+description: Install and config an OpenShift 3.x cluster
+upstream: https://github.com/openshift/openshift-ansible
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

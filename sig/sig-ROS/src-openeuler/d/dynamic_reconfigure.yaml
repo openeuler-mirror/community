@@ -1,0 +1,11 @@
+name: dynamic_reconfigure
+description: The dynamic_reconfigure package provides a means to update parameters
+  at runtime without having to restart the node.
+upstream: https://github.com/ros/dynamic_reconfigure
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

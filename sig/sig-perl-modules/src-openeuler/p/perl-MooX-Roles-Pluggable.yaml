@@ -1,0 +1,10 @@
+name: perl-MooX-Roles-Pluggable
+upstream: http://search.cpan.org/dist/MooX-Roles-Pluggable/
+description: Moo eXtension for pluggable roles
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

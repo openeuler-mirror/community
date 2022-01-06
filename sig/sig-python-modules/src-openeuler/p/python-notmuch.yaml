@@ -1,0 +1,10 @@
+name: python-notmuch
+upstream: https://github.com/weilbith/notmuch-bindings.git
+description: Python binding of the notmuch mail search and indexing library.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

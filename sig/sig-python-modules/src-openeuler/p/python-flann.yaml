@@ -1,0 +1,11 @@
+name: python-flann
+upstream: https://github.com/pypa/flann
+description: flann is the python 3.6 bindings for FLANN - Fast Library for Approximate
+  Nearest Neighbors.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: perl-Text-Sprintf-Named
+upstream: http://search.cpan.org/dist/Text-Sprintf-Named/
+description: Sprintf-like function with named conversions
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

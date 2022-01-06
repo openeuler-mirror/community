@@ -1,0 +1,10 @@
+name: perl-Symbol-Global-Name
+upstream: http://search.cpan.org/dist/Symbol-Global-Name/
+description: Finds name and type of a global variable
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: python-fontdump
+upstream: https://github.com/glasslion/fontdump
+description: A cli tool to dump the CSS and different formats offonts for Google Fonts
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

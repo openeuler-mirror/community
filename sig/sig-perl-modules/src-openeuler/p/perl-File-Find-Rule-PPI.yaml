@@ -1,0 +1,10 @@
+name: perl-File-Find-Rule-PPI
+upstream: http://search.cpan.org/dist/File-Find-Rule-PPI/
+description: Add support for PPI queries to File
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

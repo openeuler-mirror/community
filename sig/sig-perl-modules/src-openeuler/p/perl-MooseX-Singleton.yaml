@@ -1,0 +1,10 @@
+name: perl-MooseX-Singleton
+upstream: http://search.cpan.org/dist/MooseX-Singleton/
+description: Turn your Moose class into a singleton
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

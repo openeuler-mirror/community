@@ -1,0 +1,7 @@
+name: scalapack
+description: A subset of LAPACK routines redesigned for heterogeneous computing
+upstream: http://www.netlib.org/scalapack/
+branches:
+- name: master
+  type: protected
+type: public

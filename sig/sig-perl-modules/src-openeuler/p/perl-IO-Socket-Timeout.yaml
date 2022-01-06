@@ -1,0 +1,10 @@
+name: perl-IO-Socket-Timeout
+upstream: http://search.cpan.org/dist/IO-Socket-Timeout/
+description: IO
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

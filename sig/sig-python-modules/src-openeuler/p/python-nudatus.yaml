@@ -1,0 +1,11 @@
+name: python-nudatus
+upstream: https://github.com/zanderbrown/nudatus
+description: Strip comments from scripts, intended for use with MicroPython and other
+  storage constrained environments
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

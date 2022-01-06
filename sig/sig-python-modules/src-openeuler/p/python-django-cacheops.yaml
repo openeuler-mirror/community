@@ -1,0 +1,8 @@
+name: python-django-cacheops
+description: A slick ORM cache with automatic granular event-driven invalidation for
+  Django.
+upstream: https://github.com/Suor/django-cacheops.git
+branches:
+- name: master
+  type: protected
+type: public

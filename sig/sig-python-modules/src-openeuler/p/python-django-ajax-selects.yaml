@@ -1,0 +1,11 @@
+name: python-django-ajax-selects
+upstream: https://github.com/crucialfelix/django-ajax-selects/
+description: Edit ForeignKey, ManyToManyField and CharField in Django Admin using
+  jQuery UI AutoComplete.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

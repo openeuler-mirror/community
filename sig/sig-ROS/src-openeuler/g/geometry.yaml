@@ -1,0 +1,10 @@
+name: geometry
+description: A metapackage for geometry library suite.
+upstream: https://github.com/ros/geometry
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

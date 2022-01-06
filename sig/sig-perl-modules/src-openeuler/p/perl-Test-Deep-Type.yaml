@@ -1,0 +1,10 @@
+name: perl-Test-Deep-Type
+upstream: http://search.cpan.org/dist/Test-Deep-Type/
+description: Test
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

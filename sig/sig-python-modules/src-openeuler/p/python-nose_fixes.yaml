@@ -1,0 +1,10 @@
+name: python-nose_fixes
+upstream: http://packages.python.org/nose_fixes
+description: A plugin to make nose behave better.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

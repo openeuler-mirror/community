@@ -1,0 +1,10 @@
+name: ibus-kkc
+description: A Japanese Kana Kanji input engine for IBus
+upstream: https://github.com/ueno/ibus-kkc
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: perl-Test-Harness-Straps
+upstream: http://search.cpan.org/dist/Test-Harness-Straps/
+description: Detailed analysis of test results
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

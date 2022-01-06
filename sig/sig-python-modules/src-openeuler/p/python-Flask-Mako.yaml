@@ -1,0 +1,10 @@
+name: python-Flask-Mako
+upstream: https://github.com/benselme/flask-mako
+description: Mako templating support for Flask applications.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

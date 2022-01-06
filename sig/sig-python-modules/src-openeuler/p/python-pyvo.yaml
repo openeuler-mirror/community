@@ -1,0 +1,11 @@
+name: python-pyvo
+upstream: https://github.com/astropy/pyvo
+description: Astropy affiliated package for accessing Virtual Observatory data and
+  services
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

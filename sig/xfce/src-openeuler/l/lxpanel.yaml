@@ -1,0 +1,10 @@
+name: lxpanel
+description: A lightweight X11 desktop panel.
+upstream: https://github.com/lxde/lxpanel
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: lxtask
+description: Lightweight and desktop independent task manager.
+upstream: https://github.com/lxde/lxtask
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

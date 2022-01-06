@@ -1,0 +1,10 @@
+name: atomic
+description: The goal of Atomic is to provide a high level, coherent entrypoint to
+  the system, and fill in gaps. atomic can make it easier to interact with container
+  runtimes for different kinds of containers, such as super-privileged and system
+  containers. The atomic host subcommand wraps rpm-ostree providing unified management.
+upstream: https://gitee.com/kylinsecos_admin/atomic
+branches:
+- name: master
+  type: protected
+type: public

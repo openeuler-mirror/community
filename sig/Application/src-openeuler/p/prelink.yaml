@@ -1,0 +1,7 @@
+name: prelink
+description: Utility to set/clear/query executable stack bit
+upstream: https://github.com/keszybz/prelink/
+branches:
+- name: master
+  type: protected
+type: public

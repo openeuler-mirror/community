@@ -1,0 +1,10 @@
+name: python-clint
+upstream: https://github.com/kennethreitz/clint
+description: Python Command Line Interface Tools
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

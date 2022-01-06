@@ -1,0 +1,10 @@
+name: jersey1
+description: JAX-RS (JSR 311) production quality Reference Implementation
+upstream: http://jersey.java.net/
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

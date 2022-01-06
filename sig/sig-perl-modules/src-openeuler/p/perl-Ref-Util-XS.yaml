@@ -1,0 +1,10 @@
+name: perl-Ref-Util-XS
+upstream: http://search.cpan.org/dist/Ref-Util-XS/
+description: XS implementation for Ref
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

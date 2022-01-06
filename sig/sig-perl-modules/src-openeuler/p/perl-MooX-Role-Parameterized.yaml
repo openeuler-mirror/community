@@ -1,0 +1,10 @@
+name: perl-MooX-Role-Parameterized
+upstream: http://search.cpan.org/dist/MooX-Role-Parameterized/
+description: Roles with composition parameters
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,7 @@
+name: chromium
+description: A WebKit (Blink) powered web browser
+upstream: https://github.com/chromium/chromium
+branches:
+- name: master
+  type: protected
+type: public

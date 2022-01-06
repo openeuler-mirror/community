@@ -1,0 +1,10 @@
+name: gtk2-engines
+description: Theme engines for GTK+ 2.0
+upstream: http://download.gnome.org/sources/gtk-engines
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

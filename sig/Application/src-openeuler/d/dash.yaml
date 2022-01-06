@@ -1,0 +1,8 @@
+name: dash
+upstream: http://gondor.apana.org.au/~herbert/dash/
+description: DASH is a POSIX-compliant implementation of /bin/sh that aims to be as
+  small aspossible. It doeain SHell) for most tasks.
+branches:
+- name: master
+  type: protected
+type: public

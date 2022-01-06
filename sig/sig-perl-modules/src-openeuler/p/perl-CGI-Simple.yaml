@@ -1,0 +1,10 @@
+name: perl-CGI-Simple
+upstream: http://search.cpan.org/dist/CGI-Simple/
+description: Simple totally OO CGI interface that is CGI.pm compliant
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

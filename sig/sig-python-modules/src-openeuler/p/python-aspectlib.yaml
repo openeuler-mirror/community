@@ -1,0 +1,11 @@
+name: python-aspectlib
+upstream: https://github.com/ionelmc/python-aspectlib
+description: '``aspectlib`` is an aspect-oriented programming, monkey-patch and decorators
+  library. It is useful when changing'
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

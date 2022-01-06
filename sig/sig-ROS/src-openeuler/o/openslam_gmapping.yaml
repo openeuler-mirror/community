@@ -1,0 +1,10 @@
+name: openslam_gmapping
+description: The catkinized verseion of openslam_gmapping package
+upstream: https://github.com/ros-perception/openslam_gmapping
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

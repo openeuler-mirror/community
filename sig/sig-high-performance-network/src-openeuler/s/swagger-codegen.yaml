@@ -1,0 +1,9 @@
+name: swagger-codegen
+description: This is the swagger codegen project, which allows generation of API client
+  libraries (SDK generation), server stubs and documentation automatically given an
+  OpenAPI Spec.
+upstream: https://swagger.io/tools/swagger-codegen/
+branches:
+- name: master
+  type: protected
+type: public

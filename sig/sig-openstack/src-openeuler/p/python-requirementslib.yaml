@@ -1,0 +1,10 @@
+name: python-requirementslib
+description: A tool for converting between pip-style and pipfile requirements.
+upstream: https://github.com/sarugaku/requirementslib
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

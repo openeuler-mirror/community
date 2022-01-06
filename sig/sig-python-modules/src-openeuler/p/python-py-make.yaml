@@ -1,0 +1,10 @@
+name: python-py-make
+upstream: https://github.com/tqdm/pymake
+description: Makefile execution powered by pure Python
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,8 @@
+name: rqt_common_plugins
+description: rqt_common_plugins metapackage provides ROS backend graphical tools suite
+  that can be used on/off of robot runtime.
+upstream: https://github.com/ros-visualization/rqt_common_plugins
+branches:
+- name: master
+  type: protected
+type: public

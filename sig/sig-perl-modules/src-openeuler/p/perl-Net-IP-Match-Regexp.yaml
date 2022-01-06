@@ -1,0 +1,10 @@
+name: perl-Net-IP-Match-Regexp
+upstream: http://search.cpan.org/dist/Net-IP-Match-Regexp/
+description: Efficiently match IP addresses against ranges
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

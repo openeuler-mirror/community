@@ -1,0 +1,7 @@
+name: telegraf
+description: The plugin-driven server agent for collecting and reporting metrics
+upstream: https://github.com/influxdata/telegraf
+branches:
+- name: master
+  type: protected
+type: public

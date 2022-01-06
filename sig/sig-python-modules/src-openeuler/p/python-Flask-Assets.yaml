@@ -1,0 +1,11 @@
+name: python-Flask-Assets
+upstream: http://github.com/miracle2k/flask-assets
+description: Asset management for Flask, to compress and merge CSS and Javascript
+  files.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

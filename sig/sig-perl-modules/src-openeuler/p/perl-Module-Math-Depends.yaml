@@ -1,0 +1,10 @@
+name: perl-Module-Math-Depends
+upstream: http://search.cpan.org/dist/Module-Math-Depends/
+description: Convenience object for manipulating module dependencies
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

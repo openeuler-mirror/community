@@ -1,0 +1,10 @@
+name: perl-REST-Client
+upstream: http://search.cpan.org/dist/REST-Client/
+description: Simple client for interacting with RESTful http/https resources
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: shibboleth-java-support
+description: Java Support for Shibboleth projects
+upstream: http://shibboleth.net/
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

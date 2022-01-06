@@ -1,0 +1,10 @@
+name: python-qrcodegen
+upstream: https://www.nayuki.io/page/qr-code-generator-library
+description: High quality QR Code generator library for Python 2 and 3
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

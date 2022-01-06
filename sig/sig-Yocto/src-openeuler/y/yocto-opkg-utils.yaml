@@ -1,0 +1,7 @@
+name: yocto-opkg-utils
+description: Helper scripts for use with the opkg package manager
+upstream: https://git.yoctoproject.org/git/opkg-utils
+branches:
+- name: master
+  type: protected
+type: public

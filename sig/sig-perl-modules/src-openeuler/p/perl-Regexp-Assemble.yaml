@@ -1,0 +1,10 @@
+name: perl-Regexp-Assemble
+upstream: http://search.cpan.org/dist/Regexp-Assemble/
+description: Assemble multiple Regular Expressions into a single RE
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

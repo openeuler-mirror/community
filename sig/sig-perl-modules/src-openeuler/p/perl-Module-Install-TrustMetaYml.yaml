@@ -1,0 +1,10 @@
+name: perl-Module-Install-TrustMetaYml
+upstream: http://search.cpan.org/dist/Module-Install-TrustMetaYml/
+description: Trusts META.yml list of dependencies
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

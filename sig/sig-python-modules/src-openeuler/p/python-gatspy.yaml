@@ -1,0 +1,10 @@
+name: python-gatspy
+upstream: http://github.com/astroml/gatspy
+description: General tools for Astronomical Time Series in Python
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

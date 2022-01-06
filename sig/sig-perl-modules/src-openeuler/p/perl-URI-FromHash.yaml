@@ -1,0 +1,10 @@
+name: perl-URI-FromHash
+upstream: http://search.cpan.org/dist/URI-FromHash/
+description: Build a URI from a set of named parameters
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

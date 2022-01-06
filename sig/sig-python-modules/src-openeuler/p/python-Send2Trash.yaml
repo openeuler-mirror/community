@@ -1,0 +1,10 @@
+name: python-Send2Trash
+upstream: https://github.com/hsoft/send2trash
+description: Send file to trash natively under Mac OS X, Windows and Linux.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

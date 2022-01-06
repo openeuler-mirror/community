@@ -1,0 +1,10 @@
+name: python-copr-common
+upstream: https://pagure.io/copr/copr
+description: Common python code used by Copr.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

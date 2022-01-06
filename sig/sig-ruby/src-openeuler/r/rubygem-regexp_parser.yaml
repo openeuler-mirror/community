@@ -1,0 +1,7 @@
+name: rubygem-regexp_parser
+description: A library for tokenizing, lexing, and parsing Ruby regular expressions.
+upstream: https://github.com/ammar/regexp_parser
+branches:
+- name: master
+  type: protected
+type: public

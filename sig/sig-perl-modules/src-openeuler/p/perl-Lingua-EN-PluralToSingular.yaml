@@ -1,0 +1,10 @@
+name: perl-Lingua-EN-PluralToSingular
+upstream: http://search.cpan.org/dist/Lingua-EN-PluralToSingular/
+description: Change an English plural to a singular
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

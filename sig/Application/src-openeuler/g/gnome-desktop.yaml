@@ -1,0 +1,7 @@
+name: gnome-desktop
+description: Shared code among gnome-panel, gnome-session, nautilus, etc
+upstream: http://www.gnome.org
+branches:
+- name: master
+  type: protected
+type: public

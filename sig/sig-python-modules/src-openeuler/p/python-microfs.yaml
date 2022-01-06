@@ -1,0 +1,10 @@
+name: python-microfs
+upstream: https://github.com/ntoll/microfs
+description: A module and utility to work with the simple filesystem on the BBC micro
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

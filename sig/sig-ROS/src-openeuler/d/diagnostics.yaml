@@ -1,0 +1,11 @@
+name: diagnostics
+description: The diagnostics system is designed to collect information from hardware
+  drivers and robot hardware to users and operators for analysis.
+upstream: https://github.com/ros/diagnostics
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

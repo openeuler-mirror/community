@@ -1,0 +1,10 @@
+name: perl-Config-Std
+upstream: http://search.cpan.org/dist/Config-Std/
+description: Load and save configuration files in a standard format
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

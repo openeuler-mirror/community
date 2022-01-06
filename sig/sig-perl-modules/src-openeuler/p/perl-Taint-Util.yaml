@@ -1,0 +1,10 @@
+name: perl-Taint-Util
+upstream: http://search.cpan.org/dist/Taint-Util/
+description: Test for and flip the taint flag without regex matches or eval
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

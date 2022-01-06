@@ -1,0 +1,10 @@
+name: perl-FCGI-ProcManager
+upstream: http://search.cpan.org/dist/FCGI-ProcManager/
+description: Functions for managing FastCGI applications
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

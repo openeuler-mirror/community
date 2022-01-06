@@ -1,0 +1,10 @@
+name: python-vatnumber
+upstream: http://code.google.com/p/vatnumber/
+description: '[UNMAINTAINED] Python module to validate VAT numbers'
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,7 @@
+name: barcode
+description: Generates barcodes from text strings
+upstream: https://www.gnu.org/software/barcode/
+branches:
+- name: master
+  type: protected
+type: public

@@ -1,0 +1,10 @@
+name: perl-PPIx-QuoteLike
+upstream: http://search.cpan.org/dist/PPIx-QuoteLike/
+description: Parse Perl string literals and string-literal-like things
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

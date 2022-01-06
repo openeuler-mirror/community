@@ -1,0 +1,10 @@
+name: perl-Convert-NLS_DATE_FORMAT
+upstream: http://search.cpan.org/dist/Convert-NLS_DATE_FORMAT/
+description: Convert Oracle NLS_DATE_FORMAT <-> strftime Format Strings
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

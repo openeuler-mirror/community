@@ -1,0 +1,11 @@
+name: python-django-tinymce
+upstream: https://github.com/aljosa/django-tinymce
+description: A Django application that contains a widget to render a form field as
+  a TinyMCE editor.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

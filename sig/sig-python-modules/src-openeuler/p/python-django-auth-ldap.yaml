@@ -1,0 +1,8 @@
+name: python-django-auth-ldap
+description: This is a Django authentication backend that authenticates against an
+  LDAP service
+upstream: https://github.com/django-auth-ldap/django-auth-ldap.git
+branches:
+- name: master
+  type: protected
+type: public

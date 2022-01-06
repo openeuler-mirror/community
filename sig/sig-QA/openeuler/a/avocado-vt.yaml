@@ -1,0 +1,10 @@
+name: avocado-vt
+description: Avocado-VT is a compatibility plugin that lets you execute virtualization
+  related tests, with all conveniences provided by Avocado
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03
+  type: protected
+  create_from: master
+type: public

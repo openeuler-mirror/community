@@ -1,0 +1,8 @@
+name: ros_control
+description: A set of packages that include controller interfaces, controller managers,
+  transmissions and hardware_interfaces.
+upstream: https://github.com/ros-controls/ros_control
+branches:
+- name: master
+  type: protected
+type: public

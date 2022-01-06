@@ -1,0 +1,10 @@
+name: perl-ExtUtils-Typemap
+upstream: http://search.cpan.org/dist/ExtUtils-Typemap/
+description: Read/Write/Modify Perl/XS typemap files
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

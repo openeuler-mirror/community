@@ -1,0 +1,10 @@
+name: python-ansible-review
+upstream: https://github.com/willthames/ansible-review
+description: reviews ansible playbooks, roles and inventory and suggests improvements
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

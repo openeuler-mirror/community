@@ -1,0 +1,10 @@
+name: perl-IO-Interactive
+upstream: http://search.cpan.org/dist/IO-Interactive/
+description: Utilities for interactive I/O
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

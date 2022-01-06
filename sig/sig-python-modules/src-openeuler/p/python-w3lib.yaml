@@ -1,0 +1,10 @@
+name: python-w3lib
+upstream: https://github.com/scrapy/w3lib
+description: Library of web-related functions
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

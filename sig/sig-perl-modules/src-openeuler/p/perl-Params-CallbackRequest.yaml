@@ -1,0 +1,10 @@
+name: perl-Params-CallbackRequest
+upstream: http://search.cpan.org/dist/Params-CallbackRequest/
+description: Functional and object-oriented callback architecture
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

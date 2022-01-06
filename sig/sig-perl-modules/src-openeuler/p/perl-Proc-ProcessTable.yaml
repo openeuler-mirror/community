@@ -1,0 +1,10 @@
+name: perl-Proc-ProcessTable
+upstream: http://search.cpan.org/dist/Proc-ProcessTable/
+description: Perl extension to access the unix process table
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

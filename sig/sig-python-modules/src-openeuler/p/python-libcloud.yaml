@@ -1,0 +1,17 @@
+name: python-libcloud
+description: A standard Python library that abstracts away differences among multiple
+  cloud provider APIs.
+upstream: https://libcloud.apache.org/
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-20.03-LTS-SP1
+  type: protected
+  create_from: openEuler-20.03-LTS-Next
+- name: openEuler-20.03-LTS-SP2
+  type: protected
+  create_from: openEuler-20.03-LTS-Next
+type: public

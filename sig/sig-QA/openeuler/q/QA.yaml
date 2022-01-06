@@ -1,0 +1,7 @@
+name: QA
+description: QA repo provides rules about how QA team runs and how contributors to
+  this project, also includes test cases and framework
+branches:
+- name: master
+  type: protected
+type: public

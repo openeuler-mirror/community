@@ -1,0 +1,19 @@
+name: libburn1
+description: Library for reading, mastering and writing optical discs.
+upstream: http://libburnia-project.org/
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+- name: openEuler-21.03
+  type: protected
+  create_from: master
+- name: openEuler-21.09
+  type: protected
+  create_from: master
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: openEuler-21.09
+type: public

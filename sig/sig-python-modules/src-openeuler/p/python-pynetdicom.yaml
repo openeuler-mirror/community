@@ -1,0 +1,10 @@
+name: python-pynetdicom
+upstream: https://github.com/pydicom/pynetdicom
+description: A Python implementation of the DICOM networking protocol
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

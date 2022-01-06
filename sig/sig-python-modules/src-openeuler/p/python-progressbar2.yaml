@@ -1,0 +1,14 @@
+name: python-progressbar2
+upstream: https://github.com/WoLpH/python-progressbar
+description: A Python Progressbar library to provide visual (yet text based) progress
+  to long running operations.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

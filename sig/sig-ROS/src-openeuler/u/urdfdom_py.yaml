@@ -1,0 +1,10 @@
+name: urdfdom_py
+description: Python implementation of the URDF parser.
+upstream: https://github.com/ros/urdf_parser_py
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

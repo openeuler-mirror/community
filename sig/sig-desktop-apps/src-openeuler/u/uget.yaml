@@ -1,0 +1,11 @@
+name: uget
+description: uGet is an open-source software program intended to streamline the process
+  of downloading files onto a personal computer or mobile phone.
+upstream: https://github.com/uget/uget
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

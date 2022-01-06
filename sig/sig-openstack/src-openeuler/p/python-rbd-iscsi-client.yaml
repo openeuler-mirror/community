@@ -1,0 +1,13 @@
+name: python-rbd-iscsi-client
+description: REST client to talk to rbd-target-api
+upstream: https://github.com/hemna/rbd-iscsi-client
+branches:
+- name: master
+  type: protected
+- name: openEuler-21.09
+  type: protected
+  create_from: master
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: openEuler-21.09
+type: public

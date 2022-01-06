@@ -1,0 +1,10 @@
+name: python-holidays
+upstream: https://github.com/dr-prodigy/python-holidays
+description: Generate and work with holidays in Python
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

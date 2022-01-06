@@ -1,0 +1,10 @@
+name: canfestival-xenomai
+upstream: https://hg.beremiz.org/CanFestival-3
+description: CanFestival focuses on providing an ANSI-C platform independent CANOpen
+  stack that can be built as master or slave nodes on PCs, Real-time IPCs, and Microcontrollers.
+  Runtime code is licensed LGPLv2, whereas accompanying developer tools are licensed
+  GPLv2. modified canfestival for xenomai
+branches:
+- name: master
+  type: protected
+type: public

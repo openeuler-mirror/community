@@ -1,0 +1,10 @@
+name: perl-DBD-XBase
+upstream: http://search.cpan.org/dist/DBD-XBase/
+description: DBI driver for XBase compatible database files
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

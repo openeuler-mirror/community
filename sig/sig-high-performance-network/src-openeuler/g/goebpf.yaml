@@ -1,0 +1,10 @@
+name: goebpf
+description: Library to work with eBPF programs from Go
+upstream: https://github.com/dropbox/goebpf
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

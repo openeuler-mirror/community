@@ -1,0 +1,8 @@
+name: rubygem-kafo_wizards
+description: With this gem it is possible to define form or wizard and display it
+  to the user using one of the defined backends.
+upstream: https://github.com/theforeman/kafo_wizards
+branches:
+- name: master
+  type: protected
+type: public

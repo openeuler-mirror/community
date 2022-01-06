@@ -1,0 +1,11 @@
+name: perl-Pod-Snippets
+upstream: http://search.cpan.org/dist/Pod-Snippets/
+description: Extract and reformat snippets of POD so as to use them in a unit test
+  (or other Perl code)
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

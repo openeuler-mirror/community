@@ -1,0 +1,13 @@
+name: stress-ng
+description: the next stress
+upstream: https://kernel.ubuntu.com/~cking/stress-ng
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+- name: openEuler-20.03-LTS
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: opencv
+description: "OpenCV means Intel\xAE Open Source Computer Vision Library."
+upstream: https://github.com/opencv/opencv
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

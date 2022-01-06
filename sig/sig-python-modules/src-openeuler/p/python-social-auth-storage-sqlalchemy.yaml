@@ -1,0 +1,10 @@
+name: python-social-auth-storage-sqlalchemy
+upstream: https://github.com/python-social-auth/social-storage-sqlalchemy
+description: Python Social Authentication, SQLAlchemy storage.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

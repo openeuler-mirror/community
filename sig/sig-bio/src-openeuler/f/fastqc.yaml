@@ -1,0 +1,7 @@
+name: fastqc
+upstream: https://www.bioinformatics.babraham.ac.uk/projects/fastqc
+description: A quality control analysis tool for high throughput sequencing data
+branches:
+- name: master
+  type: protected
+type: public

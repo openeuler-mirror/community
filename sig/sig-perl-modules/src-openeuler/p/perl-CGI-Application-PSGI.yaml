@@ -1,0 +1,10 @@
+name: perl-CGI-Application-PSGI
+upstream: http://search.cpan.org/dist/CGI-Application-PSGI/
+description: PSGI Adapter for CGI
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: perl-Regexp-Pattern
+upstream: http://search.cpan.org/dist/Regexp-Pattern/
+description: Convention/framework for modules that contain collection of regexes
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: perl-Devel-StackTrace-AsHTML
+upstream: http://search.cpan.org/dist/Devel-StackTrace-AsHTML/
+description: Displays stack trace in HTML
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

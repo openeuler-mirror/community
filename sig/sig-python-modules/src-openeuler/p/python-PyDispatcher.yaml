@@ -1,0 +1,10 @@
+name: python-PyDispatcher
+upstream: http://pydispatcher.sourceforge.net
+description: Multi-producer-multi-consumer signal dispatching mechanism
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

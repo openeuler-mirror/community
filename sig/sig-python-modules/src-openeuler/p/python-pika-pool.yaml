@@ -1,0 +1,40 @@
+name: python-pika-pool
+upstream: https://github.com/bninja/pika-pool
+description: Pools for pikas.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+- name: oepkg_openstack-common_oe-20.03-LTS-Next
+  type: protected
+  create_from: master
+- name: oepkg_openstack-common_oe-20.03-LTS-SP2
+  type: protected
+  create_from: oepkg_openstack-common_oe-20.03-LTS-Next
+- name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
+  type: protected
+  create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
+- name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+  type: protected
+  create_from: master
+- name: oepkg_openstack-queens_oe-20.03-LTS-SP2
+  type: protected
+  create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
+- name: oepkg_openstack-queens_oe-20.03-LTS-Next
+  type: protected
+  create_from: master
+- name: oepkg_openstack-queens_oe-20.03-LTS-SP1
+  type: protected
+  create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
+- name: oepkg_openstack-rocky_oe-20.03-LTS-SP1
+  type: protected
+  create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
+- name: oepkg_openstack-queens_oe-20.03-LTS-SP3
+  type: protected
+  create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
+- name: oepkg_openstack-rocky_oe-20.03-LTS-SP3
+  type: protected
+  create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
+type: public

@@ -1,0 +1,10 @@
+name: perl-Tie-EncryptedHash
+upstream: http://search.cpan.org/dist/Tie-EncryptedHash/
+description: Hashes (and objects based on hashes) with encrypting fields
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

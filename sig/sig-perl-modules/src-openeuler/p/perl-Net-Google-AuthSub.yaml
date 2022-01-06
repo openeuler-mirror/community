@@ -1,0 +1,10 @@
+name: perl-Net-Google-AuthSub
+upstream: http://search.cpan.org/dist/Net-Google-AuthSub/
+description: Net
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

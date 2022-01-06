@@ -1,0 +1,10 @@
+name: springframework-data-commons
+description: Interfaces between relational and non-relational data stores
+upstream: http://projects.spring.io/spring-data/
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

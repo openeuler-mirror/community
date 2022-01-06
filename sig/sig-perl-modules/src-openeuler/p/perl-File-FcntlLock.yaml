@@ -1,0 +1,10 @@
+name: perl-File-FcntlLock
+upstream: http://search.cpan.org/dist/File-FcntlLock/
+description: File locking with fcntl(2)
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: python-livereload
+upstream: https://github.com/lepture/python-livereload
+description: Python LiveReload is an awesome tool for web developers
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

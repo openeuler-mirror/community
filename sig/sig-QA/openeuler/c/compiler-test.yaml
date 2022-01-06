@@ -1,0 +1,7 @@
+name: compiler-test
+description: 'Compiler-test repo contains functional test suites for two components:
+  gcc and openjdk, including dejagnu, jtreg, etc'
+branches:
+- name: master
+  type: protected
+type: public

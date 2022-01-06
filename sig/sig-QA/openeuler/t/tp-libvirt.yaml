@@ -1,0 +1,10 @@
+name: tp-libvirt
+description: Libvirt test provider for virtualization test. It contains a lot of test
+  cases related to such as libvirt/libguestfs.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: python-Cython
+upstream: http://cython.org/
+description: The Cython compiler for writing C extensions for the Python language.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

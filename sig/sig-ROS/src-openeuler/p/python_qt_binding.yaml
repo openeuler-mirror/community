@@ -1,0 +1,10 @@
+name: python_qt_binding
+description: This stack provides Python bindings for Qt.
+upstream: https://github.com/ros-visualization/python_qt_binding
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

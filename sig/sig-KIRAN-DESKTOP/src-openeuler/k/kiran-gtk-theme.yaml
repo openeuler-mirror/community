@@ -1,0 +1,17 @@
+name: kiran-gtk-theme
+description: The kiran-gtk-theme package contains the standard theme for the Kiran
+  desktop, which provides default appearance for window borders and GTK+ applications.
+upstream: https://gitee.com/kylinsecos/kiran-gtk-theme
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-20.03-LTS-SP3
+  type: protected
+  create_from: openEuler-20.03-LTS-Next
+type: public

@@ -1,0 +1,11 @@
+name: python-gearbox
+upstream: https://github.com/TurboGears/gearbox
+description: Command line toolkit born as a PasteScript replacement for the TurboGears2
+  web framework
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

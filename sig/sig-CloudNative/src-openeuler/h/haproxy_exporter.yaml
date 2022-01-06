@@ -1,0 +1,8 @@
+name: haproxy_exporter
+description: Simple server that scrapes HAProxy stats and exports them via HTTP for
+  Prometheus consumption
+upstream: https://github.com/prometheus/haproxy_exporter
+branches:
+- name: master
+  type: protected
+type: public

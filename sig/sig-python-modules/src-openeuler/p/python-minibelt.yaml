@@ -1,0 +1,11 @@
+name: python-minibelt
+upstream: https://github.com/sametmax/minibelt
+description: One-file utility module filled with helper functions for day to day Python
+  programming
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

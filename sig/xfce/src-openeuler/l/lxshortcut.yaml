@@ -1,0 +1,10 @@
+name: lxshortcut
+description: Small utility to edit application shortcuts.
+upstream: https://sourceforge.net/projects/lxde/files/LXShortcut (edit app shortcut)
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

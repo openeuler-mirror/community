@@ -1,0 +1,10 @@
+name: perl-Crypt-OpenSSL-PKCS10
+upstream: http://search.cpan.org/dist/Crypt-OpenSSL-PKCS10/
+description: Perl extension to OpenSSL's PKCS10 API
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

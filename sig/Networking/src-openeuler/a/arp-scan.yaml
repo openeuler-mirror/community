@@ -1,0 +1,8 @@
+name: arp-scan
+upstream: http://www.nta-monitor.com/tools/arp-scan/
+description: arp-scan is a command-line tool that uses the ARP protocol to discover
+  and fingerprint IP hosts on the local network.
+branches:
+- name: master
+  type: protected
+type: public

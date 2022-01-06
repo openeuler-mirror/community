@@ -1,0 +1,14 @@
+name: kiran-qdbusxml2cpp
+description: Produces the C++ code to implement the dbus interfaces defined in the
+  input file.
+upstream: https://gitee.com/kylinsecos/kiran-qdbusxml2cpp
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-20.03-LTS-SP3
+  type: protected
+  create_from: openEuler-20.03-LTS-Next
+type: public

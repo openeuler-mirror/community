@@ -1,0 +1,11 @@
+name: python-django-reversion
+upstream: https://github.com/etianen/django-reversion
+description: An extension to the Django web framework that provides version control
+  for model instances.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

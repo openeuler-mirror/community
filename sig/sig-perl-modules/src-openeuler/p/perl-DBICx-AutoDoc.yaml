@@ -1,0 +1,10 @@
+name: perl-DBICx-AutoDoc
+upstream: http://search.cpan.org/dist/DBICx-AutoDoc/
+description: Generate automatic documentation of DBIx
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

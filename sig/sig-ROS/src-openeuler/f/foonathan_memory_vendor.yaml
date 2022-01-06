@@ -1,0 +1,8 @@
+name: foonathan_memory_vendor
+description: This package will download, patch, build and install foonathan_memory
+  for its use with Fast-RTPS.
+upstream: https://github.com/eProsima/foonathan_memory_vendor.git
+branches:
+- name: master
+  type: protected
+type: public

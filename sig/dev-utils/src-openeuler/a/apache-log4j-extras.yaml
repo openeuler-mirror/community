@@ -1,0 +1,10 @@
+name: apache-log4j-extras
+description: Apache Extras Companion for Apache log4j
+upstream: http://logging.apache.org/log4j/extras
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

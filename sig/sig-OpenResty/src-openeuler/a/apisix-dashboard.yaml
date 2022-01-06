@@ -1,0 +1,8 @@
+name: apisix-dashboard
+description: Apache APISIX Dashboard is designed to make it as easy as possible for
+  users to operate Apache APISIX through a frontend interface
+upstream: https://github.com/apache/apisix-dashboard
+branches:
+- name: master
+  type: protected
+type: public

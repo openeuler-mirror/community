@@ -1,0 +1,10 @@
+name: python-hstspreload
+upstream: https://github.com/sethmlarson/hstspreload
+description: Chromium HSTS Preload list as a Python package and updated daily
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

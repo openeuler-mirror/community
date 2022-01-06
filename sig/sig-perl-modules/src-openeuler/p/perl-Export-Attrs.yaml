@@ -1,0 +1,10 @@
+name: perl-Export-Attrs
+upstream: http://search.cpan.org/dist/Export-Attrs/
+description: Perl 6 'is export(...)' trait as a Perl 5 attribute
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

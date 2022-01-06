@@ -1,0 +1,11 @@
+name: opensbi
+description: RISC-V Open Source Supervisor Binary Interface for Booting an OS on QEMU
+  virt
+upstream: https://github.com/riscv/opensbi
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

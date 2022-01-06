@@ -1,0 +1,10 @@
+name: python-munkres
+upstream: http://software.clapper.org/munkres/
+description: Munkres (Hungarian) algorithm for the Assignment Problem
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

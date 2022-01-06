@@ -1,0 +1,8 @@
+name: git-review
+description: An extension for source control system Git that creates and manages review
+  requests in the patch management system Gerrit
+upstream: https://opendev.org/opendev/git-review
+branches:
+- name: master
+  type: protected
+type: public

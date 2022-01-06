@@ -1,0 +1,10 @@
+name: perl-Text-TabularDisplay
+upstream: http://search.cpan.org/dist/Text-TabularDisplay/
+description: Display text in formatted table output
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

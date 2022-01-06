@@ -1,0 +1,10 @@
+name: python-agate-sql
+upstream: http://agate-sql.readthedocs.org/
+description: agate-sql adds SQL read/write support to agate.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

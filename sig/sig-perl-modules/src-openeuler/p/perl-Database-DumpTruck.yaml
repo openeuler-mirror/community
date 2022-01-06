@@ -1,0 +1,10 @@
+name: perl-Database-DumpTruck
+upstream: http://search.cpan.org/dist/Database-DumpTruck/
+description: Relaxing interface to SQLite
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

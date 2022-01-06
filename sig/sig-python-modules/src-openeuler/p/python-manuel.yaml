@@ -1,0 +1,10 @@
+name: python-manuel
+upstream: http://pypi.python.org/pypi/manuel
+description: Manuel lets you build tested documentation.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

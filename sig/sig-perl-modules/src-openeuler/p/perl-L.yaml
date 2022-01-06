@@ -1,0 +1,10 @@
+name: perl-L
+upstream: http://search.cpan.org/dist/L/
+description: Perl extension to load modules automatically in one-liners
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

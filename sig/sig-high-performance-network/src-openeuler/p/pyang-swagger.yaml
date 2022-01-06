@@ -1,0 +1,7 @@
+name: pyang-swagger
+description: A pyang plugin to obtain the RESTCONF API from a yang model
+upstream: https://github.com/polycube-network/pyang-swagger
+branches:
+- name: master
+  type: protected
+type: public

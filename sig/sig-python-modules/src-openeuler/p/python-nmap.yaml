@@ -1,0 +1,10 @@
+name: python-nmap
+upstream: https://github.com/antonagestam/nmap/
+description: Map numbers from one range to another
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

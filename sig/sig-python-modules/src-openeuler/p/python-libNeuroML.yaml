@@ -1,0 +1,10 @@
+name: python-libNeuroML
+upstream: http://libneuroml.readthedocs.org/en/latest/
+description: A Python library for working with NeuroML descriptions of neuronal models
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

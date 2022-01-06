@@ -1,0 +1,10 @@
+name: perl-CGI-Application-Plugin-JSON
+upstream: http://search.cpan.org/dist/CGI-Application-Plugin-JSON/
+description: Easy manipulation of JSON headers
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

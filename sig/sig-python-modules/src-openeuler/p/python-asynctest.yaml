@@ -1,0 +1,11 @@
+name: python-asynctest
+upstream: https://github.com/Martiusweb/asynctest/
+description: Enhance the standard unittest package with features for testing asyncio
+  libraries
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

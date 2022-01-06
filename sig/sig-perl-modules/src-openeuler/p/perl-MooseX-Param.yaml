@@ -1,0 +1,10 @@
+name: perl-MooseX-Param
+upstream: http://search.cpan.org/dist/MooseX-Param/
+description: Simple role to provide a standard param method
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

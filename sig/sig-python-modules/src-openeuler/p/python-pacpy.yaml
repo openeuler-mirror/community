@@ -1,0 +1,10 @@
+name: python-pacpy
+upstream: https://github.com/voytekresearch/pacpy
+description: A module to calculate phase-amplitude coupling
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

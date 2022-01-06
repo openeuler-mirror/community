@@ -1,0 +1,10 @@
+name: perl-MooX-Singleton
+upstream: http://search.cpan.org/dist/MooX-Singleton/
+description: Turn your Moo class into singleton
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

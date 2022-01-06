@@ -1,0 +1,11 @@
+name: moosefs
+description: a Fault-tolerant, Highly available, Highly performing, Scaling-out, Network
+  distributed file system
+upstream: https://moosefs.com/
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

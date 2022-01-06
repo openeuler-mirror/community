@@ -1,0 +1,13 @@
+name: hibernate-jpa
+description: Hibernnate definition of the Java Persistence 2.0 (JSR 317) API
+upstream: http://www.hibernate.org/
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+- name: openEuler-21.03
+  type: protected
+  create_from: master
+type: public

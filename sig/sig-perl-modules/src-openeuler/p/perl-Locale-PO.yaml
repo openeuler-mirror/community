@@ -1,0 +1,10 @@
+name: perl-Locale-PO
+upstream: http://search.cpan.org/dist/Locale-PO/
+description: Perl module for manipulating .po entries from GNU gettext
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

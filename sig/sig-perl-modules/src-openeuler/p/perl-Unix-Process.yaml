@@ -1,0 +1,10 @@
+name: perl-Unix-Process
+upstream: http://search.cpan.org/dist/Unix-Process/
+description: Perl extension to get pid info from (/bin/ps)
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

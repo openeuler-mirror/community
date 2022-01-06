@@ -1,0 +1,10 @@
+name: perl-DBIx-Simple
+upstream: http://search.cpan.org/dist/DBIx-Simple/
+description: Very complete easy-to-use OO interface to DBI
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

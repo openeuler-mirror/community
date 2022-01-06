@@ -1,0 +1,10 @@
+name: perl-Games-Solitaire-Verify
+upstream: http://search.cpan.org/dist/Games-Solitaire-Verify/
+description: Verify solutions for solitaire games
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

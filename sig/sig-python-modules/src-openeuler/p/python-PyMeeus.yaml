@@ -1,0 +1,10 @@
+name: python-PyMeeus
+upstream: https://github.com/architest/pymeeus
+description: Python implementation of Jean Meeus astronomical routines
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

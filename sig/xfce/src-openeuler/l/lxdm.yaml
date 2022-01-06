@@ -1,0 +1,10 @@
+name: lxdm
+description: Lightweight X11 Display Manager
+upstream: https://sourceforge.net/projects/lxde/files/lxdm
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

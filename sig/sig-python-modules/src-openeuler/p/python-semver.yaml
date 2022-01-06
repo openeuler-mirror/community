@@ -1,0 +1,10 @@
+name: python-semver
+upstream: https://github.com/python-semver/python-semver
+description: Python helper for Semantic Versioning (http
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

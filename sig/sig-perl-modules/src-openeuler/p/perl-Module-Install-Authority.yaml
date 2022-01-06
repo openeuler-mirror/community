@@ -1,0 +1,10 @@
+name: perl-Module-Install-Authority
+upstream: http://search.cpan.org/dist/Module-Install-Authority/
+description: Add an x_authority key to META.yml
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

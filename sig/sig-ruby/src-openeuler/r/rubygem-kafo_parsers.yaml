@@ -1,0 +1,8 @@
+name: rubygem-kafo_parsers
+description: This gem can parse values, validations, documentation, types, groups
+  and conditions of parameters from your puppet modules
+upstream: https://github.com/theforeman/kafo_parsers
+branches:
+- name: master
+  type: protected
+type: public

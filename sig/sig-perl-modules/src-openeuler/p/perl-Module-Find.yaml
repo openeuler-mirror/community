@@ -1,0 +1,10 @@
+name: perl-Module-Find
+upstream: http://search.cpan.org/dist/Module-Find/
+description: Find and use installed modules in a (sub)category
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: perl-ExtUtils-HasCompiler
+upstream: http://search.cpan.org/dist/ExtUtils-HasCompiler/
+description: Check for the presence of a compiler
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

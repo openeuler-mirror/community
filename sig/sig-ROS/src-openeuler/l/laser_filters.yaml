@@ -1,0 +1,11 @@
+name: laser_filters
+description: Assorted filters designed to operate on 2D planar laser scanners, which
+  use the sensor_msgs/LaserScan type.
+upstream: https://github.com/ros-perception/laser_filters
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

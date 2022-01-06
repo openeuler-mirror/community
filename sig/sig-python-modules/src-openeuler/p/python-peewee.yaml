@@ -1,0 +1,10 @@
+name: python-peewee
+upstream: https://github.com/coleifer/peewee/
+description: a little orm
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

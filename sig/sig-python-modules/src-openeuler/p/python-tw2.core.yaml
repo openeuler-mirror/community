@@ -1,0 +1,10 @@
+name: python-tw2.core
+upstream: http://toscawidgets.org/
+description: The runtime components for ToscaWidgets 2, a web widget toolkit.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

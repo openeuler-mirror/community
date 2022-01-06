@@ -1,0 +1,10 @@
+name: perl-Devel-Refcount
+upstream: http://search.cpan.org/dist/Devel-Refcount/
+description: Obtain the REFCNT value of a referent
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

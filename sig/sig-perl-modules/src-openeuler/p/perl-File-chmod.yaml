@@ -1,0 +1,10 @@
+name: perl-File-chmod
+upstream: http://search.cpan.org/dist/File-chmod/
+description: Implements symbolic and ls chmod modes
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

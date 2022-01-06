@@ -1,0 +1,12 @@
+name: golang-github-vishvananda-netns
+description: Simple network namespace handing for go.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+- name: openEuler-20.03-LTS
+  type: protected
+  create_from: master
+type: public

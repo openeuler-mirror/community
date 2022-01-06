@@ -1,0 +1,8 @@
+name: mapserver
+description: Mapserver is an internet mapping program that converts GIS data to map
+  images in real time.
+upstream: http://www.mapserver.org
+branches:
+- name: master
+  type: protected
+type: public

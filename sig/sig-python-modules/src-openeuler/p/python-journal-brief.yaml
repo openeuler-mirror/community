@@ -1,0 +1,10 @@
+name: python-journal-brief
+upstream: https://github.com/twaugh/journal-brief
+description: Show interesting new systemd journal entries since last run
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

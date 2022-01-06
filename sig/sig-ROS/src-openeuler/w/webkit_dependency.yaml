@@ -1,0 +1,11 @@
+name: webkit_dependency
+description: This encapsulates the WebKit dependency for a specific ROS distribution
+  and its Qt version.
+upstream: https://github.com/ros-visualization/webkit_dependency
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

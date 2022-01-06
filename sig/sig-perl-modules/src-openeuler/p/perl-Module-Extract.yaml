@@ -1,0 +1,10 @@
+name: perl-Module-Extract
+upstream: http://search.cpan.org/dist/Module-Extract/
+description: Base class for working with Perl distributions
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

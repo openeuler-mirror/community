@@ -1,0 +1,10 @@
+name: perl-URI-db
+upstream: http://search.cpan.org/dist/URI-db/
+description: URI
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

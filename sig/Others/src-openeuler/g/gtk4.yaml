@@ -1,0 +1,19 @@
+name: gtk4
+description: GTK is a multi-platform toolkit for creating graphical user interfaces.
+  Offering a complete set of widges, GTK is suitable for projects ranging from small
+  one-off tools to complete application suites. This package contains version 4 of
+  GTK.
+upstream: https://gitlab.gnome.org/GNOME/gtk
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+- name: openEuler-21.09
+  type: protected
+  create_from: master
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: openEuler-21.09
+type: public

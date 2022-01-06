@@ -1,0 +1,7 @@
+name: ament_package
+description: The parser for the manifest files in the ament buildsystem.
+upstream: https://github.com/ament/ament_package.git
+branches:
+- name: master
+  type: protected
+type: public

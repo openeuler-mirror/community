@@ -1,0 +1,11 @@
+name: python-pdfkit
+upstream: UNKNOWN
+description: Wkhtmltopdf python wrapper to convert html to pdf using the webkit rendering
+  engine and qt
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

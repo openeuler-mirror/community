@@ -1,0 +1,7 @@
+name: nodejs-nodemon
+description: Simple monitor script for use during development of a node.js app
+upstream: https://github.com/remy/nodemon
+branches:
+- name: master
+  type: protected
+type: public

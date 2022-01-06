@@ -1,0 +1,8 @@
+name: rqt_topic
+description: rqt_topic provides a GUI plugin for displaying debug information about
+  ROS topics including publishers, subscribers, publishing rate, and ROS Messages.
+upstream: https://github.com/ros-visualization/rqt_topic
+branches:
+- name: master
+  type: protected
+type: public

@@ -1,0 +1,12 @@
+name: ct-ng
+description: Crosstool-NG is a versatile (cross) toolchain generator. It supports
+  many architectures and components and has a simple yet powerful menuconfig-style
+  interface.
+upstream: https://crosstool-ng.github.io/
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

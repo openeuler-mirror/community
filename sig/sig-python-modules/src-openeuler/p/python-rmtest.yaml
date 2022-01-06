@@ -1,0 +1,10 @@
+name: python-rmtest
+upstream: http://github.com/RedisLabs/rmtest
+description: Redis Module Testing Utility
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

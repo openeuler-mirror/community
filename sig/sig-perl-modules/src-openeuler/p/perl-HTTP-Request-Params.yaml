@@ -1,0 +1,10 @@
+name: perl-HTTP-Request-Params
+upstream: http://search.cpan.org/dist/HTTP-Request-Params/
+description: Retrieve GET/POST Parameters from HTTP Requests
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: perl-MooseX-Types
+upstream: http://search.cpan.org/dist/MooseX-Types/
+description: Organise your Moose types in libraries
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

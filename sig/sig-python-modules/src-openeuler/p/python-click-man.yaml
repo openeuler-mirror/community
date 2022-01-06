@@ -1,0 +1,10 @@
+name: python-click-man
+upstream: https://github.com/click-contrib/click-man
+description: Generate man pages for click based CLI applications
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,8 @@
+name: image_pipeline
+description: image_pipeline fills the gap between getting raw images from a camera
+  driver and higher-level vision processing.
+upstream: https://github.com/ros-perception/image_pipeline
+branches:
+- name: master
+  type: protected
+type: public

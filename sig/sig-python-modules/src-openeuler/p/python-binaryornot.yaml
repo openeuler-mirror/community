@@ -1,0 +1,11 @@
+name: python-binaryornot
+upstream: https://github.com/audreyr/binaryornot
+description: Ultra-lightweight pure Python package to check if a file is binary or
+  text.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

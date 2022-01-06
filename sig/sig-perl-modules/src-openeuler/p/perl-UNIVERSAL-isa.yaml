@@ -1,0 +1,10 @@
+name: perl-UNIVERSAL-isa
+upstream: http://search.cpan.org/dist/UNIVERSAL-isa/
+description: Attempt to recover from people calling UNIVERSAL
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

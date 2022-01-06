@@ -1,0 +1,10 @@
+name: rubygem-gettext_i18n_rails_js
+upstream: https://github.com/webhippie/gettext_i18n_rails_js
+description: It will find translations inside your .js and .coffee files, then it
+  will create JSON versions of your .PO files and will let you serve them with the
+  rest of your assets, thus letting you access all your translations offline from
+  client side javascript.
+branches:
+- name: master
+  type: protected
+type: public

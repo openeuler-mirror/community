@@ -1,0 +1,10 @@
+name: perl-Chatbot-Eliza
+upstream: http://search.cpan.org/dist/Chatbot-Eliza/
+description: Clone of the classic Eliza program
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

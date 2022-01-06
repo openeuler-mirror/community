@@ -1,0 +1,9 @@
+name: atop
+description: atop is an interactive monitor to view the load on a Linux system
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

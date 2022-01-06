@@ -1,0 +1,10 @@
+name: libtins
+description: High-level, multiplatform C++ network packet sniffing and crafting library.
+upstream: https://github.com/mfontanini/libtins.git
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

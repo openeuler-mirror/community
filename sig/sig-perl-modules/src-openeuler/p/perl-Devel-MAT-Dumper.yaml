@@ -1,0 +1,10 @@
+name: perl-Devel-MAT-Dumper
+upstream: http://search.cpan.org/dist/Devel-MAT-Dumper/
+description: Write a heap dump file for later analysis
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

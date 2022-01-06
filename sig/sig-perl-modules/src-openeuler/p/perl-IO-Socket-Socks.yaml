@@ -1,0 +1,10 @@
+name: perl-IO-Socket-Socks
+upstream: http://search.cpan.org/dist/IO-Socket-Socks/
+description: Provides a way to create socks client or server both 4 and 5 version
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: perl-WWW-Shorten
+upstream: http://search.cpan.org/dist/WWW-Shorten/
+description: Interface to URL shortening sites
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: mate-calc
+description: Calculator for MATE
+upstream: https://github.com/mate-desktop/mate-calc
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

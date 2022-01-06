@@ -1,0 +1,10 @@
+name: python-filetype
+upstream: https://github.com/h2non/filetype.py
+description: Infer file type and MIME type of any file/buffer. No external dependencies.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

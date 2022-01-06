@@ -1,0 +1,10 @@
+name: python-click-help-colors
+upstream: https://github.com/r-m-n/click-help-colors
+description: Colorization of help messages in Click
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

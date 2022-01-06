@@ -1,0 +1,10 @@
+name: perl-Lingua-EN-Numbers-Easy
+upstream: http://search.cpan.org/dist/Lingua-EN-Numbers-Easy/
+description: Hash access to Lingua
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

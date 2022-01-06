@@ -1,0 +1,10 @@
+name: perl-Class-Accessor-Lite
+upstream: http://search.cpan.org/dist/Class-Accessor-Lite/
+description: Minimalistic variant of Class
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

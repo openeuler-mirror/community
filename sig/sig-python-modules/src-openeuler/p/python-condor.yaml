@@ -1,0 +1,10 @@
+name: python-condor
+upstream: http://bivanov.bitbucket.org/condor
+description: Condor - Grunt-like automation system
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

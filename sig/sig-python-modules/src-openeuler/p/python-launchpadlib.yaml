@@ -1,0 +1,10 @@
+name: python-launchpadlib
+upstream: https://help.launchpad.net/API/launchpadlib
+description: Script Launchpad through its web services interfaces.  Officially supported.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

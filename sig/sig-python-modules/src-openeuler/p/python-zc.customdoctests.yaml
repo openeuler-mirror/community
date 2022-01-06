@@ -1,0 +1,11 @@
+name: python-zc.customdoctests
+upstream: http://pypi.python.org/pypi/zc.customdoctests
+description: zc.customdoctests helps to leverage doctests to support other languages,
+  such as JavaScripts.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

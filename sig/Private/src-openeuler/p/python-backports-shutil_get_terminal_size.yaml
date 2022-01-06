@@ -1,0 +1,9 @@
+name: python-backports-shutil_get_terminal_size
+description: A backport of the get_terminal_size function from Python 3.3's shutil.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: private

@@ -1,0 +1,10 @@
+name: python-pydenticon
+upstream: https://github.com/azaghal/pydenticon
+description: Library for generating identicons. Port of Sigil (https
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

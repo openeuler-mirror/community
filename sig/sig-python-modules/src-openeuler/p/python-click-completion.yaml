@@ -1,0 +1,10 @@
+name: python-click-completion
+upstream: https://github.com/click-contrib/click-completion
+description: Fish, Bash, Zsh and PowerShell completion for Click
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

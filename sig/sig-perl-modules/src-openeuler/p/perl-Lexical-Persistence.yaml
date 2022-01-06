@@ -1,0 +1,10 @@
+name: perl-Lexical-Persistence
+upstream: http://search.cpan.org/dist/Lexical-Persistence/
+description: Persistent lexical variable values for arbitrary calls
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

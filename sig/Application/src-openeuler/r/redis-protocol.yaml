@@ -1,0 +1,10 @@
+name: redis-protocol
+description: Java client and server implementation of Redis
+upstream: http://github.com/spullara/redis-protocol
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

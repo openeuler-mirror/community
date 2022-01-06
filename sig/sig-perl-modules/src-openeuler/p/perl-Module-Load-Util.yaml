@@ -1,0 +1,10 @@
+name: perl-Module-Load-Util
+upstream: http://search.cpan.org/dist/Module-Load-Util/
+description: Some utility routines related to module loading
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

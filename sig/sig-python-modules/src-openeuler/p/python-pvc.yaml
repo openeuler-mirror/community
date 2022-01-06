@@ -1,0 +1,10 @@
+name: python-pvc
+upstream: https://github.com/dnaeon/pvc
+description: Python vSphere Client with a dialog(1) interface
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

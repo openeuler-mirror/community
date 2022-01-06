@@ -1,0 +1,11 @@
+name: python-colour
+upstream: http://github.com/vaab/colour
+description: converts and manipulates various color representation (HSL, RVB, web,
+  X11, ...)
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: perl-File-Modified
+upstream: http://search.cpan.org/dist/File-Modified/
+description: Checks intelligently if files have changed
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

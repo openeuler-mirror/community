@@ -1,0 +1,10 @@
+name: perl-Eval-LineNumbers
+upstream: http://search.cpan.org/dist/Eval-LineNumbers/
+description: Add line numbers to heredoc blocks that contain perl source code
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,7 @@
+name: rubygem-locale
+description: Chef cookbook to configure the system locale on Linux systems.
+upstream: https://github.com/chef-boneyard/locale
+branches:
+- name: master
+  type: protected
+type: public

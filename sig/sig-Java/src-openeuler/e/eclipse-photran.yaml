@@ -1,0 +1,10 @@
+name: eclipse-photran
+description: Fortran Development Tools (Photran) for Eclipse
+upstream: http://www.eclipse.org/photran
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

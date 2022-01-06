@@ -1,0 +1,10 @@
+name: perl-Filesys-Notify-Simple
+upstream: http://search.cpan.org/dist/Filesys-Notify-Simple/
+description: Simple and dumb file system watcher
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

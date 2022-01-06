@@ -1,0 +1,11 @@
+name: laser_assembler
+description: Provides nodes to assemble point clouds from either LaserScan or PointCloud
+  messages.
+upstream: https://github.com/ros-perception/laser_assembler
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

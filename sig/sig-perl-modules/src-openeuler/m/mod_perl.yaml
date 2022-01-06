@@ -1,0 +1,7 @@
+name: mod_perl
+description: An embedded Perl interpreter for the Apache HTTP Server
+upstream: https://github.com/apache/mod_perl
+branches:
+- name: master
+  type: protected
+type: public

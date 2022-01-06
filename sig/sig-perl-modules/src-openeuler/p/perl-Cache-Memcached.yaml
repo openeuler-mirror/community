@@ -1,0 +1,10 @@
+name: perl-Cache-Memcached
+upstream: http://search.cpan.org/dist/Cache-Memcached/
+description: Client library for memcached (memory cache daemon)
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

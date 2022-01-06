@@ -1,0 +1,10 @@
+name: perl-Crypt-ECB
+upstream: http://search.cpan.org/dist/Crypt-ECB/
+description: Use block ciphers using ECB mode
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

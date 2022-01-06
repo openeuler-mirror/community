@@ -1,0 +1,10 @@
+name: perl-MooseX-Types-Common
+upstream: http://search.cpan.org/dist/MooseX-Types-Common/
+description: Library of commonly used type constraints
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

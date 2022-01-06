@@ -1,0 +1,10 @@
+name: perl-Test-Pod-No404s
+upstream: http://search.cpan.org/dist/Test-Pod-No404s/
+description: Using this test module will check your POD for any http 404 links
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

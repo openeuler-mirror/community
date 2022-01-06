@@ -1,0 +1,10 @@
+name: perl-failures
+upstream: http://search.cpan.org/dist/failures/
+description: Minimalist exception hierarchy generator
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

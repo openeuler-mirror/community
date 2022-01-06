@@ -1,0 +1,10 @@
+name: perl-URI-Title
+upstream: http://search.cpan.org/dist/URI-Title/
+description: Get the titles of things on the web in a sensible way
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

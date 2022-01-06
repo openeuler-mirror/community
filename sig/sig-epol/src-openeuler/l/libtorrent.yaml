@@ -1,0 +1,7 @@
+name: libtorrent
+description: BitTorrent library with a focus on high performance & good code
+upstream: https://github.com/rakshasa/libtorrent/
+branches:
+- name: master
+  type: protected
+type: public

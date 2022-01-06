@@ -1,0 +1,13 @@
+name: python-neutron-tempest-plugin
+description: Tempest plugin for Neutron Project
+upstream: https://opendev.org/openstack/neutron-tempest-plugin
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-20.03-LTS-SP3
+  type: protected
+  create_from: openEuler-20.03-LTS-Next
+type: public

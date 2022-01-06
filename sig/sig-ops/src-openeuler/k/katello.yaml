@@ -1,0 +1,7 @@
+name: katello
+description: A package for managing application life-cycle for Linux systems
+upstream: https://theforeman.org/plugins/katello
+branches:
+- name: master
+  type: protected
+type: public

@@ -1,0 +1,10 @@
+name: python-pytrailer
+upstream: http://github.com/sochotnicky/pytrailer
+description: Module to simplify access to movies on apple.com/trailers
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

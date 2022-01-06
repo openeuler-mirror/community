@@ -1,0 +1,10 @@
+name: platform_frameworks_opt_net_wifi
+description: WiFi  module related framework layer code;
+upstream: https://github.com/anbox/platform_frameworks_opt_net_wifi
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

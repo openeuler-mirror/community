@@ -1,0 +1,7 @@
+name: ament_index
+description: C++ API to access the ament resource index.
+upstream: https://github.com/ament/ament_index.git
+branches:
+- name: master
+  type: protected
+type: public

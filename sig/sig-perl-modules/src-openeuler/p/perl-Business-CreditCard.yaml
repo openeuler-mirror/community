@@ -1,0 +1,10 @@
+name: perl-Business-CreditCard
+upstream: http://search.cpan.org/dist/Business-CreditCard/
+description: Validate/generate credit card checksums/names
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

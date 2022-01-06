@@ -1,0 +1,10 @@
+name: perl-MIME-EncWords
+upstream: http://search.cpan.org/dist/MIME-EncWords/
+description: Deal with RFC 2047 encoded words (improved)
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

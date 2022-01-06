@@ -1,0 +1,10 @@
+name: python-websockets
+upstream: https://github.com/aaugustin/websockets
+description: An implementation of the WebSocket Protocol (RFC 6455 & 7692)
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

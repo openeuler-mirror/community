@@ -1,0 +1,10 @@
+name: python-async_generator
+upstream: https://github.com/python-trio/async_generator
+description: Async generators and context managers for Python 3.5+
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

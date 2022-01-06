@@ -1,0 +1,10 @@
+name: python-metaextract
+upstream: http://github.com/toabctl/metaextract
+description: get metadata for python modules
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

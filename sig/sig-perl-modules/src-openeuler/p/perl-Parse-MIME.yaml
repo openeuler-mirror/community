@@ -1,0 +1,10 @@
+name: perl-Parse-MIME
+upstream: http://search.cpan.org/dist/Parse-MIME/
+description: Parse mime-types, match against media ranges
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

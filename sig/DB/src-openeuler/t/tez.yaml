@@ -1,0 +1,8 @@
+name: tez
+description: The Apache TEZ project is aimed at building an application framework
+  which allows for a complex directed-acyclic-graph of tasks for processing data
+upstream: https://tez.apache.org/
+branches:
+- name: master
+  type: protected
+type: public

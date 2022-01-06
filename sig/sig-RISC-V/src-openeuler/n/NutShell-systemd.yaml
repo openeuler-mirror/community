@@ -1,0 +1,8 @@
+name: NutShell-systemd
+description: Support openEuler OS run on NutShell UCAS COOSCA CPU in Xilinx FPGA PYNQ-Z2
+  emulation environment.
+upstream: https://github.com/systemd/systemd
+branches:
+- name: master
+  type: protected
+type: public

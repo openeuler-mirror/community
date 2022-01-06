@@ -1,0 +1,19 @@
+name: ocaml-fileutils
+description: API to manipulate files (POSIX like) and filenames
+upstream: https://github.com/gildor478/ocaml-fileutils
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+- name: openEuler-21.03
+  type: protected
+  create_from: master
+- name: openEuler-21.09
+  type: protected
+  create_from: master
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: openEuler-21.09
+type: public

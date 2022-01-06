@@ -1,0 +1,10 @@
+name: perl-PerlIO-buffersize
+upstream: http://search.cpan.org/dist/PerlIO-buffersize/
+description: Set the buffersize of a handle
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

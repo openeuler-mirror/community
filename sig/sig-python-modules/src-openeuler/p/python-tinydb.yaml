@@ -1,0 +1,10 @@
+name: python-tinydb
+upstream: https://github.com/msiemens/tinydb
+description: TinyDB is a tiny, document oriented database optimized for your happiness
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,11 @@
+name: perl-AppConfig
+upstream: http://search.cpan.org/dist/AppConfig/
+description: Perl5 module for reading configuration files and parsing command line
+  arguments
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: perl-Text-Levenshtein-Damerau-XS
+upstream: http://search.cpan.org/dist/Text-Levenshtein-Damerau-XS/
+description: XS Damerau Levenshtein edit distance
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

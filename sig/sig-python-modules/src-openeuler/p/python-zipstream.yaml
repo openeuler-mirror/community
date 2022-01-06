@@ -1,0 +1,10 @@
+name: python-zipstream
+upstream: https://github.com/allanlei/python-zipstream
+description: Zipfile generator
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

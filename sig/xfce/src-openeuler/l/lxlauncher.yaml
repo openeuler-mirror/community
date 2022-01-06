@@ -1,0 +1,10 @@
+name: lxlauncher
+description: Open source replacement for Launcher on the EeePC.
+upstream: https://github.com/lxde/lxlauncher
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

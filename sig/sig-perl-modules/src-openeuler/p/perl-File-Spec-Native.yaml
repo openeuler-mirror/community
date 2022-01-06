@@ -1,0 +1,10 @@
+name: perl-File-Spec-Native
+upstream: http://search.cpan.org/dist/File-Spec-Native/
+description: Use native OS implementation of File
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

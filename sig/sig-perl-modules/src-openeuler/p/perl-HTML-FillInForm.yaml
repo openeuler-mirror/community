@@ -1,0 +1,10 @@
+name: perl-HTML-FillInForm
+upstream: http://search.cpan.org/dist/HTML-FillInForm/
+description: Populates HTML Forms with data
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

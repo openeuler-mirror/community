@@ -1,0 +1,10 @@
+name: perl-Language-Functional
+upstream: http://search.cpan.org/dist/Language-Functional/
+description: Module which makes Perl slightly more functional
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

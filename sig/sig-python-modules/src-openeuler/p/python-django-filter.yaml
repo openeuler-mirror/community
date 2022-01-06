@@ -1,0 +1,11 @@
+name: python-django-filter
+upstream: https://github.com/carltongibson/django-filter/
+description: A reusable Django application allowing users to declaratively add dynamic
+  QuerySet filtering from URL parameters.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

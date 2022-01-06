@@ -1,0 +1,8 @@
+name: alluxio
+description: Alluxio (formerly known as Tachyon) is a virtual distributed storage
+  system.
+upstream: https://github.com/Alluxio/alluxio
+branches:
+- name: master
+  type: protected
+type: public

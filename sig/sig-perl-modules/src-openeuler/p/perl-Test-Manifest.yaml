@@ -1,0 +1,10 @@
+name: perl-Test-Manifest
+upstream: http://search.cpan.org/dist/Test-Manifest/
+description: Interact with a t/test_manifest file
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

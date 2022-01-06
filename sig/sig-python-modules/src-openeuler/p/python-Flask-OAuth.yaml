@@ -1,0 +1,10 @@
+name: python-Flask-OAuth
+upstream: http://github.com/mitsuhiko/flask-oauth
+description: Adds OAuth support to Flask
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

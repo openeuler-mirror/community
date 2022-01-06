@@ -1,0 +1,10 @@
+name: python-pyhcl
+upstream: https://github.com/virtuald/pyhcl
+description: HCL configuration parser for python
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

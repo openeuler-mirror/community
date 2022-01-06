@@ -1,0 +1,10 @@
+name: lxterminal
+description: Desktop-independent VTE-based terminal emulator.
+upstream: https://github.com/lxde/lxterminal
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

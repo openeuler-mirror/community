@@ -1,0 +1,7 @@
+name: robust-http-client
+description: Small Java library that performs HTTP download with automatic retry
+upstream: https://github.com/kohsuke/robust-http-client
+branches:
+- name: master
+  type: protected
+type: public

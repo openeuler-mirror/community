@@ -1,0 +1,10 @@
+name: perl-Data-Section-Simple
+upstream: http://search.cpan.org/dist/Data-Section-Simple/
+description: Read data from __DATA__
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: perl-Text-Reflow
+upstream: http://search.cpan.org/dist/Text-Reflow/
+description: Perl module for reflowing text files using Knuth's paragraphing algorithm
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

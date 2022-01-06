@@ -1,0 +1,10 @@
+name: python-whitenoise
+upstream: http://whitenoise.evans.io
+description: Radically simplified static file serving for WSGI applications
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

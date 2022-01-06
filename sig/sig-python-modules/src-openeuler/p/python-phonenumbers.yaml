@@ -1,0 +1,11 @@
+name: python-phonenumbers
+upstream: https://github.com/daviddrysdale/python-phonenumbers
+description: Python version of Google's common library for parsing, formatting, storing
+  and validating international phone numbers.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: python-pytest-repeat
+upstream: https://github.com/pytest-dev/pytest-repeat
+description: pytest plugin for repeating tests
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

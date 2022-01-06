@@ -1,0 +1,7 @@
+name: libnetconf2
+description: NETCONF library in C providing API for both clients and servers
+upstream: https://github.com/cesnet/libnetconf2
+branches:
+- name: master
+  type: protected
+type: public

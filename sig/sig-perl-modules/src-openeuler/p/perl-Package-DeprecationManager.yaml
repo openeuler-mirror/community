@@ -1,0 +1,10 @@
+name: perl-Package-DeprecationManager
+upstream: http://search.cpan.org/dist/Package-DeprecationManager/
+description: Manage deprecation warnings for your distribution
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

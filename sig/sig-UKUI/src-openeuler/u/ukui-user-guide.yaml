@@ -1,0 +1,10 @@
+name: ukui-user-guide
+description: Manual for UKUI desktop environment
+upstream: https://github.com/UbuntuKylin/kylin-user-guide
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: python-toolz
+upstream: https://github.com/pytoolz/toolz/
+description: List processing tools and functional utilities
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,7 @@
+name: WLLVM
+description: A wrapper script to build whole-program LLVM bitcode files
+upstream: https://github.com/travitch/whole-program-llvm
+branches:
+- name: master
+  type: protected
+type: public

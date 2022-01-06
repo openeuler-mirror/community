@@ -1,0 +1,10 @@
+name: thredds
+description: Thematic Realtime Environmental Distributed Data Services (TDS)
+upstream: http://www.unidata.ucar.edu/software/tds/
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

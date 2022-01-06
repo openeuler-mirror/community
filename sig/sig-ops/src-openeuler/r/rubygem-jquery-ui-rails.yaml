@@ -1,0 +1,8 @@
+name: rubygem-jquery-ui-rails
+upstream: https://github.com/jquery-ui-rails/jquery-ui-rails
+description: jQuery UI's JavaScript, CSS, and image files packaged for the Rails 3.1+
+  asset pipeline
+branches:
+- name: master
+  type: protected
+type: public

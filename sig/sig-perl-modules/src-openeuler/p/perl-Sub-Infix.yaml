@@ -1,0 +1,10 @@
+name: perl-Sub-Infix
+upstream: http://search.cpan.org/dist/Sub-Infix/
+description: Create a fake infix operator
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

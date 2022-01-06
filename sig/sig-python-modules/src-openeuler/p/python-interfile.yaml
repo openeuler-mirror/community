@@ -1,0 +1,10 @@
+name: python-interfile
+upstream: http://www.occiput.io/
+description: Interfile read and write.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

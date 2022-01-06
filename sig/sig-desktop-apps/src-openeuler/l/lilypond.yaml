@@ -1,0 +1,11 @@
+name: lilypond
+description: LilyPond is a music engraving program, devoted to producing the highest-quality
+  sheet music possible
+upstream: http://git.savannah.gnu.org/gitweb/?p=lilypond.git
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

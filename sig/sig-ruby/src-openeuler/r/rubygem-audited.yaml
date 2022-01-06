@@ -1,0 +1,9 @@
+name: rubygem-audited
+upstream: https://github.com/collectiveidea/audited
+description: Audited (previously acts_as_audited) is an ORM extension that logs all
+  changes to your models. Audited can also record who made those changes, save comments
+  and associate models related to the changes.
+branches:
+- name: master
+  type: protected
+type: public

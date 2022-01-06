@@ -1,0 +1,10 @@
+name: perl-Ref-Util
+upstream: http://search.cpan.org/dist/Ref-Util/
+description: Utility functions for checking references
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

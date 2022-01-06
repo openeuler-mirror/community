@@ -1,0 +1,35 @@
+name: crash-gcore-command
+description: Command for creating a core dump file of a user-space task that was running
+  in a kernel dumpfile.
+upstream: https://crash-utility.github.io/extensions.html
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-SP1
+  type: protected
+  create_from: master
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+- name: openEuler-20.03-LTS
+  type: protected
+  create_from: master
+- name: openEuler-21.03
+  type: protected
+  create_from: master
+- name: openEuler-20.03-LTS-SP2
+  type: protected
+  create_from: openEuler-20.03-LTS-Next
+- name: openEuler-21.09
+  type: protected
+  create_from: master
+- name: openEuler-20.03-LTS-SP3
+  type: protected
+  create_from: openEuler-20.03-LTS-Next
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: openEuler-21.09
+type: public

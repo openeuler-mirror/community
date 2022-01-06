@@ -1,0 +1,7 @@
+name: python-sentry-sdk
+description: the new python sdk for sentry.io
+upstream: https://github.com/getsentry/sentry-python
+branches:
+- name: master
+  type: protected
+type: public

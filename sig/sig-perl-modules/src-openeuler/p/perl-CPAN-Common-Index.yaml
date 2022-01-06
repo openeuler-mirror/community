@@ -1,0 +1,10 @@
+name: perl-CPAN-Common-Index
+upstream: http://search.cpan.org/dist/CPAN-Common-Index/
+description: Common library for searching CPAN modules, authors and distributions
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

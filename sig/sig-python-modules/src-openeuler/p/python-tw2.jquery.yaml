@@ -1,0 +1,10 @@
+name: python-tw2.jquery
+upstream: http://github.com/toscawidgets/tw2.jquery
+description: toscawidgets2 wrapper for jQuery
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

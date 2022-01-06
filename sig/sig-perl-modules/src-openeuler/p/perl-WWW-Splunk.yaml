@@ -1,0 +1,10 @@
+name: perl-WWW-Splunk
+upstream: http://search.cpan.org/dist/WWW-Splunk/
+description: Client library for Splunk log search engine
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

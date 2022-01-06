@@ -1,0 +1,10 @@
+name: perl-Email-Address-XS
+upstream: http://search.cpan.org/dist/Email-Address-XS/
+description: Parse and format RFC 5322 email addresses and groups
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

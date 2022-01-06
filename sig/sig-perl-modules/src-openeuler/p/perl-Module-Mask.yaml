@@ -1,0 +1,10 @@
+name: perl-Module-Mask
+upstream: http://search.cpan.org/dist/Module-Mask/
+description: Pretend certain modules are not installed
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

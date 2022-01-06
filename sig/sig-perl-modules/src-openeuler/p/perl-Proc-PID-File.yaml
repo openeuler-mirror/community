@@ -1,0 +1,10 @@
+name: perl-Proc-PID-File
+upstream: http://search.cpan.org/dist/Proc-PID-File/
+description: Module to manage process id files
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,11 @@
+name: platform_hardware_libhardware_legacy
+description: The legacy hardware abstraction layer mainly contains audio, QEMU, WiFi
+  module, etc
+upstream: https://github.com/anbox/platform_hardware_libhardware_legacy
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: perl-Perl6-Slurp
+upstream: http://search.cpan.org/dist/Perl6-Slurp/
+description: Implements the Perl 6 'slurp' built-in
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

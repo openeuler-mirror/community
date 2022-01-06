@@ -1,0 +1,10 @@
+name: platform_packages_apps_DeskClock
+description: DeskClock application source codes
+upstream: https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/packages/apps/DeskClock
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

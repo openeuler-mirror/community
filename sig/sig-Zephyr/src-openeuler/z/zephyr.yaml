@@ -1,0 +1,7 @@
+name: zephyr
+description: The release mirror of Zephyr Project
+upstream: https://github.com/zephyrproject-rtos/zephyr
+branches:
+- name: master
+  type: protected
+type: public

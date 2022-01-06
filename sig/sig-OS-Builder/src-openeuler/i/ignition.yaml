@@ -1,0 +1,8 @@
+name: ignition
+description: Ignition is the utility used by NestOS to manipulate disks during the
+  initramfs.
+upstream: https://github.com/coreos/ignition
+branches:
+- name: master
+  type: protected
+type: public

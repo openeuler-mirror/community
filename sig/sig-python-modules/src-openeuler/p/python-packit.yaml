@@ -1,0 +1,10 @@
+name: python-packit
+upstream: https://pypi.python.org/pypi/packit
+description: Python packaging in declarative way (wrapping pbr to make it flexible)
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

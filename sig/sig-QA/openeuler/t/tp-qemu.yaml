@@ -1,0 +1,10 @@
+name: tp-qemu
+description: Qemu test provider for virtualization test. It contains a lot of test
+  cases related to such as qemu/openvswitch/virtualization backed
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03
+  type: protected
+  create_from: master
+type: public

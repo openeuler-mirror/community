@@ -1,0 +1,10 @@
+name: python-unidiff
+upstream: http://github.com/matiasb/python-unidiff
+description: Unified diff parsing/metadata extraction library.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

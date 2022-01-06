@@ -1,0 +1,10 @@
+name: python-translationstring
+upstream: http://pylonsproject.org
+description: Utility library for i18n relied on by various Repoze and Pyramid packages
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

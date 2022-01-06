@@ -1,0 +1,10 @@
+name: perl-Tie-Handle-Offset
+upstream: http://search.cpan.org/dist/Tie-Handle-Offset/
+description: Tied handle that hides the beginning of a file
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

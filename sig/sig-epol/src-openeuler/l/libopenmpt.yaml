@@ -1,0 +1,7 @@
+name: libopenmpt
+description: C/C++ library to decode tracker music module (MOD) files
+upstream: https://lib.openmpt.org/libopenmpt/
+branches:
+- name: master
+  type: protected
+type: public

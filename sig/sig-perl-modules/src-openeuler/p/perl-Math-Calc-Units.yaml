@@ -1,0 +1,10 @@
+name: perl-Math-Calc-Units
+upstream: http://search.cpan.org/dist/Math-Calc-Units/
+description: Human-readable unit-aware calculator
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

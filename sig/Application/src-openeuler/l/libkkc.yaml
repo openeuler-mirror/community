@@ -1,0 +1,10 @@
+name: libkkc
+description: Japanese Kana Kanji conversion input method library
+upstream: https://github.com/ueno/libkkc
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

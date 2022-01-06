@@ -1,0 +1,10 @@
+name: libkefir
+description: Convert network filtering rules from various formats into BPF programs
+upstream: https://github.com/Netronome/libkefir
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public
