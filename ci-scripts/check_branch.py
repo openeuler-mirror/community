@@ -13,10 +13,11 @@
 # Author: miao_kaibo
 # Create: 2021-06-18
 # ******************************************************************************
+import argparse
 import os
+import subprocess
 import sys
 import yaml
-import subprocess
 
 
 class CheckError(Exception):
@@ -46,7 +47,7 @@ class CheckWarn(Exception):
         return self.message
 
 
-class checkBranch(object):
+class CheckBranch(object):
     def __init__(self, branch_map_yaml, community_path, pr_id):
         """
         :parm branch_map_yaml: yaml file of branch map
@@ -61,32 +62,38 @@ class checkBranch(object):
         self.community_path = community_path
         self._get_branch_map()
         self.change_msg = []
+        self.before_change_msg = []
 
-    def _read_yaml(self, file_path):
+    @staticmethod
+    def _read_yaml(file_path):
         if os.path.exists(file_path):
             with open(file_path, 'r', encoding='utf-8') as f:
                 file_msg = yaml.load(f, Loader=yaml.FullLoader)
         return file_msg
-    
-    def _change_pkg(self, list1, list2):
-        assert isinstance(list1, list)
-        assert isinstance(list2, list)
-        change_pkg = []
-        for p in list1:
-            if p not in list2:
-                change_pkg.append(p)
-        return change_pkg
-    
-    def get_change_pkg(self):
-        new_yaml = os.path.join(self.community_path, "repository", "src-openeuler.yaml")
-        old_yaml = "%s/old-src-openeuler.yaml" %  self.community_path
-        if os.system('cd %s && git show remotes/origin/master:repository/src-openeuler.yaml > old-src-openeuler.yaml' % self.community_path) != 0:
-            print("Error: can't get src-openeuler.yaml from remote repo")
-            return 1
 
-        list1 = self._read_yaml(new_yaml)["repositories"]
-        list2 = self._read_yaml(old_yaml)["repositories"]
-        self.change_msg = self._change_pkg(list1, list2)
+    def _change_pkg(self, change_pkgs):
+        os.chdir(self.community_path)
+        for pkg in change_pkgs:
+            res = subprocess.call('git show remotes/origin/master:{0} > {0}.master 2>&1'.format(pkg), shell=True)
+            with open(pkg, 'r', encoding='utf-8') as f:
+                pkg_yaml = yaml.load(f.read(), Loader=yaml.Loader)
+                self.change_msg.append(pkg_yaml)
+            if res == 0:
+                with open('{}.master'.format(pkg), 'r', encoding='utf-8') as f:
+                    pkg_yaml_master = yaml.load(f.read(), Loader=yaml.Loader)
+                self.before_change_msg.append(pkg_yaml_master)
+            subprocess.call('rm {}.master'.format(pkg), shell=True)
+        os.chdir('../')
+
+    def get_change_pkg(self):
+        change_pkgs = []
+        pr_diff = os.popen('cd {} && git show'.format(self.community_path)).read()
+        diff_files = [x.split(' ')[0][2:] for x in pr_diff.split('diff --git ')[1:]]
+        for diff_file in diff_files:
+            if len(diff_file.split('/')) == 5 and diff_file.split('/')[0] == 'sig' \
+                    and diff_file.split('/')[4].endswith('.yaml') and diff_file.split('/')[2] == 'src-openeuler':
+                change_pkgs.append(diff_file)
+        self._change_pkg(change_pkgs)
 
     def _get_branch_map(self):
         """
@@ -96,20 +103,9 @@ class checkBranch(object):
             with open(self.branch_map_yaml, 'r', encoding='utf-8') as f:
                 self.branch_map = yaml.load(f, Loader=yaml.FullLoader)
         else:
-            raise FileError("ERROR: No file {0}".format(self.branch_map_yaml)) 
+            raise FileError("ERROR: No file {0}".format(self.branch_map_yaml))
 
-    def get_src_openeuler_yaml(self):
-        """
-        get message from src-openeuler.yaml
-        """
-        src_openeuler_yaml = os.path.join(self.community_path, "repository", "src-openeuler.yaml")
-        if os.path.exists(src_openeuler_yaml):
-            with open(src_openeuler_yaml, 'r', encoding='utf-8') as f:
-                self.change_msg = yaml.load(f, Loader=yaml.FullLoader)["repositories"]
-        else:
-            raise FileError("ERROR: No file {0}".format(src_openeuler_yaml))
-
-    def _check_branch(self, mbranch, sbranch, pkg_name=''):
+    def _check_branch(self, mbranch, sbranch, pkg_name='', old_flag=0):
         """
         check
         :parm mbranch: branch which now branch created from
@@ -121,10 +117,10 @@ class checkBranch(object):
             else:
                 pass
         else:
-            self._check_main_branch(mbranch, pkg_name=pkg_name)
-            self._check_sub_branch(mbranch, sbranch, pkg_name=pkg_name)
+            self._check_main_branch(mbranch, pkg_name=pkg_name, old_flag=old_flag)
+            self._check_sub_branch(mbranch, sbranch, pkg_name=pkg_name, old_flag=old_flag)
 
-    def _check_main_branch(self, mbranch, pkg_name=''):
+    def _check_main_branch(self, mbranch, pkg_name='', old_flag=0):
         """
         check main branch which now branch created from
         :parm mbranch: main branch
@@ -132,19 +128,31 @@ class checkBranch(object):
         if mbranch not in self.branch_map["branch"].keys():
             if mbranch.startswith("Multi"):
                 if mbranch.split("_")[-1] not in self.branch_map["branch"].keys():
-                    raise CheckError("FAIL: {0} Not found main branch {1}".format(pkg_name, mbranch.split("_")[-1]))
+                    if old_flag:
+                        raise CheckWarn("WARN: {0} Not found main branch {1}".format(pkg_name, mbranch.split("_")[-1]))
+                    else:
+                        raise CheckError("FAIL: {0} Not found main branch {1}".format(pkg_name, mbranch.split("_")[-1]))
             elif mbranch.startswith("oepkg"):
                 tmp = mbranch.split("_")[-1]
                 if tmp.startswith("oe"):
                     tmp = tmp.replace("oe", "openEuler")
                     if tmp not in self.branch_map["branch"].keys():
-                        raise CheckError("FAIL: {0} Not found main branch {1}".format(pkg_name, tmp))
+                        if old_flag:
+                            raise CheckWarn("WARN: {0} Not found main branch {1}".format(pkg_name, tmp))
+                        else:
+                            raise CheckError("FAIL: {0} Not found main branch {1}".format(pkg_name, tmp))
                 else:
-                    raise CheckError("FAIL: {0} Not found main branch {1}".format(pkg_name, tmp))
+                    if old_flag:
+                        raise CheckError("WARN: {0} Not found main branch {1}".format(pkg_name, tmp))
+                    else:
+                        raise CheckError("FAIL: {0} Not found main branch {1}".format(pkg_name, tmp))
             else:
-                raise CheckError("FAIL: {0} Not found main branch {1}".format(pkg_name, mbranch))
+                if old_flag:
+                    raise CheckWarn("WARN: {0} Not found main branch {1}".format(pkg_name, mbranch))
+                else:
+                    raise CheckError("FAIL: {0} Not found main branch {1}".format(pkg_name, mbranch))
 
-    def _check_sub_branch(self, mbranch, sbranch, pkg_name=''):
+    def _check_sub_branch(self, mbranch, sbranch, pkg_name='', old_flag=0):
         """
         check sub branch
         :parm mbranch: main branch
@@ -157,28 +165,54 @@ class checkBranch(object):
                 if "_oe" in mbranch:
                     mbranch = mbranch.split("_")[-1].replace("oe", "openEuler")
             else:
-                raise CheckError("FAIL: {0} main branch is wrong".format(pkg_name))
+                if old_flag:
+                    raise CheckWarn("WARN: {0} main branch is wrong".format(pkg_name))
+                else:
+                    raise CheckError("FAIL: {0} main branch is wrong".format(pkg_name))
 
         if sbranch not in self.branch_map["branch"][mbranch]:
             sb = sbranch.split("_")
             if sbranch.startswith("Multi"):
                 if "Multi-Version" != sb[0]:
-                    raise CheckError("FAIL: {0} sub branch {1} is wrong".format(pkg_name, sbranch))
+                    if old_flag:
+                        raise CheckWarn("WARN: {0} sub branch {1} is wrong".format(pkg_name, sbranch))
+                    else:
+                        raise CheckError("FAIL: {0} sub branch {1} is wrong".format(pkg_name, sbranch))
                 if sb[-1] not in self.branch_map["branch"][mbranch]:
-                    raise CheckError("FAIL: {0} sub branch {1}\'s {2} not found in list given by main branch {3}"\
-                            .format(pkg_name, sbranch, sb[-1], mbranch))
+                    if old_flag:
+                        raise CheckWarn("WARN: {0} sub branch {1}\'s {2} not found in list given by main branch "
+                                        "{3}".format(pkg_name, sbranch, sb[-1], mbranch))
+                    else:
+                        raise CheckError("FAIL: {0} sub branch {1}\'s {2} not found in list given by main branch "
+                                         "{3}".format(pkg_name, sbranch, sb[-1], mbranch))
             elif sbranch.startswith("oepkg"):
                 if sb[-1].startswith("oe"):
                     tmp = sb[-1].replace("oe", "openEuler")
                     if tmp not in self.branch_map["branch"][mbranch]:
-                        raise CheckError("FAIL: {0} sub branch {1}\'s {2} not found in list given by main branch {3}"\
-                                .format(pkg_name, sbranch, sb[-1], mbranch))
+                        if old_flag:
+                            raise CheckWarn("WARN: {0} sub branch {1}\'s {2} not found in list given by main branch "
+                                            "{3}".format(pkg_name, sbranch, sb[-1], mbranch))
+                        else:
+                            raise CheckError(
+                                "FAIL: {0} sub branch {1}\'s {2} not found in list given by main branch "
+                                "{3}".format(pkg_name, sbranch, sb[-1], mbranch))
                 else:
-                    raise CheckError("FAIL: {0} sub branch is wrong".format(pkg_name))
+                    if old_flag:
+                        raise CheckWarn("WARN: {0} sub branch is wrong".format(pkg_name))
+                    else:
+                        raise CheckError("FAIL: {0} sub branch is wrong".format(pkg_name))
             else:
-                raise CheckError("FAIL: {0} sub branch {1} not found in list given by main branch {2}".format(pkg_name, sbranch, mbranch))
+                if old_flag:
+                    raise CheckWarn(
+                        "WARN: {0} sub branch {1} not found in list given by main branch {2}".format(pkg_name, sbranch,
+                                                                                                     mbranch))
+                else:
+                    raise CheckError(
+                        "FAIL: {0} sub branch {1} not found in list given by main branch {2}".format(pkg_name, sbranch,
+                                                                                                     mbranch))
 
-    def _check_createfrom_valid(self, reponame, sbranches, mbranches):
+    @staticmethod
+    def _check_createfrom_valid(reponame, sbranches, mbranches):
         """
         check if the create_from branch is created or creating.
         """
@@ -186,17 +220,18 @@ class checkBranch(object):
             if br is None:
                 continue
             if br not in sbranches:
-                raise CheckError("FAIL: Branch( {0} ) of repo( {1} ) is not created or creating but in create_from.".format(br, reponame))
+                raise CheckError(
+                    "FAIL: Branch( {0} ) of repo( {1} ) is not created or creating but in "
+                    "create_from.".format(br, reponame))
             else:
                 continue
         return
 
     def check(self):
+        old_flag = 0
         for pkg in self.change_msg:
             pkg_name = pkg["name"]
             branches = pkg["branches"]
-            sbranches = []
-            mbranches = []
             for bch in branches:
                 sbranch = bch['name']
                 if sbranch == "master":
@@ -204,9 +239,16 @@ class checkBranch(object):
                 else:
                     mbranch = bch['create_from']
                 try:
-                    sbranches.append(sbranch)
-                    mbranches.append(mbranch)
-                    self._check_branch(mbranch, sbranch, pkg_name=pkg_name)
+                    for bpkg in self.before_change_msg:
+                        if bpkg["name"] == pkg_name:
+                            bl = bpkg["branches"]
+                            for ob in bl:
+                                if ob["name"] == sbranch:
+                                    old_flag = 1
+                                    break
+                            break
+                    self._check_branch(mbranch, sbranch, pkg_name=pkg_name, old_flag=old_flag)
+                    old_flag = 0
                 except CheckError as e:
                     print(e)
                     self.error_flag = self.error_flag + 1
@@ -216,30 +258,17 @@ class checkBranch(object):
                 except FileError as e:
                     print(e)
                     self.error_flag = self.error_flag + 1
-            try:
-                self._check_createfrom_valid(pkg_name, sbranches, mbranches)
-            except CheckError as e:
-                print(e)
-                self.error_flag = self.error_flag + 1
         print("Check PR {0} Result: error {1}, warn {2}".format(self.pr_id, self.error_flag, self.warn_flag))
         if self.error_flag:
             sys.exit(1)
 
 
 if __name__ == "__main__":
-    import argparse
     par = argparse.ArgumentParser()
     par.add_argument("-conf", "--config", help="branch map", required=True)
-    par.add_argument("-id", "--pr_id", help="community pr id, you", required=True)
+    par.add_argument("-id", "--pr_id", help="community pr id", required=True)
     par.add_argument("-repo", "--community_repo_path", help="community repo path", required=True)
-    par.add_argument("-a", "--all", help="check all packages", default="False")
     args = par.parse_args()
-    C = checkBranch(args.config, args.community_repo_path, args.pr_id)
-    if args.all == "True":
-        C.get_src_openeuler_yaml()
-        C.check()
-    else:
-        C.get_change_pkg()
-        C.check()
-
-
+    C = CheckBranch(args.config, args.community_repo_path, args.pr_id)
+    C.get_change_pkg()
+    C.check()
