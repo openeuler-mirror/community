@@ -1,0 +1,7 @@
+name: rmw_dds_common
+description: This repository contains packages to support DDS-based RMW implementations.
+upstream: https://github.com/ros2/rmw_dds_common.git
+branches:
+- name: master
+  type: protected
+type: public

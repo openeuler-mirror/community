@@ -1,0 +1,7 @@
+name: yaml_cpp_vendor
+description: Wrapper around yaml-cpp, it provides a fixed CMake module and an ExternalProject build of it.
+upstream: https://github.com/ros2/yaml_cpp_vendor.git
+branches:
+- name: master
+  type: protected
+type: public

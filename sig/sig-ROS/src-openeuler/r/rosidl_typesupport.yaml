@@ -1,0 +1,7 @@
+name: rosidl_typesupport
+description: Packages which provide the typesupport for ROS messages and services.
+upstream: https://github.com/ros2/rosidl_typesupport.git
+branches:
+- name: master
+  type: protected
+type: public

@@ -1,0 +1,7 @@
+name: rmw_cyclonedds
+description: ROS 2 RMW layer for Eclipse Cyclone DDS.
+upstream: https://github.com/ros2/rmw_cyclonedds.git
+branches:
+- name: master
+  type: protected
+type: public

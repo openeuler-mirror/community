@@ -1,0 +1,7 @@
+name: rcl_interfaces
+description: A repository for messages and services used by the ROS client libraries.
+upstream: https://github.com/ros2/rcl_interfaces.git
+branches:
+- name: master
+  type: protected
+type: public
