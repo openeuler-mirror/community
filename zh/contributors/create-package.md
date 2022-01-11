@@ -23,28 +23,28 @@ git clone https://gitee.com/"$username"/community.git
    
    * 修改所属sig文件夹下的内容，如项目清单等；
    
-   * 修改sig/sigs.yaml，将要新增的软件包以"- src-openeuler/zip"的形式添加到对应的sig组列表下；以zip为例：
+   * 修改所属sig文件夹下的sig-info.yaml，将要新增的软件包以"- src-openeuler/zip"的形式添加到对应的sig组列表下；以zip为例，修改sig/Base-service/sig-info.yaml：
    
    ```yaml
-   - name: Base-service
-     repositories:
-     - src-openeuler/python-cheetah
-     - src-openeuler/sombok
-     - src-openeuler/yasm
-     - src-openeuler/python-redis
-     - src-openeuler/python-google-apputils
-     - src-openeuler/zopfli
+        repositories:
+        - repo: openeuler/openEuler-rpm-config
+        - repo: src-openeuler/abseil-cpp
+        - repo: src-openeuler/acl
+        - repo: src-openeuler/acpica-tools
+        - repo: src-openeuler/adcli
+        - repo: src-openeuler/aide
+        - repo: src-openeuler/airline
      
-     ...
+         ...
      
-     - src-openeuler/jansson
-     - src-openeuler/apr
-     - src-openeuler/python-lxml
-     - src-openeuler/zip
+        - repo: src-openeuler/jansson
+        - repo: src-openeuler/apr
+        - repo: src-openeuler/python-lxml
+        - repo: src-openeuler/zip
  
    ```
 
-   * 建仓：修改reposity目录下对应的yaml文件(openeuler社区维护项目: openeuler.yaml；其他社区引入包: src-openeuler.yaml)
+   * 建仓：在 sig/{sig目录}/src-openeuler/软件名首字母 新增下对应的yaml文件(openeuler社区维护项目: openeuler目录；其他社区引入包: src-openeuler目录。示例参考：sig/Base-service/src-openeuler/z/zip.yaml)
 
    ```yaml
    - name: pkgname
