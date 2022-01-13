@@ -1,0 +1,7 @@
+name: launch_ros
+description: Tools for launching ROS nodes and for writing tests involving ROS nodes.
+upstream: https://github.com/ros2/launch_ros.git
+branches:
+- name: master
+  type: protected
+type: public

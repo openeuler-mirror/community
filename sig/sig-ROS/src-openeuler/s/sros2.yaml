@@ -1,0 +1,7 @@
+name: sros2
+description: tools to generate and distribute keys for SROS 2.
+upstream: https://github.com/ros2/sros2.git
+branches:
+- name: master
+  type: protected
+type: public
