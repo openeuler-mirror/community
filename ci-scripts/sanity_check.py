@@ -501,7 +501,7 @@ def check_100_v3(changed_repos, oe_repos, src_oe_repos, super_visor, community_d
                 pass
             sigs_attention.add(sig_name)
         elif status == 'D':
-            print("WARNING: deleteing " + prefix + "%s." % repo_name)
+            print("WARNING: deleting " + prefix + "/%s." % repo_name)
 
     if errors_found != 0:
         print(error_msg)
@@ -735,12 +735,11 @@ def v3_main(community):
     else:
         issues_found += check_8_v2(oe_repos, src_oe_repos)
 
-    # following check is disabled temp.
-    #print("\nCheck Last:")
+    print("\nCheck Last:")
 
-    #changed_list = get_changed_repo_v3(community)
+    changed_list = get_changed_repo_v3(community)
 
-    #issues_found += check_100_v3(changed_list, oe_repos, src_oe_repos, repo_supervisors, community)
+    issues_found += check_100_v3(changed_list, oe_repos, src_oe_repos, repo_supervisors, community)
 
     sys.exit(issues_found)
 
