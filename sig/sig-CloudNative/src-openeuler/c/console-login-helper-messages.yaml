@@ -1,0 +1,7 @@
+name: console-login-helper-messages
+description: Combines motd, issue, profile features to show system information to the user before/on login
+upstream: https://github.com/coreos/console-login-helper-messages
+branches:
+- name: master
+  type: protected
+type: public

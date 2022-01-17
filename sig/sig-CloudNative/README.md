@@ -96,6 +96,7 @@ repository地址：
 - https://gitee.com/openeuler/kata_integration
 - https://gitee.com/src-openeuler/jboss-parent
 - https://gitee.com/src-openeuler/virt-what
+- https://gitee.com/src-openeuler/console-login-helper-messages
 - https://gitee.com/src-openeuler/zram-generator
 - https://gitee.com/src-openeuler/iSulad-img
 - https://gitee.com/src-openeuler/protobuf
@@ -107,6 +108,7 @@ repository地址：
 - https://gitee.com/src-openeuler/harbor
 - https://gitee.com/src-openeuler/catatonit
 - https://gitee.com/src-openeuler/zincati
+
 
 
 roadmap:
