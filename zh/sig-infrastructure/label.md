@@ -1,7 +1,7 @@
-## openEuler社区标签
+## openEuler 开源社区标签
 
-openEuler社区所有的项目都有很多标签。
-这些标签给予了Issue和Pull Request某些特定的含义。
+openEuler 开源社区所有的项目都有很多标签。
+这些标签给予了 Issue 和 Pull Request 某些特定的含义。
 这些标签包括：
 
 ### CLA
