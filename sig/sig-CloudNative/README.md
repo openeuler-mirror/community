@@ -106,6 +106,7 @@ repository地址：
 - https://gitee.com/src-openeuler/libnetwork
 - https://gitee.com/src-openeuler/harbor
 - https://gitee.com/src-openeuler/catatonit
+- https://gitee.com/src-openeuler/toolbox
 - https://gitee.com/src-openeuler/zincati
 
 
