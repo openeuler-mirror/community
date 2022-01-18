@@ -1,0 +1,7 @@
+name: fuse-overlayfs
+description: An implementation of overlay+shiftfs in FUSE for rootless containers.
+upstream: https://github.com/containers/fuse-overlayfs
+branches:
+- name: master
+  type: protected
+type: public
