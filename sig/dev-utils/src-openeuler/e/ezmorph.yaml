@@ -1,5 +1,6 @@
-name: ehcache-parent
-description: ''
+name: ezmorph
+description: Simple java library for transforming an Object to another Object
+upstream: http://ezmorph.sourceforge.net/
 branches:
 - name: master
   type: protected
@@ -27,4 +28,4 @@ branches:
 - name: openEuler-22.03-LTS
   type: protected
   create_from: openEuler-22.03-LTS-Next
-type: private
+type: public

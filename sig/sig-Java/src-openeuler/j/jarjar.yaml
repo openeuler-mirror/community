@@ -1,5 +1,6 @@
-name: http-builder
-description: A builder-style HTTP client API.
+name: jarjar
+description: Jar jar links is a utility that makes it easy to repackage java libraries.
+upstream: https://code.google.com/archive/p/jarjar/
 branches:
 - name: master
   type: protected
@@ -27,4 +28,4 @@ branches:
 - name: openEuler-22.03-LTS
   type: protected
   create_from: openEuler-22.03-LTS-Next
-type: private
+type: public

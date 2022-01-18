@@ -1,5 +1,6 @@
-name: java-base64
-description: ''
+name: ehcache-parent
+description: Module of Ehcache
+upstream: https://www.ehcache.org
 branches:
 - name: master
   type: protected
@@ -27,4 +28,4 @@ branches:
 - name: openEuler-22.03-LTS
   type: protected
   create_from: openEuler-22.03-LTS-Next
-type: private
+type: public

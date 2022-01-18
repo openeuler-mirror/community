@@ -1,5 +1,6 @@
-name: ezmorph
-description: Object transformation library for Java.
+name: geronimo-validation
+description: 'Geronimo implementation of JSR 303'
+upstream: http://geronimo.apache.org/
 branches:
 - name: master
   type: protected
@@ -27,4 +28,4 @@ branches:
 - name: openEuler-22.03-LTS
   type: protected
   create_from: openEuler-22.03-LTS-Next
-type: private
+type: public

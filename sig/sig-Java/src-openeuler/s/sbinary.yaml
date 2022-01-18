@@ -1,5 +1,6 @@
-name: geronimo-interceptor
-description: ''
+name: sbinary
+description: Library for describing binary formats for Scala types.
+upstream: https://github.com/harrah/sbinary
 branches:
 - name: master
   type: protected
@@ -27,4 +28,4 @@ branches:
 - name: openEuler-22.03-LTS
   type: protected
   create_from: openEuler-22.03-LTS-Next
-type: private
+type: public

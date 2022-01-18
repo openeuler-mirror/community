@@ -1,5 +1,6 @@
-name: geronimo-validation
-description: ''
+name: protoparser
+description: 'Java parser for .proto schema declarations.'
+upstream: https://github.com/square/protoparser
 branches:
 - name: master
   type: protected
@@ -27,4 +28,4 @@ branches:
 - name: openEuler-22.03-LTS
   type: protected
   create_from: openEuler-22.03-LTS-Next
-type: private
+type: public
