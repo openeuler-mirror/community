@@ -1,0 +1,10 @@
+name: plasma-wayland-protocols
+description: Plasma Specific Protocols for Wayland
+upstream: https://invent.kde.org/libraries/plasma-wayland-protocols.git
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
