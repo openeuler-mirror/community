@@ -1,0 +1,7 @@
+name: rubygem-patternfly-sass
+upstream: https://github.com/Patternfly/patternfly/
+description: Red Hat's Patternfly, converted to Sass and ready to drop into Rails
+branches:
+- name: master
+  type: protected
+type: public

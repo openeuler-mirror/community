@@ -64,3 +64,5 @@ repository地址：
  - [uboot-tools](https://gitee.com/src-openeuler/uboot-tools)
  - [python-dasbus](https://gitee.com/src-openeuler/python-dasbus)
  - [oemaker](https://gitee.com/openeuler/oemaker)
+ - [ignition](https://gitee.com/src-openeuler/ignition)
+ - [bootupd](https://gitee.com/src-openeuler/bootupd)

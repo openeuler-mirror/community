@@ -1,0 +1,14 @@
+name: raspberrypi-eeprom
+description: Installation scripts and binaries for the closed sourced Raspberry Pi
+  4 EEPROMs.
+upstream: https://github.com/raspberrypi/rpi-eeprom
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-20.03-LTS-SP3
+  type: protected
+  create_from: openEuler-20.03-LTS-Next
+type: public

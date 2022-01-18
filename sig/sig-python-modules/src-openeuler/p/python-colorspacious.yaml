@@ -1,0 +1,11 @@
+name: python-colorspacious
+upstream: https://github.com/njsmith/colorspacious
+description: A powerful, accurate, and easy-to-use Python library for doing colorspace
+  conversions
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

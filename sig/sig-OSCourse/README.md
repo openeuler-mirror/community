@@ -29,7 +29,8 @@ SIG将首先以软件所华为联合开发的openEuler内核课程作为项目�
 
 - Chen Zheng[@zhengchen87](https://gitee.com/zhengchen87)，zhengchen@iscas.ac.cn
 - Siyang Tian[@iscassiyang](https://gitee.com/iscassiyang)，siyang@iscas.ac.cn
-
+- Quanyi Ma[@genedna](https://gitee.com/genedna)，eli@patch.sh
+- Zhenyu Zheng[@ZhengZhenyu](https://gitee.com/ZhengZhenyu)，zheng.zhenyu@outlook.com
 ### Committer列表
 
 

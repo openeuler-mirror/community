@@ -1,0 +1,13 @@
+name: python-pep8-naming
+description: Check PEP-8 naming conventions, plugin for flake8
+upstream: https://github.com/PyCQA/pep8-naming
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-20.03-LTS-SP3
+  type: protected
+  create_from: openEuler-20.03-LTS-Next
+type: public

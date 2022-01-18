@@ -1,0 +1,19 @@
+name: baobab
+description: Baobab is a simple application which can scan either specific folders
+  (local or remote) or volumes and give a graphical representation including each
+  directory size or percentage in the branch. It also auto-detects any mounted/unmounted
+  device.
+upstream: https://wiki.gnome.org/Apps/DiskUsageAnalyzer
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+- name: openEuler-21.09
+  type: protected
+  create_from: master
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: openEuler-21.09
+type: public

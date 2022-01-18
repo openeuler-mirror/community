@@ -1,0 +1,10 @@
+name: python-ratelimitingfilter
+upstream: https://github.com/wkeeling/ratelimitingfilter
+description: A rate limiting filter for the Python logging system
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -13,12 +13,11 @@
 
 - [openEuler社区介绍](/zh/governance)
 - 社区治理组织架构
-    - [秘书处](/zh/secretariat)
     - [安全委员会](/zh/security-committee)
     - [技术委员会](/zh/technical-committee)
-    - [SIG](https://openeuler.org/zh/sig/sig-list/)
-- 社区活动: [直播](https://openeuler.org/zh/interaction/live-list/)&[沙龙](https://openeuler.org/zh/interaction/salon-list/)&[峰会](https://openeuler.org/zh/interaction/summit-list/)
-- [开发者贡献指南](https://openeuler.org/zh/community/contribution/)
+    - [SIG](https://www.openeuler.org/zh/sig/sig-list/)
+- 社区活动: [直播](https://www.openeuler.org/zh/interaction/live-list/)&[沙龙](https://www.openeuler.org/zh/interaction/salon-list/)&[峰会](https://www.openeuler.org/zh/interaction/summit-list/)
+- [开发者贡献指南](https://www.openeuler.org/zh/community/contribution/)
 
 
 ## 如何在本代码仓贡献

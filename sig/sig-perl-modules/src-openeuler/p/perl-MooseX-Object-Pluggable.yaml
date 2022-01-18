@@ -1,0 +1,10 @@
+name: perl-MooseX-Object-Pluggable
+upstream: http://search.cpan.org/dist/MooseX-Object-Pluggable/
+description: Make your classes pluggable
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

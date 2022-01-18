@@ -1,0 +1,10 @@
+name: lxde-icon-theme
+description: Default icon theme for LXDE.
+upstream: https://github.com/lxde/lxde-icon-theme
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

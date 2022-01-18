@@ -26,6 +26,7 @@ CloudNative SIG致力于为广大用户、开发者、爱好者提供便捷、�
 - weibaohui[@weibaohui](https://gitee.com/weibaohui) | email:weibaohui@yeah.net
 - biannm[@biannm](https://gitee.com/biannm) | email:bian_naimeng@hoperun.com
 - pixiake[@pixiake](https://gitee.com/pixiake) | email:guofeng@yunify.com
+- duguhaotian[@duguhaotian](https://gitee.com/duguhaotian) | email:liuhao27@huawei.com
 
 ### Committer列表
 - caihaomin[@caihaomin](https://gitee.com/caihaomin)
@@ -53,12 +54,16 @@ repository地址：
 - https://gitee.com/openeuler/cloudnative
 - https://gitee.com/openeuler/operator-manager
 - https://gitee.com/openeuler/rubik
+- https://gitee.com/openeuler/openeuler-docker-images
+- https://gitee.com/openeuler/NestOS
+- https://gitee.com/openeuler/ptcr
 - https://gitee.com/src-openeuler/coredns
 - https://gitee.com/src-openeuler/kubernetes
 - https://gitee.com/src-openeuler/iSulad
 - https://gitee.com/src-openeuler/isula-build
 - https://gitee.com/src-openeuler/kata-containers
 - https://gitee.com/src-openeuler/docker
+- https://gitee.com/src-openeuler/rubik
 - https://gitee.com/src-openeuler/runc
 - https://gitee.com/src-openeuler/containerd
 - https://gitee.com/src-openeuler/clibcni
@@ -77,6 +82,7 @@ repository地址：
 - https://gitee.com/src-openeuler/crun
 - https://gitee.com/src-openeuler/containers-common
 - https://gitee.com/src-openeuler/gvisor
+- https://gitee.com/src-openeuler/afterburn
 - https://gitee.com/src-openeuler/cri-o
 - https://gitee.com/src-openeuler/cri-tools
 - https://gitee.com/src-openeuler/alertmanager
@@ -90,14 +96,18 @@ repository地址：
 - https://gitee.com/openeuler/kata_integration
 - https://gitee.com/src-openeuler/jboss-parent
 - https://gitee.com/src-openeuler/virt-what
+- https://gitee.com/src-openeuler/zram-generator
 - https://gitee.com/src-openeuler/iSulad-img
 - https://gitee.com/src-openeuler/protobuf
+- https://gitee.com/src-openeuler/zchunk
 - https://gitee.com/src-openeuler/busybox
 - https://gitee.com/src-openeuler/libevhtp
 - https://gitee.com/src-openeuler/libcgroup
 - https://gitee.com/src-openeuler/libnetwork
 - https://gitee.com/src-openeuler/harbor
 - https://gitee.com/src-openeuler/catatonit
+- https://gitee.com/src-openeuler/zincati
+- https://gitee.com/src-openeuler/fuse-overlayfs
 
 roadmap:
 ```

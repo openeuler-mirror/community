@@ -1,0 +1,10 @@
+name: perl-MIME-Base32
+upstream: http://search.cpan.org/dist/MIME-Base32/
+description: Base32 encoder and decoder
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

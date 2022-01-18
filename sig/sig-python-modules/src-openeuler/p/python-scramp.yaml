@@ -1,0 +1,10 @@
+name: python-scramp
+upstream: https://github.com/tlocke/scramp
+description: An implementation of the SCRAM protocol.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: python-paperwork-backend
+upstream: https://gitlab.gnome.org/World/OpenPaperwork/paperwork/tree/master/paperwork-backend
+description: Paperwork's backend
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

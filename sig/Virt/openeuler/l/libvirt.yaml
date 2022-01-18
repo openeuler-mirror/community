@@ -1,0 +1,24 @@
+name: libvirt
+description: libvirt is a toolkit to manage virtualization platforms.
+branches:
+- name: master
+  type: protected
+- name: libvirt-6.2.0
+  type: protected
+  create_from: libvirt-6.2.0
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: libvirt-6.2.0
+- name: openEuler-20.03-LTS
+  type: protected
+  create_from: openEuler-20.03-LTS-Next
+- name: openEuler-20.03-LTS-SP1
+  type: protected
+  create_from: openEuler-20.03-LTS-Next
+- name: openEuler-20.09
+  type: protected
+  create_from: libvirt-6.2.0
+- name: openEuler-21.03
+  type: protected
+  create_from: libvirt-6.2.0
+type: public

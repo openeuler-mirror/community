@@ -1,0 +1,8 @@
+name: rqt
+description: rqt is a Qt-based framework for GUI development for ROS. It consists
+  of three parts/metapackages.
+upstream: https://github.com/ros-visualization/rqt
+branches:
+- name: master
+  type: protected
+type: public

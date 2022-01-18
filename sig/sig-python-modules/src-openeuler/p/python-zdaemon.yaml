@@ -1,0 +1,10 @@
+name: python-zdaemon
+upstream: https://github.com/zopefoundation/zdaemon
+description: Daemon process control library and tools for Unix-based systems
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

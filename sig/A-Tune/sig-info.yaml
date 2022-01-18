@@ -25,16 +25,23 @@ maintainers:
   name: shanshishi
   orgnization: Huawei
   email: shanshishi@huawei.com
+- gitee_id: gaoruoshu
+  name: gaoruoshu
+  orgnization: Huawei
+  email: gaoruoshu@huawei.com
 repositories:
 - repo: openeuler/A-Tune
 - repo: openeuler/A-Tune-UI
 - repo: openeuler/A-Tune-Collector
 - repo: openeuler/prefetch_tuning
+- repo: openeuler/native-turbo
+- repo: openeuler/native-turbo-kernel
 - repo: openeuler/wisdom-advisor
 - repo: src-openeuler/A-Tune
 - repo: src-openeuler/A-Tune-UI
 - repo: src-openeuler/A-Tune-Collector
 - repo: src-openeuler/prefetch_tuning
+- repo: src-openeuler/native-turbo
 - repo: src-openeuler/wisdom-advisor
 - repo: src-openeuler/python-networkx
 - repo: src-openeuler/python-netifaces

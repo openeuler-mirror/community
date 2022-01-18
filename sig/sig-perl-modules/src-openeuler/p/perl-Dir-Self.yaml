@@ -1,0 +1,10 @@
+name: perl-Dir-Self
+upstream: http://search.cpan.org/dist/Dir-Self/
+description: __DIR__ constant for the directory your source file is in
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

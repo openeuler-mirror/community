@@ -1,0 +1,7 @@
+name: zram-generator
+description: This is a systemd unit generator that enables swap on zram.
+upstream: https://github.com/systemd/zram-generator
+branches:
+- name: master
+  type: protected
+type: public

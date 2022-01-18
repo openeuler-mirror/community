@@ -1,0 +1,10 @@
+name: python-citeproc-py
+upstream: https://github.com/brechtm/citeproc-py
+description: Citations and bibliography formatter
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

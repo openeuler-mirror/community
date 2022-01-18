@@ -1,0 +1,10 @@
+name: python-listparser
+upstream: https://github.com/kurtmckee/listparser
+description: Parse OPML, FOAF, and iGoogle subscription lists.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

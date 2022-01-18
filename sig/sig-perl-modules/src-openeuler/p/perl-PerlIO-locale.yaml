@@ -1,0 +1,10 @@
+name: perl-PerlIO-locale
+upstream: http://search.cpan.org/dist/PerlIO-locale/
+description: PerlIO layer to use the encoding of the current locale
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

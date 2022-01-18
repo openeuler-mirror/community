@@ -1,0 +1,10 @@
+name: lxmenu-data
+description: Data files for the LXDE menu.
+upstream: https://github.com/lxde/lxmenu-data
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: python-requests-gssapi
+upstream: https://github.com/pythongssapi/requests-gssapi
+description: A GSSAPI authentication handler for python-requests
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

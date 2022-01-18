@@ -1,0 +1,10 @@
+name: luarocks
+description: LuaRocks is the package manager for Lua modules
+upstream: https://github.com/luarocks/luarocks
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

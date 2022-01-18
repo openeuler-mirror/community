@@ -1,0 +1,10 @@
+name: perl-Devel-SelfStubber
+upstream: http://search.cpan.org/dist/Devel-SelfStubber/
+description: Generate stubs for a SelfLoading module
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

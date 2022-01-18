@@ -1,0 +1,14 @@
+name: pybind11
+description: Pybind11 is a lightweight header-only library that exposes C++ types
+  in Python and vice versa.
+upstream: https://github.com/pybind/pybind11
+branches:
+- name: master
+  type: protected
+- name: openEuler-21.09
+  type: protected
+  create_from: master
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: openEuler-21.09
+type: public

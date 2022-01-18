@@ -1,0 +1,8 @@
+name: rqt_robot_monitor
+description: rqt_robot_monitor displays diagnostics_agg topics messages that are published
+  by diagnostic_aggregator.
+upstream: https://github.com/ros-visualization/rqt_robot_monitor
+branches:
+- name: master
+  type: protected
+type: public

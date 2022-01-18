@@ -1,0 +1,10 @@
+name: python-plink
+upstream: http://www.math.uic.edu/t3m/plink/doc/
+description: A full featured Tk-based knot and link editor
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

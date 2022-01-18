@@ -1,0 +1,10 @@
+name: perl-File-Find-Rule-VCS
+upstream: http://search.cpan.org/dist/File-Find-Rule-VCS/
+description: Exclude files/directories for Version Control Systems
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

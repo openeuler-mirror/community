@@ -1,0 +1,7 @@
+name: patchelf
+description: A utility for patching ELF binaries
+upstream: http://nixos.org/patchelf.html
+branches:
+- name: master
+  type: protected
+type: public

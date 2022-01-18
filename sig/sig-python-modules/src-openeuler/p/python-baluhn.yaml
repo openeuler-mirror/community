@@ -1,0 +1,17 @@
+name: python-baluhn
+upstream: http://github.com/benhodgson/baluhn
+description: A base-agnostic implementation of the Luhn Algorithm for Python. Useful
+  for generating and verifying check digits.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+- name: openEuler-21.09
+  type: protected
+  create_from: master
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: openEuler-21.09
+type: public

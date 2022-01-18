@@ -1,0 +1,11 @@
+name: python-d2to1
+upstream: https://github.com/embray/d2to1
+description: Allows using distutils2-like setup.cfg files for a package's metadata
+  with a distribute/setuptools setup.py
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

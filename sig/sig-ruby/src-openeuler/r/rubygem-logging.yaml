@@ -1,0 +1,10 @@
+name: rubygem-logging
+upstream: https://github.com/TwP/logging
+description: Logging is a flexible logging library for use in Ruby programs based
+  on the design of Java's log4j library. It features a hierarchical logging system,
+  custom level names, multiple output destinations per log event, custom formatting,
+  and more.
+branches:
+- name: master
+  type: protected
+type: public

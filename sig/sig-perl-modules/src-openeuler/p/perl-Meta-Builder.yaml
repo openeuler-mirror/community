@@ -1,0 +1,10 @@
+name: perl-Meta-Builder
+upstream: http://search.cpan.org/dist/Meta-Builder/
+description: Tools for creating Meta objects to track custom metrics
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

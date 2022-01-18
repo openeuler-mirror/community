@@ -1,0 +1,10 @@
+name: python-kickstart
+upstream: https://github.com/rlayte/kickstart
+description: Framework agnostic setup script
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

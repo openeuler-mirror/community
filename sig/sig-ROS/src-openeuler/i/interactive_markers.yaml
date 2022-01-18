@@ -1,0 +1,10 @@
+name: interactive_markers
+description: 3D interactive marker communication library for RViz and similar tools.
+upstream: https://github.com/ros-visualization/interactive_markers
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

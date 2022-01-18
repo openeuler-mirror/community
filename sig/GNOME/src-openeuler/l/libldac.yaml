@@ -1,0 +1,7 @@
+name: libldac
+description: A lossy audio codec for Bluetooth connections
+upstream: https://github.com/EHfive/ldacBT
+branches:
+- name: master
+  type: protected
+type: public

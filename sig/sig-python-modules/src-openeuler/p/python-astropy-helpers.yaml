@@ -1,0 +1,10 @@
+name: python-astropy-helpers
+upstream: https://github.com/astropy/astropy-helpers
+description: Utilities for building and installing packages in the Astropy ecosystem
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

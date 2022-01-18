@@ -1,0 +1,10 @@
+name: python-xarray
+upstream: https://github.com/pydata/xarray
+description: N-D labeled arrays and datasets in Python
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

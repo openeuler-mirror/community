@@ -1,0 +1,10 @@
+name: perl-Class-Prototyped
+upstream: http://search.cpan.org/dist/Class-Prototyped/
+description: Fast prototype-based OO programming in Perl
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

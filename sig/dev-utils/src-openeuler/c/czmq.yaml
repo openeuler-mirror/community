@@ -1,0 +1,8 @@
+name: czmq
+description: To wrap the ZeroMQ core API in semantics that are natural and lead to
+  shorter, more readable applications
+upstream: http://czmq.zeromq.org
+branches:
+- name: master
+  type: protected
+type: public

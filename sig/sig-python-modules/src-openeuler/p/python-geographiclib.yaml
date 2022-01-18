@@ -1,0 +1,10 @@
+name: python-geographiclib
+upstream: https://geographiclib.sourceforge.io/1.50/python
+description: The geodesic routines from GeographicLib
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

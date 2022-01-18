@@ -1,0 +1,10 @@
+name: jitterentropy-library
+description: Provides libraries that support CPU Jitter Entropy source
+upstream: https://github.com/smuellerDD/jitterentropy-library
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

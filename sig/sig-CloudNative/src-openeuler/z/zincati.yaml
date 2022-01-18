@@ -1,0 +1,7 @@
+name: zincati
+description: Zincati is an auto-update agent for NestOS hosts..
+upstream: https://github.com/coreos/zincati
+branches:
+- name: master
+  type: protected
+type: public

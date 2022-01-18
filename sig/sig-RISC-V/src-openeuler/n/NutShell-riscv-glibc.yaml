@@ -1,0 +1,8 @@
+name: NutShell-riscv-glibc
+description: riscv-glibc, for building openEuler OS running on NutShell UCAS COOSCA
+  CPU.
+upstream: https://github.com/riscv/riscv-glibc
+branches:
+- name: master
+  type: protected
+type: public

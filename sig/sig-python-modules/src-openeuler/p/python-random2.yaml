@@ -1,0 +1,10 @@
+name: python-random2
+upstream: http://pypi.python.org/pypi/random2
+description: Python 3 compatible Pytohn 2 `random` Module.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

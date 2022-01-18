@@ -359,22 +359,17 @@ openEuler 发行版分为创新版本和稳定版本（也说长期维护版本�
 
 ###  Maintainer列表
 
-- 郭寒军[@guohanjun]
-- 谢秀奇[@xiexiuqi]
-- 杨颖梁[@yangyingliang]
+openeuler/kernel
+- 成坚 @gatieme
+- 谢秀奇 @xiexiuqi
+- 杨颖梁 @yangyingliang
+
+openeuler/kbuild-standalone
+- WangNan @pi3orama
 
 ### Committer列表
 
-部分模块或子系统的 Committer （待补充：）
-
-| 模块     | 文件                                                         | Committer(s)                                 |
-| -------- | ------------------------------------------------------------ | -------------------------------------------- |
-| bcache   | drivers/md/bcache/                                           | ```Coly Li <colyli@suse.de>```               |
-| nvme     | drivers/nvme/host/<br/>include/linux/nvme.h<br/>include/uapi/linux/nvme_ioctl.h | ```Leng Chao <lengchao@huawei.com>```        |
-| kvm      | Documentation/virtual/kvm/<br/>include/trace/events/kvm.h<br/>include/uapi/asm-generic/kvm*<br/>include/uapi/linux/kvm*<br/>include/asm-generic/kvm*<br/>include/linux/kvm*<br/>include/kvm/iodev.h<br/>virt/kvm/*<br/>tools/kvm/* | ```Chen Zhendong <alex.chen@huawei.com>```   |
-| bpf      | arch/x86/net/bpf_jit*<br/>Documentation/networking/filter.txt<br/>Documentation/bpf/<br/>include/linux/bpf*<br/>include/linux/filter.h<br/>include/trace/events/xdp.h<br/>include/uapi/linux/bpf*<br/>include/uapi/linux/filter.h<br/>kernel/bpf/<br/>kernel/trace/bpf_trace.c<br/>lib/test_bpf.c<br/>net/bpf/<br/>net/core/filter.c<br/>net/sched/act_bpf.c<br/>net/sched/cls_bpf.c<br/>samples/bpf/<br/>tools/bpf/<br/>tools/lib/bpf/<br/>tools/testing/selftests/bpf/ | ```Lu Zhihao <luzhihao@huawei.com>```        |
-| risc-v   | arch/risc-v/*                                                | ```Zhang Xuzhou <zhangxuzhou4@huawei.com>``` |
-| security | security/integrity/*                                         | ```Zhu Jianwei <zhujianwei7@huawei.com>```   |
+参见 [openEuler kernel Committer List](committers.md)
 
 ## 联系方式
 

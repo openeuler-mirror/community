@@ -1,0 +1,8 @@
+name: rubygem-jwt
+upstream: https://github.com/jwt/ruby-jwt
+description: A pure ruby implementation of the RFC 7519 OAuth JSON Web Token (JWT)
+  standard.
+branches:
+- name: master
+  type: protected
+type: public

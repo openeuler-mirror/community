@@ -1,0 +1,10 @@
+name: pyporter
+description: A rpm packager bot for python modules from pypi.org
+upstream: https://gitee.com/openeuler/pyporter
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

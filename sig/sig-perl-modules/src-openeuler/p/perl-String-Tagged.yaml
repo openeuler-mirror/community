@@ -1,0 +1,10 @@
+name: perl-String-Tagged
+upstream: http://search.cpan.org/dist/String-Tagged/
+description: String buffers with value tags on extents
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

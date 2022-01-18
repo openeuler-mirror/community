@@ -1,0 +1,10 @@
+name: python-kaptan
+upstream: https://github.com/emre/kaptan
+description: Configuration manager
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

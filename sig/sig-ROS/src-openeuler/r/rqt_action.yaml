@@ -1,0 +1,11 @@
+name: rqt_action
+description: rqt_action provides a feature to introspect all available ROS action
+  (from actionlib) types.
+upstream: https://github.com/ros-visualization/rqt_action
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

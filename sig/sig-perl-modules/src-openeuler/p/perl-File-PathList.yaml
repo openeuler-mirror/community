@@ -1,0 +1,10 @@
+name: perl-File-PathList
+upstream: http://search.cpan.org/dist/File-PathList/
+description: Find a file within a set of paths (like @INC or Java classpaths)
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

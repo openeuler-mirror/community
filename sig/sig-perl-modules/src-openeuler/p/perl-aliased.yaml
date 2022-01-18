@@ -1,0 +1,10 @@
+name: perl-aliased
+upstream: http://search.cpan.org/dist/aliased/
+description: Use shorter versions of class names
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

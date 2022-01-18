@@ -1,0 +1,10 @@
+name: perl-Dist-Metadata
+upstream: http://search.cpan.org/dist/Dist-Metadata/
+description: Information about a perl module distribution
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

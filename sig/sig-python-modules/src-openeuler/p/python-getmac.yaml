@@ -1,0 +1,10 @@
+name: python-getmac
+upstream: https://github.com/GhostofGoes/getmac
+description: Get MAC addresses of remote hosts and local interfaces
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

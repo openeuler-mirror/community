@@ -22,7 +22,8 @@ OKD是红帽公司开源的企业级容器云PaaS平台，用以管理混合云�
 ### Maintainers列表
 - 侯健[@hjimmy](https://gitee.com/hjimmy)
 - 杨昭[@yangzhao_kl](https://gitee.com/yangzhao_kl)
-- 窦龑[@dou33](https://gitee.com/dou33)
+- 王悦良[@wangyueliang](https://gitee.com/wangyueliang)
+- 杜奕威[@duyiwei7w](https://gitee.com/duyiwei7w)
 
 
 ### Committers列表

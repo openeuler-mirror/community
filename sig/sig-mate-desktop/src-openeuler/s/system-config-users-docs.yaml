@@ -1,0 +1,10 @@
+name: system-config-users-docs
+description: Documentation for administering users and groups
+upstream: https://fedorahosted.org/system-config-users-docs
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

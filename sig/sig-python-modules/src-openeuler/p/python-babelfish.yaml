@@ -1,0 +1,10 @@
+name: python-babelfish
+upstream: https://github.com/Diaoul/babelfish
+description: A module to work with countries and languages
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

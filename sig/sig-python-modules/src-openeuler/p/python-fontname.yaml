@@ -1,0 +1,10 @@
+name: python-fontname
+upstream: https://github.com/Asvel/fontname
+description: A lib for guessing font name
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

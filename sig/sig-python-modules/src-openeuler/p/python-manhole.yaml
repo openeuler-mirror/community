@@ -1,0 +1,8 @@
+name: python-manhole
+description: accept unix domain socket connections and present the stacktraces for
+  all threads and an interactive prompt
+upstream: https://github.com/ionelmc/python-manhole
+branches:
+- name: master
+  type: protected
+type: public

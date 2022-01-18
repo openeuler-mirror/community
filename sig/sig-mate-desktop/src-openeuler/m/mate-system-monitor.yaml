@@ -1,0 +1,16 @@
+name: mate-system-monitor
+description: Process viewer and system resource monitor for MATE
+upstream: https://github.com/mate-desktop/mate-system-monitor
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-20.03-LTS-SP3
+  type: protected
+  create_from: openEuler-20.03-LTS-Next
+type: public

@@ -1,0 +1,11 @@
+name: perl-Mock-Quick
+upstream: http://search.cpan.org/dist/Mock-Quick/
+description: Quickly mock objects and classes, even temporarily replace them, side-effect
+  free
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

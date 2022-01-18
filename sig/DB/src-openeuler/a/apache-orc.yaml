@@ -1,0 +1,7 @@
+name: apache-orc
+description: a smallest, fastest columnar storage for Hadoop workloads
+upstream: https://github.com/apache/orc/
+branches:
+- name: master
+  type: protected
+type: public

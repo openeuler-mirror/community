@@ -4,10 +4,6 @@ mailing_list: virt@openeuler.org
 meeting_url: https://etherpad.openeuler.org/p/Virt-meetings
 mature_level: standalone
 maintainers:
-- gitee_id: zhanghailiang_lucky
-  name: zhanghailiang
-  organization: Huawei
-  email: zhang.zhanghailiang@huawei.com
 - gitee_id: RootWB
   name: WuBin
   organization: Huawei
@@ -50,13 +46,15 @@ committers:
   organization: Huawei
   email: lijiajie11@huawei.com
 repositories:
-- repo: src-openeuler/virt-viewer
 - repo: src-openeuler/virglrenderer
-- repo: src-openeuler/python-beautifulsoup4
 - repo: src-openeuler/libvirt-python
 - repo: src-openeuler/libvirt-glib
-- repo: src-openeuler/virt-manager
 - repo: src-openeuler/qemu
+  additional_contributors:
+  - gitee_id: tom0392
+    name: Zhongrui Tang
+    organization: ChinaMobile
+    email: tangzhongrui@cmss.chinamobile.com
 - repo: src-openeuler/libvirt
 - repo: src-openeuler/edk2
 - repo: src-openeuler/perl-Sys-Virt

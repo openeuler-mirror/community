@@ -1,0 +1,8 @@
+name: rubygem-apipie-rails
+upstream: https://github.com/Apipie/apipie-rails
+description: Apipie-rails is a DSL and Rails engine for documenting your RESTful API.  Apipie
+  lets you describe the code, through the code. This brings advantages like
+branches:
+- name: master
+  type: protected
+type: public

@@ -1,0 +1,10 @@
+name: perl-MooseX-StrictConstructor
+upstream: http://search.cpan.org/dist/MooseX-StrictConstructor/
+description: Make your object constructors blow up on unknown attributes
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

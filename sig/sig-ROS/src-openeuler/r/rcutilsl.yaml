@@ -1,0 +1,7 @@
+name: rcutilsl
+description: Package containing various utility types and functions for C.
+upstream: https://github.com/ros2/rcutils.git
+branches:
+- name: master
+  type: protected
+type: public

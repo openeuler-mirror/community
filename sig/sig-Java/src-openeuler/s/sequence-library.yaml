@@ -1,0 +1,16 @@
+name: sequence-library
+description: Textual diff and merge library
+upstream: http://svn.svnkit.com/repos/3rdparty/de.regnis.q.sequence/
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+- name: openEuler-21.09
+  type: protected
+  create_from: master
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: openEuler-21.09
+type: public

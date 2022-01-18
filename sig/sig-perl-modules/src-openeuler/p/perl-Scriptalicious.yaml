@@ -1,0 +1,10 @@
+name: perl-Scriptalicious
+upstream: http://search.cpan.org/dist/Scriptalicious/
+description: Make scripts more delicious to SysAdmins
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

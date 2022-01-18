@@ -1,0 +1,8 @@
+name: percona-toolkit
+upstream: https://www.percona.com/downloads/percona-toolkit
+description: Percona Toolkit is a collection of advanced open source command-line
+  tools, developed and used by the Percona technical staff.
+branches:
+- name: master
+  type: protected
+type: public

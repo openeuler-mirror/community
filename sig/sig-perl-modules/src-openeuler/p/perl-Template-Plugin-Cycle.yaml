@@ -1,0 +1,10 @@
+name: perl-Template-Plugin-Cycle
+upstream: http://search.cpan.org/dist/Template-Plugin-Cycle/
+description: Cyclically insert into a Template from a sequence of values
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

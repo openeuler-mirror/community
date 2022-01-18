@@ -1,0 +1,7 @@
+name: foreman
+description: Systems Management web application
+upstream: https://theforeman.org
+branches:
+- name: master
+  type: protected
+type: public

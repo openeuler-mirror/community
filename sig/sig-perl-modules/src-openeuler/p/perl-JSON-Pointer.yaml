@@ -1,0 +1,10 @@
+name: perl-JSON-Pointer
+upstream: http://search.cpan.org/dist/JSON-Pointer/
+description: Perl implementation of JSON Pointer (RFC6901)
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

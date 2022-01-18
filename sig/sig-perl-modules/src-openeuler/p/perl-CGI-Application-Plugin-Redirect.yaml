@@ -1,0 +1,10 @@
+name: perl-CGI-Application-Plugin-Redirect
+upstream: http://search.cpan.org/dist/CGI-Application-Plugin-Redirect/
+description: Easy external redirects in CGI
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

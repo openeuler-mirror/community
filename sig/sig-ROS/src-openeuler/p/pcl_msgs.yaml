@@ -1,0 +1,10 @@
+name: pcl_msgs
+description: Package containing PCL (Point Cloud Library)-related ROS messages.
+upstream: https://github.com/ros-perception/pcl_msgs
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

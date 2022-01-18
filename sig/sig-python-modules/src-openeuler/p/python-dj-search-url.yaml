@@ -1,0 +1,10 @@
+name: python-dj-search-url
+upstream: https://github.com/dstufft/dj-search-url
+description: Use Search URLs in your Django Haystack Application.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

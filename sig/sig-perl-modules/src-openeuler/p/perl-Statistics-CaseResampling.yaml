@@ -1,0 +1,10 @@
+name: perl-Statistics-CaseResampling
+upstream: http://search.cpan.org/dist/Statistics-CaseResampling/
+description: Efficient resampling and calculation of medians with confidence intervals
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

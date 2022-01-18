@@ -1,0 +1,10 @@
+name: python-injector
+upstream: http://github.com/alecthomas/injector
+description: Injector - Python dependency injection framework, inspired by Guice
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

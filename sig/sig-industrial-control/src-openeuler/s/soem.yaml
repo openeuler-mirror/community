@@ -1,0 +1,9 @@
+name: soem
+upstream: https://github.com/OpenEtherCATsociety/SOEM
+description: SOEM is an EtherCAT master library written in c. Its purpose is to learn  and
+  to use. All users are invited to study the source to get an  understanding how an
+  EtherCAT master functions and how it interacts with  EtherCAT slaves.
+branches:
+- name: master
+  type: protected
+type: public

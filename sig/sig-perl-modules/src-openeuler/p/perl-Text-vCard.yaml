@@ -1,0 +1,10 @@
+name: perl-Text-vCard
+upstream: http://search.cpan.org/dist/Text-vCard/
+description: Edit and create vCards (RFC 2426)
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

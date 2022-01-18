@@ -1,0 +1,10 @@
+name: perl-Diff-LibXDiff
+upstream: http://search.cpan.org/dist/Diff-LibXDiff/
+description: Calculate a diff with LibXDiff (via XS)
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

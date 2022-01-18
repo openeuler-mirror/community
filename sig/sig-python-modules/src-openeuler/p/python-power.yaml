@@ -1,0 +1,10 @@
+name: python-power
+upstream: https://github.com/Kentzo/Power
+description: Cross-platform system power status information.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

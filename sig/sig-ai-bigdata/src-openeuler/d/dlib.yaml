@@ -1,0 +1,11 @@
+name: dlib
+description: a modern C++ toolkit containing machine learning algorithms and tools
+  for creating complex software in C++ to solve real world problems.
+upstream: http://dlib.net/
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

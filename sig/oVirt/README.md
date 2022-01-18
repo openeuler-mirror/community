@@ -23,6 +23,9 @@
 ### Committers列表
 - 王迪[@crrs666](https://gitee.com/crrs666)
 
+### Contributors列表
+- 刘昶[@beijing-yitong](https://gitee.com/beijing-yitong)
+
 
 # 联系方式
 
@@ -103,7 +106,6 @@ repository地址：
 - https://gitee.com/src-openeuler/python-ovirt-engine-sdk4
 - https://gitee.com/src-openeuler/rubygem-ovirt-engine-sdk4
 - https://gitee.com/src-openeuler/v2v-conversion-host
-- https://gitee.com/src-openeuler/vcredist
 - https://gitee.com/src-openeuler/vdsm
 - https://gitee.com/src-openeuler/vdsm-jsonrpc-java
 - https://gitee.com/src-openeuler/java-client-kubevirt
@@ -114,3 +116,15 @@ repository地址：
 - https://gitee.com/src-openeuler/ovirt-jboss-modules-maven-plugin
 - https://gitee.com/src-openeuler/safelease
 - https://gitee.com/src-openeuler/ovirt-engine-api-model
+- https://gitee.com/src-openeuler/collectd
+- https://gitee.com/src-openeuler/highlight
+- https://gitee.com/src-openeuler/openstack-java-sdk
+- https://gitee.com/src-openeuler/python-daemon
+- https://gitee.com/src-openeuler/riemann-c-client
+- https://gitee.com/src-openeuler/snmp4j
+- https://gitee.com/src-openeuler/makeself
+- https://gitee.com/src-openeuler/ovirt-ansible-collection
+- https://gitee.com/src-openeuler/ovirt-dependencies
+- https://gitee.com/src-openeuler/linux-system-roles
+- https://gitee.com/src-openeuler/ansible-runner-service
+- https://gitee.com/src-openeuler/python-ansible-runner

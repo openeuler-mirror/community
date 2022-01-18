@@ -1,0 +1,10 @@
+name: python-into-dbus-python
+upstream: https://github.com/stratis-storage/into-dbus-python
+description: transforms values into properly wrapped dbus-python objects
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

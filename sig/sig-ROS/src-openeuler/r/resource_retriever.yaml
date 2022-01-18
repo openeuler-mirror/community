@@ -1,0 +1,10 @@
+name: resource_retriever
+description: This package retrieves data from url-format files.
+upstream: https://github.com/ros/resource_retriever
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

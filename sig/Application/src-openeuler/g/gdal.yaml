@@ -1,0 +1,11 @@
+name: gdal
+description: GDAL/OGR - a translator library for raster and vector geospatial data
+  formats.
+upstream: http://www.gdal.org
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

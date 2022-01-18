@@ -1,0 +1,10 @@
+name: common_msgs
+description: common_msgs contains messages that are widely used by other ROS packages.
+upstream: https://github.com/ros/common_msgs
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

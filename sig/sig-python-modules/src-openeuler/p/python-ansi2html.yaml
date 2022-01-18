@@ -1,0 +1,10 @@
+name: python-ansi2html
+upstream: http://github.com/ralphbean/ansi2html/
+description: Convert text with ANSI color codes to HTML
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

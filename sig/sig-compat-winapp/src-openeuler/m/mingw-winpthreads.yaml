@@ -1,0 +1,7 @@
+name: mingw-winpthreads
+description: MinGW pthread library.
+upstream: http://mingw-w64.sourceforge.net/
+branches:
+- name: master
+  type: protected
+type: public

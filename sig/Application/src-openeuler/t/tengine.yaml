@@ -1,0 +1,8 @@
+name: tengine
+description: Tengine is a web server originated by Taobao, the largest e-commerce
+  website in Asia. It is based on the Nginx HTTP server and has many advanced features.
+upstream: https://github.com/alibaba/tengine
+branches:
+- name: master
+  type: protected
+type: public

@@ -1,0 +1,10 @@
+name: python-cvss
+upstream: https://github.com/skontar/cvss
+description: CVSS2/3 library with interactive calculator for Python 2 and Python 3
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

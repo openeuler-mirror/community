@@ -1,0 +1,10 @@
+name: argyllcms
+description: ICC compatible color management system
+upstream: http://gitorious.org/hargyllcms
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

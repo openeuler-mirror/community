@@ -1,0 +1,8 @@
+name: rubygem-rest-client
+upstream: https://github.com/rest-client/rest-client/
+description: A simple HTTP and REST client for Ruby, inspired by the Sinatra microframework
+  style of specifying actions, get, put, post, delete.
+branches:
+- name: master
+  type: protected
+type: public

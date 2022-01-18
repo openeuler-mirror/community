@@ -1,0 +1,10 @@
+name: perl-Time-Period
+upstream: http://search.cpan.org/dist/Time-Period/
+description: Perl module to deal with time periods
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

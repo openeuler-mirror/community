@@ -1,0 +1,13 @@
+name: htrace
+description: Tracing framework for java based distributed systems
+upstream: https://htrace.incubator.apache.org
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+- name: openEuler-21.03
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: python-pynvml
+upstream: http://www.nvidia.com/
+description: Python Bindings for the NVIDIA Management Library
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

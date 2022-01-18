@@ -41,6 +41,7 @@ Maintainers
 - rigorous
 - lemon-higgins
 - lutianxiong
+- disnight,since December 2021
 
 Committers
 - Air9(@air9),since january 2020

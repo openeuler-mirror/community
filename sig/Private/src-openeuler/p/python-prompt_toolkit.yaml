@@ -1,0 +1,9 @@
+name: python-prompt_toolkit
+description: Library for building powerful interactive command lines in Python.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: private

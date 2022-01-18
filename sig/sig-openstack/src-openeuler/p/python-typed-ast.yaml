@@ -1,0 +1,20 @@
+name: python-typed-ast
+description: typed_ast is a Python 3 package that provides a Python 2.7 and Python
+  3 parser similar to the standard ast library.
+upstream: https://github.com/python/typed_ast
+branches:
+- name: master
+  type: protected
+- name: openEuler-21.09
+  type: protected
+  create_from: master
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-20.03-LTS-SP3
+  type: protected
+  create_from: openEuler-20.03-LTS-Next
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: openEuler-21.09
+type: public

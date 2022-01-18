@@ -1,0 +1,10 @@
+name: python-poyo
+upstream: https://github.com/hackebrot/poyo
+description: "A lightweight YAML Parser for Python. \U0001F413"
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

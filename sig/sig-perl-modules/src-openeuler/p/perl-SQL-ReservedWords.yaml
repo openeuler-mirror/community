@@ -1,0 +1,10 @@
+name: perl-SQL-ReservedWords
+upstream: http://search.cpan.org/dist/SQL-ReservedWords/
+description: Reserved SQL words by ANSI/ISO
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

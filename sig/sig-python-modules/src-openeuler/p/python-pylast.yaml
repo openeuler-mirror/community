@@ -1,0 +1,10 @@
+name: python-pylast
+upstream: https://github.com/pylast/pylast
+description: A Python interface to Last.fm and Libre.fm
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: python-agate
+upstream: http://agate.readthedocs.org/
+description: A data analysis library that is optimized for humans instead of machines.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

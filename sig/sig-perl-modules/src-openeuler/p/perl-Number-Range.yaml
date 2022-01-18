@@ -1,0 +1,11 @@
+name: perl-Number-Range
+upstream: http://search.cpan.org/dist/Number-Range/
+description: Perl extension defining ranges of numbers and testing if a number is
+  found in the range. You can also add and delete from this range
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

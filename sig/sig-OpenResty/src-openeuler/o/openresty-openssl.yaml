@@ -1,0 +1,10 @@
+name: openresty-openssl
+description: OpenSSL library for OpenResty
+upstream: https://www.openssl.org/
+branches:
+- name: master
+  type: protected
+- name: openEuler-21.09
+  type: protected
+  create_from: master
+type: public

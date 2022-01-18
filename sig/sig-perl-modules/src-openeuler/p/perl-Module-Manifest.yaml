@@ -1,0 +1,10 @@
+name: perl-Module-Manifest
+upstream: http://search.cpan.org/dist/Module-Manifest/
+description: Parse and examine a Perl distribution MANIFEST file
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

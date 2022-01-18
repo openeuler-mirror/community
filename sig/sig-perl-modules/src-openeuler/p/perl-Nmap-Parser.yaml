@@ -1,0 +1,10 @@
+name: perl-Nmap-Parser
+upstream: http://search.cpan.org/dist/Nmap-Parser/
+description: Parse nmap scan data with perl
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

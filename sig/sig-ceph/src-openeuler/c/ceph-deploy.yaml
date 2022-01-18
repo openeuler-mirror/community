@@ -1,0 +1,10 @@
+name: ceph-deploy
+description: Deploy Ceph with minimal infrastructure, using just SSH access
+upstream: https://github.com/ceph/ceph-deploy
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

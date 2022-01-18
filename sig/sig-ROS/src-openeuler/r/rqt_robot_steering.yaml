@@ -1,0 +1,8 @@
+name: rqt_robot_steering
+description: rqt_robot_steering provides a GUI plugin for steering a robot using Twist
+  messages.
+upstream: https://github.com/ros-visualization/rqt_robot_steering
+branches:
+- name: master
+  type: protected
+type: public

@@ -1,0 +1,10 @@
+name: perl-Test-LoadAllModules
+upstream: http://search.cpan.org/dist/Test-LoadAllModules/
+description: Do use_ok for modules in search path
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

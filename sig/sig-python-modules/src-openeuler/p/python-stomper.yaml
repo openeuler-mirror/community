@@ -1,0 +1,10 @@
+name: python-stomper
+upstream: https://github.com/oisinmulvihill/stomper
+description: This is a transport neutral client implementation of the STOMP protocol.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

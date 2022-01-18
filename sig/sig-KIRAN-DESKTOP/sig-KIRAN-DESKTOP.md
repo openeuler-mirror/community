@@ -49,6 +49,20 @@ English | [简体中文](./sig-KIRAN-DESKTOP_cn.md)
 - https://gitee.com/src-openeuler/gdbus-codegen-glibmm
 - https://gitee.com/src-openeuler/kiran-log
 - https://gitee.com/src-openeuler/zlog
+- https://gitee.com/src-openeuler/kiran-control-panel
+- https://gitee.com/src-openeuler/kiran-cpanel-account
+- https://gitee.com/src-openeuler/kiran-cpanel-display
+- https://gitee.com/src-openeuler/kiran-cpanel-menu
+- https://gitee.com/src-openeuler/kiran-cpanel-mouse
+- https://gitee.com/src-openeuler/kiran-cpanel-timedate
+- https://gitee.com/src-openeuler/kiran-panel
+- https://gitee.com/src-openeuler/kiran-session-manager
+- https://gitee.com/src-openeuler/kiran-widgets-qt5
+- https://gitee.com/src-openeuler/kiran-qdbusxml2cpp
+- https://gitee.com/src-openeuler/libcutl
+- https://gitee.com/src-openeuler/xsd
+- https://gitee.com/src-openeuler/kiran-desktop
+
 ## Basic Information
 
 ###  Project Introduction

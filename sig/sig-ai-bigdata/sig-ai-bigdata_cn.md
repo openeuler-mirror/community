@@ -95,6 +95,10 @@
   A distributed SQL query engine for big data.
 - [rain](https://gitee.com/src-openeuler/rain): 
   An open-source distributed computational framework for processing of large-scale task-based pipelines.
+- [alluxio](https://gitee.com/src-openeuler/alluxio):
+  Alluxio (formerly known as Tachyon) is a virtual distributed storage system.
+- [ambari](https://gitee.com/src-openeuler/ambari):
+  Apache Ambari is a tool for provisioning, managing, and monitoring Apache Hadoop clusters.
 
 # 基本信息
 
@@ -103,11 +107,11 @@
 
 ## Maintainers
   - [sinever](https://gitee.com/sinever)
-  - [hubble_zhu](https://gitee.com/hubble_zhu)
-  - [myeuler](https://gitee.com/myeuler)
+  - [njlzk](https://gitee.com/njlzk)
+  - [yangzhao_kl](https://gitee.com/yangzhao_kl)
+  - [unioah](https://gitee.com/unioah)
 
 ## Committers
-  - [sinever](https://gitee.com/sinever)
 
 ## 邮件列表
   - sig-ai-bigdata@openeuler.org  

@@ -1,0 +1,10 @@
+name: perl-String-Format
+upstream: http://search.cpan.org/dist/String-Format/
+description: Sprintf-like string formatting capabilities with arbitrary format definitions
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

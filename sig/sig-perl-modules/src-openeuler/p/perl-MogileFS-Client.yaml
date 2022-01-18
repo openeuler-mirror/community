@@ -1,0 +1,10 @@
+name: perl-MogileFS-Client
+upstream: http://search.cpan.org/dist/MogileFS-Client/
+description: Client library for the MogileFS distributed file system
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

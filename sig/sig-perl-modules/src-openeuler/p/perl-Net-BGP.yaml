@@ -1,0 +1,10 @@
+name: perl-Net-BGP
+upstream: http://search.cpan.org/dist/Net-BGP/
+description: Border Gateway Protocol version 4 speaker/listener library
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

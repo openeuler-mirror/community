@@ -1,0 +1,10 @@
+name: perl-Crypt-OpenSSL-X509
+upstream: http://search.cpan.org/dist/Crypt-OpenSSL-X509/
+description: Perl extension to OpenSSL's X509 API
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

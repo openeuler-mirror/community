@@ -1,0 +1,7 @@
+name: rust-srpm-macros
+description: RPM macros for building Rust source packages
+upstream: https://pagure.io/fedora-rust/rust2rpm
+branches:
+- name: master
+  type: protected
+type: public

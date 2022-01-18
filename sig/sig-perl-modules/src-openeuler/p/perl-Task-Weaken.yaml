@@ -1,0 +1,10 @@
+name: perl-Task-Weaken
+upstream: http://search.cpan.org/dist/Task-Weaken/
+description: Ensure that a platform has weaken support
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

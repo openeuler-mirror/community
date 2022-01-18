@@ -1,0 +1,11 @@
+name: python-spur
+upstream: http://github.com/mwilliamson/spur.py
+description: Run commands and manipulate files locally or over SSH using the same
+  interface
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,20 @@
+name: perl-FFI-CheckLib
+upstream: https://metacpan.org/release/FFI-CheckLib
+description: This Perl module checks whether a particular dynamic library is available
+  for Foreign Function Interface to use.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+- name: openEuler-21.03
+  type: protected
+  create_from: master
+- name: openEuler-21.09
+  type: protected
+  create_from: master
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: openEuler-21.09
+type: public

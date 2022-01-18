@@ -1,0 +1,10 @@
+name: perl-Test-CPAN-Meta-JSON
+upstream: http://search.cpan.org/dist/Test-CPAN-Meta-JSON/
+description: Validate a META.json file within a CPAN distribution
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: python-QtAwesome
+upstream: https://github.com/spyder-ide/qtawesome
+description: FontAwesome icons in PyQt and PySide applications
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

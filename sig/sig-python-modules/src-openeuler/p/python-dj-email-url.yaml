@@ -1,0 +1,10 @@
+name: python-dj-email-url
+upstream: https://github.com/migonzalvar/dj-email-url
+description: Use an URL to configure email backend settings in your Django Application.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

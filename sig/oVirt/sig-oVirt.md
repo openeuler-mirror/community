@@ -75,7 +75,7 @@ The repositories related to oVirt are listed below, see https://resources.ovirt.
 - https://gitee.com/src-openeuler/ovirt-engine-ui-extensions
 - https://gitee.com/src-openeuler/ovirt-engine-wildfly
 - https://gitee.com/src-openeuler/ovirt-engine-wildfly-overlay
-- https://gitee.com/src-openeuler/ovirt-engine-yarn
+- https://gitee.com/src-openeuler/nodejs-yarn
 - https://gitee.com/src-openeuler/ovirt-guest-agent
 - https://gitee.com/src-openeuler/ovirt-guest-agent-windows
 - https://gitee.com/src-openeuler/ovirt-guest-tools-iso
@@ -102,7 +102,6 @@ The repositories related to oVirt are listed below, see https://resources.ovirt.
 - https://gitee.com/src-openeuler/python-ovirt-engine-sdk4
 - https://gitee.com/src-openeuler/rubygem-ovirt-engine-sdk4
 - https://gitee.com/src-openeuler/v2v-conversion-host
-- https://gitee.com/src-openeuler/vcredist
 - https://gitee.com/src-openeuler/vdsm
 - https://gitee.com/src-openeuler/vdsm-jsonrpc-java
 - https://gitee.com/src-openeuler/java-client-kubevirt
@@ -113,6 +112,8 @@ The repositories related to oVirt are listed below, see https://resources.ovirt.
 - https://gitee.com/src-openeuler/ovirt-jboss-modules-maven-plugin
 - https://gitee.com/src-openeuler/safelease
 - https://gitee.com/src-openeuler/ovirt-engine-api-model
+- https://gitee.com/src-openeuler/virt-viewer
+- https://gitee.com/src-openeuler/virt-manager
 
 
 ## Basic Information
@@ -127,6 +128,9 @@ The repositories related to oVirt are listed below, see https://resources.ovirt.
 
 ### Committers
 - crrs666
+
+### Contributors
+- beijing-yitong
 
 ### Mailing list
 - dev@openeuler.org

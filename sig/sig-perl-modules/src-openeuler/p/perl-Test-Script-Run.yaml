@@ -1,0 +1,10 @@
+name: perl-Test-Script-Run
+upstream: http://search.cpan.org/dist/Test-Script-Run/
+description: Test scripts with run
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

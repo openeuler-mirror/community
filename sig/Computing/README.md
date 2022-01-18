@@ -15,29 +15,34 @@
 
 ### Maintainer列表
 
-- love_hangzhou 
-- liqingqing_1229
-
-
-### Committer列表
-
-- love_hangzhou 
 - liqingqing_1229
 - wswsamao
 - wangbin224
 - SuperSix173
+- juyin
+- yang_yanchao
+
+### Committer列表
+
+- liqingqing_1229
+- wswsamao
+- wangbin224
+- SuperSix173
+- juyin
+- yang_yanchao
 
 committer | 细分领域
 ------ | ------
 SuperSix173 | OSBase
-love_hangzhou | OSBase
 liqingqing_1229 | OSBase
+yang_yanchao | OSBase
 SuperSix173 | dev-utils
 wswsamao | dev-utils
 wswsamao | C-lib
 liqingqing_1229 | C-lib
+juyin | C-lib
+yang_yanchao | C-lib
 wangbin224 | device-manager
-love_hangzhou | device-manager
 liqingqing_1229 | device-manager
 wangbin224 | media
 wswsamao | media
@@ -51,7 +56,7 @@ wswsamao | Desktop
 
 # 项目清单
 
-## OSBase 操作系统基础功能   (committer: SuperSix173、love_hangzhou、liqingqing_1229)
+## OSBase 操作系统基础功能   (committer: SuperSix173、yang_yanchao、liqingqing_1229)
   - https://gitee.com/src-openeuler/procps-ng
   - https://gitee.com/src-openeuler/irqbalance
   - https://gitee.com/src-openeuler/psmisc
@@ -63,8 +68,9 @@ wswsamao | Desktop
   - https://gitee.com/src-openeuler/libthai 
   - https://gitee.com/src-openeuler/libinput
   - https://gitee.com/src-openeuler/tuned
+  - https://gitee.com/src-openeuler/newlib
 
-## C-lib C/C++ lib库   （committer: liqingqing_1229、wswsamao、SuperSix173、wangbin224）
+## C-lib C/C++ lib库   （committer: yang_yanchao、liqingqing_1229、wswsamao、SuperSix173、wangbin224）
   - https://gitee.com/src-openeuler/libqb
   - https://gitee.com/src-openeuler/userspace-rcu
   - https://gitee.com/src-openeuler/libatomic_ops
@@ -90,7 +96,7 @@ wswsamao | Desktop
   - https://gitee.com/src-openeuler/dyninst         
   - https://gitee.com/src-openeuler/lttng-ust  
      
-## device-manager 设备管理相关软件   (committer: wangbin224、love_hangzhou、liqingqing_1229)
+## device-manager 设备管理相关软件   (committer: wangbin224、liqingqing_1229)
   - https://gitee.com/src-openeuler/lm_sensors
   - https://gitee.com/src-openeuler/hwdata
   - https://gitee.com/src-openeuler/hwinfo

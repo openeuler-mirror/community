@@ -1,0 +1,8 @@
+name: image_transport_plugins
+description: A set of plugins for publishing and subscribing to sensor_msgs/Image
+  topics in representations other than raw pixel data.
+upstream: https://github.com/ros-perception/image_transport_plugins
+branches:
+- name: master
+  type: protected
+type: public

@@ -1,0 +1,11 @@
+name: python-pykeepass
+upstream: https://github.com/pschmitt/pykeepass
+description: Python library to interact with keepass databases (supports KDBX3 and
+  KDBX4)
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,6 @@
+name: community-issue
+description: The public issue repo which only accept issue that doesn't belong to any source repo 
+branches:
+- name: master
+  type: protected
+type: public

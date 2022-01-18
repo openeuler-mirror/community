@@ -1,0 +1,10 @@
+name: python-subunit2sql
+description: Tooling for converting subunit streams into a SQL DB
+upstream: https://opendev.org/opendev/subunit2sql
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

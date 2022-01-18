@@ -1,0 +1,11 @@
+name: python-xml2rfc
+upstream: https://tools.ietf.org/tools/xml2rfc/trac/
+description: Xml2rfc generates RFCs and IETF drafts from document source in XML according
+  to the IETF xml2rfc v2 and v3 vocabularies.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

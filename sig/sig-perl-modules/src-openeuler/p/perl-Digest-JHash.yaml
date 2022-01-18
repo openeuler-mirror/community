@@ -1,0 +1,10 @@
+name: perl-Digest-JHash
+upstream: http://search.cpan.org/dist/Digest-JHash/
+description: Perl extension for 32 bit Jenkins Hashing Algorithm
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

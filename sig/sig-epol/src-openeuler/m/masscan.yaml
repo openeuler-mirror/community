@@ -1,0 +1,7 @@
+name: masscan
+description: This is an Internet-scale port scanner
+upstream: https://github.com/robertdavidgraham/masscan
+branches:
+- name: master
+  type: protected
+type: public

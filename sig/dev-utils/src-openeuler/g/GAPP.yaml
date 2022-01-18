@@ -1,0 +1,11 @@
+name: GAPP
+description: A Fast Profiler for Detecing Serialization Bottlenecks in Parallel Linux
+  Application
+upstream: https://github.com/RN-dev-repo/GAPP
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

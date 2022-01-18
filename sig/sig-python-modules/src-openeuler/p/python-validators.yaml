@@ -1,0 +1,10 @@
+name: python-validators
+upstream: https://github.com/kvesteri/validators
+description: "Python Data Validation for Humans\u2122."
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

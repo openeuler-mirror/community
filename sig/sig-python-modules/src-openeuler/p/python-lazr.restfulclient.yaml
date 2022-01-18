@@ -1,0 +1,11 @@
+name: python-lazr.restfulclient
+upstream: https://launchpad.net/lazr.restfulclient
+description: A programmable client library that takes advantage of the commonalities
+  among
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

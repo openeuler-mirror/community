@@ -1,0 +1,20 @@
+name: python-feedparser
+upstream: https://github.com/kurtmckee/feedparser
+description: Universal feed parser, handles RSS 0.9x, RSS 1.0, RSS 2.0, CDF, Atom
+  0.3, and Atom 1.0 feeds
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+- name: openEuler-21.09
+  type: protected
+  create_from: master
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-20.03-LTS-SP3
+  type: protected
+  create_from: openEuler-20.03-LTS-Next
+type: public

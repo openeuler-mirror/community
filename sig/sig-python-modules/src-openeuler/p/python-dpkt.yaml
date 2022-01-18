@@ -1,0 +1,11 @@
+name: python-dpkt
+upstream: http://dpkt.googlecode.com/
+description: fast, simple packet creation / parsing, with definitions for the basic
+  TCP/IP protocols
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

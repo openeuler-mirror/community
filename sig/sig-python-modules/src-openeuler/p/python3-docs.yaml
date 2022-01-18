@@ -1,0 +1,10 @@
+name: python3-docs
+description: Documentation for the Python3
+upstream: https://www.python.org/
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

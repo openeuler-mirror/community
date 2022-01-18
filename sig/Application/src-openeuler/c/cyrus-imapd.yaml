@@ -1,0 +1,10 @@
+name: cyrus-imapd
+description: A highly scalable enterprise mail system
+upstream: http://www.cyrusimap.org/
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: mate-themes
+description: Official themes for the MATE desktop
+upstream: https://github.com/mate-desktop/mate-themes
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

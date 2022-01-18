@@ -1,0 +1,10 @@
+name: perl-Class-ErrorHandler
+upstream: http://search.cpan.org/dist/Class-ErrorHandler/
+description: Base class for error handling
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

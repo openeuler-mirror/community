@@ -1,0 +1,8 @@
+name: phoenix
+description: Apache Phoenix is a SQL skin over HBase delivered as a client-embedded
+  JDBC driver targeting low latency queries over HBase data.
+upstream: https://github.com/apache/phoenix
+branches:
+- name: master
+  type: protected
+type: public

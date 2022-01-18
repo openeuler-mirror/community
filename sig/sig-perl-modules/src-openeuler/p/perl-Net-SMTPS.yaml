@@ -1,0 +1,10 @@
+name: perl-Net-SMTPS
+upstream: http://search.cpan.org/dist/Net-SMTPS/
+description: SSL/STARTTLS support for Net
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

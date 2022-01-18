@@ -135,6 +135,7 @@ Everyone could send patches to openEuler.
 - https://gitee.com/src-openeuler/squid
 - https://gitee.com/src-openeuler/python-html5lib
 - https://gitee.com/src-openeuler/libnet
+- https://gitee.com/src-openeuler/wireguard-tools
 - https://gitee.com/src-openeuler/tftp
 - https://gitee.com/src-openeuler/lldpad
 - https://gitee.com/src-openeuler/b43-openfwwf

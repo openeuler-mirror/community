@@ -1,0 +1,8 @@
+name: wireguard-tools
+description: WireGuard is an extremely simple yet fast and modern VPN that utilizes
+  state-of-the-art cryptography.
+upstream: https://www.wireguard.com/
+branches:
+- name: master
+  type: protected
+type: public

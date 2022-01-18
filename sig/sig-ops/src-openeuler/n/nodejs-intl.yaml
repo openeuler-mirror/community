@@ -1,0 +1,10 @@
+name: nodejs-intl
+upstream: https://github.com/andyearnshaw/Intl.js
+description: All modern browsers, except safari, have implemented this API. Intl.js
+  fills the void of availability for this API. It will provide the framework as described
+  by the specification, so that developers can take advantage of the native API in
+  environments that support it, or Intl.js for legacy or unsupported environments.
+branches:
+- name: master
+  type: protected
+type: public

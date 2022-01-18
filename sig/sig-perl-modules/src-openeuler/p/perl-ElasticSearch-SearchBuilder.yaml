@@ -1,0 +1,10 @@
+name: perl-ElasticSearch-SearchBuilder
+upstream: http://search.cpan.org/dist/ElasticSearch-SearchBuilder/
+description: Perlish compact query language for ElasticSearch
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

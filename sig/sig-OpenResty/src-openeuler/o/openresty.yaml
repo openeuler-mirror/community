@@ -1,0 +1,13 @@
+name: openresty
+description: OpenResty, scalable web platform by extending NGINX with Lua
+upstream: https://github.com/openresty/openresty
+branches:
+- name: master
+  type: protected
+- name: openEuler-21.09
+  type: protected
+  create_from: master
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: openEuler-21.09
+type: public

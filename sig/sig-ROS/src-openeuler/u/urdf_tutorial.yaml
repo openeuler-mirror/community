@@ -1,0 +1,10 @@
+name: urdf_tutorial
+description: This package contains a number of URDF tutorials.
+upstream: https://github.com/ros/urdf_tutorial
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

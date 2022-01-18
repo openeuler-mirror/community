@@ -1,0 +1,10 @@
+name: jasperreports
+description: Report-generating tool
+upstream: http://jasperforge.org/projects/jasperreports/
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

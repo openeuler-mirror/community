@@ -1,0 +1,10 @@
+name: python-click-threading
+upstream: https://github.com/click-contrib/click-threading
+description: Multithreaded Click apps made easy
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

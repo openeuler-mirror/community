@@ -1,0 +1,10 @@
+name: python-githubpy
+upstream: https://github.com/michaelliao/githubpy
+description: Github v3 API Python SDK
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

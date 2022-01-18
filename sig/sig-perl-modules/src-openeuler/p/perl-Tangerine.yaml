@@ -1,0 +1,10 @@
+name: perl-Tangerine
+upstream: http://search.cpan.org/dist/Tangerine/
+description: Examine perl files and report dependency metadata
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

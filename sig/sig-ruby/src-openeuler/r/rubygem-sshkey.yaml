@@ -1,0 +1,7 @@
+name: rubygem-sshkey
+upstream: https://github.com/bensie/sshkey
+description: Generate private/public SSH keypairs using pure Ruby
+branches:
+- name: master
+  type: protected
+type: public

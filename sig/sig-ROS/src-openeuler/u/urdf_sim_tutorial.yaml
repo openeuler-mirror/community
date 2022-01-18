@@ -1,0 +1,10 @@
+name: urdf_sim_tutorial
+description: The urdf_sim_tutorial package.
+upstream: https://github.com/ros/urdf_sim_tutorial
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

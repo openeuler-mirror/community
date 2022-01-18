@@ -1,0 +1,10 @@
+name: perl-Task-Moose
+upstream: http://search.cpan.org/dist/Task-Moose/
+description: Moose in a box
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

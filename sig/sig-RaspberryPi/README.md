@@ -6,7 +6,7 @@
 
 # 组织会议
 
-公开的会议时间：北京时间，每个月的第一个和第三个周三，20:00 - 20:30。
+公开的会议时间：北京时间，每个月的第一个和第三个周三，17:00 - 17:30。
 
 会议链接有以下两种获取方式：
 - [openEuler 社区网站](https://openeuler.org/)下的会议日历中查看 `sig-RaspberryPi例会` 预定信息。
@@ -49,3 +49,6 @@ repository 地址：
 - https://gitee.com/openeuler/rockchip-kernel
 - https://gitee.com/src-openeuler/raspi-config
 - https://gitee.com/src-openeuler/pigpio
+- https://gitee.com/src-openeuler/raspberrypi-userland
+- https://gitee.com/openeuler/allwinner-kernel
+- https://gitee.com/src-openeuler/raspberrypi-eeprom

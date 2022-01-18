@@ -1,0 +1,12 @@
+name: hello
+description: "The GNU Hello program produces a familiar, friendly greeting. Yes, this\
+  \ is another implementation of the classic program that prints \u201CHello, world!\u201D\
+  \ when you run it."
+upstream: http://www.gnu.org/software/hello/
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

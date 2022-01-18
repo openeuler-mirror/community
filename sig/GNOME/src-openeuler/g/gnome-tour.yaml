@@ -1,0 +1,14 @@
+name: gnome-tour
+description: Tour uses by default the logo of the distribution based on the info from
+  `/etc/os-release`.
+upstream: https://gitlab.gnome.org/GNOME/gnome-tour
+branches:
+- name: master
+  type: protected
+- name: openEuler-21.09
+  type: protected
+  create_from: master
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: openEuler-21.09
+type: public

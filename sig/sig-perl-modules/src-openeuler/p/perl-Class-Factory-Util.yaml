@@ -1,0 +1,10 @@
+name: perl-Class-Factory-Util
+upstream: http://search.cpan.org/dist/Class-Factory-Util/
+description: Provide utility methods for factory classes
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

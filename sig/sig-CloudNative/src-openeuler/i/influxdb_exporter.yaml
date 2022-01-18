@@ -1,0 +1,8 @@
+name: influxdb_exporter
+description: A server that accepts InfluxDB metrics via the HTTP API and exports them
+  via HTTP for Prometheus consumption
+upstream: https://github.com/prometheus/influxdb_exporter
+branches:
+- name: master
+  type: protected
+type: public

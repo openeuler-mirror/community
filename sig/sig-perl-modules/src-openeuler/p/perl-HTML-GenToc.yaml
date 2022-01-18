@@ -1,0 +1,10 @@
+name: perl-HTML-GenToc
+upstream: http://search.cpan.org/dist/HTML-GenToc/
+description: Generate a Table of Contents for HTML documents
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

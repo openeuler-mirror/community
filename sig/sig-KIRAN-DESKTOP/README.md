@@ -1,14 +1,12 @@
 
-# SIG名称
+# 概述
 
-
+本SIG维护Kiran桌面环境的相关项目。Kiran桌面环境致力于打造美观、易用和高效的Linux桌面操作系统，使其成为OpenEuler社区官方支持服务器桌面环境之一。
 
 
 # 组织会议
 
-- 公开的会议时间：北京时间，每双周三 下午，16：00~17：00。会提前提醒通知会议，如遇时间冲突，可研究延迟会议。
-
-
+- 暂无固定时间
 
 
 # 成员
@@ -16,34 +14,54 @@
 
 ### Maintainer列表
 
-- name[@giteeID](giteeID链接)，*邮箱地址*
-
+- stonefly128
+- doudou19
 
 
 ### Committer列表
 
-- name[@giteeID](giteeID链接)
-
+- tangjie02
+- yuan__xing
+- liuxingxiang
 
 
 # 联系方式
 
-
-- [邮件列表](sig-KIRAN-DESKTOP@openeuler.org)
-- [IRC公开会议]()
-- 视频会议
-
-
-
+- shiyong@kylinsec.com.cn
+- tangjie02@kylinsec.com.cn
 
 
 # 项目清单
 
-
-
-项目名称：
+项目名称：KIRAN-DESKTOP
 
 repository地址：
-
-- 
-- 
+- https://gitee.com/src-openeuler/kiran-avatar-editor
+- https://gitee.com/src-openeuler/kiran-gtk-theme
+- https://gitee.com/src-openeuler/kiran-icon-theme
+- https://gitee.com/src-openeuler/kiran-menu
+- https://gitee.com/src-openeuler/kiran-screensaver-dialog
+- https://gitee.com/src-openeuler/kiran-themes
+- https://gitee.com/src-openeuler/kiran-wallpapers
+- https://gitee.com/src-openeuler/lightdm-kiran-greeter
+- https://gitee.com/src-openeuler/plymouth-theme-kiran
+- https://gitee.com/src-openeuler/kiran-flameshot
+- https://gitee.com/src-openeuler/kiran-cc-daemon
+- https://gitee.com/src-openeuler/kiran-calendar
+- https://gitee.com/src-openeuler/lunar-date
+- https://gitee.com/src-openeuler/gdbus-codegen-glibmm
+- https://gitee.com/src-openeuler/kiran-log
+- https://gitee.com/src-openeuler/zlog
+- https://gitee.com/src-openeuler/kiran-control-panel
+- https://gitee.com/src-openeuler/kiran-cpanel-account
+- https://gitee.com/src-openeuler/kiran-cpanel-display
+- https://gitee.com/src-openeuler/kiran-cpanel-menu
+- https://gitee.com/src-openeuler/kiran-cpanel-mouse
+- https://gitee.com/src-openeuler/kiran-cpanel-timedate
+- https://gitee.com/src-openeuler/kiran-panel
+- https://gitee.com/src-openeuler/kiran-session-manager
+- https://gitee.com/src-openeuler/kiran-widgets-qt5
+- https://gitee.com/src-openeuler/kiran-qdbusxml2cpp
+- https://gitee.com/src-openeuler/libcutl
+- https://gitee.com/src-openeuler/xsd
+- https://gitee.com/src-openeuler/kiran-desktop

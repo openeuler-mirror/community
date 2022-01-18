@@ -1,0 +1,12 @@
+name: platform_frameworks_base
+description: the basic content of Android core framework, which provides  interfaces
+  for application program calls. It contains cmds,API,graphics,keystore,services,etc.The
+  main language is Java / C + +
+upstream: https://github.com/anbox/platform_frameworks_base
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

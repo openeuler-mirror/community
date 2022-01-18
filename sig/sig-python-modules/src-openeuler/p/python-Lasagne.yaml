@@ -1,0 +1,10 @@
+name: python-Lasagne
+upstream: https://github.com/Lasagne/Lasagne
+description: A lightweight library to build and train neural networks in Theano
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

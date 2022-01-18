@@ -1,0 +1,11 @@
+name: incubator-mxnet
+description: Apache MXNet (incubating) is a deep learning framework designed for both
+  efficiency and flexibility.
+upstream: https://github.com/apache/incubator-mxnet
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: perl-DBM-Deep
+upstream: http://search.cpan.org/dist/DBM-Deep/
+description: Pure perl multi-level hash/array DBM that supports transactions
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

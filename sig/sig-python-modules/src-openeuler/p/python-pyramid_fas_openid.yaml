@@ -1,0 +1,10 @@
+name: python-pyramid_fas_openid
+upstream: http://github.com/lmacken/pyramid_fas_openid
+description: A view for pyramid that functions as an OpenID consumer.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

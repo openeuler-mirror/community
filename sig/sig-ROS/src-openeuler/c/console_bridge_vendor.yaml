@@ -1,0 +1,9 @@
+name: console_bridge_vendor
+description: Wrapper around console_bridge, providing nothing but a dependency on
+  console_bridge, on some systems. On others, it provides an ExternalProject build
+  of console_bridge.
+upstream: https://github.com/ros2/console_bridge_vendor.git
+branches:
+- name: master
+  type: protected
+type: public

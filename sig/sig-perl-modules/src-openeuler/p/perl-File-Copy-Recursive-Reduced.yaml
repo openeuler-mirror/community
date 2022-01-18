@@ -1,0 +1,10 @@
+name: perl-File-Copy-Recursive-Reduced
+upstream: http://search.cpan.org/dist/File-Copy-Recursive-Reduced/
+description: Recursive copying of files and directories within Perl 5 toolchain
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

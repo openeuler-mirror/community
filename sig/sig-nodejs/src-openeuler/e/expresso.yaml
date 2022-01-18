@@ -1,0 +1,10 @@
+name: expresso
+description: A lightweight, fast, test-driven development (TDD) framework for Node.js
+upstream: https://github.com/visionmedia/expresso
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

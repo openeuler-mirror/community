@@ -1,0 +1,10 @@
+name: python-gTTS-token
+upstream: https://github.com/boudewijn26/gTTS-token
+description: Calculates a token to run the Google Translate text to speech
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,8 @@
+name: gnome-shell-extension-system-monitor-applet
+description: "Display system informations in gnome shell status bar, such as memory\
+  \ usage, cpu usage, network rates\u2026"
+upstream: https://extensions.gnome.org/extension/120/system-monitor/
+branches:
+- name: master
+  type: protected
+type: public

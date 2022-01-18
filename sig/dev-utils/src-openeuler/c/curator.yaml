@@ -1,0 +1,10 @@
+name: curator
+description: A set of Java libraries that make using Apache ZooKeeper much easier
+upstream: http://curator.apache.org/
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

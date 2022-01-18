@@ -1,0 +1,7 @@
+name: wdiff
+upstream: https://www.gnu.org/software/wdiff
+description: Compare files on a word per word basis
+branches:
+- name: master
+  type: protected
+type: public

@@ -1,0 +1,7 @@
+name: ament_lint
+description: Providing common API for ament linter packages.
+upstream: https://github.com/ament/ament_lint.git
+branches:
+- name: master
+  type: protected
+type: public

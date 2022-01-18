@@ -1,0 +1,7 @@
+name: nodejs-foreman-js
+upstream: https://github.com/theforeman/foreman-js
+description: This project is a monorepo using lerna to host more than one package.
+branches:
+- name: master
+  type: protected
+type: public

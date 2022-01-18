@@ -1,0 +1,19 @@
+name: rocksdb
+description: A Persistent Key-Value Store for Flash and RAM Storage
+upstream: https://github.com/facebook/rocksdb
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+- name: openEuler-21.03
+  type: protected
+  create_from: master
+- name: openEuler-21.09
+  type: protected
+  create_from: master
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: openEuler-21.09
+type: public

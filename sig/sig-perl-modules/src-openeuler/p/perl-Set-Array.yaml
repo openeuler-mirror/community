@@ -1,0 +1,10 @@
+name: perl-Set-Array
+upstream: http://search.cpan.org/dist/Set-Array/
+description: Arrays as objects with lots of handy methods
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

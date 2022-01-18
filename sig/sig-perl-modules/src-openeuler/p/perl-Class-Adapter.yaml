@@ -1,0 +1,10 @@
+name: perl-Class-Adapter
+upstream: http://search.cpan.org/dist/Class-Adapter/
+description: Perl implementation of the "Adapter" Design Pattern
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

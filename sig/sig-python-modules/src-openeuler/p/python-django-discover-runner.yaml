@@ -1,0 +1,10 @@
+name: python-django-discover-runner
+upstream: http://github.com/jezdez/django-discover-runner
+description: A Django test runner based on unittest2's test discovery.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

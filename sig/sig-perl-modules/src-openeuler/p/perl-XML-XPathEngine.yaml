@@ -1,0 +1,10 @@
+name: perl-XML-XPathEngine
+upstream: http://search.cpan.org/dist/XML-XPathEngine/
+description: Re-usable XPath engine for DOM-like trees
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

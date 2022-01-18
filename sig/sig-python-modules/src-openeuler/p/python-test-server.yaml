@@ -1,0 +1,10 @@
+name: python-test-server
+upstream: https://github.com/lorien/test_server
+description: Server to test HTTP clients
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

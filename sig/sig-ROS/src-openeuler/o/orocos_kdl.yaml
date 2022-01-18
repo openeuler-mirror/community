@@ -1,0 +1,11 @@
+name: orocos_kdl
+description: This package contains a recent version of the Kinematics and Dynamics
+  Library (KDL), distributed by the Orocos Project.
+upstream: https://github.com/orocos/orocos_kinematics_dynamics
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: perl-Proc-Wait3
+upstream: http://search.cpan.org/dist/Proc-Wait3/
+description: Perl extension for wait3 system call
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

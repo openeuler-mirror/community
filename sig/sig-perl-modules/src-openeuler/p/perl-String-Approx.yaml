@@ -1,0 +1,10 @@
+name: perl-String-Approx
+upstream: http://search.cpan.org/dist/String-Approx/
+description: Perl extension for approximate matching (fuzzy matching)
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,7 @@
+name: teuthology
+description: The Ceph integration test framework
+upstream: https://github.com/ceph/teuthology
+branches:
+- name: master
+  type: protected
+type: public

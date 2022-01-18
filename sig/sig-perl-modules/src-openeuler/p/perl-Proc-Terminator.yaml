@@ -1,0 +1,10 @@
+name: perl-Proc-Terminator
+upstream: http://search.cpan.org/dist/Proc-Terminator/
+description: Conveniently terminate processes
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

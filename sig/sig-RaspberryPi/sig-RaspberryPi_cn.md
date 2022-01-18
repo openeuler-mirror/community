@@ -35,6 +35,9 @@ RaspberryPi SIG 小组致力于将 openEuler 移植到树莓派，以降低 open
 - Rockchip 内核源码仓库：https://gitee.com/openeuler/rockchip-kernel
 - Raspberry Pi 配置工具的 SRPM 仓库：https://gitee.com/src-openeuler/raspi-config
 - Raspberry Pi GPIO 控制库的 SRPM 仓库：https://gitee.com/src-openeuler/pigpio
+- Raspberry Pi GPU 接口库的 SRPM 仓库：https://gitee.com/src-openeuler/raspberrypi-userland
+- 全志内核源码仓库：https://gitee.com/openeuler/allwinner-kernel
+- Raspberry Pi 4 EEPROMs 的安装脚本和二进制文件：https://gitee.com/src-openeuler/raspberrypi-eeprom
 
 ## SIG 基本信息
 
@@ -57,7 +60,7 @@ https://gitee.com/openeuler/community/tree/master/sig/sig-RaspberryPi/
   - 加入 Slack 群组的链接将定期更新在 [树莓派 SIG 主仓库](https://gitee.com/openeuler/raspberrypi)
 
 ### 会议
-- 会议时间：每个月的第一个和第三个周三，20:00 - 20:30 +0800 北京时间
+- 会议时间：每个月的第一个和第三个周三，17:00 - 17:30 +0800 北京时间
 - 会议链接：有以下两种获取方式
   - [openEuler 社区网站](https://openeuler.org/)下的会议日历中查看 `sig-RaspberryPi例会` 预定信息。
   - 微信小程序搜索 `openEuler`，添加 `openEuler` 小程序，可在其`会议`栏目查看 `sig-RaspberryPi例会` 预定信息。

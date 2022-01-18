@@ -1,0 +1,7 @@
+name: libcyaml
+description: C library for reading and writing YAML.
+upstream: https://github.com/tlsa/libcyaml
+branches:
+- name: master
+  type: protected
+type: public

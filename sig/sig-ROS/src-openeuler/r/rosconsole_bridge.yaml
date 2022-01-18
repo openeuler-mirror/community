@@ -1,0 +1,11 @@
+name: rosconsole_bridge
+description: rosconsole_bridge is a package used in conjunction with console_bridge
+  and rosconsole for connecting console_bridge-based logging to rosconsole-based logging.
+upstream: https://github.com/ros/rosconsole_bridge
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

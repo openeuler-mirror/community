@@ -1,0 +1,10 @@
+name: perl-File-Slurp-Tiny
+upstream: http://search.cpan.org/dist/File-Slurp-Tiny/
+description: Simple, sane and efficient file slurper [DISCOURAGED]
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

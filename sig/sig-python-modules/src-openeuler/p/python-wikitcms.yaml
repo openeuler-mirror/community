@@ -1,0 +1,10 @@
+name: python-wikitcms
+upstream: https://pagure.io/fedora-qa/python-wikitcms
+description: Fedora QA wiki test management library
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

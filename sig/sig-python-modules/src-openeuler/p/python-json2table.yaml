@@ -1,0 +1,10 @@
+name: python-json2table
+upstream: https://github.com/latture/json2table
+description: Convert JSON to an HTML table
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -2,45 +2,31 @@
 
 ## 背景
 
-本目录下存放的是 openEuler 社区中，所有 特别兴趣小组 （Special Interest Group，以下简称 SIG）的运作信息。
+本目录下存放的是 openEuler 社区中，所有代码仓与特别兴趣小组 （Special Interest Group，以下简称 SIG）的运作信息。
 
-在openEuler最初的设计中，SIG信息记录在 openeuler/community仓库的sig目录内。其中 SIG 的 maintainer 信息位于相应目录的 OWNER 文件内，而每个SIG所维护的仓库名称列表位于sig.yaml文件内。除此外的信息，包括SIG的邮件列表地址，maintainer的邮件和名字，SIG的描述信息等，都依托SIG的README文件。
+本目录下每一个子目录，代表一个 SIG。其中 SIG 的 maintainer 信息位于 OWNER 文件中。每个 SIG 目录中，按实际管理情况，存在 openeuler 及 src-openeuler 子目录；所有被该 SIG 管理的代码仓，都以相应的独立 YAML 文件描述，存放于这两个子目录中（按首字母细分）。
 
-为了能够加快 openEuler 社区的自动化工具和流程完善，我们需要提取准确的SIG信息，以支持会议预定、网站展示、代码仓权限管理等。我们重新定义 sigs.yaml 与 sig-info.yaml 文件，统一承载 openEuler 各个 SIG 的格式化信息。
 
 ## 数据存放和管理方式
 
-1. openeuler/community 仓的 sig 目录下存在一个 sigs.yaml 文件，这个文件中管理从技术委员会角度看到的所有 SIG 的信息。
-2. 每个 SIG 在 openeuler/community 仓的 sig 目录中各有一个独立的目录，其中必须存在一个 sig-info.yaml 文件。
-3. sigs.yaml 原则上由 技术委员会 修改和维护。各个 SIG 所对应的 sig-info.yaml 的修改，由各 SIG 的 maintainer 提交PR，经过技术委员会审视后合入。
-4. 信息的权威性，sigs.yaml > sig-info.yaml > 其他。如果出现信息不一致，以排序最先的 YAML 文件中信息为准。
-5. 各 SIG 独立目录下的 README.md 为 SIG 的信息展示区。其中 SIG 基本信息需按模板留空，由工具自动填充。
+1. 每个 SIG 在 openeuler/community 仓的 sig 目录中各有一个独立的目录，其中必须存在 OWNERS 文件，建议存在 sig-info.yaml 文件。
+2. 原则上由 技术委员会 修改和维护。各个 SIG 所对应的 sig-info.yaml 的修改，由各 SIG 的 maintainer 提交PR，经过技术委员会审视后合入。
+3. 信息的权威性，OWNERS > sig-info.yaml > 其他。如果出现信息不一致，以排序最先的 YAML 文件中信息为准。
+4. 各 SIG 独立目录下的 README.md 为 SIG 的信息展示区。其中 SIG 基本信息需按模板留空，由工具自动填充。
 
-##  sigs.yaml 文件格式
-sigs.yaml 文件为yaml格式承载，包含如下基本元素：
-| 字段 | 类型 | 说明 |
-|--|--|--|
-| sigs | 列表 | 当前所有 SIG 清单 |
+## 格式规范
 
-其中 sigs 列表中每一条记录为SIG所管理的一个仓库信息：
+### OWNERS 文件格式规范
+OWNERS 当前仅仅支持 maintainer 列表，committer列表等没有实际权限配置效用。
 
-| 字段 | 类型 |  说明 |
-|--|--|--|
-| name | 字符串 | SIG 的正式名称 |
-| maturity | 枚举 | 可选为 startup, gratuated, standalone |
-| mentors | 列表 | SIG 组当前导师名单 |
-| repositories | 列表 | SIGS 组当前负责管理维护的所有代码仓清单 |
+### OWNERS 文件样例
+```
+maintainers:
+- %gitee_id%
+- %gitee_id2%
+```
 
-其中 mentors 列表中每一条记录代表一位 mentor 的个人信息。每一条个人信息记录包含如下元素：
-
-| 字段 | 类型 | 说明 |
-|--|--|--|
-| gitee_id | 字符串 | gitee ID, 必填 |
-| name | 字符串 | 姓名(或者网名), 必填 |
-| organization| 字符串 | 所在组织, 选填 |
-| email| 字符串 | 个人邮箱地址, 必填 |
-
-##  sig-info.yaml 文件格式
+###  sig-info.yaml 文件格式
 
 sig-info.yaml 文件为yaml格式承载，包含如下基本元素：
 | 字段 | 类型 | 说明 |
@@ -73,7 +59,7 @@ sig-info.yaml 文件为yaml格式承载，包含如下基本元素：
 
 其中 additional_contributors 列表中每一条记录为 仅参与该代码仓的贡献人员个人信息：
 
-## sig-info.yaml 样例：
+### sig-info.yaml 样例：
 ```
 name: Infrastructure
 description: This is a sample sig. Please copy it over and modify it accordingly.
@@ -105,4 +91,47 @@ repositories:
     email: zzzzzzz@openeuler.org
 - repo: openeuler/blog
 - repo: openeuler/go-gitee
+```
+
+### 代码仓描述文件格式
+
+配置文件整体以yaml格式承载，包含如下基本元素：
+
+| 名称 | 类型 | 说明 |
+| :-- | :-- | :-- |
+| name|字符串|仓库名称|
+| rename_from|字符串|仓库原名称。这个子元素为可选，只有该代码仓是从另一个代码仓改名而来时才需要|
+| description| 字符串 | 仓库包含组件的描述 |
+| type|枚举类型，可选 public 或者 private | 仓库类型。private代码仓不提供开放访问|
+|upstream|字符串|本代码仓对应的上游社区信息。当 community 为 src-openeuler时，这个子元素必须提供；当 community 为 openeuler 且项目本身就是社区原创项目时，可以不设置|
+| branches|清单|本代码仓下所有分支信息|
+
+branches 清单中每个元素代表一个受管理的分支，以关系数组的方式呈现，需要包含以下子元素:
+| 名称 | 类型 | 说明 |
+| :-- | :-- | :-- |
+| name| 字符串 | 分支名称 |
+| type | 枚举类型，可选protected/readonly |  分支类型，对照码云分支属性设置，protected 表示该分支可以被发布版本集成，readonly 表示该分支停止维护 |
+| create_from | 字符串 | 分支创建起点，当 branches.name 为 master 时，字符串为空；新创其他分支时设置已存在的分支名或tag名，缺省为master |
+
+### 代码仓描述文件样例
+```
+- name: A-Tune
+  description: 'This is a repo for ……'
+  branches:
+  - name: master
+    type: protected
+  - openEuler-20.03-LTS
+    type: protected
+    create_from: master
+  - openEuler-20.09
+    type: protected
+    create_from: master
+  type: public
+- name: A-Tune-UI
+  description: 'Web server for A-Tune'
+  upstream: https://gitee.com/openeuler/A-Tune-UI
+  branches:
+  - name: master
+    type: protected
+  type: public
 ```

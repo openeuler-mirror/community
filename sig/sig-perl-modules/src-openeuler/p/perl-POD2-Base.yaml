@@ -1,0 +1,10 @@
+name: perl-POD2-Base
+upstream: http://search.cpan.org/dist/POD2-Base/
+description: Base module for translations of Perl documentation
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

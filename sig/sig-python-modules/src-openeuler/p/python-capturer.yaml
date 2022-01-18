@@ -1,0 +1,10 @@
+name: python-capturer
+upstream: https://capturer.readthedocs.io
+description: Easily capture stdout/stderr of the current process and subprocesses
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: python-gccinvocation
+upstream: https://github.com/fedora-static-analysis/gccinvocation
+description: Library for parsing GCC command-line options
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

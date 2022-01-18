@@ -1,0 +1,10 @@
+name: python-virtualenv-clone
+upstream: https://github.com/edwardgeorge/virtualenv-clone
+description: script to clone virtualenvs.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

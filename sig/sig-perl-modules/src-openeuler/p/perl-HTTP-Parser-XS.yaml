@@ -1,0 +1,10 @@
+name: perl-HTTP-Parser-XS
+upstream: http://search.cpan.org/dist/HTTP-Parser-XS/
+description: Fast, primitive HTTP request parser
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

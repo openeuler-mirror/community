@@ -74,7 +74,7 @@ oVirt相关软件包的仓库如下，详见：https://resources.ovirt.org/pub/o
 - https://gitee.com/src-openeuler/ovirt-engine-ui-extensions
 - https://gitee.com/src-openeuler/ovirt-engine-wildfly
 - https://gitee.com/src-openeuler/ovirt-engine-wildfly-overlay
-- https://gitee.com/src-openeuler/ovirt-engine-yarn
+- https://gitee.com/src-openeuler/nodejs-yarn
 - https://gitee.com/src-openeuler/ovirt-guest-agent
 - https://gitee.com/src-openeuler/ovirt-guest-agent-windows
 - https://gitee.com/src-openeuler/ovirt-guest-tools-iso
@@ -101,7 +101,6 @@ oVirt相关软件包的仓库如下，详见：https://resources.ovirt.org/pub/o
 - https://gitee.com/src-openeuler/python-ovirt-engine-sdk4
 - https://gitee.com/src-openeuler/rubygem-ovirt-engine-sdk4
 - https://gitee.com/src-openeuler/v2v-conversion-host
-- https://gitee.com/src-openeuler/vcredist
 - https://gitee.com/src-openeuler/vdsm
 - https://gitee.com/src-openeuler/vdsm-jsonrpc-java
 - https://gitee.com/src-openeuler/java-client-kubevirt
@@ -112,6 +111,8 @@ oVirt相关软件包的仓库如下，详见：https://resources.ovirt.org/pub/o
 - https://gitee.com/src-openeuler/ovirt-jboss-modules-maven-plugin
 - https://gitee.com/src-openeuler/safelease
 - https://gitee.com/src-openeuler/ovirt-engine-api-model
+- https://gitee.com/src-openeuler/virt-viewer
+- https://gitee.com/src-openeuler/virt-manager
 
 
 ## SIG基本信息
@@ -126,6 +127,9 @@ oVirt相关软件包的仓库如下，详见：https://resources.ovirt.org/pub/o
 
 ### Committers
 - crrs666
+
+### Contributors
+- beijing-yitong
 
 ### 邮件列表
 - dev@openeuler.org

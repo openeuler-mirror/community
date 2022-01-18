@@ -1,0 +1,11 @@
+name: python-yattag
+upstream: https://www.yattag.org
+description: Generate HTML or XML in a pythonic way. Pure python alternative to web
+  template engines.Can fill HTML forms with default values and error messages.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

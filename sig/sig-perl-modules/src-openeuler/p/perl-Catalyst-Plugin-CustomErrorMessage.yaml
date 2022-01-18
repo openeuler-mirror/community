@@ -1,0 +1,10 @@
+name: perl-Catalyst-Plugin-CustomErrorMessage
+upstream: http://search.cpan.org/dist/Catalyst-Plugin-CustomErrorMessage/
+description: Catalyst plugin to have more "cute" error message
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

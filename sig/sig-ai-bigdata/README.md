@@ -23,11 +23,9 @@
 
 ### Maintainer列表
   - sinever
-  - hubble_zhu
   - njlzk
-  - myeuler
-  - ZhengZhenyu
   - yangzhao_kl
+  - unioah
 
 ### Committer列表
 
@@ -74,6 +72,7 @@
 - https://gitee.com/src-openeuler/phantomjs
 - https://gitee.com/src-openeuler/flume
 - https://gitee.com/src-openeuler/accumulo
+- https://gitee.com/src-openeuler/notebook
 
 ## 路线图
  ![roadmap](./sig-road-map.jpg)

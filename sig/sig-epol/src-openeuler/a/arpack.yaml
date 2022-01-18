@@ -1,0 +1,7 @@
+name: arpack
+description: Fortran 77 subroutines for solving large scale eigenvalue problems
+upstream: https://github.com/opencollab/arpack-ng
+branches:
+- name: master
+  type: protected
+type: public

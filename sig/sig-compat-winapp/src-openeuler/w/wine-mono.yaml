@@ -1,0 +1,7 @@
+name: wine-mono
+description: Windows Mono library required for Wine.
+upstream: https://github.com/madewokherd/wine-mono
+branches:
+- name: master
+  type: protected
+type: public

@@ -1,0 +1,10 @@
+name: python-sniffio
+upstream: https://github.com/python-trio/sniffio
+description: Sniff out which async library your code is running under
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

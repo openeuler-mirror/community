@@ -1,0 +1,10 @@
+name: perl-Glib
+description: Perl wrappers for the GLib utility and Object libraries
+upstream: https://metacpan.org/release/Glib
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

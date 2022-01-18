@@ -1,0 +1,10 @@
+name: perl-Pod-PseudoPod
+upstream: http://search.cpan.org/dist/Pod-PseudoPod/
+description: Framework for parsing PseudoPod
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: perl-IO-Pager
+upstream: http://search.cpan.org/dist/IO-Pager/
+description: Select a pager (possibly perl-based) & pipe it text if a TTY
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: python-multipart
+upstream: http://github.com/defnull/multipart
+description: Parser for multipart/form-data.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

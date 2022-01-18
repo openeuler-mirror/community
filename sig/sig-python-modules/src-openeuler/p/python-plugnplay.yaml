@@ -1,0 +1,10 @@
+name: python-plugnplay
+upstream: http://github.com/daltonmatos/plugnplay
+description: A Generic plug-in system for python
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

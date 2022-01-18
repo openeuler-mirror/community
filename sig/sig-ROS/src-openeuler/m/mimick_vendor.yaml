@@ -1,0 +1,7 @@
+name: mimick_vendor
+description: Wrapper around mimick, it provides an ExternalProject build of mimick.
+upstream: https://github.com/ros2/mimick_vendor.git
+branches:
+- name: master
+  type: protected
+type: public

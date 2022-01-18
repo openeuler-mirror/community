@@ -1,0 +1,10 @@
+name: python-confluent-kafka
+description: Confluent's Python client for Apache Kafka.
+upstream: https://github.com/confluentinc/confluent-kafka-python
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

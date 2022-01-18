@@ -1,0 +1,10 @@
+name: perl-namespace-clean
+upstream: http://search.cpan.org/dist/namespace-clean/
+description: Keep imports and functions out of your namespace
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

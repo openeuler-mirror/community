@@ -1,0 +1,10 @@
+name: python-dbus-client-gen
+upstream: https://github.com/mulkieran/dbus-client-gen
+description: generates classes and methods useful to a D-Bus client
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

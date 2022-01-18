@@ -1,0 +1,7 @@
+name: openjdk-17
+description: openEuler Community builds of OpenJDK 17
+upstream: http://openjdk.java.net/
+branches:
+- name: master
+  type: protected
+type: public

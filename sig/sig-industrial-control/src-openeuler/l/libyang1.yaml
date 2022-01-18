@@ -1,0 +1,8 @@
+name: libyang1
+description: libyang is YANG data modelling language parser and toolkit written (and
+  providing API) in C
+upstream: https://github.com/CESNET/libyang
+branches:
+- name: master
+  type: protected
+type: public

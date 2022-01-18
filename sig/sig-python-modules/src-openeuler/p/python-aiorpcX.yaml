@@ -1,0 +1,10 @@
+name: python-aiorpcX
+upstream: https://github.com/kyuupichan/aiorpcX
+description: Generic async RPC implementation, including JSON-RPC
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

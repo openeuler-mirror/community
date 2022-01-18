@@ -102,3 +102,5 @@ repository地址：
 - https://gitee.com/src-openeuler/liburing
 - https://gitee.com/openeuler/etmem
 - https://gitee.com/src-openeuler/etmem
+- https://gitee.com/openeuler/extfuse
+- https://gitee.com/src-openeuler/extfuse

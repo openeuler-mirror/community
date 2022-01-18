@@ -1,0 +1,12 @@
+name: python-flock
+upstream: https://github.com/misli/python-flock
+description: Flock object uses fcntl.flock to lock (resp. unlock) file descriptor
+  (fd) with operation (op) when entering (resp. leaving) runtime context related to
+  it.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

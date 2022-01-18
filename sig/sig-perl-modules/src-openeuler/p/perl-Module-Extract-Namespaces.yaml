@@ -1,0 +1,10 @@
+name: perl-Module-Extract-Namespaces
+upstream: http://search.cpan.org/dist/Module-Extract-Namespaces/
+description: Extract the package declarations from a module
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

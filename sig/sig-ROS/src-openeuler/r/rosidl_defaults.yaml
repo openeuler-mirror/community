@@ -1,0 +1,7 @@
+name: rosidl_defaults
+description: Default rosidl runtime and generators.
+upstream: https://github.com/ros2/rosidl_defaults.git
+branches:
+- name: master
+  type: protected
+type: public

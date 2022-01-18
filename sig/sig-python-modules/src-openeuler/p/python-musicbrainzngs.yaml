@@ -1,0 +1,10 @@
+name: python-musicbrainzngs
+upstream: https://python-musicbrainzngs.readthedocs.io/
+description: Python bindings for the MusicBrainz NGS and the Cover Art Archive webservices
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

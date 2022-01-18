@@ -1,0 +1,10 @@
+name: lxinput
+description: Keyboard and mouse settings dialog for LXDE.
+upstream: https://github.com/lxde/lxinput
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

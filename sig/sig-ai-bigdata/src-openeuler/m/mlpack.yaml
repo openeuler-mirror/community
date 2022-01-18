@@ -1,0 +1,10 @@
+name: mlpack
+description: a fast, flexible machine learning library, written in C++
+upstream: https://www.mlpack.org/
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

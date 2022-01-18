@@ -1,0 +1,11 @@
+name: python-diff-match-patch
+upstream: https://github.com/diff-match-patch-python/diff-match-patch
+description: Repackaging of Google's Diff Match and Patch libraries. Offers robust
+  algorithms to perform the operations required for synchronizing plain text.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

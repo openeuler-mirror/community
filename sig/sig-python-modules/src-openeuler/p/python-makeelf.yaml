@@ -1,0 +1,10 @@
+name: python-makeelf
+upstream: https://github.com/v3l0c1r4pt0r/makeelf
+description: ELF reader-writer library
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

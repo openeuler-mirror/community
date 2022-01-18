@@ -41,7 +41,6 @@ committers:
   email: shanshishi@huawei.com
 repositories:
 - repo: openeuler/openEuler-rpm-config
-- repo: openeuler/process1
 - repo: src-openeuler/abseil-cpp
 - repo: src-openeuler/acl
 - repo: src-openeuler/acpica-tools
@@ -188,6 +187,7 @@ repositories:
 - repo: src-openeuler/jdeparser1
 - repo: src-openeuler/jeromq
 - repo: src-openeuler/jfsutils
+- repo: src-openeuler/jitterentropy-library
 - repo: src-openeuler/jose
 - repo: src-openeuler/jq
 - repo: src-openeuler/json-c
@@ -477,7 +477,6 @@ repositories:
 - repo: src-openeuler/sos
 - repo: src-openeuler/speex
 - repo: src-openeuler/speexdsp
-- repo: src-openeuler/sqlite
 - repo: src-openeuler/sscg
 - repo: src-openeuler/sssd
 - repo: src-openeuler/star
@@ -539,6 +538,7 @@ repositories:
 - repo: src-openeuler/xmlstarlet
 - repo: src-openeuler/xmlto
 - repo: src-openeuler/xz
+- repo: src-openeuler/libcbor
 - repo: src-openeuler/yajl
 - repo: src-openeuler/yaml-cpp
 - repo: src-openeuler/yaml-cpp03

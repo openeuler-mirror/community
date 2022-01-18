@@ -64,3 +64,4 @@ repository地址：
 - https://gitee.com/src-openeuler/libkae
 - https://gitee.com/src-openeuler/libwd
 - https://gitee.com/src-openeuler/kae_driver
+- https://gitee.com/src-openeuler/uadk_engine

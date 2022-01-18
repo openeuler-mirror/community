@@ -1,0 +1,7 @@
+name: memcached_exporter
+description: Exports metrics from memcached servers for consumption by Prometheus.
+upstream: https://github.com/prometheus/memcached_exporter
+branches:
+- name: master
+  type: protected
+type: public

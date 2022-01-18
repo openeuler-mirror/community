@@ -1,0 +1,10 @@
+name: perl-Cache-FastMmap
+upstream: http://search.cpan.org/dist/Cache-FastMmap/
+description: Uses an mmap'ed file to act as a shared memory interprocess cache
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

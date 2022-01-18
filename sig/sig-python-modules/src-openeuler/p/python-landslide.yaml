@@ -1,0 +1,10 @@
+name: python-landslide
+upstream: http://github.com/adamzap/landslide
+description: HTML5 slideshow generator for Markdown, ReST, and Textile
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

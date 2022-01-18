@@ -1,0 +1,11 @@
+name: python-django-health-check
+upstream: https://github.com/KristianOellegaard/django-health-check
+description: Run checks on services like databases, queue servers, celery processes,
+  etc.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

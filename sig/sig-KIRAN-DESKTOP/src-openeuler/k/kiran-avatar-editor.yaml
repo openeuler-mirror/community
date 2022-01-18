@@ -1,0 +1,10 @@
+name: kiran-avatar-editor
+description: User account image editing tool
+upstream: https://gitee.com/kylinsecos/kiran-avatar-editor
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

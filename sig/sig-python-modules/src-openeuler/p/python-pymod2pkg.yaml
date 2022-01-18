@@ -1,0 +1,13 @@
+name: python-pymod2pkg
+upstream: https://docs.openstack.org/pymod2pkg/latest/
+description: python module name to package name map
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+- name: openEuler-21.03
+  type: protected
+  create_from: master
+type: public

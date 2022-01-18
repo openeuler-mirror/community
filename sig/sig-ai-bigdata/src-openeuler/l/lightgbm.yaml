@@ -1,0 +1,11 @@
+name: lightgbm
+description: A fast, distributed, high performance gradient boosting (GBT, GBDT, GBRT,
+  GBM or MART) framework based on decision tree algorithms.
+upstream: https://github.com/microsoft/LightGBM
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

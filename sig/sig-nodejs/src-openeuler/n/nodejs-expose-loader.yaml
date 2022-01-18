@@ -1,0 +1,8 @@
+name: nodejs-expose-loader
+upstream: https://github.com/webpack-contrib/expose-loader
+description: The expose-loader loader allows to expose a module (in whole or in part)
+  to global object (self, window and global).
+branches:
+- name: master
+  type: protected
+type: public

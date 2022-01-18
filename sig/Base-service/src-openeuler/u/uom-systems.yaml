@@ -1,0 +1,10 @@
+name: uom-systems
+description: Units of Measurement Systems (JSR 363)
+upstream: https://github.com/unitsofmeasurement/uom-systems
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: platform_manifests
+description: save default.xml for repo android source codes
+upstream: https://github.com/anbox/platform_manifests
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,7 @@
+name: spdlog_vendor
+description: Vendor package for spdlog.
+upstream: https://github.com/ros2/spdlog_vendor.git
+branches:
+- name: master
+  type: protected
+type: public

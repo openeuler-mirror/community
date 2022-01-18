@@ -1,0 +1,10 @@
+name: python-pyactivetwo
+upstream: http://github.com/kuz/pyactivetwo
+description: Python library for reading signal from BioSemi ActiveTwo EEG device
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

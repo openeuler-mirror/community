@@ -1,0 +1,10 @@
+name: python-epdb
+upstream: https://github.com/sassoftware/epdb
+description: Enhanced Python Debugger
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

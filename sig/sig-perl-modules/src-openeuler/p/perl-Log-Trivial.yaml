@@ -1,0 +1,10 @@
+name: perl-Log-Trivial
+upstream: http://search.cpan.org/dist/Log-Trivial/
+description: Very simple tool for writing very simple log files
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

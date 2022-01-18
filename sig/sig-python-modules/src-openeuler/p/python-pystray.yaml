@@ -1,0 +1,10 @@
+name: python-pystray
+upstream: https://github.com/moses-palmer/pystray
+description: Provides systray integration
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

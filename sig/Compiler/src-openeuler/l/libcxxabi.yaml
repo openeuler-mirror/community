@@ -1,0 +1,7 @@
+name: libcxxabi
+description: The libcxxabi is lower level c++ libs of llvm for openEuler
+upstream: https://github.com/llvm/llvm-project
+branches:
+- name: master
+  type: protected
+type: public

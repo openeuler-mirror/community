@@ -1,0 +1,10 @@
+name: perl-GD-SVG
+upstream: http://search.cpan.org/dist/GD-SVG/
+description: Seamlessly enable SVG output from scripts written using GD
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

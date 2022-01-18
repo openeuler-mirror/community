@@ -1,0 +1,10 @@
+name: python-pyrtlsdr
+upstream: https://github.com/roger-/pyrtlsdr
+description: A Python wrapper for librtlsdr (a driver for Realtek RTL2832U based SDR's)
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

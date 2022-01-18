@@ -1,0 +1,10 @@
+name: python-beanbag
+upstream: https://github.com/ajtowns/beanbag
+description: A helper module for accessing REST APIs
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,7 @@
+name: rqt_srv
+description: A Python GUI plugin for introspecting available ROS message types.
+upstream: https://github.com/ros-visualization/rqt_srv
+branches:
+- name: master
+  type: protected
+type: public

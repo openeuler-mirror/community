@@ -18,6 +18,8 @@ sig-confidential_computing主要讨论在openEuler社区版本中已有或未来
 - sig-confidential-computing repository地址：
   - https://gitee.com/openeuler/secGear
   - https://gitee.com/openeuler/itrustee_sdk
+  - https://gitee.com/openeuler/itrustee_tzdriver
+  - https://gitee.com/openeuler/itrustee_client
   - https://gitee.com/src-openeuler/linux-sgx
   - https://gitee.com/src-openeuler/linux-sgx-driver
   - https://gitee.com/src-openeuler/intel-sgx-ssl
@@ -41,13 +43,14 @@ sig-confidential_computing主要讨论在openEuler社区版本中已有或未来
 
 - blue0613
 - chenmaodong
+- wolfkernel
+- dongdo-yao
 
 ### Committer列表
 
 - whzhe
 - liwei3013
 - yanlu
-- wolfkernel
 
 # 联系方式
 - 邮件列表: dev@openeuler.org

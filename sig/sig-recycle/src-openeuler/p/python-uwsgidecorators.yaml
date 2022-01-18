@@ -1,0 +1,13 @@
+name: python-uwsgidecorators
+upstream: http://uwsgi-docs.readthedocs.org/en/latest/PythonDecorators.html
+description: uwsgidecorators standalone package
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

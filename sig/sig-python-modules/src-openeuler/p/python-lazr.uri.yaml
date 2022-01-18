@@ -1,0 +1,10 @@
+name: python-lazr.uri
+upstream: https://launchpad.net/lazr.uri
+description: A self-contained, easily reusable library for parsing, manipulating,
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

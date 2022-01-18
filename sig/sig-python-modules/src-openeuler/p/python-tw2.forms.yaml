@@ -1,0 +1,10 @@
+name: python-tw2.forms
+upstream: http://toscawidgets.org/
+description: The basic form widgets for ToscaWidgets 2, a web widget toolkit.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: perl-Net-Server-SS-PreFork
+upstream: http://search.cpan.org/dist/Net-Server-SS-PreFork/
+description: Hot-deployable variant of Net
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

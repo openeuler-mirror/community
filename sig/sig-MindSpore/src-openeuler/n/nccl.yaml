@@ -1,0 +1,7 @@
+name: nccl
+description: Optimized primitives for inter-GPU communication.
+upstream: https://github.com/NVIDIA/nccl
+branches:
+- name: master
+  type: protected
+type: public

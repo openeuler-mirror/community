@@ -21,9 +21,12 @@
 ## 当前sig maintainer成员：
 - 栾建海     [@luanjianhai](https://gitee.com/luanjianhai)  Email:luanjianhai@huawei.com
 - 胡  峰     [@solarhu](https://gitee.com/solarhu)   Email:solar.hu@huawei.com
-- 陈  功     [@Gongchen](https://gitee.com/Gongchen)   Email:chengong15@huawei.com
-- 陈亚强     [@yaqiangchen](https://gitee.com/yaqiangchen)  Email:chenyaqiang@huawei.com
 - 丁  翔     [@cmss_dx](https://gitee.com/cmss_dx)   Email:dingxiang@cmss.Chinamobile.com
+- 罗盛炜     [@Lostwayzxc](https://gitee.com/Lostwayzxc)   Email:luoshengwei@huawei.com
+- 杨  昭     [@yangzhao_kl](https://gitee.com/yangzhao_kl)   Email:yangzhao1@kylinos.cn
+
+## Contributors成员：
+- 方亮亮     [@fang-liangliang](https://gitee.com/fang-liangliang)   Email:fangliangliang@deepinsight.cn
 
 ## 联系方式
 - sig-ops使用邮件列表形式作为日常社区讨论方式，邮件列表地址如下：

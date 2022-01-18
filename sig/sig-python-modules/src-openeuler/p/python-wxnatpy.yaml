@@ -1,0 +1,10 @@
+name: python-wxnatpy
+upstream: https://github.com/pauldmccarthy/wxnatpy
+description: wxPython XNAT repository browser
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

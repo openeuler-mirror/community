@@ -1,0 +1,10 @@
+name: python-piexif
+upstream: https://github.com/hMatoba/Piexif
+description: To simplify exif manipulations with python. Writing, reading, and more...
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

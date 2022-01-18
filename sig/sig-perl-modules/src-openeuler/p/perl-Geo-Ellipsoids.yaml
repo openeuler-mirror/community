@@ -1,0 +1,10 @@
+name: perl-Geo-Ellipsoids
+upstream: http://search.cpan.org/dist/Geo-Ellipsoids/
+description: Package for standard Geo
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

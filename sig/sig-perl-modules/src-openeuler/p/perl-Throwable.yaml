@@ -1,0 +1,10 @@
+name: perl-Throwable
+upstream: http://search.cpan.org/dist/Throwable/
+description: Role for classes that can be thrown
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

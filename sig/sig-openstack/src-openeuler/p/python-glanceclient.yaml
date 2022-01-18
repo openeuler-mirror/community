@@ -1,0 +1,49 @@
+name: python-glanceclient
+description: This is a client library for Glance built on the OpenStack Images API.
+  It provides a Python API (the glanceclient module) and a command-line tool (glance).
+  This library fully supports the v1 Images API, while support for the v2 API is in
+  progress.
+upstream: https://github.com/openstack/python-glanceclient
+branches:
+- name: master
+  type: protected
+- name: oepkg_openstack-queens_oe-20.03-LTS-SP2
+  type: protected
+  create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
+- name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
+  type: protected
+  create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
+- name: openEuler-21.03
+  type: protected
+  create_from: master
+- name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+  type: protected
+  create_from: master
+- name: oepkg_openstack-queens_oe-20.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-21.09
+  type: protected
+  create_from: master
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+- name: oepkg_openstack-queens_oe-20.03-LTS-SP1
+  type: protected
+  create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
+- name: oepkg_openstack-rocky_oe-20.03-LTS-SP1
+  type: protected
+  create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
+- name: openEuler-20.03-LTS-SP3
+  type: protected
+  create_from: openEuler-20.03-LTS-Next
+- name: oepkg_openstack-queens_oe-20.03-LTS-SP3
+  type: protected
+  create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
+- name: oepkg_openstack-rocky_oe-20.03-LTS-SP3
+  type: protected
+  create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: openEuler-21.09
+type: public

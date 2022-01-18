@@ -1,0 +1,10 @@
+name: python-ngram
+upstream: http://github.com/gpoulter/python-ngram
+description: A `set` subclass providing fuzzy search based on N-grams.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

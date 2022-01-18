@@ -1,0 +1,6 @@
+name: patch-tracking
+description: A tool for automatically tracking upstream repository code patches
+branches:
+- name: master
+  type: protected
+type: public

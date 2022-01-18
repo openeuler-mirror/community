@@ -1,0 +1,10 @@
+name: perl-HTTP-Cache-Transparent
+upstream: http://search.cpan.org/dist/HTTP-Cache-Transparent/
+description: Cache the result of http get-requests persistently
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

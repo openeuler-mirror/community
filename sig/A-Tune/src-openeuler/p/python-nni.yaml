@@ -1,0 +1,13 @@
+name: python-nni
+description: An open source AutoML toolkit for automate machine learning lifecycle
+upstream: https://github.com/microsoft/nni
+branches:
+- name: master
+  type: protected
+- name: openEuler-21.03
+  type: protected
+  create_from: master
+- name: openEuler-21.09
+  type: protected
+  create_from: master
+type: public

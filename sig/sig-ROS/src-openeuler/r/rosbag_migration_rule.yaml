@@ -1,0 +1,8 @@
+name: rosbag_migration_rule
+description: This empty package allows to export rosbag migration rule files without
+  depending on rosbag.
+upstream: https://github.com/ros-gbp/rosbag_migration_rule-release/
+branches:
+- name: master
+  type: protected
+type: public

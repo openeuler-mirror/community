@@ -1,0 +1,10 @@
+name: perl-IO-Pipely
+upstream: http://search.cpan.org/dist/IO-Pipely/
+description: Portably create pipe() or pipe-like handles, one way or another
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

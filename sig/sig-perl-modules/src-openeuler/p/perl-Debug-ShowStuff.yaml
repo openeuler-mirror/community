@@ -1,0 +1,11 @@
+name: perl-Debug-ShowStuff
+upstream: http://search.cpan.org/dist/Debug-ShowStuff/
+description: Collection of handy debugging routines for displaying the values of variables
+  with a minimum of coding
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

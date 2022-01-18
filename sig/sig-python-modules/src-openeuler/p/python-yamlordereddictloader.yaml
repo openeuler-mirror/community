@@ -1,0 +1,10 @@
+name: python-yamlordereddictloader
+upstream: https://github.com/fmenabe/python-yamlordereddictloader
+description: YAML loader and dump for PyYAML allowing to keep keys order.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

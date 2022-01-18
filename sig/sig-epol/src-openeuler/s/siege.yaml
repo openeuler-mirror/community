@@ -1,0 +1,7 @@
+name: siege
+description: HTTP regression testing and benchmarking utility
+upstream: http://www.joedog.org/JoeDog/Siege
+branches:
+- name: master
+  type: protected
+type: public

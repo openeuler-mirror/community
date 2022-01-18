@@ -1,0 +1,10 @@
+name: perl-Class-C3-Adopt-NEXT
+upstream: http://search.cpan.org/dist/Class-C3-Adopt-NEXT/
+description: Make NEXT suck less
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

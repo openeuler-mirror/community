@@ -1,0 +1,10 @@
+name: perl-Test-Metrics-Any
+upstream: http://search.cpan.org/dist/Test-Metrics-Any/
+description: Assert that code produces metrics via Metrics
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

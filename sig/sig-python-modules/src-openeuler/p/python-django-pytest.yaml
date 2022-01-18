@@ -1,0 +1,10 @@
+name: python-django-pytest
+upstream: http://github.com/buchuki/django-pytest
+description: django test runner to use py.test tests
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

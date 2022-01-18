@@ -1,0 +1,10 @@
+name: perl-Unicode-CheckUTF8-PP
+upstream: http://search.cpan.org/dist/Unicode-CheckUTF8-PP/
+description: Pure Perl implementation of Unicode
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

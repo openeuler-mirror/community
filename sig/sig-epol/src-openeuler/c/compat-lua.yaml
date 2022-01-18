@@ -1,0 +1,7 @@
+name: compat-lua
+description: Powerful light-weight programming language (compat version)
+upstream: http://www.lua.org/
+branches:
+- name: master
+  type: protected
+type: public

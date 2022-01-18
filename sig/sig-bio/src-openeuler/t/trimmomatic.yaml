@@ -1,0 +1,8 @@
+name: trimmomatic
+upstream: https://github.com/usadellab/Trimmomatic
+description: Trimmomatic performs a variety of useful trimming tasks for illumina
+  paired-end and single ended data
+branches:
+- name: master
+  type: protected
+type: public

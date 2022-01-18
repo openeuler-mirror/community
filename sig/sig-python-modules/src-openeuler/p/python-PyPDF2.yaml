@@ -1,0 +1,10 @@
+name: python-PyPDF2
+upstream: http://mstamy2.github.com/PyPDF2
+description: PDF toolkit
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

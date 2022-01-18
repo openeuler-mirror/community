@@ -1,0 +1,10 @@
+name: perl-Mail-JMAPTalk
+description: Basic interface to talk to JMAP servers
+upstream: https://metacpan.org/release/Mail-JMAPTalk
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

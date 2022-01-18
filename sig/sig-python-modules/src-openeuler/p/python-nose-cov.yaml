@@ -1,0 +1,10 @@
+name: python-nose-cov
+upstream: http://bitbucket.org/memedough/nose-cov/overview
+description: nose plugin for coverage reporting, including subprocesses and multiprocessing
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

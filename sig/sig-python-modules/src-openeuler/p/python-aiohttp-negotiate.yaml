@@ -1,0 +1,10 @@
+name: python-aiohttp-negotiate
+upstream: https://github.com/ox-it/aiohttp-negotiate
+description: Mixin for Negotiate authentication for aiohttp
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

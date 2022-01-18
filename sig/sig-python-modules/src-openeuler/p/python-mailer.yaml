@@ -1,0 +1,10 @@
+name: python-mailer
+upstream: https://bitbucket.org/ginstrom/mailer
+description: A module to send email simply in Python
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

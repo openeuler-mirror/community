@@ -1,0 +1,10 @@
+name: python-locket
+upstream: http://github.com/mwilliamson/locket.py
+description: File-based locks for Python for Linux and Windows
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

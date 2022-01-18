@@ -1,0 +1,7 @@
+name: ament_cmake
+description: The entry point package for the ament buildsystem in CMake.
+upstream: https://github.com/ament/ament_cmake.git
+branches:
+- name: master
+  type: protected
+type: public

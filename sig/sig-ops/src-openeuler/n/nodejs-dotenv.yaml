@@ -1,0 +1,9 @@
+name: nodejs-dotenv
+upstream: https://github.com/motdotla/dotenv
+description: Dotenv is a zero-dependency module that loads environment variables from
+  a .env file into process.env. Storing configuration in the environment separate
+  from code is based on The Twelve-Factor App methodology.
+branches:
+- name: master
+  type: protected
+type: public

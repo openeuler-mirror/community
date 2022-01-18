@@ -1,0 +1,10 @@
+name: perl-CGI-Application-Plugin-TT
+upstream: http://search.cpan.org/dist/CGI-Application-Plugin-TT/
+description: Add Template Toolkit support to CGI
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

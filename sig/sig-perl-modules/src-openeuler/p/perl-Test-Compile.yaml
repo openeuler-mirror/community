@@ -1,0 +1,10 @@
+name: perl-Test-Compile
+upstream: http://search.cpan.org/dist/Test-Compile/
+description: Check whether Perl files compile correctly
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: python-pylev
+upstream: http://github.com/toastdriven/pylev
+description: A pure Python Levenshtein implementation that's not freaking GPL'd.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,7 @@
+name: google_benchmark_vendor
+description: This package provides Google Benchmark.
+upstream: https://github.com/ament/google_benchmark_vendor.git
+branches:
+- name: master
+  type: protected
+type: public

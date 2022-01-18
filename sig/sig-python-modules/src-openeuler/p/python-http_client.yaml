@@ -1,0 +1,10 @@
+name: python-http_client
+upstream: https://github.com/huynhminhson/http_client
+description: Fast and robust HTTP client based on PyCurl
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

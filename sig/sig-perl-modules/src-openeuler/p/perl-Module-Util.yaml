@@ -1,0 +1,10 @@
+name: perl-Module-Util
+upstream: http://search.cpan.org/dist/Module-Util/
+description: Module name tools and transformations
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

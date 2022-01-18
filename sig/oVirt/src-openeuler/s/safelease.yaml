@@ -1,0 +1,24 @@
+name: safelease
+description: Safelease is a legacy cluster lock utility used by VDSM. It is based
+  on the algorithm presented in the article "Light-Weight Leases for Storage-Centric
+  Coordination" by G Chockler and D Malkhi.
+upstream: https://gerrit.ovirt.org/#/admin/projects/safelease
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-20.03-LTS-SP1
+  type: protected
+  create_from: openEuler-20.03-LTS-Next
+- name: openEuler-20.03-LTS-SP2
+  type: protected
+  create_from: openEuler-20.03-LTS-Next
+- name: openEuler-20.03-LTS-SP3
+  type: protected
+  create_from: openEuler-20.03-LTS-Next
+type: public

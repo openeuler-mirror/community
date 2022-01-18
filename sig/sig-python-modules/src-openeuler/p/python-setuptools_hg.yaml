@@ -1,0 +1,11 @@
+name: python-setuptools_hg
+upstream: http://bitbucket.org/jezdez/setuptools_hg/
+description: Setuptools/distribute plugin for finding files under Mercurial version
+  control.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

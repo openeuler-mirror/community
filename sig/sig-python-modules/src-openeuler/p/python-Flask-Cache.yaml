@@ -1,0 +1,10 @@
+name: python-Flask-Cache
+upstream: http://github.com/thadeusb/flask-cache
+description: Adds cache support to your Flask application
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

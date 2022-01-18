@@ -1,0 +1,8 @@
+name: nodejs-file-loader
+upstream: https://github.com/webpack-contrib/file-loader
+description: The file-loader resolves import/require() on a file into a url and emits
+  the file into the output directory.
+branches:
+- name: master
+  type: protected
+type: public

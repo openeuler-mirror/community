@@ -1,0 +1,10 @@
+name: perl-Tie-Hash-MultiValue
+upstream: http://search.cpan.org/dist/Tie-Hash-MultiValue/
+description: Store multiple values per key
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

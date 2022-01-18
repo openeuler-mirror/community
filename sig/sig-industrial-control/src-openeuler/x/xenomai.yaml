@@ -1,0 +1,9 @@
+name: xenomai
+upstream: https://source.denx.de/Xenomai/xenomai/
+description: Xenomai is a Free Software project in which engineers from a wide background
+  collaborate to build a robust and resource-efficient real-time core for Linux following
+  the dual kernel approach, for applications with stringent latency requirements.
+branches:
+- name: master
+  type: protected
+type: public

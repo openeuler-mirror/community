@@ -1,0 +1,10 @@
+name: perl-DBD-Mock
+upstream: http://search.cpan.org/dist/DBD-Mock/
+description: Mock database driver for testing
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

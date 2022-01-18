@@ -1,0 +1,8 @@
+name: percona-server
+upstream: https://www.percona.com/software/mysql-database/percona-server
+description: Percona Server for MySQL is a free, fully compatible, enhanced, and open
+  source drop-in replacement for any MySQL database.
+branches:
+- name: master
+  type: protected
+type: public

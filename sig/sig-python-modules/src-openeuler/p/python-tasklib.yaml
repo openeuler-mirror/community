@@ -1,0 +1,10 @@
+name: python-tasklib
+upstream: https://github.com/robgolding63/tasklib
+description: Python Task Warrior library
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

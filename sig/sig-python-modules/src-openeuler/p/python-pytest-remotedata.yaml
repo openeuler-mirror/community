@@ -1,0 +1,10 @@
+name: python-pytest-remotedata
+upstream: https://astropy.org
+description: Pytest plugin for controlling remote data access.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: python-player
+upstream: https://github.com/fafhrd91/player/
+description: Pyramid view layers
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

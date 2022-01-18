@@ -1,0 +1,15 @@
+name: opencl
+description: an open, royalty-free standard for cross-platform, parallel programming
+  of diverse accelerators found in supercomputers, cloud servers, personal computers,
+  mobile devices and embedded platforms.
+upstream: https://www.khronos.org/opencl/
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+- name: openEuler-21.03
+  type: protected
+  create_from: master
+type: public

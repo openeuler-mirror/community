@@ -1,0 +1,8 @@
+name: soes
+upstream: https://github.com/OpenEtherCATsociety/SOES
+description: SOES is an EtherCAT slave stack written in c. Its purpose is to learn
+  and to use.
+branches:
+- name: master
+  type: protected
+type: public

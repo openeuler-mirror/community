@@ -1,0 +1,9 @@
+name: python-backports-functools_lru_cache
+description: A backport of functools.lru_cache from Python 3.3 as published at ActiveState.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: private

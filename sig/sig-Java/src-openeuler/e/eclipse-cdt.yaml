@@ -1,0 +1,10 @@
+name: eclipse-cdt
+description: Eclipse C/C++ Development Tools (CDT) plugin
+upstream: http://www.eclipse.org/cdt
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

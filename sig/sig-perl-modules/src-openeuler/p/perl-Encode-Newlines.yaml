@@ -1,0 +1,10 @@
+name: perl-Encode-Newlines
+upstream: http://search.cpan.org/dist/Encode-Newlines/
+description: Normalize line ending sequences
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

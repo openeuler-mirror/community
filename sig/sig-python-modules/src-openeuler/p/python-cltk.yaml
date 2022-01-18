@@ -1,0 +1,10 @@
+name: python-cltk
+upstream: https://github.com/cltk/cltk
+description: NLP for the ancient world
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

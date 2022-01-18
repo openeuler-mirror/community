@@ -1,0 +1,10 @@
+name: presto
+description: Presto is a distributed SQL query engine for big data.
+upstream: https://github.com/prestodb/presto
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

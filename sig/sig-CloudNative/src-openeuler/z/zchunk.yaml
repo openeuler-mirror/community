@@ -1,0 +1,8 @@
+name: zchunk
+description: zchunk is a compressed file format that splits the file into independent
+  chunks.
+upstream: https://github.com/zchunk/zchunk
+branches:
+- name: master
+  type: protected
+type: public

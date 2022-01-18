@@ -1,0 +1,10 @@
+name: python-repoze.who
+upstream: http://www.repoze.org
+description: repoze.who is an identification and authentication framework for WSGI.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

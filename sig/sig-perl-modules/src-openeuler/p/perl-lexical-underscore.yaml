@@ -1,0 +1,10 @@
+name: perl-lexical-underscore
+upstream: http://search.cpan.org/dist/lexical-underscore/
+description: Access your caller's lexical underscore
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

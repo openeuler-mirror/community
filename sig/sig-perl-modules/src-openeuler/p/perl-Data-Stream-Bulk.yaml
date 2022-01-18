@@ -1,0 +1,10 @@
+name: perl-Data-Stream-Bulk
+upstream: http://search.cpan.org/dist/Data-Stream-Bulk/
+description: N at a time iteration API
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

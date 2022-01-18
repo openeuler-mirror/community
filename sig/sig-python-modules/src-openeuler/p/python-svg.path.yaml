@@ -1,0 +1,10 @@
+name: python-svg.path
+upstream: https://github.com/regebro/svg.path
+description: SVG path objects and parser
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

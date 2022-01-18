@@ -1,0 +1,11 @@
+name: python-typogrify
+upstream: https://github.com/mintchaos/typogrify
+description: Filters to enhance web typography, including support for Django & Jinja
+  templates
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

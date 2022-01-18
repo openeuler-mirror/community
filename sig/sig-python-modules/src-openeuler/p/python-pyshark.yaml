@@ -1,0 +1,11 @@
+name: python-pyshark
+upstream: https://github.com/KimiNewt/pyshark
+description: Python wrapper for tshark, allowing python packet parsing using wireshark
+  dissectors
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

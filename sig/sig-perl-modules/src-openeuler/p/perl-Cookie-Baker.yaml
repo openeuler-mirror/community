@@ -1,0 +1,10 @@
+name: perl-Cookie-Baker
+upstream: http://search.cpan.org/dist/Cookie-Baker/
+description: Cookie string generator / parser
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

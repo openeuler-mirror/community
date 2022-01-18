@@ -1,0 +1,7 @@
+name: launch
+description: The ROS launch tool.
+upstream: https://github.com/ros2/launch.git
+branches:
+- name: master
+  type: protected
+type: public

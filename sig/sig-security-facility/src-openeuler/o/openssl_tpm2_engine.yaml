@@ -1,0 +1,19 @@
+name: openssl_tpm2_engine
+description: OpenSSL TPM 2.0 interface engine plugin
+upstream: https://git.kernel.org/pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine.git/
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-21.03
+  type: protected
+  create_from: master
+- name: openEuler-21.09
+  type: protected
+  create_from: master
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: openEuler-21.09
+type: public

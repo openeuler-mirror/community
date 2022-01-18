@@ -1,0 +1,13 @@
+name: ibis
+description: Ibis is a toolbox to bridge the gap between local Python environments,
+  remote storage, execution systems like Hadoop components (HDFS, Impala, Hive, Spark)
+  and SQL databases. Its goal is to simplify analytical workflows and make you more
+  productive.
+upstream: https://github.com/ibis-project/ibis
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

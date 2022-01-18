@@ -1,0 +1,9 @@
+name: afterburn
+description: Afterburn is a one-shot agent for cloud-like platforms which interacts
+  with provider-specific metadata endpoints. It is typically used in conjunction with
+  Ignition.
+upstream: https://github.com/coreos/afterburn
+branches:
+- name: master
+  type: protected
+type: public

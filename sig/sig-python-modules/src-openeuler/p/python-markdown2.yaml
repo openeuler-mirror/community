@@ -1,0 +1,10 @@
+name: python-markdown2
+upstream: https://github.com/trentm/python-markdown2
+description: A fast and complete Python implementation of Markdown
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

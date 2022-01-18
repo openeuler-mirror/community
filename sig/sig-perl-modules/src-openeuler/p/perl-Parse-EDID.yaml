@@ -1,0 +1,10 @@
+name: perl-Parse-EDID
+upstream: http://search.cpan.org/dist/Parse-EDID/
+description: Extended display identification data (EDID) parser
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

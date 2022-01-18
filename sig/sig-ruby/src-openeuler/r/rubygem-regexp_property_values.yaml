@@ -1,0 +1,9 @@
+name: rubygem-regexp_property_values
+description: This small library lets you see which property values are supported by
+  the regular expression engine of the Ruby version you are running, and what they
+  match.
+upstream: https://github.com/jaynetics/regexp_property_values
+branches:
+- name: master
+  type: protected
+type: public

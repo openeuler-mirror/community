@@ -1,0 +1,10 @@
+name: perl-Error-Pure
+upstream: http://search.cpan.org/dist/Error-Pure/
+description: Error
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

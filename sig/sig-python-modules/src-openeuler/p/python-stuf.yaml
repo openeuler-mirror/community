@@ -1,0 +1,11 @@
+name: python-stuf
+upstream: https://bitbucket.org/lcrees/stuf
+description: Normal, default, ordered, chained, restricted, counter, and frozen dictionaries
+  with attribute-style access.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

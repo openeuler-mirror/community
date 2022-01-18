@@ -1,0 +1,11 @@
+name: wine
+description: allow Apps developed for Microsoft Windows to run on Unix-like operating
+  systems
+upstream: https://github.com/wine-mirror/wine
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

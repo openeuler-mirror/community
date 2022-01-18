@@ -1,0 +1,11 @@
+name: python-autopep8
+upstream: https://github.com/hhatto/autopep8
+description: A tool that automatically formats Python code to conform to the PEP 8
+  style guide
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

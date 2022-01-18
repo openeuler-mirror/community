@@ -1,0 +1,10 @@
+name: perl-Class-C3
+upstream: http://search.cpan.org/dist/Class-C3/
+description: Pragma to use the C3 method resolution order algorithm
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

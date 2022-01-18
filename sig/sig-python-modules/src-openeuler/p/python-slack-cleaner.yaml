@@ -1,0 +1,10 @@
+name: python-slack-cleaner
+upstream: https://github.com/sgratzl/slack-cleaner
+description: Bulk delete messages/files on Slack.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

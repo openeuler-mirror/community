@@ -1,0 +1,10 @@
+name: python-Flask-Admin
+upstream: https://github.com/flask-admin/flask-admin/
+description: Simple and extensible admin interface framework for Flask
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

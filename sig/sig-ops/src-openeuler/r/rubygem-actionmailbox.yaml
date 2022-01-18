@@ -1,0 +1,7 @@
+name: rubygem-actionmailbox
+description: Receive and process incoming emails in Rails.
+upstream: https://github.com/rails/rails
+branches:
+- name: master
+  type: protected
+type: public

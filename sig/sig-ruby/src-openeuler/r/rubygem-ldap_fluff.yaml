@@ -1,0 +1,7 @@
+name: rubygem-ldap_fluff
+upstream: https://github.com/theforeman/ldap_fluff
+description: Simple library for binding & group querying on top of various LDAP implementations
+branches:
+- name: master
+  type: protected
+type: public

@@ -1,0 +1,11 @@
+name: python-pluginbase
+upstream: http://github.com/mitsuhiko/pluginbase
+description: PluginBase is a module for Python that enables the development of flexible
+  plugin systems in Python.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

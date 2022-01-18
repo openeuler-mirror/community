@@ -1,0 +1,7 @@
+name: libftdi
+upstream: https://www.intra2net.com/en/developer/libftdi/index.php
+description: Library to program and control the FTDI USB controller
+branches:
+- name: master
+  type: protected
+type: public

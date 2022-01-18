@@ -1,0 +1,10 @@
+name: python-Flask-Silk
+upstream: http://github.com/sublee/flask-silk
+description: Adds silk icons to your Flask application or blueprint, or extension.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

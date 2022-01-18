@@ -1,0 +1,11 @@
+name: python-QtPy
+upstream: https://github.com/spyder-ide/qtpy
+description: Provides an abstraction layer on top of the various Qt bindings (PyQt5,
+  PyQt4 and PySide) and additional custom QWidgets.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

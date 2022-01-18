@@ -13,14 +13,6 @@ maintainers:
   name: Hu Feng
   organization: Huawei
   email: solar.hu@huawei.com
-- gitee_id: Gongchen
-  name: Chen Gong
-  organization: Huawei
-  email: chengong15@huawei.com
-- gitee_id: yaqiangchen
-  name: Chen Yaqiang
-  organization: Huawei
-  email: chenyaqiang@huawei.com
 - gitee_id: cmss_dx
   name: Ding Xiang
   organization: China Mobile
@@ -37,6 +29,14 @@ maintainers:
   name: Lu Zhihao
   organization: Huawei
   email: luzhihao@huawei.com
+- gitee_id: Lostwayzxc
+  name: Luo Shengwei
+  organization: Huawei
+  email: luoshengwei@huawei.com
+- gitee_id: yangzhao_kl
+  name: Yang Zhao
+  organization: Kylin
+  email: yangzhao1@kylinos.cn
 
 repositories:
 - repo: openeuler/nvwa
@@ -84,6 +84,15 @@ repositories:
 - repo: src-openeuler/rubygem-jquery-ui-rails
 - repo: src-openeuler/rubygem-deacon
 - repo: src-openeuler/rubygem-coffee-rails
+- repo: src-openeuler/rubygem-faraday-em_http
+- repo: src-openeuler/rubygem-faraday-em_synchrony
+- repo: src-openeuler/rubygem-faraday-excon
+- repo: src-openeuler/rubygem-faraday-httpclient
+- repo: src-openeuler/rubygem-faraday-net_http
+- repo: src-openeuler/rubygem-faraday-net_http_persistent
+- repo: src-openeuler/rubygem-faraday-patron
+- repo: src-openeuler/rubygem-faraday-rack
+- repo: src-openeuler/rubygem-ruby2_keywords
 - repo: src-openeuler/puppet-agent-puppet-strings
 - repo: src-openeuler/python-treelib
 - repo: src-openeuler/nodejs-url-loader
@@ -91,3 +100,5 @@ repositories:
 - repo: src-openeuler/nodejs-node-sass
 - repo: src-openeuler/nodejs-jed
 - repo: src-openeuler/nodejs-intl
+- repo: src-openeuler/rubygem-fluent-plugin-elasticsearch
+- repo: src-openeuler/rubygem-elasticsearch-ruby

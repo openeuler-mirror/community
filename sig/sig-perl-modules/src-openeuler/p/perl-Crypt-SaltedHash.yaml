@@ -1,0 +1,10 @@
+name: perl-Crypt-SaltedHash
+upstream: http://search.cpan.org/dist/Crypt-SaltedHash/
+description: Perl interface to functions that assist in working with salted hashes
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

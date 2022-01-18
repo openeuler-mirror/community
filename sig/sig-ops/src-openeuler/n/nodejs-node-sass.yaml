@@ -1,0 +1,10 @@
+name: nodejs-node-sass
+upstream: https://github.com/sass/node-sass
+description: 'Warning: LibSass and Node Sass are deprecated. While they will continue
+  to receive maintenance releases indefinitely, there are no plans to add additional
+  features or compatibility with any new CSS or Sass features. Projects that still
+  use it should move onto Dart Sass.'
+branches:
+- name: master
+  type: protected
+type: public

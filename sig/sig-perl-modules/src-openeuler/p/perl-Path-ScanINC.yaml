@@ -1,0 +1,10 @@
+name: perl-Path-ScanINC
+upstream: http://search.cpan.org/dist/Path-ScanINC/
+description: Emulate Perls internal handling of @INC
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

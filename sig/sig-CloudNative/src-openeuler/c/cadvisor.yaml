@@ -1,0 +1,7 @@
+name: cadvisor
+description: Analyzes resource usage and performance characteristics of running containers.
+upstream: https://github.com/google/cadvisor
+branches:
+- name: master
+  type: protected
+type: public

@@ -1,0 +1,10 @@
+name: keybinder
+description: A library for registering global keyboard shortcuts
+upstream: https://github.com/kupferlauncher/keybinder
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

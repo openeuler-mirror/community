@@ -1,0 +1,19 @@
+name: python-elasticsearch2
+description: Python client for Elasticsearch
+upstream: https://github.com/elastic/elasticsearch-py
+branches:
+- name: master
+  type: protected
+- name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+  type: protected
+  create_from: master
+- name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
+  type: protected
+  create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-20.03-LTS-SP3
+  type: protected
+  create_from: openEuler-20.03-LTS-Next
+type: public

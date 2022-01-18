@@ -1,0 +1,8 @@
+name: osrf_pycommon
+description: Commonly needed Python modules, used by Python software developed at
+  OSRF.
+upstream: https://github.com/osrf/osrf_pycommon.git
+branches:
+- name: master
+  type: protected
+type: public

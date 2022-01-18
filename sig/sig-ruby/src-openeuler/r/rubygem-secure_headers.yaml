@@ -1,0 +1,7 @@
+name: rubygem-secure_headers
+upstream: https://github.com/github/secure_headers
+description: Manages application of security headers with many safe defaults.
+branches:
+- name: master
+  type: protected
+type: public

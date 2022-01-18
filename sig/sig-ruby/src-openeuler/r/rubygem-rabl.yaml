@@ -1,0 +1,7 @@
+name: rubygem-rabl
+upstream: https://github.com/nesquena/rabl
+description: General ruby templating with json, bson, xml and msgpack support.
+branches:
+- name: master
+  type: protected
+type: public

@@ -1,0 +1,10 @@
+name: perl-Version-Requirements
+upstream: http://search.cpan.org/dist/Version-Requirements/
+description: Set of version requirements for a CPAN dist
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

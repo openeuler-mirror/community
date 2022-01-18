@@ -1,0 +1,8 @@
+name: gffread
+upstream: https://github.com/gpertea/gffread
+description: GFF/GTF utility providing format conversions, region filtering, FASTA
+  sequence extraction and more.
+branches:
+- name: master
+  type: protected
+type: public

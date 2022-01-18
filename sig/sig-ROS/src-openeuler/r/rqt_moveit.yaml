@@ -1,0 +1,8 @@
+name: rqt_moveit
+description: An rqt-based tool that assists monitoring tasks for MoveIt! motion planner
+  developers and users.
+upstream: https://github.com/ros-visualization/rqt_moveit
+branches:
+- name: master
+  type: protected
+type: public

@@ -1,0 +1,10 @@
+name: python-grabbit
+upstream: http://github.com/grabbles/grabbit
+description: get grabby with file trees
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

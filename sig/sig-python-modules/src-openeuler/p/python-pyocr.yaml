@@ -1,0 +1,10 @@
+name: python-pyocr
+upstream: https://gitlab.gnome.org/World/OpenPaperwork/pyocr
+description: A Python wrapper for OCR engines (Tesseract, Cuneiform, etc)
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

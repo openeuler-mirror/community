@@ -1,0 +1,31 @@
+name: python-ryu
+description: Ryu component-based software defined networking framework
+upstream: https://github.com/faucetsdn/ryu
+branches:
+- name: master
+  type: protected
+- name: oepkg_openstack-queens_oe-20.03-LTS-SP2
+  type: protected
+  create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
+- name: oepkg_openstack-rocky_oe-20.03-LTS-SP2
+  type: protected
+  create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
+- name: oepkg_openstack-queens_oe-20.03-LTS-Next
+  type: protected
+  create_from: master
+- name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+  type: protected
+  create_from: master
+- name: oepkg_openstack-queens_oe-20.03-LTS-SP1
+  type: protected
+  create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
+- name: oepkg_openstack-rocky_oe-20.03-LTS-SP1
+  type: protected
+  create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
+- name: oepkg_openstack-queens_oe-20.03-LTS-SP3
+  type: protected
+  create_from: oepkg_openstack-queens_oe-20.03-LTS-Next
+- name: oepkg_openstack-rocky_oe-20.03-LTS-SP3
+  type: protected
+  create_from: oepkg_openstack-rocky_oe-20.03-LTS-Next
+type: public

@@ -1,0 +1,10 @@
+name: perl-CGI-Ex
+upstream: http://search.cpan.org/dist/CGI-Ex/
+description: CGI utility suite - makes powerful application writing fun and easy
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

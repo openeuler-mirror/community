@@ -1,0 +1,10 @@
+name: perl-Lingua-EN-Numbers
+upstream: http://search.cpan.org/dist/Lingua-EN-Numbers/
+description: Turn "407" into "four hundred and seven", etc
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

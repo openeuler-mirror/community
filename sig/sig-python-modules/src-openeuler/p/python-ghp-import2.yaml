@@ -1,0 +1,10 @@
+name: python-ghp-import2
+upstream: https://github.com/ionelmc/python-ghp-import
+description: A GitHub Pages import tool.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

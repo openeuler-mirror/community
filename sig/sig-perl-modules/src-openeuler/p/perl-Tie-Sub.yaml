@@ -1,0 +1,10 @@
+name: perl-Tie-Sub
+upstream: http://search.cpan.org/dist/Tie-Sub/
+description: Tying a subroutine, function or method to a hash
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

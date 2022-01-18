@@ -1,0 +1,10 @@
+name: python-bz2file
+upstream: https://github.com/nvawda/bz2file
+description: Read and write bzip2-compressed files.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

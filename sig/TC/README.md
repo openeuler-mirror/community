@@ -1,22 +1,47 @@
 # 技术委员会
 
 openEuler技术委员会（Technical Committee，以下和TC互换使用）是openEuler社区的技术决策机构，负责社区技术决策和技术资源的协调。
-当期TC委员（含主席）经过扩选，为17人，任期一年。
+当期TC委员（含主席）经过扩选，为19人，任期一年。
 
 # 组织会议
 
 - 公开的会议时间：当前TC在北京时间，每双周周三的上午10:00召开公开的例行线上讨论会议。
-- 具体会议参会方式，会提前一天在邮件列表中讨论确定。目前主要采用华为公司提供的welink语音会议系统。
-- TC会议的例行议题包括：
-    +   对新的SIG申请进行评审
-    +   对openEuler新增软件进行评审
-    +   通报用户反馈，并讨论如何响应
-    +   审视原创项目运作情况（一次会议审视一个项目）
-    +   其他议题由TC成员在会前邮件发起
-    +   议题收集和整理通过 https://gitee.com/openeuler/community/tree/master/zh/technical-committee/next-meeting-topics.md 公开
+- 具体会议参会方式，会提前一天在邮件列表中讨论确定。线上会议通过Zoom系统进行，全程录像并归档。
+- TC会议的议题包括但不限于：
+    +  讨论决策 openEuler 社区的技术发展方向和愿景
+    +  讨论决策 openEuler SIG 的成立或撤销，审视和辅导 SIG 组的日常工作，审视 SIG 组 maintainer 的履职情况，协调 SIG 间技术合作
+    +  讨论和决策 openEuler 社区的技术事项
+    +  讨论社区用户的共性反馈，并协调社区资源响应
+    +  其他对社区有重要影响的技术工作
+    +  负责会议组织的轮值委员进行议题收集和整理，议题收集的过程和结果都在邮件列表公开。
 - 欢迎任何感兴趣的开发者参加旁听
 
-# 目前TC成员 （2021年）
+# 目前TC成员 
+
+以下姓氏拼音排序
+
+- 卞乃猛<bian_naimeng@hoperun.com> [[@biannm](https://gitee.com/biannm)]
+- 陈祺德<dillon.chen@gmail.com> [[@dillon_chen](https://gitee.com/dillon_chen)]
+- 曹  志<george.cao@huawei.com> [[@georgecao](https://gitee.com/georgecao)]
+- 侯  健<houjian@kylinos.cn> [[@hjimmy](https://gitee.com/hjimmy)]
+- 胡  峰<solar.hu@huawei.com> [[@solarhu](https://gitee.com/solarhu)]
+- 胡欣蔚<huxinwei@huawei.com> [[@shinwell_hu](https://gitee.com/shinwell_hu)]
+- 刘寿永<liusy@thundersoft.com> [[@pangbanme](https://gitee.com/pangbanme)]
+- 李永强<liyongqiang10@huawei.com> [[@charlie_li](https://gitee.com/charlie_li)]
+- 石  勇<shiyong@kylinos.com.cn> [[@stonefly128](https://gitee.com/stonefly128)]
+- 王建民<jianmin@iscas.ac.cn> [[@jianminw](https://gitee.com/jianminw)]
+- 王志钢<wangzhigang17@huawei.com>  [[@cellfaint](https://gitee.com/cellfaint)]
+- 彭成寒<pengch81@hotmail.com> [[@pengryan](https://gitee.com/pengryan)]
+- 任  慰<renwei41@huawei.com> [[@vonhust](https://gitee.com/vonhust)]
+- 吴峰光<wufengguang@huawei.com> [[@wu_fengguang](https://gitee.com/wu_fengguang)]
+- 王伶卓<relue0z@outlook.com> [[@relue0z](https://gitee.com/relue0z)]
+- 魏  刚<11015100@qq.com> [[@gwei3](https://gitee.com/gwei3)]
+- 谢秀奇<xiexiuqi@huawei.com> [[@xiexiuqi](https://gitee.com/xiexiuqi)]
+- 熊  伟<xiongwei888@huawei.com> [[@myeuler](https://gitee.com/myeuler)]
+- 叶青龙<yeqinglong@uniontech.com> [[@yeqinglong01](https://gitee.com/yeqinglong01)]
+
+
+# 2021 届 TC成员
 
 以下姓氏拼音排序
 
@@ -29,7 +54,7 @@ openEuler技术委员会（Technical Committee，以下和TC互换使用）是op
 - 刘金刚<liujingang09@huawei.com> [[@liujingang09](https://gitee.com/liujingang09)]
 - 李永强<liyongqiang10@huawei.com> [[@charlie_li](https://gitee.com/charlie_li)]
 - 马全一<eli@patch.sh> [[@genedna](https://gitee.com/genedna)]
-- 石  勇<shiyong@kylinos.com.cn> [[@stonefly](https://gitee.com/stonefly)]
+- 石  勇<shiyong@kylinos.com.cn> [[@stonefly128](https://gitee.com/stonefly128)]
 - 王建民<jianmin@iscas.ac.cn> [[@jianminw](https://gitee.com/jianminw)]
 - 王志钢<wangzhigang17@huawei.com>  [[@cellfaint](https://gitee.com/cellfaint)]
 - 彭成寒<pengch81@hotmail.com> [[@pengryan](https://gitee.com/pengryan)]

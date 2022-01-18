@@ -1,0 +1,10 @@
+name: python-py2pack
+upstream: http://github.com/openSUSE/py2pack
+description: Generate distribution packages from PyPI
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

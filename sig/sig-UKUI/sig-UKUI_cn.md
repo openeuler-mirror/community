@@ -64,13 +64,12 @@ https://gitee.com/openeuler/community/tree/master/sig/sig-UKUI/
 
 ### Maintainers
 - handsome_feng
-- lmq3342xja
 - dou33
+- tanyulong2021
 
 ### Committers
-- xianmaxianmai
-- litianzhi_kylin
-- zjay998
+- hua_yadong
+- pei-jiankang
 
 ### 邮件列表
 - dev@openeuler.org

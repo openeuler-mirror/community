@@ -1,0 +1,10 @@
+name: perl-Excel-Writer-XLSX
+upstream: http://search.cpan.org/dist/Excel-Writer-XLSX/
+description: Create a new file in the Excel 2007+ XLSX format
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

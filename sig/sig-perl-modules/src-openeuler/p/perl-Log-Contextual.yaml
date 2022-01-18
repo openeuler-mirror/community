@@ -1,0 +1,10 @@
+name: perl-Log-Contextual
+upstream: http://search.cpan.org/dist/Log-Contextual/
+description: Simple logging interface with a contextual log
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public

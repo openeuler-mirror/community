@@ -1,0 +1,10 @@
+name: python-ipgetter2
+upstream: https://github.com/starofrainnight/ipgetter2
+description: Utility to fetch your external IP address
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: protected
+  create_from: master
+type: public
