@@ -55,6 +55,10 @@ English | [简体中文](./sig-KIRAN-DESKTOP_cn.md)
 - https://gitee.com/src-openeuler/kiran-cpanel-menu
 - https://gitee.com/src-openeuler/kiran-cpanel-mouse
 - https://gitee.com/src-openeuler/kiran-cpanel-timedate
+- https://gitee.com/src-openeuler/kiran-cpanel-appearance
+- https://gitee.com/src-openeuler/kiran-cpanel-keyboard
+- https://gitee.com/src-openeuler/kiran-cpanel-keybinding
+- https://gitee.com/src-openeuler/kiran-cpanel-power
 - https://gitee.com/src-openeuler/kiran-panel
 - https://gitee.com/src-openeuler/kiran-session-manager
 - https://gitee.com/src-openeuler/kiran-widgets-qt5
@@ -62,6 +66,9 @@ English | [简体中文](./sig-KIRAN-DESKTOP_cn.md)
 - https://gitee.com/src-openeuler/libcutl
 - https://gitee.com/src-openeuler/xsd
 - https://gitee.com/src-openeuler/kiran-desktop
+- https://gitee.com/src-openeuler/kiran-calculator
+- https://gitee.com/src-openeuler/kiran-session-guard
+- https://gitee.com/src-openeuler/kiran-screensaver
 
 ## Basic Information
 

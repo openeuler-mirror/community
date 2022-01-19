@@ -27,17 +27,7 @@ committers:
   email: tangjie02@kylinos.com.cn
 repositories:
 - repo: src-openeuler/kiran-avatar-editor
-  additional_contributors:
-  - gitee_id: liuxinhao
-    name: liuxinhao
-    ornization: KylinSec OS
-    email: liuxinhao@kylinos.com.cn
 - repo: src-openeuler/kiran-calendar
-  additional_contributors:
-  - gitee_id: wangxiaoqing987
-    name: wangxiaoqing
-    ornization: KylinSec OS
-    email: wangxiaoqing@kylinos.com.cn
 - repo: src-openeuler/kiran-gtk-theme
 - repo: src-openeuler/kiran-icon-theme
 - repo: src-openeuler/kiran-themes
@@ -58,6 +48,10 @@ repositories:
 - repo: src-openeuler/kiran-cpanel-menu
 - repo: src-openeuler/kiran-cpanel-mouse
 - repo: src-openeuler/kiran-cpanel-timedate
+- repo: src-openeuler/kiran-cpanel-appearance
+- repo: src-openeuler/kiran-cpanel-keyboard
+- repo: src-openeuler/kiran-cpanel-keybinding
+- repo: src-openeuler/kiran-cpanel-power
 - repo: src-openeuler/kiran-panel
 - repo: src-openeuler/kiran-session-manager
 - repo: src-openeuler/kiran-widgets-qt5
@@ -65,3 +59,6 @@ repositories:
 - repo: src-openeuler/libcutl
 - repo: src-openeuler/xsd
 - repo: src-openeuler/kiran-desktop
+- repo: src-openeuler/kiran-calculator
+- repo: src-openeuler/kiran-session-guard
+- repo: src-openeuler/kiran-screensaver

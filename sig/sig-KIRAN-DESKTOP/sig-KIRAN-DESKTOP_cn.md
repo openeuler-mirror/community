@@ -30,7 +30,7 @@ KIRAN-DESKTOP SIG小组致力于将KIRAN-DESKTOP 引入至 openEuler 社区中�
 
 - 项目名称：KIRAN-DESKTOP
   相关软件包的仓库：
-- https://gitee.com/src-openeuler/kiran-avatar-editor 
+- https://gitee.com/src-openeuler/kiran-avatar-editor
 - https://gitee.com/src-openeuler/kiran-gtk-theme
 - https://gitee.com/src-openeuler/kiran-icon-theme
 - https://gitee.com/src-openeuler/kiran-menu
@@ -52,6 +52,10 @@ KIRAN-DESKTOP SIG小组致力于将KIRAN-DESKTOP 引入至 openEuler 社区中�
 - https://gitee.com/src-openeuler/kiran-cpanel-menu
 - https://gitee.com/src-openeuler/kiran-cpanel-mouse
 - https://gitee.com/src-openeuler/kiran-cpanel-timedate
+- https://gitee.com/src-openeuler/kiran-cpanel-appearance
+- https://gitee.com/src-openeuler/kiran-cpanel-keyboard
+- https://gitee.com/src-openeuler/kiran-cpanel-keybinding
+- https://gitee.com/src-openeuler/kiran-cpanel-power
 - https://gitee.com/src-openeuler/kiran-panel
 - https://gitee.com/src-openeuler/kiran-session-manager
 - https://gitee.com/src-openeuler/kiran-widgets-qt5
@@ -59,6 +63,9 @@ KIRAN-DESKTOP SIG小组致力于将KIRAN-DESKTOP 引入至 openEuler 社区中�
 - https://gitee.com/src-openeuler/libcutl
 - https://gitee.com/src-openeuler/xsd
 - https://gitee.com/src-openeuler/kiran-desktop
+- https://gitee.com/src-openeuler/kiran-calculator
+- https://gitee.com/src-openeuler/kiran-session-guard
+- https://gitee.com/src-openeuler/kiran-screensaver
 
 ## SIG基本信息
 
