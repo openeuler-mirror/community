@@ -489,7 +489,7 @@ def check_100_v3(changed_repos, oe_repos, src_oe_repos, super_visor, community_d
 
     for repo in changed_repos:
         status, sig_name, prefix, repo_name = repo
-        if status == 'A' or status == 'R' or status == 'M':
+        if status == 'A' or status == 'R': # or status == 'M': # we dont think M as newly changed.
             print("INFO: adding " + repo_name + " to SIG " + sig_name)
             if prefix == "openeuler":
                 r = oe_dict.get(repo_name)
