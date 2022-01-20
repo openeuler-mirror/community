@@ -1,0 +1,7 @@
+name: stalld
+description: The stalld program is a mechanism to prevent the starvation of operating system threads in a Linux system.
+upstream: https://gitlab.com/rt-linux-tools/stalld
+branches:
+- name: master
+  type: protected
+type: public

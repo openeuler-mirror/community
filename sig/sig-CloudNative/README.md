@@ -100,6 +100,7 @@ repository地址：
 - https://gitee.com/src-openeuler/zram-generator
 - https://gitee.com/src-openeuler/iSulad-img
 - https://gitee.com/src-openeuler/protobuf
+- https://gitee.com/src-openeuler/stalld
 - https://gitee.com/src-openeuler/zchunk
 - https://gitee.com/src-openeuler/busybox
 - https://gitee.com/src-openeuler/libevhtp
