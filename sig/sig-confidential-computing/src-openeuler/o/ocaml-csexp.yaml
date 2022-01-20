@@ -1,0 +1,12 @@
+name: ocaml-csexp
+description: This project provides minimal support for parsing and
+  printing S-expressions in canonical form, which is a very simple and
+  canonical binary encoding of S-expressions.
+upstream: https://github.com/ocaml-dune/csexp
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
