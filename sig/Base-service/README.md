@@ -58,7 +58,6 @@ repository地址：
   - src-openeuler/bash
   - src-openeuler/bash-completion
   - src-openeuler/bc
-  - src-openeuler/binutils
   - src-openeuler/bison
   - src-openeuler/brotli
   - src-openeuler/bubblewrap
