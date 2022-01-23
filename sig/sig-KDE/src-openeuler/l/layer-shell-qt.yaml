@@ -1,0 +1,10 @@
+name: layer-shell-qt
+description: Library to easily use clients based on wlr-layer-shell.
+upstream: https://invent.kde.org/plasma/layer-shell-qt
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
