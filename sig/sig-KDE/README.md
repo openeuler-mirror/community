@@ -85,3 +85,14 @@ repository地址：
   - https://gitee.com/src-openeuler/plasma-breeze
   - https://gitee.com/src-openeuler/openEuler-menus
   - https://gitee.com/openeuler/openEuler-menus
+  - https://gitee.com/src-openeuler/kdevelop
+  - https://gitee.com/src-openeuler/kdevelopkdevelop-pg-qt
+  - https://gitee.com/src-openeuler/kf5-knotifyconfig
+  - https://gitee.com/src-openeuler/kf5-krunner
+  - https://gitee.com/src-openeuler/kf5-ktexteditor
+  - https://gitee.com/src-openeuler/kf5-threadweaver
+  - https://gitee.com/src-openeuler/libkomparediff2
+  - https://gitee.com/src-openeuler/libksysguard
+  - https://gitee.com/src-openeuler/okteta
+  - https://gitee.com/src-openeuler/qca
+  
