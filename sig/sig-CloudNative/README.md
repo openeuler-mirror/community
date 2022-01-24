@@ -111,7 +111,7 @@ repository地址：
 - https://gitee.com/src-openeuler/toolbox
 - https://gitee.com/src-openeuler/zincati
 - https://gitee.com/src-openeuler/fuse-overlayfs
-
+- https://gitee.com/src-openeuler/ssh-key-dir
 
 roadmap:
 ```
