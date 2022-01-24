@@ -1,0 +1,8 @@
+name: rt-tests
+description: This repository contains some programs that test various rt-linux features.
+upstream: https://git.kernel.org/pub/scm/utils/rt-tests/rt-tests.git
+branches:
+- name: master
+  type: protected
+type: public
+

@@ -1,0 +1,8 @@
+name: rtcheck
+description: The rtcheck program is an application that tests the running system for real-time capabilities.
+upstream: http://git.altlinux.org/gears/r/rtcheck.git
+branches:
+- name: master
+  type: protected
+type: public
+
