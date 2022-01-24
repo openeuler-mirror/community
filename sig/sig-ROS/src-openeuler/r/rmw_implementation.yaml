@@ -1,0 +1,7 @@
+name: rmw_implementation
+description: CMake infrastructure and dependencies for rmw implementations.
+upstream: https://github.com/ros2/rmw_implementation.git
+branches:
+- name: master
+  type: protected
+type: public

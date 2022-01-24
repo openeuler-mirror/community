@@ -1,0 +1,7 @@
+name: rcl_logging
+description: Logging implementations for ROS 2.
+upstream: https://github.com/ros2/rcl_logging.git
+branches:
+- name: master
+  type: protected
+type: public
