@@ -1,0 +1,7 @@
+name: libslirp
+description: A general purpose TCP-IP emulator used by virtual machine hypervisors to provide virtual networking services.
+upstream: https://gitlab.freedesktop.org/slirp/libslirp
+branches:
+- name: master
+  type: protected
+type: public
