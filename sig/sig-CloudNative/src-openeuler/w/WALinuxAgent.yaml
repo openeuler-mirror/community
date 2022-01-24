@@ -1,0 +1,7 @@
+name: WALinuxAgent
+description:  The Microsoft Azure Linux Agent.
+upstream: https://github.com/Azure/WALinuxAgent
+branches:
+- name: master
+  type: protected
+type: public
