@@ -1,0 +1,8 @@
+name: kiran-authentication-service
+description: Kiran authentication service is used to do system auth with password, fingerprint, face
+upstream: https://gitee.com/kylinsecos/kiran-authentication-service
+branches:
+- name: master
+  type: protected
+type: public
+

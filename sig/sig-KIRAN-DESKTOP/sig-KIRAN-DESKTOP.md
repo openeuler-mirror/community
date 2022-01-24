@@ -69,6 +69,8 @@ English | [简体中文](./sig-KIRAN-DESKTOP_cn.md)
 - https://gitee.com/src-openeuler/kiran-calculator
 - https://gitee.com/src-openeuler/kiran-session-guard
 - https://gitee.com/src-openeuler/kiran-screensaver
+- https://gitee.com/src-openeuler/kiran-authentication-service
+- https://gitee.com/src-openeuler/kiran-biometrics
 
 ## Basic Information
 
