@@ -33,10 +33,11 @@ openEuler集成依赖了上游数千个开源组件，组件和组件之间也�
 
 - 高琨[@king-gao](https://gitee.com/king-gao),*king.gao@huawei.com*
 - 马全一[@genedna](https://gitee.com/genedna),*eli@patch.sh*
-- 石勇[@stonefly128](https://gitee.com/stonefly128),*shiyong@kylinos.com.cn*
 - 魏建刚[@bugflyfly](https://gitee.com/bugflyfly),*wei_jiangang@hoperun.com*
 - 郑志鹏[@alec-z](https://gitee.com/alec-z), *zhengzhipeng4@huawei.com*
 - 杨聪[@smartsyoung](https://gitee.com/smartsyoung), *yangcong11@huawei.com*
+- 许渊聪[@sectrend_xyc](https://gitee.com/sectrend_xyc), *yuancong.xu@sectrend.com.cn*
+- 王悦良[@wangyueliang](https://gitee.com/wangyueliang), *wangyueliang@kylinos.cn*
 
 ### Committer列表
 
