@@ -85,6 +85,7 @@ repository地址：
 - https://gitee.com/src-openeuler/gvisor
 - https://gitee.com/src-openeuler/afterburn
 - https://gitee.com/src-openeuler/cri-o
+- https://gitee.com/src-openeuler/WALinuxAgent
 - https://gitee.com/src-openeuler/cri-tools
 - https://gitee.com/src-openeuler/alertmanager
 - https://gitee.com/src-openeuler/node_exporter
