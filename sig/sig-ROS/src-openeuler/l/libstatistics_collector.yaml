@@ -1,0 +1,8 @@
+name: libstatistics_collector
+description: ROS 2 library providing classes to collect measurements and calculate statistics across them.
+  messages.
+upstream: https://github.com/ros-tooling/libstatistics_collector.git
+branches:
+- name: master
+  type: protected
+type: public

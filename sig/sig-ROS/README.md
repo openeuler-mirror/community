@@ -205,3 +205,25 @@ repository地址：
 - https://gitee.com/src-openeuler/rosidl_typesupport
 - https://gitee.com/src-openeuler/yaml_cpp_vendor
 - https://gitee.com/src-openeuler/rcutilsl
+- https://gitee.com/src-openeuler/rmw_implementation
+- https://gitee.com/src-openeuler/rcl_logging
+- https://gitee.com/src-openeuler/rmw_fastrtps
+- https://gitee.com/src-openeuler/ros_testing
+- https://gitee.com/src-openeuler/rmw_connext
+- https://gitee.com/src-openeuler/rosidl_typesupport_connext
+- https://gitee.com/src-openeuler/rosidl_typesupport_fastrtps
+- https://gitee.com/src-openeuler/rosidl_runtime_py
+- https://gitee.com/src-openeuler/ros2_tracing
+- https://gitee.com/src-openeuler/common_interfaces
+- https://gitee.com/src-openeuler/realtime_support
+- https://gitee.com/src-openeuler/libstatistics_collector
+- https://gitee.com/src-openeuler/rclcpp
+- https://gitee.com/src-openeuler/rcl
+- https://gitee.com/src-openeuler/ros2cli
+- https://gitee.com/src-openeuler/ros2cli_common_extensions
+
+项目名称：non-ROS
+
+repository地址：
+
+- https://gitee.com/src-openeuler/python-robotframework

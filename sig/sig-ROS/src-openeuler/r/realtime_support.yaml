@@ -1,0 +1,7 @@
+name: realtime_support
+description: Minimal real-time testing utility for measuring jitter and latency.
+upstream: https://github.com/ros2/realtime_support.git
+branches:
+- name: master
+  type: protected
+type: public

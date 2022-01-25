@@ -1,0 +1,7 @@
+name: ros2cli_common_extensions
+description: Meta package for ros2cli common extensions.
+upstream: https://github.com/ros2/ros2cli_common_extensions.git
+branches:
+- name: master
+  type: protected
+type: public
