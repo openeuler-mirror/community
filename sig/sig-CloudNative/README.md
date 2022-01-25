@@ -81,6 +81,7 @@ repository地址：
 - https://gitee.com/src-openeuler/etcd
 - https://gitee.com/src-openeuler/cadvisor
 - https://gitee.com/src-openeuler/crun
+- https://gitee.com/src-openeuler/libslirp
 - https://gitee.com/src-openeuler/containers-common
 - https://gitee.com/src-openeuler/gvisor
 - https://gitee.com/src-openeuler/afterburn
