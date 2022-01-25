@@ -1,0 +1,7 @@
+name: fuse-sshfs
+description:  FUSE-Filesystem to access remote filesystems via SSH.
+upstream: https://github.com/libfuse/sshfs
+branches:
+- name: master
+  type: protected
+type: public
