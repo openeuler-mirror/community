@@ -22,6 +22,7 @@ You can find [Release management SIG meeting minutes](https://gitee.com/openeule
 - Hu Feng [@solarhu](https://gitee.com/solarhu)
 - Zhu Yanpeng [@zyp-rock](https://gitee.com/zyp-rock)
 - Chen Yaqiang [@chenyaqiang](https://gitee.com/chenyaqiang)
+- Huang Chengpiao [@paul-huang](https://gitee.com/paul-huang)
 
 **Extended member: **
 - Ming Pei [@dolphin-m](https://gitee.com/dolphin-m)
