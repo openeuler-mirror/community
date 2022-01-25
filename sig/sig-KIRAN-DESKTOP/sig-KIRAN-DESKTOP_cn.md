@@ -66,6 +66,8 @@ KIRAN-DESKTOP SIG小组致力于将KIRAN-DESKTOP 引入至 openEuler 社区中�
 - https://gitee.com/src-openeuler/kiran-calculator
 - https://gitee.com/src-openeuler/kiran-session-guard
 - https://gitee.com/src-openeuler/kiran-screensaver
+- https://gitee.com/src-openeuler/kiran-authentication-service
+- https://gitee.com/src-openeuler/kiran-biometrics
 
 ## SIG基本信息
 
