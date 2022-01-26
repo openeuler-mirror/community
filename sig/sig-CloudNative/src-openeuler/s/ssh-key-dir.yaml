@@ -1,0 +1,7 @@
+name: ssh-key-dir
+description: ssh-key-dir is an sshd AuthorizedKeysCommand that reads SSH authorized key files from a directory
+upstream: https://github.com/coreos/ssh-key-dir
+branches:
+- name: master
+  type: protected
+type: public
