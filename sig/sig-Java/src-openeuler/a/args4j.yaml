@@ -1,5 +1,6 @@
-name: bytelist
-description: ''
+name: args4j
+description: Java command line arguments parser
+upstream: http://args4j.kohsuke.org
 branches:
 - name: master
   type: protected
@@ -27,4 +28,4 @@ branches:
 - name: openEuler-22.03-LTS
   type: protected
   create_from: openEuler-22.03-LTS-Next
-type: private
+type: public
