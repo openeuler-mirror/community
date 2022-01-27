@@ -4,4 +4,7 @@ description: Use PageUp and PageDown to search for previous GNOME Shell commands
 branches:
 - name: master
   type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
 type: public
