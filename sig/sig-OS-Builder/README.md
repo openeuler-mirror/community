@@ -9,7 +9,7 @@
 ## sig-OS-Builder的业务范围
 1. 业务软件包维护，包括:  
 - openEuler的引导：grub2,、syslinux、 uboot等bootloader  
-- openEuler的安装：anaconda、python-blivet、pykickstart等  
+- openEuler的安装：anaconda、python-blivet、pykickstart、install-scripts等  
 - openEuler的升级：dnf、libdnf、libsolv等  
 - openEuler的构建：lorax、kiwi等  
 
@@ -66,3 +66,4 @@ repository地址：
  - [oemaker](https://gitee.com/openeuler/oemaker)
  - [ignition](https://gitee.com/src-openeuler/ignition)
  - [bootupd](https://gitee.com/src-openeuler/bootupd)
+ - [install-scripts](https://gitee.com/openeuler/install-scripts)
