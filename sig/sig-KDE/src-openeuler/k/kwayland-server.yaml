@@ -1,0 +1,10 @@
+name: kwayland-server
+description: Wayland server components built on KDE Frameworks.
+upstream: https://invent.kde.org/plasma/kwayland-server
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
