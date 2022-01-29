@@ -5,4 +5,7 @@ upstream: https://gitlab.freedesktop.org/gstreamer/gst-libav
 branches:
 - name: master
   type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
 type: public

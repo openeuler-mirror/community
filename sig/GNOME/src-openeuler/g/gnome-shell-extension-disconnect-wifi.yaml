@@ -5,4 +5,7 @@ description: Adds a Disconnect option for Wifi in status menu, when a network is
 branches:
 - name: master
   type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
 type: public
