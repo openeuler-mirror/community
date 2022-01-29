@@ -1,4 +1,4 @@
-# sig-Gagekeeper
+# sig-Gatekeeper
 
 用于描述新申请SIG计划工作的范围和目标，包括但不限于：
 
