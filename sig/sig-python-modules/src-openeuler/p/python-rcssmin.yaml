@@ -13,6 +13,9 @@ branches:
 - name: oepkg_openstack-common_oe-20.03-LTS-Next
   type: protected
   create_from: master
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
 - name: openEuler-20.03-LTS-SP3
   type: protected
   create_from: openEuler-20.03-LTS-Next
