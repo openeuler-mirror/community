@@ -1,6 +1,6 @@
-#/bin/env python3
+#!/usr/bin/python3
 # -*- encoding=utf8 -*-
-#******************************************************************************
+# ******************************************************************************
 # Copyright (c) Huawei Technologies Co., Ltd. 2020-2020. All rights reserved.
 # licensed under the Mulan PSL v2.
 # You can use this software according to the terms and conditions of the Mulan PSL v2.
@@ -71,27 +71,61 @@ class CheckBranch(object):
                 file_msg = yaml.load(f, Loader=yaml.FullLoader)
         return file_msg
 
+    @staticmethod
+    def get_current_branch():
+        return subprocess.getoutput("git branch | grep \\*").split(' ')[-1]
+
+    def get_master_repos_tree(self):
+        print('\nGet master repos tree')
+        master_repos_tree = []
+        current_branch = self.get_current_branch()
+        subprocess.call('git checkout master', shell=True)
+        for i in os.listdir('sig'):
+            if i in ['README.md', 'sig-template']:
+                continue
+            if 'openeuler' in os.listdir(os.path.join('sig', i)):
+                for filesdir, _, repos in os.walk(os.path.join('sig', i, 'openeuler')):
+                    for repo in repos:
+                        master_repos_tree.append(os.path.join(filesdir, repo))
+            if 'src-openeuler' in os.listdir(os.path.join('sig', i)):
+                for filesdir, _, src_repos in os.walk(os.path.join('sig', i, 'src-openeuler')):
+                    for src_repo in src_repos:
+                        master_repos_tree.append(os.path.join(filesdir, src_repo))
+        subprocess.call('git checkout {}'.format(current_branch), shell=True)
+        return master_repos_tree
+
     def _change_pkg(self, change_pkgs):
-        os.chdir(self.community_path)
+        master_repos_tree = self.get_master_repos_tree()
         for pkg in change_pkgs:
-            res = subprocess.call('git show remotes/origin/master:{0} > {0}.master 2>&1'.format(pkg), shell=True)
-            with open(pkg, 'r', encoding='utf-8') as f:
-                pkg_yaml = yaml.load(f.read(), Loader=yaml.Loader)
-                self.change_msg.append(pkg_yaml)
-            if res == 0:
-                with open('{}.master'.format(pkg), 'r', encoding='utf-8') as f:
-                    pkg_yaml_master = yaml.load(f.read(), Loader=yaml.Loader)
-                self.before_change_msg.append(pkg_yaml_master)
-            subprocess.call('rm {}.master'.format(pkg), shell=True)
-        os.chdir('../')
+            from_pkg = pkg['from']
+            to_pkg = pkg['to']
+            if from_pkg in master_repos_tree:
+                from_pkg_yaml = subprocess.getoutput('git show remotes/origin/master:{}'.format(from_pkg))
+                self.before_change_msg.append(yaml.load(from_pkg_yaml, Loader=yaml.Loader))
+            if os.path.exists(to_pkg):
+                with open(to_pkg, 'r') as f:
+                    self.change_msg.append(yaml.load(f.read(), Loader=yaml.Loader))
 
     def get_change_pkg(self):
+        print('Get diffs of Pull Request')
+        current_branch = self.get_current_branch()
+        subprocess.call('git checkout master-{}'.format(args.pr_id), shell=True)
         change_pkgs = []
-        pr_diff = os.popen('cd {} && git show'.format(self.community_path)).read()
-        diff_files = [x.split(' ')[0][2:] for x in pr_diff.split('diff --git ')[1:]]
+        pr_diff = subprocess.getoutput('git show')
+        subprocess.call('git checkout {}'.format(current_branch), shell=True)
+        diff_files = [{'from': x.split(' ')[0][2:], 'to': x.split(' ')[1][2:].split('\n')[0]} for x in
+                      pr_diff.split('diff --git ')[1:]]
         for diff_file in diff_files:
-            if len(diff_file.split('/')) == 5 and diff_file.split('/')[0] == 'sig' \
-                    and diff_file.split('/')[4].endswith('.yaml') and diff_file.split('/')[2] == 'src-openeuler':
+            diff_file_from = diff_file['from']
+            diff_file_to = diff_file['to']
+            if len(diff_file_from.split('/')) == 5 and \
+                    diff_file_from.split('/')[0] == 'sig' and \
+                    diff_file_from.split('/')[2] == 'src-openeuler' and \
+                    diff_file_from.split('/')[4].endswith('.yaml') and \
+                    len(diff_file_to.split('/')) == 5 and \
+                    diff_file_to.split('/')[0] == 'sig' and \
+                    diff_file_to.split('/')[2] == 'src-openeuler' and \
+                    diff_file_to.split('/')[4].endswith('.yaml'):
                 change_pkgs.append(diff_file)
         self._change_pkg(change_pkgs)
 
@@ -105,54 +139,46 @@ class CheckBranch(object):
         else:
             raise FileError("ERROR: No file {0}".format(self.branch_map_yaml))
 
-    def _check_branch(self, mbranch, sbranch, pkg_name='', old_flag=0):
+    def _check_branch(self, mbranch, sbranch, pkg):
         """
         check
         :parm mbranch: branch which now branch created from
         :parm sbranch: now branch
         """
+        pkg_name = pkg['name']
         if sbranch == "master":
             if mbranch:
                 raise CheckError("FAIL: {} master cannot branch from other branch".format(pkg_name))
             else:
                 pass
         else:
-            self._check_main_branch(mbranch, pkg_name=pkg_name, old_flag=old_flag)
-            self._check_sub_branch(mbranch, sbranch, pkg_name=pkg_name, old_flag=old_flag)
+            self._check_main_branch(mbranch, pkg)
+            self._check_sub_branch(mbranch, sbranch, pkg_name=pkg_name)
 
-    def _check_main_branch(self, mbranch, pkg_name='', old_flag=0):
+    def _check_main_branch(self, mbranch, pkg):
         """
         check main branch which now branch created from
         :parm mbranch: main branch
         """
+        pkg_name = pkg['name']
         if mbranch not in self.branch_map["branch"].keys():
+            if mbranch in [branch['name'] for branch in pkg['branches']]:
+                return
             if mbranch.startswith("Multi"):
                 if mbranch.split("_")[-1] not in self.branch_map["branch"].keys():
-                    if old_flag:
-                        raise CheckWarn("WARN: {0} Not found main branch {1}".format(pkg_name, mbranch.split("_")[-1]))
-                    else:
-                        raise CheckError("FAIL: {0} Not found main branch {1}".format(pkg_name, mbranch.split("_")[-1]))
+                    raise CheckError("FAIL: {0} Not found main branch {1}".format(pkg_name, mbranch.split("_")[-1]))
             elif mbranch.startswith("oepkg"):
                 tmp = mbranch.split("_")[-1]
                 if tmp.startswith("oe"):
                     tmp = tmp.replace("oe", "openEuler")
                     if tmp not in self.branch_map["branch"].keys():
-                        if old_flag:
-                            raise CheckWarn("WARN: {0} Not found main branch {1}".format(pkg_name, tmp))
-                        else:
-                            raise CheckError("FAIL: {0} Not found main branch {1}".format(pkg_name, tmp))
-                else:
-                    if old_flag:
-                        raise CheckError("WARN: {0} Not found main branch {1}".format(pkg_name, tmp))
-                    else:
                         raise CheckError("FAIL: {0} Not found main branch {1}".format(pkg_name, tmp))
-            else:
-                if old_flag:
-                    raise CheckWarn("WARN: {0} Not found main branch {1}".format(pkg_name, mbranch))
                 else:
-                    raise CheckError("FAIL: {0} Not found main branch {1}".format(pkg_name, mbranch))
+                    raise CheckError("FAIL: {0} Not found main branch {1}".format(pkg_name, tmp))
+            else:
+                raise CheckError("FAIL: {0} Not found main branch {1}".format(pkg_name, mbranch))
 
-    def _check_sub_branch(self, mbranch, sbranch, pkg_name='', old_flag=0):
+    def _check_sub_branch(self, mbranch, sbranch, pkg_name=''):
         """
         check sub branch
         :parm mbranch: main branch
@@ -165,51 +191,29 @@ class CheckBranch(object):
                 if "_oe" in mbranch:
                     mbranch = mbranch.split("_")[-1].replace("oe", "openEuler")
             else:
-                if old_flag:
-                    raise CheckWarn("WARN: {0} main branch is wrong".format(pkg_name))
-                else:
-                    raise CheckError("FAIL: {0} main branch is wrong".format(pkg_name))
+                raise CheckError("FAIL: {0} main branch is wrong".format(pkg_name))
 
         if sbranch not in self.branch_map["branch"][mbranch]:
             sb = sbranch.split("_")
             if sbranch.startswith("Multi"):
                 if "Multi-Version" != sb[0]:
-                    if old_flag:
-                        raise CheckWarn("WARN: {0} sub branch {1} is wrong".format(pkg_name, sbranch))
-                    else:
-                        raise CheckError("FAIL: {0} sub branch {1} is wrong".format(pkg_name, sbranch))
+                    raise CheckError("FAIL: {0} sub branch {1} is wrong".format(pkg_name, sbranch))
                 if sb[-1] not in self.branch_map["branch"][mbranch]:
-                    if old_flag:
-                        raise CheckWarn("WARN: {0} sub branch {1}\'s {2} not found in list given by main branch "
-                                        "{3}".format(pkg_name, sbranch, sb[-1], mbranch))
-                    else:
-                        raise CheckError("FAIL: {0} sub branch {1}\'s {2} not found in list given by main branch "
-                                         "{3}".format(pkg_name, sbranch, sb[-1], mbranch))
+                    raise CheckError("FAIL: {0} sub branch {1}\'s {2} not found in list given by main branch "
+                                     "{3}".format(pkg_name, sbranch, sb[-1], mbranch))
             elif sbranch.startswith("oepkg"):
                 if sb[-1].startswith("oe"):
                     tmp = sb[-1].replace("oe", "openEuler")
                     if tmp not in self.branch_map["branch"][mbranch]:
-                        if old_flag:
-                            raise CheckWarn("WARN: {0} sub branch {1}\'s {2} not found in list given by main branch "
-                                            "{3}".format(pkg_name, sbranch, sb[-1], mbranch))
-                        else:
-                            raise CheckError(
-                                "FAIL: {0} sub branch {1}\'s {2} not found in list given by main branch "
-                                "{3}".format(pkg_name, sbranch, sb[-1], mbranch))
+                        raise CheckError(
+                            "FAIL: {0} sub branch {1}\'s {2} not found in list given by main branch "
+                            "{3}".format(pkg_name, sbranch, sb[-1], mbranch))
                 else:
-                    if old_flag:
-                        raise CheckWarn("WARN: {0} sub branch is wrong".format(pkg_name))
-                    else:
-                        raise CheckError("FAIL: {0} sub branch is wrong".format(pkg_name))
+                    raise CheckError("FAIL: {0} sub branch is wrong".format(pkg_name))
             else:
-                if old_flag:
-                    raise CheckWarn(
-                        "WARN: {0} sub branch {1} not found in list given by main branch {2}".format(pkg_name, sbranch,
-                                                                                                     mbranch))
-                else:
-                    raise CheckError(
-                        "FAIL: {0} sub branch {1} not found in list given by main branch {2}".format(pkg_name, sbranch,
-                                                                                                     mbranch))
+                raise CheckError(
+                    "FAIL: {0} sub branch {1} not found in list given by main branch {2}".format(pkg_name, sbranch,
+                                                                                                 mbranch))
 
     @staticmethod
     def _check_createfrom_valid(reponame, sbranches, mbranches):
@@ -228,9 +232,7 @@ class CheckBranch(object):
         return
 
     def check(self):
-        old_flag = 0
         for pkg in self.change_msg:
-            pkg_name = pkg["name"]
             branches = pkg["branches"]
             for bch in branches:
                 sbranch = bch['name']
@@ -239,16 +241,7 @@ class CheckBranch(object):
                 else:
                     mbranch = bch['create_from']
                 try:
-                    for bpkg in self.before_change_msg:
-                        if bpkg["name"] == pkg_name:
-                            bl = bpkg["branches"]
-                            for ob in bl:
-                                if ob["name"] == sbranch:
-                                    old_flag = 1
-                                    break
-                            break
-                    self._check_branch(mbranch, sbranch, pkg_name=pkg_name, old_flag=old_flag)
-                    old_flag = 0
+                    self._check_branch(mbranch, sbranch, pkg)
                 except CheckError as e:
                     print(e)
                     self.error_flag = self.error_flag + 1
@@ -258,7 +251,7 @@ class CheckBranch(object):
                 except FileError as e:
                     print(e)
                     self.error_flag = self.error_flag + 1
-        print("Check PR {0} Result: error {1}, warn {2}".format(self.pr_id, self.error_flag, self.warn_flag))
+        print("\nCheck PR {0} Result: error {1}, warn {2}".format(self.pr_id, self.error_flag, self.warn_flag))
         if self.error_flag:
             sys.exit(1)
 
@@ -269,6 +262,10 @@ if __name__ == "__main__":
     par.add_argument("-id", "--pr_id", help="community pr id", required=True)
     par.add_argument("-repo", "--community_repo_path", help="community repo path", required=True)
     args = par.parse_args()
+    current_dir = os.getcwd()
     C = CheckBranch(args.config, args.community_repo_path, args.pr_id)
+    os.chdir(args.community_repo_path)
     C.get_change_pkg()
     C.check()
+    os.chdir(current_dir)
+
