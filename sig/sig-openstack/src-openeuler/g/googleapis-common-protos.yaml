@@ -1,0 +1,10 @@
+name: googleapis-common-protos
+description: Common protobufs used in Google APIs
+upstream: https://github.com/googleapis/python-api-common-protos
+branches:
+- name: master
+  type: protected
+- name: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
