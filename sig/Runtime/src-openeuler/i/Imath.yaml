@@ -1,0 +1,14 @@
+name: Imath
+description: Imath is a C++ and python library of 2D and 3D vector,
+  matrix,and math operations for computer graphics
+upstream: https://github.com/AcademySoftWareFoundation/Imath
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-22.03-LTS
+  type: protected
+  create_from: openEuler-22.03-LTS-Next
+type: public
