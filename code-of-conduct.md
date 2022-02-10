@@ -1,6 +1,6 @@
 # openEuler社区行为守则
 
-openEuelr社区遵守开源社区[《贡献者公约》](https://contributor-covenant.org)V1.4中规定的行为守则，请参考[V1.4版本](https://www.contributor-covenant.org/zh-cn/version/1/4/code-of-conduct.html)
+openEuler社区遵守开源社区[《贡献者公约》](https://contributor-covenant.org)V1.4中规定的行为守则，请参考[V1.4版本](https://www.contributor-covenant.org/zh-cn/version/1/4/code-of-conduct.html)
 
 
 
