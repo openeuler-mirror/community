@@ -95,4 +95,4 @@ repository地址：
   - https://gitee.com/src-openeuler/libksysguard
   - https://gitee.com/src-openeuler/okteta
   - https://gitee.com/src-openeuler/qca
-  
+  - https://gitee.com/src-openeuler/kbackup
