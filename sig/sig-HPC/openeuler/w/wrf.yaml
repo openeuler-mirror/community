@@ -1,0 +1,7 @@
+name: wrf
+description: Weather Research and Forecasting Model
+upstream: https://github.com/wrf-model/WRF/archive/refs/tags/v4.2.tar.gz
+branches:
+- name: master
+  type: protected
+type: public
