@@ -20,4 +20,3 @@
 |   | qscintilla      |    |         |         |         |         |       |
 |   | sundials        |    |         |         |         |         |       |
 |   | bazel           |    |         |         |         |         |       |
-|   | libmetal        |    |         |         |         |         |       |
