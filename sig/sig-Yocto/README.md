@@ -18,6 +18,8 @@
 - 任  慰[@vonhust](https://gitee.com/vonhust)
 - 谢焜勋[@beilingxie](https://gitee.com/beilingxie)
 - 林子畅[@linzichang](https://gitee.com/linzichang)
+- 李思敏[@ilisimin](https://gitee.com/ilisimin)
+- 郑俊凌[@junling_zheng](https://gitee.com/junling_zheng)
 
 
 ### Committer列表
@@ -26,6 +28,7 @@
 - 谢焜勋[@beilingxie](https://gitee.com/beilingxie)
 - 林子畅[@linzichang](https://gitee.com/linzichang)
 - 李思敏[@ilisimin](https://gitee.com/ilisimin)
+- 郑俊凌[@junling_zheng](https://gitee.com/junling_zheng)
 - 梁芳平[@liangfangping](https://gitee.com/liangfangping)
 
 
