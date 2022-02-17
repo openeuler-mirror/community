@@ -31,3 +31,5 @@ Note: The Charter of this SIG follows the convention described in the openEuler 
 [Shouyong Liu@pangbanme](https://gitee.com/pangbanme)
 
 [Yuxi Wang@wangyx0704](https://gitee.com/wangyx0704)
+
+[Jiezhang Wang@Poorunga](https://gitee.com/Poorunga)
