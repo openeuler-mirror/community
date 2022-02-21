@@ -34,7 +34,9 @@ https://opendesign.openeuler.org
 - [opendesign-deployment](https://gitee.com/openeuler/opendesign-deployment)
 - [opendesign-backend](https://gitee.com/openeuler/opendesign-backend)
 - [opendesign-build](https://gitee.com/openeuler/opendesign-build)
- 
+- [opendesign-miniprogram](https://gitee.com/openeuler/opendesign-miniprogram)
+- [opendesign-datapertus](https://gitee.com/openeuler/opendesign-datapertus)
+
 ## 参考
 - [1] Hugo https://gohugo.io
 - [2] Arco Design https://arco.design
