@@ -30,7 +30,7 @@ SIG当前计划分3个阶段：
   - 李次华 [@licihua](https://gitee.com/licihua)
   - 陈燕潘 [@chenyanpanX](https://gitee.com/chenyanpanX)
   - 李海炜 [@liheavy](https://gitee.com/liheavy)
-  - 曾卫峰 [@zengweifeng](https://gitee.com/zengweifeng)
+  - 曾卫峰 [@zengwefeng](https://gitee.com/zengwefeng)
 
 
 # 项目清单
