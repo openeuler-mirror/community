@@ -108,6 +108,7 @@ wswsamao | Desktop
   - https://gitee.com/src-openeuler/i2c-tools
   - https://gitee.com/src-openeuler/acpid
   - https://gitee.com/src-openeuler/upower
+  - https://gitee.com/src-openeuler/beanstalkd
 
 ## media 多媒体相关lib   （committer: SuperSix173、 wswsamao、wangbin224）
   - https://gitee.com/src-openeuler/libsamplerate
