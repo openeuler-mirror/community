@@ -55,6 +55,8 @@ DB SIG当前处于发展的初始阶段，团队维护能力有限，目前为�
 - Zhenyu Zheng[@ZhengZhenyu](https://gitee.com/ZhengZhenyu), *zheng.zhenyu@outlook.com*
 - Bo Zhao[@bzhaoop](https://gitee.com/bzhaoop), *bzhaojyathousandy@gmail.com*
 
+### 成员列表
+- Junyan Zhang[@zjyabsa](https://gitee.com/zjyabsa/), *jyzhangcf@isoftstone.com*
 
 ## 组织会议
 - 每双周二下午 5:00pm -- 6:00pm
