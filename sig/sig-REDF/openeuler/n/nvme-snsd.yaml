@@ -1,5 +1,6 @@
-name: redf
-description: Reliable enterprise data fabric for nvme over fabric
+name: nvme-snsd
+rename_from: redf
+description: Simplify service deployment and configuration while reducing the impact of link failures on nvmeof services.
 branches:
 - name: master
   type: protected
