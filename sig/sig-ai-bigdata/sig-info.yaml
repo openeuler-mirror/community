@@ -1,6 +1,14 @@
 name: AI and Big Data SIG
-description: 
-mailing_list: dev@openeuler.org
+description: AI and Big Data Sig
+mailing_list: sig-ai-bigdata@openeuler.org
+maintainers:
+- gitee_id: sinever
+- gitee_id: njlzk
+- gitee_id: yangzhao_kl
+- gitee_id: wuzeyi1
+- gitee_id: unioah
+  name: ZhangHao
+  email: unioah@gmail.com
 repositories:
 - repo: openeuler/notebook
 - repo: openeuler/python-jupyter-core
@@ -14,3 +22,4 @@ repositories:
 - repo: openeuler/python-myst-parser
 - repo: openeuler/python-nbval
 - repo: openeuler/python-requests-unixsocket
+- repo: openeuler/python-fastjsonschema
