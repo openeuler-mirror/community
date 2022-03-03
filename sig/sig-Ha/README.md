@@ -57,4 +57,5 @@ repository地址：
 - https://gitee.com/openeuler/pacemaker-mgmt
 - https://gitee.com/src-openeuler/booth
 - https://gitee.com/src-openeuler/execstack
+- https://gitee.com/src-openeuler/kmod-drbd90
 
