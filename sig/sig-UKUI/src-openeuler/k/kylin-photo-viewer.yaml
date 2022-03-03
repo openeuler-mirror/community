@@ -1,0 +1,11 @@
+name: kylin-photo-viewer
+description: Provide picture display and viewing function
+upstream: https://github.com/UbuntuKylin/kylin-photo-viewer
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
+

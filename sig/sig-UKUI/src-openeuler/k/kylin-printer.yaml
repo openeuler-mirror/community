@@ -1,0 +1,12 @@
+name: kylin-printer
+description: Kylin Printer Tool
+upstream: https://github.com/UbuntuKylin/kylin-printer
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
+
+

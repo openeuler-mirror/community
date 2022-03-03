@@ -36,7 +36,18 @@ UKUI 是麒麟软件桌面研发团队开发的基于 Linux 发行版的轻量�
 - [IRC频道](#openeuler-dev)
 - [IRC公开会议](#openeuler-meeting)
 
+# 项目清单
 
+项目名称：
+UKUI
+repository地址:
+    - https://gitee.com/src-openeuler/ukui-feedback
+    - https://gitee.com/src-openeuler/ukui-notebook
+    - https://gitee.com/src-openeuler/kylin-installer
+    - https://gitee.com/src-openeuler/kylin-ipmsg
+    - https://gitee.com/src-openeuler/kylin-photo-viewer
+    - https://gitee.com/src-openeuler/kylin-printer
+    
 
 # 问题反馈
 如果您在使用中遇到了问题，或者有好的建议，均可以到相应的模块去提issue。
