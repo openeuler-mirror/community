@@ -161,9 +161,9 @@ class CheckBranch(object):
         :parm mbranch: main branch
         """
         pkg_name = pkg['name']
+        if mbranch not in [branch['name'] for branch in pkg['branches']]:
+            raise CheckError("FAIL: main branch {} does not exist in current repo yaml of {}".format(mbranch, pkg_name))
         if mbranch not in self.branch_map["branch"].keys():
-            if mbranch in [branch['name'] for branch in pkg['branches']]:
-                return
             if mbranch.startswith("Multi"):
                 if mbranch.split("_")[-1] not in self.branch_map["branch"].keys():
                     raise CheckError("FAIL: {0} Not found main branch {1}".format(pkg_name, mbranch.split("_")[-1]))
