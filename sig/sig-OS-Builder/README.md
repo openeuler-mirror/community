@@ -67,3 +67,4 @@ repository地址：
  - [ignition](https://gitee.com/src-openeuler/ignition)
  - [bootupd](https://gitee.com/src-openeuler/bootupd)
  - [install-scripts](https://gitee.com/openeuler/install-scripts)
+ - [imageTailor](https://gitee.com/openeuler/imageTailor)

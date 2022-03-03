@@ -77,13 +77,12 @@ KIRAN-DESKTOP SIG小组致力于将KIRAN-DESKTOP 引入至 openEuler 社区中�
 
 ### Maintainers
 - stonefly128
-- doudou19
+- tangjie02
 
 ### Committers
 - liuxingxiang
 - yuan__xing 
 - Bmen
-- tangjie02
 
 ### 对外联系人
 - Dave110

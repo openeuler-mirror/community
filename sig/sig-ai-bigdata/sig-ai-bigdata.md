@@ -47,8 +47,6 @@ Note: The Charter of this SIG follows the convention described in the openEuler 
   Machine learning examples used in Arm's ML developer space
 - [armnn](https://gitee.com/src-openeuler/armnn): 
   Arm NN SDK enables machine learning workloads on power-efficient devices
-- [libmetal](https://gitee.com/src-openeuler/libmetal): 
-  Bare metal interaction APIs
 - [oneDNN](https://gitee.com/src-openeuler/oneDNN): 
   Intel(R) Math Kernel Library for Deep Neural Networks
 - [pytorch](https://gitee.com/src-openeuler/pytorch): 

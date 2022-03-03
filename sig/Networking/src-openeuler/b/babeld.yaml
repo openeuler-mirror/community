@@ -1,0 +1,7 @@
+name: babeld
+description: 'Ad-hoc network routing daemon'
+upstream: https://github.com/jech/babeld
+branches:
+- name: master
+  type: protected
+type: public

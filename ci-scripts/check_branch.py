@@ -79,7 +79,7 @@ class CheckBranch(object):
         print('\nGet master repos tree')
         master_repos_tree = []
         current_branch = self.get_current_branch()
-        subprocess.call('git checkout master', shell=True)
+        subprocess.call('git checkout master >/dev/null', shell=True)
         for i in os.listdir('sig'):
             if i in ['README.md', 'sig-template']:
                 continue
@@ -91,7 +91,7 @@ class CheckBranch(object):
                 for filesdir, _, src_repos in os.walk(os.path.join('sig', i, 'src-openeuler')):
                     for src_repo in src_repos:
                         master_repos_tree.append(os.path.join(filesdir, src_repo))
-        subprocess.call('git checkout {}'.format(current_branch), shell=True)
+        subprocess.call('git checkout {}  >/dev/null'.format(current_branch), shell=True)
         return master_repos_tree
 
     def _change_pkg(self, change_pkgs):
@@ -109,10 +109,10 @@ class CheckBranch(object):
     def get_change_pkg(self):
         print('Get diffs of Pull Request')
         current_branch = self.get_current_branch()
-        subprocess.call('git checkout master-{}'.format(args.pr_id), shell=True)
+        subprocess.call('git checkout master-{}  >/dev/null'.format(args.pr_id), shell=True)
         change_pkgs = []
         pr_diff = subprocess.getoutput('git show')
-        subprocess.call('git checkout {}'.format(current_branch), shell=True)
+        subprocess.call('git checkout {}  >/dev/null'.format(current_branch), shell=True)
         diff_files = [{'from': x.split(' ')[0][2:], 'to': x.split(' ')[1][2:].split('\n')[0]} for x in
                       pr_diff.split('diff --git ')[1:]]
         for diff_file in diff_files:
@@ -231,26 +231,81 @@ class CheckBranch(object):
                 continue
         return
 
+    def get_branches(self, pkg):
+        """
+        get history branches and change_branches of a package
+        :param pkg: a dict of the package
+        :return: a tuple of history branches and change_branches
+        """
+        pkg_name = pkg['name']
+        branches = pkg['branches']
+        history_branches = []
+        changed_branches = []
+        if pkg_name not in [bf_pkg['name'] for bf_pkg in self.before_change_msg]:
+            return [], branches
+        for bf_pkg in self.before_change_msg:
+            bf_pkg_name = bf_pkg['name']
+            if bf_pkg_name != pkg_name:
+                continue
+            bf_branches = bf_pkg['branches']
+            for bch in branches:
+                if bch in bf_branches:
+                    history_branches.append(bch)
+                else:
+                    changed_branches.append(bch)
+        return history_branches, changed_branches
+
+    def history_check(self, history_branches, pkg):
+        """
+        check history branches
+        :param history_branches: branches be same between self.change_msg and self.before_change_msg of the same package
+        :param pkg: a dict of the package
+        :return:
+        """
+        for bch in history_branches:
+            sbranch = bch['name']
+            if sbranch == "master":
+                mbranch = None
+            else:
+                mbranch = bch['create_from']
+            try:
+                self._check_branch(mbranch, sbranch, pkg)
+            except CheckError as e:
+                print(str(e).replace('FAIL', 'WARNING'))
+                self.warn_flag = self.warn_flag + 1
+            except FileError as e:
+                print(e)
+                self.error_flag = self.error_flag + 1
+
+    def differences_check(self, changed_branches, pkg):
+        """
+        check changed branches
+        :param changed_branches: branches diff between self.change_msg and self.before_change_msg of the same package
+        :param pkg: a dict of the package
+        :return:
+        """
+        for bch in changed_branches:
+            sbranch = bch['name']
+            if sbranch == "master":
+                mbranch = None
+            else:
+                mbranch = bch['create_from']
+            try:
+                self._check_branch(mbranch, sbranch, pkg)
+            except CheckError as e:
+                print(e)
+                self.error_flag = self.error_flag + 1
+            except FileError as e:
+                print(e)
+                self.error_flag = self.error_flag + 1
+
     def check(self):
         for pkg in self.change_msg:
-            branches = pkg["branches"]
-            for bch in branches:
-                sbranch = bch['name']
-                if sbranch == "master":
-                    mbranch = None
-                else:
-                    mbranch = bch['create_from']
-                try:
-                    self._check_branch(mbranch, sbranch, pkg)
-                except CheckError as e:
-                    print(e)
-                    self.error_flag = self.error_flag + 1
-                except CheckWarn as e:
-                    print(e)
-                    self.warn_flag = self.warn_flag + 1
-                except FileError as e:
-                    print(e)
-                    self.error_flag = self.error_flag + 1
+            history_branches, changed_branches = self.get_branches(pkg)
+            if history_branches:
+                self.history_check(history_branches, pkg)
+            if changed_branches:
+                self.differences_check(changed_branches, pkg)
         print("\nCheck PR {0} Result: error {1}, warn {2}".format(self.pr_id, self.error_flag, self.warn_flag))
         if self.error_flag:
             sys.exit(1)

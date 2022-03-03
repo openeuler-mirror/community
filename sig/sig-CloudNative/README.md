@@ -57,6 +57,7 @@ repository地址：
 - https://gitee.com/openeuler/openeuler-docker-images
 - https://gitee.com/openeuler/NestOS
 - https://gitee.com/openeuler/ptcr
+- https://gitee.com/openeuler/nestos-installer
 - https://gitee.com/src-openeuler/coredns
 - https://gitee.com/src-openeuler/kubernetes
 - https://gitee.com/src-openeuler/iSulad
@@ -112,6 +113,7 @@ repository地址：
 - https://gitee.com/src-openeuler/libnetwork
 - https://gitee.com/src-openeuler/harbor
 - https://gitee.com/src-openeuler/slirp4netns
+- https://gitee.com/src-openeuler/nestos-installer
 - https://gitee.com/src-openeuler/catatonit
 - https://gitee.com/src-openeuler/toolbox
 - https://gitee.com/src-openeuler/zincati

@@ -80,13 +80,12 @@ English | [简体中文](./sig-KIRAN-DESKTOP_cn.md)
 
 ### Maintainers
 - stonefly128
-- doudou19
+- tangjie02
 
 ### Committers
 - liuxingxiang
 - yuan__xing
 - Bmen
-- tangjie02
 
 ### External Contact
 - Dave110

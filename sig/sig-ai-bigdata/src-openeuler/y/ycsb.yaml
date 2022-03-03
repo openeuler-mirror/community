@@ -1,0 +1,7 @@
+name: ycsb
+description: Yahool Cloud serving Benchmark.
+upstream: https://github.com/brianfrankcooper/YCSB
+branches:
+- name: master
+  type: protected
+type: public

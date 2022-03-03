@@ -31,3 +31,5 @@
 刘寿永[@pangbanme](https://gitee.com/pangbanme)
 
 王玉熙[@wangyx0704](https://gitee.com/wangyx0704)
+
+王杰章[@Poorunga](https://gitee.com/Poorunga)

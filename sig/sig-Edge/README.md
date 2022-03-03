@@ -47,6 +47,8 @@ https://meeting.tencent.com/s/iwZmnhcOSs3x
 
 - 王玉熙[@wangyx0704](https://gitee.com/wangyx0704), [wangyx0704@thundersoft.com](mailto:wangyx0704@thundersoft.com)
 
+- 王杰章[@Poorunga](https://gitee.com/Poorunga), [2744323@qq.com](mailto:2744323@qq.com)
+
 ### **Committer列表**
 
 - 邓凡平[@innost](https://gitee.com/innost)，*[fanping.deng@gmail.com](mailto:fanping.deng@gmail.com)*
@@ -59,6 +61,8 @@ https://meeting.tencent.com/s/iwZmnhcOSs3x
 
 - 王玉熙[@wangyx0704](https://gitee.com/wangyx0704), [wangyx0704@thundersoft.com](mailto:wangyx0704@thundersoft.com)
 
+- 王杰章[@Poorunga](https://gitee.com/Poorunga), [2744323@qq.com](mailto:2744323@qq.com)
+
 # 联系方式
 
 - fanping.deng@gmail.com
@@ -66,6 +70,7 @@ https://meeting.tencent.com/s/iwZmnhcOSs3x
 - wanghr0630@thundersoft.com
 - liusy@thundersoft.com
 - wangyx0704@thundersoft.com
+- 2744323@qq.com
 
 # 项目地址
 
