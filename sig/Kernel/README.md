@@ -367,6 +367,9 @@ openeuler/kernel
 openeuler/kbuild-standalone
 - WangNan @pi3orama
 
+openeuler/TCP_option_address
+- jiaofenfang @jiaoff
+
 ### Committer列表
 
 参见 [openEuler kernel Committer List](committers.md)
