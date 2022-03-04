@@ -53,4 +53,5 @@ Through the establishment of the openEuler HPC SIG, HPC developers and users are
 
 - HPCRunner - [https://gitee.com/openeuler/hpcrunner](https://gitee.com/openeuler/hpcrunner)
 - HPC - [https://gitee.com/openeuler/hpc](https://gitee.com/openeuler/hpc)
+- Lammps - [https://gitee.com/src-openeuler/lammps](https://gitee.com/src-openeuler/lammps)
 - WRF - [https://gitee.com/src-openeuler/wrf](https://gitee.com/src-openeuler/wrf)
