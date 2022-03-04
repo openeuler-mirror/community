@@ -126,3 +126,6 @@
 - LibcarePlus
     - libcareplus
         - repository地址：https://gitee.com/openeuler/libcareplus
+- Skylark
+    - skylark
+        - repository地址：https://gitee.com/openeuler/skylark

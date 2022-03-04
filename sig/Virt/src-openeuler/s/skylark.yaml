@@ -1,0 +1,10 @@
+name: skylark
+description: Skylark is a next-generation QoS-aware scheduler which provides coordinated
+  resource scheduling for co-located applications with different QoS requirements. Typical
+  applications are VM and Container. The architecture is highly scalable, so it's easy to
+  be extended to support new types of applications and resources in the future.
+upstream: https://gitee.com/openeuler/skylark
+branches:
+- name: master
+  type: protected
+type: public
