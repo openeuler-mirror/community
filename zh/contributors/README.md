@@ -51,7 +51,7 @@
 
 ## 社区行为守则
 
-openEuler是一个开源社区。它完全依赖于社区提供友好的开发和协作环境，所以在参与社区贡献之前，请先阅读并遵守openEuler社区的[行为守则](./../../code-of-conduct.md)。
+openEuler是一个开源社区。它完全依赖于社区提供友好的开发和协作环境，所以在参与社区贡献之前，请先阅读并遵守openEuler社区的[行为守则](https://gitee.com/openeuler/community/blob/master/code-of-conduct.md)。
 
 
 
@@ -71,7 +71,7 @@ SIG就是Special Interest Group的缩写，openEuler社区按照不同的SIG来�
 
 - SIG组是开放的，欢迎任何人加入并参与贡献。
 - SIG都是针对特定的一个或多个技术主题而成立的。SIG内的成员推动交付成果输出，并争取让交付成果成为openEuler社区发行的一部分。
-- SIG的核心成员主导SIG的治理。请查看[SIG的角色说明](./../../community-membership-cn.md)。您可以在贡献的同时积累经验和提升影响力。
+- SIG的核心成员主导SIG的治理。请查看[SIG的角色说明](./../../community-membership_cn.md)。您可以在贡献的同时积累经验和提升影响力。
 - 每一个SIG在Gitee上都会拥有一个或多个项目，这些项目会拥有一个或多个Repository。SIG的交付成果会保存在这些Repository内。
 - 可以在SIG对应的Repository内提交Issue、针对特定问题参与讨论，提交和解决问题，参与评审等。
 - 您也可以通过邮件列表、IRC或视频会议和SIG内的成员进行交流。
@@ -209,8 +209,8 @@ openEuler是一个开放的社区，我们希望所有参与社区的人都能�
 
 # 社区安全问题披露
 
-+ [安全处理流程](https://gitee.com/openeuler/community/blob/master/zh/security-committee/security-process.md)——简要描述了处理安全问题的过程
-+ [安全披露信息](https://gitee.com/openeuler/community/blob/master/zh/security-committee/security-disclosure.md)——如果您希望报告安全漏洞，请参考此页面
++ [安全处理流程](https://gitee.com/openeuler/security-committee/blob/master/security-process.md)——简要描述了处理安全问题的过程
++ [安全披露信息](https://gitee.com/openeuler/security-committee/blob/master/security-disclosure.md)——如果您希望报告安全漏洞，请参考此页面
 
 
 
@@ -218,7 +218,7 @@ openEuler是一个开放的社区，我们希望所有参与社区的人都能�
 
 ## 社区内沟通方式说明
 
-openEuler社区的交流方式有邮件列表、IRC会议和视频会议等，使用方式请参考[社区交流方式指导](./communication)
+openEuler社区的交流方式有邮件列表、IRC会议和视频会议等，使用方式请参考[社区交流方式指导](https://gitee.com/openeuler/community/tree/master/zh/communication)
 
 
 
