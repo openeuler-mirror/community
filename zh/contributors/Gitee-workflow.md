@@ -46,7 +46,7 @@ git config --global user.mail "email@your_Gitee_email"
 
 
 
-3、**完成SSH公钥注册（如果您没有完成此注册，每次）**
+3、**完成SSH公钥注册（如果您没有完成此注册，每次都要重新输入账户和密码）**
 
 - ① 生成ssh公钥
 
