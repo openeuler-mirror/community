@@ -1,0 +1,7 @@
+name: backintime
+upstream: https://github.com/bit-team/backintime
+description: backintime is a simple backup tool provides a CLI as well as a Qt5 GUI
+branches:
+- name: master
+  type: protected
+type: public
