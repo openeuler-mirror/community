@@ -3,4 +3,7 @@ description: A high performance user-mode stack, which powered by dpdk and lwip
 branches:
 - name: master
   type: protected
+- name: openEuler-22.03-LTS
+  type: protected
+  create_from: master
 type: public
