@@ -1,0 +1,10 @@
+name: kylin-ipmsg
+description: Provide text chat and file transfer function with no server.
+upstream: https://github.com/UbuntuKylin/kylin-ipmsg
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,11 @@
+name: kylin-installer
+description: It supports unity and mate for Ubuntu/Ubuntu Kylin.
+upstream: https://github.com/UbuntuKylin/kylin-installer
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
+
