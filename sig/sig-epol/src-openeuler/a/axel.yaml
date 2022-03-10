@@ -1,0 +1,7 @@
+name: axel
+description: Axel tries to accelerate the download process by using multiple connections per file, and can also balance the load between different servers.
+upstream: https://github.com/axel-download-accelerator/axel
+type: public
+branches:
+- name: master
+  type: protected
