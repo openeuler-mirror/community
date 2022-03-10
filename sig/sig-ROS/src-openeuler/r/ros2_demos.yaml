@@ -1,0 +1,7 @@
+name: ros2_demos
+description: Examples for using.
+upstream: https://github.com/ros2/demos.git
+branches:
+- name: master
+  type: protected
+type: public
