@@ -1,0 +1,7 @@
+name: txt2man
+description: Txt2man converts flat ASCII text to man page format. It is a shell script using gnu awk, that should run on any Unix like system.
+upstream: https://github.com/mvertes/txt2man
+type: public
+branches:
+- name: master
+  type: protected
