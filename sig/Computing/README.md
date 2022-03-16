@@ -122,5 +122,4 @@ wswsamao | Desktop
   - https://gitee.com/src-openeuler/opus
 
 ## Desktop 桌面相关lib  （committer: wswsamao、wangbin224）
-  - https://gitee.com/src-openeuler/ORBit2    
   - https://gitee.com/src-openeuler/libwacom
