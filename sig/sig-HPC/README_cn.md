@@ -47,8 +47,15 @@ openEuler HPC SIG的成员已在HPC气象、制造、分子动力学等领域Top
 
 ## 联系方式
 
-- [邮件列表](dev@openeuler.org)
+- 邮件列表 <hpc@openeuler.org>
+- [订阅地址](https://mailweb.openeuler.org/postorius/lists/hpc.openeuler.org/)
+- 微信 
+ ![wechat_QR](./sig-wechat-qr.png)
 
 ## HPC软件列表
 
+- HPCRunner - [https://gitee.com/openeuler/hpcrunner](https://gitee.com/openeuler/hpcrunner)
+- HPC - [https://gitee.com/openeuler/hpc](https://gitee.com/openeuler/hpc)
 - Lammps - [https://gitee.com/src-openeuler/lammps](https://gitee.com/src-openeuler/lammps)
+- WRF - [https://gitee.com/src-openeuler/wrf](https://gitee.com/src-openeuler/wrf)
+
