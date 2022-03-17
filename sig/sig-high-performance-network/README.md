@@ -38,7 +38,6 @@ Please [readme](./Vision-en.md)
 
 - luzhihao@huawei.com
 - huangliming5@huawei.com
-- zhuhengbo1@huawei.com
 - wuchangye@huawei.com
 - liuxin264@huawei.com
 - humin29@huawei.com
