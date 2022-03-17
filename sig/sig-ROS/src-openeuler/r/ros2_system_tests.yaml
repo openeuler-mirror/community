@@ -1,0 +1,7 @@
+name: ros2_system_tests
+description: New system tests may be added when new functionality needs to be tested using the complete ROS 2 core.
+upstream: https://github.com/ros2/system_tests.git
+branches:
+- name: master
+  type: protected
+type: public

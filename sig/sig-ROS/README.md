@@ -221,6 +221,16 @@ repository地址：
 - https://gitee.com/src-openeuler/rcl
 - https://gitee.com/src-openeuler/ros2cli
 - https://gitee.com/src-openeuler/ros2cli_common_extensions
+- https://gitee.com/src-openeuler/demos
+- https://gitee.com/src-openeuler/rosbag2
+- https://gitee.com/src-openeuler/ros1_bridge
+- https://gitee.com/src-openeuler/examples
+- https://gitee.com/src-openeuler/example_interfaces
+- https://gitee.com/src-openeuler/message_filters
+- https://gitee.com/src-openeuler/urdfdom
+- https://gitee.com/src-openeuler/system_tests
+- https://gitee.com/src-openeuler/tango_icons_vendor
+- https://gitee.com/src-openeuler/urdfdom_headers
 
 项目名称：non-ROS
 

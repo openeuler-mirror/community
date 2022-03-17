@@ -1,0 +1,7 @@
+name: urdfdom_headers 
+description: Headers for URDF parsers.
+upstream: https://github.com/ros/urdfdom_headers.git
+branches:
+- name: master
+  type: protected
+type: public
