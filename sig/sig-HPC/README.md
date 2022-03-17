@@ -47,7 +47,7 @@ Through the establishment of the openEuler HPC SIG, HPC developers and users are
 
 ## Contact details
 
-- [Mailing list](dev@openeuler.org)
+- [Mailing list](hpc@openeuler.org)
 
 ## HPC Software List
 
