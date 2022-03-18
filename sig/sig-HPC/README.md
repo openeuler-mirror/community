@@ -47,8 +47,10 @@ Through the establishment of the openEuler HPC SIG, HPC developers and users are
 
 ## Contact details
 
-- [Mailing list](dev@openeuler.org)
-
+- [Mailing list](hpc@openeuler.org)
+- [Subscribe](https://mailweb.openeuler.org/postorius/lists/hpc.openeuler.org/)
+- Wechat
+ ![wechat_QR](./sig-wechat-qr.png)
 ## HPC Software List
 
 - HPCRunner - [https://gitee.com/openeuler/hpcrunner](https://gitee.com/openeuler/hpcrunner)
