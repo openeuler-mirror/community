@@ -151,6 +151,8 @@ class CheckBranch(object):
                 raise CheckError("FAIL: {} master cannot branch from other branch".format(pkg_name))
             else:
                 pass
+        elif sbranch.startswith("oepkg"):
+            return
         else:
             self._check_main_branch(mbranch, pkg)
             self._check_sub_branch(mbranch, sbranch, pkg_name=pkg_name)
@@ -167,14 +169,6 @@ class CheckBranch(object):
             if mbranch.startswith("Multi"):
                 if mbranch.split("_")[-1] not in self.branch_map["branch"].keys():
                     raise CheckError("FAIL: {0} Not found main branch {1}".format(pkg_name, mbranch.split("_")[-1]))
-            elif mbranch.startswith("oepkg"):
-                tmp = mbranch.split("_")[-1]
-                if tmp.startswith("oe"):
-                    tmp = tmp.replace("oe", "openEuler")
-                    if tmp not in self.branch_map["branch"].keys():
-                        raise CheckError("FAIL: {0} Not found main branch {1}".format(pkg_name, tmp))
-                else:
-                    raise CheckError("FAIL: {0} Not found main branch {1}".format(pkg_name, tmp))
             else:
                 raise CheckError("FAIL: {0} Not found main branch {1}".format(pkg_name, mbranch))
 
@@ -201,15 +195,6 @@ class CheckBranch(object):
                 if sb[-1] not in self.branch_map["branch"][mbranch]:
                     raise CheckError("FAIL: {0} sub branch {1}\'s {2} not found in list given by main branch "
                                      "{3}".format(pkg_name, sbranch, sb[-1], mbranch))
-            elif sbranch.startswith("oepkg"):
-                if sb[-1].startswith("oe"):
-                    tmp = sb[-1].replace("oe", "openEuler")
-                    if tmp not in self.branch_map["branch"][mbranch]:
-                        raise CheckError(
-                            "FAIL: {0} sub branch {1}\'s {2} not found in list given by main branch "
-                            "{3}".format(pkg_name, sbranch, sb[-1], mbranch))
-                else:
-                    raise CheckError("FAIL: {0} sub branch is wrong".format(pkg_name))
             else:
                 raise CheckError(
                     "FAIL: {0} sub branch {1} not found in list given by main branch {2}".format(pkg_name, sbranch,
