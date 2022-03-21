@@ -23,25 +23,21 @@ openEuler HPC SIG的成员已在HPC气象、制造、分子动力学等领域Top
 
 ### Maintainers 列表
 
-- 王哲[@jerrywang125](https://gitee.com/jerrywang125), [32422240@qq.com](mailto:32422240@qq.com)
-
-### committers 列表
-
-- 何健聪[@hejiancong557](https://gitee.com/hejiancong557), [hejiancong1@huawei.com](mailto:hejiancong1@huawei.com)
+- 方春林[@iotwins](https://gitee.com/iotwins), [fangchunlin@huawei.com](mailto:fangchunlin@huawei.com)
 
 - 覃璐瑶[@luyao201](https://gitee.com/luyao201), [tanluyao@huawei.com](mailto:tanluyao@huawei.com)
 
-- 刘思圆[@liusiyuanOD](https://gitee.com/liusiyuanOD), [liusiyuan17@huawei.com](mailto:liusiyuan17@huawei.com)
+- 何健聪[@hejiancong557](https://gitee.com/hejiancong557), [hejiancong1@huawei.com](mailto:hejiancong1@huawei.com)
 
-- 汤国庆[@stephon-tone](https://gitee.com/stephon-tone), [tangguoqing8@huawei.com](mailto:tangguoqing8@huawei.com)
+### committers 列表
+
+- 马剑[@brucema78](https://gitee.com/brucema78), [majian@kylinos.cn](mailto:majian@kylinos.cn)
 
 - 张嘉临[@zhangjialin9](https://gitee.com/zhangjialin9), [zhangjialin9@huawei.com](mailto:zhangjialin9@huawei.com)
 
 - 杨德志[@deathy](https://gitee.com/deathy), [mapleyeh@qq.com](mailto:mapleyeh@qq.com)
 
 - 王晓朋[@daniceexi](https://gitee.com/daniceexi), [wangxiaopeng99@huawei.com](mailto:wangxiaopeng99@huawei.com)
-
-- 方春林[@iotwins](https://gitee.com/iotwins), [fangchunlin@huawei.com](mailto:fangchunlin@huawei.com)
 
 - 杨玉林[@yulin68](https://gitee.com/yulin68), [yulin68@qq.com](mailto:yulin68@qq.com)
 
