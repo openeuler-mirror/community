@@ -13,11 +13,14 @@ Industrial-Control SIG组主要致力于将openEuler打造成适用于工业控�
  - 回馈上游社区
  - 及时响应用户反馈，解决相关问题
  - 引入其他工业控制相关特性及新技术
+ - Preempt_RT实时性内核维护
+ - Preempt_RT工具集维护
+ - 实时性操作系统发布与维护
 
 ## 目标
- 本SIG组将会把强实时Xenomai方案引入openEuler社区中，并对常见的工业控制现场总线进行迁移、适配和优化，将openEuler打造成可以应用于工业控制领域的操作系统。
- 
- 另一方面，随着硬件技术的发展，实时特性的硬件虚拟化也将会成为未来发展方向，本SIG组将致力于实时虚拟化方向的研究，让常见的RTOS，如Zephyr、RTEMS、FreeRTOS等系统可同时与openEuler运行在同一平台上，满足某几个核心运行实时任务，其他核心运行通用任务的新型工业控制相关领域的需求。
+​        本SIG组将会把强实时Xenomai方案引入openEuler社区中，并对常见的工业控制现场总线进行迁移、适配和优化，将openEuler打造成可以应用于工业控制领域的操作系统。
+
+​        另一方面，随着硬件技术的发展，实时特性的硬件虚拟化也将会成为未来发展方向，本SIG组将致力于实时虚拟化方向的研究，让常见的RTOS，如Zephyr、RTEMS、FreeRTOS等系统可同时与openEuler运行在同一平台上，满足某几个核心运行实时任务，其他核心运行通用任务的新型工业控制相关领域的需求。
 
 # 组织会议
 - 公开的会议时间：北京时间，每双周三下午，15点~17点
@@ -25,14 +28,16 @@ Industrial-Control SIG组主要致力于将openEuler打造成适用于工业控�
 # 成员
 
 ### Maintainer列表
-- 黎亮[@liliang_euler](https://gitee.com/liliang_euler), liliang889@huawei.com
-- 张攀[@SuperHugePan](https://gitee.com/SuperHugePan), zhangpan26@huawei.com
-- 郭皓[@guohaoc2c2](https://gitee.com/guohaocs2c) , guohao@kylinos.cn
-- 吴春光[@wuchunguang](https://gitee.com/wuchunguang) , wuchunguang@kylinos.cn
-- 马玉昆[@kylin-mayukun](https://gitee.com/kylin-mayukun) , mayukun@kylinos.cn
-- 张茜[@zxiiiii](https://gitee.com/zxiiiii) , zhangxi@kylinos.cn
-- 丁丽丽[@blueskycs2c](https://gitee.com/blueskycs2c) , dinglili@kylinos.cn
-- 张继文[@zhang-jiwen](https://gitee.com/zhang-jiwen), zhangjiwen@kylinos.cn
+| Maintainer                                              | 邮箱                   |
+| ------------------------------------------------------- | ---------------------- |
+| 黎亮[@liliang_euler](https://gitee.com/liliang_euler)   | liliang889@huawei.com  |
+| 张攀[@SuperHugePan](https://gitee.com/SuperHugePan)     | zhangpan26@huawei.com  |
+| 郭皓[@guohaoc2c2](https://gitee.com/guohaocs2c)         | guohao@kylinos.cn      |
+| 吴春光[@wuchunguang](https://gitee.com/wuchunguang)     | wuchunguang@kylinos.cn |
+| 马玉昆[@kylin-mayukun](https://gitee.com/kylin-mayukun) | mayukun@kylinos.cn     |
+| 张茜[@zxiiiii](https://gitee.com/zxiiiii)               | zhangxi@kylinos.cn     |
+| 丁丽丽[@blueskycs2c](https://gitee.com/blueskycs2c)     | dinglili@kylinos.cn    |
+| 张继文[@zhang-jiwen](https://gitee.com/zhang-jiwen)     | zhangjiwen@kylinos.cn  |
 
 ### Committer列表
 
@@ -41,3 +46,57 @@ Industrial-Control SIG组主要致力于将openEuler打造成适用于工业控�
 - [邮件列表](dev@openeuler.org)
 - [IRC频道](#openeuler-dev)
 - [IRC公开会议](#openeuler-meeting)
+
+# 项目清单
+
+项目名称：Industrial-Control
+
+repository 地址：
+
+###### GearOS
+
+- https://gitee.com/openeuler/GearOS
+
+###### Preempt_RT
+
+- https://gitee.com/src-openeuler/kernel
+
+- https://gitee.com/src-openeuler/rtcheck
+
+- https://gitee.com/src-openeuler/rteval
+
+- https://gitee.com/src-openeuler/rt-tests
+
+###### Xenomai
+
+- https://gitee.com/openeuler/xenomai
+
+- https://gitee.com/src-openeuler/xenomai
+
+- https://gitee.com/src-openeuler/ipipe
+
+- https://gitee.com/src-openeuler/canfestival-xenomai
+
+- https://gitee.com/src-openeuler/canfestival
+
+- https://gitee.com/src-openeuler/igh-ethercat-xenomai
+
+- https://gitee.com/src-openeuler/ethercat-igh
+
+- https://gitee.com/src-openeuler/libmodbus-xenomai
+
+- https://gitee.com/src-openeuler/libmodbus
+
+- https://gitee.com/src-openeuler/canopennode
+
+- https://gitee.com/src-openeuler/libnetconf2
+
+- https://gitee.com/src-openeuler/libyang1
+
+- https://gitee.com/src-openeuler/netopeer2
+
+- https://gitee.com/src-openeuler/soem
+
+- https://gitee.com/src-openeuler/soes
+
+- https://gitee.com/src-openeuler/sysrepo
