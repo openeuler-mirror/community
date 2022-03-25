@@ -1,3 +1,10 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Time : 2022/3/25 14:31
+# @Author : zhangwuji2022
+# @File : sig_info_check_v2.py
+# @Software: PyCharm
+# Description:
 """
 A tool for checking the consistency between multiple SIG information and sigs.yaml, and validation of fields for every
 SIG information.
@@ -8,6 +15,10 @@ import requests
 import re
 import sys
 import yaml
+
+SIG_INFO_FIELDS = ['name', 'description', 'mailing_list', 'meeting_url', 'mature_level', 'mentors', 'maintainers',
+                   'repositories']
+SIG_INFO_REQUIRED_FIELDS = ['name', 'maintainers', 'repositories']
 
 
 def load_yaml(file_path):
@@ -26,9 +37,12 @@ def load_yaml(file_path):
         sys.exit(1)
 
 
-def check_diff_files():
+def check_diff_files(owner, repo, number):
     """
     Check the differences between the current Pull Request and master branch
+    :param owner: owner of Pull Request
+    :param repo: repo of Pull Request
+    :param number: number of Pull Request
     :return: a list of different files
     """
     diff_url = 'https://gitee.com/{0}/{1}/pulls/{2}.diff'.format(owner, repo, number)
@@ -36,15 +50,17 @@ def check_diff_files():
     if response.status_code != 200:
         print('Can not get differences from diff_url, diff_url:', diff_url)
         sys.exit(1)
-    diff_files = [x.split(' ')[0][2:] for x in response.text.split('diff --git ')[1:]]
+    diff_files = [{'from': x.split(' ')[0][2:], 'to': x.split(' ')[1][2:].split('\n')[0]} for x in
+                  response.text.split('diff --git ')[1:]]
     return diff_files
 
 
-def check_gitee_id(gitee_id, errors):
+def check_gitee_id(gitee_id, access_token, errors):
     """
     Check validation of gitee_id
-    :param gitee_id: gitee_id
-    :param errors: errors count
+    :param gitee_id: login id of gitee
+    :param access_token: access_token of gitee
+    :param errors: issues number
     :return: errors
     """
     url = 'https://gitee.com/api/v5/users/{}?access_token={}'.format(gitee_id, access_token)
@@ -55,373 +71,284 @@ def check_gitee_id(gitee_id, errors):
     return errors
 
 
-def check_mentors(mentors, errors):
+def check_fields(sig_info, errors):
     """
-    Check mentors
-    :param mentors: mentors of sig-info.yaml
-    :param errors: errors count
+    Check fields of sig-info.yaml
+    :param sig_info: content of sig-info.yaml
+    :param errors: issues number
     :return: errors
     """
-    if not mentors:
-        pass
-    else:
-        for mentor in mentors:
-            try:
-                gitee_id = mentor['gitee_id']
-                errors = check_gitee_id(gitee_id, errors)
-            except KeyError:
-                print('ERROR! Check mentors: gitee_id is required for every mentor.')
-                errors += 1
-            try:
-                email = mentor['email']
-                if not email:
-                    print('ERROR! Check mentors: email cannot be null for every mentor.')
-                    errors += 1
-                else:
-                    if not re.match(r'^([a-zA-Z0-9_.-]+)+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$', email):
-                        print('ERROR! Check mentors: invalid email {}.'.format(email))
-                        errors += 1
-            except KeyError:
-                print('ERROR! Check mentors: email must be provided for evevy mentor.')
-                errors += 1
+    fields = list(sig_info.keys())
+    for field in fields:
+        if field not in SIG_INFO_FIELDS:
+            print('ERROR! Find unexpected field [{}] in sig-info'.format(field))
+            errors += 1
+    for sig_info_field in SIG_INFO_REQUIRED_FIELDS:
+        if sig_info_field not in fields:
+            print('ERROR! Current sig-info has no field {} yet'.format(sig_info_field))
+            errors += 1
     return errors
 
 
-def check_maintainers(maintainers, errors):
+def check_sig_name(sig, sig_info, errors):
     """
-    Check maintainers
-    :param maintainers: maintainers of sig-info.yaml
-    :param errors: errors count
+    Check sig name of sig-info.yaml
+    :param sig: name of the sig
+    :param sig_info: content of sig-info.yaml
+    :param errors: issues number
+    :return: errors
+    """
+    name = sig_info.get('name')
+    if name != sig:
+        print('ERROR! The name must be equal to sig name, but sig-info name={}, sig={}'.format(name, sig))
+        errors += 1
+    return errors
+
+
+def check_email(email_address):
+    """
+    Check validation of email address
+    :param email_address: the target email address
+    :param errors: issues number
+    :return: errors
+    """
+    if not re.match(r'^[a-zA-Z0-9_\-.]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$', email_address):
+        print('WARNING! It seems that {} is not a email address'.format(email_address))
+
+
+def check_member(member, access_token, errors):
+    """
+    Check validation of a member
+    :param member: a dict of member info
+    :param access_token: access_token of gitee
+    :param errors: issues number
+    :return: errors
+    """
+    gitee_id = member.get('gitee_id')
+    email = member.get('email')
+    errors += check_gitee_id(gitee_id, access_token, errors)
+    check_email(email)
+    return errors
+
+
+def check_maintainers(maintainers, access_token, errors):
+    """
+    Check validation of maintainers
+    :param maintainers: a list of maintainers
+    :param access_token: access_token of gitee
+    :param errors: issues number
     :return: errors
     """
     if not maintainers:
-        print('ERROR! Check mentors: at least 1 mentor is required.')
+        print('ERROR! The SIG must has at least 1 maintainer')
         errors += 1
-    else:
-        for maintainer in maintainers:
-            try:
-                gitee_id = maintainer['gitee_id']
-                errors = check_gitee_id(gitee_id, errors)
-            except KeyError:
-                print('ERROR! Check maintainers: gitee_id is required for every maintainer.')
-                errors += 1
-            try:
-                email = maintainer['email']
-                if not email:
-                    print('ERROR! Check maintainers: email cannot be null for every maintainer.')
-                    errors += 1
-                else:
-                    if not re.match(r'^([a-zA-Z0-9_.-]+)+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$', email):
-                        print('ERROR! Check maintainers: invalid email {}.'.format(email))
-                        errors += 1
-            except KeyError:
-                print('ERROR! Check maintainers: email must be provided for evevy maintainer.')
-                errors += 1
+        return errors
+    if not isinstance(maintainers, list):
+        print('ERROR! The maintainers must be a list')
+        errors += 1
+        return errors
+    for maintainer in maintainers:
+        check_member(maintainer, access_token, errors)
     return errors
 
 
-def check_committers(committers, errors):
+def get_sig_info_repos(sig_info_repos):
     """
-    Check committers
-    :param committers: committers of sig-info.yaml
-    :param errors: errors count
+    Get all repositories list in sig-info.yaml
+    :param sig_info_repos: field repositories of sig-info.yaml
+    :return: a list of repositories all list in sig-info.yaml
+    """
+    all_sig_info_repos = []
+    all_sig_info_committers = []
+    all_sig_info_contributors = []
+    for each_group_repos in sig_info_repos:
+        if isinstance(each_group_repos.get("repo"), list):
+            for each_repo in each_group_repos.get("repo"):
+                all_sig_info_repos.append(each_repo)
+
+        if each_group_repos.get("committers") and isinstance(each_group_repos.get("committers"), list):
+            for each_committers in each_group_repos.get("committers"):
+                all_sig_info_committers.append(each_committers)
+
+        if each_group_repos.get("contributors") and isinstance(each_group_repos.get("contributors"), list):
+            for each_contributors in each_group_repos.get("contributors"):
+                all_sig_info_contributors.append(each_contributors)
+
+    return all_sig_info_repos, all_sig_info_committers, all_sig_info_contributors
+
+
+def get_sig_repos(sig_dir_path):
+    """
+    Get all repositories under directories of the sig
+    :param sig_dir_path: sig directory path
+    :return: a list of repositories all belong to the sig
+    """
+    sig_dir_repos = []
+    for root, _, files in os.walk(sig_dir_path):
+        for f_name in files:
+            sub_dir_yaml_file = os.path.join(root, f_name)
+            org_name = sub_dir_yaml_file.split("/")[-3]
+            repo_name = sub_dir_yaml_file.split("/")[-1].split(".yaml")[0]
+            repo_full_name = "{}/{}".format(org_name, repo_name)
+            sig_dir_repos.append(repo_full_name)
+
+    return sig_dir_repos
+
+
+def check_repos_consistency(sig_info_repos, sig_repos, errors):
+    """
+    Check consistency between sig_info_repos and sig_repos
+    :param sig_info_repos: all repositories list in sig-info.yaml
+    :param sig_repos: all repositories under directories of the sig
+    :param errors: issues number
     :return: errors
     """
-    if not committers:
-        pass
-    else:
-        for committer in committers:
-            try:
-                gitee_id = committer['gitee_id']
-                errors = check_gitee_id(gitee_id, errors)
-            except KeyError:
-                print('ERROR! Check committers: gitee_id is required for every committer.')
-                errors += 1
-            try:
-                email = committer['email']
-                if not email:
-                    print('ERROR! Check committers: email cannot be null for every committer.')
-                    errors += 1
-                else:
-                    if not re.match(r'^([a-zA-Z0-9_.-]+)+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$', email):
-                        print('ERROR! Check committers: invalid email {}.'.format(email))
-                        errors += 1
-            except KeyError:
-                print('ERROR! Check committers: email must be provided for evevy committer.')
-                errors += 1
-    return errors
-
-
-def check_repositories(repositories, sig_name, sigs, errors):
-    """
-    Check repositories
-    :param repositories: repositories of sig
-    :param sig_name: name of sig
-    :param sigs: content of all sigs
-    :param errors: errors count
-    :return: errors
-    """
-    if not repositories:
-        print('ERROR! Check repositories: should contain at least 1 repository.')
-        errors += 1
-    else:
-        for sig in sigs:
-            if sig['name'] == sig_name:
-                repos = sig['repositories']
-                for r in repositories:
-                    if not (type(r) == dict and 'repo' in r.keys()):
-                        print('ERROR! Check repo: every repo should be a dictionary type and at least one key should '
-                              'be repo.')
-                        sys.exit(1)
-                    if r['repo'] not in repos:
-                        print('ERROR! Check repo: no repo named {} in sig {} according to sigs.yaml.'.format(r['repo'],
-                                                                                                             sig_name))
-                        errors += 1
-                    else:
-                        if 'additional_contributors' in r.keys():
-                            additional_contributors = r['additional_contributors']
-                            for additional_contributor in additional_contributors:
-                                try:
-                                    gitee_id = additional_contributor['gitee_id']
-                                    errors = check_gitee_id(gitee_id, errors)
-                                except KeyError:
-                                    print('ERROR! gitee_id is required in additional_contributors.')
-                                    errors += 1
-                                try:
-                                    email = additional_contributor['email']
-                                    if not email:
-                                        print('ERROR! Check repositories: email cannot be null for every '
-                                              'additional_contributor.')
-                                        errors += 1
-                                    else:
-                                        if not re.match(r'^([a-zA-Z0-9_.-]+)+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$',
-                                                        email):
-                                            print('ERROR! Check repositories: invalid email {}.'.format(email))
-                                            errors += 1
-                                except KeyError:
-                                    print('ERROR! Check repositories: email must be provided for evevy '
-                                          'additional_contributor.')
-                                    errors += 1
-                for r in repos:
-                    try:
-                        if r not in [x['repo'] for x in repositories]:
-                            print('ERROR! Check repo: repo {} belongs to sig {} according to sigs.yaml should be '
-                                  'listed but missed.'.format(r, sig_name))
-                            errors += 1
-                    except TypeError:
-                        print('ERROR! Check repo: every repo should be a dictionary type and at least one key should '
-                              'be repo.')
-                        sys.exit(1)
-    return errors
-
-
-def check_description(sig_info, errors):
-    """
-    Check description
-    :param sig_info: content of sig-info.yaml
-    :param errors: errors count
-    :return: errors
-    """
-    if 'description' not in sig_info.keys():
-        print('ERROR! description is a required field')
-        errors += 1
-    else:
-        print('Check description: PASS')
-    return errors
-
-
-def check_mailing_list(sig_info, errors):
-    """
-    Check mailing_list
-    :param sig_info: content of sig-info.yaml
-    :param errors: errors count
-    :return: errors
-    """
-    if 'mailing_list' not in sig_info.keys():
-        print('ERROR! mailing_list is a required field')
-        errors += 1
-    else:
-        print('Check mailing_list: PASS')
-    return errors
-
-
-def check_meeting_url(sig_info, errors):
-    """
-    Check meeting_url
-    :param sig_info: content of sig-info.yaml
-    :param errors: errors count
-    :return: errors
-    """
-    if 'meeting_url' not in sig_info.keys():
-        print('ERROR! meeting_url is a required field')
-        errors += 1
-    else:
-        print('Check meeting_url: PASS')
-    return errors
-
-
-def check_sig_name(sig_name, sigs, errors):
-    """
-    Check sig name
-    :param sig_name: name of sig in sig-info.yaml
-    :param sigs: content of all sigs
-    :param errors: errors count
-    :return: errors
-    """
-    if sig_name not in [x['name'] for x in sigs]:
-        print('ERROR! sig named {} does not exist in sigs.yaml.'.format(sig_name))
-        errors += 1
-    return errors
-
-
-def check_sig_info_yaml(file_name, sigs):
-    """
-    Check sig-info.yaml, contains multiple independent check items
-    :param file_name: name of modified file in current Pull Request
-    :param sigs: content of all sigs
-    :return:
-    """
-    errors = 0
-    content = load_yaml(os.path.join('community', file_name))
-    trust_list = ['name', 'description', 'mailing_list', 'meeting_url', 'mature_level', 'mentors', 'maintainers',
-                  'committers', 'security_contacts', 'repositories']
-    for i in content.keys():
-        if i not in trust_list:
-            print('ERROR! Check fields: invalid field {}.'.format(i))
+    for sig_info_repo in sig_info_repos:
+        if sig_info_repo not in sig_repos:
+            print('ERROR! Find extra repo {} list in sig-info.yaml'.format(sig_info_repo))
             errors += 1
-    try:
-        name = content['name']
-        mentors = content['mentors'] if 'mentors' in content.keys() else None
-        maintainers = content['maintainers']
-        committers = content['committers'] if 'committers' in content.keys() else None
-        repositories = content['repositories']
-    except KeyError as e:
-        print('ERROR!', e)
-        sys.exit(1)
-    errors = check_sig_name(name, sigs, errors)
-    errors = check_maintainers(maintainers, errors)
-    errors = check_repositories(repositories, name, sigs, errors)
-    if mentors:
-        errors = check_mentors(mentors, errors)
-    if committers:
-        errors = check_committers(committers, errors)
-    if errors != 0:
-        print('Found {} errors, please check!'.format(errors))
-        sys.exit(1)
-    else:
-        print('PASS :)')
+    for sig_repo in sig_repos:
+        if sig_repo not in sig_info_repos:
+            print('ERROR! Find repo {} not exist in sig-info.yaml'.format(sig_repo))
+            errors += 1
+    return errors
 
 
-def main():
+def check_info_repositories(sig_repositories, errors):
     """
-    Main function
+    Check validation of sig_info_repos
+    :param sig_repositories: repositories of sig-info.yaml
+    :param errors: issues number
+    :return: errors
     """
-    count = 0
-    errors = 0
-    diff_files = check_diff_files()
-    if 'sig/sigs.yaml' in diff_files:
-        os.system('cd community && git show remotes/origin/master:sig/sigs.yaml > sig/sigs.master.yaml')
-        try:
-            sigs_master = load_yaml('community/sig/sigs.master.yaml')['sigs']
-            sigs = load_yaml('community/sig/sigs.yaml')['sigs']
-        except KeyError as e:
-            print(e)
-            sys.exit(1)
-        remove_repos = []
-        add_repos = []
-        add_count = 0
-        remove_count = 0
-        for sig in sigs:
-            for r in sig['repositories']:
-                for sig_master in sigs_master:
-                    if sig_master['name'] == sig['name']:
-                        add_count = 1
-                        if r not in sig_master['repositories']:
-                            add_repos.append(','.join((sig['name'], r)))
-                if add_count == 0:
-                    add_repos.append(','.join((sig['name'], r)))
-        for sig_master in sigs_master:
-            for r in sig_master['repositories']:
-                for sig in sigs:
-                    if sig['name'] == sig_master['name']:
-                        remove_count = 1
-                        if r not in sig['repositories']:
-                            remove_repos.append(','.join((sig_master['name'], r)))
-                if remove_count == 0:
-                    remove_repos.append(','.join((sig_master['name'], r)))
+    if not sig_repositories:
+        return errors
 
-        for diff_file in diff_files:
-            if re.match(r'^sig/.+/sig-info.yaml$', diff_file):
-                count += 1
-                sig_info = load_yaml(os.path.join('community', diff_file))
-                for r in remove_repos:
-                    for sig in sigs_master:
-                        if r in sig['repositories']:
-                            sig_name = sig['name']
-                            if sig_name == sig_info['name']:
-                                if r in sig_info['repositories']:
-                                    print('ERROR! remove repo {0} from sigs.yaml should also remove repo {0} from '
-                                          '{1}.'.format(r, diff_file))
-                            else:
-                                if os.path.exists(os.path.join('community', sig_name, 'sig-info.yaml')):
-                                    print('ERROR! remove repo {0} from sigs.yaml should also remove repo {0} from'
-                                          ' {1}.'.format(r, diff_file))
-                                    errors += 1
-                for r in add_repos:
-                    for sig in sigs:
-                        if r in sig['repositories']:
-                            sig_name = sig['name']
-                            if sig_name == sig_info['name']:
-                                if r not in [x['repo'] for x in sig_info['repositories']]:
-                                    print('ERROR! add repo {0} to sigs.yaml should also add repo {0} to '
-                                          '{1}.'.format(r, diff_file))
-                                    errors += 1
-                            else:
-                                if os.path.exists(os.path.join('community', sig_name, 'sig-info.yaml')):
-                                    print('ERROR! add repo {0} to sigs.yaml should also add repo {0} to '
-                                          '{1}.'.format(r, diff_file))
-                                    errors += 1
-                check_sig_info_yaml(diff_file, sigs)
-        if count == 0:
-            for r in remove_repos:
-                for sig in sigs:
-                    if r in sig['repositories']:
-                        sig_info_yaml = 'sig/{}/sig-info.yaml'.format(sig['name'])
-                        if os.path.exists('community/sig/{}/sig-info.yaml'.format(sig['name'])):
-                            print('ERROR! remove repo {0} from sigs.yaml should also remove repo {0} from {1}, '
-                                  'but no sig-info.yaml changed.'.format(r, sig_info_yaml))
-                            errors += 1
-            for r in add_repos:
-                for sig in sigs:
-                    if r in sig['repositories']:
-                        sig_info_yaml = 'sig/{}/sig-info.yaml'.format(sig['name'])
-                        if os.path.exists('community/sig/{}/sig-info.yaml'.format(sig['name'])):
-                            print('ERROR! add repo {0} to sigs.yaml should also add repo {0} to {1}, but no '
-                                  'sig-info.yaml changed.'.format(r, sig_info_yaml))
-                            errors += 1
-        if errors != 0:
-            sys.exit(1)
-    else:
-        sigs = load_yaml('community/sig/sigs.yaml')['sigs']
-        for diff_file in diff_files:
-            if re.match(r'^sig/.+/sig-info.yaml$', diff_file):
-                count += 1
-                check_sig_info_yaml(diff_file, sigs)
-        if count == 0:
-            print('Found no sig-info.yaml in Pull Request.')
+    if not isinstance(sig_repositories, list):
+        print('ERROR! Check sig_repositories: sig_repositories should be a list type')
+        errors += 1
+
+    for each_group_repos in sig_repositories:
+        if not (isinstance(each_group_repos, dict) and 'repo' in each_group_repos.keys()):
+            print('ERROR! Check repo: every repo should be a dictionary type and at least one key should '
+                  'be repo.')
+            errors += 1
+
+        if not isinstance(each_group_repos.get("repo"), list):
+            print('ERROR! Check each repo: repo should be a list type')
+            errors += 1
+
+        if each_group_repos.get("committers") and not isinstance(each_group_repos.get("committers"), list):
+            print('ERROR! Check committers: committers should be a list type')
+            errors += 1
+
+        if each_group_repos.get("contributors") and not isinstance(each_group_repos.get("contributors"), list):
+            print('ERROR! Check contributors: contributors should be a list type')
+            errors += 1
+
+    return errors
 
 
-if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='A tool for checking the consistency between multiple SIG information'
-                                                 ' and sigs.yaml, and validation of fields for every SIG information.')
+def get_all_sig_dir_data(sig_dir_path):
+    sig_dir_repos = []
+    openeuler = os.path.join(sig_dir_path, "openeuler")
+    src_openeuler = os.path.join(sig_dir_path, "src-openeuler")
+
+    if os.path.exists(openeuler):
+        sig_dir_openeuler_repos = get_sig_repos(openeuler)
+        sig_dir_repos.extend(sig_dir_openeuler_repos)
+
+    if os.path.exists(src_openeuler):
+        sig_dir_src_openeuler_repos = get_sig_repos(src_openeuler)
+        sig_dir_repos.extend(sig_dir_src_openeuler_repos)
+    return sig_dir_repos
+
+
+def check_sig_info(sig, access_token, errors):
+    print('\nStarting to check sig info of sig {}'.format(sig))
+    # 1. Get sig-info.yaml
+    sig_info_path = os.path.join("community", 'sig', sig, 'sig-info.yaml')
+    sig_dir_path = os.path.join("community", 'sig', sig)
+
+    if not os.path.exists(sig_info_path):
+        print('WARNING! sig {} has no sig-info.yaml file'.format(sig))
+        return errors
+
+    sig_info = load_yaml(sig_info_path)
+    print('\nCheck 1: Check fields of sig-info')
+    check1 = check_fields(sig_info, errors)
+    if check1 != 0:
+        return check1
+
+    print('\nCheck 2: Check sig name')
+    check2 = check_sig_name(sig, sig_info, errors)
+    if check2 != 0:
+        return check2
+
+    print('\nCheck 3: Check maintainers')
+    maintainers = sig_info['maintainers']
+    check3 = check_maintainers(maintainers, access_token, errors)
+
+    sig_repositories = sig_info['repositories']
+
+    print('\nCheck 4: Check repositories')
+    check4 = check_info_repositories(sig_repositories, errors)
+    if check4 != 0:
+        return check3 + check4
+
+    all_sig_info_repos, all_sig_info_committers, all_sig_info_contributors = get_sig_info_repos(sig_repositories)
+    sig_dir_repos = get_all_sig_dir_data(sig_dir_path)
+
+    print('\nCheck 5: Check repositories consistency')
+    check5 = check_repos_consistency(all_sig_info_repos, sig_dir_repos, errors)
+
+    return check3 + check5
+
+
+def parse_arguments():
+    parser = argparse.ArgumentParser(
+        description='A tool for checking the consistency between multiple SIG information'
+                    ' and sigs.yaml, and validation of fields for every SIG information.')
     parser.add_argument('-o', '--owner', help='owner of Pull Request', required=True)
     parser.add_argument('-r', '--repo', help='repo of Pull Request', required=True)
     parser.add_argument('-n', '--number', help='number of Pull Request', required=True)
     parser.add_argument('-t', '--token', help='access_token', required=True)
     args = parser.parse_args()
+    return args
+
+
+def main():
+    args = parse_arguments()
     owner = args.owner
     repo = args.repo
     number = args.number
     access_token = args.token
+    # get diff files of the Pull Request
+    diff_files = check_diff_files(owner, repo, number)
+    # get all sigs have changed
+    change_sigs = []
+    for diff_file in diff_files:
+        from_file = diff_file['from']
+        to_file = diff_file['to']
+        if len(from_file) > 2 and from_file.split('/')[0] == 'sig':
+            change_sigs.append(from_file.split('/')[1])
+        if len(to_file) > 2 and to_file.split('/')[0] == 'sig':
+            change_sigs.append(to_file.split('/')[1])
+    change_sigs = sorted(list(set(change_sigs)))
+    # check sig info for every sig
+    errors = 0
+    for change_sig in change_sigs:
+        errors += check_sig_info(change_sig, access_token, errors)
+        if os.path.exists(os.path.join("community", 'sig', change_sig, 'OWNERS')):
+            print('WARNING! sig {} has OWNERS file yet, found {} warnings'.format(change_sig, errors))
+            errors = 0
+
+    if errors != 0:
+        print('Check sig info: Find {} errors.'.format(errors))
+        sys.exit(1)
+    print('Check sig info: PASS :)')
+
+
+if __name__ == '__main__':
     main()
 
