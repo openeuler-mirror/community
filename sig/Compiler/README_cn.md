@@ -20,6 +20,7 @@ Compiler SIG 每双周周二上午10:00进行线上例会，也会定期举办�
  - 乔 沛鑫[@peixin-qiao](https://gitee.com/peixin-qiao) 邮箱: qiaopeixin@huawei.com
  - 赵 羽[@zhaoyu_hit](https://gitee.com/zhaoyu_hit) email: zhaoyu64@huawei.com
  - 史 海[@shihai1991](https://gitee.com/shihai1991) email: shihai3@huawei.com
+ - 张一鹏[@eapen](https://gitee.com/eapen) email:zhangyipeng7@huawei.com
 
 ## 代码仓
  - [bishengjdk-8](https://gitee.com/openeuler/bishengjdk-8)
@@ -152,6 +153,11 @@ Compiler SIG 每双周周二上午10:00进行线上例会，也会定期举办�
  - [flang](https://gitee.com/src-openeuler/flang)
    - 维护者
      - 乔 沛鑫[@peixin-qiao](https://gitee.com/peixin-qiao) 邮箱: qiaopeixin@huawei.com
+ - [bishengjdk-build](https://gitee.com/openeuler/bishengjdk-build)
+   - 维护者
+     - 张 一鹏[@eapen](https://gitee.com/eapen) 邮箱:zhangyipeng7@huawei.com
+     - 王 坤[@kuenking111](https://gitee.com/kuenking111) 邮箱: wangkun49@huawei.com
+     - 贺 东博[@Noah](https://gitee.com/jvmboy) 邮箱: hedongbo@huawei.com
 
 ## 联系
  - 邮件: dev@openeuler.org
