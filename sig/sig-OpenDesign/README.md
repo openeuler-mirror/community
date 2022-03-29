@@ -35,7 +35,7 @@ https://opendesign.openeuler.org
 - [opendesign-backend](https://gitee.com/openeuler/opendesign-backend)
 - [opendesign-build](https://gitee.com/openeuler/opendesign-build)
 - [opendesign-miniprogram](https://gitee.com/openeuler/opendesign-miniprogram)
-- [opendesign-datapertus](https://gitee.com/openeuler/opendesign-datapertus)
+- [opendesign-datastat](https://gitee.com/openeuler/opendesign-datastat)
 - [opendesign-internship](https://gitee.com/openeuler/opendesign-internship)
 
 ## 参考
