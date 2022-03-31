@@ -1,0 +1,33 @@
+name: sig-AccLib
+description: The AccLib team is responsible for exploring high-performace acceleration technologies and solutions such as accelerator hardware engines and acceleration instructions.
+
+mailing_list: acc@openeuler.org
+meeting_url: https://etherpad.openeuler.org/p/sig-AccLib-meetings
+mature_level: startup
+maintainers:
+- gitee_id: hao-fang
+  name: fanghao
+  orgnization: Huawei
+  email: fanghao11@huawei.com
+- gitee_id: xqm227
+  name: xuqimeng
+  orgnization: Huawei
+  email: xuqimeng1@huawei.com
+- gitee_id: realzhongkeyi
+  name: zhongkeyi
+  orgnization: Huawei
+  email: zhongkeyi1@huawei.com
+- gitee_id: derekpush
+  name: zhangxuelei
+  orgnization: Huawei
+  email: zhangxuelei4@huawei.com
+repositories:
+- repo:
+  - openeuler/libwd
+  - openeuler/libkae
+  - openeuler/kae_driver
+  - openeuler/AvxToNeon
+  - src-openeuler/libwd
+  - src-openeuler/uadk_engine
+  - src-openeuler/libkae
+  - src-openeuler/kae_driver
