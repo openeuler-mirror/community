@@ -17,6 +17,7 @@
 - 朱春意[@zhuchunyi](https://gitee.com/zhuchunyi)
 - 沈洋洋[@openeuler-basic](https://gitee.com/openeuler-basic)
 - 陈家龙[@pecs](https://gitee.com/pecs)
+- 吕颖[@lvying6](https://gitee.com/lvying6)
 
 ### Committer列表
 Everyone could send patches to openEuler.
