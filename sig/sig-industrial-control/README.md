@@ -22,22 +22,34 @@ Industrial-Control SIG组主要致力于将openEuler打造成适用于工业控�
 
 ​        另一方面，随着硬件技术的发展，实时特性的硬件虚拟化也将会成为未来发展方向，本SIG组将致力于实时虚拟化方向的研究，让常见的RTOS，如Zephyr、RTEMS、FreeRTOS等系统可同时与openEuler运行在同一平台上，满足某几个核心运行实时任务，其他核心运行通用任务的新型工业控制相关领域的需求。
 
+## ROADMAP
+
+- 2022年3月完成Preempt_RT对openEuler 2203版本内核支持
+- 2022年4月完成https://gitee.com/openeuler/Preempt_RT主页建设
+- 2022年6月开源GearOS源码和部署方案
+- 2022年8月完成Xenomai实时性优化
+- 2022年10月完成Preempt_RT的实时性瓶颈探针工具研发
+- 2022年12月完成对飞腾嵌入式E2000芯片的适配
+- 2023年3月完成openEuler实时性多场景、高负载情况下实时性的提升，并配合2303版本发布
+- 2023年9月基于openEuler内核，完成龙芯或RISC-V平台的Preempt_RT支持
+- 2023年12月开始引入国际已有实时相关开源项目
+
 # 组织会议
 - 公开的会议时间：北京时间，每双周三下午，15点~17点
 
 # 成员
 
 ### Maintainer列表
-| Maintainer                                              | 邮箱                   |
-| ------------------------------------------------------- | ---------------------- |
-| 黎亮[@liliang_euler](https://gitee.com/liliang_euler)   | liliang889@huawei.com  |
-| 张攀[@SuperHugePan](https://gitee.com/SuperHugePan)     | zhangpan26@huawei.com  |
-| 郭皓[@guohaoc2c2](https://gitee.com/guohaocs2c)         | guohao@kylinos.cn      |
-| 吴春光[@wuchunguang](https://gitee.com/wuchunguang)     | wuchunguang@kylinos.cn |
-| 马玉昆[@kylin-mayukun](https://gitee.com/kylin-mayukun) | mayukun@kylinos.cn     |
-| 张茜[@zxiiiii](https://gitee.com/zxiiiii)               | zhangxi@kylinos.cn     |
-| 丁丽丽[@blueskycs2c](https://gitee.com/blueskycs2c)     | dinglili@kylinos.cn    |
-| 张继文[@zhang-jiwen](https://gitee.com/zhang-jiwen)     | zhangjiwen@kylinos.cn  |
+| Maintainer                                              | 邮箱                     |
+| ------------------------------------------------------- | ------------------------ |
+| 黎亮[@liliang_euler](https://gitee.com/liliang_euler)   | liliang889@huawei.com    |
+| 张攀[@SuperHugePan](https://gitee.com/SuperHugePan)     | zhangpan26@huawei.com    |
+| 郭皓[@guohaoc2c2](https://gitee.com/guohaocs2c)         | guohao@kylinos.cn        |
+| 吴春光[@wuchunguang](https://gitee.com/wuchunguang)     | wuchunguang@kylinos.cn   |
+| 马玉昆[@kylin-mayukun](https://gitee.com/kylin-mayukun) | mayukun@kylinos.cn       |
+| 张远航[@zhangyh1992](https://gitee.com/zhangyh1992)     | zhangyuanhang@kylinos.cn |
+| 张玉[@zhangyuge001](https://gitee.com/zhangyuge001)     | zhangyu4@kylinos.cn      |
+| 李钰磊[@r2018](https://gitee.com/r2018)                 | liyulei@kylinos.cn       |
 
 ### Committer列表
 
@@ -59,44 +71,27 @@ repository 地址：
 
 ###### Preempt_RT
 
+- https://gitee.com/openeuler/Preempt_RT
 - https://gitee.com/src-openeuler/kernel
-
 - https://gitee.com/src-openeuler/rtcheck
-
 - https://gitee.com/src-openeuler/rteval
-
 - https://gitee.com/src-openeuler/rt-tests
 
 ###### Xenomai
 
 - https://gitee.com/openeuler/xenomai
-
 - https://gitee.com/src-openeuler/xenomai
-
 - https://gitee.com/src-openeuler/ipipe
-
 - https://gitee.com/src-openeuler/canfestival-xenomai
-
 - https://gitee.com/src-openeuler/canfestival
-
 - https://gitee.com/src-openeuler/igh-ethercat-xenomai
-
 - https://gitee.com/src-openeuler/ethercat-igh
-
 - https://gitee.com/src-openeuler/libmodbus-xenomai
-
 - https://gitee.com/src-openeuler/libmodbus
-
 - https://gitee.com/src-openeuler/canopennode
-
 - https://gitee.com/src-openeuler/libnetconf2
-
 - https://gitee.com/src-openeuler/libyang1
-
 - https://gitee.com/src-openeuler/netopeer2
-
 - https://gitee.com/src-openeuler/soem
-
 - https://gitee.com/src-openeuler/soes
-
 - https://gitee.com/src-openeuler/sysrepo
