@@ -25,7 +25,7 @@ Industrial-Control SIG组主要致力于将openEuler打造成适用于工业控�
 ## ROADMAP
 
 - 2022年3月完成Preempt_RT对openEuler 2203版本内核支持
-- 2022年4月完成https://gitee.com/openeuler/Preempt_RT主页建设
+- 2022年4月完成https://gitee.com/openeuler/Preempt_RT 主页建设
 - 2022年6月开源GearOS源码和部署方案
 - 2022年8月完成Xenomai实时性优化
 - 2022年10月完成Preempt_RT的实时性瓶颈探针工具研发
