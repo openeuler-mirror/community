@@ -1,0 +1,11 @@
+name: Preempt_RT
+description: Linux in itself is not real time capable. With the additional PREEMPT_RT patch it gains real-time capabilities.
+  The key point of the PREEMPT_RT patch is to minimize the amount of kernel code that is non-preemptible, 
+  while also minimizing the amount of code that must be changed in order to provide this added preemptibility. 
+  In particular, critical sections, interrupt handlers, and interrupt-disable code sequences are normally preemptible. 
+  The PREEMPT_RT patch leverages the SMP capabilities of the Linux kernel to add this extra preemptibility without 
+  requiring a complete kernel rewrite. 
+branches:
+- name: master
+  type: protected
+type: public
