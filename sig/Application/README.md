@@ -44,5 +44,5 @@
 
 repository地址：
 - https://gitee.com/src-openeuler/nfs-fontmanager
-- https://gitee.com/src-openeuler/dust 
-- 
+- https://gitee.com/src-openeuler/dust
+-  
