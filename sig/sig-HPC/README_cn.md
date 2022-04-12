@@ -33,6 +33,8 @@ openEuler HPC SIG的成员已在HPC气象、制造、分子动力学等领域Top
 
 - 马剑[@brucema78](https://gitee.com/brucema78), [majian@kylinos.cn](mailto:majian@kylinos.cn)
 
+- 王海力[@henrywang7](https://gitee.com/henrywang7), [wanghaili4@h-partners.com](mailto:wanghaili4@h-partners.com)
+
 - 张嘉临[@zhangjialin9](https://gitee.com/zhangjialin9), [zhangjialin9@huawei.com](mailto:zhangjialin9@huawei.com)
 
 - 杨德志[@deathy](https://gitee.com/deathy), [mapleyeh@qq.com](mailto:mapleyeh@qq.com)
@@ -54,4 +56,3 @@ openEuler HPC SIG的成员已在HPC气象、制造、分子动力学等领域Top
 - HPC - [https://gitee.com/openeuler/hpc](https://gitee.com/openeuler/hpc)
 - Lammps - [https://gitee.com/src-openeuler/lammps](https://gitee.com/src-openeuler/lammps)
 - WRF - [https://gitee.com/src-openeuler/wrf](https://gitee.com/src-openeuler/wrf)
-
