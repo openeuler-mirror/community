@@ -1,0 +1,7 @@
+name: calls
+upstream: https://gitlab.gnome.org/GNOME/calls
+description: A phone dialer and call handler.
+branches:
+- name: master
+  type: protected
+type: public
