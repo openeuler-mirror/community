@@ -1,0 +1,7 @@
+name: libsoup3
+upstream: https://wiki.gnome.org/Projects/libsoup
+description: Soup, an HTTP library implementation
+branches:
+- name: master
+  type: protected
+type: public
