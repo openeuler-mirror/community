@@ -1,0 +1,98 @@
+name: sig-OS-Builder
+description: .
+mailing_list: dev@openeuler.org
+meeting_url: NA
+mature_level: startup
+maintainers:
+- gitee_id: yanan-rock
+  name: yanan
+  email: yanan@huawei.com
+- gitee_id: t_feng
+  name: fengtao
+  email: fengtao40@huawei.com
+- gitee_id: Anonymous_Z
+  name: zhangrui
+  email: zhangrui182@huawei.com
+- gitee_id: openeuler-basic
+  name: yangyang shen
+  email: shenyangyang4@huawei.com
+- gitee_id: overweight
+  name: xiaowen he
+  email: hexiaowen@huawei.com
+- gitee_id: Trainey
+  name: chunyi zhu
+  email: zhuchunyi@huawei.com
+- gitee_id: compile_success
+  name: junhao zhu
+  email: zhujunhao11@huawei.com
+repositories:
+- repo:
+  - src-openeuler/anaconda-user-help
+  - src-openeuler/anaconda
+  - src-openeuler/grub2
+  - src-openeuler/efibootmgr
+  - src-openeuler/ipxe
+  - src-openeuler/uboot-tools
+  - src-openeuler/install-scripts
+  - src-openeuler/blivet-gui
+  - openeuler/install-scripts
+  - src-openeuler/python-blivet
+  - src-openeuler/python-dasbus
+  - src-openeuler/python-pycdlib
+  - src-openeuler/syslinux
+  - src-openeuler/cobbler
+  - src-openeuler/efivar
+  - src-openeuler/cdrkit
+  - openeuler/install-scripts
+  - openeuler/wsl
+  committers:
+  - gitee_id: t_feng
+    name: fengtao
+    email: fengtao40@huawei.com
+  - gitee_id: yanan-rock
+    name: yanan
+    email: yanan@huawei.com
+  - gitee_id: zhangqiumiao
+    name: qiumiao zhang
+    email: zhangqiumiao1@huawei.com
+  - gitee_id: yanan-rock
+    name: yanan
+    email: yanan@huawei.com
+  contributors:
+  - gitee_id: sherlock2010
+    name: yihang zhou
+    email: zhouyihang3@h-partners.com
+- repo:
+  - src-openeuler/dnf-plugin-ovl
+  - src-openeuler/dnf-plugins-core
+  - src-openeuler/dnf
+  - src-openeuler/libdnf
+  - src-openeuler/libsolv
+  - src-openeuler/efi-rpm-macros
+  committers:
+  - gitee_id: Anonymous_Z
+    name: zhangrui
+    email: zhangrui182@huawei.com
+  - gitee_id: compile_success
+    name: zhujunhao
+    email: zhujunhao11@huawei.com
+  - gitee_id: orange-snn
+    name: nannan song
+    email: songnannan2@huawei.com
+- repo:
+  - openeuler/imageTailor
+  - openeuler/imageTailor
+  - openeuler/oemaker
+  - src-openeuler/bootupd
+  - src-openeuler/imageTailor
+  - src-openeuler/lorax
+  - src-openeuler/oemaker
+  committers:
+  - gitee_id: openeuler-basic
+    name: yangyang shen
+    email: shenyangyang4@huawei.com
+  - gitee_id: overweight
+    name: xiaowen he
+    email: hexiaowen@huawei.com
+  - gitee_id: Trainey
+    email: zhuchunyi@huawei.com
