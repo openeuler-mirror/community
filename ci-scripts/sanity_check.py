@@ -501,7 +501,7 @@ def check_100_v3(changed_repos, oe_repos, src_oe_repos, super_visor, community_d
                 pass
             sigs_attention.add(sig_name)
         elif status == 'D':
-            print("WARNING: deleting " + prefix + "/%s." % repo_name)
+            print("WARNING! deleting " + prefix + "/%s." % repo_name)
 
     if errors_found != 0:
         print(error_msg)
