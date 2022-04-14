@@ -1,135 +1,204 @@
 blacklist-software:
 - name: python2
   reason: upstream stops maintaining this software
+  upstream_url: https://www.python.org/ftp/python/2.7/
 - name: cdrkit
   reason: upstream stops maintaining this software
+  upstream_url: http://cdrkit.org/releases/
 - name: python-shadowsocks
   reason: openEuler cannot ship this software by default under applicable local laws
+  upstream_url: https://github.com/dgkang/shadowsocks-python
 - name: chrpath
   reason: upstream stops maintaining this software
+  upstream_url: https://alioth-archive.debian.org/releases/chrpath/
 - name: dmraid
   reason: upstream stops maintaining this software
+  upstream_url: https://people.redhat.com/~heinzm/sw/dmraid/src/
 - name: ftp
   reason: upstream stops maintaining this software
+  upstream_url: https://ftp.linux.org.uk/pub/linux/Networking/netkit/
 - name: gamin
   reason: upstream stops maintaining this software
+  upstream_url: https://download.gnome.org/sources/gamin/0.1/
 - name: GConf2
   reason: upstream stops maintaining this software
+  upstream_url: https://download.gnome.org/sources/GConf/3.2/
 - name: GeoIP
   reason: The latest version of this software is commercial only
+  upstream_url: https://github.com/maxmind/geoip-api-c/releases/
 - name: GeoIP-GeoLite-data
   reason: The latest version of this software is commercial only
+  upstream_url: http://download.maxmind.com/download/geoip/database/asnum/
 - name: geolite2
   reason: The latest version of this software is commercial only
+  upstream_url: https://dev.maxmind.com/geoip/geoip2/geolite2/
 - name: gtk2
   reason: upstream stops maintaining this software
+  upstream_url: https://download.gnome.org/sources/gtk+/2.24/
 - name: icfg
   reason: upstream stops maintaining this software
+  upstream_url: https://fedorahosted.org/releases/i/c/icfg/
 - name: libdb
   reason: The latest version of this software is commercial only
+  upstream_url: https://www.oracle.com/database/technologies/related/berkeleydb-downloads.html
 - name: libIDL
   reason: upstream stops maintaining this software
+  upstream_url: https://download.gnome.org/sources/libIDL/0.8/
 - name: libxklavier
   reason: upstream stops maintaining this software
+  upstream_url: https://people.freedesktop.org/~svu/
 - name: libXxf86misc
   reason: upstream stops maintaining this software
+  upstream_url: https://www.x.org/archive/individual/lib/
 - name: ORBit2
   reason: upstream stops maintaining this software
+  upstream_url: https://download.gnome.org/sources/ORBit2/2.14/
 - name: pam_krb5
   reason: upstream stops maintaining this software
+  upstream_url: https://releases.pagure.org/pam_krb5/
 - name: python-kmod
   reason: upstream stops maintaining this software
+  upstream_url: https://git.kernel.org/pub/scm/utils/kernel/kmod/kmod.git
 - name: sgpio
   reason: upstream stops maintaining this software
+  upstream_url: https://www.sourceware.org/lvm2/wiki/DMRAID_Eventing?action=AttachFile&do=view&target=sgpio-1.2.1.tgz
 - name: speex
   reason: upstream stops maintaining this software
+  upstream_url: https://ftp.osuosl.org/pub/xiph/releases/speex/
 - name: telnet
   reason: upstream stops maintaining this software
+  upstream_url: https://ftp.linux.org.uk/pub/linux/Networking/netkit/netkit-telnet-0.17.tar.gz
 - name: unique
   reason: upstream stops maintaining this software
+  upstream_url: https://download.gnome.org/sources/libunique/1.1/
 - name: vconfig
   reason: upstream stops maintaining this software
+  upstream_url: https://www.candelatech.com/~greear/vlan.html
 - name: procmail
   reason: upstream stops maintaining this software
+  upstream_url: http://ftp.kfki.hu/packages/mail/procmail/
 - name: oci-systemd-hook
   reason: upstream stops maintaining this software
+  upstream_url: https://github.com/mrunalp/hooks/
 - name: docker-anaconda-addon
   reason: upstream stops maintaining this software
+  upstream_url: https://github.com/rhinstaller/docker-anaconda-addon
 - name: python-hgdistver
   reason: upstream has been obsolated by setuptools_scm
+  upstream_url: https://pypi.org/project/hgdistver/#files
 - name: python-pytest-capturelog
   reason: upstream has been renamed to python-pytest-catchlog
+  upstream_url: https://pypi.org/project/pytest-catchlog/#files
 - name: python-clyent
   reason: upstream stops maintaining this software
+  upstream_url: https://pypi.org/project/clyent/#files
 - name: python-bitlyapi
   reason: upstream stops maintaining this software
+  upstream_url: https://pypi.org/project/bitlyapi/#files
 - name: python-randomize
   reason: upstream stops maintaining this software
+  upstream_url: https://pypi.org/project/randomize/#files
 - name: cookxml
   reason: upstream stops maintaining this software
+  upstream_url: https://sourceforge.net/projects/cookxml/files/cookxml/
 - name: crda
   reason: upstream stops maintaining this software
+  upstream_url: https://mirrors.edge.kernel.org/pub/software/network/wireless-regdb/
 - name: libkml
   reason: upstream stops maintaining this software
+  upstream_url: https://github.com/libkml/libkml/tree/wiki
 - name: libpng12
   reason: upstream stops maintaining this software
+  upstream_url: https://sourceforge.net/projects/libpng/files/libpng12/older-releases/1.2.57/
 - name: cowsay
   reason: upstream stops maintaining this software
+  upstream_url: https://github.com/tnalpgge/rank-amateur-cowsay
 - name: pwgen
   reason: upstream stops maintaining this software
+  upstream_url: https://sourceforge.net/projects/pwgen/files/pwgen/2.08/
 - name: python-django-babel
   reason: upstream stops maintaining this software
+  upstream_url: https://pypi.org/project/django-babel/#files
 - name: python-multi_key_dict
   reason: upstream stops maintaining this software
+  upstream_url: https://pypi.org/project/multi_key_dict/#files
 - name: python-unicodecsv
   reason: upstream stops maintaining this software
+  upstream_url: https://pypi.org/project/unicodecsv/#files
 - name: g2clib
   reason: upstream stops maintaining this software
+  upstream_url: https://github.com/NOAA-EMC/NCEPLIBS-grib_util
 - name: python2-typing
   reason: upstream stops maintaining this software
+  upstream_url: https://pypi.org/project/typing/#files
 - name: rubygem-session
   reason: upstream stops maintaining this software
+  upstream_url: https://rubygems.org/gems/session
 - name: rubygem-ronn
   reason: upstream stops maintaining this software
+  upstream_url: https://rubygems.org/gems/ronn/
 - name: pyorbit
   reason: upstream stops maintaining this software
+  upstream_url: http://ftp.gnome.org/pub/GNOME/sources/pyorbit/2.24/
 - name: python-subprocess32
   reason: upstream stops maintaining this software
+  upstream_url: https://pypi.org/project/subprocess32/#files
 - name: python-CouchDB
   reason: upstream stops maintaining this software
+  upstream_url: https://pypi.org/project/CouchDB2/#files
 - name: python-which
   reason: upstream stops maintaining this software
+  upstream_url: https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/which/which-1.1.0.zip
 - name: pygobject2
   reason: upstream stops maintaining this software
+  upstream_url: https://download.gnome.org/sources/pygobject/2.28/
 - name: pygtk2
   reason: upstream stops maintaining this software
+  upstream_url: https://download.gnome.org/sources/pygtk/2.24/
 - name: qtwebkit
   reason: upstream stops maintaining this software
+  upstream_url: https://download.kde.org/Attic/qtwebkit-2.3/2.3.4/src/
 - name: appstream-data
   reason: upstream stops maintaining this software
+  upstream_url: https://github.com/hughsie/appstream-glib
 - name: libkate
   reason: upstream stops maintaining this software
+  upstream_url: https://code.google.com/archive/p/libkate/downloads
 - name: libofa
   reason: upstream stops maintaining this software
+  upstream_url: https://code.google.com/archive/p/musicip-libofa/downloads
 - name: liboggz
   reason: upstream stops maintaining this software
+  upstream_url: https://github.com/kfish/liboggz
 - name: liboil
   reason: upstream stops maintaining this software
+  upstream_url: https://liboil.freedesktop.org/
 - name: rubygem-hpricot
   reason: upstream stops maintaining this software
+  upstream_url: https://rubygems.org/gems/hpricot/
 - name: python-gTTS-token
   reason: upstream stops maintaining this software
+  upstream_url: https://pypi.org/project/gTTS-token/#files
 - name: libgpod
   reason: upstream stops maintaining this software
+  upstream_url: https://github.com/fadingred/libgpod
 - name: perl-End
   reason: upstream stops maintaining this software
+  upstream_url: https://cpan.metacpan.org/authors/id/A/AB/ABIGAIL/
 - name: perl-CGI-Struct
-  reason: upstream stops maintaining this software 
+  reason: upstream stops maintaining this software
+  upstream_url: https://cpan.metacpan.org/authors/id/F/FU/FULLERMD/
 - name: jredis
   reason: upstream stops maintaining this software
+  upstream_url: https://github.com/alphazero/jredis
 - name: kelbt
   reason: upstream stops maintaining this software
+  upstream_url: http://www.complang.org/kelbt/
 - name: latrace
   reason: upstream stops maintaining this software
+  upstream_url: https://fedorapeople.org/cgit/jolsa/public_git/latrace.git
 - name: Perl-HTTP-Response-Encoding
-  reason: upstream stops maintaining this software  
+  reason: upstream stops maintaining this software
+  upstream_url: http://www.cpan.org/modules/by-module/HTTP/
+
+
