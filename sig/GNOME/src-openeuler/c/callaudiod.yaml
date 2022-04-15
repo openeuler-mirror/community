@@ -1,0 +1,7 @@
+name: callaudiod
+upstream: https://gitlab.com/mobian1/callaudiod
+description: Daemon for dealing with audio routing during phone calls.
+branches:
+- name: master
+  type: protected
+type: public
