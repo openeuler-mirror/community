@@ -1,0 +1,7 @@
+name: cmark
+upstream:  https://github.com/commonmark/cmark
+description: CommonMark parsing and rendering.
+branches:
+- name: master
+  type: protected
+type: public

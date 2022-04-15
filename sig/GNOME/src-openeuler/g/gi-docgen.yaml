@@ -1,0 +1,7 @@
+name: gi-docgen
+upstream: https://gitlab.gnome.org/GNOME/gi-docgen
+description: Documentation tool for GObject-based libraries.
+branches:
+- name: master
+  type: protected
+type: public
