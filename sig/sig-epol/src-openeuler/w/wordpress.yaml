@@ -1,0 +1,8 @@
+name: wordpress
+description: The largest self-hosted blogging tool in the world
+upstream: http://wordpress.org
+branches:
+- name: master
+  type: protected
+type: public
+
