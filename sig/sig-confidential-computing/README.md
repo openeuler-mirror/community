@@ -28,11 +28,6 @@ sig-confidential_computing主要讨论在openEuler社区版本中已有或未来
   - https://gitee.com/src-openeuler/itrustee_sdk
   - https://gitee.com/src-openeuler/intel-device-plugins-for-kubernetes
 
-### repository路标
-
-- secGear
-<img src="secGear_milestone.png" alt="secGear" style="zoom:80%;" />
-
 # 组织会议
 
 - 公开的会议时间：北京时间，每个月第一、第三周的周二下午，16点~17点
@@ -41,16 +36,17 @@ sig-confidential_computing主要讨论在openEuler社区版本中已有或未来
 
 ### Maintainer列表
 
-- blue0613
-- chenmaodong
-- wolfkernel
-- dongdo-yao
+- 高贵锦[@blue0613](https://gitee.com/blue0613), gaoguijin@huawei.com
+- 陈茂冬[@chenmaodong](https://gitee.com/chenmaodong), chenmaodong@xfusion.com
+- 张林浩[@wolfkernel](https://gitee.com/wolfkernel), zhanglinhao@huawei.com
+- 姚冬冬[@dongdo-yao](https://gitee.com/dongdo-yao), yaodongdong@huawei.com
+- 侯明永[@houmingyong](https://gitee.com/houmingyong), houmingyong@huawei.com
 
 ### Committer列表
 
-- whzhe
-- liwei3013
-- yanlu
+- 王宇[@BornThisWay](https://gitee.com/BornThisWay), wangyu283@huawei.com
+- 王城[@hzero1996](https://gitee.com/hzero1996), wangcheng156@huawei.com
 
 # 联系方式
 - 邮件列表: dev@openeuler.org
+- 微信：如果您对本SIG组感兴趣，请将您的个人微信账号发给侯明永，他会邀请您加入sig-机密计算微信群。
