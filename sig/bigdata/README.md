@@ -44,6 +44,7 @@
 - https://gitee.com/src-openeuler/bigtop
 - https://gitee.com/src-openeuler/flume
 - https://gitee.com/src-openeuler/notebook
+- https://gitee.com/src-openeuler/datafu
 
 ## 路线图
 
