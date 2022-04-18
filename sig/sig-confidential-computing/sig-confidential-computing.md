@@ -20,16 +20,16 @@ The sig-confidential_computing mainly discusses the existing or future confident
 
 ### Maintainer
 
-- blue0613
-- chenmaodong
-- wolfkernel
-- dongdo-yao
+- Guijin Gao[@blue0613](https://gitee.com/blue0613), gaoguijin@huawei.com
+- Maodong Chen[@chenmaodong](https://gitee.com/chenmaodong), chenmaodong@xfusion.com
+- Linhao Zhang[@wolfkernel](https://gitee.com/wolfkernel), zhanglinhao@huawei.com
+- Dongdong Yao[@dongdo-yao](https://gitee.com/dongdo-yao), yaodongdong@huawei.com
+- Mingyong Hou[@houmingyong](https://gitee.com/houmingyong), houmingyong@huawei.com
 
 ### Committer
 
-- whzhe
-- liwei3013
-- yanlu
+- Yu Wang[@BornThisWay](https://gitee.com/BornThisWay), wangyu283@huawei.com
+- Cheng Wang[@hzero1996](https://gitee.com/hzero1996), wangcheng156@huawei.com
 
 ### Deliverables
 
