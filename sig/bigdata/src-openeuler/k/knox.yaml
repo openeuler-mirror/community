@@ -1,0 +1,7 @@
+name: knox
+description: The Apache Knox™ Gateway is an Application Gateway for interacting with the REST APIs and UIs of Apache Hadoop deployments.
+upstream: https://github.com/apache/knox
+branches:
+- name: master
+  type: protected
+type: public

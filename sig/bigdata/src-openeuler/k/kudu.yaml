@@ -1,0 +1,7 @@
+name: kudu
+description: Apache Kudu is an open source distributed data storage engine that makes fast analytics on fast and changing data easy.
+upstream: https://github.com/apache/kudu
+branches:
+- name: master
+  type: protected
+type: public
