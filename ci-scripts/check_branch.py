@@ -139,76 +139,81 @@ class CheckBranch(object):
         else:
             raise FileError("ERROR: No file {0}".format(self.branch_map_yaml))
 
-    def _check_branch(self, mbranch, sbranch, pkg):
+    def _check_branch(self, p_branch, c_branch, pkg):
         """
         check
-        :parm mbranch: branch which now branch created from
-        :parm sbranch: now branch
+        :parm p_branch: parent branch
+        :parm c_branch: child branch to be forked from parent branch
         """
         pkg_name = pkg['name']
-        if sbranch == "master":
-            if mbranch:
-                raise CheckError("FAIL: {} master cannot branch from other branch".format(pkg_name))
-            else:
-                pass
-        elif sbranch.startswith("oepkg"):
+        if c_branch == "master" and p_branch:
+            raise CheckError("FAIL: {} tries to create \"master\" branch from other branch".format(pkg_name))
+        if c_branch != "master" and not p_branch:
+            raise CheckError("FAIL: {0} tries to create \"{1}\" branch without parent branch".format(pkg_name, c_branch))
+
+        if c_branch.startswith("oepkg") or not p_branch:
+            # Ignore branching rule for oepkg
+            # Ignore if p_branch is None
             return
         else:
-            self._check_main_branch(mbranch, pkg)
-            self._check_sub_branch(mbranch, sbranch, pkg_name=pkg_name)
+            self._check_parent_branch(p_branch, pkg)
+            self._check_child_branch(p_branch, c_branch, pkg_name=pkg_name)
 
-    def _check_main_branch(self, mbranch, pkg):
+    def _check_parent_branch(self, p_branch, pkg):
         """
-        check main branch which now branch created from
-        :parm mbranch: main branch
+        check parent branch which now branch created from
+        :parm p_branch: parent branch
         """
         pkg_name = pkg['name']
-        if mbranch not in [branch['name'] for branch in pkg['branches']]:
-            raise CheckError("FAIL: main branch {} does not exist in current repo yaml of {}".format(mbranch, pkg_name))
-        if mbranch not in self.branch_map["branch"].keys():
-            if mbranch.startswith("Multi"):
-                if mbranch.split("_")[-1] not in self.branch_map["branch"].keys():
-                    raise CheckError("FAIL: {0} Not found main branch {1}".format(pkg_name, mbranch.split("_")[-1]))
+        if p_branch not in [branch['name'] for branch in pkg['branches']]:
+            raise CheckError("FAIL: {1} tries to create from parent branch \"{0}\", "
+                    "but \"{0}\" does not exist in repo configuration".format(p_branch, pkg_name))
+        if p_branch not in self.branch_map["branch"].keys():
+            if p_branch.startswith("Multi-Version"):
+                if p_branch.split("_")[-1] not in self.branch_map["branch"].keys():
+                    raise CheckError("FAIL: {0} tries to create Multi-Version branch based on \"{1}\", "
+                            "which is not permitted by configuration.".format(pkg_name, p_branch.split("_")[-1]))
             else:
-                raise CheckError("FAIL: {0} Not found main branch {1}".format(pkg_name, mbranch))
+                raise CheckError("FAIL: {0} tries to create new branch from parent branch \"{1}\", "
+                        "which is not permitted by configuration.".format(pkg_name, p_branch))
 
-    def _check_sub_branch(self, mbranch, sbranch, pkg_name=''):
+    def _check_child_branch(self, p_branch, c_branch, pkg_name=''):
         """
-        check sub branch
-        :parm mbranch: main branch
-        :parm sbranch: sub branch
+        check child branch
+        :parm p_branch: parent branch
+        :parm c_branch: child branch
         """
-        if mbranch not in self.branch_map["branch"].keys():
-            if mbranch.startswith("Multi"):
-                mbranch = mbranch.split("_")[-1]
-            elif mbranch.startswith("oepkg"):
-                if "_oe" in mbranch:
-                    mbranch = mbranch.split("_")[-1].replace("oe", "openEuler")
+        if p_branch not in self.branch_map["branch"].keys():
+            if p_branch.startswith("Multi"):
+                p_branch = p_branch.split("_")[-1]
+            elif p_branch.startswith("oepkg"):
+                if "_oe" in p_branch:
+                    p_branch = p_branch.split("_")[-1].replace("oe", "openEuler")
             else:
-                raise CheckError("FAIL: {0} main branch is wrong".format(pkg_name))
+                raise CheckError("FAIL: {0} tries to fork from an invalid branch \"{1}\"".format(pkg_name, p_branch))
 
-        if sbranch not in self.branch_map["branch"][mbranch]:
-            sb = sbranch.split("_")
-            if sbranch.startswith("Multi"):
+        if c_branch not in self.branch_map["branch"][p_branch]:
+            sb = c_branch.split("_")
+            if c_branch.startswith("Multi"):
                 if "Multi-Version" != sb[0]:
-                    raise CheckError("FAIL: {0} sub branch {1} is wrong".format(pkg_name, sbranch))
-                if sb[-1] not in self.branch_map["branch"][mbranch]:
-                    raise CheckError("FAIL: {0} sub branch {1}\'s {2} not found in list given by main branch "
-                                     "{3}".format(pkg_name, sbranch, sb[-1], mbranch))
+                    raise CheckError("FAIL: {0} tries to create Multi-Version branch, "
+                            "but \"{1}\" is not valid name.".format(pkg_name, c_branch))
+                if sb[-1] not in self.branch_map["branch"][p_branch]:
+                    raise CheckError("FAIL: {0} tries to create child branch \"{1}\" from parent branch \"{2}\", "
+                            "which is not permitted by configuration.".format(pkg_name, c_branch, p_branch))
             else:
-                raise CheckError(
-                    "FAIL: {0} sub branch {1} not found in list given by main branch {2}".format(pkg_name, sbranch,
-                                                                                                 mbranch))
+                raise CheckError("FAIL: {0} tries to create child branch \"{1}\" from parent branch \"{2}\", "
+                            "which is not permitted by configuration.".format(pkg_name, c_branch, p_branch))
 
     @staticmethod
-    def _check_createfrom_valid(reponame, sbranches, mbranches):
+    def _check_createfrom_valid(reponame, c_branches, p_branches):
         """
         check if the create_from branch is created or creating.
         """
-        for br in mbranches:
+        for br in p_branches:
             if br is None:
                 continue
-            if br not in sbranches:
+            if br not in c_branches:
                 raise CheckError(
                     "FAIL: Branch( {0} ) of repo( {1} ) is not created or creating but in "
                     "create_from.".format(br, reponame))
@@ -248,13 +253,13 @@ class CheckBranch(object):
         :return:
         """
         for bch in history_branches:
-            sbranch = bch['name']
-            if sbranch == "master":
-                mbranch = None
+            c_branch = bch['name']
+            if c_branch == "master":
+                p_branch = None
             else:
-                mbranch = bch['create_from']
+                p_branch = bch['create_from']
             try:
-                self._check_branch(mbranch, sbranch, pkg)
+                self._check_branch(p_branch, c_branch, pkg)
             except CheckError as e:
                 print(str(e).replace('FAIL', 'WARNING'))
                 self.warn_flag = self.warn_flag + 1
@@ -270,13 +275,12 @@ class CheckBranch(object):
         :return:
         """
         for bch in changed_branches:
-            sbranch = bch['name']
-            if sbranch == "master":
-                mbranch = None
-            else:
-                mbranch = bch['create_from']
+            c_branch = bch['name']
+
+            p_branch = bch.get('create_from', None)
+
             try:
-                self._check_branch(mbranch, sbranch, pkg)
+                self._check_branch(p_branch, c_branch, pkg)
             except CheckError as e:
                 print(e)
                 self.error_flag = self.error_flag + 1
