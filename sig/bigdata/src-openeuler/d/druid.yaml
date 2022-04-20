@@ -1,0 +1,7 @@
+name: druid
+description: Apache Durid is a real-time database to power modern analytics application.
+upstream: https://github.com/apache/druid
+branches:
+- name: master
+  type: protected
+type: public

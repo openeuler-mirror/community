@@ -1,0 +1,7 @@
+name: llama
+description: Llama is a Yarn Application Master that mediates the management and monitoring of cluster resources between Impala and Yarn.
+upstream: https://github.com/cloudera/llama
+branches:
+- name: master
+  type: protected
+type: public
