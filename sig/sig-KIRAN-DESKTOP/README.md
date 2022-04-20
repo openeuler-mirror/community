@@ -15,12 +15,11 @@
 ### Maintainer列表
 
 - stonefly128
-- doudou19
-
+- tangjie02
+- liubuguiii
 
 ### Committer列表
 
-- tangjie02
 - yuan__xing
 - liuxingxiang
 
