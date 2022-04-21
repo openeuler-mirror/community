@@ -1,0 +1,12 @@
+name: kiran-menu
+description: Redesigned start menu for Mate Desktop
+type: public
+branches:
+- name: master
+  type: protected
+- name: 2.1
+  type: protected
+  create_from: master
+- name: 2.2
+  type: protected
+  create_from: master

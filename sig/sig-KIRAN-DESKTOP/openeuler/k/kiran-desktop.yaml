@@ -1,0 +1,15 @@
+name: kiran-desktop
+description: All dependent packages required to manage Kiran desktop environment
+type: public
+branches:
+- name: master
+  type: protected
+- name: 2.1
+  type: protected
+  create_from: master
+- name: 2.2
+  type: protected
+  create_from: master
+- name: 2.3
+  type: protected
+  create_from: master

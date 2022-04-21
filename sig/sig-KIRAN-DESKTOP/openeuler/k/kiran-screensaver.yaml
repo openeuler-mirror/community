@@ -1,0 +1,9 @@
+name: kiran-screensaver
+description: This program provides screensaver backend.
+type: public
+branches:
+- name: master
+  type: protected
+- name: 2.2
+  type: protected
+  create_from: master
