@@ -81,6 +81,7 @@ English | [简体中文](./sig-KIRAN-DESKTOP_cn.md)
 ### Maintainers
 - stonefly128
 - tangjie02
+- liubuguiii
 
 ### Committers
 - liuxingxiang
