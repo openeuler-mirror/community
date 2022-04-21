@@ -1,0 +1,9 @@
+name: kiran-qt5-integration
+description: Kiran desktop platform integration plugin
+type: public
+branches:
+- name: master
+  type: protected
+- name: 2.3
+  type: protected
+  create_from: master

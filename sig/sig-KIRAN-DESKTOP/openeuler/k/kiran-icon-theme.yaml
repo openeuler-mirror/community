@@ -1,0 +1,9 @@
+name: kiran-icon-theme
+description: The kiran-icon-theme package contains the standard icon theme for the Kiran desktop, which provides default appearance for icons.
+type: public
+branches:
+- name: master
+  type: protected
+- name: 2.2
+  type: protected
+  create_from: master

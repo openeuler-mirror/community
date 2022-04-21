@@ -1,0 +1,9 @@
+name: kiran-biometrics
+description: Kiran Biometrics is used do fprint and face auth for system.
+type: public
+branches:
+- name: master
+  type: protected
+- name: 2.2
+  type: protected
+  create_from: master

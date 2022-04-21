@@ -1,0 +1,9 @@
+name: kiran-calculator
+description: This is a calculator with three modes which contain standard, science and programmer.
+type: public
+branches:
+- name: master
+  type: protected
+- name: 2.2
+  type: protected
+  create_from: master

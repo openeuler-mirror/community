@@ -1,0 +1,10 @@
+name: kiran-authentication-service
+description: Kiran authentication service is used to do system auth with password, fingerprint, face
+type: public
+branches:
+- name: master
+  type: protected
+- name: 2.2
+  type: protected
+  create_from: master
+  

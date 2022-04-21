@@ -1,0 +1,9 @@
+name: kiran-panel
+description: Kiran side main panel which include start menu, taskbar, system tray and calendar plugins.
+type: public
+branches:
+- name: master
+  type: protected
+- name: 1.22
+  type: protected
+  create_from: master

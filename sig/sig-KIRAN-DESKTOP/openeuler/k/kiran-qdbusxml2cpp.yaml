@@ -1,0 +1,9 @@
+name: kiran-qdbusxml2cpp
+description: Produces the C++ code to implement the dbus interfaces defined in the input file.
+type: public
+branches:
+- name: master
+  type: protected
+- name: 2.2
+  type: protected
+  create_from: master
