@@ -1,5 +1,5 @@
 name: sig-AccLib
-description: The AccLib team is responsible for exploring high-performace acceleration technologies and solutions such as accelerator hardware engines and acceleration instructions.
+description: The AccLib team is responsible for exploring high-performance acceleration technologies and solutions such as accelerator hardware engines and acceleration instructions.
 
 mailing_list: acc@openeuler.org
 meeting_url: https://etherpad.openeuler.org/p/sig-AccLib-meetings
@@ -23,6 +23,8 @@ maintainers:
   email: zhangxuelei4@huawei.com
 repositories:
 - repo:
+  - openeuler/uadk
+  - openeuler/uadk_engine
   - openeuler/libwd
   - openeuler/libkae
   - openeuler/kae_driver
