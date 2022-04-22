@@ -77,14 +77,22 @@ def check_0_v3(community):
                     sys.exit(1)
                 elif match_obj[3] == "openeuler": 
                     oe_repo = load_yaml(root, f)
-                    if oe_repo['name']+".yaml" != f:
-                        print("%s is not consistent with name %s in yaml"%(fn, oe_repo['name']))
+                    if not isinstance(oe_repo, dict):
+                        print("%s has wrong YAML format, it needs to be dict instead of list."%(fn))
+                        sys.exit(1)
+                    fname = oe_repo.get('name', 'missing_name')
+                    if fname +".yaml" != f:
+                        print("%s is not consistent with name %s in yaml"%(fn, fname))
                         sys.exit(1)
                     oe_repos.append(oe_repo)
                 elif match_obj[3] == "src-openeuler":
                     src_repo = load_yaml(root, f)
-                    if src_repo['name']+".yaml" != f:
-                        print("%s is not consistent with name %s in yaml"%(fn, src_repo['name']))
+                    if not isinstance(src_repo, dict):
+                        print("%s has wrong YAML format, it needs to be dict instead of list."%(fn))
+                        sys.exit(1)
+                    fname = src_repo.get('name', 'missing_name')
+                    if fname+".yaml" != f:
+                        print("%s is not consistent with name %s in yaml"%(fn, fname))
                         sys.exit(1)
                     src_oe_repos.append(src_repo)
             elif f.endswith(".yaml") and "openeuler" in fn:
@@ -463,12 +471,27 @@ def check_100(oe_repos, srcoe_repos, super_visor, community_dir):
                 continue
             else:
                 print(sig, end=': ')
-                owners = load_yaml(community_dir, "sig/" + sig + "/OWNERS")["maintainers"]
+                #owners = load_yaml(community_dir, "sig/" + sig + "/OWNERS")["maintainers"]
+                owners = load_owners(community_dir, sig)
                 for owner in owners:
                     print("@" + owner, end=' ')
                 print("")
 
     return errors_found
+
+def load_owners(community_dir, sig):
+    owner_path = os.path.expanduser(os.path.join(community_dir, "sig/"+sig+"/OWNERS"))
+    if os.path.exists(owner_path):
+        return load_yaml(community_dir, "sig/"+sig+"/OWNERS")["maintainers"]
+
+    siginfo_path = os.path.expanduser(os.path.join(community_dir, "sig/"+sig+"/sig-info.yaml"))
+    if os.path.exists(siginfo_path):
+        siginfo = load_yaml(community_dir, "sig/"+sig+"/sig-info.yaml")["maintainers"]
+        return [owner["gitee_id"] for owner in siginfo]
+
+    print("WARNING! Failed to get maintainer information from OWNERS or sig-info.yaml")
+    return []
+
 
 def check_100_v3(changed_repos, oe_repos, src_oe_repos, super_visor, community_dir):
     """
@@ -516,7 +539,7 @@ def check_100_v3(changed_repos, oe_repos, src_oe_repos, super_visor, community_d
                 continue
             else:
                 print(sig, end=': ')
-                owners = load_yaml(community_dir, "sig/" + sig + "/OWNERS")["maintainers"]
+                owners = load_owners(community_dir, sig)
                 for owner in owners:
                     print("@" + owner, end=' ')
                 print("")
