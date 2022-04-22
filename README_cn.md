@@ -14,7 +14,7 @@
 - [openEuler社区介绍](/zh/governance)
 - 社区治理组织架构
     - [安全委员会](/zh/security-committee)
-    - [技术委员会](/zh/technical-committee)
+    - [技术委员会](/sig/TC)
     - [SIG](https://www.openeuler.org/zh/sig/sig-list/)
 - 社区活动: [直播](https://www.openeuler.org/zh/interaction/live-list/)&[沙龙](https://www.openeuler.org/zh/interaction/salon-list/)&[峰会](https://www.openeuler.org/zh/interaction/summit-list/)
 - [开发者贡献指南](https://www.openeuler.org/zh/community/contribution/)
