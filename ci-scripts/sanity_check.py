@@ -471,12 +471,27 @@ def check_100(oe_repos, srcoe_repos, super_visor, community_dir):
                 continue
             else:
                 print(sig, end=': ')
-                owners = load_yaml(community_dir, "sig/" + sig + "/OWNERS")["maintainers"]
+                #owners = load_yaml(community_dir, "sig/" + sig + "/OWNERS")["maintainers"]
+                owners = load_owners(community_dir, sig)
                 for owner in owners:
                     print("@" + owner, end=' ')
                 print("")
 
     return errors_found
+
+def load_owners(community_dir, sig):
+    owner_path = os.path.expanduser(os.path.join(community_dir, "sig/"+sig+"/OWNERS"))
+    if os.path.exists(owner_path):
+        return load_yaml(community_dir, "sig/"+sig+"/OWNERS")["maintainers"]
+
+    siginfo_path = os.path.expanduser(os.path.join(community_dir, "sig/"+sig+"/sig-info.yaml"))
+    if os.path.exists(siginfo_path):
+        siginfo = load_yaml(community_dir, "sig/"+sig+"/sig-info.yaml")["maintainers"]
+        return [owner["gitee_id"] for owner in siginfo]
+
+    print("WARNING! Failed to get maintainer information from OWNERS or sig-info.yaml")
+    return []
+
 
 def check_100_v3(changed_repos, oe_repos, src_oe_repos, super_visor, community_dir):
     """
@@ -524,7 +539,7 @@ def check_100_v3(changed_repos, oe_repos, src_oe_repos, super_visor, community_d
                 continue
             else:
                 print(sig, end=': ')
-                owners = load_yaml(community_dir, "sig/" + sig + "/OWNERS")["maintainers"]
+                owners = load_owners(community_dir, sig)
                 for owner in owners:
                     print("@" + owner, end=' ')
                 print("")
