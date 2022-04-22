@@ -77,14 +77,22 @@ def check_0_v3(community):
                     sys.exit(1)
                 elif match_obj[3] == "openeuler": 
                     oe_repo = load_yaml(root, f)
-                    if oe_repo['name']+".yaml" != f:
-                        print("%s is not consistent with name %s in yaml"%(fn, oe_repo['name']))
+                    if not isinstance(oe_repo, dict):
+                        print("%s has wrong YAML format, it needs to be dict instead of list."%(fn))
+                        sys.exit(1)
+                    fname = oe_repo.get('name', 'missing_name')
+                    if fname +".yaml" != f:
+                        print("%s is not consistent with name %s in yaml"%(fn, fname))
                         sys.exit(1)
                     oe_repos.append(oe_repo)
                 elif match_obj[3] == "src-openeuler":
                     src_repo = load_yaml(root, f)
-                    if src_repo['name']+".yaml" != f:
-                        print("%s is not consistent with name %s in yaml"%(fn, src_repo['name']))
+                    if not isinstance(src_repo, dict):
+                        print("%s has wrong YAML format, it needs to be dict instead of list."%(fn))
+                        sys.exit(1)
+                    fname = src_repo.get('name', 'missing_name')
+                    if fname+".yaml" != f:
+                        print("%s is not consistent with name %s in yaml"%(fn, fname))
                         sys.exit(1)
                     src_oe_repos.append(src_repo)
             elif f.endswith(".yaml") and "openeuler" in fn:
