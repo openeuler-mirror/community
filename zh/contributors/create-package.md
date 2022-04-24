@@ -47,13 +47,13 @@ git clone https://gitee.com/"$username"/community.git
    * 建仓：在 sig/{sig目录}/src-openeuler/软件名首字母 新增下对应的yaml文件(openeuler社区维护项目: openeuler目录；其他社区引入包: src-openeuler目录。示例参考：sig/Base-service/src-openeuler/z/zip.yaml)
 
    ```yaml
-   - name: pkgname
-     description: about pkgname
-     upstream: https://somepkg.org/
-     branches:
-     - name: master
-       type: protected
-     type: public
+   name: pkgname
+   description: about pkgname
+   upstream: https://somepkg.org/
+   branches:
+   - name: master
+     type: protected
+   type: public
    ```
 
    * 提交PR（请参考[PR提交指南](https://gitee.com/openeuler/community/blob/master/zh/contributors/pull-request.md)，PR合入后将会在gitee建立同名仓库。查看地址：[src-openeuler](https://gitee.com/src-openeuler)。同时在obs上建立同名仓库，可在obs网站查看：https://build.openeuler.org/project/show/openEuler:Factory
