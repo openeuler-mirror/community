@@ -1,0 +1,52 @@
+name: sig-cinnamon
+description: The cinnamon SIG is committed to introducing cinnamon desktop into the openEuler community, and performing related adaptation, migration and optimization, making it one of the server desktop environments officially supported by the openEuler community.
+mailing_list: NA
+meeting_url: NA
+mature_level: gratuated
+mentors:
+maintainers:
+- gitee_id: dwl301
+  name: DingWenlong
+  organization: TurboLinux
+  email: wenlong.ding@turbolinux.com.cn
+- gitee_id: zhang__3125
+  name: ZhangLin
+  organization: TurboLinux
+  email: lin.zhang@turbolinux.com.cn
+- gitee_id: weijin-deng
+  name: DengWeijin
+  organization: TurboLinux
+  email: weijin.deng@turbolinux.com.cn
+- gitee_id: zxf_tl
+  name: ZhuangXiaofan
+  organization: TurboLinux
+  email: xiaofan.zhuang@turbolinux.com.cn
+repositories:
+- repo:
+  - src-openeuler/cinnamon
+  - src-openeuler/cinnamon-control-center
+  - src-openeuler/cinnamon-desktop
+  - src-openeuler/cinnamon-menu
+  - src-openeuler/cinnamon-screensaver
+  - src-openeuler/cinnamon-session
+  - src-openeuler/cinnamon-settings-daemon
+  - src-openeuler/cinnamon-spices-applets
+  - src-openeuler/cinnamon-spices-desklets
+  - src-openeuler/cinnamon-spices-extensions
+  - src-openeuler/cinnamon-spices-themes
+  - src-openeuler/cinnamon-themes
+  - src-openeuler/cjs
+  - src-openeuler/nemo
+  - src-openeuler/nemo-extensions
+  - src-openeuler/mdm
+  - src-openeuler/mdm-themes
+  - src-openeuler/muffin
+  committers:
+  - gitee_id: liangwenhao
+    name: LiangWenhao
+    organization: TurboLinux
+    email: wenhao.liang@turbolinux.com.cn
+  - gitee_id: zpflying
+    name: ZhangPengfei
+    organization: TurboLinux
+    email: pengfei.zhang@turbolinux.com.cn
