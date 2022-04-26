@@ -3,4 +3,7 @@ description: ceph_dev is a project focus on some feature developing based on cep
 branches:
 - name: master
   type: protected
+- name: wip-zlib-uadk-plugin
+  type: protected
+  create_from: master
 type: public
