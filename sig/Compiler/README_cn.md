@@ -19,9 +19,12 @@ Compiler SIG 每双周周二上午10:00进行线上例会，也会定期举办�
  - 姜 飞龙[@jiangfeilong](https://gitee.com/jiangfeilong1003) 邮箱: jiangfeilong@huawei.com
  - 章 海剑[@Haijian.Zhang](https://gitee.com/haijianzhang) 邮箱: z.zhanghaijian@huawei.com
  - 乔 沛鑫[@peixin-qiao](https://gitee.com/peixin-qiao) 邮箱: qiaopeixin@huawei.com
- - 赵 羽[@zhaoyu_hit](https://gitee.com/zhaoyu_hit) email: zhaoyu64@huawei.com
- - 史 海[@shihai1991](https://gitee.com/shihai1991) email: shihai3@huawei.com
- - 张一鹏[@eapen](https://gitee.com/eapen) email:zhangyipeng7@huawei.com
+ - 赵 羽[@zhaoyu_hit](https://gitee.com/zhaoyu_hit) 邮箱: zhaoyu64@huawei.com
+ - 史 海[@shihai1991](https://gitee.com/shihai1991) 邮箱: shihai3@huawei.com
+ - 张 一鹏[@eapen](https://gitee.com/eapen) 邮箱: zhangyipeng7@huawei.com
+ - 李 彦成[@li-yancheng](https://gitee.com/li-yancheng) 邮箱: liyancheng@huawei.com
+ - 黄 晓权[@huang-xiaoquan](https://gitee.com/huang-xiaoquan) 邮箱: huangxiaoquan1@huawei.com
+ - 林 达[@benniaobufeijiushiji](https://gitee.com/benniaobufeijiushiji) 邮箱: linda7@huawei.com
 
 ## 代码仓
  - [bishengjdk-8](https://gitee.com/openeuler/bishengjdk-8)
@@ -116,11 +119,14 @@ Compiler SIG 每双周周二上午10:00进行线上例会，也会定期举办�
    - Maintainers
      - 张 高峰[@hserror](https://gitee.com/hserror) 邮箱: zhanggaofeng9@huawei.com
      - 贺 东博[@Noah](https://gitee.com/jvmboy) 邮箱: hedongbo@huawei.com
- - [gcc](https://gitee.com/src-openeuler/gcc)
+ - [gcc](https://gitee.com/openeuler/gcc) & [src-openeuler/gcc](https://gitee.com/src-openeuler/gcc)
    - Maintainers
      - 谢 志恒[@eastb233](https://gitee.com/eastb233) 邮箱: xiezhiheng@huawei.com
    - Committers
      - 章 海剑[@Haijian.Zhang](https://gitee.com/haijianzhang) 邮箱: z.zhanghaijian@huawei.com
+     - 李 彦成[@li-yancheng](https://gitee.com/li-yancheng) 邮箱: liyancheng@huawei.com
+     - 黄 晓权[@huang-xiaoquan](https://gitee.com/huang-xiaoquan) 邮箱: huangxiaoquan1@huawei.com
+     - 林 达[@benniaobufeijiushiji](https://gitee.com/benniaobufeijiushiji) 邮箱: linda7@huawei.com
  - [gcc-anti-sca](https://gitee.com/openeuler/gcc-anti-sca)
    - Maintainers
      - 谢 志恒[@eastb233](https://gitee.com/eastb233) 邮箱: xiezhiheng@huawei.com
@@ -155,18 +161,20 @@ Compiler SIG 每双周周二上午10:00进行线上例会，也会定期举办�
  - [llvm-libunwind](https://gitee.com/src-openeuler/llvm-libunwind)
    - Maintainers
      - 郭 培林[@peilin-guo](https://gitee.com/peilin-guo) 邮箱: guopeilin1@huawei.com
- - [cpython](https://gitee.com/openeuler/CPython)
+ - [CPython](https://gitee.com/openeuler/CPython)
    - Maintainers
      - 彭 成寒[@Ryan Peng](https://gitee.com/pengryan) 邮箱: pengchenghan@huawei.com
    - Committers
-     - 赵 羽[@zhaoyu_hit](https://gitee.com/zhaoyu_hit) email: zhaoyu64@huawei.com
-     - 史 海[@shihai1991](https://gitee.com/shihai1991) email: shihai3@huawei.com
+     - 赵 羽[@zhaoyu_hit](https://gitee.com/zhaoyu_hit) 邮箱: zhaoyu64@huawei.com
+     - 史 海[@shihai1991](https://gitee.com/shihai1991) 邮箱: shihai3@huawei.com
  - [autofdo](https://gitee.com/src-openeuler/autofdo)
    - Maintainers
-     - 彭 成寒[@Ryan Peng](https://gitee.com/pengryan) 邮箱: pengchenghan@huawei.com
+     - 谢 志恒[@eastb233](https://gitee.com/eastb233) 邮箱: xiezhiheng@huawei.com
+   - Committers
+     - 李 彦成[@li-yancheng](https://gitee.com/li-yancheng) 邮箱: liyancheng@huawei.com
  - [flang](https://gitee.com/src-openeuler/flang)
    - Maintainers
-     - 彭 成寒[@Ryan Peng](https://gitee.com/pengryan) 邮箱: pengchenghan@huawei.com
+     - 郭 培林[@peilin-guo](https://gitee.com/peilin-guo) 邮箱: guopeilin1@huawei.com
    - Committers
      - 乔 沛鑫[@peixin-qiao](https://gitee.com/peixin-qiao) 邮箱: qiaopeixin@huawei.com
  - [bishengjdk-build](https://gitee.com/openeuler/bishengjdk-build)
@@ -174,7 +182,20 @@ Compiler SIG 每双周周二上午10:00进行线上例会，也会定期举办�
      - 王 坤[@kuenking111](https://gitee.com/kuenking111) 邮箱: wangkun49@huawei.com
      - 贺 东博[@Noah](https://gitee.com/jvmboy) 邮箱: hedongbo@huawei.com
    - Committers
-     - 张 一鹏[@eapen](https://gitee.com/eapen) 邮箱:zhangyipeng7@huawei.com
+     - 张 一鹏[@eapen](https://gitee.com/eapen) 邮箱: zhangyipeng7@huawei.com
+ - [A-FOT](https://gitee.com/openeuler/A-FOT) & [src-openeuler/A-FOT](https://gitee.com/src-openeuler/A-FOT)
+   - Maintainers
+     - 谢 志恒[@eastb233](https://gitee.com/eastb233) 邮箱: xiezhiheng@huawei.com
+   - Committers
+     - 李 彦成[@li-yancheng](https://gitee.com/li-yancheng) 邮箱: liyancheng@huawei.com
+ - [gcc-cross](https://gitee.com/src-openeuler/gcc-cross)
+   - Maintainers
+     - 谢 志恒[@eastb233](https://gitee.com/eastb233) 邮箱: xiezhiheng@huawei.com
+   - Committers
+     - 李 彦成[@li-yancheng](https://gitee.com/li-yancheng) 邮箱: liyancheng@huawei.com
+ - [binutils](https://gitee.com/src-openeuler/binutils)
+   - Maintainers
+     - 谢 志恒[@eastb233](https://gitee.com/eastb233) 邮箱: xiezhiheng@huawei.com
 
 ## 联系
  - 邮件: dev@openeuler.org
