@@ -84,6 +84,7 @@ KIRAN-DESKTOP SIG小组致力于将KIRAN-DESKTOP 引入至 openEuler 社区中�
 - liuxingxiang
 - yuan__xing 
 - Bmen
+- luoqing_kylinsec
 
 ### 对外联系人
 - Dave110
