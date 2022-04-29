@@ -55,4 +55,5 @@ repository地址：
 
 - https://gitee.com/src-openeuler/rust
 - https://gitee.com/src-openeuler/rustup
+- https://gitee.com/src-openeuler/rust-cbindgen
 - https://gitee.com/src-openeuler/rust-packaging
