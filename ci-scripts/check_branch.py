@@ -81,7 +81,7 @@ class CheckBranch(object):
         current_branch = self.get_current_branch()
         subprocess.call('git checkout master >/dev/null', shell=True)
         for i in os.listdir('sig'):
-            if i in ['README.md', 'sig-template']:
+            if i in ['README.md', 'sig-template', 'create_sig_info_template.py']:
                 continue
             if 'openeuler' in os.listdir(os.path.join('sig', i)):
                 for filesdir, _, repos in os.walk(os.path.join('sig', i, 'openeuler')):
