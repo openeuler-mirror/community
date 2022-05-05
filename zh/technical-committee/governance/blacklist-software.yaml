@@ -200,5 +200,7 @@ blacklist-software:
 - name: Perl-HTTP-Response-Encoding
   reason: upstream stops maintaining this software
   upstream_url: http://www.cpan.org/modules/by-module/HTTP/
-
+- name: python-spec
+  reason: upstream stops maintaining this software
+  upstream_url: https://github.com/bitprophet/spec
 
