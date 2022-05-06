@@ -17,7 +17,7 @@ import sys
 import yaml
 
 SIG_INFO_FIELDS = ['name', 'description', 'mailing_list', 'meeting_url', 'mature_level', 'mentors', 'maintainers',
-                   'repositories']
+                   'repositories', 'created_on']
 SIG_INFO_REQUIRED_FIELDS = ['name', 'maintainers', 'repositories']
 
 
