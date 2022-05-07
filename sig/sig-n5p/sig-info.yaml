@@ -1,0 +1,43 @@
+name: sig-n5p
+description: Maintain and upgrade the source code of N5P within openEuler.
+mailing_list: sig-n5p@openeuler.org
+meeting_url: NA
+mature_level: startup
+mentors:
+- gitee_id: dynamichust
+  name: Qin Yifang
+  email: qinyifang@cnic.cn
+maintainers:
+- gitee_id: zhang-xinqing
+  name: Zhang Xinqing
+  organization: CNIC
+  email: zhangxinqing21@mails.ucas.ac.cn
+- gitee_id: JerryHuang407
+  name: Huang Yongjin
+  organization: CNIC
+  email: huangyongjin@cnic.cn
+- gitee_id: li-zhuojian
+  name: Li Zhuojian
+  organization: CNIC
+  email: 528785263@qq.com
+repositories:
+- repo: 
+  - openeuler/n5p-core
+  committers:
+  - gitee_id: dynamichust
+    name: Qin Yifang
+    organization: CNIC
+    email: qinyifang@cnic.cn
+  - gitee_id: zhang-xinqing
+    name: Zhang Xinqing
+    organization: CNIC
+    email: zhangxinqing21@mails.ucas.ac.cn
+  - gitee_id: JerryHuang407
+    name: Huang Yongjin
+    organization: CNIC
+    email: huangyongjin@cnic.cn
+  contributors:
+  - gitee_id: li-zhuojian
+    name: Li Zhuojian
+    organization: CNIC
+    email: 528785263@qq.com
