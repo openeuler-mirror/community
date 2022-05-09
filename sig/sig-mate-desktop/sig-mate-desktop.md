@@ -47,6 +47,7 @@ Cross-domain and externally-oriented processes and actions defined and implement
 - fengjian (@hostfj)
 - wangjing (@wangjing95) 
 - xzyangha (@xzyangha)
+- tangjie02 (@tangjie02)
 ### Committers
 - fengjian (@hostfj)
 - wuxiaotian (@isoft-linux)
