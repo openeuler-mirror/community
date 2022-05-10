@@ -27,12 +27,14 @@ mate-desktop
 - 杨显钊 <xianzhao.yang@i-soft.com.cn> [[@xzyangha](https://gitee.com/xzyangha)]
 - 李国强<guoqiang.li@i-soft.com.cn>[[@li_guoqiang9](https://gitee.com/li_guoqiang9)]
 - 刘家杰<jiajie.liu@i-soft.com.cn> [[@isoftljj](https://gitee.com/isoftljj)] 
+- 唐杰<tangjie02@kylinsec.com.cn> [[@tangjie02](https://gitee.com/tangjie02)]
 
 ### Maintainer列表
 
 - 杨显钊<xianzhao.yang@i-soft.com.cn> [[@xzyangha](https://gitee.com/xzyangha)]
 - 李国强<guoqiang.li@i-soft.com.cn>[[@li_guoqiang9](https://gitee.com/li_guoqiang9)]
 - 刘家杰<jiajie.liu@i-soft.com.cn> [[@isoftljj](https://gitee.com/isoftljj)]
+- 唐杰<tangjie02@kylinsec.com.cn> [[@tangjie02](https://gitee.com/tangjie02)]
 
 
 
