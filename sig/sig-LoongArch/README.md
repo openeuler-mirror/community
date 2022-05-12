@@ -1,5 +1,5 @@
 # LoongArch SIG
-LoongArch SIG指在促进openEuler对LoongArch架构支持、协调LoongArch架构更新与openEuler版本发布同步、推进工具链、内核、基础库、虚拟机、API环境等基础软件生态建设与openEuler社区主线版本同步并协同创新、推动openEuler与其它开源社区LoongArch架构的良性互动，实现良性循环、组织LoongArch产业链与openEuler社区协同进行生态建设 
+LoongArch SIG旨在促进openEuler对LoongArch架构支持、协调LoongArch架构更新与openEuler版本发布同步、推进工具链、内核、基础库、虚拟机、API环境等基础软件生态建设与openEuler社区主线版本同步并协同创新、推动openEuler与其它开源社区LoongArch架构的良性互动，实现良性循环、组织LoongArch产业链与openEuler社区协同进行生态建设 
 
 
 # 组织会议
