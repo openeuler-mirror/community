@@ -13,10 +13,13 @@ LoongArch SIG旨在促进openEuler对LoongArch架构支持、协调LoongArch架�
 - 侯 芳东[@user_7621737](https://gitee.com/houfangdong) email: houfangdong@loongson.cn
 - 马 海亮[@Hailiang](https://gitee.com/mahailiang) email: mahailiang@uniontech.com
 - 金 旭[@jinxu1992](https://gitee.com/jinxu1992) email: jinxu@kylinos.cn
+- 周 强[@Dave110](https://gitee.com/Dave110) email: zhouqiang@kylinos.com.cn
 
 
 ### Committer列表
-- 侯 芳东[@user_7621737](https://gitee.com/houfangdong) email: houfangdong@loongson.cn
+- 李 星[@ixing-loongson-cn](https://gitee.com/lixing-loongson-cn) email: lixing@loongson.cn 
+- 张洪臣[@Hongchen_Zhang] (https://gitee.com/Hongchen_Zhang) email:  zhanghongchen@loongson.cn 
+- 龙成[@longcheng01](https://gitee.com/longcheng01) email: longcheng@kylinsec.com.cn
 
 # 联系方式
 - LoongArch@openeuler.org
