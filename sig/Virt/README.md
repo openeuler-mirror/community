@@ -28,6 +28,8 @@
 - 郑川[@Chuan-Zheng](https://gitee.com/Chuan-Zheng)
 - 朱科潜[@kevinzhu1](https://gitee.com/kevinzhu1)
 - 杨杰[@frankyj915](https://gitee.com/frankyj915)
+- 叶增软[@yezengruan](https://gitee.com/yezengruan)
+- 张波[@ooorz](https://gitee.com/ooorz)
 
 ### Committer List
 
