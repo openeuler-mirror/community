@@ -1,0 +1,7 @@
+name: iceberg
+description: Apache Iceberg is a new table format for storing large, slow-moving tabular data.
+upstream: https://github.com/apache/iceberg
+branches:
+- name: master
+  type: protected
+type: public
