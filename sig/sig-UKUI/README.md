@@ -27,7 +27,7 @@ UKUI 是麒麟软件桌面研发团队开发的基于 Linux 发行版的轻量�
 
 ### Committers列表
 - 华亚东[@hua_yadong](https://gitee.com/hua_yadong)
-- 裴建康[@pei-jiankang](https://gitee.com/pei-jiankang)
+- 裴建康[@peijiankang](https://gitee.com/peijiankang)
 
 
 # 联系方式
