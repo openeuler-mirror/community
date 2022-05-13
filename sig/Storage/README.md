@@ -104,3 +104,4 @@ repository地址：
 - https://gitee.com/src-openeuler/etmem
 - https://gitee.com/openeuler/extfuse
 - https://gitee.com/src-openeuler/extfuse
+- https://gitee.com/openeuler/stortrace
