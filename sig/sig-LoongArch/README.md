@@ -9,7 +9,6 @@ LoongArch SIG旨在促进openEuler对LoongArch架构支持、协调LoongArch架�
 
 ### Maintainer列表
 
-- 王 洪虎[@loongson_whh](https://gitee.com/lsnwhb) email: wanghonghu@loongson.cn
 - 侯 芳东[@user_7621737](https://gitee.com/houfangdong) email: houfangdong@loongson.cn
 - 马 海亮[@Hailiang](https://gitee.com/mahailiang) email: mahailiang@uniontech.com
 - 金 旭[@jinxu1992](https://gitee.com/jinxu1992) email: jinxu@kylinos.cn
