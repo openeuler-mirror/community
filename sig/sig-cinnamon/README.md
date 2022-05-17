@@ -57,3 +57,4 @@ repository地址：
 - https://gitee.com/src-openeuler/mdm
 - https://gitee.com/src-openeuler/mdm-themes
 - https://gitee.com/src-openeuler/muffin
+- https://gitee.com/src-openeuler/cinnamon-translations

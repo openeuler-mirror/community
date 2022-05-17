@@ -54,6 +54,7 @@ English | [简体中文](./sig-cinnamon_cn.md)
 - https://gitee.com/src-openeuler/mdm
 - https://gitee.com/src-openeuler/mdm-themes
 - https://gitee.com/src-openeuler/muffin
+- https://gitee.com/src-openeuler/cinnamon-translations
 
 
 ## Basic Information
