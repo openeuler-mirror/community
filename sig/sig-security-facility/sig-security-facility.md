@@ -81,6 +81,7 @@ What and in what form the SIG is responsible for delivering
   - src-openeuler/audit
   - src-openeuler/nss-pem
   - src-openeuler/tpm2-abrmd-selinux
+  - src-openeuler/strongswan
 
 
 ### Repositories and description managed by this SIG
