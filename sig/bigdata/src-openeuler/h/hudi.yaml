@@ -1,0 +1,7 @@
+name: hudi
+description: Apache Hudi (pronounced Hoodie) stands for Hadoop Upserts Deletes and Incrementals.
+upstream: https://github.com/apache/hudi
+branches:
+- name: master
+  type: protected
+type: public

@@ -70,7 +70,7 @@ https://gitee.com/openeuler/community/tree/master/sig/sig-UKUI/
 
 ### Committers
 - hua_yadong
-- pei-jiankang
+- peijiankang
 
 ### Mailing list
 - dev@openeuler.org
