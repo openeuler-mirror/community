@@ -25,10 +25,6 @@ Assist in solving the problems encountered in the integration of power products 
 -Management of all relevant documents, meetings, mailing lists and IRC of power sig group
 
 
-### Repositories and description managed by this SIG
-Compiler
-Kernel
-
 ## Basic Information
 
 ## Maintainers
