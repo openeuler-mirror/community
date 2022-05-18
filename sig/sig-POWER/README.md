@@ -45,6 +45,3 @@ sig-POWER
 项目名称：sig-POWER
 
 repository地址：https://gitee.com/openeuler/sig-POWER
-
-- 
-- 
