@@ -52,6 +52,7 @@ Cinnamon 支持在线安装包括 Applet、Desklet、extensions 等类型的插�
 - https://gitee.com/src-openeuler/mdm
 - https://gitee.com/src-openeuler/mdm-themes
 - https://gitee.com/src-openeuler/muffin
+- https://gitee.com/src-openeuler/cinnamon-translations
 
 
 ## SIG基本信息
