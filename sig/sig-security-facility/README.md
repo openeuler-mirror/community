@@ -64,6 +64,7 @@ sig-security_facility主要讨论在openEuler社区版本中已有或未来规�
    - src-openeuler/swtpm
    - src-openeuler/libtpms
    - src-openeuler/oath-toolkit
+   - src-openeuler/strongswan
 
 
 ## 组织会议
