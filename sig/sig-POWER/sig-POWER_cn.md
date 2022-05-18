@@ -32,8 +32,6 @@ Kernel
 ## Maintainers
 - 吴佳欢 @wujiahuan_sz
 - 戚连生 @qi-liansheng
-- 汤玮 @brucetang
-- 徐继辉 @glacier7610
 - 陈保文 @baowenchen
 
 
