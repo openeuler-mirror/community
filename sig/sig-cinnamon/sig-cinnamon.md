@@ -57,6 +57,7 @@ English | [简体中文](./sig-cinnamon_cn.md)
 - https://gitee.com/src-openeuler/cinnamon-translations
 - https://gitee.com/src-openeuler/inxi
 - https://gitee.com/src-openeuler/perl-XML-Dumper
+- https://gitee.com/src-openeuler/xapps
 
 
 ## Basic Information
