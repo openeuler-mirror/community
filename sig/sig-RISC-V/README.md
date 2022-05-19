@@ -14,8 +14,16 @@ RISC-V 是一个免费开源的指令集（ISA）。RISC-V SIG 组旨在提供 o
 
 ## 组织会议
 
-- 公开的会议时间：每双周一次，周四上午 10:00 - 10:30 。
-- 加入方式请联系 Maintainer 。
+- 公开的会议时间：每双周一次，北京时间周四上午 9:30 - 10:00 以公开线上会议形式讨论sig组议题。会议前一天发起sig组相关议题收集，并发出会议时间和会议链接。
+
+- 具体参会方式：
+
+  - 方式一：openEuler官网（https://www.openeuler.org/zh/ ）查看会议列表；
+  - 方式二：加入“openEuler RISC-V SIG 技术交流群”查看会议通知（参考下文添加吴伟老师微信入群）
+
+- 会议纪要链接：https://etherpad.openeuler.org/p/sig-RISC-V-meetings
+
+  
 
 ## 成员
 
@@ -24,25 +32,45 @@ RISC-V 是一个免费开源的指令集（ISA）。RISC-V SIG 组旨在提供 o
 - Wei Wu [@wuwei_plct](https://gitee.com/wuwei_plct), wuwei2016@iscas.ac.cn
 - Xuzhou Zhang [@whoisxxx](https://gitee.com/whoisxxx), zhangxuzhou4@huawei.com
 - liqingqing_1229 [@liqingqing_1229](https://gitee.com/liqingqing_1229)
-- Junqiang Wang [@wangjunqiangs](https://gitee.com/wangjunqiangs), wangjunqiang@iscas.ac.cn
-- Jing Xi [@phoebe-xi](https://gitee.com/phoebe-xi), xijing@iscas.ac.cn
 - 黎亮 [@liliang_euler](https://gitee.com/liliang_euler), liliang889@huawei.com
+- Junqiang Wang [@geasscore](https://gitee.com/geasscore), wangjunqiang@iscas.ac.cn
+- Jing Xi [@phoebe-xi](https://gitee.com/phoebe-xi), xijing@iscas.ac.cn
+- Yang Wang [@wangyangdahai](https://gitee.com/wangyangdahai)，admin@you2.top
+- Kai Zhang [@laokz](https://gitee.com/laokz)，laokz@foxmail.com
+- Dong Du [@dongduResearcher](https://gitee.com/dongduResearcher)，Dd_nirvana@sjtu.edu.cn
 
 ### Committer 列表
 
 - Wei Wu [@wuwei_plct](https://gitee.com/wuwei_plct), wuwei2016@iscas.ac.cn
 - Xuzhou Zhang [@whoisxxx](https://gitee.com/whoisxxx), zhangxuzhou4@huawei.com
 - Qingqing Li [@liqingqing_1229](https://gitee.com/liqingqing_1229)
-- Junqiang Wang [@wangjunqiangs](https://gitee.com/wangjunqiangs), wangjunqiang@iscas.ac.cn
+- Junqiang Wang [@geasscore](https://gitee.com/geasscore), wangjunqiang@iscas.ac.cn
 - Jing Xi [@phoebe-xi](https://gitee.com/phoebe-xi), xijing@iscas.ac.cn
+- Yang Wang [@wangyangdahai](https://gitee.com/wangyangdahai)，admin@you2.top
+- Kai Zhang [@laokz](https://gitee.com/laokz)，laokz@foxmail.com
+- Dong Du [@dongduResearcher](https://gitee.com/dongduResearcher)，Dd_nirvana@sjtu.edu.cn
+- Jiacheng Zhou [@jchzhou](https://gitee.com/jchzhou)
+- JingWei Wang [@Jingwiw](https://gitee.com/Jingwiw)
+- Xin Liu [@misaka00251](https://gitee.com/misaka00251)
+- Xiaoqian Lv [@lvxiaoqian](https://gitee.com/lvxiaoqian)
+- Jie Wu [@jean9823](https://gitee.com/jean9823)
+- Yunxiang Luo [@yunxiangluo](https://gitee.com/yunxiangluo)
+- Fuyuan Zhang [@chuachuaa](https://gitee.com/chuachuaa)
+
+更多commiter详见[RISC-V贡献者列表](https://gitee.com/openeuler/RISC-V/contributors?ref=master)
+
+
 
 ## 联系方式
 
-- [邮件列表，目前共用openEuler dev列表](dev@openeuler.org)
-- 视频会议
-- 微信：加入RISC -V sig的微信群，一起进行讨论，欢迎分享你的想法
+- 微信：添加wu wei老师微信（**添加请备注 oerv**），加入RISC -V sig的微信群
 
-<img src="./sig-RISC-V-WeChatGroup.jpg" width="30%" height="30%">
+<img src="./wuwei.jpg" width="30%" height="30%">
+
+- 邮箱：通过maintainer邮箱联系
+- 邮件列表：目前共用openEuler dev列表：dev@openeuler.org
+
+
 
 ## 项目清单
 
@@ -51,19 +79,6 @@ RISC-V 是一个免费开源的指令集（ISA）。RISC-V SIG 组旨在提供 o
 源码repository地址：
 
 - https://gitee.com/openeuler/RISC-V   RISC-V主仓，包含文档、工具和RISC-V工程配置
+- https://gitee.com/organizations/openeuler-risc-v/projects openEuler-RISC-V 是专门为openeuler RISC-V sig创建的源码仓，用于管理那些在riscv64架构下构建失败需要修复的软件包
 - https://gitee.com/src-openeuler/opensbi  openSBI是“Open Source Supervisor Binary Interface”用于引导RISC-V系统的启动
-- https://gitee.com/src-openeuler/risc-v-kernel 用于openEuler RISC-V的kernel-5.5 Image 
-- https://gitee.com/src-openeuler/NutShell-riscv-pk 支持openEuler面向NutShell(果壳, UCAS)处理器bootloader,内核镜像,DST构建.
-- https://gitee.com/src-openeuler/NutShell-Kernel 支持openEuler面向NutShell(果壳, UCAS)处理器的内核源码、驱动、.config内核配置项等.
-- https://gitee.com/src-openeuler/NutShell-systemd 支持openEuler OS在NutShell UCAS COOSCA CPU运行，ttyPS0，udev等，处理器仿真环境为Xilinx FPGA PYNQ-Z2.
-- https://gitee.com/src-openeuler/NutShell-riscv-glibc 工具链的riscv glibc库，用于编译构建面向NutShell UCAS COOSCA处理器openEuler OS组件.
-- https://gitee.com/src-openeuler/firesim    FireSim is an open-source cycle-accurate FPGA-accelerated full-system hardware simulation platform that runs on cloud FPGAs.
-
-RPM Repo和Image地址：
-
-- https://isrc.iscas.ac.cn/mirror/openeuler-sig-riscv/oe-RISCV-repo 面向RISC-V的RPM二进制包、SRPM源码包, 并提供软件包安装更新的repo服务.
-- https://isrc.iscas.ac.cn/mirror/openeuler-sig-riscv/images/ 根文件系统rootfs、虚拟磁盘镜像、内核、openSBI、BBL等二进制镜像材料.
-
-硬件平台支持:
-
-- https://isrc.iscas.ac.cn/mirror/openeuler-sig-riscv/images/NutShellUCAS/ 移植支持NutShell(果壳, UCAS) RISC-V处理器支持的镜像资源.
+- https://gitee.com/src-openeuler/risc-v-kernel 用于openEuler RISC-V的kernel Image 
