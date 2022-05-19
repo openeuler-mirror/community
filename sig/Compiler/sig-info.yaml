@@ -31,7 +31,6 @@ maintainers:
 repositories:
 - repo:
   - openeuler/bishengjdk-8
-  - openeuler/bishengjdk-11
   - openeuler/bishengjdk-17
   - src-openeuler/openjdk-1.8.0
   - src-openeuler/openjdk-11
@@ -46,6 +45,21 @@ repositories:
   - openeuler/bishengjdk-riscv
   - src-openeuler/openjdk-11
   committers:
+  - gitee_id: yd_wang
+    name: yadong Wang
+    organization: Huawei
+    email: yadonn.wang@huawei.com
+  - gitee_id: jiangfeilong1003
+    name: feilong Jiang
+    organization: Huawei
+    email: jiangfeilong@huawei.com
+- repo:
+  - openeuler/bishengjdk-11
+  committers:
+  - gitee_id: jdkboy
+    name: ge Guo
+    organization: Huawei
+    email: guoge1@huawei.com
   - gitee_id: yd_wang
     name: yadong Wang
     organization: Huawei
