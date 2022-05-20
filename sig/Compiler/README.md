@@ -99,6 +99,11 @@ Tuesday 10 am bi-weekly, UTC+8.
    - Maintainers
      - 张 高峰[@hserror](https://gitee.com/hserror) email: zhanggaofeng9@huawei.com
      - 贺 东博[@Noah](https://gitee.com/jvmboy) email: hedongbo@huawei.com
+ - [BiSheng-Adoptium](https://gitee.com/openeuler/BiSheng-Adoptium)
+   - Maintainers
+     - 贺 东博[@Noah](https://gitee.com/jvmboy) email: hedongbo@huawei.com
+     - 王 坤[@kuenking111](https://gitee.com/kuenking111) email: wangkun49@huawei.com
+     - 张 高峰[@hserror](https://gitee.com/hserror) email: zhanggaofeng9@huawei.com
  - [openeuler/openjfx8](https://gitee.com/openeuler/bgmprovider)
    - Maintainers
      - 张 高峰[@hserror](https://gitee.com/hserror) email: zhanggaofeng9@huawei.com

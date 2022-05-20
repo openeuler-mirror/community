@@ -99,6 +99,11 @@ Compiler SIG 每双周周二上午10:00进行线上例会，也会定期举办�
    - Maintainers
      - 张 高峰[@hserror](https://gitee.com/hserror) 邮箱: zhanggaofeng9@huawei.com
      - 贺 东博[@Noah](https://gitee.com/jvmboy) 邮箱: hedongbo@huawei.com
+ - [BiSheng-Adoptium](https://gitee.com/openeuler/BiSheng-Adoptium)
+   - Maintainers
+     - 贺 东博[@Noah](https://gitee.com/jvmboy) email: hedongbo@huawei.com
+     - 王 坤[@kuenking111](https://gitee.com/kuenking111) email: wangkun49@huawei.com
+     - 张 高峰[@hserror](https://gitee.com/hserror) email: zhanggaofeng9@huawei.com
  - [openeuler/openjfx8](https://gitee.com/openeuler/bgmprovider)
    - Maintainers
      - 张 高峰[@hserror](https://gitee.com/hserror) 邮箱: zhanggaofeng9@huawei.com
