@@ -27,7 +27,6 @@
 ### Maintainer列表
 
 - xuqimeng[@xqm227](http://gitee.com/xqm227)
-- zhangxuelei[@derekpush](https://gitee.com/derekpush)
 - zhongkeyi[@realzhongkeyi](https://gitee.com/realzhongkeyi)
 - fanghao[@hao-fang](https://gitee.com/hao-fang)
 
