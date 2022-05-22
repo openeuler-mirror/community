@@ -1,0 +1,8 @@
+name: nload
+description: A console application which monitors network traffic and bandwidth usage in real time
+upstream: https://github.com/rolandriegel/nload
+branches:
+- name: master
+  type: protected
+type: public
+

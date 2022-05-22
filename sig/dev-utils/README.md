@@ -69,6 +69,7 @@ jingxiaolu
 - https://gitee.com/src-openeuler/perl-Regexp-Common
 - https://gitee.com/src-openeuler/cloc
 - https://gitee.com/src-openeuler/htop
+- https://gitee.com/src-openeuler/nload
 - https://gitee.com/src-openeuler/nmon
 - https://gitee.com/src-openeuler/multitail
 - https://gitee.com/src-openeuler/nng
