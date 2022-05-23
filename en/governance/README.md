@@ -17,7 +17,7 @@ openEuler has the following official organizations:
 
 + **Committee**: A group of people who are assigned to take care of some topics. Although the community encourages being as open as possible, personal communication is allowed due to the sensitivity of the topics undertaken by this group of people. Such as security committee, financial committee, etc.
 
-+ **SIG**: A persistent and open team focused on **specific domain**. This team achieves specific delivery goals through regular tasks and activities. SIG has an open and transparent process, which follows openEuler's [code of conduct](/code-of-conduct.md). Anyone can participate and contribute. Find SIGs in <https://openeuler.org/en/sig.html>. 
++ **SIG**: A persistent and open team focused on **specific domain**. This team achieves specific delivery goals through regular tasks and activities. SIG has an open and transparent process, which follows openEuler's [code of conduct](./../../code-of-conduct_en.md). Anyone can participate and contribute. Find SIGs in <https://openeuler.org/en/sig.html>. 
 
 + **Sub-projects**: Sub-projects are established within the SIG to achieve **specific delivery goals or results** and can work independently. A subproject has one or more repositories, which are the main output organization of the openEuler community. All sub-projects are in the SIG to which they belong. If the project's deliverables need to enter the community distribution scope, you can submit an application to the technical committee. Please refer to [SIG application guidance](/en/technical-committee/governance/README.md).
 

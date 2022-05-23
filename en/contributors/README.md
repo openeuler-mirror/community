@@ -52,7 +52,7 @@ You must sign a [Contributor License Agreement](https://clasign.osinfra.cn/sign/
 
 ## Community Code of Conduct
 
-openEuler is an open source community, which relies on the friendly development and collaboration environment jointly maintained by the members. Read and comply with the [Code of Conduct](/code-of-conduct.md) of the openEuler community before contributing to the community.
+openEuler is an open source community, which relies on the friendly development and collaboration environment jointly maintained by the members. Read and comply with the [Code of Conduct](./../../code-of-conduct_en.md) of the openEuler community before contributing to the community.
 
 
 
