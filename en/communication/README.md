@@ -7,6 +7,6 @@ For SIGs and individuals, it is recommended to use IRC channel as the basic comm
 
 ### Mail
 
-If you want to start an open topics discussion, sending an email to the relavant mail-list is another good choice. Visit [Mail lists](Mails.md) to get detailed introduction.
+If you want to start an open topics discussion, sending an email to the relevant mailing list is another good choice. Visit [Mailing Lists](Mails.md) to get detailed introduction.
 
 

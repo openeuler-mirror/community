@@ -1,4 +1,4 @@
-# Community Member
+# Community Membership
 
 
 This article briefly describes the responsibilities and privilege of the contributor in the openEuler community. The responsibilities of most contributor are limited to SIG (Special Interest groups) :
@@ -65,18 +65,18 @@ Committers can review the quality and correctness of code in SIG or some parts o
 
 ### Responsibility and Privilege
 
-+  **Review PR**：Review the PR submitted by contributor. The review can refer to [编程建议]() and [安全编程规范]().
-+  **Distribute and deal with problems**:Please refer to [问题处理流程]() .
++  **Review PR**：Review the PR submitted by contributor. The review can refer to community coding suggestions and [openEuler Secure Coding Guide](https://gitee.com/openeuler/security-committee/blob/master/guide/SecureCoding.md).
++  **Distribute and deal with problems**: Please refer to [Issue Submission and Handling Guide](./en/contributors/issue-submit.md) .
 +  **Tracking dependency issues**：In the development branch, software package's dependencies in the SIG may be broken due to the software package updates in other SIG. At this time, the Committer will receive an alert. Then, the committer should try to rebuild the software package. Because dependency problem may prevent users from updating the system, the build team will also participates in rebuilding packages that have dependency issues, but the Maintainer should not rely on these works.
 +  **Notify SIG that may be affected due to interface changes**：Because other SIGs or projects rely on software package of this SIG, changes to the package interface may affect them. Maintainer should review the dependency impact caused by decision changes. Then Maintainer should announce and send alert emails of API or ABI changes. 
-Those work should be completed at least one week before the change occurs, and all SIGs that may be affected should be notified. For detailed informationes please refer to [接口变更通知流程]().
-+  **Update and maintain package version**：Follow the startegy of [软件包更新质量控制策略]() and complete the package update.
+Those work should be completed at least one week before the change occurs, and all SIGs that may be affected should be notified. For detailed information, please refer to [API Change Notification Process]().
++  **Update and maintain package version**：Follow the strategy of [Software Package Update Quality Control Policies]() and complete the package update.
 +  **Collaborate with upstream community**, including:
    +    Push all changes to upstream community
    +    Participate in upstream community mailing list
    +    Get the account of the Bug Tracker of the upstream community, and track the important bugs of the upstream community 
    +    Push serious errors to upstream community for help
-         For further information, please refer to [上游社区软件包管理建议]()
+         For further information, please refer to [Upstream Software Package Management Suggestions]()
 +  **Collaborate with test team** including:
    +  When you submit the software packages, the information how to debug and classify the packages should be provided to QA for problem classification
    +  Provide basic functional test cases for regression testing
