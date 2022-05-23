@@ -1,9 +1,41 @@
 name: sig-HPC
 description: openEuler High Performance Computing(HPC) SIG
+mailing_list: hpc@openeuler.org
+meeting_url: NA
 mature_level: startup
-committers:
-- gitee_id: brucema78
-  name: Bruce.Ma
-  email: majian@kylinos.cn
+maintainers:
+- gitee_id: iotwins
+  name: chunlin fang
+  organization: Huawei
+  email: fangchunlin@huawei.com
+- gitee_id: luyao201
+  name: luyao
+  email: tanluyao@huawei.com
+- gitee_id: hejiancong557
+  name: hejiancong
+  email: hejiancong1@huawei.com
 repositories:
-- repo: src-openeuler/WRF
+- repo:
+  - src-openeuler/wrf
+  - src-openeuler/lammps
+  committers:
+  - gitee_id: henrywang7
+    name: haili Wang
+    organization: Huawei
+    email: wanghaili4@h-partners.com
+- repo:
+  - openeuler/hpcrunner
+  - openeuler/hpc
+  committers:
+  - gitee_id: iotwins
+    name: chunlin fang
+    organization: Huawei
+    email: fangchunlin@huawei.com
+  - gitee_id: luyao201
+    name: luyao
+    organization: Huawei
+    email: tanluyao@huawei.com
+  - gitee_id: hejiancong557
+    name: hejiancong
+    organization: Huawei
+    email: hejiancong1@huawei.com
