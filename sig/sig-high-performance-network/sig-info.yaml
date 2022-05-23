@@ -8,9 +8,9 @@ mentors:
   name: luzhihao
   email: luzhihao@huawei.com
 maintainers:
-- gitee_id: Hubble_Zhu
-  name: zhuhengbo
-  email: zhuhengbo1@huawei.com
+- gitee_id: wu-changsheng
+  name: wuchangsheng
+  email: wuchangsheng2@huawei.com
 - gitee_id: LemmyHuang
   name: huangliming
   email: huangliming5@huawei.com
@@ -20,47 +20,38 @@ maintainers:
 - gitee_id: bitcoffee
   name: liuxin
   email: liuxin264@huawei.com
-committers:
+- gitee_id: speech_white
+  name: humin
+  email: humin29@huawei.com
+- gitee_id: li-yangyang20
+  name: liyangyang
+  email: liyangyang20@huawei.com
 repositories:
-- repo: src-openeuler/dpdk
-  additional_contributors:
-  - gitee_id: seuzw
-    name: zhaowei
-    email: 930zhaowei@163.com
-  - gitee_id: speech_white
-    name: humin
-    email: humin29@huawei.com
-  - gitee_id: wu-changsheng
-    name: wuchangsheng
-    email: 851744572@qq.com
-- repo: src-openeuler/rdma-core
-  additional_contributors:
-  - gitee_id: overweight
-    name: hexiaowen
-    email: hexiaowen@huawei.com
-- repo: src-openeuler/libbpf
-- repo: src-openeuler/goebpf
-- repo: src-openeuler/xdp-tools
-- repo: src-openeuler/libvma
-  additional_contributors:
-  - gitee_id: seuzw
-    name: zhaowei
-    email: 930zhaowei@163.com
-- repo: src-openeuler/polycube
-- repo: src-openeuler/libkefir
-- repo: src-openeuler/cilium
-- repo: src-openeuler/katran
-- repo: src-openeuler/pistache
-- repo: src-openeuler/libyang
-- repo: src-openeuler/libtins
-- repo: src-openeuler/go-bindata
-- repo: src-openeuler/seastar
-- repo: src-openeuler/gazelle-cni
-- repo: openeuler/gazelle-cni
-- repo: openeuler/tarsier
-- repo: src-openeuler/dwarves
-- repo: src-openeuler/swagger-codegen
-- repo: src-openeuler/pyang-swagger
-- repo: src-openeuler/pyang
-- repo: src-openeuler/tarsier
-- repo: src-openeuler/lwip
+- repo:
+  - src-openeuler/dpdk
+  - src-openeuler/rdma-core
+  - src-openeuler/libbpf
+  - src-openeuler/goebpf
+  - src-openeuler/xdp-tools
+  - src-openeuler/libvma
+  - src-openeuler/polycube
+  - src-openeuler/libkefir
+  - src-openeuler/cilium
+  - src-openeuler/katran
+  - src-openeuler/pistache
+  - src-openeuler/libyang
+  - src-openeuler/libtins
+  - src-openeuler/go-bindata
+  - src-openeuler/seastar
+  - src-openeuler/gazelle
+  - src-openeuler/gazelle-cni
+  - openeuler/dpdk
+  - openeuler/gazelle
+  - openeuler/gazelle-cni
+  - openeuler/tarsier
+  - src-openeuler/dwarves
+  - src-openeuler/swagger-codegen
+  - src-openeuler/pyang-swagger
+  - src-openeuler/pyang
+  - src-openeuler/tarsier
+  - src-openeuler/lwip
