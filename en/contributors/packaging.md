@@ -1,264 +1,519 @@
-# openEuler软件打包指南
+# openEuler Packaging Guide
 
-目录
 
-- [软件打包基础说明](#id1)
-  - [打包规则](#id1-1)
-  - [打包基础知识](id1-2)
-- [openEuler打包规则](#id2)
-  - [软件包拆分/合并规则](#id2-1)
-- [SPEC编写规范](#id3)
-  - SPEC文件说明
-  - [openEuler custom amcros](#id4)
-  - [软件打包验证](#id5)
-  
-- [范例说明](#id5)
-  - [范例一](#id5-1)
-  - [范例二](#id5-2)
-  - [范例三](#id5-3)
-  - [范例四](#id5-4)
-  - [范例五](#id5-5)
 
+**Contributing to This Guide**
 
+You can contribute to this guide by submitting an issue or PR on the Gitee repository. Both forms of contribution are highly appreciated and welcome.
 
-<h2 id="id1">软件打包基础</h2>
+RPM packages are important for Linux distributions. According to @myeuler, making yourself an expert in Linux is similar to preparing yourself for becoming a great chef. The first step is to get familiar with and identify various foodstuffs, be able to prepare food, and identify the taste of various dishes. The same thing goes for building RPM packages. Only when you are familiar with the structure and content of RPM packages and the dependencies between them, can you lay a solid foundation for becoming an OS expert.
 
-**打包** 是指编译并捆绑软件与元数据，例如软件全名、描述、正常运行所需要的依赖列表等的动作。这是为了让软件使用者可以使用类似RPM等软件包管理器，方便舒服的对其所使用的软件进行安装、升级或者删除。
+This document describes how to make an RPM package. The detailed rules for building RPM packages are described in different specifications and will be updated and optimized continuously.
 
+## Packaging Software
 
+Creating an RPM package, also called packaging, refers to the task of compiling and binding software and metadata, such as the full name of the software, description, and dependency list required for normal running. This is to allow software users to install, remove, or upgrade the software comfortably using a package manager.
 
-<h3 id="id1-1">打包规则</h3>
-openEuler社区综合了多个开源项目的软件包，并把他们集成到一个系统中。所以规范化多种多样的开源项目到一个连贯的系统中是非常有必要的。此处简要描述openEuler社区的打包规则：
+### Packaging Rules
 
-- 我们遵守一般的[Linux基础标准（LSB）]()。该标准致力于减少各个发现版之间的差异；
+openEuler tries to normalize a variety of open source projects into a coherent system. This packaging guide is drafted to standardize RPM building.
 
-- 我们遵守[Linux文件系统层级标准（FHS）]()。该标准主要是关于如何管理Linux文件系统层级的参考；
+- openEuler complies with the [Linux Standard Base (LSB)](http://www.linuxbase.org/). This standard base aims to reduce the differences between distributions.
+- openEuler also complies with the [Filesystem Hierarchy Standard (FHS)](http://www.pathname.com/fhs/). This standard is a reference on how to manage the Linux filesystem hierarchy.
+- In addition to following these general rules for Linux distributions, this document standardizes the actual details of packaging for the openEuler community edition.
 
-- 除了遵守以上Linux发行版通常都会默认遵守的规则，本指南还规范化了为openEuler社区的软件包打包的的规则要求。
+### Packaging Basics
 
-  
+Before using this document to create the RPM and SPEC files, you are advised to familiarize yourself with the following knowledge. The first two items are necessary for creating a high-quality software package, and the last two items are helpful for participating in openEuler contributions.
 
-<h3 id="id1-2">打包基础知识</h3>
-一个软件包（假设软件包名为*pgname*）通常会拆分成多个RPM包：
+|      | Skill                                                        |      | Reference                                                        |
+| :--: | ------------------------------------------------------------ | ---- | ------------------------------------------------------------ |
+|  1   | RPM software package management (including software installation, upgrade, uninstallation, compilation, and building)         | Mandatory| [RPM's official website](https://rpm.org)                                  |
+|  2   | Official RPM packaging guide                                             | Mandatory| [RPM Packaging Guide](https://rpm-packaging-guide.github.io/)|
+|  3   | Using the Open Build Service (OBS). openEuler uses OBS to build releases.| Optional| [RPM Packaging Guide](https://rpm-packaging-guide.github.io/)|
+|  4   | Gitee routine operations (openEuler code is hosted at gitee.com/openEuler.)    | Optional| [Gitee Support Center](https://gitee.com/help#article-header0)|
 
-- **与软件包同名的主包**：包括命令、配置、动态库（简单的软件无需对外提供libs时会使用）等
+### Related Document
 
-- **libs包**：提供动态库，供二次开发和使用，通常命名为*pgname*-libs
+If you want to introduce software into the openEuler official software repository, refer to the [Contribution Guide](https://www.openeuler.org/en/community/contribution/detail.html).
 
-- **开发用devel包**：提供动态库、编译使用的头文件，两者命名方式和拆分原则一致？？？？？，通常命名为*pgname*-devel？？
+### Applicability
 
-- **开发用static包** ：提供.a等静态编译需要的组件，通常命名为devel-static
+Generally, these guidelines apply to all versions of openEuler, including LTS versions, non-LTS versions, and development versions.
 
-- **文档doc包**：提供二次开发文档、接口函数说明手册、范例和man、info等手册
+The guidelines also cover, to some extent, all types and delivery scenarios of software packages entering openEuler. openEuler is a community edition. Therefore, it cannot be ensured that all rules remain unchanged. Currently, the core and most important principles of openEuler will not change greatly in the foreseeable future.
 
-- **本地化支持lang包**：提供语言和时区等本地化支持，通常命名为*pgname*-local；
+### Document Conventions
 
-- **其他包**：如server、utils、tools、plugins等，和包的功能紧密相关的软件包，比如部分网络软件单独提供一个server或clinet包。
+We do not have mandatory requirements on the advice and recommendations for packaging.
 
-  大部分软件包遵循以上拆分原则，openEuler在次基础上定义了自己的打包规则，以指导软件包的拆分、依赖关系建立，从而形成自己的软件包体系。
+However, if the word "must" or "rule" is used, the packaging can deviate from the specific rule only after being reviewed by the Technical Committee (TC).
 
+## Packaging Rules
 
+Each OS has its own system. Besides different technical roadmaps and milestones, the software packages in the OSs are organized in different ways.
 
-<h2 id="id2">openEuler打包规则</h2>
-<h3 id="id2-1">软件包拆分/合并规则</h3>
-openEuler将软件包拆分成3个主要的二进制RPM包：主包、devel包和help包，其规则如下：
+The main differences are as follows:
 
- - **主包**
-     - 包名：*pgname*
-     - 包含内容：命令、配置、本软件包包含的命令运行所需的so，以及本软件对外提供的动态库、license、copyright、Author、readme（如果包含版权信息）
-     - 主要变化：主包中的man、info、readme等功能、版权、license无关的文档信息拆分到help包中
-     - 关键点：通过Provides、Obsoletes声明实现与前项版本的兼容
-        - 动态库.so，RPM构建会到处动态库的内容，无需单独提供Provides声明
-        - libs包合并到主包后，Provides的内容RPM无法自动导出，需要在主包对原来libs包中的内容追加Provides声明
-        - 原本libs包提供的功能已经又主包提供，可以添加Obsoletes来指明主包已经替换了libs包（请参见[范例一]()）
- - **devel包**
-      -  包名：*pgname*-devel
-      - 包含内容：静态库.a、头文件、example范例、test用例、其他开发使用的内容
-      - 主要变化：
-         - 合并devel包和static包
-         - 所有开发使用的内容都收编到devel包中
-      - 关键点：
-         - 所有属于开发范围的内容，统一打包成devel包。如果devel的内容包含了原来static等包提供的功能，需要应用Provieds和Obsoletes来保持和前项版本的兼容
-         - 动态库打包到主包后，devel包一般需要Requires主包，否则部分动态库会找不到
- - **help**包
-       - 包名：*pgname*-help
-       - 包含内容：二次开发文档、接口函数说明手册和man、info手册等相关文档和手册
-       - 主要变化：主包中的man、info等手册和文档拆分到help包中
-       - 关键点：
-             - 通常help包只依赖man、info等手册查询工具，不需要任何其他编译依赖和安装依赖。
-             - 外部大部分软件包以doc包命名，修改时需要将其改成help包（请参考[范例二]()）
+1. Different package managers (Fedora and openSUSE use RPM, and Debian uses DEB).
+2. Different software package lists, including different software versions, that are maintained.
+3. Different rules for splitting independent software packages.
+4. Software dependency diagram formed based on different splitting rules.
 
-如果是复杂软件包，在上面3个分类的基础上，特殊场景还需考虑：
+### Software Package Manager
 
-- **for-language包**
-  - 包名：如python2-*pgname*、python3-*pgname*、per-*pgname*
-  - 包含内容：针对perl、python2、python3等语言的支持的分拆
-  - 主要变化：NA
-  - 关键点：NA
+openEuler uses RPM as the base, together with DNF and Yum, to manage software packages. In the near future, if tools such as RPM cannot meet requirements, openEuler will consider initiating new projects.
 
-- **本地化支持包**
-  - 包名：*pgname*-lang
-  - 包含内容：本地化、语言支持、时区相关等国际化相关内容。这里是针对复杂的、国际化的相关软件，简单的包不需要单独拆分出lang
-  - 主要变化：所有lang合并成一个，不针对国家、地区进行拆分
-  - 关键点：NA
-- **其他复杂和特殊包**
-  - 包名：例如openssh-server、openssh-client等
-  - 包含内容：NA
-  - 主要变化：建议尽可能将原有内容按照上面分类拆分，减少此类包
-  - 关键点：单独评审是否有此类包
+### Software List and Selection
 
+openEuler has its own software list. Currently, more than 2,000 software packages have been integrated and more software packages will be added and improved.
 
+The source code of openEuler software packages is obtained from the stable versions of the native software community. The SPEC file is compiled based on the packaging specifications in this guide to package and integrate the software.
 
-<h2 id="id3">SPEC编写规范</h2>
-<h3 id="id3-1">SPEC文件说明</h3>
-**spec中的缩进统一格式，使用空格，保持对齐**
+openEuler complies with the Upstream First principle.
 
-**文件头**
+### Software Splitting Rules
 
-> *Name*：#软件包名字，**保持**
->
-> *Version*：#软件版本号，**保持**
->
-> *Release*：#软件包发行号，**变更**。例如：`RElease:4%{?dist}->5`
->
-> *Summary*：#概要，**变更**。一句话概括该软件包信息，打开URL查看软件包主页信息
->
-> *License*：#变更：软件授权方式，多个License之间用and隔开。错误格式：LGPLv2 BSD，正确格式：LGPLv2 and BSD
->
-> *Group*：#组信息，**删除**
->
-> *URL*：#一般**保持**，需尝试登陆能否登上，无效的要替换成有效的
->
-> *Source*：#**保持**，源码包的名字/下载地址，按顺序表示
->
-> *Patch*：#补丁，需标明补丁来源，以保证补丁可溯性，**保持**
->
-> *Description*：软件包具体描述
+Different from other OS distributions, in which the software is split into the main, libs, devel, static, langpack, and doc packages, the openEuler software package is split into five RPM packages: main, libs, devel, static, and help (optional). However, for many simple software, the libs, devel, and main packages are merged to keep the package simple and easy to understand. If the software is split into too many packages, subsequent update and maintenance will be difficult and the dependencies will be sophisticated. However, if there is special and sophisticated software, more fine-grained splitting can be considered.
 
-说明：
+Common software package splitting:
 
-1.基础字段全部使用空格保证对齐，且各项关键字顺序需与上述一致
+| Category    | Package Name            | Content                                                    | Key Point                                                      |
+| -------- | ---------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Main package    | The name is the same as that of the software source code package.| 1. Commands, configurations, and .so files required for running commands contained in the software<br>2. License, copyrights (if copyright information is included), Author, and Readme<br>3. Legal affairs-related files such as copyrights, licenses, and rights holders in the **licenses** directory.<br>4. man/info manuals| Use **Provides** and **Obsoletes** to state compatibility with other OSs.<br>(For details about **Provides**, **Conflicts**, and **Obsoletes**, see the official RPM manual.)|
+| libs package  | *Software-package-name***-libs**   | Dynamic libraries and commands provided for external systems                             | Separate its own functions from the capabilities provided for external systems to ensure that upper-layer applications depend only on libs, reducing complex dependencies between software packages and avoiding cyclic dependency.|
+| devel package | *Software-package-name***-devel**  | 1. Header file<br>2. Example<br>3. tests<br>4. Other content used for development| 1. Package all content within the development scope into a devel package.<br>2. If the dynamic libraries are packaged into the main package, the devel package must depend on (**Requires**) the main package. Otherwise, some dynamic libraries cannot be found.|
+| static package| *Software-package-name***-static** | 1. *Static-library***.a**<br>2. Static version of the provided commands                    | If the static version is provided, it is necessary to use macros to control whether to compile and package the static version.|
+| help package  | *Software-package-name***-help**   | Documents that describe interface functions and are used for secondary development                            | **Generally, this package is not mandatory. It is necessary to split documentation only when there are a large amount of contents.**|
 
-2.openEuler会自动匹配当前芯片架构，`%{?_isa}`可去除，比如`%{name}%{?_isa}`可以替换成`%{name}`
+For sophisticated software packages, special scenarios need to be considered based on the preceding categories:
 
-3.spec中version、release比较复杂的场景，如果灭有特殊要求，尽量简化为单个数字，且保持递增，h和`%{?dist}`的后缀要去除
+| Category                                                        | Package Name                                                    | Content                                            |
+| ------------------------------------------------------------ | -------------------------------------------------------- | ---------------------------------------------------- |
+| for-language packages: They provide interfaces for multiple languages.            | Example: **python2-***software-package-name*, **python3-***software-package-name*, **perl-***software-package-name*| Split language support packages for Perl, Python 2, Python 3, and more.|
+| lang packages: They are required for software involving localization and internationalization. For simple packages, there is no need to split lang packages.| Example: *Software-package-name-lang*                                     | Content related to internationalization, such as localization, language support, and time zone.      |
+| Other sophisticated and special packages (such as gcc, python2, and python3)                 | Example: **openssh-server**, **openssh-client**                    |                                                      |
 
+### Software Dependency Graph Based on Different Splitting Rules
 
+Generally, based on new software splitting rules, the OS dependency graph is formed naturally, and the dependencies between software change accordingly.
 
-**软件包依赖**
+RPM keywords such as **Provides**, **Conflicts**, and **Obsoletes** can be used to solve compatibility issues. openEuler exports the functions (**Symbols**) provided by the software, and then uses methods such as **Provides** and **Obsoletes** to ensure that the software is compatible with other OSs to some extent.
 
-> - *BuildRequires*：定义build时所依赖的软件包，在构建编译软件包时需要的辅助工具。**尽量写到一行，用空格隔开，gcc建议去掉，因为一般环境中已经存在，无需特意说明。且写包名即可**，例如`%{bindir}/man`替换成`man`
-> - *Requires*：定义安全时的依赖包，指二进制软件包在其他机器上的安装时，所需要依赖的其他软件包，**尽量写成一行，用空格隔开**。RreReq、Requires（pre）、Requires（post）、Requires（preun）、Requires（postun）等都是针对不同阶段的依赖指定的，**策略相同**。
+## 2. Verifying Software Packaging
 
-说明：
-1.该部分的依赖关系定义了一个软件包正常工作需要依赖其他软件包，在RPM包升级、安装和删除的时候需要确保依赖关系得到满足
-2.多个编译依赖或安装依赖可以汇总成1~3行，这样看起来简洁
+Perform the verification from the following aspects:
 
+- Different software lists and software selection.
 
+- Independent software splitting rules.
 
-**预处理阶段（%prep）**
+- Software dependency graph based on different splitting rules.
 
-该阶段描述了解压源码包的方法
+1. Use rpmlint to check whether the SPEC file is correct and whether the corresponding RPM package can be built.
 
-`%setup -q# ` 解压源文件程序
+2. Check whether the software package splitting is proper and meets the openEuler software package splitting rules.
 
-`patch #`  应用对应补丁
+3. Run the **rpm --provides** and **rpm --requires** commands to check whether **Provides** and **Requires** of the binary RPM are correct. Ensure that the software package capability is correctly provided.
 
-推荐更改成`%autosetup`命令，自动解压源码包和打补丁（请参考[范例三]()）
+4. Check whether the binary package can be correctly installed, uninstalled, upgraded, and rolled back by running the **rpm** command.
 
+5. After the installation and upgrade, (1) For services, verify the start, stop, restart, and reload functions; (2) For commands, at least verify that the basic functions are available.
 
+6. The software package source code contains tests, which cannot be commented out, removed, or disabled randomly. Ensure that the make check test of the quality gate is passed when the code is submitted.
 
-**编译阶段**（%build）
+7. Perform integration tests especially after a software selection is upgraded, because it is difficult to determine the impact on other software packages independently.
 
-`%configure`：#configer文件默认不编译静态库，参数`--disable-static`可以去掉。#配置参数尽量**合并**一行（请参考[范例四]()）
+## 3. Packaging Specifications
 
-`make`：#替换成`%nake build`（请参考[范例五]()）
+Rules and regulations are gradually improved. Comply with the existing rules as follows.
 
-说明：configure、make等编译命令，选项如果没有宏控制，可以汇总到1行。
+### Credible Source
 
+- Do not embed precompiled binary files or library files. All binary files or library files contained in a software package must be compiled from the source code package. Binary files for firmware can be exempted. If certain binary files need to be introduced, the TC shall discuss and determine whether to introduce the binary files.
+- Avoid bundling multiple, separate, and upstream projects into one software package. Try to ensure that one software package comes from one community.
+- The software **should be** open source software. Visit https://opensource.org/osd.html for the open source definition. If the software is not open source software, the TC shall discuss and determine whether to use the software.
+- Integrate open source software without legal risks. See the [licenses](https://opensource.org/licenses/alphabetical) approved by the Open Source Initiative (OSI).
+- Adapt the SPEC file to openEuler and make it correct, accurate, clear, and concise. If the content is referenced from other distributions or from the native community, state the fact at the very beginning.
+- **Do not** introduce the **blocklisted** software.
+- Take the introduction decision of each piece of software as a case and use such case as a reference for subsequent decision-making on similar software introduction. The Technical Committee (TC) is responsible for the consistency of software introduction principles.
 
+### Architecture Support
 
-**安装阶段**（%install）
+- Try to compile the package on different architectures such as AArch64 and x86_64. With the support of openEuler for other architectures, more build requirements may be added.
+- Use the `%ifarch` macro to control the content closely related to the architecture.
+- Build a noarch package for architecture-independent content, such as manuals, perl, python, and other interpreted language programs.
+- Use `ExcludeArch:` or `ExclusiveArch:` to exclude the unsupported architecture.
 
-需替换的指令：
+### Software Splitting
 
-1.清空安装目录在安装时会自动清除，`rm -rf %{buildroot}`和`rm -rf $RPM_BUILD_ROOT`命令可以删除
+- Comply with the openEuler software splitting rules.
+- Do not disable the generation of debuginfo, except in special cases.
+- You are not advised to split the man and info manuals into independent help subpackages unless the subpackages contain more sophisticated or diversified contents.
+- You are advised to split the addon, plugins, modules, extensions, and components packages into independent subpackages to ensure the simplicity of the main package.
+- If a minimal version needs to be provided, you are advised to split it into a subpackage, for example, bash-minimal. You are advised to use a macro to control minimal build and enable it by default.
 
-2.删除*.la和.a文件命令：
+### Naming Rules
 
-`rm %{buildroot}%{_libdir}/*.la`
+- In principle, integrate only one version of software to openEuler, and keep the main package name the same as the software name. If multiple versions need to be introduced, use a version number suffix (for example, **openssl1.0f**) or a descriptive suffix (**-stable**) in the package name upon TC's approval.
 
-或者
+- Name a language-specific module with a language prefix. For example, python-systemd, python3-systemd, and perl-systemd.
+
+- Generally, the software package name comes from the native community. It is a meaningful English character string and case sensitive. If there are multiple words, you are advised to use hyphens (`-`) to separate them instead of underscores (`_`), periods (`.`), and plus signs (`+`). Exceptions include the following: Some software packages have the same name as that of other software packages, such as nss_db and sg3_utils; or the name of the native software contains special characters.
+
+- Use clear and complete names for patches. Generally, you are advised to refer to the following requirements to ensure unified traceability:
+
+    a. All new patches end with .patch, and their sources and functions are marked with comments in the format of *PATCH-(BUGFIX|CVE|FEATURE)-content*.
+
+    b. Other Bugzillas can be referenced using abbreviations such as **CVE-2009-0067**, **GCC#123456**, **kde#123456**, and **rh#123456**.
+
+    c. The patch file name does not need to be prefixed with a specific string, for example, **backport-** or **upstream-**.
+
+    d. The sequence numbers of patches in the SPEC file must start from 0 and be consecutive.
+
+
+### Basic Information
+
+- Enter basic information, such as name, group, summary, and description, in the SPEC file based on the information on the official website. Use standard written language to describe or write the information and avoid words such as like and good/best.
+- In the RPM-based upgrade scenario, the rule for comparing software versions is **epoch:version-release**. The priority of **epoch** is higher than that of **version** and **release**. In normal cases, **epoch** in the SPEC file is specified by the version by default. You do not need to specify it. In the following scenarios, you need to use **epoch** to ensure that the software can be upgraded using Yum: a. If **version** and **release** of a piece of software are downgraded or rolled back due to special reasons, **epoch** needs to be increased based on the original one. b. Different branches have different development progresses. For example, the **version** and **release** of the maintenance branch are later than those of the development branch. To ensure that the maintenance branch can be upgraded to the development branch, the **epoch** of the development branch must be later than that of the maintenance branch.
+- The **version** in the SPEC file must be the same as that in the upstream community. The **version** information in the SPEC file of an aggregated software package (a repository contains source code from multiple upstream communities) is determined by the maintainer based on the community conventions. For example, [xorg-x11-font-utils](https://gitee.com/src-openeuler/xorg-x11-font-utils). The **release** number identifies the number of releases of openEuler based on the upstream community. When the software package **version** is upgraded and released for the first time, the **release** number starts from 1 and increments subsequently.
+
+### Formats
+
+- All SPEC files must be legible and maintained in a way that the packager can understand and use them.
+- Use spaces for both indentation and alignment.
+- Summarize multiple compilation or installation dependencies into one to three lines to make it concise.
+- You do not need to pay attention to the encoding of the SPEC file unless you need to use characters other than those in the ASCII table. If you do need to use non-ASCII characters, save your SPEC file in UTF-8 format.
+- The changelog complies with a specific format. A typical format is as follows:
+
+```SPEC
+* Tue Apr 7 2020 openEuler Buildteam <buildteam@openeuler.org> - 10.33-3
+- Type:CVES/Bugfix/Feature
+- ID:CVE-2019-20454
+- SUG:NA
+- DESC:fix CVE-2019-20454
+```
+
+### Dependencies
+
+- Ensure that the compilation and installation dependencies of the software package exist in the openEuler repository. If not, package and import them.
+- Check that the compilation and installation dependencies are complete. After the dependencies are installed in the openEuler OS, ensure that rpmbuild can normally build packages.
+- Avoid cyclic dependency.
+- Try to get rid of dependencies on files and commands, which make things complicated.
+
+- -Specify the dependency on the main package, including the version number and release number, for the devel package or other subpackages. Otherwise, the single package can be upgraded separately, causing compatibility problems.
+- Use `Requires` to specify dependencies required by the software to work properly. If the software package still functions properly without certain dependencies, you are advised to use `Recommends` or `Suggests` to specify those dependencies. If the dependencies are used to supplement integrity and enhance features, such as plugins and addon, you are advised to use `Supplements` or `Enhances` to specify them. For details about the usage differences, see the RPM documentation.
+- The dependencies in special formats, such as `pkgconfig(foo)`, `dist(foo)`, `perl(strict)`, must be unified.
+
+### Application of Macros
+
+- Use `with_python2` to control a Python module provided by the software package that supports both Python 2 and Python 3.
+- Use macros instead of hardcoding to compile the SPEC file. You can run the **rpm --showrc** command to query the supported macros. If you want to add macros, you can notify the packaging owner. We will try our best to keep the SPEC file concise and elegant.
+  - Including but not limited to `%{name}`, `%{buildroot}`, and `%{_bindir}` built in rpmbuild.
+  - Preferentially try to abstract a common operation into a public macro and report it to the package management committee.
+
+### Compilation and Build
+
+- If not necessary, you can use `autosetup` in the template to apply a patch, instead of running the `patch` command.
+- Consider using `%exclude` in the `%files` section to exclude unnecessary files instead of deleting them in the `%install` phase.
+- Do not skip `make test` or `make check` to disable self-test cases during compilation.
+- When specifying files to be packaged in the `%files` section, keep the packaging sequence the same as the sequence for defining the package.
+- In the `%files` section, use wildcard characters to replace multiple lines. Note that a single directory cannot be packaged randomly because it may conflict with the actual owner of the directory.
+- During the build process, openEuler appends security-related compilation options by default. Do not remove them unless otherwise required.
+- To provide a background service, prepare a unit configuration file based on the systemd unit requirements.
+
+### Conflict and Obsolescence
+
+- You can always obtain the latest software packages from the openEuler release address. If possible, openEuler will try to resolve conflicts before release. If certain conflicts cannot be solved, openEuler will provide a release note to help users make choices.
+
+- openEuler will not make a choice because multiple pieces of software provide the same functions. We hope to integrate as many software packages as possible to enrich the ecosystem.
+
+- Package name conflicts must be resolved. You can communicate with the community. If the native community does not make concessions, consider using a prefix or suffix in the name
+
+- If a conflict exists, explicitly use `Conflicts` in the SPEC file to specify the conflict. Generally, the following scenarios are involved:
+
+  - When multiple pieces of software provide the same function and cannot be installed and used at the same time. For example, you are advised to specify `Conflicts: linaro-gcc` in the GCC SPEC file.
+
+  - Whe multiple pieces of software provide the same files, tools, and standard commands, try to avoid duplicate names (for example, the manual name is the same or the busybox command name is the same as that of another tool). You can communicate with the community about duplicate names or request openEuler to rename the software. If the problem persists, you are advised to specify `Conflicts` in the SPEC file until no conflict occurs in the latest version.
+
+  - Compat package conflicts, for example, conflicts between compat-gcc and gcc (the original purpose is to provide multiple versions of GCC in the same system, which is not allowed in principle in openEuler).
+
+  - If a piece of software cannot run on a library of an earlier version, you are advised to use `Requires` instead of `Conflicts` to specify the library.
+
+    ```SPEC
+    **WRONG:** Conflicts: libbar < 1.2.3
+    **RIGHT:** Requires: libbar >= 1.2.3
+    ```
+
+- Other conflicts that actually occur but are not listed need to be reported to the package management committee to obtain the final solution.
+
+- When the name of a package is changed or the package is obsoleted, use `Obsolete` to specify the package name.`Provides: libfoo   Obsoletes: libfoo`
+
+## Review Principles
+
+This is a set of guidelines for code review. Please note that the guidelines are still being improved and may not cover all scenarios. Reviewers should make good judgment when reviewing software packages. The items listed fall into two categories: mandatory and recommended.
+
+- **Mandatory**: Use the rpmlint tool to check whether the software is correctly packaged.
+- **Mandatory**: The package name must comply with the openEuler naming rules.
+- **Mandatory**: The name of the SPEC file must be the same as that of the main package, unless there is an exception in your package, but the package must be reviewed by the TC or package management committee.
+- **Mandatory**: The software package must be licensed using a license approved by openEuler.
+- **Mandatory**: The software package must comply with the packaging rules.
+- **Mandatory**: The license field in the SPEC file of the software package must match the actual license.
+- **Mandatory**: If the source package contains the license text in its own file, the file containing the license text must be contained in `%license`. If the source code does not contain the license, you need to supplement the license in the repository.
+- **Mandatory**: The SPEC file of the package must be written in English and be clear and readable.
+- **Mandatory**: The source code used to build the package must match the upstream source code provided in the URL in the SPEC file. Reviewers must run commands to verify the correctness of the source code package.
+- **Mandatory**: If a package is not successfully compiled, built, or operating on a specific processor architecture, the architecture should be listed in `ExcludeArch` in the SPEC file.
+- **Mandatory**: All build dependencies must be listed in `BuildRequires`.
+- **Mandatory**: The SPEC file must correctly process the locale. This is done by using the `%find_lang` macro. `%{datadir}/locale/*` is forbidden.
+- **Mandatory**: In principle, a single file cannot be packaged into multiple RPM packages (except the license files).
+- **Mandatory**: The installation path must be a relative path to the`prefix` path (for example, `/usr`), instead of the default path `/`.
+- **Mandatory**: The file permissions must be correctly set.
+- **Mandatory**: Large documentation files must be placed in the help subpackage. (The definition of large depends on the best judgment of the packager, but is not limited to size. Large may refer to size or quantity.) If the help package is not installed, the functions of the software are not affected.
+- **Mandatory**: The development file and static file must be in the devel package.
+- **Mandatory**: In most cases, the devel package requires complete dependencies, including the version numbers. For example, **Requires: %{name}-%{version}-%{release}**.
+- **Mandatory**: Temporary files and intermediate files generated during software building cannot be packaged into the final RPM package.
+- **Mandatory**: The software package cannot contain the files or directories that are already packaged into other software packages.
+- **Mandatory**: All file names in the RPM package must be in valid UTF-8 format.
+- **Mandatory**: Packages added to an openEuler release cannot depend on any packages marked as obsoleted.
+- **Mandatory**: If the native community provides the SPEC file, you can refer to or reference it. However, the copyright information and modification records of the community must be retained.
+- **Recommended**: If the source package does not include the license text as an upstream-independent file, the packager should query the upstream to include it.
+- **Recommended**: Use macros whenever possible.
+- **Recommended**: Reviewers should test whether the package can be built using mock or rpmbuild.
+- **Recommended**: Packages should be compiled and built into binary on all supported processor architectures.
+- **Recommended**: Reviewers should test whether the functions of the package are as described.
+- **Recommended**: If scriptlets are used, they must be robust. If they are not clear, jointly determine whether they are reasonable with reviewers.
+- **Recommended**: Generally, if a subpackage other than the devel package depends on the main package, the dependency on the main package must be clearly described and the complete version information must be provided. Otherwise, problems may occur during the upgrade.
+- **Recommended**: If the package depends on files outside of **/etc**, **/bin**, **/sbin**, **/usr/bin**, or **/usr/sbin**, consider requiring the packages that contain the files instead of the files.
+- **Recommended**: If the software contains too many documentation files, you are advised to split the files into a help package.
+
+## Your First RPM Package
+
+### Prerequisites
+
+According to this tutorial, you need to install the following software packages, some of which are installed in the system by default:
 
 ```
-find $RPM_BUILD_ROOT -type f -name "*.la" -delete \
-find $RPM_BUILD_ROOT -type f -name "*.a" -delete \
+$ yum install gcc rpm-build rpm-devel rpmlint make python bash coreutils diffutils patch rpmdevtools
 ```
 
-可以用宏`%delete la and a`调换
+### Example
 
-3.删除*.la文件：
+The following table lists the sections used in the RPM SPEC file. The sections can be combined into simple SPEC files.
 
-`find $RPM_BUILD_ROOT -type f -name "*.la" -delete `
+| SPEC Section | Definition                                                   |
+| ------------------ | ------------------------------------------------------------ |
+| `%description`     | A full description of the software in the RPM package. The description can span multiple lines or be divided into paragraphs.|
+| `%prep`            | Command or series of commands to prepare the software to be built. This section can be seen as a shell script.|
+| `%build`           | Command or script for actually building the software into machine code (for compiled languages) or byte code (for some interpreted languages).|
+| `%install`         | Command or series of commands for copying the required build artifacts from `%builddir` (where the build happens) to the `%buildroot` directory (containing the directory structure with the files to be packaged). This usually means copying files from `~/rpmbuild/build` to `~/rpmbuild/buildroot` and creating the necessary directories in `~/rpmbuild/buildroot`. For details, see the SPEC file.|
+| `%check`           | Command or series of commands to test the software. This usually includes things such as unit tests.            |
+| `%files`           | The list of files that will be installed in the end user's system.                          |
+| `%changelog`       | A record of changes that happened to the package between different versions.              |
 
-可以用宏`%delete la`调换
+Creating an RPM package can be complicated. Here is a complete working RPM SPEC file with several things skipped and simplified. It is only a template. You need to modify the content based on the actual situation. Save this file as **helloworld.spec**.
+
+```SPEC
+#This is a template. Unnecessary comments can be deleted or modified. %% is the escape character of %, and the line starting with # is a comment.
+#Copyright, license or readme
+
+#Global macro or variable
+
+#Basic Information. The definition sequence must be unified. Fields are filled in in the following sequence:
+Name:           helloworld
+Version:        1.0
+Release:        1
+Summary:        Most simple RPM package
+License:        MIT
+URL:            https://github.com/Aditmadzs/HelloWorld
+#Source0:         There is no actual native community or source code.
+
+#Dependency
+BuildRequires:  gcc make rpm-build
+#The dependencies must be RPM package names instead of commands.
+Requires:       glibc
+
+%description
+This is my first RPM package, which does nothing.
+
+%package	libs
+Summary:    Development files for %{name}
+Requires:	%{name} = %{version}-%{release}
+%description libs
+This is my first RPM package, which does nothing.
+
+%package	devel
+Summary:    Development files for %{name}
+Requires:	%{name} = %{version}-%{release}
+%description devel
+This is my first RPM package, which does nothing.
+
+%package 	help
+Summary:	Documents for autogen
+Buildarch:	noarch
+Requires:	man/info
+
+%description    help
+Man pages and other related documents.
+
+#Secondary package
+#Define other packages here.
+
+#Build sections
+%prep
+#%%autosetup -n %{name}-%{version} -p1
+#You are advised to use autosetup to automatically install patches.
+
+%build
+#%%configure         #Options requiring special attention
+#%%make_build
+cat > helloworld.sh <<EOF
+#!/usr/bin/bash
+echo Hello world
+EOF
+
+%install
+#%%make_install
+mkdir -p %{buildroot}/usr/bin/
+install -m 755 helloworld.sh %{buildroot}/usr/bin/helloworld.sh
+
+%check
+#make test # or make check
+
+#Install and uninstall scripts
+%pre
+
+%preun
+
+%post
+
+%postun
+
+#File list of each package, following the sequence of %doc, %license, configuration, command, library, documentation, man page, and others
+%files
+%defattr(-,root,root)
+%{_bindir}/helloworld.sh
+
+#%%license license
+#%%config
 
 
+%files libs
+%defattr(-,root,root)
+#%%lib
 
-**%file阶段%**
+%files devel
+#%%include
+#%%lib*.a
 
-%file是对软件打包时，**打包的顺序要和前面定义package的顺序保持一致**
+%files help
+#%%man, info
+#%%doc
 
+#%%other
 
+%changelog
+* Wed Jul 18 2018 openEuler Buildteam <buildteam@openeuler.org> - version-release
+- Package init
+```
 
-<h3 id="id3-2">openEuelr custom amcros</h3>
+Now run the **rpmdev-setuptree** command to create working directories.
 
 ```
-%disable_rpath 
+$ rpmdev-setuptree
+$ rpmlint helloworld.spec                //Check the SPEC syntax.
+$ rpmbuild -ba helloworld.spec
+```
+
+The following table lists the directory layout of the RPM packaging workspace.
+
+| Directory | Purpose                                                      |
+| --------- | ------------------------------------------------------------ |
+| BUILD     | Working directory created during compilation and building. The source code is decompressed, the patch is installed, and the building operation is performed here.|
+| RPMS      | Stores the encapsulated RPMs in subdirectories for different architectures, for example in subdirectories **x86_64** and **noarch**.|
+| SOURCES   | Compressed source code archives, including source code packages, patches, and configuration files.          |
+| SPECS     | Stores the SPEC files.                              |
+| SRPMS     | Stores the generated source RPM (SRPM).|
+
+After the **rpmbuild** command is executed successfully, four binary RPM packages are generated, including **helloworld**, **helloworld-libs**, **helloworld-devel**, and **helloworld-help**.
+
+```
+Processing files: helloworld-libs-1.0-1.x86_64
+Processing files: helloworld-devel-1.0-1.x86_64
+Processing files: helloworld-help-1.0-1.noarch
+Checking for unpackaged file(s): /usr/lib/rpm/check-files /root/rpmbuild/BUILDROOT/helloworld-1.0-1.x86_64
+Wrote: /root/rpmbuild/SRPMS/helloworld-1.0-1.src.rpm
+Wrote: /root/rpmbuild/RPMS/x86_64/helloworld-1.0-1.x86_64.rpm
+Wrote: /root/rpmbuild/RPMS/x86_64/helloworld-libs-1.0-1.x86_64.rpm
+Wrote: /root/rpmbuild/RPMS/x86_64/helloworld-devel-1.0-1.x86_64.rpm
+Wrote: /root/rpmbuild/RPMS/noarch/helloworld-help-1.0-1.noarch.rpm
+Executing(%clean): /bin/sh -e /var/tmp/rpm-tmp.UnMR3x
++ umask 022
++ cd /root/rpmbuild/BUILD
++ /usr/bin/rm -rf /root/rpmbuild/BUILDROOT/helloworld-1.0-1.x86_64
++ exit 0
+```
+
+### Building Software from Source Code
+
+This section describes how to build software from the source code. We are not going to explain the basic concepts, such as what source code is, what a patch is, what a binary executable program is, and how to use automatic build scripts such as configure and make.
+
+We focus on how to build a binary RPM from the source code through the SPEC file.
+
+You need to understand several important concepts.
+
+| Concept      | Description                                                         |
+| --------- | ------------------------------------------------------------ |
+| Source code package    | A file compressed in a certain format. For example, **helloworld-1.0.tar.gz** specifies that the software package name is **helloworld**, the version number is **1.0**, and the compression format is **tar.gz**.|
+| Patch| Incremental source code that updates other source code. It is formatted as a diff to represent the difference between two versions of text. A diff is created using the `diff` utility, and applied to the original source code using the `patch` utility. This gives you a copy of the new code that fixes a certain issue. In the build using the SPEC file, the `patch` utility is generally a .patch text file.|
+| Patching   | In the source code directory, run the `patch` or `git am` command to apply a patch to the source code. This process is usually performed in the `%pre` phase of the SPEC file.|
+| Build dependencies | A comma-or space-separated list of packages that build the basic compilation environment required by the software. There can be multiple entries of `BuildRequires`, each on its own line in the SPEC file.|
+| Installation dependencies | Runtime dependencies required for installing the software to the system. Generally, if this section is missing, the commands, libraries, or other files required for software running are missing. As a result, the function is abnormal.|
+| Source RPM | An RPM with the source code and SPEC encapsulated. You can decompress the package using rpm2cpio to view the complete content.|
+| Binary RPM| RPM with commands or files generated by the **make install** command encapsulated in a specified format based on certain rules.|
+| RPM signature  | Signing packages is a way to protect packages for end users. Signing is to ensure that no third party can change the contents of the packages.|
+| section   | Sections `%pre`, `%build`, `%install`, `%test`, and `%clean` correspond to specific actions. The **rpmbuild** command automatically converts each section into a script.|
+
+The following describes `%pre`, `%build`, `%install`, `%test`, `%clean`, and the SPEC file as a build script. They fix the following steps programmatically:
+
+1. `%pre`: In this section, the key work is to install patches for the original source code and prepare the compilation environment.
+2. `%build`: It is equivalent to running **make build** on the source code, except that **make build** is embedded in rpmbuild.
+3. `%install`: It is equivalent to **make install** during source code building and installation. The difference is that in the rpmbuild process, the installation location `%{buildroot}` needs to be specified to facilitate file encapsulation.
+4. `%test`: **make test**. It contains test cases provided by the source code of the community.
+5. `%clean`: (Optional) It is used to remove temporary directories and files generated during rpmbuild.
+
+When you obtain a copy of source code from the native community of the software, manually complete the operations in the preceding sections locally, add the preceding operations to a standard SPEC template, and fill in the basic information of the software package, a software package is quickly packaged.
+
+
+### openEuelr Custom Macros
+Here are some RPM macros specially defined by openEuler.
+
+```
+%disable_rpath
 sed -i 's|^hardcode_libdir_flag_spec=.*|hardcode_libdir_flag_spec=""|g' libtool \
 sed -i 's|^runpath_var=LD_RUN_PATH|runpath_var=DIE_RPATH_DIE|g' libtool
 
-%delete_la_and_a 
+%delete_la_and_a
 find $RPM_BUILD_ROOT -type f -name "*.la" -delete \
 find $RPM_BUILD_ROOT -type f -name "*.a" -delete
 
-%delete_la  
-find $RPM_BUILD_ROOT -type f -name "*.la" -delete 
+%delete_la
+find $RPM_BUILD_ROOT -type f -name "*.la" -delete
 
-%chrpath_delete 
+%chrpath_delete
 find $RPM_BUILD_ROOT/ -type f -exec file {} ';' | grep "\<ELF\>" | awk -F ':' '{print $1}' | xargs –i chrpath --delete {}
 
-%package_help       
+%package_help
 %package        help \
 Summary:        Documents for %{name} \
 Buildarch:      noarch \
-Requires:		man info \
+Requires:               man info \
 \
 %description help \
-Man pages and other related documents for %{name}. 
+Man pages and other related documents for %{name}.
 
-%install_info() 
+%install_info()
 /sbin/install-info %1 %{_infodir}/dir || :
 
-%install_info_rm() 
+%install_info_rm()
 /sbin/install-info --remove %1 %{_infodir}/dir || :
 ```
-
-
-
-<h3 id="id3-3">软件打包验证</h3>
-建议从下面三个角度验证。
-
-- 不同的软件列表，软件选型
-- 独立的软件拆分规则
-- 基于不同分拆规则的软件依赖关系树。
-- 确认软件是否重新选型，重新选型后，是否有接口、功能、使用方式上的差异，软件升级后，是否导致依赖此软件的上层软件功能异常。
-- 如果软件未做选型升级，确认拆分前后，所有二进制RPM包含的内容是否有变化、遗漏，可以通过`rpm –qpl`查询对比。
-- 拆分前后生成二进制RPM的Provides、Requires是否有变化，可以通过命令`rpm --provides` 或`rpm --requires`查看。特别是主包收编libs包的场景，要查看主包是否包含原libs包Provides、Requires内容。
-- 将软件拆分前编译的二进制全部安装到系统，查看软件选型打包后的二进制包是否可以使用`rpm –Uvh`进行正确升级。
-- 安装升级后，验证：① 服务类的，验证`start/ stop /restart/reload`；② 命令类的，至少要验证基本功能可用。
-- 软件选型升级后，对其他软件包的影响，很难独立判断，需要做集成测试。
-
-
-
-<h2 id="id3">范例</h2>

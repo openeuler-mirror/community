@@ -24,8 +24,8 @@ The Commands incluing as follows:
             <td>
                 Forces rechecking of the CLA status of a Pull Request.
                 If the Pull Request author has already signed CLA,
-                the label `openeuler-cla/yes` will be added in the Pull Request,
-                If not, the label `openeuler-cla/no` will be added.
+                the label <strong>openeuler-cla/yes</strong> will be added in the Pull Request,
+                If not, the label <strong>openeuler-cla/no</strong> will be added.
             </td>
             <td>
                 Anyone
@@ -41,10 +41,10 @@ The Commands incluing as follows:
                 /lgtm cancel
             </td>
             <td>
-                Adds or removes the `lgtm` label which is typically used to gate merging.
+                Adds or removes the <strong>lgtm</strong> label which is typically used to gate merging.
             </td>
             <td>
-                Collaborators on the repository. `/lgtm cancel` can be used additionally by the Pull Request author.
+                Collaborators on the repository. <strong>/lgtm cancel</strong> can be used additionally by the Pull Request author.
             </td>
         </tr>
         <tr>
@@ -57,7 +57,7 @@ The Commands incluing as follows:
                 /approve cancel
             </td>
             <td>
-                Adds or removes the `approved` label which is typically used to gate merging.
+                Adds or removes the <strong>approved</strong> label which is typically used to gate merging.
             </td>
             <td>
                 Collaborators on the repository.
@@ -74,7 +74,7 @@ The Commands incluing as follows:
             </td>
             <td>
                 Applies or removes a kind label from one of the recognized types of labels.
-                For example, the label is more like `kind/bug`.
+                For example, the label is more like <strong>kind/bug</strong>.
             </td>
             <td>
                 Anyone can trigger this command on a Pull Request or Issue.
@@ -91,7 +91,7 @@ The Commands incluing as follows:
             </td>
             <td>
                 Applies or removes a priority label from one of the recognized types of labels.
-                For example, the label is more like `priority/high`.
+                For example, the label is more like <strong>priority/high</strong>.
             </td>
             <td>
                 Anyone can trigger this command on a Pull Request or Issue.
@@ -108,7 +108,7 @@ The Commands incluing as follows:
             </td>
             <td>
                 Applies or removes a sig label from one of the recognized types of labels.
-                For example, the label is more like `sig/kernel`.
+                For example, the label is more like <strong>sig/kernel</strong>.
             </td>
             <td>
                 Anyone can trigger this command on a Pull Request or Issue.

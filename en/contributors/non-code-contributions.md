@@ -1,49 +1,49 @@
-# 非代码类贡献
+# Non-Code Contribution
 
-下面的列表旨在帮助非代码贡献者找到openEuler社区项目中可以利用其专业知识的最佳领域。这样不仅是为希望参与贡献的任何人提供了入门指南，而不必限于编码，还可以满足项目组当前可能无法由专注于代码贡献者完成的任何需求。您对以下的项目或角色感兴趣，都可以联系我们！
-
-
-
-## 外向型社区工作
-- 参与[社区交流](/../communication/)，包括帮助引导社区新人贡献社区，回答社区上的疑问等，
-- 运维社区通信工具，包括联系主持社区会议等
-- 共同组织社区聚会，包括openEuler开发者大会等，
-- 管理社区“大事件”等，包括查看管理讨论中的事件
-- 参与社区非文件的写作，包括社区推广、安装手册、博客和视频等
+The following lists aim to help non-code contributors find the best suited areas in the openEuler community to make full use of their professional knowledge. Non-code contributions allow anyone to participate in the community in various ways besides coding and take over the project requirements that code contributors may fail to handle. If you are interested in the following projects or roles, do not hesitate to reach out to us.
 
 
 
-## 内向型社区工作
+## Outward-oriented Community Work
+- Participating in [community communications](/../communication/), including helping new members contribute to the community and answering questions about the community.
+- Operating and maintaining the community communication tools, including hosting community meetings.
+- Organizing community meetups, including openEuler Developer Day.
+- Managing community events, including viewing and managing events in discussion.
+- Participating in the creation of non-product documents in the community, including community promotion, installation guides, blogs, and video scripts.
 
-- 参与社区文档写作
-- 参与社区版本测试验证，请加入sig-test，参考该SIG的[README]()和贡献者相关的指导。
-- 参与社区基础设施建设，请加入sig-infrastructure
-- 参与社区视觉设计，请加入sig-ucd
+
+
+## Inward-oriented Community Work
+
+- Participating in community document writing.
+- Participating in the community version testing and verification by joining the QA SIG. (See the README file of the SIG and related contribution guides.)
+- Participating in community infrastructure construction by joining the infrastructure SIG.
+- Participating in community visual design by joining the OpenDesign SIG.
 
   
 
-## SIG内的特定角色
+## Special Roles in SIGs
 
-以下的角色对于openEuler中的每一个SIG都很重要。如果您对项目中的特定主体感兴趣，可以通过多种不同的方式为特定的项目组做出贡献。
+The following roles are important for each SIG of the openEuler community. If you are interested in a particular subject of a project, you can contribute to the project team in different ways.
 
-- 文献资料
-  - 项目/SIG专业知识领域的通用文档
-  - 更新，审查和记录文档
-  - 翻译
+- Documentation
+  - General documents of the project/SIG's professional domain
+  - Document update, review, and recording
+  - Translation
 
-- UX/UI设计
-- 打包发布
-- 项目管理
-  - 确认任务、问题等的所有权
-  - 管理PR，管理项目组分类和标签，编辑PR相关文本
-  - 为SIG等组织和帮助召开会议
+- UX/UI design
+- Packaging and releasing
+- Project management
+  - Confirming the ownership of tasks and issues
+  - Managing PRs, categories and labels of projects, and editing PR-related documents
+  - Organizing and assisting with SIG meetings
 
 
 
-### 具备基本代码能力的非代码任务
+### Non-Code Tasks that Require Basic Coding Knowledge
 
-以下角色不写代码，但需要具有基本的编码知识或编码相关特定领域知识。
+The following tasks do not involve coding but require basic coding knowledge or knowledge in specific domains related to coding.
 
-- 产品文档
-- 管理发行说明
-- 项目内Github管理（存储库管理）
+- Product documentation writing
+- Release note management
+- Project repository management

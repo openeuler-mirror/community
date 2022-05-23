@@ -1,218 +1,242 @@
-**The contenct in this folder is not finalized yet and please visit [How to contribute](https://openeuler.org/en/developer.html) to get help. And you are more than welcome to work with us together on updating tis folder. If you'd like to please visit <community@openeuler.org>.**
+This document provides guidance on how to participate in the openEuler community.
 
-该文档指导大家如何为openEuler社区做出贡献。欢迎阅读[待解决的问题]()并提出新的问题。
+# Welcome
 
+Welcome to openEuler!
 
+- [Welcome](#welcome)
+- [Before You Start](#before-you-start)
+  - [Signing the CLA](#signing-the-cla)
+  - [Community Code of Conduct](#community-code-of-conduct)
+- [Engaging in Community Contributions](#engaging-in-community-contributions)
+  - [Finding the Work of Your Interest](#finding-the-work-of-your-interest)
+    - [Introduction to the SIG](#introduction-to-the-sig)
+    - [Find the SIG or Project of Your Interest](#find-the-sig-or-project-of-your-interest)
+  - [Starting Your Contribution](#starting-your-contribution)
+    - [Assign an Issue to Yourself](#assign-an-issue-to-yourself)
+    - [Raise Problems or Suggestions](#raise-problems-or-suggestions)
+    - [Set Up the Development Environment](#set-up-the-development-environment)
+      - [Prepare the Development Environment](#prepare-the-development-environment)
+      - [Download and Build Software Packages](#download-and-build-software-packages)
+    - [Participate in Coding](#participate-in-coding)
+      - [Understand the SIG and Development Precautions in the Project](#understand-the-sig-and-development-precautions-in-the-project)
+      - [Download Code and Create a Branch](#download-code-and-create-a-branch)
+      - [Build Modification and Local Verification](#build-modification-and-local-verification)
+      - [Submit a PR](#submit-a-pr)
+      - [Add a Software Package](#add-a-software-package)
+    - [Code Review](#code-review)
+  - [Testing](#testing)
+  - [Engaging in Community Component Packaging](#engaging-in-community-component-packaging)
+  - [Participating in Non-Code Contributions](#participating-in-non-code-contributions)
+- [Installing openEuler](#installing-openeuler)
+- [Disclosure of Community Security Issues](#disclosure-of-community-security-issues)
+- [Participating in Community Activities](#participating-in-community-activities)
+  - [Communication Methods in the Community](#communication-methods-in-the-community)
+  - [Community News and Events](#community-news-and-events)
+  - [Community Meetups](#community-meetups)
+- [Feedback](#feedback)
 
-# 欢迎
 
-欢迎来到openEuler！
 
-+ 欢迎
-+ [开始之前](#id1)
-  + [签署CLA](#id1-1)
-  + [行为准则](#id1-2)
-  + [社区期望](#id1-3)
-- [您的第一个贡献](#id2)
-  - [找到您感兴趣的工作](#id2-1)
-    - [了解SIG](#id2-1-1)
-    - [找到您感兴趣的SIG和respository](#id2-1-2)
-  - [开始您的贡献](#id2-2)
-    - [给你自己分配一个issue](#id2-2-1)
-    - [提出问题](#id2-2-2)
-    - [SIG贡献者指南](#id2-2-3)
-    - [社区贡献指导](#id2-2-4)
-  - [沟通](id2-3)
-- [Gitee工作流程](#id3)
-- [代码检视](#id4)
-- [测试](#id5)
-- [选择社区组件打包](#id6)
-- [下载安装openEuler](#id7)
-- [安全](#id8)
-- [社区文档](#id9)
-- [社区活动](#id10)
-  - [社区交流](#id10-1)
-  - [大事记](#id10-2)
-  - [聚会](#id10-3)
+# Before You Start
 
+Welcome to openEuler!
 
 
 
-<h1 id=“id1”>开始之前</h1>
-<h2 id="id1-1">签署CLA</h2>
+## Signing the CLA
 
-您必须首先签署[“贡献者许可协议”（CLA）](./../CLA.md)，然后才能参与社区贡献.
+You must sign a [Contributor License Agreement](https://clasign.osinfra.cn/sign/Z2l0ZWUlMkZvcGVuZXVsZXI=) (CLA) before you can contribute to the community.
 
 
 
-<h2 id="id1-2">行为守则</h2>
+## Community Code of Conduct
 
-请确保阅读并遵守openEuler社区的[行为守则](./../../code-of-conduct.md)。
+openEuler is an open source community, which relies on the friendly development and collaboration environment jointly maintained by the members. Read and comply with the [Code of Conduct](./../../code-of-conduct_en.md) of the openEuler community before contributing to the community.
 
 
 
-<h2 id="id1-3">社区期望</h2>
+# Engaging in Community Contributions
 
-openEuler是一个开源社区。因此它完全依赖于社区提供开发，以及友好和协作的环境，请查看[社区成员角色](./../../community-membership.md)。社区鼓励您在积累经验的同时提高你的贡献级别。
+**Welcome to join us anytime!**
 
+The community documents can be improved (such as the one you are reading), code needs to be reviewed, functions or variables can be reconstructed or commented, and test cases can be continuously supplemented and optimized. We will help you understand the organization of openEuler SIGs and walk you through your first contribution. If you're interested, take action now!
 
 
-<h1 id="id2">您的第一个贡献</h1>
-随时欢迎您的加入！在社区上总是有可以改进的文档（比如您正在阅读的），可以澄清的代码，可以重构或注释的函数或变量，始终需要测试的代码。我们将帮助您了解openEuler SIG的组织方式，并引导您顺利的开始您的第一个贡献。您可以选择解决问题、编写代码，或者检视和合并等工作。所以如果您感兴趣，现在就行动吧~~
 
-如果您对开发过程有疑问，请随时加入我们的[开发邮件列表](dev@openeuler.org)，并在邮件标题内用“【开发过程疑问】”作为标题 写出你的疑问和困惑，openEuler团队会定期扫描邮件列表上的内容，并尽力确保您的问题得到解答。
+## Finding the Work of Your Interest
 
+### Introduction to the SIG
 
-<h2 id="id2-1">找到您感兴趣的工作</h2>
+SIG is short for Special Interest Group. The openEuler community is organized into different SIGs to better manage and improve the work process.
 
-<h3  id="id2-1-1">了解SIG</h3>
+- SIGs are open. Anyone is welcome to join and contribute to SIGs.
+- A SIG is established for one or more specific technical topics. SIG members promote the output of deliverables and strive to make the deliverables a part of the openEuler distributions.
+- Core members of the SIG lead the SIG governance. For details, see [Community Membership](./../../community-membership.md). You can accumulate experience and improve your influence while making contributions.
+- Each SIG has one or more projects on Gitee. These projects have one or more repositories. The SIG deliverables are stored in these repositories.
+- You can submit issues in the repository corresponding to the SIG, participate in discussion of specific issues, resolve issues, and participate in review.
+- You can also communicate with other members in the SIG through the mailing list, Internet Relay Chat (IRC) channel, and video conference.
 
-#### SIG和Repository
 
-我们将社区按照不同的SIG来组织，以便于更好的管理和改善工作流程。
 
-SIG组是开放的，欢迎任何人加入并参与贡献。SIG组内部会定期开会，每一个SIG都有一个公共频道。每一个SIG在Gitee上都会拥有一个或多个repository，单击SIG名称中的链接，可以获取每个SIG的`README.md`。在`README.md`里可以查找到SIG包含的子项目和子项目的额repository。
+### Find the SIG or Project of Your Interest
 
-<h3 id="id2-1-2">找到您感兴趣的SIG和repository</h3>
+Finding the SIG you are interested in can help you ask questions in the right place and get a quicker response from the community.
 
-找到适合您贡献的SIG组，可以帮助您在正确的地方提出问题，为您的贡献提供更高的知名度和更快的社区响应速度。您可以查看[SIG列表](https://openeuler.org/zh/sig.html)，以便您最快速的定位到自己感兴趣的领域。
+- **Method 1**: If you do not know which SIGs or projects exist, you can view the [list of SIGs](https://www.openeuler.org/en/sig/sig-list/) established in the openEuler community. You can use the list to quickly locate the SIG corresponding to the field that you are interested in. The following information about the SIG is also provided:
+  
+  - Projects under the SIG and the repository address of the projects
+  - Communication methods in the SIG, including the mailing list and IRC channel
+  - Contact information of the maintainers
+  
+- **Method 2**: If you know the project name, you can perform fuzzy search in the repository list of openEuler to quickly locate the home page address of the corresponding project. Generally, you can find the SIG information, communication methods, members, and contact information of the project in the **README.md** file on the project home page.
 
-在openEuler的Repository列表下搜索SIG名称，也可以找到对应子SIG的repository。如果搜索不到，您可以尝试在dev@openeuler.org中寻求帮助。同样，请在邮件列表内用“【开发过程疑问】”作为标题 写出你寻找的SIG或项目。
+  
 
+  If you cannot locate the SIG you are interested in using either of the preceding methods, you can send an email to community@openeuler.org for help. You are advised to use **[Development Process Question]** as the title of the email and write down the characteristics of the SIG or project that you are looking for in the content. We are glad to help.
 
 
-<h2 id="id2-2">开始您的贡献</h2>
 
-如果您的兴趣不在编写代码方面，可以在[《非代码贡献指南》](non-code-contributions.md)中找到感兴趣的工作。
+## Starting Your Contribution
 
+### Assign an Issue to Yourself
 
+- **Find the issue list**: On the toolbar of the home page (repository of the project on Gitee) of the project that you are interested in, click <img src="figures/Issues-icon.jpg" style="zoom:50%;" /> to find the issue list of the SIG (for example, the issue list address of the community SIG is <https://gitee.com/openeuler/community/issues>).
 
-<h3 id="id2-2-1">给自己分配一个issue</h3>
+- **Find an issue that you want to handle**: If you want to handle one of the issues, you can assign it to yourself. You only need to enter **/assign** or **/assign @yourself** in the comment area. The bot will assign the issue to you and your name will be displayed in the assignee list.
+- **Participate in discussion within an issue**: An issue may have been discussed by participants. If you are interested in the issue, you can leave your comment in the comment area.
 
-如果您愿意处理一个issue，可以将它分配给自己。只需要在评论框内输入 `/assign`或 `/assign @yourself`，机器人就会将问题分配给您，您的名字将显示在负责人列表里。
 
 
+### Raise Problems or Suggestions
 
-<h3 id="id2-2-2">提出问题</h3>
+- **Raise a problem**: If you find a problem or defect and want to report it to the community, you can submit the problem by creating an issue. You only need to submit the issue to the issue list in the repository of the project. For details, see [Issue Submission and Handling Guide](issue-submit.md). When submitting a problem, comply with the issue submission rules.
+- **Suggestions**: If you want to share your opinions or suggestions in the SIG, you can also submit an issue. Everyone can fully communicate and discuss about this issue. To attract more attention, you can also attach the issue link to the email and send it to everyone through the mailing list.
 
-尽管社区鼓励每个人贡献代码，但是当您报告问题或缺陷的时候，也是值得赞赏的。问题应提交到对应的repository下面。您可以查看[问题提交指南](issue-submit.md)以获取更多的信息。提交问题时，请确保遵守问题提交准则。
 
 
-<h3 id="id2-2-3">SIG贡献指南</h3>
-每个SIG或子项目的编码语言、开发环境、编码约定等都可能是由差异的。所以每一个SIG或其子项目都可能有自己的贡献者指南——一般是`CONTRIBUTING.md`文件。除了这些文件外，SIG可能还会提供其他指南信息。这些信息位于SIG或子项目的特定社区目录中。
+### Set Up the Development Environment
 
+#### Prepare the Development Environment
 
+If you want to contribute code, you need to prepare the openEuler development environment. For details, see [Development Environment Preparations](prepare-environment.md).
 
-<h3 id="id2-2-4">社区贡献指导</h3>
 
-初学者也可以通过下面的[提交PR](pull-requests.md)和[代码检视](expectations.md)中找到相关指导。
 
+#### Download and Build Software Packages
 
+If you want to download, modify, build, and verify the software packages provided by openEuler, see [Software Package Building](package-install.md).
 
 
-<h2 id="id2-3">沟通</h2>
 
-openEuler是开源的，我们希望围绕开发建立一些半正式的管理规则，这样可以使事情开展的更加顺利。如果您认为这些规则有问题，请提出来。作为潜在的贡献者，无论是在白天、黑夜、工作日、周末或节假日，不要犹豫，我们都欢迎您提出自己的想法到dev@openeuler.org。我们致力于改善您的贡献体验。如果您发现不良的参与体验，请告诉我们！
+### Participate in Coding
 
+#### Understand the SIG and Development Precautions in the Project
 
+The coding language, development environment, and coding conventions used in each SIG project may be different. If you want to understand and participate in coding, you can find the contributor guide provided by the project for developers. The guide is generally provided in the **CONTRIBUTING.md** file on the SIG home page or in **README.md** of the project repository. For details about how to find the project repository, see the [previous section](#finding-the-work-of-your-interest).
 
-<h1 id="id3">Gitee工作流程</h1>
+In addition to these files, the SIG may also provide other guidance information. This information is located in the specific community directory of the SIG or its projects. If you do not find related information or have questions about related information, you can submit issues in the SIG or send the issues or questions to the mailing list of the SIG to which the project belongs. If you do not receive a response for a long time, you can ask community@openeuler.org for help.
 
-想获取要使用的代码，请参考[Gitee workflow Guide](Gitee-workflow.md)。
 
-### 提交一个PR
 
-openEuler遵循标准的[Gitee PR请求流程](https://gitee.com/help/articles/4122)，但openEuler社区还做了部分的定制，请参考[openEuler社区Gitee工作流程](pull-requests.md)。
+#### Download Code and Create a Branch
 
-这两个流程的主要区别是，openEuler的机器人会将结构化标签运用于PR中。该机器人可以为您的PR过程提供一些有用的建议。为了方便查看，可以在注释中输入XXXXXXX选项，以触发自动标记和通知功能。请参阅[社区命令参考文档](./../sig-infrastructure/command.md)。
+To contribute code, you also need to know how to download code from Gitee and merge the code through a pull request (PR). The code of the openEuler community is hosted on Gitee. For details, see [Gitee Workflow](Gitee-workflow.md). The method of using Gitee is similar to that of GitHub. If you have used GitHub before, you can have a quick look at or even skip this chapter.
 
-对于新贡献者来说，常遇到的问题是：
 
-+ 在您的第一个PR之前没有正确的签署CLA（请参阅[签署CLA](/../CLA.md)）
-+ 为PR在SIG组内找到合适的检视者，并保证自己的贡献遵循SIG组内特定的贡献准则（请参阅[了解SIG](https://openeuler.org/zh/sig.html)，从其中查找感兴趣的SIG提供的贡献者指导）
-+ 处理在PR上失败的测试用例，这些测试用例可能与您引入的更改无关（请参阅）
-+ 不遵守一些[良好的编码实践]()
-+ 在提交的信息中包含了可能关闭issue的关键字，比如XXXXXXXX等
 
+#### Build Modification and Local Verification
 
+After the modification is complete on the local branch, perform build and verification locally by referring to [Software Package Building](package-install.md).
 
-<h1 id="id4">代码检视</h1>
 
-对于贡献者，关于代码检视的重要性的简要说明，请参阅[代码检视](expectations.md)。为了使您的提交更容易被接受，您需要：
 
-+ 遵循SIG组的[编码约定]()
-+ 准备完善的提交信息
-+ 如果一次提交的代码量较大，建议将大型的内容分解成一系列逻辑上较小的内容，分别进行提交会更便于检视者理解您的想法
-+ 使用适当的SIG组和监视者标签去标记PR：机器人会发送给您消息，以方便您更好的完成整个PR的过程
+#### Submit a PR
 
+When you submit a PR, you are starting to contribute code to the community. For details, see [Pull Request Submission Guide](pull-requests.md).
 
+#### Add a Software Package
+openEuler can automatically create a repository with the same name on openEuler:Factory of OBS when a software package is added to Gitee. In this way, when the code is submitted to the created Gitee repository, the code compilation is automatically checked. For details, see [Adding a New Software Package](create-package.md).
 
-对于检视者，强烈建议本着[行为准则](/../code-of-conduct.md)和[社区期望](/expectations.md)，超越自我，相互尊重和促进协作。在审查其他人的PR的时候，[补丁审核的柔和艺术](https://sage.thesharps.us/2014/09/01/the-gentle-art-of-patch-review/)提出了一系列检视的重点，旨在说明检视的活动也希望能够促进新的贡献者积极参与，而不会使贡献者一开始就被细微的错误淹没，所以检视的时候，可以重点关注包括：
+### Code Review
 
-+ 贡献背后的想法是否合理
-+ 贡献的架构是否正确
-+ 贡献是否完善
+openEuler is an open community and everyone involved is expected to be an active reviewer. For details about the roles and responsibilities of different types of contributors, see [Community Membership](community-membership.md).
 
-注意：如果您的PR请求没有引起足够的关注，可以在XXXXX的XXXXX频道来获取查找评论者们的帮助。
+**As a contributor**, to make your submissions easier to accept, you need to:
 
++ Comply with the coding conventions of the SIG, if any.
++ Write good commit messages.
++ If the amount of code submitted at a time is large, decompose a large commit into a series of small commits to make it easier for reviewers to understand your ideas.
++ Label the PR with the appropriate SIG and reviewer labels. The community bot will send you a message to help you better complete the entire PR process.
 
 
-<h1 id="id5">测试</h1>
 
-测试——是所有贡献者的责任，对于社区版本来说，sig-qa也会做很多的协调工作。有关的信息信息，可以参考[《测试指南》](./../sig-test/testing.md)
+**As a reviewer**, it is strongly recommended that you comply with the [Code of Conduct](/code-of-conduct.md) and respect others to promote collaboration and improve yourself. When reviewing others' PRs, you can refer to a series of key review points provided in [The Gentle Art Of Patch Review](https://sage.thesharps.us/2014/09/01/the-gentle-art-of-patch-review/), which indicates that the code reviewer is expected to encourage new contributors to actively participate in the program instead of putting off reviewing contributions from new-comers and giving nit-picking comments. Therefore, pay attention to the following points during the review:
 
-为了成功发行一个社区版本，需要完成多种测试活动。不同的测试活动，测试代码的位置也有有所不同，成功运行测试所需的环境的细节也会有差异：
++ Whether the idea behind the contribution is reasonable.
++ Whether the structure of the contribution is correct.
++ Whether the contribution is complete.
 
-todo：待qa团队补充具体的测试活动内容
+Note: If your PR does not attract enough attention, you can ask for help through the mailing list of the SIG or send email to dev@openeuler.org.
 
-+ 单元测试：这一测试活动确定特性功能的行为是否符合预期。XXXXXXXXXXXXXXXX，可以在给定包中与相应源代码的相邻位置找到单元测试的源代码。例如XXXXXXXX中定义的函数将在XXXXXXXXXX中进行单元测试。
-+ XXXX测试
-+ XXXX测试
 
-持续集成会将这些测试活动在PR提交前完成，结果会出现在XXXX上
 
-[sig-qa组](/../sig/sig-qa/)是负责测试活动的官方机构，他们的相关测试自动化工具在test-fra中。如果您你希望自己的基础架构上能运行XXX测试，可以考虑采用。
+## Testing
 
+Testing is the responsibility of all contributors. The [QA SIG](https://gitee.com/openeuler/QA) is the official organization responsible for testing activities related to the versions of the community edition . If you want to carry out testing on your own infrastructure, see [Community Test System](https://gitee.com/openeuler/QA/blob/master/community-test-system.md).
 
+A successful release of the community edition requires multiple types of testing activities. The code to be tested and environments required for running the tests vary with the test activity types. For details, see [Community Developer Test Contribution Guide](https://gitee.com/openeuler/QA/blob/master/community-developer-test-contribution-guide.md).
 
-<h1 id="id6">选择社区组件打包</h1>
 
-请参考[如何打包](packaging.md)
 
+## Engaging in Community Component Packaging
 
+You can also participate in community component packaging. For details, see the [openEuler Packaging Guide](packaging.md).
 
-<h1 id="id7">安装openEuler</h1>
 
-请参考[下载安装openEuler](https://openeuler.org/zh/docs/installation/installation.html)
 
+## Participating in Non-Code Contributions
 
+If you are not interested in writing code, you can find the work of your interest in [Non-Code Contributions](non-code-contributions.md).
 
-<h1 id="id8">安全</h1>
 
-+ [安全发布页面]()——简要描述了处理安全问题的过程
-+ [安全披露信息]()——如果您希望报告安全漏洞，请参考此页面
 
 
 
-<h1 id="id9">社区文档</h1>
+# Installing openEuler
 
-+ [贡献文档]()
+See [openEuler Download](https://www.openeuler.org/en/download/).
 
 
 
-<h1 id="id10">社区活动</h1>
+# Disclosure of Community Security Issues
 
-<h2 id="id10-1">交流</h2>
++ [Security Handling Process](https://gitee.com/openeuler/security-committee/blob/master/security-process-en.md): This document briefly describes the process for handling security issues.
++ [Security Disclosure Information](https://gitee.com/openeuler/security-committee/blob/master/security-disclosure-en.md): If you want to report security vulnerabilities, please refer to this page.
 
-[社区常规交流方式](./communication)
 
 
-<h2 id="id10-2">大事记</h2>
+# Participating in Community Activities
 
-openEuler参加了XXXXXX，每年在XXXXXXX，关于这些事件和其他社区事件信息可以在[openEuler事件]()页面上找到
+## Communication Methods in the Community
 
+Communication methods in the openEuler community include the mailing lists, IRC channels, and video conference. For details, see [openEuler Communication](../../en/communication/README.md).
 
 
-<h2 id="10-3">聚会</h2>
 
-我们遵循针对开发者的聚会的XXXXX准则，您可以通过XXXXX上的直接消息或通过电子邮件<XXXX@huawei.com>与XXXX联系。来加入我们把~
+## Community News and Events
+
+Information about community meetings and technical exchanges attended or held by openEuler can be found on the [openEuler News](https://www.openeuler.org/en/interaction/news-list/) page.
+
+
+
+
+## Community Meetups
+
+The community holds developer conferences every year. Get in touch with us through contact information on [https://openeuler.org](https://openeuler.org) or send email to <dev@openeuler.org>. Come and join us!
+
+
+
+# Feedback
+
+If you have any questions about the contributor guide or the development process, please feel free to [tell us](community@openeuler.org) through the mailing lists and write down your questions and doubts in the email with the subject line in the format of **[Development Process Question]**. The openEuler community operations team will coordinate and assign related personnel to answer your questions.
