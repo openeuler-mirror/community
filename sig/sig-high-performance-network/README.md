@@ -83,3 +83,5 @@ repository地址：
 - https://gitee.com/openeuler/gazelle-cni
 - https://gitee.com/src-openeuler/gazelle
 - https://gitee.com/openeuler/gazelle
+- https://gitee.com/src-openeuler/oncn-bwm
+- https://gitee.com/openeuler/oncn-bwm
