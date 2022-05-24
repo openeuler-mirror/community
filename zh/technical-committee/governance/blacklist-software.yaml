@@ -203,4 +203,6 @@ blacklist-software:
 - name: python-spec
   reason: upstream stops maintaining this software
   upstream_url: https://github.com/bitprophet/spec
-
+- name: glassfish-el
+  reason: upstream stops maintaining this software
+  upstream_url: http://uel.java.net
