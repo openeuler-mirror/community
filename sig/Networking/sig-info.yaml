@@ -14,204 +14,140 @@ maintainers:
 - gitee_id: seuzw
   name: seuzw
   email: 930zhaowei@163.com
-committers:
-- gitee_id: orange-snn
-  name: orange-snn
-  email: songnannan2@huawei.com
-- gitee_id: kircher
-  name: kircher
-  email: majun65@huawei.com
-- gitee_id: gebidelidaye
-  name: AichunLi
-  email: liaichun@huawei.com
+- gitee_id: MrRlu
+  name: luzhihao
+  email: luzhihao@huawei.com
 repositories:
-- repo: src-openeuler/glassfish-jax-rs-api
-- repo: src-openeuler/kronosnet
-- repo: src-openeuler/initscripts
-- repo: src-openeuler/http-parser
-- repo: src-openeuler/openvswitch
-- repo: src-openeuler/ldns
-- repo: src-openeuler/ipvsadm
-- repo: src-openeuler/unbound
-- repo: src-openeuler/ntp
-- repo: src-openeuler/neethi
-- repo: src-openeuler/openssh
-- repo: src-openeuler/NetworkManager
-  additional_contributors:
-  - gitee_id: shirely16
-    name: hanhui
-    email: hanhui_0117@126.com
-- repo: src-openeuler/libserf
-- repo: src-openeuler/tipcutils
-- repo: src-openeuler/libnetfilter_queue
-- repo: src-openeuler/iptables
-- repo: src-openeuler/python-idna
-- repo: src-openeuler/GeoIP
-  additional_contributors:
-  - gitee_id: quanhongfei
-    name: quanhongfei
-    email: 2506045831@qq.com
-- repo: src-openeuler/xinetd
-- repo: src-openeuler/libssh2
-- repo: src-openeuler/nftables
-- repo: src-openeuler/bridge-utils
-- repo: src-openeuler/telnet
-- repo: src-openeuler/libassuan
-- repo: src-openeuler/iw
-- repo: src-openeuler/GeoIP-GeoLite-data
-  additional_contributors:
-  - gitee_id: quanhongfei
-    name: quanhongfei
-    email: 2506045831@qq.com
-- repo: src-openeuler/zd1211-firmware
-- repo: src-openeuler/ipmitool
-- repo: src-openeuler/ipset
-  additional_contributors:
-  - gitee_id: haochenstar
-    name: xihaochen
-    email: psu1997@outlook.com
-- repo: src-openeuler/iptraf-ng
-- repo: src-openeuler/ppp
-- repo: src-openeuler/tcpdump
-- repo: src-openeuler/traceroute
-- repo: src-openeuler/mtr
-- repo: src-openeuler/firewalld
-- repo: src-openeuler/arpwatch
-- repo: src-openeuler/iputils
-- repo: src-openeuler/iproute
-  additional_contributors:
-  - gitee_id: haochenstar
-    name: xihaochen
-    email: psu1997@outlook.com
-- repo: src-openeuler/nmap
-- repo: src-openeuler/httpd
-- repo: src-openeuler/network-manager-applet
-- repo: src-openeuler/libdnet
-- repo: src-openeuler/python-requests-ftp
-- repo: src-openeuler/ModemManager
-- repo: src-openeuler/procmail
-- repo: src-openeuler/tcp_wrappers
-- repo: src-openeuler/vconfig
-- repo: src-openeuler/lua-socket
-  additional_contributors:
-  - gitee_id: zzm_567
-    name: zhanzhimin
-    email: zhanzhimin@huawei.com
-- repo: src-openeuler/mod_http2
-- repo: src-openeuler/libtirpc
-- repo: src-openeuler/ethtool
-  additional_contributors:
-  - gitee_id: yangl777
-    name: yanglu
-    email: yanglu60@huawei.com
-- repo: src-openeuler/net-tools
-- repo: src-openeuler/hostname
-- repo: src-openeuler/openldap
-  additional_contributors:
-  - gitee_id: sherlock2010
-    name: zhouyihang
-    email: 15151851377@163.com
-- repo: src-openeuler/ipcalc
-- repo: src-openeuler/vsftpd
-- repo: src-openeuler/samba
-- repo: src-openeuler/dnsmasq
-- repo: src-openeuler/notification-daemon
-- repo: src-openeuler/chrony
-  additional_contributors:
-  - gitee_id: eaglegai
-    name: gaihuiiying
-    email: eaglegai@163.com
-- repo: src-openeuler/libproxy
-  additional_contributors:
-  - gitee_id: eaglegai
-    name: gaihuiiying
-    email: eaglegai@163.com
-- repo: src-openeuler/ntpstat
-- repo: src-openeuler/libnetfilter_conntrack
-- repo: src-openeuler/postfix
-- repo: src-openeuler/libnl3
-- repo: src-openeuler/arptables
-- repo: src-openeuler/ftp
-- repo: src-openeuler/python-paste
-  additional_contributors:
-  - gitee_id: jinzhimin369
-    name: jinzhimin
-    email: jinzhimin2@huawei.com
-- repo: src-openeuler/libgcrypt
-- repo: src-openeuler/python-ipaddress
-- repo: src-openeuler/libpcap
-- repo: src-openeuler/xmlrpc-c
-- repo: src-openeuler/libssh
-- repo: src-openeuler/wget
-- repo: src-openeuler/nghttp2
-- repo: src-openeuler/libnfnetlink
-- repo: src-openeuler/curl
-- repo: src-openeuler/python-IPy
-  additional_contributors:
-  - gitee_id: jinzhimin369
-    name: jinzhimin
-    email: jinzhimin2@huawei.com
-- repo: src-openeuler/lftp
-- repo: src-openeuler/atmel-firmware
-- repo: src-openeuler/netcf
-- repo: src-openeuler/c-ares
-- repo: src-openeuler/python-backports-ssl_match_hostname
-- repo: src-openeuler/libesmtp
-- repo: src-openeuler/arp-scan
-  additional_contributors:
-  - gitee_id: quanhongfei
-    name: quanhongfei
-    email: 2506045831@qq.com
-- repo: src-openeuler/ebtables
-- repo: src-openeuler/dropwatch
-- repo: src-openeuler/bind
-- repo: src-openeuler/OpenIPMI
-- repo: src-openeuler/grpc
-- repo: src-openeuler/bind-dyndb-ldap
-  additional_contributors:
-  - gitee_id: sherlock2010
-    name: zhouyihang
-    email: 15151851377@163.com
-- repo: src-openeuler/dhcp
-- repo: src-openeuler/net-snmp
-- repo: src-openeuler/icfg
-- repo: src-openeuler/python-requests
-  additional_contributors:
-  - gitee_id: jinzhimin369
-    name: jinzhimin
-    email: jinzhimin2@huawei.com
-- repo: src-openeuler/rpcbind
-- repo: src-openeuler/python-urllib3
-  additional_contributors:
-  - gitee_id: yeah_wang
-    name: wangye
-    email: wangye70@huawei.com 
-- repo: src-openeuler/iptstate
-- repo: src-openeuler/radvd
-- repo: src-openeuler/squid
-- repo: src-openeuler/python-html5lib
-- repo: src-openeuler/libnet
-- repo: src-openeuler/tftp
-- repo: src-openeuler/lldpad
-- repo: src-openeuler/b43-openfwwf
-- repo: src-openeuler/libndp
-- repo: src-openeuler/openslp
-- repo: src-openeuler/mobile-broadband-provider-info
-- repo: src-openeuler/xdp-cpumap-tc
-- repo: src-openeuler/appweb
-- repo: src-openeuler/nagios-plugins
-- repo: src-openeuler/freeradius-client
-- repo: src-openeuler/i40e
-- repo: src-openeuler/iavf
-- repo: src-openeuler/apache-commons-net
-- repo: src-openeuler/libmbim
-- repo: src-openeuler/libqmi
-- repo: src-openeuler/spawn-fcgi
-- repo: src-openeuler/lighttpd
-- repo: src-openeuler/guacamole
-  additional_contributors:
-  - gitee_id: duyiwei7w
-    name: duyiwei
-    email: duyiwei@kylinos.cn
-- repo: src-openeuler/wireguard-tools
-- repo: src-openeuler/babeld
+- repo: 
+  - src-openeuler/glassfish-jax-rs-api
+  - src-openeuler/kronosnet
+  - src-openeuler/initscripts
+  - src-openeuler/http-parser
+  - src-openeuler/openvswitch
+  - src-openeuler/ldns
+  - src-openeuler/ipvsadm
+  - src-openeuler/unbound
+  - src-openeuler/ntp
+  - src-openeuler/neethi
+  - src-openeuler/openssh
+  - src-openeuler/NetworkManager
+  - src-openeuler/libserf
+  - src-openeuler/tipcutils
+  - src-openeuler/libnetfilter_queue
+  - src-openeuler/iptables
+  - src-openeuler/python-idna
+  - src-openeuler/GeoIP
+  - src-openeuler/xinetd
+  - src-openeuler/libssh2
+  - src-openeuler/nftables
+  - src-openeuler/bridge-utils
+  - src-openeuler/telnet
+  - src-openeuler/libassuan
+  - src-openeuler/iw
+  - src-openeuler/GeoIP-GeoLite-data
+  - src-openeuler/zd1211-firmware
+  - src-openeuler/ipmitool
+  - src-openeuler/ipset
+  - src-openeuler/iptraf-ng
+  - src-openeuler/ppp
+  - src-openeuler/tcpdump
+  - src-openeuler/traceroute
+  - src-openeuler/mtr
+  - src-openeuler/firewalld
+  - src-openeuler/arpwatch
+  - src-openeuler/iputils
+  - src-openeuler/iproute
+  - src-openeuler/nmap
+  - src-openeuler/httpd
+  - src-openeuler/network-manager-applet
+  - src-openeuler/libdnet
+  - src-openeuler/python-requests-ftp
+  - src-openeuler/ModemManager
+  - src-openeuler/procmail
+  - src-openeuler/tcp_wrappers
+  - src-openeuler/vconfig
+  - src-openeuler/lua-socket
+  - src-openeuler/mod_http2
+  - src-openeuler/libtirpc
+  - src-openeuler/ethtool
+  - src-openeuler/net-tools
+  - src-openeuler/hostname
+  - src-openeuler/openldap
+  - src-openeuler/ipcalc
+  - src-openeuler/vsftpd
+  - src-openeuler/samba
+  - src-openeuler/dnsmasq
+  - src-openeuler/notification-daemon
+  - src-openeuler/chrony
+  - src-openeuler/libproxy
+  - src-openeuler/ntpstat
+  - src-openeuler/libnetfilter_conntrack
+  - src-openeuler/postfix
+  - src-openeuler/libnl3
+  - src-openeuler/arptables
+  - src-openeuler/ftp
+  - src-openeuler/python-paste
+  - src-openeuler/libgcrypt
+  - src-openeuler/python-ipaddress
+  - src-openeuler/libpcap
+  - src-openeuler/xmlrpc-c
+  - src-openeuler/libssh
+  - src-openeuler/wget
+  - src-openeuler/nghttp2
+  - src-openeuler/libnfnetlink
+  - src-openeuler/curl
+  - src-openeuler/python-IPy
+  - src-openeuler/lftp
+  - src-openeuler/atmel-firmware
+  - src-openeuler/netcf
+  - src-openeuler/c-ares
+  - src-openeuler/python-backports-ssl_match_hostname
+  - src-openeuler/libesmtp
+  - src-openeuler/arp-scan
+  - src-openeuler/ebtables
+  - src-openeuler/dropwatch
+  - src-openeuler/bind
+  - src-openeuler/OpenIPMI
+  - src-openeuler/grpc
+  - src-openeuler/bind-dyndb-ldap
+  - src-openeuler/dhcp
+  - src-openeuler/net-snmp
+  - src-openeuler/icfg
+  - src-openeuler/python-requests
+  - src-openeuler/rpcbind
+  - src-openeuler/python-urllib3
+  - src-openeuler/iptstate
+  - src-openeuler/radvd
+  - src-openeuler/squid
+  - src-openeuler/python-html5lib
+  - src-openeuler/libnet
+  - src-openeuler/tftp
+  - src-openeuler/lldpad
+  - src-openeuler/b43-openfwwf
+  - src-openeuler/libndp
+  - src-openeuler/openslp
+  - src-openeuler/mobile-broadband-provider-info
+  - src-openeuler/xdp-cpumap-tc
+  - src-openeuler/appweb
+  - src-openeuler/nagios-plugins
+  - src-openeuler/freeradius-client
+  - src-openeuler/i40e
+  - src-openeuler/iavf
+  - src-openeuler/apache-commons-net
+  - src-openeuler/libmbim
+  - src-openeuler/libqmi
+  - src-openeuler/spawn-fcgi
+  - src-openeuler/lighttpd
+  - src-openeuler/guacamole
+  - src-openeuler/wireguard-tools
+  - src-openeuler/babeld
+  - src-openeuler/wrk
+  - src-openeuler/trafficserver
+  - src-openeuler/keepalived
+  committers:
+  - gitee_id: kircher
+    name: kircher
+    email: majun65@huawei.com
+  - gitee_id: gebidelidaye
+    name: AichunLi
+    email: liaichun@huawei.com
