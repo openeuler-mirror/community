@@ -23,7 +23,7 @@ What and in what form the SIG is responsible for delivering
 
 ### Maintainers
   - xqm227
-  - wuliaokanke
-  - derekpush
+  - realzhongkeyi
+  - hao-fang
 
 
