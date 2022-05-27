@@ -1,0 +1,7 @@
+name: python-pypiserver
+description: minimal PyPI server for use with pip/easy_install
+upstream: https://github.com/pypiserver/pypiserver
+branches:
+- name: master
+  type: protected
+type: public
