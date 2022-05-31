@@ -56,6 +56,9 @@ Cinnamon 支持在线安装包括 Applet、Desklet、extensions 等类型的插�
 - https://gitee.com/src-openeuler/inxi
 - https://gitee.com/src-openeuler/perl-XML-Dumper
 - https://gitee.com/src-openeuler/xapps
+- https://gitee.com/src-openeuler/mint-x-icons
+- https://gitee.com/src-openeuler/mint-y-icons
+- https://gitee.com/src-openeuler/mintlocale
 
 ## SIG基本信息
 

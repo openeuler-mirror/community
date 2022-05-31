@@ -58,6 +58,9 @@ English | [简体中文](./sig-cinnamon_cn.md)
 - https://gitee.com/src-openeuler/inxi
 - https://gitee.com/src-openeuler/perl-XML-Dumper
 - https://gitee.com/src-openeuler/xapps
+- https://gitee.com/src-openeuler/mint-x-icons
+- https://gitee.com/src-openeuler/mint-y-icons
+- https://gitee.com/src-openeuler/mintlocale
 
 
 ## Basic Information
