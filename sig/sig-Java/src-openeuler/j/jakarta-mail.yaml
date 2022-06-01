@@ -1,0 +1,7 @@
+name: jakarta-mail
+description: Jakarta Mail defines a platform-independent and protocol-independent framework to build mail and messaging applications.
+upstream: https://github.com/eclipse-ee4j/mail
+branches: 
+- name: master
+  type: protected
+type: public
