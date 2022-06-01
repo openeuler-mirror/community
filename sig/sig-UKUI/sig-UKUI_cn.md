@@ -30,6 +30,8 @@ UKUI SIG小组致力于将 UKUI 3.0 这款知名易用的 Linux 桌面环境引�
 
 UKUI 相关软件包的仓库详见：https://github.com/ukui/。
 
+- https://gitee.com/openeuler/ukui
+- https://gitee.com/openeuler/kylin-installer
 - https://gitee.com/src-openeuler/qt5-ukui-platformtheme
 - https://gitee.com/src-openeuler/peony
 - https://gitee.com/src-openeuler/ukui-control-center
