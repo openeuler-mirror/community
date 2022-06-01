@@ -64,3 +64,4 @@ repository地址：
 - https://gitee.com/src-openeuler/mint-x-icons
 - https://gitee.com/src-openeuler/mint-y-icons
 - https://gitee.com/src-openeuler/mintlocale
+- https://gitee.com/src-openeuler/python-plum-py

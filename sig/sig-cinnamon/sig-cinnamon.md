@@ -61,7 +61,7 @@ English | [简体中文](./sig-cinnamon_cn.md)
 - https://gitee.com/src-openeuler/mint-x-icons
 - https://gitee.com/src-openeuler/mint-y-icons
 - https://gitee.com/src-openeuler/mintlocale
-
+- https://gitee.com/src-openeuler/python-plum-py
 
 ## Basic Information
 
@@ -82,4 +82,3 @@ English | [简体中文](./sig-cinnamon_cn.md)
 
 ### External Contact
 - zxf_tl
-
