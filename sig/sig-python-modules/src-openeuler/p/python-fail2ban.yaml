@@ -1,0 +1,7 @@
+name: python-fail2ban
+description: Fail2ban scans log files like /var/log/pwdfail or /var/log/apache/error_log and bans IP that makes too many password failures. It updates firewall rules to reject the IP address.
+upstream: https://www.fail2ban.org
+branches:
+- name: master
+  type: protected
+type: public
