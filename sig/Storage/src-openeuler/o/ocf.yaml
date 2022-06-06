@@ -1,0 +1,10 @@
+name: ocf
+description: Open CAS Framework(OCF) is high performance block storage caching meta-library written in C.
+upstream: https://github.com/Open-CAS/ocf
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

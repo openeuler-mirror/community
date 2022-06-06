@@ -106,3 +106,4 @@ repository地址：
 - https://gitee.com/src-openeuler/extfuse
 - https://gitee.com/openeuler/stortrace
 - https://gitee.com/openeuler/hsak
+- https://gitee.com/src-openeuler/ocf
