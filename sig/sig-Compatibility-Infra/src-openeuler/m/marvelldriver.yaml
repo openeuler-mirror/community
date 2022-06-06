@@ -1,6 +1,7 @@
 name: marvelldriver
 description: provide Marvell QLogic FC HBA adapter driver, Ethernet NIC driver and SAS/SATA controller driver for openEuler LTS version.
+upstream: https://driverdownloads.qlogic.com/QLogicDriverDownloads_UI/SearchByProduct.aspx?ProductCategory=39&Product=1301&Os=222
 branches:
   - name: master
-      type: protected
-      type: public
+    type: protected
+type: public
