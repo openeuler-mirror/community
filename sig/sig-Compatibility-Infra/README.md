@@ -66,3 +66,5 @@ eric14chan
 repository地址：
 
  
+https://gitee.com/openeuler/marvelldriver
+https://gitee.com/src-openeuler/marvelldriver
