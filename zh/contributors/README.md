@@ -159,7 +159,7 @@ openEuler支持在gitee新增软件包的同时自动在obs的openEuler:Fctory�
 
 ### 检视代码
 
-openEuler是一个开放的社区，我们希望所有参与社区的人都能成为活跃的检视者。可以参考[社区成员](https://gitee.com/openeuler/community/blob/master/community-membership.md)，该文档描述了不同贡献者的角色职责。
+openEuler是一个开放的社区，我们希望所有参与社区的人都能成为活跃的检视者。可以参考[社区成员](https://gitee.com/openeuler/community/blob/master/community-membership_cn.md)，该文档描述了不同贡献者的角色职责。
 
 **对于贡献者**，为了使您的提交更容易被接受，您需要：
 
