@@ -1,0 +1,101 @@
+name: Storage
+description: Storage sig is committed to continuously explore and build the ecology and competitiveness in the technical area of storage.
+
+mailing_list: dev@openeuler.org
+meeting_url: NA
+mature_level: startup
+maintainers:
+- gitee_id: liuzhiqiang26
+  name: Zhiqiang Liu
+  orgnization: Huawei
+  email: liuzhiqiang26@huawei.com
+- gitee_id: wubo009
+  name: wubo
+  orgnization: Huawei
+  email: wubo40@huawei.com
+- gitee_id: volcano-dragon
+  name: Feilong Lin
+  orgnization: Huawei
+  email: linfeilong@huawei.com
+- gitee_id: louhongxiang
+  name: Hongxiang Lou
+  orgnization: Huawei
+  email: louhongxiang@huawei.com
+repositories:
+- repo: src-openeuler/system-storage-manager
+- repo: src-openeuler/parted
+- repo: src-openeuler/iprutils
+- repo: src-openeuler/ndctl
+- repo: src-openeuler/fuse
+- repo: src-openeuler/fuse3
+- repo: src-openeuler/tree
+- repo: src-openeuler/sg3_utils
+- repo: src-openeuler/mdadm
+- repo: src-openeuler/python-configobj
+- repo: src-openeuler/btrfs-progs
+- repo: src-openeuler/ccid
+- repo: src-openeuler/attr
+- repo: src-openeuler/smartmontools
+- repo: src-openeuler/luksmeta
+- repo: src-openeuler/nfs4-acl-tools
+- repo: src-openeuler/cryptsetup
+- repo: src-openeuler/udisks2
+- repo: src-openeuler/mtools
+- repo: src-openeuler/libblockdev
+- repo: src-openeuler/libldm
+- repo: src-openeuler/sdparm
+- repo: src-openeuler/libpciaccess
+- repo: src-openeuler/iotop
+- repo: src-openeuler/xfsdump
+- repo: src-openeuler/open-iscsi
+- repo: src-openeuler/libaio
+- repo: src-openeuler/libusbmuxd
+- repo: src-openeuler/file
+- repo: src-openeuler/e2fsprogs
+- repo: src-openeuler/gdbm
+- repo: src-openeuler/thin-provisioning-tools
+- repo: src-openeuler/dosfstools
+- repo: src-openeuler/libusbx
+- repo: src-openeuler/pciutils
+- repo: src-openeuler/blktrace
+- repo: src-openeuler/usbredir
+- repo: src-openeuler/lvm2
+- repo: src-openeuler/dmraid
+- repo: src-openeuler/libtalloc
+- repo: src-openeuler/quota
+- repo: src-openeuler/xfsprogs
+- repo: src-openeuler/nfs-utils
+- repo: src-openeuler/libtevent
+- repo: src-openeuler/gdisk
+- repo: src-openeuler/glusterfs
+- repo: src-openeuler/multipath-tools
+- repo: src-openeuler/sysfsutils
+- repo: src-openeuler/smp_utils
+- repo: src-openeuler/squashfs-tools
+- repo: src-openeuler/libiscsi
+- repo: src-openeuler/fxload
+- repo: src-openeuler/libusb
+- repo: src-openeuler/hdparm
+- repo: src-openeuler/pcsc-lite
+- repo: src-openeuler/filesystem
+- repo: src-openeuler/cifs-utils
+- repo: src-openeuler/cachefilesd
+- repo: src-openeuler/usbutils
+- repo: src-openeuler/lsscsi
+- repo: src-openeuler/open-isns
+- repo: openeuler/memory-scan
+- repo: src-openeuler/fastdfs
+- repo: src-openeuler/libfastcommon
+- repo: src-openeuler/DCache
+- repo: src-openeuler/s3fs-fuse
+- repo: src-openeuler/spdk
+- repo: src-openeuler/bcache-tools
+- repo: src-openeuler/filebench
+- repo: src-openeuler/liburing
+- repo: openeuler/etmem
+- repo: src-openeuler/etmem
+- repo: openeuler/extfuse
+- repo: src-openeuler/extfuse
+- repo: openeuler/stortrace
+- repo: openeuler/hsak
+- repo: src-openeuler/ocf 
