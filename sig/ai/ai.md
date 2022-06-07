@@ -60,6 +60,8 @@ AI has been applied to many areas of the society and be used in all walks of lif
   OpenCV means Intel® Open Source Computer Vision Library.
 - [alluxio](https://gitee.com/src-openeuler/alluxio):
   Alluxio (formerly known as Tachyon) is a virtual distributed storage system.
+- [MindSpore](https://gitee.com/src-openeuler/mindspore):
+  MindSpore is a new open source deep learning training/inference framework that could be used for mobile, edge and cloud scenarios.
 
 # Basic Information
 
