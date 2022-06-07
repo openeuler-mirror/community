@@ -32,6 +32,7 @@ The openEuler UKUI SIG aims at introducing UKUI 3.0, a well-known and easy to us
 The repositories related to oVirt are listed below, see https://github.com/ukui/ for details.
 - https://gitee.com/openeuler/ukui
 - https://gitee.com/openeuler/kylin-installer
+- https://gitee.com/openeuler/kylin-user-guide
 - https://gitee.com/src-openeuler/qt5-ukui-platformtheme
 - https://gitee.com/src-openeuler/peony
 - https://gitee.com/src-openeuler/ukui-control-center

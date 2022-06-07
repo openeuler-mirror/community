@@ -32,6 +32,7 @@ UKUI 相关软件包的仓库详见：https://github.com/ukui/。
 
 - https://gitee.com/openeuler/ukui
 - https://gitee.com/openeuler/kylin-installer
+- https://gitee.com/openeuler/kylin-user-guide
 - https://gitee.com/src-openeuler/qt5-ukui-platformtheme
 - https://gitee.com/src-openeuler/peony
 - https://gitee.com/src-openeuler/ukui-control-center

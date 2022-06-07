@@ -43,6 +43,7 @@ UKUI
 repository地址:
     - https://gitee.com/openeuler/ukui
     - https://gitee.com/openeuler/kylin-installer
+    - https://gitee.com/openeuler/kylin-user-guide
     - https://gitee.com/src-openeuler/ukui-feedback
     - https://gitee.com/src-openeuler/ukui-notebook
     - https://gitee.com/src-openeuler/kylin-installer
