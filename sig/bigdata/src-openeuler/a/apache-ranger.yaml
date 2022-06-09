@@ -1,0 +1,7 @@
+name: apache-ranger
+description: Apache ranger is a framework to enable,monitor and comprehensive data security across the Hadoop platform.
+upstream: https://github.com/apache/ranger
+branches:
+- name: master
+  type: protected
+type: public 
