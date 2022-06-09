@@ -219,7 +219,7 @@ openEuler社区版本分为长期支持版本和创新版本。[详见release SI
 
 ### LTS版本兼容性列表
 
-LTS版本的软件升级后**不得影响兼容性列表**，兼容性列表由openEuler TC 看护。此兼容性列表根据实际场景或用户反馈增删或修改。下面是举例，详细的表格参见[openEuler LTS版本兼容性列表](https://gitee.com/openeuler/oec-application/blob/master/doc/compatibility_level/compatibility_level.md)。
+LTS版本的软件升级后**不得影响兼容性列表**，兼容性列表由openEuler TC 看护。此兼容性列表根据实际场景或用户反馈增删或修改。下面是举例，详细的表格参见[openEuler LTS版本兼容性列表](https://gitee.com/openeuler/oec-application/blob/master/doc/compatibility_level.md)。
 
 |              |                                                              |
 | ------------ | ------------------------------------------------------------ |
