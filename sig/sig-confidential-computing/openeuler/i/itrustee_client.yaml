@@ -3,4 +3,7 @@ description: Confidential computing framework for iTrustee OS normal world clien
 branches:
 - name: master
   type: protected
+- name: itrustee_client-1.0
+  type: protected
+  create_from: master
 type: public

@@ -3,4 +3,7 @@ description: Confidential computing framework for iTrustee OS driver
 branches:
 - name: master
   type: protected
+- name: itrustee_tzdriver-1.0
+  type: protected
+  create_from: master
 type: public
