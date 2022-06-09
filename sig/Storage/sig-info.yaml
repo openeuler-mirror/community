@@ -22,8 +22,9 @@ maintainers:
   orgnization: Huawei
   email: louhongxiang@huawei.com
 repositories:
-- repo: src-openeuler/system-storage-manager
-- repo: src-openeuler/parted
+- repo: 
+  - src-openeuler/system-storage-manager
+  - src-openeuler/parted
 - repo: src-openeuler/iprutils
 - repo: src-openeuler/ndctl
 - repo: src-openeuler/fuse
@@ -99,3 +100,20 @@ repositories:
 - repo: openeuler/stortrace
 - repo: openeuler/hsak
 - repo: src-openeuler/ocf 
+
+- repo: # For storage REDF
+  - openeuler/nvme-snsd
+  - src-openeuler/nvme-snsd
+  committers:
+  - gitee_id: tao191
+    name: Jun Tao Yang
+    organization: Huawei
+    email: yangjuntao09@huawei.com
+  - gitee_id: cygnus1985
+    name: Guo Qin
+    organization: Huawei
+    email: qinguo@huawei.com
+  - gitee_id: chaojiahuoshanga
+    name: Peng Fei Gan
+    organization: Huawei
+    email: ganpengfei@huawei.com

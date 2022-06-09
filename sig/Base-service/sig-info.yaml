@@ -598,3 +598,12 @@ repositories:
     organization: kylinos
     email: dillon.chen@gmail.com
 
+- repo: #for C11 Annex K extension
+  - openeuler/libboundscheck
+  - src-openeuler/libboundscheck
+  committers:
+  - gitee_id: xuhuiyue
+    name: Hui Yue Xu
+    organization: Huawei
+    email: xuhuiyue@huawei.com
+
