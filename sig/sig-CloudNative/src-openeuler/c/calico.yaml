@@ -1,0 +1,7 @@
+name: calico
+description: Cloud native networking and network security solution.
+upstream: https://github.com/projectcalico/calico
+branches:
+- name: master
+  type: protected
+type: public
