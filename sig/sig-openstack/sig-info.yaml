@@ -42,6 +42,7 @@ repositories:
   - openeuler/openstack-plugin
   - openeuler/openstack-releases
   - src-openeuler/ansible-lint
+  - src-openeuler/avro-python3
   - src-openeuler/crudini
   - src-openeuler/dibbler
   - src-openeuler/diskimage-builder
@@ -121,6 +122,10 @@ repositories:
   - src-openeuler/python-arrow
   - src-openeuler/python-async-generator
   - src-openeuler/python-automaton
+  - src-openeuler/python-autopage
+  - src-openeuler/python-awscrt
+  - src-openeuler/python-aws-sam-translator
+  - src-openeuler/python-aws-xray-sdk
   - src-openeuler/python-barbicanclient
   - src-openeuler/python-beautifulsoup4
   - src-openeuler/python-binary-memcached
@@ -131,6 +136,7 @@ repositories:
   - src-openeuler/python-cassandra-driver
   - src-openeuler/python-castellan
   - src-openeuler/python-ceilometermiddleware
+  - src-openeuler/python-cfn-lint
   - src-openeuler/python-cinder-tempest-plugin
   - src-openeuler/python-cinderclient
   - src-openeuler/python-cliff
@@ -140,6 +146,7 @@ repositories:
   - src-openeuler/python-congressclient
   - src-openeuler/python-consul
   - src-openeuler/python-cotyledon
+  - src-openeuler/python-covdefaults
   - src-openeuler/python-cursive
   - src-openeuler/python-cyborgclient
   - src-openeuler/python-debtcollector
@@ -167,6 +174,7 @@ repositories:
   - src-openeuler/python-gossip
   - src-openeuler/python-gremlinpython
   - src-openeuler/python-grpcio-gcp
+  - src-openeuler/python-grpcio-status
   - src-openeuler/python-hacking
   - src-openeuler/python-heat-cfntools
   - src-openeuler/python-heatclient
@@ -185,6 +193,9 @@ repositories:
   - src-openeuler/python-ironicclient
   - src-openeuler/python-jaeger-client
   - src-openeuler/python-jaraco.packaging
+  - src-openeuler/python-jaraco.path
+  - src-openeuler/python-jaraco.tidelift
+  - src-openeuler/python-jose
   - src-openeuler/python-jsondiff
   - src-openeuler/python-karborclient
   - src-openeuler/python-kazoo
@@ -278,6 +289,7 @@ repositories:
   - src-openeuler/python-pika
   - src-openeuler/python-pip-api
   - src-openeuler/python-pipreqs
+  - src-openeuler/python-pip-run
   - src-openeuler/python-pre-commit
   - src-openeuler/python-proboscis
   - src-openeuler/python-proliantutils
@@ -290,11 +302,15 @@ repositories:
   - src-openeuler/python-pyghmi
   - src-openeuler/python-pylama
   - src-openeuler/python-pypowervm
+  - src-openeuler/python-pyspnego
+  - src-openeuler/python-pytest-checkdocs
   - src-openeuler/python-pytest-django
   - src-openeuler/python-pytest-env
+  - src-openeuler/python-pytest-freezegun
   - src-openeuler/python-pytest-html
   - src-openeuler/python-pytest-perf
   - src-openeuler/python-pytest-randomly
+  - src-openeuler/python-pyu2f
   - src-openeuler/python-pyxcli
   - src-openeuler/python-rbd-iscsi-client
   - src-openeuler/python-reno
@@ -350,9 +366,12 @@ repositories:
   - src-openeuler/python-typed-ast
   - src-openeuler/python-types-enum34
   - src-openeuler/python-types-ipaddress
+  - src-openeuler/python-types-paramiko
   - src-openeuler/python-typing-extensions
+  - src-openeuler/python-uamqp
   - src-openeuler/python-uhashring
   - src-openeuler/python-ujson
+  - src-openeuler/python-uncertainties
   - src-openeuler/python-vintage
   - src-openeuler/python-vitrageclient
   - src-openeuler/python-waiting
