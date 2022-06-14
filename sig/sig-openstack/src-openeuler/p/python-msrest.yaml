@@ -1,0 +1,7 @@
+name: python-msrest
+description: AutoRest swagger generator Python client runtime.
+upstream: https://github.com/Azure/msrest-for-python
+branches:
+- name: master
+  type: protected
+type: public

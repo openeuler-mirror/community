@@ -1,0 +1,7 @@
+name: python-psycopg2cffi
+description: An implementation of the psycopg2 module using cffi.
+upstream: http://github.com/chtd/psycopg2cffi
+branches:
+- name: master
+  type: protected
+type: public

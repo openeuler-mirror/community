@@ -1,0 +1,7 @@
+name: python-oslo.limit
+description: Limit enforcement library to assist with quota calculation.
+upstream: http://opendev.org/openstack/oslo.limit
+branches:
+- name: master
+  type: protected
+type: public

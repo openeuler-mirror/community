@@ -1,0 +1,7 @@
+name: python-psycopg2-binary
+description: psycopg2 - Python-PostgreSQL Database Adapter
+upstream: https://github.com/psycopg/psycopg2
+branches:
+- name: master
+  type: protected
+type: public

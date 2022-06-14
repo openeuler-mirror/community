@@ -1,0 +1,7 @@
+name: python-pytest-randomly
+description: Pytest plugin to randomly order tests and control random.seed.
+upstream: https://github.com/pytest-dev/pytest-randomly
+branches:
+- name: master
+  type: protected
+type: public
