@@ -1,6 +1,6 @@
-name: libxcvt
-upstream: https://gitlab.freedesktop.org/xorg/lib/libxcvt/
-description: VESA CVT standard timing modelines generator
+name: xorg-x11-server-xwayland
+upstream: https://gitlab.freedesktop.org/xorg/xserver/
+description: xwayland is an X server for running X clients under wayland
 branches:
 - name: master
   type: protected
