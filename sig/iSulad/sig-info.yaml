@@ -1,0 +1,56 @@
+name: iSulad
+
+description: The iSulad team is responsible for lightweight container runtime(iSulad) function development and maintenance of the openEuler community.
+
+mailing_list: isulad@openeuler.org
+
+meeting_url: NA
+
+maintainers:
+- gitee_id: caihaomin
+  name: Haomin Cai
+  orgnization: Huawei
+  email: caihaomin@huawei.com
+- gitee_id: duguhaotian
+  name: Hao Liu
+  orgnization: Huawei
+  email: liuhao27@huawei.com
+- gitee_id: jingxiaolu
+  name: Jingxiao Lu
+  orgnization: Huawei
+  email: lujingxiao@huawei.com
+- gitee_id: jingwoo
+  name: Jing Wu
+  orgnization: Huawei
+  email: wujing50@huawei.com
+- gitee_id: lifeng2221dd1
+  name: Feng Li
+  orgnization: Huawei
+  email: lifeng68@huawei.com
+
+repositories:
+- repo:
+  - openeuler/isula-transform
+  - openeuler/iSulad
+  - openeuler/iSulad-img
+  - openeuler/isula-build
+  - openeuler/syscontainer-tools
+  - openeuler/async-libfuse
+  - openeuler/authz
+  - openeuler/clibcni
+  - openeuler/lcr
+  - openeuler/lib-shim-v2
+  - openeuler/lxcfs-tools
+  - openeuler/pyisula
+  - src-openeuler/isula-transform
+  - src-openeuler/iSulad
+  - src-openeuler/isula-build
+  - src-openeuler/syscontainer-tools
+  - src-openeuler/authz
+  - src-openeuler/clibcni
+  - src-openeuler/lxc
+  - src-openeuler/lxcfs
+  - src-openeuler/libwebsockets
+  - src-openeuler/lcr
+  - src-openeuler/lib-shim-v2
+  - src-openeuler/lxcfs-tools

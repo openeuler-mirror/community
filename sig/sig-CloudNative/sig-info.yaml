@@ -1,0 +1,122 @@
+name: sig-CloudNative
+
+description: CloudNative SIG is committed to providing a convenient and easy-to-use cloud native infrastructure for users, developers, and enthusiasts, providing a simple and efficient cloud native application development hosting environment to build cloud native ecology.
+
+mailing_list: cloudnative@openeuler.org
+
+meeting_url: NA
+
+maintainers:
+- gitee_id: caihaomin
+  name: Haomin Cai
+  orgnization: Huawei
+  email: caihaomin@huawei.com
+- gitee_id: yangzhao_kl
+  name: Zhao Yang
+  orgnization: KylinSoft
+  email: yangzhao1@kylinos.cn
+- gitee_id: jianminw
+  name: Jianmin Wang
+  orgnization: ISCAS
+  email: jianmin@iscas.ac.cn
+- gitee_id: weibaohui
+  name: Baohui Wei
+  orgnization: China Mobile
+  email: weibaohui@yeah.net
+- gitee_id: biannm
+  name: Naimeng Bian
+  orgnization: HOPERUN
+  email: bian_naimeng@hoperun.com
+- gitee_id: pixiake
+  name: Feng Guo
+  orgnization: QingCloud
+  email: guofeng@yunify.com
+- gitee_id: duguhaotian
+  name: Hao Liu
+  orgnization: Huawei
+  email: liuhao27@huawei.com
+
+repositories:
+- repo:
+  - openeuler/rubik
+  - openeuler/NestOS
+  - openeuler/nestos-installer
+  - openeuler/nestos-assembler
+  - openeuler/nestos-config
+  - openeuler/operator-manager
+  - openeuler/openeuler-docker-images
+  - openeuler/cloudnative
+  - openeuler/eggo
+  - openeuler/KubeHawk
+  - openeuler/kata_integration
+  - openeuler/KubeOS
+  - openeuler/KubeHawkeyes
+  - openeuler/ptcr
+  - src-openeuler/rubik
+  - src-openeuler/runc
+  - src-openeuler/umoci
+  - src-openeuler/iSulad-img
+  - src-openeuler/influxdb_exporter
+  - src-openeuler/nestos-installer
+  - src-openeuler/node_exporter
+  - src-openeuler/gluster_exporter
+  - src-openeuler/gvisor
+  - src-openeuler/zram-generator
+  - src-openeuler/zchunk
+  - src-openeuler/zincati
+  - src-openeuler/toolbox
+  - src-openeuler/stalld
+  - src-openeuler/skopeo
+  - src-openeuler/ssh-key-dir
+  - src-openeuler/slirp4netns
+  - src-openeuler/ShellCheck
+  - src-openeuler/alertmanager
+  - src-openeuler/afterburn
+  - src-openeuler/awscli
+  - src-openeuler/fuse-overlayfs
+  - src-openeuler/fuse-sshfs
+  - src-openeuler/haproxy_exporter
+  - src-openeuler/harbor
+  - src-openeuler/memcached_exporter
+  - src-openeuler/jboss-parent
+  - src-openeuler/console-login-helper-messages
+  - src-openeuler/containernetworking-plugins
+  - src-openeuler/cri-tools
+  - src-openeuler/crun
+  - src-openeuler/cri-o
+  - src-openeuler/containerd
+  - src-openeuler/coredns
+  - src-openeuler/cadvisor
+  - src-openeuler/containers-common
+  - src-openeuler/container-selinux
+  - src-openeuler/catatonit
+  - src-openeuler/docker-compose
+  - src-openeuler/dumb-init
+  - src-openeuler/docker
+  - src-openeuler/docker-client-java
+  - src-openeuler/virt-what
+  - src-openeuler/etcd
+  - src-openeuler/eggo
+  - src-openeuler/blackbox_exporter
+  - src-openeuler/butane
+  - src-openeuler/buildah
+  - src-openeuler/busybox
+  - src-openeuler/kata_integration
+  - src-openeuler/KubeOS
+  - src-openeuler/kubevirt
+  - src-openeuler/kubernetes
+  - src-openeuler/kata-micro-kernel
+  - src-openeuler/kata-containers
+  - src-openeuler/libslirp
+  - src-openeuler/libvarlink
+  - src-openeuler/libcgroup
+  - src-openeuler/libevhtp
+  - src-openeuler/libnetwork
+  - src-openeuler/protobuf
+  - src-openeuler/pushgateway
+  - src-openeuler/prometheus
+  - src-openeuler/promu
+  - src-openeuler/ptcr
+  - src-openeuler/podman
+  - src-openeuler/python-kubernetes
+  - src-openeuler/WALinuxAgent
