@@ -28,6 +28,7 @@ mate-desktop
 - 李国强<guoqiang.li@i-soft.com.cn>[[@li_guoqiang9](https://gitee.com/li_guoqiang9)]
 - 刘家杰<jiajie.liu@i-soft.com.cn> [[@isoftljj](https://gitee.com/isoftljj)] 
 - 唐杰<tangjie02@kylinsec.com.cn> [[@tangjie02](https://gitee.com/tangjie02)]
+- 岳耀强<yaoqiang.yue@i-soft.com.cn> [[@yueyaoqiang](https://gitee.com/yueyaoqiang)] 
 
 ### Maintainer列表
 
@@ -35,7 +36,7 @@ mate-desktop
 - 李国强<guoqiang.li@i-soft.com.cn>[[@li_guoqiang9](https://gitee.com/li_guoqiang9)]
 - 刘家杰<jiajie.liu@i-soft.com.cn> [[@isoftljj](https://gitee.com/isoftljj)]
 - 唐杰<tangjie02@kylinsec.com.cn> [[@tangjie02](https://gitee.com/tangjie02)]
-
+- 岳耀强<yaoqiang.yue@i-soft.com.cn> [[@yueyaoqiang](https://gitee.com/yueyaoqiang)]  
 
 
 ### Committer列表
