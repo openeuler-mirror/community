@@ -1,7 +1,7 @@
 # openEuler RaspberryPi Special Interest Group (SIG)
 English | [简体中文](./sig-RaspberryPi_cn.md)
 
-The openEuler RaspberryPi SIG aims at migrating openEuler to Raspberry Pi, in order to reduce the threshold for using openEuler and promote openEuler to new users.
+The openEuler RaspberryPi SIG aims at migrating openEuler to Raspberry Pi and others, in order to reduce the threshold for using openEuler and promote openEuler to new users.
 
 
 ## SIG Mission and Scope
@@ -41,14 +41,16 @@ The openEuler RaspberryPi SIG aims at migrating openEuler to Raspberry Pi, in or
 ## Basic Information
 
 ### Project Introduction
-    https://gitee.com/openeuler/community/tree/master/sig/sig-RaspberryPi/
+
+https://gitee.com/openeuler/community/tree/master/sig/sig-RaspberryPi/
 
 ### Maintainers
 - jianminw
 - woqidaideshi
+- tideao
 
 ### Committers
-- zhouwjfi
+- chainsx
 
 ### Mailing list
 - dev@openeuler.org
