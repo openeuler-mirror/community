@@ -206,3 +206,9 @@ blacklist-software:
 - name: glassfish-el
   reason: upstream stops maintaining this software
   upstream_url: http://uel.java.net
+- name: nodejs-grunt-contrib-watch
+  reason: upstream stops maintaining this software
+  upstream_url: https://github.com/gruntjs/grunt-contrib-watch
+- name: python-Flask-Script
+  reason: upstream stops maintaining this software
+  upstream_url: http://github.com/smurfix/flask-script
