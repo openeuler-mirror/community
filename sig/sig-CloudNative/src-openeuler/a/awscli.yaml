@@ -1,0 +1,7 @@
+name: awscli
+description: awscli provides a unified command line interface to Amazon Web Services.
+upstream: https://github.com/aws/aws-cli
+branches:
+- name: master
+  type: protected
+type: public

@@ -1,0 +1,7 @@
+name: buildah
+description: The buildah package provides a command line tool which can be used to create a working container.
+upstream: https://buildah.io
+branches:
+- name: master
+  type: protected
+type: public

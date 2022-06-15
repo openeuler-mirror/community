@@ -1,0 +1,7 @@
+name: ShellCheck
+description: ShellCheck is a static analysis tool for shell scripts.
+upstream: https://www.shellcheck.net/
+branches:
+- name: master
+  type: protected
+type: public 

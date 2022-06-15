@@ -1,0 +1,7 @@
+name: butane
+description: Butane translates human-readable Butane Configs into machine-readable Ignition configs for provisioning operating systems that use Ignition.
+upstream: https://github.com/coreos/butane
+branches:
+- name: master
+  type: protected
+type: public
