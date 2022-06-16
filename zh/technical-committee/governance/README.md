@@ -56,10 +56,10 @@ vi sig-YOURSIGNAME.md
 
 **3、完成新SIG成员的配置**
 
-请在OWNERS文件中完成对SIG成员的配置
+请在sig-info.yaml文件中完成对SIG成员的配置，填写规则可以参考社区[博客](https://www.openeuler.org/zh/blog/georgecao/openEuler-sig-member-management.html)
 
 ```
-vi OWNERS
+vi sig-info.yaml
 
 ```
 
@@ -124,7 +124,7 @@ vi README.md
 
 <h2 id="id1">SIG变更申请流程</h2>
 
-如果您要修改SIG章程（charter.md）、团队成员(OWNERS)、增删Repository(Repository)等，您需要提交SIG变更批准流程。
+如果您要修改SIG章程（charter.md）、团队成员(sig-info.yaml)、增删Repository(Repository)等，您需要提交SIG变更批准流程。
 
 <h3 id="id2-1">增删新项目或repository申请流程</h3>
 
@@ -284,10 +284,10 @@ SIG的Maintainer合并Pull Request来批准申请。
 
 **1.完成新SIG成员的配置**
 
-请在`/community/sig`文件夹下找到您的sig文件夹，完成sig文件夹内SIG章程的修改，在OWNERS文件中完成对SIG成员的配置
+请在`/community/sig`文件夹下找到您的sig文件夹，完成sig文件夹内SIG章程的修改，在sig-info.yaml文件中完成对SIG成员的配置，填写说明参考[博客](https://www.openeuler.org/zh/blog/georgecao/openEuler-sig-member-management.html)
 
 ```
-vi OWNERS
+vi sig-info.yaml
 
 ```
 
