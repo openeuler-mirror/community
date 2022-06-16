@@ -1,8 +1,7 @@
 # openEuler RaspberryPi 兴趣小组（SIG）
 [English](./sig-RaspberryPi.md) | 简体中文
 
-RaspberryPi SIG 小组致力于将 openEuler 移植到树莓派，以降低 openEuler 使用门槛，促进起始用户推广。
-
+RaspberryPi SIG 小组致力于将 openEuler 移植到树莓派及更多开发板，以降低 openEuler 使用门槛，促进起始用户推广。
 
 ## RaspberryPi SIG 组工作目标和范围
 
@@ -48,9 +47,10 @@ https://gitee.com/openeuler/community/tree/master/sig/sig-RaspberryPi/
 ### Maintainers
 - jianminw
 - woqidaideshi
+- tideao
 
 ### Committers
-- zhouwjfi
+- chainsx
 
 ### 邮件列表
 - dev@openeuler.org

@@ -1,6 +1,6 @@
 # openEuler RaspberryPi SIG
 
-- 在 openEuler 社区中添加对 Raspberry Pi 的支持
+- 在 openEuler 社区中添加对 Raspberry Pi 及其他开发板的支持
 - 根据 openEuler 迭代版本，持续完成 openEuler 向树莓派的移植，并提供 openEuler 的 Raspberry Pi 版本镜像的构建脚本和使用文档
 - 及时响应用户反馈，解决相关问题
 
@@ -16,15 +16,13 @@
 
 ### Maintainer 列表
 
-- 王建民[@jianminw](https://gitee.com/jianminw)
-- 方亚芬[@woqidaideshi](https://gitee.com/woqidaideshi)
-- 周文剑[@zhouwjfi](https://gitee.com/zhouwjfi)
+- 王建民[@jianminw](https://gitee.com/jianminw): jianmin@iscas.ac.cn
+- 方亚芬[@woqidaideshi](https://gitee.com/woqidaideshi): yafen@iscas.ac.cn
+- 马亮[@tideao](https://gitee.com/tideao): maliang@iscas.ac.cn
 
 ### Committer 列表
 
-- 王建民[@jianminw](https://gitee.com/jianminw)
-- 方亚芬[@woqidaideshi](https://gitee.com/woqidaideshi)
-- 周文剑[@zhouwjfi](https://gitee.com/zhouwjfi)
+- 赖勋[@chainsx](https://gitee.com/chainsx)
 
 # 联系方式
 
@@ -41,14 +39,14 @@ repository 地址：
 - https://gitee.com/openeuler/raspberrypi
 - https://gitee.com/openeuler/raspberrypi-kernel
 - https://gitee.com/openeuler/raspberrypi-build
-- https://gitee.com/src-openeuler/raspberrypi-kernel
-- https://gitee.com/src-openeuler/raspberrypi-firmware
-- https://gitee.com/src-openeuler/raspberrypi-build
-- https://gitee.com/src-openeuler/raspberrypi-bluetooth
 - https://gitee.com/openeuler/rockchip
 - https://gitee.com/openeuler/rockchip-kernel
-- https://gitee.com/src-openeuler/raspi-config
-- https://gitee.com/src-openeuler/pigpio
-- https://gitee.com/src-openeuler/raspberrypi-userland
 - https://gitee.com/openeuler/allwinner-kernel
+- https://gitee.com/src-openeuler/pigpio
+- https://gitee.com/src-openeuler/raspberrypi-bluetooth
+- https://gitee.com/src-openeuler/raspberrypi-build
 - https://gitee.com/src-openeuler/raspberrypi-eeprom
+- https://gitee.com/src-openeuler/raspberrypi-firmware
+- https://gitee.com/src-openeuler/raspberrypi-kernel
+- https://gitee.com/src-openeuler/raspberrypi-userland
+- https://gitee.com/src-openeuler/raspi-config
