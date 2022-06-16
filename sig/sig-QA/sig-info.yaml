@@ -1,101 +1,73 @@
 name: sig-QA
 description: QA team aims to test softwares make up openEuler release, our goal is to improve openEuler community quality and testing capability.
-
 mailing_list: qa@openeuler.org
 meeting_url: https://etherpad.openeuler.org/p/sig-QA-meetings
 mature_level: startup
 maintainers:
 - gitee_id: wu_fengguang
   name: wufengguang
-  orgnization: Huawei
+  organization: Huawei
   email: wufengguang@huawei.com
 - gitee_id: walkingwalk
   name: wubodong
-  orgnization: Huawei
+  organization: Huawei
   email: wubodong@huawei.com
 - gitee_id: lemon-higgins
   name: lemon.higgins
-  orgnization: Huawei
+  organization: Huawei
   email: lemon.higgins@aliyun.com
 - gitee_id: lutianxiong 
   name: lutianxiong
-  orgnization: Huawei
+  organization: Huawei
   email: lutianxiong@huawei.com
 - gitee_id: rigorous
   name: yanjin
-  orgnization: Huawei
+  organization: Huawei
   email: yanjin.yan@huawei.com
 - gitee_id: SupMario
   name: tangjie
-  orgnization: Huawei
+  organization: Huawei
   email: tangjie18@huawei.com
 - gitee_id: charlie_li
   name: liyongqiang
-  orgnization: Huawei
+  organization: Huawei
   email: liyongqiang329@163.com
 - gitee_id: disnight
   name: fanjiachen
-  orgnization: Huawei
+  organization: Huawei
   email: fanjiachen3@huawei.com
-committers:
-- gitee_id: Ethan-Zhang
-  name: zhangyizheng
-  orgnization: Huawei
-  email: ethanzhang55@outlook.com
-- gitee_id: saarloos
-  name: zhangziyang
-  orgnization: Huawei
-  email: 9090-90-90-9090@163.com
-- gitee_id: hfutsdd
-  name: shidongdong
-  orgnization: Huawei
-  email: shidongdong5@huawei.com
-- gitee_id: wangpeng_uniontech
-  name: wangpeng
-  orgnization: UnionTech
-  email: wangpengb@uniontech.com
-- gitee_id: duyiwei7w
-  name: duyiwei
-  orgnization: KylinSoft
-  email: duyiwei@kylinos.cn
-- gitee_id: yangzhao_kl
-  name: yangzhao
-  orgnization: KylinSoft
-  email: yangzhao1@kylinos.cn
-- gitee_id: dou33
-  name: douyan
-  orgnization: KylinSoft
-  email: douyan@kylinos.cn
-- gitee_id: qwei_8848
-  name: weiqiang
-  orgnization: suse
-  email: qiang.wei@suse.com
-- gitee_id: lizhuang1314
-  name: lizhuang
-  orgnization: Turbolinux
-  email: 819714012@qq.com
-- gitee_id: zhang__3125
-  name: zhanglin
-  orgnization: Turbolinux
-  email: lin.zhang@turbolinux.com.cn
-- gitee_id: zjl_long
-  name: zhujinlong
-  orgnization: Huawei
-  email: 154542010@qq.com
+- gitee_id: kuhnchen18
+  name: chenqun
+  organization: Huawei
+  email: kuhn.chenqun@huawei.com
 repositories:
-- repo: openeuler/QA
-- repo: src-openeuler/avocado
-- repo: openeuler/avocado-vt
-- repo: openeuler/tp-libvirt
-- repo: openeuler/tp-qemu
-- repo: openeuler/EulerRobot
-- repo: openeuler/integration-test
-- repo: openeuler/mugen
-- repo: openeuler/container-test
-- repo: openeuler/compiler-test
-- repo: openeuler/package-reinforce-test
-- repo: openeuler/test-tools
-- repo: src-openeuler/test-tools
-- repo: src-openeuler/linux-test-project
-- repo: src-openeuler/mugen
-- repo: openeuler/radiaTest
+- repo:
+  - openeuler/radiaTest
+  - openeuler/avocado-vt
+  - openeuler/QA
+  - openeuler/tp-qemu
+  - openeuler/test-tools
+  - openeuler/tp-libvirt
+  - openeuler/mugen
+  - openeuler/package-reinforce-test
+  - openeuler/integration-test
+  - openeuler/EulerRobot
+  - openeuler/container-test
+  - openeuler/compiler-test
+
+- repo:
+  - src-openeuler/avocado
+  committers:
+  - gitee_id: zengwefeng
+    name: weifeng Zeng
+    organization: Huawei
+    email: zwfeng@huawei.com
+
+- repo:
+  - src-openeuler/mugen
+  - src-openeuler/linux-test-project
+  committers:
+  - gitee_id: gitee-cmd
+    name: mingdao Che
+    organization: Huawei
+    email: chemingdao@huawei.com
