@@ -1,0 +1,38 @@
+name: sig-RaspberryPi
+description: The RaspberryPi SIG aims at migrating openEuler to Raspberry Pi and others, in order to reduce the threshold for using openEuler and promote openEuler to new users.
+mailing_list: dev@openeuler.org
+meeting_url: NA
+mature_level: startup
+maintainers:
+- gitee_id: jianminw
+  name: Wang Jianmin
+  organization: ISCAS
+  email: jianmin@iscas.ac.cn
+- gitee_id: woqidaideshi
+  name: Fang Yafen
+  organization: ISCAS
+  email: yafen@iscas.ac.cn
+- gitee_id: tideao
+  name: Ma Liang
+  organization: ISCAS
+  email: maliang@iscas.ac.cn
+repositories:
+- repo:
+  - openeuler/allwinner-kernel
+  - openeuler/raspberrypi
+  - openeuler/raspberrypi-build
+  - openeuler/raspberrypi-kernel
+  - openeuler/rockchip
+  - openeuler/rockchip-kernel
+  - src-openeuler/pigpio
+  - src-openeuler/raspberrypi-bluetooth
+  - src-openeuler/raspberrypi-build
+  - src-openeuler/raspberrypi-eeprom
+  - src-openeuler/raspberrypi-firmware
+  - src-openeuler/raspberrypi-kernel
+  - src-openeuler/raspberrypi-userland
+  - src-openeuler/raspi-config
+  committers:
+  - gitee_id: chainsx
+    name: Lai Xun
+    email: chainsx@isrc.iscas.ac.cn
