@@ -1,0 +1,48 @@
+name: sig-Rust
+description: A general-purpose,memory-dafe Rust language suitable for developing infrastructure-like communities. 
+mailing_list: rust@openeuler.org
+meeting_url: NA
+mature_level: startup
+maintainers:
+- gitee_id: blackanger
+  name: handong Zhang
+  organization: NA
+  email: blackang3r@163.com
+- gitee_id: netwarps_admin
+  name: jie Yu
+  organization: Netwarps
+  email: NA
+- gitee_id: riskiest
+  name: longbu Wang
+  organization: Huawei
+  email: NA
+- gitee_id: pwang7
+  name: pu Wang
+  organization: Datenlord
+  email: NA
+- gitee_id: cellfaint
+  name: zhigang Wang
+  organization: Huawei
+  email: wangzhigang17@huawei.com
+- gitee_id: jingxiaolu
+  name: jingxiao Lu
+  organization: Huawei
+  email: lujingxiao@huawei.com
+repositories:
+- repo:
+  - src-openeuler/rust
+  - src-openeuler/rustup
+  committers:
+  - gitee_id: gitee-cmd
+    name: mingdao Che
+    organization: Huawei
+    email: chemingdao@huawei.com
+- repo:
+  - src-openeuler/rust-packaging
+  committers:
+  - gitee_id: zengwefeng
+    name: weifeng Zeng
+    organization: Huawei
+    email: zwfeng@huawei.com
+- repo:
+  - src-openeuler/rust-cbindgen
