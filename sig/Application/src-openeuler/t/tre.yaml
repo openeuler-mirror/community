@@ -16,4 +16,7 @@ branches:
 - name: openEuler-22.03-LTS
   type: protected
   create_from: openEuler-22.03-LTS-Next
+- name: openEuler-22.03-LTS-LoongArch
+  type: protected
+  create_from: openEuler-22.03-LTS
 type: public
