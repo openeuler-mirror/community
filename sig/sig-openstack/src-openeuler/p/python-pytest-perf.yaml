@@ -1,0 +1,7 @@
+name: python-pytest-perf
+description: Run performance tests against the mainline code
+upstream: https://github.com/jaraco/pytest-perf
+branches:
+- name: master
+  type: protected
+type: public
