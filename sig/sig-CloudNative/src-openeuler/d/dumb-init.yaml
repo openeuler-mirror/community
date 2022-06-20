@@ -1,0 +1,7 @@
+name: dumb-init
+description: dumb-init is a simple process supervisor and init system designed to run as PID 1 inside minimal container environments (such as Podman and Docker).
+upstream: https://github.com/Yelp/dumb-init
+branches:
+- name: master
+  type: protected
+type: public
