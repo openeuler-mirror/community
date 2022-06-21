@@ -1,0 +1,103 @@
+name: DB
+description: openEuler DB SIG which is focus on openEuler DB software and technology ecosystem
+created_on: '2019-12-31'
+mailing_list: NA
+meeting_url: NA
+mature_level: startup
+mentors:
+- gitee_id: dillon_chen
+  name: Qide Chen
+  email: dillon.chen@gmail.com
+maintainers:
+- gitee_id: dillon_chen
+  name: Qide Chen
+  email: dillon.chen@gmail.com
+- gitee_id: ZhengZhenyu
+  name: Zhenyu Zheng
+  email: zheng.zhenyu@outlook.com
+- gitee_id: bzhaoop
+  name: Bo Zhao
+  email: bzhaojyathousandy@gmail.com
+repositories:
+- repo:
+  - src-openeuler/mysql5
+  - src-openeuler/perl-DBD-MySQL
+  committers:
+  - gitee_id: chang-kong
+    name: Wei Liu
+    organization: Huawei
+    email: uestcliuwei@163.com
+- repo:
+  - src-openeuler/gpdb
+  committers:
+  - gitee_id: pf-qiu
+    name: Peifeng Qiu
+    email: qiupf2000@gmail.com
+- repo:
+  - src-openeuler/sqlite
+  - src-openeuler/perl-DBD-SQLite
+  committers:
+  - gitee_id: wbq_sky
+    name: Bingquan Wang
+    organization: Huawei
+    email: wangbingquan@huawei.com
+- repo:
+  - src-openeuler/opengauss-server
+  - src-openeuler/opengauss-dcf
+  - src-openeuler/nanomsg
+  - src-openeuler/apache-orc
+  - src-openeuler/cjson
+  committers:
+  - gitee_id: zhang_xubo
+    name: Xubo Zhang
+    organization: Huawei
+    email: zhangxubo1@huawei.com
+- repo:
+  - src-openeuler/postgresql
+  - src-openeuler/postgresql-odbc
+  contributors:
+  - gitee_id: desert-sailor
+    name: Dongxing Wang
+    email: dxwangk@isoftstone.com
+  - gitee_id: zjyabsa
+    name: Junyan Zhang
+    email: jyzhangcf@isoftstone.com
+- repo:
+  - src-openeuler/greatsql
+  committers:
+  - gitee_id: GreatSQL_admin
+    name: Jinrong Ye
+    email: jinrong.ye@greatdb.com
+- repo:
+  - src-openeuler/mariadb-connector-odbc
+  - src-openeuler/mongo-tools
+  - src-openeuler/mariadb
+  - src-openeuler/mysqltuner
+  - src-openeuler/geolatte-geom
+  - src-openeuler/glassfish-legal
+  - src-openeuler/canal
+  - src-openeuler/firebird
+  - src-openeuler/fastdb
+  - src-openeuler/foomatic-db
+  - src-openeuler/foomatic
+  - src-openeuler/pig
+  - src-openeuler/percona-server
+  - src-openeuler/percona-toolkit
+  - src-openeuler/phoenix
+  - src-openeuler/pgpool2
+  - src-openeuler/pgadmin4-server
+  - src-openeuler/perl-DBIx-Safe
+  - src-openeuler/percona-xtrabackup
+  - src-openeuler/postgresql-13
+  - src-openeuler/perl-DBD-MariaDB
+  - src-openeuler/tidb
+  - src-openeuler/tez
+  - src-openeuler/neo4j
+  - src-openeuler/unixODBC
+  - src-openeuler/libpq
+  - src-openeuler/livy
+  - src-openeuler/barman
+  - src-openeuler/bucardo
+  - src-openeuler/derby
+  - src-openeuler/h2
+
