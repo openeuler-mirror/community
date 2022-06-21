@@ -1,5 +1,6 @@
 name: sig-Gatekeeper
 description: Support routine CI tasks in the community, monitor community access control and build OBS packages.
+created_on: '2020-08-13'
 mailing_list: gatekeeper@openeuler.org
 meeting_url: https://etherpad.openeuler.org/p/sig-gatekeeper
 mature_level: startup
@@ -19,15 +20,20 @@ maintainers:
 - gitee_id: liuqi469227928
   name: Se7en
   email: 469227928@qq.com
-- gitee_id: tracedeng
-  name: tracedeng.com
-  email: dengpeng15@huawei.com
+- gitee_id: zhengyaohui
+  name: zhengyaohui
+  email: zhengyaohui1@huawei.com
 - gitee_id: disnight
   name: disnight
   email: fanjiachen3@huawei.com
 repositories:
-- repo: openeuler/ci-bot
-- repo: openeuler/openeuler-jenkins
-- repo: openeuler/openeuler-obs
-- repo: openeuler/openeuler-os-build
-- repo: src-openeuler/python-jenkins
+- repo: 
+  - openeuler/ci-bot
+  - openeuler/CreateImage
+  - openeuler/openEuler_chroot
+  - openeuler/openeuler-jenkins
+  - openeuler/openeuler-obs
+  - openeuler/openeuler-os-build
+  - src-openeuler/CreateImage
+  - src-openeuler/openEuler_chroot
+  - src-openeuler/python-jenkins
