@@ -1,0 +1,170 @@
+name: Others
+description: The team is responsible for the development and maintenance of OS system no sig group packages in openeuler community
+created_on: '2020-03-26'
+mailing_list: NA
+meeting_url: NA
+mature_level: startup
+maintainers:
+- gitee_id: jimmy_hero
+  name: kaitian Du
+  organization: Huawei
+  email: dukaitian@huawei.com
+- gitee_id: small_leek
+  name: senlin Xia
+  organization: Huawei
+  email: xiasenlin1@huawei.com
+repositories:
+- repo:
+  - src-openeuler/beakerlib
+  committers:
+  - gitee_id: yangmingtaip
+    name: mingtai Yang
+    organization: Huawei
+    email: yangmingtai@huawei.com
+
+- repo:
+  - src-openeuler/autotune
+  committers:
+  - gitee_id: xiezhipeng1
+    name: zhipeng Xie
+    organization: Huawei
+    email: xiezhipeng1@huawei.com
+
+- repo:
+  - src-openeuler/mac-robber
+  - src-openeuler/mongo-c-driver
+  - src-openeuler/mysql
+  - src-openeuler/marisa
+  - src-openeuler/mt-st
+  - src-openeuler/mypaint-brushes
+  - src-openeuler/qt5-qtenginio
+  - src-openeuler/qt-mobility
+  - src-openeuler/qt-assistant-adp
+  - src-openeuler/qt5-qtwebkit
+  - src-openeuler/qt5-qtwebengine
+  - src-openeuler/qt5-doc
+  - src-openeuler/qhull
+  - src-openeuler/twolame
+  - src-openeuler/tidy
+  - src-openeuler/tuna
+  - src-openeuler/onboard
+  - src-openeuler/obs-service-rust2rpm
+  - src-openeuler/openEuler-latest-release
+  - src-openeuler/opencc
+  - src-openeuler/obs-bundled-gems
+  - src-openeuler/osc
+  - src-openeuler/obs-server
+  - src-openeuler/obs-build
+  - src-openeuler/obs-service-set_version
+  - src-openeuler/obs-service-extract_file
+  - src-openeuler/opusfile
+  - src-openeuler/obs-service-download_files
+  - src-openeuler/biosdevname
+  - src-openeuler/babl
+  - src-openeuler/boom-boot
+  - src-openeuler/breeze-icon-theme
+  - src-openeuler/hfsplus-tools
+  - src-openeuler/nilfs-utils
+  - src-openeuler/nbdkit
+  - src-openeuler/fuse-python
+  - src-openeuler/fabtests
+  - src-openeuler/festival-freebsoft-utils
+  - src-openeuler/festival
+  - src-openeuler/farstream02
+  - src-openeuler/fonts-rpm-macros
+  - src-openeuler/flite
+  - src-openeuler/ucs-miscfixed-fonts
+  - src-openeuler/urlview
+  - src-openeuler/uchardet
+  - src-openeuler/u2f-hidraw-policy
+  - src-openeuler/espeak-ng
+  - src-openeuler/emacs-auctex
+  - src-openeuler/xapian-core
+  - src-openeuler/xhtml1-dtds
+  - src-openeuler/glassfish-jaxb-api
+  - src-openeuler/gnome-packagekit
+  - src-openeuler/gtk4
+  - src-openeuler/gtksourceview3
+  - src-openeuler/gegl04
+  - src-openeuler/gstreamer1-plugins-good
+  - src-openeuler/galera
+  - src-openeuler/gtkmm30
+  - src-openeuler/gtk
+  - src-openeuler/gimp
+  - src-openeuler/glibmm24
+  - src-openeuler/gavl
+  - src-openeuler/gcc_secure
+  - src-openeuler/resource-agents
+  - src-openeuler/rcs
+  - src-openeuler/rootsh
+  - src-openeuler/rear
+  - src-openeuler/reiserfs-utils
+  - src-openeuler/redis
+  - src-openeuler/raptor2
+  - src-openeuler/re2
+  - src-openeuler/clamav
+  - src-openeuler/cldr-emoji-annotation
+  - src-openeuler/clucene
+  - src-openeuler/container-exception-logger
+  - src-openeuler/conmon
+  - src-openeuler/procinfo
+  - src-openeuler/poly2tri
+  - src-openeuler/phonon
+  - src-openeuler/pcaudiolib
+  - src-openeuler/proj
+  - src-openeuler/papirus-icon-theme
+  - src-openeuler/PyPAM
+  - src-openeuler/keyrings-filesystem
+  - src-openeuler/kyotocabinet
+  - src-openeuler/annobin
+  - src-openeuler/afflib
+  - src-openeuler/aalib
+  - src-openeuler/anthy
+  - src-openeuler/assimp
+  - src-openeuler/apache2-mod_xforward
+  - src-openeuler/zerofree
+  - src-openeuler/dkms
+  - src-openeuler/dpkg
+  - src-openeuler/dvdplusrw-tools
+  - src-openeuler/debootstrap
+  - src-openeuler/djvulibre
+  - src-openeuler/dogtail
+  - src-openeuler/suitesparse
+  - src-openeuler/SDL2
+  - src-openeuler/sip
+  - src-openeuler/sleuthkit
+  - src-openeuler/scsi-target-utils
+  - src-openeuler/sphinx
+  - src-openeuler/seabios
+  - src-openeuler/sox
+  - src-openeuler/sblim-sfcCommon
+  - src-openeuler/sassc
+  - src-openeuler/icoutils
+  - src-openeuler/irrlicht
+  - src-openeuler/ImageMagick
+  - src-openeuler/libisofs
+  - src-openeuler/libxmlb
+  - src-openeuler/libwmf
+  - src-openeuler/libsigcpp20
+  - src-openeuler/libsodium
+  - src-openeuler/libpinyin
+  - src-openeuler/libgovirt
+  - src-openeuler/libhbalinux
+  - src-openeuler/libaesgm
+  - src-openeuler/libgnomeui
+  - src-openeuler/libzapojit
+  - src-openeuler/libmad
+  - src-openeuler/libewf
+  - src-openeuler/libgdither
+  - src-openeuler/libid3tag
+  - src-openeuler/libopenraw
+  - src-openeuler/libspiro
+  - src-openeuler/lame
+  - src-openeuler/libmypaint
+  - src-openeuler/libburn
+  - src-openeuler/latex2html
+  committers:
+  - gitee_id: gitee-cmd
+    name: mingdao Che
+    organization: Huawei
+    email: chemingdao@huawei.com
