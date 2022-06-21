@@ -414,6 +414,9 @@ def main():
     # check sig info for every sig
     errors = 0
     for change_sig in change_sigs:
+        if change_sig == 'sig-template':
+            print('The SIG sig-template is used only as an example, skip the check.')
+            continue
         if os.path.exists(os.path.join("community", 'sig', change_sig, 'OWNERS')):
             print('WARNING! sig {} has OWNERS file yet, found {} warnings'.format(change_sig, errors))
             continue
