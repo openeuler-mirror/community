@@ -23,19 +23,21 @@ maintainers:
   email: dukaitian@huawei.com
 repositories:
 - repo: 
-  - openEuler/oecp
+  - openeuler/oecp
   committers:
   - gitee_id: byrobins
     name: byrobins
     email: yangbin@xfusion.com
 - repo: 
   - openeuler/oec-application
+  - src-openeuler/oec-application
   committers:
   - gitee_id: lipingEmmaSiguyi
     name: Li Ping
     email: 1477412247@qq.com
 - repo: 
   - openeuler/oec-hardware
+  - src-openeuler/oec-hardware
   committers:
   - gitee_id: meitingli
     name: Li Meiting
@@ -43,3 +45,8 @@ repositories:
   - gitee_id: xiaosuli3109
     name: Li Xiaosu
     email: lxshhh@139.com
+- repo:
+  - openeuler/technical-certification
+  - openeuler/marvelldriver
+  - src-openeuler/marvelldriver
+
