@@ -1,0 +1,10 @@
+name: qt5-qtwebview
+description: qt5-qtwebview is Qt WebView provides a way to display web content in a QML application
+upstream: https://github.com/qt/qtwebview
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

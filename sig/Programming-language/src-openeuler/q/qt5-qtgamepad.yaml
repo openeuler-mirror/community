@@ -1,0 +1,11 @@
+name: qt5-qtgamepad
+description: qt5-qtgamepad is  Qt 5 module that adds support for getting events from gamepad devices on multiple platforms.
+upstream: https://github.com/qt/qtgamepad
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
+
