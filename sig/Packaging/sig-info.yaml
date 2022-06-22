@@ -1,0 +1,53 @@
+name: Packaging
+description: The openEuler package management team is the software package management organization under the openEuler technical committee. It maintains the software package packaging specifications of the openEuler community, maintains public software packages, and coordinates and decides on package dependency issues during version release in the openEuler community.
+created_on: '2020-03-26'
+mailing_list: dev@openeuler.org
+meeting_url: NA
+mature_level: startup
+maintainers:
+- gitee_id: overweight
+  name: xiaowen He
+  organization: Huawei
+  email: hexiaowen@huawei.com
+- gitee_id: licihua
+  name: cihua Li
+  organization: Huawei
+  email: licihua@huawei.com
+- gitee_id: solarhu
+  name: feng Hu
+  organization: Huawei
+  email: solar.hu@foxmail.com
+- gitee_id: dogsheng
+  name: kaibo Miao
+  organization: Huawei
+  email: miaoaibo@huawei.com
+- gitee_id: jimmy_hero
+  name: kaitian Du
+  organization: Huawei
+  email: dukaitian@huawei.com
+- gitee_id: zhuchunyi
+  name: chunyi Zhu
+  organization: Huawei
+  email: zhuchunyi@huawei.com
+- gitee_id: yaqiangchen
+  name: yaqiang Chen
+  organization: Huawei
+  email: chenyaqiang@huawei.com
+repositories:
+- repo:
+  - src-openeuler/nginx
+  committers:
+  - gitee_id: wangxp006
+    name: xiaopeng Wang
+    organization: Huawei
+    email: wangxp006@163.com
+- repo:
+  - src-openeuler/rpmdevtools
+  - src-openeuler/multilib-rpm-config
+  - src-openeuler/pakchois
+  - src-openeuler/copy-jdk-configs
+  committers:
+  - gitee_id: gitee-cmd
+    name: mingdao Che
+    organization: Huawei
+    email: chemingdao@huawei.com
