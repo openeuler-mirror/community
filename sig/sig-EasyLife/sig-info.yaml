@@ -1,0 +1,79 @@
+name: sig-EasyLife
+description: Some tools to improve the operation efficiency of the openEuler community.
+created_on: '2019-12-31'
+mailing_list: dev@openeuler.org
+meeting_url: NA
+mature_level: startup
+mentors:
+- gitee_id: licihua
+  name: cihua Li
+  organization: Huawei
+  email: licihua@huawei.com
+maintainers:
+- gitee_id: shinwell_hu
+  name: xinwei Hu
+  organization: Huawei
+  email: huxinwei@huawei.com
+- gitee_id: solarhu
+  name: feng Hu
+  organization: Huawei
+  email: solar.hu@huawei.com
+- gitee_id: licihua
+  name: cihua Li
+  organization: Huawei
+  email: licihua@huawei.com
+- gitee_id: chenyanpanX
+  name: yanpan Chen
+  organization: xFusion
+  email: chenyanpan@xfusion.com
+- gitee_id: liheavy
+  name: haiwei Li
+  organization: Huawei
+  email: lihaiwei8@huawei.com
+- gitee_id: zengwefeng
+  name: weifeng Zeng
+  organization: Huawei
+  email: zwfeng@huawei.com
+repositories:
+- repo:
+  - src-openeuler/openEuler-Advisor
+  - openeuler/openEuler-Advisor
+  committers:
+  - gitee_id: licihua
+    name: cihua Li
+    organization: Huawei
+    email: licihua@huawei.com
+- repo:
+  - openeuler/li-wen
+  committers:
+  - gitee_id: small_leek
+    name: senlin Xia
+    organization: Huawei
+    email: xiasenlin1@huawei.com
+- repo:
+  - src-openeuler/pkgship
+  - src-openeuler/python-elasticsearch7
+  - src-openeuler/patch-tracking
+  - openeuler/sync-bot
+  - openeuler/patch-tracking
+  - openeuler/pkgship
+  committers:
+  - gitee_id: liheavy
+    name: haiwei Li
+    organization: Huawei
+    email: lihaiwei8@huawei.com
+- repo:
+  - openeuler/release-tools
+  committers:
+  - gitee_id: gitee-cmd
+    name: mingdao Che
+    organization: Huawei
+    email: chemingdao@huawei.com
+- repo:
+  - src-openeuler/abi-dumper
+  - src-openeuler/abi-compliance-checker
+  - src-openeuler/pkgdiff
+  - src-openeuler/easy-checker 
+  - openeuler/easy-checker
+  - src-openeuler/api-guarder
+  - openeuler/api-guarder
