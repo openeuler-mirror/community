@@ -38,6 +38,7 @@
 - Randy.Wang[@Randy.Wang](https://gitee.com/wangxp006)
 - ultra_planet[@ultra_planet](https://gitee.com/ultra_planet)
 - 李次华[@Monday](https://gitee.com/licihua)
+- 裴建康[@peijiankang](https://gitee.com/peijiankang)
 
 # 联系方式
 
