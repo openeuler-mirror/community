@@ -8,6 +8,7 @@ Tuesday 10 am bi-weekly, UTC+8.
 
 ### Maintainers
  - 彭 成寒[@Ryan Peng](https://gitee.com/pengryan) email: pengchenghan@huawei.com
+ - 赵 川峰[@cf-zhao](https://gitee.com/cf-zhao) email: zhaochuanfeng@huawei.com
  - 贺 东博[@Noah](https://gitee.com/jvmboy) email: hedongbo@huawei.com
  - 谢 志恒[@eastb233](https://gitee.com/eastb233) email: xiezhiheng@huawei.com
  - 张 高峰[@hserror](https://gitee.com/hserror) email: zhanggaofeng9@huawei.com
