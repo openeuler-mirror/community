@@ -1,0 +1,34 @@
+name: sig-power-efficient
+description: This SIG is dedicated to improving server energy efficiency through OS tuning.
+created_on: 2022-06-20
+mailing_list: power-efficient@openeuler.org
+meeting_url: N/A
+mature_level: startup
+mentors:
+- gitee_id: clumsycy
+  name: Chen Gong
+  email: chengong15@huawei.com
+maintainers:
+- gitee_id: queyanwen
+  name: Que Yanwen
+  organization: Huawei
+  email: queyanwen@huawei.com
+
+- gitee_id: wuhaotian315
+  name: Wu Haotian
+  organization: Huawei
+  email: wuhaotian16@huawei.com
+
+- gitee_id: jimmy-jiang-junior
+  name: Jiang Yi
+  organization: Huawei
+  email: jiangyi38@hisilicon.com
+
+repositories:
+- repo: 
+  - openeuler/powerapi
+  - openeuler/eagle
+  - openeuler/dcs
+  - src-openeuler/powerapi
+  - src-openeuler/eagle
+  - src-openeuler/dcs
