@@ -86,6 +86,7 @@ repository地址：
 - https://gitee.com/src-openeuler/buildah
 - https://gitee.com/src-openeuler/awscli
 - https://gitee.com/src-openeuler/butane
+- https://gitee.com/src-openeuler/netavark
 - https://gitee.com/src-openeuler/ShellCheck
 - https://gitee.com/src-openeuler/libslirp
 - https://gitee.com/src-openeuler/containers-common
