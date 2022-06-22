@@ -125,6 +125,7 @@ repository地址：
 - https://gitee.com/src-openeuler/fuse-overlayfs
 - https://gitee.com/src-openeuler/ssh-key-dir
 - https://gitee.com/src-openeuler/umoci
+- https://gitee.com/src-openeuler/calico
 
 roadmap:
 ```
