@@ -8,6 +8,7 @@ Compiler SIG 每双周周二上午10:00进行线上例会，也会定期举办�
 
 ### Maintainers
  - 彭 成寒[@Ryan Peng](https://gitee.com/pengryan) 邮箱: pengchenghan@huawei.com
+ - 赵 川峰[@cf-zhao](https://gitee.com/cf-zhao) 邮箱: zhaochuanfeng@huawei.com
  - 贺 东博[@Noah](https://gitee.com/jvmboy) 邮箱: hedongbo@huawei.com
  - 谢 志恒[@eastb233](https://gitee.com/eastb233) 邮箱: xiezhiheng@huawei.com
  - 张 高峰[@hserror](https://gitee.com/hserror) 邮箱: zhanggaofeng9@huawei.com
