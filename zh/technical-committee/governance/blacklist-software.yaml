@@ -119,9 +119,6 @@ blacklist-software:
 - name: python-django-babel
   reason: upstream stops maintaining this software
   upstream_url: https://pypi.org/project/django-babel/#files
-- name: python-multi_key_dict
-  reason: upstream stops maintaining this software
-  upstream_url: https://pypi.org/project/multi_key_dict/#files
 - name: python-unicodecsv
   reason: upstream stops maintaining this software
   upstream_url: https://pypi.org/project/unicodecsv/#files
