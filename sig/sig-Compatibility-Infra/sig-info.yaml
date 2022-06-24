@@ -1,14 +1,52 @@
-name: oecp
-description: One for OSV as an certification tool
-
-mailing_list: NA
+name: sig-Compatibility-Infra
+description: Exploration on the compatibility of community server, motherboard and app
+created_on: '2020-12-31'
+mailing_list: oecompatibility@openeuler.org
 meeting_url: NA
 mature_level: startup
+mentors:
+- gitee_id: jimmy_hero
+  name: Du Kaitian
+  email: dukaitian@huawei.com
 maintainers:
+- gitee_id: whatamaze
+  name: Zhong HaiPeng
+  email: zhp522.404@gmail.com
+- gitee_id: superninesun
+  name: Zhu Zexu
+  email: zhuzexu@huawei.com
 - gitee_id: lovelijunyi
-  name: Junyi Li
-  orgnization: Huawei
-  email: lijunyi5@huawei.com
+  name: Li Junyi
+  email: lijunyi088@163.com
+- gitee_id: jimmy_hero
+  name: Du Kaitian
+  email: dukaitian@huawei.com
 repositories:
-- repo: openeuler/oecp
+- repo: 
+  - openeuler/oecp
+  committers:
+  - gitee_id: byrobins
+    name: byrobins
+    email: yangbin@xfusion.com
+- repo: 
+  - openeuler/oec-application
+  - src-openeuler/oec-application
+  committers:
+  - gitee_id: lipingEmmaSiguyi
+    name: Li Ping
+    email: 1477412247@qq.com
+- repo: 
+  - openeuler/oec-hardware
+  - src-openeuler/oec-hardware
+  committers:
+  - gitee_id: meitingli
+    name: Li Meiting
+    email: limeiting1@huawei.com
+  - gitee_id: xiaosuli3109
+    name: Li Xiaosu
+    email: lxshhh@139.com
+- repo:
+  - openeuler/technical-certification
+  - openeuler/marvelldriver
+  - src-openeuler/marvelldriver
 
