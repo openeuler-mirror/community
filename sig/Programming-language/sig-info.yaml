@@ -262,33 +262,7 @@ repositories:
   - src-openeuler/eglexternalplatform
   - src-openeuler/erlang-lfe
   - src-openeuler/erlang-gettext
-  - src-openeuler/qt5-qtmultimedia
-  - src-openeuler/qt5-qtsensors
-  - src-openeuler/qt5-qtserialport
-  - src-openeuler/qt5-qtspeech
   - src-openeuler/qpdf
-  - src-openeuler/qt5-qtsvg
-  - src-openeuler/qt5-qttools
-  - src-openeuler/qt5-qtbase
-  - src-openeuler/qt5-qtconnectivity
-  - src-openeuler/qt5-qtgraphicaleffects
-  - src-openeuler/qt5-qtwayland
-  - src-openeuler/qt5-qtdoc
-  - src-openeuler/qt5-qtwebsockets
-  - src-openeuler/qt5-qtscript
-  - src-openeuler/qt5-qtxmlpatterns
-  - src-openeuler/qt5-qtquickcontrols2
-  - src-openeuler/qt5-qtx11extras
-  - src-openeuler/qt5-qt3d
-  - src-openeuler/qt5-qtdeclarative
-  - src-openeuler/qt5-qtserialbus
-  - src-openeuler/qt5-qtwebchannel
-  - src-openeuler/qt5-qttranslations
-  - src-openeuler/qt5-qtvirtualkeyboard
-  - src-openeuler/qt5-qtcanvas3d
-  - src-openeuler/qt5-qtquickcontrols
-  - src-openeuler/qt5-qtimageformats
-  - src-openeuler/qt5-qtlocation
   - src-openeuler/dotconf
   - src-openeuler/ocaml
   - src-openeuler/ocaml-ocamlbuild
@@ -318,7 +292,6 @@ repositories:
   - src-openeuler/gupnp-igd
   - src-openeuler/gmavenplus-plugin
   - src-openeuler/gssdp
-  - src-openeuler/gstreamer1-plugins-bad-free
   - src-openeuler/gnu-efi
   - src-openeuler/gperf
   - src-openeuler/gflags
@@ -337,6 +310,39 @@ repositories:
     name: Dongxia Cao
     organization: Huawei
     email: caodongxia@h-partners.com
+
+- repo:
+  - src-openeuler/qt5-qtmultimedia
+  - src-openeuler/qt5-qtsensors
+  - src-openeuler/qt5-qtserialport
+  - src-openeuler/qt5-qtspeech
+  - src-openeuler/qt5-qtsvg
+  - src-openeuler/qt5-qttools
+  - src-openeuler/qt5-qtbase
+  - src-openeuler/qt5-qtconnectivity
+  - src-openeuler/qt5-qtgraphicaleffects
+  - src-openeuler/qt5-qtwayland
+  - src-openeuler/qt5-qtdoc
+  - src-openeuler/qt5-qtwebsockets
+  - src-openeuler/qt5-qtscript
+  - src-openeuler/qt5-qtxmlpatterns
+  - src-openeuler/qt5-qtquickcontrols2
+  - src-openeuler/qt5-qtx11extras
+  - src-openeuler/qt5-qt3d
+  - src-openeuler/qt5-qtdeclarative
+  - src-openeuler/qt5-qtserialbus
+  - src-openeuler/qt5-qtwebchannel
+  - src-openeuler/qt5-qttranslations
+  - src-openeuler/qt5-qtvirtualkeyboard
+  - src-openeuler/qt5-qtcanvas3d
+  - src-openeuler/qt5-qtquickcontrols
+  - src-openeuler/qt5-qtimageformats
+  - src-openeuler/qt5-qtlocation
+  - src-openeuler/gstreamer1-plugins-bad-free
+  committers:
+  - gitee_id: peijiankang
+    name: peijiankang
+    email: peijiankang@kylinos.cn
 
 - repo:
   - src-openeuler/perl-SGMLSpm
