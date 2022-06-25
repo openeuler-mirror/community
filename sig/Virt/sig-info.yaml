@@ -3,6 +3,10 @@ description: The virt team is responsible for exploration of the virtualization 
 mailing_list: virt@openeuler.org
 meeting_url: https://etherpad.openeuler.org/p/Virt-meetings
 mature_level: standalone
+mentors:
+- gitee_id: yezengruan
+  name: yezengruan
+  email: yezengruan@huawei.com
 maintainers:
 - gitee_id: RootWB
   name: WuBin
@@ -40,78 +44,68 @@ maintainers:
   name: ZhangBo
   organization: Huawei
   email: oscar.zhangbo@huawei.com
-committers:
-- gitee_id: flyking001
-  name: XuFei
-  organization: Huawei
-  email: xufei7511@126.com
-- gitee_id: zhangliang5
-  name: zhangliang5
-  organization: Huawei
-  email: 356166378@qq.com
-- gitee_id: lijiajie128
-  name: LiJiajie
-  organization: Huawei
-  email: lijiajie11@huawei.com
+
 repositories:
-- repo: src-openeuler/virglrenderer
-- repo: src-openeuler/libvirt-python
-- repo: src-openeuler/libvirt-glib
-- repo: src-openeuler/qemu
-  additional_contributors:
-  - gitee_id: tom0392
-    name: Zhongrui Tang
-    organization: ChinaMobile
-    email: tangzhongrui@cmss.chinamobile.com
-- repo: src-openeuler/libvirt
-- repo: src-openeuler/edk2
-- repo: src-openeuler/perl-Sys-Virt
-- repo: src-openeuler/vmtop
-- repo: src-openeuler/stratovirt
-- repo: src-openeuler/kvm-ioctls
-- repo: src-openeuler/kvm-bindings
-- repo: src-openeuler/libcareplus
-- repo: openeuler/qemu
-  additional_contributors:
-  - gitee_id: ranygu
-    name: ranygu
-    organization: ChinaMobile
-    email: guzhifeng@cmss.chinamobile.com
-  - gitee_id: sebastian2020
-    name: Sebastian2020
-    organization: kylinos
-    email: zhanghao1@kylinos.cn
-  - gitee_id: lisiheng
-    name: lisiheng
-    organization: Bingosoft
-    email: lisiheng@bingosoft.net
-  - gitee_id: leohou1400
-    name: LeoHou
-    organization: kylinos
-    email: houyingle@kylinos.cn
-  - gitee_id: Michael_Qiu
-    name: Michael_Qiu
-    organization: HuaYun
-    email: qiudayu@huayun.com
-  - gitee_id: huayun-quweijie
-    name: QuWeijie
-    organization: HuaYun
-    email: quweijie@huayun.com
-  - gitee_id: bobychen
-    name: bobychen
+- repo:
+  - openeuler/skylark
+  - openeuler/vmtop
+  - src-openeuler/libvirt-glib
+  - src-openeuler/libvirt-python
+  - src-openeuler/perl-Sys-Virt
+  - src-openeuler/skylark
+  - src-openeuler/virglrenderer
+  - src-openeuler/vmtop
+
+- repo:
+  - src-openeuler/edk2
+  committers:
+  - gitee_id: caojinhuahw
+    name: caojinhuahw
     organization: Huawei
-    email: boby.chen@huawei.com
-- repo: openeuler/libvirt
-  additional_contributors:
-  - gitee_id: liksh
-    name: LiKunshan
-    organization: ChinaUnicom
-    email: li_kunshan@163.com
-- repo: openeuler/vmtop
-- repo: openeuler/stratovirt
-  additional_contributors:
-  - gitee_id: friendpalm
-    name: friendpalm
-    organization: Uniontech
-    email: heyitao@uniontech.com
-- repo: openeuler/libcareplus
+    email: caojinhua1@huawei.com
+
+- repo:
+  - openeuler/libcareplus
+  - openeuler/libvirt
+  - src-openeuler/libcareplus
+  - src-openeuler/libvirt
+  committers:
+  - gitee_id: mdsc
+    name: yubihong
+    organization: Huawei
+    email: yubihong@huawei.com
+
+- repo:
+  - openeuler/qemu
+  - src-openeuler/qemu
+  committers:
+  - gitee_id: aven6
+    name: avenLiu
+    organization: Huawei
+    email: liuxiangdong5@huawei.com
+
+- repo:
+  - openeuler/capsule
+  - src-openeuler/capsule
+  committers:
+  - gitee_id: limingwang0
+    name: limingwang
+    organization: Huawei
+    email: limingwang@huawei.com
+
+- repo:
+  - openeuler/stratovirt
+  - src-openeuler/stratovirt
+  committers:
+  - gitee_id: xinleguo
+    name: Xinle.Guo
+    organization: Huawei
+    email: guoxinle1@huawei.com
+
+- repo:
+  - src-openeuler/open-vm-tools
+  committers:
+  - gitee_id: chenxi-mao
+    name: Chenxi Mao-SUSE
+    organization: SUSE
+    email: chenxi.mao@suse.com
