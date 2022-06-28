@@ -251,10 +251,6 @@ def check_repos_consistency(sig_info_repos, sig_repos):
         if sig_info_repo not in sig_repos:
             print('ERROR! Find extra repo {} list in sig-info.yaml'.format(sig_info_repo))
             repos_consistency_errors += 1
-    for sig_repo in sig_repos:
-        if sig_repo not in sig_info_repos:
-            print('ERROR! Find repo {} not exist in sig-info.yaml'.format(sig_repo))
-            repos_consistency_errors += 1
     return repos_consistency_errors
 
 
