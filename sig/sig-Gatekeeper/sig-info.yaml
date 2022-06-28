@@ -27,11 +27,16 @@ maintainers:
   name: disnight
   email: fanjiachen3@huawei.com
 repositories:
+- repo:
+  - openeuler/openeuler-jenkins
+  committers:
+  - gitee_id: wanghuan158
+    name: wanghuan
+    email: wanghuan3456@163.com
 - repo: 
   - openeuler/ci-bot
   - openeuler/CreateImage
   - openeuler/openEuler_chroot
-  - openeuler/openeuler-jenkins
   - openeuler/openeuler-obs
   - openeuler/openeuler-os-build
   - src-openeuler/CreateImage
