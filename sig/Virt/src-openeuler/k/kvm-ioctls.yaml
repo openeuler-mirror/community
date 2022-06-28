@@ -1,8 +1,0 @@
-name: kvm-ioctls
-description: The kvm-ioctls crate provides safe wrappers over the KVM API, a set of
-  ioctls used for creating and configuring Virtual Machines (VMs) on Linux.
-upstream: https://github.com/rust-vmm/kvm-ioctls
-branches:
-- name: master
-  type: protected
-type: public
