@@ -4,4 +4,7 @@ description: DPDK is the Data Plane Development Kit that consists of libraries t
 branches:
 - name: master
   type: protected
+- name: dpu
+  type: protected
+  create_from: master
 type: public
