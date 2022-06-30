@@ -263,11 +263,11 @@ class CheckBranch(object):
         :return:
         """
         for bch in history_branches:
-            c_branch = bch['name']
+            c_branch = str(bch['name'])
             if c_branch == "master":
                 p_branch = None
             else:
-                p_branch = bch['create_from']
+                p_branch = str(bch['create_from'])
             try:
                 self._check_branch(p_branch, c_branch, pkg)
             except CheckError as e:
@@ -285,9 +285,11 @@ class CheckBranch(object):
         :return:
         """
         for bch in changed_branches:
-            c_branch = bch['name']
+            c_branch = str(bch['name'])
 
             p_branch = bch.get('create_from', None)
+            if p_branch:
+                p_branch = str(p_branch)
 
             try:
                 self._check_branch(p_branch, c_branch, pkg)
