@@ -1,0 +1,7 @@
+name: nodejs-is-unicode-supported
+description: Detect whether the terminal supports Unicode
+upstream: http://github.com/sindresorhus/is-unicode-supported
+branches:
+- name: master
+  type: protected
+type: public
