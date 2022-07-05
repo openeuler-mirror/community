@@ -26,10 +26,22 @@ maintainers:
   email: xiezhipeng1@huawei.com
 
 repositories:
-- repo: #此处为openEuler开发项目, 由maintainer看护
-    - openeuler/openEuler-rpm-config
-    - openeuler/libxml2-rust
-    - openeuler/libarchive-rust
+- repo: 
+  - openeuler/openEuler-rpm-config
+
+- repo: 
+  - openeuler/libxml2-rust
+  - openeuler/libarchive-rust
+  committers:
+  - gitee_id: lcynju_admin
+    name: lcynju
+    email: lcy@nju.edu.cn
+  - gitee_id: sora5175
+    name: Sora5175
+    email: 2867808026@qq.com
+  - gitee_id: kevinchannn
+    name: Kevin
+    email: 779834766@qq.com
 
 - repo:
   - src-openeuler/autoconf
