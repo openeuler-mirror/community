@@ -1,12 +1,9 @@
-name: gucharmap
-description: Unicode character picker and font browser
-upstream: https://wiki.gnome.org/Apps/Gucharmap
+name: mate-sensors-applet
+description: MATE panel applet for hardware sensors
+upstream: https://github.com/mate-desktop/mate-sensors-applet
 branches:
 - name: master
   type: protected
-- name: openEuler-20.09
-  type: protected
-  create_from: master
 - name: openEuler-22.03-LTS-Next
   type: protected
   create_from: master
