@@ -1,0 +1,8 @@
+name: python-aws-sam-translator
+description: AWS SAM Translator is a library that transform SAM templates into AWS
+  CloudFormation templates
+upstream: https://github.com/awslabs/serverless-application-model
+branches:
+- name: master
+  type: protected
+type: public

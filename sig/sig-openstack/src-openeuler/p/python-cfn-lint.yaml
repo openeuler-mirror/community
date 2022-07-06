@@ -1,0 +1,8 @@
+name: python-cfn-lint
+description: Checks CloudFormation templates for practices and behaviour that could
+  potentially be improved
+upstream: https://github.com/aws-cloudformation/cfn-lint
+branches:
+- name: master
+  type: protected
+type: public

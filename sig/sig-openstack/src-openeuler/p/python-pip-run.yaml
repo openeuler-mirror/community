@@ -1,0 +1,7 @@
+name: python-pip-run
+description: install packages and run Python with them
+upstream: https://github.com/jaraco/pip-run
+branches:
+- name: master
+  type: protected
+type: public
