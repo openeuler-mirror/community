@@ -20,7 +20,7 @@
     1.  在[community-issue](https://gitee.com/openeuler/community-issue/issues)创建申请VM的issue。
     2.  登录[鹏城生态开发者云](https://dw.pcl.ac.cn/cloud/login)网站，按照提示正式申请VM。
     
-    详细信息请参考博客文章[Apply for VMs from Peng Cheng Laboratory](http://blog.openeuler.org/post/fred_li/2020-03-25-apply-for-vm-from-pcl/#2)。
+    详细信息请参考博客文章[Apply for VMs from Peng Cheng Laboratory](https://www.openeuler.org/zh/blog/fred_li/2020-03-25-apply-for-vm-from-pcl.html)。
 
 
 
