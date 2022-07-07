@@ -1,0 +1,33 @@
+name: sig-OSRefTools
+description: Several tools for specifications for Application Program Interface,performance,Hardware and software compatibility of operating Systems.
+
+mailing_list: sig-OSRefTools@openeuler.org
+meeting_url: NA
+mature_level: startup
+maintainers:
+- gitee_id: miaozongli
+  name: 苗宗利
+  orgnization: 电子标准院
+  email: miaozl@cesi.cn
+- gitee_id: machengqing
+  name: 马承青
+  orgnization: 电子标准院
+  email: macq@cesi.cn
+- gitee_id: sunlili_1984728
+  name: 孙丽丽
+  orgnization: 麒麟软件
+  email: sunlili@kylinos.cn
+- gitee_id: bryan-2023
+  name: 王波
+  orgnization: 统信软件
+  email: wangboa@uniontech.com
+- gitee_id: xq_plat
+  name: 曹晓琦
+  orgnization: 华为
+  email: caoxiaoqi1@huawei.com
+repositories:
+- repo:
+  - openeuler/AppAPIChecker
+  - openeuler/OSAPIChecker
+  - openeuler/OSCompatibility
+  - openeuler/OSPerformance
