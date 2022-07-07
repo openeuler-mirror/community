@@ -71,7 +71,6 @@ repository地址：
 - https://gitee.com/src-openeuler/xdp-tools
 - https://gitee.com/src-openeuler/libvma
 - https://gitee.com/src-openeuler/polycube
-- https://gitee.com/src-openeuler/libkefir
 - https://gitee.com/src-openeuler/cilium
 - https://gitee.com/src-openeuler/katran
 - https://gitee.com/src-openeuler/pistache
@@ -79,8 +78,6 @@ repository地址：
 - https://gitee.com/src-openeuler/libtins
 - https://gitee.com/src-openeuler/go-bindata
 - https://gitee.com/src-openeuler/seastar
-- https://gitee.com/src-openeuler/gazelle-cni
-- https://gitee.com/openeuler/gazelle-cni
 - https://gitee.com/src-openeuler/gazelle
 - https://gitee.com/openeuler/gazelle
 - https://gitee.com/src-openeuler/oncn-bwm
