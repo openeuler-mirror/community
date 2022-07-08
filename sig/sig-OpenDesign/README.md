@@ -32,6 +32,7 @@ https://opendesign.openeuler.org
 - [opendesign-components](https://gitee.com/openeuler/opendesign-components)
 - [opendesign-resources](https://gitee.com/openeuler/opendesign-resources)
 - [opendesign-templates](https://gitee.com/openeuler/opendesign-templates)
+- [openEuler-portal](https://gitee.com/openeuler/openEuler-portal)
 - [opendesign-deployment](https://gitee.com/openeuler/opendesign-deployment)
 - [opendesign-backend](https://gitee.com/openeuler/opendesign-backend)
 - [opendesign-build](https://gitee.com/openeuler/opendesign-build)
