@@ -313,6 +313,7 @@ repositories:
 
 - repo:
   - src-openeuler/kiwi
+  - src-openeuler/uname-build-checks
   committers:
   - gitee_id: zhuchunyi
     name: Trainey
@@ -474,7 +475,6 @@ repositories:
   - src-openeuler/totem
   - src-openeuler/tuscany-sdo-java
   - src-openeuler/umockdev
-  - src-openeuler/uname-build-checks
   - src-openeuler/unicode-emoji
   - src-openeuler/unit-api
   - src-openeuler/univocity-parsers
@@ -494,10 +494,10 @@ repositories:
   - src-openeuler/yasm
   - src-openeuler/zopfli
   committers:
-  - gitee_id: miao_kaibo
-    name: MiaoKaibo
+  - gitee_id: caodongxia
+    name: dongxia Cao
     organization: Huawei
-    email: miaokaibo@outlook.com
+    email: caodongxia@h-partners.com
 
 - repo:
   - src-openeuler/crash
