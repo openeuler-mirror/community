@@ -1,0 +1,7 @@
+name: WasmEngine
+description: WasmEngine is a webassembly function engine, which provides high concurrency and sandbox security. 
+upstream: https://gitee.com/openeuler/WasmEngine
+branches:
+- name: master
+  type: protected
+type: public
