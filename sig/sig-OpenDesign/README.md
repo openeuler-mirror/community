@@ -9,9 +9,9 @@ openEuler 开源社区及其它众多非前端的开源社区对网站、开发�
 - pig-s-trotters <zhangshuting@openeuler.sh>
 - devin-cwd <caowendong@huawei.com>
 - genedna <eli@patch.sh>
+- gzbang <15622356989@163.com>
 
 ### Committer列表
-- gzbang <15622356989@163.com>
 - ailoooong <ilong8@qq.com>
 - haml <845831435@qq.com>
 - guoguoyaa <guowenfeng1@huawei.com>
