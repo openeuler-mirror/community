@@ -1,0 +1,7 @@
+name: R-testit
+description: Provides two convenience functions assert() and test_pkg() to facilitate testing R packages.
+upstream: https://github.com/yihui/testit
+branches:
+- name: master
+  type: protected
+type: public

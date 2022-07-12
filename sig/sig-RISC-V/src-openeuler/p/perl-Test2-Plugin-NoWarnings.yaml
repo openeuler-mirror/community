@@ -1,0 +1,7 @@
+name: perl-Test2-Plugin-NoWarnings
+description: Fail if tests warn
+upstream: https://metacpan.org/release/Test2-Plugin-NoWarnings
+branches:
+- name: master
+  type: protected
+type: public

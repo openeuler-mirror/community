@@ -1,0 +1,7 @@
+name: R-RUnit
+description: R functions implementing a standard Unit Testing framework, with additional code inspection and report generation tools.
+upstream: https://cran.r-project.org/web/packages/RUnit/index.html
+branches:
+- name: master
+  type: protected
+type: public

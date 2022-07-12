@@ -1,0 +1,7 @@
+name: R-BH-devel
+description: Boost C++ Header Files for R
+upstream: https://cran.r-project.org/web/packages/BH/index.html
+branches:
+- name: master
+  type: protected
+type: public

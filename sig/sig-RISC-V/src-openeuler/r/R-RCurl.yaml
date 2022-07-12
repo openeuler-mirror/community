@@ -1,0 +1,7 @@
+name: R-RCurl
+description: General network (HTTP/FTP) client interface for R
+upstream: https://cran.r-project.org/web/packages/RCurl/index.html
+branches:
+- name: master
+  type: protected
+type: public

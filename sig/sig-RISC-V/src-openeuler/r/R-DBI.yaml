@@ -1,0 +1,7 @@
+name: R-DBI
+description: A database interface (DBI) definition for communication between R and relational database management systems.
+upstream: https://cran.r-project.org/web/packages/DBI/index.html
+branches:
+- name: master
+  type: protected
+type: public

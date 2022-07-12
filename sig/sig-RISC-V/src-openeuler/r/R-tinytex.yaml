@@ -1,0 +1,7 @@
+name: R-tinytex
+description: Helper Functions to Install and Maintain TeX Live, and Compile LaTeX Documents
+upstream: https://github.com/rstudio/tinytex
+branches:
+- name: master
+  type: protected
+type: public

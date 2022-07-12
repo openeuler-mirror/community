@@ -1,0 +1,7 @@
+name: R-withr
+description: Run Code 'With' Temporarily Modified Global State
+upstream: https://github.com/r-lib/withr
+branches:
+- name: master
+  type: protected
+type: public
