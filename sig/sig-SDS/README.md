@@ -22,11 +22,11 @@
 - chixinze[@chixinze](https://gitee.com/chixinze)
 - liuzhiqiang[@liuzhiqiang26](https://gitee.com/liuzhiqiang26)
 - liuqinfei[@liuqinfei](https://gitee.com/liuqinfei) (负责Ceph CI工作)
+- luorixin[@rosinL](https://gitee.com/rosinL)
 
 ### Committer列表
 
 - sunligang[@nick-slg-kylin](https://gitee.com/nick-slg-kylin)
-- luorixin[@rosinL](https://gitee.com/rosinL)
 - Zhiwei-Dai[@Zhiwei-Dai](https://gitee.com/Zhiwei-Dai)
 - wangxiaomeng[@tjwangxm](https://gitee.com/tjwangxm)
 - mayilin[@kymayl](https://gitee.com/kymayl)
