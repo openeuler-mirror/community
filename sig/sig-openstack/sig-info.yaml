@@ -126,12 +126,14 @@ repositories:
   - src-openeuler/python-awscrt
   - src-openeuler/python-aws-sam-translator
   - src-openeuler/python-aws-xray-sdk
+  - src-openeuler/python-azure-core
   - src-openeuler/python-barbicanclient
   - src-openeuler/python-beautifulsoup4
   - src-openeuler/python-binary-memcached
   - src-openeuler/python-blazarclient
   - src-openeuler/python-brotlipy
   - src-openeuler/python-bunch
+  - src-openeuler/python-cairosvg
   - src-openeuler/python-capacity
   - src-openeuler/python-cassandra-driver
   - src-openeuler/python-castellan
@@ -147,6 +149,7 @@ repositories:
   - src-openeuler/python-consul
   - src-openeuler/python-cotyledon
   - src-openeuler/python-covdefaults
+  - src-openeuler/python-coverage-enable-subprocess
   - src-openeuler/python-cursive
   - src-openeuler/python-cyborgclient
   - src-openeuler/python-debtcollector
@@ -158,6 +161,7 @@ repositories:
   - src-openeuler/python-doc8
   - src-openeuler/python-dracclient
   - src-openeuler/python-easy-server
+  - src-openeuler/python-easy-vault
   - src-openeuler/python-elasticsearch2
   - src-openeuler/python-elementpath
   - src-openeuler/python-etcd3
@@ -165,6 +169,7 @@ repositories:
   - src-openeuler/python-flake8-docstrings
   - src-openeuler/python-flake8-logging-format
   - src-openeuler/python-flux
+  - src-openeuler/python-furo
   - src-openeuler/python-futurist
   - src-openeuler/python-fuzzywuzzy
   - src-openeuler/python-glance-store
@@ -172,6 +177,7 @@ repositories:
   - src-openeuler/python-glanceclient
   - src-openeuler/python-gnocchiclient
   - src-openeuler/python-gossip
+  - src-openeuler/python-graphql-core
   - src-openeuler/python-gremlinpython
   - src-openeuler/python-grpcio-gcp
   - src-openeuler/python-grpcio-status
@@ -192,11 +198,13 @@ repositories:
   - src-openeuler/python-ironic-ui
   - src-openeuler/python-ironicclient
   - src-openeuler/python-jaeger-client
+  - src-openeuler/python-jaraco.envs
   - src-openeuler/python-jaraco.packaging
   - src-openeuler/python-jaraco.path
   - src-openeuler/python-jaraco.tidelift
   - src-openeuler/python-jose
   - src-openeuler/python-jsondiff
+  - src-openeuler/python-jsonpickle
   - src-openeuler/python-karborclient
   - src-openeuler/python-kazoo
   - src-openeuler/python-keystone-tempest-plugin
@@ -297,17 +305,27 @@ repositories:
   - src-openeuler/python-psycopg2cffi
   - src-openeuler/python-purestorage
   - src-openeuler/python-pycadf
+  - src-openeuler/python-pycountry
+  - src-openeuler/python-pydata-sphinx-theme
   - src-openeuler/python-pydotplus
   - src-openeuler/python-pyeclib
+  - src-openeuler/python-pyforge
   - src-openeuler/python-pyghmi
   - src-openeuler/python-pylama
+  - src-openeuler/python-pymongocrypt
+  - src-openeuler/python-pyodbc
   - src-openeuler/python-pypowervm
   - src-openeuler/python-pyspnego
+  - src-openeuler/python-pytest-black
   - src-openeuler/python-pytest-checkdocs
   - src-openeuler/python-pytest-django
+  - src-openeuler/python-pytest-easy-server
+  - src-openeuler/python-pytest-enabler
   - src-openeuler/python-pytest-env
   - src-openeuler/python-pytest-freezegun
   - src-openeuler/python-pytest-html
+  - src-openeuler/python-pytest-mpl
+  - src-openeuler/python-pytest-mypy
   - src-openeuler/python-pytest-perf
   - src-openeuler/python-pytest-randomly
   - src-openeuler/python-pyu2f
@@ -334,6 +352,7 @@ repositories:
   - src-openeuler/python-sentinels
   - src-openeuler/python-setuptools-rust
   - src-openeuler/python-soupsieve
+  - src-openeuler/python-sphinx-autodoc-typehints
   - src-openeuler/python-sphinx-testing
   - src-openeuler/python-sphinxcontrib-autoprogram
   - src-openeuler/python-sphinxcontrib-programoutput
@@ -346,10 +365,12 @@ repositories:
   - src-openeuler/python-storpool
   - src-openeuler/python-storpool.spopenstack
   - src-openeuler/python-subunit2sql
+  - src-openeuler/python-suds-community
   - src-openeuler/python-suds-jurko
   - src-openeuler/python-sushy
   - src-openeuler/python-sushy-oem-idrac
   - src-openeuler/python-swiftclient
+  - src-openeuler/python-sybil
   - src-openeuler/python-sysv-ipc
   - src-openeuler/python-tablib
   - src-openeuler/python-taskflow
@@ -360,10 +381,12 @@ repositories:
   - src-openeuler/python-tooz
   - src-openeuler/python-towncrier
   - src-openeuler/python-transaction
+  - src-openeuler/python-trio
   - src-openeuler/python-trove-dashboard
   - src-openeuler/python-trove-tempest-plugin
   - src-openeuler/python-troveclient
   - src-openeuler/python-typed-ast
+  - src-openeuler/python-types-cryptography
   - src-openeuler/python-types-enum34
   - src-openeuler/python-types-ipaddress
   - src-openeuler/python-types-paramiko

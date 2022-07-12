@@ -1,0 +1,7 @@
+name: python-pymongocrypt
+description: Python bindings for libmongocrypt
+upstream: https://github.com/mongodb/libmongocrypt/tree/master/bindings/python
+branches:
+- name: master
+  type: protected
+type: public
