@@ -31,12 +31,15 @@ SC的使命：为openEuler用户提供最安全的产品和开发环境。
 - <yanxiaobing@huawei.com> [[@yanxiaobing2020](https://gitee.com/yanxiaobing2020)]
 - <zhujianwei7@huawei.com> [[@zhujianwei001](https://gitee.com/zhujianwei001)]
 - <11015100@qq.com> [[@gwei3](https://gitee.com/gwei3)]
-- <guoxiaoqi2@huawei.com> [[@guoxiaoqi](https://gitee.com/guoxiaoqi)]
-- <yanglijin@huawei.com> [[@jinjin](https://gitee.com/jinjin)]
 - <cuilei@kylinos.cn> [[@kylincuilei](https://gitee.com/kylincuilei)]
+- <weidong@uniontech.com> [[@weidongkl](https://gitee.com/weidongkl)]
+- <tanjingguo@huawei.com> [[@tanjingguo](https://gitee.com/tanjingguo)]（候补委员）
+- <chenxi.mao@suse.com> [[@chenxi-mao](https://gitee.com/chenxi-mao)]（候补委员）
 
-### 2021年 SC成员变更历史
+### SC成员变更历史
 - 杨丽 [[@yangli69393](https://gitee.com/yangli69393)]于2021年7月卸任，崔雷接替SC委员工作。
+- [@angela7](https://gitee.com/angela7)于2022年1月卸任，[@weidongkl](https://gitee.com/weidongkl)接替SC委员工作。
+- [@jinjin](https://gitee.com/jinjin)于2022年3月卸任，[@tanjingguo](https://gitee.com/tanjingguo)接替SC委员工作。
 
 # 联系方式
 
