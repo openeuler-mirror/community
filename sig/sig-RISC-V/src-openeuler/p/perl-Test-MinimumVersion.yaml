@@ -1,0 +1,7 @@
+name: perl-Test-MinimumVersion
+description: Check whether your code requires a newer perl
+upstream: https://metacpan.org/release/Test-MinimumVersion
+branches:
+- name: master
+  type: protected
+type: public

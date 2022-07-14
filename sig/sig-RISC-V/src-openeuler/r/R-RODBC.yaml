@@ -1,0 +1,7 @@
+name: R-RODBC
+description: An ODBC database interface for R
+upstream: https://cran.r-project.org/web/packages/RODBC/index.html
+branches:
+- name: master
+  type: protected
+type: public

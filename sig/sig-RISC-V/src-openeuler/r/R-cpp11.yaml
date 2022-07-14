@@ -1,0 +1,7 @@
+name: R-cpp11
+description: A C++11 Interface for R's C Interface
+upstream: https://github.com/r-lib/cpp11
+branches:
+- name: master
+  type: protected
+type: public

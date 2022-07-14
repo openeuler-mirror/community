@@ -1,0 +1,7 @@
+name: R-backports
+description: Reimplementations of Functions Introduced Since R-3.0.0
+upstream: https://github.com/r-lib/backports
+branches:
+- name: master
+  type: protected
+type: public

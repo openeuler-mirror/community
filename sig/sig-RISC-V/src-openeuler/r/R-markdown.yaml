@@ -1,0 +1,7 @@
+name: R-markdown
+description: Render Markdown with the C Library 'Sundown'
+upstream: https://cran.r-project.org/web/packages/markdown/index.html
+branches:
+- name: master
+  type: protected
+type: public

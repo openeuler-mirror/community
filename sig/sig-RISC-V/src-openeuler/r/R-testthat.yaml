@@ -1,0 +1,7 @@
+name: R-testthat
+description: A unit testing system designed to be fun, flexible, and easy to set up.
+upstream: https://github.com/r-lib/testthat
+branches:
+- name: master
+  type: protected
+type: public
