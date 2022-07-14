@@ -1,0 +1,71 @@
+name: Runtime
+description: The Runtime team is responsible for the development and maintenance of OS system Runtime in openeuler community.
+created_on: '2020-03-26'
+mailing_list: dev@openeuler.org
+meeting_url: NA
+mature_level: startup
+maintainers:
+- gitee_id: Charlie_Li
+  name: Yongqiang Li
+  organization: xfusion
+  email: liyongqiang@xfusion.com
+- gitee_id: eric14chan
+  name: Zhenyu Chen
+  organization: Huawei
+  email: chenzhenyu13@huawei.com
+- gitee_id: small_leek
+  name: Senlin Xia
+  organization: Huawei
+  email: xiasenlin1@huawei.com
+repositories:
+- repo:
+  - src-openeuler/freetds
+  - src-openeuler/fftw
+  - src-openeuler/freeglut
+  - src-openeuler/usbmuxd
+  - src-openeuler/rhash
+  - src-openeuler/redland
+  - src-openeuler/kmod-kvdo
+  - src-openeuler/Imath
+  - src-openeuler/clutter-gst2
+  - src-openeuler/celt051
+  - src-openeuler/glew
+  - src-openeuler/gsl
+  - src-openeuler/pkcs11-helper
+  - src-openeuler/python-httplib2
+  - src-openeuler/protobuf-c
+  - src-openeuler/atlas
+  - src-openeuler/alsa-plugins
+  - src-openeuler/mesa-demos
+  - src-openeuler/m2crypto
+  - src-openeuler/motif
+  - src-openeuler/OpenEXR
+  - src-openeuler/tinycdb
+  - src-openeuler/hdf5
+  - src-openeuler/libvoikko
+  - src-openeuler/libnice
+  - src-openeuler/libmpcdec
+  - src-openeuler/libao
+  - src-openeuler/librabbitmq
+  - src-openeuler/libavc1394
+  - src-openeuler/libshout
+  - src-openeuler/libstoragemgmt
+  - src-openeuler/libieee1284
+  - src-openeuler/libiec61883
+  - src-openeuler/libsmi
+  - src-openeuler/libvdpau
+  - src-openeuler/libva
+  - src-openeuler/xorg-x11-xtrans-devel
+  - src-openeuler/jemalloc
+  - src-openeuler/vdo
+  committers:
+  - gitee_id: gitee-cmd
+    name: Mingdao Che
+    organization: Huawei
+    email: chemingdao@huawei.com
+- repo:
+  - src-openeuler/qt
+  committers:
+  - gitee_id: peijiankang
+    name: Jiankang Pei
+    email: peijiankang@kylinos.cn
