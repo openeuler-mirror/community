@@ -1,0 +1,49 @@
+name: sig-SDS
+description: openEuler Software-Defined-Storage(HPC) SIG
+mailing_list: sds@openeuler.org
+meeting_url: NA
+mature_level: startup
+maintainers:
+- gitee_id: chixinze
+  name: xinze chi
+  organization: Xsky
+  email: xmdxcxz@gmail.com
+- gitee_id: liuzhiqiang26
+  name: zhiqiang liu
+  email: liuzhiqiang26@huawei.com
+- gitee_id: liuqinfei
+  name: qinfei liu
+  email: liuqinfei5@hisilicon.com
+- gitee_id: rosinL
+  name: rixin luo
+  email: luorixin@huawei.com
+repositories:
+- repo:
+  - src-openeuler/ceph
+  - src-openeuler/ceph-deploy
+  - src-openeuler/ceph-ansible
+  - src-openeuler/ceph-csi
+  - src-openeuler/teuthology
+  - openeuler/ceph_dev
+
+  committers:
+  - gitee_id: nick-slg-kylin
+    name: ligang sun
+    organization: Kylin
+    email: sunligang@kylinos.cn
+  - gitee_id: Zhiwei-Dai
+    name: zhiwei dai
+    organization: Huawei
+    email: daizhiwei3@huawei.com
+  - gitee_id: tjwangxm
+    name: xiaomeng wang
+    organization: Kylin
+    email: wangxiaomeng@kylinos.cn
+  - gitee_id: kymayl
+    name: yilin ma
+    organization: Kylin
+    email: mayilin@kylinos.cn
+  - gitee_id: yahoohey
+    name: chenjian
+    organization: Kylin
+    email: chenjian@kylinos.cn
