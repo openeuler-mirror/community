@@ -29,20 +29,34 @@ maintainers:
   name: gaoruoshu
   orgnization: Huawei
   email: gaoruoshu@huawei.com
+
 repositories:
 - repo: openeuler/A-Tune
 - repo: openeuler/A-Tune-UI
 - repo: openeuler/A-Tune-Collector
 - repo: openeuler/prefetch_tuning
-- repo: openeuler/native-turbo
-- repo: openeuler/native-turbo-kernel
-- repo: openeuler/wisdom-advisor
+
+- repo:
+  - openeuler/native-turbo
+  - openeuler/native-turbo-kernel
+  - openeuler/wisdom-advisor
+  - src-openeuler/native-turbo
+  - src-openeuler/wisdom-advisor
+  committers:
+  - gitee_id: gameoverboss
+    name: Zhou Kang
+    email: gameoverboss@163.com
+  - gitee_id: sdlzx
+    name: Liu Zixian
+    email: liuzixian4@huawei.com
+  - gitee_id: liu-yuntao-10
+    name: Liu Yuntao
+    email: liuyuntao10@huawei.com
+
 - repo: src-openeuler/A-Tune
 - repo: src-openeuler/A-Tune-UI
 - repo: src-openeuler/A-Tune-Collector
 - repo: src-openeuler/prefetch_tuning
-- repo: src-openeuler/native-turbo
-- repo: src-openeuler/wisdom-advisor
 - repo: src-openeuler/python-networkx
 - repo: src-openeuler/python-netifaces
 - repo: src-openeuler/python-Keras_Preprocessing
