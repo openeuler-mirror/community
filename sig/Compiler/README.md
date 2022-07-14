@@ -204,7 +204,7 @@ Tuesday 10 am bi-weekly, UTC+8.
      - 谢 志恒[@eastb233](https://gitee.com/eastb233) email: xiezhiheng@huawei.com
 
 ## Contact
- - maillist: dev@openeuler.org
+ - [maillist](compiler@openeuler.org)
  - wechat: Compiler_Assistant
  ![wechat](compiler_wechat.jpeg)
 
