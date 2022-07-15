@@ -1,0 +1,7 @@
+name: R-rstudioapi
+description: Access the RStudio API (if available) and provide informative error messages when it's not.
+upstream: https://github.com/rstudio/rstudioapi
+branches:
+- name: master
+  type: protected
+type: public

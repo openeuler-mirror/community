@@ -1,8 +1,11 @@
 name: libjcat
-description: This library allows reading and writing gzip-compressed JSON catalog files.
+description: This library allows reading and writing gzip-compressed JSON catalog
+  files.
 upstream: https://github.com/hughsie/libjcat
 branches:
 - name: master
   type: protected
+- name: openEuler-22.09
+  type: protected
+  create_from: master
 type: public
-

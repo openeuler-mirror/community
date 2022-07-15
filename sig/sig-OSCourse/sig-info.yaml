@@ -15,12 +15,22 @@ maintainers:
 - gitee_id: iscassiyang
   name: Siyang Tian
   email: siyang@iscas.ac.cn
-committers:
-- gitee_id: zhengchen87
-  name: Chen Zheng
-  email: zhengchen@iscas.ac.cn
-- gitee_id: iscassiyang
-  name: Siyang Tian
-  email: siyang@iscas.ac.cn
+- gitee_id: ZhengZhenyu
+  name: Zheng Zhenyu
+  organization: Huawei
+  email: zhengzhenyu@huawei.com
+- gitee_id: genedna
+  name: Ma Quanyi
+  organization: Huawei
+  email: maquanyi1@huawei.com
 repositories:
-- repo: openeuler/sig-OSCourse
+- repo: 
+  - openeuler/sig-OSCourse
+  - openeuler/micro-certification
+  - openeuler/git-basics
+  - openeuler/hands-on
+  - openeuler/lfs-course
+  - openeuler/linux-operation
+  - openeuler/open-source-summer
+  - openeuler/opensource-intern
+  - openeuler/summer2022

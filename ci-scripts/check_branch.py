@@ -99,12 +99,18 @@ class CheckBranch(object):
         for pkg in change_pkgs:
             from_pkg = pkg['from']
             to_pkg = pkg['to']
+            from_org = from_pkg.split('/')[2]
+            to_org = to_pkg.split('/')[2]
             if from_pkg in master_repos_tree:
                 from_pkg_yaml = subprocess.getoutput('git show remotes/origin/master:{}'.format(from_pkg))
-                self.before_change_msg.append(yaml.load(from_pkg_yaml, Loader=yaml.Loader))
+                from_pkg_dict = yaml.load(from_pkg_yaml, Loader=yaml.Loader)
+                from_pkg_dict['org'] = from_org
+                self.before_change_msg.append(from_pkg_dict)
             if os.path.exists(to_pkg):
                 with open(to_pkg, 'r') as f:
-                    self.change_msg.append(yaml.load(f.read(), Loader=yaml.Loader))
+                    to_pkg_dict = yaml.load(f.read(), Loader=yaml.Loader)
+                    to_pkg_dict['org'] = to_org
+                    self.change_msg.append(to_pkg_dict)
 
     def get_change_pkg(self):
         print('Get diffs of Pull Request')
@@ -120,11 +126,11 @@ class CheckBranch(object):
             diff_file_to = diff_file['to']
             if len(diff_file_from.split('/')) == 5 and \
                     diff_file_from.split('/')[0] == 'sig' and \
-                    diff_file_from.split('/')[2] == 'src-openeuler' and \
+                    diff_file_from.split('/')[2] in ['openeuler', 'src-openeuler'] and \
                     diff_file_from.split('/')[4].endswith('.yaml') and \
                     len(diff_file_to.split('/')) == 5 and \
                     diff_file_to.split('/')[0] == 'sig' and \
-                    diff_file_to.split('/')[2] == 'src-openeuler' and \
+                    diff_file_to.split('/')[2] in ['openeuler', 'src-openeuler'] and \
                     diff_file_to.split('/')[4].endswith('.yaml'):
                 change_pkgs.append(diff_file)
         self._change_pkg(change_pkgs)
@@ -157,6 +163,8 @@ class CheckBranch(object):
             return
         else:
             self._check_parent_branch(p_branch, pkg)
+            if pkg['org'] == 'openeuler':
+                return
             self._check_child_branch(p_branch, c_branch, pkg_name=pkg_name)
 
     def _check_parent_branch(self, p_branch, pkg):
@@ -168,6 +176,8 @@ class CheckBranch(object):
         if p_branch not in [branch['name'] for branch in pkg['branches']]:
             raise CheckError("FAIL: {1} tries to create from parent branch \"{0}\", "
                     "but \"{0}\" does not exist in repo configuration".format(p_branch, pkg_name))
+        if pkg['org'] == 'openeuler':
+            return
         if p_branch not in self.branch_map["branch"].keys():
             if p_branch.startswith("Multi-Version"):
                 if p_branch.split("_")[-1] not in self.branch_map["branch"].keys():
@@ -253,11 +263,11 @@ class CheckBranch(object):
         :return:
         """
         for bch in history_branches:
-            c_branch = bch['name']
+            c_branch = str(bch['name'])
             if c_branch == "master":
                 p_branch = None
             else:
-                p_branch = bch['create_from']
+                p_branch = str(bch['create_from'])
             try:
                 self._check_branch(p_branch, c_branch, pkg)
             except CheckError as e:
@@ -275,9 +285,11 @@ class CheckBranch(object):
         :return:
         """
         for bch in changed_branches:
-            c_branch = bch['name']
+            c_branch = str(bch['name'])
 
             p_branch = bch.get('create_from', None)
+            if p_branch:
+                p_branch = str(p_branch)
 
             try:
                 self._check_branch(p_branch, c_branch, pkg)

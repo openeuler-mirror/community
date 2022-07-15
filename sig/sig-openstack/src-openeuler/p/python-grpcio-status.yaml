@@ -1,0 +1,7 @@
+name: python-grpcio-status
+description: Status proto mapping for gRPC
+upstream: https://grpc.io
+branches:
+- name: master
+  type: protected
+type: public

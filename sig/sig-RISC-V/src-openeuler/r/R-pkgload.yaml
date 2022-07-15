@@ -1,0 +1,7 @@
+name: R-pkgload
+description: Simulate Package Installation and Attach
+upstream: https://github.com/r-lib/pkgload
+branches:
+- name: master
+  type: protected
+type: public

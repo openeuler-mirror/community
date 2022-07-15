@@ -22,4 +22,7 @@ branches:
 - name: oepkg_openstack-train_oe-20.03-LTS-SP1
   type: protected
   create_from: openEuler-21.03
+- name: openEuler-22.09
+  type: protected
+  create_from: master
 type: public

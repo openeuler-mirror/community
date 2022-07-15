@@ -1,7 +1,14 @@
 name: greatsql
-description: GreatSQL - GreatSQL focuses on improving the reliability and performance of MGR, supports InnoDB parallel query and other features, and is a domestic MySQL version suitable for financial applications. It can be used as an optional replacement of MySQL or Percona Server. It is completely free and compatible with MySQL or Percona server. 
+description: GreatSQL - GreatSQL focuses on improving the reliability and performance
+  of MGR, supports InnoDB parallel query and other features, and is a domestic MySQL
+  version suitable for financial applications. It can be used as an optional replacement
+  of MySQL or Percona Server. It is completely free and compatible with MySQL or Percona
+  server.
 upstream: https://gitee.com/GreatSQL/GreatSQL
 branches:
 - name: master
   type: protected
+- name: openEuler-22.09
+  type: protected
+  create_from: master
 type: public

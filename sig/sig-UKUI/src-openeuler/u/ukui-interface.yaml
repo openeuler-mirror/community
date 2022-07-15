@@ -1,7 +1,7 @@
 name: ukui-interface
 description: ukui-interface is interface for ukui related programmer
 upstream: https://github.com/ukui/ukui-interface
-branches: 
+branches:
 - name: master
   type: protected
 - name: openEuler-20.09
@@ -13,4 +13,7 @@ branches:
 - name: openEuler-22.03-LTS
   type: protected
   create_from: openEuler-22.03-LTS-Next
+- name: openEuler-22.09
+  type: protected
+  create_from: master
 type: public

@@ -1,0 +1,68 @@
+name: sig-K8sDistro
+description: The K8sDistro team is responsible for developing and maintaining the distribution of Kubernetes in the openEuler community, such as KubeSphere and OKD.
+created_on: '2022-06-22'
+mailing_list: dev@openeuler.org
+meeting_url: https://etherpad.openeuler.org/p/sig-K8sDistro
+mature_level: startup
+mentors:
+- gitee_id: hjimmy
+  name: houjian
+  organization: kylinos
+  email: houjian@kylinos.cn
+maintainers:
+- gitee_id: calvinyu
+  name: yushuang
+  organization: kubesphere
+  email: calvinyu@kubesphere.io
+- gitee_id: pixiake
+  name: guofeng
+  organization: kubesphere
+  email: guofeng@yunify.com
+- gitee_id: yangzhao_kl
+  name: yangzhao
+  organization: kylinos
+  email: yangzhao1@kylinos.cn
+- gitee_id: wangyueliang
+  name: wangyueliang
+  organization: kylinos
+  email: wangyueliang@kylinos.cn
+- gitee_id: duyiwei7w
+  name: duyiwei
+  organization: kylinos
+  email: duyiwei@kylinos.cn
+- gitee_id: wanglmb
+  name: wanglimin
+  organization: xfusion
+  email: wanglmb@163.com
+repositories:
+- repo:
+  - src-openeuler/pulp
+  - src-openeuler/moosefs
+  - src-openeuler/quay
+  - src-openeuler/origin
+  - src-openeuler/openshift-ansible
+  - src-openeuler/go-srpm-macros
+  - src-openeuler/goversioninfo
+  - src-openeuler/go-rpm-macros
+
+- repo:
+  - src-openeuler/bootupd
+  - src-openeuler/ignition
+  - src-openeuler/rpm-ostree
+  committers:
+  - gitee_id: fu-shanqing
+    name: fushanqing
+    organization: kylinos
+    email: fushanqing@kylinos.cn
+
+- repo:
+  - src-openeuler/kubekey
+  committers:
+  - gitee_id: calvinyu
+    name: yushuang
+    organization: kubesphere
+    email: calvinyu@kubesphere.io
+  - gitee_id: pixiake
+    name: guofeng
+    organization: kubesphere
+    email: guofeng@yunify.com

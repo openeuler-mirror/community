@@ -1,5 +1,6 @@
 name: kf5-krunner
-description: kf5-krunner is framework for providing different actions given a string query.
+description: kf5-krunner is framework for providing different actions given a string
+  query.
 upstream: https://github.com/KDE/krunner
 branches:
 - name: master
@@ -10,4 +11,7 @@ branches:
 - name: openEuler-22.03-LTS
   type: protected
   create_from: openEuler-22.03-LTS-Next
+- name: openEuler-22.09
+  type: protected
+  create_from: master
 type: public

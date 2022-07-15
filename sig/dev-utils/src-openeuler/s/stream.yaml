@@ -1,0 +1,7 @@
+name: stream
+description: Stream benchmark is a tool to measure the memory bandwidth (MB / s)
+upstream: https://github.com/jeffhammond/STREAM
+branches:
+- name: master
+  type: protected
+type: public

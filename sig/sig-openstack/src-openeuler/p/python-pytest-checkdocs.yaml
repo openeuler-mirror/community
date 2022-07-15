@@ -1,0 +1,7 @@
+name: python-pytest-checkdocs
+description: check the README when running tests
+upstream: https://github.com/jaraco/pytest-checkdocs
+branches:
+- name: master
+  type: protected
+type: public

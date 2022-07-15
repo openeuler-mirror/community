@@ -1,0 +1,10 @@
+name: python-cppy
+description: C++ headers for C extension development.
+upstream: https://github.com/nucleic/cppy
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.09
+  type: protected
+  create_from: master
+type: public

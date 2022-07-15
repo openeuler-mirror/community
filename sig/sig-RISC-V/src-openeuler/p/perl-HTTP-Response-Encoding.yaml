@@ -1,0 +1,7 @@
+name: perl-HTTP-Response-Encoding
+description: Adds encoding() to HTTP::Response.
+upstream: https://metacpan.org/release/HTTP-Response-Encoding
+branches:
+- name: master
+  type: protected
+type: public

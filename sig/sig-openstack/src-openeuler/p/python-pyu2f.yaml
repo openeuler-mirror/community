@@ -1,0 +1,7 @@
+name: python-pyu2f
+description: U2F host library for interacting with a U2F device over USB.
+upstream: https://github.com/google/pyu2f/
+branches:
+- name: master
+  type: protected
+type: public

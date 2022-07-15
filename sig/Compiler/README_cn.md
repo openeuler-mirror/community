@@ -204,6 +204,6 @@ Compiler SIG 每双周周二上午10:00进行线上例会，也会定期举办�
      - 谢 志恒[@eastb233](https://gitee.com/eastb233) 邮箱: xiezhiheng@huawei.com
 
 ## 联系
- - 邮件: dev@openeuler.org
+ - [邮件列表](compiler@openeuler.org)
  - 微信: Compiler_Assistant
  ![wechat](compiler_wechat.jpeg)

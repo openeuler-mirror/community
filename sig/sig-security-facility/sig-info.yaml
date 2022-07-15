@@ -1,0 +1,182 @@
+name: sig-security-facility
+description: Sig-security mainly discusses the existing or future planned security technologies in the openEuler community version.
+mailing_list: dev@openeuler.org
+meeting_url: NA
+mature_level: startup
+maintainers:
+- gitee_id: zhujianwei001
+  name: zhujianwei
+  organization: Huawei
+  email: zhujianwei7@huawei.com
+- gitee_id: mailofzxf
+  name: zhangxiangfeng
+  organization: xFusion
+  email: zhangxiangfeng@xfusion.com
+- gitee_id: robertosassu
+  name: robertosassu
+  organization: Huawei
+  email: roberto.sassu@huawei.com
+- gitee_id: gwei3
+  name: weigang
+  organization: Huawei
+  email: 11015100@qq.com
+- gitee_id: wucaijun2001
+  name: wucaijun
+  organization: Huawei
+  email: wucaijun@huawei.com
+
+repositories:
+- repo: #此处为openEuler开发项目, 由maintainer看护
+    - src-openeuler/cryptopp
+    - src-openeuler/aespipe
+    - src-openeuler/passwd_group_generator
+    - openeuler/passwd_group_generator
+    - openeuler/security-facility
+
+- repo:
+  - src-openeuler/strongswan
+  committers:
+  - gitee_id: openhosec
+    name: houan
+    organization: hosec
+    email: openhosec@hosec.net
+  - gitee_id: zhangdong029
+    name: zhangdong
+    organization: hosec
+    email: zhangdong@hosec.net
+
+- repo:
+  - openeuler/kunpengsecl
+  - src-openeuler/kunpengsecl
+  committers:
+  - gitee_id: gwei3
+    name: weigang
+    organization: Huawei
+    email: 11015100@qq.com
+  - gitee_id: wucaijun2001
+    name: wucaijun
+    organization: Huawei
+    email: wucaijun@huawei.com
+
+- repo:
+  - openeuler/ksc-defender
+  - src-openeuler/ksc-defender
+  committers:
+  - gitee_id: zhang-zixue
+    name: zhangzixue
+    organization: kylinos
+    email: zhangzixue@kylinos.com
+  - gitee_id: liu-yi-cs
+    name: liu_yi
+    organization: kylinos
+    email: liu_yi@kylinos.cn
+
+- repo:
+  - src-openeuler/oath-toolkit
+  committers:
+  - gitee_id: liuqinfei
+    name: liuqinfei
+    organization: hisilicon
+    email: liuqinfei5@hisilicon.com
+
+- repo:
+  - src-openeuler/oath-toolkit
+  committers:
+  - gitee_id: liuqinfei
+    name: liuqinfei
+    organization: hisilicon
+    email: liuqinfei5@hisilicon.com
+
+- repo:
+  - src-openeuler/scap-security-guide
+  - src-openeuler/scap-workbench
+  - src-openeuler/keycloak-httpd-client-install
+  - src-openeuler/mod_auth_openidc
+  - src-openeuler/mod_authnz_pam
+  - src-openeuler/certmonger
+  - src-openeuler/oscap-anaconda-addon
+  - src-openeuler/mysql-selinux
+  committers:
+  - gitee_id: gitee-cmd
+    name: mingdao Che
+    organization: Huawei
+    email: chemingdao@huawei.com
+
+- repo:
+  - src-openeuler/cracklib
+  - src-openeuler/libpwquality
+  - src-openeuler/pam
+  - src-openeuler/pam_wrapper
+  committers:
+  - gitee_id: houmingyong
+    name: Mingyong Hou
+    organization: Huawei
+    email: houmingyong@huawei.com
+
+- repo:
+  - src-openeuler/audit
+  - src-openeuler/mokutil
+  - src-openeuler/setroubleshoot
+  - src-openeuler/tpm2-tools
+  - src-openeuler/tpm2-tss
+  - src-openeuler/tpm2-abrmd
+  committers:
+  - gitee_id: huangzq6
+    name: 寒江舟
+    organization: Huawei
+    email: huangzhenqiang2@huawei.com
+
+- repo:
+  - src-openeuler/checkpolicy
+  - src-openeuler/libcap
+  - src-openeuler/libselinux
+  - src-openeuler/libsemanage
+  - src-openeuler/libsepol
+  - src-openeuler/mcstrans
+  - src-openeuler/selinux-policy
+  - src-openeuler/policycoreutils
+  - src-openeuler/security-tool
+  - openeuler/security-tool
+  - src-openeuler/apparmor
+  - src-openeuler/digest-list-tools
+  - src-openeuler/attest-tools
+  - openeuler/digest-list-tools
+  - openeuler/attest-tools
+  - openeuler/dim_tools
+  - src-openeuler/dim_tools
+  - src-openeuler/pesign-obs-integration
+  - src-openeuler/tss2
+  - src-openeuler/openssl_tpm2_engine
+  - src-openeuler/secpaver
+  - openeuler/secpaver
+  committers:
+  - gitee_id: HuaxinLuGitee
+    name: luhuaxin
+    organization: Huawei
+    email: luhuaxin1@huawei.com
+
+- repo:
+  - src-openeuler/swtpm
+  - src-openeuler/libtpms
+  committers:
+  - gitee_id: yezengruan
+    name: yezengruan
+    organization: Huawei
+    email: yezengruan@huawei.com
+
+- repo:
+  - src-openeuler/crypto-policies
+  - src-openeuler/gnupg2
+  - src-openeuler/gnutls
+  - src-openeuler/keyutils
+  - src-openeuler/nss
+  - src-openeuler/nss-pem
+  - src-openeuler/openssl
+  - src-openeuler/openssl-pkcs11
+  - src-openeuler/pyOpenSSL
+  - src-openeuler/softhsm
+  committers:
+  - gitee_id: zcfsite
+    name: 吃牛的蛙
+    organization: Huawei
+    email: zhchf2010@126.com

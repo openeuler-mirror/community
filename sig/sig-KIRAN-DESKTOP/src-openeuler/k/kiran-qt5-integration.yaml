@@ -2,6 +2,9 @@ name: kiran-qt5-integration
 description: Kiran desktop platform integration plugin
 upstream: https://gitee.com/openeuler/kiran-qt5-integration
 branches:
-  - name: master
-    type: protected
+- name: master
+  type: protected
+- name: openEuler-22.09
+  type: protected
+  create_from: master
 type: public

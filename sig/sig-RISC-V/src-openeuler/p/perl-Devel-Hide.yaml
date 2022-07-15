@@ -1,0 +1,7 @@
+name: perl-Devel-Hide
+description: Forces the unavailability of specified Perl modules (for testing)
+upstream: https://metacpan.org/release/Devel-Hide
+branches:
+- name: master
+  type: protected
+type: public

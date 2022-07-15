@@ -1,0 +1,7 @@
+name: python-azure-core
+description: Microsoft Azure Core Library for Python
+upstream: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/core/azure-core
+branches:
+- name: master
+  type: protected
+type: public

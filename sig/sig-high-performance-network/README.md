@@ -72,7 +72,6 @@ repository地址：
 - https://gitee.com/src-openeuler/xdp-tools
 - https://gitee.com/src-openeuler/libvma
 - https://gitee.com/src-openeuler/polycube
-- https://gitee.com/src-openeuler/libkefir
 - https://gitee.com/src-openeuler/cilium
 - https://gitee.com/src-openeuler/katran
 - https://gitee.com/src-openeuler/pistache

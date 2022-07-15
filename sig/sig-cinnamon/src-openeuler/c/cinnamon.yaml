@@ -1,8 +1,11 @@
 name: cinnamon
-description: A Linux desktop featuring a traditional layout, built from modern technology and introducing brand new innovative features.
+description: A Linux desktop featuring a traditional layout, built from modern technology
+  and introducing brand new innovative features.
 upstream: https://github.com/linuxmint/cinnamon
 branches:
 - name: master
   type: protected
+- name: openEuler-22.09
+  type: protected
+  create_from: master
 type: public
-

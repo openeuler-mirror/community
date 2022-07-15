@@ -1,0 +1,7 @@
+name: python-awscrt
+description: A common runtime for AWS Python projects
+upstream: https://github.com/awslabs/aws-crt-python
+branches:
+- name: master
+  type: protected
+type: public

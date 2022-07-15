@@ -1,0 +1,10 @@
+name: qt5-qtscxml
+description: qt5-qtscxml is SCXML (state machine notation) compiler and related tools.
+upstream: https://github.com/qt/qtscxml
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,7 @@
+name: R-askpass
+description: Safe Password Entry for R, Git, and SSH
+upstream: https://github.com/jeroen/askpass
+branches:
+- name: master
+  type: protected
+type: public

@@ -1,0 +1,7 @@
+name: R-pkgconfig
+description: Private Configuration for 'R' Packages
+upstream: https://github.com/r-lib/pkgconfig
+branches:
+- name: master
+  type: protected
+type: public

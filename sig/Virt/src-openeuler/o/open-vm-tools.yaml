@@ -1,13 +1,18 @@
 name: open-vm-tools
 upstream: https://github.com/vmware/open-vm-tools
-description: open-vm-tools is a set of services and modules that enable several features in VMware products for better management of, and seamless user interactions with, guests. 
+description: open-vm-tools is a set of services and modules that enable several features
+  in VMware products for better management of, and seamless user interactions with,
+  guests.
 branches:
 - name: master
   type: protected
 - name: openEuler-22.03-LTS-Next
   type: protected
   create_from: master
-- name: openEuler-22.03-LTS  
-  type: protected  
+- name: openEuler-22.03-LTS
+  type: protected
   create_from: openEuler-22.03-LTS-Next
+- name: openEuler-22.09
+  type: protected
+  create_from: master
 type: public

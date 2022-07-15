@@ -1,0 +1,10 @@
+name: qt5-qtremoteobjects
+description: qt5-qtremoteobjects is Qt distributed object system.
+upstream: https://github.com/qt/qtremoteobjects
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

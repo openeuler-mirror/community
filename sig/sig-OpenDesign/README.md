@@ -9,9 +9,9 @@ openEuler 开源社区及其它众多非前端的开源社区对网站、开发�
 - pig-s-trotters <zhangshuting@openeuler.sh>
 - devin-cwd <caowendong@huawei.com>
 - genedna <eli@patch.sh>
+- gzbang <15622356989@163.com>
 
 ### Committer列表
-- gzbang <15622356989@163.com>
 - ailoooong <ilong8@qq.com>
 - haml <845831435@qq.com>
 - guoguoyaa <guowenfeng1@huawei.com>
@@ -32,6 +32,7 @@ https://opendesign.openeuler.org
 - [opendesign-components](https://gitee.com/openeuler/opendesign-components)
 - [opendesign-resources](https://gitee.com/openeuler/opendesign-resources)
 - [opendesign-templates](https://gitee.com/openeuler/opendesign-templates)
+- [openEuler-portal](https://gitee.com/openeuler/openEuler-portal)
 - [opendesign-deployment](https://gitee.com/openeuler/opendesign-deployment)
 - [opendesign-backend](https://gitee.com/openeuler/opendesign-backend)
 - [opendesign-build](https://gitee.com/openeuler/opendesign-build)

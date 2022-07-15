@@ -1,0 +1,7 @@
+name: perl-Dist-CheckConflicts
+description: Declare version conflicts for your dist
+upstream: https://metacpan.org/release/Dist-CheckConflicts
+branches:
+- name: master
+  type: protected
+type: public
