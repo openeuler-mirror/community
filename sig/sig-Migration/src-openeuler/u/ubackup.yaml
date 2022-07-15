@@ -1,0 +1,7 @@
+name: ubackup
+description: uBackup implements system backup and recovery functions to help users ensure data integrity and reliability. 
+upstream: https://gitee.com/openeuler/ubackup
+branches:
+- name: master
+  type: protected
+type: public
