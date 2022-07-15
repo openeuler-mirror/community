@@ -1,0 +1,145 @@
+name: Kernel
+description: 'openEuler Kernel SIG'
+mailing_list: kernel@openeuler.org
+maintainers:
+- gitee_id: xiexiuqi
+  name: Xie XiuQi
+  email: xiexiuqi@huawei.com
+- gitee_id: yangyingliang
+  name: Yang Yingliang
+  email: yangyingliang@huawei.com
+- gitee_id: zhengzengkai
+  name: Zheng Zengkai
+  email: zhengzengkai@huawei.com
+- gitee_id: gatieme
+  name: Cheng Jian
+  email: cj.chengjian@huawei.com
+repositories:
+- repo:
+  - openeuler/kernel
+  - src-openeuler/kernel
+  committers:
+  - gitee_id: oskernel0719
+    name: Zucheng Zheng
+    email: zhengzucheng@huawei.com
+  - gitee_id: wkfxxx
+    name: Kefeng Wang
+    email: wangkefeng.wang@huawei.com
+  - gitee_id: yuzenghui
+    name: Zenghui Yu
+    email: yuzenghui@huawei.com
+  - gitee_id: kevinzhu1
+    name: Kevin Zhu
+    email: zhukeqian1@huawei.com
+  - gitee_id: xukuohai
+    name: Xu Kuohai
+    email: xukuohai@huawei.com
+  - gitee_id: lujialin2
+    name: Lu Jialin
+    email: lujialin4@huawei.com
+  - gitee_id: alvin-ling
+    name: Ling Mingqiang
+    email: lingmingqiang@huawei.com
+  - gitee_id: newbeats
+    name: Jackie Liu
+    email: liuyun01@kylinos.cn
+  - gitee_id: liuxinux
+    name: LeoLiu-oc
+    email: LeoLiu-oc@zhaoxin.com
+  - gitee_id: woqidaideshi
+    name: Fang Yafen
+    email: yafen@iscas.ac.cn
+  - gitee_id: hanjun-guo
+    name: Hanjun Guo
+    email: guohanjun@huawei.com
+  - gitee_id: wangxiongfeng
+    name: Xiongfeng Wang
+    email: wangxiongfeng2@huawei.com
+  - gitee_id: jentlestea
+    name: Wang ShaoBo
+    email: bobo.shaobowang@huawei.com
+  - gitee_id: whoisxxx
+    name: Zhang Xuzhou
+    email: zhangxuzhou4@huawei.com
+  - gitee_id: ThunderTown
+    name: Zhen Lei
+    email: thunder.leizhen@huawei.com
+  - gitee_id: zhangyi089
+    name: zhangyi (F)
+    email: yi.zhang@huawei.com
+  - gitee_id: koulihong
+    name: Lihong Kou
+    email: koulihong@huawei.com
+  - gitee_id: jiaoff
+    name: Jiao Fenfang
+    email: jiaofenfang@uniontech.com
+  - gitee_id: htforge
+    name: Hou Tao
+    email: houtao1@huawei.com
+  - gitee_id: lengchao
+    name: Chao Leng
+    email: lengchao@huawei.com
+  - gitee_id: colyli
+    name: Coly Li
+    email: colyli@suse.de
+  - gitee_id: yuehaibing
+    name: Yue Haibing
+    email: yuehaibing@huawei.com
+  - gitee_id: zhenpengzheng
+    name: zhenpengzheng
+    email: zhenpengzheng@net-swift.com
+  - gitee_id: chiqijun
+    name: Chiqijun
+    email: chiqijun@huawei.com
+  - gitee_id: chenguangli
+    name: chenguangli
+    email: chenguangli2@huawei.com
+  - gitee_id: zhujianwei001
+    name: Zhu Jianwei
+    email: zhujianwei7@huawei.com
+  - gitee_id: wuxu_buque
+    name: Wu Xu
+    email: wuxu.wu@huawei.com
+  - gitee_id: gasonchen
+    name: Chen Jiesong
+    email: chenjiesong@huawei.com
+  - gitee_id: SuperSix173
+    name: Liu Chao
+    email: liuchao173@huawei.com
+  - gitee_id: juntianlinux
+    name: Jun Tian
+    email: jun.j.tian@intel.com
+  - gitee_id: kailiu42
+    name: Kai Liu
+    email: kai.liu@suse.com
+  - gitee_id: kylin-mayukun
+    name: Ma Yukun
+    email: mayukun@kylinos.cn
+  - gitee_id: guohaocs2c
+    name: Guo Hao
+    email: guohao@kylinos.cn
+  - gitee_id: LiuYongQiang0816
+    name: Liu YongQiang
+    email: liuyongqiang13@huawei.com
+
+- repo:
+  - openeuler/kbuild-standalone
+  committers:
+  - gitee_id: pi3orama
+    name: Wang Nan
+    email: wangnan0@huawei.com
+
+- repo:
+  - openeuler/TCP_option_address
+  committers:
+  - gitee_id: jiaoff
+    name: Jiao Fenfang
+    email: jiaofenfang@uniontech.com
+
+- repo:
+  - openeuler/eulerfs
+  - openeuler/eulerfs-test
+  committers:
+  - gitee_id: hailan94
+    name: Yu Kuai
+    email: yukuai3@huawei.com
