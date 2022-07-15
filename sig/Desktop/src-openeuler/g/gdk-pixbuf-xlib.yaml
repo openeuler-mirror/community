@@ -1,6 +1,7 @@
 name: gdk-pixbuf-xlib
 upstream: https://gitlab.gnome.org/Archive/gdk-pixbuf-xlib
-description: GdkPixbuf-Xlib contains the deprecated API for integrating GdkPixbuf with Xlib data types.
+description: GdkPixbuf-Xlib contains the deprecated API for integrating GdkPixbuf
+  with Xlib data types.
 branches:
 - name: master
   type: protected
@@ -10,4 +11,7 @@ branches:
 - name: openEuler-22.03-LTS
   type: protected
   create_from: openEuler-22.03-LTS-Next
+- name: openEuler-22.09
+  type: protected
+  create_from: master
 type: public

@@ -1,5 +1,6 @@
 name: kiran-authentication-service
-description: Kiran authentication service is used to do system auth with password, fingerprint, face
+description: Kiran authentication service is used to do system auth with password,
+  fingerprint, face
 upstream: https://gitee.com/openeuler/kiran-authentication-service
 branches:
 - name: master
@@ -10,5 +11,7 @@ branches:
 - name: openEuler-22.03-LTS
   type: protected
   create_from: openEuler-22.03-LTS-Next
+- name: openEuler-22.09
+  type: protected
+  create_from: master
 type: public
-

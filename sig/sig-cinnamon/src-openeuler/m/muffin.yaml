@@ -1,7 +1,11 @@
 name: muffin
-description: The window management library for the Cinnamon desktop (libmuffin) and its sample WM binary (muffin)
+description: The window management library for the Cinnamon desktop (libmuffin) and
+  its sample WM binary (muffin)
 upstream: https://github.com/linuxmint/muffin
 branches:
 - name: master
   type: protected
+- name: openEuler-22.09
+  type: protected
+  create_from: master
 type: public

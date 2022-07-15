@@ -10,4 +10,7 @@ branches:
 - name: openEuler-21.03
   type: protected
   create_from: master
+- name: openEuler-22.09
+  type: protected
+  create_from: master
 type: public

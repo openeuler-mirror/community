@@ -1,7 +1,11 @@
 name: pam_wrapper
-description: This component of cwrap allows you to either test your PAM(Linux-PAM and OpenPAM) application or module. 
+description: This component of cwrap allows you to either test your PAM(Linux-PAM
+  and OpenPAM) application or module.
 upstream: http://cwrap.org
-branches: 
+branches:
 - name: master
   type: protected
+- name: openEuler-22.09
+  type: protected
+  create_from: master
 type: public
