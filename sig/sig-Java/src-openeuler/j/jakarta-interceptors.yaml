@@ -1,7 +1,10 @@
 name: jakarta-interceptors
 description: Jakarta Interceptors.
 upstream: https://github.com/eclipse-ee4j/interceptor-api
-branches: 
+branches:
 - name: master
   type: protected
+- name: openEuler-22.09
+  type: protected
+  create_from: master
 type: public

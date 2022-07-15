@@ -1,5 +1,5 @@
 name: geronimo-validation
-description: 'Geronimo implementation of JSR 303'
+description: Geronimo implementation of JSR 303
 upstream: http://geronimo.apache.org/
 branches:
 - name: master
@@ -28,4 +28,7 @@ branches:
 - name: openEuler-22.03-LTS
   type: protected
   create_from: openEuler-22.03-LTS-Next
+- name: openEuler-22.09
+  type: protected
+  create_from: master
 type: public

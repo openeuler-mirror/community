@@ -4,4 +4,7 @@ description: Backend implementation for xdg-desktop-portal using GNOME
 branches:
 - name: master
   type: protected
+- name: openEuler-22.09
+  type: protected
+  create_from: master
 type: public

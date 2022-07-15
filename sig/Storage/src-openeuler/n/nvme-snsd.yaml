@@ -1,6 +1,7 @@
 name: nvme-snsd
 rename_from: redf
-description: Simplify service deployment and configuration while reducing the impact of link failures on nvmeof services.
+description: Simplify service deployment and configuration while reducing the impact
+  of link failures on nvmeof services.
 upstream: https://gitee.com/openeuler/nvme-snsd/
 branches:
 - name: master
@@ -14,4 +15,7 @@ branches:
 - name: openEuler-22.03-LTS
   type: protected
   create_from: openEuler-22.03-LTS-Next
+- name: openEuler-22.09
+  type: protected
+  create_from: master
 type: public

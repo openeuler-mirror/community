@@ -1,7 +1,10 @@
 name: cmark
-upstream:  https://github.com/commonmark/cmark
+upstream: https://github.com/commonmark/cmark
 description: CommonMark parsing and rendering.
 branches:
 - name: master
   type: protected
+- name: openEuler-22.09
+  type: protected
+  create_from: master
 type: public

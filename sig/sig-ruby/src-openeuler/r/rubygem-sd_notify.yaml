@@ -1,7 +1,11 @@
 name: rubygem-sd_notify
-description: sd_notify can be used to notify systemd about various service status changes of Ruby programs
+description: sd_notify can be used to notify systemd about various service status
+  changes of Ruby programs
 upstream: https://github.com/agis/ruby-sdnotify/
 branches:
 - name: master
   type: protected
+- name: openEuler-22.09
+  type: protected
+  create_from: master
 type: public

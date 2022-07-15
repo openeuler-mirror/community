@@ -1,10 +1,14 @@
 name: ukui-notebook
-description: A component of the ukui desktop environment that provides convenient text recording and flexible interface display
+description: A component of the ukui desktop environment that provides convenient
+  text recording and flexible interface display
 upstream: https://github.com/ukui/ukui-notebook
 branches:
 - name: master
   type: protected
 - name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-22.09
   type: protected
   create_from: master
 type: public

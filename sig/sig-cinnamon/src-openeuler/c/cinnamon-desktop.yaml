@@ -1,8 +1,11 @@
 name: cinnamon-desktop
-description: The cinnamon-desktop library (and common settings schemas for the cinnamon desktop)
+description: The cinnamon-desktop library (and common settings schemas for the cinnamon
+  desktop)
 upstream: https://github.com/linuxmint/cinnamon-desktop
 branches:
 - name: master
   type: protected
+- name: openEuler-22.09
+  type: protected
+  create_from: master
 type: public
-

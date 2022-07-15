@@ -1,7 +1,11 @@
 name: python-smartypants
 upstream: https://github.com/leohemsted/smartypants.py
-description: plug-in that easily translates ASCII punctuation characters into smart entities.
+description: plug-in that easily translates ASCII punctuation characters into smart
+  entities.
 branches:
 - name: master
   type: protected
+- name: openEuler-22.09
+  type: protected
+  create_from: master
 type: public

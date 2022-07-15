@@ -1,5 +1,5 @@
 name: jsch-agent-proxy
-description: 'A Proxy to ssh-agent and Pageant in Java'
+description: A Proxy to ssh-agent and Pageant in Java
 upstream: http://www.jcraft.com/jsch-agent-proxy/
 branches:
 - name: master
@@ -28,4 +28,7 @@ branches:
 - name: openEuler-22.03-LTS
   type: protected
   create_from: openEuler-22.03-LTS-Next
+- name: openEuler-22.09
+  type: protected
+  create_from: master
 type: public
