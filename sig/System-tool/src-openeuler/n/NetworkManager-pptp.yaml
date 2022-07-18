@@ -4,4 +4,7 @@ upstream: https://gitlab.gnome.org/GNOME/NetworkManager-pptp
 branches:
   - name: master
     type: protected
+  - name: openEuler-22.09
+    type: protected
+    create_from: master
 type: public
