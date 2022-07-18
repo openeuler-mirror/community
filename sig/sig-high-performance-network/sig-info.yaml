@@ -28,7 +28,6 @@ maintainers:
   email: liyangyang20@huawei.com
 repositories:
 - repo:
-  - src-openeuler/dpdk
   - src-openeuler/rdma-core
   - src-openeuler/libbpf
   - src-openeuler/goebpf
@@ -42,14 +41,21 @@ repositories:
   - src-openeuler/libtins
   - src-openeuler/go-bindata
   - src-openeuler/seastar
-  - src-openeuler/gazelle
   - src-openeuler/oncn-bwm
   - openeuler/dpdk
-  - openeuler/gazelle
   - openeuler/tarsier
   - openeuler/oncn-bwm
   - src-openeuler/dwarves
   - src-openeuler/pyang-swagger
   - src-openeuler/pyang
   - src-openeuler/tarsier
+- repo:
+  - src-openeuler/dpdk
   - src-openeuler/lwip
+  - src-openeuler/gazelle
+  - openeuler/gazelle
+  committers:
+  - gitee_id: jiangheng12
+    name: jiangheng
+    organization: huawei
+    email: jiangheng14@huawei.com
