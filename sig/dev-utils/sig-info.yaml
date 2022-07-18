@@ -1,0 +1,365 @@
+name: dev-utils
+description: The dev-utils team is responsible for maintain the SDK and libraries which help developers for OpenEuler.
+created_on: '2020-06-07'
+mailing_list: dev@openeuler.org
+meeting_url: NA
+mature_level: startup
+maintainers:
+- gitee_id: myeuler
+  name: wei Xiong
+  organization: Huawei
+  email: myeuler@163.com
+- gitee_id: love_hangzhou
+  name: shiyuan Hu
+  organization: Huawei
+  email: 421699196@qq.com
+- gitee_id: forrest_ly
+  name: forrest_ly
+  organization: anolis
+  email: flin@linux.alibaba.com
+- gitee_id: licihua
+  name: cihua Li
+  organization: Huawei
+  email: licihua@huawei.com
+- gitee_id: ethan848
+  name: fangsen Ming
+  organization: Huawei
+  email: mingfangsen@huawei.com
+- gitee_id: fcwicky
+  name: wei Wei
+  organization: Huawei
+  email: wick.wei@huawei.com
+- gitee_id: overweight
+  name: xiaowen He
+  organization: Huawei
+  email: hexiaowen@huawei.com
+- gitee_id: yanan-rock
+  name: an Yan
+  organization: Huawei
+  email: yanan@huawei.com
+- gitee_id: jingxiaolu
+  name: jingxiao Lu
+  organization: Huawei
+  email: lujingxiao@huawei.com
+repositories:
+- repo:
+  - src-openeuler/htop
+  committers:
+  - gitee_id: xiezhipeng1
+    name: zhipeng Xie
+    organization: Huawei
+    email: xiezhipeng1@huawei.com
+- repo:
+  - src-openeuler/csmith
+  - src-openeuler/stress-ng
+  committers:
+  - gitee_id: overweight
+    name: xiaowen He
+    organization: Huawei
+    email: hexiaowen@huawei.com
+- repo:
+  - src-openeuler/git-lfs
+  committers:
+  - gitee_id: softkiller
+    name: kang Zhou
+    organization: Huawei
+    email: zhoukang7@huawei.com
+- repo:
+  - src-openeuler/libwpe
+  - src-openeuler/wpebackend-fdo
+  committers:
+  - gitee_id: bitcoffee
+    name: xin Liu
+    organization: Huawei
+    email: liuxin350@huawei.com
+
+- repo:
+  - src-openeuler/bridge-method-injector
+  - src-openeuler/nodejsporter
+  - src-openeuler/grizzly
+  - src-openeuler/rubyporter
+  - src-openeuler/colm
+  - src-openeuler/p7zip
+  - src-openeuler/memwatch
+  - src-openeuler/minlog
+  - src-openeuler/minimap2
+  - src-openeuler/memtester
+  - src-openeuler/mocha
+  - src-openeuler/morphia
+  - src-openeuler/maven-osgi
+  - src-openeuler/memleax
+  - src-openeuler/mock
+  - src-openeuler/miniasm
+  - src-openeuler/multitail
+  - src-openeuler/mdb
+  - src-openeuler/mysql-connector-java
+  - src-openeuler/tig
+  - src-openeuler/tofrodos
+  - src-openeuler/teckit
+  - src-openeuler/the_silver_searcher
+  - src-openeuler/tito
+  - src-openeuler/ocaml-gettext
+  - src-openeuler/openpgm
+  - src-openeuler/opa-psm2
+  - src-openeuler/ogdi
+  - src-openeuler/ongres-scram
+  - src-openeuler/ocaml-libvirt
+  - src-openeuler/ocaml-extlib
+  - src-openeuler/ocaml-calendar
+  - src-openeuler/opencryptoki
+  - src-openeuler/ocaml-curses
+  - src-openeuler/ocaml-findlib
+  - src-openeuler/ocaml-cppo
+  - src-openeuler/ocaml-camomile
+  - src-openeuler/openEuler-pkginfo
+  - src-openeuler/options
+  - src-openeuler/ocaml-csv
+  - src-openeuler/ocaml-camlp4
+  - src-openeuler/ocaml-xml-light
+  - src-openeuler/ocaml-fileutils
+  - src-openeuler/jetty-parent
+  - src-openeuler/jettison
+  - src-openeuler/jffi
+  - src-openeuler/jakarta-oro
+  - src-openeuler/js-excanvas
+  - src-openeuler/jnr-constants
+  - src-openeuler/jboss-connector-1.6-api
+  - src-openeuler/jopt-simple
+  - src-openeuler/joni
+  - src-openeuler/jnr-ffi
+  - src-openeuler/jnr-posix
+  - src-openeuler/jboss-servlet-3.1-api
+  - src-openeuler/junit5
+  - src-openeuler/jnr-netdb
+  - src-openeuler/jboss-websocket-1.0-api
+  - src-openeuler/json-lib
+  - src-openeuler/jexcelapi
+  - src-openeuler/jboss-jsf-2.1-api
+  - src-openeuler/jboss-jaxrs-2.0-api
+  - src-openeuler/jnr-unixsocket
+  - src-openeuler/jboss-annotations-1.2-api
+  - src-openeuler/joda-convert
+  - src-openeuler/jboss-jstl-1.2-api
+  - src-openeuler/jBCrypt
+  - src-openeuler/jboss-jsp-2.3-api
+  - src-openeuler/jetbrains-annotations
+  - src-openeuler/jboss-stdio
+  - src-openeuler/javaparser
+  - src-openeuler/junit
+  - src-openeuler/jnr-enxio
+  - src-openeuler/java_cup
+  - src-openeuler/brpc
+  - src-openeuler/base64coder
+  - src-openeuler/bash-argsparse
+  - src-openeuler/bcc
+  - src-openeuler/bam
+  - src-openeuler/bea-stax
+  - src-openeuler/bcrypt
+  - src-openeuler/bpftrace
+  - src-openeuler/bsf
+  - src-openeuler/buildroot
+  - src-openeuler/bouncycastle
+  - src-openeuler/beust-jcommander
+  - src-openeuler/bcel
+  - src-openeuler/httpcomponents-project
+  - src-openeuler/hping
+  - src-openeuler/hello
+  - src-openeuler/hamcrest
+  - src-openeuler/http_load
+  - src-openeuler/hawtdispatch
+  - src-openeuler/hardinfo
+  - src-openeuler/ykpers
+  - src-openeuler/ncdu
+  - src-openeuler/nng
+  - src-openeuler/netcdf
+  - src-openeuler/neXtaw
+  - src-openeuler/nethogs
+  - src-openeuler/netperf
+  - src-openeuler/nmon
+  - src-openeuler/fping
+  - src-openeuler/flatbuffers
+  - src-openeuler/freexl
+  - src-openeuler/freeimage
+  - src-openeuler/figlet
+  - src-openeuler/fmt
+  - src-openeuler/fcgi
+  - src-openeuler/f2fs-tools
+  - src-openeuler/freemarker
+  - src-openeuler/utf8cpp
+  - src-openeuler/uriparser
+  - src-openeuler/uom-se
+  - src-openeuler/unixbench
+  - src-openeuler/emma
+  - src-openeuler/enca
+  - src-openeuler/ecj
+  - src-openeuler/xom
+  - src-openeuler/xmlgraphics-commons
+  - src-openeuler/glassfish-dtd-parser
+  - src-openeuler/geos
+  - src-openeuler/game-music-emu
+  - src-openeuler/geronimo-jcache
+  - src-openeuler/geronimo-ejb
+  - src-openeuler/gtkspellmm30
+  - src-openeuler/glassfish-jaxb
+  - src-openeuler/google-gson
+  - src-openeuler/git-review
+  - src-openeuler/git-cola
+  - src-openeuler/git-tools
+  - src-openeuler/gtkmm24
+  - src-openeuler/guava
+  - src-openeuler/gmetrics
+  - src-openeuler/geronimo-jpa
+  - src-openeuler/geronimo-osgi-support
+  - src-openeuler/gtkspell3
+  - src-openeuler/gssntlmssp
+  - src-openeuler/git-secret
+  - src-openeuler/glassfish-jsp
+  - src-openeuler/geronimo-jcdi-1.0-api
+  - src-openeuler/GAPP
+  - src-openeuler/relaxngDatatype
+  - src-openeuler/ragel
+  - src-openeuler/reflectasm
+  - src-openeuler/R-knitr
+  - src-openeuler/ranger
+  - src-openeuler/relaxngcc
+  - src-openeuler/ck
+  - src-openeuler/cpuid
+  - src-openeuler/catch1
+  - src-openeuler/cli11
+  - src-openeuler/cal10n
+  - src-openeuler/caffeine
+  - src-openeuler/colordiff
+  - src-openeuler/chromaprint
+  - src-openeuler/concurrent-trees
+  - src-openeuler/curator
+  - src-openeuler/courier-unicode
+  - src-openeuler/coro-mock
+  - src-openeuler/czmq
+  - src-openeuler/c-blosc
+  - src-openeuler/cpp-httplib
+  - src-openeuler/cloc
+  - src-openeuler/cryptacular
+  - src-openeuler/cfitsio
+  - src-openeuler/cglib
+  - src-openeuler/pyporter
+  - src-openeuler/perlporter
+  - src-openeuler/portlet-2.0-api
+  - src-openeuler/physfs
+  - src-openeuler/pkgporter
+  - src-openeuler/portals-pom
+  - src-openeuler/pyusb
+  - src-openeuler/psm
+  - src-openeuler/p7zip
+  - src-openeuler/parfait
+  - src-openeuler/portaudio
+  - src-openeuler/PEGTL
+  - src-openeuler/kmodtool
+  - src-openeuler/apache-sshd
+  - src-openeuler/apache-commons-collections4
+  - src-openeuler/asymptote
+  - src-openeuler/apache-commons-math
+  - src-openeuler/adb-enhanced
+  - src-openeuler/auto
+  - src-openeuler/aries-util
+  - src-openeuler/aries-quiesce-api
+  - src-openeuler/aries-blueprint-api
+  - src-openeuler/apache-commons-pool2
+  - src-openeuler/asio
+  - src-openeuler/apache-log4j-extras
+  - src-openeuler/appstream
+  - src-openeuler/ansible-2.9
+  - src-openeuler/apache-commons-jexl
+  - src-openeuler/apache-commons-fileupload
+  - src-openeuler/automoc
+  - src-openeuler/antlr
+  - src-openeuler/apiviz
+  - src-openeuler/apache-poi
+  - src-openeuler/atop
+  - src-openeuler/armadillo
+  - src-openeuler/ansible
+  - src-openeuler/zeromq
+  - src-openeuler/delve
+  - src-openeuler/dbus-cpp
+  - src-openeuler/dbusmenu-qt
+  - src-openeuler/dleyna-core
+  - src-openeuler/dleyna-connector-dbus
+  - src-openeuler/sqlite-jdbc
+  - src-openeuler/stax-ex
+  - src-openeuler/sysbench
+  - src-openeuler/SuperLU
+  - src-openeuler/saxon
+  - src-openeuler/s-tui
+  - src-openeuler/slurm
+  - src-openeuler/SDL_sound
+  - src-openeuler/sysget
+  - src-openeuler/simde
+  - src-openeuler/systemd-bootchart
+  - src-openeuler/stringtemplate
+  - src-openeuler/iozone
+  - src-openeuler/inih
+  - src-openeuler/isa-l
+  - src-openeuler/ipwatchd
+  - src-openeuler/iniparser
+  - src-openeuler/iftop
+  - src-openeuler/lldb
+  - src-openeuler/lmbench
+  - src-openeuler/libgta
+  - src-openeuler/libspatialite
+  - src-openeuler/libhandy
+  - src-openeuler/librpcsecgss
+  - src-openeuler/lensfun
+  - src-openeuler/log4cplus
+  - src-openeuler/libmodplug
+  - src-openeuler/libecb
+  - src-openeuler/libwpd
+  - src-openeuler/ladspa
+  - src-openeuler/log4cpp
+  - src-openeuler/libkeepalive
+  - src-openeuler/libyubikey
+  - src-openeuler/librevenge
+  - src-openeuler/ldapjdk
+  - src-openeuler/libwpg
+  - src-openeuler/libgssglue
+  - src-openeuler/libgeotiff
+  - src-openeuler/libuninameslist
+  - src-openeuler/ws-commons-util
+  - src-openeuler/woodstox-core
+  - src-openeuler/webbench
+  - src-openeuler/curvesapi
+  - src-openeuler/jakarta-server-pages
+  - src-openeuler/jakarta-el
+  - src-openeuler/xxhash
+  - src-openeuler/cereal
+  - src-openeuler/ezmorph
+  committers:
+  - gitee_id: caodongxia
+    name: dongxia Cao
+    organization: Huawei
+    email: caodongxia@h-partners.com
+- repo:
+  - src-openeuler/nload
+  committers:
+  - gitee_id: young1c
+    name: yicong Yang
+    organization: Huawei
+    email: yangyicong@huawei.com
+
+- repo:
+  - openeuler/memwatch
+  - openeuler/trucker
+  - openeuler/openEuler-pkginfo
+  - openeuler/openEuler-bootstrap
+  - openeuler/nodejsporter
+  - openeuler/geo-coding
+  - openeuler/rubyporter
+  - openeuler/pyporter
+  - openeuler/perlporter
+  - openeuler/pkgporter
+  - openeuler/process1
+  - openeuler/abichecker
+  - openeuler/auto_py2to3
+
+- repo:
+  - src-openeuler/glm
+  - src-openeuler/neofetch
+  - src-openeuler/stream
