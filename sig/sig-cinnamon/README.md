@@ -65,3 +65,10 @@ repository地址：
 - https://gitee.com/src-openeuler/mint-y-icons
 - https://gitee.com/src-openeuler/mintlocale
 - https://gitee.com/src-openeuler/python-plum-py
+- https://gitee.com/src-openeuler/caribou
+- https://gitee.com/src-openeuler/cinnamon-mozjs78
+- https://gitee.com/src-openeuler/python-pam
+- https://gitee.com/src-openeuler/python-tinycss2
+- https://gitee.com/src-openeuler/python-xapp
+- https://gitee.com/src-openeuler/tint2
+
