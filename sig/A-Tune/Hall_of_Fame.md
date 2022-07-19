@@ -10,3 +10,15 @@ email: liqiang64@huawei.com
 gitee_id: xtongji
 name: jixiaotong
 email: jixiaotong1@huawei.com
+gitee_id: hanxinke
+name: hanxinke
+orgnization: Huawei
+email: hanxinke@huawei.com
+gitee_id: chenmingmin
+name: MarsChan
+orgnization: Huawei
+email: chenmingmin@huawei.com
+gitee_id: shanshishi
+name: shanshishi
+orgnization: Huawei
+email: shanshishi@huawei.com
