@@ -46,7 +46,7 @@ Please [readme](./Vision-en.md)
 
 ### Committer列表
 
-- name[@giteeID](giteeID链接)
+- 蒋 恒[@jiangheng12](https://gitee.com/jiangheng12) email: jiangheng14@huawei.com
 
 
 
