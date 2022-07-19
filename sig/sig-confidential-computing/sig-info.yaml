@@ -24,20 +24,22 @@ maintainers:
   name: Mingyong Hou
   organization: Huawei
   email: houmingyong@huawei.com
-committers:
-- gitee_id: BornThisWay
-  name: Yu Wang
-  email: wangyu283@huawei.com
-- gitee_id: hzero1996
-  name: Cheng Wang
-  email: wangcheng156@huawei.com
+
 repositories:
-- repo: openeuler/secGear
-- repo: openeuler/itrustee_sdk
-- repo: src-openeuler/linux-sgx
-- repo: src-openeuler/linux-sgx-driver
-- repo: src-openeuler/intel-sgx-ssl
-- repo: src-openeuler/ocaml-dune
-- repo: src-openeuler/secGear
-- repo: src-openeuler/itrustee_sdk
-- repo: src-openeuler/intel-device-plugins-for-kubernetes
+- repo: 
+  - openeuler/secGear
+  - openeuler/itrustee_sdk
+  - src-openeuler/linux-sgx
+  - src-openeuler/linux-sgx-driver
+  - src-openeuler/intel-sgx-ssl
+  - src-openeuler/ocaml-dune
+  - src-openeuler/secGear
+  - src-openeuler/itrustee_sdk
+  - src-openeuler/intel-device-plugins-for-kubernetes
+  committers:
+  - gitee_id: BornThisWay
+    name: Yu Wang
+    email: wangyu283@huawei.com
+  - gitee_id: hzero1996
+    name: Cheng Wang
+    email: wangcheng156@huawei.com
