@@ -209,3 +209,6 @@ blacklist-software:
 - name: python-Flask-Script
   reason: upstream stops maintaining this software
   upstream_url: http://github.com/smurfix/flask-script
+- name: python-med
+  reason: unclear module which maybe medical module or med format file lib
+  upstream_url: unclear
