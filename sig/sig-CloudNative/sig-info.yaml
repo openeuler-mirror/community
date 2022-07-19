@@ -38,11 +38,46 @@ maintainers:
 
 repositories:
 - repo:
-  - openeuler/rubik
   - openeuler/NestOS
   - openeuler/nestos-installer
   - openeuler/nestos-assembler
   - openeuler/nestos-config
+  - openeuler/ptcr
+  - src-openeuler/nestos-installer
+  - src-openeuler/zram-generator
+  - src-openeuler/zchunk
+  - src-openeuler/zincati
+  - src-openeuler/toolbox
+  - src-openeuler/stalld
+  - src-openeuler/ssh-key-dir
+  - src-openeuler/slirp4netns
+  - src-openeuler/afterburn
+  - src-openeuler/fuse-overlayfs
+  - src-openeuler/fuse-sshfs
+  - src-openeuler/console-login-helper-messages
+  - src-openeuler/cri-tools
+  - src-openeuler/cri-o
+  - src-openeuler/catatonit
+  - src-openeuler/butane
+  - src-openeuler/buildah
+  - src-openeuler/libslirp
+  - src-openeuler/libvarlink
+  - src-openeuler/ptcr
+  - src-openeuler/WALinuxAgent
+  - src-openeuler/ShellCheck
+  - src-openeuler/awscli
+  - src-openeuler/dumb-init
+  committers:
+  - gitee_id: duyiwei7w
+    name: Yiwei Du
+    orgnization: KylinSoft
+    email: duyiwei@kylinos.cn
+  - gitee_id: fu-shanqing
+    name: Shanqing Fu
+    orgnization: KylinSoft
+    email: fushanqing@kylinos.cn
+- repo:
+  - openeuler/rubik
   - openeuler/operator-manager
   - openeuler/openeuler-docker-images
   - openeuler/cloudnative
@@ -51,56 +86,35 @@ repositories:
   - openeuler/kata_integration
   - openeuler/KubeOS
   - openeuler/KubeHawkeyes
-  - openeuler/ptcr
   - openeuler/WasmEngine
   - src-openeuler/rubik
   - src-openeuler/runc
   - src-openeuler/umoci
   - src-openeuler/iSulad-img
   - src-openeuler/influxdb_exporter
-  - src-openeuler/nestos-installer
   - src-openeuler/node_exporter
   - src-openeuler/gluster_exporter
   - src-openeuler/gvisor
-  - src-openeuler/zram-generator
-  - src-openeuler/zchunk
-  - src-openeuler/zincati
-  - src-openeuler/toolbox
-  - src-openeuler/stalld
   - src-openeuler/skopeo
-  - src-openeuler/ssh-key-dir
-  - src-openeuler/slirp4netns
-  - src-openeuler/ShellCheck
   - src-openeuler/alertmanager
-  - src-openeuler/afterburn
-  - src-openeuler/awscli
-  - src-openeuler/fuse-overlayfs
-  - src-openeuler/fuse-sshfs
   - src-openeuler/haproxy_exporter
   - src-openeuler/harbor
   - src-openeuler/memcached_exporter
   - src-openeuler/jboss-parent
-  - src-openeuler/console-login-helper-messages
-  - src-openeuler/containernetworking-plugins
-  - src-openeuler/cri-tools
   - src-openeuler/crun
-  - src-openeuler/cri-o
   - src-openeuler/containerd
   - src-openeuler/coredns
   - src-openeuler/cadvisor
   - src-openeuler/containers-common
   - src-openeuler/container-selinux
-  - src-openeuler/catatonit
+  - src-openeuler/containernetworking-plugins
   - src-openeuler/docker-compose
-  - src-openeuler/dumb-init
   - src-openeuler/docker
   - src-openeuler/docker-client-java
   - src-openeuler/virt-what
   - src-openeuler/etcd
   - src-openeuler/eggo
   - src-openeuler/blackbox_exporter
-  - src-openeuler/butane
-  - src-openeuler/buildah
   - src-openeuler/busybox
   - src-openeuler/kata_integration
   - src-openeuler/KubeOS
@@ -108,8 +122,6 @@ repositories:
   - src-openeuler/kubernetes
   - src-openeuler/kata-micro-kernel
   - src-openeuler/kata-containers
-  - src-openeuler/libslirp
-  - src-openeuler/libvarlink
   - src-openeuler/libcgroup
   - src-openeuler/libevhtp
   - src-openeuler/libnetwork
@@ -117,8 +129,6 @@ repositories:
   - src-openeuler/pushgateway
   - src-openeuler/prometheus
   - src-openeuler/promu
-  - src-openeuler/ptcr
   - src-openeuler/podman
   - src-openeuler/python-kubernetes
-  - src-openeuler/WALinuxAgent
   - src-openeuler/WasmEngine
