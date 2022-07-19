@@ -31,10 +31,11 @@ maintainers:
   email: gaoruoshu@huawei.com
 
 repositories:
-- repo: openeuler/A-Tune
-- repo: openeuler/A-Tune-UI
-- repo: openeuler/A-Tune-Collector
-- repo: openeuler/prefetch_tuning
+- repo:
+  - openeuler/A-Tune
+  - openeuler/A-Tune-UI
+  - openeuler/A-Tune-Collector
+  - openeuler/prefetch_tuning
 
 - repo:
   - openeuler/native-turbo
@@ -53,29 +54,30 @@ repositories:
     name: Liu Yuntao
     email: liuyuntao10@huawei.com
 
-- repo: src-openeuler/A-Tune
-- repo: src-openeuler/A-Tune-UI
-- repo: src-openeuler/A-Tune-Collector
-- repo: src-openeuler/prefetch_tuning
-- repo: src-openeuler/python-networkx
-- repo: src-openeuler/python-netifaces
-- repo: src-openeuler/python-Keras_Preprocessing
-- repo: src-openeuler/python-hyperopt
-- repo: src-openeuler/python-nni
-- repo: src-openeuler/python-astor
-- repo: src-openeuler/python-json-tricks
-- repo: src-openeuler/python-pythonwebhdfs
-- repo: src-openeuler/python-absl-py
-- repo: src-openeuler/python-google-pasta
-- repo: src-openeuler/python-h5py
-- repo: src-openeuler/python-opt-einsum
-- repo: src-openeuler/python-pkgconfig
-- repo: src-openeuler/python-tensorboard
-- repo: src-openeuler/python-tensorboard-plugin-wit
-- repo: src-openeuler/python-estimator
-- repo: src-openeuler/python-Keras
-- repo: src-openeuler/python-keras-rl2
-- repo: src-openeuler/sysdig
-- repo: src-openeuler/python-openbox
-- repo: src-openeuler/python-ConfigSpace
-- repo: src-openeuler/python-Platypus-Opt
+- repo:
+  - src-openeuler/A-Tune
+  - src-openeuler/A-Tune-UI
+  - src-openeuler/A-Tune-Collector
+  - src-openeuler/prefetch_tuning
+  - src-openeuler/python-networkx
+  - src-openeuler/python-netifaces
+  - src-openeuler/python-Keras_Preprocessing
+  - src-openeuler/python-hyperopt
+  - src-openeuler/python-nni
+  - src-openeuler/python-astor
+  - src-openeuler/python-json-tricks
+  - src-openeuler/python-pythonwebhdfs
+  - src-openeuler/python-absl-py
+  - src-openeuler/python-google-pasta
+  - src-openeuler/python-h5py
+  - src-openeuler/python-opt-einsum
+  - src-openeuler/python-pkgconfig
+  - src-openeuler/python-tensorboard
+  - src-openeuler/python-tensorboard-plugin-wit
+  - src-openeuler/python-estimator
+  - src-openeuler/python-Keras
+  - src-openeuler/python-keras-rl2
+  - src-openeuler/sysdig
+  - src-openeuler/python-openbox
+  - src-openeuler/python-ConfigSpace
+  - src-openeuler/python-Platypus-Opt
