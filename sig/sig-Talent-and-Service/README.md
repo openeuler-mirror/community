@@ -1,6 +1,6 @@
-# openEuler服务与标准化小组（SIG）
+# openEuler人才与服务小组（SIG）
 
-sig名字：sig-Service-Standardization
+sig名字：sig-Talent-and-Service
 
 # 组织会议
 
