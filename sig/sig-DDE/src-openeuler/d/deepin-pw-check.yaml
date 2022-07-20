@@ -1,0 +1,10 @@
+name: deepin-pw-check
+description: Used to check password and manager the configuration for password
+upstream: https://github.com/linuxdeepin/deepin-pw-check
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.09
+  type: protected
+  create_from: master
+type: public
