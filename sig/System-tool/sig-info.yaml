@@ -1,0 +1,129 @@
+name: System-tool
+description: Introduce the open system management tool to the openEuler community to improve OS management efficiency.
+created_on: '2020-03-26'
+mailing_list: dev@openeuler.org
+meeting_url: NA
+mature_level: startup
+maintainers:
+- gitee_id: Charlie_Li
+  name: yongqiang Li
+  organization: xfusion
+  email: liyongqiang@xfusion.com
+- gitee_id: eric14chan
+  name: zhenyu Chen
+  organization: Huawei
+  email: chenzhenyu13@huawei.com
+- gitee_id: ruebb
+  name: yiru Wang
+  organization: Huawei
+  email: wangyiru1@huawei.com
+- gitee_id: zhuchunyi
+  name: chunyi Zhu
+  organization: Huawei
+  email: zhuchunyi@huawei.com
+repositories:
+- repo:
+  - src-openeuler/freeipmi
+  - src-openeuler/fakechroot
+  - src-openeuler/fprintd
+  - src-openeuler/fontawesome-fonts
+  - src-openeuler/fwupd
+  - src-openeuler/fswatch
+  - src-openeuler/fcoe-utils
+  - src-openeuler/freeradius
+  - src-openeuler/bpytop
+  - src-openeuler/bacula
+  - src-openeuler/b43-tools
+  - src-openeuler/bolt
+  - src-openeuler/varnish
+  - src-openeuler/v4l-utils
+  - src-openeuler/watchdog
+  - src-openeuler/wsmancli
+  - src-openeuler/sblim-sfcb
+  - src-openeuler/supermin
+  - src-openeuler/sil-abyssinica-fonts
+  - src-openeuler/sil-scheherazade-fonts
+  - src-openeuler/sblim-sfcc
+  - src-openeuler/sane-backends
+  - src-openeuler/smc-fonts
+  - src-openeuler/speech-dispatcher
+  - src-openeuler/sanlock
+  - src-openeuler/system-config-printer
+  - src-openeuler/rfkill
+  - src-openeuler/rocksdb
+  - src-openeuler/argyllcms
+  - src-openeuler/tog-pegasus
+  - src-openeuler/tang
+  - src-openeuler/mod_fcgid
+  - src-openeuler/microcode_ctl
+  - src-openeuler/mstflint
+  - src-openeuler/mksh
+  - src-openeuler/mod_security
+  - src-openeuler/minicom
+  - src-openeuler/m17n-lib
+  - src-openeuler/m17n-db
+  - src-openeuler/mod_auth_gssapi
+  - src-openeuler/mtx
+  - src-openeuler/unicode-ucd
+  - src-openeuler/usb_modeswitch
+  - src-openeuler/haproxy
+  - src-openeuler/hivex
+  - src-openeuler/hplip
+  - src-openeuler/pps-tools
+  - src-openeuler/partclone
+  - src-openeuler/pinfo
+  - src-openeuler/portreserve
+  - src-openeuler/dejavu-fonts
+  - src-openeuler/initial-setup
+  - src-openeuler/julietaula-montserrat-fonts
+  - src-openeuler/gutenprint
+  - src-openeuler/gfs2-utils
+  - src-openeuler/khmeros-fonts
+  - src-openeuler/kde-filesystem
+  - src-openeuler/libhangul
+  - src-openeuler/libsmbios
+  - src-openeuler/libreswan
+  - src-openeuler/libotf
+  - src-openeuler/liblognorm
+  - src-openeuler/libraw1394
+  - src-openeuler/libguestfs
+  - src-openeuler/leveldb
+  - src-openeuler/logwatch
+  - src-openeuler/lklug-fonts
+  - src-openeuler/entr
+  - src-openeuler/custodia
+  - src-openeuler/colord-gtk
+  - src-openeuler/cgdcbxd
+  - src-openeuler/cim-schema
+  - src-openeuler/yapet
+  - src-openeuler/nrpe
+  - src-openeuler/nagios
+  - src-openeuler/netlabel_tools
+  - src-openeuler/nvmetcli
+  - src-openeuler/NetworkManager-libreswan
+  - src-openeuler/openwsman
+  - src-openeuler/openhpi
+  - src-openeuler/open-sans-fonts
+  - src-openeuler/overpass-fonts
+  - src-openeuler/liberation-fonts
+  - src-openeuler/autofs
+  - src-openeuler/libgphoto2
+  committers:
+  - gitee_id: gitee-cmd
+    name: mingdao Che
+    organization: Huawei
+    email: chemingdao@huawei.com
+- repo:
+  - src-openeuler/nvme-cli
+  committers:
+  - gitee_id: liuzhiqiang26 
+    name: zhiqiang Liu
+    organization: Huawei
+    email: liuzhiqiang26@huawei.com
+- repo:
+  - src-openeuler/cups-filters
+  committers:
+  - gitee_id: compile_success
+    name: Junhao Zhu
+    organization: Huawei
+    email: 980965867@qq.com
