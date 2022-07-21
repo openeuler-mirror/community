@@ -52,5 +52,7 @@
 
   - [Intel-glibc](https://gitee.com/openeuler/Intel-glibc): Intel arch支持相关的glibc代码开发仓库。会以合适的节奏将代码推送到openEuler gcc主仓库。
 
+  - [Intel-qemu](https://gitee.com/openeuler/intel-qemu): Intel arch支持相关的Qemu代码开发仓库。会以合适的节奏将代码推送到openEuler Qemu主仓库。
+
 - 文档
   - [Intel-Arch-doc](https://gitee.com/openeuler/Intel-Arch-doc): 关于openEuler的Intel arch支持相关的文档，如现状、规划、目标等等。
