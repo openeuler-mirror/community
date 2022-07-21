@@ -14,7 +14,6 @@ maintainers:
 repositories:
 - repo:
   - src-openeuler/ruby-augeas
-  - src-openeuler/ruby-common
   - src-openeuler/rubygem-abrt
   - src-openeuler/rubygem-activemodel-serializers-xml
   - src-openeuler/rubygem-activerecord-nulldb-adapter
@@ -69,7 +68,6 @@ repositories:
   - src-openeuler/rubygem-font-awesome-sass
   - src-openeuler/rubygem-formatador
   - src-openeuler/rubygem-friendly_id
-  - src-openeuler/rubygem-gem2rpm
   - src-openeuler/rubygem-get_process_mem
   - src-openeuler/rubygem-gettext_i18n_rails_js
   - src-openeuler/rubygem-globalid
@@ -186,7 +184,6 @@ repositories:
   - src-openeuler/rubygem-xpath
   - src-openeuler/rubygem-yajl-ruby
   - src-openeuler/rubygem-yard
-  - src-openeuler/ruby
   - src-openeuler/jruby
   committers:
   - gitee_id: ruebb
@@ -202,6 +199,27 @@ repositories:
     name: yanan Li
     organization: Huawei
     email: liyanan32@h-partners.com
+- repo:
+  - src-openeuler/ruby-common
+  committers:
+  - gitee_id: louhongxiang
+    name: hongxiang Lou
+    organization: Huawei
+    email: louhongxiang@huawei.com
+- repo:
+  - src-openeuler/ruby
+  committers:
+  - gitee_id: openeuler-basic
+    name: yangyang Shen
+    organization: Huawei
+    email: shenyangyang4@huawei.com
+- repo:
+  - src-openeuler/rubygem-gem2rpm
+  committers:
+  - gitee_id: algorithmofdish
+    name: xujun He
+    organization: Huawei
+    email: hexiujun1@huawei.com
 - repo:
   - src-openeuler/rubygem-actioncable
   - src-openeuler/rubygem-actionmailer
