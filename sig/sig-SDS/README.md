@@ -28,17 +28,14 @@
 
 - sunligang[@nick-slg-kylin](https://gitee.com/nick-slg-kylin)
 - Zhiwei-Dai[@Zhiwei-Dai](https://gitee.com/Zhiwei-Dai)
-- wangxiaomeng[@tjwangxm](https://gitee.com/tjwangxm)
-- mayilin[@kymayl](https://gitee.com/kymayl)
-- chenjian[@yahoohey](https://gitee.com/yahoohey)
 
 
 ### 模块责任人
 
-- MON:     mayilin,chenjian
+- MON:
 - OSD:     luorixin
 - RGW:     daizhiwei
-- MDS:     sunligang,wangxiaomeng
+- MDS:     sunligang
 - RADOS:   chixinze
 - RBD:     daizhiwei
 
