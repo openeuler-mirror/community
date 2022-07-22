@@ -1,0 +1,10 @@
+name: mimetic
+description: 'A full featured C++ MIME library'
+upstream: http://www.codesink.org/mimetic_mime_library.html
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.09
+  type: protected
+  create_from: master
+type: public
