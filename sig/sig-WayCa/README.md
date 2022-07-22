@@ -49,3 +49,9 @@ repository地址：
 | ---------------------- | ------------ | ------------------------------------------------ |
 | master                 | 上游分支同步 | https://github.com/gormanm/mmtests master同步    |
 | kp-dev                 | 鲲鹏开发分支 | 增加鲲鹏特定的benchmark配置文件、case            |
+
+## 项目名称：KPL-gmssl
+
+repository地址：
+
+- https://gitee.com/openeuler/KPL-gmssl
