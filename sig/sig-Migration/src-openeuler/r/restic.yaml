@@ -1,0 +1,10 @@
+name: restic
+description: restic - Fast, secure, efficient backup program
+upstream: https://github.com/restic/restic
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.09
+  type: protected
+  create_from: master
+type: public
