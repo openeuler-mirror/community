@@ -1,0 +1,10 @@
+name: htmlcxx
+description: 'A simple non-validating CSS1 and HTML parser for C++'
+upstream: http://htmlcxx.sourceforge.net/
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: lucenepp
+description: 'A high-performance, full-featured text search engine written in C++'
+upstream: https://github.com/luceneplusplus/LucenePlusPlus
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.09
+  type: protected
+  create_from: master
+type: public
