@@ -1,0 +1,19 @@
+name: k3s-selinux
+description: SELinux policy module for k3s
+upstream: https://github.com/k3s-io/k3s-selinux
+branches:
+- name: master
+  type: protected
+- name: openEuler-21.09
+  type: protected
+  create_from: master
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: openEuler-21.09
+- name: openEuler-22.03-LTS
+  type: protected
+  create_from: openEuler-22.03-LTS-Next
+- name: openEuler-22.09
+  type: protected
+  create_from: master
+type: public
