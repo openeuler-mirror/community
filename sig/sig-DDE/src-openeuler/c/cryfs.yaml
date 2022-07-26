@@ -1,0 +1,10 @@
+name: cryfs
+description: Cryptographic filesystem for the cloud
+upstream: https://github.com/cryfs/cryfs
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.09
+  type: protected
+  create_from: master
+type: public
