@@ -19,6 +19,8 @@ import yaml
 SIG_INFO_FIELDS = ['name', 'description', 'mailing_list', 'meeting_url', 'mature_level', 'mentors', 'maintainers',
                    'repositories', 'created_on']
 SIG_INFO_REQUIRED_FIELDS = ['name', 'maintainers']
+SIG_INFO_SECONDARY_FIELDS = ['repo', 'committers', 'contributors', 'repo_admin']
+MEMBER_FIELDS = ['gitee_id', 'name', 'email', 'organization']
 
 
 def load_yaml(file_path):
@@ -87,6 +89,41 @@ def check_fields(sig_info):
         if sig_info_field not in fields:
             print('ERROR! Current sig-info has no field {} yet'.format(sig_info_field))
             fields_errors += 1
+    repositories = sig_info.get('repositories')
+    if not repositories:
+        return fields_errors
+    for repos in repositories:
+        repos_keys_list = list(repos.keys())
+        for repos_key in repos_keys_list:
+            if repos_key not in SIG_INFO_SECONDARY_FIELDS:
+                print('ERROR! The secondary field "{}" is invalid. It must be "repo", "committers",'
+                      '"contributors" or "repo_admin".'.format(repos_key))
+                fields_errors += 1
+                continue
+            if not isinstance(repos.get(repos_key), list):
+                print('ERROR! The key of secondary field "{}" must be type of list.'.format(repos_key))
+                fields_errors += 1
+                continue
+            if repos_key == 'repo':
+                for item in repos.get(repos_key):
+                    if not isinstance(item, str):
+                        print('ERROR! The type of every repo should be string.')
+                        fields_errors += 1
+                        continue
+                    if not (item.startswith('src-openeuler/') or item.startswith('openeuler/')):
+                        print('ERROR! The value of {} should startswith "src-openeuler" or '
+                              '"openeuler".'.format(item))
+                        fields_errors += 1
+            else:
+                for item in repos.get(repos_key):
+                    if not isinstance(item, dict):
+                        print('ERROR! The type of every {} should be dict.'.format(repos_key))
+                        fields_errors += 1
+                        continue
+                    for member_field in item.keys():
+                        if member_field not in MEMBER_FIELDS:
+                            print('ERROR! Invaild third key {}'.format(member_field))
+                            fields_errors += 1
     return fields_errors
 
 
@@ -426,4 +463,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
