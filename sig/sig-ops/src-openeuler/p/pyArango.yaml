@@ -1,0 +1,16 @@
+name: pyArango
+description: An easy to use python driver for ArangoDB with built-in validation
+upstream: https://github.com/ArangoDB-Community/pyArango
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-22.03-LTS
+  type: protected
+  create_from: openEuler-22.03-LTS-Next
+- name: openEuler-22.09
+  type: protected
+  create_from: master
+type: public
