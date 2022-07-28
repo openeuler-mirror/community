@@ -1,0 +1,10 @@
+name: python-libconf
+upstream: https://github.com/ChrisAichinger/python-libconf
+description: libconf is a pure-Python reader/writer for configuration files in libconfig format, which is often used in C/C++ projects.
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.09
+  type: protected
+  create_from: master
+type: public
