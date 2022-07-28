@@ -20,6 +20,7 @@ KDE桌面环境，一种运行于Linux、 FreeBSD、Unix上的自由图形桌面
 - hjimmy[@hjimmy](https://gitee.com/hjimmy)
 - weidongkl[@weidongkl](https://gitee.com/weidongkl)
 - 窦龑[@dou33](https://gitee.com/dou33)
+- 裴建康[@peijiankang](https://gitee.com/peijiankang)
 
 
 ### Committer列表
@@ -28,6 +29,7 @@ KDE桌面环境，一种运行于Linux、 FreeBSD、Unix上的自由图形桌面
 - hjimmy[@hjimmy](https://gitee.com/hjimmy)
 - weidongkl[@weidongkl](https://gitee.com/weidongkl)
 - 窦龑[@dou33](https://gitee.com/dou33)
+- 裴建康[@peijiankang](https://gitee.com/peijiankang)
 
 
 # 联系方式
