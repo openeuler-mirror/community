@@ -1,0 +1,10 @@
+name: NetworkManager-l2tp
+description: NetworkManager VPN plugin for L2TP and L2TP/IPsec
+upstream: https://github.com/nm-l2tp/NetworkManager-l2tp
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.09
+  type: protected
+  create_from: master
+type: public
