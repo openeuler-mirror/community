@@ -1,0 +1,57 @@
+name: sig-Intel-Arch
+description: 'openEuler Intel Arch SIG'
+mailing_list: sig-intel-arch@openeuler.org
+maintainers:
+- gitee_id: juntianlinux
+  name: Jun Tian
+  email: jun.j.tian@intel.com
+- gitee_id: kailiu42
+  name: Kai Liu
+  email: kai.liu@suse.com
+- gitee_id: chenxi-mao
+  name: Chenxi Mao
+  email: chenxi.mao@suse.com
+- gitee_id: junyang-suse
+  name: Jun Yang
+  email: jun.yang@suse.com
+- gitee_id: gjiang
+  name: Guoqing Jiang
+  email: guoqing.jiang@suse.com
+- gitee_id: geliangtang
+  name: Geliang Tang
+  email: geliang.tang@suse.com
+- gitee_id: x56Jason
+  name: Jason Zeng
+  email: jason.zeng@intel.com
+repositories:
+- repo:
+  - openeuler/intel-kernel
+  - openeuler/intel-qemu
+  committers:
+  - gitee_id: jiayingbao
+    name: Yingbao Jia
+    email: yingbao.jia@intel.com
+  - gitee_id: youquan_song
+    name: Youquan Song
+    email: youquan.song@intel.com
+  - gitee_id: zhiquan1-li
+    name: Zhiquan Li
+    email: zhiquan1.li@intel.com
+  - gitee_id: etzhao
+    name: Haifeng Zhao
+    email: haifeng.zhao@linux.intel.com
+  - gitee_id: linwang_68f8
+    name: Lin Wang
+    email: lin.x.wang@intel.com
+  - gitee_id: yunyingsun
+    name: Yunying Sun
+    email: yunying.sun@intel.com
+  - gitee_id: wuzheng_e61f
+    name: Wu Zheng
+    email: wu.zheng@intel.com
+  - gitee_id: bamvor
+    name: Jian Zhang
+    email: bamvor.zhang@suse.com
+  - gitee_id: qwei_8848
+    name: Qiang Wei
+    email: qiang.wei@suse.com
