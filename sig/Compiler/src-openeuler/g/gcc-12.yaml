@@ -1,0 +1,16 @@
+name: gcc-12
+description: gcc multi-version toolset for openEuler
+upstream: https://gcc.gnu.org/git/gcc
+type: public
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-22.03-LTS
+  type: protected
+  create_from: openEuler-22.03-LTS-Next
+- name: openEuler-22.09
+  type: protected
+  create_from: master

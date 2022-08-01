@@ -202,6 +202,9 @@ Tuesday 10 am bi-weekly, UTC+8.
  - [binutils](https://gitee.com/src-openeuler/binutils)
    - Maintainers
      - 谢 志恒[@eastb233](https://gitee.com/eastb233) email: xiezhiheng@huawei.com
+ - [gcc-12](https://gitee.com/src-openeuler/gcc-12)
+   - Maintainers
+     - 谢 志恒[@eastb233](https://gitee.com/eastb233) email: xiezhiheng@huawei.com
 
 ## Contact
  - [maillist](compiler@openeuler.org)
