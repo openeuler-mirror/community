@@ -3,4 +3,7 @@ description: Kubernetes Operating System simplifies OS updating
 branches:
 - name: master
   type: protected
+- name: nestos-support
+  type: protected
+  create_from: master
 type: public
