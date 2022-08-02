@@ -4,4 +4,7 @@ upstream: https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 branches:
 - name: master
   type: protected
+- name: openEuler-22.09
+  type: protected
+  create_from: master
 type: public
