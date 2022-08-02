@@ -4,5 +4,7 @@ upstream: https://github.com/linuxmint/cjs
 branches:
 - name: master
   type: protected
+- name: openEuler-22.09
+  type: protected
+  create_from: master
 type: public
-

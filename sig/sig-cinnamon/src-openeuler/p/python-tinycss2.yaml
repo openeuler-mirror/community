@@ -4,4 +4,7 @@ upstream: https://pypi.python.org/pypi/tinycss2
 branches:
 - name: master
   type: protected
+- name: openEuler-22.09
+  type: protected
+  create_from: master
 type: public
