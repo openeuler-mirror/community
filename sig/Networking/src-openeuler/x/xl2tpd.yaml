@@ -1,0 +1,10 @@
+name: xl2tpd
+description: Layer 2 Tunnelling Protocol Daemon (RFC 2661)
+upstream: https://github.com/xelerance/xl2tpd
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.09
+  type: protected
+  create_from: master
+type: public
