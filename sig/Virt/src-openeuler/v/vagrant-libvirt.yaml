@@ -1,0 +1,10 @@
+name: vagrant-libvirt
+description: libvirt provider for Vagrant
+upstream: https://github.com/vagrant-libvirt/vagrant-libvirt
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.09
+  type: protected
+  create_from: master
+type: public
