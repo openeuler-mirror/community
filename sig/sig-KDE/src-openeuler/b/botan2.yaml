@@ -1,0 +1,7 @@
+name: botan2
+upstream: https://botan.randombit.net/
+description: botan is a C++ cryptography library.
+branches:
+- name: master
+  type: protected
+type: public
