@@ -1,0 +1,13 @@
+name: mecab-jumandic
+description: JUMAN dictorionary for MeCab
+upstream: https://sourceforge.net/projects/mecab
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-22.09
+  type: protected
+  create_from: master
+type: public
