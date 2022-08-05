@@ -1,0 +1,10 @@
+name: vagrant-lxc
+description: vagrant-lxc - Linux Containers provider for Vagrant
+upstream: https://github.com/fgrehm/vagrant-lxc
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.09
+  type: protected
+  create_from: master
+type: public
