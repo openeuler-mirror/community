@@ -1,0 +1,7 @@
+name: yolov5
+description: YOLOv5 rocket is a family of object detection architectures and models pretrained on the COCO dataset.
+upstream: https://github.com/ultralytics/yolov5
+branches:
+- name: master
+  type: protected
+type: public
