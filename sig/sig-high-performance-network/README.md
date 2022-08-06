@@ -52,7 +52,8 @@ Please [readme](./Vision-en.md)
 
 # 联系方式
 
-- 邮件列表 <high-performance-network@openeuler.org> <dev@openeuler.org>
+- 邮件列表 <high-performance-network@openeuler.org> <dev@openeuler.org>  
+  [注册邮件列表](https://mailweb.openeuler.org/postorius/lists/high-performance-network.openeuler.org/) [历史邮件](https://mailweb.openeuler.org/hyperkitty/list/high-performance-network@openeuler.org/)
 - [IRC公开会议]()
 - 视频会议
 - 微信  
