@@ -1,0 +1,7 @@
+name: openstack-helm
+description: Helm charts for deploying OpenStack on Kubernetes
+upstream: https://opendev.org/openstack/openstack-helm
+branches:
+- name: master
+  type: protected
+type: public
