@@ -1,0 +1,13 @@
+name: ukui-clock
+description: contain clock alarm,stopwatch,countdown
+upstream: https://github.com/ukui/ukui-clock
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-22.09
+  type: protected
+  create_from: master
+type: public
