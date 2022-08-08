@@ -39,6 +39,7 @@ https://opendesign.openeuler.org
 - [opendesign-miniprogram](https://gitee.com/openeuler/opendesign-miniprogram)
 - [opendesign-datastat](https://gitee.com/openeuler/opendesign-datastat)
 - [opendesign-internship](https://gitee.com/openeuler/opendesign-internship)
+- [talent-assessment](https://gitee.com/openeuler/talent-assessment)
 
 ## 参考
 - [1] Hugo https://gohugo.io
