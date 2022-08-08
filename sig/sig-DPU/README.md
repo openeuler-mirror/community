@@ -105,6 +105,12 @@ Sig-DPU希望能够集结国内外各DPU或smartNIC厂商参与，为客户提�
 - louhongxiang[@louhongxiang](https://gitee.com/louhongxiang)
 - liusirui[@liusirui](https://gitee.com/liusirui)
 
+# 仓库列表
+
+- [dpu-core](https://gitee.com/openeuler/dpu-core)
+- [dpu-utilities](https://gitee.com/openeuler/dpu-utilities)
+- [dpu-utilities-pkg](https://gitee.com/src-openeuler/dpu-utilities)
+
 # 联系方式
 
 *<如果需要单独申请邮件列表，请再次补充邮箱名称：sig-yoursigname@openeuler.org>*
