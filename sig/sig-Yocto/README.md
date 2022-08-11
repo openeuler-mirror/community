@@ -7,7 +7,7 @@
 
 # 组织会议
 
-- 公开的会议时间: 待定
+- 公开的会议时间: 双周例会，具体见openEuler社区会议看板
 
 
 # 成员
@@ -17,19 +17,22 @@
 
 - 任  慰[@vonhust](https://gitee.com/vonhust)
 - 谢焜勋[@beilingxie](https://gitee.com/beilingxie)
-- 林子畅[@linzichang](https://gitee.com/linzichang)
 - 李思敏[@ilisimin](https://gitee.com/ilisimin)
-- 郑俊凌[@junling_zheng](https://gitee.com/junling_zheng)
+- 方林旭[@fanglinxu](https://gitee.com/fanglinxu)
 
 
 ### Committer列表
 
 - 任  慰[@vonhust](https://gitee.com/vonhust)
 - 谢焜勋[@beilingxie](https://gitee.com/beilingxie)
-- 林子畅[@linzichang](https://gitee.com/linzichang)
 - 李思敏[@ilisimin](https://gitee.com/ilisimin)
-- 郑俊凌[@junling_zheng](https://gitee.com/junling_zheng)
-- 梁芳平[@liangfangping](https://gitee.com/liangfangping)
+- 方林旭[@fanglinxu](https://gitee.com/fanglinxu)
+- 李小勇[@lxy1579](https://gitee.com/lxy1579)
+- 李新宇[@alichinese](https://gitee.com/alichinese)
+- 罗泳伦[@luojects](https://gitee.com/luojects)
+- 刘铭锴[@hmilylmk](https://gitee.com/hmilylmk)
+- 韩宗成[@hzc04](https://gitee.com/hzc04)
+- 张伟刚[@harvey-rtos](https://gitee.com/harvey-rtos)
 
 
 # 联系方式
