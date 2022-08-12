@@ -1,0 +1,70 @@
+name: sig-Yocto
+description: sig-Yocto is working on building openEuler Embedded with Yocto
+mailing_list: NA
+mature_level: startup
+maintainers:
+- gitee_id: vonhust
+  name: Wayne Ren
+  email: 191362693@qq.com
+- gitee_id: beilingxie
+  name: Kunxun Xie
+  email: xiekunxun@huawei.com
+- gitee_id: ilisimin
+  name: Simin Li
+  email: lisimin@huawei.com
+- gitee_id: fanglinxu
+  name: Linxu Fang
+  email: fanglinxu@huawei.com
+repositories:
+- repo:
+  - openeuler/yocto-poky
+  - openeuler/yocto-meta-openeuler
+  admin:
+  - gitee_id: vonhust
+    name: Wayne Ren
+  committers:
+  - gitee_id: lxy1579
+    name: Xiaoyong Li
+    email: lixiaoyong19@huawei.com
+  - gitee_id: harvey-rtos
+    name: Weigang Zhang
+    email: zhangweigang6@huawei.com
+  - gitee_id: luojects
+    name: Yonglun Luo
+    email: luoyonglun@huawei.com
+  - gitee_id: alichinese
+    name: Xinyu Li
+    email: lixinyu44@huawei.com
+  - gitee_id: hmilylmk
+    name: Mingkai Liu
+    email: liumingkai@huawei.com
+  - gitee_id: hzc04
+    name: Zongcheng Han
+    email: hanzongcheng@huawei.com
+- repo:
+  - openeuler/yocto-embedded-tools
+  admin:
+  - gitee_id: vonhust
+    name: Wayne Ren
+  committers:
+  - gitee_id: lxy1579
+    name: Xiaoyong Li
+    email: lixiaoyong19@huawei.com
+  - gitee_id: harvey-rtos
+    name: Weigang Zhang
+    email: zhangweigang6@huawei.com
+  - gitee_id: luojects
+    name: Yonglun Luo
+    email: luoyonglun@huawei.com
+  - gitee_id: alichinese
+    name: Xinyu Li
+    email: lixinyu44@huawei.com
+  - gitee_id: hmilylmk
+    name: Mingkai Liu
+    email: liumingkai@huawei.com
+  - gitee_id: hzc04
+    name: Zongcheng Han
+    email: hanzongcheng@huawei.com
+- repo:
+  - src-openeuler/yocto-pseudo
+  - src-openeuler/yocto-opkg-utils
