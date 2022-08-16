@@ -19,10 +19,11 @@ repositories:
 - repo:
   - openeuler/yocto-poky
   - openeuler/yocto-meta-openeuler
-  admin:
+  repo_admin:
   - gitee_id: vonhust
     name: Wayne Ren
-  committers:
+    email: 191362693@qq.com
+  contributors:
   - gitee_id: lxy1579
     name: Xiaoyong Li
     email: lixiaoyong19@huawei.com
@@ -43,10 +44,11 @@ repositories:
     email: hanzongcheng@huawei.com
 - repo:
   - openeuler/yocto-embedded-tools
-  admin:
+  repo_admin:
   - gitee_id: vonhust
     name: Wayne Ren
-  committers:
+    email: 191362693@qq.com
+  contributors:
   - gitee_id: lxy1579
     name: Xiaoyong Li
     email: lixiaoyong19@huawei.com
