@@ -34,9 +34,17 @@ maintainers:
   email: hanguangyu@uniontech.com
 repositories:
 - repo:
+  - openeuler/openstack
+  repo_admin:
+  - gitee_id: xiyuanwang
+    name: wangxiyuan
+    email: wangxiyuan1007@gmail.com
+  - gitee_id: huangtianhua
+    name: huangtianhua
+    email: huangtianhua223@gmail.com
+- repo:
   - openeuler/hostha
   - openeuler/opensd
-  - openeuler/openstack
   - openeuler/openstack-kolla-ansible-plugin
   - openeuler/openstack-kolla-plugin
   - openeuler/openstack-plugin
