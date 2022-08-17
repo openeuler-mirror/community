@@ -1,0 +1,7 @@
+name: gz-transport
+description: Transport library for component communication based on publication/subscription and service calls.
+upstream: https://github.com/gazebosim/gz-transport
+branches:
+- name: master
+  type: protected
+type: public

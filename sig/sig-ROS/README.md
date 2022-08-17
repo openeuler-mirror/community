@@ -232,6 +232,27 @@ repository地址：
 - https://gitee.com/src-openeuler/tango_icons_vendor
 - https://gitee.com/src-openeuler/urdfdom_headers
 
+项目名称：exten-ROS
+
+repository地址：
+
+- https://gitee.com/src-openeuler/gazebo
+- https://gitee.com/src-openeuler/gts
+- https://gitee.com/src-openeuler/gz-cmake
+- https://gitee.com/src-openeuler/gz-common
+- https://gitee.com/src-openeuler/gz-fuel-tools
+- https://gitee.com/src-openeuler/gz-math
+- https://gitee.com/src-openeuler/gz-msgs
+- https://gitee.com/src-openeuler/gz-tools
+- https://gitee.com/src-openeuler/gz-transport
+- https://gitee.com/src-openeuler/gz-utils
+- https://gitee.com/src-openeuler/ogre
+- https://gitee.com/src-openeuler/qwt
+- https://gitee.com/src-openeuler/sdformat
+- https://gitee.com/src-openeuler/slam_gmapping_ros2
+- https://gitee.com/src-openeuler/yolov5
+- https://gitee.com/src-openeuler/rpg_svo
+
 项目名称：non-ROS
 
 repository地址：

@@ -1,0 +1,7 @@
+name: gz-cmake
+description: A set of CMake modules that are used by the C++-based Gazebo projects.
+upstream: https://github.com/gazebosim/gz-cmake
+branches:
+- name: master
+  type: protected
+type: public
