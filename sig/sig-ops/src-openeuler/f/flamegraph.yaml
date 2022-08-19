@@ -1,0 +1,13 @@
+name: flamegraph
+description: Stack trace visualizer
+upstream: https://github.com/brendangregg/FlameGraph
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
