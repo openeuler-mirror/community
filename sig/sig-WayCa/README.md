@@ -55,3 +55,9 @@ repository地址：
 repository地址：
 
 - https://gitee.com/openeuler/KPL-gmssl
+
+## 项目名称：hikptool
+
+repository地址：
+
+- https://gitee.com/openeuler/hikptool
