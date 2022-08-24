@@ -35,6 +35,16 @@ maintainers:
 repositories:
 - repo:
   - openeuler/bishengjdk-8
+  - openeuler/bishengjdk-11
+  - openeuler/bishengjdk-17
+  - openeuler/bishengjdk-riscv
+  repo_admin:
+  - gitee_id: kuenking111
+    name: kun Wang
+    organization: Huawei
+    email: wangkun49@huawei.com
+- repo:
+  - openeuler/bishengjdk-8
   - openeuler/bishengjdk-17
   - src-openeuler/openjdk-1.8.0
   - src-openeuler/openjdk-11
