@@ -1,0 +1,10 @@
+name: pin-server
+description: Pin (Plug-IN framework) server provides plugin APIs for compiler optimization developers to develop optimization pass.
+upstream: https://gitee.com/openeuler/pin-server
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.09
+  type: protected
+  create_from: master
+type: public
