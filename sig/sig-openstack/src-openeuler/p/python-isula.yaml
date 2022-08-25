@@ -1,0 +1,10 @@
+name: python-isula
+upstream: https://gitee.com/openeuler/pyisula
+description: python sdk library for iSulad and isula-build
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.09
+  type: protected
+  create_from: master
+type: public
