@@ -12,7 +12,7 @@
 
 ### 工作范围
 
- - Yocto核心组件的维护和开发：pokey, pesudo, opkg-utils
+ - Yocto核心组件的维护和开发：poky, pesudo, opkg-utils
 
  - 面向嵌入式领域，基于Yocto的openeuler定制化构建，包括Linux内核和软件包
 
