@@ -1,0 +1,40 @@
+name: sig-WayCa
+description: The WayCa team is responsible for developing and maintaining some tools which run in the enabling-hardware layer of Kunpeng.
+created_on: '2022-08-26'
+mailing_list: dev@openeuler.org
+meeting_url: https://etherpad.openeuler.org/p/sig-WayCa
+mature_level: startup
+maintainers:
+- gitee_id: kongzizaixian
+  name: Fred Kimmy
+  organization: huawei
+  email: xweikong@163.com
+- gitee_id: young1c
+  name: Yicong Yang
+  organization: huawei
+  email: young.yicong@outlook.com
+repositories:
+- repo:
+  - openeuler/KPL-gmssl
+  - openeuler/KPL-zlib
+
+- repo:
+  - openeuler/wayca-scheduler
+  - openeuler/wayca-scheduler-bench
+  committers:
+  - gitee_id: young1c
+    name: Yicong Yang
+    organization: huawei
+    email: young.yicong@outlook.com
+
+- repo:
+  - openeuler/hikptool
+  committers:
+  - gitee_id: veega2022
+    name: zhuweijia
+    organization: huawei
+    email: zhuweijia@huawei.com
+  - gitee_id: chenjunxin1992
+    name: cjx_2021
+    organization: huawei
+    email: cjxzju_2014@qq.com
