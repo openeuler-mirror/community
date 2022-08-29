@@ -59,6 +59,8 @@ repository地址：
 - https://gitee.com/openeuler/ptcr
 - https://gitee.com/openeuler/nestos-installer
 - https://gitee.com/openeuler/WasmEngine
+- https://gitee.com/openeuler/nestos-assembler
+- https://gitee.com/openeuler/nestos-website
 - https://gitee.com/src-openeuler/coredns
 - https://gitee.com/src-openeuler/kubernetes
 - https://gitee.com/src-openeuler/iSulad
