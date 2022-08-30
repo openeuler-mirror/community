@@ -1,0 +1,10 @@
+name: tinyproxy
+description: tinyproxy is a small, efficient HTTP/SSL proxy daemon that is very useful in a small network setting, where a larger proxy like Squid would either be too resource intensive, or a security risk.
+upstream: http://tinyproxy.github.io/
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
