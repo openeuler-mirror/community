@@ -1,0 +1,7 @@
+name: catdoc
+description: catdoc is program which reads one or more Microsoft word files and outputs text, contained insinde them to standard output. Therefore it does same work for .doc files, as unix cat command for plain ASCII files.
+upstream: http://www.wagner.pp.ru/git/oss/catdoc.git
+branches:
+- name: master
+  type: protected
+type: public

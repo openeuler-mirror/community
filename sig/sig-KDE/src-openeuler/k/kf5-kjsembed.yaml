@@ -1,0 +1,7 @@
+name: kf5-kjsembed
+description: KSJEmbed provides a method of binding JavaScript objects to QObjects, so you can script your applications.
+upstream: https://github.com/KDE/kjsembed
+branches:
+- name: master
+  type: protected
+type: public

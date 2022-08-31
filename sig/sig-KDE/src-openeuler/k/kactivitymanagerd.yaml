@@ -1,0 +1,7 @@
+name: kactivitymanagerd
+description: System service to manage user's activities, track the usage patterns etc.
+upstream: https://github.com/KDE/kactivitymanagerd
+branches:
+- name: master
+  type: protected
+type: public

@@ -1,0 +1,7 @@
+name: signon
+description: SignOn Daemon (Qt)
+upstream: https://gitlab.com/accounts-sso/signond
+branches:
+- name: master
+  type: protected
+type: public
