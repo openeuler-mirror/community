@@ -49,7 +49,11 @@ Please [readme](./Vision-en.md)
 
 - 蒋 恒[@jiangheng12](https://gitee.com/jiangheng12) email: jiangheng14@huawei.com
 
-
+### 突出贡献者
+| gitee昵称 | giteeID | 邮箱 | 姓名(可选)|
+|---|---|---|---|
+|yyang|yyangoO|yyangoo@outlook.com|杨洋|
+|honggangli|honggangli22|honggangli@163.com|黎红刚|
 
 # 联系方式
 
