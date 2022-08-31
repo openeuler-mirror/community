@@ -21,14 +21,24 @@ English | [简体中文](./sig-embedded_cn.md)
 - Repository of kernel source openEuler embedded edition：src-openeuler/embedded-kernel
 
 ### Maintainers
-- zjf[@wl1587](https://gitee.com/wl1587/) Email:zhujiafa@huawei.com
-- lxr[@lllxxxrrr](https://gitee.com/lllxxxrrr/) Email: lvxiuren@163.com
+- Vonhust Ren[@vonhust](https://gitee.com/vonhust)
+- Beiling Xie[@beilingxie](https://gitee.com/beilingxie)
+- Zichang Lin[@linzichang](https://gitee.com/linzichang)
+- Jiafa Zhu[@wl1587](https://gitee.com/wl1587)
 
 ### Committers
-- lxr[@lllxxxrrr](https://gitee.com/lllxxxrrr/) Email: lvxiuren@163.com
-- zjf[@wl1587](https://gitee.com/wl1587/) Email:zhujiafa@huawei.com
-- ywl[@yyywwwlll](https://gitee.com/yyywwwlll/)
-- wgx[@gxwuOpen](https://gitee.com/gxwuOpen/) Email: wugaoxiang1@huawei.com
+- Vonhust Ren[@vonhust](https://gitee.com/vonhust)
+- Beiling Xie[@beilingxie](https://gitee.com/beilingxie)
+- Zichang Lin[@linzichang](https://gitee.com/linzichang)
+- Jiafa Zhu[@wl1587](https://gitee.com/wl1587)
+- Linxu Fang[@fanglinxu](https://gitee.com/fanglinxu)
+- Xiaoyong Li[@lxy1579](https://gitee.com/lxy1579)
+- Yonglun Luo[@luojects](https://gitee.com/luojects)
+- Mingkai Liu[@hmilylmk](https://gitee.com/hmilylmk)
+- Zongcheng Han[@hzc04](https://gitee.com/hzc04)
+- WeiGang Zhang[@harvey-rtos](https://gitee.com/harvey-rtos)
+- Liming Li[@soulpoet](https://gitee.com/soulpoet)
+
 
 ### MailList
 
