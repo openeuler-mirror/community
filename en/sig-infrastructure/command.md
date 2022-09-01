@@ -158,6 +158,20 @@ The Commands incluing as follows:
         </tr>
         <tr>
             <td>
+                /review retrigger
+            </td>
+            <td style="white-space:nowrap;">
+                /review retrigger
+            </td>
+            <td>
+                Retrigger generation of a Pull Request review list.
+            </td>
+            <td>
+                Anyone can trigger this command on a Pull Request.
+            </td>
+        </tr>
+        <tr>
+            <td>
                 /assign [[@]...]
             </td>
             <td style="white-space:nowrap;">
