@@ -66,3 +66,13 @@ repositories:
     name: guofeng
     organization: kubesphere
     email: guofeng@yunify.com
+
+- repo:
+  - src-openeuler/k3s
+  - src-openeuler/k3s-selinux
+  - src-openeuler/k3s-containerd
+  committers:
+  - gitee_id: zhu-yuncheng
+    name: zhuyuncheng
+    organization: Huawei 
+    email: zhuyuncheng@huawei.com
