@@ -1,0 +1,25 @@
+name: sig-release-management
+description: The release manager SIG is responsible for coordinating teams for openEuler project
+created_on: '2020-05-28'
+mailing_list: release@openeuler.org
+meeting_url: https://etherpad.openeuler.org/p/sig-release-management-meetings
+mature_level: startup
+maintainers:
+- gitee_id: yaqiangchen
+  name: chenyaqiang
+  organization: Huawei
+  email: chenyaqiang@huawei.com
+- gitee_id: solarhu
+  name: Hufeng
+  organization: Huawei
+  email: solar.hu@huawei.com
+- gitee_id: paul-huang
+  name: Huangchengpiao
+  organization: Huawei
+  email: huangchengpiao@huawei.com
+repositories:
+- repo:
+  - openeuler/release-management
+  - openeuler/openEuler-lsb
+  - src-openeuler/openEuler-lsb
+  - src-openeuler/obs_meta
