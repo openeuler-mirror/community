@@ -1,0 +1,7 @@
+name: gpsd
+description: gpsd is a service daemon that monitors one or more GNSS (GPS) or AIS receivers attached to a host computer through serial or USB ports.
+upstream: https://gitlab.com/gpsd/gpsd
+branches:
+- name: master
+  type: protected
+type: public

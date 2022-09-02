@@ -1,0 +1,7 @@
+name: kf5-modemmanager-qt
+description: Qt wrapper for ModemManager DBus API.
+upstream: https://github.com/KDE/modemmanager-qt
+branches:
+- name: master
+  type: protected
+type: public

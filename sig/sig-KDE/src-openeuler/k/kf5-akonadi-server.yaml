@@ -1,0 +1,7 @@
+name: kf5-akonadi-server
+description: PIM Storage Service.
+upstream: https://invent.kde.org/frameworks/akonadi-server
+branches:
+- name: master
+  type: protected
+type: public
