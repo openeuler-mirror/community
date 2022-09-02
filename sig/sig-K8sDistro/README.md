@@ -17,7 +17,7 @@
 ## 组织会议
   &#160;&#160;&#160;&#160;本SIG当前安排公开会议为月度例会，后续根据SIG工作开展情况逐渐过渡为双周例会。如有紧急议题，可联系Maintainer召开临时会议。
 - 公开会议时间：北京时间，每月第1个工作日 上午，10点~12点
-- 公开会议纪要：https://etherpad.openeuler.org/p/sig-K8sDistro
+- 公开会议纪要：https://etherpad.openeuler.org/p/sig-K8sDistro-meetings
 
 ## 成员
 
