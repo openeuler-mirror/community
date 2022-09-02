@@ -28,14 +28,22 @@
 # 成员
 
 ### Maintainers列表
-- 朱家法[@wl1587](https://gitee.com/wl1587/) Email: zhujiafa@huawei.com
-- 吕修任[@lllxxxrrr](https://gitee.com/lllxxxrrr/) Email: lvxiuren@163.com
+- 任  慰[@vonhust](https://gitee.com/vonhust)
+- 谢焜勋[@beilingxie](https://gitee.com/beilingxie)
+- 林子畅[@linzichang](https://gitee.com/linzichang)
+- 朱家法[@wl1587](https://gitee.com/wl1587)
 
 ### Committers列表
-- 吕修任[@lllxxxrrr](https://gitee.com/lllxxxrrr/) Email: lvxiuren@163.com
-- 朱家法[@wl1587](https://gitee.com/wl1587/) Email:zhujiafa@huawei.com
-- 姚伟利[@yyywwwlll](https://gitee.com/yyywwwlll/)
-- 吴高翔[@gxwuOpen](https://gitee.com/gxwuOpen/) Email: wugaoxiang1@huawei.com
+- 任  慰[@vonhust](https://gitee.com/vonhust)
+- 谢焜勋[@beilingxie](https://gitee.com/beilingxie)
+- 林子畅[@linzichang](https://gitee.com/linzichang)
+- 方林旭[@fanglinxu](https://gitee.com/fanglinxu)
+- 李小勇[@lxy1579](https://gitee.com/lxy1579)
+- 罗泳伦[@luojects](https://gitee.com/luojects)
+- 刘铭锴[@hmilylmk](https://gitee.com/hmilylmk)
+- 韩宗成[@hzc04](https://gitee.com/hzc04)
+- 张伟刚[@harvey-rtos](https://gitee.com/harvey-rtos)
+- 郑立铭[@soulpoet](https://gitee.com/soulpoet)
 
 # 邮件列表
 

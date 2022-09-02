@@ -6,25 +6,29 @@ Embedded SIG 小组致力于openEuler的嵌入式版本开发，使其能够广�
 
 # 组织会议
 
-- 公开的会议时间：北京时间，议题触发，每双周三下午，三点~五点
-
-
-
-
+- 公开的会议时间：北京时间，议题触发，每双周四下午，两点~四点
 
 # 成员
 
 
 ### Maintainer列表
-- 朱家法[@wl1587](https://gitee.com/wl1587/) Email:zhujiafa@huawei.com
-- 吕修任[@lllxxxrrr](https://gitee.com/lllxxxrrr/) Email: lvxiuren@163.com
+- 任  慰[@vonhust](https://gitee.com/vonhust)
+- 谢焜勋[@beilingxie](https://gitee.com/beilingxie)
+- 林子畅[@linzichang](https://gitee.com/linzichang)
+- 朱家法[@wl1587](https://gitee.com/wl1587)
 
 ### Committer列表
-- 吕修任[@lllxxxrrr](https://gitee.com/lllxxxrrr/) Email: lvxiuren@163.com
-- 朱家法[@wl1587](https://gitee.com/wl1587/) Email:zhujiafa@huawei.com
-- 姚伟利[@yyywwwlll](https://gitee.com/yyywwwlll/)
-- 吴高翔[@gxwuOpen](https://gitee.com/gxwuOpen/) Email: wugaoxiang1@huawei.com
-
+- 任  慰[@vonhust](https://gitee.com/vonhust)
+- 谢焜勋[@beilingxie](https://gitee.com/beilingxie)
+- 林子畅[@linzichang](https://gitee.com/linzichang)
+- 朱家法[@wl1587](https://gitee.com/wl1587)
+- 方林旭[@fanglinxu](https://gitee.com/fanglinxu)
+- 李小勇[@lxy1579](https://gitee.com/lxy1579)
+- 李新宇[@alichinese](https://gitee.com/alichinese)
+- 罗泳伦[@luojects](https://gitee.com/luojects)
+- 刘铭锴[@hmilylmk](https://gitee.com/hmilylmk)
+- 韩宗成[@hzc04](https://gitee.com/hzc04)
+- 张伟刚[@harvey-rtos](https://gitee.com/harvey-rtos)
 
 
 # 邮件列表
@@ -39,8 +43,13 @@ openeuler-embedded
 项目名称：Embedded
 
 repository地址：
-- embedded 版本的开发工程，包括构建脚本、工程配置等：openeuler/embedded
-- embedded 版本的内核源码仓库：src-openeuler/embedded-kernel
+- 分布式软总线: openeuler/dsoftbus_standard, openeuler/embedded-ipc
+- 实时能力: openeuler/lep, openeuler/UniProton
+- 混合关键部署: src-openeuler/libmetal, src-openeuler/OpenAMP
+- 编译器和构建工具: src-openeuler/ct-ng, src-openeuler/patchelf
+- flash文件系统支持工具: src-openeuler/yaffs2, src-openeuler/mtd-utils
+- 嵌入式工具: src-openeuler/libftdi, src-openeuler/urjtag
+- 嵌入式OBS构建参考：openeuler/embedded, src-openeuler/embedded-kernel
 
 - roadmap：
 ```
