@@ -156,6 +156,20 @@ openEuler社区的所有项目都由Bot维护。
                 任何人都能在一个Pull Request上触发这种命令。
             </td>
         </tr>
+        <tr>
+            <td>
+                /review retrigger
+            </td>
+            <td style="white-space:nowrap;">
+                /retest retrigger
+            </td>
+            <td>
+                重跑触发生成Pull Request的review清单。
+            </td>
+            <td>
+                任何人都能在一个Pull Request上触发这种命令。
+            </td>
+        </tr>
 		 <tr>
             <td>
                 /check-pr
