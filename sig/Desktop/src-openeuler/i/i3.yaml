@@ -1,0 +1,7 @@
+name: i3
+description: Key features of i3 are good documentation, reasonable defaults (changeable in a simple configuration file) and good multi-monitor support. The user interface is designed for power users and emphasizes keyboard usage. i3 uses XCB for asynchronous communication with X11 and aims to be fast and light-weight.
+upstream: https://github.com/i3/i3
+branches:
+- name: master
+  type: protected
+type: public
