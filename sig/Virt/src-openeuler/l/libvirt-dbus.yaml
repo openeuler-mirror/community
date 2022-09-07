@@ -1,0 +1,7 @@
+name: libvirt-dbus
+description: 'DBus protocol binding for libvirt native C API'
+upstream: https://gitlab.com/libvirt/libvirt-dbus
+branches:
+- name: master
+  type: protected
+type: public
