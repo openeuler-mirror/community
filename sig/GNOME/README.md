@@ -18,7 +18,6 @@ GNOME是一种让使用者容易操作和设定电脑环境的工具，目标是
 # 成员
 
 ### Maintainers列表
-- 陈棋德[@dillon_chen](https://gitee.com/dillon_chen)
 
 ### Committers列表
 - 邓伟进[@weijin-deng](https://gitee.com/weijin-deng)
