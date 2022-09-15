@@ -13,10 +13,15 @@ maintainers:
   name: Yicong Yang
   organization: huawei
   email: young.yicong@outlook.com
+
 repositories:
 - repo:
-  - openeuler/KPL-gmssl
-  - openeuler/KPL-zlib
+  - openeuler/WayCa
+  committers:
+  - gitee_id: kongzizaixian
+    name: Fred Kimmy
+    organization: huawei
+    email: xweikong@163.com
 
 - repo:
   - openeuler/wayca-scheduler
@@ -38,3 +43,7 @@ repositories:
     name: cjx_2021
     organization: huawei
     email: cjxzju_2014@qq.com
+
+- repo:
+  - openeuler/KPL-gmssl
+  - openeuler/KPL-zlib
