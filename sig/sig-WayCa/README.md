@@ -1,63 +1,172 @@
-# openEuler WayCa SIG
+# openEuler WayCa sig
 
-- WayCa是鲲鹏生态的“硬件使能层”的代表
+## 背景
 
-# 组织会议
+- WayCa sig是鲲鹏生态的“硬件使能层”的代表,  承载了鲲鹏硬件的鲲鹏高速网络功能、鲲鹏加速器、鲲鹏调测工具、鲲鹏高性能调度、鲲鹏故障处理、鲲鹏能耗管理、鲲鹏虚拟化和鲲鹏基础IO等相关功能。
+
+## 工作目标
+
+- 通过建立openEuler WayCa sig小组，建立鲲鹏硬件使能爱好开发者、应用者沟通交流渠道；让鲲鹏硬件能力应用到鲲鹏OS厂商、ISV和各鲲鹏客户场景中，吸引更多科研开发团队挖掘鲲鹏优势场景；达到共同构建鲲鹏和openEuler的生态目标。
+
+## 工作范围
+
+- 联合openEuler sig组完成鲲鹏硬件能力的openEuler版本是能和推广
+- 鲲鹏硬件能力在openEuler社区上的模块级特性级的生态构建
+- 持续优化鲲鹏openEuler版本的功能和性能
+- 协助鲲鹏生态科研开发团队共同挖掘鲲鹏硬件能力的优势场景
+- 交流、答疑和解决鲲鹏问题
+
+## 交流答疑
+
+- https://gitee.com/openeuler/WayCa
+
+## 组织会议
 
 - 公开的会议时间：待定
 
-# 成员
+## Maintainer列表
 
-- Kenneth-Lee-2012
-- joyxu515_admin
-- barrysong
-- young1c
+### 鲲鹏高速网络
 
-### Maintainer列表
+- DPDK: 
+- li-huisong[@li-huisong](https://gitee.com/li-huisong) 
+- Rdma-core\Roce: 
+- li-yangyang[@li-yangyang20](https://gitee.com/li-yangyang20)
+- tcc@hello[@hellotcc](https://gitee.com/hellotcc) 
+- NIC:
+- tcc@hello[@hellotcc](https://gitee.com/hellotcc) 
+- ROH:
+- tcc@hello[@hellotcc](https://gitee.com/hellotcc) 
 
-- Kenneth Lee[@Kenneth-Lee-2012](https://gitee.com/Kenneth-Lee-2012), liguozhu@hisilicon.com
-- Wei Xu[@joyxu515_admin](https://gitee.com/joyxu515), xuwei5@huawei.com
-- Barry Song[@barrysong](https://gitee.com/barrysong), 21cnbao@gmail.com
-- Yicong Yang[@young1c](https://gitee.com/young1c), young.yicong@outlook.com
+### 鲲鹏加速器
 
-### Committer列表
+- Uadk\ACC:
+- fanghao[@hao-fang](https://gitee.com/hao-fang)
 
-- Kenneth Lee[@Kenneth-Lee-2012](https://gitee.com/Kenneth-Lee-2012)
-- Wei Xu[@joyxu515_admin](https://gitee.com/joyxu515)
-- Barry Song[@barrysong](https://gitee.com/barrysong)
-- Yicong Yang[@young1c](https://gitee.com/young1c)
+### 鲲鹏调测工具
 
-# 联系方式
+- hikptool:
+- zhuweijiae[@veega2022](https://gitee.com/veega2022) 
+- cjx_2021[@chenjunxin1992](https://gitee.com/chenjunxin1992)
+- perf\etm:
+- hejunhao[@hejunhao3](https://gitee.com/hejunhao3)
 
-- [邮件列表](dev@openeuler.org)
+### 鲲鹏高性能调度
 
-# 项目清单
+- WayCa-sc:
+- Yicong Yang[@young1c](https://gitee.com/young1c) 
 
-## 项目名称：wayca-scheduler
+### 鲲鹏故障处理
+
+- rasdaemon\ras:
+- tanxiaofei[@hunan4222](https://gitee.com/hunan4222)
+
+### 鲲鹏能耗管理
+
+- HCCS:
+- li-huisong[@li-huisong](https://gitee.com/li-huisong)
+
+### 鲲鹏虚拟化
+
+- chenxiang[@cx_123chenxiang](https://gitee.com/cx_123chenxiang)
+
+### 鲲鹏基础IO
+
+- SAS:
+- LiYihang[@LiYihang226](https://gitee.com/Liyihang226) 
+- CXL\PCIe:
+
+## 联系方式
+
+- [邮件列表](xxx@openeuler.org)
+
+## 项目清单
+
+### 项目名称：WayCa-Kunpeng-高速网络
 
 repository地址：
 
+- DPDK:
+- https://gitee.com/openeuler/dpdk
+- https://gitee.com/src-openeuler/dpdk
+- Rdma-core 
+- https://gitee.com/src-openeuler/rdma-core
+- Roce\NIC\ROH:
+- https://gitee.com/openeuler/kernel
+- https://gitee.com/src-openeuler/kernel
+
+### 项目名称：WayCa-Kunpeng-加速器
+
+repository地址：
+
+- Uadk:
+- https://github.com/Linaro/uadk
+- https://github.com/Linaro/uadk_engine
+- https://gitee.com/src-openeuler/libwd
+- https://gitee.com/src-openeuler/uadk_engine
+- ACC:
+- https://gitee.com/openeuler/kernel/
+- https://gitee.com/src-openeuler/kernel/
+
+### 项目名称：WayCa-Kunpeng-高性能调度
+
+repository地址：
+
+- WayCa-sc:
+- https://gitee.com/openeuler/kernel/
+- https://gitee.com/src-openeuler/kernel/
+- https://gitee.com/openeuler/wayca-scheduler-bench
 - https://gitee.com/openeuler/wayca-scheduler
 
-## 项目名称：wayca-scheduler-bench
+
+### 项目名称：WayCa-Kunpeng-调测工具
 
 repository地址：
 
-- https://gitee.com/openeuler/wayca-scheduler-bench
+- hikptool:
+- https://gitee.com/openeuler/hikptool
+- perf\etm:
+- https://gitee.com/openeuler/kernel/
+- https://gitee.com/src-openeuler/kernel/
 
-| 分支名                 | 类型         | 说明                                             |
-| ---------------------- | ------------ | ------------------------------------------------ |
-| master                 | 上游分支同步 | https://github.com/gormanm/mmtests master同步    |
-| kp-dev                 | 鲲鹏开发分支 | 增加鲲鹏特定的benchmark配置文件、case            |
+
+### 项目名称：WayCa-Kunpeng-故障处理
+
+repository地址：
+
+- rasdaemon:
+- https://gitee.com/src-openeuler/rasdaemon
+- ras:
+- https://gitee.com/openeuler/kernel/
+- https://gitee.com/src-openeuler/kernel/
+
+### 项目名称：WayCa-Kunpeng-能耗管理
+
+repository地址：
+
+- HCCS:
+- https://gitee.com/src-openeuler/kernel/
+- https://gitee.com/src-openeuler/kernel/
+
+### 项目名称：WayCa-Kunpeng-虚拟化
+
+repository地址：
+
+- https://gitee.com/openeuler/kernel/
+- https://gitee.com/src-openeuler/kernel/
+
+
+### 项目名称：WayCa-Kunpeng-基础IO
+
+repository地址：
+
+- SAS\CXL\PCIe:
+- https://gitee.com/openeuler/kernel/
+- https://gitee.com/src-openeuler/kernel/
+
 
 ## 项目名称：KPL-gmssl
 
 repository地址：
 
 - https://gitee.com/openeuler/KPL-gmssl
-
-## 项目名称：hikptool
-
-repository地址：
-
-- https://gitee.com/openeuler/hikptool
