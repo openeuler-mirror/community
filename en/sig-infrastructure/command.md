@@ -33,6 +33,22 @@ The Commands incluing as follows:
         </tr>
         <tr>
             <td>
+                /cla cancel
+            </td>
+            <td style="white-space:nowrap;">
+                /cla cancel
+            </td>
+            <td>
+                This command is used to force removing the "openeuler-cla/yes" label.
+                When the "openeuler-cla/yes" label is not added by openeuler-ci-bot, the
+                repository collaborators can remove it by using this command.
+            </td>
+            <td>
+                Collaborators on the repository.
+            </td>
+        </tr>
+        <tr>
+            <td>
                 /lgtm [cancel]
             </td>
             <td style="white-space:nowrap;">
