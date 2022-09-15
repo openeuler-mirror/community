@@ -1,0 +1,7 @@
+name: python-click-plugins
+upstream: https://github.com/click-contrib/click-plugins
+description: An extension module for click to enable registering CLI commands via setuptools entry-points.
+branches:
+- name: master
+  type: protected
+type: public
