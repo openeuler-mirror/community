@@ -3,4 +3,7 @@ description: OpenHarmony dsoftbus
 branches:
 - name: master
   type: protected
+- name: v3.1
+  type: protected
+  create_from: master
 type: public
