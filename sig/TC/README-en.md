@@ -38,6 +38,10 @@ The list of TC members is organized alphabetically by last name:
 - Xie Xiuqi <xiexiuqi@huawei.com> [[@xiexiuqi](https://gitee.com/xiexiuqi)]
 - Xiong Wei <xiongwei888@huawei.com> [[@myeuler](https://gitee.com/myeuler)]
 - Ye Qinglong <yeqinglong@uniontech.com> [[@yeqinglong01](https://gitee.com/yeqinglong01)]
+- Zhao Chuanfeng<zhaochuanfeng@huawei.com> [[@cf-zhao](https://gitee.com/cf-zhao)]
+
+## Changes of 2022 TC Members
+- Peng Chenghan resigned from the committee in Sept. 2022, and Zhao Chuanfeng took over this work as a TC member.
 
 # 2021 TC Members
 
