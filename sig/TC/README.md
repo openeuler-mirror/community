@@ -31,7 +31,6 @@ openEuler技术委员会（Technical Committee，以下和TC互换使用）是op
 - 石  勇<shiyong@kylinos.com.cn> [[@stonefly128](https://gitee.com/stonefly128)]
 - 王建民<jianmin@iscas.ac.cn> [[@jianminw](https://gitee.com/jianminw)]
 - 王志钢<wangzhigang17@huawei.com>  [[@cellfaint](https://gitee.com/cellfaint)]
-- 彭成寒<pengch81@hotmail.com> [[@pengryan](https://gitee.com/pengryan)]
 - 任  慰<renwei41@huawei.com> [[@vonhust](https://gitee.com/vonhust)]
 - 吴峰光<wufengguang@huawei.com> [[@wu_fengguang](https://gitee.com/wu_fengguang)]
 - 王伶卓<relue0z@outlook.com> [[@relue0z](https://gitee.com/relue0z)]
@@ -39,7 +38,10 @@ openEuler技术委员会（Technical Committee，以下和TC互换使用）是op
 - 谢秀奇<xiexiuqi@huawei.com> [[@xiexiuqi](https://gitee.com/xiexiuqi)]
 - 熊  伟<xiongwei888@huawei.com> [[@myeuler](https://gitee.com/myeuler)]
 - 叶青龙<yeqinglong@uniontech.com> [[@yeqinglong01](https://gitee.com/yeqinglong01)]
+- 赵川峰<zhaochuanfeng@huawei.com> [[@cf-zhao](https://gitee.com/cf-zhao)]
 
+## 2022 年 TC 成员变更历史
+- 彭成寒于2022年9月卸任，赵川峰接替TC委员工作。
 
 # 2021 届 TC成员
 
