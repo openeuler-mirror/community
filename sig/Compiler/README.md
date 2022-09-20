@@ -205,6 +205,12 @@ Tuesday 10 am bi-weekly, UTC+8.
  - [gcc-12](https://gitee.com/src-openeuler/gcc-12)
    - Maintainers
      - 谢 志恒[@eastb233](https://gitee.com/eastb233) email: xiezhiheng@huawei.com
+ - [gcc-for-openEuler](https://gitee.com/openeuler/gcc-for-openEuler) & [src-openeuler/gcc-for-openEuler](https://gitee.com/src-openeuler/gcc-for-openEuler)
+   - Maintainers
+     - 谢 志恒[@eastb233](https://gitee.com/eastb233) email: xiezhiheng@huawei.com
+   - Committers
+     - 王 鼎[@wangding16](https://gitee.com/wangding16) email: wangding16@huawei.com
+     - 熊 洲[@xiongzhou4](https://gitee.com/xiongzhou4) email: xiongzhou4@huawei.com
 
 ## Contact
  - [maillist](compiler@openeuler.org)

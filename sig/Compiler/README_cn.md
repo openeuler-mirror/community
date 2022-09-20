@@ -205,6 +205,12 @@ Compiler SIG 每双周周二上午10:00进行线上例会，也会定期举办�
  - [gcc-12](https://gitee.com/src-openeuler/gcc-12)
    - Maintainers
      - 谢 志恒[@eastb233](https://gitee.com/eastb233) 邮箱: xiezhiheng@huawei.com
+ - [gcc-for-openEuler](https://gitee.com/openeuler/gcc-for-openEuler) & [src-openeuler/gcc-for-openEuler](https://gitee.com/src-openeuler/gcc-for-openEuler)
+   - Maintainers
+     - 谢 志恒[@eastb233](https://gitee.com/eastb233) 邮箱: xiezhiheng@huawei.com
+   - Committers
+     - 王 鼎[@wangding16](https://gitee.com/wangding16) 邮箱: wangding16@huawei.com
+     - 熊 洲[@xiongzhou4](https://gitee.com/xiongzhou4) 邮箱: xiongzhou4@huawei.com
 
 ## 联系
  - [邮件列表](compiler@openeuler.org)
