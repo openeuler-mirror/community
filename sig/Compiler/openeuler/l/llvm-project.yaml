@@ -1,0 +1,9 @@
+name: llvm-project
+description: The LLVM Project is a collection of modular and reusable compiler and toolchain technologies.
+branches:
+- name: master
+  type: protected
+- name: dev_15
+  type: protected
+  create_from: master
+type: public
