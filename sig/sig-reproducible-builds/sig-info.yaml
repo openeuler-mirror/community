@@ -1,0 +1,38 @@
+name: sig-reproducible-builds
+description: Repeatable builds, also known as deterministic compilation, are the process of compiling software with the goal of ensuring that binary code generated when using the same input (source code, toolchain, environment variables, etc.) can be bitten and reproducible.
+created_on: '2022-03-14'
+mailing_list: dev@openeuler.org
+mature_level: startup
+maintainers:
+- gitee_id: robellliu
+  name: Liu Bo 
+  organization: Huawei
+  email: robell.liu@huawei.com
+- gitee_id: wu_fengguang
+  name: Wu Fengguang
+  organization: Huawei
+  email: wufengguang@huawei.com
+- gitee_id: happyaron
+  name: Xu Liang
+  organization: Huawei
+  email: aron.xu@huawei.com
+- gitee_id: georgecao
+  name: Cao Zhi
+  organization: Huawei
+  email: george.cao@huawei.com
+- gitee_id: TommyLike
+  name: Hu Sheng
+  organization: Huawei
+  email: tommylikehu@gmail.com
+repositories:
+- repo:
+  - openeuler/reproducible-builds
+  committers:
+  - gitee_id: zxf_0731
+    name: Zhao Xufeng
+    organization: Huawei
+    email: zxf_0731
+  - gitee_id: wenhao7
+    name: Wen Hao
+    organization: Huawei
+    email: wenhao7@huawei.com
