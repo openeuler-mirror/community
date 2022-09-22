@@ -1,25 +1,101 @@
-name: AI and Big Data SIG
-description: Big Data Sig
+name: bigdata
+description: Bigdata sig aims at that the openEuler community needs to consider how to give full play to the role of data in production and life from a technical perspective, and build the capacity related to big data processing.
+created_on: '2022-04-11'
 mailing_list: bigdata@openeuler.org
+meeting_url: https://etherpad.openeuler.org/p/bigdata-meetings
+mature_level: startup
 maintainers:
 - gitee_id: sinever
+  name: zhengxian
+  organization: Huawei
+  email: sinever@126.com
 - gitee_id: njlzk
+  name: liuzhikang
+  organization: Huawei
+  email: liuzhikang3@huawei.com
 - gitee_id: yangzhao_kl
+  name: yangzhao
+  email: yangzhao1@kylinos.cn
 - gitee_id: wuzeyi1
+  name: wuzeyi
+  email: zeyiii@126.com
 - gitee_id: unioah
   name: ZhangHao
   email: unioah@gmail.com
+- gitee_id: MacChen1
+  name: chenqiang
+  organization: Huawei
+  email: mac.chenqiang@huawei.com
 repositories:
-- repo: openeuler/notebook
-- repo: openeuler/python-jupyter-core
-- repo: openeuler/python-jupyter-client
-- repo: openeuler/python-nbformat
-- repo: openeuler/python-nbconvert
-- repo: openeuler/python-ipykernel
-- repo: openeuler/python-terminado
-- repo: openeuler/python-nbsphinx
-- repo: openeuler/python-sphinxcontrib-github-alt
-- repo: openeuler/python-myst-parser
-- repo: openeuler/python-nbval
-- repo: openeuler/python-requests-unixsocket
-- repo: openeuler/python-fastjsonschema
+- repo:
+  - openeuler/openeuler-wiki-bot
+  - openeuler/vectorBlas
+  - openeuler/bigdata
+  - src-openeuler/redis6
+  - src-openeuler/rain
+  - src-openeuler/redis5
+  - src-openeuler/impala
+  - src-openeuler/iceberg
+  - src-openeuler/ibis
+  - src-openeuler/ignite
+  - src-openeuler/notebook
+  - src-openeuler/giraph
+  - src-openeuler/gl2ps
+  - src-openeuler/zookeeper
+  - src-openeuler/zeppelin
+  - src-openeuler/telegraf
+  - src-openeuler/spark
+  - src-openeuler/storm
+  - src-openeuler/alluxio
+  - src-openeuler/accumulo
+  - src-openeuler/avor
+  - src-openeuler/ambari
+  - src-openeuler/apache-ranger
+  - src-openeuler/apache-atlas
+  - src-openeuler/flink
+  - src-openeuler/ftgl
+  - src-openeuler/flume
+  - src-openeuler/oozie
+  - src-openeuler/hadoop-3.1
+  - src-openeuler/hudi
+  - src-openeuler/hue
+  - src-openeuler/hive
+  - src-openeuler/hbase
+  - src-openeuler/hadoop
+  - src-openeuler/mahout
+  - src-openeuler/jupyter
+  - src-openeuler/calcite
+  - src-openeuler/druid
+  - src-openeuler/delta
+  - src-openeuler/datafu
+  - src-openeuler/qfs
+  - src-openeuler/qrupdate
+  - src-openeuler/qscintilla
+  - src-openeuler/epstool
+  - src-openeuler/blaze
+  - src-openeuler/bigtop
+  - src-openeuler/kite-sdk
+  - src-openeuler/kafka
+  - src-openeuler/kudu
+  - src-openeuler/knox
+  - src-openeuler/libhdfs
+  - src-openeuler/llama
+  - src-openeuler/lzip
+  - src-openeuler/libiodbc
+  - src-openeuler/ycsb
+  - src-openeuler/protobuf2
+  - src-openeuler/python-requests-unixsocket
+  - src-openeuler/phantomjs
+  - src-openeuler/presto
+  - src-openeuler/python-nbformat
+  - src-openeuler/python-terminado
+  - src-openeuler/python-fastjsonschema
+  - src-openeuler/python-sphinxcontrib-github-alt
+  - src-openeuler/python-jupyter-core
+  - src-openeuler/python-ipykernel
+  - src-openeuler/parquet-format
+  - src-openeuler/python-nbval
+  - src-openeuler/python-nbconvert
+  - src-openeuler/python-jupyter-client
+  - src-openeuler/python-nbsphinx
+  - src-openeuler/python-myst-parser
