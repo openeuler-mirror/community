@@ -211,6 +211,12 @@ Compiler SIG 每双周周二上午10:00进行线上例会，也会定期举办�
    - Committers
      - 王 鼎[@wangding16](https://gitee.com/wangding16) 邮箱: wangding16@huawei.com
      - 熊 洲[@xiongzhou4](https://gitee.com/xiongzhou4) 邮箱: xiongzhou4@huawei.com
+ - [llvm-project](https://gitee.com/openeuler/llvm-project)
+   - Maintainers
+     - 钟 云德[@zhongyunde](https://gitee.com/zhongyunde) 邮箱: zhongyunde@huawei.com
+   - Committers
+     - 郭 培林[@peilin-guo](https://gitee.com/peilin-guo) 邮箱: guopeilin1@huawei.com
+     - 乔 沛鑫[@peixin-qiao](https://gitee.com/peixin-qiao) 邮箱: qiaopeixin@huawei.com
 
 ## 联系
  - [邮件列表](compiler@openeuler.org)
