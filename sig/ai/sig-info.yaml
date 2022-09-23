@@ -1,0 +1,71 @@
+name: ai
+description: The ai sig aims to build digital infrastructure AI ecological chain, provide built-in AI framework training/reasoning software, and build AI related software maintenance capabilities
+created_on: '2022-04-11'
+mailing_list: ai@openeuler.org
+meeting_url: https://etherpad.openeuler.org/p/ai-meetings
+mature_level: startup
+maintainers:
+- gitee_id: bb-king
+  name: huangzhipeng
+  organization: Huawei
+  email: huangzhipeng@huawei.com
+- gitee_id: zhunaipan
+  name: zhunaipan
+  organization: Huawei
+  email: zhunaipan@huawei.com
+- gitee_id: sinever
+  name: zhengxian
+  organization: Huawei
+  email: sinever@126.com
+- gitee_id: nicholas_yhr
+  name: yanghaoran
+  organization: Huawei
+  email: yanghaoran2@huawei.com
+- gitee_id: henryshi1
+  name: shixinyu
+  organization: Huawei
+  email: shixinyu1@huawei.com
+- gitee_id: guoqi1024
+  name: guoqi
+  organization: Huawei
+  email: guoqi5@huawei.com
+- gitee_id: kingxian
+  name: jinxiaoxian
+  organization: Huawei
+  email: jinxiaoxian@huawei.com
+repositories:
+- repo:
+  - src-openeuler/incubator-mxnet
+  - src-openeuler/nccl
+  - src-openeuler/glpk
+  - src-openeuler/tensorflow
+  - src-openeuler/SuperLUMT
+  - src-openeuler/sundials
+  - src-openeuler/sentencepiece
+  - src-openeuler/arm-ml-examples
+  - src-openeuler/armnn
+  - src-openeuler/openpmix
+  - src-openeuler/opencl-filesystem
+  - src-openeuler/opencv
+  - src-openeuler/opencl-headers
+  - src-openeuler/ompi
+  - src-openeuler/opencl-clhpp
+  - src-openeuler/opencl
+  - src-openeuler/oneDNN
+  - src-openeuler/octave
+  - src-openeuler/opennn
+  - src-openeuler/okhttp
+  - src-openeuler/mlpack
+  - src-openeuler/mindspore
+  - src-openeuler/ComputeLibrary
+  - src-openeuler/dlib
+  - src-openeuler/eigen
+  - src-openeuler/eli5
+  - src-openeuler/ensmallen
+  - src-openeuler/bazel
+  - src-openeuler/libsvm
+  - src-openeuler/libxsmm
+  - src-openeuler/lightgbm
+  - src-openeuler/pytorch
+  - src-openeuler/python-horovod
+  - src-openeuler/prrte
