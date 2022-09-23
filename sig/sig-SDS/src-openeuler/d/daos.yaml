@@ -1,0 +1,7 @@
+name: daos
+description: DAOS is an open-source soft-defined object store designed from the ground up for massively distributed Non volatile Memory(NVM).
+upstream: https://github.com/daos-stack/daos
+branches:
+- name: master
+  type: protected
+type: public
