@@ -1,0 +1,62 @@
+name: sig-industrial-control
+description: The Industrial control  SIG group is mainly dedicated to developing OpenEuler as a real-time operating system for industrial control or embedded applications.
+created_on: '2021-04-07'
+mailing_list: industrial-control@openeuler.org
+meeting_url: https://etherpad.openeuler.org/p/sig-industrial-control-meetings
+mature_level: startup
+maintainers:
+- gitee_id: liliang_euler
+  name: Li Liang
+  organization: Huawei
+  email: liliang889@huawei.com
+- gitee_id: SuperHugePan
+  name: Zhang Pan
+  organization: Huawei
+  email: zhangpan26@huawei.com
+- gitee_id: guohaocs2c
+  name: Guo Hao
+  organization: Kylinsoft
+  email: guohao@kylinos.cn
+- gitee_id: wuchunguang
+  name: Wu Chunguang
+  organization: Kylinsoft
+  email: wuchunguang@kylinos.cn
+- gitee_id: kylin-mayukun
+  name: Ma Yukun
+  organization: Kylinsoft
+  email: mayukun@kylinos.cn
+- gitee_id: zhangyh1992
+  name: Zhang Yuanhang
+  organization: Kylinsoft
+  email: zhangyuanhang@kylinos.cn
+- gitee_id: zhangyuge001
+  name: Zhang Yu
+  organization: Kylinsoft
+  email: zhangyu4@kylinos.cn
+- gitee_id: r2018
+  name: Li Yulei
+  organization: Kylinsoft
+  email: liyulei@kylinos.cn
+repositories:
+- repo:
+  - openeuler/GearOS
+  - openeuler/xenomai
+  - openeuler/Preempt_RT
+  - src-openeuler/rtcheck
+  - src-openeuler/rteval
+  - src-openeuler/rt-tests
+  - src-openeuler/igh-ethercat-xenomai
+  - src-openeuler/ipipe
+  - src-openeuler/netopeer2
+  - src-openeuler/soem
+  - src-openeuler/soes
+  - src-openeuler/sysrepo
+  - src-openeuler/canopennode
+  - src-openeuler/canfestival
+  - src-openeuler/canfestival-xenomai
+  - src-openeuler/xenomai
+  - src-openeuler/ethercat-igh
+  - src-openeuler/libyang1
+  - src-openeuler/libmodbus
+  - src-openeuler/libmodbus-xenomai
+  - src-openeuler/libnetconf2
