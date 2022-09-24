@@ -1,13 +1,9 @@
 name: Compiler
 description: The Compiler SIG provides a place for technical discussions and sharing about compilers, covering GCC, LLVM, OpenJDK, and other program optimization technologies. We are eager to work with academics and industry experts to promote the development of compilation technologies.
-mailing_list: dev@openeuler.org
+mailing_list: compiler@openeuler.org
 meeting_url: NA
 mature_level: startup
 maintainers:
-- gitee_id: pengryan
-  name: chenghan Peng
-  organization: Huawei
-  email: pengchenghan@huawei.com
 - gitee_id: jvmboy
   name: dongbo He
   organization: Huawei
@@ -16,10 +12,6 @@ maintainers:
   name: zhiheng Xie
   organization: Huawei
   email: xiezhiheng@huawei.com
-- gitee_id: hserror
-  name: gaofeng Zhang
-  organization: Huawei
-  email: zhanggaofeng9@huawei.com
 - gitee_id: kuenking111
   name: kun Wang
   organization: Huawei
@@ -32,6 +24,18 @@ maintainers:
   name: chuanfeng Zhao
   organization: Huawei
   email: zhaochuanfeng@huawei.com
+- gitee_id: li-yancheng
+  name: yancheng Li
+  organization: Huawei
+  email: liyancheng@huawei.com
+- gitee_id: SegmentFault
+  name: Shanyao Chen
+  organization: Huawei
+  email: chenshanyao@huawei.com
+- gitee_id: alexanderbill
+  name: Lei Zhou
+  organization: Huawei
+  email: zhoulei03@huawei.com
 repositories:
 - repo:
   - openeuler/bishengjdk-8
@@ -45,39 +49,22 @@ repositories:
     email: wangkun49@huawei.com
 - repo:
   - openeuler/bishengjdk-8
+  - openeuler/bishengjdk-11
   - openeuler/bishengjdk-17
+  - openeuler/bishengjdk-riscv
   - src-openeuler/openjdk-1.8.0
   - src-openeuler/openjdk-11
   - src-openeuler/openjdk-17
   - src-openeuler/openjdk-latest
   committers:
-  - gitee_id: jdkboy
-    name: ge Guo
-    organization: Huawei
-    email: guoge1@huawei.com
-- repo:
-  - openeuler/bishengjdk-riscv
-  - src-openeuler/openjdk-11
-  committers:
   - gitee_id: yd_wang
     name: yadong Wang
     organization: Huawei
     email: yadonn.wang@huawei.com
-  - gitee_id: jiangfeilong1003
-    name: feilong Jiang
-    organization: Huawei
-    email: jiangfeilong@huawei.com
-- repo:
-  - openeuler/bishengjdk-11
-  committers:
   - gitee_id: jdkboy
     name: ge Guo
     organization: Huawei
     email: guoge1@huawei.com
-  - gitee_id: yd_wang
-    name: yadong Wang
-    organization: Huawei
-    email: yadonn.wang@huawei.com
   - gitee_id: jiangfeilong1003
     name: feilong Jiang
     organization: Huawei
@@ -90,10 +77,6 @@ repositories:
     name: haijian Zhang
     organization: Huawei
     email: z.zhanghaijian@huawei.com
-  - gitee_id: li-yancheng
-    name: yancheng Li
-    organization: Huawei
-    email: liyancheng@huawei.com
   - gitee_id: huang-xiaoquan
     name: xiaoquan Huang
     organization: Huawei
@@ -127,10 +110,10 @@ repositories:
   - src-openeuler/autofdo
   - src-openeuler/gcc-cross
   committers:
-  - gitee_id: li-yancheng
-    name: yancheng Li
+  - gitee_id: benniaobufeijiushiji
+    name: da Lin
     organization: Huawei
-    email: liyancheng@huawei.com
+    email: linda7@huawei.com
 - repo:
   - src-openeuler/flang
   committers:
@@ -145,6 +128,10 @@ repositories:
     name: yipeng Zhang
     organization: Huawei
     email: zhangyipeng7@huawei.com
+  - gitee_id: wanghao_hw
+    name: hao Wang
+    organization: Huawei
+    email: wanghao564@huawei.com
 - repo:
   - openeuler/BiSheng-Adoptium
   - openeuler/openjfx8
@@ -173,6 +160,11 @@ repositories:
   - src-openeuler/gcc-for-openEuler
 - repo:
   - openeuler/llvm-project
+  repo_admin:
+  - gitee_id: cf-zhao
+    name: chuanfeng Zhao
+    organization: Huawei
+    email: zhaochuanfeng@huawei.com
   committers:
   - gitee_id: zhongyunde
     name: yunde Zhong
