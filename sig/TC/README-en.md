@@ -30,7 +30,6 @@ The list of TC members is organized alphabetically by last name:
 - Shi Yong <shiyong@kylinos.com.cn> [[@stonefly128](https://gitee.com/stonefly128)]
 - Wang Jianmin <jianmin@iscas.ac.cn> [[@jianminw](https://gitee.com/jianminw)]
 - Wang Zhigang <wangzhigang17@huawei.com>  [[@cellfaint](https://gitee.com/cellfaint)]
-- Peng Chenghan <pengch81@hotmail.com> [[@pengryan](https://gitee.com/pengryan)]
 - Ren Wei <renwei41@huawei.com> [[@vonhust](https://gitee.com/vonhust)]
 - Wu Fengguang <wufengguang@huawei.com> [[@wu_fengguang](https://gitee.com/wu_fengguang)]
 - Wang Lingzhuo <relue0z@outlook.com> [[@relue0z](https://gitee.com/relue0z)]
