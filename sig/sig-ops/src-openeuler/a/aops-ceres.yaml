@@ -1,0 +1,7 @@
+name: aops-ceres
+description: An agent which needs to be adopted in client, it managers some plugins, such as gala-gopher(kpi collection), fluentd(log collection) and so on.
+upstream: https://gitee.com/openeuler/aops-ceres
+branches:
+- name: master
+  type: protected
+type: public

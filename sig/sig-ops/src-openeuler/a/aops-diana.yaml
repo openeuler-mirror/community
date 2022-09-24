@@ -1,0 +1,7 @@
+name: aops-diana
+description: An intelligent workflow framework, users can customize their own anomaly detection(algorithms, training, prediction, diagnose and so on), and besides, the service can be enabled directly with default diagnose workflow.
+upstream: https://gitee.com/openeuler/aops-diana
+branches:
+- name: master
+  type: protected
+type: public

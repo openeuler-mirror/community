@@ -1,0 +1,7 @@
+name: aops-zeus
+description: A host and user manager service which is the foundation of aops.
+upstream: https://gitee.com/openeuler/aops-zeus
+branches:
+- name: master
+  type: protected
+type: public
