@@ -55,13 +55,13 @@ For the new packages contribution process steps should be as showed below:
 
 ### Maintainers
 - Zhenyu Zheng[@ZhengZhenyu](https://gitee.com/ZhengZhenyu), *zheng.zhenyu@outlook.com*
-- Bo Zhao[@bzhaoop](https://gitee.com/bzhaoop), *bzhaojyathousandy@gmail.com*
 
 ### Committers
 - Qide Chen[@dillon_chen](https://gitee.com/dillon_chen), *dillon.chen@turbolinux.com.cn*
 - Zhenyu Zheng[@ZhengZhenyu](https://gitee.com/ZhengZhenyu), *zheng.zhenyu@outlook.com*
-- Bo Zhao[@bzhaoop](https://gitee.com/bzhaoop), *bzhaojyathousandy@gmail.com*
 
+### Retired
+- Bo Zhao[@bzhaoop](https://gitee.com/bzhaoop), *bzhaojyathousandy@gmail.com*
 
 ## Meeting schdule
 - Bi-Weekly meeting scheduled at 5:00pm to 6:00pm on Tuesday afternoon
