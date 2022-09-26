@@ -188,6 +188,21 @@ The Commands incluing as follows:
         </tr>
         <tr>
             <td>
+                /check-pr
+            </td>
+            <td style="white-space:nowrap;">
+                /check-pr
+            </td>
+            <td>
+                Check whether the labels added to the Pull Request meet the conditions.
+                If the conditions are met, the Pull Request is merged.
+            </td>
+            <td>
+                Anyone can trigger this command on a Pull Request.
+            </td>
+        </tr>
+        <tr>
+            <td>
                 /assign [[@]...]
             </td>
             <td style="white-space:nowrap;">

@@ -1,5 +1,5 @@
 name: sig-SDS
-description: openEuler Software-Defined-Storage(HPC) SIG
+description: openEuler Software-Defined-Storage(SDS) SIG
 mailing_list: sds@openeuler.org
 meeting_url: NA
 mature_level: startup
@@ -24,6 +24,8 @@ repositories:
   - src-openeuler/ceph-ansible
   - src-openeuler/ceph-csi
   - src-openeuler/teuthology
+  - src-openeuler/daos
+  - src-openeuler/lustre
   - openeuler/ceph_dev
 
   committers:

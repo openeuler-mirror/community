@@ -1,0 +1,55 @@
+name: sig-Ha
+description: The HA SIG is responsible for the development and maintenance of High Availability Software in openEuler community.
+created_on: '2020-04-09'
+mailing_list: ha@openeuler.org
+meeting_url: https://etherpad.openeuler.org/p/sig-Ha-meetings
+mature_level: startup
+maintainers:
+- gitee_id: hjimmy
+  name: Hou Jian
+  organization: Kylinsoft
+  email: houjian@kylinos.cn
+- gitee_id: yangzhao_kl
+  name: Yang Zhao
+  organization: Kylinsoft
+  email: yangzhao1@kylinos.cn
+- gitee_id: jxy_git
+  name: Jiang Xinyu
+  organization: Kylinsoft
+  email: jiangxinyu@kylinos.cn
+- gitee_id: imjoey
+  name: Ma Junjie
+  email: majunjie@apache.org
+- gitee_id: taojiang666
+  name: Jiang Tao
+  email: jiangtao@skysolidiss.com.cn
+repositories:
+- repo:
+  - openeuler/ha-api
+  - openeuler/ha-web
+  - openeuler/pacemaker-mgmt
+  - src-openeuler/rubygem-zeitwerk
+  - src-openeuler/rubygem-hiredis
+  - src-openeuler/rubygem-racc
+  - src-openeuler/rubygem-sassc-rails
+  - src-openeuler/rubygem-pg
+  - src-openeuler/rubygem-sassc
+  - src-openeuler/rubygem-rr
+  - src-openeuler/rubygem-actiontext
+  - src-openeuler/rubygem-actionmailbox
+  - src-openeuler/rubygem-test-unit-rr
+  - src-openeuler/sbd
+  - src-openeuler/fence-virt
+  - src-openeuler/fence-agents
+  - src-openeuler/ha-api
+  - src-openeuler/ha-web
+  - src-openeuler/corosync-qdevice
+  - src-openeuler/corosync
+  - src-openeuler/drbd
+  - src-openeuler/execstack
+  - src-openeuler/booth
+  - src-openeuler/kmod-drbd90
+  - src-openeuler/pacemaker
+  - src-openeuler/pacemaker-mgmt
+  - src-openeuler/pcs
+

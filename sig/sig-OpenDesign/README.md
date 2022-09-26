@@ -41,7 +41,7 @@ https://opendesign.openeuler.org
 - [opendesign-internship](https://gitee.com/openeuler/opendesign-internship)
 - [talent-assessment](https://gitee.com/openeuler/talent-assessment)
 - [certificate-center](https://gitee.com/openeuler/certificate-center)
-- [docs-debug](https://gitee.com/openeuler/docs-debug)
+- [docs-accompany-reading](https://gitee.com/openeuler/docs-accompany-reading)
 
 ## 参考
 - [1] Hugo https://gohugo.io

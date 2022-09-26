@@ -27,6 +27,7 @@ repositories:
 - repo:
   - openeuler/hpcrunner
   - openeuler/hpc
+  - openeuler/elfin-parser
   committers:
   - gitee_id: iotwins
     name: chunlin fang
@@ -40,6 +41,10 @@ repositories:
     name: hejiancong
     organization: Huawei
     email: hejiancong1@huawei.com
+  - gitee_id: victorjin
+    name: jinbinhua
+    organization: Huawei
+    email: jinbinhua@huawei.com
 - repo:
   - openeuler/donau-slurm-wrappers
   committers:

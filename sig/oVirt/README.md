@@ -19,8 +19,6 @@
 - 侯健[@hjimmy](https://gitee.com/hjimmy)
 - 王冕[@wm-wm-wm](https://gitee.com/wm-wm-wm)
 - 江新宇[@jxy_git](https://gitee.com/jxy_git), jiangxinyu@kylinos.cn
-
-### Committers列表
 - 王迪[@crrs666](https://gitee.com/crrs666)
 
 ### Contributors列表

@@ -28,15 +28,15 @@
 
 ### 鲲鹏高速网络
 
-- DPDK: 
-- li-huisong[@li-huisong](https://gitee.com/li-huisong) 
-- Rdma-core\Roce: 
+- DPDK:
+- li-huisong[@li-huisong](https://gitee.com/li-huisong)
+- Rdma-core\Roce:
 - li-yangyang[@li-yangyang20](https://gitee.com/li-yangyang20)
-- tcc@hello[@hellotcc](https://gitee.com/hellotcc) 
+- tcc@hello[@hellotcc](https://gitee.com/hellotcc)
 - NIC:
-- tcc@hello[@hellotcc](https://gitee.com/hellotcc) 
+- WangBoe2022[@wangboe2022](https://gitee.com/wangboe2022)
 - ROH:
-- tcc@hello[@hellotcc](https://gitee.com/hellotcc) 
+- zhanggang_it_ren[@zhanggang_it_ren ](https://gitee.com/zhanggang_it_ren)
 
 ### 鲲鹏加速器
 
@@ -46,7 +46,7 @@
 ### 鲲鹏调测工具
 
 - hikptool:
-- zhuweijiae[@veega2022](https://gitee.com/veega2022) 
+- zhuweijiae[@veega2022](https://gitee.com/veega2022)
 - cjx_2021[@chenjunxin1992](https://gitee.com/chenjunxin1992)
 - perf\etm:
 - hejunhao[@hejunhao3](https://gitee.com/hejunhao3)
@@ -54,7 +54,7 @@
 ### 鲲鹏高性能调度
 
 - WayCa-sc:
-- Yicong Yang[@young1c](https://gitee.com/young1c) 
+- Yicong Yang[@young1c](https://gitee.com/young1c)
 
 ### 鲲鹏故障处理
 
@@ -73,8 +73,9 @@
 ### 鲲鹏基础IO
 
 - SAS:
-- LiYihang[@LiYihang226](https://gitee.com/Liyihang226) 
+- LiYihang[@LiYihang226](https://gitee.com/Liyihang226)
 - CXL\PCIe:
+- Yicong Yang[@young1c](https://gitee.com/young1c)
 
 ## 联系方式
 
@@ -118,7 +119,6 @@ repository地址：
 - https://gitee.com/openeuler/wayca-scheduler-bench
 - https://gitee.com/openeuler/wayca-scheduler
 
-
 ### 项目名称：WayCa-Kunpeng-调测工具
 
 repository地址：
@@ -128,7 +128,6 @@ repository地址：
 - perf\etm:
 - https://gitee.com/openeuler/kernel/
 - https://gitee.com/src-openeuler/kernel/
-
 
 ### 项目名称：WayCa-Kunpeng-故障处理
 
@@ -155,7 +154,6 @@ repository地址：
 - https://gitee.com/openeuler/kernel/
 - https://gitee.com/src-openeuler/kernel/
 
-
 ### 项目名称：WayCa-Kunpeng-基础IO
 
 repository地址：
@@ -163,7 +161,6 @@ repository地址：
 - SAS\CXL\PCIe:
 - https://gitee.com/openeuler/kernel/
 - https://gitee.com/src-openeuler/kernel/
-
 
 ## 项目名称：KPL-gmssl
 

@@ -1,0 +1,131 @@
+name: sig-UKUI
+description: The UKUI team is responsible for the development and maintenance of UKUI desktop in openeuler community.
+created_on: '2020-04-01'
+mailing_list: ukui@openeuler.org
+meeting_url: https://etherpad.openeuler.org/p/sig-UKUI-meetings
+mature_level: startup
+maintainers:
+- gitee_id: handsome_feng
+  name: Li Jianfeng
+  organization: Kylinsoft
+  email: jianfengli@ubuntukylin.com
+- gitee_id: dou33
+  name: Dou Yan
+  organization: Kylinsoft
+  email: douyan@kylinos.cn
+- gitee_id: tanyulong2021
+  name: Tan Yulong
+  organization: Kylinsoft
+  email: tanyulong@kylinos.cn
+- gitee_id: hua_yadong
+  name: Hua Yadong
+  organization: Kylinsoft
+  email: huayadong@kylinos.cn
+- gitee_id: peijiankang
+  name: Pei Jiankang
+  organization: Kylinsoft
+  email: peijiankang@kylinos.cn
+repositories:
+- repo:
+  - openeuler/ukui
+  - openeuler/kylin-user-guide
+  - openeuler/kylin-installer
+  - src-openeuler/ruby-mecab
+  - src-openeuler/redshift
+  - src-openeuler/ukui-system-monitor
+  - src-openeuler/ukui-notebook
+  - src-openeuler/ukui-search
+  - src-openeuler/ukui-sidebar
+  - src-openeuler/ukui-paste
+  - src-openeuler/ubuntukylin-default-settings
+  - src-openeuler/ukui-bluetooth
+  - src-openeuler/ukui-power-manager
+  - src-openeuler/ukui-search-extensions
+  - src-openeuler/ukwm
+  - src-openeuler/ukui-media
+  - src-openeuler/ukui-session-manager
+  - src-openeuler/ukui-control-center
+  - src-openeuler/ukui-biometric-manager
+  - src-openeuler/ukui-settings-daemon
+  - src-openeuler/ukui-screenshot
+  - src-openeuler/ukui-notification-daemon
+  - src-openeuler/ukui-desktop-environment
+  - src-openeuler/ukui-panel
+  - src-openeuler/ukui-kwin
+  - src-openeuler/ukui-greeter
+  - src-openeuler/ukui-window-switch
+  - src-openeuler/ukui-biometric-auth
+  - src-openeuler/ukylin-feedback-client
+  - src-openeuler/ukui-user-guide
+  - src-openeuler/ukui-indicators
+  - src-openeuler/ukui-clock
+  - src-openeuler/ukui-interface
+  - src-openeuler/ukui-screensaver
+  - src-openeuler/ukui-wallpapers
+  - src-openeuler/ukui-themes
+  - src-openeuler/ukui-menu
+  - src-openeuler/imwheel
+  - src-openeuler/imlib2
+  - src-openeuler/indicator-china-weather
+  - src-openeuler/gsettings-qt
+  - src-openeuler/grantlee
+  - src-openeuler/grantlee-qt5
+  - src-openeuler/gumbo-parser
+  - src-openeuler/time-shutdown
+  - src-openeuler/shared-desktop-ontologies
+  - src-openeuler/system-config-language
+  - src-openeuler/shotwell
+  - src-openeuler/atril
+  - src-openeuler/attica
+  - src-openeuler/mecab-ipadic
+  - src-openeuler/mecab-jumandic
+  - src-openeuler/mpg123
+  - src-openeuler/mathjax
+  - src-openeuler/marked
+  - src-openeuler/codelite
+  - src-openeuler/claws-mail
+  - src-openeuler/ddcutil
+  - src-openeuler/qt5-ukui-platformtheme
+  - src-openeuler/qtchooser
+  - src-openeuler/quazip-qt5
+  - src-openeuler/qt5-qtcharts
+  - src-openeuler/qjson
+  - src-openeuler/xorg-x11-drv-synaptics
+  - src-openeuler/engrampa
+  - src-openeuler/biometric-authentication
+  - src-openeuler/blueman
+  - src-openeuler/bamf
+  - src-openeuler/bogofilter
+  - src-openeuler/bsfilter
+  - src-openeuler/kylin-calculator
+  - src-openeuler/kylin-recorder
+  - src-openeuler/kylin-printer
+  - src-openeuler/kylin-user-guide
+  - src-openeuler/kylin-photo-viewer
+  - src-openeuler/kylin-music
+  - src-openeuler/kylin-software-center
+  - src-openeuler/kylin-screenshot
+  - src-openeuler/kylin-display-switch
+  - src-openeuler/kylin-usb-creator
+  - src-openeuler/kylin-nm
+  - src-openeuler/kylin-installer
+  - src-openeuler/kylin-burner
+  - src-openeuler/kylin-ipmsg
+  - src-openeuler/kylin-video
+  - src-openeuler/kylin-scanner
+  - src-openeuler/libcrystalhd
+  - src-openeuler/libupnp
+  - src-openeuler/libytnef
+  - src-openeuler/libsysstat
+  - src-openeuler/libetpan
+  - src-openeuler/libfprint
+  - src-openeuler/libqtxdg
+  - src-openeuler/lxqt-build-tools
+  - src-openeuler/libkscreen-qt5
+  - src-openeuler/libstatgrab
+  - src-openeuler/youker-assistant
+  - src-openeuler/polkit-qt-1
+  - src-openeuler/pycharm-community
+  - src-openeuler/peony
+  - src-openeuler/peony-extensions
+  - src-openeuler/pluma

@@ -30,5 +30,6 @@ maintainers:
   organization: Huawei
   email: ls19950203@163.com
 repositories:
-- repo: openeuler/G11N
-- repo: openeuler/globalization
+- repo:
+  - openeuler/G11N
+  - openeuler/globalization

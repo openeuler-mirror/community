@@ -211,6 +211,12 @@ Tuesday 10 am bi-weekly, UTC+8.
    - Committers
      - 王 鼎[@wangding16](https://gitee.com/wangding16) email: wangding16@huawei.com
      - 熊 洲[@xiongzhou4](https://gitee.com/xiongzhou4) email: xiongzhou4@huawei.com
+ - [llvm-project](https://gitee.com/openeuler/llvm-project)
+   - Maintainers
+     - 钟 云德[@zhongyunde](https://gitee.com/zhongyunde) email: zhongyunde@huawei.com
+   - Committers
+     - 郭 培林[@peilin-guo](https://gitee.com/peilin-guo) email: guopeilin1@huawei.com
+     - 乔 沛鑫[@peixin-qiao](https://gitee.com/peixin-qiao) email: qiaopeixin@huawei.com
 
 ## Contact
  - [maillist](compiler@openeuler.org)

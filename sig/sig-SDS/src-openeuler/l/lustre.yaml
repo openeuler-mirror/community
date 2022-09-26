@@ -1,0 +1,7 @@
+name: lustre
+description: The Lustre is an open-source,parallel file system that supports many requirements of leader-ship class HPC simulation environments.
+upstream: https://git.whamcloud.com/fs/lustre-release.git
+branches:
+- name: master
+  type: protected
+type: public
