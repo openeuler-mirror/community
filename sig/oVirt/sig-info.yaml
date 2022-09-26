@@ -1,0 +1,115 @@
+name: oVirt
+description: The oVirt SIG aims to be responsible for the planning, maintenance and upgrading of oVirt related software packages, and the migration, adaptation and optimization of oVirt on the different hardware platform.
+created_on: '2020-02-25'
+mailing_list: ovirt@openeuler.org
+meeting_url: https://etherpad.openeuler.org/p/oVirt-meetings
+mature_level: startup
+maintainers:
+- gitee_id: hjimmy
+  name: Hou Jian
+  organization: KylinSoft
+  email: houjian@kylinos.cn
+- gitee_id: wm-wm-wm
+  name: Wang Mian
+  organization: KylinSoft
+  email: wangmian@kylinos.cn
+- gitee_id: jxy_git
+  name: Jiang Xinyu
+  organization: KylinSoft
+  email: jiangxinyu@kylinos.cn
+- gitee_id: crrs666
+  name: Wang Di
+  organization: KylinSoft
+  email: wangdi@kylinos.cn
+repositories:
+- repo:
+  - src-openeuler/riemann-c-client
+  - src-openeuler/rubygem-ovirt-engine-sdk4
+  - src-openeuler/unboundid-ldapsdk
+  - src-openeuler/ioprocess
+  - src-openeuler/imgbased
+  - src-openeuler/nodejs-yarn
+  - src-openeuler/nispor
+  - src-openeuler/nmstate
+  - src-openeuler/nsis-simple-service-plugin
+  - src-openeuler/go-ovirt-engine-sdk4
+  - src-openeuler/safelease
+  - src-openeuler/snmp4j
+  - src-openeuler/ansible-runner-service
+  - src-openeuler/freeipa
+  - src-openeuler/ovirt-ansible-vm-infra
+  - src-openeuler/ovirt-ansible-image-template
+  - src-openeuler/ovirt-engine-wildfly
+  - src-openeuler/ovirt-ansible-hosted-engine-setup
+  - src-openeuler/ovirt-lldp-labeler
+  - src-openeuler/ovirt-guest-agent
+  - src-openeuler/ovirt-ansible-roles
+  - src-openeuler/ovirt-vmconsole
+  - src-openeuler/ovirt-imageio-daemon
+  - src-openeuler/ovirt-node-ng-image-update
+  - src-openeuler/ovirt-ansible-infra
+  - src-openeuler/ovirt-engine-extensions-api
+  - src-openeuler/ovirt-engine-extension-aaa-jdbc
+  - src-openeuler/ovirt-iso-uploader
+  - src-openeuler/ovirt-engine-nodejs
+  - src-openeuler/ovirt-engine-api-explorer
+  - src-openeuler/ovirt-ansible-v2v-conversion-host
+  - src-openeuler/ovirt-jboss-modules-maven-plugin
+  - src-openeuler/ovirt-node-ng
+  - src-openeuler/ovirt-provider-ovn
+  - src-openeuler/ovirt-engine-extension-logger-log4j
+  - src-openeuler/ovirt-setup-lib
+  - src-openeuler/ovirt-engine
+  - src-openeuler/ovirt-guest-tools-iso
+  - src-openeuler/ovirt-ansible-engine-setup
+  - src-openeuler/ovirt-scheduler-proxy
+  - src-openeuler/ovirt-engine-cli
+  - src-openeuler/ovirt-ansible-cluster-upgrade
+  - src-openeuler/ovirt-hosted-engine-setup
+  - src-openeuler/ovirt-engine-extension-aaa-ldap
+  - src-openeuler/ovirt-engine-dwh
+  - src-openeuler/ovirt-dependencies
+  - src-openeuler/ovirt-host-deploy
+  - src-openeuler/otopi
+  - src-openeuler/ovirt-engine-metrics
+  - src-openeuler/ovirt-release43
+  - src-openeuler/ovirt-engine-api-model
+  - src-openeuler/ovirt-guest-agent-windows
+  - src-openeuler/openstack-java-sdk
+  - src-openeuler/ovirt-engine-appliance
+  - src-openeuler/ovirt-imageio-common
+  - src-openeuler/ovirt-hosted-engine-ha
+  - src-openeuler/ovirt-imageio
+  - src-openeuler/ovirt-cockpit-sso
+  - src-openeuler/ovirt-host
+  - src-openeuler/ovirt-web-ui
+  - src-openeuler/ovirt-engine-wildfly-overlay
+  - src-openeuler/ovirt-ansible-collection
+  - src-openeuler/ovirt-imageio-proxy
+  - src-openeuler/ovirt-engine-ui-extensions
+  - src-openeuler/ovirt-ansible-shutdown-env
+  - src-openeuler/ovirt-engine-extension-aaa-misc
+  - src-openeuler/ovirt-log-collector
+  - src-openeuler/ovirt-engine-nodejs-modules
+  - src-openeuler/ovirt-ansible-disaster-recovery
+  - src-openeuler/ovirt-ansible-manageiq
+  - src-openeuler/ovirt-ansible-repositories
+  - src-openeuler/highlight
+  - src-openeuler/mingw-spice-vdagent
+  - src-openeuler/makeself
+  - src-openeuler/mom
+  - src-openeuler/java-client-kubevirt
+  - src-openeuler/java-ovirt-engine-sdk4
+  - src-openeuler/collectd
+  - src-openeuler/cockpit-ovirt
+  - src-openeuler/vhostmd
+  - src-openeuler/virt-viewer
+  - src-openeuler/v2v-conversion-host
+  - src-openeuler/vdsm-jsonrpc-java
+  - src-openeuler/vdsm
+  - src-openeuler/virt-manager
+  - src-openeuler/engine-db-query
+  - src-openeuler/linux-system-roles
+  - src-openeuler/python-ansible-runner
+  - src-openeuler/python-daemon
+  - src-openeuler/python-ovirt-engine-sdk4
