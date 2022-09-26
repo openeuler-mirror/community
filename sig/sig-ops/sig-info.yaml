@@ -3,7 +3,6 @@ description: The ops team is responsible for the development and maintenance of 
 mailing_list: ops@openeuler.org
 meeting_url: https://mailweb.openeuler.org/hyperkitty/list/ops@openeuler.org/
 mature_level: startup
-
 maintainers:
 - gitee_id: luanjianhai
   name: Luan Jianhai
@@ -17,10 +16,10 @@ maintainers:
   name: Ding Xiang
   organization: China Mobile
   email: dingxiang@cmss.Chinamobile.com
-- gitee_id: gameoverboss
-  name: Zhou Kang
+- gitee_id: hjx_gitff
+  name: Chen Mingmin
   organization: Huawei
-  email: zhoukang7@huawei.com
+  email: chenmingmin@huawei.com
 - gitee_id: snoweay
   name: Sang Yan
   organization: Huawei
@@ -35,88 +34,94 @@ maintainers:
   email: luoshengwei@huawei.com
 - gitee_id: yangzhao_kl
   name: Yang Zhao
-  organization: Kylin
+  organization: Kylinsoft
   email: yangzhao1@kylinos.cn
 - gitee_id: dowzyx
   name: Zhao Yuxing
   organization: Huawei
   email: zhaoyuxing2@huawei.com
-
 repositories:
-- repo: openeuler/nvwa
-- repo: src-openeuler/nvwa
-- repo: openeuler/PilotGo
-- repo: openeuler/PilotGo-plugins
-- repo: openeuler/PilotGo-web
-- repo: openeuler/X-diagnosis
-- repo: src-openeuler/X-diagnosis
-- repo: openeuler/sysmonitor
-- repo: src-openeuler/sysmonitor
-- repo: openeuler/kbox
-- repo: src-openeuler/kbox
-- repo: openeuler/A-Ops
-  additional_contributors:
+- repo:
+  - openeuler/nvwa
+  - src-openeuler/nvwa
+  - openeuler/PilotGo
+  - openeuler/PilotGo-plugins
+  - openeuler/PilotGo-web
+  - openeuler/X-diagnosis
+  - src-openeuler/X-diagnosis
+  - openeuler/sysmonitor
+  - src-openeuler/sysmonitor
+  - openeuler/kbox
+  - src-openeuler/kbox
+  - openeuler/A-Ops
+  contributors:
   - gitee_id: hubble_zhu
     name: Zhu Hengbo
-    orgnization: Huawei
+    organization: Huawei
     email: zhuhengbo1@huawei.com
-- repo: src-openeuler/A-Ops
-- repo: src-openeuler/foreman
-- repo: src-openeuler/foreman-installer
-- repo: src-openeuler/foreman-proxy
-- repo: src-openeuler/foreman-selinux
-- repo: src-openeuler/katello
-- repo: src-openeuler/rubygem-powerbar
-- repo: src-openeuler/rubygem-actionmailbox
-- repo: src-openeuler/rubygem-actiontext
-- repo: src-openeuler/rubygem-ruby2ruby
-- repo: src-openeuler/rubygem-algebrick
-- repo: src-openeuler/rubygem-bootstrap-sass
-- repo: src-openeuler/rubygem-sassc-rails
-- repo: src-openeuler/rubygem-gettext
-- repo: src-openeuler/rubygem-locale
-- repo: src-openeuler/rubygem-text
-- repo: src-openeuler/nodejs-babel-core
-- repo: src-openeuler/nodejs-argv-parse
-- repo: src-openeuler/nodejs-dotenv
-- repo: src-openeuler/nodejs-extract-text-webpack-plugin
-- repo: src-openeuler/nodejs-file-loader
-- repo: src-openeuler/rubygem-bundler_ext
-- repo: src-openeuler/rubygem-webpack-rails
-- repo: src-openeuler/rubygem-roadie-rails
-- repo: src-openeuler/rubygem-net-ping
-- repo: src-openeuler/rubygem-jquery-ui-rails
-- repo: src-openeuler/rubygem-deacon
-- repo: src-openeuler/rubygem-coffee-rails
-- repo: src-openeuler/rubygem-faraday-em_http
-- repo: src-openeuler/rubygem-faraday-em_synchrony
-- repo: src-openeuler/rubygem-faraday-excon
-- repo: src-openeuler/rubygem-faraday-httpclient
-- repo: src-openeuler/rubygem-faraday-net_http
-- repo: src-openeuler/rubygem-faraday-net_http_persistent
-- repo: src-openeuler/rubygem-faraday-patron
-- repo: src-openeuler/rubygem-faraday-rack
-- repo: src-openeuler/rubygem-ruby2_keywords
-- repo: src-openeuler/puppet-agent-puppet-strings
-- repo: src-openeuler/python-treelib
-- repo: src-openeuler/nodejs-url-loader
-- repo: src-openeuler/nodejs-uglifyjs-webpack-plugin
-- repo: src-openeuler/nodejs-node-sass
-- repo: src-openeuler/nodejs-jed
-- repo: src-openeuler/nodejs-intl
-- repo: src-openeuler/rubygem-fluent-plugin-elasticsearch
-- repo: src-openeuler/rubygem-elasticsearch-ruby
-- repo: src-openeuler/criu
-- repo: src-openeuler/python-libconf
-- repo: openeuler/aops-apollo
-- repo: openeuler/aops-ceres
-- repo: openeuler/aops-diana
-- repo: openeuler/aops-hermes
-- repo: openeuler/aops-vulcanus
-- repo: openeuler/aops-zeus
-- repo: src-openeuler/aops-apollo
-- repo: src-openeuler/aops-ceres
-- repo: src-openeuler/aops-diana
-- repo: src-openeuler/aops-hermes
-- repo: src-openeuler/aops-vulcanus
-- repo: src-openeuler/aops-zeus
+- repo:
+  - openeuler/gala-gopher
+  - openeuler/gala-anteater
+  - openeuler/gala-docs
+  - openeuler/gala-spider
+  - openeuler/gala-ragdoll
+  - openeuler/aops-diana
+  - openeuler/aops-apollo
+  - openeuler/aops-hermes
+  - openeuler/aops-ceres
+  - openeuler/aops-zeus
+  - openeuler/aops-vulcanus
+  - src-openeuler/rubygem-fluent-plugin-elasticsearch
+  - src-openeuler/rubygem-deacon
+  - src-openeuler/rubygem-roadie-rails
+  - src-openeuler/rubygem-powerbar
+  - src-openeuler/rubygem-faraday-httpclient
+  - src-openeuler/rubygem-text
+  - src-openeuler/rubygem-bundler_ext
+  - src-openeuler/rubygem-algebrick
+  - src-openeuler/rubygem-ruby2ruby
+  - src-openeuler/rubygem-faraday-net_http_persistent
+  - src-openeuler/rubygem-bootstrap-sass
+  - src-openeuler/rubygem-coffee-rails
+  - src-openeuler/rubygem-gettext
+  - src-openeuler/rubygem-faraday-em_http
+  - src-openeuler/rubygem-locale
+  - src-openeuler/rubygem-faraday-em_synchrony
+  - src-openeuler/rubygem-net-ping
+  - src-openeuler/rubygem-jquery-ui-rails
+  - src-openeuler/rubygem-faraday-net_http
+  - src-openeuler/rubygem-faraday-rack
+  - src-openeuler/rubygem-elasticsearch-ruby
+  - src-openeuler/rubygem-webpack-rails
+  - src-openeuler/rubygem-ruby2_keywords
+  - src-openeuler/rubygem-faraday-excon
+  - src-openeuler/rubygem-faraday-patron
+  - src-openeuler/nodejs-babel-core
+  - src-openeuler/nodejs-file-loader
+  - src-openeuler/nodejs-url-loader
+  - src-openeuler/nodejs-extract-text-webpack-plugin
+  - src-openeuler/nodejs-intl
+  - src-openeuler/nodejs-dotenv
+  - src-openeuler/nodejs-jed
+  - src-openeuler/nodejs-node-sass
+  - src-openeuler/nodejs-argv-parse
+  - src-openeuler/nodejs-uglifyjs-webpack-plugin
+  - src-openeuler/aops-diana
+  - src-openeuler/arangodb
+  - src-openeuler/aops-apollo
+  - src-openeuler/aops-hermes
+  - src-openeuler/aops-ceres
+  - src-openeuler/aops-zeus
+  - src-openeuler/A-Ops
+  - src-openeuler/aops-vulcanus
+  - src-openeuler/foreman-selinux
+  - src-openeuler/foreman
+  - src-openeuler/foreman-proxy
+  - src-openeuler/flamegraph
+  - src-openeuler/foreman-installer
+  - src-openeuler/criu
+  - src-openeuler/katello
+  - src-openeuler/puppet-agent-puppet-strings
+  - src-openeuler/python-treelib
+  - src-openeuler/pyArango
+  - src-openeuler/python-libconf
