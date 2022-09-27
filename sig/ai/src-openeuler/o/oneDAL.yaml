@@ -1,0 +1,7 @@
+name: oneDAL
+description: A powerful machine learning library that helps speed up big data analysis, also used in Intel Distribution for Python for scikit-learn optimization.
+upstream: https://github.com/oneapi-src/oneDAL
+branches:
+- name: master
+  type: protected
+type: public
