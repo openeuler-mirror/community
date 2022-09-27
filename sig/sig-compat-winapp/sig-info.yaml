@@ -1,0 +1,70 @@
+name: sig-compat-winapp
+description: Compatibility Winapp sig group is mainly dedicated to introducing massive Windows applications for X86 platform into openeuler system with X86/arm architecture.
+created_on: '2021-05-08'
+mailing_list: compat-winapp@openeuler.org
+meeting_url: https://etherpad.openeuler.org/p/sig-compat-winapp-meetings
+mature_level: startup
+maintainers:
+- gitee_id: liangkeming
+  name: Liang Keming
+  organization: Kylinsoft
+  email: liangkeming@kylinos.cn
+- gitee_id: sunshower
+  name: Liu Buquan
+  organization: Kylinsoft
+  email: liubuquan@kylinos.cn
+- gitee_id: mu_ruichao
+  name: Mu Ruichao
+  organization: Kylinsoft
+  email: muruichao@kylinos.cn
+- gitee_id: linchaochao
+  name: Lin Chaochao
+  organization: Kylinsoft
+  email: linchaochao@kylinos.cn
+- gitee_id: guohaocs2c
+  name: Guo Hao
+  organization: Kylinsoft
+  email: guohao@kylinos.cn
+- gitee_id: fzw0910
+  name: Fu Zhengwei
+  organization: Kylinsoft
+  email: fuzhengwei@kylinos.cn
+- gitee_id: liuguishan
+  name: Liu Guishan
+  organization: Kylinsoft
+  email: liuguishan@kylinos.cn
+- gitee_id: jianminw
+  name: Wang Jianmin
+  organization: ISCAS
+  email: jianmin@iscas.ac.cn
+- gitee_id: vyloy
+  name: Weng Zhiyi
+  organization: ISCAS
+  email: zhiyi@iscas.ac.cn
+repositories:
+- repo:
+  - openeuler/compat-winapp
+  - openeuler/wine-app
+  - src-openeuler/isl
+  - src-openeuler/tslib
+  - src-openeuler/tinyxml
+  - src-openeuler/spirv-headers
+  - src-openeuler/spirv-tools
+  - src-openeuler/FAudio
+  - src-openeuler/mingw-wine-gecko
+  - src-openeuler/mingw-winpthreads
+  - src-openeuler/mingw-binutils
+  - src-openeuler/mingw-gcc
+  - src-openeuler/mingw-filesystem
+  - src-openeuler/mingw-headers
+  - src-openeuler/mingw-crt
+  - src-openeuler/jack-audio-connection-kit
+  - src-openeuler/cloog
+  - src-openeuler/vkd3d
+  - src-openeuler/efl
+  - src-openeuler/bullet
+  - src-openeuler/box86
+  - src-openeuler/libffado
+  - src-openeuler/libxmlpp
+  - src-openeuler/wine-mono
+  - src-openeuler/wine
