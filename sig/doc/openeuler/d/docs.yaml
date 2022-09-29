@@ -36,4 +36,7 @@ branches:
 - name: 1.0-base
   type: protected
   create_from: master
+- name: stable2-22.09
+  type: protected
+  create_from: master
 type: public
