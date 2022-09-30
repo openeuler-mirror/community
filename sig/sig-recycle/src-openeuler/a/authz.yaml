@@ -1,13 +1,16 @@
-name: isula-transform
-description: isula transform kit transform specify docker container to iSulad container
-upstream: https://gitee.com/openeuler/isula-transform
+name: authz
+description: An authorization plugin for iSulad.
+upstream: https://gitee.com/openeuler/authz
 branches:
 - name: master
   type: protected
-- name: openEuler-20.09
+- name: openEuler-20.03-LTS-SP1
   type: protected
   create_from: master
-- name: openEuler-20.03-LTS
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-20.09
   type: protected
   create_from: master
 - name: openEuler-21.03
