@@ -93,4 +93,6 @@ repository地址：
 - https://gitee.com/src-openeuler/oncn-bwm
 - https://gitee.com/openeuler/oncn-bwm
 - https://gitee.com/openeuler/GNFC
+- https://gitee.com/src-openeuler/Kmesh
+- https://gitee.com/openeuler/Kmesh
 
