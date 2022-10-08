@@ -3,4 +3,7 @@ description: ''
 branches:
 - name: master
   type: protected
+- name: stable-v2.0.x
+  type: protected
+  create_from: master
 type: public
