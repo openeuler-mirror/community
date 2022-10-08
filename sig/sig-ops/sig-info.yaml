@@ -60,17 +60,30 @@ repositories:
     organization: Huawei
     email: zhuhengbo1@huawei.com
 - repo:
-  - openeuler/gala-gopher
-  - openeuler/gala-anteater
-  - openeuler/gala-docs
-  - openeuler/gala-spider
-  - openeuler/gala-ragdoll
   - openeuler/aops-diana
   - openeuler/aops-apollo
   - openeuler/aops-hermes
   - openeuler/aops-ceres
   - openeuler/aops-zeus
   - openeuler/aops-vulcanus
+  - src-openeuler/aops-diana
+  - src-openeuler/aops-apollo
+  - src-openeuler/aops-hermes
+  - src-openeuler/aops-ceres
+  - src-openeuler/aops-zeus
+  - src-openeuler/aops-vulcanus
+  - src-openeuler/A-Ops
+  committers:
+  - gitee_id: zhu-yuncheng
+    name: Zhu Yuncheng
+    organization: Huawei
+    email: zhuyuncheng@huawei.com
+- repo:
+  - openeuler/gala-gopher
+  - openeuler/gala-anteater
+  - openeuler/gala-docs
+  - openeuler/gala-spider
+  - openeuler/gala-ragdoll
   - src-openeuler/rubygem-fluent-plugin-elasticsearch
   - src-openeuler/rubygem-deacon
   - src-openeuler/rubygem-roadie-rails
@@ -106,14 +119,7 @@ repositories:
   - src-openeuler/nodejs-node-sass
   - src-openeuler/nodejs-argv-parse
   - src-openeuler/nodejs-uglifyjs-webpack-plugin
-  - src-openeuler/aops-diana
   - src-openeuler/arangodb
-  - src-openeuler/aops-apollo
-  - src-openeuler/aops-hermes
-  - src-openeuler/aops-ceres
-  - src-openeuler/aops-zeus
-  - src-openeuler/A-Ops
-  - src-openeuler/aops-vulcanus
   - src-openeuler/foreman-selinux
   - src-openeuler/foreman
   - src-openeuler/foreman-proxy
