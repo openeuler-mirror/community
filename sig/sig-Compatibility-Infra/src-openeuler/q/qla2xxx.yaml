@@ -1,0 +1,22 @@
+name: qla2xxx
+description: provide Marvell QLogic FC HBA adapter qla2xxx driver for openEuler LTS version.
+upstream: https://gitee.com/openeuler/qla2xxx
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-22.03-LTS
+  type: protected
+  create_from: openEuler-22.03-LTS-Next
+- name: openEuler-20.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-20.03-LTS-SP1
+  type: protected
+  create_from: openEuler-20.03-LTS-Next
+- name: openEuler-20.03-LTS-SP3
+  type: protected
+  create_from: openEuler-20.03-LTS-Next
+type: public
