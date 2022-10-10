@@ -33,6 +33,20 @@ openEuler社区的所有项目都由Bot维护。
         </tr>
         <tr>
             <td>
+                /cla cancel
+            </td>
+            <td style="white-space:nowrap;">
+                /cla cancel
+            </td>
+            <td>
+                仓库协作者使用此命令用于删除不是由openeuler-ci-bot添加的"openeuler-cla/yes"标签.
+            </td>
+            <td>
+                仓库的协作者.
+            </td>
+        </tr>
+        <tr>
+            <td>
                 /lgtm [cancel]
             </td>
             <td style="white-space:nowrap;">
@@ -218,6 +232,64 @@ openEuler社区的所有项目都由Bot维护。
                 任何人都能在一个Issue上触发这种命令，
                 但是目标负责人必须是这个组织的一个成员。
                 如果没有指定目标负责人，这表明这个Issue会取消分配给自己。
+            </td>
+        </tr>
+        <tr>
+            <td>
+                /rebase
+            </td>
+            <td style="white-space:nowrap;">
+                /rebase
+            </td>
+            <td>
+                将Pull Request默认的合并方式修改为变基合并
+                变基合并：来自源分支的一个提交将被重新定位并提交到目标分支.
+            </td>
+            <td>
+                Collaborators on the repository.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                /rebase cancel
+            </td>
+            <td style="white-space:nowrap;">
+                /rebase cancel
+            </td>
+            <td>
+                此命令用于移除<strong>merge/rebase</strong>标签.
+            </td>
+            <td>
+                仓库的协作者.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                /flattened
+            </td>
+            <td style="white-space:nowrap;">
+                /flattened
+            </td>
+            <td>
+                将Pull Request默认的合并方式修改了扁平化分支合并
+                扁平化分支合并：源分支中的多个提交会打包成一个提交合并到目标分支.
+            </td>
+            <td>
+                仓库的协作者.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                /flattened cancel
+            </td>
+            <td style="white-space:nowrap;">
+                /flattened cancel
+            </td>
+            <td>
+                此命令用于移除<strong>merge/flattened</strong>标签.
+            </td>
+            <td>
+                仓库的协作者.
             </td>
         </tr>
     </tbody>
