@@ -237,5 +237,65 @@ The Commands incluing as follows:
                 If no target user is specified, that means this Issue will be unassigned from yourself.
             </td>
         </tr>
+        <tr>
+            <td>
+                /rebase
+            </td>
+            <td style="white-space:nowrap;">
+                /rebase
+            </td>
+            <td>
+                Change the merge method of pull request to <strong>rebase merge</strong>.
+                <br>
+                rebase merge: 1 commits from the source branch will be relocated and committed to the target branch.
+            </td>
+            <td>
+                Collaborators on the repository.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                /rebase cancel
+            </td>
+            <td style="white-space:nowrap;">
+                /rebase cancel
+            </td>
+            <td>
+                This command is used to remove the <strong>merge/rebase</strong> label.
+            </td>
+            <td>
+                Collaborators on the repository.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                /flattened
+            </td>
+            <td style="white-space:nowrap;">
+                /flattened
+            </td>
+            <td>
+                Change the merge method of pull request to <strong>flattened merge</strong>.
+                <br>
+                flattened merge: multiple commits in this branch will be packaged into a commit to the target branch.
+            </td>
+            <td>
+                Collaborators on the repository.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                /flattened cancel
+            </td>
+            <td style="white-space:nowrap;">
+                /flattened cancel
+            </td>
+            <td>
+                This command is used to remove <strong>merge/flattened</strong> label.
+            </td>
+            <td>
+                Collaborators on the repository.
+            </td>
+        </tr>
     </tbody>
 </table>
