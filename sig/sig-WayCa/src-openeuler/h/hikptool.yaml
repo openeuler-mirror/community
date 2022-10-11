@@ -1,0 +1,11 @@
+name: hikptool
+description: hikptool is a userspace tool for Linux providing enhanced capabilities of
+  inband information collection and problem location on Kunpeng chips.
+upstream: https://gitee.com/openeuler/hikptool
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
