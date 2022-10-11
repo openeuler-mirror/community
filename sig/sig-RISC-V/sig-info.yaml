@@ -1,0 +1,272 @@
+name: sig-RISC-V
+description: The RISC-V SIG group aims to provide the openEuler RISC-V version and guide the software package and system construction of openEuler RISC-V, so that developers who are interested in RISC-V can participate in the development of open source systems.
+created_on: '2020-04-14'
+mailing_list: dev@openeuler.org
+meeting_url: https://etherpad.openeuler.org/p/sig-RISC-V-meetings
+mature_level: startup
+
+maintainers:
+- gitee_id: wuwei_plct
+  name: Wei Wu
+  organization: iscas
+  email: wuwei2016@iscas.ac.cn
+- gitee_id: whoisxxx
+  name: Xuzhou Zhang
+  organization: huawei
+  email: zhangxuzhou4@huawei.com
+- gitee_id: liqingqing_1229
+  name: Qingqing Li
+  organization: huawei
+  email: 
+- gitee_id: liliang_euler
+  name: Liang Li
+  organization: huawei
+  email: liliang889@huawei.com
+- gitee_id: dongduResearcher
+  name: Dong Du
+  organization: sjtu
+  email: Dd_nirvana@sjtu.edu.cn
+- gitee_id: geasscore
+  name: Junqiang Wang
+  organization: iscas
+  email: wangjunqiang@iscas.ac.cn
+- gitee_id: phoebe-xi
+  name: Jing Xi
+  organization: iscas
+  email: xijing@iscas.ac.cn
+- gitee_id: wangyangdahai
+  name: Yang Wang
+  organization: iscas
+  email: admin@you2.top
+- gitee_id: laokz
+  name: Kai Zhang
+  organization: iscas
+  email: laokz@foxmail.com
+
+repositories:
+- repo:
+  - openeuler/RISC-V
+  committers:
+  - gitee_id: misaka00251
+    name: Xin Liu
+    organization: iscas
+    email: liuxin@iscas.ac.cn
+  - gitee_id: Jingwiw
+    name: Jingwei Wang
+    organization: iscas
+    email: wangjingwei@iscas.ac.cn
+  - gitee_id: jchzhou
+    name: Jiacheng Zhou
+    organization: iscas
+    email: zhoujiacheng@iscas.ac.cn
+  - gitee_id: lvxiaoqian
+    name: Xiaoqian Lv
+    organization: iscas
+    email: xiaoqian@nj.iscas.ac.cn
+  - gitee_id: jean9823
+    name: Jie Wu
+    organization: iscas
+    email: wujie@nj.iscas.ac.cn
+  - gitee_id: yunxiangluo
+    name: Yunxiang Luo
+    organization: iscas
+    email: luoyunxiang@iscas.ac.cn
+  
+- repo:
+  - src-openeuler/opensbi
+  committers:
+  - gitee_id: dongduResearcher
+    name: Dong Du
+    organization: sjtu
+    email: Dd_nirvana@sjtu.edu.cn
+
+- repo:
+  - src-openeuler/firesim
+  committers:
+  - gitee_id: YukariChiba
+    name: Chang Yang
+
+- repo:
+  - src-openeuler/perl-Encode-JIS2K
+  - src-openeuler/perl-HTTP-Response-Encoding
+  - src-openeuler/perl-MLDBM
+  - src-openeuler/perl-DateTime-Format-Strptime
+  - src-openeuler/perl-DateTime
+  - src-openeuler/perl-Encode-HanExtra
+  - src-openeuler/perl-Devel-StackTrace
+  - src-openeuler/perl-Class-Singleton
+  - src-openeuler/perl-Perl-MinimumVersion
+  - src-openeuler/perl-PPIx-Utilities
+  - src-openeuler/perl-Font-AFM
+  - src-openeuler/perl-Crypt-RC4
+  - src-openeuler/perl-Math-Base-Convert
+  - src-openeuler/perl-Dist-CheckConflicts
+  - src-openeuler/perl-Specio
+  - src-openeuler/perl-Log-Dispatch-FileRotate
+  - src-openeuler/perl-DateTime-TimeZone-Tzfile
+  - src-openeuler/perl-Devel-Hide
+  - src-openeuler/perl-Class-Data-Inheritable
+  - src-openeuler/perl-DateTime-Calendar-Julian
+  - src-openeuler/perl-Spreadsheet-WriteExcel
+  - src-openeuler/perl-LDAP
+  - src-openeuler/perl-Encode-EUCJPASCII
+  - src-openeuler/perl-Text-CSV
+  - src-openeuler/perl-HTML-Formatter
+  - src-openeuler/perl-Module-Implementation
+  - src-openeuler/perl-Devel-CallChecker
+  - src-openeuler/perl-PPIx-Utils
+  - src-openeuler/perl-Text-CSV_XS
+  - src-openeuler/perl-Jcode
+  - src-openeuler/perl-XString
+  - src-openeuler/perl-DBD-CSV
+  - src-openeuler/perl-DateTime-TimeZone-SystemV
+  - src-openeuler/perl-DateTime-TimeZone
+  - src-openeuler/perl-DynaLoader-Functions
+  - src-openeuler/perl-autovivification
+  - src-openeuler/perl-DateTime-Locale
+  - src-openeuler/perl-Scalar-Properties
+  - src-openeuler/perl-Parse-RecDescent
+  - src-openeuler/perl-DateTime-Format-Builder
+  - src-openeuler/perl-Perl-Critic
+  - src-openeuler/perl-Test2-Plugin-NoWarnings
+  - src-openeuler/perl-XML-LibXSLT
+  - src-openeuler/perl-Test-MinimumVersion
+  - src-openeuler/perl-Text-BibTeX
+  - src-openeuler/perl-SQL-Statement
+  - src-openeuler/perl-HTML-Tree
+  - src-openeuler/perl-Params-Classify
+  - src-openeuler/perl-Data-Uniqid
+  - src-openeuler/perl-Package-Stash-XS
+  - src-openeuler/perl-Params-ValidationCompiler
+  - src-openeuler/R-prettycode
+  - src-openeuler/R-yaml
+  - src-openeuler/R-askpass
+  - src-openeuler/R-R.oo
+  - src-openeuler/R-bit
+  - src-openeuler/R-R.cache
+  - src-openeuler/R-htmlwidgets
+  - src-openeuler/R-base64enc
+  - src-openeuler/R-brio
+  - src-openeuler/R-filehash
+  - src-openeuler/R-highr
+  - src-openeuler/R-XML
+  - src-openeuler/R-vctrs
+  - src-openeuler/R-callr
+  - src-openeuler/R-pingr
+  - src-openeuler/R-R.devices
+  - src-openeuler/R-curl
+  - src-openeuler/R-R.utils
+  - src-openeuler/R-rlang
+  - src-openeuler/R-praise
+  - src-openeuler/R-glue
+  - src-openeuler/R-labeling
+  - src-openeuler/R-ps
+  - src-openeuler/R-maps
+  - src-openeuler/R-R.methodsS3
+  - src-openeuler/R-tibble
+  - src-openeuler/R-Cairo
+  - src-openeuler/R-rstudioapi
+  - src-openeuler/R-sys
+  - src-openeuler/R-mvtnorm
+  - src-openeuler/R-waldo
+  - src-openeuler/R-ggplot2movies
+  - src-openeuler/R-generics
+  - src-openeuler/R-cpp11
+  - src-openeuler/R-fastmap
+  - src-openeuler/R-farver
+  - src-openeuler/R-sourcetools
+  - src-openeuler/R-pkgbuild
+  - src-openeuler/R-sp
+  - src-openeuler/R-pkgload
+  - src-openeuler/R-crayon
+  - src-openeuler/R-desc
+  - src-openeuler/R-showtext
+  - src-openeuler/R-TH-data
+  - src-openeuler/R-jsonlite
+  - src-openeuler/R-backports
+  - src-openeuler/R-evaluate
+  - src-openeuler/R-commonmark
+  - src-openeuler/R-Rcpp
+  - src-openeuler/R-testit
+  - src-openeuler/R-car
+  - src-openeuler/R-xml2
+  - src-openeuler/R-tikzDevice
+  - src-openeuler/R-utf8
+  - src-openeuler/R-testthat
+  - src-openeuler/R-rematch2
+  - src-openeuler/R-showtextdb
+  - src-openeuler/risc-v-kernel
+  - src-openeuler/R-bit64
+  - src-openeuler/R-jpeg
+  - src-openeuler/R-RCurl
+  - src-openeuler/R-BH-devel
+  - src-openeuler/R-png
+  - src-openeuler/R-prettyunits
+  - src-openeuler/R-RODBC
+  - src-openeuler/R-whisker
+  - src-openeuler/R-withr
+  - src-openeuler/R-sandwich
+  - src-openeuler/R-zoo
+  - src-openeuler/R-lifecycle
+  - src-openeuler/R-markdown
+  - src-openeuler/R-rprojroot
+  - src-openeuler/R-pillar
+  - src-openeuler/R-htmltools
+  - src-openeuler/R-assertthat
+  - src-openeuler/R-fansi
+  - src-openeuler/R-R6
+  - src-openeuler/R-RUnit
+  - src-openeuler/R-xtable
+  - src-openeuler/R-lmtest
+  - src-openeuler/R-coda
+  - src-openeuler/R-xfun
+  - src-openeuler/R-DBI
+  - src-openeuler/R-plogr
+  - src-openeuler/R-sysfonts
+  - src-openeuler/R-inline
+  - src-openeuler/R-diffobj
+  - src-openeuler/R-tinytex
+  - src-openeuler/R-multcomp
+  - src-openeuler/R-ellipsis
+  - src-openeuler/R-pkgconfig
+  - src-openeuler/R-cli
+  - src-openeuler/R-bitops
+  - src-openeuler/R-AUC
+  - src-openeuler/R-memoise
+  - src-openeuler/R-processx
+  - src-openeuler/R-digest
+  - src-openeuler/R-ascii
+  - src-openeuler/R-mockery
+  - src-openeuler/R-lmodel2
+  - src-openeuler/R-magrittr
+  - src-openeuler/R-R.rsp
+  - src-openeuler/R-dichromat
+  - src-openeuler/R-AsioHeaders
+  - src-openeuler/R-stringi
+  - src-openeuler/R-orcutt
+  - src-openeuler/R-cachem
+  - src-openeuler/R-stringr
+  - src-openeuler/R-mime
+  committers:
+  - gitee_id: misaka00251
+    name: Xin Liu
+    organization: iscas
+    email: liuxin@iscas.ac.cn
+  - gitee_id: Jingwiw
+    name: Jingwei Wang
+    organization: iscas
+    email: wangjingwei@iscas.ac.cn
+  - gitee_id: jchzhou
+    name: Jiacheng Zhou
+    organization: iscas
+    email: zhoujiacheng@iscas.ac.cn
+  - gitee_id: lvxiaoqian
+    name: Xiaoqian Lv
+    organization: iscas
+    email: xiaoqian@nj.iscas.ac.cn
+
+- repo:
+  - src-openeuler/NutShell-Kernel
+  - src-openeuler/NutShell-systemd
+  - src-openeuler/NutShell-riscv-pk
+  - src-openeuler/NutShell-riscv-glibc
