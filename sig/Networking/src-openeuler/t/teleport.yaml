@@ -1,0 +1,7 @@
+name: teleport
+description: Teleport is the easiest, most secure way to access all your infrastructure. Teleport is an identity-aware, multi-protocol access proxy which understands SSH, HTTPS, RDP, Kubernetes API, MySQL, MongoDB and PostgreSQL wire protocols.
+upstream: https://goteleport.com/
+branches:
+- name: master
+  type: protected
+type: public
