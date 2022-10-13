@@ -265,10 +265,10 @@ openEuler社区的所有项目都由Bot维护。
         </tr>
         <tr>
             <td>
-                /flattened
+                /squash
             </td>
             <td style="white-space:nowrap;">
-                /flattened
+                /squash
             </td>
             <td>
                 将Pull Request默认的合并方式修改了扁平化分支合并
@@ -280,13 +280,13 @@ openEuler社区的所有项目都由Bot维护。
         </tr>
         <tr>
             <td>
-                /flattened cancel
+                /squash cancel
             </td>
             <td style="white-space:nowrap;">
-                /flattened cancel
+                /squash cancel
             </td>
             <td>
-                此命令用于移除<strong>merge/flattened</strong>标签.
+                此命令用于移除<strong>merge/squash</strong>标签.
             </td>
             <td>
                 仓库的协作者.

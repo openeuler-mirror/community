@@ -269,15 +269,15 @@ The Commands incluing as follows:
         </tr>
         <tr>
             <td>
-                /flattened
+                /squash
             </td>
             <td style="white-space:nowrap;">
-                /flattened
+                /squash
             </td>
             <td>
-                Change the merge method of pull request to <strong>flattened merge</strong>.
+                Change the merge method of pull request to <strong>squash merge</strong>.
                 <br>
-                flattened merge: multiple commits in this branch will be packaged into a commit to the target branch.
+                squash merge: multiple commits in this branch will be packaged into a commit to the target branch.
             </td>
             <td>
                 Collaborators on the repository.
@@ -285,13 +285,13 @@ The Commands incluing as follows:
         </tr>
         <tr>
             <td>
-                /flattened cancel
+                /squash cancel
             </td>
             <td style="white-space:nowrap;">
-                /flattened cancel
+                /squash cancel
             </td>
             <td>
-                This command is used to remove <strong>merge/flattened</strong> label.
+                This command is used to remove <strong>merge/squash</strong> label.
             </td>
             <td>
                 Collaborators on the repository.
