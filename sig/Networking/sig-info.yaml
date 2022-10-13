@@ -31,9 +31,6 @@ repositories:
   - src-openeuler/fail2ban
 
 - repo:
-  - src-openeuler/glassfish-jax-rs-api
-  - src-openeuler/kronosnet
-  - src-openeuler/initscripts
   - src-openeuler/http-parser
   - src-openeuler/openvswitch
   - src-openeuler/ldns
@@ -145,16 +142,11 @@ repositories:
   - src-openeuler/freeradius-client
   - src-openeuler/i40e
   - src-openeuler/iavf
-  - src-openeuler/apache-commons-net
   - src-openeuler/libmbim
-  - src-openeuler/libqmi
-  - src-openeuler/spawn-fcgi
-  - src-openeuler/lighttpd
   - src-openeuler/guacamole
   - src-openeuler/wireguard-tools
   - src-openeuler/babeld
   - src-openeuler/wrk
-  - src-openeuler/trafficserver
   - src-openeuler/keepalived
   - src-openeuler/NetworkManager-l2tp
   - src-openeuler/xl2tpd
@@ -166,3 +158,22 @@ repositories:
   - gitee_id: gebidelidaye
     name: AichunLi
     email: liaichun@huawei.com
+
+- repo:
+  - src-openeuler/glassfish-jax-rs-api
+  - src-openeuler/libqmi
+  - src-openeuler/apache-commons-net
+  - src-openeuler/kronosnet
+  - src-openeuler/spawn-fcgi
+  - src-openeuler/lighttpd
+  - src-openeuler/wrk
+  - src-openeuler/trafficserver
+  committers:
+  - gitee_id: gitee-cmd
+    name: Mingdao Che
+    organization: Huawei
+    email: chemingdao@huawei.com
+  - gitee_id: caodongxia
+    name: Dongxia Cao
+    organization: Huawei
+    email: 315816521@qq.com
