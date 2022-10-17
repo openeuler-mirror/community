@@ -1,0 +1,7 @@
+name: exim
+description: Exim is an MTA (Message Transfer Agent)
+upstream: https://github.com/Exim/exim
+branches:
+- name: master
+  type: protected
+type: public
