@@ -18,7 +18,7 @@
 
 ### Maintainer列表
   - sinever
-  - njlzk
+  - my_code_x
   - yangzhao_kl
   - wuzeyi1
   - unioah
