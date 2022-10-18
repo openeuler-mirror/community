@@ -41,13 +41,13 @@ Please [readme](./Vision-en.md)
 - huangliming5@huawei.com
 - wuchangye@huawei.com
 - liuxin264@huawei.com
-- humin29@huawei.com
 - liyangyang20@huawei.com
 - wuchangsheng2@huawei.com
 
 ### Committer列表
 
 - 蒋 恒[@jiangheng12](https://gitee.com/jiangheng12) email: jiangheng14@huawei.com
+- 李辉松[@li-huisong](https://gitee.com/li-huisong) email: lihuisong@huawei.com
 
 ### 突出贡献者
 | gitee昵称 | giteeID | 邮箱 | 姓名(可选)|
