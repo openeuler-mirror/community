@@ -1,0 +1,7 @@
+name: opendmarc
+description: A Domain-based Message Authentication, Reporting & Conformance (DMARC) milter and library
+upstream: https://github.com/trusteddomainproject/OpenDMARC
+branches:
+- name: master
+  type: protected
+type: public
