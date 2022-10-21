@@ -1,0 +1,8 @@
+name: tcmu-runner
+description: A daemon that handles the userspace side of the LIO TCM-User backstore. 
+upstream: https://github.com/open-iscsi/tcmu-runner.git
+branches:
+- name: master
+  type: protected
+type: public
+
