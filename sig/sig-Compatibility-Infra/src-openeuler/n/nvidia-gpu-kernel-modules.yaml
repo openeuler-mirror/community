@@ -1,0 +1,13 @@
+name: nvidia-gpu-kernel-modules
+description: nvidia open gpu driver
+upstream: https://github.com/NVIDIA/open-gpu-kernel-modules
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-22.03-LTS
+  type: protected
+  create_from: openEuler-22.03-LTS-Next
+type: public
