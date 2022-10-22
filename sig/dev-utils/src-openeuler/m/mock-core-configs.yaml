@@ -1,0 +1,7 @@
+name: mock-core-configs
+description: Mock core config files basic chroots
+upstream: https://github.com/rpm-software-management/mock
+branches:
+- name: master
+  type: protected
+type: public
