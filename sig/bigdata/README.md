@@ -21,7 +21,6 @@
   - njlzk
   - yangzhao_kl
   - wuzeyi1
-  - unioah
 
 ### Committer列表
 

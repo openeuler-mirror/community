@@ -49,7 +49,6 @@
   - [njlzk](https://gitee.com/njlzk)
   - [yangzhao_kl](https://gitee.com/yangzhao_kl)
   - [wuzeyi1](https://gitee.com/wuzeyi1)
-  - [unioah](https://gitee.com/unioah)
 
 ## Committers
 
