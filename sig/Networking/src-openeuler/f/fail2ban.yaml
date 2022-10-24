@@ -4,5 +4,11 @@ upstream: https://www.fail2ban.org
 branches:
 - name: master
   type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-22.03-LTS
+  type: protected
+  create_from: openEuler-22.03-LTS-Next
 rename_from: python-fail2ban
 type: public
