@@ -15,9 +15,11 @@
 - 徐想想<xiangxiang.xu@i-soft.com.cn>[[@xu-think-about-it](https://gitee.com/xu-think-about-it)]
 - 阴进涛<jintao.yin@i-soft.com.cn>[[@jintao-yin](https://gitee.com/jintao-yin)]
 - 马永胜<maysh@esage.cn>[[@mayongsheng666](https://gitee.com/mayongsheng666)]
+- 吴梓萱<wuzx1226@qq.com>[[@wuzx065891](https://gitee.com/wuzx065891)]
 
 ### Maintainers列表
 - 姚嘉伟[@geoyi-yao](https://gitee.com/geori-yao)
 - 徐想想[@xu-think-about-it](https://gitee.com/xu-think-about-it)
 - 阴进涛[@jintao-yin](https://gitee.com/jintao-yin)
 - 马永胜[@mayongsheng666](https://gitee.com/mayongsheng666)
+- 吴梓萱[@wuzx065891](https://gitee.com/wuzx065891)
