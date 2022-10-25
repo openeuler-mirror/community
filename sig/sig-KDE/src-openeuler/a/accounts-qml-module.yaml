@@ -1,0 +1,7 @@
+name: accounts-qml-module
+description: QML bindings for libaccounts-qt + libsignon-qt
+upstream: https://gitlab.com/accounts-sso/accounts-qml-module
+branches:
+- name: master
+  type: protected
+type: public
