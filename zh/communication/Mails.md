@@ -2,13 +2,13 @@
 
 ### 加入邮件列表
 
-访问该地址<https://openeuler.org/zh/community/mails.html>找到社区可用的邮件列表，请根据您的兴趣参照下面步骤去加入某个邮件列表。
+访问该地址<https://www.openeuler.org/zh/community/mailing-list/>找到社区可用的邮件列表，请根据您的兴趣参照下面步骤去加入某个邮件列表。
 
 这里有两种加入方式.
 
 #### 1. 网页
 
-> 1) 点击<https://openeuler.org/zh/community/mails.html>中的列表名字进入订阅页面。
+> 1) 点击<https://www.openeuler.org/zh/community/mailing-list/>中的列表名字进入订阅页面。
 > 2) 输入订阅邮箱并点击“订阅”按钮。
 > 3) 登录邮箱并回复从openeuler.org发来的确认邮件。
 
