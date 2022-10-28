@@ -1,0 +1,7 @@
+name: yocto-meta-openembedded
+description: Collection of layers for the OE-core universe
+upstream: http://cgit.openembedded.org/meta-openembedded/
+branches:
+- name: master
+  type: protected
+type: public

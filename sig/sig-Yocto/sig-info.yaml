@@ -71,3 +71,7 @@ repositories:
   - src-openeuler/yocto-poky
   - src-openeuler/yocto-pseudo
   - src-openeuler/yocto-opkg-utils
+- repo:
+  - openeuler/yocto-meta-openembedded
+  - openeuler/yocto-meta-qt5
+  - openeuler/yocto-meta-ros

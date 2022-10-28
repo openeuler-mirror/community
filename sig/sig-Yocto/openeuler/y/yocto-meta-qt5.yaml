@@ -1,0 +1,7 @@
+name: yocto-meta-qt5
+description: Recipes for qt5 modules
+upstream: https://github.com/meta-qt5/meta-qt5
+branches:
+- name: master
+  type: protected
+type: public
