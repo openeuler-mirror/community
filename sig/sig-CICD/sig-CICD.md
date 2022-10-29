@@ -32,16 +32,17 @@ Repository for compass-ci: https://gitee.com/openeuler/compass-ci
 
 ### Maintainers
 - wu_fengguang
+- duan_pj
 - jimmy_hero
-- walkingwalk
 
 ### Committers
 - wu_fengguang
+- duan_pj
 - jimmy_hero
-- walkingwalk
 
 ### Mailing list
 - compass-ci@openeuler.org
 
 ### External Contact
 - wu_fengguang
+- duan_pj
