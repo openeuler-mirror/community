@@ -1,0 +1,30 @@
+name: sig-CICD
+description: 'openEuler CICD SIG'
+mailing_list: compass-ci@openeuler.org
+maintainers:
+- gitee_id: wu_fengguang
+  name: Wu Fengguang
+  email: wufengguang@huawei.com
+- gitee_id: duan_pj
+  name: Duan Pengjie
+  email: duanpengjie@huawei.com
+- gitee_id: jimmy_hero
+  name: Du Kaitian
+  email: dukaitian@huawei.com
+repositories:
+- repo:
+  - openeuler/compass-ci
+  repo_admin:
+  - gitee_id: wu_fengguang
+    name: Wu Fengguang
+    email: wufengguang@huawei.com
+  - gitee_id: duan_pj
+    name: Duan Pengjie
+    email: duanpengjie@huawei.com
+  committers:
+  - gitee_id: wu_fengguang
+    name: Wu Fengguang
+    email: wufengguang@huawei.com
+  - gitee_id: duan_pj
+    name: Duan Pengjie
+    email: duanpengjie@huawei.com

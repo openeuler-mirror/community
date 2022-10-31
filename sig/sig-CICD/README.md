@@ -10,20 +10,19 @@
 # 成员
 
 - wu_fengguang
+- duan_pj
 - jimmy_hero
-- walkingwalk
 
 ### Maintainer列表
 
 - 吴峰光[@wu_fengguang](https://gitee.com/wu_fengguang)
+- 段鹏杰[@duan_pj](https://gitee.com/duan_pj)
 - 杜开田[@jimmy_hero](https://gitee.com/jimmy_hero)
-- 伍伯东[@walkingwalk](https://gitee.com/walkingwalk)
 
 ### Committer列表
 
 - 吴峰光[@wu_fengguang](https://gitee.com/wu_fengguang)
-- 杜开田[@jimmy_hero](https://gitee.com/jimmy_hero)
-- 伍伯东[@walkingwalk](https://gitee.com/walkingwalk)
+- 段鹏杰[@duan_pj](https://gitee.com/duan_pj)
 
 # 联系方式
 
