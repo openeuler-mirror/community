@@ -1,0 +1,7 @@
+name: polkit-kde
+description: Daemon providing a Polkit authentication UI for Plasma
+upstream: https://github.com/KDE/polkit-kde-agent-1
+branches:
+- name: master
+  type: protected
+type: public
