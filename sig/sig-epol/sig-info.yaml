@@ -12,8 +12,18 @@ maintainers:
 - gitee_id: solarhu
   name: hufeng
   organization: huawei
-  email: soxiasenlin1@huawei.com
+  email: solar.hu@huawei.com
+
 repositories:
+
+- repo:
+  - src-openeuler/doracms
+  committers:
+  - gitee_id: doramart
+    name: xiao shen
+    organization: iscas
+    email: xiaoshen@isrc.iscas.ac.cn
+
 - repo:
   - src-openeuler/whois
   - src-openeuler/masscan
