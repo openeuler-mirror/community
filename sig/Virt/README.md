@@ -18,14 +18,14 @@
 ### OutStanding Contributor List
 
 - 张海亮[@zhanghailiang_lucky](https://gitee.com/zhanghailiang_lucky)
-- 吴斌[@RootWB](https://gitee.com/RootWB)
-- 王志钢[@cellfaint](https://gitee.com/cellfaint)
 
 ### Maintainer List
 
+- 吴斌[@RootWB](https://gitee.com/RootWB)
+- 王志钢[@cellfaint](https://gitee.com/cellfaint)
 - 陈振东[@zhendongchen](https://gitee.com/zhendongchen)
-- 邢超超[@imxcc](https://gitee.com/imxcc)
 - 郑川[@Chuan-Zheng](https://gitee.com/Chuan-Zheng)
+- 邢超超[@imxcc](https://gitee.com/imxcc)
 - 朱科潜[@kevinzhu1](https://gitee.com/kevinzhu1)
 - 杨杰[@frankyj915](https://gitee.com/frankyj915)
 - 叶增软[@yezengruan](https://gitee.com/yezengruan)
@@ -33,9 +33,10 @@
 
 ### Committer List
 
-- 徐飞[@flyking001](https://gitee.com/flyking001)
-- 张亮[@zhangliang5](https://gitee.com/zhangliang5)
-- 李佳杰[@lijiajie128](https://gitee.com/lijiajie128)
+- 俞毕洪[@mdsc](https://gitee.com/mdsc)
+- 刘向东[@avenLiu](https://gitee.com/aven6)
+- 郭馨乐[@xinleguo](https://gitee.com/xinleguo)
+- 毛晨曦[@chenxi-mao](https://gitee.com/chenxi-mao)
 
 ### Additional Contributors List
 
@@ -112,6 +113,18 @@
     - StratoVirt: 支持标准虚拟化
         - 支持直通设备热插拔
         - 支持磁盘启动
+- 22.09
+    - StratoVirt: 支持标准虚拟化
+        - 支持VNC
+        - 支持USB键盘/鼠标
+        - 支持virtio-gpu
+        - 支持Guest NUMA呈现
+        - 支持vCPU拓扑呈现
+    - Skylark: 支持虚拟化混合调度
+        - 支持集群调度增强
+        - 支持功耗控制
+        - 支持Cache及内存带宽控制
+        - 支持CPU干扰控制
 
 
 # 项目清单
