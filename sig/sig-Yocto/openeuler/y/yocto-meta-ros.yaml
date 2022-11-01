@@ -1,0 +1,7 @@
+name: yocto-meta-ros
+description: ROS (Robot Operating System) support layer
+upstream: https://github.com/ros/meta-ros
+branches:
+- name: master
+  type: protected
+type: public
