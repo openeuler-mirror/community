@@ -1,0 +1,7 @@
+name: mhvtl
+description: mhvtl is a virtual tape library that simulates disks as virtual tapes.
+upstream: https://github.com/markh794/mhvtl.git
+branches:
+- name: master
+  type: protected
+type: public
