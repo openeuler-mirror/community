@@ -27,20 +27,21 @@ git clone https://gitee.com/"$username"/community.git
    
    ```yaml
         repositories:
-        - repo: openeuler/openEuler-rpm-config
-        - repo: src-openeuler/abseil-cpp
-        - repo: src-openeuler/acl
-        - repo: src-openeuler/acpica-tools
-        - repo: src-openeuler/adcli
-        - repo: src-openeuler/aide
-        - repo: src-openeuler/airline
+        - repo: 
+          - openeuler/openEuler-rpm-config
+          - src-openeuler/abseil-cpp
+          - src-openeuler/acl
+          - src-openeuler/acpica-tools
+          - src-openeuler/adcli
+          - src-openeuler/aide
+          - src-openeuler/airline
      
          ...
      
-        - repo: src-openeuler/jansson
-        - repo: src-openeuler/apr
-        - repo: src-openeuler/python-lxml
-        - repo: src-openeuler/zip
+          - src-openeuler/jansson
+          - src-openeuler/apr
+          - src-openeuler/python-lxml
+          - src-openeuler/zip
  
    ```
 
