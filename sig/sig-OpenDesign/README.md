@@ -42,6 +42,7 @@ https://opendesign.openeuler.org
 - [talent-assessment](https://gitee.com/openeuler/talent-assessment)
 - [certificate-center](https://gitee.com/openeuler/certificate-center)
 - [docs-accompany-reading](https://gitee.com/openeuler/docs-accompany-reading)
+- [quick-issue](https://gitee.com/openeuler/quick-issue)
 
 ## 参考
 - [1] Hugo https://gohugo.io
