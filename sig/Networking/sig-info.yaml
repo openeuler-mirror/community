@@ -48,6 +48,7 @@ repositories:
   - src-openeuler/teleport
 
 - repo:
+  - src-openeuler/initscripts
   - src-openeuler/http-parser
   - src-openeuler/openvswitch
   - src-openeuler/ldns
@@ -163,7 +164,6 @@ repositories:
   - src-openeuler/guacamole
   - src-openeuler/wireguard-tools
   - src-openeuler/babeld
-  - src-openeuler/wrk
   - src-openeuler/keepalived
   - src-openeuler/NetworkManager-l2tp
   - src-openeuler/xl2tpd
