@@ -1,0 +1,7 @@
+name: fapolicyd
+description: Fapolicyd (File Access Policy Daemon) implements application whitelisting to decide file access rights. 
+upstream: https://github.com/linux-application-whitelisting/fapolicyd
+branches:
+- name: master
+  type: protected
+type: public
