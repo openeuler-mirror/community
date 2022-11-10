@@ -1,0 +1,10 @@
+name: libkysdk-system
+description: Kylin Software Development Kit - System Layer Kit
+upstream: https://gitee.com/openkylin/libkysdk-system
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
