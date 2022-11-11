@@ -1,0 +1,10 @@
+name: ros2_base
+description: The basic software package of ros2.
+upstream: https://github.com/ros2/ros2
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
