@@ -150,6 +150,12 @@ Compiler SIG 每双周周二上午10:00进行线上例会，也会定期举办�
    - Committers
      - 郭 培林[@peilin-guo](https://gitee.com/peilin-guo) 邮箱: guopeilin1@huawei.com
      - 乔 沛鑫[@peixin-qiao](https://gitee.com/peixin-qiao) 邮箱: qiaopeixin@huawei.com
+ - [BiShengCLanguage](https://gitee.com/openeuler/BiShengCLanguage)
+   - Maintainers
+     - 孙 子博[@sunzibo](https://gitee.com/sunzibo) email: sunzibo@huawei.com
+   - Committers
+     - 徐 茂达[@icu](https://gitee.com/icu) email: xumaoda@huawei.com
+     - 范 长春[@fanchangchun](https://gitee.com/fanchangchun) email: fanchangchun@huawei.com
  - [pin-server](https://gitee.com/openeuler/pin-server)
  - [src-openeuler/pin-server](https://gitee.com/src-openeuler/pin-server)
    - Maintainers
