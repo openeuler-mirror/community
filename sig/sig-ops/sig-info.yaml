@@ -80,12 +80,6 @@ repositories:
     organization: Huawei
     email: zhuyuncheng@huawei.com
 - repo:
-  - openeuler/gala-gopher
-  - openeuler/gala-anteater
-  - openeuler/gala-docs
-  - openeuler/gala-spider
-  - openeuler/gala-ragdoll
-- repo:
   - openeuler/hmir
   committers:
   - gitee_id: duanwujie88
@@ -114,6 +108,11 @@ repositories:
     organization: Linx
     email: dev17302@linx-info.com
 - repo:
+  - openeuler/gala-gopher
+  - openeuler/gala-anteater
+  - openeuler/gala-docs
+  - openeuler/gala-spider
+  - openeuler/gala-ragdoll
   - src-openeuler/rubygem-fluent-plugin-elasticsearch
   - src-openeuler/rubygem-deacon
   - src-openeuler/rubygem-roadie-rails
