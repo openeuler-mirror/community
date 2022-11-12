@@ -231,6 +231,7 @@ repository地址：
 - https://gitee.com/src-openeuler/system_tests
 - https://gitee.com/src-openeuler/tango_icons_vendor
 - https://gitee.com/src-openeuler/urdfdom_headers
+- https://gitee.com/src-openeuler/ros2_base
 
 项目名称：exten-ROS
 
