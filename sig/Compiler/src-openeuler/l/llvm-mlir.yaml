@@ -1,0 +1,10 @@
+name: llvm-mlir
+description: The MLIR project is a novel approach to building reusable and extensible compiler infrastructure.
+upstream: https://mlir.llvm.org/
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
