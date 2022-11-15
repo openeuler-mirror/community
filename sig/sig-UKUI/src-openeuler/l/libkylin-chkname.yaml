@@ -1,0 +1,10 @@
+name: libkylin-chkname
+description: kylin username check
+upstream: https://gitee.com/openkylin/libkylin-chkname
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
