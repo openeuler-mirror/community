@@ -48,6 +48,7 @@ Please [readme](./Vision-en.md)
 
 - 蒋 恒[@jiangheng12](https://gitee.com/jiangheng12) email: jiangheng14@huawei.com
 - 李辉松[@li-huisong](https://gitee.com/li-huisong) email: lihuisong@huawei.com
+- xiesongyang[@supercharge](https://gitee.com/supercharge) email: xiesongyang@huawei.com
 
 ### 突出贡献者
 | gitee昵称 | giteeID | 邮箱 | 姓名(可选)|
