@@ -124,7 +124,7 @@ Compiler SIG 每双周周二上午10:00进行线上例会，也会定期举办�
      - 赵 川峰[@cf-zhao](https://gitee.com/cf-zhao) 邮箱: zhaochuanfeng@huawei.com
    - Committers
      - 乔 沛鑫[@peixin-qiao](https://gitee.com/peixin-qiao) 邮箱: qiaopeixin@huawei.com
- - [A-FOT](https://gitee.com/openeuler/A-FOT) 
+ - [A-FOT](https://gitee.com/openeuler/A-FOT)
  - [src-openeuler/A-FOT](https://gitee.com/src-openeuler/A-FOT)
    - Maintainers
      - 李 彦成[@li-yancheng](https://gitee.com/li-yancheng) 邮箱: liyancheng@huawei.com
@@ -138,7 +138,7 @@ Compiler SIG 每双周周二上午10:00进行线上例会，也会定期举办�
    - Maintainers
      - 谢 志恒[@eastb233](https://gitee.com/eastb233) 邮箱: xiezhiheng@huawei.com
      - 李 彦成[@li-yancheng](https://gitee.com/li-yancheng) 邮箱: liyancheng@huawei.com
- - [gcc-for-openEuler](https://gitee.com/openeuler/gcc-for-openEuler) 
+ - [gcc-for-openEuler](https://gitee.com/openeuler/gcc-for-openEuler)
  - [src-openeuler/gcc-for-openEuler](https://gitee.com/src-openeuler/gcc-for-openEuler)
    - Maintainers
      - 谢 志恒[@eastb233](https://gitee.com/eastb233) 邮箱: xiezhiheng@huawei.com
@@ -164,6 +164,12 @@ Compiler SIG 每双周周二上午10:00进行线上例会，也会定期举办�
  - [src-openeuler/pin-server](https://gitee.com/src-openeuler/pin-gcc-client)
    - Maintainers
      - 李 彦成[@li-yancheng](https://gitee.com/li-yancheng) 邮箱: liyancheng@huawei.com
+ - [llvm-mlir](https://gitee.com/src-openeuler/llvm-mlir)
+   - Maintainers
+     - 李 彦成[@li-yancheng](https://gitee.com/li-yancheng) email: liyancheng@huawei.com
+   - Committers
+     - 黄 晓权[@huang-xiaoquan](https://gitee.com/huang-xiaoquan) email: huangxiaoquan1@huawei.com
+     - 林 达[@benniaobufeijiushiji](https://gitee.com/benniaobufeijiushiji) email: linda7@huawei.com
 
 ## 联系
  - [邮件列表](compiler@openeuler.org)

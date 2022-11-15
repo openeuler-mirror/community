@@ -223,6 +223,12 @@ Tuesday 10 am bi-weekly, UTC+8.
    - Committers
      - 徐 茂达[@icu](https://gitee.com/icu) email: xumaoda@huawei.com
      - 范 长春[@fanchangchun](https://gitee.com/fanchangchun) email: fanchangchun@huawei.com
+ - [llvm-mlir](https://gitee.com/src-openeuler/llvm-mlir)
+   - Maintainers
+     - 李 彦成[@li-yancheng](https://gitee.com/li-yancheng) email: liyancheng@huawei.com
+   - Committers
+     - 黄 晓权[@huang-xiaoquan](https://gitee.com/huang-xiaoquan) email: huangxiaoquan1@huawei.com
+     - 林 达[@benniaobufeijiushiji](https://gitee.com/benniaobufeijiushiji) email: linda7@huawei.com
 
 ## Contact
  - [maillist](compiler@openeuler.org)
