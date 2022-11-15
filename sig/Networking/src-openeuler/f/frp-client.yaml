@@ -2,6 +2,6 @@ name: frp-client
 description: 'A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.'
 upstream: https://github.com/fatedier/frp/
 branches:
-  name: master
+- name: master
   type: protected
 type: public
