@@ -170,6 +170,11 @@ Compiler SIG 每双周周二上午10:00进行线上例会，也会定期举办�
    - Committers
      - 黄 晓权[@huang-xiaoquan](https://gitee.com/huang-xiaoquan) email: huangxiaoquan1@huawei.com
      - 林 达[@benniaobufeijiushiji](https://gitee.com/benniaobufeijiushiji) email: linda7@huawei.com
+ - [Bear](https://gitee.com/src-openeuler/Bear)
+   - Maintainers
+     - 李 彦成[@li-yancheng](https://gitee.com/li-yancheng) email: liyancheng@huawei.com
+   - Committers
+     - 赵 文宇[@huitailangzju](https://gitee.com/huitailangzju) email: 804544223@qq.com
 
 ## 联系
  - [邮件列表](compiler@openeuler.org)
