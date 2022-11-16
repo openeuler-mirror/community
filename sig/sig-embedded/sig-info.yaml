@@ -51,9 +51,6 @@ repositories:
     name: Junxian Liu
     email: liujunxian3@huawei.com
 - repo:
-  - src-openeuler/ct-ng
-  - src-openeuler/libmetal
-  - src-openeuler/OpenAMP
   - openeuler/mcs
   repo_admin:
   - gitee_id: vonhust
@@ -71,10 +68,6 @@ repositories:
     email: hanzongcheng@huawei.com
 - repo:
   - src-openeuler/patchelf
-  repo_admin:
-  - gitee_id: vonhust
-    name: Wayne Ren
-    email: 191362693@qq.com
   contributors:
   - gitee_id: harvey-rtos
     name: Weigang Zhang
@@ -82,16 +75,15 @@ repositories:
 - repo:
   - src-openeuler/yaffs2
   - src-openeuler/mtd-utils
-  repo_admin:
-  - gitee_id: vonhust
-    name: Wayne Ren
-    email: 191362693@qq.com
   contributors:
   - gitee_id: lxy1579
     name: Xiaoyong Li
     email: lixiaoyong19@huawei.com
 - repo:
   - openeuler/embedded
+  - src-openeuler/ct-ng
+  - src-openeuler/libmetal
+  - src-openeuler/OpenAMP
   - src-openeuler/embedded-kernel
   - src-openeuler/libftdi
   - src-openeuler/urjtag
