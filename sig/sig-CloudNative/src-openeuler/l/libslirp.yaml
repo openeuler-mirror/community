@@ -1,5 +1,6 @@
 name: libslirp
-description: A general purpose TCP-IP emulator used by virtual machine hypervisors to provide virtual networking services.
+description: A general purpose TCP-IP emulator used by virtual machine hypervisors
+  to provide virtual networking services.
 upstream: https://gitlab.freedesktop.org/slirp/libslirp
 branches:
 - name: master
@@ -7,10 +8,13 @@ branches:
 - name: openEuler-22.03-LTS-Next
   type: protected
   create_from: master
-- name: openEuler-22.03-LTS  
-  type: protected  
+- name: openEuler-22.03-LTS
+  type: protected
   create_from: openEuler-22.03-LTS-Next
 - name: openEuler-22.09
   type: protected
   create_from: master
+- name: openEuler-22.03-LTS-SP1
+  type: protected
+  create_from: openEuler-22.03-LTS-Next
 type: public

@@ -1,5 +1,6 @@
 name: k3s
-description: Lightweight Kubernetes. Production ready, easy to install, half the memory, all in a binary less than 100 MB
+description: Lightweight Kubernetes. Production ready, easy to install, half the memory,
+  all in a binary less than 100 MB
 upstream: https://github.com/k3s-io/k3s
 branches:
 - name: master
@@ -16,4 +17,7 @@ branches:
 - name: openEuler-22.09
   type: protected
   create_from: master
+- name: openEuler-22.03-LTS-SP1
+  type: protected
+  create_from: openEuler-22.03-LTS-Next
 type: public
