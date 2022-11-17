@@ -114,3 +114,4 @@ repository地址：
   - https://gitee.com/openeuler/deepin-upgrade-tool
   - https://gitee.com/src-openeuler/deepin-pw-check
   - https://gitee.com/src-openeuler/cryfs
+  - https://gitee.com/src-openeuler/deepin-image-editor

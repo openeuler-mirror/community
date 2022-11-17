@@ -1,0 +1,13 @@
+name: deepin-image-editor
+description: Libraries of Deepin Image editor
+upstream: https://github.com/linuxdeepin/image-editor
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-22.03-LTS-SP1
+  type: protected
+  create_from: openEuler-22.03-LTS-Next
+type: public
