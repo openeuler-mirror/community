@@ -1,0 +1,12 @@
+name: python-networking-ovn
+description: OVN provides virtual networking for Open vSwitch and is a
+  component of the Open vSwitch project. This project provides integration
+  between OpenStack Neutron and OVN.
+upstream: https://opendev.org/openstack/networking-ovn/src/branch/stable/train
+branches:
+- name: master
+  type: protected
+- name: Multi-Version_OpenStack-Train_openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
