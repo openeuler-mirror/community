@@ -1,0 +1,7 @@
+name: trinity
+upstream: https://github.com/kernelslacker/trinity
+description: Trinity is a Linux kernel system call fuzzy testing tool, which uses random parameters to call system calls randomly.Trinity supports alpha, aarch64, arm, i386, IA-64, MIPs, powerpc-32, powerpc-64, S390, s390x, sparc-64, x86-64.
+branches:
+- name: master
+  type: protected
+type: public
