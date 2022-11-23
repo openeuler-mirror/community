@@ -1,0 +1,7 @@
+name: libxml2-rust
+description: rewrite memory leak modules for libxml2 using Rust
+upstream: https://gitee.com/openeuler/libxml2-rust
+branches:
+- name: master
+  type: protected
+type: public
