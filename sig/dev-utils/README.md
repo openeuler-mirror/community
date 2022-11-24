@@ -88,3 +88,4 @@ jingxiaolu
 - https://gitee.com/openeuler/pyporter
 - https://gitee.com/openeuler/perlporter
 - https://gitee.com/openeuler/pkgporter
+- https://gitee.com/src-openeuler/glances
