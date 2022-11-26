@@ -1,0 +1,7 @@
+name: fstools
+description: OpenWrt filesystem utilities
+upstream: git://git.openwrt.org/project/fstools.git
+branches:
+- name: master
+  type: protected
+type: public
