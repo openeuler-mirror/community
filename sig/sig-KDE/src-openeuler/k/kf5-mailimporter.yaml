@@ -1,0 +1,7 @@
+name: kf5-mailimporter
+description: Library that implements importing of emails from various other email clients
+upstream: https://github.com/KDE/mailimporter
+branches:
+- name: master
+  type: protected
+type: public
