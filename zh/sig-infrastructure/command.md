@@ -42,7 +42,7 @@ openEuler社区的所有项目都由Bot维护。
                 仓库协作者使用此命令用于删除不是由openeuler-ci-bot添加的"openeuler-cla/yes"标签.
             </td>
             <td>
-                仓库的协作者.
+                仓库的成员以及管理员（Maintainers,Committers以及Repo_Admins）.
             </td>
         </tr>
         <tr>
@@ -58,7 +58,7 @@ openEuler社区的所有项目都由Bot维护。
                 为一个Pull Request添加或者删除`lgtm`标签，这个标签将用于Pull Request合入判断。
             </td>
             <td>
-                这个仓库的协作者。Pull Request能使用`/lgtm cancel`命令，但是不能使用`/lgtm`命令。
+                仓库的成员以及管理员（Maintainers,Committers以及Repo_Admins）。Pull Request作者能使用`/lgtm cancel`命令，但是不能使用`/lgtm`命令。
             </td>
         </tr>
         <tr>
@@ -74,7 +74,7 @@ openEuler社区的所有项目都由Bot维护。
                 为一个Pull Request添加或者删除`approved`标签，这个标签将用于Pull Request合入判断。
             </td>
             <td>
-                这个仓库的协作者。
+                仓库的成员以及管理员（Maintainers,Committers以及Repo_Admins）。
             </td>
         </tr>
         <tr>
@@ -139,7 +139,7 @@ openEuler社区的所有项目都由Bot维护。
                 关闭一个Pull Request或者Issue。
             </td>
             <td>
-                作者和仓库的协作者能触发这种命令。
+                作者和仓库的成员以及管理员（Maintainers,Committers以及Repo_Admins）。
             </td>
         </tr>
         <tr>
@@ -153,7 +153,7 @@ openEuler社区的所有项目都由Bot维护。
                 重新打开一个Issue。
             </td>
             <td>
-                作者和仓库的协作者能触发这种命令。
+                作者和仓库的成员以及管理员（Maintainers,Committers以及Repo_Admins）能触发命令。
             </td>
         </tr>
         <tr>
@@ -246,7 +246,7 @@ openEuler社区的所有项目都由Bot维护。
                 变基合并：来自源分支的一个提交将被重新定位并提交到目标分支.
             </td>
             <td>
-                Collaborators on the repository.
+                仓库的成员以及管理员（Maintainers,Committers以及Repo_Admins）.
             </td>
         </tr>
         <tr>
@@ -260,7 +260,7 @@ openEuler社区的所有项目都由Bot维护。
                 此命令用于移除<strong>merge/rebase</strong>标签.
             </td>
             <td>
-                仓库的协作者.
+                仓库的成员以及管理员（Maintainers,Committers以及Repo_Admins）.
             </td>
         </tr>
         <tr>
@@ -275,7 +275,7 @@ openEuler社区的所有项目都由Bot维护。
                 扁平化分支合并：源分支中的多个提交会打包成一个提交合并到目标分支.
             </td>
             <td>
-                仓库的协作者.
+                仓库的成员以及管理员（Maintainers,Committers以及Repo_Admins）.
             </td>
         </tr>
         <tr>
@@ -289,7 +289,7 @@ openEuler社区的所有项目都由Bot维护。
                 此命令用于移除<strong>merge/squash</strong>标签.
             </td>
             <td>
-                仓库的协作者.
+                仓库的成员以及管理员（Maintainers,Committers以及Repo_Admins）.
             </td>
         </tr>
     </tbody>
