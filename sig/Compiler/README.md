@@ -221,10 +221,10 @@ Tuesday 10 am bi-weekly, UTC+8.
      - 乔 沛鑫[@peixin-qiao](https://gitee.com/peixin-qiao) email: qiaopeixin@huawei.com
  - [BiShengCLanguage](https://gitee.com/openeuler/BiShengCLanguage)
    - Maintainers
-     - 孙 子博[@sunzibo](https://gitee.com/sunzibo) email: sunzibo@huawei.com
+     - 徐 茂达[@nns_icu](https://gitee.com/nns_icu) email: xumaoda@huawei.com
    - Committers
-     - 徐 茂达[@icu](https://gitee.com/icu) email: xumaoda@huawei.com
      - 范 长春[@fanchangchun](https://gitee.com/fanchangchun) email: fanchangchun@huawei.com
+     - 汪 焰韬[@plt42](https://gitee.com/plt42) email: wangyantao4@huawei.com
  - [llvm-mlir](https://gitee.com/src-openeuler/llvm-mlir)
    - Maintainers
      - 李 彦成[@li-yancheng](https://gitee.com/li-yancheng) email: liyancheng@huawei.com
