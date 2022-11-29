@@ -1,0 +1,7 @@
+name: yocto-meta-virtualization
+description: Collection of layers for virtualized solutions
+upstream: git://git.yoctoproject.org/meta-virtualization
+branches:
+- name: master
+  type: protected
+type: public
