@@ -1,0 +1,7 @@
+name: kf5-ksmtp
+description: Job-based library to send email through an SMTP server
+upstream: https://github.com/KDE/ksmtp
+branches:
+- name: master
+  type: protected
+type: public
