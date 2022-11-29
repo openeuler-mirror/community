@@ -26,7 +26,9 @@ Tuesday 10 am bi-weekly, UTC+8.
  - 李 彦成[@li-yancheng](https://gitee.com/li-yancheng) email: liyancheng@huawei.com
  - 黄 晓权[@huang-xiaoquan](https://gitee.com/huang-xiaoquan) email: huangxiaoquan1@huawei.com
  - 林 达[@benniaobufeijiushiji](https://gitee.com/benniaobufeijiushiji) email: linda7@huawei.com
-
+ - 李 海炜[@liheavy](https://gitee.com/liheavy) email: lihaiwei8@huawei.com
+### Contributes
+ - 许 崇宇[@xu-chongyu214](https://gitee.com/xu-chongyu214) email: xuchongyu@huawei.com
 ## Repositories
  - [bishengjdk-8](https://gitee.com/openeuler/bishengjdk-8)
    - Maintainers
@@ -234,7 +236,11 @@ Tuesday 10 am bi-weekly, UTC+8.
      - 李 彦成[@li-yancheng](https://gitee.com/li-yancheng) email: liyancheng@huawei.com
    - Committers
      - 赵 文宇[@huitailangzju](https://gitee.com/huitailangzju) email: 804544223@qq.com
-
+ - [gn](https://gitee.com/src-openeuler/gn)
+   - Committers
+     - 李 海炜[@liheavy](https://gitee.com/liheavy) email: lihaiwei8@huawei.com
+   - Contributers
+     - 许 崇宇[@xu-chongyu214](https://gitee.com/xu-chongyu214) email: xuchongyu@huawei.com 
 ## Contact
  - [maillist](compiler@openeuler.org)
  - wechat: Compiler_Assistant
