@@ -175,6 +175,11 @@ Compiler SIG 每双周周二上午10:00进行线上例会，也会定期举办�
      - 李 彦成[@li-yancheng](https://gitee.com/li-yancheng) email: liyancheng@huawei.com
    - Committers
      - 赵 文宇[@huitailangzju](https://gitee.com/huitailangzju) email: 804544223@qq.com
+ - [gn](https://gitee.com/src-openeuler/gn)
+   - Committers
+     - 李 海炜[@liheavy](https://gitee.com/liheavy) email: lihaiwei8@huawei.com
+   - Contributers
+     - 许 崇宇[@xu-chongyu214](https://gitee.com/xu-chongyu214) email: xuchongyu@huawei.com 
 
 ## 联系
  - [邮件列表](compiler@openeuler.org)
