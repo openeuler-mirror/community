@@ -44,7 +44,7 @@ The Commands incluing as follows:
                 repository collaborators can remove it by using this command.
             </td>
             <td>
-                Collaborators on the repository.
+                Repo_Admins,Maintainers and Committers on the repository.
             </td>
         </tr>
         <tr>
@@ -60,7 +60,7 @@ The Commands incluing as follows:
                 Adds or removes the <strong>lgtm</strong> label which is typically used to gate merging.
             </td>
             <td>
-                Collaborators on the repository. <strong>/lgtm cancel</strong> can be used additionally by the Pull Request author.
+                Repo_Admins,Maintainers and Committers on the repository. <strong>/lgtm cancel</strong> can be used additionally by the Pull Request author.
             </td>
         </tr>
         <tr>
@@ -76,7 +76,7 @@ The Commands incluing as follows:
                 Adds or removes the <strong>approved</strong> label which is typically used to gate merging.
             </td>
             <td>
-                Collaborators on the repository.
+                Repo_Admins,Maintainers and Committers on the repository.
             </td>
         </tr>
         <tr>
@@ -141,7 +141,7 @@ The Commands incluing as follows:
                 Closes a Pull Request or an Issue.
             </td>
             <td>
-                Authors and collaborators on the repository can trigger this command.
+                Authors,Repo_Admins,Maintainers and Committers on the repository can trigger this command.
             </td>
         </tr>
         <tr>
@@ -155,7 +155,7 @@ The Commands incluing as follows:
                 Reopens an Issue.
             </td>
             <td>
-                Authors and collaborators on the repository can trigger this command.
+                Authors,Repo_Admins,Maintainers and Committers on the repository can trigger this command.
             </td>
         </tr>
         <tr>
@@ -250,7 +250,7 @@ The Commands incluing as follows:
                 rebase merge: 1 commits from the source branch will be relocated and committed to the target branch.
             </td>
             <td>
-                Collaborators on the repository.
+                Repo_Admins,Maintainers and Committers on the repository.
             </td>
         </tr>
         <tr>
@@ -264,7 +264,7 @@ The Commands incluing as follows:
                 This command is used to remove the <strong>merge/rebase</strong> label.
             </td>
             <td>
-                Collaborators on the repository.
+                Repo_Admins,Maintainers and Committers on the repository.
             </td>
         </tr>
         <tr>
@@ -280,7 +280,7 @@ The Commands incluing as follows:
                 squash merge: multiple commits in this branch will be packaged into a commit to the target branch.
             </td>
             <td>
-                Collaborators on the repository.
+                Repo_Admins,Maintainers and Committers on the repository.
             </td>
         </tr>
         <tr>
@@ -294,7 +294,7 @@ The Commands incluing as follows:
                 This command is used to remove <strong>merge/squash</strong> label.
             </td>
             <td>
-                Collaborators on the repository.
+                Repo_Admins,Maintainers and Committers on the repository.
             </td>
         </tr>
     </tbody>
