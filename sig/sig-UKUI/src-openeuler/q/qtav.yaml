@@ -1,0 +1,10 @@
+name: qtav
+description: A media playback framework based on Qt and FFmpeg
+upstream: https://github.com/wang-bin/QtAV
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
