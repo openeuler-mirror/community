@@ -385,3 +385,5 @@ openeuler/TCP_option_address
 repository地址：
 - https://gitee.com/openeuler/kernel
 - https://gitee.com/src-openeuler/kernel
+- https://gitee.com/openeuler/kconfigDetector
+- https://gitee.com/src-openeuler/kconfigDetector
