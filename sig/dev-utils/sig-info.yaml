@@ -67,6 +67,7 @@ repositories:
 - repo:
   - src-openeuler/libwpe
   - src-openeuler/wpebackend-fdo
+  - src-openeuler/bcc
   committers:
   - gitee_id: bitcoffee
     name: xin Liu
@@ -178,7 +179,6 @@ repositories:
   - src-openeuler/brpc
   - src-openeuler/base64coder
   - src-openeuler/bash-argsparse
-  - src-openeuler/bcc
   - src-openeuler/bam
   - src-openeuler/bea-stax
   - src-openeuler/bcrypt
