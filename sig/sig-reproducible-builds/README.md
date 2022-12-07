@@ -43,7 +43,7 @@
 [邮件列表](dev@openeuler.org)
 
 # 项目清单
-项目名称：reproducible-builds
-构建结果看板地址：https://reproducible-builds.openeuler.org/
-项目仓库地址：https://github.com/7Light/reproducibleopeneuler/
-可重复构建国际社区成员：https://reproducible-builds.org/citests/
+- 项目名称：reproducible-builds
+- 构建结果看板地址：https://reproducible-builds.openeuler.org/
+- 项目仓库地址：https://github.com/7Light/reproducibleopeneuler/
+- 可重复构建国际社区成员：https://reproducible-builds.org/citests/
