@@ -38,12 +38,9 @@
 - 文豪 [@wenhao7](https://gitee.com/wenhao7/) Email: wenhao7@huawei.com
 - 熊风波 [@linxi9527](https://gitee.com/linxi9527) Email: xiongfengbo@huawei.com
 
-# 邮件列表
-
-[邮件列表](dev@openeuler.org)
-
 # 项目清单
 - 项目名称：reproducible-builds
-- 构建结果看板地址：https://reproducible-builds.openeuler.org/
 - 项目仓库地址：https://github.com/7Light/reproducibleopeneuler/
+- 构建结果看板地址：https://reproducible-builds.openeuler.org/
 - 可重复构建国际社区成员：https://reproducible-builds.org/citests/
+
