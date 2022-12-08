@@ -563,7 +563,6 @@ repositories:
   - src-openeuler/capstone
   - src-openeuler/clevis
   - src-openeuler/ctags
-  - src-openeuler/dbus-broker
   - src-openeuler/diffstat
   - src-openeuler/docbook-dtds
   - src-openeuler/docbook-style-xsl
@@ -670,3 +669,15 @@ repositories:
   - gitee_id: Tom_zc
     name: Zhu Chao
     email: tom_toworld@163.com
+
+- repo:
+  - src-openeuler/dbus-broker
+  committers:
+  - gitee_id: licunlong
+    name: licunlong
+    organization: Huawei
+    email: licunlong1@huawei.com
+  - gitee_id: dillon_chen
+    name: chenqide
+    organization: kylinos
+    email: dillon.chen@gmail.com
