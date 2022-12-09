@@ -1,0 +1,7 @@
+name: curl-rust
+description: Rewrite memory leak related modules for curl using Rust
+upstream: https://gitee.com/openeuler/curl-rust
+branches:
+- name: master
+  type: protected
+type: public
