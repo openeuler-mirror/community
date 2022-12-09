@@ -43,12 +43,20 @@ https://gitee.com/openeuler/community/tree/master/sig/sig-DPU/
 - lch-lichunhui[@lch-lichunhui](https://gitee.com/lch-lichunhui)
 - lic121[@lic121](https://gitee.com/lic121)
 - minknov[@minknov](https://gitee.com/minknov)
+- victorzoum[@victorzoum](https://gitee.com/victorzoum)
+- C0reFast[@C0reFast](https://gitee.com/C0reFast)
+- liuhaic[@liuhaic](https://gitee.com/liuhaic)
+- chenanqing1985[@chenanqing1985](https://gitee.com/chenanqing1985)
 
 ### Committers
 
 - lch-lichunhui[@lch-lichunhui](https://gitee.com/lch-lichunhui)
 - lic121[@lic121](https://gitee.com/lic121)
 - minknov[@minknov](https://gitee.com/minknov)
+- victorzoum[@victorzoum](https://gitee.com/victorzoum)
+- C0reFast[@C0reFast](https://gitee.com/C0reFast)
+- liuhaic[@liuhaic](https://gitee.com/liuhaic)
+- chenanqing1985[@chenanqing1985](https://gitee.com/chenanqing1985)
 - ryuxin[@ryuxin](https://gitee.com/ryuxin)
 - luochenglcs[@luochenglcs](https://gitee.com/luochenglcs)
 - superhugepan[@superhugepan](https://gitee.com/superhugepan)
