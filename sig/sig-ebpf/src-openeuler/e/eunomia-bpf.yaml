@@ -1,0 +1,7 @@
+name: eunomia-bpf
+upstream: https://github.com/eunomia-bpf/eunomia-bpf
+description: A toolchain to help build eBPF app with kernel code only, distribute, and run CO-RE eBPF programs with config or WASM module.
+branches:
+- name: master
+  type: protected
+type: public
