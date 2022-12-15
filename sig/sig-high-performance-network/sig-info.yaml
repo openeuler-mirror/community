@@ -30,9 +30,6 @@ repositories:
 - repo:
   - src-openeuler/rdma-core
   - src-openeuler/perftest
-  - src-openeuler/libbpf
-  - src-openeuler/goebpf
-  - src-openeuler/xdp-tools
   - src-openeuler/libvma
   - src-openeuler/polycube
   - src-openeuler/cilium
@@ -66,12 +63,4 @@ repositories:
     name: lihuisong
     organization: huawei
     email: lihuisong@huawei.com
-- repo:
-  - src-openeuler/Kmesh
-  - openeuler/Kmesh
-  committers:
-  - gitee_id: supercharge
-    name: supercharge
-    organization: huawei
-    email: xiesongyang@huawei.com
 
