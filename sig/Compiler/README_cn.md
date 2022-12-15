@@ -99,9 +99,13 @@ Compiler SIG 每双周周二上午10:00进行线上例会，也会定期举办�
    - Committers
      - 章 海剑[@Haijian.Zhang](https://gitee.com/haijianzhang) 邮箱: z.zhanghaijian@huawei.com
  - [llvm](https://gitee.com/src-openeuler/llvm)
+ - [llvm-15](https://gitee.com/src-openeuler/llvm-15)
  - [llvm-bolt](https://gitee.com/src-openeuler/llvm-bolt)
+ - [lld](https://gitee.com/src-openeuler/lld)
+ - [lld-15](https://gitee.com/src-openeuler/lld-15)
  - [WLLVM](https://gitee.com/src-openeuler/WLLVM)
  - [clang](https://gitee.com/src-openeuler/clang)
+ - [clang-15](https://gitee.com/src-openeuler/clang-15)
  - [compiler-rt](https://gitee.com/src-openeuler/compiler-rt)
  - [libcxx](https://gitee.com/src-openeuler/libcxx)
  - [libcxxabi](https://gitee.com/src-openeuler/libcxxabi)
