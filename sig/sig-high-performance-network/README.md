@@ -73,9 +73,6 @@ repository地址：
 
 - https://gitee.com/src-openeuler/dpdk
 - https://gitee.com/src-openeuler/rdma-core
-- https://gitee.com/src-openeuler/libbpf
-- https://gitee.com/src-openeuler/goebpf
-- https://gitee.com/src-openeuler/xdp-tools
 - https://gitee.com/src-openeuler/libvma
 - https://gitee.com/src-openeuler/polycube
 - https://gitee.com/src-openeuler/cilium
@@ -94,6 +91,4 @@ repository地址：
 - https://gitee.com/src-openeuler/oncn-bwm
 - https://gitee.com/openeuler/oncn-bwm
 - https://gitee.com/openeuler/GNFC
-- https://gitee.com/src-openeuler/Kmesh
-- https://gitee.com/openeuler/Kmesh
 

@@ -7,10 +7,21 @@ maintainers:
   name: Leon Wang
   organization: CTyun
   email: wangl29@chinatelecom.cn
+- gitee_id: MrRlu
+  name: luzhihao
+  organization: Huawei
+  email: luzhihao@huawei.com
+- gitee_id: weiyj
+  name: weiyongjun
+  organization: Huawei
+  email: weiyongjun1@huawei.com
+- gitee_id: DevinRTK
+  name: xuqingwei
+  organization: SANGFOR
+  email: devin.rtk@gmail.com
 repositories:
 - repo:
   - openeuler/Agith
-  - src-openeuler/eunomia-bpf
   committers:
   - gitee_id: sgdd123
     name: Shangguan Dongdong
@@ -29,3 +40,42 @@ repositories:
     name: Zhang Junyu
     organization: Sun Yat-sen University 
     email: 940991267@qq.com
+- repo:
+  - src-openeuler/eunomia-bpf
+  committers:
+  - gitee_id: yunwei37
+    name: zhengyusen
+    organization: ZheJiang University
+    email: 1067852565@qq.com
+- repo:
+  - openeuler/Kmesh
+  - src-openeuler/libbpf
+  - src-openeuler/bpftrace
+  - src-openeuler/bcc
+  - src-openeuler/goebpf
+  - src-openeuler/xdp-tools
+  committers:
+  - gitee_id: nlgwcy
+    name: wuchangye
+    organization: Huawei
+    email: wuchangye@huawei.com
+  - gitee_id: bitcoffee
+    name: liuxin
+    organization: Huawei
+    email: liuxin350@huawei.com
+  - gitee_id: supercharge
+    name: xiesongyang
+    organization: Huawei
+    email: xiesongyang@huawei.com
+  - gitee_id: LemmyHuang
+    name: huangliming
+    organization: Huawei
+    email: huangliming5@huawei.com
+- repo:
+  - openeuler/gala-gopher
+  - src-openeuler/gala-gopher
+  committers:
+  - gitee_id: MrRlu
+    name: luzhihao
+    organization: Huawei
+    email: luzhihao@huawei.com
