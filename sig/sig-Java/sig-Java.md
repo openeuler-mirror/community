@@ -25,7 +25,6 @@ The openEuler Java SIG aims at providing Java package solution and guideline to 
 
 ### Maintainers
 - luo-haibo
-- sinever
 - wangchong1995924
 - rita_dong
 

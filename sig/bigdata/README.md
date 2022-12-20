@@ -17,14 +17,12 @@
 ## 成员
 
 ### Maintainer列表
-  - sinever
   - my_code_x
   - yangzhao_kl
   - wuzeyi1
 
 ### Committer列表
 
-- sinever
 
 ## repository地址：
 
