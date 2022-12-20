@@ -22,23 +22,30 @@
 
 ### Maintainer列表
 
-- [@freesky-edward](gitee.com/freesky-edward)
-
+- [@georgecao](https://gitee.com/georgecao)
+- [@TommyLike](https://gitee.com/TommyLike)
+- [@miao_kaibo](https://gitee.com/miao_kaibo)
+- [@imjoey](https://gitee.com/imjoey)
+- [@zerodefect](https://gitee.com/zerodefect)
+- [@zhuchunyi](https://gitee.com/zhuchunyi)
+- [@zhongjun2](https://gitee.com/zhongjun2)
+- [@zhengyuhanghans](https://gitee.com/zhengyuhanghans)
+- [@xiangxinyong](https://gitee.com/xiangxinyong)
+- [@genedna](https://gitee.com/genedna)
 
 ### Committer列表
+- [@ZhengZhenyu](https://gitee.com/ZhengZhenyu)
+- [@youyifeng](https://gitee.com/youyifeng)
+- [@wuzimo](https://gitee.com/wuzimo)
+- [@ctyunsystem](https://gitee.com/ctyunsystem)
 
-  - dogsheng
-  - miao_kaibo
-  - freesky-edward
-  - imjoey
-  - TommyLike
-  - xiangxinyong
-  - zerodefect
-  - zhuchunyi
-  - zhongjun2
-  - zhengyuhanghans
-  - genedna
-  - yikunkero
+### 构建组成员：
+- [@dongjie110](https://gitee.com/dongjie110)
+- [@yaolonggang](https://gitee.com/yaolonggang)
+- [@small_leek](https://gitee.com/small_leek)
+- [@wangchong1995924](https://gitee.com/wangchong1995924)
+- [@cxl78320](https://gitee.com/cxl78320)
+
 
 # 联系方式
 
