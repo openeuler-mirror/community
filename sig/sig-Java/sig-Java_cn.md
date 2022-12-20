@@ -34,7 +34,6 @@ https://gitee.com/openeuler/community/tree/master/sig/sig-Java/
 
 ### Maintainers
 - luo-haibo
-- sinever
 - wangchong1995924
 - rita_dong
 

@@ -32,7 +32,6 @@ openEuler Java SIG 致力于将 Java 生态中大量高质量开源应用、组�
 ### Maintainer 列表
 
 - luo-haibo
-- sinever
 - it_bricklayer
 - rita_dong
 

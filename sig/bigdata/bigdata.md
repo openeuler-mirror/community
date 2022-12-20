@@ -44,7 +44,6 @@ The data has become the fifth factor of production after land, labor, capital an
 # Basic Information
 
 ## Maintainers
-  - [sinever](https://gitee.com/sinever)
   - [njlzk](https://gitee.com/njlzk)
   - [yangzhao_kl](https://gitee.com/yangzhao_kl)
   - [wuzeyi1](https://gitee.com/wuzeyi1)

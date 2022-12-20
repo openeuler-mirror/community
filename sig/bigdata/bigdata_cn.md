@@ -45,7 +45,6 @@
 # 基本信息
 
 ## Maintainers
-  - [sinever](https://gitee.com/sinever)
   - [njlzk](https://gitee.com/njlzk)
   - [yangzhao_kl](https://gitee.com/yangzhao_kl)
   - [wuzeyi1](https://gitee.com/wuzeyi1)
