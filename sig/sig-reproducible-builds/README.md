@@ -40,7 +40,8 @@
 
 # 项目清单
 - 项目名称：reproducible-builds
-- 项目仓库地址：https://github.com/7Light/reproducibleopeneuler/
+- 项目仓库地址：https://gitee.com/openeuler/reproducible-builds/
 - 构建结果看板地址：https://reproducible-builds.openeuler.org/
 - 可重复构建国际社区成员：https://reproducible-builds.org/citests/
+- sig-reproducible-builds ODD 2022 SIG组规划会议 (2022-04-14)：https://www.bilibili.com/video/BV1qi4y1U79W/?spm_id_from=333.999.0.0&vd_source=d8f1319892ff245c27d83fa9c30b127b
 
