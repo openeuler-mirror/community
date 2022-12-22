@@ -26,6 +26,33 @@ openEuler技术委员会（Technical Committee，以下和TC互换使用）是op
 - 侯  健<houjian@kylinos.cn> [[@hjimmy](https://gitee.com/hjimmy)]
 - 胡  峰<solar.hu@huawei.com> [[@solarhu](https://gitee.com/solarhu)]
 - 胡欣蔚<huxinwei@huawei.com> [[@shinwell_hu](https://gitee.com/shinwell_hu)]
+- 胡亚弟<huyd12@chinatelecom.cn> [[@huyd12](https://gitee.com/huyd12)]
+- 刘寿永<liusy@thundersoft.com> [[@pangbanme](https://gitee.com/pangbanme)]
+- 李永强<liyongqiang329@163.com> [[@charlie_li](https://gitee.com/charlie_li)]
+- 任  慰<renwei41@huawei.com> [[@vonhust](https://gitee.com/vonhust)]
+- 石  勇<shiyong@kylinos.com.cn> [[@stonefly128](https://gitee.com/stonefly128)]
+- 田  俊<jun.j.tan@intel.com> [[@juntianlinux](https://gitee.com/juntianlinux)]
+- 王建民<jianmin@iscas.ac.cn> [[@jianminw](https://gitee.com/jianminw)]
+- 王志钢<wangzhigang17@huawei.com>  [[@cellfaint](https://gitee.com/cellfaint)]
+- 吴峰光<wufengguang@huawei.com> [[@wu_fengguang](https://gitee.com/wu_fengguang)]
+- 王伶卓<relue0z@outlook.com> [[@relue0z](https://gitee.com/relue0z)]
+- 魏  刚<11015100@qq.com> [[@gwei3](https://gitee.com/gwei3)]
+- 谢秀奇<xiexiuqi@huawei.com> [[@xiexiuqi](https://gitee.com/xiexiuqi)]
+- 熊  伟<xiongwei888@huawei.com> [[@myeuler](https://gitee.com/myeuler)]
+- 叶青龙<yeqinglong@uniontech.com> [[@yeqinglong01](https://gitee.com/yeqinglong01)]
+- 赵川峰<zhaochuanfeng@huawei.com> [[@cf-zhao](https://gitee.com/cf-zhao)]
+
+
+# 2022年TC成员 
+
+以下姓氏拼音排序
+
+- 卞乃猛<bian_naimeng@hoperun.com> [[@biannm](https://gitee.com/biannm)]
+- 陈祺德<dillon.chen@gmail.com> [[@dillon_chen](https://gitee.com/dillon_chen)]
+- 曹  志<george.cao@huawei.com> [[@georgecao](https://gitee.com/georgecao)]
+- 侯  健<houjian@kylinos.cn> [[@hjimmy](https://gitee.com/hjimmy)]
+- 胡  峰<solar.hu@huawei.com> [[@solarhu](https://gitee.com/solarhu)]
+- 胡欣蔚<huxinwei@huawei.com> [[@shinwell_hu](https://gitee.com/shinwell_hu)]
 - 刘寿永<liusy@thundersoft.com> [[@pangbanme](https://gitee.com/pangbanme)]
 - 李永强<liyongqiang329@163.com> [[@charlie_li](https://gitee.com/charlie_li)]
 - 石  勇<shiyong@kylinos.com.cn> [[@stonefly128](https://gitee.com/stonefly128)]

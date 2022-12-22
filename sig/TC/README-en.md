@@ -25,6 +25,33 @@ The list of TC members is organized alphabetically by last name:
 - Hou Jian <houjian@kylinos.cn> [[@hjimmy](https://gitee.com/hjimmy)]
 - Hu Feng <solar.hu@huawei.com> [[@solarhu](https://gitee.com/solarhu)]
 - Hu Xinwei <huxinwei@huawei.com> [[@shinwell_hu](https://gitee.com/shinwell_hu)]
+- Hu Yadi <huyd12@chinatelecom.cn> [[@huyd12](https://gitee.com/huyd12)]
+- Liu Shouyong <liusy@thundersoft.com> [[@pangbanme](https://gitee.com/pangbanme)]
+- Li Yongqiang <liyongqiang329@163.com> [[@charlie_li](https://gitee.com/charlie_li)]
+- Ren Wei <renwei41@huawei.com> [[@vonhust](https://gitee.com/vonhust)]
+- Shi Yong <shiyong@kylinos.com.cn> [[@stonefly128](https://gitee.com/stonefly128)]
+- Tian Jun <jun.j.tan@intel.com> [[@juntianlinux](https://gitee.com/juntianlinux)]
+- Wang Jianmin <jianmin@iscas.ac.cn> [[@jianminw](https://gitee.com/jianminw)]
+- Wang Zhigang <wangzhigang17@huawei.com>  [[@cellfaint](https://gitee.com/cellfaint)]
+- Wu Fengguang <wufengguang@huawei.com> [[@wu_fengguang](https://gitee.com/wu_fengguang)]
+- Wang Lingzhuo <relue0z@outlook.com> [[@relue0z](https://gitee.com/relue0z)]
+- Wei Gang <11015100@qq.com> [[@gwei3](https://gitee.com/gwei3)]
+- Xie Xiuqi <xiexiuqi@huawei.com> [[@xiexiuqi](https://gitee.com/xiexiuqi)]
+- Xiong Wei <xiongwei888@huawei.com> [[@myeuler](https://gitee.com/myeuler)]
+- Ye Qinglong <yeqinglong@uniontech.com> [[@yeqinglong01](https://gitee.com/yeqinglong01)]
+- Zhao Chuanfeng<zhaochuanfeng@huawei.com> [[@cf-zhao](https://gitee.com/cf-zhao)]
+
+
+# 2022 TC Members
+
+The list of TC members is organized alphabetically by last name:
+
+- Bian Naimeng <bian_naimeng@hoperun.com> [[@biannm](https://gitee.com/biannm)]
+- Chen Qide <dillon.chen@gmail.com> [[@dillon_chen](https://gitee.com/dillon_chen)]
+- Cao Zhi <george.cao@huawei.com> [[@georgecao](https://gitee.com/georgecao)]
+- Hou Jian <houjian@kylinos.cn> [[@hjimmy](https://gitee.com/hjimmy)]
+- Hu Feng <solar.hu@huawei.com> [[@solarhu](https://gitee.com/solarhu)]
+- Hu Xinwei <huxinwei@huawei.com> [[@shinwell_hu](https://gitee.com/shinwell_hu)]
 - Liu Shouyong <liusy@thundersoft.com> [[@pangbanme](https://gitee.com/pangbanme)]
 - Li Yongqiang <liyongqiang329@163.com> [[@charlie_li](https://gitee.com/charlie_li)]
 - Shi Yong <shiyong@kylinos.com.cn> [[@stonefly128](https://gitee.com/stonefly128)]
