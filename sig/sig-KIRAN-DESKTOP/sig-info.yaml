@@ -1,5 +1,6 @@
 name: sig-KIRAN-DESKTOP
 description: The KIRAN-DESKTOP SIG is committed to introducing KIRAN-DESKTOP into the openEuler community, and performing related adaptation, migration and optimization, making it one of the server desktop environments officially supported by the openEuler community.
+created_on: '2020-08-20'
 mailing_list: sig-KIRAN-DESKTOP@openeuler.org
 meeting_url: NA
 mature_level: gratuated
@@ -12,55 +13,60 @@ maintainers:
 - gitee_id: tangjie02
   name: TangJie
   email: tangjie02@kylinsec.com.cn
-committers:
-- gitee_id: liuxingxiang
-  name: LiuXingXiang
-  email: liuxingxiang@kylinos.com.cn
-- gitee_id: yuan__xing
-  name: YuanXing
-  email: yuanxing@kylinos.com.cn
-- gitee_id: Bmen
-  name: PengYuLong
-  email: pengyulong@kylinos.com.cn
-- gitee_id: luoqing_kylinsec
-  name: LuoQing
-  email: luoqing@kylinos.com.cn
+- gitee_id: liubuguiii
+  name: LiuXinHao
+  organization: KylinSec OS
+  email: liuxinhao@kylinsec.com.cn
 repositories:
-- repo: src-openeuler/kiran-avatar-editor
-- repo: src-openeuler/kiran-calendar
-- repo: src-openeuler/kiran-gtk-theme
-- repo: src-openeuler/kiran-icon-theme
-- repo: src-openeuler/kiran-themes
-- repo: src-openeuler/kiran-menu
-- repo: src-openeuler/kiran-screensaver-dialog
-- repo: src-openeuler/lightdm-kiran-greeter
-- repo: src-openeuler/kiran-wallpapers
-- repo: src-openeuler/plymouth-theme-kiran
-- repo: src-openeuler/kiran-flameshot
-- repo: src-openeuler/kiran-cc-daemon
-- repo: src-openeuler/lunar-date
-- repo: src-openeuler/gdbus-codegen-glibmm
-- repo: src-openeuler/kiran-log
-- repo: src-openeuler/zlog
-- repo: src-openeuler/kiran-control-panel
-- repo: src-openeuler/kiran-cpanel-account
-- repo: src-openeuler/kiran-cpanel-display
-- repo: src-openeuler/kiran-cpanel-menu
-- repo: src-openeuler/kiran-cpanel-mouse
-- repo: src-openeuler/kiran-cpanel-timedate
-- repo: src-openeuler/kiran-cpanel-appearance
-- repo: src-openeuler/kiran-cpanel-keyboard
-- repo: src-openeuler/kiran-cpanel-keybinding
-- repo: src-openeuler/kiran-cpanel-power
-- repo: src-openeuler/kiran-panel
-- repo: src-openeuler/kiran-session-manager
-- repo: src-openeuler/kiran-widgets-qt5
-- repo: src-openeuler/kiran-qdbusxml2cpp
-- repo: src-openeuler/libcutl
-- repo: src-openeuler/xsd
-- repo: src-openeuler/kiran-desktop
-- repo: src-openeuler/kiran-calculator
-- repo: src-openeuler/kiran-session-guard
-- repo: src-openeuler/kiran-screensaver
-- repo: src-openeuler/kiran-authentication-service
-- repo: src-openeuler/kiran-biometrics
+- repo: 
+  - src-openeuler/kiran-avatar-editor
+  - src-openeuler/kiran-calendar
+  - src-openeuler/kiran-gtk-theme
+  - src-openeuler/kiran-icon-theme
+  - src-openeuler/kiran-themes
+  - src-openeuler/kiran-menu
+  - src-openeuler/kiran-screensaver-dialog
+  - src-openeuler/lightdm-kiran-greeter
+  - src-openeuler/kiran-wallpapers
+  - src-openeuler/plymouth-theme-kiran
+  - src-openeuler/kiran-flameshot
+  - src-openeuler/kiran-cc-daemon
+  - src-openeuler/lunar-date
+  - src-openeuler/gdbus-codegen-glibmm
+  - src-openeuler/kiran-log
+  - src-openeuler/zlog
+  - src-openeuler/kiran-control-panel
+  - src-openeuler/kiran-cpanel-account
+  - src-openeuler/kiran-cpanel-display
+  - src-openeuler/kiran-cpanel-menu
+  - src-openeuler/kiran-cpanel-mouse
+  - src-openeuler/kiran-cpanel-timedate
+  - src-openeuler/kiran-cpanel-appearance
+  - src-openeuler/kiran-cpanel-keyboard
+  - src-openeuler/kiran-cpanel-keybinding
+  - src-openeuler/kiran-cpanel-power
+  - src-openeuler/kiran-panel
+  - src-openeuler/kiran-session-manager
+  - src-openeuler/kiran-widgets-qt5
+  - src-openeuler/kiran-qdbusxml2cpp
+  - src-openeuler/libcutl
+  - src-openeuler/xsd
+  - src-openeuler/kiran-desktop
+  - src-openeuler/kiran-calculator
+  - src-openeuler/kiran-session-guard
+  - src-openeuler/kiran-screensaver
+  - src-openeuler/kiran-authentication-service
+  - src-openeuler/kiran-biometrics
+  committers:
+  - gitee_id: liuxingxiang
+    name: LiuXingXiang
+    email: liuxingxiang@kylinos.com.cn
+  - gitee_id: yuan__xing
+    name: YuanXing
+    email: yuanxing@kylinos.com.cn
+  - gitee_id: Bmen
+    name: PengYuLong
+    email: pengyulong@kylinos.com.cn
+  - gitee_id: luoqing_kylinsec
+    name: LuoQing
+    email: luoqing@kylinos.com.cn    

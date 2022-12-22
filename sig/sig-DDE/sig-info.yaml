@@ -1,5 +1,6 @@
 name: sig-DDE
 description: The deepin desktop enviroment sig.
+created_on: '2020-06-24'
 mailing_list: dev@openeuler.org
 meeting_url: https://etherpad.openeuler.org/p/sig-DDE-meetings
 mature_level: startup
@@ -17,84 +18,84 @@ maintainers:
 - gitee_id: weidongkl
   name: weidongkl
   email: weidongkl@uniontech.com
-committers:
-- gitee_id: panchenbo
-  name: panchenbo
-  email: panchenbo@uniontech.com
-- gitee_id: weidongkl
-  name: weidongkl
-  email: weidongkl@uniontech.com
-- gitee_id: liyf
-  name: 小柿子
-  email: liyanfeng@uniontech.com
-- gitee_id: reganhe_xx
-  name: ReganHe
-  email: herengui@uniontech.com
-
 repositories:
-- repo: src-openeuler/dde-control-center
-- repo: src-openeuler/dde-api
-- repo: src-openeuler/dde-calendar
-- repo: src-openeuler/dde-clipboard
-- repo: src-openeuler/dde-daemon
-- repo: src-openeuler/dde-dock
-- repo: src-openeuler/dde-file-manager
-- repo: src-openeuler/dde-introduction
-- repo: src-openeuler/dde-kwin
-- repo: src-openeuler/dde-launcher
-- repo: src-openeuler/dde-network-utils
-- repo: src-openeuler/dde-polkit-agent
-- repo: src-openeuler/dde-qt-dbus-factory
-- repo: src-openeuler/dde-session-shell
-- repo: src-openeuler/dde-session-ui
-- repo: src-openeuler/deepin-anything
-- repo: src-openeuler/deepin-compressor
-- repo: src-openeuler/deepin-desktop-base
-- repo: src-openeuler/deepin-desktop-schemas
-- repo: src-openeuler/deepin-devicemanager
-- repo: src-openeuler/deepin-editor
-- repo: src-openeuler/deepin-font-manager
-- repo: src-openeuler/deepin-graphics-driver-manager
-- repo: src-openeuler/deepin-image-viewer
-- repo: src-openeuler/deepin-log-viewer
-- repo: src-openeuler/deepin-manual
-- repo: src-openeuler/deepin-menu
-- repo: src-openeuler/deepin-reader
-- repo: src-openeuler/deepin-shortcut-viewer
-- repo: src-openeuler/deepin-system-monitor
-- repo: src-openeuler/deepin-terminal
-- repo: src-openeuler/deepin-turbo
-- repo: src-openeuler/dtkcore
-- repo: src-openeuler/dtkcore2
-- repo: src-openeuler/dtkgui
-- repo: src-openeuler/dtkwidget
-- repo: src-openeuler/dtkwidget2
-- repo: src-openeuler/dtkwm
-- repo: src-openeuler/deepin-icon-theme
-- repo: src-openeuler/qt5integration
-- repo: src-openeuler/startdde
-- repo: src-openeuler/deepin-wallpapers
-- repo: src-openeuler/deepin-gtk-theme
-- repo: src-openeuler/deepin-gettext-tools
-- repo: src-openeuler/deepin-sound-theme
-- repo: src-openeuler/dde-account-faces
-- repo: src-openeuler/dde-server-industry-config
-- repo: src-openeuler/dde-device-formatter
-- repo: src-openeuler/deepin-clone
-- repo: src-openeuler/deepin-dbus-generator
-- repo: src-openeuler/deepin-default-settings
-- repo: src-openeuler/deepin-qml-widgets
-- repo: src-openeuler/dde
-- repo: src-openeuler/deepin-draw
-- repo: src-openeuler/deepin-screen-recorder
-- repo: src-openeuler/deepin-movie
-- repo: src-openeuler/deepin-music
-- repo: openeuler/dde
-- repo: openeuler/deepin-rpm-installer
-- repo: src-openeuler/deepin-rpm-installer
-- repo: src-openeuler/qt5dxcb-plugin
-- repo: openeuler/deepin-upgrade-tool
-- repo: src-openeuler/deepin-upgrade-tool
-- repo: src-openeuler/deepin-pw-check
-- repo: src-openeuler/cryfs
-- repo: src-openeuler/deepin-image-editor
+- repo: 
+  - src-openeuler/dde-control-center
+  - src-openeuler/dde-api
+  - src-openeuler/dde-calendar
+  - src-openeuler/dde-clipboard
+  - src-openeuler/dde-daemon
+  - src-openeuler/dde-dock
+  - src-openeuler/dde-file-manager
+  - src-openeuler/dde-introduction
+  - src-openeuler/dde-kwin
+  - src-openeuler/dde-launcher
+  - src-openeuler/dde-network-utils
+  - src-openeuler/dde-polkit-agent
+  - src-openeuler/dde-qt-dbus-factory
+  - src-openeuler/dde-session-shell
+  - src-openeuler/dde-session-ui
+  - src-openeuler/deepin-anything
+  - src-openeuler/deepin-compressor
+  - src-openeuler/deepin-desktop-base
+  - src-openeuler/deepin-desktop-schemas
+  - src-openeuler/deepin-devicemanager
+  - src-openeuler/deepin-editor
+  - src-openeuler/deepin-font-manager
+  - src-openeuler/deepin-graphics-driver-manager
+  - src-openeuler/deepin-image-viewer
+  - src-openeuler/deepin-log-viewer
+  - src-openeuler/deepin-manual
+  - src-openeuler/deepin-menu
+  - src-openeuler/deepin-reader
+  - src-openeuler/deepin-shortcut-viewer
+  - src-openeuler/deepin-system-monitor
+  - src-openeuler/deepin-terminal
+  - src-openeuler/deepin-turbo
+  - src-openeuler/dtkcore
+  - src-openeuler/dtkcore2
+  - src-openeuler/dtkgui
+  - src-openeuler/dtkwidget
+  - src-openeuler/dtkwidget2
+  - src-openeuler/dtkwm
+  - src-openeuler/deepin-icon-theme
+  - src-openeuler/qt5integration
+  - src-openeuler/startdde
+  - src-openeuler/deepin-wallpapers
+  - src-openeuler/deepin-gtk-theme
+  - src-openeuler/deepin-gettext-tools
+  - src-openeuler/deepin-sound-theme
+  - src-openeuler/dde-account-faces
+  - src-openeuler/dde-server-industry-config
+  - src-openeuler/dde-device-formatter
+  - src-openeuler/deepin-clone
+  - src-openeuler/deepin-dbus-generator
+  - src-openeuler/deepin-default-settings
+  - src-openeuler/deepin-qml-widgets
+  - src-openeuler/dde
+  - src-openeuler/deepin-draw
+  - src-openeuler/deepin-screen-recorder
+  - src-openeuler/deepin-movie
+  - src-openeuler/deepin-music
+  - openeuler/dde
+  - openeuler/deepin-rpm-installer
+  - src-openeuler/deepin-rpm-installer
+  - src-openeuler/qt5dxcb-plugin
+  - openeuler/deepin-upgrade-tool
+  - src-openeuler/deepin-upgrade-tool
+  - src-openeuler/deepin-pw-check
+  - src-openeuler/cryfs
+  - src-openeuler/deepin-image-editor
+  committers:
+  - gitee_id: panchenbo
+    name: panchenbo
+    email: panchenbo@uniontech.com
+  - gitee_id: weidongkl
+    name: weidongkl
+    email: weidongkl@uniontech.com
+  - gitee_id: liyf
+    name: 小柿子
+    email: liyanfeng@uniontech.com
+  - gitee_id: reganhe_xx
+    name: ReganHe
+    email: herengui@uniontech.com
