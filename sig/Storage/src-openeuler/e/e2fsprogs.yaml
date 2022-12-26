@@ -3,6 +3,9 @@ description: ''
 branches:
 - name: master
   type: protected
+- name: Multi-Version_ldiskfsprogs_master
+  type: protected
+  create_from: master
 - name: openEuler-20.03-LTS-SP1
   type: protected
   create_from: master
