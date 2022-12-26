@@ -24,32 +24,36 @@ Industrial-Control SIG组主要致力于将openEuler打造成适用于工业控�
 
 ## ROADMAP
 
-- 2022年3月完成Preempt_RT对openEuler 2203版本内核支持
-- 2022年4月完成https://gitee.com/openeuler/Preempt_RT 主页建设
-- 2022年6月开源GearOS源码和部署方案
-- 2022年8月完成Xenomai实时性优化
-- 2022年10月完成Preempt_RT的实时性瓶颈探针工具研发
 - 2022年12月完成对飞腾嵌入式E2000芯片的适配
+- 2023年1月完成Jailhouse引入
 - 2023年3月完成openEuler实时性多场景、高负载情况下实时性的提升，并配合2303版本发布
+- 2023年3月完成基于openeuler embedded版本新增meta-AMP（meta-Jailhouse）
+- 2023年6月完成基于openeuler embedded版本新增meta-FreeRTOS，完成FreeRTOS虚拟化
 - 2023年9月基于openEuler内核，完成龙芯或RISC-V平台的Preempt_RT支持
+- 2023年9月完成GearOS基于openeuler embedded版本的重构，配合openEuler2309发布
+- 2023年10月完成基于Zephyr版本新增meta-Zephyr，完成Zephyr虚拟化
+- 2023年12月完成基于openeuler embedded版本新增meta-Industrail（工控协议）
 - 2023年12月开始引入国际已有实时相关开源项目
 
 # 组织会议
-- 公开的会议时间：北京时间，每双周三下午，15点~17点
+- 公开的会议时间：北京时间，每双周四下午
 
 # 成员
 
 ### Maintainer列表
 | Maintainer                                              | 邮箱                     |
 | ------------------------------------------------------- | ------------------------ |
-| 黎亮[@liliang_euler](https://gitee.com/liliang_euler)   | liliang889@huawei.com    |
-| 张攀[@SuperHugePan](https://gitee.com/SuperHugePan)     | zhangpan26@huawei.com    |
 | 郭皓[@guohaoc2c2](https://gitee.com/guohaocs2c)         | guohao@kylinos.cn        |
 | 吴春光[@wuchunguang](https://gitee.com/wuchunguang)     | wuchunguang@kylinos.cn   |
 | 马玉昆[@kylin-mayukun](https://gitee.com/kylin-mayukun) | mayukun@kylinos.cn       |
 | 张远航[@zhangyh1992](https://gitee.com/zhangyh1992)     | zhangyuanhang@kylinos.cn |
 | 张玉[@zhangyuge001](https://gitee.com/zhangyuge001)     | zhangyu4@kylinos.cn      |
 | 李钰磊[@r2018](https://gitee.com/r2018)                 | liyulei@kylinos.cn       |
+| 廖元垲[@liao-yuankai](https://gitee.com/liao-yuankai)   | yuankai.liao@cdjrlc.com  |
+| 廖茂益[@ixr](https://gitee.com/ixr)                     | liaomaoyi@cdjrlc.com     |
+| 王伟[@wangwei622](https://gitee.com/wangwei622)         | wangwei@cdjrlc.com       |
+| 黎亮[@liliang_euler](https://gitee.com/liliang_euler)   | liliang889@huawei.com    |
+| 张攀[@SuperHugePan](https://gitee.com/SuperHugePan)     | zhangpan26@huawei.com    |
 
 ### Committer列表
 
