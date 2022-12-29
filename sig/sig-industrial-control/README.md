@@ -84,6 +84,7 @@ repository 地址：
 ###### Xenomai
 
 - https://gitee.com/openeuler/xenomai
+- https://gitee.com/src-openeuler/Xenomai4
 - https://gitee.com/src-openeuler/xenomai
 - https://gitee.com/src-openeuler/ipipe
 - https://gitee.com/src-openeuler/canfestival-xenomai
@@ -99,3 +100,7 @@ repository 地址：
 - https://gitee.com/src-openeuler/soem
 - https://gitee.com/src-openeuler/soes
 - https://gitee.com/src-openeuler/sysrepo
+
+###### Jailhouse
+
+- https://gitee.com/src-openeuler/Jailhouse
