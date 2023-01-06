@@ -28,8 +28,9 @@ committers:
   name: 郭青岚
   email: guoqinglan@uniontech.com
 repositories:
-- repo: openeuler/migration-assistant
-- repo: openeuler/ubackup
-- repo: src-openeuler/migration-assistant
-- repo: src-openeuler/ubackup
-- repo: src-openeuler/restic
+- repo:
+  - openeuler/migration-assistant
+  - openeuler/ubackup
+  - src-openeuler/migration-assistant
+  - src-openeuler/ubackup
+  - src-openeuler/restic

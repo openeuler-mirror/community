@@ -58,6 +58,7 @@ committers:
   organization: Huawei
   email: liusirui@huawei.com
 repositories:
-- repo: openeuler/dpu-core
-- repo: openeuler/dpu-utilities
-- repo: src-openeuler/dpu-utilities
+- repo:
+  - openeuler/dpu-core
+  - openeuler/dpu-utilities
+  - src-openeuler/dpu-utilities

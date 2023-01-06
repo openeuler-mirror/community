@@ -17,6 +17,7 @@ committers:
   name: MaZhiGuo
   email: mazhiguo@kylinos.com.cn
 repositories:
-- repo: src-openeuler/ostree_assembly
-- repo: src-openeuler/rpm-ostree-toolbox
-- repo: src-openeuler/atomic
+- repo:
+  - src-openeuler/ostree_assembly
+  - src-openeuler/rpm-ostree-toolbox
+  - src-openeuler/atomic
