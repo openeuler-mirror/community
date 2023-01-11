@@ -27,7 +27,7 @@
 
 # 联系方式
 
-- [邮件列表](dev@openeuler.org)
+- [邮件列表](mailto:dev@openeuler.org)
 
 # 项目清单
 - [tensorflow](https://gitee.com/src-openeuler/tensorflow): 
