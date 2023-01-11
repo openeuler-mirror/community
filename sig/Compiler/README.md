@@ -207,6 +207,11 @@ Tuesday 10 am bi-weekly, UTC+8.
  - [gcc-12](https://gitee.com/src-openeuler/gcc-12)
    - Maintainers
      - 谢 志恒[@eastb233](https://gitee.com/eastb233) email: xiezhiheng@huawei.com
+ - [optimized-routines](https://gitee.com/src-openeuler/optimized-routines)
+   - Maintainers
+     - 李 彦成[@li-yancheng](https://gitee.com/li-yancheng) email: liyancheng@huawei.com
+   - Committers
+     - 熊 洲[@xiongzhou4](https://gitee.com/xiongzhou4) email: xiongzhou4@huawei.com
  - [gcc-for-openEuler](https://gitee.com/openeuler/gcc-for-openEuler) & [src-openeuler/gcc-for-openEuler](https://gitee.com/src-openeuler/gcc-for-openEuler)
    - Maintainers
      - 谢 志恒[@eastb233](https://gitee.com/eastb233) email: xiezhiheng@huawei.com
@@ -240,7 +245,7 @@ Tuesday 10 am bi-weekly, UTC+8.
    - Committers
      - 李 海炜[@liheavy](https://gitee.com/liheavy) email: lihaiwei8@huawei.com
    - Contributers
-     - 许 崇宇[@xu-chongyu214](https://gitee.com/xu-chongyu214) email: xuchongyu@huawei.com 
+     - 许 崇宇[@xu-chongyu214](https://gitee.com/xu-chongyu214) email: xuchongyu@huawei.com
 ## Contact
  - [maillist](compiler@openeuler.org)
  - wechat: Compiler_Assistant
