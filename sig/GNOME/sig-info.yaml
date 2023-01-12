@@ -1,0 +1,138 @@
+name: GNOME
+description: The GNOME team is responsible for GNOME Desktop
+mailing_list: dev@openeuler.org
+meeting_url: NA
+mature_level: startup
+maintainers:
+- gitee_id: dwl301
+  name: Ding Wenlong
+  organization: Turbolinux
+  email: wenlong.ding@turbolinux.com.cn
+- gitee_id: zhang__3125
+  name: Zhang Lin
+  organization: Turbolinux
+  email: lin.zhang@turbolinux.com.cn
+- gitee_id: yanan-rock
+  name: Yan An
+  organization: Huawei
+  email: yanan@huawei.com
+- gitee_id: t_feng
+  name: Feng Tao
+  organization: Huawei
+  email: fengtao40@huawei.com
+
+repositories:
+- repo:
+  - src-openeuler/feedbackd
+  - src-openeuler/file-roller
+  - src-openeuler/folks
+  - src-openeuler/flatpak-builder
+  - src-openeuler/callaudiod
+  - src-openeuler/calls
+  - src-openeuler/cmark
+  - src-openeuler/yelp-tools
+  - src-openeuler/jsonrpc-glib
+  - src-openeuler/xdg-desktop-portal-gnome
+  - src-openeuler/libchamplain
+  - src-openeuler/libportal
+  - src-openeuler/libldac
+  - src-openeuler/libadwaita
+  - src-openeuler/libpeas
+  - src-openeuler/libgnomecanvas
+  - src-openeuler/libvncserver
+  - src-openeuler/libxcvt
+  - src-openeuler/libgdl
+  - src-openeuler/libjcat
+  - src-openeuler/libgnomekbd
+  - src-openeuler/libgnome
+  - src-openeuler/libsoup3
+  - src-openeuler/dleyna-renderer
+  - src-openeuler/devhelp
+  - src-openeuler/rygel
+  - src-openeuler/nautilus
+  - src-openeuler/evince
+  - src-openeuler/eog
+  - src-openeuler/qgnomeplatform
+  - src-openeuler/vte291
+  - src-openeuler/vala
+  - src-openeuler/gnome-desktop3
+  - src-openeuler/gnome-autoar
+  - src-openeuler/gupnp-dlna
+  - src-openeuler/gnome-logs
+  - src-openeuler/gnome-getting-started-docs
+  - src-openeuler/gsound
+  - src-openeuler/graphene
+  - src-openeuler/gnome-characters
+  - src-openeuler/grilo-plugins
+  - src-openeuler/gnome-font-viewer
+  - src-openeuler/gnome-maps
+  - src-openeuler/gfbgraph
+  - src-openeuler/gnome-shell-extension-gsconnect
+  - src-openeuler/gnome-shell-extension-bubblemail
+  - src-openeuler/gnome-vfs2
+  - src-openeuler/gstreamer1-libav
+  - src-openeuler/gspell
+  - src-openeuler/gnome-shell-extension-caffeine
+  - src-openeuler/gnome-user-docs
+  - src-openeuler/gtk-vnc
+  - src-openeuler/gtk-doc
+  - src-openeuler/gnome-weather
+  - src-openeuler/gnome-color-manager
+  - src-openeuler/gnome-backgrounds
+  - src-openeuler/gnome-shell-extension-dash-to-dock
+  - src-openeuler/gnome-control-center
+  - src-openeuler/gedit-control-your-tabs
+  - src-openeuler/gdlmm
+  - src-openeuler/gnome-shell-extension-appindicator
+  - src-openeuler/gnome-calendar
+  - src-openeuler/gnome-video-effects
+  - src-openeuler/gcab
+  - src-openeuler/gtksourceview5
+  - src-openeuler/gnome-user-share
+  - src-openeuler/gnome-shell-extension-system-monitor-applet
+  - src-openeuler/gnome-shell-extension-topicons-plus
+  - src-openeuler/gnome-music
+  - src-openeuler/glib-networking
+  - src-openeuler/gnome-shell-extension-historymanager-prefix-search
+  - src-openeuler/gnome-themes-standard
+  - src-openeuler/gnome-remote-desktop
+  - src-openeuler/gom
+  - src-openeuler/gst-editing-services
+  - src-openeuler/gnome-disk-utility
+  - src-openeuler/gnome-online-accounts
+  - src-openeuler/gnome-photos
+  - src-openeuler/gnome-connections
+  - src-openeuler/gnome-builder
+  - src-openeuler/gnome-shell-extension-disconnect-wifi
+  - src-openeuler/gnome-tour
+  - src-openeuler/gnome-calculator
+  - src-openeuler/gnome-text-editor
+  - src-openeuler/gnome-shell-extension-windowoverlay-icons
+  - src-openeuler/gi-docgen
+  - src-openeuler/gnome-online-miners
+  - src-openeuler/gnome-shell-extension-desktop-icons
+  - src-openeuler/gnome-tweaks
+  - src-openeuler/gnome-shell-extension-customize-ibus
+  - src-openeuler/gedit
+  - src-openeuler/gnome-shell-theme-flat-remix
+  - src-openeuler/gnome-console
+  - src-openeuler/atkmm
+  - src-openeuler/tracker3-miners
+  - src-openeuler/terminator
+  - src-openeuler/tepl
+  - src-openeuler/tracker3
+  - src-openeuler/template-glib
+  - src-openeuler/python-dbusmock
+  - src-openeuler/python-smartypants
+  - src-openeuler/phodav
+  - src-openeuler/sofia-sip
+  - src-openeuler/simple-scan
+  - src-openeuler/mutter
+  - src-openeuler/mm-common
+  - src-openeuler/baobab
+  - src-openeuler/bubblemail
+  committers:
+  - gitee_id: weijin-deng
+    name: Deng Weijin
+    organization: Turbolinux
+    email: weijin.deng@turbolinux.com.cn
