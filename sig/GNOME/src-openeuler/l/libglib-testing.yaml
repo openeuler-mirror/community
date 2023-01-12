@@ -1,0 +1,7 @@
+name: libglib-testing
+description: GLib-based test library and harness
+upstream: https://gitlab.gnome.org/pwithnall/libglib-testing
+branches:
+- name: master
+  type: protected
+type: public
