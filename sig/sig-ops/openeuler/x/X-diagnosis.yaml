@@ -3,4 +3,7 @@ description: OS debug toolkit
 branches:
 - name: master
   type: protected
+- name: features
+  type: protected
+  create_from: master
 type: public

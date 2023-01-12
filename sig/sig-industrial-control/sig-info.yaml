@@ -5,14 +5,6 @@ mailing_list: industrial-control@openeuler.org
 meeting_url: https://etherpad.openeuler.org/p/sig-industrial-control-meetings
 mature_level: startup
 maintainers:
-- gitee_id: liliang_euler
-  name: Li Liang
-  organization: Huawei
-  email: liliang889@huawei.com
-- gitee_id: SuperHugePan
-  name: Zhang Pan
-  organization: Huawei
-  email: zhangpan26@huawei.com
 - gitee_id: guohaocs2c
   name: Guo Hao
   organization: Kylinsoft
@@ -37,6 +29,26 @@ maintainers:
   name: Li Yulei
   organization: Kylinsoft
   email: liyulei@kylinos.cn
+- gitee_id: liao-yuankai
+  name: Liao Yuankai
+  organization: cdjrlc
+  email: yuankai.liao@cdjrlc.com
+- gitee_id: ixr
+  name: Liao Maoyi
+  organization: cdjrlc
+  email: liaomaoyi@cdjrlc.com
+- gitee_id: wangwei622
+  name: Wang Wei
+  organization: cdjrlc
+  email: wangwei@cdjrlc.com
+- gitee_id: liliang_euler
+  name: Li Liang
+  organization: Huawei
+  email: liliang889@huawei.com
+- gitee_id: SuperHugePan
+  name: Zhang Pan
+  organization: Huawei
+  email: zhangpan26@huawei.com
 repositories:
 - repo:
   - openeuler/GearOS
@@ -60,3 +72,5 @@ repositories:
   - src-openeuler/libmodbus
   - src-openeuler/libmodbus-xenomai
   - src-openeuler/libnetconf2
+  - src-openeuler/Xenomai4
+  - src-openeuler/Jailhouse

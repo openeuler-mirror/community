@@ -1,6 +1,5 @@
-name: authz
-description: An authorization plugin for iSulad.
-upstream: https://gitee.com/openeuler/authz
+name: iSulad-img
+description: ''
 branches:
 - name: master
   type: protected
@@ -11,9 +10,6 @@ branches:
   type: protected
   create_from: master
 - name: openEuler-20.09
-  type: protected
-  create_from: master
-- name: openEuler-20.03-LTS
   type: protected
   create_from: master
 - name: openEuler-21.03

@@ -284,6 +284,13 @@ def check_repos_consistency(sig_info_repos, sig_repos):
     :return: repos_consistency_errors
     """
     repos_consistency_errors = 0
+    repeat_repos = []
+    for sig_info_repo in sig_info_repos:
+        if sig_info_repos.count(sig_info_repo) > 1 and sig_info_repo not in repeat_repos:
+            repeat_repos.append(sig_info_repo)
+    for repeat_repo in repeat_repos:
+        print('ERROR! Find the same repo `{}` appears in sig-info.yaml for multiple times'.format(repeat_repo))
+        repos_consistency_errors += 1
     for sig_info_repo in sig_info_repos:
         if sig_info_repo not in sig_repos:
             print('ERROR! Find extra repo {} list in sig-info.yaml'.format(sig_info_repo))

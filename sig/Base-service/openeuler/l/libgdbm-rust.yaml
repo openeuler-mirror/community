@@ -1,0 +1,7 @@
+name: libgdbm-rust
+description: rewrite gdbm tool by using Rust
+upstream: https://www.gnu.org.ua/software/gdbm/
+branches:
+- name: master
+  type: protected
+type: public

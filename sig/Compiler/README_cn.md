@@ -142,6 +142,11 @@ Compiler SIG 每双周周二上午10:00进行线上例会，也会定期举办�
    - Maintainers
      - 谢 志恒[@eastb233](https://gitee.com/eastb233) 邮箱: xiezhiheng@huawei.com
      - 李 彦成[@li-yancheng](https://gitee.com/li-yancheng) 邮箱: liyancheng@huawei.com
+ - [optimized-routines](https://gitee.com/src-openeuler/optimized-routines)
+   - Maintainers
+     - 李 彦成[@li-yancheng](https://gitee.com/li-yancheng) 邮箱: liyancheng@huawei.com
+   - Committers
+     - 熊 洲[@xiongzhou4](https://gitee.com/xiongzhou4) 邮箱: xiongzhou4@huawei.com
  - [gcc-for-openEuler](https://gitee.com/openeuler/gcc-for-openEuler)
  - [src-openeuler/gcc-for-openEuler](https://gitee.com/src-openeuler/gcc-for-openEuler)
    - Maintainers
@@ -183,7 +188,7 @@ Compiler SIG 每双周周二上午10:00进行线上例会，也会定期举办�
    - Committers
      - 李 海炜[@liheavy](https://gitee.com/liheavy) email: lihaiwei8@huawei.com
    - Contributers
-     - 许 崇宇[@xu-chongyu214](https://gitee.com/xu-chongyu214) email: xuchongyu@huawei.com 
+     - 许 崇宇[@xu-chongyu214](https://gitee.com/xu-chongyu214) email: xuchongyu@huawei.com
 
 ## 联系
  - [邮件列表](compiler@openeuler.org)

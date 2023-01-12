@@ -1,0 +1,11 @@
+name: pyproject-rpm-macros
+description: These macros allow projects that follow the Python packaging specifications to be packaged as RPMs
+upstream: https://github.com/PatrikKopkan/pyproject-rpm-macros
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
+

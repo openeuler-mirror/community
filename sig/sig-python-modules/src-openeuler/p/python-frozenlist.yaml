@@ -1,0 +1,7 @@
+name: python-frozenlist
+description: A list-like structure which implements collections.abc.MutableSequence
+upstream: https://github.com/aio-libs/frozenlist
+branches:
+- name: master
+  type: protected
+type: public

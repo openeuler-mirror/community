@@ -1,0 +1,9 @@
+name: Xenomai4
+description: Xenomai is a real-time development software framework cooperating with the 
+  Linux kernel to provide pervasive, interface-agnostic, hard real-time computing support 
+  to user space application software seamlessly integrated into the Linux environment.
+upstream: https://source.denx.de/Xenomai/xenomai4/linux-evl
+branches:
+- name: master
+  type: protected
+type: public
