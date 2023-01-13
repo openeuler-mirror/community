@@ -87,6 +87,7 @@ wswsamao | Desktop
   - https://gitee.com/src-openeuler/jamm
   - https://gitee.com/src-openeuler/double-conversion
   - https://gitee.com/src-openeuler/ps_mem
+  - https://gitee.com/src-openeuler/scipy
 
 ## dev-utils 计算领域开发工具  （committer: SuperSix173、 wswsamao）
   - https://gitee.com/src-openeuler/gdb
