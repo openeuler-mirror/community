@@ -1,0 +1,7 @@
+name: compat-openssl11
+description: OpenSSL library version 1.1 for compatibility
+upstream: http://www.openssl.org/
+branches:
+- name: master
+  type: protected
+type: public
