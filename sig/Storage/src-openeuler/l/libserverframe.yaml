@@ -1,0 +1,10 @@
+name: libserverframe
+description: this network service framework library extract from FastDFS
+upstream: https://gitee.com/fastdfs100/libserverframe
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

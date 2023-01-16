@@ -108,3 +108,4 @@ repository地址：
 - https://gitee.com/openeuler/hsak
 - https://gitee.com/src-openeuler/ocf
 - https://gitee.com/src-openeuler/dump
+- https://gitee.com/src-openeuler/libserverframe
