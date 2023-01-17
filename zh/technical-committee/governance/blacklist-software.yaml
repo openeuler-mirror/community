@@ -212,3 +212,6 @@ blacklist-software:
 - name: python-med
   reason: unclear module which maybe medical module or med format file lib
   upstream_url: unclear
+- name: rubygem-erubis
+  reason: upstream stops maintaining this software
+  upstream_url: http://www.kuwata-lab.com/erubis/
