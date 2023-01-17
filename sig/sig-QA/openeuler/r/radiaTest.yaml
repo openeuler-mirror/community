@@ -3,4 +3,7 @@ description: Test Management Platform
 branches:
 - name: master
   type: protected
+- name: 1.0
+  type: protected
+  create_from: master
 type: public
