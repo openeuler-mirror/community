@@ -227,3 +227,16 @@ repositories:
   - gitee_id: WangBoe2022
     name: Jian Shen
     email: shenjian15@huawei.com
+
+- repo:
+  - src-openeuler/NetworkManager-fortisslvpn
+  - src-openeuler/NetworkManager-openvpn
+  - src-openeuler/NetworkManager-iodine
+  - src-openeuler/NetworkManager-vpnc
+  - src-openeuler/NetworkManager-ssh
+  - src-openeuler/NetworkManager-openconnect
+  committers:
+  - gitee_id: misaka00251
+    name: Xin Liu
+    organization: sig-RISC-V
+    email: liuxin@iscas.ac.cn
