@@ -16,3 +16,7 @@ Thanks to the following people for their contribution.
   name: zhanghailiang
   organization: Huawei
   email: zhang.zhanghailiang@huawei.com
+- gitee_id: xinleguo
+  name: Xinle.Guo
+  organization: Huawei
+  email: guoxinle1@huawei.com
