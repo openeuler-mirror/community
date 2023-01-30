@@ -60,12 +60,19 @@ repositories:
 
 - repo:
   - src-openeuler/mugen
+  committers:
+  - gitee_id: disnight
+    name: fanjiachen
+    organization: Huawei
+    email: fanjiachen3@huawei.com
+
+- repo:
   - src-openeuler/linux-test-project
   committers:
-  - gitee_id: gitee-cmd
-    name: mingdao Che
+  - gitee_id: hanson_fang
+    name: Hongsong Fang
     organization: Huawei
-    email: chemingdao@huawei.com
+    email: fanghongsong4@h-partners.com
 
 - repo:
   - openeuler/mugen
