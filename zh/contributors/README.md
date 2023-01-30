@@ -82,7 +82,7 @@ SIG就是Special Interest Group的缩写，openEuler社区按照不同的SIG来�
 
 找到您感兴趣的SIG组，可以帮助您在正确的地方提出问题，并得到更快的社区响应。
 
-- **方式一**：如果您不了解有哪些SIG或项目，您可以查看[SIG列表](https://openeuler.org/zh/sig.html)，它包含当前openEuler社区成立的所有SIG团队的清单。您可以通过该列表快速的定位到您感兴趣的领域所对应SIG团队。同时还为您提供该SIG团队的如下信息：
+- **方式一**：如果您不了解有哪些SIG或项目，您可以查看[SIG列表](https://openeuler.org/zh/sig/sig-list/)，它包含当前openEuler社区成立的所有SIG团队的清单。您可以通过该列表快速的定位到您感兴趣的领域所对应SIG团队。同时还为您提供该SIG团队的如下信息：
   
   - SIG下的项目，以及项目的Repository地址
   - SIG内的交流方式，包括邮件列表、IRC会议频道等
@@ -170,7 +170,7 @@ openEuler是一个开放的社区，我们希望所有参与社区的人都能�
 
 
 
-**对于检视者**，强烈建议本着[行为准则](/../code-of-conduct.md)，超越自我，相互尊重和促进协作。在检视其他人的PR的时候，[补丁审核的柔和艺术](https://sage.thesharps.us/2014/09/01/the-gentle-art-of-patch-review/)提出了一系列检视的重点，旨在说明检视的活动也希望能够促进新的贡献者积极参与，而不会使贡献者一开始就被细微的错误淹没，所以检视的时候，可以重点关注包括：
+**对于检视者**，强烈建议本着[行为准则](https://gitee.com/openeuler/community/blob/master/code-of-conduct.md)，超越自我，相互尊重和促进协作。在检视其他人的PR的时候，[补丁审核的柔和艺术](https://sage.thesharps.us/2014/09/01/the-gentle-art-of-patch-review/)提出了一系列检视的重点，旨在说明检视的活动也希望能够促进新的贡献者积极参与，而不会使贡献者一开始就被细微的错误淹没，所以检视的时候，可以重点关注包括：
 
 + 贡献背后的想法是否合理
 + 贡献的架构是否正确
@@ -203,7 +203,7 @@ openEuler是一个开放的社区，我们希望所有参与社区的人都能�
 
 # 安装openEuler
 
-请参考[下载安装openEuler](https://openeuler.org/zh/download.html)
+请参考[下载安装openEuler](https://openeuler.org/zh/download/)
 
 
 
@@ -224,7 +224,7 @@ openEuler社区的交流方式有邮件列表、IRC会议和视频会议等，�
 
 ## 社区新闻和大事件
 
-openEuler参加或举办的社区和技术交流会议，关于这些事件和其他社区事件信息均可以在[openEuler新闻](https://openeuler.org/zh/news.html)页面上找到
+openEuler参加或举办的社区和技术交流会议，关于这些事件和其他社区事件信息均可以在[openEuler新闻](https://openeuler.org/zh/interaction/news-list/)页面上找到
 
 
 
