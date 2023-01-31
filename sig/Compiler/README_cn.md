@@ -161,10 +161,10 @@ Compiler SIG 每双周周二上午10:00进行线上例会，也会定期举办�
      - 乔 沛鑫[@peixin-qiao](https://gitee.com/peixin-qiao) 邮箱: qiaopeixin@huawei.com
  - [BiShengCLanguage](https://gitee.com/openeuler/BiShengCLanguage)
    - Maintainers
-     - 徐 茂达[@nns_icu](https://gitee.com/nns_icu) email: xumaoda@huawei.com
+     - 徐 茂达[@nns_icu](https://gitee.com/nns_icu) 邮箱: xumaoda@huawei.com
    - Committers
-     - 范 长春[@fanchangchun](https://gitee.com/fanchangchun) email: fanchangchun@huawei.com
-     - 汪 焰韬[@plt42](https://gitee.com/plt42) email: wangyantao4@huawei.com
+     - 范 长春[@fanchangchun](https://gitee.com/fanchangchun) 邮箱: fanchangchun@huawei.com
+     - 汪 焰韬[@plt42](https://gitee.com/plt42) 邮箱: wangyantao4@huawei.com
  - [pin-server](https://gitee.com/openeuler/pin-server)
  - [src-openeuler/pin-server](https://gitee.com/src-openeuler/pin-server)
    - Maintainers
@@ -175,20 +175,20 @@ Compiler SIG 每双周周二上午10:00进行线上例会，也会定期举办�
      - 李 彦成[@li-yancheng](https://gitee.com/li-yancheng) 邮箱: liyancheng@huawei.com
  - [llvm-mlir](https://gitee.com/src-openeuler/llvm-mlir)
    - Maintainers
-     - 李 彦成[@li-yancheng](https://gitee.com/li-yancheng) email: liyancheng@huawei.com
+     - 李 彦成[@li-yancheng](https://gitee.com/li-yancheng) 邮箱: liyancheng@huawei.com
    - Committers
-     - 黄 晓权[@huang-xiaoquan](https://gitee.com/huang-xiaoquan) email: huangxiaoquan1@huawei.com
-     - 林 达[@benniaobufeijiushiji](https://gitee.com/benniaobufeijiushiji) email: linda7@huawei.com
+     - 黄 晓权[@huang-xiaoquan](https://gitee.com/huang-xiaoquan) 邮箱: huangxiaoquan1@huawei.com
+     - 林 达[@benniaobufeijiushiji](https://gitee.com/benniaobufeijiushiji) 邮箱: linda7@huawei.com
  - [Bear](https://gitee.com/src-openeuler/Bear)
    - Maintainers
-     - 李 彦成[@li-yancheng](https://gitee.com/li-yancheng) email: liyancheng@huawei.com
+     - 李 彦成[@li-yancheng](https://gitee.com/li-yancheng) 邮箱: liyancheng@huawei.com
    - Committers
-     - 赵 文宇[@huitailangzju](https://gitee.com/huitailangzju) email: 804544223@qq.com
+     - 赵 文宇[@huitailangzju](https://gitee.com/huitailangzju) 邮箱: 804544223@qq.com
  - [gn](https://gitee.com/src-openeuler/gn)
    - Committers
-     - 李 海炜[@liheavy](https://gitee.com/liheavy) email: lihaiwei8@huawei.com
+     - 李 海炜[@liheavy](https://gitee.com/liheavy) 邮箱: lihaiwei8@huawei.com
    - Contributers
-     - 许 崇宇[@xu-chongyu214](https://gitee.com/xu-chongyu214) email: xuchongyu@huawei.com
+     - 许 崇宇[@xu-chongyu214](https://gitee.com/xu-chongyu214) 邮箱: xuchongyu@huawei.com
 
 ## 联系
  - [邮件列表](compiler@openeuler.org)
