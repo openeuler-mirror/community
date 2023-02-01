@@ -5,7 +5,7 @@ The following lists aim to help non-code contributors find the best suited areas
 
 
 ## Outward-oriented Community Work
-- Participating in [community communications](/../communication/), including helping new members contribute to the community and answering questions about the community.
+- Participating in [community communications](/en/communication/), including helping new members contribute to the community and answering questions about the community.
 - Operating and maintaining the community communication tools, including hosting community meetings.
 - Organizing community meetups, including openEuler Developer Day.
 - Managing community events, including viewing and managing events in discussion.
