@@ -1,5 +1,6 @@
 name: sig-KIRAN-DESKTOP
 description: The KIRAN-DESKTOP SIG is committed to introducing KIRAN-DESKTOP into the openEuler community, and performing related adaptation, migration and optimization, making it one of the server desktop environments officially supported by the openEuler community.
+created_on: '2020-08-20'
 mailing_list: sig-KIRAN-DESKTOP@openeuler.org
 meeting_url: NA
 mature_level: gratuated
@@ -12,19 +13,10 @@ maintainers:
 - gitee_id: tangjie02
   name: TangJie
   email: tangjie02@kylinsec.com.cn
-committers:
-- gitee_id: liuxingxiang
-  name: LiuXingXiang
-  email: liuxingxiang@kylinos.com.cn
-- gitee_id: yuan__xing
-  name: YuanXing
-  email: yuanxing@kylinos.com.cn
-- gitee_id: Bmen
-  name: PengYuLong
-  email: pengyulong@kylinos.com.cn
-- gitee_id: luoqing_kylinsec
-  name: LuoQing
-  email: luoqing@kylinos.com.cn
+- gitee_id: liubuguiii
+  name: LiuXinHao
+  organization: KylinSec OS
+  email: liuxinhao@kylinsec.com.cn
 repositories:
 - repo:
   - src-openeuler/kiran-avatar-editor
@@ -65,3 +57,16 @@ repositories:
   - src-openeuler/kiran-screensaver
   - src-openeuler/kiran-authentication-service
   - src-openeuler/kiran-biometrics
+  committers:
+  - gitee_id: liuxingxiang
+    name: LiuXingXiang
+    email: liuxingxiang@kylinos.com.cn
+  - gitee_id: yuan__xing
+    name: YuanXing
+    email: yuanxing@kylinos.com.cn
+  - gitee_id: Bmen
+    name: PengYuLong
+    email: pengyulong@kylinos.com.cn
+  - gitee_id: luoqing_kylinsec
+    name: LuoQing
+    email: luoqing@kylinos.com.cn    

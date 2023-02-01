@@ -1,5 +1,6 @@
 name: sig-DPU
 description: Sig-DPU is expected to sommon DPU vendors and developers over domestic and international, exploring DPU's ability to provide better programmability and customizability for data-center and cloud.
+created_on: '2021-11-22'
 mailing_list: dev@openeuler.org
 meeting_url: https://etherpad.openeuler.org/p/sig-DPU-meetings
 mature_level: startup
@@ -36,29 +37,29 @@ maintainers:
   name: Chen Anqing
   organization: Jaguar Microsystems
   email: chenanqing@163.com
-committers:
-- gitee_id: ryuxin
-  name: Ren Yuxin
-  organization: Huawei
-  email: renyuxin1@huawei.com
-- gitee_id: luochenglcs
-  name: Luo Chunsheng
-  organization: Huawei
-  email: luochunsheng@huawei.com
-- gitee_id: superhugepan
-  name: Zhang Pan
-  organization: Huawei
-  email: zhangpan26@huawei.com
-- gitee_id: louhongxiang
-  name: Lou Hongxiang
-  organization: Huawei
-  email: louhongxiang@huawei.com
-- gitee_id: liusirui
-  name: Liu Sirui
-  organization: Huawei
-  email: liusirui@huawei.com
 repositories:
-- repo:
+- repo: 
   - openeuler/dpu-core
   - openeuler/dpu-utilities
   - src-openeuler/dpu-utilities
+  committers:
+  - gitee_id: ryuxin
+    name: Ren Yuxin
+    organization: Huawei
+    email: renyuxin1@huawei.com
+  - gitee_id: luochenglcs
+    name: Luo Chunsheng
+    organization: Huawei
+    email: luochunsheng@huawei.com
+  - gitee_id: superhugepan
+    name: Zhang Pan
+    organization: Huawei
+    email: zhangpan26@huawei.com
+  - gitee_id: louhongxiang
+    name: Lou Hongxiang
+    organization: Huawei
+    email: louhongxiang@huawei.com
+  - gitee_id: liusirui
+    name: Liu Sirui
+    organization: Huawei
+    email: liusirui@huawei.com

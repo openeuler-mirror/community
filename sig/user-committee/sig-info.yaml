@@ -1,0 +1,18 @@
+name: user-committee
+description: Collect user feedback from end users of the openEuler operating system and open source platform projects, communicate with community developers, and promote user requirements to be accepted in the community. 
+created_on: '2021-05-10'
+mailing_list: end-user@openeuler.org
+meeting_url: 
+mature_level: startup
+maintainers:
+- gitee_id: genedna
+  name: maquanyi
+  organization: Huawei
+  email: eli@patch.sh
+- gitee_id: allesgute
+  name: qusheng
+  organization: ISCAS
+  email: qusheng@iscas.ac.cn
+repositories:
+- repo:
+  - openeuler/user-committee

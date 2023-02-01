@@ -1,5 +1,6 @@
 name: sig-Migration
 description: The sig-Migration is used to  migrate OS.
+created_on: '2021-05-18'
 mailing_list: dev@openeuler.org
 meeting_url: https://etherpad.openeuler.org/p/sig-Migration-meetings
 mature_level: startup
@@ -23,10 +24,6 @@ maintainers:
 - gitee_id: stonefly128
   name: 石勇
   email: shiyong@kylinos.com.cn
-committers:
-- gitee_id: blublue
-  name: 郭青岚
-  email: guoqinglan@uniontech.com
 repositories:
 - repo:
   - openeuler/migration-assistant
@@ -34,3 +31,7 @@ repositories:
   - src-openeuler/migration-assistant
   - src-openeuler/ubackup
   - src-openeuler/restic
+  committers:
+  - gitee_id: blublue
+    name: 郭青岚
+    email: guoqinglan@uniontech.com

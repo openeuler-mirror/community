@@ -1,5 +1,6 @@
 name: sig-DDE
 description: The deepin desktop enviroment sig.
+created_on: '2020-06-24'
 mailing_list: dev@openeuler.org
 meeting_url: https://etherpad.openeuler.org/p/sig-DDE-meetings
 mature_level: startup
@@ -17,20 +18,6 @@ maintainers:
 - gitee_id: weidongkl
   name: weidongkl
   email: weidongkl@uniontech.com
-committers:
-- gitee_id: panchenbo
-  name: panchenbo
-  email: panchenbo@uniontech.com
-- gitee_id: weidongkl
-  name: weidongkl
-  email: weidongkl@uniontech.com
-- gitee_id: liyf
-  name: 小柿子
-  email: liyanfeng@uniontech.com
-- gitee_id: reganhe_xx
-  name: ReganHe
-  email: herengui@uniontech.com
-
 repositories:
 - repo:
   - src-openeuler/dde-control-center
@@ -99,3 +86,16 @@ repositories:
   - src-openeuler/deepin-pw-check
   - src-openeuler/cryfs
   - src-openeuler/deepin-image-editor
+  committers:
+  - gitee_id: panchenbo
+    name: panchenbo
+    email: panchenbo@uniontech.com
+  - gitee_id: weidongkl
+    name: weidongkl
+    email: weidongkl@uniontech.com
+  - gitee_id: liyf
+    name: 小柿子
+    email: liyanfeng@uniontech.com
+  - gitee_id: reganhe_xx
+    name: ReganHe
+    email: herengui@uniontech.com

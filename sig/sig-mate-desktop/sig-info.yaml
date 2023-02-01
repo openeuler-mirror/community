@@ -1,0 +1,92 @@
+name: sig-mate-desktop
+description: The MATE desktop environment is a continuation of GNOME2. It provides an intuitive and attractive desktop environment for Linux and other Unix-like operating systems. 
+created_on: '2020-03-21'
+mailing_list: dev@openeuler.org
+meeting_url: 
+mature_level: startup
+maintainers:
+- gitee_id: isoftljj
+  name: liujiajie
+  organization: i-Soft
+  email: jiajie.liu@i-soft.com.cn
+- gitee_id: li_guoqiang9
+  name: liguoqiang
+  organization: i-Soft
+  email: guoqiang.li@i-soft.com.cn
+- gitee_id: xzyangha
+  name: yangxianzhao 
+  organization: i-Soft
+  email: xianzhao.yang@i-soft.com.cn 
+- gitee_id: tangjie02
+  name: tangjie
+  organization: KylinSec
+  email: tangjie02@kylinsec.com.cn
+- gitee_id: yueyaoqiang
+  name: yueyaoqiang
+  organization: i-Soft
+  email: yaoqiang.yue@i-soft.com.cn
+- gitee_id: xu-think-about-it
+  name: xuxiangxiang
+  organization: i-Soft
+  email: xiangxiang.xu@i-soft.com.cn
+repositories:
+- repo:
+  - src-openeuler/wireless-tools
+  - src-openeuler/wireless-regdb
+  - src-openeuler/re2c
+  - src-openeuler/im-chooser
+  - src-openeuler/libXpresent
+  - src-openeuler/libXNVCtrl
+  - src-openeuler/libmateweather
+  - src-openeuler/libmatemixer
+  - src-openeuler/libwnck
+  - src-openeuler/libmatekbd
+  - src-openeuler/eom
+  - src-openeuler/unique3
+  - src-openeuler/system-config-users-docs
+  - src-openeuler/system-config-users
+  - src-openeuler/caja-extensions
+  - src-openeuler/caja-actions
+  - src-openeuler/cjkuni-uming-fonts
+  - src-openeuler/caja
+  - src-openeuler/perl-ExtUtils-Depends
+  - src-openeuler/pangox-compat
+  - src-openeuler/perl-ExtUtils-PkgConfig
+  - src-openeuler/python-nbxmpp
+  - src-openeuler/python-precis_i18n
+  - src-openeuler/python-cssutils
+  - src-openeuler/perl-Glib
+  - src-openeuler/mate-screensaver
+  - src-openeuler/mate-session-manager
+  - src-openeuler/mate-utils
+  - src-openeuler/mate-user-guide
+  - src-openeuler/mate-media
+  - src-openeuler/mate-control-center
+  - src-openeuler/mate-polkit
+  - src-openeuler/mate-settings-daemon
+  - src-openeuler/marco
+  - src-openeuler/mate-common
+  - src-openeuler/mate-sensors-applet
+  - src-openeuler/mate-system-monitor
+  - src-openeuler/mate-menus
+  - src-openeuler/mate-terminal
+  - src-openeuler/mate-notification-daemon
+  - src-openeuler/mate-power-manager
+  - src-openeuler/mate-themes
+  - src-openeuler/mate-desktop
+  - src-openeuler/mate-backgrounds
+  - src-openeuler/mate-icon-theme
+  - src-openeuler/mate-applets
+  - src-openeuler/mate-calc
+  - src-openeuler/mate-panel
+  - src-openeuler/gucharmap
+  - src-openeuler/gtk2-engines
+  - src-openeuler/gparted
+  - src-openeuler/gajim
+  - src-openeuler/gtksourceview4
+  - src-openeuler/gtk-murrine-engine
+  - src-openeuler/gcolor2
+  - src-openeuler/glade3
+  - src-openeuler/gtk-layer-shell
+  - src-openeuler/open-chinese-fonts
+  - openeuler/mate-desktop
