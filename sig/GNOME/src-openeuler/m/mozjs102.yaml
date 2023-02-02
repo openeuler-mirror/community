@@ -1,0 +1,7 @@
+name: mozjs102
+description: SpiderMonkey JavaScript library
+upstream: https://hg.mozilla.org/releases/mozilla-esr102
+branches:
+- name: master
+  type: protected
+type: public
