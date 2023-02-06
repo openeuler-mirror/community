@@ -1,5 +1,6 @@
 name: mindspore
-description: MindSpore is a new open source deep learning training/inference framework that could be used for mobile, edge and cloud scenarios.
+description: MindSpore is a new open source deep learning training/inference framework
+  that could be used for mobile, edge and cloud scenarios.
 upstream: https://www.mindspore.cn/
 branches:
 - name: master
@@ -16,4 +17,7 @@ branches:
 - name: openEuler-22.03-LTS
   type: protected
   create_from: openEuler-22.03-LTS-Next
+- name: openEuler-23.03
+  type: protected
+  create_from: master
 type: public

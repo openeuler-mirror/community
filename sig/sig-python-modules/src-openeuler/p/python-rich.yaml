@@ -1,7 +1,11 @@
 name: python-rich
-description: Rich is a Python library for rich text and beautiful formatting in the terminal
+description: Rich is a Python library for rich text and beautiful formatting in the
+  terminal
 upstream: https://github.com/Textualize/rich
 branches:
 - name: master
   type: protected
+- name: openEuler-23.03
+  type: protected
+  create_from: master
 type: public

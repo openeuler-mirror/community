@@ -1,5 +1,6 @@
 name: pin-gcc-client
-description: A Pin (Plug-IN framework) client is implemented based on GCC plugin and can execute the compiler optimization pass in GCC.
+description: A Pin (Plug-IN framework) client is implemented based on GCC plugin and
+  can execute the compiler optimization pass in GCC.
 upstream: https://gitee.com/openeuler/pin-gcc-client
 branches:
 - name: master
@@ -13,4 +14,7 @@ branches:
 - name: openEuler-22.03-LTS-SP1
   type: protected
   create_from: openEuler-22.03-LTS-Next
+- name: openEuler-23.03
+  type: protected
+  create_from: master
 type: public

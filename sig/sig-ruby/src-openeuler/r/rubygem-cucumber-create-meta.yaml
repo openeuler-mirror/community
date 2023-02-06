@@ -4,4 +4,7 @@ upstream: http://rubygems.org/gems/cucumber-create-meta
 branches:
 - name: master
   type: protected
+- name: openEuler-23.03
+  type: protected
+  create_from: master
 type: public

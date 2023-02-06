@@ -1,7 +1,10 @@
 name: libnvme
-description: 'Linux-native nvme device management library'
+description: Linux-native nvme device management library
 upstream: http://github.com/linux-nvme/libnvme
 branches:
 - name: master
   type: protected
+- name: openEuler-23.03
+  type: protected
+  create_from: master
 type: public

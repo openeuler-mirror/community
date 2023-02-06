@@ -4,4 +4,7 @@ description: botan is a C++ cryptography library.
 branches:
 - name: master
   type: protected
+- name: openEuler-23.03
+  type: protected
+  create_from: master
 type: public
