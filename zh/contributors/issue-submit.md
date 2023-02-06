@@ -2,12 +2,12 @@
 
 目录：
 
-- Issue简介
-- Issue的基本功能
-- Issue的全局视图
-- 需求类Issue提交和处理指导
-- bug类Issue提交和处理指导
-- 安全类Issue提交和处理指导
+- [Issue简介](#issue简介)
+- [Issue的基本功能](#issue的基本功能)
+- [Issue的全局视图](#issue的全局视图)
+- [需求类Issue提交和处理指导](#需求类issue提交和处理指导)
+- [bug类Issue提交和处理指导](#bug类issue提交和处理指导)
+- [安全类Issue提交和处理指导](#安全类issue提交和处理指导)
 
 
 
@@ -200,7 +200,7 @@ Issue面板只能查看和操作当前的repository，Gitee还提供了Issue的�
 
 ## 安全类Issue提交和处理指导
 
-安全类问题处理流程请参考[此文档]()中的描述.
+安全类问题处理流程请参考[此文档](https://openeuler.org/zh/security/vulnerability-reporting/)中的描述.
 
 
 
