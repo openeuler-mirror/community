@@ -55,8 +55,6 @@ repositories:
   - openeuler/PilotGo
   - openeuler/PilotGo-plugins
   - openeuler/PilotGo-web
-  - openeuler/X-diagnosis
-  - src-openeuler/X-diagnosis
   - openeuler/sysmonitor
   - src-openeuler/sysmonitor
   - openeuler/kbox
@@ -191,4 +189,15 @@ repositories:
     name: XueYang Li
     organization: Linx
     email: dev12102@linx-info.com
-    
+- repo:
+  - openeuler/X-diagnosis
+  - src-openeuler/X-diagnosis
+  committers:
+  - gitee_id: fwking
+    name: Wang Xiaogang
+    organization: Huawei
+    email: wangxiaogang3@huawei.com
+  - gitee_id: qiangxiaojun
+    name: Qiang Xiaojun
+    organization: Huawei
+    email: qiangxiaojun@huawei.com
