@@ -68,7 +68,7 @@ RISC-V 是一个免费开源的指令集（ISA）。RISC-V SIG 组旨在提供 o
 <img src="./wuwei.jpg" width="30%" height="30%">
 
 - 邮箱：通过maintainer邮箱联系
-- 邮件列表：目前共用openEuler dev列表：dev@openeuler.org
+- [邮件列表](riscv@openeuler.org)
 
 
 
