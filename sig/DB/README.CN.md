@@ -110,3 +110,4 @@ DB SIG当前处于发展的初始阶段，团队维护能力有限，目前为�
 - https://gitee.com/src-openeuler/apache-orc
 - https://gitee.com/src-openeuler/cjson
 - https://gitee.com/src-openeuler/tez
+- https://gitee.com/src-openeuler/openGemini
