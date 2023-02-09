@@ -1,0 +1,7 @@
+name: openGemini
+description: An open source distributed time-series database with high concurrency, high performance, and high scalability
+upstream: https://github.com/openGemini/openGemini
+branches:
+- name: master
+  type: protected
+type: public
