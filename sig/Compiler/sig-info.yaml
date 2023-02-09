@@ -153,17 +153,22 @@ repositories:
   - src-openeuler/openjfx11
   - src-openeuler/WLLVM
   - src-openeuler/compiler-rt
+  - src-openeuler/compiler-rt-15
   - src-openeuler/clang
   - src-openeuler/clang-15
   - src-openeuler/jtreg
   - src-openeuler/llvm-bolt
+  - src-openeuler/llvm-bolt-15
   - src-openeuler/llvm
   - src-openeuler/llvm-15
   - src-openeuler/llvm-libunwind
+  - src-openeuler/llvm-libunwind-15
   - src-openeuler/lld
   - src-openeuler/lld-15
   - src-openeuler/libcxx
+  - src-openeuler/libcxx-15
   - src-openeuler/libcxxabi
+  - src-openeuler/libcxxabi-15
   - src-openeuler/binutils
   - src-openeuler/icedtea-web
   - src-openeuler/gcc-12
@@ -208,6 +213,7 @@ repositories:
     email: wangyantao4@huawei.com
 - repo:
   - src-openeuler/llvm-mlir
+  - src-openeuler/mlir-15
   committers:
   - gitee_id: huang-xiaoquan
     name: xiaoquan Huang

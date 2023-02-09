@@ -101,15 +101,20 @@ Tuesday 10 am bi-weekly, UTC+8.
  - [llvm](https://gitee.com/src-openeuler/llvm)
  - [llvm-15](https://gitee.com/src-openeuler/llvm-15)
  - [llvm-bolt](https://gitee.com/src-openeuler/llvm-bolt)
+ - [llvm-bolt-15](https://gitee.com/src-openeuler/llvm-bolt-15)
  - [lld](https://gitee.com/src-openeuler/lld)
  - [lld-15](https://gitee.com/src-openeuler/lld-15)
  - [WLLVM](https://gitee.com/src-openeuler/WLLVM)
  - [clang](https://gitee.com/src-openeuler/clang)
  - [clang-15](https://gitee.com/src-openeuler/clang-15)
  - [compiler-rt](https://gitee.com/src-openeuler/compiler-rt)
+ - [compiler-rt-15](https://gitee.com/src-openeuler/compiler-rt-15)
  - [libcxx](https://gitee.com/src-openeuler/libcxx)
+ - [libcxx-15](https://gitee.com/src-openeuler/libcxx-15)
  - [libcxxabi](https://gitee.com/src-openeuler/libcxxabi)
+ - [libcxxabi-15](https://gitee.com/src-openeuler/libcxxabi-15)
  - [llvm-libunwind](https://gitee.com/src-openeuler/llvm-libunwind)
+ - [llvm-libunwind-15](https://gitee.com/src-openeuler/llvm-libunwind-15)
    - Maintainers
      - 郭 培林[@peilin-guo](https://gitee.com/peilin-guo) email: guopeilin1@huawei.com
      - 钟 云德[@zhongyunde](https://gitee.com/zhongyunde) email: zhongyunde@huawei.com
@@ -174,6 +179,7 @@ Tuesday 10 am bi-weekly, UTC+8.
    - Maintainers
      - 李 彦成[@li-yancheng](https://gitee.com/li-yancheng) email: liyancheng@huawei.com
  - [llvm-mlir](https://gitee.com/src-openeuler/llvm-mlir)
+ - [mlir-15](https://gitee.com/src-openeuler/mlir-15)
    - Maintainers
      - 李 彦成[@li-yancheng](https://gitee.com/li-yancheng) email: liyancheng@huawei.com
    - Committers
