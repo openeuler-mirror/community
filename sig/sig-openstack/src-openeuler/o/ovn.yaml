@@ -1,7 +1,7 @@
 name: ovn
-description: OVN (Open Virtual Network) is a series of daemons that translates
-  virtual network configuration into OpenFlow, and installs them into Open
-  vSwitch. It is licensed under the open source Apache 2 license.
+description: OVN (Open Virtual Network) is a series of daemons that translates virtual
+  network configuration into OpenFlow, and installs them into Open vSwitch. It is
+  licensed under the open source Apache 2 license.
 upstream: https://github.com/ovn-org/ovn
 branches:
 - name: master
@@ -18,4 +18,7 @@ branches:
 - name: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-SP1
   type: protected
   create_from: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-Next
+- name: openEuler-23.03
+  type: protected
+  create_from: master
 type: public

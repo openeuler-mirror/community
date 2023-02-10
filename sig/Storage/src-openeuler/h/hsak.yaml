@@ -1,10 +1,14 @@
 name: hsak
-description: hsak stands for "Hybrid Storage Acceleration Kit", which is an IO software stack that provides high bandwidth and low latency for new storage media.
+description: hsak stands for "Hybrid Storage Acceleration Kit", which is an IO software
+  stack that provides high bandwidth and low latency for new storage media.
 upstream: https://gitee.com/openeuler/hsak
 branches:
 - name: master
   type: protected
 - name: openEuler-22.09
+  type: protected
+  create_from: master
+- name: openEuler-23.03
   type: protected
   create_from: master
 type: public

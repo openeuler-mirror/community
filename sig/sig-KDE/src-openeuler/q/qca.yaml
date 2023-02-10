@@ -1,10 +1,14 @@
 name: qca
-description: qca is  a library that provides an easy API for a range of cryptographic features .
+description: qca is  a library that provides an easy API for a range of cryptographic
+  features .
 upstream: https://github.com/KDE/qca
 branches:
 - name: master
   type: protected
 - name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-23.03
   type: protected
   create_from: master
 type: public

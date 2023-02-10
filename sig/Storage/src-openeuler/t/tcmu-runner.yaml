@@ -1,8 +1,10 @@
 name: tcmu-runner
-description: A daemon that handles the userspace side of the LIO TCM-User backstore. 
+description: A daemon that handles the userspace side of the LIO TCM-User backstore.
 upstream: https://github.com/open-iscsi/tcmu-runner.git
 branches:
 - name: master
   type: protected
+- name: openEuler-23.03
+  type: protected
+  create_from: master
 type: public
-
