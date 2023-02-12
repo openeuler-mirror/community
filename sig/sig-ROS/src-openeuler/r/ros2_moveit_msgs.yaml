@@ -1,0 +1,7 @@
+name: ros2_moveit_msgs
+description: ROS messages used by MoveIt.
+upstream: https://github.com/ros-planning/moveit_msgs.git
+branches:
+- name: master
+  type: protected
+type: public

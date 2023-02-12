@@ -1,0 +1,7 @@
+name: ros2_srdfdom
+description: Semantic Robot Description Format.
+upstream: https://github.com/ros-planning/srdfdom.git
+branches:
+- name: master
+  type: protected
+type: public

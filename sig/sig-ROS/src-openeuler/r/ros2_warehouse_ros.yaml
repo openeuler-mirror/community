@@ -1,0 +1,7 @@
+name: ros2_warehouse_ros
+description: Data persistence for ROS using MongoDB.
+upstream: https://github.com/ros-planning/warehouse_ros.git
+branches:
+- name: master
+  type: protected
+type: public

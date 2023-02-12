@@ -1,0 +1,7 @@
+name: ros2_robot_state_publisher
+description: Allows you to publish the state of a robot for ROS 2.
+upstream: https://github.com/ros/robot_state_publisher
+branches:
+- name: master
+  type: protected
+type: public

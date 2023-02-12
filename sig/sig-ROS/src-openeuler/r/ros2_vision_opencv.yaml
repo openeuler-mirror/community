@@ -1,0 +1,7 @@
+name: ros2_vision_opencv
+description: vision_opencv for ROS 2.
+upstream: https://github.com/ros-perception/vision_opencv
+branches:
+- name: master
+  type: protected
+type: public

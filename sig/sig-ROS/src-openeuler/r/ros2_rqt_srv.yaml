@@ -1,0 +1,7 @@
+name: ros2_rqt_srv
+description: rqt_srv for ROS 2.
+upstream: https://github.com/ros-visualization/rqt_srv
+branches:
+- name: master
+  type: protected
+type: public

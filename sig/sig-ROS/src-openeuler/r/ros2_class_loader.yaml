@@ -1,0 +1,7 @@
+name: ros2_class_loader
+description: ROS-independent library for dynamic class.
+upstream: https://github.com/ros/class_loader
+branches:
+- name: master
+  type: protected
+type: public

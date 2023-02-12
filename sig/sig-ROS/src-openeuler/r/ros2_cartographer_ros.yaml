@@ -1,0 +1,7 @@
+name: ros2_cartographer_ros
+description: cartographer_ros ROS 2.
+upstream: https://github.com/cartographer-project/cartographer_ros
+branches:
+- name: master
+  type: protected
+type: public

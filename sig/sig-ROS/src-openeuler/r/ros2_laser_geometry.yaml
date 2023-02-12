@@ -1,0 +1,7 @@
+name: ros2_laser_geometry
+description: Provides the LaserProjection class for turning laser scan data into point clouds.
+upstream: https://github.com/ros-perception/laser_geometry
+branches:
+- name: master
+  type: protected
+type: public

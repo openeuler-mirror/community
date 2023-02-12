@@ -1,0 +1,7 @@
+name: ros2_pluginlib
+description: Library for loading/unloading plugins in ROS packages during runtime.
+upstream: https://github.com/ros/pluginlib
+branches:
+- name: master
+  type: protected
+type: public

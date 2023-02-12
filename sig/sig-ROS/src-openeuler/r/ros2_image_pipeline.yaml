@@ -1,0 +1,7 @@
+name: ros2_image_pipeline
+description: An image processing pipeline for ROS.
+upstream: https://github.com/ros-perception/image_pipeline
+branches:
+- name: master
+  type: protected
+type: public

@@ -1,0 +1,7 @@
+name: ros2_kdl_parser
+description: This contains packages for converting from URDF to a representation in KDL. 
+upstream: https://github.com/ros/kdl_parser
+branches:
+- name: master
+  type: protected
+type: public

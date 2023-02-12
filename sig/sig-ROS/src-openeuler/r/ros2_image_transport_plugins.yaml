@@ -1,0 +1,7 @@
+name: ros2_image_transport_plugins
+description: image_transport_plugins for ROS 2.
+upstream: https://github.com/ros-perception/image_transport_plugins
+branches:
+- name: master
+  type: protected
+type: public
