@@ -1,0 +1,7 @@
+name: ros2_resource_retriever
+description: Package used to retrieve resources of different kinds.
+upstream: https://github.com/ros/resource_retriever
+branches:
+- name: master
+  type: protected
+type: public

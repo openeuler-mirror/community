@@ -1,0 +1,7 @@
+name: ros2_random_numbers
+description: Routines for random number generation.
+upstream: https://github.com/ros-planning/random_numbers.git
+branches:
+- name: master
+  type: protected
+type: public

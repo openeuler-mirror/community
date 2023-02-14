@@ -1,0 +1,7 @@
+name: ros2_ros_environment
+description: ros_environment for ROS 2.
+upstream: https://github.com/ros/ros_environment
+branches:
+- name: master
+  type: protected
+type: public

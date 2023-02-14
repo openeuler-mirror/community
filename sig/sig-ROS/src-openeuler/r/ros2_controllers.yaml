@@ -1,0 +1,7 @@
+name: ros2_controllers
+description: Generic robotic controllers to accompany ros2_control.
+upstream: https://github.com/ros-controls/ros2_controllers.git
+branches:
+- name: master
+  type: protected
+type: public

@@ -1,0 +1,7 @@
+name: ros2_depthimage_to_laserscan
+description: Converts a depth image to a laser scan for use with navigation and localization.
+upstream: https://github.com/ros-perception/depthimage_to_laserscan
+branches:
+- name: master
+  type: protected
+type: public

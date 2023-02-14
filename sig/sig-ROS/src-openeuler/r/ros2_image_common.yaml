@@ -1,0 +1,7 @@
+name: ros2_image_common
+description: Common code for working with images in ROS.
+upstream: https://github.com/ros-perception/image_common
+branches:
+- name: master
+  type: protected
+type: public

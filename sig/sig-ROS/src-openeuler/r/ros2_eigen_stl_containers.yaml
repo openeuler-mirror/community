@@ -1,0 +1,7 @@
+name: ros2_eigen_stl_containers
+description: Eigen STL containers for ROS 2.
+upstream: https://github.com/ros/eigen_stl_containers.git
+branches:
+- name: master
+  type: protected
+type: public

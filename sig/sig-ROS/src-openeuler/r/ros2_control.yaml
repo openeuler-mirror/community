@@ -1,0 +1,7 @@
+name: ros2_control
+description: Generic and simple controls framework for ROS2.
+upstream: git@github.com:ros-controls/ros2_control.git
+branches:
+- name: master
+  type: protected
+type: public

@@ -1,0 +1,7 @@
+name: ros2_control_msgs
+description: This repository uses pre-commit tool for code formatting. .
+upstream: https://github.com/ros-controls/control_msgs.git
+branches:
+- name: master
+  type: protected
+type: public

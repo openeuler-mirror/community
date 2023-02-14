@@ -1,0 +1,7 @@
+name: ros2_navigation_msgs
+description: Message packages required by the navigation stack.
+upstream: https://github.com/ros-planning/navigation_msgs
+branches:
+- name: master
+  type: protected
+type: public
