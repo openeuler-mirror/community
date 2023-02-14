@@ -1,0 +1,7 @@
+name: qt6-qtbase
+description: Qt6 - QtBase components
+upstream: https://code.qt.io/cgit/qt/qtbase.git
+branches:
+- name: master
+  type: protected
+type: public

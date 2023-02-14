@@ -1,0 +1,66 @@
+name: sig-QT
+description: The QT team is responsible for the development and maintenance of QT in the openeuler community.
+created_on: '2023-02-14'
+mailing_list: qt@openeuler.org
+meeting_url: https://etherpad.openeuler.org/p/sig-QT-meetings
+mature_level: startup
+maintainers:
+- gitee_id: dou33
+  name: Dou Yan
+  organization: Kylinsoft
+  email: douyan@kylinos.cn
+- gitee_id: peijiankang
+  name: Pei Jiankang
+  organization: Kylinsoft
+  email: peijiankang@kylinos.cn
+- gitee_id: weidongkl
+  name: WeiDong
+  organization: UnionTech
+  email: weidong@uniontech.com
+- gitee_id: leeffo
+  name: weigang li
+  organization: UnionTech
+  email: liweiganga@uniontech.com
+- gitee_id: Jingwiw
+  name: Wang Jingwei
+  organization: ISCAS
+  email: wangjingwei@iscas.ac.cn
+repositories:
+- repo:
+  - src-openeuler/qt6
+  - src-openeuler/qt6-qtbase
+  - src-openeuler/qt6-qt3d                         
+  - src-openeuler/qt6-qt5compat
+  - src-openeuler/qt6-qtcharts
+  - src-openeuler/qt6-qtconnectivity
+  - src-openeuler/qt6-qtdatavis3d
+  - src-openeuler/qt6-qtdeclarative
+  - src-openeuler/qt6-qtdoc
+  - src-openeuler/qt6-qthttpserver
+  - src-openeuler/qt6-qtimageformats
+  - src-openeuler/qt6-qtlanguageserver
+  - src-openeuler/qt6-qtlocation
+  - src-openeuler/qt6-qtlottie
+  - src-openeuler/qt6-qtmultimedia
+  - src-openeuler/qt6-qtnetworkauth
+  - src-openeuler/qt6-qtpositioning
+  - src-openeuler/qt6-qtquick3dphysics
+  - src-openeuler/qt6-qtquick3d
+  - src-openeuler/qt6-qtquickcontrols2
+  - src-openeuler/qt6-qtquicktimeline
+  - src-openeuler/qt6-qtremoteobjects
+  - src-openeuler/qt6-qtscxml
+  - src-openeuler/qt6-qtsensors
+  - src-openeuler/qt6-qtserialbus
+  - src-openeuler/qt6-qtserialport
+  - src-openeuler/qt6-qtshadertools
+  - src-openeuler/qt6-qtspeech
+  - src-openeuler/qt6-qtsvg
+  - src-openeuler/qt6-qttools
+  - src-openeuler/qt6-qttranslations
+  - src-openeuler/qt6-qtvirtualkeyboard
+  - src-openeuler/qt6-qtwayland
+  - src-openeuler/qt6-qtwebchannel
+  - src-openeuler/qt6-qtwebengine
+  - src-openeuler/qt6-qtwebsockets
+  - src-openeuler/qt6-qtwebview

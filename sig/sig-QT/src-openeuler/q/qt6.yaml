@@ -1,0 +1,7 @@
+name: qt6
+description: Qt6 meta package
+upstream: https://gitee.com/openeuler/qt6.git
+branches:
+- name: master
+  type: protected
+type: public

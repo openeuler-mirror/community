@@ -1,0 +1,7 @@
+name: qt6-qtshadertools
+description: Qt6 - Qt Shader Tools module builds on the SPIR-V Open Source Ecosystem
+upstream: https://code.qt.io/cgit/qt/qtshadertools.git
+branches:
+- name: master
+  type: protected
+type: public

@@ -1,0 +1,7 @@
+name: qt6-qt5compat
+description: Qt6 - Qt 5 Compatibility Libraries
+upstream: https://code.qt.io/cgit/qt/qt5compat.git
+branches:
+- name: master
+  type: protected
+type: public

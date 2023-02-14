@@ -1,0 +1,7 @@
+name: qt6-qtlanguageserver
+description: Qt6 - language server protocol component
+upstream: https://code.qt.io/cgit/qt/qtlanguageserver.git
+branches:
+- name: master
+  type: protected
+type: public
