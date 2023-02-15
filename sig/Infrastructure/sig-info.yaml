@@ -16,9 +16,6 @@ maintainers:
 - gitee_id: TommyLike
   name: TommyLike
   email: tommylikehu@gmail.com
-- gitee_id: miao_kaibo
-  name: MiaoKaibo
-  email: miaokaibo@outlook.com
 - gitee_id: imjoey
   name: imjoey
   email: majunjie@apache.org
@@ -43,6 +40,17 @@ maintainers:
 repositories:
 - repo:
   - openeuler/infrastructure
+  committers:
+  - gitee_id: liuqi469227928
+    name: Se7en
+    email: 469227928@qq.com
+  - gitee_id: wanghaosq
+    name: wanghao
+    email: shalldows@163.com
+  - gitee_id: Tom_zc
+    name: Tom
+    email: tom_toworld@163.com
+- repo:
   - openeuler/website
   - openeuler/go-gitee
   - openeuler/gitbook-theme-hugo
