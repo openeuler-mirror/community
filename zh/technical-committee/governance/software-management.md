@@ -4,17 +4,17 @@
 
 ### 目标
 
- openEuler是一个致力于创建开放操作系统的合作组织。我们希望openEuler
+ openEuler是一个致力于创建开放操作系统的合作组织。我们希望openEuler：
 
 - 尽可能多的集成软件组件
 
 - 鼓励所有人使用openEuler，并可以在openEuler上开发软件
 
-- 帮助任何人，在不违反license，进出口管制或其他相关法律的前提下，可以容易的制作安装介质
+- 帮助任何人，在不违反license、进出口管制或其他相关法律的前提下，可以容易的制作安装介质
 
 openEuler遵从 [Open Source Definition](https://opensource.org/docs/osd) （[中文译文](./the_open_source_definition_zh.md)），满足这一定义的软件，被openEuler社区认同为开源软件。
 
-提供适度，高质量的开源软件是openEuler主要目标之一。openEuler努力为其所提供的开源软件在生命周期内提供高质量的支持服务。开源软件众多，质量不一。本着提供高质量开源软件的宗旨，特别拟定本规则指南。本规则的中**必须**，**必须不能**，**应该**，**应该不能**的含义参考[RFC2119](https://tools.ietf.org/html/rfc2119)。
+提供适度，高质量的开源软件是openEuler主要目标之一。openEuler努力为其所提供的开源软件在生命周期内提供高质量的支持服务。开源软件众多，质量不一。本着提供高质量开源软件的宗旨，特别拟定本规则指南。本规则中的**必须**，**必须不能**，**应该**，**应该不能**的含义参考[RFC2119](https://tools.ietf.org/html/rfc2119)。
 
 ### 范围
 
@@ -22,7 +22,7 @@ openEuler遵从 [Open Source Definition](https://opensource.org/docs/osd) （[�
 
 ### 本文的改进和修订说明
 
-- 本文档由[openEuler技术委员会](https://gitee.com/openeuler/community/tree/44b249f8e14fafe56420d525b87eaef37f98ca86/zh/technical-committee)（Technical Committee）主导起草和维护。本文档的最新版本总可以在 [这里](https://gitee.com/openeuler/community/tree/master/zh/technical-committee/governance/software-management.md) 找到。
+- 本文档由[openEuler技术委员会](/sig/TC)（Technical Committee）主导起草和维护。本文档的最新版本总可以在 [这里](https://gitee.com/openeuler/community/tree/master/zh/technical-committee/governance/software-management.md) 找到。
 - 任何对于本文中涉及的规则的增加，修改，删除都**必须**被追踪，[请进入该追踪系统](https://gitee.com/openeuler/community/issues) 。
 - 最终规则经过社区充分的讨论后，由技术委员会定稿。
 
