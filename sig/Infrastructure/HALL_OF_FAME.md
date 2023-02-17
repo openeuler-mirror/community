@@ -8,5 +8,6 @@ The file is used to record people who made contributions to Infrastrusture and h
 | dogsheng | 惊奇脆片饼干 | 2019-12-30 | 2021-09-30 |
 | freesky-edward | freesky-edward | 2019-12-30 | 2021-09-30 |
 | zyp-rock | zyp | 2019-12-30 | 2022-06-06 |
+| miao_kaibo | MiaoKaibo | 2020-03-16 | 2021-12-08 |
 
 Thanks for being with Infrastrusture all the way.
