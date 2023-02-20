@@ -4,4 +4,7 @@ upstream: https://hg.mozilla.org/releases/mozilla-esr102
 branches:
 - name: master
   type: protected
+- name: openEuler-23.03
+  type: protected
+  create_from: master
 type: public
