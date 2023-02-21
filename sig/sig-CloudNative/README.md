@@ -27,6 +27,7 @@ CloudNative SIG致力于为广大用户、开发者、爱好者提供便捷、�
 - biannm[@biannm](https://gitee.com/biannm) | email:bian_naimeng@hoperun.com
 - pixiake[@pixiake](https://gitee.com/pixiake) | email:guofeng@yunify.com
 - duguhaotian[@duguhaotian](https://gitee.com/duguhaotian) | email:liuhao27@huawei.com
+- wonleing[@wonleing](https://gitee.com/wonleing) | email:wangl29@chinatelecom.cn
 
 ### Committer列表
 - caihaomin[@caihaomin](https://gitee.com/caihaomin)
