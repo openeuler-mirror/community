@@ -1,0 +1,32 @@
+name: sig-desktop-apps
+description: The desktop-apps SIG hopes to provide basic application software for personal desktops, not limited to multimedia, music, small games, programmer IDE, financial stocks, etc. It is hoped that with the joint efforts of the community, openEuler has relatively rich playability and meets the basic demands of personal desktop.
+created_on: '2020-06-29'
+mailing_list: sig-desktop-apps@openeuler.org
+meeting_url: NA
+mature_level: gratuated
+mentors:
+maintainers:
+- gitee_id: weidongkl
+  name: WeiDong
+  organization: UnionTech
+  email: weidong@uniontech.com
+- gitee_id: wuxu_buque
+  name: WuXu
+  organization: HuaWei
+  email: wuxu.wu@huawei.com
+- gitee_id: tangjie02
+  name: TangJie
+  organization: KylinSec OS
+  email: tangjie02@kylinsec.com.cn
+repositories:
+- repo:
+  - src-openeuler/lilypond
+  - src-openeuler/meld
+  - src-openeuler/musescore
+  - src-openeuler/qstardict
+  - src-openeuler/stardict
+  - src-openeuler/thunderbird
+  - src-openeuler/tilda
+  - src-openeuler/uget
+  - src-openeuler/vnpy
+
