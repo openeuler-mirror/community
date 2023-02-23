@@ -1,0 +1,10 @@
+name: rust_shyper
+description: Rust-Shyper is an embedded type-1 hypervisor built with Rust, 
+  which has both high performance and high reliability. We have proposed 
+  low overhead VM migration and hypervisor live-update mechanisms to 
+  enable Rust-Shyper to tolerate hardware faults at runtime and dynamically 
+  fix hypervisor bugs.
+branches:
+  - name: master
+    type: protected
+type: public
