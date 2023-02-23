@@ -21,6 +21,7 @@ KDE桌面环境，一种运行于Linux、 FreeBSD、Unix上的自由图形桌面
 - weidongkl[@weidongkl](https://gitee.com/weidongkl)
 - 窦龑[@dou33](https://gitee.com/dou33)
 - 裴建康[@peijiankang](https://gitee.com/peijiankang)
+- 刘鑫[@misaka00251](https://gitee.com/misaka00251)
 
 
 ### Committer列表
