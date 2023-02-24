@@ -1,0 +1,24 @@
+name: sig-Zephyr
+description: sig-Zephyr is focusing on Zephyr related work in openEuler
+mailing_list: NA
+mature_level: startup
+maintainers:
+- gitee_id: vonhust
+  name: Wayne Ren
+  email: 191362693@qq.com
+- gitee_id: lgl88911
+  name: Guoliang Li
+  email: lgl88911@163.com
+- gitee_id: hwang37
+  name: Hongbo Wang
+  email: hongbo.wang@intel.com
+repositories:
+- repo:
+  - openeuler/zephyr-cn
+  - openeuler/zvm
+  repo_admin:
+  - gitee_id: vonhust
+    name: Wayne Ren
+    email: 191362693@qq.com
+- repo:
+  - src-openeuler/zephyr
