@@ -20,6 +20,7 @@
 - yeqinglong[@yeqinglong01](https://gitee.com/yeqinglong01)
 - panchenbo[@panchenbo](https://gitee.com/panchenbo)
 - weidongkl[@weidongkl](https://gitee.com/weidongkl)
+- HelloWorld_lvcongqing[@HelloWorld_lvcongqing](https://gitee.com/HelloWorld_lvcongqing)
 
 
 ### Committer列表
@@ -41,6 +42,7 @@
 - weidong@uniontech.com
 - herengui@uniontech.com
 - liyanfeng@uniontech.com
+- lvcongqing@uniontech.com
 
 
 # 项目清单
