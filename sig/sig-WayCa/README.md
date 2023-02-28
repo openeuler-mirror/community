@@ -10,7 +10,7 @@
 
 ## 工作范围
 
-- 联合openEuler sig组完成鲲鹏硬件能力的openEuler版本是能和推广
+- 联合openEuler sig组完成鲲鹏硬件能力的openEuler版本使能和推广
 - 鲲鹏硬件能力在openEuler社区上的模块级特性级的生态构建
 - 持续优化鲲鹏openEuler版本的功能和性能
 - 协助鲲鹏生态科研开发团队共同挖掘鲲鹏硬件能力的优势场景
@@ -22,7 +22,15 @@
 
 ## 组织会议
 
-- 公开的会议时间：待定
+- 公开的会议时间：每双周一次（具体时间待通知）
+
+## 联系方式
+
+- 邮件列表：wayca@openeuler.org 
+- [订阅邮件列表](https://mailweb.openeuler.org/postorius/lists/wayca@openeuler.org/)
+
+- 微信群组
+ ![wechat_QR](./sig-wayca-wechat.jpg)
 
 ## Maintainer列表
 
@@ -31,7 +39,6 @@
 - DPDK:
 - li-huisong[@li-huisong](https://gitee.com/li-huisong)
 - Rdma-core\Roce:
-- li-yangyang[@li-yangyang20](https://gitee.com/li-yangyang20)
 - tcc@hello[@hellotcc](https://gitee.com/hellotcc)
 - NIC:
 - WangBoe2022[@wangboe2022](https://gitee.com/wangboe2022)
@@ -76,10 +83,6 @@
 - LiYihang[@LiYihang226](https://gitee.com/Liyihang226)
 - CXL\PCIe:
 - Yicong Yang[@young1c](https://gitee.com/young1c)
-
-## 联系方式
-
-- [邮件列表](xxx@openeuler.org)
 
 ## 项目清单
 
