@@ -55,3 +55,5 @@ repository地址：
 - https://gitee.com/openeuler/OSAPIChecker
 - https://gitee.com/openeuler/OSCompatibility
 - https://gitee.com/openeuler/OSPerformance
+- https://gitee.com/openeuler/OSPerformanceTools
+
