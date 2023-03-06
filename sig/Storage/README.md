@@ -14,6 +14,7 @@
 - 吴波[@wubo009](https://gitee.com/wubo009)
 - 林飞龙[@volcano-dragon](https://gitee.com/volcanodragon)
 - 娄宏翔[@louhongxiang](https://gitee.com/louhongxiang)
+- 苏伟锋[@swf504](https://gitee.com/swf504)
 
 ### Committer列表
 
