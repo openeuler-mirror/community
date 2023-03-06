@@ -15,12 +15,12 @@ desktop-app希望为个人桌面提供基本的应用软件，不限于多媒体
 
 # 成员
 
-- 吴旭[@wuxu_buque]
+- 吴旭[@wuxu_buque_admin]
 
 
 ### Maintainer列表
 
-- 吴旭[@wuxu_buque]
+- 吴旭[@wuxu_buque_admin]
 
 ### Committer列表
 
