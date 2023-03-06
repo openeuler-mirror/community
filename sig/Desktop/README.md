@@ -24,6 +24,7 @@
 - 丁文龙[@dwl301](https://gitee.com/dwl301)
 - 魏东 [@weidongkl](https://gitee.com/weidongkl)
 - 窦龑 [@dou33](https://gitee.com/dou33)
+- 李伟刚[@leeffo](https://gitee.com/leeffo)
 
 
 ### Committer列表
