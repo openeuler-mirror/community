@@ -195,6 +195,10 @@ Tuesday 10 am bi-weekly, UTC+8.
      - 李 海炜[@liheavy](https://gitee.com/liheavy) email: lihaiwei8@huawei.com
    - Contributers
      - 许 崇宇[@xu-chongyu214](https://gitee.com/xu-chongyu214) email: xuchongyu@huawei.com
+ - [tinytoml](https://gitee.com/src-openeuler/tinytoml)
+   - Committers
+     - 朱 佳梦[@JiamengZ](https://gitee.com/JiamengZ) email: zhujiameng@huawei.com
+     - 章 旭东[@z-xu-dong-zhang](https://gitee.com/z-xu-dong-zhang) email: zxudong.zhang@huawei.com
 
 ## Contact
  - [maillist](compiler@openeuler.org)
