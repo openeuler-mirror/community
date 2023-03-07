@@ -108,7 +108,7 @@ openEuler技术委员会（Technical Committee，以下和TC互换使用）是op
 
 # 联系方式
 
-- TC使用[邮件列表 tc@openeuler.org](tc@openeuler.org) 做日常讨论
+- TC使用[邮件列表 tc@openeuler.org](mailto:tc@openeuler.org) 做日常讨论
 - 历史讨论的记录以及历次TC会议的纪要，可以访问[邮件列表归档](https://mailweb.openeuler.org/hyperkitty/list/tc@openeuler.org/)
 
 # 项目清单
