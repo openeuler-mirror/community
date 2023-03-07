@@ -29,7 +29,7 @@ openEuler QA(质量保障)项目团队致力于如何更好的提升openEuler社
 - jiuhanjiu(@jiuhanjiu),since December 2019
 
 # 联系方式
-- [邮件列表](qa@openeuler.org)
+- [邮件列表](mailto:qa@openeuler.org)
 
 # 项目清单
 
