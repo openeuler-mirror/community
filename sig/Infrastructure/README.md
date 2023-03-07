@@ -51,7 +51,7 @@
 
 *<如果需要单独申请邮件列表，请在此补充邮箱名称：sig-yousigname@openeuler.org>*
 
-- [邮件列表](infra@openeuler.org)
+- [邮件列表](mailto:infra@openeuler.org)
 - [IM](IRC: #openeuler-infra)
 
 
