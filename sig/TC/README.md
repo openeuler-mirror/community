@@ -39,9 +39,11 @@ openEuler技术委员会（Technical Committee，以下和TC互换使用）是op
 - 魏  刚<11015100@qq.com> [[@gwei3](https://gitee.com/gwei3)]
 - 谢秀奇<xiexiuqi@huawei.com> [[@xiexiuqi](https://gitee.com/xiexiuqi)]
 - 熊  伟<xiongwei888@huawei.com> [[@myeuler](https://gitee.com/myeuler)]
-- 叶青龙<yeqinglong@uniontech.com> [[@yeqinglong01](https://gitee.com/yeqinglong01)]
+- 吕从庆<lvcongqing@uniontech.com> [[@HelloWorld_lvcongqing](https://gitee.com/HelloWorld_lvcongqing)]
 - 赵川峰<zhaochuanfeng@huawei.com> [[@cf-zhao](https://gitee.com/cf-zhao)]
 
+## 2023 年 TC 成员变更历史
+- 叶青龙于2023年3月卸任，吕从庆接替TC委员工作。
 
 # 2022年TC成员 
 

@@ -38,9 +38,11 @@ The list of TC members is organized alphabetically by last name:
 - Wei Gang <11015100@qq.com> [[@gwei3](https://gitee.com/gwei3)]
 - Xie Xiuqi <xiexiuqi@huawei.com> [[@xiexiuqi](https://gitee.com/xiexiuqi)]
 - Xiong Wei <xiongwei888@huawei.com> [[@myeuler](https://gitee.com/myeuler)]
-- Ye Qinglong <yeqinglong@uniontech.com> [[@yeqinglong01](https://gitee.com/yeqinglong01)]
+- Lv CongQing <lvcongqing@uniontech.com> [[@HelloWorld_lvcongqing](https://gitee.com/HelloWorld_lvcongqing)
 - Zhao Chuanfeng<zhaochuanfeng@huawei.com> [[@cf-zhao](https://gitee.com/cf-zhao)]
 
+## Changes of 2023 TC Members
+- Ye Qinglong resigned from the committee in Mar. 2023, and Lv Congqing took over this work as a TC member.
 
 # 2022 TC Members
 
