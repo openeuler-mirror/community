@@ -30,7 +30,8 @@
 - [订阅邮件列表](https://mailweb.openeuler.org/postorius/lists/wayca@openeuler.org/)
 
 - 微信群组
- ![wechat_QR](./sig-wayca-wechat.jpg)
+
+ ![wechat_QR](./sig-wayca-wechat-V2.jpg)
 
 ## Maintainer列表
 
