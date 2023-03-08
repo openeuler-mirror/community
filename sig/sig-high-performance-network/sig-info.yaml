@@ -28,8 +28,6 @@ maintainers:
   email: jerry.lilijun@huawei.com
 repositories:
 - repo:
-  - src-openeuler/rdma-core
-  - src-openeuler/perftest
   - src-openeuler/libvma
   - src-openeuler/polycube
   - src-openeuler/cilium
@@ -67,3 +65,11 @@ repositories:
     name: kircher
     organization: huawei
     email: majun65@huawei.com
+- repo:
+  - src-openeuler/rdma-core
+  - src-openeuler/perftest
+  committers:
+  - gitee_id: hellotcc
+    name: Chengchang Tang
+    organization: huawei
+    email: tangchengchang@huawei.com
