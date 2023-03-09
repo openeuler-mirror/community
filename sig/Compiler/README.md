@@ -201,6 +201,6 @@ Tuesday 10 am bi-weekly, UTC+8.
      - 章 旭东[@z-xu-dong-zhang](https://gitee.com/z-xu-dong-zhang) email: zxudong.zhang@huawei.com
 
 ## Contact
- - [maillist](compiler@openeuler.org)
+ - [maillist](mailto:compiler@openeuler.org)
  - wechat: Compiler_Assistant
  ![wechat](compiler_wechat.jpeg)

@@ -201,6 +201,6 @@ Compiler SIG 每双周周二上午10:00进行线上例会，也会定期举办�
      - 章 旭东[@z-xu-dong-zhang](https://gitee.com/z-xu-dong-zhang) email: zxudong.zhang@huawei.com
 
 ## 联系
- - [邮件列表](compiler@openeuler.org)
+ - [邮件列表](mailto:compiler@openeuler.org)
  - 微信: Compiler_Assistant
  ![wechat](compiler_wechat.jpeg)

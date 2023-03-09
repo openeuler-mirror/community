@@ -67,8 +67,8 @@ For the new packages contribution process steps should be as showed below:
 - Bi-Weekly meeting scheduled at 5:00pm to 6:00pm on Tuesday afternoon
 
 ### Contacts
-- [MailList](dev@openeuler.org) *dev@openeuler.org*
-- [slack](https://join.slack.com/t/slack-jma9373/shared_invite/zt-o66x6a3a-HY4Cwjc49XPxc9aN_FHOdg)
+- [MailList](mailto:dev@openeuler.org) *dev@openeuler.org*
+- [slack](https://join.slack.com)
 - **wechat** *If you are interested in this SIG group, please send your personal wechat_id to Bo Zhao. He will invite you 
 to DB SIG wechat group.*
 

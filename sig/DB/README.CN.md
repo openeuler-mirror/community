@@ -65,8 +65,8 @@ DB SIG当前处于发展的初始阶段，团队维护能力有限，目前为�
 - 每双周二下午 5:00pm -- 6:00pm
 
 ### 联系方式
-- [MailList](dev@openeuler.org) *dev@openeuler.org*
-- [slack](https://join.slack.com/t/slack-jma9373/shared_invite/zt-o66x6a3a-HY4Cwjc49XPxc9aN_FHOdg)
+- [MailList](mailto:dev@openeuler.org) *dev@openeuler.org*
+- [slack](https://join.slack.com)
 - **微信** *如果您对本SIG组感兴趣，请将您的个人微信账号发给Bo Zhao, 他会将您拉入DB SIG微信群组。*
 
 # 项目清单
