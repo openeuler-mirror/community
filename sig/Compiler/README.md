@@ -174,10 +174,14 @@ Tuesday 10 am bi-weekly, UTC+8.
  - [src-openeuler/pin-server](https://gitee.com/src-openeuler/pin-server)
    - Maintainers
      - 李 彦成[@li-yancheng](https://gitee.com/li-yancheng) email: liyancheng@huawei.com
+   - Committers
+     - 伍 明川[@wumingchuan](https://gitee.com/wumingchuan) 邮箱: wumingchuan1@huawei.com
  - [pin-gcc-client](https://gitee.com/openeuler/pin-gcc-client)
  - [src-openeuler/pin-server](https://gitee.com/src-openeuler/pin-gcc-client)
    - Maintainers
      - 李 彦成[@li-yancheng](https://gitee.com/li-yancheng) email: liyancheng@huawei.com
+   - Committers
+     - 伍 明川[@wumingchuan](https://gitee.com/wumingchuan) 邮箱: wumingchuan1@huawei.com
  - [llvm-mlir](https://gitee.com/src-openeuler/llvm-mlir)
  - [mlir-15](https://gitee.com/src-openeuler/mlir-15)
    - Maintainers
