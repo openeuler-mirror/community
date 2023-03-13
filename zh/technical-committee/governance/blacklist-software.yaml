@@ -215,3 +215,9 @@ blacklist-software:
 - name: rubygem-erubis
   reason: upstream stops maintaining this software
   upstream_url: http://www.kuwata-lab.com/erubis/
+- name: python-crypto
+  reason: upstream stops maintaining this software
+  upstream_url: https://www.pycrypto.org/
+- name: python-keyczar
+  reason: upstream stops maintaining this software
+  upstream_url: https://github.com/google/keyczar
