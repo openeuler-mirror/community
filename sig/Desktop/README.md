@@ -1,4 +1,4 @@
-﻿# Desktop
+# Desktop
 
 - 引入桌面和图形相关的公共组件到openEuler社区，支持第三方桌面应用平稳运行。
 - 引入易用的桌面应用，使开发者能更高效的在openEuler上编码
@@ -35,7 +35,7 @@
 
 # 联系方式
 
-- [邮件列表](dev@openeuler.org)
+- [邮件列表](mailto:dev@openeuler.org)
 - [IRC频道](#openeuler-dev)
 - [IRC公开会议](#openeuler-meeting)
 
