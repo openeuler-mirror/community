@@ -51,7 +51,7 @@ Industrial-Control SIG组主要致力于将openEuler打造成适用于工业控�
 | 李钰磊[@r2018](https://gitee.com/r2018)                 | liyulei@kylinos.cn       |
 | 廖元垲[@liao-yuankai](https://gitee.com/liao-yuankai)   | yuankai.liao@cdjrlc.com  |
 | 廖茂益[@ixr](https://gitee.com/ixr)                     | liaomaoyi@cdjrlc.com     |
-| 王伟[@wangwei622](https://gitee.com/wangwei622)         | wangwei@cdjrlc.com       |
+| 王伟[@wangwei622_admin](https://gitee.com/wangwei622_admin)         | wangwei@cdjrlc.com       |
 | 黎亮[@liliang_euler](https://gitee.com/liliang_euler)   | liliang889@huawei.com    |
 | 张攀[@SuperHugePan](https://gitee.com/SuperHugePan)     | zhangpan26@huawei.com    |
 
@@ -104,3 +104,4 @@ repository 地址：
 ###### Jailhouse
 
 - https://gitee.com/src-openeuler/Jailhouse
+- https://gitee.com/openeuler/Jailhouse-gui
