@@ -1,6 +1,10 @@
 name: lldpd
 description: Link Layer Discovery Protocol
+upstream: https://lldpd.github.io
 branches:
 - name: master
   type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
 type: public
