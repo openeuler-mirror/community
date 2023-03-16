@@ -1,0 +1,7 @@
+name: qt6-qthttpserver
+description: Qt6 - HTTP Server component
+upstream: https://code.qt.io/cgit/qt/qthttpserver.git
+branches:
+- name: master
+  type: protected
+type: public

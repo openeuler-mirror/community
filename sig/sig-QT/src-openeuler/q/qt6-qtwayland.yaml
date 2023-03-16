@@ -1,0 +1,7 @@
+name: qt6-qtwayland
+description: Qt6 - Wayland platform support and QtCompositor module
+upstream: https://code.qt.io/cgit/qt/qtwayland.git
+branches:
+- name: master
+  type: protected
+type: public
