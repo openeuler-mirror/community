@@ -149,3 +149,4 @@ Everyone could send patches to openEuler.
 - https://gitee.com/src-openeuler/NetworkManager-l2tp
 - https://gitee.com/src-openeuler/xl2tpd
 - https://gitee.com/src-openeuler/tinyproxy
+- https://gitee.com/src-openeuler/lldpd
