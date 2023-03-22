@@ -1,0 +1,7 @@
+name: ros2_warehouse_ros_sqlite
+description: Data persistence for ROS using SQLite.
+upstream: https://github.com/ros-planning/warehouse_ros_sqlite
+branches:
+- name: master
+  type: protected
+type: public

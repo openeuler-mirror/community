@@ -1,0 +1,7 @@
+name: ros2_udp_msgs
+description: ROS2 udp_msgs package.
+upstream: https://github.com/flynneva/udp_msgs
+branches:
+- name: master
+  type: protected
+type: public

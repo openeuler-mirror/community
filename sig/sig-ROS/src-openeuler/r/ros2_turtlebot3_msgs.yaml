@@ -1,0 +1,7 @@
+name: ros2_turtlebot3_msgs
+description: ROS msgs package for TurtleBot3.
+upstream: https://github.com/ROBOTIS-GIT/turtlebot3_msgs
+branches:
+- name: master
+  type: protected
+type: public

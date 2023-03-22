@@ -1,0 +1,7 @@
+name: ros2_moveit2_tutorials
+description: A sphinx-based centralized documentation repo for MoveIt 2.
+upstream: https://github.com/ros-planning/moveit2_tutorials
+branches:
+- name: master
+  type: protected
+type: public

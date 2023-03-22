@@ -1,0 +1,7 @@
+name: ros2_object_recognition_msgs
+description: The description of the ROS messages/actionlib server for object recognition.
+upstream: https://github.com/wg-perception/object_recognition_msgs
+branches:
+- name: master
+  type: protected
+type: public

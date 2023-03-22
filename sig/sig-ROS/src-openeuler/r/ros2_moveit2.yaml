@@ -1,0 +1,7 @@
+name: ros2_moveit2
+description: MoveIt for ROS 2.
+upstream: https://github.com/ros-planning/moveit2
+branches:
+- name: master
+  type: protected
+type: public

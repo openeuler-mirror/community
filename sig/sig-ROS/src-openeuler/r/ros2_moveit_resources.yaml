@@ -1,0 +1,7 @@
+name: ros2_moveit_resources
+description: URDFs, meshes, and config packages for MoveIt testing.
+upstream: https://github.com/ros-planning/moveit_resources
+branches:
+- name: master
+  type: protected
+type: public

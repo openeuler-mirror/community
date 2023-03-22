@@ -1,0 +1,7 @@
+name: ros2_pcl_msgs
+description: ROS package containing PCL-related messages.
+upstream: https://github.com/ros-perception/pcl_msgs
+branches:
+- name: master
+  type: protected
+type: public

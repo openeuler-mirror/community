@@ -1,0 +1,7 @@
+name: ros2_turtlebot3
+description: ROS packages for Turtlebot3.
+upstream: https://github.com/ROBOTIS-GIT/turtlebot3
+branches:
+- name: master
+  type: protected
+type: public

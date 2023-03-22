@@ -1,0 +1,7 @@
+name: ros2_transport_drivers
+description: A set of ROS2 drivers for transport-layer protocols.
+upstream: https://github.com/ros-drivers/transport_drivers
+branches:
+- name: master
+  type: protected
+type: public
