@@ -1,0 +1,6 @@
+name: donau-pam-adopt
+description: donau-pam-adopt provides abilities to allow users to access Donau agent nodes which have a running job on by ssh, limit the resource usage of the ssh session and do job cleanup when the job is completed. 
+branches:
+- name: master
+  type: protected
+type: public
