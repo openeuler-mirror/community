@@ -1,0 +1,7 @@
+name: ros2_urg_node_msgs
+description: ROS2 messages for the Hokuyo urg_node package.
+upstream: https://github.com/ros-drivers/urg_node_msgs
+branches:
+- name: master
+  type: protected
+type: public

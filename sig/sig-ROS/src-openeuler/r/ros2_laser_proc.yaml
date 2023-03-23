@@ -1,0 +1,7 @@
+name: ros2_laser_proc
+description: Converts representations of sensor_msgs/LaserScan and sensor_msgs/MultiEchoLaserScan.
+upstream: https://github.com/ros-perception/laser_proc
+branches:
+- name: master
+  type: protected
+type: public

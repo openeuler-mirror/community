@@ -1,0 +1,7 @@
+name: ros2_urg_c
+description: This project introduces sample programs of the URG library.
+upstream: https://github.com/ros-drivers/urg_c
+branches:
+- name: master
+  type: protected
+type: public

@@ -1,0 +1,7 @@
+name: ros2_urg_node
+description: ROS wrapper for the Hokuyo urg_c library.
+upstream: https://github.com/ros-drivers/urg_node
+branches:
+- name: master
+  type: protected
+type: public

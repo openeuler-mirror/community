@@ -1,0 +1,7 @@
+name: ros2_moveit_visual_tools
+description: Helper functions for displaying and debugging MoveIt! data in Rviz via published markers.
+upstream: https://github.com/ros-planning/moveit_visual_tools
+branches:
+- name: master
+  type: protected
+type: public

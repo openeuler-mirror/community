@@ -1,0 +1,7 @@
+name: ros2_perception_pcl
+description: PCL (Point Cloud Library) ROS interface stack.
+upstream: https://github.com/ros-perception/perception_pcl
+branches:
+- name: master
+  type: protected
+type: public

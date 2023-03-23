@@ -1,0 +1,7 @@
+name: ros2_diagnosticsn
+description: Packages related to gathering, viewing, and analyzing diagnostics data from robots.
+upstream: https://github.com/ros/diagnostics
+branches:
+- name: master
+  type: protected
+type: public

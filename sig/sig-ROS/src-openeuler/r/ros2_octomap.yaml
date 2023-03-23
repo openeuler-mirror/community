@@ -1,0 +1,7 @@
+name: ros2_octomap
+description: An Efficient Probabilistic 3D Mapping Framework Based on Octrees. Contains the main OctoMap library, the viewer octovis, and dynamicEDT3D.
+upstream: https://github.com/OctoMap/octomap
+branches:
+- name: master
+  type: protected
+type: public

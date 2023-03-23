@@ -1,0 +1,7 @@
+name: ros2_octomap_msgs
+description: ROS package to provide messages and serializations / conversion for the OctoMap library.
+upstream: https://github.com/OctoMap/octomap_msgs
+branches:
+- name: master
+  type: protected
+type: public

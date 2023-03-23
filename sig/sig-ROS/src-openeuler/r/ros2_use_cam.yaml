@@ -1,0 +1,7 @@
+name: ros2_use_cam
+description: A ROS Driver for V4L USB Cameras.
+upstream: https://github.com/ros-drivers/usb_cam
+branches:
+- name: master
+  type: protected
+type: public

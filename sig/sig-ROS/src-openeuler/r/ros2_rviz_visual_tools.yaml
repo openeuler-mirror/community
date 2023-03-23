@@ -1,0 +1,7 @@
+name: ros2_rviz_visual_tools
+description: C++ API wrapper for displaying shapes and meshes in Rviz.
+upstream: https://github.com/PickNikRobotics/rviz_visual_tools
+branches:
+- name: master
+  type: protected
+type: public

@@ -247,7 +247,7 @@ repository地址：
 - https://gitee.com/src-openeuler/ros2_image_pipeline
 - https://gitee.com/src-openeuler/ros2_image_transport_plugins
 - https://gitee.com/src-openeuler/ros2_depthimage_to_laserscan
-- https://gitee.com/src-openeuler/ros2_image_transport_plugins_tutorials
+- https://gitee.com/src-openeuler/ros2_image_transport_tutorials
 - https://gitee.com/src-openeuler/ros2_geometry2
 - https://gitee.com/src-openeuler/ros2_pluginlib
 - https://gitee.com/src-openeuler/ros2_robot_state_publisher
@@ -281,6 +281,35 @@ repository地址：
 - https://gitee.com/src-openeuler/ros2_cartographer
 - https://gitee.com/src-openeuler/ros2_cartographer_ros
 - https://gitee.com/src-openeuler/ros2_navigation2
+- https://gitee.com/src-openeuler/ros2_angles
+- https://gitee.com/src-openeuler/ros2_control_toolbox
+- https://gitee.com/src-openeuler/ros2_octomap
+- https://gitee.com/src-openeuler/ros2_realtime_tools
+- https://gitee.com/src-openeuler/ros2_object_recognition_msgs
+- https://gitee.com/src-openeuler/ros2_octomap_msgs
+- https://gitee.com/src-openeuler/ros2_rviz_visual_tools
+- https://gitee.com/src-openeuler/ros2_moveit_resources
+- https://gitee.com/src-openeuler/ros2_moveit2_tutorials
+- https://gitee.com/src-openeuler/ros2_moveit_visual_tools
+- https://gitee.com/src-openeuler/ros2_moveit2
+- https://gitee.com/src-openeuler/ros2_use_cam
+- https://gitee.com/src-openeuler/ros2_system_modes
+- https://gitee.com/src-openeuler/ros2_wireless
+- https://gitee.com/src-openeuler/ros2_warehouse_ros_sqlite
+- https://gitee.com/src-openeuler/ros2_diagnosticsn
+- https://gitee.com/src-openeuler/ros2_urg_node
+- https://gitee.com/src-openeuler/ros2_urg_c
+- https://gitee.com/src-openeuler/ros2_urg_node_msgs
+- https://gitee.com/src-openeuler/ros2_transport_drivers
+- https://gitee.com/src-openeuler/ros2_udp_msgs
+- https://gitee.com/src-openeuler/ros2_laser_proc
+- https://gitee.com/src-openeuler/ros2_xacro
+- https://gitee.com/src-openeuler/ros2_pcl_msgs
+- https://gitee.com/src-openeuler/ros2_perception_pcl
+- https://gitee.com/src-openeuler/ros2_hls_lfcd_lds_driver
+- https://gitee.com/src-openeuler/ros2_dynamixel_sdk
+- https://gitee.com/src-openeuler/ros2_turtlebot3_msgs
+- https://gitee.com/src-openeuler/ros2_turtlebot3
 
 项目名称：exten-ROS
 

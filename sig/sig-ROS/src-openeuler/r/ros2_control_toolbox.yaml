@@ -1,0 +1,7 @@
+name: ros2_control_toolbox
+description: The control toolbox contains modules that are useful across all controllers.
+upstream: https://github.com/ros-controls/control_toolbox
+branches:
+- name: master
+  type: protected
+type: public
