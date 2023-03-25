@@ -1,0 +1,7 @@
+name: libhv
+description: Like libevent, libev, and libuv, libhv provides event-loop with non-blocking IO and timer, but simpler api and richer protocols.
+upstream: https://github.com/ithewei/libhv
+branches:
+- name: master
+  type: protected
+type: public
