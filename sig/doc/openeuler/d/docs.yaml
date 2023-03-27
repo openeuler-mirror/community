@@ -42,4 +42,7 @@ branches:
 - name: stable2-22.03_LTS_SP1
   type: protected
   create_from: stable2-22.03_LTS
+- name: stable2-23.03
+  type: protected
+  create_from: master
 type: public
