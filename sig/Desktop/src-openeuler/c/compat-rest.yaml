@@ -1,0 +1,10 @@
+name: compat-rest
+description: Library for access to RESTful web services
+upstream: https://gitlab.gnome.org/GNOME/librest
+branches:
+- name: master
+  type: protected
+- name: openEuler-23.03
+  type: protected
+  create_from: master
+type: public
