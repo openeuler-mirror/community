@@ -1,0 +1,7 @@
+name: libb2
+description: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+upstream: https://github.com/BLAKE2/libb2
+branches:
+- name: master
+  type: protected
+type: public
