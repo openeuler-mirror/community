@@ -145,8 +145,6 @@ repositories:
   - openeuler/BiSheng-Adoptium
   - openeuler/openjfx8
   - openeuler/bgmprovider
-  - openeuler/pin-gcc-client
-  - openeuler/pin-server
   - openeuler/gcc-for-openEuler
   - src-openeuler/spirv-llvm-translator
   - src-openeuler/openjfx8
@@ -172,8 +170,6 @@ repositories:
   - src-openeuler/binutils
   - src-openeuler/icedtea-web
   - src-openeuler/gcc-12
-  - src-openeuler/pin-gcc-client
-  - src-openeuler/pin-server
   - src-openeuler/optimized-routines
   - src-openeuler/gcc-for-openEuler
 - repo:
@@ -257,5 +253,14 @@ repositories:
     name: Xudong Zhang
     organization: Huawei
     email: zxudong.zhang@huawei.com
-
+- repo:
+  - openeuler/pin-gcc-client
+  - openeuler/pin-server
+  - src-openeuler/pin-gcc-client
+  - src-openeuler/pin-server
+  committers:
+  - gitee_id: wumingchuan 
+    name: mingchuan Wu
+    organization: Huawei
+    email: wumingchuan1@huawei.com
     
