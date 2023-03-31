@@ -1,0 +1,10 @@
+name: python-XStatic-Moment-Timezone
+description: Moment-Timezone 0.5.22 (XStatic packaging standard)
+upstream: https://github.com/moment/moment-timezone
+branches:
+- name: master
+  type: protected
+- name: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

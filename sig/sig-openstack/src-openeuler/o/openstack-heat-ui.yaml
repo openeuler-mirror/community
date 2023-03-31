@@ -1,0 +1,10 @@
+name: openstack-heat-ui
+description: Heat Management Dashboard
+upstream: https://opendev.org/openstack/heat-dashboard
+branches:
+- name: master
+  type: protected
+- name: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

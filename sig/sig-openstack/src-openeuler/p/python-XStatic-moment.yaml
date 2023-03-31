@@ -1,0 +1,10 @@
+name: python-XStatic-moment
+description: moment 2.8.4 (XStatic packaging standard)
+upstream: https://github.com/moment/moment
+branches:
+- name: master
+  type: protected
+- name: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

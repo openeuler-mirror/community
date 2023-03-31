@@ -67,12 +67,17 @@ repositories:
   - src-openeuler/novnc
   - src-openeuler/opensd
   - src-openeuler/openstack-aodh
+  - src-openeuler/openstack-barbican
   - src-openeuler/openstack-ceilometer
   - src-openeuler/openstack-cinder
+  - src-openeuler/openstack-cloudkitty
   - src-openeuler/openstack-cyborg
+  - src-openeuler/openstack-designate
+  - src-openeuler/openstack-designate-ui
   - src-openeuler/openstack-glance
   - src-openeuler/openstack-heat
   - src-openeuler/openstack-heat-agents
+  - src-openeuler/openstack-heat-ui
   - src-openeuler/openstack-helm
   - src-openeuler/openstack-helm-images
   - src-openeuler/openstack-helm-infra
@@ -88,17 +93,30 @@ repositories:
   - src-openeuler/openstack-kolla-ansible-plugin
   - src-openeuler/openstack-kolla-plugin
   - src-openeuler/openstack-macros
+  - src-openeuler/openstack-magnum-ui
+  - src-openeuler/openstack-manila
+  - src-openeuler/openstack-masakari
+  - src-openeuler/openstack-mistral
+  - src-openeuler/openstack-mistral-ui
   - src-openeuler/openstack-neutron
+  - src-openeuler/openstack-neutron-dynamic-routing
+  - src-openeuler/openstack-neutron-vpnaas
   - src-openeuler/openstack-nova
+  - src-openeuler/openstack-octavia
+  - src-openeuler/openstack-octavia-ui
   - src-openeuler/openstack-panko
   - src-openeuler/openstack-placement
   - src-openeuler/openstack-plugin
   - src-openeuler/openstack-rally
   - src-openeuler/openstack-rally-plugins
   - src-openeuler/openstack-releases
+  - src-openeuler/openstack-sahara-ui
+  - src-openeuler/openstack-senlin
   - src-openeuler/openstack-swift
   - src-openeuler/openstack-tempest
   - src-openeuler/openstack-trove
+  - src-openeuler/openstack-vitrage-ui
+  - src-openeuler/openstack-zaqar
   - src-openeuler/os-net-config
   - src-openeuler/ovn
   - src-openeuler/python-3parclient
@@ -113,19 +131,25 @@ repositories:
   - src-openeuler/python-XStatic-Bootstrap-Datepicker
   - src-openeuler/python-XStatic-Bootstrap-SCSS
   - src-openeuler/python-XStatic-D3
+  - src-openeuler/python-XStatic-Dagre
+  - src-openeuler/python-XStatic-Dagre-D3
   - src-openeuler/python-XStatic-Font-Awesome
+  - src-openeuler/python-XStatic-Graphlib
   - src-openeuler/python-XStatic-Hogan
   - src-openeuler/python-XStatic-JQuery-Migrate
   - src-openeuler/python-XStatic-JQuery.TableSorter
   - src-openeuler/python-XStatic-JQuery.quicksearch
   - src-openeuler/python-XStatic-JSEncrypt
   - src-openeuler/python-XStatic-Jasmine
+  - src-openeuler/python-XStatic-Moment-Timezone
   - src-openeuler/python-XStatic-Rickshaw
   - src-openeuler/python-XStatic-Spin
   - src-openeuler/python-XStatic-bootswatch
   - src-openeuler/python-XStatic-jQuery
   - src-openeuler/python-XStatic-jquery-ui
+  - src-openeuler/python-XStatic-lodash
   - src-openeuler/python-XStatic-mdi
+  - src-openeuler/python-XStatic-moment
   - src-openeuler/python-XStatic-objectpath
   - src-openeuler/python-XStatic-roboto-fontface
   - src-openeuler/python-XStatic-smart-table
@@ -136,6 +160,7 @@ repositories:
   - src-openeuler/python-argparse
   - src-openeuler/python-arrow
   - src-openeuler/python-async-generator
+  - src-openeuler/python-autobahn
   - src-openeuler/python-automaton
   - src-openeuler/python-autopage
   - src-openeuler/python-awscrt
@@ -152,10 +177,13 @@ repositories:
   - src-openeuler/python-capacity
   - src-openeuler/python-cassandra-driver
   - src-openeuler/python-castellan
+  - src-openeuler/python-ceilometerclient
   - src-openeuler/python-ceilometermiddleware
   - src-openeuler/python-cfn-lint
   - src-openeuler/python-cinder-tempest-plugin
   - src-openeuler/python-cinderclient
+  - src-openeuler/python-cinderlib
+  - src-openeuler/python-cloudkittyclient
   - src-openeuler/python-cliff
   - src-openeuler/python-confetti
   - src-openeuler/python-confget
@@ -177,6 +205,7 @@ repositories:
   - src-openeuler/python-dracclient
   - src-openeuler/python-easy-server
   - src-openeuler/python-easy-vault
+  - src-openeuler/python-edgegrid
   - src-openeuler/python-elasticsearch2
   - src-openeuler/python-elementpath
   - src-openeuler/python-etcd3
@@ -205,6 +234,7 @@ repositories:
   - src-openeuler/python-infi.dtypes.iqn
   - src-openeuler/python-infi.dtypes.wwn
   - src-openeuler/python-infinisdk
+  - src-openeuler/python-influxdb
   - src-openeuler/python-intervals
   - src-openeuler/python-ironic-inspector-client
   - src-openeuler/python-ironic-lib
@@ -233,10 +263,13 @@ repositories:
   - src-openeuler/python-lz4
   - src-openeuler/python-magnumclient
   - src-openeuler/python-manilaclient
+  - src-openeuler/python-masakariclient
   - src-openeuler/python-memory-profiler
   - src-openeuler/python-microversion-parse
+  - src-openeuler/python-mistral-lib
   - src-openeuler/python-mistralclient
   - src-openeuler/python-mitba
+  - src-openeuler/python-monasca-statsd
   - src-openeuler/python-monascaclient
   - src-openeuler/python-moto
   - src-openeuler/python-mox3
@@ -245,8 +278,10 @@ repositories:
   - src-openeuler/python-murano-pkg-check
   - src-openeuler/python-muranoclient
   - src-openeuler/python-mypy-extensions
+  - src-openeuler/python-natsort
   - src-openeuler/python-netmiko
   - src-openeuler/python-networking-ovn
+  - src-openeuler/python-networking-sfc
   - src-openeuler/python-neutron-lib
   - src-openeuler/python-neutron-tempest-plugin
   - src-openeuler/python-neutronclient
@@ -257,6 +292,7 @@ repositories:
   - src-openeuler/python-nosexcover
   - src-openeuler/python-novaclient
   - src-openeuler/python-ntc-templates
+  - src-openeuler/python-octavia-lib
   - src-openeuler/python-octaviaclient
   - src-openeuler/python-openstack-doc-tools
   - src-openeuler/python-openstack.nose_plugin
@@ -305,6 +341,7 @@ repositories:
   - src-openeuler/python-oslo.vmware
   - src-openeuler/python-oslotest
   - src-openeuler/python-osprofiler
+  - src-openeuler/python-ovn-octavia-provider
   - src-openeuler/python-ovsdbapp
   - src-openeuler/python-pact
   - src-openeuler/python-pathlib
@@ -402,6 +439,7 @@ repositories:
   - src-openeuler/python-trove-dashboard
   - src-openeuler/python-trove-tempest-plugin
   - src-openeuler/python-troveclient
+  - src-openeuler/python-txaio
   - src-openeuler/python-typed-ast
   - src-openeuler/python-types-cryptography
   - src-openeuler/python-types-enum34
@@ -424,6 +462,11 @@ repositories:
   - src-openeuler/python-xattr
   - src-openeuler/python-xclarityclient
   - src-openeuler/python-xmlschema
+  - src-openeuler/python-xstatic-angular-uuid
+  - src-openeuler/python-xstatic-angular-vis
+  - src-openeuler/python-xstatic-filesaver
+  - src-openeuler/python-xstatic-js-yaml
+  - src-openeuler/python-xstatic-json2yaml
   - src-openeuler/python-yagot
   - src-openeuler/python-yamllint
   - src-openeuler/python-yamlloader

@@ -1,0 +1,10 @@
+name: python-xstatic-json2yaml
+description: Json2yaml 0.1.1 (XStatic packaging standard)
+upstream: https://github.com/jeffsu/json2yaml
+branches:
+- name: master
+  type: protected
+- name: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

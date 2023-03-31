@@ -1,0 +1,10 @@
+name: python-ovn-octavia-provider
+description: OpenStack Octavia integration with OVN
+upstream: https://opendev.org/openstack/ovn-octavia-provider
+branches:
+- name: master
+  type: protected
+- name: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

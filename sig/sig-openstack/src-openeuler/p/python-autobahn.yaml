@@ -1,0 +1,10 @@
+name: python-autobahn
+description: WebSocket client & server library, WAMP real-time framework
+upstream: https://github.com/crossbario/autobahn-python
+branches:
+- name: master
+  type: protected
+- name: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

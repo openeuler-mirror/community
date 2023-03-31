@@ -1,0 +1,10 @@
+name: openstack-designate-ui
+description: Designate Horizon UI bits
+upstream: https://opendev.org/openstack/designate-dashboard
+branches:
+- name: master
+  type: protected
+- name: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

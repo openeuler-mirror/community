@@ -1,0 +1,10 @@
+name: python-cinderlib
+description: Direct usage of Cinder Block Storage drivers without the services
+upstream: https://opendev.org/openstack/cinderlib
+branches:
+- name: master
+  type: protected
+- name: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

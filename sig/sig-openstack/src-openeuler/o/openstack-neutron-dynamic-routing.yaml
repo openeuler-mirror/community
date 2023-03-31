@@ -1,0 +1,10 @@
+name: openstack-neutron-dynamic-routing
+description: Neutron Dynamic Routing
+upstream: https://opendev.org/openstack/neutron-dynamic-routing
+branches:
+- name: master
+  type: protected
+- name: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

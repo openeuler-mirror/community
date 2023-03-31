@@ -1,0 +1,10 @@
+name: python-xstatic-angular-vis
+description: Angular-Vis 4.16.0 (XStatic packaging standard)
+upstream: https://github.com/visjs/angular-visjs
+branches:
+- name: master
+  type: protected
+- name: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
