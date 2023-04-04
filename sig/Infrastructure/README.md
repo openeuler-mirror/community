@@ -32,6 +32,7 @@
 - [@zhengyuhanghans](https://gitee.com/zhengyuhanghans)
 - [@xiangxinyong](https://gitee.com/xiangxinyong)
 - [@genedna](https://gitee.com/genedna)
+- [@yikunkero](https://gitee.com/yikunkero)
 
 ### Committer列表
 - [@ZhengZhenyu](https://gitee.com/ZhengZhenyu)
