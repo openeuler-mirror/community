@@ -1,0 +1,10 @@
+name: python-XStatic-Graphlib
+description: Graphlib 2.1.7 (XStatic packaging standard)
+upstream: https://github.com/dagrejs/graphlib
+branches:
+- name: master
+  type: protected
+- name: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

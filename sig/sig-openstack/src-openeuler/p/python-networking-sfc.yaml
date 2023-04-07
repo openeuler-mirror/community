@@ -1,0 +1,10 @@
+name: python-networking-sfc
+description: APIs and implementations to support Service Function Chaining in Neutron.
+upstream: https://opendev.org/openstack/networking-sfc
+branches:
+- name: master
+  type: protected
+- name: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: python-XStatic-Dagre-D3
+description: Dagre-D3 0.4.17 (XStatic packaging standard)
+upstream: https://github.com/dagrejs/dagre-d3
+branches:
+- name: master
+  type: protected
+- name: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
