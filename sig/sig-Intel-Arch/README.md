@@ -43,6 +43,7 @@
 - 杨军 [@junyang-suse](https://gitee.com/junyang-suse)，jun.yang@suse.com
 - 毛晨曦 [@chenxi-mao](https://gitee.com/chenxi-mao)，chenxi.mao@suse.com
 - Jason Zeng [@x56Jason](https://gitee.com/x56Jason)，jason.zeng@intel.com
+- 施爱春 [@allen-shi](https://gitee.com/allen-shi)，aichun.shi@intel.com
 
 # 联系方式
 
