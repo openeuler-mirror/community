@@ -1,0 +1,11 @@
+name: featherpad
+description: Lightweight Qt5 text editor
+upstream: https://github.com/tsujan/featherpad
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
+

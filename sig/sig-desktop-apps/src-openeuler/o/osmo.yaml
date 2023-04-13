@@ -1,0 +1,11 @@
+name: osmo
+description: Personal Organizer
+upstream: https://git.code.sf.net/p/osmo-pim/osmo
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
+

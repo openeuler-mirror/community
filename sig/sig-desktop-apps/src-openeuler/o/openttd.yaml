@@ -1,0 +1,11 @@
+name: openttd
+description: A clone of Transport Tycoon Deluxe
+upstream: https://github.com/OpenTTD/OpenTTD
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
+

@@ -1,0 +1,10 @@
+name: guile30
+description: A GNU implementation of Scheme for application extensibility
+upstream: https://github.com/cky/guile
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

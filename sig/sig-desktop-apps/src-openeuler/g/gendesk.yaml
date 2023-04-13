@@ -1,0 +1,10 @@
+name: gendesk
+description: Utility for generating desktop files
+upstream: https://github.com/xyproto/gendesk
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

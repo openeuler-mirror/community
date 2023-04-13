@@ -1,0 +1,10 @@
+name: lasem
+description: A library for rendering SVG and Mathml, implementing a DOM like API
+upstream: https://gitlab.gnome.org/Archive/lasem
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

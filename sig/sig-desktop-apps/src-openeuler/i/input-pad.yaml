@@ -1,0 +1,11 @@
+name: input-pad
+description: On-screen Input Pad to Send Characters with Mouse
+upstream: https://github.com/fujiwarat/input-pad
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
+
