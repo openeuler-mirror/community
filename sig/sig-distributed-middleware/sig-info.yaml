@@ -19,12 +19,13 @@ maintainers:
   organization: Hoperun
   email: wei_jiangang@hoperun.com
 
-committers:
-- gitee_id: liheavy
-  name: 李海炜
-  organization: Huawei
-  email: lihaiwei8@huawei.com
-- gitee_id: heppen
-  name: 何鹏
-  organization: Huawei
-  email: hepeng68@huawei.com
+repositories:
+- repo:
+  - openeuler/distributed-codelabs
+  committers:
+  - gitee_id: liheavy
+    name: Li Haiwei
+    email: lihaiwei8@huawei.com
+  - gitee_id: heppen
+    name: He Peng
+    email: hepeng68@huawei.com
