@@ -4,4 +4,6 @@ type: public
 branches:
 - name: master
   type: protected
-  
+- name: 2.5
+  type: protected
+  create_from: master
