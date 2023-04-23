@@ -1,0 +1,7 @@
+name: python-hatch-vcs
+upstream: https://github.com/ofek/hatch-vcs
+description: This provides a plugin for Hatch that uses your preferred version control system to determine project versions
+branches:
+- name: master
+  type: protected
+type: public

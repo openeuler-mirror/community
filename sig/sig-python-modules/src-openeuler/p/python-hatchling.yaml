@@ -1,0 +1,7 @@
+name: python-hatchling
+upstream: https://hatch.pypa.io/latest/
+description: This is the extensible, standards compliant build backend used by Hatch
+branches:
+- name: master
+  type: protected
+type: public
