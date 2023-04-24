@@ -72,3 +72,4 @@ repository地址：
 - [gitbook-theme-hugo](https://gitee.com/openeuler/gitbook-theme-hugo)
 - [tool-collections](https://gitee.com/openeuler/tool-collections)
 - [cve-manager](https://gitee.com/openeuler/cve-manager)
+- [EulerLauncher](httops://gitee.com/openeuler/eulerlauncher)
