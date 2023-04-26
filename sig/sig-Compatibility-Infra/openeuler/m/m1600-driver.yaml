@@ -3,4 +3,7 @@ description: a new NIC driver for Nebula-matrix M1600-NIC family
 branches:
 - name: master
   type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
 type: public
