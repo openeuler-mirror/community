@@ -1,0 +1,10 @@
+name: examples
+description: The Robot Operating System(ROS) project, include examples-rclcpp-async-client,examples-rclcpp-cbg-executor,examples-rclcpp-minimal-action-client,examples-rclcpp-minimal-action-server,examples-rclcpp-minimal-client,examples-rclcpp-minimal-composition,examples-rclcpp-minimal-publisher,examples-rclcpp-minimal-service,examples-rclcpp-minimal-subscriber,examples-rclcpp-minimal-timer,examples-rclcpp-multithreaded-executor,examples-rclcpp-wait-set,examples-rclpy-executors,examples-rclpy-guard-conditions,examples-rclpy-minimal-action-client,examples-rclpy-minimal-action-server,examples-rclpy-minimal-client,examples-rclpy-minimal-publisher,examples-rclpy-minimal-service,examples-rclpy-minimal-subscriber,examples-rclpy-pointcloud-publisher,launch-testing-examples.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

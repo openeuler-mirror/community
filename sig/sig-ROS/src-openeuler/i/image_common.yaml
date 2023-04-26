@@ -1,10 +1,10 @@
 name: image_common
-description: Common code for working with images in ROS.
-upstream: https://github.com/ros-perception/image_common
+description: The Robot Operating System(ROS) project, include camera-calibration-parsers,camera-info-manager,image-common,image-transport.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
-- name: openEuler-20.03-LTS-Next
+- name: humble
   type: protected
   create_from: master
 type: public

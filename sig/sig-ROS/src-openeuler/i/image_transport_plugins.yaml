@@ -1,8 +1,10 @@
 name: image_transport_plugins
-description: A set of plugins for publishing and subscribing to sensor_msgs/Image
-  topics in representations other than raw pixel data.
-upstream: https://github.com/ros-perception/image_transport_plugins
+description: The Robot Operating System(ROS) project, include compressed-depth-image-transport,compressed-image-transport,image-transport-plugins,theora-image-transport.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

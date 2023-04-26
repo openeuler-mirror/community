@@ -1,0 +1,10 @@
+name: ignition_math6_vendor
+description: The Robot Operating System(ROS) project, include ignition-math6-vendor.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

@@ -1,7 +1,10 @@
 name: tango_icons_vendor
-description: tango_icons_vendor provides the public domain Tango icons for non-linux systems.
-upstream: https://github.com/ros-visualization/tango_icons_vendor.git
+description: The Robot Operating System(ROS) project, include tango-icons-vendor.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

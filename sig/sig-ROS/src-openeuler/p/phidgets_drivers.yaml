@@ -1,0 +1,10 @@
+name: phidgets_drivers
+description: The Robot Operating System(ROS) project, include libphidget22,phidgets-accelerometer,phidgets-analog-inputs,phidgets-api,phidgets-digital-inputs,phidgets-digital-outputs,phidgets-drivers,phidgets-gyroscope,phidgets-high-speed-encoder,phidgets-ik,phidgets-magnetometer,phidgets-motors,phidgets-msgs,phidgets-spatial,phidgets-temperature.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

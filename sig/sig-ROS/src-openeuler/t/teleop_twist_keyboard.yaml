@@ -1,0 +1,10 @@
+name: teleop_twist_keyboard
+description: The Robot Operating System(ROS) project, include teleop-twist-keyboard.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

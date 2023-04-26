@@ -1,7 +1,10 @@
 name: rosidl_python
-description: rosidl support for Python.
-upstream: https://github.com/ros2/rosidl_python.git
+description: The Robot Operating System(ROS) project, include rosidl-generator-py.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

@@ -1,0 +1,10 @@
+name: qt_gui_core
+description: The Robot Operating System(ROS) project, include qt-dotgraph,qt-gui-app,qt-gui-core,qt-gui-cpp,qt-gui-py-common,qt-gui.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

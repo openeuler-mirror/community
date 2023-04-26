@@ -1,7 +1,10 @@
 name: sros2
-description: tools to generate and distribute keys for SROS 2.
-upstream: https://github.com/ros2/sros2.git
+description: The Robot Operating System(ROS) project, include sros2-cmake,sros2.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

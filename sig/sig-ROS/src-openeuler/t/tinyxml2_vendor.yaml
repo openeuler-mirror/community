@@ -1,7 +1,10 @@
 name: tinyxml2_vendor
-description: temporary vendor package for tinyxml2
-upstream: https://github.com/ros2/tinyxml2_vendor.git
+description: The Robot Operating System(ROS) project, include tinyxml2-vendor.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

@@ -1,0 +1,10 @@
+name: rcss3d_agent
+description: The Robot Operating System(ROS) project, include rcss3d-agent-basic,rcss3d-agent-msgs,rcss3d-agent.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

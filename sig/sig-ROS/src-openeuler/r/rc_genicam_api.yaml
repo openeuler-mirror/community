@@ -1,0 +1,10 @@
+name: rc_genicam_api
+description: The Robot Operating System(ROS) project, include rc-genicam-api.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

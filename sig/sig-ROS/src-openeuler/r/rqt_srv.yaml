@@ -1,7 +1,10 @@
 name: rqt_srv
-description: A Python GUI plugin for introspecting available ROS message types.
-upstream: https://github.com/ros-visualization/rqt_srv
+description: The Robot Operating System(ROS) project, include rqt-srv.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

@@ -1,7 +1,10 @@
 name: rosidl_defaults
-description: Default rosidl runtime and generators.
-upstream: https://github.com/ros2/rosidl_defaults.git
+description: The Robot Operating System(ROS) project, include rosidl-default-generators,rosidl-default-runtime.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

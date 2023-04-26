@@ -1,8 +1,10 @@
 name: rqt_moveit
-description: An rqt-based tool that assists monitoring tasks for MoveIt! motion planner
-  developers and users.
-upstream: https://github.com/ros-visualization/rqt_moveit
+description: The Robot Operating System(ROS) project, include rqt-moveit.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

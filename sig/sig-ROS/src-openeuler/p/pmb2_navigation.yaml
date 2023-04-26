@@ -1,0 +1,10 @@
+name: pmb2_navigation
+description: The Robot Operating System(ROS) project, include pmb2-2dnav,pmb2-maps,pmb2-navigation.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

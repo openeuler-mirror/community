@@ -1,8 +1,10 @@
 name: osrf_pycommon
-description: Commonly needed Python modules, used by Python software developed at
-  OSRF.
-upstream: https://github.com/osrf/osrf_pycommon.git
+description: The Robot Operating System(ROS) project, include osrf-pycommon.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

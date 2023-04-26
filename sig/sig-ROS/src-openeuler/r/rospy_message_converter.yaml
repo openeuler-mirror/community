@@ -1,0 +1,10 @@
+name: rospy_message_converter
+description: The Robot Operating System(ROS) project, include rclpy-message-converter-msgs,rclpy-message-converter.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

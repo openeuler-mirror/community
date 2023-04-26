@@ -1,7 +1,10 @@
 name: spdlog_vendor
-description: Vendor package for spdlog.
-upstream: https://github.com/ros2/spdlog_vendor.git
+description: The Robot Operating System(ROS) project, include spdlog-vendor.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

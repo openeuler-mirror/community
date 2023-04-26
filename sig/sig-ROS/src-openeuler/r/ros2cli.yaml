@@ -1,7 +1,10 @@
 name: ros2cli
-description: Framework for ROS 2 command line tools.
-upstream: https://github.com/ros2/ros2cli.git
+description: The Robot Operating System(ROS) project, include ros2action,ros2cli,ros2cli-test-interfaces,ros2component,ros2doctor,ros2interface,ros2lifecycle,ros2lifecycle-test-fixtures,ros2multicast,ros2node,ros2param,ros2pkg,ros2run,ros2service,ros2topic.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

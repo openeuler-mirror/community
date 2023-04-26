@@ -1,0 +1,10 @@
+name: orocos_kdl_vendor
+description: The Robot Operating System(ROS) project, include orocos-kdl-vendor,python-orocos-kdl-vendor.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

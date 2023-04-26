@@ -1,10 +1,10 @@
 name: navigation_msgs
-description: This package defines messages commonly used in mapping packages.
-upstream: https://github.com/ros-planning/navigation_msgs
+description: The Robot Operating System(ROS) project, include map-msgs.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
-- name: openEuler-20.03-LTS-Next
+- name: humble
   type: protected
   create_from: master
 type: public

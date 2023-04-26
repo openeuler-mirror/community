@@ -1,0 +1,10 @@
+name: rmf_visualization
+description: The Robot Operating System(ROS) project, include rmf-visualization-building-systems,rmf-visualization-fleet-states,rmf-visualization-floorplans,rmf-visualization-navgraphs,rmf-visualization-obstacles,rmf-visualization-rviz2-plugins,rmf-visualization-schedule,rmf-visualization.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

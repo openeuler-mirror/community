@@ -1,7 +1,10 @@
 name: ament_cmake_ros
-description: The ROS specific CMake bits in the ament buildsystem.
-upstream: https://github.com/ros2/ament_cmake_ros.git
+description: The Robot Operating System(ROS) project, include ament-cmake-ros,domain-coordinator.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

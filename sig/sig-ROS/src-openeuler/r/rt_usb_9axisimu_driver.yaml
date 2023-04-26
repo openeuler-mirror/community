@@ -1,0 +1,10 @@
+name: rt_usb_9axisimu_driver
+description: The Robot Operating System(ROS) project, include rt-usb-9axisimu-driver.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

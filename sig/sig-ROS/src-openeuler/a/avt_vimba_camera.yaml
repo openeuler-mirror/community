@@ -1,0 +1,10 @@
+name: avt_vimba_camera
+description: The Robot Operating System(ROS) project, include avt-vimba-camera.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

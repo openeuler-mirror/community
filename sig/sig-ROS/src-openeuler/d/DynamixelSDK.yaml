@@ -1,0 +1,10 @@
+name: DynamixelSDK
+description: The Robot Operating System(ROS) project, include dynamixel-sdk-custom-interfaces,dynamixel-sdk-examples,dynamixel-sdk.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

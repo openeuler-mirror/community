@@ -1,8 +1,10 @@
 name: image_pipeline
-description: image_pipeline fills the gap between getting raw images from a camera
-  driver and higher-level vision processing.
-upstream: https://github.com/ros-perception/image_pipeline
+description: The Robot Operating System(ROS) project, include camera-calibration,depth-image-proc,image-pipeline,image-proc,image-publisher,image-rotate,image-view,stereo-image-proc,tracetools-image-pipeline.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

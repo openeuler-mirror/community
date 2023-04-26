@@ -1,10 +1,10 @@
 name: urdf_tutorial
-description: This package contains a number of URDF tutorials.
-upstream: https://github.com/ros/urdf_tutorial
+description: The Robot Operating System(ROS) project, include urdf-tutorial.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
-- name: openEuler-20.03-LTS-Next
+- name: humble
   type: protected
   create_from: master
 type: public

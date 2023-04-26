@@ -1,7 +1,10 @@
 name: google_benchmark_vendor
-description: This package provides Google Benchmark.
-upstream: https://github.com/ament/google_benchmark_vendor.git
+description: The Robot Operating System(ROS) project, include google-benchmark-vendor.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

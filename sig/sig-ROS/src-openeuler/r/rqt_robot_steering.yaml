@@ -1,8 +1,10 @@
 name: rqt_robot_steering
-description: rqt_robot_steering provides a GUI plugin for steering a robot using Twist
-  messages.
-upstream: https://github.com/ros-visualization/rqt_robot_steering
+description: The Robot Operating System(ROS) project, include rqt-robot-steering.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

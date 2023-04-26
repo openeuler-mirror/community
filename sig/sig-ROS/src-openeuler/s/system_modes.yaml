@@ -1,0 +1,10 @@
+name: system_modes
+description: The Robot Operating System(ROS) project, include launch-system-modes,system-modes-examples,system-modes-msgs,system-modes.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

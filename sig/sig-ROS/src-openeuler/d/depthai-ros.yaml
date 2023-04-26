@@ -1,0 +1,10 @@
+name: depthai-ros
+description: The Robot Operating System(ROS) project, include depthai-bridge,depthai-examples,depthai-ros-driver,depthai-ros-msgs,depthai-ros.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

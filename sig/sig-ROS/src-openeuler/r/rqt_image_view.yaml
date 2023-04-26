@@ -1,7 +1,10 @@
 name: rqt_image_view
-description: rqt_image_view provides a GUI plugin for displaying images using image_transport.
-upstream: https://github.com/ros-visualization/rqt_image_view
+description: The Robot Operating System(ROS) project, include rqt-image-view.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

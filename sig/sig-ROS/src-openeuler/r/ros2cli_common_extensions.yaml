@@ -1,7 +1,10 @@
 name: ros2cli_common_extensions
-description: Meta package for ros2cli common extensions.
-upstream: https://github.com/ros2/ros2cli_common_extensions.git
+description: The Robot Operating System(ROS) project, include ros2cli-common-extensions.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

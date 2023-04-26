@@ -1,7 +1,10 @@
 name: gazebo_ros_pkgs
-description: Interface for using ROS with the Gazebo simulator.
-upstream: https://github.com/ros-simulation/gazebo_ros_pkgs
+description: The Robot Operating System(ROS) project, include gazebo-dev,gazebo-msgs,gazebo-plugins,gazebo-ros-pkgs,gazebo-ros.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

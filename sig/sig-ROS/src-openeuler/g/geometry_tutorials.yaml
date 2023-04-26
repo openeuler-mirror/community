@@ -1,7 +1,10 @@
 name: geometry_tutorials
-description: Metapackage of geometry tutorials ROS.
-upstream: https://github.com/ros/geometry_tutorials
+description: The Robot Operating System(ROS) project, include geometry-tutorials,turtle-tf2-cpp,turtle-tf2-py.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

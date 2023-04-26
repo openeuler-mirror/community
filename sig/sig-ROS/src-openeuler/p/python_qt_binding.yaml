@@ -1,10 +1,10 @@
 name: python_qt_binding
-description: This stack provides Python bindings for Qt.
-upstream: https://github.com/ros-visualization/python_qt_binding
+description: The Robot Operating System(ROS) project, include python-qt-binding.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
-- name: openEuler-20.03-LTS-Next
+- name: humble
   type: protected
   create_from: master
 type: public

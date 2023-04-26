@@ -1,7 +1,10 @@
 name: ros2_control
-description: Generic and simple controls framework for ROS2.
-upstream: git@github.com:ros-controls/ros2_control.git
+description: The Robot Operating System(ROS) project, include controller-interface,controller-manager-msgs,controller-manager,hardware-interface,joint-limits,ros2controlcli,ros2-control,ros2-control-test-assets,rqt-controller-manager,transmission-interface.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

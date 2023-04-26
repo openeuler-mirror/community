@@ -1,10 +1,10 @@
 name: xacro
-description: Xacro (XML Macros) Xacro is an XML macro language.
-upstream: https://github.com/ros/xacro
+description: The Robot Operating System(ROS) project, include xacro.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
-- name: openEuler-20.03-LTS-Next
+- name: humble
   type: protected
   create_from: master
 type: public

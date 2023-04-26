@@ -1,8 +1,10 @@
 name: libstatistics_collector
-description: ROS 2 library providing classes to collect measurements and calculate statistics across them.
-  messages.
-upstream: https://github.com/ros-tooling/libstatistics_collector.git
+description: The Robot Operating System(ROS) project, include libstatistics-collector.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

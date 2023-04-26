@@ -1,0 +1,10 @@
+name: rosbridge_suite
+description: The Robot Operating System(ROS) project, include rosapi-msgs,rosapi,rosbridge-library,rosbridge-msgs,rosbridge-server,rosbridge-suite,rosbridge-test-msgs.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

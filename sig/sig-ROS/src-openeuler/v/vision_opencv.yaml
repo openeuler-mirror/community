@@ -1,8 +1,10 @@
 name: vision_opencv
-description: Packages for interfacing ROS with OpenCV, a library of programming functions
-  for real time computer vision.
-upstream: https://github.com/ros-perception/vision_opencv
+description: The Robot Operating System(ROS) project, include cv-bridge,image-geometry,vision-opencv.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

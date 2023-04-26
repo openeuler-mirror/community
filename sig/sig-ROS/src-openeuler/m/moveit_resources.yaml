@@ -1,0 +1,10 @@
+name: moveit_resources
+description: The Robot Operating System(ROS) project, include moveit-resources-fanuc-description,moveit-resources-fanuc-moveit-config,moveit-resources-panda-description,moveit-resources-panda-moveit-config,moveit-resources-pr2-description,moveit-resources.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

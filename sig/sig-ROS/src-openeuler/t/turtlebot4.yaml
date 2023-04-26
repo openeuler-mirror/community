@@ -1,0 +1,10 @@
+name: turtlebot4
+description: The Robot Operating System(ROS) project, include turtlebot4-description,turtlebot4-msgs,turtlebot4-navigation,turtlebot4-node.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

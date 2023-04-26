@@ -1,12 +1,10 @@
 name: perception_pcl
-description: PCL (Point Cloud Library) ROS interface stack. PCL-ROS is the preferred
-  bridge for 3D applications involving n-D Point Clouds and 3D geometry processing
-  in ROS.
-upstream: https://github.com/ros-perception/perception_pcl
+description: The Robot Operating System(ROS) project, include pcl-conversions,pcl-ros,perception-pcl.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
-- name: openEuler-20.03-LTS-Next
+- name: humble
   type: protected
   create_from: master
 type: public

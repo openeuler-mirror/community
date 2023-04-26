@@ -1,7 +1,10 @@
 name: rmw_fastrtps
-description: Implementation of the ROS Middleware (rmw) Interface using eProsima's Fast RTPS.
-upstream: https://github.com/ros2/rmw_fastrtps.git
+description: The Robot Operating System(ROS) project, include rmw-fastrtps-cpp,rmw-fastrtps-dynamic-cpp,rmw-fastrtps-shared-cpp.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

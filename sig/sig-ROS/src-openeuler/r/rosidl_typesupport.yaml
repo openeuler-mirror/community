@@ -1,7 +1,10 @@
 name: rosidl_typesupport
-description: Packages which provide the typesupport for ROS messages and services.
-upstream: https://github.com/ros2/rosidl_typesupport.git
+description: The Robot Operating System(ROS) project, include rosidl-typesupport-cpp,rosidl-typesupport-c.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

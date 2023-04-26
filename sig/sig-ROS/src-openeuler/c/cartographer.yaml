@@ -1,11 +1,10 @@
 name: cartographer
-description: Cartographer is a system that provides real-time simultaneous localization
-  and mapping (SLAM) in 2D and 3D across multiple platforms and sensor configurations.
-upstream: https://github.com/cartographer-project/cartographer
+description: The Robot Operating System(ROS) project, include cartographer.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
-- name: openEuler-20.03-LTS-Next
+- name: humble
   type: protected
   create_from: master
 type: public

@@ -1,0 +1,10 @@
+name: soccer_visualization
+description: The Robot Operating System(ROS) project, include soccer-marker-generation.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

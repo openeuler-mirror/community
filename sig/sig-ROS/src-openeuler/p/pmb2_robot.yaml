@@ -1,0 +1,10 @@
+name: pmb2_robot
+description: The Robot Operating System(ROS) project, include pmb2-bringup,pmb2-controller-configuration,pmb2-description,pmb2-robot.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

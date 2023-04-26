@@ -1,0 +1,10 @@
+name: turtlebot3
+description: The Robot Operating System(ROS) project, include turtlebot3-bringup,turtlebot3-cartographer,turtlebot3-description,turtlebot3-example,turtlebot3-navigation2,turtlebot3-node,turtlebot3,turtlebot3-teleop.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

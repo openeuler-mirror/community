@@ -1,7 +1,10 @@
 name: urdfdom
-description: A library to access URDFs using the DOM model.
-upstream: https://github.com/ros/urdfdom.git
+description: The Robot Operating System(ROS) project, include urdfdom.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

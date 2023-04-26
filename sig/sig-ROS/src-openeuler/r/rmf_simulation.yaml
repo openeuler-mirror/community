@@ -1,0 +1,10 @@
+name: rmf_simulation
+description: The Robot Operating System(ROS) project, include rmf-building-sim-common,rmf-building-sim-gz-classic-plugins,rmf-building-sim-gz-plugins,rmf-robot-sim-common,rmf-robot-sim-gz-classic-plugins,rmf-robot-sim-gz-plugins.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

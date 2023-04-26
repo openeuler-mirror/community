@@ -1,0 +1,10 @@
+name: ros_gz
+description: The Robot Operating System(ROS) project, include ros-gz-bridge,ros-gz-image,ros-gz-interfaces,ros-gz-sim-demos,ros-gz-sim,ros-gz,ros-ign-bridge,ros-ign-gazebo-demos,ros-ign-gazebo,ros-ign-image,ros-ign-interfaces,ros-ign.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

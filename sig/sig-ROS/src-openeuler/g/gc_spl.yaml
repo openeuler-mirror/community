@@ -1,0 +1,10 @@
+name: gc_spl
+description: The Robot Operating System(ROS) project, include gc-spl-2022,rcgcd-spl-14-conversion,rcgcd-spl-14,rcgcrd-spl-4-conversion,rcgcrd-spl-4.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

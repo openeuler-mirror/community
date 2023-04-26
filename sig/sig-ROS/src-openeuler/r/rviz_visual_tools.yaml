@@ -1,0 +1,10 @@
+name: rviz_visual_tools
+description: The Robot Operating System(ROS) project, include rviz-visual-tools.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

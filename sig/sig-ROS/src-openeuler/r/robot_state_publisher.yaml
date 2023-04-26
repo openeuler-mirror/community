@@ -1,10 +1,10 @@
 name: robot_state_publisher
-description: This package allows you to publish the state of a robot to tf2.
-upstream: https://github.com/ros/robot_state_publisher
+description: The Robot Operating System(ROS) project, include robot-state-publisher.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
-- name: openEuler-20.03-LTS-Next
+- name: humble
   type: protected
   create_from: master
 type: public

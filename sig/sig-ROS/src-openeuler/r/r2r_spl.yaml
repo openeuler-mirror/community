@@ -1,0 +1,10 @@
+name: r2r_spl
+description: The Robot Operating System(ROS) project, include r2r-spl-7,splsm-7-conversion,splsm-7.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public
