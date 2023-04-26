@@ -1,0 +1,7 @@
+name: python-pytz-deprecation-shim
+upstream: https://github.com/pganssle/pytz-deprecation-shim
+description: Shims to help you safely remove pytz
+branches:
+- name: master
+  type: protected
+type: public
