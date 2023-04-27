@@ -1,0 +1,7 @@
+name: python-inflect
+upstream: https://github.com/jaraco/inflect
+description: Correctly generate plurals, ordinals, indefinite articles; convert numbers to words
+branches:
+- name: master
+  type: protected
+type: public
