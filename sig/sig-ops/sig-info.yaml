@@ -115,8 +115,18 @@ repositories:
     organization: Linx
     email: dev17301@linx-info.com
 - repo:
-  - openeuler/gala-anteater
   - openeuler/gala-docs
+  repo_admin:
+  - gitee_id: MrRlu
+    name: Lu Zhihao
+    organization: Huawei
+    email: luzhihao@huawei.com
+  - gitee_id: dowzyx
+    name: Zhao Yuxing
+    organization: Huawei
+    email: zhaoyuxing2@huawei.com
+- repo:
+  - openeuler/gala-anteater
   - openeuler/gala-spider
   - openeuler/gala-ragdoll
   - src-openeuler/rubygem-fluent-plugin-elasticsearch
