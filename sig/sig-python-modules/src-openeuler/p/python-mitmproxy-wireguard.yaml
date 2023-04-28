@@ -1,0 +1,7 @@
+name: python-mitmproxy-wireguard
+upstream: https://github.com/decathorpe/mitmproxy_wireguard
+description: Transparently proxy any device that can be configured as a WireGuard client!
+branches:
+- name: master
+  type: protected
+type: public
