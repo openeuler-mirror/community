@@ -8,7 +8,7 @@ This SIG contains all python modules which are created by automation tools
 
 # 组织会议
 
-- Meeting time: under schedule
+- Meeting time: under schedule (maillist and wechat group are preferred for now)
 
 
 
@@ -16,21 +16,27 @@ This SIG contains all python modules which are created by automation tools
 myeuler
 
 ### Maintainer列表
-- xiongwei@myeuler
+- [myeuler](https://gitee.com/myeuler)
 - [yangzhao_kl](https://gitee.com/yangzhao_kl)
-
+- [shinwell_hu](https://gitee.com/shinwell_hu)
 
 
 ### Committer列表
-- xiongwei@myeuler
-
+- [caodongxia](https://gitee.com/caodongxia)
+- [cherry530](https://gitee.com/cherry530)
+- [gitee-cmd](https://gitee.com/gitee-cmd)
+- [wk333](https://gitee.com/wk333)
+- [bitcoffee](https://gitee.com/bitcoffee)
+- [compile_success](https://gitee.com/compile_success)
+- [huangtianhua](https://gitee.com/huangtianhua)
+- [xuesinian](https://gitee.com/xuesinian)
 
 
 # 联系方式
 
 *Mail List*
 
-- [mail list](under schedule)
+- [mail list](dev@openeuler.org)
 - [IRC](under schedule)
 
 
