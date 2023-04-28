@@ -1,0 +1,10 @@
+name: castxml
+description: C-family abstract syntax tree XML output tool
+upstream: https://github.com/CastXML/CastXML
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
