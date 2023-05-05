@@ -1,0 +1,7 @@
+name: iodine
+description: Solution to tunnel IPv4 data through a DNS server
+upstream: http://code.kryo.se/iodine/
+branches:
+- name: master
+  type: protected
+type: public
