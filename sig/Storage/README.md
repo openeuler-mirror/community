@@ -22,6 +22,7 @@
 - 罗士杰[@shijieluo](https://gitee.com/shijieluo)
 - 苏伟锋[@swf504](https://gitee.com/swf504)
 - 李霄铿[@lixiaokeng](https://gitee.com/lixiaokeng)
+- 刘新良[@xin3liang](https://gitee.com/xin3liang)(e2fsprogs)
 
 # 联系方式
 
