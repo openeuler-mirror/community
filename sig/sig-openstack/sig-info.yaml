@@ -50,6 +50,16 @@ repositories:
   - openeuler/openstack-plugin
   - openeuler/openstack-releases
   - openeuler/pyisula
+- repo:
+  - openeuler/gostone
+  committers:
+  - gitee_id: wang-qingzhao
+    name: wangqingzhao
+    email: wangqzh@chinatelecom.cn
+  - gitee_id: lwydyby_admin
+    name: liwei
+    email: qzywyd@gmail.com
+- repo:
   - src-openeuler/ansible-lint
   - src-openeuler/avro-python3
   - src-openeuler/crudini
