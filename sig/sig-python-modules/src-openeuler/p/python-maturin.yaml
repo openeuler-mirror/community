@@ -1,0 +1,7 @@
+name: python-maturin
+upstream: https://github.com/PyO3/maturin
+description: Rust/Python Interoperability
+branches:
+- name: master
+  type: protected
+type: public
