@@ -1,7 +1,10 @@
 name: rosidl_typesupport_fastrtps
-description: rosidl typesupport for eProsima's FastRTPS.
-upstream: https://github.com/ros2/rosidl_typesupport_fastrtps.git
+description: The Robot Operating System(ROS) project, include fastrtps-cmake-module,rosidl-typesupport-fastrtps-cpp,rosidl-typesupport-fastrtps-c.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

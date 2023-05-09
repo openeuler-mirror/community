@@ -1,8 +1,10 @@
 name: ros_tutorials
-description: ros_tutorials contains packages that demonstrate various features of
-  ROS, as well as support packages which help demonstrate those features.
-upstream: https://github.com/ros/ros_tutorials
+description: The Robot Operating System(ROS) project, include turtlesim.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

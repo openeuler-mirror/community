@@ -1,7 +1,10 @@
 name: rmw
-description: Contains the ROS middleware API.
-upstream: https://github.com/ros2/rmw.git
+description: The Robot Operating System(ROS) project, include rmw-implementation-cmake,rmw.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

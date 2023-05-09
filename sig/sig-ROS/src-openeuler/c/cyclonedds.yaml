@@ -1,8 +1,10 @@
 name: cyclonedds
-description: Eclipse Cyclone DDS is a very performant and robust open-source DDS implementation.
-  Cyclone DDS is developed completely in the open as an Eclipse IoT project.
-upstream: https://github.com/eclipse-cyclonedds/cyclonedds.git
+description: The Robot Operating System(ROS) project, include cyclonedds.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

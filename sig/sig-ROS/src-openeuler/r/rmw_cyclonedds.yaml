@@ -1,7 +1,10 @@
 name: rmw_cyclonedds
-description: ROS 2 RMW layer for Eclipse Cyclone DDS.
-upstream: https://github.com/ros2/rmw_cyclonedds.git
+description: The Robot Operating System(ROS) project, include rmw-cyclonedds-cpp.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

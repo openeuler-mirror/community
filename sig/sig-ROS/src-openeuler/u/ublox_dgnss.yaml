@@ -1,0 +1,10 @@
+name: ublox_dgnss
+description: The Robot Operating System(ROS) project, include ublox-dgnss-node,ublox-dgnss,ublox-ubx-interfaces,ublox-ubx-msgs.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

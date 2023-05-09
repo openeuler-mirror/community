@@ -1,8 +1,10 @@
 name: Fast-DDS
-description: eprosima Fast DDS* (formerly Fast RTPS) is a C++ implementation of the
-  DDS (Data Distribution Service) standard of the OMG (Object Management Group).
-upstream: https://github.com/eProsima/Fast-DDS.git
+description: The Robot Operating System(ROS) project, include fastrtps.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

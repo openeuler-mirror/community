@@ -1,7 +1,10 @@
 name: ament_cmake
-description: The entry point package for the ament buildsystem in CMake.
-upstream: https://github.com/ament/ament_cmake.git
+description: The Robot Operating System(ROS) project, include ament-cmake-auto,ament-cmake-core,ament-cmake-export-definitions,ament-cmake-export-dependencies,ament-cmake-export-include-directories,ament-cmake-export-interfaces,ament-cmake-export-libraries,ament-cmake-export-link-flags,ament-cmake-export-targets,ament-cmake-gen-version-h,ament-cmake-gmock,ament-cmake-google-benchmark,ament-cmake-gtest,ament-cmake-include-directories,ament-cmake-libraries,ament-cmake-nose,ament-cmake-pytest,ament-cmake-python,ament-cmake,ament-cmake-target-dependencies,ament-cmake-test,ament-cmake-version.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

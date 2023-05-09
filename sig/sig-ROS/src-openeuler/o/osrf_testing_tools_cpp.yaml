@@ -1,7 +1,10 @@
 name: osrf_testing_tools_cpp
-description: Testing tools for C++, and is used in various OSRF projects.
-upstream: https://github.com/osrf/osrf_testing_tools_cpp.git
+description: The Robot Operating System(ROS) project, include osrf-testing-tools-cpp.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

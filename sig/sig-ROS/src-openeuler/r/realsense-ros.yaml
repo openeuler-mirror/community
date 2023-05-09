@@ -1,0 +1,10 @@
+name: realsense-ros
+description: The Robot Operating System(ROS) project, include realsense2-camera-msgs,realsense2-camera,realsense2-description.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

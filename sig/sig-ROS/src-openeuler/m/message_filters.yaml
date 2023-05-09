@@ -1,7 +1,10 @@
 name: message_filters
-description: A set of ROS2 message filters which take in messages and may output those messages at a later time, based on the conditions that filter needs met.
-upstream: https://github.com/ros2/message_filters.git
+description: The Robot Operating System(ROS) project, include message-filters.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

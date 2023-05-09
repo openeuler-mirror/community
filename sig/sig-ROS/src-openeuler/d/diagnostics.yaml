@@ -1,11 +1,10 @@
 name: diagnostics
-description: The diagnostics system is designed to collect information from hardware
-  drivers and robot hardware to users and operators for analysis.
-upstream: https://github.com/ros/diagnostics
+description: The Robot Operating System(ROS) project, include diagnostic-aggregator,diagnostic-common-diagnostics,diagnostics,diagnostic-updater,self-test.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
-- name: openEuler-20.03-LTS-Next
+- name: humble
   type: protected
   create_from: master
 type: public

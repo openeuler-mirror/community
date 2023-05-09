@@ -1,0 +1,10 @@
+name: microstrain_inertial
+description: The Robot Operating System(ROS) project, include microstrain-inertial-driver,microstrain-inertial-examples,microstrain-inertial-msgs,microstrain-inertial-rqt.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

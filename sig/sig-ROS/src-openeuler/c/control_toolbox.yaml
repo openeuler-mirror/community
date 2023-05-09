@@ -1,7 +1,10 @@
 name: control_toolbox
-description: The control toolbox contains modules that are useful across all controllers.
-upstream: https://github.com/ros-controls/control_toolbox
+description: The Robot Operating System(ROS) project, include control-toolbox.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

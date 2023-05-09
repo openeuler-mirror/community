@@ -1,7 +1,10 @@
 name: realtime_support
-description: Minimal real-time testing utility for measuring jitter and latency.
-upstream: https://github.com/ros2/realtime_support.git
+description: The Robot Operating System(ROS) project, include rttest,tlsf-cpp.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

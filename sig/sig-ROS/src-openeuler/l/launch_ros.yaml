@@ -1,7 +1,10 @@
 name: launch_ros
-description: Tools for launching ROS nodes and for writing tests involving ROS nodes.
-upstream: https://github.com/ros2/launch_ros.git
+description: The Robot Operating System(ROS) project, include launch-ros,launch-testing-ros,ros2launch.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

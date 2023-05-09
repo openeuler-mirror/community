@@ -1,11 +1,10 @@
 name: urdf
-description: This package contains a C++ parser for the Unified Robot Description
-  Format (URDF), which is an XML format for representing a robot model.
-upstream: https://github.com/ros/urdf
+description: The Robot Operating System(ROS) project, include urdf-parser-plugin,urdf.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
-- name: openEuler-20.03-LTS-Next
+- name: humble
   type: protected
   create_from: master
 type: public

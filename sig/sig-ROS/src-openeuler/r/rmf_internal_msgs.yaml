@@ -1,0 +1,10 @@
+name: rmf_internal_msgs
+description: The Robot Operating System(ROS) project, include rmf-charger-msgs,rmf-dispenser-msgs,rmf-door-msgs,rmf-fleet-msgs,rmf-ingestor-msgs,rmf-lift-msgs,rmf-obstacle-msgs,rmf-scheduler-msgs,rmf-site-map-msgs,rmf-task-msgs,rmf-traffic-msgs,rmf-workcell-msgs.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

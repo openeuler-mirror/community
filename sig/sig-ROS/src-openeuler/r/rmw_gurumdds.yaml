@@ -1,0 +1,10 @@
+name: rmw_gurumdds
+description: The Robot Operating System(ROS) project, include gurumdds-cmake-module,rmw-gurumdds-cpp.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

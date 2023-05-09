@@ -1,7 +1,10 @@
 name: ament_index
-description: C++ API to access the ament resource index.
-upstream: https://github.com/ament/ament_index.git
+description: The Robot Operating System(ROS) project, include ament-index-cpp,ament-index-python.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

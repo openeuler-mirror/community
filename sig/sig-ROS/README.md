@@ -7,7 +7,7 @@
 
 # 组织会议
 
-- 公开的会议时间：北京时间，双周周四 晚上，18点-19点
+- 公开的会议时间：北京时间，双周周日 晚上，20点-21点
 
 
 # 成员
@@ -337,3 +337,10 @@ repository地址：
 repository地址：
 
 - https://gitee.com/src-openeuler/python-robotframework
+
+项目名称: ROS2-humble
+
+
+repository地址：
+
+- 待更新,数量421个.

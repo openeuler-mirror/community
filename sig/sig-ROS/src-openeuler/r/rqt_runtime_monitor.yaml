@@ -1,7 +1,10 @@
 name: rqt_runtime_monitor
-description: rqt_runtime_monitor provides a GUI plugin viewing DiagnosticsArray messages.
-upstream: https://github.com/ros-visualization/rqt_runtime_monitor
+description: The Robot Operating System(ROS) project, include rqt-runtime-monitor.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

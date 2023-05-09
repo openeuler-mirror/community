@@ -1,7 +1,10 @@
 name: Fast-CDR
-description: eProsima Fast CDR is a C++ library that provides two serialization mechanisms.
-upstream: https://github.com/eProsima/Fast-CDR.git
+description: The Robot Operating System(ROS) project, include fastcdr.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

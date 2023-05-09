@@ -1,0 +1,10 @@
+name: foros
+description: The Robot Operating System(ROS) project, include foros-examples,foros-i,tor,foros-msgs,foros.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

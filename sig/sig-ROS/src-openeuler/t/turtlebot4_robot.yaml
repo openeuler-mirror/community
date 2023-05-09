@@ -1,0 +1,10 @@
+name: turtlebot4_robot
+description: The Robot Operating System(ROS) project, include turtlebot4-base,turtlebot4-bringup,turtlebot4-diagnostics,turtlebot4-robot,turtlebot4-tests.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

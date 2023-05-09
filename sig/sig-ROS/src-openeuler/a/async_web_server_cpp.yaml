@@ -1,0 +1,10 @@
+name: async_web_server_cpp
+description: The Robot Operating System(ROS) project, include async-web-server-cpp.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

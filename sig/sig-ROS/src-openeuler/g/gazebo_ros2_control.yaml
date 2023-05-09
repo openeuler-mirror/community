@@ -1,0 +1,10 @@
+name: gazebo_ros2_control
+description: The Robot Operating System(ROS) project, include gazebo-ros2-control-demos,gazebo-ros2-control.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

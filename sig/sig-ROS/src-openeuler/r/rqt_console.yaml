@@ -1,7 +1,10 @@
 name: rqt_console
-description: rqt_console provides a GUI plugin for displaying and filtering ROS messages.
-upstream: https://github.com/ros-visualization/rqt_console
+description: The Robot Operating System(ROS) project, include rqt-console.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

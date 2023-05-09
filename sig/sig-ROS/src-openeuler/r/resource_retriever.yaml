@@ -1,10 +1,10 @@
 name: resource_retriever
-description: This package retrieves data from url-format files.
-upstream: https://github.com/ros/resource_retriever
+description: The Robot Operating System(ROS) project, include libcurl-vendor,resource-retriever.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
-- name: openEuler-20.03-LTS-Next
+- name: humble
   type: protected
   create_from: master
 type: public

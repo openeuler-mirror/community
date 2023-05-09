@@ -1,7 +1,10 @@
 name: ros_testing
-description: Single point of entry for writing tests which involve Nodes in ROS 2.
-upstream: https://github.com/ros2/ros_testing.git
+description: The Robot Operating System(ROS) project, include ros2test,ros-testing.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

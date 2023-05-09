@@ -1,8 +1,10 @@
 name: control_msgs
-description: control_msgs contains base messages and actions useful for controlling
-  robots.
-upstream: https://github.com/ros-controls/control_msgs
+description: The Robot Operating System(ROS) project, include control-msgs.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

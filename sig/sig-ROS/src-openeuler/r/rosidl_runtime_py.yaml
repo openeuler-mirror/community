@@ -1,7 +1,10 @@
 name: rosidl_runtime_py
-description: Runtime utilities for working with generated ROS interfaces in Python.
-upstream: https://github.com/ros2/rosidl_runtime_py.git
+description: The Robot Operating System(ROS) project, include rosidl-runtime-py.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

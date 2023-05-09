@@ -1,0 +1,10 @@
+name: performance_test
+description: The Robot Operating System(ROS) project, include performance-test.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

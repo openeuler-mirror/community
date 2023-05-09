@@ -1,8 +1,10 @@
 name: rqt_robot_dashboard
-description: rqt_robot_dashboard provides an infrastructure for building robot dashboard
-  plugins in rqt.
-upstream: https://github.com/ros-visualization/rqt_robot_dashboard
+description: The Robot Operating System(ROS) project, include rqt-robot-dashboard.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

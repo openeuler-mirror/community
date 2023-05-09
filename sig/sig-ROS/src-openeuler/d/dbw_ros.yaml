@@ -1,0 +1,10 @@
+name: dbw_ros
+description: The Robot Operating System(ROS) project, include dataspeed-dbw-common,dataspeed-dbw-gateway,dataspeed-dbw-msgs,dataspeed-ulc-can,dataspeed-ulc-msgs,dataspeed-ulc,dbw-fca-can,dbw-fca-description,dbw-fca-joystick-demo,dbw-fca-msgs,dbw-fca,dbw-ford-can,dbw-ford-description,dbw-ford-joystick-demo,dbw-ford-msgs,dbw-ford,dbw-polaris-can,dbw-polaris-description,dbw-polaris-joystick-demo,dbw-polaris-msgs,dbw-polaris.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

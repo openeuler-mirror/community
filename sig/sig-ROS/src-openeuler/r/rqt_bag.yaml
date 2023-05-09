@@ -1,7 +1,10 @@
 name: rqt_bag
-description: rqt_bag provides a GUI plugin for displaying and replaying ROS bag files.
-upstream: https://github.com/ros-visualization/rqt_bag
+description: The Robot Operating System(ROS) project, include rqt-bag-plugins,rqt-bag.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

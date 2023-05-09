@@ -1,12 +1,10 @@
 name: laser_geometry
-description: This package contains a class for converting from a 2D laser scan as
-  defined by sensor_msgs/LaserScan into a point cloud as defined by sensor_msgs/PointCloud
-  or sensor_msgs/PointCloud2..
-upstream: https://github.com/ros-perception/laser_geometry
+description: The Robot Operating System(ROS) project, include laser-geometry.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
-- name: openEuler-20.03-LTS-Next
+- name: humble
   type: protected
   create_from: master
 type: public

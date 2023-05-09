@@ -1,10 +1,10 @@
 name: interactive_markers
-description: 3D interactive marker communication library for RViz and similar tools.
-upstream: https://github.com/ros-visualization/interactive_markers
+description: The Robot Operating System(ROS) project, include interactive-markers.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
-- name: openEuler-20.03-LTS-Next
+- name: humble
   type: protected
   create_from: master
 type: public

@@ -1,0 +1,10 @@
+name: create3_sim-release
+description: The Robot Operating System(ROS) project, include irobot-create-common-bringup,irobot-create-control,irobot-create-description,irobot-create-gazebo-bringup,irobot-create-gazebo-plugins,irobot-create-gazebo-sim,irobot-create-ignition-bringup,irobot-create-ignition-plugins,irobot-create-ignition-sim,irobot-create-ignition-toolbox,irobot-create-nodes,irobot-create-toolbox.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

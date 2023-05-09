@@ -1,0 +1,10 @@
+name: pal_gripper
+description: The Robot Operating System(ROS) project, include pal-gripper-controller-configuration,pal-gripper-description,pal-gripper.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

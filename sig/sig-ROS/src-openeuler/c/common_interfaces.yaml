@@ -1,7 +1,10 @@
 name: common_interfaces
-description: common_interfaces contains messages and services that are widely used by other ROS packages.
-upstream: https://github.com/ros2/common_interfaces.git
+description: The Robot Operating System(ROS) project, include actionlib-msgs,common-interfaces,diagnostic-msgs,geometry-msgs,nav-msgs,sensor-msgs-py,sensor-msgs,shape-msgs,std-msgs,std-srvs,stereo-msgs,trajectory-msgs,visualization-msgs.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

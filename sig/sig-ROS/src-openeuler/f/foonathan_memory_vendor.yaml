@@ -1,8 +1,10 @@
 name: foonathan_memory_vendor
-description: This package will download, patch, build and install foonathan_memory
-  for its use with Fast-RTPS.
-upstream: https://github.com/eProsima/foonathan_memory_vendor.git
+description: The Robot Operating System(ROS) project, include foonathan-memory-vendor.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

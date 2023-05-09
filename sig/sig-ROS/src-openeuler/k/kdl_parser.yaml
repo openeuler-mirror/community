@@ -1,11 +1,10 @@
 name: kdl_parser
-description: This contains packages for converting from URDF to a representation in
-  KDL.
-upstream: https://github.com/ros/kdl_parser
+description: The Robot Operating System(ROS) project, include kdl-parser.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
-- name: openEuler-20.03-LTS-Next
+- name: humble
   type: protected
   create_from: master
 type: public

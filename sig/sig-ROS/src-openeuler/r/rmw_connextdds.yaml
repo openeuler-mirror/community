@@ -1,0 +1,10 @@
+name: rmw_connextdds
+description: The Robot Operating System(ROS) project, include rmw-connextdds-common,rmw-connextdds,rti-connext-dds-cmake-module.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

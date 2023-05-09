@@ -1,7 +1,10 @@
 name: rcl_interfaces
-description: A repository for messages and services used by the ROS client libraries.
-upstream: https://github.com/ros2/rcl_interfaces.git
+description: The Robot Operating System(ROS) project, include action-msgs,builtin-interfaces,composition-interfaces,lifecycle-msgs,rcl-interfaces,rosgraph-msgs,statistics-msgs,test-msgs.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

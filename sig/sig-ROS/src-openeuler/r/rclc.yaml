@@ -1,0 +1,10 @@
+name: rclc
+description: The Robot Operating System(ROS) project, include rclc-examples,rclc-lifecycle,rclc-parameter,rclc.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

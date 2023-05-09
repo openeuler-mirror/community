@@ -1,0 +1,10 @@
+name: wall_follower_ros2
+description: The Robot Operating System(ROS) project, include wall-follower-ros2.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

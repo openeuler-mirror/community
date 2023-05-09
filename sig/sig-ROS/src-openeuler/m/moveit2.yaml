@@ -1,0 +1,10 @@
+name: moveit2
+description: The Robot Operating System(ROS) project, include chomp-motion-planner,moveit-chomp-optimizer-adapter,moveit-common,moveit-configs-utils,moveit-core,moveit-hybrid-planning,moveit-kinematics,moveit-planners-chomp,moveit-planners-ompl,moveit-planners,moveit-plugins,moveit-resources-prbt-ikfast-manipulator-plugin,moveit-resources-prbt-moveit-config,moveit-resources-prbt-pg70-support,moveit-resources-prbt-support,moveit-ros-benchmarks,moveit-ros-control-interface,moveit-ros-move-group,moveit-ros-occupancy-map-monitor,moveit-ros-perception,moveit-ros-planning-interface,moveit-ros-planning,moveit-ros-robot-interaction,moveit-ros,moveit-ros-visualization,moveit-ros-warehouse,moveit-runtime,moveit-servo,moveit-setup-app-plugins,moveit-setup-assistant,moveit-setup-controllers,moveit-setup-core-plugins,moveit-setup-framework,moveit-setup-srdf-plugins,moveit-simple-controller-manager,moveit,pilz-industrial-motion-planner,pilz-industrial-motion-planner-testutils.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

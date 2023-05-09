@@ -1,0 +1,10 @@
+name: lanelet2
+description: The Robot Operating System(ROS) project, include lanelet2-core,lanelet2-examples,lanelet2-io,lanelet2-maps,lanelet2-projection,lanelet2-python,lanelet2-routing,lanelet2,lanelet2-traffic-rules,lanelet2-validation.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

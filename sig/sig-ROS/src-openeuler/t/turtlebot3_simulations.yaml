@@ -1,0 +1,10 @@
+name: turtlebot3_simulations
+description: The Robot Operating System(ROS) project, include turtlebot3-fake-node,turtlebot3-gazebo,turtlebot3-simulations.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

@@ -1,7 +1,10 @@
 name: rosbag2
-description: Repository for implementing rosbag2 as described in its corresponding design article.
-upstream: https://github.com/ros2/rosbag2
+description: The Robot Operating System(ROS) project, include mcap-vendor,ros2bag,rosbag2-compression,rosbag2-compression-zstd,rosbag2-cpp,rosbag2-interfaces,rosbag2-performance-benchmarking,rosbag2-py,rosbag2,rosbag2-storage-default-plugins,rosbag2-storage-mcap,rosbag2-storage-mcap-testdata,rosbag2-storage,rosbag2-test-common,rosbag2-tests,rosbag2-transport,shared-queues-vendor,sqlite3-vendor,zstd-vendor.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

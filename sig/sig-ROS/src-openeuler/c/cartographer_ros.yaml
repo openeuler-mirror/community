@@ -1,10 +1,10 @@
 name: cartographer_ros
-description: This project provides Cartographer's ROS integration.
-upstream: https://github.com/cartographer-project/cartographer_ros
+description: The Robot Operating System(ROS) project, include cartographer-ros-msgs,cartographer-ros,cartographer-rviz.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
-- name: openEuler-20.03-LTS-Next
+- name: humble
   type: protected
   create_from: master
 type: public

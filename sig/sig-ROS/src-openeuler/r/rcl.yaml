@@ -1,7 +1,10 @@
 name: rcl
-description: The ROS client library common implementation.
-upstream: https://github.com/ros2/rcl.git
+description: The Robot Operating System(ROS) project, include rcl-action,rcl-lifecycle,rcl,rcl-yaml-param-parser.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

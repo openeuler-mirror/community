@@ -1,7 +1,10 @@
 name: rqt_tf_tree
-description: rqt_tf_tree provides a GUI plugin for visualizing the ROS TF frame tree.
-upstream: https://github.com/ros-visualization/rqt_tf_tree
+description: The Robot Operating System(ROS) project, include rqt-tf-tree.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

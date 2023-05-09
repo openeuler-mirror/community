@@ -1,0 +1,10 @@
+name: velodyne
+description: The Robot Operating System(ROS) project, include velodyne-driver,velodyne-laserscan,velodyne-msgs,velodyne-pointcloud,velodyne.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

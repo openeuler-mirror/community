@@ -1,0 +1,10 @@
+name: marti_messages
+description: The Robot Operating System(ROS) project, include marti-can-msgs,marti-common-msgs,marti-dbw-msgs,marti-intr,tion-msgs,marti-nav-msgs,marti-perception-msgs,marti-sensor-msgs,marti-status-msgs,marti-visualization-msgs.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

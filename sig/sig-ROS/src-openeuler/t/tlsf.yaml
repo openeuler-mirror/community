@@ -1,7 +1,10 @@
 name: tlsf
-description: Snapshot of TLSF allocator.
-upstream: https://github.com/ros2/tlsf.git
+description: The Robot Operating System(ROS) project, include tlsf.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

@@ -1,0 +1,10 @@
+name: ros2_planning_system
+description: The Robot Operating System(ROS) project, include plansys2-bringup,plansys2-bt-actions,plansys2-core,plansys2-domain-expert,plansys2-executor,plansys2-lifecycle-manager,plansys2-msgs,plansys2-pddl-parser,plansys2-planner,plansys2-popf-plan-solver,plansys2-problem-expert,plansys2-terminal,plansys2-tools.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

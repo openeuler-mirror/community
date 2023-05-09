@@ -1,8 +1,10 @@
 name: uncrustify_vendor
-description: Wrapper around uncrustify, providing nothing but a dependency on uncrustify,
-  on some systems.On others, it provides an ExternalProject build of uncrustify.
-upstream: https://github.com/ament/uncrustify_vendor.git
+description: The Robot Operating System(ROS) project, include uncrustify-vendor.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

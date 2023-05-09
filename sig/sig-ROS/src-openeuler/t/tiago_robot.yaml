@@ -1,0 +1,10 @@
+name: tiago_robot
+description: The Robot Operating System(ROS) project, include tiago-bringup,tiago-controller-configuration,tiago-description,tiago-robot.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

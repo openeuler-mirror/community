@@ -1,0 +1,10 @@
+name: kinematics_interface
+description: The Robot Operating System(ROS) project, include kinematics-interface-kdl,kinematics-interface.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

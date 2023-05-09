@@ -1,0 +1,10 @@
+name: grid_map
+description: The Robot Operating System(ROS) project, include grid-map-cmake-helpers,grid-map-core,grid-map-costmap-2d,grid-map-cv,grid-map-demos,grid-map-filters,grid-map-loader,grid-map-msgs,grid-map-octomap,grid-map-pcl,grid-map-ros,grid-map-rviz-plugin,grid-map-sdf,grid-map,grid-map-visualization.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

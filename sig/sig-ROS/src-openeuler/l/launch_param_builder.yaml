@@ -1,0 +1,10 @@
+name: launch_param_builder
+description: The Robot Operating System(ROS) project, include launch-param-builder.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

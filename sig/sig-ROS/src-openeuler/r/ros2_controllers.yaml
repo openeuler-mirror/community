@@ -1,7 +1,10 @@
 name: ros2_controllers
-description: Generic robotic controllers to accompany ros2_control.
-upstream: https://github.com/ros-controls/ros2_controllers.git
+description: The Robot Operating System(ROS) project, include admittance-controller,diff-drive-controller,effort-controllers,force-torque-sensor-broadcaster,forward-command-controller,gripper-controllers,imu-sensor-broadcaster,joint-state-broadcaster,joint-trajectory-controller,position-controllers,ros2-controllers,ros2-controllers-test-nodes,rqt-joint-trajectory-controller,tricycle-controller,velocity-controllers.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

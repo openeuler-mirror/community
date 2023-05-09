@@ -1,7 +1,10 @@
 name: mimick_vendor
-description: Wrapper around mimick, it provides an ExternalProject build of mimick.
-upstream: https://github.com/ros2/mimick_vendor.git
+description: The Robot Operating System(ROS) project, include mimick-vendor.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

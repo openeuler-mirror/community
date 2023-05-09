@@ -1,7 +1,10 @@
 name: rcpputils
-description: Package containing utility code for C++.
-upstream: https://github.com/ros2/rcpputils.git
+description: The Robot Operating System(ROS) project, include rcpputils.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

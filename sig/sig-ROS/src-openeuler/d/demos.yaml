@@ -1,0 +1,10 @@
+name: demos
+description: The Robot Operating System(ROS) project, include action-tutorials-cpp,action-tutorials-interfaces,action-tutorials-py,composition,demo-nodes-cpp-native,demo-nodes-cpp,demo-nodes-py,dummy-map-server,dummy-robot-bringup,dummy-sensors,image-tools,intra-process-demo,lifecycle-py,lifecycle,logging-demo,pendulum-control,pendulum-msgs,quality-of-service-demo-cpp,quality-of-service-demo-py,topic-monitor,topic-statistics-demo.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: rmf_traffic_editor
+description: The Robot Operating System(ROS) project, include rmf-building-map-tools,rmf-traffic-editor-assets,rmf-traffic-editor,rmf-traffic-editor-test-maps.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

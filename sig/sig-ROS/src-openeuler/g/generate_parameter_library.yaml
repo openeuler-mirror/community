@@ -1,0 +1,10 @@
+name: generate_parameter_library
+description: The Robot Operating System(ROS) project, include generate-parameter-library-example,generate-parameter-library-py,generate-parameter-library,parameter-traits.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

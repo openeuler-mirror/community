@@ -1,0 +1,10 @@
+name: tiago_moveit_config
+description: The Robot Operating System(ROS) project, include tiago-moveit-config.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public

@@ -1,11 +1,10 @@
 name: geometry2
-description: A metapackage to bring in the default packages second generation Transform
-  Library in ros, tf2
-upstream: https://github.com/ros/geometry2
+description: The Robot Operating System(ROS) project, include examples-tf2-py,geometry2,tf2-bullet,tf2-eigen-kdl,tf2-eigen,tf2-geometry-msgs,tf2-kdl,tf2-msgs,tf2-py,tf2-ros-py,tf2-ros,tf2-sensor-msgs,tf2,tf2-tools.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
-- name: openEuler-20.03-LTS-Next
+- name: humble
   type: protected
   create_from: master
 type: public

@@ -1,7 +1,10 @@
 name: rmw_dds_common
-description: This repository contains packages to support DDS-based RMW implementations.
-upstream: https://github.com/ros2/rmw_dds_common.git
+description: The Robot Operating System(ROS) project, include rmw-dds-common.
+upstream: https://packages.ros.org/ros2/ubuntu/pool/main/r
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public
