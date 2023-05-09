@@ -1,0 +1,10 @@
+name: sssnic-driver
+description: a new NIC driver for 3SNIC ethernet controller sssnic
+upstream: https://gitee.com/openeuler/sssnic-driver
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
