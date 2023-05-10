@@ -1,0 +1,10 @@
+name: minder 
+description: Create, develop and visualize your ideas 
+upstream: https://github.com/phase1geo/minder/
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

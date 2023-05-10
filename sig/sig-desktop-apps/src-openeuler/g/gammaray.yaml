@@ -1,0 +1,11 @@
+name: gammaray
+description: GammaRay is a tool to poke around in a Qt-application and also to manipulate the application to some extent.
+upstream: https://github.com/KDAB/GammaRay
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
+

@@ -1,0 +1,11 @@
+name: texworks
+description: A simple environment for editing, typesetting, and previewing TeX documents
+upstream: https://github.com/TeXworks/texworks/
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
+

@@ -1,0 +1,11 @@
+name: pympress
+description: Simple and powerful dual-screen PDF reader
+upstream: https://github.com/Cimbali/pympress/
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
+

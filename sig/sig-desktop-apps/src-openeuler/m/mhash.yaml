@@ -1,0 +1,10 @@
+name: mhash
+description: Thread-safe hash algorithms library
+upstream: https://sourceforge.net/p/mhash/code/ci/master/tree/
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

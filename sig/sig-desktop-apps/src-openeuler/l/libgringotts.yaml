@@ -1,0 +1,10 @@
+name: libgringotts
+description: A backend for managing encrypted data files on the disk
+upstream: https://github.com/shlomif/gringotts
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

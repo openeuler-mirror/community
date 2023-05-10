@@ -1,0 +1,11 @@
+name: formiko
+description: reStructuredText and MarkDown editor and live html previewer - Vim mode
+upstream: https://github.com/ondratu/formiko
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
+

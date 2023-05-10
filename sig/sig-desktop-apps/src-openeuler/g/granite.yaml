@@ -1,0 +1,10 @@
+name: granite
+description: elementary companion library for GTK+ and GLib
+upstream: https://github.com/elementary/granite
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,11 @@
+name: aisleriot
+description: Play many different solitaire games
+upstream: https://gitlab.gnome.org/GNOME/aisleriot
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
+
