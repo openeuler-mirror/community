@@ -5,4 +5,7 @@ upstream: https://gitee.com/openharmony/kernel_linux_5.10/tree/master/fs/hmdfs
 branches:
 - name: master
   type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
 type: public
