@@ -1,0 +1,7 @@
+name: tpm2-tss-engine
+description: support openssl use intel tss stack
+upstream: https://github.com/tpm2-software/tpm2-tss-engine
+branches:
+- name: master
+  type: protected
+type: public
