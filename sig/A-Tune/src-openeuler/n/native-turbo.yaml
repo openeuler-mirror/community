@@ -5,4 +5,7 @@ upstream: https://gitee.com/openeuler/native-turbo
 branches:
 - name: master
   type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
 type: public
