@@ -1,6 +1,6 @@
 # SIG-BIO
 ## 概述
-在基因技术的快速发展和突发公共卫生问题的推动下，生物信息学研究成为高性能计算和云计算的主要应用场景之一。当前生信领域的开源软件繁多，针对不同的OS，软件可能存在兼容性问题。同时软件间依赖和版本管理复杂，导致开发者在部署相关软件时需要解决复杂的安装问题。为解决这一问题，各OS发行版通常会提供对应的生信软件包。类似的，OpenEuler也需要提供相应机制来解决生信领域的应用问题。
+在基因技术的快速发展和突发公共卫生问题的推动下，生物信息学研究成为高性能计算和云计算的主要应用场景之一。当前生信领域的开源软件繁多，针对不同的OS，软件可能存在兼容性问题。同时软件间依赖和版本管理复杂，导致开发者在部署相关软件时需要解决复杂的安装问题。为解决这一问题，各OS发行版通常会提供对应的生信软件包。类似的，openEuler也需要提供相应机制来解决生信领域的应用问题。
 
 ## 业务范围
    - 解决生信软件在OpenEuler上适配的技术问题，提供安装简便、系统一致性好的生信开源软件安装包
@@ -17,14 +17,10 @@
 
 # 成员
 ### Maintainer列表
-- 陈衎[@kan-chen](https://gitee.com/kan-chen)
-- 周中元[@zhouzhongyuan1](https://gitee.com/zhouzhongyuan1) 
-- 侯越[@houyue-xj](https://gitee.com/houyue-xj)
-- 张少杰[@Shaojie-Zhang](https://gitee.com/Shaojie-Zhang)
-- 荣誉[@ew314](https://gitee.com/ew314)
-- 罗檬[@lomo0625](https://gitee.com/lomo0625)
 - 何仁贵[@reganhe_xx](https://gitee.com/reganhe_xx)
 - 杨昭[@yangzhao_kl](https://gitee.com/yangzhao_kl)
+- 张国一[@malacology](https://gitee.com/malacology)
+- 胡欣蔚[@shinwell_hu](https://gitee.com/shinwell_hu)
 
 ### 特邀成员列表
 - 杨铁林[@yangtielin](https://gitee.com/yangtielin)
@@ -32,16 +28,13 @@
 - 王国栋[@wanggd1983](https://gitee.com/wanggd1983)
 
 ### Committer列表
-- 待刷新
+- 暂无
 
 # 联系方式
 - [邮件列表](dev@openeuler.org)
-- [IRC公开会议]()
-- 视频会议
 
 # 项目地址
 repository地址：
-
 - https://gitee.com/openeuler/bioinformatics
 - https://gitee.com/src-openeuler/c-STAR
 - https://gitee.com/src-openeuler/seqtk

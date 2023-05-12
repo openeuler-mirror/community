@@ -1,0 +1,58 @@
+name: sig-bio
+description: SIG bio focus on adapting bioinfomatic software ecosystem for openEuler.
+created_on: '2021-02-19'
+mailing_list: dev@openeuler.org
+meeting_url: https://etherpad.openeuler.org/sig-bio
+mature_level: startup
+maintainers:
+- gitee_id: reganhe_xx
+  name: Ren Gui He
+  organization: Kylinsec
+  email: herengui@kylinsec.com.cn
+- gitee_id: yangzhao_kl
+  name: Zhao Yang
+  organization: openKylin
+  email: zhaoyao1@kylinos.com
+- gitee_id: malacology
+  name: Guo Yi Zhang
+  organization: U of Nottingham
+  email: guoyizhang@malacology.net
+- gitee_id: shinwell_hu
+  name: Xinwei Hu
+  organization: Huawei
+  email: shinwell_hu@openeuler.sh
+
+repositories:
+- repo:
+  - openeuler/bioinformatics
+  - src-openeuler/bamtools
+  - src-openeuler/bcftools
+  - src-openeuler/bedops
+  - src-openeuler/bedtools
+  - src-openeuler/bgenix
+  - src-openeuler/biobambam2
+  - src-openeuler/bowtie2
+  - src-openeuler/c-STAR
+  - src-openeuler/Control-FREEC
+  - src-openeuler/cufflinks
+  - src-openeuler/fastp
+  - src-openeuler/fastqc
+  - src-openeuler/GATK
+  - src-openeuler/GATK3
+  - src-openeuler/gffcompare
+  - src-openeuler/gffread
+  - src-openeuler/htslib
+  - src-openeuler/libdeflate
+  - src-openeuler/libmaus2
+  - src-openeuler/ncbi-blast
+  - src-openeuler/Picard
+  - src-openeuler/R-core
+  - src-openeuler/racon
+  - src-openeuler/rstudio
+  - src-openeuler/samtools
+  - src-openeuler/seqtk
+  - src-openeuler/smartdenovo
+  - src-openeuler/stringtie
+  - src-openeuler/trimmomatic
+  - src-openeuler/vcftools
+  - src-openeuler/wtdbg2
