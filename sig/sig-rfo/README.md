@@ -157,34 +157,42 @@ helm --kubeconfig /etc/rancher/rfo/rfo.yml ls --all-namespaces
 
 若希望在集群外部访问集群，则可以复制 /etc/rancher/rfo/rfo.yml 配置文件到你位于集群外部的机器上，作为 ~/.kube/config。然后将文件中 127.0.0.1 替换为你的 RFO 服务器的 IP 或主机名。kubectl 现在可以管理你的 RFO 集群了。
 
-# 版本清单
-
-目前 RFO 已发布的版本如下：
-
-- 1.23 Kubernetes Releases(EoL)
-  - v1.23.14+rfor1
-  - v1.23.15+rfor1
-  - v1.23.16+rfor1
-  - v1.23.17+rfor1
-- 1.24 Kubernetes Releases
-  - v1.24.8+rfor1
-  - v1.24.9+rfor1
-  - v1.24.10+rfor1
-  - v1.24.11+rfor1
-  - v1.24.12+rfor1
-- 1.25 Kubernetes Releases
-  - v1.25.4+rfor1
-  - v1.25.5+rfor1
-  - v1.25.6+rfor1
-  - v1.25.7+rfor1
-  - v1.25.8+rfor1
-- 1.26 Kuberentes Releases
-  - v1.26.0+rfor1
-  - v1.26.1+rfor1
-  - v1.26.2+rfor1
-  - v1.26.3+rfor1
+# 版本清单与支持矩阵
 
 RFO 版本发布遵循 Kubernetes Release Plan 以及 RKE2 的发布计划，按月发布对应的版本，计划将在上游 RKE2 发布 2 周内完成对应版本发布。
+
+RFO 于 2022 年 11 月底发布 GA 版本，其中 v1.23/v1.24/v1.25 主版本都在此时发布首个 RFO 分发版，目前 RFO 已发布的版本如下：
+
+| 主版本     | K8s 发布时间 | RFO 分发时间 | Active Support | Maintenance Support | Latest         |
+| ---------- | ------------ | ------------ | -------------- | ------------------- | -------------- |
+| v1.27      | 11 Apr 2023  | 26 Apr 2023  | 28 May 2024    | 28 Jul 2024         | v1.27.1+rfor1  |
+| v1.26      | 08 Dec 2022  | 29 Jan 2023  | 28 Jan 2024    | 28 Mar 2024         | v1.26.4+rfor1  |
+| v1.25      | 23 Aug 2022  | 29 Nov 2022  | 27 Set 2023    | 27 Nov 2023         | v1.25.9+rfor1  |
+| v1.24      | 03 May 2022  | 29 Nov 2022  | 28 Jun 2023    | 28 Oct 2023         | v1.24.13+rfor1 |
+| v1.23(EoM) | 07 Dec 2021  | 25 Nov 2022  | 28 Jan 2023    | 28 Mar 2023         | v1.23.17+rfor1 |
+
+```mermaid
+gantt
+    title RFO Support Lifecycle
+    dateFormat  YYYY-MM-DD
+    axisFormat %Y-%m
+    section v1.27
+    Support: active, a1,2023-04-26, 2024-05-28
+    Maintain: after a1, 2024-07-28
+    section v1.26
+    Support: active, a2,2023-01-29, 2024-01-28
+    Maintain: after a2, 2024-03-28
+    section v1.25
+    Support: active, a3,2022-11-29, 2023-09-27
+    Maintain: after a3, 2023-11-27
+    section v1.24
+    Support: active, a4,2022-11-29, 2023-06-28
+    Maintain: after a4, 2023-08-28
+    section v1.23
+    Support: done, a5,2022-11-25, 2023-01-28
+    Maintain: done, after a5, 2023-03-28
+
+```
 
 # 组织会议
 
