@@ -28,10 +28,11 @@ maintainers:
 repositories:
 - repo:
   - src-openeuler/qt6
-  - src-openeuler/qt6-qtbase
   - src-openeuler/qt6-qt3d                         
   - src-openeuler/qt6-qt5compat
+  - src-openeuler/qt6-qtbase
   - src-openeuler/qt6-qtcharts
+  - src-openeuler/qt6-qtcoap
   - src-openeuler/qt6-qtconnectivity
   - src-openeuler/qt6-qtdatavis3d
   - src-openeuler/qt6-qtdeclarative
@@ -41,8 +42,10 @@ repositories:
   - src-openeuler/qt6-qtlanguageserver
   - src-openeuler/qt6-qtlocation
   - src-openeuler/qt6-qtlottie
+  - src-openeuler/qt6-qtmqtt
   - src-openeuler/qt6-qtmultimedia
   - src-openeuler/qt6-qtnetworkauth
+  - src-openeuler/qt6-qtopcua
   - src-openeuler/qt6-qtpositioning
   - src-openeuler/qt6-qtquick3dphysics
   - src-openeuler/qt6-qtquick3d
