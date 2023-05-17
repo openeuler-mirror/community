@@ -1,0 +1,7 @@
+name: python-poetry-core
+description: A PEP 517 build backend implementation developed for Poetry.
+upstream: https://pypi.org/project/poetry-core/
+branches:
+- name: master
+  type: protected
+type: public
