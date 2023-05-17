@@ -1,0 +1,7 @@
+name: ephemeral-port-reserve
+upstream: https://github.com/Yelp/ephemeral-port-reserve
+description: Bind to an ephemeral port, force it into the TIME_WAIT state, and unbind it
+branches:
+- name: master
+  type: protected
+type: public
