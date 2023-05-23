@@ -1,0 +1,7 @@
+name: python-build
+description: A simple, correct Python build frontend.
+upstream: https://github.com/pypa/build
+branches:
+- name: master
+  type: protected
+type: public

@@ -1361,6 +1361,13 @@ repositories:
 - repo:
   - src-openeuler/python-tomlkit
   - src-openeuler/python-poetry-core
+  - src-openeuler/python-build
+  - src-openeuler/python-pytest-benchmark
+  - src-openeuler/python-tox-current-env
+  - src-openeuler/python-black
+  - src-openeuler/python-libcst
+  - src-openeuler/python-hypothesmith
+  - src-openeuler/python-portray
   committers:
   - gitee_id: desert-sailor
     name: Dongxing Wang
