@@ -1,0 +1,7 @@
+name: hiviewdfx_hilog
+description: Hilog module logs information such as user operations and system running status for the system framework, services, and applications
+upstream: https://gitee.com/openharmony/hiviewdfx_hilog
+branches:
+- name: master
+  type: protected
+type: public

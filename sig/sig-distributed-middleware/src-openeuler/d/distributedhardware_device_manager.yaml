@@ -1,0 +1,7 @@
+name: distributedhardware_device_manager
+description: DeviceManager supports authentication and networking for account-independent distributed devices. It provides a set of APIs for listening, discovery, and authentication of distributed devices.
+upstream: https://gitee.com/openharmony/distributedhardware_device_manager
+branches:
+- name: master
+  type: protected
+type: public

@@ -1,0 +1,7 @@
+name: security_device_auth
+description: The sub-module of the security subsystem is responsible for the establishment, maintenance, use, and revocation of trusted relationships between devices, and the management of the entire life cycle.
+upstream: https://gitee.com/openharmony/security_device_auth
+branches:
+- name: master
+  type: protected
+type: public

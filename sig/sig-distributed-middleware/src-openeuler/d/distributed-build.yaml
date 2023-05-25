@@ -1,0 +1,7 @@
+name: distributed-build
+description: Compile and build tools that based on GN and ninja for distributed middleware components.
+upstream: https://gitee.com/openharmony/build 
+branches:
+- name: master
+  type: protected
+type: public

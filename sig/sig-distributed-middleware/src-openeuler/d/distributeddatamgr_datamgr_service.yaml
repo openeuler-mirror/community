@@ -1,0 +1,7 @@
+name: distributeddatamgr_datamgr_service
+description: Distributed Data Service (DDS) provides the capability to store data in the databases of different devices. DDS isolates data based on a triplet of the account, app, and database. DDS synchronizes data between trusted devices to provide users with consistent data access experience on different devices.
+upstream: https://gitee.com/openharmony/distributeddatamgr_datamgr_service 
+branches:
+- name: master
+  type: protected
+type: public

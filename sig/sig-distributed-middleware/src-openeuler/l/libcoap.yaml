@@ -1,0 +1,7 @@
+name: libcoap
+description: Libcoap is a C implementation of the Constrained Application Protocol (RFC 7252)
+upstream: https://github.com/obgm/libcoap/
+branches:
+- name: master
+  type: protected
+type: public

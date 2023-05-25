@@ -1,0 +1,7 @@
+name: distributeddatamgr_relational_store
+description: Relational database (RDB) is a database that manages data based on a relational model. OpenHarmony relational database provides a complete mechanism for managing local databases based on SQLite components.
+upstream: https://gitee.com/openharmony/distributeddatamgr_relational_store 
+branches:
+- name: master
+  type: protected
+type: public
