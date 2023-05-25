@@ -1,0 +1,7 @@
+name: tpm2-openssl
+description: support openssl3.x use tpm2
+upstream: https://github.com/tpm2-software/tpm2-openssl
+branches:
+- name: master
+  type: protected
+type: public
