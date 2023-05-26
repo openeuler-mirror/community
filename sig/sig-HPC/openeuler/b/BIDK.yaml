@@ -1,0 +1,7 @@
+name: BIDK
+description: A low-overhead dynamic binary instrumentation and modification tool for ARM (both AArch32 and AArch64 support) and RISC-V (RV64GC).
+upstream: https://github.com/beehive-lab/mambo
+branches:
+- name: master
+  type: protected
+type: public
