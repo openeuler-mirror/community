@@ -1,0 +1,7 @@
+name: python-black
+description: Black is the uncompromising Python code formatter.
+upstream: https://github.com/psf/black
+branches:
+- name: master
+  type: protected
+type: public

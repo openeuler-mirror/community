@@ -1,0 +1,7 @@
+name: python-tox-current-env
+description: Invoking tox without any of the above options should behave as regular tox invocation without this plugin.
+upstream: https://github.com/fedora-python/tox-current-env
+branches:
+- name: master
+  type: protected
+type: public

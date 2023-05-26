@@ -1,0 +1,7 @@
+name: python-pytest-benchmark
+description: A pytest fixture for benchmarking code. It will group the tests into rounds that are calibrated to the chosen timer.
+upstream: https://github.com/ionelmc/pytest-benchmark
+branches:
+- name: master
+  type: protected
+type: public
