@@ -1,0 +1,7 @@
+name: hiviewdfx_hisysevent
+description: HiSysEvent provides event logging APIs for OpenHarmony to record important information of key processes during system running, helping you locate faults. In addition, you can upload the log data to the cloud for big data analytics.
+upstream: https://gitee.com/openharmony/hiviewdfx_hisysevent
+branches:
+- name: master
+  type: protected
+type: public

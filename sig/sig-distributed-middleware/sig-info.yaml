@@ -41,3 +41,49 @@ repositories:
   - gitee_id: liheavy
     name: Li Haiwei
     email: lihaiwei8@huawei.com
+- repo:
+  - src-openeuler/distributed-build
+  - src-openeuler/distributed-build_lite
+  - src-openeuler/systemabilitymgr_safwk
+  - src-openeuler/hiviewdfx_hilog
+  - src-openeuler/distributedhardware_device_manager
+  - src-openeuler/libcoap
+  committers:
+  - gitee_id: bugflyfly
+    name: Wei Jiangang
+    email: wei_jiangang@hoperun.com
+  - gitee_id: tian2020
+    name: Tian Hang
+    email: tian_hang@hoperun.com
+  - gitee_id: peng-langyuan
+    name: Peng Langyuan
+    email: peng_langyuan@hoperun.com
+- repo:
+  - src-openeuler/security_huks
+  - src-openeuler/security_device_auth
+  - src-openeuler/communication_ipc
+  - src-openeuler/commonlibrary_c_utils
+  - src-openeuler/notification_eventhandler
+  - src-openeuler/distributeddatamgr_kv_store
+  - src-openeuler/hiviewdfx_hisysevent
+  - src-openeuler/customization_config_policy
+  - src-openeuler/notification_common_event_service
+  - src-openeuler/distributeddatamgr_relational_store
+  - src-openeuler/security_dataclassification
+  - src-openeuler/security_device_security_level
+  - src-openeuler/filemanagement_dfs_service
+  - src-openeuler/distributeddatamgr_datamgr_service
+  - src-openeuler/distributeddatamgr_data_object
+  committers:
+  - gitee_id: heppen
+    name: He Peng
+    email: hepeng68@huawei.com
+  - gitee_id: chrisshangguan
+    name: Shangguan Jingshi
+    email: shangguanjingshi@huawei.com
+  - gitee_id: yanansong
+    name: Song Yanan
+    email: songyanan5@huawei.com
+  - gitee_id: liheavy
+    name: Li Haiwei
+    email: lihaiwei8@huawei.com

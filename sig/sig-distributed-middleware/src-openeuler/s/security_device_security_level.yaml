@@ -1,0 +1,7 @@
+name: security_device_security_level
+description: Device security level management module to ensure the security of data flow in each node.
+upstream: https://gitee.com/openharmony/security_device_security_level
+branches:
+- name: master
+  type: protected
+type: public

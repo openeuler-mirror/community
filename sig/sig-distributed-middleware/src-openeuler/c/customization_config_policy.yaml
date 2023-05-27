@@ -1,0 +1,7 @@
+name: customization_config_policy
+description: The configuration policy component, namely, customization_config_policy, provides APIs for each service module to obtain the configuration directories at different levels or the configuration file paths.
+upstream: https://gitee.com/openharmony/customization_config_policy
+branches:
+- name: master
+  type: protected
+type: public

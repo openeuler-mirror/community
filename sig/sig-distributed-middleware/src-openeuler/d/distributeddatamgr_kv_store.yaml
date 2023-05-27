@@ -1,0 +1,7 @@
+name: distributeddatamgr_kv_store
+description: KV store is developed based on the KV storage capacity provided by the current public infrastructure library, providing key value pair data management capabilities for device applications.
+upstream: https://gitee.com/openharmony/distributeddatamgr_kv_store 
+branches:
+- name: master
+  type: protected
+type: public

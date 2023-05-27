@@ -1,0 +1,7 @@
+name: security_huks
+description: HUKS provides keystore capabilities to applications, including functions such as key management and key cryptographic operations.
+upstream: https://gitee.com/openharmony/security_huks
+branches:
+- name: master
+  type: protected
+type: public

@@ -1,0 +1,7 @@
+name: notification_common_event_service
+description: OpenHarmony provides applications with the ability to subscribe, publish, and unsubscribe from public events through CES (Common Event Service).
+upstream: https://gitee.com/openharmony/notification_common_event_service
+branches:
+- name: master
+  type: protected
+type: public

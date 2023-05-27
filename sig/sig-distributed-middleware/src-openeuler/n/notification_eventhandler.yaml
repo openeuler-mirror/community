@@ -1,0 +1,7 @@
+name: notification_eventhandler
+description: EventHandler provides the basic ability for OpenHarmony thread to thread communication, allowing for the creation of new threads through EventRunner and the throwing of time-consuming operations onto the new thread for execution, thereby achieving reasonable processing of time-consuming tasks without blocking the original thread.
+upstream: https://gitee.com/openharmony/notification_eventhandler
+branches:
+- name: master
+  type: protected
+type: public
