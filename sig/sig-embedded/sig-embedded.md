@@ -21,23 +21,20 @@ English | [简体中文](./sig-embedded_cn.md)
 - Repository of kernel source openEuler embedded edition：src-openeuler/embedded-kernel
 
 ### Maintainers
-- Vonhust Ren[@vonhust](https://gitee.com/vonhust)
-- Beiling Xie[@beilingxie](https://gitee.com/beilingxie)
+- Wayne Ren[@vonhust](https://gitee.com/vonhust)
 - Zichang Lin[@linzichang](https://gitee.com/linzichang)
-- Jiafa Zhu[@wl1587](https://gitee.com/wl1587)
+- Linxu Fang[@fanglinxu](https://gitee.com/fanglinxu)
 
 ### Committers
-- Vonhust Ren[@vonhust](https://gitee.com/vonhust)
-- Beiling Xie[@beilingxie](https://gitee.com/beilingxie)
+- Wayne Ren[@vonhust](https://gitee.com/vonhust)
 - Zichang Lin[@linzichang](https://gitee.com/linzichang)
-- Jiafa Zhu[@wl1587](https://gitee.com/wl1587)
 - Linxu Fang[@fanglinxu](https://gitee.com/fanglinxu)
 - Xiaoyong Li[@lxy1579](https://gitee.com/lxy1579)
 - Yonglun Luo[@luojects](https://gitee.com/luojects)
 - Mingkai Liu[@hmilylmk](https://gitee.com/hmilylmk)
 - Zongcheng Han[@hzc04](https://gitee.com/hzc04)
 - WeiGang Zhang[@harvey-rtos](https://gitee.com/harvey-rtos)
-- Liming Li[@soulpoet](https://gitee.com/soulpoet)
+- Liming Zheng[@soulpoet](https://gitee.com/soulpoet)
 
 
 ### MailList
