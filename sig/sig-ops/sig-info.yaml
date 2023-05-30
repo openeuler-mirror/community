@@ -60,8 +60,6 @@ repositories:
   - openeuler/kbox
   - src-openeuler/kbox
   - openeuler/A-Ops
-  - openeuler/syscare
-  - src-openeuler/syscare
   - openeuler/EulerMonitor
   - src-openeuler/EulerMonitor
   contributors:
@@ -213,3 +211,11 @@ repositories:
     name: Qiang Xiaojun
     organization: Huawei
     email: qiangxiaojun@huawei.com
+- repo:
+  - openeuler/syscare
+  - src-openeuler/syscare
+  committers:
+  - gitee_id: renoseven
+    name: Liu Xiaobo
+    organization: Huawei
+    email: xiaobo.liu@huawei.com
