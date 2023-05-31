@@ -1,0 +1,7 @@
+name: pyproject-hooks
+description: This is a low-level library for calling build-backends in pyproject.toml-based project.
+upstream: https://github.com/pypa/pyproject-hooks
+branches:
+- name: master
+  type: protected
+type: public
