@@ -22,7 +22,7 @@ openEuler文档兴趣小组致力于构建并不断丰富openEuler项目的文�
 
 - Rudy_Tan[@rudy_tan](https://gitee.com/rudy_tan) tanzhipeng.tan@huawei.com
 - amyMaYun[@amy_mayun](https://gitee.com/amy_mayun) zhuyanting@huawei.com
-- qiaominna[@qiaominna](https://gitee.com/qiaominna) qiaominna@huawei.com
+- hujun[@hujunjune](https://gitee.com/hujunjune) hujun33@huawei.com
 
 
 
