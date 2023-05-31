@@ -147,6 +147,9 @@ Tuesday 10 am bi-weekly, UTC+8.
    - Maintainers
      - 谢 志恒[@eastb233](https://gitee.com/eastb233) email: xiezhiheng@huawei.com
      - 李 彦成[@li-yancheng](https://gitee.com/li-yancheng) email: liyancheng@huawei.com
+ - [gcc-7](https://gitee.com/src-openeuler/gcc-7)
+   - Contributors
+     - 张 无际[@zhangwuji1995](https://gitee.com/zhangwuji1995) email: zhangwuji1@huawei.com
  - [optimized-routines](https://gitee.com/src-openeuler/optimized-routines)
    - Maintainers
      - 李 彦成[@li-yancheng](https://gitee.com/li-yancheng) email: liyancheng@huawei.com
