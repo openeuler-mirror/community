@@ -28,6 +28,7 @@
 
 - sunligang[@nick-slg-kylin](https://gitee.com/nick-slg-kylin)
 - Zhiwei-Dai[@Zhiwei-Dai](https://gitee.com/Zhiwei-Dai)
+- Xinliang Liu[@xin3liang](https://gitee.com/xin3liang)
 
 
 ### 模块责任人
@@ -38,6 +39,7 @@
 - MDS:     sunligang
 - RADOS:   chixinze
 - RBD:     daizhiwei
+- Lustre/OpenZFS: Xinliang Liu
 
 # 联系方式
 
@@ -59,3 +61,5 @@ repository地址：
 - https://gitee.com/src-openeuler/ceph-csi
 - https://gitee.com/src-openeuler/teuthology
 - https://gitee.com/openeuler/ceph_dev
+- https://gitee.com/src-openeuler/lustre
+- https://gitee.com/src-openeuler/zfs

@@ -18,6 +18,7 @@ maintainers:
   name: rixin luo
   email: luorixin@huawei.com
 repositories:
+# Ceph related repos
 - repo:
   - src-openeuler/ceph
   - src-openeuler/ceph-deploy
@@ -25,12 +26,8 @@ repositories:
   - src-openeuler/ceph-csi
   - src-openeuler/teuthology
   - src-openeuler/daos
-  - src-openeuler/lustre
-  - src-openeuler/lustre-e2fsprogs
   - src-openeuler/ceph-iscsi
-  - src-openeuler/zfs
   - openeuler/ceph_dev
-
   committers:
   - gitee_id: nick-slg-kylin
     name: ligang sun
@@ -40,3 +37,13 @@ repositories:
     name: zhiwei dai
     organization: Huawei
     email: daizhiwei3@huawei.com
+
+# Lustre related repos
+- repo:
+  - src-openeuler/lustre
+  - src-openeuler/zfs
+  committers:
+  - gitee_id: xin3liang
+    name: Xinliang Liu
+    organization: Linaro
+    email: xinliang.liu@linaro.org

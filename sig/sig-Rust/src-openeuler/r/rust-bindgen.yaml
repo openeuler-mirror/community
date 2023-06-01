@@ -1,0 +1,7 @@
+name: rust-bindgen
+description: Automatically generates Rust FFI bindings to C and C++ libraries.
+upstream: https://crates.io/crates/bindgen/
+branches:
+- name: master
+  type: protected
+type: public

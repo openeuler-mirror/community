@@ -21,7 +21,7 @@ The openEuler Doc Special Interest Group (SIG) aims to develop and diversify the
 
 - Rudy\_Tan[@rudy\_tan](https://gitee.com/rudy_tan) tanzhipeng.tan@huawei.com
 - amyMaYun[@amy\_mayun](https://gitee.com/amy_mayun) zhuyanting@huawei.com
-- qiaominna[@qiaominna](https://gitee.com/qiaominna) qiaominna@huawei.com
+- hujun[@hujunjune](https://gitee.com/hujunjune) hujun33@huawei.com
 
 # Contact
 
