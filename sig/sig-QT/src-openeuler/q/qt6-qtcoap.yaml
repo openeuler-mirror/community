@@ -1,0 +1,7 @@
+name: qt6-qtcoap
+description: Qt 6 library to implement a CoAP (Constrained Application Protocol) client
+upstream: https://code.qt.io/cgit/qt/qtcoap.git
+branches:
+- name: master
+  type: protected
+type: public
