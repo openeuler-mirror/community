@@ -409,12 +409,19 @@ repositories:
   - openeuler/openEuler-bootstrap
   - openeuler/nodejsporter
   - openeuler/geo-coding
-  - openeuler/rubyporter
-  - openeuler/pyporter
-  - openeuler/perlporter
   - openeuler/pkgporter
   - openeuler/abichecker
   - openeuler/auto_py2to3
+
+- repo:
+  - openeuler/pyporter
+  - openeuler/rubyporter
+  - openeuler/perlporter
+  committers:
+  - gitee_id: mywaaagh_admin
+    name: Li Chaoran
+    organization: Huawei
+    email: pkwarcraft@hotmail.com
 
 - repo:
   - src-openeuler/glm
