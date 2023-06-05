@@ -44,6 +44,7 @@ https://gitee.com/openeuler/community/tree/master/sig/sig-ROS/
 - davidhan008
 - simonaxi
 - chen_jiayou
+- will_niutao
 
 ### 邮件列表
 - dev@openeuler.org
