@@ -1,0 +1,7 @@
+name: pyproject-api
+description: API to interact with the python pyproject.toml based projects
+upstream: https://github.com/tox-dev/pyproject-api
+branches:
+- name: master
+  type: protected
+type: public
