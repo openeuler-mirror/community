@@ -6,4 +6,7 @@ branches:
 - name: nestos-support
   type: protected
   create_from: master
+- name: dev
+  type: protected
+  create_from: master
 type: public
