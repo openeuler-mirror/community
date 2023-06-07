@@ -29,6 +29,7 @@
 - sunligang[@nick-slg-kylin](https://gitee.com/nick-slg-kylin)
 - Zhiwei-Dai[@Zhiwei-Dai](https://gitee.com/Zhiwei-Dai)
 - Xinliang Liu[@xin3liang](https://gitee.com/xin3liang)
+- yangxiaoliang[@ceph_yang](https://gitee.com/ceph_yang)
 
 
 ### 模块责任人
@@ -40,6 +41,7 @@
 - RADOS:   chixinze
 - RBD:     daizhiwei
 - Lustre/OpenZFS: Xinliang Liu
+- OSD/ceph-volume: yangxiaoliang
 
 # 联系方式
 
