@@ -1,0 +1,7 @@
+name: libtracecmd
+description: A library for reading tracing instances stored in a trace file
+upstream: https://git.kernel.org/pub/scm/utils/trace-cmd/trace-cmd.git/
+branches:
+- name: master
+  type: protected
+type: public
