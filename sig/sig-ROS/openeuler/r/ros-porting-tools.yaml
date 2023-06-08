@@ -3,4 +3,13 @@ description: The tools for automatic download upstreatm software package and gen
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
+- name: Multi-Version_ros-humble_openEuler-22.03-LTS-Next
+  type: protected
+  create_from: humble
+- name: Multi-Version_ros-humble_openEuler-22.03-LTS-SP2
+  type: protected
+  create_from: Multi-Version_ros-humble_openEuler-22.03-LTS-Next
 type: public

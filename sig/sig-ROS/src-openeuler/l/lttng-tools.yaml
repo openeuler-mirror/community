@@ -1,12 +1,9 @@
-name: python-pycollada
-upstream: http://pycollada.readthedocs.org/
-description: python library for reading and writing collada documents
+name: lttng-tools
+description: This package provides the unified interface to control both the LTTng kernel and userspace (UST) tracers.
+upstream: http://lttng.org
 branches:
 - name: master
   type: protected
-- name: openEuler-20.09
-  type: protected
-  create_from: master
 - name: openEuler-22.03-LTS-Next
   type: protected
   create_from: master
