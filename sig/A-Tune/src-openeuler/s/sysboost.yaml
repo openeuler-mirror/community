@@ -1,0 +1,11 @@
+name: sysboost
+description: Sysboost converts dynamic links into static links by combining executable files and dynamic library files.
+  This reduces the overhead and delay of dynamic links and improves the execution efficiency of programs.
+upstream: https://gitee.com/openeuler/sysboost
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

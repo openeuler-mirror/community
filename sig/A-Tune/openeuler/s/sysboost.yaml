@@ -1,0 +1,7 @@
+name: sysboost
+description: Sysboost converts dynamic links into static links by combining executable files and dynamic library files. 
+  This reduces the overhead and delay of dynamic links and improves the execution efficiency of programs.
+branches:
+- name: master
+  type: protected
+type: public
