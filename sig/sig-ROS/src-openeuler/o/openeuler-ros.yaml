@@ -1,0 +1,13 @@
+name: openeuler-ros
+description: yum configuration for openEuler ROS
+upstream: https://gitee.com/src-openeuler/openeuler-ros.git
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-22.03-LTS-SP2
+  type: protected
+  create_from: openEuler-22.03-LTS-Next
+type: public
