@@ -1,0 +1,7 @@
+name: qt5-qtnetworkauth
+description: Qt Network Authenticators; QtOAuth in particular
+upstream: https://code.qt.io/cgit/qt/qtnetworkauth.git
+branches:
+- name: master
+  type: protected
+type: public
