@@ -1,0 +1,7 @@
+name: mafft
+description: Multiple alignment program for amino acid or nucleotide sequences
+upstream: https://mafft.cbrc.jp/alignment/software
+branches:
+- name: master
+  type: protected
+type: public
