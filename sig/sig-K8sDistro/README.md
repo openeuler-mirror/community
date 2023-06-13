@@ -32,6 +32,9 @@
 
 ### Committers列表
 - 付善庆[@fu-shanqing](https://gitee.com/fu-shanqing)
+- 高大玮[@gaodaweiky](https://gitee.com/gaodaweiky)
+- 索小聪[@suo-xiaocong](https://gitee.com/suo-xiaocong)
+
 
 ## 项目清单
   - https://gitee.com/src-openeuler/pulp
@@ -46,6 +49,7 @@
   - https://gitee.com/src-openeuler/ignition
   - https://gitee.com/src-openeuler/rpm-ostree
   - https://gitee.com/src-openeuler/kubekey
+  - https://gitee.com/openeuler/nestos-kubernetes-deployer
 
 ## 联系方式
 

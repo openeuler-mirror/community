@@ -1,0 +1,9 @@
+name: nestos-kubernetes-deployer
+description: A Nestos based kubernetes deployment tool
+branches:
+- name: master
+  type: protected
+- name: dev
+  type: protected
+  create_from: master
+type: public
