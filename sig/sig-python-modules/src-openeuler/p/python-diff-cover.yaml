@@ -1,0 +1,7 @@
+name: python-diff-cover
+description: Automatically find diff lines that need test coverage
+upstream: https://github.com/Bachmann1234/diff-cover
+branches:
+- name: master
+  type: protected
+type: public

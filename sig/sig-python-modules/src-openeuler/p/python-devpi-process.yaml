@@ -1,0 +1,7 @@
+name: python-devpi-process
+description: Allows you to create devpi server process with indexes, and upload artifacts to that programmatically.
+upstream: https://github.com/tox-dev/devpi-process
+branches:
+- name: master
+  type: protected
+type: public
