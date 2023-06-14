@@ -1,0 +1,7 @@
+name: libtracefs
+description: Library for access kernel tracefs
+upstream: https://git.kernel.org/pub/scm/libs/libtrace/libtracefs.git/
+branches:
+- name: master
+  type: protected
+type: public
