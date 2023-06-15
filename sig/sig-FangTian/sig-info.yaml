@@ -29,6 +29,9 @@ maintainers:
 repositories:
 - repo:
   - openeuler/ft_engine
+  - openeuler/ft_multimedia
+  - openeuler/ft_mmi
+  - openeuler/ft_utils
   committers:
   - gitee_id: xxfeng-hw
     name: 余晓峰
@@ -38,6 +41,23 @@ repositories:
     name: 上官景仕
     organization: Huawei
     email: shangguanjingshi@huawei.com
+  - gitee_id: fseeeye
+    name: 李屹繁
+    organization: Huawei
+    email: liyifan57@huawei.com
+  - gitee_id: abc12133
+    name: 靳国恩
+    organization: Huawei
+    email: jinguoen@huawei.com
+
+- repo:
+  - openeuler/arkui-linux
+  - openeuler/ft_flutter
+  committers:
+  - gitee_id: jiangwenyu1
+    name: 蒋文宇
+    organization: Huawei
+    email: jiangwenyu1@huawei.com
   - gitee_id: fseeeye
     name: 李屹繁
     organization: Huawei
