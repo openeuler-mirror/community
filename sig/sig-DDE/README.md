@@ -17,18 +17,18 @@
 
 ### Maintainer列表
 
-- yeqinglong[@yeqinglong01](https://gitee.com/yeqinglong01)
-- panchenbo[@panchenbo](https://gitee.com/panchenbo)
+- yangxiaoxuan[@ut-layne-yang](https://gitee.com/ut-layne-yang)
 - weidongkl[@weidongkl](https://gitee.com/weidongkl)
 - HelloWorld_lvcongqing[@HelloWorld_lvcongqing](https://gitee.com/HelloWorld_lvcongqing)
 
 
 ### Committer列表
 
-- panchenbo[@panchenbo](https://gitee.com/panchenbo)
-- ReganHe[@reganhe_xx](https://gitee.com/reganhe_xx)
+- hangshuang[@hanshuang](https://gitee.com/hanshuang123456)
+- yangxianzhao[@yangxiaozhao](https://gitee.com/xzyangha)
 - 小柿子[@liyf](https://gitee.com/liyf)
 - weidongkl[@weidongkl](https://gitee.com/weidongkl)
+- liweigang[@liweigang](https://gitee.com/leeffo)
 
 
 
@@ -37,12 +37,22 @@
 *<如果需要单独申请邮件列表，请在此补充邮箱名称：sig-yousigname@openeuler.org。如果不需要，请写上开发邮箱名称：dev@openeuler.org>*
 
 - [邮件列表](dev@openeuler.org)
-- yeqinglong@uniontech.com
-- panchenbo@uniontech.com
+
+- yangxiaoxuan@uniontech.com
+
+- liweigang@uniontech.com
+
 - weidong@uniontech.com
-- herengui@uniontech.com
+
+- hanshuang@uniontech.com
+
 - liyanfeng@uniontech.com
+
 - lvcongqing@uniontech.com
+
+- yangxianzhao@uniontech.com
+
+  
 
 
 # 项目清单
