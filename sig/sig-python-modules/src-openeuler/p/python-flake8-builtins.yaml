@@ -1,0 +1,7 @@
+name: python-flake8-builtins
+description: Check for python builtins being used as variables or parameters.
+upstream: https://github.com/gforcada/flake8-builtins
+branches:
+- name: master
+  type: protected
+type: public

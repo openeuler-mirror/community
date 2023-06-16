@@ -1,0 +1,7 @@
+name: python-flake8-bugbear
+description: A plugin for flake8 finding likely bugs and design problems in your program.
+upstream: https://github.com/PyCQA/flake8-bugbear
+branches:
+- name: master
+  type: protected
+type: public

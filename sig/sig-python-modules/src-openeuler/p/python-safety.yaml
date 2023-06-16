@@ -1,0 +1,7 @@
+name: python-safety
+description: Checks installed dependencies for known vulnerabilities and licenses.
+upstream: https://github.com/pyupio/safety
+branches:
+- name: master
+  type: protected
+type: public

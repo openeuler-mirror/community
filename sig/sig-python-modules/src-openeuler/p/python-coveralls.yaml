@@ -1,0 +1,7 @@
+name: python-coveralls
+description: Show coverage stats online via coveralls.io.
+upstream: http://github.com/TheKevJames/coveralls-python
+branches:
+- name: master
+  type: protected
+type: public
