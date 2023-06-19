@@ -166,8 +166,14 @@ repository地址：
 - https://gitee.com/openeuler/kernel/
 - https://gitee.com/src-openeuler/kernel/
 
-## 项目名称：KPL-gmssl
+### 项目名称：KPL-gmssl
 
 repository地址：
 
 - https://gitee.com/openeuler/KPL-gmssl
+
+### 项目名称：Kunpeng NUMAFAST
+
+repository地址：
+
+- https://gitee.com/openeuler/numafast
