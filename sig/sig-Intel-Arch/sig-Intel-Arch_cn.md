@@ -54,5 +54,7 @@
 
   - [Intel-qemu](https://gitee.com/openeuler/intel-qemu): Intel arch支持相关的Qemu代码开发仓库。会以合适的节奏将代码推送到openEuler Qemu主仓库。
 
+  - [Intel-lkvs](https://gitee.com/openeuler/intel-lkvs): Intel arch支持相关的lkvs代码开发仓库。
+
 - 文档
   - [Intel-Arch-doc](https://gitee.com/openeuler/Intel-Arch-doc): 关于openEuler的Intel arch支持相关的文档，如现状、规划、目标等等。
