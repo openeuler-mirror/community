@@ -1,0 +1,7 @@
+name: python-codespell
+description: Fix common misspellings in text files.
+upstream: https://github.com/codespell-project/codespell
+branches:
+- name: master
+  type: protected
+type: public

@@ -1,0 +1,7 @@
+name: python-ruff
+description: An extremely fast Python linter, written in Rust.
+upstream: https://github.com/charliermarsh/ruff
+branches:
+- name: master
+  type: protected
+type: public

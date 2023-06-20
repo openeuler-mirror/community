@@ -1,0 +1,7 @@
+name: python-pyyaml-env-tag
+description: A custom YAML tag for referencing environment variables in YAML files.
+upstream: https://github.com/waylan/pyyaml-env-tag
+branches:
+- name: master
+  type: protected
+type: public

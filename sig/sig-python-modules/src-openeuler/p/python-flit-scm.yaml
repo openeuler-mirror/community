@@ -1,0 +1,7 @@
+name: python-flit-scm
+description: A PEP 518 build backend that uses setuptools_scm and flit_core to build the package.
+upstream: https://gitlab.com/WillDaSilva/flit_scm
+branches:
+- name: master
+  type: protected
+type: public

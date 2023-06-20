@@ -1,0 +1,7 @@
+name: python-docstring-parser
+description: Parse Python docstrings. Currently support ReST, Google, Numpydoc-style and Epydoc docstrings.
+upstream: https://github.com/rr-/docstring_parser
+branches:
+- name: master
+  type: protected
+type: public
