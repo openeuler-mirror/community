@@ -1,0 +1,11 @@
+name: zathura-djvu
+description: DjVu support for zathura
+upstream: https://git.pwmt.org/pwmt/zathura-djvu
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
+

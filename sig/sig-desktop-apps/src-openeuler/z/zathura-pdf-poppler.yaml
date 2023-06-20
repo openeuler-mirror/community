@@ -1,0 +1,11 @@
+name: zathura-pdf-poppler
+description: PDF support for zathura via poppler
+upstream: https://git.pwmt.org/pwmt/zathura-pdf-poppler
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
+
