@@ -3,4 +3,7 @@ description: gcc is a generic and open source compiler
 branches:
 - name: master
   type: protected
+- name: gcc-10
+  type: protected
+  create_from: master
 type: public
