@@ -33,7 +33,7 @@ eBPF sig致力于为广大用户、开发者、爱好者提供便捷、完备eBP
 
 ### 成员
 
-天翼云：王麟，胡亚弟
+天翼云：王麟
 华为：陆志浩，魏勇军
 软件所：王亚峰
 信通院：王小雨
@@ -56,7 +56,6 @@ eBPF sig致力于为广大用户、开发者、爱好者提供便捷、完备eBP
 - [luzhihao](https://gitee.com/MrRlu)| email:luzhihao@huawei.com
 - [weiyongjun](https://gitee.com/weiyj) | email:weiyongjun1@huawei.com
 - [xuqingwei](https://gitee.com/DevinRTK) | email:devin.rtk@gmail.com
-- [huyadi](https://gitee.com/huyd12) | email:huyd12@chinatelecom.cn
 
 ### Committer列表
 - [zhengyushen](https://gitee.com/yunwei37)
@@ -83,6 +82,7 @@ repository地址：
 - https://gitee.com/src-openeuler/bcc
 - https://gitee.com/openeuler/Kmesh
 - https://gitee.com/openeuler/gala-gopher
+- https://gitee.com/openeuler/CTinspector
 
 roadmap:
 ```
@@ -94,9 +94,7 @@ eBPF&内核基础：
     22.03 SP1（22.12）：基于eBPF的全栈和全链路观测平台（gala-gopher）
     22.03 SP3（23.12）：基于eBPF的配置改变更影响性分析工具（Agith ）
     22.03 SP3（23.12）：基于eBPF的内核泄漏检测分析工具（eArmor）
-    23.03创新版本（23.03）：   基于eBPF的OVS流表运维工具（天翼云）
+    23.03创新版本（23.03）：基于eBPF的OVS流表运维工具（CTinspector）
 云原生&网络：
-     23.03创新版本（23.03）：下一个ServiceMesh数据面（性能10倍提升）（kmesh）
-     23.03创新版本（23.03）：基于eBPF的服务网格加速、观察能力（天翼云）
-     23.09创新版本（23.09）：基于eBPF的云原生安全规范则正当能力，性能10倍于现在拥有安全能力。（天翼云）
+    23.03创新版本（23.03）：下一个ServiceMesh数据面（性能10倍提升）（kmesh）
 ```
