@@ -54,5 +54,7 @@ Note: The Charter of this SIG follows the convention described in the openEuler 
 
   - [Intel-qemu](https://gitee.com/openeuler/intel-qemu): Qemu related development work are hosted here. Code will be pushed to the openEuler main Qemu repo when ready.
 
+  - [Intel-lkvs](https://gitee.com/openeuler/intel-lkvs): lkvs related development work are hosted here.
+
 - Documentation
   - [Intel-Arch-doc](https://gitee.com/openeuler/Intel-Arch-doc): documents regarding Intel arch support in openEuler, such as current status, roadmap, technical document.
