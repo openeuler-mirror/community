@@ -135,8 +135,6 @@ repositories:
   - src-openeuler/maven-osgi
   - src-openeuler/memleax
   - src-openeuler/mhvtl
-  - src-openeuler/mock
-  - src-openeuler/mock-core-configs
   - src-openeuler/miniasm
   - src-openeuler/multitail
   - src-openeuler/mdb
@@ -417,6 +415,8 @@ repositories:
   - openeuler/pyporter
   - openeuler/rubyporter
   - openeuler/perlporter
+  - src-openeuler/mock
+  - src-openeuler/mock-core-configs
   committers:
   - gitee_id: mywaaagh_admin
     name: Li Chaoran
