@@ -23,5 +23,25 @@ repositories:
   - gitee_id: luckhuanhuan
     name: zhanghuanhuan
     email: zhanghuanhuan@uniontech.com
-
+- repo: 
+  - src-openeuler/nix
+  - src-openeuler/which-rs
+  - src-openeuler/fast_rsync
+  - src-openeuler/coreutils-rs
+  committers:
+  - gitee_id: huangduirong
+    name: huangduirong
+    email: huangduirong@huawei.com
+  - gitee_id: licihua
+    name: Monday
+    email: licihua@huawei.com
+- repo: 
+  - openeuler/easybox
+  committers:
+  - gitee_id: huangduirong
+    name: huangduirong
+    email: huangduirong@huawei.com
+  - gitee_id: licihua
+    name: Monday
+    email: licihua@huawei.com
 
