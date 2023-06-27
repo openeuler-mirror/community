@@ -44,7 +44,10 @@ repositories:
 - repo:
   - src-openeuler/distributed-build
   - src-openeuler/distributed-build_lite
+  - openeuler/distributed-beget
+  - src-openeuler/distributed-beget
   - src-openeuler/systemabilitymgr_safwk
+  - src-openeuler/systemabilitymgr_samgr
   - src-openeuler/hiviewdfx_hilog
   - src-openeuler/distributedhardware_device_manager
   - src-openeuler/libcoap

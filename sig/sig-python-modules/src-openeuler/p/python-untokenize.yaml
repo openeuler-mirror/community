@@ -1,0 +1,7 @@
+name: python-untokenize
+description: Transforms tokens into original source code (while preserving whitespace).
+upstream: https://github.com/myint/untokenize
+branches:
+- name: master
+  type: protected
+type: public

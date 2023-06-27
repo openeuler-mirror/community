@@ -1,0 +1,7 @@
+name: which-rs
+description: A Rust equivalent of Unix command "which". Locate installed executable in cross platforms.
+upstream: https://github.com/harryfei/which-rs
+branches:
+- name: master
+  type: protected
+type: public

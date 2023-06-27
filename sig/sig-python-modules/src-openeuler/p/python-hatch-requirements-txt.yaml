@@ -1,0 +1,7 @@
+name: python-hatch-requirements-txt
+description: Hatchling plugin to read project dependencies from requirements.txt
+upstream: https://github.com/repo-helper/hatch-requirements-txt
+branches:
+- name: master
+  type: protected
+type: public

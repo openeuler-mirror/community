@@ -1,0 +1,7 @@
+name: python-hatch-nodejs-version
+description: Hatch plugin for versioning from a package.json file.
+upstream: https://github.com/agoose77/hatch-nodejs-version
+branches:
+- name: master
+  type: protected
+type: public

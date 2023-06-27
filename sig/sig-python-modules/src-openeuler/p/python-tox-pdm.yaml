@@ -1,0 +1,7 @@
+name: python-tox-pdm
+description: A plugin for tox that utilizes PDM as the package manager and installer.
+upstream: https://github.com/pdm-project/tox-pdm
+branches:
+- name: master
+  type: protected
+type: public
