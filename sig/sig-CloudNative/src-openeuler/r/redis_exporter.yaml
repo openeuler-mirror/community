@@ -1,0 +1,7 @@
+name: redis_exporter
+upstream: https://github.com/oliver006/redis_exporter
+description: Redis Exporter is a simple tool to export Redis metrics in a Prometheus format
+branches:
+- name: master
+  type: protected
+type: public
