@@ -1,0 +1,11 @@
+name: zathura-cb
+description: Comic book support for zathura
+upstream: https://git.pwmt.org/pwmt/zathura-cb
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
+

@@ -1,0 +1,10 @@
+name: libmcrypt
+description: Encryption algorithms library
+upstream: https://github.com/winlibs/libmcrypt
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
