@@ -1,0 +1,6 @@
+name: CuckooSQL
+description: A Spark SQL execution engine with vectorization optimization, which is used to replace the original execution engine of Spark SQL and provides higher performance.
+type: public
+branches:
+- name: master
+  type: protected
