@@ -26,15 +26,33 @@ maintainers:
 repositories:
 - repo:
   - openeuler/sig-OSCourse
-  - openeuler/micro-certification
-  - openeuler/git-basics
   - openeuler/hands-on
-  - openeuler/lfs-course
   - openeuler/linux-operation
   - openeuler/open-source-summer
   - openeuler/opensource-intern
   - openeuler/summer2022
   - openeuler/taishan-oslab
+- repo:
+  - openeuler/git-basics
+  committers:
+  - gitee_id: manjucc
+    name: Zhao Xiaohu
+    organization: Huawei
+    email: 106427133@qq.com
+- repo:
+  - openeuler/micro-certification
+  committers:
+  - gitee_id: manjucc
+    name: Zhao Xiaohu
+    organization: Huawei
+    email: 106427133@qq.com
+- repo:
+  - openeuler/lfs-course
+  committers:
+  - gitee_id: manjucc
+    name: Zhao Xiaohu
+    organization: Huawei
+    email: 106427133@qq.com
 - repo:
   - openeuler/hw-buaa-lab
   committers:
