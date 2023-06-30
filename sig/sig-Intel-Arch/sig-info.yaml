@@ -30,8 +30,6 @@ repositories:
 - repo:
   - openeuler/intel-kernel
   - openeuler/intel-qemu
-  - openeuler/intel-lkvs
-  - src-openeuler/accel-config
   repo_admin:
   - gitee_id: juntianlinux
     name: Jun Tian
@@ -88,3 +86,19 @@ repositories:
   - gitee_id: yuzhang_intel
     name: Yu Zhang
     email: yu.c.zhang@linux.intel.com
+- repo:
+  - openeuler/intel-lkvs
+  repo_admin:
+  - gitee_id: syqust
+    name: Yi Sun
+    email: yi.sun@intel.com
+  committers:
+  - gitee_id: syqust
+    name: Yi Sun
+    email: yi.sun@intel.com
+- repo:
+  - src-openeuler/accel-config
+  committers:
+  - gitee_id: xiaochenshen
+    name: Xiaochen Shen
+    email: xiaochen.shen@intel.com
