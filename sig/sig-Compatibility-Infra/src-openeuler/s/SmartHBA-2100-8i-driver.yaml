@@ -1,0 +1,7 @@
+name: SmartHBA-2100-8i-driver
+description: a RAID card driver for PMC SmartHBA 2100-8i
+upstream: https://storage.microsemi.com/en-us/speed/raid/aac/linux/smartpqi_src_v2.1.22-040_tgz.php
+branches:
+- name: master
+  type: protected
+type: public
