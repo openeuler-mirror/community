@@ -1,0 +1,7 @@
+name: koji
+description: 'This package is imported from EUR: https://eur.openeuler.openatom.cn//coprs/mywaaagh_admin/eur/package/koji'
+upstream: https://pagure.io/koji/
+branches:
+- name: master
+  type: protected
+type: public
