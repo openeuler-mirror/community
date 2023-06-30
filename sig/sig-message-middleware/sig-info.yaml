@@ -1,0 +1,26 @@
+name: sig-message-middleware
+description:  This sig maintain messaging middleware software packages for upstream open source communities,and incubate the new open source self-developed message middleware.
+created_on: '2023-6-21'
+mailing_list: message-middleware@openeuler.org
+mature_level: startup
+maintainers:
+- gitee_id: hu-zongtang
+  name: huzongtang
+  organization: ChinaMobile
+  email: huzongtang_yewu@cmss.chinamobile.com
+- gitee_id: jas0n918
+  name: jianghaiting
+  organization: Tencent
+  email: jason.918@qq.com
+repositories:
+- repo: 
+  - src-openeuler/rocketmq
+  committers:
+  - gitee_id: zhangjidi
+    name: zhangjidi
+    organization: Chinamobile
+    email: zhangjidi_yewu@cmss.chinamobile.com
+  - gitee_id: wubiqing
+    name: wubiqing
+    organization: Chinamobile
+    email: wubiqing_yewu@cmss.chinamobile.com
