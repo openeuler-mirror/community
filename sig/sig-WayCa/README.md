@@ -63,6 +63,8 @@
 
 - WayCa-sc:
 - Yicong Yang[@young1c](https://gitee.com/young1c)
+- numafast:
+- Jin Yao[@jinyao1976](https://gitee.com/jinyao1976)
 
 ### 鲲鹏故障处理
 
@@ -122,6 +124,8 @@ repository地址：
 - https://gitee.com/src-openeuler/kernel/
 - https://gitee.com/openeuler/wayca-scheduler-bench
 - https://gitee.com/openeuler/wayca-scheduler
+- numafast:
+- https://gitee.com/openeuler/numafast
 
 ### 项目名称：WayCa-Kunpeng-调测工具
 
@@ -171,9 +175,3 @@ repository地址：
 repository地址：
 
 - https://gitee.com/openeuler/KPL-gmssl
-
-### 项目名称：Kunpeng NUMAFAST
-
-repository地址：
-
-- https://gitee.com/openeuler/numafast
