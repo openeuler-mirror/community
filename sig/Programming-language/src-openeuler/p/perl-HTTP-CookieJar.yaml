@@ -1,0 +1,7 @@
+name: perl-HTTP-CookieJar
+upstream: https://metacpan.org/dist/HTTP-CookieJar/
+description: Minimalist HTTP user agent cookie jar
+branches:
+- name: master
+  type: protected
+type: public
