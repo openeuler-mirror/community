@@ -1,0 +1,7 @@
+name: bats
+description: 'Bats is a TAP-compliant testing framework for Bash.'
+upstream: https://github.com/bats-core/bats-core
+branches:
+- name: master
+  type: protected
+type: public
