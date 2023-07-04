@@ -73,3 +73,4 @@ repository地址：
 - [tool-collections](https://gitee.com/openeuler/tool-collections)
 - [cve-manager](https://gitee.com/openeuler/cve-manager)
 - [EulerLauncher](httops://gitee.com/openeuler/eulerlauncher)
+- [EulerPublisher](httops://gitee.com/openeuler/eulerpublisher)
