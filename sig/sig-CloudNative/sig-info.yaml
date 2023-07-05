@@ -73,6 +73,8 @@ repositories:
   - src-openeuler/awscli
   - src-openeuler/dumb-init
   - src-openeuler/netavark
+  - src-openeuler/parallel
+  - src-openeuler/bats
   committers:
   - gitee_id: duyiwei7w
     name: Yiwei Du
@@ -174,7 +176,6 @@ repositories:
     name: Xinyu Jiang
     organization: KylinSoft
     email: jiangxinyu@kylinos.cn
-
 - repo:
   - src-openeuler/redis_exporter
   committers:
