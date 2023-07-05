@@ -115,6 +115,9 @@ Compiler SIG 每双周周二上午10:00进行线上例会，也会定期举办�
  - [libcxxabi-15](https://gitee.com/src-openeuler/libcxxabi-15)
  - [llvm-libunwind](https://gitee.com/src-openeuler/llvm-libunwind)
  - [llvm-libunwind-15](https://gitee.com/src-openeuler/llvm-libunwind-15)
+ - [openmp](https://gitee.com/src-openeuler/openmp)
+ - [openmp-15](https://gitee.com/src-openeuler/openmp-15)
+ - [polly-15](https://gitee.com/src-openeuler/polly-15)
    - Maintainers
      - 郭 培林[@peilin-guo](https://gitee.com/peilin-guo) 邮箱: guopeilin1@huawei.com
      - 钟 云德[@zhongyunde](https://gitee.com/zhongyunde) 邮箱: zhongyunde@huawei.com
@@ -128,6 +131,7 @@ Compiler SIG 每双周周二上午10:00进行线上例会，也会定期举办�
    - Maintainers
      - 李 彦成[@li-yancheng](https://gitee.com/li-yancheng) 邮箱: liyancheng@huawei.com
  - [flang](https://gitee.com/src-openeuler/flang)
+ - [flang-15](https://gitee.com/src-openeuler/flang-15)
    - Maintainers
      - 郭 培林[@peilin-guo](https://gitee.com/peilin-guo) 邮箱: guopeilin1@huawei.com
      - 赵 川峰[@cf-zhao](https://gitee.com/cf-zhao) 邮箱: zhaochuanfeng@huawei.com
