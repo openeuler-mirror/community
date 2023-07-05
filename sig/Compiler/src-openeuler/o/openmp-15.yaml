@@ -1,0 +1,7 @@
+name: openmp-15
+description: LLVM OpenMP Libraries
+upstream: https://github.com/llvm/llvm-project/tree/main/openmp
+branches:
+- name: master
+  type: protected
+type: public
