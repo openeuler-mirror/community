@@ -132,6 +132,7 @@ repository地址：
 - https://gitee.com/src-openeuler/calico
 - https://gitee.com/src-openeuler/WasmEngine
 - https://gitee.com/src-openeuler/redis_exporter
+- https://gitee.com/src-openeuler/mysqld_exporter
 
 roadmap:
 ```
