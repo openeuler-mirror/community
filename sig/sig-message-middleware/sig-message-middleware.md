@@ -30,6 +30,8 @@ Describe the Mission and objectives of the new SIG, including but not limited to
 
 - RocketMQ:
   - material: source codes, tar;
+- RabbitMQ:
+  - material: source codes, tar;
 
 ### Cross-domain and external-oriented processes
 
