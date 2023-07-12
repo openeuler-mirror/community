@@ -125,10 +125,31 @@ repositories:
     name: Zhao Yuxing
     organization: Huawei
     email: zhaoyuxing2@huawei.com
+  committers:
+  - gitee_id: Vchanger
+    name: chenzhen
+    organization: Huawei
+    email: chenzhen126@huawei.com
+  - gitee_id: wangfenglai
+    name: Wang Fenglai
+    organization: Huawei
+    email: wangfenglai1@huawei.com
 - repo:
   - openeuler/gala-anteater
   - openeuler/gala-spider
   - openeuler/gala-ragdoll
+  - src-openeuler/gala-anteater
+  - src-openeuler/gala-spider
+  committers:
+  - gitee_id: Vchanger
+    name: chenzhen
+    organization: Huawei
+    email: chenzhen126@huawei.com
+  - gitee_id: wangfenglai
+    name: Wang Fenglai
+    organization: Huawei
+    email: wangfenglai1@huawei.com
+- repo:
   - src-openeuler/rubygem-fluent-plugin-elasticsearch
   - src-openeuler/rubygem-deacon
   - src-openeuler/rubygem-roadie-rails
@@ -170,8 +191,6 @@ repositories:
   - src-openeuler/foreman-proxy
   - src-openeuler/flamegraph
   - src-openeuler/foreman-installer
-  - src-openeuler/gala-anteater
-  - src-openeuler/gala-spider
   - src-openeuler/criu
   - src-openeuler/katello
   - src-openeuler/puppet-agent-puppet-strings
