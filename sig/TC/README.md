@@ -26,7 +26,7 @@ openEuler技术委员会（Technical Committee，以下和TC互换使用）是op
 - 侯  健<houjian@kylinos.cn> [[@hjimmy](https://gitee.com/hjimmy)]
 - 胡  峰<solar.hu@huawei.com> [[@solarhu](https://gitee.com/solarhu)]
 - 胡欣蔚<huxinwei@huawei.com> [[@shinwell_hu](https://gitee.com/shinwell_hu)]
-- 胡亚弟<huyd12@chinatelecom.cn> [[@huyd12](https://gitee.com/huyd12)]
+- 胡亚弟<514118380@qq.com> [[@huyd12](https://gitee.com/huyd12)]
 - 刘寿永<liusy@thundersoft.com> [[@pangbanme](https://gitee.com/pangbanme)]
 - 李永强<liyongqiang329@163.com> [[@charlie_li](https://gitee.com/charlie_li)]
 - 任  慰<renwei41@huawei.com> [[@vonhust](https://gitee.com/vonhust)]
