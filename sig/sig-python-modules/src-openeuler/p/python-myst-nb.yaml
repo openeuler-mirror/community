@@ -1,0 +1,7 @@
+name: python-myst-nb
+description: A Jupyter Notebook Sphinx reader built on top of the MyST markdown parser.
+upstream: https://github.com/executablebooks/myst-nb
+branches:
+- name: master
+  type: protected
+type: public

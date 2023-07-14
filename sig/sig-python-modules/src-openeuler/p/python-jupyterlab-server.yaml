@@ -1,0 +1,7 @@
+name: python-jupyterlab-server
+description: A set of server components for JupyterLab and JupyterLab like applications.
+upstream: https://github.com/jupyterlab/jupyterlab_server
+branches:
+- name: master
+  type: protected
+type: public

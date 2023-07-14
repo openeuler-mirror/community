@@ -1,0 +1,7 @@
+name: python-uvicorn
+description: The lightning-fast ASGI server.
+upstream: https://github.com/encode/uvicorn
+branches:
+- name: master
+  type: protected
+type: public

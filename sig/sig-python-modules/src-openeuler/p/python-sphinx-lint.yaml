@@ -1,0 +1,7 @@
+name: python-sphinx-lint
+description: Check for stylistic and formal issues in .rst and .py files included in the documentation.
+upstream: https://github.com/sphinx-contrib/sphinx-lint
+branches:
+- name: master
+  type: protected
+type: public

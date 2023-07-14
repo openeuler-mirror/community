@@ -1,0 +1,7 @@
+name: python-httpcore
+description: A minimal low-level HTTP client.
+upstream: https://github.com/encode/httpcore
+branches:
+- name: master
+  type: protected
+type: public

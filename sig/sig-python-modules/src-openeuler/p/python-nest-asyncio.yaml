@@ -1,0 +1,7 @@
+name: python-nest-asyncio
+description: Patch asyncio to allow nested event loops.
+upstream: https://github.com/erdewit/nest_asyncio
+branches:
+- name: master
+  type: protected
+type: public

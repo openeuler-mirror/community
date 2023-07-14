@@ -1,0 +1,7 @@
+name: python-async-lru
+description: Simple LRU cache for asyncio.
+upstream: https://github.com/aio-libs/async-lru
+branches:
+- name: master
+  type: protected
+type: public
