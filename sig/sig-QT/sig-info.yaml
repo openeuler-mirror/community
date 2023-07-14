@@ -27,6 +27,18 @@ maintainers:
   email: wangjingwei@iscas.ac.cn
 repositories:
 - repo:
+  - src-openeuler/adwaita-qt
+  - src-openeuler/libdbusextended-qt5
+  - src-openeuler/libmpris-qt5
+  - src-openeuler/qt-assistant-adp
+  - src-openeuler/qt-at-spi
+  - src-openeuler/qt-mobility
+  - src-openeuler/qt-settings
+  - src-openeuler/qt5
+  - src-openeuler/qt5-doc
+  - src-openeuler/qt5-qtenginio
+  - src-openeuler/qt5-qtnetworkauth
+  - src-openeuler/qt5-qtwebkit
   - src-openeuler/qt6
   - src-openeuler/qt6-qt3d                         
   - src-openeuler/qt6-qt5compat
@@ -67,4 +79,3 @@ repositories:
   - src-openeuler/qt6-qtwebengine
   - src-openeuler/qt6-qtwebsockets
   - src-openeuler/qt6-qtwebview
-  - src-openeuler/qt5-qtnetworkauth
