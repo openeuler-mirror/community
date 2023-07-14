@@ -42,6 +42,8 @@
 
 项目名称：rocketmq
 repository地址：https://gitee.com/src-openeuler/rocketmq
+repository地址：https://gitee.com/src-openeuler/rabbitmq-java-client
+repository地址：https://gitee.com/src-openeuler/rabbitmq-server
 
 - 
 - 
