@@ -1,0 +1,7 @@
+name: mysqld_exporter 
+description: Prometheus exporter for MySQL server metrics. 
+upstream: https://github.com/prometheus/mysqld_exporter
+branches:
+- name: master
+  type: protected
+type: public
