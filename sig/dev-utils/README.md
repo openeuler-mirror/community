@@ -26,6 +26,7 @@ fcwicky
 overweight
 yanan-rock
 jingxiaolu
+ampereufo
 
 
 ### Maintainer列表
@@ -45,6 +46,7 @@ jingxiaolu
 - overweight[@overweight]
 - yanan-rock[@yanan-rock]
 - jingxiaolu[@jingxiaolu]
+- ampereufo[@ampereufo]
 
 
 
@@ -89,3 +91,4 @@ jingxiaolu
 - https://gitee.com/openeuler/perlporter
 - https://gitee.com/openeuler/pkgporter
 - https://gitee.com/src-openeuler/glances
+- https://gitee.com/beijing-root/qingshuang
