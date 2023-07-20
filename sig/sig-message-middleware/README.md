@@ -32,18 +32,15 @@
 ### Committer列表
 - 章及第[@zhangjidi] 邮箱：zhangjidi_yewu@cmss.chinamobile.com
 - 吴碧清[@wubiqing] 邮箱：wubiqing_yewu@cmss.chinamobile.com
-
+- 王嘉凌[@wang-jialing218] 邮箱：wangjialing_yewu@cmss.chinamobile.com
 
 # 联系方式
 - [邮件列表](message-middleware@openeuler.org)
 
 
-# 项目清单
+# 项目repository地址:
 
-项目名称：rocketmq
-repository地址：https://gitee.com/src-openeuler/rocketmq
-repository地址：https://gitee.com/src-openeuler/rabbitmq-java-client
-repository地址：https://gitee.com/src-openeuler/rabbitmq-server
-
-- 
-- 
+- https://gitee.com/src-openeuler/rocketmq
+- https://gitee.com/src-openeuler/rabbitmq-java-client
+- https://gitee.com/src-openeuler/rabbitmq-server 
+- https://gitee.com/src-openeuler/pulsar
