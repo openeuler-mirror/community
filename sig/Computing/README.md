@@ -89,6 +89,8 @@ wswsamao | Desktop
   - https://gitee.com/src-openeuler/ps_mem
   - https://gitee.com/src-openeuler/scipy
   - https://gitee.com/src-openeuler/protobuf-c
+  - https://gitee.com/openeuler/libgmem
+  - https://gitee.com/src-openeuler/libgmem
 
 ## dev-utils 计算领域开发工具  （committer: SuperSix173、 wswsamao）
   - https://gitee.com/src-openeuler/gdb
