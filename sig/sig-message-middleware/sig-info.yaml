@@ -4,35 +4,45 @@ created_on: '2023-6-21'
 mailing_list: message-middleware@openeuler.org
 mature_level: startup
 maintainers:
-- gitee_id: hu-zongtang
-  name: huzongtang
-  organization: ChinaMobile
-  email: huzongtang_yewu@cmss.chinamobile.com
-- gitee_id: jas0n918
-  name: jianghaiting
-  organization: Tencent
-  email: jason.918@qq.com
+  - gitee_id: hu-zongtang
+    name: huzongtang
+    organization: ChinaMobile
+    email: huzongtang_yewu@cmss.chinamobile.com
+  - gitee_id: jas0n918
+    name: jianghaiting
+    organization: Tencent
+    email: jason.918@qq.com
 repositories:
-- repo: 
-  - src-openeuler/rocketmq
-  committers:
-  - gitee_id: zhangjidi
-    name: zhangjidi
-    organization: Chinamobile
-    email: zhangjidi_yewu@cmss.chinamobile.com
-- repo:
-  - src-openeuler/rabbitmq-java-client
-  - src-openeuler/rabbitmq-server
-  committers:
-  - gitee_id: wubiqing
-    name: wubiqing
-    organization: Chinamobile
-    email: wubiqing_yewu@cmss.chinamobile.com
-- repo:
-  - src-openeuler/pulsar
-  committers:
-  - gitee_id: wang-jialing218
-    name: wangjialing
-    organization: Chinamobile
-    email: wangjialing_yewu@cmss.chinamobile.com
-
+  - repo:
+      - src-openeuler/rocketmq
+    committers:
+      - gitee_id: zhangjidi
+        name: zhangjidi
+        organization: Chinamobile
+        email: zhangjidi_yewu@cmss.chinamobile.com
+  - repo:
+      - src-openeuler/rabbitmq-java-client
+      - src-openeuler/rabbitmq-server
+    committers:
+      - gitee_id: wubiqing
+        name: wubiqing
+        organization: Chinamobile
+        email: wubiqing_yewu@cmss.chinamobile.com
+  - repo:
+      - src-openeuler/pulsar
+    committers:
+      - gitee_id: wang-jialing218
+        name: wangjialing
+        organization: Chinamobile
+        email: wangjialing_yewu@cmss.chinamobile.com
+  - repo:
+      - src-openeuler/eventmesh
+    committers:
+      - gitee_id: qqeasonchen
+        name: chenguangsheng
+        organization: Webank
+        email: daerduochen@qq.com
+      - gitee_id: mikexwm
+        name: xueweiming
+        organization: Webank
+        email: mike_xwm@126.com
