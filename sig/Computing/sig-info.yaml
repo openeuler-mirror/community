@@ -1,0 +1,127 @@
+name: Computing
+description: The Computing team is a interest group related to the OS pan-computing filed, responsible for basic function software packages, C/C++ libraries, device management and other underlying libraries such as multimedia-related libraries.
+mailing_list: dev@openeuler.org
+meeting_url: NA
+mature_level: startup
+mentors:
+- gitee_id: liqingqing_1229
+  name: Qingqing Li
+  email: liqingqing3@huawei.com
+maintainers:
+- gitee_id: liqingqing_1229
+  name: Qingqing Li
+  organization: Huawei
+  email: liqingqing3@huawei.com
+- gitee_id: wswsamao
+  name: Shuo Wang
+  organization: Tencent
+  email: abushwang@tencent.com
+- gitee_id: wangbin224
+  name: Bin Wang
+  organization: Huawei
+  email: wangbin224@huawei.com
+- gitee_id: SuperSix173
+  name: Chao Liu
+  organization: Huawei
+  email: liuchao173@huawei.com
+- gitee_id: juyin
+  name: Yan Zhu
+  organization: Huawei
+  email: zhuyan34@huawei.com
+- gitee_id: yang_yanchao
+  name: Yanchao Yang
+  organization: Huawei
+  email: yangyanchao6@huawei.com
+
+repositories:
+- repo:
+  - openeuler/libgmem
+  - src-openeuler/libgmem
+  - src-openeuler/procps-ng
+  - src-openeuler/irqbalance
+  - src-openeuler/psmisc
+  - src-openeuler/numad
+  - src-openeuler/kmod
+  - src-openeuler/tzdata
+  - src-openeuler/numactl
+  - src-openeuler/glibc
+  - src-openeuler/libthai
+  - src-openeuler/libinput
+  - src-openeuler/tuned
+  - src-openeuler/newlib
+  - src-openeuler/libqb
+  - src-openeuler/userspace-rcu
+  - src-openeuler/libatomic_ops
+  - src-openeuler/boost
+  - src-openeuler/gperftools
+  - src-openeuler/libhugetlbfs
+  - src-openeuler/memkind
+  - src-openeuler/libevdev
+  - src-openeuler/mpfr
+  - src-openeuler/nspr
+  - src-openeuler/lockdev
+  - src-openeuler/gmp
+  - src-openeuler/npth
+  - src-openeuler/jamm
+  - src-openeuler/double-conversion
+  - src-openeuler/ps_mem
+  - src-openeuler/gdb
+  - src-openeuler/libipt
+  - src-openeuler/systemtap
+  - src-openeuler/dyninst
+  - src-openeuler/lttng-ust
+  - src-openeuler/lm_sensors
+  - src-openeuler/hwdata
+  - src-openeuler/linux-firmware
+  - src-openeuler/alsa-firmware
+  - src-openeuler/alsa-lib
+  - src-openeuler/alsa-tools
+  - src-openeuler/dmidecode
+  - src-openeuler/i2c-tools
+  - src-openeuler/hwinfo
+  - src-openeuler/acpid
+  - src-openeuler/upower
+  - src-openeuler/beanstalkd
+  - src-openeuler/libsamplerate
+  - src-openeuler/libogg
+  - src-openeuler/pulseaudio
+  - src-openeuler/libsndfile
+  - src-openeuler/flac
+  - src-openeuler/libijs
+  - src-openeuler/libmpc
+  - src-openeuler/libvisual
+  - src-openeuler/opus
+  - src-openeuler/ORBit2
+  - src-openeuler/libwacom
+  - src-openeuler/arpack-ng
+  - src-openeuler/libumem
+  - src-openeuler/protobuf-c
+  - src-openeuler/scipy
+  - src-openeuler/shapelib
+  - src-openeuler/strace
+
+  committers:
+    - gitee_id: liqingqing_1229
+      name: Qingqing Li
+      organization: Huawei
+      email: liqingqing3@huawei.com
+    - gitee_id: wswsamao
+      name: Shuo Wang
+      organization: Tencent
+      email: abushwang@tencent.com
+    - gitee_id: wangbin224
+      name: Bin Wang
+      organization: Huawei
+      email: wangbin224@huawei.com
+    - gitee_id: SuperSix173
+      name: Chao Liu
+      organization: Huawei
+      email: liuchao173@huawei.com
+    - gitee_id: juyin
+      name: Yan Zhu
+      organization: Huawei
+      email: zhuyan34@huawei.com
+    - gitee_id: yang_yanchao
+      name: Yanchao yang
+      organization: Huawei
+      email: yangyanchao6@huawei.com
