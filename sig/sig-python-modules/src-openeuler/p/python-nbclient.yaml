@@ -1,0 +1,7 @@
+name: python-nbclient
+description: A client library for executing notebooks. Formerly nbconvert's ExecutePreprocessor.
+upstream: https://github.com/jupyter/nbclient
+branches:
+- name: master
+  type: protected
+type: public

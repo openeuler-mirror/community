@@ -1,0 +1,7 @@
+name: python-jupyter-lsp
+description: Multi-Language Server WebSocket proxy for Jupyter Notebook/Lab server.
+upstream: https://github.com/jupyter-lsp/jupyterlab-lsp
+branches:
+- name: master
+  type: protected
+type: public

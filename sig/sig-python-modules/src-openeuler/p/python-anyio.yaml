@@ -1,0 +1,7 @@
+name: python-anyio
+description: High level compatibility layer for multiple asynchronous event loop implementations.
+upstream: https://github.com/agronholm/anyio
+branches:
+- name: master
+  type: protected
+type: public

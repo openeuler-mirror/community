@@ -1,0 +1,7 @@
+name: python-pip-tools
+description: pip-tools keeps your pinned dependencies fresh.
+upstream: https://github.com/jazzband/pip-tools
+branches:
+- name: master
+  type: protected
+type: public

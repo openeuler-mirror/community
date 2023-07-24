@@ -1,0 +1,7 @@
+name: python-uvloop
+description: Fast implementation of asyncio event loop on top of libuv.
+upstream: http://github.com/MagicStack/uvloop
+branches:
+- name: master
+  type: protected
+type: public

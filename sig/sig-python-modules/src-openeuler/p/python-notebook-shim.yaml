@@ -1,0 +1,7 @@
+name: python-notebook-shim
+description: A shim layer for notebook traits and config.
+upstream: https://github.com/jupyter/notebook_shim
+branches:
+- name: master
+  type: protected
+type: public
