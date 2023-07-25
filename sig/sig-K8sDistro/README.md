@@ -28,6 +28,7 @@
 - 郭峰[@pixiake](https://gitee.com/pixiake)
 - 杜奕威[@duyiwei7w](https://gitee.com/duyiwei7w)
 - 王利民[@wanglmb](https://gitee.com/wanglmb)
+- 季宗耀[@orangeji11](https://gitee.com/orangeji11)
 
 
 ### Committers列表
@@ -50,6 +51,7 @@
   - https://gitee.com/src-openeuler/rpm-ostree
   - https://gitee.com/src-openeuler/kubekey
   - https://gitee.com/openeuler/nestos-kubernetes-deployer
+  - https://gitee.com/openeuler/ccps
 
 ## 联系方式
 
