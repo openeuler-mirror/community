@@ -1,0 +1,7 @@
+name: eventmesh
+description: EventMesh is a new generation serverless event middleware for building distributed event-driven applications.
+upstream: https://github.com/apache/eventmesh
+branches:
+  - name: master
+    type: protected
+type: public

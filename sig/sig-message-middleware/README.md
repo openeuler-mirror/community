@@ -33,6 +33,9 @@
 - 章及第[@zhangjidi] 邮箱：zhangjidi_yewu@cmss.chinamobile.com
 - 吴碧清[@wubiqing] 邮箱：wubiqing_yewu@cmss.chinamobile.com
 - 王嘉凌[@wang-jialing218] 邮箱：wangjialing_yewu@cmss.chinamobile.com
+- 陈广胜[@qqeasonchen] 邮箱：daerduochen@qq.com
+- 薛炜明[@mikexwm] 邮箱：mike_xwm@126.com
+
 
 # 联系方式
 - [邮件列表](message-middleware@openeuler.org)
@@ -44,3 +47,4 @@
 - https://gitee.com/src-openeuler/rabbitmq-java-client
 - https://gitee.com/src-openeuler/rabbitmq-server 
 - https://gitee.com/src-openeuler/pulsar
+- https://gitee.com/src-openeuler/eventmesh

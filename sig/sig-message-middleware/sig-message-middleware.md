@@ -34,6 +34,8 @@ Describe the Mission and objectives of the new SIG, including but not limited to
   - material: source codes, tar;
 - Pulsar:
   - material: source codes, tar;
+- EventMesh:
+  - material: source codes, tar;
 
 ### Cross-domain and external-oriented processes
 
@@ -42,3 +44,4 @@ Cross-domain and externally-oriented processes and actions defined and implement
 - Non-Internal Process Checklist
   1. Hold on monthly external meetings for this SIG group regularly;
   2. Hold on meetings for open technical discussions regularlyl;
+  
