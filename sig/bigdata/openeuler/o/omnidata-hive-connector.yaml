@@ -1,0 +1,6 @@
+name: omnidata-hive-connector
+description: Based on the hive, some operators are pushed down to the storage nodes, and those results are transmitted to the calculation nodes through the network, reducing the amount of network transmission data and improving performance.
+type: public
+branches:
+- name: master
+  type: protected
