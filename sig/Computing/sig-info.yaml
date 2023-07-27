@@ -32,7 +32,7 @@ maintainers:
   name: Yanchao Yang
   organization: Huawei
   email: yangyanchao6@huawei.com
-
+  
 repositories:
 - repo:
   - openeuler/libgmem
@@ -125,3 +125,18 @@ repositories:
       name: Yanchao yang
       organization: Huawei
       email: yangyanchao6@huawei.com
+      
+- repo:
+  - openeuler/kspack-go
+  - openeuler/kspack-java
+  - openeuler/kspack-c
+  - openeuler/kspack-rust
+  committers:
+    - gitee_id: dongjiang1989
+      name: Jiang Dong
+      organization: Chinamobile
+      email: dongjiang@cmss.chinamobile.com
+    - gitee_id: left0317
+      name: Gangyi Luo
+      organization: Chinamobile
+      email: luogangyi2@cmss.chinamobile.com

@@ -30,6 +30,7 @@
 - SuperSix173
 - juyin
 - yang_yanchao
+- dongjiang1989
 
 committer | 细分领域
 ------ | ------
@@ -49,6 +50,7 @@ wswsamao | media
 SuperSix173 | media
 wangbin224 | Desktop
 wswsamao | Desktop
+dongjiang1989 | CodeC
 
 # 联系方式
 
@@ -127,3 +129,9 @@ wswsamao | Desktop
 
 ## Desktop 桌面相关lib  （committer: wswsamao、wangbin224）
   - https://gitee.com/src-openeuler/libwacom
+
+## CodeC 编解码lib  （committer: dongjiang1989、left0317）
+  - https://gitee.com/openeuler/kspack-go
+  - https://gitee.com/openeuler/kspack-c
+  - https://gitee.com/openeuler/kspack-java
+  - https://gitee.com/openeuler/kspack-rust
