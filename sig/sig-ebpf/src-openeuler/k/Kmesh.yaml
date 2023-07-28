@@ -1,10 +1,15 @@
 name: Kmesh
-description: Kmesh (kernel mesh) is a data plane software for service grids. It is dedicated to providing infrastructure for service communication and service governance for cloud applications, provides better latency and noise floor performance.
+description: Kmesh (kernel mesh) is a data plane software for service grids. It is
+  dedicated to providing infrastructure for service communication and service governance
+  for cloud applications, provides better latency and noise floor performance.
 upstream: https://gitee.com/openeuler/Kmesh
 branches:
 - name: master
   type: protected
 - name: openEuler-23.03
+  type: protected
+  create_from: master
+- name: openEuler-23.09
   type: protected
   create_from: master
 type: public

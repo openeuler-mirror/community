@@ -1,6 +1,9 @@
 name: filemanagement_dfs_service
-description: Distributed file services provide cross device, POSIX compliant file access capabilities. On the basis of distributed soft bus dynamic networking, it provides a unified, logical, and tree shaped file system hierarchy for each device node on the network.
-upstream: https://gitee.com/openharmony/filemanagement_dfs_service 
+description: Distributed file services provide cross device, POSIX compliant file
+  access capabilities. On the basis of distributed soft bus dynamic networking, it
+  provides a unified, logical, and tree shaped file system hierarchy for each device
+  node on the network.
+upstream: https://gitee.com/openharmony/filemanagement_dfs_service
 branches:
 - name: master
   type: protected
@@ -10,4 +13,7 @@ branches:
 - name: openEuler-22.03-LTS-SP2
   type: protected
   create_from: openEuler-22.03-LTS-Next
+- name: openEuler-23.09
+  type: protected
+  create_from: master
 type: public

@@ -1,7 +1,11 @@
 name: python-inflect
 upstream: https://github.com/jaraco/inflect
-description: Correctly generate plurals, ordinals, indefinite articles; convert numbers to words
+description: Correctly generate plurals, ordinals, indefinite articles; convert numbers
+  to words
 branches:
 - name: master
   type: protected
+- name: openEuler-23.09
+  type: protected
+  create_from: master
 type: public

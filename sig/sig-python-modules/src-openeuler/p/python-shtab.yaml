@@ -4,4 +4,7 @@ description: Automagic shell tab completion for Python CLI applications
 branches:
 - name: master
   type: protected
+- name: openEuler-23.09
+  type: protected
+  create_from: master
 type: public

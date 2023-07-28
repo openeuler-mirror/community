@@ -1,7 +1,11 @@
 name: R-diffobj
-description: Generate a colorized diff of two R objects for an intuitive visualization of their differences.
+description: Generate a colorized diff of two R objects for an intuitive visualization
+  of their differences.
 upstream: https://github.com/brodieG/diffobj
 branches:
 - name: master
   type: protected
+- name: openEuler-23.09
+  type: protected
+  create_from: master
 type: public

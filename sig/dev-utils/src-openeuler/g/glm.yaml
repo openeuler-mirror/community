@@ -1,7 +1,11 @@
 name: glm
-description: OpenGL Mathematics (GLM) is a header only C++ mathematics library for graphics software based on the OpenGL Shading Language (GLSL) specifications.
+description: OpenGL Mathematics (GLM) is a header only C++ mathematics library for
+  graphics software based on the OpenGL Shading Language (GLSL) specifications.
 upstream: https://github.com/g-truc/glm
 branches:
 - name: master
   type: protected
+- name: openEuler-23.09
+  type: protected
+  create_from: master
 type: public

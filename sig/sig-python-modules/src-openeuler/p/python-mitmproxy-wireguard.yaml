@@ -1,7 +1,11 @@
 name: python-mitmproxy-wireguard
 upstream: https://github.com/decathorpe/mitmproxy_wireguard
-description: Transparently proxy any device that can be configured as a WireGuard client!
+description: Transparently proxy any device that can be configured as a WireGuard
+  client!
 branches:
 - name: master
   type: protected
+- name: openEuler-23.09
+  type: protected
+  create_from: master
 type: public

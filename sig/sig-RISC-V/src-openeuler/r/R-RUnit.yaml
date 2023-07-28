@@ -1,7 +1,11 @@
 name: R-RUnit
-description: R functions implementing a standard Unit Testing framework, with additional code inspection and report generation tools.
+description: R functions implementing a standard Unit Testing framework, with additional
+  code inspection and report generation tools.
 upstream: https://cran.r-project.org/web/packages/RUnit/index.html
 branches:
 - name: master
   type: protected
+- name: openEuler-23.09
+  type: protected
+  create_from: master
 type: public

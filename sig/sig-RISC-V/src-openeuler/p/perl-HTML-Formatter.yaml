@@ -1,7 +1,11 @@
 name: perl-HTML-Formatter
-description: A collection of modules that formats HTML as plaintext, PostScript or RTF.
+description: A collection of modules that formats HTML as plaintext, PostScript or
+  RTF.
 upstream: https://metacpan.org/release/HTML-Formatter
 branches:
 - name: master
   type: protected
+- name: openEuler-23.09
+  type: protected
+  create_from: master
 type: public

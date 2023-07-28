@@ -1,6 +1,7 @@
 name: hmdfs
 rename_from: hmdfs
-description: HMDFS is an overlay file system. Relying on the underlying file system, under the premise of networking, file exchanges across devices can be realized.
+description: HMDFS is an overlay file system. Relying on the underlying file system,
+  under the premise of networking, file exchanges across devices can be realized.
 upstream: https://gitee.com/openharmony/kernel_linux_5.10/tree/master/fs/hmdfs
 branches:
 - name: master
@@ -11,4 +12,7 @@ branches:
 - name: openEuler-22.03-LTS-SP2
   type: protected
   create_from: openEuler-22.03-LTS-Next
+- name: openEuler-23.09
+  type: protected
+  create_from: master
 type: public

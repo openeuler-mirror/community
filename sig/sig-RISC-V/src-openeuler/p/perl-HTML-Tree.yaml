@@ -1,7 +1,11 @@
 name: perl-HTML-Tree
-description: This distribution contains a suite of modules for representing, creating, and extracting information from HTML syntax trees; there is also relevant documentation.
+description: This distribution contains a suite of modules for representing, creating,
+  and extracting information from HTML syntax trees; there is also relevant documentation.
 upstream: https://metacpan.org/release/HTML-Tree
 branches:
 - name: master
   type: protected
+- name: openEuler-23.09
+  type: protected
+  create_from: master
 type: public

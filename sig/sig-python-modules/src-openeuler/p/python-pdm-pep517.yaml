@@ -1,7 +1,11 @@
 name: python-pdm-pep517
 upstream: https://pdm.fming.dev
-description: PDM is a modern Python package and dependency manager supporting the latest PEP standards. 
+description: PDM is a modern Python package and dependency manager supporting the
+  latest PEP standards.
 branches:
 - name: master
   type: protected
+- name: openEuler-23.09
+  type: protected
+  create_from: master
 type: public

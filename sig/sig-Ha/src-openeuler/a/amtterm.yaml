@@ -1,8 +1,12 @@
 name: amtterm
-description: Serial-over-lan (sol) client for Intel AMT. Includes a terminal and a graphical (gtk) version. Also comes with a perl 
-  script to gather informations about and remotely control AMT managed computers.
+description: Serial-over-lan (sol) client for Intel AMT. Includes a terminal and a
+  graphical (gtk) version. Also comes with a perl script to gather informations about
+  and remotely control AMT managed computers.
 upstream: https://github.com/kraxel/amtterm
 branches:
 - name: master
   type: protected
+- name: openEuler-23.09
+  type: protected
+  create_from: master
 type: public

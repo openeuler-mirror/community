@@ -1,7 +1,12 @@
 name: procenv
-description: This package contains a command-line tool that displays as much detail about itself and its environment as possible. It can be used as a test tool, to understand the type of environment a process runs in, and for comparing system environments.
+description: This package contains a command-line tool that displays as much detail
+  about itself and its environment as possible. It can be used as a test tool, to
+  understand the type of environment a process runs in, and for comparing system environments.
 upstream: https://github.com/jamesodhunt/procenv
 branches:
 - name: master
   type: protected
+- name: openEuler-23.09
+  type: protected
+  create_from: master
 type: public

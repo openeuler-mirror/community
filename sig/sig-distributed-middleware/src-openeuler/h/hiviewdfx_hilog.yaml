@@ -1,5 +1,6 @@
 name: hiviewdfx_hilog
-description: Hilog module logs information such as user operations and system running status for the system framework, services, and applications
+description: Hilog module logs information such as user operations and system running
+  status for the system framework, services, and applications
 upstream: https://gitee.com/openharmony/hiviewdfx_hilog
 branches:
 - name: master
@@ -10,4 +11,7 @@ branches:
 - name: openEuler-22.03-LTS-SP2
   type: protected
   create_from: openEuler-22.03-LTS-Next
+- name: openEuler-23.09
+  type: protected
+  create_from: master
 type: public
