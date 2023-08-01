@@ -1,0 +1,44 @@
+name: sig-porting-platform-winapp
+description: The Porting Platform WinApp SIG group focuses on technology and software development related to the migration of Windows applications to openEuler.
+created_on: '2023-07-26'
+mailing_list: dev@openeuler.org
+meeting_url: NA
+mature_level: startup
+mentors:
+- gitee_id: jianminw
+  name: Wang Jianmin
+  email: jianmin@iscas.ac.cn
+maintainers:
+- gitee_id: ld-linzhuotech
+  name: Liu Dong
+  organization: linzhuotech
+  email: ld@linzhuotech.com
+- gitee_id: celestialwy
+  name: Wen Yan
+  organization: linzhuotech
+  email: wy@linzhuotech.com
+- gitee_id: jianminw
+  name: Wang Jianmin
+  organization: ISCAS
+  email: jianmin@iscas.ac.cn
+- gitee_id: lovelijunyi
+  name: Li Junyi
+  organization: openEuler
+  email: lijunyi088@163.com  
+- gitee_id: ldf-hahaha
+  name: Li Fei
+  organization: linzhuotech
+  email: lifei@linzhuotech.com
+repositories:
+- repo:
+  - openeuler/vs2qt
+  - src-openeuler/mono
+  committers:
+  - gitee_id: Weijihui
+    name: Wei Jihui
+    organization: Huawei 
+    email: weijihuiall@163.com
+  - gitee_id: ftboy
+    name: Fu Tao
+    organization: Huawei 
+    email: futao10@huawei.com
