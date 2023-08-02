@@ -1,7 +1,11 @@
 name: python-contourpy
 upstream: https://github.com/contourpy/contourpy
-description: ContourPy is a Python library for calculating contours of 2D quadrilateral grids. 
+description: ContourPy is a Python library for calculating contours of 2D quadrilateral
+  grids.
 branches:
 - name: master
   type: protected
+- name: openEuler-23.09
+  type: protected
+  create_from: master
 type: public

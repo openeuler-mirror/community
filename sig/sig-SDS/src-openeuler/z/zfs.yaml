@@ -1,12 +1,14 @@
 name: zfs
-description: OpenZFS is storage software which combines the functionality of
-  traditional filesystems, volume manager, and more. OpenZFS includes
-  protection against data corruption, support for high storage capacities,
-  efficient data compression, snapshots and copy-on-write clones, continuous
-  integrity checking and automatic repair, remote replication with ZFS send
-  and receive, and RAID-Z.
+description: OpenZFS is storage software which combines the functionality of traditional
+  filesystems, volume manager, and more. OpenZFS includes protection against data
+  corruption, support for high storage capacities, efficient data compression, snapshots
+  and copy-on-write clones, continuous integrity checking and automatic repair, remote
+  replication with ZFS send and receive, and RAID-Z.
 upstream: https://github.com/openzfs/zfs
 branches:
 - name: master
   type: protected
+- name: openEuler-23.09
+  type: protected
+  create_from: master
 type: public

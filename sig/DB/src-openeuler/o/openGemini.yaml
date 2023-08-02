@@ -1,10 +1,14 @@
 name: openGemini
-description: An open source distributed time-series database with high concurrency, high performance, and high scalability
+description: An open source distributed time-series database with high concurrency,
+  high performance, and high scalability
 upstream: https://github.com/openGemini/openGemini
 branches:
 - name: master
   type: protected
 - name: openEuler-23.03
+  type: protected
+  create_from: master
+- name: openEuler-23.09
   type: protected
   create_from: master
 type: public

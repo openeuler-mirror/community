@@ -1,7 +1,11 @@
 name: R-tinytex
-description: Helper Functions to Install and Maintain TeX Live, and Compile LaTeX Documents
+description: Helper Functions to Install and Maintain TeX Live, and Compile LaTeX
+  Documents
 upstream: https://github.com/rstudio/tinytex
 branches:
 - name: master
   type: protected
+- name: openEuler-23.09
+  type: protected
+  create_from: master
 type: public

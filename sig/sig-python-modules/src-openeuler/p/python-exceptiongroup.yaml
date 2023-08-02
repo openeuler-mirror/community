@@ -1,7 +1,11 @@
 name: python-exceptiongroup
-description: This is a backport of the BaseExceptionGroup and ExceptionGroup classes from Python 3.11.
+description: This is a backport of the BaseExceptionGroup and ExceptionGroup classes
+  from Python 3.11.
 upstream: https://github.com/agronholm/exceptiongroup
 branches:
 - name: master
   type: protected
+- name: openEuler-23.09
+  type: protected
+  create_from: master
 type: public

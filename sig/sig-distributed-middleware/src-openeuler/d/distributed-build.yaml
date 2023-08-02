@@ -1,6 +1,7 @@
 name: distributed-build
-description: Compile and build tools that based on GN and ninja for distributed middleware components.
-upstream: https://gitee.com/openharmony/build 
+description: Compile and build tools that based on GN and ninja for distributed middleware
+  components.
+upstream: https://gitee.com/openharmony/build
 branches:
 - name: master
   type: protected
@@ -10,4 +11,7 @@ branches:
 - name: openEuler-22.03-LTS-SP2
   type: protected
   create_from: openEuler-22.03-LTS-Next
+- name: openEuler-23.09
+  type: protected
+  create_from: master
 type: public

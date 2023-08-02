@@ -1,7 +1,11 @@
 name: R-rstudioapi
-description: Access the RStudio API (if available) and provide informative error messages when it's not.
+description: Access the RStudio API (if available) and provide informative error messages
+  when it's not.
 upstream: https://github.com/rstudio/rstudioapi
 branches:
 - name: master
   type: protected
+- name: openEuler-23.09
+  type: protected
+  create_from: master
 type: public

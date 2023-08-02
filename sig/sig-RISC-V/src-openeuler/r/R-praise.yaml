@@ -1,7 +1,11 @@
 name: R-praise
-description: Build friendly R packages that praise their users if they have done something good, or they just need it to feel better.
+description: Build friendly R packages that praise their users if they have done something
+  good, or they just need it to feel better.
 upstream: https://github.com/gaborcsardi/praise
 branches:
 - name: master
   type: protected
+- name: openEuler-23.09
+  type: protected
+  create_from: master
 type: public

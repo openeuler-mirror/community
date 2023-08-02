@@ -1,10 +1,13 @@
 name: gcr4
-description: 'A library for bits of crypto UI and parsing'
+description: A library for bits of crypto UI and parsing
 upstream: https://gitlab.gnome.org/GNOME/gcr
 branches:
 - name: master
   type: protected
 - name: openEuler-23.03
+  type: protected
+  create_from: master
+- name: openEuler-23.09
   type: protected
   create_from: master
 type: public

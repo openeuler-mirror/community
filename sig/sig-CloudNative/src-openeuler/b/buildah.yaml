@@ -1,5 +1,6 @@
 name: buildah
-description: The buildah package provides a command line tool which can be used to create a working container.
+description: The buildah package provides a command line tool which can be used to
+  create a working container.
 upstream: https://buildah.io
 branches:
 - name: master
@@ -7,7 +8,10 @@ branches:
 - name: openEuler-22.03-LTS-Next
   type: protected
   create_from: master
-- name: openEuler-22.03-LTS  
-  type: protected  
+- name: openEuler-22.03-LTS
+  type: protected
   create_from: openEuler-22.03-LTS-Next
+- name: openEuler-23.09
+  type: protected
+  create_from: master
 type: public

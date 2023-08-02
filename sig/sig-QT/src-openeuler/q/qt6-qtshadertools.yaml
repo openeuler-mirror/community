@@ -4,4 +4,7 @@ upstream: https://code.qt.io/cgit/qt/qtshadertools.git
 branches:
 - name: master
   type: protected
+- name: openEuler-23.09
+  type: protected
+  create_from: master
 type: public

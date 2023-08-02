@@ -4,4 +4,7 @@ description: This is the extensible, standards compliant build backend used by H
 branches:
 - name: master
   type: protected
+- name: openEuler-23.09
+  type: protected
+  create_from: master
 type: public

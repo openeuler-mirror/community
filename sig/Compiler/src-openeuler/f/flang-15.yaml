@@ -1,7 +1,11 @@
 name: flang-15
-description: Flang is a ground-up implementation of a Fortran front end written in modern C++.
+description: Flang is a ground-up implementation of a Fortran front end written in
+  modern C++.
 upstream: https://github.com/llvm/llvm-project/tree/main/flang
 branches:
 - name: master
   type: protected
+- name: openEuler-23.09
+  type: protected
+  create_from: master
 type: public

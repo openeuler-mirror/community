@@ -1,7 +1,11 @@
 name: R-mime
-description: Guesses the MIME type from a filename extension using the data derived from /etc/mime.types in UNIX-type systems
+description: Guesses the MIME type from a filename extension using the data derived
+  from /etc/mime.types in UNIX-type systems
 upstream: https://github.com/yihui/mime
 branches:
 - name: master
   type: protected
+- name: openEuler-23.09
+  type: protected
+  create_from: master
 type: public

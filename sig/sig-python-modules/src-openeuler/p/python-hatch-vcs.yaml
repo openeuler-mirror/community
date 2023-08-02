@@ -1,7 +1,11 @@
 name: python-hatch-vcs
 upstream: https://github.com/ofek/hatch-vcs
-description: This provides a plugin for Hatch that uses your preferred version control system to determine project versions
+description: This provides a plugin for Hatch that uses your preferred version control
+  system to determine project versions
 branches:
 - name: master
   type: protected
+- name: openEuler-23.09
+  type: protected
+  create_from: master
 type: public

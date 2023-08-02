@@ -1,10 +1,13 @@
-name: girara 
-description: Simple user interface library 
+name: girara
+description: Simple user interface library
 upstream: https://git.pwmt.org/pwmt/girara
 branches:
 - name: master
   type: protected
 - name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-23.09
   type: protected
   create_from: master
 type: public

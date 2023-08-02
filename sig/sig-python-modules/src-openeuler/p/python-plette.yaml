@@ -1,7 +1,11 @@
 name: python-plette
-description: Plette implements Pipfile and Pipfile.lock parsers, generators, and optional validators to let the user work with them in a structured manner.
+description: Plette implements Pipfile and Pipfile.lock parsers, generators, and optional
+  validators to let the user work with them in a structured manner.
 upstream: https://github.com/sarugaku/plette
 branches:
 - name: master
   type: protected
+- name: openEuler-23.09
+  type: protected
+  create_from: master
 type: public

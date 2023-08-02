@@ -1,7 +1,10 @@
 name: perl-XS-Parse-Keyword
 upstream: https://metacpan.org/release/XS-Parse-Keyword
-description: XS functions to assist in parsing keyword syntax. 
+description: XS functions to assist in parsing keyword syntax.
 branches:
 - name: master
   type: protected
+- name: openEuler-23.09
+  type: protected
+  create_from: master
 type: public

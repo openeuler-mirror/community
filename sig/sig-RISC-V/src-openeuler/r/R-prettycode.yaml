@@ -1,7 +1,11 @@
 name: R-prettycode
-description: Replace the standard print method for functions with one that performs syntax highlighting, using ANSI colors, if the terminal supports them.
+description: Replace the standard print method for functions with one that performs
+  syntax highlighting, using ANSI colors, if the terminal supports them.
 upstream: https://github.com/r-lib/prettycode
 branches:
 - name: master
   type: protected
+- name: openEuler-23.09
+  type: protected
+  create_from: master
 type: public
