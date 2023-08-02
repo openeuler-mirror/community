@@ -28,6 +28,8 @@
 - 吴佳欢 @wujiahuan_sz
 - 戚连生 @qi-liansheng
 - 陈保文 @baowenchen
+-  许庆伟  @QingweiXu 
+-  瞿盛辉  @kmf 
 
 
 

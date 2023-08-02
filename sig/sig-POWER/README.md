@@ -29,8 +29,10 @@ sig-POWER
 
 
 - 吴佳欢 @wujiahuan_sz          jiahuan.wu@shingroup.cn
-- 戚连生 @qi-liansheng  	liansheng.qi@shingroup.cn
+- 戚连生 @qi-liansheng  	        liansheng.qi@shingroup.cn
 - 陈保文 @baowenchen            baowen.chen@shingroup.cn
+- 许庆伟  @QingweiXu            qingwei.xu@shingroup.cn
+- 瞿盛辉  @kmf                  shenghui.qu@shingroup.cn
 
 
 ### Committer列表
