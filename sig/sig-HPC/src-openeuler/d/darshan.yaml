@@ -1,0 +1,7 @@
+name: darshan
+description: Darshan is a lightweight I/O characterization tool that transparently captures I/O access pattern information from HPC applications.
+upstream: https://github.com/darshan-hpc/darshan
+branches:
+- name: master
+  type: protected
+type: public

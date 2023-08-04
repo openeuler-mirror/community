@@ -1,0 +1,7 @@
+name: BSC-extrae
+description: A dynamic instrumentation package to trace programs compiled and run with the shared memory model.
+upstream: https://github.com/bsc-performance-tools/extrae
+branches:
+- name: master
+  type: protected
+type: public
