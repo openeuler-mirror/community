@@ -118,6 +118,7 @@ Tuesday 10 am bi-weekly, UTC+8.
  - [openmp](https://gitee.com/src-openeuler/openmp)
  - [openmp-15](https://gitee.com/src-openeuler/openmp-15)
  - [lldb](https://gitee.com/src-openeuler/lldb)
+ - [libclc](https://gitee.com/src-openeuler/libclc)
  - [polly-15](https://gitee.com/src-openeuler/polly-15)
    - Maintainers
      - 郭 培林[@peilin-guo](https://gitee.com/peilin-guo) email: guopeilin1@huawei.com
