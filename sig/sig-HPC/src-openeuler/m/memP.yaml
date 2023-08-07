@@ -1,0 +1,7 @@
+name: memP
+description: memP is a parallel heap profiling library based on the mpiP MPI profiling tool.
+upstream: https://memp.sourceforge.net/
+branches:
+- name: master
+  type: protected
+type: public
