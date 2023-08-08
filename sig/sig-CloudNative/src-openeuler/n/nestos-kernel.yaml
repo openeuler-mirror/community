@@ -1,0 +1,13 @@
+name: nestos-kernel
+description: Kernel with independent support for Nestos
+upstream: https://gitee.com/openeuler/nestos-kernel
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-23.09
+  type: protected
+  create_from: master
+type: public
