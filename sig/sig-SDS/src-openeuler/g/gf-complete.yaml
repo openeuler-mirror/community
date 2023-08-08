@@ -1,0 +1,7 @@
+name: gf-complete
+description: GF-Complete implements every Galois Field multiplication technique applicable to erasure coding for storage.
+upstream: https://github.com/ceph/gf-complete
+branches:
+- name: master
+  type: protected
+type: public
