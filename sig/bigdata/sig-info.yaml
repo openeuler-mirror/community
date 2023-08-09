@@ -25,6 +25,27 @@ repositories:
   - openeuler/vectorBlas
   - openeuler/bigdata
   - openeuler/omnidata-hive-connector
+  committers:
+  - gitee_id: wenwj0
+    name: wenweijian
+    email: weijian.wen@foxmail.com
+
+- repo:
+  - src-openeuler/hive
+  - src-openeuler/hbase
+  - src-openeuler/hadoop
+  - src-openeuler/spark
+  - src-openeuler/ambari
+  - src-openeuler/flink
+  - src-openeuler/hadoop-3.1
+  - src-openeuler/bigtop
+  - src-openeuler/zookeeper
+  committers:
+  - gitee_id: wenwj0
+    name: wenweijian
+    email: weijian.wen@foxmail.com
+
+- repo:
   - src-openeuler/redis6
   - src-openeuler/rain
   - src-openeuler/redis5
@@ -35,27 +56,19 @@ repositories:
   - src-openeuler/notebook
   - src-openeuler/giraph
   - src-openeuler/gl2ps
-  - src-openeuler/zookeeper
   - src-openeuler/zeppelin
   - src-openeuler/telegraf
-  - src-openeuler/spark
   - src-openeuler/storm
   - src-openeuler/alluxio
   - src-openeuler/accumulo
   - src-openeuler/avor
-  - src-openeuler/ambari
   - src-openeuler/apache-ranger
   - src-openeuler/apache-atlas
-  - src-openeuler/flink
   - src-openeuler/ftgl
   - src-openeuler/flume
   - src-openeuler/oozie
-  - src-openeuler/hadoop-3.1
   - src-openeuler/hudi
   - src-openeuler/hue
-  - src-openeuler/hive
-  - src-openeuler/hbase
-  - src-openeuler/hadoop
   - src-openeuler/mahout
   - src-openeuler/jupyter
   - src-openeuler/calcite
@@ -67,7 +80,6 @@ repositories:
   - src-openeuler/qscintilla
   - src-openeuler/epstool
   - src-openeuler/blaze
-  - src-openeuler/bigtop
   - src-openeuler/kite-sdk
   - src-openeuler/kafka
   - src-openeuler/kudu
