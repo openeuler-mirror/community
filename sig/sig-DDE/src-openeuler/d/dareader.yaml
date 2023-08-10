@@ -1,0 +1,10 @@
+name: dareader
+description: Read image/video from socket file
+upstream: https://github.com/linuxdeepin/dareader
+branches:
+- name: master
+  type: protected
+- name: openEuler-23.09
+  type: protected
+  create_from: master
+type: public

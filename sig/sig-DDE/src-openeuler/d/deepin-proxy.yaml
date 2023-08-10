@@ -1,0 +1,10 @@
+name: deepin-proxy
+description: Service for global or app proxy
+upstream: https://github.com/linuxdeepin/deepin-network-proxy
+branches:
+- name: master
+  type: protected
+- name: openEuler-23.09
+  type: protected
+  create_from: master
+type: public
