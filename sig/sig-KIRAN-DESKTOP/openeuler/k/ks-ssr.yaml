@@ -1,0 +1,15 @@
+name: ks-ssr
+description: A security product that provides features such as baseline hardening, trusted protection, file protection, private boxes and device management.
+type: public
+branches:
+- name: master
+  type: protected
+- name: 1.0
+  type: protected
+  create_from: master
+- name: 1.1
+  type: protected
+  create_from: master
+- name: 1.2
+  type: protected
+  create_from: master

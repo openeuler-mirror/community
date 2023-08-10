@@ -1,0 +1,9 @@
+name: kiran-manual
+description: User manual for Kiran desktop environment and desktop applications
+type: public
+branches:
+- name: master
+  type: protected
+- name: 2.6
+  type: protected
+  create_from: master

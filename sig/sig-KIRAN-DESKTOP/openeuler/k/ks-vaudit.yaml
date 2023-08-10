@@ -1,0 +1,9 @@
+name: ks-vaudit
+description: Screen recording audit software
+type: public
+branches:
+- name: master
+  type: protected
+- name: 1.0
+  type: protected
+  create_from: master

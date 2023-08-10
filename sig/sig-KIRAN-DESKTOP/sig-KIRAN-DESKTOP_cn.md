@@ -68,6 +68,11 @@ KIRAN-DESKTOP SIG小组致力于将KIRAN-DESKTOP 引入至 openEuler 社区中�
 - https://gitee.com/src-openeuler/kiran-screensaver
 - https://gitee.com/src-openeuler/kiran-authentication-service
 - https://gitee.com/src-openeuler/kiran-biometrics
+- https://gitee.com/src-openeuler/kiran-manual
+- https://gitee.com/src-openeuler/ks-ssr
+- https://gitee.com/src-openeuler/ks-scmc
+- https://gitee.com/src-openeuler/ks-scmc-gui
+- https://gitee.com/src-openeuler/ks-vaudit
 
 ## SIG基本信息
 
@@ -83,7 +88,6 @@ KIRAN-DESKTOP SIG小组致力于将KIRAN-DESKTOP 引入至 openEuler 社区中�
 ### Committers
 - liuxingxiang
 - yuan__xing 
-- Bmen
 - luoqing_kylinsec
 
 ### 对外联系人
