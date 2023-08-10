@@ -1,0 +1,12 @@
+name: ks-scmc
+description: KylinSec security Container magic Cube (Back-end), provides streamlined, efficient and secure containers and management.
+type: public
+branches:
+- name: master
+  type: protected
+- name: 1.0
+  type: protected
+  create_from: master
+- name: 1.1
+  type: protected
+  create_from: master

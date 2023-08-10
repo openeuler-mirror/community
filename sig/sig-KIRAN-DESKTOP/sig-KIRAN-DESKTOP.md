@@ -71,6 +71,11 @@ English | [简体中文](./sig-KIRAN-DESKTOP_cn.md)
 - https://gitee.com/src-openeuler/kiran-screensaver
 - https://gitee.com/src-openeuler/kiran-authentication-service
 - https://gitee.com/src-openeuler/kiran-biometrics
+- https://gitee.com/src-openeuler/kiran-manual
+- https://gitee.com/src-openeuler/ks-ssr
+- https://gitee.com/src-openeuler/ks-scmc
+- https://gitee.com/src-openeuler/ks-scmc-gui
+- https://gitee.com/src-openeuler/ks-vaudit
 
 ## Basic Information
 
@@ -86,7 +91,6 @@ English | [简体中文](./sig-KIRAN-DESKTOP_cn.md)
 ### Committers
 - liuxingxiang
 - yuan__xing
-- Bmen
 - luoqing_kylinsec
 
 ### External Contact

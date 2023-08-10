@@ -65,3 +65,8 @@ repository地址：
 - https://gitee.com/src-openeuler/libcutl
 - https://gitee.com/src-openeuler/xsd
 - https://gitee.com/src-openeuler/kiran-desktop
+- https://gitee.com/src-openeuler/kiran-manual
+- https://gitee.com/src-openeuler/ks-ssr
+- https://gitee.com/src-openeuler/ks-scmc
+- https://gitee.com/src-openeuler/ks-scmc-gui
+- https://gitee.com/src-openeuler/ks-vaudit
