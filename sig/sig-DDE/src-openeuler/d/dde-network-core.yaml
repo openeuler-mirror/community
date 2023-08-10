@@ -1,0 +1,10 @@
+name: dde-network-core
+description: Deepin desktop-environment - network core files
+upstream: https://github.com/linuxdeepin/dde-network-core
+branches:
+- name: master
+  type: protected
+- name: openEuler-23.09
+  type: protected
+  create_from: master
+type: public

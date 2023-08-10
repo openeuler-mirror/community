@@ -128,3 +128,11 @@ repository地址：
   - https://gitee.com/src-openeuler/cryfs
   - https://gitee.com/src-openeuler/deepin-image-editor
   - https://gitee.com/src-openeuler/dtkcommon
+  - https://gitee.com/src-openeuler/dareader
+  - https://gitee.com/src-openeuler/dde-app-services
+  - https://gitee.com/src-openeuler/dde-manual-content
+  - https://gitee.com/src-openeuler/dde-network-core
+  - https://gitee.com/src-openeuler/deepin-proxy
+  - https://gitee.com/src-openeuler/deepin-screensaver
+  - https://gitee.com/src-openeuler/docparser
+  - https://gitee.com/src-openeuler/libchardet

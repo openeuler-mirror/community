@@ -1,0 +1,10 @@
+name: dde-app-services
+description: Service collection of DDE applications
+upstream: https://github.com/linuxdeepin/dde-app-services
+branches:
+- name: master
+  type: protected
+- name: openEuler-23.09
+  type: protected
+  create_from: master
+type: public

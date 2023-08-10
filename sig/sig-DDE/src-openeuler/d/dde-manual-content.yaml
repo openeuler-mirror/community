@@ -1,0 +1,10 @@
+name: dde-manual-content
+description: Manual content for Deepin Desktop Environment
+upstream: https://github.com/linuxdeepin/dde-manual-content
+branches:
+- name: master
+  type: protected
+- name: openEuler-23.09
+  type: protected
+  create_from: master
+type: public
