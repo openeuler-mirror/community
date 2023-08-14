@@ -1,0 +1,10 @@
+name: utshell
+description: utshell is a refactoring of shell.
+upstream: https://gitee.com/openeuler/utshell
+branches:
+- name: master
+  type: protected
+- name: openEuler-23.09
+  type: protected
+  create_from: master
+type: public
