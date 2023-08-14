@@ -1,0 +1,6 @@
+name: hotpatch_meta
+description: Hotpatch meta file for openEuler hotpatch CI/CD
+branches:
+- name: master
+  type: protected
+type: public
