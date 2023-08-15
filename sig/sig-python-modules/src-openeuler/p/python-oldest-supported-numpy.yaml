@@ -1,0 +1,7 @@
+name: python-oldest-supported-numpy
+description: Meta-package that provides the oldest NumPy that supports a given Python version and platform.
+upstream: https://github.com/scipy/oldest-supported-numpy
+branches:
+- name: master
+  type: protected
+type: public

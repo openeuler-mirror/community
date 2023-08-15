@@ -1,0 +1,7 @@
+name: python-sphinx-autobuild
+description: Rebuild Sphinx documentation on changes, with live-reload in the browser.
+upstream: https://github.com/executablebooks/sphinx-autobuild
+branches:
+- name: master
+  type: protected
+type: public

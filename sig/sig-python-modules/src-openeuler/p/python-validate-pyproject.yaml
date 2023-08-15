@@ -1,0 +1,7 @@
+name: python-validate-pyproject
+description: Validation library and CLI tool for checking on 'pyproject.toml' files using JSON Schema.
+upstream: https://github.com/abravalheri/validate-pyproject
+branches:
+- name: master
+  type: protected
+type: public

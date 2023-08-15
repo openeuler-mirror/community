@@ -1,0 +1,7 @@
+name: python-tokenize-rt
+description: A wrapper around the stdlib `tokenize` which roundtrips.
+upstream: https://github.com/asottile/tokenize-rt
+branches:
+- name: master
+  type: protected
+type: public

@@ -1,0 +1,7 @@
+name: python-xyzservices
+description: Source of XYZ tiles providers.
+upstream: https://github.com/geopandas/xyzservices
+branches:
+- name: master
+  type: protected
+type: public

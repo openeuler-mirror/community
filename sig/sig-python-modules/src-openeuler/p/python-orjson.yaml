@@ -1,0 +1,7 @@
+name: python-orjson
+description: Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy.
+upstream: https://github.com/ijl/orjson
+branches:
+- name: master
+  type: protected
+type: public

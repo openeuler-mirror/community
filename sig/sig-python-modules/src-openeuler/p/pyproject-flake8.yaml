@@ -1,0 +1,7 @@
+name: pyproject-flake8
+description: A monkey patching wrapper to connect flake8 with pyproject.toml configuration.
+upstream: https://github.com/csachs/pyproject-flake8
+branches:
+- name: master
+  type: protected
+type: public

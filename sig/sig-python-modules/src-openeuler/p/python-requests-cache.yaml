@@ -1,0 +1,7 @@
+name: python-requests-cache
+description: A persistent cache for python requests.
+upstream: https://github.com/requests-cache/requests-cache
+branches:
+- name: master
+  type: protected
+type: public

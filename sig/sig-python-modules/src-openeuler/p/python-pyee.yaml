@@ -1,0 +1,7 @@
+name: python-pyee
+description: A rough port of Node.js's EventEmitter to Python with a few tricks of its own.
+upstream: https://github.com/jfhbrook/pyee
+branches:
+- name: master
+  type: protected
+type: public
