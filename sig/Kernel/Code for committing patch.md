@@ -3,9 +3,10 @@ Code for committing openEuler kernel patch
 
 Revision Record
 
-| Date     | Revision Version | Section Number | Change Description | Author            |
-| -------- | ---------------- | -------------- | ------------------ | ----------------- |
-| 2023.3.8 | 1.0              |                | First draft        | Xiuqi Xie, Wei Li |
+| Date      | Revision Version | Section Number | Change Description | Author            |
+| --------- | ---------------- | -------------- | ------------------ | ----------------- |
+| 2023.3.8  | 1.0              |                | First draft        | Xiuqi Xie, Wei Li |
+| 2023.8.14 | 1.1              |                |                    | Wei Li            |
 
 1 Why use unified patch format
 ------------------------------
@@ -42,15 +43,13 @@ The format definition:
     category: $category     [M]
     bugzilla: $bug-url      [M]
     CVE: $cve-id            [O]
-    backport: $branch-list  [O]
     Reference: $refer-url   [O]
-
-    additional changelog    [O]
 
     --------------------------------
 
     original commitlog
-
+    ...
+    [additional changelog]                        [O]
     Signed-off-by:$yourname <$yourname@xxx.com>   [M]
 ```
 
@@ -90,13 +89,6 @@ The full commit id if mainline or stable inclusion, not needed for other inclusi
 
 Could be: cleanup, bugfix, performance, feature, doc, other...
 
-If category is feature, then we also suggest to add feature name like below:
-
-```
-    category: feature
-    feature: YYY (the feature name)
-```
-
 ### 2.5 $bug-url
 
 If the patch is related to bugzilla/issue, then we need add the corresponding
@@ -108,18 +100,18 @@ tag like below:
 
 ### 2.6 $cve-id
 
-If the patch is related to a CVE, then we need annotate the cve id like "CVE-2020-1234".
+If the patch is related to a CVE, then we need annotate the cve id like "CVE-2020-1234",
+otherwise please remove this tag.
 
-### 2.7 $branch-list [obsoleted]
-
-If you want your patch(es) applied by other maintainence branches automaticly,
-use this filed. $branch-list is comma separated list of branch names. If there
-are conficts when apply your patch(es) to maintainence branch, your patch(es)
-would be dropped by maintainence branch, and give a response via maillist.
-
-### 2.8 $refer-url
+### 2.7 $refer-url
 
 Provide the full url for the patch or patchset reference, if community inclusion.
+
+### 2.8 original commitlog
+
+If the patch is backported, just leave the original commitlog as it is, or you should
+
+describe your changes, see [Describe your changes — The Linux Kernel documentation](https://www.kernel.org/doc/html/latest/process/submitting-patches.html#describe-your-changes).
 
 ### 2.9 additional changelog
 
@@ -132,14 +124,9 @@ Additional changelog should include at least one of the flollwing:
 
 The detail information is very useful for porting patch to another kenrel branch or
 kernel major upgrade.
+You can also provide more details in bugzilla/issue if you want.
 
-### 2.10 original commitlog
-
-If the patch is backported, just leave the original commitlog as it is, or you should
-
-describe your changes, see [Describe your changes — The Linux Kernel documentation](https://www.kernel.org/doc/html/latest/process/submitting-patches.html#describe-your-changes).
-
-### 2.11 sign-off
+### 2.10 sign-off
 
 As the same of upstream kernel community, you also need to sign your patch, see
 
@@ -153,7 +140,7 @@ The sign-off is a simple line at the end of the explanation for the patch, like:
 
 using your real name (sorry, no pseudonyms or anonymous contributions).
 
-### 2.12 Examples
+### 2.11 Examples
 
 ```
     mainline inclusion
@@ -161,24 +148,15 @@ using your real name (sorry, no pseudonyms or anonymous contributions).
     commit 0becc0ae5b42828785b589f686725ff5bc3b9b25
     category: bugfix
     bugzilla: https://bugzilla.openeuler.org/show_bug.cgi?id=3004
-    CVE: NA
-    backport: openEuler-1.0-LTS, openEuler-20.09
-
-    The patch fixes a BUG_ON in the product: injecting single bit ECC error
-    to memory before system boot use hardware inject tools, which cause a
-    large amount of CMCI during system booting .
-
-    [    1.146580] mce: [Hardware Error]: Machine check events logged
-    [    1.152908] ------------[ cut here ]------------
-    [    1.157751] kernel BUG at kernel/timer.c:951!
-    [    1.162321] invalid opcode: 0000 [#1] SMP
-    ...
 
     -------------------------------------------------
 
     original changelog
 
     `<original S-O-B>`
+    [The patch fixes a BUG_ON: injecting single bit ECC error
+    to memory before system boot use hardware inject tools, which cause a
+    large amount of CMCI during system booting.]
     Signed-off-by: Zhang San <zhangsan@huawei.com>
     Tested-by: Li Si <lisi@huawei.com>
 ```
