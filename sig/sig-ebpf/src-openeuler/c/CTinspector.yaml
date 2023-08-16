@@ -1,0 +1,7 @@
+name: CTinspector
+upstream: https://gitee.com/openeuler/CTinspector
+description: A tool based ebpf can be used to trouble shooting the performance issue of network and OVS flow table. It can be extended easily for other issue analysis.
+branches:
+- name: master
+  type: protected
+type: public
