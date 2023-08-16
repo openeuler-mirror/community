@@ -1,0 +1,10 @@
+name: migration-tools 
+description: A tool to help users migrate the Centos system to the  openEuler system
+upstream: https://gitee.com/openeuler/migration-tools
+branches:
+- name: master
+  type: protected
+- name: openEuler-23.09
+  type: protected
+  create_from: master
+type: public
