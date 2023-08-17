@@ -1,0 +1,7 @@
+name: python-blacken-docs
+description: Run Black on Python code blocks in documentation files.
+upstream: https://github.com/asottile/blacken-docs
+branches:
+- name: master
+  type: protected
+type: public

@@ -1,0 +1,7 @@
+name: python-nox-poetry
+description: Use Poetry inside Nox sessions.
+upstream: https://github.com/cjolowicz/nox-poetry
+branches:
+- name: master
+  type: protected
+type: public

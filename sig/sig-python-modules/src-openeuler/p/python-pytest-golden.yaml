@@ -1,0 +1,7 @@
+name: python-pytest-golden
+description: Plugin for pytest that offloads expected outputs to data files.
+upstream: https://github.com/oprypin/pytest-golden
+branches:
+- name: master
+  type: protected
+type: public

@@ -1,0 +1,7 @@
+name: python-pytest-github-actions-annotate-failures
+description: Pytest plugin to annotate failed tests with a workflow command for GitHub Actions.
+upstream: https://github.com/pytest-dev/pytest-github-actions-annotate-failures
+branches:
+- name: master
+  type: protected
+type: public

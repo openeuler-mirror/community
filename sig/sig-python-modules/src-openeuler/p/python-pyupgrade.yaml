@@ -1,0 +1,7 @@
+name: python-pyupgrade
+description: A tool to automatically upgrade syntax for newer versions.
+upstream: https://github.com/asottile/pyupgrade
+branches:
+- name: master
+  type: protected
+type: public

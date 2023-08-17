@@ -1,0 +1,7 @@
+name: python-failprint
+description: Run a command, print its output only if it fails.
+upstream: https://github.com/pawamoy/failprint
+branches:
+- name: master
+  type: protected
+type: public

@@ -1,0 +1,7 @@
+name: python-sphinx-remove-toctrees
+description: Reduce your documentation build size by selectively removing toctrees from pages.
+upstream: https://github.com/executablebooks/sphinx-remove-toctrees
+branches:
+- name: master
+  type: protected
+type: public

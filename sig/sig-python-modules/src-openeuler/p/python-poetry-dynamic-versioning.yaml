@@ -1,0 +1,7 @@
+name: python-poetry-dynamic-versioning
+description: Plugin for Poetry to enable dynamic versioning based on VCS tags.
+upstream: https://github.com/mtkennerly/poetry-dynamic-versioning
+branches:
+- name: master
+  type: protected
+type: public

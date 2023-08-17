@@ -1,0 +1,7 @@
+name: python-hatch-jupyter-builder
+description: A hatch plugin to help build Jupyter packages.
+upstream: https://github.com/jupyterlab/hatch-jupyter-builder
+branches:
+- name: master
+  type: protected
+type: public

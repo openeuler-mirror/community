@@ -1,0 +1,7 @@
+name: python-autoflake
+description: Removes unused imports and unused variables.
+upstream: https://www.github.com/PyCQA/autoflake
+branches:
+- name: master
+  type: protected
+type: public

@@ -1,0 +1,7 @@
+name: python-git-changelog
+description: Automatic Changelog generator using Jinja2 templates.
+upstream: https://github.com/pawamoy/git-changelog
+branches:
+- name: master
+  type: protected
+type: public
