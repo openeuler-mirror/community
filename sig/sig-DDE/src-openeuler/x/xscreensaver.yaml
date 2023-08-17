@@ -1,0 +1,10 @@
+name: xscreensaver
+description: a collection of free screen savers for X11,macOS,iOS and Android
+upstream: https://jwz.org/xscreensaver
+branches:
+- name: master
+  type: protected
+- name: openEuler-23.09
+  type: protected
+  create_from: master
+type: public
