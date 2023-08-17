@@ -136,3 +136,4 @@ repository地址：
   - https://gitee.com/src-openeuler/deepin-screensaver
   - https://gitee.com/src-openeuler/docparser
   - https://gitee.com/src-openeuler/libchardet
+  - https://gitee.com/src-openeuler/xscreensaver
