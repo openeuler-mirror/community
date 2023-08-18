@@ -1,0 +1,10 @@
+name: chatglm.cpp
+description: Chinese models ChatGLM-6B & ChatGLM2-6B based on C/C++
+upstream: https://github.com/li-plus/chatglm.cpp
+branches:
+- name: master
+  type: protected
+- name: openEuler-23.09
+  type: protected
+  create_from: master
+type: public

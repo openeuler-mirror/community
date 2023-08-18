@@ -1,0 +1,10 @@
+name: llama.cpp
+description: Port of English lagre model LLaMA implemented based on C/C++
+upstream: https://github.com/ggerganov/llama.cpp
+branches:
+- name: master
+  type: protected
+- name: openEuler-23.09
+  type: protected
+  create_from: master
+type: public
