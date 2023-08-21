@@ -1,0 +1,10 @@
+name: appres
+description: X11 utility to print application resources
+upstream: https://gitlab.freedesktop.org/xorg/app/appres
+branches:
+- name: master
+  type: protected
+- name: openEuler-23.09
+  type: protected
+  create_from: master
+type: public
