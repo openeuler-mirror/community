@@ -12,6 +12,10 @@ maintainers:
     name: jianghaiting
     organization: Tencent
     email: jason.918@qq.com
+  - gitee_id: dingwei-hello
+    name: dingwei
+    organization: Huawei
+    email: darielw@163.com
 repositories:
   - repo:
       - src-openeuler/rocketmq
@@ -46,3 +50,18 @@ repositories:
         name: xueweiming
         organization: Webank
         email: mike_xwm@126.com
+  - repo:
+      - src-openeuler/kafka
+    committers:
+      - gitee_id: sundapeng001
+        name: sundapeng
+        organization: Chinamobile
+        email: sundapeng_yewu@cmss.chinamobile.com
+      - gitee_id: shilinlu
+        name: shilinlu
+        organization: Tencent
+        email: 476197969@qq.com
+      - gitee_id: dingwei-hello
+        name: dingwei
+        organization: Huawei
+        email: darielw@163.com

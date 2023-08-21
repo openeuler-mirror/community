@@ -28,8 +28,6 @@ The data has become the fifth factor of production after land, labor, capital an
   A Fortran library for fast updates of QR and Cholesky decompositions
 - [zookeeper](https://gitee.com/src-openeuler/zookeeper) 
   A high-performance service for building distributed applications
-- [kafka](https://gitee.com/src-openeuler/kafka) 
-  A Distributed Streaming Platform
 - [ibis](https://gitee.com/src-openeuler/ibis) 
   A toolbox to bridge the gap between local Python environments, remote storage, execution systems like Hadoop components (HDFS, Impala, Hive, Spark) and SQL databases. Its goal is to simplify analytical workflows and make you more productive.
 - [presto](https://gitee.com/src-openeuler/presto) 
