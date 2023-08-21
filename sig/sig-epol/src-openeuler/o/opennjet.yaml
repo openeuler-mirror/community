@@ -1,0 +1,7 @@
+name: opennjet
+description: OpenNJet Application Engine is based on Nginx, it provides dynamic configuration without reload, has enhancements for cloud native environment, can be used as ingress controller, sidecar or API gateway.
+upstream: https://gitee.com/njet-rd/njet
+branches:
+- name: master
+  type: protected
+type: public
