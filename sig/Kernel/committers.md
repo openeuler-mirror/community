@@ -22,7 +22,7 @@
 | 树莓派 | raspberrypi-kernel                                | [@woqidaideshi](https://gitee.com/woqidaideshi) |
 | ACPI   | drivers/acpi/                                                | [@guohanjun](https://gitee.com/hanjun_guo) [@wangxiongfeng](https://gitee.com/wangxiongfeng) |
 | MPAM   | arch/arm64/kernel/mpam<br/>drivers/acpi/arm64/mpam<br/>fs/resctrlfs | [@jentlestea](https://gitee.com/jentlestea)   |
-| risc-v | arch/risc-v/*                                                | [@whoisxxx](https://gitee.com/whoisxxx)      |
+| risc-v | arch/risc-v/*                                                | [@whoisxxx](https://gitee.com/whoisxxx)  [@xingmz](https://gitee.com/xingmz)    |
 | smmu   | drivers/iommu/arm-smmu*<br />drivers/iommu/io-pgtable-arm*   | [@ThunderTown](https://gitee.com/ThunderTown)       |
 
 
