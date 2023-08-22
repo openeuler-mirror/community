@@ -36,6 +36,8 @@ Describe the Mission and objectives of the new SIG, including but not limited to
   - material: source codes, tar;
 - EventMesh:
   - material: source codes, tar;
+- Kafka:
+  - material: source codes, tar;
 
 ### Cross-domain and external-oriented processes
 
