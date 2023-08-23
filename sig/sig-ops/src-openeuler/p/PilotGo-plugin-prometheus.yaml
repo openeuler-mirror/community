@@ -1,0 +1,10 @@
+name: PilotGo-plugin-prometheus
+description: PilotGo prometheus plugin provides cluster monitor and alert.
+upstream: https://gitee.com/openeuler/PilotGo-plugin-prometheus
+branches:
+- name: master
+  type: protected
+- name: openEuler-23.09
+  type: protected
+  create_from: master
+type: public

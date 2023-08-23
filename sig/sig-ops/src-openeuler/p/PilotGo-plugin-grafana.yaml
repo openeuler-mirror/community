@@ -1,0 +1,10 @@
+name: PilotGo-plugin-grafana
+description: PilotGo grafana plugin maintains grafana to provide beautiful visual monitoring interface.
+upstream: https://gitee.com/openeuler/PilotGo-plugin-grafana
+branches:
+- name: master
+  type: protected
+- name: openEuler-23.09
+  type: protected
+  create_from: master
+type: public
