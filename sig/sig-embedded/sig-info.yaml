@@ -14,21 +14,6 @@ maintainers:
   email: fanglinxu@huawei.com
 repositories:
 - repo:
-  - openeuler/dsoftbus_standard
-  repo_admin:
-  - gitee_id: vonhust
-    name: Wayne Ren
-    email: 191362693@qq.com
-  committers:
-  - gitee_id: hmilylmk
-    name: Mingkai Liu
-    email: liumingkai@huawei.com
-  contributors:
-  - gitee_id: soulpoet
-    name: Liming Zheng
-    email: zhengliming3@huawei.com
-repositories:
-- repo:
   - openeuler/embedded-ipc
   repo_admin:
   - gitee_id: vonhust
@@ -80,15 +65,6 @@ repositories:
   - src-openeuler/embedded-kernel
   - src-openeuler/libftdi
   - src-openeuler/urjtag
-- repo:
-  - src-openeuler/dsoftbus
-  contributors:
-  - gitee_id: xuchongyu
-    name: Chongyu Xu
-    email: xuchongyu9@huawei.com
-  - gitee_id: liheavy
-    name: Haiwei Li
-    email: lihaiwei8@huawei.com
 - repo:
   - openeuler/etipc
   contributors:
