@@ -1,0 +1,7 @@
+name: Cpds
+description: CPDS container fault detection system, which realizes monitoring and identification of container TOP faults and sub health detection.
+upstream: https://gitee.com/openeuler/Cpds
+branches:
+- name: master
+  type: protected
+type: public
