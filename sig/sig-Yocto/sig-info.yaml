@@ -68,6 +68,19 @@ repositories:
     name: Liming Zheng
     email: zhengliming3@huawei.com
 - repo:
+  - openeuler/yocto-meta-rockchip
+  repo_admin:
+  - gitee_id: vonhust
+    name: Wayne Ren
+    email: 191362693@qq.com
+  committers:
+  - gitee_id: emancipator
+    name: Qifeng Liang
+    email: liangqifeng@ncti-gba.cn
+  - gitee_id: lxy1579
+    name: Xiaoyong Li
+    email: lixiaoyong19@huawei.com
+- repo:
   - src-openeuler/yocto-poky
   - src-openeuler/yocto-pseudo
   - src-openeuler/yocto-opkg-utils
