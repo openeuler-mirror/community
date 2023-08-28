@@ -613,7 +613,6 @@ repositories:
   - src-openeuler/opensc
   - src-openeuler/osinfo-db
   - src-openeuler/osinfo-db-tools
-  - src-openeuler/php
   - src-openeuler/powertop
   - src-openeuler/pv
   - src-openeuler/pyliblzma
@@ -655,6 +654,13 @@ repositories:
     name: chenqide
     organization: kylinos
     email: dillon.chen@gmail.com
+
+- repo: 
+  - src-openeuler/php
+  committers:
+  - gitee_id: fundawang
+    name: fundawang
+    email: fundawang@yeah.net
 
 - repo: #for C11 Annex K extension
   - openeuler/libboundscheck
