@@ -1,0 +1,9 @@
+name: cpds-agent
+description: Cpds agent is an information collection component developed for the Container 
+  Problem Detection System (CPDS) container fault detection system. This component collects 
+  the data required by the cpds detector (anomaly detection component) accordingly.
+upstream: https://gitee.com/openeuler/cpds-agent
+branches:
+- name: master
+  type: protected
+type: public
