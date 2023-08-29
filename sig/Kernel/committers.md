@@ -82,7 +82,7 @@
 | 模块<img width=40/>   | 文件<img width=300/>                       | Committer(s) <img width=200/>                     |
 | --------- | ------------------------------------------------------------ | ---------------------- |
 | packaging | src-openeuler/kernel/\*                                       | [@wuxu](https://gitee.com/wuxu_buque)            |
-| configs   | arch/x86/configs/openeuler_defconfig<br/>arch/arm64/configs/openeuler_defconfig | [@xiexiuqi](https://gitee.com/xiexiuqi)  [@wuxu](https://gitee.com/wuxu_buque) |
+| configs   | arch/x86/configs/openeuler_defconfig<br/>arch/arm64/configs/openeuler_defconfig | [@xiexiuqi](https://gitee.com/xiexiuqi)  [@wuxu](https://gitee.com/wuxu_buque) [@zhangjialin11](https://gitee.com/zhangjialin11) [@zhang-changzhong](https://gitee.com/zhang-changzhong) [@hitmoon](https://gitee.com/hitmoon) |
 
 ## drivers
 
