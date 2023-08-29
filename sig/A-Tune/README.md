@@ -73,5 +73,4 @@ repository地址：
 - https://gitee.com/src-openeuler/python-estimator
 - https://gitee.com/src-openeuler/python-Keras
 - https://gitee.com/src-openeuler/python-keras-rl2
-- https://gitee.com/src-openeuler/python-flatbuffers
 - https://gitee.com/src-openeuler/sysdig
