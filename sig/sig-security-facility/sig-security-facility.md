@@ -38,6 +38,15 @@ Sig-security mainly discusses the existing or future planned security technologi
 
 - xuyizhou
 
+- fly2x
+
+- xuhuiyue
+
+- lanming1120
+
+- liwei3013
+
+- dumbdog
 
 ### Deliverables
 
@@ -47,6 +56,7 @@ What and in what form the SIG is responsible for delivering
   - openeuler/ksc-defender
   - openeuler/attest-tools
   - openeuler/digest-list-tools
+  - openeuler/openssl
   - src-openeuler/ksc-defender
   - src-openeuler/attest-tools
   - src-openeuler/digest-list-tools
