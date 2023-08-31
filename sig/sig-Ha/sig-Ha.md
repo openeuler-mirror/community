@@ -36,6 +36,7 @@ The repositories related to Ha are listed below, see http://archive.kernel.org/c
 
 - https://gitee.com/src-openeuler/pacemaker
 - https://gitee.com/src-openeuler/corosync
+- https://gitee.com/src-openeuler/dlm
 - https://gitee.com/src-openeuler/fence-agents
 - https://gitee.com/src-openeuler/fence-virt
 - https://gitee.com/src-openeuler/sbd
