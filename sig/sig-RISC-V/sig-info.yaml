@@ -46,36 +46,25 @@ maintainers:
   name: Xin Liu
   organization: iscas
   email: liuxin@iscas.ac.cn
+- gitee_id: jchzhou
+  name: Jiacheng Zhou
+  organization: iscas
+  email: zhoujiacheng@iscas.ac.cn
 
 repositories:
 - repo:
   - openeuler/RISC-V
   committers:
-  - gitee_id: misaka00251
-    name: Xin Liu
-    organization: iscas
-    email: liuxin@iscas.ac.cn
   - gitee_id: Jingwiw
     name: Jingwei Wang
     organization: iscas
     email: wangjingwei@iscas.ac.cn
-  - gitee_id: jchzhou
-    name: Jiacheng Zhou
-    organization: iscas
-    email: zhoujiacheng@iscas.ac.cn
-  - gitee_id: lvxiaoqian
-    name: Xiaoqian Lv
-    organization: iscas
-    email: xiaoqian@nj.iscas.ac.cn
-  - gitee_id: jean9823
-    name: Jie Wu
-    organization: iscas
-    email: wujie@nj.iscas.ac.cn
   - gitee_id: yunxiangluo
     name: Yunxiang Luo
     organization: iscas
     email: luoyunxiang@iscas.ac.cn
-  
+
+
 - repo:
   - src-openeuler/opensbi
   committers:
@@ -265,7 +254,3 @@ repositories:
     name: Jiacheng Zhou
     organization: iscas
     email: zhoujiacheng@iscas.ac.cn
-  - gitee_id: lvxiaoqian
-    name: Xiaoqian Lv
-    organization: iscas
-    email: xiaoqian@nj.iscas.ac.cn
