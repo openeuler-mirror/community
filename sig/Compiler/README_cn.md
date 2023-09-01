@@ -212,6 +212,12 @@ Compiler SIG 每双周周二上午10:00进行线上例会，也会定期举办�
    - Committers
      - 朱 佳梦[@JiamengZ](https://gitee.com/JiamengZ) email: zhujiameng@huawei.com
      - 章 旭东[@z-xu-dong-zhang](https://gitee.com/z-xu-dong-zhang) email: zxudong.zhang@huawei.com
+ - [pin-for-openEuler](https://gitee.com/openeuler/pin-for-openEuler)
+ - [src-openeuler/pin-for-openEuler](https://gitee.com/src-openeuler/pin-for-openEuler)
+   - Maintainers
+     - 李 彦成[@li-yancheng](https://gitee.com/li-yancheng) 邮箱: liyancheng@huawei.com
+   - Committers
+     - 伍 明川[@wumingchuan](https://gitee.com/wumingchuan) 邮箱: wumingchuan1@huawei.com
 
 ## 联系
  - [邮件列表](mailto:compiler@openeuler.org)
