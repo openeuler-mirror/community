@@ -56,5 +56,9 @@ Note: The Charter of this SIG follows the convention described in the openEuler 
 
   - [Intel-lkvs](https://gitee.com/openeuler/intel-lkvs): lkvs related development work are hosted here.
 
+  - [Intel-ice](https://gitee.com/openeuler/intel-ice): Intel Network Adapter Driver for Intel E810 Series Devices.
+
+  - [Intel-iavf](https://gitee.com/openeuler/intel-iavf): Intel Network Adapter Virtual Function Driver for Intel E810 Series Devices.
+
 - Documentation
   - [Intel-Arch-doc](https://gitee.com/openeuler/Intel-Arch-doc): documents regarding Intel arch support in openEuler, such as current status, roadmap, technical document.
