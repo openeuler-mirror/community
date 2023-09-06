@@ -179,6 +179,9 @@ Compiler SIG 每双周周二上午10:00进行线上例会，也会定期举办�
    - Committers
      - 范 长春[@fanchangchun](https://gitee.com/fanchangchun) 邮箱: fanchangchun@huawei.com
      - 汪 焰韬[@plt42](https://gitee.com/plt42) 邮箱: wangyantao4@huawei.com
+ - [OpenArkCompiler](https://gitee.com/openeuler/OpenArkCompiler)
+   - Committers
+     - 孙 子博[@sunzibo](https://gitee.com/sunzibo) 邮箱: sunzibo@huawei.com
  - [pin-server](https://gitee.com/openeuler/pin-server)
  - [src-openeuler/pin-server](https://gitee.com/src-openeuler/pin-server)
    - Maintainers

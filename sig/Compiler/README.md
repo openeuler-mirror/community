@@ -179,6 +179,9 @@ Tuesday 10 am bi-weekly, UTC+8.
    - Committers
      - 范 长春[@fanchangchun](https://gitee.com/fanchangchun) email: fanchangchun@huawei.com
      - 汪 焰韬[@plt42](https://gitee.com/plt42) email: wangyantao4@huawei.com
+ - [OpenArkCompiler](https://gitee.com/openeuler/OpenArkCompiler)
+   - Committers
+     - 孙 子博[@sunzibo](https://gitee.com/sunzibo) 邮箱: sunzibo@huawei.com
  - [pin-server](https://gitee.com/openeuler/pin-server)
  - [src-openeuler/pin-server](https://gitee.com/src-openeuler/pin-server)
    - Maintainers
