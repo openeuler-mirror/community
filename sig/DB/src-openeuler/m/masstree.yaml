@@ -1,0 +1,7 @@
+name: masstree
+description: A fast and multi-core key-value store, which is used by openGauss-server with MOT enabled.
+upstream: https://github.com/kohler/masstree-beta
+branches:
+- name: master
+  type: protected
+type: public
