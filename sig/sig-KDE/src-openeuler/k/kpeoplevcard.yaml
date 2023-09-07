@@ -1,0 +1,10 @@
+name: kpeoplevcard
+description: Expose VCard contacts to KPeople
+upstream: https://github.com/KDE/kpeoplevcard
+branches:
+- name: master
+  type: protected
+- name: openEuler-23.09
+  type: protected
+  create_from: master
+type: public
