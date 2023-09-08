@@ -115,3 +115,4 @@ Project names && repository location：
 - https://gitee.com/src-openeuler/apache-orc
 - https://gitee.com/src-openeuler/cjson
 - https://gitee.com/src-openeuler/openGemini
+- https://gitee.com/openeuler/cantian
