@@ -1,0 +1,7 @@
+name: sbsigntools 
+description: Signing utility for UEFI secure boot
+upstream: https://git.kernel.org/pub/scm/linux/kernel/git/jejb/sbsigntools.git
+branches:
+- name: master
+  type: protected
+type: public
