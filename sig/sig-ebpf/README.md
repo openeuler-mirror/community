@@ -65,6 +65,8 @@ eBPF sig致力于为广大用户、开发者、爱好者提供便捷、完备eBP
 - [luzhihao](https://gitee.com/MrRlu)
 - [xiesongyang](https://gitee.com/supercharge)
 - [huangliming](https://gitee.com/LemmyHuang)
+- [tongyuxiang](https://gitee.com/tongyx633)
+- [songyanling](https://gitee.com/songyanling)
 
 
 ## 联系方式
@@ -83,6 +85,7 @@ repository地址：
 - https://gitee.com/openeuler/Kmesh
 - https://gitee.com/openeuler/gala-gopher
 - https://gitee.com/openeuler/CTinspector
+- https://gitee.com/openeuler/safeguard
 
 roadmap:
 ```
