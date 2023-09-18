@@ -91,7 +91,7 @@ dnf install -y tar vim
 ## Server 节点安装
 
 - 使用 install 脚本安装 RFO  
-  `curl -sfL https://gitee.com/rfolabs/rfo/raw/rfo-master/install-rfo.sh | INSTALL_RFO_VERSION="v1.26.3+rfor1" sh -`
+  `curl -sfL https://gitee.com/rfolabs/rfo/raw/rfo-master/install-rfo.sh | INSTALL_RFO_VERSION="v1.27.5+rfor1" sh -`
 - 启用 rfo-server 服务  
   `systemctl enable rfo-server.service`
 - 启动 rfo-server 服务  
@@ -112,7 +112,7 @@ dnf install -y tar vim
 ## Agent 节点安装
 
 - 运行安装程序  
-  `curl -sfL https://gitee.com/rfolabs/rfo/raw/rfo-master/install-rfo.sh | INSTALL_RFO_VERSION="v1.26.3+rfor1" INSTALL_RFO_TYPE="agent" sh -`
+  `curl -sfL https://gitee.com/rfolabs/rfo/raw/rfo-master/install-rfo.sh | INSTALL_RFO_VERSION="v1.27.5+rfor1" INSTALL_RFO_TYPE="agent" sh -`
 - 启用 rfo-agent 服务  
   `systemctl enable rfo-agent.service`
 - 配置 rfo-agent 服务
@@ -165,17 +165,20 @@ RFO 于 2022 年 11 月底发布 GA 版本，其中 v1.23/v1.24/v1.25 主版本�
 
 | 主版本     | K8s 发布时间 | RFO 分发时间 | Active Support | Maintenance Support | Latest         |
 | ---------- | ------------ | ------------ | -------------- | ------------------- | -------------- |
-| v1.27      | 11 Apr 2023  | 26 Apr 2023  | 28 May 2024    | 28 Jul 2024         | v1.27.1+rfor1  |
-| v1.26      | 08 Dec 2022  | 29 Jan 2023  | 28 Jan 2024    | 28 Mar 2024         | v1.26.4+rfor1  |
-| v1.25      | 23 Aug 2022  | 29 Nov 2022  | 27 Set 2023    | 27 Nov 2023         | v1.25.9+rfor1  |
-| v1.24      | 03 May 2022  | 29 Nov 2022  | 28 Jun 2023    | 28 Oct 2023         | v1.24.13+rfor1 |
-| v1.23(EoM) | 07 Dec 2021  | 25 Nov 2022  | 28 Jan 2023    | 28 Mar 2023         | v1.23.17+rfor1 |
+| v1.28      | 15 Aug 2023  | 18 Set 2023  | 28 Set 2024    | 28 Nov 2024         | v1.28.1+rfor1  |
+| v1.27      | 11 Apr 2023  | 26 Apr 2023  | 28 May 2024    | 28 Jul 2024         | v1.27.5+rfor1  |
+| v1.26      | 08 Dec 2022  | 29 Jan 2023  | 28 Jan 2024    | 28 Mar 2024         | v1.26.8+rfor1  |
+| v1.25      | 23 Aug 2022  | 29 Nov 2022  | 27 Set 2023    | 27 Nov 2023         | v1.25.13+rfor1 |
+| v1.24(EoM) | 03 May 2022  | 29 Nov 2022  | 28 Jun 2023    | 28 Aug 2023         | v1.24.17+rfor1 |
 
 ```mermaid
 gantt
     title RFO Support Lifecycle
     dateFormat  YYYY-MM-DD
     axisFormat %Y-%m
+    section v1.28
+    Support: active, a5,2023-09-18, 2024-09-28
+    Maintain: after a5, 2024-11-28
     section v1.27
     Support: active, a1,2023-04-26, 2024-05-28
     Maintain: after a1, 2024-07-28
@@ -186,11 +189,8 @@ gantt
     Support: active, a3,2022-11-29, 2023-09-27
     Maintain: after a3, 2023-11-27
     section v1.24
-    Support: active, a4,2022-11-29, 2023-06-28
-    Maintain: after a4, 2023-08-28
-    section v1.23
-    Support: done, a5,2022-11-25, 2023-01-28
-    Maintain: done, after a5, 2023-03-28
+    Support: done, a4,2022-11-29, 2023-06-28
+    Maintain: done, after a4, 2023-08-28
 
 ```
 
