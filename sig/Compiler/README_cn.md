@@ -87,7 +87,7 @@ Compiler SIG 每双周周二上午10:00进行线上例会，也会定期举办�
    - Committers
      - 章 海剑[@Haijian.Zhang](https://gitee.com/haijianzhang) 邮箱: z.zhanghaijian@huawei.com
      - 黄 晓权[@huang-xiaoquan](https://gitee.com/huang-xiaoquan) 邮箱: huangxiaoquan1@huawei.com
-     - 林   达[@benniaobufeijiushiji](https://gitee.com/benniaobufeijiushiji) 邮箱: linda7@huawei.com
+     - 丁 光亚[@dguangya](https://gitee.com/dguangya) 邮箱: dingguangya1@huawei.com
  - [gcc-anti-sca](https://gitee.com/openeuler/gcc-anti-sca)
    - Maintainers
      - 谢 志恒[@eastb233](https://gitee.com/eastb233) 邮箱: xiezhiheng@huawei.com
