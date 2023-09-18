@@ -87,7 +87,7 @@ Tuesday 10 am bi-weekly, UTC+8.
    - Committers
      - 章 海剑[@Haijian.Zhang](https://gitee.com/haijianzhang) email: z.zhanghaijian@huawei.com
      - 黄 晓权[@huang-xiaoquan](https://gitee.com/huang-xiaoquan) email: huangxiaoquan1@huawei.com
-     - 林   达[@benniaobufeijiushiji](https://gitee.com/benniaobufeijiushiji) email: linda7@huawei.com
+     - 丁 光亚[@dguangya](https://gitee.com/dguangya) email: dingguangya1@huawei.com
  - [gcc-anti-sca](https://gitee.com/openeuler/gcc-anti-sca)
    - Maintainers
      - 谢 志恒[@eastb233](https://gitee.com/eastb233) email: xiezhiheng@huawei.com
