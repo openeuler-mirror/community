@@ -1,0 +1,9 @@
+name: cpds-detector
+description: This component analyzes the original data of each node in the cluster based on the exception rules 
+  issued by the CPDS analyzer (container fault/sub health diagnosis component) to 
+  detect whether there are any abnormalities in the nodes
+upstream: https://gitee.com/openeuler/cpds-detector
+branches:
+- name: master
+  type: protected
+type: public

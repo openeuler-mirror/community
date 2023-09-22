@@ -90,10 +90,10 @@ repositories:
     name: xiaoquan Huang
     organization: Huawei
     email: huangxiaoquan1@huawei.com
-  - gitee_id: benniaobufeijiushiji
-    name: da Lin
+  - gitee_id: dguangya
+    name: guangya Ding
     organization: Huawei
-    email: linda7@huawei.com
+    email: dingguangya1@huawei.com
 - repo:
   - openeuler/gcc-anti-sca
   - src-openeuler/ccache
@@ -214,6 +214,13 @@ repositories:
     organization: Huawei
     email: wangyantao4@huawei.com
 - repo:
+  - openeuler/OpenArkCompiler
+  committers:
+  - gitee_id: sunzibo
+    name: zibo Sun
+    organization: Huawei
+    email: sunzibo@huawei.com
+- repo:
   - src-openeuler/llvm-mlir
   - src-openeuler/mlir-15
   committers:
@@ -262,10 +269,12 @@ repositories:
 - repo:
   - openeuler/pin-gcc-client
   - openeuler/pin-server
+  - openeuler/pin-for-openEuler
   - src-openeuler/pin-gcc-client
   - src-openeuler/pin-server
+  - src-openeuler/pin-for-openEuler
   committers:
-  - gitee_id: wumingchuan 
+  - gitee_id: wumingchuan
     name: mingchuan Wu
     organization: Huawei
     email: wumingchuan1@huawei.com

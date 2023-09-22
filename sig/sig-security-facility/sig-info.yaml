@@ -153,6 +153,8 @@ repositories:
   - openeuler/attest-tools
   - openeuler/dim_tools
   - src-openeuler/dim_tools
+  - openeuler/dim
+  - src-openeuler/dim
   - src-openeuler/pesign-obs-integration
   - src-openeuler/tss2
   - src-openeuler/openssl_tpm2_engine
@@ -232,4 +234,53 @@ repositories:
     name: guoyayun
     organization: cmss
     email: guoyayun_yewu@cmss.chinamobile.com
+
+- repo:
+  - openeuler/openssl
+  committers:
+  - gitee_id: fly2x
+    name: zhanglongfei
+    organization: Huawei
+    email: fly2x@hitls.org
+  - gitee_id: xuhuiyue
+    name: xuhuiyue
+    organization: Huawei
+    email: xuhuiyue@foxmail.com
+  - gitee_id: lanming1120
+    name: lanming
+    organization: Huawei
+    email: lanming1120@126.com
+  - gitee_id: liwei3013
+    name: liwei
+    organization: Huawei
+    email: liwei3013@126.com
+  - gitee_id: dumbdog
+    name: liuermeng
+    organization: Huawei
+    email: lemlinkinpark@126.com
+
+- repo:
+  - openeuler/secDetector
+  - src-openeuler/secDetector
+  committers:
+  - gitee_id: zcfsite
+    name: zhangchenfeng
+    organization: Huawei
+    email: zhchf2010@126.com
+  - gitee_id: chenjingwen6
+    name: chenjingwen
+    organization: Huawei
+    email: lhchenjw@gmail.com
+  - gitee_id: yieux
+    name: yangxueyi
+    organization: Huawei
+    email: yangxy79315@sina.com 
+  - gitee_id: pengyuan-yewu
+    name: pengyuan
+    organization: cmss
+    email: pengyuan_yewu@cmss.chinamobile.com
+  - gitee_id: movie0125
+    name: mawei
+    organization: uniontech
+    email: mawei@uniontech.com
 

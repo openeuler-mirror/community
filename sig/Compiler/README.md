@@ -87,7 +87,7 @@ Tuesday 10 am bi-weekly, UTC+8.
    - Committers
      - 章 海剑[@Haijian.Zhang](https://gitee.com/haijianzhang) email: z.zhanghaijian@huawei.com
      - 黄 晓权[@huang-xiaoquan](https://gitee.com/huang-xiaoquan) email: huangxiaoquan1@huawei.com
-     - 林   达[@benniaobufeijiushiji](https://gitee.com/benniaobufeijiushiji) email: linda7@huawei.com
+     - 丁 光亚[@dguangya](https://gitee.com/dguangya) email: dingguangya1@huawei.com
  - [gcc-anti-sca](https://gitee.com/openeuler/gcc-anti-sca)
    - Maintainers
      - 谢 志恒[@eastb233](https://gitee.com/eastb233) email: xiezhiheng@huawei.com
@@ -179,18 +179,21 @@ Tuesday 10 am bi-weekly, UTC+8.
    - Committers
      - 范 长春[@fanchangchun](https://gitee.com/fanchangchun) email: fanchangchun@huawei.com
      - 汪 焰韬[@plt42](https://gitee.com/plt42) email: wangyantao4@huawei.com
+ - [OpenArkCompiler](https://gitee.com/openeuler/OpenArkCompiler)
+   - Committers
+     - 孙 子博[@sunzibo](https://gitee.com/sunzibo) 邮箱: sunzibo@huawei.com
  - [pin-server](https://gitee.com/openeuler/pin-server)
  - [src-openeuler/pin-server](https://gitee.com/src-openeuler/pin-server)
    - Maintainers
      - 李 彦成[@li-yancheng](https://gitee.com/li-yancheng) email: liyancheng@huawei.com
    - Committers
-     - 伍 明川[@wumingchuan](https://gitee.com/wumingchuan) 邮箱: wumingchuan1@huawei.com
+     - 伍 明川[@wumingchuan](https://gitee.com/wumingchuan) email: wumingchuan1@huawei.com
  - [pin-gcc-client](https://gitee.com/openeuler/pin-gcc-client)
- - [src-openeuler/pin-server](https://gitee.com/src-openeuler/pin-gcc-client)
+ - [src-openeuler/pin-gcc-client](https://gitee.com/src-openeuler/pin-gcc-client)
    - Maintainers
      - 李 彦成[@li-yancheng](https://gitee.com/li-yancheng) email: liyancheng@huawei.com
    - Committers
-     - 伍 明川[@wumingchuan](https://gitee.com/wumingchuan) 邮箱: wumingchuan1@huawei.com
+     - 伍 明川[@wumingchuan](https://gitee.com/wumingchuan) email: wumingchuan1@huawei.com
  - [llvm-mlir](https://gitee.com/src-openeuler/llvm-mlir)
  - [mlir-15](https://gitee.com/src-openeuler/mlir-15)
    - Maintainers
@@ -212,6 +215,12 @@ Tuesday 10 am bi-weekly, UTC+8.
    - Committers
      - 朱 佳梦[@JiamengZ](https://gitee.com/JiamengZ) email: zhujiameng@huawei.com
      - 章 旭东[@z-xu-dong-zhang](https://gitee.com/z-xu-dong-zhang) email: zxudong.zhang@huawei.com
+ - [pin-for-openEuler](https://gitee.com/openeuler/pin-for-openEuler)
+ - [src-openeuler/pin-for-openEuler](https://gitee.com/src-openeuler/pin-for-openEuler)
+   - Maintainers
+     - 李 彦成[@li-yancheng](https://gitee.com/li-yancheng) email: liyancheng@huawei.com
+   - Committers
+     - 伍 明川[@wumingchuan](https://gitee.com/wumingchuan) email: wumingchuan1@huawei.com
 
 ## Contact
  - [maillist](mailto:compiler@openeuler.org)

@@ -1,0 +1,9 @@
+name: x2nestos
+description: "A quick deployment tool for converting a general OS (Like openEuler) to NestOS, suitable for scenarios where it is not convenient to reboot or convert in large quantities. Attention: It's not a migration tools and do NOT preserve disk data."
+branches:
+- name: master
+  type: protected
+- name: dev
+  type: protected
+  create_from: master
+type: public

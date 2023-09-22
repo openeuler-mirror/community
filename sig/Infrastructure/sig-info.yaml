@@ -58,7 +58,12 @@ repositories:
   - openeuler/go-gitee
   - openeuler/gitbook-theme-hugo
   - openeuler/tool-collections
+- repo:
   - openeuler/cve-manager
+  committers:
+  - gitee_id: mywaaagh_admin
+    name: lichaoran
+    email: pkwarcraft@hotmail.com
 - repo:
   - openeuler/cve-ease
   - src-openeuler/cve-ease

@@ -87,7 +87,7 @@ Compiler SIG 每双周周二上午10:00进行线上例会，也会定期举办�
    - Committers
      - 章 海剑[@Haijian.Zhang](https://gitee.com/haijianzhang) 邮箱: z.zhanghaijian@huawei.com
      - 黄 晓权[@huang-xiaoquan](https://gitee.com/huang-xiaoquan) 邮箱: huangxiaoquan1@huawei.com
-     - 林   达[@benniaobufeijiushiji](https://gitee.com/benniaobufeijiushiji) 邮箱: linda7@huawei.com
+     - 丁 光亚[@dguangya](https://gitee.com/dguangya) 邮箱: dingguangya1@huawei.com
  - [gcc-anti-sca](https://gitee.com/openeuler/gcc-anti-sca)
    - Maintainers
      - 谢 志恒[@eastb233](https://gitee.com/eastb233) 邮箱: xiezhiheng@huawei.com
@@ -179,6 +179,9 @@ Compiler SIG 每双周周二上午10:00进行线上例会，也会定期举办�
    - Committers
      - 范 长春[@fanchangchun](https://gitee.com/fanchangchun) 邮箱: fanchangchun@huawei.com
      - 汪 焰韬[@plt42](https://gitee.com/plt42) 邮箱: wangyantao4@huawei.com
+ - [OpenArkCompiler](https://gitee.com/openeuler/OpenArkCompiler)
+   - Committers
+     - 孙 子博[@sunzibo](https://gitee.com/sunzibo) 邮箱: sunzibo@huawei.com
  - [pin-server](https://gitee.com/openeuler/pin-server)
  - [src-openeuler/pin-server](https://gitee.com/src-openeuler/pin-server)
    - Maintainers
@@ -212,6 +215,12 @@ Compiler SIG 每双周周二上午10:00进行线上例会，也会定期举办�
    - Committers
      - 朱 佳梦[@JiamengZ](https://gitee.com/JiamengZ) email: zhujiameng@huawei.com
      - 章 旭东[@z-xu-dong-zhang](https://gitee.com/z-xu-dong-zhang) email: zxudong.zhang@huawei.com
+ - [pin-for-openEuler](https://gitee.com/openeuler/pin-for-openEuler)
+ - [src-openeuler/pin-for-openEuler](https://gitee.com/src-openeuler/pin-for-openEuler)
+   - Maintainers
+     - 李 彦成[@li-yancheng](https://gitee.com/li-yancheng) 邮箱: liyancheng@huawei.com
+   - Committers
+     - 伍 明川[@wumingchuan](https://gitee.com/wumingchuan) 邮箱: wumingchuan1@huawei.com
 
 ## 联系
  - [邮件列表](mailto:compiler@openeuler.org)

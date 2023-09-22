@@ -1,0 +1,10 @@
+name: pin-for-openEuler
+description: plugin framework for compiler released as a binary package for openEuler and other OSes.
+upstream: https://gitee.com/openeuler/pin-for-openEuler
+branches:
+- name: master
+  type: protected
+- name: oepkg_pin-for-openEuler_oe-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
