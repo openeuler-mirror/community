@@ -5,9 +5,7 @@ This is a sanity checking tool for openEuler community database
 import yaml
 import sys
 import argparse
-import os.path
 import os
-import subprocess
 
 def load_yaml(d, f):
     """
