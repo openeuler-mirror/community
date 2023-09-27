@@ -1,0 +1,7 @@
+name: libreoffice-share-linker
+description: 'link/unlink files to libreoffice home'
+upstream: http://www.openoffice.org/
+branches:
+- name: master
+  type: protected
+type: public
