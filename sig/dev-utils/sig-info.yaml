@@ -128,7 +128,6 @@ repositories:
   - src-openeuler/bridge-method-injector
   - src-openeuler/nodejsporter
   - src-openeuler/grizzly
-  - src-openeuler/rubyporter
   - src-openeuler/colm
   - src-openeuler/p7zip
   - src-openeuler/memwatch
@@ -290,8 +289,6 @@ repositories:
   - src-openeuler/cryptacular
   - src-openeuler/cfitsio
   - src-openeuler/cglib
-  - src-openeuler/pyporter
-  - src-openeuler/perlporter
   - src-openeuler/portlet-2.0-api
   - src-openeuler/physfs
   - src-openeuler/pkgporter
@@ -402,6 +399,19 @@ repositories:
     name: Yang Shen
     organization: Huawei
     email: shenyang39@huawei.com
+- repo:
+  - src-openeuler/pyporter
+  - src-openeuler/perlporter
+  - src-openeuler/rubyporter
+  committers:
+  - gitee_id: caodongxia
+    name: dongxia Cao
+    organization: Huawei
+    email: caodongxia@h-partners.com
+  - gitee_id: mywaaagh_admin
+    name: Li Chaoran
+    organization: Huawei
+    email: pkwarcraft@hotmail.com
 
 - repo:
   - openeuler/memwatch
