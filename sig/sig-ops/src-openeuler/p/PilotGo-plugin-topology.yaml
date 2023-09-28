@@ -1,0 +1,10 @@
+name: PilotGo-plugin-topology
+description: system application architecture detection.
+upstream: https://gitee.com/openeuler/PilotGo-plugin-topology
+branches:
+- name: master
+  type: protected
+- name: openEuler-23.09
+  type: protected
+  create_from: master
+type: public
