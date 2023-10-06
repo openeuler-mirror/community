@@ -37,6 +37,14 @@
   - 交付形式：源代码、tar包；
 - Kafka：
   - 交付形式：源代码、tar包;
+- mqtt-proxy：
+  - 交付形式：源代码、tar包;
+- amqp-proxy：
+  - 交付形式：源代码、tar包;
+- rocketmq-operator：
+  - 交付形式：源代码、tar包;
+- mqtt-operator：
+  - 交付形式：源代码、tar包;
 
  ### 跨领域和面向外部的流程
 

@@ -38,6 +38,14 @@ Describe the Mission and objectives of the new SIG, including but not limited to
   - material: source codes, tar;
 - Kafka:
   - material: source codes, tar;
+- mqtt-proxy：
+  - material: source codes, tar;
+- amqp-proxy：
+  - material: source codes, tar;
+- rocketmq-operator：
+  - material: source codes, tar;
+- mqtt-operator：
+  - material: source codes, tar;
 
 ### Cross-domain and external-oriented processes
 
