@@ -28,7 +28,7 @@
 - yangxianzhao[@yangxiaozhao](https://gitee.com/xzyangha)
 - 小柿子[@liyf](https://gitee.com/liyf)
 - weidongkl[@weidongkl](https://gitee.com/weidongkl)
-- liweigang[@liweigang](https://gitee.com/leeffo)
+- 李伟刚[@open-bot](https://gitee.com/open-bot)
 
 
 
@@ -40,7 +40,7 @@
 
 - yangxiaoxuan@uniontech.com
 
-- liweigang@uniontech.com
+- open_bot@yeah.net
 
 - weidong@uniontech.com
 
