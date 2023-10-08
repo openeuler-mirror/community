@@ -1,0 +1,10 @@
+name: umdk
+description: The Unified Memory Development Kit(UMDK) is a set of distributed communication software stack
+  with memory semantics as the core. It aims to design a new-generation network architecture through
+  software-hardware collaboration, subvert the traditional communication form, and build a computing
+  native network centered on memory semantic interconnection.
+upstream: https://gitee.com/openeuler/umdk
+branches:
+- name: master
+  type: protected
+type: public

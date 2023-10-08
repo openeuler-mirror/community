@@ -43,6 +43,7 @@ Please [readme](./Vision-en.md)
 - liuxin264@huawei.com
 - liyangyang20@huawei.com
 - wuchangsheng2@huawei.com
+- jerry.lilijun@huawei.com
 
 ### Committer列表
 
@@ -50,6 +51,10 @@ Please [readme](./Vision-en.md)
 - 李辉松[@li-huisong](https://gitee.com/li-huisong) email: lihuisong@huawei.com
 - xiesongyang[@supercharge](https://gitee.com/supercharge) email: xiesongyang@huawei.com
 - kircher[@kircher](https://gitee.com/kircher) email: majun65@huawei.com
+
+#### UMDK 项目 Committer 列表
+- qianguoxin[@qianguoxin](https://gitee.com/qianguoxin) email: qianguoxin@huawei.com
+- Yan Fangfang[@fangfang-yan](https://gitee.com/fangfang-yan) email: fangfang.yan@huawei.com
 
 ### 突出贡献者
 | gitee昵称 | giteeID | 邮箱 | 姓名(可选)|
@@ -85,6 +90,7 @@ repository地址：
 - https://gitee.com/src-openeuler/seastar
 - https://gitee.com/src-openeuler/gazelle-cni
 - https://gitee.com/openeuler/umdk
+- https://gitee.com/src-openeuler/umdk
 - https://gitee.com/openeuler/evs
 - https://gitee.com/openeuler/gazelle-cni
 - https://gitee.com/src-openeuler/gazelle
