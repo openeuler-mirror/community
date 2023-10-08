@@ -8,9 +8,9 @@ branches:
   type: protected
   create_from: master
 - name: openEuler-20.03-LTS-Next
-  type: protected
+  type: readonly
   create_from: master
 - name: openEuler-20.09
-  type: protected
+  type: readonly
   create_from: master
 type: public

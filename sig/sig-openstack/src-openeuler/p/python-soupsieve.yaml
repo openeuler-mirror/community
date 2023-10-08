@@ -5,7 +5,7 @@ branches:
 - name: master
   type: protected
 - name: openEuler-21.09
-  type: protected
+  type: readonly
   create_from: master
 - name: openEuler-22.03-LTS-Next
   type: protected
@@ -20,13 +20,13 @@ branches:
   type: protected
   create_from: openEuler-22.03-LTS-Next
 - name: openEuler-22.09
-  type: protected
+  type: readonly
   create_from: master
 - name: openEuler-22.03-LTS-SP1
   type: protected
   create_from: openEuler-22.03-LTS-Next
 - name: openEuler-23.03
-  type: protected
+  type: readonly
   create_from: master
 - name: openEuler-22.03-LTS-SP2
   type: protected
