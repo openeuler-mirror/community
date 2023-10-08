@@ -39,6 +39,9 @@
 - 薛炜明[@mikexwm] 邮箱：mike_xwm@126.com
 - 孙大鹏[@sundapeng001] 邮箱：sundapeng_yewu@cmss.chinamobile.com
 - 鲁仕林[@lushiling] 邮箱：476197969@qq.com
+- 申栋[@shendong0629] 邮箱：shendong_yewu@cmss.chinamobile.com
+- 王维[@wangweizZZ] 邮箱：wangwei7_yewu@cmss.chinamobile.com
+
 
 # 联系方式
 - [邮件列表](message-middleware@openeuler.org)
@@ -52,4 +55,10 @@
 - https://gitee.com/src-openeuler/pulsar
 - https://gitee.com/src-openeuler/eventmesh
 - https://gitee.com/src-openeuler/kafka
+- https://gitee.com/openeuler/amqp-proxy
+- https://gitee.com/openeuler/mqtt-proxy
+- https://gitee.com/openeuler/mqtt-operator
+- https://gitee.com/openeuler/rocketmq-operator
+
+
 

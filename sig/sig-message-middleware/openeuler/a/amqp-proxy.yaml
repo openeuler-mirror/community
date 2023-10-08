@@ -1,0 +1,6 @@
+name: amqp-proxy
+description: A new AMQP protocol proxy architecture model, based on which Apache Pulsar can better support amqp protocol messages from terminals such as rabbitmq-client, openstack oslo-messaging client.
+type: public
+branches:
+  - name: master
+    type: protected
