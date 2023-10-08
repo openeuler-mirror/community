@@ -41,12 +41,23 @@ repositories:
   - openeuler/dpdk
   - openeuler/tarsier
   - openeuler/oncn-bwm
-  - openeuler/umdk
   - openeuler/evs
   - src-openeuler/dwarves
   - src-openeuler/pyang-swagger
   - src-openeuler/pyang
   - src-openeuler/tarsier
+- repo:
+  - openeuler/umdk
+  - src-openeuler/umdk
+  committers:
+  - gitee_id: qianguoxin
+    name: qianguoxin
+    organization: huawei
+    email: qianguoxin@huawei.com
+  - gitee_id: fangfang-yan
+    name: Yan Fangfang
+    organization: huawei
+    email: fangfang.yan@huawei.com
 - repo:
   - src-openeuler/dpdk
   - src-openeuler/lwip
