@@ -2,6 +2,7 @@ import os
 
 import yaml
 import sys
+import argparse
 
 
 def load_yaml(file_path):
@@ -117,12 +118,18 @@ def write_yaml_to_sig(dst_path, data):
         yaml.dump(data, f, Dumper=yaml.Dumper, sort_keys=False)
 
 
-# you can use "python3 create_single_siginfo.py sig_name(example: ai)" to auto make a sig_info.yaml for a sig, make sure you trigger this command after you enter the "community/sig" directory
 if __name__ == '__main__':
-    if len(sys.argv) != 2:
-        print('Required 1 parameters! The sig_name need to be transferred in sequence.')
-        sys.exit(1)
-    sig = sys.argv[1]
-    s_path, o_path = get_sig_owners_path(sig)
-    make_template_file_data_and_write(sig, s_path, o_path)
+    """
+    Tool to help creating and filling sig-info.yaml, by leveraging existing information. 
+    """
+    par = argparse.ArgumentParser()
+    par.add_argument("community", type=str, help="Local path of community repository")
+    par.add_argument("-s", "--sig", type=str, help="Name of SIG (for exampke, ai)")
+
+    args = par.parse_args()
+
+    sig_dir = os.path.join(args.community, "sig")
+    os.chdir(sig_dir)
+    s_path, o_path = get_sig_owners_path(args.sig)
+    make_template_file_data_and_write(args.sig, s_path, o_path)
 
