@@ -1,0 +1,7 @@
+name: ha-monitor
+description: A Pacemaker High Availability Cluster Status Monitoring Tool based on openEuler System
+upstream: https://gitee.com/besonn/pacemaker-mgmt
+branches:
+- name: hamonitor
+  type: protected
+type: public
