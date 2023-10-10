@@ -221,6 +221,7 @@ Tuesday 10 am bi-weekly, UTC+8.
      - 李 彦成[@li-yancheng](https://gitee.com/li-yancheng) email: liyancheng@huawei.com
    - Committers
      - 伍 明川[@wumingchuan](https://gitee.com/wumingchuan) email: wumingchuan1@huawei.com
+ - [openeuler/compiler-docs](https://gitee.com/openeuler/openeuler/compiler-docs)
 
 ## Contact
  - [maillist](mailto:compiler@openeuler.org)
