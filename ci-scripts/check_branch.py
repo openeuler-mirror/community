@@ -79,8 +79,7 @@ class CheckBranch(object):
     def refresh_unmaintained_branches(self):
         fn = "ci-scripts/unmaintained_branches.yaml"
         if self.unmaintained_branches == None:
-            p = os.path.join(self.community_path, fn)
-            bches_list = yaml.load(open(p, encoding="utf-8"), Loader=yaml.Loader)
+            bches_list = yaml.load(open(fn, encoding="utf-8"), Loader=yaml.Loader)
             self.unmaintained_branches = set(bches_list)
 
     def get_master_repos_tree(self):
