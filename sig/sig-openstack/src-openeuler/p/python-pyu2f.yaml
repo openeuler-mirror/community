@@ -5,6 +5,6 @@ branches:
 - name: master
   type: protected
 - name: openEuler-22.09
-  type: protected
+  type: readonly
   create_from: master
 type: public

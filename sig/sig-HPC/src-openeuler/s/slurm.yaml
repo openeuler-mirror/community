@@ -1,10 +1,12 @@
 name: slurm
-description: Slurm is an open source, fault-tolerant, and highly scalable cluster management and job scheduling system for large and small Linux clusters. Slurm requires no kernel modifications for its operation and is relatively self-contained.
+description: Slurm is an open source, fault-tolerant, and highly scalable cluster
+  management and job scheduling system for large and small Linux clusters. Slurm requires
+  no kernel modifications for its operation and is relatively self-contained.
 upstream: https://github.com/SchedMD/slurm
 branches:
 - name: master
   type: protected
 - name: openEuler-20.09
-  type: protected
+  type: readonly
   create_from: master
 type: public

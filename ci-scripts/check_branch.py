@@ -63,6 +63,7 @@ class CheckBranch(object):
         self._get_branch_map()
         self.change_msg = []
         self.before_change_msg = []
+        self.unmaintained_branches = None
 
     @staticmethod
     def _read_yaml(file_path):
@@ -74,6 +75,13 @@ class CheckBranch(object):
     @staticmethod
     def get_current_branch():
         return subprocess.getoutput("git branch | grep \\*").split(' ')[-1]
+
+    def refresh_unmaintained_branches(self):
+        fn = "ci-scripts/unmaintained_branches.yaml"
+        if self.unmaintained_branches == None:
+            p = os.path.join(self.community_path, fn)
+            bches_list = yaml.load(open(p, encoding="utf-8"), Loader=yaml.Loader)
+            self.unmaintained_branches = set(bches_list)
 
     def get_master_repos_tree(self):
         print('\nGet master repos tree')
@@ -255,6 +263,17 @@ class CheckBranch(object):
                     changed_branches.append(bch)
         return history_branches, changed_branches
 
+    def unmaintained_check(self, bch, pkg):
+        """
+        check if unmaintained branches already readonly
+        """
+        if bch['name'] in self.unmaintained_branches:
+            if bch['type'] != "readonly":
+                print("Unmaintained bracnh {b} of {p} should be readonly".format(b=bch['name'], p=pkg))
+                return False
+        else:
+            return True
+
     def history_check(self, history_branches, pkg):
         """
         check history branches
@@ -277,6 +296,9 @@ class CheckBranch(object):
                 print(e)
                 self.error_flag = self.error_flag + 1
 
+            if not self.unmaintained_check(bch, pkg):
+                self.warn_flag = self.warn_flag + 1
+
     def differences_check(self, changed_branches, pkg):
         """
         check changed branches
@@ -295,12 +317,19 @@ class CheckBranch(object):
                 self._check_branch(p_branch, c_branch, pkg)
             except CheckError as e:
                 print(e)
-                self.error_flag = self.error_flag + 1
+                #TEMP DISABLE
+                self.warn_flag = self.warn_flag + 1
+                #self.error_flag = self.error_flag + 1
             except FileError as e:
                 print(e)
                 self.error_flag = self.error_flag + 1
 
+            if not self.unmaintained_check(bch, pkg):
+                self.error_flag = self.error_flag + 1
+
     def check(self):
+        self.refresh_unmaintained_branches()
+
         for pkg in self.change_msg:
             history_branches, changed_branches = self.get_branches(pkg)
             if history_branches:

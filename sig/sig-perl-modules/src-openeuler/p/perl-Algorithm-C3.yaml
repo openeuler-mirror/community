@@ -1,10 +1,11 @@
 name: perl-Algorithm-C3
-description: C3 is the name of an algorithm which aims to provide a sane method resolution order under multiple inheritence.
+description: C3 is the name of an algorithm which aims to provide a sane method resolution
+  order under multiple inheritence.
 upstream: http://search.cpan.org/dist/Algorithm-C3/
 branches:
 - name: master
   type: protected
 - name: openEuler-23.03
-  type: protected
+  type: readonly
   create_from: master
 type: public

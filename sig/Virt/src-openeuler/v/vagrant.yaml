@@ -1,10 +1,11 @@
 name: vagrant
-description: Vagrant is a tool for building and distributing virtualized development environments.
+description: Vagrant is a tool for building and distributing virtualized development
+  environments.
 upstream: https://github.com/hashicorp/vagrant.git
 branches:
 - name: master
   type: protected
 - name: openEuler-22.09
-  type: protected
+  type: readonly
   create_from: master
 type: public

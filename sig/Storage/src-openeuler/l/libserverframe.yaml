@@ -8,7 +8,7 @@ branches:
   type: protected
   create_from: master
 - name: openEuler-23.03
-  type: protected
+  type: readonly
   create_from: master
 - name: openEuler-23.09
   type: protected

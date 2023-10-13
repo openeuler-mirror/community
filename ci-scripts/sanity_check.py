@@ -344,7 +344,13 @@ def check_8_v2(oe_repos, srcoe_repos):
             else:
                 master_found = 0
                 for branch in branches:
-                    if branch["type"] != "protected" and branch["type"] != "readonly":
+                    try:
+                        b_type = branch["type"]
+                    except KeyError:
+                        b_type = "unknown"
+                        print("ERROR! {pre}{name} branch {br} doesnt have type"
+                                .format(pre=prefix, name=repo["name"], br=branch["name"]))
+                    if b_type != "protected" and b_type != "readonly":
                         print("ERROR! {pre}{name} branch {br} is not valid"
                               .format(pre=prefix, name=repo["name"], br=branch["name"]))
                         errors_found += 1

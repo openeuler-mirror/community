@@ -1,10 +1,11 @@
 name: vagrant-hostmanager
-description: vagrant-hostmanager is a Vagrant plugin that manages the /etc/hosts file on guest machines (and optionally the host)
+description: vagrant-hostmanager is a Vagrant plugin that manages the /etc/hosts file
+  on guest machines (and optionally the host)
 upstream: https://github.com/devopsgroup-io/vagrant-hostmanager
 branches:
 - name: master
   type: protected
 - name: openEuler-22.09
-  type: protected
+  type: readonly
   create_from: master
 type: public
