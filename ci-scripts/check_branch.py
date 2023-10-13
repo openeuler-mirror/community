@@ -270,6 +270,8 @@ class CheckBranch(object):
             if bch['type'] != "readonly":
                 print("Unmaintained bracnh {b} of {p} should be readonly".format(b=bch['name'], p=pkg))
                 return False
+            else:
+                return True
         else:
             return True
 
