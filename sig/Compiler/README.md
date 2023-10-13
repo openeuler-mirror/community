@@ -180,8 +180,11 @@ Tuesday 10 am bi-weekly, UTC+8.
      - 范 长春[@fanchangchun](https://gitee.com/fanchangchun) email: fanchangchun@huawei.com
      - 汪 焰韬[@plt42](https://gitee.com/plt42) email: wangyantao4@huawei.com
  - [OpenArkCompiler](https://gitee.com/openeuler/OpenArkCompiler)
+   - Maintainers
+     - 孙 子博[@sunzibo](https://gitee.com/sunzibo) email: sunzibo@huawei.com
    - Committers
-     - 孙 子博[@sunzibo](https://gitee.com/sunzibo) 邮箱: sunzibo@huawei.com
+     - 徐 茂达[@nns_icu](https://gitee.com/nns_icu) email: xumaoda@huawei.com
+     - 林 炜鑫[@weixin_93](https://gitee.com/weixin_93) email: linweixin1@huawei.com
  - [pin-server](https://gitee.com/openeuler/pin-server)
  - [src-openeuler/pin-server](https://gitee.com/src-openeuler/pin-server)
    - Maintainers
@@ -221,6 +224,7 @@ Tuesday 10 am bi-weekly, UTC+8.
      - 李 彦成[@li-yancheng](https://gitee.com/li-yancheng) email: liyancheng@huawei.com
    - Committers
      - 伍 明川[@wumingchuan](https://gitee.com/wumingchuan) email: wumingchuan1@huawei.com
+ - [openeuler/compiler-docs](https://gitee.com/openeuler/openeuler/compiler-docs)
 
 ## Contact
  - [maillist](mailto:compiler@openeuler.org)

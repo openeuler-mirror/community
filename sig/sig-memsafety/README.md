@@ -13,6 +13,8 @@
 
 - 王路军[@ut-wanglujun](https://gitee.com/ut-wanglujun)
 - 刘彤[@liutong](https://gitee.com/liutong)
+- 曹佩庆[@hustcao4](https://gitee.com/hustcao4)
+- 黄堆荣[@huangduirong](https://gitee.com/huangduirong)
 
 ### Committer列表
 

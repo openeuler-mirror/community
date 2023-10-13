@@ -17,7 +17,7 @@
 - 窦龑[@dou33](https://gitee.com/dou33)
 - 裴建康[@peijiankang](https://gitee.com/peijiankang)
 - weidongkl[@weidongkl](https://gitee.com/weidongkl)
-- leeffo[@leeffo](https://gitee.com/leeffo)
+- 李伟刚[@open-bot](https://gitee.com/open-bot)
 - JingWei Wang [@Jingwiw](https://gitee.com/Jingwiw)
 ### Committers列表
 
@@ -36,7 +36,7 @@ repository地址:
     - https://gitee.com/openeuler/qt6
     - https://gitee.com/src-openeuler/qt6
     - https://gitee.com/src-openeuler/qt6-qtbase
-    - https://gitee.com/src-openeuler/qt6-qt3d                         
+    - https://gitee.com/src-openeuler/qt6-qt3d
     - https://gitee.com/src-openeuler/qt6-qt5compat
     - https://gitee.com/src-openeuler/qt6-qtcharts
     - https://gitee.com/src-openeuler/qt6-qtconnectivity

@@ -65,3 +65,30 @@ repositories:
         name: dingwei
         organization: Huawei
         email: darielw@163.com
+
+  - repo:
+      - openeuler/amqp-proxy
+    committers:
+      - gitee_id: hu-zongtang
+        name: huzongtang
+        organization: Chinamobile
+        email: huzongtang_yewu@cmss.chinamobile.com
+  - repo:
+      - openeuler/mqtt-proxy
+    committers:
+      - gitee_id: shendong0629
+        name: shendong
+        organization: Chinamobile
+        email: shendong_yewu@cmss.chinamobile.com
+  - repo:
+      - openeuler/rocketmq-operator
+      - openeuler/mqtt-operator
+    committers:
+      - gitee_id: wangweizZZ
+        name: wangwei
+        organization: Chinamobile
+        email: wangwei7_yewu@cmss.chinamobile.com
+      - gitee_id: shendong0629
+        name: shendong
+        organization: Chinamobile
+        email: shendong_yewu@cmss.chinamobile.com

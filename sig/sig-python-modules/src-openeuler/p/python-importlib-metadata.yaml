@@ -7,22 +7,22 @@ branches:
   type: protected
   create_from: openEuler-20.03-LTS-Next
 - name: openEuler-20.03-LTS-Next
-  type: protected
+  type: readonly
   create_from: master
 - name: openEuler-20.09
-  type: protected
+  type: readonly
   create_from: master
 - name: openEuler-20.03-LTS
-  type: protected
+  type: readonly
   create_from: openEuler-20.03-LTS-Next
 - name: openEuler-21.03
-  type: protected
+  type: readonly
   create_from: master
 - name: openEuler-20.03-LTS-SP2
-  type: protected
+  type: readonly
   create_from: openEuler-20.03-LTS-Next
 - name: openEuler-21.09
-  type: protected
+  type: readonly
   create_from: master
 - name: openEuler-20.03-LTS-SP3
   type: protected
@@ -46,7 +46,7 @@ branches:
   type: protected
   create_from: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-Next
 - name: openEuler-22.09
-  type: protected
+  type: readonly
   create_from: master
 - name: openEuler-22.03-LTS-SP1
   type: protected
@@ -58,7 +58,7 @@ branches:
   type: protected
   create_from: Multi-Version_OpenStack-Train_openEuler-22.03-LTS-Next
 - name: openEuler-23.03
-  type: protected
+  type: readonly
   create_from: master
 - name: openEuler-22.03-LTS-SP2
   type: protected
@@ -72,4 +72,7 @@ branches:
 - name: openEuler-23.09
   type: protected
   create_from: master
+- name: openEuler-20.03-LTS-SP4
+  type: protected
+  create_from: openEuler-20.03-LTS-SP3
 type: public

@@ -147,6 +147,7 @@ repositories:
   - openeuler/openjfx8
   - openeuler/bgmprovider
   - openeuler/gcc-for-openEuler
+  - openeuler/compiler-docs
   - src-openeuler/spirv-llvm-translator
   - src-openeuler/openjfx8
   - src-openeuler/openjfx11
@@ -215,11 +216,20 @@ repositories:
     email: wangyantao4@huawei.com
 - repo:
   - openeuler/OpenArkCompiler
-  committers:
+  repo_admin:
   - gitee_id: sunzibo
     name: zibo Sun
     organization: Huawei
     email: sunzibo@huawei.com
+  committers:
+  - gitee_id: nns_icu
+    name: maoda Xu
+    organization: Huawei
+    email: xumaoda@huawei.com
+  - gitee_id: weixin_93
+    name: weixin Lin
+    organization: Huawei
+    email: linweixin1@huawei.com
 - repo:
   - src-openeuler/llvm-mlir
   - src-openeuler/mlir-15
