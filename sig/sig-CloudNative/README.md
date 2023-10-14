@@ -133,6 +133,12 @@ repository地址：
 - https://gitee.com/src-openeuler/WasmEngine
 - https://gitee.com/src-openeuler/redis_exporter
 - https://gitee.com/src-openeuler/mysqld_exporter
+- https://gitee.com/openeuler/mcp
+- https://gitee.com/openeuler/mcp-vue
+- https://gitee.com/openeuler/mcp-self-service-vue
+- https://gitee.com/src-openeuler/mcp
+- https://gitee.com/src-openeuler/mcp-vue
+- https://gitee.com/src-openeuler/mcp-self-service-vue
 
 roadmap:
 ```
