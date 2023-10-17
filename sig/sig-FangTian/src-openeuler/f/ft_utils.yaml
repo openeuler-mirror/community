@@ -1,0 +1,10 @@
+name: ft_utils
+description: ft_utils module is a  base commom library for ft_engine.
+upstream: https://gitee.com/openeuler/ft_utils
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
