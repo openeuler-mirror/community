@@ -53,6 +53,7 @@ The repositories related to Ha are listed below, see http://archive.kernel.org/c
 - https://gitee.com/src-openeuler/booth
 - https://gitee.com/src-openeuler/execstack
 - https://gitee.com/src-openeuler/kmod-drbd90
+- https://gitee.com/src-openeuler/resource-agents
 
 ## Basic Information
 
