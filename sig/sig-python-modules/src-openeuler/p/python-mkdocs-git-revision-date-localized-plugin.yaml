@@ -1,0 +1,7 @@
+name: python-mkdocs-git-revision-date-localized-plugin
+description: Mkdocs plugin that enables displaying the localized date of the last git modification of a markdown file.
+upstream: https://github.com/timvink/mkdocs-git-revision-date-localized-plugin
+branches:
+- name: master
+  type: protected
+type: public

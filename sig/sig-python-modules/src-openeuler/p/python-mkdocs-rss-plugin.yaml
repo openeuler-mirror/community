@@ -1,0 +1,7 @@
+name: python-mkdocs-rss-plugin
+description: MkDocs plugin which generates a static RSS feed using git log and page.meta.
+upstream: https://github.com/Guts/mkdocs-rss-plugin/
+branches:
+- name: master
+  type: protected
+type: public

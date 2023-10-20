@@ -1,0 +1,7 @@
+name: python-debian
+description: Debian package related modules.
+upstream: https://salsa.debian.org/python-debian-team/python-debian
+branches:
+- name: master
+  type: protected
+type: public
