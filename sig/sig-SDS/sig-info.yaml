@@ -46,6 +46,7 @@ repositories:
 # Lustre related repos
 - repo:
   - src-openeuler/lustre
+  - src-openeuler/lustre-release
   - src-openeuler/zfs
   committers:
   - gitee_id: xin3liang
@@ -70,3 +71,28 @@ repositories:
     name: Yongle Lin
     organization: freelancer
     email: kjpioo2006@gmail.com
+
+- repo:
+  - openeuler/fastblock
+  committers:
+  - gitee_id: otank
+    name: Shaoxiong Li
+    organization: Unicom Cloud
+    email: lisx189@chinaunicom.cn
+  - gitee_id: wuxingyi
+    name: Xingyi Wu
+    organization: Unicom Cloud
+    email: wuxy158@chinaunicom.cn
+  - gitee_id: evansun0312
+    name: Yifang Sun
+    organization: Unicom Cloud
+    email: sunyf731@chinaunicom.cn
+  - gitee_id: liuhq189
+    name: Hongquan Liu
+    organization: Unicom Cloud
+    email: liuhq189@chinaunicom.cn
+  - gitee_id: szyyier
+    name: Zhenyi Shu
+    organization: Unicom Cloud
+    email: shuzy5@chinaunicom.cn
+

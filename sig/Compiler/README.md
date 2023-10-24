@@ -78,7 +78,7 @@ Tuesday 10 am bi-weekly, UTC+8.
      - 贺 东博[@Noah](https://gitee.com/jvmboy) email: hedongbo@huawei.com
    - Committers
      - 张 一鹏[@eapen](https://gitee.com/eapen) email: zhangyipeng7@huawei.com
-     - 王   浩[@wanghao_hw](https://gitee.com/wanghao_hw) email: wanghao564@huawei.com
+     - 王中一[@Autistic_boyya](https://gitee.com/Autistic_boyya) email: wangzhongyi7@huawei.com
  - [gcc](https://gitee.com/openeuler/gcc)
  - [src-openeuler/gcc](https://gitee.com/src-openeuler/gcc)
    - Maintainers
