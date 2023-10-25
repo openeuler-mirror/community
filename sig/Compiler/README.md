@@ -225,6 +225,12 @@ Tuesday 10 am bi-weekly, UTC+8.
    - Committers
      - 伍 明川[@wumingchuan](https://gitee.com/wumingchuan) email: wumingchuan1@huawei.com
  - [openeuler/compiler-docs](https://gitee.com/openeuler/openeuler/compiler-docs)
+ - [gcc-10](https://gitee.com/src-openeuler/gcc-10)
+   - Maintainers
+     - 李 彦成[@li-yancheng](https://gitee.com/li-yancheng) email: liyancheng@huawei.com
+   - Contributers
+     - 王 鼎[@wangding16](https://gitee.com/wangding16) email: wangding16@huawei.com
+     - 赵 书健[@zhaoshujian](https://gitee.com/zhaoshujian) email: zhaoshujian@huawei.com
 
 ## Contact
  - [maillist](mailto:compiler@openeuler.org)
