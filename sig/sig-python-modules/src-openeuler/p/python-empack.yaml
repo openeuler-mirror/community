@@ -1,0 +1,7 @@
+name: python-empack
+description: Pack a mamba environment with emsdk.
+upstream: https://github.com/emscripten-forge/empack
+branches:
+- name: master
+  type: protected
+type: public

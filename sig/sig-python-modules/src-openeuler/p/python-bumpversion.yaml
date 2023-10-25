@@ -1,0 +1,7 @@
+name: python-bumpversion
+description: Version-bump your software with a single command!
+upstream: https://github.com/peritus/bumpversion
+branches:
+- name: master
+  type: protected
+type: public

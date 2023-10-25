@@ -1,0 +1,7 @@
+name: python-auditwheel
+description: Cross-distribution Linux wheels.
+upstream: https://github.com/pypa/auditwheel
+branches:
+- name: master
+  type: protected
+type: public
