@@ -89,7 +89,7 @@
 | 模块<img width=40/>   | 文件<img width=300/>                       | Committer(s) <img width=200/>                     |
 | ---- | ------------------------------- | ------------ |
 | bma  | drivers/net/ethernet/huawei/bma | [@chenjiesong](https://gitee.com/gasonchen) |
-| ub   | drivers/net/ethernet/ub/<br/>drivers/ub<br/>drivers/iommu/hisilicon<br/>drivers/ubus<br/>drivers/vfio/ubus<br/>net/ubl | [@chenjiesong](https://gitee.com/gasonchen) [@hucz](https://gitee.com/hucz) [@wsoydl](https://gitee.com/wsoydl) [@JerryHZ](https://gitee.com/JerryHZ)|
+| ub   | drivers/net/ethernet/ub/<br/>drivers/ub<br/>drivers/iommu/hisilicon<br/>drivers/ubus<br/>drivers/vfio/ubus<br/>net/ubl | [@chenjiesong](https://gitee.com/gasonchen) [@hu-chunzhi](https://gitee.com/hu-chunzhi) [@wsoydl](https://gitee.com/wsoydl) [@JerryHZ](https://gitee.com/JerryHZ) [@yunshenglin](https://gitee.com/yunshenglin)|
 | sssraid  | Documentation/scsi/sssraid.rst<br/>drivers/scsi/sssraid/| steven.song@3snic.com |
 | sssnic   | Documentation/networking/device_drivers/ethernet/3snic/sssnic/sssnic.rst<br/>drivers/net/ethernet/3snic/sssnic| steven.song@3snic.com |
 | ras   | drivers/ras/<br/>drivers/acpi/apei/<br/>drivers/firmware/efi/cper.c| [@hunan4222](https://gitee.com/hunan4222) |

@@ -1,0 +1,7 @@
+name: python-trio-websocket
+description: WebSocket library for Trio.
+upstream: https://github.com/python-trio/trio-websocket
+branches:
+- name: master
+  type: protected
+type: public
