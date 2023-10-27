@@ -1,0 +1,7 @@
+name: python-selenium-wire
+description: Extends Selenium to give you the ability to inspect requests made by the browser.
+upstream: https://github.com/wkeeling/selenium-wire
+branches:
+- name: master
+  type: protected
+type: public

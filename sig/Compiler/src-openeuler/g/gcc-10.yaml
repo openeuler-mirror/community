@@ -1,0 +1,13 @@
+name: gcc-10
+description: gcc multi-version toolset for openEuler
+upstream: https://gcc.gnu.org/git/gcc
+type: public
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-SP3
+  type: protected
+  create_from: master
+- name: openEuler-20.03-LTS-SP4
+  type: protected
+  create_from: openEuler-20.03-LTS-SP3

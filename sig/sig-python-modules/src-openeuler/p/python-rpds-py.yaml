@@ -1,0 +1,7 @@
+name: python-rpds-py
+description: Python bindings to Rust's persistent data structures (rpds).
+upstream: https://github.com/crate-py/rpds
+branches:
+- name: master
+  type: protected
+type: public

@@ -4,6 +4,15 @@ description: tzinfo object for the local timezone
 branches:
 - name: master
   type: protected
+- name: openEuler-20.03-LTS-Next
+  type: readonly 
+  create_from: master
+- name: openEuler-20.03-LTS-SP3
+  type: protected
+  create_from: openEuler-20.03-LTS-Next
+- name: openEuler-20.03-LTS-SP4
+  type: protected
+  create_from: openEuler-20.03-LTS-SP3
 - name: openEuler-20.09
   type: readonly
   create_from: master

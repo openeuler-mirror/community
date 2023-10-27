@@ -5,12 +5,21 @@ upstream: https://git.whamcloud.com/fs/lustre-release.git
 branches:
 - name: master
   type: protected
+- name: Multi-Version_ldiskfsprogs_master
+  type: protected
+  create_from: master
 - name: openEuler-22.03-LTS-Next
   type: protected
   create_from: master
 - name: openEuler-22.03-LTS-SP2
   type: protected
   create_from: openEuler-22.03-LTS-Next
+- name: Multi-Version_lustre_openEuler-22.03-LTS-Next
+  type: protected
+  create_from: Multi-Version_ldiskfsprogs_master
+- name: Multi-Version_lustre_openEuler-22.03-LTS-SP3
+  type: protected
+  create_from: Multi-Version_lustre_openEuler-22.03-LTS-Next
 - name: openEuler-23.09
   type: protected
   create_from: master

@@ -1,0 +1,7 @@
+name: python-rcslice
+description: Slice a list of sliceables (1 indexed, start and end index both are inclusive)
+upstream: https://github.com/neurobin/rcslice
+branches:
+- name: master
+  type: protected
+type: public
