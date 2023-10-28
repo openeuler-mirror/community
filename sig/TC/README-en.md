@@ -30,7 +30,7 @@ The list of TC members is organized alphabetically by last name:
 - Li Yongqiang <liyongqiang329@163.com> [[@charlie_li](https://gitee.com/charlie_li)]
 - Ren Wei <renwei41@huawei.com> [[@vonhust](https://gitee.com/vonhust)]
 - Shi Yong <shiyong@kylinos.com.cn> [[@stonefly128](https://gitee.com/stonefly128)]
-- Tian Jun <jun.j.tan@intel.com> [[@juntianlinux](https://gitee.com/juntianlinux)]
+- Tian Jun <jun.j.tian@intel.com> [[@juntianlinux](https://gitee.com/juntianlinux)]
 - Wang Jianmin <jianmin@iscas.ac.cn> [[@jianminw](https://gitee.com/jianminw)]
 - Wang Zhigang <wangzhigang17@huawei.com>  [[@cellfaint](https://gitee.com/cellfaint)]
 - Wu Fengguang <wufengguang@huawei.com> [[@wu_fengguang](https://gitee.com/wu_fengguang)]
