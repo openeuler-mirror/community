@@ -1,0 +1,7 @@
+name: python-slicer
+description: slicer wraps tensor-like objects and provides a uniform slicing interface via __getitem__
+upstream: https://github.com/interpretml/slicer
+branches:
+- name: master
+  type: protected
+type: publicname:python-slicer
