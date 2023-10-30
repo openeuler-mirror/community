@@ -17,6 +17,7 @@
 
 - Eli Ma[@genedna](https://gitee.com/genedna)，*eli@patch.sh*
 - Sheng Qu[@allesgute](https://gitee.com/allesgute), *qusheng@iscas.ac.cn*
+- Zhenyu Zheng[@zhengzhenyu](https://gitee.com/zhengzhenyu), *zheng.zhenyu@outlook.com*
 
 ### Committer列表
 
