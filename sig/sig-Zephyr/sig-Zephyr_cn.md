@@ -33,3 +33,4 @@ Zephyr SIG主要依托openEuler社区作为桥梁连接openEuler和Zephyr两大�
 
   - Zephyr相关版本和工具的仓库: https://gitee.com/src-openeuler/zephyr
   - Zephyr中文资料和demo的仓库: https://gitee.com/openeuler/zephyr-cn
+  - 基于Zephyr的嵌入式实时虚拟机的仓库: https://gitee.com/openeuler/zvm
