@@ -17,16 +17,14 @@ Zephyr SIG主要依托openEuler社区作为桥梁连接openEuler和Zephyr两大�
 
 - 任  慰[@vonhust](https://gitee.com/vonhust) 191362693@qq.com
 - 李国良[@lgl88911](https://gitee.com/lgl88911) lgl88911@163.com
-- WANG, Hongbo[@hwang37](https://gitee.com/hwang37) hongbo.wang@intel.com
+- 熊程来[@cocoeoli](https://gitee.com/cocoeoli) xiongcl@hnu.edu.cn
 
 ### Committer列表
 
 - 任  慰[@vonhust](https://gitee.com/vonhust) 191362693@qq.com
 - 李国良[@lgl88911](https://gitee.com/lgl88911) lgl88911@163.com
-- WANG, Hongbo[@hwang37](https://gitee.com/hwang37) hongbo.wang@intel.com
+- 熊程来[@cocoeoli](https://gitee.com/cocoeoli) xiongcl@hnu.edu.cn
 - 孟令澳[@menglingao](https://gitee.com/menglingao)  mengabc1086@gmail.com
-- 徐　开[@overheat-cn](https://gitee.com/overheat-cn) aaron.tsui@outlook.com
-
 # 联系方式
 
 - [邮件列表](dev@openeuler.org)
@@ -41,3 +39,4 @@ repository地址：
 
 - Zephyr相关版本和工具的仓库: https://gitee.com/src-openeuler/zephyr
 - Zephyr中文资料和demo的仓库: https://gitee.com/openeuler/zephyr-cn
+- 基于Zephyr的嵌入式实时虚拟机的仓库: https://gitee.com/openeuler/zvm

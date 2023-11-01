@@ -30,3 +30,4 @@ space between Zephyr's IoT OS/RTOS technology and openEuler's Linux technology.
 
 - Zephyr release mirror: https://gitee.com/src-openeuler/zephyr
 - Zephyr demos and Chinese docs: https://gitee.com/openeuler/zephyr-cn
+- Zephyr based embedded hypervisor: https://gitee.com/openeuler/zvm
