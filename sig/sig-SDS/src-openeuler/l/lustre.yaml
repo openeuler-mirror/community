@@ -23,6 +23,9 @@ branches:
 - name: openEuler-23.09
   type: protected
   create_from: master
+- name: openEuler-22.03-LTS-SP3
+  type: protected
+  create_from: openEuler-22.03-LTS-Next
 - name: Multi-Version_lustre-2.15_openEuler-22.03-LTS-Next
   type: protected
   create_from: Multi-Version_ldiskfsprogs_master
