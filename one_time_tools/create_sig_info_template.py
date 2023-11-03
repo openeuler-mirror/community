@@ -21,7 +21,7 @@ def load_yaml(file_path):
 
 
 def get_sig_owners_path(sig_name):
-    cur_path = os.popen("pwd").read().replace("\n", "")
+    cur_path = os.getcwd()
     sig_path = os.path.join(cur_path, sig_name)
     if not os.path.exists(sig_path):
         print("%s is not exist" % sig_path)
