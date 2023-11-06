@@ -1,0 +1,7 @@
+name: python-fqdn
+description: Validates fully-qualified domain names against RFC 1123
+upstream: https://github.com/ypcrts/fqdn
+branches:
+- name: master
+  type: protected
+type: public
