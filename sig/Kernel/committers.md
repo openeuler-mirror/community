@@ -11,6 +11,7 @@
 | cgroup | kernel/cgroup              | [@lujialin](https://gitee.com/lujialin2)                        |
 | sched  | include/linux/preempt.h<br/>include/linux/sched.h<br/>include/linux/wait.h<br/>include/uapi/linux/sched.h<br/>kernel/sched/              | [@oskernel0719](https://gitee.com/oskernel0719) |
 | PGO    | kernel/gcov/gcc_4_7.c<br/>kernel/gcov/gcc_base.c | liyancheng@huawei.com xiezhiheng@huawei.com |
+| irq    | driver/irqchip/irq-gic\*    | [@chris_zjh](https://gitee.com/chris_zjh) |
 
 ## arch
 
@@ -27,6 +28,8 @@
 | MPAM   | arch/arm64/kernel/mpam<br/>drivers/acpi/arm64/mpam<br/>fs/resctrlfs | [@jentlestea](https://gitee.com/jentlestea)   |
 | risc-v | arch/risc-v/\*                                                | [@whoisxxx](https://gitee.com/whoisxxx)  [@xingmz](https://gitee.com/xingmz)    |
 | smmu   | drivers/iommu/arm-smmu\*<br />drivers/iommu/io-pgtable-arm\*   | [@ThunderTown](https://gitee.com/ThunderTown)       |
+| arm    | arch/arm/\*<br/>arch/arm64/\*    | [@chris_zjh](https://gitee.com/chris_zjh) |
+| powerpc | arch/powerpc/\*    | [@chris_zjh](https://gitee.com/chris_zjh) |
 
 ## Kunpeng
 | 模块<img width=40/>   | 文件<img width=300/>                       | Committer(s) <img width=200/>                     |
@@ -67,6 +70,7 @@
 | hinic    | drivers/net/ethernet/huawei/hinic   | [@chiqijun](https://gitee.com/chiqijun)           |
 | hifc     | drivers/scsi/huawei/hifc            | [@chenguangli](https://gitee.com/chenguangli)     |
 | nebula-matrix | Documentation/networking/device_drivers/ethernet/nebula-matrix/<br/>drivers/net/ethernet/nebula-matrix/ | open@nebula-matrix.com | 
+| smc      | net/smc/\*            | [@giree2](https://gitee.com/giree2)     |
 
 
 ## Security
@@ -82,7 +86,7 @@
 | 模块<img width=40/>   | 文件<img width=300/>                       | Committer(s) <img width=200/>                     |
 | --------- | ------------------------------------------------------------ | ---------------------- |
 | packaging | src-openeuler/kernel/\*                                       | [@wuxu](https://gitee.com/wuxu_buque)            |
-| configs   | arch/x86/configs/openeuler_defconfig<br/>arch/arm64/configs/openeuler_defconfig | [@xiexiuqi](https://gitee.com/xiexiuqi)  [@wuxu](https://gitee.com/wuxu_buque) [@zhangjialin11](https://gitee.com/zhangjialin11) [@zhang-changzhong](https://gitee.com/zhang-changzhong) [@hitmoon](https://gitee.com/hitmoon) |
+| configs   | arch/x86/configs/openeuler_defconfig<br/>arch/arm64/configs/openeuler_defconfig | [@xiexiuqi](https://gitee.com/xiexiuqi)  [@wuxu](https://gitee.com/wuxu_buque) [@zhangjialin11](https://gitee.com/zhangjialin11) [@zhang-changzhong](https://gitee.com/zhang-changzhong) [@hitmoon](https://gitee.com/hitmoon) [@Lostwayzxc](https://gitee.com/Lostwayzxc) |
 
 ## drivers
 
