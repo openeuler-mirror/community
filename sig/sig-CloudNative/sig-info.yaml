@@ -134,20 +134,13 @@ repositories:
   - src-openeuler/rubik
   - src-openeuler/runc
   - src-openeuler/umoci
-  - src-openeuler/influxdb_exporter
-  - src-openeuler/node_exporter
-  - src-openeuler/gluster_exporter
   - src-openeuler/gvisor
   - src-openeuler/skopeo
-  - src-openeuler/alertmanager
-  - src-openeuler/haproxy_exporter
   - src-openeuler/harbor
-  - src-openeuler/memcached_exporter
   - src-openeuler/jboss-parent
   - src-openeuler/crun
   - src-openeuler/containerd
   - src-openeuler/coredns
-  - src-openeuler/cadvisor
   - src-openeuler/containers-common
   - src-openeuler/container-selinux
   - src-openeuler/containernetworking-plugins
@@ -155,9 +148,7 @@ repositories:
   - src-openeuler/docker
   - src-openeuler/docker-client-java
   - src-openeuler/virt-what
-  - src-openeuler/etcd
   - src-openeuler/eggo
-  - src-openeuler/blackbox_exporter
   - src-openeuler/busybox
   - src-openeuler/kata_integration
   - src-openeuler/KubeOS
@@ -170,21 +161,29 @@ repositories:
   - src-openeuler/libnetwork
   - src-openeuler/moby
   - src-openeuler/protobuf
-  - src-openeuler/pushgateway
-  - src-openeuler/prometheus
-  - src-openeuler/promu
   - src-openeuler/podman
   - src-openeuler/python-kubernetes
   - src-openeuler/WasmEngine
+- repo:
+  - src-openeuler/etcd
+  - src-openeuler/influxdb_exporter
+  - src-openeuler/node_exporter
+  - src-openeuler/gluster_exporter
+  - src-openeuler/alertmanager
+  - src-openeuler/haproxy_exporter
+  - src-openeuler/memcached_exporter
+  - src-openeuler/blackbox_exporter
+  - src-openeuler/cadvisor
+  - src-openeuler/pushgateway
+  - src-openeuler/prometheus
+  - src-openeuler/promu
+  - src-openeuler/redis_exporter
+  - src-openeuler/mysqld_exporter
   committers:
   - gitee_id: jxy_git
     name: Xinyu Jiang
     organization: KylinSoft
     email: jiangxinyu@kylinos.cn
-- repo:
-  - src-openeuler/redis_exporter
-  - src-openeuler/mysqld_exporter
-  committers:
   - gitee_id: wubijie123
     name: Bijie Wu
     organization: KylinSoft
