@@ -17,6 +17,9 @@
 - 毛泓博[@mao-hongbo](https://gitee.com/mao-hongbo)
 - 帅家坤[@shuaijiakun](https://gitee.com/shuaijiakun)
 - 赵帅[@kevinzs](https://gitee.com/kevinzs)
+- 孔新伟[@kongzizaixian](https://gitee.com/kongzizaixian)
+- 蒋健源[@jenkins-jiang](https://gitee.com/jenkins-jiang)
+- 汪雄峰[@wangxiongfeng](https://gitee.com/wangxiongfeng)
 - 郑振宇[@ZhengZhenyu](https://gitee.com/ZhengZhenyu)
 
 ### Committer列表
