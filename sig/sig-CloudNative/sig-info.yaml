@@ -121,49 +121,63 @@ repositories:
     organization: Linx
     email: dev16201@linx-info.com
 - repo:
-  - openeuler/rubik
   - openeuler/operator-manager
   - openeuler/openeuler-docker-images
   - openeuler/cloudnative
-  - openeuler/eggo
-  - openeuler/KubeHawk
-  - openeuler/kata_integration
-  - openeuler/KubeOS
-  - openeuler/KubeHawkeyes
-  - openeuler/WasmEngine
-  - src-openeuler/rubik
-  - src-openeuler/runc
   - src-openeuler/umoci
   - src-openeuler/gvisor
   - src-openeuler/skopeo
   - src-openeuler/harbor
   - src-openeuler/jboss-parent
   - src-openeuler/crun
-  - src-openeuler/containerd
   - src-openeuler/coredns
   - src-openeuler/containers-common
-  - src-openeuler/container-selinux
   - src-openeuler/containernetworking-plugins
-  - src-openeuler/docker-compose
-  - src-openeuler/docker
   - src-openeuler/docker-client-java
   - src-openeuler/virt-what
+  - src-openeuler/kubevirt
+  - src-openeuler/libnetwork
+  - src-openeuler/moby
+  - src-openeuler/podman
+  - src-openeuler/python-kubernetes
+- repo:
+  - openeuler/rubik
+  - openeuler/eggo
+  - openeuler/KubeOS
+  - openeuler/KubeHawk
+  - openeuler/KubeHawkeyes
+  - openeuler/kata_integration
+  - openeuler/WasmEngine
+  - src-openeuler/rubik
+  - src-openeuler/runc
+  - src-openeuler/containerd
+  - src-openeuler/container-selinux
+  - src-openeuler/docker-compose
+  - src-openeuler/docker
   - src-openeuler/eggo
   - src-openeuler/busybox
   - src-openeuler/kata_integration
   - src-openeuler/KubeOS
-  - src-openeuler/kubevirt
   - src-openeuler/kubernetes
   - src-openeuler/kata-containers
   - src-openeuler/kuasar
   - src-openeuler/libcgroup
   - src-openeuler/libevhtp
-  - src-openeuler/libnetwork
-  - src-openeuler/moby
   - src-openeuler/protobuf
-  - src-openeuler/podman
-  - src-openeuler/python-kubernetes
   - src-openeuler/WasmEngine
+  committers:
+  - gitee_id: flyflyflypeng
+    name: Pengfei Jiang
+    organization: Huawei
+    email: jiangpengfei9@huawei.com
+  - gitee_id: zhangsong234
+    name: Song Zhang
+    organization: Huawei
+    email: zhangsong34@huawei.com
+  - gitee_id: xuxuepeng
+    name: Xuepeng Xu
+    organization: Huawei
+    email: xuxuepeng1@huawei.com
 - repo:
   - src-openeuler/etcd
   - src-openeuler/influxdb_exporter
