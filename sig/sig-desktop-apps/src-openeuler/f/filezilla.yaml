@@ -1,0 +1,7 @@
+name: filezilla
+description: FileZilla is a FTP, FTPS and SFTP client for Linux with a lot of features.
+upstream: https://svn.filezilla-project.org/filezilla/FileZilla3/
+branches:
+- name: master
+  type: protected
+type: public
