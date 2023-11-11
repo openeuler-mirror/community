@@ -1,0 +1,7 @@
+name: ghc-tagged
+description: Haskell 98 phantom types to avoid unsafely passing dummy arguments
+upstream: https://hackage.haskell.org/package/tagged
+branches:
+  - name: master
+    type: protected
+type: public

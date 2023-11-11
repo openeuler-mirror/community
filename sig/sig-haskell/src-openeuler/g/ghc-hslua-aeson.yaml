@@ -1,0 +1,7 @@
+name: ghc-hslua-aeson
+description: Allow aeson data types to be used with Lua
+upstream: https://hackage.haskell.org/package/hslua-aeson
+branches:
+  - name: master
+    type: protected
+type: public

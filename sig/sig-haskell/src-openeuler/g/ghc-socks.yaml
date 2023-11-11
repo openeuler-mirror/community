@@ -1,0 +1,7 @@
+name: ghc-socks
+description: Socks proxy (ver 5)
+upstream: https://hackage.haskell.org/package/socks
+branches:
+  - name: master
+    type: protected
+type: public

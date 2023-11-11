@@ -1,0 +1,7 @@
+name: ghc-http-types
+description: Generic HTTP types for Haskell (for both client and server code)
+upstream: https://hackage.haskell.org/package/http-types
+branches:
+  - name: master
+    type: protected
+type: public

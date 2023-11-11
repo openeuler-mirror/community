@@ -1,0 +1,7 @@
+name: ghc-iproute
+description: IP Routing Table
+upstream: https://hackage.haskell.org/package/iproute
+branches:
+  - name: master
+    type: protected
+type: public

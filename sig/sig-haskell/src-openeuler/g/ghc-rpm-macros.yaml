@@ -1,0 +1,7 @@
+name: ghc-rpm-macros
+description: RPM Macros for building packages for GHC
+upstream: https://fedoraproject.org/wiki/Haskell_SIG
+branches:
+  - name: master
+    type: protected
+type: public

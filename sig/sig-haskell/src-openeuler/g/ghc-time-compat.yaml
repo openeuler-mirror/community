@@ -1,0 +1,7 @@
+name: ghc-time-compat
+description: Compatibility package for time
+upstream: https://hackage.haskell.org/package/time-compat
+branches:
+  - name: master
+    type: protected
+type: public

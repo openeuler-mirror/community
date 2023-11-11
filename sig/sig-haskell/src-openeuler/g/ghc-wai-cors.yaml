@@ -1,0 +1,7 @@
+name: ghc-wai-cors
+description: CORS for WAI
+upstream: https://hackage.haskell.org/package/wai-cors
+branches:
+  - name: master
+    type: protected
+type: public

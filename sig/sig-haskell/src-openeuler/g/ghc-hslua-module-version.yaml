@@ -1,0 +1,7 @@
+name: ghc-hslua-module-version
+description: Lua module to work with version specifiers
+upstream: https://hackage.haskell.org/package/hslua-module-version
+branches:
+  - name: master
+    type: protected
+type: public

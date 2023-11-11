@@ -1,0 +1,7 @@
+name: ghc-bootstrap-tools
+description: Dependencies for ghc bootstrap, including Alex and Happy.
+upstream: https://hackage.haskell.org/package/
+branches:
+  - name: master
+    type: protected
+type: public

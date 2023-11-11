@@ -1,0 +1,7 @@
+name: ghc-monad-control
+description: Lift control operations, like exception catching, through monad transformers
+upstream: https://hackage.haskell.org/package/monad-control
+branches:
+  - name: master
+    type: protected
+type: public

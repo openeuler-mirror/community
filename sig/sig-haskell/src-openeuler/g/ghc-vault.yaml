@@ -1,0 +1,7 @@
+name: ghc-vault
+description: A persistent store for values of arbitrary types
+upstream: https://hackage.haskell.org/package/vault
+branches:
+  - name: master
+    type: protected
+type: public

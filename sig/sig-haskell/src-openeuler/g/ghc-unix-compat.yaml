@@ -1,0 +1,7 @@
+name: ghc-unix-compat
+description: Portable POSIX-compatibility layer
+upstream: https://hackage.haskell.org/package/unix-compat
+branches:
+  - name: master
+    type: protected
+type: public

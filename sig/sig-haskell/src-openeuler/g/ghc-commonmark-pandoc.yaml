@@ -1,0 +1,7 @@
+name: ghc-commonmark-pandoc
+description: Bridge between commonmark and pandoc AST
+upstream: https://hackage.haskell.org/package/commonmark-pandoc
+branches:
+  - name: master
+    type: protected
+type: public

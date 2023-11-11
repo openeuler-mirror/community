@@ -1,0 +1,7 @@
+name: ghc-attoparsec-iso8601
+description: Parsing of ISO 8601 dates, originally from aeson
+upstream: https://hackage.haskell.org/package/attoparsec-iso8601
+branches:
+  - name: master
+    type: protected
+type: public

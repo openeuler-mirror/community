@@ -1,0 +1,7 @@
+name: ghc-lua
+description: Lua, an embeddable scripting language
+upstream: https://hackage.haskell.org/package/lua
+branches:
+  - name: master
+    type: protected
+type: public

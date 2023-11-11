@@ -1,0 +1,7 @@
+name: ghc-async
+description: Run IO operations asynchronously and wait for their results
+upstream: https://hackage.haskell.org/package/async
+branches:
+  - name: master
+    type: protected
+type: public

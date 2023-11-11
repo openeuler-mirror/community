@@ -1,0 +1,7 @@
+name: ghc-strict
+description: Strict data types and String IO
+upstream: https://hackage.haskell.org/package/strict
+branches:
+  - name: master
+    type: protected
+type: public

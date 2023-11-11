@@ -1,0 +1,7 @@
+name: ghc-cabal-doctest
+description: A Setup.hs helper for running doctests
+upstream: https://hackage.haskell.org/package/cabal-doctest
+branches:
+  - name: master
+    type: protected
+type: public

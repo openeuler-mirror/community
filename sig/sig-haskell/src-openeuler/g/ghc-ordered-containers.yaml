@@ -1,0 +1,7 @@
+name: ghc-ordered-containers
+description: Set- and Map-like types that remember the order elements were inserted
+upstream: https://hackage.haskell.org/package/ordered-containers
+branches:
+  - name: master
+    type: protected
+type: public

@@ -1,0 +1,7 @@
+name: ghc-regex-tdfa
+description: Pure Haskell Tagged DFA Backend for "Text.Regex" (regex-base)
+upstream: https://hackage.haskell.org/package/regex-tdfa
+branches:
+  - name: master
+    type: protected
+type: public

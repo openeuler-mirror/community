@@ -1,0 +1,7 @@
+name: ghc-aeson
+description: Fast JSON parsing and encoding
+upstream: https://hackage.haskell.org/package/aeson
+branches:
+  - name: master
+    type: protected
+type: public

@@ -1,0 +1,7 @@
+name: ghc-safe-exceptions
+description: Safe, consistent, and easy exception handling
+upstream: https://hackage.haskell.org/package/safe-exceptions
+branches:
+  - name: master
+    type: protected
+type: public

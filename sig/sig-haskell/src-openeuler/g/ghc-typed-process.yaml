@@ -1,0 +1,7 @@
+name: ghc-typed-process
+description: Run external processes, with strong typing of streams
+upstream: https://hackage.haskell.org/package/typed-process
+branches:
+  - name: master
+    type: protected
+type: public

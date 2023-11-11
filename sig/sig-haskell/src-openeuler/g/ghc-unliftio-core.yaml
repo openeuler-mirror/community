@@ -1,0 +1,7 @@
+name: ghc-unliftio-core
+description: The MonadUnliftIO typeclass for unlifting monads to IO
+upstream: https://hackage.haskell.org/package/unliftio-core
+branches:
+  - name: master
+    type: protected
+type: public

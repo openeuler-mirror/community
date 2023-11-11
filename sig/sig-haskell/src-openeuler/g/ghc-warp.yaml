@@ -1,0 +1,7 @@
+name: ghc-warp
+description: A fast, light-weight web server for WAI applications
+upstream: https://hackage.haskell.org/package/warp
+branches:
+  - name: master
+    type: protected
+type: public

@@ -1,0 +1,7 @@
+name: ghc-QuickCheck
+description: Automatic testing of Haskell programs
+upstream: https://hackage.haskell.org/package/QuickCheck
+branches:
+  - name: master
+    type: protected
+type: public

@@ -1,0 +1,7 @@
+name: ghc-auto-update
+description: Efficiently run periodic, on-demand actions
+upstream: https://hackage.haskell.org/package/auto-update
+branches:
+  - name: master
+    type: protected
+type: public

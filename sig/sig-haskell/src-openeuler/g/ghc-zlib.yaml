@@ -1,0 +1,7 @@
+name: ghc-zlib
+description: Compression and decompression in the gzip and zlib formats
+upstream: https://hackage.haskell.org/package/zlib
+branches:
+  - name: master
+    type: protected
+type: public

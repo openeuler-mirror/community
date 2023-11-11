@@ -1,0 +1,7 @@
+name: ghc-http-client
+description: An HTTP client engine
+upstream: https://hackage.haskell.org/package/http-client
+branches:
+  - name: master
+    type: protected
+type: public

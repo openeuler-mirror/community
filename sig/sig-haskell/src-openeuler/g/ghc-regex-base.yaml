@@ -1,0 +1,7 @@
+name: ghc-regex-base
+description: Common "Text.Regex.*" API for Regex matching
+upstream: https://hackage.haskell.org/package/regex-base
+branches:
+  - name: master
+    type: protected
+type: public

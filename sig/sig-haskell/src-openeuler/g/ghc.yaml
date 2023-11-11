@@ -1,0 +1,7 @@
+name: ghc
+description: The Glorious Glasgow Haskell Compiler
+upstream: https://www.haskell.org/ghc/
+branches:
+  - name: master
+    type: protected
+type: public

@@ -1,0 +1,7 @@
+name: ghc-recv
+description: Efficient network recv
+upstream: https://hackage.haskell.org/package/recv
+branches:
+  - name: master
+    type: protected
+type: public
