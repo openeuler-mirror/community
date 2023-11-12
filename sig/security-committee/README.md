@@ -28,20 +28,22 @@ SC的使命：为openEuler用户提供最安全的产品和开发环境。
 ### SC成员列表
 
 - <zhujianwei7@huawei.com> [[@zhujianwei001](https://gitee.com/zhujianwei001)]
-- <11015100@qq.com> [[@gwei3](https://gitee.com/gwei3)]
 - <cuilei@kylinos.cn> [[@kylincuilei](https://gitee.com/kylincuilei)]
 - <tanjingguo@huawei.com> [[@tanjingguo](https://gitee.com/tanjingguo)]
 - <chenxi.mao@suse.com> [[@chenxi-mao](https://gitee.com/chenxi-mao)]
-- <mawei@uniontech.com> [[@movie0125](https://gitee.com/movie0125)]（候补委员）
-- <luoyukai@huawei.com> [[@luoyukai](https://gitee.com/luoyukai)]（候补委员）
+- <mawei@uniontech.com [[@movie0125](https://gitee.com/movie0125)]
+- <luoyukai@huawei.com> [[@luoyukai](https://gitee.com/luoyukai)]
+- <tangjie@kylinsec.com.cn> [[@tangjie](https://gitee.com/kylntj)] （候补）
+- <zhangxiangfeng@xfusion.com> [[@mailofzxf](https://gitee.com/mailofzxf) （候补）>
 
 ### SC成员变更历史
-- 杨丽 [[@yangli69393](https://gitee.com/yangli69393)]于2021年7月卸任，崔雷接替SC委员工作。
+- [@yangli69393](https://gitee.com/yangli69393)于2021年7月卸任，[@kylincuilei](https://gitee.com/kylincuilei)接替SC委员工作。
 - [@angela7](https://gitee.com/angela7)于2022年1月卸任，[@weidongkl](https://gitee.com/weidongkl)接替SC委员工作。
 - [@jinjin](https://gitee.com/jinjin)于2022年3月卸任，[@tanjingguo](https://gitee.com/tanjingguo)接替SC委员工作。
 - [@liujingang09](https://gitee.com/liujingang09)于2022年9月卸任。
-- 魏东 [[@weidongkl](https://gitee.com/weidongkl)]于2023年3月卸任，马威接替SC委员工作。
-- [[@yanxiaobing2020](https://gitee.com/yanxiaobing2020)]于2023年6月卸任，[@luoyukai](https://gitee.com/luoyukai)接替SC委员工作。
+- [@weidongkl](https://gitee.com/weidongkl)于2023年3月卸任，马威接替SC委员工作。
+- [@yanxiaobing2020](https://gitee.com/yanxiaobing2020)于2023年6月卸任，罗钰凯接替SC委员工作。
+- [@gwei3](https://gitee.com/gwei3)于2023年9月卸任
 
 # 联系方式
 
