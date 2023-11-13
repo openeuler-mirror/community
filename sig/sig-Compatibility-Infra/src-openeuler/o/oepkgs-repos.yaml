@@ -1,6 +1,7 @@
-name: oepkgs-release
+name: oepkgs-repos
 description: yum configuration for oepkgs repos
-upstream: https://gitee.com/src-oepkgs/oepkgs-release
+upstream: https://gitee.com/src-oepkgs/oepkgs-repos
+rename_from: oepkgs-release
 branches:
 - name: master
   type: protected
