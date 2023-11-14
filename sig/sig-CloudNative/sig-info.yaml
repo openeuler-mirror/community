@@ -137,13 +137,11 @@ repositories:
   - src-openeuler/virt-what
   - src-openeuler/kubevirt
   - src-openeuler/libnetwork
-  - src-openeuler/moby
   - src-openeuler/podman
   - src-openeuler/python-kubernetes
 - repo:
   - openeuler/rubik
   - openeuler/eggo
-  - openeuler/KubeOS
   - openeuler/KubeHawk
   - openeuler/KubeHawkeyes
   - openeuler/kata_integration
@@ -157,7 +155,6 @@ repositories:
   - src-openeuler/eggo
   - src-openeuler/busybox
   - src-openeuler/kata_integration
-  - src-openeuler/KubeOS
   - src-openeuler/kubernetes
   - src-openeuler/kata-containers
   - src-openeuler/kuasar
@@ -178,6 +175,14 @@ repositories:
     name: Xuepeng Xu
     organization: Huawei
     email: xuxuepeng1@huawei.com
+- repo:
+  - openeuler/KubeOS
+  - src-openeuler/KubeOS
+  committers:
+  - gitee_id: li-yuanrong
+    name: Yuanrong Li
+    organization: Huawei
+    email: liyuanrong1@huawei.com
 - repo:
   - src-openeuler/etcd
   - src-openeuler/influxdb_exporter
@@ -233,3 +238,10 @@ repositories:
     name: runningwanglei
     organization: kylinsec
     email: wanglei01@kylinsec.com.cn
+- repo:
+  - src-openeuler/moby
+  committers:
+  - gitee_id: xu_lei_123
+    name: Lei Xu
+    organization: xfusion
+    email: xulei@xfusion.com
