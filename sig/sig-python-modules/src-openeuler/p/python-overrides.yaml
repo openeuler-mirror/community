@@ -1,0 +1,7 @@
+name: python-overrides
+description: A decorator to automatically detect mismatch when overriding a method.
+upstream: https://github.com/mkorpela/overrides
+branches:
+- name: master
+  type: protected
+type: public

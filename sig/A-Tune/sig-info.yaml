@@ -28,6 +28,7 @@ repositories:
   - openeuler/A-Tune-UI
   - openeuler/A-Tune-Collector
   - openeuler/prefetch_tuning
+  - openeuler/EulerCopilot
 
 - repo:
   - openeuler/native-turbo
@@ -53,7 +54,12 @@ repositories:
   - gitee_id: a-carter-bear
     name: Long Wei
     email: longwei27@huawei.com
-
+- repo:
+  - src-openeuler/EulerCopilot
+  committers:
+  - gitee_id: znzjugod
+    name: Zhang Nan
+    email: zhangnan134@huawei.com
 
 
 - repo:
@@ -87,3 +93,7 @@ repositories:
   - src-openeuler/chatglm.cpp
   - src-openeuler/python-shap
   - src-openeuler/python-sphinx-hoverxref
+  - src-openeuler/python-numba
+  - src-openeuler/python-slicer
+  - src-openeuler/python-cma
+  - src-openeuler/python-hiplot

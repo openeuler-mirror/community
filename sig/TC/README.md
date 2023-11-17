@@ -31,19 +31,20 @@ openEuler技术委员会（Technical Committee，以下和TC互换使用）是op
 - 李永强<liyongqiang329@163.com> [[@charlie_li](https://gitee.com/charlie_li)]
 - 任  慰<renwei41@huawei.com> [[@vonhust](https://gitee.com/vonhust)]
 - 石  勇<shiyong@kylinos.com.cn> [[@stonefly128](https://gitee.com/stonefly128)]
-- 田  俊<jun.j.tan@intel.com> [[@juntianlinux](https://gitee.com/juntianlinux)]
+- 田  俊<jun.j.tian@intel.com> [[@juntianlinux](https://gitee.com/juntianlinux)]
 - 王建民<jianmin@iscas.ac.cn> [[@jianminw](https://gitee.com/jianminw)]
 - 王志钢<wangzhigang17@huawei.com>  [[@cellfaint](https://gitee.com/cellfaint)]
 - 吴峰光<wufengguang@huawei.com> [[@wu_fengguang](https://gitee.com/wu_fengguang)]
 - 王伶卓<relue0z@outlook.com> [[@relue0z](https://gitee.com/relue0z)]
-- 魏  刚<11015100@qq.com> [[@gwei3](https://gitee.com/gwei3)]
 - 谢秀奇<xiexiuqi@huawei.com> [[@xiexiuqi](https://gitee.com/xiexiuqi)]
 - 熊  伟<xiongwei888@huawei.com> [[@myeuler](https://gitee.com/myeuler)]
 - 吕从庆<lvcongqing@uniontech.com> [[@HelloWorld_lvcongqing](https://gitee.com/HelloWorld_lvcongqing)]
 - 赵川峰<zhaochuanfeng@huawei.com> [[@cf-zhao](https://gitee.com/cf-zhao)]
+- 朱健伟<zhujianwei7@huawei.com> [[@zhujianwei001](https://gitee.com/zhujianwei001)]
 
 ## 2023 年 TC 成员变更历史
 - 叶青龙于2023年3月卸任，吕从庆接替TC委员工作。
+- 魏  刚于2023年9月卸任，朱健伟作为安全委员会主席，接替TC委员工作。
 
 # 2022年TC成员 
 

@@ -1,0 +1,7 @@
+name: python-tox-travis
+description: Seamless integration of Tox into Travis CI.
+upstream: https://github.com/tox-dev/tox-travis
+branches:
+- name: master
+  type: protected
+type: public

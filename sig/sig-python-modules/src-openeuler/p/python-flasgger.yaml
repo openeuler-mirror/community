@@ -1,0 +1,7 @@
+name: python-flasgger
+description: Extract swagger specs from your flask project.
+upstream: https://github.com/flasgger/flasgger/
+branches:
+- name: master
+  type: protected
+type: public

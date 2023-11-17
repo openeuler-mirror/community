@@ -1,0 +1,7 @@
+name: software-package-server
+description: "Software package server is a unified component for openeuler community developer which try to simplify the source package contribution process."
+upstream: https://github.com/opensourceways/software-package-server
+branches:
+- name: master
+  type: protected
+type: public

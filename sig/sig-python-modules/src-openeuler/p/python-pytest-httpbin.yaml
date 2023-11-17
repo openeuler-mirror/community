@@ -1,0 +1,10 @@
+name: python-pytest-httpbin
+description: Easily test your HTTP library against a local copy of httpbin.
+upstream: https://github.com/kevin1024/pytest-httpbin
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: readonly
+  create_from: master
+type: public

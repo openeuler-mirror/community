@@ -1,0 +1,7 @@
+name: python-cma
+description: A stochastic numerical optimization algorithm for difficult (non-convex, ill-conditioned, multi-modal, rugged, noisy) optimization problems in continuous search spaces, implemented in Python.
+upstream: https://github.com/CMA-ES/pycma
+branches:
+- name: master
+  type: protected
+type: public

@@ -47,6 +47,8 @@ repositories:
   - openeuler/x2nestos
   - src-openeuler/x2nestos
   - src-openeuler/nestos-kubernetes-deployer
+  - src-openeuler/openEuler-release-nestos-for-container
+  - src-openeuler/openEuler-release-nestos-for-virt
 
 - repo:
   - src-openeuler/bootupd
@@ -100,11 +102,11 @@ repositories:
     name: jizongyao
     organization: UnionTech
     email: jizongyao@uniontech.com
-  - gitee_id: sunyuxuan
+  - gitee_id: sunyuxuan12
     name: sunyuxuan
     organization: UnionTech
     email: sunyuxuan@uniontech.com
-  - gitee_id: ljtian
+  - gitee_id: ljtian-uos
     name: tianlijun
     organization: UnionTech
     email: tianlijun@uniontech.com

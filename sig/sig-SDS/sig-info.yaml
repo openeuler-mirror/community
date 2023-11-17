@@ -46,6 +46,7 @@ repositories:
 # Lustre related repos
 - repo:
   - src-openeuler/lustre
+  - src-openeuler/lustre-release
   - src-openeuler/zfs
   committers:
   - gitee_id: xin3liang
@@ -70,7 +71,7 @@ repositories:
     name: Yongle Lin
     organization: freelancer
     email: kjpioo2006@gmail.com
-    
+
 - repo:
   - openeuler/fastblock
   committers:
@@ -103,4 +104,3 @@ repositories:
     name: xiaoliang yang
     organization: uniontech
     email: yangxiaoliang@uniontech.com 
-

@@ -384,6 +384,9 @@ def oe_requirements(repo, blacklist):
         print("ERROR! openeuler/" + repo["name"] + " was black-listed.")
         print("         Because: " + blacklist[repo["name"]])
         errors += 1
+    if repo.get("repository_url", "") != "":
+        print("ERROR! openeuler org can't contains a repository_url tag" )
+        errors += 1
     return errors
 
 

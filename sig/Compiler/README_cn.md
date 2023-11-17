@@ -78,7 +78,7 @@ Compiler SIG 每双周周二上午10:00进行线上例会，也会定期举办�
      - 贺 东博[@Noah](https://gitee.com/jvmboy) 邮箱: hedongbo@huawei.com
    - Committers
      - 张 一鹏[@eapen](https://gitee.com/eapen) 邮箱: zhangyipeng7@huawei.com
-     - 王   浩[@wanghao_hw](https://gitee.com/wanghao_hw) 邮箱: wanghao564@huawei.com
+     - 王中一[@Autistic_boyya](https://gitee.com/Autistic_boyya) 邮箱: wangzhongyi7@huawei.com
  - [gcc](https://gitee.com/openeuler/gcc)
  - [src-openeuler/gcc](https://gitee.com/src-openeuler/gcc)
    - Maintainers
@@ -225,7 +225,12 @@ Compiler SIG 每双周周二上午10:00进行线上例会，也会定期举办�
    - Committers
      - 伍 明川[@wumingchuan](https://gitee.com/wumingchuan) 邮箱: wumingchuan1@huawei.com
  - [openeuler/compiler-docs](https://gitee.com/openeuler/openeuler/compiler-docs)
-
+ - [gcc-10](https://gitee.com/src-openeuler/gcc-10)
+   - Maintainers
+     - 李 彦成[@li-yancheng](https://gitee.com/li-yancheng) email: liyancheng@huawei.com
+   - Contributers
+     - 王 鼎[@wangding16](https://gitee.com/wangding16) email: wangding16@huawei.com
+     - 赵 书健[@zhaoshujian](https://gitee.com/zhaoshujian) email: zhaoshujian@huawei.com
 
 ## 联系
  - [邮件列表](mailto:compiler@openeuler.org)

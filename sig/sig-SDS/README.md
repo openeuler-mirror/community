@@ -23,6 +23,8 @@
 - liuzhiqiang[@liuzhiqiang26](https://gitee.com/liuzhiqiang26)
 - liuqinfei[@liuqinfei](https://gitee.com/liuqinfei) (负责Ceph CI工作)
 - luorixin[@rosinL](https://gitee.com/rosinL)
+- lishaoxiong[@otank](https://gitee.com/otank)
+- wuxingyi[@wuxingyi](https://gitee.com/wuxingyi)
 
 ### Committer列表
 
@@ -30,7 +32,9 @@
 - Zhiwei-Dai[@Zhiwei-Dai](https://gitee.com/Zhiwei-Dai)
 - Xinliang Liu[@xin3liang](https://gitee.com/xin3liang)
 - yangxiaoliang[@ceph_yang](https://gitee.com/ceph_yang)
-
+- liuhongquan[@liuhq189](https://gitee.com/liuhq189)
+- shuzhenyi[@szyyier](https://gitee.com/szyyier)
+- sunyifang[@evansun0312](https://gitee.com/evansun0312)
 
 ### 模块责任人
 
@@ -65,3 +69,4 @@ repository地址：
 - https://gitee.com/openeuler/ceph_dev
 - https://gitee.com/src-openeuler/lustre
 - https://gitee.com/src-openeuler/zfs
+- https://gitee.com/openeuler/fastblock

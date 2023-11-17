@@ -48,4 +48,7 @@ branches:
 - name: openEuler-20.03-LTS-SP4
   type: protected
   create_from: openEuler-20.03-LTS-SP3
+- name: openEuler-22.03-LTS-SP3
+  type: protected
+  create_from: openEuler-22.03-LTS-Next
 type: public

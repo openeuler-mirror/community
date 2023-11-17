@@ -1,0 +1,7 @@
+name: python-trove-classifiers
+description: Canonical source for classifiers on PyPI (pypi.org).
+upstream: https://github.com/pypa/trove-classifiers
+branches:
+- name: master
+  type: protected
+type: public

@@ -1,0 +1,6 @@
+name: rpmdepsearch
+description: RPM dependencies analyze. It uses HTTP to download metadata to find packages requiring input packages.
+branches:
+- name: master
+  type: protected
+type: public

@@ -1,0 +1,7 @@
+name: aops-cobbler
+description: A cobbler manager service used for one click automatic installation of the operating system.
+upstream: https://gitee.com/openeuler/aops-cobbler
+branches:
+- name: master
+  type: protected
+type: public

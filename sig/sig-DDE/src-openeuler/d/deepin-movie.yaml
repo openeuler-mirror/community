@@ -1,5 +1,5 @@
 name: deepin-movie
-description: Deepin movie
+description: Deepin movie based on mpv
 upstream: https://github.com/linuxdeepin/deepin-movie
 branches:
 - name: master
@@ -28,4 +28,7 @@ branches:
 - name: openEuler-23.09
   type: protected
   create_from: master
+- name: openEuler-22.03-LTS-SP3
+  type: protected
+  create_from: openEuler-22.03-LTS-Next
 type: public

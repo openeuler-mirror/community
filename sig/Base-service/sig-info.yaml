@@ -44,6 +44,23 @@ repositories:
 - repo: 
   - openeuler/openEuler-rpm-config
 
+- repo:
+  - openeuler/unizip
+  - src-openeuler/unizip
+  committers:
+  - gitee_id: lcynju
+    name: lcynju
+    email: lcy@nju.edu.cn
+  - gitee_id: huangduirong
+    name: huangduirong
+    email: huangduirong@huawei.com
+  - gitee_id: chen-yufanspace
+    name: Yufan Chen
+    email: 1109674186@qq.com
+  - gitee_id: simonshin
+    name: SimonShin
+    email: 1847401037@qq.com
+
 - repo: 
   - openeuler/libxml2-rust
   - openeuler/libarchive-rust
