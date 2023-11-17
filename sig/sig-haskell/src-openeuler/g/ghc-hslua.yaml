@@ -1,0 +1,7 @@
+name: ghc-hslua
+description: Bindings to Lua, an embeddable scripting language
+upstream: https://hackage.haskell.org/package/hslua
+branches:
+  - name: master
+    type: protected
+type: public

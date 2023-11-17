@@ -1,0 +1,7 @@
+name: ghc-case-insensitive
+description: Case insensitive string comparison
+upstream: https://hackage.haskell.org/package/case-insensitive
+branches:
+  - name: master
+    type: protected
+type: public

@@ -1,0 +1,7 @@
+name: ghc-wai-logger
+description: A logging system for WAI
+upstream: https://hackage.haskell.org/package/wai-logger
+branches:
+  - name: master
+    type: protected
+type: public

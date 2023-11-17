@@ -1,0 +1,7 @@
+name: ghc-call-stack
+description: Use GHC call-stacks in a backward compatible way
+upstream: https://hackage.haskell.org/package/call-stack
+branches:
+  - name: master
+    type: protected
+type: public

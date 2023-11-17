@@ -1,0 +1,7 @@
+name: ghc-pandoc-server
+description: Pandoc document conversion as an HTTP servant-server
+upstream: https://hackage.haskell.org/package/pandoc-server
+branches:
+  - name: master
+    type: protected
+type: public

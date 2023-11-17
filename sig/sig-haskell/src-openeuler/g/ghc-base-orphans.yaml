@@ -1,0 +1,7 @@
+name: ghc-base-orphans
+description: Backwards-compatible orphan instances for base
+upstream: https://hackage.haskell.org/package/base-orphans
+branches:
+  - name: master
+    type: protected
+type: public

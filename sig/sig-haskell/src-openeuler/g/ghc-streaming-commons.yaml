@@ -1,0 +1,7 @@
+name: ghc-streaming-commons
+description: Common lower-level functions needed by various streaming data libraries
+upstream: https://hackage.haskell.org/package/streaming-commons
+branches:
+  - name: master
+    type: protected
+type: public

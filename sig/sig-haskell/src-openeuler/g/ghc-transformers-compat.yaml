@@ -1,0 +1,7 @@
+name: ghc-transformers-compat
+description: A small compatibility shim for the transformers library
+upstream: https://hackage.haskell.org/package/transformers-compat
+branches:
+  - name: master
+    type: protected
+type: public

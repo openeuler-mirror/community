@@ -1,0 +1,7 @@
+name: ghc-cookie
+description: HTTP cookie parsing and rendering
+upstream: https://hackage.haskell.org/package/cookie
+branches:
+  - name: master
+    type: protected
+type: public

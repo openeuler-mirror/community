@@ -1,0 +1,7 @@
+name: ghc-conduit
+description: Streaming data processing library
+upstream: https://hackage.haskell.org/package/conduit
+branches:
+  - name: master
+    type: protected
+type: public

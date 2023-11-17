@@ -1,0 +1,7 @@
+name: ghc-regex-posix
+description: POSIX Backend for "Text.Regex" (regex-base)
+upstream: https://hackage.haskell.org/package/regex-posix
+branches:
+  - name: master
+    type: protected
+type: public

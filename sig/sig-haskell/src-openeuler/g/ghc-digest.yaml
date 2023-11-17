@@ -1,0 +1,7 @@
+name: ghc-digest
+description: Various hashes for bytestrings; CRC32 and Adler32 for now
+upstream: https://hackage.haskell.org/package/digest
+branches:
+  - name: master
+    type: protected
+type: public

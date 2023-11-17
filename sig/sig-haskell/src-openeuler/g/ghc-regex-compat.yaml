@@ -1,0 +1,7 @@
+name: ghc-regex-compat
+description: Replaces/enhances "Text.Regex"
+upstream: https://hackage.haskell.org/package/regex-compat
+branches:
+  - name: master
+    type: protected
+type: public

@@ -1,0 +1,7 @@
+name: ghc-utf8-string
+description: Support for reading and writing UTF8 Strings
+upstream: https://hackage.haskell.org/package/utf8-string
+branches:
+  - name: master
+    type: protected
+type: public

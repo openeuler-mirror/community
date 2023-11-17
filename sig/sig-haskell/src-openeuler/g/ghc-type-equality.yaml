@@ -1,0 +1,7 @@
+name: ghc-type-equality
+description: Data.Type.Equality compat package
+upstream: https://hackage.haskell.org/package/type-equality
+branches:
+  - name: master
+    type: protected
+type: public

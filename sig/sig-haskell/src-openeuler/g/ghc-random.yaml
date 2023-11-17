@@ -1,0 +1,7 @@
+name: ghc-random
+description: Pseudo-random number generation
+upstream: https://hackage.haskell.org/package/random
+branches:
+  - name: master
+    type: protected
+type: public

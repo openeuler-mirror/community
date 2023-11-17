@@ -1,0 +1,7 @@
+name: ghc-wai
+description: Web Application Interface
+upstream: https://hackage.haskell.org/package/wai
+branches:
+  - name: master
+    type: protected
+type: public

@@ -1,0 +1,7 @@
+name: ghc-bsb-http-chunked
+description: Chunked HTTP transfer encoding for bytestring builders
+upstream: https://hackage.haskell.org/package/bsb-http-chunked
+branches:
+  - name: master
+    type: protected
+type: public

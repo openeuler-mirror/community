@@ -1,0 +1,7 @@
+name: ghc-http-client-tls
+description: Http-client backend using the connection package and tls library
+upstream: https://hackage.haskell.org/package/http-client-tls
+branches:
+  - name: master
+    type: protected
+type: public

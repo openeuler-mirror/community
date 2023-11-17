@@ -1,0 +1,7 @@
+name: ghc-safe
+description: Library of safe (exception free) functions
+upstream: https://hackage.haskell.org/package/safe
+branches:
+  - name: master
+    type: protected
+type: public

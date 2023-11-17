@@ -1,0 +1,7 @@
+name: ghc-pandoc
+description: Conversion between markup formats
+upstream: https://hackage.haskell.org/package/pandoc
+branches:
+  - name: master
+    type: protected
+type: public

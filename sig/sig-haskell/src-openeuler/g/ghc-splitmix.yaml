@@ -1,0 +1,7 @@
+name: ghc-splitmix
+description: Fast Splittable PRNG
+upstream: https://hackage.haskell.org/package/splitmix
+branches:
+  - name: master
+    type: protected
+type: public

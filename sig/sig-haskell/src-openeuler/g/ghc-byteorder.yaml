@@ -1,0 +1,7 @@
+name: ghc-byteorder
+description: Exposes the native endianness or byte ordering of the system
+upstream: https://hackage.haskell.org/package/byteorder
+branches:
+  - name: master
+    type: protected
+type: public

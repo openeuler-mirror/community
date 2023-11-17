@@ -1,0 +1,7 @@
+name: ghc-http2
+description: HTTP/2 library
+upstream: https://hackage.haskell.org/package/http2
+branches:
+  - name: master
+    type: protected
+type: public

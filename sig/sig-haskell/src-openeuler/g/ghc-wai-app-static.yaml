@@ -1,0 +1,7 @@
+name: ghc-wai-app-static
+description: WAI application for static serving
+upstream: https://hackage.haskell.org/package/wai-app-static
+branches:
+  - name: master
+    type: protected
+type: public

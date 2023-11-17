@@ -1,0 +1,7 @@
+name: ghc-cassava
+description: A CSV parsing and encoding library
+upstream: https://hackage.haskell.org/package/cassava
+branches:
+  - name: master
+    type: protected
+type: public

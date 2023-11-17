@@ -1,0 +1,7 @@
+name: ghc-bootstrap
+description: Binary distributions of The Glorious Glasgow Haskell Compiler
+upstream: https://www.haskell.org/ghc/download_ghc_9_2_3
+branches:
+  - name: master
+    type: protected
+type: public

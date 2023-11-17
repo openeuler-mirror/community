@@ -1,0 +1,7 @@
+name: ghc-simple-sendfile
+description: Cross platform library for the sendfile system call
+upstream: https://hackage.haskell.org/package/simple-sendfile
+branches:
+  - name: master
+    type: protected
+type: public

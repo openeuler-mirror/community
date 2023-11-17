@@ -1,0 +1,7 @@
+name: ghc-base-compat
+description: A compatibility layer for base
+upstream: https://hackage.haskell.org/package/base-compat
+branches:
+  - name: master
+    type: protected
+type: public

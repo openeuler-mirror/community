@@ -1,0 +1,7 @@
+name: ghc-unicode-data
+description: Access Unicode Character Database (UCD)
+upstream: https://hackage.haskell.org/package/unicode-data
+branches:
+  - name: master
+    type: protected
+type: public

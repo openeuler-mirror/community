@@ -1,0 +1,7 @@
+name: ghc-hashable
+description: A class for types that can be converted to a hash value
+upstream: https://hackage.haskell.org/package/hashable
+branches:
+  - name: master
+    type: protected
+type: public

@@ -1,0 +1,7 @@
+name: ghc-network
+description: Low-level networking interface
+upstream: https://hackage.haskell.org/package/network
+branches:
+  - name: master
+    type: protected
+type: public

@@ -1,0 +1,7 @@
+name: ghc-old-locale
+description: Locale library
+upstream: https://hackage.haskell.org/package/old-locale
+branches:
+  - name: master
+    type: protected
+type: public

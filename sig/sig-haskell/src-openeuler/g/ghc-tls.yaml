@@ -1,0 +1,7 @@
+name: ghc-tls
+description: TLS/SSL protocol native implementation (Server and Client)
+upstream: https://hackage.haskell.org/package/tls
+branches:
+  - name: master
+    type: protected
+type: public

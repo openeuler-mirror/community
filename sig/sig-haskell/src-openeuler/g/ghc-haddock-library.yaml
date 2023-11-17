@@ -1,0 +1,7 @@
+name: ghc-haddock-library
+description: Library exposing some functionality of Haddock
+upstream: https://hackage.haskell.org/package/haddock-library
+branches:
+  - name: master
+    type: protected
+type: public
