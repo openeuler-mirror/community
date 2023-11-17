@@ -387,6 +387,10 @@ def oe_requirements(repo, blacklist):
     if repo.get("repository_url", "") != "":
         print("ERROR! openeuler org can't contains a repository_url tag" )
         errors += 1
+    platform = repo.get("platform", "")
+    if platform != "" and platform != "gitee":
+        print("ERROR! openeuler org can't contains non-gitee platform tag" )
+        errors += 1
     return errors
 
 
