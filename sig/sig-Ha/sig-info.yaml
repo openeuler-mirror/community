@@ -25,8 +25,6 @@ maintainers:
   email: jiangtao@skysolidiss.com.cn
 repositories:
 - repo:
-  - openeuler/ha-api
-  - openeuler/ha-web
   - openeuler/pacemaker-mgmt
   - src-openeuler/rubygem-zeitwerk
   - src-openeuler/rubygem-hiredis
@@ -61,3 +59,11 @@ repositories:
   - gitee_id: besonn
     name: besonn
     email: besonn@163.com
+- repo:
+  - openeuler/ha-api
+  - openeuler/ha-web
+  committers:
+  - gitee_id: Jason_828e
+    name: Zixuan Chen
+    organization: KylinSoft
+    email: chenzixuan@kylinos.cn
