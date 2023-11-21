@@ -82,6 +82,7 @@ repository地址：
 - https://gitee.com/src-openeuler/libbpf
 - https://gitee.com/src-openeuler/bpftrace
 - https://gitee.com/src-openeuler/bcc
+- https://gitee.com/src-openeuler/bpftool
 - https://gitee.com/openeuler/Kmesh
 - https://gitee.com/openeuler/gala-gopher
 - https://gitee.com/openeuler/CTinspector
