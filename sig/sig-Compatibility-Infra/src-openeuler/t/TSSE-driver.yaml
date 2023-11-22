@@ -1,0 +1,10 @@
+name: TSSE-driver
+description: provide Montage Trust & Security System Extension driver for openEuler LTS version.
+upstream: https://gitee.com/openeuler/TSSE-driver
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
