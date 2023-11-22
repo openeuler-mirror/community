@@ -33,24 +33,37 @@ Ha SIG小组致力于将Ha这款业界知名的开源企业级高可用解决方
 
 Ha相关软件包的仓库如下，详见： http://archive.kernel.org/centos-vault/8.1.1911/HighAvailability/Source/SPackages/ 和 http://archive.kernel.org/centos-vault/8.1.1911/AppStream/Source/SPackages/ 。
 
-- https://gitee.com/src-openeuler/pacemaker
-- https://gitee.com/src-openeuler/corosync
-- https://gitee.com/src-openeuler/fence-agents
-- https://gitee.com/src-openeuler/fence-virt
-- https://gitee.com/src-openeuler/sbd
-- https://gitee.com/src-openeuler/pcs
-- https://gitee.com/src-openeuler/corosync-qdevice
-- https://gitee.com/src-openeuler/drbd
-- https://gitee.com/src-openeuler/drbd-utils
-- https://gitee.com/src-openeuler/ha-api
-- https://gitee.com/src-openeuler/ha-web
-- https://gitee.com/src-openeuler/pacemaker-mgmt
 - https://gitee.com/openeuler/ha-api
 - https://gitee.com/openeuler/ha-web
 - https://gitee.com/openeuler/pacemaker-mgmt
+- https://gitee.com/openeuler/ha-monitor
+- https://gitee.com/src-openeuler/pcs
+- https://gitee.com/src-openeuler/pacemaker
+- https://gitee.com/src-openeuler/corosync
+- https://gitee.com/src-openeuler/corosync-qdevice
+- https://gitee.com/src-openeuler/fence-agents
+- https://gitee.com/src-openeuler/fence-virt
+- https://gitee.com/src-openeuler/sbd
+- https://gitee.com/src-openeuler/drbd
+- https://gitee.com/src-openeuler/kmod-drbd90
+- https://gitee.com/src-openeuler/ha-api
+- https://gitee.com/src-openeuler/ha-web
 - https://gitee.com/src-openeuler/booth
 - https://gitee.com/src-openeuler/execstack
-- https://gitee.com/src-openeuler/kmod-drbd90
+- https://gitee.com/src-openeuler/resource-agents
+- https://gitee.com/src-openeuler/pacemaker-mgmt
+- https://gitee.com/src-openeuler/dlm
+- https://gitee.com/src-openeuler/amtterm
+- https://gitee.com/src-openeuler/rubygem-zeitwerk
+- https://gitee.com/src-openeuler/rubygem-hiredis
+- https://gitee.com/src-openeuler/rubygem-racc
+- https://gitee.com/src-openeuler/rubygem-sassc-rails
+- https://gitee.com/src-openeuler/rubygem-pg
+- https://gitee.com/src-openeuler/rubygem-sassc
+- https://gitee.com/src-openeuler/rubygem-rr
+- https://gitee.com/src-openeuler/rubygem-actiontext
+- https://gitee.com/src-openeuler/rubygem-actionmailbox
+- https://gitee.com/src-openeuler/rubygem-test-unit-rr
 
 ## SIG基本信息
 
@@ -59,17 +72,14 @@ Ha相关软件包的仓库如下，详见： http://archive.kernel.org/centos-va
 
 ### Maintainers
 - hjimmy
-- hjimmy1
 - imjoey
 - taojiang666
 - yangzhao_kl
 - jxy_git
 
 ### Committers
-- crrs666
-- sin_dwell_er
-- zhao_zhong_zhang
-- liqiuyu123
+- besonn
+- Jason_828e
 
 ### Contributors
 - beijing-yitong
@@ -82,4 +92,3 @@ Ha相关软件包的仓库如下，详见： http://archive.kernel.org/centos-va
 
 ### 对外联络人
 - hjimmy
-- hjimmy1
