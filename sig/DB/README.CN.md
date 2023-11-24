@@ -55,7 +55,7 @@ DB SIG当前处于发展的初始阶段，团队维护能力有限，目前为�
 
 ### 成员列表
 - Junyan Zhang[@zjyabsa](https://gitee.com/zjyabsa/), *jyzhangcf@isoftstone.com*
-- Dongxing Wang[@desert-sailor](https://gitee.com/desert-sailor/), *dxwangk@isoftstone.com*
+- Dongxing Wang[@desert-sailor](https://gitee.com/desert-sailor/), *dongxing.wang_a@thundersoft.com*
 - GreatSQL[@greatsql_admin](https://gitee.com/GreatSQL/), *jinrong.ye@greatdb.com*
 
 ### 已退休
