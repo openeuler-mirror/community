@@ -221,3 +221,24 @@ blacklist-software:
 - name: python-keyczar
   reason: upstream stops maintaining this software
   upstream_url: https://github.com/google/keyczar
+- name: ghc-connection
+  reason: upstream stops maintaining this software
+  upstream_url: https://hackage.haskell.org/package/connection
+- name: ghc-cryptonite
+  reason: upstream stops maintaining this software
+  upstream_url: https://hackage.haskell.org/package/cryptonite
+- name: ghc-foldable1-classes-compat
+  reason: Merge into ghc-base after ghc 9.6 release
+  upstream_url: https://hackage.haskell.org/package/foldable1-classes-compat
+- name: ghc-x509
+  reason: upstream stops maintaining this software
+  upstream_url: https://hackage.haskell.org/package/x509
+- name: ghc-x509-store
+  reason: upstream stops maintaining this software
+  upstream_url: https://hackage.haskell.org/package/x509-store
+- name: ghc-x509-system
+  reason: upstream stops maintaining this software
+  upstream_url: https://hackage.haskell.org/package/x509-system
+- name: ghc-x509-validation
+  reason: upstream stops maintaining this software
+  upstream_url: https://hackage.haskell.org/package/x509-validation

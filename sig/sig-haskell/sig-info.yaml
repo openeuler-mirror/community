@@ -73,12 +73,10 @@ repositories:
   - src-openeuler/ghc-comonad
   - src-openeuler/ghc-conduit
   - src-openeuler/ghc-conduit-extra
-  - src-openeuler/ghc-connection
   - src-openeuler/ghc-constraints
   - src-openeuler/ghc-contravariant
   - src-openeuler/ghc-cookie
   - src-openeuler/ghc-cryptohash-md5
-  - src-openeuler/ghc-cryptonite
   - src-openeuler/ghc-data-default
   - src-openeuler/ghc-data-default-class
   - src-openeuler/ghc-data-default-instances-containers
@@ -96,7 +94,6 @@ repositories:
   - src-openeuler/ghc-emojis
   - src-openeuler/ghc-fast-logger
   - src-openeuler/ghc-file-embed
-  - src-openeuler/ghc-foldable1-classes-compat
   - src-openeuler/ghc-generically
   - src-openeuler/ghc-Glob
   - src-openeuler/ghc-gridtables
@@ -245,10 +242,6 @@ repositories:
   - src-openeuler/ghc-warp
   - src-openeuler/ghc-witherable
   - src-openeuler/ghc-word8
-  - src-openeuler/ghc-x509
-  - src-openeuler/ghc-x509-store
-  - src-openeuler/ghc-x509-system
-  - src-openeuler/ghc-x509-validation
   - src-openeuler/ghc-xml
   - src-openeuler/ghc-xml-conduit
   - src-openeuler/ghc-xml-types
@@ -258,3 +251,13 @@ repositories:
   - src-openeuler/happy
   - src-openeuler/pandoc-cli
   - src-openeuler/texmath
+  - src-openeuler/ghc-crypton
+  - src-openeuler/ghc-crypton-connection
+  - src-openeuler/ghc-crypton-x509
+  - src-openeuler/ghc-crypton-x509-store
+  - src-openeuler/ghc-crypton-x509-system
+  - src-openeuler/ghc-crypton-x509-validation
+  - src-openeuler/ghc-digits
+  - src-openeuler/ghc-toml-parser
+  - src-openeuler/ghc-text-iso8601
+  - src-openeuler/ghc-integer-conversion
