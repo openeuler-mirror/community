@@ -1,0 +1,10 @@
+name: can-utils
+description: SocketCAN user space utilities and tools
+upstream: https://github.com/linux-can/can-utils
+branches:
+- name: master
+  type: protected
+- name: openEuler-23.09
+  type: protected
+  create_from: master
+type: public
