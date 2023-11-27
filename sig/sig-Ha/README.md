@@ -79,3 +79,4 @@ repository地址：
 - https://gitee.com/src-openeuler/rubygem-actiontext
 - https://gitee.com/src-openeuler/rubygem-actionmailbox
 - https://gitee.com/src-openeuler/rubygem-test-unit-rr
+- https://gitee.com/src-openeuler/prometheus-ha_cluster_exporter

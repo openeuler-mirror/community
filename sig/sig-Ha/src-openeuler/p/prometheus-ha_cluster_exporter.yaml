@@ -1,0 +1,7 @@
+name: prometheus-ha_cluster_exporter
+description: This is a bespoke Prometheus exporter used to enable the monitoring of Pacemaker based HA clusters.
+upstream: https://github.com/ClusterLabs/ha_cluster_exporter
+branches:
+- name: master
+  type: protected
+type: public
