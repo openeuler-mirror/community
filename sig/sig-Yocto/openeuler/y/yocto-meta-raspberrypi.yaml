@@ -1,0 +1,7 @@
+name: yocto-meta-raspberrypi
+description: raspberrypi support layer
+upstream: git://git.yoctoproject.org/meta-raspberrypi
+branches:
+- name: master
+  type: protected
+type: public
