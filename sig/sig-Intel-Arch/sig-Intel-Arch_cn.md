@@ -56,5 +56,10 @@
 
   - [Intel-lkvs](https://gitee.com/openeuler/intel-lkvs): Intel arch支持相关的lkvs代码开发仓库。
 
+  - [Intel-ice](https://gitee.com/openeuler/intel-ice): Intel E810 以太网卡驱动程序。
+
+  - [Intel-iavf](https://gitee.com/openeuler/intel-iavf): Intel E810 以太网卡 Virtual Function 驱动程序。
+
+
 - 文档
   - [Intel-Arch-doc](https://gitee.com/openeuler/Intel-Arch-doc): 关于openEuler的Intel arch支持相关的文档，如现状、规划、目标等等。
