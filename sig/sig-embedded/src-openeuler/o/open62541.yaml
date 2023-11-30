@@ -1,0 +1,7 @@
+name: open62541
+description: open62541 is an open source and free implementation of OPC UA (OPC Unified Architecture) written in the common subset of the C99 and C++98 languages.
+upstream: https://github.com/open62541/open62541
+branches:
+- name: master
+  type: protected
+type: public
