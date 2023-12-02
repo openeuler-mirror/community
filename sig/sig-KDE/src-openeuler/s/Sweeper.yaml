@@ -1,0 +1,7 @@
+name: Sweeper
+description: Application that helps to clean unwanted traces the user leaves on the system
+upstream: https://invent.kde.org/utilities/sweeper
+branches:
+- name: master
+  type: protected
+type: public

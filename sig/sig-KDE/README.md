@@ -117,3 +117,15 @@ repository地址：
   - https://gitee.com/src-openeuler/okteta
   - https://gitee.com/src-openeuler/qca
   - https://gitee.com/src-openeuler/kbackup
+  - https://gitee.com/src-openeuler/Sweeper
+  - https://gitee.com/src-openeuler/notae
+  - https://gitee.com/src-openeuler/RSIBreak
+  - https://gitee.com/src-openeuler/TellySkout
+  - https://gitee.com/src-openeuler/Skanpage
+  - https://gitee.com/src-openeuler/PlasmaMycroftApplet
+  - https://gitee.com/src-openeuler/Vail
+  - https://gitee.com/src-openeuler/markdownpart
+  - https://gitee.com/src-openeuler/kweather
+  - https://gitee.com/src-openeuler/ktrip
+  - https://gitee.com/src-openeuler/ktimer
+  - https://gitee.com/src-openeuler/mangonel
