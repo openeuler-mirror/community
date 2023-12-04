@@ -84,6 +84,10 @@ repositories:
     name: Shanqing Fu
     organization: KylinSoft
     email: fushanqing@kylinos.cn
+  - gitee_id: jianli-97
+    name: Jian Li
+    organization: KylinSoft
+    email: lijian2@kylinos.cn
 - repo:
   - openeuler/Cpds
   - openeuler/cpds-dashboard
@@ -126,7 +130,6 @@ repositories:
   - openeuler/cloudnative
   - src-openeuler/umoci
   - src-openeuler/gvisor
-  - src-openeuler/skopeo
   - src-openeuler/harbor
   - src-openeuler/jboss-parent
   - src-openeuler/crun
@@ -137,7 +140,6 @@ repositories:
   - src-openeuler/virt-what
   - src-openeuler/kubevirt
   - src-openeuler/libnetwork
-  - src-openeuler/podman
   - src-openeuler/python-kubernetes
 - repo:
   - openeuler/rubik
@@ -245,3 +247,11 @@ repositories:
     name: Lei Xu
     organization: xfusion
     email: xulei@xfusion.com
+- repo:
+  - src-openeuler/skopeo
+  - src-openeuler/podman
+  committers:
+  - gitee_id: jianli-97
+    name: Jian Li
+    organization: KylinSoft
+    email: lijian2@kylinos.cn
