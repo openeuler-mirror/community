@@ -1,0 +1,7 @@
+name: doris
+description: Apache Doris is a new-generation open-source real-time data warehouse based on MPP architecture, with easier use and higher performance for big data analytics.
+upstream: https://github.com/apache/doris
+branches:
+- name: master
+  type: protected
+type: public
