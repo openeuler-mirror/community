@@ -193,6 +193,8 @@ Compiler SIG 每双周周二上午10:00进行线上例会，也会定期举办�
      - 伍 明川[@wumingchuan](https://gitee.com/wumingchuan) 邮箱: wumingchuan1@huawei.com
  - [pin-gcc-client](https://gitee.com/openeuler/pin-gcc-client)
  - [src-openeuler/pin-gcc-client](https://gitee.com/src-openeuler/pin-gcc-client)
+ - [pin-llvm-client](https://gitee.com/openeuler/pin-llvm-client)
+ - [src-openeuler/pin-llvm-client](https://gitee.com/src-openeuler/pin-llvm-client)
    - Maintainers
      - 李 彦成[@li-yancheng](https://gitee.com/li-yancheng) 邮箱: liyancheng@huawei.com
    - Committers
