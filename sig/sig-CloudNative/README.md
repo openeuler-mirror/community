@@ -42,6 +42,8 @@ CloudNative SIG致力于为广大用户、开发者、爱好者提供便捷、�
 - flyflyflypeng[@flyflyflypeng](https://gitee.com/flyflyflypeng)
 - lifeng2221dd1[@lifeng2221dd1](https://gitee.com/lifeng2221dd1)
 - duguhaotian[@duguhaotian](https://gitee.com/duguhaotian)
+- jianli-97[@jianli-97](https://gitee.com/jianli-97)
+- duyiwei7w[@duyiwei7w](https://gitee.com/duyiwei7w)
 
 
 ## 联系方式
