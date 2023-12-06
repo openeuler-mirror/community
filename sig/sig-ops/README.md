@@ -21,10 +21,19 @@ Pick up.
 
 ## Maintainer:
 - Luan Jianhai (@luanjianhai) (https://gitee.com/luanjianhai) Email:luanjianhai@huawei.com
-- Hu Feng (@solarhu) (https://gitee.com/solarhu) Email:solar.hu@huawei.com
-- Ding Xiang (@cmss_dx) (https://gitee.com/cmss_dx) Email: dingxiang@cmss. Chinamobile.com
-- Luo Shengwei (@Lostwayzxc) (https://gitee.com/Lostwayzxc)   Email:luoshengwei@huawei.com
-- Yang Zhao (@yangzhao_kl) (https://gitee.com/yangzhao_kl) Email: yangzhao1@kylinos.cn
+- Hu Feng [@solarhu] (https://gitee.com/solarhu) Email:solar.hu@huawei.com
+- Ding Xiang [@cmss_dx] (https://gitee.com/cmss_dx) Email: dingxiang@cmss. Chinamobile.com
+- Luo Shengwei [@Lostwayzxc] (https://gitee.com/Lostwayzxc)   Email:luoshengwei@huawei.com
+- Yang Zhao [@yangzhao_kl] (https://gitee.com/yangzhao_kl) Email: yangzhao1@kylinos.cn
+- Chen Mingmin [@hjx_gitff] (https://gitee.com/hjx_gitff) Email: chenmingmin@xfusion.com
+- Sang Yan [@snoweay] (https://gitee.com/snoweay) Email: sangyan@huawei.com
+- Lu Zhihao [@MrRlu] (https://gitee.com/MrRlu) Email: luzhihao@huawei.com
+- Zhao Yuxing [@dowzyx] (https://gitee.com/dowzyx) Email: zhaoyuxing2@huawei.com
+- Chen Wei [@chenwei_kernel] (https://gitee.com/chenwei_kernel) Email: chenwei@xfusion.com
+- Yang bin [@byrobins] (https://gitee.com/byrobins) Email: binyangck@isoftstone.com
+
+## Changes of 2023 ops Members
+- Luo Longjun resigned form the committee in November 2023,and Yang Bin took over this work as a sig-ops member.
 
 ## Contributor：
 - Fang liangliang (@fang-liangliang) (https://gitee.com/fang-liangliang) Email: fangliangliang@deepinsight.cn
