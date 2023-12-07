@@ -1,0 +1,10 @@
+name: ktib
+description: kylin trusted image builder
+branches:
+- name: master
+  type: protected
+- name: dev
+  type: protected
+  create_from: master
+type: public
+

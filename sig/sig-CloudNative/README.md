@@ -141,6 +141,7 @@ repository地址：
 - https://gitee.com/src-openeuler/mcp
 - https://gitee.com/src-openeuler/mcp-vue
 - https://gitee.com/src-openeuler/mcp-self-service-vue
+- https://gitee.com/openeuler/ktib
 
 roadmap:
 ```
