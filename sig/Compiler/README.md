@@ -233,7 +233,12 @@ Tuesday 10 am bi-weekly, UTC+8.
    - Contributers
      - 王 鼎[@wangding16](https://gitee.com/wangding16) email: wangding16@huawei.com
      - 赵 书健[@zhaoshujian](https://gitee.com/zhaoshujian) email: zhaoshujian@huawei.com
-
+ - [bishengjdk-test](https://gitee.com/openeuler/bishengjdk-test)
+   - Maintainers
+     - 赵 状状[@hzhaocode](https://gitee.com/hzhaocode) email: zhaozhuangzhuang2@huawei.com
+   - Committers
+     - 李 建荣[@lllllijianrong](https://gitee.com/lllllijianrong) email: lijianrong4@huawei.com
+     - 王 坤[@kuenking111](https://gitee.com/kuenking111) email: wangkun49@huawei.com
 ## Contact
  - [maillist](mailto:compiler@openeuler.org)
  - wechat: Compiler_Assistant
