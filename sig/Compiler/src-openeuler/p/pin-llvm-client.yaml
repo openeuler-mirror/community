@@ -1,0 +1,8 @@
+name: pin-llvm-client
+description: A Pin (Plug-IN framework) client is implemented based on Clang plugin and
+  can execute the compiler optimization pass in LLVM.
+upstream: https://gitee.com/openeuler/pin-llvm-client
+branches:
+- name: master
+  type: protected
+type: public

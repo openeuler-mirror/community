@@ -193,6 +193,8 @@ Tuesday 10 am bi-weekly, UTC+8.
      - 伍 明川[@wumingchuan](https://gitee.com/wumingchuan) email: wumingchuan1@huawei.com
  - [pin-gcc-client](https://gitee.com/openeuler/pin-gcc-client)
  - [src-openeuler/pin-gcc-client](https://gitee.com/src-openeuler/pin-gcc-client)
+ - [pin-llvm-client](https://gitee.com/openeuler/pin-llvm-client)
+ - [src-openeuler/pin-llvm-client](https://gitee.com/src-openeuler/pin-llvm-client)
    - Maintainers
      - 李 彦成[@li-yancheng](https://gitee.com/li-yancheng) email: liyancheng@huawei.com
    - Committers
