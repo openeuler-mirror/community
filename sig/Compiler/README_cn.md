@@ -233,7 +233,12 @@ Compiler SIG 每双周周二上午10:00进行线上例会，也会定期举办�
    - Contributers
      - 王 鼎[@wangding16](https://gitee.com/wangding16) email: wangding16@huawei.com
      - 赵 书健[@zhaoshujian](https://gitee.com/zhaoshujian) email: zhaoshujian@huawei.com
-
+ - [bishengjdk-test](https://gitee.com/openeuler/bishengjdk-test)
+   - Maintainers
+     - 赵 状状[@hzhaocode](https://gitee.com/hzhaocode) 邮箱: zhaozhuangzhuang2@huawei.com
+   - Committers
+     - 李 建荣[@lllllijianrong](https://gitee.com/lllllijianrong) 邮箱: lijianrong4@huawei.com
+     - 王 坤[@kuenking111](https://gitee.com/kuenking111) 邮箱: wangkun49@huawei.com
 ## 联系
  - [邮件列表](mailto:compiler@openeuler.org)
  - 微信: Compiler_Assistant
