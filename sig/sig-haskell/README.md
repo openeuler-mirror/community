@@ -6,9 +6,9 @@ Haskell是一种函数式、静态、隐式类型、惰性的编程语言。Hask
 
 ### Maintainer列表
 
-- 吴峰光[@wu_fengguang](https://gitee.com/wu_fengguang)
 - 林润泽[@lrzlin](https://gitee.com/lrzlin)
 - 刘恺[@kailiu42](https://gitee.com/kailiu42)
+- 吴峰光[@wu_fengguang](https://gitee.com/wu_fengguang)
 - 胡欣蔚[@shinwell_hu](https://gitee.com/shinwell_hu)
 
 # 联系方式
