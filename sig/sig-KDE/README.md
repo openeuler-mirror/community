@@ -129,3 +129,12 @@ repository地址：
   - https://gitee.com/src-openeuler/ktrip
   - https://gitee.com/src-openeuler/ktimer
   - https://gitee.com/src-openeuler/mangonel
+  - https://gitee.com/src-openeuler/filelight
+  - https://gitee.com/src-openeuler/kalk
+  - https://gitee.com/src-openeuler/kcharselect
+  - https://gitee.com/src-openeuler/kclock
+  - https://gitee.com/src-openeuler/kdebugsettings
+  - https://gitee.com/src-openeuler/fielding
+  - https://gitee.com/src-openeuler/hash-o-matic
+  - https://gitee.com/src-openeuler/isoimagewriter
+  - https://gitee.com/src-openeuler/kairo

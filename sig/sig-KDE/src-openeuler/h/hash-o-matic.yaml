@@ -1,0 +1,7 @@
+name: hash-o-matic
+description: Simple hash validator allowing to compare two files, generate the checksum of a file and verify if a hash matches a file
+upstream: https://invent.kde.org/utilities/hash-o-matic
+branches:
+- name: master
+  type: protected
+type: public
