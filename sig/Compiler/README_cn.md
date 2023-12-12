@@ -19,6 +19,7 @@ Compiler SIG 每双周周二上午10:00进行线上例会，也会定期举办�
  - [bishengjdk-8](https://gitee.com/openeuler/bishengjdk-8)
  - [bishengjdk-11](https://gitee.com/openeuler/bishengjdk-11)
  - [bishengjdk-17](https://gitee.com/openeuler/bishengjdk-17)
+ - [bishengjdk-21](https://gitee.com/openeuler/bishengjdk-21)
    - Maintainers
      - 陈 善瑶[@stubCode](https://gitee.com/stubCode) 邮箱: chenshanyao@huawei.com
      - 王   坤[@kuenking111](https://gitee.com/kuenking111) 邮箱: wangkun49@huawei.com
