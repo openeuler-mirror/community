@@ -495,7 +495,6 @@ repositories:
   - src-openeuler/ocl-icd
   - src-openeuler/openEuler-indexhtml
   - src-openeuler/openEuler-release
-  - src-openeuler/openEuler-repos
   - src-openeuler/paranamer
   - src-openeuler/plexus-component-factories-pom
   - src-openeuler/pmix
@@ -708,3 +707,11 @@ repositories:
     name: chenqide
     organization: kylinos
     email: dillon.chen@gmail.com
+
+- repo:
+  - src-openeuler/openEuler-repos
+  committers:
+  - gitee_id: wangchong1995924
+    name: chong Wang
+    organization: Huawei
+    email: 15229716099@163.com
