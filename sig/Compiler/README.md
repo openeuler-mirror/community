@@ -19,6 +19,7 @@ Tuesday 10 am bi-weekly, UTC+8.
  - [bishengjdk-8](https://gitee.com/openeuler/bishengjdk-8)
  - [bishengjdk-11](https://gitee.com/openeuler/bishengjdk-11)
  - [bishengjdk-17](https://gitee.com/openeuler/bishengjdk-17)
+ - [bishengjdk-21](https://gitee.com/openeuler/bishengjdk-21)
    - Maintainers
      - 陈 善瑶[@stubCode](https://gitee.com/stubCode) email: chenshanyao@huawei.com
      - 王   坤[@kuenking111](https://gitee.com/kuenking111) email: wangkun49@huawei.com
