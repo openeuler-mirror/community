@@ -56,6 +56,7 @@ Tuesday 10 am bi-weekly, UTC+8.
      - 贺 东博[@Noah](https://gitee.com/jvmboy) email: hedongbo@huawei.com
      - 周   磊[@alexanderbill](https://gitee.com/alexanderbill) email: zhoulei03@huawei.com
    - Committers
+     - 谢 照昆[@xiezhaokun](https://gitee.com/xiezhaokun) email: xiezhaokun@huawei.com
      - 王 嘉伟[@DXwangg](https://gitee.com/DXwangg) email: wangjiawei80@huawei.com
  - [BiSheng-Adoptium](https://gitee.com/openeuler/BiSheng-Adoptium)
    - Maintainers

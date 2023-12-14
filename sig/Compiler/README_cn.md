@@ -62,6 +62,7 @@ Compiler SIG 每双周周二上午10:00进行线上例会，也会定期举办�
      - 贺 东博[@Noah](https://gitee.com/jvmboy) 邮箱: hedongbo@huawei.com
      - 王 坤[@kuenking111](https://gitee.com/kuenking111) 邮箱: wangkun49@huawei.com
    - Committers
+     - 谢 照昆[@xiezhaokun](https://gitee.com/xiezhaokun) 邮箱: xiezhaokun@huawei.com
      - 王 嘉伟[@DXwangg](https://gitee.com/DXwangg) 邮箱: wangjiawei80@huawei.com
  - [openjfx8](https://gitee.com/openeuler/bgmprovider)
  - [src-openeuler/openjfx8](https://gitee.com/src-openeuler/openjfx8)
