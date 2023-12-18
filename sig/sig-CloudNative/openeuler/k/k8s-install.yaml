@@ -1,0 +1,9 @@
+name: k8s-install
+description: Cloud native infrastructuer (base on Kubernetes) multiple baseline maintain/installation/configuratgion/security-update, online/offline package publish tool.
+branches:
+- name: master
+  type: protected
+- name: obsbuild
+  type: protected
+  create_from: master
+type: public
