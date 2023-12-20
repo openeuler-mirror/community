@@ -37,6 +37,7 @@ Compiler SIG 每双周周二上午10:00进行线上例会，也会定期举办�
  - [src-openeuler/openjdk-1.8.0](https://gitee.com/src-openeuler/openjdk-1.8.0)
  - [src-openeuler/openjdk-11](https:/gitee.com/src-openeuler/openjdk-11)
  - [src-openeuler/openjdk-17](https://gitee.com/src-openeuler/openjdk-17)
+ - [src-openeuler/openjdk-21](https://gitee.com/src-openeuler/openjdk-21)
  - [src-openeuler/openjdk-latest](https:/gitee.com/src-openeuler/openjdk-latest)
    - Maintainers
      - 陈 善瑶[@stubCode](https://gitee.com/stubCode) 邮箱: chenshanyao@huawei.com
