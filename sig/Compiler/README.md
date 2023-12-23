@@ -37,6 +37,7 @@ Tuesday 10 am bi-weekly, UTC+8.
  - [src-openeuler/openjdk-1.8.0](https://gitee.com/src-openeuler/openjdk-1.8.0)
  - [src-openeuler/openjdk-11](https:/gitee.com/src-openeuler/openjdk-11)
  - [src-openeuler/openjdk-17](https://gitee.com/src-openeuler/openjdk-17)
+ - [src-openeuler/openjdk-21](https://gitee.com/src-openeuler/openjdk-21)
  - [src-openeuler/openjdk-latest](https:/gitee.com/src-openeuler/openjdk-latest)
    - Maintainers
      - 陈 善瑶[@stubCode](https://gitee.com/stubCode) email: chenshanyao@huawei.com
