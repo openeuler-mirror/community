@@ -1,0 +1,7 @@
+name: cantian
+description: Cantian is a storage engine based on shared storage to enable database running in multi-master mode.
+upstream: https://gitee.com/openeuler/cantian
+branches:
+- name: master
+  type: protected
+type: public
