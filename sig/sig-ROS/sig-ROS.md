@@ -36,12 +36,12 @@ Repository of scripts for building ROS for openEuler and documents: https://gite
 - wuwei_plct
 - anchuanxu
 - xiao_yun_wang
+- davidhan008
 
 ### Committers
 - wuwei_plct
 - anchuanxu
 - xiao_yun_wang
-- davidhan008
 - simonaxi
 - chen_jiayou
 - will_niutao
