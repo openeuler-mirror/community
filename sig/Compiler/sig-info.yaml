@@ -62,6 +62,13 @@ repositories:
     organization: Huawei
     email: jiangfeilong@huawei.com
 - repo:
+  - openeuler/bgmprovider
+  committers:
+  - gitee_id: xiezhaokun
+    name: zhaokun Xie
+    organization: Huawei
+    email: xiezhaokun@huawei.com
+- repo:
   - src-openeuler/openjdk-1.8.0
   - src-openeuler/openjdk-11
   - src-openeuler/openjdk-17
@@ -147,7 +154,6 @@ repositories:
 - repo:
   - openeuler/BiSheng-Adoptium
   - openeuler/openjfx8
-  - openeuler/bgmprovider
   - openeuler/gcc-for-openEuler
   - openeuler/compiler-docs
   - src-openeuler/spirv-llvm-translator
