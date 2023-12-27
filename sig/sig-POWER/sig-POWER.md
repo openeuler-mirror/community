@@ -28,8 +28,8 @@ Assist in solving the problems encountered in the integration of power products 
 ## Basic Information
 
 ## Maintainers
-- wujiahuan_sz
-- qi-liansheng
-- baowenchen
-- QingweiXu
 - kmf
+- jiahua-yu
+- peng_zou
+- yuucyf
+- qi-liansheng

@@ -25,11 +25,13 @@
 #基本信息
 
 ## Maintainers
-- 吴佳欢 @wujiahuan_sz
+- 瞿盛辉  @kmf
+- 余家华  @jiahua-yu
+- 邹鹏  @peng_zou
+- 陈元丰  @yuucyf
 - 戚连生 @qi-liansheng
-- 陈保文 @baowenchen
--  许庆伟  @QingweiXu 
--  瞿盛辉  @kmf 
+
+
 
 
 
