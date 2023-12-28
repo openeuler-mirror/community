@@ -33,3 +33,17 @@
 王玉熙[@wangyx0704](https://gitee.com/wangyx0704)
 
 王杰章[@Poorunga](https://gitee.com/Poorunga)
+
+王峰图[@FengtuWang](https://gitee.com/FengtuWang)
+
+王科研[@wang-ke-yan](https://gitee.com/wang-ke-yan)
+
+杨光[@pipifather](https://gitee.com/pipifather)
+
+白晋涛[@bjtgitee](https://gitee.com/bjtgitee)
+
+胡磊[@ts_hulei](https://gitee.com/ts_hulei)
+
+赵秀成[@Elvis](https://gitee.com/zhao-xiucheng)
+
+王东兴[@desert-sailor](https://gitee.com/desert-sailor)
