@@ -27,12 +27,11 @@ sig-POWER
 
 ### Maintainer列表
 
-
-- 吴佳欢 @wujiahuan_sz          jiahuan.wu@shingroup.cn
+- 余家华 @jiahua-yu  	        jiahua.yu@shingroup.cn
+- 瞿盛辉 @kmf                  shenghui.qu@shingroup.cn
+- 邹鹏 @peng_zou  	        peng.zou@shingroup.cn
+- 陈元丰 @yuucyf  	        yuanfeng.chen@shingroup.cn
 - 戚连生 @qi-liansheng  	        liansheng.qi@shingroup.cn
-- 陈保文 @baowenchen            baowen.chen@shingroup.cn
-- 许庆伟  @QingweiXu            qingwei.xu@shingroup.cn
-- 瞿盛辉  @kmf                  shenghui.qu@shingroup.cn
 
 
 ### Committer列表
