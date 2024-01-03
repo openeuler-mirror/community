@@ -42,7 +42,10 @@ sig-POWER
 
 # 项目清单
 
+*Project list & repository*
+- https://gitee.com/src-openeuler/opal-prd
+- https://gitee.com/src-openeuler/powerpc-utils
+- https://gitee.com/src-openeuler/lsvpd
 
-项目名称：sig-POWER
 
-repository地址：https://gitee.com/openeuler/sig-POWER
+

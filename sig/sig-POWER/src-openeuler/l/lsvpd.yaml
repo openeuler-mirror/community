@@ -1,0 +1,8 @@
+name: lsvpd
+description: This package is a (partial) reimplementation of AIX's lsvpd and related commands.
+upstream: https://github.com/power-ras/lsvpd
+branches:
+- name: master
+  type: protected
+type: public
+
