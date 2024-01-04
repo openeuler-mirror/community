@@ -1,0 +1,7 @@
+name: kdf
+description: KDiskFree displays the available file devices (hard drive partitions,floppy and CD/DVD drives, etc.) along with information on their capacity,free space, type and mount point.
+upstream: https://invent.kde.org/utilities/kdf
+branches:
+- name: master
+  type: protected
+type: public
