@@ -79,7 +79,6 @@ repositories:
   - src-openeuler/gutenprint
   - src-openeuler/gfs2-utils
   - src-openeuler/khmeros-fonts
-  - src-openeuler/kde-filesystem
   - src-openeuler/libhangul
   - src-openeuler/libsmbios
   - src-openeuler/libreswan
@@ -143,3 +142,9 @@ repositories:
     name: Wei Jiangang
     organization: Hoperun
     email: wei_jiangang@hoperun.com
+- repo:
+  - src-openeuler/kde-filesystem
+  committers:
+  - gitee_id: open-bot
+    name: open-bot
+    email: paulthomas100199@gmail.com
