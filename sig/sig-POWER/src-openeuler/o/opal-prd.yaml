@@ -1,0 +1,8 @@
+name: opal-prd
+description: opal-prd is a daemon that listens for hardware diagnostic events (by listening on the /dev/opal-prd device), and executes firmware-provided executable code to handle these events. Only one instance of the daemon can be running at a time.
+upstream: https://github.com/open-power/skiboot
+branches:
+- name: master
+  type: protected
+type: public
+
