@@ -1,0 +1,17 @@
+name: Xen
+description: Xen is a Virtual Machine Monitor (VMM) originally developed by the
+  Systems Research Group of the University of Cambridge Computer
+  Laboratory, as part of the UK-EPSRC funded XenoServers project.
+  It provides powerful virtualization technology that enables multiple virtual
+  machines to run in parallel on a physical server, thereby making full use of
+  hardware resources and improving system utilization and flexibility.
+  It is a type-1 (bare-metal) virtualization platform, which means that
+  Xen runs directly on the physical hardware without the need for an
+  operating system as an intermediary layer. This architecture enables
+  Xen to have lower virtualization overhead, closer to native performance,
+  and provide superior performance and reliability.
+upstream: https://github.com/xen-project/xen
+branches:
+- name: master
+  type: protected
+type: public
