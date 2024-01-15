@@ -3,47 +3,47 @@ description: Edge sig.
 created_on: '2019-12-31'
 mentors:
 - gitee_id: pangbanme
-  name: 刘寿永
+  name: Shouyong Liu
   organization: kjsmart
   email: pangbanme@163.com
 maintainers:
 - gitee_id: pangbanme
-  name: 刘寿永
+  name: Shouyong Liu
   organization: kjsmart
   email: pangbanme@163.com
 - gitee_id: xuxj1973
-  name: 徐晓晶
+  name: Xiaojing Xu
   organization: kjsmart
   email: 2285728351@qq.com
 - gitee_id: FengtuWang
-  name: 王峰图
+  name: Fengtu Wang
   organization: kjsmart
   email: 1148791151@qq.com
 - gitee_id: wangyx0704
-  name: 王玉熙
+  name: Yuxi Wang
   organization: kjsmart
   email: 363884998@qq.com
 - gitee_id: Poorunga
-  name: 王杰章
-  email:  2744323@qq.com
+  name: Jiezhang Wang
+  email: 2744323@qq.com
 - gitee_id: wang-ke-yan
-  name: 王科研
+  name: Keyan Wang
   email:  wangky1124@thundersoft.com 
 - gitee_id: pipifather
-  name: 杨光
+  name: Guang Yang
   email:  yangguang@thundersoft.com
 - gitee_id: bjtgitee
-  name: 白晋涛
-  email:  3196331600@qq.com
+  name: Jintao Bai
+  email: baijt0708@thundersoft.com
 - gitee_id: ts_hulei
-  name: 胡磊
-  email:  hulei0901@thundersoft.com
+  name: Lei Hu
+  email: hulei0901@thundersoft.com
 - gitee_id: Elvis
-  name: 赵秀成
-  email:  zhaoxc0502@thundersoft.com
+  name: Xiucheng Zhao
+  email: zhaoxc0502@thundersoft.com
 - gitee_id: desert-sailor
-  name: 王东兴
-  email:  dongxing.wang_a@thundersoft.com
+  name: Dongxing Wang
+  email: dongxing.wang_a@thundersoft.com
 
 repositories:
 - repo:
@@ -51,11 +51,22 @@ repositories:
   - src-openeuler/kubeedge
   committers:
   - gitee_id: harry-mrwang
-    name: 王海瑞
+    name: Hairui Wang
     organization: ThunderSoft
     email: wanghr0630@thundersoft.com
   contributors:
   - gitee_id: innost
-    name: 邓凡平
+    name: Fanping Deng
     organization: ThunderSoft
     email: fanping.deng@gmail.com
+
+- repo:
+  - src-openeuler/dpkg
+  - src-openeuler/debhelper
+  - src-openeuler/alien
+  committers:
+  - gitee_id: desert-sailor
+    name: Dongxing Wang
+    organization: ThunderSoft
+    email: dongxing.wang_a@thundersoft.com
+
