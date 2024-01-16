@@ -369,7 +369,6 @@ repositories:
   - src-openeuler/python-blowfish
   - src-openeuler/python-jaraco-classes
   - src-openeuler/python-pyngus
-  - src-openeuler/python-jsmin
   - src-openeuler/python-async-timeout
   - src-openeuler/python-blockdiag
   - src-openeuler/python-pdfrw
@@ -873,7 +872,6 @@ repositories:
   - src-openeuler/python-blurb
   - src-openeuler/python-pygatt
   - src-openeuler/python-wsgi-intercept
-  - src-openeuler/python-regex
   - src-openeuler/python-aspectlib
   - src-openeuler/python-virtualenvwrapper
   - src-openeuler/python-editor
@@ -1666,6 +1664,8 @@ repositories:
   - src-openeuler/pyproject-metadata
   - src-openeuler/pyproject-hooks
   - src-openeuler/pyproject-api
+  - src-openeuler/python-jsmin
+  - src-openeuler/python-regex
   committers:
   - gitee_id: desert-sailor
     name: Dongxing Wang
