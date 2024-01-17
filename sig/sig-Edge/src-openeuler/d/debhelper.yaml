@@ -1,0 +1,7 @@
+name: debhelper
+description: Helper programs for debian/rules
+upstream: https://tracker.debian.org/pkg/debhelper
+branches:
+- name: master
+  type: protected
+type: public
