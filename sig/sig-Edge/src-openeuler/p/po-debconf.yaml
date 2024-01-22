@@ -1,0 +1,7 @@
+name: po-debconf
+description: Tool for managing templates file translations with gettext.
+upstream: https://tracker.debian.org/pkg/po-debconf
+branches:
+- name: master
+  type: protected
+type: public
