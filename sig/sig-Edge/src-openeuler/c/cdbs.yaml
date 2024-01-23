@@ -1,0 +1,7 @@
+name: cdbs
+description: Common build system for Debian packages.
+upstream: https://salsa.debian.org/build-common-team/cdbs
+branches:
+- name: master
+  type: protected
+type: public

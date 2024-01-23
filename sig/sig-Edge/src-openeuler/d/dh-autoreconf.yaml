@@ -1,0 +1,7 @@
+name: dh-autoreconf
+description: Debhelper add-on to call autoreconf and clean up after the build.
+upstream: https://tracker.debian.org/pkg/dh-autoreconf
+branches:
+- name: master
+  type: protected
+type: public
