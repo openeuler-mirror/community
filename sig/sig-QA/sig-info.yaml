@@ -40,6 +40,22 @@ maintainers:
   name: zhangyizheng
   organization: Huawei
   email: ethanzhang55@outlook.com
+- gitee_id: saarloos
+  name: zhangziyang
+  organization: Huawei
+  email: zhangziyang1@huawei.com
+- gitee_id: zjl_long
+  name: zhujinlong
+  organization: Huawei
+  email: 154542010@qq.com
+- gitee_id: wangpeng_uniontech
+  name: wangpeng
+  organization: UnionTech
+  email: wangpengb@uniontech.com
+- gitee_id: hfutsdd
+  name: shidongdong
+  organization: Huawei
+  email: shidongdong5@huawei.com
 
 repositories:
 - repo:
@@ -63,18 +79,6 @@ repositories:
     email: zwfeng@huawei.com
 
 - repo:
-  - src-openeuler/mugen
-  committers:
-  - gitee_id: disnight
-    name: fanjiachen
-    organization: Huawei
-    email: fanjiachen3@huawei.com
-  - gitee_id: hfutsdd
-    name: shidongdong
-    organization: Huawei
-    email: shidongdong5@huawei.com
-
-- repo:
   - src-openeuler/linux-test-project
   committers:
   - gitee_id: hanson_fang
@@ -85,27 +89,8 @@ repositories:
 - repo:
   - openeuler/mugen
   - openeuler/radiaTest
-  committers:
-  - gitee_id: Ethan-Zhang
-    name: zhangyizheng
-    organization: Huawei
-    email: ethanzhang55@outlook.com
-  - gitee_id: zjl_long
-    name: zhujinlong
-    organization: Huawei
-    email: 154542010@qq.com
-  - gitee_id: wangpeng_uniontech
-    name: wangpeng
-    organization: UnionTech
-    email: wangpengb@uniontech.com
-
-- repo:
   - openeuler/QA
   committers:
-  - gitee_id: saarloos
-    name: zhangziyang
-    organization: Huawei
-    email: 9090-90-90-9090@163.com
   - gitee_id: hfutsdd
     name: shidongdong
     organization: Huawei
@@ -142,6 +127,14 @@ repositories:
     name: fushanqing
     organization: Kylin
     email: fushanqing@kylinos.cn
+  - gitee_id: wangpeihai
+    name: wangpeihai
+    organization: ctyun
+    email: wangph4@chinatelecom.cn
+  - gitee_id: ga_beng_cui
+    name: liujingjing
+    organization: hoperun
+    email: liujingjing25812@163.com
 
 - repo:
   - src-openeuler/trinity
