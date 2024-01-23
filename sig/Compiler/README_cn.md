@@ -19,6 +19,7 @@ Compiler SIG 每双周周二上午10:00进行线上例会，也会定期举办�
  - [bishengjdk-8](https://gitee.com/openeuler/bishengjdk-8)
  - [bishengjdk-11](https://gitee.com/openeuler/bishengjdk-11)
  - [bishengjdk-17](https://gitee.com/openeuler/bishengjdk-17)
+ - [bishengjdk-21](https://gitee.com/openeuler/bishengjdk-21)
    - Maintainers
      - 陈 善瑶[@stubCode](https://gitee.com/stubCode) 邮箱: chenshanyao@huawei.com
      - 王   坤[@kuenking111](https://gitee.com/kuenking111) 邮箱: wangkun49@huawei.com
@@ -36,6 +37,7 @@ Compiler SIG 每双周周二上午10:00进行线上例会，也会定期举办�
  - [src-openeuler/openjdk-1.8.0](https://gitee.com/src-openeuler/openjdk-1.8.0)
  - [src-openeuler/openjdk-11](https:/gitee.com/src-openeuler/openjdk-11)
  - [src-openeuler/openjdk-17](https://gitee.com/src-openeuler/openjdk-17)
+ - [src-openeuler/openjdk-21](https://gitee.com/src-openeuler/openjdk-21)
  - [src-openeuler/openjdk-latest](https:/gitee.com/src-openeuler/openjdk-latest)
    - Maintainers
      - 陈 善瑶[@stubCode](https://gitee.com/stubCode) 邮箱: chenshanyao@huawei.com
@@ -61,6 +63,7 @@ Compiler SIG 每双周周二上午10:00进行线上例会，也会定期举办�
      - 贺 东博[@Noah](https://gitee.com/jvmboy) 邮箱: hedongbo@huawei.com
      - 王 坤[@kuenking111](https://gitee.com/kuenking111) 邮箱: wangkun49@huawei.com
    - Committers
+     - 谢 照昆[@xiezhaokun](https://gitee.com/xiezhaokun) 邮箱: xiezhaokun@huawei.com
      - 王 嘉伟[@DXwangg](https://gitee.com/DXwangg) 邮箱: wangjiawei80@huawei.com
  - [openjfx8](https://gitee.com/openeuler/bgmprovider)
  - [src-openeuler/openjfx8](https://gitee.com/src-openeuler/openjfx8)

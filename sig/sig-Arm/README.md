@@ -21,6 +21,7 @@
 - 蒋健源[@jenkins-jiang](https://gitee.com/jenkins-jiang)
 - 汪雄峰[@wangxiongfeng](https://gitee.com/wangxiongfeng)
 - 郑振宇[@ZhengZhenyu](https://gitee.com/ZhengZhenyu)
+- 王云志[@wang-yunzhi](https://gitee.com/wang-yunzhi)
 
 ### Committer列表
 - 暂无

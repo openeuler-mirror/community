@@ -138,3 +138,20 @@ repository地址：
   - https://gitee.com/src-openeuler/hash-o-matic
   - https://gitee.com/src-openeuler/isoimagewriter
   - https://gitee.com/src-openeuler/kairo
+  - https://gitee.com/src-openeuler/kdialog
+  - https://gitee.com/src-openeuler/kdf
+  - https://gitee.com/src-openeuler/keurocalc
+  - https://gitee.com/src-openeuler/keysmith
+  - https://gitee.com/src-openeuler/kfind
+  - https://gitee.com/src-openeuler/kfloppy
+  - https://gitee.com/src-openeuler/klimbgrades
+  - https://gitee.com/src-openeuler/kongress
+  - https://gitee.com/src-openeuler/kookbook
+  - https://gitee.com/src-openeuler/krecorder
+  - https://gitee.com/src-openeuler/kregexpeditor
+  - https://gitee.com/src-openeuler/krename
+  - https://gitee.com/src-openeuler/kronometer
+  - https://gitee.com/src-openeuler/krusader
+  - https://gitee.com/src-openeuler/kteatime
+  - https://gitee.com/src-openeuler/kf5-kirigami-addons
+  - https://gitee.com/src-openeuler/soprano

@@ -13,10 +13,10 @@ maintainers:
   name: zhenyu Chen
   organization: Huawei
   email: chenzhenyu13@huawei.com
-- gitee_id: ruebb
-  name: yiru Wang
+- gitee_id: Lostwayzxc
+  name: Luo Shengwei
   organization: Huawei
-  email: wangyiru1@huawei.com
+  email: luoshengwei@huawei.com
 - gitee_id: zhuchunyi
   name: chunyi Zhu
   organization: Huawei
@@ -79,7 +79,6 @@ repositories:
   - src-openeuler/gutenprint
   - src-openeuler/gfs2-utils
   - src-openeuler/khmeros-fonts
-  - src-openeuler/kde-filesystem
   - src-openeuler/libhangul
   - src-openeuler/libsmbios
   - src-openeuler/libreswan
@@ -143,3 +142,9 @@ repositories:
     name: Wei Jiangang
     organization: Hoperun
     email: wei_jiangang@hoperun.com
+- repo:
+  - src-openeuler/kde-filesystem
+  committers:
+  - gitee_id: open-bot
+    name: open-bot
+    email: paulthomas100199@gmail.com

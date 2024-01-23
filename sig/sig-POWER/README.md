@@ -27,12 +27,11 @@ sig-POWER
 
 ### Maintainer列表
 
-
-- 吴佳欢 @wujiahuan_sz          jiahuan.wu@shingroup.cn
+- 余家华 @jiahua-yu  	        jiahua.yu@shingroup.cn
+- 瞿盛辉 @kmf                  shenghui.qu@shingroup.cn
+- 邹鹏 @peng_zou  	        peng.zou@shingroup.cn
+- 陈元丰 @yuucyf  	        yuanfeng.chen@shingroup.cn
 - 戚连生 @qi-liansheng  	        liansheng.qi@shingroup.cn
-- 陈保文 @baowenchen            baowen.chen@shingroup.cn
-- 许庆伟  @QingweiXu            qingwei.xu@shingroup.cn
-- 瞿盛辉  @kmf                  shenghui.qu@shingroup.cn
 
 
 ### Committer列表
@@ -43,7 +42,10 @@ sig-POWER
 
 # 项目清单
 
+*Project list & repository*
+- https://gitee.com/src-openeuler/opal-prd
+- https://gitee.com/src-openeuler/powerpc-utils
+- https://gitee.com/src-openeuler/lsvpd
 
-项目名称：sig-POWER
 
-repository地址：https://gitee.com/openeuler/sig-POWER
+

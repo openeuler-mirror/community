@@ -26,7 +26,6 @@ The list of TC members is organized alphabetically by last name:
 - Hu Feng <solar.hu@huawei.com> [[@solarhu](https://gitee.com/solarhu)]
 - Hu Xinwei <huxinwei@huawei.com> [[@shinwell_hu](https://gitee.com/shinwell_hu)]
 - Hu Yadi <514118380@qq.com> [[@huyd12](https://gitee.com/huyd12)]
-- Liu Shouyong <liusy@thundersoft.com> [[@pangbanme](https://gitee.com/pangbanme)]
 - Li Yongqiang <liyongqiang329@163.com> [[@charlie_li](https://gitee.com/charlie_li)]
 - Ren Wei <renwei41@huawei.com> [[@vonhust](https://gitee.com/vonhust)]
 - Shi Yong <shiyong@kylinos.com.cn> [[@stonefly128](https://gitee.com/stonefly128)]
@@ -44,6 +43,7 @@ The list of TC members is organized alphabetically by last name:
 ## Changes of 2023 TC Members
 - Ye Qinglong resigned from the committee in Mar. 2023, and Lv Congqing took over this work as a TC member.
 - Wei Gang resigned from the committee in Sept. 2023, and Zhu Jianwei took over this work as as TC member.
+- Liu Shouyong resiged from the committee in Dec. 2023.
 
 # 2022 TC Members
 

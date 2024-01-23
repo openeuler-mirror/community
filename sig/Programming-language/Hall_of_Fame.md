@@ -13,3 +13,4 @@ Thanks to the following people for their contribution.
 朱春意[@zhuchunyi](https://gitee.com/zhuchunyi)
 宋楠楠[@orange-snn](https://gitee.com/orange-snn)
 缪开波[@miao_kaibo](https://gitee.com/miao_kaibo)
+汪奕如[@ruebb](https://gitee.com/ruebb)

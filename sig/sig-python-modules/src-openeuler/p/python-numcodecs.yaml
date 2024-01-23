@@ -1,0 +1,7 @@
+name: python-numcodecs
+description: Numcodecs is a Python package providing buffer compression and transformation codecs for use in data storage and communication applications.
+upstream: https://github.com/zarr-developers/numcodecs
+branches:
+- name: master
+  type: protected
+type: public

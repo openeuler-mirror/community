@@ -27,7 +27,6 @@ openEuler技术委员会（Technical Committee，以下和TC互换使用）是op
 - 胡  峰<solar.hu@huawei.com> [[@solarhu](https://gitee.com/solarhu)]
 - 胡欣蔚<huxinwei@huawei.com> [[@shinwell_hu](https://gitee.com/shinwell_hu)]
 - 胡亚弟<514118380@qq.com> [[@huyd12](https://gitee.com/huyd12)]
-- 刘寿永<liusy@thundersoft.com> [[@pangbanme](https://gitee.com/pangbanme)]
 - 李永强<liyongqiang329@163.com> [[@charlie_li](https://gitee.com/charlie_li)]
 - 任  慰<renwei41@huawei.com> [[@vonhust](https://gitee.com/vonhust)]
 - 石  勇<shiyong@kylinos.com.cn> [[@stonefly128](https://gitee.com/stonefly128)]
@@ -45,6 +44,7 @@ openEuler技术委员会（Technical Committee，以下和TC互换使用）是op
 ## 2023 年 TC 成员变更历史
 - 叶青龙于2023年3月卸任，吕从庆接替TC委员工作。
 - 魏  刚于2023年9月卸任，朱健伟作为安全委员会主席，接替TC委员工作。
+- 刘寿永于2023年12月卸任
 
 # 2022年TC成员 
 

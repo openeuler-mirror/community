@@ -1,4 +1,6 @@
-# openEuler Edge SIG
+# sig-Edge
+
+# 目标和规划
 
 ## 目标
 
@@ -31,48 +33,43 @@ https://meeting.tencent.com/s/iwZmnhcOSs3x
 +8675536550000 (中国大陆)
 +85230018898 (中国香港)
 
-复制该信息，打开手机腾讯会议App V2.13以上版本即可参与
-
 # 成员
 
 ### **Maintainer列表**
 
 - 邓凡平[@innost](https://gitee.com/innost), *[fanping.deng@gmail.com](mailto:fanping.deng@gmail.com)*
-
 - 徐晓晶[@xuxj1973](2285728351@qq.com), [2285728351@qq.com](mailto:2285728351@qq.com)
-
 - 王海瑞[@harry-mrwang](wanghr0630@thundersoft.com), [wanghr0630@thundersoft.com](mailto:wanghr0630@thundersoft.com)
-
-- 刘寿永[@pangbanme](https://gitee.com/pangbanme)，[liusy@thundersoft.com](mailto:liusy@thundersoft.com)
-
-- 王玉熙[@wangyx0704](https://gitee.com/wangyx0704), [wangyx0704@thundersoft.com](mailto:wangyx0704@thundersoft.com)
-
+- 刘寿永[@pangbanme](https://gitee.com/pangbanme)，*[pangbanme@163.com](mailto:pangbanme@163.com)*
+- 王玉熙[@wangyx0704](https://gitee.com/wangyx0704), [363884998@qq.com](mailto:363884998@qq.com)
 - 王杰章[@Poorunga](https://gitee.com/Poorunga), [2744323@qq.com](mailto:2744323@qq.com)
+- 王峰图[@FengtuWang](https://gitee.com/FengtuWang), [1148791151@qq.com](mailto:1148791151@qq.com)
+- 王科研[@wang-ke-yan](https://gitee.com/wang-ke-yan), [wangky1124@thundersoft.com](mailto:wangky1124@thundersoft.com)
+- 杨光[@pipifather](https://gitee.com/pipifather), [yangguang@thundersoft.com](mailto:yangguang@thundersoft.com)
+- 白晋涛[@bjtgitee](https://gitee.com/bjtgitee), [3196331600@qq.com](mailto:3196331600@qq.com)
+- 胡磊[@ts_hulei](https://gitee.com/ts_hulei), [hulei0901@thundersoft.com](hulei0901@thundersoft.com)
+- 赵秀成[@Elvis](https://gitee.com/zhao-xiucheng), [zhaoxc0502@thundersoft.com](zhaoxc0502@thundersoft.com)
+- 王东兴[@desert-sailor](https://gitee.com/desert-sailor), [dongxing.wang_a@thundersoft.com](dongxing.wang_a@thundersoft.com)
 
 ### **Committer列表**
 
 - 邓凡平[@innost](https://gitee.com/innost)，*[fanping.deng@gmail.com](mailto:fanping.deng@gmail.com)*
-
 - 徐晓晶[@xuxj1973](2285728351@qq.com), [2285728351@qq.com](mailto:2285728351@qq.com)
-
 - 王海瑞[@harry-mrwang](wanghr0630@thundersoft.com), [wanghr0630@thundersoft.com](mailto:wanghr0630@thundersoft.com)
-
-- 刘寿永[@pangbanme](https://gitee.com/pangbanme)，[liusy@thundersoft.com](mailto:liusy@thundersoft.com)
-
-- 王玉熙[@wangyx0704](https://gitee.com/wangyx0704), [wangyx0704@thundersoft.com](mailto:wangyx0704@thundersoft.com)
-
+- 刘寿永[@pangbanme](https://gitee.com/pangbanme)，*[pangbanme@163.com](mailto:pangbanme@163.com)*
+- 王玉熙[@wangyx0704](https://gitee.com/wangyx0704), [363884998@qq.com](mailto:363884998@qq.com)
 - 王杰章[@Poorunga](https://gitee.com/Poorunga), [2744323@qq.com](mailto:2744323@qq.com)
+- 王峰图[@FengtuWang](https://gitee.com/FengtuWang), [1148791151@qq.com](mailto:1148791151@qq.com)
 
 # 联系方式
 
 - fanping.deng@gmail.com
 - 2285728351@qq.com
 - wanghr0630@thundersoft.com
-- liusy@thundersoft.com
-- wangyx0704@thundersoft.com
+- [pangbanme@163.com](mailto:pangbanme@163.com)
+- [363884998@qq.com](mailto:363884998@qq.com)
 - 2744323@qq.com
 
 # 项目地址
 
-repository地址：http://gitee.com/openeuler/sig-Edge
-
+repository地址：https://gitee.com/openeuler/sig-Edge

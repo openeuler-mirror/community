@@ -41,6 +41,7 @@ repositories:
   - openeuler/bishengjdk-8
   - openeuler/bishengjdk-11
   - openeuler/bishengjdk-17
+  - openeuler/bishengjdk-21
   - openeuler/bishengjdk-riscv
   repo_admin:
   - gitee_id: kuenking111
@@ -61,9 +62,17 @@ repositories:
     organization: Huawei
     email: jiangfeilong@huawei.com
 - repo:
+  - openeuler/bgmprovider
+  committers:
+  - gitee_id: xiezhaokun
+    name: zhaokun Xie
+    organization: Huawei
+    email: xiezhaokun@huawei.com
+- repo:
   - src-openeuler/openjdk-1.8.0
   - src-openeuler/openjdk-11
   - src-openeuler/openjdk-17
+  - src-openeuler/openjdk-21
   - src-openeuler/openjdk-latest
   committers:
   - gitee_id: yd_wang
@@ -145,7 +154,6 @@ repositories:
 - repo:
   - openeuler/BiSheng-Adoptium
   - openeuler/openjfx8
-  - openeuler/bgmprovider
   - openeuler/gcc-for-openEuler
   - openeuler/compiler-docs
   - src-openeuler/spirv-llvm-translator

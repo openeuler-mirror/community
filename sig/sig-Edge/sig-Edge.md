@@ -33,3 +33,17 @@ Note: The Charter of this SIG follows the convention described in the openEuler 
 [Yuxi Wang@wangyx0704](https://gitee.com/wangyx0704)
 
 [Jiezhang Wang@Poorunga](https://gitee.com/Poorunga)
+
+[Fengtu Wang@FengtuWang](https://gitee.com/FengtuWang)
+
+[Keyan Wang@wang-ke-yan](https://gitee.com/wang-ke-yan)
+
+[Guang Yang@pipifather](https://gitee.com/pipifather)
+
+[Jintao Bai@bjtgitee](https://gitee.com/bjtgitee)
+
+[Lei Hu@ts_hulei](https://gitee.com/ts_hulei)
+
+[Xiucheng Zhao@Elvis](https://gitee.com/zhao-xiucheng)
+
+[Dongxing Wang@desert-sailor](https://gitee.com/desert-sailor)

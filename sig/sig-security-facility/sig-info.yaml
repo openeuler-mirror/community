@@ -163,6 +163,7 @@ repositories:
   - src-openeuler/dim_tools
   - openeuler/dim
   - src-openeuler/dim
+  - src-openeuler/sbsigntools
   - src-openeuler/pesign-obs-integration
   - src-openeuler/tss2
   - src-openeuler/openssl_tpm2_engine
@@ -291,4 +292,12 @@ repositories:
     name: mawei
     organization: uniontech
     email: mawei@uniontech.com
+
+- repo:
+  - src-openeuler/libmd
+  committers:
+  - gitee_id: desert-sailor
+    name: Dongxing Wang
+    organization: ThunderSoft
+    email: dongxing.wang_a@thundersoft.com
 

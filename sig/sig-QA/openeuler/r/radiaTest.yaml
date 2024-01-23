@@ -6,4 +6,7 @@ branches:
 - name: 1.0
   type: protected
   create_from: master
+- name: 2.0
+  type: protected
+  create_from: master
 type: public

@@ -19,6 +19,7 @@ Tuesday 10 am bi-weekly, UTC+8.
  - [bishengjdk-8](https://gitee.com/openeuler/bishengjdk-8)
  - [bishengjdk-11](https://gitee.com/openeuler/bishengjdk-11)
  - [bishengjdk-17](https://gitee.com/openeuler/bishengjdk-17)
+ - [bishengjdk-21](https://gitee.com/openeuler/bishengjdk-21)
    - Maintainers
      - 陈 善瑶[@stubCode](https://gitee.com/stubCode) email: chenshanyao@huawei.com
      - 王   坤[@kuenking111](https://gitee.com/kuenking111) email: wangkun49@huawei.com
@@ -36,6 +37,7 @@ Tuesday 10 am bi-weekly, UTC+8.
  - [src-openeuler/openjdk-1.8.0](https://gitee.com/src-openeuler/openjdk-1.8.0)
  - [src-openeuler/openjdk-11](https:/gitee.com/src-openeuler/openjdk-11)
  - [src-openeuler/openjdk-17](https://gitee.com/src-openeuler/openjdk-17)
+ - [src-openeuler/openjdk-21](https://gitee.com/src-openeuler/openjdk-21)
  - [src-openeuler/openjdk-latest](https:/gitee.com/src-openeuler/openjdk-latest)
    - Maintainers
      - 陈 善瑶[@stubCode](https://gitee.com/stubCode) email: chenshanyao@huawei.com
@@ -55,6 +57,7 @@ Tuesday 10 am bi-weekly, UTC+8.
      - 贺 东博[@Noah](https://gitee.com/jvmboy) email: hedongbo@huawei.com
      - 周   磊[@alexanderbill](https://gitee.com/alexanderbill) email: zhoulei03@huawei.com
    - Committers
+     - 谢 照昆[@xiezhaokun](https://gitee.com/xiezhaokun) email: xiezhaokun@huawei.com
      - 王 嘉伟[@DXwangg](https://gitee.com/DXwangg) email: wangjiawei80@huawei.com
  - [BiSheng-Adoptium](https://gitee.com/openeuler/BiSheng-Adoptium)
    - Maintainers

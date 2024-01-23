@@ -2,22 +2,25 @@ name: POWER SIG
 description: POWER SIG
 
 maintainers:
-- gitee_id: wujiahuan_sz
-  name: 吴佳欢
+- gitee_id: kmf
+  name: 瞿盛辉
   organization: 合芯科技有限公司
-  email: jiahuan.wu@shingroup.cn
-- gitee_id: baowenchen
-  name: 陈保文
-  email: baowen.chen@shingroup.cn
+  email: shenghui.qu@shingroup.cn
+- gitee_id: jiahua-yu
+  name: 余家华
+  organization: 合芯科技有限公司
+  email: jiahua.yu@shingroup.cn
+- gitee_id: peng_zou
+  name: 邹鹏
+  organization: 合芯科技有限公司
+  email: peng.zou@shingroup.cn
+- gitee_id: yuucyf
+  name: 陈元丰
+  organization: 合芯科技有限公司
+  email: yuanfeng.chen@shingroup.cn
 - gitee_id: qi-liansheng
   name: 戚连生
   email: liansheng.qi@shingroup.cn
-- gitee_id: QingweiXu
-  name: 许庆伟
-  email: qingwei.xu@shingroup.cn
-- gitee_id: kmf
-  name: 瞿盛辉
-  email: shenghui.qu@shingroup.cn
 committers:
 - gitee_id: glacier7610
   name: 徐继辉
@@ -25,5 +28,12 @@ committers:
 - gitee_id: brucetang
   name: 汤玮
   email: wei.tang@shingroup.cn
+
+repositories:
+- repo:
+  - src-openeuler/opal-prd
+  - src-openeuler/powerpc-utils
+  - src-openeuler/lsvpd
+
 
 

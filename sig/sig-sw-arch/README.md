@@ -17,6 +17,10 @@
 - 马永胜<maysh@esage.cn>[[@mayongsheng666](https://gitee.com/mayongsheng666)]
 - 吴梓萱<wuzx1226@qq.com>[[@wuzx065891](https://gitee.com/wuzx065891)]
 - 仇文娟<wenjuan.qiu@i-soft.com.cn>[[@qwjd-001](https://gitee.com/qwjd-001)]
+- 洪浩<honghao@uniontech.com>[[@oahong](https://gitee.com/oahong)]
+- 张飞龙<zhangfeilong@uniontech.com>[[@vzikl](https://gitee.com/vzikl)]
+- 李小松<lixiaosong@uniontech.com>[[@play565](https://gitee.com/play565)]
+- 缪昌伟<miaochangwei@uniontech.com>[[@ChanthMiao](https://gitee.com/ChanthMiao)]
 
 ### Maintainers列表
 - 姚嘉伟[@geoyi-yao](https://gitee.com/geori-yao)
@@ -25,3 +29,7 @@
 - 马永胜[@mayongsheng666](https://gitee.com/mayongsheng666)
 - 吴梓萱[@wuzx065891](https://gitee.com/wuzx065891)
 - 仇文娟[@qwjd-001](https://gitee.com/qwjd-001)
+- 洪浩[[@oahong](https://gitee.com/oahong)]
+- 张飞龙[[@vzikl](https://gitee.com/vzikl)]
+- 李小松[[@play565](https://gitee.com/play565)]
+- 缪昌伟[[@ChanthMiao](https://gitee.com/ChanthMiao)]
