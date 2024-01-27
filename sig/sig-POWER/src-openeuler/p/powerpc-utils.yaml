@@ -4,6 +4,9 @@ upstream: https://github.com/ibm-power-utilities/powerpc-utils
 branches:
 - name: master
   type: protected
+- name: openEuler-22.03-LTS
+  type: protected
+  create_from: master
 type: public
 
 

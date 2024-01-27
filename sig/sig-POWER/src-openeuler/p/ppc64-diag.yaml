@@ -1,0 +1,12 @@
+name: ppc64-diag
+description: This package contains various diagnostic tools for PowerLinux.
+upstream: https://github.com/power-ras/ppc64-diag
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS
+  type: protected
+  create_from: master
+type: public
+
+

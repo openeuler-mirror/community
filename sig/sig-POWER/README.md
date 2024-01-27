@@ -46,6 +46,7 @@ sig-POWER
 - https://gitee.com/src-openeuler/opal-prd
 - https://gitee.com/src-openeuler/powerpc-utils
 - https://gitee.com/src-openeuler/lsvpd
+- https://gitee.com/src-openeuler/ppc64-diag
 
 
 
