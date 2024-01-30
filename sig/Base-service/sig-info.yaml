@@ -242,48 +242,6 @@ repositories:
   - src-openeuler/os-prober
   - src-openeuler/pigz
   - src-openeuler/publicsuffix-list
-  - src-openeuler/pygobject3
-  - src-openeuler/pykickstart
-  - src-openeuler/pyparsing
-  - src-openeuler/pyparted
-  - src-openeuler/pyserial
-  - src-openeuler/python3
-  - src-openeuler/python-asn1crypto
-  - src-openeuler/python-cffi
-  - src-openeuler/python-chardet
-  - src-openeuler/python-cryptography
-  - src-openeuler/python-dateutil
-  - src-openeuler/python-decorator
-  - src-openeuler/python-docopt
-  - src-openeuler/python-iniparse
-  - src-openeuler/python-inotify
-  - src-openeuler/python-jinja2
-  - src-openeuler/python-jsonpatch
-  - src-openeuler/python-jsonpointer
-  - src-openeuler/python-jsonschema
-  - src-openeuler/python-jwt
-  - src-openeuler/python-linux-procfs
-  - src-openeuler/python-lxml
-  - src-openeuler/python-markupsafe
-  - src-openeuler/python-meh
-  - src-openeuler/python-oauthlib
-  - src-openeuler/python-ordered-set
-  - src-openeuler/python-pid
-  - src-openeuler/python-pip
-  - src-openeuler/python-ply
-  - src-openeuler/python-prettytable
-  - src-openeuler/python-productmd
-  - src-openeuler/python-pycparser
-  - src-openeuler/python-pycurl
-  - src-openeuler/python-pysocks
-  - src-openeuler/python-pyudev
-  - src-openeuler/python-requests-file
-  - src-openeuler/python-rpm-generators
-  - src-openeuler/python-setuptools
-  - src-openeuler/python-simpleline
-  - src-openeuler/python-six
-  - src-openeuler/python-slip
-  - src-openeuler/pyxattr
   - src-openeuler/rasdaemon
   - src-openeuler/readline
   - src-openeuler/recode
@@ -327,10 +285,6 @@ repositories:
     name: Nan Zhang
     organization: Huawei
     email: znzjugod@huawei.com
-  - gitee_id: ziyangc
-    name: Ziyang Chen
-    organization: Huawei
-    email: ziyangc@huawei.com
 
 - repo:
   - src-openeuler/acl
@@ -722,3 +676,56 @@ repositories:
     name: chong Wang
     organization: Huawei
     email: 15229716099@163.com
+
+- repo:
+  - src-openeuler/pygobject3
+  - src-openeuler/pykickstart
+  - src-openeuler/pyparsing
+  - src-openeuler/pyparted
+  - src-openeuler/pyserial
+  - src-openeuler/python3
+  - src-openeuler/python-asn1crypto
+  - src-openeuler/python-cffi
+  - src-openeuler/python-chardet
+  - src-openeuler/python-cryptography
+  - src-openeuler/python-dateutil
+  - src-openeuler/python-decorator
+  - src-openeuler/python-docopt
+  - src-openeuler/python-iniparse
+  - src-openeuler/python-inotify
+  - src-openeuler/python-jinja2
+  - src-openeuler/python-jsonpatch
+  - src-openeuler/python-jsonpointer
+  - src-openeuler/python-jsonschema
+  - src-openeuler/python-jwt
+  - src-openeuler/python-linux-procfs
+  - src-openeuler/python-lxml
+  - src-openeuler/python-markupsafe
+  - src-openeuler/python-meh
+  - src-openeuler/python-oauthlib
+  - src-openeuler/python-ordered-set
+  - src-openeuler/python-pid
+  - src-openeuler/python-pip
+  - src-openeuler/python-ply
+  - src-openeuler/python-prettytable
+  - src-openeuler/python-productmd
+  - src-openeuler/python-pycparser
+  - src-openeuler/python-pycurl
+  - src-openeuler/python-pysocks
+  - src-openeuler/python-pyudev
+  - src-openeuler/python-requests-file
+  - src-openeuler/python-rpm-generators
+  - src-openeuler/python-setuptools
+  - src-openeuler/python-simpleline
+  - src-openeuler/python-six
+  - src-openeuler/python-slip
+  - src-openeuler/pyxattr
+  committers:
+  - gitee_id: zhuchunyi
+    name: zhuchunyi
+    organization: Huawei
+    email: zhuchunyi@huawei.com
+  - gitee_id: gaoruoshu
+    name: gaoruoshu
+    organization: Huawei
+    email: gaoruoshu@huawei.com
