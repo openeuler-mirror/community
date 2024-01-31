@@ -1,0 +1,7 @@
+name: python-tzdata
+upstream: https://github.com/python/tzdata
+description: Python package providing IANA time zone data
+branches:
+- name: master
+  type: protected
+type: public
