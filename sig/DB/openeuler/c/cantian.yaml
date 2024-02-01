@@ -3,4 +3,7 @@ description: Cantian is a storage engine based on shared storage to enable datab
 branches:
 - name: master
   type: protected
+- name: cantian24.3
+  type: protected
+  create_from: master
 type: public

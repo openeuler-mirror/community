@@ -3,4 +3,7 @@ description:  Cantian connector for MySQL is a MySQL storage engine plugin. It i
 branches:
 - name: master
   type: protected
+- name: cantian24.3
+  type: protected
+  create_from: master
 type: public
