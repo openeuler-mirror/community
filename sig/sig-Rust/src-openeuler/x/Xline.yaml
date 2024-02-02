@@ -1,0 +1,7 @@
+name: Xline
+description: A distributed KV storage (compatible with etcd's API) for metadata management.
+upstream: https://github.com/xline-kv/Xline
+branches:
+- name: master
+  type: protected
+type: public
