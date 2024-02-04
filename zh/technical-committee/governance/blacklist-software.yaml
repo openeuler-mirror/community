@@ -122,9 +122,6 @@ blacklist-software:
 - name: python-unicodecsv
   reason: upstream stops maintaining this software
   upstream_url: https://pypi.org/project/unicodecsv/#files
-- name: g2clib
-  reason: upstream stops maintaining this software
-  upstream_url: https://github.com/NOAA-EMC/NCEPLIBS-grib_util
 - name: python2-typing
   reason: upstream stops maintaining this software
   upstream_url: https://pypi.org/project/typing/#files
