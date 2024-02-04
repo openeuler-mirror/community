@@ -45,9 +45,17 @@ repositories:
 - repo:
   - openeuler/compat-winapp
   - openeuler/wine-app
-  - src-openeuler/isl
   - src-openeuler/tslib
   - src-openeuler/tinyxml
+  - src-openeuler/jack-audio-connection-kit
+  - src-openeuler/cloog
+  - src-openeuler/bullet
+  - src-openeuler/box86
+  - src-openeuler/libffado
+  - src-openeuler/libxmlpp
+
+- repo:
+  - src-openeuler/isl
   - src-openeuler/spirv-headers
   - src-openeuler/spirv-tools
   - src-openeuler/FAudio
@@ -58,13 +66,16 @@ repositories:
   - src-openeuler/mingw-filesystem
   - src-openeuler/mingw-headers
   - src-openeuler/mingw-crt
-  - src-openeuler/jack-audio-connection-kit
-  - src-openeuler/cloog
   - src-openeuler/vkd3d
   - src-openeuler/efl
-  - src-openeuler/bullet
-  - src-openeuler/box86
-  - src-openeuler/libffado
-  - src-openeuler/libxmlpp
   - src-openeuler/wine-mono
   - src-openeuler/wine
+  committers:
+  - gitee_id: tangjie02
+    name: Tang Jie
+    organization: KylinSec OS
+    email: tangjie02@kylinsec.com.cn
+  - gitee_id: niko_yhc
+    name: Yin Hongchang
+    organization: KylinSec OS
+    email: yinhongchang@kylinsec.com.cn
