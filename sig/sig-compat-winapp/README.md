@@ -22,6 +22,9 @@ compat-winapp SIG组致力于将X86平台下海量的 Windows 应用引入X86/AR
 - 翁志艺[@vyloy](https://gitee.com/vyloy),zhiyi@iscas.ac.cn
 
 ### Committer列表
+- 唐杰[@tangjie02](https://gitee.com/tangjie02),tangjie02@kylinsec.com.cn
+- 尹宏昌[@niko_yhc](https://gitee.com/niko_yhc),yinhongchang@kylinsec.com.cn
+
 
 # 联系方式
 
