@@ -1,0 +1,7 @@
+name: btop
+description: Resource monitor that shows usage and stats for processor, memory, disks, network and processes.
+upstream: https://github.com/aristocratos/btop  
+branches:  
+- name: master
+  type: protected
+type: public
