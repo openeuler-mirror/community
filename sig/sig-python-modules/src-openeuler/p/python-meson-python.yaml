@@ -1,0 +1,7 @@
+name: python-meson-python
+upstream: https://github.com/mesonbuild/meson-python
+description: Meson Python build backend (PEP 517)
+branches:
+- name: master
+  type: protected
+type: public
