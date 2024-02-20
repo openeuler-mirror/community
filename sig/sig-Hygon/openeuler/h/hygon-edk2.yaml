@@ -1,0 +1,10 @@
+name: hygon-edk2
+description: Edk2 with hygon specific enhancements
+upstream: https://github.com/tianocore/edk2
+branches:
+- name: master
+  type: protected
+- name: edk2-stable202308
+  type: protected
+  create_from: edk2-stable202308
+type: public

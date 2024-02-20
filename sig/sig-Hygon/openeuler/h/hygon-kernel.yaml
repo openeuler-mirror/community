@@ -1,0 +1,10 @@
+name: hygon-kernel
+description: Linux kernel with Hygon specific enhancements
+upstream: https://gitee.com/openeuler/kernel
+branches:
+- name: master
+  type: protected
+- name: OLK-6.6
+  type: protected
+  create_from: OLK-6.6
+type: public
