@@ -24,7 +24,7 @@
 
 ### Committer列表
 
-- hangshuang[@hanshuang](https://gitee.com/hanshuang123456)
+- 刘智淋[@lliuzhi](https://gitee.com/lliuzhi)
 - yangxianzhao[@yangxiaozhao](https://gitee.com/xzyangha)
 - 小柿子[@liyf](https://gitee.com/liyf)
 - weidongkl[@weidongkl](https://gitee.com/weidongkl)
@@ -44,7 +44,7 @@
 
 - weidong@uniontech.com
 
-- hanshuang@uniontech.com
+- liuzhilin@uniontech.com
 
 - liyanfeng@uniontech.com
 
