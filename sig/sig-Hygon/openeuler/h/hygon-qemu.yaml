@@ -1,0 +1,13 @@
+name: hygon-qemu
+description: Qemu with hygon specific enhancements
+upstream: https://gitee.com/openeuler/qemu
+branches:
+- name: master
+  type: protected
+- name: qemu-8.2.0
+  type: protected
+  create_from: qemu-8.2.0
+- name: qemu-6.2.0
+  type: protected
+  create_from: qemu-6.2.0
+type: public

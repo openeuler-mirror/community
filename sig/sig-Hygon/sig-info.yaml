@@ -1,0 +1,63 @@
+name: sig-Hygon
+description: 'openEuler Hygon SIG'
+mailing_list: sig-hygon@openeuler.org
+maintainers:
+- gitee_id: fenghao176
+  name: Hao Feng
+  email: fenghao@hygon.cn
+- gitee_id: jiangxin00
+  name: Xin Jiang
+  email: jiangxin@hygon.cn
+- gitee_id: allen846356
+  name: Wei Li
+  email: allenli@hygon.cn
+- gitee_id: fang_baoshun
+  name: Baoshun Fang
+  email: fangbaoshun@hygon.cn
+- gitee_id: OliveU
+  name: Shan Chen
+  email: chenshan@hygon.cn
+- gitee_id: haibotu
+  name: Haibo Tu
+  email: tuhaibo@hygon.cn
+repositories:
+- repo:
+  - openeuler/hygon-kernel
+  - openeuler/hygon-devkit
+  - openeuler/hygon-qemu
+  - openeuler/hygon-edk2
+  repo_admin:
+  - gitee_id: fenghao176
+    name: Hao Feng
+    email: fenghao@hygon.cn
+  - gitee_id: jiangxin00
+    name: Xin Jiang
+    email: jiangxin@hygon.cn
+  - gitee_id: fang_baoshun
+    name: Baoshun Fang
+    email: fangbaoshun@hygon.cn
+  - gitee_id: OliveU
+    name: Shan Chen
+    email: chenshan@hygon.cn
+  - gitee_id: haibotu
+    name: Haibo Tu
+    email: tuhaibo@hygon.cn
+  committers:
+  - gitee_id: hanliyang
+    name: Liyang Han
+    email: hanliyang@hygon.cn
+  - gitee_id: panpingsheng
+    name: Pingsheng Pan
+    email: panpingsheng@hygon.cn
+  - gitee_id: poetic-bone
+    name: Hui Du
+    email: duhui@hygon.cn
+  - gitee_id: autoinfra-admin
+    name: Wei Niu
+    email: autoinfra.admin@hygon.cn
+  - gitee_id: xisme
+    name: Mengbiao Xiong
+    email: xiongmengbiao@hygon.cn
+  - gitee_id: partyCoder
+    name: Depei Yang
+    email: yangdepei@hygon.cn
