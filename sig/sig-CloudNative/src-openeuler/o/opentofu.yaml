@@ -1,0 +1,7 @@
+name: opentofu
+description: OpenTofu is an OSS tool for building, changing, and versioning infrastructure safely and efficiently.
+upstream: https://github.com/opentofu/opentofu
+branches:
+- name: master
+  type: protected
+type: public
