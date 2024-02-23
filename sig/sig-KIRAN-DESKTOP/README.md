@@ -1,16 +1,12 @@
-
 # 概述
 
 本SIG维护Kiran桌面环境的相关项目。Kiran桌面环境致力于打造美观、易用和高效的Linux桌面操作系统，使其成为OpenEuler社区官方支持服务器桌面环境之一。
-
 
 # 组织会议
 
 - 暂无固定时间
 
-
 # 成员
-
 
 ### Maintainer列表
 
@@ -21,21 +17,24 @@
 ### Committer列表
 
 - yuan__xing
-- liuxingxiang
 - luoqing_kylinsec
-
+- meizhigang
+- itisyang
+- wangyucheng1
+- chendingjian
 
 # 联系方式
 
 - shiyong@kylinsec.com.cn
 - tangjie02@kylinsec.com.cn
-
+- liuxinhao@kylinsec.com.cn
 
 # 项目清单
 
 项目名称：KIRAN-DESKTOP
 
 repository地址：
+
 - https://gitee.com/src-openeuler/kiran-avatar-editor
 - https://gitee.com/src-openeuler/kiran-gtk-theme
 - https://gitee.com/src-openeuler/kiran-icon-theme
