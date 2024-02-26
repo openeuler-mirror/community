@@ -7,7 +7,7 @@ branches:
 - name: openEuler-20.03-LTS-Next
   type: readonly
   create_from: master
-- name: openEuler-24.03-LTS
+- name: openEuler-22.03-LTS
   type: protected
   create_from: master
 type: public
