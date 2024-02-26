@@ -1,0 +1,7 @@
+name: geographiclib
+description: GeographicLib is a small set of C++ classes for performing conversions between geographic, UTM, UPS, MGRS, geocentric, and local Cartesian coordinates, for gravity (e.g., EGM2008), geoid height and geomagnetic field (e.g., WMM2010) calculations, and for solving geodesic problems. The emphasis is on returning accurate results with errors close to round-off (about 5–15 nanometers). New accurate algorithms for Geodesics on an ellipsoid of revolution and Transverse Mercator projection have been developed for this library. The functionality of the library can be accessed from user code, from the Utility programs provided, or via the Implementations in other languages.
+upstream: https://github.com/geographiclib/geographiclib
+branches:
+- name: master
+  type: protected
+type: public

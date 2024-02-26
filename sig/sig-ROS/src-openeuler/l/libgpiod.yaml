@@ -1,0 +1,7 @@
+name: libgpiod
+description: libgpiod is a C library and tools for interacting with the linux GPIO character device (gpiod stands for GPIO device) The new character device interface guarantees all allocated resources are freed after closing the device file descriptor and adds several new features that are not present in the obsolete sysfs interface (like event polling, setting/reading multiple values at once or open-source and open-drain GPIOs).
+upstream: https://git.kernel.org/pub/scm/libs/libgpiod/libgpiod
+branches:
+- name: master
+  type: protected
+type: public
