@@ -19,22 +19,18 @@ maintainers:
   email: liuxinhao@kylinsec.com.cn
 repositories:
 - repo:
-  - src-openeuler/kiran-avatar-editor
-  - src-openeuler/kiran-calendar
-  - src-openeuler/kiran-gtk-theme
-  - src-openeuler/kiran-icon-theme
-  - src-openeuler/kiran-themes
-  - src-openeuler/kiran-menu
-  - src-openeuler/kiran-screensaver-dialog
-  - src-openeuler/lightdm-kiran-greeter
-  - src-openeuler/kiran-wallpapers
-  - src-openeuler/plymouth-theme-kiran
-  - src-openeuler/kiran-flameshot
+  - src-openeuler/kiran-desktop
   - src-openeuler/kiran-cc-daemon
-  - src-openeuler/lunar-date
-  - src-openeuler/gdbus-codegen-glibmm
-  - src-openeuler/kiran-log
-  - src-openeuler/zlog
+  - src-openeuler/kiran-session-manager
+  committers:
+  - gitee_id: meizhigang
+    name: MeiZhiGang
+    email: meizhigang@kylinsec.com.cn
+  - gitee_id: luoqing_kylinsec
+    name: LuoQing
+    email: luoqing@kylinos.com.cn
+
+- repo:
   - src-openeuler/kiran-control-panel
   - src-openeuler/kiran-cpanel-account
   - src-openeuler/kiran-cpanel-display
@@ -45,32 +41,72 @@ repositories:
   - src-openeuler/kiran-cpanel-keyboard
   - src-openeuler/kiran-cpanel-keybinding
   - src-openeuler/kiran-cpanel-power
+  committers:
+  - gitee_id: yuan__xing
+    name: YuanXing
+    email: yuanxing@kylinsec.com.cn
+  - gitee_id: luoqing_kylinsec
+    name: LuoQing
+    email: luoqing@kylinos.com.cn
+
+- repo:
   - src-openeuler/kiran-panel
-  - src-openeuler/kiran-session-manager
-  - src-openeuler/kiran-widgets-qt5
-  - src-openeuler/kiran-qdbusxml2cpp
-  - src-openeuler/libcutl
-  - src-openeuler/xsd
-  - src-openeuler/kiran-desktop
-  - src-openeuler/kiran-calculator
-  - src-openeuler/kiran-session-guard
-  - src-openeuler/kiran-screensaver
+  - src-openeuler/kiran-shell
+  - src-openeuler/kiran-menu
+  committers:
+  - gitee_id: itisyang
+    name: YangFeng
+    email: yangfeng@kylinsec.com.cn
+
+- repo:
   - src-openeuler/kiran-authentication-service
   - src-openeuler/kiran-biometrics
   - src-openeuler/kiran-authentication-devices
-  - src-openeuler/kiran-shell
-  - src-openeuler/kiran-manual
+  committers:
+  - gitee_id: luoqing_kylinsec
+    name: LuoQing
+    email: luoqing@kylinos.com.cn
+
+- repo:
   - src-openeuler/ks-ssr
+  committers:
+  - gitee_id: wangyucheng1
+    name: WangYuCheng
+    email: wangyucheng@kylinsec.com.cn
+  - gitee_id: chendingjian
+    name: ChenDingJian
+    email: chendingjian@kylinsec.com.cn
+
+- repo:
+  - src-openeuler/kiran-screensaver-dialog
+  - src-openeuler/lightdm-kiran-greeter
+  - src-openeuler/kiran-session-guard
+  - src-openeuler/kiran-screensaver
+
+- repo:
+  - src-openeuler/kiran-manual
+  - src-openeuler/kiran-qt5-integration
+  - src-openeuler/kiran-wallpapers
+  - src-openeuler/kiran-icon-theme
+  - src-openeuler/kiran-gtk-theme
+  - src-openeuler/kiran-themes
+  - src-openeuler/kiran-widgets-qt5
+  - src-openeuler/plymouth-theme-kiran
+
+- repo:
+  - src-openeuler/kiran-qdbusxml2cpp
+  - src-openeuler/kiran-calculator
+  - src-openeuler/kiran-flameshot
+  - src-openeuler/kiran-avatar-editor
+  - src-openeuler/kiran-calendar
+  - src-openeuler/kiran-log
+  - src-openeuler/lunar-date
+  - src-openeuler/zlog
+  - src-openeuler/libcutl
+  - src-openeuler/xsd
+  - src-openeuler/gdbus-codegen-glibmm
+
+- repo:
   - src-openeuler/ks-scmc
   - src-openeuler/ks-scmc-gui
   - src-openeuler/ks-vaudit
-  committers:
-  - gitee_id: liuxingxiang
-    name: LiuXingXiang
-    email: liuxingxiang@kylinos.com.cn
-  - gitee_id: yuan__xing
-    name: YuanXing
-    email: yuanxing@kylinos.com.cn
-  - gitee_id: luoqing_kylinsec
-    name: LuoQing
-    email: luoqing@kylinos.com.cn   
