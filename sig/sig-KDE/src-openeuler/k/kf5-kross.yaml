@@ -1,5 +1,6 @@
 name: kf5-kross
-description: Kross is a scripting bridge to embed scripting functionality into an application. It supports QtScript as a scripting interpreter backend.
+description: Kross is a scripting bridge to embed scripting functionality into an
+  application. It supports QtScript as a scripting interpreter backend.
 upstream: https://github.com/KDE/kross
 branches:
 - name: master
@@ -10,4 +11,10 @@ branches:
 - name: openEuler-23.09
   type: protected
   create_from: master
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-24.03-LTS
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
 type: public

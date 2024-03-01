@@ -1,7 +1,14 @@
 name: python-jupyter-server
-description: The backend—i.e. core services, APIs, and REST endpoints—to Jupyter web applications.
+description: "The backend\u2014i.e. core services, APIs, and REST endpoints\u2014\
+  to Jupyter web applications."
 upstream: https://github.com/jupyter-server/jupyter_server
 branches:
 - name: master
   type: protected
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-24.03-LTS
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
 type: public
