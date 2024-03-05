@@ -1,0 +1,7 @@
+name: poissonsearch-oss
+description: A near-realtime distributed search and analytics engine dirived from elasticsearch-oss 7.10.2.
+upstream: https://gitee.com/openeuler/poissonsearch-oss
+branches:
+- name: master
+  type: protected
+type: public
