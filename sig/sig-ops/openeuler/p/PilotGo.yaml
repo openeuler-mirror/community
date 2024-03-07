@@ -6,4 +6,10 @@ branches:
 - name: openEuler-22.03-LTS-SP2
   type: protected
   create_from: master
+- name: v2.0
+  type: protected
+  create_from: master
+- name: v2.1
+  type: protected
+  create_from: master
 type: public
