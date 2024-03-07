@@ -1,0 +1,7 @@
+name: yocto-meta-phosphor
+description: OpenBMC core layer
+upstream: https://github.com/openbmc/openbmc.git
+branches:
+- name: master
+  type: protected
+type: public
