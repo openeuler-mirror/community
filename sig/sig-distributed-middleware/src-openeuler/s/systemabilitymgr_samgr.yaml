@@ -1,5 +1,7 @@
 name: systemabilitymgr_samgr
-description: The System Ability Manager (Samgr) provides functions related to system abilities (also called system services), including the startup, registration, and query.
+description: The System Ability Manager (Samgr) provides functions related to system
+  abilities (also called system services), including the startup, registration, and
+  query.
 upstream: https://gitee.com/openharmony/systemabilitymgr_samgr
 branches:
 - name: master
@@ -13,5 +15,10 @@ branches:
 - name: openEuler-22.03-LTS-SP3
   type: protected
   create_from: openEuler-22.03-LTS-Next
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-24.03-LTS
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
 type: public
-

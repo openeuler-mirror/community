@@ -21,4 +21,10 @@ branches:
 - name: openEuler-23.03
   type: readonly
   create_from: master
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-24.03-LTS
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
 type: private
