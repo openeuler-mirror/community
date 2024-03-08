@@ -1,0 +1,7 @@
+name: classic-flang
+description: Classic Flang is a Fortran language front-end designed for integration with LLVM.
+upstream: https://github.com/flang-compiler/flang
+branches:
+- name: master
+  type: protected
+type: public

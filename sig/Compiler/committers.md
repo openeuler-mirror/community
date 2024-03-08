@@ -16,27 +16,28 @@
 ## GCC repos
 | Repo <img width=270/>                       | Committer(s) <img width=270/>                     |
 | -------------------------- | --------------------------------- |
-| [gcc](https://gitee.com/openeuler/gcc) <br/> [src-openeuler/gcc](https://gitee.com/src-openeuler/gcc) <br/> [gcc-12](https://gitee.com/src-openeuler/gcc-12) | 章 海剑[@Haijian.Zhang](https://gitee.com/haijianzhang) email: z.zhanghaijian@huawei.com <br/> 黄 晓权[@huang-xiaoquan](https://gitee.com/huang-xiaoquan) email: huangxiaoquan1@huawei.com <br/> 熊 洲[xiongzhou4](https://gitee.com/xiongzhou4) email: xiongzhou4@huawei.com | 
+| [gcc](https://gitee.com/openeuler/gcc) <br/> [src-openeuler/gcc](https://gitee.com/src-openeuler/gcc) <br/> [gcc-12](https://gitee.com/src-openeuler/gcc-12) | 章 海剑[@Haijian.Zhang](https://gitee.com/haijianzhang) email: z.zhanghaijian@huawei.com <br/> 黄 晓权[@huang-xiaoquan](https://gitee.com/huang-xiaoquan) email: huangxiaoquan1@huawei.com <br/> 熊 洲[@xiongzhou4](https://gitee.com/xiongzhou4) email: xiongzhou4@huawei.com |
 | [gcc-anti-sca](https://gitee.com/openeuler/gcc-anti-sca) <br/> [ccache](https://gitee.com/src-openeuler/ccache) | 章 海剑[@Haijian.Zhang](https://gitee.com/haijianzhang) email: z.zhanghaijian@huawei.com |
-| [A-FOT](https://gitee.com/openeuler/A-FOT) <br/> [src-openeuler/A-FOT](https://gitee.com/src-openeuler/A-FOT) <br/> [autofdo](https://gitee.com/src-openeuler/autofdo) | 林 达[@benniaobufeijiushiji](https://gitee.com/benniaobufeijiushiji) email: linda7@huawei.com <br/> 熊 洲[xiongzhou4](https://gitee.com/xiongzhou4) email: xiongzhou4@huawei.com |
-| [gcc-cross](https://gitee.com/src-openeuler/gcc-cross) | 林 达[@benniaobufeijiushiji](https://gitee.com/benniaobufeijiushiji) email: linda7@huawei.com<br/> 熊 洲[xiongzhou4](https://gitee.com/xiongzhou4) email: xiongzhou4@huawei.com |
+| [A-FOT](https://gitee.com/openeuler/A-FOT) <br/> [src-openeuler/A-FOT](https://gitee.com/src-openeuler/A-FOT) <br/> [autofdo](https://gitee.com/src-openeuler/autofdo) | 林 达[@benniaobufeijiushiji](https://gitee.com/benniaobufeijiushiji) email: linda7@huawei.com <br/> 熊 洲[@xiongzhou4](https://gitee.com/xiongzhou4) email: xiongzhou4@huawei.com |
+| [gcc-cross](https://gitee.com/src-openeuler/gcc-cross) | 林 达[@benniaobufeijiushiji](https://gitee.com/benniaobufeijiushiji) email: linda7@huawei.com<br/> 熊 洲[@xiongzhou4](https://gitee.com/xiongzhou4) email: xiongzhou4@huawei.com |
 | [gcc-7](https://gitee.com/src-openeuler/gcc-7) | 张 无际[@zhangwuji1995](https://gitee.com/zhangwuji1995) email: zhangwuji1@huawei.com |
 | [gcc-10](https://gitee.com/src-openeuler/gcc-10) | 王 鼎[@wangding16](https://gitee.com/wangding16) email: wangding16@huawei.com <br/> 赵 书健[@zhaoshujian](https://gitee.com/zhaoshujian) email: zhaoshujian@huawei.com |
 | [binutils](https://gitee.com/src-openeuler/binutils) | 谢 志恒[@eastb233](https://gitee.com/eastb233) email: xiezhiheng@huawei.com |
-| [gcc-for-openEuler](https://gitee.com/openeuler/gcc-for-openEuler) <br/> [src-openeuler/gcc-for-openEuler](https://gitee.com/src-openeuler/gcc-for-openEuler) |熊 洲[xiongzhou4](https://gitee.com/xiongzhou4) email: xiongzhou4@huawei.com |
+| [gcc-for-openEuler](https://gitee.com/openeuler/gcc-for-openEuler) <br/> [src-openeuler/gcc-for-openEuler](https://gitee.com/src-openeuler/gcc-for-openEuler) |熊 洲[@xiongzhou4](https://gitee.com/xiongzhou4) email: xiongzhou4@huawei.com |
 
 ## LLVM repos
 | Repo <img width=270/>                       | Committer(s) <img width=270/>                     |
 | -------------------------- | --------------------------------- |
 | [llvm-project](https://gitee.com/openeuler/llvm-project) | 钟 云德[@zhongyunde](https://gitee.com/zhongyunde) email: zhongyunde@huawei.com <br/> 李 云飞[liyunfei33](https://gitee.com/liyunfei33) email: liyunfei33@huawei.com |
 | [src-openeuler/spirv-llvm-translator](https://gitee.com/src-openeuler/spirv-llvm-translator) <br/> [src-openeuler/compiler-rt](https://gitee.com/src-openeuler/compiler-rt) <br/> [src-openeuler/clang](https://gitee.com/src-openeuler/clang) <br/> [src-openeuler/llvm-bolt](https://gitee.com/src-openeuler/llvm-bolt) <br/> [src-openeuler/llvm](https://gitee.com/src-openeuler/llvm) <br/> [src-openeuler/llvm-libunwind](https://gitee.com/src-openeuler/llvm-libunwind) <br/> [src-openeuler/lld](https://gitee.com/src-openeuler/lld) <br/> [src-openeuler/libcxx](https://gitee.com/src-openeuler/libcxx) <br/> [src-openeuler/libcxxabi](https://gitee.com/src-openeuler/libcxxabi) <br/> [src-openeuler/openmp](https://gitee.com/src-openeuler/openmp) <br/> [src-openeuler/lldb](https://gitee.com/src-openeuler/lldb) <br/> [src-openeuler/libclc](https://gitee.com/src-openeuler/libclc) <br/> [src-openeuler/flang](https://gitee.com/src-openeuler/flang) <br/> [src-openeuler/llvm-mlir](https://gitee.com/src-openeuler/llvm-mlir) | 钟 云德[@zhongyunde](https://gitee.com/zhongyunde) email: zhongyunde@huawei.com <br/> 李 云飞[liyunfei33](https://gitee.com/liyunfei33) email: liyunfei33@huawei.com |
+|[src-openeuler/classic-flang](https://gitee.com/src-openeuler/classic-flang) | 罗峰[@luofeng14](https://gitee.com/luofeng14) |
 
 ## Miscellaneous repos
 | Repo <img width=270/>                       | Committer(s) <img width=270/>                     |
 | -------------------------- | --------------------------------- |
 | [BiShengCLanguage](https://gitee.com/openeuler/BiShengCLanguage) | 徐 茂达[@nns_icu](https://gitee.com/nns_icu) email: xumaoda@huawei.com <br/> 范 长春[@fanchangchun](https://gitee.com/fanchangchun) email: fanchangchun@huawei.com <br/> 汪 焰韬[@plt42](https://gitee.com/plt42) email: wangyantao4@huawei.com |
 |[OpenArkCompiler](https://gitee.com/openeuler/OpenArkCompiler) | 孙 子博[@sunzibo](https://gitee.com/sunzibo) email: sunzibo@huawei.com <br/> 徐 茂达[@nns_icu](https://gitee.com/nns_icu) email: xumaoda@huawei.com <br/> 林 炜鑫[@weixin_93](https://gitee.com/weixin_93) email: linweixin1@huawei.com |
-| [Bear](https://gitee.com/src-openeuler/Bear) | 赵 文宇[@huitailangzju](https://gitee.com/huitailangzju) email: 804544223@qq.com <br/> 熊 洲[xiongzhou4](https://gitee.com/xiongzhou4) email: xiongzhou4@huawei.com |
+| [Bear](https://gitee.com/src-openeuler/Bear) | 赵 文宇[@huitailangzju](https://gitee.com/huitailangzju) email: 804544223@qq.com <br/> 熊 洲[@xiongzhou4](https://gitee.com/xiongzhou4) email: xiongzhou4@huawei.com |
 | [gn](https://gitee.com/src-openeuler/gn) | 李 海炜[@liheavy](https://gitee.com/liheavy) email: lihaiwei8@huawei.com |
 | [tinytoml](https://gitee.com/src-openeuler/tinytoml) | 朱 佳梦[@JiamengZ](https://gitee.com/JiamengZ) email: zhujiameng@huawei.com <br/> 章 旭东[@z-xu-dong-zhang](https://gitee.com/z-xu-dong-zhang) email: zxudong.zhang@huawei.com |
 | [pin-gcc-client](https://gitee.com/openeuler/pin-gcc-client) <br/> [pin-llvm-client](https://gitee.com/openeuler/pin-llvm-client) <br/> [pin-server](https://gitee.com/openeuler/pin-server) <br/> [pin-for-openEuler](https://gitee.com/openeuler/pin-for-openEuler) <br/> [src-openeuler/pin-gcc-client](https://gitee.com/src-openeuler/pin-gcc-client) <br/> [src-openeuler/pin-llvm-client](https://gitee.com/src-openeuler/pin-llvm-client) <br/> [src-openeuler/pin-server](https://gitee.com/src-openeuler/pin-server) <br/> [src-openeuler/pin-for-openEuler](https://gitee.com/src-openeuler/pin-for-openEuler) | 伍 明川[@wumingchuan](https://gitee.com/wumingchuan) email: wumingchuan1@huawei.com |
@@ -46,4 +47,4 @@
 | [WLLVM](https://gitee.com/src-openeuler/WLLVM) | |
 | [src-openeuler/jtreg](https://gitee.com/src-openeuler/jtreg) | |
 | [src-openeuler/icedtea-web](https://gitee.com/src-openeuler/icedtea-web) | |
-| [optimized-routines](https://gitee.com/src-openeuler/optimized-routines) | 熊 洲[xiongzhou4](https://gitee.com/xiongzhou4) email: xiongzhou4@huawei.com | 
+| [optimized-routines](https://gitee.com/src-openeuler/optimized-routines) | 熊 洲[@xiongzhou4](https://gitee.com/xiongzhou4) email: xiongzhou4@huawei.com |
