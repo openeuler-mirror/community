@@ -27,27 +27,43 @@ maintainers:
   name: Feng Li
   orgnization: Huawei
   email: lifeng68@huawei.com
+- gitee_id: xuxuepeng
+  name: Xuepeng Xu
+  orgnization: Huawei
+  email: xuxuepeng1@huawei.com
 
 repositories:
 - repo:
   - openeuler/iSulad
-  - openeuler/isula-build
-  - openeuler/syscontainer-tools
-  - openeuler/async-libfuse
   - openeuler/clibcni
   - openeuler/lcr
   - openeuler/lib-shim-v2
-  - openeuler/lxcfs-tools
   - src-openeuler/iSulad
-  - src-openeuler/isula-build
-  - src-openeuler/syscontainer-tools
   - src-openeuler/clibcni
   - src-openeuler/lxc
-  - src-openeuler/lxcfs
   - src-openeuler/libwebsockets
   - src-openeuler/lcr
   - src-openeuler/lib-shim-v2
+  committers:
+  - gitee_id: taotao-sauce
+    name: Tao Zhong
+    email: zhongtao17@huawei.com
+  repo_admin:
+  - gitee_id: duguhaotian
+    name: Hao Liu
+    email: liuhao27@huawei.com
+  - gitee_id: jingxiaolu
+    name: Jingxiao Lu
+    email: lujingxiao@huawei.com
+- repo:
+  - openeuler/isula-build
+  - openeuler/syscontainer-tools
+  - openeuler/async-libfuse
+  - openeuler/lxcfs-tools
+  - src-openeuler/isula-build
+  - src-openeuler/syscontainer-tools
   - src-openeuler/lxcfs-tools
+  - src-openeuler/lxcfs
   repo_admin:
   - gitee_id: duguhaotian
     name: Hao Liu
