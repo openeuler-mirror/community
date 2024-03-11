@@ -39,7 +39,7 @@
 
 ## 项目清单
 
-- <https://gitee.com/openeuler/SBC>：SBC SIG 的主仓库
+- <https://gitee.com/openeuler/SBC-sig>：SBC SIG 的主仓库
 - <https://gitee.com/openeuler/raspberrypi>：Raspberry Pi 镜像的构建脚本和使用文档仓库
 - <https://gitee.com/openeuler/raspberrypi-kernel>：Raspberry Pi 内核源码仓库
 - <https://gitee.com/openeuler/raspberrypi-build>：Raspberry Pi 镜像构建脚本的仓库
