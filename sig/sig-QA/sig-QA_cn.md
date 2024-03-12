@@ -22,6 +22,7 @@ openEuler QA(质量保障)项目团队致力于如何更好的提升openEuler社
   - https://gitee.com/openeuler/container-test
   - https://gitee.com/openeuler/test-tools
   - https://gitee.com/openeuler/mugen
+  - https://gitee.com/openeuler/LTF
   - https://gitee.com/src-openeuler/test-tools
   - https://gitee.com/src-openeuler/linux-test-project
   - https://gitee.com/src-openeuler/mugen
@@ -36,6 +37,9 @@ openEuler QA(质量保障)项目团队致力于如何更好的提升openEuler社
   - lemon-higgins
   - lutianxiong
   - disnight,since December 2021
+  - liu-zuo
+  - yaoxiyao
+  - yuyongkangnaruto
 
 
 邮件列表：

@@ -25,6 +25,7 @@ The repositories related to QA are listed below
   - https://gitee.com/openeuler/container-test
   - https://gitee.com/openeuler/test-tools
   - https://gitee.com/openeuler/mugen
+  - https://gitee.com/openeuler/LTF
   - https://gitee.com/src-openeuler/test-tools
   - https://gitee.com/src-openeuler/linux-test-project
   - https://gitee.com/src-openeuler/mugen
@@ -42,12 +43,15 @@ Maintainers
 - lemon-higgins
 - lutianxiong
 - disnight,since December 2021
+- liu-zuo
 
 Committers
 - Air9(@air9),since january 2020
 - wsf0824(@wsf0824),since December 2019
 - panny060(@panny060),since December 2019
 - jiuhanjiu(@jiuhanjiu),since December 2019
+- yaoxiyao(@yaoxiyao),since March 2024
+- yuyongkang(@yuyongkangnaruto),since March 2024
 
 ### Mailing list
 qa@openeuler.org
