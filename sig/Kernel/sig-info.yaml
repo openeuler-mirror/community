@@ -300,3 +300,46 @@ repositories:
   - gitee_id: qinirao
     name: Weilong Chen
     email: chenweilong@huawei.com
+
+branches:
+- repo_branch:
+  - repo: openeuler/kernel
+    branch: OLK-5.10
+  - repo: openeuler/kernel
+    branch: openEuler-22.03-LTS-SP2
+  - repo: openeuler/kernel
+    branch: openEuler-22.03-LTS-SP1
+  - repo: openeuler/kernel
+    branch: openEuler-22.03-LTS
+  - repo: src-openeuler/kernel
+    branch: openEuler-22.03-LTS-Next
+  - repo: src-openeuler/kernel
+    branch: openEuler-22.03-LTS-SP3
+  - repo: src-openeuler/kernel
+    branch: openEuler-22.03-LTS-SP2
+  - repo: src-openeuler/kernel
+    branch: openEuler-22.03-LTS-SP1
+  - repo: src-openeuler/kernel
+    branch: openEuler-22.03-LTS
+  keeper:
+  - gitee_id: zhangjialin11
+
+- repo_branch:
+  - repo: openeuler/kernel
+    branch: openEuler-1.0-LTS
+  - repo: src-openeuler/kernel
+    branch: openEuler-20.03-LTS-SP1
+  keeper:
+  - gitee_id: zhang-changzhong
+
+- repo_branch:
+  - repo: openeuler/kernel
+    branch: OLK-6.6
+  - repo: src-openeuler/kernel
+    branch: master
+  - repo: src-openeuler/kernel
+    branch: openEuler-24.03-LTS-Next
+  - repo: src-openeuler/kernel
+    branch: openEuler-24.03-LTS
+  keeper:
+  - gitee_id: zhengzengkai
