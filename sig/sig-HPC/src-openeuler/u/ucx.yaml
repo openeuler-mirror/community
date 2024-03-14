@@ -1,0 +1,13 @@
+name: ucx
+description: an open-source, production-grade communication framework for data-centric and high-performance applications
+upstream: https://github.com/openucx/ucx
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: readonly
+  create_from: master
+- name: openEuler-22.03-LTS
+  type: protected
+  create_from: master
+type: public
