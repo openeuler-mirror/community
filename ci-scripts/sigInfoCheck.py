@@ -11,13 +11,15 @@ SIG information.
 """
 import argparse
 import os
+import time
+
 import requests
 import re
 import sys
 import yaml
 
 SIG_INFO_FIELDS = ['name', 'description', 'mailing_list', 'meeting_url', 'mature_level', 'mentors', 'maintainers',
-                   'repositories', 'created_on']
+                   'repositories', 'created_on', "branches"]
 SIG_INFO_REQUIRED_FIELDS = ['name', 'maintainers']
 SIG_INFO_SECONDARY_FIELDS = ['repo', 'committers', 'contributors', 'repo_admin']
 MEMBER_FIELDS = ['gitee_id', 'name', 'email', 'organization']
@@ -66,11 +68,19 @@ def check_gitee_id(gitee_id, access_token):
     """
     gitee_id_errors = 0
     url = 'https://gitee.com/api/v5/users/{}?access_token={}'.format(gitee_id, access_token)
-    r = requests.get(url)
-    if r.status_code == 404:
-        print('ERROR! Check gitee_id: invalid gitee_id {}.'.format(gitee_id))
+    for i in range(5):
+        try:
+            r = requests.get(url)
+            if r.status_code == 404:
+                print('ERROR! Check gitee_id: invalid gitee_id {}.'.format(gitee_id))
+                gitee_id_errors += 1
+            return gitee_id_errors
+        except Exception as e:
+            print("ERROR! Check gitee_id:{}, e:{}".format(gitee_id, e))
+            time.sleep(3)
+    else:
         gitee_id_errors += 1
-    return gitee_id_errors
+        return gitee_id_errors
 
 
 def check_fields(sig_info):
@@ -228,6 +238,63 @@ def check_contributors(contributors, access_token, errors):
         check_error = check_member(contributor, access_token)
         errors_count += check_error
     return errors_count
+
+
+def check_branch_keeper(branches, access_token):
+    """
+    Check validation of branch_keeper
+    :param branches: a list of contributors
+    :param access_token: access_token of gitee
+    :return: errors
+    """
+
+    err_msg = list()
+    if not isinstance(branches, list):
+        err_msg.append("ERROR! The branches must be a list")
+
+    if len(err_msg):
+        print(",".join(err_msg))
+        return len(err_msg)
+
+    for branch in branches:
+        if branch.get("repo_branch") is None:
+            err_msg.append("ERROR! The repo_branch must be not empty")
+            continue
+        if not isinstance(branch.get("repo_branch"), list):
+            err_msg.append("ERROR! The repo_branch must be a list")
+            continue
+        if branch.get("keeper") is None:
+            err_msg.append("ERROR! The keeper must be not empty")
+            continue
+        if not isinstance(branch.get("keeper"), list):
+            err_msg.append("ERROR! The keeper must be a list")
+            continue
+        for repo in branch["repo_branch"]:
+            if repo is None:
+                err_msg.append("ERROR! The keeper must be not empty")
+                continue
+            if not isinstance(repo, dict):
+                err_msg.append("ERROR! The repo_branch must be a dict")
+                continue
+            if "repo" not in repo.keys() or "branch" not in repo.keys():
+                err_msg.append("ERROR! The repo_branch must include the repo and branch fileds")
+                continue
+        for keeper in branch["keeper"]:
+            if keeper is None:
+                err_msg.append("ERROR! The keeper must be not empty")
+                continue
+            if not isinstance(keeper, dict):
+                err_msg.append("ERROR! The keeper must be a dict")
+                continue
+            if "gitee_id" not in keeper.keys():
+                err_msg.append("ERROR! The keeper must include the gitee_id fileds")
+                continue
+            errors = check_member(keeper, access_token)
+            if errors != 0:
+                err_msg.append("ERROR! The invalid gitee_id")
+    if len(err_msg):
+        print(",".join(err_msg))
+    return len(err_msg)
 
 
 def get_sig_info_repos(sig_info_repos):
@@ -417,6 +484,16 @@ def check_sig_info(sig, access_token):
             print('PASS WITHOUT ISSUES FOUND.')
     else:
         print('There is no contributor in the SIG yet, skip Check 7.')
+
+    print('\nCheck 8: Check branch_keeper')
+    branches = sig_info.get('branches')
+    if branches is not None:
+        check8 = check_branch_keeper(branches, access_token)
+        sig_info_errors += check8
+        if check8 == 0:
+            print('PASS WITHOUT ISSUES FOUND.')
+    else:
+        print('There is no branch_keeper in the SIG yet, skip Check 8.')
 
     return sig_info_errors
 
