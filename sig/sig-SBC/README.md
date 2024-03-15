@@ -41,6 +41,7 @@
 - <https://gitee.com/openeuler/raspberrypi-build>：Raspberry Pi 镜像构建脚本的仓库
 - <https://gitee.com/openeuler/rockchip>：Rockchip 开发板镜像的构建脚本和使用文档仓库
 - <https://gitee.com/openeuler/rockchip-kernel>：Rockchip 内核源码仓库
+- <https://gitee.com/openeuler/phytium-kernel>：飞腾内核源码仓库
 - <https://gitee.com/openeuler/allwinner-kernel>：全志内核源码仓库
 - <https://gitee.com/src-openeuler/pigpio>：Raspberry Pi GPIO 控制库的 SRPM 仓库
 - <https://gitee.com/src-openeuler/raspberrypi-bluetooth>：Raspberry Pi 蓝牙相关服务的 SRPM 仓库
