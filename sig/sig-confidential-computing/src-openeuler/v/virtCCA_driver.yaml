@@ -1,0 +1,7 @@
+name: virtCCA_driver
+description: The driver of virtCCA (virtualized ARM confidential computing architecture with trustzone), such as remote attestation, derived key based on hardware etc.
+upstream: https://gitee.com/openeuler/virtCCA_driver.git
+branches:
+- name: master
+  type: protected
+type: public
