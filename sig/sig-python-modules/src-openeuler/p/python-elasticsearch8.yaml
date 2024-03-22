@@ -1,0 +1,7 @@
+name: python-elasticsearch8
+upstream: https://github.com/elastic/elasticsearch-py
+description: The official Python client for Elasticsearch
+branches:
+- name: master
+  type: protected
+type: public
