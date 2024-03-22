@@ -1,7 +1,14 @@
 name: python-mkdocs-gen-files
-description: MkDocs plugin to programmatically generate documentation pages during the build.
+description: MkDocs plugin to programmatically generate documentation pages during
+  the build.
 upstream: https://github.com/oprypin/mkdocs-gen-files
 branches:
 - name: master
   type: protected
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-24.03-LTS
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
 type: public

@@ -45,6 +45,7 @@ The SBC SIG aims at migrating openEuler to various single-board computers, in or
 - <https://gitee.com/openeuler/raspberrypi-build>: Repository of scripts of building images for Raspberry Pi
 - <https://gitee.com/openeuler/rockchip>: Repository of scripts for building openEuler image on Rockchip SoCs and documents
 - <https://gitee.com/openeuler/rockchip-kernel>: Repository of openEuler kernel source for Rockchip SoCs
+- <https://gitee.com/openeuler/phytium-kernel>: Repository of openEuler kernel source for Phytium SoCs
 - <https://gitee.com/openeuler/allwinner-kernel>: Repository of openEuler kernel source for Allwinner SoCs
 - <https://gitee.com/src-openeuler/pigpio>: SRPM repository of library for the Raspberry which allows control of the General Purpose Input Outputs (GPIO)
 - <https://gitee.com/src-openeuler/raspberrypi-bluetooth>: SRPM repository of bluetooth service for Raspberry Pi

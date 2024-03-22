@@ -156,6 +156,7 @@ repositories:
   - src-openeuler/perl-Text-Levenshtein-Damerau
   - src-openeuler/perl-Crypt-OpenSSL-Guess
   - src-openeuler/perl-Test-CPAN-Meta-JSON
+  - src-openeuler/perl-Test-CPAN-Meta
   - src-openeuler/perl-Test-Script-Run
   - src-openeuler/perl-Text-Quoted
   - src-openeuler/perl-File-Read
@@ -537,7 +538,6 @@ repositories:
   - src-openeuler/perl-XML-DOM
   - src-openeuler/perl-Net-LibIDN2
   - src-openeuler/perl-PerlIO-via-Timeout
-  - src-openeuler/perl-File-NCopy
   - src-openeuler/perl-Set-Scalar
   - src-openeuler/perl-Proc-InvokeEditor
   - src-openeuler/perl-Text-MultiMarkdown
@@ -747,7 +747,6 @@ repositories:
   - src-openeuler/perl-Directory-Scratch
   - src-openeuler/perl-File-FcntlLock
   - src-openeuler/perl-Test-Assertions
-  - src-openeuler/perl-constant-tiny
   - src-openeuler/perl-MooseX-RelatedClassRoles
   - src-openeuler/perl-DBIx-Class
   - src-openeuler/perl-MemHandle
@@ -1277,7 +1276,6 @@ repositories:
   - src-openeuler/perl-SUPER
   - src-openeuler/perl-Git-Repository
   - src-openeuler/perl-Module-CPANfile
-  - src-openeuler/perl-failures
   - src-openeuler/perl-XML-Tidy-Tiny
   - src-openeuler/perl-Tk-ObjScanner
   - src-openeuler/perl-PPIx-Regexp
@@ -1482,9 +1480,17 @@ repositories:
     email: hexiaowen@huawei.com
 - repo:
   - src-openeuler/perl-File-TreeCreate
+  - src-openeuler/perl-RDF-Trine
   committers:
   - gitee_id: woody2918
     name: di Wu
     organization: Uniontech
     email: wudi1@uniontech.com
+- repo:
+  - src-openeuler/perl-DBIx-Class-Storage-Statistics
+  committers:
+  - gitee_id: fuowang
+    name: Shuo Wang
+    organization: KylinSoft
+    email: wangshuo@kylinos.cn
 

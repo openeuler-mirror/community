@@ -1,7 +1,14 @@
 name: python-comm
-description: Jupyter Python Comm implementation, for usage in ipykernel, xeus-python etc.
+description: Jupyter Python Comm implementation, for usage in ipykernel, xeus-python
+  etc.
 upstream: https://github.com/ipython/comm
 branches:
 - name: master
   type: protected
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-24.03-LTS
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
 type: public

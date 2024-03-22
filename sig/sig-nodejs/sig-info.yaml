@@ -135,7 +135,6 @@ repositories:
   - src-openeuler/nodejs-jju
   - src-openeuler/nodejs-arrify
   - src-openeuler/nodejs-is-callable
-  - src-openeuler/node-gyp
   - src-openeuler/nodejs-jison-lex
   - src-openeuler/nodejs-is-typedarray
   - src-openeuler/nodejs-webpack-stats-plugin
@@ -390,3 +389,13 @@ repositories:
     name: yanan Li
     organization: Huawei
     email: liyanan32@h-partners.com
+
+- repo:
+  - src-openeuler/node-gyp
+  - src-openeuler/nodejs-env-paths
+  - src-openeuler/nodejs-make-fetch-happen
+  committers:
+  - gitee_id: desert-sailor
+    name: Dongxing Wang
+    organization: ThunderSoft
+    email: dongxing.wang_a@thundersoft.com

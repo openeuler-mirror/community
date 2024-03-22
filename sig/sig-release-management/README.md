@@ -18,20 +18,36 @@ conference time: BiWednesday 9:30~11:30 a.m (GMT+8)，please subscribe to the [r
 You can find [Release management SIG meeting minutes](https://gitee.com/openeuler/release-management/wikis) at the openEuler wiki site as well as posted to the link:release@openeuler.org mail list after each meeting.
 
 ## Release managerment SIG member
-**Maintainer: **
+**Maintainer:**
 - Hu Feng [@solarhu](https://gitee.com/solarhu)
 - Chen Yaqiang [@chenyaqiang](https://gitee.com/chenyaqiang)
 - Huang Chengpiao [@paul-huang](https://gitee.com/paul-huang)
+- Che Mingdao [@gitee-cmd](https://gitee.com/gitee-cmd)
+- Zeng Weifeng [@zengwefeng](https://gitee.com/zengwefeng)
+- Lin PeiFeng [@linfong](https://gitee.com/linfong)
+- He Keyi [@hekeyi](https://gitee.com/hekeyi)
+- Ye Qinglong [@yeqinglong01](https://gitee.com/yeqinglong01)
+- Hou Fangdong [@SmallPegasus](https://gitee.com/SmallPegasus)
 
-**Extended member: **
+**Extended member:**
 - Ming Pei [@dolphin-m](https://gitee.com/dolphin-m)
 - Zhang Wei [@hwzw](https://gitee.com/hwzw)
 - Li Yongqiang [@Charlie_li](https://gitee.com/Charlie_li)
-- Zhu Yanpeng [@zyp-rock](https://gitee.com/zyp-rock)
 
-**Honor Maintainer：**
+**Committers:**
+- Tian Jun [@juntianlinux](https://gitee.com/juntianlinux)
+- Liu Songling [@songling-olk](https://gitee.com/songling-olk)
+- Fan Jiachen [@disnight](https://gitee.com/disnight)
+- Yang Fei [@yangfeiqqq](https://gitee.com/yangfeiqqq)
+- Pan Chenbo [@panchenbo](https://gitee.com/panchenbo)
+- Liao Wei [@liao_wei000](https://gitee.com/liao_wei000)
+- Zhang Wenlong [@zhangwenlong01](https://gitee.com/zhangwenlong01)
+- Yang Zhao [@yangzhao_kl](https://gitee.com/yangzhao_kl)
+
+**Honor Maintainer:**
 - Jiang Zhenhua [@Ronnie_Jiang](https://gitee.com/Ronnie_Jiang)
-- Jiang Yuming  [@yuming_jiang](https://gitee.com/yuming_jiang)  
+- Jiang Yuming  [@yuming_jiang](https://gitee.com/yuming_jiang)
+- Zhu Yanpeng [@zyp-rock](https://gitee.com/zyp-rock)
 
 Thank you very much for your dedication to the openEuler community.
 

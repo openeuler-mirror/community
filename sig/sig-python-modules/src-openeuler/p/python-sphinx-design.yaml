@@ -1,7 +1,14 @@
 name: python-sphinx-design
-description: A sphinx extension for designing beautiful, view size responsive web components.
+description: A sphinx extension for designing beautiful, view size responsive web
+  components.
 upstream: https://github.com/executablebooks/sphinx-design
 branches:
 - name: master
   type: protected
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-24.03-LTS
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
 type: public

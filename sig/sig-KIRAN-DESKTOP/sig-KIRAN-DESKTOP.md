@@ -1,9 +1,8 @@
-
 # openEuler KIRAN-DESKTOP Special Interest Group（SIG）
-English | [简体中文](./sig-KIRAN-DESKTOP_cn.md)
- 
-  The KIRAN-DESKTOP SIG is committed to introducing KIRAN-DESKTOP into the openEuler community, and performing related adaptation, migration and optimization, making it one of the server desktop environments officially supported by the openEuler community.
 
+English | [简体中文](./sig-KIRAN-DESKTOP_cn.md)
+
+  The KIRAN-DESKTOP SIG is committed to introducing KIRAN-DESKTOP into the openEuler community, and performing related adaptation, migration and optimization, making it one of the server desktop environments officially supported by the openEuler community.
 
 ## KIRAN-DESKTOP SIG Mission and Scope
 
@@ -13,7 +12,6 @@ English | [简体中文](./sig-KIRAN-DESKTOP_cn.md)
 - Migrate, adapte and optimize KIRAN-DESKTOP within openEuler
 - Respond to user feedback in a timely manner and resolove the problems
 
-
 ### Scope
 
 - Maintain and upgrade the KIRAN-DESKTOP packages
@@ -21,11 +19,9 @@ English | [简体中文](./sig-KIRAN-DESKTOP_cn.md)
 - Cooperate and maintain the dependency packages of KIRAN-DESKTOP that already included in openEuler community
 - Manage the documentations, meetings, mailist and IRC within KIRAN-DESKTOP SIG
 
-
-###  Deliverables
+### Deliverables
 
 - Source and tar
-
 
 ### Repositories managed by this SIG
 
@@ -79,19 +75,25 @@ English | [简体中文](./sig-KIRAN-DESKTOP_cn.md)
 
 ## Basic Information
 
-###  Project Introduction
+### Project Introduction
 
  https://gitee.com/openeuler/community/tree/master/sig/sig-KIRAN-DESKTOP
 
 ### Maintainers
+
 - stonefly128
 - tangjie02
 - liubuguiii
 
 ### Committers
-- liuxingxiang
+
 - yuan__xing
 - luoqing_kylinsec
+- meizhigang
+- itisyang
+- wangyucheng1
+- chendingjian
 
 ### External Contact
+
 - Dave110

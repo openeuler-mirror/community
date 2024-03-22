@@ -43,6 +43,7 @@ https://opendesign.openeuler.org
 - [certificate-center](https://gitee.com/openeuler/certificate-center)
 - [docs-accompany-reading](https://gitee.com/openeuler/docs-accompany-reading)
 - [quick-issue](https://gitee.com/openeuler/quick-issue)
+- [easy-software](https://gitee.com/openeuler/easy-software)
 
 ## 参考
 - [1] Hugo https://gohugo.io

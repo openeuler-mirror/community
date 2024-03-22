@@ -1,5 +1,7 @@
 name: security_device_auth
-description: The sub-module of the security subsystem is responsible for the establishment, maintenance, use, and revocation of trusted relationships between devices, and the management of the entire life cycle.
+description: The sub-module of the security subsystem is responsible for the establishment,
+  maintenance, use, and revocation of trusted relationships between devices, and the
+  management of the entire life cycle.
 upstream: https://gitee.com/openharmony/security_device_auth
 branches:
 - name: master
@@ -13,4 +15,10 @@ branches:
 - name: openEuler-22.03-LTS-SP3
   type: protected
   create_from: openEuler-22.03-LTS-Next
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-24.03-LTS
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
 type: public

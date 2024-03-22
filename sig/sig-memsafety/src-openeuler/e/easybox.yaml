@@ -1,0 +1,7 @@
+name: easybox
+description: This is a basic command line project. It uses the rust language to rewrite the basic command lines used in Linux. It is applicable to server scenarios and embedded scenarios. This project implements the basic commands that have not been implemented in rust.
+upstream: https://gitee.com/openeuler/easybox
+branches:
+- name: master
+  type: protected
+type: public

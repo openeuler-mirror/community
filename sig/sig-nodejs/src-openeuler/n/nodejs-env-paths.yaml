@@ -1,0 +1,7 @@
+name: nodejs-env-paths
+description: Get paths for storing things like data, config, cache, etc
+upstream: https://github.com/sindresorhus/env-paths
+branches:
+- name: master
+  type: protected
+type: public

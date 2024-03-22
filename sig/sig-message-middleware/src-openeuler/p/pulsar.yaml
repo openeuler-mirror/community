@@ -1,7 +1,14 @@
 name: pulsar
-description: Pulsar is a distributed pub-sub messaging platform with a very flexible messaging model and an intuitive client API.
+description: Pulsar is a distributed pub-sub messaging platform with a very flexible
+  messaging model and an intuitive client API.
 upstream: https://github.com/apache/pulsar
 branches:
-  - name: master
-    type: protected
+- name: master
+  type: protected
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-24.03-LTS
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
 type: public

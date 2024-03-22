@@ -1,5 +1,8 @@
 name: security_dataclassification
-description: The data transmission management and control module is responsible for providing distributed services with management and control strategies for cross-device transmission. The data transmission control module provides interface definitions related to data transmission control.
+description: The data transmission management and control module is responsible for
+  providing distributed services with management and control strategies for cross-device
+  transmission. The data transmission control module provides interface definitions
+  related to data transmission control.
 upstream: https://gitee.com/openharmony/security_dataclassification
 branches:
 - name: master
@@ -13,4 +16,10 @@ branches:
 - name: openEuler-22.03-LTS-SP3
   type: protected
   create_from: openEuler-22.03-LTS-Next
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-24.03-LTS
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
 type: public

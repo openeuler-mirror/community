@@ -21,9 +21,67 @@ maintainers:
   name: chemingdao
   organization: Huawei
   email: chemingdao@huawei.com
+- gitee_id: zengwefeng
+  name: zengweifeng
+  organization: Huawei
+  email: zwfeng@huawei.com
+- gitee_id: linfong
+  name: linpeifeng
+  organization: KylinSoft
+  email: linpeifeng@kylinos.cn
+- gitee_id: hekeyi
+  name: hekeyi
+  organization: UnionTech
+  email: hekeyi@uniontech.com
+- gitee_id: yeqinglong01
+  name: yeqinglong
+  organization: KylinSec
+  email: yeqinglong@kylinsec.com.cn
+- gitee_id: SmallPegasus
+  name: houfangdong
+  organization: Loongson
+  email: houfangdong@loongson.cn
 repositories:
 - repo:
   - openeuler/release-management
+  committers:
+  - gitee_id: juntianlinux
+    name: tianjun
+    organization: Intel
+    email: jun.j.tian@intel.com
+  - gitee_id: songling-olk
+    name: liusongling
+    organization: Huawei
+    email: liusongling1@huawei.com
+  - gitee_id: disnight
+    name: fanjiachen
+    organization: Huawei
+    email: fanjiachen3@huawei.com
+  - gitee_id: yangfeiqqq
+    name: yangfei
+    organization: UnionTech
+    email: yangfei@uniontech.com
+  - gitee_id: panchenbo
+    name: panchenbo
+    organization: KylinSec
+    email: panchenbo@kylinsec.com.cn
+  - gitee_id: liao_wei000
+    name: liaowei
+    organization: KylinSec
+    email: liaowei@kylinsec.com.cn
+  - gitee_id: zhangwenlong01
+    name: zhangwenlong
+    organization: Loongson
+    email: zhangwenlong@loongson.cn
+  - gitee_id: yangzhao_kl
+    name: yangzhao
+    organization: KylinSoft
+    email: yangzhao1@kylinos.cn
+  - gitee_id: Jingwiw
+    name: Jingwei Wang
+    organization: iscas
+    email: wangjingwei@iscas.ac.cn
+- repo:
   - openeuler/openEuler-lsb
   - src-openeuler/openEuler-lsb
   - src-openeuler/obs_meta

@@ -4,6 +4,9 @@ upstream: https://github.com/ros-perception/openslam_gmapping
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 - name: openEuler-20.03-LTS-Next
   type: readonly
   create_from: master
