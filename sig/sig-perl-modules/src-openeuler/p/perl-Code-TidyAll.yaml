@@ -1,0 +1,10 @@
+name: perl-Code-TidyAll
+upstream: http://search.cpan.org/dist/Code-TidyAll/
+description: This is the engine used by tidyall. You can call this API from your own program instead of executing tidyall.
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.09
+  type: readonly
+  create_from: master
+type: public
