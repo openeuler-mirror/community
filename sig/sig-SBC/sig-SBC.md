@@ -39,7 +39,7 @@ The SBC SIG aims at migrating openEuler to various single-board computers, in or
 
 ### Repositories
 
-- <https://gitee.com/openeuler/SBC>: Portal of SBC SIG
+- <https://gitee.com/openeuler/SBC-sig>: Portal of SBC SIG
 - <https://gitee.com/openeuler/raspberrypi>: Repository of scripts for building openEuler image on Raspberry Pi and documents
 - <https://gitee.com/openeuler/raspberrypi-kernel>: Repository of openEuler kernel source for Raspberry Pi
 - <https://gitee.com/openeuler/raspberrypi-build>: Repository of scripts of building images for Raspberry Pi
