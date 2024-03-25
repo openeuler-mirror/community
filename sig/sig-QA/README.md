@@ -21,12 +21,15 @@ openEuler QA(质量保障)项目团队致力于如何更好的提升openEuler社
 - lemon-higgins
 - lutianxiong
 - disnight,since December 2021
+- liu-zuo
 
 ### Committer列表
 - Air9(@air9),since january 2020
 - wsf0824(@wsf0824),since December 2019
 - panny060(@panny060),since December 2019
 - jiuhanjiu(@jiuhanjiu),since December 2019
+- yaoxiyao(@yaoxiyao),since March 2024
+- yuyongkang(@yuyongkangnaruto),since March 2024
 
 # 联系方式
 - [邮件列表](mailto:qa@openeuler.org)
@@ -47,6 +50,7 @@ repository地址：
   - https://gitee.com/openeuler/container-test
   - https://gitee.com/openeuler/test-tools
   - https://gitee.com/openeuler/mugen
+  - https://gitee.com/openeuler/LTF
   - https://gitee.com/src-openeuler/test-tools
   - https://gitee.com/src-openeuler/linux-test-project
   - https://gitee.com/src-openeuler/mugen
