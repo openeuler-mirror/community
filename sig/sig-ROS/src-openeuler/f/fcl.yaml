@@ -22,4 +22,13 @@ branches:
 - name: openEuler-24.03-LTS
   type: protected
   create_from: openEuler-24.03-LTS-Next
+- name: noetic
+  type: protected
+  create_from: master
+- name: Multi-Version_ros-noetic_openEuler-24.03-LTS-Next
+  type: protected
+  create_from: noetic
+- name: Multi-Version_ros-noetic_openEuler-24.03-LTS
+  type: protected
+  create_from: Multi-Version_ros-noetic_openEuler-24.03-LTS-Next
 type: public
