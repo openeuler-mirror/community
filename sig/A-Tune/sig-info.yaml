@@ -21,15 +21,16 @@ maintainers:
   name: HuBin95
   orgnization: Huawei
   email: hubin73@huawei.com
+- gitee_id: yangyongguang
+  name: yangyongguang
+  orgnization: Huawei
+  email: yangyongguang2@huawei.com
+- gitee_id: Vchanger
+  name: chenzhen
+  orgnization: Huawei
+  email: chenzhen126@huawei.com
 
 repositories:
-- repo:
-  - openeuler/A-Tune
-  - openeuler/A-Tune-UI
-  - openeuler/A-Tune-Collector
-  - openeuler/prefetch_tuning
-  - openeuler/EulerCopilot
-
 - repo:
   - openeuler/native-turbo
   - openeuler/native-turbo-kernel
@@ -54,8 +55,12 @@ repositories:
   - gitee_id: a-carter-bear
     name: Long Wei
     email: longwei27@huawei.com
+
 - repo:
   - src-openeuler/EulerCopilot
+  - openeuler/EulerCopilot
+  - src-openeuler/llama.cpp
+  - src-openeuler/chatglm.cpp
   committers:
   - gitee_id: znzjugod
     name: Zhang Nan
@@ -76,6 +81,10 @@ repositories:
     email: 18200299811@163.com
 
 - repo:
+  - openeuler/A-Tune
+  - openeuler/A-Tune-UI
+  - openeuler/A-Tune-Collector
+  - openeuler/prefetch_tuning
   - src-openeuler/A-Tune
   - src-openeuler/A-Tune-UI
   - src-openeuler/A-Tune-Collector
@@ -102,8 +111,6 @@ repositories:
   - src-openeuler/python-openbox
   - src-openeuler/python-ConfigSpace
   - src-openeuler/python-Platypus-Opt
-  - src-openeuler/llama.cpp
-  - src-openeuler/chatglm.cpp
   - src-openeuler/python-shap
   - src-openeuler/python-sphinx-hoverxref
   - src-openeuler/python-numba
