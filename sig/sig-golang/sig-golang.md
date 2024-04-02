@@ -33,11 +33,13 @@ https: /gitee.com/openeuler/community/sig/sig-golang/
 - caihaomin
 - jing-rui
 - genedna
+- hcnbxx
 
 ### Committers
 - caihaomin
 - jing-rui
 - genedna
+- hcnbxx
 
 ### Mailing list
 TBD
