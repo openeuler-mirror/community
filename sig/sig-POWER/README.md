@@ -47,6 +47,9 @@ sig-POWER
 - https://gitee.com/src-openeuler/powerpc-utils
 - https://gitee.com/src-openeuler/lsvpd
 - https://gitee.com/src-openeuler/ppc64-diag
+- https://gitee.com/src-openeuler/librtas
+- https://gitee.com/src-openeuler/libvpd
+- https://gitee.com/src-openeuler/libservicelog
 
 
 
