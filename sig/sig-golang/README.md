@@ -13,19 +13,21 @@ PS: golang SIG例会与CloudNative SIG例会合并
 - caihaomin
 - jing-rui
 - genedna
+- hcnbxx
 
 ### Maintainer列表
 
 - caihaomin[@caihaomin](https://gitee.com/caihaomin)
 - jingrui[@jing-rui](https://gitee.com/jing-rui)
 - maquanyi[@genedna](https://gitee.com/genedna)
+- hcnbxx[@hcnbxx](https://gitee.com/hcnbxx)
 
 ### Committer列表
 
 - caihaomin[@caihaomin](https://gitee.com/caihaomin)
 - jingrui[@jing-rui](https://gitee.com/jing-rui)
 - maquanyi[@genedna](https://gitee.com/genedna)
-
+- hcnbxx[@hcnbxx](https://gitee.com/hcnbxx)
 
 # 联系方式
 
