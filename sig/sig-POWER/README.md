@@ -50,6 +50,7 @@ sig-POWER
 - https://gitee.com/src-openeuler/librtas
 - https://gitee.com/src-openeuler/libvpd
 - https://gitee.com/src-openeuler/libservicelog
+- https://gitee.com/src-openeuler/servicelog
 
 
 
