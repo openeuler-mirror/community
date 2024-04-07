@@ -1,0 +1,7 @@
+name: yocto-meta-renesas
+description: Recipes for renesas modules
+upstream: https://github.com/renesas-rcar/meta-renesas
+branches:
+- name: master
+  type: protected
+type: public
