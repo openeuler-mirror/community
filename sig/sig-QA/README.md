@@ -54,3 +54,4 @@ repository地址：
   - https://gitee.com/src-openeuler/test-tools
   - https://gitee.com/src-openeuler/linux-test-project
   - https://gitee.com/src-openeuler/mugen
+  - https://gitee.com/src-openeuler/AFLplusplus
