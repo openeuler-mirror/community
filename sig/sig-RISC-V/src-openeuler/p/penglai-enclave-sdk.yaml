@@ -1,0 +1,13 @@
+name: penglai-enclave-sdk
+description: The SDK for Penglai, an open-sourced, secure and scalable TEE system for RISC-V
+upstream: https://github.com/Penglai-Enclave/penglai-sdk
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.03-LTS
+  type: protected
+  create_from: master
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: openEuler-24.03-LTS
+type: public
