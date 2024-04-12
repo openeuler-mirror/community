@@ -1,0 +1,7 @@
+name: frozen
+description: A header-only, constexpr alternative to gperf for C++14 users.
+upstream: https://github.com/serge-sans-paille/frozen
+branches:
+- name: master
+  type: protected
+type: public

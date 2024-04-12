@@ -1,0 +1,7 @@
+name: zxcvbn-c
+description: C/C++ version of the zxcvbn password strength estimator.
+upstream: https://github.com/tsyrogit/zxcvbn-c
+branches:
+- name: master
+  type: protected
+type: public
