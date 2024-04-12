@@ -1,0 +1,7 @@
+name: libkperf
+description: Implement a low overhead pmu collection library, providing abstract interfaces for counting, sampling and symbol resolve.
+upstream: https://gitee.com/openeuler/libkperf
+branches:
+- name: master
+  type: protected
+type: public
