@@ -466,17 +466,17 @@ Executing(%clean): /bin/sh -e /var/tmp/rpm-tmp.UnMR3x
 | --------- | ------------------------------------------------------------ |
 | 源码包    | 通常是一个以某种格式压缩。如helloworld-1.0.tar.gz，明确的说明了，软件包名称helloworld、版本号1.0、压缩格式tar.gz。 |
 | patch补丁 | 补丁是更新源代码的增量源代码。它被格式化为 diff，用来表示两个文本版本之间的不同之处。 使用 diff 创建 diff格式补丁，然后使用patch命令应用补丁于初始源代码。这样你便得到一份修补了某个问题的新代码。在spec的方式中，一般将补丁命令为.patch后缀的文本文件。 |
-| 打补丁    | 在源代码目录，使用patch命令或git am来应用补丁到原始代码的过程。这个过程通常放在spec中的`%pre`阶段。 |
+| 打补丁    | 在源代码目录，使用patch命令或git am来应用补丁到原始代码的过程。这个过程通常放在spec中的`%prep`阶段。 |
 | 构建依赖  | 以逗号或空格分隔的包列表，这些包构建软件所需的基础编译环境。可以有 buildrequire 的多个条目，每个条目在spec文件中各自的行上。 |
 | 安装依赖  | 是软件安装到系统所必须的运行依赖。通常缺少此部分，软件运行所需的命令、库或其他文件会缺少，导致功能异常。 |
 | 源码 RPM  | 是将源码及spec封装一个rpm，通过rpm2cpio解压开，可以看到完整的内容。 |
 | 二进制RPM | 将make install所生成的命令或文件，按照一定规则封装到特定格式的rpm中，作为一个集合。 |
 | RPM签名   | 对包进行签名是为最终用户保护包的一种方法。签名是为了确保没有第三方可以更改包的内容。 |
-| section   | `%pre`、`%build`、`%install`、`%test`、`%clean`，每一个section对应一个动作，rpmbuild命令会将其自动的转化成一个脚本。 |
+| section   | `%prep`、`%build`、`%install`、`%test`、`%clean`，每一个section对应一个动作，rpmbuild命令会将其自动的转化成一个脚本。 |
 
-先来说说基本布骤，重点阐述`%pre`、`%build`、`%install`、`%test`、`%clean`、spec犹如一个构建脚本，将下面的步骤程序化地固定下来:
+先来说说基本步骤，重点阐述`%prep`、`%build`、`%install`、`%test`、`%clean`、spec犹如一个构建脚本，将下面的步骤程序化地固定下来:
 
-1. `%pre`    		在这个section，重点完成的工作是如果将原始的源码包，打上补丁，准备编译前的环境。
+1. `%prep`    		在这个section，重点完成的工作是如果将原始的源码包，打上补丁，准备编译前的环境。
 2. `%build`       相当于源码的make build，只不过这个make build是内嵌在rpmbuild中。
 3. `%install`   相当于直接从源码构建安装时的make install，不同的地方是，在rpmbuild过程中，要指定安装的位置%{buildroot}，方便后面files的封装。
 4. `%test`	      make test 社区源码的自带测试用例。
