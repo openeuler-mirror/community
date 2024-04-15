@@ -23,3 +23,4 @@ OpenEuler AccLib(加速库)项目团队致力于提供硬件加速引擎和软�
   - xqm227
   - realzhongkeyi
   - hao-fang
+  - gaozhangfei
