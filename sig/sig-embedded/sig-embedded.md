@@ -35,7 +35,7 @@ English | [简体中文](./sig-embedded_cn.md)
 - Zongcheng Han[@hzc04](https://gitee.com/hzc04)
 - WeiGang Zhang[@harvey-rtos](https://gitee.com/harvey-rtos)
 - Liming Zheng[@soulpoet](https://gitee.com/soulpoet)
-
+- Renyu Hou[@hourenyu](https://gitee.com/hourenyu)
 
 ### MailList
 
