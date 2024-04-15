@@ -1,0 +1,13 @@
+name: python-mbstrdecoder
+upstream: https://github.com/thombashi/mbstrdecoder
+description: mbstrdecoder is a Python library for multi-byte character string decoder.
+branches:
+- name: master
+  type: protected
+- name: Multi-Version_OpenStack-Antelope_openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+- name: Multi-Version_OpenStack-Antelope_openEuler-24.03-LTS
+  type: protected
+  create_from: Multi-Version_OpenStack-Antelope_openEuler-24.03-LTS-Next
+type: public
