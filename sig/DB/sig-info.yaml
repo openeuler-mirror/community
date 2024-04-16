@@ -59,6 +59,15 @@ repositories:
   - gitee_id: zjyabsa
     name: Junyan Zhang
     email: jyzhangcf@isoftstone.com
+  committers:
+  - gitee_id: nick-slg-kylin
+    name: Ligang Sun
+    organization: KylinSoft
+    email: sunligang@kylinos.cn
+  - gitee_id: XIE-JING-2022
+    name: Jing Xie
+    organization: KylinSoft
+    email: xiejing@kylinos.cn
 - repo:
   - src-openeuler/greatsql
   committers:
@@ -150,9 +159,19 @@ repositories:
     organization: Huawei
     email: guoqian14@huawei.com
 - repo:
+  - src-openeuler/mariadb
+  committers:
+  - gitee_id: nick-slg-kylin
+    name: Ligang Sun
+    organization: KylinSoft
+    email: sunligang@kylinos.cn
+  - gitee_id: XIE-JING-2022
+    name: Jing Xie
+    organization: KylinSoft
+    email: xiejing@kylinos.cn
+- repo:
   - src-openeuler/mariadb-connector-odbc
   - src-openeuler/mongo-tools
-  - src-openeuler/mariadb
   - src-openeuler/mysqltuner
   - src-openeuler/geolatte-geom
   - src-openeuler/glassfish-legal
