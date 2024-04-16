@@ -17,19 +17,26 @@
 
 ### Maintainers列表
 - 侯健[@hjimmy](https://gitee.com/hjimmy), houjian@kylinos.cn
-- 马俊杰[@imjoey](https://gitee.com/imjoey), majunjie@apache.org
-- 蒋涛[@taojiang666](https://gitee.com/taojiang666), jiangtao@skysolidiss.com.cn
-- 杨昭[@yangzhao_kl](https://gitee.com/yangzhao_kl), yangzhao1@kylinos.cn
 - 江新宇[@jxy_git](https://gitee.com/jxy_git), jiangxinyu@kylinos.cn
+- 王阳利[@emily_snow](https://gitee.com/emily_snow), wangyangli@kylinos.cn
+- 邹志敏[@xiangbudaomz](https://gitee.com/xiangbudaomz), zouzhimin@kylinos.cn
+- 毕晓妍[@bixiaoyan1](https://gitee.com/bixiaoyan1), bixiaoyan@kylinos.cn
 
 ### Committers列表
 - besonn[@besonn](https://gitee.com/besonn), besonn@163.com
 - 陈子轩[@Jason_828e](https://gitee.com/Jason_828e), chenzixuan@kylinos.cn
+- 毕志远[@bizhiyuan](https://gitee.com/bizhiyuan), bizhiyuan@kylinos.cn
+- 刘培[@twtlpl](https://gitee.com/twtlpl), liupei@kylinos.cn
 
 ### Contributors列表
 - 刘昶[@beijing-yitong](https://gitee.com/beijing-yitong)
 
 # 荣誉殿堂
+
+### 感谢以下Maintainer对sig-Ha做出的贡献
+- 马俊杰[@imjoey](https://gitee.com/imjoey), majunjie@apache.org
+- 蒋涛[@taojiang666](https://gitee.com/taojiang666), jiangtao@skysolidiss.com.cn
+- 杨昭[@yangzhao_kl](https://gitee.com/yangzhao_kl), yangzhao1@kylinos.cn
 
 ### 感谢以下committer对sig-Ha做出的贡献
 - 王迪[@crrs666](https://gitee.com/crrs666), wangdi@kylinos.cn
