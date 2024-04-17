@@ -9,20 +9,22 @@ maintainers:
   name: Hou Jian
   organization: Kylinsoft
   email: houjian@kylinos.cn
-- gitee_id: yangzhao_kl
-  name: Yang Zhao
-  organization: Kylinsoft
-  email: yangzhao1@kylinos.cn
 - gitee_id: jxy_git
   name: Jiang Xinyu
   organization: Kylinsoft
   email: jiangxinyu@kylinos.cn
-- gitee_id: imjoey
-  name: Ma Junjie
-  email: majunjie@apache.org
-- gitee_id: taojiang666
-  name: Jiang Tao
-  email: jiangtao@skysolidiss.com.cn
+- gitee_id: emily_snow
+  name: Wang Yangli
+  organization: KylinSoft
+  email: wangyangli@kylinos.cn
+- gitee_id: xiangbudaomz
+  name: Zou Zhimin
+  organization: Kylinsoft
+  email: zouzhimin@kylinos.cn
+- gitee_id: bixiaoyan1
+  name: Bi Xiaoyan
+  organization: Kylinsoft
+  email: bixiaoyan@kylinos.cn
 repositories:
 - repo:
   - openeuler/pacemaker-mgmt
@@ -45,15 +47,27 @@ repositories:
   - src-openeuler/corosync-qdevice
   - src-openeuler/corosync
   - src-openeuler/dlm
-  - src-openeuler/drbd
   - src-openeuler/execstack
-  - src-openeuler/booth
-  - src-openeuler/kmod-drbd90
-  - src-openeuler/pacemaker
   - src-openeuler/pacemaker-mgmt
-  - src-openeuler/pcs
   - src-openeuler/amtterm
   - src-openeuler/prometheus-ha_cluster_exporter
+- repo:
+  - src-openeuler/pcs
+  - src-openeuler/pacemaker
+  - src-openeuler/booth
+  committers:
+  - gitee_id: bizhiyuan
+    name: Bi Zhiyuan
+    organization: Kylinsoft
+    email: bizhiyuan@kylinos.cn
+- repo:
+  - src-openeuler/drbd
+  - src-openeuler/kmod-drbd90
+  committers:
+  - gitee_id: twtlpl
+    name: Liu Pei
+    organization: KylinSoft
+    email: liupei@kylinos.cn
 - repo:
   - openeuler/ha-monitor
   committers:
@@ -68,3 +82,7 @@ repositories:
     name: Zixuan Chen
     organization: KylinSoft
     email: chenzixuan@kylinos.cn
+  - gitee_id: bizhiyuan
+    name: Bi Zhiyuan
+    organization: Kylinsoft
+    email: bizhiyuan@kylinos.cn
