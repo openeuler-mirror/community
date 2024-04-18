@@ -20,6 +20,8 @@ sig-confidential_computing主要讨论在openEuler社区版本中已有或未来
   - https://gitee.com/openeuler/itrustee_sdk
   - https://gitee.com/openeuler/itrustee_tzdriver
   - https://gitee.com/openeuler/itrustee_client
+  - https://gitee.com/openeuler/virtCCA_driver
+  - https://gitee.com/openeuler/virtCCA_sdk
   - https://gitee.com/src-openeuler/linux-sgx
   - https://gitee.com/src-openeuler/linux-sgx-driver
   - https://gitee.com/src-openeuler/intel-sgx-ssl
@@ -27,6 +29,8 @@ sig-confidential_computing主要讨论在openEuler社区版本中已有或未来
   - https://gitee.com/src-openeuler/secGear
   - https://gitee.com/src-openeuler/itrustee_sdk
   - https://gitee.com/src-openeuler/intel-device-plugins-for-kubernetes
+  - https://gitee.com/src-openeuler/virtCCA_driver
+  - https://gitee.com/src-openeuler/virtCCA_sdk
 
 # 组织会议
 
