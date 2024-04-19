@@ -1,0 +1,10 @@
+name: flameshot
+description: Powerful yet simple to use screenshot software.
+upstream: https://github.com/flameshot-org/flameshot
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
