@@ -1,0 +1,13 @@
+name: rubygem-ox
+description: A fast XML parser and object serializer that uses only standard C lib. Optimized XML (Ox), as the name implies was written to provide speed optimized XML handling. It was designed to be an alternative to Nokogiri and other Ruby XML parsers for generic XML parsing and as an alternative to Marshal for Object serialization.
+upstream: http://www.ohler.com/ox
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-24.03-LTS
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
+type: public
