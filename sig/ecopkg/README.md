@@ -11,7 +11,6 @@
 
 ### Maintainer列表
 
-- 卞乃猛<bian_naimeng@hoperun.com> [[@biannm](https://gitee.com/biannm)]
 - 陈祺德<dillon.chen@gmail.com> [[@dillon_chen](https://gitee.com/dillon_chen)]
 - 曹  志<george.cao@huawei.com> [[@georgecao](https://gitee.com/georgecao)]
 - 侯  健<houjian@kylinos.cn> [[@hjimmy](https://gitee.com/hjimmy)]
@@ -27,6 +26,7 @@
 - 吴峰光<wufengguang@huawei.com> [[@wu_fengguang](https://gitee.com/wu_fengguang)]
 - 王伶卓<relue0z@outlook.com> [[@relue0z](https://gitee.com/relue0z)]
 - 谢秀奇<xiexiuqi@huawei.com> [[@xiexiuqi](https://gitee.com/xiexiuqi)]
+- 魏建刚<wei_jiangang@hoperun.com>[[@bugflyfly](https://gitee.com/bugflyfly)]
 - 熊  伟<xiongwei888@huawei.com> [[@myeuler](https://gitee.com/myeuler)]
 - 吕从庆<lvcongqing@uniontech.com> [[@HelloWorld_lvcongqing](https://gitee.com/HelloWorld_lvcongqing)]
 - 赵川峰<zhaochuanfeng@huawei.com> [[@cf-zhao](https://gitee.com/cf-zhao)]

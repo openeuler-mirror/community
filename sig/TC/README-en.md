@@ -19,7 +19,6 @@ The openEuler Technical Committee (TC) is responsible for technical decision-mak
 
 The list of TC members is organized alphabetically by last name:
 
-- Bian Naimeng <bian_naimeng@hoperun.com> [[@biannm](https://gitee.com/biannm)]
 - Chen Qide <dillon.chen@gmail.com> [[@dillon_chen](https://gitee.com/dillon_chen)]
 - Cao Zhi <george.cao@huawei.com> [[@georgecao](https://gitee.com/georgecao)]
 - Hou Jian <houjian@kylinos.cn> [[@hjimmy](https://gitee.com/hjimmy)]
@@ -27,18 +26,46 @@ The list of TC members is organized alphabetically by last name:
 - Hu Xinwei <huxinwei@huawei.com> [[@shinwell_hu](https://gitee.com/shinwell_hu)]
 - Hu Yadi <514118380@qq.com> [[@huyd12](https://gitee.com/huyd12)]
 - Li Yongqiang <liyongqiang329@163.com> [[@charlie_li](https://gitee.com/charlie_li)]
+- Lv CongQing <lvcongqing@uniontech.com> [[@HelloWorld_lvcongqing](https://gitee.com/HelloWorld_lvcongqing)
 - Ren Wei <renwei41@huawei.com> [[@vonhust](https://gitee.com/vonhust)]
 - Shi Yong <shiyong@kylinos.com.cn> [[@stonefly128](https://gitee.com/stonefly128)]
 - Tian Jun <jun.j.tian@intel.com> [[@juntianlinux](https://gitee.com/juntianlinux)]
 - Wang Jianmin <jianmin@iscas.ac.cn> [[@jianminw](https://gitee.com/jianminw)]
 - Wang Zhigang <wangzhigang17@huawei.com>  [[@cellfaint](https://gitee.com/cellfaint)]
-- Wu Fengguang <wufengguang@huawei.com> [[@wu_fengguang](https://gitee.com/wu_fengguang)]
 - Wang Lingzhuo <relue0z@outlook.com> [[@relue0z](https://gitee.com/relue0z)]
+- Wei Jiangang <wei_jiangang@hoperun.com> [[@bugflyfly](https://gitee.com/bugflyfly)]
+- Wu Fengguang <wufengguang@huawei.com> [[@wu_fengguang](https://gitee.com/wu_fengguang)]
 - Xie Xiuqi <xiexiuqi@huawei.com> [[@xiexiuqi](https://gitee.com/xiexiuqi)]
 - Xiong Wei <xiongwei888@huawei.com> [[@myeuler](https://gitee.com/myeuler)]
-- Lv CongQing <lvcongqing@uniontech.com> [[@HelloWorld_lvcongqing](https://gitee.com/HelloWorld_lvcongqing)
 - Zhao Chuanfeng<zhaochuanfeng@huawei.com> [[@cf-zhao](https://gitee.com/cf-zhao)]
 - Zhu Jianwei <zhujianwei7.huawei.com> [[@zhujianwei001](https://gitee.com/zhujianwei001)]
+
+## Changes of 2024 TC Members
+- Bian Naimeng resigned from the committee in Apr. 2024, and Wei Jiangang took over this work as as TC member.
+
+# 2023 TC Members
+
+The list of TC members is organized alphabetically by last name:
+
+- Bian Naimeng <bian_naimeng@hoperun.com> [[@biannm](https://gitee.com/biannm)]
+- Chen Qide <dillon.chen@gmail.com> [[@dillon_chen](https://gitee.com/dillon_chen)]
+- Cao Zhi <george.cao@huawei.com> [[@georgecao](https://gitee.com/georgecao)]
+- Hou Jian <houjian@kylinos.cn> [[@hjimmy](https://gitee.com/hjimmy)]
+- Hu Feng <solar.hu@huawei.com> [[@solarhu](https://gitee.com/solarhu)]
+- Hu Xinwei <huxinwei@huawei.com> [[@shinwell_hu](https://gitee.com/shinwell_hu)]
+- Liu Shouyong <liusy@thundersoft.com> [[@pangbanme](https://gitee.com/pangbanme)]
+- Li Yongqiang <liyongqiang329@163.com> [[@charlie_li](https://gitee.com/charlie_li)]
+- Shi Yong <shiyong@kylinos.com.cn> [[@stonefly128](https://gitee.com/stonefly128)]
+- Wang Jianmin <jianmin@iscas.ac.cn> [[@jianminw](https://gitee.com/jianminw)]
+- Wang Zhigang <wangzhigang17@huawei.com>  [[@cellfaint](https://gitee.com/cellfaint)]
+- Ren Wei <renwei41@huawei.com> [[@vonhust](https://gitee.com/vonhust)]
+- Wu Fengguang <wufengguang@huawei.com> [[@wu_fengguang](https://gitee.com/wu_fengguang)]
+- Wang Lingzhuo <relue0z@outlook.com> [[@relue0z](https://gitee.com/relue0z)]
+- Wei Gang <11015100@qq.com> [[@gwei3](https://gitee.com/gwei3)]
+- Xie Xiuqi <xiexiuqi@huawei.com> [[@xiexiuqi](https://gitee.com/xiexiuqi)]
+- Xiong Wei <xiongwei888@huawei.com> [[@myeuler](https://gitee.com/myeuler)]
+- Ye Qinglong <yeqinglong@uniontech.com> [[@yeqinglong01](https://gitee.com/yeqinglong01)]
+- Zhao Chuanfeng<zhaochuanfeng@huawei.com> [[@cf-zhao](https://gitee.com/cf-zhao)]
 
 ## Changes of 2023 TC Members
 - Ye Qinglong resigned from the committee in Mar. 2023, and Lv Congqing took over this work as a TC member.
