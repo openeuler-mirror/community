@@ -1,0 +1,10 @@
+name: qt-creator
+description: 'Qt Creator is a cross-platform IDE (integrated development environment) tailored to the needs of Qt developers.'
+upstream: https://github.com/qt-creator/qt-creator
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
