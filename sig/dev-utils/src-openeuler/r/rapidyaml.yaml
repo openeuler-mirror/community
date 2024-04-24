@@ -1,0 +1,7 @@
+name: rapidyaml
+description: Rapid YAML, or ryml, for short. ryml is a C++ library to parse and emit YAML, and do it fast, on everything from x64 to bare-metal chips without operating system.
+upstream: https://github.com/biojppm/rapidyaml
+branches:
+- name: master
+  type: protected
+type: public
