@@ -1,0 +1,7 @@
+name: dnf5
+description: Next-generation RPM package management system
+upstream: https://github.com/rpm-software-management/dnf5
+branches:
+- name: master
+  type: protected
+type: public
