@@ -18,7 +18,6 @@
 ### Maintainer列表
 
 - yangxiaoxuan[@ut-layne-yang](https://gitee.com/ut-layne-yang)
-- weidongkl[@weidongkl](https://gitee.com/weidongkl)
 - HelloWorld_lvcongqing[@HelloWorld_lvcongqing](https://gitee.com/HelloWorld_lvcongqing)
 
 
@@ -27,8 +26,6 @@
 - 刘智淋[@lliuzhi](https://gitee.com/lliuzhi)
 - yangxianzhao[@yangxiaozhao](https://gitee.com/xzyangha)
 - 小柿子[@liyf](https://gitee.com/liyf)
-- weidongkl[@weidongkl](https://gitee.com/weidongkl)
-- 李伟刚[@open-bot](https://gitee.com/open-bot)
 
 
 
@@ -39,10 +36,6 @@
 - [邮件列表](dev@openeuler.org)
 
 - yangxiaoxuan@uniontech.com
-
-- open_bot@yeah.net
-
-- weidong@uniontech.com
 
 - liuzhilin@uniontech.com
 
