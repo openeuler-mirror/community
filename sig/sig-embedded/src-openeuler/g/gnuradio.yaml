@@ -1,0 +1,10 @@
+name: gnuradio
+description: GNU Radio is a free & open-source software development toolkit that
+  provides signal processing blocks to implement software radios. It can be used
+  with readily-available, low-cost external RF hardware to create software-defined
+  radios, or without hardware in a simulation-like environment. 
+upstream: https://github.com/gnuradio/gnuradio
+branches:
+- name: master
+  type: protected
+type: public
