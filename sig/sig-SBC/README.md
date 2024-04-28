@@ -51,3 +51,4 @@
 - <https://gitee.com/src-openeuler/raspberrypi-kernel>：Raspberry Pi 内核的 SRPM 仓库
 - <https://gitee.com/src-openeuler/raspberrypi-userland>：Raspberry Pi GPU 接口库的 SRPM 仓库
 - <https://gitee.com/src-openeuler/raspi-config>：Raspberry Pi 配置工具的 SRPM 仓库
+- <https://gitee.com/src-openeuler/raspberrypi-utils>：Raspberry Pi 脚本和简单应用程序集的 SRPM 仓库
