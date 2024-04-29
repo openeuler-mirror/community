@@ -82,4 +82,3 @@ RISC-V 是一个免费开源的指令集（ISA）。RISC-V SIG 组旨在提供 o
 - https://gitee.com/openeuler/riscv-kernel   RISC-V内核开发仓库，目标是支持多种RISC-V硬件平台的同源内核
 - https://gitee.com/organizations/openeuler-risc-v/projects openEuler-RISC-V 是专门为openeuler RISC-V sig创建的源码仓，用于管理那些在riscv64架构下构建失败需要修复的软件包
 - https://gitee.com/src-openeuler/opensbi  openSBI是“Open Source Supervisor Binary Interface”用于引导RISC-V系统的启动
-- https://gitee.com/src-openeuler/risc-v-kernel 用于openEuler RISC-V的kernel Image 
