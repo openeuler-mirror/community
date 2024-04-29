@@ -45,6 +45,7 @@
 - 张伟刚[@harvey-rtos](https://gitee.com/harvey-rtos)
 - 郑立铭[@soulpoet](https://gitee.com/soulpoet)
 - 侯人瑜[@hourenyu](https://gitee.com/hourenyu)
+- 罗君[@Jer6y](https://gitee.com/Jer6y)
 
 # 邮件列表
 
