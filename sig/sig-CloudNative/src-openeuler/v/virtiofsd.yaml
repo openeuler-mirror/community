@@ -1,0 +1,13 @@
+name: virtiofsd
+description: Virtio-fs vhost-user device daemon (Rust version).
+upstream: https://gitlab.com/virtio-fs/virtiofsd
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-24.03-LTS
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
+type: public
