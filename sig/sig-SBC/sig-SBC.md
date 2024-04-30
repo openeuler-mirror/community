@@ -52,7 +52,6 @@ The SBC SIG aims at migrating openEuler to various single-board computers, in or
 - <https://gitee.com/src-openeuler/raspberrypi-build>: SRPM repository of scripts of building images for Raspberry Pi
 - <https://gitee.com/src-openeuler/raspberrypi-eeprom>: Installation scripts and binaries for the closed sourced Raspberry Pi 4 EEPROMs
 - <https://gitee.com/src-openeuler/raspberrypi-firmware>: SRPM repository of firmware for Raspberry Pi
-- <https://gitee.com/src-openeuler/raspberrypi-kernel>: SRPM repository of openEuler kernel for Raspberry Pi
 - <https://gitee.com/src-openeuler/raspberrypi-userland>: SRPM repository of libraries for interfacing to Raspberry Pi GPU
 - <https://gitee.com/src-openeuler/raspi-config>: SRPM repository of configuration tool for Raspberry Pi
 - <https://gitee.com/src-openeuler/raspberrypi-utils>: SRPM repository of scripts and simple applications for Raspberry Pi
