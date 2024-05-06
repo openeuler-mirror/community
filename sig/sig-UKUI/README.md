@@ -8,8 +8,8 @@ UKUI 是麒麟软件桌面研发团队开发的基于 Linux 发行版的轻量�
 
 ## SIG组职责
 
-- 在openEuler社区中添加对 UKUI 3.0 的支持
-- 负责 UKUI 3.0 相关软件包的规划、维护和升级
+- 在openEuler社区中添加对 UKUI 的支持
+- 负责 UKUI 相关软件包的规划、维护和升级
 - 及时响应用户反馈，解决相关问题
 
 
@@ -23,11 +23,11 @@ UKUI 是麒麟软件桌面研发团队开发的基于 Linux 发行版的轻量�
 ### Maintainers列表
 - 李剑峰[@handsome_feng](https://gitee.com/handsome_feng)
 - 窦龑[@dou33](https://gitee.com/dou33)
-- 谭玉龙[@tanyulong2021](https://gitee.com/tanyulong2021)
-
-### Committers列表
 - 华亚东[@hua_yadong](https://gitee.com/hua_yadong)
 - 裴建康[@peijiankang](https://gitee.com/peijiankang)
+- 侯红勋[@hou-hongxun](https://gitee.com/hou-hongxun)
+
+### Committers列表
 
 
 # 联系方式
