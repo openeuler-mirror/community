@@ -1,5 +1,7 @@
 name: ft_mmi
-description: ft_mmi module processes intput-event processing, and dispatches event to application. it provids traditional input methods, such as key, touch, keyboard, and mouse inputs.
+description: ft_mmi module processes intput-event processing, and dispatches event
+  to application. it provids traditional input methods, such as key, touch, keyboard,
+  and mouse inputs.
 upstream: https://gitee.com/openeuler/ft_mmi
 branches:
 - name: master
@@ -8,6 +10,9 @@ branches:
   type: protected
   create_from: master
 - name: openEuler-22.03-LTS-SP3
+  type: protected
+  create_from: openEuler-22.03-LTS-Next
+- name: openEuler-22.03-LTS-SP4
   type: protected
   create_from: openEuler-22.03-LTS-Next
 type: public
