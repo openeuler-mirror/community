@@ -42,7 +42,6 @@ Please [readme](./Vision-en.md)
 - wuchangye@huawei.com
 - liuxin264@huawei.com
 - liyangyang20@huawei.com
-- wuchangsheng2@huawei.com
 - jerry.lilijun@huawei.com
 
 ### Committer列表
@@ -50,7 +49,7 @@ Please [readme](./Vision-en.md)
 - 蒋 恒[@jiangheng12](https://gitee.com/jiangheng12) email: jiangheng14@huawei.com
 - 李辉松[@li-huisong](https://gitee.com/li-huisong) email: lihuisong@huawei.com
 - xiesongyang[@supercharge](https://gitee.com/supercharge) email: xiesongyang@huawei.com
-- kircher[@kircher](https://gitee.com/kircher) email: majun65@huawei.com
+- 朱俊豪[@compile_success](https://gitee.com/compile_success) email: zhujunhao11@huawei.com
 
 #### UMDK 项目 Committer 列表
 - qianguoxin[@qianguoxin](https://gitee.com/qianguoxin) email: qianguoxin@huawei.com
