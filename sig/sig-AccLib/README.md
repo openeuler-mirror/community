@@ -59,6 +59,7 @@ repository地址：
 - https://gitee.com/openeuler/libwd
 - https://gitee.com/openeuler/kae_driver
 - https://gitee.com/openeuler/kml_adapter
+- https://gitee.com/openeuler/kail_dnn_adapter
 
 RPM包：
 
