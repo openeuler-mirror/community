@@ -24,7 +24,6 @@ The list of TC members is organized alphabetically by last name:
 - Hou Jian <houjian@kylinos.cn> [[@hjimmy](https://gitee.com/hjimmy)]
 - Hu Feng <solar.hu@huawei.com> [[@solarhu](https://gitee.com/solarhu)]
 - Hu Xinwei <huxinwei@huawei.com> [[@shinwell_hu](https://gitee.com/shinwell_hu)]
-- Hu Yadi <514118380@qq.com> [[@huyd12](https://gitee.com/huyd12)]
 - Li Yongqiang <liyongqiang329@163.com> [[@charlie_li](https://gitee.com/charlie_li)]
 - Lv CongQing <lvcongqing@uniontech.com> [[@HelloWorld_lvcongqing](https://gitee.com/HelloWorld_lvcongqing)
 - Ren Wei <renwei41@huawei.com> [[@vonhust](https://gitee.com/vonhust)]
@@ -42,6 +41,7 @@ The list of TC members is organized alphabetically by last name:
 
 ## Changes of 2024 TC Members
 - Bian Naimeng resigned from the committee in Apr. 2024, and Wei Jiangang took over this work as as TC member.
+- Hu Yadi resiged from the committee in May. 2024.
 
 # 2023 TC Members
 

@@ -20,12 +20,11 @@ openEuler技术委员会（Technical Committee，以下和TC互换使用）是op
 
 以下姓氏拼音排序
 
-- 陈祺德<dillon.chen@gmail.com> [[@dillon_chen](https://gitee.com/dillon_chen)]
+- 陈棋德<dillon.chen@gmail.com> [[@dillon_chen](https://gitee.com/dillon_chen)]
 - 曹  志<george.cao@huawei.com> [[@georgecao](https://gitee.com/georgecao)]
 - 侯  健<houjian@kylinos.cn> [[@hjimmy](https://gitee.com/hjimmy)]
 - 胡  峰<solar.hu@huawei.com> [[@solarhu](https://gitee.com/solarhu)]
 - 胡欣蔚<huxinwei@huawei.com> [[@shinwell_hu](https://gitee.com/shinwell_hu)]
-- 胡亚弟<514118380@qq.com> [[@huyd12](https://gitee.com/huyd12)]
 - 李永强<liyongqiang329@163.com> [[@charlie_li](https://gitee.com/charlie_li)]
 - 吕从庆<lvcongqing@uniontech.com> [[@HelloWorld_lvcongqing](https://gitee.com/HelloWorld_lvcongqing)]
 - 任  慰<renwei41@huawei.com> [[@vonhust](https://gitee.com/vonhust)]
@@ -43,10 +42,11 @@ openEuler技术委员会（Technical Committee，以下和TC互换使用）是op
 
 ## 2024 年 TC 成员变更历史
 - 卞乃猛于2024年4月卸任，魏建刚接替TC委员工作。
+- 胡亚弟于2024年5月卸任.
 
 # 2023年TC成员
 - 卞乃猛<bian_naimeng@hoperun.com> [[@biannm](https://gitee.com/biannm)]
-- 陈祺德<dillon.chen@gmail.com> [[@dillon_chen](https://gitee.com/dillon_chen)]
+- 陈棋德<dillon.chen@gmail.com> [[@dillon_chen](https://gitee.com/dillon_chen)]
 - 曹  志<george.cao@huawei.com> [[@georgecao](https://gitee.com/georgecao)]
 - 侯  健<houjian@kylinos.cn> [[@hjimmy](https://gitee.com/hjimmy)]
 - 胡  峰<solar.hu@huawei.com> [[@solarhu](https://gitee.com/solarhu)]
@@ -77,7 +77,7 @@ openEuler技术委员会（Technical Committee，以下和TC互换使用）是op
 以下姓氏拼音排序
 
 - 卞乃猛<bian_naimeng@hoperun.com> [[@biannm](https://gitee.com/biannm)]
-- 陈祺德<dillon.chen@gmail.com> [[@dillon_chen](https://gitee.com/dillon_chen)]
+- 陈棋德<dillon.chen@gmail.com> [[@dillon_chen](https://gitee.com/dillon_chen)]
 - 曹  志<george.cao@huawei.com> [[@georgecao](https://gitee.com/georgecao)]
 - 侯  健<houjian@kylinos.cn> [[@hjimmy](https://gitee.com/hjimmy)]
 - 胡  峰<solar.hu@huawei.com> [[@solarhu](https://gitee.com/solarhu)]
@@ -104,7 +104,7 @@ openEuler技术委员会（Technical Committee，以下和TC互换使用）是op
 以下姓氏拼音排序
 
 - 卞乃猛<bian_naimeng@hoperun.com> [[@biannm](https://gitee.com/biannm)]
-- 陈祺德<dillon.chen@turbolinux.com.cn> [[@dillon_chen](https://gitee.com/dillon_chen)]
+- 陈棋德<dillon.chen@turbolinux.com.cn> [[@dillon_chen](https://gitee.com/dillon_chen)]
 - 郭寒军<guohanjun@huawei.com> [[@hanjun-guo](https://gitee.com/hanjun-guo)]
 - 侯  健<houjian@kylinos.cn> [[@hjimmy](https://gitee.com/hjimmy)]
 - 胡欣蔚<huxinwei@huawei.com> [[@shinwell_hu](https://gitee.com/shinwell_hu)]
