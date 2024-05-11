@@ -14,11 +14,35 @@
 
 ### Maintainers列表
 
-- 赵伟[@seuzw](<https://gitee.com/seuzw>)
-- 曾卫峰[@zengweifeng](<https://gitee.com/zengweifeng>)
-- 王晓鹏[@wangxp006](<https://gitee.com/wangxp006>)
+- zengwefeng [@zengweifeng](<https://gitee.com/zengweifeng>)
+- luzhihao [@MrRlu](<https://gitee.com/MrRlu)
+- robertxw [@robertxw](<https://gitee.com/robertxw>)
+- sunsuwan [@sunsuwan](<https://gitee.com/sunsuwan>)
 
 ###  Committers列表
+
+- qiliang fan [@fanqiliang](<https://gitee.com/fanqiliang)
+- ziyao zhang [@zhangziyao111](<https://gitee.com/zhangziyao111)
+- xiangjun han [@pnext](<https://gitee.com/pnext)
+- yufei wu [@wyf](<https://gitee.com/wyf)
+- xia liu [@hahamonster](<https://gitee.com/hahamonster)
+- wanrong ouyang [@waner](<https://gitee.com/waner)
+- zenghongan [@hazeng](<https://gitee.com/hazeng)
+- zhangqiang [@qzhanglinxinfocom](<https://gitee.com/qzhanglinxinfocom)
+- lurongkang [@mougo](<https://gitee.com/mougo)
+- wanggang [@wang_zaomentanzhilang](<https://gitee.com/wang_zaomentanzhilang)
+- youyifeng [@youyifeng](<https://gitee.com/youyifeng)
+- wukaishuns [@wuzimo](<https://gitee.com/wuzimo)
+- ctyunsystem [@tyunsystem](<https://gitee.com/tyunsystem)
+- Mingdao Che [@gitee-cmd](<https://gitee.com/gitee-cmd)
+- Dongxia Cao [@caodongxia](<https://gitee.com/caodongxia)
+- ge Wang [@wang--ge](<https://gitee.com/@wang--ge)
+- Shi Lin Huang [@iamphenix](<https://gitee.com/iamphenix)
+- Jian Shen [@WangBoe2022](<https://gitee.com/WangBoe2022)
+- Xin Liu [@misaka00251](<https://gitee.com/misaka00251)
+- Hu Chun Zhi [@hu-chunzhi](<https://gitee.com/hu-chunzhi)
+- renmingshuai [@renmingshuai](<https://gitee.com/renmingshuai>)
+- jinag12 [@jiangheng12](<https://gitee.com/jiangheng12>)
 
 Everyone could send patches to openEuler.
 
