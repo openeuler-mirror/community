@@ -140,7 +140,6 @@ repositories:
   - src-openeuler/gl-manpages
   - src-openeuler/glog
   - src-openeuler/gnuplot
-  - src-openeuler/gdal
   - src-openeuler/gnupg
   - src-openeuler/google-roboto-slab-fonts
   - src-openeuler/gyp
@@ -632,3 +631,10 @@ repositories:
     name: Bo Sun
     organization: iscas
     email: sunbo.oerv@isac.iscas.ac.cn
+- repo:
+  - src-openeuler/gdal
+  committers:
+  - gitee_id: desert-sailor
+    name: Dongxing Wang
+    organization: ThunderSoft
+    email: dongxing.wang_a@thundersoft.com

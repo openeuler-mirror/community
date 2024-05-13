@@ -37,8 +37,6 @@
 
 - yangxiaoxuan@uniontech.com
 
-- liuzhilin@uniontech.com
-
 - liyanfeng@uniontech.com
 
 - lvcongqing@uniontech.com
