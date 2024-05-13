@@ -1,5 +1,6 @@
 name: ft_wl_fwk
-description: ft_wl_fwk is implementation of wayland-protocol. The implementation is based on FangTian
+description: ft_wl_fwk is implementation of wayland-protocol. The implementation is
+  based on FangTian
 upstream: https://gitee.com/openeuler/ft_wl_fwk
 branches:
 - name: master
@@ -10,5 +11,7 @@ branches:
 - name: openEuler-22.03-LTS-SP3
   type: protected
   create_from: openEuler-22.03-LTS-Next
+- name: openEuler-22.03-LTS-SP4
+  type: protected
+  create_from: openEuler-22.03-LTS-Next
 type: public
-
