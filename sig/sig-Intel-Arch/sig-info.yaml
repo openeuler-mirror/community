@@ -27,16 +27,6 @@ repositories:
 - repo:
   - openeuler/intel-kernel
   - openeuler/intel-qemu
-  repo_admin:
-  - gitee_id: juntianlinux
-    name: Jun Tian
-    email: jun.j.tian@intel.com
-  - gitee_id: x56Jason
-    name: Jason Zeng
-    email: jason.zeng@intel.com
-  - gitee_id: allen-shi
-    name: Allen Shi
-    email: aichun.shi@intel.com
   committers:
   - gitee_id: jiayingbao
     name: Yingbao Jia
@@ -88,10 +78,6 @@ repositories:
     email: zhiming.hu@intel.com
 - repo:
   - openeuler/intel-lkvs
-  repo_admin:
-  - gitee_id: syqust
-    name: Yi Sun
-    email: yi.sun@intel.com
   committers:
   - gitee_id: syqust
     name: Yi Sun
@@ -104,31 +90,8 @@ repositories:
     email: xiaochen.shen@intel.com
 - repo:
   - openeuler/intel-ice
-  committers:
-  - gitee_id: juntianlinux
-    name: Jun Tian
-    email: jun.j.tian@intel.com
-  - gitee_id: x56Jason
-    name: Jason Zeng
-    email: jason.zeng@intel.com
-  - gitee_id: allen-shi
-    name: Allen Shi
-    email: aichun.shi@intel.com
-  - gitee_id: shangbaogen
-    name: Baogen Shang
-    email: baogen.shang@windriver.com
-- repo:
   - openeuler/intel-iavf
   committers:
-  - gitee_id: juntianlinux
-    name: Jun Tian
-    email: jun.j.tian@intel.com
-  - gitee_id: x56Jason
-    name: Jason Zeng
-    email: jason.zeng@intel.com
-  - gitee_id: allen-shi
-    name: Allen Shi
-    email: aichun.shi@intel.com
   - gitee_id: shangbaogen
     name: Baogen Shang
     email: baogen.shang@windriver.com
