@@ -1,0 +1,7 @@
+name: perl-Test-CheckManifest
+description: This package checks whether the Manifest file matches the distro or not. To match a distro the Manifest has to name all files that come along with the distribution.
+upstream: https://metacpan.org/release/Test-CheckManifest
+branches:
+- name: master
+  type: protected
+type: public
