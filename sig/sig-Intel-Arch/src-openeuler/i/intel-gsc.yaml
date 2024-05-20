@@ -1,0 +1,7 @@
+name: intel-gsc
+description: Intel graphics system controller firmware update library
+upstream: https://github.com/intel/igsc
+branches:
+- name: master
+  type: protected
+type: public

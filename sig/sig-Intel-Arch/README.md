@@ -1,79 +1,83 @@
 # Intel Arch SIG
+English | [简体中文](./README_cn.md)
 
-### 工作目标
+### Mission
 
-- openEuler对Intel新的硬件能力和平台的支持。
+- Support enabling Intel new hardware features and platforms on openEuler
 
-- 加速Intel平台相关的软件栈的支持和优化方案在openEuler上的落地。
+- Accelerate the delivery of Intel software vertical stack support and optimize the solution on openEuler.
 
-- 协调和尽量匹配Intel平台硬件和openEuler发布线路图。
+- Coordinate and help to match the release roadmap of Intel platforms with openEuler.
 
-- 促进openEuler的内核、虚拟化、工具链、基础库、SDK工具及用户案例在Intel平台上的创新演进。
+- Foster innovation and evolution of key areas on openEuler for Intel features in different software layer of kernel, virtualization, toolchain, essential libraries, SDK tools, and userspace applications.
 
-- 反馈openEuler的用户需求从而促进Intel平台的创新和对openEuler进一步的支持。
+- Feedback openEuler customer's requests for improving Intel hardware and openEuler.
 
-### 工作范围
+### Scope
 
-- 联合内核、虚拟化、工具链、基础库和SDK工具集等重点SIG/开发组，完成上游代码到openEuler版本间的移植工作和创新性项目的落地。
+- Work with the SIGs or teams of kernel, virtualization, toolchain, essential libs, SDK tools, backport upstream code and enabling innovation projects into openEuler.
 
-- 促进非上游代码的上游化过程。
+- Help bringing more code to upstream.
 
-- 支持Intel各类软件栈在openEuler上的落地，比如各类加速器、AI框架、orchestration、安全可信栈等。
+- Support Intel vertical software stack enabling such as various accelerators, AI, orchestration, security, etc.
 
-- 联合Compatibility、CICD等SIG组，增强openEuler在各类硬件平台上的兼容性测试过程。
+- Work with the SIGs of Compatibility and CICD, improve hardware compatibility tests of openEuler on various Intel hardware platforms.
 
-- 联合Release等SIG组，建立openEuler版本发布的Intel硬件支持目标。
+- Work with the Release SIG, set up the goal of Intel hardware support in each openEuler release.
 
-- 促进CPU/芯片组/整机厂商与openEuler社区的技术交流。
+- Facilitate technical information sharing between openEuler community and Intel hardware vendors.
 
-- 响应用户反馈和解决问题。
+- Respond to user feedback and issues.
 
-# 组织会议
+# Members
 
-- 公开的会议时间：待定
+### Maintainer list
 
-# 成员
-
-### Maintainer列表
-
-- 田俊 [@juntianlinux](https://gitee.com/juntianlinux)，jun.j.tian@intel.com
-- 刘恺 [@kailiu42](https://gitee.com/kailiu42)，kai.liu@suse.com
-- 江国庆 [@gjiang](https://gitee.com/gjiang)，guoqing.jiang@suse.com
-- 唐葛亮 [@geliangtang](https://gitee.com/geliangtang)，geliang.tang@suse.com
-- 杨军 [@junyang-suse](https://gitee.com/junyang-suse)，jun.yang@suse.com
-- 毛晨曦 [@chenxi-mao](https://gitee.com/chenxi-mao)，chenxi.mao@suse.com
+- Jun Tian [@juntianlinux](https://gitee.com/juntianlinux)，jun.j.tian@intel.com
+- Guoqing Jiang [@gjiang](https://gitee.com/gjiang)，guoqing.jiang@suse.com
+- Geliang Tang [@geliangtang](https://gitee.com/geliangtang)，geliang.tang@suse.com
+- Jun Yang [@junyang-suse](https://gitee.com/junyang-suse)，jun.yang@suse.com
+- Chenxi Mao [@chenxi-mao](https://gitee.com/chenxi-mao)，chenxi.mao@suse.com
 - Jason Zeng [@x56Jason](https://gitee.com/x56Jason)，jason.zeng@intel.com
-- 施爱春 [@allen-shi](https://gitee.com/allen-shi)，aichun.shi@intel.com
+- Aichun Shi [@allen-shi](https://gitee.com/allen-shi)，aichun.shi@intel.com
 
-# 联系方式
+# Contact
 
-- [邮件列表](sig-intel-arch@openeuler.org)
-- 视频会议
+- [Maillist](mailto:sig-intel-arch@openeuler.org)
 
-## 交付物
 
-- 源代码
+# Project list
 
-- 工具集
+- Source code & packages
+  - [intel-kernel](https://gitee.com/openeuler/Intel-kernel): kernel related development work are hosted here. Code will be pushed to the openEuler main kernel repo when ready.
 
-- 文档
+  - [Intel-gcc](https://gitee.com/openeuler/Intel-gcc): gcc related development work are hosted here. Code will be pushed to the openEuler main gcc repo when ready.
 
-## 该SIG管理的repository及描述
+  - [Intel-glibc](https://gitee.com/openeuler/Intel-glibc): glibc related development work are hosted here. Code will be pushed to the openEuler main glibc repo when ready.
 
-- 代码
-  - [Intel-kernel](https://gitee.com/openeuler/Intel-kernel): Intel arch支持相关的内核代码开发仓库。会以合适的节奏将代码推送到openEuler kernel主仓库。
+  - [intel-qemu](https://gitee.com/openeuler/intel-qemu): Qemu related development work are hosted here. Code will be pushed to the openEuler main Qemu repo when ready.
 
-  - [Intel-gcc](https://gitee.com/openeuler/Intel-gcc): Intel arch支持相关的gcc代码开发仓库。会以合适的节奏将代码推送到openEuler gcc主仓库。
+  - [intel-lkvs](https://gitee.com/openeuler/intel-lkvs): lkvs related development work are hosted here.
 
-  - [Intel-glibc](https://gitee.com/openeuler/Intel-glibc): Intel arch支持相关的glibc代码开发仓库。会以合适的节奏将代码推送到openEuler gcc主仓库。
+  - [intel-ice](https://gitee.com/openeuler/intel-ice): Intel Network Adapter Driver for Intel E810 Series Devices.
 
-  - [Intel-qemu](https://gitee.com/openeuler/intel-qemu): Intel arch支持相关的Qemu代码开发仓库。会以合适的节奏将代码推送到openEuler Qemu主仓库。
+  - [intel-iavf](https://gitee.com/openeuler/intel-iavf): Intel Network Adapter Virtual Function Driver for Intel E810 Series Devices.
 
-  - [Intel-lkvs](https://gitee.com/openeuler/intel-lkvs): Intel arch支持相关的Linux Kernel测试集lkvs代码开发仓库。
+  - [intel-oneapi](https://gitee.com/openeuler/intel-oneapi): Intel oneAPI projects portal in openEuler
 
-  - [Intel-ice](https://gitee.com/openeuler/intel-ice): Intel E810 以太网卡驱动程序。
+  - [level-zero](https://gitee.com/src-openeuler/level-zero): Intel oneAPI Level Zero specification headers and loader
 
-  - [Intel-iavf](https://gitee.com/openeuler/intel-iavf): Intel E810 以太网卡 Virtual Function 驱动程序。
+  - [intel-gmmlib](https://gitee.com/src-openeuler/intel-gmmlib): Intel graphics memory management library
 
-- 文档
-  - [Intel-Arch-doc](https://gitee.com/openeuler/Intel-Arch-doc): 关于openEuler的Intel arch支持相关的文档，如现状、规划、目标等等。
+  - [intel-graphics-compiler](https://gitee.com/src-openeuler/intel-graphics-compiler): Intel graphics compiler
+
+  - [intel-metee](https://gitee.com/src-openeuler/intel-metee): Intel ME TEE library
+
+  - [intel-gsc](https://gitee.com/src-openeuler/intel-gsc): Intel graphics system controller firmware update library
+
+  - [intel-cm-compiler](https://gitee.com/src-openeuler/intel-cm-compiler): Intel C for Metal compiler
+
+  - [intel-compute-runtime](https://gitee.com/src-openeuler/intel-compute-runtime): Intel graphics compute runtime
+
+- Documentation
+  - [Intel-Arch-doc](https://gitee.com/openeuler/Intel-Arch-doc): documents regarding Intel arch support in openEuler, such as current status, roadmap, technical document.

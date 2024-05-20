@@ -1,0 +1,7 @@
+name: intel-graphics-compiler
+description: Intel llvm-based graphics compiler for OpenCL
+upstream: https://github.com/intel/intel-graphics-compiler
+branches:
+- name: master
+  type: protected
+type: public
