@@ -46,7 +46,6 @@ repositories:
   - src-openeuler/go-rpm-macros
   - openeuler/x2nestos
   - src-openeuler/x2nestos
-  - src-openeuler/nestos-kubernetes-deployer
   - src-openeuler/openEuler-release-nestos-for-container
   - src-openeuler/openEuler-release-nestos-for-virt
 
@@ -86,14 +85,18 @@ repositories:
 - repo:
   - openeuler/nestos-kubernetes-deployer
   committers:
-  - gitee_id: gaodaweiky
-    name: gaodawei
+  - gitee_id: weihuanhuan_ky
+    name: Wei Huanhuan
     organization: KylinSoft
-    email: gaodawei@kylinos.cn
-  - gitee_id: suo-xiaocong
-    name: suoxiaocong
+    email: weihuanhuan@kylinos.cn
+
+- repo:
+  - src-openeuler/nestos-kubernetes-deployer
+  committers:
+  - gitee_id: lauk001
+    name: liukuo
     organization: KylinSoft
-    email: suoxiaocong@kylinos.cn
+    email: liukuo@kylinos.cn
 
 - repo:
   - openeuler/ccps
