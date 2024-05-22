@@ -46,6 +46,7 @@
 - 郑立铭[@soulpoet](https://gitee.com/soulpoet)
 - 侯人瑜[@hourenyu](https://gitee.com/hourenyu)
 - 罗君[@Jer6y](https://gitee.com/Jer6y)
+- 江勇[@jiangyong404](https://gitee.com/jiangyong404)
 
 # 邮件列表
 
