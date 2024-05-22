@@ -1,0 +1,7 @@
+name: perl-Test-DistManifest
+description: This Perl module provides a simple method of testing that a MANIFEST matches the distribution.
+upstream: https://metacpan.org/release/Test-DistManifest
+branches:
+- name: master
+  type: protected
+type: public
