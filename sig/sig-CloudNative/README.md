@@ -20,31 +20,34 @@ CloudNative SIG致力于为广大用户、开发者、爱好者提供便捷、�
 
 
 ### Maintainer列表
-- caihaomin[@caihaomin](https://gitee.com/caihaomin) | email:caihaomin@huawei.com
 - yangzhao_kl[@yangzhao_kl](https://gitee.com/yangzhao_kl) | email:yangzhao1@kylinos.cn
 - jianminw[@jianminw](https://gitee.com/jianminw) | email:jianmin@iscas.ac.cn
 - weibaohui[@weibaohui](https://gitee.com/weibaohui) | email:weibaohui@yeah.net
-- biannm[@biannm](https://gitee.com/biannm) | email:bian_naimeng@hoperun.com
-- pixiake[@pixiake](https://gitee.com/pixiake) | email:guofeng@yunify.com
 - duguhaotian[@duguhaotian](https://gitee.com/duguhaotian) | email:liuhao27@huawei.com
 - wonleing[@wonleing](https://gitee.com/wonleing) | email:wangl29@chinatelecom.cn
+- Xuepeng Xu[@xuxuepeng](https://gitee.com/xuxuepeng) | email:xuxuepeng1@huawei.com
+- Jian Zhang[@zmr_2020](https://gitee.com/zmr_2020) | email:zhang_jian7@hoperun.com
+- lu-wei-army[@lu-wei-army](https://gitee.com/lu-wei-army) | email:wjunlu217@gmail.com
+- DaWei Gao[@gaodaweiky](https://gitee.com/gaodaweiky) | email:gaodawei@kylinos.cn
 
 ### Committer列表
-- caihaomin[@caihaomin](https://gitee.com/caihaomin)
-- yangzhao_kl[@yangzhao_kl](https://gitee.com/yangzhao_kl)
-- jianminw[@jianminw](https://gitee.com/jianminw)
-- weibaohui[@weibaohui](https://gitee.com/weibaohui)
-- biannm[@biannm](https://gitee.com/biannm)
-- pixiake[@pixiake](https://gitee.com/pixiake)
 - jingxiaolu[@jingxiaolu](https://gitee.com/jingxiaolu)
 - leizhongkai[@leizhongkai](https://gitee.com/leizhongkai)
 - jing-rui[@jing-rui](https://gitee.com/jing-rui)
 - flyflyflypeng[@flyflyflypeng](https://gitee.com/flyflyflypeng)
 - lifeng2221dd1[@lifeng2221dd1](https://gitee.com/lifeng2221dd1)
-- duguhaotian[@duguhaotian](https://gitee.com/duguhaotian)
 - jianli-97[@jianli-97](https://gitee.com/jianli-97)
 - duyiwei7w[@duyiwei7w](https://gitee.com/duyiwei7w)
+- Xiaocong Suo[@suo-xiaocong](https://gitee.com/suo-xiaocong)
+- Bowei Zhang[@northgarden](https://gitee.com/northgarden)
 
+
+### Honor Maintainer
+感谢以下原maintainer对sig CloudNative及openEuler社区的贡献：
+
+- caihaomin[@caihaomin](https://gitee.com/caihaomin) | email:caihaomin@huawei.com
+- biannm[@biannm](https://gitee.com/biannm) | email:bian_naimeng@hoperun.com
+- pixiake[@pixiake](https://gitee.com/pixiake) | email:guofeng@yunify.com
 
 ## 联系方式
 

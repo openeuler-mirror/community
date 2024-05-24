@@ -7,10 +7,6 @@ mailing_list: cloudnative@openeuler.org
 meeting_url: NA
 
 maintainers:
-- gitee_id: caihaomin
-  name: Haomin Cai
-  organization: Huawei
-  email: caihaomin@huawei.com
 - gitee_id: yangzhao_kl
   name: Zhao Yang
   organization: KylinSoft
@@ -23,14 +19,6 @@ maintainers:
   name: Baohui Wei
   organization: China Mobile
   email: weibaohui@yeah.net
-- gitee_id: biannm
-  name: Naimeng Bian
-  organization: HOPERUN
-  email: bian_naimeng@hoperun.com
-- gitee_id: pixiake
-  name: Feng Guo
-  organization: QingCloud
-  email: guofeng@yunify.com
 - gitee_id: duguhaotian
   name: Hao Liu
   organization: Huawei
@@ -39,6 +27,22 @@ maintainers:
   name: Leon Wang
   organization: CTyun
   email: wangl29@chinatelecom.cn
+- gitee_id: xuxuepeng
+  name: Xuepeng Xu
+  organization: Huawei
+  email: xuxuepeng1@huawei.com
+- gitee_id: zmr_2020
+  name: Jian Zhang
+  organization: HOPERUN
+  email: zhang_jian7@hoperun.com
+- gitee_id: lu-wei-army
+  name: Weijun Lu
+  organization: Huawei
+  email: wjunlu217@gmail.com
+- gitee_id: gaodaweiky
+  name: Dawei Gao
+  organization: KylinSoft
+  email: gaodawei@kylinos.cn
 
 repositories:
 - repo:
@@ -116,26 +120,6 @@ repositories:
     name: Yixiang Peng
     organization: Linx
     email: dev16001@linx-info.com
-  - gitee_id: SaarHV
-    name: Haonan Du
-    organization: Linx
-    email: dev16102@linx-info.com
-  - gitee_id: weicao123
-    name: Wei Cao
-    organization: Linx
-    email: dev16401@linx-info.com
-  - gitee_id: linx-fxli
-    name: Feixiang Li
-    organization: Linx
-    email: dev16002@linx-info.com
-  - gitee_id: jwzhangcn
-    name: Jingwei Zhang
-    organization: Linx
-    email: dev16101@linx-info.com
-  - gitee_id: zeng-junhan
-    name: Junhan Zeng
-    organization: Linx
-    email: dev16201@linx-info.com
 - repo:
   - openeuler/operator-manager
   - openeuler/openeuler-docker-images
@@ -223,7 +207,7 @@ repositories:
     email: wubijie@kylinos.cn
 - repo:
   - openeuler/nestos-kernel
-  - src-openeuler/nestos-kernel  
+  - src-openeuler/nestos-kernel
   committers:
   - gitee_id: wenzhiwei11
     name: wenzhiwei
