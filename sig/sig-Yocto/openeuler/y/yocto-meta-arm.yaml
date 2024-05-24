@@ -1,0 +1,7 @@
+name: yocto-meta-arm
+description: This repository contains the Arm layers for OpenEmbedded.
+upstream: https://git.yoctoproject.org/meta-arm
+branches:
+- name: master
+  type: protected
+type: public
