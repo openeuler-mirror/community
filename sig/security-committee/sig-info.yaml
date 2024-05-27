@@ -1,0 +1,48 @@
+name: security-committee
+description: The openEuler Security Committee (SC) receives and responds to openEuler security issues, provides community security guidance, and carries out security governance. It is built to enhance the security of openEuler products and development environment.
+
+mailing_list: openeuler-security@openeuler.org
+meeting_url: NA
+mature_level: startup
+maintainers:
+- gitee_id: zhujianwei001
+  name: Zhu Jianwei
+  orgnization: Huawei
+  email: zhujianwei7@huawei.com
+- gitee_id: kylincuilei
+  name: Cui Lei
+  orgnization: Kylinos
+  email: cuilei@kylinos.cn
+- gitee_id: tanjingguo
+  name: Tan Jingguo
+  orgnization: Huawei
+  email: tanjingguo@huawei.com
+- gitee_id: luoyukai
+  name: Luo Yukai
+  orgnization: Huawei
+  email: luoyukai@huawei.com
+- gitee_id: liujingang09
+  name: Liu Jingang
+  orgnization: Huawei
+  email: liujingang09@huawei.com
+- gitee_id: tangjie
+  name: Tang Jie
+  orgnization: Kylinsec
+  email: tangjie@kylinsec.com.cn
+- gitee_id: mailofzxf
+  name: Zhang Xiangfeng
+  orgnization: xFusion
+  email: zhangxiangfeng@xfusion.com
+- gitee_id: zeng-wei2000
+  name: Zeng Wei
+  orgnization: UnionTech
+  email: zengwei1@uniontech.com
+- gitee_id: Sam-Luo
+  name: Luo Xiaoxing
+  orgnization: Huawei
+  email: luoxiaoxing@huawei.com
+
+repositories:
+- repo:
+  - openeuler/security-committee
+  - openeuler/security-committee-private
