@@ -56,6 +56,7 @@ eBPF sig致力于为广大用户、开发者、爱好者提供便捷、完备eBP
 - [luzhihao](https://gitee.com/MrRlu)| email:luzhihao@huawei.com
 - [weiyongjun](https://gitee.com/weiyj) | email:weiyongjun1@huawei.com
 - [xuqingwei](https://gitee.com/DevinRTK) | email:devin.rtk@gmail.com
+- [jiangbiao](https://gitee.com/happyseeker) | email:hux24@chinatelecom.cn
 
 ### Committer列表
 - [zhengyushen](https://gitee.com/yunwei37)
