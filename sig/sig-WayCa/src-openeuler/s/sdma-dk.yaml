@@ -1,0 +1,14 @@
+name: sdma-dk
+description: sdma-dk is a userspace driver that can make advantages of SDMA engine for moving 
+  data without CPU on Kunpeng chips. it has features like high bandwidth and low latency
+upstream: https://gitee.com/openeuler/hikptool 
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-22.03-LTS-SP4
+  type: protected
+  create_from: openEuler-22.03-LTS-Next
+type: public
