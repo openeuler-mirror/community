@@ -7,7 +7,7 @@
 | kernel | kernel/\*                   | [@xiexiuqi](https://gitee.com/xiexiuqi)  [@gatieme](https://gitee.com/gatieme) [@zhengzucheng](https://gitee.com/zhengzucheng) |
 | mm     | mm/                        | [@wkf](https://gitee.com/wkfxxx)                           |
 | kvm    | Documentation/virt/kvm/<br/>include/asm-generic/kvm\*<br/>include/kvm/<br/>include/linux/kvm\*<br/>include/trace/events/kvm.h<br/>include/uapi/asm-generic/kvm\*<br/>include/uapi/linux/kvm\*<br/>tools/kvm/<br/>tools/testing/selftests/kvm/<br/>virt/kvm/<br/>arch/\*/include/asm/kvm\*<br/>arch/\*/include/uapi/asm/kvm\*<br/>arch/\*/kvm/ | [@yuzenghui](https://gitee.com/yuzenghui) [@kevinzhu1](https://gitee.com/kevinzhu1)             |
-| bpf    | kernel/bpf/<br/>net/bpf/   | [@xukuohai](https://gitee.com/xukuohai)                         |
+| bpf    | kernel/bpf/<br/>net/bpf/   | [@xukuohai](https://gitee.com/xukuohai) [@yeweihua](https://gitee.com/yeweihua999) |
 | cgroup | kernel/cgroup              | [@lujialin](https://gitee.com/lujialin2)                        |
 | sched  | include/linux/preempt.h<br/>include/linux/sched.h<br/>include/linux/wait.h<br/>include/uapi/linux/sched.h<br/>kernel/sched/              | [@oskernel0719](https://gitee.com/oskernel0719) |
 | PGO    | kernel/gcov/gcc_4_7.c<br/>kernel/gcov/gcc_base.c | liyancheng@huawei.com xiezhiheng@huawei.com |
