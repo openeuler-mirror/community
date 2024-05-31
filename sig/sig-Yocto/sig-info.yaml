@@ -6,12 +6,12 @@ maintainers:
 - gitee_id: vonhust
   name: Wayne Ren
   email: 191362693@qq.com
-- gitee_id: ilisimin
-  name: Simin Li
-  email: lisimin@huawei.com
 - gitee_id: fanglinxu
   name: Linxu Fang
   email: fanglinxu@huawei.com
+- gitee_id: lxy1579
+  name: Xiaoyong Li
+  email: lixiaoyong19@huawei.com
 repositories:
 - repo:
   - openeuler/yocto-poky
@@ -20,25 +20,22 @@ repositories:
   - gitee_id: vonhust
     name: Wayne Ren
     email: 191362693@qq.com
-  contributors:
-  - gitee_id: lxy1579
-    name: Xiaoyong Li
-    email: lixiaoyong19@huawei.com
+  committers:
   - gitee_id: harvey-rtos
     name: Weigang Zhang
     email: zhangweigang6@huawei.com
   - gitee_id: alichinese
     name: Xinyu Li
     email: lixinyu44@huawei.com
-  - gitee_id: hmilylmk
-    name: Mingkai Liu
-    email: liumingkai@huawei.com
   - gitee_id: hzc04
     name: Zongcheng Han
     email: hanzongcheng@huawei.com
-  - gitee_id: soulpoet
-    name: Liming Zheng
-    email: zhengliming3@huawei.com
+  - gitee_id: yongmao_luo
+    name:  Yongmao Luo
+    email: luoyongmao@huawei.com
+  - gitee_id: weiyuchen2013
+    name:  Yuchen Wei
+    email: weiyuchen3@huawei.com
 - repo:
   - openeuler/yocto-embedded-tools
   - openeuler/oebuild
@@ -53,21 +50,12 @@ repositories:
     name: Xinyu Li
     email: lixinyu44@huawei.com
   contributors:
-  - gitee_id: lxy1579
-    name: Xiaoyong Li
-    email: lixiaoyong19@huawei.com
   - gitee_id: harvey-rtos
     name: Weigang Zhang
     email: zhangweigang6@huawei.com
-  - gitee_id: hmilylmk
-    name: Mingkai Liu
-    email: liumingkai@huawei.com
   - gitee_id: hzc04
     name: Zongcheng Han
     email: hanzongcheng@huawei.com
-  - gitee_id: soulpoet
-    name: Liming Zheng
-    email: zhengliming3@huawei.com
 - repo:
   - openeuler/yocto-meta-rockchip
   repo_admin:
