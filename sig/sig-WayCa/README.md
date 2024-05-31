@@ -50,6 +50,8 @@
 
 - Uadk\ACC:
 - fanghao[@hao-fang](https://gitee.com/hao-fang)
+- sdma-dk:
+- zengxiaoxu[zju-zzy](https://gitee.com/zju-zzy)
 
 ### 鲲鹏调测工具
 
@@ -114,6 +116,9 @@ repository地址：
 - ACC:
 - https://gitee.com/openeuler/kernel/
 - https://gitee.com/src-openeuler/kernel/
+- sdma-dk:
+- https://gitee.com/openeuler/sdma-dk
+- https://gitee.com/src-openeuler/sdma-dk
 
 ### 项目名称：WayCa-Kunpeng-高性能调度
 
