@@ -52,7 +52,6 @@
 - <https://gitee.com/src-openeuler/raspberrypi-build>：Raspberry Pi 镜像构建脚本的 SRPM 仓库
 - <https://gitee.com/src-openeuler/raspberrypi-eeprom>：Raspberry Pi 4 EEPROMs 的安装脚本和二进制文件
 - <https://gitee.com/src-openeuler/raspberrypi-firmware>：Raspberry Pi 固件的 SRPM 仓库
-- <https://gitee.com/src-openeuler/raspberrypi-kernel>：Raspberry Pi 内核的 SRPM 仓库
 - <https://gitee.com/src-openeuler/raspberrypi-userland>：Raspberry Pi GPU 接口库的 SRPM 仓库
 - <https://gitee.com/src-openeuler/raspi-config>：Raspberry Pi 配置工具的 SRPM 仓库
 - <https://gitee.com/src-openeuler/raspberrypi-utils>：Raspberry Pi 脚本和简单应用程序集的 SRPM 仓库
