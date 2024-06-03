@@ -1,0 +1,23 @@
+name: sig-sbom
+description: sig-sbom is a working group dedicated to incubating sbom applications and toolchains, with a vision to integrate sbom tools.
+created_on: '2024-06-03'
+maintainers:
+  - gitee_id: luoyukai
+    name: Yukai Luo
+    organization: Huawei
+    email: luoyukai@huawei.com
+  - gitee_id: kentado
+    name: Quansong Du
+    organization: Huawei
+    email: duquansong@huawei.com
+repositories:
+  - repo:
+      - sbom-service
+      - sbom-tools
+      - sbom-website
+      - sbom-files
+    committers:
+      - gitee_id: liu_zhengjun
+        name: Zhengjun Liu
+        email: liuzhengjun5@huawei.com
+
