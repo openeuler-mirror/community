@@ -15,21 +15,19 @@
 ### Maintainer列表
 
 - 任  慰[@vonhust](https://gitee.com/vonhust)
-- 李思敏[@ilisimin](https://gitee.com/ilisimin)
 - 方林旭[@fanglinxu](https://gitee.com/fanglinxu)
+- 李小勇[@lxy1579](https://gitee.com/lxy1579)
 
 
 ### Committer列表
 
 - 任  慰[@vonhust](https://gitee.com/vonhust)
-- 李思敏[@ilisimin](https://gitee.com/ilisimin)
 - 方林旭[@fanglinxu](https://gitee.com/fanglinxu)
 - 李小勇[@lxy1579](https://gitee.com/lxy1579)
 - 李新宇[@alichinese](https://gitee.com/alichinese)
-- 刘铭锴[@hmilylmk](https://gitee.com/hmilylmk)
 - 韩宗成[@hzc04](https://gitee.com/hzc04)
-- 张伟刚[@harvey-rtos](https://gitee.com/harvey-rtos)
-- 郑立铭[@soulpoet](https://gitee.com/soulpoet)
+- 罗永茂[@yongmao_luo](https://gitee.com/yongmao_luo)
+- 魏钰宸[@weiyuchen2013](https://gitee.com/weiyuchen2013)
 
 
 # 联系方式
