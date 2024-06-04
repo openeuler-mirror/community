@@ -12,10 +12,10 @@ maintainers:
     email: duquansong@huawei.com
 repositories:
   - repo:
-      - sbom-service
-      - sbom-tools
-      - sbom-website
-      - sbom-files
+      - openeuler/sbom-service
+      - openeuler/sbom-tools
+      - openeuler/sbom-website
+      - openeuler/sbom-files
     committers:
       - gitee_id: liu_zhengjun
         name: Zhengjun Liu
