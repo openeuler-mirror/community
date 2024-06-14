@@ -6,7 +6,7 @@ Welcome to openEuler Community.
 
 ## Introduction
 
-The Community repo is to store all the information about openEuler Community, inclouding governance, how to contribution, SIGs(project teams), Communications and etc. 
+The Community repo is to store all the information about openEuler Community, including governance, how to contribute, SIGs(project teams), Communications and etc. 
 
 ## What you can find here
 
