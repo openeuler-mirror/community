@@ -34,6 +34,7 @@ Note: The Charter of this SIG follows the convention described in the openEuler 
   - Que Yanwen [@queyanwen](https://gitee.com/queyanwen) queyanwen@huawei.com
   - Wu Haotian [@wuhaotian315](https://gitee.com/wuhaotian315) wuhaotian16@huawei.com
   - Jiang Yi   [@jimmy-jiang-junior](https://gitee.com/jimmy-jiang-junior) jiangyi38@hisilicon.com
+  - He Peng    [@heppen](https://gitee.com/heppen) hepeng68@huawei.com
 
 ### Mailing list
   - power-efficient@openeuler.org
