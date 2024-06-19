@@ -1,0 +1,9 @@
+name: damo
+description: damo is a user space tool for DAMON. Using this, you can monitor the data access
+  patterns of your system or workloads and make data access-aware memory
+  management optimizations.
+upstream: https://github.com/awslabs/damo
+branches:
+- name: master
+  type: protected
+type: public
