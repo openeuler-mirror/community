@@ -1,15 +1,12 @@
-name: libzmq
-description: ZeroMQ core engine in C++, implements ZMTP/3.1.
-upstream: https://github.com/zeromq/libzmq
+name: python-pygraphviz
+description: Create and Manipulate Graphs and Networks.
+upstream: https://github.com/pygraphviz/pygraphviz
 branches:
 - name: master
   type: protected
 - name: openEuler-22.03-LTS-Next
   type: protected
   create_from: master
-- name: openEuler-22.03-LTS-SP2
-  type: protected
-  create_from: openEuler-22.03-LTS-Next
 - name: openEuler-22.03-LTS-SP4
   type: protected
   create_from: openEuler-22.03-LTS-Next
