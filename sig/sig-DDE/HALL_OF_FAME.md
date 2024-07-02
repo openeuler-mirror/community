@@ -12,3 +12,10 @@ The file is used to record people who made contributions to DDE and had left for
 
 Thanks for being with DDE all the way.
 
+###contributors
+  - gitee_id: weidongkl
+    name: weidong
+    email: weidong@uniontech.com
+  - gitee_id: open-bot
+    name: liweigang
+    email: openbot@yeah.net
