@@ -1,0 +1,19 @@
+name: openstack-sig-tool
+upstream: https://gitee.com/openeuler/openstack-sig-tool
+description: Deployment tool for openEuler OpenStack.
+branches:
+- name: master
+  type: protected
+- name: Multi-Version_OpenStack-Antelope_openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+- name: Multi-Version_OpenStack-Antelope_openEuler-24.03-LTS
+  type: protected
+  create_from: Multi-Version_OpenStack-Antelope_openEuler-24.03-LTS-Next
+- name: Multi-Version_OpenStack-Wallaby_openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+- name: Multi-Version_OpenStack-Wallaby_openEuler-24.03-LTS
+  type: protected
+  create_from: Multi-Version_OpenStack-Wallaby_openEuler-24.03-LTS-Next
+type: public
