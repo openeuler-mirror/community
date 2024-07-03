@@ -1,5 +1,6 @@
 name: butane
-description: Butane translates human-readable Butane Configs into machine-readable Ignition configs for provisioning operating systems that use Ignition.
+description: Butane translates human-readable Butane Configs into machine-readable
+  Ignition configs for provisioning operating systems that use Ignition.
 upstream: https://github.com/coreos/butane
 branches:
 - name: master
@@ -7,8 +8,8 @@ branches:
 - name: openEuler-22.03-LTS-Next
   type: protected
   create_from: master
-- name: openEuler-22.03-LTS  
-  type: protected  
+- name: openEuler-22.03-LTS
+  type: readonly
   create_from: openEuler-22.03-LTS-Next
 - name: openEuler-24.03-LTS-Next
   type: protected

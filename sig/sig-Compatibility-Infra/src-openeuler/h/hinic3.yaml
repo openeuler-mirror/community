@@ -1,6 +1,6 @@
 name: hinic3
-description: provide Huawei Intelligent Network Interface Card driver for openEuler LTS
-  version.
+description: provide Huawei Intelligent Network Interface Card driver for openEuler
+  LTS version.
 upstream: https://gitee.com/openeuler/hinic3
 branches:
 - name: master
@@ -9,7 +9,7 @@ branches:
   type: protected
   create_from: master
 - name: openEuler-22.03-LTS
-  type: protected
+  type: readonly
   create_from: openEuler-22.03-LTS-Next
 - name: openEuler-22.03-LTS-SP1
   type: protected
