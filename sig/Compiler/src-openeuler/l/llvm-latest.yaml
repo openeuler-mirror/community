@@ -1,6 +1,6 @@
-name: flang
-description: flang is a Fortran compiler targeting LLVM
-upstream: https://github.com/flang-compiler/flang
+name: llvm-latest
+description: The LLVM Compiler Infrastructure
+upstream: https://github.com/llvm/llvm-project/tree/main/llvm
 branches:
 - name: master
   type: protected

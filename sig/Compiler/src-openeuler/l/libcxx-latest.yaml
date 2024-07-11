@@ -1,6 +1,6 @@
-name: flang
-description: flang is a Fortran compiler targeting LLVM
-upstream: https://github.com/flang-compiler/flang
+name: libcxx-latest
+description: The libcxx is c++ libs of llvm for openEuler
+upstream: https://github.com/llvm/llvm-project
 branches:
 - name: master
   type: protected
