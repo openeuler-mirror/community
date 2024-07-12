@@ -30,6 +30,7 @@
   - 阙燕文 [@queyanwen](https://gitee.com/queyanwen) queyanwen@huawei.com
   - 吴昊天 [@wuhaotian315](https://gitee.com/wuhaotian315) wuhaotian16@huawei.com
   - 姜  毅 [@jimmy-jiang-junior](https://gitee.com/jimmy-jiang-junior) jiangyi38@hisilicon.com
+  - 何  鹏 [@heppen](https://gitee.com/heppen) hepeng68@huawei.com
 
 - 邮件列表：
   - power-efficient@openeuler.org
