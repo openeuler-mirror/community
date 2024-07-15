@@ -7,15 +7,9 @@
 
 # SIG组工作目标和范围
 
- ## sig的必要性
-人工智能已经深入到社会的很多领域，各行各业都可以用来提高生产力。工业界、 学术界之外也有众多爱好者，为了更好的支持科研院所、生产企业中爱好者、开发者在openEuler上更快更好的进行人工智能的实践，openEuler需要构建人工智能的相关能力。
+## SIG的愿景与定位
 
-## 该SIG的业务范围
-
-- 打造数字基础设施AI生态链，协同芯片厂商、第三方AI框架等一起发展AI产业，包括AI+大数据/HPC/搜索等融合。 
-- 提供内置的AI框架训练/推理软件，让生态伙伴能够快速基于内置的AI能力开展AI相关技术探索。
-- 构建AI相关软件维护能力，保障上游开源软件的供应安全以及未来的演进。
-- 协同MindSpore等社区+openEuler社区，共同致力于开发者生态的繁荣。
+-构建AI基础设施框架，实现南向XPU(如：CPU/GPU/NPU)提供统一接入， 异构融合内存，异构融合虚拟化，算力切分，训推资源优先级配置，弹性迁移等关键能力，使能AI 应用全栈适配、协助企业在训推加速，训推混部等场景构建AI基础设施解决方案。
 
 # 该SIG管理的repository及描述
 - [tensorflow](https://gitee.com/src-openeuler/tensorflow): 
@@ -70,22 +64,13 @@
 # 基本信息
 
 ## Maintainers
-- bb-king
+- jimmy_hero
+- weixizhu94
 - sinever
-- zhunaipan
-- nicholas_yhr
-- liuyang_655
-- guoqi1024
-- kingxian
+- zhushoukui
+- anhongkui
 
 ## Committers
 
 ## 邮件列表
   - ai@openeuler.org
-
-## 路标
-- 2022-8-30：MindSpore训练推理打包相关流水线构建搭建完成；
-- 2022-9-30：上线MindSpore训练推理 ARCH64版本及配套依赖软件；
-- 2023-3-30：上线MindSpore训练推理 X86版本及配套依赖软件；
-
-

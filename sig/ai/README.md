@@ -1,9 +1,6 @@
 # AI SIG
 
-- 打造数字基础设施AI生态链，协同芯片厂商、第三方AI框架等一起发展AI产业，包括AI+大数据/HPC/搜索等融合。 
-- 提供内置的AI框架训练/推理软件，让生态伙伴能够快速基于内置的AI能力开展AI相关技术探索。
-- 构建AI相关软件维护能力，保障上游开源软件的供应安全以及未来的演进。
-- 协同MindSpore等社区+openEuler社区，共同致力于开发者生态的繁荣。
+- 构建AI基础设施框架，实现南向XPU(如：CPU/GPU/NPU)提供统一接入， 异构融合内存，异构融合虚拟化，算力切分，训推资源优先级配置，弹性迁移等关键能力，使能AI 应用全栈适配、协助企业在训推加速，训推混部等场景构建AI基础设施解决方案。
 
 # 组织会议
 
@@ -13,21 +10,17 @@
 # 成员
 
 ### Maintainer列表
-- bb-king
+- jimmy_hero
 - sinever
-- zhunaipan
-- nicholas_yhr
-- liuyang_655
-- guoqi1024
-- kingxian
-
-
+- weixizhu94
+- zhushoukui
+- anhongkui
 
 ### Committer列表
 
 # 联系方式
 
-- [邮件列表](mailto:dev@openeuler.org)
+- [邮件列表](mailto:ai@openeuler.org)
 
 # 项目清单
 - [tensorflow](https://gitee.com/src-openeuler/tensorflow): 
@@ -78,5 +71,3 @@
   MindSpore is a new open source deep learning training/inference framework that could be used for mobile, edge and cloud scenarios.
 - [python-asttokens](https://github.com/gristlabs/asttokens):
   Module to annotate Python abstract syntax trees with source code positions
-
-项目名称：
