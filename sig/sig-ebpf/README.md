@@ -69,7 +69,7 @@ eBPF sig致力于为广大用户、开发者、爱好者提供便捷、完备eBP
 - [tongyuxiang](https://gitee.com/tongyx633)
 - [songyanling](https://gitee.com/songyanling)
 - [yuelongguang](https://gitee.com/bigclouds99)
-
+- [lishaoxiong](https://gitee.com/otank)
 
 ## 联系方式
 
