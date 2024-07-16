@@ -1,0 +1,6 @@
+name: pkgs-categorizer
+description: categorize all packages into different layers (such as kernel, system, app, etc.)  and classes (for example, lib, service, app)
+branches:
+- name: master
+  type: protected
+type: public
