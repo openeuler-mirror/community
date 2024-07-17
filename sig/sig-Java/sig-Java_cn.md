@@ -33,9 +33,8 @@ openEuler Java SIG 致力于将 Java 生态中大量高质量开源应用、组�
 https://gitee.com/openeuler/community/tree/master/sig/sig-Java/
 
 ### Maintainers
-- luo-haibo
 - wangchong1995924
-- rita_dong
+- DingliZhang
 
 ### Committers
 - hht8 

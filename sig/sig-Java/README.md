@@ -31,14 +31,14 @@ openEuler Java SIG 致力于将 Java 生态中大量高质量开源应用、组�
 
 ### Maintainer 列表
 
-- luo-haibo
-- it_bricklayer
-- rita_dong
+- wangchong1995924
+- DingliZhang
 
 ### Committer 列表
 
 - hht8 
-- wangchong1995924 
+- zhan-siyuan
+- luozhao 
 
 非常欢迎和感谢以上所有 issue 和 PR 的提交者。
 
