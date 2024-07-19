@@ -1,0 +1,10 @@
+name: python-tcolorpy
+description: tcolorpy is a Python library to apply true color for terminal text..
+upstream: https://github.com/thombashi/tcolorpy
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
