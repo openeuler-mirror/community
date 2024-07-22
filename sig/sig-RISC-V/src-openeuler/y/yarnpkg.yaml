@@ -1,0 +1,7 @@
+name: yarnpkg
+description: Fast, reliable, and secure dependency management
+upstream: https://github.com/yarnpkg/yarn
+branches:
+- name: master
+  type: protected
+type: public
