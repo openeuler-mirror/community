@@ -1,0 +1,10 @@
+name: gradio
+description: Gradio is a Python library that allows you to quickly create UIs for
+  machine learning models with just a few lines of code. It simplifies the process
+  of deploying and sharing models by providing an intuitive interface where users
+  can interact with your models through a web app.
+upstream: https://github.com/gradio-app/gradio
+branches:
+- name: master
+  type: protected
+type: public
