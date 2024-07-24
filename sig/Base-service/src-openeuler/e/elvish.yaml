@@ -1,0 +1,13 @@
+name: elvish
+description: A powerful scripting language,A shell with useful interactive features built-in,A statically linked binary for Linux, BSDs, macOS or Windows.
+upstream: https://github.com/elves/elvish
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.03-LTS
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
