@@ -22,7 +22,9 @@
 | [gcc-cross](https://gitee.com/src-openeuler/gcc-cross) | 林 达[@benniaobufeijiushiji](https://gitee.com/benniaobufeijiushiji) email: linda7@huawei.com<br/> 熊 洲[@xiongzhou4](https://gitee.com/xiongzhou4) email: xiongzhou4@huawei.com |
 | [gcc-7](https://gitee.com/src-openeuler/gcc-7) | 张 无际[@zhangwuji1995](https://gitee.com/zhangwuji1995) email: zhangwuji1@huawei.com |
 | [gcc-10](https://gitee.com/src-openeuler/gcc-10) | 王 鼎[@wangding16](https://gitee.com/wangding16) email: wangding16@huawei.com <br/> 赵 书健[@zhaoshujian](https://gitee.com/zhaoshujian) email: zhaoshujian@huawei.com |
+| [gcc-14](https://gitee.com/src-openeuler/gcc-14) | 赵 书健[@zhaoshujian](https://gitee.com/zhaoshujian) email: zhaoshujian@huawei.com |
 | [binutils](https://gitee.com/src-openeuler/binutils) | 谢 志恒[@eastb233](https://gitee.com/eastb233) email: xiezhiheng@huawei.com |
+| [binutils-2.42](https://gitee.com/src-openeuler/binutils-2.42) | 赵 书健[@zhaoshujian](https://gitee.com/zhaoshujian) email: zhaoshujian@huawei.com | 
 | [gcc-for-openEuler](https://gitee.com/openeuler/gcc-for-openEuler) <br/> [src-openeuler/gcc-for-openEuler](https://gitee.com/src-openeuler/gcc-for-openEuler) |熊 洲[@xiongzhou4](https://gitee.com/xiongzhou4) email: xiongzhou4@huawei.com |
 
 ## LLVM repos
