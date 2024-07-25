@@ -51,10 +51,6 @@ English | [简体中文](./README_cn.md)
 - Source code & packages
   - [intel-kernel](https://gitee.com/openeuler/Intel-kernel): kernel related development work are hosted here. Code will be pushed to the openEuler main kernel repo when ready.
 
-  - [Intel-gcc](https://gitee.com/openeuler/Intel-gcc): gcc related development work are hosted here. Code will be pushed to the openEuler main gcc repo when ready.
-
-  - [Intel-glibc](https://gitee.com/openeuler/Intel-glibc): glibc related development work are hosted here. Code will be pushed to the openEuler main glibc repo when ready.
-
   - [intel-qemu](https://gitee.com/openeuler/intel-qemu): Qemu related development work are hosted here. Code will be pushed to the openEuler main Qemu repo when ready.
 
   - [intel-lkvs](https://gitee.com/openeuler/intel-lkvs): lkvs related development work are hosted here.
@@ -80,4 +76,4 @@ English | [简体中文](./README_cn.md)
   - [intel-compute-runtime](https://gitee.com/src-openeuler/intel-compute-runtime): Intel graphics compute runtime
 
 - Documentation
-  - [Intel-Arch-doc](https://gitee.com/openeuler/Intel-Arch-doc): documents regarding Intel arch support in openEuler, such as current status, roadmap, technical document.
+  - [intel-docs](https://gitee.com/openeuler/intel-docs): documents regarding Intel arch support in openEuler, such as current status, roadmap, technical document.
