@@ -43,4 +43,7 @@ branches:
 - name: Multi-Version_NestOS-For-Container_openEuler-24.03-LTS
   type: protected
   create_from: Multi-Version_NestOS-For-Container_openEuler-24.03-LTS-Next
+- name: openEuler-24.09
+  type: protected
+  create_from: master
 type: public

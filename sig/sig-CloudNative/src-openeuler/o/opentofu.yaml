@@ -1,5 +1,6 @@
 name: opentofu
-description: OpenTofu is an OSS tool for building, changing, and versioning infrastructure safely and efficiently.
+description: OpenTofu is an OSS tool for building, changing, and versioning infrastructure
+  safely and efficiently.
 upstream: https://github.com/opentofu/opentofu
 branches:
 - name: master
@@ -10,4 +11,7 @@ branches:
 - name: openEuler-24.03-LTS
   type: protected
   create_from: openEuler-24.03-LTS-Next
+- name: openEuler-24.09
+  type: protected
+  create_from: master
 type: public

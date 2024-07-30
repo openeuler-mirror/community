@@ -4,4 +4,7 @@ upstream: https://github.com/sphinx-contrib/jquery
 branches:
 - name: master
   type: protected
+- name: openEuler-24.09
+  type: protected
+  create_from: master
 type: public
