@@ -61,6 +61,8 @@ English | [简体中文](./README_cn.md)
 
   - [intel-oneapi](https://gitee.com/openeuler/intel-oneapi): Intel oneAPI projects portal in openEuler
 
+  - [accel-config](https://gitee.com/src-openeuler/accel-config): Utility library for controlling and configuring Intel DSA(Data Streaming Accelerator) and IAA(Intel Analytics Accelerator) sub-systems.
+
   - [level-zero](https://gitee.com/src-openeuler/level-zero): Intel oneAPI Level Zero specification headers and loader
 
   - [intel-gmmlib](https://gitee.com/src-openeuler/intel-gmmlib): Intel graphics memory management library
@@ -74,6 +76,8 @@ English | [简体中文](./README_cn.md)
   - [intel-cm-compiler](https://gitee.com/src-openeuler/intel-cm-compiler): Intel C for Metal compiler
 
   - [intel-compute-runtime](https://gitee.com/src-openeuler/intel-compute-runtime): Intel graphics compute runtime
+
+  - [intel-qatlib](https://gitee.com/src-openeuler/intel-qatlib): Intel QuickAssist Technology Library
 
 - Documentation
   - [intel-docs](https://gitee.com/openeuler/intel-docs): documents regarding Intel arch support in openEuler, such as current status, roadmap, technical document.

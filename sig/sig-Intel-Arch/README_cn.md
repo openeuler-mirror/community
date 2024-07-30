@@ -60,6 +60,8 @@
 
   - [intel-oneapi](https://gitee.com/openeuler/intel-oneapi): Intel oneAPI在openEuler的仓库入口
 
+  - [accel-config](https://gitee.com/src-openeuler/accel-config): Intel DSA(Data Streaming Accelerator)和IAA(Intel Analytics Accelerator)配置工具库
+
   - [level-zero](https://gitee.com/src-openeuler/level-zero): Intel oneAPI Level Zero头文件规范及硬件加载程序
 
   - [intel-gmmlib](https://gitee.com/src-openeuler/intel-gmmlib): Intel图形卡内存管理库
@@ -73,6 +75,8 @@
   - [intel-cm-compiler](https://gitee.com/src-openeuler/intel-cm-compiler): Intel C for Metal编译器
 
   - [intel-compute-runtime](https://gitee.com/src-openeuler/intel-compute-runtime): Intel图形卡计算运行时程序
+
+  - [intel-qatlib](https://gitee.com/src-openeuler/intel-qatlib): Intel QuickAssist Technology库
 
 - 文档
   - [intel-docs](https://gitee.com/openeuler/intel-docs): 关于openEuler的Intel arch支持相关的文档，如现状、规划、目标等等。
