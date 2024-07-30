@@ -1,0 +1,10 @@
+name: litehtml
+description: 'Fast and lightweight HTML/CSS rendering engine.'
+upstream: https://github.com/litehtml/litehtml
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
