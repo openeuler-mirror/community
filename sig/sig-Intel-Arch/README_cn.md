@@ -60,6 +60,8 @@
 
   - [intel-oneapi](https://gitee.com/openeuler/intel-oneapi): Intel oneAPI在openEuler的仓库入口
 
+  - [intel-openvino](https://gitee.com/openeuler/intel-openvino): Intel OpenVINO在openEuler的仓库入口
+
   - [accel-config](https://gitee.com/src-openeuler/accel-config): Intel DSA(Data Streaming Accelerator)和IAA(Intel Analytics Accelerator)配置工具库
 
   - [level-zero](https://gitee.com/src-openeuler/level-zero): Intel oneAPI Level Zero头文件规范及硬件加载程序

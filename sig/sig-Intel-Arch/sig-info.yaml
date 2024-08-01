@@ -29,7 +29,7 @@ repositories:
   - openeuler/intel-qemu
   - openeuler/intel-oneapi
   - openeuler/intel-docs
-  - src-openeuler/accel-config
+  - openeuler/intel-openvino
   - src-openeuler/level-zero
   - src-openeuler/intel-gmmlib
   - src-openeuler/intel-graphics-compiler
@@ -37,7 +37,6 @@ repositories:
   - src-openeuler/intel-gsc
   - src-openeuler/intel-cm-compiler
   - src-openeuler/intel-compute-runtime
-  - src-openeuler/intel-qatlib
   committers:
   - gitee_id: jiayingbao
     name: Yingbao Jia
