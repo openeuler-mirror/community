@@ -10,7 +10,7 @@ Internet Relay Chat (IRC) 是一个网络实时聊天工具，主要用于组织
 
 以下是可以用于连接社区IRC频道的客户端列表。
 
- - **[Empathy](https://help.ubuntu.com/community/Empathy)** - Unbuntu 默认的静态消息软件。
+ - **[Empathy](https://help.ubuntu.com/community/Empathy)** - Ubuntu 默认的静态消息软件。
  - **[Smuxi](http://www.smuxi.org/)** - 一个跨平台且用户友好的GNOME客户端。
  - **[Pidgin](https://help.ubuntu.com/community/Pidgin)** - 一个流行的静态消息软件且同时支持IRC。
  - **[XChat](https://help.ubuntu.com/community/XChatHowto)** - GUI IRC软件。
