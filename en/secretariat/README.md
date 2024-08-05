@@ -11,7 +11,7 @@ The openEuler community is still in the preparation phase. During the preparatio
 
 - Develop community operation plan
 
-- Financial budge plan preparation.
+- Financial budget plan preparation.
 
 - Perform community founder preparations
 
