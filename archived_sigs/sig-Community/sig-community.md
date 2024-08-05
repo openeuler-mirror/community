@@ -13,7 +13,7 @@ Describe the Mission and objectives of the new SIG, including but not limited to
 
 - The scope of the SIG
 
-- Which SIGs in openEuler to coorperate with
+- Which SIGs in openEuler to cooperate with
 
 
 ### Deliverables
