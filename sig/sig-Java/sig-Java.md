@@ -24,9 +24,8 @@ The openEuler Java SIG aims at providing Java package solution and guideline to 
     https://gitee.com/openeuler/community/tree/master/sig/sig-Java/
 
 ### Maintainers
-- luo-haibo
 - wangchong1995924
-- rita_dong
+- DingliZhang
 
 ### Committers
 - hht8 

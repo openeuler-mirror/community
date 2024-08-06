@@ -50,10 +50,6 @@
 - 代码及软件包
   - [intel-kernel](https://gitee.com/openeuler/Intel-kernel): Intel arch支持相关的内核代码开发仓库。会以合适的节奏将代码推送到openEuler kernel主仓库。
 
-  - [Intel-gcc](https://gitee.com/openeuler/Intel-gcc): Intel arch支持相关的gcc代码开发仓库。会以合适的节奏将代码推送到openEuler gcc主仓库。
-
-  - [Intel-glibc](https://gitee.com/openeuler/Intel-glibc): Intel arch支持相关的glibc代码开发仓库。会以合适的节奏将代码推送到openEuler gcc主仓库。
-
   - [intel-qemu](https://gitee.com/openeuler/intel-qemu): Intel arch支持相关的Qemu代码开发仓库。会以合适的节奏将代码推送到openEuler Qemu主仓库。
 
   - [intel-lkvs](https://gitee.com/openeuler/intel-lkvs): Intel arch支持相关的Linux Kernel测试集lkvs代码开发仓库。
@@ -63,6 +59,8 @@
   - [intel-iavf](https://gitee.com/openeuler/intel-iavf): Intel E810 以太网卡 Virtual Function 驱动程序。
 
   - [intel-oneapi](https://gitee.com/openeuler/intel-oneapi): Intel oneAPI在openEuler的仓库入口
+
+  - [accel-config](https://gitee.com/src-openeuler/accel-config): Intel DSA(Data Streaming Accelerator)和IAA(Intel Analytics Accelerator)配置工具库
 
   - [level-zero](https://gitee.com/src-openeuler/level-zero): Intel oneAPI Level Zero头文件规范及硬件加载程序
 
@@ -78,5 +76,7 @@
 
   - [intel-compute-runtime](https://gitee.com/src-openeuler/intel-compute-runtime): Intel图形卡计算运行时程序
 
+  - [intel-qatlib](https://gitee.com/src-openeuler/intel-qatlib): Intel QuickAssist Technology库
+
 - 文档
-  - [Intel-Arch-doc](https://gitee.com/openeuler/Intel-Arch-doc): 关于openEuler的Intel arch支持相关的文档，如现状、规划、目标等等。
+  - [intel-docs](https://gitee.com/openeuler/intel-docs): 关于openEuler的Intel arch支持相关的文档，如现状、规划、目标等等。

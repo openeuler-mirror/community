@@ -14,4 +14,7 @@ upstream: https://github.com/xen-project/xen
 branches:
 - name: master
   type: protected
+- name: stable-4.18
+  type: protected
+  create_from: master
 type: public

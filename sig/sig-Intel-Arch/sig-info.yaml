@@ -21,13 +21,15 @@ maintainers:
   name: Jason Zeng
   email: jason.zeng@intel.com
 - gitee_id: allen-shi
-  name: Allen Shi
+  name: Aichun Shi
   email: aichun.shi@intel.com
 repositories:
 - repo:
   - openeuler/intel-kernel
   - openeuler/intel-qemu
   - openeuler/intel-oneapi
+  - openeuler/intel-docs
+  - src-openeuler/accel-config
   - src-openeuler/level-zero
   - src-openeuler/intel-gmmlib
   - src-openeuler/intel-graphics-compiler
@@ -35,6 +37,7 @@ repositories:
   - src-openeuler/intel-gsc
   - src-openeuler/intel-cm-compiler
   - src-openeuler/intel-compute-runtime
+  - src-openeuler/intel-qatlib
   committers:
   - gitee_id: jiayingbao
     name: Yingbao Jia
@@ -87,6 +90,9 @@ repositories:
   - gitee_id: wisespreading
     name: Jincheng Miao
     email: jincheng.miao@intel.com
+  - gitee_id: samzhangss
+    name: Shanshan Zhang
+    email: shanshan.zhang@intel.com
 - repo:
   - openeuler/intel-lkvs
   committers:
@@ -106,3 +112,9 @@ repositories:
   - gitee_id: shangbaogen
     name: Baogen Shang
     email: baogen.shang@windriver.com
+- repo:
+  - src-openeuler/intel-qatlib
+  committers:
+  - gitee_id: allen-shi
+    name: Aichun Shi
+    email: aichun.shi@intel.com

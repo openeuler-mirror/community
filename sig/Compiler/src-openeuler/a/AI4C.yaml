@@ -1,5 +1,6 @@
 name: AI4C
-description: AI4C stands for AI for Compiler Kit, a framework which enables compilers to integrate ML-driven compiler optimizations.
+description: AI4C stands for AI for Compiler Kit, a framework which enables compilers
+  to integrate ML-driven compiler optimizations.
 upstream: openeuler/AI4C
 type: public
 branches:
@@ -12,5 +13,8 @@ branches:
   type: protected
   create_from: master
 - name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-24.09
   type: protected
   create_from: master

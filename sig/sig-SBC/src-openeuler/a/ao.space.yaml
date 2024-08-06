@@ -1,5 +1,7 @@
 name: ao.space
-description: AO.space is a open source project that focuses on protecting personal data security and privacy. Utilizing end-to-end encryption and device-based authentication, users have complete control over their personal accounts and data.
+description: AO.space is a open source project that focuses on protecting personal
+  data security and privacy. Utilizing end-to-end encryption and device-based authentication,
+  users have complete control over their personal accounts and data.
 upstream: https://github.com/ao-space/ao.space
 branches:
 - name: master
@@ -10,4 +12,7 @@ branches:
 - name: openEuler-24.03-LTS
   type: protected
   create_from: openEuler-24.03-LTS-Next
+- name: openEuler-24.09
+  type: protected
+  create_from: master
 type: public

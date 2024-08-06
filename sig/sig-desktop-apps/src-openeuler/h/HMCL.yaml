@@ -1,7 +1,11 @@
 name: HMCL
-description: HMCL is a cross-platform Minecraft launcher which supports Mod Management, Game Customizing, Auto Installing, Modpack Creating, UI Customization, and more.
+description: HMCL is a cross-platform Minecraft launcher which supports Mod Management,
+  Game Customizing, Auto Installing, Modpack Creating, UI Customization, and more.
 upstream: https://github.com/HMCL-dev/HMCL
 branches:
 - name: master
   type: protected
+- name: openEuler-24.09
+  type: protected
+  create_from: master
 type: public

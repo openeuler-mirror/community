@@ -1,0 +1,13 @@
+name: orientdb
+description: An Open Source Multi-Model NoSQL DBMS with the support of Native Graphs, Documents, Full-Text search, Reactivity, Geo-Spatial and Object Oriented concepts.
+upstream: https://github.com/orientechnologies/orientdb
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.03-LTS
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

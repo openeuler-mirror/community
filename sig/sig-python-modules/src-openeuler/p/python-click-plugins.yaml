@@ -1,6 +1,7 @@
 name: python-click-plugins
 upstream: https://github.com/click-contrib/click-plugins
-description: An extension module for click to enable registering CLI commands via setuptools entry-points.
+description: An extension module for click to enable registering CLI commands via
+  setuptools entry-points.
 branches:
 - name: master
   type: protected
@@ -16,4 +17,7 @@ branches:
 - name: openEuler-22.03-LTS-SP4
   type: protected
   create_from: openEuler-22.03-LTS-Next
+- name: openEuler-24.09
+  type: protected
+  create_from: master
 type: public

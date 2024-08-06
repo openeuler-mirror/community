@@ -51,10 +51,6 @@ English | [简体中文](./README_cn.md)
 - Source code & packages
   - [intel-kernel](https://gitee.com/openeuler/Intel-kernel): kernel related development work are hosted here. Code will be pushed to the openEuler main kernel repo when ready.
 
-  - [Intel-gcc](https://gitee.com/openeuler/Intel-gcc): gcc related development work are hosted here. Code will be pushed to the openEuler main gcc repo when ready.
-
-  - [Intel-glibc](https://gitee.com/openeuler/Intel-glibc): glibc related development work are hosted here. Code will be pushed to the openEuler main glibc repo when ready.
-
   - [intel-qemu](https://gitee.com/openeuler/intel-qemu): Qemu related development work are hosted here. Code will be pushed to the openEuler main Qemu repo when ready.
 
   - [intel-lkvs](https://gitee.com/openeuler/intel-lkvs): lkvs related development work are hosted here.
@@ -64,6 +60,8 @@ English | [简体中文](./README_cn.md)
   - [intel-iavf](https://gitee.com/openeuler/intel-iavf): Intel Network Adapter Virtual Function Driver for Intel E810 Series Devices.
 
   - [intel-oneapi](https://gitee.com/openeuler/intel-oneapi): Intel oneAPI projects portal in openEuler
+
+  - [accel-config](https://gitee.com/src-openeuler/accel-config): Utility library for controlling and configuring Intel DSA(Data Streaming Accelerator) and IAA(Intel Analytics Accelerator) sub-systems.
 
   - [level-zero](https://gitee.com/src-openeuler/level-zero): Intel oneAPI Level Zero specification headers and loader
 
@@ -79,5 +77,7 @@ English | [简体中文](./README_cn.md)
 
   - [intel-compute-runtime](https://gitee.com/src-openeuler/intel-compute-runtime): Intel graphics compute runtime
 
+  - [intel-qatlib](https://gitee.com/src-openeuler/intel-qatlib): Intel QuickAssist Technology Library
+
 - Documentation
-  - [Intel-Arch-doc](https://gitee.com/openeuler/Intel-Arch-doc): documents regarding Intel arch support in openEuler, such as current status, roadmap, technical document.
+  - [intel-docs](https://gitee.com/openeuler/intel-docs): documents regarding Intel arch support in openEuler, such as current status, roadmap, technical document.

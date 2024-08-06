@@ -1,0 +1,10 @@
+name: binutils-2.42
+description: binutils multi-version toolset for openEuler
+upstream: https://sourceware.org/git/binutils-gdb.git
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
