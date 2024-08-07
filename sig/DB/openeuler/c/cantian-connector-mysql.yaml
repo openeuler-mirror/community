@@ -6,4 +6,10 @@ branches:
 - name: cantian24.3
   type: protected
   create_from: master
+- name: cantian24.6
+  type: protected
+  create_from: master
+- name: cantian24.9
+  type: protected
+  create_from: master
 type: public
