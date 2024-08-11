@@ -37,6 +37,7 @@ https://gitee.com/openeuler/community/tree/master/sig/sig-ROS/
 - anchuanxu
 - xiao_yun_wang
 - davidhan008
+- simonaxi
 
 ### Committers
 - wuwei_plct

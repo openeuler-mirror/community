@@ -17,6 +17,8 @@
 - 吴伟[@wuwei_plct](https://gitee.com/wuwei_plct)
 - 安传旭[@anchuanxu](https://gitee.com/anchuanxu)
 - 王晓云[@xiao_yun_wang](https://gitee.com/xiao_yun_wang)
+- 韩昊旻[@davidhan008](https://gitee.com/davidhan008)
+- 席江玲[@simonaxi](https://gitee.com/simonaxi)
 
 ### Committer列表
 
@@ -26,6 +28,7 @@
 - 韩昊旻[@davidhan008](https://gitee.com/davidhan008)
 - 席江玲[@simonaxi](https://gitee.com/simonaxi)
 - 陈家友[@chen_jiayou](https://gitee.com/chen_jiayou)
+- 牛涛[@will_niutao](https://gitee.com/will_niutao)
 
 # 联系方式
 

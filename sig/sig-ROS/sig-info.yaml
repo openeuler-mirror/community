@@ -1,0 +1,41 @@
+name: sig-ROS
+description: The ROS SIG group is committed to porting ROS to openEuler in order to lower the threshold of use of openEuler in the field of robotics and promote the popularization of openEuler users in the field of robotics
+created_on: '2020-06'
+mailing_list: ros@openeuler.org
+meeting_url: https://etherpad.openeuler.org/p/sig-ROS-meetings
+mature_level: startup
+maintainers:
+- gitee_id: wuwei_plct
+  name: wuwei
+  organization: ISCAS
+  email: wuwei2016@iscas.ac.cn
+- gitee_id: anchuanxu
+  name: anchuanxu
+  organization: ISCAS
+  email: chuanxu@iscas.ac.cn
+- gitee_id: xiao_yun_wang
+  name: wangxiaoyun
+  organization: ISCAS
+  email: wangxiaoyun@iscas.ac.cn
+- gitee_id: davidhan008
+  name: hanhaomin
+  organization: ISCAS
+  email: 619409713@qq.com
+- gitee_id: simonaXi
+  name: xijiangling
+  organization: ISCAS
+  email: 18701881329@163.com
+repositories:
+- repo:
+  - openeuler/ros
+  committers:
+  - gitee_id: chen_jiayou
+    name: chenjiayou
+    organization: ISCAS
+    email: 1132021192@qq.com
+  - gitee_id: will_niutao
+    name: niutao
+    organization: Huawei
+    email: niutao@huawei.com
+- repo:
+  - src-openeuler/ros
