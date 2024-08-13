@@ -5,7 +5,7 @@
 - 权限问题
 - Gitee内的组织角色关系
 - 第三方集成
-- Reopsitory的新建和迁移
+- Repository的新建和迁移
 - Repository的归档
 - 其他repository配置相关的问题
 
