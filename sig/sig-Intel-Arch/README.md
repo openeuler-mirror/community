@@ -61,6 +61,8 @@ English | [简体中文](./README_cn.md)
 
   - [intel-oneapi](https://gitee.com/openeuler/intel-oneapi): Intel oneAPI projects portal in openEuler
 
+  - [intel-openvino](https://gitee.com/openeuler/intel-openvino): Intel OpenVINO projects portal in openEuler
+
   - [accel-config](https://gitee.com/src-openeuler/accel-config): Utility library for controlling and configuring Intel DSA(Data Streaming Accelerator) and IAA(Intel Analytics Accelerator) sub-systems.
 
   - [level-zero](https://gitee.com/src-openeuler/level-zero): Intel oneAPI Level Zero specification headers and loader
