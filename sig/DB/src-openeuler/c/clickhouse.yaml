@@ -1,0 +1,13 @@
+name: clickhouse
+description: ClickHouse is an open-source column-oriented database management system that allows generating analytical data reports in real-time.
+upstream: https://github.com/ClickHouse/ClickHouse
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.03-LTS
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
