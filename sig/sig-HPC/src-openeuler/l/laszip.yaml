@@ -1,0 +1,7 @@
+name: laszip 
+description: Quickly turns bulky LAS files into compant LAZ files
+upstream: https://github.com/LASzip/LASzip 
+branches:
+- name: master
+  type: protected
+type: public

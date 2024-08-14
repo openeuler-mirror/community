@@ -1,0 +1,7 @@
+name: liblas 
+description: Library for reading and writing the very common LAS LiDAR format
+upstream: https://github.com/libLAS/libLAS 
+branches:
+- name: master
+  type: protected
+type: public
