@@ -1,0 +1,11 @@
+name: ktib
+description: kylin trusted image builder
+upstream: https://gitee.com/openeuler/ktib
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.09
+  type: protected
+  create_from: master
+type: public
+
