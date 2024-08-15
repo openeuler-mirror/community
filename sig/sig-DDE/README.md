@@ -23,8 +23,10 @@
 
 ### Committer列表
 
-- 刘智淋[@lliuzhi](https://gitee.com/lliuzhi)
-- yangxianzhao[@yangxiaozhao](https://gitee.com/xzyangha)
+- 庞庆[@pang-qing](https://gitee.com/pang-qing)
+- 宋明亮[@DustMerlin](https://gitee.com/DustMerlin)
+- 王策[@wangce1988](https://gitee.com/wangce1988)
+- 朱红波[@zhuhong_bo](https://gitee.com/zhuhong_bo)
 - 小柿子[@liyf](https://gitee.com/liyf)
 
 
