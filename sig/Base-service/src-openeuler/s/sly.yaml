@@ -1,5 +1,6 @@
 name: sly
 description: SLY is a 100% Python implementation of the lex and yacc tools commonly used to write parsers and compilers. Parsing is based on the same LALR(1) algorithm used by many yacc tools.
+upstream: https://github.com/dabeaz/sly
 branches:
 - name: master
   type: protected
