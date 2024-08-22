@@ -1,0 +1,10 @@
+name: authHub
+description: An oauth2 application.
+upstream: https://gitee.com/openeuler/authHub
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.09
+  type: protected
+  create_from: master
+type: public
