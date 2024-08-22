@@ -74,7 +74,7 @@ openEuler社区的所有项目都由Bot维护。
                 为一个Pull Request添加或者删除`approved`标签，这个标签将用于Pull Request合入判断。
             </td>
             <td>
-                仓库的成员以及管理员（Maintainers,Committers以及Repo_Admins）。
+                仓库的成员以及管理员（Maintainers,Committers,branch-keeper以及Repo_Admins）。
             </td>
         </tr>
         <tr>
