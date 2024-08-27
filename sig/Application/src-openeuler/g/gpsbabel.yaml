@@ -1,0 +1,13 @@
+name: gpsbabel
+description: A tool to convert between various formats used by GPS devices
+upstream: http://www.gpsbabel.org
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-24.03-LTS
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
+type: public
