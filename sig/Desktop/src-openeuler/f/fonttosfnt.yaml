@@ -1,0 +1,7 @@
+name: fonttosfnt
+description: 'fonttosfnt wraps a set of bdf or pcf bitmap fonts in a sfnt (TrueType or OpenType) wrapper.'
+upstream: https://gitlab.freedesktop.org/xorg/app/fonttosfnt
+branches:
+- name: master
+  type: protected
+type: public
