@@ -40,6 +40,7 @@ openEuler QA(质量保障)项目团队致力于如何更好的提升openEuler社
   - liu-zuo
   - yaoxiyao
   - yuyongkangnaruto
+  - lixiaodong(@Algernon67),since July 2024
 
 
 邮件列表：
