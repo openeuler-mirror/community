@@ -1,0 +1,7 @@
+name: intel-qatengine
+description: Intel QuickAssist Technology (QAT) OpenSSL Engine
+upstream: https://github.com/intel/QAT_Engine
+branches:
+- name: master
+  type: protected
+type: public

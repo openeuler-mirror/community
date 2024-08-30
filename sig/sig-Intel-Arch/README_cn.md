@@ -78,7 +78,15 @@
 
   - [intel-compute-runtime](https://gitee.com/src-openeuler/intel-compute-runtime): Intel图形卡计算运行时程序
 
-  - [intel-qatlib](https://gitee.com/src-openeuler/intel-qatlib): Intel QuickAssist Technology库
+  - [intel-qatlib](https://gitee.com/src-openeuler/intel-qatlib): Intel QuickAssist Technology(QAT)库
+
+  - [intel-qatzip](https://gitee.com/src-openeuler/intel-qatzip): Intel QuickAssist Technology(QAT) QATzip库
+
+  - [intel-ipp-crypto-mb](https://gitee.com/src-openeuler/intel-ipp-crypto-mb): Intel Integrated Performance Primitives(IPP) Cryptography multi-buffer库
+
+  - [intel-ipsec-mb](https://gitee.com/src-openeuler/intel-ipsec-mb): Intel Multi-Buffer Crypto for IPsec库
+
+  - [intel-qatengine](https://gitee.com/src-openeuler/intel-qatengine): Intel QuickAssist Technology(QAT) OpenSSL Engine
 
 - 文档
   - [intel-docs](https://gitee.com/openeuler/intel-docs): 关于openEuler的Intel arch支持相关的文档，如现状、规划、目标等等。
