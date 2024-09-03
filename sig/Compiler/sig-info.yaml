@@ -157,6 +157,24 @@ repositories:
 - repo:
   - openeuler/gcc
   - src-openeuler/gcc
+  committers:
+  - gitee_id: haijianzhang
+    name: haijian Zhang
+    organization: Huawei
+    email: z.zhanghaijian@huawei.com
+  - gitee_id: huang-xiaoquan
+    name: xiaoquan Huang
+    organization: Huawei
+    email: huangxiaoquan1@huawei.com
+  - gitee_id: xiongzhou4
+    name: zhou Xiong
+    organization: Huawei
+    email: xiongzhou4@huawei.com
+  - gitee_id: lin-4682
+    name: Lin Hu
+    organization: Intel
+    email: lin1.hu@intel.com
+- repo:
   - src-openeuler/gcc-12
   committers:
   - gitee_id: haijianzhang
@@ -228,6 +246,10 @@ repositories:
     name: Shujian Zhao
     organization: Huawei
     email: zhaoshujian@huawei.com
+  - gitee_id: lin-4682
+    name: Lin Hu
+    organization: Intel
+    email: lin1.hu@intel.com
 - repo:
   - src-openeuler/binutils-2.42
   committers:
