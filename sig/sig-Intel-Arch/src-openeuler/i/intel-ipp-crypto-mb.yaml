@@ -1,0 +1,7 @@
+name: intel-ipp-crypto-mb
+description: Intel Integrated Performance Primitives(IPP) Cryptography multi-buffer library
+upstream: https://github.com/intel/ipp-crypto
+branches:
+- name: master
+  type: protected
+type: public

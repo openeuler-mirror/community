@@ -79,7 +79,15 @@ English | [简体中文](./README_cn.md)
 
   - [intel-compute-runtime](https://gitee.com/src-openeuler/intel-compute-runtime): Intel graphics compute runtime
 
-  - [intel-qatlib](https://gitee.com/src-openeuler/intel-qatlib): Intel QuickAssist Technology Library
+  - [intel-qatlib](https://gitee.com/src-openeuler/intel-qatlib): Intel QuickAssist Technology(QAT) Library
+
+  - [intel-qatzip](https://gitee.com/src-openeuler/intel-qatzip): Intel QuickAssist Technology(QAT) QATzip Library
+
+  - [intel-ipp-crypto-mb](https://gitee.com/src-openeuler/intel-ipp-crypto-mb): Intel Integrated Performance Primitives(IPP) Cryptography multi-buffer library
+
+  - [intel-ipsec-mb](https://gitee.com/src-openeuler/intel-ipsec-mb): Intel Multi-Buffer Crypto for IPsec Library
+
+  - [intel-qatengine](https://gitee.com/src-openeuler/intel-qatengine): Intel QuickAssist Technology(QAT) OpenSSL Engine
 
 - Documentation
   - [intel-docs](https://gitee.com/openeuler/intel-docs): documents regarding Intel arch support in openEuler, such as current status, roadmap, technical document.
