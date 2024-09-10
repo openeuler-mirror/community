@@ -17,19 +17,19 @@
 ### Maintainer列表
 
 - 胡正策[@huzhengce](https://gitee.com/huzhengce)
-- lixuesheng[@ncti-gba-ide](https://gitee.com/ntci-gba-ide/)
+- 李雪生[@ncti-gba-ide](https://gitee.com/ntci-gba-ide/)
 - 王兴龙[@hacke2](https://gitee.com/hacke2/)
 
 
 ### Committer列表
 
-- Admin[@ide_2_0](https://gitee.com/ide_2_0)
-- 应捷.焕[@hymn1221](https://gitee.com/hymn1221)
-- 夺帅[@centYe_admin](https://gitee.com/centYe_admin)
-- cloudy-any[@cloudy-any](https://gitee.com/cloudy-any)
-- 上帝的牌友[@luyechen](https://gitee.com/luyechen)
-- zhangtao2020[@zhangtao2020](https://gitee.com/zhangtao2020)
-- doraemon2020[@doraemon2020](https://gitee.com/doraemon2020)
+- 秦文强[@ide_2_0](https://gitee.com/ide_2_0)
+- 黄焕尧[@hymn1221](https://gitee.com/hymn1221)
+- 叶顺腾[@centYe_admin](https://gitee.com/centYe_admin)
+- 何晓云[@cloudy-any](https://gitee.com/cloudy-any)
+- 陈晓露[@luyechen](https://gitee.com/luyechen)
+- 张涛[@zhangtao2020](https://gitee.com/zhangtao2020)
+- 徐春琳[@doraemon2020](https://gitee.com/doraemon2020)
 
 
 # 联系方式

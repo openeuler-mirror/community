@@ -1,0 +1,7 @@
+name: botron-hybrid-deployment-plugin
+description: "Provide embedded developers with a one-stop solution from project wizards, development, compilation, debugging, and burning. Enable users to quickly build a development platform. This time, based on the Guochuang OS operating system, three plug-in functions of hybrid deployment, soft real-time, and hard real-time are provided. Users can perform kernel development, Yocto project development, C/C++, RTOS development, etc. according to their needs.User-centered, for users of three major kernels, provide MVP (hello world). Support graphical debugging methods, including breakpoints, single-step debugging, stack printing, and viewing data of memory segments."
+upstream: https://gitee.com/botron-platform/botron-hybrid-deployment-plugin
+branches:
+- name: master
+  type: protected
+type: public
