@@ -4,6 +4,9 @@ upstream: https://gitee.com/openeuler/gcc-for-openEuler
 branches:
 - name: master
   type: protected
+- name: oepkg_gcc-for-openEuler_oe-24.09
+  type: protected
+  create_from: master
 - name: oepkg_gcc-for-openEuler_oe-22.09
   type: protected
   create_from: master
