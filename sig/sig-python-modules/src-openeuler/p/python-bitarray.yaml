@@ -1,0 +1,10 @@
+name: python-bitarray
+upstream: https://github.com/ilanschnell/bitarray
+description: This library provides an object type which efficiently represents an array of booleans.
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.09
+  type: protected
+  create_from: master
+type: public
