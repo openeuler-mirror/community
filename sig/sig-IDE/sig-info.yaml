@@ -9,8 +9,58 @@ maintainers:
   name: 胡正策
   email: huzhengce@openeuler.sh
 - gitee_id: ncti-gba-ide
-  name: lixuesheng
+  name: 李雪生
   email: lixuesheng@ncti-gba.cn
 - gitee_id: hacke2
   name: 王兴龙
   email: xinglong.wangwxl@antgroup.com
+repositories:
+- repo:
+  - src-openeuler/botron-platform
+  committers:
+  - gitee_id: cloudy-any
+    name: hexiaoyun
+    email: xiaoyun.he@cloudtogo.cn
+  - gitee_id: luyechen
+    name: chenxiaolu
+    email: xiaolu.chen@cloudtogo.cn
+  - gitee_id: zhongxiangxiang1122
+    name: zhongxiangxiang
+    email: zhongxiangxiang@ncti-gba.cn
+  - gitee_id: liyouwei007
+    name: liyouwei
+    email: liyouwei@ncti-gba.cn
+
+  - src-openeuler/botron-hybrid-deployment-plugin
+  - src-openeuler/botron-soft-reattime-plugin
+  committers:
+  - gitee_id: ide_2_0
+    name: qinwenqiang
+    email: qinwenqiang@kaihong.com
+  - gitee_id: hymn1221
+    name: huanghuanyao
+    email: huanghuanyao@kaihong.com
+  - gitee_id: centYe_admin
+    name: yeshunteng
+    email: yeshunteng@kaihong.com
+  - gitee_id: zhongxiangxiang1122
+    name: zhongxiangxiang
+    email: zhongxiangxiang@ncti-gba.cn
+  - gitee_id: liyouwei007
+    name: liyouwei
+    email: liyouwei@ncti-gba.cn
+
+  - src-openeuler/botron-hard-realtime-plugin
+  committers:
+  - gitee_id: zhangtao2020
+    name: zhangtao
+    email: zhang_tao01@hoperun.com
+  - gitee_id: doraemon2020
+    name: xuchunlin
+    email: xu_chunlin@hoperun.com
+  - gitee_id: zhongxiangxiang1122
+    name: zhongxiangxiang
+    email: zhongxiangxiang@ncti-gba.cn
+  - gitee_id: xiaoling50
+    name: shianhu
+    email: shianhu@ncti-gba.cn
