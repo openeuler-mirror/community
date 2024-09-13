@@ -1,0 +1,10 @@
+name: etipc
+description: TIPC is a cluster domain socket as a linux module. Enhanced tipc(etipc) enhances the multicast, dfx. 
+upstream: http://tipc.io/
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.03-LTS
+  type: protected
+  create_from: master
+type: public
