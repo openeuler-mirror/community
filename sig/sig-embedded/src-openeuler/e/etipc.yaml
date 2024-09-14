@@ -4,7 +4,4 @@ upstream: http://tipc.io/
 branches:
 - name: master
   type: protected
-- name: openEuler-24.03-LTS
-  type: protected
-  create_from: master
 type: public
