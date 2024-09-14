@@ -4,4 +4,10 @@ upstream: https://github.com/intel/ipp-crypto
 branches:
 - name: master
   type: protected
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-24.03-LTS-SP1
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
 type: public
