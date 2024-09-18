@@ -1,0 +1,8 @@
+name: ct-oval
+description: This tool is used to parse data from json file/restful api/grpc, and save into DB (sqlite/postgres/mysql).
+  Then generate xml file according to DB, with filter options. The output xml file can be used as openscap source file. Check systems whether have vulnerabilities.
+upstream: https://gitee.com/openeuler/ct-oval
+branches:
+- name: master
+  type: protected
+type: public
