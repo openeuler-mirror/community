@@ -21,7 +21,7 @@
 | intel  | intel platform    | [@zhengzengkai](https://gitee.com/zhengzengkai) [@Jackie Liu](https://gitee.com/newbeats)  |
 | 龙芯   | arch/loongarch/<br/>tools/arch/loongarch/<br/>drivers/gpu/drm/loongson/<br/>tools/perf/arch/loongarch/<br/>drivers/irqchip/irq-loongson-\*<br/>drivers/irqchip/irq-loongarch-\*<br/>drivers/spi/spi-loongson.c<br/>drivers/char/ipmi/btlock.h<br/>drivers/char/ipmi/ipmi_si.h<br/>drivers/char/ipmi/ipmi_si_intf.c<br/>drivers/char/ipmi/ipmi_si_ls2k500.c<br/>drivers/char/ipmi/kcs_bmc_ls2k500.h<br/>drivers/gpio/gpio-loongson.c<br/>drivers/i2c/busses/i2c-loongson.c<br/>drivers/pci/controller/pci-loongson.c<br/>drivers/input/serio/i8042-loongsonio.h<br/>drivers/cpufreq/loongson3-acpi-cpufreq.c<br/>drivers/firmware/efi/libstub/loongarch-stub.c<br/>drivers/net/ethernet/stmicro/stmmac/dwmac-loongson.c<br/>drivers/platform/loongarch/loongson_generic_laptop.c | [@lixuefeng-loongson](https://gitee.com/lixuefeng-loongson) [@maobibo](https://gitee.com/maobibo) [@Hongchen_Zhang](https://gitee.com/Hongchen_Zhang) | 
 | 兆芯   | zhaoxin platform    | [@liuxin](https://gitee.com/liuxinux) |
-| 海光   | hygon platform      | [@zhengzengkai](https://gitee.com/zhengzengkai)  |
+| 海光   | hygon platform      | [@zhengzengkai](https://gitee.com/zhengzengkai) [@hanliyang](https://gitee.com/hanliyang) |
 | 飞腾   | phytium platform     | [@zhengzengkai](https://gitee.com/zhengzengkai)  |
 | 树莓派 | raspberrypi-kernel                                | [@woqidaideshi](https://gitee.com/woqidaideshi) |
 | ACPI   | drivers/acpi/                                                | [@guohanjun](https://gitee.com/hanjun_guo) [@wangxiongfeng](https://gitee.com/wangxiongfeng) |
@@ -97,7 +97,7 @@
 | sssraid  | Documentation/scsi/sssraid.rst<br/>drivers/scsi/sssraid/| steven.song@3snic.com |
 | sssnic   | Documentation/networking/device_drivers/ethernet/3snic/sssnic/sssnic.rst<br/>drivers/net/ethernet/3snic/sssnic| steven.song@3snic.com |
 | ras   | drivers/ras/<br/>drivers/acpi/apei/<br/>drivers/firmware/efi/cper.c| [@hunan4222](https://gitee.com/hunan4222) |
-
+| ccp hygon   | drivers/crypto/ccp/hygon<br/>include/uapi/linux/psp-hygon.h  | [@hanliyang](https://gitee.com/hanliyang) |
 
 
 ## Notes
