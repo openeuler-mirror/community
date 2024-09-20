@@ -1,0 +1,7 @@
+name: fwts
+description: Test and verify computer firmware (such as BIOS and UEFI). It is mainly used to detect the compatibility, stability and compliance of firmware with standards. 
+upstream: https://github.com/fwts/fwts
+branches:
+- name: master
+  type: protected
+type: public
