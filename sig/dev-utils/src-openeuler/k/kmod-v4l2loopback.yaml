@@ -1,0 +1,7 @@
+name: kmod-v4l2loopback
+description: 'v4l2loopback is a virtual video device kernel module'
+upstream: https://github.com/umlaeute/v4l2loopback
+branches:
+- name: master
+  type: protected
+type: public
