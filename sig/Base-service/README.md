@@ -13,11 +13,12 @@
 - 朱健伟[@zhujianwei001](https://gitee.com/zhujianwei001)
 - 谢志鹏[@xiezhipeng1](https://gitee.com/xiezhipeng1)
 - 李次华[@licihua](https://gitee.com/licihua)
+- 沈洋洋[@shenyangyang01](https://gitee.com/shenyangyang01)
 
 
 ### Committer列表
 - 朱春意[@zhuchunyi](https://gitee.com/zhuchunyi)
-- 沈洋洋[@openeuler-basic](https://gitee.com/openeuler-basic)
+- 沈洋洋[@shenyangyang01](https://gitee.com/shenyangyang01)
 - 吕颖[@lvying6](https://gitee.com/lvying6)
 - 胡彬[@hubin95](https://gitee.com/hubin95)
 - 高若姝[@gaoruoshu](https://gitee.com/gaoruoshu)
