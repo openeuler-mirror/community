@@ -104,7 +104,7 @@ repositories:
   contributors:
   - gitee_id: infra_superman
     name: Clark_Ken
-    orgnization: Justice_L
+    organization: Justice_L
     email: zzzzzzz@openeuler.org
 ```
 
