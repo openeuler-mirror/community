@@ -1,0 +1,10 @@
+name: kpmcore
+description: Library for managing partitions by KDE programs
+upstream: https://github.com/KDE/kpmcore.git
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.09
+  type: protected
+  create_from: master
+type: public

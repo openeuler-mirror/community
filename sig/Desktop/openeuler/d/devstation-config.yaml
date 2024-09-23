@@ -1,0 +1,9 @@
+name: devstation-config
+description: config and shortcut for devstation
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.09
+  type: protected
+  create_from: master
+type: public
