@@ -31,6 +31,7 @@ openEuler QA(质量保障)项目团队致力于如何更好的提升openEuler社
 - yaoxiyao(@yaoxiyao),since March 2024
 - yuyongkang(@yuyongkangnaruto),since March 2024
 - lixiaodong(@Algernon67),since July 2024
+- liangya(@wenjunryou),since September 2024
 
 # 联系方式
 - [邮件列表](mailto:qa@openeuler.org)
