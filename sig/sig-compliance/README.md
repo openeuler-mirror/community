@@ -32,11 +32,10 @@ openEuler集成依赖了上游数千个开源组件，组件和组件之间也�
 ### Maintainer列表
 
 - 高琨[@king-gao](https://gitee.com/king-gao),*king.gao@huawei.com*
-- 马全一[@genedna](https://gitee.com/genedna),*eli@patch.sh*
 - 魏建刚[@bugflyfly](https://gitee.com/bugflyfly),*wei_jiangang@hoperun.com*
 - 许渊聪[@sectrend_xyc](https://gitee.com/sectrend_xyc), *yuancong.xu@sectrend.com.cn*
-- 王悦良[@wangyueliang](https://gitee.com/wangyueliang), *wangyueliang@kylinos.cn*
 - 陈一雄[@YixiongChen](https://gitee.com/YixiongChen),*975102023@qq.com*
+- 丁紫薇[@dingdingaaaaa](https://gitee.com/dingdingaaaaa),*dingziwei@kylinos.cn*
 
 ### Committer列表
 
