@@ -1,38 +1,31 @@
 name: ai
-description: The ai sig aims to build digital infrastructure AI ecological chain, provide built-in AI framework training/reasoning software, and build AI related software maintenance capabilities
+description: Build an AI infrastructure framework to provide key capabilities such as unified access of southbound XPUs (such as CPUs, GPUs, and NPUs), heterogeneous converged memory, heterogeneous converged virtualization, computing power segmentation, training resource priority configuration, and elastic migration. Enables full-stack adaptation of AI applications and helps enterprises build AI infrastructure solutions in scenarios such as training and promotion acceleration and hybrid deployment of training and promotion.
 created_on: '2022-04-11'
-mailing_list: ai@openeuler.org
+mailing_list: ai-infra@openeuler.org
 meeting_url: https://etherpad.openeuler.org/p/ai-meetings
 mature_level: startup
 maintainers:
-- gitee_id: bb-king
-  name: huangzhipeng
+- gitee_id: jimmy_hero
+  name: dukaitian
   organization: Huawei
-  email: huangzhipeng@huawei.com
-- gitee_id: zhunaipan
-  name: zhunaipan
+  email: dukaitian@huawei.com
+- gitee_id: weixizhu94
+  name: zhuweixi
   organization: Huawei
-  email: zhunaipan@huawei.com
+  email: weixi.zhu@huawei.com
 - gitee_id: sinever
   name: zhengxian
   organization: Huawei
   email: sinever@126.com
-- gitee_id: nicholas_yhr
-  name: yanghaoran
-  organization: Huawei
-  email: yanghaoran2@huawei.com
-- gitee_id: henryshi1
-  name: shixinyu
-  organization: Huawei
-  email: shixinyu1@huawei.com
-- gitee_id: guoqi1024
-  name: guoqi
-  organization: Huawei
-  email: guoqi5@huawei.com
-- gitee_id: kingxian
-  name: jinxiaoxian
-  organization: Huawei
-  email: jinxiaoxian@huawei.com
+- gitee_id: zhushoukui
+  name: zhushoukui
+  organization: JD
+  email: zhushoukui1@jd.com
+- gitee_id: anhongkui
+  name: anhongkui
+  organization: JD
+  email: anhongkui@jd.com
+
 repositories:
 - repo:
   - src-openeuler/incubator-mxnet
@@ -56,7 +49,6 @@ repositories:
   - src-openeuler/opennn
   - src-openeuler/okhttp
   - src-openeuler/mlpack
-  - src-openeuler/mindspore
   - src-openeuler/ComputeLibrary
   - src-openeuler/dlib
   - src-openeuler/eigen
@@ -72,3 +64,10 @@ repositories:
   - src-openeuler/prrte
   - src-openeuler/jieba
   - src-openeuler/python-notebook
+
+- repo:
+  - src-openeuler/mindspore
+  committers:
+  - gitee_id: zhunaipan
+    name: zhunaipan
+    email: zhunaipan@huawei.com

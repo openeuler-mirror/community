@@ -1,18 +1,12 @@
 
 # Application to create a new SIG
-English | [简体中文](./bigdata_cn.md)
+English | [简体中文](./ai_cn.md)
 
 
 Note: The Charter of this SIG follows the convention described in the openEuler charter [README] (/en/governance/README.md), and follows [SIG-governance] (/en/technical-committee/governance/SIG-governance.md).
- 
-# SIG Mission
-AI has been applied to many areas of the society and be used in all walks of life to improve productivity. There are many enthusiasts outside the industry and academia. To better support enthusiasts and developers in scientific research institutes and production enterprises to quickly and better practice AI on OpenEuler, It is necessary to build AI-related capabilities.
 
-# Service scope
-- Build an AI ecosystem for digital infrastructure and collaborate with chip vendors and third-party AI frameworks to develop the AI industry, including AI+big data/HPC/search convergence.
-- Provides built-in AI framework training/inference software to enable openEuler ecosystem partners to quickly explore AI-related technologies based on built-in AI capabilities.
-- Build AI-related software maintenance capabilities to ensure the supply security and future evolution.
-- Collaborate with communities such as MindSpore and openEuler to jointly contribute to the developer ecosystem.
+# SIG Mission
+- Build an AI infrastructure framework to provide key capabilities such as unified access of southbound XPUs (such as CPUs, GPUs, and NPUs), heterogeneous converged memory, heterogeneous converged virtualization, computing power segmentation, training resource priority configuration, and elastic migration. Enables full-stack adaptation of AI applications and helps enterprises build AI infrastructure solutions in scenarios such as training and promotion acceleration and hybrid deployment of training and promotion.
 
 # Repositories and description managed by this SIG
 
@@ -68,13 +62,11 @@ AI has been applied to many areas of the society and be used in all walks of lif
 # Basic Information
 
 ## Maintainers
-- bb-king
+- jimmy_hero
+- weixizhu94
 - sinever
-- zhunaipan
-- nicholas_yhr
-- liuyang_655
-- guoqi1024
-- kingxian
+- zhushoukui
+- anhongkui
 
 ## Committers
 
