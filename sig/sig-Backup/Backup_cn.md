@@ -28,7 +28,9 @@
 - 和建凡@he-jianfan     2243613854@qq.com
 - 邓博文@d-born         1185498427@qq.com
 - 徐建平@henry_xjp      552734199@qq.com
-- 严密@yami2            676119435@qq.com 
+- 严密@yami2            676119435@qq.com
+- 刘滔@liu_tao12138     2635996510@qq.com
+- 刘星宇@unistarverse   1083926298@qq.com
 
 # 项目清单
 
@@ -37,3 +39,4 @@
 - 项目名称：eBackup
      - 交付件形式：源码、二进制发布包、开源资料
      - repository1名称：https://gitee.com/openeuler/open-eBackup
+     - repository2名称：https://gitee.com/openeuler/LiveUI
