@@ -1,0 +1,7 @@
+name: security-baseline
+description: Hardening the system security to ensure that the system complies with various security hardening baselines to improve system security. Supports system security hardening, rollback, and detection, such as user account Settings and system service hardening.
+upstream: https://gitee.com/openeuler/security-baseline
+branches:
+- name: master
+  type: protected
+type: public
