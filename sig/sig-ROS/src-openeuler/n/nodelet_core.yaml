@@ -58,4 +58,7 @@ branches:
 - name: openEuler-24.09
   type: protected
   create_from: master
+- name: Multi-Version_ros-noetic_openEuler-24.09
+  type: protected
+  create_from: noetic
 type: public

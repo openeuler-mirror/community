@@ -19,4 +19,7 @@ branches:
 - name: Multi-Version_ros-noetic_openEuler-24.03-LTS
   type: protected
   create_from: Multi-Version_ros-noetic_openEuler-24.03-LTS-Next
+- name: Multi-Version_ros-noetic_openEuler-24.09
+  type: protected
+  create_from: noetic
 type: public
