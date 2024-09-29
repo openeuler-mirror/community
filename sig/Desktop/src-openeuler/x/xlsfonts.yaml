@@ -1,0 +1,7 @@
+name: xlsfonts
+description: 'xlsfonts lists fonts available from an X server via the X11 core protocol.'
+upstream: https://gitlab.freedesktop.org/xorg/app/xlsfonts
+branches:
+- name: master
+  type: protected
+type: public
