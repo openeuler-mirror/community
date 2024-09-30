@@ -6,4 +6,7 @@ description: The Xenomai Cobalt real-time core depends on a patch to the mainlin
 branches:
 - name: master
   type: protected
+- name: linux6.6-base-dev
+  type: protected
+  create_from: master
 type: public
