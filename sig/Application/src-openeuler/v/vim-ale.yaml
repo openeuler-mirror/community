@@ -1,0 +1,7 @@
+name: vim-ale
+upstream: https://github.com/dense-analysis/ale
+description: ALE (Asynchronous Lint Engine) is a plugin providing linting (syntax checking and semantic errors) in %{- n*} while you edit your text files, and acts as a Vim Language Server Protocol client.
+branches:
+- name: master
+  type: protected
+type: public
