@@ -1,0 +1,7 @@
+name: llvm-libc
+description: LLVM's C standard library
+upstream: https://github.com/llvm/llvm-project
+branches:
+- name: master
+  type: protected
+type: public
