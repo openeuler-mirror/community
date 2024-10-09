@@ -63,6 +63,8 @@ English | [简体中文](./README_cn.md)
 
   - [intel-openvino](https://gitee.com/openeuler/intel-openvino): Intel OpenVINO projects portal in openEuler
 
+  - [openvino](https://gitee.com/src-openeuler/openvino): OpenVINO packages for openEuler
+
   - [intel-qat](https://gitee.com/openeuler/intel-qat): Intel QuickAssist Technology(QAT) projects portal in openEuler
 
   - [accel-config](https://gitee.com/src-openeuler/accel-config): Utility library for controlling and configuring Intel DSA(Data Streaming Accelerator) and IAA(Intel Analytics Accelerator) sub-systems.
