@@ -1,0 +1,7 @@
+name: rust-cbindgen
+description: Tool for generating C bindings to Rust code
+upstream: https://crates.io/crates/cbindgen/
+branches:
+- name: master
+  type: protected
+type: public

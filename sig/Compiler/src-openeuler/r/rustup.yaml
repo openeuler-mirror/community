@@ -1,0 +1,7 @@
+name: rustup
+description: The Rust toolchain installer
+upstream: https://github.com/rust-lang/rustup
+branches:
+- name: master
+  type: protected
+type: public
