@@ -1,0 +1,11 @@
+name: mate-menu
+description: An advanced menu for MATE. Supports filtering, favorites,
+             auto-session, and many other features.
+             This menu originated in the Linux Mint distribution and has
+             been ported to other distributions that ship the MATE Desktop
+             Environment.
+upstream: https://github.com/ubuntu-mate/mate-menu
+branches:
+- name: master
+  type: protected
+type: public
