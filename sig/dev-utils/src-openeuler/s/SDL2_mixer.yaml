@@ -1,0 +1,7 @@
+name: SDL2_mixer
+description: It supports 8 channels of 16 bit stereo audio, plus a single channel of music. It can load FLAC, MP3, Ogg, VOC, and WAV format audio.
+upstream: https://github.com/libsdl-org/SDL_mixer
+branches:
+- name: master
+  type: protected
+type: public

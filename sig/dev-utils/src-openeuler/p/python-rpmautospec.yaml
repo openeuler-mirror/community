@@ -1,0 +1,8 @@
+name: python-rpmautospec
+description: It simplifies the process of creating and maintaining these files by automatically extracting relevant information from source code and documentation.
+upstream: https://github.com/fedora-infra/rpmautospec
+branches:
+- name: master
+  type: protected
+type: public
+platform: github
