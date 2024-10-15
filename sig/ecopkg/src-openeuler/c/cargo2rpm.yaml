@@ -1,6 +1,6 @@
-name: rust-srpm-macros
-description: RPM macros and generators for building Rust packages
-upstream: https://pagure.io/fedora-rust/rust-packaging
+name: cargo2rpm
+description: Translation layer between cargo and RPM
+upstream: https://pagure.io/fedora-rust/cargo2rpm
 branches:
 - name: master
   type: protected
