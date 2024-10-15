@@ -1,0 +1,9 @@
+name: liteview
+description: A web browser running on a domestic operating system
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.09
+  type: protected
+  create_from: master
+type: public
