@@ -1,0 +1,7 @@
+name: c-blosc2
+description: Blosc is a high performance compressor optimized for binary data (i.e. floating point numbers, integers and booleans, although it can handle string data too). 
+upstream: https://github.com/Blosc/c-blosc2
+branches:
+- name: master
+  type: protected
+type: public
