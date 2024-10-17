@@ -62,6 +62,8 @@
 
   - [intel-openvino](https://gitee.com/openeuler/intel-openvino): Intel OpenVINO在openEuler的仓库入口
 
+  - [openvino](https://gitee.com/src-openeuler/openvino): OpenVINO在openEuler上相关的软件包
+
   - [intel-qat](https://gitee.com/openeuler/intel-qat): Intel QuickAssist Technology(QAT)在openEuler的仓库入口
 
   - [accel-config](https://gitee.com/src-openeuler/accel-config): Intel DSA(Data Streaming Accelerator)和IAA(Intel Analytics Accelerator)配置工具库
