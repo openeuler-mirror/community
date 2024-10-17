@@ -50,6 +50,7 @@ Please [readme](./Vision-en.md)
 - 李辉松[@li-huisong](https://gitee.com/li-huisong) email: lihuisong@huawei.com
 - xiesongyang[@supercharge](https://gitee.com/supercharge) email: xiesongyang@huawei.com
 - 朱俊豪[@compile_success](https://gitee.com/compile_success) email: zhujunhao11@huawei.com
+- 万峰[@kywanfeng](https://gitee.com/kywanfeng) email: wanfeng@kylinos.cn
 
 #### UMDK 项目 Committer 列表
 - qianguoxin[@qianguoxin](https://gitee.com/qianguoxin) email: qianguoxin@huawei.com
