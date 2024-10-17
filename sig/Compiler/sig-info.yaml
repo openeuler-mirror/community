@@ -341,7 +341,27 @@ repositories:
     email: liyunfei33@huawei.com
 - repo:
   - src-openeuler/llvm-libc
-  
+
+#################################################
+# Rust repos
+#################################################
+- repo:
+  - src-openeuler/rust
+  - src-openeuler/rustup
+  - src-openeuler/rust-packaging
+  - src-openeuler/rust-cbindgen
+  - src-openeuler/rust-bindgen
+  - src-openeuler/Xline
+  committers:
+  - gitee_id: wk333
+    name: kai Wang
+    organization: NCTI
+    email: 13474090681@163.com
+  - gitee_id: jchzhou
+    name: Jiacheng Zhou
+    organization: iscas
+    email: zhoujiacheng@iscas.ac.cn
+
 #################################################
 # miscellaneous repos
 #################################################

@@ -36,6 +36,11 @@
 |[src-openeuler/classic-flang](https://gitee.com/src-openeuler/classic-flang) | 罗峰[@luofeng14](https://gitee.com/luofeng14) |
 |[openeuler/BiSheng-Autotuner](https://gitee.com/openeuler/BiSheng-Autotuner) <br/> [src-openeuler/BiSheng-Autotuner](https://gitee.com/src-openeuler/BiSheng-Autotuner) <br/> [src-openeuler/BiSheng-opentuner](https://gitee.com/src-openeuler/BiSheng-opentuner) | 李云飞[@liyunfei33](https://gitee.com/liyunfei33) |
 
+## Rust repos
+| Repo <img width=270/>                       | Committer(s) <img width=270/>                     |
+| -------------------------- | --------------------------------- |
+| [src-openeuler/rust](https://gitee.com/src-openeuler/rust) <br/> [src-openeuler/rustup](https://gitee.com/src-openeuler/rustup) <br/> [src-openeuler/rust-packaging](https://gitee.com/src-openeuler/rust-packaging) <br/> [src-openeuler/rust-cbindgen](https://gitee.com/src-openeuler/rust-cbindgen) <br/> [src-openeuler/rust-bindgen](https://gitee.com/src-openeuler/rust-bindgen) <br/> [src-openeuler/Xline](https://gitee.com/src-openeuler/Xline) | 王凯[@wk333](https://gitee.com/wk333) email: 13474090681@163.com <br/> 周嘉诚[@jchzhou](https://gitee.com/jchzhou) email: zhoujiacheng@iscas.ac.cn |
+
 ## Miscellaneous repos
 | Repo <img width=270/>                       | Committer(s) <img width=270/>                     |
 | -------------------------- | --------------------------------- |
