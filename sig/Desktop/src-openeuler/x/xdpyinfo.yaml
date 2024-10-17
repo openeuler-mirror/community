@@ -1,0 +1,7 @@
+name: xdpyinfo
+description: 'xdpyinfo is a utility for displaying information about an X server.'
+upstream: https://gitlab.freedesktop.org/xorg/app/xdpyinfo
+branches:
+- name: master
+  type: protected
+type: public

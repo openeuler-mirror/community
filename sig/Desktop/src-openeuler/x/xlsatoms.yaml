@@ -1,0 +1,7 @@
+name: xlsatoms
+description: 'xlsatoms lists the interned atoms defined on an X11 server.'
+upstream: https://gitlab.freedesktop.org/xorg/app/xlsatoms
+branches:
+- name: master
+  type: protected
+type: public
