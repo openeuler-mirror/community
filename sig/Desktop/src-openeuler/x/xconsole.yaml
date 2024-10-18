@@ -1,0 +1,7 @@
+name: xconsole
+description: 'displays /dev/console messages in an X window'
+upstream: https://gitlab.freedesktop.org/xorg/app/xconsole
+branches:
+- name: master
+  type: protected
+type: public
