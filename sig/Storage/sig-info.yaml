@@ -68,7 +68,6 @@ repositories:
   - src-openeuler/pciutils
   - src-openeuler/blktrace
   - src-openeuler/usbredir
-  - src-openeuler/lvm2
   - src-openeuler/dmraid
   - src-openeuler/libtalloc
   - src-openeuler/quota
@@ -77,7 +76,6 @@ repositories:
   - src-openeuler/libtevent
   - src-openeuler/gdisk
   - src-openeuler/glusterfs
-  - src-openeuler/multipath-tools
   - src-openeuler/sysfsutils
   - src-openeuler/smp_utils
   - src-openeuler/squashfs-tools
@@ -101,8 +99,6 @@ repositories:
   - src-openeuler/bcache-tools
   - src-openeuler/filebench
   - src-openeuler/liburing
-  - openeuler/etmem
-  - src-openeuler/etmem
   - openeuler/extfuse
   - src-openeuler/extfuse
   - openeuler/stortrace
@@ -145,3 +141,22 @@ repositories:
     name: Deyuan Fan
     organization: KylinSoft
     email: fandeyuan@kylinos.cn
+
+- repo:
+  - src-openeuler/multipath-tools
+  - src-openeuler/lvm2
+  committers:
+  - gitee_id: kouwq
+    name: Wenqi Kou
+    organization: KylinSoft
+    email: kouwenqi@kylinos.cn
+
+- repo:
+  - src-openeuler/etmem
+  - openeuler/etmem
+  committers:
+  - gitee_id: ezli
+    name: Enze Li
+    organization: KylinSoft
+    email: lienze@kylinos.cn
+
