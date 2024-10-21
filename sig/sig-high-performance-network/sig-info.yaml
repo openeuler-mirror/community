@@ -72,6 +72,10 @@ repositories:
     name: compile_success
     organization: huawei
     email: zhujunhao11@huawei.com
+  - gitee_id: kywanfeng
+    name: wanfeng
+    organization: kylin
+    email: wanfeng@kylinos.cn
 - repo:
   - src-openeuler/rdma-core
   - src-openeuler/perftest
@@ -80,10 +84,3 @@ repositories:
     name: Chengchang Tang
     organization: huawei
     email: tangchengchang@huawei.com
-- repo:
-  - src-openeuler/lwip
-  committers:
-  - gitee_id: kywanfeng
-    name: wanfeng
-    organization: kylin
-    email: wanfeng@kylinos.cn
