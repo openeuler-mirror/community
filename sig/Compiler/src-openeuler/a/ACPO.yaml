@@ -1,0 +1,10 @@
+name: ACPO
+description: ACPO(AI-Enabled Compiler-Driven Program Optimization) is a novel framework to provide LLVM with simple and comprehensive tools to benefit from employing ML models for different optimization passes.
+upstream: https://github.com/Huawei-CPLLab/ACPO
+type: public
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.03-LTS
+  type: protected
+  create_from: master
