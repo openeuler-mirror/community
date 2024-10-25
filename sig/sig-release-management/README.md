@@ -28,6 +28,7 @@ You can find [Release management SIG meeting minutes](https://gitee.com/openeule
 - He Keyi [@hekeyi](https://gitee.com/hekeyi)
 - Ye Qinglong [@yeqinglong01](https://gitee.com/yeqinglong01)
 - Hou Fangdong [@SmallPegasus](https://gitee.com/SmallPegasus)
+- Jingwei wang [@Jingwiw](https://gitee.com/Jingwiw)
 
 **Extended member:**
 - Ming Pei [@dolphin-m](https://gitee.com/dolphin-m)
