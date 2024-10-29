@@ -1,5 +1,6 @@
 name: oeAware-manager
-description: Implement a plugin framework to manage collection,awareness,and tune plugins.
+description: Implement a plugin framework to manage collection,awareness,and tune
+  plugins.
 upstream: https://gitee.com/openeuler/oeAware-manager
 branches:
 - name: master
@@ -22,5 +23,7 @@ branches:
 - name: openEuler-24.09
   type: protected
   create_from: master
+- name: openEuler-24.03-LTS-SP1
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
 type: public
-

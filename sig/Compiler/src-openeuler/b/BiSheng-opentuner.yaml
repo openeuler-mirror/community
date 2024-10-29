@@ -1,5 +1,6 @@
 name: BiSheng-opentuner
-description: BiSheng-openTuner is a new framework for building domain-specific multi-objective program autotuners.
+description: BiSheng-openTuner is a new framework for building domain-specific multi-objective
+  program autotuners.
 upstream: https://github.com/Huawei-CPLLab/bisheng-opentuner
 branches:
 - name: master
@@ -13,4 +14,7 @@ branches:
 - name: openEuler-24.09
   type: protected
   create_from: master
+- name: openEuler-24.03-LTS-SP1
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
 type: public
