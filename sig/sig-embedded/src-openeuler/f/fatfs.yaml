@@ -1,0 +1,7 @@
+name: fatfs
+upstream: http://elm-chan.org/fsw/ff
+description: FatFs is an open-source file system for general-purpose FAT/exFAT file system modules for small embedded systems.
+branches:
+- name: master
+  type: protected
+type: public
