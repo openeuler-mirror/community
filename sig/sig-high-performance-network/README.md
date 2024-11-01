@@ -43,6 +43,7 @@ Please [readme](./Vision-en.md)
 - liuxin264@huawei.com
 - liyangyang20@huawei.com
 - jerry.lilijun@huawei.com
+- liangchangwei@kylinos.cn
 
 ### Committer列表
 
