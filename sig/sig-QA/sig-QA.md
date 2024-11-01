@@ -53,6 +53,7 @@ Committers
 - yaoxiyao(@yaoxiyao),since March 2024
 - yuyongkang(@yuyongkangnaruto),since March 2024
 - lixiaodong(@Algernon67),since July 2024
+- liangya(@wenjunryou),since September 2024
 
 ### Mailing list
 qa@openeuler.org
