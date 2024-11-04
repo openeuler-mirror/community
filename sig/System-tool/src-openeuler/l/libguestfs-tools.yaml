@@ -1,5 +1,6 @@
 name: libguestfs-tools
-description: 'A set of tools and libraries for accessing and modifying virtual machine disk image, which solating from libguestfs since 1.45.1'
+description: A set of tools and libraries for accessing and modifying virtual machine
+  disk image, which solating from libguestfs since 1.45.1
 upstream: https://download.libguestfs.org/guestfs-tools/
 branches:
 - name: master
@@ -14,6 +15,9 @@ branches:
   type: protected
   create_from: master
 - name: openEuler-24.03-LTS
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
+- name: openEuler-24.03-LTS-SP1
   type: protected
   create_from: openEuler-24.03-LTS-Next
 type: public

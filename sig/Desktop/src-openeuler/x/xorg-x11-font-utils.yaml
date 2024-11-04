@@ -1,5 +1,5 @@
 name: xorg-x11-font-utils
-description: 'X.Org font package creation/installation utilities'
+description: X.Org font package creation/installation utilities
 upstream: https://gitlab.freedesktop.org/xorg/font/util
 branches:
 - name: master
@@ -67,4 +67,7 @@ branches:
 - name: openEuler-24.09
   type: protected
   create_from: master
+- name: openEuler-24.03-LTS-SP1
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
 type: public
