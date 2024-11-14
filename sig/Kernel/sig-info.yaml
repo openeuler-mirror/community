@@ -11,9 +11,6 @@ maintainers:
 - gitee_id: zhengzengkai
   name: Zheng Zengkai
   email: zhengzengkai@huawei.com
-- gitee_id: gatieme
-  name: Cheng Jian
-  email: cj.chengjian@huawei.com
 - gitee_id: sanglipeng
   name: sanglipeng
   email: sanglipeng1@jd.com
@@ -165,9 +162,6 @@ repositories:
   - gitee_id: gouhao2022
     name: Gou Hao
     email: gouhao@uniontech.com
-  - gitee_id: zhangjialin11
-    name: Jialin Zhang
-    email: zhangjialin11@huawei.com
   - gitee_id: stkid
     name: Wei Li
     email: liwei391@huawei.com
@@ -259,6 +253,15 @@ repositories:
   - gitee_id: markyuan4ta2
     name: Yuan Can
     email: yuancan@huawei.com
+  - gitee_id: linan888
+    name: Li Nan
+    email: linan122@huawei.com
+  - gitee_id: flyingrunsnail
+    name: hu.yong
+    email: yong.hu@windriver.com
+  - gitee_id: kile2009
+    name: Wenkuan Wang
+    email: wenkuan.wang@amd.com
   contributors:
   - gitee_id: xuyanaasss
     name: Xu Yan
@@ -355,7 +358,7 @@ branches:
   - repo: src-openeuler/kernel
     branch: openEuler-22.03-LTS
   keeper:
-  - gitee_id: zhangjialin11
+  - gitee_id: linan888
 
 - repo_branch:
   - repo: openeuler/kernel
