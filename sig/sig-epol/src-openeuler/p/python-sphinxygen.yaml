@@ -1,0 +1,7 @@
+name: python-sphinxygen
+description: A script to read Doxygen XML output and emit ReST for Sphinx
+upstream: https://gitlab.com/drobilla/sphinxygen
+branches:
+- name: master
+  type: protected
+type: public
