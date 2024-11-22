@@ -1,0 +1,7 @@
+name: python-immutabledict
+upstream: https://github.com/corenting/immutabledict
+description: Immutable wrapper around dictionaries (a fork of frozendict)
+branches:
+- name: master
+  type: protected
+type: public

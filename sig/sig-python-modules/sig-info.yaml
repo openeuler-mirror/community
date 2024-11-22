@@ -1676,15 +1676,25 @@ repositories:
   - src-openeuler/python-jsmin
   - src-openeuler/python-regex
   - src-openeuler/python-email-validator
+  - src-openeuler/python-ruamel-yaml-split
+  - src-openeuler/python-starlette
+  - src-openeuler/python-pyogrio
+  - src-openeuler/python-nh3
+  - src-openeuler/python-jupyter-leaflet
+  - src-openeuler/python-jupyterlite-core
+  - src-openeuler/python-python-multipart
+  - src-openeuler/python-immutabledict
+  - src-openeuler/python-msgspec
+  - src-openeuler/python-safety-schemas
+  - src-openeuler/python-deepdiff
+  - src-openeuler/python-pydantic-core
+  - src-openeuler/python-paginate
+  - src-openeuler/python-mkdocs-get-deps
   committers:
   - gitee_id: desert-sailor
     name: Dongxing Wang
     organization: ThunderSoft
     email: dongxing.wang_a@thundersoft.com
-  - gitee_id: wangjie5911
-    name: Jie Wang
-    organization: iSoftStone
-    email: jiewangaw@isoftstone.com
 
 - repo:
   - src-openeuler/python-frontmatter
