@@ -1,7 +1,10 @@
 name: swoole
-description: 'This package is imported from EUR: https://eur.openeuler.openatom.cn//coprs/fundawang/import_or_test/package/swoole'
+description: 'Coroutine-based concurrency library for PHP'
 upstream: https://www.swoole.com/
 branches:
 - name: master
   type: protected
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
 type: public
