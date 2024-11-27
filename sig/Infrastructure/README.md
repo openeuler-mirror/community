@@ -74,3 +74,4 @@ repository地址：
 - [cve-manager](https://gitee.com/openeuler/cve-manager)
 - [EulerLauncher](httops://gitee.com/openeuler/eulerlauncher)
 - [EulerPublisher](httops://gitee.com/openeuler/eulerpublisher)
+- [EasysoftwareCommand](https://gitee.com/openeuler/easysoftware-command)
