@@ -36,12 +36,14 @@ openEuler QA(质量保障)项目团队致力于如何更好的提升openEuler社
   - rigorous
   - lemon-higgins
   - lutianxiong
-  - disnight,since December 2021
   - liu-zuo
   - yaoxiyao
   - yuyongkangnaruto
   - lixiaodong(@Algernon67),since July 2024
   - liangya(@wenjunryou),since September 2024
+  - zhujinlong(@zjl_long),since January 2023
+  - linqian(@linqian0322),since October 2024
+  - wujie(@jean9823),since July 2024
 
 
 邮件列表：
