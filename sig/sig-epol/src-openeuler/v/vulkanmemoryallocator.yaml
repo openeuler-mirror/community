@@ -1,0 +1,8 @@
+name: vulkanmemoryallocator
+description: VulkanMemoryAllocator is a library that simplifies and optimizes Vulkan memory management. By encapsulating complex operations such as memory allocation, pool management, and fragmentation handling, VMA makes it easier for developers to manage Vulkan memory resources, improving performance and reducing the likelihood of errors.
+upstream: https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator
+branches:
+- name: master
+  type: protected
+type: public
+platform: github
