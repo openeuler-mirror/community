@@ -20,8 +20,9 @@ openEuler QA(质量保障)项目团队致力于如何更好的提升openEuler社
 - rigorous
 - lemon-higgins
 - lutianxiong
-- disnight,since December 2021
 - liu-zuo
+- zhujinlong(@zjl_long),since January 2023
+- linqian(@linqian0322),since October 2024
 
 ### Committer列表
 - Air9(@air9),since january 2020
@@ -32,6 +33,7 @@ openEuler QA(质量保障)项目团队致力于如何更好的提升openEuler社
 - yuyongkang(@yuyongkangnaruto),since March 2024
 - lixiaodong(@Algernon67),since July 2024
 - liangya(@wenjunryou),since September 2024
+- wujie(@jean9823),since July 2024
 
 # 联系方式
 - [邮件列表](mailto:qa@openeuler.org)

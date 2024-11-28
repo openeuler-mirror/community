@@ -42,8 +42,9 @@ Maintainers
 - rigorous
 - lemon-higgins
 - lutianxiong
-- disnight,since December 2021
 - liu-zuo
+- zhujinlong(@zjl_long),since January 2023
+- linqian(@linqian0322),since October 2024
 
 Committers
 - Air9(@air9),since january 2020
@@ -54,6 +55,7 @@ Committers
 - yuyongkang(@yuyongkangnaruto),since March 2024
 - lixiaodong(@Algernon67),since July 2024
 - liangya(@wenjunryou),since September 2024
+- wujie(@jean9823),since July 2024
 
 ### Mailing list
 qa@openeuler.org
