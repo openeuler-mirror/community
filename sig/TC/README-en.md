@@ -35,13 +35,13 @@ The list of TC members is organized alphabetically by last name:
 - Wei Jiangang <wei_jiangang@hoperun.com> [[@bugflyfly](https://gitee.com/bugflyfly)]
 - Wu Fengguang <wufengguang@huawei.com> [[@wu_fengguang](https://gitee.com/wu_fengguang)]
 - Xie Xiuqi <xiexiuqi@huawei.com> [[@xiexiuqi](https://gitee.com/xiexiuqi)]
-- Xiong Wei <xiongwei888@huawei.com> [[@myeuler](https://gitee.com/myeuler)]
 - Zhao Chuanfeng<zhaochuanfeng@huawei.com> [[@cf-zhao](https://gitee.com/cf-zhao)]
 - Zhu Jianwei <zhujianwei7.huawei.com> [[@zhujianwei001](https://gitee.com/zhujianwei001)]
 
 ## Changes of 2024 TC Members
 - Bian Naimeng resigned from the committee in Apr. 2024, and Wei Jiangang took over this work as as TC member.
-- Hu Yadi resiged from the committee in May. 2024.
+- Hu Yadi resigned from the committee in May 2024.
+- Xiong Wei resigned from the committee in Nov. 2024.
 
 # 2023 TC Members
 
