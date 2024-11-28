@@ -36,13 +36,13 @@ openEuler技术委员会（Technical Committee，以下和TC互换使用）是op
 - 魏建刚<wei_jiangang@hoperun.com>[[@bugflyfly](https://gitee.com/bugflyfly)]
 - 吴峰光<wufengguang@huawei.com> [[@wu_fengguang](https://gitee.com/wu_fengguang)]
 - 谢秀奇<xiexiuqi@huawei.com> [[@xiexiuqi](https://gitee.com/xiexiuqi)]
-- 熊  伟<xiongwei888@huawei.com> [[@myeuler](https://gitee.com/myeuler)]
 - 赵川峰<zhaochuanfeng@huawei.com> [[@cf-zhao](https://gitee.com/cf-zhao)]
 - 朱健伟<zhujianwei7@huawei.com> [[@zhujianwei001](https://gitee.com/zhujianwei001)]
 
 ## 2024 年 TC 成员变更历史
 - 卞乃猛于2024年4月卸任，魏建刚接替TC委员工作。
 - 胡亚弟于2024年5月卸任.
+- 熊伟 于 2024年11月卸任.
 
 # 2023年TC成员
 - 卞乃猛<bian_naimeng@hoperun.com> [[@biannm](https://gitee.com/biannm)]
