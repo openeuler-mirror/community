@@ -12,6 +12,9 @@
 | sched  | include/linux/preempt.h<br/>include/linux/sched.h<br/>include/linux/wait.h<br/>include/uapi/linux/sched.h<br/>kernel/sched/              | [@oskernel0719](https://gitee.com/oskernel0719) |
 | PGO    | kernel/gcov/gcc_4_7.c<br/>kernel/gcov/gcc_base.c | liyancheng@huawei.com xiezhiheng@huawei.com |
 | irq    | driver/irqchip/irq-gic\*    | [@chris_zjh](https://gitee.com/chris_zjh) |
+| debugging | kernel/printk<br/>/kernel/trace<br/>kernel/kexec.c<br/>kernel/kexec_core.c<br/>kernel/watchdog.c<br/>kernel/kernel/watchdog_hld.c | [@yeweihua](https://gitee.com/yeweihua999) |
+| livepatch | kernel/livepatch        | [@xukuohai](https://gitee.com/xukuohai) [@yeweihua](https://gitee.com/yeweihua999) |
+
 
 ## arch
 
@@ -30,6 +33,7 @@
 | smmu   | drivers/iommu/arm-smmu\*<br />drivers/iommu/io-pgtable-arm\*   | [@ThunderTown](https://gitee.com/ThunderTown)       |
 | arm    | arch/arm/\*<br/>arch/arm64/\*    | [@chris_zjh](https://gitee.com/chris_zjh) |
 | powerpc | arch/powerpc/\*    | [@chris_zjh](https://gitee.com/chris_zjh) |
+| amd    | amd platform        | [@kile2009](https://gitee.com/kile2009) |
 
 ## Kunpeng
 | 模块<img width=40/>   | 文件<img width=300/>                       | Committer(s) <img width=200/>                     |
@@ -98,6 +102,14 @@
 | sssnic   | Documentation/networking/device_drivers/ethernet/3snic/sssnic/sssnic.rst<br/>drivers/net/ethernet/3snic/sssnic| steven.song@3snic.com |
 | ras   | drivers/ras/<br/>drivers/acpi/apei/<br/>drivers/firmware/efi/cper.c| [@hunan4222](https://gitee.com/hunan4222) |
 | ccp hygon   | drivers/crypto/ccp/hygon<br/>include/uapi/linux/psp-hygon.h  | [@hanliyang](https://gitee.com/hanliyang) |
+| lpfc     | drivers/scsi/lpfc           | [@flyingrunsnail](https://gitee.com/flyingrunsnail) |
+| qla2xxx  | drivers/scsi/qola2xxx       | [@flyingrunsnail](https://gitee.com/flyingrunsnail) |
+| mpt3sas  | drivers/scsi/mpt3sas        | [@flyingrunsnail](https://gitee.com/flyingrunsnail) |
+
+
+## tools
+| 模块<img width=40/>   | 文件<img width=300/>                       | Committer(s) <img width=200/>                     |
+| perf   | tools/perf<br/>tools/lib/perf\*    | [@SuperSix173](https://gitee.com/SuperSix173) |
 
 
 ## Notes
