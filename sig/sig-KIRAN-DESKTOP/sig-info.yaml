@@ -17,6 +17,10 @@ maintainers:
   name: LiuXinHao
   organization: KylinSec OS
   email: liuxinhao@kylinsec.com.cn
+- gitee_id: itisyang
+  name: YangFeng
+  organization: KylinSec OS
+  email: yangfeng@kylinsec.com.cn
 repositories:
 - repo:
   - src-openeuler/kiran-desktop
@@ -53,10 +57,6 @@ repositories:
   - src-openeuler/kiran-panel
   - src-openeuler/kiran-shell
   - src-openeuler/kiran-menu
-  committers:
-  - gitee_id: itisyang
-    name: YangFeng
-    email: yangfeng@kylinsec.com.cn
 
 - repo:
   - src-openeuler/kiran-authentication-service

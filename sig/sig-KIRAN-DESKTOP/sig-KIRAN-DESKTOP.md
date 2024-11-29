@@ -84,13 +84,13 @@ English | [简体中文](./sig-KIRAN-DESKTOP_cn.md)
 - stonefly128
 - tangjie02
 - liubuguiii
+- itisyang
 
 ### Committers
 
 - yuan__xing
 - luoqing_kylinsec
 - meizhigang
-- itisyang
 - wangyucheng1
 - chendingjian
 
