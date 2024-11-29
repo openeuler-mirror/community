@@ -99,6 +99,13 @@
 | ras   | drivers/ras/<br/>drivers/acpi/apei/<br/>drivers/firmware/efi/cper.c| [@hunan4222](https://gitee.com/hunan4222) |
 | ccp hygon   | drivers/crypto/ccp/hygon<br/>include/uapi/linux/psp-hygon.h  | [@hanliyang](https://gitee.com/hanliyang) |
 
+## coda
+
+| 模块<img width=40/>   | 文件<img width=300/>                       | Committer(s) <img width=200/>                     |
+| ---- | ------------------------------- | ------------ |
+| coda | drivers/coda/* | [@hejingxian](https://gitee.com/hejingxian) |
+| smmu | drivers/iommu/arm/arm-smmu-v3/arm-s-smmu-v3.c<br/>drivers/iommu/arm/arm-smmu-v3/arm-s-smmu-v3.h | [@hejingxian](https://gitee.com/hejingxian) |
+| arm  | arch/arm64/include/asm/kvm_tmi.h<br/>arch/arm64/include/asm/kvm_tmm.h<br/>arch/arm64/include/asm/virtcca_cvm_host.h<br/>arch/arm64/kernel/virtcca_cvm_host.c<br/>arch/arm64/kvm/tmi.c<br/>arch/arm64/kvm/virtcca_cvm.c<br/>arch/arm64/kvm/virtcca_cvm_exit.c<br/>arch/arm64/include/asm/virtcca_cvm_guest.h<br/>arch/arm64/include/asm/virtcca_cvm_smc.h<br/>arch/arm64/include/uapi/asm/virtcca_cvm_tsi.h<br/>arch/arm64/kernel/virtcca_cvm_guest.c<br/>arch/arm64/kernel/virtcca_cvm_tsi.c<br/> | [@hejingxian](https://gitee.com/hejingxian) |
 
 ## Notes
 * Linux 内核很庞大，社区需要更多的 Committer 参与开发和维护。
