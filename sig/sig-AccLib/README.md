@@ -63,6 +63,7 @@ repository地址：
 - https://gitee.com/openeuler/sra_test
 - https://gitee.com/openeuler/sra_tensorflow_adapter
 - https://gitee.com/openeuler/sra_scann_adapter
+- https://gitee.com/openeuler/sra_benchmark
 
 RPM包：
 
