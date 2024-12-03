@@ -24,7 +24,7 @@ You can find [Release management SIG meeting minutes](https://gitee.com/openeule
 - Huang Chengpiao [@paul-huang](https://gitee.com/paul-huang)
 - Che Mingdao [@gitee-cmd](https://gitee.com/gitee-cmd)
 - Zeng Weifeng [@zengwefeng](https://gitee.com/zengwefeng)
-- Lin PeiFeng [@linfong](https://gitee.com/linfong)
+- Lee Qian [@kylinlq](https://gitee.com/kylinlq)
 - He Keyi [@hekeyi](https://gitee.com/hekeyi)
 - Ye Qinglong [@yeqinglong01](https://gitee.com/yeqinglong01)
 - Hou Fangdong [@SmallPegasus](https://gitee.com/SmallPegasus)
