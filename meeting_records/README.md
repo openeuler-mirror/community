@@ -35,9 +35,9 @@ And you can find all the open and help needed tasks from [the wiki](https://gite
 
 * Review the actions from last meetings
 
-* Review the isseus from the community
+* Review the issues from the community
 
-    Review the issues and talk on any issues we would to higlight.
+    Review the issues and talk on any issues we would to highlight.
 
 * Review the pull requests from the community
 
