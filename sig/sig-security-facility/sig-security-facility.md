@@ -94,6 +94,7 @@ What and in what form the SIG is responsible for delivering
   - src-openeuler/nss-pem
   - src-openeuler/tpm2-abrmd-selinux
   - src-openeuler/strongswan
+  - src-openeuler/openhitls
 
 
 ### Repositories and description managed by this SIG

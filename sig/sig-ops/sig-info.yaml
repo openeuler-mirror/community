@@ -53,10 +53,6 @@ repositories:
 - repo:
   - openeuler/nvwa
   - src-openeuler/nvwa
-  - openeuler/PilotGo
-  - src-openeuler/PilotGo
-  - openeuler/PilotGo-plugins
-  - openeuler/PilotGo-web
   - openeuler/sysmonitor
   - src-openeuler/sysmonitor
   - openeuler/kbox
@@ -259,6 +255,10 @@ repositories:
     organization: Huawei
     email: xiaobo.liu@huawei.com
 - repo:
+  - openeuler/PilotGo
+  - src-openeuler/PilotGo
+  - openeuler/PilotGo-plugins
+  - openeuler/PilotGo-web
   - openeuler/PilotGo-plugin-redis
   - openeuler/PilotGo-plugin-mysql
   - openeuler/PilotGo-plugin-gala-ops

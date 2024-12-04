@@ -1,0 +1,7 @@
+name: python-ruamel-yaml-split
+upstream: https://sourceforge.net/p/ruamel-yaml-split
+description: YAML document splitter, with iterator that returns document, start linenumber and optionally data
+branches:
+- name: master
+  type: protected
+type: public

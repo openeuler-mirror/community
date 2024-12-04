@@ -61,3 +61,4 @@ sig-security主要讨论在openEuler社区版本中已有或未来规划的安�
   - src-openeuler/nss-pem
   - src-openeuler/tpm2-abrmd-selinux
   - src-openeuler/strongswan
+  - src-openeuler/openhitls

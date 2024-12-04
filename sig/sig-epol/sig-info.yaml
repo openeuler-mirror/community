@@ -43,13 +43,59 @@ repositories:
   - src-openeuler/php-pear
   - src-openeuler/zipkin
   - src-openeuler/gnustep-base
+  - src-openeuler/flexiblas
+  - src-openeuler/fbset
+  - src-openeuler/fbida
+  - src-openeuler/rust-srpm-macros
+  - src-openeuler/libdca
+  - src-openeuler/libtiger
+  - src-openeuler/libmatroska
+  - src-openeuler/librttopo
+  - src-openeuler/lilv
+  - src-openeuler/libdvbpsi
+  - src-openeuler/libmp4v2
+  - src-openeuler/libspatialaudio
+  - src-openeuler/libcaca
+  - src-openeuler/lirc
+  - src-openeuler/libfreenect
+  - src-openeuler/live555
+  - src-openeuler/libopenmpt
+  - src-openeuler/eigen3
+  - src-openeuler/dcmtk
+  - src-openeuler/daala
+  - src-openeuler/vmaf
+  - src-openeuler/vlc
+  - src-openeuler/vapoursynth
+  - src-openeuler/vtk
+  - src-openeuler/scalapack
+  - src-openeuler/scotch
+  - src-openeuler/sord
+  - src-openeuler/sratom
+  - src-openeuler/serd
+  - src-openeuler/cliquer
+  - src-openeuler/compat-lua
+  - src-openeuler/coin-or-cbc
+  - src-openeuler/python-jedi
+  - src-openeuler/mumps
+  - src-openeuler/man2html
+  - src-openeuler/glslang
+  - src-openeuler/gdcm
+  - src-openeuler/gpac
+  - src-openeuler/a52dec
+  - src-openeuler/librsync
+  - src-openeuler/ceres-solver
   committers:
   - gitee_id: Lostwayzxc
     name: Luo Shengwei
     organization: huawei
     email: luoshengwei@huawei.com
+  - gitee_id: lyn1001
+    name: yanan Li
+    email: liyanan61@h-partners.com
+  - gitee_id: cherry530
+    name: ping Xu
+    email: 707078654@qq.com
 - repo:
-  - src-openeuler/librsync
   - src-openeuler/libtorrent
   - src-openeuler/pugixml
   - src-openeuler/msgpack-c
@@ -73,79 +119,39 @@ repositories:
 - repo:
   - src-openeuler/nauty
   - src-openeuler/netcdf-cxx
-  - src-openeuler/flexiblas
-  - src-openeuler/fbset
-  - src-openeuler/fbida
   - src-openeuler/faad2
-  - src-openeuler/rust-srpm-macros
   - src-openeuler/id3lib
   - src-openeuler/blis
-  - src-openeuler/libdca
   - src-openeuler/libunicap
   - src-openeuler/lv2
-  - src-openeuler/libtiger
-  - src-openeuler/libmatroska
   - src-openeuler/libcddb
   - src-openeuler/libucil
-  - src-openeuler/librttopo
-  - src-openeuler/lilv
-  - src-openeuler/libdvbpsi
   - src-openeuler/libcec
-  - src-openeuler/libmp4v2
-  - src-openeuler/libspatialaudio
   - src-openeuler/libebml
   - src-openeuler/libmysofa
-  - src-openeuler/libcaca
   - src-openeuler/libmicrodns
-  - src-openeuler/lirc
   - src-openeuler/libharu
-  - src-openeuler/libfreenect
-  - src-openeuler/live555
-  - src-openeuler/libopenmpt
   - src-openeuler/libdc1394
   - src-openeuler/librx
-  - src-openeuler/eigen3
-  - src-openeuler/dcmtk
-  - src-openeuler/daala
-  - src-openeuler/vmaf
-  - src-openeuler/vlc
-  - src-openeuler/vapoursynth
-  - src-openeuler/vtk
-  - src-openeuler/scalapack
   - src-openeuler/sparsehash
   - src-openeuler/sysconftool
-  - src-openeuler/scotch
-  - src-openeuler/sord
   - src-openeuler/schroedinger
-  - src-openeuler/sratom
-  - src-openeuler/serd
   - src-openeuler/coin-or-vol
   - src-openeuler/coin-or-dylp
   - src-openeuler/coin-or-sample
   - src-openeuler/coin-or-coinutils
-  - src-openeuler/cliquer
   - src-openeuler/coin-or-osi
   - src-openeuler/coin-or-cgl
-  - src-openeuler/ceres-solver
   - src-openeuler/coin-or-data-netlib
-  - src-openeuler/compat-lua
   - src-openeuler/coin-or-data-miplib3
-  - src-openeuler/coin-or-cbc
   - src-openeuler/coin-or-clp
   - src-openeuler/python-sphinx_lv2_theme
   - src-openeuler/platform
-  - src-openeuler/python-jedi
   - src-openeuler/mpi4py
   - src-openeuler/mp
-  - src-openeuler/mumps
-  - src-openeuler/man2html
   - src-openeuler/gecode
-  - src-openeuler/glslang
-  - src-openeuler/gdcm
-  - src-openeuler/gpac
   - src-openeuler/openslide
   - src-openeuler/asdcplib
-  - src-openeuler/a52dec
   - src-openeuler/arpack
 
 - repo:
@@ -170,4 +176,13 @@ repositories:
   - gitee_id: hongxintml
     name: Hong Xin
     organization: tmlake
-    email: hongxina@tmlake.com 
+    email: hongxina@tmlake.com
+- repo:
+  - src-openeuler/google-crc32c
+  - src-openeuler/highway
+  - src-openeuler/vulkanmemoryallocator
+  committers:
+  - gitee_id: Jingwiw
+    name: Jingwei Wang
+    organization: iscas
+    email: wangjingwei@iscas.ac.cn 

@@ -1,0 +1,10 @@
+name: powerdevil
+description: Manages the power consumption settings of a Plasma Shell
+upstream: https://github.com/KDE/powerdevil
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

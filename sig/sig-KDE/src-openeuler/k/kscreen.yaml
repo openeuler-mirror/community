@@ -1,0 +1,10 @@
+name: kscreen
+description: KDE Display Management software
+upstream: https://github.com/KDE/kscreen
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

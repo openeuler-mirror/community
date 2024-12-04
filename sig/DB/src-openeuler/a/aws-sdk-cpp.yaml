@@ -1,0 +1,13 @@
+name: aws-sdk-cpp
+description: The AWS SDK for C++ provides a modern C++ (version C++ 11 or later) interface for Amazon Web Services (AWS).
+upstream: https://github.com/aws/aws-sdk-cpp.git
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-24.03-LTS-SP1
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
+type: public

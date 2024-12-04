@@ -1,0 +1,7 @@
+name: python-mkdocs-get-deps
+upstream: https://github.com/mkdocs/get-deps
+description: MkDocs extension that lists all dependencies according to a mkdocs.yml file
+branches:
+- name: master
+  type: protected
+type: public
