@@ -13,13 +13,13 @@
 - stonefly128
 - tangjie02
 - liubuguiii
+- itisyang
 
 ### Committer列表
 
 - yuan__xing
 - luoqing_kylinsec
 - meizhigang
-- itisyang
 - wangyucheng1
 - chendingjian
 
