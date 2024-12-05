@@ -37,4 +37,25 @@ branches:
 - name: openEuler-24.03-LTS-SP1
   type: protected
   create_from: openEuler-24.03-LTS-Next
+- name: Multi-Version_openEuler-20.03-LTS-SP4_LLVM17
+  type: protected
+  create_from: master
+- name: Multi-Version_openEuler-22.03-LTS-SP3_LLVM17
+  type: protected
+  create_from: master
+- name: Multi-Version_openEuler-22.03-LTS-SP4_LLVM17
+  type: protected
+  create_from: master
+- name: Multi-Version_openEuler-22.03-LTS-SP3_LLVM18
+  type: protected
+  create_from: master
+- name: Multi-Version_openEuler-22.03-LTS-SP4_LLVM18
+  type: protected
+  create_from: master
+- name: Multi-Version_openEuler-24.03-LTS_LLVM18
+  type: protected
+  create_from: master
+- name: Multi-Version_openEuler-24.03-LTS-SP1_LLVM18
+  type: protected
+  create_from: master
 type: public
