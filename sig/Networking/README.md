@@ -18,6 +18,7 @@
 - luzhihao [@MrRlu](<https://gitee.com/MrRlu)
 - robertxw [@robertxw](<https://gitee.com/robertxw>)
 - sunsuwan [@sunsuwan](<https://gitee.com/sunsuwan>)
+- huyizhen [@xiangyu2020](<https://gitee.com/xiangyu2020>)
 
 ###  Committers列表
 
@@ -41,8 +42,8 @@
 - Jian Shen [@WangBoe2022](<https://gitee.com/WangBoe2022)
 - Xin Liu [@misaka00251](<https://gitee.com/misaka00251)
 - Hu Chun Zhi [@hu-chunzhi](<https://gitee.com/hu-chunzhi)
-- renmingshuai [@renmingshuai](<https://gitee.com/renmingshuai>)
 - jinag12 [@jiangheng12](<https://gitee.com/jiangheng12>)
+- zhongxuan [@zhongxuan2](<https://gitee.com/zhongxuan2>)
 
 Everyone could send patches to openEuler.
 

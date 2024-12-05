@@ -14,3 +14,6 @@
   - gitee_id: orange-snn
     name: orange-snn
     email: songnannan2@huawei.com
+  - gitee_id: renmingshuai
+    name: renmingshuai
+    email: renmingshuai@huawei.com
