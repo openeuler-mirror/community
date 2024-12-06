@@ -1,9 +1,10 @@
 name: tsb-agent
-description: The Trusted Software Base agent (TSB-agent) is deployed in the operating system. With the support of the trusted root, it establishes an active immune defense system for trusted terminal devices and enhances the security capabilities of terminals. It realizes the functions of system layer element collection, basic communication, and control execution in the Initiative Trusted Computing system, and is an important component for realizing Initiative Trusted Computing.
-It promotes the community to pay more attention to the Initiative Trusted Computing technology.
-It drives the improvement of the functions of Initiative Trusted Computing products at the system layer.
-It continuously promotes the evolution of Initiative Trusted Computing products within the community in line with the development of operating system technology and trusted computing technology.
-It addresses the development and maintenance of the basic functions of the TSB-agent and promotes the integration of this product with the security mechanisms of the operating system.
+description:The Trusted Software Base agent (TSB-agent) is deployed in the operating system. With the support of The Root of Trust, it establishes an active immune defense system for trusted terminal devices and enhances the security capabilities of terminals. It realizes the functions of element collection, basic communication and control execution in the operating system to support the realization of the Initiative Trusted Computing system.This product is an indispensable component for realizing Initiative Trusted Computing.
+Our goals: 
+Make the community pay more attention to the Initiative Trusted Computing technology.
+Make the trusted functions of the operating system meet the requirements of Initiative Trusted Computing.
+Plan the development of Initiative Trusted Computing technology products according to the development directions of operating system technology and trusted computing technology.
+The development and upgrading of the basic functions of TSB-agent, and the integration of the product with the security mechanisms of the operating system. 
 branches:
 - name: master
   type: protected
