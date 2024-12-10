@@ -35,7 +35,7 @@
 
 - 田俊 [@juntianlinux](https://gitee.com/juntianlinux)，jun.j.tian@intel.com
 - 江国庆 [@gjiang](https://gitee.com/gjiang)，guoqing.jiang@suse.com
-- 唐葛亮 [@geliangtang](https://gitee.com/geliangtang)，geliang.tang@suse.com
+- 唐葛亮 [@geliangtang](https://gitee.com/geliangtang)，tanggeliang@kylinos.cn
 - 杨军 [@junyang-suse](https://gitee.com/junyang-suse)，jun.yang@suse.com
 - 毛晨曦 [@chenxi-mao](https://gitee.com/chenxi-mao)，chenxi.mao@suse.com
 - Jason Zeng [@x56Jason](https://gitee.com/x56Jason)，jason.zeng@intel.com
