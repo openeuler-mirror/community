@@ -50,6 +50,7 @@ sig-info.yaml 文件为yaml格式承载，包含如下基本元素：
 | name | 字符串 | 姓名(或者网名), 必填 |
 | organization| 字符串 | 所在组织或单位, 选填 |
 | email| 字符串 | 个人邮箱地址, 必填 |
+| openeuler_id | 字符串 | openeuler账号名称, 选填 |
 
 其中 repositories 列表中每一条记录为SIG所管理的一组仓库信息：
 
@@ -86,6 +87,7 @@ maintainers:
 - gitee_id: Jane
   name: JaneDou
   email: xxxxxxx@gmail.com
+- openeuler_id: Jane
 repositories:
 - repo: 
   - openeuler/cve-manager
