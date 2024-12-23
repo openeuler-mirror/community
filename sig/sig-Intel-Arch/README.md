@@ -35,7 +35,7 @@ English | [简体中文](./README_cn.md)
 
 - Jun Tian [@juntianlinux](https://gitee.com/juntianlinux)，jun.j.tian@intel.com
 - Guoqing Jiang [@gjiang](https://gitee.com/gjiang)，guoqing.jiang@suse.com
-- Geliang Tang [@geliangtang](https://gitee.com/geliangtang)，geliang.tang@suse.com
+- Geliang Tang [@geliangtang](https://gitee.com/geliangtang)，tanggeliang@kylinos.cn
 - Jun Yang [@junyang-suse](https://gitee.com/junyang-suse)，jun.yang@suse.com
 - Chenxi Mao [@chenxi-mao](https://gitee.com/chenxi-mao)，chenxi.mao@suse.com
 - Jason Zeng [@x56Jason](https://gitee.com/x56Jason)，jason.zeng@intel.com

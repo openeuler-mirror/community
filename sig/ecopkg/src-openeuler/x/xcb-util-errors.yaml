@@ -1,0 +1,8 @@
+name: xcb-util-errors
+description: 'XCB utility library that gives human readable names to error, event, & request codes.'
+upstream: https://gitlab.freedesktop.org/xorg/lib/libxcb-errors
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
