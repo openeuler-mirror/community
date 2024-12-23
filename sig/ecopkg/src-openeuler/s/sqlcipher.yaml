@@ -1,0 +1,18 @@
+name: sqlcipher
+description: 'SQLCipher是一个开源库，提供透明、安全的256位
+SQLite数据库文件的AES加密。SQLCipher已被采纳为安全
+许多商业和开源产品的数据库解决方案，使其成为
+最流行的移动、嵌入式和桌面加密数据库平台
+应用
+
+SQLCipher is an open source library that provides transparent, secure 256-bit
+AES encryption of SQLite database files. SQLCipher has been adopted as a secure
+database solution by many commercial and open source products, making it one of
+the most popular encrypted database platforms for Mobile, Embedded, and Desktop
+applications'
+upstream: https://src.fedoraproject.org/rpms/sqlcipher
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public

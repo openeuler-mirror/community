@@ -21,6 +21,7 @@
 - 张飞龙<zhangfeilong@uniontech.com>[[@vzikl](https://gitee.com/vzikl)]
 - 李小松<lixiaosong@uniontech.com>[[@play565](https://gitee.com/play565)]
 - 缪昌伟<miaochangwei@uniontech.com>[[@ChanthMiao](https://gitee.com/ChanthMiao)]
+- 崔巍<cuiwei@wxiat.com>[[@cu1wei](https://gitee.com/cu1wei)]
 
 ### Maintainers列表
 - 姚嘉伟[@geoyi-yao](https://gitee.com/geori-yao)
@@ -33,3 +34,4 @@
 - 张飞龙[[@vzikl](https://gitee.com/vzikl)]
 - 李小松[[@play565](https://gitee.com/play565)]
 - 缪昌伟[[@ChanthMiao](https://gitee.com/ChanthMiao)]
+- 崔巍[[@cu1wei](https://gitee.com/cu1wei)]

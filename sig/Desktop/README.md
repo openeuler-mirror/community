@@ -13,7 +13,9 @@
 
 - 目前移植软件为主，邮件讨论为主
 
-
+### News
+- Desktop sig不再接受翻译类的修改提交，推荐开源贡献者直接贡献upstream仓库
+  - 此策略背景以及会议讨论的详细内容请参考会议纪要：https://etherpad.openeuler.org/p/Desktop-meetings
 
 
 # 成员

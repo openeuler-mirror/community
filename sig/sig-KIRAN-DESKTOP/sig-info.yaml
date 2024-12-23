@@ -17,6 +17,10 @@ maintainers:
   name: LiuXinHao
   organization: KylinSec OS
   email: liuxinhao@kylinsec.com.cn
+- gitee_id: itisyang
+  name: YangFeng
+  organization: KylinSec OS
+  email: yangfeng@kylinsec.com.cn
 repositories:
 - repo:
   - src-openeuler/kiran-desktop
@@ -32,15 +36,6 @@ repositories:
 
 - repo:
   - src-openeuler/kiran-control-panel
-  - src-openeuler/kiran-cpanel-account
-  - src-openeuler/kiran-cpanel-display
-  - src-openeuler/kiran-cpanel-menu
-  - src-openeuler/kiran-cpanel-mouse
-  - src-openeuler/kiran-cpanel-timedate
-  - src-openeuler/kiran-cpanel-appearance
-  - src-openeuler/kiran-cpanel-keyboard
-  - src-openeuler/kiran-cpanel-keybinding
-  - src-openeuler/kiran-cpanel-power
   committers:
   - gitee_id: yuan__xing
     name: YuanXing
@@ -53,14 +48,9 @@ repositories:
   - src-openeuler/kiran-panel
   - src-openeuler/kiran-shell
   - src-openeuler/kiran-menu
-  committers:
-  - gitee_id: itisyang
-    name: YangFeng
-    email: yangfeng@kylinsec.com.cn
 
 - repo:
   - src-openeuler/kiran-authentication-service
-  - src-openeuler/kiran-biometrics
   - src-openeuler/kiran-authentication-devices
   committers:
   - gitee_id: luoqing_kylinsec
@@ -78,8 +68,6 @@ repositories:
     email: chendingjian@kylinsec.com.cn
 
 - repo:
-  - src-openeuler/kiran-screensaver-dialog
-  - src-openeuler/lightdm-kiran-greeter
   - src-openeuler/kiran-session-guard
   - src-openeuler/kiran-screensaver
 
@@ -89,7 +77,6 @@ repositories:
   - src-openeuler/kiran-wallpapers
   - src-openeuler/kiran-icon-theme
   - src-openeuler/kiran-gtk-theme
-  - src-openeuler/kiran-themes
   - src-openeuler/kiran-widgets-qt5
   - src-openeuler/plymouth-theme-kiran
 
@@ -97,7 +84,6 @@ repositories:
   - src-openeuler/kiran-qdbusxml2cpp
   - src-openeuler/kiran-calculator
   - src-openeuler/kiran-flameshot
-  - src-openeuler/kiran-avatar-editor
   - src-openeuler/kiran-calendar
   - src-openeuler/kiran-log
   - src-openeuler/lunar-date

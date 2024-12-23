@@ -19,6 +19,7 @@ sig-security_facility主要讨论在openEuler社区版本中已有或未来规�
    - openeuler/attest-tools
    - openeuler/digest-list-tools
    - openeuler/kunpengsecl
+   - openeuler/TSB-agent
    - src-openeuler/ksc-defender
    - src-openeuler/mysql-selinux
    - src-openeuler/pesign-obs-integration

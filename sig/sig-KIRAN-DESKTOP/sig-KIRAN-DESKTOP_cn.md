@@ -82,13 +82,13 @@ KIRAN-DESKTOP SIG小组致力于将KIRAN-DESKTOP 引入至 openEuler 社区中�
 - stonefly128
 - tangjie02
 - liubuguiii
+- itisyang
 
 ### Committers
 
 - yuan__xing
 - luoqing_kylinsec
 - meizhigang
-- itisyang
 - wangyucheng1
 - chendingjian
 
