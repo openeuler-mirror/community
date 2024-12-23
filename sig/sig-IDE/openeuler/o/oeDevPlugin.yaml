@@ -1,0 +1,7 @@
+name: oeDevPlugin
+description: oeDevPlugin is designed for all developers, based on the widely-used IDE VSCode. It enables developers to quickly participate in openEuler community development by using the VSCode plugin to easily pull code repositories, compile with the AI4C compiler, and invoke EulerMaker with one click. It helps developers seamlessly leverage the openEuler community infrastructure.
+upstream: https://gitee.com/openeuler/oeDevPlugin
+branches:
+- name: master
+  type: protected
+type: public
