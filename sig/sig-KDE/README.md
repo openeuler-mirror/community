@@ -107,7 +107,7 @@ repository地址：
   - https://gitee.com/src-openeuler/openEuler-menus
   - https://gitee.com/openeuler/openEuler-menus
   - https://gitee.com/src-openeuler/kdevelop
-  - https://gitee.com/src-openeuler/kdevelopkdevelop-pg-qt
+  - https://gitee.com/src-openeuler/kdevelop-pg-qt
   - https://gitee.com/src-openeuler/kf5-knotifyconfig
   - https://gitee.com/src-openeuler/kf5-krunner
   - https://gitee.com/src-openeuler/kf5-ktexteditor
