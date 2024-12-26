@@ -47,7 +47,7 @@
 | ROCE DRIVER | Documentation/devicetree/bindings/infiniband/hisilicon-hns-roce.txt<br/>include/uapi/rdma/hns-abi.h<br/>drivers/infiniband/hw/hns/ | [@hellotcc](https://gitee.com/hellotcc) |
 | ROH DRIVER | drivers/roh/core<br/>drivers/roh/hw/hns3 | [@chenke1978](https://gitee.com/chenke1978) |
 | SAS/SATE DRIVER | Documentation/devicetree/bindings/scsi/hisilicon-sas.txt<br/>drivers/scsi/hisi_sas/<br/>drivers/ata/ahci.c | [@LiYihang226](https://gitee.com/LiYihang226) |
-
+| KUNPENG_HCCS DRIVER | Documentation/ABI/testing/sysfs-devices-platform-kunpeng_hccs<br/>drivers/soc/hisilicon/kunpeng_hccs.h<br/>drivers/soc/hisilicon/kunpeng_hccs.c | [@li-huisong](https://gitee.com/li-huisong) |
 
 ## filesystem & storage
 

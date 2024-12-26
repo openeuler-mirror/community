@@ -47,6 +47,7 @@
 - 侯人瑜[@hourenyu](https://gitee.com/hourenyu)
 - 罗君[@Jer6y](https://gitee.com/Jer6y)
 - 江勇[@jiangyong404](https://gitee.com/jiangyong404)
+- 李顺[@lishun0827](https://gitee.com/lishun0827)
 
 # 邮件列表
 
