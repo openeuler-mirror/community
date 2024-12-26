@@ -38,6 +38,7 @@ English | [简体中文](./sig-embedded_cn.md)
 - Renyu Hou[@hourenyu](https://gitee.com/hourenyu)
 - Luo Jun[@Jer6y](https://gitee.com/Jer6y)
 - Yong Jiang[@jiangyong404](https://gitee.com/jiangyong404)
+- Shun Li[@lishun0827](https://gitee.com/lishun0827)
 
 ### MailList
 
