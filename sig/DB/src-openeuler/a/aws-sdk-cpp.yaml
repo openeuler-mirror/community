@@ -4,6 +4,9 @@ upstream: https://github.com/aws/aws-sdk-cpp.git
 branches:
 - name: master
   type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
 - name: openEuler-24.03-LTS-Next
   type: protected
   create_from: master
