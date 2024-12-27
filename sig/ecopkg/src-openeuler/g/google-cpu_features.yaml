@@ -1,0 +1,8 @@
+name: google-cpu_features
+description: 'A cross-platform C library to retrieve CPU features at runtime'
+upstream: https://github.com/google/cpu_features
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
