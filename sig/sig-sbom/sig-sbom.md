@@ -1,5 +1,5 @@
 
-# Application to create a new SIG
+# sig-sbom
 English | [简体中文](./sig-intelligence_cn.md)
 
 
@@ -7,16 +7,13 @@ Note: The Charter of this SIG follows the convention described in the openEuler 
 
 ## SIG Mission and Scope
 
-Describe the Mission and objectives of the new SIG, including but not limited to:
+-Incubate SBOM related technologies and form a unified technology roadmap for the openEuler community
+-Empowering partners to quickly build SBOM disclosure capabilities
+-Participate in the construction of China's SBOM disclosure standards
+-Build an openEuler community software supply chain security around SBOM, and build an open-source and compliant root community
 
-- Why create a new SIG in openEuler
-    - Vision: To integrate intelligent operating systems, accelerate the promotion and application exploration of AI technologies.
-- The scope of the SIG
-    - Engineering capabilities and toolchains for data/embedding, API integration, and model fine-tuning
-    - Large Model Application Incubation: Foster projects like SparkDesk and EulerCopilot.
-    - AI Intelligent Agents: Leveraging function call capabilities and workflows of AI agents (such as autogen, metagpt, Langchain, etc.), to establish capabilities ranging from knowledge Q&A, single transaction processing to complex task orchestration within the OS domain. This supports the intelligent upgrade of not only operating systems but also applications.
-- Which SIGs in openEuler to coorperate with
-    - A-Tune, ai，sig-ops, etc
+-Which SIG within openEuler does this SIG require support for
+    - security-committee
 
 
 ### Deliverables
@@ -32,6 +29,11 @@ What and in what form the SIG is responsible for delivering
 
 ### Repositories and description managed by this SIG
 
+- Repositories：
+    - https://gitee.com/openeuler/sbom-service
+    - https://gitee.com/openeuler/sbom-tools
+    - https://gitee.com/openeuler/sbom-website
+    - https://gitee.com/openeuler/sbom-files
 
 ### Cross-domain and external-oriented processes
 
