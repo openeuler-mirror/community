@@ -1,0 +1,7 @@
+name: xrefresh
+description: 'refresh all or part of an X screen'
+upstream: https://gitlab.freedesktop.org/xorg/app/xrefresh
+branches:
+- name: master
+  type: protected
+type: public

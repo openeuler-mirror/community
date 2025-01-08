@@ -1,0 +1,7 @@
+name: xrdb
+description: 'X server resource database utility'
+upstream: https://gitlab.freedesktop.org/xorg/app/xrdb
+branches:
+- name: master
+  type: protected
+type: public

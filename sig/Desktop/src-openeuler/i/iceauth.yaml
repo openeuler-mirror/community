@@ -1,0 +1,7 @@
+name: iceauth
+description: 'The iceauth program is used to edit and display the authorization information used in connecting with ICE. It operates very much like the xauth program for X11 connection authentication records.'
+upstream: https://gitlab.freedesktop.org/xorg/app/iceauth
+branches:
+- name: master
+  type: protected
+type: public

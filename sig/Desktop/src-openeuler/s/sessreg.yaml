@@ -1,0 +1,7 @@
+name: sessreg
+description: 'Sessreg is a simple program for managing utmp/wtmp entries for X sessions. It was originally written for use with xdm, but may also be used with other display managers such as gdm or kdm.'
+upstream: https://gitlab.freedesktop.org/xorg/app/sessreg
+branches:
+- name: master
+  type: protected
+type: public
