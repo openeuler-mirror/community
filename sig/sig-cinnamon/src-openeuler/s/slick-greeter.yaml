@@ -1,6 +1,7 @@
-name: lightdm-gtk-greeter
+name: slick-greeter
+rename_from: lightdm-gtk-greeter
 description: LightDM GTK+ Greeter
-upstream: https://launchpad.net/lightdm-gtk-greeter
+upstream: https://github.com/linuxmint/slick-greeter
 branches:
 - name: master
   type: protected
@@ -19,4 +20,7 @@ branches:
 - name: openEuler-20.03-LTS-SP4
   type: protected
   create_from: openEuler-20.03-LTS-SP3
+- name: openEuler-25.03
+  type: readonly
+  create_from: master
 type: public
