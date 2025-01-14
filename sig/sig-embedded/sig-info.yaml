@@ -1,28 +1,65 @@
 name: sig-embedded
-description: sig-embedded is working on providing openEuler Embedded Images/Tools
+description: sig-embedded is working on providing openEuler Embedded covering infrastructure, key components etc..
 mailing_list: NA
 mature_level: startup
 maintainers:
 - gitee_id: vonhust
   name: Wayne Ren
   email: 191362693@qq.com
-- gitee_id: linzichang
-  name: Zichang Lin
-  email: linzichang@huawei.com
+- gitee_id: alichinese
+  name: Xinyu Li
+  email: lixinyu44@huawei.com
 - gitee_id: fanglinxu
   name: Linxu Fang
   email: fanglinxu@huawei.com
 repositories:
 - repo:
-  - openeuler/embedded-ipc
+  - openeuler/yocto-poky
+  - openeuler/yocto-meta-openeuler
   repo_admin:
   - gitee_id: vonhust
     name: Wayne Ren
     email: 191362693@qq.com
   committers:
-  - gitee_id: soulpoet
-    name: Liming Zheng
-    email: zhengliming3@huawei.com
+  - gitee_id: harvey-rtos
+    name: Weigang Zhang
+    email: zhangweigang6@huawei.com
+  - gitee_id: alichinese
+    name: Xinyu Li
+    email: lixinyu44@huawei.com
+  - gitee_id: hzc04
+    name: Zongcheng Han
+    email: hanzongcheng@huawei.com
+- repo:
+  - openeuler/yocto-embedded-tools
+  - openeuler/oebuild
+  - openeuler/embedded-ci
+  - openeuler/oee_archive
+  repo_admin:
+  - gitee_id: vonhust
+    name: Wayne Ren
+    email: 191362693@qq.com
+  committers:
+  - gitee_id: alichinese
+    name: Xinyu Li
+    email: lixinyu44@huawei.com
+  contributors:
+  - gitee_id: harvey-rtos
+    name: Weigang Zhang
+    email: zhangweigang6@huawei.com
+  - gitee_id: hzc04
+    name: Zongcheng Han
+    email: hanzongcheng@huawei.com
+- repo:
+  - openeuler/yocto-meta-rockchip
+  repo_admin:
+  - gitee_id: vonhust
+    name: Wayne Ren
+    email: 191362693@qq.com
+  committers:
+  - gitee_id: emancipator
+    name: Qifeng Liang
+    email: liangqifeng@ncti-gba.cn
 - repo:
   - openeuler/lep
   - openeuler/UniProton
@@ -60,19 +97,6 @@ repositories:
     name: Dezhao Yu
     email: yudezhao@huawei.com
 - repo:
-  - src-openeuler/patchelf
-  contributors:
-  - gitee_id: harvey-rtos
-    name: Weigang Zhang
-    email: zhangweigang6@huawei.com
-- repo:
-  - src-openeuler/yaffs2
-  - src-openeuler/mtd-utils
-  contributors:
-  - gitee_id: lxy1579
-    name: Xiaoyong Li
-    email: lixiaoyong19@huawei.com
-- repo:
   - openeuler/embedded
   - src-openeuler/ct-ng
   - src-openeuler/libmetal
@@ -82,6 +106,21 @@ repositories:
   - src-openeuler/can-utils
   - src-openeuler/evtest
   - src-openeuler/open62541
+  - src-openeuler/yocto-poky
+  - src-openeuler/yocto-pseudo
+  - src-openeuler/yocto-opkg-utils
+  - src-openeuler/yaffs2
+  - src-openeuler/mtd-utils
+  - src-openeuler/patchelf
+  - openeuler/embedded-ipc
+  - openeuler/yocto-meta-openembedded
+  - openeuler/yocto-meta-qt5
+  - openeuler/yocto-meta-ros
+  - openeuler/yocto-meta-virtualization
+  - openeuler/yocto-meta-raspberrypi
+  - openeuler/yocto-meta-phosphor
+  - openeuler/yocto-meta-renesas
+  - openeuler/yocto-meta-arm
 - repo:
   - openeuler/etipc
   - src-openeuler/etipc
