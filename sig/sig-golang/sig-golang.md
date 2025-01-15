@@ -11,7 +11,7 @@ The openEuler Golang SIG wants to provide our developers and users a better gola
 
 ### Scope
 
-- upgrade the stable version on time 
+- upgrade the stable version on time
 - identify and distribute CVE/security vulnerabilities to users(both golang self and its system library)
 - manage the documents,meetings and mailing lists
 
@@ -30,16 +30,18 @@ Repository for golang : https://gitee.com/src-openeuler/golang
 https: /gitee.com/openeuler/community/sig/sig-golang/
 
 ### Maintainers
-- caihaomin
 - jing-rui
 - genedna
 - hcnbxx
 
 ### Committers
-- caihaomin
 - jing-rui
 - genedna
 - hcnbxx
+
+### Honor Maintainer
+Thank the following previous maintainers for their contributions to the sig-golang and openEuler communities:
+- caihaomin[@caihaomin](https://gitee.com/caihaomin) | email:caihaomin@huawei.com
 
 ### Mailing list
 TBD
