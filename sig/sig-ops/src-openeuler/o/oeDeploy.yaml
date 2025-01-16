@@ -1,0 +1,10 @@
+name: oeDeploy
+description: Tool suite for app installation and deployment
+upstream: https://gitee.com/openeuler/oeDeploy
+branches:
+- name: master
+  type: protected
+- name: openEuler-25.03
+  type: protected
+  create_from: master
+type: public
