@@ -117,6 +117,8 @@ class CheckBranch(object):
                 with open(to_pkg, 'r') as f:
                     to_pkg_dict = yaml.load(f.read(), Loader=yaml.Loader)
                     to_pkg_dict['org'] = to_org
+                    to_pkg_dict['from_pkg'] = from_pkg
+                    to_pkg_dict['to_pkg'] = to_pkg
                     self.change_msg.append(to_pkg_dict)
 
     def get_change_pkg(self):
@@ -328,6 +330,16 @@ class CheckBranch(object):
             if not self.unmaintained_check(bch, pkg):
                 self.error_flag = self.error_flag + 1
 
+    def recycle_branch_check(self, pkg):
+        """
+        recycle branch not allowed modify
+        """
+        to_pkg = pkg.get("to_pkg")
+        branches = pkg.get("branches")
+        if "sig-recycle/src-openeuler" in to_pkg and branches:
+            self.error_flag += 1
+            print(f"src-openeuler repo in sig recycle not allowed to modify: {to_pkg}")
+
     def check(self):
         self.refresh_unmaintained_branches()
 
@@ -337,6 +349,9 @@ class CheckBranch(object):
                 self.history_check(history_branches, pkg)
             if changed_branches:
                 self.differences_check(changed_branches, pkg)
+
+            self.recycle_branch_check(pkg)
+
         print("\nCheck PR {0} Result: error {1}, warn {2}".format(self.pr_id, self.error_flag, self.warn_flag))
         if self.error_flag:
             sys.exit(1)
