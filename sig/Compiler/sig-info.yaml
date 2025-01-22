@@ -317,39 +317,33 @@ repositories:
 - repo:
   - src-openeuler/spirv-llvm-translator
   - src-openeuler/compiler-rt
-  - src-openeuler/compiler-rt-latest
   - src-openeuler/compiler-rt-15
   - src-openeuler/clang
-  - src-openeuler/clang-latest
   - src-openeuler/clang-15
   - src-openeuler/llvm-bolt
-  - src-openeuler/llvm-bolt-latest
   - src-openeuler/llvm-bolt-15
   - src-openeuler/llvm
-  - src-openeuler/llvm-latest
   - src-openeuler/llvm-15
   - src-openeuler/llvm-libunwind
   - src-openeuler/llvm-libunwind-15
   - src-openeuler/lld
-  - src-openeuler/lld-latest
   - src-openeuler/lld-15
   - src-openeuler/libcxx
-  - src-openeuler/libcxx-latest
   - src-openeuler/libcxx-15
   - src-openeuler/libcxxabi
   - src-openeuler/libcxxabi-15
   - src-openeuler/openmp
-  - src-openeuler/openmp-latest
   - src-openeuler/openmp-15
   - src-openeuler/lldb
-  - src-openeuler/lldb-latest
   - src-openeuler/libclc
   - src-openeuler/polly-15
   - src-openeuler/flang
-  - src-openeuler/flang-latest
   - src-openeuler/flang-15
   - src-openeuler/llvm-mlir
   - src-openeuler/mlir-15
+  - src-openeuler/llvm-toolset-17
+  - src-openeuler/llvm-toolset-18
+  - src-openeuler/llvm-toolset-19
   committers:
   - gitee_id: zhongyunde
     name: yunde Zhong
