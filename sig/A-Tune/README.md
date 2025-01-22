@@ -19,12 +19,11 @@
 
 ### Maintainer列表
 
-- xiezhipeng1[@xiezhipeng1](https://gitee.com/xiezhipeng1)
-- hanxinke[@hanxinke](https://gitee.com/hanxinke)
-- chenmingmin[@chenmingmin](https://gitee.com/chenmingmin)
-- licihua[@licihua](https://gitee.com/licihua)
-- shanshishi[@shanshishi](https://gitee.com/shanshishi)
-- gaoruoshu[@gaoruoshu](https://gitee.com/gaoruoshu)
+- Donghui Chen[@chendh6](https://gitee.com/chendh6)
+- Nan Zhang[@gaoruoshu](https://gitee.com/znzjugod)
+- Bin Hu[@hubin95](https://gitee.com/hubin95)
+- Yongguang Yang[@yangyongguang](https://gitee.com/yangyongguang)
+- Zhen Chen[@Vchanger](https://gitee.com/Vchanger)
 
 
 # 联系方式
