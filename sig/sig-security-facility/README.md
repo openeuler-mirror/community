@@ -69,6 +69,7 @@ sig-security_facility主要讨论在openEuler社区版本中已有或未来规�
    - src-openeuler/qax-gm-certificates
    - src-openeuler/openhitls
    - openeuler/qax-gm-certificates
+   - openeuler/trivy
 
 
 ## 组织会议
