@@ -1,6 +1,6 @@
 name: golang-deepin-go-lib
-description: golang-deepin-go-lib-devel package 
-upstream: https://github.com/linuxdeepin/go-lib 
+description: golang-deepin-go-lib-devel package
+upstream: https://github.com/linuxdeepin/go-lib
 branches:
 - name: master
   type: protected
@@ -13,4 +13,7 @@ branches:
 - name: openEuler-20.03-LTS-SP4
   type: protected
   create_from: openEuler-20.03-LTS-SP3
+- name: openEuler-25.03
+  type: protected
+  create_from: master
 type: public

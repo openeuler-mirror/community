@@ -4,4 +4,7 @@ description: Divides large result sets into pages for easier browsing
 branches:
 - name: master
   type: protected
+- name: openEuler-25.03
+  type: protected
+  create_from: master
 type: public

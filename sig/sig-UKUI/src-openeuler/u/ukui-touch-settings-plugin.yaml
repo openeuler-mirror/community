@@ -1,10 +1,14 @@
 name: ukui-touch-settings-plugin
-description: ukui-touch-settings-plugin is a collection of plugins for touch-related devices in ukui-control.
+description: ukui-touch-settings-plugin is a collection of plugins for touch-related
+  devices in ukui-control.
 upstream: https://gitee.com/openkylin/ukui-touch-settings-plugin
 branches:
 - name: master
   type: protected
 - name: openEuler-24.09
+  type: protected
+  create_from: master
+- name: openEuler-25.03
   type: protected
   create_from: master
 type: public

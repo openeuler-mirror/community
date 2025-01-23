@@ -1,7 +1,11 @@
 name: python-sphinx-book-theme
-description: A clean book theme for scientific explanations and documentation with Sphinx.
+description: A clean book theme for scientific explanations and documentation with
+  Sphinx.
 upstream: https://github.com/executablebooks/sphinx-book-theme
 branches:
 - name: master
   type: protected
+- name: openEuler-25.03
+  type: protected
+  create_from: master
 type: public

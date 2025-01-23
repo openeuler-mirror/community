@@ -1,7 +1,12 @@
 name: ukui-sni
-description: ukui-sni is a collection of functions related to the system tray service in the UKUI desktop environment. The tray functionality is based on the ukui4 tray protocol.
+description: ukui-sni is a collection of functions related to the system tray service
+  in the UKUI desktop environment. The tray functionality is based on the ukui4 tray
+  protocol.
 upstream: https://gitee.com/openkylin/ukui-sni
 branches:
 - name: master
   type: protected
+- name: openEuler-25.03
+  type: protected
+  create_from: master
 type: public

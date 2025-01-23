@@ -1,5 +1,5 @@
-name: DDE-GoCode 
-description: dde desktop need some golang depend package 
+name: DDE-GoCode
+description: dde desktop need some golang depend package
 upstream: https://gitee.com/openeuler/DDE-GoCode
 branches:
 - name: master
@@ -13,4 +13,7 @@ branches:
 - name: openEuler-20.03-LTS-SP4
   type: protected
   create_from: openEuler-20.03-LTS-SP3
+- name: openEuler-25.03
+  type: protected
+  create_from: master
 type: public

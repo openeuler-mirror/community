@@ -1,5 +1,6 @@
 name: gtkwave
-description: GTKWave is a waveform viewer that can view VCD files produced by most Verilog simulation tools.
+description: GTKWave is a waveform viewer that can view VCD files produced by most
+  Verilog simulation tools.
 upstream: https://github.com/gtkwave/gtkwave
 branches:
 - name: master
@@ -16,4 +17,7 @@ branches:
 - name: openEuler-24.03-LTS
   type: protected
   create_from: openEuler-24.03-LTS-Next
+- name: openEuler-25.03
+  type: protected
+  create_from: master
 type: public

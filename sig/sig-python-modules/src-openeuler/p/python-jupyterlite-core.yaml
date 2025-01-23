@@ -1,7 +1,11 @@
 name: python-jupyterlite-core
 upstream: https://github.com/jupyterlite/jupyterlite
-description: A JupyterLab distribution that runs entirely in the browser built from the ground-up using JupyterLab components and extensions.
+description: A JupyterLab distribution that runs entirely in the browser built from
+  the ground-up using JupyterLab components and extensions.
 branches:
 - name: master
   type: protected
+- name: openEuler-25.03
+  type: protected
+  create_from: master
 type: public

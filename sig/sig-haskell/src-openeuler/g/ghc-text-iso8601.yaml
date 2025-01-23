@@ -2,21 +2,24 @@ name: ghc-text-iso8601
 description: Converting time to and from ISO 8601 text
 upstream: https://hackage.haskell.org/package/text-iso8601
 branches:
-  - name: master
-    type: protected
-  - name: openEuler-22.03-LTS-Next
-    type: protected
-    create_from: master
-  - name: openEuler-22.03-LTS-SP4
-    type: protected
-    create_from: openEuler-22.03-LTS-Next
-  - name: openEuler-24.03-LTS-Next
-    type: protected
-    create_from: master
-  - name: openEuler-24.03-LTS
-    type: protected
-    create_from: openEuler-24.03-LTS-Next
-  - name: openEuler-24.09
-    type: protected
-    create_from: master
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-22.03-LTS-SP4
+  type: protected
+  create_from: openEuler-22.03-LTS-Next
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-24.03-LTS
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
+- name: openEuler-24.09
+  type: protected
+  create_from: master
+- name: openEuler-25.03
+  type: protected
+  create_from: master
 type: public

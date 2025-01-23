@@ -1,8 +1,11 @@
 name: xev
-description: 'xev creates a window and then asks the X server to send it X11 events
-whenever anything happens to the window.'
+description: xev creates a window and then asks the X server to send it X11 events
+  whenever anything happens to the window.
 upstream: https://gitlab.freedesktop.org/xorg/app/xev
 branches:
 - name: master
   type: protected
+- name: openEuler-25.03
+  type: protected
+  create_from: master
 type: public

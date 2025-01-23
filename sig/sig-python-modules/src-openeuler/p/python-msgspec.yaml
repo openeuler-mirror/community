@@ -1,7 +1,11 @@
 name: python-msgspec
 upstream: https://github.com/jcrist/msgspec
-description: A fast serialization and validation library, with builtin support for JSON, MessagePack, YAML, and TOML.
+description: A fast serialization and validation library, with builtin support for
+  JSON, MessagePack, YAML, and TOML.
 branches:
 - name: master
   type: protected
+- name: openEuler-25.03
+  type: protected
+  create_from: master
 type: public

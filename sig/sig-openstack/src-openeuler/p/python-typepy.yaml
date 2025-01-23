@@ -1,6 +1,7 @@
 name: python-typepy
 upstream: https://github.com/thombashi/typepy
-description: typepy is a Python library for variable type checker/validator/converter at a run time.
+description: typepy is a Python library for variable type checker/validator/converter
+  at a run time.
 branches:
 - name: master
   type: protected
@@ -13,4 +14,7 @@ branches:
 - name: Multi-Version_OpenStack-Antelope_openEuler-24.03-LTS-SP1
   type: protected
   create_from: Multi-Version_OpenStack-Antelope_openEuler-24.03-LTS-Next
+- name: openEuler-25.03
+  type: protected
+  create_from: master
 type: public

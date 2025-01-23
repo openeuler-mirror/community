@@ -1,10 +1,13 @@
 name: secureguardian
-description: Enhancing system security through evaluations and fixes 
+description: Enhancing system security through evaluations and fixes
 upstream: https://gitee.com/openeuler/secureguardian
 branches:
 - name: master
   type: protected
 - name: openEuler-24.09
+  type: protected
+  create_from: master
+- name: openEuler-25.03
   type: protected
   create_from: master
 type: public

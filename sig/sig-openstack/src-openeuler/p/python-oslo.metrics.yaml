@@ -22,4 +22,7 @@ branches:
 - name: Multi-Version_OpenStack-Antelope_openEuler-24.03-LTS-SP1
   type: protected
   create_from: Multi-Version_OpenStack-Antelope_openEuler-24.03-LTS-Next
+- name: openEuler-25.03
+  type: protected
+  create_from: master
 type: public

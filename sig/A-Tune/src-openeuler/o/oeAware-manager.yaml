@@ -29,4 +29,7 @@ branches:
 - name: openEuler-20.03-LTS-SP4
   type: protected
   create_from: master
+- name: openEuler-25.03
+  type: protected
+  create_from: master
 type: public

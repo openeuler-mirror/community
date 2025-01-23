@@ -1,7 +1,11 @@
 name: python-cachecontrol
-description: A port of the caching algorithms in httplib2 for use with requests session object.
+description: A port of the caching algorithms in httplib2 for use with requests session
+  object.
 upstream: https://github.com/psf/cachecontrol
 branches:
 - name: master
   type: protected
+- name: openEuler-25.03
+  type: protected
+  create_from: master
 type: public

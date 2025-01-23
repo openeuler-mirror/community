@@ -4,4 +4,7 @@ upstream: https://git.libreoffice.org/libvisio
 branches:
 - name: master
   type: protected
+- name: openEuler-25.03
+  type: protected
+  create_from: master
 type: public

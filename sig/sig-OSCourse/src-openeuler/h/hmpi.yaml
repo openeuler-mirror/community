@@ -1,5 +1,6 @@
 name: hmpi
-description: Based on the Open MPI, HyperMPI is a high-performance Huawei-developed Communication Library.
+description: Based on the Open MPI, HyperMPI is a high-performance Huawei-developed
+  Communication Library.
 upstream: https://github.com/kunpengcompute/hmpi
 branches:
 - name: master
@@ -16,4 +17,7 @@ branches:
 - name: openEuler-24.03-LTS
   type: protected
   create_from: openEuler-24.03-LTS-Next
+- name: openEuler-25.03
+  type: protected
+  create_from: master
 type: public

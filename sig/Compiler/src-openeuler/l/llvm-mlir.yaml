@@ -59,4 +59,7 @@ branches:
 - name: Multi-Version_openEuler-24.03-LTS-SP1_LLVM18
   type: protected
   create_from: master
+- name: openEuler-25.03
+  type: protected
+  create_from: master
 type: public

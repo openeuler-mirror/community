@@ -1,7 +1,11 @@
 name: minizip-ng
-description: 'minizip-ng is a zip manipulation library written in C that is supported on Windows, macOS, and Linux.'
+description: minizip-ng is a zip manipulation library written in C that is supported
+  on Windows, macOS, and Linux.
 upstream: https://github.com/zlib-ng/minizip-ng/
 branches:
 - name: master
   type: protected
+- name: openEuler-25.03
+  type: protected
+  create_from: master
 type: public
