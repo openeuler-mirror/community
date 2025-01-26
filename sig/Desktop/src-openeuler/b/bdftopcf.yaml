@@ -1,7 +1,10 @@
 name: bdftopcf
-description: 'convert X font from Bitmap Distribution Format to Portable Compiled Format'
+description: convert X font from Bitmap Distribution Format to Portable Compiled Format
 upstream: https://gitlab.freedesktop.org/xorg/util/bdftopcf
 branches:
 - name: master
   type: protected
+- name: openEuler-25.03
+  type: protected
+  create_from: master
 type: public

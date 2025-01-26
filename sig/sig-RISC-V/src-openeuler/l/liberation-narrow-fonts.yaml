@@ -1,7 +1,11 @@
 name: liberation-narrow-fonts
-description: A set of font files aimed at providing a typeface style called "Liberation Narrow".
+description: A set of font files aimed at providing a typeface style called "Liberation
+  Narrow".
 upstream: https://github.com/liberationfonts/liberation-sans-narrow
 branches:
 - name: master
   type: protected
+- name: openEuler-25.03
+  type: protected
+  create_from: master
 type: public

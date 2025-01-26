@@ -1,7 +1,11 @@
 name: libreoffice
-description: LibreOffice is an integrated office suite based on copyleft licenses and compatible with most document formats and standards.
+description: LibreOffice is an integrated office suite based on copyleft licenses
+  and compatible with most document formats and standards.
 upstream: https://github.com/LibreOffice/core
 branches:
 - name: master
   type: protected
+- name: openEuler-25.03
+  type: protected
+  create_from: master
 type: public

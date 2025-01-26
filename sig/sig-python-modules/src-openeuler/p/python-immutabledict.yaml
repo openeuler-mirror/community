@@ -4,4 +4,7 @@ description: Immutable wrapper around dictionaries (a fork of frozendict)
 branches:
 - name: master
   type: protected
+- name: openEuler-25.03
+  type: protected
+  create_from: master
 type: public

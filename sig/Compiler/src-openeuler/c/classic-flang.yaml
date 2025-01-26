@@ -1,5 +1,6 @@
 name: classic-flang
-description: Classic Flang is a Fortran language front-end designed for integration with LLVM.
+description: Classic Flang is a Fortran language front-end designed for integration
+  with LLVM.
 upstream: https://github.com/flang-compiler/flang
 branches:
 - name: master
@@ -11,6 +12,9 @@ branches:
   type: protected
   create_from: openEuler-24.03-LTS-Next
 - name: openEuler-24.09
+  type: protected
+  create_from: master
+- name: openEuler-25.03
   type: protected
   create_from: master
 type: public

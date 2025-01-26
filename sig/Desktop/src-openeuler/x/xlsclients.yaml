@@ -1,8 +1,11 @@
 name: xlsclients
-description: 'xlsclients is a utility for listing information about the client
-applications running on a X11 server.'
+description: xlsclients is a utility for listing information about the client applications
+  running on a X11 server.
 upstream: https://gitlab.freedesktop.org/xorg/app/xlsclients
 branches:
 - name: master
   type: protected
+- name: openEuler-25.03
+  type: protected
+  create_from: master
 type: public

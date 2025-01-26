@@ -2,21 +2,24 @@ name: ghc-base64
 description: A modern RFC 4648-compliant Base64 library
 upstream: https://hackage.haskell.org/package/base64
 branches:
-  - name: master
-    type: protected
-  - name: openEuler-22.03-LTS-Next
-    type: protected
-    create_from: master
-  - name: openEuler-22.03-LTS-SP4
-    type: protected
-    create_from: openEuler-22.03-LTS-Next
-  - name: openEuler-24.03-LTS-Next
-    type: protected
-    create_from: master
-  - name: openEuler-24.03-LTS
-    type: protected
-    create_from: openEuler-24.03-LTS-Next
-  - name: openEuler-24.09
-    type: protected
-    create_from: master
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-22.03-LTS-SP4
+  type: protected
+  create_from: openEuler-22.03-LTS-Next
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-24.03-LTS
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
+- name: openEuler-24.09
+  type: protected
+  create_from: master
+- name: openEuler-25.03
+  type: protected
+  create_from: master
 type: public

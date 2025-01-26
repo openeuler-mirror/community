@@ -1,11 +1,11 @@
 name: vscode
-description: A lightweight code editor with support for various languages  
-upstream: https://github.com/microsoft/vscode.git                                                                                                        
-branches:                                                                                                                                                    
-- name: master                                                                                                                                               
-  type: protected                                                                                                                                            
-- name: openEuler-24.09                                                                                                                                      
-  type: protected                                                                                                                                            
+description: A lightweight code editor with support for various languages
+upstream: https://github.com/microsoft/vscode.git
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.09
+  type: protected
   create_from: master
 - name: openEuler-24.03-LTS-Next
   type: protected
@@ -13,4 +13,7 @@ branches:
 - name: openEuler-24.03-LTS-SP1
   type: protected
   create_from: openEuler-24.03-LTS-Next
+- name: openEuler-25.03
+  type: protected
+  create_from: master
 type: public

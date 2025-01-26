@@ -1,7 +1,10 @@
 name: xdpyinfo
-description: 'xdpyinfo is a utility for displaying information about an X server.'
+description: xdpyinfo is a utility for displaying information about an X server.
 upstream: https://gitlab.freedesktop.org/xorg/app/xdpyinfo
 branches:
 - name: master
   type: protected
+- name: openEuler-25.03
+  type: protected
+  create_from: master
 type: public

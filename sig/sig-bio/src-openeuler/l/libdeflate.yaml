@@ -1,8 +1,11 @@
 name: libdeflate
 upstream: https://github.com/ebiggers/libdeflate
-description: libdeflate is a library for fast, whole-buffer DEFLATE-based compression and
-  decompression, supporting DEFLATE, gzip, and zlib.
+description: libdeflate is a library for fast, whole-buffer DEFLATE-based compression
+  and decompression, supporting DEFLATE, gzip, and zlib.
 branches:
 - name: master
   type: protected
+- name: openEuler-25.03
+  type: protected
+  create_from: master
 type: public

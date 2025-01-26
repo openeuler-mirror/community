@@ -1,7 +1,10 @@
 name: xlsatoms
-description: 'xlsatoms lists the interned atoms defined on an X11 server.'
+description: xlsatoms lists the interned atoms defined on an X11 server.
 upstream: https://gitlab.freedesktop.org/xorg/app/xlsatoms
 branches:
 - name: master
   type: protected
+- name: openEuler-25.03
+  type: protected
+  create_from: master
 type: public

@@ -1,7 +1,11 @@
 name: python-jupyterlite-sphinx
-description: A Sphinx extension that provides utilities for embedding JupyterLite in your documentation.
+description: A Sphinx extension that provides utilities for embedding JupyterLite
+  in your documentation.
 upstream: https://github.com/jupyterlite/jupyterlite-sphinx
 branches:
 - name: master
   type: protected
+- name: openEuler-25.03
+  type: protected
+  create_from: master
 type: public

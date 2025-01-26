@@ -4,4 +4,7 @@ upstream: http://live555.com/liveMedia/
 branches:
 - name: master
   type: protected
+- name: openEuler-25.03
+  type: protected
+  create_from: master
 type: public

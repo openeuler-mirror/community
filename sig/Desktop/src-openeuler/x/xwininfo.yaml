@@ -1,7 +1,10 @@
 name: xwininfo
-description: 'xwininfo prints information about windows on an X server.'
+description: xwininfo prints information about windows on an X server.
 upstream: https://gitlab.freedesktop.org/xorg/app/xwininfo
 branches:
 - name: master
   type: protected
+- name: openEuler-25.03
+  type: protected
+  create_from: master
 type: public

@@ -1,7 +1,14 @@
 name: libqaccessibilityclient
-description: This library is used when writing accessibility clients such as screen readers. It comes with some examples demonstrating the API. These small helpers may be useful when testing accessibility. One of them writes all accessibiliy interfaces an application provides as text output. The other, more advanced application shows a tree of objects and allows some interaction and exploration.
+description: This library is used when writing accessibility clients such as screen
+  readers. It comes with some examples demonstrating the API. These small helpers
+  may be useful when testing accessibility. One of them writes all accessibiliy interfaces
+  an application provides as text output. The other, more advanced application shows
+  a tree of objects and allows some interaction and exploration.
 upstream: https://phabricator.kde.org/source/libqaccessibilityclient
 branches:
 - name: master
   type: protected
+- name: openEuler-25.03
+  type: protected
+  create_from: master
 type: public

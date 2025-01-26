@@ -1,7 +1,11 @@
 name: python-oldest-supported-numpy
-description: Meta-package that provides the oldest NumPy that supports a given Python version and platform.
+description: Meta-package that provides the oldest NumPy that supports a given Python
+  version and platform.
 upstream: https://github.com/scipy/oldest-supported-numpy
 branches:
 - name: master
   type: protected
+- name: openEuler-25.03
+  type: protected
+  create_from: master
 type: public
