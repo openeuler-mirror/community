@@ -17,6 +17,8 @@ import argparse
 import os
 import subprocess
 import sys
+from pprint import pprint
+
 import yaml
 
 
@@ -55,6 +57,7 @@ class CheckBranch(object):
         :parm pr_id: id of community pr
         """
         self.error_flag = 0
+        self.error_msg = []
         self.warn_flag = 0
         self.branch_map = None
         self.branch_map_yaml = branch_map_yaml
@@ -113,6 +116,20 @@ class CheckBranch(object):
                 from_pkg_dict = yaml.load(from_pkg_yaml, Loader=yaml.Loader)
                 from_pkg_dict['org'] = from_org
                 self.before_change_msg.append(from_pkg_dict)
+            if (to_pkg in master_repos_tree) and to_pkg[:16] == "sig/sig-recycle/":
+                to_src_pkg_yaml = subprocess.getoutput('git show remotes/origin/master:{}'.format(to_pkg))
+                to_dest_pkg_yaml = subprocess.getoutput('git show master-{}:{}'.format(self.pr_id, to_pkg))
+                to_src_pkg_dict = yaml.load(to_src_pkg_yaml, Loader=yaml.Loader)
+                to_dest_pkg_dict = yaml.load(to_dest_pkg_yaml, Loader=yaml.Loader)
+                src_branch_list = []
+                for item in to_src_pkg_dict["branches"]:
+                    src_branch_list.append(item["name"])
+                for item in to_dest_pkg_dict["branches"]:
+                    if not item["name"] in src_branch_list:
+                        self.error_flag += 1
+                        recycle_msg = ("the sig-recycle's existing repository cannot create a new branch: {} in the "
+                                       "file[{}]").format(item["name"], to_pkg)
+                        self.error_msg.append(recycle_msg)
             if os.path.exists(to_pkg):
                 with open(to_pkg, 'r') as f:
                     to_pkg_dict = yaml.load(f.read(), Loader=yaml.Loader)
@@ -123,11 +140,8 @@ class CheckBranch(object):
 
     def get_change_pkg(self):
         print('Get diffs of Pull Request')
-        current_branch = self.get_current_branch()
-        subprocess.call('git checkout master-{}  >/dev/null'.format(args.pr_id), shell=True)
         change_pkgs = []
-        pr_diff = subprocess.getoutput('git show')
-        subprocess.call('git checkout {}  >/dev/null'.format(current_branch), shell=True)
+        pr_diff = subprocess.getoutput('git diff --staged', shell=True)
         diff_files = [{'from': x.split(' ')[0][2:], 'to': x.split(' ')[1][2:].split('\n')[0]} for x in
                       pr_diff.split('diff --git ')[1:]]
         for diff_file in diff_files:
@@ -350,10 +364,11 @@ class CheckBranch(object):
             if changed_branches:
                 self.differences_check(changed_branches, pkg)
 
-            self.recycle_branch_check(pkg)
+
 
         print("\nCheck PR {0} Result: error {1}, warn {2}".format(self.pr_id, self.error_flag, self.warn_flag))
         if self.error_flag:
+            pprint(self.error_msg)
             sys.exit(1)
 
 
