@@ -117,7 +117,11 @@ class CheckBranch(object):
                 from_pkg_dict['org'] = from_org
                 self.before_change_msg.append(from_pkg_dict)
             if (to_pkg in master_repos_tree) and to_pkg[:16] == "sig/sig-recycle/":
-                to_src_pkg_yaml = subprocess.getoutput('git show remotes/origin/master:{}'.format(to_pkg))
+                if from_pkg == to_pkg:
+                    to_src_pkg_yaml = subprocess.getoutput('git show master:{}'.format(to_pkg))
+                else:
+                    # move and delete temp not handle
+                    continue
                 to_dest_pkg_yaml = subprocess.getoutput('git show master-{}:{}'.format(self.pr_id, to_pkg))
                 to_src_pkg_dict = yaml.load(to_src_pkg_yaml, Loader=yaml.Loader)
                 to_dest_pkg_dict = yaml.load(to_dest_pkg_yaml, Loader=yaml.Loader)
@@ -344,15 +348,6 @@ class CheckBranch(object):
             if not self.unmaintained_check(bch, pkg):
                 self.error_flag = self.error_flag + 1
 
-    def recycle_branch_check(self, pkg):
-        """
-        recycle branch not allowed modify
-        """
-        to_pkg = pkg.get("to_pkg")
-        branches = pkg.get("branches")
-        if "sig-recycle/src-openeuler" in to_pkg and branches:
-            self.error_flag += 1
-            print(f"src-openeuler repo in sig recycle not allowed to modify: {to_pkg}")
 
     def check(self):
         self.refresh_unmaintained_branches()
