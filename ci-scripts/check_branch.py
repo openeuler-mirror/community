@@ -145,7 +145,7 @@ class CheckBranch(object):
     def get_change_pkg(self):
         print('Get diffs of Pull Request')
         change_pkgs = []
-        pr_diff = subprocess.getoutput('git diff --staged', shell=True)
+        pr_diff = subprocess.getoutput('git diff --staged')
         diff_files = [{'from': x.split(' ')[0][2:], 'to': x.split(' ')[1][2:].split('\n')[0]} for x in
                       pr_diff.split('diff --git ')[1:]]
         for diff_file in diff_files:
