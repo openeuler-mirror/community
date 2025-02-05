@@ -112,8 +112,8 @@ class CheckBranch(object):
             from_org = from_pkg.split('/')[2]
             to_org = to_pkg.split('/')[2]
             if from_pkg in master_repos_tree:
-                from_pkg_yaml = subprocess.getoutput('git show remotes/origin/master:{}'.format(from_pkg))
-                if not from_pkg_yaml.startswith("fatal:"):
+                exit_code, from_pkg_yaml = subprocess.getstatusoutput('git show remotes/origin/master:{}'.format(from_pkg))
+                if exit_code == 0:
                     from_pkg_dict = yaml.load(from_pkg_yaml, Loader=yaml.Loader)
                     from_pkg_dict['org'] = from_org
                     self.before_change_msg.append(from_pkg_dict)
