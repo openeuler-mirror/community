@@ -1,0 +1,10 @@
+name: oeGitExt
+description: oeGitExt is used to help developers leverage the openEuler community infrastructure. It enables developers to participate in openEuler community development by using command line.
+upstream: https://gitee.com/openeuler/oeGitExt
+branches:
+- name: master
+  type: protected
+- name: openEuler-25.03
+  type: protected
+  create_from: master
+type: public
