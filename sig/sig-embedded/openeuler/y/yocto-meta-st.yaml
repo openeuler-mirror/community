@@ -1,0 +1,7 @@
+name: yocto-meta-st
+description: STMicro support layer and adaption layer for openEuler Embedded 
+upstream: https://github.com/STMicroelectronics/meta-st-stm32mp
+branches:
+- name: master
+  type: protected
+type: public
