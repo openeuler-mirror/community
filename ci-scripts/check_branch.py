@@ -112,10 +112,11 @@ class CheckBranch(object):
             from_org = from_pkg.split('/')[2]
             to_org = to_pkg.split('/')[2]
             if from_pkg in master_repos_tree:
-                from_pkg_yaml = subprocess.getoutput('git show remotes/origin/master:{}'.format(from_pkg))
-                from_pkg_dict = yaml.load(from_pkg_yaml, Loader=yaml.Loader)
-                from_pkg_dict['org'] = from_org
-                self.before_change_msg.append(from_pkg_dict)
+                exit_code, from_pkg_yaml = subprocess.getstatusoutput('git show remotes/origin/master:{}'.format(from_pkg))
+                if exit_code == 0:
+                    from_pkg_dict = yaml.load(from_pkg_yaml, Loader=yaml.Loader)
+                    from_pkg_dict['org'] = from_org
+                    self.before_change_msg.append(from_pkg_dict)
             if (to_pkg in master_repos_tree) and to_pkg[:16] == "sig/sig-recycle/":
                 if from_pkg == to_pkg:
                     to_src_pkg_yaml = subprocess.getoutput('git show master:{}'.format(to_pkg))
