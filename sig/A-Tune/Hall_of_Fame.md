@@ -22,3 +22,16 @@ gitee_id: shanshishi
 name: shanshishi
 orgnization: Huawei
 email: shanshishi@huawei.com
+gitee_id: xiezhipeng1
+name: Zhipeng Xie
+orgnization: Huawei
+email: xiezhipeng1@huawei.com
+gitee_id: licihua
+name: licihua
+orgnization: Huawei
+email: licihua@huawei.com
+gitee_id: gaoruoshu
+name: gaoruoshu
+orgnization: Huawei
+email: gaoruoshu@huawei.com
+
