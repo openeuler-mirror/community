@@ -47,24 +47,17 @@ repositories:
   - src-openeuler/fbset
   - src-openeuler/fbida
   - src-openeuler/rust-srpm-macros
-  - src-openeuler/libdca
   - src-openeuler/libtiger
-  - src-openeuler/libmatroska
   - src-openeuler/librttopo
   - src-openeuler/lilv
-  - src-openeuler/libdvbpsi
   - src-openeuler/libmp4v2
-  - src-openeuler/libspatialaudio
   - src-openeuler/libcaca
-  - src-openeuler/lirc
   - src-openeuler/libfreenect
   - src-openeuler/live555
   - src-openeuler/libopenmpt
   - src-openeuler/eigen3
   - src-openeuler/dcmtk
-  - src-openeuler/daala
   - src-openeuler/vmaf
-  - src-openeuler/vlc
   - src-openeuler/vapoursynth
   - src-openeuler/vtk
   - src-openeuler/scalapack
@@ -81,7 +74,6 @@ repositories:
   - src-openeuler/glslang
   - src-openeuler/gdcm
   - src-openeuler/gpac
-  - src-openeuler/a52dec
   - src-openeuler/librsync
   - src-openeuler/ceres-solver
   committers:
@@ -181,8 +173,24 @@ repositories:
   - src-openeuler/google-crc32c
   - src-openeuler/highway
   - src-openeuler/vulkanmemoryallocator
+  - src-openeuler/vlc
+  - src-openeuler/a52dec
+  - src-openeuler/lirc
+  - src-openeuler/daala
+  - src-openeuler/libdca
+  - src-openeuler/libdvbpsi
+  - src-openeuler/libmatroska
+  - src-openeuler/libspatialaudio
   committers:
   - gitee_id: Jingwiw
     name: Jingwei Wang
     organization: iscas
-    email: wangjingwei@iscas.ac.cn 
+    email: wangjingwei@iscas.ac.cn
+  - gitee_id: misaka00251
+    name: Xin Liu
+    organization: iscas
+    email: liuxin@iscas.ac.cn
+  - gitee_id: jchzhou
+    name: Jiacheng Zhou
+    organization: iscas
+    email: zhoujiacheng@iscas.ac.cn
