@@ -4,4 +4,7 @@ upstream: http://liba52.sourceforge.net
 branches:
 - name: master
   type: protected
+- name: openEuler-25.03
+  type: protected
+  create_from: master
 type: public

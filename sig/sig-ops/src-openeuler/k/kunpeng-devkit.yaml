@@ -1,0 +1,9 @@
+name: kunpeng-devkit
+description: Kunpeng Platform Development Kit as the default installation software of devstation, includes tools such as compiler, SDK and plugins. Provides a complete workflow for software development, compilation, debugging, diagnosis, and tuning, and provides the ability to migrate x86 software to Kunpeng.
+branches:
+- name: master
+  type: protected
+- name: openEuler-25.03
+  type: protected
+  create_from: master
+type: public
