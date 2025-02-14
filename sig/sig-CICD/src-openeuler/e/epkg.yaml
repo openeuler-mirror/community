@@ -1,0 +1,10 @@
+name: epkg
+description: epkg is a package manager that supports multiple software versions and environments.
+upstream: https://gitee.com/openeuler/epkg
+branches:
+- name: master
+  type: protected
+- name: openEuler-25.03
+  type: protected
+  create_from: master
+type: public
