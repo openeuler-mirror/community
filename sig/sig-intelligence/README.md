@@ -14,6 +14,7 @@ sig-intelligence是一个孵化智能体应用以及工具链的工作组，其�
 - 孙立刚[@nick-slg-kylin](https://gitee.com/nick-slg-kylin), [sunligang@kylinos.cn](mailto:sunligang@kylinos.cn)
 - 严海双[@gogoxiaoxiao](https://gitee.com/gogoxiaoxiao),[yanhaishuang_yewu@cmss.chinamobile.com](mailto:yanhaishuang_yewu@cmss.chinamobile.com)
 - 杜开田[@jimmy_hero](https://gitee.com/jimmy_hero),[dukaitian@huawei.com](mailto:dukaitian@huawei.com)
+- 刘淼[@liumiao27](https://gitee.com/liumiao27),[liumiaocn@outlook.com](mailto:liumiaocn@outlook.com)
 
 ### Committer列表
 - 刘峯[@liu-feng-D](https://gitee.com/liu-feng-D), [liufeng@kylinos.cn](mailto:liufeng@kylinos.cn)
@@ -26,7 +27,10 @@ sig-intelligence是一个孵化智能体应用以及工具链的工作组，其�
 - 肖春阳[@xiaocy1997](https://gitee.com/xiaocy1997),	[xiaochunyang2@huawei.com](mailto:xiaochunyang2@huawei.com)
 - 赵家麒[@zxstty](https://gitee.com/zxstty),[zhaojiaqi18@huawei.com](mailto:zhaojiaqi18@huawei.com)	
 - 文豪[@wenhao7](https://gitee.com/wenhao7),[owen813@126.com](mailto:owen813@126.com)	
-
+- 季聿阶[@codecaster](https://gitee.com/codecaster),[codecaster365@outlook.com](mailto:codecaster365@outlook.com)
+- 刘滔[@liu_tao12138](https://gitee.com/liu_tao12138),[2635996510@qq.com](mailto:2635996510@qq.com)
+- 刘乾坤[@qkhearn](https://gitee.com/qkhearn),[hearn.qk@gmail.com](mailto:hearn.qk@gmail.com)
+- 阳鹏[@Dallas98](https://gitee.com/Dallas98),[990259227@qq.com](mailto:990259227@qq.com)
 
 # 项目地址
 待定
