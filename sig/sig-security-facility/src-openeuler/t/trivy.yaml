@@ -1,5 +1,6 @@
 name: trivy
 description: Trivy is a comprehensive, versatile security scanner, and one of the most widely used open-source security scanning tools globally.
+upstream: https://github.com/aquasecurity/trivy/
 branches:
 - name: master
   type: protected
