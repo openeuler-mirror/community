@@ -1,0 +1,9 @@
+name: global-trust-authority
+description: A framework to support remote attestation of trusted computing and confidential computing,making remote attestation flow unified and simpler
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.03-LTS-SP2
+  type: protected
+  create_from: master
+type: public
