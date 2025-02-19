@@ -58,3 +58,4 @@
 | [src-openeuler/jtreg](https://gitee.com/src-openeuler/jtreg) | |
 | [src-openeuler/icedtea-web](https://gitee.com/src-openeuler/icedtea-web) | |
 | [optimized-routines](https://gitee.com/src-openeuler/optimized-routines) | 熊 洲[@xiongzhou4](https://gitee.com/xiongzhou4) email: xiongzhou4@huawei.com |
+|[openeuler/SoftBR](https://gitee.com/openeuler/SoftBR) <br/> [src-openeuler/SoftBR](https://gitee.com/src-openeuler/SoftBR) | 王佳鑫[@wangjx6](https://gitee.com/wangjx6) <br/> 袁伟[@yuanweixiaoxiao](https://gitee.com/yuanweixiaoxiao) <br/> 周彭[@melossss](https://gitee.com/melossss) |
