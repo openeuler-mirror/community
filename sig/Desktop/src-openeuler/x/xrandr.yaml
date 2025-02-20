@@ -1,0 +1,7 @@
+name: xrandr
+description: 'primitive command line interface to X11 Resize, Rotate, and Reflect (RandR) extension'
+upstream: https://gitlab.freedesktop.org/xorg/app/xrandr
+branches:
+- name: master
+  type: protected
+type: public

@@ -1,0 +1,7 @@
+name: xhost
+description: 'xhost is used to manage the list of host names or user names allowed to make connections to the X server.'
+upstream: https://gitlab.freedesktop.org/xorg/app/xhost
+branches:
+- name: master
+  type: protected
+type: public

@@ -1,0 +1,7 @@
+name: xset
+description: 'user preference utility for X'
+upstream: https://gitlab.freedesktop.org/xorg/app/xset
+branches:
+- name: master
+  type: protected
+type: public

@@ -1,0 +1,7 @@
+name: xgamma
+description: 'xgamma allows X users to query and alter the gamma correction of a monitor via the X video mode extension (XFree86-VidModeExtension).'
+upstream: https://gitlab.freedesktop.org/xorg/app/xgamma
+branches:
+- name: master
+  type: protected
+type: public
