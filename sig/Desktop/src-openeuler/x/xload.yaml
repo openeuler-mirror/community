@@ -1,0 +1,7 @@
+name: xload
+description: 'system load average display for X'
+upstream: https://gitlab.freedesktop.org/xorg/app/xload
+branches:
+- name: master
+  type: protected
+type: public

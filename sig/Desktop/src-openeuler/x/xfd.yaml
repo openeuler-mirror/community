@@ -1,0 +1,7 @@
+name: xfd
+description: 'X font display utility, using either the X11 core protocol or libXft2.'
+upstream: https://gitlab.freedesktop.org/xorg/app/xfd
+branches:
+- name: master
+  type: protected
+type: public

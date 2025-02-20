@@ -39,6 +39,25 @@ repositories:
 - repo:
   - src-openeuler/ibus-libzhuyin
   - src-openeuler/xorg-x11-apps
+  - src-openeuler/luit
+  - src-openeuler/oclock
+  - src-openeuler/x11perf
+  - src-openeuler/xbiff
+  - src-openeuler/xclipboard
+  - src-openeuler/xclock
+  - src-openeuler/xconsole
+  - src-openeuler/xcursorgen
+  - src-openeuler/xeyes
+  - src-openeuler/xfd
+  - src-openeuler/xfontsel
+  - src-openeuler/xload
+  - src-openeuler/xlogo
+  - src-openeuler/xmag
+  - src-openeuler/xmessage
+  - src-openeuler/xpr
+  - src-openeuler/xvidtune
+  - src-openeuler/xwd
+  - src-openeuler/xwud
   - src-openeuler/xrestop
   - src-openeuler/cairomm
   - src-openeuler/ibus-table-array30
@@ -63,7 +82,7 @@ repositories:
   - src-openeuler/xlsfonts
   - src-openeuler/xprop
   - src-openeuler/xvinfo
-  - src-openeuler/xwininfo  
+  - src-openeuler/xwininfo
   - src-openeuler/xorg-x11-xbitmaps
   - src-openeuler/openbox
   - src-openeuler/jomolhari-fonts
@@ -518,11 +537,11 @@ repositories:
   - gitee_id: michael_fengjun
     name: fengjun
     email: fengjun@kylinsec.com.cn
-- repo:                                                                                                                                                  
-  - src-openeuler/vscode                                                                                                                                 
-  committers:                                                                                                                                            
-  - gitee_id: zhang-yn                                                                                                                            
-    name: zhangyinuo                                                                                                                                        
+- repo:
+  - src-openeuler/vscode
+  committers:
+  - gitee_id: zhang-yn
+    name: zhangyinuo
     email: zhangyinuo4@h-partners.com
 - repo:
   - src-openeuler/calamares
