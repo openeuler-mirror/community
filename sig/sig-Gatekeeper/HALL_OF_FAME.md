@@ -10,5 +10,7 @@ The file is used to record people who made contributions to sig-Gatekeeper and h
 | zha_hw | Zhou_Ang | 2020-08-13 | 2021-08-24 |
 | wangchuanggg | wangchuangGG | 2020-08-13 | 2021-08-24 |
 | tracedeng | dengpeng | 2020-08-13 | 2022-06-21 |
+| zhengyaohui | ZhengYaohui | 2022-06-21 | 2025-02-08|
+| liuqi469227928 | Se7en | 2021-08-21 | 2025-02-08|
 
 Thanks for being with sig-Gatekeeper all the way.
