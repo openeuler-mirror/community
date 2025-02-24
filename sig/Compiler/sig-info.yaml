@@ -182,10 +182,6 @@ repositories:
   - openeuler/gcc
   - src-openeuler/gcc
   committers:
-  - gitee_id: haijianzhang
-    name: haijian Zhang
-    organization: Huawei
-    email: z.zhanghaijian@huawei.com
   - gitee_id: huang-xiaoquan
     name: xiaoquan Huang
     organization: Huawei
@@ -201,10 +197,6 @@ repositories:
 - repo:
   - src-openeuler/gcc-12
   committers:
-  - gitee_id: haijianzhang
-    name: haijian Zhang
-    organization: Huawei
-    email: z.zhanghaijian@huawei.com
   - gitee_id: huang-xiaoquan
     name: xiaoquan Huang
     organization: Huawei
@@ -214,23 +206,11 @@ repositories:
     organization: Huawei
     email: xiongzhou4@huawei.com
 - repo:
-  - openeuler/gcc-anti-sca
-  - src-openeuler/ccache
-  committers:
-  - gitee_id: haijianzhang
-    name: haijian Zhang
-    organization: Huawei
-    email: z.zhanghaijian@huawei.com
-- repo:
   - openeuler/A-FOT
   - src-openeuler/A-FOT
   - src-openeuler/autofdo
   - src-openeuler/gcc-cross
   committers:
-  - gitee_id: benniaobufeijiushiji
-    name: da Lin
-    organization: Huawei
-    email: linda7@huawei.com
   - gitee_id: xiongzhou4
     name: zhou Xiong
     organization: Huawei
@@ -397,131 +377,10 @@ repositories:
     email: zhoujiacheng@iscas.ac.cn
 
 #################################################
-# miscellaneous repos
-#################################################
-- repo:
-  - openeuler/BiShengCLanguage
-  committers:
-  - gitee_id: nns_icu
-    name: maoda Xu
-    organization: Huawei
-    email: xumaoda@huawei.com
-  - gitee_id: fanchangchun
-    name: changchun Fan
-    organization: Huawei
-    email: fanchangchun@huawei.com
-  - gitee_id: plt42
-    name: yantao Wang
-    organization: Huawei
-    email: wangyantao4@huawei.com
-- repo:
-  - openeuler/BSCCompiler
-  repo_admin:
-  - gitee_id: sunzibo
-    name: zibo Sun
-    organization: Huawei
-    email: sunzibo@huawei.com
-  committers:
-  - gitee_id: nns_icu
-    name: maoda Xu
-    organization: Huawei
-    email: xumaoda@huawei.com
-  - gitee_id: weixin_93
-    name: weixin Lin
-    organization: Huawei
-    email: linweixin1@huawei.com
-- repo:
-  - src-openeuler/Bear
-  committers:
-  - gitee_id: xiongzhou4
-    name: zhou Xiong
-    organization: Huawei
-    email: xiongzhou4@huawei.com
-  - gitee_id: huitailangzju
-    name: huitailang
-    organization: Huawei
-    email: 804544223@qq.com
-- repo:
-  - src-openeuler/gn
-  committers:
-  - gitee_id: liheavy
-    name: Haiwei Li
-    organization: Huawei
-    email: lihaiwei8@huawei.com
-  contributors:
-  - gitee_id: xuchongyu
-    name: Chongyu Xu
-    organization: Huawei
-    email: xuchongyu@huawei.com
-- repo:
-  - src-openeuler/tinytoml
-  committers:
-  - gitee_id: JiamengZ
-    name: Jiameng Zhu
-    organization: Huawei
-    email: zhujiameng@huawei.com
-  - gitee_id: z-xu-dong-zhang
-    name: Xudong Zhang
-    organization: Huawei
-    email: zxudong.zhang@huawei.com
-- repo:
-  - openeuler/pin-gcc-client
-  - openeuler/pin-llvm-client
-  - openeuler/pin-server
-  - openeuler/pin-for-openEuler
-  - src-openeuler/pin-gcc-client
-  - src-openeuler/pin-llvm-client
-  - src-openeuler/pin-server
-  - src-openeuler/pin-for-openEuler
-  committers:
-  - gitee_id: wumingchuan
-    name: mingchuan Wu
-    organization: Huawei
-    email: wumingchuan1@huawei.com
-- repo:
-  - openeuler/CPython
-  committers:
-  - gitee_id: zhaoyu_hit
-    name: yu Zhao
-    organization: Huawei
-    email: zhaoyu64@huawei.com
-  - gitee_id: shihai1991
-    name: hai Shi
-    organization: Huawei
-    email: shihai3@huawei.com
-- repo:
-  - src-openeuler/optimized-routines
-  committers:
-  - gitee_id: xiongzhou4
-    name: zhou Xiong
-    organization: Huawei
-    email: xiongzhou4@huawei.com
-- repo:
-  - openeuler/BiSheng-Adoptium
-  - openeuler/compiler-docs
-  - src-openeuler/WLLVM
-  - src-openeuler/jtreg
-  - src-openeuler/icedtea-web
-
-#################################################
 # AI4C repos
 #################################################
 - repo:
   - openeuler/AI4C
-  committers:
-  - gitee_id: liuf9
-    name: Feiyang Liu
-    organization: Huawei
-    email: liufeiyang6@huawei.com
-  - gitee_id: zhenyu--zhao_admin
-    name: Zhenyu Zhao
-    organization: Huawei
-    email: zhaozhenyu17@huawei.com
-  - gitee_id: wumingchuan
-    name: Mingchuan Wu
-    organization: Huawei
-    email: wumingchuan1@huawei.com 
-- repo:
   - src-openeuler/AI4C
   committers:
   - gitee_id: liuf9
@@ -535,11 +394,7 @@ repositories:
   - gitee_id: wumingchuan
     name: Mingchuan Wu
     organization: Huawei
-    email: wumingchuan1@huawei.com
-
-#################################################
-# ACPO repos
-#################################################
+    email: wumingchuan1@huawei.com 
 - repo:
   - src-openeuler/ACPO
   committers:
@@ -591,3 +446,97 @@ repositories:
     name: ZhouPeng
     organization: Nanjing University
     email: 1026579097@qq.com
+
+#################################################
+# miscellaneous repos
+#################################################
+- repo:
+  - openeuler/BiShengCLanguage
+  committers:
+  - gitee_id: nns_icu
+    name: maoda Xu
+    organization: Huawei
+    email: xumaoda@huawei.com
+  - gitee_id: fanchangchun
+    name: changchun Fan
+    organization: Huawei
+    email: fanchangchun@huawei.com
+  - gitee_id: plt42
+    name: yantao Wang
+    organization: Huawei
+    email: wangyantao4@huawei.com
+- repo:
+  - openeuler/BSCCompiler
+  repo_admin:
+  - gitee_id: sunzibo
+    name: zibo Sun
+    organization: Huawei
+    email: sunzibo@huawei.com
+  committers:
+  - gitee_id: nns_icu
+    name: maoda Xu
+    organization: Huawei
+    email: xumaoda@huawei.com
+  - gitee_id: weixin_93
+    name: weixin Lin
+    organization: Huawei
+    email: linweixin1@huawei.com
+- repo:
+  - src-openeuler/Bear
+  committers:
+  - gitee_id: xiongzhou4
+    name: zhou Xiong
+    organization: Huawei
+    email: xiongzhou4@huawei.com
+  - gitee_id: huitailangzju
+    name: huitailang
+    organization: Huawei
+    email: 804544223@qq.com
+- repo:
+  - src-openeuler/tinytoml
+  committers:
+  - gitee_id: JiamengZ
+    name: Jiameng Zhu
+    organization: Huawei
+    email: zhujiameng@huawei.com
+  - gitee_id: z-xu-dong-zhang
+    name: Xudong Zhang
+    organization: Huawei
+    email: zxudong.zhang@huawei.com
+- repo:
+  - openeuler/pin-gcc-client
+  - openeuler/pin-llvm-client
+  - openeuler/pin-server
+  - openeuler/pin-for-openEuler
+  - src-openeuler/pin-gcc-client
+  - src-openeuler/pin-llvm-client
+  - src-openeuler/pin-server
+  - src-openeuler/pin-for-openEuler
+  committers:
+  - gitee_id: wumingchuan
+    name: mingchuan Wu
+    organization: Huawei
+    email: wumingchuan1@huawei.com
+- repo:
+  - openeuler/CPython
+  committers:
+  - gitee_id: zhaoyu_hit
+    name: yu Zhao
+    organization: Huawei
+    email: zhaoyu64@huawei.com
+- repo:
+  - src-openeuler/optimized-routines
+  committers:
+  - gitee_id: xiongzhou4
+    name: zhou Xiong
+    organization: Huawei
+    email: xiongzhou4@huawei.com
+- repo:
+  - openeuler/BiSheng-Adoptium
+  - openeuler/compiler-docs
+  - src-openeuler/WLLVM
+  - src-openeuler/jtreg
+  - src-openeuler/icedtea-web
+  - openeuler/gcc-anti-sca
+  - src-openeuler/ccache
+  - src-openeuler/gn
