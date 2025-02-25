@@ -1,0 +1,16 @@
+name: euler-copilot-shell
+description: CLI and desktop client applications that enables developers to interact with the operating system using natural language.
+upstream: https://gitee.com/openeuler/euler-copilot-shell
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-24.03-LTS-SP1
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
+- name: openEuler-25.03
+  type: protected
+  create_from: master
+type: public
