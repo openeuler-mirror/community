@@ -1,0 +1,10 @@
+name: k8s-install
+description: Cloundnative Infrastructure Setup Publish Update tool
+upstream: https://gitee.com/openeuler/k8s-install
+branches:
+- name: master
+  type: protected
+- name: openEuler-25.03
+  type: protected
+  create_from: master
+type: public
