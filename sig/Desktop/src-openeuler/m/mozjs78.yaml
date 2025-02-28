@@ -1,58 +1,26 @@
 name: mozjs78
+rename-from: cinnamon-mozjs78
 description: SpiderMonkey JavaScript library
 upstream: https://hg.mozilla.org/releases/mozilla-esr78
 branches:
 - name: master
   type: protected
-- name: openEuler-20.03-LTS-Next
-  type: readonly
-  create_from: master
-- name: openEuler-21.03
-  type: readonly
-  create_from: master
-- name: openEuler-20.03-LTS
-  type: readonly
-  create_from: openEuler-20.03-LTS-Next
-- name: openEuler-20.03-LTS-SP1
-  type: protected
-  create_from: openEuler-20.03-LTS-Next
-- name: openEuler-20.03-LTS-SP2
-  type: readonly
-  create_from: openEuler-20.03-LTS-Next
-- name: openEuler-21.09
-  type: readonly
-  create_from: master
-- name: openEuler-20.03-LTS-SP3
-  type: protected
-  create_from: openEuler-20.03-LTS-Next
-- name: openEuler-22.03-LTS-Next
-  type: protected
-  create_from: openEuler-21.09
-- name: openEuler-22.03-LTS
-  type: readonly
-  create_from: openEuler-22.03-LTS-Next
 - name: openEuler-22.09
   type: readonly
   create_from: master
-- name: openEuler-22.03-LTS-SP1
-  type: protected
-  create_from: openEuler-22.03-LTS-Next
 - name: openEuler-23.03
   type: readonly
   create_from: master
-- name: openEuler-22.03-LTS-SP2
-  type: protected
-  create_from: openEuler-22.03-LTS-Next
 - name: openEuler-23.09
   type: protected
   create_from: master
-- name: openEuler-20.03-LTS-SP4
+- name: openEuler-24.03-LTS-Next
   type: protected
-  create_from: openEuler-20.03-LTS-SP3
-- name: openEuler-22.03-LTS-SP3
+  create_from: master
+- name: openEuler-24.03-LTS
   type: protected
-  create_from: openEuler-22.03-LTS-Next
-- name: openEuler-22.03-LTS-SP4
+  create_from: openEuler-24.03-LTS-Next
+- name: openEuler-24.09
   type: protected
-  create_from: openEuler-22.03-LTS-Next
+  create_from: master
 type: public

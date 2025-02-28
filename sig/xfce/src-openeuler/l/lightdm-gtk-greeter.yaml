@@ -1,6 +1,7 @@
-name: lightdm-gtk
+name: lightdm-gtk-greeter
+rename_from: lightdm-gtk
 description: A LightDM greeter that uses the GTK3 toolkit
-upstream: https://launchpad.net/lightdm-gtk-greeter
+upstream: https://github.com/Xubuntu/lightdm-gtk-greeter
 branches:
 - name: master
   type: protected
