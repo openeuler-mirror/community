@@ -58,6 +58,10 @@ Please [readme](./Vision-en.md)
 - qianguoxin[@qianguoxin](https://gitee.com/qianguoxin) email: qianguoxin@huawei.com
 - Yan Fangfang[@fangfang-yan](https://gitee.com/fangfang-yan) email: fangfang.yan@huawei.com
 
+#### RDMA-Core项目Committer列表
+- 汤乘畅[@hellotcc](https://gitee.com/hellotcc) email: tangchengchang@huawei.com
+- 黄俊贤[@hginjgerx](https://gitee.com/hginjgerx) email: huangjunxian6@hisilicon.com
+
 ### 突出贡献者
 | gitee昵称 | giteeID | 邮箱 | 姓名(可选)|
 |---|---|---|---|
