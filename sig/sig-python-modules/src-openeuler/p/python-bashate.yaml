@@ -103,4 +103,7 @@ branches:
 - name: openEuler-25.03
   type: protected
   create_from: master
+- name: Multi-Version_OpenStack-Antelope_openEuler-25.03
+  type: protected
+  create_from: Multi-Version_OpenStack-Antelope_openEuler-24.03-LTS-SP1
 type: public
