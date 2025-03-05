@@ -1,0 +1,10 @@
+name: python-quart
+upstream: https://github.com/pallets/quart
+description: A Python ASGI web framework with the same API as Flask.
+branches:
+- name: master
+  type: protected
+- name: openEuler-25.03
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: python-quart-trio
+upstream: https://github.com/pgjones/quart-trio
+description: A Quart extension to provide trio support.
+branches:
+- name: master
+  type: protected
+- name: openEuler-25.03
+  type: protected
+  create_from: master
+type: public
