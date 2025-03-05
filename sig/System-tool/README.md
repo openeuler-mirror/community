@@ -27,7 +27,7 @@
 
 - 赵磊[@AlexZ11](https://gitee.com/AlexZ11)
 - 夏森林[@small_leek](https://gitee.com/small_leek)
-- 李永强[@Charlie_Li](https://gitee.com/Charlie_Li)
+- 李永强[@Charlie_li](https://gitee.com/Charlie_li)
 - 陈燕潘[@chenyanpanHW](https://gitee.com/chenyanpanHW)
 
 # 联系方式

@@ -16,7 +16,7 @@
 - 侯  健<houjian@kylinos.cn> [[@hjimmy](https://gitee.com/hjimmy)]
 - 胡  峰<solar.hu@huawei.com> [[@solarhu](https://gitee.com/solarhu)]
 - 胡欣蔚<huxinwei@huawei.com> [[@shinwell_hu](https://gitee.com/shinwell_hu)]
-- 李永强<liyongqiang329@163.com> [[@charlie_li](https://gitee.com/charlie_li)]
+- 李永强<liyongqiang329@163.com> [[@Charlie_li](https://gitee.com/Charlie_li)]
 - 任  慰<renwei41@huawei.com> [[@vonhust](https://gitee.com/vonhust)]
 - 石  勇<shiyong@kylinos.com.cn> [[@stonefly128](https://gitee.com/stonefly128)]
 - 田  俊<jun.j.tan@intel.com> [[@juntianlinux](https://gitee.com/juntianlinux)]
