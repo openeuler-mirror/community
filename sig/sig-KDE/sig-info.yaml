@@ -32,11 +32,6 @@ maintainers:
 - gitee_id: open-bot
   name: liweigang
   email: openbot@yeah.net
-committers:
-- gitee_id: jackssir
-  name: lvfei
-  organization: KylinSoft
-  email: lvfei@kylinos.cn
 repositories:
 - repo:
   - openeuler/openEuler-menus
@@ -307,6 +302,15 @@ repositories:
   - src-openeuler/qaccessibilityclient
   - src-openeuler/kscreen
   - src-openeuler/powerdevil
+  - src-openeuler/attica
+  - src-openeuler/libkscreen-qt5
+  - src-openeuler/libqaccessibilityclient
+  - src-openeuler/polkit-qt-1
+  committers:
+  - gitee_id: jackssir
+    name: lvfei
+    organization: KylinSoft
+    email: lvfei@kylinos.cn
 - repo:
   - src-openeuler/kpmcore
   committers:
