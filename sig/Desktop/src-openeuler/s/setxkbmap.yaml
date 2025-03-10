@@ -1,0 +1,7 @@
+name: setxkbmap
+description: 'Set keymaps, layouts, and options via the X Keyboard Extension (XKB)'
+upstream: https://gitlab.freedesktop.org/xorg/app/setxkbmap
+branches:
+- name: master
+  type: protected
+type: public

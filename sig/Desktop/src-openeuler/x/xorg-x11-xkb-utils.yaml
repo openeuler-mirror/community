@@ -2,7 +2,7 @@ name: xorg-x11-xkb-utils
 description: ''
 branches:
 - name: master
-  type: protected
+  type: readonly
 - name: openEuler-20.03-LTS-SP1
   type: protected
   create_from: master

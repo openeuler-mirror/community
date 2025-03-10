@@ -1,0 +1,7 @@
+name: xkbcomp
+description: 'XKB keyboard description compiler'
+upstream: https://gitlab.freedesktop.org/xorg/app/xkbcomp
+branches:
+- name: master
+  type: protected
+type: public
