@@ -34,7 +34,6 @@
 - 李永强[@Charlie_Li](https://gitee.com/Charlie_Li)
 - 汪奕如[@薄皮小笼包](https://gitee.com/ruebb)
 - 宋楠楠[@orange-snn](https://gitee.com/orange-snn)
-- 何秀军[@algorithmofdish](https://gitee.com/algorithmofdish)
 - Randy.Wang[@Randy.Wang](https://gitee.com/wangxp006)
 - ultra_planet[@ultra_planet](https://gitee.com/ultra_planet)
 - 李次华[@Monday](https://gitee.com/licihua)
