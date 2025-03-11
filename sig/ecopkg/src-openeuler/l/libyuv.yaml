@@ -1,0 +1,8 @@
+name: libyuv
+description: 'This package is imported from EUR: https://eur.openeuler.openatom.cn//coprs/yangfanrani/libyuv/package/libyuv'
+upstream: https://chromium.googlesource.com/libyuv/libyuv
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
