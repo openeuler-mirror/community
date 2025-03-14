@@ -1,0 +1,7 @@
+name: postgresql15
+description: A powerful open source object-relational database system
+upstream: http://www.postgresql.org
+branches:
+- name: master
+  type: protected
+type: public
