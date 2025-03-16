@@ -1,0 +1,7 @@
+name: composer
+description: A Dependency Manager for PHP
+upstream: https://getcomposer.org/
+branches:
+- name: master
+  type: protected
+type: public
