@@ -38,13 +38,13 @@ http://gitee.com/openeuler/openEuler-Advisor
 ## Basic Information
 
 ### Maintainers
-- 胡欣蔚 (Shinwell_Hu)
+- 胡欣蔚 (shinwell_hu)
 - 梁辰晔 (initlove)
 - 王伶卓 (z0wang)
 - 熊伟 (myeuler)
 
 ### Committers
-- 胡欣蔚 (Shinwell_Hu)
+- 胡欣蔚 (shinwell_hu)
 - 梁辰晔 (initlove)
 - 王伶卓 (z0wang)
 - 熊伟 (myeuler)

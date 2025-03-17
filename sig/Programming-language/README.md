@@ -31,7 +31,7 @@
 - 董剑[@惊奇脆片饼干](https://gitee.com/dogsheng)
 - 缪开波[@缪开波](https://gitee.com/miao_kaibo)
 - 陈振熠[@码云爸爸](https://gitee.com/eric14chan)
-- 李永强[@Charlie_Li](https://gitee.com/Charlie_Li)
+- 李永强[@Charlie_li](https://gitee.com/Charlie_li)
 - 汪奕如[@薄皮小笼包](https://gitee.com/ruebb)
 - 宋楠楠[@orange-snn](https://gitee.com/orange-snn)
 - Randy.Wang[@Randy.Wang](https://gitee.com/wangxp006)
