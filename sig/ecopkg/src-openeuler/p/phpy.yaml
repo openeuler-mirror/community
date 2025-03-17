@@ -1,0 +1,8 @@
+name: phpy
+description: 'An extension for inter-calling Python and PHP'
+upstream: https://github.com/swoole/phpy
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
