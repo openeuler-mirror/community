@@ -54,17 +54,38 @@ openEuler技术委员会（Technical Committee，以下和TC互换使用）是op
 - 陈亚强 于2025年2月通过选举当选TC成员.
 - 杜开田 于2025年2月通过选举当选TC成员.
 - 高贵锦 于2025年2月通过选举当选TC成员.
-- 刘恺 于2025年2月通过选举当选TC成员.
+- 刘  恺 于2025年2月通过选举当选TC成员.
 - 马全一 于2025年2月通过选举当选TC成员.
 - 唐葛亮 于2025年2月通过选举当选TC成员.
 - 王经纬 于2025年2月通过选举当选TC成员.
 - 叶青龙 于2025年2月通过选举当选TC成员.
 - 岳龙广 于2025年2月通过选举当选TC成员.
 
+
+# 2024年TC成员
+- 曹志<george.cao@huawei.com> [[@georgecao](https://gitee.com/georgecao)]
+- 陈棋德<dillon.chen@gmail.com> [[@dillon_chen](https://gitee.com/dillon_chen)]
+- 侯  健<houjian@kylinos.cn> [[@hjimmy](https://gitee.com/hjimmy)]
+- 胡  峰<solar.hu@huawei.com> [[@solarhu](https://gitee.com/solarhu)]
+- 胡欣蔚<huxinwei@huawei.com> [[@shinwell_hu](https://gitee.com/shinwell_hu)]
+- 李永强<liyongqiang329@163.com> [[@Charlie_li](https://gitee.com/Charlie_li)]
+- 吕从庆<lvcongqing@uniontech.com> [[@HelloWorld_lvcongqing](https://gitee.com/HelloWorld_lvcongqing)
+- 任  慰<renwei41@huawei.com> [[@vonhust](https://gitee.com/vonhust)]
+- 石  勇<shiyong@kylinos.com.cn> [[@stonefly128](https://gitee.com/stonefly128)]
+- 田  俊<jun.j.tian@intel.com> [[@juntianlinux](https://gitee.com/juntianlinux)]
+- 王建民<jianmin@iscas.ac.cn> [[@jianminw](https://gitee.com/jianminw)]
+- 王志钢<wangzhigang17@huawei.com>  [[@cellfaint](https://gitee.com/cellfaint)]
+- 王伶卓<relue0z@outlook.com> [[@relue0z](https://gitee.com/relue0z)]
+- 魏建刚<wei_jiangang@hoperun.com> [[@bugflyfly](https://gitee.com/bugflyfly)]
+- 吴峰光<wufengguang@huawei.com> [[@wu_fengguang](https://gitee.com/wu_fengguang)]
+- 谢秀奇<xiexiuqi@huawei.com> [[@xiexiuqi](https://gitee.com/xiexiuqi)]
+- 赵川峰<zhaochuanfeng@huawei.com> [[@cf-zhao](https://gitee.com/cf-zhao)]
+- 朱健伟<zhujianwei7.huawei.com> [[@zhujianwei001](https://gitee.com/zhujianwei001)]
+
 ## 2024 年 TC 成员变更历史
 - 卞乃猛于2024年4月卸任，魏建刚接替TC委员工作。
 - 胡亚弟于2024年5月卸任.
-- 熊伟 于 2024年11月卸任.
+- 熊  伟于2024年11月卸任.
 
 # 2023年TC成员
 - 卞乃猛<bian_naimeng@hoperun.com> [[@biannm](https://gitee.com/biannm)]
