@@ -26,7 +26,6 @@ repositories:
   - src-openeuler/xcb-util-image
   - src-openeuler/xorg-x11-proto-devel
   - src-openeuler/valgrind
-  - src-openeuler/composer
   - src-openeuler/python-blinker
   - src-openeuler/python-atomicwrites
   - src-openeuler/perl-Archive-Zip
@@ -366,3 +365,18 @@ repositories:
     name: Jingwei Wang
     organization: iscas
     email: wangjingwei@iscas.ac.cn
+
+- repo:
+  - src-openeuler/php
+  - src-openeuler/composer
+  - src-openeuler/php-pear
+  - src-openeuler/php-pecl-zip
+  - src-openeuler/phpy
+  - src-openeuler/swoole
+  committers:
+  - gitee_id: fundawang
+    name: Funda Wang
+    email: fundawang@yeah.net
+  - gitee_id: cherry530
+    name: ping Xu
+    email: 707078654@qq.com
