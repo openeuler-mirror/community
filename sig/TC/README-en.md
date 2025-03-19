@@ -19,8 +19,53 @@ The openEuler Technical Committee (TC) is responsible for technical decision-mak
 
 The list of TC members is organized alphabetically by last name:
 
-- Chen Qide <dillon.chen@gmail.com> [[@dillon_chen](https://gitee.com/dillon_chen)]
 - Cao Zhi <george.cao@huawei.com> [[@georgecao](https://gitee.com/georgecao)]
+- Chen Maodong <chenmaodong@xfusion.com> [[@chenmaodong](https://gitee.com/chenmaodong)]
+- Chen Qide<dillon.chen@gmail.com> [[@dillon_chen](https://gitee.com/dillon_chen)]
+- Chen Yaqiang <chen_yaqiang@foxmail.com> [[@yaqiangchen](https://gitee.com/yaqiangchen)]
+- Du Kaitian <dukaitian@huawei.com> [[@jimmy_hero](https://gitee.com/jimmy_hero)]
+- Gao Guijin<gaoguijin@huawei.com> [[@blue0613 ](https://gitee.com/blue0613)]
+- Hou Jian <houjian@kylinos.cn> [[@hjimmy](https://gitee.com/hjimmy)]
+- Hu Feng <solar.hu@huawei.com> [[@solarhu](https://gitee.com/solarhu)]
+- Hu Xinwei <huxinwei@huawei.com> [[@shinwell_hu](https://gitee.com/shinwell_hu)]
+- Li Yongqiang <liyongqiang329@163.com> [[@Charlie_li](https://gitee.com/Charlie_li)]
+- Liu Kai <kraml.liu@gmail.com> [[@kailiu42](https://gitee.com/kailiu42)]
+- Lv Chongqing <lvcongqing@uniontech.com> [[@HelloWorld_lvcongqing](https://gitee.com/HelloWorld_lvcongqing)]
+- Ma Quanyi<eli@patch.sh> [[@genedna](https://gitee.com/genedna)]
+- Ren Wei <renwei41@huawei.com> [[@vonhust](https://gitee.com/vonhust)]
+- Shi Yong <shiyong@kylinos.com.cn> [[@stonefly128](https://gitee.com/stonefly128)]
+- Tang Geliang <geliang@kernel.org> [[@geliangtang](https://gitee.com/geliangtang)]
+- Tian Jun <jun.j.tian@intel.com> [[@juntianlinux](https://gitee.com/juntianlinux)]
+- Wang Jianmin <jianmin@iscas.ac.cn> [[@jianminw](https://gitee.com/jianminw)]
+- Wang Jingwei <wangjingwei@iscas.ac.cn@iscas.ac.cn> [[@Jingwiw](https://gitee.com/Jingwiw)]
+- Wang Zhigang <wangzhigang17@huawei.com>  [[@cellfaint](https://gitee.com/cellfaint)]
+- Wei Jiangang <wei_jiangang@hoperun.com>[[@bugflyfly](https://gitee.com/bugflyfly)]
+- Wu Fengguang <wufengguang@huawei.com> [[@wu_fengguang](https://gitee.com/wu_fengguang)]
+- Xie Xiuqi <xiexiuqi@huawei.com> [[@xiexiuqi](https://gitee.com/xiexiuqi)]
+- Ye Qinglong <yeqinglong@kylinsec.com.cn> [[@yeqinglong01](https://gitee.com/yeqinglong01)]
+- Yue Longguang <yuelg@chinaunicom.cn> [[@bigclouds99](https://gitee.com/bigclouds99)]
+- Zhao Chuanfeng <zhaochuanfeng@huawei.com> [[@cf-zhao](https://gitee.com/cf-zhao)]
+- Zhu Jianwei <zhujianwei7@huawei.com> [[@zhujianwei001](https://gitee.com/zhujianwei001)]
+
+## Changes of 2025 TC Members
+- Wang Lingzhuo resigned from the committee in Feb. 2025.
+- Chen Maodong was elected as a TC member in Feb. 2025.
+- Chen Yaqiang was elected as a TC member in Feb. 2025.
+- Du Kaitian was elected as a TC member in Feb. 2025.
+- Gao Guijin was elected as a TC member in Feb. 2025.
+- Liu Kai was elected as a TC member in Feb. 2025.
+- Ma Quanyi was elected as a TC member in Feb. 2025.
+- Tang Geliang was elected as a TC member in Feb. 2025.
+- Wang Jingwei was elected as a TC member in Feb. 2025.
+- Ye Qinglong was elected as a TC member in Feb. 2025.
+- Yue Longguang was elected as a TC member in Feb. 2025.
+
+# 2024 TC Members
+
+The list of TC members is organized alphabetically by last name:
+
+- Cao Zhi <george.cao@huawei.com> [[@georgecao](https://gitee.com/georgecao)]
+- Chen Qide <dillon.chen@gmail.com> [[@dillon_chen](https://gitee.com/dillon_chen)]
 - Hou Jian <houjian@kylinos.cn> [[@hjimmy](https://gitee.com/hjimmy)]
 - Hu Feng <solar.hu@huawei.com> [[@solarhu](https://gitee.com/solarhu)]
 - Hu Xinwei <huxinwei@huawei.com> [[@shinwell_hu](https://gitee.com/shinwell_hu)]
@@ -39,7 +84,7 @@ The list of TC members is organized alphabetically by last name:
 - Zhu Jianwei <zhujianwei7.huawei.com> [[@zhujianwei001](https://gitee.com/zhujianwei001)]
 
 ## Changes of 2024 TC Members
-- Bian Naimeng resigned from the committee in Apr. 2024, and Wei Jiangang took over this work as as TC member.
+- Bian Naimeng resigned from the committee in Apr. 2024, and Wei Jiangang took over this work as a TC member.
 - Hu Yadi resigned from the committee in May 2024.
 - Xiong Wei resigned from the committee in Nov. 2024.
 
@@ -69,7 +114,7 @@ The list of TC members is organized alphabetically by last name:
 
 ## Changes of 2023 TC Members
 - Ye Qinglong resigned from the committee in Mar. 2023, and Lv Congqing took over this work as a TC member.
-- Wei Gang resigned from the committee in Sept. 2023, and Zhu Jianwei took over this work as as TC member.
+- Wei Gang resigned from the committee in Sept. 2023, and Zhu Jianwei took over this work as a TC member.
 - Liu Shouyong resiged from the committee in Dec. 2023.
 
 # 2022 TC Members
