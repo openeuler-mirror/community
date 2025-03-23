@@ -239,3 +239,6 @@ blacklist-software:
 - name: ghc-x509-validation
   reason: upstream stops maintaining this software
   upstream_url: https://hackage.haskell.org/package/x509-validation
+- name: xmms
+  reason: upstream stops maintaining this software
+  upstream_url: https://git.conf.top/public/rpmbuild/src/master/xmms
