@@ -38,6 +38,9 @@ maintainers:
 - gitee_id: tzing_t
   name: zhengting
   email: zhengting13@huawei.com
+- gitee_id: Accessac
+  name: wangjing
+  email: wangjing@uniontech.com
 repositories:
 - repo:
   - openeuler/openstack
@@ -48,10 +51,6 @@ repositories:
   - gitee_id: huangtianhua
     name: huangtianhua
     email: huangtianhua223@gmail.com
-  committers:
-  - gitee_id: Accessac
-    name: wangjing
-    email: wangjing@uniontech.com
 - repo:
   - openeuler/hostha
   - openeuler/opensd
@@ -63,10 +62,6 @@ repositories:
   - openeuler/openstack-releases-adaptation
   - openeuler/openstack-sig-tool
   - openeuler/pyisula
-  committers:
-  - gitee_id: Accessac
-    name: wangjing
-    email: wangjing@uniontech.com
 - repo:
   - openeuler/gostone
   committers:
@@ -523,7 +518,3 @@ repositories:
   - src-openeuler/python-zaqarclient
   - src-openeuler/python-zunclient
   - src-openeuler/spice-html5
-  committers:
-  - gitee_id: Accessac
-    name: wangjing
-    email: wangjing@uniontech.com
