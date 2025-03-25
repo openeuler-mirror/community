@@ -1,0 +1,6 @@
+name: splitter
+description: Splitting openEuler packages into multiple slices for building distroless images.
+branches:
+- name: master
+  type: protected
+type: public

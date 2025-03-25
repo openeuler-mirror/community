@@ -1,0 +1,6 @@
+name: slice-releases
+description: Store openEuler slice definition files to splite one package into multiple slices.
+branches:
+- name: master
+  type: protected
+type: public

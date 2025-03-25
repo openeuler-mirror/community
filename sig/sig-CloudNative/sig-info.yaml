@@ -127,6 +127,8 @@ repositories:
   - openeuler/openeuler-docker-images
   - openeuler/cloudnative
   - openeuler/cloudnative-docs
+  - openeuler/splitter
+  - openeuler/slice-releases
   - src-openeuler/umoci
   - src-openeuler/gvisor
   - src-openeuler/harbor
@@ -317,3 +319,11 @@ repositories:
     name: Ruoqing He
     organization: ISCAS
     email: heruoqing@iscas.ac.cn
+- repo:
+  - openeuler/splitter
+  - openeuler/slice-releases
+  committers:
+  - gitee_id: baigj
+    name: Guangjie Bai
+    organization: Huawei
+    email: guangjiebai@gmail.com
