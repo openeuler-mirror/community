@@ -1,0 +1,10 @@
+name: caja-dropbox
+description: Dropbox is a proprietary service that lets one bring photos, documents, and videos anywhere and share them easily. This package integrates Dropbox seamlessly into Caja.
+upstream: https://github.com/mate-desktop/caja-dropbox
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
