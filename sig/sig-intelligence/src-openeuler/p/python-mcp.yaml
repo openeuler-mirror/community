@@ -1,0 +1,10 @@
+name: python-mcp
+description: The official Python SDK for Model Context Protocol servers and clients
+upstream: https://github.com/modelcontextprotocol/python-sdk
+branches:
+- name: master
+  type: protected
+- name: openEuler-25.03
+  type: protected
+  create_from: master
+type: public

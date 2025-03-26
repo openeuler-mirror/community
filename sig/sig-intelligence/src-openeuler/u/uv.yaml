@@ -1,0 +1,10 @@
+name: uv
+description: An extremely fast Python package and project manager, written in Rust.
+upstream: https://github.com/astral-sh/uv
+branches:
+- name: master
+  type: protected
+- name: openEuler-25.03
+  type: protected
+  create_from: master
+type: public
