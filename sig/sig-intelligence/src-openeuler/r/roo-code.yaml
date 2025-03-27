@@ -1,0 +1,10 @@
+name: roo-code
+description: Roo Code (prev. Roo Cline) gives you a whole dev team of AI agents in your code editor.
+upstream: https://github.com/RooVetGit/Roo-Code
+branches:
+- name: master
+  type: protected
+- name: openEuler-25.03
+  type: protected
+  create_from: master
+type: public
