@@ -4,4 +4,16 @@ upstream: https://github.com/vllm-project/vllm
 branches:
 - name: master
   type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-22.03-LTS-SP4
+  type: protected
+  create_from: openEuler-22.03-LTS-Next
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-24.03-LTS-SP1
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
 type: public
