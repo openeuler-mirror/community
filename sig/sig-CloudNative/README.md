@@ -34,12 +34,12 @@ CloudNative SIG致力于为广大用户、开发者、爱好者提供便捷、�
 - jingxiaolu[@jingxiaolu](https://gitee.com/jingxiaolu)
 - leizhongkai[@leizhongkai](https://gitee.com/leizhongkai)
 - jing-rui[@jing-rui](https://gitee.com/jing-rui)
-- flyflyflypeng[@flyflyflypeng](https://gitee.com/flyflyflypeng)
 - lifeng2221dd1[@lifeng2221dd1](https://gitee.com/lifeng2221dd1)
 - jianli-97[@jianli-97](https://gitee.com/jianli-97)
 - duyiwei7w[@duyiwei7w](https://gitee.com/duyiwei7w)
 - Xiaocong Suo[@suo-xiaocong](https://gitee.com/suo-xiaocong)
 - Bowei Zhang[@northgarden](https://gitee.com/northgarden)
+- Tao Zhong[@taotao-sauce](https://gitee.com/taotao-sauce)
 
 
 ### Honor Maintainer
