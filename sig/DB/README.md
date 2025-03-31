@@ -89,7 +89,7 @@ Project names && repository location：
 - https://gitee.com/src-openeuler/h2
 - https://gitee.com/src-openeuler/phoenix
 - https://gitee.com/src-openeuler/mariadb-connector-odbc
-- https://gitee.com/src-openeuler/mysql5
+- https://gitee.com/src-openeuler/mysql
 - https://gitee.com/src-openeuler/pig
 - https://gitee.com/src-openeuler/percona-server
 - https://gitee.com/src-openeuler/percona-toolkit

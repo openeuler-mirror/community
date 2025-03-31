@@ -84,7 +84,7 @@ DB SIG当前处于发展的初始阶段，团队维护能力有限，目前为�
 - https://gitee.com/src-openeuler/h2
 - https://gitee.com/src-openeuler/phoenix
 - https://gitee.com/src-openeuler/mariadb-connector-odbc
-- https://gitee.com/src-openeuler/mysql5
+- https://gitee.com/src-openeuler/mysql
 - https://gitee.com/src-openeuler/percona-server
 - https://gitee.com/src-openeuler/percona-toolkit
 - https://gitee.com/src-openeuler/percona-xtrabackup
