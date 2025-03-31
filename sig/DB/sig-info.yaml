@@ -22,7 +22,9 @@ maintainers:
   email: xichutian@huawei.com
 repositories:
 - repo:
+  - src-openeuler/mongo-c-driver
   - src-openeuler/mysql
+  - src-openeuler/redis
   committers:
   - gitee_id: wk333
     name: kai Wang
