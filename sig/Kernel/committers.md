@@ -105,6 +105,7 @@
 | lpfc     | drivers/scsi/lpfc           | [@flyingrunsnail](https://gitee.com/flyingrunsnail) |
 | qla2xxx  | drivers/scsi/qola2xxx       | [@flyingrunsnail](https://gitee.com/flyingrunsnail) |
 | mpt3sas  | drivers/scsi/mpt3sas        | [@flyingrunsnail](https://gitee.com/flyingrunsnail) |
+i ACCELERATOR Controller DRIVER | Documentation/ABI/testing/debugfs-hisi-zip<br/>Documentation/ABI/testing/debugfs-hisi-sec<br/>Documentation/ABI/testing/debugfs-hisi-hpre<br/>drivers/crypto/hisilicon/<br/>include/linux/hisi_acc_qm.h<br/>drivers/vfio/pri/hisilicon/<br/>drivers/misc/uacce/ | [@liulongfang](https://gitee.com/liulongfang) | 
 
 
 ## tools
