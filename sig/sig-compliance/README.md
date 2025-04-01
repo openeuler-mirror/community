@@ -31,7 +31,6 @@ openEuler集成依赖了上游数千个开源组件，组件和组件之间也�
 
 ### Maintainer列表
 
-- 高琨[@king-gao](https://gitee.com/king-gao),*king.gao@huawei.com*
 - 魏建刚[@bugflyfly](https://gitee.com/bugflyfly),*wei_jiangang@hoperun.com*
 - 许渊聪[@sectrend_xyc](https://gitee.com/sectrend_xyc), *yuancong.xu@sectrend.com.cn*
 - 陈一雄[@YixiongChen](https://gitee.com/YixiongChen),*975102023@qq.com*
