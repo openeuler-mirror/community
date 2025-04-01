@@ -1,0 +1,8 @@
+name: HdrHistogram_C
+description: 'C port of High Dynamic Range (HDR) Histogram'
+upstream: https://github.com/HdrHistogram/HdrHistogram_c
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
