@@ -1,0 +1,8 @@
+name: pxeuler
+description: '本项目主要一键集成pxe环境，支持多系统引导安装'
+upstream: https://gitee.com/quanag_100/pxeuler
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
