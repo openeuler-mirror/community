@@ -1,0 +1,8 @@
+name: libebur128
+description: '用于计算音频信号的响度 (Loudness) 和响度范围 (Loudness Range, LRA)，遵循 EBU R128 标准'
+upstream: https://github.com/jiixyj/libebur128
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
