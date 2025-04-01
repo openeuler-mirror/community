@@ -1,0 +1,8 @@
+name: llhttp
+description: 'Port of http_parser to llparse'
+upstream: https://github.com/nodejs/llhttp
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
