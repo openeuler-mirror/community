@@ -1,0 +1,67 @@
+name: sig-epkg
+description: epkg is a package manager for installing multi-version software in multiple environments
+created_on: "2025-04-02"
+meeting_url: "https://etherpad.openeuler.org/p/sig-epkg-meetings"
+mature_level: startup
+
+maintainers:
+- gitee_id: wu_fengguang
+  name: Fengguang Wu
+  organization: Huawei
+  email: wfg@mail.ustc.edu.cn
+- gitee_id: kailiu42
+  name: Kai Liu
+  organization: Wind River
+  email: kraml.liu@gmail.com
+- gitee_id: vonhust
+  name: Wayne Ren
+  email: 191362693@qq.com
+- gitee_id: fundawang
+  name: Funda Wang
+  email: fundawang@yeah.net
+- gitee_id: duan_pj
+  name: Duan Pengjie
+  organization: Huawei
+  email: duanpengjie@huawei.com
+- gitee_id: yaqiangchen
+  name: Yaqiang Chen
+  organization: Huawei
+  email: chenyaqiang@huawei.com
+
+repositories:
+- repo:
+  - openeuler/epkg
+  - src-openeuler/epkg
+  repo_admin:
+  - gitee_id: wu_fengguang
+    name: Wu Fengguang
+    email: wfg@mail.ustc.edu.cn
+  committers:
+  - gitee_id: wu_fengguang
+    name: Wu Fengguang
+    email: wfg@mail.ustc.edu.cn
+  - gitee_id: duan_pj
+    name: Duan Pengjie
+    email: duanpengjie@huawei.com
+
+- repo:
+  - openeuler/meta-openeuler # spec2yaml的输出
+  - openeuler/epkg-spec2yaml
+  - openeuler/epkg-autopkg # 扫描上游软件，生成yaml包描述
+  - openeuler/epkg-merge # 分层定制
+  - openeuler/elf-loader
+  repo_admin:
+  - gitee_id: wu_fengguang
+    name: Wu Fengguang
+    email: wfg@mail.ustc.edu.cn
+
+- repo:
+  - openeuler/epkg-factory # 加包工程
+  repo_admin:
+  - gitee_id: wu_fengguang
+    name: Wu Fengguang
+    email: wfg@mail.ustc.edu.cn
+  committers:
+  - gitee_id: jl-brother1
+    name: jlcoo
+    email: jianglong05@huawei.com
