@@ -1,7 +1,7 @@
-name: msgpack-c
-description: Binary-based efficient object serialization library for C/C++
-upstream: http://msgpack.org
-branches:
+name: protocolbuffers-upb
+description: 'μpb (often written upb) is a small protobuf implementation written in C.'
+upstream: https://github.com/protocolbuffers/upb
+branches: 
 - name: master
   type: protected
 - name: openEuler-22.03-LTS-Next

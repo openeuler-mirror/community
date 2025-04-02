@@ -1,7 +1,7 @@
-name: msgpack-c
-description: Binary-based efficient object serialization library for C/C++
-upstream: http://msgpack.org
-branches:
+name: bazel-rules-java
+description: 'Bazel rules which support building software written in Java.'
+upstream: https://github.com/bazelbuild/rules_java
+branches: 
 - name: master
   type: protected
 - name: openEuler-22.03-LTS-Next

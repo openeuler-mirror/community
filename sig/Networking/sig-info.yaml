@@ -287,3 +287,20 @@ repositories:
   - gitee_id: emadel
     name: Jiayue Zhang
     email: 1061430297@qq.com
+
+- repo:
+  - src-openeuler/civetweb
+  committers:
+  - gitee_id: xujing99
+    name: Jing Xu
+    organization: Huawei
+    email: xujing125@huawei.com
+
+branches:
+- repo_branch:
+  - repo: src-openeuler/c-ares
+    branch: Multi-Version_ray_openEuler-22.03-LTS-SP4
+  - repo: src-openeuler/grpc
+    branch: Multi-Version_ray_openEuler-22.03-LTS-SP4
+  keeper:
+    - gitee_id: xujing99

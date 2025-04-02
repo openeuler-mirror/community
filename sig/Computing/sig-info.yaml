@@ -136,3 +136,10 @@ repositories:
       name: Gangyi Luo
       organization: Chinamobile
       email: luogangyi2@cmss.chinamobile.com
+
+branches:
+- repo_branch:
+  - repo: src-openeuler/boost
+    branch: Multi-Version_ray_openEuler-22.03-LTS-SP4
+  keeper:
+    - gitee_id: xujing99
