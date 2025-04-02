@@ -9,5 +9,6 @@ The file is used to record people who made contributions to Compliance and had l
 | alec-z | 郑志鹏 | 2021-5-8 | 2023-7-13 |
 | genedna | 马全一 | 2021-1-22 | 2024-9-12 |
 | wangyueliang | 王悦良 | 2021-3-30 | 2024-9-12 | 
+| king-gao | 高琨 | 2021-1-22 | 2025-3-31 |
 
 Thanks for being with  Application all the way.
