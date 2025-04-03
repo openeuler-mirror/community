@@ -30,4 +30,7 @@ branches:
 - name: openEuler-25.03
   type: protected
   create_from: master
+- name: openEuler-24.03-LTS-SP2
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
 type: public

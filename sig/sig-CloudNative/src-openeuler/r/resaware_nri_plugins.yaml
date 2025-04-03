@@ -1,6 +1,7 @@
 name: resaware_nri_plugins
 upstream: https://github.com/openeuler/resaware_nri_plugins
-description: The Resource Aware Plugin is a set of plugins that provide flexible allocation of container resources based on the NRI interface.
+description: The Resource Aware Plugin is a set of plugins that provide flexible allocation
+  of container resources based on the NRI interface.
 branches:
 - name: master
   type: protected
@@ -11,6 +12,9 @@ branches:
   type: protected
   create_from: openEuler-24.03-LTS-Next
 - name: openEuler-24.03-LTS-SP1
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
+- name: openEuler-24.03-LTS-SP2
   type: protected
   create_from: openEuler-24.03-LTS-Next
 type: public
