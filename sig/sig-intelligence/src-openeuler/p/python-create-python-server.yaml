@@ -1,0 +1,10 @@
+name: python-create-python-server
+description: Create a Python MCP server
+upstream: https://github.com/modelcontextprotocol/create-python-server
+branches:
+- name: master
+  type: protected
+- name: openEuler-25.03
+  type: protected
+  create_from: master
+type: public

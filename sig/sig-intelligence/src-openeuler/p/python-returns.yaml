@@ -1,0 +1,10 @@
+name: python-returns
+description: Make your functions return something meaningful, typed, and safe
+upstream: https://github.com/dry-python/returns
+branches:
+- name: master
+  type: protected
+- name: openEuler-25.03
+  type: protected
+  create_from: master
+type: public

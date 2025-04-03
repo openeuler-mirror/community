@@ -1,0 +1,10 @@
+name: python-uv-dynamic-versioning
+description: Dynamic versioning based on VCS tags for uv/hatch project
+upstream: https://github.com/ninoseki/uv-dynamic-versioning
+branches:
+- name: master
+  type: protected
+- name: openEuler-25.03
+  type: protected
+  create_from: master
+type: public
