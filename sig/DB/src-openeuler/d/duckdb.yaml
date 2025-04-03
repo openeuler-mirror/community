@@ -1,0 +1,7 @@
+name: duckdb
+upstream: https://github.com/duckdb/duckdb
+description: An in-process SQL OLAP Database Management System
+branches:
+- name: master
+  type: protected
+type: public
