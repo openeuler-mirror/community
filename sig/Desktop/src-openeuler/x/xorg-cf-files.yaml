@@ -1,0 +1,10 @@
+name: xorg-cf-files
+description: 'Imake configuration files & templates'
+upstream:
+  homepage: https://gitlab.freedesktop.org/xorg/util/cf
+  regex: xorg-cf-files-(\d+\.\d\+.\d\+)
+  version_url: https://www.x.org/releases/individual/util/
+branches:
+- name: master
+  type: protected
+type: public

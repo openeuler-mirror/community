@@ -1,0 +1,10 @@
+name: makedepend
+description: 'Utility to parse C source files to make dependency lists for Makefiles'
+upstream:
+  homepage: https://gitlab.freedesktop.org/xorg/util/makedepend
+  regex: makedepend-(\d+\.\d\+.\d\+)
+  version_url: https://www.x.org/releases/individual/util/
+branches:
+- name: master
+  type: protected
+type: public

@@ -1,0 +1,10 @@
+name: gccmakedep
+description: "script to create dependencies in makefiles using 'gcc -M'"
+upstream:
+  homepage: https://gitlab.freedesktop.org/xorg/util/gccmakedep
+  regex: gccmakedep-(\d+\.\d\+.\d\+)
+  version_url: https://www.x.org/releases/individual/util/
+branches:
+- name: master
+  type: protected
+type: public
