@@ -1,0 +1,10 @@
+name: python-pydantic-settings
+description: Settings management using pydantic
+upstream: https://github.com/pydantic/pydantic-settings
+branches:
+- name: master
+  type: protected
+- name: openEuler-25.03
+  type: protected
+  create_from: master
+type: public

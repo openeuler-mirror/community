@@ -1,0 +1,10 @@
+name: python-sse-starlette
+description: Server Sent Events for Starlette and FastAPI
+upstream: https://github.com/sysid/sse-starlette
+branches:
+- name: master
+  type: protected
+- name: openEuler-25.03
+  type: protected
+  create_from: master
+type: public
