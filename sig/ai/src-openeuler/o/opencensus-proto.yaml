@@ -1,0 +1,13 @@
+name: opencensus-proto
+description: 'Protocol buffers for OpenCensus - a framework for collecting metrics and distributed traces from services.'
+upstream: https://github.com/census-instrumentation/opencensus-proto
+branches: 
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-22.03-LTS-SP4
+  type: protected
+  create_from: openEuler-22.03-LTS-Next
+type: public

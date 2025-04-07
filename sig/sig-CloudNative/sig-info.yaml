@@ -326,3 +326,10 @@ repositories:
     name: Guangjie Bai
     organization: Huawei
     email: guangjiebai@gmail.com
+
+branches:
+- repo_branch:
+  - repo: src-openeuler/protobuf
+    branch: Multi-Version_ray_openEuler-22.03-LTS-SP4
+  keeper:
+    - gitee_id: xujing99

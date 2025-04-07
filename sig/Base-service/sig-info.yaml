@@ -777,3 +777,14 @@ repositories:
     name: lin-shoubao
     organization: Huawei
     email: linshoubao@huawei.com
+
+- repo:
+  - src-openeuler/relocatable-perl
+  - src-openeuler/utf8_range
+
+branches:
+- repo_branch:
+  - repo: src-openeuler/abseil-cpp
+    branch: Multi-Version_ray_openEuler-22.03-LTS-SP4
+  keeper:
+    - gitee_id: xujing99

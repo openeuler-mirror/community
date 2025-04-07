@@ -1,7 +1,7 @@
-name: msgpack-c
-description: Binary-based efficient object serialization library for C/C++
-upstream: http://msgpack.org
-branches:
+name: bazel-skylib
+description: 'Skylib is a standard library that provides functions for manipulating collections'
+upstream: https://github.com/bazelbuild/bazel-skylib
+branches: 
 - name: master
   type: protected
 - name: openEuler-22.03-LTS-Next

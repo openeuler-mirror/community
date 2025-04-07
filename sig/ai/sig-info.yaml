@@ -62,6 +62,34 @@ repositories:
   - src-openeuler/jieba
   - src-openeuler/python-notebook
   - src-openeuler/vllm
+  - src-openeuler/bazel-common
+  - src-openeuler/bazel-compile-commands-extractor
+  - src-openeuler/bazel-gazelle
+  - src-openeuler/bazel-platforms
+  - src-openeuler/bazel-rules-boost
+  - src-openeuler/bazel-rules-cc
+  - src-openeuler/bazel-rules-foreign-cc
+  - src-openeuler/bazel-rules-go
+  - src-openeuler/bazel-rules-java
+  - src-openeuler/bazel-rules-jvm-external
+  - src-openeuler/bazel-rules-perl
+  - src-openeuler/bazel-rules-pkg
+  - src-openeuler/bazel-rules-proto
+  - src-openeuler/bazel-rules-proto-grpc
+  - src-openeuler/bazel-rules-python
+  - src-openeuler/bazel-rules-ruby
+  - src-openeuler/bazel-skylib
+  - src-openeuler/bazel_jar_jar
+  - src-openeuler/cncf-xds
+  - src-openeuler/data-plane-api
+  - src-openeuler/google-cloud-cpp
+  - src-openeuler/googleapis
+  - src-openeuler/opencensus-cpp
+  - src-openeuler/opencensus-proto
+  - src-openeuler/prometheus-cpp
+  - src-openeuler/protoc-gen-validate
+  - src-openeuler/protocolbuffers-upb
+  - src-openeuler/python-build-standalone
 
 - repo:
   - src-openeuler/mindspore
@@ -69,3 +97,10 @@ repositories:
   - gitee_id: zhunaipan
     name: zhunaipan
     email: zhunaipan@huawei.com
+
+branches:
+- repo_branch:
+  - repo: src-openeuler/bazel
+    branch: Multi-Version_ray_openEuler-22.03-LTS-SP4
+  keeper:
+    - gitee_id: xujing99
