@@ -1,0 +1,10 @@
+name: mate-user-share
+description: mate-user-share is a small package that binds together various free software projects to bring easy to use user-level file sharing to the masses.
+upstream: https://github.com/mate-desktop/mate-user-share
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: mate-wayland-session
+description: Wayland session using wayfire for the MATE desktop.
+upstream: https://github.com/mate-desktop/mate-wayland-session
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
