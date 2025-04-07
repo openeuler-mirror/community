@@ -1,7 +1,7 @@
-name: msgpack-c
-description: Binary-based efficient object serialization library for C/C++
-upstream: http://msgpack.org
-branches:
+name: bazel_jar_jar
+description: 'JarJar rules for Bazel (rename packages and classes in existing jars)'
+upstream: https://github.com/johnynek/bazel_jar_jar
+branches: 
 - name: master
   type: protected
 - name: openEuler-22.03-LTS-Next

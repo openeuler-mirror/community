@@ -1,7 +1,7 @@
-name: msgpack-c
-description: Binary-based efficient object serialization library for C/C++
-upstream: http://msgpack.org
-branches:
+name: bazel-compile-commands-extractor
+description: 'Hedron Compile Commands Extractor for Bazel - User Interface'
+upstream: https://github.com/hedronvision/bazel-compile-commands-extractor
+branches: 
 - name: master
   type: protected
 - name: openEuler-22.03-LTS-Next

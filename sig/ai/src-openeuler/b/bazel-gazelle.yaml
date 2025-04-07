@@ -1,7 +1,7 @@
-name: msgpack-c
-description: Binary-based efficient object serialization library for C/C++
-upstream: http://msgpack.org
-branches:
+name: bazel-gazelle
+description: 'Gazelle is a generator of Bazel build files for Go projects.'
+upstream: https://mirror.bazel.build/github.com/bazelbuild/bazel-gazelle
+branches: 
 - name: master
   type: protected
 - name: openEuler-22.03-LTS-Next

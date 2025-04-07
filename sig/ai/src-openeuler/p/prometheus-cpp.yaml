@@ -1,7 +1,7 @@
-name: msgpack-c
-description: Binary-based efficient object serialization library for C/C++
-upstream: http://msgpack.org
-branches:
+name: prometheus-cpp
+description: 'Prometheus-cpp aims to enable Metrics-Driven Development for C++ services'
+upstream: https://github.com/jupp0r/prometheus-cpp
+branches: 
 - name: master
   type: protected
 - name: openEuler-22.03-LTS-Next

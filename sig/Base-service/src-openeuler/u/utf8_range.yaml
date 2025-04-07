@@ -1,7 +1,7 @@
-name: msgpack-c
-description: Binary-based efficient object serialization library for C/C++
-upstream: http://msgpack.org
-branches:
+name: utf8_range
+description: 'This is a brand new algorithm to leverage SIMD for fast UTF-8 string validation.'
+upstream: https://github.com/protocolbuffers/utf8_range
+branches: 
 - name: master
   type: protected
 - name: openEuler-22.03-LTS-Next
