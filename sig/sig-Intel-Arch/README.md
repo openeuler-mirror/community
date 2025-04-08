@@ -93,5 +93,7 @@ English | [简体中文](./README_cn.md)
 
   - [intel-qatengine](https://gitee.com/src-openeuler/intel-qatengine): Intel QuickAssist Technology(QAT) OpenSSL Engine
 
+  - [intel-qpl](https://gitee.com/src-openeuler/intel-qpl): Intel Query Processing Library (Intel QPL)
+
 - Documentation
   - [intel-docs](https://gitee.com/openeuler/intel-docs): documents regarding Intel arch support in openEuler, such as current status, roadmap, technical document.

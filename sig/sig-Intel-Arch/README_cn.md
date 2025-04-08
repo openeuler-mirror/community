@@ -92,5 +92,7 @@
 
   - [intel-qatengine](https://gitee.com/src-openeuler/intel-qatengine): Intel QuickAssist Technology(QAT) OpenSSL Engine
 
+  - [intel-qpl](https://gitee.com/src-openeuler/intel-qpl): Intel Query Processing Library (Intel QPL库)
+
 - 文档
   - [intel-docs](https://gitee.com/openeuler/intel-docs): 关于openEuler的Intel arch支持相关的文档，如现状、规划、目标等等。
