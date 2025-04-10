@@ -34,6 +34,7 @@
 | arm    | arch/arm/\*<br/>arch/arm64/\*    | [@chris_zjh](https://gitee.com/chris_zjh) |
 | powerpc | arch/powerpc/\*    | [@chris_zjh](https://gitee.com/chris_zjh) |
 | amd    | amd platform        | [@kile2009](https://gitee.com/kile2009) |
+| 申威   | arch/sw64/\*       | [@guzitao](https://gitee.com/guzitao) |
 
 ## Kunpeng
 | 模块<img width=40/>   | 文件<img width=300/>                       | Committer(s) <img width=200/>                     |
