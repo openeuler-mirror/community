@@ -1,0 +1,10 @@
+name: perl-List-BinarySearch-XS
+upstream: https://metacpan.org/dist/List-BinarySearch-XS
+description: Binary Search a sorted array with XS routines
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
