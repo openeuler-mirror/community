@@ -1,0 +1,10 @@
+name: lndir
+description: "Utility to create a shadow directory of symbolic links to another directory tree"
+upstream:
+  homepage: https://gitlab.freedesktop.org/xorg/util/lndir
+  regex: lndir-(\d+\.\d\+.\d\+)
+  version_url: https://www.x.org/releases/individual/util/
+branches:
+- name: master
+  type: protected
+type: public
