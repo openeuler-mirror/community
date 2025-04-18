@@ -1,0 +1,7 @@
+name: ocaml-ppx-here
+description: Expands [@here] into its location
+upstream: https://github.com/janestreet/ppx_here
+branches:
+- name: master
+  type: protected
+type: public
