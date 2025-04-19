@@ -1,0 +1,7 @@
+name: ocaml-stdlib-random
+description: Versioned Random module from the OCaml standard library
+upstream: https://github.com/ocaml/stdlib-random
+branches:
+- name: master
+  type: protected
+type: public
