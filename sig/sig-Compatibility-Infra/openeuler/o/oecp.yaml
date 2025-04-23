@@ -3,4 +3,10 @@ description: One for OSV as an certification tool
 branches:
 - name: master
   type: protected
+- name: access_control
+  type: protected
+  create_from: master
+- name: native
+  type: protected
+  create_from: master
 type: public
