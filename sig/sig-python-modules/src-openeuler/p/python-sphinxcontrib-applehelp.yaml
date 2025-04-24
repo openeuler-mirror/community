@@ -98,4 +98,10 @@ branches:
 - name: openEuler-24.03-LTS-SP2
   type: protected
   create_from: openEuler-24.03-LTS-Next
+- name: Multi-Version_OpenStack-Antelope_openEuler-24.03-LTS-SP2
+  type: protected
+  create_from: Multi-Version_OpenStack-Antelope_openEuler-24.03-LTS-Next
+- name: Multi-Version_OpenStack-Wallaby_openEuler-24.03-LTS-SP2
+  type: protected
+  create_from: Multi-Version_OpenStack-Wallaby_openEuler-24.03-LTS-Next
 type: public
