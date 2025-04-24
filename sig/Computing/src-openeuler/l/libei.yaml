@@ -1,0 +1,10 @@
+name: libei
+description: 'a library for Emulated Input, primarily aimed at the Wayland stack'
+upstream:
+  homepage: https://gitlab.freedesktop.org/libinput/libei
+  regex: (\d+\.\d+\.\d+)
+  version_url: https://gitlab.freedesktop.org/api/v4/projects/libinput%2Flibei/repository/tags
+branches:
+- name: master
+  type: protected
+type: public
