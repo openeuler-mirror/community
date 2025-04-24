@@ -31,7 +31,6 @@ sig-confidential_computing主要讨论在openEuler社区版本中已有或未来
   - src-openeuler/linux-sgx
   - src-openeuler/linux-sgx-driver
   - src-openeuler/intel-sgx-ssl
-  - src-openeuler/ocaml-dune
   - src-openeuler/secGear
   - src-openeuler/itrustee_sdk
   - src-openeuler/intel-device-plugins-for-kubernetes
