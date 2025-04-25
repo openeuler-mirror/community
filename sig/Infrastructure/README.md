@@ -39,6 +39,7 @@
 - [@youyifeng](https://gitee.com/youyifeng)
 - [@wuzimo](https://gitee.com/wuzimo)
 - [@ctyunsystem](https://gitee.com/ctyunsystem)
+- [@ZhouYi](https://gitee.com/Zherphy)
 
 ### 构建组成员：
 - [@dongjie110](https://gitee.com/dongjie110)
@@ -75,3 +76,4 @@ repository地址：
 - [EulerLauncher](httops://gitee.com/openeuler/eulerlauncher)
 - [EulerPublisher](httops://gitee.com/openeuler/eulerpublisher)
 - [EasysoftwareCommand](https://gitee.com/openeuler/easysoftware-command)
+- [git-lfs](https://gitee.com/src-openeuler/git-lfs)
