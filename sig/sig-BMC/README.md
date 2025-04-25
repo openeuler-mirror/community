@@ -51,6 +51,7 @@
 - 毛阿利[@oldcat2020](https://gitee.com/oldcat2020)，*[maoaliwy@126.com](mailto:maoaliwy@126.com)*
 - 陈战[@jiazichenzhan](https://gitee.com/jiazichenzhan)，*[jiazichenzhan@163.com](mailto:jiazichenzhan@163.com)*
 - 胡鹏[@ctyun](https://gitee.com/ctyun)，*[iasi@163.com](mailto:iasi@163.com)*
+- 张俊龙[@mgmtsoftware](https://gitee.com/mgmtsoftware)，*[zhangjunlong@xfusion.com](mailto:zhangjunlong@xfusion.com)*
 
 
 # 联系方式
@@ -62,6 +63,7 @@
 - penglinmails@163.com
 - jiazichenzhan@163.com
 - iasi@163.com
+- zhangjunlong@xfusion.com
 
 # 项目清单
 
