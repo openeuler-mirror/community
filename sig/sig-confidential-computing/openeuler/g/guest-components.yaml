@@ -1,0 +1,7 @@
+name: guest-components
+description: This repository includes tools and components for confidential container images.
+upstream: https://github.com/confidential-containers/guest-components
+branches:
+- name: master
+  type: protected
+type: public
