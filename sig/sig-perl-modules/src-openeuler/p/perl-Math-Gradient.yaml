@@ -1,0 +1,10 @@
+name: perl-Math-Gradient
+upstream: https://metacpan.org/dist/Math-Gradient
+description: Perl extension for calculating gradients for colour transitions, etc
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
