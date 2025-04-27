@@ -1,0 +1,7 @@
+name: R-fs
+description: Cross-Platform File System Operations Based on libuv
+upstream: https://cran.r-project.org/package=fs
+branches:
+- name: master
+  type: protected
+type: public
