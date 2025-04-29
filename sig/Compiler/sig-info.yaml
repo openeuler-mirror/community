@@ -464,6 +464,23 @@ repositories:
     email: hejingxian@huawei.com
 
 #################################################
+# Triton repos
+#################################################
+- repo:
+  - openeuler/triton-cpu
+  - src-openeuler/triton
+  - src-openeuler/triton-cpu
+  committers:
+  - gitee_id: huangkaiyao1
+    name: Kaiyao Huang
+    organization: Huawei
+    email: huangkaiyao1@huawei.com
+  - gitee_id: chenzheng1030
+    name: Zheng Chen
+    organization: Huawei
+    email: chenzheng79@huawei.com
+
+#################################################
 # miscellaneous repos
 #################################################
 - repo:
