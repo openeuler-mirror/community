@@ -1,0 +1,10 @@
+name: libdecor
+description: 'Client-side decorations library for Wayland clients'
+upstream:
+  homepage: https://gitlab.freedesktop.org/libdecor/libdecor
+  regex: (\d+\.\d+\.\d+)
+  version_url: https://gitlab.freedesktop.org/api/v4/projects/libdecor%2Flibdecor/repository/tags
+branches:
+- name: master
+  type: protected
+type: public
