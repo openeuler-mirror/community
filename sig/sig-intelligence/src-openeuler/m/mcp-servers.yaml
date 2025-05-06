@@ -1,0 +1,7 @@
+name: mcp-servers
+description: Stores public MCP Server files and works with DevStation and EulerCopilot to improve operating system interaction experience.
+upstream: https://gitee.com/openeuler/mcp-servers
+branches:
+- name: master
+  type: protected
+type: public
