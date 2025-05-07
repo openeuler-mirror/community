@@ -1,0 +1,7 @@
+name: triton-cpu
+description: Triton-CPU is a branch to build a CPU backend for Triton.
+upstream: https://github.com/triton-lang/triton-cpu
+type: public
+branches:
+- name: master
+  type: protected
