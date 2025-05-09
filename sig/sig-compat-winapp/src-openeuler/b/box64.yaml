@@ -1,0 +1,8 @@
+name: box64
+description: Box64 enables running x86_64 Linux programs, including games,
+  on non-x86_64 Linux systems (64-bit little-endian host system required).
+upstream: https://github.com/ptitSeb/box64
+branches:
+- name: master
+  type: protected
+type: public
