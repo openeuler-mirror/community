@@ -55,6 +55,11 @@
 | -------------------------- | --------------------------------- |
 | [openeuler/SoftBR](https://gitee.com/openeuler/SoftBR) <br/> [src-openeuler/SoftBR](https://gitee.com/src-openeuler/SoftBR) | 王佳鑫[@wangjx6](https://gitee.com/wangjx6) <br/> 袁伟[@yuanweixiaoxiao](https://gitee.com/yuanweixiaoxiao) <br/> 周彭[@melossss](https://gitee.com/melossss) |
 
+## Triton repos
+|            Repo            |               Committer           |
+| -------------------------- | --------------------------------- |
+| [openeuler/triton-cpu](https://gitee.com/openeuler/triton-cpu) <br/> [src-openeuler/triton](https://gitee.com/src-openeuler/triton) <br/> [src-openeuler/triton-cpu](https://gitee.com/src-openeuler/triton-cpu) | 黄凯垚[@huangkaiyao1](https://gitee.com/huangkaiyao1) <br/> 陈正[@chenzheng1030](https://gitee.com/chenzheng1030) |
+
 ## Miscellaneous repos
 |            Repo            |               Committer           |
 | -------------------------- | --------------------------------- |
