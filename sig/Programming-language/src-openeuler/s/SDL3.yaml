@@ -1,0 +1,10 @@
+name: SDL3
+description: 'Simple Directmedia Layer'
+upstream:
+  homepage: https://www.libsdl.org/
+  regex: release-(\d+\.\d+\.\d+)
+  version_url: https://github.com/libsdl-org/SDL/tags
+branches:
+- name: master
+  type: protected
+type: public
