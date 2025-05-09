@@ -1,6 +1,7 @@
-name: python-sip
+name: sip-6
+rename_from: python-sip
 description: A Python bindings generator for C/C++ libraries.
-upstream: https://www.riverbankcomputing.com/software/sip
+upstream: https://github.com/Python-SIP/sip
 branches:
 - name: master
   type: protected

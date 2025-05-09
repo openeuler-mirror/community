@@ -1655,7 +1655,6 @@ repositories:
   - src-openeuler/python-tox-travis
   - src-openeuler/python-playwright
   - src-openeuler/python-auditwheel
-  - src-openeuler/python-sip
   - src-openeuler/python-httpbin
   - src-openeuler/python-pytest-httpbin
   - src-openeuler/python-trove-classifiers
@@ -1692,6 +1691,7 @@ repositories:
   - src-openeuler/python-quart
   - src-openeuler/python-quart-trio
   - src-openeuler/python-hypercorn
+  - src-openeuler/sip-6
   committers:
   - gitee_id: desert-sailor
     name: Dongxing Wang
