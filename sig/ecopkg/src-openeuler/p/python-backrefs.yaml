@@ -1,0 +1,8 @@
+name: python-backrefs
+description: 'A wrapper around re and regex that adds additional back references.'
+upstream: https://github.com/facelessuser/backrefs
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
