@@ -1,0 +1,8 @@
+name: python-dependency-groups
+description: 'A tool for resolving PEP 735 Dependency Group data'
+upstream: https://github.com/pypa/dependency-groups
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
