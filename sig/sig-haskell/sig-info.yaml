@@ -41,7 +41,6 @@ repositories:
   - src-openeuler/ghc-assoc
   - src-openeuler/ghc-async
   - src-openeuler/ghc-attoparsec
-  - src-openeuler/ghc-attoparsec-iso8601
   - src-openeuler/ghc-auto-update
   - src-openeuler/ghc-base16-bytestring
   - src-openeuler/ghc-base64
@@ -80,9 +79,6 @@ repositories:
   - src-openeuler/ghc-cryptohash-md5
   - src-openeuler/ghc-data-default
   - src-openeuler/ghc-data-default-class
-  - src-openeuler/ghc-data-default-instances-containers
-  - src-openeuler/ghc-data-default-instances-dlist
-  - src-openeuler/ghc-data-default-instances-old-locale
   - src-openeuler/ghc-data-fix
   - src-openeuler/ghc-dec
   - src-openeuler/ghc-Diff
@@ -262,3 +258,12 @@ repositories:
   - src-openeuler/ghc-toml-parser
   - src-openeuler/ghc-text-iso8601
   - src-openeuler/ghc-integer-conversion
+  - src-openeuler/ghc-character-ps
+  - src-openeuler/ghc-http-semantics
+  - src-openeuler/ghc-network-control
+  - src-openeuler/ghc-text-icu
+  - src-openeuler/ghc-serialise
+  - src-openeuler/ghc-cborg
+  - src-openeuler/ghc-half
+  - src-openeuler/ghc-djot
+  - src-openeuler/ghc-skylighting-format-typst

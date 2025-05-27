@@ -1,0 +1,7 @@
+name: ghc-http-semantics
+description: HTTP senmatics libarry
+upstream: https://hackage.haskell.org/package/http-semantics
+branches:
+- name: master
+  type: protected
+type: public

@@ -1,5 +1,5 @@
 name: sig-recycle
-description: The Sig is dedicated to managing software package that has been released but will not be maintained in the future. 
+description: The Sig is dedicated to managing software package that has been released but will not be maintained in the future.
 created_on: '2019-12-31'
 mailing_list: dev@openeuler.org
 mature_level: startup
@@ -15,7 +15,7 @@ maintainers:
 - gitee_id: hjimmy
   name: Hou Jian
   organization: KylinSoft
-  email: houjian@kylinos.cn 
+  email: houjian@kylinos.cn
 - gitee_id: solarhu
   name: Hu Feng
   organization: Huawei
@@ -97,3 +97,7 @@ repositories:
   - src-openeuler/phoenix
   - src-openeuler/pgpool2
   - src-openeuler/pgadmin4-server
+  - src-openeuler/ghc-attoparsec-iso8601
+  - src-openeuler/ghc-data-default-instances-containers
+  - src-openeuler/ghc-data-default-instances-dlist
+  - src-openeuler/ghc-data-default-instances-old-locale
