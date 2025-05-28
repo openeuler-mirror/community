@@ -41,6 +41,8 @@ repositories:
   - openeuler/euler-copilot-desktop
   - src-openeuler/euler-copilot-shell
   - src-openeuler/euler-copilot-web
+  - src-openeuler/euler-copilot-framework
+  - src-openeuler/euler-copilot-rag
   committers:
   - gitee_id: li-chaofeng-0220
     name: Chaofeng Li
@@ -235,3 +237,66 @@ repositories:
   - gitee_id: wangkui35
     name: Wang Kui
     email: wangkui35@h-partners.com
+
+- repo:
+  - src-openeuler/python-tika
+  - src-openeuler/python-rapidfuzz
+  - src-openeuler/python-opencv-python-headless
+  - src-openeuler/python-lazy-loader
+  - src-openeuler/python-paddleocr
+  - src-openeuler/python-asyncer
+  - src-openeuler/python-langchain-openai
+  - src-openeuler/python-paddlepaddle
+  - src-openeuler/python-imageio
+  - src-openeuler/python-fastapi
+  - src-openeuler/python-python-jsonpath
+  - src-openeuler/python-sglang
+  - src-openeuler/python-tifffile
+  - src-openeuler/python-opencv-python
+  - src-openeuler/python-albucore
+  - src-openeuler/python-asyncpg
+  - src-openeuler/python-langchain-core
+  - src-openeuler/python-fastapi-pagination
+  - src-openeuler/python-albumentations
+  - src-openeuler/python-langsmith
+  - src-openeuler/python-python-pptx
+  - src-openeuler/python-minio
+  - src-openeuler/python-propcache
+  - src-openeuler/python-imgaug
+  - src-openeuler/python-pgvector
+  - src-openeuler/python-tiktoken
+  - src-openeuler/python-aiohappyeyeballs
+  - src-openeuler/python-langchain
+  - src-openeuler/python-protobuf
+  - src-openeuler/python-opencv-contrib-python
+  - src-openeuler/python-langchain-text-splitters
+  - src-openeuler/python-jionlp
+  - src-openeuler/python-pyarrow
+  - src-openeuler/python-jiojio
+  - src-openeuler/python-lancedb
+  - src-openeuler/python-asgi-correlation-id
+  - src-openeuler/python-scikit-image
+  - src-openeuler/python-openai
+  - src-openeuler/python-ipython-pygments-lexers
+  - src-openeuler/python-jiter
+  - src-openeuler/python-sqids
+  - src-openeuler/python-clang
+  - src-openeuler/python-expandvars
+  - src-openeuler/python-hatch-fance-pypi-readme
+  - src-openeuler/python-semantic-version
+  - src-openeuler/python-simsimd
+  - src-openeuler/python-stringzilla
+  - src-openeuler/python-zipfile36
+  committers:
+  - gitee_id: zxstty
+    name: Jiaqi Zhao
+    organization: Huawei
+    email: zhaojiaqi18@huawei.com
+  - gitee_id: hongyu-shi
+    name: Hongyu Shi
+    organization: Huawei
+    email: shywzt@iCloud.com
+  - gitee_id: xiaocy1997
+    name: Chunyang Xiao
+    organization: Huawei
+    email: xiaochunyang2@huawei.com

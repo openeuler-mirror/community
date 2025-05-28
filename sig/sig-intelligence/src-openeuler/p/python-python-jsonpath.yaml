@@ -1,0 +1,13 @@
+name: python-python-jsonpath
+description: A flexible JSONPath engine for Python with JSON Pointer and JSON Patch
+upstream: https://github.com/jg-rp/python-jsonpath
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-24.03-LTS-SP2
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
+type: public

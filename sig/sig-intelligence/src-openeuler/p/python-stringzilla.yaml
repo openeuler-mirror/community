@@ -1,0 +1,13 @@
+name: python-stringzilla
+description: Up to 10x faster strings for C, C++, Python, Rust, Swift & Go, leveraging NEON, AVX2, AVX-512, SVE, & SWAR to accelerate search, hashing, sort, edit distances, and memory ops
+upstream: https://github.com/ashvardanian/stringzilla
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-24.03-LTS-SP2
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
+type: public

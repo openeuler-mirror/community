@@ -1,0 +1,13 @@
+name: python-sqids
+description: Official Python port of Sqids. Generate short unique IDs from numbers
+upstream: https://github.com/sqids/sqids-python
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-24.03-LTS-SP2
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
+type: public
