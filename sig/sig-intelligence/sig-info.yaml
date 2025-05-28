@@ -39,6 +39,8 @@ repositories:
   - openeuler/euler-copilot-vectorize-agent
   - openeuler/euler-copilot-shell
   - openeuler/euler-copilot-desktop
+  - src-openeuler/euler-copilot-shell
+  - src-openeuler/euler-copilot-web
   committers:
   - gitee_id: li-chaofeng-0220
     name: Chaofeng Li
@@ -79,18 +81,6 @@ repositories:
     name: Hao Wen
     organization: Huawei
     email: owen813@126.com
-
-- repo:
-  - src-openeuler/euler-copilot-shell
-  committers:
-  - gitee_id: zxstty
-    name: Jiaqi Zhao
-    organization: Huawei
-    email: zhaojiaqi18@huawei.com
-  - gitee_id: hongyu-shi
-    name: Hongyu Shi
-    organization: Huawei
-    email: shywzt@iCloud.com
   - gitee_id: cc500
     name: Shitong Wu
     organization: Huawei

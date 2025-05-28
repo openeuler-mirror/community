@@ -1,0 +1,13 @@
+name: euler-copilot-web
+description: The web frontend of EulerCopilot
+upstream: https://gitee.com/openeuler/euler-copilot-web
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-24.03-LTS-SP2
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
+type: public
