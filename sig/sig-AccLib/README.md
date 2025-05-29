@@ -60,11 +60,13 @@ repository地址：
 - https://gitee.com/openeuler/kae_driver
 - https://gitee.com/openeuler/kml_adapter
 - https://gitee.com/openeuler/kail_dnn_adapter
+- https://gitee.com/openeuler/kdnn_torch_adapter
 - https://gitee.com/openeuler/sra_test
 - https://gitee.com/openeuler/sra_tensorflow_adapter
 - https://gitee.com/openeuler/sra_scann_adapter
 - https://gitee.com/openeuler/sra_benchmark
 - https://gitee.com/openeuler/sra_tvm_adapter
+- https://gitee.com/openeuler/sra_onnxruntime_adapter
 
 RPM包：
 
