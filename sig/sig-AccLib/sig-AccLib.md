@@ -26,3 +26,5 @@ What and in what form the SIG is responsible for delivering
   - realzhongkeyi
   - hao-fang
   - gaozhangfei
+  - wujunhow
+  - lauyarn
