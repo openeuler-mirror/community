@@ -30,6 +30,8 @@
 - zhongkeyi[@realzhongkeyi](https://gitee.com/realzhongkeyi)
 - fanghao[@hao-fang](https://gitee.com/hao-fang)
 - gaozhangfei[@gaozhangfei](https://gitee.com/gaozhangfei)
+- wujunhao[@wujunhow](https://gitee.com/wujunhow)
+- liuyang[@lauyarn](https://gitee.com/lauyarn)
 
 ### Committer列表
 
@@ -40,6 +42,8 @@
 - shenyang[@youngersun](https://gitee.com/youngersun)
 - linwenkai[@linwenkai](https://gitee.com/linwenkai)
 - gaozhangfei[@gaozhangfei](https://gitee.com/gaozhangfei)
+- wujunhao[@wujunhow](https://gitee.com/wujunhow)
+- liuyang[@lauyarn](https://gitee.com/lauyarn)
 
 ## 联系方式
 
