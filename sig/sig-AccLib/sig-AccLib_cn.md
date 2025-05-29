@@ -20,7 +20,7 @@ OpenEuler AccLib(加速库)项目团队致力于提供硬件加速引擎和软�
  - 源码和tar包
 
 ### 维护人员：
-  - xqm227
-  - realzhongkeyi
   - hao-fang
   - gaozhangfei
+  - wujunhow
+  - lauyarn

@@ -22,7 +22,7 @@ What and in what form the SIG is responsible for delivering
 - Source and tar
 
 ### Maintainers
-  - xqm227
-  - realzhongkeyi
   - hao-fang
   - gaozhangfei
+  - wujunhow
+  - lauyarn
