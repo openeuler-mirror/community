@@ -2,8 +2,11 @@ name: python-sqlalchemy2
 description: high version of SQLAlchemy
 upstream: https://github.com/sqlalchemy/sqlalchemy
 branches:
+- name: master
+  type: protected
 - name: openEuler-24.03-LTS-Next
   type: protected
+  create_from: master
 - name: openEuler-24.03-LTS-SP2
   type: protected
   create_from: openEuler-24.03-LTS-Next
