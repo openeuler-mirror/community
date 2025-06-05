@@ -1,0 +1,10 @@
+name: qgpgme
+description: 'QGpgme provides a very high level Qt API around GpgMEpp. As such it depends on GpgMEpp additionally to GpgME.'
+upstream:
+  homepage: https://www.gnupg.org/software/gpgme/index.html
+  regex: (\d+\.\d+\.\d+)
+  version_url: https://www.gnupg.org/ftp/gcrypt/qgpgme/
+branches:
+- name: master
+  type: protected
+type: public
