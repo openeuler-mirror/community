@@ -1,0 +1,13 @@
+name: python-imageio
+description: Python library for reading and writing image data
+upstream: https://github.com/imageio/imageio
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-24.03-LTS-SP2
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
+type: public
