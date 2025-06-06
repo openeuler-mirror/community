@@ -4,12 +4,12 @@
 
 | 模块<img width=40/>   | 文件<img width=300/>                       | Committer(s) <img width=200/>                     |
 | ------ | -------------------------- | --------------------------------- |
-| kernel | kernel/\*                   | [@xiexiuqi](https://gitee.com/xiexiuqi)  [@gatieme](https://gitee.com/gatieme) [@zhengzucheng](https://gitee.com/zhengzucheng) |
+| kernel | kernel/\*                   | [@xiexiuqi](https://gitee.com/xiexiuqi)  [@gatieme](https://gitee.com/gatieme) [@zqiao216](https://gitee.com/zqiao216) |
 | mm     | mm/                        | [@wkf](https://gitee.com/wkfxxx)                           |
 | kvm    | Documentation/virt/kvm/<br/>include/asm-generic/kvm\*<br/>include/kvm/<br/>include/linux/kvm\*<br/>include/trace/events/kvm.h<br/>include/uapi/asm-generic/kvm\*<br/>include/uapi/linux/kvm\*<br/>tools/kvm/<br/>tools/testing/selftests/kvm/<br/>virt/kvm/<br/>arch/\*/include/asm/kvm\*<br/>arch/\*/include/uapi/asm/kvm\*<br/>arch/\*/kvm/ | [@yuzenghui](https://gitee.com/yuzenghui) [@kevinzhu1](https://gitee.com/kevinzhu1)             |
 | bpf    | kernel/bpf/<br/>net/bpf/   | [@xukuohai](https://gitee.com/xukuohai) [@yeweihua](https://gitee.com/yeweihua999) |
 | cgroup | kernel/cgroup              | [@lujialin](https://gitee.com/lujialin2)                        |
-| sched  | include/linux/preempt.h<br/>include/linux/sched.h<br/>include/linux/wait.h<br/>include/uapi/linux/sched.h<br/>kernel/sched/              | [@oskernel0719](https://gitee.com/oskernel0719) |
+| sched  | include/linux/preempt.h<br/>include/linux/sched.h<br/>include/linux/wait.h<br/>include/uapi/linux/sched.h<br/>kernel/sched/              | [@zqiao216](https://gitee.com/zqiao216) |
 | PGO    | kernel/gcov/gcc_4_7.c<br/>kernel/gcov/gcc_base.c | liyancheng@huawei.com xiezhiheng@huawei.com |
 | irq    | driver/irqchip/irq-gic\*    | [@chris_zjh](https://gitee.com/chris_zjh) |
 | debugging | kernel/printk<br/>/kernel/trace<br/>kernel/kexec.c<br/>kernel/kexec_core.c<br/>kernel/watchdog.c<br/>kernel/kernel/watchdog_hld.c | [@yeweihua](https://gitee.com/yeweihua999) |
@@ -106,7 +106,8 @@
 | lpfc     | drivers/scsi/lpfc           | [@flyingrunsnail](https://gitee.com/flyingrunsnail) |
 | qla2xxx  | drivers/scsi/qola2xxx       | [@flyingrunsnail](https://gitee.com/flyingrunsnail) |
 | mpt3sas  | drivers/scsi/mpt3sas        | [@flyingrunsnail](https://gitee.com/flyingrunsnail) |
-i ACCELERATOR Controller DRIVER | Documentation/ABI/testing/debugfs-hisi-zip<br/>Documentation/ABI/testing/debugfs-hisi-sec<br/>Documentation/ABI/testing/debugfs-hisi-hpre<br/>drivers/crypto/hisilicon/<br/>include/linux/hisi_acc_qm.h<br/>drivers/vfio/pri/hisilicon/<br/>drivers/misc/uacce/ | [@liulongfang](https://gitee.com/liulongfang) | 
+i ACCELERATOR Controller DRIVER | Documentation/ABI/testing/debugfs-hisi-zip<br/>Documentation/ABI/testing/debugfs-hisi-sec<br/>Documentation/ABI/testing/debugfs-hisi-hpre<br/>drivers/crypto/hisilicon/<br/>include/linux/hisi_acc_qm.h<br/>drivers/vfio/pri/hisilicon/<br/>drivers/misc/uacce/ | [@liulongfang](https://gitee.com/liulongfang) |
+| motorcomm | drivers/net/ethernet/motorcomm/<br/>drivers/net/phy/motorcomm.c| [@Frank_Sae](https://gitee.com/Frank_Sae) |
 
 
 ## tools
