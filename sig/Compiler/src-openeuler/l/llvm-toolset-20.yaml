@@ -1,0 +1,10 @@
+name: llvm-toolset-20
+description: The LLVM Compiler Infrastructure
+upstream: https://github.com/llvm/llvm-project/tree/main/llvm
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
