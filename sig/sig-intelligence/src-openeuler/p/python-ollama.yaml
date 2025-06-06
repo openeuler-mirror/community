@@ -1,12 +1,9 @@
-name: python-shapely
-description: Manipulation and analysis of geometric objects.
-upstream: https://github.com/shapely/shapely
+name: python-ollama
+description: The official Python client for Ollama.
+upstream: https://github.com/ollama/ollama-python
 branches:
 - name: master
   type: protected
-- name: openEuler-25.03
-  type: protected
-  create_from: master
 - name: openEuler-24.03-LTS-Next
   type: protected
   create_from: master

@@ -1,12 +1,9 @@
-name: python-shapely
-description: Manipulation and analysis of geometric objects.
-upstream: https://github.com/shapely/shapely
+name: arrow-devel
+description: arrow dev
+upstream: https://github.com/apache/arrow
 branches:
 - name: master
   type: protected
-- name: openEuler-25.03
-  type: protected
-  create_from: master
 - name: openEuler-24.03-LTS-Next
   type: protected
   create_from: master
