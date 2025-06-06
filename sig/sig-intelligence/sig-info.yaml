@@ -291,19 +291,9 @@ repositories:
   - src-openeuler/python-sqlalchemy2
   - src-openeuler/python-ollama
   - src-openeuler/python-pymupdf
-  - src-openeuler/arrow-devel
-  - src-openeuler/json-devel
-  - src-openeuler/arrow2000-libs
-  - src-openeuler/arrow2000-dataset-libs
-  - src-openeuler/arrow-dataset-devel
-  - src-openeuler/arrow2000-acero-libs
-  - src-openeuler/arrow-acero-devel
-  - src-openeuler/parquet-devel
-  - src-openeuler/parquet2000-libs
-  - src-openeuler/arrow-flight-devel
-  - src-openeuler/arrow2000-flight-libs
-  - src-openeuler/gandiva-devel
-  - src-openeuler/gandiva2000-libs
+  - src-openeuler/arrow
+  - src-openeuler/doctest
+  - src-openeuler/json
   committers:
   - gitee_id: zxstty
     name: Jiaqi Zhao

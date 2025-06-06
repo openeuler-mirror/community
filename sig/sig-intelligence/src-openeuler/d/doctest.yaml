@@ -1,6 +1,6 @@
-name: parquet-devel
-description: parquet dev
-upstream: https://github.com/apache/arrow
+name: doctest
+description: The fastest feature-rich C++11/14/17/20/23 single-header testing framework
+upstream: https://github.com/doctest/doctest
 branches:
 - name: master
   type: protected
