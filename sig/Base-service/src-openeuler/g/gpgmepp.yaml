@@ -1,0 +1,10 @@
+name: gpgmepp
+description: 'GPGME++ is a C++ wrapper (or C++ bindings) for the GnuPG project GPGME (GnuPG Made Easy) library, version 0.4.4 and later.'
+upstream:
+  homepage: https://www.gnupg.org/software/gpgme/index.html
+  regex: (\d+\.\d+\.\d+)
+  version_url: https://www.gnupg.org/ftp/gcrypt/gpgmepp/
+branches:
+- name: master
+  type: protected
+type: public
