@@ -1,0 +1,7 @@
+name: ghc-djot
+description: Parser and renderer for djot light markup syntax.
+upstream: https://hackage.haskell.org/package/djot
+branches:
+- name: master
+  type: protected
+type: public

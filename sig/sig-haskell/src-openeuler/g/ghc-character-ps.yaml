@@ -1,0 +1,7 @@
+name: ghc-character-ps
+description: Pattern synonyms for ASCII characters for Word8, Word16 etc
+upstream: https://hackage.haskell.org/package/character-ps
+branches:
+- name: master
+  type: protected
+type: public

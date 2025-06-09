@@ -1,0 +1,7 @@
+name: ghc-serialise
+description: A binary serialisation library for Haskell values.
+upstream: https://hackage.haskell.org/package/serialise
+branches:
+- name: master
+  type: protected
+type: public
