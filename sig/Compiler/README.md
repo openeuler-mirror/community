@@ -9,7 +9,7 @@ Tuesday 10 am bi-weekly, UTC+8.
 ## Maintainers list
  - 赵 川峰[@cf-zhao](https://gitee.com/cf-zhao) email: zhaochuanfeng@huawei.com
  - 谢 志恒[@eastb233](https://gitee.com/eastb233) email: xiezhiheng@huawei.com
- - 王   坤[@kuenking111](https://gitee.com/kuenking111) email: wangkun49@huawei.com
+ - 王   坤[@kuenking111_admin](https://gitee.com/kuenking111_admin) email: wangkun49@huawei.com
  - 贺 东博[@Noah](https://gitee.com/jvmboy) email: hedongbo@huawei.com
  - 李 彦成[@li-yancheng](https://gitee.com/li-yancheng) email: liyancheng@huawei.com
  - 陈 善瑶[@stubCode](https://gitee.com/stubCode) email: chenshanyao@huawei.com

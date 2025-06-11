@@ -9,7 +9,7 @@ Compiler SIG 每双周周二上午10:00进行线上例会，也会定期举办�
 ## Maintainers列表
  - 赵 川峰[@cf-zhao](https://gitee.com/cf-zhao) 邮箱: zhaochuanfeng@huawei.com
  - 谢 志恒[@eastb233](https://gitee.com/eastb233) 邮箱: xiezhiheng@huawei.com
- - 王   坤[@kuenking111](https://gitee.com/kuenking111) 邮箱: wangkun49@huawei.com
+ - 王   坤[@kuenking111_admin](https://gitee.com/kuenking111_admin) 邮箱: wangkun49@huawei.com
  - 贺 东博[@Noah](https://gitee.com/jvmboy) 邮箱: hedongbo@huawei.com
  - 李 彦成[@li-yancheng](https://gitee.com/li-yancheng) 邮箱: liyancheng@huawei.com
  - 陈 善瑶[@stubCode](https://gitee.com/stubCode) 邮箱: chenshanyao@huawei.com
