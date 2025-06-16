@@ -4,5 +4,11 @@ description: Xen is a Virtual Machine Monitor (VMM).
 branches:
 - name: master
   type: protected
+- name: stable-4.18
+  type: protected
+  create_from: master
+- name: stable-4.19
+  type: protected
+  create_from: master
 type: public
 
