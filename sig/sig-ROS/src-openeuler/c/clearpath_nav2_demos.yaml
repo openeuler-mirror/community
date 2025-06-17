@@ -1,0 +1,8 @@
+name: clearpath_nav2_demos
+description: ' Nav2 demos for Clearpath robots'
+upstream: https://github.com/clearpathrobotics/clearpath_nav2_demos.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
