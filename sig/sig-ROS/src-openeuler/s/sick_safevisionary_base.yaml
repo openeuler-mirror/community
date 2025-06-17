@@ -1,0 +1,8 @@
+name: sick_safevisionary_base
+description: 'The package provides the basic hardware interface to the SICK Safevisionary sensor'
+upstream: https://github.com/SICKAG/sick_safevisionary_base.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
