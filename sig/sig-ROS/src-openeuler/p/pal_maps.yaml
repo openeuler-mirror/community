@@ -1,0 +1,8 @@
+name: pal_maps
+description: 'Public Maps used for the Navigation of PAL Robotics robots.'
+upstream: https://github.com/pal-robotics/pal_maps.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
