@@ -1,0 +1,8 @@
+name: flir_camera_driver
+description: 'FLIR camera Description package'
+upstream: https://github.com/ros-drivers/flir_camera_driver.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
