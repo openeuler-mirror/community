@@ -1,0 +1,8 @@
+name: andino
+description: 'The andino_description package'
+upstream: https://github.com/Ekumen-OS/andino.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
