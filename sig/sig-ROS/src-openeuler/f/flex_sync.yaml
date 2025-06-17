@@ -1,0 +1,8 @@
+name: flex_sync
+description: 'ros2 package for syncing variable number of topics'
+upstream: https://github.com/ros-misc-utilities/flex_sync.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
