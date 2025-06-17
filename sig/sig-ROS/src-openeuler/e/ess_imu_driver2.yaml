@@ -1,0 +1,8 @@
+name: ess_imu_driver2
+description: 'ROS2 package for Epson IMU using C++ wrapper around Linux C driver'
+upstream: https://github.com/cubicleguy/ess_imu_driver2.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
