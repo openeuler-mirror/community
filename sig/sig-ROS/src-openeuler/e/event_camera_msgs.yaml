@@ -1,0 +1,8 @@
+name: event_camera_msgs
+description: 'messages for event based cameras'
+upstream: https://github.com/ros-event-camera/event_camera_msgs.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
