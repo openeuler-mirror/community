@@ -1,0 +1,7 @@
+name: LMCache
+description: LMCache is an LLM serving engine extension to reduce TTFT and increase throughput, especially under long-context scenarios.
+upstream: https://github.com/LMCache/LMCache
+branches:
+- name: master
+  type: protected
+type: public
