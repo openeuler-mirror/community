@@ -1,0 +1,8 @@
+name: odom_to_tf_ros2
+description: ' A simple ros2 package (node) that reads an odom topic and generates the equivalent tf connection (transformation). It also provides options to override frame names, or just use the ones in the original odom topic.'
+upstream: https://github.com/gstavrinos/odom_to_tf_ros2.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
