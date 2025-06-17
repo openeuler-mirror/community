@@ -1,0 +1,8 @@
+name: network_interface
+description: 'Network interfaces and messages.'
+upstream: https://github.com/astuff/network_interface.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
