@@ -1,0 +1,8 @@
+name: schunk_svh_library
+description: 'Standalone C++ library for accessing the Schunk five finger hand.'
+upstream: https://github.com/SCHUNK-GmbH-Co-KG/schunk_svh_library.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
