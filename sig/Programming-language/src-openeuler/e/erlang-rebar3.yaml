@@ -1,0 +1,10 @@
+name: erlang-rebar3
+description: Erlang Build Tools
+upstream:
+  homepage: https://rebar3.org/
+  regex: (\d+\.\d+\.\d+)
+  version_url: https://github.com/erlang/rebar3/releases
+branches:
+- name: master
+  type: protected
+type: public
