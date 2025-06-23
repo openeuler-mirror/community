@@ -1,0 +1,10 @@
+name: libcerror
+upstream: https://github.com/libyal/libcerror
+description: Library for cross-platform C error functions
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

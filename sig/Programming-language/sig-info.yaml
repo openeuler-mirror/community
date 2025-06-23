@@ -536,6 +536,23 @@ repositories:
     organization: iscas
     email: zhoujiacheng@iscas.ac.cn
 
+- repo:
+  - src-openeuler/libcerror
+  - src-openeuler/libcnotify
+  - src-openeuler/libcthreads
+  - src-openeuler/libcdata
+  - src-openeuler/libfcache
+  - src-openeuler/libfdata
+  committers:
+  - gitee_id: woqidaideshi
+    name: Fang Yafen
+    organization: iscas
+    email: yafen@iscas.ac.cn
+  - gitee_id: misaka00251
+    name: Xin Liu
+    organization: iscas
+    email: liuxin@iscas.ac.cn
+
 branches:
 - repo_branch:
   - repo: src-openeuler/aiohttp
