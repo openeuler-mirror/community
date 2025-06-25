@@ -30,7 +30,7 @@ openEuler社区及其它众多开源社区对开发者体验、交互设计以�
 - [openEuler-portal](https://gitee.com/openeuler/openEuler-portal)
 - [opendesign-deployment](https://gitee.com/openeuler/opendesign-deployment)
 - [opendesign-backend](https://gitee.com/openeuler/opendesign-backend)
-- [opendesign-build](https://gitee.com/openeuler/opendesign-build)
+- [opendesign-analysis](https://gitee.com/openeuler/opendesign-analysis)
 - [opendesign-miniprogram](https://gitee.com/openeuler/opendesign-miniprogram)
 - [opendesign-datastat](https://gitee.com/openeuler/opendesign-datastat)
 - [opendesign-internship](https://gitee.com/openeuler/opendesign-internship)
