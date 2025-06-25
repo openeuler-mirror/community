@@ -1,0 +1,9 @@
+name: golang
+description: golang package
+type: public
+branches:
+- name: master
+  type: protected
+- name: go1.21.4
+  type: protected
+  create_from: master
