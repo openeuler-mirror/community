@@ -1,0 +1,10 @@
+name: libfcache
+upstream: https://github.com/libyal/libfcache
+description: Library to provide generic file data cache functions
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
