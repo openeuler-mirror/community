@@ -1,0 +1,8 @@
+name: mocap4r2_msgs
+description: 'ros humble mocap4r2 message'
+upstream: https://github.com/MOCAP4ROS2-Project/mocap4r2_msgs.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
