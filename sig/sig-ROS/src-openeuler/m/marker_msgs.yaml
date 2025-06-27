@@ -1,0 +1,8 @@
+name: marker_msgs
+description: 'ROS marker-msgs package'
+upstream: https://github.com/tuw-robotics/marker_msgs.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
