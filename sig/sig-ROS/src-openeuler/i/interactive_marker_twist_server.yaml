@@ -1,0 +1,8 @@
+name: interactive_marker_twist_server
+description: 'Interactive control for generic Twist-based robots using interactive markers'
+upstream: https://github.com/ros-visualization/interactive_marker_twist_server.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
