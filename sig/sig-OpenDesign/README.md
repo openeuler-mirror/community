@@ -39,6 +39,7 @@ openEuler社区及其它众多开源社区对开发者体验、交互设计以�
 - [docs-accompany-reading](https://gitee.com/openeuler/docs-accompany-reading)
 - [quick-issue](https://gitee.com/openeuler/quick-issue)
 - [easy-software](https://gitee.com/openeuler/easy-software)
+- [docs-website](https://gitee.com/openeuler/docs-website)
 
 ## 参考
 
