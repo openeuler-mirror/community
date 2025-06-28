@@ -1,0 +1,10 @@
+name: DevStore
+description: Developer Tools Quick Installation Platform
+upstream: https://gitee.com/openeuler/DevStore
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
