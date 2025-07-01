@@ -34,8 +34,7 @@
 ### Committers列表
 - 于爽[@calvinyu](https://gitee.com/calvinyu)
 - 郭峰[@pixiake](https://gitee.com/pixiake)
-- 孙玉轩[@sunyuxuan12](https://gitee.com/sunyuxuan12)
-- 麦合木提·买买提[@mahmut](https://gitee.com/mahmut)
+- 田利军[@ljtian-uos](https://gitee.com/ljtian-uos)
 - 朱云成[@zhu-yuncheng](https://gitee.com/zhu-yuncheng)
 - 刘阔[@lauk001](https://gitee.com/lauk001)
 - 魏欢欢[@weihuanhuan_ky](https://gitee.com/weihuanhuan_ky)
