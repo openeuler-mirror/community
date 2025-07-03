@@ -77,3 +77,4 @@ repository地址：
 - [EulerPublisher](httops://gitee.com/openeuler/eulerpublisher)
 - [EasysoftwareCommand](https://gitee.com/openeuler/easysoftware-command)
 - [git-lfs](https://gitee.com/src-openeuler/git-lfs)
+- [DocMate](https://gitee.com/openeuler/docmate)
