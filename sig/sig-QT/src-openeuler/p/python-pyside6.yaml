@@ -1,0 +1,7 @@
+name: python-pyside6
+description: Python bindings for the Qt 6 cross-platform application and UI framework
+upstream: https://code.qt.io/cgit/pyside/pyside-setup.git
+branches:
+- name: master
+  type: protected
+type: public

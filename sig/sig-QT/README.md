@@ -71,3 +71,4 @@ repository地址:
     - https://gitee.com/src-openeuler/qt6-qtwebengine
     - https://gitee.com/src-openeuler/qt6-qtwebsockets
     - https://gitee.com/src-openeuler/qt6-qtwebview
+    - https://gitee.com/src-openeuler/python-pyside6
