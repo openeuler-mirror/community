@@ -1,0 +1,7 @@
+name: uos-uwsgi-exporter
+description: A Prometheus exporter for uwsgi.
+upstream: https://gitee.com/openeuler/uos-uwsgi-exporter
+branches:
+- name: master
+  type: protected
+type: public
