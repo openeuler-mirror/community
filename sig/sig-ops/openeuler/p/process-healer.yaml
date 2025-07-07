@@ -1,0 +1,7 @@
+name: process-healer
+description: A high-performance daemon leveraging eBPF for reliable, 
+  low-overhead monitoring and automatic recovery of critical processes to ensure service continuity.
+branches:
+- name: master
+  type: protected
+type: public
