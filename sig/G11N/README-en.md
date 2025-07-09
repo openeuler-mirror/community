@@ -1,4 +1,7 @@
-## What is G11N SIG
+## G11N SIG
+English | [简体中文](./README.md) 
+
+## SIG Introduction
 
 This is the repository for the openEuler globalization (G11N) SIG.
 
@@ -38,7 +41,7 @@ The SIG will take responsibilities for the Internationalization (I18N) and Local
 
   The SIG will translate and share open source industry insights, including analyst reports, industry news, and more relevant contents for developers to better construct the community. Members will also write blogs regularly for further discussions about the trending topics of open source communities and OS development.
 
-## How to use
+## SIG Meetings
 
 If you are interested in providing your native language support in expanding openEuler global influence, please check for and join an existing translation team or create a new one. Please follow the *Translation Team Creation Guide* to file an application. New applications will be thoroughly considered before acceptance. 
 
@@ -46,17 +49,19 @@ In addition, feel free to join the SIG meeting and discuss the globalization ins
 
 SIG meetings will be held regularly for knowledge sharing and Q&A.
 
-Stay tuned for more events!
+**Meeting Time**: A public routine online discussion meeting is held at 10:00 a.m. on a Friday every month.
 
-## Contributing
+**Attendance Method**: Meeting topics and notifications will be finalized three days in advance via the mailing list (g11n@openeuler.org). Please submit your topics by email and ensure your attendance on the scheduled meeting day.
 
-### How to contribute
+## Contact Us
 
-Contributions are welcomed, please [send an email to us](https://openeuler.org/en/community/mailing-list) or create a new issue (待补充网址) if you have new ideas on globalization. 
+Contributions are welcomed, please [send an email to us](https://openeuler.org/en/community/mailing-list) or create a new issue if you have new ideas on globalization. 
 
 For details, see the [community contribution guidelines](https://github.com/freeCodeCamp/how-to-contribute-to-open-source).
 
-### Contributors
+**Mailing List**: g11n@openeuler.org
+
+## Contributors
 
 judithsq
 
@@ -70,14 +75,15 @@ zwyopen2021
 
 yanhuiling
 
-## Documents
+## Porject List
 
-To be supplemented
+##### Project name + repo address
+- https://gitee.com/openeuler/G11N
+- https://gitee.com/openeuler/globalization
 
-## Disclaimer
+##### *openEuler Code of Conduct*（https://gitee.com/openeuler/community/blob/master/code-of-conduct.md）
 
-To be supplemented
+##### *openEuler Governance Guide* (https://gitee.com/openeuler/community/blob/master/Governance.md）
 
-## Links
+##### *Developer Contribution Guide* (https://www.openeuler.org/zh/community/contribution/）
 
-To be supplemented
