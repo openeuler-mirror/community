@@ -1,0 +1,8 @@
+name: mola_common
+description: 'ROS mola-common package'
+upstream: https://github.com/MOLAorg/mola_common.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
