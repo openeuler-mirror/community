@@ -40,7 +40,6 @@ repository地址：
 - https://gitee.com/src-openeuler/lilypond
 - https://gitee.com/src-openeuler/musescore
 - https://gitee.com/src-openeuler/thunderbird
-- https://gitee.com/src-openeuler/uget
 - https://gitee.com/src-openeuler/meld
 
 # 常见问题
