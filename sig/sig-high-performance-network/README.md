@@ -53,6 +53,7 @@ Please [readme](./Vision-en.md)
 - 朱俊豪[@compile_success](https://gitee.com/compile_success) email: zhujunhao11@huawei.com
 - 万峰[@kywanfeng](https://gitee.com/kywanfeng) email: wanfeng@kylinos.cn
 - 张孟玄[@mengxuanzhang](https://gitee.com/mengxuanzhang) email: zhangmengxuan@kylinos.cn
+- 胡义臻[@xiangyu2020](https://gitee.com/xiangyu2020) email: huyizhen2024@163.com
 - 田鑫[@OGman](https://gitee.com/OGman) email: tianx@yunsilicon.com
 - 钱荣[@martinshare](https://gitee.com/martinshare) email: qianrong@yunsilicon.com
 

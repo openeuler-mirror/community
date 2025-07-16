@@ -1,0 +1,7 @@
+name: uos-tc-exporter
+description: A Prometheus exporter for tc stats via netlink.
+upstream: https://gitee.com/openeuler/uos-tc-exporter
+branches:
+- name: master
+  type: protected
+type: public
