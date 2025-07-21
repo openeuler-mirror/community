@@ -33,7 +33,7 @@
 | smmu   | drivers/iommu/arm-smmu\*<br />drivers/iommu/io-pgtable-arm\*   | [@ThunderTown](https://gitee.com/ThunderTown)       |
 | arm    | arch/arm/\*<br/>arch/arm64/\*    | [@chris_zjh](https://gitee.com/chris_zjh) |
 | powerpc | arch/powerpc/\*    | [@chris_zjh](https://gitee.com/chris_zjh) |
-| amd    | amd platform        | [@kile2009](https://gitee.com/kile2009) |
+| amd    | amd platform        | [@kile2009](https://gitee.com/kile2009) [@sming56_admin](https://gitee.com/sming56_admin) |
 | 申威   | arch/sw64/\*       | [@guzitao](https://gitee.com/guzitao) |
 
 ## Kunpeng
@@ -76,6 +76,7 @@
 | hifc     | drivers/scsi/huawei/hifc            | [@chenguangli](https://gitee.com/chenguangli)     |
 | nebula-matrix | Documentation/networking/device_drivers/ethernet/nebula-matrix/<br/>drivers/net/ethernet/nebula-matrix/ | open@nebula-matrix.com | 
 | smc      | net/smc/\*            | [@giree2](https://gitee.com/giree2)     |
+| smc      | drivers/net/phy/motorcomm.c         | [@Frank_Sae](https://gitee.com/Frank_Sae)     |
 
 
 ## Security
