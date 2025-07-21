@@ -73,8 +73,6 @@ repositories:
   - openeuler/deepin-rpm-installer
   - src-openeuler/deepin-rpm-installer
   - src-openeuler/qt5dxcb-plugin
-  - openeuler/deepin-upgrade-tool
-  - src-openeuler/deepin-upgrade-tool
   - src-openeuler/deepin-pw-check
   - src-openeuler/cryfs
   - src-openeuler/deepin-image-editor
@@ -105,9 +103,13 @@ repositories:
   - gitee_id: DustMerlin
     name: songmingliang
     email: songmingliang@uniontech.com
-  - gitee_id: wangce1988
-    name: wangce
-    email: wangce@uniontech.com
   - gitee_id: zhuhong_bo
     name: zhuhongbo
     email: zhuhongbo@uniontech.com
+- repo:
+  - openeuler/deepin-upgrade-tool
+  - src-openeuler/deepin-upgrade-tool
+  committers:
+  - gitee_id: weidongkl
+    name: WeiDong
+    email: weidong@uniontech.com
