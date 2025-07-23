@@ -1,0 +1,8 @@
+name: create3_examples
+description: 'Package containing action, message and service definitions used by the iRobot(R) Create(R) 3 examples'
+upstream: https://github.com/iRobotEducation/create3_examples.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
