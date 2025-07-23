@@ -1,0 +1,8 @@
+name: autoware_cmake
+description: 'CMake scripts for Autoware'
+upstream: https://github.com/autowarefoundation/autoware_cmake.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
