@@ -1,0 +1,8 @@
+name: ecl_core
+description: 'ROS ecl-eigen package'
+upstream: https://github.com/stonier/ecl_core.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
