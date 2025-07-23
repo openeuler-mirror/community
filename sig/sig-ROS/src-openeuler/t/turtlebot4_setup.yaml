@@ -1,0 +1,8 @@
+name: turtlebot4_setup
+description: 'Turtlebot4 setup scripts'
+upstream: https://github.com/turtlebot/turtlebot4_setup.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
