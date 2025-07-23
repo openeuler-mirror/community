@@ -1,0 +1,8 @@
+name: point_cloud_transport_plugins
+description: 'ROS point-cloud-interfaces package'
+upstream: https://github.com/ros-perception/point_cloud_transport_plugins.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
