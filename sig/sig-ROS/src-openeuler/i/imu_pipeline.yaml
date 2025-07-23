@@ -1,0 +1,8 @@
+name: imu_pipeline
+description: 'Processors for sensor_msgs::Imu data'
+upstream: https://github.com/ros-perception/imu_pipeline.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
