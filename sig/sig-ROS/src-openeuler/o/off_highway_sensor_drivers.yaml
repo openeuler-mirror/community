@@ -1,0 +1,8 @@
+name: off_highway_sensor_drivers
+description: 'ROS off-highway-general-purpose-radar-msgs package'
+upstream: https://github.com/bosch-engineering/off_highway_sensor_drivers.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
