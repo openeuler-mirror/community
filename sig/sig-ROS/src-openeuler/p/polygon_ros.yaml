@@ -1,0 +1,8 @@
+name: polygon_ros
+description: 'General purpose two-dimensional polygons. Formerly a part of nav_2d_msgs'
+upstream: https://github.com/MetroRobots/polygon_ros.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
