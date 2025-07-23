@@ -1,0 +1,8 @@
+name: clearpath_msgs
+description: 'Messages for Clearpath Platforms.'
+upstream: https://github.com/clearpathrobotics/clearpath_msgs.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
