@@ -1,0 +1,8 @@
+name: tuw_msgs
+description: 'The tuw_msgs meta package'
+upstream: https://github.com/tuw-robotics/tuw_msgs.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
