@@ -1,0 +1,8 @@
+name: classic_bags
+description: 'A ROS 2 interface in the style of ROS 1 for reading and writing bag files'
+upstream: https://github.com/MetroRobots/classic_bags.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
