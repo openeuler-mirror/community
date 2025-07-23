@@ -1,0 +1,8 @@
+name: kuka_drivers
+description: 'ROS kuka-drivers-core package'
+upstream: https://github.com/kroshu/kuka_drivers.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
