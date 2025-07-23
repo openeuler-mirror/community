@@ -1,0 +1,8 @@
+name: bcr_bot
+description: 'bcr_bot ros package'
+upstream: https://github.com/blackcoffeerobotics/bcr_bot.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
