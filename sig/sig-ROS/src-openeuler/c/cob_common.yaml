@@ -1,0 +1,8 @@
+name: cob_common
+description: 'ROS cob-msgs package'
+upstream: https://github.com/4am-robotics/cob_common.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
