@@ -1,0 +1,8 @@
+name: caret_trace
+description: 'Message definitions for CARET'
+upstream: ttps://github.com/tier4/caret_trace.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
