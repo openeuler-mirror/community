@@ -1,0 +1,8 @@
+name: LMS1xx
+description: 'The lms1xx package contains a basic ROS 2 driver for the SICK LMS1xx line of LIDARs.'
+upstream: https://github.com/clearpathrobotics/LMS1xx.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
