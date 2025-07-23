@@ -1,0 +1,8 @@
+name: marine_msgs
+description: 'ROS marine-sensor-msgs package'
+upstream: https://github.com/apl-ocean-engineering/marine_msgs.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
