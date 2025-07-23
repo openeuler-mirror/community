@@ -1,0 +1,8 @@
+name: flexbe_behavior_engine
+description: 'ROS flexbe-msgs package'
+upstream: https://github.com/flexbe/flexbe_behavior_engine.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
