@@ -1,0 +1,8 @@
+name: catch_ros2
+description: 'Catch2 testing framework for ROS 2 unit and integration tests.'
+upstream: https://github.com/ngmor/catch_ros2.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
