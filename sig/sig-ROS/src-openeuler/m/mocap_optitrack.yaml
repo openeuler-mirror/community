@@ -1,0 +1,8 @@
+name: mocap_optitrack
+description: 'ROS mocap-optitrack package'
+upstream: https://github.com/ros-drivers/mocap_optitrack.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
