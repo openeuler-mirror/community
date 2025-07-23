@@ -1,0 +1,8 @@
+name: mqtt_client
+description: 'ROS mqtt-client-interfaces package'
+upstream: https://github.com/ika-rwth-aachen/mqtt_client.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
