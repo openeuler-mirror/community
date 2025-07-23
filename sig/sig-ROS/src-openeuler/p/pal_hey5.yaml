@@ -1,0 +1,8 @@
+name: pal_hey5
+description: 'ROS pal-hey5-controller-configuration package'
+upstream: https://github.com/pal-robotics/pal_hey5.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
