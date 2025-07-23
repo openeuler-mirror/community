@@ -13,7 +13,7 @@ English | [简体中文](./sig-embedded_cn.md)
 
 ### Maintainers
 - Wayne Ren[@vonhust](https://gitee.com/vonhust)
-- Xinyu Li[@alichinese](https://gitee.com/alichinese)
+- Xinyu Li[@alichinese_admin](https://gitee.com/alichinese_admin)
 - Linxu Fang[@fanglinxu](https://gitee.com/fanglinxu)
 
 ### Committers
