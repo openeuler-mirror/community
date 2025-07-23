@@ -1,0 +1,8 @@
+name: create_robot
+description: 'Common message definitions for create_robot'
+upstream: https://github.com/AutonomyLab/create_robot.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
