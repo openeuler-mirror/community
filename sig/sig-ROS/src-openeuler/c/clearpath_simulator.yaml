@@ -1,0 +1,8 @@
+name: clearpath_simulator
+description: 'Clearpath Gazebo Generator'
+upstream: https://github.com/clearpathrobotics/clearpath_simulator.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
