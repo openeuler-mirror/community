@@ -1,0 +1,8 @@
+name: novatel_oem7_driver
+description: 'ROS novatel-oem7-msgs package'
+upstream: https://github.com/novatel/novatel_oem7_driver.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
