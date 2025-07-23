@@ -1,8 +1,11 @@
 name: python-typing-inspection
-description: 'Runtime typing introspection tools'
+description: Runtime typing introspection tools
 upstream: https://github.com/pydantic/typing-inspection
 platform: gitee
 branches:
 - name: master
   type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
 type: public

@@ -1,7 +1,10 @@
 name: python-mkdocs-section-index
-description: MkDocs plugin to allow clickable sections that lead to an index page. 
+description: MkDocs plugin to allow clickable sections that lead to an index page.
 upstream: https://github.com/oprypin/mkdocs-section-index
 branches:
 - name: master
   type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
 type: public

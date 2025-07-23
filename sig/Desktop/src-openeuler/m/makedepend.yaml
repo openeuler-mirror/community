@@ -1,5 +1,5 @@
 name: makedepend
-description: 'Utility to parse C source files to make dependency lists for Makefiles'
+description: Utility to parse C source files to make dependency lists for Makefiles
 upstream:
   homepage: https://gitlab.freedesktop.org/xorg/util/makedepend
   regex: makedepend-(\d+\.\d\+.\d\+)
@@ -7,4 +7,7 @@ upstream:
 branches:
 - name: master
   type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
 type: public

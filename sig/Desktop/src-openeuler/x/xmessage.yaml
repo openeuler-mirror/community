@@ -1,7 +1,10 @@
 name: xmessage
-description: 'Display a message or query in a window'
+description: Display a message or query in a window
 upstream: https://gitlab.freedesktop.org/xorg/app/xmessage
 branches:
 - name: master
   type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
 type: public

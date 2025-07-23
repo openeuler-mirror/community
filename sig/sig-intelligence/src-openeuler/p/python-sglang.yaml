@@ -1,5 +1,6 @@
 name: python-sglang
-description: SGLang is a fast serving framework for large language models and vision language models
+description: SGLang is a fast serving framework for large language models and vision
+  language models
 upstream: https://github.com/sgl-project/sglang
 branches:
 - name: master
@@ -10,4 +11,7 @@ branches:
 - name: openEuler-24.03-LTS-SP2
   type: protected
   create_from: openEuler-24.03-LTS-Next
+- name: openEuler-25.09
+  type: protected
+  create_from: master
 type: public

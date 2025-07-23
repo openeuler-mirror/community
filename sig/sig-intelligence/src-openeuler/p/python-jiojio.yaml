@@ -1,5 +1,6 @@
 name: python-jiojio
-description: A convenient Chinese word segmentation tool 简便中文分词器
+description: "A convenient Chinese word segmentation tool \u7B80\u4FBF\u4E2D\u6587\
+  \u5206\u8BCD\u5668"
 upstream: https://github.com/dongrixinyu/jiojio
 branches:
 - name: master
@@ -10,4 +11,7 @@ branches:
 - name: openEuler-24.03-LTS-SP2
   type: protected
   create_from: openEuler-24.03-LTS-Next
+- name: openEuler-25.09
+  type: protected
+  create_from: master
 type: public

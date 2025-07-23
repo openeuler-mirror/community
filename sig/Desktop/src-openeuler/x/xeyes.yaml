@@ -1,7 +1,10 @@
 name: xeyes
-description: 'A "follow the mouse" X demo, using the X SHAPE extension'
+description: A "follow the mouse" X demo, using the X SHAPE extension
 upstream: https://gitlab.freedesktop.org/xorg/app/xeyes
 branches:
 - name: master
   type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
 type: public

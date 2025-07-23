@@ -1,7 +1,11 @@
 name: luit
-description: 'Luit is a filter that can be run between an arbitrary application and a UTF-8 terminal emulator.'
+description: Luit is a filter that can be run between an arbitrary application and
+  a UTF-8 terminal emulator.
 upstream: https://invisible-island.net/luit/luit.html
 branches:
 - name: master
   type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
 type: public

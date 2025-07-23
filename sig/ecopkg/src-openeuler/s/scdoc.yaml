@@ -1,8 +1,11 @@
 name: scdoc
-description: 'scdoc is a simple man page generator for POSIX systems written in C99.'
+description: scdoc is a simple man page generator for POSIX systems written in C99.
 upstream: https://git.sr.ht/~sircmpwn/scdoc
 platform: gitee
 branches:
 - name: master
   type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
 type: public

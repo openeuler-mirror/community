@@ -1,7 +1,11 @@
 name: xstdcmap
-description: 'The xstdcmap utility can be used to selectively define standard colormap properties.'
+description: The xstdcmap utility can be used to selectively define standard colormap
+  properties.
 upstream: https://gitlab.freedesktop.org/xorg/app/xstdcmap
 branches:
 - name: master
   type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
 type: public

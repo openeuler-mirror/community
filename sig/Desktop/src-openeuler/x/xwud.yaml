@@ -1,7 +1,10 @@
 name: xwud
-description: 'Utility to display an image in XWD (X Window Dump) format'
+description: Utility to display an image in XWD (X Window Dump) format
 upstream: https://gitlab.freedesktop.org/xorg/app/xwud
 branches:
 - name: master
   type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
 type: public

@@ -1,5 +1,6 @@
 name: rust-ripgrep
-description: A search tool that combines the usability of ag with the raw speed of grep
+description: A search tool that combines the usability of ag with the raw speed of
+  grep
 upstream: https://crates.io/crates/ripgrep
 branches:
 - name: master
@@ -13,4 +14,7 @@ branches:
 - name: openEuler-24.03-LTS-SP2
   type: protected
   create_from: openEuler-24.03-LTS-Next
+- name: openEuler-25.09
+  type: protected
+  create_from: master
 type: public

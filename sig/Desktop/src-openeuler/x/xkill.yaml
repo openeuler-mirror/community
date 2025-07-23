@@ -1,7 +1,10 @@
 name: xkill
-description: 'xkill is a utility for forcing the X server to close connections to clients.'
+description: xkill is a utility for forcing the X server to close connections to clients.
 upstream: https://gitlab.freedesktop.org/xorg/app/xkill
 branches:
 - name: master
   type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
 type: public

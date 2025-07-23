@@ -1,7 +1,10 @@
 name: xfontsel
-description: 'X font selection client'
+description: X font selection client
 upstream: https://gitlab.freedesktop.org/xorg/app/xfontsel
 branches:
 - name: master
   type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
 type: public

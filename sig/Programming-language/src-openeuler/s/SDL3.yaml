@@ -1,5 +1,5 @@
 name: SDL3
-description: 'Simple Directmedia Layer'
+description: Simple Directmedia Layer
 upstream:
   homepage: https://www.libsdl.org/
   regex: release-(\d+\.\d+\.\d+)
@@ -7,4 +7,7 @@ upstream:
 branches:
 - name: master
   type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
 type: public

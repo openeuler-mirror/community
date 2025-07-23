@@ -1,7 +1,10 @@
 name: xcursorgen
-description: 'prepares X11 cursor sets for use with libXcursor'
+description: prepares X11 cursor sets for use with libXcursor
 upstream: https://gitlab.freedesktop.org/xorg/app/xcursorgen
 branches:
 - name: master
   type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
 type: public

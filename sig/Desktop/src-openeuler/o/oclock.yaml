@@ -1,8 +1,11 @@
 name: oclock
-description: 'oclock is a simple analog clock using the SHAPE extension to make
-a round (possibly transparent) window.'
+description: oclock is a simple analog clock using the SHAPE extension to make a round
+  (possibly transparent) window.
 upstream: https://gitlab.freedesktop.org/xorg/app/oclock
 branches:
 - name: master
   type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
 type: public

@@ -1,5 +1,6 @@
 name: python-tika
-description: Tika-Python is a Python binding to the Apache Tika™ REST services allowing Tika to be called natively in the Python community
+description: "Tika-Python is a Python binding to the Apache Tika\u2122 REST services\
+  \ allowing Tika to be called natively in the Python community"
 upstream: https://github.com/chrismattmann/tika-python
 branches:
 - name: master
@@ -10,4 +11,7 @@ branches:
 - name: openEuler-24.03-LTS-SP2
   type: protected
   create_from: openEuler-24.03-LTS-Next
+- name: openEuler-25.09
+  type: protected
+  create_from: master
 type: public

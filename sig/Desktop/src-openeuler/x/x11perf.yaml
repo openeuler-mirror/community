@@ -1,8 +1,11 @@
 name: x11perf
-description: 'x11perf program runs one or more performance tests and reports how fast
-an X server can execute the tests.'
+description: x11perf program runs one or more performance tests and reports how fast
+  an X server can execute the tests.
 upstream: https://gitlab.freedesktop.org/xorg/test/x11perf
 branches:
 - name: master
   type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
 type: public

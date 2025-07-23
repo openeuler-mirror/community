@@ -1,5 +1,6 @@
 name: lndir
-description: "Utility to create a shadow directory of symbolic links to another directory tree"
+description: Utility to create a shadow directory of symbolic links to another directory
+  tree
 upstream:
   homepage: https://gitlab.freedesktop.org/xorg/util/lndir
   regex: lndir-(\d+\.\d\+.\d\+)
@@ -7,4 +8,7 @@ upstream:
 branches:
 - name: master
   type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
 type: public

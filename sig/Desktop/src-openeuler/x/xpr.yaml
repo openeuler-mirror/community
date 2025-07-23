@@ -1,7 +1,10 @@
 name: xpr
-description: 'Utility to print an X window dump from xwd'
+description: Utility to print an X window dump from xwd
 upstream: https://gitlab.freedesktop.org/xorg/app/xpr
 branches:
 - name: master
   type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
 type: public

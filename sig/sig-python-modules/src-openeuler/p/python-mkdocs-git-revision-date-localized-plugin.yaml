@@ -1,7 +1,11 @@
 name: python-mkdocs-git-revision-date-localized-plugin
-description: Mkdocs plugin that enables displaying the localized date of the last git modification of a markdown file.
+description: Mkdocs plugin that enables displaying the localized date of the last
+  git modification of a markdown file.
 upstream: https://github.com/timvink/mkdocs-git-revision-date-localized-plugin
 branches:
 - name: master
   type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
 type: public

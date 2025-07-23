@@ -4,4 +4,7 @@ upstream: https://github.com/janestreet/ocaml_intrinsics_kernel
 branches:
 - name: master
   type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
 type: public

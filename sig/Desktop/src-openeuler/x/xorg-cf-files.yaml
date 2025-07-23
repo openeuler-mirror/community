@@ -1,5 +1,5 @@
 name: xorg-cf-files
-description: 'Imake configuration files & templates'
+description: Imake configuration files & templates
 upstream:
   homepage: https://gitlab.freedesktop.org/xorg/util/cf
   regex: xorg-cf-files-(\d+\.\d\+.\d\+)
@@ -7,4 +7,7 @@ upstream:
 branches:
 - name: master
   type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
 type: public

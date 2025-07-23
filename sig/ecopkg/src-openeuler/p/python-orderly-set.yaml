@@ -1,8 +1,11 @@
 name: python-orderly-set
-description: 'A package containing multiple implementations of Ordered Set.'
+description: A package containing multiple implementations of Ordered Set.
 upstream: https://github.com/seperman/orderly-set
 platform: gitee
 branches:
 - name: master
   type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
 type: public

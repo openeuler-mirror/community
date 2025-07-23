@@ -1,5 +1,6 @@
 name: SoftBR
-description: SoftBR is a software implemented architecture independent tool for branch tracking.
+description: SoftBR is a software implemented architecture independent tool for branch
+  tracking.
 upstream: https://gitee.com/openeuler/SoftBR
 type: public
 branches:
@@ -15,5 +16,8 @@ branches:
   type: protected
   create_from: openEuler-22.03-LTS-SP3
 - name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-25.09
   type: protected
   create_from: master

@@ -1,8 +1,11 @@
 name: python-dependency-groups
-description: 'A tool for resolving PEP 735 Dependency Group data'
+description: A tool for resolving PEP 735 Dependency Group data
 upstream: https://github.com/pypa/dependency-groups
 platform: gitee
 branches:
 - name: master
   type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
 type: public

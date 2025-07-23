@@ -1,5 +1,6 @@
 name: qgpgme
-description: 'QGpgme provides a very high level Qt API around GpgMEpp. As such it depends on GpgMEpp additionally to GpgME.'
+description: QGpgme provides a very high level Qt API around GpgMEpp. As such it depends
+  on GpgMEpp additionally to GpgME.
 upstream:
   homepage: https://www.gnupg.org/software/gpgme/index.html
   regex: (\d+\.\d+\.\d+)
@@ -7,4 +8,7 @@ upstream:
 branches:
 - name: master
   type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
 type: public

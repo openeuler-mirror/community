@@ -78,4 +78,7 @@ branches:
 - name: Multi-Version_ray_openEuler-22.03-LTS-SP4
   type: protected
   create_from: openEuler-22.03-LTS-SP4
+- name: openEuler-25.09
+  type: protected
+  create_from: master
 type: public

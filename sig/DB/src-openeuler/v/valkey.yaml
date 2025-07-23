@@ -1,7 +1,12 @@
 name: valkey
-description: 'Valkey is an open source (BSD) high-performance key/value datastore that supports a variety of workloads such as caching, message queues, and can act as a primary database.'
-upstream: 'https://valkey.io/'
+description: Valkey is an open source (BSD) high-performance key/value datastore that
+  supports a variety of workloads such as caching, message queues, and can act as
+  a primary database.
+upstream: https://valkey.io/
 branches:
 - name: master
   type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
 type: public

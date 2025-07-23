@@ -1,7 +1,10 @@
 name: python-gpgme
-description: 'Python bindings to the GPGME API of the GnuPG cryptography library.'
+description: Python bindings to the GPGME API of the GnuPG cryptography library.
 upstream: https://pypi.org/project/gpgme
 branches:
 - name: master
   type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
 type: public

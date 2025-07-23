@@ -1,7 +1,13 @@
 name: libcupsfilters
-description: "cups-filters provides filters (to convert data formats for printing) and backends (to communicate with printer hardware) for use with CUPS under non-Mac operating systems. The project originates in Apple (owner of CUPS that time) outsourcing the filters which were not used by Mac OS to OpenPrinting back in 2011."
+description: cups-filters provides filters (to convert data formats for printing)
+  and backends (to communicate with printer hardware) for use with CUPS under non-Mac
+  operating systems. The project originates in Apple (owner of CUPS that time) outsourcing
+  the filters which were not used by Mac OS to OpenPrinting back in 2011.
 upstream: https://github.com/OpenPrinting/libcupsfilters
 branches:
 - name: master
   type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
 type: public

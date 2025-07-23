@@ -1,5 +1,6 @@
 name: python-fastapi
-description: FastAPI framework, high performance, easy to learn, fast to code, ready for production
+description: FastAPI framework, high performance, easy to learn, fast to code, ready
+  for production
 upstream: https://github.com/fastapi/fastapi
 branches:
 - name: master
@@ -10,4 +11,7 @@ branches:
 - name: openEuler-24.03-LTS-SP2
   type: protected
   create_from: openEuler-24.03-LTS-Next
+- name: openEuler-25.09
+  type: protected
+  create_from: master
 type: public

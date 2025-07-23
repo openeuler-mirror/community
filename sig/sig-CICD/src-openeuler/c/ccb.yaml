@@ -1,5 +1,6 @@
 name: ccb
-description: This repository serves as a client-side tool for EulerMaker, allowing users to perform command-line operations on EulerMaker from within their own environment.
+description: This repository serves as a client-side tool for EulerMaker, allowing
+  users to perform command-line operations on EulerMaker from within their own environment.
 upstream: http://gitee.com/openeuler/ccb
 branches:
 - name: master
@@ -10,4 +11,7 @@ branches:
 - name: openEuler-24.03-LTS-SP2
   type: protected
   create_from: openEuler-24.03-LTS-Next
+- name: openEuler-25.09
+  type: protected
+  create_from: master
 type: public

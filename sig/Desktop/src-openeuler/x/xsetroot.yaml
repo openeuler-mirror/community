@@ -1,7 +1,10 @@
 name: xsetroot
-description: 'root window parameter setting utility for X'
+description: root window parameter setting utility for X
 upstream: https://gitlab.freedesktop.org/xorg/app/xsetroot
 branches:
 - name: master
   type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
 type: public

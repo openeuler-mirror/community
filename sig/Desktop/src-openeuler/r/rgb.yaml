@@ -1,7 +1,11 @@
 name: rgb
-description: 'This package includes both the list mapping X color names to RGB values (rgb.txt) and programs to read and write the color database.'
+description: This package includes both the list mapping X color names to RGB values
+  (rgb.txt) and programs to read and write the color database.
 upstream: https://gitlab.freedesktop.org/xorg/app/rgb
 branches:
 - name: master
   type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
 type: public

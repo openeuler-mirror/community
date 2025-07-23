@@ -1,5 +1,6 @@
 name: python-fastapi-pagination
-description: FastAPI Pagination is a simple and easy-to-use pagination library for FastAPI.
+description: FastAPI Pagination is a simple and easy-to-use pagination library for
+  FastAPI.
 upstream: https://github.com/uriyyo/fastapi-pagination
 branches:
 - name: master
@@ -10,4 +11,7 @@ branches:
 - name: openEuler-24.03-LTS-SP2
   type: protected
   create_from: openEuler-24.03-LTS-Next
+- name: openEuler-25.09
+  type: protected
+  create_from: master
 type: public

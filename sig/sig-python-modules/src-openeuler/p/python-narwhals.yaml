@@ -4,4 +4,7 @@ description: Extremely lightweight compatibility layer between dataframe librari
 branches:
 - name: master
   type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
 type: public

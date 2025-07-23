@@ -1,8 +1,11 @@
 name: python-tomcli
-description: 'CLI for working with TOML files. Pronounced "tom clee."'
+description: CLI for working with TOML files. Pronounced "tom clee."
 upstream: https://git.sr.ht/~gotmax23/tomcli
 platform: gitee
 branches:
 - name: master
   type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
 type: public

@@ -1,5 +1,7 @@
 name: python-jionlp
-description: 中文 NLP 预处理、解析工具包，准确、高效、易用 A Chinese NLP Preprocessing & Parsing Package
+description: "\u4E2D\u6587 NLP \u9884\u5904\u7406\u3001\u89E3\u6790\u5DE5\u5177\u5305\
+  \uFF0C\u51C6\u786E\u3001\u9AD8\u6548\u3001\u6613\u7528 A Chinese NLP Preprocessing\
+  \ & Parsing Package"
 upstream: https://github.com/dongrixinyu/JioNLP
 branches:
 - name: master
@@ -10,4 +12,7 @@ branches:
 - name: openEuler-24.03-LTS-SP2
   type: protected
   create_from: openEuler-24.03-LTS-Next
+- name: openEuler-25.09
+  type: protected
+  create_from: master
 type: public

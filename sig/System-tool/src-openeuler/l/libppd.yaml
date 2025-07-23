@@ -1,7 +1,10 @@
 name: libppd
-description: "Library for retro-fitting legacy printer drivers"
+description: Library for retro-fitting legacy printer drivers
 upstream: https://github.com/OpenPrinting/libppd
 branches:
 - name: master
   type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
 type: public

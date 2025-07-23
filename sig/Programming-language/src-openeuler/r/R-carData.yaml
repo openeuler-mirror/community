@@ -1,7 +1,11 @@
 name: R-carData
-description: Datasets to Accompany J. Fox and S. Weisberg, An R Companion to Applied Regression, Third Edition, Sage (2019).
+description: Datasets to Accompany J. Fox and S. Weisberg, An R Companion to Applied
+  Regression, Third Edition, Sage (2019).
 upstream: https://cran.r-project.org/package=carData
 branches:
 - name: master
   type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
 type: public

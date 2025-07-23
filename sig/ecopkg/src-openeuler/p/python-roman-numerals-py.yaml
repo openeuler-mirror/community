@@ -1,8 +1,11 @@
 name: python-roman-numerals-py
-description: 'Manipulate well-formed Roman numerals'
+description: Manipulate well-formed Roman numerals
 upstream: https://github.com/AA-Turner/roman-numerals/
 platform: gitee
 branches:
 - name: master
   type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
 type: public

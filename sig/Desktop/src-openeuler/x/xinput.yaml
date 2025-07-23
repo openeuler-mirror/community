@@ -1,7 +1,10 @@
 name: xinput
-description: 'xinput is a utility to configure and test XInput devices.'
+description: xinput is a utility to configure and test XInput devices.
 upstream: https://gitlab.freedesktop.org/xorg/app/xinput
 branches:
 - name: master
   type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
 type: public

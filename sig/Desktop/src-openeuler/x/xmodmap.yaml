@@ -1,7 +1,12 @@
 name: xmodmap
-description: 'The xmodmap program is used to edit and display the keyboard modifier map and keymap table that are used by client applications to convert event keycodes into keysyms. '
+description: 'The xmodmap program is used to edit and display the keyboard modifier
+  map and keymap table that are used by client applications to convert event keycodes
+  into keysyms. '
 upstream: https://gitlab.freedesktop.org/xorg/app/xmodmap
 branches:
 - name: master
   type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
 type: public

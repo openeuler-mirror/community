@@ -1,7 +1,10 @@
 name: xload
-description: 'system load average display for X'
+description: system load average display for X
 upstream: https://gitlab.freedesktop.org/xorg/app/xload
 branches:
 - name: master
   type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
 type: public

@@ -1,7 +1,11 @@
 name: cups-browsed
-description: 'cups-browsed is a helper daemon, which automatically installs printers locally, provides load balancing and clustering of print queues.'
+description: cups-browsed is a helper daemon, which automatically installs printers
+  locally, provides load balancing and clustering of print queues.
 upstream: https://github.com/OpenPrinting/cups-browsed
 branches:
 - name: master
   type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
 type: public

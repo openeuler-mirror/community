@@ -1,8 +1,11 @@
 name: phpy
-description: 'An extension for inter-calling Python and PHP'
+description: An extension for inter-calling Python and PHP
 upstream: https://github.com/swoole/phpy
 platform: gitee
 branches:
 - name: master
   type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
 type: public

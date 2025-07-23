@@ -1,7 +1,10 @@
 name: xrdb
-description: 'X server resource database utility'
+description: X server resource database utility
 upstream: https://gitlab.freedesktop.org/xorg/app/xrdb
 branches:
 - name: master
   type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
 type: public

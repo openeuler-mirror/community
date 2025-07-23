@@ -1,7 +1,10 @@
 name: xvidtune
-description: 'Video mode tuner client for XFree86-VidModeExtension'
+description: Video mode tuner client for XFree86-VidModeExtension
 upstream: https://gitlab.freedesktop.org/xorg/app/xvidtune
 branches:
 - name: master
   type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
 type: public
