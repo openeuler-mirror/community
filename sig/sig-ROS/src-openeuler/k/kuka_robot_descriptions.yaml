@@ -1,0 +1,8 @@
+name: kuka_robot_descriptions
+description: ' Robot models for the KUKA agilus family.'
+upstream: https://github.com/kroshu/kuka_robot_descriptions.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
