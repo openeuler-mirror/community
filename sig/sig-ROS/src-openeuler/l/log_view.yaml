@@ -1,0 +1,8 @@
+name: log_view
+description: 'ROS log-view package'
+upstream: https://github.com/hatchbed/log_view.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
