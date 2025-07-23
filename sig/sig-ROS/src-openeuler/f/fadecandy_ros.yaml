@@ -1,0 +1,8 @@
+name: fadecandy_ros
+description: 'ROS msgs for fadecandy LED controllers'
+upstream: https://github.com/eurogroep/fadecandy_ros.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
