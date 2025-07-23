@@ -1,0 +1,8 @@
+name: nmea_navsat_driver
+description: 'ROS nmea-navsat-driver package'
+upstream: https://github.com/ros-drivers/nmea_navsat_driver.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
