@@ -1,0 +1,8 @@
+name: crane_plus
+description: 'ROS crane-plus-moveit-config package'
+upstream: https://github.com/rt-net/crane_plus.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
