@@ -1,0 +1,8 @@
+name: raspimouse_sim
+description: 'The raspimouse_control package'
+upstream: https://github.com/rt-net/raspimouse_sim.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
