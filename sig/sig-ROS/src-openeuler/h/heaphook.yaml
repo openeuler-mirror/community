@@ -1,0 +1,8 @@
+name: heaphook
+description: 'Replace all the dynamic heap allocation functions by LD_PRELOAD'
+upstream: https://github.com/tier4/heaphook.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
