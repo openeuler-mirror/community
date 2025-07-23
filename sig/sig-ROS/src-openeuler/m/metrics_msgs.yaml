@@ -1,0 +1,8 @@
+name: metrics_msgs
+description: 'Messages for describing collisions (simulated or not)'
+upstream: https://github.com/MetroRobots/metrics_msgs.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
