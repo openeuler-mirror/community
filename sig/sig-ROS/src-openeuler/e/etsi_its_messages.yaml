@@ -1,0 +1,8 @@
+name: etsi_its_messages
+description: 'ROS messages for ETSI ITS CAM'
+upstream: https://github.com/ika-rwth-aachen/etsi_its_messages.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
