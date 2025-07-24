@@ -25,10 +25,10 @@ CloudNative SIG致力于为广大用户、开发者、爱好者提供便捷、�
 - weibaohui[@weibaohui](https://gitee.com/weibaohui) | email:weibaohui@yeah.net
 - duguhaotian[@duguhaotian](https://gitee.com/duguhaotian) | email:liuhao27@huawei.com
 - wonleing[@wonleing](https://gitee.com/wonleing) | email:wangl29@chinatelecom.cn
-- Xuepeng Xu[@xuxuepeng](https://gitee.com/xuxuepeng) | email:xuxuepeng1@huawei.com
 - Jian Zhang[@zmr_2020](https://gitee.com/zmr_2020) | email:zhang_jian7@hoperun.com
 - lu-wei-army[@lu-wei-army](https://gitee.com/lu-wei-army) | email:wjunlu217@gmail.com
 - DaWei Gao[@gaodaweiky](https://gitee.com/gaodaweiky) | email:gaodawei@kylinos.cn
+- Tao Zhong[@taotao-sauce](https://gitee.com/taotao-sauce) | email:zhongtao17@huawei.com
 
 ### Committer列表
 - jingxiaolu[@jingxiaolu](https://gitee.com/jingxiaolu)
@@ -39,8 +39,7 @@ CloudNative SIG致力于为广大用户、开发者、爱好者提供便捷、�
 - duyiwei7w[@duyiwei7w](https://gitee.com/duyiwei7w)
 - Xiaocong Suo[@suo-xiaocong](https://gitee.com/suo-xiaocong)
 - Bowei Zhang[@northgarden](https://gitee.com/northgarden)
-- Tao Zhong[@taotao-sauce](https://gitee.com/taotao-sauce)
-
+- Xu Liu[@liuxu180400617](https://gitee.com/liuxu180400617)
 
 ### Honor Maintainer
 感谢以下原maintainer对sig CloudNative及openEuler社区的贡献：
@@ -48,6 +47,7 @@ CloudNative SIG致力于为广大用户、开发者、爱好者提供便捷、�
 - caihaomin[@caihaomin](https://gitee.com/caihaomin) | email:caihaomin@huawei.com
 - biannm[@biannm](https://gitee.com/biannm) | email:bian_naimeng@hoperun.com
 - pixiake[@pixiake](https://gitee.com/pixiake) | email:guofeng@yunify.com
+- Xuepeng Xu[@xuxuepeng](https://gitee.com/xuxuepeng) | email:xuxuepeng1@huawei.com
 
 ## 联系方式
 
