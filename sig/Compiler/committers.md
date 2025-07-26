@@ -68,7 +68,7 @@
 | [src-openeuler/Bear](https://gitee.com/src-openeuler/Bear) | 赵文宇[@huitailangzju](https://gitee.com/huitailangzju) <br/> 熊洲[@xiongzhou4](https://gitee.com/xiongzhou4) |
 | [src-openeuler/tinytoml](https://gitee.com/src-openeuler/tinytoml) | 朱佳梦[@JiamengZ](https://gitee.com/JiamengZ) <br/> 章旭东[@z-xu-dong-zhang](https://gitee.com/z-xu-dong-zhang) |
 | [openeuler/pin-gcc-client](https://gitee.com/openeuler/pin-gcc-client) <br/> [openeuler/pin-llvm-client](https://gitee.com/openeuler/pin-llvm-client) <br/> [openeuler/pin-server](https://gitee.com/openeuler/pin-server) <br/> [openeuler/pin-for-openEuler](https://gitee.com/openeuler/pin-for-openEuler) <br/> [src-openeuler/pin-gcc-client](https://gitee.com/src-openeuler/pin-gcc-client) <br/> [src-openeuler/pin-llvm-client](https://gitee.com/src-openeuler/pin-llvm-client) <br/> [src-openeuler/pin-server](https://gitee.com/src-openeuler/pin-server) <br/> [src-openeuler/pin-for-openEuler](https://gitee.com/src-openeuler/pin-for-openEuler) | 伍明川[@wumingchuan](https://gitee.com/wumingchuan) |
-| [src-openeuler/optimized-routines](https://gitee.com/src-openeuler/optimized-routines) | 熊洲[@xiongzhou4](https://gitee.com/xiongzhou4) |
+| [openeuler/optimized-routines](https://gitee.com/openeuler/optimized-routines) <br/> [src-openeuler/optimized-routines](https://gitee.com/src-openeuler/optimized-routines) | 熊洲[@xiongzhou4](https://gitee.com/xiongzhou4) |
 | [openeuler/CPython](https://gitee.com/openeuler/CPython) | 赵羽[@zhaoyu_hit](https://gitee.com/zhaoyu_hit) |
 | [openeuler/BiSheng-Adoptium](https://gitee.com/openeuler/BiSheng-Adoptium) | |
 | [openeuler/compiler-docs](https://gitee.com/openeuler/openeuler/compiler-docs) | |

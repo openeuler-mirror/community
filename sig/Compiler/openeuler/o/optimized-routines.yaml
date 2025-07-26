@@ -1,0 +1,8 @@
+name: optimized-routines
+description: Optimized implementations of various library functions for ARM architecture
+  processors.
+upstream: https://github.com/ARM-software/optimized-routines
+branches:
+- name: master
+  type: protected
+type: public
