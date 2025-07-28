@@ -1,0 +1,9 @@
+name: Computing-docs
+description: Documentation Repository Dedicated to Computing Features
+branches:
+  - name: master
+    type: protected
+  - name: openEuler-24.03-LTS-SP2
+    type: protected
+    create_from: master
+type: public
