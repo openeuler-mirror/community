@@ -1,0 +1,9 @@
+name: Storage-docs
+description: Documentation Repository Dedicated to Storage Features
+branches:
+  - name: master
+    type: protected
+  - name: openEuler-24.03-LTS-SP2
+    type: protected
+    create_from: master
+type: public
