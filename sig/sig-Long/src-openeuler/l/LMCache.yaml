@@ -10,4 +10,10 @@ branches:
 - name: openEuler-24.03-LTS-Next
   type: protected
   create_from: master
+- name: vllm-ascend-dev
+  type: protected
+  create_from: master
+- name: vllm-ms-dev
+  type: protected
+  create_from: master
 type: public
