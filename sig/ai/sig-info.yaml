@@ -42,7 +42,6 @@ repositories:
   - src-openeuler/opencl-headers
   - src-openeuler/opencl-clhpp
   - src-openeuler/opencl
-  - src-openeuler/oneDNN
   - src-openeuler/octave
   - src-openeuler/opennn
   - src-openeuler/okhttp
@@ -98,6 +97,13 @@ repositories:
   - gitee_id: zhunaipan
     name: zhunaipan
     email: zhunaipan@huawei.com
+  
+- repo:
+  - src-openeuler/oneDNN
+  committers:
+  - gitee_id: lilinjie11
+    name: lilinjie
+    email: lilinjie11@huawei.com
 
 - repo:
   - openeuler/kunpeng-extension-for-pytorch
