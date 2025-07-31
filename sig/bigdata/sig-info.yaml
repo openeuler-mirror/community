@@ -41,24 +41,7 @@ repositories:
   - gitee_id: changzhi1123
     name: changzhi
     email: 272972727@qq.com
-  - gitee_id: firewalls
-    name: guanwenxuan
-    email: choose_home@126.com
-  - gitee_id: hyycyan_cyan
-    name: huangyuyang
-    email: huangyuyang1@huawei.com
-  - gitee_id: weijie-yin
-    name: yinweijie
-    email: yinweijie2@huawei.com
-  - gitee_id: yiding-wu
-    name: wuyiding
-    email: 707999813@qq.com
-  - gitee_id: copperybean
-    name: zhangzhihong
-    email: copperybean.zhang@gmail.com
-  - gitee_id: study-hard-day-night
-    name: liujian
-    email: 2041370846@qq.com
+
 - repo:
   - src-openeuler/hive
   - src-openeuler/hbase
@@ -74,6 +57,23 @@ repositories:
     name: wenweijian
     email: weijian.wen@foxmail.com
 
+- repo:
+  - openeuler/Gluten
+  - openeuler/OmniAdaptor
+  - openeuler/OmniOperator
+  - openeuler/OmniStream
+  - openeuler/OmniStateStore
+  committers:
+  - gitee_id: hyycyan_cyan
+    name: huangyuyang
+    email: huangyuyang1@huawei.com
+  - gitee_id: yiding-wu
+    name: wuyiding
+    email: 707999813@qq.com
+  - gitee_id: copperybean
+    name: zhangzhihong
+    email: copperybean.zhang@gmail.com
+    
 - repo:
   - src-openeuler/redis6
   - src-openeuler/rain
