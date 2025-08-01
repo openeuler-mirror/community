@@ -34,11 +34,9 @@ repositories:
   - src-openeuler/tensorflow
   - src-openeuler/SuperLUMT
   - src-openeuler/sundials
-  - src-openeuler/sentencepiece
   - src-openeuler/arm-ml-examples
   - src-openeuler/armnn
   - src-openeuler/opencl-filesystem
-  - src-openeuler/opencv
   - src-openeuler/opencl-headers
   - src-openeuler/opencl-clhpp
   - src-openeuler/opencl
@@ -97,13 +95,27 @@ repositories:
   - gitee_id: zhunaipan
     name: zhunaipan
     email: zhunaipan@huawei.com
-  
+
 - repo:
   - src-openeuler/oneDNN
   committers:
   - gitee_id: lilinjie11
     name: lilinjie
     email: lilinjie11@huawei.com
+
+- repo:
+  - src-openeuler/opencv
+  committers:
+  - gitee_id: shenwei41
+    name: shenwei41
+    email: shenwei41@huawei.com
+
+- repo:
+  - src-openeuler/sentencepiece
+  committers:
+  - gitee_id: liu-yongqi-63
+    name: liu-yongqi-63
+    email: liuyongqi5@huawei.com
 
 - repo:
   - openeuler/kunpeng-extension-for-pytorch
