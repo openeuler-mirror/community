@@ -1,0 +1,8 @@
+name: pal_robotiq_gripper
+description: 'The pal_robotiq_description package'
+upstream: https://github.com/pal-robotics/pal_robotiq_gripper.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
