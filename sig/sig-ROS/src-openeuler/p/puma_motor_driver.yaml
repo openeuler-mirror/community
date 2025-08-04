@@ -1,0 +1,8 @@
+name: puma_motor_driver
+description: 'Messages specific to Puma.'
+upstream: https://github.com/clearpathrobotics/puma_motor_driver.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
