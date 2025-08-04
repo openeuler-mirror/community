@@ -1,0 +1,8 @@
+name: wireless
+description: 'Messages for describing a wireless network such as bitrate, essid, and link quality.'
+upstream: https://github.com/clearpathrobotics/wireless.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
