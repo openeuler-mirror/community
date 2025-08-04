@@ -1,0 +1,8 @@
+name: clearpath_desktop
+description: 'ROS clearpath-config-live package'
+upstream: https://github.com/clearpathrobotics/clearpath_desktop.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
