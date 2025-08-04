@@ -1,0 +1,8 @@
+name: hri_actions_msgs
+description: 'ROS hri-actions-msgs package'
+upstream: https://github.com/ros4hri/hri_actions_msgs.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
