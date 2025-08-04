@@ -1,0 +1,8 @@
+name: psdk_ros2
+description: 'Provides custom message, srv and action types for psdk ros2 wrapper'
+upstream: https://github.com/umdlife/psdk_ros2.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
