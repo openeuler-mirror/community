@@ -1,0 +1,8 @@
+name: composefs
+description: 'The composefs project combines several underlying Linux features to provide a very flexible mechanism to support read-only mountable filesystem trees, stacking on top of an underlying "lower" Linux filesystem.'
+upstream: https://www.cncf.io/projects/composefs/
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
