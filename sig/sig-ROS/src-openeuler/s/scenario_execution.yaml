@@ -1,0 +1,8 @@
+name: scenario_execution
+description: 'ROS scenario-execution-interfaces package'
+upstream: https://github.com/IntelLabs/scenario_execution.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
