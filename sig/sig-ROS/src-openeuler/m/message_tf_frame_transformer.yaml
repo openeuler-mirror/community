@@ -1,0 +1,8 @@
+name: message_tf_frame_transformer
+description: 'Transforms messages of arbitrary type to a different frame using tf2::doTransform'
+upstream: https://github.com/ika-rwth-aachen/message_tf_frame_transformer.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
