@@ -1,0 +1,8 @@
+name: talos_robot
+description: 'ROS talos-description-calibration package'
+upstream: https://github.com/pal-robotics/talos_robot.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
