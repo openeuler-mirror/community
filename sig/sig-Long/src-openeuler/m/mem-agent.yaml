@@ -1,0 +1,7 @@
+name: mem-agent
+description: mem-agent is a software written in Rust, designed for managing memory and reducing memory usage in Linux environments.
+upstream: https://gitee.com/teawater/mem-agent
+branches:
+- name: master
+  type: protected
+type: public
