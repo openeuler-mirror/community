@@ -21,57 +21,43 @@ maintainers:
   name: YangFeng
   organization: KylinSec OS
   email: yangfeng@kylinsec.com.cn
+
 repositories:
 - repo:
+  - openeuler/kiran-desktop
+  - openeuler/kiran-cc-daemon
+  - openeuler/kiran-session-manager
+  - openeuler/kiran-control-panel
+  - openeuler/kiran-panel
+  - openeuler/kiran-shell
+  - openeuler/kiran-menu
+  - openeuler/kiran-authentication-service
+  - openeuler/kiran-authentication-devices
+  - openeuler/kiran-session-guard
+  - openeuler/kiran-screensaver
+  - openeuler/kiran-manual
+  - openeuler/kiran-qt5-integration
+  - openeuler/kiran-wallpapers
+  - openeuler/kiran-icon-theme
+  - openeuler/kiran-gtk-theme
+  - openeuler/kiran-widgets-qt5
+  - openeuler/plymouth-theme-kiran
+  - openeuler/kiran-qdbusxml2cpp
+  - openeuler/kiran-calculator
+  - openeuler/kiran-flameshot
+  - openeuler/kiran-calendar
+  - openeuler/kiran-log
   - src-openeuler/kiran-desktop
   - src-openeuler/kiran-cc-daemon
   - src-openeuler/kiran-session-manager
-  committers:
-  - gitee_id: meizhigang
-    name: MeiZhiGang
-    email: meizhigang@kylinsec.com.cn
-  - gitee_id: luoqing_kylinsec
-    name: LuoQing
-    email: luoqing@kylinos.com.cn
-
-- repo:
   - src-openeuler/kiran-control-panel
-  committers:
-  - gitee_id: yuan__xing
-    name: YuanXing
-    email: yuanxing@kylinsec.com.cn
-  - gitee_id: luoqing_kylinsec
-    name: LuoQing
-    email: luoqing@kylinos.com.cn
-
-- repo:
   - src-openeuler/kiran-panel
   - src-openeuler/kiran-shell
   - src-openeuler/kiran-menu
-
-- repo:
   - src-openeuler/kiran-authentication-service
   - src-openeuler/kiran-authentication-devices
-  committers:
-  - gitee_id: luoqing_kylinsec
-    name: LuoQing
-    email: luoqing@kylinos.com.cn
-
-- repo:
-  - src-openeuler/ks-ssr
-  committers:
-  - gitee_id: wangyucheng1
-    name: WangYuCheng
-    email: wangyucheng@kylinsec.com.cn
-  - gitee_id: chendingjian
-    name: ChenDingJian
-    email: chendingjian@kylinsec.com.cn
-
-- repo:
   - src-openeuler/kiran-session-guard
   - src-openeuler/kiran-screensaver
-
-- repo:
   - src-openeuler/kiran-manual
   - src-openeuler/kiran-qt5-integration
   - src-openeuler/kiran-wallpapers
@@ -79,8 +65,6 @@ repositories:
   - src-openeuler/kiran-gtk-theme
   - src-openeuler/kiran-widgets-qt5
   - src-openeuler/plymouth-theme-kiran
-
-- repo:
   - src-openeuler/kiran-qdbusxml2cpp
   - src-openeuler/kiran-calculator
   - src-openeuler/kiran-flameshot
@@ -91,11 +75,19 @@ repositories:
   - src-openeuler/libcutl
   - src-openeuler/xsd
   - src-openeuler/gdbus-codegen-glibmm
+  - src-openeuler/xdotool
 
 - repo:
+  - openeuler/ks-ssr
+  - openeuler/ks-scmc
+  - openeuler/ks-scmc-gui
+  - openeuler/ks-vaudit
+  - src-openeuler/ks-ssr
   - src-openeuler/ks-scmc
   - src-openeuler/ks-scmc-gui
   - src-openeuler/ks-vaudit
+  committers:
+  - gitee_id: wangyucheng1
+    name: WangYuCheng
+    email: wangyucheng@kylinsec.com.cn
 
-- repo:
-  - src-openeuler/xdotool
