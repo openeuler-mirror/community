@@ -1,0 +1,7 @@
+name: qbe
+description: QBE (Query By Example - Backend Compiler) is a backend compilation framework designed specifically for compiler developers, aimed at providing powerful architecture specific code generation support.
+upstream: https://c9x.me/compile/
+branches:
+- name: master
+  type: protected
+type: public
