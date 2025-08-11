@@ -1,0 +1,7 @@
+name: microdnf
+description: 'Lightweight implementation of dnf in C'
+upstream: https://github.com/rpm-software-management/microdnf
+branches:
+- name: master
+  type: protected
+type: public
