@@ -1,0 +1,10 @@
+name: Ha-docs
+description: Documentation Repository Dedicated to Ha Features
+branches:
+  - name: master
+    type: protected
+    create_from: master
+  - name: openEuler-25.09
+    type: protected
+    create_from: master
+type: public
