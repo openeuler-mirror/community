@@ -102,4 +102,4 @@
 
 ## 命令参考
 
-openEuler的机器人会将结构化标签运用于PR中。该机器人可以为您的PR过程提供一些有用的建议。为了方便查看，可以在注释中输入XXXXXXX选项，以触发自动标记和通知功能。请参阅[社区命令参考文档](./../sig-infrastructure/command.md)。
+openEuler的机器人会将结构化标签运用于PR中。该机器人可以为您的PR过程提供一些有用的建议。为了方便查看，可以在注释中输入XXXXXXX选项，以触发自动标记和通知功能。请参阅[社区命令参考文档](../sig-infrastructure/command.md)。

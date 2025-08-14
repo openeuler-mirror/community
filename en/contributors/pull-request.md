@@ -102,4 +102,4 @@ SIG members can apply the **test-ready** label to a PR submitted by a contributo
 
 ## Command Reference
 
-openeuler-ci-bot applies structured labels to PRs. The bot can provide some useful advice during your PR process. For details, see [Community Command Reference](./../sig-infrastructure/command.md).
+openeuler-ci-bot applies structured labels to PRs. The bot can provide some useful advice during your PR process. For details, see [Community Command Reference](../sig-infrastructure/command.md).
