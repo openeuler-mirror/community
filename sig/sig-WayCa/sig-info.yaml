@@ -9,10 +9,14 @@ maintainers:
   name: Fred Kimmy
   organization: huawei
   email: xweikong@163.com
-- gitee_id: young1c
-  name: Yicong Yang
+- gitee_id: jenkins-jiang
+  name: Jenkins Jiang
   organization: huawei
-  email: young.yicong@outlook.com
+  email: jiangjianyuan@huawei.com
+- gitee_id: liuyonglong86
+  name: Yonglong Liu
+  organization: huawei
+  email: liuyonglong@huawei.com
 
 repositories:
 - repo:
@@ -22,15 +26,6 @@ repositories:
     name: Fred Kimmy
     organization: huawei
     email: xweikong@163.com
-
-- repo:
-  - openeuler/wayca-scheduler
-  - openeuler/wayca-scheduler-bench
-  committers:
-  - gitee_id: young1c
-    name: Yicong Yang
-    organization: huawei
-    email: young.yicong@outlook.com
 
 - repo:
   - openeuler/hikptool
@@ -44,18 +39,6 @@ repositories:
     name: cjx_2021
     organization: huawei
     email: cjxzju_2014@qq.com
-
-- repo:
-  - openeuler/KPL-gmssl
-  - openeuler/KPL-zlib
-
-- repo:
-  - openeuler/numafast
-  committers:
-  - gitee_id: jinyao1976
-    name: Jin Yao
-    organization: huawei
-    email: jinyao5@huawei.com
 
 - repo:
   - openeuler/sdma-dk
