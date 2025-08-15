@@ -1,0 +1,10 @@
+name: kylin-ai-runtime
+description: Kylin AI SDK Runtime
+upstream: https://gitee.com/openkylin/kylin-ai-runtime
+branches:
+- name: master
+  type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: wlroots
+description: wlroots is a set of pluggable, composable modules to build a Wayland compositor.
+upstream: https://gitlab.freedesktop.org/wlroots/wlroots/
+branches:
+- name: master
+  type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
+type: public
