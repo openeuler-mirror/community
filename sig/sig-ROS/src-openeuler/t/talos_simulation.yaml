@@ -1,0 +1,8 @@
+name: talos_simulation
+description: 'The talos_gazebo package'
+upstream: https://github.com/pal-robotics/talos_simulation.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
