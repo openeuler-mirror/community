@@ -30,9 +30,6 @@
 - [订阅邮件列表](https://mailweb.openeuler.org/postorius/lists/wayca@openeuler.org/)
 
 - 微信群组
-
- ![wechat_QR](./sig-wayca-wechat-V2.jpg)
-
 ## Maintainer列表
 
 ### 鲲鹏高速网络
@@ -60,13 +57,6 @@
 - cjx_2021[@chenjunxin1992](https://gitee.com/chenjunxin1992)
 - perf\etm:
 - hejunhao[@hejunhao3](https://gitee.com/hejunhao3)
-
-### 鲲鹏高性能调度
-
-- WayCa-sc:
-- Yicong Yang[@young1c](https://gitee.com/young1c)
-- numafast:
-- Jin Yao[@jinyao1976](https://gitee.com/jinyao1976)
 
 ### 鲲鹏故障处理
 
@@ -127,10 +117,6 @@ repository地址：
 - WayCa-sc:
 - https://gitee.com/openeuler/kernel/
 - https://gitee.com/src-openeuler/kernel/
-- https://gitee.com/openeuler/wayca-scheduler-bench
-- https://gitee.com/openeuler/wayca-scheduler
-- numafast:
-- https://gitee.com/openeuler/numafast
 
 ### 项目名称：WayCa-Kunpeng-调测工具
 
@@ -175,8 +161,3 @@ repository地址：
 - https://gitee.com/openeuler/kernel/
 - https://gitee.com/src-openeuler/kernel/
 
-### 项目名称：KPL-gmssl
-
-repository地址：
-
-- https://gitee.com/openeuler/KPL-gmssl
