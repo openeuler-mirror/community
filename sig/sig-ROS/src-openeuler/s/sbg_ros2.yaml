@@ -1,0 +1,8 @@
+name: sbg_ros2
+description: 'ROS sbg-driver package'
+upstream: https://github.com/SBG-Systems/sbg_ros2.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
