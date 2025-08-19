@@ -1,0 +1,8 @@
+name: sick_scan_xd
+description: 'ROS 1 and 2 driver for SICK scanner'
+upstream: https://github.com/SICKAG/sick_scan_xd.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
