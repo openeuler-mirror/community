@@ -94,7 +94,6 @@ Project names && repository location：
 - https://gitee.com/src-openeuler/percona-server
 - https://gitee.com/src-openeuler/percona-toolkit
 - https://gitee.com/src-openeuler/percona-xtrabackup
-- https://gitee.com/src-openeuler/perl-DBIx-Safe
 - https://gitee.com/src-openeuler/pgadmin4-server
 - https://gitee.com/src-openeuler/pgpool2
 - https://gitee.com/src-openeuler/postgresql
@@ -104,9 +103,6 @@ Project names && repository location：
 - https://gitee.com/src-openeuler/unixODBC
 - https://gitee.com/src-openeuler/mariadb
 - https://gitee.com/src-openeuler/sqlite
-- https://gitee.com/src-openeuler/perl-DBD-SQLite
-- https://gitee.com/src-openeuler/perl-DBD-MariaD
-- https://gitee.com/src-openeuler/perl-DBD-MySQL
 - https://gitee.com/src-openeuler/mongo-tools
 - https://gitee.com/src-openeuler/opengauss-server
 - https://gitee.com/src-openeuler/opengauss-dcf
