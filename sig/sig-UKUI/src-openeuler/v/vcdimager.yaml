@@ -1,0 +1,10 @@
+name: vcdimager
+description: VideoCD (pre-)mastering and ripping tool
+upstream: http://www.gnu.org/software/vcdimager/
+branches:
+- name: master
+  type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
+type: public

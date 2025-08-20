@@ -1,0 +1,10 @@
+name: kylin-wayland-protocols
+description: Wayland protocols for Kylin
+upstream: https://gitee.com/openkylin/kylin-wayland-protocols
+branches:
+- name: master
+  type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
+type: public

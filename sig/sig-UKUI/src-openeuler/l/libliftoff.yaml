@@ -1,0 +1,10 @@
+name: libliftoff
+description: lightweight KMS plane library
+upstream: https://gitlab.freedesktop.org/emersion/libliftoff
+branches:
+- name: master
+  type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
+type: public

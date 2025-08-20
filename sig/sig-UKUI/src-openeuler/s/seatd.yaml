@@ -1,0 +1,10 @@
+name: seatd
+description: minimal user, seat and session management daemon
+upstream: https://sr.ht/~kennylevinsen/seatd/
+branches:
+- name: master
+  type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,10 @@
+name: ukui-file-metadata
+description: The file metadata utils of UKUI desktop environment.
+upstream: https://gitee.com/openkylin/ukui-file-metadata
+branches:
+- name: master
+  type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
+type: public

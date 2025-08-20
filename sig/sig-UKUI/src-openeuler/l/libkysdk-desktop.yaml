@@ -1,0 +1,10 @@
+name: libkysdk-desktop
+description: kylin SDK based on desktop level
+upstream: https://gitee.com/openkylin/libkysdk-desktop
+branches:
+- name: master
+  type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
+type: public
