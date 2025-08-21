@@ -64,11 +64,6 @@ ampereufo
 - https://gitee.com/src-openeuler/netperf
 - https://gitee.com/src-openeuler/memleax
 - https://gitee.com/src-openeuler/memwatch
-- https://gitee.com/src-openeuler/perl-Sub-Uplevel
-- https://gitee.com/src-openeuler/perl-Test-Warn
-- https://gitee.com/src-openeuler/perl-Parallel-ForkManager
-- https://gitee.com/src-openeuler/perl-Test-Regexp
-- https://gitee.com/src-openeuler/perl-Regexp-Common
 - https://gitee.com/src-openeuler/cloc
 - https://gitee.com/src-openeuler/htop
 - https://gitee.com/src-openeuler/nload
@@ -79,7 +74,6 @@ ampereufo
 - https://gitee.com/src-openeuler/slurm
 - https://gitee.com/src-openeuler/nethogs
 - https://gitee.com/src-openeuler/iftop
-- https://gitee.com/src-openeuler/perl-Geo-IP
 - https://gitee.com/src-openeuler/ncdu
 - https://gitee.com/src-openeuler/iozone
 - https://gitee.com/src-openeuler/colordiff 
