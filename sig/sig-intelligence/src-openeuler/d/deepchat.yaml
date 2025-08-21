@@ -1,0 +1,10 @@
+name: deepchat
+description: DeepChat is a feature-rich open-source AI chat platform supporting multiple cloud and local large language models with powerful search enhancement and tool calling capabilities.
+upstream: https://github.com/ThinkInAIXYZ/deepchat
+branches:
+- name: master
+  type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
+type: public
