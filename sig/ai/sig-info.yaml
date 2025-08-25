@@ -58,7 +58,6 @@ repositories:
   - src-openeuler/python-horovod
   - src-openeuler/jieba
   - src-openeuler/python-notebook
-  - src-openeuler/vllm
   - src-openeuler/bazel-common
   - src-openeuler/bazel-compile-commands-extractor
   - src-openeuler/bazel-gazelle
@@ -123,6 +122,13 @@ repositories:
   - gitee_id: liu-jianguo2024
     name: jianguo liu
     email: liujianguo14@huawei.com
+
+- repo:
+  - src-openeuler/vllm
+  committers:
+  - gitee_id: gongzequn
+    name: gongzequn
+    email: gongzequn1@huawei.com
 
 branches:
 - repo_branch:
