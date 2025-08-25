@@ -38,7 +38,6 @@ repositories:
   - src-openeuler/go-bindata
   - src-openeuler/seastar
   - src-openeuler/oncn-bwm
-  - openeuler/dpdk
   - openeuler/tarsier
   - openeuler/oncn-bwm
   - openeuler/evs
@@ -60,6 +59,7 @@ repositories:
     email: fangfang.yan@huawei.com
 - repo:
   - src-openeuler/dpdk
+  - openeuler/dpdk
   - src-openeuler/lwip
   - src-openeuler/gazelle
   - openeuler/gazelle
@@ -92,6 +92,14 @@ repositories:
     name: Rong Qian
     organization: Yunsilicon
     email: qianr@yunsilicon.com
+  - gitee_id: feifei-wang1994
+    name: Feifei Wang
+    organization: huawei
+    email: wangfeifei40@huawei.com
+  - gitee_id: leifanc123
+    name: Lei Fan
+    organization: huawei
+    email: leifanc123@huawei.com
 - repo:
   - src-openeuler/rdma-core
   - src-openeuler/perftest

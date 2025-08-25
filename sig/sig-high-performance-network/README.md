@@ -56,6 +56,8 @@ Please [readme](./Vision-en.md)
 - 胡义臻[@xiangyu2020](https://gitee.com/xiangyu2020) email: huyizhen2024@163.com
 - 田鑫[@OGman](https://gitee.com/OGman) email: tianx@yunsilicon.com
 - 钱荣[@martinshare](https://gitee.com/martinshare) email: qianrong@yunsilicon.com
+- 王霏霏[@feifei-wang1994](https://gitee.com/feifei-wang1994) email: wangfeifei40@huawei.com
+- 雷凡[@leifanc123](https://gitee.com/leifanc123) email: leifanc123@huawei.com
 
 #### UMDK 项目 Committer 列表
 - qianguoxin[@qianguoxin](https://gitee.com/qianguoxin) email: qianguoxin@huawei.com
