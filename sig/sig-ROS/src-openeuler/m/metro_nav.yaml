@@ -1,0 +1,8 @@
+name: metro_nav
+description: 'ROS base2d-kinematics-msgs package'
+upstream: https://github.com/MetroRobots/metro_nav.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
