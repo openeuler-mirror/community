@@ -1,0 +1,10 @@
+name: polymind
+description: PolyMind is an intelligent orchestration platform that can unify the scheduling of LLM, MCP services, and agents to achieve multimodal cognitive collaboration and autonomous decision-making.
+upstream: https://gitee.com/openeuler/polymind
+branches:
+- name: master
+  type: protected
+- name: openEuler-25.09
+  type: protected
+  create_from: master
+type: public
