@@ -14,6 +14,7 @@ Compiler SIG 每双周周二上午10:00进行线上例会，也会定期举办�
  - 李 彦成[@li-yancheng](https://gitee.com/li-yancheng) 邮箱: liyancheng@huawei.com
  - 陈 善瑶[@stubCode](https://gitee.com/stubCode) 邮箱: chenshanyao@huawei.com
  - 周   磊[@alexanderbill](https://gitee.com/alexanderbill) 邮箱: zhoulei03@huawei.com
+ - 陈   正[@chenzheng1030](https://gitee.com/chenzheng1030) 邮箱: chenzheng79@huawei.com
 
 ## Committer列表
 请参见[openEuler Compiler Committer List](https://gitee.com/openeuler/community/blob/master/sig/Compiler/committers.md)
