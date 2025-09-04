@@ -1,0 +1,7 @@
+name: ghc-timeit
+description: Time monadic computations with an IO base.
+upstream: https://hackage.haskell.org/package/timeit
+branches:
+- name: master
+  type: protected
+type: public

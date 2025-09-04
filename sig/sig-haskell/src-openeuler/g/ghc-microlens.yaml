@@ -1,0 +1,7 @@
+name: ghc-microlens
+description: A tiny lens library with no dependencies
+upstream: https://hackage.haskell.org/package/microlens
+branches:
+- name: master
+  type: protected
+type: public
