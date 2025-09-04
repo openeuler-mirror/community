@@ -1,0 +1,7 @@
+name: ghc-pretty-simple
+description: pretty printer for data types with a 'Show' instance.
+upstream: https://hackage.haskell.org/package/pretty-simple
+branches:
+- name: master
+  type: protected
+type: public

@@ -1,0 +1,7 @@
+name: ghc-pager
+description: Open up a pager, like 'less' or 'more'
+upstream: https://hackage.haskell.org/package/pager
+branches:
+- name: master
+  type: protected
+type: public
