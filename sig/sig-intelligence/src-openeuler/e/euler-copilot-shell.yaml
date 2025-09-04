@@ -5,6 +5,12 @@ upstream: https://gitee.com/openeuler/euler-copilot-shell
 branches:
 - name: master
   type: protected
+- name: openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-22.03-LTS-SP4
+  type: protected
+  create_from: openEuler-22.03-LTS-Next
 - name: openEuler-24.03-LTS-Next
   type: protected
   create_from: master
