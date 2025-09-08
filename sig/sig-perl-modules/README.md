@@ -2,6 +2,9 @@
 
 This SIG contains all perl modules which are created by automation tools
 
+- SPEC 模板
+- [常用宏](常用宏.md)
+
 
 # 组织会议
 
