@@ -14,9 +14,10 @@
 
 # 组织会议
 
-- 公开的会议时间：北京时间，每周二下午，17点~18点
-  会议方式： welink视频会议。
-  会议链接获取方式：订阅infra@openeuler.org
+- 会议频次：月度例会
+  会议时间：北京时间，每月第一周周一下午，17点~18点
+  会议方式： openEuler社区会议（welink/zoom/tecent），
+  会议预定/获取方式：通过openEuler微信小程序预定，通过openEuler小程序/社区网站会议日历查看；也可通过订阅 infra@openeuler.org 接收会议通知日历。
 
 # 成员
 
