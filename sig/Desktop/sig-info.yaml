@@ -110,7 +110,6 @@ repositories:
   - src-openeuler/hyperscan
   - src-openeuler/ibus-table-chinese
   - src-openeuler/CharLS
-  - src-openeuler/fcitx-libpinyin
   - src-openeuler/google-noto-fonts
   - src-openeuler/libraqm
   - src-openeuler/exiv2
@@ -120,7 +119,6 @@ repositories:
   - src-openeuler/switcheroo-control
   - src-openeuler/xdg-desktop-portal
   - src-openeuler/wxGTK3
-  - src-openeuler/gnome-dictionary
   - src-openeuler/kde-settings
   - src-openeuler/imsettings
   - src-openeuler/paktype-naqsh-fonts
@@ -163,11 +161,7 @@ repositories:
 - repo:
   - src-openeuler/libcue
   - src-openeuler/ffmpegthumbnailer
-  - src-openeuler/fcitx-cloudpinyin
-  - src-openeuler/fcitx-sunpinyin
   - src-openeuler/sunpinyin
-  - src-openeuler/fcitx-qt5
-  - src-openeuler/fcitx
   - src-openeuler/mpv
   - src-openeuler/rubberband
   - src-openeuler/libguess
@@ -192,7 +186,6 @@ repositories:
   - src-openeuler/xvidcore
   - src-openeuler/zimg
   - src-openeuler/zssh
-  - src-openeuler/fcitx-configtool
   - src-openeuler/x265
   - src-openeuler/PackageKit-Qt
   - src-openeuler/disomaster
