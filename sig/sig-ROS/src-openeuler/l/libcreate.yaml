@@ -1,0 +1,8 @@
+name: libcreate
+description: C++ library for interfacing with iRobot's [Create 1 and 2](http://www.irobot.com/About-iRobot/STEM/Create-2.aspx) as well as most models of Roomba. [create_autonomy](http://wiki.ros.org/create_autonomy) is a [ROS](http://www.ros.org/) wrapper for this library.
+upstream: https://github.com/AutonomyLab/libcreate.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
