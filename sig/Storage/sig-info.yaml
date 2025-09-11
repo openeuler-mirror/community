@@ -9,10 +9,6 @@ maintainers:
   name: Zhiqiang Liu
   orgnization: Huawei
   email: liuzhiqiang26@huawei.com
-- gitee_id: wubo009
-  name: wubo
-  orgnization: Huawei
-  email: wubo40@huawei.com
 - gitee_id: volcanodragon
   name: Feilong Lin
   orgnization: Huawei
@@ -48,10 +44,8 @@ repositories:
   - src-openeuler/smartmontools
   - src-openeuler/luksmeta
   - src-openeuler/nfs4-acl-tools
-  - src-openeuler/cryptsetup
   - src-openeuler/udisks2
   - src-openeuler/mtools
-  - src-openeuler/libblockdev
   - src-openeuler/libldm
   - src-openeuler/sdparm
   - src-openeuler/libpciaccess
@@ -61,7 +55,6 @@ repositories:
   - src-openeuler/libaio
   - src-openeuler/libusbmuxd
   - src-openeuler/file
-  - src-openeuler/gdbm
   - src-openeuler/thin-provisioning-tools
   - src-openeuler/dosfstools
   - src-openeuler/libusbx
@@ -71,8 +64,6 @@ repositories:
   - src-openeuler/dmraid
   - src-openeuler/libtalloc
   - src-openeuler/quota
-  - src-openeuler/xfsprogs
-  - src-openeuler/nfs-utils
   - src-openeuler/libtevent
   - src-openeuler/gdisk
   - src-openeuler/glusterfs
@@ -95,7 +86,6 @@ repositories:
   - src-openeuler/libfastcommon
   - src-openeuler/DCache
   - src-openeuler/s3fs-fuse
-  - src-openeuler/spdk
   - src-openeuler/bcache-tools
   - src-openeuler/filebench
   - src-openeuler/liburing
@@ -116,6 +106,10 @@ repositories:
     name: Xinliang Liu
     organization: Linaro
     email: xinliang.liu@linaro.org
+  - gitee_id: mszjaas
+    name: zhangjian
+    organization: Huawei
+    email: zhangjian496@huawei.com
 
 - repo: # For storage REDF
   - openeuler/nvme-snsd
@@ -150,6 +144,10 @@ repositories:
     name: Wenqi Kou
     organization: KylinSoft
     email: kouwenqi@kylinos.cn
+  - gitee_id: foolstrong
+    name: wangzhiqiang
+    organization: Huawei
+    email: wangzhiqiang95@huawei.com
 
 - repo:
   - src-openeuler/etmem
@@ -174,8 +172,21 @@ repositories:
 
 - repo:
   - openeuler/Storage-docs
+  - src-openeuler/nfs-utils
+  - src-openeuler/xfsprogs
   committers:
   - gitee_id: mszjaas
     name: zhangjian
     organization: Huawei
     email: zhangjian496@huawei.com
+
+- repo:
+  - src-openeuler/gdbm
+  - src-openeuler/cryptsetup
+  - src-openeuler/libblockdev
+  - src-openeuler/spdk
+  committers:
+  - gitee_id: foolstrong
+    name: wangzhiqiang
+    organization: Huawei
+    email: wangzhiqiang95@huawei.com
