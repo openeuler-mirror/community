@@ -15,6 +15,7 @@
 - 娄宏翔[@louhongxiang](https://gitee.com/louhongxiang)
 - 苏伟锋[@swf504](https://gitee.com/swf504)
 - 刘波[@liubo254](https://gitee.com/liubo254)
+- 寇文奇[@kouwq](https://gitee.com/kouwq)
 
 ### Committer列表
 
