@@ -1,0 +1,10 @@
+name: cmake-extras
+description: 'A collection of add-ons for the CMake build tool.'
+upstream:
+  homepage: https://gitlab.com/ubports/development/core/cmake-extras
+  regex: (\d+\.\d+)
+  version_url: https://gitlab.com/api/v4/projects/ubports%2Fdevelopment%2Fcore%2Fcmake-extras/repository/tags
+branches:
+- name: master
+  type: protected
+type: public
