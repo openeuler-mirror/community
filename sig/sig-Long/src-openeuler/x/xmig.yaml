@@ -1,0 +1,7 @@
+name: xmig
+description: Build a heterogeneous integrated XPU migration capability to achieve AI computing power decoupling and seamless migration of training tasks, supporting scenarios such as AI training fault recovery, service scheduling, and resource integration.
+upstream: https://gitee.com/openeuler/xmig
+branches:
+- name: master
+  type: protected
+type: public
