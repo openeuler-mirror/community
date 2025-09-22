@@ -1,0 +1,7 @@
+name: python-backports-tarfile
+description: 'Backport of CPython tarfile module'
+upstream: https://github.com/jaraco/backports.tarfile
+branches:
+- name: master
+  type: protected
+type: public
