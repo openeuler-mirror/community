@@ -66,6 +66,7 @@
 | eulerfs   | fs/eulerfs                                                   | [@htforge](https://gitee.com/htforge)            |
 | nvme      | drivers/nvme/host/<br/>include/linux/nvme.h<br/>include/uapi/linux/nvme_ioctl.h | [@htforge](https://gitee.com/htforge) |
 | bcache    | drivers/md/bcache/ | [@Coly Li](https://gitee.com/colyli) |
+| enfs      | /fs/nfs/enfs       | [@mingqian218472](https://gitee.com/mingqian218472) |
 
 ## network & net drivers
 
