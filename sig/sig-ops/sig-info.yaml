@@ -461,6 +461,10 @@ repositories:
   - src-openeuler/uos-dovecot-exporter
   - openeuler/uos-mgmt-exporter
   - src-openeuler/uos-mgmt-exporter
+  - openeuler/uos-libvirtd-exporter
+  - openeuler/uos-openldap-exporter
+  - src-openeuler/uos-libvirtd-exporter
+  - src-openeuler/uos-openldap-exporter
   committers:
   - gitee_id: xingwei-liu
     name: liuxingwei
@@ -470,6 +474,10 @@ repositories:
     name: WeiDong
     organization: UnionTech
     email: weidong@uniontech.com
+  - gitee_id: wangtsingx
+    name: Wang Qing
+    organization: UnionTech
+    email: wangqing@uniontech.com
 - repo:
   - openeuler/DevStore
   - src-openeuler/DevStore
