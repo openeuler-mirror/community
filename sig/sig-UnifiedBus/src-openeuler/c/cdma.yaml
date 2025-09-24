@@ -1,0 +1,7 @@
+name: cdma
+description: An UB entity driver on user space, provide asynchronous read and write for remote memory.
+upstream: https://gitee.com/openeuler/cdma
+branches:
+- name: master
+  type: protected
+type: public
