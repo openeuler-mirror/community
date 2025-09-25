@@ -100,8 +100,6 @@ repository地址：
 - https://gitee.com/src-openeuler/go-bindata
 - https://gitee.com/src-openeuler/seastar
 - https://gitee.com/src-openeuler/gazelle-cni
-- https://gitee.com/openeuler/umdk
-- https://gitee.com/src-openeuler/umdk
 - https://gitee.com/openeuler/evs
 - https://gitee.com/openeuler/gazelle-cni
 - https://gitee.com/src-openeuler/gazelle
