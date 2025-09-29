@@ -1,0 +1,172 @@
+name: sig-UnifiedBus
+description: sig-UnifiedBus is responsible for the evolution and maintenance of the UB OS component in the community.
+created_on: '2025-9-24'
+maintainers:
+- gitee_id: hanjun-guo
+  name: Hanjun Guo
+  organization: Huawei
+  email: guohanjun@huawei.com
+- gitee_id: liliang_euler
+  name: Liang Li
+  organization: Huawei
+  email: liliang6@me.com
+- gitee_id: JerryHZ
+  name: LiJun Li
+  organization: Huawei
+  email: jerry.lilijun@huawei.com
+- gitee_id: yunshenglin
+  name: YunSheng Lin
+  organization: Huawei
+  email: linyunsheng@huawei.com
+- gitee_id: will_niutao
+  name: Tao Niu
+  organization: Huawei
+  email: niutao2@huawei.com
+
+repositories:
+- repo:
+  - openeuler/cdma
+  - src-openeuler/cdma
+  committers:
+  - gitee_id: rock_hw
+    name: YanShi Liu
+    organization: Huawei
+    email: liuyanshi@huawei.com
+  - gitee_id: hongwu-wang
+    name: HongWu Wang
+    organization: Huawei
+    email: wanghongwu9@huawei.com
+
+- repo:
+  - openeuler/ummu
+  - src-openeuler/ummu
+  committers:
+  - gitee_id: Tankll2021
+    name: Jiashun Wang
+    organization: Huawei
+    email: wangjiashun@huawei.com
+  - gitee_id: fangfeng123
+    name: Feng Fang
+    organization: Huawei
+    email: fangfeng4@huawei.com
+
+- repo:
+  - openeuler/ubctl
+  - src-openeuler/ubctl
+  committers:
+  - gitee_id: hu-chunzhi
+    name: CunZhi Hu
+    organization: Huawei
+    email: hucunzhi@huawei.com
+  - gitee_id: caixu-blue
+    name: Xu Cai
+    organization: Huawei
+    email: caixu6@huawei.com
+
+- repo:
+  - openeuler/ham
+  - src-openeuler/ham
+  committers:
+  - gitee_id: leeCii
+    name: ZhiLong Li
+    organization: Huawei
+    email: lizhilong22@huawei.com
+  - gitee_id: woquzhao12138
+    name: Bing Zhao
+    organization: Huawei
+    email: 1825369014@qq.com
+
+- repo:
+  - openeuler/ubturbo
+  - src-openeuler/ubturbo
+  committers:
+  - gitee_id: ray-yang0218
+    name: Rui Yang
+    organization: Huawei
+    email: yangrui50@huawei.com
+  - gitee_id: leeCii
+    name: ZhiLong Li
+    organization: Huawei
+    email: lizhilong22@huawei.com
+  - gitee_id: woquzhao12138
+    name: Bing Zhao
+    organization: Huawei
+    email: 1825369014@qq.com
+  - gitee_id: meng_zhaohui
+    name: ZhaoHui Meng
+    organization: Huawei
+    email: mengzhaohui3@huawei.com
+
+- repo:
+  - openeuler/ubutils
+  - src-openeuler/ubutils
+  committers:
+  - gitee_id: junlong-zheng
+    name: Junlong Zheng
+    organization: Huawei
+    email: zhengjunlong@huawei.com
+  - gitee_id: rock_hw
+    name: Yanshi Liu
+    organization: Huawei
+    email: liuyanshi@huawei.com
+
+- repo:
+  - openeuler/umdk
+  - src-openeuler/umdk
+  committers:
+  - gitee_id: qianguoxin
+    name: GuoXin Qian
+    organization: huawei
+    email: qianguoxin@huawei.com
+  - gitee_id: jinxin712
+    name: Xin Jin
+    organization: huawei
+    email: jinxin712@huawei.com
+  - gitee_id: lairuilang
+    name: RuiLang Lai
+    organization: huawei
+    email: lairuilang1@huawei.com
+  - gitee_id: jillwu
+    name: Jie Wu
+    organization: huawei
+    email: wujie66@huawei.com
+  - gitee_id: hying0128
+    name: Ying Hu
+    organization: huawei
+    email: huying21@huawei.com
+  - gitee_id: nemeiju
+    name: HongXu Cai
+    organization: huawei
+    email: caihongxu@huawei.com
+  - gitee_id: maoqiming
+    name: QiMing Mao
+    organization: huawei
+    email: maoqiming1@huawei.com
+  - gitee_id: zihao42
+    name: ZiHao Xiang
+    organization: huawei
+    email: xiangzihao1@huawei.com
+  - gitee_id: hu-chunzhi
+    name: CunZhi Hu
+    organization: huawei
+    email: hucunzhi@huawei.com
+  - gitee_id: zhaoweibo3
+    name: WeiBo Zhao
+    organization: huawei
+    email: zhaoweibo3@huawei.com
+  - gitee_id: huangbin35
+    name: Bin Huang
+    organization: huawei
+    email: huangbin35@huawei.com
+  - gitee_id: hfghw
+    name: FangGang Hu
+    organization: huawei
+    email: hufanggang@huawei.com
+  - gitee_id: cywang718
+    name: ZhiYong Wang
+    organization: huawei
+    email: wang.chihyung@huawei.com
+  - gitee_id: hanyuankun
+    name: YuanKun Han
+    organization: huawei
+    email: hanyuankun@huawei.com

@@ -11,20 +11,24 @@
 ### Maintainer列表
 
 - 刘志强[@liuzhiqiang26](https://gitee.com/liuzhiqiang26)
-- 吴波[@wubo009](https://gitee.com/wubo009)
-- 林飞龙[@volcano-dragon](https://gitee.com/volcanodragon)
+- 林飞龙[@volcanodragon](https://gitee.com/volcanodragon)
 - 娄宏翔[@louhongxiang](https://gitee.com/louhongxiang)
 - 苏伟锋[@swf504](https://gitee.com/swf504)
 - 刘波[@liubo254](https://gitee.com/liubo254)
+- 寇文奇[@kouwq](https://gitee.com/kouwq)
 
 ### Committer列表
 
 - 葛芮君[@geruijun](https://gitee.com/geruijun)
 - 罗士杰[@shijieluo](https://gitee.com/shijieluo)
-- 苏伟锋[@swf504](https://gitee.com/swf504)
 - 李霄铿[@lixiaokeng](https://gitee.com/lixiaokeng)
 - 刘新良[@xin3liang](https://gitee.com/xin3liang)(e2fsprogs)
 - 杨晓亮[@ceph_yang](https://gitee.com/ceph_yang)
+- 张健[@mszjaas](https://gitee.com/mszjaas)
+- 王志强[@foolstrong](https://gitee.com/foolstrong)
+
+### Hall of Fame
+- 吴波[@wubo009](https://gitee.com/wubo009)
 
 # 联系方式
 
