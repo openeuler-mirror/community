@@ -1,5 +1,6 @@
 name: python-orjson
-description: Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy.
+description: Fast, correct Python JSON library supporting dataclasses, datetimes,
+  and numpy.
 upstream: https://github.com/ijl/orjson
 branches:
 - name: master
@@ -13,4 +14,7 @@ branches:
 - name: openEuler-25.09
   type: protected
   create_from: master
+- name: openEuler-24.03-LTS-SP3
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
 type: public
