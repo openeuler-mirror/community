@@ -1,0 +1,65 @@
+name: sig-YuanRong
+description: sig-YuanRong is responsible for the evolution and maintenance of the Serverless distributed computing engine within the community.
+created_on: '2025-8-01'
+maintainers:
+- gitee_id: liangyi1234
+  name: Yi Liang
+  organization: Huawei
+  email: liangyi20@huawei.com
+- gitee_id: luozhancheng
+  name: Zhancheng Luo
+  organization: Huawei
+  email: luozhancheng@huawei.com
+
+repositories:
+- repo:
+  - openeuler/yuanrong-runtime
+  - src-openeuler/yuanrong-runtime
+  committers:
+  - gitee_id: yuchaow
+    name: YuChao Wang
+    organization: Huawei
+    email: wangyuchao12@huawei.com
+  - gitee_id: mayuehit
+    name: Yue Ma
+    organization: Huawei
+    email: mayue51@huawei.com
+
+- repo:
+  - openeuler/yuanrong-functionsystem
+  - src-openeuler/yuanrong-functionsystem
+  committers:
+  - gitee_id: robbluo
+    name: WenYu Luo
+    organization: Huawei
+    email: luowenyu4@huawei.com
+  - gitee_id: tianyi-ge
+    name: TianYi Ge
+    organization: Huawei
+    email: getianyi1@huawei.com
+
+- repo:
+  - openeuler/yuanrong-datasystem
+  - src-openeuler/yuanrong-datasystem
+  committers:
+  - gitee_id: yche-huawei
+    name: YuLin Che
+    organization: Huawei
+    email: cheyulin@huawei.com
+  - gitee_id: ouwenchang
+    name: GongChang Ou
+    organization: Huawei
+    email: ougongchang@huawei.com
+
+- repo:
+  - openeuler/yuanrong-ray-adaptor
+  - src-openeuler/yuanrong-ray-adaptor
+  committers:
+  - gitee_id: robbluo
+    name: WenYu Luo
+    organization: Huawei
+    email: luowenyu4@huawei.com
+  - gitee_id: yuchaow
+    name: YuChao Wang
+    organization: Huawei
+    email: wangyuchao12@huawei.com

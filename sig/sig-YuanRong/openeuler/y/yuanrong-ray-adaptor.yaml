@@ -1,0 +1,6 @@
+name: yuanrong-ray-adaptor
+description: Compatible with the core interfaces of the open-source software Ray, it facilitates the seamless migration of workloads running on Ray (such as vllm/verl, etc.) to the Yuanrong cluster, while also enjoying the performance advantages brought by Yuanrong's deep optimization on Huawei Kunpeng and Ascend hardware.
+branches:
+- name: master
+  type: protected
+type: public
