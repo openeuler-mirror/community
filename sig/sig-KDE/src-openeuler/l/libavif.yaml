@@ -1,0 +1,7 @@
+name: libavif
+description: Library for encoding and decoding .avif files
+upstream: https://github.com/AOMediaCodec/libavif
+branches:
+- name: master
+  type: protected
+type: public
