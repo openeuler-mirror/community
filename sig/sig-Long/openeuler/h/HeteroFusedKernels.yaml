@@ -1,0 +1,6 @@
+name: HeteroFusedKernels
+description: A heterogeneous hardware acceleration library focused on efficient KV cache transfer operators (H2D/D2H), designed for large model training and inference scenarios.
+branches:
+  - name: master
+    type: protected
+type: public
