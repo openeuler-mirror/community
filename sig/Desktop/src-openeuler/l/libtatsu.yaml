@@ -1,0 +1,10 @@
+name: libtatsu
+description: 'Library handling the communication with Apple Tatsu Signing Server (TSS)'
+upstream:
+  homepage: https://github.com/libimobiledevice/libtatsu
+  regex: (\d+\.\d+\.\d+)
+  version_url: https://github.com/libimobiledevice/libtatsu/releases
+branches:
+- name: master
+  type: protected
+type: public
