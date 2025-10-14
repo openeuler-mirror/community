@@ -1,0 +1,10 @@
+name: libimobiledevice-glue
+description: 'A library with common code used by libraries and tools around the libimobiledevice project'
+upstream:
+  homepage: https://github.com/libimobiledevice/libimobiledevice-glue
+  regex: (\d+\.\d+\.\d+)
+  version_url: https://github.com/libimobiledevice/libimobiledevice-glue/releases
+branches:
+- name: master
+  type: protected
+type: public
