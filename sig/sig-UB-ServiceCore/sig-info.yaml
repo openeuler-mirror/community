@@ -1,0 +1,234 @@
+name: sig-UB-ServiceCore
+description: sig-UnifiedBus is responsible for the evolution and maintenance of the UB ServiceCore in the community.
+created_on: '2025-10-15'
+maintainers:
+- gitee_id: shw030915
+  name: shw030915
+  organization: Huawei
+  email: sunhongwei7@huawei.com
+- gitee_id: yaoyiyuhuawei
+  name: yaoyiyu_huawei
+  organization: Huawei
+  email: yaoyiyu@huawei.com
+- gitee_id: one-hundred-and-eighty-dragon
+  name: one-hundred-and-eighty-dragon
+  email: chenchanglong@huawei.com
+- gitee_id: Gao_Victor
+  name: VictorGao
+  organization: Huawei
+  email: victor.gao@huawei.com
+- gitee_id: caowaterman
+  name: waterman
+  organization: Huawei
+  email: waterman.cao@huawei.com
+- gitee_id: qmyyxtl
+  name: qmyyxtl
+  organization: Shanghai Jiaotong University
+  email: qmyyxtl@sjtu.edu.cn
+
+repositories:
+- repo:
+  - openeuler/ubs-engine
+  - src-openeuler/ubs-engine
+  committers:
+  - gitee_id: hlinbo
+    name: huanglinbo
+    organization: Huawei
+    email: huanglinbo1@huawei.com
+  - gitee_id: wangwenlong7
+    name: wenlong
+    organization: Huawei
+    email: wangwenlong7@huawei.com
+  - gitee_id: gongwang
+    name: gongwang
+    organization: Huawei
+    email: gongwang4@huawei.com
+  - gitee_id: yezifa
+    name: yezifa
+    organization: Huawei
+    email: yezifa1@huawei.com
+  - gitee_id: xuchenfengcleancode
+    name: xuchenfengcleancode
+    organization: Huawei
+    email: xuchenfeng5@huawei.com
+  - gitee_id: meng_zhaohui
+    name: meng_zhaohui
+    organization: Huawei
+    email: mengzhaohui3@huawei.com
+  - gitee_id: hlb-source
+    name: hlb-source
+    organization: Huawei
+    email: hulibo@huawei.com
+
+- repo:
+  - openeuler/ubs-comm
+  - src-openeuler/ubs-comm
+  committers:
+  - gitee_id: ruan-han2001
+    name: 阮涵
+    organization: Huawei
+    email: ruanhan@huawei.com
+  - gitee_id: fanzhaonan
+    name: fanzhaonan
+    organization: Huawei
+    email: fanzhaonan1@huawei.com
+  - gitee_id: yang9y1
+    name: 杨毅
+    organization: Huawei
+    email: yangyi240@huawei.com
+  - gitee_id: XuYue
+    name: XuYue
+    organization: Huawei
+    email: xuyue32@huawei.com
+
+- repo:
+  - openeuler/ubs-virt
+  - src-openeuler/ubs-virt
+  committers:
+  - gitee_id: arei.gonglei
+    name: Gonglei
+    organization: Huawei
+    email: arei.gonglei@huawei.com
+  - gitee_id: chenxiaoyu93
+    name: chenxiaoyu
+    organization: Huawei
+    email: chenxiaoyu48@huawei.com
+  - gitee_id: Sky_miner
+    name: Sky_miner
+    organization: Huawei
+    email: liuyichen23@huawei.com
+  - gitee_id: wuzw_05
+    name: wuzw_05
+    organization: Huawei
+    email: wuzhiwei37@huawei.com
+  - gitee_id: julyfish
+    name: Luyue_Ji
+    organization: Huawei
+    email: jiluyue@huawei.com    
+
+- repo:
+  - openeuler/ubs-io
+  - src-openeuler/ubs-io
+  committers:
+  - gitee_id: brian-liu9973
+    name: 刘权章
+    organization: Huawei
+    email: brian.liu@huawei.com
+  - gitee_id: daxiaomi
+    name: 李秀桥
+    organization: Huawei
+    email: lixiuqiao1@huawei.com
+  - gitee_id: yangchangjie12138
+    name: yangchangjie12138
+    organization: Huawei
+    email: yangchangjie2@huawei.com
+  - gitee_id: duan-sijing
+    name: duansijing
+    organization: Huawei
+    email: duansijing@huawei.com
+
+- repo:
+  - openeuler/ubs-mem
+  - src-openeuler/ubs-mem
+  committers:
+  - gitee_id: yrewzjs
+    name: 张金石
+    organization: Huawei
+    email: zhangjinshi2@huawei.com
+  - gitee_id: aevdark
+    name: 陈鑫
+    organization: Huawei
+    email: chenxin146@huawei.com
+  - gitee_id: deepsleep_ubmem
+    name: 刘勇
+    organization: Huawei
+    email: liuyong776@huawei.com
+  - gitee_id: brian-liu9973
+    name: 刘权章
+    organization: Huawei
+    email: brian.liu@huawei.com
+
+- repo:
+  - openeuler/knet
+  - src-openeuler/knet
+  committers:
+  - gitee_id: Zhao_Py
+    name: 赵鹏元
+    organization: Huawei
+    email: zhaopengyuan@hisilicon.com
+  - gitee_id: xhpintell
+    name: XHPIntell
+    organization: Huawei
+    email: zhangxiaohao1@huawei.com
+  - gitee_id: promainer
+    name: promainer
+    organization: Huawei
+    email: bonbon_bon@sina.com
+  - gitee_id: lijie_printk
+    name: printk
+    organization: Huawei
+    email: lijie225@huawei.com
+
+- repo:
+  - openeuler/scf-security
+  - src-openeuler/scf-security
+  committers:
+  - gitee_id: KanPro
+    name: 陈鑫平
+    organization: Huawei
+    email: kan.chen@huawei.com
+  - gitee_id: strong-wangzhuang
+    name: 王壮
+    organization: Huawei
+    email: wangzhuang13@huawei.com
+  - gitee_id: kanghwo
+    name: Tom
+    organization: Huawei
+    email: kangxiaoyong1@huawei.com
+  - gitee_id: reverse-world
+    name: 逆世界
+    organization: Huawei
+    email: yuankaixin2@huawei.com
+
+- repo:
+  - openeuler/cdf-crypto
+  - src-openeuler/cdf-crypto
+  committers:
+  - gitee_id: KanPro
+    name: 陈鑫平
+    organization: Huawei
+    email: kan.chen@huawei.com
+  - gitee_id: strong-wangzhuang
+    name: 王壮
+    organization: Huawei
+    email: wangzhuang13@huawei.com
+  - gitee_id: kanghwo
+    name: Tom
+    organization: Huawei
+    email: kangxiaoyong1@huawei.com
+  - gitee_id: reverse-world
+    name: 逆世界
+    organization: Huawei
+    email: yuankaixin2@huawei.com
+
+- repo:
+  - openeuler/uwal
+  - src-openeuler/uwal
+  committers:
+  - gitee_id: rain-666
+    name: 陈晓雨
+    organization: Huawei
+    email: chenxiaoyu12@huawei.com
+  - gitee_id: luqichao
+    name: 陆奇超
+    organization: Huawei
+    email: luqichao1@huawei.com
+
+- repo:
+  - openeuler/HDagger
+  - src-openeuler/HDagger
+  committers:
+  - gitee_id: brian-liu9973
+    name: 刘权章
+    organization: Huawei
+    email: brian.liu@huawei.com
