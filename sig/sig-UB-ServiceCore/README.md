@@ -12,7 +12,7 @@ sig-UB-ServiceCore作为OS高阶服务，负责支持UB灵衢超节点系统高�
 
 # 组织会议
 
-- 双周例会，周五10:00-11:00。
+- 双周例会，周五11:00-12:00。
 
 # 成员
 ### Maintainer列表
@@ -28,32 +28,33 @@ sig-UB-ServiceCore作为OS高阶服务，负责支持UB灵衢超节点系统高�
 - 王壮 [@strong-wangzhuang](https://gitee.com/strong-wangzhuang), [wangzhuang13@huawei.com](mailto:wangzhuang13@huawei.com) 
 - 康晓勇[@kanghwo](https://gitee.com/kanghwo), [kangxiaoyong1@huawei.com](mailto:kangxiaoyong1@huawei.com) 
 - 袁凯新 [@reverse-world](https://gitee.com/reverse-world), [yuankaixin2@huawei.com](mailto:yuankaixin2@huawei.com) 
-- chenxiaoyu [@chenxiaoyu93](https://gitee.com/chenxiaoyu93), [chenxiaoyu48@huawei.com](mailto:chenxiaoyu48@huawei.com) 
-- huanglinbo [@hlinbo](https://gitee.com/hlinbo), [huanglinbo1@huawei.com](mailto:huanglinbo1@huawei.com) 
-- wangwenlong[@wangwenlong7](https://gitee.com/wangwenlong7), [wangwenlong7@huawei.com](mailto:wangwenlong7@huawei.com) 
-- gongwang [@gongwang](https://gitee.com/gongwang), [gongwang4@huawei.com](mailto:gongwang4@huawei.com) 
-- yezifa [@yezifa](https://gitee.com/yezifa), [yezifa1@huawei.com](mailto:yezifa1@huawei.com) 
-- xuchenfeng [@xuchenfengcleancode](https://gitee.com/xuchenfengcleancode), [xuchenfeng5@huawei.com](mailto:xuchenfeng5@huawei.com) 
-- mengzhaohui [@meng_zhaohui](https://gitee.com/meng_zhaohui), [mengzhaohui3@huawei.com](mailto:mengzhaohui3@huawei.com) 
+- 陈小禹 [@chenxiaoyu93](https://gitee.com/chenxiaoyu93), [chenxiaoyu48@huawei.com](mailto:chenxiaoyu48@huawei.com) 
+- 黄林波 [@hlinbo](https://gitee.com/hlinbo), [huanglinbo1@huawei.com](mailto:huanglinbo1@huawei.com) 
+- 龚磊 [@areigonglei](https://gitee.com/areigonglei), [arei.gonglei@huawei.com](mailto:arei.gonglei@huawei.com) 
+- 王文龙 [@wangwenlong7](https://gitee.com/wangwenlong7), [wangwenlong7@huawei.com](mailto:wangwenlong7@huawei.com) 
+- 龚旺 [@gongwang](https://gitee.com/gongwang), [gongwang4@huawei.com](mailto:gongwang4@huawei.com) 
+- 叶梓发 [@yezifa](https://gitee.com/yezifa), [yezifa1@huawei.com](mailto:yezifa1@huawei.com) 
+- 徐晨峰 [@xuchenfengcleancode](https://gitee.com/xuchenfengcleancode), [xuchenfeng5@huawei.com](mailto:xuchenfeng5@huawei.com) 
+- 孟昭慧 [@meng_zhaohui](https://gitee.com/meng_zhaohui), [mengzhaohui3@huawei.com](mailto:mengzhaohui3@huawei.com) 
 - 胡丽波 [@hlb-source](https://gitee.com/hlb-source), [hulibo@huawei.com](mailto:hulibo@huawei.com) 
 - 阮涵 [@ruan-han2001](https://gitee.com/ruan-han2001), [ruanhan@huawei.com](mailto:ruanhan@huawei.com) 
-- fanzhaonan [@fanzhaonan](https://gitee.com/fanzhaonan), [fanzhaonan1@huawei.com](mailto:fanzhaonan1@huawei.com) 
+- 樊肇楠 [@fanzhaonan](https://gitee.com/fanzhaonan), [fanzhaonan1@huawei.com](mailto:fanzhaonan1@huawei.com) 
 - 杨毅 [@yang9y1](https://gitee.com/yang9y1), [yangyi240@huawei.com](mailto:yangyi240@huawei.com) 
-- XuYue [@XuYue](https://gitee.com/XuYue), [xuyue32@huawei.com](mailto:xuyue32@huawei.com) 
+- 徐越 [@tianxingmaoy](https://gitee.com/tianxingmaoy), [xuyue32@huawei.com](mailto:xuyue32@huawei.com) 
 - 赵鹏元 [@Zhao_Py](https://gitee.com/Zhao_Py), [zhaopengyuan@hisilicon.com](mailto:zhaopengyuan@hisilicon.com) 
 - 章晓豪[@xhpintell](https://gitee.com/xhpintell), [zhangxiaohao1@huawei.com](mailto:zhangxiaohao1@huawei.com) 
 - 孙桦毅 [@promainer](https://gitee.com/promainer), [bonbon_bon@sina.com](mailto:bonbon_bon@sina.com) 
 - 李杰 [@lijie_printk](https://gitee.com/lijie_printk), [lijie225@huawei.com](mailto:lijie225@huawei.com) 
 - 刘权章 [@brian-liu9973](https://gitee.com/brian-liu9973), [brian.liu@huawei.com](mailto:brian.liu@huawei.com) 
 - 李秀桥 [@daxiaomi](https://gitee.com/daxiaomi), [lixiuqiao1@huawei.com](mailto:lixiuqiao1@huawei.com) 
-- yangchangjie12138 [@yangchangjie12138](https://gitee.com/yangchangjie12138), [yangchangjie2@huawei.com](mailto:yangchangjie2@huawei.com) 
-- duansijing [@duan-sijing](https://gitee.com/duan-sijing), [duansijing@huawei.com](mailto:duansijing@huawei.com) 
+- 杨昌杰 [@yangchangjie12138](https://gitee.com/yangchangjie12138), [yangchangjie2@huawei.com](mailto:yangchangjie2@huawei.com) 
+- 段斯静[@duan-sijing](https://gitee.com/duan-sijing), [duansijing@huawei.com](mailto:duansijing@huawei.com) 
 - 张金石 [@yrewzjs](https://gitee.com/yrewzjs), [zhangjinshi2@huawei.com](mailto:zhangjinshi2@huawei.com) 
 - 陈鑫 [@aevdark](https://gitee.com/aevdark), [chenxin146@huawei.com](mailto:chenxin146@huawei.com) 
-- 刘勇 [@deepsleep_ubmem](https://gitee.com/deepsleep_ubmem), [liuyong776@huawei.com](mailto:liuyong776@huawei.com) 
+- 刘勇 [@deepsleep](https://gitee.com/deepsleep), [liuyong776@huawei.com](mailto:liuyong776@huawei.com) 
 - 刘一辰 [@Sky_miner](https://gitee.com/Sky_miner), [liuyichen23@huawei.com](mailto:liuyichen23@huawei.com) 
 - 吴志伟 [@wuzw_05](https://gitee.com/吴志伟), [wuzhiwei37@huawei.com](mailto:wuzhiwei37@huawei.com) 
-- Luyue_Ji [@julyfish](https://gitee.com/julyfish), [jiluyue@huawei.com](mailto:jiluyue@huawei.com) 
+- 季鲁月 [@julyfish](https://gitee.com/julyfish), [jiluyue@huawei.com](mailto:jiluyue@huawei.com) 
 - 陈晓雨 [@rain-666](https://gitee.com/rain-666), [chenxiaoyu12@huawei.com](mailto:chenxiaoyu12@huawei.com) 
 - 陆奇超 [@luqichao](https://gitee.com/luqichao), [luqichao1@huawei.com](mailto:luqichao1@huawei.com) 
 

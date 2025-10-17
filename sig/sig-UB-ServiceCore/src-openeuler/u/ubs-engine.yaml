@@ -1,5 +1,6 @@
 name: ubs-engine
-description: Provides resource pooling and dynamic scheduling for memory/DPU and other resources, supports distributed automatic primary node selection, and implements N-1 HA. It servers as the core control-plane reference implementation for UB compution system.
+description: Ubs-engine provides resource pooling and dynamic scheduling for memory/DPU and other resources, supports distributed automatic primary node selection, and implements N-1 HA. It servers as the core control-plane reference implementation for UB compution system.
+upstream: https://gitee.com/openeuler/ubs-engine
 branches:
 - name: master
   type: protected
