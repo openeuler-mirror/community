@@ -1,0 +1,10 @@
+name: openjph
+description: 'Open-source implementation of JPEG2000 Part-15 (or JPH or HTJ2K)'
+upstream:
+  homepage: https://github.com/aous72/OpenJPH
+  regex: (\d+\.\d+\.\d+)
+  version_url: https://github.com/aous72/OpenJPH/releases
+branches:
+- name: master
+  type: protected
+type: public
