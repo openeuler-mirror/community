@@ -20,7 +20,7 @@
 - yuanrong-runtime - [https://gitee.com/openeuler/yuanrong-runtime](https://gitee.com/openeuler/yuanrong-runtime)
 - yuanrong-functionsystem - [https://gitee.com/openeuler/yuanrong-functionsystem](https://gitee.com/openeuler/yuanrong-functionsystem)
 - yuanrong-datasystem - [https://gitee.com/openeuler/yuanrong-datasystem](https://gitee.com/openeuler/yuanrong-datasystem)
-- yuanrong-ray-adaptor - [https://gitee.com/openeuler/yuanrong-ray-adaptor](https://gitee.com/openeuler/yuanrong-ray-adaptor)
+- ray-adapter - [https://gitee.com/openeuler/ray-adapter](https://gitee.com/openeuler/ray-adapter)
 
  ### 跨领域和面向外部的流程
  - 
