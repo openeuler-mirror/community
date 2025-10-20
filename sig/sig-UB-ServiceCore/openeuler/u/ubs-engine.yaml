@@ -1,0 +1,6 @@
+name: ubs-engine
+description: Ubs-engine provides resource pooling and dynamic scheduling for memory/DPU and other resources, supports distributed automatic primary node selection, and implements N-1 HA. It servers as the core control-plane reference implementation for UB compution system.
+branches:
+- name: master
+  type: protected
+type: public
