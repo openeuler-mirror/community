@@ -1,0 +1,8 @@
+name: topic_based_ros2_control_release
+description: ros2 control hardware interface for topic_based sim
+upstream: https://github.com/ros2-gbp/topic_based_ros2_control-release.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
