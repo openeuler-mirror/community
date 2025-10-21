@@ -1,0 +1,7 @@
+name: rust2rpm
+description: Generate RPM spec files for Rust crates
+upstream: https://pagure.io/fedora-rust/rust2rpm
+branches:
+- name: master
+  type: protected
+type: public

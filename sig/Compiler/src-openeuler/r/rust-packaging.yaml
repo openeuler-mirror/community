@@ -1,6 +1,6 @@
 name: rust-packaging
-description: RPM macros for building Rust packages on various architectures
-upstream: https://pagure.io/fedora-rust/rust2rpm
+description: RPM macros and generators for building Rust packages
+upstream: https://pagure.io/fedora-rust/rust-packaging
 branches:
 - name: master
   type: protected
