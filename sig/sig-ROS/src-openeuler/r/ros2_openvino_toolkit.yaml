@@ -1,0 +1,8 @@
+name: ros2_openvino_toolkit
+description:  ROS messages for ros2 openvino toolkit ros2_openvino_toolkit It provides key logic implementation for pipeline lifecycle management, resource management and ROS system adapter, which extends Intel OpenVINO toolkit and libraries. Furthermore, this runtime framework provides ways to simplify launching, configuration, data analysis and re-use
+upstream: https://github.com/intel/ros2_openvino_toolkit.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
