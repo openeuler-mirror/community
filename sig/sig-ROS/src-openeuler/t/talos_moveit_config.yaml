@@ -1,0 +1,8 @@
+name: talos_moveit_config
+description: ROS talos-moveit-config package
+upstream: https://github.com/pal-robotics/talos_moveit_config.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+type: public
