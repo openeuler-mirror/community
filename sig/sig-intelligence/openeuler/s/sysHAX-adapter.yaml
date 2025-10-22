@@ -1,0 +1,6 @@
+name: sysHAX-adapter
+description: The sysHAX-adapter is primarily designed to enable inference frameworks and inference cards. It enhances the framework's functionality through module replacement. It also defines a unified operator interface for inference cards, accelerating the integration of large-scale hardware manufacturers with mainstream inference frameworks and reducing their development costs.
+branches:
+- name: master
+  type: protected
+type: public
