@@ -33,14 +33,14 @@ Repository of scripts for building ROS for openEuler and documents: https://gite
     https://gitee.com/openeuler/community/tree/master/sig/sig-ROS/
 
 ### Maintainers
-- wuwei_plct
+- wuwei_kubuds
 - anchuanxu
 - xiao_yun_wang
 - davidhan008
 - simonaxi
 
 ### Committers
-- wuwei_plct
+- wuwei_kubuds
 - anchuanxu
 - xiao_yun_wang
 - simonaxi

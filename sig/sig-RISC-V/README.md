@@ -29,7 +29,7 @@ RISC-V 是一个免费开源的指令集（ISA）。RISC-V SIG 组旨在提供 o
 
 ### Maintainer 列表
 
-- Wei Wu [@wuwei_plct](https://gitee.com/wuwei_plct), wuwei2016@iscas.ac.cn
+- Wei Wu [@wuwei_kubuds](https://gitee.com/wuwei_kubuds), w@kubuds.cn
 - Xuzhou Zhang [@whoisxxx](https://gitee.com/whoisxxx), zhangxuzhou4@huawei.com
 - liqingqing_1229 [@liqingqing_1229](https://gitee.com/liqingqing_1229)
 - 黎亮 [@liliang_euler](https://gitee.com/liliang_euler), liliang889@huawei.com
@@ -41,7 +41,7 @@ RISC-V 是一个免费开源的指令集（ISA）。RISC-V SIG 组旨在提供 o
 
 ### Committer 列表
 
-- Wei Wu [@wuwei_plct](https://gitee.com/wuwei_plct), wuwei2016@iscas.ac.cn
+- Wei Wu [@wuwei_kubuds](https://gitee.com/wuwei_kubuds), w@kubuds.cn
 - Xuzhou Zhang [@whoisxxx](https://gitee.com/whoisxxx), zhangxuzhou4@huawei.com
 - Qingqing Li [@liqingqing_1229](https://gitee.com/liqingqing_1229)
 - Junqiang Wang [@geasscore](https://gitee.com/geasscore), wangjunqiang@iscas.ac.cn
