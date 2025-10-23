@@ -14,7 +14,7 @@
 
 ### Maintainer列表
 
-- 吴伟[@wuwei_plct](https://gitee.com/wuwei_plct)
+- 吴伟[@wuwei_kubuds](https://gitee.com/wuwei_kubuds)
 - 安传旭[@anchuanxu](https://gitee.com/anchuanxu)
 - 王晓云[@xiao_yun_wang](https://gitee.com/xiao_yun_wang)
 - 韩昊旻[@davidhan008](https://gitee.com/davidhan008)
@@ -22,7 +22,7 @@
 
 ### Committer列表
 
-- 吴伟[@wuwei_plct](https://gitee.com/wuwei_plct)
+- 吴伟[@wuwei_kubuds](https://gitee.com/wuwei_kubuds)
 - 安传旭[@anchuanxu](https://gitee.com/anchuanxu)
 - 王晓云[@xiao_yun_wang](https://gitee.com/xiao_yun_wang)
 - 韩昊旻[@davidhan008](https://gitee.com/davidhan008)

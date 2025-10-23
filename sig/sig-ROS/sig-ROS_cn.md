@@ -33,14 +33,14 @@ openEuler ROS的构建脚本和使用文档仓库：https://gitee.com/openeuler/
 https://gitee.com/openeuler/community/tree/master/sig/sig-ROS/
 
 ### Maintainers
-- wuwei_plct
+- wuwei_kubuds
 - anchuanxu
 - xiao_yun_wang
 - davidhan008
 - simonaxi
 
 ### Committers
-- wuwei_plct
+- wuwei_kubuds
 - anchuanxu
 - xiao_yun_wang
 - simonaxi
