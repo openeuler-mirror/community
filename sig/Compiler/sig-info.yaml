@@ -370,6 +370,7 @@ repositories:
   - src-openeuler/rust-packaging
   - src-openeuler/rust-cbindgen
   - src-openeuler/rust-bindgen
+  - src-openeuler/rust2rpm
   - src-openeuler/Xline
   committers:
   - gitee_id: wk333
@@ -380,6 +381,9 @@ repositories:
     name: Jiacheng Zhou
     organization: iscas
     email: zhoujiacheng@iscas.ac.cn
+  - gitee_id: open-bot
+    name: liweigang
+    email: openbot@yeah.net
 
 #################################################
 # AI4C repos
