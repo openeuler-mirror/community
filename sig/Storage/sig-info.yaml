@@ -40,15 +40,12 @@ repositories:
   - src-openeuler/fuse3
   - src-openeuler/tree
   - src-openeuler/sg3_utils
-  - src-openeuler/mdadm
   - src-openeuler/python-configobj
-  - src-openeuler/btrfs-progs
   - src-openeuler/ccid
   - src-openeuler/attr
   - src-openeuler/smartmontools
   - src-openeuler/luksmeta
   - src-openeuler/nfs4-acl-tools
-  - src-openeuler/udisks2
   - src-openeuler/mtools
   - src-openeuler/libldm
   - src-openeuler/sdparm
@@ -70,7 +67,6 @@ repositories:
   - src-openeuler/quota
   - src-openeuler/libtevent
   - src-openeuler/gdisk
-  - src-openeuler/glusterfs
   - src-openeuler/sysfsutils
   - src-openeuler/smp_utils
   - src-openeuler/squashfs-tools
@@ -176,8 +172,6 @@ repositories:
 
 - repo:
   - openeuler/Storage-docs
-  - src-openeuler/nfs-utils
-  - src-openeuler/xfsprogs
   committers:
   - gitee_id: mszjaas
     name: zhangjian
@@ -185,12 +179,72 @@ repositories:
     email: zhangjian496@huawei.com
 
 - repo:
+  - src-openeuler/nfs-utils
+  committers:
+  - gitee_id: mszjaas
+    name: zhangjian
+    organization: Huawei
+    email: zhangjian496@huawei.com
+  - gitee_id: zhangyq_ORZ
+    name: Yaqi Zhang
+    organization: KylinSoft
+    email: zhangyaqi@kylinos.cn
+
+- repo:
+  - src-openeuler/xfsprogs
+  committers:
+  - gitee_id: mszjaas
+    name: zhangjian
+    organization: Huawei
+    email: zhangjian496@huawei.com
+  - gitee_id: liuh0329
+    name: Huan Liu
+    organization: KylinSoft
+    email: liuhuan01@kylinos.cn
+
+- repo:
   - src-openeuler/gdbm
   - src-openeuler/cryptsetup
   - src-openeuler/libblockdev
+  committers:
+  - gitee_id: foolstrong
+    name: wangzhiqiang
+    organization: Huawei
+    email: wangzhiqiang95@huawei.com
+
+- repo:
   - src-openeuler/spdk
   committers:
   - gitee_id: foolstrong
     name: wangzhiqiang
     organization: Huawei
     email: wangzhiqiang95@huawei.com
+  - gitee_id: cenhuilin
+    name: Huilin Cen
+    organization: KylinSoft
+    email: cenhuilin@kylinos.cn
+
+- repo:
+  - src-openeuler/glusterfs
+  committers:
+  - gitee_id: zhangyq_ORZ
+    name: Yaqi Zhang
+    organization: KylinSoft
+    email: zhangyaqi@kylinos.cn
+
+- repo:
+  - src-openeuler/btrfs-progs
+  committers:
+  - gitee_id: liuh0329
+    name: Huan Liu
+    organization: KylinSoft
+    email: liuhuan01@kylinos.cn
+
+- repo:
+  - src-openeuler/udisks2
+  - src-openeuler/mdadm
+  committers:
+  - gitee_id: cenhuilin
+    name: Huilin Cen
+    organization: KylinSoft
+    email: cenhuilin@kylinos.cn
