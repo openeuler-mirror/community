@@ -1,0 +1,7 @@
+name: memlink
+description: A system enables the host to detect and reclaim idle memory inside guests, overcoming virtualization isolation to improve memory utilization.
+upstream: https://gitee.com/openeuler/memlink
+branches:
+  - name: master
+    type: protected
+type: public
