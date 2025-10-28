@@ -24,29 +24,34 @@ repositories:
 - repo:
   - openeuler/opendesign
   - openeuler/opendesign-components
+  - openeuler/opendesign-analysis
+
+- repo:
   - openeuler/opendesign-resources
   - openeuler/opendesign-templates
-  - openeuler/openEuler-portal
-  - openeuler/openEuler-portal-ar
   - openeuler/opendesign-deployment
   - openeuler/opendesign-backend
-  - openeuler/opendesign-analysis
   - openeuler/opendesign-miniprogram
   - openeuler/opendesign-datastat
   - openeuler/opendesign-internship
   - openeuler/talent-assessment
   - openeuler/certificate-center
   - openeuler/docs-accompany-reading
-  - openeuler/quick-issue
-  - openeuler/easy-software
   - openeuler/docs-website
   committers:
-  - gitee_id: ailoooong
-    name: Long Ai
-    email: ilong8@qq.com
-  - gitee_id: haml
-    name: Xing Wang
-    email: 845831435@qq.com
   - gitee_id: xiaoshiziya
     name: Shijun Huang
     email: huangshijun4@huawei.com
+
+- repo:
+  - openeuler/openEuler-portal
+  - openeuler/openEuler-portal-ar
+  - openeuler/quick-issue
+  - openeuler/easy-software
+  committers:
+  - gitee_id: xiaoshiziya
+    name: Shijun Huang
+    email: huangshijun4@huawei.com
+  - gitee_id: ailoooong
+    name: Long Ai
+    email: ilong8@qq.com
