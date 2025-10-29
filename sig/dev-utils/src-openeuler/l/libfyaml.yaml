@@ -1,0 +1,10 @@
+name: libfyaml
+description: Fully feature complete YAML parser and emitter
+upstream:
+  homepage: https://github.com/pantoniou/libfyaml
+  regex: v(\d+(\.\d+)+)
+  version_url: https://github.com/pantoniou/libfyaml/releases
+branches:
+- name: master
+  type: protected
+type: public
