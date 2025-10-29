@@ -1,5 +1,7 @@
-name: perl-gettext
-description: ''
+name: perl-Locale-gettext
+rename_from: perl-gettext
+upstream: https://metacpan.org/pod/Locale::gettext
+description: 'Locale::gettext - message handling functions'
 branches:
 - name: master
   type: protected
