@@ -1,0 +1,7 @@
+name: cu-scanner
+description: cu-scanner is a tool specifically designed for the field of cybersecurity. Its core function is to collect, organize, and uniquely process relevant information based on files or data interfaces related to CVE (Common Vulnerabilities and Exposures) and security advisories, thereby rapidly generating XML files in OVAL (Open Vulnerability and Assessment Language) format.
+upstream: https://gitee.com/openeuler/cu-scanner
+branches:
+- name: master
+  type: protected
+type: public
