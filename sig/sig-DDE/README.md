@@ -16,7 +16,8 @@
 *<必选，请在此给出团队成员的列表>*
 
 ### Maintainer列表
-
+- hailianguniontech[@hailianguniontech](https://gitee.com/hailianguniontech)
+- lvgenggeng[@hailianguniontech](https://gitee.com/lvgenggeng)
 - yangxiaoxuan[@ut-layne-yang](https://gitee.com/ut-layne-yang)
 - HelloWorld_lvcongqing[@HelloWorld_lvcongqing](https://gitee.com/HelloWorld_lvcongqing)
 
@@ -25,10 +26,8 @@
 
 - 庞庆[@pang-qing](https://gitee.com/pang-qing)
 - 宋明亮[@DustMerlin](https://gitee.com/DustMerlin)
-- 王策[@wangce1988](https://gitee.com/wangce1988)
 - 朱红波[@zhuhong_bo](https://gitee.com/zhuhong_bo)
-- 小柿子[@liyf](https://gitee.com/liyf)
-
+- 李艳峰[@liyf0601](https://gitee.com/liyf0601)
 
 
 # 联系方式
