@@ -1,0 +1,14 @@
+name: TSB-agent
+description:  The Trusted Software Base Agent (TSB-agent) operates within the OS to build an active immune defense 
+  system based on the Root of Trust, enhancing terminal security. It handles element collection, communication, 
+  and control execution, serving as a core component of Initiative Trusted Computing. Its goal is to align OS trusted 
+  functions with Initiative Trusted Computing requirements, drive community engagement, and evolve with OS and trusted 
+  computing technologies.
+upstream: https://gitee.com/openeuler/TSB-agent
+branches:
+  - name: master
+    type: protected
+  - name: openEuler-24.03-LTS-SP3
+    type: protected
+    create_from: master
+type: public
