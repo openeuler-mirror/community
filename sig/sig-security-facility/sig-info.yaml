@@ -372,10 +372,17 @@ repositories:
 
 - repo:
   - openeuler/TSB-agent
+  - src-openeuler/TSB-agent
   committers:
   - gitee_id: wangansheng
     name: wangansheng
-    email: wangansheng@httc.com.cn  
+    email: wangansheng@httc.com.cn
+  - gitee_id: jamie-cui
+    name: cuijinming
+    email: cuijinming@huawei.com
+  - gitee_id: strong-wangzhuang
+    name: wangzhuang
+    email: wangzhuang13@huawei.com
 
 - repo:
   - openeuler/global-trust-authority
