@@ -22,7 +22,7 @@
 | [src-openeuler/gcc-10](https://gitee.com/src-openeuler/gcc-10) | 王鼎[@wangding16](https://gitee.com/wangding16) <br/> 赵书健[@zhaoshujian](https://gitee.com/zhaoshujian) |
 | [src-openeuler/gcc-14](https://gitee.com/src-openeuler/gcc-14) | 赵书健[@zhaoshujian](https://gitee.com/zhaoshujian) <br/> 胡林[@lin-4682](https://gitee.com/lin-4682) |
 | [src-openeuler/binutils](https://gitee.com/src-openeuler/binutils) | 谢志恒[@eastb233](https://gitee.com/eastb233) |
-| [src-openeuler/binutils-2.42](https://gitee.com/src-openeuler/binutils-2.42) | 赵书健[@zhaoshujian](https://gitee.com/zhaoshujian) | 
+| [src-openeuler/binutils-2.42](https://gitee.com/src-openeuler/binutils-2.42) | 赵书健[@zhaoshujian](https://gitee.com/zhaoshujian) |
 | [openeuler/gcc-for-openEuler](https://gitee.com/openeuler/gcc-for-openEuler) <br/> [src-openeuler/gcc-for-openEuler](https://gitee.com/src-openeuler/gcc-for-openEuler) |熊洲[@xiongzhou4](https://gitee.com/xiongzhou4) |
 
 ## LLVM repos
@@ -78,3 +78,8 @@
 | [openeuler/gcc-anti-sca](https://gitee.com/openeuler/gcc-anti-sca) | |
 | [src-openeuler/ccache](https://gitee.com/src-openeuler/ccache) | |
 | [src-openeuler/gn](https://gitee.com/src-openeuler/gn) | |
+
+## llvm-ub repos
+|            Repo            |               Committer           |
+| -------------------------- | --------------------------------- |
+| [openeuler/llvm-ub](https://gitee.com/openeuler/llvm-ub) <br/> [src-openeuler/llvm-ub](https://gitee.com/src-openeuler/llvm-ub) <br/> | 杨扬[@alex_young129_admin](https://gitee.com/alex_young129_admin) <br/> 王文昌[@dayinchang_admin](https://gitee.com/dayinchang_admin) |
