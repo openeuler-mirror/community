@@ -25,6 +25,19 @@ repositories:
     name: Yue Ma
     organization: Huawei
     email: mayue51@huawei.com
+  - gitee_id: yunsuoyan
+    name: Jiguang Shang
+    organization: Huawei
+    email: shangjiguang@huawei.com
+  - gitee_id: neatline
+    name: Yipeng Fu
+    organization: Huawei
+    email: fuyipeng3@huawei.com
+  repo_admin:
+  - gitee_id: luozhancheng
+    name: Zhancheng Luo
+    organization: Huawei
+    email: luozhancheng@huawei.com
 
 - repo:
   - openeuler/yuanrong-functionsystem
@@ -34,10 +47,23 @@ repositories:
     name: WenYu Luo
     organization: Huawei
     email: luowenyu4@huawei.com
-  - gitee_id: tianyi-ge
-    name: TianYi Ge
+  - gitee_id: wolfbolin
+    name: Bolin Zhang
     organization: Huawei
-    email: getianyi1@huawei.com
+    email: zhangbolin6@huawei.com
+  - gitee_id: lebreton
+    name: Licheng Song
+    organization: Huawei
+    email: slicheng.song@huawei.com
+  - gitee_id: slichengsong
+    name: Sheng Gao
+    organization: Huawei
+    email: gaosheng27@huawei.com
+  repo_admin:
+  - gitee_id: luozhancheng
+    name: Zhancheng Luo
+    organization: Huawei
+    email: luozhancheng@huawei.com
 
 - repo:
   - openeuler/yuanrong-datasystem
@@ -51,6 +77,15 @@ repositories:
     name: GongChang Ou
     organization: Huawei
     email: ougongchang@huawei.com
+  - gitee_id: yaohaolin
+    name: Haolin Yao
+    organization: Huawei
+    email: yaohaolin@huawei.com
+  repo_admin:
+  - gitee_id: yche-huawei
+    name: YuLin Che
+    organization: Huawei
+    email: cheyulin@huawei.com
 
 - repo:
   - openeuler/ray-adapter
@@ -64,3 +99,49 @@ repositories:
     name: YuChao Wang
     organization: Huawei
     email: wangyuchao12@huawei.com
+  repo_admin:
+  - gitee_id: yuchaow
+    name: YuChao Wang
+    organization: Huawei
+    email: wangyuchao12@huawei.com
+
+- repo:
+  - openeuler/yuanrong-frontend
+  - src-openeuler/yuanrong-frontend
+  committers:
+  - gitee_id: zhouyuhw
+    name: Yu Zhou
+    organization: Huawei
+    email: zhouyu81@huawei.com
+  repo_admin:
+  - gitee_id: zhouyuhw
+    name: Yu Zhou
+    organization: Huawei
+    email: zhouyu81@huawei.com
+
+- repo:
+  - openeuler/yuanrong-serve
+  - src-openeuler/yuanrong-serve
+  committers:
+  - gitee_id: yche-huawei
+    name: YuLin Che
+    organization: Huawei
+    email: cheyulin@huawei.com
+  repo_admin:
+  - gitee_id: yche-huawei
+    name: YuLin Che
+    organization: Huawei
+    email: cheyulin@huawei.com
+
+- repo:
+  - openeuler/spring-adapter
+  committers:
+  - gitee_id: luozhancheng
+    name: Zhancheng Luo
+    organization: Huawei
+    email: luozhancheng@huawei.com
+  repo_admin:
+  - gitee_id: luozhancheng
+    name: Zhancheng Luo
+    organization: Huawei
+    email: luozhancheng@huawei.com

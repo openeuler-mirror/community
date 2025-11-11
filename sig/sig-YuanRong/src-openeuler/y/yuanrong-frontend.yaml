@@ -1,0 +1,7 @@
+name: yuanrong-frontend
+description: openYuanrong frontend：openYuanrong 网关，支持函数创建、调用等功能 
+upstream: https://gitee.com/openeuler/yuanrong-frontend
+branches:
+- name: master
+  type: protected
+type: public
