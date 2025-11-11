@@ -56,6 +56,8 @@
 
   - [intel-ice](https://gitee.com/openeuler/intel-ice): Intel E810 以太网卡驱动程序。
 
+  - [intel-ice](https://gitee.com/src-openeuler/intel-ice): Intel E810 以太网卡驱动安装包
+
   - [intel-iavf](https://gitee.com/openeuler/intel-iavf): Intel E810 以太网卡 Virtual Function 驱动程序。
 
   - [intel-oneapi](https://gitee.com/openeuler/intel-oneapi): Intel oneAPI在openEuler的仓库入口

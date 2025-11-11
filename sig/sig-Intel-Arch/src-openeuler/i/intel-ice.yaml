@@ -1,0 +1,7 @@
+name: intel-ice
+description: Intel Network Adapter Driver for Intel® E810 Ethernet Series Devices
+upstream: https://github.com/intel/ethernet-linux-ice
+branches:
+- name: master
+  type: protected
+type: public
