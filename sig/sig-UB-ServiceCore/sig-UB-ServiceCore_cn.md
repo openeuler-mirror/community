@@ -16,6 +16,7 @@
 - 通过共建Tutorial、API文档、设计文档等关键技术规范，将灵衢相关技术赋能给开发者
 
 ### 该SIG管理的repository及描述
+- UBS Core - [https://gitee.com/openeuler/ubs-core](https://gitee.com/openeuler/ubs-core)
 - UBS Engine - [https://gitee.com/openeuler/ubs-engine](https://gitee.com/openeuler/ubs-engine)
 - UBS Comm - [https://gitee.com/openeuler/ubs-comm](https://gitee.com/openeuler/ubs-comm)
 - UBS Virt - [https://gitee.com/openeuler/ubs-virt](https://gitee.com/openeuler/ubs-virt)

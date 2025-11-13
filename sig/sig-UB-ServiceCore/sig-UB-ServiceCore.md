@@ -16,6 +16,7 @@ Note: The Charter of this SIG follows the convention described in the openEuler 
 - Empower developers with UB-related technologies by co-creating key technical specifications such as tutorials, API documentation, and design documents.
 
 ### Repositories and description managed by this SIG
+- UBS Core - [https://gitee.com/openeuler/ubs-core](https://gitee.com/openeuler/ubs-core)
 - UBS Engine - [https://gitee.com/openeuler/ubs-engine](https://gitee.com/openeuler/ubs-engine)
 - UBS Comm - [https://gitee.com/openeuler/ubs-comm](https://gitee.com/openeuler/ubs-comm)
 - UBS Virt - [https://gitee.com/openeuler/ubs-virt](https://gitee.com/openeuler/ubs-virt)
