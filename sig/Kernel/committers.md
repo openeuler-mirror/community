@@ -110,6 +110,7 @@
 | qla2xxx  | drivers/scsi/qola2xxx       | [@yonghu_4dc5](https://gitee.com/yonghu_4dc5) |
 | mpt3sas  | drivers/scsi/mpt3sas        | [@yonghu_4dc5](https://gitee.com/yonghu_4dc5) |
 | motorcomm | drivers/net/ethernet/motorcomm/<br/>drivers/net/phy/motorcomm.c| [@Frank_Sae](https://gitee.com/Frank_Sae) |
+| pci | drivers/virtio       | [@wenzhiwei11](https://gitee.com/wenzhiwei11) |
 
 
 ## tools
