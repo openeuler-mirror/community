@@ -1,0 +1,8 @@
+name: libxml2-compat
+description: 'libxml2 is an XML toolkit implemented in C, originally developed for
+the GNOME Project.'
+upstream: https://gitlab.gnome.org/GNOME/libxml2
+branches:
+- name: master
+  type: protected
+type: public
