@@ -20,4 +20,7 @@ Note: The Charter of this SIG follows the convention described in the openEuler 
 - yuanrong-runtime - [https://gitee.com/openeuler/yuanrong-runtime](https://gitee.com/openeuler/yuanrong-runtime)
 - yuanrong-functionsystem - [https://gitee.com/openeuler/yuanrong-functionsystem](https://gitee.com/openeuler/yuanrong-functionsystem)
 - yuanrong-datasystem - [https://gitee.com/openeuler/yuanrong-datasystem](https://gitee.com/openeuler/yuanrong-datasystem)
+- yuanrong-frontend - [https://gitee.com/openeuler/yuanrong-frontend](https://gitee.com/openeuler/yuanrong-frontend)
+- yuanrong-serve - [https://gitee.com/openeuler/yuanrong-serve](https://gitee.com/openeuler/yuanrong-serve)
 - ray-adapter - [https://gitee.com/openeuler/ray-adapter](https://gitee.com/openeuler/ray-adapter)
+- spring-adapter - [https://gitee.com/openeuler/spring-adapter](https://gitee.com/openeuler/spring-adapter)
