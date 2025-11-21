@@ -1,0 +1,17 @@
+name: e2b-desktop
+upstream: https://github.com/e2b-dev/desktop
+description: e2b desktop supports using a desktop computer in a sandbox.
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-24.03-LTS
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
+- name: openEuler-24.03-LTS-SP3
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
+type: public
+

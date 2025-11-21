@@ -1,0 +1,17 @@
+name: e2b-code-interpreter
+upstream: https://github.com/e2b-dev/code-interpreter
+description: This repository allows you run to AI-generated code in secure isolated sandboxes in the cloud. To start and control sandboxes.
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-24.03-LTS
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
+- name: openEuler-24.03-LTS-SP3
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
+type: public
+
