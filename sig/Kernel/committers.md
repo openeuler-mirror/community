@@ -101,7 +101,6 @@
 | 模块<img width=40/>   | 文件<img width=300/>                       | Committer(s) <img width=200/>                     |
 | ---- | ------------------------------- | ------------ |
 | bma  | drivers/net/ethernet/huawei/bma | [@gasonchen](https://gitee.com/gasonchen) |
-| ub   | drivers/net/ethernet/ub/<br/>drivers/ub<br/>drivers/iommu/hisilicon<br/>drivers/ubus<br/>drivers/vfio/ubus<br/>net/ubl | [@gasonchen](https://gitee.com/gasonchen) [@hu-chunzhi](https://gitee.com/hu-chunzhi) [@wsoydl](https://gitee.com/wsoydl) [@JerryHZ](https://gitee.com/JerryHZ) [@yunshenglin](https://gitee.com/yunshenglin)|
 | sssraid  | Documentation/scsi/sssraid.rst<br/>drivers/scsi/sssraid/| steven.song@3snic.com |
 | sssnic   | Documentation/networking/device_drivers/ethernet/3snic/sssnic/sssnic.rst<br/>drivers/net/ethernet/3snic/sssnic| steven.song@3snic.com |
 | ras   | drivers/ras/<br/>drivers/acpi/apei/<br/>drivers/firmware/efi/cper.c| [@hunan4222](https://gitee.com/hunan4222) |
@@ -125,6 +124,18 @@
 | coda | drivers/coda/* | [@hjx_gitff](https://gitee.com/hjx_gitff) |
 | smmu | drivers/iommu/arm/arm-smmu-v3/arm-s-smmu-v3.c<br/>drivers/iommu/arm/arm-smmu-v3/arm-s-smmu-v3.h | [@hjx_gitff](https://gitee.com/hjx_gitff) |
 | arm  | arch/arm64/include/asm/kvm_tmi.h<br/>arch/arm64/include/asm/kvm_tmm.h<br/>arch/arm64/include/asm/virtcca_cvm_host.h<br/>arch/arm64/kernel/virtcca_cvm_host.c<br/>arch/arm64/kvm/tmi.c<br/>arch/arm64/kvm/virtcca_cvm.c<br/>arch/arm64/kvm/virtcca_cvm_exit.c<br/>arch/arm64/include/asm/virtcca_cvm_guest.h<br/>arch/arm64/include/asm/virtcca_cvm_smc.h<br/>arch/arm64/include/uapi/asm/virtcca_cvm_tsi.h<br/>arch/arm64/kernel/virtcca_cvm_guest.c<br/>arch/arm64/kernel/virtcca_cvm_tsi.c<br/> | [@hjx_gitff](https://gitee.com/hjx_gitff) |
+
+## ub
+
+| 模块<img width=40/>   | 文件<img width=300/>                       | Committer(s) <img width=200/>                     |
+| ---- | ------------------------------- | ------------ |
+| udev      | drivers/ub/ubus<br/>     drivers/ub/ubfi<br/>     drivers/vfio/ubus<br/>     include/ub/ubus<br/>     include/ub/ubfi<br/>     include/uapi/ub/ubus | [@junlong-zheng](https://gitee.com/junlong-zheng)     [@rock_hw](https://gitee.com/rock_hw) |
+| udma     | drivers/ub/urma/hw/udma<br/>     include/uapi/ub/urma/udma<br/>     include/ub/urma/udma | [@hu-chunzhi](https://gitee.com/hu-chunzhi)     [@shu-shengming](https://gitee.com/shu-shengming) |
+| cdma     | drivers/ub/cdma<br/>     include/uapi/ub/cdma<br/>     include/ub/cdma | [@rock_hw](https://gitee.com/rock_hw)     [@hongwu-wang](https://gitee.com/hongwu-wang) |
+| unic     | drivers/net/ub<br/>     drivers/ub/ubase<br/>     include/net/ub<br/>     include/ub/ubase | [@chenjunxin1992](https://gitee.com/chenjunxin1992)     [@fanghaiqinghw](https://gitee.com/fanghaiqinghw) |
+| ub_fwctl | drivers/fwctl/ub                                             | [@hu-chunzhi](https://gitee.com/hu-chunzhi)     [@caixu-blue](https://gitee.com/caixu-blue) |
+| ummu     | drivers/iommu/hisilicon<br/>     include/linux/ummu_core.h<br/>     include/uapi/linux/ummu_core.h<br/>     drivers/perf/hisilicon/ummu_pmu.c | [@Tankll2021](https://gitee.com/Tankll2021)     [@fangfeng123](https://gitee.com/fangfeng123) |
+| ub       | drivers/ub                                                   | [@mufengyan](https://gitee.com/mufengyan)     [@yunshenglin](https://gitee.com/yunshenglin) |
 
 ## Notes
 * Linux 内核很庞大，社区需要更多的 Committer 参与开发和维护。
