@@ -120,10 +120,14 @@ repositories:
 - repo:
   - openeuler/intel-ice
   - openeuler/intel-iavf
+  - src-openeuler/intel-ice
   committers:
   - gitee_id: shangbaogen
     name: Baogen Shang
     email: baogen.shang@windriver.com
+  - gitee_id: qiminghuhu
+    name: Qiming Yang
+    email: qiming.yang@intel.com
 - repo:
   - openeuler/intel-qat
   - src-openeuler/intel-qatlib

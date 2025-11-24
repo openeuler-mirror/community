@@ -57,6 +57,8 @@ English | [简体中文](./README_cn.md)
 
   - [intel-ice](https://gitee.com/openeuler/intel-ice): Intel Network Adapter Driver for Intel E810 Series Devices.
 
+  - [intel-ice](https://gitee.com/src-openeuler/intel-ice): Intel E810 Series Devices Driver Packages.
+
   - [intel-iavf](https://gitee.com/openeuler/intel-iavf): Intel Network Adapter Virtual Function Driver for Intel E810 Series Devices.
 
   - [intel-oneapi](https://gitee.com/openeuler/intel-oneapi): Intel oneAPI projects portal in openEuler
