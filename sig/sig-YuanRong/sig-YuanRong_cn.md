@@ -17,7 +17,7 @@
 - 联合 openEuler 社区力量共同推动 Serverless 分布式计算引擎相关技术演进以及全栈应用生态构建。
 
  ### 该SIG管理的repository及描述
-- yuanrong-runtime - [https://gitee.com/openeuler/yuanrong-runtime](https://gitee.com/openeuler/yuanrong-runtime)
+- yuanrong - [https://gitee.com/openeuler/yuanrong](https://gitee.com/openeuler/yuanrong)
 - yuanrong-functionsystem - [https://gitee.com/openeuler/yuanrong-functionsystem](https://gitee.com/openeuler/yuanrong-functionsystem)
 - yuanrong-datasystem - [https://gitee.com/openeuler/yuanrong-datasystem](https://gitee.com/openeuler/yuanrong-datasystem)
 - yuanrong-frontend - [https://gitee.com/openeuler/yuanrong-frontend](https://gitee.com/openeuler/yuanrong-frontend)

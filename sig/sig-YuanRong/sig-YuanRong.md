@@ -17,7 +17,7 @@ Note: The Charter of this SIG follows the convention described in the openEuler 
 - Join hands with the openEuler community to jointly promote the evolution of Serverless distributed computing engine-related technologies and the construction of a full-stack application ecosystem.
 
 ### Repositories and description managed by this SIG
-- yuanrong-runtime - [https://gitee.com/openeuler/yuanrong-runtime](https://gitee.com/openeuler/yuanrong-runtime)
+- yuanrong - [https://gitee.com/openeuler/yuanrong](https://gitee.com/openeuler/yuanrong)
 - yuanrong-functionsystem - [https://gitee.com/openeuler/yuanrong-functionsystem](https://gitee.com/openeuler/yuanrong-functionsystem)
 - yuanrong-datasystem - [https://gitee.com/openeuler/yuanrong-datasystem](https://gitee.com/openeuler/yuanrong-datasystem)
 - yuanrong-frontend - [https://gitee.com/openeuler/yuanrong-frontend](https://gitee.com/openeuler/yuanrong-frontend)
