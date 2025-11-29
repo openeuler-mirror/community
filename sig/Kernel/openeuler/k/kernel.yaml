@@ -3,4 +3,7 @@ description: ''
 branches:
 - name: master
   type: protected
+- name: openEuler-26.09
+  type: protected
+  create_from: OLK-6.6
 type: public
