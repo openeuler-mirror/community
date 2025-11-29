@@ -35,6 +35,7 @@
 - liuhongquan[@liuhq189](https://gitee.com/liuhq189)
 - shuzhenyi[@szyyier](https://gitee.com/szyyier)
 - sunyifang[@evansun0312](https://gitee.com/evansun0312)
+- lizhipeng[@qiuxinyidian](https://gitee.com/qiuxinyidian)
 
 ### 模块责任人
 
