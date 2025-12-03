@@ -1,0 +1,7 @@
+name: rubygem-test-unit-ruby-core
+description: Additional test assertions for Ruby standard libraries
+upstream: https://github.com/ruby/test-unit-ruby-core
+branches:
+- name: master
+  type: protected
+type: public
