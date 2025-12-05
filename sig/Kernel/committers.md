@@ -129,12 +129,13 @@
 
 | 模块<img width=40/>   | 文件<img width=300/>                       | Committer(s) <img width=200/>                     |
 | ---- | ------------------------------- | ------------ |
+| obmm     | drivers/ub/obmm<br/>     include/uapi/ub/obmm.h                                      | [@GaoChao](https://gitee.com/TrueAI) [@李睿霖](https://gitee.com/kazero00) |
 | udev      | drivers/ub/ubus<br/>     drivers/ub/ubfi<br/>     drivers/vfio/ubus<br/>     include/ub/ubus<br/>     include/ub/ubfi<br/>     include/uapi/ub/ubus | [@junlong-zheng](https://gitee.com/junlong-zheng)     [@rock_hw](https://gitee.com/rock_hw) |
 | udma     | drivers/ub/urma/hw/udma<br/>     include/uapi/ub/urma/udma<br/>     include/ub/urma/udma | [@hu-chunzhi](https://gitee.com/hu-chunzhi)     [@shu-shengming](https://gitee.com/shu-shengming) |
 | cdma     | drivers/ub/cdma<br/>     include/uapi/ub/cdma<br/>     include/ub/cdma | [@rock_hw](https://gitee.com/rock_hw)     [@hongwu-wang](https://gitee.com/hongwu-wang) |
 | unic     | drivers/net/ub<br/>     drivers/ub/ubase<br/>     include/net/ub<br/>     include/ub/ubase | [@chenjunxin1992](https://gitee.com/chenjunxin1992)     [@fanghaiqinghw](https://gitee.com/fanghaiqinghw) |
 | ub_fwctl | drivers/fwctl/ub                                             | [@hu-chunzhi](https://gitee.com/hu-chunzhi)     [@caixu-blue](https://gitee.com/caixu-blue) |
-| ummu     | drivers/iommu/hisilicon<br/>     include/linux/ummu_core.h<br/>     include/uapi/linux/ummu_core.h<br/>     drivers/perf/hisilicon/ummu_pmu.c | [@Tankll2021](https://gitee.com/Tankll2021)     [@fangfeng123](https://gitee.com/fangfeng123) |
+| ummu     | drivers/iommu/hisilicon<br/>     include/linux/ummu_core.h<br/>     include/uapi/linux/ummu_core.h<br/>     drivers/perf/hisilicon/ummu_pmu.c | [@Tankll2021](https://gitee.com/Tankll2021)     [@fangfeng123](https://gitee.com/fangfeng123) [@gongleihuawei](https://gitee.com/gongleihuawei)|
 | ub       | drivers/ub                                                   | [@mufengyan](https://gitee.com/mufengyan)     [@yunshenglin](https://gitee.com/yunshenglin) |
 
 ## Notes
