@@ -22,7 +22,7 @@
 - 田  俊<jun.j.tan@intel.com> [[@juntianlinux](https://gitee.com/juntianlinux)]
 - 王建民<jianmin@iscas.ac.cn> [[@jianminw](https://gitee.com/jianminw)]
 - 王志钢<wangzhigang17@huawei.com>  [[@cellfaint](https://gitee.com/cellfaint)]
-- 吴峰光<wufengguang@huawei.com> [[@wu_fengguang](https://gitee.com/wu_fengguang)]
+- 吴峰光<wfg@mail.ustc.edu.cn> [[@wu_fengguang](https://gitee.com/wu_fengguang)]
 - 王伶卓<relue0z@outlook.com> [[@relue0z](https://gitee.com/relue0z)]
 - 谢秀奇<xiexiuqi@huawei.com> [[@xiexiuqi](https://gitee.com/xiexiuqi)]
 - 魏建刚<wei_jiangang@hoperun.com>[[@bugflyfly](https://gitee.com/bugflyfly)]
