@@ -17,7 +17,7 @@
 ### Maintainer列表
 
 - 胡正策[@huzhengce](https://gitee.com/huzhengce)
-- 李雪生[@ncti-gba-ide](https://gitee.com/ntci-gba-ide/)
+- 陈功[@qsemos-cg](https://gitee.com/qsemos-cg/)
 - 王兴龙[@hacke2](https://gitee.com/hacke2/)
 
 
@@ -40,7 +40,7 @@
 
 - huzhengce@openeuler.sh
 
-- lixuesheng@ncti-gba.cn
+- chengong@qsemos.com
 
 - huyongqiang@ncti-gba.cn
 
