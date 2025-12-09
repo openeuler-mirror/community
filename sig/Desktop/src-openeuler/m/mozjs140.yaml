@@ -1,0 +1,7 @@
+name: mozjs140
+description: SpiderMonkey JavaScript library
+upstream: https://spidermonkey.dev/
+branches:
+- name: master
+  type: protected
+type: public
