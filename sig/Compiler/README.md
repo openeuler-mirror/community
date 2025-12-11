@@ -15,6 +15,7 @@ Tuesday 10 am bi-weekly, UTC+8.
  - 陈 善瑶[@stubCode](https://gitee.com/stubCode) email: chenshanyao@huawei.com
  - 周   磊[@alexanderbill](https://gitee.com/alexanderbill) email: zhoulei03@huawei.com
  - 陈   正[@chenzheng1030](https://gitee.com/chenzheng1030) email: chenzheng79@huawei.com
+ - 王   强[@wangqiang95](https://atomgit.com/wangqiang95) email: wangqiang1@kylinos.cn
 
 ## Committer list
 Please refer [openEuler Compiler Committer List](https://gitee.com/openeuler/community/blob/master/sig/Compiler/committers.md)
