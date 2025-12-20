@@ -6,14 +6,17 @@ meeting_url: NA
 mature_level: startup
 maintainers:
 - gitee_id: myeuler
+  atomgit_id: ''
   name: wei Xiong
   organization: Huawei
   email: xiongwei888@huawei.com
 - gitee_id: shinwell_hu
+  atomgit_id: shinwell_hu
   name: xinwei Hu
   organization: Huawei
   email: shinwell_hu@openeuler.sh
 - gitee_id: yangzhao_kl
+  atomgit_id: yangzhao_kl
   name: Zhao Yang
   organization: KylinSoft
   email: yangzhao1@kylinos.cn
@@ -1241,7 +1244,7 @@ repositories:
   - src-openeuler/python-click-didyoumean
   - src-openeuler/python-click-plugins
   - src-openeuler/python-click-repl
-  - src-openeuler/python-fastecdsa  
+  - src-openeuler/python-fastecdsa
   - src-openeuler/python-cocotb
   - src-openeuler/PyYAML
   - src-openeuler/python-utmp
@@ -1270,40 +1273,43 @@ repositories:
   - src-openeuler/python-mrcfile
   committers:
   - gitee_id: randy1568
+    atomgit_id: weixin_44206449
     name: lipeng Yuan
     organization: Huawei
     email: yuanlipeng2@huawei.com
   - gitee_id: cherry530
+    atomgit_id: cherry530
     name: ping Xu
     organization: Huawei
     email: xuping33@h-partners.com
-
 - repo:
   - src-openeuler/python-pdm-backend
   - src-openeuler/ephemeral-port-reserve
   committers:
   - gitee_id: jxy_git
+    atomgit_id: jxy_git
     name: xinyu Jiang
     organization: KylinSoft
     email: jiangxinyu@kylinos.cn
-
 - repo:
   - src-openeuler/python-elasticsearch8
   committers:
   - gitee_id: wangqiang95
+    atomgit_id: wangqiang95
     name: qiang Wang
     organization: KylinSoft
     email: wangqiang1@kylinos.cn
-
 - repo:
   - src-openeuler/python-multi_key_dict
   - openeuler/python-multi_key_dict
   committers:
   - gitee_id: gitee-cmd
+    atomgit_id: ''
     name: mingdao Che
     organization: Huawei
     email: chemingdao@huawei.com
   - gitee_id: wk333
+    atomgit_id: wk333
     name: kai Wang
     organization: Huawei
     email: wangkai385@h-partners.com
@@ -1324,6 +1330,7 @@ repositories:
   - src-openeuler/swagger-ui-bundle
   committers:
   - gitee_id: zhangdaolong
+    atomgit_id: zhangdaodragon
     name: zhangdaolong
     organization: ISoftstone
     email: dlzhangak@isoftstone.com
@@ -1331,6 +1338,7 @@ repositories:
   - src-openeuler/python-ldap
   committers:
   - gitee_id: compile_success
+    atomgit_id: compile_success
     name: junhao Zhu
     organization: Huawei
     email: zhujunhao11@huawei.com
@@ -1338,6 +1346,7 @@ repositories:
   - src-openeuler/python-tomli
   committers:
   - gitee_id: huangtianhua
+    atomgit_id: huangtianhua
     name: tianhua Huang
     organization: Huawei
     email: huangtianhua@huawei.com
@@ -1346,12 +1355,12 @@ repositories:
   - src-openeuler/python-pypiserver
   - src-openeuler/python-setuptools-declarative-requirements
   - src-openeuler/python-rply
-
 - repo:
   - src-openeuler/python-aiosignal
   - src-openeuler/python-frozenlist
   committers:
   - gitee_id: xuesinian
+    atomgit_id: xuesinian
     name: Sinian Xue
     organization: Huawei
     email: xuesinian@huawei.com
@@ -1366,7 +1375,6 @@ repositories:
   - src-openeuler/python-requests-unixsocket
   - src-openeuler/python-terminado
   - src-openeuler/python-sphinxcontrib-github-alt
-
 - repo:
   - src-openeuler/python-tomlkit
   - src-openeuler/python-poetry-core
@@ -1697,21 +1705,22 @@ repositories:
   - src-openeuler/sip-6
   committers:
   - gitee_id: desert-sailor
+    atomgit_id: DesertSailor2013
     name: Dongxing Wang
     organization: ThunderSoft
     email: dongxing.wang_a@thundersoft.com
-
 - repo:
   - src-openeuler/python-frontmatter
   committers:
   - gitee_id: zubinshuo2
+    atomgit_id: zubinshuo2
     name: Zu Binshuo
     organization: ISCAS
     email: binshuo.oerv@isrc.iscas.ac.cn
-
 - repo:
   - src-openeuler/python-backports-tarfile
   committers:
   - gitee_id: open-bot
+    atomgit_id: openbot
     name: liweigang
     email: openbot@yeah.net

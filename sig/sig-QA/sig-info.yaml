@@ -5,62 +5,75 @@ meeting_url: https://etherpad.openeuler.org/p/sig-QA-meetings
 mature_level: startup
 maintainers:
 - gitee_id: wu_fengguang
+  atomgit_id: wu_fengguang
   name: wufengguang
   organization: Huawei
   email: wfg@mail.ustc.edu.cn
 - gitee_id: walkingwalk
+  atomgit_id: walkingwalk
   name: wubodong
   organization: Huawei
   email: wubodong@huawei.com
 - gitee_id: lemon-higgins
+  atomgit_id: lemon-higgins
   name: lemon.higgins
   organization: Huawei
   email: lemon.higgins@aliyun.com
-- gitee_id: lutianxiong 
+- gitee_id: lutianxiong
+  atomgit_id: lutianxiong
   name: lutianxiong
   organization: Huawei
   email: lutianxiong@huawei.com
 - gitee_id: rigorous
+  atomgit_id: ''
   name: yanjin
   organization: Huawei
   email: yanjin.yan@huawei.com
 - gitee_id: SupMario
+  atomgit_id: SupMario
   name: tangjie
   organization: Huawei
   email: tangjie18@huawei.com
 - gitee_id: Charlie_li
+  atomgit_id: Charlie_li1
   name: liyongqiang
   organization: Huawei
   email: liyongqiang329@163.com
 - gitee_id: linqian0322
+  atomgit_id: linqian0322
   name: linqian
   organization: Huawei
   email: linqian12@huawei.com
 - gitee_id: Ethan-Zhang
+  atomgit_id: ''
   name: zhangyizheng
   organization: Huawei
   email: ethanzhang55@outlook.com
 - gitee_id: saarloos
+  atomgit_id: saarloos
   name: zhangziyang
   organization: Huawei
   email: zhangziyang1@huawei.com
 - gitee_id: zjl_long
+  atomgit_id: zjl_long
   name: zhujinlong
   organization: Hoperun
   email: 154542010@qq.com
 - gitee_id: wangpeng_uniontech
+  atomgit_id: wangpeng_uniontech
   name: wangpeng
   organization: UnionTech
   email: wangpengb@uniontech.com
 - gitee_id: hfutsdd
+  atomgit_id: hfutsdd
   name: shidongdong
   organization: Huawei
   email: shidongdong5@huawei.com
 - gitee_id: liu-zuo
+  atomgit_id: ''
   name: liuzuo
   organization: KylinSec OS
   email: liuzuo@kylinsec.com.cn
-
 repositories:
 - repo:
   - openeuler/avocado-vt
@@ -72,157 +85,177 @@ repositories:
   - openeuler/EulerRobot
   - openeuler/container-test
   - openeuler/compiler-test
-
 - repo:
   - src-openeuler/avocado
   committers:
   - gitee_id: zengwefeng
+    atomgit_id: Apricity_HW
     name: weifeng Zeng
     organization: Huawei
     email: zwfeng@huawei.com
-
 - repo:
   - src-openeuler/linux-test-project
   committers:
   - gitee_id: hanson_fang
+    atomgit_id: ''
     name: Hongsong Fang
     organization: Huawei
     email: fanghongsong4@h-partners.com
-
 - repo:
   - openeuler/mugen
   - openeuler/radiaTest
   - openeuler/QA
   committers:
   - gitee_id: hfutsdd
+    atomgit_id: hfutsdd
     name: shidongdong
     organization: Huawei
     email: shidongdong5@huawei.com
   - gitee_id: wangpeng_uniontech
+    atomgit_id: wangpeng_uniontech
     name: wangpeng
     organization: UnionTech
     email: wangpengb@uniontech.com
   - gitee_id: duyiwei7w
+    atomgit_id: duyiwei7w
     name: duyiwei
     organization: KylinSoft
     email: duyiwei@kylinos.cn
   - gitee_id: yangzhao_kl
+    atomgit_id: yangzhao_kl
     name: Zhao Yang
     organization: KylinSoft
     email: yangzhao1@kylinos.cn
   - gitee_id: dou33
+    atomgit_id: dou33
     name: douyan
     organization: KylinSoft
     email: douyan@kylinos.cn
   - gitee_id: qwei_8848
+    atomgit_id: ''
     name: weiqiang
     organization: suse
     email: qiang.wei@suse.com
   - gitee_id: lizhuang1314
+    atomgit_id: ''
     name: lizhuang
     organization: Turbolinux
     email: 819714012@qq.com
   - gitee_id: zhang__3125
+    atomgit_id: zhang__3125
     name: zhanglin
     organization: Turbolinux
     email: lin.zhang@turbolinux.com.cn
   - gitee_id: fu-shanqing
+    atomgit_id: weixin_38854637
     name: fushanqing
     organization: KylinSoft
     email: fushanqing@kylinos.cn
   - gitee_id: wangpeihai
+    atomgit_id: ''
     name: wangpeihai
     organization: ctyun
     email: wangph4@chinatelecom.cn
   - gitee_id: ga_beng_cui
+    atomgit_id: ga_beng_cui
     name: liujingjing
     organization: hoperun
     email: liujingjing25812@163.com
   - gitee_id: Algernon67
+    atomgit_id: Algernon67
     name: lixiaodong
     organization: huawei
     email: lixiaodong67@huawei.com
   - gitee_id: wenjunryou
+    atomgit_id: wenjunryou
     name: liangya
     organization: hoperun
     email: 1009065695@qq.com
   - gitee_id: jean9823
+    atomgit_id: jean9823
     name: wujie
     organization: iscas
     email: wujie22@iscas.ac.cn
-
 - repo:
   - src-openeuler/trinity
   committers:
   - gitee_id: ryuo
+    atomgit_id: ''
     name: xiaoya Wang
     organization: Huawei
     email: wangxiaoya7@h-partners.com
-
 - repo:
   - openeuler/LTF
   committers:
   - gitee_id: yaoxiyao
+    atomgit_id: ''
     name: yaoxiyao
     organization: KylinSec OS
     email: yaoxiyao@kylinsec.com.cn
   - gitee_id: yuyongkangnaruto
+    atomgit_id: ''
     name: yuyongkang
     organization: KylinSec OS
     email: yuyongkang@kylinsec.com.cn
-
 - repo:
   - src-openeuler/AFLplusplus
   committers:
   - gitee_id: disnight
-    name: fanjiachen 
+    atomgit_id: disnight
+    name: fanjiachen
     organization: Huawei
     email: fanjiachen3@huawei.com
-
 - repo:
   - src-openeuler/youqu
   committers:
   - gitee_id: mikigo
+    atomgit_id: ''
     name: mikigo
     organization: uniontech
     email: huangmingqiang@uniontech.com
   - gitee_id: darklii
+    atomgit_id: ''
     name: DarkLii
     organization: uniontech
     email: liguangming@uniontech.com
   - gitee_id: king123666
+    atomgit_id: ''
     name: king123666
     organization: uniontech
     email: jinjiabin@uniontech.com
   - gitee_id: mars_up
+    atomgit_id: ''
     name: mars.up
     organization: uniontech
     email: huanghaizhen@uniontech.com
-
 - repo:
   - openeuler/dde_autotest_euler
   committers:
   - gitee_id: liyf0601
+    atomgit_id: ''
     name: liyanfeng
     organization: uniontech
     email: liyanfeng@uniontech.com
   - gitee_id: mataotao2
+    atomgit_id: ''
     name: mataotao
     organization: uniontech
     email: mataotao@uniontech.com
   - gitee_id: buildearth
+    atomgit_id: ''
     name: lixintao
     organization: uniontech
     email: lixintao@uniontech.com
   - gitee_id: wangpeng_uniontech
+    atomgit_id: wangpeng_uniontech
     name: wangpeng
     organization: uniontech
     email: wangpengb@uniontech.com
-
 - repo:
   - openeuler/UTBotJava
   - src-openeuler/UTBotJava
   committers:
   - gitee_id: GalaxyG
+    atomgit_id: ''
     name: Gan Lixiong
     email: ganli2012@gmail.com

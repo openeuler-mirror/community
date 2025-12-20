@@ -6,27 +6,31 @@ meeting_url: https://etherpad.openeuler.org/p/sig-K8sDistro-meetings
 mature_level: startup
 mentors:
 - gitee_id: hjimmy
+  atomgit_id: ''
   name: houjian
   organization: KylinSoft
   email: houjian@kylinos.cn
 maintainers:
 - gitee_id: wangyueliang
+  atomgit_id: wangyueliang
   name: wangyueliang
   organization: KylinSoft
   email: wangyueliang@kylinos.cn
 - gitee_id: duyiwei7w
+  atomgit_id: duyiwei7w
   name: duyiwei
   organization: KylinSoft
   email: duyiwei@kylinos.cn
 - gitee_id: wanglmb
+  atomgit_id: ''
   name: wanglimin
   organization: xfusion
   email: wanglmb@163.com
 - gitee_id: orangeji11
+  atomgit_id: orangeji11
   name: jizongyao
   organization: UnionTech
   email: jizongyao@uniontech.com
-
 repositories:
 - repo:
   - src-openeuler/pulp
@@ -44,19 +48,19 @@ repositories:
   - src-openeuler/bootupd
   - src-openeuler/ignition
   - src-openeuler/rpm-ostree
-
 - repo:
   - src-openeuler/kubekey
   committers:
   - gitee_id: calvinyu
+    atomgit_id: ''
     name: yushuang
     organization: kubesphere
     email: calvinyu@kubesphere.io
   - gitee_id: pixiake
+    atomgit_id: ''
     name: guofeng
     organization: kubesphere
     email: guofeng@yunify.com
-
 - repo:
   - src-openeuler/k3s
   - src-openeuler/k3s-selinux
@@ -64,30 +68,31 @@ repositories:
   - src-openeuler/k3s-plugins
   committers:
   - gitee_id: zhu-yuncheng
+    atomgit_id: zhu-yuncheng
     name: zhuyuncheng
-    organization: Huawei 
+    organization: Huawei
     email: zhuyuncheng@huawei.com
-
 - repo:
   - openeuler/nestos-kubernetes-deployer
   committers:
   - gitee_id: weihuanhuan_ky
+    atomgit_id: ''
     name: Wei Huanhuan
     organization: KylinSoft
     email: weihuanhuan@kylinos.cn
-
 - repo:
   - src-openeuler/nestos-kubernetes-deployer
   committers:
   - gitee_id: lauk001
+    atomgit_id: ''
     name: liukuo
     organization: KylinSoft
     email: liukuo@kylinos.cn
-
 - repo:
   - openeuler/ccps
   committers:
   - gitee_id: ljtian-uos
+    atomgit_id: ljtian
     name: tianlijun
     organization: UnionTech
     email: tianlijun@uniontech.com

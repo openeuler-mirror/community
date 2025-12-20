@@ -1,23 +1,26 @@
 name: sig-AccLib
 description: The AccLib team is responsible for exploring high-performance acceleration technologies and solutions such as accelerator hardware engines and acceleration instructions.
-
 mailing_list: acc@openeuler.org
 meeting_url: https://etherpad.openeuler.org/p/sig-AccLib-meetings
 mature_level: startup
 maintainers:
 - gitee_id: hao-fang
+  atomgit_id: hao-fang
   name: fanghao
   orgnization: Huawei
   email: fanghao11@huawei.com
 - gitee_id: gaozhangfei
+  atomgit_id: ''
   name: Zhangfei Gao
   orgnization: Linaro
   email: zhangfei.gao@linaro.org
 - gitee_id: wujunhow
+  atomgit_id: ''
   name: wujunhao
   orgnization: Huawei
   email: wujunhao4@huawei.com
 - gitee_id: lauyarn
+  atomgit_id: lauyarn
   name: liuyang
   orgnization: Huawei
   email: liuyang645@huawei.com
@@ -42,38 +45,41 @@ repositories:
   - src-openeuler/uadk_engine
   - src-openeuler/libkae
   - src-openeuler/kae_driver
-
 - repo:
   - openeuler/ifm_nettle
   committers:
   - gitee_id: huangduirong
+    atomgit_id: huangduirong
     name: huangduirong
     email: huangduirong@huawei.com
   - gitee_id: licihua
+    atomgit_id: licihua
     name: Monday
     email: licihua@huawei.com
 - repo:
   - src-openeuler/zlib-ng
   committers:
   - gitee_id: liqiang9102
+    atomgit_id: liqiang9102
     name: liqiang
     organization: Huawei
     email: liqiang64@huawei.com
-    
 - repo:
   - openeuler/pyuadk
   committers:
   - gitee_id: lkcpy
+    atomgit_id: ''
     name: wang jian
     email: lkcp@aliyun.com
-
 - repo:
   - openeuler/krun
   - src-openeuler/krun
   committers:
   - gitee_id: guchenghua1992
+    atomgit_id: guchenghua1992
     name: guchenghua
     email: guchenghua@huawei.com
   - gitee_id: hewanhan
+    atomgit_id: hewanhan
     name: hewanhan
     email: hewanhan@h-partners.com

@@ -6,13 +6,16 @@ meeting_url: https://etherpad.openeuler.org/p/bigdata-meetings
 mature_level: startup
 maintainers:
 - gitee_id: yangzhao_kl
+  atomgit_id: yangzhao_kl
   name: yangzhao
   organization: KylinSoft
   email: yangzhao1@kylinos.cn
 - gitee_id: wuzeyi1
+  atomgit_id: ''
   name: wuzeyi
   email: zeyiii@126.com
 - gitee_id: MacChen1
+  atomgit_id: ''
   name: chenqiang
   organization: Huawei
   email: mac.chenqiang@huawei.com
@@ -28,15 +31,17 @@ repositories:
   - openeuler/velox
   committers:
   - gitee_id: wenwj0
+    atomgit_id: ''
     name: wenweijian
     email: weijian.wen@foxmail.com
   - gitee_id: kevinw66
+    atomgit_id: ''
     name: wuzhiguo
     email: wzg547228197@163.com
   - gitee_id: changzhi1123
+    atomgit_id: ''
     name: changzhi
     email: 272972727@qq.com
-
 - repo:
   - src-openeuler/hive
   - src-openeuler/hbase
@@ -49,9 +54,9 @@ repositories:
   - src-openeuler/zookeeper
   committers:
   - gitee_id: wenwj0
+    atomgit_id: ''
     name: wenweijian
     email: weijian.wen@foxmail.com
-
 - repo:
   - openeuler/Gluten
   - openeuler/OmniAdaptor
@@ -60,15 +65,17 @@ repositories:
   - openeuler/OmniStateStore
   committers:
   - gitee_id: hyycyan_cyan
+    atomgit_id: ''
     name: huangyuyang
     email: huangyuyang1@huawei.com
   - gitee_id: yiding-wu
+    atomgit_id: ''
     name: wuyiding
     email: 707999813@qq.com
   - gitee_id: copperybean
+    atomgit_id: copperybean
     name: zhangzhihong
     email: copperybean.zhang@gmail.com
-    
 - repo:
   - src-openeuler/redis6
   - src-openeuler/rain

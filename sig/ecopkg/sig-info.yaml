@@ -1,78 +1,96 @@
 name: ecopkg
-description: The ecopkg sig aims to manage the software packages contributed by developers, and these packages cannot be determined which sig they belong to at the moment. 
+description: The ecopkg sig aims to manage the software packages contributed by developers, and these packages cannot be determined which sig they belong to at the moment.
 created_on: '2023-04-07'
 mailing_list: ecopkg@openeuler.org
 mature_level: startup
 maintainers:
 - gitee_id: dillon_chen
+  atomgit_id: dillon_chen
   name: Chen Qide
   organization: KylinSoft
   email: dillon.chen@gmail.com
 - gitee_id: georgecao
+  atomgit_id: georgecao
   name: Cao Zhi
   organization: Huawei
   email: george.cao@huawei.com
 - gitee_id: hjimmy
+  atomgit_id: ''
   name: Hou Jian
   organization: KylinSoft
-  email: houjian@kylinos.cn 
+  email: houjian@kylinos.cn
 - gitee_id: solarhu
+  atomgit_id: solarhu
   name: Hu Feng
   organization: Huawei
   email: solar.hu@huawei.com
 - gitee_id: shinwell_hu
+  atomgit_id: shinwell_hu
   name: Hu Xinwei
   organization: Huawei
   email: huxinwei@huawei.com
 - gitee_id: Charlie_li
+  atomgit_id: Charlie_li1
   name: Li Yongqiang
   organization: xFusion
   email: liyongqiang329@163.com
 - gitee_id: stonefly128
+  atomgit_id: ''
   name: Shi Yong
   organization: KYLINSEC
   email: shiyong@kylinos.com.cn
 - gitee_id: jianminw
+  atomgit_id: jianminw
   name: Wang Jianmin
   organization: ISCAS
   email: jianmin@iscas.ac.cn
 - gitee_id: cellfaint
+  atomgit_id: cellfaint
   name: Wang Zhigang
   organization: Huawei
   email: wangzhigang17@huawei.com
 - gitee_id: vonhust
+  atomgit_id: ''
   name: Ren Wei
   organization: Huawei
   email: renwei41@huawei.com
 - gitee_id: bugflyfly
+  atomgit_id: ''
   name: Wei Jiangang
   organization: Hoperun Software
   email: wei_jiangang@hoperun.com
 - gitee_id: wu_fengguang
+  atomgit_id: wu_fengguang
   name: Wu Fengguang
   organization: Huawei
   email: wfg@mail.ustc.edu.cn
 - gitee_id: HelloWorld_lvcongqing
+  atomgit_id: ''
   name: Lv Congqing
   organization: UnionTech
   email: lvcongqing@uniontech.com
 - gitee_id: relue0z
+  atomgit_id: ''
   name: Wang Lingzhuo
   organization: iSoft Infrastructure Software
   email: relue0z@outlook.com
 - gitee_id: zhujianwei001
+  atomgit_id: zhujianwei001
   name: Zhu Jianwei
   organization: Huawei
   email: zhujianwei7@huawei.com
 - gitee_id: xiexiuqi
+  atomgit_id: oekernel
   name: Xie Xiuqi
   organization: Huawei
   email: xiexiuqi@huawei.com
 - gitee_id: cf-zhao
+  atomgit_id: cf-zhao
   name: Zhao Chuanfeng
   organization: Huawei
   email: zhaochuanfeng@huawei.com
 - gitee_id: juntianlinux
+  atomgit_id: ''
   name: Tian Jun
   organization: Intel
   email: jun.j.tan@intel.com
@@ -81,205 +99,186 @@ repositories:
   - src-openeuler/python-pickleshare
   committers:
   - gitee_id: mywaaagh_admin
+    atomgit_id: mywaaagh_admin
     name: Li Chaoran
     email: pkwarcraft@hotmail.com
 - repo:
   - src-openeuler/cargo2rpm
   committers:
   - gitee_id: jl-brother1
+    atomgit_id: jl-brother1
     name: jlcoo
     email: jianglong05@huawei.com
-
 - repo:
   - src-openeuler/SoapySDR
   committers:
   - gitee_id: Suyun114
+    atomgit_id: ''
     name: Suyun
     email: ziyu.oerv@isrc.iscas.ac.cn
-
-
 - repo:
   - src-openeuler/python-gatt
   committers:
   - gitee_id: zengchen1024
+    atomgit_id: zengchen1024
     name: zengchen1024
     email: chenzeng765@163.com
   - gitee_id: mywaaagh_admin
+    atomgit_id: mywaaagh_admin
     name: mywaaagh_admin
     email: pkwarcraft@hotmail.com
-
-
 - repo:
   - src-openeuler/sqlcipher
   committers:
   - gitee_id: kiraskyler
+    atomgit_id: kiraskyler1
     name: kiraskyler
     email: kiraskyler@qq.com
-
-
 - repo:
   - src-openeuler/xcb-util-errors
   committers:
   - gitee_id: mywaaagh_admin
+    atomgit_id: mywaaagh_admin
     name: mywaaagh_admin
     email: pkwarcraft@hotmail.com
-
-
 - repo:
   - src-openeuler/python-annotated-types
   committers:
   - gitee_id: desert-sailor
+    atomgit_id: DesertSailor2013
     name: DesertSailor_King
     email: dxwangk@isoftstone.com
-
-
 - repo:
   - src-openeuler/mozo
   committers:
   - gitee_id: fu-shanqing
+    atomgit_id: weixin_38854637
     name: fu-shanqing
     email: dev01203@linx-info.com
-
-
 - repo:
   - src-openeuler/ocfs2-tools
   committers:
   - gitee_id: Suyun114
+    atomgit_id: ''
     name: Suyun
     email: ziyu.oerv@isrc.iscas.ac.cn
-
-
 - repo:
   - src-openeuler/google-cpu_features
   committers:
   - gitee_id: Suyun114
+    atomgit_id: ''
     name: Suyun
     email: ziyu.oerv@isrc.iscas.ac.cn
-
-
 - repo:
   - src-openeuler/volk
   committers:
   - gitee_id: Suyun114
+    atomgit_id: ''
     name: Suyun
     email: ziyu.oerv@isrc.iscas.ac.cn
-
-
 - repo:
   - src-openeuler/yyjson
   committers:
   - gitee_id: mywaaagh_admin
+    atomgit_id: mywaaagh_admin
     name: mywaaagh_admin
     email: pkwarcraft@hotmail.com
-
-
 - repo:
   - src-openeuler/fastfetch
   committers:
   - gitee_id: mywaaagh_admin
+    atomgit_id: mywaaagh_admin
     name: mywaaagh_admin
     email: pkwarcraft@hotmail.com
-
-
 - repo:
   - src-openeuler/lpcnetfreedv
   committers:
   - gitee_id: Suyun114
+    atomgit_id: ''
     name: Suyun
     email: ziyu.oerv@isrc.iscas.ac.cn
-
-
 - repo:
   - src-openeuler/python-dirty-equals
   committers:
   - gitee_id: desert-sailor
+    atomgit_id: DesertSailor2013
     name: DesertSailor_King
     email: dxwangk@isoftstone.com
-
-
 - repo:
   - src-openeuler/scdoc
   committers:
   - gitee_id: fundawang
+    atomgit_id: fundawang
     name: fundawang
     email: fundawang@yeah.net
-
-
 - repo:
   - src-openeuler/codec2
   committers:
   - gitee_id: Suyun114
+    atomgit_id: ''
     name: Suyun
     email: ziyu.oerv@isrc.iscas.ac.cn
-
-
 - repo:
   - src-openeuler/python-orderly-set
   committers:
   - gitee_id: desert-sailor
+    atomgit_id: DesertSailor2013
     name: DesertSailor_King
     email: dxwangk@isoftstone.com
-
-
 - repo:
   - src-openeuler/libyuv
   committers:
   - gitee_id: yangfan-ruan
+    atomgit_id: XXLwhite
     name: yangfanrani
     email: yangfan.oerv@isrc.iscas.ac.cn
-
-
 - repo:
   - src-openeuler/xrdp
   committers:
   - gitee_id: mywaaagh_admin
+    atomgit_id: mywaaagh_admin
     name: mywaaagh_admin
     email: pkwarcraft@hotmail.com
-
-
 - repo:
   - src-openeuler/python-id
   committers:
   - gitee_id: desert-sailor
+    atomgit_id: DesertSailor2013
     name: DesertSailor_King
     email: dxwangk@isoftstone.com
-
-
 - repo:
   - src-openeuler/HdrHistogram_C
   committers:
   - gitee_id: shafeipaozi
+    atomgit_id: ''
     name: shafeipaozi
     email: 2829702579@qq.com
-
-
 - repo:
   - src-openeuler/libebur128
   committers:
   - gitee_id: shafeipaozi
+    atomgit_id: ''
     name: shafeipaozi
     email: 2829702579@qq.com
-
-
 - repo:
   - src-openeuler/pxeuler
   committers:
   - gitee_id: quanag_100
+    atomgit_id: ''
     name: quanag_100
     email: m19902624596@163.com
-
-
 - repo:
   - src-openeuler/llhttp
   committers:
   - gitee_id: shafeipaozi
+    atomgit_id: ''
     name: shafeipaozi
     email: 2829702579@qq.com
-
 - repo:
   - openeuler/conda-ecopkgs
   committers:
   - gitee_id: lu-wei-army
+    atomgit_id: ''
     name: Weijun Lu
     organization: Huawei
     email: wjunlu217@gmail.com
@@ -287,53 +286,48 @@ repositories:
   - src-openeuler/python-backrefs
   committers:
   - gitee_id: desert-sailor
+    atomgit_id: DesertSailor2013
     name: DesertSailor_King
     email: dxwangk@isoftstone.com
-
-
 - repo:
   - src-openeuler/python-dependency-groups
   committers:
   - gitee_id: desert-sailor
+    atomgit_id: DesertSailor2013
     name: DesertSailor_King
     email: dxwangk@isoftstone.com
-
-
 - repo:
   - src-openeuler/python-tomcli
   committers:
   - gitee_id: desert-sailor
+    atomgit_id: DesertSailor2013
     name: DesertSailor_King
     email: dxwangk@isoftstone.com
-
-
 - repo:
   - src-openeuler/python-typing-inspection
   committers:
   - gitee_id: desert-sailor
+    atomgit_id: DesertSailor2013
     name: DesertSailor_King
     email: dxwangk@isoftstone.com
-
-
 - repo:
   - src-openeuler/python-roman-numerals-py
   committers:
   - gitee_id: desert-sailor
+    atomgit_id: DesertSailor2013
     name: DesertSailor_King
     email: dxwangk@isoftstone.com
-
-
 - repo:
   - src-openeuler/python-pyqtgraph
   committers:
   - gitee_id: Suyun114
+    atomgit_id: ''
     name: Suyun
     email: ziyu.oerv@isrc.iscas.ac.cn
-
 - repo:
   - src-openeuler/python-assertpy
   committers:
   - gitee_id: desert-sailor
+    atomgit_id: DesertSailor2013
     name: DesertSailor_King
     email: dxwangk@isoftstone.com
-

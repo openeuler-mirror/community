@@ -4,13 +4,14 @@ created_on: '2019-12-31'
 mailing_list: dev@openeuler.org
 meeting_url: NA
 mature_level: startup
-
 maintainers:
 - gitee_id: Lostwayzxc
+  atomgit_id: lostway1
   name: Luo Shengwei
   organization: Huawei
   email: luoshengwei@huawei.com
 - gitee_id: Charlie_li
+  atomgit_id: Charlie_li1
   name: Yongqiang Li
   organization: xFusion
   email: liyongqiang329@163.com
@@ -250,25 +251,27 @@ repositories:
   - src-openeuler/uuid
   committers:
   - gitee_id: lyn1001
+    atomgit_id: lyn1001
     name: Yanan Li
     organization: Huawei
     email: liyanan32@h-partners.com
   - gitee_id: randy1568
+    atomgit_id: weixin_44206449
     name: lipeng Yuan
     organization: Huawei
     email: yuanlipeng2@huawei.com
   - gitee_id: wk333
+    atomgit_id: wk333
     name: kai Wang
     email: 13474090681@163.com
-
 - repo:
   - src-openeuler/gstreamer1-plugins-bad-free
   committers:
   - gitee_id: peijiankang
+    atomgit_id: peijiankang
     name: peijiankang
     organization: KylinSoft
     email: peijiankang@kylinos.cn
-
 - repo:
   - src-openeuler/python-pytoml
   - src-openeuler/python-pygments
@@ -285,22 +288,23 @@ repositories:
   - src-openeuler/gnome-common
   committers:
   - gitee_id: zengwefeng
+    atomgit_id: Apricity_HW
     name: Weifeng Zeng
     organization: Huawei
     email: zwfeng@huawei.com
   - gitee_id: licihua
+    atomgit_id: licihua
     name: Cihua Li
     organization: Huawei
     email: licihua@huawei.com
-
 - repo:
   - src-openeuler/minizip-ng
   committers:
   - gitee_id: Jingwiw
+    atomgit_id: ''
     name: Jingwei Wang
     organization: iscas
     email: wangjingwei@iscas.ac.cn
-
 - repo:
   - src-openeuler/php
   - src-openeuler/composer
@@ -311,12 +315,13 @@ repositories:
   - src-openeuler/pie
   committers:
   - gitee_id: fundawang
+    atomgit_id: fundawang
     name: Funda Wang
     email: fundawang@yeah.net
   - gitee_id: cherry530
+    atomgit_id: cherry530
     name: ping Xu
     email: 707078654@qq.com
-
 - repo:
   - src-openeuler/R-rpm-macros
   - src-openeuler/R-language
@@ -433,18 +438,20 @@ repositories:
   - src-openeuler/R-zoo
   committers:
   - gitee_id: misaka00251
+    atomgit_id: misaka00251
     name: Xin Liu
     organization: iscas
     email: liuxin@iscas.ac.cn
   - gitee_id: Jingwiw
+    atomgit_id: ''
     name: Jingwei Wang
     organization: iscas
     email: wangjingwei@iscas.ac.cn
   - gitee_id: jchzhou
+    atomgit_id: jchzhou
     name: Jiacheng Zhou
     organization: iscas
     email: zhoujiacheng@iscas.ac.cn
-
 - repo:
   - src-openeuler/libcerror
   - src-openeuler/libcnotify
@@ -454,23 +461,24 @@ repositories:
   - src-openeuler/libfdata
   committers:
   - gitee_id: woqidaideshi
+    atomgit_id: ''
     name: Fang Yafen
     organization: iscas
     email: yafen@iscas.ac.cn
   - gitee_id: misaka00251
+    atomgit_id: misaka00251
     name: Xin Liu
     organization: iscas
     email: liuxin@iscas.ac.cn
-
 - repo:
   - src-openeuler/robin-map
   - src-openeuler/python-nanobind
   committers:
   - gitee_id: fhowq
+    atomgit_id: ''
     name: Fangzhou Du
     organization: iscas
     email: fangzhou.oerv@isrc.iscas.ac.cn
-
 branches:
 - repo_branch:
   - repo: src-openeuler/aiohttp
@@ -478,4 +486,5 @@ branches:
   - repo: src-openeuler/gtest
     branch: Multi-Version_ray_openEuler-22.03-LTS-SP4
   keeper:
-    - gitee_id: xujing99
+  - gitee_id: xujing99
+    atomgit_id: xujing99

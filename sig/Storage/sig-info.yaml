@@ -6,31 +6,37 @@ meeting_url: NA
 mature_level: startup
 maintainers:
 - gitee_id: liuzhiqiang26
+  atomgit_id: liuzhiqiang26
   name: Zhiqiang Liu
   orgnization: Huawei
   email: liuzhiqiang26@huawei.com
 - gitee_id: volcanodragon
+  atomgit_id: dragon1147e3
   name: Feilong Lin
   orgnization: Huawei
   email: linfeilong@huawei.com
 - gitee_id: louhongxiang
+  atomgit_id: louhongxiang
   name: Hongxiang Lou
   orgnization: Huawei
   email: louhongxiang@huawei.com
 - gitee_id: swf504
+  atomgit_id: swf504
   name: Weifeng Su
   orgnization: Huawei
   email: suweifeng1@huawei.com
 - gitee_id: liubo254
+  atomgit_id: VICTORY2017
   name: Bo Liu
   orgnization: Huawei
   email: liubo254@huawei.com
 - gitee_id: kouwq
+  atomgit_id: kouwq
   name: Wenqi Kou
   orgnization: KylinSoft
   email: kouwenqi@kylinos.cn
 repositories:
-- repo: 
+- repo:
   - src-openeuler/system-storage-manager
   - src-openeuler/parted
   - src-openeuler/tcmu-runner
@@ -97,154 +103,162 @@ repositories:
   - src-openeuler/hsak
   - src-openeuler/dump
   - src-openeuler/libserverframe
-
 - repo:
   - src-openeuler/e2fsprogs
   committers:
   # For Lustre related multi-version branches: start with Multi-Version
   - gitee_id: xin3liang
+    atomgit_id: ''
     name: Xinliang Liu
     organization: Linaro
     email: xinliang.liu@linaro.org
   - gitee_id: mszjaas
+    atomgit_id: qq_37517281
     name: zhangjian
     organization: Huawei
     email: zhangjian496@huawei.com
-
 - repo: # For storage REDF
   - openeuler/nvme-snsd
   - src-openeuler/nvme-snsd
   committers:
   - gitee_id: tao191
+    atomgit_id: tao191
     name: Jun Tao Yang
     organization: Huawei
     email: yangjuntao09@huawei.com
   - gitee_id: cygnus1985
+    atomgit_id: cygnus1985
     name: Guo Qin
     organization: Huawei
     email: qinguo@huawei.com
   - gitee_id: chaojiahuoshanga
+    atomgit_id: ''
     name: Peng Fei Gan
     organization: Huawei
     email: ganpengfei@huawei.com
-
 - repo:
   - src-openeuler/damo
   committers:
   - gitee_id: fandeyuan
+    atomgit_id: fandeyuan
     name: Deyuan Fan
     organization: KylinSoft
     email: fandeyuan@kylinos.cn
-
 - repo:
   - src-openeuler/multipath-tools
   - src-openeuler/lvm2
   committers:
   - gitee_id: kouwq
+    atomgit_id: kouwq
     name: Wenqi Kou
     organization: KylinSoft
     email: kouwenqi@kylinos.cn
   - gitee_id: foolstrong
+    atomgit_id: foolstrong
     name: wangzhiqiang
     organization: Huawei
     email: wangzhiqiang95@huawei.com
-
 - repo:
   - src-openeuler/etmem
   - openeuler/etmem
   committers:
   - gitee_id: ezli
+    atomgit_id: ezli
     name: Enze Li
     organization: KylinSoft
     email: lienze@kylinos.cn
-
 - repo:
   - openeuler/storprototrace
   committers:
   - gitee_id: yangzhao_kl
+    atomgit_id: yangzhao_kl
     name: Zhao Yang
     organization: KylinSoft
     email: yangzhao1@kylinos.cn
   - gitee_id: cenhuilin
+    atomgit_id: cenhuilin
     name: Huilin Cen
     organization: KylinSoft
     email: cenhuilin@kylinos.cn
-
 - repo:
   - openeuler/Storage-docs
   committers:
   - gitee_id: mszjaas
+    atomgit_id: qq_37517281
     name: zhangjian
     organization: Huawei
     email: zhangjian496@huawei.com
-
 - repo:
   - src-openeuler/nfs-utils
   committers:
   - gitee_id: mszjaas
+    atomgit_id: qq_37517281
     name: zhangjian
     organization: Huawei
     email: zhangjian496@huawei.com
   - gitee_id: zhangyq_ORZ
+    atomgit_id: zhangyq_ORZ
     name: Yaqi Zhang
     organization: KylinSoft
     email: zhangyaqi@kylinos.cn
-
 - repo:
   - src-openeuler/xfsprogs
   committers:
   - gitee_id: mszjaas
+    atomgit_id: qq_37517281
     name: zhangjian
     organization: Huawei
     email: zhangjian496@huawei.com
   - gitee_id: liuh0329
+    atomgit_id: liuh0329
     name: Huan Liu
     organization: KylinSoft
     email: liuhuan01@kylinos.cn
-
 - repo:
   - src-openeuler/gdbm
   - src-openeuler/cryptsetup
   - src-openeuler/libblockdev
   committers:
   - gitee_id: foolstrong
+    atomgit_id: foolstrong
     name: wangzhiqiang
     organization: Huawei
     email: wangzhiqiang95@huawei.com
-
 - repo:
   - src-openeuler/spdk
   committers:
   - gitee_id: foolstrong
+    atomgit_id: foolstrong
     name: wangzhiqiang
     organization: Huawei
     email: wangzhiqiang95@huawei.com
   - gitee_id: cenhuilin
+    atomgit_id: cenhuilin
     name: Huilin Cen
     organization: KylinSoft
     email: cenhuilin@kylinos.cn
-
 - repo:
   - src-openeuler/glusterfs
   committers:
   - gitee_id: zhangyq_ORZ
+    atomgit_id: zhangyq_ORZ
     name: Yaqi Zhang
     organization: KylinSoft
     email: zhangyaqi@kylinos.cn
-
 - repo:
   - src-openeuler/btrfs-progs
   committers:
   - gitee_id: liuh0329
+    atomgit_id: liuh0329
     name: Huan Liu
     organization: KylinSoft
     email: liuhuan01@kylinos.cn
-
 - repo:
   - src-openeuler/udisks2
   - src-openeuler/mdadm
   committers:
   - gitee_id: cenhuilin
+    atomgit_id: cenhuilin
     name: Huilin Cen
     organization: KylinSoft
     email: cenhuilin@kylinos.cn

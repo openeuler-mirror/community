@@ -5,28 +5,31 @@ meeting_url: https://etherpad.openeuler.org/p/opendesign
 mature_level: startup
 maintainers:
 - gitee_id: stan1023
+  atomgit_id: ''
   name: Zhe Sun
   email: ucd.sunzhe@huawei.com
 - gitee_id: pig-s-trotters
+  atomgit_id: ''
   name: Sting Zhang
   email: zhangshuting@openeuler.sh
 - gitee_id: devin-cwd
+  atomgit_id: devin-cwd
   name: Wendong Cao
   email: caowendong@huawei.com
 - gitee_id: genedna
+  atomgit_id: ''
   name: Quanyi Ma
   email: eli@patch.sh
 - gitee_id: gzbang
+  atomgit_id: gzbang
   name: Zhuangbang Gong
   email: 15622356989@163.com
-
 repositories:
 - repo:
   - openeuler/opendesign
   - openeuler/opendesign-components
   - openeuler/opendesign-analytics
   - openeuler/opendesign-token
-
 - repo:
   - openeuler/opendesign-resources
   - openeuler/opendesign-templates
@@ -39,9 +42,9 @@ repositories:
   - openeuler/docs-website
   committers:
   - gitee_id: xiaoshiziya
+    atomgit_id: persimmonzzz
     name: Shijun Huang
     email: huangshijun4@huawei.com
-
 - repo:
   - openeuler/openEuler-portal
   - openeuler/openEuler-portal-ar
@@ -49,8 +52,10 @@ repositories:
   - openeuler/easy-software
   committers:
   - gitee_id: xiaoshiziya
+    atomgit_id: persimmonzzz
     name: Shijun Huang
     email: huangshijun4@huawei.com
   - gitee_id: ailoooong
+    atomgit_id: ailoooong
     name: Long Ai
     email: ilong8@qq.com

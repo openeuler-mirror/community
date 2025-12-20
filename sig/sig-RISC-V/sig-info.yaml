@@ -4,104 +4,116 @@ created_on: '2020-04-14'
 mailing_list: riscv@openeuler.org
 meeting_url: https://etherpad.openeuler.org/p/sig-RISC-V-meetings
 mature_level: startup
-
 maintainers:
 - gitee_id: wuwei_kubuds
+  atomgit_id: ''
   name: Wei Wu
   organization: kubuds
   email: w@kubuds.cn
 - gitee_id: whoisxxx
+  atomgit_id: whoisxxx
   name: Xuzhou Zhang
   organization: huawei
   email: zhangxuzhou4@huawei.com
 - gitee_id: liqingqing_1229
+  atomgit_id: liqingqing_1229
   name: Qingqing Li
   organization: huawei
-  email: 
+  email: null
 - gitee_id: liliang_euler
+  atomgit_id: liliang_euler
   name: Liang Li
   organization: huawei
   email: liliang889@huawei.com
 - gitee_id: dongduResearcher
+  atomgit_id: ''
   name: Dong Du
   organization: sjtu
   email: Dd_nirvana@sjtu.edu.cn
 - gitee_id: geasscore
+  atomgit_id: ''
   name: Junqiang Wang
   organization: iscas
   email: wangjunqiang@iscas.ac.cn
 - gitee_id: phoebe-xi
+  atomgit_id: ''
   name: Jing Xi
   organization: iscas
   email: xijing@iscas.ac.cn
 - gitee_id: wangyangdahai
+  atomgit_id: ''
   name: Yang Wang
   organization: iscas
   email: admin@you2.top
 - gitee_id: laokz
+  atomgit_id: laokz
   name: Kai Zhang
   organization: iscas
   email: laokz@foxmail.com
 - gitee_id: misaka00251
+  atomgit_id: misaka00251
   name: Xin Liu
   organization: iscas
   email: liuxin@iscas.ac.cn
 - gitee_id: jchzhou
+  atomgit_id: jchzhou
   name: Jiacheng Zhou
   organization: iscas
   email: zhoujiacheng@iscas.ac.cn
 - gitee_id: Jingwiw
+  atomgit_id: ''
   name: Jingwei Wang
   organization: iscas
   email: wangjingwei@iscas.ac.cn
-
 repositories:
 - repo:
   - openeuler/RISC-V
   committers:
   - gitee_id: yunxiangluo
+    atomgit_id: ''
     name: Yunxiang Luo
     organization: iscas
     email: luoyunxiang@iscas.ac.cn
-
 - repo:
   - openeuler/riscv-kernel
   committers:
   - gitee_id: xingmz
+    atomgit_id: xingmz1
     name: Mingzheng Xing
     organization: iscas
     email: xingmingzheng@iscas.ac.cn
-
 - repo:
   - src-openeuler/opensbi
   committers:
   - gitee_id: dongduResearcher
+    atomgit_id: ''
     name: Dong Du
     organization: sjtu
     email: Dd_nirvana@sjtu.edu.cn
-
 - repo:
   - src-openeuler/firesim
   committers:
   - gitee_id: YukariChiba
+    atomgit_id: ''
     name: Chang Yang
-
 - repo:
   - src-openeuler/mold
   committers:
   - gitee_id: misaka00251
+    atomgit_id: misaka00251
     name: Xin Liu
     organization: iscas
     email: liuxin@iscas.ac.cn
   - gitee_id: Jingwiw
+    atomgit_id: ''
     name: Jingwei Wang
     organization: iscas
     email: wangjingwei@iscas.ac.cn
   - gitee_id: jchzhou
+    atomgit_id: jchzhou
     name: Jiacheng Zhou
     organization: iscas
     email: zhoujiacheng@iscas.ac.cn
-
 - repo:
   - src-openeuler/liberation-narrow-fonts
   - src-openeuler/amiri-fonts
@@ -115,15 +127,16 @@ repositories:
   - src-openeuler/libe-book
   committers:
   - gitee_id: misaka00251
+    atomgit_id: misaka00251
     name: Xin Liu
     organization: iscas
     email: liuxin@iscas.ac.cn
-
 - repo:
   - src-openeuler/vscodium
   - src-openeuler/yarnpkg
   committers:
   - gitee_id: misaka00251
+    atomgit_id: misaka00251
     name: Xin Liu
     organization: iscas
     email: liuxin@iscas.ac.cn

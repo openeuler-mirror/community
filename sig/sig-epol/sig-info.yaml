@@ -1,29 +1,29 @@
 name: sig-epol
-description: Complementing the openEuler LTS and innovative version package repositories to provide the openEuler community with the richest possible packages. 
+description: Complementing the openEuler LTS and innovative version package repositories to provide the openEuler community with the richest possible packages.
 created_on: '2021-09-16'
 mailing_list: dev@openeuler.org
-meeting_url: 
+meeting_url: null
 mature_level: startup
 maintainers:
 - gitee_id: small_leek
+  atomgit_id: small_leek
   name: xiasenlin
   organization: huawei
   email: xiasenlin1@huawei.com
 - gitee_id: solarhu
+  atomgit_id: solarhu
   name: hufeng
   organization: huawei
   email: solar.hu@huawei.com
-
 repositories:
-
 - repo:
   - src-openeuler/doracms
   committers:
   - gitee_id: doramart
+    atomgit_id: doramart1
     name: xiao shen
     organization: iscas
     email: xiaoshen@isrc.iscas.ac.cn
-
 - repo:
   - src-openeuler/whois
   - src-openeuler/masscan
@@ -33,6 +33,7 @@ repositories:
   - src-openeuler/nfdump
   committers:
   - gitee_id: liheavy
+    atomgit_id: ''
     name: lihaiwei
     organization: huawei
     email: lihaiwei8@huawei.com
@@ -77,13 +78,16 @@ repositories:
   - src-openeuler/ceres-solver
   committers:
   - gitee_id: Lostwayzxc
+    atomgit_id: lostway1
     name: Luo Shengwei
     organization: huawei
     email: luoshengwei@huawei.com
   - gitee_id: lyn1001
+    atomgit_id: lyn1001
     name: yanan Li
     email: liyanan61@h-partners.com
   - gitee_id: cherry530
+    atomgit_id: cherry530
     name: ping Xu
     email: 707078654@qq.com
 - repo:
@@ -94,6 +98,7 @@ repositories:
   - src-openeuler/libnatpmp
   committers:
   - gitee_id: small_leek
+    atomgit_id: small_leek
     name: xiasenlin
     organization: huawei
     email: xiasenlin1@huawei.com
@@ -104,6 +109,7 @@ repositories:
   - src-openeuler/wordpress
   committers:
   - gitee_id: duyiwei7w
+    atomgit_id: duyiwei7w
     name: duyiwei
     organization: KylinSoft
     email: duyiwei@kylinos.cn
@@ -144,7 +150,6 @@ repositories:
   - src-openeuler/openslide
   - src-openeuler/asdcplib
   - src-openeuler/arpack
-
 - repo:
   - src-openeuler/i3
   - src-openeuler/i3status
@@ -157,14 +162,15 @@ repositories:
   - src-openeuler/xcompmgr
   committers:
   - gitee_id: mywaaagh_admin
+    atomgit_id: mywaaagh_admin
     name: Li Chaoran
     organization: Huawei
     email: pkwarcraft@hotmail.com
-
 - repo:
   - src-openeuler/opennjet
   committers:
   - gitee_id: hongxintml
+    atomgit_id: ''
     name: Hong Xin
     organization: tmlake
     email: hongxina@tmlake.com
@@ -182,14 +188,17 @@ repositories:
   - src-openeuler/libspatialaudio
   committers:
   - gitee_id: Jingwiw
+    atomgit_id: ''
     name: Jingwei Wang
     organization: iscas
     email: wangjingwei@iscas.ac.cn
   - gitee_id: misaka00251
+    atomgit_id: misaka00251
     name: Xin Liu
     organization: iscas
     email: liuxin@iscas.ac.cn
   - gitee_id: jchzhou
+    atomgit_id: jchzhou
     name: Jiacheng Zhou
     organization: iscas
     email: zhoujiacheng@iscas.ac.cn

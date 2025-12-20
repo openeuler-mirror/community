@@ -6,24 +6,31 @@ meeting_url: https://etherpad.openeuler.org/p/sig-gatekeeper
 mature_level: startup
 maintainers:
 - gitee_id: georgecao
+  atomgit_id: georgecao
   name: George.Cao
   email: caozhi1214@qq.com
 - gitee_id: solarhu
+  atomgit_id: solarhu
   name: solarhu
   email: solar.hu@huawei.com
 - gitee_id: wangchong1995924
+  atomgit_id: ''
   name: chong_W
   email: wangchong56@huawei.com
 - gitee_id: TommyLike
+  atomgit_id: TommyLike
   name: TommyLike
   email: tommylikehu@gmail.com
-- gitee_id: yang-chaohao 
+- gitee_id: yang-chaohao
+  atomgit_id: yang-chaohao
   name: YangChaohao
   email: yangchaohao@huawei.com
 - gitee_id: yushi-Icy
+  atomgit_id: yushi-Icy
   name: YuShi
   email: yushi2@huawei.com
 - gitee_id: disnight
+  atomgit_id: disnight
   name: disnight
   email: fanjiachen3@huawei.com
 repositories:
@@ -31,9 +38,10 @@ repositories:
   - openeuler/openeuler-jenkins
   committers:
   - gitee_id: wanghuan158
+    atomgit_id: ''
     name: wanghuan
     email: wanghuan3456@163.com
-- repo: 
+- repo:
   - openeuler/ci-bot
   - openeuler/CreateImage
   - openeuler/openEuler_chroot

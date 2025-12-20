@@ -6,26 +6,30 @@ meeting_url: https://etherpad.openeuler.org/p/ai-meetings
 mature_level: startup
 maintainers:
 - gitee_id: jimmy_hero
+  atomgit_id: kaitiandu
   name: dukaitian
   organization: Huawei
   email: dukaitian@huawei.com
 - gitee_id: weixizhu94
+  atomgit_id: ''
   name: zhuweixi
   organization: Huawei
   email: weixi.zhu@huawei.com
 - gitee_id: sinever
+  atomgit_id: ''
   name: zhengxian
   organization: Huawei
   email: sinever@126.com
 - gitee_id: zhushoukui
+  atomgit_id: ''
   name: zhushoukui
   organization: JD
   email: zhushoukui1@jd.com
 - gitee_id: anhongkui
+  atomgit_id: ''
   name: anhongkui
   organization: JD
   email: anhongkui@jd.com
-
 repositories:
 - repo:
   - src-openeuler/incubator-mxnet
@@ -87,62 +91,63 @@ repositories:
   - src-openeuler/protocolbuffers-upb
   - src-openeuler/python-build-standalone
   - src-openeuler/onnx
-
 - repo:
   - src-openeuler/mindspore
   committers:
   - gitee_id: zhunaipan
+    atomgit_id: zhunaipan
     name: zhunaipan
     email: zhunaipan@huawei.com
-
 - repo:
   - src-openeuler/oneDNN
   committers:
   - gitee_id: lilinjie11
+    atomgit_id: lilinjie11
     name: lilinjie
     email: lilinjie11@huawei.com
-
 - repo:
   - src-openeuler/opencv
   committers:
   - gitee_id: shenwei41
+    atomgit_id: shenwei41
     name: shenwei41
     email: shenwei41@huawei.com
-
 - repo:
   - src-openeuler/sentencepiece
   committers:
   - gitee_id: liu-yongqi-63
+    atomgit_id: ''
     name: liu-yongqi-63
     email: liuyongqi5@huawei.com
-
 - repo:
   - openeuler/DiffSynth-Engine
   committers:
   - gitee_id: lsxlee99
+    atomgit_id: lsxlee99
     name: lishixian
     email: lishixian8@huawei.com
   - gitee_id: yhl777
+    atomgit_id: yhl777
     name: luoyuanhao
     email: luoyuanhao6@huawei.com
-
 - repo:
   - openeuler/kunpeng-extension-for-pytorch
   committers:
   - gitee_id: liu-jianguo2024
+    atomgit_id: ''
     name: jianguo liu
     email: liujianguo14@huawei.com
-
 - repo:
   - src-openeuler/vllm
   committers:
   - gitee_id: gongzequn
+    atomgit_id: Sterling-Gong
     name: gongzequn
     email: gongzequn1@huawei.com
-
 branches:
 - repo_branch:
   - repo: src-openeuler/bazel
     branch: Multi-Version_ray_openEuler-22.03-LTS-SP4
   keeper:
-    - gitee_id: xujing99
+  - gitee_id: xujing99
+    atomgit_id: xujing99

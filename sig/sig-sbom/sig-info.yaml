@@ -2,43 +2,47 @@ name: sig-sbom
 description: sig-sbom is a working group dedicated to incubating sbom applications and toolchains, with a vision to integrate sbom tools.
 created_on: '2024-05-22'
 maintainers:
-  - gitee_id: luoyukai
-    name: Yukai Luo
-    organization: Huawei
-    email: luoyukai@huawei.com
-  - gitee_id: kentado
-    name: Quansong Du
-    organization: Huawei
-    email: duquansong@huawei.com
-  - gitee_id: Fa1c0n
-    name: ZhaoYu Jiang
-    organization: KylinSoft
-    email: jiangzhaoyu@kylinos.cn
+- gitee_id: luoyukai
+  atomgit_id: ''
+  name: Yukai Luo
+  organization: Huawei
+  email: luoyukai@huawei.com
+- gitee_id: kentado
+  atomgit_id: kentado
+  name: Quansong Du
+  organization: Huawei
+  email: duquansong@huawei.com
+- gitee_id: Fa1c0n
+  atomgit_id: Fa1c0n
+  name: ZhaoYu Jiang
+  organization: KylinSoft
+  email: jiangzhaoyu@kylinos.cn
 repositories:
-  - repo:
-      - openeuler/sbom-service
-      - openeuler/sbom-tools
-      - openeuler/sbom-website
-      - openeuler/sbom-files
-    committers:
-      - gitee_id: liu_zhengjun
-        name: Zhengjun Liu
-        email: liuzhengjun5@huawei.com
-      - gitee_id: zhangzeyang0718 
-        name: ZeYang Zhang
-        organization: KylinSoft
-        email: zhangzeyang@kylinos.cn
-
-  - repo:
-      - openeuler/xlin-sbom
-      - openeuler/xlin-sbom-analysis
-      - src-openeuler/xlin-sbom-analysis
-    committers:
-      - gitee_id: albert-leo
-        name: Mao Yihui
-        email: dev13401@linx-info.com
-      - gitee_id: tianwei-li
-        name: Li Tianwei
-        email: dev13204@linx-info.com
-
-
+- repo:
+  - openeuler/sbom-service
+  - openeuler/sbom-tools
+  - openeuler/sbom-website
+  - openeuler/sbom-files
+  committers:
+  - gitee_id: liu_zhengjun
+    atomgit_id: liu_zhengjun
+    name: Zhengjun Liu
+    email: liuzhengjun5@huawei.com
+  - gitee_id: zhangzeyang0718
+    atomgit_id: ''
+    name: ZeYang Zhang
+    organization: KylinSoft
+    email: zhangzeyang@kylinos.cn
+- repo:
+  - openeuler/xlin-sbom
+  - openeuler/xlin-sbom-analysis
+  - src-openeuler/xlin-sbom-analysis
+  committers:
+  - gitee_id: albert-leo
+    atomgit_id: albert-leo
+    name: Mao Yihui
+    email: dev13401@linx-info.com
+  - gitee_id: tianwei-li
+    atomgit_id: tianwei-li
+    name: Li Tianwei
+    email: dev13204@linx-info.com

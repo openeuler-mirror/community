@@ -5,28 +5,32 @@ meeting_url: NA
 mature_level: startup
 maintainers:
 - gitee_id: blue0613
+  atomgit_id: blue0613
   name: Guijin Gao
   organization: Huawei
   email: gaoguijin@huawei.com
 - gitee_id: chenmaodong
+  atomgit_id: chenmaodong
   name: Maodong Chen
   organization: Xfusion
   email: chenmaodong@xfusion.com
 - gitee_id: wolfkernel
+  atomgit_id: wolfkernel
   name: Linhao Zhang
   organization: Huawei
   email: zhanglinhao@huawei.com
 - gitee_id: dongdo-yao
+  atomgit_id: dongdo-yao
   name: Dongdong Yao
   organization: Huawei
   email: yaodongdong@huawei.com
 - gitee_id: houmingyong
+  atomgit_id: houmingyong
   name: Mingyong Hou
   organization: Huawei
   email: houmingyong@huawei.com
-
 repositories:
-- repo: 
+- repo:
   - openeuler/secGear
   - openeuler/itrustee_sdk
   - src-openeuler/linux-sgx
@@ -37,38 +41,42 @@ repositories:
   - src-openeuler/intel-device-plugins-for-kubernetes
   committers:
   - gitee_id: BornThisWay
+    atomgit_id: ''
     name: Yu Wang
     email: wangyu283@huawei.com
   - gitee_id: hzero1996
+    atomgit_id: ''
     name: Cheng Wang
     email: wangcheng156@huawei.com
-
 - repo:
   - openeuler/CCA
   committers:
   - gitee_id: kevinzs
+    atomgit_id: ''
     name: Kevin Zhao
     organization: Linaro
     email: kevin.zhao@linaro.org
   - gitee_id: guangwei-zhou
+    atomgit_id: guangwei-zhou
     name: Guangwei Zhou
     email: zhouguangwei5@huawei.com
   - gitee_id: maxmadmax
+    atomgit_id: maxmadmax
     name: Kun Cheng
     email: chengkun12@huawei.com
-
 - repo:
   - openeuler/tee-gp-proxy
   committers:
   - gitee_id: lixiaomingg
+    atomgit_id: ''
     name: li huhua
     organization: Huawei
     email: lihuhua@huawei.com
   - gitee_id: shen-guohua
+    atomgit_id: ''
     name: shen guohua
     organization: Huawei
     email: haile.shenguohua@huawei.com
-
 - repo:
   - openeuler/virtCCA_sdk
   - openeuler/virtCCA_driver
@@ -76,27 +84,30 @@ repositories:
   - src-openeuler/virtCCA_driver
   committers:
   - gitee_id: lixiaomingg
+    atomgit_id: ''
     name: li huhua
     organization: Huawei
     email: lihuhua@huawei.com
   - gitee_id: hjx_gitff
+    atomgit_id: hjx_gitff
     name: he jingxian
     organization: Huawei
     email: hejingxian@huawei.com
   - gitee_id: gongchangsui
+    atomgit_id: gongchangsui
     name: zhang qiang
     organization: Huawei
     email: zhangqiang226@huawei.com
-
-
 - repo:
   - openeuler/guest-components
   committers:
   - gitee_id: jiayi0118
+    atomgit_id: jiayi0118
     name: Chen Jiayi
     organization: Huawei
     email: chenjiayi22@huawei.com
   - gitee_id: huoqifeng
+    atomgit_id: huoqifeng
     name: huoqifeng
     organization: JD
     email: huoqifeng1@jd.com

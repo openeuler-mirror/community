@@ -6,48 +6,56 @@ meeting_url: NA
 mature_level: startup
 maintainers:
 - gitee_id: myeuler
+  atomgit_id: ''
   name: wei Xiong
   organization: Huawei
   email: myeuler@163.com
 - gitee_id: love_hangzhou
+  atomgit_id: ''
   name: shiyuan Hu
   organization: Huawei
   email: 421699196@qq.com
 - gitee_id: forrest_ly
+  atomgit_id: ''
   name: forrest_ly
   organization: anolis
   email: flin@linux.alibaba.com
 - gitee_id: licihua
+  atomgit_id: licihua
   name: cihua Li
   organization: Huawei
   email: licihua@huawei.com
 - gitee_id: ethan848
+  atomgit_id: ''
   name: fangsen Ming
   organization: Huawei
   email: mingfangsen@huawei.com
 - gitee_id: fcwicky
+  atomgit_id: ''
   name: wei Wei
   organization: Huawei
   email: wick.wei@huawei.com
 - gitee_id: overweight
+  atomgit_id: overweight
   name: xiaowen He
   organization: Huawei
   email: hexiaowen@huawei.com
 - gitee_id: yanan-rock
+  atomgit_id: yanan-rock
   name: an Yan
   organization: Huawei
   email: yanan@huawei.com
 - gitee_id: jingxiaolu
+  atomgit_id: ''
   name: jingxiao Lu
   organization: Huawei
   email: lujingxiao@huawei.com
-
-
 repositories:
 - repo:
   - src-openeuler/btop
   committers:
   - gitee_id: wyxaihjr
+    atomgit_id: ''
     name: Yuexiang Wang
     organization: iscas
     email: yuexiang.oerv@isac.iscas.ac.cn
@@ -56,24 +64,30 @@ repositories:
   - src-openeuler/c2rust
   committers:
   - gitee_id: zone-lei
+    atomgit_id: ''
     name: lei Xia
     email: xialeics@mail.ustc.edu.cn
   - gitee_id: wangqifan
+    atomgit_id: ''
     name: qifan Wang
     email: wangqifan1003@gmail.com
   - gitee_id: pnext
+    atomgit_id: ''
     name: xiangjun Han
     email: 843609378@qq.com
   - gitee_id: wyf
+    atomgit_id: ''
     name: yufei Wu
     email: 763257820@qq.com
   - gitee_id: huangduirong
+    atomgit_id: huangduirong
     name: huangduirong
     email: huangduirong@huawei.com
 - repo:
   - src-openeuler/htop
   committers:
   - gitee_id: xiezhipeng1
+    atomgit_id: ''
     name: zhipeng Xie
     organization: Huawei
     email: xiezhipeng1@huawei.com
@@ -82,6 +96,7 @@ repositories:
   - src-openeuler/stress-ng
   committers:
   - gitee_id: overweight
+    atomgit_id: overweight
     name: xiaowen He
     organization: Huawei
     email: hexiaowen@huawei.com
@@ -90,40 +105,45 @@ repositories:
   - src-openeuler/wpebackend-fdo
   committers:
   - gitee_id: bitcoffee
+    atomgit_id: bitcoffee
     name: xin Liu
     organization: Huawei
     email: liuxin350@huawei.com
-
 - repo:
   - openeuler/sysmaster
   - src-openeuler/sysmaster
   repo_admin:
   - gitee_id: overweight
+    atomgit_id: overweight
     name: He Xiaowen
     organization: Huawei
     email: hexiaowen@huawei.com
   - gitee_id: love_hangzhou
+    atomgit_id: ''
     name: shiyuan Hu
     organization: Huawei
     email: 421699196@qq.com
   committers:
   - gitee_id: licunlong
+    atomgit_id: ''
     name: licunlong
     organization: Huawei
     email: licunlong1@huawei.com
   - gitee_id: dracoding
+    atomgit_id: dracoding
     name: Li Xiaoguang
     organization: Huawei
     email: lixiaoguang2@huawei.com
   - gitee_id: xuxiaozhou1
+    atomgit_id: ''
     name: Xu Xiaozhou
     organization: Huawei
     email: xuxiaozhou1@huawei.com
   - gitee_id: jiayi0118
+    atomgit_id: jiayi0118
     name: Chen Jiayi
     organization: Huawei
     email: chenjiayi22@huawei.com
-
 - repo:
   - src-openeuler/bridge-method-injector
   - src-openeuler/nodejsporter
@@ -382,19 +402,23 @@ repositories:
   - src-openeuler/unifdef
   committers:
   - gitee_id: caodongxia
+    atomgit_id: caodongxia
     name: dongxia Cao
     organization: Huawei
     email: caodongxia@h-partners.com
   - gitee_id: wk333
+    atomgit_id: wk333
     name: kai Wang
     email: 13474090681@163.com
   - gitee_id: wang--ge
+    atomgit_id: wang--ge
     name: ge Wang
     email: wang__ge@126.com
 - repo:
   - src-openeuler/nload
   committers:
   - gitee_id: young1c
+    atomgit_id: ''
     name: yicong Yang
     organization: Huawei
     email: yangyicong@huawei.com
@@ -402,10 +426,12 @@ repositories:
   - src-openeuler/OpenCSD
   committers:
   - gitee_id: hejunhao3
+    atomgit_id: ''
     name: Junhao He
     organization: Huawei
     email: hejunhao3@huawei.com
   - gitee_id: youngersun
+    atomgit_id: young-sun
     name: Yang Shen
     organization: Huawei
     email: shenyang39@huawei.com
@@ -415,14 +441,15 @@ repositories:
   - src-openeuler/rubyporter
   committers:
   - gitee_id: caodongxia
+    atomgit_id: caodongxia
     name: dongxia Cao
     organization: Huawei
     email: caodongxia@h-partners.com
   - gitee_id: mywaaagh_admin
+    atomgit_id: mywaaagh_admin
     name: Li Chaoran
     organization: Huawei
     email: pkwarcraft@hotmail.com
-
 - repo:
   - openeuler/memwatch
   - openeuler/trucker
@@ -433,45 +460,52 @@ repositories:
   - openeuler/pkgporter
   - openeuler/abichecker
   - openeuler/auto_py2to3
-
 - repo:
   - openeuler/pyporter
   - openeuler/rubyporter
   - openeuler/perlporter
   committers:
   - gitee_id: mywaaagh_admin
+    atomgit_id: mywaaagh_admin
     name: Li Chaoran
     organization: Huawei
     email: pkwarcraft@hotmail.com
-
 - repo:
   - src-openeuler/mock
   - src-openeuler/mock-core-configs
   committers:
   - gitee_id: mywaaagh_admin
+    atomgit_id: mywaaagh_admin
     name: Li Chaoran
     organization: Huawei
     email: pkwarcraft@hotmail.com
   - gitee_id: georgecao
+    atomgit_id: georgecao
     name: George.Cao
     organization: Huawei
     email: caozhi1214@qq.com
   - gitee_id: TommyLike
+    atomgit_id: TommyLike
     name: TommyLike
     email: tommylikehu@gmail.com
   - gitee_id: zhongjun2
+    atomgit_id: zhongjun2
     name: zhongjun2
     email: 526521735@qq.com
   - gitee_id: zengchen1024
+    atomgit_id: zengchen1024
     name: cheng zen
     email: chenzeng765@163.com
   - gitee_id: youyifeng
+    atomgit_id: youyifeng
     name: youyifeng
     email: youyf2@chinatelecom.cn
   - gitee_id: wuzimo
+    atomgit_id: ''
     name: wukaishuns
     email: wuksh@chinatelecom.cn
   - gitee_id: ctyunsystem
+    atomgit_id: ''
     name: ctyunsystem
     email: ctyuncommiter05@chinatelecom.cn
 - repo:
@@ -482,68 +516,76 @@ repositories:
   - src-openeuler/glances
   - src-openeuler/kmod-v4l2loopback
   - src-openeuler/v4l2loopback
-  
 - repo:
   - src-openeuler/bat
   committers:
   - gitee_id: void0red
+    atomgit_id: ''
     name: Kang Chen
     organization: HUST-SAS
     email: void0red@hust.edu.cn
-
 - repo:
   - src-openeuler/QingShuang
   committers:
   - gitee_id: ampereufo
+    atomgit_id: ''
     name: Tie Ma
     organization: RuTe
     email: ampereufo@qq.com
-
 - repo:
   - src-openeuler/openInula
   committers:
-  - gitee_id:  yangxuting
+  - gitee_id: yangxuting
+    atomgit_id: ''
     name: Xuting Yang
     organization: Huawei
     email: yangxuting1@huawei.com
-
 - repo:
-    - openeuler/qingzhou
-    - src-openeuler/qingzhou
+  - openeuler/qingzhou
+  - src-openeuler/qingzhou
   committers:
   - gitee_id: wangpl0313
+    atomgit_id: wangpl0313
     name: wangpl
     organization: Tongtech
     email: wangpl@tongtech.com
   - gitee_id: xuyn-microworld
+    atomgit_id: xuyn-microworld
     name: Ya Nan Xu
     organization: Tongtech
     email: xuyn@tongtech.com
   - gitee_id: hungj
+    atomgit_id: ''
     name: Lei Huang
     organization: Tongtech
     email: huangl@tongtech.com
   - gitee_id: chengfujuan
+    atomgit_id: ''
     name: Fu Juan Cheng
     organization: Tongtech
     email: chengfj@tongtech.com
   - gitee_id: luketech
+    atomgit_id: luketech
     name: yuanwc
     organization: Tongtech
     email: yuanwc@tongtech.com
   - gitee_id: mjjy8023
+    atomgit_id: ''
     name: Jun Ma
     organization: Tongtech
     email: majun@tongtech.com
   - gitee_id: yyxzkc
+    atomgit_id: ''
     name: Yun Xiu Yu
     organization: Tongtech
     email: yuyx@tongtech.com
   - gitee_id: zero789
-    name:  Lin Xia Liao
+    atomgit_id: ''
+    name: Lin Xia Liao
     organization: Tongtech
     email: liaolx@tongtech.com
   - gitee_id: s9135
+    atomgit_id: ''
     name: Jian Liang Shi
     organization: Tongtech
     email: shijl@tongtech.com
@@ -551,6 +593,7 @@ repositories:
   - src-openeuler/ncnn
   committers:
   - gitee_id: shafeipaozi
+    atomgit_id: ''
     name: Bo Sun
     organization: iscas
     email: sunbo.oerv@isac.iscas.ac.cn
@@ -563,6 +606,7 @@ repositories:
   - src-openeuler/c-blosc2
   committers:
   - gitee_id: shafeipaozi
+    atomgit_id: ''
     name: Bo Sun
     organization: iscas
     email: sunbo.oerv@isac.iscas.ac.cn

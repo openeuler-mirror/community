@@ -1,26 +1,33 @@
 name: sig-Intel-Arch
-description: 'openEuler Intel Arch SIG'
+description: openEuler Intel Arch SIG
 mailing_list: sig-intel-arch@openeuler.org
 maintainers:
 - gitee_id: juntianlinux
+  atomgit_id: ''
   name: Jun Tian
   email: jun.j.tian@intel.com
 - gitee_id: chenxi-mao
+  atomgit_id: ''
   name: Chenxi Mao
   email: chenxi.mao@suse.com
 - gitee_id: junyang-suse
+  atomgit_id: ''
   name: Jun Yang
   email: jun.yang@suse.com
 - gitee_id: gjiang
+  atomgit_id: ''
   name: Guoqing Jiang
   email: guoqing.jiang@suse.com
 - gitee_id: geliangtang
+  atomgit_id: ''
   name: Geliang Tang
   email: tanggeliang@kylinos.cn
 - gitee_id: x56Jason
+  atomgit_id: zeng_zhaorong
   name: Jason Zeng
   email: jason.zeng@intel.com
 - gitee_id: allen-shi
+  atomgit_id: allen-shi
   name: Aichun Shi
   email: aichun.shi@intel.com
 repositories:
@@ -40,81 +47,105 @@ repositories:
   - src-openeuler/openvino
   committers:
   - gitee_id: jiayingbao
+    atomgit_id: jiayingbao
     name: Yingbao Jia
     email: yingbao.jia@intel.com
   - gitee_id: youquan_song
+    atomgit_id: ''
     name: Youquan Song
     email: youquan.song@intel.com
   - gitee_id: zhiquan1-li
+    atomgit_id: zhiquan1-li
     name: Zhiquan Li
     email: zhiquan1.li@intel.com
   - gitee_id: etzhao
+    atomgit_id: ''
     name: Haifeng Zhao
     email: haifeng.zhao@linux.intel.com
   - gitee_id: linwang_68f8
+    atomgit_id: ''
     name: Lin Wang
     email: lin.x.wang@intel.com
   - gitee_id: yunyingsun
+    atomgit_id: ''
     name: Yunying Sun
     email: yunying.sun@intel.com
   - gitee_id: wuzheng_e61f
+    atomgit_id: ''
     name: Wu Zheng
     email: wu.zheng@intel.com
   - gitee_id: qwei_8848
+    atomgit_id: ''
     name: Qiang Wei
     email: qiang.wei@suse.com
   - gitee_id: xiaochenshen
+    atomgit_id: ''
     name: Xiaochen Shen
     email: xiaochen.shen@intel.com
   - gitee_id: aubrey-intel
+    atomgit_id: aubrey-intel
     name: Aubrey Li
     email: aubrey.li@intel.com
   - gitee_id: quanxian-2021
+    atomgit_id: ''
     name: Quanxian Wang
     email: quanxian.wang@intel.com
   - gitee_id: rzhang1
+    atomgit_id: rzhang1
     name: Zhang Rui
     email: rui.zhang@intel.com
   - gitee_id: xiaolong-wang-intel
+    atomgit_id: ''
     name: Xiaolong Wang
     email: xiaolong.wang@intel.com
   - gitee_id: yuzhang_intel
+    atomgit_id: ''
     name: Yu Zhang
     email: yu.c.zhang@linux.intel.com
   - gitee_id: wjin123
+    atomgit_id: ''
     name: Wen Jin
     email: wen.jin@intel.com
   - gitee_id: jun_miao
+    atomgit_id: ''
     name: Jun Miao
     email: jun.miao@intel.com
   - gitee_id: zhiminghufighting
+    atomgit_id: ''
     name: Zhiming Hu
     email: zhiming.hu@intel.com
   - gitee_id: wisespreading
+    atomgit_id: ''
     name: Jincheng Miao
     email: jincheng.miao@intel.com
   - gitee_id: samzhangss
+    atomgit_id: ''
     name: Shanshan Zhang
     email: shanshan.zhang@intel.com
   - gitee_id: roost2007
+    atomgit_id: ''
     name: Huaisheng Ye
     email: huaisheng.ye@intel.com
   - gitee_id: liangintel
+    atomgit_id: ''
     name: Liang Fang
     email: liang.a.fang@intel.com
   - gitee_id: Ailin-Xu
+    atomgit_id: Ailin-Xu
     name: Ailin Xu
     email: ailin.xu@intel.com
 - repo:
   - openeuler/intel-lkvs
   committers:
   - gitee_id: syqust
+    atomgit_id: ''
     name: Yi Sun
     email: yi.sun@intel.com
 - repo:
   - src-openeuler/accel-config
   committers:
   - gitee_id: xiaochenshen
+    atomgit_id: ''
     name: Xiaochen Shen
     email: xiaochen.shen@intel.com
 - repo:
@@ -123,9 +154,11 @@ repositories:
   - src-openeuler/intel-ice
   committers:
   - gitee_id: shangbaogen
+    atomgit_id: shangbaogen
     name: Baogen Shang
     email: baogen.shang@windriver.com
   - gitee_id: qiminghuhu
+    atomgit_id: ''
     name: Qiming Yang
     email: qiming.yang@intel.com
 - repo:
@@ -138,8 +171,10 @@ repositories:
   - src-openeuler/intel-qpl
   committers:
   - gitee_id: allen-shi
+    atomgit_id: allen-shi
     name: Aichun Shi
     email: aichun.shi@intel.com
   - gitee_id: liangintel
+    atomgit_id: ''
     name: Liang Fang
     email: liang.a.fang@intel.com
