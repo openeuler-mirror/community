@@ -1,64 +1,75 @@
 name: sig-memsafety
-description: This is a memsafety sig. 
+description: This is a memsafety sig.
 created_on: '2023-06-02'
 mailing_list: NA
 meeting_url: NA
 mature_level: startup
-mentors:
+mentors: null
 maintainers:
 - gitee_id: ut-wanglujun
+  atomgit_id: lujunwang
   name: wanglujun
   email: wanglujun@uniontech.com
 - gitee_id: hustcao4
+  atomgit_id: ''
   name: uos_caopeiqing
   email: caopeiqing@uniontech.com
 - gitee_id: huangduirong
+  atomgit_id: huangduirong
   name: huangduirong
   email: huangduirong@huawei.com
 repositories:
-- repo: 
+- repo:
   - openeuler/utshell
   - openeuler/utsudo
   - openeuler/osinfor
   - openeuler/ssh-utils
   committers:
   - gitee_id: binlingyu
+    atomgit_id: ''
     name: binlingyu
     email: binlingyu@uniontech.com
   - gitee_id: luckhuanhuan
+    atomgit_id: ''
     name: zhanghuanhuan
     email: zhanghuanhuan@uniontech.com
   - gitee_id: trackers-love
+    atomgit_id: ''
     name: bianguangze
     email: bianguangze@uniontech.com
 - repo:
   - openeuler/rat
   committers:
   - gitee_id: meng-fan-sheng
+    atomgit_id: ''
     name: cwdlf
     email: mengfansheng@uniontech.com
 - repo:
   - openeuler/rhostname
   committers:
   - gitee_id: binlingyu
+    atomgit_id: ''
     name: binlingyu
     email: binlingyu@uniontech.com
   - gitee_id: ut-wanglujun
+    atomgit_id: lujunwang
     name: wanglujun
     email: wanglujun@uniontech.com
-- repo: 
+- repo:
   - src-openeuler/nix
   - src-openeuler/which-rs
   - src-openeuler/fast_rsync
   - src-openeuler/coreutils-rs
   committers:
   - gitee_id: licihua
+    atomgit_id: licihua
     name: Monday
     email: licihua@huawei.com
-- repo: 
+- repo:
   - openeuler/easybox
   committers:
   - gitee_id: licihua
+    atomgit_id: licihua
     name: Monday
     email: licihua@huawei.com
 - repo:
@@ -80,12 +91,14 @@ repositories:
   - src-openeuler/utxz
   committers:
   - gitee_id: xingwei-liu
+    atomgit_id: xingwei-liu
     name: xingwei-liu
     email: liuxingwei@uniontech.com
   - gitee_id: hailianguniontech
+    atomgit_id: hailianguniontech
     name: Hailiang
     email: mahailiang@uniontech.com
   - gitee_id: liangyangang
+    atomgit_id: gangyanliang
     name: liangyangang
     email: liangyangang@uniontech.com
-

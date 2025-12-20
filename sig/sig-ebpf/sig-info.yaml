@@ -1,45 +1,54 @@
 name: sig-ebpf
-description: eBPF is a revolutionary technology with origins in the Linux kernel that can run sandboxed programs in an operating system kernel. It is used to safely and efficiently extend the capabilities of the kernel without requiring to change kernel source code or load kernel modules. 
+description: eBPF is a revolutionary technology with origins in the Linux kernel that can run sandboxed programs in an operating system kernel. It is used to safely and efficiently extend the capabilities of the kernel without requiring to change kernel source code or load kernel modules.
 meeting_url: NA
 mature_level: startup
 maintainers:
 - gitee_id: wonleing
+  atomgit_id: ''
   name: Leon Wang
   organization: CTyun
   email: wangl29@chinatelecom.cn
 - gitee_id: MrRlu
+  atomgit_id: MrRlu
   name: luzhihao
   organization: Huawei
   email: luzhihao@huawei.com
 - gitee_id: weiyj_lk
+  atomgit_id: weiyj__lk
   name: weiyongjun
   organization: Huawei
   email: weiyongjun1@huawei.com
 - gitee_id: DevinRTK
+  atomgit_id: ''
   name: xuqingwei
   organization: SANGFOR
   email: devin.rtk@gmail.com
 - gitee_id: huyd12
+  atomgit_id: ''
   name: huyadi
   organization: CTyun
   email: huyd12@chinatelecom.cn
 - gitee_id: happyseeker
+  atomgit_id: ''
   name: jiangbiao
   organization: CTyun
   email: hux24@chinatelecom.cn
 - gitee_id: bigclouds99
+  atomgit_id: yalogr
   name: yuelongguang
   organization: Unicom Cloud
-  email:  yuelg@chinaunicom.cn
+  email: yuelg@chinaunicom.cn
 repositories:
 - repo:
   - openeuler/CTinspector
   committers:
   - gitee_id: wonleing
+    atomgit_id: ''
     name: Leon Wang
     organization: CTyun
     email: wangl29@chinatelecom.cn
   - gitee_id: fxp2001640
+    atomgit_id: ''
     name: fxp2001640
     organization: CTyun
     email: fanxp@chinatelecom.cn
@@ -47,26 +56,31 @@ repositories:
   - openeuler/Agith
   committers:
   - gitee_id: sgdd123
+    atomgit_id: sgdd1231
     name: Shangguan Dongdong
     organization: Huawei
     email: shangguandongdong1@huawei.com
   contributors:
   - gitee_id: sk-buff
+    atomgit_id: ''
     name: Liu Chang
     organization: Tsinghua University
     email: chang-liu22@mails.tsinghua.edu.cn
   - gitee_id: tshoigyr
+    atomgit_id: ''
     name: Gao Yurui
     organization: Tsinghua University
     email: 573574239@qq.com
   - gitee_id: NelsonCheung
+    atomgit_id: ''
     name: Zhang Junyu
-    organization: Sun Yat-sen University 
+    organization: Sun Yat-sen University
     email: 940991267@qq.com
 - repo:
   - src-openeuler/eunomia-bpf
   committers:
   - gitee_id: yunwei37
+    atomgit_id: ''
     name: zhengyusen
     organization: ZheJiang University
     email: 1067852565@qq.com
@@ -80,22 +94,27 @@ repositories:
   - src-openeuler/bpftool
   committers:
   - gitee_id: nlgwcy
+    atomgit_id: perfectwcy
     name: wuchangye
     organization: Huawei
     email: wuchangye@huawei.com
   - gitee_id: bitcoffee
+    atomgit_id: bitcoffee
     name: liuxin
     organization: Huawei
     email: liuxin350@huawei.com
   - gitee_id: supercharge
+    atomgit_id: supercharge1
     name: xiesongyang
     organization: Huawei
     email: xiesongyang@huawei.com
   - gitee_id: LemmyHuang
+    atomgit_id: LemmyHuang
     name: huangliming
     organization: Huawei
     email: huangliming5@huawei.com
   - gitee_id: linford-wu
+    atomgit_id: ''
     name: wulinfeng
     organization: xfusion
     email: wulinfeng@xfusion.com
@@ -104,10 +123,12 @@ repositories:
   - src-openeuler/gala-gopher
   committers:
   - gitee_id: MrRlu
+    atomgit_id: MrRlu
     name: luzhihao
     organization: Huawei
     email: luzhihao@huawei.com
   - gitee_id: Vchanger
+    atomgit_id: Vchanger
     name: chenzhen
     organization: Huawei
     email: chenzhen126@huawei.com
@@ -115,14 +136,17 @@ repositories:
   - openeuler/ketones
   committers:
   - gitee_id: chenyuan0
+    atomgit_id: ''
     name: chenyuan
     organization: KylinSoft
     email: chenyuan@kylinos.cn
   - gitee_id: wenzhiwei11
+    atomgit_id: ''
     name: wenzhiwei
     organization: KylinSoft
     email: wenzhiwei@kylinos.cn
-  - gitee_id: mengxuanzhang 
+  - gitee_id: mengxuanzhang
+    atomgit_id: mengxuanzhang
     name: zhangmengxuan
     organization: KylinSoft
     email: zhangmengxuan@kylinos.cn
@@ -130,32 +154,39 @@ repositories:
   - openeuler/btfhub
   committers:
   - gitee_id: MrRlu
+    atomgit_id: MrRlu
     name: luzhihao
     organization: Huawei
     email: luzhihao@huawei.com
   - gitee_id: HanlinYang
+    atomgit_id: ''
     name: yanghanlin
     organization: Southeast University
     email: mattoncis@hotmail.com
   - gitee_id: mywaaagh_admin
+    atomgit_id: mywaaagh_admin
     name: lichaoran
     email: pkwarcraft@hotmail.com
 - repo:
   - openeuler/btfhub-archive
   committers:
   - gitee_id: MrRlu
+    atomgit_id: MrRlu
     name: luzhihao
     organization: Huawei
     email: luzhihao@huawei.com
   - gitee_id: HanlinYang
+    atomgit_id: ''
     name: yanghanlin
     organization: Southeast University
     email: mattoncis@hotmail.com
   - gitee_id: I-am-a-robot
+    atomgit_id: ''
     name: i-robot
     organization: openEuler
     email: huawei_ci_bot@163.com
   - gitee_id: mywaaagh_admin
+    atomgit_id: mywaaagh_admin
     name: lichaoran
     email: pkwarcraft@hotmail.com
 - repo:
@@ -164,18 +195,22 @@ repositories:
   - src-openeuler/safeguard
   committers:
   - gitee_id: tongyx633
+    atomgit_id: ''
     name: tongyuxiang
     organization: Unicom Cloud
     email: tongyx12@chinaunicom.cn
   - gitee_id: songyanling
+    atomgit_id: ''
     name: songyanling
     organization: Unicom Cloud
     email: songyl157@chinaunicom.cn
   - gitee_id: bigclouds99
+    atomgit_id: yalogr
     name: yuelongguang
     organization: Unicom Cloud
-    email:  yuelg@chinaunicom.cn
+    email: yuelg@chinaunicom.cn
   - gitee_id: otank
+    atomgit_id: ''
     name: lishaoxiong
     organization: Unicom Cloud
     email: lisx189@chinaunicom.cn

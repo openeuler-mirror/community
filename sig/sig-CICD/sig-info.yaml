@@ -1,14 +1,17 @@
 name: sig-CICD
-description: 'openEuler CICD SIG'
+description: openEuler CICD SIG
 mailing_list: compass-ci@openeuler.org
 maintainers:
 - gitee_id: wu_fengguang
+  atomgit_id: wu_fengguang
   name: Wu Fengguang
   email: wfg@mail.ustc.edu.cn
 - gitee_id: duan_pj
+  atomgit_id: duan_pengjie
   name: Duan Pengjie
   email: duanpengjie@huawei.com
 - gitee_id: jimmy_hero
+  atomgit_id: kaitiandu
   name: Du Kaitian
   email: dukaitian@huawei.com
 repositories:
@@ -16,25 +19,31 @@ repositories:
   - openeuler/compass-ci
   repo_admin:
   - gitee_id: wu_fengguang
+    atomgit_id: wu_fengguang
     name: Wu Fengguang
     email: wfg@mail.ustc.edu.cn
   - gitee_id: duan_pj
+    atomgit_id: duan_pengjie
     name: Duan Pengjie
     email: duanpengjie@huawei.com
   committers:
   - gitee_id: wu_fengguang
+    atomgit_id: wu_fengguang
     name: Wu Fengguang
     email: wfg@mail.ustc.edu.cn
   - gitee_id: duan_pj
+    atomgit_id: duan_pengjie
     name: Duan Pengjie
     email: duanpengjie@huawei.com
 - repo:
   - openeuler/devkit-pipeline
   committers:
   - gitee_id: eggilu
+    atomgit_id: ''
     name: Zhang Yuhan
     email: zyuh1994@163.com
   - gitee_id: kuoting
+    atomgit_id: kuoting
     name: Pan Longlong
     email: 601760354@163.com
 - repo:
@@ -42,9 +51,11 @@ repositories:
   - openeuler/EulerMaker-Web
   committers:
   - gitee_id: yushi-Icy
+    atomgit_id: yushi-Icy
     name: Yu Shi
     email: yushi2@huawei.com
   - gitee_id: ultraji
+    atomgit_id: ultraji
     name: Wang Ji
     email: wangji35@huawei.com
 - repo:
@@ -52,16 +63,19 @@ repositories:
   - src-openeuler/ccb
   committers:
   - gitee_id: yang-chaohao
+    atomgit_id: yang-chaohao
     name: Yang Chaohao
     email: yangchaohao@huawei.com
 - repo:
   - openeuler/reproducible-builds
   committers:
   - gitee_id: zxf_0731
+    atomgit_id: ''
     name: Zhao Xufeng
     organization: Huawei
     email: zxf_0731
   - gitee_id: wenhao7
+    atomgit_id: ''
     name: Wen Hao
     organization: Huawei
     email: wenhao7@huawei.com

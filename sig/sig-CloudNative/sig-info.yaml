@@ -1,59 +1,65 @@
 name: sig-CloudNative
-
 description: CloudNative SIG is committed to providing a convenient and easy-to-use cloud native infrastructure for users, developers, and enthusiasts, providing a simple and efficient cloud native application development hosting environment to build cloud native ecology.
-
 mailing_list: cloudnative@openeuler.org
-
 meeting_url: NA
-
 maintainers:
 - gitee_id: yangzhao_kl
+  atomgit_id: yangzhao_kl
   name: Zhao Yang
   organization: KylinSoft
   email: yangzhao1@kylinos.cn
 - gitee_id: jianminw
+  atomgit_id: jianminw
   name: Jianmin Wang
   organization: ISCAS
   email: jianmin@iscas.ac.cn
 - gitee_id: weibaohui
+  atomgit_id: ''
   name: Baohui Wei
   organization: China Mobile
   email: weibaohui@yeah.net
 - gitee_id: duguhaotian
+  atomgit_id: duguhaotian
   name: Hao Liu
   organization: Huawei
   email: liuhao27@huawei.com
 - gitee_id: wonleing
+  atomgit_id: ''
   name: Leon Wang
   organization: CTyun
   email: wangl29@chinatelecom.cn
 - gitee_id: taotao-sauce
+  atomgit_id: ''
   name: Tao Zhong
   organization: Huawei
   email: zhongtao17@huawei.com
 - gitee_id: zmr_2020
+  atomgit_id: ''
   name: Jian Zhang
   organization: HOPERUN
   email: zhang_jian7@hoperun.com
 - gitee_id: lu-wei-army
+  atomgit_id: ''
   name: Weijun Lu
   organization: Huawei
   email: wjunlu217@gmail.com
 - gitee_id: gaodaweiky
+  atomgit_id: ''
   name: Dawei Gao
   organization: KylinSoft
   email: gaodawei@kylinos.cn
-
 repositories:
 - repo:
   - openeuler/ktib
   - src-openeuler/ktib
   committers:
   - gitee_id: suo-xiaocong
+    atomgit_id: suo-xiaocong
     name: Xiaocong Suo
     organization: KylinSoft
     email: suoxiaocong@kylinos.cn
   - gitee_id: northgarden
+    atomgit_id: northgarden
     name: Bowei Zhang
     organization: KylinSoft
     email: zhangbowei@kylinos.cn
@@ -93,14 +99,17 @@ repositories:
   - src-openeuler/virtiofsd
   committers:
   - gitee_id: duyiwei7w
+    atomgit_id: duyiwei7w
     name: Yiwei Du
     organization: KylinSoft
     email: duyiwei@kylinos.cn
   - gitee_id: fu-shanqing
+    atomgit_id: weixin_38854637
     name: Shanqing Fu
     organization: KylinSoft
     email: fushanqing@kylinos.cn
   - gitee_id: jianli-97
+    atomgit_id: jianli-97
     name: Jian Li
     organization: KylinSoft
     email: lijian2@kylinos.cn
@@ -117,6 +126,7 @@ repositories:
   - src-openeuler/cpds-agent
   committers:
   - gitee_id: pencc
+    atomgit_id: ''
     name: Yixiang Peng
     organization: Linx
     email: dev16001@linx-info.com
@@ -168,6 +178,7 @@ repositories:
   - openeuler/Conch
   committers:
   - gitee_id: liuxu180400617
+    atomgit_id: liuxu180400617
     name: Xu Liu
     organization: Huawei
     email: liuxu156@huawei.com
@@ -176,10 +187,12 @@ repositories:
   - src-openeuler/KubeOS
   committers:
   - gitee_id: li-yuanrong
+    atomgit_id: ''
     name: Yuanrong Li
     organization: Huawei
     email: liyuanrong1@huawei.com
   - gitee_id: weiy6
+    atomgit_id: weiy6
     name: Yuhang Wei
     organization: Huawei
     email: weiyuhang3@huawei.com
@@ -200,10 +213,12 @@ repositories:
   - src-openeuler/mysqld_exporter
   committers:
   - gitee_id: jxy_git
+    atomgit_id: jxy_git
     name: Xinyu Jiang
     organization: KylinSoft
     email: jiangxinyu@kylinos.cn
   - gitee_id: wubijie123
+    atomgit_id: wubijie123
     name: Bijie Wu
     organization: KylinSoft
     email: wubijie@kylinos.cn
@@ -212,10 +227,12 @@ repositories:
   - src-openeuler/nestos-kernel
   committers:
   - gitee_id: wenzhiwei11
+    atomgit_id: ''
     name: wenzhiwei
     organization: KylinSoft
     email: wenzhiwei@kylinos.cn
   - gitee_id: duyiwei7w
+    atomgit_id: duyiwei7w
     name: Yiwei Du
     organization: KylinSoft
     email: duyiwei@kylinos.cn
@@ -223,6 +240,7 @@ repositories:
   - openeuler/paws
   committers:
   - gitee_id: gfmyeung
+    atomgit_id: gfmyeung
     name: Gingfung Yeung
     organization: Huawei
     email: gingfung.matthew.yeung@huawei.com
@@ -235,6 +253,7 @@ repositories:
   - src-openeuler/mcp-self-service-vue
   committers:
   - gitee_id: running_wanglei
+    atomgit_id: ''
     name: runningwanglei
     organization: kylinsec
     email: wanglei01@kylinsec.com.cn
@@ -242,6 +261,7 @@ repositories:
   - src-openeuler/moby
   committers:
   - gitee_id: xu_lei_123
+    atomgit_id: xu_lei_123
     name: Lei Xu
     organization: xfusion
     email: xulei@xfusion.com
@@ -250,6 +270,7 @@ repositories:
   - src-openeuler/podman
   committers:
   - gitee_id: jianli-97
+    atomgit_id: jianli-97
     name: Jian Li
     organization: KylinSoft
     email: lijian2@kylinos.cn
@@ -257,25 +278,29 @@ repositories:
   - openeuler/k8s-install
   committers:
   - gitee_id: liumin6
+    atomgit_id: liumin6
     name: Min Liu
     organization: CTyun
     email: lium110@chinatelecom.cn
 - repo:
-    - openeuler/yunyi
-    - src-openeuler/yunyi
+  - openeuler/yunyi
+  - src-openeuler/yunyi
   committers:
-    - gitee_id: wuyad
-      name: wuyad
-      organization: Tongtech
-      email: wuyd@tongtech.com
+  - gitee_id: wuyad
+    atomgit_id: wuyad
+    name: wuyad
+    organization: Tongtech
+    email: wuyd@tongtech.com
 - repo:
   - openeuler/KubeMate
   committers:
   - gitee_id: li-yuanrong
+    atomgit_id: ''
     name: Yuanrong Li
     organization: Huawei
     email: liyuanrong1@huawei.com
   - gitee_id: weihuanhuan_ky
+    atomgit_id: ''
     name: Wei Huanhuan
     organization: KylinSoft
     email: weihuanhuan@kylinos.cn
@@ -283,6 +308,7 @@ repositories:
   - src-openeuler/ollama
   committers:
   - gitee_id: duguhaotian
+    atomgit_id: duguhaotian
     name: Hao Liu
     organization: Huawei
     email: liuhao27@huawei.com
@@ -290,6 +316,7 @@ repositories:
   - src-openeuler/gradio
   committers:
   - gitee_id: zhangsibo1129
+    atomgit_id: ''
     name: Sibo Zhang
     organization: Huawei
     email: zhangsibo1@huawei.com
@@ -298,21 +325,25 @@ repositories:
   - src-openeuler/resaware_nri_plugins
   committers:
   - gitee_id: yukaii
+    atomgit_id: ''
     name: Kai Yu
     organization: Huawei
     email: yukai20@huawei.com
   - gitee_id: hong-xuming
+    atomgit_id: ''
     name: Xuming Hone
     organization: Huawei
     email: hongxuming@huawei.com
   - gitee_id: zhourenjian
+    atomgit_id: ''
     name: ZhouRenjian
-    organization: Huawei 
+    organization: Huawei
     email: zhourenjian@huawei.com
 - repo:
   - src-openeuler/kata-containers-rs
   committers:
   - gitee_id: heruoqing
+    atomgit_id: ''
     name: Ruoqing He
     organization: ISCAS
     email: heruoqing@iscas.ac.cn
@@ -321,6 +352,7 @@ repositories:
   - openeuler/slice-releases
   committers:
   - gitee_id: baigj
+    atomgit_id: ''
     name: Guangjie Bai
     organization: Huawei
     email: guangjiebai@gmail.com
@@ -329,22 +361,27 @@ repositories:
   - src-openeuler/clyde
   committers:
   - gitee_id: fanbondi
+    atomgit_id: ''
     name: Sheriffo Ceesay
     organization: Huawei
     email: sneceesay77@gmail.com
   - gitee_id: jing-rui
+    atomgit_id: jing-rui
     name: Jing Rui
     organization: Huawei
     email: jingrui@huawei.com
   - gitee_id: SToPire
+    atomgit_id: ''
     name: Zhao Yifan
     organization: Huawei
     email: zhaoyifan28@huawei.com
   - gitee_id: wardjaradat
+    atomgit_id: ''
     name: Ward Jaradat
     organization: Huawei
     email: ward.jaradat@huawei.com
   - gitee_id: ahmhassan
+    atomgit_id: ''
     name: Ahmed Ali Eldin Hassan
     organization: Huawei
     email: ahmed.ali.hassan1@huawei.com
@@ -352,6 +389,7 @@ repositories:
   - src-openeuler/composefs
   committers:
   - gitee_id: lyxlyforever
+    atomgit_id: lkylky521
     name: Yang.Li
     organization: CTyun
     email: liy460@chinatelecom.cn
@@ -363,17 +401,19 @@ repositories:
   - src-openeuler/firecracker
   committers:
   - gitee_id: feijianqiang
+    atomgit_id: ''
     name: Jianqiang Fei
     organization: Huawei
     email: feijianqiang@huawei.com
   - gitee_id: zhourenjian
+    atomgit_id: ''
     name: Renjian Zhou
     organization: Huawei
     email: zhourenjian@huawei.com
-
 branches:
 - repo_branch:
   - repo: src-openeuler/protobuf
     branch: Multi-Version_ray_openEuler-22.03-LTS-SP4
   keeper:
-    - gitee_id: xujing99
+  - gitee_id: xujing99
+    atomgit_id: xujing99

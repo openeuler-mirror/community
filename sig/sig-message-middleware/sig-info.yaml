@@ -1,94 +1,108 @@
 name: sig-message-middleware
-description:  This sig maintain messaging middleware software packages for upstream open source communities,and incubate the new open source self-developed message middleware.
-created_on: '2023-6-21'
+description: This sig maintain messaging middleware software packages for upstream open source communities,and incubate the new open source self-developed message middleware.
+created_on: 2023-6-21
 mailing_list: message-middleware@openeuler.org
 mature_level: startup
 maintainers:
-  - gitee_id: hu-zongtang
-    name: huzongtang
-    organization: ChinaMobile
-    email: huzongtang_yewu@cmss.chinamobile.com
-  - gitee_id: jas0n918
-    name: jianghaiting
+- gitee_id: hu-zongtang
+  atomgit_id: ''
+  name: huzongtang
+  organization: ChinaMobile
+  email: huzongtang_yewu@cmss.chinamobile.com
+- gitee_id: jas0n918
+  atomgit_id: ''
+  name: jianghaiting
+  organization: Tencent
+  email: jason.918@qq.com
+- gitee_id: dingwei-hello
+  atomgit_id: ''
+  name: dingwei
+  organization: Huawei
+  email: darielw@163.com
+repositories:
+- repo:
+  - src-openeuler/rocketmq
+  committers:
+  - gitee_id: zhangjidi
+    atomgit_id: ''
+    name: zhangjidi
+    organization: Chinamobile
+    email: zhangjidi_yewu@cmss.chinamobile.com
+- repo:
+  - src-openeuler/rabbitmq-java-client
+  - src-openeuler/rabbitmq-server
+  committers:
+  - gitee_id: wubiqing
+    atomgit_id: ''
+    name: wubiqing
+    organization: Chinamobile
+    email: wubiqing_yewu@cmss.chinamobile.com
+- repo:
+  - src-openeuler/pulsar
+  committers:
+  - gitee_id: wang-jialing218
+    atomgit_id: ''
+    name: wangjialing
+    organization: Chinamobile
+    email: wangjialing_yewu@cmss.chinamobile.com
+- repo:
+  - src-openeuler/eventmesh
+  committers:
+  - gitee_id: qqeasonchen
+    atomgit_id: ''
+    name: chenguangsheng
+    organization: Webank
+    email: daerduochen@qq.com
+  - gitee_id: mikexwm
+    atomgit_id: ''
+    name: xueweiming
+    organization: Webank
+    email: mike_xwm@126.com
+- repo:
+  - src-openeuler/kafka
+  committers:
+  - gitee_id: sundapeng001
+    atomgit_id: ''
+    name: sundapeng
+    organization: Chinamobile
+    email: sundapeng_yewu@cmss.chinamobile.com
+  - gitee_id: shilinlu
+    atomgit_id: ''
+    name: shilinlu
     organization: Tencent
-    email: jason.918@qq.com
+    email: 476197969@qq.com
   - gitee_id: dingwei-hello
+    atomgit_id: ''
     name: dingwei
     organization: Huawei
     email: darielw@163.com
-repositories:
-  - repo:
-      - src-openeuler/rocketmq
-    committers:
-      - gitee_id: zhangjidi
-        name: zhangjidi
-        organization: Chinamobile
-        email: zhangjidi_yewu@cmss.chinamobile.com
-  - repo:
-      - src-openeuler/rabbitmq-java-client
-      - src-openeuler/rabbitmq-server
-    committers:
-      - gitee_id: wubiqing
-        name: wubiqing
-        organization: Chinamobile
-        email: wubiqing_yewu@cmss.chinamobile.com
-  - repo:
-      - src-openeuler/pulsar
-    committers:
-      - gitee_id: wang-jialing218
-        name: wangjialing
-        organization: Chinamobile
-        email: wangjialing_yewu@cmss.chinamobile.com
-  - repo:
-      - src-openeuler/eventmesh
-    committers:
-      - gitee_id: qqeasonchen
-        name: chenguangsheng
-        organization: Webank
-        email: daerduochen@qq.com
-      - gitee_id: mikexwm
-        name: xueweiming
-        organization: Webank
-        email: mike_xwm@126.com
-  - repo:
-      - src-openeuler/kafka
-    committers:
-      - gitee_id: sundapeng001
-        name: sundapeng
-        organization: Chinamobile
-        email: sundapeng_yewu@cmss.chinamobile.com
-      - gitee_id: shilinlu
-        name: shilinlu
-        organization: Tencent
-        email: 476197969@qq.com
-      - gitee_id: dingwei-hello
-        name: dingwei
-        organization: Huawei
-        email: darielw@163.com
-
-  - repo:
-      - openeuler/amqp-proxy
-    committers:
-      - gitee_id: hu-zongtang
-        name: huzongtang
-        organization: Chinamobile
-        email: huzongtang_yewu@cmss.chinamobile.com
-  - repo:
-      - openeuler/mqtt-proxy
-    committers:
-      - gitee_id: shendong0629
-        name: shendong
-        organization: Chinamobile
-        email: shendong_yewu@cmss.chinamobile.com
-  - repo:
-      - openeuler/rocketmq-operator
-      - openeuler/mqtt-operator
-    committers:
-      - gitee_id: wangweizZZ
-        name: wangwei
-        organization: Chinamobile
-        email: wangwei7_yewu@cmss.chinamobile.com
-      - gitee_id: shendong0629
-        name: shendong
-        organization: Chinamobile
-        email: shendong_yewu@cmss.chinamobile.com
+- repo:
+  - openeuler/amqp-proxy
+  committers:
+  - gitee_id: hu-zongtang
+    atomgit_id: ''
+    name: huzongtang
+    organization: Chinamobile
+    email: huzongtang_yewu@cmss.chinamobile.com
+- repo:
+  - openeuler/mqtt-proxy
+  committers:
+  - gitee_id: shendong0629
+    atomgit_id: ''
+    name: shendong
+    organization: Chinamobile
+    email: shendong_yewu@cmss.chinamobile.com
+- repo:
+  - openeuler/rocketmq-operator
+  - openeuler/mqtt-operator
+  committers:
+  - gitee_id: wangweizZZ
+    atomgit_id: ''
+    name: wangwei
+    organization: Chinamobile
+    email: wangwei7_yewu@cmss.chinamobile.com
+  - gitee_id: shendong0629
+    atomgit_id: ''
+    name: shendong
+    organization: Chinamobile
+    email: shendong_yewu@cmss.chinamobile.com

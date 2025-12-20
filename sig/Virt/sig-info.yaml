@@ -5,38 +5,45 @@ meeting_url: https://etherpad.openeuler.org/p/Virt-meetings
 mature_level: standalone
 mentors:
 - gitee_id: yezengruan
+  atomgit_id: ''
   name: yezengruan
   email: yezengruan@huawei.com
 maintainers:
 - gitee_id: RootWB
+  atomgit_id: ''
   name: WuBin
   organization: Huawei
   email: wu.wubin@huawei.com
 - gitee_id: cellfaint
+  atomgit_id: cellfaint
   name: ZhiGang
   organization: Huawei
   email: wangzhigang@huawei.com
 - gitee_id: zhendongchen
+  atomgit_id: zhendongchen
   name: alexchen
   organization: Huawei
   email: alex.chen@huawei.com
 - gitee_id: Chuan-Zheng
+  atomgit_id: Chuan-Zheng
   name: Chuan
   organization: Huawei
   email: zhengchuan@huawei.com
 - gitee_id: imxcc
+  atomgit_id: imxcc
   name: imxcc
   organization: Huawei
   email: xingchaochao@huawei.com
 - gitee_id: kevinzhu1
+  atomgit_id: kevinzhu1
   name: KevinZhu
   organization: Huawei
   email: zhukeqian94@163.com
 - gitee_id: ooorz
+  atomgit_id: bobooscar
   name: ZhangBo
   organization: Huawei
   email: oscar.zhangbo@huawei.com
-
 repositories:
 - repo:
   - openeuler/skylark
@@ -46,15 +53,14 @@ repositories:
   - src-openeuler/skylark
   - src-openeuler/virglrenderer
   - src-openeuler/vmtop
-
 - repo:
   - src-openeuler/edk2
   committers:
   - gitee_id: caojinhuahw
+    atomgit_id: caojinhuahw
     name: caojinhuahw
     organization: Huawei
     email: caojinhua1@huawei.com
-
 - repo:
   - openeuler/libcareplus
   - openeuler/libvirt
@@ -62,100 +68,113 @@ repositories:
   - src-openeuler/libvirt
   repo_admin:
   - gitee_id: imxcc
+    atomgit_id: imxcc
     name: imxcc
     organization: Huawei
     email: xingchaochao@huawei.com
   committers:
   - gitee_id: mdsc
+    atomgit_id: ''
     name: yubihong
     organization: Huawei
     email: yubihong@huawei.com
   - gitee_id: Hyman-Huang
+    atomgit_id: huang987246510
     name: Hyman-Huang
     organization: SmartX
     email: yong.huang@smartx.com
   - gitee_id: eillon
+    atomgit_id: eillon
     name: yezhenyu
     organization: Huawei
     email: yezhenyu2@huawei.com
   - gitee_id: yebiaoxiang
+    atomgit_id: yebiaoxiang
     name: yebiaoxiang
     organization: Huawei
     email: yebiaoxiang@huawei.com
   - gitee_id: zhangliang5
+    atomgit_id: ''
     name: zhangliang
     organization: Huawei
     email: zhangliang5@huawei.com
-
 - repo:
   - openeuler/qemu
   - src-openeuler/qemu
   - src-openeuler/seabios
   repo_admin:
   - gitee_id: imxcc
+    atomgit_id: imxcc
     name: imxcc
     organization: Huawei
     email: xingchaochao@huawei.com
   committers:
   - gitee_id: aven6
+    atomgit_id: ''
     name: avenLiu
     organization: Huawei
     email: liuxiangdong5@huawei.com
   - gitee_id: Hyman-Huang
+    atomgit_id: huang987246510
     name: Hyman-Huang
     organization: SmartX
     email: yong.huang@smartx.com
   - gitee_id: eillon
+    atomgit_id: eillon
     name: yezhenyu
     organization: Huawei
     email: yezhenyu2@huawei.com
   - gitee_id: yebiaoxiang
+    atomgit_id: yebiaoxiang
     name: yebiaoxiang
     organization: Huawei
     email: yebiaoxiang@huawei.com
   - gitee_id: zhangliang5
+    atomgit_id: ''
     name: zhangliang
     organization: Huawei
     email: zhangliang5@huawei.com
-
 - repo:
   - openeuler/capsule
   - src-openeuler/capsule
   committers:
   - gitee_id: limingwang0
+    atomgit_id: limingwang
     name: limingwang
     organization: Huawei
     email: limingwang@huawei.com
-
 - repo:
   - openeuler/stratovirt
   - src-openeuler/stratovirt
   committers:
   - gitee_id: limingwang0
+    atomgit_id: limingwang
     name: limingwang
     organization: Huawei
     email: limingwang@huawei.com
   - gitee_id: sujerry1991
+    atomgit_id: sujerry1991
     name: sujerry
     organization: Huawei
     email: wangyan122@huawei.com
   - gitee_id: li-huachao
+    atomgit_id: lihuachao
     name: 李华超
     organization: Huawei
     email: lihuachao1@huawei.com
   - gitee_id: zyimin
+    atomgit_id: zyimin
     name: zyimin
     organization: Huawei
     email: zhaoyimin1@huawei.com
-
 - repo:
   - src-openeuler/open-vm-tools
   committers:
   - gitee_id: chenxi-mao
+    atomgit_id: ''
     name: Chenxi Mao-SUSE
     organization: SUSE
     email: chenxi.mao@suse.com
-
 - repo:
   - src-openeuler/vagrant
   - src-openeuler/vagrant-lxc
@@ -163,90 +182,104 @@ repositories:
   - src-openeuler/vagrant-hostmanager
   committers:
   - gitee_id: WangTsing-Yan
+    atomgit_id: ''
     name: Wang Qing
     organization: UnionTech
     email: wangqing@uniontech.com
   - gitee_id: wdmy1
+    atomgit_id: ''
     name: Yixin
     organization: Yanshan University
     email: 3253035181@qq.com
-
 - repo:
   - src-openeuler/libvirt-dbus
   committers:
   - gitee_id: crrs666
+    atomgit_id: ''
     name: wangdi
     organization: KylinSoft
     email: wangdi@kylinos.cn
-
 - repo:
   - openeuler/rust_shyper
   committers:
   - gitee_id: osbuaa
+    atomgit_id: ''
     name: Wang Lei
     organization: Beihang University
     email: wanglei@buaa.edu.cn
   - gitee_id: chen-weiming-0327
+    atomgit_id: ''
     name: Chen Weiming
     organization: Beihang University
     email: cwm0327@buaa.edu.cn
   - gitee_id: cyy336699
+    atomgit_id: ''
     name: Cui Yuyang
     organization: Beihang University
     email: cuiyy369@buaa.edu.cn
   - gitee_id: wyukang
+    atomgit_id: ''
     name: Wang Yukang
     organization: Beihang University
     email: 932697374@qq.com
   - gitee_id: latenci
+    atomgit_id: ''
     name: Wang Lianjie
     organization: Beihang University
     email: dredgar065@163.com
   - gitee_id: motse306
+    atomgit_id: ''
     name: Mo Ce
     organization: Beihang University
     email: moce4917@buaa.edu.cn
   - gitee_id: hu-keyang
+    atomgit_id: ''
     name: Hu Keyang
     organization: Beihang University
     email: hky1999@buaa.edu.cn
   - gitee_id: zrp_0312
+    atomgit_id: ''
     name: Zhang Renpeng
     organization: Beihang University
     email: 2110459069@qq.com
   - gitee_id: cwh1007
+    atomgit_id: ''
     name: Chen Weihao
     organization: Beihang University
     email: 1286139738@qq.com
   - gitee_id: wx727
+    atomgit_id: ''
     name: Wang Xin
     organization: Beihang University
     email: 499123396@qq.com
   - gitee_id: zhang-mouleft
+    atomgit_id: ''
     name: Zhang Hongda
     organization: Beihang University
     email: 985175630@qq.com
-
 - repo:
   - src-openeuler/cloud-hypervisor
   committers:
   - gitee_id: heruoqing
+    atomgit_id: ''
     name: Ruoqing He
     organization: ISCAS
     email: heruoqing@iscas.ac.cn
-
 - repo:
   - openeuler/Virt-docs
   committers:
   - gitee_id: wangjian161
+    atomgit_id: ''
     name: Jian Wang
     organization: Huawei
-    email: wangjian161@huawei.com 
+    email: wangjian161@huawei.com
   - gitee_id: mdsc
+    atomgit_id: ''
     name: Bihong Yu
     organization: Huawei
-    email: yubihong@huawei.com 
+    email: yubihong@huawei.com
   - gitee_id: did-you-collect-the-wool-today
+    atomgit_id: ''
     name: Kunkun Jiang
     organization: Huawei
-    email: jiangkunkun@huawei.com 
+    email: jiangkunkun@huawei.com

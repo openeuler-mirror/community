@@ -4,24 +4,27 @@ created_on: '2020-08-20'
 mailing_list: sig-KIRAN-DESKTOP@openeuler.org
 meeting_url: NA
 mature_level: gratuated
-mentors:
+mentors: null
 maintainers:
 - gitee_id: stonefly128
+  atomgit_id: ''
   name: ShiYong
   organization: KylinSec OS
   email: shiyong@kylinos.com.cn
 - gitee_id: tangjie02
+  atomgit_id: tangjie02
   name: TangJie
   email: tangjie02@kylinsec.com.cn
 - gitee_id: liubuguiii
+  atomgit_id: liubuguiii
   name: LiuXinHao
   organization: KylinSec OS
   email: liuxinhao@kylinsec.com.cn
 - gitee_id: itisyang
+  atomgit_id: itisyang
   name: YangFeng
   organization: KylinSec OS
   email: yangfeng@kylinsec.com.cn
-
 repositories:
 - repo:
   - openeuler/kiran-desktop
@@ -76,7 +79,6 @@ repositories:
   - src-openeuler/xsd
   - src-openeuler/gdbus-codegen-glibmm
   - src-openeuler/xdotool
-
 - repo:
   - openeuler/ks-ssr
   - openeuler/ks-scmc
@@ -88,6 +90,6 @@ repositories:
   - src-openeuler/ks-vaudit
   committers:
   - gitee_id: wangyucheng1
+    atomgit_id: ''
     name: WangYuCheng
     email: wangyucheng@kylinsec.com.cn
-

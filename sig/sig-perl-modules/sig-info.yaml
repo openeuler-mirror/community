@@ -6,12 +6,14 @@ meeting_url: NA
 mature_level: startup
 maintainers:
 - gitee_id: myeuler
+  atomgit_id: ''
   name: wei Xiong
   organization: Huawei
   email: myeuler@163.com
 - gitee_id: shinwell_hu
+  atomgit_id: shinwell_hu
   name: xinwei Hu
-  organization: Huawei 
+  organization: Huawei
   email: micromotive@qq.com
 repositories:
 - repo:
@@ -1165,18 +1167,21 @@ repositories:
   - src-openeuler/perl-Sys-Virt
   committers:
   - gitee_id: gitee-cmd
+    atomgit_id: ''
     name: mingdao Che
     organization: Huawei
     email: chemingdao@huaei.com
   - gitee_id: wang--ge
+    atomgit_id: wang--ge
     name: ge Wang
     organization: Huawei
     email: wangge20@h-partners.com
   - gitee_id: wk333
+    atomgit_id: wk333
     name: kai Wang
     organization: Huawei
     email: wangkai385@h-partners.com
-- repo: 
+- repo:
   - src-openeuler/perl-threads-shared
   - src-openeuler/perl-Locale-Maketext
   - src-openeuler/perl-Getopt-Long
@@ -1290,14 +1295,17 @@ repositories:
   - src-openeuler/perl-Text-ParseWords
   committers:
   - gitee_id: shenyangyang01
+    atomgit_id: shenyangyang
     name: yangyang shen
     organization: Huawei
     email: shenyangyang4@huawei.com
   - gitee_id: licunlong
+    atomgit_id: ''
     name: cunlong Li
     organization: Huawei
     email: licunlong1@huawei.com
   - gitee_id: overweight
+    atomgit_id: overweight
     name: xiaowen He
     organization: Huawei
     email: hexiaowen@huawei.com
@@ -1322,6 +1330,7 @@ repositories:
   - src-openeuler/perl-Object-HashBase
   committers:
   - gitee_id: overweight
+    atomgit_id: overweight
     name: xiaowen He
     organization: Huawei
     email: hexiaowen@huawei.com
@@ -1329,6 +1338,7 @@ repositories:
   - src-openeuler/perl-File-TreeCreate
   committers:
   - gitee_id: woody2918
+    atomgit_id: ''
     name: di Wu
     organization: Uniontech
     email: wudi1@uniontech.com
@@ -1339,10 +1349,12 @@ repositories:
   - src-openeuler/perl-match-simple-XS
   committers:
   - gitee_id: fuowang
+    atomgit_id: ''
     name: Shuo Wang
     organization: KylinSoft
     email: wangshuo@kylinos.cn
   - gitee_id: kylin-xuhe
+    atomgit_id: ''
     name: xuhe
     organization: KylinSoft
     email: xuhe@kylinos.cn
@@ -1353,34 +1365,36 @@ repositories:
   - src-openeuler/perl-Crypt-Twofish
   committers:
   - gitee_id: teng-lei0416
+    atomgit_id: ''
     name: tenglei
     organization: KylinSoft
     email: tenglei@kylinos.cn
   - gitee_id: tjwangxm
+    atomgit_id: m0_59890643
     name: Xiaomeng Wang
     organization: KylinSoft
     email: wangxiaomeng@kylinos.cn
-
 - repo:
   - src-openeuler/perl-Devel-PatchPerl
   - src-openeuler/perl-App-ChangeShebang
   committers:
   - gitee_id: shenyangyang01
+    atomgit_id: shenyangyang
     name: yangyang shen
     organization: Huawei
     email: shenyangyang4@huawei.com
-
 - repo:
   - src-openeuler/perl-List-BinarySearch-XS
   - src-openeuler/perl-List-BinarySearch
   - src-openeuler/perl-Math-Gradient
   committers:
   - gitee_id: woqidaideshi
+    atomgit_id: ''
     name: Fang Yafen
     organization: iscas
     email: yafen@iscas.ac.cn
 - repo:
-  - src-openeuler/perl-Alien-Build-Plugin-Download-GitLab  
+  - src-openeuler/perl-Alien-Build-Plugin-Download-GitLab
   - src-openeuler/perl-B-Lint
   - src-openeuler/perl-boolean
   - src-openeuler/perl-Pod-LaTeX
@@ -1551,12 +1565,15 @@ repositories:
   - src-openeuler/perl-CryptX
   committers:
   - gitee_id: fundawang
+    atomgit_id: fundawang
     name: fundawang
     email: fundawang@yeah.net
   - gitee_id: wk333
+    atomgit_id: wk333
     name: kai Wang
     email: 13474090681@163.com
   - gitee_id: misaka00251
+    atomgit_id: misaka00251
     name: Xin Liu
     organization: iscas
     email: liuxin@iscas.ac.cn

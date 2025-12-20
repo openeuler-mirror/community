@@ -1,20 +1,25 @@
 name: Kernel
-description: 'openEuler Kernel SIG'
+description: openEuler Kernel SIG
 mailing_list: kernel@openeuler.org
 maintainers:
 - gitee_id: xiexiuqi
+  atomgit_id: oekernel
   name: Xie XiuQi
   email: xiexiuqi@huawei.com
 - gitee_id: hanjun-guo
+  atomgit_id: hanjunguo
   name: Hanjun Guo
   email: guohanjun@huawei.com
 - gitee_id: zhengzengkai
+  atomgit_id: zhengzengkai
   name: Zheng Zengkai
   email: zhengzengkai@huawei.com
 - gitee_id: sanglipeng
+  atomgit_id: sanglipeng
   name: sanglipeng
   email: sanglipeng1@jd.com
 - gitee_id: x56Jason
+  atomgit_id: zeng_zhaorong
   name: Jason Zeng
   email: jason.zeng@intel.com
 repositories:
@@ -23,381 +28,482 @@ repositories:
   - src-openeuler/kernel
   repo_admin:
   - gitee_id: xiexiuqi
+    atomgit_id: oekernel
     name: Xie XiuQi
     email: xiexiuqi@huawei.com
   - gitee_id: zhengzengkai
+    atomgit_id: zhengzengkai
     name: Zheng Zengkai
     email: zhengzengkai@huawei.com
   committers:
   - gitee_id: zqiao216
+    atomgit_id: zqiao216
     name: Zhang Qiao
     email: zhangqiao22@huawei.com
   - gitee_id: wkfxxx
+    atomgit_id: wkfxxx
     name: Kefeng Wang
     email: wangkefeng.wang@huawei.com
   - gitee_id: yuzenghui
+    atomgit_id: ''
     name: Zenghui Yu
     email: yuzenghui@huawei.com
   - gitee_id: kevinzhu1
+    atomgit_id: kevinzhu1
     name: Kevin Zhu
     email: zhukeqian1@huawei.com
   - gitee_id: xukuohai
+    atomgit_id: xukuohai
     name: Xu Kuohai
     email: xukuohai@huawei.com
   - gitee_id: lujialin2
+    atomgit_id: lujialin2
     name: Lu Jialin
     email: lujialin4@huawei.com
   - gitee_id: alvin-ling
+    atomgit_id: ''
     name: Ling Mingqiang
     email: lingmingqiang@huawei.com
   - gitee_id: newbeats
+    atomgit_id: ''
     name: Jackie Liu
     organization: KylinSoft
     email: liuyun01@kylinos.cn
   - gitee_id: leoliu-oc
+    atomgit_id: ''
     name: LeoLiu-oc
     email: LeoLiu-oc@zhaoxin.com
   - gitee_id: woqidaideshi
+    atomgit_id: ''
     name: Fang Yafen
     email: yafen@iscas.ac.cn
   - gitee_id: hanjun-guo
+    atomgit_id: hanjunguo
     name: Hanjun Guo
     email: guohanjun@huawei.com
   - gitee_id: wangxiongfeng
+    atomgit_id: ''
     name: Xiongfeng Wang
     email: wangxiongfeng2@huawei.com
   - gitee_id: jentlestea
+    atomgit_id: ''
     name: Wang ShaoBo
     email: bobo.shaobowang@huawei.com
   - gitee_id: whoisxxx
+    atomgit_id: whoisxxx
     name: Zhang Xuzhou
     email: zhangxuzhou4@huawei.com
   - gitee_id: zhangyi089
+    atomgit_id: zhangyi089
     name: zhangyi (F)
     email: yi.zhang@huawei.com
   - gitee_id: jiaoff
+    atomgit_id: ''
     name: Jiao Fenfang
     email: jiaofenfang@uniontech.com
   - gitee_id: htforge
+    atomgit_id: htforge
     name: Hou Tao
     email: houtao1@huawei.com
   - gitee_id: lengchao
+    atomgit_id: ''
     name: Chao Leng
     email: lengchao@huawei.com
   - gitee_id: colyli
+    atomgit_id: ''
     name: Coly Li
     email: colyli@suse.de
   - gitee_id: yuehaibing_planb
+    atomgit_id: yuehaibing_planb
     name: Yue Haibing
     email: yuehaibing@huawei.com
   - gitee_id: zhenpengzheng
+    atomgit_id: ''
     name: zhenpengzheng
     email: zhenpengzheng@net-swift.com
   - gitee_id: chiqijun
+    atomgit_id: chiqijun
     name: Chiqijun
     email: chiqijun@huawei.com
   - gitee_id: chenguangli
+    atomgit_id: ''
     name: chenguangli
     email: chenguangli2@huawei.com
   - gitee_id: zhujianwei001
+    atomgit_id: zhujianwei001
     name: Zhu Jianwei
     email: zhujianwei7@huawei.com
   - gitee_id: gasonchen
+    atomgit_id: chenjiesong
     name: Chen Jiesong
     email: chenjiesong@huawei.com
   - gitee_id: SuperSix173
+    atomgit_id: SuperSix173
     name: Liu Chao
     email: liuchao173@huawei.com
   - gitee_id: juntianlinux
+    atomgit_id: ''
     name: Jun Tian
     email: jun.j.tian@intel.com
   - gitee_id: kailiu42
+    atomgit_id: ''
     name: Kai Liu
     email: kai.liu@suse.com
   - gitee_id: kylin-mayukun
+    atomgit_id: ''
     name: Ma Yukun
     organization: KylinSoft
     email: mayukun@kylinos.cn
   - gitee_id: guohaocs2c
+    atomgit_id: ''
     name: Guo Hao
     organization: KylinSoft
     email: guohao@kylinos.cn
   - gitee_id: LiuYongQiang0816
+    atomgit_id: LiuYongQiang0816
     name: Liu YongQiang
     email: liuyongqiang13@huawei.com
   - gitee_id: haochengxie
+    atomgit_id: ''
     name: Xie Haocheng
     email: haocheng.xie@amd.com
   - gitee_id: guzitao
+    atomgit_id: guzitao
     name: Gu Zitao
     email: guzitao@wxiat.com
   - gitee_id: Hongchen_Zhang
+    atomgit_id: ''
     name: Hongchen Zhang
     email: zhanghongchen@loongson.cn
   - gitee_id: chenwei_kernel
+    atomgit_id: ''
     name: Chen Wei
     email: chenwei@xfusion.com
   - gitee_id: CTC-XiboWang
+    atomgit_id: ''
     name: Xibo.Wang
     email: wangxb12@chinatelecom.cn
   - gitee_id: mao-hongbo
+    atomgit_id: ''
     name: Mao HongBo
     email: maohongbo@phytium.com.cn
   - gitee_id: allen-shi
+    atomgit_id: allen-shi
     name: Aichun Shi
     email: shiaichun@hygon.cn
   - gitee_id: duanqiangwen
+    atomgit_id: duanqiangwen
     name: DuanqiangWen
     email: duanqiangwen@net-swift.com
   - gitee_id: georgeguo
+    atomgit_id: ''
     name: Guo Dongtai
     organization: KylinSoft
     email: guodongtai@kylinos.cn
   - gitee_id: gouhao2022
+    atomgit_id: ''
     name: Gou Hao
     email: gouhao@uniontech.com
   - gitee_id: stkid
+    atomgit_id: stkid
     name: Wei Li
     email: liwei391@huawei.com
   - gitee_id: sanglipeng
+    atomgit_id: sanglipeng
     name: sanglipeng
     email: sanglipeng1@jd.com
   - gitee_id: kongzizaixian
+    atomgit_id: ''
     name: Fred Kimmy
     email: xweikong@163.com
   - gitee_id: hellotcc
+    atomgit_id: hellotcc
     name: Chengchang Tang
     email: tangchengchang@huawei.com
   - gitee_id: youngersun
+    atomgit_id: young-sun
     name: Yang Shen
     email: shenyang39@huawei.com
   - gitee_id: WangBoe2022
+    atomgit_id: ''
     name: Jian Shen
     email: shenjian15@huawei.com
   - gitee_id: Young1c
+    atomgit_id: ''
     name: Yicong Yang
     email: yangyicong@hisilicon.com
   - gitee_id: hunan4222
+    atomgit_id: ''
     name: XiaoFei Tan
     email: tanxiaofei@huawei.com
   - gitee_id: LiYihang226
+    atomgit_id: ''
     name: Yihang Li
     email: liyihang9@huawei.com
   - gitee_id: hu-chunzhi
+    atomgit_id: hu-chunzhi
     name: Chunzhi Hu
     email: huchunzhi@huawei.com
   - gitee_id: wsoydl
+    atomgit_id: wsoydl
     name: delong ouyang
     email: ouyangdelong@huawei.com
   - gitee_id: JerryHZ
+    atomgit_id: jerry_lilijun
     name: Lijun Li
     email: jerry.lilijun@huawei.com
   - gitee_id: chenke1978
+    atomgit_id: chenke2026
     name: Ke Chen
     email: chenke54@huawei.com
   - gitee_id: YGN-NDWD-Official
+    atomgit_id: ''
     name: Yanze Liu
     email: liuyanze1@huawei.com
   - gitee_id: jimmy_hero
+    atomgit_id: kaitiandu
     name: Kaitian Du
-    email: dukaitian@huawei.com 
+    email: dukaitian@huawei.com
   - gitee_id: zhang-changzhong
+    atomgit_id: zhang-changzhong
     name: Zhang Changzhong
     email: zhangchangzhong@huawei.com
   - gitee_id: xingmz
+    atomgit_id: xingmz1
     name: Mingzheng Xing
     email: xingmingzheng@iscas.ac.cn
   - gitee_id: qinirao
+    atomgit_id: ''
     name: Chen Weilong
     email: chenweilong@huawei.com
   - gitee_id: lixuefeng-loongson
+    atomgit_id: ''
     name: Li Xuefeng
     email: lixuefeng@loongson.cn
   - gitee_id: maobibo
+    atomgit_id: ''
     name: Mao Bibo
     email: maobibo@loongson.cn
   - gitee_id: hitmoon
+    atomgit_id: ''
     name: Zhao XiaoQiang
     organization: jingdong
     email: zhaoxiaoqiang11@jd.com
   - gitee_id: yunshenglin
+    atomgit_id: linyunsheng
     name: Lin Yunsheng
     email: linyunsheng@huawei.com
   - gitee_id: Lostwayzxc
+    atomgit_id: lostway1
     name: Luo Shengwei
     email: luoshengwei@huawei.com
   - gitee_id: giree2
+    atomgit_id: ''
     name: Jiao Litao
     email: jiaolitao@sangfor.com.cn
   - gitee_id: chris_zjh
+    atomgit_id: chriszjh
     name: Zhang Jianhua
     email: chris.zjh@huawei.com
   - gitee_id: gaojuxin09
+    atomgit_id: gaojuxin09
     name: Juxin Gao
     email: gaojuxin@loongson.cn
   - gitee_id: yeweihua999
+    atomgit_id: yeweihua999
     name: Ye Weihua
     email: yeweihua4@huawei.com
   - gitee_id: hanliyang
+    atomgit_id: hanliyang
     name: Han Liyang
     email: hanliyang@hygon.cn
   - gitee_id: markyuan4ta2
+    atomgit_id: markyuan4ta21
     name: Yuan Can
     email: yuancan@huawei.com
   - gitee_id: wenzhiwei11
+    atomgit_id: ''
     name: Zhiwei Wen
     email: wenzhiwei@kylinos.cn
   - gitee_id: linan888
+    atomgit_id: linan888
     name: Li Nan
     email: linan122@huawei.com
   - gitee_id: yonghu_4dc5
+    atomgit_id: yonghu_4dc5
     name: hu.yong
     email: yong.hu@windriver.com
   - gitee_id: kile2009
+    atomgit_id: kile2009
     name: Wenkuan Wang
     email: wenkuan.wang@amd.com
   - gitee_id: li-huisong
+    atomgit_id: li-huisong
     name: Huisong Li
     email: lihuisong@huawei.com
   - gitee_id: liulongfang
+    atomgit_id: liulongfang
     name: Longfang Liu
     email: liulongfang@huawei.com
   - gitee_id: stavewu
+    atomgit_id: stavewu
     name: Tengda Wu
     email: wutengda2@huawei.com
   - gitee_id: sming56_admin
+    atomgit_id: ''
     name: Shu, Ming
     email: ming.shu@amd.com
   - gitee_id: Frank_Sae
+    atomgit_id: ''
     name: Frank_Sae
     email: Frank.Sae@motor-comm.com
   - gitee_id: koishimind
+    atomgit_id: koishimind
     name: Wentao Guan
     email: guanwentao@uniontech.com
   - gitee_id: shuaijiakun
+    atomgit_id: ''
     name: Jiakun Shuai
     email: shuaijiakun1288@phytium.com.cn
   - gitee_id: hjx_gitff
+    atomgit_id: hjx_gitff
     name: Jingxian He
     email: hejingxian@huawei.com
   - gitee_id: mingqian218472
+    atomgit_id: mingqian218472
     name: Mingqian Zhang
     email: zhangmingqian.zhang@huawei.com
   - gitee_id: junlong-zheng
+    atomgit_id: junlong-zheng
     name: Junlong Zheng
     email: zhengjunlong@huawei.com
   - gitee_id: rock_hw
+    atomgit_id: rock_hw
     name: Yanshi Liu
     email: liuyanshi@huawei.com
   - gitee_id: shu-shengming
+    atomgit_id: shu-shengming
     name: Shengming Shu
     email: shushengming1@huawei.com
   - gitee_id: hongwu-wang
+    atomgit_id: hongwu-wang
     name: Hongwu Wang
     email: wanghongwu9@huawei.com
   - gitee_id: chenjunxin1992
+    atomgit_id: ''
     name: Junxin Chen
     email: chenjunxin1@huawei.com
   - gitee_id: fanghaiqinghw
+    atomgit_id: fanghaiqinghw
     name: Haiqing Fang
     email: fanghaiqing@huawei.com
   - gitee_id: caixu-blue
+    atomgit_id: caixu-blue
     name: Xu Cai
     email: caixu6@huawei.com
   - gitee_id: Tankll2021
+    atomgit_id: Tankll2021
     name: Jiashun Wang
     email: wangjiashun@huawei.com
   - gitee_id: fangfeng123
+    atomgit_id: fangfeng123
     name: Feng Fang
     email: fangfeng4@huawei.com
   - gitee_id: mufengyan
+    atomgit_id: mufengyan
     name: Fengyan Mu
     email: mufengyan@huawei.com
   - gitee_id: TrueAI
+    atomgit_id: TrueAI
     name: GaoChao
     email: gaochao24@huawei.com
   - gitee_id: gongleihuawei
+    atomgit_id: gongleihuawei
     name: Lei Gong
     email: gonglei25@huawei.com
   - gitee_id: kazero00
+    atomgit_id: kazero00
     name: Li Ruilin
     email: liruilin4@huawei.com
-
   contributors:
   - gitee_id: xuyanaasss
+    atomgit_id: ''
     name: Xu Yan
     email: xuyan1481@phytium.com.cn
   - gitee_id: yuanx0927
+    atomgit_id: ''
     name: Yuan Xia
     email: yuanxia2073@phytium.com.cn
   - gitee_id: liuyonglong86
+    atomgit_id: liuyonglong86
     name: Liu Yonglong
     email: liuyonglong@huawei.com
-
 - repo:
   - openeuler/kbuild-standalone
   committers:
   - gitee_id: pi3orama
+    atomgit_id: pi3orama
     name: Wang Nan
     email: wangnan0@huawei.com
-
 - repo:
   - openeuler/TCP_option_address
   committers:
   - gitee_id: jiaoff
+    atomgit_id: ''
     name: Jiao Fenfang
     email: jiaofenfang@uniontech.com
-
 - repo:
   - openeuler/eulerfs-test
   committers:
   - gitee_id: hailan94
+    atomgit_id: ''
     name: Yu Kuai
     email: yukuai3@huawei.com
-
 - repo:
   - openeuler/kernel-cloudnative
   committers:
   - gitee_id: hitmoon
+    atomgit_id: ''
     name: zhao xiaoqiang
     email: zhaoxiaoqiang11@jd.com
   - gitee_id: sanglipeng
+    atomgit_id: sanglipeng
     name: sanglipeng
     email: sanglipeng1@jd.com
   - gitee_id: zhangwei123171
+    atomgit_id: zhangwei123171
     name: zhangwei
     email: zhangwei123171@jd.com
-    
 - repo:
   - openeuler/kconfigDetector
   - src-openeuler/kconfigDetector
   committers:
   - gitee_id: sunying2022
+    atomgit_id: ''
     name: ying Sun
     organization: Institute of Software, Chinese Academy of Sciences
     email: sunying@nj.iscas.ac.cn
-
 - repo:
   - openeuler/kernel-docs
   committers:
   - gitee_id: LiaoTao_Wave
+    atomgit_id: liaotao-wave
     name: Liao Tao
     email: liaotao11@huawei.com
-
 - repo:
   - openeuler/kernel-ascend
   committers:
   - gitee_id: qinirao
+    atomgit_id: ''
     name: Weilong Chen
     email: chenweilong@huawei.com
-
 - repo:
   - openeuler/cloudphone_kernel
   committers:
   - gitee_id: huanghaochun1
+    atomgit_id: lindv
     name: Huang Haochun
     email: huanghaochun@huawei.com
-
 branches:
 - repo_branch:
   - repo: openeuler/kernel
@@ -420,7 +526,7 @@ branches:
     branch: openEuler-22.03-LTS
   keeper:
   - gitee_id: stavewu
-
+    atomgit_id: stavewu
 - repo_branch:
   - repo: openeuler/kernel
     branch: openEuler-1.0-LTS
@@ -428,7 +534,7 @@ branches:
     branch: openEuler-20.03-LTS-SP1
   keeper:
   - gitee_id: markyuan4ta2
-
+    atomgit_id: markyuan4ta21
 - repo_branch:
   - repo: openeuler/kernel
     branch: OLK-6.6
@@ -440,3 +546,4 @@ branches:
     branch: openEuler-24.03-LTS
   keeper:
   - gitee_id: linan888
+    atomgit_id: linan888

@@ -3,333 +3,379 @@ description: The goal of sig-Long is to explore the future development of openEu
 created_on: '2024-11-09'
 maintainers:
 - gitee_id: qinbinjuan
+  atomgit_id: ''
   name: Binjuan Qin
   organization: Huawei
   email: qinbinjuan@huawei.com
 - gitee_id: juntianlinux
+  atomgit_id: ''
   name: Jun Tian
   organization: Intel
   email: jun.j.tian@intel.com
 - gitee_id: luanjianhai
+  atomgit_id: luanjianhai
   name: Jianhai Luan
   organization: Huawei
   email: luanjianhai@huawei.com
 - gitee_id: sinever
+  atomgit_id: ''
   name: Xian Zheng
   organization: Huawei
   email: sinever@126.com
-
 repositories:
 - repo:
   - src-openeuler/ray
   committers:
   - gitee_id: rubickrt
+    atomgit_id: ''
     name: Yingtai Xie
     organization: Huawei
     email: xieyingtai@huawei.com
   - gitee_id: xujing99
+    atomgit_id: xujing99
     name: Jing Xu
     organization: Huawei
     email: xujing125@huawei.com
   - gitee_id: yangyuan32
+    atomgit_id: yangyuan32
     name: Yuan Yang
     organization: Huawei
     email: yangyuan32@huawei.com
-
 - repo:
   - openeuler/llm_solution
   committers:
   - gitee_id: qinbinjuan
+    atomgit_id: ''
     name: Binjuan Qin
     email: qinbinjuan@huawei.com
   - gitee_id: sinever
+    atomgit_id: ''
     name: Xian Zheng
     email: sinever@126.com
   - gitee_id: rubickrt
+    atomgit_id: ''
     name: Yingtai Xie
     email: xieyingtai@huawei.com
   - gitee_id: luanjianhai
+    atomgit_id: luanjianhai
     name: Jianhai Luan
     email: luanjianhai@huawei.com
-
 - repo:
   - openeuler/FalconFS
   - src-openeuler/FalconFS
   committers:
   - gitee_id: kangjunbin0916
+    atomgit_id: kangjunbin0916
     name: Junbin Kang
     organization: Huawei
     email: kangjunbin1@huawei.com
   - gitee_id: guoshaohong
+    atomgit_id: guoshaohong1
     name: Shaohong Guo
     organization: Huawei
     email: guoshaohong2@huawei.com
   - gitee_id: qzy12
+    atomgit_id: ''
     name: Ziyan Qiu
     organization: Huawei
     email: qiuziyan1@huawei.com
   - gitee_id: sth4nthL
+    atomgit_id: sth4nthL
     name: Mingyu Liu
     organization: Huawei
     email: liumingyu15@huawei.com
   - gitee_id: luzhang92
+    atomgit_id: luzhang92
     name: Lu Zhang
     organization: Huawei
     email: zhanglu214@huawei.com
   - gitee_id: mutouyuguo
+    atomgit_id: ''
     name: Anqi Yu
     organization: Huawei
     email: yuanqi4@huawei.com
   repo_admin:
   - gitee_id: sth4nthL
+    atomgit_id: sth4nthL
     name: Mingyu Liu
     organization: Huawei
     email: liumingyu15@huawei.com
-
 - repo:
   - openeuler/expert-kit
   committers:
   - gitee_id: luanjianhai
+    atomgit_id: luanjianhai
     name: Jianhai Luan
     organization: Huawei
     email: luanjianhai@huawei.com
   repo_admin:
   - gitee_id: luanjianhai
+    atomgit_id: luanjianhai
     name: Jianhai Luan
     organization: Huawei
     email: luanjianhai@huawei.com
-
 - repo:
   - openeuler/GVirt
   committers:
   - gitee_id: lulina
+    atomgit_id: lulina1
     name: Lina Lu
     organization: Huawei
     email: lina.lulina@huawei.com
   - gitee_id: JungleXX
+    atomgit_id: JungleXX
     name: Yanqiang Liu
     organization: Huawei
     email: liuyanqiang3@huawei.com
   - gitee_id: rubickrt
+    atomgit_id: ''
     name: Yingtai Xie
     organization: Huawei
     email: xieyingtai@huawei.com
   - gitee_id: hao-mingzhe
+    atomgit_id: hao-mingzhe
     name: Mingzhe Hao
     organization: Huawei
     email: haomingzhe1@huawei.com
-
 - repo:
   - src-openeuler/LMCache
   committers:
   - gitee_id: gfmyeung
+    atomgit_id: gfmyeung
     name: GingFung Yeung
     organization: Huawei
     email: gingfung.matthew.yeung@huawei.com
   - gitee_id: volcanodragon
+    atomgit_id: dragon1147e3
     name: Feilong Lin
     organization: Huawei
     email: linfeilong@huawei.com
   - gitee_id: chloroethylene
+    atomgit_id: ''
     name: Junyuan Jing
     organization: Huawei
     email: jingjunyuan@huawei.com
-
 - repo:
   - openeuler/ServerlessLLM
   committers:
   - gitee_id: fangchuang
+    atomgit_id: fangchuang
     name: Chuangchuang Fang
     organization: Huawei
     email: fangchuangchuang@huawei.com
   - gitee_id: mohamedkassem
+    atomgit_id: ''
     name: Mohamed Kassem
     organization: Huawei
     email: mohamed.kassem1@huawei.com
   - gitee_id: rwang_5885
+    atomgit_id: ''
     name: Zirui Wang
     organization: Huawei
     email: rwang326@gmail.com
   - gitee_id: JackSuuu
+    atomgit_id: ''
     name: Jack Su
     organization: University of Edinburgh
     email: s2510156@ed.ac.uk
-
 - repo:
   - openeuler/ModelFS
   committers:
   - gitee_id: hongbo-lee
+    atomgit_id: hongbo-lee
     name: Hongbo Li
     organization: Huawei
     email: lihongbo22@huawei.com
   - gitee_id: yubo-liu
+    atomgit_id: yubo-liu1
     name: Yubo Liu
     organization: Huawei
     email: liuyubo10@huawei.com
   - gitee_id: hsiaoh2
+    atomgit_id: ''
     name: Xiaojia Huang
     organization: Huawei
     email: huangxiaojia2@huawei.com
   - gitee_id: mingrui-liu
+    atomgit_id: ''
     name: Mingrui Liu
     organization: Huawei
     email: liumingrui@huawei.com
   - gitee_id: chris_zjh
+    atomgit_id: chriszjh
     name: Jianhua Zhang
     organization: Huawei
     email: chris.zjh@huawei.com
   - gitee_id: zouyipeng
+    atomgit_id: zouyipeng
     name: Yipeng Zou
     organization: Huawei
     email: zouyipeng@huawei.com
   - gitee_id: ryuxin
+    atomgit_id: ryuxin
     name: Yuxin Ren
     organization: Huawei
     email: renyuxin1@huawei.com
-
 - repo:
   - openeuler/libXSched
   committers:
   - gitee_id: chenhui20210406
+    atomgit_id: ''
     name: Hui Chen
     organization: Huawei
     email: judy.chenhui@huawei.com
   - gitee_id: barry19901226
+    atomgit_id: barry19901226
     name: Hui Tang
     organization: Huawei
     email: tanghui20@huawei.com
-
 - repo:
   - src-openeuler/mem-agent
   committers:
   - gitee_id: teawater
+    atomgit_id: teawater1
     name: Hui Zhu
     organization: Kylin Software
     email: zhuhui@kylinos.cn
-
 - repo:
   - openeuler/kvcache-ops
   committers:
   - gitee_id: gfmyeung
+    atomgit_id: gfmyeung
     name: GingFung Yeung
     organization: Huawei
     email: gingfung.matthew.yeung@huawei.com
   - gitee_id: volcanodragon
+    atomgit_id: dragon1147e3
     name: Feilong Lin
     organization: Huawei
     email: linfeilong@huawei.com
   - gitee_id: chloroethylene
+    atomgit_id: ''
     name: Junyuan Jing
     organization: Huawei
     email: jingjunyuan@huawei.com
-
 - repo:
   - openeuler/LMCache-mindspore
   committers:
   - gitee_id: gfmyeung
+    atomgit_id: gfmyeung
     name: GingFung Yeung
     organization: Huawei
     email: gingfung.matthew.yeung@huawei.com
   - gitee_id: volcanodragon
+    atomgit_id: dragon1147e3
     name: Feilong Lin
     organization: Huawei
     email: linfeilong@huawei.com
   - gitee_id: chloroethylene
+    atomgit_id: ''
     name: Junyuan Jing
     organization: Huawei
     email: jingjunyuan@huawei.com
-
 - repo:
   - openeuler/xmig
   - src-openeuler/xmig
   committers:
   - gitee_id: menghaozhang
+    atomgit_id: ''
     name: Menghao Zhang
     organization: Beihang University
     email: zhangmenghao0503@gmail.com
   - gitee_id: li-yuanrong
+    atomgit_id: ''
     name: Yuanrong Li
     organization: Huawei
     email: liyuanrong1@huawei.com
   - gitee_id: whisky-ma
+    atomgit_id: whisky-ma
     name: Jie Ma
     organization: Huawei
     email: majie61@huawei.com
   - gitee_id: Simon9612
+    atomgit_id: ''
     name: Haogang Wang
     organization: Kuaishou Technology
     email: wanghaogang@kuaishou.com
-
 - repo:
   - openeuler/HeteroFusedKernels
   committers:
   - gitee_id: yang_yanchao
+    atomgit_id: ''
     name: Yanchao Yang
     organization: Huawei
     email: yangyanchao6@huawei.com
   - gitee_id: weixizhu94
+    atomgit_id: ''
     name: zhuweixi
     organization: Huawei
     email: weixi.zhu@huawei.com
   - gitee_id: wangbin224
+    atomgit_id: qq_33582694
     name: wangbin
     organization: Huawei
     email: wangbin224@huawei.com
   - gitee_id: gfmyeung
+    atomgit_id: gfmyeung
     name: gfmyeung
     organization: Huawei
     email: gingfung.matthew.yeung@huawei.com
   - gitee_id: euleroswander
+    atomgit_id: ''
     organization: Huawei
     name: EulerOSWander
     email: 314264452@qq.com
-
 - repo:
   - openeuler/heterogeneous_systems_programming
   committers:
   - gitee_id: luanjianhai
+    atomgit_id: luanjianhai
     name: Jianhai Luan
     organization: Huawei
     email: luanjianhai@163.com
-
 - repo:
   - openeuler/obmm
   - src-openeuler/obmm
   committers:
   - gitee_id: TrueAI
+    atomgit_id: TrueAI
     name: GaoChao
     organization: Huawei
     email: gaochao24@huawei.com
   - gitee_id: yiqun-liu
+    atomgit_id: ''
     name: Yiqun Liu
     organization: Huawei
     email: yiqun.liu@huawei.com
   - gitee_id: kazero00
+    atomgit_id: kazero00
     name: Li Ruilin
     organization: Huawei
     email: liruilin4@huawei.com
   - gitee_id: hazenoeasy
+    atomgit_id: hazenoeasy
     name: Yuhao Zhang
     organization: Huawei
     email: yuhao.zhang@huawei.com
-
 - repo:
-    - openeuler/memlink
-    - src-openeuler/memlink
+  - openeuler/memlink
+  - src-openeuler/memlink
   committers:
-    - gitee_id: zhangliang5
-      name: zhangliang5
-      organization: Huawei
-      email: zhangliang5@huawei.com
-    - gitee_id: yebiaoxiang
-      name: yebiaoxiang
-      organization: Huawei
-      email: yebiaoxiang@huawei.com
-
+  - gitee_id: zhangliang5
+    atomgit_id: ''
+    name: zhangliang5
+    organization: Huawei
+    email: zhangliang5@huawei.com
+  - gitee_id: yebiaoxiang
+    atomgit_id: yebiaoxiang
+    name: yebiaoxiang
+    organization: Huawei
+    email: yebiaoxiang@huawei.com
 - repo:
-    - openeuler/xsched
+  - openeuler/xsched
   committers:
-    - gitee_id: rasko
-      name: guotianyi
-      organization: Shanghai Jiao Tong University
-      email: guotianyi@sjtu.edu.cn
+  - gitee_id: rasko
+    atomgit_id: ''
+    name: guotianyi
+    organization: Shanghai Jiao Tong University
+    email: guotianyi@sjtu.edu.cn

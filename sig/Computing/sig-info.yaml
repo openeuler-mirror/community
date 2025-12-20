@@ -5,30 +5,35 @@ meeting_url: NA
 mature_level: startup
 mentors:
 - gitee_id: liqingqing_1229
+  atomgit_id: liqingqing_1229
   name: Qingqing Li
   email: liqingqing3@huawei.com
 maintainers:
 - gitee_id: liqingqing_1229
+  atomgit_id: liqingqing_1229
   name: Qingqing Li
   organization: Huawei
   email: liqingqing3@huawei.com
 - gitee_id: wangbin224
+  atomgit_id: qq_33582694
   name: Bin Wang
   organization: Huawei
   email: wangbin224@huawei.com
 - gitee_id: SuperSix173
+  atomgit_id: SuperSix173
   name: Chao Liu
   organization: Huawei
   email: liuchao173@huawei.com
 - gitee_id: juyin
+  atomgit_id: juyin
   name: Yan Zhu
   organization: Huawei
   email: zhuyan34@huawei.com
 - gitee_id: yang_yanchao
+  atomgit_id: ''
   name: Yanchao Yang
   organization: Huawei
   email: yangyanchao6@huawei.com
-  
 repositories:
 - repo:
   - openeuler/libgmem
@@ -96,59 +101,65 @@ repositories:
   - src-openeuler/scipy
   - src-openeuler/shapelib
   - src-openeuler/strace
-
   committers:
-    - gitee_id: liqingqing_1229
-      name: Qingqing Li
-      organization: Huawei
-      email: liqingqing3@huawei.com
-    - gitee_id: wswsamao
-      name: Shuo Wang
-      organization: Tencent
-      email: abushwang@tencent.com
-    - gitee_id: wangbin224
-      name: Bin Wang
-      organization: Huawei
-      email: wangbin224@huawei.com
-    - gitee_id: SuperSix173
-      name: Chao Liu
-      organization: Huawei
-      email: liuchao173@huawei.com
-    - gitee_id: juyin
-      name: Yan Zhu
-      organization: Huawei
-      email: zhuyan34@huawei.com
-    - gitee_id: yang_yanchao
-      name: Yanchao yang
-      organization: Huawei
-      email: yangyanchao6@huawei.com
-      
+  - gitee_id: liqingqing_1229
+    atomgit_id: liqingqing_1229
+    name: Qingqing Li
+    organization: Huawei
+    email: liqingqing3@huawei.com
+  - gitee_id: wswsamao
+    atomgit_id: ''
+    name: Shuo Wang
+    organization: Tencent
+    email: abushwang@tencent.com
+  - gitee_id: wangbin224
+    atomgit_id: qq_33582694
+    name: Bin Wang
+    organization: Huawei
+    email: wangbin224@huawei.com
+  - gitee_id: SuperSix173
+    atomgit_id: SuperSix173
+    name: Chao Liu
+    organization: Huawei
+    email: liuchao173@huawei.com
+  - gitee_id: juyin
+    atomgit_id: juyin
+    name: Yan Zhu
+    organization: Huawei
+    email: zhuyan34@huawei.com
+  - gitee_id: yang_yanchao
+    atomgit_id: ''
+    name: Yanchao yang
+    organization: Huawei
+    email: yangyanchao6@huawei.com
 - repo:
   - openeuler/kspack-go
   - openeuler/kspack-java
   - openeuler/kspack-c
   - openeuler/kspack-rust
   committers:
-    - gitee_id: dongjiang1989
-      name: Jiang Dong
-      organization: Chinamobile
-      email: dongjiang@cmss.chinamobile.com
-    - gitee_id: left0317
-      name: Gangyi Luo
-      organization: Chinamobile
-      email: luogangyi2@cmss.chinamobile.com
-
+  - gitee_id: dongjiang1989
+    atomgit_id: ''
+    name: Jiang Dong
+    organization: Chinamobile
+    email: dongjiang@cmss.chinamobile.com
+  - gitee_id: left0317
+    atomgit_id: ''
+    name: Gangyi Luo
+    organization: Chinamobile
+    email: luogangyi2@cmss.chinamobile.com
 - repo:
   - openeuler/Computing-docs
   committers:
   - gitee_id: mszjaas
+    atomgit_id: qq_37517281
     name: zhangjian
     organization: Huawei
     email: zhangjian496@huawei.com
-
 branches:
 - repo_branch:
   - repo: src-openeuler/boost
     branch: Multi-Version_ray_openEuler-22.03-LTS-SP4
   keeper:
-    - gitee_id: xujing99
+  - gitee_id: xujing99
+    atomgit_id: xujing99

@@ -1,27 +1,32 @@
 name: sig-ROS
 description: The ROS SIG group is committed to porting ROS to openEuler in order to lower the threshold of use of openEuler in the field of robotics and promote the popularization of openEuler users in the field of robotics
-created_on: '2020-06'
+created_on: 2020-06
 mailing_list: ros@openeuler.org
 meeting_url: https://etherpad.openeuler.org/p/sig-ROS-meetings
 mature_level: startup
 maintainers:
 - gitee_id: wuwei_kubuds
+  atomgit_id: ''
   name: wuwei
   organization: kubuds
   email: w@kubuds.cn
 - gitee_id: anchuanxu
+  atomgit_id: anchuanxu1
   name: anchuanxu
   organization: ISCAS
   email: chuanxu@iscas.ac.cn
 - gitee_id: xiao_yun_wang
+  atomgit_id: xiao_yun_wang
   name: wangxiaoyun
   organization: ISCAS
   email: wangxiaoyun@iscas.ac.cn
 - gitee_id: davidhan008
+  atomgit_id: ''
   name: hanhaomin
   organization: ISCAS
   email: 619409713@qq.com
 - gitee_id: simonaxi
+  atomgit_id: ''
   name: xijiangling
   organization: ISCAS
   email: 18701881329@163.com
@@ -30,10 +35,12 @@ repositories:
   - openeuler/ros
   committers:
   - gitee_id: chen_jiayou
+    atomgit_id: chenjy9581
     name: chenjiayou
     organization: ISCAS
     email: 1132021192@qq.com
   - gitee_id: will_niutao
+    atomgit_id: will_niutao
     name: niutao
     organization: Huawei
     email: niutao@huawei.com
@@ -43,894 +50,783 @@ repositories:
   - src-openeuler/color_util
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/network_interface
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/pal_maps
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/situational_graphs_datasets
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/actuator_msgs
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/schunk_svh_library
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/multiple_topic_monitor
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/sick_safevisionary_base
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/sync_parameter_server
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/flir_camera_driver
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/clearpath_nav2_demos
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/andino
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/ess_imu_driver2
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/event_camera_msgs
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/flex_sync
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/odom_to_tf_ros2
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/mocap4r2_msgs
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/interactive_marker_twist_server
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/marker_msgs
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/hri_msgs
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/mola_common
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/crane_plus
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/clearpath_msgs
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/qbshin_ros
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/create_robot
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/data_tamer
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/flexbe_behavior_engine
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/raspimouse_sim
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/point_cloud_transport_plugins
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/clearpath_config
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/catch_ros2
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/situational_graphs_reasoning_msgs
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/camera_aravis2
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/off_highway_sensor_drivers
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/qbdevice-ros
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/bcr_bot
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/LMS1xx
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/caret_trace
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/game_controller_spl
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/fadecandy_ros
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/ecl_core
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/create3_examples
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/gazebo_model_attachment_plugin
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/pal_navigation_cfg_public
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/ffmpeg_image_transport_msgs
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/pal_hey5
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/vector_pursuit_controller
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/mqtt_client
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/clearpath_simulator
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/raspimouse_slam_navigation
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/kuka_robot_descriptions
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/mocap_optitrack
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/nmea_navsat_driver
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/weight_scale_interfaces
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/py_binding_tools
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/clearpath_mecanum_drive_controller
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/wrapyfi_ros2_interfaces
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/heaphook
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/log_view
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/classic_bags
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/motion_capture_tracking
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/autoware_cmake
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/autoware_adapi_msgs
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/astuff_sensor_msgs
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/tuw_msgs
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/etsi_its_messages
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/twist_mux_msgs
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/franka_description
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/unitree_ros
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/urdf_launch
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/turtlebot4_setup
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/imu_pipeline
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/marine_msgs
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/cob_common
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/clearpath_common
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/polygon_ros
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/kuka_drivers
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/novatel_oem7_driver
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/metrics_msgs
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/gazebo_video_monitors
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/caret_analyze_cpp_impl
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/psdk_ros2
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/social_nav_ros
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/puma_motor_driver
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/pal_robotiq_gripper
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/talos_robot
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/scenario_execution
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/clearpath_desktop
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/hri_actions_msgs
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/gauges2
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/message_tf_frame_transformer
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/turtlebot4_tutorials
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/ros_babel_fish
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/turtlebot3_manipulation
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/wireless
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/tmcl_ros2
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/vimbax_ros2_driver
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/human_description
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/talos_simulation
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/sick_scan_xd
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/sbg_ros2
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/schunk_svh_ros_driver
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/pal_urdf_utils
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/metro_nav
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/naoqi_bridge_msgs2
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/libcreate
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/caret_analyze
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/rosgpt
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/topic_based_ros2_control_release
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/talos_moveit_config
   committers:
   - gitee_id: simonaxi
+    atomgit_id: ''
     name: simonaxi
     email: 18701881329@163.com
-
-
 - repo:
   - src-openeuler/ros2_openvino_toolkit
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-
-
 - repo:
   - src-openeuler/ros2_object_msgs
   committers:
   - gitee_id: davidhan008
+    atomgit_id: ''
     name: davidhan008
     email: 619409713@qq.com
-

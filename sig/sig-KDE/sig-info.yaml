@@ -6,30 +6,37 @@ meeting_url: https://etherpad.openeuler.org/p/sig-KDE-meetings
 mature_level: startup
 maintainers:
 - gitee_id: panchenbo
+  atomgit_id: panchenbo
   name: Pan Chenbo
   organization: UnionTech
   email: panchenbo@uniontech.com
 - gitee_id: hjimmy
+  atomgit_id: ''
   name: Hou Jian
   organization: KylinSoft
   email: houjian@kylinos.cn
 - gitee_id: weidongkl
+  atomgit_id: weidongkl
   name: Wei Dong
   organization: UnionTech
   email: weidong@uniontech.com
 - gitee_id: dou33
+  atomgit_id: dou33
   name: Dou Yan
   organization: KylinSoft
   email: douyan@kylinos.cn
 - gitee_id: peijiankang
+  atomgit_id: peijiankang
   name: Pei Jiankang
   organization: KylinSoft
   email: peijiankang@kylinos.cn
 - gitee_id: misaka00251
+  atomgit_id: misaka00251
   name: Xin Liu
   organization: iscas
   email: liuxin@iscas.ac.cn
 - gitee_id: open-bot
+  atomgit_id: openbot
   name: liweigang
   email: openbot@yeah.net
 repositories:
@@ -251,7 +258,7 @@ repositories:
   - src-openeuler/kf5-kirigami2-addons
   - src-openeuler/k3b
   - src-openeuler/digikam
-  - src-openeuler/kf5-libkcddb 
+  - src-openeuler/kf5-libkcddb
   - src-openeuler/Sweeper
   - src-openeuler/notae
   - src-openeuler/RSIBreak
@@ -309,6 +316,7 @@ repositories:
   - src-openeuler/polkit-qt-1
   committers:
   - gitee_id: jackssir
+    atomgit_id: ''
     name: lvfei
     organization: KylinSoft
     email: lvfei@kylinos.cn
@@ -316,6 +324,7 @@ repositories:
   - src-openeuler/kpmcore
   committers:
   - gitee_id: lipingEmmaSiguyi
+    atomgit_id: qq_32282353
     name: Li Ping
     email: 1477412247@qq.com
 - repo:
@@ -348,7 +357,7 @@ repositories:
   - src-openeuler/kf6-kdoctools
   - src-openeuler/kf6-kfilemetadata
   - src-openeuler/kf6-kglobalaccel
-  - src-openeuler/kglobalacceld 
+  - src-openeuler/kglobalacceld
   - src-openeuler/kf6-kguiaddons
   - src-openeuler/kf6-kholidays
   - src-openeuler/kf6-ki18n
@@ -399,8 +408,10 @@ repositories:
   - src-openeuler/python-doxyqml
   committers:
   - gitee_id: tangjie02
+    atomgit_id: tangjie02
     name: tangjie02
     email: tangjie02@kylinsec.com.cn
   - gitee_id: itisyang
+    atomgit_id: itisyang
     name: yangfeng
     email: yangfeng@kylinsec.com.cn
