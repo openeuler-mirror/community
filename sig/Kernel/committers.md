@@ -14,6 +14,7 @@
 | irq    | drivers/irqchip/irq-gic\*    | [@chris_zjh](https://gitee.com/chris_zjh) |
 | debugging | kernel/printk<br/>/kernel/trace<br/>kernel/kexec.c<br/>kernel/kexec_core.c<br/>kernel/watchdog.c<br/>kernel/kernel/watchdog_hld.c | [@yeweihua](https://gitee.com/yeweihua999) |
 | livepatch | kernel/livepatch        | [@xukuohai](https://gitee.com/xukuohai) [@yeweihua](https://gitee.com/yeweihua999) |
+| sched_ext | include/linux/sched/ext.h<br/>kernel/sched/ext\*<br/>tools/sched_ext<br/>tools/testing/selftests/sched_ext | [@cheliequan](https://gitee.com/cheliequan) [@zichengqu](https://gitee.com/zichengqu) |
 
 
 ## arch
@@ -22,7 +23,7 @@
 | ------ | ------------------------------------------------------------ | ------------ |
 | 鲲鹏   | kunpeng platform  | [@alvin](https://gitee.com/alvin-ling) |
 | intel  | intel platform    | [@x56Jason](https://gitee.com/x56Jason) [@juntianlinux](https://gitee.com/juntianlinux) |
-| 龙芯   | arch/loongarch/<br/>tools/arch/loongarch/<br/>drivers/gpu/drm/loongson/<br/>tools/perf/arch/loongarch/<br/>drivers/irqchip/irq-loongson-\*<br/>drivers/irqchip/irq-loongarch-\*<br/>drivers/spi/spi-loongson.c<br/>drivers/char/ipmi/btlock.h<br/>drivers/char/ipmi/ipmi_si.h<br/>drivers/char/ipmi/ipmi_si_intf.c<br/>drivers/char/ipmi/ipmi_si_ls2k500.c<br/>drivers/char/ipmi/kcs_bmc_ls2k500.h<br/>drivers/gpio/gpio-loongson.c<br/>drivers/i2c/busses/i2c-loongson.c<br/>drivers/pci/controller/pci-loongson.c<br/>drivers/input/serio/i8042-loongsonio.h<br/>drivers/cpufreq/loongson3-acpi-cpufreq.c<br/>drivers/firmware/efi/libstub/loongarch-stub.c<br/>drivers/net/ethernet/stmicro/stmmac/dwmac-loongson.c<br/>drivers/platform/loongarch/loongson_generic_laptop.c | [@lixuefeng-loongson](https://gitee.com/lixuefeng-loongson) [@maobibo](https://gitee.com/maobibo) [@Hongchen_Zhang](https://gitee.com/Hongchen_Zhang) | 
+| 龙芯   | arch/loongarch/<br/>tools/arch/loongarch/<br/>drivers/gpu/drm/loongson/<br/>tools/perf/arch/loongarch/<br/>drivers/irqchip/irq-loongson-\*<br/>drivers/irqchip/irq-loongarch-\*<br/>drivers/spi/spi-loongson.c<br/>drivers/char/ipmi/btlock.h<br/>drivers/char/ipmi/ipmi_si.h<br/>drivers/char/ipmi/ipmi_si_intf.c<br/>drivers/char/ipmi/ipmi_si_ls2k500.c<br/>drivers/char/ipmi/kcs_bmc_ls2k500.h<br/>drivers/gpio/gpio-loongson.c<br/>drivers/i2c/busses/i2c-loongson.c<br/>drivers/pci/controller/pci-loongson.c<br/>drivers/input/serio/i8042-loongsonio.h<br/>drivers/cpufreq/loongson3-acpi-cpufreq.c<br/>drivers/firmware/efi/libstub/loongarch-stub.c<br/>drivers/net/ethernet/stmicro/stmmac/dwmac-loongson.c<br/>drivers/platform/loongarch/loongson_generic_laptop.c | [@lixuefeng-loongson](https://gitee.com/lixuefeng-loongson) [@maobibo](https://gitee.com/maobibo) [@robinorg](https://gitee.com/robinorg) | 
 | 兆芯   | zhaoxin platform    | [@leoliu-oc](https://gitee.com/leoliu-oc) |
 | 海光   | hygon platform      | [@hanliyang](https://gitee.com/hanliyang) [@allen-shi](https://gitee.com/allen-shi) |
 | 飞腾   | phytium platform     | [@mao-hongbo](https://gitee.com/mao-hongbo) [@shuaijiakun](https://gitee.com/shuaijiakun)  |
