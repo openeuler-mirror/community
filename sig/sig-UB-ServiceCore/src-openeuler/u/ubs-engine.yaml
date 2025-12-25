@@ -10,4 +10,7 @@ branches:
 - name: openEuler-24.03-LTS-SP3
   type: protected
   create_from: openEuler-24.03-LTS-Next
+- name: br_noncom_container_20260228
+  type: protected
+  create_from: master
 type: public
