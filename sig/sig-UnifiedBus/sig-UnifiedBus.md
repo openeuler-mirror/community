@@ -26,5 +26,6 @@ Note: The Charter of this SIG follows the convention described in the openEuler 
 - ubutils - [https://gitee.com/openeuler/ubutils](https://gitee.com/openeuler/ubutils)
 - umdk - [https://gitee.com/openeuler/umdk](https://gitee.com/openeuler/umdk)
 - ummu - [https://gitee.com/openeuler/ummu](https://gitee.com/openeuler/ummu)
+- ub-pkg-manager - [https://atomgit.com/openeuler/ub-pkg-manager](https://atomgit.com/openeuler/ub-pkg-manager)
 
 
