@@ -1,0 +1,10 @@
+name: ub-pkg-manager
+description: A user-space tool for deploying and configuring UB OS Component.
+upstream: https://atomgit.com/openeuler/ub-pkg-manager
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
