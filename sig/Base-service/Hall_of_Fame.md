@@ -7,3 +7,4 @@ Thanks to the following people for their contibution.
 韩欣科[@hanxinke](https://gitee.com/hanxinke)
 miaokaibo[@miao_kaibo](https://gitee.com/miao_kaibo)
 chenziyang[@ziyangc](https://gitee.com/ziyangc)
+高若姝[@gaoruoshu](https://gitee.com/gaoruoshu)

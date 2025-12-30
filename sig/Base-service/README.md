@@ -21,7 +21,6 @@
 - 沈洋洋[@shenyangyang01](https://gitee.com/shenyangyang01)
 - 吕颖[@lvying6](https://gitee.com/lvying6)
 - 胡彬[@hubin95](https://gitee.com/hubin95)
-- 高若姝[@gaoruoshu](https://gitee.com/gaoruoshu)
 - 张楠[@znzjugod](https://gitee.com/znzjugod)
 - 陈子扬[@ziyangc](https://gitee.com/ziyangc)
 - 李存龙[@licunlong](https://gitee.com/licunlong)
@@ -34,6 +33,8 @@
 - 陈棋德[@dillon_chen](https://gitee.com/dillon_chen)
 - 缪开波[@miao_kaibo](https://gitee.com/miao_kaibo)
 - xuhuiyue[@xuhuiyue](https://gitee.com/xuhuiyue)
+- 侯明永[@houmingyong](https://gitee.com/houmingyong)
+- 郭达顺[@luckky7](https://gitee.com/luckky7)
 
 # 联系方式
 - 邮件列表: <dev@openeuler.org>
