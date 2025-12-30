@@ -33,7 +33,7 @@
 
 ### Committer列表
 
-- name[@giteeID](giteeID链接)
+- 岳远昆[@yue-yuankun](https://atomgit.com/yue-yuankun)
 
 # 联系方式
 
