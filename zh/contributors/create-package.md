@@ -62,7 +62,7 @@
 
 ## 社区LFS服务
 
-我们建议5MB以上的文件均使用Git LFS进行管理，而在openEuler社区，您可以使用社区自建LFS服务存储大文件。其相较于Gitee LFS服务，可以支持最大5G文件的上传，且拥有更大的存储空间与更快的传输速度。大多数情况下两者的使用方式完全相同，您可能希望了解以下问题：
+我们建议5MB以上的文件均使用Git LFS进行管理，而在openEuler社区，您可以使用社区自建LFS服务存储大文件。其相较于AtomGit LFS服务，可以支持最大5G文件的上传，且拥有更大的存储空间与更快的传输速度。大多数情况下两者的使用方式完全相同，您可能希望了解以下问题：
 
 - 如何配置LFS服务：在仓库根路径下添加`.lfsconfig`文件即可完成配置，配置完成后可使用[Git LFS](https://git-lfs.com/)上传大文件。配置文件内容如下（{owner}/{repo}为启用服务的仓库名称）：
 
@@ -71,7 +71,7 @@
       url = https://artlfs.openeuler.openatom.cn/{owner}/{repo}
   ```
 
-- Git LFS的基本使用，即如何推送大文件：详阅[Git LFS 操作指南](https://help.gitee.com/enterprise/code-manage/code-hosting/large-file-manage/git-lfs)。
+- Git LFS的基本使用，即如何推送大文件：详阅[Git LFS 操作指南](https://github.com/opensourceways/BigFiles/blob/master/docs/BasicGuide.md)。
 
 - 当您推送大文件到自己fork的已启用LFS服务的仓库时：需在本地仓库内手动使用如下命令修改LFS配置（{owner}/{repo}需替换为实际fork后的仓库名称）：
 
@@ -79,14 +79,14 @@
   $ git config --local lfs.url https://artlfs.openeuler.openatom.cn/{owner}/{repo}
   ```
 
-- 权限认证：克隆或推送大文件时，可能会提示需要输入在`https://artlfs.openeuler.openatom.cn`的账号，使用Gitee账号即可进行认证。使用ssh方式克隆或推送时也需要此认证。
+- 权限认证：克隆或推送大文件时，可能会提示需要输入在`https://artlfs.openeuler.openatom.cn`的账号，使用AtomGit账号即可进行认证。使用ssh方式克隆或推送时也需要此认证。
 
   ```
-  Username for 'https://artlfs.openeuler.openatom.cn': gitee_username
-  Password for 'https://gitee_username@artlfs.openeuler.openatom.cn':
+  Username for 'https://artlfs.openeuler.openatom.cn': atomgit_username
+  Password for 'https://atomgit_username@artlfs.openeuler.openatom.cn': atomgit_token
   ```
 
-- 当您的仓库已使用Gitee LFS，现希望切换到社区自建LFS服务：
+- 当您的仓库已使用AtomGit LFS，现希望切换到社区自建LFS服务：
 
   1. 克隆仓库。
 
@@ -94,7 +94,7 @@
       $ git clone <url>
       ```
 
-  2. 获取存储在Gitee LFS服务中的所有LFS文件。
+  2. 获取存储在AtomGit LFS服务中的所有LFS文件。
 
       ```
       $ git lfs fetch --all origin
