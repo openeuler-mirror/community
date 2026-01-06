@@ -34,6 +34,7 @@
 ### Committer列表
 
 - 岳远昆[@yue-yuankun](https://atomgit.com/yue-yuankun)
+- 汪流[@ouuleilei](https://atomgit.com/ouuleilei)
 
 # 联系方式
 
