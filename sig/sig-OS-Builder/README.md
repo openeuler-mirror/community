@@ -30,6 +30,7 @@
 - zhangrui182@huawei.com
 - shenyangyang4@huawei.com
 - hexiaowen@huawei.com
+- zhangqiumiao1@h-partners.com
 - hanhuihui@h-partners.com
 
 ### Committer列表
