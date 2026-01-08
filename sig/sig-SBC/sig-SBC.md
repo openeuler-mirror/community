@@ -29,6 +29,7 @@ The SBC SIG aims at migrating openEuler to various single-board computers, in or
 - Ma Liang[@tideao](https://gitee.com/tideao): <maliang@iscas.ac.cn>
 - Qifeng Liang[@emancipator](https://gitee.com/emancipator): <liangqifeng@ncti-gba.cn>
 - Huang Yan[@huangyan_jrlc](https://gitee.com/huangyan_jrlc): <huangyan@cdjrlc.com>
+- Peiwen Li[@lipeiw](https://gitee.com/lipeiw): <lipeiwen@cdjrlc.com>
 
 ### Committers
 

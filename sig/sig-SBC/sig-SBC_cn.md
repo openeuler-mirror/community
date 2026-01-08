@@ -29,6 +29,7 @@
 - 马  亮[@tideao](https://gitee.com/tideao): <maliang@iscas.ac.cn>
 - 梁其锋[@emancipator](https://gitee.com/emancipator): <liangqifeng@ncti-gba.cn>
 - 黄炎[@huangyan_jrlc](https://gitee.com/huangyan_jrlc): <huangyan@cdjrlc.com>
+- 李沛文[@lipeiw](https://gitee.com/lipeiw)：<lipeiwen@cdjrlc.com>
 
 ### Committer 列表
 
