@@ -1,0 +1,7 @@
+name: sudo-rs
+description: 'Memory safe implementation of sudo and su'
+upstream: https://github.com/trifectatechfoundation/sudo-rs
+branches:
+- name: master
+  type: protected
+type: public
