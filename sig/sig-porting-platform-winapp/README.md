@@ -12,7 +12,7 @@ Porting Platform WinApp SIG 负责 openEuler 社区中 Windows 应用迁移相�
 
 - 刘东[@ld-linzhuotech](https://gitee.com/ld-linzhuotech) Email: <ld@linzhuotech.com>
 - 温研[@celestialwy](https://gitee.com/celestialwy) Email: <wy@linzhuotech.com>
-- 王建民[@jianminw](https://gitee.com/jianminw) Email: <jianmin@iscas.ac.cn>
+- 王建民[@jimmieme](https://atomgit.com/jimmieme) Email: <hi@jimmie.me>
 - 李君弋[lovelijunyi](https://gitee.com/lovelijunyi) Email: <lijunyi088@163.com>
 - 李飞[@ldf-hahaha](https://gitee.com/ldf-hahaha) Email: <lifei@linzhuotech.com>
 

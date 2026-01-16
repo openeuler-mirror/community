@@ -19,7 +19,7 @@
 
 ### Maintainer 列表
 
-- 王建民[@jianminw](https://gitee.com/jianminw): <jianmin@iscas.ac.cn>
+- 王建民[@jimmieme](https://atomgit.com/jimmieme): <hi@jimmie.me>
 - 任  慰[@vonhust](https://gitee.com/vonhust): <191362693@qq.com>
 - 方亚芬[@woqidaideshi](https://gitee.com/woqidaideshi): <yafen@iscas.ac.cn>
 - 马  亮[@tideao](https://gitee.com/tideao): <maliang@iscas.ac.cn>

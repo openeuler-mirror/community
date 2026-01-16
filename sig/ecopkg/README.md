@@ -20,7 +20,7 @@
 - 任  慰<renwei41@huawei.com> [[@vonhust](https://gitee.com/vonhust)]
 - 石  勇<shiyong@kylinos.com.cn> [[@stonefly128](https://gitee.com/stonefly128)]
 - 田  俊<jun.j.tan@intel.com> [[@juntianlinux](https://gitee.com/juntianlinux)]
-- 王建民<jianmin@iscas.ac.cn> [[@jianminw](https://gitee.com/jianminw)]
+- 王建民<hi@jimmie.me> [[@jimmieme](https://atomgit.com/jimmieme)]
 - 王志钢<wangzhigang17@huawei.com>  [[@cellfaint](https://gitee.com/cellfaint)]
 - 吴峰光<wfg@mail.ustc.edu.cn> [[@wu_fengguang](https://gitee.com/wu_fengguang)]
 - 王伶卓<relue0z@outlook.com> [[@relue0z](https://gitee.com/relue0z)]
