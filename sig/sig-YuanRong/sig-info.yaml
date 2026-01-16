@@ -3,74 +3,82 @@ description: sig-YuanRong is responsible for the evolution and maintenance of th
 mailing_list: yuanrong@openeuler.org
 created_on: 2025-8-01
 maintainers:
-- gitee_id: liangyi1234
-  atomgit_id: liangyi1234
+- atomgit_id: liangyi1234 # the maintainer of openYuanrong
   name: Yi Liang
   organization: Huawei
   email: liangyi20@huawei.com
-- gitee_id: luozhancheng
-  atomgit_id: luozhancheng
+- atomgit_id: luozhancheng # the maintainer of functionSystem
   name: Zhancheng Luo
   organization: Huawei
   email: luozhancheng@huawei.com
+- atomgit_id: yche-huawei # the maintainer of dataSystem and serve
+  name: YuLin Che
+  organization: Huawei
+  email: cheyulin@huawei.com
+- atomgit_id: yuchaow # the maintainer of runtime
+  name: YuChao Wang
+  organization: Huawei
+  email: wangyuchao12@huawei.com
+- atomgit_id: lichengsong # the maintainer of frontend
+  name: Licheng Song
+  organization: Huawei
+  email: slicheng.song@huawei.com
+- atomgit_id: tianyi-huawei # the maintainer of ray-adapter
+  name: Tianyi Ge
+  organization: Huawei
+  email: getianyi1@huawei.com
+- atomgit_id: iewauh # the maintainer of spring-adapter
+  name: Weijie Zhu
+  organization: Huawei
+  email: zhuweijie1@huawei.com
 repositories:
 - repo:
   - openeuler/yuanrong
   - src-openeuler/yuanrong
   committers:
-  - gitee_id: yuchaow
-    atomgit_id: yuchaow
-    name: YuChao Wang
-    organization: Huawei
-    email: wangyuchao12@huawei.com
-  - gitee_id: mayuehit
-    atomgit_id: mayuehit
+  - atomgit_id: mayuehit
     name: Yue Ma
     organization: Huawei
     email: mayue51@huawei.com
-  - gitee_id: yunsuoyan
-    atomgit_id: yunsuoyan
+  - atomgit_id: yunsuoyan
     name: Jiguang Shang
     organization: Huawei
     email: shangjiguang@huawei.com
-  - gitee_id: neatline
-    atomgit_id: neatline
+  - atomgit_id: neatline
     name: Yipeng Fu
     organization: Huawei
     email: fuyipeng3@huawei.com
-  repo_admin:
-  - gitee_id: luozhancheng
-    atomgit_id: luozhancheng
-    name: Zhancheng Luo
+  - atomgit_id: For_YL
+    name: Tangwei Zhang
     organization: Huawei
-    email: luozhancheng@huawei.com
+    email: zhangtangwei@huawei.com
+  - atomgit_id: zhouyuhw
+    name: Yu Zhou
+    organization: Huawei
+    email: zhouyu81@huawei.com
+  repo_admin:
+  - atomgit_id: yuchaow
+    name: YuChao Wang
+    organization: Huawei
+    email: wangyuchao12@huawei.com
 - repo:
   - openeuler/yuanrong-functionsystem
   - src-openeuler/yuanrong-functionsystem
   committers:
-  - gitee_id: robbluo
-    atomgit_id: robbluo
+  - atomgit_id: robbluo
     name: WenYu Luo
     organization: Huawei
     email: luowenyu4@huawei.com
-  - gitee_id: wolfbolin
-    atomgit_id: wolfbolin
+  - atomgit_id: wolfbolin
     name: Bolin Zhang
     organization: Huawei
     email: zhangbolin6@huawei.com
-  - gitee_id: slichengsong
-    atomgit_id: slichengsong
-    name: Licheng Song
-    organization: Huawei
-    email: slicheng.song@huawei.com
-  - gitee_id: lebreton
-    atomgit_id: lebreton
+  - atomgit_id: lebreton
     name: Sheng Gao
     organization: Huawei
     email: gaosheng27@huawei.com
   repo_admin:
-  - gitee_id: luozhancheng
-    atomgit_id: luozhancheng
+  - atomgit_id: luozhancheng
     name: Zhancheng Luo
     organization: Huawei
     email: luozhancheng@huawei.com
@@ -78,24 +86,20 @@ repositories:
   - openeuler/yuanrong-datasystem
   - src-openeuler/yuanrong-datasystem
   committers:
-  - gitee_id: yche-huawei
-    atomgit_id: yche-huawei
-    name: YuLin Che
-    organization: Huawei
-    email: cheyulin@huawei.com
-  - gitee_id: ouwenchang
-    atomgit_id: OuGongChang
+  - atomgit_id: OuGongChang
     name: GongChang Ou
     organization: Huawei
     email: ougongchang@huawei.com
-  - gitee_id: yaohaolin
-    atomgit_id: yaohaolin
+  - atomgit_id: yaohaolin
     name: Haolin Yao
     organization: Huawei
     email: yaohaolin@huawei.com
+  - atomgit_id: Xuke0606
+    name: Ke Xu
+    organization: Huawei
+    email: xuke49@huawei.com
   repo_admin:
-  - gitee_id: yche-huawei
-    atomgit_id: yche-huawei
+  - atomgit_id: yche-huawei
     name: YuLin Che
     organization: Huawei
     email: cheyulin@huawei.com
@@ -103,63 +107,54 @@ repositories:
   - openeuler/ray-adapter
   - src-openeuler/ray-adapter
   committers:
-  - gitee_id: robbluo
-    atomgit_id: robbluo
+  - atomgit_id: robbluo
     name: WenYu Luo
     organization: Huawei
     email: luowenyu4@huawei.com
-  - gitee_id: yuchaow
-    atomgit_id: yuchaow
+  - atomgit_id: yuchaow
     name: YuChao Wang
     organization: Huawei
     email: wangyuchao12@huawei.com
   repo_admin:
-  - gitee_id: yuchaow
-    atomgit_id: yuchaow
-    name: YuChao Wang
+  - atomgit_id: tianyi-huawei
+    name: Tianyi Ge
     organization: Huawei
-    email: wangyuchao12@huawei.com
+    email: getianyi1@huawei.com
 - repo:
   - openeuler/yuanrong-frontend
   - src-openeuler/yuanrong-frontend
   committers:
-  - gitee_id: zhouyuhw
-    atomgit_id: zhouyuhw
+  - atomgit_id: zhouyuhw
     name: Yu Zhou
     organization: Huawei
     email: zhouyu81@huawei.com
   repo_admin:
-  - gitee_id: zhouyuhw
-    atomgit_id: zhouyuhw
-    name: Yu Zhou
+  - atomgit_id: lichengsong
+    name: Licheng Song
     organization: Huawei
-    email: zhouyu81@huawei.com
+    email: slicheng.song@huawei.com
 - repo:
   - openeuler/yuanrong-serve
   - src-openeuler/yuanrong-serve
   committers:
-  - gitee_id: yche-huawei
-    atomgit_id: yche-huawei
-    name: YuLin Che
+  - atomgit_id: zengchuang_personal
+    name: Chuang Zeng
     organization: Huawei
-    email: cheyulin@huawei.com
+    email: zengchuang3@huawei.com
   repo_admin:
-  - gitee_id: yche-huawei
-    atomgit_id: yche-huawei
+  - atomgit_id: yche-huawei
     name: YuLin Che
     organization: Huawei
     email: cheyulin@huawei.com
 - repo:
   - openeuler/spring-adapter
   committers:
-  - gitee_id: iewauh
-    atomgit_id: iewauh
-    name: Weijie Zhu
+  - atomgit_id: yuchaow
+    name: YuChao Wang
     organization: Huawei
-    email: zhuweijie1@huawei.com
+    email: wangyuchao12@huawei.com
   repo_admin:
-  - gitee_id: iewauh
-    atomgit_id: iewauh
+  - atomgit_id: iewauh
     name: Weijie Zhu
     organization: Huawei
     email: zhuweijie1@huawei.com
