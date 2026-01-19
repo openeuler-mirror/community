@@ -23,7 +23,7 @@ The SBC SIG aims at migrating openEuler to various single-board computers, in or
 
 ### Maintainers
 
-- Wang Jianmin[@jianminw](https://gitee.com/jianminw): <jianmin@iscas.ac.cn>
+- Wang Jianmin[@jimmieme](https://atomgit.com/jimmieme): <hi@jimmie.me>
 - Wayne Ren[@vonhust](https://gitee.com/vonhust): <191362693@qq.com>
 - Fang Yafen[@woqidaideshi](https://gitee.com/woqidaideshi): <yafen@iscas.ac.cn>
 - Ma Liang[@tideao](https://gitee.com/tideao): <maliang@iscas.ac.cn>
