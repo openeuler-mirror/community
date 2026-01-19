@@ -18,7 +18,7 @@ compat-winapp SIG组致力于将X86平台下海量的 Windows 应用引入X86/AR
 - 穆瑞超[@mu_ruichao](https://gitee.com/mu_ruichao), muruichao@kylinos.cn
 - 刘贵山[@liuguishan](https://gitee.com/liuguishan), liuguishan@kylinos.cn
 - 付正威[@fzw0910](https://gitee.com/fzw0910),fuzhengwei@kylinos.cn
-- 王建民[@jianminw](https://gitee.com/jianminw),jianmin@iscas.ac.cn
+- 王建民[@jimmieme](https://atomgit.com/jimmieme),hi@jimmie.me
 - 翁志艺[@vyloy](https://gitee.com/vyloy),zhiyi@iscas.ac.cn
 
 ### Committer列表
