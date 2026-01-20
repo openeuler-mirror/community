@@ -1,0 +1,7 @@
+name: libcups
+description: The CUPS library (libcups) provides a common C API for HTTP/HTTPS and IPP communications on Unix-like operating systems and Microsoft Windows. It is used by many printing-related projects such as CUPS and PAPPL.
+upstream: https://github.com/OpenPrinting/libcups
+branches:
+- name: master
+  type: protected
+type: public
