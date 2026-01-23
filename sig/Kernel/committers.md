@@ -56,6 +56,7 @@
 | ROH DRIVER | drivers/roh/core<br/>drivers/roh/hw/hns3 | [@chenke1978](https://atomgit.com/chenke2026) |
 | SAS/SATE DRIVER | Documentation/devicetree/bindings/scsi/hisilicon-sas.txt<br/>drivers/scsi/hisi_sas/<br/>drivers/ata/ahci.c | [@LiYihang226](https://gitee.com/LiYihang226) |
 | KUNPENG_HCCS DRIVER | Documentation/ABI/testing/sysfs-devices-platform-kunpeng_hccs<br/>drivers/soc/hisilicon/kunpeng_hccs.h<br/>drivers/soc/hisilicon/kunpeng_hccs.c | [@li-huisong](https://atomgit.com/li-huisong) |
+| HIBMC DRIVER | drivers/gpu/drm/hisilicon/hibmc | [@baratta](https://atomgit.com/baratta) |
 
 ## filesystem & storage
 
