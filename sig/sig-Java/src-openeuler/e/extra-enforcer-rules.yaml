@@ -1,0 +1,7 @@
+name: extra-enforcer-rules
+description: Extra rules for maven-enforcer-plugin
+upstream: https://github.com/mojohaus/extra-enforcer-rules
+branches:
+- name: master
+  type: protected
+type: public
