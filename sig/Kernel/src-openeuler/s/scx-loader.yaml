@@ -1,0 +1,7 @@
+name: scx-loader
+description: scx_loader is a system daemon and DBus-based loader for sched_ext schedulers. scxctl is the command-line client for interacting with the loader, allowing users to switch schedulers, modes, and arguments dynamically.
+upstream: https://github.com/sched-ext/scx-loader
+branches:
+- name: master
+  type: protected
+type: public
