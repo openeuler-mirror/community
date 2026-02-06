@@ -83,3 +83,8 @@
 |            Repo            |               Committer           |
 | -------------------------- | --------------------------------- |
 | [openeuler/llvm-ub](https://gitee.com/openeuler/llvm-ub) <br/> [src-openeuler/llvm-ub](https://gitee.com/src-openeuler/llvm-ub) <br/> | 杨扬[@alex_young129_admin](https://gitee.com/alex_young129_admin) <br/> 王文昌[@dayinchang_admin](https://gitee.com/dayinchang_admin) |
+
+## MIAC repos
+|            Repo            |               Committer           |
+| -------------------------- | --------------------------------- |
+| [openeuler/MIAC](https://atomgit.com/openeuler/MIAC) <br/> [src-openeuler/MIAC](https://atomgit.com/src-openeuler/MIAC) | 崔晓枫[@fengxiao-cui](https://atomgit.com/fengxiao-cui) <br/> Jinyun Ye[@joeyye-work](https://atomgit.com/joeyye-work) |
