@@ -16,13 +16,13 @@
 - **支撑系统全场景演进**：以命令服务化为基础，助力 openEuler 在运维自动化、云原生适配、多环境协同与第三方生态对接方向持续推进。
 
 ### 该SIG管理的repository及描述
-- syskits - [https://gitee.com/openeuler/syskits](https://gitee.com/openeuler/syskits)
-- workflowkits - [https://gitee.com/openeuler/workflowkits](https://gitee.com/openeuler/workflowkits)
-- SysAIFrame - [https://gitee.com/openeuler/SysAIFrame](https://gitee.com/openeuler/SysAIFrame)
-- Rsysstat - [https://gitee.com/openeuler/Rsysstat](https://gitee.com/openeuler/Rsysstat)
-- Rprocps-ng - [https://gitee.com/openeuler/Rprocps-ng](https://gitee.com/openeuler/Rprocps-ng)
-- ct-cockpit - [https://gitee.com/openeuler/ct-cockpit](https://gitee.com/openeuler/ct-cockpit)
-- ctdeployer - [https://gitee.com/openeuler/ctdeployer](https://gitee.com/openeuler/ctdeployer)
+- syskits - [https://atomgit.com/openeuler/syskits](https://atomgit.com/openeuler/syskits)
+- workflowkits - [https://atomgit.com/openeuler/workflowkits](https://atomgit.com/openeuler/workflowkits)
+- SysAIFrame - [https://atomgit.com/openeuler/SysAIFrame](https://atomgit.com/openeuler/SysAIFrame)
+- Rsysstat - [https://atomgit.com/openeuler/Rsysstat](https://atomgit.com/openeuler/Rsysstat)
+- Rprocps-ng - [https://atomgit.com/openeuler/Rprocps-ng](https://atomgit.com/openeuler/Rprocps-ng)
+- ct-cockpit - [https://atomgit.com/openeuler/ct-cockpit](https://atomgit.com/openeuler/ct-cockpit)
+- ctdeployer - [https://atomgit.com/openeuler/ctdeployer](https://atomgit.com/openeuler/ctdeployer)
 
 ### 跨领域和面向外部的流程
 - 
