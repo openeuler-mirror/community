@@ -1,0 +1,6 @@
+name: tensormsg
+description: The code for mutual conversion between ROS msg and PyTorch tensor used by IB-Robot serves to decouple lerobot itself from ROS code.
+branches:
+- name: master
+  type: protected
+type: public
