@@ -1,0 +1,7 @@
+name: rust-add-determinism
+description: 'RPM buildroot helper to strip nondeterministic bits in files'
+upstream: https://crates.io/crates/add-determinism
+branches:
+- name: master
+  type: protected
+type: public
