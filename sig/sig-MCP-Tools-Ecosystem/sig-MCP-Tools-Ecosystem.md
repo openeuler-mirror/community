@@ -16,13 +16,13 @@ Note: The Charter of this SIG follows the convention described in the openEuler 
 - **Supporting System-wide Scenario Evolution**: Build upon command servitization to assist openEuler in advancing operational automation, cloud-native adaptation, multi-environment coordination, and third-party ecosystem integration.
 
 ### Repositories and description managed by this SIG
-- syskits - [https://gitee.com/openeuler/syskits](https://gitee.com/openeuler/syskits)
-- workflowkits - [https://gitee.com/openeuler/workflowkits](https://gitee.com/openeuler/workflowkits)
-- SysAIFrame - [https://gitee.com/openeuler/SysAIFrame](https://gitee.com/openeuler/SysAIFrame)
-- Rsysstat - [https://gitee.com/openeuler/Rsysstat](https://gitee.com/openeuler/Rsysstat)
-- Rprocps-ng - [https://gitee.com/openeuler/Rprocps-ng](https://gitee.com/openeuler/Rprocps-ng)
-- ct-cockpit - [https://gitee.com/openeuler/ct-cockpit](https://gitee.com/openeuler/ct-cockpit)
-- ctdeployer - [https://gitee.com/openeuler/ctdeployer](https://gitee.com/openeuler/ctdeployer)
+- syskits - [https://atomgit.com/openeuler/syskits](https://atomgit.com/openeuler/syskits)
+- workflowkits - [https://atomgit.com/openeuler/workflowkits](https://atomgit.com/openeuler/workflowkits)
+- SysAIFrame - [https://atomgit.com/openeuler/SysAIFrame](https://atomgit.com/openeuler/SysAIFrame)
+- Rsysstat - [https://atomgit.com/openeuler/Rsysstat](https://atomgit.com/openeuler/Rsysstat)
+- Rprocps-ng - [https://atomgit.com/openeuler/Rprocps-ng](https://atomgit.com/openeuler/Rprocps-ng)
+- ct-cockpit - [https://atomgit.com/openeuler/ct-cockpit](https://atomgit.com/openeuler/ct-cockpit)
+- ctdeployer - [https://atomgit.com/openeuler/ctdeployer](https://atomgit.com/openeuler/ctdeployer)
 
 ### Cross-domain and external-oriented processes
 - 
