@@ -1,6 +1,7 @@
-name: python-json_logger
-upstream: https://github.com/tekton/python_json_logger
+name: python-json-logger
+upstream: https://github.com/nhairs/python-json-logger
 description: Sending json to a logger
+rename_from: python-json_logger.yaml
 branches:
 - name: master
   type: protected
