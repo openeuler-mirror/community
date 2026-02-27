@@ -32,7 +32,7 @@
     ./repository
     ./sig
 
-### 博客团队管理[openEuler Blog](https://gitee.com/openeuler/website-v2/tree/master/web-ui/docs/zh/blog)
+### 博客团队管理[openEuler Blog](https://atomgit.com/openeuler/website-v2/tree/master/web-ui/docs/zh/blog)
 1. Xing Zhu (@shredstar)，从2020年2月份开始
 2. Perl(@pearl405)，从2020年2月份开始
 3. ZhengyuhangHans(@ZhengyuhangHans)，从2020年2月份开始
