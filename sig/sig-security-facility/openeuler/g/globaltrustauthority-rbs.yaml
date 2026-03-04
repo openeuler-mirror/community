@@ -1,0 +1,7 @@
+name: globaltrustauthority-rbs
+description: The resource broker service distributes keys, certificates and other resources in a highly secure manner
+  by verifying the remote attestation result from global trust authority.
+branches:
+- name: master
+  type: protected
+type: public
