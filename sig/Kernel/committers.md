@@ -57,6 +57,7 @@
 | SAS/SATE DRIVER | Documentation/devicetree/bindings/scsi/hisilicon-sas.txt<br/>drivers/scsi/hisi_sas/<br/>drivers/ata/ahci.c | [@LiYihang226](https://gitee.com/LiYihang226) |
 | KUNPENG_HCCS DRIVER | Documentation/ABI/testing/sysfs-devices-platform-kunpeng_hccs<br/>drivers/soc/hisilicon/kunpeng_hccs.h<br/>drivers/soc/hisilicon/kunpeng_hccs.c | [@li-huisong](https://atomgit.com/li-huisong) |
 | HIBMC DRIVER | drivers/gpu/drm/hisilicon/hibmc | [@baratta](https://atomgit.com/baratta) |
+| IPMI DRIVER | drivers/char/ipmi/hisi_ipmi_pso.c | [@hewanhan](https://atomgit.com/hewanhan) |
 
 ## filesystem & storage
 
@@ -138,6 +139,7 @@
 | unic     | drivers/net/ub<br/>     drivers/ub/ubase<br/>     include/net/ub<br/>     include/ub/ubase | [@chenjunxin1992](https://atomgit.com/chenjunxin1992)     [@fanghaiqinghw](https://atomgit.com/fanghaiqinghw) |
 | ub_fwctl | drivers/fwctl/ub                                             | [@hu-chunzhi](https://atomgit.com/hu-chunzhi)     [@caixu-blue](https://atomgit.com/caixu-blue) |
 | ummu     | drivers/iommu/hisilicon<br/>     include/linux/ummu_core.h<br/>     include/uapi/linux/ummu_core.h<br/>     drivers/perf/hisilicon/ummu_pmu.c | [@Tankll2021](https://atomgit.com/Tankll2021)     [@fangfeng123](https://atomgit.com/fangfeng123) [@gongleihuawei](https://atomgit.com/gongleihuawei)|
+| sentry     | drivers/ub/sentry | [@luckky](https://atomgit.com/luckky7) |
 | ub       | drivers/ub                                                   | [@mufengyan](https://atomgit.com/mufengyan)     [@yunshenglin](https://atomgit.com/linyunsheng) |
 
 ## Notes
