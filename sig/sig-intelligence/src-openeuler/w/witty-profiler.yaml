@@ -1,0 +1,13 @@
+name: witty-profiler
+description: The witty-profiler is an automated data and control stream topology detection and bottleneck analysis tool for AI training and inferencing systems.
+upstream: https://atomgit.com/openeuler/witty-profiler
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-24.03-LTS-SP3
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
+type: public
