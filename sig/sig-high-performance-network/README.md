@@ -58,6 +58,7 @@ Please [readme](./Vision-en.md)
 - 钱荣[@martinshare](https://gitee.com/martinshare) email: qianrong@yunsilicon.com
 - 王霏霏[@feifei-wang1994](https://gitee.com/feifei-wang1994) email: wangfeifei40@huawei.com
 - 雷凡[@leifanc123](https://gitee.com/leifanc123) email: leifan13@huawei.com
+- 黄炳康[@huang_bing_kang](https://gitcode.com/huang_bing_kang) email: 1209365920@qq.com
 
 #### UMDK 项目 Committer 列表
 - qianguoxin[@qianguoxin](https://gitee.com/qianguoxin) email: qianguoxin@huawei.com
