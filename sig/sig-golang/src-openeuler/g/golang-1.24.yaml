@@ -1,0 +1,13 @@
+name: golang-1.24
+description: golang 1.24 package
+upstream: https://github.com/golang/go
+type: public
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-24.03-LTS-SP3
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
