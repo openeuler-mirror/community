@@ -1,0 +1,7 @@
+name: pcs-web-ui
+description: pcs-web-ui is web interface for pcs - a Corosync and Pacemaker configuration tool.
+upstream: https://github.com/ClusterLabs/pcs-web-ui
+branches:
+- name: master
+  type: protected
+type: public
