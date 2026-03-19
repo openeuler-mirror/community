@@ -22,8 +22,6 @@ The data has become the fifth factor of production after land, labor, capital an
   A software platform for processing vast amounts of data
 - [libhdfs](https://gitee.com/src-openeuler/libhdfs) 
   The Apache Hadoop Filesystem Library
-- [lzip](https://gitee.com/src-openeuler/lzip) 
-  Lossless file compressor based on the LZMA algorithm
 - [qrupdate](https://gitee.com/src-openeuler/qrupdate) 
   A Fortran library for fast updates of QR and Cholesky decompositions
 - [zookeeper](https://gitee.com/src-openeuler/zookeeper) 
