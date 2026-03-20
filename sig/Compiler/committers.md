@@ -19,7 +19,7 @@
 | [openeuler/A-FOT](https://gitee.com/openeuler/A-FOT) <br/> [src-openeuler/A-FOT](https://gitee.com/src-openeuler/A-FOT) <br/> [src-openeuler/autofdo](https://gitee.com/src-openeuler/autofdo) <br/> [src-openeuler/gcc-cross](https://gitee.com/src-openeuler/gcc-cross) | 熊洲[@xiongzhou4](https://gitee.com/xiongzhou4) |
 | [openeuler/D-FOT](https://gitee.com/openeuler/D-FOT) <br/> [src-openeuler/D-FOT](https://gitee.com/src-openeuler/D-FOT) |王如锋[@rfwamg07](https://gitee.com/rfwang07) |
 | [src-openeuler/gcc-7](https://gitee.com/src-openeuler/gcc-7) | 张无际[@zhangwuji1995](https://gitee.com/zhangwuji1995) |
-| [src-openeuler/gcc-10](https://gitee.com/src-openeuler/gcc-10) | 王鼎[@wangding16](https://gitee.com/wangding16) <br/> 赵书健[@zhaoshujian](https://gitee.com/zhaoshujian) |
+| [src-openeuler/gcc-10](https://gitee.com/src-openeuler/gcc-10) | 赵书健[@zhaoshujian](https://gitee.com/zhaoshujian) |
 | [src-openeuler/gcc-14](https://gitee.com/src-openeuler/gcc-14) | 赵书健[@zhaoshujian](https://gitee.com/zhaoshujian) <br/> 胡林[@lin-4682](https://gitee.com/lin-4682) |
 | [src-openeuler/binutils](https://gitee.com/src-openeuler/binutils) | 谢志恒[@eastb233](https://gitee.com/eastb233) |
 | [src-openeuler/binutils-2.42](https://gitee.com/src-openeuler/binutils-2.42) | 赵书健[@zhaoshujian](https://gitee.com/zhaoshujian) |
