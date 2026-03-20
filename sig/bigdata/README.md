@@ -30,7 +30,6 @@
 - https://gitee.com/src-openeuler/hadoop
 - https://gitee.com/src-openeuler/libhdfs
 - https://gitee.com/src-openeuler/gl2ps
-- https://gitee.com/src-openeuler/lzip
 - https://gitee.com/src-openeuler/zookeeper
 - https://gitee.com/src-openeuler/zeppelin
 - https://gitee.com/src-openeuler/ibis
