@@ -1,0 +1,9 @@
+name: UnifiedBus-docs
+description: Documentation Repository Dedicated to UnifiedBus
+branches:
+  - name: master
+    type: protected
+  - name: openEuler-24.03-LTS-SP3
+    type: protected
+    create_from: master
+type: public
