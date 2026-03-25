@@ -22,18 +22,20 @@
 
 ### Maintainer列表
 
-- 夏森林[@small_leek](https://gitee.com/small_leek)
-- 丁文龙[@dwl301](https://gitee.com/dwl301)
-- 魏东 [@weidongkl](https://gitee.com/weidongkl)
-- 窦龑 [@dou33](https://gitee.com/dou33)
-- 李伟刚[@open-bot](https://gitee.com/open-bot)
+- 夏森林[@small_leek](https://atomgit.com/small_leek)
+- 丁文龙[@dwl301](https://atomgit.com/dwl301)
+- 魏东 [@weidongkl](https://atomgit.com/weidongkl)
+- 窦䶮 [@dou33](https://atomgit.com/dou33)
+- 李伟刚[@open-bot](https://atomgit.com/openbot)
+- 李萍[@lipingEmmaSiguyi](https://atomgit.com/lipingEmmaSiguyi)
+- 许萍[@cherry530](https://atomgit.com/cherry530)
+- 姚鑫[@starlet-dx](https://atomgit.com/starlet-dx)
 
 
 ### Committer列表
 
-- 汪奕如[@ruebb](https://gitee.com/ruebb)
-- 邓伟进[@weijin-deng](https://gitee.com/weijin-deng)
-- 张琳[@zhang__3125](https://gitee.com/zhang__3125)
+- 邓伟进
+- 张琳[@zhang__3125](https://atomgit.com/zhang__3125)
 
 # 联系方式
 
