@@ -1,8 +1,8 @@
 name: capsule
-description: Capsule is a next generation Hypervisor which is compatible with VM/container/partition
-  ecosystem and naturally supports hot upgrade capabilities. Based on Rust programming
-  language of memory security, Capsule supports both Type-1 and Type-2 types across
-  various IT/OT/CT scenarios.
+description: Capsule is an openEuler-governed infrastructure platform for agent runtimes, providing
+  a unified and sandboxed foundation for integrating memory, models, and tools. It enables the
+  development and secure execution of agent applications and Agent Skills, with a clear path
+  toward agent orchestration, policy control, and multi-end interaction.
 branches:
 - name: master
   type: protected
