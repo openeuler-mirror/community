@@ -7,19 +7,19 @@ The Compiler SIG holds online meetings at 10:00 a.m. on Tuesdays every two weeks
 Tuesday 10 am bi-weekly, UTC+8.
 
 ## Maintainers list
- - 赵 川峰[@cf-zhao](https://gitee.com/cf-zhao) email: zhaochuanfeng@huawei.com
- - 谢 志恒[@eastb233](https://gitee.com/eastb233) email: xiezhiheng@huawei.com
- - 王   坤[@kuenking111_admin](https://gitee.com/kuenking111_admin) email: wangkun49@huawei.com
+ - 赵 川峰[@cf-zhao](https://atomgit.com/cf-zhao) email: zhaochuanfeng@huawei.com
+ - 谢 志恒[@eastb233](https://atomgit.com/eastb233) email: xiezhiheng@huawei.com
+ - 王   坤[@kuenking111_admin](https://atomgit.com/kuenking111_admin) email: wangkun49@huawei.com
  - 贺 东博[@Noah](https://gitee.com/jvmboy) email: hedongbo@huawei.com
- - 李 彦成[@li-yancheng](https://gitee.com/li-yancheng) email: liyancheng@huawei.com
- - 陈 善瑶[@stubCode](https://gitee.com/stubCode) email: chenshanyao@huawei.com
- - 周   磊[@alexanderbill](https://gitee.com/alexanderbill) email: zhoulei03@huawei.com
- - 陈   正[@chenzheng1030](https://gitee.com/chenzheng1030) email: chenzheng79@huawei.com
+ - 李 彦成[@li-yancheng](https://atomgit.com/li-yancheng) email: liyancheng@huawei.com
+ - 陈 善瑶[@SegFault](https://atomgit.com/SegFault) email: chenshanyao@huawei.com
+ - 周   磊[@alexanderbill](https://atomgit.com/alexanderbill) email: zhoulei03@huawei.com
+ - 陈   正[@chenzheng1030](https://atomgit.com/chenzheng1030) email: chenzheng79@huawei.com
  - 王   强[@wangqiang95](https://atomgit.com/wangqiang95) email: wangqiang1@kylinos.cn
  - 王   鼎[@wd-gitcode](https://atomgit.com/wd-gitcode) email: wangding16@huawei.com 
 
 ## Committer list
-Please refer [openEuler Compiler Committer List](https://gitee.com/openeuler/community/blob/master/sig/Compiler/committers.md)
+Please refer [openEuler Compiler Committer List](https://atomgit.com/openeuler/community/blob/master/sig/Compiler/committers.md)
 
 ## Contact
  - [maillist](mailto:compiler@openeuler.org)
