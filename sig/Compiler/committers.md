@@ -19,7 +19,7 @@
 | [openeuler/A-FOT](https://atomgit.com/openeuler/A-FOT) <br/> [src-openeuler/A-FOT](https://atomgit.com/src-openeuler/A-FOT) <br/> [src-openeuler/autofdo](https://atomgit.com/src-openeuler/autofdo) <br/> [src-openeuler/gcc-cross](https://atomgit.com/src-openeuler/gcc-cross) | 熊洲[@xiongzhou4](https://atomgit.com/xiongzhou4)            |
 | [openeuler/D-FOT](https://atomgit.com/openeuler/D-FOT) <br/> [src-openeuler/D-FOT](https://atomgit.com/src-openeuler/D-FOT) | 王如锋[@rfwang07](https://atomgit.com/rfwang07)              |
 | [src-openeuler/gcc-7](https://atomgit.com/src-openeuler/gcc-7) | 张无际[@zhangwuji1995](https://gitee.com/zhangwuji1995)      |
-| [src-openeuler/gcc-10](https://atomgit.com/src-openeuler/gcc-10) | 王鼎[@wd-gitcode](https://atomgit.com/wd-gitcode) <br/> 赵书健[@zhaoshujian](https://gitee.com/zhaoshujian) |
+| [src-openeuler/gcc-10](https://atomgit.com/src-openeuler/gcc-10) | 赵书健[@zhaoshujian](https://gitee.com/zhaoshujian) |
 | [src-openeuler/gcc-14](https://atomgit.com/src-openeuler/gcc-14) | 赵书健[@zhaoshujian](https://gitee.com/zhaoshujian) <br/> 胡林[@lin-4682](https://atomgit.com/lin-4682) |
 | [src-openeuler/binutils](https://atomgit.com/src-openeuler/binutils) | 谢志恒[@eastb233](https://atomgit.com/eastb233)              |
 | [src-openeuler/binutils-2.42](https://atomgit.com/src-openeuler/binutils-2.42) | 赵书健[@zhaoshujian](https://gitee.com/zhaoshujian)          |
