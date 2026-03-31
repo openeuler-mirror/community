@@ -1,5 +1,5 @@
 name: utpam
-description: utpam is a refactoring of pam. 
+description: utpam is a refactoring of pam.
 upstream: https://gitee.com/openeuler/utpam
 branches:
 - name: master
@@ -8,6 +8,9 @@ branches:
   type: protected
   create_from: master
 - name: openEuler-24.03-LTS-SP3
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
+- name: openEuler-24.03-LTS-SP4
   type: protected
   create_from: openEuler-24.03-LTS-Next
 type: public
