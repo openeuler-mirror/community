@@ -1,0 +1,7 @@
+name: cyanfs
+description: This component is designed for the openEuler Storage project scenario, enabling virtual disk volume management with snapshot support. It is compatible with both UEFI and Linux kernel environments, and is embedded into applications in the form of library functions, effectively enhancing the isolation and management efficiency of virtual volume storage.
+type: public
+upstream: unknown
+branches:
+- name: master
+  type: protected

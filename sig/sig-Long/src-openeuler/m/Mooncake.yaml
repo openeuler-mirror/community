@@ -1,0 +1,7 @@
+name: Mooncake 
+description: Mooncake is a KVCache-centric disaggregated architecture for LLM serving.
+upstream: https://github.com/kvcache-ai/Mooncake
+branches:
+- name: master
+  type: protected
+type: public
