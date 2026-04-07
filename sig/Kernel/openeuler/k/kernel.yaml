@@ -6,4 +6,7 @@ branches:
 - name: openEuler-26.09
   type: protected
   create_from: OLK-6.6
+- name: openEuler-24.03-LTS-SP3
+  type: protected
+  create_from: 6.6.0-145.0.0
 type: public
