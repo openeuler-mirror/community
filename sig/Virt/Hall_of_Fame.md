@@ -20,3 +20,15 @@ Thanks to the following people for their contribution.
   name: Xinle.Guo
   organization: Huawei
   email: guoxinle1@huawei.com
+- gitee_id: frankyj915
+  name: Jie.Yang
+  organization: Huawei
+  email: yangjie@huawei.com
+- gitee_id: yezengruan
+  name: Zengruan.Ye
+  organization: Huawei
+  email: yangjieyj.yang@huawei.com
+- gitee_id: ooorz
+  name: ZhangBo
+  organization: Huawei
+  email: oscar.zhangbo@huawei.com 
