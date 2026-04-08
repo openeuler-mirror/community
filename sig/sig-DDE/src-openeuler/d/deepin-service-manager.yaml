@@ -1,0 +1,10 @@
+name: deepin-service-manager
+description: deepin desktop-environment - service manager frame.
+upstream: https://github.com/linuxdeepin/deepin-service-manager
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
