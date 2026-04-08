@@ -233,7 +233,10 @@ repositories:
     name: weidong
     email: weidong@uniontech.com
 - repo:
+  - src-openeuler/gstreamer1-libav
+  - src-openeuler/gstreamer1-plugins-bad-free
   - src-openeuler/gstreamer1-plugins-base
+  - src-openeuler/gstreamer1-plugins-good
   - src-openeuler/gstreamer1
   - src-openeuler/gtk3
   - src-openeuler/gvfs
@@ -281,6 +284,11 @@ repositories:
   - gitee_id: zhang__3125
     atomgit_id: zhang__3125
     email: lin.zhang@turbolinux.com.cn
+  - gitee_id: peijiankang
+    atomgit_id: peijiankang
+    name: peijiankang
+    organization: KylinSoft
+    email: peijiankang@kylinos.cn
 - repo:
   - src-openeuler/desktop-file-utils
   - src-openeuler/evolution-data-server
