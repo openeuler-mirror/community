@@ -1,7 +1,11 @@
 name: mptcpd
-description: mptcpd is a daemon for Linux that performs Multipath TCP path management related operations in the user space
+description: mptcpd is a daemon for Linux that performs Multipath TCP path management
+  related operations in the user space
 upstream: https://github.com/multipath-tcp/mptcpd
 branches:
 - name: master
   type: protected
+- name: openEuler-24.03-LTS-SP4
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
 type: public

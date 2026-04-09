@@ -1,7 +1,14 @@
 name: sysHAX-adapter
-description: The sysHAX-adapter is primarily designed to enable inference frameworks and inference cards. It enhances the framework's functionality through module replacement. It also defines a unified operator interface for inference cards, accelerating the integration of large-scale hardware manufacturers with mainstream inference frameworks and reducing their development costs.
+description: The sysHAX-adapter is primarily designed to enable inference frameworks
+  and inference cards. It enhances the framework's functionality through module replacement.
+  It also defines a unified operator interface for inference cards, accelerating the
+  integration of large-scale hardware manufacturers with mainstream inference frameworks
+  and reducing their development costs.
 upstream: https://gitee.com/openeuler/sysHAX-adapter
 branches:
 - name: master
   type: protected
+- name: openEuler-24.03-LTS-SP4
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
 type: public

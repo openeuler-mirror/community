@@ -1,7 +1,7 @@
 name: perl-Locale-gettext
 rename_from: perl-gettext
 upstream: https://metacpan.org/pod/Locale::gettext
-description: 'Locale::gettext - message handling functions'
+description: Locale::gettext - message handling functions
 branches:
 - name: master
   type: protected
@@ -81,6 +81,9 @@ branches:
   type: protected
   create_from: master
 - name: openEuler-24.03-LTS-SP3
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
+- name: openEuler-24.03-LTS-SP4
   type: protected
   create_from: openEuler-24.03-LTS-Next
 type: public

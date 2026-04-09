@@ -1,5 +1,6 @@
 name: libhv
-description: Like libevent, libev, and libuv, libhv provides event-loop with non-blocking IO and timer, but simpler api and richer protocols.
+description: Like libevent, libev, and libuv, libhv provides event-loop with non-blocking
+  IO and timer, but simpler api and richer protocols.
 upstream: https://github.com/ithewei/libhv
 branches:
 - name: master
@@ -17,6 +18,9 @@ branches:
   type: protected
   create_from: openEuler-24.03-LTS-Next
 - name: openEuler-24.03-LTS-SP3
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
+- name: openEuler-24.03-LTS-SP4
   type: protected
   create_from: openEuler-24.03-LTS-Next
 type: public
