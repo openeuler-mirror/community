@@ -18,6 +18,9 @@
 ### OutStanding Contributor List
 
 - 张海亮[@zhanghailiang_lucky](https://gitee.com/zhanghailiang_lucky)
+- 杨杰[@frankyj915](https://gitee.com/frankyj915)
+- 叶增软[@yezengruan](https://gitee.com/yezengruan)
+- 张波[@ooorz](https://gitee.com/ooorz)
 
 ### Maintainer List
 
@@ -27,15 +30,11 @@
 - 郑川[@Chuan-Zheng](https://gitee.com/Chuan-Zheng)
 - 邢超超[@imxcc](https://gitee.com/imxcc)
 - 朱科潜[@kevinzhu1](https://gitee.com/kevinzhu1)
-- 杨杰[@frankyj915](https://gitee.com/frankyj915)
-- 叶增软[@yezengruan](https://gitee.com/yezengruan)
-- 张波[@ooorz](https://gitee.com/ooorz)
 
 ### Committer List
 
 - 俞毕洪[@mdsc](https://gitee.com/mdsc)
 - 刘向东[@avenLiu](https://gitee.com/aven6)
-- 郭馨乐[@xinleguo](https://gitee.com/xinleguo)
 - 毛晨曦[@chenxi-mao](https://gitee.com/chenxi-mao)
 
 ### Additional Contributors List

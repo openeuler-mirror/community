@@ -345,6 +345,10 @@ repositories:
     atomgit_id: stavewu
     name: Tengda Wu
     email: wutengda2@huawei.com
+  - gitee_id: ''
+    atomgit_id: pigalsofine
+    name: Hai Wang
+    email: wanghai38@huawei.com
   - gitee_id: sming56_admin
     atomgit_id: sming56_admin
     name: Shu, Ming
@@ -572,6 +576,8 @@ branches:
   keeper:
   - gitee_id: stavewu
     atomgit_id: stavewu
+  - gitee_id: ''
+    atomgit_id: pigalsofine
 - repo_branch:
   - repo: openeuler/kernel
     branch: openEuler-1.0-LTS
@@ -590,5 +596,7 @@ branches:
   - repo: src-openeuler/kernel
     branch: openEuler-24.03-LTS
   keeper:
-  - gitee_id: linan888
-    atomgit_id: linan888
+  - gitee_id: stavewu
+    atomgit_id: stavewu
+  - gitee_id: ''
+    atomgit_id: pigalsofine
