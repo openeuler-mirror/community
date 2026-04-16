@@ -22,7 +22,7 @@ SIG_INFO_FIELDS = ['name', 'description', 'mailing_list', 'meeting_url', 'mature
                    'repositories', 'created_on', "branches"]
 SIG_INFO_REQUIRED_FIELDS = ['name', 'maintainers']
 SIG_INFO_SECONDARY_FIELDS = ['repo', 'committers', 'contributors', 'repo_admin']
-MEMBER_FIELDS = ['gitee_id', 'gitcode_id', 'name', 'email', 'organization']
+MEMBER_FIELDS = ['gitee_id', 'atomgit_id', 'name', 'email', 'organization']
 
 
 def load_yaml(file_path):
@@ -53,37 +53,58 @@ def check_diff_files(owner, repo, number, access_token):
     url = f"https://api.gitcode.com/api/v5/repos/{owner}/{repo}/pulls/{number}/files?access_token={access_token}"
     response = requests.get(url)
     result = []
-    for item in response.json():
-        result.append({
-            "from": item.get("patch", {}).get("old_path"),
-            "to": item.get("patch", {}).get("new_path"),
-        })
+    resp_json = response.json()
+
+    if isinstance(resp_json, dict) and resp_json.get("error"):
+        print(f"API Error: {resp_json.get('message', 'Unknown error')}")
+        sys.exit(1)
+
+    if not resp_json:
+        return result
+
+    for item in resp_json:
+        if isinstance(item, dict):
+            patch = item.get("patch")
+            if isinstance(patch, dict):
+                result.append({
+                    "from": patch.get("old_path"),
+                    "to": patch.get("new_path"),
+                })
+            else:
+                result.append({
+                    "from": item.get("previous_filename") or item.get("filename"),
+                    "to": item.get("filename"),
+                })
 
     return result
 
 
-def check_user_exist(gitcode_id, access_token):
+def check_user_exist(atomgit_id, access_token):
     """
-    Check validation of gitcode_id
-    :param gitcode_id: login id of gitcode
+    Check validation of atomgit_id
+    :param atomgit_id: login id of gitcode
     :param access_token: access_token of gitcode
-    :return: gitcode_id_errors
+    :return: atomgit_id_errors
     """
-    gitcode_id_errors = 0
-    url = f'https://gitcode.com/api/v5/users/{gitcode_id}?access_token={access_token}'
+    if not atomgit_id:
+        return 0
+    
+    print(f"check user: {atomgit_id}")
+    atomgit_id_errors = 0
+    url = f'https://gitcode.com/api/v5/users/{atomgit_id}?access_token={access_token}'
     for i in range(5):
         try:
             r = requests.get(url)
             if r.status_code == 404:
-                print('ERROR! Check gitcode_id: invalid gitcode_id {}.'.format(gitcode_id))
-                gitcode_id_errors += 1
-            return gitcode_id_errors
+                print('ERROR! Check atomgit_id: invalid atomgit_id {}.'.format(atomgit_id))
+                atomgit_id_errors += 1
+            return atomgit_id_errors
         except Exception as e:
-            print("ERROR! Check gitcode_id:{}, e:{}".format(gitcode_id, e))
+            print("ERROR! Check atomgit_id:{}, e:{}".format(atomgit_id, e))
             time.sleep(3)
     else:
-        gitcode_id_errors += 1
-        return gitcode_id_errors
+        atomgit_id_errors += 1
+        return atomgit_id_errors
 
 
 def check_fields(sig_info):
@@ -173,9 +194,9 @@ def check_member(member, access_token):
     :return: member_errors
     """
     member_errors = 0
-    gitcode_id = member.get('gitcode_id')
+    atomgit_id = member.get('atomgit_id')
     email = member.get('email')
-    member_errors += check_user_exist(gitcode_id, access_token)
+    member_errors += check_user_exist(atomgit_id, access_token)
     if email:
         check_email(email)
     return member_errors
@@ -243,6 +264,26 @@ def check_contributors(contributors, access_token, errors):
     return errors_count
 
 
+def check_repo_admins(repo_admins, access_token, errors):
+    """
+    Check validation of repo_admins
+    :param repo_admins: a list of repo_admins
+    :param access_token: access_token of gitcode
+    :param errors: issues number
+    :return: errors
+    """
+    if not isinstance(repo_admins, list):
+        print('ERROR! The repo_admin must be a list')
+        errors += 1
+        return errors
+    errors_count = 0
+    for repo_admin in repo_admins:
+        check_error = check_member(repo_admin, access_token)
+        if check_error:
+            errors_count += check_error
+    return errors_count
+
+
 def check_branch_keeper(branches, access_token):
     """
     Check validation of branch_keeper
@@ -289,12 +330,12 @@ def check_branch_keeper(branches, access_token):
             if not isinstance(keeper, dict):
                 err_msg.append("ERROR! The keeper must be a dict")
                 continue
-            if "gitcode_id" not in keeper.keys():
-                err_msg.append("ERROR! The keeper must include the gitcode_id fileds")
+            if "atomgit_id" not in keeper.keys():
+                err_msg.append("ERROR! The keeper must include the atomgit_id fileds")
                 continue
             errors = check_member(keeper, access_token)
             if errors != 0:
-                err_msg.append("ERROR! The invalid gitcode_id")
+                err_msg.append("ERROR! The invalid atomgit_id")
     if len(err_msg):
         print(",".join(err_msg))
     return len(err_msg)
@@ -309,9 +350,10 @@ def get_sig_info_repos(sig_info_repos):
     all_sig_info_repos = []
     all_sig_info_committers = []
     all_sig_info_contributors = []
+    all_sig_info_repo_admins = []
     if not sig_info_repos:
         print('WARNING! There is no repository in sig-info.yaml of the SIG yet.')
-        return all_sig_info_repos, all_sig_info_committers, all_sig_info_contributors
+        return all_sig_info_repos, all_sig_info_committers, all_sig_info_contributors, all_sig_info_repo_admins
     for each_group_repos in sig_info_repos:
         if isinstance(each_group_repos.get("repo"), list):
             for each_repo in each_group_repos.get("repo"):
@@ -325,7 +367,11 @@ def get_sig_info_repos(sig_info_repos):
             for each_contributors in each_group_repos.get("contributors"):
                 all_sig_info_contributors.append(each_contributors)
 
-    return all_sig_info_repos, all_sig_info_committers, all_sig_info_contributors
+        if each_group_repos.get("repo_admin") and isinstance(each_group_repos.get("repo_admin"), list):
+            for each_repo_admin in each_group_repos.get("repo_admin"):
+                all_sig_info_repo_admins.append(each_repo_admin)
+
+    return all_sig_info_repos, all_sig_info_committers, all_sig_info_contributors, all_sig_info_repo_admins
 
 
 def get_sig_repos(sig_dir_path):
@@ -401,6 +447,10 @@ def check_info_repositories(sig_repositories):
             print('ERROR! Check contributors: contributors should be a list type')
             sig_info_repositories_errors += 1
 
+        if each_group_repos.get("repo_admin") and not isinstance(each_group_repos.get("repo_admin"), list):
+            print('ERROR! Check repo_admin: repo_admin should be a list type')
+            sig_info_repositories_errors += 1
+
     return sig_info_repositories_errors
 
 
@@ -461,7 +511,7 @@ def check_sig_info(sig, access_token):
         print('PASS WITHOUT ISSUES FOUND.')
 
     print('\nCheck 5: Check repositories consistency')
-    all_sig_info_repos, _, _ = get_sig_info_repos(sig_repositories)
+    all_sig_info_repos, _, _, _ = get_sig_info_repos(sig_repositories)
     sig_dir_repos = get_all_sig_dir_data(sig_dir_path)
     check5 = check_repos_consistency(all_sig_info_repos, sig_dir_repos)
     sig_info_errors += check5
@@ -469,7 +519,7 @@ def check_sig_info(sig, access_token):
         print('PASS WITHOUT ISSUES FOUND.')
 
     print('\nCheck 6: Check committers')
-    _, all_sig_info_committers, _ = get_sig_info_repos(sig_repositories)
+    _, all_sig_info_committers, _, _ = get_sig_info_repos(sig_repositories)
     if all_sig_info_committers:
         check6 = check_committers(all_sig_info_committers, access_token, sig_info_errors)
         sig_info_errors += check6
@@ -479,7 +529,7 @@ def check_sig_info(sig, access_token):
         print('There is no committer in the SIG yet, skip Check 6.')
 
     print('\nCheck 7: Check contributors')
-    _, _, all_sig_info_contributors = get_sig_info_repos(sig_repositories)
+    _, _, all_sig_info_contributors, _ = get_sig_info_repos(sig_repositories)
     if all_sig_info_contributors:
         check7 = check_contributors(all_sig_info_contributors, access_token, sig_info_errors)
         sig_info_errors += check7
@@ -497,6 +547,16 @@ def check_sig_info(sig, access_token):
             print('PASS WITHOUT ISSUES FOUND.')
     else:
         print('There is no branch_keeper in the SIG yet, skip Check 8.')
+
+    print('\nCheck 9: Check repo_admin')
+    _, _, _, all_sig_info_repo_admins = get_sig_info_repos(sig_repositories)
+    if all_sig_info_repo_admins:
+        check9 = check_repo_admins(all_sig_info_repo_admins, access_token, sig_info_errors)
+        sig_info_errors += check9
+        if check9 == 0:
+            print('PASS WITHOUT ISSUES FOUND.')
+    else:
+        print('There is no repo_admin in the SIG yet, skip Check 9.')
 
     return sig_info_errors
 
