@@ -1,0 +1,13 @@
+name: ubs-atomic
+description: Ubs-atomic supports distributed atomic services such as distributed locks and queues based on shared memory.
+upstream: https://gitee.com/openeuler/ubs-atomic
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-24.03-LTS-SP4
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
+type: publicgit 

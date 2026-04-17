@@ -22,6 +22,7 @@ Note: The Charter of this SIG follows the convention described in the openEuler 
 - UBS Virt - [https://atomgit.com/openeuler/ubs-virt](https://atomgit.com/openeuler/ubs-virt)
 - UBS IO - [https://atomgit.com/openeuler/ubs-io](https://atomgit.com/openeuler/ubs-io)
 - UBS Mem - [https://atomgit.com/openeuler/ubs-mem](https://atomgit.com/openeuler/ubs-mem)
+- UBS Atomic - [https://atomgit.com/openeuler/ubs-atomic](https://atomgit.com/openeuler/ubs-atomic)
 - K-Net - [https://atomgit.com/openeuler/knet](https://atomgit.com/openeuler/knet)
 - SCF - [https://atomgit.com/openeuler/scf-security](https://atomgit.com/openeuler/scf-security)
 - CDF - [https://atomgit.com/openeuler/cdf-crypto](https://atomgit.com/openeuler/cdf-crypto)
