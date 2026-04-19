@@ -1,0 +1,7 @@
+name: nghttp3
+description: HTTP/3 library written in C
+upstream: https://nghttp2.org/nghttp3/
+branches:
+- name: master
+  type: protected
+type: public
