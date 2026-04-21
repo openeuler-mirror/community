@@ -1,0 +1,7 @@
+name: CPython
+description: CPython package
+upstream: https://github.com/python/cpython
+type: public
+branches:
+  - name: master
+    type: protected

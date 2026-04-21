@@ -1,0 +1,9 @@
+name: cinderx
+description: cinderx package
+type: public
+branches:
+- name: master
+  type: protected
+- name: dev
+  type: protected
+  create_from: master
