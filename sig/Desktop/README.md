@@ -30,6 +30,7 @@
 - 李萍[@lipingEmmaSiguyi](https://atomgit.com/lipingEmmaSiguyi)
 - 许萍[@cherry530](https://atomgit.com/cherry530)
 - 姚鑫[@starlet-dx](https://atomgit.com/starlet-dx)
+- 柳旺[@lw520203](https://atomgit.com/lw520203)
 
 
 ### Committer列表
