@@ -1,1 +1,1 @@
-OpenStack SIG 主页 https://gitee.com/openeuler/openstack
+OpenStack SIG 主页 https://atomgit.com/openeuler/openstack
