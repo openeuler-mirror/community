@@ -1,6 +1,9 @@
 name: CPython
 description: CPython is a free and open-source Python interpreter implemented by C.
+type: pubilc
 branches:
 - name: master
   type: protected
-type: pubilc
+- name: dev
+  type: protected
+  create_from: master
