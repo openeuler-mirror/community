@@ -1,23 +1,23 @@
 # 新增软件包
 
-执行以下步骤，可以在gitee新增软件包的同时在EulerMaker建立对应工程。
+执行以下步骤，可以在atomgit新增软件包的同时在EulerMaker建立对应工程。
 
 - [操作步骤](#操作步骤)
 - [社区LFS服务](#社区LFS服务)
 
 ## 操作步骤
 
-通过修改gitee中的openeuler/community仓库实现新增软件包的具体操作步骤如下：
+通过修改atomgit中的openeuler/community仓库实现新增软件包的具体操作步骤如下：
 
-1. 点击进入[community仓库](https://gitee.com/openeuler/community.git)，将其fork到自己的仓库。
+1. 点击进入[community仓库](https://atomgit.com/openeuler/community.git)，将其fork到自己的仓库。
 
 2. 将fork完成的community仓库clone到本地。
 
   ```
-  git clone https://gitee.com/"$username"/community.git
+  git clone https://atomgit.com/"$username"/community.git
   ```
 
-3. 修改community仓库。以在gitee新增zip软件包，并且同步在openEuler:Factory工程项目下添加该包为例。
+3. 修改community仓库。以在atomgit新增zip软件包，并且同步在openEuler:Factory工程项目下添加该包为例。
 
    * cd community/sig
 
@@ -58,7 +58,7 @@
       type: public
       ```
 
-   * 提交PR（请参考[PR提交指南](https://gitee.com/openeuler/community/blob/master/zh/contributors/pull-request.md)，PR合入后将会在gitee建立同名仓库。查看地址：[src-openeuler](https://gitee.com/src-openeuler)。同时在EulerMaker上创建对应工程：https://build.openeuler.org/project/show/openEuler:Factory
+   * 提交PR（请参考[PR提交指南](https://atomgit.com/openeuler/community/blob/master/zh/contributors/pull-request.md)，PR合入后将会在atomgit建立同名仓库。查看地址：[src-openeuler](https://atomgit.com/src-openeuler)。同时在EulerMaker上创建对应工程：https://build.openeuler.org/project/show/openEuler:Factory
 
 ## 社区LFS服务
 
@@ -85,6 +85,7 @@
   Username for 'https://artlfs.openeuler.openatom.cn': atomgit_username
   Password for 'https://atomgit_username@artlfs.openeuler.openatom.cn': atomgit_token
   ```
+**注意**：atomgit_token 是“访问令牌”，非登录口令，可以在个人账户设置。
 
 - 当您的仓库已使用AtomGit LFS，现希望切换到社区自建LFS服务：
 
