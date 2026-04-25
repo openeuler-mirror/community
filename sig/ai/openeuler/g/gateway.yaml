@@ -1,0 +1,6 @@
+name: gateway
+description: The gateway schedule user LLM request to the corrected LLM Serving by KVC-Aware & Load
+type: public
+branches:
+- name: master
+  type: protected
