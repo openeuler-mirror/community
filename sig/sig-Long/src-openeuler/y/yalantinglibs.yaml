@@ -1,0 +1,7 @@
+name: yalantinglibs
+description: A Collection of C++20 libraries, include struct_pack, struct_json, struct_xml, struct_yaml, struct_pb, easylog, coro_rpc, coro_http and async_simple
+upstream: https://github.com/alibaba/yalantinglibs
+branches:
+- name: master
+  type: protected
+type: public
