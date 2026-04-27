@@ -1272,6 +1272,18 @@ repositories:
   - src-openeuler/python-krb5
   - src-openeuler/python-mrcfile
   - src-openeuler/python-roman-numerals
+  - src-openeuler/python-tomli
+  - src-openeuler/python-utils
+  - src-openeuler/python-aiosignal
+  - src-openeuler/python-frozenlist
+  - src-openeuler/python-nbconvert
+  - src-openeuler/python-nbformat
+  - src-openeuler/python-nbsphinx
+  - src-openeuler/python-terminado
+  - src-openeuler/python-fastjsonschema
+  - src-openeuler/python-myst-parser
+  - src-openeuler/python-requests-unixsocket
+  - src-openeuler/python-sphinxcontrib-github-alt
   committers:
   - gitee_id: randy1568
     atomgit_id: randy1568
@@ -1283,6 +1295,10 @@ repositories:
     name: ping Xu
     organization: Huawei
     email: xuping33@h-partners.com
+  - gitee_id: starlet-dx
+    atomgit_id: starlet-dx
+    name: Yao Xin
+    email: 15929766099@163.com
 - repo:
   - src-openeuler/python-pdm-backend
   - src-openeuler/ephemeral-port-reserve
@@ -1344,38 +1360,12 @@ repositories:
     organization: Huawei
     email: zhujunhao11@huawei.com
 - repo:
-  - src-openeuler/python-tomli
-  committers:
-  - gitee_id: huangtianhua
-    atomgit_id: huangtianhua
-    name: tianhua Huang
-    organization: Huawei
-    email: huangtianhua@huawei.com
-- repo:
-  - src-openeuler/python-utils
   - src-openeuler/python-pypiserver
   - src-openeuler/python-setuptools-declarative-requirements
   - src-openeuler/python-rply
 - repo:
-  - src-openeuler/python-aiosignal
-  - src-openeuler/python-frozenlist
-  committers:
-  - gitee_id: xuesinian
-    atomgit_id: xuesinian
-    name: Sinian Xue
-    organization: Huawei
-    email: xuesinian@huawei.com
-- repo:
   - src-openeuler/python-drgn
-  - src-openeuler/python-fastjsonschema
-  - src-openeuler/python-myst-parser
-  - src-openeuler/python-nbconvert
-  - src-openeuler/python-nbformat
-  - src-openeuler/python-nbsphinx
   - src-openeuler/python-nbval
-  - src-openeuler/python-requests-unixsocket
-  - src-openeuler/python-terminado
-  - src-openeuler/python-sphinxcontrib-github-alt
 - repo:
   - src-openeuler/python-tomlkit
   - src-openeuler/python-poetry-core
