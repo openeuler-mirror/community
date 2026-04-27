@@ -120,4 +120,3 @@ repository地址：
 - https://gitee.com/openeuler/hbm-predictor
 - https://gitee.com/openeuler/storprototrace
 - https://atomgit.com/openeuler/cyanfs
-- https://atomgit.com/src-openeuler/cyanfs
