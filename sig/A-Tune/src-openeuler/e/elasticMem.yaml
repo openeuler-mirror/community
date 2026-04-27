@@ -1,0 +1,7 @@
+name: elasticMem
+description: User-space memory proactive reclaimer service.
+upstream: https://gitcode.com/openeuler/elasticMem
+branches:
+- name: master
+  type: protected
+type: public
