@@ -1,1 +1,1 @@
-OpenStack SIG home page https://gitee.com/openeuler/openstack
+OpenStack SIG home page https://atomgit.com/openeuler/openstack
