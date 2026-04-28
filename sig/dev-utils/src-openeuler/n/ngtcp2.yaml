@@ -1,0 +1,7 @@
+name: ngtcp2
+description: Implementation of RFC 9000 QUIC protocol
+upstream: https://nghttp2.org/ngtcp2
+branches:
+- name: master
+  type: protected
+type: public
