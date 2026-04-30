@@ -119,3 +119,4 @@ repository地址：
 - https://gitee.com/src-openeuler/libserverframe
 - https://gitee.com/openeuler/hbm-predictor
 - https://gitee.com/openeuler/storprototrace
+- https://atomgit.com/openeuler/cyanfs
