@@ -71,3 +71,8 @@
   MindSpore is a new open source deep learning training/inference framework that could be used for mobile, edge and cloud scenarios.
 - [python-asttokens](https://github.com/gristlabs/asttokens):
   Module to annotate Python abstract syntax trees with source code positions
+- [hearthd](https://github.com/hearthworks/hearthd):
+  HEARTH daemon - HACP/JSON-RPC capability broker that exposes hardware
+  resources (GPIO, I2C, UART, sensors, system telemetry, files) to LLM
+  agents in a safe, audit-friendly way. Includes the HACP / HBP / HCM /
+  HMB / HAF specifications, board profiles, and an MCP bridge.

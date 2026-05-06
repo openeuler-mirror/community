@@ -1,0 +1,10 @@
+name: hearthd
+description: >-
+  RPM packaging of hearthd - HACP/JSON-RPC capability broker that lets
+  LLM agents safely drive edge hardware (GPIO, I2C, UART, sensors,
+  system telemetry, files) without touching a shell.
+upstream: https://github.com/hearthworks/hearthd
+branches:
+- name: master
+  type: protected
+type: public
