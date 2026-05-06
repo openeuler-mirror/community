@@ -8,5 +8,6 @@ The file is used to record people who made contributions to openEuler Embedded a
 | ilisimin | Simin Li | 2022-01-01 | 2024-05-31 |
 | lxy1579 | Xiaoyong Li | 2023-12-01 | 2025-01-14 |
 | linzichang | Zichang Lin | 2022-01-01 | 2025-01-14 |
+| hzc04      | Zongcheng Han | 2022-01-01 | 2026-05-05|
 
 Thanks for being with openEuler Embedded all the way.
