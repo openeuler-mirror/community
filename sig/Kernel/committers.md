@@ -54,7 +54,7 @@
 | NETWORK SUBSYSTEM 3 DRIVER (HNS3)| drivers/net/ethernet/hisilicon/hns3/<br/>drivers/perf/hisilicon/hns3_pmu.c | [@WangBoe2022](https://atomgit.com/wangboe2022) | 
 | ROCE DRIVER | Documentation/devicetree/bindings/infiniband/hisilicon-hns-roce.txt<br/>include/uapi/rdma/hns-abi.h<br/>drivers/infiniband/hw/hns/ | [@hellotcc](https://atomgit.com/hellotcc) |
 | ROH DRIVER | drivers/roh/core<br/>drivers/roh/hw/hns3 | [@chenke1978](https://atomgit.com/chenke2026) |
-| SAS/SATE DRIVER | Documentation/devicetree/bindings/scsi/hisilicon-sas.txt<br/>drivers/scsi/hisi_sas/<br/>drivers/ata/ahci.c | [@LiYihang226](https://gitee.com/LiYihang226) |
+| SAS/SATE DRIVER | Documentation/devicetree/bindings/scsi/hisilicon-sas.txt<br/>drivers/scsi/hisi_sas/<br/>drivers/ata/ahci.c | [@liyihang0226](https://atomgit.com/liyihang0226) |
 | KUNPENG_HCCS DRIVER | Documentation/ABI/testing/sysfs-devices-platform-kunpeng_hccs<br/>drivers/soc/hisilicon/kunpeng_hccs.h<br/>drivers/soc/hisilicon/kunpeng_hccs.c | [@li-huisong](https://atomgit.com/li-huisong) |
 | HIBMC DRIVER | drivers/gpu/drm/hisilicon/hibmc | [@baratta](https://atomgit.com/baratta) |
 | IPMI DRIVER | drivers/char/ipmi/hisi_ipmi_pso.c | [@hewanhan](https://atomgit.com/hewanhan) |
@@ -111,7 +111,7 @@
 | lpfc     | drivers/scsi/lpfc           | [@yonghu_4dc5](https://atomgit.com/yonghu_4dc5) |
 | qla2xxx  | drivers/scsi/qola2xxx       | [@yonghu_4dc5](https://atomgit.com/yonghu_4dc5) |
 | mpt3sas  | drivers/scsi/mpt3sas        | [@yonghu_4dc5](https://atomgit.com/yonghu_4dc5) |
-| motorcomm | drivers/net/ethernet/motorcomm/<br/>drivers/net/phy/motorcomm.c| [@Frank_Sae](https://gitee.com/Frank_Sae) |
+| motorcomm | drivers/net/ethernet/motorcomm/<br/>drivers/net/phy/motorcomm.c| [@Frank_Sae](https://atomgit.com/Frank_Sae) |
 | pci | drivers/virtio       | [@wenzhiwei11](https://atomgit.com/wenzhiwei11) |
 
 
