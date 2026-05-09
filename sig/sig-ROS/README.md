@@ -19,6 +19,7 @@
 - 王晓云[@xiao_yun_wang](https://gitee.com/xiao_yun_wang)
 - 韩昊旻[@davidhan008](https://gitee.com/davidhan008)
 - 席江玲[@simonaxi](https://gitee.com/simonaxi)
+- 胡万明[@wanminghu](https://gitcode.com/wanminghu)
 
 ### Committer列表
 
