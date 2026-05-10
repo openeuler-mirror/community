@@ -41,6 +41,32 @@ maintainers:
   email: shenyangyang4@huawei.com
 repositories:
 - repo:
+  - src-openeuler/kpatch
+  - src-openeuler/rsyslog
+  - src-openeuler/babeltrace
+  - src-openeuler/logrotate
+  - src-openeuler/sysstat
+  - src-openeuler/kdump-anaconda-addon
+  committers:
+  - gitee_id: qjling
+    atomgit_id: lalalaq
+    name: Jingling Qu
+    organization: Huawei
+    email: qujingling@huawei.com
+  - gitee_id: kevinzhu1
+    atomgit_id: kevinzhu1
+    name: KevinZhu
+    organization: Huawei
+    email: zhukeqian1@huawei.com
+- repo:
+  - src-openeuler/abseil-cpp
+  committers:
+  - gitee_id: maodaorui
+    atomgit_id: maodaorui
+    name: Zhu Rui
+    organization: Huawei
+    email: zhurui10@huawei.com
+- repo:
   - openeuler/re2-rust
   - src-openeuler/re2-rust
   committers:
@@ -230,7 +256,6 @@ repositories:
   - src-openeuler/iso-codes
   - src-openeuler/jansson
   - src-openeuler/jitterentropy-library
-  - src-openeuler/kpatch
   - src-openeuler/langtable
   - src-openeuler/libbytesize
   - src-openeuler/libcomps
@@ -401,15 +426,12 @@ repositories:
     organization: Huawei
     email: zhuchunyi@huawei.com
 - repo:
-  - src-openeuler/abseil-cpp
-  - src-openeuler/babeltrace
   - src-openeuler/bluez
   - src-openeuler/bubblewrap
   - src-openeuler/conntrack-tools
   - src-openeuler/glib2
   - src-openeuler/icu
   - src-openeuler/json-c
-  - src-openeuler/kdump-anaconda-addon
   - src-openeuler/libarchive
   - src-openeuler/libgpg-error
   - src-openeuler/libical
@@ -417,13 +439,10 @@ repositories:
   - src-openeuler/libnetfilter_cthelper
   - src-openeuler/libnetfilter_cttimeout
   - src-openeuler/libpng
-  - src-openeuler/logrotate
   - src-openeuler/ncurses
   - src-openeuler/nettle
   - src-openeuler/newt
   - src-openeuler/openEuler-logos
-  - src-openeuler/rsyslog
-  - src-openeuler/sysstat
   - src-openeuler/texinfo
   committers:
   - gitee_id: yanan-rock
@@ -431,6 +450,11 @@ repositories:
     name: yanan-rock
     organization: Huawei
     email: yanan@huawei.com
+  - gitee_id: robertxw
+    atomgit_id: robert-xingwang
+    name: gaoxingwang
+    organization: Huawei
+    email: gaoxingwang1@huawei.com
 - repo:
   - src-openeuler/airline
   - src-openeuler/ant-antunit
