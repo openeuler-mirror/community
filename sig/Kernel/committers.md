@@ -28,10 +28,10 @@
 | 海光   | hygon platform      | [@hanliyang](https://atomgit.com/hanliyang) [@allen-shi](https://atomgit.com/allen-shi) |
 | 飞腾   | phytium platform     | [@mao-hongbo](https://gitee.com/mao-hongbo) [@shuaijiakun](https://atomgit.com/shuaijiakun)  |
 | 树莓派 | raspberrypi-kernel                                | [@woqidaideshi](https://atomgit.com/woqidaideshi) |
-| ACPI   | drivers/acpi/                                                | [@hanjun_guo](https://gitee.com/hanjun_guo) [@stkid](https://atomgit.com/stkid) [@wangxiongfeng](https://gitee.com/wangxiongfeng) |
+| ACPI   | drivers/acpi/                                                | [@hanjun_guo](https://gitee.com/hanjun_guo) [@stkid](https://atomgit.com/stkid) |
 | MPAM   | arch/arm64/kernel/mpam<br/>drivers/acpi/arm64/mpam<br/>fs/resctrlfs | [@jentlestea](https://gitee.com/jentlestea)   |
 | risc-v | arch/risc-v/\*                                                | [@whoisxxx](https://atomgit.com/whoisxxx)  [@xingmz](https://atomgit.com/xingmz1)    |
-| smmu   | drivers/iommu/arm/arm-smmu\*<br />drivers/iommu/io-pgtable-arm\*   | [@qinirao](https://atomgit.com/qinirao)       |
+| smmu   | drivers/iommu/arm/arm-smmu\*<br />drivers/iommu/io-pgtable-arm\*   | [@chen-jun-hw](https://atomgit.com/chen-jun-hw)       |
 | arm    | arch/arm/\*<br/>arch/arm64/\*    | [@chris_zjh](https://atomgit.com/chriszjh) |
 | powerpc | arch/powerpc/\*    | [@chris_zjh](https://atomgit.com/chriszjh) |
 | amd    | amd platform        | [@kile2009](https://atomgit.com/kile2009) [@sming56_admin](https://atomgit.com/sming56_admin) |
@@ -139,7 +139,9 @@
 | unic     | drivers/net/ub<br/>     drivers/ub/ubase<br/>     include/net/ub<br/>     include/ub/ubase | [@chenjunxin1992](https://atomgit.com/chenjunxin1992)     [@fanghaiqinghw](https://atomgit.com/fanghaiqinghw) |
 | ub_fwctl | drivers/fwctl/ub                                             | [@hu-chunzhi](https://atomgit.com/hu-chunzhi)     [@caixu-blue](https://atomgit.com/caixu-blue) |
 | ummu     | drivers/iommu/hisilicon<br/>     include/linux/ummu_core.h<br/>     include/uapi/linux/ummu_core.h<br/>     drivers/perf/hisilicon/ummu_pmu.c | [@Tankll2021](https://atomgit.com/Tankll2021)     [@fangfeng123](https://atomgit.com/fangfeng123) [@gongleihuawei](https://atomgit.com/gongleihuawei)|
-| sentry     | drivers/ub/sentry | [@luckky](https://atomgit.com/luckky7) |
+| sentry     | drivers/ub/sentry | [@jiayi0118](https://atomgit.com/jiayi0118) |
+| ubdevshm     | drivers/ub/ubdevshm | [@Tankll2021](https://atomgit.com/Tankll2021) |
+| ubmempfd     | drivers/ub/ubmempfd | [@Tankll2021](https://atomgit.com/Tankll2021) |
 | ub       | drivers/ub                                                   | [@mufengyan](https://atomgit.com/mufengyan)     [@yunshenglin](https://atomgit.com/linyunsheng) |
 
 ## Notes
