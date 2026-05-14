@@ -23,6 +23,5 @@
 - yuanrong-functionsystem - [https://atomgit.com/openeuler/yuanrong-functionsystem](https://atomgit.com/openeuler/yuanrong-functionsystem)
 - yuanrong-datasystem - [https://atomgit.com/openeuler/yuanrong-datasystem](https://atomgit.com/openeuler/yuanrong-datasystem)
 - yuanrong-frontend - [https://atomgit.com/openeuler/yuanrong-frontend](https://atomgit.com/openeuler/yuanrong-frontend)
-- yuanrong-serve - [https://atomgit.com/openeuler/yuanrong-serve](https://atomgit.com/openeuler/yuanrong-serve)
 - ray-adapter - [https://atomgit.com/openeuler/ray-adapter](https://atomgit.com/openeuler/ray-adapter)
 - spring-adapter - [https://atomgit.com/openeuler/spring-adapter](https://atomgit.com/openeuler/spring-adapter)
