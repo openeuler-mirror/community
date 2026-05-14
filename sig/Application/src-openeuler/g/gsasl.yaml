@@ -1,0 +1,7 @@
+name: gsasl
+description: GNU Simple Authentication and Security Layer
+upstream: https://www.gnu.org/software/gsasl/
+branches:
+- name: master
+  type: protected
+type: public
