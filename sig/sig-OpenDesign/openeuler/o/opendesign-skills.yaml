@@ -1,0 +1,9 @@
+name: opendesign-skills
+description: The repository of OpenDesign Skills
+branches:
+- name: master
+  type: protected
+- name: dev
+  type: protected
+  create_from: master
+type: public
