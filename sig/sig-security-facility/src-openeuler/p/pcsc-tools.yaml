@@ -1,0 +1,13 @@
+name: pcsc-tools
+description: provides a set of utilities for testing and debugging PC/SC smart card readers and cards.
+upstream: https://github.com/LudovicRousseau/pcsc-tools
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.03-LTS-SP4
+  type: readonly
+  create_from: master
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
