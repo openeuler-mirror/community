@@ -1,0 +1,80 @@
+name: 创建仓库申请
+description: 申请在community仓库中新建软件包仓库
+title: "[建仓申请] "
+body:
+  - type: input
+    id: repo_name
+    attributes:
+      label: 仓库名称
+      description: 请输入要创建的仓库名称（仅支持小写字母、数字和连字符）
+      placeholder: "例如: my-package"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: repo_org
+    attributes:
+      label: 仓库所属组织
+      description: 选择仓库所属的组织（制品仓选择 src-openeuler）
+      options:
+        - openeuler
+        - src-openeuler
+    validations:
+      required: true
+
+  - type: input
+    id: upstream
+    attributes:
+      label: 上游仓库地址
+      description: 制品仓（src-openeuler）必须填写上游仓库地址，格式如 https://gitcode.com/org/repo 或 https://github.com/org/repo
+      placeholder: "例如: https://gitcode.com/upstream-org/upstream-repo"
+    validations:
+      required: false
+
+  - type: textarea
+    id: repo_description
+    attributes:
+      label: 仓库描述
+      description: 请输入仓库的描述信息
+      placeholder: "例如: My Package for openEuler"
+    validations:
+      required: true
+
+  - type: input
+    id: default_branch
+    attributes:
+      label: 默认分支名称
+      description: 请输入默认分支名称
+      placeholder: "例如: master"
+      value: "master"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: repo_type
+    attributes:
+      label: 仓库类型
+      description: 选择仓库的公开类型
+      options:
+        - public
+        - private
+    validations:
+      required: true
+
+  - type: textarea
+    id: branches_config
+    attributes:
+      label: 分支保护配置
+      description: 配置需要创建和保护的其他分支（可选）
+      placeholder: "格式: 分支名:来源分支:保护类型\n例如:\ndevelop:master:protected\nrelease:master:readonly"
+    validations:
+      required: false
+
+  - type: input
+    id: sig_name
+    attributes:
+      label: 所属SIG组
+      description: 请输入仓库所属的SIG组名称
+      placeholder: "例如: Infrastructure"
+    validations:
+      required: true
