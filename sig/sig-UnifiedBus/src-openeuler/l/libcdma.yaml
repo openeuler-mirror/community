@@ -1,7 +1,8 @@
-name: memlink
-description: A system enables the host to detect and reclaim idle memory inside guests,
-  overcoming virtualization isolation to improve memory utilization.
-upstream: https://gitee.com/openeuler/memlink
+name: libcdma
+rename_from: cdma
+description: An UB entity driver on user space, provide asynchronous read and write
+  for remote memory.
+upstream: https://atomgit.com/openeuler/libcdma
 branches:
 - name: master
   type: protected

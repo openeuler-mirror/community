@@ -1,4 +1,5 @@
-name: memlink
+name: memlinkd
+rename_from: memlink
 description: A system enables the host to detect and reclaim idle memory inside guests, overcoming virtualization isolation to improve memory utilization.
 branches:
   - name: master
