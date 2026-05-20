@@ -1,0 +1,7 @@
+name: tsshd
+description: tsshd is a UDP-based SSH server with roaming support.
+upstream: https://github.com/trzsz/tsshd
+branches:
+  - name: master
+    type: protected
+type: public
