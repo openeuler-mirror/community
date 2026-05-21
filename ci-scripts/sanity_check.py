@@ -65,7 +65,7 @@ def check_0_v3(community):
 
     sig_path = os.path.expanduser(os.path.join(community, "sig"))
 
-    pattern = re.compile("(.*)/sig/(.*)/((src-)?openeuler)/([a-z])/(.*).yaml")
+    pattern = re.compile("(.*)/sig/(.*)/((src-)?openeuler)/([a-z]|[0-9])/(.*).yaml")
 
     for root, dirs, files in os.walk(sig_path):
         for f in files:
