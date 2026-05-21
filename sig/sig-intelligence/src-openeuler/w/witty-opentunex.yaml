@@ -1,7 +1,13 @@
 name: witty-opentunex
 description: The witty-opentunex is a tool designed for OS tuning, providing top-down bottleneck analysis and scenario tuning skills based on LLM.
-upstream: https://atomgic.com/openeuler/witty-opentunex
+upstream: https://atomgit.com/openeuler/witty-opentunex
 branches:
 - name: master
   type: protected
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-24.03-LTS-SP4
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
 type: public
