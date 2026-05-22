@@ -29,7 +29,7 @@
 | 飞腾   | phytium platform     | [@mao-hongbo](https://gitee.com/mao-hongbo) [@shuaijiakun](https://atomgit.com/shuaijiakun)  |
 | 树莓派 | raspberrypi-kernel                                | [@woqidaideshi](https://atomgit.com/woqidaideshi) |
 | ACPI   | drivers/acpi/                                                | [@hanjun_guo](https://gitee.com/hanjun_guo) [@stkid](https://atomgit.com/stkid) |
-| MPAM   | arch/arm64/kernel/mpam<br/>drivers/acpi/arm64/mpam<br/>fs/resctrlfs | [@jentlestea](https://gitee.com/jentlestea)   |
+| MPAM   | arch/arm64/kernel/mpam\*<br/>drivers/acpi/arm64/mpam\*<br/>fs/resctrl\*<br/>include/linux/resctrl\*<br/>drivers/platform/mpam | [@henryze](https://atomgit.com/henryze)   |
 | risc-v | arch/risc-v/\*                                                | [@whoisxxx](https://atomgit.com/whoisxxx)  [@xingmz](https://atomgit.com/xingmz1)    |
 | smmu   | drivers/iommu/arm/arm-smmu\*<br />drivers/iommu/io-pgtable-arm\*   | [@chen-jun-hw](https://atomgit.com/chen-jun-hw)       |
 | arm    | arch/arm/\*<br/>arch/arm64/\*    | [@chris_zjh](https://atomgit.com/chriszjh) |
@@ -89,7 +89,7 @@
 | 模块<img width=40/>   | 文件<img width=300/>                       | Committer(s) <img width=200/>                     |
 | --------- | ---- | ------------ |
 | security | security/integrity/\*  | [@lujialin2](https://atomgit.com/lujialin2) [@zhujianwei](https://atomgit.com/zhujianwei001) |
-| cve | \*  | [@lujialin2](https://atomgit.com/lujialin2)  [@zhengzengkai](https://atomgit.com/zhengzengkai) |
+| cve | \*  | [@lujialin2](https://atomgit.com/lujialin2) |
 
 
 ## packaging
