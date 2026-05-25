@@ -10,10 +10,10 @@ maintainers:
   atomgit_id: hanjunguo
   name: Hanjun Guo
   email: guohanjun@huawei.com
-- gitee_id: zhengzengkai
-  atomgit_id: zhengzengkai
-  name: Zheng Zengkai
-  email: zhengzengkai@huawei.com
+- gitee_id: wkfxxx
+  atomgit_id: wkfxxx
+  name: Kefeng Wang
+  email: wangkefeng.wang@huawei.com
 - gitee_id: sanglipeng
   atomgit_id: sanglipeng
   name: sanglipeng
@@ -81,10 +81,10 @@ repositories:
     atomgit_id: hanjunguo
     name: Hanjun Guo
     email: guohanjun@huawei.com
-  - gitee_id: jentlestea
-    atomgit_id: ''
-    name: Wang ShaoBo
-    email: bobo.shaobowang@huawei.com
+  - gitee_id: ''
+    atomgit_id: henryze
+    name: Heng Zeng
+    email: zengheng4@huawei.com
   - gitee_id: whoisxxx
     atomgit_id: whoisxxx
     name: Zhang Xuzhou
@@ -587,6 +587,10 @@ branches:
     branch: OLK-6.6
   - repo: openeuler/kernel
     branch: openEuler-24.03-LTS_SP3
+  - repo: openeuler/kernel
+    branch: openEuler-24.03-LTS_SP1
+  - repo: openeuler/kernel
+    branch: openEuler-24.03_LTS
   - repo: src-openeuler/kernel
     branch: master
   - repo: src-openeuler/kernel
