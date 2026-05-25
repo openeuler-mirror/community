@@ -25,3 +25,4 @@
 - yuanrong-frontend - [https://atomgit.com/openeuler/yuanrong-frontend](https://atomgit.com/openeuler/yuanrong-frontend)
 - ray-adapter - [https://atomgit.com/openeuler/ray-adapter](https://atomgit.com/openeuler/ray-adapter)
 - spring-adapter - [https://atomgit.com/openeuler/spring-adapter](https://atomgit.com/openeuler/spring-adapter)
+- yuanrong-agentruntime - [https://atomgit.com/openeuler/yuanrong-agentruntime](https://atomgit.com/openeuler/yuanrong-agentruntime)
