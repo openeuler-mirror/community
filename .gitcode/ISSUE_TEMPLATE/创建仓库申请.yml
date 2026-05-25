@@ -40,16 +40,6 @@ body:
     validations:
       required: true
 
-  - type: input
-    id: default_branch
-    attributes:
-      label: 默认分支名称
-      description: 请输入默认分支名称
-      placeholder: "例如: master"
-      value: "master"
-    validations:
-      required: true
-
   - type: dropdown
     id: repo_type
     attributes:
@@ -61,15 +51,6 @@ body:
     validations:
       required: true
 
-  - type: textarea
-    id: branches_config
-    attributes:
-      label: 分支保护配置
-      description: 配置需要创建和保护的其他分支（可选）
-      placeholder: "格式: 分支名:来源分支:保护类型\n例如:\ndevelop:master:protected\nrelease:master:readonly"
-    validations:
-      required: false
-
   - type: input
     id: sig_name
     attributes:
@@ -78,3 +59,41 @@ body:
       placeholder: "例如: Infrastructure"
     validations:
       required: true
+
+  - type: dropdown
+    id: apply_committer
+    attributes:
+      label: 是否同步申请成为该仓库committer
+      description: 选择是否在创建仓库的同时申请成为该仓库的 committer
+      options:
+        - "是"
+        - "否"
+    validations:
+      required: true
+
+  - type: input
+    id: branch_1
+    attributes:
+      label: 创建分支 1
+      description: "提示：master 分支默认创建，无需填写。如需创建其他分支，请在以下输入框中填写，格式：分支名:来源分支（不指定来源分支时，默认源分支为 master）"
+      placeholder: "例如: 分支1:master"
+    validations:
+      required: false
+
+  - type: input
+    id: branch_2
+    attributes:
+      label: 创建分支 2
+      description: 配置需要创建的分支（可选），格式：分支名:来源分支（不指定来源分支时，默认源分支为 master）
+      placeholder: "例如: 分支2:master"
+    validations:
+      required: false
+
+  - type: input
+    id: branch_3
+    attributes:
+      label: 创建分支 3
+      description: 配置需要创建的分支（可选），格式：分支名:来源分支（不指定来源分支时，默认源分支为 master）
+      placeholder: "例如: 分支3:master"
+    validations:
+      required: false
