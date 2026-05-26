@@ -268,14 +268,14 @@ def check_6(cross_checked_repo, supervisors):
 
 def check_7(oe_repos, srcoe_repos):
     """
-    All repositories' name must follow the gitee requirements
+    All repositories' name must follow the atomgit requirements
     """
-    print("All repositories' name must follow the gitee requirements")
+    print("All repositories' name must follow the atomgit requirements")
 
     errors_found = 0
     error_msg = "Repo name allows only letters, numbers, or an underscore (_), dash (-),"\
-                " and period (.). It must start with a letter, and its length is 2 to 200"\
-                " characters."
+                " and period (.). It must start with a letter or a number, and its length " \
+                "is 2 to 200 characters."
 
     for repos in oe_repos, srcoe_repos:
         for repo in repos:
@@ -288,8 +288,8 @@ def check_7(oe_repos, srcoe_repos):
                 if not new_repo_name.isalnum():
                     print("ERROR! {name} contains invalid character".format(name=repo_name))
                     errors_found += 1
-                elif not repo_name[0].isalpha():
-                    print("ERROR! {name} must start with a letter".format(name=repo_name))
+                elif not repo_name[0].isalnum():
+                    print("ERROR! {name} must start with a letter or a number".format(name=repo_name))
                     errors_found += 1
 
     if errors_found != 0:
