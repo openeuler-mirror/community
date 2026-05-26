@@ -500,7 +500,7 @@ def load_owners(community_dir, sig):
     siginfo_path = os.path.expanduser(os.path.join(community_dir, "sig/"+sig+"/sig-info.yaml"))
     if os.path.exists(siginfo_path):
         siginfo = load_yaml(community_dir, "sig/"+sig+"/sig-info.yaml")["maintainers"]
-        return [owner["gitee_id"] for owner in siginfo]
+        return [owner["atomgit_id"] for owner in siginfo if owner["atomgit_id"]]
 
     print("WARNING! Failed to get maintainer information from OWNERS or sig-info.yaml")
     return []
