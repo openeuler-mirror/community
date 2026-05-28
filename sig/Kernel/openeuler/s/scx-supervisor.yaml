@@ -1,0 +1,6 @@
+name: scx-supervisor
+description: scx-supervisord is a system daemon and DBus-based supervisor for sched_ext schedulers. The daemon is managed by scx-supervisord.service, and scx-policyctl is the command-line client for switching schedulers, modes, and arguments dynamically.
+branches:
+- name: master
+  type: protected
+type: public
