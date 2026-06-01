@@ -44,6 +44,7 @@ Please [readme](./Vision-en.md)
 - liyangyang20@huawei.com
 - jerry.lilijun@huawei.com
 - liangchangwei@kylinos.cn
+- wangfeifei40@huawei.com
 
 ### Committer列表
 
@@ -56,9 +57,9 @@ Please [readme](./Vision-en.md)
 - 胡义臻[@xiangyu2020](https://gitee.com/xiangyu2020) email: huyizhen2024@163.com
 - 田鑫[@OGman](https://gitee.com/OGman) email: tianx@yunsilicon.com
 - 钱荣[@martinshare](https://gitee.com/martinshare) email: qianrong@yunsilicon.com
-- 王霏霏[@feifei-wang1994](https://gitee.com/feifei-wang1994) email: wangfeifei40@huawei.com
-- 雷凡[@leifanc123](https://gitee.com/leifanc123) email: leifan13@huawei.com
 - 黄炳康[@huang_bing_kang](https://gitcode.com/huang_bing_kang) email: 1209365920@qq.com
+- 丁璇[@xuan_ding](https://gitcode.com/xuan_ding) email: ahudxuan@163.com
+- 李杰[@lijie_printk](https://gitcode.com/lijie_printk) email: 1304877502@qq.com
 
 #### UMDK 项目 Committer 列表
 - qianguoxin[@qianguoxin](https://gitee.com/qianguoxin) email: qianguoxin@huawei.com
