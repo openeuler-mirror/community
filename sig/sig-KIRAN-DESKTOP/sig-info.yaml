@@ -27,50 +27,100 @@ maintainers:
   email: yangfeng@kylinsec.com.cn
 repositories:
 - repo:
-  - openeuler/kiran-desktop
   - openeuler/kiran-cc-daemon
+  - src-openeuler/kiran-cc-daemon
+  committers:
+  - gitee_id: wangyucheng1
+    atomgit_id: wangyucheng1
+    name: WangYuCheng
+    email: wangyucheng@kylinsec.com.cn
+  - gitee_id: yuan__xing
+    atomgit_id: yaun__xing
+    name: YuanXing
+    email: yuanxing@kylinsec.com.cn
+- repo:
   - openeuler/kiran-session-manager
-  - openeuler/kiran-control-panel
-  - openeuler/kiran-panel
-  - openeuler/kiran-shell
+  - openeuler/kiran-flameshot
+  - src-openeuler/kiran-session-manager
+  - src-openeuler/kiran-flameshot
+  committers:
+  - gitee_id: wangyucheng1
+    atomgit_id: wangyucheng1
+    name: WangYuCheng
+    email: wangyucheng@kylinsec.com.cn
+  - gitee_id: ''
+    atomgit_id: gaob-kylinsec
+    name: GaoBo
+    email: gaobo@kylinsec.com.cn
+- repo:
+  - openeuler/kiran-screensaver
+  - openeuler/kiran-session-guard
+  - openeuler/kiran-qt5-integration
+  - src-openeuler/kiran-screensaver
+  - src-openeuler/kiran-session-guard
+  - src-openeuler/kiran-qt5-integration
+  committers:
+  - gitee_id: ''
+    atomgit_id: gaob-kylinsec
+    name: GaoBo
+    email: gaobo@kylinsec.com.cn
+  - gitee_id: ''
+    atomgit_id: AliboShaw
+    name: XiaoWen
+    email: xiaowen@kylinsec.com.cn
+- repo:
   - openeuler/kiran-menu
+  - openeuler/kiran-shell
+  - openeuler/kiran-control-panel
+  - src-openeuler/kiran-menu
+  - src-openeuler/kiran-shell
+  - src-openeuler/kiran-control-panel
+  committers:
+  - gitee_id: yuan__xing
+    atomgit_id: yaun__xing
+    name: YuanXing
+    email: yuanxing@kylinsec.com.cn
+  - gitee_id: ''
+    atomgit_id: gaob-kylinsec
+    name: GaoBo
+    email: gaobo@kylinsec.com.cn
+- repo:
+  - openeuler/kiran-panel
+  - openeuler/kiran-widgets-qt5
+  - src-openeuler/kiran-panel
+  - src-openeuler/kiran-widgets-qt5
+  committers:
+  - gitee_id: yuan__xing
+    atomgit_id: yaun__xing
+    name: YuanXing
+    email: yuanxing@kylinsec.com.cn
+  - gitee_id: ''
+    atomgit_id: AliboShaw
+    name: XiaoWen
+    email: xiaowen@kylinsec.com.cn
+- repo:
+  - openeuler/kiran-desktop
   - openeuler/kiran-authentication-service
   - openeuler/kiran-authentication-devices
-  - openeuler/kiran-session-guard
-  - openeuler/kiran-screensaver
   - openeuler/kiran-manual
-  - openeuler/kiran-qt5-integration
   - openeuler/kiran-wallpapers
   - openeuler/kiran-icon-theme
   - openeuler/kiran-gtk-theme
-  - openeuler/kiran-widgets-qt5
   - openeuler/plymouth-theme-kiran
   - openeuler/kiran-qdbusxml2cpp
   - openeuler/kiran-calculator
-  - openeuler/kiran-flameshot
   - openeuler/kiran-calendar
   - openeuler/kiran-log
   - src-openeuler/kiran-desktop
-  - src-openeuler/kiran-cc-daemon
-  - src-openeuler/kiran-session-manager
-  - src-openeuler/kiran-control-panel
-  - src-openeuler/kiran-panel
-  - src-openeuler/kiran-shell
-  - src-openeuler/kiran-menu
   - src-openeuler/kiran-authentication-service
   - src-openeuler/kiran-authentication-devices
-  - src-openeuler/kiran-session-guard
-  - src-openeuler/kiran-screensaver
   - src-openeuler/kiran-manual
-  - src-openeuler/kiran-qt5-integration
   - src-openeuler/kiran-wallpapers
   - src-openeuler/kiran-icon-theme
   - src-openeuler/kiran-gtk-theme
-  - src-openeuler/kiran-widgets-qt5
   - src-openeuler/plymouth-theme-kiran
   - src-openeuler/kiran-qdbusxml2cpp
   - src-openeuler/kiran-calculator
-  - src-openeuler/kiran-flameshot
   - src-openeuler/kiran-calendar
   - src-openeuler/kiran-log
   - src-openeuler/lunar-date
