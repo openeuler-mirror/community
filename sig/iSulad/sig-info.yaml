@@ -8,31 +8,21 @@ maintainers:
   name: Haomin Cai
   orgnization: Huawei
   email: caihaomin@huawei.com
-- gitee_id: duguhaotian
-  atomgit_id: duguhaotian
-  name: Hao Liu
-  orgnization: Huawei
-  email: liuhao27@huawei.com
 - gitee_id: jingxiaolu
   atomgit_id: jingxiaolu
   name: Jingxiao Lu
   orgnization: Huawei
   email: lujingxiao@huawei.com
-- gitee_id: jingwoo
-  atomgit_id: jingwoo
-  name: Jing Wu
+- gitee_id: Yekelu
+  atomgit_id: Yekelu
+  name: Kelu Ye
   orgnization: Huawei
-  email: wujing50@huawei.com
-- gitee_id: lifeng2221dd1
-  atomgit_id: ''
-  name: Feng Li
+  email: yekelu1@huawei.com
+- gitee_id: chantsztung
+  atomgit_id: chantsztung
+  name: Zitong Chen
   orgnization: Huawei
-  email: lifeng68@huawei.com
-- gitee_id: xuxuepeng
-  atomgit_id: xuxuepeng
-  name: Xuepeng Xu
-  orgnization: Huawei
-  email: xuxuepeng1@huawei.com
+  email: petachan@huawei.com
 repositories:
 - repo:
   - openeuler/iSulad
@@ -47,20 +37,7 @@ repositories:
   - src-openeuler/lcr
   - src-openeuler/lib-shim-v2
   - src-openeuler/isula-rust-extensions
-  committers:
-  - gitee_id: taotao-sauce
-    atomgit_id: taotao-sauce
-    name: Tao Zhong
-    email: zhongtao17@huawei.com
-  - gitee_id: liuxu180400617
-    atomgit_id: liuxu180400617
-    name: Xu Liu
-    email: liuxu156@huawei.com
   repo_admin:
-  - gitee_id: duguhaotian
-    atomgit_id: duguhaotian
-    name: Hao Liu
-    email: liuhao27@huawei.com
   - gitee_id: jingxiaolu
     atomgit_id: jingxiaolu
     name: Jingxiao Lu
@@ -75,10 +52,6 @@ repositories:
   - src-openeuler/lxcfs-tools
   - src-openeuler/lxcfs
   repo_admin:
-  - gitee_id: duguhaotian
-    atomgit_id: duguhaotian
-    name: Hao Liu
-    email: liuhao27@huawei.com
   - gitee_id: jingxiaolu
     atomgit_id: jingxiaolu
     name: Jingxiao Lu
