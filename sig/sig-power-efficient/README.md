@@ -18,6 +18,7 @@
 - 阙燕文 [@queyanwen](https://gitee.com/queyanwen) queyanwen@huawei.com
 - 吴昊天 [@wuhaotian315](https://gitee.com/wuhaotian315) wuhaotian16@huawei.com
 - 姜  毅 [@jimmy-jiang-junior](https://gitee.com/jimmy-jiang-junior) jiangyi38@hisilicon.com
+- 汪  易 [@HeisenBWY](https://gitcode.com/HeisenBWY) wangyi395@huawei.com
 
 
 # 联系方式
