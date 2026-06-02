@@ -4,4 +4,7 @@ upstream: https://github.com/MagicStack/immutables
 branches:
 - name: master
   type: protected
+- name: Multi-Version_OpenStack-Antelope_openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
 type: public
