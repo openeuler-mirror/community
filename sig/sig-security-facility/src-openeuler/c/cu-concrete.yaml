@@ -1,0 +1,13 @@
+name: cu-concrete
+description: cu-concrete is an automated system security hardening utility that enhances operating system security by modifying system configurations such as user accounts, services, network settings, file permissions, and audit policies. It supports compliance with CIS, 等级保护, and other security standards.
+upstream: https://atomgit.com/openeuler/cu-concrete
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-24.03-LTS-SP4
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
+type: public
