@@ -76,6 +76,8 @@ repositories:
   - openeuler/openstack-releases-adaptation
   - openeuler/openstack-sig-tool
   - openeuler/pyisula
+  - openeuler/skyline-apiserver
+  - openeuler/skyline-console
 - repo:
   - openeuler/gostone
   committers:
@@ -534,3 +536,11 @@ repositories:
   - src-openeuler/python-zaqarclient
   - src-openeuler/python-zunclient
   - src-openeuler/spice-html5
+  - src-openeuler/skyline-apiserver
+  - src-openeuler/skyline-console
+  - src-openeuler/python-aiopg
+  - src-openeuler/python-asyncmy
+  - src-openeuler/python-databases
+  - src-openeuler/python-loguru
+  - src-openeuler/python-sphinx-rtd-theme
+  - src-openeuler/python-aiosqlite

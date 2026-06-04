@@ -1,0 +1,13 @@
+name: python-aiopg
+description: aiopg is a library for accessing a PostgreSQL database from the asyncio (PEP-3156/tulip) framework. It wraps asynchronous features of the Psycopg database driver.
+upstream: https://github.com/aio-libs/aiopg
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+- name: Multi-Version_OpenStack-Antelope_openEuler-24.03-LTS-Next
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
+type: public
