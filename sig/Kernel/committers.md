@@ -11,10 +11,10 @@
 | cgroup | kernel/cgroup              | [@lujialin2](https://atomgit.com/lujialin2)                        |
 | sched  | include/linux/preempt.h<br/>include/linux/sched.h<br/>include/linux/wait.h<br/>include/uapi/linux/sched.h<br/>kernel/sched/              | [@zqiao216](https://atomgit.com/zqiao216) |
 | PGO    | kernel/gcov/gcc_4_7.c<br/>kernel/gcov/gcc_base.c | [@li-yancheng](https://gitee.com/li-yancheng) [@eastb233](https://gitee.com/eastb233) |
-| irq    | drivers/irqchip/irq-gic\*    | [@chris_zjh](https://atomgit.com/chriszjh) |
+| irq    | drivers/irqchip/irq-gic\*    | [@chris_zjh](https://atomgit.com/chriszjh) [@zouyipeng](https://atomgit.com/zouyipeng) |
 | debugging | kernel/printk<br/>/kernel/trace<br/>kernel/kexec.c<br/>kernel/kexec_core.c<br/>kernel/watchdog.c<br/>kernel/kernel/watchdog_hld.c | [@yeweihua](https://atomgit.com/yeweihua999) |
 | livepatch | kernel/livepatch        | [@xukuohai](https://atomgit.com/xukuohai) [@yeweihua](https://atomgit.com/yeweihua999) |
-| sched_ext | include/linux/sched/ext.h<br/>kernel/sched/ext\*<br/>tools/sched_ext<br/>tools/testing/selftests/sched_ext | [@cheliequan](https://gitcode.com/jackknight) [@zichengqu](https://gitcode.com/zichengqu) |
+| sched_ext | include/linux/sched/ext.h<br/>kernel/sched/ext\*<br/>tools/sched_ext<br/>tools/testing/selftests/sched_ext | [@cheliequan](https://atomgit.com/jackknight) [@zichengqu](https://atomgit.com/zichengqu) |
 
 
 ## arch
@@ -28,12 +28,12 @@
 | 海光   | hygon platform      | [@hanliyang](https://atomgit.com/hanliyang) [@allen-shi](https://atomgit.com/allen-shi) |
 | 飞腾   | phytium platform     | [@mao-hongbo](https://gitee.com/mao-hongbo) [@shuaijiakun](https://atomgit.com/shuaijiakun)  |
 | 树莓派 | raspberrypi-kernel                                | [@woqidaideshi](https://atomgit.com/woqidaideshi) |
-| ACPI   | drivers/acpi/                                                | [@hanjun_guo](https://gitee.com/hanjun_guo) [@stkid](https://atomgit.com/stkid) |
+| ACPI   | drivers/acpi/                                                | [@hanjunguo](https://atomgit.com/hanjunguo) [@stkid](https://atomgit.com/stkid) |
 | MPAM   | arch/arm64/kernel/mpam\*<br/>drivers/acpi/arm64/mpam\*<br/>fs/resctrl\*<br/>include/linux/resctrl\*<br/>drivers/platform/mpam | [@henryze](https://atomgit.com/henryze)   |
 | risc-v | arch/risc-v/\*                                                | [@whoisxxx](https://atomgit.com/whoisxxx)  [@xingmz](https://atomgit.com/xingmz1)    |
 | smmu   | drivers/iommu/arm/arm-smmu\*<br />drivers/iommu/io-pgtable-arm\*   | [@chen-jun-hw](https://atomgit.com/chen-jun-hw)       |
-| arm    | arch/arm/\*<br/>arch/arm64/\*    | [@chris_zjh](https://atomgit.com/chriszjh) |
-| powerpc | arch/powerpc/\*    | [@chris_zjh](https://atomgit.com/chriszjh) |
+| arm    | arch/arm/\*<br/>arch/arm64/\*    | [@chris_zjh](https://atomgit.com/chriszjh) [@zouyipeng](https://atomgit.com/zouyipeng) |
+| powerpc | arch/powerpc/\*    | [@chris_zjh](https://atomgit.com/chriszjh) [@zouyipeng](https://atomgit.com/zouyipeng) |
 | amd    | amd platform        | [@kile2009](https://atomgit.com/kile2009) [@sming56_admin](https://atomgit.com/sming56_admin) |
 | 申威   | arch/sw64/\*       | [@guzitao](https://atomgit.com/guzitao) |
 
@@ -70,13 +70,13 @@
 | nvme      | drivers/nvme/host/<br/>include/linux/nvme.h<br/>include/uapi/linux/nvme_ioctl.h | [@htforge](https://atomgit.com/htforge) |
 | bcache    | drivers/md/bcache/ | [@Coly Li](https://gitee.com/colyli) |
 | enfs      | /fs/nfs/enfs       | [@mingqian218472](https://atomgit.com/mingqian218472) |
-| mfs      | fs/mfs<br/>tools/mfs       | [@hongbo-lee](https://atomgit.com/hongbo-lee) |
+| mfs      | fs/mfs<br/>tools/mfs       | [@hongbo-lee](https://atomgit.com/hongbo-lee) [@yubo-liu1](https://atomgit.com/yubo-liu1) |
 
 ## network & net drivers
 
 | 模块<img width=40/>   | 文件<img width=300/>                       | Committer(s) <img width=200/>                     |
 | -------- | ----------------------------------- | -------------- |
-| network  | net/                                | [@yuehaibing](https://gitee.com/yuehaibing)       |
+| network  | net/                                | [@yuehaibing_planb](https://atomgit.com/yuehaibing_planb)       |
 | hns/hns3 | drivers/net/ethernet/hisilicon/hns\* | [@lingmingqiang](https://gitee.com/lingmingqiang) |
 | txgbe    | drivers/net/ethernet/netswift/txgbe | [@zhenpengzheng](https://gitee.com/zhenpengzheng) |
 | hinic    | drivers/net/ethernet/huawei/hinic   | [@chiqijun](https://atomgit.com/chiqijun)           |
@@ -114,7 +114,7 @@
 | mpt3sas  | drivers/scsi/mpt3sas        | [@yonghu_4dc5](https://atomgit.com/yonghu_4dc5) |
 | motorcomm | drivers/net/ethernet/motorcomm/<br/>drivers/net/phy/motorcomm.c| [@Frank_Sae](https://atomgit.com/Frank_Sae) |
 | pci | drivers/virtio       | [@wenzhiwei11](https://atomgit.com/wenzhiwei11) |
-| zcopy   | drivers/misc/zcopy    | [@mingrui-liu](https://atomgit.com/mingrui-liu) |
+| zcopy   | drivers/misc/zcopy    | [@mingrui-liu](https://atomgit.com/mingrui-liu) [@yubo-liu1](https://atomgit.com/yubo-liu1) |
 
 ## tools
 | 模块<img width=40/>   | 文件<img width=300/>                       | Committer(s) <img width=200/>                     |
@@ -143,6 +143,7 @@
 | sentry     | drivers/ub/sentry | [@jiayi0118](https://atomgit.com/jiayi0118) |
 | ubdevshm     | drivers/ub/ubdevshm | [@Tankll2021](https://atomgit.com/Tankll2021) |
 | ubmempfd     | drivers/ub/ubmempfd | [@Tankll2021](https://atomgit.com/Tankll2021) |
+| urma     | drivers/ub/urma<br/>include/ub/urma | [@eingesch](https://atomgit.com/eingesch) [@wanghang73](https://atomgit.com/wanghang73) |
 | ub       | drivers/ub                                                   | [@mufengyan](https://atomgit.com/mufengyan)     [@yunshenglin](https://atomgit.com/linyunsheng) |
 
 ## Notes
