@@ -25,3 +25,4 @@ Note: The Charter of this SIG follows the convention described in the openEuler 
 - ray-adapter - [https://atomgit.com/openeuler/ray-adapter](https://atomgit.com/openeuler/ray-adapter)
 - spring-adapter - [https://atomgit.com/openeuler/spring-adapter](https://atomgit.com/openeuler/spring-adapter)
 - yuanrong-agentruntime - [https://atomgit.com/openeuler/yuanrong-agentruntime](https://atomgit.com/openeuler/yuanrong-agentruntime)
+- yuanrong-sandbox-sdk - [https://atomgit.com/openeuler/yuanrong-sandbox-sdk](https://atomgit.com/openeuler/yuanrong-sandbox-sdk)
