@@ -275,13 +275,13 @@ def check_7(oe_repos, srcoe_repos):
     errors_found = 0
     error_msg = "Repo name allows only letters, numbers, or an underscore (_), dash (-),"\
                 " and period (.). It must start with a letter or a number, and its length " \
-                "is 2 to 200 characters."
+                "is 1 to 100 characters."
 
     for repos in oe_repos, srcoe_repos:
         for repo in repos:
             repo_name = repo["name"].lower()
-            if len(repo_name) < 2 or len(repo_name) > 200:
-                print("ERROR! {name} too long or too short".format(name=repo_name))
+            if len(repo_name) > 100:
+                print("ERROR! {name} too long".format(name=repo_name))
                 errors_found += 1
             else:
                 new_repo_name = repo_name.replace("_", "").replace("-", "").replace(".", "")
