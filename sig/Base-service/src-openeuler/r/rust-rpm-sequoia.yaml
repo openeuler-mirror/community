@@ -1,0 +1,7 @@
+name: rust-rpm-sequoia
+description: An implementation of the RPM PGP interface using Sequoia.
+type: public
+upstream: https://crates.io/crates/rpm-sequoia
+branches:
+  - name: master
+    type: protected
