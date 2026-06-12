@@ -7,28 +7,41 @@
 - 社区 LFS 服务的域名为 https://artlfs.openeuler.openatom.cn
   - 目前暂未提供 Web 访问，浏览器打开可能显示 `{"message":"Success","data":"healthCheck success"}`
 
+> 初次使用 Git LFS? 请注意 Git LFS 工具安装完成后您还需要执行一次 `git lfs install` 才能使之全局生效
+
 ### 仓库配置
 
-- 为 src-openEuler/ 及 openEuler/ 的仓库（下称 openEuler 社区仓库）配置使用 openEuler 社区 LFS 服务
+> 注意：仓库根路径下应当已经存在 `.lfsconfig` 文件且 URL 中包含 `src-openEuler` 或 `openEuler`，**贡献时请不要随意修改这个配置文件**
 
-  - 在涉及的每个仓库根路径下添加 `.lfsconfig` 配置文件使 Git LFS 向 `https://artlfs.openeuler.openatom.cn` 提交和获取文件
+> 如果仓库根路径下尚不存在 `.lfsconfig` 文件，请跳到 `为尚未使用社区 LFS 服务的官方仓库初次配置启用` 部分
 
-    > 此处 {owner}/{repo}为启用服务的仓库名称
+#### 向已启用社区 LFS 服务的官方仓库提交贡献
+
+- 手动修改本地 fork 仓库 LFS URL 配置：贡献者将自己 fork 的仓库 clone 到本地后，应当在仓库对应文件夹内手动使用如下命令修改这一本地仓库的 LFS URL 配置，使本地 Git LFS 向 `https://artlfs.openeuler.openatom.cn` **贡献者 fork 仓库对应目录**提交和获取文件
+ 
+  > `{atomgit_username}/{repo}` 需替换为实际 fork 后的仓库名称，此配置仅对本地这一仓库生效，优先级高于 `.lfsconfig`
+
+  ```
+  $ git config --local lfs.url https://artlfs.openeuler.openatom.cn/{atomgit_username}/{repo}
+  ```
+
+- 如上配置后即可照常修改提交，若修改涉及 LFS 管理的文件则 git push 时需要输入 artlfs 用户名与口令，具体请参考后文 `权限认证` 部分
+
+#### 为尚未使用社区 LFS 服务的官方仓库初次配置启用
+
+  - 添加初始 LFS 配置：在涉及的每个仓库根路径下添加 `.lfsconfig` 配置文件使 Git LFS 默认情况下向 `https://artlfs.openeuler.openatom.cn` **官方仓库对应目录**提交和获取文件
+
+    > 此处 `{org}/{repo}` 为启用服务的仓库名称，`src-openEuler/` 下仓库需改为 `src-openEuler/{repo}`，`openEuler/` 下仓库需改为 `openEuler/{repo}`
 
     ```
     [lfs]
-        url = https://artlfs.openeuler.openatom.cn/{owner}/{repo}
+        url = https://artlfs.openeuler.openatom.cn/{org}/{repo}
     ```
+  - 手动修改本地 fork 仓库 LFS URL 配置：添加初始 `.lfsconfig` 配置后，请参照 `向已启用社区 LFS 服务的官方仓库提交贡献` 部分修改本地 fork 仓库 LFS URL 配置，将本地 Git LFS 配置为向 `https://artlfs.openeuler.openatom.cn` **贡献者 fork 仓库对应目录**提交和获取文件
 
-  - 个人 fork 已启用社区 LFS 服务的 openEuler 社区仓库（或为 openEuler 社区仓库添加社区 LFS 配置时）
+  - 如上配置后即可照常修改提交，若修改涉及 LFS 管理的文件则 git push 时需要输入 artlfs 用户名与口令，具体请参考后文 `权限认证` 部分
 
-    - 需在本地仓库内手动使用如下命令修改 LFS 配置
-    
-    > {owner}/{repo}需替换为实际fork后的仓库名称
-
-  ```
-  $ git config --local lfs.url https://artlfs.openeuler.openatom.cn/{owner}/{repo}
-  ```
+  - 添加 `.lfsconfig` 对应 PR 合入后，初次配置启用流程即告完成
 
 ### 权限认证
 
@@ -39,7 +52,7 @@
   Password for 'https://atomgit_username@artlfs.openeuler.openatom.cn': atomgit_token
   ```
 
-    - 用户名：输入您的 AtomGit 用户名 (如 @atomgit_username 中的 atomgit_username )
+    - 用户名：输入您的 AtomGit 用户名 (如 @atomgit_username 中的 atomgit_username)
     - 口令：输入您的 AtomGit 访问令牌（常称为 PAT）
     > 未创建过访问令牌的用户可移步 AtomGit 网站“个人设置”页面左侧“安全设置”栏点击“访问令牌”，并在右上角点击“新建访问令牌”进行创建。
 
