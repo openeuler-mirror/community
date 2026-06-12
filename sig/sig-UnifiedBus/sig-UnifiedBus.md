@@ -28,5 +28,6 @@ Note: The Charter of this SIG follows the convention described in the openEuler 
 - ummu - [https://gitee.com/openeuler/ummu](https://gitee.com/openeuler/ummu)
 - ub-pkg-manager - [https://atomgit.com/openeuler/ub-pkg-manager](https://atomgit.com/openeuler/ub-pkg-manager)
 - LinQuickRec - [https://atomgit.com/openeuler/LinQuickRec](https://atomgit.com/openeuler/LinQuickRec)
+- ublink - [https://atomgit.com/openeuler/ublink](https://atomgit.com/openeuler/ublink)
 
 
