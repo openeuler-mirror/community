@@ -15,4 +15,7 @@ branches:
 - name: openEuler-24.03-LTS_SP1
   type: protected
   create_from: 6.6.0-145.0.10
+- name: openEuler-24.03-LTS-SP4
+  type: protected
+  create_from: 6.6.0-159.0.0
 type: public
