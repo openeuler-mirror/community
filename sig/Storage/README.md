@@ -16,6 +16,7 @@
 - 苏伟锋[@swf504](https://gitee.com/swf504)
 - 刘波[@liubo254](https://gitee.com/liubo254)
 - 寇文奇[@kouwq](https://gitee.com/kouwq)
+- 张健[@mszjaas](https://gitee.com/mszjaas)
 
 ### Committer列表
 
@@ -24,7 +25,6 @@
 - 李霄铿[@lixiaokeng](https://gitee.com/lixiaokeng)
 - 刘新良[@xin3liang](https://gitee.com/xin3liang)(e2fsprogs)
 - 杨晓亮[@ceph_yang](https://gitee.com/ceph_yang)
-- 张健[@mszjaas](https://gitee.com/mszjaas)
 - 王志强[@foolstrong](https://gitee.com/foolstrong)
 
 ### Hall of Fame
