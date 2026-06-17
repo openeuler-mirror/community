@@ -28,6 +28,7 @@
 - ummu - [https://gitee.com/openeuler/ummu](https://gitee.com/openeuler/ummu)
 - ub-pkg-manager - [https://atomgit.com/openeuler/ub-pkg-manager](https://atomgit.com/openeuler/ub-pkg-manager)
 - LinQuickRec - [https://atomgit.com/openeuler/LinQuickRec](https://atomgit.com/openeuler/LinQuickRec)
+- ublinkdt - [https://atomgit.com/openeuler/ublinkdt](https://atomgit.com/openeuler/ublinkdt)
 
  ### 跨领域和面向外部的流程
  - 
