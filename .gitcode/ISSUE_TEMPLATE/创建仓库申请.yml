@@ -72,6 +72,15 @@ body:
       required: true
 
   - type: input
+    id: committer_name
+    attributes:
+      label: Committer真实姓名
+      description: 如果选择"是"申请成为committer，请填写您的真实姓名，仅用于配置committer信息
+      placeholder: "例如: 张三"
+    validations:
+      required: false
+
+  - type: input
     id: branch_1
     attributes:
       label: 创建分支 1
