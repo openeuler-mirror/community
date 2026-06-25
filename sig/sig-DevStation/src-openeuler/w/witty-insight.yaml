@@ -1,0 +1,7 @@
+name: witty-insight
+description: witty-insight 的 openEuler 制品仓，用于维护 src-openeuler/witty-insight。其上游仓库为 https://gitcode.com/openeuler/witty-insight。witty-insight 是一个基于 eBPF 的可观测性框架，用于追踪 agent 执行流水线。
+type: public
+upstream: https://gitcode.com/openeuler/witty-insight
+branches:
+  - name: master
+    type: protected
