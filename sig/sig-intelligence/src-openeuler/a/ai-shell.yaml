@@ -1,0 +1,10 @@
+name: ai-shell
+description: >-
+  RPM packaging of ai-shell - natural-language CLI assistant written in
+  C, supporting Ollama / GitHub Copilot / Codex backends and an --agent
+  mode that drives hearthd as a reference HEARTH client.
+upstream: https://github.com/hearthworks/ai-shell
+branches:
+- name: master
+  type: protected
+type: public
