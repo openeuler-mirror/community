@@ -35,6 +35,11 @@ maintainers:
   name: Wenqi Kou
   orgnization: KylinSoft
   email: kouwenqi@kylinos.cn
+- gitee_id: mszjaas
+  atomgit_id: mszjaas
+  name: Jian Zhang
+  orgnization: Huawei
+  email: zhangjian496@huawei.com
 repositories:
 - repo:
   - src-openeuler/system-storage-manager
@@ -103,6 +108,7 @@ repositories:
   - src-openeuler/hsak
   - src-openeuler/dump
   - src-openeuler/libserverframe
+  - openeuler/Storage-docs
 - repo:
   - src-openeuler/e2fsprogs
   committers:
@@ -112,11 +118,6 @@ repositories:
     name: Xinliang Liu
     organization: Linaro
     email: xinliang.liu@linaro.org
-  - gitee_id: mszjaas
-    atomgit_id: mszjaas
-    name: zhangjian
-    organization: Huawei
-    email: zhangjian496@huawei.com
 - repo: # For storage REDF
   - openeuler/nvme-snsd
   - src-openeuler/nvme-snsd
@@ -181,21 +182,8 @@ repositories:
     organization: KylinSoft
     email: cenhuilin@kylinos.cn
 - repo:
-  - openeuler/Storage-docs
-  committers:
-  - gitee_id: mszjaas
-    atomgit_id: mszjaas
-    name: zhangjian
-    organization: Huawei
-    email: zhangjian496@huawei.com
-- repo:
   - src-openeuler/nfs-utils
   committers:
-  - gitee_id: mszjaas
-    atomgit_id: mszjaas
-    name: zhangjian
-    organization: Huawei
-    email: zhangjian496@huawei.com
   - gitee_id: zhangyq_ORZ
     atomgit_id: zhangyq_ORZ
     name: Yaqi Zhang
@@ -204,11 +192,6 @@ repositories:
 - repo:
   - src-openeuler/xfsprogs
   committers:
-  - gitee_id: mszjaas
-    atomgit_id: mszjaas
-    name: zhangjian
-    organization: Huawei
-    email: zhangjian496@huawei.com
   - gitee_id: liuh0329
     atomgit_id: liuh0329
     name: Huan Liu
