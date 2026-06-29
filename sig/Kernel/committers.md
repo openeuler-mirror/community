@@ -5,7 +5,7 @@
 | 模块<img width=40/>   | 文件<img width=300/>                       | Committer(s) <img width=200/>                     |
 | ------ | -------------------------- | --------------------------------- |
 | kernel | kernel/\*                   | [@xiexiuqi](https://atomgit.com/oekernel) [@zqiao216](https://atomgit.com/zqiao216) |
-| mm     | mm/                        | [@wkf](https://atomgit.com/wkfxxx)                           |
+| mm     | mm/                        | [@wkf](https://atomgit.com/wkfxxx) [@mawupeng](https://atomgit.com/mawupeng) [@sun_nanyong](https://atomgit.com/sun_nanyong)          |
 | kvm    | Documentation/virt/kvm/<br/>include/asm-generic/kvm\*<br/>include/kvm/<br/>include/linux/kvm\*<br/>include/trace/events/kvm.h<br/>include/uapi/asm-generic/kvm\*<br/>include/uapi/linux/kvm\*<br/>tools/kvm/<br/>tools/testing/selftests/kvm/<br/>virt/kvm/<br/>arch/\*/include/asm/kvm\*<br/>arch/\*/include/uapi/asm/kvm\*<br/>arch/\*/kvm/ | [@yuzenghui](https://atomgit.com/yuzenghui1) [@kevinzhu1](https://atomgit.com/kevinzhu1)             |
 | bpf    | kernel/bpf/<br/>net/bpf/   | [@xukuohai](https://atomgit.com/xukuohai) [@yeweihua](https://atomgit.com/yeweihua999) |
 | cgroup | kernel/cgroup              | [@lujialin2](https://atomgit.com/lujialin2)                        |
@@ -15,7 +15,9 @@
 | debugging | kernel/printk<br/>/kernel/trace<br/>kernel/kexec.c<br/>kernel/kexec_core.c<br/>kernel/watchdog.c<br/>kernel/kernel/watchdog_hld.c | [@yeweihua](https://atomgit.com/yeweihua999) |
 | livepatch | kernel/livepatch        | [@xukuohai](https://atomgit.com/xukuohai) [@yeweihua](https://atomgit.com/yeweihua999) |
 | sched_ext | include/linux/sched/ext.h<br/>kernel/sched/ext\*<br/>tools/sched_ext<br/>tools/testing/selftests/sched_ext | [@cheliequan](https://atomgit.com/jackknight) [@zichengqu](https://atomgit.com/zichengqu) |
-
+| rcu | include/linux/rcu\*<br/>include/linux/srcu\*<br/>kernel/rcu | [@LiuYongQiang0816](https://atomgit.com/LiuYongQiang0816) [@stkid](https://atomgit.com/stkid) |
+| locking | kernel/locking<br/>kernel/futex | [@LiuYongQiang0816](https://atomgit.com/LiuYongQiang0816) [@stkid](https://atomgit.com/stkid) |
+| pci | drivers/pci<br/>drivers/acpi/pci\*<br/>arch/arm64/kernel/pci.c | [@LiuYongQiang0816](https://atomgit.com/LiuYongQiang0816) [@stkid](https://atomgit.com/stkid) |
 
 ## arch
 
@@ -23,7 +25,7 @@
 | ------ | ------------------------------------------------------------ | ------------ |
 | 鲲鹏   | kunpeng platform  | [@alvin](https://gitee.com/alvin-ling) |
 | intel  | intel platform    | [@x56Jason](https://atomgit.com/zeng_zhaorong) [@juntianlinux](https://atomgit.com/juntianlinux) |
-| 龙芯   | arch/loongarch/<br/>tools/arch/loongarch/<br/>drivers/gpu/drm/loongson/<br/>tools/perf/arch/loongarch/<br/>drivers/irqchip/irq-loongson-\*<br/>drivers/irqchip/irq-loongarch-\*<br/>drivers/spi/spi-loongson.c<br/>drivers/char/ipmi/btlock.h<br/>drivers/char/ipmi/ipmi_si.h<br/>drivers/char/ipmi/ipmi_si_intf.c<br/>drivers/char/ipmi/ipmi_si_ls2k500.c<br/>drivers/char/ipmi/kcs_bmc_ls2k500.h<br/>drivers/gpio/gpio-loongson.c<br/>drivers/i2c/busses/i2c-loongson.c<br/>drivers/pci/controller/pci-loongson.c<br/>drivers/input/serio/i8042-loongsonio.h<br/>drivers/cpufreq/loongson3-acpi-cpufreq.c<br/>drivers/firmware/efi/libstub/loongarch-stub.c<br/>drivers/net/ethernet/stmicro/stmmac/dwmac-loongson.c<br/>drivers/platform/loongarch/loongson_generic_laptop.c | [@lixuefeng-loongson](https://gitee.com/lixuefeng-loongson) [@maobibo](https://gitee.com/maobibo) [@robinorg](https://atomgit.com/robinorg) | 
+| 龙芯   | arch/loongarch/<br/>tools/arch/loongarch/<br/>drivers/gpu/drm/loongson/<br/>tools/perf/arch/loongarch/<br/>drivers/irqchip/irq-loongson-\*<br/>drivers/irqchip/irq-loongarch-\*<br/>drivers/spi/spi-loongson.c<br/>drivers/char/ipmi/btlock.h<br/>drivers/char/ipmi/ipmi_si.h<br/>drivers/char/ipmi/ipmi_si_intf.c<br/>drivers/char/ipmi/ipmi_si_ls2k500.c<br/>drivers/char/ipmi/kcs_bmc_ls2k500.h<br/>drivers/gpio/gpio-loongson.c<br/>drivers/i2c/busses/i2c-loongson.c<br/>drivers/pci/controller/pci-loongson.c<br/>drivers/input/serio/i8042-loongsonio.h<br/>drivers/cpufreq/loongson3-acpi-cpufreq.c<br/>drivers/firmware/efi/libstub/loongarch-stub.c<br/>drivers/net/ethernet/stmicro/stmmac/dwmac-loongson.c<br/>drivers/platform/loongarch/loongson_generic_laptop.c | [@lixuefeng-loongson](https://gitee.com/lixuefeng-loongson) [@maobibo](https://atomgit.com/bibo_mao) [@robinorg](https://atomgit.com/robinorg) |
 | 兆芯   | zhaoxin platform    | [@leoliu-oc](https://atomgit.com/leoliu-oc) |
 | 海光   | hygon platform      | [@hanliyang](https://atomgit.com/hanliyang) [@allen-shi](https://atomgit.com/allen-shi) |
 | 飞腾   | phytium platform     | [@mao-hongbo](https://gitee.com/mao-hongbo) [@shuaijiakun](https://atomgit.com/shuaijiakun)  |
@@ -41,7 +43,7 @@
 
 | 模块<img width=40/>   | 文件<img width=300/>                       | Committer(s) <img width=200/>                     |
 | --------- | ---- | ------------ |
-| SoC PCIe  | drivers/hwtracing/ptt<br/>drivers/pci<br/>drivers/acpi/pci\*<br/>arch/arm64/kernel/pci.c | [@Young1c](https://gitee.com/Young1c) |
+| SoC PCIe  | drivers/hwtracing/ptt | [@Young1c](https://gitee.com/Young1c) |
 | SoC IP    | drivers/i2c/busses/i2c-hisi.c<br/>drivers/spi/spi-hisi-\*<br/>drivers/gpio/gpio-hisi.c | [@Young1c](https://gitee.com/Young1c) |
 
 
@@ -113,7 +115,7 @@
 | qla2xxx  | drivers/scsi/qola2xxx       | [@yonghu_4dc5](https://atomgit.com/yonghu_4dc5) |
 | mpt3sas  | drivers/scsi/mpt3sas        | [@yonghu_4dc5](https://atomgit.com/yonghu_4dc5) |
 | motorcomm | drivers/net/ethernet/motorcomm/<br/>drivers/net/phy/motorcomm.c| [@Frank_Sae](https://atomgit.com/Frank_Sae) |
-| pci | drivers/virtio       | [@wenzhiwei11](https://atomgit.com/wenzhiwei11) |
+| virtio | drivers/virtio       | [@wenzhiwei11](https://atomgit.com/wenzhiwei11) |
 | zcopy   | drivers/misc/zcopy    | [@mingrui-liu](https://atomgit.com/mingrui-liu) [@yubo-liu1](https://atomgit.com/yubo-liu1) |
 
 ## tools
