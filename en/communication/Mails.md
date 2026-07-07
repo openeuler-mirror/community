@@ -12,8 +12,8 @@ There are two ways to join the list.
 > 2) Provide your email address, name and click the ```Subscribe``` button
 > 3) Login your email and reply the confirm email from @openeuler.org directly
 
-when you recieve the ```Welcome``` mail form openeuler.org means you are already in the list now.
-Note: if you don't recieve the welcome mail, please keep the title as the same as confirmming email and reply again.
+when you receive the ```Welcome``` mail form openeuler.org means you are already in the list now.
+Note: if you don't receive the welcome mail, please keep the title as the same as confirmming email and reply again.
 
 
 #### 2. Email
@@ -33,7 +33,7 @@ content: NA
 
 There are two kinds of list the Announce and Discussion, for Discussion,there is nothing difference between sending email to list and to other private address, just send it as normal,adding a prefix with channel name in brackets([dev]) into subject would be a good practise but not mandate. however, Announce only be used to publish message or notice, it won't accept any mail delivery.  
 
-note: if you cann't recieve any mail in income box, please firstly check your spam box. 
+note: if you can't receive any mail in income box, please firstly check your spam box.
 
 ### Unsubscribe Mail List
 
@@ -42,7 +42,7 @@ If you want to unsubscribe a joined mail list, please take the following steps:
 > 1) Send an email to the ```unsubscribe address``` (list addreess subfix with ```-leave```) with ```unsubscribe``` subject.
 > 2) Reply the confirm email without any modification.
 
-You have been out of the list after recieving the unsubcribe email.
+You have been out of the list after receiving the unsubscribe email.
 
 
 ### Get Help 
