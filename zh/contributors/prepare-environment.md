@@ -1,31 +1,61 @@
 # 开发环境准备
 
-
-
 ## 前提条件<a name="section79608213487"></a>
 
 硬件：Arm64位或x86\_64位架构的物理机或虚拟机。
 
+>![](icon/icon-note.gif) **说明：**
+>本文档以 openEuler 24.03 LTS SP4 为例。如需其他版本，可访问 [openEuler 下载页面](https://www.openeuler.org/zh/download/) 选择对应版本，将文中版本号替换为实际使用的版本即可。目前可选的 LTS 版本包括：
+>- [openEuler 24.03 LTS SP4](https://www.openeuler.org/zh/download/?version=openEuler%2024.03%20LTS%20SP4)（推荐）
+>- [openEuler 24.03 LTS SP3](https://www.openeuler.org/zh/download/?version=openEuler%2024.03%20LTS%20SP3)
+>- [openEuler 24.03 LTS](https://www.openeuler.org/zh/download/?version=openEuler%2024.03%20LTS)
+>- [openEuler 22.03 LTS SP5](https://www.openeuler.org/zh/download/?version=openEuler%2022.03%20LTS%20SP5)
+>- [openEuler 22.03 LTS](https://www.openeuler.org/zh/download/?version=openEuler%2022.03%20LTS)
+
 ## 登录开发环境<a name="section183361235162117"></a>
 
 -   自有环境
-    1.  下载openEuler操作系统并进行安装。具体安装操作系统方法请参考[openEuler 20.03 LTS 安装指南](https://openeuler.org/zh/docs/20.03_LTS/docs/Installation/installation.html)。
+    1.  下载openEuler操作系统并进行安装。具体安装操作系统方法请参考[openEuler 24.03 LTS SP4 安装指南](https://docs.openeuler.org/zh/docs/24.03_LTS_SP4/server/installation_upgrade/installation/installation_preparations.html)。
 
         >![](icon/icon-note.gif) **说明：**   
         >仅在未安装openEuler操作系统时才需要执行本步骤。  
 
     2.  使用安装时设置的用户名和密码登录操作系统。
 
--   鹏城生态开发环境
-    1.  在[community-issue](https://gitee.com/openeuler/community-issue/issues)创建申请VM的issue。
-    2.  登录[鹏城生态开发者云](https://dw.pcl.ac.cn/cloud/login)网站，按照提示正式申请VM。
-    
-    详细信息请参考博客文章[Apply for VMs from Peng Cheng Laboratory](https://www.openeuler.org/zh/blog/fred_li/2020-03-25-apply-for-vm-from-pcl.html)。
+-   Docker容器环境
 
+    使用Docker容器可以快速获得一个openEuler开发环境，无需安装操作系统。
 
+    1.  拉取openEuler官方镜像。
+
+        ```
+        # docker pull openeuler/openeuler:24.03-lts-sp4
+        ```
+
+    2.  启动容器并进入bash。
+
+        ```
+        # docker run -it --name openeuler-dev openeuler/openeuler:24.03-lts-sp4 /bin/bash
+        ```
+
+        >![](icon/icon-note.gif) **说明：**
+        >- `--name openeuler-dev` 为容器指定一个名称，方便后续操作。
+        >- 如需在容器中使用 systemd，可添加 `--privileged` 参数，并将启动命令替换为 `/usr/sbin/init`。
+        >- 如需持久化数据，可通过 `-v /host/path:/container/path` 挂载目录。
+        >- 更多 openEuler 镜像版本可访问 [openEuler Docker Hub](https://hub.docker.com/r/openeuler/openeuler) 查看。
+
+    3.  后续重新进入容器。
+
+        ```
+        # docker start openeuler-dev
+        # docker exec -it openeuler-dev /bin/bash
+        ```
 
 
 ## 配置repo源<a name="section141211033102420"></a>
+
+>![](icon/icon-note.gif) **说明：**
+>使用Docker官方镜像时，镜像已预配置好repo源，通常无需手动配置。物理机/虚拟机安装场景下，可按以下方式配置。
 
 可以通过直接获取repo源文件的方式配置repo源或通过挂载ISO的方式配置repo源。
 
@@ -38,7 +68,7 @@
 
     ```
     # cd /etc/pki/rpm-gpg
-    # wget https://repo.openeuler.org/openEuler-20.03-LTS/OS/aarch64/RPM-GPG-KEY-openEuler
+    # wget https://repo.openeuler.org/openEuler-24.03-LTS-SP4/OS/aarch64/RPM-GPG-KEY-openEuler
     ```
 
 2.  进入到yum源目录。
@@ -59,7 +89,7 @@
 
     name=basiclocal
 
-    baseurl=http://repo.openeuler.org/openEuler-20.03-LTS/OS/aarch64/
+    baseurl=http://repo.openeuler.org/openEuler-24.03-LTS-SP4/OS/aarch64/
 
     enabled=1
 
@@ -71,7 +101,7 @@
 
     name=srclocal
 
-    baseurl=http://repo.openeuler.org/openEuler-20.03-LTS/source/
+    baseurl=http://repo.openeuler.org/openEuler-24.03-LTS-SP4/source/
 
     enabled=1
 
@@ -83,7 +113,7 @@
 
     name=everythinglocal
 
-    baseurl=http://repo.openeuler.org/openEuler-20.03-LTS/everything/aarch64/
+    baseurl=http://repo.openeuler.org/openEuler-24.03-LTS-SP4/everything/aarch64/
 
     enabled=1
 
@@ -106,20 +136,20 @@
         ```
 
     2.  登录openEuler社区，网址为：[https://openeuler.org](https://openeuler.org)。
-    3.  单击“下载”，进入下载页面。
-    4.  单击“获取ISO：”后面的“Link”，显示版本列表。
-    5.  选择需要下载的版本，如openEuler 20.03 LTS，则单击“openEuler-20.03-LTS”，进入下载列表。
-    6.  单击“ISO”，进入ISO下载列表。
+    3.  单击"下载"，进入下载页面。
+    4.  单击"获取ISO："后面的"Link"，显示版本列表。
+    5.  选择需要下载的版本，如openEuler 24.03 LTS SP4，则单击"openEuler-24.03-LTS-SP4"，进入下载列表。
+    6.  单击"ISO"，进入ISO下载列表。
         -   aarch64：AArch64架构的ISO。
         -   x86\_64：x86\_64架构的ISO。
         -   source：openEuler源码ISO。
 
-    7.  单击“aarch64”，进入AArch64架构的ISO下载列表。
-    8.  <a name="li45321952115717"></a>右键单击“openEuler-20.03-LTS-aarch64-dvd.iso”，单击“复制链接地址”，将openEuler基础ISO地址记录好。
-    9.  <a name="li98171862002"></a>右键单击“openEuler-20.03-LTS-everything-aarch64-dvd.iso”，单击“复制链接地址”，将openEuler全量ISO地址记录好。
-    10. 返回到“ISO”，单击“source”。
-    11. <a name="li121355504292"></a>右键单击“openEuler-20.03-LTS-source-dvd.iso”，单击“复制链接地址”，将openEuler源码ISO地址记录好。
-    12. 使用**wget**命令远程下载ISO文件到开发环境，命令中的  _ipaddriso\_ basiceverything_  、  _ipaddriso\_everything_  和  _ipaddriso\_source_  分别为[1.8](#li45321952115717)、[1.9](#li98171862002)和[1.11](#li121355504292)中记录的地址。
+    7.  单击"aarch64"，进入AArch64架构的ISO下载列表。
+    8.  <a name="li45321952115717"></a>右键单击"openEuler-24.03-LTS-SP4-aarch64-dvd.iso"，单击"复制链接地址"，将openEuler基础ISO地址记录好。
+    9.  <a name="li98171862002"></a>右键单击"openEuler-24.03-LTS-SP4-everything-aarch64-dvd.iso"，单击"复制链接地址"，将openEuler全量ISO地址记录好。
+    10. 返回到"ISO"，单击"source"。
+    11. <a name="li121355504292"></a>右键单击"openEuler-24.03-LTS-SP4-source-dvd.iso"，单击"复制链接地址"，将openEuler源码ISO地址记录好。
+    12. 使用**wget**命令远程下载ISO文件到开发环境，命令中的  _ipaddriso\_ basic_  、  _ipaddriso\_everything_  和  _ipaddriso\_source_  分别为[1.8](#li45321952115717)、[1.9](#li98171862002)和[1.11](#li121355504292)中记录的地址。
 
         ```
         # cd /home/basiciso
@@ -142,9 +172,9 @@
     2.  执行**mount**命令，将iso分别挂载到挂载点。
 
         ```
-        # mount /home/basiciso /mnt/basicdvd
-        # mount /home/everythingiso /mnt/everythingdvd
-        # mount /home/srciso /mnt/srcdvd
+        # mount /home/basiciso/openEuler-24.03-LTS-SP4-aarch64-dvd.iso /mnt/basicdvd
+        # mount /home/everythingiso/openEuler-24.03-LTS-SP4-everything-aarch64-dvd.iso /mnt/everythingdvd
+        # mount /home/srciso/openEuler-24.03-LTS-SP4-source-dvd.iso /mnt/srcdvd
         ```
 
     3.  执行**df -h**命令，查看挂载是否成功。
@@ -169,7 +199,7 @@
         ```
 
         编辑local.repo文件的内容如下：
-        
+
         \[basicisolocal\]
 
         name=basicisolocal
@@ -210,7 +240,7 @@
     # dnf list installed | grep rpm-build
     ```
 
-    查看命令打印信息，若打印信息中包含“rpm-build”，表示该软件已经安装了，则不需要再安装。若无任何打印信息，则表示该软件未安装。
+    查看命令打印信息，若打印信息中包含"rpm-build"，表示该软件已经安装了，则不需要再安装。若无任何打印信息，则表示该软件未安装。
 
 2.  清除缓存。
 
