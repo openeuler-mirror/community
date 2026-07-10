@@ -337,7 +337,6 @@ repositories:
   - src-openeuler/PilotGo
   - openeuler/PilotGo-plugins
   - openeuler/PilotGo-web
-  - openeuler/PilotGo-plugin-redis
   - openeuler/PilotGo-plugin-mysql
   - openeuler/PilotGo-plugin-gala-ops
   - openeuler/PilotGo-plugin-container
@@ -352,12 +351,12 @@ repositories:
   - src-openeuler/PilotGo-plugin-a-tune
   - openeuler/PilotGo-plugin-syscare
   - src-openeuler/PilotGo-plugin-syscare
-  - openeuler/PilotGo-plugin-ELK
   - openeuler/PilotGo-plugin-logs
   - src-openeuler/PilotGo-plugin-logs
   - openeuler/PilotGo-plugin-llmops
   - openeuler/os-compat-analyzer
   - src-openeuler/os-compat-analyzer
+  - openeuler/PilotGo-plugin-MFD
   committers:
   - gitee_id: jxy_git
     atomgit_id: jxy_git
@@ -464,14 +463,6 @@ repositories:
     name: HongLiang Tang
     organization: sangfor
     email: tanghongliang@sangfor.com.cn
-- repo:
-  - openeuler/PilotGo-plugin-MFD
-  committers:
-  - gitee_id: kylin-qiaojijun
-    atomgit_id: kylin-qiaojijun
-    name: Qiao Jijun
-    organization: KylinSoft
-    email: qiaojijun@kylinos.cn
 - repo:
   - openeuler/oeDeploy
   - src-openeuler/oeDeploy
