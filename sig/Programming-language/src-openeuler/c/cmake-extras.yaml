@@ -1,5 +1,5 @@
 name: cmake-extras
-description: 'A collection of add-ons for the CMake build tool.'
+description: A collection of add-ons for the CMake build tool.
 upstream:
   homepage: https://gitlab.com/ubports/development/core/cmake-extras
   regex: (\d+\.\d+)
@@ -7,4 +7,7 @@ upstream:
 branches:
 - name: master
   type: protected
+- name: openEuler-26.09
+  type: protected
+  create_from: master
 type: public

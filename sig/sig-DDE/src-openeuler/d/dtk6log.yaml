@@ -1,7 +1,11 @@
 name: dtk6log
-description: Simple, convinient and thread safe logger for Qt-based C++ apps. This package contains the shared libraries. 
-upstream: https://github.com/linuxdeepin/dtk6log 
+description: Simple, convinient and thread safe logger for Qt-based C++ apps. This
+  package contains the shared libraries.
+upstream: https://github.com/linuxdeepin/dtk6log
 branches:
 - name: master
   type: protected
+- name: openEuler-26.09
+  type: protected
+  create_from: master
 type: public

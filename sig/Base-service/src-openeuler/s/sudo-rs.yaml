@@ -1,7 +1,10 @@
 name: sudo-rs
-description: 'Memory safe implementation of sudo and su'
+description: Memory safe implementation of sudo and su
 upstream: https://github.com/trifectatechfoundation/sudo-rs
 branches:
 - name: master
   type: protected
+- name: openEuler-26.09
+  type: protected
+  create_from: master
 type: public

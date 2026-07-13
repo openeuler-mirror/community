@@ -1,5 +1,6 @@
 name: libimobiledevice-glue
-description: 'A library with common code used by libraries and tools around the libimobiledevice project'
+description: A library with common code used by libraries and tools around the libimobiledevice
+  project
 upstream:
   homepage: https://github.com/libimobiledevice/libimobiledevice-glue
   regex: (\d+\.\d+\.\d+)
@@ -7,4 +8,7 @@ upstream:
 branches:
 - name: master
   type: protected
+- name: openEuler-26.09
+  type: protected
+  create_from: master
 type: public

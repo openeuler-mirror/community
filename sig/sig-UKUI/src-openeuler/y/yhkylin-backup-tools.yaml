@@ -1,10 +1,13 @@
 name: yhkylin-backup-tools
-description: YHkylin backup tools 
+description: YHkylin backup tools
 upstream: https://gitee.com/openkylin/yhkylin-backup-tools
 branches:
 - name: master
   type: protected
 - name: openEuler-25.09
+  type: protected
+  create_from: master
+- name: openEuler-26.09
   type: protected
   create_from: master
 type: public

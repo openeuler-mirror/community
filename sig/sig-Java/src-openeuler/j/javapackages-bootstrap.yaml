@@ -4,4 +4,7 @@ upstream: https://github.com/fedora-java/javapackages-bootstrap
 branches:
 - name: master
   type: protected
+- name: openEuler-26.09
+  type: protected
+  create_from: master
 type: public

@@ -1,8 +1,11 @@
 name: llhttp
-description: 'Port of http_parser to llparse'
+description: Port of http_parser to llparse
 upstream: https://github.com/nodejs/llhttp
 platform: gitee
 branches:
 - name: master
   type: protected
+- name: openEuler-26.09
+  type: protected
+  create_from: master
 type: public

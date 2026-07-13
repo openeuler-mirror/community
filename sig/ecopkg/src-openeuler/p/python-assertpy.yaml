@@ -1,11 +1,14 @@
 name: python-assertpy
-description: 'Simple assertion library for unit testing in python with a fluent API'
+description: Simple assertion library for unit testing in python with a fluent API
 upstream: https://github.com/assertpy/assertpy
 platform: gitee
 branches:
 - name: master
   type: protected
 - name: openEuler-25.09
+  type: protected
+  create_from: master
+- name: openEuler-26.09
   type: protected
   create_from: master
 type: public

@@ -1,7 +1,10 @@
 name: glibmm268
-description: 'C++ interface for the GLib library'
+description: C++ interface for the GLib library
 upstream: https://www.gtkmm.org/
 branches:
 - name: master
   type: protected
+- name: openEuler-26.09
+  type: protected
+  create_from: master
 type: public

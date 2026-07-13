@@ -1,5 +1,5 @@
 name: libei
-description: 'a library for Emulated Input, primarily aimed at the Wayland stack'
+description: a library for Emulated Input, primarily aimed at the Wayland stack
 upstream:
   homepage: https://gitlab.freedesktop.org/libinput/libei
   regex: (\d+\.\d+\.\d+)
@@ -8,6 +8,9 @@ branches:
 - name: master
   type: protected
 - name: openEuler-25.09
+  type: protected
+  create_from: master
+- name: openEuler-26.09
   type: protected
   create_from: master
 type: public

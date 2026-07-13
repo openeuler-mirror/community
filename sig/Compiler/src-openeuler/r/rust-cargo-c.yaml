@@ -1,7 +1,11 @@
 name: rust-cargo-c
-description: cargo applet to build and install C-ABI compatible dynamic and static libraries.
+description: cargo applet to build and install C-ABI compatible dynamic and static
+  libraries.
 upstream: https://crates.io/crates/cargo-c
 branches:
 - name: master
   type: protected
+- name: openEuler-26.09
+  type: protected
+  create_from: master
 type: public

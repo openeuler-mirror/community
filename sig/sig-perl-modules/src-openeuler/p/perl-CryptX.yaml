@@ -1,7 +1,10 @@
 name: perl-CryptX
 upstream: https://metacpan.org/dist/CryptX
-description: 'Cryptographic toolkit'
+description: Cryptographic toolkit
 branches:
 - name: master
   type: protected
+- name: openEuler-26.09
+  type: protected
+  create_from: master
 type: public

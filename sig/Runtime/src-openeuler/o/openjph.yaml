@@ -1,5 +1,5 @@
 name: openjph
-description: 'Open-source implementation of JPEG2000 Part-15 (or JPH or HTJ2K)'
+description: Open-source implementation of JPEG2000 Part-15 (or JPH or HTJ2K)
 upstream:
   homepage: https://github.com/aous72/OpenJPH
   regex: (\d+\.\d+\.\d+)
@@ -7,4 +7,7 @@ upstream:
 branches:
 - name: master
   type: protected
+- name: openEuler-26.09
+  type: protected
+  create_from: master
 type: public

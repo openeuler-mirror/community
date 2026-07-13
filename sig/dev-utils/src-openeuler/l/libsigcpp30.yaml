@@ -1,7 +1,10 @@
 name: libsigcpp30
-description: 'Typesafe Callback Framework for C++'
+description: Typesafe Callback Framework for C++
 upstream: https://github.com/libsigcplusplus/libsigcplusplus
 branches:
 - name: master
   type: protected
+- name: openEuler-26.09
+  type: protected
+  create_from: master
 type: public

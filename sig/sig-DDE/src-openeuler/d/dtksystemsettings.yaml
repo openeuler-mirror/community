@@ -1,7 +1,10 @@
 name: dtksystemsettings
 description: Qt-based development library for system settings on Deepin.
-upstream: https://github.com/linuxdeepin/dtksystemsettings 
+upstream: https://github.com/linuxdeepin/dtksystemsettings
 branches:
 - name: master
   type: protected
+- name: openEuler-26.09
+  type: protected
+  create_from: master
 type: public

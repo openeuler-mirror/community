@@ -1,5 +1,6 @@
 name: python-opencv-python-headless
-description: Automated CI toolchain to produce precompiled opencv-python, opencv-python-headless, opencv-contrib-python and opencv-contrib-python-headless packages
+description: Automated CI toolchain to produce precompiled opencv-python, opencv-python-headless,
+  opencv-contrib-python and opencv-contrib-python-headless packages
 upstream: https://github.com/opencv/opencv-python
 branches:
 - name: master
@@ -11,6 +12,9 @@ branches:
   type: protected
   create_from: openEuler-24.03-LTS-Next
 - name: openEuler-25.09
+  type: protected
+  create_from: master
+- name: openEuler-26.09
   type: protected
   create_from: master
 type: public
