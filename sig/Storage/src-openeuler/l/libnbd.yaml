@@ -1,0 +1,7 @@
+name: libnbd
+description: NBD client library in userspace
+upstream: https://gitlab.com/nbdkit/libnbd
+branches:
+- name: master
+  type: protected
+type: public
