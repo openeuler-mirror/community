@@ -1,0 +1,6 @@
+name: fgds
+description: fgds是一个GPU直访存储工具，提供一个内核模块和一个用户态的库，支持通过posix兼容的pread/pwrite方式在nvme ssd设备和GPU显存之间传输数据。
+type: public
+branches:
+  - name: master
+    type: protected
