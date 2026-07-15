@@ -24,13 +24,13 @@ ROS SIG小组致力于将ROS移植到openEuler，以降低机器人领域openEul
 
 ### 该SIG管理的repository及描述
 
-openEuler ROS的构建脚本和使用文档仓库：https://gitee.com/openeuler/ros
+openEuler ROS的构建脚本和使用文档仓库：https://atomgit.com/openeuler/ros
 
 ## SIG基本信息
 
 ### 项目简介
 
-https://gitee.com/openeuler/community/tree/master/sig/sig-ROS/
+https://atomgit.com/openeuler/community/tree/master/sig/sig-ROS/
 
 ### Maintainers
 - wuwei_kubuds
