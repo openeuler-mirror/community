@@ -23,14 +23,14 @@ The openEuler ROS SIG aims at migrating ROS to openEuler, in order to reduce the
 
 ### Repositories and description managed by this SIG
 
-Repository of scripts for building ROS for openEuler and documents: https://gitee.com/openeuler/ros
+Repository of scripts for building ROS for openEuler and documents: https://atomgit.com/openeuler/ros
 
 
 
 ## Basic Information
 
 ### Project Introduction
-    https://gitee.com/openeuler/community/tree/master/sig/sig-ROS/
+    https://atomgit.com/openeuler/community/tree/master/sig/sig-ROS/
 
 ### Maintainers
 - wuwei_kubuds
