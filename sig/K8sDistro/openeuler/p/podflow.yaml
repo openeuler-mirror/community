@@ -1,0 +1,6 @@
+name: podflow
+description: PodFlow是一款基于 Rust 编写的容器智能故障诊断插件，通过 eBPF/bpftrace采集内核级可观测数据，结合多层规则引擎（阈值、关联、统计、趋势）与AI大模型增强分析，实现对容器化应用的自动化故障诊断、根因定位与告警推送。
+type: public
+branches:
+  - name: master
+    type: protected
