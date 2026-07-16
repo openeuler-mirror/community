@@ -161,3 +161,9 @@ repository地址：
 - https://gitee.com/openeuler/kernel/
 - https://gitee.com/src-openeuler/kernel/
 
+### 项目名称：KPBot
+
+repository地址：
+
+- https://atomgit.com/openeuler/KPBot
+
