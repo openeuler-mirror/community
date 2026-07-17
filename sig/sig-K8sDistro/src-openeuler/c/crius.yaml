@@ -1,0 +1,7 @@
+name: crius
+description: crius is a middleware service for podflow that provides podflow with clean container data and supports data cleansing and indexing capabilities.
+upstream: https://atomgit.com/openeuler/crius
+type: public
+branches:
+  - name: master
+    type: protected

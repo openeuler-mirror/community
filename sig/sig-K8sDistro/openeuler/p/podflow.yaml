@@ -1,0 +1,6 @@
+name: podflow
+description: PodFlow is a container-based intelligent fault diagnosis plugin written in Rust. It collects kernel-level observability data via eBPF/bpftrace and combines a multi-layer rule engine (thresholds, correlations, statistics, and trends) with AI-powered analysis to enable automated fault diagnosis, root cause identification, and alerting for containerized applications.
+type: public
+branches:
+  - name: master
+    type: protected
