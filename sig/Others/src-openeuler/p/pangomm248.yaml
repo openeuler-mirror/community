@@ -1,7 +1,10 @@
 name: pangomm248
-description: 'C++ interface for Pango'
+description: C++ interface for Pango
 upstream: https://www.gtkmm.org/
 branches:
 - name: master
   type: protected
+- name: openEuler-26.09
+  type: protected
+  create_from: master
 type: public

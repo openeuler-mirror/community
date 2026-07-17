@@ -1,8 +1,11 @@
 name: gweather-locations
-description: 'The GWeather locations database contains a list of locations used by GNOME
-components through the GWeather library.'
+description: The GWeather locations database contains a list of locations used by
+  GNOME components through the GWeather library.
 upstream: https://gitlab.gnome.org/GNOME/gweather-locations
 branches:
 - name: master
   type: protected
+- name: openEuler-26.09
+  type: protected
+  create_from: master
 type: public

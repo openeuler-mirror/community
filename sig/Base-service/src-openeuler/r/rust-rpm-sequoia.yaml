@@ -3,5 +3,8 @@ description: An implementation of the RPM PGP interface using Sequoia.
 type: public
 upstream: https://crates.io/crates/rpm-sequoia
 branches:
-  - name: master
-    type: protected
+- name: master
+  type: protected
+- name: openEuler-26.09
+  type: protected
+  create_from: master

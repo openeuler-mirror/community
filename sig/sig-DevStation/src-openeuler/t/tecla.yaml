@@ -4,4 +4,7 @@ upstream: https://gitlab.gnome.org/GNOME/tecla
 branches:
 - name: master
   type: protected
+- name: openEuler-26.09
+  type: protected
+  create_from: master
 type: public

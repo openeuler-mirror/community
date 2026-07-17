@@ -1,7 +1,10 @@
 name: cairomm116
-description: 'C++ API for the cairo graphics library'
+description: C++ API for the cairo graphics library
 upstream: https://www.cairographics.org
 branches:
 - name: master
   type: protected
+- name: openEuler-26.09
+  type: protected
+  create_from: master
 type: public

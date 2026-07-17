@@ -1,7 +1,10 @@
 name: msedit
-description: 'A simple editor for simple needs'
+description: A simple editor for simple needs
 upstream: https://github.com/microsoft/edit
 branches:
 - name: master
   type: protected
+- name: openEuler-26.09
+  type: protected
+  create_from: master
 type: public

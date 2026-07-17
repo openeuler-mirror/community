@@ -1,8 +1,11 @@
 name: libpeas2
-description: 'libpeas is a gobject-based plugins engine, and is targetted at giving every
-application the chance to assume its own extensibility.'
+description: libpeas is a gobject-based plugins engine, and is targetted at giving
+  every application the chance to assume its own extensibility.
 upstream: https://gitlab.gnome.org/GNOME/libpeas
 branches:
 - name: master
   type: protected
+- name: openEuler-26.09
+  type: protected
+  create_from: master
 type: public

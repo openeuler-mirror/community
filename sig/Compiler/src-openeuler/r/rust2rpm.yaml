@@ -4,4 +4,7 @@ upstream: https://pagure.io/fedora-rust/rust2rpm
 branches:
 - name: master
   type: protected
+- name: openEuler-26.09
+  type: protected
+  create_from: master
 type: public

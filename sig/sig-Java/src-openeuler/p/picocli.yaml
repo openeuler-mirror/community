@@ -1,7 +1,11 @@
 name: picocli
-description: Java command line parser with both an annotations API and a programmatic API
+description: Java command line parser with both an annotations API and a programmatic
+  API
 upstream: https://github.com/remkop/picocli
 branches:
 - name: master
   type: protected
+- name: openEuler-26.09
+  type: protected
+  create_from: master
 type: public

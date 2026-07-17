@@ -1,6 +1,6 @@
 name: safeguard
 description: Linux security audit, control, and behavior analysis tools based on KRSI(eBPF+LSM)
-upstream: https://atomgit.com/openeuler/safeguard.git 
+upstream: https://atomgit.com/openeuler/safeguard.git
 branches:
 - name: master
   type: protected
@@ -10,4 +10,7 @@ branches:
 - name: openEuler-24.03-LTS-SP4
   type: protected
   create_from: openEuler-24.03-LTS-Next
+- name: openEuler-26.09
+  type: protected
+  create_from: master
 type: public

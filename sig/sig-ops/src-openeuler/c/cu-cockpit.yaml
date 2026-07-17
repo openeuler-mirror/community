@@ -1,5 +1,7 @@
 name: cu-cockpit
-description: cu-cockpit is a lightweight, single-node deployed OS operation and maintenance management platform, focusing on providing an efficient visualized operation and maintenance solution for single-machine/single-node Linux environments.
+description: cu-cockpit is a lightweight, single-node deployed OS operation and maintenance
+  management platform, focusing on providing an efficient visualized operation and
+  maintenance solution for single-machine/single-node Linux environments.
 upstream: https://atomgit.com/openeuler/cu-cockpit
 branches:
 - name: master
@@ -10,4 +12,7 @@ branches:
 - name: openEuler-24.03-LTS-SP4
   type: protected
   create_from: openEuler-24.03-LTS-Next
+- name: openEuler-26.09
+  type: protected
+  create_from: master
 type: public

@@ -1,5 +1,6 @@
 name: opencv-mobile
-description: The minimal build of opencv library for the Android, IOS, and ARM Linux platforms.
+description: The minimal build of opencv library for the Android, IOS, and ARM Linux
+  platforms.
 upstream: https://github.com/linuxdeepin/opencv-mobile
 branches:
 - name: master
@@ -10,4 +11,7 @@ branches:
 - name: openEuler-24.03-LTS-SP4
   type: protected
   create_from: openEuler-24.03-LTS-Next
+- name: openEuler-26.09
+  type: protected
+  create_from: master
 type: public

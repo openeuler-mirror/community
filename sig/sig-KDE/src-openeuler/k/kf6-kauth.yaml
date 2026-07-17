@@ -1,7 +1,10 @@
 name: kf6-kauth
-description: KDE Frameworks 6 module to perform actions as privileged user 
+description: KDE Frameworks 6 module to perform actions as privileged user
 upstream: http://www.kde.org
 branches:
 - name: master
   type: protected
+- name: openEuler-26.09
+  type: protected
+  create_from: master
 type: public

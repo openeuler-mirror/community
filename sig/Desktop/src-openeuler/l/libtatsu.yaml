@@ -1,5 +1,5 @@
 name: libtatsu
-description: 'Library handling the communication with Apple Tatsu Signing Server (TSS)'
+description: Library handling the communication with Apple Tatsu Signing Server (TSS)
 upstream:
   homepage: https://github.com/libimobiledevice/libtatsu
   regex: (\d+\.\d+\.\d+)
@@ -7,4 +7,7 @@ upstream:
 branches:
 - name: master
   type: protected
+- name: openEuler-26.09
+  type: protected
+  create_from: master
 type: public

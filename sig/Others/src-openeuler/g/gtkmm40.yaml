@@ -1,7 +1,10 @@
 name: gtkmm40
-description: 'C++ interface for the GTK+ library'
+description: C++ interface for the GTK+ library
 upstream: https://www.gtkmm.org/
 branches:
 - name: master
   type: protected
+- name: openEuler-26.09
+  type: protected
+  create_from: master
 type: public

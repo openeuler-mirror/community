@@ -1,7 +1,10 @@
 name: glycin
-description: 'Glycin allows to decode, edit, and create images and read metadata.'
+description: Glycin allows to decode, edit, and create images and read metadata.
 upstream: https://gitlab.gnome.org/GNOME/glycin
 branches:
 - name: master
   type: protected
+- name: openEuler-26.09
+  type: protected
+  create_from: master
 type: public

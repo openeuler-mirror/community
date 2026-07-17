@@ -1,7 +1,11 @@
 name: kf6-prison
-description: prison is a barcode api currently offering a nice Qt api to produce QRCode barcodes and DataMatrix barcodes, and can easily be made support more.
+description: prison is a barcode api currently offering a nice Qt api to produce QRCode
+  barcodes and DataMatrix barcodes, and can easily be made support more.
 upstream: http://www.kde.org
 branches:
 - name: master
   type: protected
+- name: openEuler-26.09
+  type: protected
+  create_from: master
 type: public
