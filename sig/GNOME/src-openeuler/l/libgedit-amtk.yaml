@@ -1,0 +1,10 @@
+name: libgedit-amtk
+description: Gedit Technology - The Good Morning Toolkit
+upstream: https://gitlab.gnome.org/World/gedit/libgedit-amtk
+branches:
+- name: master
+  type: protected
+- name: openEuler-26.09
+  type: protected
+  create_from: master
+type: public

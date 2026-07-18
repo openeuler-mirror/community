@@ -1,0 +1,10 @@
+name: libgedit-gfls
+description: Gedit Technology - File Loading and Saving library
+upstream: https://gitlab.gnome.org/World/gedit/libgedit-gfls
+branches:
+- name: master
+  type: protected
+- name: openEuler-26.09
+  type: protected
+  create_from: master
+type: public
