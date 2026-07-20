@@ -147,6 +147,7 @@
 | ubmempfd     | drivers/ub/ubmempfd | [@Tankll2021](https://atomgit.com/Tankll2021) |
 | urma     | drivers/ub/urma<br/>include/ub/urma | [@eingesch](https://atomgit.com/eingesch) [@wanghang73](https://atomgit.com/wanghang73) |
 | ub       | drivers/ub                                                   | [@mufengyan](https://atomgit.com/mufengyan)     [@yunshenglin](https://atomgit.com/linyunsheng) |
+| uvb | drivers/firmware/uvb<br/>  include/linux/firmware/uvb | [@klmengkd](https://atomgit.com/klmengkd) |
 
 ## Notes
 * Linux 内核很庞大，社区需要更多的 Committer 参与开发和维护。
