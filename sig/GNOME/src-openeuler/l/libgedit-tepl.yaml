@@ -1,0 +1,10 @@
+name: libgedit-tepl
+description: Gedit Technology - Text editor product line library
+upstream: https://gitlab.gnome.org/World/gedit/libgedit-tepl
+branches:
+- name: master
+  type: protected
+- name: openEuler-26.09
+  type: protected
+  create_from: master
+type: public
