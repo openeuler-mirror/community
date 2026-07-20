@@ -1,0 +1,7 @@
+name: erofs-utils
+description: erofs-utils is a collection of userspace tools for creating, mounting, checking, analyzing, and extracting EROFS filesystem images, including mkfs.erofs, mount.erofs, erofsfuse, dump.erofs, and fsck.erofs.
+type: public
+upstream: https://github.com/erofs/erofs-utils
+branches:
+  - name: master
+    type: protected
