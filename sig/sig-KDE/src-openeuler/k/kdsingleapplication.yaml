@@ -1,0 +1,7 @@
+name: kdsingleapplication
+description: Helper class for Qt applications to become single-instance applications
+upstream: https://github.com/KDAB/KDSingleApplication
+branches:
+- name: master
+  type: protected
+type: public
