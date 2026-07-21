@@ -11,3 +11,5 @@ We honor the past maintainers and commiters who have helped shape the release-ma
 | 朱延朋 | [@zyp-rock](https://gitee.com/zyp-rock)|  zhuyanpeng@huawei.com|
 | 刘松灵 | [@songling-olk](https://gitee.com/songling-olk) | liusongling1@huawei.com |
 | 苏锦铃 | [@sujinling1](https://atomgit.com/sujinling1) | sujinling@huawei.com |
+| 林培峰 | [@linfong](https://gitee.com/linfong) | linpeifeng@kylinos.cn |
+| 何柯依 | [@hekeyi](https://gitee.com/hekeyi) | hekeyi@uniontech.com |
