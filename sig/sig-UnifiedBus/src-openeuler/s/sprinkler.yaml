@@ -4,7 +4,7 @@ upstream: https://atomgit.com/openeuler/sprinkler
 branches:
 - name: master
   type: protected
-- name: v4.0.0
+- name: openEuler-24.03-LTS-Next
   type: protected
   create_from: master
 type: public
