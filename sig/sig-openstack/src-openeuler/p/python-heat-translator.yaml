@@ -1,0 +1,10 @@
+name: python-heat-translator
+description: OpenStack heat-translator
+upstream: https://github.com/openstack/heat-translator
+branches:
+- name: master
+  type: protected
+- name: Multi-Version_OpenStack-Gazpache_openEuler-26.09
+  type: protected
+  create_from: master
+type: public

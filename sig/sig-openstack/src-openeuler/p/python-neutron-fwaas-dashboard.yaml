@@ -1,0 +1,10 @@
+name: python-neutron-fwaas-dashboard
+description: OpenStack neutron-fwaas-dashboard
+upstream: https://github.com/openstack/neutron-fwaas-dashboard
+branches:
+- name: master
+  type: protected
+- name: Multi-Version_OpenStack-Gazpache_openEuler-26.09
+  type: protected
+  create_from: master
+type: public

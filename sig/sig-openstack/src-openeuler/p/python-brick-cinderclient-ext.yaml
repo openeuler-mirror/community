@@ -1,0 +1,10 @@
+name: python-brick-cinderclient-ext
+description: OpenStack python-brick-cinderclient-ext
+upstream: https://github.com/openstack/python-brick-cinderclient-ext
+branches:
+- name: master
+  type: protected
+- name: Multi-Version_OpenStack-Gazpache_openEuler-26.09
+  type: protected
+  create_from: master
+type: public

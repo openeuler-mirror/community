@@ -1,0 +1,10 @@
+name: puppet-openstack_extras
+description: OpenStack puppet-openstack_extras
+upstream: https://github.com/openstack/puppet-openstack_extras
+branches:
+- name: master
+  type: protected
+- name: Multi-Version_OpenStack-Gazpache_openEuler-26.09
+  type: protected
+  create_from: master
+type: public
