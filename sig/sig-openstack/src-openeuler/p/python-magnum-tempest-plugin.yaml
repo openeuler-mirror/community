@@ -1,0 +1,10 @@
+name: python-magnum-tempest-plugin
+description: OpenStack magnum-tempest-plugin
+upstream: https://github.com/openstack/magnum-tempest-plugin
+branches:
+- name: master
+  type: protected
+- name: Multi-Version_OpenStack-Gazpache_openEuler-26.09
+  type: protected
+  create_from: master
+type: public

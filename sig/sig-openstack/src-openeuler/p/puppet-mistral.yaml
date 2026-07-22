@@ -1,0 +1,10 @@
+name: puppet-mistral
+description: OpenStack puppet-mistral
+upstream: https://github.com/openstack/puppet-mistral
+branches:
+- name: master
+  type: protected
+- name: Multi-Version_OpenStack-Gazpache_openEuler-26.09
+  type: protected
+  create_from: master
+type: public

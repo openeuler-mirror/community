@@ -1,0 +1,10 @@
+name: openstack-ansible-role-atos-hsm
+description: OpenStack ansible-role-atos-hsm
+upstream: https://github.com/openstack/ansible-role-atos-hsm
+branches:
+- name: master
+  type: protected
+- name: Multi-Version_OpenStack-Gazpache_openEuler-26.09
+  type: protected
+  create_from: master
+type: public

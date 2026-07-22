@@ -1,0 +1,10 @@
+name: openstack-ovn-bgp-agent
+description: OpenStack ovn-bgp-agent
+upstream: https://github.com/openstack/ovn-bgp-agent
+branches:
+- name: master
+  type: protected
+- name: Multi-Version_OpenStack-Gazpache_openEuler-26.09
+  type: protected
+  create_from: master
+type: public

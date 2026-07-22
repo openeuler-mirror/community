@@ -1,0 +1,10 @@
+name: python-designate-tempest-plugin
+description: OpenStack designate-tempest-plugin
+upstream: https://github.com/openstack/designate-tempest-plugin
+branches:
+- name: master
+  type: protected
+- name: Multi-Version_OpenStack-Gazpache_openEuler-26.09
+  type: protected
+  create_from: master
+type: public
