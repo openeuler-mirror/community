@@ -29,5 +29,6 @@ Note: The Charter of this SIG follows the convention described in the openEuler 
 - ub-pkg-manager - [https://atomgit.com/openeuler/ub-pkg-manager](https://atomgit.com/openeuler/ub-pkg-manager)
 - LinQuickRec - [https://atomgit.com/openeuler/LinQuickRec](https://atomgit.com/openeuler/LinQuickRec)
 - ublinkdt - [https://atomgit.com/openeuler/ublinkdt](https://atomgit.com/openeuler/ublinkdt)
+- sprinkler - [https://atomgit.com/openeuler/sprinkler](https://atomgit.com/openeuler/sprinkler)
 
 

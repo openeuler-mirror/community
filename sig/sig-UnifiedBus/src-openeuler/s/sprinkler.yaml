@@ -1,0 +1,10 @@
+name: sprinkler
+description: A Complex Scene UnifiedBus Link Fault Location Tool.
+upstream: https://atomgit.com/openeuler/sprinkler
+branches:
+- name: master
+  type: protected
+- name: v4.0.0
+  type: protected
+  create_from: master
+type: public
