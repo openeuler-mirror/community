@@ -182,10 +182,13 @@ branches:
 - name: openEuler-26.09
   type: readonly
   create_from: master
-- name: Multi-Version_OpenStack-Gazpache_openEuler-26.09
-  type: protected
-  create_from: openEuler-26.09-DevStation
 - name: openEuler-26.09-DevStation
   type: protected
   create_from: openEuler-26.09
+- name: Multi-Version_OpenStack-Gazpacho_openEuler-24.03-LTS-Next
+  type: protected
+  create_from: Multi-Version_OpenStack-Antelope_openEuler-24.03-LTS-SP4
+- name: Multi-Version_OpenStack-Gazpacho_openEuler-24.03-LTS-SP4
+  type: protected
+  create_from: Multi-Version_OpenStack-Antelope_openEuler-24.03-LTS-SP4
 type: public

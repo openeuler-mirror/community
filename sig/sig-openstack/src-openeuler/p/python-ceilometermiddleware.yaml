@@ -1,4 +1,4 @@
-name: python-ceilometermiddleware
+﻿name: python-ceilometermiddleware
 description: This library provides middleware modules designed to enable metric and
   event data generation to be consumed by Ceilometer.
 upstream: https://opendev.org/openstack/ceilometermiddleware
@@ -23,7 +23,10 @@ branches:
 - name: openEuler-20.03-LTS-SP4
   type: protected
   create_from: openEuler-20.03-LTS-SP3
-- name: Multi-Version_OpenStack-Gazpache_openEuler-26.09
+- name: Multi-Version_OpenStack-Gazpacho_openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+- name: Multi-Version_OpenStack-Gazpacho_openEuler-24.03-LTS-SP4
   type: protected
   create_from: master
 type: public
