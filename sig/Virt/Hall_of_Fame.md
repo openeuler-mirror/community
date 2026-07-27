@@ -32,3 +32,7 @@ Thanks to the following people for their contribution.
   name: ZhangBo
   organization: Huawei
   email: oscar.zhangbo@huawei.com 
+- gitee_id: zhendongchen
+  name: alexchen
+  organization: Huawei
+  email: alex.chen@huawei.com

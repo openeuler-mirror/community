@@ -21,15 +21,16 @@
 - 杨杰[@frankyj915](https://gitee.com/frankyj915)
 - 叶增软[@yezengruan](https://gitee.com/yezengruan)
 - 张波[@ooorz](https://gitee.com/ooorz)
+- 陈振东[@zhendongchen](https://gitee.com/zhendongchen)
 
 ### Maintainer List
 
 - 吴斌[@RootWB](https://gitee.com/RootWB)
 - 王志钢[@cellfaint](https://gitee.com/cellfaint)
-- 陈振东[@zhendongchen](https://gitee.com/zhendongchen)
 - 郑川[@Chuan-Zheng](https://gitee.com/Chuan-Zheng)
 - 邢超超[@imxcc](https://gitee.com/imxcc)
 - 朱科潜[@kevinzhu1](https://gitee.com/kevinzhu1)
+- 徐飞[@flyking001](https://gitcode.com/flyking001)
 
 ### Committer List
 
