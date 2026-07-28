@@ -1,0 +1,6 @@
+name: cu-dnf
+description: cu-dnf是基于Rust实现的DNF包管理器 。项目以 Rust 语言重新构建包管理器的依赖解析、事务执行、元数据解析等核心功能，解决现有的依赖冲突、事务原子性缺失和性能瓶颈等问题，同时保持命令行接口与配置文件的兼容。
+type: public
+branches:
+  - name: master
+    type: protected
