@@ -1,0 +1,15 @@
+name: nipart
+description: 基于Rust的网络管理组件。目标是替换NetworkManager在桌面和服务器网络设置与管理。
+特性：
+* 提供声明式 (Declarative) API
+* 内存安全，线程安全
+* 无守护进程模式
+* 全功能插件接口
+* 基于checkpoint的验证，失败回滚。
+type: public
+branches:
+  - name: master
+    type: protected
+  - name: main
+    create_from: master
+    type: protected
