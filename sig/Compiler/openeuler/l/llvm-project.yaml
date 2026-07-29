@@ -1,5 +1,6 @@
 name: llvm-project
-description: The LLVM Project is a collection of modular and reusable compiler and toolchain technologies.
+description: This repository is forked from the upstream llvm-project, providing front-end support for languages such as C/C++, mid-end optimization enhancements, and back-end support for architectures including AArch64/X86/LoongArch/RISC-V/SW64, targeting the openEuler community.
+upstream: https://github.com/llvm/llvm-project
 branches:
 - name: master
   type: protected
