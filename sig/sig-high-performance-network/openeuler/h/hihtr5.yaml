@@ -1,0 +1,9 @@
+name: hihtr5
+description: 华为SP200系列网卡RoCE驱动 hihtr5
+type: public
+branches:
+  - name: master
+    type: protected
+  - name: develop-6.6-100.0.1.202
+    create_from: master
+    type: protected
