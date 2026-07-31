@@ -24,10 +24,7 @@
 
 ### Maintainer列表
 
-- fengtao40@huawei.com
-- yanan@huawei.com
 - songnannan2@huawei.com
-- zhangrui182@huawei.com
 - shenyangyang4@huawei.com
 - hexiaowen@huawei.com
 - zhangqiumiao1@h-partners.com
@@ -37,6 +34,11 @@
 
 - 岳远昆[@yue-yuankun](https://atomgit.com/yue-yuankun)
 - 汪流[@ouuleilei](https://atomgit.com/ouuleilei)
+
+### Hall of Fame
+- fengtao40@huawei.com
+- yanan@huawei.com
+- zhangrui182@huawei.com
 
 # 联系方式
 
