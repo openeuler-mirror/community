@@ -30,7 +30,7 @@
 - LinQuickRec - [https://atomgit.com/openeuler/LinQuickRec](https://atomgit.com/openeuler/LinQuickRec)
 - ublinkdt - [https://atomgit.com/openeuler/ublinkdt](https://atomgit.com/openeuler/ublinkdt)
 - sprinkler - [https://atomgit.com/openeuler/sprinkler](https://atomgit.com/openeuler/sprinkler)
-
+- spdiag - [https://atomgit.com/openeuler/spdiag](https://atomgit.com/openeuler/spdiag)
 
  ### 跨领域和面向外部的流程
  - 
