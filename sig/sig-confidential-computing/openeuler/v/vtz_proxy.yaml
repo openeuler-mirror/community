@@ -1,0 +1,6 @@
+name: vtz_proxy
+description: Confidential computing proxy daemon for virtual machines which receive GuestOS requests and dispatch them to itrustee_tzdriver
+branches:
+- name: master
+  type: protected
+type: public
