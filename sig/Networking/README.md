@@ -44,6 +44,7 @@
 - Hu Chun Zhi [@hu-chunzhi](<https://gitee.com/hu-chunzhi)
 - jinag12 [@jiangheng12](<https://gitee.com/jiangheng12>)
 - zhongxuan [@zhongxuan2](<https://gitee.com/zhongxuan2>)
+- huangzhengliang [@UPUPLiang](https://gitee.com/UPUPLiang)
 
 Everyone could send patches to openEuler.
 
