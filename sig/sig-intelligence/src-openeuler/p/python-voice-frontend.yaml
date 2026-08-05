@@ -1,0 +1,8 @@
+name: python-voice-frontend
+description: Offline voice frontend library based on sherpa-onnx, providing VAD hysteresis
+  state machine, wake word engine, and speaker identification modules
+upstream: https://atomgit.com/openeuler/python-voice-frontend
+branches:
+- name: master
+  type: protected
+type: public
