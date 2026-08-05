@@ -1,0 +1,7 @@
+name: python-dmiparser
+description: This parses dmidecode output to Python objects. The Python module supports multiple output formats (JSON, JSONC, YAML, XML) via the format parameter, and provides CLI tools with the same capabilities
+type: public
+upstream: https://github.com/Arondight/python-dmiparser.git
+branches:
+  - name: master
+    type: protected
