@@ -844,6 +844,11 @@ repositories:
 - repo:
   - src-openeuler/relocatable-perl
   - src-openeuler/utf8_range
+- repo:
+  - openeuler/cu-coreutils
+  committers:
+  - name: 董晓辉
+    atomgit_id: dongxh50
 branches:
 - repo_branch:
   - repo: src-openeuler/abseil-cpp

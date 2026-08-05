@@ -1,0 +1,6 @@
+name: cu-coreutils
+description: cu-coreutils是基于Rust实现的Linux 核心工具集 。项目以 Rust 语言重新构建文件操作、文本处理、系统信息等核心命令，通过所有权机制从语言层面消除内存安全缺陷，同时保持命令行行为与参数格式的兼容。采用CommandRegistry统一调度架构，每个命令独立模块化设计，支持快速扩展与公共库复用。
+type: public
+branches:
+  - name: master
+    type: protected
