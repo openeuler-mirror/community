@@ -1,0 +1,9 @@
+name: panda
+description: 华为 Hi182x/Hi187x 系列可编程网卡开发平台 PANDA
+type: public
+branches:
+  - name: master
+    type: protected
+  - name: develop
+    create_from: master
+    type: protected
