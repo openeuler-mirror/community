@@ -30,5 +30,5 @@ Note: The Charter of this SIG follows the convention described in the openEuler 
 - LinQuickRec - [https://atomgit.com/openeuler/LinQuickRec](https://atomgit.com/openeuler/LinQuickRec)
 - ublinkdt - [https://atomgit.com/openeuler/ublinkdt](https://atomgit.com/openeuler/ublinkdt)
 - sprinkler - [https://atomgit.com/openeuler/sprinkler](https://atomgit.com/openeuler/sprinkler)
-
+- spdiag - [https://atomgit.com/openeuler/spdiag](https://atomgit.com/openeuler/spdiag)
 
