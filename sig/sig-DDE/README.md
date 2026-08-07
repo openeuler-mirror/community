@@ -113,7 +113,7 @@ repository地址：
   - https://gitee.com/openeuler/dde
   - https://gitee.com/openeuler/deepin-rpm-installer
   - https://gitee.com/src-openeuler/deepin-rpm-installer
-  - https://gitee.com/src-openeuler/qt5dxcb-plugin
+  - https://gitee.com/src-openeuler/qt5platform-plugins
   - https://gitee.com/src-openeuler/deepin-upgrade-tool
   - https://gitee.com/openeuler/deepin-upgrade-tool
   - https://gitee.com/src-openeuler/deepin-pw-check
