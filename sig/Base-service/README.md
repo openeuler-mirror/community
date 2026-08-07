@@ -14,6 +14,7 @@
 - 谢志鹏[@xiezhipeng1](https://gitee.com/xiezhipeng1)
 - 李次华[@licihua](https://gitee.com/licihua)
 - 沈洋洋[@shenyangyang01](https://gitee.com/shenyangyang01)
+- 许靖[@xujing99](https://atomgit.com/xujing99)
 
 
 ### Committer列表
