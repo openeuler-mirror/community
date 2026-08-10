@@ -175,6 +175,24 @@ repositories:
   - name: kunlun
     atomgit_id: kunlun_spurs
     email: pengkunlun@kylinos.cn
+- repo:
+  - openeuler/luban-sculpt
+  committers:
+  - gitee_id: w6910502
+    atomgit_id: w6910502
+    name: Jiandong Wang
+    organization: Kylin Software
+    email: wangjiandong@kylinos.cn
+  - gitee_id: duyiwei7w
+    atomgit_id: duyiwei7w
+    name: Yiwei Du
+    organization: Kylin Software
+    email: duyiwei@kylinos.cn
+  - gitee_id: zzxdev
+    atomgit_id: zzxdev
+    name: Zixiao Zhang
+    organization: Kylin Software
+    email: zhangzixiao@kylinos.cn
 branches:
 - repo_branch:
   - repo: src-openeuler/bazel
