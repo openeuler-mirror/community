@@ -1,0 +1,7 @@
+name: python-vcs-versioning
+description: Core VCS versioning functionality extracted as a standalone library that can be used independently of setuptools.
+upstream: https://github.com/pypa/setuptools-scm
+branches:
+- name: master
+  type: protected
+type: public 
