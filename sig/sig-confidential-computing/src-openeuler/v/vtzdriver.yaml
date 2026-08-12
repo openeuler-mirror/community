@@ -1,0 +1,13 @@
+name: vtzdriver
+description: Confidential computing driver for GuestOS which dispatch iTrustee requests to HostOS
+upstream: https://atomgit.com/openeuler/vtzdriver.git
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-24.03-LTS-SP4
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
+type: public
