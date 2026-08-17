@@ -1,12 +1,9 @@
-name: python-libsass
-upstream: https://sass.github.io/libsass-python/
-description: Sass for Python
+name: python-reactivex
+description: ReactiveX (Rx) for Python
+upstream: https://github.com/ReactiveX/RxPY
 branches:
 - name: master
   type: protected
-- name: openEuler-20.09
-  type: readonly
-  create_from: master
 - name: Multi-Version_OpenStack-Gazpache_openEuler-24.03-LTS-Next
   type: protected
   create_from: master
