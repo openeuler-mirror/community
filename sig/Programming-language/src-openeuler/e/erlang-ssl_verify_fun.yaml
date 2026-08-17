@@ -1,0 +1,7 @@
+name: erlang-ssl_verify_fun
+description: Collection of ssl verification functions for Erlang
+upstream: https://github.com/deadtrickster/ssl_verify_fun.erl
+branches:
+- name: master
+  type: protected
+type: public

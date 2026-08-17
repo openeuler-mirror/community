@@ -1,0 +1,7 @@
+name: erlang-cth_readable
+description: Common test hooks for more readable erlang logs
+upstream: https://github.com/ferd/cth_readable
+branches:
+- name: master
+  type: protected
+type: public

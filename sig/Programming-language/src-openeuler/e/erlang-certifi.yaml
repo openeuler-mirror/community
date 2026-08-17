@@ -1,0 +1,7 @@
+name: erlang-certifi
+description: Dummy certifi (certificate bundle) package for erlang
+upstream: https://github.com/certifi/erlang-certifi
+branches:
+- name: master
+  type: protected
+type: public
