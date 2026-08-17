@@ -98,7 +98,6 @@ repositories:
   - openeuler/http-parser
   - src-openeuler/initscripts
   - src-openeuler/http-parser
-  - src-openeuler/openvswitch
   - src-openeuler/ldns
   - src-openeuler/ipvsadm
   - src-openeuler/unbound
@@ -226,6 +225,14 @@ repositories:
     atomgit_id: zhongxuan2
     name: zhongxuan2
     email: zhongxuan2@huawei.com
+- repo:
+  - src-openeuler/openvswitch
+  committers:
+  - gitee_id: UPUPLiang
+    atomgit_id: UPUPLiang
+    name: huangzhengliang
+    organization: Huawei
+    email: huangzhengliang4@huawei.com
 - repo:
   - src-openeuler/glassfish-jax-rs-api
   - src-openeuler/libqmi
