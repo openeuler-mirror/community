@@ -1,0 +1,6 @@
+name: sccs
+description: SCCS is an Agent-oriented context offloading and on-demand retrieval system that moves large tool outputs to external shared storage while keeping only summaries and references in the model context, reducing token and long-context overhead while enabling cross-process and cross-node sharing.
+branches:
+- name: master
+  type: protected
+type: public
