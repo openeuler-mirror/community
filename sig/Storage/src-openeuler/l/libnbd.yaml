@@ -4,4 +4,7 @@ upstream: https://gitlab.com/nbdkit/libnbd
 branches:
 - name: master
   type: protected
+- name: openEuler-26.09-DevStation
+  type: protected
+  create_from: master
 type: public
