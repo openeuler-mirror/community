@@ -1,0 +1,13 @@
+name: kernel-lvc
+description: Linux kernel branches maintained by the Linux Verification Center (LVC), featuring security hardening and local adaptations for the CIS region. The LVC is based at ISP RAS (Institute for System Programming of the Russian Academy of Sciences), a leading non-profit research organization under the Russian Academy of Sciences.
+upstream: https://atomgit.com/openeuler/kernel-lvc
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.03-LTS-SP2
+  type: protected
+  create_from: master
+- name: openEuler-22.03-LTS-SP2-lvc100
+  type: protected
+  create_from: openEuler-22.03-LTS-SP2
+type: public

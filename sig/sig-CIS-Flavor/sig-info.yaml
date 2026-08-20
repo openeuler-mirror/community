@@ -1,0 +1,53 @@
+name: sig-CIS-Flavor
+description: The SIG aims to build and maintain a localized technical ecosystem around openEuler in the CIS region.
+created_on: '2026-07-15'
+mailing_list: dev@openeuler.org
+meeting_url: NA
+mature_level: startup
+mentors:
+- atomgit_id: oekernel
+  name: Xie Xiuqi
+  email: xiexiuqi@huawei.com
+maintainers:
+- atomgit_id: HuKeping
+  name: Hu Keping
+  organization: Huawei
+  email: hukeping@huawei.com
+- atomgit_id: gcw_TbTCfCIt
+  name: Kirill Kolpakov
+  organization: Huawei
+  email: kolpakov.kirill@huawei.com
+- atomgit_id: andreybokhanko
+  name: Bokhanko Andrey
+  organization: Huawei
+  email: andrey.bokhanko@huawei.com
+- atomgit_id: khoroshilov
+  name: Alexey Khoroshilov
+  organization: The Ivannikov Institute for System Programming of the Russian Academy of Sciences (ISP RAS)
+  email: khoroshilov@ispras.ru
+
+repositories:
+- repo:
+  - openeuler/kernel-lvc
+  - src-openeuler/kernel-lvc
+  committers:
+  - atomgit_id: wenhai1228
+    name: Wen Hai
+    organization: Huawei
+    email: wen.hai@huawei.com
+  - atomgit_id: DiVar
+    name: Dmitry Varenov
+    organization: Huawei
+    email: varenov.dmitry@huawei.com
+  - atomgit_id: artqzn
+    name: Kuzin Artem
+    organization: Huawei
+    email: artem.kuzin@huawei.com
+  - atomgit_id: dskr991
+    name: Skorodumov Dmitry
+    organization: Huawei
+    email: skorodumov.dmitry@huawei.com
+  - atomgit_id: imxcc
+    name: Xing Chaochao
+    organization: Huawei
+    email: xingchaochao@huawei.com
