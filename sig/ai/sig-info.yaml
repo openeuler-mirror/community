@@ -57,7 +57,6 @@ repositories:
   - src-openeuler/libsvm
   - src-openeuler/libxsmm
   - src-openeuler/lightgbm
-  - src-openeuler/pytorch
   - src-openeuler/python-asttokens
   - src-openeuler/python-horovod
   - src-openeuler/jieba
@@ -220,6 +219,14 @@ repositories:
     name: YiWei Du
     organization: KylinSoft
     email: duyiwei@kylinos.cn
+- repo:
+  - src-openeuler/pytorch
+  committers:
+  - gitee_id: w6910502
+    atomgit_id: w6910502
+    name: wangjiandong
+    organization: KylinSoft
+    email: wangjiandong@kylinos.cn
 branches:
 - repo_branch:
   - repo: src-openeuler/bazel
