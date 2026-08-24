@@ -1,0 +1,10 @@
+name: LMCache-Ascend
+description: LMCache-Ascend is a plugin for running LMCache on the Ascend NPU.
+upstream: https://github.com/LMCache/LMCache-Ascend
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
