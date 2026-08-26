@@ -85,7 +85,7 @@ branches:
   type: protected
   create_from: openEuler-24.03-LTS-Next
 - name: openEuler-26.09
-  type: readonly
+  type: protected
   create_from: master
 - name: openEuler-26.09-DevStation
   type: protected
