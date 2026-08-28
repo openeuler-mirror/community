@@ -64,24 +64,22 @@ def check_gitee_id(gitee_id, access_token):
     Check validation of gitee_id
     :param gitee_id: login id of gitee
     :param access_token: access_token of gitee
-    :return: gitee_id_errors
+    :return: atomgit_id_errors
     """
-    gitee_id_errors = 0
+    atomgit_id_errors = 0
     url = 'https://gitee.com/api/v5/users/{}?access_token={}'.format(gitee_id, access_token)
     for i in range(5):
         try:
             r = requests.get(url)
             if r.status_code == 404:
                 print('ERROR! Check gitee_id: invalid gitee_id {}.'.format(gitee_id))
-                gitee_id_errors += 1
-            return gitee_id_errors
+                atomgit_id_errors += 1
+            return atomgit_id_errors
         except Exception as e:
             print("ERROR! Check gitee_id:{}, e:{}".format(gitee_id, e))
             time.sleep(3)
-    else:
-        gitee_id_errors += 1
-        return gitee_id_errors
-
+    atomgit_id_errors += 1
+    return atomgit_id_errors
 
 def check_fields(sig_info):
     """
