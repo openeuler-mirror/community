@@ -1,0 +1,22 @@
+name: agent-insight
+description: agent-insight RPM source package and spec file for openEuler.
+upstream: https://atomgit.com/openeuler/agent-insight
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-24.03-LTS-SP3
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
+- name: openEuler-24.03-LTS-SP4
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
+- name: openEuler-26.09
+  type: readonly
+  create_from: master
+- name: openEuler-26.09-DevStation
+  type: protected
+  create_from: openEuler-26.09
+type: public
