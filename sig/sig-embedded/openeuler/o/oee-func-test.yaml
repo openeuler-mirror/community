@@ -1,0 +1,7 @@
+name: oee-func-test
+description: Automated testing framework for openEuler Embedded key features, covering
+  image build, QEMU boot, feature verification, evidence collection and report generation.
+branches:
+- name: master
+  type: protected
+type: public
