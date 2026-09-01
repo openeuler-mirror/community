@@ -10,13 +10,13 @@ Compiler SIG 每双周周二上午10:00进行线上例会，也会定期举办�
  - 赵 川峰[@cf-zhao](https://atomgit.com/cf-zhao) 邮箱: zhaochuanfeng@huawei.com
  - 谢 志恒[@eastb233](https://atomgit.com/eastb233) 邮箱: xiezhiheng@huawei.com
  - 王   坤[@kuenking111_admin](https://atomgit.com/kuenking111_admin) 邮箱: wangkun49@huawei.com
- - 贺 东博[@Noah](https://gitee.com/jvmboy) 邮箱: hedongbo@huawei.com
  - 李 彦成[@li-yancheng](https://atomgit.com/li-yancheng) 邮箱: liyancheng@huawei.com
- - 陈 善瑶[@SegFault](https://atomgit.com/SegFault) 邮箱: chenshanyao@huawei.com
  - 周   磊[@alexanderbill](https://atomgit.com/alexanderbill) 邮箱: zhoulei03@huawei.com
  - 陈   正[@chenzheng1030](https://atomgit.com/chenzheng1030) 邮箱: chenzheng79@huawei.com
  - 王   强[@wangqiang95](https://atomgit.com/wangqiang95) 邮箱: wangqiang1@kylinos.cn
- - 王   鼎[@wd-gitcode](https://atomgit.com/wd-gitcode) email: wangding16@huawei.com
+ - 王   鼎[@wd-gitcode](https://atomgit.com/wd-gitcode) 邮箱: wangding16@huawei.com
+ - 谢 照昆[@xiezhaokun](https://atomgit.com/xiezhaokun) 邮箱: xiezhaokun@huawei.com
+ - 刘 玉龙[@neu-mobi](https://atomgit.com/neu-mobi) 邮箱: liuyulong35@huawei.com
 
 ## Committer列表
 请参见[openEuler Compiler Committer List](https://atomgit.com/openeuler/community/blob/master/sig/Compiler/committers.md)
