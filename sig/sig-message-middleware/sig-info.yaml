@@ -4,11 +4,16 @@ created_on: 2023-6-21
 mailing_list: message-middleware@openeuler.org
 mature_level: startup
 maintainers:
-- gitee_id: hu-zongtang
-  atomgit_id: ''
-  name: huzongtang
+- gitee_id: gogoxiaoxiao
+  atomgit_id: gogoxiaoxiao
+  name: yanhaishuang
   organization: ChinaMobile
-  email: huzongtang_yewu@cmss.chinamobile.com
+  email: yanhaishuang_yewu@cmss.chinamobile.com
+- gitee_id: weimingjiang
+  atomgit_id: gcw_MWp4hZZX
+  name: weimingjiang
+  organization: ChinaMobile
+  email: weimingjiang_yewu@cmss.chinamobile.com
 - gitee_id: jas0n918
   atomgit_id: ''
   name: jianghaiting
@@ -23,28 +28,28 @@ repositories:
 - repo:
   - src-openeuler/rocketmq
   committers:
-  - gitee_id: zhangjidi
-    atomgit_id: ''
-    name: zhangjidi
+  - gitee_id: ''
+    atomgit_id: nioplus
+    name: caoping
     organization: Chinamobile
-    email: zhangjidi_yewu@cmss.chinamobile.com
+    email: caoping_yewu@cmss.chinamobile.com
 - repo:
   - src-openeuler/rabbitmq-java-client
   - src-openeuler/rabbitmq-server
   committers:
-  - gitee_id: wubiqing
-    atomgit_id: ''
-    name: wubiqing
+  - gitee_id: ''
+    atomgit_id: lx1229207124
+    name: lixiang
     organization: Chinamobile
-    email: wubiqing_yewu@cmss.chinamobile.com
+    email: lixiang_yewu@cmss.chinamobile.com
 - repo:
   - src-openeuler/pulsar
   committers:
-  - gitee_id: wang-jialing218
-    atomgit_id: ''
-    name: wangjialing
+  - gitee_id: ''
+    atomgit_id: JR_Hale
+    name: juhaoran
     organization: Chinamobile
-    email: wangjialing_yewu@cmss.chinamobile.com
+    email: juhaoran_yewu@cmss.chinamobile.com
 - repo:
   - src-openeuler/eventmesh
   committers:
@@ -79,11 +84,11 @@ repositories:
 - repo:
   - openeuler/amqp-proxy
   committers:
-  - gitee_id: hu-zongtang
-    atomgit_id: ''
-    name: huzongtang
+  - gitee_id: ''
+    atomgit_id: nioplus
+    name: caoping
     organization: Chinamobile
-    email: huzongtang_yewu@cmss.chinamobile.com
+    email: caoping_yewu@cmss.chinamobile.com
 - repo:
   - openeuler/mqtt-proxy
   committers:
