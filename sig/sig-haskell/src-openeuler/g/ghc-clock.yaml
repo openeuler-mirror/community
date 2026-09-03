@@ -4,4 +4,10 @@ upstream: https://hackage.haskell.org/package/clock
 branches:
 - name: master
   type: protected
+- name: openEuler-26.09
+  type: readonly
+  create_from: master
+- name: openEuler-26.09-DevStation
+  type: protected
+  create_from: openEuler-26.09
 type: public
