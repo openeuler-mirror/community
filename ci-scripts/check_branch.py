@@ -70,6 +70,7 @@ class CheckBranch(object):
 
     @staticmethod
     def _read_yaml(file_path):
+        file_msg = None
         if os.path.exists(file_path):
             with open(file_path, 'r', encoding='utf-8') as f:
                 file_msg = yaml.load(f, Loader=yaml.FullLoader)
