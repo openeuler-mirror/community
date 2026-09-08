@@ -32,7 +32,7 @@
 | 树莓派 | raspberrypi-kernel                                | [@woqidaideshi](https://atomgit.com/woqidaideshi) |
 | ACPI   | drivers/acpi/                                                | [@hanjunguo](https://atomgit.com/hanjunguo) [@stkid](https://atomgit.com/stkid) |
 | MPAM   | arch/arm64/kernel/mpam\*<br/>drivers/acpi/arm64/mpam\*<br/>fs/resctrl\*<br/>include/linux/resctrl\*<br/>drivers/platform/mpam | [@henryze](https://atomgit.com/henryze)   |
-| risc-v | arch/risc-v/\*                                                | [@whoisxxx](https://atomgit.com/whoisxxx)  [@xingmz](https://atomgit.com/xingmz1)    |
+| risc-v | arch/risc-v/\*                                                | [@whoisxxx](https://atomgit.com/whoisxxx)  [@xingmz](https://atomgit.com/xingmz1) [@siyanteng](https://atomgit.com/siyanteng)    |
 | smmu   | drivers/iommu/arm/arm-smmu\*<br />drivers/iommu/io-pgtable-arm\*   | [@chen-jun-hw](https://atomgit.com/chen-jun-hw)       |
 | arm    | arch/arm/\*<br/>arch/arm64/\*    | [@chris_zjh](https://atomgit.com/chriszjh) [@zouyipeng](https://atomgit.com/zouyipeng) |
 | powerpc | arch/powerpc/\*    | [@chris_zjh](https://atomgit.com/chriszjh) [@zouyipeng](https://atomgit.com/zouyipeng) |
@@ -83,7 +83,8 @@
 | txgbe    | drivers/net/ethernet/netswift/txgbe | [@zhenpengzheng](https://gitee.com/zhenpengzheng) |
 | hinic    | drivers/net/ethernet/huawei/hinic   | [@chiqijun](https://atomgit.com/chiqijun)           |
 | hifc     | drivers/scsi/huawei/hifc            | [@chenguangli](https://gitee.com/chenguangli)     |
-| nebula-matrix | Documentation/networking/device_drivers/ethernet/nebula-matrix/<br/>drivers/net/ethernet/nebula-matrix/ | open@nebula-matrix.com | 
+| nebula-matrix-ethernet | Documentation/networking/device_drivers/ethernet/nebula-matrix/<br/>drivers/net/ethernet/nebula-matrix/ | open@nebula-matrix.com |
+| nebula-matrix-rdma | drivers/infiniband/hw/nebula-matrix | [@nebulamatrix_rdma](https://atomgit.com/nebulamatrix_rdma) [@peterpangogogo](https://atomgit.com/peterpangogogo) [@howard_lu](https://atomgit.com/howard_lu) |
 | smc      | net/smc/\*            | [@giree2](https://gitee.com/giree2)     |
 
 
@@ -92,7 +93,7 @@
 | 模块<img width=40/>   | 文件<img width=300/>                       | Committer(s) <img width=200/>                     |
 | --------- | ---- | ------------ |
 | security | security/integrity/\*  | [@lujialin2](https://atomgit.com/lujialin2) [@zhujianwei](https://atomgit.com/zhujianwei001) |
-| cve | \*  | [@lujialin2](https://atomgit.com/lujialin2) |
+| cve | \*  | [@lujialin2](https://atomgit.com/lujialin2) [@kunlun_spurs](https://atomgit.com/kunlun_spurs) |
 
 
 ## packaging
