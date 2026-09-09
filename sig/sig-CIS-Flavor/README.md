@@ -44,6 +44,8 @@ The SIG's scope of work includes:
 - Kuzin Artem[@artqzn](https://gitcode.com/artqzn), [artem.kuzin@huawei.com](mailto:artem.kuzin@huawei.com)
 - Skorodumov Dmitry[@dskr991](https://gitcode.com/dskr991), [skorodumov.dmitry@huawei.com](mailto:skorodumov.dmitry@huawei.com)
 - Xing Chaochao [@imxcc](https://gitcode.com/imxcc), [xingchaochao@huawei.com](mailto:xingchaochao@huawei.com)
+- Dmitri Patrakov [@dp8121](https://gitcode.com/dp8121), [patrakov.dmitry@huawei-partners.com](mailto:patrakov.dmitry@huawei-partners.com)
+- Vladimir Pavlov [@pavlovmc](https://gitcode.com/pavlovmc), [pavlov.vladimir@huawei-partners.com](mailto:pavlov.vladimir@huawei-partners.com)  
 
 ## Contact
 - Mailing List: [dev@openeuler.org](mailto:dev@openeuler.org)
