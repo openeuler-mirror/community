@@ -1,0 +1,14 @@
+name: python-annotated-doc
+description: Document parameters, class attributes, return types, and variables
+  inline, with Annotated.
+upstream: https://github.com/fastapi/annotated-doc
+branches:
+- name: master
+  type: protected
+- name: openEuler-26.09
+  type: readonly
+  create_from: master
+- name: openEuler-26.09-DevStation
+  type: protected
+  create_from: openEuler-26.09
+type: public
