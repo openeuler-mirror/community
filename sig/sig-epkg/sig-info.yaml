@@ -32,6 +32,16 @@ maintainers:
   name: Yaqiang Chen
   organization: Huawei
   email: chenyaqiang@huawei.com
+- gitee_id: randy1568
+  atomgit_id: randy1568
+  name: Yuan Lipeng
+  organization: Huawei
+  email: yuanlipeng2@huawei.com
+- gitee_id: xiaoniuzi
+  atomgit_id: xiaoniuzi
+  name: Ding Xudong
+  organization: Huawei
+  email: dingxudong1@huawei.com
 repositories:
 - repo:
   - openeuler/epkg
@@ -50,6 +60,10 @@ repositories:
     atomgit_id: duan_pengjie
     name: Duan Pengjie
     email: duanpengjie@huawei.com
+  - gitee_id: coco12373
+    atomgit_id: coco12373
+    name: Wang Ziwen
+    email: wangziwen30@huawei.com
 - repo:
   - openeuler/meta-openeuler # spec2yaml的输出
   - openeuler/epkg-spec2yaml
