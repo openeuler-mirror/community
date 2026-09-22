@@ -73,6 +73,10 @@
 | bcache    | drivers/md/bcache/ | [@Coly Li](https://gitee.com/colyli) |
 | enfs      | /fs/nfs/enfs       | [@mingqian218472](https://atomgit.com/mingqian218472) |
 | mfs      | fs/mfs<br/>tools/mfs       | [@gang_he](https://atomgit.com/gang_he) [@yubo-liu1](https://atomgit.com/yubo-liu1) |
+| exfat      | fs/exfat      | [@chizl](https://atomgit.com/chizl) |
+| nfs      | fs/nfs<br/>fs/nfsd<br/>fs/nfs_common<br/>net/sunrpc     | [@chenxiaosonggitcode](https://atomgit.com/chenxiaosonggitcode) |
+| smb      | fs/smb      | [@chenxiaosonggitcode](https://atomgit.com/chenxiaosonggitcode) |
+| netfs      | fs/netfs      | [@chenxiaosonggitcode](https://atomgit.com/chenxiaosonggitcode) |
 
 ## network & net drivers
 
@@ -118,6 +122,8 @@
 | motorcomm | drivers/net/ethernet/motorcomm/<br/>drivers/net/phy/motorcomm.c| [@Frank_Sae](https://atomgit.com/Frank_Sae) |
 | virtio | drivers/virtio       | [@wenzhiwei11](https://atomgit.com/wenzhiwei11) |
 | zcopy   | drivers/misc/zcopy    | [@mingrui-liu](https://atomgit.com/mingrui-liu) [@yubo-liu1](https://atomgit.com/yubo-liu1) |
+| mucse   | drivers/net/ethernet/mucse    | [@sinat_17738335](https://atomgit.com/sinat_17738335) |
+| engiant   | drivers/gpu/drm/engiant    | [@hygmm](https://atomgit.com/hygmm) |
 
 ## tools
 | 模块<img width=40/>   | 文件<img width=300/>                       | Committer(s) <img width=200/>                     |
