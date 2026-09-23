@@ -4,4 +4,7 @@ upstream: https://github.com/ROBOTIS-GIT/DynamixelSDK
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public

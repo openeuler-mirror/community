@@ -4,6 +4,9 @@ upstream: https://github.com/ros/executive_smach
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 - name: noetic
   type: protected
   create_from: master
