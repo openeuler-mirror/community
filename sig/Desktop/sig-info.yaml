@@ -67,115 +67,109 @@ maintainers:
   email: 1823363429@qq.com
 repositories:
 - repo:
+  - src-openeuler/bpg-fonts
+  - src-openeuler/brltty
+  - src-openeuler/cairomm
+  - src-openeuler/CharLS
+  - src-openeuler/exiv2
+  - src-openeuler/fish
+  - src-openeuler/fltk
+  - src-openeuler/gccmakedep
+  - src-openeuler/giflib
+  - src-openeuler/gnu-free-fonts
+  - src-openeuler/google-noto-fonts
+  - src-openeuler/graphviz
+  - src-openeuler/gubbi-fonts
+  - src-openeuler/hyperscan
+  - src-openeuler/ibus-hangul
+  - src-openeuler/ibus-kkc
+  - src-openeuler/ibus-libpinyin
   - src-openeuler/ibus-libzhuyin
-  - src-openeuler/xorg-x11-apps
+  - src-openeuler/ibus-m17n
+  - src-openeuler/ibus-sayura
+  - src-openeuler/ibus-sunpinyin
+  - src-openeuler/ibus-table
+  - src-openeuler/ibus-table-array30
+  - src-openeuler/ibus-table-chinese
+  - src-openeuler/ibus-theme-tools
+  - src-openeuler/ibus-typing-booster
+  - src-openeuler/icon-naming-utils
+  - src-openeuler/imake
+  - src-openeuler/imsettings
+  - src-openeuler/jomolhari-fonts
+  - src-openeuler/kacst-fonts
+  - src-openeuler/kde-settings
+  - src-openeuler/kurdit-unikurd-web-fonts
+  - src-openeuler/lato-fonts
+  - src-openeuler/libappindicator
+  - src-openeuler/libEMF
+  - src-openeuler/libimobiledevice
+  - src-openeuler/libimobiledevice-glue
+  - src-openeuler/libiptcdata
+  - src-openeuler/libisal
+  - src-openeuler/libmatchbox
+  - src-openeuler/libmng
+  - src-openeuler/libraqm
+  - src-openeuler/libtatsu
+  - src-openeuler/lndir
   - src-openeuler/luit
+  - src-openeuler/lxsession
+  - src-openeuler/madan-fonts
+  - src-openeuler/makedepend
+  - src-openeuler/nafees-web-naskh-fonts
+  - src-openeuler/navilu-fonts
   - src-openeuler/oclock
+  - src-openeuler/openbox
+  - src-openeuler/paktype-naqsh-fonts
+  - src-openeuler/paktype-naskh-basic-fonts
+  - src-openeuler/paktype-tehreer-fonts
+  - src-openeuler/paratype-pt-sans-fonts
+  - src-openeuler/saab-fonts
+  - src-openeuler/samyak-fonts
+  - src-openeuler/sil-nuosu-fonts
+  - src-openeuler/sil-padauk-fonts
+  - src-openeuler/spice-gtk
+  - src-openeuler/spice-parent
+  - src-openeuler/stix-fonts
+  - src-openeuler/switcheroo-control
+  - src-openeuler/tibetan-machine-uni-fonts
+  - src-openeuler/wxGTK3
   - src-openeuler/x11perf
+  - src-openeuler/x3270
   - src-openeuler/xbiff
   - src-openeuler/xclipboard
   - src-openeuler/xclock
   - src-openeuler/xconsole
   - src-openeuler/xcursorgen
+  - src-openeuler/xdg-desktop-portal
+  - src-openeuler/xdg-user-dirs
+  - src-openeuler/xdg-utils
+  - src-openeuler/xdpyinfo
+  - src-openeuler/xev
   - src-openeuler/xeyes
   - src-openeuler/xfd
   - src-openeuler/xfontsel
   - src-openeuler/xload
   - src-openeuler/xlogo
-  - src-openeuler/xmag
-  - src-openeuler/xmessage
-  - src-openeuler/xpr
-  - src-openeuler/xvidtune
-  - src-openeuler/xwd
-  - src-openeuler/xwud
-  - src-openeuler/xrestop
-  - src-openeuler/cairomm
-  - src-openeuler/ibus-table-array30
-  - src-openeuler/bpg-fonts
-  - src-openeuler/dconf-editor
-  - src-openeuler/gccmakedep
-  - src-openeuler/gnome-system-monitor
-  - src-openeuler/gubbi-fonts
-  - src-openeuler/ibus-hangul
-  - src-openeuler/ibus-libpinyin
-  - src-openeuler/ibus-sayura
-  - src-openeuler/ibus-sunpinyin
-  - src-openeuler/ibus-table
-  - src-openeuler/ibus-typing-booster
-  - src-openeuler/imake
-  - src-openeuler/kacst-fonts
-  - src-openeuler/libappindicator
-  - src-openeuler/lndir
-  - src-openeuler/makedepend
-  - src-openeuler/xorg-cf-files
-  - src-openeuler/xorg-x11-utils
-  - src-openeuler/xdpyinfo
-  - src-openeuler/xev
   - src-openeuler/xlsatoms
   - src-openeuler/xlsclients
   - src-openeuler/xlsfonts
-  - src-openeuler/xprop
-  - src-openeuler/xvinfo
-  - src-openeuler/xwininfo
-  - src-openeuler/xorg-x11-xbitmaps
-  - src-openeuler/openbox
-  - src-openeuler/jomolhari-fonts
-  - src-openeuler/libEMF
-  - src-openeuler/nafees-web-naskh-fonts
-  - src-openeuler/sil-nuosu-fonts
-  - src-openeuler/sil-padauk-fonts
-  - src-openeuler/x3270
+  - src-openeuler/xmag
+  - src-openeuler/xmessage
+  - src-openeuler/xorg-cf-files
+  - src-openeuler/xorg-x11-apps
   - src-openeuler/xorg-x11-docs
-  - src-openeuler/kurdit-unikurd-web-fonts
-  - src-openeuler/lato-fonts
-  - src-openeuler/madan-fonts
-  - src-openeuler/gnome-abrt
-  - src-openeuler/ibus-kkc
-  - src-openeuler/ibus-m17n
-  - src-openeuler/icon-naming-utils
-  - src-openeuler/navilu-fonts
-  - src-openeuler/gnu-free-fonts
-  - src-openeuler/spice-parent
-  - src-openeuler/libisal
-  - src-openeuler/hyperscan
-  - src-openeuler/ibus-table-chinese
-  - src-openeuler/CharLS
-  - src-openeuler/google-noto-fonts
-  - src-openeuler/libraqm
-  - src-openeuler/exiv2
-  - src-openeuler/xdg-user-dirs
+  - src-openeuler/xorg-x11-utils
+  - src-openeuler/xorg-x11-xbitmaps
   - src-openeuler/xorg-x11-xinit
-  - src-openeuler/spice-gtk
-  - src-openeuler/switcheroo-control
-  - src-openeuler/xdg-desktop-portal
-  - src-openeuler/wxGTK3
-  - src-openeuler/kde-settings
-  - src-openeuler/imsettings
-  - src-openeuler/paktype-naqsh-fonts
-  - src-openeuler/paktype-naskh-basic-fonts
-  - src-openeuler/paktype-tehreer-fonts
-  - src-openeuler/saab-fonts
-  - src-openeuler/samyak-fonts
-  - src-openeuler/stix-fonts
-  - src-openeuler/tibetan-machine-uni-fonts
-  - src-openeuler/xdg-user-dirs-gtk
-  - src-openeuler/paratype-pt-sans-fonts
-  - src-openeuler/libmatchbox
-  - src-openeuler/seahorse
-  - src-openeuler/fish
-  - src-openeuler/brltty
-  - src-openeuler/fltk
-  - src-openeuler/giflib
-  - src-openeuler/graphviz
-  - src-openeuler/ibus-theme-tools
-  - src-openeuler/libimobiledevice
-  - src-openeuler/libimobiledevice-glue
-  - src-openeuler/libiptcdata
-  - src-openeuler/libmediaart
-  - src-openeuler/libmng
-  - src-openeuler/libtatsu
-  - src-openeuler/lxsession
-  - src-openeuler/xdg-utils
+  - src-openeuler/xpr
+  - src-openeuler/xprop
+  - src-openeuler/xrestop
+  - src-openeuler/xvidtune
+  - src-openeuler/xvinfo
+  - src-openeuler/xwd
+  - src-openeuler/xwininfo
+  - src-openeuler/xwud
   - src-openeuler/zvbi
   committers:
   - gitee_id: technology208
@@ -195,42 +189,42 @@ repositories:
     name: yanan Li
     email: thistleslyn@163.com
 - repo:
-  - src-openeuler/libcue
-  - src-openeuler/ffmpegthumbnailer
-  - src-openeuler/sunpinyin
-  - src-openeuler/mpv
-  - src-openeuler/rubberband
-  - src-openeuler/libguess
-  - src-openeuler/vamp-plugin-sdk
-  - src-openeuler/mujs
-  - src-openeuler/transmission
-  - src-openeuler/d-feet
   - src-openeuler/aom
   - src-openeuler/blur-effect
   - src-openeuler/byzanz
+  - src-openeuler/d-feet
   - src-openeuler/dav1d
+  - src-openeuler/disomaster
   - src-openeuler/ffmpeg
+  - src-openeuler/ffmpegthumbnailer
   - src-openeuler/gdk-pixbuf-xlib
+  - src-openeuler/gio-qt
+  - src-openeuler/jxrlib
+  - src-openeuler/libbluray
+  - src-openeuler/libcue
+  - src-openeuler/libguess
   - src-openeuler/libgxim
+  - src-openeuler/libmediainfo
+  - src-openeuler/libzen
+  - src-openeuler/mpv
+  - src-openeuler/mujs
   - src-openeuler/nv-codec-headers
   - src-openeuler/opencore-amr
+  - src-openeuler/PackageKit-Qt
+  - src-openeuler/rubberband
   - src-openeuler/soxr
   - src-openeuler/srt
+  - src-openeuler/sunpinyin
+  - src-openeuler/transmission
+  - src-openeuler/udisks2-qt5
+  - src-openeuler/vamp-plugin-sdk
   - src-openeuler/vid.stab
   - src-openeuler/vo-amrwbenc
   - src-openeuler/x264
+  - src-openeuler/x265
   - src-openeuler/xvidcore
   - src-openeuler/zimg
   - src-openeuler/zssh
-  - src-openeuler/x265
-  - src-openeuler/PackageKit-Qt
-  - src-openeuler/disomaster
-  - src-openeuler/gio-qt
-  - src-openeuler/libmediainfo
-  - src-openeuler/libzen
-  - src-openeuler/jxrlib
-  - src-openeuler/libbluray
-  - src-openeuler/udisks2-qt5
   committers:
   - gitee_id: technology208
     atomgit_id: technology208
@@ -241,39 +235,24 @@ repositories:
     name: weidong
     email: weidong@kylinsec.com.cn
 - repo:
+  - src-openeuler/backintime
+  - src-openeuler/geany
+  - src-openeuler/google-croscore-fonts
   - src-openeuler/gst-editing-services
+  - src-openeuler/gstreamer1
   - src-openeuler/gstreamer1-libav
   - src-openeuler/gstreamer1-plugins-bad-free
   - src-openeuler/gstreamer1-plugins-base
   - src-openeuler/gstreamer1-plugins-good
-  - src-openeuler/gstreamer1
   - src-openeuler/gstreamer1-plugins-ugly-free
-  - src-openeuler/gtk3
-  - src-openeuler/gvfs
-  - src-openeuler/json-glib
-  - src-openeuler/libdazzle
-  - src-openeuler/libgdata
-  - src-openeuler/libgee
-  - src-openeuler/gweather-locations
-  - src-openeuler/libgweather
-  - src-openeuler/libgxps
-  - src-openeuler/librsvg2
   - src-openeuler/libX11
-  - src-openeuler/pango
-  - src-openeuler/pipewire
-  - src-openeuler/pyatspi
-  - src-openeuler/xorg-x11-server
-  - src-openeuler/xorg-x11-server-xwayland
-  - src-openeuler/yelp-xsl
-  - src-openeuler/yelp
   - src-openeuler/lightdm
   - src-openeuler/low-memory-monitor
-  - src-openeuler/geany
-  - src-openeuler/viewnior
   - src-openeuler/notepadqq
-  - src-openeuler/backintime
-  - src-openeuler/google-croscore-fonts
-  - src-openeuler/epiphany
+  - src-openeuler/pipewire
+  - src-openeuler/viewnior
+  - src-openeuler/xorg-x11-server
+  - src-openeuler/xorg-x11-server-xwayland
   committers:
   - gitee_id: technology208
     atomgit_id: technology208
@@ -301,26 +280,6 @@ repositories:
     email: peijiankang@kylinos.cn
 - repo:
   - src-openeuler/desktop-file-utils
-  - src-openeuler/evolution-data-server
-  - src-openeuler/gdm
-  - src-openeuler/gjs
-  - src-openeuler/gnome-bluetooth
-  - src-openeuler/gnome-boxes
-  - src-openeuler/gnome-clocks
-  - src-openeuler/gnome-contacts
-  - src-openeuler/gnome-doc-utils
-  - src-openeuler/gnome-icon-theme
-  - src-openeuler/gnome-initial-setup
-  - src-openeuler/gnome-keyring
-  - src-openeuler/gnome-menus
-  - src-openeuler/gnome-screenshot
-  - src-openeuler/gnome-session
-  - src-openeuler/gnome-settings-daemon
-  - src-openeuler/gnome-shell-extensions
-  - src-openeuler/gnome-shell
-  - src-openeuler/gnome-software
-  - src-openeuler/gnome-terminal
-  - src-openeuler/orca
   committers:
   - gitee_id: dwl301
     atomgit_id: dwl301
@@ -341,14 +300,9 @@ repositories:
     name: senlin Xia
     email: xiasenlin1@huawei.com
 - repo:
-  - src-openeuler/abattis-cantarell-fonts
   - src-openeuler/accountsservice
   - src-openeuler/adobe-mappings-cmap
   - src-openeuler/adobe-mappings-pdf
-  - src-openeuler/adwaita-icon-theme
-  - src-openeuler/atk
-  - src-openeuler/at-spi2-atk
-  - src-openeuler/at-spi2-core
   - src-openeuler/augeas
   - src-openeuler/avahi
   - src-openeuler/azote
@@ -356,16 +310,12 @@ repositories:
   - src-openeuler/cairo
   - src-openeuler/cdparanoia
   - src-openeuler/cjkuni-ukai-fonts
-  - src-openeuler/clutter-gtk
-  - src-openeuler/clutter
   - src-openeuler/cockpit
-  - src-openeuler/cogl
-  - src-openeuler/colord
   - src-openeuler/color-filesystem
+  - src-openeuler/colord
   - src-openeuler/comps-extras
-  - src-openeuler/cups-pk-helper
   - src-openeuler/cups
-  - src-openeuler/dconf
+  - src-openeuler/cups-pk-helper
   - src-openeuler/emacs
   - src-openeuler/enchant
   - src-openeuler/fontconfig
@@ -373,27 +323,18 @@ repositories:
   - src-openeuler/freetype
   - src-openeuler/fribidi
   - src-openeuler/gamemode
-  - src-openeuler/GConf2
-  - src-openeuler/gcr
-  - src-openeuler/glycin
-  - src-openeuler/gdk-pixbuf2
   - src-openeuler/gd
   - src-openeuler/geoclue2
-  - src-openeuler/geocode-glib
-  - src-openeuler/glade
   - src-openeuler/google-droid-fonts
   - src-openeuler/google-noto-cjk-fonts
+  - src-openeuler/google-noto-emoji-fonts
   - src-openeuler/google-noto-sans-cjk-fonts
   - src-openeuler/google-noto-sans-cjk-vf-fonts
   - src-openeuler/google-noto-serif-cjk-fonts
   - src-openeuler/google-noto-serif-cjk-vf-fonts
-  - src-openeuler/google-noto-emoji-fonts
   - src-openeuler/gpm
   - src-openeuler/graphite2
-  - src-openeuler/grilo
-  - src-openeuler/gsettings-desktop-schemas
   - src-openeuler/gsm
-  - src-openeuler/gtk2
   - src-openeuler/guile
   - src-openeuler/gv
   - src-openeuler/harfbuzz
@@ -405,34 +346,25 @@ repositories:
   - src-openeuler/kbd
   - src-openeuler/keybinder3
   - src-openeuler/lcms2
-  - src-openeuler/libart_lgpl
   - src-openeuler/libasyncns
   - src-openeuler/libatasmart
-  - src-openeuler/libbonoboui
-  - src-openeuler/libbonobo
   - src-openeuler/libcacard
   - src-openeuler/libcanberra
-  - src-openeuler/libcdio-paranoia
   - src-openeuler/libcdio
+  - src-openeuler/libcdio-paranoia
   - src-openeuler/libdmx
   - src-openeuler/libdrm
   - src-openeuler/libepoxy
   - src-openeuler/libexif
   - src-openeuler/libfontenc
-  - src-openeuler/libglade2
   - src-openeuler/libglvnd
-  - src-openeuler/libgtop2
-  - src-openeuler/libgudev
   - src-openeuler/libgusb
   - src-openeuler/libICE
   - src-openeuler/libjpeg-turbo
   - src-openeuler/libldb
-  - src-openeuler/libnotify
   - src-openeuler/libSM
-  - src-openeuler/libsoup
   - src-openeuler/libtiff
   - src-openeuler/libwebp
-  - src-openeuler/libwnck3
   - src-openeuler/libx86emu
   - src-openeuler/libXau
   - src-openeuler/libXaw
@@ -445,39 +377,35 @@ repositories:
   - src-openeuler/libXfixes
   - src-openeuler/libXfont2
   - src-openeuler/libXft
-  - src-openeuler/libXinerama
   - src-openeuler/libXi
+  - src-openeuler/libXinerama
   - src-openeuler/libxkbcommon
   - src-openeuler/libxkbfile
-  - src-openeuler/libxklavier
   - src-openeuler/libXmu
   - src-openeuler/libXpm
   - src-openeuler/libXrandr
   - src-openeuler/libXrender
   - src-openeuler/libXres
   - src-openeuler/libxshmfence
-  - src-openeuler/libXtst
   - src-openeuler/libXt
-  - src-openeuler/libXvMC
+  - src-openeuler/libXtst
   - src-openeuler/libXv
+  - src-openeuler/libXvMC
   - src-openeuler/libXxf86dga
   - src-openeuler/libXxf86vm
   - src-openeuler/mailx
-  - src-openeuler/mesa-libGLU
   - src-openeuler/mesa
+  - src-openeuler/mesa-libGLU
   - src-openeuler/metacity
   - src-openeuler/mkfontscale
   - src-openeuler/mozilla-filesystem
-  - src-openeuler/mozjs78
-  - src-openeuler/mozjs91
   - src-openeuler/openjpeg2
-  - src-openeuler/ORBit2
   - src-openeuler/PackageKit
   - src-openeuler/pinentry
   - src-openeuler/pixman
   - src-openeuler/plymouth
-  - src-openeuler/poppler-data
   - src-openeuler/poppler
+  - src-openeuler/poppler-data
   - src-openeuler/pycairo
   - src-openeuler/python-coverage
   - src-openeuler/python-dmidecode
@@ -485,7 +413,6 @@ repositories:
   - src-openeuler/python-ntplib
   - src-openeuler/pytz
   - src-openeuler/qrencode
-  - src-openeuler/rest
   - src-openeuler/rgb
   - src-openeuler/rtkit
   - src-openeuler/satyr
@@ -498,9 +425,8 @@ repositories:
   - src-openeuler/shared-mime-info
   - src-openeuler/sound-theme-freedesktop
   - src-openeuler/source-highlight
-  - src-openeuler/spice-vdagent
   - src-openeuler/spice
-  - src-openeuler/sysprof
+  - src-openeuler/spice-vdagent
   - src-openeuler/taglib
   - src-openeuler/telepathy-filesystem
   - src-openeuler/telepathy-glib
@@ -512,7 +438,6 @@ repositories:
   - src-openeuler/tmux
   - src-openeuler/update-desktop-files
   - src-openeuler/urw-base35-fonts
-  - src-openeuler/vino
   - src-openeuler/wayland
   - src-openeuler/webkitgtk
   - src-openeuler/webrtc-audio-processing
@@ -543,8 +468,8 @@ repositories:
   - src-openeuler/xorg-x11-drv-vesa
   - src-openeuler/xorg-x11-drv-vmware
   - src-openeuler/xorg-x11-drv-wacom
-  - src-openeuler/xorg-x11-fonts
   - src-openeuler/xorg-x11-font-utils
+  - src-openeuler/xorg-x11-fonts
   - src-openeuler/xorg-x11-server-utils
   - src-openeuler/xorg-x11-xauth
   - src-openeuler/xorg-x11-xkb-utils
@@ -556,10 +481,9 @@ repositories:
   - src-openeuler/xstdcmap
   - src-openeuler/xterm
   - src-openeuler/xvattr
+  - src-openeuler/yp-tools
   - src-openeuler/ypbind
   - src-openeuler/ypserv
-  - src-openeuler/yp-tools
-  - src-openeuler/zenity
   committers:
   - gitee_id: yanan-rock
     atomgit_id: yanan-rock
@@ -574,18 +498,17 @@ repositories:
     name: xiaopeng wang
     email: wangxiaopeng7@huawei.com
 - repo:
-  - src-openeuler/shaderc
+  - src-openeuler/appres
+  - src-openeuler/castxml
+  - src-openeuler/cockpit-machines
+  - src-openeuler/edid-decode
   - src-openeuler/htmlcxx
+  - src-openeuler/liblc3
+  - src-openeuler/libplacebo
   - src-openeuler/lucenepp
   - src-openeuler/mimetic
-  - src-openeuler/castxml
-  - src-openeuler/appres
-  - src-openeuler/libplacebo
-  - src-openeuler/edid-decode
-  - src-openeuler/liblc3
+  - src-openeuler/shaderc
   - src-openeuler/svt-av1
-  - src-openeuler/cockpit-machines
-  - src-openeuler/mozjs140
   committers:
   - gitee_id: open-bot
     atomgit_id: openbot
@@ -606,17 +529,17 @@ repositories:
     name: zhangyinuo
     email: zhangyinuo4@h-partners.com
 - repo:
+  - openeuler/devstation-config
   - src-openeuler/calamares
   - src-openeuler/devstation-config
-  - openeuler/devstation-config
   committers:
   - gitee_id: lipingEmmaSiguyi
     atomgit_id: lipingEmmaSiguyi
     name: Li Ping
     email: 1477412247@qq.com
 - repo:
-  - src-openeuler/liteview
   - openeuler/liteview
+  - src-openeuler/liteview
   committers:
   - gitee_id: xuyanziming
     atomgit_id: xuyanziming
@@ -638,3 +561,38 @@ repositories:
     atomgit_id: cybran1024
     name: liboyuan
     email: cybran1024@outlook.com
+- repo:
+  - src-openeuler/bubblemail
+  - src-openeuler/callaudiod
+  - src-openeuler/cmark
+  - src-openeuler/editorconfig
+  - src-openeuler/feedbackd
+  - src-openeuler/flatpak-builder
+  - src-openeuler/libjcat
+  - src-openeuler/libldac
+  - src-openeuler/libportal
+  - src-openeuler/libvncserver
+  - src-openeuler/libxcvt
+  - src-openeuler/malcontent
+  - src-openeuler/python-dbusmock
+  - src-openeuler/python-smartypants
+  - src-openeuler/qgnomeplatform
+  - src-openeuler/sofia-sip
+  - src-openeuler/terminator
+  - src-openeuler/uhttpmock
+  - src-openeuler/webp-pixbuf-loader
+  committers:
+  - gitee_id: technology208
+    atomgit_id: technology208
+    name: Guo Zhiqiang
+    email: technology@208suo.com
+  - gitee_id: weijin-deng
+    atomgit_id: ''
+    name: Deng Weijin
+    organization: Turbolinux
+    email: weijin.deng@turbolinux.com.cn
+  - gitee_id: lvgenggeng
+    atomgit_id: lvgenggeng
+    name: Lv Genggeng
+    organization: Uniontech
+    email: lvgenggeng@uniontech.com

@@ -39,126 +39,110 @@ maintainers:
   eamil: 1823363429@qq.com
 repositories:
 - repo:
-  - src-openeuler/feedbackd
+  - src-openeuler/atkmm
+  - src-openeuler/baobab
+  - src-openeuler/blueprint-compiler
+  - src-openeuler/calls
+  - src-openeuler/d-spy
+  - src-openeuler/eog
+  - src-openeuler/evince
   - src-openeuler/file-roller
   - src-openeuler/folks
   - src-openeuler/foundry
-  - src-openeuler/flatpak-builder
-  - src-openeuler/callaudiod
-  - src-openeuler/calls
-  - src-openeuler/cmark
-  - src-openeuler/yelp-tools
-  - src-openeuler/jsonrpc-glib
-  - src-openeuler/xdg-desktop-portal-gnome
-  - src-openeuler/libchamplain
-  - src-openeuler/libportal
-  - src-openeuler/libldac
-  - src-openeuler/libadwaita
-  - src-openeuler/libpeas
-  - src-openeuler/libpeas2
-  - src-openeuler/libgnomecanvas
-  - src-openeuler/libvncserver
-  - src-openeuler/libxcvt
-  - src-openeuler/libjcat
-  - src-openeuler/libgnomekbd
-  - src-openeuler/libgnome
-  - src-openeuler/libsoup3
-  - src-openeuler/rygel
-  - src-openeuler/nautilus
-  - src-openeuler/evince
-  - src-openeuler/eog
-  - src-openeuler/qgnomeplatform
-  - src-openeuler/vte291
-  - src-openeuler/vala
-  - src-openeuler/gnome-desktop3
-  - src-openeuler/gnome-autoar
-  - src-openeuler/gupnp-dlna
-  - src-openeuler/gnome-logs
-  - src-openeuler/gnome-getting-started-docs
-  - src-openeuler/gsound
-  - src-openeuler/graphene
-  - src-openeuler/gnome-characters
-  - src-openeuler/grilo-plugins
-  - src-openeuler/gnome-font-viewer
-  - src-openeuler/gnome-maps
-  - src-openeuler/gnome-shell-extension-gsconnect
-  - src-openeuler/gnome-shell-extension-bubblemail
-  - src-openeuler/gnome-vfs2
-  - src-openeuler/gspell
-  - src-openeuler/gnome-shell-extension-caffeine
-  - src-openeuler/gnome-user-docs
-  - src-openeuler/gtk-vnc
-  - src-openeuler/gtk-doc
-  - src-openeuler/gnome-weather
-  - src-openeuler/gnome-color-manager
-  - src-openeuler/gnome-backgrounds
-  - src-openeuler/gnome-shell-extension-dash-to-dock
-  - src-openeuler/gnome-control-center
-  - src-openeuler/gedit-control-your-tabs
-  - src-openeuler/gnome-shell-extension-appindicator
-  - src-openeuler/gnome-calendar
   - src-openeuler/gcab
-  - src-openeuler/gtksourceview5
-  - src-openeuler/gnome-user-share
+  - src-openeuler/gcr4
+  - src-openeuler/gedit
+  - src-openeuler/gedit-control-your-tabs
+  - src-openeuler/gi-docgen
+  - src-openeuler/glib-networking
+  - src-openeuler/gnome-autoar
+  - src-openeuler/gnome-backgrounds
+  - src-openeuler/gnome-builder
+  - src-openeuler/gnome-calculator
+  - src-openeuler/gnome-calendar
+  - src-openeuler/gnome-characters
+  - src-openeuler/gnome-color-manager
+  - src-openeuler/gnome-connections
+  - src-openeuler/gnome-console
+  - src-openeuler/gnome-control-center
+  - src-openeuler/gnome-desktop3
+  - src-openeuler/gnome-disk-utility
+  - src-openeuler/gnome-font-viewer
+  - src-openeuler/gnome-getting-started-docs
+  - src-openeuler/gnome-logs
+  - src-openeuler/gnome-manuals
+  - src-openeuler/gnome-maps
+  - src-openeuler/gnome-music
+  - src-openeuler/gnome-online-accounts
+  - src-openeuler/gnome-remote-desktop
+  - src-openeuler/gnome-shell-extension-appindicator
+  - src-openeuler/gnome-shell-extension-bubblemail
+  - src-openeuler/gnome-shell-extension-caffeine
+  - src-openeuler/gnome-shell-extension-customize-ibus
+  - src-openeuler/gnome-shell-extension-dash-to-dock
+  - src-openeuler/gnome-shell-extension-desktop-icons
+  - src-openeuler/gnome-shell-extension-disconnect-wifi
+  - src-openeuler/gnome-shell-extension-gsconnect
+  - src-openeuler/gnome-shell-extension-historymanager-prefix-search
   - src-openeuler/gnome-shell-extension-system-monitor-applet
   - src-openeuler/gnome-shell-extension-topicons-plus
-  - src-openeuler/gnome-music
-  - src-openeuler/glib-networking
-  - src-openeuler/gnome-shell-extension-historymanager-prefix-search
-  - src-openeuler/gnome-themes-standard
-  - src-openeuler/gnome-remote-desktop
-  - src-openeuler/gom
-  - src-openeuler/gnome-disk-utility
-  - src-openeuler/gnome-online-accounts
-  - src-openeuler/gnome-connections
-  - src-openeuler/gnome-builder
-  - src-openeuler/gnome-shell-extension-disconnect-wifi
-  - src-openeuler/gnome-tour
-  - src-openeuler/gnome-calculator
-  - src-openeuler/gnome-text-editor
   - src-openeuler/gnome-shell-extension-windowoverlay-icons
-  - src-openeuler/gi-docgen
-  - src-openeuler/gnome-shell-extension-desktop-icons
-  - src-openeuler/gnome-tweaks
-  - src-openeuler/gnome-shell-extension-customize-ibus
-  - src-openeuler/gedit
   - src-openeuler/gnome-shell-theme-flat-remix
-  - src-openeuler/gnome-console
-  - src-openeuler/atkmm
-  - src-openeuler/tracker3-miners
-  - src-openeuler/localsearch
-  - src-openeuler/tinysparql
-  - src-openeuler/terminator
-  - src-openeuler/tepl
-  - src-openeuler/tracker3
-  - src-openeuler/template-glib
-  - src-openeuler/python-dbusmock
-  - src-openeuler/python-smartypants
-  - src-openeuler/phodav
-  - src-openeuler/sofia-sip
-  - src-openeuler/simple-scan
-  - src-openeuler/mutter
-  - src-openeuler/mm-common
-  - src-openeuler/baobab
-  - src-openeuler/bubblemail
-  - src-openeuler/d-spy
-  - src-openeuler/editorconfig
+  - src-openeuler/gnome-text-editor
+  - src-openeuler/gnome-themes-standard
+  - src-openeuler/gnome-tour
+  - src-openeuler/gnome-tweaks
+  - src-openeuler/gnome-user-docs
+  - src-openeuler/gnome-user-share
+  - src-openeuler/gnome-vfs2
+  - src-openeuler/gnome-weather
+  - src-openeuler/gom
+  - src-openeuler/graphene
+  - src-openeuler/grilo-plugins
+  - src-openeuler/gsound
+  - src-openeuler/gspell
+  - src-openeuler/gtk-doc
+  - src-openeuler/gtk-vnc
+  - src-openeuler/gtksourceview5
+  - src-openeuler/gupnp-dlna
+  - src-openeuler/jsonrpc-glib
+  - src-openeuler/libadwaita
+  - src-openeuler/libchamplain
   - src-openeuler/libcloudproviders
-  - src-openeuler/libglib-testing
+  - src-openeuler/libdex
   - src-openeuler/libgedit-amtk
   - src-openeuler/libgedit-gfls
   - src-openeuler/libgedit-gtksourceview
   - src-openeuler/libgedit-tepl
+  - src-openeuler/libglib-testing
+  - src-openeuler/libgnome
+  - src-openeuler/libgnomecanvas
+  - src-openeuler/libgnomekbd
   - src-openeuler/libpanel
+  - src-openeuler/libpeas
+  - src-openeuler/libpeas2
   - src-openeuler/libshumate
-  - src-openeuler/malcontent
+  - src-openeuler/libsoup3
+  - src-openeuler/localsearch
+  - src-openeuler/mm-common
   - src-openeuler/mozjs102
-  - src-openeuler/uhttpmock
-  - src-openeuler/gcr4
-  - src-openeuler/webp-pixbuf-loader
-  - src-openeuler/libdex
-  - src-openeuler/gnome-manuals
-  - src-openeuler/blueprint-compiler
+  - src-openeuler/mozjs140
+  - src-openeuler/mozjs78
+  - src-openeuler/mozjs91
+  - src-openeuler/mutter
+  - src-openeuler/nautilus
+  - src-openeuler/phodav
+  - src-openeuler/rygel
+  - src-openeuler/simple-scan
+  - src-openeuler/template-glib
+  - src-openeuler/tepl
+  - src-openeuler/tinysparql
+  - src-openeuler/tracker3
+  - src-openeuler/tracker3-miners
+  - src-openeuler/vala
+  - src-openeuler/vte291
+  - src-openeuler/xdg-desktop-portal-gnome
+  - src-openeuler/yelp-tools
   committers:
   - gitee_id: technology208
     atomgit_id: technology208
@@ -174,3 +158,155 @@ repositories:
     name: Lv Genggeng
     organization: Uniontech
     email: lvgenggeng@uniontech.com
+- repo:
+  - src-openeuler/dconf-editor
+  - src-openeuler/gnome-abrt
+  - src-openeuler/gnome-system-monitor
+  - src-openeuler/libmediaart
+  - src-openeuler/seahorse
+  - src-openeuler/xdg-user-dirs-gtk
+  committers:
+  - gitee_id: technology208
+    atomgit_id: technology208
+    name: Guo Zhiqiang
+    email: technology@208suo.com
+  - gitee_id: Lostwayzxc
+    atomgit_id: lostway1
+    name: Luo Shengwei
+    email: luoshengwei@huawei.com
+  - gitee_id: small_leek
+    atomgit_id: small_leek
+    name: senlin Xia
+    email: xiasenlin1@huawei.com
+  - gitee_id: lyn1001
+    atomgit_id: lyn1001
+    name: yanan Li
+    email: thistleslyn@163.com
+- repo:
+  - src-openeuler/epiphany
+  - src-openeuler/gtk3
+  - src-openeuler/gvfs
+  - src-openeuler/gweather-locations
+  - src-openeuler/json-glib
+  - src-openeuler/libdazzle
+  - src-openeuler/libgdata
+  - src-openeuler/libgee
+  - src-openeuler/libgweather
+  - src-openeuler/libgxps
+  - src-openeuler/librsvg2
+  - src-openeuler/pango
+  - src-openeuler/pyatspi
+  - src-openeuler/yelp
+  - src-openeuler/yelp-xsl
+  committers:
+  - gitee_id: technology208
+    atomgit_id: technology208
+    name: Guo Zhiqiang
+    email: technology@208suo.com
+  - gitee_id: dwl301
+    atomgit_id: dwl301
+    name: wenlong ding
+    email: wenlong.ding@turbolinux.com.cn
+  - gitee_id: dou33
+    atomgit_id: dou33
+    name: Dou Yan
+    organization: KylinSoft
+    email: douyan@kylinos.cn
+  - gitee_id: weijin-deng
+    atomgit_id: ''
+    email: weijin.deng@turbolinux.com.cn
+  - gitee_id: zhang__3125
+    atomgit_id: zhang__3125
+    email: lin.zhang@turbolinux.com.cn
+  - gitee_id: peijiankang
+    atomgit_id: peijiankang
+    name: peijiankang
+    organization: KylinSoft
+    email: peijiankang@kylinos.cn
+- repo:
+  - src-openeuler/evolution-data-server
+  - src-openeuler/gdm
+  - src-openeuler/gjs
+  - src-openeuler/gnome-bluetooth
+  - src-openeuler/gnome-boxes
+  - src-openeuler/gnome-clocks
+  - src-openeuler/gnome-contacts
+  - src-openeuler/gnome-doc-utils
+  - src-openeuler/gnome-icon-theme
+  - src-openeuler/gnome-initial-setup
+  - src-openeuler/gnome-keyring
+  - src-openeuler/gnome-menus
+  - src-openeuler/gnome-screenshot
+  - src-openeuler/gnome-session
+  - src-openeuler/gnome-settings-daemon
+  - src-openeuler/gnome-shell
+  - src-openeuler/gnome-shell-extensions
+  - src-openeuler/gnome-software
+  - src-openeuler/gnome-terminal
+  - src-openeuler/orca
+  committers:
+  - gitee_id: dwl301
+    atomgit_id: dwl301
+    name: wenlong ding
+    email: wenlong.ding@turbolinux.com.cn
+  - gitee_id: weijin-deng
+    atomgit_id: ''
+    email: weijin.deng@turbolinux.com.cn
+  - gitee_id: zhang__3125
+    atomgit_id: zhang__3125
+    email: lin.zhang@turbolinux.com.cn
+  - gitee_id: Lostwayzxc
+    atomgit_id: lostway1
+    name: Luo Shengwei
+    email: luoshengwei@huawei.com
+  - gitee_id: small_leek
+    atomgit_id: small_leek
+    name: senlin Xia
+    email: xiasenlin1@huawei.com
+- repo:
+  - src-openeuler/GConf2
+  - src-openeuler/ORBit2
+  - src-openeuler/abattis-cantarell-fonts
+  - src-openeuler/adwaita-icon-theme
+  - src-openeuler/at-spi2-atk
+  - src-openeuler/at-spi2-core
+  - src-openeuler/atk
+  - src-openeuler/clutter
+  - src-openeuler/clutter-gtk
+  - src-openeuler/cogl
+  - src-openeuler/dconf
+  - src-openeuler/gcr
+  - src-openeuler/gdk-pixbuf2
+  - src-openeuler/geocode-glib
+  - src-openeuler/glade
+  - src-openeuler/glycin
+  - src-openeuler/grilo
+  - src-openeuler/gsettings-desktop-schemas
+  - src-openeuler/gtk2
+  - src-openeuler/libart_lgpl
+  - src-openeuler/libbonobo
+  - src-openeuler/libbonoboui
+  - src-openeuler/libglade2
+  - src-openeuler/libgtop2
+  - src-openeuler/libgudev
+  - src-openeuler/libnotify
+  - src-openeuler/libsoup
+  - src-openeuler/libwnck3
+  - src-openeuler/libxklavier
+  - src-openeuler/rest
+  - src-openeuler/sysprof
+  - src-openeuler/vino
+  - src-openeuler/zenity
+  committers:
+  - gitee_id: yanan-rock
+    atomgit_id: yanan-rock
+    name: yanan
+    email: yanan@huawei.com
+  - gitee_id: t_feng
+    atomgit_id: t_feng
+    name: fengtao
+    email: fengtao40@huawei.com
+  - gitee_id: wangxp006
+    atomgit_id: wangxp006
+    name: xiaopeng wang
+    email: wangxiaopeng7@huawei.com
