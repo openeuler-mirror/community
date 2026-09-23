@@ -4,4 +4,7 @@ upstream: https://github.com/facontidavide/rosx_introspection.git
 branches:
 - name: master
   type: protected
+- name: humble
+  type: protected
+  create_from: master
 type: public
