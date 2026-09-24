@@ -1,0 +1,7 @@
+name: elemental-toolkit
+description: Elemental-toolkit is a toolkit to build, ship and maintain cloud-init driven Linux derivatives based on container images with a common featureset - allows container images to be bootable in VMs, baremetals, embedded devices, and much more.
+upstream: https://github.com/rancher/elemental-toolkit
+branches:
+- name: master
+  type: protected
+type: public
