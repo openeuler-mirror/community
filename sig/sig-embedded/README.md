@@ -11,7 +11,7 @@ Embedded SIG致力于openEuler Embedded版本开发，使其能够广泛应用�
 # 成员
 
 ### Maintainer列表
-- 任  慰[@vonhust](https://gitee.com/vonhust)
+- 任  慰[@vonhust](https://atomgit.com/vonhust)
 - 李新宇[@alichinese](https://gitee.com/alichinese_admin)
 - 方林旭[@fanglinxu](https://gitee.com/fanglinxu)
 

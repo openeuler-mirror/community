@@ -12,7 +12,7 @@ English | [简体中文](./sig-embedded_cn.md)
 - The development and maintenance  of openEuler Embedded
 
 ### Maintainers
-- Wayne Ren[@vonhust](https://gitee.com/vonhust)
+- Wayne Ren[@vonhust](https://https://atomgit.com/vonhust)
 - Xinyu Li[@alichinese_admin](https://gitee.com/alichinese_admin)
 - Linxu Fang[@fanglinxu](https://gitee.com/fanglinxu)
 

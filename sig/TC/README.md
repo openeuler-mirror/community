@@ -33,7 +33,7 @@ openEuler技术委员会（Technical Committee，以下和TC互换使用）是op
 - 刘  恺<kraml.liu@gmail.com> [[@kailiu42](https://gitee.com/kailiu42)]
 - 吕从庆<lvcongqing@uniontech.com> [[@HelloWorld_lvcongqing](https://gitee.com/HelloWorld_lvcongqing)]
 - 马全一<eli@patch.sh> [[@genedna](https://gitee.com/genedna)]
-- 任  慰<renwei41@huawei.com> [[@vonhust](https://gitee.com/vonhust)]
+- 任  慰<renwei@kylinos.cn> [[@vonhust](https://atomgit.com/vonhust)]
 - 石  勇<shiyong@kylinos.com.cn> [[@stonefly128](https://gitee.com/stonefly128)]
 - 唐葛亮<geliang@kernel.org> [[@geliangtang](https://gitee.com/geliangtang)]
 - 田  俊<jun.j.tian@intel.com> [[@juntianlinux](https://gitee.com/juntianlinux)]

@@ -32,7 +32,7 @@ The list of TC members is organized alphabetically by last name:
 - Liu Kai <kraml.liu@gmail.com> [[@kailiu42](https://gitee.com/kailiu42)]
 - Lv Chongqing <lvcongqing@uniontech.com> [[@HelloWorld_lvcongqing](https://gitee.com/HelloWorld_lvcongqing)]
 - Ma Quanyi<eli@patch.sh> [[@genedna](https://gitee.com/genedna)]
-- Ren Wei <renwei41@huawei.com> [[@vonhust](https://gitee.com/vonhust)]
+- Ren Wei <renwei@kylinos.cn> [[@vonhust](https://atomgit.com/vonhust)]
 - Shi Yong <shiyong@kylinos.com.cn> [[@stonefly128](https://gitee.com/stonefly128)]
 - Tang Geliang <geliang@kernel.org> [[@geliangtang](https://gitee.com/geliangtang)]
 - Tian Jun <jun.j.tian@intel.com> [[@juntianlinux](https://gitee.com/juntianlinux)]

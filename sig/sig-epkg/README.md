@@ -77,7 +77,7 @@ epkg sig 致力于打造新型包管理体系，为开发者和用户提供便�
 - 吴峰光[@wu_fengguang](https://gitee.com/wu_fengguang)
 - 段鹏杰[@duan_pj](https://gitee.com/duan_pj)
 - 刘恺[@kailiu42](https://gitee.com/kailiu42)
-- 任慰[@vonhust](https://gitee.com/vonhust)
+- 任慰[@vonhust](https://atomgit.com/vonhust)
 - 陈亚强[@yaqiangchen](https://gitee.com/yaqiangchen)
 - FundaWang [@fundawang](https://gitee.com/fundawang)
 
