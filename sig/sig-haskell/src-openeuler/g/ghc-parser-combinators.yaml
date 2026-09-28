@@ -4,6 +4,9 @@ upstream: https://hackage.haskell.org/package/parser-combinators
 branches:
 - name: master
   type: protected
+- name: openEuler-26.09
+  type: protected
+  create_from: openEuler-26.09-DevStation
 - name: openEuler-26.09-DevStation
   type: protected
   create_from: openEuler-26.09
