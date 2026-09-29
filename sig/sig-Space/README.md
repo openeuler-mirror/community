@@ -48,12 +48,12 @@
 
 ### Mentor 列表
 
-- 任慰[@vonhust](https://atomgit.com/vonhust): <191362693@qq.com>
+- 任慰[@vonhust](https://atomgit.com/vonhust): <renwei@kylinos.cn>
 - Kai Liu[@kailiu42](https://atomgit.com/kailiu42): <kraml.liu@gmail.com>
 
 ### Maintainer 列表
 
-- 任慰[@vonhust](https://atomgit.com/vonhust): <191362693@qq.com>
+- 任慰[@vonhust](https://atomgit.com/vonhust): <renwei@kylinos.cn>
 - 蔡鑫奇[@openHongYu](https://atomgit.com/openHongYu): <caixinqi@yfzx.space>
 - 郑国玲[@zhengguoling](https://atomgit.com/zhengguoling): <zhengguoling@cdjrlc.com>
 - 李弘宇[@LHY1999](https://atomgit.com/LHY1999): <543306408@qq.com>

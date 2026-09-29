@@ -35,8 +35,7 @@
 
 ### mentors
 
-- 任慰[@vonhust](https://gitee.com/vonhust)，*[191362693@qq.com](mailto:191362693@qq.com)*
-
+- 任慰[@vonhust](https://atomgit.com/vonhust)，*[renwei@kylinos.cn](mailto:renwei@kylinos.cn)*
 
 ### Maintainer列表
 
@@ -57,7 +56,7 @@
 # 联系方式
 
 - [邮件列表](sig-BMC@openeuler.org)
-- 191362693@qq.com
+- renwei@kylinos.cn
 - songtongling@outlook.com
 - maoaliwy@126.com
 - penglinmails@163.com
