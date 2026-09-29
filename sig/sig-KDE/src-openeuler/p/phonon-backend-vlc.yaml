@@ -4,6 +4,9 @@ upstream: https://invent.kde.org/libraries/phonon-vlc
 branches:
 - name: master
   type: protected
+- name: openEuler-26.09
+  type: protected
+  create_from: openEuler-26.09-DevStation
 - name: openEuler-26.09-DevStation
   type: protected
   create_from: openEuler-26.09
