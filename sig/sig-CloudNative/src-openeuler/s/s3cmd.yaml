@@ -1,0 +1,7 @@
+name: s3cmd
+description: S3cmd tool for Amazon Simple Storage Service (S3)
+upstream: https://github.com/s3tools/s3cmd
+branches:
+- name: master
+  type: protected
+type: public
