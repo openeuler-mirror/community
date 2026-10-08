@@ -1,0 +1,11 @@
+name: aravis
+description: 'Aravis 0.8 library for GigE Vision and USB3 Vision cameras'
+upstream: https://github.com/AravisProject/aravis.git
+platform: atomgit
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public
