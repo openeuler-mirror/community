@@ -1,0 +1,7 @@
+name: log-insight
+description: Designed for operations and maintenance (O&M) personnel, the LogInsight intelligent fault diagnosis platform leverages AI capabilities to support rule-based inspection matching and in-depth AI analysis of hardware logs. It automatically extracts insights regarding errors and anomaly warnings, generates integrated analysis reports, and helps O&M staff efficiently assess faults, shorten end-to-end log analysis cycles, and improve the efficiency of fault resolution.
+upstream: https://atomgit.com/openeuler/log-insight
+branches:
+- name: master
+  type: protected
+type: public
