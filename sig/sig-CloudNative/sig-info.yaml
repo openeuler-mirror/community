@@ -185,7 +185,6 @@ repositories:
 - repo:
   - openeuler/KubeOS
   - src-openeuler/KubeOS
-  - src-openeuler/elemental-toolkit
   committers:
   - gitee_id: li-yuanrong
     atomgit_id: li-yuanrong
@@ -413,6 +412,19 @@ repositories:
     name: Renjian Zhou
     organization: Huawei
     email: zhourenjian@huawei.com
+- repo:
+  - src-openeuler/elemental-toolkit
+  committers:
+  - gitee_id: li-yuanrong
+    atomgit_id: li-yuanrong
+    name: Yuanrong Li
+    organization: Huawei
+    email: liyuanrong1@huawei.com
+  - gitee_id: Accessac
+    atomgit_id: Accessac
+    name: Jing Wang
+    organization: Uniontech
+    email: wangjing@uniontech.com
 branches:
 - repo_branch:
   - repo: src-openeuler/protobuf
