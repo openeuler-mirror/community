@@ -124,6 +124,7 @@
 | zcopy   | drivers/misc/zcopy    | [@mingrui-liu](https://atomgit.com/mingrui-liu) [@yubo-liu1](https://atomgit.com/yubo-liu1) |
 | mucse   | drivers/net/ethernet/mucse    | [@sinat_17738335](https://atomgit.com/sinat_17738335) |
 | engiant   | drivers/gpu/drm/engiant    | [@hygmm](https://atomgit.com/hygmm) |
+| wangxun   | drivers/net/ethernet/wangxun<br/>drivers/net/ethernet/netswift    | [@duanqiangwen](https://atomgit.com/duanqiangwen) [@linyuexie1](https://atomgit.com/linyuexie1) |
 
 ## tools
 | 模块<img width=40/>   | 文件<img width=300/>                       | Committer(s) <img width=200/>                     |
