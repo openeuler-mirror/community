@@ -3,6 +3,9 @@ description: crius is a middleware service for podflow that provides podflow wit
 upstream: https://atomgit.com/openeuler/crius
 type: public
 branches:
+  - name: openEuler-24.03-LTS-Next
+    type: protected
+    create_from: master
   - name: master
     type: protected
   - name: openEuler-26.09-DevStation
