@@ -1,0 +1,7 @@
+name: kde-qdoc-common
+description: This repo contains common files for KDE's API documentation. Individual projects include it in their documentation builds.
+type: public
+upstream: https://invent.kde.org/sdk/kde-qdoc-common
+branches:
+  - name: master
+    type: protected
