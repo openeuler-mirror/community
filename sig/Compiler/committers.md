@@ -238,11 +238,13 @@
 [src-openeuler/llvm-toolset-18](https://atomgit.com/src-openeuler/llvm-toolset-18)<br/>
 [src-openeuler/llvm-toolset-19](https://atomgit.com/src-openeuler/llvm-toolset-19)<br/>
 [src-openeuler/llvm-toolset-20](https://atomgit.com/src-openeuler/llvm-toolset-20)<br/>
-[src-openeuler/llvm-toolset-21](https://atomgit.com/src-openeuler/llvm-toolset-21)
+[src-openeuler/llvm-toolset-21](https://atomgit.com/src-openeuler/llvm-toolset-21)<br/>
+[src-openeuler/llvm-toolset-22](https://atomgit.com/src-openeuler/llvm-toolset-22)
 
 </td><td>
 
 李云飞[@liyunfei33](https://atomgit.com/liyunfei33)
+廖之语[@yu3125](https://atomgit.com/yu3125)
 
 </td></tr>
 <tr><td>
