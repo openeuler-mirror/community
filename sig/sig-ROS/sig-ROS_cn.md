@@ -46,6 +46,10 @@ https://atomgit.com/openeuler/community/tree/master/sig/sig-ROS/
 - simonaxi
 - chen_jiayou
 - will_niutao
+- kuyan_kubuds
+- seteiro
+- Rourou2285
+- hongwei-2026
 
 ### 邮件列表
 - dev@openeuler.org
