@@ -1,0 +1,7 @@
+name: kf6-kmime
+description: KMime is a library for handling mail messages and newsgroup articles. Both mail messages and newsgroup articles are based on the same standard called MIME, which stands for Multipurpose Internet Mail Extensions.
+type: public
+upstream: https://invent.kde.org/frameworks/kmime
+branches:
+  - name: master
+    type: protected
