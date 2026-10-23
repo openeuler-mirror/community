@@ -1,0 +1,6 @@
+name: compute-cards
+description: An archive repository of compute card (AI accelerator) compatibility information for the openEuler compatibility zone, covering runnable models, image pull and launch commands, driver/SDK installation without Docker, and adaptation progress per openEuler version and SP release, with verified/planned status. It also provides data templates, filling specifications, and structured data for the compatibility zone pages.
+branches:
+- name: master
+  type: protected
+type: public
