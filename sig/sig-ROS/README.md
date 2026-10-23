@@ -30,6 +30,10 @@
 - 席江玲[@simonaxi](https://atomgit.com/simonaxi)
 - 陈家友[@chen_jiayou](https://atomgit.com/chen_jiayou)
 - 牛涛[@will_niutao](https://atomgit.com/will_niutao)
+- 库燕（Yan Ku）[@kuyan_kubuds](https://atomgit.com/kuyan_kubuds)
+- 陈谋顺（Moushun Chen）[@seteiro](https://atomgit.com/seteiro)
+- 王雅鹏（Yapeng Wang）[@Rourou2285](https://atomgit.com/Rourou2285)
+- 于鸿伟（Hongwei Yu）[@hongwei-2026](https://atomgit.com/hongwei-2026)
 
 # 联系方式
 

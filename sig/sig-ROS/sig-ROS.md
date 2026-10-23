@@ -46,6 +46,10 @@ Repository of scripts for building ROS for openEuler and documents: https://atom
 - simonaxi
 - chen_jiayou
 - will_niutao
+- kuyan_kubuds
+- seteiro
+- Rourou2285
+- hongwei-2026
 
 ### Mailing list
 - dev@openeuler.org
