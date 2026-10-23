@@ -74,9 +74,9 @@
 | enfs      | /fs/nfs/enfs       | [@mingqian218472](https://atomgit.com/mingqian218472) |
 | mfs      | fs/mfs<br/>tools/mfs       | [@gang_he](https://atomgit.com/gang_he) [@yubo-liu1](https://atomgit.com/yubo-liu1) |
 | exfat      | fs/exfat      | [@chizl](https://atomgit.com/chizl) |
-| nfs      | fs/nfs<br/>fs/nfsd<br/>fs/nfs_common<br/>net/sunrpc     | [@chenxiaosonggitcode](https://atomgit.com/chenxiaosonggitcode) |
-| smb      | fs/smb      | [@chenxiaosonggitcode](https://atomgit.com/chenxiaosonggitcode) |
-| netfs      | fs/netfs      | [@chenxiaosonggitcode](https://atomgit.com/chenxiaosonggitcode) |
+| nfs      | fs/nfs<br/>fs/nfsd<br/>fs/nfs_common<br/>net/sunrpc     | [@chenxiaosonggitcode](https://atomgit.com/chenxiaosonggitcode) [@zhangguodong11](https://atomgit.com/zhangguodong11) |
+| smb      | fs/smb      | [@chenxiaosonggitcode](https://atomgit.com/chenxiaosonggitcode) [@zhangguodong11](https://atomgit.com/zhangguodong11) |
+| netfs      | fs/netfs      | [@chenxiaosonggitcode](https://atomgit.com/chenxiaosonggitcode) [@zhangguodong11](https://atomgit.com/zhangguodong11) |
 
 ## network & net drivers
 
@@ -125,6 +125,8 @@
 | mucse   | drivers/net/ethernet/mucse    | [@sinat_17738335](https://atomgit.com/sinat_17738335) |
 | engiant   | drivers/gpu/drm/engiant    | [@hygmm](https://atomgit.com/hygmm) |
 | wangxun   | drivers/net/ethernet/wangxun<br/>drivers/net/ethernet/netswift    | [@duanqiangwen](https://atomgit.com/duanqiangwen) [@linyuexie1](https://atomgit.com/linyuexie1) |
+| leapraid   | drivers/scsi/leapioraid<br/>drivers/scsi/leapraid    | [@leap-io](https://atomgit.com/leap-io) [@leap-zjke](https://atomgit.com/leap-zjke) |
+| usb   | drivers/usb/core<br/>drivers/usb/host<br/>drivers/usb/storage    | [@raoxu-deepin](https://atomgit.com/raoxu-deepin) |
 
 ## tools
 | 模块<img width=40/>   | 文件<img width=300/>                       | Committer(s) <img width=200/>                     |
