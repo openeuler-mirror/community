@@ -1,0 +1,10 @@
+name: perl-Net-Curl
+description: Object-oriented wrapper for libcurl
+upstream: https://github.com/sparky/perl-Net-Curl
+branches:
+- name: master
+  type: protected
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
