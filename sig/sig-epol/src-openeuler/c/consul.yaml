@@ -1,0 +1,7 @@
+name: consul
+description: Consul is a distributed, highly available service discovery and configuration tool.
+upstream: https://github.com/hashicorp/consul
+branches:
+- name: master
+  type: protected
+type: public
