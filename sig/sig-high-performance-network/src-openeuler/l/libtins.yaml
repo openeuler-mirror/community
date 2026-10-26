@@ -4,6 +4,12 @@ upstream: https://github.com/mfontanini/libtins.git
 branches:
 - name: master
   type: protected
+- name: openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+- name: openEuler-24.03-LTS
+  type: protected
+  create_from: openEuler-24.03-LTS-Next
 - name: openEuler-20.09
   type: readonly
   create_from: master
