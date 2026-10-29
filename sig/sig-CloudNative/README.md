@@ -29,6 +29,7 @@ CloudNative SIG致力于为广大用户、开发者、爱好者提供便捷、�
 - lu-wei-army[@lu-wei-army](https://gitee.com/lu-wei-army) | email:wjunlu217@gmail.com
 - DaWei Gao[@gaodaweiky](https://gitee.com/gaodaweiky) | email:gaodawei@kylinos.cn
 - Yifan Zhao[@zhaoyifan28](https://atomgit.com/zhaoyifan28) | email:zhaoyifan28@huawei.com
+- feijianqiang[@feijianqiang](https://atomgit.com/feijianqiang) | email:feijianqiang@huawei.com
 
 ### Committer列表
 - jingxiaolu[@jingxiaolu](https://gitee.com/jingxiaolu)
