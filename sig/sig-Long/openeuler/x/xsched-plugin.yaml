@@ -1,0 +1,6 @@
+name: xsched-plugin
+description: xsched-plugin is a vLLM integration plugin that automatically provisions XSched CUDA queues and exposes XSched's HPF (Highest-Priority-First) preemptive scheduling for GPU-accelerated large-model inference.
+branches:
+- name: master
+  type: protected
+type: public
