@@ -34,7 +34,6 @@ repositories:
 - repo:
   - src-openeuler/incubator-mxnet
   - src-openeuler/nccl
-  - src-openeuler/glpk
   - src-openeuler/tensorflow
   - src-openeuler/SuperLUMT
   - src-openeuler/sundials
@@ -50,7 +49,6 @@ repositories:
   - src-openeuler/mlpack
   - src-openeuler/ComputeLibrary
   - src-openeuler/dlib
-  - src-openeuler/eigen
   - src-openeuler/eli5
   - src-openeuler/ensmallen
   - src-openeuler/bazel
@@ -234,6 +232,15 @@ repositories:
     name: wangjiandong
     organization: KylinSoft
     email: wangjiandong@kylinos.cn
+- repo:
+  - src-openeuler/eigen
+  - src-openeuler/glpk
+  committers:
+  - gitee_id: k4b00m
+    atomgit_id: k4b00m
+    name: Chengke Ji
+    organization: iSoftStone
+    email: ckjid@isoftstone.com
 branches:
 - repo_branch:
   - repo: src-openeuler/bazel
