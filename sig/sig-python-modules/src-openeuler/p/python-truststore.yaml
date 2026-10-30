@@ -1,0 +1,7 @@
+name: python-truststore
+description: Verify certificates using native system trust stores
+upstream: https://github.com/sethmlarson/truststore
+branches:
+- name: master
+  type: protected
+type: public

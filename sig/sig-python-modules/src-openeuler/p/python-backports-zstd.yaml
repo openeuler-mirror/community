@@ -1,0 +1,7 @@
+name: python-backports-zstd
+description: Backport of compression.zstd
+upstream: https://github.com/rogdham/backports.zstd
+branches:
+- name: master
+  type: protected
+type: public

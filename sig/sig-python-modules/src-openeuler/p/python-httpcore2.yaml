@@ -1,0 +1,7 @@
+name: python-httpcore2
+description: A minimal low-level HTTP client
+upstream: https://github.com/pydantic/httpx2
+branches:
+- name: master
+  type: protected
+type: public
