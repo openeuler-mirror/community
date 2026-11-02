@@ -1,0 +1,9 @@
+name: hypershell
+description: Hypershell: Lightweight, Hardware-Aware Multi-Backend Isolation for AI Agents
+type: public
+branches:
+  - name: master
+    type: protected
+  - name: devel
+    create_from: master
+    type: protected
