@@ -75,6 +75,7 @@ sig-security_facility主要讨论在openEuler社区版本中已有或未来规�
    - src-openeuler/scf-security
    - openeuler/scf-security
    - openeuler/security-configuration-benchmark
+   - openeuler/hypershell
 
 
 ## 组织会议
