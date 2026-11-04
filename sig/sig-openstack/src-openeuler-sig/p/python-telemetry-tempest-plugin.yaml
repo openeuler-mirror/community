@@ -1,0 +1,14 @@
+name: python-telemetry-tempest-plugin
+description: OpenStack telemetry-tempest-plugin
+upstream: https://github.com/openstack/telemetry-tempest-plugin
+rename_from: src-openeuler/python-telemetry-tempest-plugin
+branches:
+- name: master
+  type: protected
+- name: Multi-Version_OpenStack-Gazpacho_openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+- name: Multi-Version_OpenStack-Gazpacho_openEuler-24.03-LTS-SP4
+  type: protected
+  create_from: Multi-Version_OpenStack-Gazpacho_openEuler-24.03-LTS-Next
+type: public

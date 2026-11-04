@@ -1,0 +1,14 @@
+name: python-rpds-py
+description: Python bindings to Rust's persistent data structures (rpds).
+upstream: https://github.com/crate-py/rpds
+fork_from: src-openeuler/python-rpds-py
+branches:
+- name: master
+  type: protected
+- name: Multi-Version_OpenStack-Gazpacho_openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+- name: Multi-Version_OpenStack-Gazpacho_openEuler-24.03-LTS-SP4
+  type: protected
+  create_from: Multi-Version_OpenStack-Gazpacho_openEuler-24.03-LTS-Next
+type: public

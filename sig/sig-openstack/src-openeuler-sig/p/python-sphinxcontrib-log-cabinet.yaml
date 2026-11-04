@@ -1,0 +1,14 @@
+name: python-sphinxcontrib-log-cabinet
+description: Organize changelog directives in Sphinx docs
+upstream: https://github.com/davidism/sphinxcontrib-log-cabinet
+fork_from: src-openeuler/python-sphinxcontrib-log-cabinet
+branches:
+- name: master
+  type: protected
+- name: Multi-Version_OpenStack-Train_openEuler-22.03-LTS-Next
+  type: protected
+  create_from: openEuler-20.03-LTS-SP3
+- name: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

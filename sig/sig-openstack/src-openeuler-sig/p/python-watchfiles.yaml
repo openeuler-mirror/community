@@ -1,0 +1,12 @@
+name: python-watchfiles
+description: Simple, modern and high performance file watching and code reload in
+  python.
+upstream: https://github.com/samuelcolvin/watchfiles
+fork_from: src-openeuler/python-watchfiles
+branches:
+- name: master
+  type: protected
+- name: Multi-Version_OpenStack-Antelope_openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

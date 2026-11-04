@@ -1,0 +1,12 @@
+name: python-pytest-sugar
+description: pytest-sugar is a plugin for pytest that changes the default look and
+  feel of pytest (e.g. progressbar, show tests that fail instantly).
+upstream: http://pivotfinland.com/pytest-sugar/
+fork_from: src-openeuler/python-pytest-sugar
+branches:
+- name: master
+  type: protected
+- name: Multi-Version_OpenStack-Train_openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

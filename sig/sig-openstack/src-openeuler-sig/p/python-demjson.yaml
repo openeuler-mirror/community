@@ -1,0 +1,15 @@
+name: python-demjson
+description: encoder, decoder, and lint/validator for JSON (JavaScript Object Notation)
+  compliant with RFC 7159
+upstream: http://deron.meranda.us/python/demjson/
+fork_from: src-openeuler/python-demjson
+branches:
+- name: master
+  type: protected
+- name: oepkg_openstack-queens_oe-20.03-LTS-Next
+  type: protected
+  create_from: master
+- name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,11 @@
+name: python-yarg
+description: A semi hard Cornish cheese, also queries PyPI (PyPI client)
+upstream: https://yarg.readthedocs.org/
+fork_from: src-openeuler/python-yarg
+branches:
+- name: master
+  type: protected
+- name: oepkg_openstack-train_oe-20.03-LTS-SP1
+  type: protected
+  create_from: openEuler-20.03-LTS-SP3
+type: public

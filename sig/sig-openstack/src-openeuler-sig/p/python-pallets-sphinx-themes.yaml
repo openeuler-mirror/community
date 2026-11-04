@@ -1,0 +1,14 @@
+name: python-pallets-sphinx-themes
+description: Sphinx themes for Pallets and related projects
+upstream: https://github.com/pallets/pallets-sphinx-themes
+fork_from: src-openeuler/python-pallets-sphinx-themes
+branches:
+- name: master
+  type: protected
+- name: Multi-Version_OpenStack-Train_openEuler-22.03-LTS-Next
+  type: protected
+  create_from: openEuler-20.03-LTS-SP3
+- name: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-Next
+  type: protected
+  create_from: openEuler-21.09
+type: public

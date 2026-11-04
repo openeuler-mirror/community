@@ -1,0 +1,14 @@
+name: python-sphinxcontrib-issuetracker
+description: Sphinx integration with different issuetrackers
+upstream: http://sphinxcontrib-issuetracker.readthedocs.org/
+fork_from: src-openeuler/python-sphinxcontrib-issuetracker
+branches:
+- name: master
+  type: protected
+- name: Multi-Version_OpenStack-Train_openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+- name: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

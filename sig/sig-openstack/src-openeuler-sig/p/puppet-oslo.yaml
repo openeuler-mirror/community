@@ -1,0 +1,14 @@
+name: puppet-oslo
+description: OpenStack puppet-oslo
+upstream: https://github.com/openstack/puppet-oslo
+rename_from: src-openeuler/puppet-oslo
+branches:
+- name: master
+  type: protected
+- name: Multi-Version_OpenStack-Gazpacho_openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+- name: Multi-Version_OpenStack-Gazpacho_openEuler-24.03-LTS-SP4
+  type: protected
+  create_from: Multi-Version_OpenStack-Gazpacho_openEuler-24.03-LTS-Next
+type: public

@@ -1,0 +1,11 @@
+name: python-hidapi
+description: A Cython interface to the hidapi.
+upstream: https://github.com/libusb/hidapi
+rename_from: src-openeuler/python-hidapi
+branches:
+- name: master
+  type: protected
+- name: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

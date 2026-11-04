@@ -1,0 +1,11 @@
+name: python-heat-cfntools
+description: OpenStack Orchestration (Heat) CFN Tools.
+upstream: https://opendev.org/openstack/heat-cfntools
+rename_from: src-openeuler/python-heat-cfntools
+branches:
+- name: master
+  type: protected
+- name: openEuler-20.03-LTS-Next
+  type: readonly
+  create_from: master
+type: public

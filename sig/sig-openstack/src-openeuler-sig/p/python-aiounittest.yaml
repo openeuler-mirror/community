@@ -1,0 +1,11 @@
+name: python-aiounittest
+description: Test asyncio code more easily.
+upstream: https://github.com/kwarunek/aiounittest
+fork_from: src-openeuler/python-aiounittest
+branches:
+- name: master
+  type: protected
+- name: Multi-Version_OpenStack-Antelope_openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

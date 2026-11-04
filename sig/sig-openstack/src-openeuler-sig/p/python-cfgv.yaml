@@ -1,0 +1,11 @@
+name: python-cfgv
+description: Validate configuration and produce human readable error messages.
+upstream: https://github.com/asottile/cfgv
+fork_from: src-openeuler/python-cfgv
+branches:
+- name: master
+  type: protected
+- name: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-Next
+  type: protected
+  create_from: openEuler-21.09
+type: public

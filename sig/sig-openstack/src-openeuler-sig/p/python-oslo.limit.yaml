@@ -1,0 +1,47 @@
+name: python-oslo.limit
+description: Limit enforcement library to assist with quota calculation.
+upstream: http://opendev.org/openstack/oslo.limit
+rename_from: src-openeuler/python-oslo.limit
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.09
+  type: readonly
+  create_from: master
+- name: openEuler-23.03
+  type: readonly
+  create_from: master
+- name: openEuler-23.09
+  type: protected
+  create_from: master
+- name: Multi-Version_OpenStack-Antelope_openEuler-24.03-LTS-Next
+  type: protected
+  create_from: openEuler-22.09
+- name: Multi-Version_OpenStack-Antelope_openEuler-24.03-LTS
+  type: protected
+  create_from: Multi-Version_OpenStack-Antelope_openEuler-24.03-LTS-Next
+- name: Multi-Version_OpenStack-Antelope_openEuler-24.03-LTS-SP1
+  type: protected
+  create_from: Multi-Version_OpenStack-Antelope_openEuler-24.03-LTS-Next
+- name: openEuler-25.03
+  type: protected
+  create_from: master
+- name: Multi-Version_OpenStack-Antelope_openEuler-25.03
+  type: protected
+  create_from: Multi-Version_OpenStack-Antelope_openEuler-24.03-LTS-SP1
+- name: Multi-Version_OpenStack-Antelope_openEuler-24.03-LTS-SP2
+  type: protected
+  create_from: Multi-Version_OpenStack-Antelope_openEuler-24.03-LTS-Next
+- name: Multi-Version_OpenStack-Antelope_openEuler-24.03-LTS-SP3
+  type: protected
+  create_from: Multi-Version_OpenStack-Antelope_openEuler-24.03-LTS-Next
+- name: Multi-Version_OpenStack-Antelope_openEuler-24.03-LTS-SP4
+  type: protected
+  create_from: Multi-Version_OpenStack-Antelope_openEuler-24.03-LTS-Next
+- name: Multi-Version_OpenStack-Gazpacho_openEuler-24.03-LTS-Next
+  type: protected
+  create_from: Multi-Version_OpenStack-Antelope_openEuler-24.03-LTS-SP4
+- name: Multi-Version_OpenStack-Gazpacho_openEuler-24.03-LTS-SP4
+  type: protected
+  create_from: Multi-Version_OpenStack-Gazpacho_openEuler-24.03-LTS-Next
+type: public

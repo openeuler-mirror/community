@@ -1,0 +1,11 @@
+name: python-pytest-timeout
+description: py.test plugin to abort hanging tests
+upstream: http://github.com/pytest-dev/pytest-timeout/
+fork_from: src-openeuler/python-pytest-timeout
+branches:
+- name: master
+  type: protected
+- name: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-Next
+  type: protected
+  create_from: openEuler-21.09
+type: public

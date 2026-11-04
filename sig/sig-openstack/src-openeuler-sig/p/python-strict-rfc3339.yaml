@@ -1,0 +1,14 @@
+name: python-strict-rfc3339
+description: Date and Time on the Internet - Timestamps base on rfc3339
+upstream: https://pypi.org/project/strict-rfc3339
+fork_from: src-openeuler/python-strict-rfc3339
+branches:
+- name: master
+  type: protected
+- name: Multi-Version_OpenStack-Train_openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+- name: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-Next
+  type: protected
+  create_from: openEuler-21.09
+type: public

@@ -1,0 +1,14 @@
+name: python-lark-parser
+description: a modern parsing library
+upstream: https://github.com/erezsh/lark
+fork_from: src-openeuler/python-lark-parser
+branches:
+- name: master
+  type: protected
+- name: Multi-Version_OpenStack-Gazpacho_openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+- name: Multi-Version_OpenStack-Gazpacho_openEuler-24.03-LTS-SP4
+  type: protected
+  create_from: Multi-Version_OpenStack-Gazpacho_openEuler-24.03-LTS-Next
+type: public

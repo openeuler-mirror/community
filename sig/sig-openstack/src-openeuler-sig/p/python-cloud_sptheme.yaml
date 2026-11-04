@@ -1,0 +1,32 @@
+name: python-cloud_sptheme
+description: a nice sphinx theme named 'Cloud', and some related extensions
+upstream: https://cloud-sptheme.readthedocs.io
+fork_from: src-openeuler/python-cloud_sptheme
+branches:
+- name: master
+  type: protected
+- name: Multi-Version_OpenStack-Train_openEuler-22.03-LTS-Next
+  type: protected
+  create_from: openEuler-20.03-LTS-SP3
+- name: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+- name: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS
+  type: protected
+  create_from: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-Next
+- name: oepkg_openstack-train_oe-20.03-LTS-SP1
+  type: protected
+  create_from: openEuler-20.03-LTS-SP3
+- name: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-SP1
+  type: protected
+  create_from: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-Next
+- name: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-SP2
+  type: protected
+  create_from: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-Next
+- name: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-SP3
+  type: protected
+  create_from: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-Next
+- name: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-SP4
+  type: protected
+  create_from: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-Next
+type: public

@@ -1,0 +1,20 @@
+name: openstack-plugin
+description: RPM Repo for OpenStack plugin
+upstream: https://gitee.com/openeuler/openstack-plugin
+rename_from: src-openeuler/openstack-plugin
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.09
+  type: readonly
+  create_from: master
+- name: openEuler-23.03
+  type: readonly
+  create_from: master
+- name: openEuler-23.09
+  type: protected
+  create_from: master
+- name: openEuler-25.03
+  type: protected
+  create_from: master
+type: public
