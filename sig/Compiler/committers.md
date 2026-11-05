@@ -239,7 +239,8 @@
 [src-openeuler/llvm-toolset-19](https://atomgit.com/src-openeuler/llvm-toolset-19)<br/>
 [src-openeuler/llvm-toolset-20](https://atomgit.com/src-openeuler/llvm-toolset-20)<br/>
 [src-openeuler/llvm-toolset-21](https://atomgit.com/src-openeuler/llvm-toolset-21)<br/>
-[src-openeuler/llvm-toolset-22](https://atomgit.com/src-openeuler/llvm-toolset-22)
+[src-openeuler/llvm-toolset-22](https://atomgit.com/src-openeuler/llvm-toolset-22)<br/>
+[src-openeuler/llvm-toolset-23](https://atomgit.com/src-openeuler/llvm-toolset-23)
 
 </td><td>
 
