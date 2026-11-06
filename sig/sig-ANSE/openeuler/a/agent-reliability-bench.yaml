@@ -1,0 +1,6 @@
+name: agent-reliability-bench
+description: 智能体可靠性评测基准，提供数据集、故障注入与扰动脚本、评测框架、指标体系及开放排行榜，支持一致性、鲁棒性与可预测性的可复现评测。 An agent reliability benchmark providing datasets, fault injection and perturbation scripts, an evaluation framework, a set of metrics, and an open leaderboard to support reproducible evaluations of consistency, robustness, and predictability.
+branches:
+- name: master
+  type: protected
+type: public
