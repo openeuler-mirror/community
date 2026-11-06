@@ -544,3 +544,18 @@ Jinyun Ye[@joeyye-work](https://atomgit.com/joeyye-work)
 
 </td></tr>
 </table>
+
+## KAD repos
+<table>
+<tr><th>Repo</th><th>Committer</th></tr>
+<tr><td>
+
+[src-openeuler/kad](https://atomgit.com/src-openeuler/kad)
+
+</td><td>
+
+范庆坤[@Leyou-Fan](https://atomgit.com/Leyou-Fan)<br/>
+黄晓权[@huang-xiaoquan](https://atomgit.com/huang-xiaoquan)
+
+</td></tr>
+</table>
