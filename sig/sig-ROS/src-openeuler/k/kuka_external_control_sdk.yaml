@@ -1,0 +1,11 @@
+name: kuka_external_control_sdk
+description: 'KUKA External Control SDK for ROS humble'
+upstream: https://github.com/kroshu/kuka-external-control-sdk.git
+platform: gitee
+branches:
+- name: master
+  type: protected
+- name: humble
+  type: protected
+  create_from: master
+type: public
