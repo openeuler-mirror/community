@@ -345,20 +345,28 @@ def check_8_v2(oe_repos, srcoe_repos):
                 master_found = 0
                 for branch in branches:
                     try:
+                        b_name = branch["name"]
+                    except KeyError:
+                        print("ERROR! {pre}{name} branch missing name field"
+                                .format(pre=prefix, name=repo["name"]))
+                        errors_found += 1
+                        continue
+                    try:
                         b_type = branch["type"]
                     except KeyError:
                         b_type = "unknown"
                         print("ERROR! {pre}{name} branch {br} doesnt have type"
-                                .format(pre=prefix, name=repo["name"], br=branch["name"]))
+                                .format(pre=prefix, name=repo["name"], br=b_name))
+                        errors_found += 1
                     if b_type != "protected" and b_type != "readonly":
                         print("ERROR! {pre}{name} branch {br} is not valid"
-                              .format(pre=prefix, name=repo["name"], br=branch["name"]))
+                              .format(pre=prefix, name=repo["name"], br=b_name))
                         errors_found += 1
-                    if branch["name"] == "master":
+                    if b_name == "master":
                         master_found  += 1
                     elif branch.get("create_from", "") == "":
                         print("ERROR! {pre}{name} branch {br} has not valid parent branch"
-                              .format(pre=prefix, name=repo["name"], br=branch["name"]))
+                              .format(pre=prefix, name=repo["name"], br=b_name))
                         errors_found += 1
                 else:
                     if master_found != 1:
