@@ -21,6 +21,11 @@ from pprint import pprint
 
 import yaml
 
+# Organizations managed under each SIG directory. src-openeuler-sig follows the
+# same branching rules as src-openeuler; only the openeuler org is special-cased
+# in the branch checks below.
+ORGS = ('openeuler', 'src-openeuler', 'src-openeuler-sig')
+
 
 class CheckError(Exception):
     def __init__(self, message):
@@ -94,14 +99,13 @@ class CheckBranch(object):
         for i in os.listdir('sig'):
             if i in ['README.md', 'sig-template', 'create_sig_info_template.py']:
                 continue
-            if 'openeuler' in os.listdir(os.path.join('sig', i)):
-                for filesdir, _, repos in os.walk(os.path.join('sig', i, 'openeuler')):
+            sig_orgs = os.listdir(os.path.join('sig', i))
+            for org in ORGS:
+                if org not in sig_orgs:
+                    continue
+                for filesdir, _, repos in os.walk(os.path.join('sig', i, org)):
                     for repo in repos:
                         master_repos_tree.append(os.path.join(filesdir, repo))
-            if 'src-openeuler' in os.listdir(os.path.join('sig', i)):
-                for filesdir, _, src_repos in os.walk(os.path.join('sig', i, 'src-openeuler')):
-                    for src_repo in src_repos:
-                        master_repos_tree.append(os.path.join(filesdir, src_repo))
         subprocess.call('git checkout {}  >/dev/null'.format(current_branch), shell=True)
         return master_repos_tree
 
@@ -113,7 +117,8 @@ class CheckBranch(object):
             from_org = from_pkg.split('/')[2]
             to_org = to_pkg.split('/')[2]
             if from_pkg in master_repos_tree:
-                exit_code, from_pkg_yaml = subprocess.getstatusoutput('git show remotes/origin/master:{}'.format(from_pkg))
+                exit_code, from_pkg_yaml = subprocess.getstatusoutput(
+                    'git show remotes/origin/master:{}'.format(from_pkg))
                 if exit_code == 0:
                     from_pkg_dict = yaml.load(from_pkg_yaml, Loader=yaml.Loader)
                     from_pkg_dict['org'] = from_org
@@ -155,11 +160,11 @@ class CheckBranch(object):
             diff_file_to = diff_file['to']
             if len(diff_file_from.split('/')) == 5 and \
                     diff_file_from.split('/')[0] == 'sig' and \
-                    diff_file_from.split('/')[2] in ['openeuler', 'src-openeuler'] and \
+                    diff_file_from.split('/')[2] in ORGS and \
                     diff_file_from.split('/')[4].endswith('.yaml') and \
                     len(diff_file_to.split('/')) == 5 and \
                     diff_file_to.split('/')[0] == 'sig' and \
-                    diff_file_to.split('/')[2] in ['openeuler', 'src-openeuler'] and \
+                    diff_file_to.split('/')[2] in ORGS and \
                     diff_file_to.split('/')[4].endswith('.yaml'):
                 change_pkgs.append(diff_file)
         self._change_pkg(change_pkgs)
@@ -184,7 +189,8 @@ class CheckBranch(object):
         if c_branch == "master" and p_branch:
             raise CheckError("FAIL: {} tries to create \"master\" branch from other branch".format(pkg_name))
         if c_branch != "master" and not p_branch:
-            raise CheckError("FAIL: {0} tries to create \"{1}\" branch without parent branch".format(pkg_name, c_branch))
+            raise CheckError(
+                "FAIL: {0} tries to create \"{1}\" branch without parent branch".format(pkg_name, c_branch))
 
         if c_branch.startswith("oepkg") or not p_branch:
             # Ignore branching rule for oepkg
@@ -204,17 +210,18 @@ class CheckBranch(object):
         pkg_name = pkg['name']
         if p_branch not in [branch['name'] for branch in pkg['branches']]:
             raise CheckError("FAIL: {1} tries to create from parent branch \"{0}\", "
-                    "but \"{0}\" does not exist in repo configuration".format(p_branch, pkg_name))
+                             "but \"{0}\" does not exist in repo configuration".format(p_branch, pkg_name))
         if pkg['org'] == 'openeuler':
             return
         if p_branch not in self.branch_map["branch"].keys():
             if p_branch.startswith("Multi-Version"):
                 if p_branch.split("_")[-1] not in self.branch_map["branch"].keys():
                     raise CheckError("FAIL: {0} tries to create Multi-Version branch based on \"{1}\", "
-                            "which is not permitted by configuration.".format(pkg_name, p_branch.split("_")[-1]))
+                                     "which is not permitted by configuration.".format(pkg_name,
+                                                                                       p_branch.split("_")[-1]))
             else:
                 raise CheckError("FAIL: {0} tries to create new branch from parent branch \"{1}\", "
-                        "which is not permitted by configuration.".format(pkg_name, p_branch))
+                                 "which is not permitted by configuration.".format(pkg_name, p_branch))
 
     def _check_child_branch(self, p_branch, c_branch, pkg_name=''):
         """
@@ -236,13 +243,13 @@ class CheckBranch(object):
             if c_branch.startswith("Multi"):
                 if "Multi-Version" != sb[0]:
                     raise CheckError("FAIL: {0} tries to create Multi-Version branch, "
-                            "but \"{1}\" is not valid name.".format(pkg_name, c_branch))
+                                     "but \"{1}\" is not valid name.".format(pkg_name, c_branch))
                 if sb[-1] not in self.branch_map["branch"][p_branch]:
                     raise CheckError("FAIL: {0} tries to create child branch \"{1}\" from parent branch \"{2}\", "
-                            "which is not permitted by configuration.".format(pkg_name, c_branch, p_branch))
+                                     "which is not permitted by configuration.".format(pkg_name, c_branch, p_branch))
             else:
                 raise CheckError("FAIL: {0} tries to create child branch \"{1}\" from parent branch \"{2}\", "
-                            "which is not permitted by configuration.".format(pkg_name, c_branch, p_branch))
+                                 "which is not permitted by configuration.".format(pkg_name, c_branch, p_branch))
 
     @staticmethod
     def _check_createfrom_valid(reponame, c_branches, p_branches):
@@ -340,16 +347,15 @@ class CheckBranch(object):
                 self._check_branch(p_branch, c_branch, pkg)
             except CheckError as e:
                 print(e)
-                #TEMP DISABLE
+                # TEMP DISABLE
                 self.warn_flag = self.warn_flag + 1
-                #self.error_flag = self.error_flag + 1
+                # self.error_flag = self.error_flag + 1
             except FileError as e:
                 print(e)
                 self.error_flag = self.error_flag + 1
 
             if not self.unmaintained_check(bch, pkg):
                 self.error_flag = self.error_flag + 1
-
 
     def check(self):
         self.refresh_unmaintained_branches()
@@ -360,8 +366,6 @@ class CheckBranch(object):
                 self.history_check(history_branches, pkg)
             if changed_branches:
                 self.differences_check(changed_branches, pkg)
-
-
 
         print("\nCheck PR {0} Result: error {1}, warn {2}".format(self.pr_id, self.error_flag, self.warn_flag))
         if self.error_flag:
@@ -381,4 +385,3 @@ if __name__ == "__main__":
     C.get_change_pkg()
     C.check()
     os.chdir(current_dir)
-

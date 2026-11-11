@@ -18,6 +18,12 @@ import re
 import sys
 import yaml
 
+# Organizations managed under each SIG directory. src-openeuler-sig follows the
+# same rules as src-openeuler. The order matters for the prefix check below:
+# longer prefixes come first so "src-openeuler-sig/foo" is not mistakenly
+# accepted by the "src-openeuler/" rule.
+ORGS = ('src-openeuler-sig', 'src-openeuler', 'openeuler')
+
 SIG_INFO_FIELDS = ['name', 'description', 'mailing_list', 'meeting_url', 'mature_level', 'mentors', 'maintainers',
                    'repositories', 'created_on', "branches"]
 SIG_INFO_REQUIRED_FIELDS = ['name', 'maintainers']
@@ -88,7 +94,7 @@ def check_user_exist(atomgit_id, access_token):
     """
     if not atomgit_id:
         return 0
-    
+
     print(f"check user: {atomgit_id}")
     atomgit_id_errors = 0
     url = f'https://gitcode.com/api/v5/users/{atomgit_id}?access_token={access_token}'
@@ -144,9 +150,9 @@ def check_fields(sig_info):
                         print('ERROR! The type of every repo should be string.')
                         fields_errors += 1
                         continue
-                    if not (item.startswith('src-openeuler/') or item.startswith('openeuler/')):
-                        print('ERROR! The value of {} should startswith "src-openeuler" or '
-                              '"openeuler".'.format(item))
+                    if not any(item.startswith(org + '/') for org in ORGS):
+                        print('ERROR! The value of {} should startswith "src-openeuler", '
+                              '"src-openeuler-sig" or "openeuler".'.format(item))
                         fields_errors += 1
             else:
                 for item in repos.get(repos_key):
@@ -456,16 +462,10 @@ def check_info_repositories(sig_repositories):
 
 def get_all_sig_dir_data(sig_dir_path):
     sig_dir_repos = []
-    openeuler = os.path.join(sig_dir_path, "openeuler")
-    src_openeuler = os.path.join(sig_dir_path, "src-openeuler")
-
-    if os.path.exists(openeuler):
-        sig_dir_openeuler_repos = get_sig_repos(openeuler)
-        sig_dir_repos.extend(sig_dir_openeuler_repos)
-
-    if os.path.exists(src_openeuler):
-        sig_dir_src_openeuler_repos = get_sig_repos(src_openeuler)
-        sig_dir_repos.extend(sig_dir_src_openeuler_repos)
+    for org in ORGS:
+        org_path = os.path.join(sig_dir_path, org)
+        if os.path.exists(org_path):
+            sig_dir_repos.extend(get_sig_repos(org_path))
     return sig_dir_repos
 
 
