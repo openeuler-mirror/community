@@ -1,5 +1,7 @@
 # Pull Request Submission Guide
 
+> Note: openEuler currently uses AtomGit as its code hosting platform. The UI, domain names, and commands in this document use AtomGit as an example.
+
 This guide helps you ensure that your pull request (PRs) comply with our best practices.
 
 
@@ -14,9 +16,9 @@ A PR merges changes into the main project repository. To ensure the quality of t
 
 ### 1. Submit a PR
 
-For details about how to submit a PR on Gitee, see [Gitee Workflow](Gitee-workflow.md). To get a quick response, you can add a label to the PR or provide more information. Pay attention to the following:
+For details about how to submit a PR on the code hosting platform, see [Code Hosting Workflow](AtomGit-workflow.md). To get a quick response, you can add a label to the PR or provide more information. Pay attention to the following:
 
-- **Associate an issue**: If the PR is submitted to address a specific issue, add a number sign (#) in the description area. The existing issues will be displayed so that you can quickly associate an issue. For details, see [this document](https://gitee.com/help/articles/4142).
+- **Associate an issue**: If the PR is submitted to address a specific issue, click **Associate Issue** when creating the PR, select the issue, and select **Close associated issue after merge** as required. For details, see [Pull Request Association with Issues](https://docs.atomgit.com/en/docs/help/home/org_project/pullrequests/pr-related-issue).
 - **Set the priority**: You can set the priority when creating a PR. Alternatively, enter **/priority high** in the comment area to add a high-priority label to the PR.
 - **Mark the PR submitted for bug fixing**: You can enter **/kind bug** in the description area box to mark that the PR is for fixing a bug so that you can get a quick response for the PR.
 - **Identify the SIG to which the PR belongs**: You can enter **sig _sig-name_** in the description area to identify the SIG to which the PR belongs for easy search.
@@ -36,19 +38,19 @@ After you submit a PR, the community bot will automatically assign a reviewer to
 
 - If the **openeuler-cla/no** label is added to the PR, you have not signed the Contributor License Agreement (CLA) with the community. Sign the CLA as prompted by the community bot.
 
-  ![](figures/pull-request-autotest2.png)
+  ![](figures/AtomGit-PR-Labels-No.png)
 
-- After the PR is submitted, the community bot starts the automated testing. To save time of reviewers, only the PRs that pass the testing are reviewed. You can view the automated testing results in the comment area of the PR.
+- After the PR is submitted, the community bot starts the automated testing (pipeline). To save time of reviewers, only the PRs that pass the testing are reviewed. You can view the automated testing results on the PR page.
 
-- If the automated testing fails, you can view the failure cause in **Build Details**.
-
-![](figures/pull-request-autotest.png)
-
-Click **Build Details** to open detailed log information, where you can search for **Error** to quickly locate error information.
-
-![](figures/error-report.JPG)
+- If the automated testing fails, click the corresponding check or pipeline task to view the failure cause and logs, and search for **Error** in the logs to quickly locate the error information.
 
 - After modifying the code, you can enter the **/retest** command in the comment area to request the community bot to initiate automated testing again.
+
+For details about pipelines, see [Pipeline Documentation](https://docs.atomgit.com/en/docs/help/home/org_project/pipeline/).
+
+You can view pipeline results on the **Checks** tab of the PR page and confirm the CI status through labels such as **ci_successful**.
+
+![](figures/AtomGit-PR-Page.png)
 
 
 
@@ -58,13 +60,15 @@ Click **Build Details** to open detailed log information, where you can search f
 
 - If your PR is approved, the reviewer will add **/lgtm** or **/approve** in the comment area.
 
-- The reviewer may leave comments in the comment area or add comments to the file where problems are found during code review. Either way, the comments will be displayed in the comment area. The difference is that **Code comment** is displayed for the latter comment. You can click **View Detail** to view the source of the comment.![](figure/pull-request-review.JPG)
+- The reviewer may leave comments in the comment area or add comments to the file where problems are found during code review. Either way, the comments will be displayed in the comment area. The difference is that **Code comment** is displayed for the latter comment. You can click **View Detail** to view the source of the comment.
+
+  ![](figures/AtomGit-PR-Review.png)
 
 - Be respectful of different viewpoints. Reply to the comments and give your opinion on different viewpoints. If you accept the reviewer's opinion, give a simple reply and confirm whether the code has been modified based on the accepted comments.
 
-- You can also click **Files** to view the code review comments and comparison results in the file area, and directly reply to the review comments here.
+- You can also click **Files changed** to view the code review comments and comparison results in the file area, and directly reply to the review comments here.
 
-  ![](figure/pull-request-review2.JPG)
+  ![](figures/AtomGit-PR-FileDiff.png)
 
 - If core members of the project team reject your PR, they will give comments. Do not be discouraged. Make adjustments based on the suggestions and keep in touch with the project team members. Your capabilities and opinions will be respected.
 

@@ -17,7 +17,7 @@ Hardware: physical or virtual machines (VMs) that run on the 64-bit ARM or x86-6
 
 - Peng Cheng Ecosystem development environment
   
-  1. Create an issue for applying for a VM on [community-issue](https://gitee.com/openeuler/community-issue/issues).
+  1. Create an issue for applying for a VM on [community-issue](https://atomgit.com/openeuler/community-issue/issues).
   
   2. Log in to the [Peng Cheng Ecosystem Developer Cloud](https://dw.pcl.ac.cn/cloud/login) website and apply for a VM as instructed.
   

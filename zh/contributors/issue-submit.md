@@ -1,5 +1,7 @@
 # Issue提交指南
 
+> 说明：openEuler 当前使用的代码托管平台为 AtomGit。本文档中的界面、域名和命令均以 AtomGit 为例。
+
 目录：
 
 - [Issue简介](#issue简介)
@@ -19,43 +21,42 @@
 
 - **来源和作用**：Issue的概念起源于客服部门，用户打电话反馈问题，客服就创建一个工单（ticket），后继每一个处理步骤、每一次和用户的交流都要更新到工单内，记录全部的过程信息，这就是Issue的前身。随着后来的不断扩展，逐步演变成制定和实施软件开发计划的全功能项目管理工具。
 
-- openEuler社区直接使用Gitee提供的Issue跟踪和管理系统。
+- openEuler社区使用代码托管平台提供的Issue跟踪和管理系统。
 
 
 
 ## Issue的基本功能
 
-- Gitee的每一个Repository内都有一个Issue面板
+- 代码托管平台的每一个Repository内都有一个Issue面板（Issues）。进入项目首页，点击标签栏中的「Issues」即可进入该Repository的Issue列表。
 
-![](figure/issue-submit-tool.JPG)
+- 进入Issue列表页面，点击右侧「+ 新建 Issue」，就可以新建一个Issue，如下图所示。
 
-- 进入该面板，点击“+新建Issue”，就可以新建一个Issue，如下图所示。
+![](figure/AtomGit-Issues-list.png)
 
-![](figure/issue-submit-new.JPG)
+新建Issue页面如下图所示：
+
+![](figure/AtomGit-NewIssue.png)
 
 - 左侧填入Issue的标题和内容，右侧是几个配置项。下面简单介绍这些配置项的用法。
   - 负责人：用于从当前repository的所有成员内指派对该Issue的处理人员，包括负责人和协作者。
-  - 标签：可以给该Issue贴上标签，便于对Issue进行分类管理和过滤筛选。
-  - 项目：可以给该Issue关联项目。只有SIG成员才有新增项目权限
+  - 标签（Label）：可以给该Issue贴上标签，便于对Issue进行分类管理和过滤筛选。
   - 里程碑：相关的Issue可以放到一个里程碑里。里程碑通常可以理解为不同的版本或不同的迭代。
-  - 关联分支：可以指明Issue针对的是哪个分支
-  - 计划开始/截止日期：可以给该Issue指明期望的计划开始和截止日期，便于领取任务的人参考。
-  - 置顶选项：可以选择是否让该Issue放置到Issue列表的顶部，以便于吸引大家的关注。
-  - 优先级：可以给Issue置顶优先级。
+  - 关联分支：创建Issue后，可以将Issue关联到具体的开发分支。
+  - 置顶、可见性、锁定：创建Issue后，可以根据需要将Issue置顶、设为私密或锁定讨论。
 
 
 
 ## Issue的全局视图
 
-Issue面板只能查看和操作当前的repository，Gitee还提供了Issue的全局视图。
+Issue面板只能查看和操作当前的repository，代码托管平台还提供了Issue的全局视图。
 
-- **组织的全局视图**：您可以在openEuler组织下直接点击Issue面板看到该组织下的所有Issue。
+- **组织的全局视图**：访问[openEuler组织Issue列表](https://atomgit.com/org/openeuler/issues)，可以查看openEuler组织下的所有Issue。您可以通过「Issues」「我创建的」「分配给我的」「我参与的」等入口筛选，也可以在工具栏按不同的条件进行筛选、过滤和排序。
 
-  ![](figure/issue-submit-viewall.JPG)
+  ![](figure/AtomGit-OrgIssues-Full.png)
 
-- **个人的全局视图**：点击组织的全局视图内的任何一个Issue，您就进入了**“个人工作台“**界面。点击左侧的”任务“，您就可以查看和操作所有和您相关的Issue。您可以选择两种显示模式，也可以在工具栏按不同的条件进行筛选、过滤和排序。
+- **个人筛选视图**：在Issue列表左侧，可以通过「我创建的」「分配给我的」「我参与的」快速筛选与您相关的Issue。
 
-  ![](figure/issue-submit-viewOne.JPG)
+  ![](figure/AtomGit-IssueFilters.png)
   
   
 
@@ -69,13 +70,11 @@ Issue面板只能查看和操作当前的repository，Gitee还提供了Issue的�
 
 **step1：新建需求类Issue**（Issue状态：待办的）
 
-- 请进入需求对应的团队或项目的repository内（如何找到对应的repository请参考[此章节内容](README.md/#id2-1-2)），进入Issue面板，点击“新建Issue”。
+- 请进入需求对应的团队或项目的repository内（如何找到对应的repository请参考[此章节内容](README.md/#id2-1-2)），进入Issue面板，点击「+ 新建 Issue」。
 
-- 如果您不确定该需求对应的团队或项目，请在[community-issue](https://gitee.com/openeuler/community-issue)中创建，会有社区的开发者帮助进行归属等信息的确认。
+- 如果您不确定该需求对应的团队或项目，请在[community-issue](https://atomgit.com/openeuler/community-issue)中创建，会有社区的开发者帮助进行归属等信息的确认。
 
-- 请在标题栏的单选下拉框将Issue类型设置成“需求”，系统会自动为您调出需求模板
-
-- 请在标题栏**简要描述需求的要点**
+- 请在新建Issue时选择需求模板，并简要描述需求的要点
 
 - 请在详细说明框内说明需求的场景和价值。
 
@@ -87,7 +86,7 @@ Issue面板只能查看和操作当前的repository，Gitee还提供了Issue的�
 
   团队成员（maintainer或者committer）审核后认为可以接纳该需求，则由审核人补充接纳需求的相关信息，并包含：
 
-  - 检查并设置该需求所属的项目
+  - 检查并设置该需求的标签
   - 设置该需求建议合入的里程碑信息（规划版本信息）
   - 设置该需求的优先级标签，请在标签栏选择“feature:High”、“feature:Medium”或者"feature:Low"
   - 完成以上的信息以后，请将该Issue的“当前状态”调整成“进行中”（**进入step3**）
@@ -127,9 +126,9 @@ Issue面板只能查看和操作当前的repository，Gitee还提供了Issue的�
 
 **step1：新建问题类Issue：**
 
-- 请进入问题所属团队或项目的repository内（如何找到对应的repository请参考[此章节内容](README.md/#id2-1-2)），进入Issue面板，点击“新建Issue”。
-- 如果您不确定该问题对应的团队或项目，请在[community-issue](https://gitee.com/openeuler/community-issue)中创建，会有社区的开发者帮助进行归属等信息的确认。
-- 请在标题栏的单选下拉框将Issue类型设置成“问题”，系统会自动为您调出模板。
+- 请进入问题所属团队或项目的repository内（如何找到对应的repository请参考[此章节内容](README.md/#id2-1-2)），进入Issue面板，点击「+ 新建 Issue」。
+- 如果您不确定该问题对应的团队或项目，请在[community-issue](https://atomgit.com/openeuler/community-issue)中创建，会有社区的开发者帮助进行归属等信息的确认。
+- 请在新建Issue时选择问题模板。
 - 请在标题栏**简要描述问题的要点**
 - 请在详细说明框内按照问题模板的要求描述问题，请参考下面的模板：*请注意：清晰完整的描述有助于团队成员理解，并被更快的接受和排入开发计划。*
 
@@ -170,7 +169,7 @@ Issue面板只能查看和操作当前的repository，Gitee还提供了Issue的�
 
 **step3：认领或分配问题**。可以主动认领，也可以由团队成员分配。您可以在评论框内输入`/assign`来把Issue分配给自己，或分配给其他人。
 
-**step4：完成修改并提交PR**。完成修改和本地验证后，在提交PR的时候需附上本Issue的链接，请参考Gitee的相关帮助文档：[Commit关联Issue](https://gitee.com/help/articles/4141)。提交PR的具体的方法请参考[提交PR指导](pull-request.md)内容。
+**step4：完成修改并提交PR**。完成修改和本地验证后，在提交PR的时候需关联本Issue。创建PR时点击「关联Issue」选择本Issue，并按需勾选「合并后关闭已关联的Issue」，具体操作请参考[Pull Request关联Issue](https://docs.atomgit.com/docs/help/home/org_project/pullrequests/pr-related-issue)。提交PR的具体方法请参考[提交PR指导](pull-request.md)内容。
 
 **step5：项目内验证**。项目内对修改的PR进行验证。如果验证不通过（**回到step4**）。如果验证通过，同时该问题不是版本的问题，此问题以**项目组问题关闭**。
 

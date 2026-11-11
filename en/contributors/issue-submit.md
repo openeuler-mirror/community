@@ -1,5 +1,7 @@
 # Issue Submission and Handling Guide
 
+> Note: openEuler currently uses AtomGit as its code hosting platform. The UI, domain names, and commands in this document use AtomGit as an example.
+
 Contents:
 
 - [Issue Introduction](#issue-introduction)
@@ -19,43 +21,40 @@ Contents:
 
 - **Source and function**: The concept of issue originates from the customer service department. When a user makes a call to report a problem, the customer service personnel create a ticket. Each subsequent processing step and each communication with the user need to be updated to the ticket to record all process information. This is the predecessor of the issue. As it expands, the issue evolves into a full-function project management tool for developing and executing software development plans.
 
-- The openEuler community uses the issue tracking and management system provided by Gitee.
+- The openEuler community uses the issue tracking and management system provided by the code hosting platform.
 
 
 
 ## Basic Issue Functions
 
-- Each repository of Gitee has an **Issues** page.
+- Each repository of the code hosting platform has an **Issues** page. On the project home page, click **Issues** on the tab bar to open the issue list of the repository.
 
-![](figures/issue-submit-tool.png)
+![](figures/AtomGit-Issues-list.png)
 
-- On the page that is displayed, click **+New Issue** to create an issue, as shown in the following figure.
+- On the page that is displayed, click **+ New Issue** to create an issue. The new issue page is shown in the following figure.
 
-![](figures/issue-submit-new.JPG)
+![](figures/AtomGit-NewIssue.png)
 
 - Enter the title and content of the issue on the left and configure optional configuration items on the right. The following describes these configuration items.
   - **Assignees**: Select the handler of the issue from all members of the current repository, including the owner and collaborator.
   - **Labels**: Add a label to the issue to facilitate issue management and filtering.
-  - **Projects**: Associate the issue with a project. Only SIG members have the permission to associate projects.
   - **Milestones**: Associate related issues with one milestone. Milestones can usually be understood as different versions or iterations.
-  - **Branches**: Specify the branch to which the issue belongs.
-  - **Planed to start**/**Planed to end**: Specify the planned start/end date for the issue for the reference of the person who claims the issue.
-  - **Top level**: Choose whether to place the issue on the top of the issue list to attract attention.
-  - **Priority**: Specify the priority of the issue.
+  - **Branches**: After the issue is created, associate the issue with a specific development branch.
+  - **Top level**, **Visibility**, and **Lock**: After the issue is created, you can pin the issue, make it private, or lock the discussion as required.
 
 
 
 ## Issue Overview
 
-Only the current repository can be viewed and operated on the Issue panel. Gitee also provides the global view of issues.
+Only the current repository can be viewed and operated on the Issue panel. The code hosting platform also provides a global view of issues.
 
-- Global view of the organization: Click the **Issues** panel of the openEuler organization to view all issues of the organization.
+- **Organization global view**: Visit the [openEuler organization issue list](https://atomgit.com/org/openeuler/issues) to view all issues of the organization. You can filter issues through entries such as **Issues**, **Created by me**, **Assigned to me**, and **Participated**, and use the toolbar to filter and sort issues by different conditions.
 
-  ![](figures/issue-submit-viewall.png)
+  ![](figures/AtomGit-OrgIssues-Full.png)
 
-- Individual global view: Click any issue in the organization global view. The individual workspace page is displayed. Click Task on the left to view and operate all issues related to you. You can select either of the two display modes. You can also filter, filter, and sort data based on different conditions on the toolbar.
+- **Personal filter view**: On the left of the issue list, use **Created by me**, **Assigned to me**, or **Participated** to quickly filter issues related to you.
 
-  ![](figures/issue-submit-viewOne.png)
+  ![](figures/AtomGit-IssueFilters.png)
   
   
 
@@ -69,13 +68,11 @@ For details about the complete requirement issue handling process, see the follo
 
 **Step 1. Create a requirement issue.** (Issue status: **Backlog**)
 
-- Go to the repository of the team or project corresponding to the requirement. For details about how to find the repository, see [this section](README.md/#id2-1-2). On the **Issues** panel, click **+New Issue**.
+- Go to the repository of the team or project corresponding to the requirement. For details about how to find the repository, see [this section](README.md/#id2-1-2). On the **Issues** panel, click **+ New Issue**.
 
-- If you are not sure about the team or project corresponding to the requirement, create an issue in the [community repository](https://gitee.com/openeuler/community-issue). The community developers will help you find the team or project.
+- If you are not sure about the team or project corresponding to the requirement, create an issue in the [community repository](https://atomgit.com/openeuler/community-issue). The community developers will help you find the team or project.
 
-- Select **Requirement** in the issue type drop-down list next to the title box. The requirement issue template is displayed.
-
-- **Briefly describe the key points of the requirement** in the title.
+- Select the requirement template when creating the issue, and **briefly describe the key points of the requirement** in the title.
 
 - Describe the scenario and value of the requirement in the description.
 
@@ -87,7 +84,7 @@ For details about the complete requirement issue handling process, see the follo
 
   If a reviewer (maintainer or committer) thinks that the requirement can be accepted, the reviewer needs to supplement information about the accepted requirement, including:
 
-  - Check and set the project to which the requirement belongs.
+  - Check and set the labels of the requirement.
   - Set the recommended milestone (planned version) to incorporate the requirement.
   - Set the priority label of the requirement by choosing **feature:High**, **feature:Medium**, or **feature:Low** in the label column.
   - After the preceding information is added, change the status of the issue to **Doing** (and proceed to **Step 3**).
@@ -122,9 +119,9 @@ Discovering and submitting issues is one of the good ways to contribute to the c
 
 **Step 1. Create a bug issue.**
 
-- Go to the repository of the team or project corresponding to the bug. For details about how to find the repository, see [this section](README.md/#id2-1-2). On the **Issues** panel, click **+New Issue**.
-- If you are not sure about the team or project corresponding to the bug, create an issue in the [community repository](https://gitee.com/openeuler/community-issue). The community developers will help you find the team or project.
-- Select **Bug** in the issue type drop-down list next to the title box. The bug issue template is displayed.
+- Go to the repository of the team or project corresponding to the bug. For details about how to find the repository, see [this section](README.md/#id2-1-2). On the **Issues** panel, click **+ New Issue**.
+- If you are not sure about the team or project corresponding to the bug, create an issue in the [community repository](https://atomgit.com/openeuler/community-issue). The community developers will help you find the team or project.
+- Select the bug template when creating the issue.
 - **Briefly describe the key points of the bug** in the title.
 - Describe the bug in the description based on the bug issue template shown below.  
   *Note: Clear and complete description helps group members understand and accept the requirement, and schedule the development plan more quickly.*
@@ -169,7 +166,7 @@ The reasons include:
 
 **Step 3: Claim or assign an issue.** Issues can be claimed proactively or assigned by team members. You can enter **/assign** in the comment area to assign the issue to yourself or others.
 
-**Step 4: Modify the code and submit a PR.** After modifying and locally verifying the code, attach the link to the issue when submitting a PR. For details, see [Associate a Commit to an Issue](https://gitee.com/help/articles/4141) in the Gitee help document. For details about how to submit a PR, see the [Pull Request Submission Guide](pull-request.md).
+**Step 4: Modify the code and submit a PR.** After modifying and locally verifying the code, associate the issue when submitting a PR. When creating the PR, click **Associate Issue**, select the issue, and select **Close associated issue after merge** as required. For details, see [Pull Request Association with Issues](https://docs.atomgit.com/en/docs/help/home/org_project/pullrequests/pr-related-issue). For details about how to submit a PR, see the [Pull Request Submission Guide](pull-request.md).
 
 **Step 5: Verify the modification in the project.** Verify the PR within the project. If the verification fails, go back to **Step 4**. If the verification is passed and the issue is not related to the openEuler version, close the issue as a project team issue.
 

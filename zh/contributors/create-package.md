@@ -1,6 +1,8 @@
 # 新增软件包
 
-执行以下步骤，可以在atomgit新增软件包的同时在EulerMaker建立对应工程。
+> 说明：openEuler 当前使用的代码托管平台为 AtomGit。本文档中的界面、域名和命令均以 AtomGit 为例。
+
+执行以下步骤，可以在代码托管平台新增软件包的同时在EulerMaker建立对应工程。
 
 - [操作步骤](#操作步骤)
   - [方式一：通过提交 Issue 申请建仓（推荐）](#方式一通过提交-issue-申请建仓推荐)
@@ -25,7 +27,7 @@
    |------|---------|------|
    | 仓库名称 | 是 | 仅支持小写字母、数字和连字符，例如 `my-package` |
    | 仓库所属组织 | 是 | `openeuler`（社区维护项目）或 `src-openeuler`（引入的制品仓） |
-   | 上游仓库地址 | 条件必填 | 当组织为 `src-openeuler` 时必填，格式如 `https://gitcode.com/org/repo` 或 `https://github.com/org/repo` |
+   | 上游仓库地址 | 条件必填 | 当组织为 `src-openeuler` 时必填，格式如 `https://atomgit.com/org/repo` 或 `https://github.com/org/repo` |
    | 仓库描述 | 是 | 仓库的简要说明 |
    | 默认分支名称 | 是 | 默认 `master` |
    | 仓库类型 | 是 | `public` 或 `private` |
@@ -40,11 +42,11 @@
 
 4. 若校验失败或 PR 创建失败，根据机器人评论的提示修改 issue 内容后，在 issue 下评论 `/retrigger` 命令触发机器人重新执行建仓流程。
 
-5. PR 由所属 SIG 组维护者审核合入后，将自动建立同名仓库，并同步在 EulerMaker 上创建对应工程：[https://build.openeuler.org/project/show/openEuler:Factory](https://build.openeuler.org/project/show/openEuler:Factory)
+5. PR 由所属 SIG 组 maintainer 和技术委员会审视后合入，随后将自动建立同名仓库，并同步在 EulerMaker 上创建对应工程：[https://build.openeuler.org/project/show/openEuler:Factory](https://build.openeuler.org/project/show/openEuler:Factory)
 
 ### 方式二：通过 Fork 仓库提交 PR 申请建仓
 
-通过修改atomgit中的openeuler/community仓库实现新增软件包的具体操作步骤如下：
+通过修改代码托管平台中的openeuler/community仓库实现新增软件包的具体操作步骤如下：
 
 1. 点击进入[community仓库](https://atomgit.com/openeuler/community.git)，将其fork到自己的仓库。
 
@@ -54,7 +56,7 @@
   git clone https://atomgit.com/"$username"/community.git
   ```
 
-3. 修改community仓库。以在atomgit新增zip软件包，并且同步在openEuler:Factory工程项目下添加该包为例。
+3. 修改community仓库。以在代码托管平台新增zip软件包，并且同步在openEuler:Factory工程项目下添加该包为例。
 
    * cd community/sig
 
@@ -95,6 +97,6 @@
       type: public
       ```
 
-   * 提交PR（请参考[PR提交指南](https://atomgit.com/openeuler/community/blob/master/zh/contributors/pull-request.md)，PR合入后将会在atomgit建立同名仓库。查看地址：[src-openeuler](https://atomgit.com/src-openeuler)。同时在EulerMaker上创建对应工程：https://build.openeuler.org/project/show/openEuler:Factory
+   * 提交PR（请参考[PR提交指南](https://atomgit.com/openeuler/community/blob/master/zh/contributors/pull-request.md)，PR合入后将会在代码托管平台建立同名仓库。查看地址：[src-openeuler](https://atomgit.com/src-openeuler)。同时在EulerMaker上创建对应工程：https://build.openeuler.org/project/show/openEuler:Factory
 
 > 关于社区 Git LFS 服务的相关内容请移步 [对应文档](./git-lfs.md) 查看

@@ -1,5 +1,7 @@
 该文档指导大家参与openEuler社区。
 
+> 说明：openEuler 当前使用的代码托管平台为 AtomGit。本文档中的界面、域名和命令均以 AtomGit 为例。
+
 # 欢迎
 
 欢迎来到openEuler！
@@ -51,7 +53,7 @@
 
 ## 社区行为守则
 
-openEuler是一个开源社区。它完全依赖于社区提供友好的开发和协作环境，所以在参与社区贡献之前，请先阅读并遵守openEuler社区的[行为守则](https://gitee.com/openeuler/community/blob/master/code-of-conduct.md)。
+openEuler是一个开源社区。它完全依赖于社区提供友好的开发和协作环境，所以在参与社区贡献之前，请先阅读并遵守openEuler社区的[行为守则](https://atomgit.com/openeuler/community/blob/master/code-of-conduct.md)。
 
 
 
@@ -72,7 +74,7 @@ SIG就是Special Interest Group的缩写，openEuler社区按照不同的SIG来�
 - SIG组是开放的，欢迎任何人加入并参与贡献。
 - SIG都是针对特定的一个或多个技术主题而成立的。SIG内的成员推动交付成果输出，并争取让交付成果成为openEuler社区发行的一部分。
 - SIG的核心成员主导SIG的治理。请查看[SIG的角色说明](./../../community-membership_cn.md)。您可以在贡献的同时积累经验和提升影响力。
-- 每一个SIG在Gitee上都会拥有一个或多个项目，这些项目会拥有一个或多个Repository。SIG的交付成果会保存在这些Repository内。
+- 每一个SIG在代码托管平台上都会拥有一个或多个项目，这些项目会拥有一个或多个Repository。SIG的交付成果会保存在这些Repository内。
 - 可以在SIG对应的Repository内提交Issue、针对特定问题参与讨论，提交和解决问题，参与评审等。
 - 您也可以通过邮件列表、IRC或视频会议和SIG内的成员进行交流。
 
@@ -100,7 +102,7 @@ SIG就是Special Interest Group的缩写，openEuler社区按照不同的SIG来�
 
 ### 给自己分配一个Issue
 
-- **找到Issue列表**：在您感兴趣的项目的首页内（Gitee上的项目的Repository）的工具栏，点击<img src="figure/Issue图标" alt="捕获" style="zoom:50%;" />，您可以找到该SIG的Issue列表（如Community团队的Issue列表地址为<https://gitee.com/openeuler/community/issues>）
+- **找到Issue列表**：在您感兴趣的项目的首页内（代码托管平台上的项目的Repository）的工具栏，点击<img src="figure/AtomGit-Issues.png" alt="Issues" style="zoom:50%;" />，您可以找到该SIG的Issue列表（如Community团队的Issue列表地址为<https://atomgit.com/openeuler/community/issues>）
 
 - **找到愿意处理的Issue**：如果您愿意处理其中的一个issue，可以将它分配给自己。只需要在评论框内输入 `/assign`或 `/assign @yourself`，机器人就会将问题分配给您，您的名字将显示在负责人列表里。
 - **参与Issue内的讨论**：每个Issue下面可能已经有参与者们的交流和讨论，如果您感兴趣，也可以在评论框中发表自己的意见。
@@ -140,7 +142,7 @@ SIG就是Special Interest Group的缩写，openEuler社区按照不同的SIG来�
 
 #### 下载代码和拉分支
 
-如果要参与代码贡献，您还需要了解如何在Gitee下载代码，通过PR合入代码等。openEuler使用的是Gitee代码托管平台，向了解具体的指导，请参考[Gitee Workflow Guide](Gitee-workflow.md)。该托管平台的使用方法类似GitHub，如果您以前使用GitHub，本章的内容您可以大致了解甚至跳过。
+如果要参与代码贡献，您还需要了解如何在代码托管平台下载代码，通过PR合入代码等。想了解具体的指导，请参考[代码托管工作流指南](AtomGit-workflow.md)。该平台的使用方法类似GitHub，如果您以前使用GitHub，本章的内容您可以大致了解甚至跳过。
 
 
 
@@ -156,11 +158,11 @@ SIG就是Special Interest Group的缩写，openEuler社区按照不同的SIG来�
 
 #### 如何新增软件包
 
-openEuler支持在gitee新增软件包的同时自动在EulerMaker创建对应工程。这样在向已创建的gitee仓库提交代码时，会自动对代码编译进行检测。具体流程可参考[如何新增软件包](create-package.md)。
+openEuler支持在代码托管平台新增软件包的同时自动在EulerMaker创建对应工程。这样在向已创建的代码托管平台仓库提交代码时，会自动对代码编译进行检测。具体流程可参考[如何新增软件包](create-package.md)。
 
 ### 检视代码
 
-openEuler是一个开放的社区，我们希望所有参与社区的人都能成为活跃的检视者。可以参考[社区成员](https://gitee.com/openeuler/community/blob/master/community-membership_cn.md)，该文档描述了不同贡献者的角色职责。
+openEuler是一个开放的社区，我们希望所有参与社区的人都能成为活跃的检视者。可以参考[社区成员](https://atomgit.com/openeuler/community/blob/master/community-membership_cn.md)，该文档描述了不同贡献者的角色职责。
 
 **对于贡献者**，为了使您的提交更容易被接受，您需要：
 
@@ -171,7 +173,7 @@ openEuler是一个开放的社区，我们希望所有参与社区的人都能�
 
 
 
-**对于检视者**，强烈建议本着[行为准则](https://gitee.com/openeuler/community/blob/master/code-of-conduct.md)，超越自我，相互尊重和促进协作。在检视其他人的PR的时候，[补丁审核的柔和艺术](https://sage.thesharps.us/2014/09/01/the-gentle-art-of-patch-review/)提出了一系列检视的重点，旨在说明检视的活动也希望能够促进新的贡献者积极参与，而不会使贡献者一开始就被细微的错误淹没，所以检视的时候，可以重点关注包括：
+**对于检视者**，强烈建议本着[行为准则](https://atomgit.com/openeuler/community/blob/master/code-of-conduct.md)，超越自我，相互尊重和促进协作。在检视其他人的PR的时候，[补丁审核的柔和艺术](https://sage.thesharps.us/2014/09/01/the-gentle-art-of-patch-review/)提出了一系列检视的重点，旨在说明检视的活动也希望能够促进新的贡献者积极参与，而不会使贡献者一开始就被细微的错误淹没，所以检视的时候，可以重点关注包括：
 
 + 贡献背后的想法是否合理
 + 贡献的架构是否正确
@@ -182,9 +184,9 @@ openEuler是一个开放的社区，我们希望所有参与社区的人都能�
 
 
 <h1 id="id5">测试</h1>
-测试——是所有贡献者的责任，对于社区版本来说，[sig-qa组](https://gitee.com/openeuler/QA)是负责测试活动的社区官方组织。如果您希望在自己的基础架构上开展测试活动，可以参考：[社区测试体系介绍](https://gitee.com/openeuler/QA/blob/master/社区测试体系介绍.md)。
+测试——是所有贡献者的责任，对于社区版本来说，[sig-qa组](https://atomgit.com/openeuler/QA)是负责测试活动的社区官方组织。如果您希望在自己的基础架构上开展测试活动，可以参考：[社区测试体系介绍](https://atomgit.com/openeuler/QA/blob/master/社区测试体系介绍.md)。
 
-为了成功发行一个社区版本，需要完成多种测试活动。不同的测试活动，测试代码的位置也有所不同，成功运行测试所需的环境的细节也会有差异，有关的信息可以参考[测试指南](https://gitee.com/openeuler/QA/blob/master/社区开发者测试贡献指南.md)。
+为了成功发行一个社区版本，需要完成多种测试活动。不同的测试活动，测试代码的位置也有所不同，成功运行测试所需的环境的细节也会有差异，有关的信息可以参考[测试指南](https://atomgit.com/openeuler/QA/blob/master/社区开发者测试贡献指南.md)。
 
 
 
@@ -210,8 +212,8 @@ openEuler是一个开放的社区，我们希望所有参与社区的人都能�
 
 # 社区安全问题披露
 
-+ [安全处理流程](https://gitee.com/openeuler/security-committee/blob/master/security-process.md)——简要描述了处理安全问题的过程
-+ [安全披露信息](https://gitee.com/openeuler/security-committee/blob/master/security-disclosure.md)——如果您希望报告安全漏洞，请参考此页面
++ [安全处理流程](https://atomgit.com/openeuler/security-committee/blob/master/security-process.md)——简要描述了处理安全问题的过程
++ [安全披露信息](https://atomgit.com/openeuler/security-committee/blob/master/security-disclosure.md)——如果您希望报告安全漏洞，请参考此页面
 
 
 
@@ -219,7 +221,7 @@ openEuler是一个开放的社区，我们希望所有参与社区的人都能�
 
 ## 社区内沟通方式说明
 
-openEuler社区的交流方式有邮件列表、IRC会议和视频会议等，使用方式请参考[社区交流方式指导](https://gitee.com/openeuler/community/tree/master/zh/communication)
+openEuler社区的交流方式有邮件列表、IRC会议和视频会议等，使用方式请参考[社区交流方式指导](https://atomgit.com/openeuler/community/tree/master/zh/communication)
 
 
 
@@ -238,4 +240,4 @@ openEuler参加或举办的社区和技术交流会议，关于这些事件和�
 
 # 问题反馈
 
-如果您在使用该贡献者指南或对开发过程有疑问，请随时告诉[我们](community@openeuler.org)，并在邮件标题内用“【开发过程疑问】”作为邮件标题写出你的疑问和困惑，openEuler社区运营团队会并尽力确保您的问题得到解答。
+如果您在使用该贡献者指南或对开发过程有疑问，请随时告诉[我们](mailto:community@openeuler.org)，并在邮件标题内用“【开发过程疑问】”作为邮件标题写出你的疑问和困惑，openEuler社区运营团队会并尽力确保您的问题得到解答。

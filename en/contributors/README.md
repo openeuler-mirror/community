@@ -1,5 +1,7 @@
 This document provides guidance on how to participate in the openEuler community.
 
+> Note: openEuler currently uses AtomGit as its code hosting platform. The UI, domain names, and commands in this document use AtomGit as an example.
+
 # Welcome
 
 Welcome to openEuler!
@@ -73,7 +75,7 @@ SIG is short for Special Interest Group. The openEuler community is organized in
 - SIGs are open. Anyone is welcome to join and contribute to SIGs.
 - A SIG is established for one or more specific technical topics. SIG members promote the output of deliverables and strive to make the deliverables a part of the openEuler distributions.
 - Core members of the SIG lead the SIG governance. For details, see [Community Membership](./../../community-membership.md). You can accumulate experience and improve your influence while making contributions.
-- Each SIG has one or more projects on Gitee. These projects have one or more repositories. The SIG deliverables are stored in these repositories.
+- Each SIG has one or more projects on the code hosting platform. These projects have one or more repositories. The SIG deliverables are stored in these repositories.
 - You can submit issues in the repository corresponding to the SIG, participate in discussion of specific issues, resolve issues, and participate in review.
 - You can also communicate with other members in the SIG through the mailing list, Internet Relay Chat (IRC) channel, and video conference.
 
@@ -101,7 +103,7 @@ Finding the SIG you are interested in can help you ask questions in the right pl
 
 ### Assign an Issue to Yourself
 
-- **Find the issue list**: On the toolbar of the home page (repository of the project on Gitee) of the project that you are interested in, click <img src="figures/Issues-icon.jpg" style="zoom:50%;" /> to find the issue list of the SIG (for example, the issue list address of the community SIG is <https://gitee.com/openeuler/community/issues>).
+- **Find the issue list**: On the toolbar of the home page (repository of the project on the code hosting platform) of the project that you are interested in, click <img src="figures/AtomGit-Issues.png" alt="Issues" style="zoom:50%;" /> to find the issue list of the SIG (for example, the issue list address of the community SIG is <https://atomgit.com/openeuler/community/issues>).
 
 - **Find an issue that you want to handle**: If you want to handle one of the issues, you can assign it to yourself. You only need to enter **/assign** or **/assign @yourself** in the comment area. The bot will assign the issue to you and your name will be displayed in the assignee list.
 - **Participate in discussion within an issue**: An issue may have been discussed by participants. If you are interested in the issue, you can leave your comment in the comment area.
@@ -141,7 +143,7 @@ In addition to these files, the SIG may also provide other guidance information.
 
 #### Download Code and Create a Branch
 
-To contribute code, you also need to know how to download code from Gitee and merge the code through a pull request (PR). The code of the openEuler community is hosted on Gitee. For details, see [Gitee Workflow](Gitee-workflow.md). The method of using Gitee is similar to that of GitHub. If you have used GitHub before, you can have a quick look at or even skip this chapter.
+To contribute code, you also need to know how to download code from the code hosting platform and merge the code through a pull request (PR). The code of the openEuler community is hosted on the code hosting platform. For details, see [Code Hosting Workflow](AtomGit-workflow.md). The method of using the platform is similar to that of GitHub. If you have used GitHub before, you can have a quick look at or even skip this chapter.
 
 
 
@@ -156,11 +158,11 @@ After the modification is complete on the local branch, perform build and verifi
 When you submit a PR, you are starting to contribute code to the community. For details, see [Pull Request Submission Guide](pull-requests.md).
 
 #### Add a Software Package
-openEuler can automatically create a repository with the same name on openEuler:Factory of OBS when a software package is added to Gitee. In this way, when the code is submitted to the created Gitee repository, the code compilation is automatically checked. For details, see [Adding a New Software Package](create-package.md).
+openEuler can automatically create a repository with the same name on openEuler:Factory of OBS when a software package is added to the code hosting platform. In this way, when the code is submitted to the created code hosting platform repository, the code compilation is automatically checked. For details, see [Adding a New Software Package](create-package.md).
 
 ### Code Review
 
-openEuler is an open community and everyone involved is expected to be an active reviewer. For details about the roles and responsibilities of different types of contributors, see [Community Membership](community-membership.md).
+openEuler is an open community and everyone involved is expected to be an active reviewer. For details about the roles and responsibilities of different types of contributors, see [Community Membership](./../../community-membership.md).
 
 **As a contributor**, to make your submissions easier to accept, you need to:
 
@@ -183,9 +185,9 @@ Note: If your PR does not attract enough attention, you can ask for help through
 
 ## Testing
 
-Testing is the responsibility of all contributors. The [QA SIG](https://gitee.com/openeuler/QA) is the official organization responsible for testing activities related to the versions of the community edition . If you want to carry out testing on your own infrastructure, see [Community Test System](https://gitee.com/openeuler/QA/blob/master/community-test-system.md).
+Testing is the responsibility of all contributors. The [QA SIG](https://atomgit.com/openeuler/QA) is the official organization responsible for testing activities related to the versions of the community edition . If you want to carry out testing on your own infrastructure, see [Community Test System](https://atomgit.com/openeuler/QA/blob/master/community-test-system.md).
 
-A successful release of the community edition requires multiple types of testing activities. The code to be tested and environments required for running the tests vary with the test activity types. For details, see [Community Developer Test Contribution Guide](https://gitee.com/openeuler/QA/blob/master/community-developer-test-contribution-guide.md).
+A successful release of the community edition requires multiple types of testing activities. The code to be tested and environments required for running the tests vary with the test activity types. For details, see [Community Developer Test Contribution Guide](https://atomgit.com/openeuler/QA/blob/master/community-developer-test-contribution-guide.md).
 
 
 
@@ -211,8 +213,8 @@ See [openEuler Download](https://www.openeuler.org/en/download/).
 
 # Disclosure of Community Security Issues
 
-+ [Security Handling Process](https://gitee.com/openeuler/security-committee/blob/master/security-process-en.md): This document briefly describes the process for handling security issues.
-+ [Security Disclosure Information](https://gitee.com/openeuler/security-committee/blob/master/security-disclosure-en.md): If you want to report security vulnerabilities, please refer to this page.
++ [Security Handling Process](https://atomgit.com/openeuler/security-committee/blob/master/security-process-en.md): This document briefly describes the process for handling security issues.
++ [Security Disclosure Information](https://atomgit.com/openeuler/security-committee/blob/master/security-disclosure-en.md): If you want to report security vulnerabilities, please refer to this page.
 
 
 
@@ -239,4 +241,4 @@ The community holds developer conferences every year. Get in touch with us throu
 
 # Feedback
 
-If you have any questions about the contributor guide or the development process, please feel free to [tell us](community@openeuler.org) through the mailing lists and write down your questions and doubts in the email with the subject line in the format of **[Development Process Question]**. The openEuler community operations team will coordinate and assign related personnel to answer your questions.
+If you have any questions about the contributor guide or the development process, please feel free to [tell us](mailto:community@openeuler.org) through the mailing lists and write down your questions and doubts in the email with the subject line in the format of **[Development Process Question]**. The openEuler community operations team will coordinate and assign related personnel to answer your questions.

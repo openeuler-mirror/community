@@ -12,7 +12,7 @@
 
 rpm-build本地构建软件包的具体操作步骤如下：
 
-1.  配置repo源，具体请参考[开发环境准备](https://gitee.com/openeuler/community/blob/master/zh/contributors/prepare-environment.md)中的配置repo源内容。
+1.  配置repo源，具体请参考[开发环境准备](https://atomgit.com/openeuler/community/blob/master/zh/contributors/prepare-environment.md)中的配置repo源内容。
 2.  使用rpm-build进行本地构建。
     1.  查找需要操作的源码。以openssl为例，请根据实际修改。
 
