@@ -1,0 +1,44 @@
+name: python-repoze.who
+description: repoze.who is an identification and authentication framework for WSGI.
+upstream: http://www.repoze.org
+fork_from: src-openeuler/python-repoze.who
+branches:
+- name: master
+  type: protected
+- name: Multi-Version_OpenStack-Train_openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+- name: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+- name: Multi-Version_OpenStack-Train_openEuler-22.03-LTS
+  type: protected
+  create_from: Multi-Version_OpenStack-Train_openEuler-22.03-LTS-Next
+- name: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS
+  type: protected
+  create_from: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-Next
+- name: Multi-Version_OpenStack-Train_openEuler-22.03-LTS-SP1
+  type: protected
+  create_from: Multi-Version_OpenStack-Train_openEuler-22.03-LTS-Next
+- name: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-SP1
+  type: protected
+  create_from: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-Next
+- name: Multi-Version_OpenStack-Train_openEuler-22.03-LTS-SP2
+  type: protected
+  create_from: Multi-Version_OpenStack-Train_openEuler-22.03-LTS-Next
+- name: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-SP2
+  type: protected
+  create_from: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-Next
+- name: Multi-Version_OpenStack-Train_openEuler-22.03-LTS-SP3
+  type: protected
+  create_from: Multi-Version_OpenStack-Train_openEuler-22.03-LTS-Next
+- name: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-SP3
+  type: protected
+  create_from: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-Next
+- name: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-SP4
+  type: protected
+  create_from: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-Next
+- name: Multi-Version_OpenStack-Train_openEuler-22.03-LTS-SP4
+  type: protected
+  create_from: Multi-Version_OpenStack-Train_openEuler-22.03-LTS-Next
+type: public

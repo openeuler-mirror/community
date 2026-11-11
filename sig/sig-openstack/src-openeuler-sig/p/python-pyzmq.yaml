@@ -1,0 +1,14 @@
+name: python-pyzmq
+description: Python bindings for 0MQ
+upstream: https://pyzmq.readthedocs.org
+fork_from: src-openeuler/python-pyzmq
+branches:
+- name: master
+  type: protected
+- name: oepkg_openstack-queens_oe-20.03-LTS-Next
+  type: protected
+  create_from: master
+- name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

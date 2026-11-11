@@ -1,0 +1,11 @@
+name: python-sphinx-autobuild
+description: Rebuild Sphinx documentation on changes, with live-reload in the browser.
+upstream: https://github.com/executablebooks/sphinx-autobuild
+fork_from: src-openeuler/python-sphinx-autobuild
+branches:
+- name: master
+  type: protected
+- name: Multi-Version_OpenStack-Antelope_openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

@@ -1,0 +1,14 @@
+name: python-nose-exclude
+description: Exclude specific directories from nosetests runs.
+upstream: https://github.com/kgrandis/nose-exclude
+fork_from: src-openeuler/python-nose-exclude
+branches:
+- name: master
+  type: protected
+- name: oepkg_openstack-queens_oe-20.03-LTS-Next
+  type: protected
+  create_from: master
+- name: oepkg_openstack-rocky_oe-20.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

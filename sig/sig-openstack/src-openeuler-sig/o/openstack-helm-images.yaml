@@ -1,0 +1,20 @@
+name: openstack-helm-images
+description: Images for use with OpenStack Helm
+upstream: https://opendev.org/openstack/openstack-helm-images
+rename_from: src-openeuler/openstack-helm-images
+branches:
+- name: master
+  type: protected
+- name: openEuler-22.09
+  type: readonly
+  create_from: master
+- name: openEuler-23.03
+  type: readonly
+  create_from: master
+- name: openEuler-23.09
+  type: protected
+  create_from: master
+- name: openEuler-25.03
+  type: protected
+  create_from: master
+type: public

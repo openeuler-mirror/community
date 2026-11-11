@@ -1,0 +1,11 @@
+name: python-Automat
+description: Self-service finite-state machines for the programmer on the go.
+upstream: https://github.com/glyph/Automat
+fork_from: src-openeuler/python-Automat
+branches:
+- name: master
+  type: protected
+- name: oepkg_openstack-train_oe-20.03-LTS-SP1
+  type: protected
+  create_from: openEuler-20.03-LTS-SP3
+type: public

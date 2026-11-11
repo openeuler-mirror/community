@@ -1,0 +1,14 @@
+name: python-sphinx-issues
+description: A Sphinx extension for linking to your project's issue tracker
+upstream: https://github.com/sloria/sphinx-issues
+fork_from: src-openeuler/python-sphinx-issues
+branches:
+- name: master
+  type: protected
+- name: Multi-Version_OpenStack-Train_openEuler-22.03-LTS-Next
+  type: protected
+  create_from: openEuler-20.03-LTS-SP3
+- name: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-Next
+  type: protected
+  create_from: openEuler-21.09
+type: public

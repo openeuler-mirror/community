@@ -1,0 +1,14 @@
+name: python-kuryr
+description: OpenStack kuryr
+upstream: https://github.com/openstack/kuryr
+rename_from: src-openeuler/python-kuryr
+branches:
+- name: master
+  type: protected
+- name: Multi-Version_OpenStack-Gazpacho_openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+- name: Multi-Version_OpenStack-Gazpacho_openEuler-24.03-LTS-SP4
+  type: protected
+  create_from: Multi-Version_OpenStack-Gazpacho_openEuler-24.03-LTS-Next
+type: public

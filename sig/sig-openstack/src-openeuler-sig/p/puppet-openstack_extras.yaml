@@ -1,0 +1,14 @@
+name: puppet-openstack_extras
+description: OpenStack puppet-openstack_extras
+upstream: https://github.com/openstack/puppet-openstack_extras
+rename_from: src-openeuler/puppet-openstack_extras
+branches:
+- name: master
+  type: protected
+- name: Multi-Version_OpenStack-Gazpacho_openEuler-24.03-LTS-Next
+  type: protected
+  create_from: master
+- name: Multi-Version_OpenStack-Gazpacho_openEuler-24.03-LTS-SP4
+  type: protected
+  create_from: Multi-Version_OpenStack-Gazpacho_openEuler-24.03-LTS-Next
+type: public

@@ -1,0 +1,11 @@
+name: python-yarl
+description: Yet another URL library
+upstream: https://github.com/aio-libs/yarl/
+fork_from: src-openeuler/python-yarl
+branches:
+- name: master
+  type: protected
+- name: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public

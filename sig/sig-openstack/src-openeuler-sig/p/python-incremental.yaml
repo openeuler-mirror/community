@@ -1,0 +1,13 @@
+name: python-incremental
+description: ''
+fork_from: src-openeuler/python-incremental
+branches:
+- name: master
+  type: protected
+- name: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-Next
+  type: protected
+  create_from: openEuler-21.09
+- name: Multi-Version_OpenStack-Antelope_openEuler-25.03
+  type: protected
+  create_from: openEuler-24.03-LTS-SP1
+type: public

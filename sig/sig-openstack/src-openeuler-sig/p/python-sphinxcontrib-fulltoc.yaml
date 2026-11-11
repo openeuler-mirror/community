@@ -1,0 +1,11 @@
+name: python-sphinxcontrib-fulltoc
+description: Include a full table of contents in your Sphinx HTML sidebar
+upstream: http://sphinxcontrib-fulltoc.readthedocs.org
+fork_from: src-openeuler/python-sphinxcontrib-fulltoc
+branches:
+- name: master
+  type: protected
+- name: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-Next
+  type: protected
+  create_from: master
+type: public
