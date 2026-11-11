@@ -18,7 +18,7 @@ Submit a "repository creation" issue in the community repository. The community 
 
 **Procedure:**
 
-1. Go to the issue creation page of the community repository: [https://atomgit.com/openeuler/community/issues](https://atomgit.com/openeuler/community/issues). Click **New Issue** and select the repository creation template.
+1. Go to the issue creation page of the community repository: [community issue creation page][atomgit-openeuler-community-issues]. Click **New Issue** and select the repository creation template.
 
 2. Fill in the following fields as prompted. The issue title automatically starts with a fixed prefix. Do not delete the prefix.
 
@@ -41,13 +41,13 @@ Submit a "repository creation" issue in the community repository. The community 
 
 4. If validation or PR creation fails, modify the issue content according to the bot's comment and comment `/retrigger` on the issue to trigger the bot to run the repository creation process again.
 
-5. After the PR is reviewed and merged by the SIG maintainers and the Technical Committee, a repository with the same name is automatically created, and the corresponding project is created in EulerMaker: [https://build.openeuler.org/project/show/openEuler:Factory](https://build.openeuler.org/project/show/openEuler:Factory).
+5. After the PR is reviewed and merged by the SIG maintainers and the Technical Committee, a repository with the same name is automatically created, and the corresponding project is created in EulerMaker: [openEuler:Factory][openeuler-project-show-openeuler-factory].
 
 ### Method 2: Create a repository by forking the repository and submitting a PR
 
 To add a software package by modifying the openeuler/community repository on the code hosting platform, perform the following steps:
 
-1. Go to the [community repository](https://atomgit.com/openeuler/community.git) and fork it to your own repository.
+1. Go to the [community repository][atomgit-openeuler-community-git] and fork it to your own repository.
 
 2. Clone the forked community repository to the local host.
 
@@ -96,4 +96,9 @@ To add a software package by modifying the openeuler/community repository on the
       type: public
       ```
 
-   * Submit a PR. For details, see the [Pull Request Submission Guide](pull-request.md). After the PR is merged, a repository with the same name is created in [src-openeuler](https://atomgit.com/src-openeuler) on the code hosting platform, and the corresponding project is created in EulerMaker: [https://build.openeuler.org/project/show/openEuler:Factory](https://build.openeuler.org/project/show/openEuler:Factory).
+   * Submit a PR. For details, see the [Pull Request Submission Guide](pull-request.md). After the PR is merged, a repository with the same name is created in [src-openeuler][atomgit-src-openeuler] on the code hosting platform, and the corresponding project is created in EulerMaker: [openEuler:Factory][openeuler-project-show-openeuler-factory].
+
+[atomgit-openeuler-community-issues]: https://atomgit.com/openeuler/community/issues
+[openeuler-project-show-openeuler-factory]: https://build.openeuler.org/project/show/openEuler:Factory
+[atomgit-openeuler-community-git]: https://atomgit.com/openeuler/community.git
+[atomgit-src-openeuler]: https://atomgit.com/src-openeuler

@@ -2,13 +2,13 @@
 
 ### Subscribe Mail List
 
-Visit <https://openeuler.org/en/community/mails.html> to find the available mail lists, and follow the steps below to subscribe mail list you'd like.
+Visit [openEuler mailing list page][openeuler-en-mailing-list] to find the available mail lists, and follow the steps below to subscribe mail list you'd like.
 
 There are two ways to join the list.
 
 #### 1. Web Page
 
-> 1) Visit the subscribing page via clicking the list name in <https://openeuler.org/en/community/mails.html>.
+> 1) Visit the subscribing page via clicking the list name in [openEuler mailing list page][openeuler-en-mailing-list].
 > 2) Provide your email address, name and click the ```Subscribe``` button
 > 3) Login your email and reply the confirm email from @openeuler.org directly
 
@@ -52,4 +52,7 @@ If you meet any problem, please contact the infrastructure team via:
 - Email: infra@openeuler.org
 - IRC: #openEuler-infra
 
-If you find any issue relevant mail list, please feel free to open an issue in [infrastructure](https://gitee.com/openeuler/infrastructure/issues)
+If you find any issue relevant mail list, please feel free to open an issue in [infrastructure][infra-issues]
+
+[infra-issues]: https://atomgit.com/openeuler/infrastructure/issues
+[openeuler-en-mailing-list]: https://www.openeuler.org/en/community/mailing-list/

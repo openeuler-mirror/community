@@ -1,5 +1,5 @@
 > 注意：本译文为 [The Open Source Definition](https://opensource.org/docs/osd) 的非官方译文，使用与原文相同的 [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) 许可。
-> 本文仅用于方便理解，任何歧义均以原文为准，原文参见：<https://opensource.org/docs/osd> 
+> 本文仅用于方便理解，任何歧义均以原文为准，原文参见：[Open Source Definition][osd]
 
 # 开源的定义
 
@@ -53,3 +53,4 @@
 
 *版本号 1.9，上次修改日期 2007-03-22*
 
+[osd]: https://opensource.org/docs/osd

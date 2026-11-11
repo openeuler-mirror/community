@@ -1,4 +1,5 @@
 # 基础设施SIG
+
 *todo*：基础设施团队的领域范围和目标
 
 ## 组内会议
@@ -10,9 +11,9 @@
 
 
 ## 沟通联系方式
-- [邮件列表]()
-- [IRC]()
-- [Gitee Issue/PRs]()
+- [邮件列表](mailto:infra@openeuler.org)
+- [IRC](../communication/IRCs.md)
+- [代码托管平台 Issue/PRs][infra-issues]
 
 
 
@@ -22,9 +23,9 @@
 
 ## 子项目
 
-*todo*：子项目介绍和[repo链接]()
+*todo*：子项目介绍和[repo链接][infra-repo]
 
-对于基础设施团队来说，肯定有一个关于gitee管理的子项目
+对于基础设施团队来说，肯定有一个关于仓库管理的子项目
 
 
 
@@ -37,3 +38,6 @@
 
 
 ## 目标
+
+[infra-issues]: https://atomgit.com/openeuler/infrastructure/issues
+[infra-repo]: https://atomgit.com/openeuler/infrastructure

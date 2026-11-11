@@ -10,7 +10,7 @@ Perform the following procedure to build a local software package using rpm-buil
 
 To build a local software package using rpm-build, perform the following steps:
 
-1. Configure the repo source. For details, see *Configuring a repo Source* in [Development Environment Preparations](https://atomgit.com/openeuler/community/blob/master/en/contributors/prepare-environment.md).
+1. Configure the repo source. For details, see *Configuring a repo Source* in [Development Environment Preparations][atomgit-openeuler-community-blob-master-en-contributors-prepare-environment-md].
 
 2. Build a local software package using rpm-build.
    
@@ -52,9 +52,10 @@ To build a local software package using rpm-build, perform the following steps:
         
         After the command is executed, if an error message is displayed indicating that the required software package is missing, install the required software package as prompted. The error message is shown as follows:
         
+        ```
         error: Failed build dependencies:
-        
         lksctp-tools-devel is needed by openssl-1:1.1.1d-5.aarch64
+        ```
         
         ```
         $ sudo dnf install lksctp-tools-devel -y
@@ -78,25 +79,18 @@ To build a local software package using rpm-build, perform the following steps:
       
       After the command is executed, the following information is displayed:
       
+      ```
       /home/user-A/rpmbuild/RPMS
-      
       ├── aarch64
-      
       │   ├── openssl-1.1.1d-5.aarch64.rpm
-      
       │   ├── openssl-debuginfo-1.1.1d-5.aarch64.rpm
-      
       │   ├── openssl-debugsource-1.1.1d-5.aarch64.rpm
-      
       │   └── openssl-devel-1.1.1d-5.aarch64.rpm
-      
       └── noarch
-      
-      └── openssl-help-1.1.1d-5.noarch.rpm
-      
+          └── openssl-help-1.1.1d-5.noarch.rpm
       /home/user-A/rpmbuild/SRPMS
-      
       └── openssl-1.1.1d-5.src.rpm
+      ```
       
       >![](icon/icon-note.gif) NOTE:   
       >If **tree: command not found** is displayed, run the **dnf install tree** command to install the tree software package.
@@ -117,9 +111,10 @@ To build a local software package using rpm-build, perform the following steps:
       
       After the command is executed, if an error message is displayed indicating that the required software package is missing, install the required software package as prompted. Refer to the following example for details:
       
+      ```
       error: Failed dependencies:
-      
       krb5-devel is needed by openssl-devel-1:1.1.1d-5.aarch64
+      ```
       
       ```
       $ sudo dnf install krb5-devel -y
@@ -127,6 +122,9 @@ To build a local software package using rpm-build, perform the following steps:
       
       After the dependency software package is installed, run the **rpm -ivh openssl-devel-1.1.1d-5.aarch64.rpm** command again to install the software package. The installation is completed successfully when the following message is displayed:
       
+      ```
       Updating / installing...
-      
-      1:openssl-devel-1:1.1.1d-5         ################################# \[100%]
+      1:openssl-devel-1:1.1.1d-5         ################################# [100%]
+      ```
+
+[atomgit-openeuler-community-blob-master-en-contributors-prepare-environment-md]: https://atomgit.com/openeuler/community/blob/master/en/contributors/prepare-environment.md

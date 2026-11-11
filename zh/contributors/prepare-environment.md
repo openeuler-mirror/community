@@ -135,7 +135,7 @@
         # mkdir /home/srciso
         ```
 
-    2.  登录openEuler社区，网址为：[https://openeuler.org](https://openeuler.org)。
+    2.  登录 [openEuler 社区][openeuler-zh]。
     3.  单击"下载"，进入下载页面。
     4.  单击"获取ISO："后面的"Link"，显示版本列表。
     5.  选择需要下载的版本，如openEuler 24.03 LTS SP4，则单击"openEuler-24.03-LTS-SP4"，进入下载列表。
@@ -265,3 +265,5 @@
     ```
     # rpmbuild --version
     ```
+
+[openeuler-zh]: https://openeuler.org

@@ -8,7 +8,7 @@ Hardware: physical or virtual machines (VMs) that run on the 64-bit ARM or x86-6
 
 - Self-owned development environment
   
-  1. Download the openEuler OS and install it. For details about how to install the OS, see the [openEuler 20.03 LTS Installation Guide](https://openeuler.org/en/docs/20.03_LTS/docs/Installation/Installation.html).
+  1. Download the openEuler OS and install it. For details about how to install the OS, see the [openEuler 20.03 LTS Installation Guide][openeuler-en-docs-20-03-lts-docs-installation-installation-html].
      
         >![](icon/icon-note.gif) **NOTE:**   
         >Perform this step only when the openEuler OS is not installed.
@@ -17,9 +17,9 @@ Hardware: physical or virtual machines (VMs) that run on the 64-bit ARM or x86-6
 
 - Peng Cheng Ecosystem development environment
   
-  1. Create an issue for applying for a VM on [community-issue](https://atomgit.com/openeuler/community-issue/issues).
+  1. Create an issue for applying for a VM on [community-issue][atomgit-openeuler-community-issue-issues].
   
-  2. Log in to the [Peng Cheng Ecosystem Developer Cloud](https://dw.pcl.ac.cn/cloud/login) website and apply for a VM as instructed.
+  2. Log in to the [Peng Cheng Ecosystem Developer Cloud][dw-pcl-ac-cn-cloud-login] website and apply for a VM as instructed.
   
      
   
@@ -105,7 +105,7 @@ You can configure a repo source by obtaining the repo source file or by mounting
       # mkdir /home/srciso
       ```
    
-   2. Log in to the openEuler community at [https://openeuler.org/](https://openeuler.org/en/).
+   2. Log in to the openEuler community at [openEuler community][openeuler-en].
    
    3. Click **DOWNLOAD**. The **Download ISO** page is displayed.
    
@@ -248,3 +248,8 @@ Install the software required for development. The software required varies with
    ```
    # rpmbuild --version
    ```
+
+[openeuler-en-docs-20-03-lts-docs-installation-installation-html]: https://openeuler.org/en/docs/20.03_LTS/docs/Installation/Installation.html
+[atomgit-openeuler-community-issue-issues]: https://atomgit.com/openeuler/community-issue/issues
+[dw-pcl-ac-cn-cloud-login]: https://dw.pcl.ac.cn/cloud/login
+[openeuler-en]: https://openeuler.org/en/

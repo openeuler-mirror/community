@@ -1,5 +1,7 @@
 # SIG Management Procedure
 
+> Note: Repository URLs and Git commands in this document use AtomGit as an example.
+
 All SIGs in the openEuler community have a charter that clarifies the scope and governance.
 
 + Scope defines what the SIG is responsible for
@@ -10,11 +12,11 @@ All SIGs in the openEuler community have a charter that clarifies the scope and 
 
 **1. Copy the SIG group template and name it**
 
-Fork gitee.com/openeuler/community to you gitee.
+Fork the openeuler/community repository to your code hosting platform account.
 
 
 ```
-git clone https://gitee.com/YOURGITEE/community
+git clone https://atomgit.com/YOUR_ACCOUNT/community
 
 cd ./community/sig
 
@@ -50,38 +52,22 @@ vi OWNERS
 
 ```
 
-**4. Configure repositories which the SIG maintain**
+**4. Configure repositories which the SIG maintains**
 
-In openEuler Community there are 2 repositories:
-- **Code Source** to store the source code of software. 
+Create a repository YAML file under the corresponding SIG directory:
 
-- **Package Source** to store the software packages used to build the operatig system. 
+- Community-maintained projects: `sig/<SIG>/openeuler/<first-letter>/<repository>.yaml`
+- Introduced software packages: `sig/<SIG>/src-openeuler/<first-letter>/<repository>.yaml`
 
+For the YAML format, see [sig/README.md](/sig/README.md). For the procedure, see [Adding a New Software Package](/en/contributors/create-package.md).
 
-```
-vi ../../repository/src-openeuler.yaml
+**5. Add the new SIG information to sig-info.yaml**
 
-# or / and
-
-vi ../../repository/openeuler.yaml
-
-```
-
-**5. Add the description for your new SIG in sigs.ymal**
-
-
-```
-vi ../sigs.yaml
-
-- name: sig-YOURSIGNAME
-  repositories:
-  - openeuler/aaa
-  - src-openeuler/bbb
-```
+Open `sig/<SIG>/sig-info.yaml` and fill in the SIG name, maintainers, repositories, and other information according to [sig/README.md](/sig/README.md).
 
 **6. Create a new Pull Request**
 
-Create a Pull Request on Gitee. 
+Create a Pull Request on the code hosting platform.
 
 **7. Send an application email to Techincal Committee**
 

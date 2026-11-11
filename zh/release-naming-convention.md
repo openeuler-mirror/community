@@ -20,7 +20,7 @@ openEuler的版本命名以 年 + 月 的形式进行命名，例如20.03代表2
   **LTS版本** ：例如openEuler-20.03-LTS-aarch64-dvd.iso代表2020年3月份发布的arm64体系架构的长维护周期版本。 
 
 + **软件包命名规则**：
-  软件包命名除去依照[packaging guidelines](https://gitee.com/myeuler/community/tree/master/zh/packaging-guidelines)中原则进行命名之外，软件包在构建过程中需要依照相关release添加release的tag信息。具体规则如下：
+  软件包命名除去依照[packaging guidelines](./contributors/packaging.md)中原则进行命名之外，软件包在构建过程中需要依照相关release添加release的tag信息。具体规则如下：
     - **社区创新版本**：以CUnit-2.1.3-21.oe2009.aarch64.rpm为例，其中oe2009代表openEuler 2020.09版本
     - **LTS版本**：以CUnit-2.1.3-21.oe2203LTS.aarch64.rpm为例，其中oe2203LTS代表openEuler 2022.03 LTS版本
 

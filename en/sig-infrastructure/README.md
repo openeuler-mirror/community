@@ -1,43 +1,26 @@
+# Infrastructure SIG
 
-**Please visit <https://gitee.com/openeuler/infrastructure> instead of reading the content here.**
+**Please visit [Infrastructure SIG repository][infra-repo] instead of reading the content here.**
 
+*todo*: scope and goals of the Infrastructure team.
 
-# 基础设施SIG
-*todo*：基础设施团队的领域范围和目标
+## SIG Meetings
 
-## 组内会议
+## Team Members
 
+## Communication
 
+- [Mailing list](mailto:infra@openeuler.org)
+- [IRC](../communication/IRCs.md)
+- [Code hosting platform Issues/PRs][infra-issues]
 
-## 团队成员
+## Subprojects
 
+*todo*: subproject introduction and [repository links][infra-repo].
 
+The Infrastructure team should have a subproject for repository management.
 
-## 沟通联系方式
-- [邮件列表]()
-- [IRC]()
-- [Gitee Issue/PRs]()
+## Goals
 
-
-
-
-
-
-
-## 子项目
-
-*todo*：子项目介绍和[repo链接]()
-
-对于基础设施团队来说，肯定有一个关于gitee管理的子项目
-
-
-
-
-
-
-
-
-
-
-
-## 目标
+[infra-issues]: https://atomgit.com/openeuler/infrastructure/issues
+[infra-repo]: https://atomgit.com/openeuler/infrastructure

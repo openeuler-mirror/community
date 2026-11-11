@@ -12,7 +12,7 @@
 ### 2. Forking a Remote Repository
 
 1. Find and open the home page of the corresponding repository.
-2. Click the **Fork** button in the upper right corner and follow the instructions to create a remote fork of **your own**. For details, see [Fork Workflow](https://docs.atomgit.com/en/docs/help/home/org_project/pullrequests/pr-fork).<img src="figures/AtomGit-Fork-Header.png" />
+2. Click the **Fork** button in the upper right corner and follow the instructions to create a remote fork of **your own**. For details, see [Fork Workflow][docs-pullrequests-pr-fork].<img src="figures/AtomGit-Fork-Header.png" />
 
 
 
@@ -59,7 +59,7 @@ git config --global user.email "email@your_email"
 
 - 2. Log in to your code hosting platform account and add your SSH public key.
 
-  On the code hosting platform page, click your avatar in the upper right corner and choose **Settings** to open the personal settings. Under **Security Settings**, click **SSH Public Key** and then **+ SSH Public Key**, and add the SSH public key obtained by running the `cat` command. For details, see [SSH Public Key Management](https://docs.atomgit.com/en/docs/help/home/user_center/security_management/ssh).
+  On the code hosting platform page, click your avatar in the upper right corner and choose **Settings** to open the personal settings. Under **Security Settings**, click **SSH Public Key** and then **+ SSH Public Key**, and add the SSH public key obtained by running the `cat` command. For details, see [SSH Public Key Management][docs-security-management-ssh].
 
   <img src="figures/AtomGit-AddSSHKey-Safe.png" style="zoom:50%;" />
 
@@ -167,9 +167,9 @@ git push -f origin myfeature
 
 ### 9. Creating a Pull Request
 
-1. Visit your **https://atomgit.com/$user/$repository** page.
+1. Visit your repository page on AtomGit.
 
-2. Select the branch you used when committing your changes, for example, **myfeature**, and click **New Pull Request**. For details, see [Create Pull Request](https://docs.atomgit.com/en/docs/help/home/org_project/pullrequests/pr-create).
+2. Select the branch you used when committing your changes, for example, **myfeature**, and click **New Pull Request**. For details, see [Create Pull Request][docs-pullrequests-pr-create].
 
 3. On the **Create Pull Request** page, confirm the source branch and target branch, and click **Create**.
 
@@ -187,7 +187,7 @@ git push -f origin myfeature
 
 After you create a PR, the PR is assigned to one or more reviewers. The reviewers will conduct thorough code reviews to ensure the correctness of the committed changes, including the code, comments, and documents.
 
-You can find your PR in the PR list and view the review comments on the PR. For details, see [Code Review](https://docs.atomgit.com/en/docs/help/home/org_project/pullrequests/pr-code-review).
+You can find your PR in the PR list and view the review comments on the PR. For details, see [Code Review][docs-pullrequests-pr-code-review].
 
 ![](figures/AtomGit-PR-Page.png)
 
@@ -234,13 +234,13 @@ To revert a commit, follow the steps below.
 git push ${your_remote_name} myrevert
 ```
 
-- Create a PR based on the created branch. For details, see [Revert](https://docs.atomgit.com/en/docs/help/home/org_project/pullrequests/pr-revert).
+- Create a PR based on the created branch. For details, see [Revert][docs-pullrequests-pr-revert].
 
 
 
 ### Resolving PR Conflicts
 
-If your PR conflicts with the main repository, you need to resolve the conflict. For details, see [Resolve Conflicts](https://docs.atomgit.com/en/docs/help/home/org_project/pullrequests/pr-sovle-conflict).
+If your PR conflicts with the main repository, you need to resolve the conflict. For details, see [Resolve Conflicts][docs-pullrequests-pr-sovle-conflict].
 
 ![](figures/AtomGit-Conflict.png)
 
@@ -297,4 +297,12 @@ Change **pick** before the commits to be squashed to **s**, which is the first l
 git push -f origin yourbranch
 ```
 
-5. Go back to the PR page on the code hosting platform. You can see that the previous commits have been squashed. For details, see [Squash Commits](https://docs.atomgit.com/en/docs/help/home/org_project/pullrequests/pr-squash).
+5. Go back to the PR page on the code hosting platform. You can see that the previous commits have been squashed. For details, see [Squash Commits][docs-pullrequests-pr-squash].
+
+[docs-pullrequests-pr-fork]: https://docs.atomgit.com/en/docs/help/home/org_project/pullrequests/pr-fork
+[docs-security-management-ssh]: https://docs.atomgit.com/en/docs/help/home/user_center/security_management/ssh
+[docs-pullrequests-pr-create]: https://docs.atomgit.com/en/docs/help/home/org_project/pullrequests/pr-create
+[docs-pullrequests-pr-code-review]: https://docs.atomgit.com/en/docs/help/home/org_project/pullrequests/pr-code-review
+[docs-pullrequests-pr-revert]: https://docs.atomgit.com/en/docs/help/home/org_project/pullrequests/pr-revert
+[docs-pullrequests-pr-sovle-conflict]: https://docs.atomgit.com/en/docs/help/home/org_project/pullrequests/pr-sovle-conflict
+[docs-pullrequests-pr-squash]: https://docs.atomgit.com/en/docs/help/home/org_project/pullrequests/pr-squash

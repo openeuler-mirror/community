@@ -57,7 +57,7 @@ You are able to join a channel after getting connected to a server, the communit
 ```
 /join #channel_name
 ```
-Please refer to website [https://openeuler.org/en/community/irc.html](https://openeuler.org/en/community/irc.html) for the list of community. 
+Please refer to [openEuler IRC information][openeuler-irc] for more information.
 
 #### Commands
 
@@ -67,5 +67,6 @@ Use /help to get a list on all available commands (/help help is a good start). 
  - /msg nick Hi. sends a private message to nick containing Hi.
  - /join #nick-name. join the #nick-name channel.
 
-Please refer to [https://kiwiirc.com/docs/client/commands](https://kiwiirc.com/docs/client/commands) for more commands.
+For more commands, see the documentation of your IRC client.
 
+[openeuler-irc]: https://docs.openeuler.org/en/docs/26.09/server/releasenotes/contribution.html#irc

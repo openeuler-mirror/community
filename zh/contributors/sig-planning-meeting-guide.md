@@ -14,7 +14,7 @@ SIG版本规划工作会议遵循开源、开放原则，议题收集、技术�
 
 ## <center> 需求收集
 
-各SIG应择时启动针对后续版本的需求收集，各SIG组Maintainer在openEuler Etherpad平台(https://etherpad.openeuler.org/)创建相应的会议收集目录(建议命名方式为: sig名-版本名(例如22.09)-Planning)用于收集该版本规划工作会议的需求收集及计划，并将该会议目录反馈至openEuler开源社区SIG版本规划会议组织者。(参考模板：https://etherpad.openeuler.org/p/planning-template)
+各SIG应择时启动针对后续版本的需求收集，各SIG组Maintainer在openEuler Etherpad平台（[Etherpad][etherpad]）创建相应的会议收集目录(建议命名方式为: sig名-版本名(例如22.09)-Planning)用于收集该版本规划工作会议的需求收集及计划，并将该会议目录反馈至openEuler开源社区SIG版本规划会议组织者。(参考[规划会议模板][planning-template])
 
 任何人均可以在SIG版本工作会议中提出需求，通过在各SIG版本工作会议指定的Etherpad共享文件中的Topics环节根据要求进行填写，通常需要包含以下内容：
 - 需求发起人
@@ -43,4 +43,8 @@ SIG版本规划工作会议遵循开源、开放原则，议题收集、技术�
 - 所有参与讨论的议题及该议题的结论
 - 下一版本各工作的负责人
 - 下一版本的工作优先级
-会议纪要内容参考链接：https://mailweb.openeuler.org/hyperkitty/list/openstack@openeuler.org/thread/NR3O2ZUUNE46XFBTV4CND4HEYDCBPW33/
+会议纪要内容参考：[会议纪要示例][meeting-archive]
+
+[etherpad]: https://etherpad.openeuler.org/
+[planning-template]: https://etherpad.openeuler.org/p/planning-template
+[meeting-archive]: https://mailweb.openeuler.org/hyperkitty/list/openstack@openeuler.org/thread/NR3O2ZUUNE46XFBTV4CND4HEYDCBPW33/
