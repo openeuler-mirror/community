@@ -3,7 +3,6 @@ description: The Kolla-Ansible is a deliverable project separated from Kolla pro
   Kolla-Ansible deploys OpenStack services and infrastructure components in Docker
   containers.
 upstream: https://opendev.org/openstack/kolla-ansible
-rename_from: src-openeuler/openstack-kolla-ansible
 branches:
 - name: master
   type: protected

@@ -2,7 +2,6 @@ name: python-lefthandclient
 description: This is a Client library that can talk to the HPE LeftHand/StoreVirtual
   Storage array.
 upstream: https://github.com/hpe-storage/python-lefthandclient
-rename_from: src-openeuler/python-lefthandclient
 branches:
 - name: master
   type: protected

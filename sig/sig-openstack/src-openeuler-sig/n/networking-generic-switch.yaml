@@ -2,7 +2,6 @@ name: networking-generic-switch
 description: This is a Modular Layer 2 Neutron Mechanism driver. The mechanism driver
   is responsible for applying configuration information to hardware equipment.
 upstream: https://github.com/openstack/networking-generic-switch
-rename_from: src-openeuler/networking-generic-switch
 branches:
 - name: master
   type: protected

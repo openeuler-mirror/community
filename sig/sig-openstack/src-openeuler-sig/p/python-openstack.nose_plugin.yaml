@@ -2,7 +2,6 @@ name: python-openstack.nose_plugin
 description: "openstack.nose_plugin provides a nose plugin that allow\u2019s nosetests\
   \ output to mimic the output of openstack\u2019s run_tests.py."
 upstream: https://github.com/openstack/openstack-nose
-rename_from: src-openeuler/python-openstack.nose_plugin
 branches:
 - name: master
   type: protected

@@ -2,7 +2,6 @@ name: openstack-heat-agents
 description: Heat Agents are python hooks for deploying software configurations using
   heat.
 upstream: https://opendev.org/openstack/heat-agents
-rename_from: src-openeuler/openstack-heat-agents
 branches:
 - name: master
   type: protected

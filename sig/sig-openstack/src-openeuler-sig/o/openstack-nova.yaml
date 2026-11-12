@@ -1,7 +1,6 @@
 name: openstack-nova
 description: OpenStack Compute (Nova)
 upstream: https://github.com/openstack/nova
-rename_from: src-openeuler/openstack-nova
 branches:
 - name: master
   type: protected

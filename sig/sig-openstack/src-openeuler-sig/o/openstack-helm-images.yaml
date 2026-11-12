@@ -1,7 +1,6 @@
 name: openstack-helm-images
 description: Images for use with OpenStack Helm
 upstream: https://opendev.org/openstack/openstack-helm-images
-rename_from: src-openeuler/openstack-helm-images
 branches:
 - name: master
   type: protected

@@ -2,7 +2,6 @@ name: openstack-neutron
 description: Neutron is an OpenStack project to provide "network connectivity as a
   service" between interface devices (e.g., vNICs) managed by other OpenStack services
 upstream: https://github.com/openstack/neutron
-rename_from: src-openeuler/openstack-neutron
 branches:
 - name: master
   type: protected

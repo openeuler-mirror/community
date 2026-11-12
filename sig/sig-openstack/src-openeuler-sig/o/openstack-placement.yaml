@@ -3,7 +3,6 @@ description: OpenStack Placement provides an HTTP service for managing, selectin
   and claiming providers of classes of inventory representing available resources
   in a cloud.
 upstream: https://opendev.org/openstack/placement
-rename_from: src-openeuler/openstack-placement
 branches:
 - name: master
   type: protected

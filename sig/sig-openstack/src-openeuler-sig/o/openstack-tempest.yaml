@@ -1,7 +1,6 @@
 name: openstack-tempest
 description: OpenStack Testing (Tempest) of an existing cloud.
 upstream: https://opendev.org/openstack/tempest
-rename_from: src-openeuler/openstack-tempest
 branches:
 - name: master
   type: protected

@@ -2,7 +2,6 @@ name: python-binary-memcached
 description: A pure python module (thread safe) to access memcached via it's binary
   with SASL auth support.
 upstream: https://github.com/jaysonsantos/python-binary-memcached
-rename_from: src-openeuler/python-binary-memcached
 branches:
 - name: master
   type: protected

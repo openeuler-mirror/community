@@ -2,7 +2,6 @@ name: openstack-rally
 description: Rally provides a framework for performance analysis and benchmarking
   of individual OpenStack components as well as full production OpenStack cloud deployments.
 upstream: https://opendev.org/openstack/rally
-rename_from: src-openeuler/openstack-rally
 branches:
 - name: master
   type: protected

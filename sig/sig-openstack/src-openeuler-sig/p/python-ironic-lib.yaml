@@ -2,7 +2,6 @@ name: python-ironic-lib
 description: A common library to be used exclusively by projects under the Ironic
   governance.
 upstream: https://github.com/openstack/ironic-lib
-rename_from: src-openeuler/python-ironic-lib
 branches:
 - name: master
   type: protected

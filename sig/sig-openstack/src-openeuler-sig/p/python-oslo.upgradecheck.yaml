@@ -1,7 +1,6 @@
 name: python-oslo.upgradecheck
 description: Common code for writing OpenStack upgrade checks
 upstream: https://github.com/openstack/oslo.upgradecheck
-rename_from: src-openeuler/python-oslo.upgradecheck
 branches:
 - name: master
   type: protected

@@ -2,7 +2,6 @@ name: python-ironic-ui
 description: Ironic plugin UI for Horizon to allow users to view and manage bare metal
   nodes, ports and drivers.
 upstream: https://opendev.org/openstack/ironic-ui
-rename_from: src-openeuler/python-ironic-ui
 branches:
 - name: master
   type: protected

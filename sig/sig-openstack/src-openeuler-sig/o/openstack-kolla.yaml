@@ -2,7 +2,6 @@ name: openstack-kolla
 description: "Kolla provides Docker containers, Ansible playbooks to deploy OpenStack\
   \ on baremetal or virtual machine to meet Kolla\u2019s mission."
 upstream: https://opendev.org/openstack/kolla
-rename_from: src-openeuler/openstack-kolla
 branches:
 - name: master
   type: protected

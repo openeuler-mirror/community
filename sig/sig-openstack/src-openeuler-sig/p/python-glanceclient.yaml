@@ -4,7 +4,6 @@ description: This is a client library for Glance built on the OpenStack Images A
   This library fully supports the v1 Images API, while support for the v2 API is in
   progress.
 upstream: https://github.com/openstack/python-glanceclient
-rename_from: src-openeuler/python-glanceclient
 branches:
 - name: master
   type: protected

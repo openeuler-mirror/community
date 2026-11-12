@@ -3,7 +3,6 @@ description: OVN (Open Virtual Network) is a series of daemons that translates v
   network configuration into OpenFlow, and installs them into Open vSwitch. It is
   licensed under the open source Apache 2 license.
 upstream: https://github.com/ovn-org/ovn
-rename_from: src-openeuler/ovn
 branches:
 - name: master
   type: protected

@@ -1,7 +1,6 @@
 name: python-dogpile.cache
 description: A caching front-end based on the Dogpile lock.
 upstream: https://github.com/sqlalchemy/dogpile.cache
-rename_from: src-openeuler/python-dogpile.cache
 branches:
 - name: master
   type: protected

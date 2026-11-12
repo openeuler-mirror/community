@@ -5,7 +5,6 @@ description: Ironic consists of an API and plug-ins for managing and provisionin
   it will use PXE and IPMI to interact with bare metal machines. Ironic also supports
   vendor-specific plug-ins which may implement additional functionality.
 upstream: https://github.com/openstack/ironic
-rename_from: src-openeuler/openstack-ironic
 branches:
 - name: master
   type: protected

@@ -1,7 +1,6 @@
 name: python-gunicorn
 description: WSGI HTTP Server for UNIX
 upstream: https://pypi.org/project/gunicorn
-rename_from: src-openeuler/python-gunicorn
 branches:
 - name: master
   type: protected

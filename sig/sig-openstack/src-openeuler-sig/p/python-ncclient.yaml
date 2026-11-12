@@ -2,7 +2,6 @@ name: python-ncclient
 description: ncclient is a Python library that facilitates client-side scripting and
   application development around the NETCONF protocol.
 upstream: https://github.com/ncclient/ncclient
-rename_from: src-openeuler/python-ncclient
 branches:
 - name: master
   type: protected
