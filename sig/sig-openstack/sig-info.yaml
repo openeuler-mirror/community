@@ -170,20 +170,26 @@ repositories:
   - src-openeuler-sig/ansible-core
   - src-openeuler-sig/ansible-lint
   - src-openeuler-sig/babel
+  - src-openeuler/crudini
   - src-openeuler-sig/crudini
   - src-openeuler-sig/dibbler
+  - src-openeuler/diskimage-builder
   - src-openeuler-sig/diskimage-builder
   - src-openeuler-sig/future
   - src-openeuler-sig/gdal
   - src-openeuler-sig/gnocchi
   - src-openeuler-sig/google-api-core
+  - src-openeuler/google-api-python-client
   - src-openeuler-sig/google-api-python-client
+  - src-openeuler/google-auth-httplib2
   - src-openeuler-sig/google-auth-httplib2
   - src-openeuler-sig/googleapis-common-protos
   - src-openeuler-sig/grpc
   - src-openeuler-sig/hiredis
+  - src-openeuler/kafka-python
   - src-openeuler-sig/kafka-python
   - src-openeuler-sig/krb5
+  - src-openeuler/liberasurecode
   - src-openeuler-sig/liberasurecode
   - src-openeuler-sig/librabbitmq
   - src-openeuler-sig/libvirt-python
@@ -193,6 +199,7 @@ repositories:
   - src-openeuler-sig/networking-baremetal
   - src-openeuler-sig/networking-bgpvpn
   - src-openeuler-sig/networking-generic-switch
+  - src-openeuler/novnc
   - src-openeuler-sig/novnc
   - src-openeuler-sig/numpy
   - src-openeuler-sig/opensd
@@ -334,6 +341,7 @@ repositories:
   - src-openeuler-sig/python-Pympler
   - src-openeuler-sig/python-SQLAlchemy-Utils
   - src-openeuler-sig/python-SecretStorage
+  - src-openeuler/python-URLObject
   - src-openeuler-sig/python-URLObject
   - src-openeuler-sig/python-WSGIProxy2
   - src-openeuler-sig/python-XStatic
@@ -360,14 +368,17 @@ repositories:
   - src-openeuler-sig/python-XStatic-Rickshaw
   - src-openeuler-sig/python-XStatic-Spin
   - src-openeuler-sig/python-XStatic-bootswatch
+  - src-openeuler/python-XStatic-jQuery
   - src-openeuler-sig/python-XStatic-jQuery
   - src-openeuler-sig/python-XStatic-jquery-ui
   - src-openeuler-sig/python-XStatic-lodash
   - src-openeuler-sig/python-XStatic-mdi
   - src-openeuler-sig/python-XStatic-moment
+  - src-openeuler/python-XStatic-objectpath
   - src-openeuler-sig/python-XStatic-objectpath
   - src-openeuler-sig/python-XStatic-roboto-fontface
   - src-openeuler-sig/python-XStatic-smart-table
+  - src-openeuler/python-XStatic-term.js
   - src-openeuler-sig/python-XStatic-term.js
   - src-openeuler-sig/python-XStatic-tv4
   - src-openeuler-sig/python-XlsxWriter
@@ -377,9 +388,11 @@ repositories:
   - src-openeuler-sig/python-aiodns
   - src-openeuler-sig/python-aiohttp
   - src-openeuler-sig/python-aiopg
+  - src-openeuler/python-aiosqlite
   - src-openeuler-sig/python-aiosqlite
   - src-openeuler-sig/python-aiounittest
   - src-openeuler-sig/python-alembic
+  - src-openeuler/python-amqp
   - src-openeuler-sig/python-amqp
   - src-openeuler-sig/python-aniso8601
   - src-openeuler-sig/python-anyjson
@@ -389,6 +402,7 @@ repositories:
   - src-openeuler-sig/python-appdirs
   - src-openeuler-sig/python-argcomplete
   - src-openeuler-sig/python-argon2-cffi
+  - src-openeuler/python-arrow
   - src-openeuler-sig/python-arrow
   - src-openeuler-sig/python-asgiref
   - src-openeuler-sig/python-astroid
@@ -421,11 +435,14 @@ repositories:
   - src-openeuler-sig/python-cachetools
   - src-openeuler-sig/python-cachez
   - src-openeuler-sig/python-capacity
+  - src-openeuler/python-cassandra-driver
   - src-openeuler-sig/python-cassandra-driver
   - src-openeuler-sig/python-castellan
   - src-openeuler-sig/python-cchardet
+  - src-openeuler/python-ceilometerclient
   - src-openeuler-sig/python-ceilometerclient
   - src-openeuler-sig/python-ceilometermiddleware
+  - src-openeuler/python-certifi
   - src-openeuler-sig/python-certifi
   - src-openeuler-sig/python-cffi
   - src-openeuler-sig/python-cfgv
@@ -447,6 +464,7 @@ repositories:
   - src-openeuler-sig/python-confetti
   - src-openeuler-sig/python-confget
   - src-openeuler-sig/python-configparser
+  - src-openeuler/python-confluent-kafka
   - src-openeuler-sig/python-confluent-kafka
   - src-openeuler-sig/python-congressclient
   - src-openeuler-sig/python-construct
@@ -454,6 +472,7 @@ repositories:
   - src-openeuler-sig/python-contextlib2
   - src-openeuler-sig/python-cotyledon
   - src-openeuler-sig/python-coverage
+  - src-openeuler/python-croniter
   - src-openeuler-sig/python-croniter
   - src-openeuler-sig/python-cryptography
   - src-openeuler-sig/python-cryptography-vectors
@@ -462,9 +481,11 @@ repositories:
   - src-openeuler-sig/python-cyborg-tempest-plugin
   - src-openeuler-sig/python-cyborgclient
   - src-openeuler-sig/python-daiquiri
+  - src-openeuler/python-databases
   - src-openeuler-sig/python-databases
   - src-openeuler-sig/python-dateutil
   - src-openeuler-sig/python-ddt
+  - src-openeuler/python-debtcollector
   - src-openeuler-sig/python-debtcollector
   - src-openeuler-sig/python-decorator
   - src-openeuler-sig/python-defusedxml
@@ -495,6 +516,7 @@ repositories:
   - src-openeuler-sig/python-edgegrid
   - src-openeuler-sig/python-editor
   - src-openeuler-sig/python-elasticsearch2
+  - src-openeuler/python-elementpath
   - src-openeuler-sig/python-elementpath
   - src-openeuler-sig/python-enmerkar
   - src-openeuler-sig/python-entrypoints
@@ -504,6 +526,7 @@ repositories:
   - src-openeuler-sig/python-eventlet
   - src-openeuler-sig/python-execnet
   - src-openeuler-sig/python-extras
+  - src-openeuler/python-falcon
   - src-openeuler-sig/python-falcon
   - src-openeuler-sig/python-fastavro
   - src-openeuler-sig/python-fasteners
@@ -565,6 +588,7 @@ repositories:
   - src-openeuler-sig/python-infi.dtypes.iqn
   - src-openeuler-sig/python-infi.dtypes.wwn
   - src-openeuler-sig/python-infinisdk
+  - src-openeuler/python-influxdb
   - src-openeuler-sig/python-influxdb
   - src-openeuler-sig/python-influxdb-client
   - src-openeuler-sig/python-iniconfig
@@ -584,6 +608,7 @@ repositories:
   - src-openeuler-sig/python-jaeger-client
   - src-openeuler-sig/python-jaraco-collections
   - src-openeuler-sig/python-jaraco-functools
+  - src-openeuler/python-jaraco.packaging
   - src-openeuler-sig/python-jaraco.packaging
   - src-openeuler-sig/python-jeepney
   - src-openeuler-sig/python-jinja2
@@ -596,6 +621,7 @@ repositories:
   - src-openeuler-sig/python-jsonschema
   - src-openeuler-sig/python-jwt
   - src-openeuler-sig/python-karborclient
+  - src-openeuler/python-kazoo
   - src-openeuler-sig/python-kazoo
   - src-openeuler-sig/python-kerberos
   - src-openeuler-sig/python-keyring
@@ -609,12 +635,16 @@ repositories:
   - src-openeuler-sig/python-lark-parser
   - src-openeuler-sig/python-lazy-object-proxy
   - src-openeuler-sig/python-ldap
+  - src-openeuler/python-ldap3
   - src-openeuler-sig/python-ldap3
+  - src-openeuler/python-ldappool
   - src-openeuler-sig/python-ldappool
   - src-openeuler-sig/python-lefthandclient
   - src-openeuler-sig/python-libsass
+  - src-openeuler/python-loguru
   - src-openeuler-sig/python-loguru
   - src-openeuler-sig/python-lxml
+  - src-openeuler/python-lz4
   - src-openeuler-sig/python-lz4
   - src-openeuler-sig/python-m2r
   - src-openeuler-sig/python-magnum-tempest-plugin
@@ -625,6 +655,7 @@ repositories:
   - src-openeuler-sig/python-masakari-dashboard
   - src-openeuler-sig/python-masakariclient
   - src-openeuler-sig/python-matplotlib
+  - src-openeuler/python-mbstrdecoder
   - src-openeuler-sig/python-mbstrdecoder
   - src-openeuler-sig/python-mccabe
   - src-openeuler-sig/python-memcached
@@ -651,11 +682,14 @@ repositories:
   - src-openeuler-sig/python-mypy
   - src-openeuler-sig/python-mypy-extensions
   - src-openeuler-sig/python-mysqlclient
+  - src-openeuler/python-natsort
   - src-openeuler-sig/python-natsort
   - src-openeuler-sig/python-ncclient
+  - src-openeuler/python-ndg-httpsclient
   - src-openeuler-sig/python-ndg-httpsclient
   - src-openeuler-sig/python-netaddr
   - src-openeuler-sig/python-netifaces
+  - src-openeuler/python-netmiko
   - src-openeuler-sig/python-netmiko
   - src-openeuler-sig/python-networking-ovn
   - src-openeuler-sig/python-networking-sfc
@@ -667,9 +701,11 @@ repositories:
   - src-openeuler-sig/python-neutronclient
   - src-openeuler-sig/python-nocasedict
   - src-openeuler-sig/python-nocaselist
+  - src-openeuler/python-nodeenv
   - src-openeuler-sig/python-nodeenv
   - src-openeuler-sig/python-nose-exclude
   - src-openeuler-sig/python-nosehtmloutput
+  - src-openeuler/python-nosexcover
   - src-openeuler-sig/python-nosexcover
   - src-openeuler-sig/python-novaclient
   - src-openeuler-sig/python-ntc-templates
@@ -695,12 +731,15 @@ repositories:
   - src-openeuler-sig/python-os-ken
   - src-openeuler-sig/python-os-refresh-config
   - src-openeuler-sig/python-os-resource-classes
+  - src-openeuler/python-os-service-types
   - src-openeuler-sig/python-os-service-types
+  - src-openeuler/python-os-testr
   - src-openeuler-sig/python-os-testr
   - src-openeuler-sig/python-os-traits
   - src-openeuler-sig/python-os-vif
   - src-openeuler-sig/python-os-win
   - src-openeuler-sig/python-os-xenapi
+  - src-openeuler/python-osc-lib
   - src-openeuler-sig/python-osc-lib
   - src-openeuler-sig/python-osc-placement
   - src-openeuler-sig/python-oslo.cache
@@ -737,6 +776,7 @@ repositories:
   - src-openeuler-sig/python-passlib
   - src-openeuler-sig/python-paste
   - src-openeuler-sig/python-paste-deploy
+  - src-openeuler/python-pathlib
   - src-openeuler-sig/python-pathlib
   - src-openeuler-sig/python-pathlib2
   - src-openeuler-sig/python-pbr
@@ -748,12 +788,15 @@ repositories:
   - src-openeuler-sig/python-persist-queue
   - src-openeuler-sig/python-pexpect
   - src-openeuler-sig/python-pifpaf
+  - src-openeuler/python-pika
   - src-openeuler-sig/python-pika
   - src-openeuler-sig/python-pika-pool
   - src-openeuler-sig/python-pillow
   - src-openeuler-sig/python-pint
   - src-openeuler-sig/python-pip
+  - src-openeuler/python-pip-api
   - src-openeuler-sig/python-pip-api
+  - src-openeuler/python-pipreqs
   - src-openeuler-sig/python-pipreqs
   - src-openeuler-sig/python-platformdirs
   - src-openeuler-sig/python-pluggy
@@ -775,6 +818,7 @@ repositories:
   - src-openeuler-sig/python-pyasn1-modules
   - src-openeuler-sig/python-pycadf
   - src-openeuler-sig/python-pycdlib
+  - src-openeuler/python-pycodestyle
   - src-openeuler-sig/python-pycodestyle
   - src-openeuler-sig/python-pycparser
   - src-openeuler-sig/python-pycryptodome
@@ -783,10 +827,12 @@ repositories:
   - src-openeuler-sig/python-pydocstyle
   - src-openeuler-sig/python-pydot
   - src-openeuler-sig/python-pydotplus
+  - src-openeuler/python-pyeclib
   - src-openeuler-sig/python-pyeclib
   - src-openeuler-sig/python-pyfakefs
   - src-openeuler-sig/python-pyghmi
   - src-openeuler-sig/python-pygments
+  - src-openeuler/python-pylama
   - src-openeuler-sig/python-pylama
   - src-openeuler-sig/python-pylons-sphinx-themes
   - src-openeuler-sig/python-pymemcache
@@ -796,7 +842,9 @@ repositories:
   - src-openeuler-sig/python-pyperclip
   - src-openeuler-sig/python-pypowervm
   - src-openeuler-sig/python-pyquery
+  - src-openeuler/python-pyroute2
   - src-openeuler-sig/python-pyroute2
+  - src-openeuler/python-pyrsistent
   - src-openeuler-sig/python-pyrsistent
   - src-openeuler-sig/python-pysaml2
   - src-openeuler-sig/python-pysendfile
@@ -807,8 +855,10 @@ repositories:
   - src-openeuler-sig/python-pyspnego
   - src-openeuler-sig/python-pytest-asyncio
   - src-openeuler-sig/python-pytest-cov
+  - src-openeuler/python-pytest-django
   - src-openeuler-sig/python-pytest-django
   - src-openeuler-sig/python-pytest-forked
+  - src-openeuler/python-pytest-html
   - src-openeuler-sig/python-pytest-html
   - src-openeuler-sig/python-pytest-metadata
   - src-openeuler-sig/python-pytest-mock
@@ -833,14 +883,19 @@ repositories:
   - src-openeuler-sig/python-repoze-lru
   - src-openeuler-sig/python-repoze.who
   - src-openeuler-sig/python-requests
+  - src-openeuler/python-requests-aws
   - src-openeuler-sig/python-requests-aws
   - src-openeuler-sig/python-requests-kerberos
+  - src-openeuler/python-requests-mock
   - src-openeuler-sig/python-requests-mock
   - src-openeuler-sig/python-requests-oauthlib
   - src-openeuler-sig/python-requests-toolbelt
+  - src-openeuler/python-requestsexceptions
   - src-openeuler-sig/python-requestsexceptions
   - src-openeuler-sig/python-requirementslib
+  - src-openeuler/python-resolvelib
   - src-openeuler-sig/python-resolvelib
+  - src-openeuler/python-responses
   - src-openeuler-sig/python-responses
   - src-openeuler-sig/python-restructuredtext-lint
   - src-openeuler-sig/python-retrying
@@ -853,6 +908,7 @@ repositories:
   - src-openeuler-sig/python-rsa
   - src-openeuler-sig/python-rsd-lib
   - src-openeuler-sig/python-rsdclient
+  - src-openeuler/python-rst.linker
   - src-openeuler-sig/python-rst.linker
   - src-openeuler-sig/python-rtslib
   - src-openeuler-sig/python-rtslib-fb
@@ -863,9 +919,11 @@ repositories:
   - src-openeuler-sig/python-scandir
   - src-openeuler-sig/python-scciclient
   - src-openeuler-sig/python-scp
+  - src-openeuler/python-scripttest
   - src-openeuler-sig/python-scripttest
   - src-openeuler-sig/python-scrypt
   - src-openeuler-sig/python-searchlightclient
+  - src-openeuler/python-selenium
   - src-openeuler-sig/python-selenium
   - src-openeuler-sig/python-semantic_version
   - src-openeuler-sig/python-senlinclient
@@ -874,6 +932,7 @@ repositories:
   - src-openeuler-sig/python-service-identity
   - src-openeuler-sig/python-setproctitle
   - src-openeuler-sig/python-setuptools
+  - src-openeuler/python-setuptools-rust
   - src-openeuler-sig/python-setuptools-rust
   - src-openeuler-sig/python-setuptools_git
   - src-openeuler-sig/python-setuptools_scm
@@ -884,19 +943,23 @@ repositories:
   - src-openeuler-sig/python-sniffio
   - src-openeuler-sig/python-snowballstemmer
   - src-openeuler-sig/python-sortedcontainers
+  - src-openeuler/python-soupsieve
   - src-openeuler-sig/python-soupsieve
   - src-openeuler-sig/python-sphinx
   - src-openeuler-sig/python-sphinx-argparse
   - src-openeuler-sig/python-sphinx-autobuild
   - src-openeuler-sig/python-sphinx-feature-classification
   - src-openeuler-sig/python-sphinx-issues
+  - src-openeuler/python-sphinx-rtd-theme
   - src-openeuler-sig/python-sphinx-rtd-theme
+  - src-openeuler/python-sphinx-testing
   - src-openeuler-sig/python-sphinx-testing
   - src-openeuler-sig/python-sphinx-theme-alabaster
   - src-openeuler-sig/python-sphinx_rtd_theme
   - src-openeuler-sig/python-sphinxcontrib-actdiag
   - src-openeuler-sig/python-sphinxcontrib-apidoc
   - src-openeuler-sig/python-sphinxcontrib-applehelp
+  - src-openeuler/python-sphinxcontrib-autoprogram
   - src-openeuler-sig/python-sphinxcontrib-autoprogram
   - src-openeuler-sig/python-sphinxcontrib-blockdiag
   - src-openeuler-sig/python-sphinxcontrib-devhelp
@@ -917,7 +980,9 @@ repositories:
   - src-openeuler-sig/python-sqlalchemy-migrate
   - src-openeuler-sig/python-sqlparse
   - src-openeuler-sig/python-statsd
+  - src-openeuler/python-stestr
   - src-openeuler-sig/python-stestr
+  - src-openeuler/python-stevedore
   - src-openeuler-sig/python-stevedore
   - src-openeuler-sig/python-storage-interfaces
   - src-openeuler-sig/python-storops
@@ -927,6 +992,7 @@ repositories:
   - src-openeuler-sig/python-subunit2sql
   - src-openeuler-sig/python-suds-jurko
   - src-openeuler-sig/python-suds2
+  - src-openeuler/python-sushy
   - src-openeuler-sig/python-sushy
   - src-openeuler-sig/python-sushy-oem-idrac
   - src-openeuler-sig/python-swiftclient
@@ -945,27 +1011,34 @@ repositories:
   - src-openeuler-sig/python-testresources
   - src-openeuler-sig/python-testscenarios
   - src-openeuler-sig/python-testtools
+  - src-openeuler/python-textfsm
   - src-openeuler-sig/python-textfsm
   - src-openeuler-sig/python-threadloop
   - src-openeuler-sig/python-tinyrpc
   - src-openeuler-sig/python-toml
+  - src-openeuler/python-tooz
   - src-openeuler-sig/python-tooz
   - src-openeuler-sig/python-tornado
   - src-openeuler-sig/python-tosca-parser
   - src-openeuler-sig/python-tox
   - src-openeuler-sig/python-tox-travis
+  - src-openeuler/python-transaction
   - src-openeuler-sig/python-transaction
   - src-openeuler-sig/python-trove-dashboard
   - src-openeuler-sig/python-trove-tempest-plugin
   - src-openeuler-sig/python-troveclient
   - src-openeuler-sig/python-twine
   - src-openeuler-sig/python-twisted
+  - src-openeuler/python-txaio
   - src-openeuler-sig/python-txaio
+  - src-openeuler/python-typed-ast
   - src-openeuler-sig/python-typed-ast
   - src-openeuler-sig/python-typepy
   - src-openeuler-sig/python-types-cryptography
   - src-openeuler-sig/python-typing
+  - src-openeuler/python-typing-extensions
   - src-openeuler-sig/python-typing-extensions
+  - src-openeuler/python-ujson
   - src-openeuler-sig/python-ujson
   - src-openeuler-sig/python-unicodecsv
   - src-openeuler-sig/python-unittest2
@@ -990,6 +1063,7 @@ repositories:
   - src-openeuler-sig/python-webcolors
   - src-openeuler-sig/python-webob
   - src-openeuler-sig/python-websocket-client
+  - src-openeuler/python-websockify
   - src-openeuler-sig/python-websockify
   - src-openeuler-sig/python-webtest
   - src-openeuler-sig/python-werkzeug
@@ -999,8 +1073,10 @@ repositories:
   - src-openeuler-sig/python-wrapt
   - src-openeuler-sig/python-wsgi-intercept
   - src-openeuler-sig/python-wsme
+  - src-openeuler/python-xattr
   - src-openeuler-sig/python-xattr
   - src-openeuler-sig/python-xclarityclient
+  - src-openeuler/python-xmlschema
   - src-openeuler-sig/python-xmlschema
   - src-openeuler-sig/python-xmltodict
   - src-openeuler-sig/python-xstatic-angular-uuid
@@ -1009,7 +1085,9 @@ repositories:
   - src-openeuler-sig/python-xstatic-js-yaml
   - src-openeuler-sig/python-xstatic-json2yaml
   - src-openeuler-sig/python-xvfbwrapper
+  - src-openeuler/python-yamllint
   - src-openeuler-sig/python-yamllint
+  - src-openeuler/python-yamlloader
   - src-openeuler-sig/python-yamlloader
   - src-openeuler-sig/python-yappi
   - src-openeuler-sig/python-yaql

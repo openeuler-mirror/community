@@ -1,13 +1,10 @@
 name: python-pathlib
 description: Object-oriented filesystem paths.
 upstream: https://pypi.org/project/pathlib/
-rename_from: src-openeuler/python-pathlib
+fork_from: src-openeuler/python-pathlib
 branches:
 - name: master
   type: protected
-- name: openEuler-20.09
-  type: readonly
-  create_from: master
 - name: oepkg_openstack-common_oe-20.03-LTS-Next
   type: protected
   create_from: master

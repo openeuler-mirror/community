@@ -1,7 +1,7 @@
 name: python-resolvelib
 description: Resolve abstract dependencies into concrete ones
 upstream: https://github.com/sarugaku/resolvelib
-rename_from: src-openeuler/python-resolvelib
+fork_from: src-openeuler/python-resolvelib
 branches:
 - name: master
   type: protected
