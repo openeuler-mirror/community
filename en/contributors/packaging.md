@@ -1,10 +1,12 @@
 # openEuler Packaging Guide
 
+> Note: openEuler currently uses AtomGit as its code hosting platform. The UI, domain names, and commands in this document use AtomGit as an example.
+
 
 
 **Contributing to This Guide**
 
-You can contribute to this guide by submitting an issue or PR on the Gitee repository. Both forms of contribution are highly appreciated and welcome.
+You can contribute to this guide by submitting an issue or PR on the code hosting platform repository. Both forms of contribution are highly appreciated and welcome.
 
 RPM packages are important for Linux distributions. According to @myeuler, making yourself an expert in Linux is similar to preparing yourself for becoming a great chef. The first step is to get familiar with and identify various foodstuffs, be able to prepare food, and identify the taste of various dishes. The same thing goes for building RPM packages. Only when you are familiar with the structure and content of RPM packages and the dependencies between them, can you lay a solid foundation for becoming an OS expert.
 
@@ -31,7 +33,7 @@ Before using this document to create the RPM and SPEC files, you are advised to 
 |  1   | RPM software package management (including software installation, upgrade, uninstallation, compilation, and building)         | Mandatory| [RPM's official website](https://rpm.org)                                  |
 |  2   | Official RPM packaging guide                                             | Mandatory| [RPM Packaging Guide](https://rpm-packaging-guide.github.io/)|
 |  3   | Using the Open Build Service (OBS). openEuler uses OBS to build releases.| Optional| [RPM Packaging Guide](https://rpm-packaging-guide.github.io/)|
-|  4   | Gitee routine operations (openEuler code is hosted at gitee.com/openEuler.)    | Optional| [Gitee Support Center](https://gitee.com/help#article-header0)|
+|  4   | Code hosting platform routine operations (openEuler code is hosted at atomgit.com/openeuler.)    | Optional| [Code Hosting Platform Support Center](https://docs.atomgit.com/en/docs/help/home/)|
 
 ### Related Document
 
@@ -176,7 +178,7 @@ Rules and regulations are gradually improved. Comply with the existing rules as 
 
 - Enter basic information, such as name, group, summary, and description, in the SPEC file based on the information on the official website. Use standard written language to describe or write the information and avoid words such as like and good/best.
 - In the RPM-based upgrade scenario, the rule for comparing software versions is **epoch:version-release**. The priority of **epoch** is higher than that of **version** and **release**. In normal cases, **epoch** in the SPEC file is specified by the version by default. You do not need to specify it. In the following scenarios, you need to use **epoch** to ensure that the software can be upgraded using Yum: a. If **version** and **release** of a piece of software are downgraded or rolled back due to special reasons, **epoch** needs to be increased based on the original one. b. Different branches have different development progresses. For example, the **version** and **release** of the maintenance branch are later than those of the development branch. To ensure that the maintenance branch can be upgraded to the development branch, the **epoch** of the development branch must be later than that of the maintenance branch.
-- The **version** in the SPEC file must be the same as that in the upstream community. The **version** information in the SPEC file of an aggregated software package (a repository contains source code from multiple upstream communities) is determined by the maintainer based on the community conventions. For example, [xorg-x11-font-utils](https://gitee.com/src-openeuler/xorg-x11-font-utils). The **release** number identifies the number of releases of openEuler based on the upstream community. When the software package **version** is upgraded and released for the first time, the **release** number starts from 1 and increments subsequently.
+- The **version** in the SPEC file must be the same as that in the upstream community. The **version** information in the SPEC file of an aggregated software package (a repository contains source code from multiple upstream communities) is determined by the maintainer based on the community conventions. For example, [xorg-x11-font-utils](https://atomgit.com/src-openeuler/xorg-x11-font-utils). The **release** number identifies the number of releases of openEuler based on the upstream community. When the software package **version** is upgraded and released for the first time, the **release** number starts from 1 and increments subsequently.
 
 ### Formats
 

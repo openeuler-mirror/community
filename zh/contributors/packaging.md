@@ -1,10 +1,12 @@
 # openEuler packaging guidelines
 
+> 说明：openEuler 当前使用的代码托管平台为 AtomGit。本文档中的界面、域名和命令均以 AtomGit 为例。
+
 
 
 **为本指南作出贡献**
 
-您可以通过在 Gitee 仓库上提交一个问题或者一个PR来对本指南做出贡献。这两种形式的贡献都深受赞赏和欢迎。
+您可以通过在代码托管平台仓库上提交一个问题或者一个PR来对本指南做出贡献。这两种形式的贡献都深受赞赏和欢迎。
 
 @myeuler 曾经这样比喻制作rpm包对于操作系统发行版的意义。如果说一个人想要成为一个优秀的Linux系统工程师，就好像要成为一个顶级大厨，任何大厨成长的第一步一定不是上手学做菜，一定是要熟悉，识别各种食材，能够熟练的洗菜，切菜，识别各种菜式的品性。这是一个大厨成长的起点。而为操作系统发行版做各种各样的rpm包就是在熟悉食材，了解食材的品性。只有对rpm包的结构，内容，以及rpm之间的依赖关系有一个熟练的掌握，才能为后续成为一个真正的操作系统高手打下基础。
 
@@ -31,7 +33,7 @@ openEuler试图规范化多种多样的开源项目到一个连贯的系统。�
 |  1   | rpm软件包管理（包括软件安装、升级、卸载、编译构建）          | 必选 | [RPM官网](https://rpm.org)                                   |
 |  2   | rpm官方打包指导                                              | 必选 | see the [RPM Packaging Guide](https://rpm-packaging-guide.github.io/). |
 |  3   | open build service 使用(openEuler 使用 OBS构建系统来构建版本) | 可选 | see [obs user guide](https://openbuildservice.org/help/manuals/obs-user-guide/) |
-|  4   | Gitee 日常操作（openEuler代码托管在gitee.com/openEuler）     | 可选 | see [Gitee Support Center](https://gitee.com/help#article-header0) |
+|  4   | 代码托管平台日常操作（openEuler代码托管在atomgit.com/openeuler）     | 可选 | see [代码托管平台帮助中心](https://docs.atomgit.com/docs/help/home/) |
 
 ### 关联文档
 
@@ -177,7 +179,7 @@ Provides、Conflicts、Obsoletes等RPM关键字提供的功能可以解决兼容
 
 - spec中的基本信息，如name、group、summary、description等信息，根据官网查询填写，请使用规范的书面语言描述或书写，避免`like`、`good/best`等字眼。
 - 在rpm升级的场景中，比较软件版本高低的规则是epoch:version-release，epoch优先级比version、release高。spec中epoch的正常情况下默认由版本统一指定，不需要特别指定。以下两种情况需要使用epoch能保证该软件可yum升级: a. 某软件因特殊原因，version与release产生了降级、回退，epoch需要在原来的基础上递增；b. 不同分支因开发进度不一致，比如维护分支的version和release比开发分支高，为了保证维护分支可以向开发分支升级，需保证开发版本的epoch比维护版本的epoch高。
-- spec中version需要和上游社区的版本号保持一致，聚合性软件包（一个repo中有多个上游社区的源码：[xorg-x11-font-utils](https://gitee.com/src-openeuler/xorg-x11-font-utils)）spec 中version信息由maintainer 按照社区惯例确定。release号用于标识openEuler基于上游社区的发布次数，软件包version升级后首次发布时release 从1 开始，后续保持递增。
+- spec中version需要和上游社区的版本号保持一致，聚合性软件包（一个repo中有多个上游社区的源码：[xorg-x11-font-utils](https://atomgit.com/src-openeuler/xorg-x11-font-utils)）spec 中version信息由maintainer 按照社区惯例确定。release号用于标识openEuler基于上游社区的发布次数，软件包version升级后首次发布时release 从1 开始，后续保持递增。
 
 ### 格式规范
 

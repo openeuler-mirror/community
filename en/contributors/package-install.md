@@ -10,7 +10,7 @@ Perform the following procedure to build a local software package using rpm-buil
 
 To build a local software package using rpm-build, perform the following steps:
 
-1. Configure the repo source. For details, see *Configuring a repo Source* in [Development Environment Preparations](https://gitee.com/openeuler/community/blob/master/en/contributors/prepare-environment.md).
+1. Configure the repo source. For details, see *Configuring a repo Source* in [Development Environment Preparations](https://atomgit.com/openeuler/community/blob/master/en/contributors/prepare-environment.md).
 
 2. Build a local software package using rpm-build.
    
