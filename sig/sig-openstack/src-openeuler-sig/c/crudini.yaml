@@ -2,7 +2,7 @@ name: crudini
 description: A utility for easily handling ini files from the command line and shell
   scripts.
 upstream: https://github.com/pixelb/crudini
-rename_from: src-openeuler/crudini
+fork_from: src-openeuler/crudini
 branches:
 - name: master
   type: protected
@@ -12,24 +12,9 @@ branches:
 - name: oepkg_openstack-common_oe-20.03-LTS-Next
   type: protected
   create_from: master
-- name: openEuler-21.09
-  type: readonly
-  create_from: master
-- name: openEuler-20.03-LTS-Next
-  type: readonly
-  create_from: master
-- name: openEuler-20.03-LTS-SP2
-  type: readonly
-  create_from: openEuler-20.03-LTS-Next
-- name: openEuler-20.03-LTS-SP1
-  type: protected
-  create_from: openEuler-20.03-LTS-Next
 - name: oepkg_openstack-common_oe-20.03-LTS-SP1
   type: protected
   create_from: oepkg_openstack-common_oe-20.03-LTS-Next
-- name: openEuler-20.03-LTS-SP3
-  type: protected
-  create_from: openEuler-20.03-LTS-Next
 - name: oepkg_openstack-common_oe-20.03-LTS-SP3
   type: protected
   create_from: oepkg_openstack-common_oe-20.03-LTS-Next
@@ -45,75 +30,30 @@ branches:
 - name: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS
   type: protected
   create_from: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-Next
-- name: openEuler-22.09
-  type: readonly
-  create_from: master
 - name: Multi-Version_OpenStack-Train_openEuler-22.03-LTS-SP1
   type: protected
   create_from: Multi-Version_OpenStack-Train_openEuler-22.03-LTS-Next
 - name: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-SP1
   type: protected
   create_from: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-Next
-- name: openEuler-23.03
-  type: readonly
-  create_from: master
 - name: Multi-Version_OpenStack-Train_openEuler-22.03-LTS-SP2
   type: protected
   create_from: Multi-Version_OpenStack-Train_openEuler-22.03-LTS-Next
 - name: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-SP2
   type: protected
   create_from: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-Next
-- name: openEuler-23.09
-  type: protected
-  create_from: master
-- name: openEuler-20.03-LTS-SP4
-  type: protected
-  create_from: openEuler-20.03-LTS-SP3
 - name: Multi-Version_OpenStack-Train_openEuler-22.03-LTS-SP3
   type: protected
   create_from: Multi-Version_OpenStack-Train_openEuler-22.03-LTS-Next
 - name: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-SP3
   type: protected
   create_from: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-Next
-- name: openEuler-24.03-LTS-Next
-  type: protected
-  create_from: master
-- name: openEuler-24.03-LTS
-  type: protected
-  create_from: openEuler-24.03-LTS-Next
 - name: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-SP4
   type: protected
   create_from: Multi-Version_OpenStack-Wallaby_openEuler-22.03-LTS-Next
 - name: Multi-Version_OpenStack-Train_openEuler-22.03-LTS-SP4
   type: protected
   create_from: Multi-Version_OpenStack-Train_openEuler-22.03-LTS-Next
-- name: openEuler-24.09
-  type: protected
-  create_from: master
-- name: openEuler-24.03-LTS-SP1
-  type: protected
-  create_from: openEuler-24.03-LTS-Next
-- name: openEuler-25.03
-  type: protected
-  create_from: master
-- name: openEuler-24.03-LTS-SP2
-  type: protected
-  create_from: openEuler-24.03-LTS-Next
-- name: openEuler-25.09
-  type: protected
-  create_from: master
-- name: openEuler-24.03-LTS-SP3
-  type: protected
-  create_from: openEuler-24.03-LTS-Next
-- name: openEuler-24.03-LTS-SP4
-  type: protected
-  create_from: openEuler-24.03-LTS-Next
-- name: openEuler-26.09
-  type: protected
-  create_from: openEuler-26.09-DevStation
-- name: openEuler-26.09-DevStation
-  type: readonly
-  create_from: openEuler-26.09
 - name: Multi-Version_OpenStack-Gazpacho_openEuler-24.03-LTS-Next
   type: protected
   create_from: master
