@@ -2,7 +2,6 @@ name: openstack-ironic-python-agent-builder
 description: Tools and scripts to build a deployment, cleaning or inspection ramdisk
   based on Ironic Python Agent.
 upstream: https://github.com/openstack/ironic-python-agent-builder
-rename_from: src-openeuler/openstack-ironic-python-agent-builder
 branches:
 - name: master
   type: protected

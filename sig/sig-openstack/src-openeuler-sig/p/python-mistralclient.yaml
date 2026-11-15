@@ -2,7 +2,6 @@ name: python-mistralclient
 description: Python client for Mistral REST API. Includes python library for Mistral
   API and Command Line Interface (CLI) library.
 upstream: https://opendev.org/openstack/python-mistralclient
-rename_from: src-openeuler/python-mistralclient
 branches:
 - name: master
   type: protected

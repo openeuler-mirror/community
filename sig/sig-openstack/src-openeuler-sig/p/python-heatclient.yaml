@@ -3,7 +3,6 @@ description: This is a client for the OpenStack Heat API. There's a Python API (
   heatclient module), and a command-line script (heat). Each implements 100% of the
   OpenStack Heat API.
 upstream: https://github.com/openstack/python-heatclient
-rename_from: src-openeuler/python-heatclient
 branches:
 - name: master
   type: protected

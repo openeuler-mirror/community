@@ -2,7 +2,6 @@ name: openstack-keystone
 description: OpenStack Keystone provides authentication, authorization and service
   discovery mechanisms via HTTP primarily for use by projects in the OpenStack family
 upstream: https://github.com/openstack/keystone
-rename_from: src-openeuler/openstack-keystone
 branches:
 - name: master
   type: protected

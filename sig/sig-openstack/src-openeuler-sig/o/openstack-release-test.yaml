@@ -1,7 +1,6 @@
 name: openstack-release-test
 description: OpenStack release-test
 upstream: https://github.com/openstack/release-test
-rename_from: src-openeuler/openstack-release-test
 branches:
 - name: master
   type: protected

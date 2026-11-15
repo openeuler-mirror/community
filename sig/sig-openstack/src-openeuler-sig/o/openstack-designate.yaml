@@ -1,7 +1,6 @@
 name: openstack-designate
 description: DNS as a Service
 upstream: https://opendev.org/openstack/designate
-rename_from: src-openeuler/openstack-designate
 branches:
 - name: master
   type: protected

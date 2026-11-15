@@ -2,7 +2,6 @@ name: ansible-lint
 description: Checks playbooks for practices and behaviour that could potentially be
   improved
 upstream: https://github.com/ansible/ansible-lint
-rename_from: src-openeuler/ansible-lint
 branches:
 - name: master
   type: protected

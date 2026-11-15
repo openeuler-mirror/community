@@ -3,7 +3,6 @@ description: OpenStackClient (aka OSC) is a command-line client for OpenStack th
   brings the command set for Compute, Identity, Image, Network, Object Store and Block
   Storage APIs together in a single shell with a uniform command structure.
 upstream: https://github.com/openstack/python-openstackclient
-rename_from: src-openeuler/python-openstackclient
 branches:
 - name: master
   type: protected

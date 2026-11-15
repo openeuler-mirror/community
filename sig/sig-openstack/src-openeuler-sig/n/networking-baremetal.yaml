@@ -2,7 +2,6 @@ name: networking-baremetal
 description: This project's goal is to provide deep integration between the Networking
   service and the Bare Metal service and advanced networking features.
 upstream: https://github.com/openstack/networking-baremetal
-rename_from: src-openeuler/networking-baremetal
 branches:
 - name: master
   type: protected

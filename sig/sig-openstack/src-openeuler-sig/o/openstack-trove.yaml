@@ -5,7 +5,6 @@ description: Trove is Database as a Service for OpenStack. It is designed to run
   tasks. Cloud users and database administrators can provision and manage multiple
   database instances as needed.
 upstream: https://opendev.org/openstack/trove
-rename_from: src-openeuler/openstack-trove
 branches:
 - name: master
   type: protected

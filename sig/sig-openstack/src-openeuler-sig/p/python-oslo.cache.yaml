@@ -1,7 +1,6 @@
 name: python-oslo.cache
 description: An oslo.config enabled dogpile.cache
 upstream: https://github.com/openstack/oslo.cache
-rename_from: src-openeuler/python-oslo.cache
 branches:
 - name: master
   type: protected
