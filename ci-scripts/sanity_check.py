@@ -437,11 +437,17 @@ def srcoesigs_requirements(repo, blacklist):
     errors = 0
     repo_name = repo["name"]
     if repo.get("upstream", "") == "":
-        print(f"ERROR! src-openeuler-sig/{repo_name} missed upstream information.")
-        errors += 1
+        if repo["fork_from"]:
+            print(f"Warning! src-openeuler-sig/{repo_name} missed upstream information.")
+        else:
+            print(f"ERROR! src-openeuler-sig/{repo_name} missed upstream information.")
+            errors += 1
     if len(repo.get("description", "")) < 10:
-        print(f"ERROR! src-openeuler-sig/{repo_name}\'s description is too short.")
-        errors += 1
+        if repo["fork_from"]:
+            print(f"Warning! src-openeuler-sig/{repo_name}\'s description is too short.")
+        else:
+            print(f"ERROR! src-openeuler-sig/{repo_name}\'s description is too short.")
+            errors += 1
     if repo["name"] in blacklist:
         msg = f"src-openeuler-sig/{repo_name} was black-listed.\n         Because: {blacklist[repo_name]}]"
         if repo["fork_from"]:
