@@ -50,7 +50,7 @@
 
 Issue面板只能查看和操作当前的repository，代码托管平台还提供了Issue的全局视图。
 
-- **组织的全局视图**：访问[openEuler组织Issue列表](https://atomgit.com/org/openeuler/issues)，可以查看openEuler组织下的所有Issue。您可以通过「Issues」「我创建的」「分配给我的」「我参与的」等入口筛选，也可以在工具栏按不同的条件进行筛选、过滤和排序。
+- **组织的全局视图**：访问[openEuler组织Issue列表][atomgit-org-openeuler-issues]，可以查看openEuler组织下的所有Issue。您可以通过「Issues」「我创建的」「分配给我的」「我参与的」等入口筛选，也可以在工具栏按不同的条件进行筛选、过滤和排序。
 
   ![](figure/AtomGit-OrgIssues-Full.png)
 
@@ -72,7 +72,7 @@ Issue面板只能查看和操作当前的repository，代码托管平台还提�
 
 - 请进入需求对应的团队或项目的repository内（如何找到对应的repository请参考[此章节内容](README.md/#id2-1-2)），进入Issue面板，点击「+ 新建 Issue」。
 
-- 如果您不确定该需求对应的团队或项目，请在[community-issue](https://atomgit.com/openeuler/community-issue)中创建，会有社区的开发者帮助进行归属等信息的确认。
+- 如果您不确定该需求对应的团队或项目，请在[community-issue][atomgit-openeuler-community-issue]中创建，会有社区的开发者帮助进行归属等信息的确认。
 
 - 请在新建Issue时选择需求模板，并简要描述需求的要点
 
@@ -127,7 +127,7 @@ Issue面板只能查看和操作当前的repository，代码托管平台还提�
 **step1：新建问题类Issue：**
 
 - 请进入问题所属团队或项目的repository内（如何找到对应的repository请参考[此章节内容](README.md/#id2-1-2)），进入Issue面板，点击「+ 新建 Issue」。
-- 如果您不确定该问题对应的团队或项目，请在[community-issue](https://atomgit.com/openeuler/community-issue)中创建，会有社区的开发者帮助进行归属等信息的确认。
+- 如果您不确定该问题对应的团队或项目，请在[community-issue][atomgit-openeuler-community-issue]中创建，会有社区的开发者帮助进行归属等信息的确认。
 - 请在新建Issue时选择问题模板。
 - 请在标题栏**简要描述问题的要点**
 - 请在详细说明框内按照问题模板的要求描述问题，请参考下面的模板：*请注意：清晰完整的描述有助于团队成员理解，并被更快的接受和排入开发计划。*
@@ -169,7 +169,7 @@ Issue面板只能查看和操作当前的repository，代码托管平台还提�
 
 **step3：认领或分配问题**。可以主动认领，也可以由团队成员分配。您可以在评论框内输入`/assign`来把Issue分配给自己，或分配给其他人。
 
-**step4：完成修改并提交PR**。完成修改和本地验证后，在提交PR的时候需关联本Issue。创建PR时点击「关联Issue」选择本Issue，并按需勾选「合并后关闭已关联的Issue」，具体操作请参考[Pull Request关联Issue](https://docs.atomgit.com/docs/help/home/org_project/pullrequests/pr-related-issue)。提交PR的具体方法请参考[提交PR指导](pull-request.md)内容。
+**step4：完成修改并提交PR**。完成修改和本地验证后，在提交PR的时候需关联本Issue。创建PR时点击「关联Issue」选择本Issue，并按需勾选「合并后关闭已关联的Issue」，具体操作请参考[Pull Request关联Issue][docs-pullrequests-pr-related-issue]。提交PR的具体方法请参考[提交PR指导](pull-request.md)内容。
 
 **step5：项目内验证**。项目内对修改的PR进行验证。如果验证不通过（**回到step4**）。如果验证通过，同时该问题不是版本的问题，此问题以**项目组问题关闭**。
 
@@ -199,19 +199,17 @@ Issue面板只能查看和操作当前的repository，代码托管平台还提�
 
 ## 安全类Issue提交和处理指导
 
-安全类问题处理流程请参考[此文档](https://openeuler.org/zh/security/vulnerability-reporting/)中的描述.
+安全类问题处理流程请参考[此文档][openeuler-zh-security-vulnerability-reporting]中的描述.
 
 
 
 参考：
 
-1、阮一峰，http://www.ruanyifeng.com/blog/2017/08/issue.html
+1、阮一峰，[如何使用 Issue 管理软件项目？][ruanyifeng-issue]
 
+[atomgit-org-openeuler-issues]: https://atomgit.com/org/openeuler/issues
+[atomgit-openeuler-community-issue]: https://atomgit.com/openeuler/community-issue
+[docs-pullrequests-pr-related-issue]: https://docs.atomgit.com/docs/help/home/org_project/pullrequests/pr-related-issue
+[openeuler-zh-security-vulnerability-reporting]: https://openeuler.org/zh/security/vulnerability-reporting/
 
-
-
-
-
-
-
-
+[ruanyifeng-issue]: http://www.ruanyifeng.com/blog/2017/08/issue.html

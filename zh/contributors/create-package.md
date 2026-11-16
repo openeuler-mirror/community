@@ -19,7 +19,7 @@
 
 **操作步骤：**
 
-1. 进入 community 仓库的 issue 创建页面：[https://atomgit.com/openeuler/community/issues](https://atomgit.com/openeuler/community/issues)，点击"新建 Issue"，选择**创建仓库申请**模板。
+1. 进入 community 仓库的 issue 创建页面：[community 仓库 Issue 创建页面][atomgit-openeuler-community-issues]，点击"新建 Issue"，选择**创建仓库申请**模板。
 
 2. 按照模板提示填写以下字段（issue 标题会自动以 `[建仓申请]` 前缀开头，请勿删除该前缀）：
 
@@ -42,13 +42,13 @@
 
 4. 若校验失败或 PR 创建失败，根据机器人评论的提示修改 issue 内容后，在 issue 下评论 `/retrigger` 命令触发机器人重新执行建仓流程。
 
-5. PR 由所属 SIG 组 maintainer 和技术委员会审视后合入，随后将自动建立同名仓库，并同步在 EulerMaker 上创建对应工程：[https://build.openeuler.org/project/show/openEuler:Factory](https://build.openeuler.org/project/show/openEuler:Factory)
+5. PR 由所属 SIG 组 maintainer 和技术委员会审视后合入，随后将自动建立同名仓库，并同步在 EulerMaker 上创建对应工程：[openEuler:Factory][openeuler-project-show-openeuler-factory]
 
 ### 方式二：通过 Fork 仓库提交 PR 申请建仓
 
 通过修改代码托管平台中的openeuler/community仓库实现新增软件包的具体操作步骤如下：
 
-1. 点击进入[community仓库](https://atomgit.com/openeuler/community.git)，将其fork到自己的仓库。
+1. 点击进入[community仓库][atomgit-openeuler-community-git]，将其fork到自己的仓库。
 
 2. 将fork完成的community仓库clone到本地。
 
@@ -97,6 +97,12 @@
       type: public
       ```
 
-   * 提交PR（请参考[PR提交指南](https://atomgit.com/openeuler/community/blob/master/zh/contributors/pull-request.md)，PR合入后将会在代码托管平台建立同名仓库。查看地址：[src-openeuler](https://atomgit.com/src-openeuler)。同时在EulerMaker上创建对应工程：https://build.openeuler.org/project/show/openEuler:Factory
+   * 提交PR（请参考[PR提交指南][atomgit-openeuler-community-blob-master-zh-contributors-pull-request-md]，PR合入后将会在代码托管平台建立同名仓库。查看地址：[src-openeuler][atomgit-src-openeuler]。同时在EulerMaker上创建对应工程：[openEuler:Factory][openeuler-project-show-openeuler-factory]
 
 > 关于社区 Git LFS 服务的相关内容请移步 [对应文档](./git-lfs.md) 查看
+
+[atomgit-openeuler-community-issues]: https://atomgit.com/openeuler/community/issues
+[openeuler-project-show-openeuler-factory]: https://build.openeuler.org/project/show/openEuler:Factory
+[atomgit-openeuler-community-git]: https://atomgit.com/openeuler/community.git
+[atomgit-openeuler-community-blob-master-zh-contributors-pull-request-md]: https://atomgit.com/openeuler/community/blob/master/zh/contributors/pull-request.md
+[atomgit-src-openeuler]: https://atomgit.com/src-openeuler

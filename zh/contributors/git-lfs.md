@@ -4,7 +4,7 @@
 
 - Git LFS 的基本使用，即如何推送大文件：详阅 [Git LFS 操作指南](https://github.com/opensourceways/BigFiles/blob/master/docs/BasicGuide.md)。
 
-- 社区 LFS 服务的域名为 https://artlfs.openeuler.openatom.cn
+- 社区 LFS 服务地址为 [ArtLFS 服务][artlfs]
   - 目前暂未提供 Web 访问，浏览器打开可能显示 `{"message":"Success","data":"healthCheck success"}`
 
 > 初次使用 Git LFS? 请注意 Git LFS 工具安装完成后您还需要执行一次 `git lfs install` 才能使之全局生效
@@ -102,3 +102,4 @@
   - 确认 fork 仓库设置中“自定义 LFS 存储源”选项是否已启用（此处一般为未启用）
     - 移步 AtomGit 对应仓库页面 - 项目设置 - 仓库管理 - LFS 设置并勾选“启用自定义 LFS 存储源”
 
+[artlfs]: https://artlfs.openeuler.openatom.cn

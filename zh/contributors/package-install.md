@@ -12,7 +12,7 @@
 
 rpm-build本地构建软件包的具体操作步骤如下：
 
-1.  配置repo源，具体请参考[开发环境准备](https://atomgit.com/openeuler/community/blob/master/zh/contributors/prepare-environment.md)中的配置repo源内容。
+1.  配置repo源，具体请参考[开发环境准备][atomgit-openeuler-community-blob-master-zh-contributors-prepare-environment-md]中的配置repo源内容。
 2.  使用rpm-build进行本地构建。
     1.  查找需要操作的源码。以openssl为例，请根据实际修改。
 
@@ -52,9 +52,10 @@ rpm-build本地构建软件包的具体操作步骤如下：
 
             命令执行后，若有缺少依赖的软件包报错信息，则根据提示安装依赖软件包。 如下所示：
 
+            ```
             error: Failed build dependencies:
-
             lksctp-tools-devel is needed by openssl-1:1.1.1d-5.aarch64
+            ```
 
             ```
             $ sudo dnf install lksctp-tools-devel -y
@@ -78,25 +79,18 @@ rpm-build本地构建软件包的具体操作步骤如下：
 
         命令执行后，打印信息如下：
 
+        ```
         /home/user-A/rpmbuild/RPMS
-
         ├── aarch64
-
         │   ├── openssl-1.1.1d-5.aarch64.rpm
-
         │   ├── openssl-debuginfo-1.1.1d-5.aarch64.rpm
-
         │   ├── openssl-debugsource-1.1.1d-5.aarch64.rpm
-
         │   └── openssl-devel-1.1.1d-5.aarch64.rpm
-
         └── noarch
-
-        └── openssl-help-1.1.1d-5.noarch.rpm
-
+            └── openssl-help-1.1.1d-5.noarch.rpm
         /home/user-A/rpmbuild/SRPMS
-
         └── openssl-1.1.1d-5.src.rpm
+        ```
 
         >![](icon/icon-note.gif) **说明：**   
         >若命令执行提示“tree: command not found”，请执行**dnf install tree**安装tree软件包。  
@@ -117,9 +111,10 @@ rpm-build本地构建软件包的具体操作步骤如下：
 
         命令执行后，若有提示缺少依赖的软件包，则根据提示安装依赖软件包。 如下所示：
 
+        ```
         error: Failed dependencies:
-
         krb5-devel is needed by openssl-devel-1:1.1.1d-5.aarch64
+        ```
 
         ```
         $ sudo dnf install krb5-devel -y
@@ -127,6 +122,9 @@ rpm-build本地构建软件包的具体操作步骤如下：
 
         依赖软件包安装完成后再次执行**rpm -ivh openssl-devel-1.1.1d-5.aarch64.rpm**安装软件包。出现如下提示时表示安装成功。
 
+        ```
         Updating / installing...
+        1:openssl-devel-1:1.1.1d-5         ################################# [100%]
+        ```
 
-        1:openssl-devel-1:1.1.1d-5         \#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\# \[100%\]
+[atomgit-openeuler-community-blob-master-zh-contributors-prepare-environment-md]: https://atomgit.com/openeuler/community/blob/master/zh/contributors/prepare-environment.md

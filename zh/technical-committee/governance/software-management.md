@@ -12,9 +12,9 @@
 
 - 帮助任何人，在不违反license、进出口管制或其他相关法律的前提下，可以容易的制作安装介质
 
-openEuler遵从 [Open Source Definition](https://opensource.org/docs/osd) （[中文译文](./the_open_source_definition_zh.md)），满足这一定义的软件，被openEuler社区认同为开源软件。
+openEuler遵从 [Open Source Definition][open-source-definition] （[中文译文](./the_open_source_definition_zh.md)），满足这一定义的软件，被openEuler社区认同为开源软件。
 
-提供适度，高质量的开源软件是openEuler主要目标之一。openEuler努力为其所提供的开源软件在生命周期内提供高质量的支持服务。开源软件众多，质量不一。本着提供高质量开源软件的宗旨，特别拟定本规则指南。本规则中的**必须**，**必须不能**，**应该**，**应该不能**的含义参考[RFC2119](https://tools.ietf.org/html/rfc2119)。
+提供适度，高质量的开源软件是openEuler主要目标之一。openEuler努力为其所提供的开源软件在生命周期内提供高质量的支持服务。开源软件众多，质量不一。本着提供高质量开源软件的宗旨，特别拟定本规则指南。本规则中的**必须**，**必须不能**，**应该**，**应该不能**的含义参考[RFC2119][rfc2119]。
 
 ### 范围
 
@@ -22,8 +22,8 @@ openEuler遵从 [Open Source Definition](https://opensource.org/docs/osd) （[�
 
 ### 本文的改进和修订说明
 
-- 本文档由[openEuler技术委员会](/sig/TC)（Technical Committee）主导起草和维护。本文档的最新版本总可以在 [这里](https://gitee.com/openeuler/community/tree/master/zh/technical-committee/governance/software-management.md) 找到。
-- 任何对于本文中涉及的规则的增加，修改，删除都**必须**被追踪，[请进入该追踪系统](https://gitee.com/openeuler/community/issues) 。
+- 本文档由[openEuler技术委员会](/sig/TC)（Technical Committee）主导起草和维护。本文档的最新版本总可以在 [这里][software-management-doc] 找到。
+- 任何对于本文中涉及的规则的增加，修改，删除都**必须**被追踪，[请进入该追踪系统][community-issues] 。
 - 最终规则经过社区充分的讨论后，由技术委员会定稿。
 
 ## 软件包管理
@@ -42,7 +42,7 @@ openEuler的软件包管理分为两个阶段：**进入软件池**、**随版�
 
 ### 分支管理
 
-维持一个master主干版本进行日常开发，在进入开发冻结期后（或发布版本后），拉出对应版本分支进行后期的维护。具体请见[release SIG](https://gitee.com/openeuler/community/tree/master/zh/Release-Management)发布的规范。
+维持一个master主干版本进行日常开发，在进入开发冻结期后（或发布版本后），拉出对应版本分支进行后期的维护。具体请见[release SIG][release-management]发布的规范。
 
 当前（2020年4月）已经存在**master**和**openEuler-20.03-LTS**两个主要分支，后续软件的维护存在多分支，多版本的情况。
 
@@ -54,9 +54,9 @@ openEuler的软件包管理分为两个阶段：**进入软件池**、**随版�
 
  一个软件的引入指的是一个软件(项目)申请被引入到src-openeuler项目中，依照本文件描述的规则讨论，进而满足规则要求，最终在src-openeuler中建立相应repo的过程。
 
-整个引入的过程都**必须**可被追踪。目前 [https://gitee.com/openeuler/community/issues](https://gitee.com/openeuler/community/issues) 是这个过程的追踪系统。
+整个引入的过程都**必须**可被追踪。目前 [仓库 issue][community-issues] 是这个过程的追踪系统。
 
-Technical Committee通过对[引入申请(Pull Request)](https://gitee.com/openeuler/community/blob/44b249f8e14fafe56420d525b87eaef37f98ca86/zh/technical-committee/governance/README.md)的评审，管理软件引入。
+Technical Committee通过对[引入申请(Pull Request)][intro-request-pr]的评审，管理软件引入。
 
 ### openEuler软件包引入原则
 
@@ -72,7 +72,7 @@ Technical Committee通过对[引入申请(Pull Request)](https://gitee.com/opene
 
 ### 黑名单机制
 
-Technical Committ讨论后，可以将被拒绝引入的软件被记录到一个[软件黑名单](https://gitee.com/openeuler/community/tree/master/zh/technical-committee/governance/blacklist-software.yaml)，作为证据减少重复劳动。
+Technical Committ讨论后，可以将被拒绝引入的软件被记录到一个[软件黑名单][blacklist-software]，作为证据减少重复劳动。
 
 ### 必要的软件引入评估
 
@@ -107,7 +107,7 @@ Technical Committ讨论后，可以将被拒绝引入的软件被记录到一个
 
  一个软件的退出指的是一个软件(项目)申请从src-openeuler项目中删除，依照本文件描述的规则讨论，进而满足规则要求，最终在src-openeuler中移除相应repo的过程。
 
-整个引入的过程都**必须**可被追踪。[https://gitee.com/openeuler/community/issues](https://gitee.com/openeuler/community/issues) 是这个过程的追踪系统。
+整个引入的过程都**必须**可被追踪。[仓库 issue][community-issues] 是这个过程的追踪系统。
 
 ### 执行团队
 1. Packaging：团队负责软件包生命周期监控，并通知sig组，按月在TC例会汇报总体情况。
@@ -116,7 +116,7 @@ Technical Committ讨论后，可以将被拒绝引入的软件被记录到一个
 3. sig-release-management： 根据TC的审核意见，推动客户完成替代，新发布版本不再集成sig-recycle内的软件（非SP版本）
 
 ### 例外软件管理
-工具，字体类工具，如果被社区广泛使用，在最后一个版本发布后，一直无CVE问题，或者少量CVE并且社区会主动修复(未发布版本)，可以纳入[例外软件清单](https://gitee.com/openeuler/community/blob/master/zh/technical-committee/governance/exceptional-software-list.yaml)，本清单例行在TC审核。
+工具，字体类工具，如果被社区广泛使用，在最后一个版本发布后，一直无CVE问题，或者少量CVE并且社区会主动修复(未发布版本)，可以纳入[例外软件清单][exceptional-software-list]，本清单例行在TC审核。
 例如：zlib（被大量依赖），lzma-java（被netty依赖）
 
 ### openEuler软件包退出原则
@@ -135,7 +135,7 @@ Technical Committ讨论后，可以将被拒绝引入的软件被记录到一个
 
 如果软件符合以上任何一条退出条件，技术委员会与相应SIG的maintainer将首先分析该软件在当前 openEuler 社区中被依赖、被使用的情况。
 
-1. 如果 openEuler 中存在依赖关系，且短时间内不能解除，我们建议 SIG 在 github(或其他主流代码托管平台，例如gitee，gitlab等) 上新建分支代码仓，并主动进行社区维护动作。
+1. 如果 openEuler 中存在依赖关系，且短时间内不能解除，我们建议 SIG 在 github(或其他主流代码托管平台，例如GitLab等) 上新建分支代码仓，并主动进行社区维护动作。
 2. 如果开源软件因为License或其他法律限制导致不能升级新版本，并且该软件被大规模使用，对应SIG组愿意继续维护老版本，参考自行维护策略。
 
 
@@ -143,9 +143,9 @@ Technical Committ讨论后，可以将被拒绝引入的软件被记录到一个
 
 开源软件符合退出条件，但是因上下游切换周期长，短时间不能退出的，由依赖方SIG或者本SIG 自建仓维护，具体原则如下：
 
-1. 知名社区或组织宣布停止维护、License 变化或出口管制原因导致不能集成新版本的，短期内由软件所在 SIG 建立的github(或其他主流代码托管平台，例如gitee，gitlab等)  项目维护，并且寻找替代软件，推动上下游尽快切换。
-2. 个人、小型社区或组织投入不足的，优先联系社区maintainer，传递openEuler 参与贡献的意愿，重新激活上游社区。maintainer 不响应的，需要将软件迁移到openEuler SIG 在github(或其他主流代码托管平台，例如gitee，gitlab等)  建立的项目下，由openEuler SIG维护。迁移后需要在原始上游社区发布openEuler SIG继续维护软件的通知，吸引社区其他参与者成为贡献者。
-3. [自行维护软件清单](https://gitee.com/openeuler/community/blob/master/zh/technical-committee/governance/self-maintenance-software-list.yaml)，季度在TC审核。
+1. 知名社区或组织宣布停止维护、License 变化或出口管制原因导致不能集成新版本的，短期内由软件所在 SIG 建立的github(或其他主流代码托管平台，例如GitLab等)  项目维护，并且寻找替代软件，推动上下游尽快切换。
+2. 个人、小型社区或组织投入不足的，优先联系社区maintainer，传递openEuler 参与贡献的意愿，重新激活上游社区。maintainer 不响应的，需要将软件迁移到openEuler SIG 在github(或其他主流代码托管平台，例如GitLab等)  建立的项目下，由openEuler SIG维护。迁移后需要在原始上游社区发布openEuler SIG继续维护软件的通知，吸引社区其他参与者成为贡献者。
+3. [自行维护软件清单][self-maintenance-software-list]，季度在TC审核。
 
 ### 开源软件自维护质量要求
 
@@ -159,7 +159,7 @@ Technical Committ讨论后，可以将被拒绝引入的软件被记录到一个
 
 计划退出的软件需要继续按照维护策略维护一段周期，便于上下游切换，维护周期在openEuler LTS ReleaseNotes 中公布，在软件包的spec 文件中通过Provides: deprecated() 标识，明确退出时间的，增加时间选项（Provides: deprecated() == YYYYMMDD)。
 
-如果到达了维护截止时间，满足退出条件，需要从原SIG 迁移到 [sig-Recycle](https://gitee.com/openeuler/community/tree/master/sig/sig-recycle) 下，由 sig-Recycle SIG管理，进入sig-Recycle表示这个软件进入有限维护模式，不响应issue和安全漏洞警告，但是相应的软件构建还是正常执行，通过EPEL 仓库对外发布，用户在理解风险的前提下，依然可以安装和使用这个软件。
+如果到达了维护截止时间，满足退出条件，需要从原SIG 迁移到 [sig-Recycle][sig-recycle] 下，由 sig-Recycle SIG管理，进入sig-Recycle表示这个软件进入有限维护模式，不响应issue和安全漏洞警告，但是相应的软件构建还是正常执行，通过EPEL 仓库对外发布，用户在理解风险的前提下，依然可以安装和使用这个软件。
 
 Release management例行审视sig-Recycle中的软件，制定每个软件的删除计划，并且在openeuler/community中公示。
 
@@ -181,7 +181,7 @@ Release management例行审视sig-Recycle中的软件，制定每个软件的删
 
 ### 软件选型总体策略
 
-openEuler社区版本分为长期支持版本和创新版本。[详见release SIG](https://gitee.com/openeuler/community/tree/master/zh/Release-Management)。
+openEuler社区版本分为长期支持版本和创新版本。[详见release SIG][release-management]。
 
 - 长期支持版本（LTS）：**发布间隔周期定为2年，提供4年社区支持(暂定)**。社区首个LTS版本openEuler 20.03已于2020年3月正式发布。
 - 社区创新版本（DEV）：每隔6个月openEuler会发布一个社区创新版本，提供6个月社区支持。
@@ -219,7 +219,7 @@ openEuler社区版本分为长期支持版本和创新版本。[详见release SI
 
 ### LTS版本兼容性列表
 
-LTS版本的软件升级后**不得影响兼容性列表**，兼容性列表由openEuler TC 看护。此兼容性列表根据实际场景或用户反馈增删或修改。下面是举例，详细的表格参见[openEuler LTS版本兼容性列表](https://gitee.com/openeuler/oec-application/blob/master/doc/compatibility_level.md)。
+LTS版本的软件升级后**不得影响兼容性列表**，兼容性列表由openEuler TC 看护。此兼容性列表根据实际场景或用户反馈增删或修改。下面是举例，详细的表格参见[openEuler LTS版本兼容性列表][lts-compatibility-list]。
 
 |              |                                                              |
 | ------------ | ------------------------------------------------------------ |
@@ -250,3 +250,14 @@ LTS版本的软件升级后**不得影响兼容性列表**，兼容性列表由o
 | SPEC文件    | 新增/变更/删除 编译依赖、安装依赖、依赖的软件版本变更 |          |          |
 |             | 拆分软件包方式变更                                    |          |          |
 
+[open-source-definition]: https://opensource.org/docs/osd
+[rfc2119]: https://tools.ietf.org/html/rfc2119
+[software-management-doc]: https://atomgit.com/openeuler/community/tree/master/zh/technical-committee/governance/software-management.md
+[community-issues]: https://atomgit.com/openeuler/community/issues
+[release-management]: https://atomgit.com/openeuler/community/tree/master/zh/Release-Management
+[intro-request-pr]: https://atomgit.com/openeuler/community/blob/master/zh/technical-committee/governance/README.md
+[blacklist-software]: https://atomgit.com/openeuler/community/tree/master/zh/technical-committee/governance/blacklist-software.yaml
+[exceptional-software-list]: https://atomgit.com/openeuler/community/tree/master/zh/technical-committee/governance
+[self-maintenance-software-list]: https://atomgit.com/openeuler/community/tree/master/zh/technical-committee/governance
+[sig-recycle]: https://atomgit.com/openeuler/community/tree/master/sig/sig-recycle
+[lts-compatibility-list]: https://atomgit.com/openeuler/oec-application/blob/master/doc/compatibility_level.md

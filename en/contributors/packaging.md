@@ -20,8 +20,8 @@ Creating an RPM package, also called packaging, refers to the task of compiling 
 
 openEuler tries to normalize a variety of open source projects into a coherent system. This packaging guide is drafted to standardize RPM building.
 
-- openEuler complies with the [Linux Standard Base (LSB)](http://www.linuxbase.org/). This standard base aims to reduce the differences between distributions.
-- openEuler also complies with the [Filesystem Hierarchy Standard (FHS)](http://www.pathname.com/fhs/). This standard is a reference on how to manage the Linux filesystem hierarchy.
+- openEuler complies with the [Linux Standard Base (LSB)][www-linuxbase-org]. This standard base aims to reduce the differences between distributions.
+- openEuler also complies with the [Filesystem Hierarchy Standard (FHS)][www-pathname-com-fhs]. This standard is a reference on how to manage the Linux filesystem hierarchy.
 - In addition to following these general rules for Linux distributions, this document standardizes the actual details of packaging for the openEuler community edition.
 
 ### Packaging Basics
@@ -30,14 +30,14 @@ Before using this document to create the RPM and SPEC files, you are advised to 
 
 |      | Skill                                                        |      | Reference                                                        |
 | :--: | ------------------------------------------------------------ | ---- | ------------------------------------------------------------ |
-|  1   | RPM software package management (including software installation, upgrade, uninstallation, compilation, and building)         | Mandatory| [RPM's official website](https://rpm.org)                                  |
-|  2   | Official RPM packaging guide                                             | Mandatory| [RPM Packaging Guide](https://rpm-packaging-guide.github.io/)|
-|  3   | Using the Open Build Service (OBS). openEuler uses OBS to build releases.| Optional| [RPM Packaging Guide](https://rpm-packaging-guide.github.io/)|
-|  4   | Code hosting platform routine operations (openEuler code is hosted at atomgit.com/openeuler.)    | Optional| [Code Hosting Platform Support Center](https://docs.atomgit.com/en/docs/help/home/)|
+|  1   | RPM software package management (including software installation, upgrade, uninstallation, compilation, and building)         | Mandatory| [RPM's official website][rpm-org]                                  |
+|  2   | Official RPM packaging guide                                             | Mandatory| [RPM Packaging Guide][rpm-packaging-guide-github-io]|
+|  3   | Using the Open Build Service (OBS). openEuler uses OBS to build releases.| Optional| [RPM Packaging Guide][rpm-packaging-guide-github-io]|
+|  4   | Code hosting platform routine operations (openEuler code is hosted at atomgit.com/openeuler.)    | Optional| [Code Hosting Platform Support Center][docs-help-home]|
 
 ### Related Document
 
-If you want to introduce software into the openEuler official software repository, refer to the [Contribution Guide](https://www.openeuler.org/en/community/contribution/detail.html).
+If you want to introduce software into the openEuler official software repository, refer to the [Contribution Guide][openeuler-en-community-contribution-detail-html].
 
 ### Applicability
 
@@ -134,8 +134,8 @@ Rules and regulations are gradually improved. Comply with the existing rules as 
 
 - Do not embed precompiled binary files or library files. All binary files or library files contained in a software package must be compiled from the source code package. Binary files for firmware can be exempted. If certain binary files need to be introduced, the TC shall discuss and determine whether to introduce the binary files.
 - Avoid bundling multiple, separate, and upstream projects into one software package. Try to ensure that one software package comes from one community.
-- The software **should be** open source software. Visit https://opensource.org/osd.html for the open source definition. If the software is not open source software, the TC shall discuss and determine whether to use the software.
-- Integrate open source software without legal risks. See the [licenses](https://opensource.org/licenses/alphabetical) approved by the Open Source Initiative (OSI).
+- The software **should be** open source software. See the [Open Source Definition][open-source-definition] for details. If the software is not open source software, the TC shall discuss and determine whether to use the software.
+- Integrate open source software without legal risks. See the [licenses][opensource-org-licenses-alphabetical] approved by the Open Source Initiative (OSI).
 - Adapt the SPEC file to openEuler and make it correct, accurate, clear, and concise. If the content is referenced from other distributions or from the native community, state the fact at the very beginning.
 - **Do not** introduce the **blocklisted** software.
 - Take the introduction decision of each piece of software as a case and use such case as a reference for subsequent decision-making on similar software introduction. The Technical Committee (TC) is responsible for the consistency of software introduction principles.
@@ -178,7 +178,7 @@ Rules and regulations are gradually improved. Comply with the existing rules as 
 
 - Enter basic information, such as name, group, summary, and description, in the SPEC file based on the information on the official website. Use standard written language to describe or write the information and avoid words such as like and good/best.
 - In the RPM-based upgrade scenario, the rule for comparing software versions is **epoch:version-release**. The priority of **epoch** is higher than that of **version** and **release**. In normal cases, **epoch** in the SPEC file is specified by the version by default. You do not need to specify it. In the following scenarios, you need to use **epoch** to ensure that the software can be upgraded using Yum: a. If **version** and **release** of a piece of software are downgraded or rolled back due to special reasons, **epoch** needs to be increased based on the original one. b. Different branches have different development progresses. For example, the **version** and **release** of the maintenance branch are later than those of the development branch. To ensure that the maintenance branch can be upgraded to the development branch, the **epoch** of the development branch must be later than that of the maintenance branch.
-- The **version** in the SPEC file must be the same as that in the upstream community. The **version** information in the SPEC file of an aggregated software package (a repository contains source code from multiple upstream communities) is determined by the maintainer based on the community conventions. For example, [xorg-x11-font-utils](https://atomgit.com/src-openeuler/xorg-x11-font-utils). The **release** number identifies the number of releases of openEuler based on the upstream community. When the software package **version** is upgraded and released for the first time, the **release** number starts from 1 and increments subsequently.
+- The **version** in the SPEC file must be the same as that in the upstream community. The **version** information in the SPEC file of an aggregated software package (a repository contains source code from multiple upstream communities) is determined by the maintainer based on the community conventions. For example, [xorg-x11-font-utils][atomgit-src-openeuler-xorg-x11-font-utils]. The **release** number identifies the number of releases of openEuler based on the upstream community. When the software package **version** is upgraded and released for the first time, the **release** number starts from 1 and increments subsequently.
 
 ### Formats
 
@@ -519,3 +519,14 @@ Man pages and other related documents for %{name}.
 %install_info_rm()
 /sbin/install-info --remove %1 %{_infodir}/dir || :
 ```
+
+[www-linuxbase-org]: http://www.linuxbase.org/
+[www-pathname-com-fhs]: http://www.pathname.com/fhs/
+[rpm-org]: https://rpm.org
+[rpm-packaging-guide-github-io]: https://rpm-packaging-guide.github.io/
+[docs-help-home]: https://docs.atomgit.com/en/docs/help/home/
+[openeuler-en-community-contribution-detail-html]: https://www.openeuler.org/en/community/contribution/detail.html
+[opensource-org-licenses-alphabetical]: https://opensource.org/licenses/alphabetical
+[atomgit-src-openeuler-xorg-x11-font-utils]: https://atomgit.com/src-openeuler/xorg-x11-font-utils
+
+[open-source-definition]: https://opensource.org/osd

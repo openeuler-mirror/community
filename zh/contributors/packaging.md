@@ -20,8 +20,8 @@
 
 openEuler试图规范化多种多样的开源项目到一个连贯的系统。因此openEuler制定此打包指导来规范制作RPM的动作。
 
-- openEuler遵守一般的[Linux基础标准(LSB)](http://www.linuxbase.org/)。该标准致力于减少各个发行版间的不同。
-- openEuler也遵守[Linux文件系统层级标准(FHS)](http://www.pathname.com/fhs/)。该标准是关于如何管理 Linux 文件系统层级的参考。
+- openEuler遵守一般的[Linux基础标准(LSB)][www-linuxbase-org]。该标准致力于减少各个发行版间的不同。
+- openEuler也遵守[Linux文件系统层级标准(FHS)][www-pathname-com-fhs]。该标准是关于如何管理 Linux 文件系统层级的参考。
 - 除了遵守这些一般Linux发行版都会遵守的一般规则，本文档规范化了为openEuler社区版打包的实际细节问题。
 
 ### 打包基础知识
@@ -30,14 +30,14 @@ openEuler试图规范化多种多样的开源项目到一个连贯的系统。�
 
 |      | skill                                                        |      | links                                                        |
 | :--: | ------------------------------------------------------------ | ---- | ------------------------------------------------------------ |
-|  1   | rpm软件包管理（包括软件安装、升级、卸载、编译构建）          | 必选 | [RPM官网](https://rpm.org)                                   |
-|  2   | rpm官方打包指导                                              | 必选 | see the [RPM Packaging Guide](https://rpm-packaging-guide.github.io/). |
-|  3   | open build service 使用(openEuler 使用 OBS构建系统来构建版本) | 可选 | see [obs user guide](https://openbuildservice.org/help/manuals/obs-user-guide/) |
-|  4   | 代码托管平台日常操作（openEuler代码托管在atomgit.com/openeuler）     | 可选 | see [代码托管平台帮助中心](https://docs.atomgit.com/docs/help/home/) |
+|  1   | rpm软件包管理（包括软件安装、升级、卸载、编译构建）          | 必选 | [RPM官网][rpm-org]                                   |
+|  2   | rpm官方打包指导                                              | 必选 | see the [RPM Packaging Guide][rpm-packaging-guide-github-io]. |
+|  3   | open build service 使用(openEuler 使用 OBS构建系统来构建版本) | 可选 | see [obs user guide][openbuildservice-org-help-manuals-obs-user-guide] |
+|  4   | 代码托管平台日常操作（openEuler代码托管在atomgit.com/openeuler）     | 可选 | see [代码托管平台帮助中心][docs-help-home] |
 
 ### 关联文档
 
-如果你计划将软件引入到openEuler official software repository，请参考 [社区贡献者指南](https://www.openeuler.org/zh/community/contribution/detail.html)。
+如果你计划将软件引入到openEuler official software repository，请参考 [社区贡献者指南][openeuler-zh-community-contribution-detail-html]。
 
 ### 适用性
 
@@ -135,8 +135,8 @@ Provides、Conflicts、Obsoletes等RPM关键字提供的功能可以解决兼容
 
 - 不要内嵌预编译好的二进制文件或库文件，软件包中包含的所有二进制文件或库文件都必须是从源代码包中被编译的。二进制固件类的文件可豁免。如果需要引入二进制，经由TC讨论后决定。
 - 软件包应该尽量避免多个、分离的、上游的项目被捆绑到一个软件包中，力争做到一个软件包来源一个社区。
-- 软件**应该**是开源软件，开源软件的定义参考https://opensource.org/osd.html 。如果非开源软件，经由TC讨论后决定。
-- 集成没有法律风险的开源软件，[开源许可名录](https://opensource.org/licenses/alphabetical)。
+- 软件**应该**是开源软件，开源软件的定义参考[开源定义][open-source-definition] 。如果非开源软件，经由TC讨论后决定。
+- 集成没有法律风险的开源软件，[开源许可名录][opensource-org-licenses-alphabetical]。
 - spec文件要适配openEuler，做到正确、准确、清晰、简洁。如果引用了其他发行版内容，或来自原生社区，必须顶部说明。
 - 存在于**黑名单**的软件**必须不能**引入。
 - 每一个软件的引入决定，都作为案例，作为后续类似软件引入决策的参考。Technical Committ对软件引入原则的一致性负责。
@@ -179,7 +179,7 @@ Provides、Conflicts、Obsoletes等RPM关键字提供的功能可以解决兼容
 
 - spec中的基本信息，如name、group、summary、description等信息，根据官网查询填写，请使用规范的书面语言描述或书写，避免`like`、`good/best`等字眼。
 - 在rpm升级的场景中，比较软件版本高低的规则是epoch:version-release，epoch优先级比version、release高。spec中epoch的正常情况下默认由版本统一指定，不需要特别指定。以下两种情况需要使用epoch能保证该软件可yum升级: a. 某软件因特殊原因，version与release产生了降级、回退，epoch需要在原来的基础上递增；b. 不同分支因开发进度不一致，比如维护分支的version和release比开发分支高，为了保证维护分支可以向开发分支升级，需保证开发版本的epoch比维护版本的epoch高。
-- spec中version需要和上游社区的版本号保持一致，聚合性软件包（一个repo中有多个上游社区的源码：[xorg-x11-font-utils](https://atomgit.com/src-openeuler/xorg-x11-font-utils)）spec 中version信息由maintainer 按照社区惯例确定。release号用于标识openEuler基于上游社区的发布次数，软件包version升级后首次发布时release 从1 开始，后续保持递增。
+- spec中version需要和上游社区的版本号保持一致，聚合性软件包（一个repo中有多个上游社区的源码：[xorg-x11-font-utils][atomgit-src-openeuler-xorg-x11-font-utils]）spec 中version信息由maintainer 按照社区惯例确定。release号用于标识openEuler基于上游社区的发布次数，软件包version升级后首次发布时release 从1 开始，后续保持递增。
 
 ### 格式规范
 
@@ -521,3 +521,14 @@ Man pages and other related documents for %{name}.
 /sbin/install-info --remove %1 %{_infodir}/dir || :
 ```
 
+[www-linuxbase-org]: http://www.linuxbase.org/
+[www-pathname-com-fhs]: http://www.pathname.com/fhs/
+[rpm-org]: https://rpm.org
+[rpm-packaging-guide-github-io]: https://rpm-packaging-guide.github.io/
+[openbuildservice-org-help-manuals-obs-user-guide]: https://openbuildservice.org/help/manuals/obs-user-guide/
+[docs-help-home]: https://docs.atomgit.com/docs/help/home/
+[openeuler-zh-community-contribution-detail-html]: https://www.openeuler.org/zh/community/contribution/detail.html
+[opensource-org-licenses-alphabetical]: https://opensource.org/licenses/alphabetical
+[atomgit-src-openeuler-xorg-x11-font-utils]: https://atomgit.com/src-openeuler/xorg-x11-font-utils
+
+[open-source-definition]: https://opensource.org/osd

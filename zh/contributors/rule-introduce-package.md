@@ -57,7 +57,7 @@
 
  
 
-openEuler遵从 [Open Source Definition](https://opensource.org/docs/osd) ，满足这一定义的软件，被openEuler社区认同为开源软件。
+openEuler遵从 [Open Source Definition][opensource-org-docs-osd] ，满足这一定义的软件，被openEuler社区认同为开源软件。
 
  
 
@@ -74,7 +74,7 @@ openEuler遵从 [Open Source Definition](https://opensource.org/docs/osd) ，满
 
 - 本文档由openEuler技术委员会 （Technical Committee）主导起草和维护。本文档的最新版本总可以在 XXXXXX [URL] 上找到。
 
-- **所有对本文档的修改意见可以通过邮件列表 XXXXX 反馈和讨论。 任何对于本文中涉及的规则的增加，修改，删除都**必须**被追踪，[请进入该追踪系统](https://atomgit.com/openeuler/community/issues) 。**
+- **所有对本文档的修改意见可以通过邮件列表 XXXXX 反馈和讨论。 任何对于本文中涉及的规则的增加，修改，删除都**必须**被追踪，[请进入该追踪系统][atomgit-openeuler-community-issues] 。**
 - 最终规则的经过充分的讨论后，由技术委员会定稿。
 
 
@@ -86,7 +86,7 @@ openEuler遵从 [Open Source Definition](https://opensource.org/docs/osd) ，满
 
  一个软件的选型指的是一个软件(项目)从用户库被申请引入到官方库，依照本文件描述的规则讨论，进而满足规则要求，最终引入官方库的过程。
 
-整个引入的过程都**必须**可被追踪。目前 [https://atomgit.com/src-openeuler/openEuler-repos/issues](https://atomgit.com/src-openeuler/openEuler-repos/issues) 是这个过程的追踪系统。
+整个引入的过程都**必须**可被追踪。目前 [openEuler-repos 仓库 issue][atomgit-src-openeuler-openeuler-repos-issues] 是这个过程的追踪系统。
 
 
 
@@ -116,7 +116,7 @@ openEuler遵从 [Open Source Definition](https://opensource.org/docs/osd) ，满
 
 * 软件**应该**有明确的引入理由。
 
-* 软件**应该**是开源软件，开源软件的定义参考[https://opensource.org/osd.html](https://opensource.org/osd.html) 。如果非开源软件，经由technical committ讨论后决定。
+* 软件**应该**是开源软件，开源软件的定义参考[开源定义][opensource-org-osd] 。如果非开源软件，经由technical committ讨论后决定。
 
 * 软件**应该**是源码包，原则上二进制**不应该**被引入。如果需要引入二进制，经由Technical Committ讨论后决定。
 
@@ -134,7 +134,7 @@ openEuler遵从 [Open Source Definition](https://opensource.org/docs/osd) ，满
 
 Technical Committ讨论后，可以将被拒绝引入的软件被记录到一个软件黑名单，作为证据减少重复劳动。
 
-https://atomgit.com/openeuler/community/blob/master/zh/technical-committee/governance/blacklist-software.yaml
+[软件黑名单][blacklist-software]
 
 
 
@@ -569,3 +569,10 @@ https://atomgit.com/org/src-openeuler/issues
 | PREREQUISITE_FOR | 该软件支撑了其它软件的运行，不能被完全列举。 |
 
 | HEEDS_BUILD_TOOL | 该软件构建时需要那些软件的支持。相当于 RPM SPEC 中 BuildRequires |
+
+[opensource-org-docs-osd]: https://opensource.org/docs/osd
+[atomgit-openeuler-community-issues]: https://atomgit.com/openeuler/community/issues
+[atomgit-src-openeuler-openeuler-repos-issues]: https://atomgit.com/src-openeuler/openEuler-repos/issues
+[opensource-org-osd]: https://opensource.org/osd
+
+[blacklist-software]: https://atomgit.com/openeuler/community/blob/master/zh/technical-committee/governance/blacklist-software.yaml

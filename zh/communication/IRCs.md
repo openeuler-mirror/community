@@ -58,7 +58,7 @@ Internet Relay Chat (IRC) 是一个网络实时聊天工具，主要用于组织
 /join #channel_name
 ```
 
-请参考网站[https://openeuler.org/en/community/irc.html](https://openeuler.org/en/community/irc.html)了解IRC列表有哪些。
+请参考 [openEuler IRC 说明][openeuler-irc] 了解 IRC 相关信息。
 
 #### 命令
 
@@ -68,8 +68,10 @@ Internet Relay Chat (IRC) 是一个网络实时聊天工具，主要用于组织
  - /msg nick Hi. 向Hi发一个私有信息。
  - /join #channel-name. 加入channel-name频道。
 
-更多命令请参照[https://kiwiirc.com/docs/client/commands](https://kiwiirc.com/docs/client/commands)
+更多命令请参考 IRC 客户端文档。
 
 ### openEuler IRC频道
 
-更多信息请参照<https://openeuler.org/zh/community/irc.html>
+更多信息请参考 [openEuler IRC 说明][openeuler-irc]。
+
+[openeuler-irc]: https://docs.openeuler.org/zh/docs/26.09/server/releasenotes/contribution.html#irc

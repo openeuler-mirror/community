@@ -18,7 +18,7 @@ A PR merges changes into the main project repository. To ensure the quality of t
 
 For details about how to submit a PR on the code hosting platform, see [Code Hosting Workflow](AtomGit-workflow.md). To get a quick response, you can add a label to the PR or provide more information. Pay attention to the following:
 
-- **Associate an issue**: If the PR is submitted to address a specific issue, click **Associate Issue** when creating the PR, select the issue, and select **Close associated issue after merge** as required. For details, see [Pull Request Association with Issues](https://docs.atomgit.com/en/docs/help/home/org_project/pullrequests/pr-related-issue).
+- **Associate an issue**: If the PR is submitted to address a specific issue, click **Associate Issue** when creating the PR, select the issue, and select **Close associated issue after merge** as required. For details, see [Pull Request Association with Issues][docs-pullrequests-pr-related-issue].
 - **Set the priority**: You can set the priority when creating a PR. Alternatively, enter **/priority high** in the comment area to add a high-priority label to the PR.
 - **Mark the PR submitted for bug fixing**: You can enter **/kind bug** in the description area box to mark that the PR is for fixing a bug so that you can get a quick response for the PR.
 - **Identify the SIG to which the PR belongs**: You can enter **sig _sig-name_** in the description area to identify the SIG to which the PR belongs for easy search.
@@ -46,7 +46,7 @@ After you submit a PR, the community bot will automatically assign a reviewer to
 
 - After modifying the code, you can enter the **/retest** command in the comment area to request the community bot to initiate automated testing again.
 
-For details about pipelines, see [Pipeline Documentation](https://docs.atomgit.com/en/docs/help/home/org_project/pipeline/).
+For details about pipelines, see [Pipeline Documentation][docs-org-project-pipeline].
 
 You can view pipeline results on the **Checks** tab of the PR page and confirm the CI status through labels such as **ci_successful**.
 
@@ -107,3 +107,6 @@ SIG members can apply the **test-ready** label to a PR submitted by a contributo
 ## Command Reference
 
 openeuler-ci-bot applies structured labels to PRs. The bot can provide some useful advice during your PR process. For details, see [Community Command Reference](../sig-infrastructure/command.md).
+
+[docs-pullrequests-pr-related-issue]: https://docs.atomgit.com/en/docs/help/home/org_project/pullrequests/pr-related-issue
+[docs-org-project-pipeline]: https://docs.atomgit.com/en/docs/help/home/org_project/pipeline/

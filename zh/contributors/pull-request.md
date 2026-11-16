@@ -18,7 +18,7 @@
 
 如何在代码托管平台上提交PR的具体操作，请参考[代码托管工作流指导文档](AtomGit-workflow.md)。为了更快的得到响应，您可以给PR添加标签，或提供更详细的信息，这里需要特别提示您的是：
 
-- **关联Issue**：如果您提交的PR是针对某个Issue的，请在创建PR时点击「关联Issue」选择对应的Issue，并按需勾选「合并后关闭已关联的Issue」，你可以通过此种方式快速的链接到关联的Issue。具体的操作指导请参考[Pull Request关联Issue](https://docs.atomgit.com/docs/help/home/org_project/pullrequests/pr-related-issue)。
+- **关联Issue**：如果您提交的PR是针对某个Issue的，请在创建PR时点击「关联Issue」选择对应的Issue，并按需勾选「合并后关闭已关联的Issue」，你可以通过此种方式快速的链接到关联的Issue。具体的操作指导请参考[Pull Request关联Issue][docs-pullrequests-pr-related-issue]。
 - **标注优先级**：您可以在创建PR的时候，选择PR的优先级。或者在评论区通过`/priority high`给PR添加高优先级标签
 - **标注是解决bug的合入**：您可以在描述框通过输入`/kind bug`来标注该PR是合入解决问题的代码，以便于大家更快的回应您的PR请求
 - **标注所属sig**：为了方便查找，您也可以在描述框通过输入`sig sig-name`来标识该PR所属的sig。
@@ -46,7 +46,7 @@
 
 - 修改后，您可以在评论框输入`/retest`命令，让社区机器人重新发起一次自动化测试。
 
-代码托管平台流水线的使用方法可参考[流水线文档](https://docs.atomgit.com/docs/help/home/org_project/pipeline/)。
+代码托管平台流水线的使用方法可参考[流水线文档][docs-org-project-pipeline]。
 
 您可以在PR页面的「检查」标签查看流水线结果，并通过`ci_successful`等标签确认CI状态。
 
@@ -107,3 +107,6 @@
 ## 命令参考
 
 openEuler的机器人会将结构化标签运用于PR中。该机器人可以为您的PR过程提供一些有用的建议。为了方便查看，可以在注释中输入XXXXXXX选项，以触发自动标记和通知功能。请参阅[社区命令参考文档](../sig-infrastructure/command.md)。
+
+[docs-pullrequests-pr-related-issue]: https://docs.atomgit.com/docs/help/home/org_project/pullrequests/pr-related-issue
+[docs-org-project-pipeline]: https://docs.atomgit.com/docs/help/home/org_project/pipeline/

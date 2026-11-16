@@ -27,7 +27,7 @@ openEuler社区遵循[社区行为准则](code-of-conduct.md)
 
 ##  社区团体
 
-请查看[社区团体](https://openeuler.org/zh/sig.html)
+请查看[社区团体][openeuler-sig]
 
 
 
@@ -97,7 +97,7 @@ SIG是在公开场合运作的自愿团体，任何人都可以加入。但因�
 
 ## Repository指南
 
-openEuler Gitee下的所有的Repository都应该遵循[openEule的Repository指南](/zh/Gitee-management/README.md)中描述的过程。
+openEuler 代码托管平台下的所有Repository都应该遵循[openEuler的Repository指南](/zh/repository-management/README.md)中描述的过程。
 
 
 
@@ -105,3 +105,4 @@ openEuler Gitee下的所有的Repository都应该遵循[openEule的Repository指
 
 所有贡献者都必须签署openEuler CLA，请具体看[这里](/zh/CLA.md)。
 
+[openeuler-sig]: https://www.openeuler.org/zh/sig/sig-list/

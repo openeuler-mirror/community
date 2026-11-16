@@ -2,13 +2,13 @@
 
 ### 加入邮件列表
 
-访问该地址<https://www.openeuler.org/zh/community/mailing-list/>找到社区可用的邮件列表，请根据您的兴趣参照下面步骤去加入某个邮件列表。
+访问该地址[openEuler 邮件列表页面][openeuler-zh-mailing-list]找到社区可用的邮件列表，请根据您的兴趣参照下面步骤去加入某个邮件列表。
 
 这里有两种加入方式.
 
 #### 1. 网页
 
-> 1) 点击<https://www.openeuler.org/zh/community/mailing-list/>中的列表名字进入订阅页面。
+> 1) 点击[openEuler 邮件列表页面][openeuler-zh-mailing-list]中的列表名字进入订阅页面。
 > 2) 输入订阅邮箱并点击“订阅”按钮。
 > 3) 登录邮箱并回复从openeuler.org发来的确认邮件。
 
@@ -50,4 +50,7 @@ content: NA
 - 邮件: infra@openeuler.org
 - IRC: #openEuler-infra
 
-如果您发现任何有关邮件列表相关的bug，请直接提交issue到[infrastructure](https://gitee.com/openeuler/infrastructure/issues)
+如果您发现任何有关邮件列表相关的bug，请直接提交issue到[infrastructure][infra-issues]
+
+[infra-issues]: https://atomgit.com/openeuler/infrastructure/issues
+[openeuler-zh-mailing-list]: https://www.openeuler.org/zh/community/mailing-list/

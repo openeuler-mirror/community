@@ -12,7 +12,7 @@
 ### 2、从云上fork代码分支
 
 1. 找到并打开对应的repository的首页
-2. 点击右上角的 `Fork` 按钮，按照指引，建立一个属于**“个人”**的云上fork分支。详细操作请参考[Fork工作流](https://docs.atomgit.com/docs/help/home/org_project/pullrequests/pr-fork)。<img src="figure/AtomGit-Fork-Header.png" />
+2. 点击右上角的 `Fork` 按钮，按照指引，建立一个属于**“个人”**的云上fork分支。详细操作请参考[Fork工作流][docs-pullrequests-pr-fork]。<img src="figure/AtomGit-Fork-Header.png" />
 
 
 
@@ -59,7 +59,7 @@ git config --global user.email "email@your_email"
 
 - ② 登录您个人的代码托管平台账户并添加您的ssh公钥
 
-  请在代码托管平台网页点击右上角的“个人头像”进入“个人设置”，在“个人设置 -> 安全设置”下点击“SSH 公钥”，在“+ SSH 公钥”内把cat命令获取到的ssh公钥添加进去。详细操作请参考[SSH 公钥管理](https://docs.atomgit.com/docs/help/home/user_center/security_management/ssh)。
+  请在代码托管平台网页点击右上角的“个人头像”进入“个人设置”，在“个人设置 -> 安全设置”下点击“SSH 公钥”，在“+ SSH 公钥”内把cat命令获取到的ssh公钥添加进去。详细操作请参考[SSH 公钥管理][docs-security-management-ssh]。
 
   <img src="figure/AtomGit-AddSSHKey-Safe.png" style="zoom:50%;" />
 
@@ -169,7 +169,7 @@ git push -f origin myfeature
 
 1. 访问你在 `https://atomgit.com/$user/$repository_name` 的页面
 
-2. 把您的分支选到您提交使用的 `myfeature` 分支上，点击「新建 Pull Request」。详细操作请参考[创建 Pull Request](https://docs.atomgit.com/docs/help/home/org_project/pullrequests/pr-create)。
+2. 把您的分支选到您提交使用的 `myfeature` 分支上，点击「新建 Pull Request」。详细操作请参考[创建 Pull Request][docs-pullrequests-pr-create]。
 
 3. 在创建新PR界面，确认源分支和目标分支，选择创建。
 
@@ -187,7 +187,7 @@ git push -f origin myfeature
 
 你提交PR申请后，PR被分配给一个或多个检视者。这些检视者将进行彻底的代码检视，以确保提交的正确性，不仅包括代码的正确，也包括注释和文档等。
 
-您可以在PR列表内找到您提交的PR，并看到对该PR的评论和评审意见。代码托管平台的代码审查操作可参考[代码审查](https://docs.atomgit.com/docs/help/home/org_project/pullrequests/pr-code-review)。
+您可以在PR列表内找到您提交的PR，并看到对该PR的评论和评审意见。代码托管平台的代码审查操作可参考[代码审查][docs-pullrequests-pr-code-review]。
 
 ![](figure/AtomGit-PR-Page.png)
 
@@ -234,13 +234,13 @@ git push -f origin myfeature
 git push ${your_remote_name} myrevert
 ```
 
-- 用这个分支创建一个PR。具体操作可参考[Revert](https://docs.atomgit.com/docs/help/home/org_project/pullrequests/pr-revert)。
+- 用这个分支创建一个PR。具体操作可参考[Revert][docs-pullrequests-pr-revert]。
 
 
 
 ### 处理提交冲突
 
-如果您发现提交的PR带有冲突标记，说明您提交的PR和您本地存在冲突，您需要处理冲突。具体操作可参考[解决冲突](https://docs.atomgit.com/docs/help/home/org_project/pullrequests/pr-sovle-conflict)。
+如果您发现提交的PR带有冲突标记，说明您提交的PR和您本地存在冲突，您需要处理冲突。具体操作可参考[解决冲突][docs-pullrequests-pr-sovle-conflict]。
 
 ![](figure/AtomGit-Conflict.png)
 
@@ -297,4 +297,12 @@ git rebase -i HEAD~n
 git push -f origin yourbranch
 ```
 
-5、回到代码托管平台上的PR提交页面查看，您就可以看到之前的提交已经合并了。代码托管平台的Squash合并操作可参考[Squash 合并](https://docs.atomgit.com/docs/help/home/org_project/pullrequests/pr-squash)。
+5、回到代码托管平台上的PR提交页面查看，您就可以看到之前的提交已经合并了。代码托管平台的Squash合并操作可参考[Squash 合并][docs-pullrequests-pr-squash]。
+
+[docs-pullrequests-pr-fork]: https://docs.atomgit.com/docs/help/home/org_project/pullrequests/pr-fork
+[docs-security-management-ssh]: https://docs.atomgit.com/docs/help/home/user_center/security_management/ssh
+[docs-pullrequests-pr-create]: https://docs.atomgit.com/docs/help/home/org_project/pullrequests/pr-create
+[docs-pullrequests-pr-code-review]: https://docs.atomgit.com/docs/help/home/org_project/pullrequests/pr-code-review
+[docs-pullrequests-pr-revert]: https://docs.atomgit.com/docs/help/home/org_project/pullrequests/pr-revert
+[docs-pullrequests-pr-sovle-conflict]: https://docs.atomgit.com/docs/help/home/org_project/pullrequests/pr-sovle-conflict
+[docs-pullrequests-pr-squash]: https://docs.atomgit.com/docs/help/home/org_project/pullrequests/pr-squash

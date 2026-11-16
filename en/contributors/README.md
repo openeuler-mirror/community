@@ -48,7 +48,7 @@ Welcome to openEuler!
 
 ## Signing the CLA
 
-You must sign a [Contributor License Agreement](https://clasign.osinfra.cn/sign/Z2l0ZWUlMkZvcGVuZXVsZXI=) (CLA) before you can contribute to the community.
+You must sign a [Contributor License Agreement][contributor-license-agreement] (CLA) before you can contribute to the community.
 
 
 
@@ -85,7 +85,7 @@ SIG is short for Special Interest Group. The openEuler community is organized in
 
 Finding the SIG you are interested in can help you ask questions in the right place and get a quicker response from the community.
 
-- **Method 1**: If you do not know which SIGs or projects exist, you can view the [list of SIGs](https://www.openeuler.org/en/sig/sig-list/) established in the openEuler community. You can use the list to quickly locate the SIG corresponding to the field that you are interested in. The following information about the SIG is also provided:
+- **Method 1**: If you do not know which SIGs or projects exist, you can view the [list of SIGs][openeuler-en-sig-sig-list] established in the openEuler community. You can use the list to quickly locate the SIG corresponding to the field that you are interested in. The following information about the SIG is also provided:
   
   - Projects under the SIG and the repository address of the projects
   - Communication methods in the SIG, including the mailing list and IRC channel
@@ -103,7 +103,7 @@ Finding the SIG you are interested in can help you ask questions in the right pl
 
 ### Assign an Issue to Yourself
 
-- **Find the issue list**: On the toolbar of the home page (repository of the project on the code hosting platform) of the project that you are interested in, click <img src="figures/AtomGit-Issues.png" alt="Issues" style="zoom:50%;" /> to find the issue list of the SIG (for example, the issue list address of the community SIG is <https://atomgit.com/openeuler/community/issues>).
+- **Find the issue list**: On the toolbar of the home page (repository of the project on the code hosting platform) of the project that you are interested in, click <img src="figures/AtomGit-Issues.png" alt="Issues" style="zoom:50%;" /> to find the issue list of the SIG (for example, the issue list address of the community SIG is [community issue list][community-issues]).
 
 - **Find an issue that you want to handle**: If you want to handle one of the issues, you can assign it to yourself. You only need to enter **/assign** or **/assign @yourself** in the comment area. The bot will assign the issue to you and your name will be displayed in the assignee list.
 - **Participate in discussion within an issue**: An issue may have been discussed by participants. If you are interested in the issue, you can leave your comment in the comment area.
@@ -173,7 +173,7 @@ openEuler is an open community and everyone involved is expected to be an active
 
 
 
-**As a reviewer**, it is strongly recommended that you comply with the [Code of Conduct](/code-of-conduct.md) and respect others to promote collaboration and improve yourself. When reviewing others' PRs, you can refer to a series of key review points provided in [The Gentle Art Of Patch Review](https://sage.thesharps.us/2014/09/01/the-gentle-art-of-patch-review/), which indicates that the code reviewer is expected to encourage new contributors to actively participate in the program instead of putting off reviewing contributions from new-comers and giving nit-picking comments. Therefore, pay attention to the following points during the review:
+**As a reviewer**, it is strongly recommended that you comply with the [Code of Conduct](/code-of-conduct.md) and respect others to promote collaboration and improve yourself. When reviewing others' PRs, you can refer to a series of key review points provided in [The Gentle Art Of Patch Review][sage-thesharps-us-2014-09-01-the-gentle-art-of-patch-review], which indicates that the code reviewer is expected to encourage new contributors to actively participate in the program instead of putting off reviewing contributions from new-comers and giving nit-picking comments. Therefore, pay attention to the following points during the review:
 
 + Whether the idea behind the contribution is reasonable.
 + Whether the structure of the contribution is correct.
@@ -185,9 +185,9 @@ Note: If your PR does not attract enough attention, you can ask for help through
 
 ## Testing
 
-Testing is the responsibility of all contributors. The [QA SIG](https://atomgit.com/openeuler/QA) is the official organization responsible for testing activities related to the versions of the community edition . If you want to carry out testing on your own infrastructure, see [Community Test System](https://atomgit.com/openeuler/QA/blob/master/community-test-system.md).
+Testing is the responsibility of all contributors. The [QA SIG][atomgit-openeuler-qa] is the official organization responsible for testing activities related to the versions of the community edition . If you want to carry out testing on your own infrastructure, see [Community Test System][atomgit-openeuler-qa-blob-master-community-test-system-md].
 
-A successful release of the community edition requires multiple types of testing activities. The code to be tested and environments required for running the tests vary with the test activity types. For details, see [Community Developer Test Contribution Guide](https://atomgit.com/openeuler/QA/blob/master/community-developer-test-contribution-guide.md).
+A successful release of the community edition requires multiple types of testing activities. The code to be tested and environments required for running the tests vary with the test activity types. For details, see [Community Developer Test Contribution Guide][atomgit-openeuler-qa-blob-master-community-developer-test-contribution-guide-md].
 
 
 
@@ -207,14 +207,14 @@ If you are not interested in writing code, you can find the work of your interes
 
 # Installing openEuler
 
-See [openEuler Download](https://www.openeuler.org/en/download/).
+See [openEuler Download][openeuler-en-download].
 
 
 
 # Disclosure of Community Security Issues
 
-+ [Security Handling Process](https://atomgit.com/openeuler/security-committee/blob/master/security-process-en.md): This document briefly describes the process for handling security issues.
-+ [Security Disclosure Information](https://atomgit.com/openeuler/security-committee/blob/master/security-disclosure-en.md): If you want to report security vulnerabilities, please refer to this page.
++ [Security Handling Process][atomgit-openeuler-security-committee-blob-master-security-process-en-md]: This document briefly describes the process for handling security issues.
++ [Security Disclosure Information][atomgit-openeuler-security-committee-blob-master-security-disclosure-en-md]: If you want to report security vulnerabilities, please refer to this page.
 
 
 
@@ -228,17 +228,30 @@ Communication methods in the openEuler community include the mailing lists, IRC 
 
 ## Community News and Events
 
-Information about community meetings and technical exchanges attended or held by openEuler can be found on the [openEuler News](https://www.openeuler.org/en/interaction/news-list/) page.
+Information about community meetings and technical exchanges attended or held by openEuler can be found on the [openEuler News][openeuler-en-interaction-news-list] page.
 
 
 
 
 ## Community Meetups
 
-The community holds developer conferences every year. Get in touch with us through contact information on [https://openeuler.org](https://openeuler.org) or send email to <dev@openeuler.org>. Come and join us!
+The community holds developer conferences every year. Get in touch with us through contact information on [openEuler website][openeuler-home] or send email to <dev@openeuler.org>. Come and join us!
 
 
 
 # Feedback
 
 If you have any questions about the contributor guide or the development process, please feel free to [tell us](mailto:community@openeuler.org) through the mailing lists and write down your questions and doubts in the email with the subject line in the format of **[Development Process Question]**. The openEuler community operations team will coordinate and assign related personnel to answer your questions.
+
+[contributor-license-agreement]: https://clasign.osinfra.cn/sign/Z2l0ZWUlMkZvcGVuZXVsZXI=
+[openeuler-en-sig-sig-list]: https://www.openeuler.org/en/sig/sig-list/
+[sage-thesharps-us-2014-09-01-the-gentle-art-of-patch-review]: https://sage.thesharps.us/2014/09/01/the-gentle-art-of-patch-review/
+[atomgit-openeuler-qa]: https://atomgit.com/openeuler/QA
+[atomgit-openeuler-qa-blob-master-community-test-system-md]: https://atomgit.com/openeuler/QA/blob/master/GuideBook/community-test-system.md
+[atomgit-openeuler-qa-blob-master-community-developer-test-contribution-guide-md]: https://atomgit.com/openeuler/QA/blob/master/GuideBook/community-developer-test-contribution-guide.md
+[openeuler-en-download]: https://www.openeuler.org/en/download/
+[atomgit-openeuler-security-committee-blob-master-security-process-en-md]: https://atomgit.com/openeuler/security-committee/blob/master/docs/en/vulnerability-management-process/security-process-en.md
+[atomgit-openeuler-security-committee-blob-master-security-disclosure-en-md]: https://atomgit.com/openeuler/security-committee/blob/master/docs/en/vulnerability-management-process/security-disclosure-en.md
+[openeuler-en-interaction-news-list]: https://www.openeuler.org/en/interaction/news-list/
+[openeuler-home]: https://openeuler.org
+[community-issues]: https://atomgit.com/openeuler/community/issues

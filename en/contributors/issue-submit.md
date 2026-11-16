@@ -48,7 +48,7 @@ Contents:
 
 Only the current repository can be viewed and operated on the Issue panel. The code hosting platform also provides a global view of issues.
 
-- **Organization global view**: Visit the [openEuler organization issue list](https://atomgit.com/org/openeuler/issues) to view all issues of the organization. You can filter issues through entries such as **Issues**, **Created by me**, **Assigned to me**, and **Participated**, and use the toolbar to filter and sort issues by different conditions.
+- **Organization global view**: Visit the [openEuler organization issue list][atomgit-org-openeuler-issues] to view all issues of the organization. You can filter issues through entries such as **Issues**, **Created by me**, **Assigned to me**, and **Participated**, and use the toolbar to filter and sort issues by different conditions.
 
   ![](figures/AtomGit-OrgIssues-Full.png)
 
@@ -70,7 +70,7 @@ For details about the complete requirement issue handling process, see the follo
 
 - Go to the repository of the team or project corresponding to the requirement. For details about how to find the repository, see [this section](README.md/#id2-1-2). On the **Issues** panel, click **+ New Issue**.
 
-- If you are not sure about the team or project corresponding to the requirement, create an issue in the [community repository](https://atomgit.com/openeuler/community-issue). The community developers will help you find the team or project.
+- If you are not sure about the team or project corresponding to the requirement, create an issue in the [community repository][atomgit-openeuler-community-issue]. The community developers will help you find the team or project.
 
 - Select the requirement template when creating the issue, and **briefly describe the key points of the requirement** in the title.
 
@@ -120,7 +120,7 @@ Discovering and submitting issues is one of the good ways to contribute to the c
 **Step 1. Create a bug issue.**
 
 - Go to the repository of the team or project corresponding to the bug. For details about how to find the repository, see [this section](README.md/#id2-1-2). On the **Issues** panel, click **+ New Issue**.
-- If you are not sure about the team or project corresponding to the bug, create an issue in the [community repository](https://atomgit.com/openeuler/community-issue). The community developers will help you find the team or project.
+- If you are not sure about the team or project corresponding to the bug, create an issue in the [community repository][atomgit-openeuler-community-issue]. The community developers will help you find the team or project.
 - Select the bug template when creating the issue.
 - **Briefly describe the key points of the bug** in the title.
 - Describe the bug in the description based on the bug issue template shown below.  
@@ -166,7 +166,7 @@ The reasons include:
 
 **Step 3: Claim or assign an issue.** Issues can be claimed proactively or assigned by team members. You can enter **/assign** in the comment area to assign the issue to yourself or others.
 
-**Step 4: Modify the code and submit a PR.** After modifying and locally verifying the code, associate the issue when submitting a PR. When creating the PR, click **Associate Issue**, select the issue, and select **Close associated issue after merge** as required. For details, see [Pull Request Association with Issues](https://docs.atomgit.com/en/docs/help/home/org_project/pullrequests/pr-related-issue). For details about how to submit a PR, see the [Pull Request Submission Guide](pull-request.md).
+**Step 4: Modify the code and submit a PR.** After modifying and locally verifying the code, associate the issue when submitting a PR. When creating the PR, click **Associate Issue**, select the issue, and select **Close associated issue after merge** as required. For details, see [Pull Request Association with Issues][docs-pullrequests-pr-related-issue]. For details about how to submit a PR, see the [Pull Request Submission Guide](pull-request.md).
 
 **Step 5: Verify the modification in the project.** Verify the PR within the project. If the verification fails, go back to **Step 4**. If the verification is passed and the issue is not related to the openEuler version, close the issue as a project team issue.
 
@@ -196,4 +196,9 @@ If the description and reproduction procedure you submitted with the issue are c
 
 ## Security Issue Submission and Handling Guide
 
-For details about how to handle security issues, see [this document](https://www.openeuler.org/en/security/vulnerability-reporting/).
+For details about how to handle security issues, see [this document][openeuler-en-security-vulnerability-reporting].
+
+[atomgit-org-openeuler-issues]: https://atomgit.com/org/openeuler/issues
+[atomgit-openeuler-community-issue]: https://atomgit.com/openeuler/community-issue
+[docs-pullrequests-pr-related-issue]: https://docs.atomgit.com/en/docs/help/home/org_project/pullrequests/pr-related-issue
+[openeuler-en-security-vulnerability-reporting]: https://www.openeuler.org/en/security/vulnerability-reporting/

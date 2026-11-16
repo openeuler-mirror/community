@@ -1,5 +1,7 @@
 # SIG  管理指南
 
+> 说明：本文中的仓库地址和 Git 命令以 AtomGit 为例。
+
  目录
 
 - [申请新SIG流程](#id1)
@@ -25,11 +27,11 @@
 
 **1、使用SIG模板创建自己的新SIG**
 
-将 gitee.com/openeuler/community Fork到你的Gitee下。并在sig目录下创建你的sig文件夹，以及把SIG申请模板拷贝到该文件夹下。
+将 openeuler/community 仓库 Fork 到你的代码托管平台账号下。并在sig目录下创建你的sig文件夹，以及把SIG申请模板拷贝到该文件夹下。
 
 
 ```
-git clone https://gitee.com/YOURGITEE/community
+git clone https://atomgit.com/YOUR_ACCOUNT/community
 
 cd ./community/sig
 
@@ -56,7 +58,7 @@ vi sig-YOURSIGNAME.md
 
 **3、完成新SIG成员的配置**
 
-请在sig-info.yaml文件中完成对SIG成员的配置，填写规则可以参考社区[博客](https://www.openeuler.org/zh/blog/georgecao/openEuler-sig-member-management.html)
+请在sig-info.yaml文件中完成对SIG成员的配置，填写规则可以参考社区[博客][sig-member-management-blog]
 
 ```
 vi sig-info.yaml
@@ -65,34 +67,16 @@ vi sig-info.yaml
 
 **4、完成新SIG的Repository的配置**
 
-请参考[openEuler的Repository说明](/zh/Gitee-Management/Gitee-management-guide.md)，完成SIG所拥有的Repository的配置。
+请参考[仓库管理](/zh/repository-management/Repository.md)，完成SIG所拥有的Repository的配置。
 
-- 如果您的项目在openEuler社区只维护软件包，请点击[src-openeuler.yaml](/repository/src-openeuler.yaml)，在其中按照格式把你的项目添加进来。
+- 如果您的项目在openEuler社区只维护软件包，请在 `sig/<SIG>/src-openeuler/<首字母>/` 下新建仓库 YAML 文件，例如 `sig/<SIG>/src-openeuler/z/zip.yaml`。
+- 如果不是以上情况，请在 `sig/<SIG>/openeuler/<首字母>/` 下新建仓库 YAML 文件。
 
-```
-vi ../../repository/src-openeuler.yaml
+YAML 格式参考[sig/README.md](/sig/README.md)，新增软件包的完整流程参考[新增软件包指南](/zh/contributors/create-package.md)。
 
-```
+**5、在对应SIG目录的sig-info.yaml内添加新SIG的相关信息**
 
-- 如果不是以上的情况，请单击[openeuler.yaml](/repository/openeuler.yaml)，并按照内部的格式在文件的最后把您的SIG添加进来
-
-```
-vi ../../repository/openeuler.yaml
-
-```
-
-**5、在sig文件夹的sig.yaml内添加新SIG的相关信息**
-
-根据以上的信息，打开sig文件夹下[sigs.yaml](/sig/sigs.yaml)文件，在末尾添加新sig的相关信息并提交PR。
-
-```
-vi ../sigs.yaml
-
-- name: sig-YOURSIGNAME
-  repositories:
-  - openeuler/aaa
-  - src-openeuler/bbb
-```
+根据以上的信息，打开 `sig/<SIG>/sig-info.yaml`，按照 [sig/README.md](/sig/README.md) 的格式补充 SIG 名称、maintainers、repositories 等信息，并提交 PR。
 
 **6、完成SIG的README初稿信息**
 
@@ -104,7 +88,7 @@ vi README.md
 
 **7、提交PR**
 
-将以上修改提交到Gitee上，并在Gitee上创建一个Pull Request。
+将以上修改提交到代码托管平台，并在代码托管平台上创建一个Pull Request。
 
 **8、向TC发送邮件申请**
 
@@ -130,34 +114,16 @@ vi README.md
 
 **1、完成新项目的Repository的配置或删除相关配置**
 
-请参考[openEuler的Repository说明](/zh/Gitee-Management/Gitee-management-guide.md)，完成SIG所拥有的Repository的配置。
+请参考[仓库管理](/zh/repository-management/Repository.md)，完成SIG所拥有的Repository的配置。
 
-- 如果您的项目在openEuler社区只维护软件包，请点击[src-openeuler.yaml](/repository/src-openeuler.yaml)，在其中按照格式对你的项目的repository进行添加/删除。
+- 如果您的项目在openEuler社区只维护软件包，请在 `sig/<SIG>/src-openeuler/<首字母>/` 下新建或删除仓库 YAML 文件。
+- 如果不是以上情况，请在 `sig/<SIG>/openeuler/<首字母>/` 下新建或删除仓库 YAML 文件。
 
-```
-vi ../../repository/src-openeuler.yaml
+YAML 格式参考[sig/README.md](/sig/README.md)。
 
-```
+**2、在对应SIG目录的sig-info.yaml内添加或删除项目的repository信息**
 
-- 如果不是以上的情况，请单击[openeuler.yaml](/repository/openeuler.yaml)，在其中按照格式对你的项目的repository进行添加/删除。。
-
-```
-vi ../../repository/openeuler.yaml
-
-```
-
-**2、在sig文件夹的sig.yaml内添加新项目的repository信息或删除相关信息**
-
-根据以上的信息，打开sig文件夹下[sigs.yaml](/sig/sigs.yaml)文件，在`name`字段下面找到项目所属的sig，可以在该sig的`repositories`的末尾添加项目的repository，或者找到待删除的repository进行删除。
-
-```
-vi ../sigs.yaml
-
-- name: sig-YOURSIGNAME
-  repositories:
-  - openeuler/aaa
-  - src-openeuler/bbb
-```
+根据以上的信息，打开 `sig/<SIG>/sig-info.yaml`，在 `repositories` 列表中新增或删除仓库。具体格式参考 [sig/README.md](/sig/README.md)。
 
 **3、刷新README**
 
@@ -169,7 +135,7 @@ vi README.md
 
 **4、提交PR**
 
-将以上修改提交到Gitee上，并在Gitee上创建一个Pull Request。
+将以上修改提交到代码托管平台，并在代码托管平台上创建一个Pull Request。
 
 **5、向TC发送邮件申请**
 
@@ -212,7 +178,7 @@ vi README.md
 
 **3、提交PR**
 
-将以上修改提交到Gitee上，并在Gitee上创建一个Pull Request。
+将以上修改提交到代码托管平台，并在代码托管平台上创建一个Pull Request。
 
 **4、向TC发送邮件申请**
 
@@ -262,7 +228,7 @@ vi README.md
 
 **3、提交PR**
 
-将以上修改提交到Gitee上，并在Gitee上创建一个Pull Request。
+将以上修改提交到代码托管平台，并在代码托管平台上创建一个Pull Request。
 
 **4、在SIG内部发送邮件申请**
 
@@ -284,7 +250,7 @@ SIG的Maintainer合并Pull Request来批准申请。
 
 **1.完成新SIG成员的配置**
 
-请在`/community/sig`文件夹下找到您的sig文件夹，完成sig文件夹内SIG章程的修改，在sig-info.yaml文件中完成对SIG成员的配置，填写说明参考[博客](https://www.openeuler.org/zh/blog/georgecao/openEuler-sig-member-management.html)
+请在`/community/sig`文件夹下找到您的sig文件夹，完成sig文件夹内SIG章程的修改，在sig-info.yaml文件中完成对SIG成员的配置，填写说明参考[博客][sig-member-management-blog]
 
 ```
 vi sig-info.yaml
@@ -301,7 +267,7 @@ vi README.md
 
 **3、提交PR**
 
-将以上修改提交到Gitee上，并在Gitee上创建一个Pull Request。
+将以上修改提交到代码托管平台，并在代码托管平台上创建一个Pull Request。
 
 **4、在SIG内部发送邮件申请**
 
@@ -315,6 +281,4 @@ vi README.md
 
 SIG的Maintainer合并Pull Request来批准申请。
 
-
-
-
+[sig-member-management-blog]: https://www.openeuler.org/zh/blog/georgecao/openEuler-sig-member-management.html
