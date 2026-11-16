@@ -31,6 +31,7 @@
 - ublinkdt - [https://atomgit.com/openeuler/ublinkdt](https://atomgit.com/openeuler/ublinkdt)
 - sprinkler - [https://atomgit.com/openeuler/sprinkler](https://atomgit.com/openeuler/sprinkler)
 - spdiag - [https://atomgit.com/openeuler/spdiag](https://atomgit.com/openeuler/spdiag)
+- ubfm - [https://atomgit.com/openeuler/ubfm](https://atomgit.com/openeuler/ubfm)
 
  ### 跨领域和面向外部的流程
  - 
