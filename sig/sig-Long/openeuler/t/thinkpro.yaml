@@ -1,0 +1,6 @@
+name: thinkpro
+description: ThinkPro is an open-source AI agent runtime that manages the execution and resources of agents the way an operating system manages processes. Built in Rust, it is durable, controlled and trustworthy, and runs both on-device and in the cloud. It connects all kinds of agents through a unified interface, and lets tasks be saved, rolled back and forked at any time.
+branches:
+- name: master
+  type: protected
+type: public
