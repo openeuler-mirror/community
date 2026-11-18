@@ -550,6 +550,7 @@ Jinyun Ye[@joeyye-work](https://atomgit.com/joeyye-work)
 <tr><th>Repo</th><th>Committer</th></tr>
 <tr><td>
 
+[openeuler/kad](https://atomgit.com/openeuler/kad)<br/>
 [src-openeuler/kad](https://atomgit.com/src-openeuler/kad)
 
 </td><td>
