@@ -166,6 +166,7 @@
 
 </td><td>
 
+黄晓权[@huang-xiaoquan](https://atomgit.com/huang-xiaoquan)<br/>
 胡林[@lin-4682](https://atomgit.com/lin-4682)<br/>
 黄梓锋[@huzife](https://atomgit.com/huzife)
 
