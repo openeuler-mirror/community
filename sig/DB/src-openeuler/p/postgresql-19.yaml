@@ -1,0 +1,10 @@
+name: postgresql-19
+description: PostgreSQL is a powerful, open source object-relational database system with over 40 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance.
+type: public
+upstream: https://www.postgresql.org/
+branches:
+  - name: master
+    type: protected
+  - name: openEuler-24.03-LTS-Next
+    create_from: master
+    type: protected
