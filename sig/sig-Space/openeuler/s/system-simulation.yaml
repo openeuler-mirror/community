@@ -1,7 +1,7 @@
 name: system-simulation
 description: QEMU based full-system simulation for space computing, covering Phytium D2000V/E2000 on arm64, RISC-V targets, SEU fault injection and arm64/RISC-V heterogeneous co-simulation
 type: public
-upstream: https://github.com/processmission/qemu
+upstream: https://gitlab.com/qemu-project/qemu
 branches:
   - name: master
     type: protected
