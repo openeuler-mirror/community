@@ -1,0 +1,7 @@
+name: gmobile
+description: gmobile is a library containing functions useful for mobile phones, like handling notches, or querying camera orientation. It is a build dependency for GNOME calls >= 46.
+type: public
+upstream: https://gitlab.gnome.org/World/Phosh/gmobile
+branches:
+  - name: master
+    type: protected
