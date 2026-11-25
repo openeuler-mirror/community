@@ -1,0 +1,10 @@
+name: nebula-console
+description: This repository contains the NebulaGraph Console for NebulaGraph 3.x. NebulaGraph Console (Console for short) is a console for NebulaGraph. With Console, you can create a graph schema, import the demonstration basketballplayer dataset, and retrieve data.
+type: public
+upstream: https://github.com/vesoft-inc/nebula-console
+branches:
+  - name: master
+    type: protected
+  - name: release-3.8
+    create_from: master
+    type: protected
