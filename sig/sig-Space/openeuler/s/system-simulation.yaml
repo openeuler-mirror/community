@@ -1,0 +1,7 @@
+name: system-simulation
+description: QEMU based full-system simulation reference platform for space computing
+type: public
+upstream: https://gitlab.com/qemu-project/qemu
+branches:
+  - name: master
+    type: protected
